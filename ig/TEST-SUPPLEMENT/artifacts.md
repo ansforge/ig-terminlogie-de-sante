@@ -759,7 +759,7 @@ These define new code systems used by systems conforming to this implementation 
 
 | | |
 | :--- | :--- |
-| [ActCodeSupplementFr](CodeSystem-ActCode-supplement-fr.md) | Traduction Francaise |
+| [ActCodeSupplementFr](CodeSystem-actCode-supplement-fr.md) | Traduction Francaise |
 | [ActMoodSupplementFr](CodeSystem-ActMood-supplement-fr.md) | Traduction Francaise |
 | [ActPrioritySupplementFr](CodeSystem-ActPriority-supplement-fr.md) | Traduction Francaise |
 | [ActStatusSupplementFr](CodeSystem-ActStatus-supplement-fr.md) | Traduction Francaise |
@@ -786,7 +786,7 @@ These define new code systems used by systems conforming to this implementation 
 | [RoleCodeSupplementFr](CodeSystem-RoleCode-supplement-fr.md) | Traduction Francaise |
 | [SNOMED CT core](CodeSystem-900000000000207008-20251001.md) | SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO). |
 | [Service type](CodeSystem-service-type.md) | This value set defines an example set of codes of service-types. |
-| [SpecimenTypeSupplementFr](CodeSystem-SpecimenType-supplement-fr.md) | Traduction Francaise |
+| [SpecimenTypeSupplementFr](CodeSystem-specimenType-supplement-fr.md) | Traduction Francaise |
 | [Standard Terms Data Base Dictionnaire européen multilingue de termes normalisés descripteurs de médicaments](CodeSystem-terminologie-standardterms.md) | Les standard terms (ou listes de termes normalisés) ont été établis en réponse à une demande de la Commission européenne. Ils contiennent les formes pharmaceutiques, les voies et/ou les méthodes d’administration, les unités de présentation, ainsi que les conditionnements, les systèmes de fermeture et les dispositifs d’administration des médicaments à usage humain et/ou vétérinaire. |
 | [TRE_A00_ProducteurDocNonPS](CodeSystem-TRE-A00-ProducteurDocNonPS.md) | Producteur de document non PS |
 | [TRE_A01_CadreExercice](CodeSystem-TRE-A01-CadreExercice.md) | Cadre d’exercice |

@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.org/fhir/us/example/CodeSystem/ObservationInterpretation-supplement-fr | *Version*:1.0 |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/observationInterpretation-supplement-fr | *Version*:1.0 |
 | Draft as of 2025-10-24 | *Computable Name*:ObservationInterpretationSupplementFr |
 
  
@@ -20,7 +20,7 @@ Traduction Francaise
 
 Langue : fr-FR
 
-This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/ObservationInterpretation-supplement-fr` defines labels on the following codes:
+This code system supplement `https://smt.esante.gouv.fr/fhir/CodeSystem/observationInterpretation-supplement-fr` defines labels on the following codes:
 
 
 
@@ -31,7 +31,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
   "resourceType" : "CodeSystem",
   "id" : "ObservationInterpretation-supplement-fr",
   "language" : "fr-FR",
-  "url" : "http://hl7.org/fhir/us/example/CodeSystem/ObservationInterpretation-supplement-fr",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/observationInterpretation-supplement-fr",
   "version" : "1.0",
   "name" : "ObservationInterpretationSupplementFr",
   "title" : "ObservationInterpretationSupplementFr",

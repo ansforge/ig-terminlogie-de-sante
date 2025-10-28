@@ -13,7 +13,7 @@ Les terminologies sont des nomenclatures officielles créées et maintenues :
 | :--- | :--- | :--- |
 | Name | Description | date_maj |
 | [ATC](CodeSystem-terminologie-atc.md) | La classification ATC (anatomique, thérapeutique et chimique) classe les substances actives dans différents groupes selon l’organe ou le système sur lequel ils agissent et selon leurs propriétés thérapeutiques, pharmacologiques et chimiques. | 10/03/2025 |
-| [ActCodeSupplementFr](CodeSystem-ActCode-supplement-fr.md) | Traduction Francaise | 24/10/2025 |
+| [ActCodeSupplementFr](CodeSystem-actCode-supplement-fr.md) | Traduction Francaise | 24/10/2025 |
 | [ActMoodSupplementFr](CodeSystem-ActMood-supplement-fr.md) | Traduction Francaise | 24/10/2025 |
 | [ActPrioritySupplementFr](CodeSystem-ActPriority-supplement-fr.md) | Traduction Francaise | 24/10/2025 |
 | [ActStatusSupplementFr](CodeSystem-ActStatus-supplement-fr.md) | Traduction Francaise | 24/10/2025 |
@@ -39,7 +39,7 @@ Les terminologies sont des nomenclatures officielles créées et maintenues :
 | [SNOMED_CT](CodeSystem-11000315107-20250621.md) | SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO). | 21/06/2025 |
 | [SNOMED_CT](CodeSystem-900000000000207008-20251001.md) | SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO). | 30/09/2025 |
 | [ServiceType](CodeSystem-service-type.md) | This value set defines an example set of codes of service-types. | 09/03/2024 |
-| [SpecimenTypeSupplementFr](CodeSystem-SpecimenType-supplement-fr.md) | Traduction Francaise | 24/10/2025 |
+| [SpecimenTypeSupplementFr](CodeSystem-specimenType-supplement-fr.md) | Traduction Francaise | 24/10/2025 |
 | [Standard_terms_EDQM](CodeSystem-terminologie-standardterms.md) | Les standard terms (ou listes de termes normalisés) ont été établis en réponse à une demande de la Commission européenne. Ils contiennent les formes pharmaceutiques, les voies et/ou les méthodes d’administration, les unités de présentation, ainsi que les conditionnements, les systèmes de fermeture et les dispositifs d’administration des médicaments à usage humain et/ou vétérinaire. | 11/07/2025 |
 | [TRE_A00_ProducteurDocNonPS](CodeSystem-TRE-A00-ProducteurDocNonPS.md) | Producteur de document non PS | 29/03/2024 |
 | [TRE_A01_CadreExercice](CodeSystem-TRE-A01-CadreExercice.md) | Cadre d'exercice | 27/09/2024 |

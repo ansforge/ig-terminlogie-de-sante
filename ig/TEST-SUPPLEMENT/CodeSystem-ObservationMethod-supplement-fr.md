@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.org/fhir/us/example/CodeSystem/ObservationMethod-supplement-fr | *Version*:1.0 |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/observationMethod-supplement-fr | *Version*:1.0 |
 | Draft as of 2025-10-24 | *Computable Name*:ObservationMethodSupplementFr |
 
  
@@ -20,7 +20,7 @@ Traduction Francaise
 
 Langue : fr-FR
 
-This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/ObservationMethod-supplement-fr` defines labels on the following codes:
+This code system supplement `https://smt.esante.gouv.fr/fhir/CodeSystem/observationMethod-supplement-fr` defines labels on the following codes:
 
 
 
@@ -31,7 +31,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
   "resourceType" : "CodeSystem",
   "id" : "ObservationMethod-supplement-fr",
   "language" : "fr-FR",
-  "url" : "http://hl7.org/fhir/us/example/CodeSystem/ObservationMethod-supplement-fr",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/observationMethod-supplement-fr",
   "version" : "1.0",
   "name" : "ObservationMethodSupplementFr",
   "title" : "ObservationMethodSupplementFr",
@@ -53,7 +53,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
   "supplements" : "http://terminology.hl7.org/CodeSystem/v3-ObservationMethod|3.0.0",
   "concept" : [
     {
-      "code" : "1",
+      "code" : "0001",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -66,7 +66,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "2",
+      "code" : "0002",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -79,7 +79,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "3",
+      "code" : "0003",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -92,7 +92,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "4",
+      "code" : "0004",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -105,7 +105,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "5",
+      "code" : "0005",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -118,7 +118,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "6",
+      "code" : "0006",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -131,7 +131,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "7",
+      "code" : "0007",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -144,7 +144,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "8",
+      "code" : "0008",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -157,7 +157,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "9",
+      "code" : "0009",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -170,7 +170,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "10",
+      "code" : "0010",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -183,7 +183,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "11",
+      "code" : "0011",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -196,7 +196,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "12",
+      "code" : "0012",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -209,7 +209,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "13",
+      "code" : "0013",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -222,7 +222,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "14",
+      "code" : "0014",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -235,7 +235,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "15",
+      "code" : "0015",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -248,7 +248,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "16",
+      "code" : "0016",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -261,7 +261,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "17",
+      "code" : "0017",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -274,7 +274,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "18",
+      "code" : "0018",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -287,7 +287,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "19",
+      "code" : "0019",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -300,7 +300,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "20",
+      "code" : "0020",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -313,7 +313,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "21",
+      "code" : "0021",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -326,7 +326,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "22",
+      "code" : "0022",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -339,7 +339,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "23",
+      "code" : "0023",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -352,7 +352,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "24",
+      "code" : "0024",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -365,7 +365,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "25",
+      "code" : "0025",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -378,7 +378,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "26",
+      "code" : "0026",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -391,7 +391,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "27",
+      "code" : "0027",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -404,7 +404,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "30",
+      "code" : "0030",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -417,7 +417,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "31",
+      "code" : "0031",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -430,7 +430,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "32",
+      "code" : "0032",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -443,7 +443,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "33",
+      "code" : "0033",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -456,7 +456,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "34",
+      "code" : "0034",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -469,7 +469,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "37",
+      "code" : "0037",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -482,7 +482,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "38",
+      "code" : "0038",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -495,7 +495,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "39",
+      "code" : "0039",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -508,7 +508,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "40",
+      "code" : "0040",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -521,7 +521,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "41",
+      "code" : "0041",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -534,7 +534,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "42",
+      "code" : "0042",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -547,7 +547,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "43",
+      "code" : "0043",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -560,7 +560,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "44",
+      "code" : "0044",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -573,7 +573,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "45",
+      "code" : "0045",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -586,7 +586,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "46",
+      "code" : "0046",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -599,7 +599,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "47",
+      "code" : "0047",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -612,7 +612,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "48",
+      "code" : "0048",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -625,7 +625,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "49",
+      "code" : "0049",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -638,7 +638,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "50",
+      "code" : "0050",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -651,7 +651,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "51",
+      "code" : "0051",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -664,7 +664,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "52",
+      "code" : "0052",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -677,7 +677,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "53",
+      "code" : "0053",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -690,7 +690,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "54",
+      "code" : "0054",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -703,7 +703,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "61",
+      "code" : "0061",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -716,7 +716,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "62",
+      "code" : "0062",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -729,7 +729,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "63",
+      "code" : "0063",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -742,7 +742,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "64",
+      "code" : "0064",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -755,7 +755,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "65",
+      "code" : "0065",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -768,7 +768,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "66",
+      "code" : "0066",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -781,7 +781,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "67",
+      "code" : "0067",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -794,7 +794,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "68",
+      "code" : "0068",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -807,7 +807,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "69",
+      "code" : "0069",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -820,7 +820,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "70",
+      "code" : "0070",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -833,7 +833,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "71",
+      "code" : "0071",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -846,7 +846,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "72",
+      "code" : "0072",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -859,7 +859,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "73",
+      "code" : "0073",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -872,7 +872,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "74",
+      "code" : "0074",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -885,7 +885,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "75",
+      "code" : "0075",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -898,7 +898,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "76",
+      "code" : "0076",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -911,7 +911,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "77",
+      "code" : "0077",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -924,7 +924,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "78",
+      "code" : "0078",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -937,7 +937,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "79",
+      "code" : "0079",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -950,7 +950,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "80",
+      "code" : "0080",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -963,7 +963,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "81",
+      "code" : "0081",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -976,7 +976,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "82",
+      "code" : "0082",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -989,7 +989,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "83",
+      "code" : "0083",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1002,7 +1002,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "84",
+      "code" : "0084",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1015,7 +1015,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "85",
+      "code" : "0085",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1028,7 +1028,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "86",
+      "code" : "0086",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1041,7 +1041,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "87",
+      "code" : "0087",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1054,7 +1054,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "88",
+      "code" : "0088",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1067,7 +1067,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "89",
+      "code" : "0089",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1080,7 +1080,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "90",
+      "code" : "0090",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1093,7 +1093,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "91",
+      "code" : "0091",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1106,7 +1106,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "92",
+      "code" : "0092",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1119,7 +1119,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "93",
+      "code" : "0093",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1132,7 +1132,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "94",
+      "code" : "0094",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1145,7 +1145,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "95",
+      "code" : "0095",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1158,7 +1158,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "96",
+      "code" : "0096",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1171,7 +1171,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "97",
+      "code" : "0097",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1184,7 +1184,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "98",
+      "code" : "0098",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1197,7 +1197,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "99",
+      "code" : "0099",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1210,7 +1210,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "100",
+      "code" : "0100",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1223,7 +1223,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "101",
+      "code" : "0101",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1236,7 +1236,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "102",
+      "code" : "0102",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1249,7 +1249,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "103",
+      "code" : "0103",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1262,7 +1262,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "104",
+      "code" : "0104",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1275,7 +1275,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "105",
+      "code" : "0105",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1288,7 +1288,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "106",
+      "code" : "0106",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1301,7 +1301,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "107",
+      "code" : "0107",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1314,7 +1314,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "108",
+      "code" : "0108",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1327,7 +1327,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "109",
+      "code" : "0109",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1340,7 +1340,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "110",
+      "code" : "0110",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1353,7 +1353,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "111",
+      "code" : "0111",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1366,7 +1366,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "112",
+      "code" : "0112",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1379,7 +1379,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "113",
+      "code" : "0113",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1392,7 +1392,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "114",
+      "code" : "0114",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1405,7 +1405,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "115",
+      "code" : "0115",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1418,7 +1418,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "116",
+      "code" : "0116",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1431,7 +1431,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "117",
+      "code" : "0117",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1444,7 +1444,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "120",
+      "code" : "0120",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1457,7 +1457,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "122",
+      "code" : "0122",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1470,7 +1470,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "123",
+      "code" : "0123",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1483,7 +1483,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "127",
+      "code" : "0127",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1496,7 +1496,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "128",
+      "code" : "0128",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1509,7 +1509,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "129",
+      "code" : "0129",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1522,7 +1522,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "130",
+      "code" : "0130",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1535,7 +1535,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "131",
+      "code" : "0131",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1548,7 +1548,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "132",
+      "code" : "0132",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1561,7 +1561,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "134",
+      "code" : "0134",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1574,7 +1574,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "135",
+      "code" : "0135",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1587,7 +1587,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "138",
+      "code" : "0138",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1600,7 +1600,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "139",
+      "code" : "0139",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1613,7 +1613,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "140",
+      "code" : "0140",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1626,7 +1626,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "141",
+      "code" : "0141",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1639,7 +1639,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "142",
+      "code" : "0142",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1652,7 +1652,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "143",
+      "code" : "0143",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1665,7 +1665,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "144",
+      "code" : "0144",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1678,7 +1678,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "145",
+      "code" : "0145",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1691,7 +1691,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "146",
+      "code" : "0146",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1704,7 +1704,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "147",
+      "code" : "0147",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1717,7 +1717,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "148",
+      "code" : "0148",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1730,7 +1730,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "149",
+      "code" : "0149",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1743,7 +1743,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "150",
+      "code" : "0150",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1756,7 +1756,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "151",
+      "code" : "0151",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1769,7 +1769,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "152",
+      "code" : "0152",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1782,7 +1782,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "153",
+      "code" : "0153",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1795,7 +1795,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "154",
+      "code" : "0154",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1808,7 +1808,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "155",
+      "code" : "0155",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1821,7 +1821,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "156",
+      "code" : "0156",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1834,7 +1834,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "157",
+      "code" : "0157",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1847,7 +1847,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "158",
+      "code" : "0158",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1860,7 +1860,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "159",
+      "code" : "0159",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1873,7 +1873,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "160",
+      "code" : "0160",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1886,7 +1886,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "161",
+      "code" : "0161",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1899,7 +1899,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "162",
+      "code" : "0162",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1912,7 +1912,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "163",
+      "code" : "0163",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1925,7 +1925,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "164",
+      "code" : "0164",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1938,7 +1938,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "165",
+      "code" : "0165",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1951,7 +1951,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "166",
+      "code" : "0166",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1964,7 +1964,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "167",
+      "code" : "0167",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1977,7 +1977,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "168",
+      "code" : "0168",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1990,7 +1990,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "169",
+      "code" : "0169",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2003,7 +2003,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "170",
+      "code" : "0170",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2016,7 +2016,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "171",
+      "code" : "0171",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2029,7 +2029,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "172",
+      "code" : "0172",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2042,7 +2042,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "173",
+      "code" : "0173",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2055,7 +2055,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "174",
+      "code" : "0174",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2068,7 +2068,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "175",
+      "code" : "0175",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2081,7 +2081,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "176",
+      "code" : "0176",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2094,7 +2094,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "177",
+      "code" : "0177",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2107,7 +2107,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "178",
+      "code" : "0178",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2120,7 +2120,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "179",
+      "code" : "0179",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2133,7 +2133,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "180",
+      "code" : "0180",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2146,7 +2146,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "181",
+      "code" : "0181",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2159,7 +2159,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "182",
+      "code" : "0182",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2172,7 +2172,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "183",
+      "code" : "0183",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2185,7 +2185,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "184",
+      "code" : "0184",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2198,7 +2198,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "185",
+      "code" : "0185",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2211,7 +2211,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "186",
+      "code" : "0186",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2224,7 +2224,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "187",
+      "code" : "0187",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2237,7 +2237,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "188",
+      "code" : "0188",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2250,7 +2250,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "189",
+      "code" : "0189",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2263,7 +2263,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "190",
+      "code" : "0190",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2276,7 +2276,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "191",
+      "code" : "0191",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2289,7 +2289,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "192",
+      "code" : "0192",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2302,7 +2302,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "193",
+      "code" : "0193",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2315,7 +2315,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "194",
+      "code" : "0194",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2328,7 +2328,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "195",
+      "code" : "0195",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2341,7 +2341,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "196",
+      "code" : "0196",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2354,7 +2354,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "197",
+      "code" : "0197",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2367,7 +2367,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "198",
+      "code" : "0198",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2380,7 +2380,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "199",
+      "code" : "0199",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2393,7 +2393,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "200",
+      "code" : "0200",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2406,7 +2406,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "201",
+      "code" : "0201",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2419,7 +2419,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "202",
+      "code" : "0202",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2432,7 +2432,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "203",
+      "code" : "0203",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2445,7 +2445,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "204",
+      "code" : "0204",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2458,7 +2458,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "205",
+      "code" : "0205",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2471,7 +2471,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "206",
+      "code" : "0206",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2484,7 +2484,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "207",
+      "code" : "0207",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2497,7 +2497,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "208",
+      "code" : "0208",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2510,7 +2510,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "209",
+      "code" : "0209",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2523,7 +2523,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "210",
+      "code" : "0210",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2536,7 +2536,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "211",
+      "code" : "0211",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2549,7 +2549,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "212",
+      "code" : "0212",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2562,7 +2562,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "213",
+      "code" : "0213",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2575,7 +2575,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "214",
+      "code" : "0214",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2588,7 +2588,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "215",
+      "code" : "0215",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2601,7 +2601,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "216",
+      "code" : "0216",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2614,7 +2614,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "217",
+      "code" : "0217",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2627,7 +2627,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "218",
+      "code" : "0218",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2640,7 +2640,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "219",
+      "code" : "0219",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2653,7 +2653,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "220",
+      "code" : "0220",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2666,7 +2666,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "221",
+      "code" : "0221",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2679,7 +2679,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "222",
+      "code" : "0222",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2692,7 +2692,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "223",
+      "code" : "0223",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2705,7 +2705,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "224",
+      "code" : "0224",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2718,7 +2718,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "225",
+      "code" : "0225",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2731,7 +2731,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "226",
+      "code" : "0226",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2744,7 +2744,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "227",
+      "code" : "0227",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2757,7 +2757,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "228",
+      "code" : "0228",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2770,7 +2770,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "229",
+      "code" : "0229",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2783,7 +2783,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "230",
+      "code" : "0230",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2796,7 +2796,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "231",
+      "code" : "0231",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2809,7 +2809,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "232",
+      "code" : "0232",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2822,7 +2822,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "233",
+      "code" : "0233",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2835,7 +2835,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "234",
+      "code" : "0234",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2848,7 +2848,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "235",
+      "code" : "0235",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2861,7 +2861,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "236",
+      "code" : "0236",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2874,7 +2874,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "237",
+      "code" : "0237",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2887,7 +2887,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "238",
+      "code" : "0238",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2900,7 +2900,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "239",
+      "code" : "0239",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2913,7 +2913,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "240",
+      "code" : "0240",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2926,7 +2926,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "241",
+      "code" : "0241",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2939,7 +2939,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "242",
+      "code" : "0242",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2952,7 +2952,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "243",
+      "code" : "0243",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2965,7 +2965,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "244",
+      "code" : "0244",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2978,7 +2978,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "245",
+      "code" : "0245",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2991,7 +2991,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "246",
+      "code" : "0246",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -3004,7 +3004,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "247",
+      "code" : "0247",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -3017,7 +3017,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "248",
+      "code" : "0248",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -3030,7 +3030,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "249",
+      "code" : "0249",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -3043,7 +3043,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "250",
+      "code" : "0250",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -3056,7 +3056,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "251",
+      "code" : "0251",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -3069,7 +3069,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "252",
+      "code" : "0252",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -3082,7 +3082,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "253",
+      "code" : "0253",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -3095,7 +3095,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "254",
+      "code" : "0254",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -3108,7 +3108,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "255",
+      "code" : "0255",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -3121,7 +3121,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "256",
+      "code" : "0256",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -3134,7 +3134,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "257",
+      "code" : "0257",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -3147,7 +3147,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "258",
+      "code" : "0258",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -3160,7 +3160,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "259",
+      "code" : "0259",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -3173,7 +3173,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "261",
+      "code" : "0261",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -3186,7 +3186,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "262",
+      "code" : "0262",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -3199,7 +3199,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "263",
+      "code" : "0263",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -3212,7 +3212,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "264",
+      "code" : "0264",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -3225,7 +3225,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "265",
+      "code" : "0265",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -3238,7 +3238,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "266",
+      "code" : "0266",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -3251,7 +3251,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "267",
+      "code" : "0267",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -3264,7 +3264,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "268",
+      "code" : "0268",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -3277,7 +3277,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "269",
+      "code" : "0269",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -3290,7 +3290,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "270",
+      "code" : "0270",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -3303,7 +3303,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "271",
+      "code" : "0271",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -3316,7 +3316,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "272",
+      "code" : "0272",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -3329,7 +3329,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "273",
+      "code" : "0273",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -3342,7 +3342,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "274",
+      "code" : "0274",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -3355,7 +3355,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "275",
+      "code" : "0275",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -3381,7 +3381,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "276",
+      "code" : "0276",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -3394,7 +3394,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "277",
+      "code" : "0277",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -3407,7 +3407,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "278",
+      "code" : "0278",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -3420,7 +3420,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "279",
+      "code" : "0279",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -3433,7 +3433,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Observati
       ]
     },
     {
-      "code" : "280",
+      "code" : "0280",
       "designation" : [
         {
           "language" : "fr-FR",

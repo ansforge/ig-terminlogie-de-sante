@@ -4,9 +4,9 @@
   "language" : "fr-FR",
   "text" : {
     "status" : "generated",
-    "div" : "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem ObservationMethod-supplement-fr</b></p><a name=\"ObservationMethod-supplement-fr\"> </a><a name=\"hcObservationMethod-supplement-fr\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Langue : fr-FR</p></div><p>This code system supplement <code>http://hl7.org/fhir/us/example/CodeSystem/ObservationMethod-supplement-fr</code> defines labels on the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-1\">1</a><a name=\"ObservationMethod-supplement-fr-1\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-2\">2</a><a name=\"ObservationMethod-supplement-fr-2\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-3\">3</a><a name=\"ObservationMethod-supplement-fr-3\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-4\">4</a><a name=\"ObservationMethod-supplement-fr-4\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-5\">5</a><a name=\"ObservationMethod-supplement-fr-5\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-6\">6</a><a name=\"ObservationMethod-supplement-fr-6\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-7\">7</a><a name=\"ObservationMethod-supplement-fr-7\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-8\">8</a><a name=\"ObservationMethod-supplement-fr-8\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-9\">9</a><a name=\"ObservationMethod-supplement-fr-9\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-10\">10</a><a name=\"ObservationMethod-supplement-fr-10\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-11\">11</a><a name=\"ObservationMethod-supplement-fr-11\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-12\">12</a><a name=\"ObservationMethod-supplement-fr-12\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-13\">13</a><a name=\"ObservationMethod-supplement-fr-13\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-14\">14</a><a name=\"ObservationMethod-supplement-fr-14\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-15\">15</a><a name=\"ObservationMethod-supplement-fr-15\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-16\">16</a><a name=\"ObservationMethod-supplement-fr-16\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-17\">17</a><a name=\"ObservationMethod-supplement-fr-17\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-18\">18</a><a name=\"ObservationMethod-supplement-fr-18\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-19\">19</a><a name=\"ObservationMethod-supplement-fr-19\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-20\">20</a><a name=\"ObservationMethod-supplement-fr-20\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-21\">21</a><a name=\"ObservationMethod-supplement-fr-21\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-22\">22</a><a name=\"ObservationMethod-supplement-fr-22\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-23\">23</a><a name=\"ObservationMethod-supplement-fr-23\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-24\">24</a><a name=\"ObservationMethod-supplement-fr-24\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-25\">25</a><a name=\"ObservationMethod-supplement-fr-25\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-26\">26</a><a name=\"ObservationMethod-supplement-fr-26\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-27\">27</a><a name=\"ObservationMethod-supplement-fr-27\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-30\">30</a><a name=\"ObservationMethod-supplement-fr-30\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-31\">31</a><a name=\"ObservationMethod-supplement-fr-31\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-32\">32</a><a name=\"ObservationMethod-supplement-fr-32\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-33\">33</a><a name=\"ObservationMethod-supplement-fr-33\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-34\">34</a><a name=\"ObservationMethod-supplement-fr-34\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-37\">37</a><a name=\"ObservationMethod-supplement-fr-37\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-38\">38</a><a name=\"ObservationMethod-supplement-fr-38\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-39\">39</a><a name=\"ObservationMethod-supplement-fr-39\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-40\">40</a><a name=\"ObservationMethod-supplement-fr-40\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-41\">41</a><a name=\"ObservationMethod-supplement-fr-41\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-42\">42</a><a name=\"ObservationMethod-supplement-fr-42\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-43\">43</a><a name=\"ObservationMethod-supplement-fr-43\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-44\">44</a><a name=\"ObservationMethod-supplement-fr-44\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-45\">45</a><a name=\"ObservationMethod-supplement-fr-45\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-46\">46</a><a name=\"ObservationMethod-supplement-fr-46\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-47\">47</a><a name=\"ObservationMethod-supplement-fr-47\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-48\">48</a><a name=\"ObservationMethod-supplement-fr-48\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-49\">49</a><a name=\"ObservationMethod-supplement-fr-49\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-50\">50</a><a name=\"ObservationMethod-supplement-fr-50\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-51\">51</a><a name=\"ObservationMethod-supplement-fr-51\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-52\">52</a><a name=\"ObservationMethod-supplement-fr-52\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-53\">53</a><a name=\"ObservationMethod-supplement-fr-53\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-54\">54</a><a name=\"ObservationMethod-supplement-fr-54\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-61\">61</a><a name=\"ObservationMethod-supplement-fr-61\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-62\">62</a><a name=\"ObservationMethod-supplement-fr-62\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-63\">63</a><a name=\"ObservationMethod-supplement-fr-63\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-64\">64</a><a name=\"ObservationMethod-supplement-fr-64\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-65\">65</a><a name=\"ObservationMethod-supplement-fr-65\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-66\">66</a><a name=\"ObservationMethod-supplement-fr-66\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-67\">67</a><a name=\"ObservationMethod-supplement-fr-67\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-68\">68</a><a name=\"ObservationMethod-supplement-fr-68\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-69\">69</a><a name=\"ObservationMethod-supplement-fr-69\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-70\">70</a><a name=\"ObservationMethod-supplement-fr-70\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-71\">71</a><a name=\"ObservationMethod-supplement-fr-71\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-72\">72</a><a name=\"ObservationMethod-supplement-fr-72\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-73\">73</a><a name=\"ObservationMethod-supplement-fr-73\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-74\">74</a><a name=\"ObservationMethod-supplement-fr-74\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-75\">75</a><a name=\"ObservationMethod-supplement-fr-75\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-76\">76</a><a name=\"ObservationMethod-supplement-fr-76\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-77\">77</a><a name=\"ObservationMethod-supplement-fr-77\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-78\">78</a><a name=\"ObservationMethod-supplement-fr-78\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-79\">79</a><a name=\"ObservationMethod-supplement-fr-79\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-80\">80</a><a name=\"ObservationMethod-supplement-fr-80\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-81\">81</a><a name=\"ObservationMethod-supplement-fr-81\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-82\">82</a><a name=\"ObservationMethod-supplement-fr-82\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-83\">83</a><a name=\"ObservationMethod-supplement-fr-83\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-84\">84</a><a name=\"ObservationMethod-supplement-fr-84\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-85\">85</a><a name=\"ObservationMethod-supplement-fr-85\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-86\">86</a><a name=\"ObservationMethod-supplement-fr-86\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-87\">87</a><a name=\"ObservationMethod-supplement-fr-87\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-88\">88</a><a name=\"ObservationMethod-supplement-fr-88\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-89\">89</a><a name=\"ObservationMethod-supplement-fr-89\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-90\">90</a><a name=\"ObservationMethod-supplement-fr-90\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-91\">91</a><a name=\"ObservationMethod-supplement-fr-91\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-92\">92</a><a name=\"ObservationMethod-supplement-fr-92\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-93\">93</a><a name=\"ObservationMethod-supplement-fr-93\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-94\">94</a><a name=\"ObservationMethod-supplement-fr-94\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-95\">95</a><a name=\"ObservationMethod-supplement-fr-95\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-96\">96</a><a name=\"ObservationMethod-supplement-fr-96\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-97\">97</a><a name=\"ObservationMethod-supplement-fr-97\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-98\">98</a><a name=\"ObservationMethod-supplement-fr-98\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-99\">99</a><a name=\"ObservationMethod-supplement-fr-99\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-100\">100</a><a name=\"ObservationMethod-supplement-fr-100\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-101\">101</a><a name=\"ObservationMethod-supplement-fr-101\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-102\">102</a><a name=\"ObservationMethod-supplement-fr-102\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-103\">103</a><a name=\"ObservationMethod-supplement-fr-103\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-104\">104</a><a name=\"ObservationMethod-supplement-fr-104\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-105\">105</a><a name=\"ObservationMethod-supplement-fr-105\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-106\">106</a><a name=\"ObservationMethod-supplement-fr-106\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-107\">107</a><a name=\"ObservationMethod-supplement-fr-107\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-108\">108</a><a name=\"ObservationMethod-supplement-fr-108\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-109\">109</a><a name=\"ObservationMethod-supplement-fr-109\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-110\">110</a><a name=\"ObservationMethod-supplement-fr-110\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-111\">111</a><a name=\"ObservationMethod-supplement-fr-111\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-112\">112</a><a name=\"ObservationMethod-supplement-fr-112\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-113\">113</a><a name=\"ObservationMethod-supplement-fr-113\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-114\">114</a><a name=\"ObservationMethod-supplement-fr-114\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-115\">115</a><a name=\"ObservationMethod-supplement-fr-115\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-116\">116</a><a name=\"ObservationMethod-supplement-fr-116\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-117\">117</a><a name=\"ObservationMethod-supplement-fr-117\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-120\">120</a><a name=\"ObservationMethod-supplement-fr-120\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-122\">122</a><a name=\"ObservationMethod-supplement-fr-122\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-123\">123</a><a name=\"ObservationMethod-supplement-fr-123\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-127\">127</a><a name=\"ObservationMethod-supplement-fr-127\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-128\">128</a><a name=\"ObservationMethod-supplement-fr-128\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-129\">129</a><a name=\"ObservationMethod-supplement-fr-129\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-130\">130</a><a name=\"ObservationMethod-supplement-fr-130\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-131\">131</a><a name=\"ObservationMethod-supplement-fr-131\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-132\">132</a><a name=\"ObservationMethod-supplement-fr-132\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-134\">134</a><a name=\"ObservationMethod-supplement-fr-134\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-135\">135</a><a name=\"ObservationMethod-supplement-fr-135\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-138\">138</a><a name=\"ObservationMethod-supplement-fr-138\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-139\">139</a><a name=\"ObservationMethod-supplement-fr-139\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-140\">140</a><a name=\"ObservationMethod-supplement-fr-140\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-141\">141</a><a name=\"ObservationMethod-supplement-fr-141\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-142\">142</a><a name=\"ObservationMethod-supplement-fr-142\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-143\">143</a><a name=\"ObservationMethod-supplement-fr-143\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-144\">144</a><a name=\"ObservationMethod-supplement-fr-144\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-145\">145</a><a name=\"ObservationMethod-supplement-fr-145\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-146\">146</a><a name=\"ObservationMethod-supplement-fr-146\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-147\">147</a><a name=\"ObservationMethod-supplement-fr-147\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-148\">148</a><a name=\"ObservationMethod-supplement-fr-148\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-149\">149</a><a name=\"ObservationMethod-supplement-fr-149\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-150\">150</a><a name=\"ObservationMethod-supplement-fr-150\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-151\">151</a><a name=\"ObservationMethod-supplement-fr-151\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-152\">152</a><a name=\"ObservationMethod-supplement-fr-152\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-153\">153</a><a name=\"ObservationMethod-supplement-fr-153\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-154\">154</a><a name=\"ObservationMethod-supplement-fr-154\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-155\">155</a><a name=\"ObservationMethod-supplement-fr-155\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-156\">156</a><a name=\"ObservationMethod-supplement-fr-156\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-157\">157</a><a name=\"ObservationMethod-supplement-fr-157\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-158\">158</a><a name=\"ObservationMethod-supplement-fr-158\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-159\">159</a><a name=\"ObservationMethod-supplement-fr-159\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-160\">160</a><a name=\"ObservationMethod-supplement-fr-160\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-161\">161</a><a name=\"ObservationMethod-supplement-fr-161\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-162\">162</a><a name=\"ObservationMethod-supplement-fr-162\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-163\">163</a><a name=\"ObservationMethod-supplement-fr-163\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-164\">164</a><a name=\"ObservationMethod-supplement-fr-164\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-165\">165</a><a name=\"ObservationMethod-supplement-fr-165\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-166\">166</a><a name=\"ObservationMethod-supplement-fr-166\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-167\">167</a><a name=\"ObservationMethod-supplement-fr-167\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-168\">168</a><a name=\"ObservationMethod-supplement-fr-168\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-169\">169</a><a name=\"ObservationMethod-supplement-fr-169\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-170\">170</a><a name=\"ObservationMethod-supplement-fr-170\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-171\">171</a><a name=\"ObservationMethod-supplement-fr-171\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-172\">172</a><a name=\"ObservationMethod-supplement-fr-172\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-173\">173</a><a name=\"ObservationMethod-supplement-fr-173\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-174\">174</a><a name=\"ObservationMethod-supplement-fr-174\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-175\">175</a><a name=\"ObservationMethod-supplement-fr-175\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-176\">176</a><a name=\"ObservationMethod-supplement-fr-176\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-177\">177</a><a name=\"ObservationMethod-supplement-fr-177\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-178\">178</a><a name=\"ObservationMethod-supplement-fr-178\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-179\">179</a><a name=\"ObservationMethod-supplement-fr-179\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-180\">180</a><a name=\"ObservationMethod-supplement-fr-180\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-181\">181</a><a name=\"ObservationMethod-supplement-fr-181\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-182\">182</a><a name=\"ObservationMethod-supplement-fr-182\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-183\">183</a><a name=\"ObservationMethod-supplement-fr-183\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-184\">184</a><a name=\"ObservationMethod-supplement-fr-184\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-185\">185</a><a name=\"ObservationMethod-supplement-fr-185\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-186\">186</a><a name=\"ObservationMethod-supplement-fr-186\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-187\">187</a><a name=\"ObservationMethod-supplement-fr-187\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-188\">188</a><a name=\"ObservationMethod-supplement-fr-188\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-189\">189</a><a name=\"ObservationMethod-supplement-fr-189\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-190\">190</a><a name=\"ObservationMethod-supplement-fr-190\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-191\">191</a><a name=\"ObservationMethod-supplement-fr-191\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-192\">192</a><a name=\"ObservationMethod-supplement-fr-192\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-193\">193</a><a name=\"ObservationMethod-supplement-fr-193\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-194\">194</a><a name=\"ObservationMethod-supplement-fr-194\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-195\">195</a><a name=\"ObservationMethod-supplement-fr-195\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-196\">196</a><a name=\"ObservationMethod-supplement-fr-196\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-197\">197</a><a name=\"ObservationMethod-supplement-fr-197\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-198\">198</a><a name=\"ObservationMethod-supplement-fr-198\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-199\">199</a><a name=\"ObservationMethod-supplement-fr-199\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-200\">200</a><a name=\"ObservationMethod-supplement-fr-200\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-201\">201</a><a name=\"ObservationMethod-supplement-fr-201\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-202\">202</a><a name=\"ObservationMethod-supplement-fr-202\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-203\">203</a><a name=\"ObservationMethod-supplement-fr-203\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-204\">204</a><a name=\"ObservationMethod-supplement-fr-204\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-205\">205</a><a name=\"ObservationMethod-supplement-fr-205\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-206\">206</a><a name=\"ObservationMethod-supplement-fr-206\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-207\">207</a><a name=\"ObservationMethod-supplement-fr-207\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-208\">208</a><a name=\"ObservationMethod-supplement-fr-208\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-209\">209</a><a name=\"ObservationMethod-supplement-fr-209\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-210\">210</a><a name=\"ObservationMethod-supplement-fr-210\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-211\">211</a><a name=\"ObservationMethod-supplement-fr-211\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-212\">212</a><a name=\"ObservationMethod-supplement-fr-212\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-213\">213</a><a name=\"ObservationMethod-supplement-fr-213\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-214\">214</a><a name=\"ObservationMethod-supplement-fr-214\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-215\">215</a><a name=\"ObservationMethod-supplement-fr-215\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-216\">216</a><a name=\"ObservationMethod-supplement-fr-216\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-217\">217</a><a name=\"ObservationMethod-supplement-fr-217\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-218\">218</a><a name=\"ObservationMethod-supplement-fr-218\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-219\">219</a><a name=\"ObservationMethod-supplement-fr-219\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-220\">220</a><a name=\"ObservationMethod-supplement-fr-220\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-221\">221</a><a name=\"ObservationMethod-supplement-fr-221\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-222\">222</a><a name=\"ObservationMethod-supplement-fr-222\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-223\">223</a><a name=\"ObservationMethod-supplement-fr-223\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-224\">224</a><a name=\"ObservationMethod-supplement-fr-224\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-225\">225</a><a name=\"ObservationMethod-supplement-fr-225\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-226\">226</a><a name=\"ObservationMethod-supplement-fr-226\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-227\">227</a><a name=\"ObservationMethod-supplement-fr-227\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-228\">228</a><a name=\"ObservationMethod-supplement-fr-228\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-229\">229</a><a name=\"ObservationMethod-supplement-fr-229\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-230\">230</a><a name=\"ObservationMethod-supplement-fr-230\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-231\">231</a><a name=\"ObservationMethod-supplement-fr-231\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-232\">232</a><a name=\"ObservationMethod-supplement-fr-232\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-233\">233</a><a name=\"ObservationMethod-supplement-fr-233\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-234\">234</a><a name=\"ObservationMethod-supplement-fr-234\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-235\">235</a><a name=\"ObservationMethod-supplement-fr-235\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-236\">236</a><a name=\"ObservationMethod-supplement-fr-236\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-237\">237</a><a name=\"ObservationMethod-supplement-fr-237\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-238\">238</a><a name=\"ObservationMethod-supplement-fr-238\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-239\">239</a><a name=\"ObservationMethod-supplement-fr-239\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-240\">240</a><a name=\"ObservationMethod-supplement-fr-240\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-241\">241</a><a name=\"ObservationMethod-supplement-fr-241\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-242\">242</a><a name=\"ObservationMethod-supplement-fr-242\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-243\">243</a><a name=\"ObservationMethod-supplement-fr-243\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-244\">244</a><a name=\"ObservationMethod-supplement-fr-244\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-245\">245</a><a name=\"ObservationMethod-supplement-fr-245\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-246\">246</a><a name=\"ObservationMethod-supplement-fr-246\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-247\">247</a><a name=\"ObservationMethod-supplement-fr-247\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-248\">248</a><a name=\"ObservationMethod-supplement-fr-248\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-249\">249</a><a name=\"ObservationMethod-supplement-fr-249\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-250\">250</a><a name=\"ObservationMethod-supplement-fr-250\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-251\">251</a><a name=\"ObservationMethod-supplement-fr-251\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-252\">252</a><a name=\"ObservationMethod-supplement-fr-252\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-253\">253</a><a name=\"ObservationMethod-supplement-fr-253\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-254\">254</a><a name=\"ObservationMethod-supplement-fr-254\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-255\">255</a><a name=\"ObservationMethod-supplement-fr-255\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-256\">256</a><a name=\"ObservationMethod-supplement-fr-256\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-257\">257</a><a name=\"ObservationMethod-supplement-fr-257\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-258\">258</a><a name=\"ObservationMethod-supplement-fr-258\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-259\">259</a><a name=\"ObservationMethod-supplement-fr-259\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-261\">261</a><a name=\"ObservationMethod-supplement-fr-261\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-262\">262</a><a name=\"ObservationMethod-supplement-fr-262\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-263\">263</a><a name=\"ObservationMethod-supplement-fr-263\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-264\">264</a><a name=\"ObservationMethod-supplement-fr-264\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-265\">265</a><a name=\"ObservationMethod-supplement-fr-265\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-266\">266</a><a name=\"ObservationMethod-supplement-fr-266\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-267\">267</a><a name=\"ObservationMethod-supplement-fr-267\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-268\">268</a><a name=\"ObservationMethod-supplement-fr-268\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-269\">269</a><a name=\"ObservationMethod-supplement-fr-269\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-270\">270</a><a name=\"ObservationMethod-supplement-fr-270\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-271\">271</a><a name=\"ObservationMethod-supplement-fr-271\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-272\">272</a><a name=\"ObservationMethod-supplement-fr-272\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-273\">273</a><a name=\"ObservationMethod-supplement-fr-273\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-274\">274</a><a name=\"ObservationMethod-supplement-fr-274\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-275\">275</a><a name=\"ObservationMethod-supplement-fr-275\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-275a\">275a</a><a name=\"ObservationMethod-supplement-fr-275a\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-276\">276</a><a name=\"ObservationMethod-supplement-fr-276\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-277\">277</a><a name=\"ObservationMethod-supplement-fr-277\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-278\">278</a><a name=\"ObservationMethod-supplement-fr-278\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-279\">279</a><a name=\"ObservationMethod-supplement-fr-279\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-280\">280</a><a name=\"ObservationMethod-supplement-fr-280\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-ALGM\">ALGM</a><a name=\"ObservationMethod-supplement-fr-ALGM\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-BYCL\">BYCL</a><a name=\"ObservationMethod-supplement-fr-BYCL\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-PCR\">PCR</a><a name=\"ObservationMethod-supplement-fr-PCR\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-VDOC\">VDOC</a><a name=\"ObservationMethod-supplement-fr-VDOC\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-VREG\">VREG</a><a name=\"ObservationMethod-supplement-fr-VREG\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-VTOKEN\">VTOKEN</a><a name=\"ObservationMethod-supplement-fr-VTOKEN\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-VVOICE\">VVOICE</a><a name=\"ObservationMethod-supplement-fr-VVOICE\"> </a></td></tr></table></div>"
+    "div" : "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem ObservationMethod-supplement-fr</b></p><a name=\"ObservationMethod-supplement-fr\"> </a><a name=\"hcObservationMethod-supplement-fr\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Langue : fr-FR</p></div><p>This code system supplement <code>https://smt.esante.gouv.fr/fhir/CodeSystem/observationMethod-supplement-fr</code> defines labels on the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0001\">0001</a><a name=\"ObservationMethod-supplement-fr-0001\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0002\">0002</a><a name=\"ObservationMethod-supplement-fr-0002\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0003\">0003</a><a name=\"ObservationMethod-supplement-fr-0003\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0004\">0004</a><a name=\"ObservationMethod-supplement-fr-0004\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0005\">0005</a><a name=\"ObservationMethod-supplement-fr-0005\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0006\">0006</a><a name=\"ObservationMethod-supplement-fr-0006\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0007\">0007</a><a name=\"ObservationMethod-supplement-fr-0007\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0008\">0008</a><a name=\"ObservationMethod-supplement-fr-0008\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0009\">0009</a><a name=\"ObservationMethod-supplement-fr-0009\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0010\">0010</a><a name=\"ObservationMethod-supplement-fr-0010\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0011\">0011</a><a name=\"ObservationMethod-supplement-fr-0011\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0012\">0012</a><a name=\"ObservationMethod-supplement-fr-0012\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0013\">0013</a><a name=\"ObservationMethod-supplement-fr-0013\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0014\">0014</a><a name=\"ObservationMethod-supplement-fr-0014\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0015\">0015</a><a name=\"ObservationMethod-supplement-fr-0015\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0016\">0016</a><a name=\"ObservationMethod-supplement-fr-0016\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0017\">0017</a><a name=\"ObservationMethod-supplement-fr-0017\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0018\">0018</a><a name=\"ObservationMethod-supplement-fr-0018\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0019\">0019</a><a name=\"ObservationMethod-supplement-fr-0019\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0020\">0020</a><a name=\"ObservationMethod-supplement-fr-0020\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0021\">0021</a><a name=\"ObservationMethod-supplement-fr-0021\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0022\">0022</a><a name=\"ObservationMethod-supplement-fr-0022\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0023\">0023</a><a name=\"ObservationMethod-supplement-fr-0023\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0024\">0024</a><a name=\"ObservationMethod-supplement-fr-0024\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0025\">0025</a><a name=\"ObservationMethod-supplement-fr-0025\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0026\">0026</a><a name=\"ObservationMethod-supplement-fr-0026\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0027\">0027</a><a name=\"ObservationMethod-supplement-fr-0027\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0030\">0030</a><a name=\"ObservationMethod-supplement-fr-0030\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0031\">0031</a><a name=\"ObservationMethod-supplement-fr-0031\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0032\">0032</a><a name=\"ObservationMethod-supplement-fr-0032\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0033\">0033</a><a name=\"ObservationMethod-supplement-fr-0033\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0034\">0034</a><a name=\"ObservationMethod-supplement-fr-0034\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0037\">0037</a><a name=\"ObservationMethod-supplement-fr-0037\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0038\">0038</a><a name=\"ObservationMethod-supplement-fr-0038\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0039\">0039</a><a name=\"ObservationMethod-supplement-fr-0039\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0040\">0040</a><a name=\"ObservationMethod-supplement-fr-0040\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0041\">0041</a><a name=\"ObservationMethod-supplement-fr-0041\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0042\">0042</a><a name=\"ObservationMethod-supplement-fr-0042\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0043\">0043</a><a name=\"ObservationMethod-supplement-fr-0043\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0044\">0044</a><a name=\"ObservationMethod-supplement-fr-0044\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0045\">0045</a><a name=\"ObservationMethod-supplement-fr-0045\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0046\">0046</a><a name=\"ObservationMethod-supplement-fr-0046\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0047\">0047</a><a name=\"ObservationMethod-supplement-fr-0047\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0048\">0048</a><a name=\"ObservationMethod-supplement-fr-0048\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0049\">0049</a><a name=\"ObservationMethod-supplement-fr-0049\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0050\">0050</a><a name=\"ObservationMethod-supplement-fr-0050\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0051\">0051</a><a name=\"ObservationMethod-supplement-fr-0051\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0052\">0052</a><a name=\"ObservationMethod-supplement-fr-0052\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0053\">0053</a><a name=\"ObservationMethod-supplement-fr-0053\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0054\">0054</a><a name=\"ObservationMethod-supplement-fr-0054\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0061\">0061</a><a name=\"ObservationMethod-supplement-fr-0061\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0062\">0062</a><a name=\"ObservationMethod-supplement-fr-0062\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0063\">0063</a><a name=\"ObservationMethod-supplement-fr-0063\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0064\">0064</a><a name=\"ObservationMethod-supplement-fr-0064\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0065\">0065</a><a name=\"ObservationMethod-supplement-fr-0065\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0066\">0066</a><a name=\"ObservationMethod-supplement-fr-0066\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0067\">0067</a><a name=\"ObservationMethod-supplement-fr-0067\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0068\">0068</a><a name=\"ObservationMethod-supplement-fr-0068\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0069\">0069</a><a name=\"ObservationMethod-supplement-fr-0069\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0070\">0070</a><a name=\"ObservationMethod-supplement-fr-0070\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0071\">0071</a><a name=\"ObservationMethod-supplement-fr-0071\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0072\">0072</a><a name=\"ObservationMethod-supplement-fr-0072\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0073\">0073</a><a name=\"ObservationMethod-supplement-fr-0073\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0074\">0074</a><a name=\"ObservationMethod-supplement-fr-0074\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0075\">0075</a><a name=\"ObservationMethod-supplement-fr-0075\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0076\">0076</a><a name=\"ObservationMethod-supplement-fr-0076\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0077\">0077</a><a name=\"ObservationMethod-supplement-fr-0077\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0078\">0078</a><a name=\"ObservationMethod-supplement-fr-0078\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0079\">0079</a><a name=\"ObservationMethod-supplement-fr-0079\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0080\">0080</a><a name=\"ObservationMethod-supplement-fr-0080\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0081\">0081</a><a name=\"ObservationMethod-supplement-fr-0081\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0082\">0082</a><a name=\"ObservationMethod-supplement-fr-0082\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0083\">0083</a><a name=\"ObservationMethod-supplement-fr-0083\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0084\">0084</a><a name=\"ObservationMethod-supplement-fr-0084\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0085\">0085</a><a name=\"ObservationMethod-supplement-fr-0085\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0086\">0086</a><a name=\"ObservationMethod-supplement-fr-0086\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0087\">0087</a><a name=\"ObservationMethod-supplement-fr-0087\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0088\">0088</a><a name=\"ObservationMethod-supplement-fr-0088\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0089\">0089</a><a name=\"ObservationMethod-supplement-fr-0089\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0090\">0090</a><a name=\"ObservationMethod-supplement-fr-0090\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0091\">0091</a><a name=\"ObservationMethod-supplement-fr-0091\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0092\">0092</a><a name=\"ObservationMethod-supplement-fr-0092\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0093\">0093</a><a name=\"ObservationMethod-supplement-fr-0093\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0094\">0094</a><a name=\"ObservationMethod-supplement-fr-0094\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0095\">0095</a><a name=\"ObservationMethod-supplement-fr-0095\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0096\">0096</a><a name=\"ObservationMethod-supplement-fr-0096\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0097\">0097</a><a name=\"ObservationMethod-supplement-fr-0097\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0098\">0098</a><a name=\"ObservationMethod-supplement-fr-0098\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0099\">0099</a><a name=\"ObservationMethod-supplement-fr-0099\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0100\">0100</a><a name=\"ObservationMethod-supplement-fr-0100\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0101\">0101</a><a name=\"ObservationMethod-supplement-fr-0101\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0102\">0102</a><a name=\"ObservationMethod-supplement-fr-0102\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0103\">0103</a><a name=\"ObservationMethod-supplement-fr-0103\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0104\">0104</a><a name=\"ObservationMethod-supplement-fr-0104\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0105\">0105</a><a name=\"ObservationMethod-supplement-fr-0105\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0106\">0106</a><a name=\"ObservationMethod-supplement-fr-0106\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0107\">0107</a><a name=\"ObservationMethod-supplement-fr-0107\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0108\">0108</a><a name=\"ObservationMethod-supplement-fr-0108\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0109\">0109</a><a name=\"ObservationMethod-supplement-fr-0109\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0110\">0110</a><a name=\"ObservationMethod-supplement-fr-0110\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0111\">0111</a><a name=\"ObservationMethod-supplement-fr-0111\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0112\">0112</a><a name=\"ObservationMethod-supplement-fr-0112\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0113\">0113</a><a name=\"ObservationMethod-supplement-fr-0113\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0114\">0114</a><a name=\"ObservationMethod-supplement-fr-0114\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0115\">0115</a><a name=\"ObservationMethod-supplement-fr-0115\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0116\">0116</a><a name=\"ObservationMethod-supplement-fr-0116\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0117\">0117</a><a name=\"ObservationMethod-supplement-fr-0117\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0120\">0120</a><a name=\"ObservationMethod-supplement-fr-0120\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0122\">0122</a><a name=\"ObservationMethod-supplement-fr-0122\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0123\">0123</a><a name=\"ObservationMethod-supplement-fr-0123\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0127\">0127</a><a name=\"ObservationMethod-supplement-fr-0127\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0128\">0128</a><a name=\"ObservationMethod-supplement-fr-0128\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0129\">0129</a><a name=\"ObservationMethod-supplement-fr-0129\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0130\">0130</a><a name=\"ObservationMethod-supplement-fr-0130\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0131\">0131</a><a name=\"ObservationMethod-supplement-fr-0131\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0132\">0132</a><a name=\"ObservationMethod-supplement-fr-0132\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0134\">0134</a><a name=\"ObservationMethod-supplement-fr-0134\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0135\">0135</a><a name=\"ObservationMethod-supplement-fr-0135\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0138\">0138</a><a name=\"ObservationMethod-supplement-fr-0138\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0139\">0139</a><a name=\"ObservationMethod-supplement-fr-0139\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0140\">0140</a><a name=\"ObservationMethod-supplement-fr-0140\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0141\">0141</a><a name=\"ObservationMethod-supplement-fr-0141\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0142\">0142</a><a name=\"ObservationMethod-supplement-fr-0142\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0143\">0143</a><a name=\"ObservationMethod-supplement-fr-0143\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0144\">0144</a><a name=\"ObservationMethod-supplement-fr-0144\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0145\">0145</a><a name=\"ObservationMethod-supplement-fr-0145\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0146\">0146</a><a name=\"ObservationMethod-supplement-fr-0146\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0147\">0147</a><a name=\"ObservationMethod-supplement-fr-0147\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0148\">0148</a><a name=\"ObservationMethod-supplement-fr-0148\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0149\">0149</a><a name=\"ObservationMethod-supplement-fr-0149\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0150\">0150</a><a name=\"ObservationMethod-supplement-fr-0150\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0151\">0151</a><a name=\"ObservationMethod-supplement-fr-0151\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0152\">0152</a><a name=\"ObservationMethod-supplement-fr-0152\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0153\">0153</a><a name=\"ObservationMethod-supplement-fr-0153\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0154\">0154</a><a name=\"ObservationMethod-supplement-fr-0154\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0155\">0155</a><a name=\"ObservationMethod-supplement-fr-0155\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0156\">0156</a><a name=\"ObservationMethod-supplement-fr-0156\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0157\">0157</a><a name=\"ObservationMethod-supplement-fr-0157\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0158\">0158</a><a name=\"ObservationMethod-supplement-fr-0158\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0159\">0159</a><a name=\"ObservationMethod-supplement-fr-0159\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0160\">0160</a><a name=\"ObservationMethod-supplement-fr-0160\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0161\">0161</a><a name=\"ObservationMethod-supplement-fr-0161\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0162\">0162</a><a name=\"ObservationMethod-supplement-fr-0162\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0163\">0163</a><a name=\"ObservationMethod-supplement-fr-0163\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0164\">0164</a><a name=\"ObservationMethod-supplement-fr-0164\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0165\">0165</a><a name=\"ObservationMethod-supplement-fr-0165\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0166\">0166</a><a name=\"ObservationMethod-supplement-fr-0166\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0167\">0167</a><a name=\"ObservationMethod-supplement-fr-0167\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0168\">0168</a><a name=\"ObservationMethod-supplement-fr-0168\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0169\">0169</a><a name=\"ObservationMethod-supplement-fr-0169\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0170\">0170</a><a name=\"ObservationMethod-supplement-fr-0170\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0171\">0171</a><a name=\"ObservationMethod-supplement-fr-0171\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0172\">0172</a><a name=\"ObservationMethod-supplement-fr-0172\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0173\">0173</a><a name=\"ObservationMethod-supplement-fr-0173\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0174\">0174</a><a name=\"ObservationMethod-supplement-fr-0174\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0175\">0175</a><a name=\"ObservationMethod-supplement-fr-0175\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0176\">0176</a><a name=\"ObservationMethod-supplement-fr-0176\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0177\">0177</a><a name=\"ObservationMethod-supplement-fr-0177\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0178\">0178</a><a name=\"ObservationMethod-supplement-fr-0178\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0179\">0179</a><a name=\"ObservationMethod-supplement-fr-0179\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0180\">0180</a><a name=\"ObservationMethod-supplement-fr-0180\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0181\">0181</a><a name=\"ObservationMethod-supplement-fr-0181\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0182\">0182</a><a name=\"ObservationMethod-supplement-fr-0182\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0183\">0183</a><a name=\"ObservationMethod-supplement-fr-0183\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0184\">0184</a><a name=\"ObservationMethod-supplement-fr-0184\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0185\">0185</a><a name=\"ObservationMethod-supplement-fr-0185\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0186\">0186</a><a name=\"ObservationMethod-supplement-fr-0186\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0187\">0187</a><a name=\"ObservationMethod-supplement-fr-0187\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0188\">0188</a><a name=\"ObservationMethod-supplement-fr-0188\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0189\">0189</a><a name=\"ObservationMethod-supplement-fr-0189\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0190\">0190</a><a name=\"ObservationMethod-supplement-fr-0190\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0191\">0191</a><a name=\"ObservationMethod-supplement-fr-0191\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0192\">0192</a><a name=\"ObservationMethod-supplement-fr-0192\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0193\">0193</a><a name=\"ObservationMethod-supplement-fr-0193\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0194\">0194</a><a name=\"ObservationMethod-supplement-fr-0194\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0195\">0195</a><a name=\"ObservationMethod-supplement-fr-0195\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0196\">0196</a><a name=\"ObservationMethod-supplement-fr-0196\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0197\">0197</a><a name=\"ObservationMethod-supplement-fr-0197\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0198\">0198</a><a name=\"ObservationMethod-supplement-fr-0198\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0199\">0199</a><a name=\"ObservationMethod-supplement-fr-0199\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0200\">0200</a><a name=\"ObservationMethod-supplement-fr-0200\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0201\">0201</a><a name=\"ObservationMethod-supplement-fr-0201\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0202\">0202</a><a name=\"ObservationMethod-supplement-fr-0202\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0203\">0203</a><a name=\"ObservationMethod-supplement-fr-0203\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0204\">0204</a><a name=\"ObservationMethod-supplement-fr-0204\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0205\">0205</a><a name=\"ObservationMethod-supplement-fr-0205\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0206\">0206</a><a name=\"ObservationMethod-supplement-fr-0206\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0207\">0207</a><a name=\"ObservationMethod-supplement-fr-0207\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0208\">0208</a><a name=\"ObservationMethod-supplement-fr-0208\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0209\">0209</a><a name=\"ObservationMethod-supplement-fr-0209\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0210\">0210</a><a name=\"ObservationMethod-supplement-fr-0210\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0211\">0211</a><a name=\"ObservationMethod-supplement-fr-0211\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0212\">0212</a><a name=\"ObservationMethod-supplement-fr-0212\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0213\">0213</a><a name=\"ObservationMethod-supplement-fr-0213\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0214\">0214</a><a name=\"ObservationMethod-supplement-fr-0214\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0215\">0215</a><a name=\"ObservationMethod-supplement-fr-0215\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0216\">0216</a><a name=\"ObservationMethod-supplement-fr-0216\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0217\">0217</a><a name=\"ObservationMethod-supplement-fr-0217\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0218\">0218</a><a name=\"ObservationMethod-supplement-fr-0218\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0219\">0219</a><a name=\"ObservationMethod-supplement-fr-0219\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0220\">0220</a><a name=\"ObservationMethod-supplement-fr-0220\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0221\">0221</a><a name=\"ObservationMethod-supplement-fr-0221\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0222\">0222</a><a name=\"ObservationMethod-supplement-fr-0222\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0223\">0223</a><a name=\"ObservationMethod-supplement-fr-0223\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0224\">0224</a><a name=\"ObservationMethod-supplement-fr-0224\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0225\">0225</a><a name=\"ObservationMethod-supplement-fr-0225\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0226\">0226</a><a name=\"ObservationMethod-supplement-fr-0226\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0227\">0227</a><a name=\"ObservationMethod-supplement-fr-0227\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0228\">0228</a><a name=\"ObservationMethod-supplement-fr-0228\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0229\">0229</a><a name=\"ObservationMethod-supplement-fr-0229\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0230\">0230</a><a name=\"ObservationMethod-supplement-fr-0230\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0231\">0231</a><a name=\"ObservationMethod-supplement-fr-0231\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0232\">0232</a><a name=\"ObservationMethod-supplement-fr-0232\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0233\">0233</a><a name=\"ObservationMethod-supplement-fr-0233\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0234\">0234</a><a name=\"ObservationMethod-supplement-fr-0234\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0235\">0235</a><a name=\"ObservationMethod-supplement-fr-0235\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0236\">0236</a><a name=\"ObservationMethod-supplement-fr-0236\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0237\">0237</a><a name=\"ObservationMethod-supplement-fr-0237\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0238\">0238</a><a name=\"ObservationMethod-supplement-fr-0238\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0239\">0239</a><a name=\"ObservationMethod-supplement-fr-0239\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0240\">0240</a><a name=\"ObservationMethod-supplement-fr-0240\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0241\">0241</a><a name=\"ObservationMethod-supplement-fr-0241\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0242\">0242</a><a name=\"ObservationMethod-supplement-fr-0242\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0243\">0243</a><a name=\"ObservationMethod-supplement-fr-0243\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0244\">0244</a><a name=\"ObservationMethod-supplement-fr-0244\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0245\">0245</a><a name=\"ObservationMethod-supplement-fr-0245\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0246\">0246</a><a name=\"ObservationMethod-supplement-fr-0246\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0247\">0247</a><a name=\"ObservationMethod-supplement-fr-0247\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0248\">0248</a><a name=\"ObservationMethod-supplement-fr-0248\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0249\">0249</a><a name=\"ObservationMethod-supplement-fr-0249\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0250\">0250</a><a name=\"ObservationMethod-supplement-fr-0250\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0251\">0251</a><a name=\"ObservationMethod-supplement-fr-0251\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0252\">0252</a><a name=\"ObservationMethod-supplement-fr-0252\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0253\">0253</a><a name=\"ObservationMethod-supplement-fr-0253\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0254\">0254</a><a name=\"ObservationMethod-supplement-fr-0254\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0255\">0255</a><a name=\"ObservationMethod-supplement-fr-0255\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0256\">0256</a><a name=\"ObservationMethod-supplement-fr-0256\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0257\">0257</a><a name=\"ObservationMethod-supplement-fr-0257\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0258\">0258</a><a name=\"ObservationMethod-supplement-fr-0258\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0259\">0259</a><a name=\"ObservationMethod-supplement-fr-0259\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0261\">0261</a><a name=\"ObservationMethod-supplement-fr-0261\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0262\">0262</a><a name=\"ObservationMethod-supplement-fr-0262\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0263\">0263</a><a name=\"ObservationMethod-supplement-fr-0263\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0264\">0264</a><a name=\"ObservationMethod-supplement-fr-0264\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0265\">0265</a><a name=\"ObservationMethod-supplement-fr-0265\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0266\">0266</a><a name=\"ObservationMethod-supplement-fr-0266\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0267\">0267</a><a name=\"ObservationMethod-supplement-fr-0267\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0268\">0268</a><a name=\"ObservationMethod-supplement-fr-0268\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0269\">0269</a><a name=\"ObservationMethod-supplement-fr-0269\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0270\">0270</a><a name=\"ObservationMethod-supplement-fr-0270\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0271\">0271</a><a name=\"ObservationMethod-supplement-fr-0271\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0272\">0272</a><a name=\"ObservationMethod-supplement-fr-0272\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0273\">0273</a><a name=\"ObservationMethod-supplement-fr-0273\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0274\">0274</a><a name=\"ObservationMethod-supplement-fr-0274\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0275\">0275</a><a name=\"ObservationMethod-supplement-fr-0275\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-275a\">275a</a><a name=\"ObservationMethod-supplement-fr-275a\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0276\">0276</a><a name=\"ObservationMethod-supplement-fr-0276\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0277\">0277</a><a name=\"ObservationMethod-supplement-fr-0277\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0278\">0278</a><a name=\"ObservationMethod-supplement-fr-0278\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0279\">0279</a><a name=\"ObservationMethod-supplement-fr-0279\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-0280\">0280</a><a name=\"ObservationMethod-supplement-fr-0280\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-ALGM\">ALGM</a><a name=\"ObservationMethod-supplement-fr-ALGM\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-BYCL\">BYCL</a><a name=\"ObservationMethod-supplement-fr-BYCL\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-PCR\">PCR</a><a name=\"ObservationMethod-supplement-fr-PCR\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-VDOC\">VDOC</a><a name=\"ObservationMethod-supplement-fr-VDOC\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-VREG\">VREG</a><a name=\"ObservationMethod-supplement-fr-VREG\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-VTOKEN\">VTOKEN</a><a name=\"ObservationMethod-supplement-fr-VTOKEN\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-VVOICE\">VVOICE</a><a name=\"ObservationMethod-supplement-fr-VVOICE\"> </a></td></tr></table></div>"
   },
-  "url" : "http://hl7.org/fhir/us/example/CodeSystem/ObservationMethod-supplement-fr",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/observationMethod-supplement-fr",
   "version" : "1.0",
   "name" : "ObservationMethodSupplementFr",
   "title" : "ObservationMethodSupplementFr",
@@ -23,7 +23,7 @@
   "content" : "supplement",
   "supplements" : "http://terminology.hl7.org/CodeSystem/v3-ObservationMethod|3.0.0",
   "concept" : [{
-    "code" : "1",
+    "code" : "0001",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -34,7 +34,7 @@
     }]
   },
   {
-    "code" : "2",
+    "code" : "0002",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -45,7 +45,7 @@
     }]
   },
   {
-    "code" : "3",
+    "code" : "0003",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -56,7 +56,7 @@
     }]
   },
   {
-    "code" : "4",
+    "code" : "0004",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -67,7 +67,7 @@
     }]
   },
   {
-    "code" : "5",
+    "code" : "0005",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -78,7 +78,7 @@
     }]
   },
   {
-    "code" : "6",
+    "code" : "0006",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -89,7 +89,7 @@
     }]
   },
   {
-    "code" : "7",
+    "code" : "0007",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -100,7 +100,7 @@
     }]
   },
   {
-    "code" : "8",
+    "code" : "0008",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -111,7 +111,7 @@
     }]
   },
   {
-    "code" : "9",
+    "code" : "0009",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -122,7 +122,7 @@
     }]
   },
   {
-    "code" : "10",
+    "code" : "0010",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -133,7 +133,7 @@
     }]
   },
   {
-    "code" : "11",
+    "code" : "0011",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -144,7 +144,7 @@
     }]
   },
   {
-    "code" : "12",
+    "code" : "0012",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -155,7 +155,7 @@
     }]
   },
   {
-    "code" : "13",
+    "code" : "0013",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -166,7 +166,7 @@
     }]
   },
   {
-    "code" : "14",
+    "code" : "0014",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -177,7 +177,7 @@
     }]
   },
   {
-    "code" : "15",
+    "code" : "0015",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -188,7 +188,7 @@
     }]
   },
   {
-    "code" : "16",
+    "code" : "0016",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -199,7 +199,7 @@
     }]
   },
   {
-    "code" : "17",
+    "code" : "0017",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -210,7 +210,7 @@
     }]
   },
   {
-    "code" : "18",
+    "code" : "0018",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -221,7 +221,7 @@
     }]
   },
   {
-    "code" : "19",
+    "code" : "0019",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -232,7 +232,7 @@
     }]
   },
   {
-    "code" : "20",
+    "code" : "0020",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -243,7 +243,7 @@
     }]
   },
   {
-    "code" : "21",
+    "code" : "0021",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -254,7 +254,7 @@
     }]
   },
   {
-    "code" : "22",
+    "code" : "0022",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -265,7 +265,7 @@
     }]
   },
   {
-    "code" : "23",
+    "code" : "0023",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -276,7 +276,7 @@
     }]
   },
   {
-    "code" : "24",
+    "code" : "0024",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -287,7 +287,7 @@
     }]
   },
   {
-    "code" : "25",
+    "code" : "0025",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -298,7 +298,7 @@
     }]
   },
   {
-    "code" : "26",
+    "code" : "0026",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -309,7 +309,7 @@
     }]
   },
   {
-    "code" : "27",
+    "code" : "0027",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -320,7 +320,7 @@
     }]
   },
   {
-    "code" : "30",
+    "code" : "0030",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -331,7 +331,7 @@
     }]
   },
   {
-    "code" : "31",
+    "code" : "0031",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -342,7 +342,7 @@
     }]
   },
   {
-    "code" : "32",
+    "code" : "0032",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -353,7 +353,7 @@
     }]
   },
   {
-    "code" : "33",
+    "code" : "0033",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -364,7 +364,7 @@
     }]
   },
   {
-    "code" : "34",
+    "code" : "0034",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -375,7 +375,7 @@
     }]
   },
   {
-    "code" : "37",
+    "code" : "0037",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -386,7 +386,7 @@
     }]
   },
   {
-    "code" : "38",
+    "code" : "0038",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -397,7 +397,7 @@
     }]
   },
   {
-    "code" : "39",
+    "code" : "0039",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -408,7 +408,7 @@
     }]
   },
   {
-    "code" : "40",
+    "code" : "0040",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -419,7 +419,7 @@
     }]
   },
   {
-    "code" : "41",
+    "code" : "0041",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -430,7 +430,7 @@
     }]
   },
   {
-    "code" : "42",
+    "code" : "0042",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -441,7 +441,7 @@
     }]
   },
   {
-    "code" : "43",
+    "code" : "0043",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -452,7 +452,7 @@
     }]
   },
   {
-    "code" : "44",
+    "code" : "0044",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -463,7 +463,7 @@
     }]
   },
   {
-    "code" : "45",
+    "code" : "0045",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -474,7 +474,7 @@
     }]
   },
   {
-    "code" : "46",
+    "code" : "0046",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -485,7 +485,7 @@
     }]
   },
   {
-    "code" : "47",
+    "code" : "0047",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -496,7 +496,7 @@
     }]
   },
   {
-    "code" : "48",
+    "code" : "0048",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -507,7 +507,7 @@
     }]
   },
   {
-    "code" : "49",
+    "code" : "0049",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -518,7 +518,7 @@
     }]
   },
   {
-    "code" : "50",
+    "code" : "0050",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -529,7 +529,7 @@
     }]
   },
   {
-    "code" : "51",
+    "code" : "0051",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -540,7 +540,7 @@
     }]
   },
   {
-    "code" : "52",
+    "code" : "0052",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -551,7 +551,7 @@
     }]
   },
   {
-    "code" : "53",
+    "code" : "0053",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -562,7 +562,7 @@
     }]
   },
   {
-    "code" : "54",
+    "code" : "0054",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -573,7 +573,7 @@
     }]
   },
   {
-    "code" : "61",
+    "code" : "0061",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -584,7 +584,7 @@
     }]
   },
   {
-    "code" : "62",
+    "code" : "0062",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -595,7 +595,7 @@
     }]
   },
   {
-    "code" : "63",
+    "code" : "0063",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -606,7 +606,7 @@
     }]
   },
   {
-    "code" : "64",
+    "code" : "0064",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -617,7 +617,7 @@
     }]
   },
   {
-    "code" : "65",
+    "code" : "0065",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -628,7 +628,7 @@
     }]
   },
   {
-    "code" : "66",
+    "code" : "0066",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -639,7 +639,7 @@
     }]
   },
   {
-    "code" : "67",
+    "code" : "0067",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -650,7 +650,7 @@
     }]
   },
   {
-    "code" : "68",
+    "code" : "0068",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -661,7 +661,7 @@
     }]
   },
   {
-    "code" : "69",
+    "code" : "0069",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -672,7 +672,7 @@
     }]
   },
   {
-    "code" : "70",
+    "code" : "0070",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -683,7 +683,7 @@
     }]
   },
   {
-    "code" : "71",
+    "code" : "0071",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -694,7 +694,7 @@
     }]
   },
   {
-    "code" : "72",
+    "code" : "0072",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -705,7 +705,7 @@
     }]
   },
   {
-    "code" : "73",
+    "code" : "0073",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -716,7 +716,7 @@
     }]
   },
   {
-    "code" : "74",
+    "code" : "0074",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -727,7 +727,7 @@
     }]
   },
   {
-    "code" : "75",
+    "code" : "0075",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -738,7 +738,7 @@
     }]
   },
   {
-    "code" : "76",
+    "code" : "0076",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -749,7 +749,7 @@
     }]
   },
   {
-    "code" : "77",
+    "code" : "0077",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -760,7 +760,7 @@
     }]
   },
   {
-    "code" : "78",
+    "code" : "0078",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -771,7 +771,7 @@
     }]
   },
   {
-    "code" : "79",
+    "code" : "0079",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -782,7 +782,7 @@
     }]
   },
   {
-    "code" : "80",
+    "code" : "0080",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -793,7 +793,7 @@
     }]
   },
   {
-    "code" : "81",
+    "code" : "0081",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -804,7 +804,7 @@
     }]
   },
   {
-    "code" : "82",
+    "code" : "0082",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -815,7 +815,7 @@
     }]
   },
   {
-    "code" : "83",
+    "code" : "0083",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -826,7 +826,7 @@
     }]
   },
   {
-    "code" : "84",
+    "code" : "0084",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -837,7 +837,7 @@
     }]
   },
   {
-    "code" : "85",
+    "code" : "0085",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -848,7 +848,7 @@
     }]
   },
   {
-    "code" : "86",
+    "code" : "0086",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -859,7 +859,7 @@
     }]
   },
   {
-    "code" : "87",
+    "code" : "0087",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -870,7 +870,7 @@
     }]
   },
   {
-    "code" : "88",
+    "code" : "0088",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -881,7 +881,7 @@
     }]
   },
   {
-    "code" : "89",
+    "code" : "0089",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -892,7 +892,7 @@
     }]
   },
   {
-    "code" : "90",
+    "code" : "0090",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -903,7 +903,7 @@
     }]
   },
   {
-    "code" : "91",
+    "code" : "0091",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -914,7 +914,7 @@
     }]
   },
   {
-    "code" : "92",
+    "code" : "0092",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -925,7 +925,7 @@
     }]
   },
   {
-    "code" : "93",
+    "code" : "0093",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -936,7 +936,7 @@
     }]
   },
   {
-    "code" : "94",
+    "code" : "0094",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -947,7 +947,7 @@
     }]
   },
   {
-    "code" : "95",
+    "code" : "0095",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -958,7 +958,7 @@
     }]
   },
   {
-    "code" : "96",
+    "code" : "0096",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -969,7 +969,7 @@
     }]
   },
   {
-    "code" : "97",
+    "code" : "0097",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -980,7 +980,7 @@
     }]
   },
   {
-    "code" : "98",
+    "code" : "0098",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -991,7 +991,7 @@
     }]
   },
   {
-    "code" : "99",
+    "code" : "0099",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1002,7 +1002,7 @@
     }]
   },
   {
-    "code" : "100",
+    "code" : "0100",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1013,7 +1013,7 @@
     }]
   },
   {
-    "code" : "101",
+    "code" : "0101",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1024,7 +1024,7 @@
     }]
   },
   {
-    "code" : "102",
+    "code" : "0102",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1035,7 +1035,7 @@
     }]
   },
   {
-    "code" : "103",
+    "code" : "0103",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1046,7 +1046,7 @@
     }]
   },
   {
-    "code" : "104",
+    "code" : "0104",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1057,7 +1057,7 @@
     }]
   },
   {
-    "code" : "105",
+    "code" : "0105",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1068,7 +1068,7 @@
     }]
   },
   {
-    "code" : "106",
+    "code" : "0106",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1079,7 +1079,7 @@
     }]
   },
   {
-    "code" : "107",
+    "code" : "0107",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1090,7 +1090,7 @@
     }]
   },
   {
-    "code" : "108",
+    "code" : "0108",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1101,7 +1101,7 @@
     }]
   },
   {
-    "code" : "109",
+    "code" : "0109",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1112,7 +1112,7 @@
     }]
   },
   {
-    "code" : "110",
+    "code" : "0110",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1123,7 +1123,7 @@
     }]
   },
   {
-    "code" : "111",
+    "code" : "0111",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1134,7 +1134,7 @@
     }]
   },
   {
-    "code" : "112",
+    "code" : "0112",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1145,7 +1145,7 @@
     }]
   },
   {
-    "code" : "113",
+    "code" : "0113",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1156,7 +1156,7 @@
     }]
   },
   {
-    "code" : "114",
+    "code" : "0114",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1167,7 +1167,7 @@
     }]
   },
   {
-    "code" : "115",
+    "code" : "0115",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1178,7 +1178,7 @@
     }]
   },
   {
-    "code" : "116",
+    "code" : "0116",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1189,7 +1189,7 @@
     }]
   },
   {
-    "code" : "117",
+    "code" : "0117",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1200,7 +1200,7 @@
     }]
   },
   {
-    "code" : "120",
+    "code" : "0120",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1211,7 +1211,7 @@
     }]
   },
   {
-    "code" : "122",
+    "code" : "0122",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1222,7 +1222,7 @@
     }]
   },
   {
-    "code" : "123",
+    "code" : "0123",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1233,7 +1233,7 @@
     }]
   },
   {
-    "code" : "127",
+    "code" : "0127",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1244,7 +1244,7 @@
     }]
   },
   {
-    "code" : "128",
+    "code" : "0128",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1255,7 +1255,7 @@
     }]
   },
   {
-    "code" : "129",
+    "code" : "0129",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1266,7 +1266,7 @@
     }]
   },
   {
-    "code" : "130",
+    "code" : "0130",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1277,7 +1277,7 @@
     }]
   },
   {
-    "code" : "131",
+    "code" : "0131",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1288,7 +1288,7 @@
     }]
   },
   {
-    "code" : "132",
+    "code" : "0132",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1299,7 +1299,7 @@
     }]
   },
   {
-    "code" : "134",
+    "code" : "0134",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1310,7 +1310,7 @@
     }]
   },
   {
-    "code" : "135",
+    "code" : "0135",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1321,7 +1321,7 @@
     }]
   },
   {
-    "code" : "138",
+    "code" : "0138",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1332,7 +1332,7 @@
     }]
   },
   {
-    "code" : "139",
+    "code" : "0139",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1343,7 +1343,7 @@
     }]
   },
   {
-    "code" : "140",
+    "code" : "0140",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1354,7 +1354,7 @@
     }]
   },
   {
-    "code" : "141",
+    "code" : "0141",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1365,7 +1365,7 @@
     }]
   },
   {
-    "code" : "142",
+    "code" : "0142",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1376,7 +1376,7 @@
     }]
   },
   {
-    "code" : "143",
+    "code" : "0143",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1387,7 +1387,7 @@
     }]
   },
   {
-    "code" : "144",
+    "code" : "0144",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1398,7 +1398,7 @@
     }]
   },
   {
-    "code" : "145",
+    "code" : "0145",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1409,7 +1409,7 @@
     }]
   },
   {
-    "code" : "146",
+    "code" : "0146",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1420,7 +1420,7 @@
     }]
   },
   {
-    "code" : "147",
+    "code" : "0147",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1431,7 +1431,7 @@
     }]
   },
   {
-    "code" : "148",
+    "code" : "0148",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1442,7 +1442,7 @@
     }]
   },
   {
-    "code" : "149",
+    "code" : "0149",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1453,7 +1453,7 @@
     }]
   },
   {
-    "code" : "150",
+    "code" : "0150",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1464,7 +1464,7 @@
     }]
   },
   {
-    "code" : "151",
+    "code" : "0151",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1475,7 +1475,7 @@
     }]
   },
   {
-    "code" : "152",
+    "code" : "0152",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1486,7 +1486,7 @@
     }]
   },
   {
-    "code" : "153",
+    "code" : "0153",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1497,7 +1497,7 @@
     }]
   },
   {
-    "code" : "154",
+    "code" : "0154",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1508,7 +1508,7 @@
     }]
   },
   {
-    "code" : "155",
+    "code" : "0155",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1519,7 +1519,7 @@
     }]
   },
   {
-    "code" : "156",
+    "code" : "0156",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1530,7 +1530,7 @@
     }]
   },
   {
-    "code" : "157",
+    "code" : "0157",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1541,7 +1541,7 @@
     }]
   },
   {
-    "code" : "158",
+    "code" : "0158",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1552,7 +1552,7 @@
     }]
   },
   {
-    "code" : "159",
+    "code" : "0159",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1563,7 +1563,7 @@
     }]
   },
   {
-    "code" : "160",
+    "code" : "0160",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1574,7 +1574,7 @@
     }]
   },
   {
-    "code" : "161",
+    "code" : "0161",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1585,7 +1585,7 @@
     }]
   },
   {
-    "code" : "162",
+    "code" : "0162",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1596,7 +1596,7 @@
     }]
   },
   {
-    "code" : "163",
+    "code" : "0163",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1607,7 +1607,7 @@
     }]
   },
   {
-    "code" : "164",
+    "code" : "0164",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1618,7 +1618,7 @@
     }]
   },
   {
-    "code" : "165",
+    "code" : "0165",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1629,7 +1629,7 @@
     }]
   },
   {
-    "code" : "166",
+    "code" : "0166",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1640,7 +1640,7 @@
     }]
   },
   {
-    "code" : "167",
+    "code" : "0167",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1651,7 +1651,7 @@
     }]
   },
   {
-    "code" : "168",
+    "code" : "0168",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1662,7 +1662,7 @@
     }]
   },
   {
-    "code" : "169",
+    "code" : "0169",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1673,7 +1673,7 @@
     }]
   },
   {
-    "code" : "170",
+    "code" : "0170",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1684,7 +1684,7 @@
     }]
   },
   {
-    "code" : "171",
+    "code" : "0171",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1695,7 +1695,7 @@
     }]
   },
   {
-    "code" : "172",
+    "code" : "0172",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1706,7 +1706,7 @@
     }]
   },
   {
-    "code" : "173",
+    "code" : "0173",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1717,7 +1717,7 @@
     }]
   },
   {
-    "code" : "174",
+    "code" : "0174",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1728,7 +1728,7 @@
     }]
   },
   {
-    "code" : "175",
+    "code" : "0175",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1739,7 +1739,7 @@
     }]
   },
   {
-    "code" : "176",
+    "code" : "0176",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1750,7 +1750,7 @@
     }]
   },
   {
-    "code" : "177",
+    "code" : "0177",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1761,7 +1761,7 @@
     }]
   },
   {
-    "code" : "178",
+    "code" : "0178",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1772,7 +1772,7 @@
     }]
   },
   {
-    "code" : "179",
+    "code" : "0179",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1783,7 +1783,7 @@
     }]
   },
   {
-    "code" : "180",
+    "code" : "0180",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1794,7 +1794,7 @@
     }]
   },
   {
-    "code" : "181",
+    "code" : "0181",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1805,7 +1805,7 @@
     }]
   },
   {
-    "code" : "182",
+    "code" : "0182",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1816,7 +1816,7 @@
     }]
   },
   {
-    "code" : "183",
+    "code" : "0183",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1827,7 +1827,7 @@
     }]
   },
   {
-    "code" : "184",
+    "code" : "0184",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1838,7 +1838,7 @@
     }]
   },
   {
-    "code" : "185",
+    "code" : "0185",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1849,7 +1849,7 @@
     }]
   },
   {
-    "code" : "186",
+    "code" : "0186",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1860,7 +1860,7 @@
     }]
   },
   {
-    "code" : "187",
+    "code" : "0187",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1871,7 +1871,7 @@
     }]
   },
   {
-    "code" : "188",
+    "code" : "0188",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1882,7 +1882,7 @@
     }]
   },
   {
-    "code" : "189",
+    "code" : "0189",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1893,7 +1893,7 @@
     }]
   },
   {
-    "code" : "190",
+    "code" : "0190",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1904,7 +1904,7 @@
     }]
   },
   {
-    "code" : "191",
+    "code" : "0191",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1915,7 +1915,7 @@
     }]
   },
   {
-    "code" : "192",
+    "code" : "0192",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1926,7 +1926,7 @@
     }]
   },
   {
-    "code" : "193",
+    "code" : "0193",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1937,7 +1937,7 @@
     }]
   },
   {
-    "code" : "194",
+    "code" : "0194",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1948,7 +1948,7 @@
     }]
   },
   {
-    "code" : "195",
+    "code" : "0195",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1959,7 +1959,7 @@
     }]
   },
   {
-    "code" : "196",
+    "code" : "0196",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1970,7 +1970,7 @@
     }]
   },
   {
-    "code" : "197",
+    "code" : "0197",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1981,7 +1981,7 @@
     }]
   },
   {
-    "code" : "198",
+    "code" : "0198",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1992,7 +1992,7 @@
     }]
   },
   {
-    "code" : "199",
+    "code" : "0199",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2003,7 +2003,7 @@
     }]
   },
   {
-    "code" : "200",
+    "code" : "0200",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2014,7 +2014,7 @@
     }]
   },
   {
-    "code" : "201",
+    "code" : "0201",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2025,7 +2025,7 @@
     }]
   },
   {
-    "code" : "202",
+    "code" : "0202",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2036,7 +2036,7 @@
     }]
   },
   {
-    "code" : "203",
+    "code" : "0203",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2047,7 +2047,7 @@
     }]
   },
   {
-    "code" : "204",
+    "code" : "0204",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2058,7 +2058,7 @@
     }]
   },
   {
-    "code" : "205",
+    "code" : "0205",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2069,7 +2069,7 @@
     }]
   },
   {
-    "code" : "206",
+    "code" : "0206",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2080,7 +2080,7 @@
     }]
   },
   {
-    "code" : "207",
+    "code" : "0207",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2091,7 +2091,7 @@
     }]
   },
   {
-    "code" : "208",
+    "code" : "0208",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2102,7 +2102,7 @@
     }]
   },
   {
-    "code" : "209",
+    "code" : "0209",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2113,7 +2113,7 @@
     }]
   },
   {
-    "code" : "210",
+    "code" : "0210",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2124,7 +2124,7 @@
     }]
   },
   {
-    "code" : "211",
+    "code" : "0211",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2135,7 +2135,7 @@
     }]
   },
   {
-    "code" : "212",
+    "code" : "0212",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2146,7 +2146,7 @@
     }]
   },
   {
-    "code" : "213",
+    "code" : "0213",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2157,7 +2157,7 @@
     }]
   },
   {
-    "code" : "214",
+    "code" : "0214",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2168,7 +2168,7 @@
     }]
   },
   {
-    "code" : "215",
+    "code" : "0215",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2179,7 +2179,7 @@
     }]
   },
   {
-    "code" : "216",
+    "code" : "0216",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2190,7 +2190,7 @@
     }]
   },
   {
-    "code" : "217",
+    "code" : "0217",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2201,7 +2201,7 @@
     }]
   },
   {
-    "code" : "218",
+    "code" : "0218",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2212,7 +2212,7 @@
     }]
   },
   {
-    "code" : "219",
+    "code" : "0219",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2223,7 +2223,7 @@
     }]
   },
   {
-    "code" : "220",
+    "code" : "0220",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2234,7 +2234,7 @@
     }]
   },
   {
-    "code" : "221",
+    "code" : "0221",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2245,7 +2245,7 @@
     }]
   },
   {
-    "code" : "222",
+    "code" : "0222",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2256,7 +2256,7 @@
     }]
   },
   {
-    "code" : "223",
+    "code" : "0223",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2267,7 +2267,7 @@
     }]
   },
   {
-    "code" : "224",
+    "code" : "0224",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2278,7 +2278,7 @@
     }]
   },
   {
-    "code" : "225",
+    "code" : "0225",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2289,7 +2289,7 @@
     }]
   },
   {
-    "code" : "226",
+    "code" : "0226",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2300,7 +2300,7 @@
     }]
   },
   {
-    "code" : "227",
+    "code" : "0227",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2311,7 +2311,7 @@
     }]
   },
   {
-    "code" : "228",
+    "code" : "0228",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2322,7 +2322,7 @@
     }]
   },
   {
-    "code" : "229",
+    "code" : "0229",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2333,7 +2333,7 @@
     }]
   },
   {
-    "code" : "230",
+    "code" : "0230",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2344,7 +2344,7 @@
     }]
   },
   {
-    "code" : "231",
+    "code" : "0231",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2355,7 +2355,7 @@
     }]
   },
   {
-    "code" : "232",
+    "code" : "0232",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2366,7 +2366,7 @@
     }]
   },
   {
-    "code" : "233",
+    "code" : "0233",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2377,7 +2377,7 @@
     }]
   },
   {
-    "code" : "234",
+    "code" : "0234",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2388,7 +2388,7 @@
     }]
   },
   {
-    "code" : "235",
+    "code" : "0235",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2399,7 +2399,7 @@
     }]
   },
   {
-    "code" : "236",
+    "code" : "0236",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2410,7 +2410,7 @@
     }]
   },
   {
-    "code" : "237",
+    "code" : "0237",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2421,7 +2421,7 @@
     }]
   },
   {
-    "code" : "238",
+    "code" : "0238",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2432,7 +2432,7 @@
     }]
   },
   {
-    "code" : "239",
+    "code" : "0239",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2443,7 +2443,7 @@
     }]
   },
   {
-    "code" : "240",
+    "code" : "0240",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2454,7 +2454,7 @@
     }]
   },
   {
-    "code" : "241",
+    "code" : "0241",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2465,7 +2465,7 @@
     }]
   },
   {
-    "code" : "242",
+    "code" : "0242",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2476,7 +2476,7 @@
     }]
   },
   {
-    "code" : "243",
+    "code" : "0243",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2487,7 +2487,7 @@
     }]
   },
   {
-    "code" : "244",
+    "code" : "0244",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2498,7 +2498,7 @@
     }]
   },
   {
-    "code" : "245",
+    "code" : "0245",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2509,7 +2509,7 @@
     }]
   },
   {
-    "code" : "246",
+    "code" : "0246",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2520,7 +2520,7 @@
     }]
   },
   {
-    "code" : "247",
+    "code" : "0247",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2531,7 +2531,7 @@
     }]
   },
   {
-    "code" : "248",
+    "code" : "0248",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2542,7 +2542,7 @@
     }]
   },
   {
-    "code" : "249",
+    "code" : "0249",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2553,7 +2553,7 @@
     }]
   },
   {
-    "code" : "250",
+    "code" : "0250",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2564,7 +2564,7 @@
     }]
   },
   {
-    "code" : "251",
+    "code" : "0251",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2575,7 +2575,7 @@
     }]
   },
   {
-    "code" : "252",
+    "code" : "0252",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2586,7 +2586,7 @@
     }]
   },
   {
-    "code" : "253",
+    "code" : "0253",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2597,7 +2597,7 @@
     }]
   },
   {
-    "code" : "254",
+    "code" : "0254",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2608,7 +2608,7 @@
     }]
   },
   {
-    "code" : "255",
+    "code" : "0255",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2619,7 +2619,7 @@
     }]
   },
   {
-    "code" : "256",
+    "code" : "0256",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2630,7 +2630,7 @@
     }]
   },
   {
-    "code" : "257",
+    "code" : "0257",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2641,7 +2641,7 @@
     }]
   },
   {
-    "code" : "258",
+    "code" : "0258",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2652,7 +2652,7 @@
     }]
   },
   {
-    "code" : "259",
+    "code" : "0259",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2663,7 +2663,7 @@
     }]
   },
   {
-    "code" : "261",
+    "code" : "0261",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2674,7 +2674,7 @@
     }]
   },
   {
-    "code" : "262",
+    "code" : "0262",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2685,7 +2685,7 @@
     }]
   },
   {
-    "code" : "263",
+    "code" : "0263",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2696,7 +2696,7 @@
     }]
   },
   {
-    "code" : "264",
+    "code" : "0264",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2707,7 +2707,7 @@
     }]
   },
   {
-    "code" : "265",
+    "code" : "0265",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2718,7 +2718,7 @@
     }]
   },
   {
-    "code" : "266",
+    "code" : "0266",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2729,7 +2729,7 @@
     }]
   },
   {
-    "code" : "267",
+    "code" : "0267",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2740,7 +2740,7 @@
     }]
   },
   {
-    "code" : "268",
+    "code" : "0268",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2751,7 +2751,7 @@
     }]
   },
   {
-    "code" : "269",
+    "code" : "0269",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2762,7 +2762,7 @@
     }]
   },
   {
-    "code" : "270",
+    "code" : "0270",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2773,7 +2773,7 @@
     }]
   },
   {
-    "code" : "271",
+    "code" : "0271",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2784,7 +2784,7 @@
     }]
   },
   {
-    "code" : "272",
+    "code" : "0272",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2795,7 +2795,7 @@
     }]
   },
   {
-    "code" : "273",
+    "code" : "0273",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2806,7 +2806,7 @@
     }]
   },
   {
-    "code" : "274",
+    "code" : "0274",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2817,7 +2817,7 @@
     }]
   },
   {
-    "code" : "275",
+    "code" : "0275",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2839,7 +2839,7 @@
     }]
   },
   {
-    "code" : "276",
+    "code" : "0276",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2850,7 +2850,7 @@
     }]
   },
   {
-    "code" : "277",
+    "code" : "0277",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2861,7 +2861,7 @@
     }]
   },
   {
-    "code" : "278",
+    "code" : "0278",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2872,7 +2872,7 @@
     }]
   },
   {
-    "code" : "279",
+    "code" : "0279",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -2883,7 +2883,7 @@
     }]
   },
   {
-    "code" : "280",
+    "code" : "0280",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {

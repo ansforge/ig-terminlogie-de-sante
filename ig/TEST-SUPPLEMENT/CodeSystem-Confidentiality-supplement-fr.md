@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.org/fhir/us/example/CodeSystem/Confidentiality-supplement-fr | *Version*:1.0 |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/confidentiality-supplement-fr | *Version*:1.0 |
 | Draft as of 2025-10-24 | *Computable Name*:ConfidentialitySupplementFr |
 
  
@@ -20,7 +20,7 @@ Traduction Francaise
 
 Langue : fr-FR
 
-This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Confidentiality-supplement-fr` defines labels on the following codes:
+This code system supplement `https://smt.esante.gouv.fr/fhir/CodeSystem/confidentiality-supplement-fr` defines labels on the following codes:
 
 
 
@@ -31,7 +31,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Confident
   "resourceType" : "CodeSystem",
   "id" : "Confidentiality-supplement-fr",
   "language" : "fr-FR",
-  "url" : "http://hl7.org/fhir/us/example/CodeSystem/Confidentiality-supplement-fr",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/confidentiality-supplement-fr",
   "version" : "1.0",
   "name" : "ConfidentialitySupplementFr",
   "title" : "Confidentiality SupplementFr",

@@ -11,7 +11,6 @@ Vous trouverez ici la liste des terminologies au format FHIR publiée par le SMT
 | | | |
 | :--- | :--- | :--- |
 | Name | Description | date_maj |
-| [ActCodeSupplementFr](CodeSystem-ActCode-supplement-fr.md) | Traduction Francaise | 24/10/2025 |
 | [ActMoodSupplementFr](CodeSystem-ActMood-supplement-fr.md) | Traduction Francaise | 24/10/2025 |
 | [ActPrioritySupplementFr](CodeSystem-ActPriority-supplement-fr.md) | Traduction Francaise | 24/10/2025 |
 | [ActStatusSupplementFr](CodeSystem-ActStatus-supplement-fr.md) | Traduction Francaise | 24/10/2025 |
@@ -24,8 +23,8 @@ Vous trouverez ici la liste des terminologies au format FHIR publiée par le SMT
 | [ParticipationTypeSupplementFr](CodeSystem-ParticipationType-supplement-fr.md) | Traduction Francaise | 24/10/2025 |
 | [RoleClassSupplementFr](CodeSystem-RoleClass-supplement-fr.md) | Traduction Francaise | 24/10/2025 |
 | [RoleCodeSupplementFr](CodeSystem-RoleCode-supplement-fr.md) | Traduction Francaise | 24/10/2025 |
-| [SpecimenTypeSupplementFr](CodeSystem-SpecimenType-supplement-fr.md) | Traduction Francaise | 24/10/2025 |
 | [TimingEventSupplementFr](CodeSystem-TimingEvent-supplement-fr.md) | Traduction Francaise | 24/10/2025 |
+| [ActCodeSupplementFr](CodeSystem-actCode-supplement-fr.md) | Traduction Francaise | 24/10/2025 |
 | [allergy-intolerance-criticalitySupplementFr](CodeSystem-allergy-intolerance-criticality-supplement-fr.md) | Traduction Francaise | 24/10/2025 |
 | [allergyintolerance-clinicalSupplementFr](CodeSystem-allergyintolerance-clinical-supplement-fr.md) | Traduction Francaise | 24/10/2025 |
 | [condition-clinicalSupplementFr](CodeSystem-condition-clinical-supplement-fr.md) | Traduction Francaise | 24/10/2025 |
@@ -33,6 +32,7 @@ Vous trouverez ici la liste des terminologies au format FHIR publiée par le SMT
 | [employmentStatusSupplementFr](CodeSystem-employmentStatus-supplement-fr.md) | Traduction Francaise | 24/10/2025 |
 | [mediaTypeSupplementFr](CodeSystem-mediaType-supplement-fr.md) | Traduction Francaise | 24/10/2025 |
 | [orderableDrugFormSupplementFr](CodeSystem-orderableDrugForm-supplement-fr.md) | Traduction Francaise | 24/10/2025 |
+| [SpecimenTypeSupplementFr](CodeSystem-specimenType-supplement-fr.md) | Traduction Francaise | 24/10/2025 |
 | [substanceAdminSubstitutionSupplementFr](CodeSystem-substanceAdminSubstitution-supplement-fr.md) | Traduction Francaise | 24/10/2025 |
 | [V3ActPrioritySupplementFr](CodeSystem-v3-ActPriority-supplement-fr.md) | Traduction Francaise | 24/10/2025 |
 | [ATC](CodeSystem-terminologie-atc.md) | La classification ATC (anatomique, thérapeutique et chimique) classe les substances actives dans différents groupes selon l’organe ou le système sur lequel ils agissent et selon leurs propriétés thérapeutiques, pharmacologiques et chimiques. | 10/03/2025 |

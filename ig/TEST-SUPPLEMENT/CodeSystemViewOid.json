@@ -1,17 +1,9 @@
 [
   {
-    "id" : "ActCode-supplement-fr",
-    "name" : "ActCodeSupplementFr",
-    "title" : "ActCodeSupplementFr",
-    "url" : "http://hl7.org/fhir/us/example/CodeSystem/ActCode-supplement-fr",
-    "identifier" : null,
-    "status" : "draft"
-  },
-  {
     "id" : "ActMood-supplement-fr",
     "name" : "ActMoodSupplementFr",
     "title" : "ActMoodSupplementFr",
-    "url" : "http://hl7.org/fhir/us/example/CodeSystem/ActMood-supplement-fr",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/actMood-supplement-fr",
     "identifier" : null,
     "status" : "draft"
   },
@@ -19,7 +11,7 @@
     "id" : "ActPriority-supplement-fr",
     "name" : "ActPrioritySupplementFr",
     "title" : "ActPrioritySupplementFr",
-    "url" : "http://hl7.org/fhir/us/example/CodeSystem/ActPriority-supplement-fr",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/actPriority-supplement-fr",
     "identifier" : null,
     "status" : "draft"
   },
@@ -27,7 +19,7 @@
     "id" : "ActStatus-supplement-fr",
     "name" : "ActStatusSupplementFr",
     "title" : "ActStatusSupplementFr",
-    "url" : "http://hl7.org/fhir/us/example/CodeSystem/ActStatus-supplement-fr",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/actStatus-supplement-fr",
     "identifier" : null,
     "status" : "draft"
   },
@@ -35,7 +27,7 @@
     "id" : "AdministrativeGender-supplement-fr",
     "name" : "AdministrativeGenderSupplementFr",
     "title" : "AdministrativeGenderSupplementFr",
-    "url" : "http://hl7.org/fhir/us/example/CodeSystem/AdministrativeGender-supplement-fr",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/administrativeGender-supplement-fr",
     "identifier" : null,
     "status" : "draft"
   },
@@ -43,7 +35,7 @@
     "id" : "Confidentiality-supplement-fr",
     "name" : "ConfidentialitySupplementFr",
     "title" : "Confidentiality SupplementFr",
-    "url" : "http://hl7.org/fhir/us/example/CodeSystem/Confidentiality-supplement-fr",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/confidentiality-supplement-fr",
     "identifier" : null,
     "status" : "draft"
   },
@@ -51,7 +43,7 @@
     "id" : "ObservationInterpretation-supplement-fr",
     "name" : "ObservationInterpretationSupplementFr",
     "title" : "ObservationInterpretationSupplementFr",
-    "url" : "http://hl7.org/fhir/us/example/CodeSystem/ObservationInterpretation-supplement-fr",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/observationInterpretation-supplement-fr",
     "identifier" : null,
     "status" : "draft"
   },
@@ -59,7 +51,7 @@
     "id" : "ObservationMethod-supplement-fr",
     "name" : "ObservationMethodSupplementFr",
     "title" : "ObservationMethodSupplementFr",
-    "url" : "http://hl7.org/fhir/us/example/CodeSystem/ObservationMethod-supplement-fr",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/observationMethod-supplement-fr",
     "identifier" : null,
     "status" : "draft"
   },
@@ -75,7 +67,7 @@
     "id" : "ParticipationFunction-supplement-fr",
     "name" : "ParticipationFunctionSupplementFr",
     "title" : "ParticipationFunctionSupplementFr",
-    "url" : "http://hl7.org/fhir/us/example/CodeSystem/ParticipationFunction-supplement-fr",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/participationFunction-supplement-fr",
     "identifier" : null,
     "status" : "draft"
   },
@@ -83,7 +75,7 @@
     "id" : "ParticipationType-supplement-fr",
     "name" : "ParticipationTypeSupplementFr",
     "title" : "ParticipationTypeSupplementFr",
-    "url" : "http://hl7.org/fhir/us/example/CodeSystem/ParticipationType-supplement-fr",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/participationType-supplement-fr",
     "identifier" : null,
     "status" : "draft"
   },
@@ -91,7 +83,7 @@
     "id" : "RoleClass-supplement-fr",
     "name" : "RoleClassSupplementFr",
     "title" : "RoleClassSupplementFr",
-    "url" : "http://hl7.org/fhir/us/example/CodeSystem/RoleClass-supplement-fr",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/roleClass-supplement-fr",
     "identifier" : null,
     "status" : "draft"
   },
@@ -99,15 +91,7 @@
     "id" : "RoleCode-supplement-fr",
     "name" : "RoleCodeSupplementFr",
     "title" : "RoleCodeSupplementFr",
-    "url" : "http://hl7.org/fhir/us/example/CodeSystem/RoleCode-supplement-fr",
-    "identifier" : null,
-    "status" : "draft"
-  },
-  {
-    "id" : "SpecimenType-supplement-fr",
-    "name" : "SpecimenTypeSupplementFr",
-    "title" : "SpecimenTypeSupplementFr",
-    "url" : "http://hl7.org/fhir/us/example/CodeSystem/SpecimenType-supplement-fr",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/roleCode-supplement-fr",
     "identifier" : null,
     "status" : "draft"
   },
@@ -115,7 +99,15 @@
     "id" : "TimingEvent-supplement-fr",
     "name" : "TimingEventSupplementFr",
     "title" : "TimingEventSupplementFr",
-    "url" : "http://hl7.org/fhir/us/example/CodeSystem/TimingEvent-supplement-fr",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/timingEvent-supplement-fr",
+    "identifier" : null,
+    "status" : "draft"
+  },
+  {
+    "id" : "actCode-supplement-fr",
+    "name" : "ActCodeSupplementFr",
+    "title" : "ActCodeSupplementFr",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/actCode-supplement-fr",
     "identifier" : null,
     "status" : "draft"
   },
@@ -123,7 +115,7 @@
     "id" : "allergy-intolerance-criticality-supplement-fr",
     "name" : "allergy-intolerance-criticalitySupplementFr",
     "title" : "allergy-intolerance-criticalitySupplementFr",
-    "url" : "http://hl7.org/fhir/us/example/CodeSystem/allergy-intolerance-criticality-supplement-fr",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/allergy-intolerance-criticality-supplement-fr",
     "identifier" : null,
     "status" : "draft"
   },
@@ -131,7 +123,7 @@
     "id" : "allergyintolerance-clinical-supplement-fr",
     "name" : "allergyintolerance-clinicalSupplementFr",
     "title" : "allergyintolerance-clinicalSupplementFr",
-    "url" : "http://hl7.org/fhir/us/example/CodeSystem/allergyintolerance-clinical-supplement-fr",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/allergyintolerance-clinical-supplement-fr",
     "identifier" : null,
     "status" : "draft"
   },
@@ -139,7 +131,7 @@
     "id" : "condition-clinical-supplement-fr",
     "name" : "condition-clinicalSupplementFr",
     "title" : "condition-clinicalSupplementFr",
-    "url" : "http://hl7.org/fhir/us/example/CodeSystem/condition-clinical-supplement-fr",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/condition-clinical-supplement-fr",
     "identifier" : null,
     "status" : "draft"
   },
@@ -147,7 +139,7 @@
     "id" : "condition-ver-status-supplement-fr",
     "name" : "condition-ver-statusSupplementFr",
     "title" : "condition-ver-statusSupplementFr",
-    "url" : "http://hl7.org/fhir/us/example/CodeSystem/condition-ver-status-supplement-fr",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/condition-ver-status-supplement-fr",
     "identifier" : null,
     "status" : "draft"
   },
@@ -155,7 +147,7 @@
     "id" : "employmentStatus-supplement-fr",
     "name" : "employmentStatusSupplementFr",
     "title" : "employmentStatusSupplementFr",
-    "url" : "http://hl7.org/fhir/us/example/CodeSystem/employmentStatus-supplement-fr",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/employmentStatus-supplement-fr",
     "identifier" : null,
     "status" : "draft"
   },
@@ -163,7 +155,7 @@
     "id" : "mediaType-supplement-fr",
     "name" : "mediaTypeSupplementFr",
     "title" : "mediaTypeSupplementFr",
-    "url" : "http://hl7.org/fhir/us/example/CodeSystem/mediaType-supplement-fr",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/mediaType-supplement-fr",
     "identifier" : null,
     "status" : "draft"
   },
@@ -171,7 +163,15 @@
     "id" : "orderableDrugForm-supplement-fr",
     "name" : "orderableDrugFormSupplementFr",
     "title" : "orderableDrugFormSupplementFr",
-    "url" : "http://hl7.org/fhir/us/example/CodeSystem/orderableDrugForm-supplement-fr",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/orderableDrugForm-supplement-fr",
+    "identifier" : null,
+    "status" : "draft"
+  },
+  {
+    "id" : "specimenType-supplement-fr",
+    "name" : "SpecimenTypeSupplementFr",
+    "title" : "SpecimenTypeSupplementFr",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/specimenType-supplement-fr",
     "identifier" : null,
     "status" : "draft"
   },
@@ -179,7 +179,7 @@
     "id" : "substanceAdminSubstitution-supplement-fr",
     "name" : "substanceAdminSubstitutionSupplementFr",
     "title" : "substanceAdminSubstitutionSupplementFr",
-    "url" : "http://hl7.org/fhir/us/example/CodeSystem/substanceAdminSubstitution-supplement-fr",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/substanceAdminSubstitution-supplement-fr",
     "identifier" : null,
     "status" : "draft"
   },

@@ -13,17 +13,17 @@ Les systèmes d'identification définis ici sont destinés à la commodité des 
 | Name | url | OID |
 | ADICAP | https://smt.esante.gouv.fr/terminologie-adicap/ | 1.2.250.1.213.2.11 |
 | ATC | https://smt.esante.gouv.fr/terminologie-atc | 2.16.840.1.113883.6.73 |
-| ActCodeSupplementFr | http://hl7.org/fhir/us/example/CodeSystem/ActCode-supplement-fr |  |
-| ActMoodSupplementFr | http://hl7.org/fhir/us/example/CodeSystem/ActMood-supplement-fr |  |
-| ActPrioritySupplementFr | http://hl7.org/fhir/us/example/CodeSystem/ActPriority-supplement-fr |  |
-| ActStatusSupplementFr | http://hl7.org/fhir/us/example/CodeSystem/ActStatus-supplement-fr |  |
-| AdministrativeGenderSupplementFr | http://hl7.org/fhir/us/example/CodeSystem/AdministrativeGender-supplement-fr |  |
+| ActCodeSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/actCode-supplement-fr |  |
+| ActMoodSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/actMood-supplement-fr |  |
+| ActPrioritySupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/actPriority-supplement-fr |  |
+| ActStatusSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/actStatus-supplement-fr |  |
+| AdministrativeGenderSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/administrativeGender-supplement-fr |  |
 | BDPM | https://smt.esante.gouv.fr/terminologie-bdpm |  |
 | CCAM | https://smt.esante.gouv.fr/terminologie-ccam | 1.2.250.1.215.300.1 |
 | CIM11_MMS | https://smt.esante.gouv.fr/terminologie-cim11-mms | 2.16.840.1.113883.6.347 |
 | CIM_10_FR_PMSI | https://smt.esante.gouv.fr/terminologie-cim-10 | 2.16.840.1.113883.6.3 |
 | CISP_2 | https://smt.esante.gouv.fr/terminologie-cisp | 2.16.840.1.113883.6.139 |
-| ConfidentialitySupplementFr | http://hl7.org/fhir/us/example/CodeSystem/Confidentiality-supplement-fr |  |
+| ConfidentialitySupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/confidentiality-supplement-fr |  |
 | EMDN | https://smt.esante.gouv.fr/terminologie-emdn | 1.2.250.1.213.2.68 |
 | IHERoleCode_Vocabulary | https://wiki.ihe.net/index.php/IHERoleCode_Vocabulary | 1.3.6.1.4.1.19376.1.5.3.3 |
 | LAHN | https://smt.esante.gouv.fr/terminologie-lahn | 1.2.250.1.213.2.79 |
@@ -32,20 +32,20 @@ Les systèmes d'identification définis ici sont destinés à la commodité des 
 | NABM | https://smt.esante.gouv.fr/terminologie-nabm | 1.2.250.1.215.300.2 |
 | NCIT | http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl | 2.16.840.1.113883.3.26.1.1 |
 | NUVA | https://smt.esante.gouv.fr/terminologie-nuva | 1.3.6.1.4.1.48601.1 |
-| ObservationInterpretationSupplementFr | http://hl7.org/fhir/us/example/CodeSystem/ObservationInterpretation-supplement-fr |  |
-| ObservationMethodSupplementFr | http://hl7.org/fhir/us/example/CodeSystem/ObservationMethod-supplement-fr |  |
+| ObservationInterpretationSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/observationInterpretation-supplement-fr |  |
+| ObservationMethodSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/observationMethod-supplement-fr |  |
 | ObservationValueSupplementFr | http://hl7.org/fhir/us/example/CodeSystem/ObservationValue-supplement-fr |  |
 | PCS | https://www.insee.fr/ | 1.2.250.1.213.2.13 |
-| ParticipationFunctionSupplementFr | http://hl7.org/fhir/us/example/CodeSystem/ParticipationFunction-supplement-fr |  |
-| ParticipationTypeSupplementFr | http://hl7.org/fhir/us/example/CodeSystem/ParticipationType-supplement-fr |  |
-| RoleClassSupplementFr | http://hl7.org/fhir/us/example/CodeSystem/RoleClass-supplement-fr |  |
-| RoleCodeSupplementFr | http://hl7.org/fhir/us/example/CodeSystem/RoleCode-supplement-fr |  |
+| ParticipationFunctionSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/participationFunction-supplement-fr |  |
+| ParticipationTypeSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/participationType-supplement-fr |  |
+| RoleClassSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/roleClass-supplement-fr |  |
+| RoleCodeSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/roleCode-supplement-fr |  |
 | SERAFIN | https://smt.esante.gouv.fr/terminologie-SERAFINPH |  |
 | SERAFIN_PH | https://smt.esante.gouv.fr/terminologie-SERAFINPH |  |
 | SNOMED_CT | http://snomed.info/sct | 2.16.840.1.113883.6.96 |
 | ServiceType | http://terminology.hl7.org/CodeSystem/service-type | 2.16.840.1.113883.4.642.1.1145 |
 | Snomed_CT_core_900000000000207008 | http://snomed.info/sct | 2.16.840.1.113883.6.96 |
-| SpecimenTypeSupplementFr | http://hl7.org/fhir/us/example/CodeSystem/SpecimenType-supplement-fr |  |
+| SpecimenTypeSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/specimenType-supplement-fr |  |
 | Standard_terms_EDQM | https://smt.esante.gouv.fr/terminologie-standardterms | 0.4.0.127.0.16.1.1.2.1 |
 | TRE_A00_ProducteurDocNonPS | https://mos.esante.gouv.fr/NOS/TRE_A00-ProducteurDocNonPS/FHIR/TRE-A00-ProducteurDocNonPS | 1.2.250.1.213.1.1.4.6 |
 | TRE_A01_CadreExercice | https://mos.esante.gouv.fr/NOS/TRE_A01-CadreExercice/FHIR/TRE-A01-CadreExercice | 1.2.250.1.213.1.1.4.9 |
@@ -298,19 +298,19 @@ Les systèmes d'identification définis ici sont destinés à la commodité des 
 | TRE_R96_AutreFonctionSanitaire | https://mos.esante.gouv.fr/NOS/TRE_R96-AutreFonctionSanitaire/FHIR/TRE-R96-AutreFonctionSanitaire | 1.2.250.1.213.1.6.1.110 |
 | TRE_R97_DroitExerciceCompl | https://mos.esante.gouv.fr/NOS/TRE_R97-DroitExerciceCompl/FHIR/TRE-R97-DroitExerciceCompl | 1.2.250.1.213.1.6.1.111 |
 | TerminologieCISIS | https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis | 1.2.250.1.213.1.1.4.322 |
-| TimingEventSupplementFr | http://hl7.org/fhir/us/example/CodeSystem/TimingEvent-supplement-fr |  |
+| TimingEventSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/timingEvent-supplement-fr |  |
 | TreR389StatutBilanProjetPersonnalise | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statut-bilan-projet-personnalise | 1.2.250.1.213.3.3.257 |
 | TreR390TypeProjetPersonnalise | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r390-type-projet-personnalise | 1.2.250.1.213.3.3.258 |
 | TreR393TypeContratSejour | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour | 1.2.250.1.213.3.3.260 |
 | TreR394CompetenceMetier | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r394-competence-metier | 1.2.250.1.213.1.6.1.375 |
 | UCUM | http://unitsofmeasure.org | 2.16.840.1.113883.6.8 |
 | V3ActPrioritySupplementFr | http://hl7.org/fhir/us/example/CodeSystem/v3-ActPriority-supplement-fr |  |
-| allergy-intolerance-criticalitySupplementFr | http://hl7.org/fhir/us/example/CodeSystem/allergy-intolerance-criticality-supplement-fr |  |
-| allergyintolerance-clinicalSupplementFr | http://hl7.org/fhir/us/example/CodeSystem/allergyintolerance-clinical-supplement-fr |  |
-| condition-clinicalSupplementFr | http://hl7.org/fhir/us/example/CodeSystem/condition-clinical-supplement-fr |  |
-| condition-ver-statusSupplementFr | http://hl7.org/fhir/us/example/CodeSystem/condition-ver-status-supplement-fr |  |
-| employmentStatusSupplementFr | http://hl7.org/fhir/us/example/CodeSystem/employmentStatus-supplement-fr |  |
-| mediaTypeSupplementFr | http://hl7.org/fhir/us/example/CodeSystem/mediaType-supplement-fr |  |
-| orderableDrugFormSupplementFr | http://hl7.org/fhir/us/example/CodeSystem/orderableDrugForm-supplement-fr |  |
-| substanceAdminSubstitutionSupplementFr | http://hl7.org/fhir/us/example/CodeSystem/substanceAdminSubstitution-supplement-fr |  |
+| allergy-intolerance-criticalitySupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/allergy-intolerance-criticality-supplement-fr |  |
+| allergyintolerance-clinicalSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/allergyintolerance-clinical-supplement-fr |  |
+| condition-clinicalSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/condition-clinical-supplement-fr |  |
+| condition-ver-statusSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/condition-ver-status-supplement-fr |  |
+| employmentStatusSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/employmentStatus-supplement-fr |  |
+| mediaTypeSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/mediaType-supplement-fr |  |
+| orderableDrugFormSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/orderableDrugForm-supplement-fr |  |
+| substanceAdminSubstitutionSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/substanceAdminSubstitution-supplement-fr |  |
 

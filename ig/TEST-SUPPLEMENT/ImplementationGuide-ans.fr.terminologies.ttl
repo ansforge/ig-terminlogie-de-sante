@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "Terminologies"] ; # 
   fhir:title [ fhir:v "Terminologies  de Santé"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-10-28T18:01:21+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-10-28T19:18:48+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -52527,8 +52527,8 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/ActCode-supplement-fr> ;
-         fhir:reference [ fhir:v "CodeSystem/ActCode-supplement-fr" ]
+         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/actCode-supplement-fr> ;
+         fhir:reference [ fhir:v "CodeSystem/actCode-supplement-fr" ]
        ] ;
        fhir:name [ fhir:v "ActCodeSupplementFr" ] ;
        fhir:description [ fhir:v "Traduction Francaise" ] ;
@@ -69317,8 +69317,8 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/SpecimenType-supplement-fr> ;
-         fhir:reference [ fhir:v "CodeSystem/SpecimenType-supplement-fr" ]
+         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/specimenType-supplement-fr> ;
+         fhir:reference [ fhir:v "CodeSystem/specimenType-supplement-fr" ]
        ] ;
        fhir:name [ fhir:v "SpecimenTypeSupplementFr" ] ;
        fhir:description [ fhir:v "Traduction Francaise" ] ;
