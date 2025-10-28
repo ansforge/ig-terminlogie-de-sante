@@ -539,8 +539,6 @@ Description: "Fonction"
 * #FON-60 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
 * #FON-60 ^property[+].code = #status
 * #FON-60 ^property[=].valueCode = #active
-
-
 * #FON-62 "Consultations de solidarité territoriale"
 * #FON-62 ^designation[0].language = #fr-FR
 * #FON-62 ^designation[=].use = $sct#900000000000013009
@@ -551,8 +549,6 @@ Description: "Fonction"
 * #FON-62 ^property[=].valueDateTime = "2025-10-23T12:00:00+01:00"
 * #FON-62 ^property[+].code = #status
 * #FON-62 ^property[=].valueCode = #active
-
-
 * #FON-AU "Fonction non définie"
 * #FON-AU ^property[0].code = #dateValid
 * #FON-AU ^property[=].valueDateTime = "2007-07-25T15:04:42+01:00"
