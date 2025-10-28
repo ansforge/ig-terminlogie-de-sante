@@ -6,7 +6,7 @@ Title: "allergy-intolerance-criticalitySupplementFr"
 Description: "Traduction Francaise"
 * ^language = #fr-FR
 
-
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/allergy-intolerance-criticality-supplement-fr"
 * ^version = "1.0"
 * ^status =  #draft
 * ^experimental = true
@@ -40,7 +40,7 @@ Title: "allergyintolerance-clinicalSupplementFr"
 Description: "Traduction Francaise"
 * ^language = #fr-FR
 
-
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/allergyintolerance-clinical-supplement-fr"
 * ^version = "1.0"
 * ^status =  #draft
 * ^experimental = true
@@ -75,7 +75,7 @@ Title: "condition-clinicalSupplementFr"
 Description: "Traduction Francaise"
 * ^language = #fr-FR
 
-
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/condition-clinical-supplement-fr"
 * ^version = "1.0"
 * ^status =  #draft
 * ^experimental = true
@@ -126,7 +126,7 @@ Title: "condition-ver-statusSupplementFr"
 Description: "Traduction Francaise"
 * ^language = #fr-FR
 
-
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/condition-ver-status-supplement-fr"
 * ^version = "1.0"
 * ^status =  #draft
 * ^experimental = true
@@ -158,7 +158,7 @@ Title: "employmentStatusSupplementFr"
 Description: "Traduction Francaise"
 * ^language = #fr-FR
 
-
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/employmentStatus-supplement-fr"
 * ^version = "1.0"
 * ^status =  #draft
 * ^experimental = true
@@ -234,12 +234,12 @@ Description: "Traduction Francaise"
 
 
 CodeSystem: SpecimenTypeSupplementFr
-Id: SpecimenType-supplement-fr
+Id: specimenType-supplement-fr
 Title: "SpecimenTypeSupplementFr"
 Description: "Traduction Francaise"
 * ^language = #fr-FR
 
-
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/specimenType-supplement-fr"
 * ^version = "1.0"
 * ^status =  #draft
 * ^experimental = true
@@ -2307,12 +2307,12 @@ Description: "Traduction Francaise"
 
 
 CodeSystem: ActCodeSupplementFr
-Id: ActCode-supplement-fr
+Id: actCode-supplement-fr
 Title: "ActCodeSupplementFr"
 Description: "Traduction Francaise"
 * ^language = #fr-FR
 
-
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/actCode-supplement-fr"
 * ^version = "1.0"
 * ^status =  #draft
 * ^experimental = true
@@ -2466,7 +2466,7 @@ Title: "ActMoodSupplementFr"
 Description: "Traduction Francaise"
 * ^language = #fr-FR
 
-
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/actMood-supplement-fr"
 * ^version = "1.0"
 * ^status =  #draft
 * ^experimental = true
@@ -2594,7 +2594,7 @@ Title: "ActPrioritySupplementFr"
 Description: "Traduction Francaise"
 * ^language = #fr-FR
 
-
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/actPriority-supplement-fr"
 * ^version = "1.0"
 * ^status =  #draft
 * ^experimental = true
@@ -2680,7 +2680,7 @@ Title: "ActStatusSupplementFr"
 Description: "Traduction Francaise"
 * ^language = #fr-FR
 
-
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/actStatus-supplement-fr"
 * ^version = "1.0"
 * ^status =  #draft
 * ^experimental = true
@@ -2737,7 +2737,7 @@ Title: "AdministrativeGenderSupplementFr"
 Description: "Traduction Francaise"
 * ^language = #fr-FR
 
-
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/administrativeGender-supplement-fr"
 * ^version = "1.0"
 * ^status =  #draft
 * ^experimental = true
@@ -2769,7 +2769,7 @@ Title: "Confidentiality SupplementFr"
 Description: "Traduction Francaise"
 * ^language = #fr-FR
 
-
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/confidentiality-supplement-fr"
 * ^version = "1.0"
 * ^status =  #draft
 * ^experimental = true
@@ -2820,7 +2820,7 @@ Title: "mediaTypeSupplementFr"
 Description: "Traduction Francaise"
 * ^language = #fr-FR
 
-
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/mediaType-supplement-fr"
 * ^version = "1.0"
 * ^status =  #draft
 * ^experimental = true
@@ -2918,7 +2918,7 @@ Title: "ObservationInterpretationSupplementFr"
 Description: "Traduction Francaise"
 * ^language = #fr-FR
 
-
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/observationInterpretation-supplement-fr"
 * ^version = "1.0"
 * ^status =  #draft
 * ^experimental = true
@@ -3166,7 +3166,7 @@ Title: "ObservationMethodSupplementFr"
 Description: "Traduction Francaise"
 * ^language = #fr-FR
 
-
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/observationMethod-supplement-fr"
 * ^version = "1.0"
 * ^status =  #draft
 * ^experimental = true
@@ -4876,7 +4876,7 @@ Title: "orderableDrugFormSupplementFr"
 Description: "Traduction Francaise"
 * ^language = #fr-FR
 
-
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/orderableDrugForm-supplement-fr"
 * ^version = "1.0"
 * ^status =  #draft
 * ^experimental = true
@@ -4944,7 +4944,7 @@ Title: "ParticipationFunctionSupplementFr"
 Description: "Traduction Francaise"
 * ^language = #fr-FR
 
-
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/participationFunction-supplement-fr"
 * ^version = "1.0"
 * ^status =  #draft
 * ^experimental = true
@@ -4984,7 +4984,7 @@ Title: "ParticipationTypeSupplementFr"
 Description: "Traduction Francaise"
 * ^language = #fr-FR
 
-
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/participationType-supplement-fr"
 * ^version = "1.0"
 * ^status =  #draft
 * ^experimental = true
@@ -5347,7 +5347,7 @@ Title: "RoleClassSupplementFr"
 Description: "Traduction Francaise"
 * ^language = #fr-FR
 
-
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/roleClass-supplement-fr"
 * ^version = "1.0"
 * ^status =  #draft
 * ^experimental = true
@@ -5410,7 +5410,7 @@ Title: "RoleCodeSupplementFr"
 Description: "Traduction Francaise"
 * ^language = #fr-FR
 
-
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/roleCode-supplement-fr"
 * ^version = "1.0"
 * ^status =  #draft
 * ^experimental = true
@@ -6116,7 +6116,7 @@ Title: "substanceAdminSubstitutionSupplementFr"
 Description: "Traduction Francaise"
 * ^language = #fr-FR
 
-
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/substanceAdminSubstitution-supplement-fr"
 * ^version = "1.0"
 * ^status =  #draft
 * ^experimental = true
@@ -6143,7 +6143,7 @@ Title: "TimingEventSupplementFr"
 Description: "Traduction Francaise"
 * ^language = #fr-FR
 
-
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/timingEvent-supplement-fr"
 * ^version = "1.0"
 * ^status =  #draft
 * ^experimental = true
