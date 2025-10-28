@@ -1,6 +1,198 @@
 {
   "codeSystems" : [
     {
+      "url" : "http://hl7.org/fhir/us/example/CodeSystem/ActCode-supplement-fr",
+      "version" : "1.0",
+      "status" : "draft",
+      "name" : "ActCodeSupplementFr",
+      "title" : "ActCodeSupplementFr",
+      "description" : "Traduction Francaise"
+    },
+    {
+      "url" : "http://hl7.org/fhir/us/example/CodeSystem/ActMood-supplement-fr",
+      "version" : "1.0",
+      "status" : "draft",
+      "name" : "ActMoodSupplementFr",
+      "title" : "ActMoodSupplementFr",
+      "description" : "Traduction Francaise"
+    },
+    {
+      "url" : "http://hl7.org/fhir/us/example/CodeSystem/ActPriority-supplement-fr",
+      "version" : "1.0",
+      "status" : "draft",
+      "name" : "ActPrioritySupplementFr",
+      "title" : "ActPrioritySupplementFr",
+      "description" : "Traduction Francaise"
+    },
+    {
+      "url" : "http://hl7.org/fhir/us/example/CodeSystem/ActStatus-supplement-fr",
+      "version" : "1.0",
+      "status" : "draft",
+      "name" : "ActStatusSupplementFr",
+      "title" : "ActStatusSupplementFr",
+      "description" : "Traduction Francaise"
+    },
+    {
+      "url" : "http://hl7.org/fhir/us/example/CodeSystem/AdministrativeGender-supplement-fr",
+      "version" : "1.0",
+      "status" : "draft",
+      "name" : "AdministrativeGenderSupplementFr",
+      "title" : "AdministrativeGenderSupplementFr",
+      "description" : "Traduction Francaise"
+    },
+    {
+      "url" : "http://hl7.org/fhir/us/example/CodeSystem/Confidentiality-supplement-fr",
+      "version" : "1.0",
+      "status" : "draft",
+      "name" : "ConfidentialitySupplementFr",
+      "title" : "Confidentiality SupplementFr",
+      "description" : "Traduction Francaise"
+    },
+    {
+      "url" : "http://hl7.org/fhir/us/example/CodeSystem/ObservationInterpretation-supplement-fr",
+      "version" : "1.0",
+      "status" : "draft",
+      "name" : "ObservationInterpretationSupplementFr",
+      "title" : "ObservationInterpretationSupplementFr",
+      "description" : "Traduction Francaise"
+    },
+    {
+      "url" : "http://hl7.org/fhir/us/example/CodeSystem/ObservationMethod-supplement-fr",
+      "version" : "1.0",
+      "status" : "draft",
+      "name" : "ObservationMethodSupplementFr",
+      "title" : "ObservationMethodSupplementFr",
+      "description" : "Traduction Francaise"
+    },
+    {
+      "url" : "http://hl7.org/fhir/us/example/CodeSystem/ObservationValue-supplement-fr",
+      "version" : "1.0",
+      "status" : "draft",
+      "name" : "ObservationValueSupplementFr",
+      "title" : "ObservationValueSupplementFr",
+      "description" : "Traduction Francaise"
+    },
+    {
+      "url" : "http://hl7.org/fhir/us/example/CodeSystem/ParticipationFunction-supplement-fr",
+      "version" : "1.0",
+      "status" : "draft",
+      "name" : "ParticipationFunctionSupplementFr",
+      "title" : "ParticipationFunctionSupplementFr",
+      "description" : "Traduction Francaise"
+    },
+    {
+      "url" : "http://hl7.org/fhir/us/example/CodeSystem/ParticipationType-supplement-fr",
+      "version" : "1.0",
+      "status" : "draft",
+      "name" : "ParticipationTypeSupplementFr",
+      "title" : "ParticipationTypeSupplementFr",
+      "description" : "Traduction Francaise"
+    },
+    {
+      "url" : "http://hl7.org/fhir/us/example/CodeSystem/RoleClass-supplement-fr",
+      "version" : "1.0",
+      "status" : "draft",
+      "name" : "RoleClassSupplementFr",
+      "title" : "RoleClassSupplementFr",
+      "description" : "Traduction Francaise"
+    },
+    {
+      "url" : "http://hl7.org/fhir/us/example/CodeSystem/RoleCode-supplement-fr",
+      "version" : "1.0",
+      "status" : "draft",
+      "name" : "RoleCodeSupplementFr",
+      "title" : "RoleCodeSupplementFr",
+      "description" : "Traduction Francaise"
+    },
+    {
+      "url" : "http://hl7.org/fhir/us/example/CodeSystem/SpecimenType-supplement-fr",
+      "version" : "1.0",
+      "status" : "draft",
+      "name" : "SpecimenTypeSupplementFr",
+      "title" : "SpecimenTypeSupplementFr",
+      "description" : "Traduction Francaise"
+    },
+    {
+      "url" : "http://hl7.org/fhir/us/example/CodeSystem/TimingEvent-supplement-fr",
+      "version" : "1.0",
+      "status" : "draft",
+      "name" : "TimingEventSupplementFr",
+      "title" : "TimingEventSupplementFr",
+      "description" : "Traduction Francaise"
+    },
+    {
+      "url" : "http://hl7.org/fhir/us/example/CodeSystem/allergy-intolerance-criticality-supplement-fr",
+      "version" : "1.0",
+      "status" : "draft",
+      "name" : "allergy-intolerance-criticalitySupplementFr",
+      "title" : "allergy-intolerance-criticalitySupplementFr",
+      "description" : "Traduction Francaise"
+    },
+    {
+      "url" : "http://hl7.org/fhir/us/example/CodeSystem/allergyintolerance-clinical-supplement-fr",
+      "version" : "1.0",
+      "status" : "draft",
+      "name" : "allergyintolerance-clinicalSupplementFr",
+      "title" : "allergyintolerance-clinicalSupplementFr",
+      "description" : "Traduction Francaise"
+    },
+    {
+      "url" : "http://hl7.org/fhir/us/example/CodeSystem/condition-clinical-supplement-fr",
+      "version" : "1.0",
+      "status" : "draft",
+      "name" : "condition-clinicalSupplementFr",
+      "title" : "condition-clinicalSupplementFr",
+      "description" : "Traduction Francaise"
+    },
+    {
+      "url" : "http://hl7.org/fhir/us/example/CodeSystem/condition-ver-status-supplement-fr",
+      "version" : "1.0",
+      "status" : "draft",
+      "name" : "condition-ver-statusSupplementFr",
+      "title" : "condition-ver-statusSupplementFr",
+      "description" : "Traduction Francaise"
+    },
+    {
+      "url" : "http://hl7.org/fhir/us/example/CodeSystem/employmentStatus-supplement-fr",
+      "version" : "1.0",
+      "status" : "draft",
+      "name" : "employmentStatusSupplementFr",
+      "title" : "employmentStatusSupplementFr",
+      "description" : "Traduction Francaise"
+    },
+    {
+      "url" : "http://hl7.org/fhir/us/example/CodeSystem/mediaType-supplement-fr",
+      "version" : "1.0",
+      "status" : "draft",
+      "name" : "mediaTypeSupplementFr",
+      "title" : "mediaTypeSupplementFr",
+      "description" : "Traduction Francaise"
+    },
+    {
+      "url" : "http://hl7.org/fhir/us/example/CodeSystem/orderableDrugForm-supplement-fr",
+      "version" : "1.0",
+      "status" : "draft",
+      "name" : "orderableDrugFormSupplementFr",
+      "title" : "orderableDrugFormSupplementFr",
+      "description" : "Traduction Francaise"
+    },
+    {
+      "url" : "http://hl7.org/fhir/us/example/CodeSystem/substanceAdminSubstitution-supplement-fr",
+      "version" : "1.0",
+      "status" : "draft",
+      "name" : "substanceAdminSubstitutionSupplementFr",
+      "title" : "substanceAdminSubstitutionSupplementFr",
+      "description" : "Traduction Francaise"
+    },
+    {
+      "url" : "http://hl7.org/fhir/us/example/CodeSystem/v3-ActPriority-supplement-fr",
+      "version" : "1.0",
+      "status" : "draft",
+      "name" : "V3ActPrioritySupplementFr",
+      "title" : "v3ActPrioritySupplementFr",
+      "description" : "Traduction Francaise"
+    },
+    {
       "url" : "http://snomed.info/sct",
       "version" : "http://snomed.info/sct/11000315107/version/20250621",
       "status" : "active",
@@ -2321,14 +2513,6 @@
       "title" : "Tre R394 Competence Metier",
       "description" : "Type de savoir-faire opérationnel, transversal ou spécifique, acquis et exercé à titre non exclusif dans le cadre d’une activité professionnelle reconnue.",
       "oids" : ["1.2.250.1.213.1.6.1.375"]
-    },
-    {
-      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/v3-ActPriority-supplement-fr",
-      "version" : "1.0",
-      "status" : "draft",
-      "name" : "V3ActPrioritySupplementFr",
-      "title" : "v3ActPrioritySupplementFr",
-      "description" : "Traduction Francaise"
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-SERAFINPH",

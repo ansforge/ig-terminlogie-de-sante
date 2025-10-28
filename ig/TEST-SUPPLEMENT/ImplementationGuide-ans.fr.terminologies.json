@@ -10,7 +10,7 @@
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2025-10-24T16:30:00+00:00",
+  "date" : "2025-10-28T16:16:24+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -12065,6 +12065,12 @@
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
     {
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/expansion-parameters",
+      "valueReference" : {
+        "reference" : "Parameters/expansion-parameters"
+      }
+    },
+    {
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency",
       "valueCode" : "hl7.fhir.uv.tools.r4#0.8.0"
     },
@@ -24083,6 +24089,18 @@
     "resource" : [{
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/ActCode-supplement-fr"
+      },
+      "name" : "ActCodeSupplementFr",
+      "description" : "Traduction Francaise",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
@@ -24119,6 +24137,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/ActMood-supplement-fr"
+      },
+      "name" : "ActMoodSupplementFr",
+      "description" : "Traduction Francaise",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
@@ -24143,6 +24173,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/ActPriority-supplement-fr"
+      },
+      "name" : "ActPrioritySupplementFr",
+      "description" : "Traduction Francaise",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
@@ -24150,6 +24192,18 @@
       },
       "name" : "ActStatus",
       "description" : "ActStatus",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/ActStatus-supplement-fr"
+      },
+      "name" : "ActStatusSupplementFr",
+      "description" : "Traduction Francaise",
       "exampleBoolean" : false
     },
     {
@@ -24226,6 +24280,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/AdministrativeGender-supplement-fr"
+      },
+      "name" : "AdministrativeGenderSupplementFr",
+      "description" : "Traduction Francaise",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ConceptMap"
       }],
       "reference" : {
@@ -24260,6 +24326,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/allergy-intolerance-criticality-supplement-fr"
+      },
+      "name" : "allergy-intolerance-criticalitySupplementFr",
+      "description" : "Traduction Francaise",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
@@ -24267,6 +24345,18 @@
       },
       "name" : "AllergyIntolerance Clinical Status Codes",
       "description" : "AllergyIntolerance Clinical Status Codes",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/allergyintolerance-clinical-supplement-fr"
+      },
+      "name" : "allergyintolerance-clinicalSupplementFr",
+      "description" : "Traduction Francaise",
       "exampleBoolean" : false
     },
     {
@@ -24704,6 +24794,30 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/condition-clinical-supplement-fr"
+      },
+      "name" : "condition-clinicalSupplementFr",
+      "description" : "Traduction Francaise",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/condition-ver-status-supplement-fr"
+      },
+      "name" : "condition-ver-statusSupplementFr",
+      "description" : "Traduction Francaise",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
@@ -24711,6 +24825,18 @@
       },
       "name" : "Confidentiality",
       "description" : "Confidentiality",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/Confidentiality-supplement-fr"
+      },
+      "name" : "Confidentiality SupplementFr",
+      "description" : "Traduction Francaise",
       "exampleBoolean" : false
     },
     {
@@ -24735,6 +24861,18 @@
       },
       "name" : "EmploymentStatusODH",
       "description" : "EmploymentStatusODH",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/employmentStatus-supplement-fr"
+      },
+      "name" : "employmentStatusSupplementFr",
+      "description" : "Traduction Francaise",
       "exampleBoolean" : false
     },
     {
@@ -33209,6 +33347,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/mediaType-supplement-fr"
+      },
+      "name" : "mediaTypeSupplementFr",
+      "description" : "Traduction Francaise",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "NamingSystem"
       }],
       "reference" : {
@@ -33268,6 +33418,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/ObservationInterpretation-supplement-fr"
+      },
+      "name" : "ObservationInterpretationSupplementFr",
+      "description" : "Traduction Francaise",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
@@ -33275,6 +33437,42 @@
       },
       "name" : "ObservationMethod",
       "description" : "ObservationMethod",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/ObservationMethod-supplement-fr"
+      },
+      "name" : "ObservationMethodSupplementFr",
+      "description" : "Traduction Francaise",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/ObservationValue-supplement-fr"
+      },
+      "name" : "ObservationValueSupplementFr",
+      "description" : "Traduction Francaise",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/orderableDrugForm-supplement-fr"
+      },
+      "name" : "orderableDrugFormSupplementFr",
+      "description" : "Traduction Francaise",
       "exampleBoolean" : false
     },
     {
@@ -33292,6 +33490,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/ParticipationFunction-supplement-fr"
+      },
+      "name" : "ParticipationFunctionSupplementFr",
+      "description" : "Traduction Francaise",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
@@ -33299,6 +33509,18 @@
       },
       "name" : "ParticipationType",
       "description" : "ParticipationType",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/ParticipationType-supplement-fr"
+      },
+      "name" : "ParticipationTypeSupplementFr",
+      "description" : "Traduction Francaise",
       "exampleBoolean" : false
     },
     {
@@ -33346,6 +33568,30 @@
       },
       "name" : "RoleClassIngredientEntity",
       "description" : "RoleClassIngredientEntity",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/RoleClass-supplement-fr"
+      },
+      "name" : "RoleClassSupplementFr",
+      "description" : "Traduction Francaise",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/RoleCode-supplement-fr"
+      },
+      "name" : "RoleCodeSupplementFr",
+      "description" : "Traduction Francaise",
       "exampleBoolean" : false
     },
     {
@@ -33436,10 +33682,34 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
+        "reference" : "CodeSystem/SpecimenType-supplement-fr"
+      },
+      "name" : "SpecimenTypeSupplementFr",
+      "description" : "Traduction Francaise",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
         "reference" : "CodeSystem/terminologie-standardterms"
       },
       "name" : "Standard Terms Data Base Dictionnaire européen multilingue de termes normalisés descripteurs de médicaments",
       "description" : "Les standard terms (ou listes de termes normalisés) ont été établis en réponse à une demande de la Commission européenne. Ils contiennent les formes pharmaceutiques, les voies et/ou les méthodes d’administration, les unités de présentation, ainsi que les conditionnements, les systèmes de fermeture et les dispositifs d’administration des médicaments à usage humain et/ou vétérinaire.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/substanceAdminSubstitution-supplement-fr"
+      },
+      "name" : "substanceAdminSubstitutionSupplementFr",
+      "description" : "Traduction Francaise",
       "exampleBoolean" : false
     },
     {
@@ -33464,6 +33734,18 @@
       },
       "name" : "TimingEvent",
       "description" : "TimingEvent",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/TimingEvent-supplement-fr"
+      },
+      "name" : "TimingEventSupplementFr",
+      "description" : "Traduction Francaise",
       "exampleBoolean" : false
     },
     {

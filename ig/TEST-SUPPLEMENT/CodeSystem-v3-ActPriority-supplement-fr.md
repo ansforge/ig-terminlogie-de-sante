@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/v3-ActPriority-supplement-fr | *Version*:1.0 |
+| *Official URL*:http://hl7.org/fhir/us/example/CodeSystem/v3-ActPriority-supplement-fr | *Version*:1.0 |
 | Draft as of 2025-10-24 | *Computable Name*:V3ActPrioritySupplementFr |
 
  
@@ -16,9 +16,11 @@ Traduction Francaise
 
  This Code system is referenced in the content logical definition of the following value sets: 
 
-* This CodeSystem Supplement is not used here; it may be used elsewhere (e.g. specifications and/or implementations that use this content)
+* Ce supplément de terminologie de référence (CodeSystem) nest pas utilisé ici; il peut être utilisé ailleurs (par exemple spécifications et/ou implémentations qui utilisent ce contenu)
 
-This code system supplement `https://smt.esante.gouv.fr/fhir/CodeSystem/v3-ActPriority-supplement-fr` defines labels on the following codes:
+version: 9; Dernière mise à jour : 2025-10-25 10:05:40+0200; Langue : fr-FR
+
+This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/v3-ActPriority-supplement-fr` defines labels on the following codes:
 
 
 
@@ -28,13 +30,18 @@ This code system supplement `https://smt.esante.gouv.fr/fhir/CodeSystem/v3-ActPr
 {
   "resourceType" : "CodeSystem",
   "id" : "v3-ActPriority-supplement-fr",
+  "meta" : {
+    "versionId" : "9",
+    "lastUpdated" : "2025-10-25T10:05:40.915+02:00"
+  },
+  "language" : "fr-FR",
   "extension" : [
     {
       "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
       "valueCode" : "vocab"
     }
   ],
-  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/v3-ActPriority-supplement-fr",
+  "url" : "http://hl7.org/fhir/us/example/CodeSystem/v3-ActPriority-supplement-fr",
   "version" : "1.0",
   "name" : "V3ActPrioritySupplementFr",
   "title" : "v3ActPrioritySupplementFr",

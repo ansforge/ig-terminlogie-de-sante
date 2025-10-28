@@ -1,0 +1,3539 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/ObservationMethod-supplement-fr> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "ObservationMethod-supplement-fr"] ; # 
+  fhir:language [ fhir:v "fr-FR"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem ObservationMethod-supplement-fr</b></p><a name=\"ObservationMethod-supplement-fr\"> </a><a name=\"hcObservationMethod-supplement-fr\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Langue : fr-FR</p></div><p>This code system supplement <code>http://hl7.org/fhir/us/example/CodeSystem/ObservationMethod-supplement-fr</code> defines labels on the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-1\">1</a><a name=\"ObservationMethod-supplement-fr-1\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-2\">2</a><a name=\"ObservationMethod-supplement-fr-2\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-3\">3</a><a name=\"ObservationMethod-supplement-fr-3\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-4\">4</a><a name=\"ObservationMethod-supplement-fr-4\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-5\">5</a><a name=\"ObservationMethod-supplement-fr-5\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-6\">6</a><a name=\"ObservationMethod-supplement-fr-6\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-7\">7</a><a name=\"ObservationMethod-supplement-fr-7\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-8\">8</a><a name=\"ObservationMethod-supplement-fr-8\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-9\">9</a><a name=\"ObservationMethod-supplement-fr-9\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-10\">10</a><a name=\"ObservationMethod-supplement-fr-10\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-11\">11</a><a name=\"ObservationMethod-supplement-fr-11\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-12\">12</a><a name=\"ObservationMethod-supplement-fr-12\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-13\">13</a><a name=\"ObservationMethod-supplement-fr-13\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-14\">14</a><a name=\"ObservationMethod-supplement-fr-14\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-15\">15</a><a name=\"ObservationMethod-supplement-fr-15\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-16\">16</a><a name=\"ObservationMethod-supplement-fr-16\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-17\">17</a><a name=\"ObservationMethod-supplement-fr-17\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-18\">18</a><a name=\"ObservationMethod-supplement-fr-18\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-19\">19</a><a name=\"ObservationMethod-supplement-fr-19\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-20\">20</a><a name=\"ObservationMethod-supplement-fr-20\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-21\">21</a><a name=\"ObservationMethod-supplement-fr-21\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-22\">22</a><a name=\"ObservationMethod-supplement-fr-22\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-23\">23</a><a name=\"ObservationMethod-supplement-fr-23\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-24\">24</a><a name=\"ObservationMethod-supplement-fr-24\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-25\">25</a><a name=\"ObservationMethod-supplement-fr-25\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-26\">26</a><a name=\"ObservationMethod-supplement-fr-26\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-27\">27</a><a name=\"ObservationMethod-supplement-fr-27\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-30\">30</a><a name=\"ObservationMethod-supplement-fr-30\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-31\">31</a><a name=\"ObservationMethod-supplement-fr-31\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-32\">32</a><a name=\"ObservationMethod-supplement-fr-32\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-33\">33</a><a name=\"ObservationMethod-supplement-fr-33\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-34\">34</a><a name=\"ObservationMethod-supplement-fr-34\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-37\">37</a><a name=\"ObservationMethod-supplement-fr-37\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-38\">38</a><a name=\"ObservationMethod-supplement-fr-38\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-39\">39</a><a name=\"ObservationMethod-supplement-fr-39\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-40\">40</a><a name=\"ObservationMethod-supplement-fr-40\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-41\">41</a><a name=\"ObservationMethod-supplement-fr-41\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-42\">42</a><a name=\"ObservationMethod-supplement-fr-42\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-43\">43</a><a name=\"ObservationMethod-supplement-fr-43\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-44\">44</a><a name=\"ObservationMethod-supplement-fr-44\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-45\">45</a><a name=\"ObservationMethod-supplement-fr-45\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-46\">46</a><a name=\"ObservationMethod-supplement-fr-46\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-47\">47</a><a name=\"ObservationMethod-supplement-fr-47\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-48\">48</a><a name=\"ObservationMethod-supplement-fr-48\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-49\">49</a><a name=\"ObservationMethod-supplement-fr-49\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-50\">50</a><a name=\"ObservationMethod-supplement-fr-50\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-51\">51</a><a name=\"ObservationMethod-supplement-fr-51\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-52\">52</a><a name=\"ObservationMethod-supplement-fr-52\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-53\">53</a><a name=\"ObservationMethod-supplement-fr-53\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-54\">54</a><a name=\"ObservationMethod-supplement-fr-54\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-61\">61</a><a name=\"ObservationMethod-supplement-fr-61\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-62\">62</a><a name=\"ObservationMethod-supplement-fr-62\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-63\">63</a><a name=\"ObservationMethod-supplement-fr-63\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-64\">64</a><a name=\"ObservationMethod-supplement-fr-64\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-65\">65</a><a name=\"ObservationMethod-supplement-fr-65\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-66\">66</a><a name=\"ObservationMethod-supplement-fr-66\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-67\">67</a><a name=\"ObservationMethod-supplement-fr-67\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-68\">68</a><a name=\"ObservationMethod-supplement-fr-68\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-69\">69</a><a name=\"ObservationMethod-supplement-fr-69\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-70\">70</a><a name=\"ObservationMethod-supplement-fr-70\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-71\">71</a><a name=\"ObservationMethod-supplement-fr-71\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-72\">72</a><a name=\"ObservationMethod-supplement-fr-72\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-73\">73</a><a name=\"ObservationMethod-supplement-fr-73\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-74\">74</a><a name=\"ObservationMethod-supplement-fr-74\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-75\">75</a><a name=\"ObservationMethod-supplement-fr-75\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-76\">76</a><a name=\"ObservationMethod-supplement-fr-76\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-77\">77</a><a name=\"ObservationMethod-supplement-fr-77\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-78\">78</a><a name=\"ObservationMethod-supplement-fr-78\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-79\">79</a><a name=\"ObservationMethod-supplement-fr-79\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-80\">80</a><a name=\"ObservationMethod-supplement-fr-80\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-81\">81</a><a name=\"ObservationMethod-supplement-fr-81\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-82\">82</a><a name=\"ObservationMethod-supplement-fr-82\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-83\">83</a><a name=\"ObservationMethod-supplement-fr-83\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-84\">84</a><a name=\"ObservationMethod-supplement-fr-84\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-85\">85</a><a name=\"ObservationMethod-supplement-fr-85\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-86\">86</a><a name=\"ObservationMethod-supplement-fr-86\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-87\">87</a><a name=\"ObservationMethod-supplement-fr-87\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-88\">88</a><a name=\"ObservationMethod-supplement-fr-88\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-89\">89</a><a name=\"ObservationMethod-supplement-fr-89\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-90\">90</a><a name=\"ObservationMethod-supplement-fr-90\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-91\">91</a><a name=\"ObservationMethod-supplement-fr-91\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-92\">92</a><a name=\"ObservationMethod-supplement-fr-92\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-93\">93</a><a name=\"ObservationMethod-supplement-fr-93\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-94\">94</a><a name=\"ObservationMethod-supplement-fr-94\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-95\">95</a><a name=\"ObservationMethod-supplement-fr-95\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-96\">96</a><a name=\"ObservationMethod-supplement-fr-96\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-97\">97</a><a name=\"ObservationMethod-supplement-fr-97\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-98\">98</a><a name=\"ObservationMethod-supplement-fr-98\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-99\">99</a><a name=\"ObservationMethod-supplement-fr-99\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-100\">100</a><a name=\"ObservationMethod-supplement-fr-100\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-101\">101</a><a name=\"ObservationMethod-supplement-fr-101\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-102\">102</a><a name=\"ObservationMethod-supplement-fr-102\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-103\">103</a><a name=\"ObservationMethod-supplement-fr-103\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-104\">104</a><a name=\"ObservationMethod-supplement-fr-104\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-105\">105</a><a name=\"ObservationMethod-supplement-fr-105\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-106\">106</a><a name=\"ObservationMethod-supplement-fr-106\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-107\">107</a><a name=\"ObservationMethod-supplement-fr-107\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-108\">108</a><a name=\"ObservationMethod-supplement-fr-108\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-109\">109</a><a name=\"ObservationMethod-supplement-fr-109\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-110\">110</a><a name=\"ObservationMethod-supplement-fr-110\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-111\">111</a><a name=\"ObservationMethod-supplement-fr-111\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-112\">112</a><a name=\"ObservationMethod-supplement-fr-112\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-113\">113</a><a name=\"ObservationMethod-supplement-fr-113\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-114\">114</a><a name=\"ObservationMethod-supplement-fr-114\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-115\">115</a><a name=\"ObservationMethod-supplement-fr-115\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-116\">116</a><a name=\"ObservationMethod-supplement-fr-116\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-117\">117</a><a name=\"ObservationMethod-supplement-fr-117\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-120\">120</a><a name=\"ObservationMethod-supplement-fr-120\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-122\">122</a><a name=\"ObservationMethod-supplement-fr-122\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-123\">123</a><a name=\"ObservationMethod-supplement-fr-123\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-127\">127</a><a name=\"ObservationMethod-supplement-fr-127\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-128\">128</a><a name=\"ObservationMethod-supplement-fr-128\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-129\">129</a><a name=\"ObservationMethod-supplement-fr-129\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-130\">130</a><a name=\"ObservationMethod-supplement-fr-130\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-131\">131</a><a name=\"ObservationMethod-supplement-fr-131\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-132\">132</a><a name=\"ObservationMethod-supplement-fr-132\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-134\">134</a><a name=\"ObservationMethod-supplement-fr-134\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-135\">135</a><a name=\"ObservationMethod-supplement-fr-135\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-138\">138</a><a name=\"ObservationMethod-supplement-fr-138\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-139\">139</a><a name=\"ObservationMethod-supplement-fr-139\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-140\">140</a><a name=\"ObservationMethod-supplement-fr-140\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-141\">141</a><a name=\"ObservationMethod-supplement-fr-141\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-142\">142</a><a name=\"ObservationMethod-supplement-fr-142\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-143\">143</a><a name=\"ObservationMethod-supplement-fr-143\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-144\">144</a><a name=\"ObservationMethod-supplement-fr-144\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-145\">145</a><a name=\"ObservationMethod-supplement-fr-145\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-146\">146</a><a name=\"ObservationMethod-supplement-fr-146\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-147\">147</a><a name=\"ObservationMethod-supplement-fr-147\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-148\">148</a><a name=\"ObservationMethod-supplement-fr-148\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-149\">149</a><a name=\"ObservationMethod-supplement-fr-149\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-150\">150</a><a name=\"ObservationMethod-supplement-fr-150\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-151\">151</a><a name=\"ObservationMethod-supplement-fr-151\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-152\">152</a><a name=\"ObservationMethod-supplement-fr-152\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-153\">153</a><a name=\"ObservationMethod-supplement-fr-153\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-154\">154</a><a name=\"ObservationMethod-supplement-fr-154\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-155\">155</a><a name=\"ObservationMethod-supplement-fr-155\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-156\">156</a><a name=\"ObservationMethod-supplement-fr-156\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-157\">157</a><a name=\"ObservationMethod-supplement-fr-157\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-158\">158</a><a name=\"ObservationMethod-supplement-fr-158\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-159\">159</a><a name=\"ObservationMethod-supplement-fr-159\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-160\">160</a><a name=\"ObservationMethod-supplement-fr-160\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-161\">161</a><a name=\"ObservationMethod-supplement-fr-161\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-162\">162</a><a name=\"ObservationMethod-supplement-fr-162\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-163\">163</a><a name=\"ObservationMethod-supplement-fr-163\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-164\">164</a><a name=\"ObservationMethod-supplement-fr-164\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-165\">165</a><a name=\"ObservationMethod-supplement-fr-165\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-166\">166</a><a name=\"ObservationMethod-supplement-fr-166\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-167\">167</a><a name=\"ObservationMethod-supplement-fr-167\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-168\">168</a><a name=\"ObservationMethod-supplement-fr-168\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-169\">169</a><a name=\"ObservationMethod-supplement-fr-169\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-170\">170</a><a name=\"ObservationMethod-supplement-fr-170\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-171\">171</a><a name=\"ObservationMethod-supplement-fr-171\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-172\">172</a><a name=\"ObservationMethod-supplement-fr-172\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-173\">173</a><a name=\"ObservationMethod-supplement-fr-173\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-174\">174</a><a name=\"ObservationMethod-supplement-fr-174\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-175\">175</a><a name=\"ObservationMethod-supplement-fr-175\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-176\">176</a><a name=\"ObservationMethod-supplement-fr-176\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-177\">177</a><a name=\"ObservationMethod-supplement-fr-177\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-178\">178</a><a name=\"ObservationMethod-supplement-fr-178\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-179\">179</a><a name=\"ObservationMethod-supplement-fr-179\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-180\">180</a><a name=\"ObservationMethod-supplement-fr-180\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-181\">181</a><a name=\"ObservationMethod-supplement-fr-181\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-182\">182</a><a name=\"ObservationMethod-supplement-fr-182\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-183\">183</a><a name=\"ObservationMethod-supplement-fr-183\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-184\">184</a><a name=\"ObservationMethod-supplement-fr-184\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-185\">185</a><a name=\"ObservationMethod-supplement-fr-185\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-186\">186</a><a name=\"ObservationMethod-supplement-fr-186\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-187\">187</a><a name=\"ObservationMethod-supplement-fr-187\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-188\">188</a><a name=\"ObservationMethod-supplement-fr-188\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-189\">189</a><a name=\"ObservationMethod-supplement-fr-189\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-190\">190</a><a name=\"ObservationMethod-supplement-fr-190\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-191\">191</a><a name=\"ObservationMethod-supplement-fr-191\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-192\">192</a><a name=\"ObservationMethod-supplement-fr-192\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-193\">193</a><a name=\"ObservationMethod-supplement-fr-193\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-194\">194</a><a name=\"ObservationMethod-supplement-fr-194\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-195\">195</a><a name=\"ObservationMethod-supplement-fr-195\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-196\">196</a><a name=\"ObservationMethod-supplement-fr-196\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-197\">197</a><a name=\"ObservationMethod-supplement-fr-197\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-198\">198</a><a name=\"ObservationMethod-supplement-fr-198\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-199\">199</a><a name=\"ObservationMethod-supplement-fr-199\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-200\">200</a><a name=\"ObservationMethod-supplement-fr-200\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-201\">201</a><a name=\"ObservationMethod-supplement-fr-201\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-202\">202</a><a name=\"ObservationMethod-supplement-fr-202\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-203\">203</a><a name=\"ObservationMethod-supplement-fr-203\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-204\">204</a><a name=\"ObservationMethod-supplement-fr-204\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-205\">205</a><a name=\"ObservationMethod-supplement-fr-205\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-206\">206</a><a name=\"ObservationMethod-supplement-fr-206\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-207\">207</a><a name=\"ObservationMethod-supplement-fr-207\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-208\">208</a><a name=\"ObservationMethod-supplement-fr-208\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-209\">209</a><a name=\"ObservationMethod-supplement-fr-209\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-210\">210</a><a name=\"ObservationMethod-supplement-fr-210\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-211\">211</a><a name=\"ObservationMethod-supplement-fr-211\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-212\">212</a><a name=\"ObservationMethod-supplement-fr-212\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-213\">213</a><a name=\"ObservationMethod-supplement-fr-213\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-214\">214</a><a name=\"ObservationMethod-supplement-fr-214\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-215\">215</a><a name=\"ObservationMethod-supplement-fr-215\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-216\">216</a><a name=\"ObservationMethod-supplement-fr-216\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-217\">217</a><a name=\"ObservationMethod-supplement-fr-217\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-218\">218</a><a name=\"ObservationMethod-supplement-fr-218\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-219\">219</a><a name=\"ObservationMethod-supplement-fr-219\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-220\">220</a><a name=\"ObservationMethod-supplement-fr-220\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-221\">221</a><a name=\"ObservationMethod-supplement-fr-221\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-222\">222</a><a name=\"ObservationMethod-supplement-fr-222\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-223\">223</a><a name=\"ObservationMethod-supplement-fr-223\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-224\">224</a><a name=\"ObservationMethod-supplement-fr-224\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-225\">225</a><a name=\"ObservationMethod-supplement-fr-225\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-226\">226</a><a name=\"ObservationMethod-supplement-fr-226\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-227\">227</a><a name=\"ObservationMethod-supplement-fr-227\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-228\">228</a><a name=\"ObservationMethod-supplement-fr-228\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-229\">229</a><a name=\"ObservationMethod-supplement-fr-229\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-230\">230</a><a name=\"ObservationMethod-supplement-fr-230\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-231\">231</a><a name=\"ObservationMethod-supplement-fr-231\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-232\">232</a><a name=\"ObservationMethod-supplement-fr-232\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-233\">233</a><a name=\"ObservationMethod-supplement-fr-233\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-234\">234</a><a name=\"ObservationMethod-supplement-fr-234\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-235\">235</a><a name=\"ObservationMethod-supplement-fr-235\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-236\">236</a><a name=\"ObservationMethod-supplement-fr-236\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-237\">237</a><a name=\"ObservationMethod-supplement-fr-237\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-238\">238</a><a name=\"ObservationMethod-supplement-fr-238\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-239\">239</a><a name=\"ObservationMethod-supplement-fr-239\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-240\">240</a><a name=\"ObservationMethod-supplement-fr-240\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-241\">241</a><a name=\"ObservationMethod-supplement-fr-241\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-242\">242</a><a name=\"ObservationMethod-supplement-fr-242\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-243\">243</a><a name=\"ObservationMethod-supplement-fr-243\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-244\">244</a><a name=\"ObservationMethod-supplement-fr-244\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-245\">245</a><a name=\"ObservationMethod-supplement-fr-245\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-246\">246</a><a name=\"ObservationMethod-supplement-fr-246\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-247\">247</a><a name=\"ObservationMethod-supplement-fr-247\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-248\">248</a><a name=\"ObservationMethod-supplement-fr-248\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-249\">249</a><a name=\"ObservationMethod-supplement-fr-249\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-250\">250</a><a name=\"ObservationMethod-supplement-fr-250\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-251\">251</a><a name=\"ObservationMethod-supplement-fr-251\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-252\">252</a><a name=\"ObservationMethod-supplement-fr-252\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-253\">253</a><a name=\"ObservationMethod-supplement-fr-253\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-254\">254</a><a name=\"ObservationMethod-supplement-fr-254\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-255\">255</a><a name=\"ObservationMethod-supplement-fr-255\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-256\">256</a><a name=\"ObservationMethod-supplement-fr-256\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-257\">257</a><a name=\"ObservationMethod-supplement-fr-257\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-258\">258</a><a name=\"ObservationMethod-supplement-fr-258\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-259\">259</a><a name=\"ObservationMethod-supplement-fr-259\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-261\">261</a><a name=\"ObservationMethod-supplement-fr-261\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-262\">262</a><a name=\"ObservationMethod-supplement-fr-262\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-263\">263</a><a name=\"ObservationMethod-supplement-fr-263\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-264\">264</a><a name=\"ObservationMethod-supplement-fr-264\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-265\">265</a><a name=\"ObservationMethod-supplement-fr-265\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-266\">266</a><a name=\"ObservationMethod-supplement-fr-266\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-267\">267</a><a name=\"ObservationMethod-supplement-fr-267\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-268\">268</a><a name=\"ObservationMethod-supplement-fr-268\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-269\">269</a><a name=\"ObservationMethod-supplement-fr-269\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-270\">270</a><a name=\"ObservationMethod-supplement-fr-270\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-271\">271</a><a name=\"ObservationMethod-supplement-fr-271\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-272\">272</a><a name=\"ObservationMethod-supplement-fr-272\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-273\">273</a><a name=\"ObservationMethod-supplement-fr-273\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-274\">274</a><a name=\"ObservationMethod-supplement-fr-274\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-275\">275</a><a name=\"ObservationMethod-supplement-fr-275\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-275a\">275a</a><a name=\"ObservationMethod-supplement-fr-275a\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-276\">276</a><a name=\"ObservationMethod-supplement-fr-276\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-277\">277</a><a name=\"ObservationMethod-supplement-fr-277\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-278\">278</a><a name=\"ObservationMethod-supplement-fr-278\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-279\">279</a><a name=\"ObservationMethod-supplement-fr-279\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-280\">280</a><a name=\"ObservationMethod-supplement-fr-280\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-ALGM\">ALGM</a><a name=\"ObservationMethod-supplement-fr-ALGM\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-BYCL\">BYCL</a><a name=\"ObservationMethod-supplement-fr-BYCL\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-PCR\">PCR</a><a name=\"ObservationMethod-supplement-fr-PCR\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-VDOC\">VDOC</a><a name=\"ObservationMethod-supplement-fr-VDOC\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-VREG\">VREG</a><a name=\"ObservationMethod-supplement-fr-VREG\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-VTOKEN\">VTOKEN</a><a name=\"ObservationMethod-supplement-fr-VTOKEN\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-VVOICE\">VVOICE</a><a name=\"ObservationMethod-supplement-fr-VVOICE\"> </a></td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "vocab"
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/us/example/CodeSystem/ObservationMethod-supplement-fr"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/us/example/CodeSystem/ObservationMethod-supplement-fr>
+  ] ; # 
+  fhir:version [ fhir:v "1.0"] ; # 
+  fhir:name [ fhir:v "ObservationMethodSupplementFr"] ; # 
+  fhir:title [ fhir:v "ObservationMethodSupplementFr"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v true] ; # 
+  fhir:date [ fhir:v "2025-10-24T16:40:38+11:00"^^xsd:dateTime] ; # 
+  fhir:description [ fhir:v "Traduction Francaise"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
+       fhir:code [ fhir:v "FRA" ]
+     ] )
+  ] ) ; # 
+  fhir:content [ fhir:v "supplement"] ; # 
+  fhir:supplements [
+     fhir:v "http://terminology.hl7.org/CodeSystem/v3-ObservationMethod|3.0.0"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/CodeSystem/v3-ObservationMethod?version=3.0.0>
+  ] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "1" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Fixation complément" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "2" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Tomographie axiale" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "3" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Test de haut niveau de résistance aux aminosides sur gélose" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "4" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Examen macroscopique" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "5" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Résonnance magnétique" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "6" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Morphométrie" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "7" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Tomographie par émission de positrons" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "8" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "SAMHSA confirmation" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "9" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "SAMHSA dépistage" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "10" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Neutralisation sérum" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "11" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Titrimétrie" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "12" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Ultrasonographie" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "13" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Cristallographie Rayon X" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "14" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Agglutination" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "15" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Agglutination sur plaque tampon acidifié" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "16" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Agglutination sur carte" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "17" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Hémagglutination" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "18" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Inhibition hémagglutination" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "19" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Agglutination latex" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "20" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Agglutination plaque" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "21" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Agglutination rapide" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "22" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Agglutination érythrocytes" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "23" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Agglutination,rivanol" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "24" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Agglutination en tube" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "25" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Bioanalyse" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "26" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Inoculation animal" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "27" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Cytotoxicité" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "30" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Inoculation intracérébrale à la souris" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "31" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Analyse qualitative" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "32" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Analyse quantitative" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "33" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Méthode chimique" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "34" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Test chimique d'absorption de lumière différentielle" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "37" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Test sur bandelette" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "38" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Chromatographie" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "39" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Chromatographie d'affinité" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "40" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Chromatographie phase gazeuse liquide" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "41" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Chromatographie liquide haute pression" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "42" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Chromatographie liquide" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "43" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Chromatographie d'affinité à la protéine A" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "44" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coagulation" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "45" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Temps de coagulation en tube" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "46" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coagulation induite par reptilase en tube" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "47" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Comptage automatisé" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "48" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Comptage manuel" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "49" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Comptage plaquettaire de Rees-Ecker" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "50" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Culture aérobie" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "51" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Culture anaérobie" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "52" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Culture sur embryon de poulet" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "53" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Enrichissement secondaire retardé" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "54" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Culture microaérophile" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "61" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Culture cellulaire somatique" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "62" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Diffusion gel Agar" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "63" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Immunodiffusion" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "64" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Électrophorèse" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "65" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Électrophorèse gel agarose" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "66" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Électrophorèse citrate agar" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "67" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Immunoélectrophorèse" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "68" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Électrophorèse sur gel de polyacrylamide" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "69" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Électrophorèse sur gel d'amidon" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "70" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "ELISA" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "71" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "ELISA avec captude d'antigène" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "72" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "ELISA avec complexe avidine biotine péroxydase" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "73" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "ELISA avec cinétique" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "74" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "ELISA avec péroxydase-anti-péroxydase" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "75" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Identification par galerie API 20 Strep" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "76" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Identification par galerie API 20A" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "77" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Identification par galerie API 20C AUX" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "78" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Identification par galerie API 20E" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "79" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Identification par galerie API 20NE" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "80" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Identification par galerie API 50 CH" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "81" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Identification par galerie API An-IDENT" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "82" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Identification par galerie API Coryne" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "83" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Identification par galerie API Rapid 20E" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "84" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Identification par galerie API Staph" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "85" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Identification par galerie API 20 Strep" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "86" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Identification bactérienne" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "87" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Identification par mini VIDAS" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "88" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Identification par lysotypie" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "89" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Identification par galerie QuadFERM+" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "90" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Identification par galerie RAPIDEC Staph" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "91" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Identification par agglutination latex Staphaurex" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "92" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Identification par VIDAS" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "93" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Identification par VITEK" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "94" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Identification par VITEK 2" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "95" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration immune" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "96" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Immunofluorescence directe" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "97" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Immunofluorescence indirecte" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "98" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Immunopéroxydase (complexe avidine-Biotine)" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "99" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Immunopéroxydase (complexe péroxydase-antipéroxydase)" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "100" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Immunopéroxydase (complexe Protéine A-péroxydase)" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "101" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Immunoanalyse" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "102" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Immunoanalyse qualitative à plusieurs étapes" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "103" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Immunoanalyse qualitative à une étape" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "104" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Radioimmunologie" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "105" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Immunoanalyse semi-quantitative à plusieurs étapes" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "106" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Immunoanalyse semi-quantitative à une étape" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "107" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Microscopie" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "108" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Microscopie fond noir" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "109" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Microscopie électronique" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "110" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Microscopie électronique, Tomographie numérique" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "111" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Microscopie électronique en contraste de phase" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "112" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Microscopie électronique sur section épaisse" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "113" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Microscopie électronique sur section fine" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "114" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Microscvopie en lumière directe" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "115" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Microscopie à polarisation" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "116" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Microscopie électronique à balayage" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "117" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Microscopie électronique à transmission" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "120" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "ADN branché" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "122" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Immunoblot" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "123" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Hybridation moléculaire in situ" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "127" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Sonde acide nucléique" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "128" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Sonde acide nucléique avec amplification" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "129" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Sonde acide nucléique avec amplification ciblée" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "130" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Transcription inverse" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "131" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Séquençage d'acides nucléiques" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "132" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "PCR" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "134" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "RFLP" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "135" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Southern-blot" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "138" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Western-Blot" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "139" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Floculation" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "140" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Immunoprécipitation" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "141" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Test à l'anneau de lait" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "142" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Précipitine" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "143" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration acide rapide" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "144" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration acide rapide/fluorochrome" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "145" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration acide rapide Kinyoun" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "146" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration acide Ziehl-Neelsen" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "147" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration phosphatase acide" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "148" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration acridine orange" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "149" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration orange brillant KH" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "150" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration rouge alizarine" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "151" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration bleu alcian" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "152" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration bleu alcian+acide périodique-Schiff" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "153" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration argentaffine" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "154" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration argent argentaffine" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "155" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration azur-éosine" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "156" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration fuchsine basique" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "157" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration Bennhold" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "158" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration rouge Congo/Bennhold" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "159" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration Bielschowsky" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "160" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration Argent/Bielschowsky" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "161" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Décoloration" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "162" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration Bodian" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "163" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration Brown et Brenn" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "164" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration butyrate estérase" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "165" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Préparation calcofluor blanc" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "166" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration carbol fuchsine" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "167" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration carmin" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "168" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration Churukian-Schenk" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "169" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration rouge Congo" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "170" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration violet de crésyl acétate" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "171" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration crystal violet" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "172" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration de Galantha" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "173" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration de Dieterle par imprégnation argentique" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "174" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration Fite-Faraco" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "175" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration Fontana-Masson" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "176" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration Fouchet" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "177" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration Gomori" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "178" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration méthénamine argent Gomori" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "179" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration trichrome Gomori-Wheatly" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "180" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration Gridley" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "181" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration argent Grimelius" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "182" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration de Grocott" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "183" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration méthénamine argent Grocott" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "184" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration à l'oxyde ferrique colloïdale de Hale" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "185" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration au fer colloïdale de Hale" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "186" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration Hansel" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "187" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration hématoxylline Harris+éosine" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "188" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration hématoxylline+éosine" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "189" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration Highman" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "190" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration Holzer" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "191" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration fer hématoxylline" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "192" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration Jones" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "193" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration méthénamine argent Jones" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "194" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration Kossa" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "195" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration Lawson-Van Gieson" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "196" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration bleu de méthylène Loeffler" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "197" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration Luxol bleu au violet crésyl" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "198" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration Luxol bleu à l'acide périodique-Schiff" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "199" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration tétrachrome MacNeal" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "200" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration Mallory-Heidenhain" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "201" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration trichrome Masson" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "202" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration Mayer mucicarmine" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "203" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration Mayer hématoxyline éosine" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "204" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration May-Grunwald Giemsa" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "205" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration au vert de méthyl" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "206" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration au vert de méthyl pyronine" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "207" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration trichrome Gomori-Wheatley" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "208" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration trichrome Masson modifié" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "209" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration trichrome modifié" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "210" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration pentachrome Movat" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "211" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration mucicarmine" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "212" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration rouge neutre" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "213" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration bleu nuit" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "214" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration estérase non spécifique" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "215" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration huile rouge O" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "216" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration orcéine" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "217" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration de Perls" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "218" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration hématoxyline phosphotungstique" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "219" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration ferrocyanure de potassium" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "220" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration bleu de Prusse" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "221" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration Bennhold modifiée" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "222" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration quinacrine fluorescente" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "223" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration réticuline" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "224" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration rhodamine" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "225" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration safranée" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "226" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration Schmorl" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "227" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration Sevier-Munger" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "228" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration argentique" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "229" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration estérase spécifique (Butyrate estérase)" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "230" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration Steiner" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "231" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration Soudan III" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "232" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration Soudan IV" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "233" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration bleu alcian sulfaté" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "234" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration supravitale" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "235" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration thioflavine-S" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "236" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration Giemsa 3µ" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "237" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration Vassar-Culling" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "238" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration vitale" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "239" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coloration Von Kossa" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "240" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Antibiogramme méthode par diffusion" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "241" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Antibiogramme méthode par automate BACTEC" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "242" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Antibiogramme méthode par dilution" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "243" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Concentration minimale bactéricide (CMB) par macrodilution (tube)" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "244" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Concentration minimale bactéricide (CMB) par microdilution (plaque)" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "245" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Concentration minimale inhibitrice (CMI) par macrodilution (tube)" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "246" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Concentration minimale inhibitrice (CMI) par microdilution (plaque)" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "247" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Turbidimétrie" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "248" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Réfractométrie" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "249" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Chromatographie couche mince" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "250" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "EMIT" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "251" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Cytométrie de flux" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "252" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Immunodiffusion radiale (RID)" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "253" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "PFIA" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "254" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Immunofixation" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "255" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Dialyse à l'équilibre" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "256" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Elution acide de Kleihauer-Betke" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "257" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Immunofluorescence anti-complément (ACIF)" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "258" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Chromatographie phase gazeuse/Spectroscopie de masse (GC/MS)" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "259" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Néphélométrie" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "261" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Test de micro-lymphocytotoxicité" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "262" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Spectrophotométrie" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "263" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Spectrophotométrie d'absorption atomique (SAA)" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "264" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Electrode ionique sélective" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "265" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Chromatographie phase gazeuse (CG)" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "266" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Isoélectrofocalisation (IEF)" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "267" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Chimioluminescence" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "268" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "MEIA" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "269" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Spectrométrie de masse à plasma à couplage inductif (ICP/MS)" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "270" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "IRMA" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "271" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Coagulation par détection optique du caillot" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "272" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Concentration minimale inhibitrice (CMI)" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "273" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Susceptibilité génotypique virale" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "274" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Susceptibilité phénotypique virale" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "275" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Bandelette à gradient" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "275a" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Concentration minimale létale (CML)" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "276" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Susceptibilité des mycobactéries à croissance lente" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "277" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Titre bactéricide sérique (TBS)" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "278" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Dépistage sur gélose" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "279" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Test d'induction par disque" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "280" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Test de sensibilité" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "ALGM" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Algorythme" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "BYCL" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Analyse stastistique Bayésienne" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "PCR" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "PCR" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "VDOC" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Vérification à partir d'un document" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "VREG" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Vérification par requête électronique" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "VTOKEN" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Vérification au moyen d'un jeton électronique" ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "VVOICE" ] ;
+     fhir:designation ( [
+       fhir:language [ fhir:v "fr-FR" ] ;
+       fhir:use [
+         fhir:system [
+           fhir:v "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"^^xsd:anyURI ;
+           fhir:l <http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra>
+         ] ;
+         fhir:code [ fhir:v "preferredForLanguage" ]
+       ] ;
+       fhir:value [ fhir:v "Vérification par voie orale" ]
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

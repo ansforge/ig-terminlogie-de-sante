@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://mos.esante.gouv.fr/NOS/ASS_X15_AgregatDisciplineEnseignement | *Version*:5.0.0 |
-| Active as of 2025-10-24 | *Computable Name*:ASS_X15_AgregatDisciplineEnseignement |
+| Active as of 2025-10-28 | *Computable Name*:ASS_X15_AgregatDisciplineEnseignement |
 
  
 ASS_X15_AgregatDisciplineEnseignement 
@@ -22,7 +22,7 @@ Pour cette association, seuls les fichiers sont disponibles :
 * [ASS_X15-AgregatDisciplineEnseignement.tabs](ASS_X15-AgregatDisciplineEnseignement.tabs)
 * [ASS_X15-AgregatDisciplineEnseignement.xml](ASS_X15-AgregatDisciplineEnseignement.xml)
 
-Mapping from (non spécifié) to (non spécifié)
+Mapping de (non spécifié) vers (non spécifié)
 
 
 
@@ -38,7 +38,7 @@ Mapping from (non spécifié) to (non spécifié)
   "title" : "ASS_X15_AgregatDisciplineEnseignement",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-10-24T16:30:00+00:00",
+  "date" : "2025-10-28T16:16:24+00:00",
   "publisher" : "ANS",
   "contact" : [
     {

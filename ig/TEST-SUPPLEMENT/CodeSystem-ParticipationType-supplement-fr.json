@@ -1,0 +1,667 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "ParticipationType-supplement-fr",
+  "language" : "fr-FR",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem ParticipationType-supplement-fr</b></p><a name=\"ParticipationType-supplement-fr\"> </a><a name=\"hcParticipationType-supplement-fr\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Langue : fr-FR</p></div><p>This code system supplement <code>http://hl7.org/fhir/us/example/CodeSystem/ParticipationType-supplement-fr</code> defines labels on the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ParticipationType.html#v3-ParticipationType-ADM\">ADM</a><a name=\"ParticipationType-supplement-fr-ADM\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ParticipationType.html#v3-ParticipationType-ALY\">ALY</a><a name=\"ParticipationType-supplement-fr-ALY\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ParticipationType.html#v3-ParticipationType-ATND\">ATND</a><a name=\"ParticipationType-supplement-fr-ATND\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ParticipationType.html#v3-ParticipationType-AUT\">AUT</a><a name=\"ParticipationType-supplement-fr-AUT\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ParticipationType.html#v3-ParticipationType-AUTHEN\">AUTHEN</a><a name=\"ParticipationType-supplement-fr-AUTHEN\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ParticipationType.html#v3-ParticipationType-BBY\">BBY</a><a name=\"ParticipationType-supplement-fr-BBY\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ParticipationType.html#v3-ParticipationType-BEN\">BEN</a><a name=\"ParticipationType-supplement-fr-BEN\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ParticipationType.html#v3-ParticipationType-CAGNT\">CAGNT</a><a name=\"ParticipationType-supplement-fr-CAGNT\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ParticipationType.html#v3-ParticipationType-CALLBCK\">CALLBCK</a><a name=\"ParticipationType-supplement-fr-CALLBCK\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ParticipationType.html#v3-ParticipationType-CAT\">CAT</a><a name=\"ParticipationType-supplement-fr-CAT\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ParticipationType.html#v3-ParticipationType-CON\">CON</a><a name=\"ParticipationType-supplement-fr-CON\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ParticipationType.html#v3-ParticipationType-COV\">COV</a><a name=\"ParticipationType-supplement-fr-COV\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ParticipationType.html#v3-ParticipationType-CSM\">CSM</a><a name=\"ParticipationType-supplement-fr-CSM\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ParticipationType.html#v3-ParticipationType-CST\">CST</a><a name=\"ParticipationType-supplement-fr-CST\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ParticipationType.html#v3-ParticipationType-DEV\">DEV</a><a name=\"ParticipationType-supplement-fr-DEV\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ParticipationType.html#v3-ParticipationType-DIR\">DIR</a><a name=\"ParticipationType-supplement-fr-DIR\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ParticipationType.html#v3-ParticipationType-DIS\">DIS</a><a name=\"ParticipationType-supplement-fr-DIS\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ParticipationType.html#v3-ParticipationType-DIST\">DIST</a><a name=\"ParticipationType-supplement-fr-DIST\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ParticipationType.html#v3-ParticipationType-DON\">DON</a><a name=\"ParticipationType-supplement-fr-DON\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ParticipationType.html#v3-ParticipationType-DST\">DST</a><a name=\"ParticipationType-supplement-fr-DST\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ParticipationType.html#v3-ParticipationType-ELOC\">ELOC</a><a name=\"ParticipationType-supplement-fr-ELOC\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ParticipationType.html#v3-ParticipationType-ENT\">ENT</a><a name=\"ParticipationType-supplement-fr-ENT\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ParticipationType.html#v3-ParticipationType-ESC\">ESC</a><a name=\"ParticipationType-supplement-fr-ESC\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ParticipationType.html#v3-ParticipationType-EXPAGNT\">EXPAGNT</a><a name=\"ParticipationType-supplement-fr-EXPAGNT\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ParticipationType.html#v3-ParticipationType-EXPART\">EXPART</a><a name=\"ParticipationType-supplement-fr-EXPART\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ParticipationType.html#v3-ParticipationType-EXSRC\">EXSRC</a><a name=\"ParticipationType-supplement-fr-EXSRC\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ParticipationType.html#v3-ParticipationType-EXPTRGT\">EXPTRGT</a><a name=\"ParticipationType-supplement-fr-EXPTRGT\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ParticipationType.html#v3-ParticipationType-GUAR\">GUAR</a><a name=\"ParticipationType-supplement-fr-GUAR\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ParticipationType.html#v3-ParticipationType-HLD\">HLD</a><a name=\"ParticipationType-supplement-fr-HLD\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ParticipationType.html#v3-ParticipationType-IND\">IND</a><a name=\"ParticipationType-supplement-fr-IND\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ParticipationType.html#v3-ParticipationType-INF\">INF</a><a name=\"ParticipationType-supplement-fr-INF\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ParticipationType.html#v3-ParticipationType-IRCP\">IRCP</a><a name=\"ParticipationType-supplement-fr-IRCP\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ParticipationType.html#v3-ParticipationType-LA\">LA</a><a name=\"ParticipationType-supplement-fr-LA\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ParticipationType.html#v3-ParticipationType-LOC\">LOC</a><a name=\"ParticipationType-supplement-fr-LOC\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ParticipationType.html#v3-ParticipationType-NRD\">NRD</a><a name=\"ParticipationType-supplement-fr-NRD\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ParticipationType.html#v3-ParticipationType-NOT\">NOT</a><a name=\"ParticipationType-supplement-fr-NOT\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ParticipationType.html#v3-ParticipationType-ORG\">ORG</a><a name=\"ParticipationType-supplement-fr-ORG\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ParticipationType.html#v3-ParticipationType-PART\">PART</a><a name=\"ParticipationType-supplement-fr-PART\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ParticipationType.html#v3-ParticipationType-PPRF\">PPRF</a><a name=\"ParticipationType-supplement-fr-PPRF\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ParticipationType.html#v3-ParticipationType-PRCP\">PRCP</a><a name=\"ParticipationType-supplement-fr-PRCP\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ParticipationType.html#v3-ParticipationType-PRD\">PRD</a><a name=\"ParticipationType-supplement-fr-PRD\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ParticipationType.html#v3-ParticipationType-PRF\">PRF</a><a name=\"ParticipationType-supplement-fr-PRF\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ParticipationType.html#v3-ParticipationType-RCT\">RCT</a><a name=\"ParticipationType-supplement-fr-RCT\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ParticipationType.html#v3-ParticipationType-RCV\">RCV</a><a name=\"ParticipationType-supplement-fr-RCV\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ParticipationType.html#v3-ParticipationType-RDV\">RDV</a><a name=\"ParticipationType-supplement-fr-RDV\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ParticipationType.html#v3-ParticipationType-REF\">REF</a><a name=\"ParticipationType-supplement-fr-REF\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ParticipationType.html#v3-ParticipationType-REFB\">REFB</a><a name=\"ParticipationType-supplement-fr-REFB\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ParticipationType.html#v3-ParticipationType-REFT\">REFT</a><a name=\"ParticipationType-supplement-fr-REFT\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ParticipationType.html#v3-ParticipationType-RESP\">RESP</a><a name=\"ParticipationType-supplement-fr-RESP\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ParticipationType.html#v3-ParticipationType-RML\">RML</a><a name=\"ParticipationType-supplement-fr-RML\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ParticipationType.html#v3-ParticipationType-SBJ\">SBJ</a><a name=\"ParticipationType-supplement-fr-SBJ\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ParticipationType.html#v3-ParticipationType-SPC\">SPC</a><a name=\"ParticipationType-supplement-fr-SPC\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ParticipationType.html#v3-ParticipationType-SPRF\">SPRF</a><a name=\"ParticipationType-supplement-fr-SPRF\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ParticipationType.html#v3-ParticipationType-TRANS\">TRANS</a><a name=\"ParticipationType-supplement-fr-TRANS\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ParticipationType.html#v3-ParticipationType-TRC\">TRC</a><a name=\"ParticipationType-supplement-fr-TRC\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ParticipationType.html#v3-ParticipationType-VIA\">VIA</a><a name=\"ParticipationType-supplement-fr-VIA\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ParticipationType.html#v3-ParticipationType-VRF\">VRF</a><a name=\"ParticipationType-supplement-fr-VRF\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ParticipationType.html#v3-ParticipationType-WIT\">WIT</a><a name=\"ParticipationType-supplement-fr-WIT\"> </a></td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+    "valueCode" : "vocab"
+  }],
+  "url" : "http://hl7.org/fhir/us/example/CodeSystem/ParticipationType-supplement-fr",
+  "version" : "1.0",
+  "name" : "ParticipationTypeSupplementFr",
+  "title" : "ParticipationTypeSupplementFr",
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2025-10-24T16:40:38+11:00",
+  "description" : "Traduction Francaise",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
+  "content" : "supplement",
+  "supplements" : "http://terminology.hl7.org/CodeSystem/v3-ParticipationType|5.0.0",
+  "concept" : [{
+    "code" : "ADM",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Responsable de l'admission"
+    }]
+  },
+  {
+    "code" : "ALY",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Cible d'une observation (substance ou composant le plus spécifique)"
+    }]
+  },
+  {
+    "code" : "ATND",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Superviseur / Responsable des soins"
+    }]
+  },
+  {
+    "code" : "AUT",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Auteur"
+    }]
+  },
+  {
+    "code" : "AUTHEN",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Valideur des résultats (ex : un biologiste ou un système expert)"
+    }]
+  },
+  {
+    "code" : "BBY",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Nouveau né"
+    }]
+  },
+  {
+    "code" : "BEN",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Bénéficiaire"
+    }]
+  },
+  {
+    "code" : "CAGNT",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Agent causal"
+    }]
+  },
+  {
+    "code" : "CALLBCK",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Contact à rappeler"
+    }]
+  },
+  {
+    "code" : "CAT",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Catalyseur"
+    }]
+  },
+  {
+    "code" : "CON",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Consultant"
+    }]
+  },
+  {
+    "code" : "COV",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Partie couverte (titulaire ou bénéficiaire)"
+    }]
+  },
+  {
+    "code" : "CSM",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Consommable"
+    }]
+  },
+  {
+    "code" : "CST",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Responsable de l'information"
+    }]
+  },
+  {
+    "code" : "DEV",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Dispositif automatique impliqué dans la production des résultats"
+    }]
+  },
+  {
+    "code" : "DIR",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Participant direct"
+    }]
+  },
+  {
+    "code" : "DIS",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Responsable de la sortie"
+    }]
+  },
+  {
+    "code" : "DIST",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Distributeur"
+    }]
+  },
+  {
+    "code" : "DON",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Donneur"
+    }]
+  },
+  {
+    "code" : "DST",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Destination"
+    }]
+  },
+  {
+    "code" : "ELOC",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Emplacement où les données sont saisies"
+    }]
+  },
+  {
+    "code" : "ENT",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Transcripteur du contenu à partir d'une autre forme"
+    }]
+  },
+  {
+    "code" : "ESC",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Accompagnateur"
+    }]
+  },
+  {
+    "code" : "EXPAGNT",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Agent de l'exposition"
+    }]
+  },
+  {
+    "code" : "EXPART",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Partie de l'exposition"
+    }]
+  },
+  {
+    "code" : "EXSRC",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Source de l'exposition"
+    }]
+  },
+  {
+    "code" : "EXPTRGT",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Cible de l'exposition"
+    }]
+  },
+  {
+    "code" : "GUAR",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Garant"
+    }]
+  },
+  {
+    "code" : "HLD",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Souscripteur"
+    }]
+  },
+  {
+    "code" : "IND",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Cible indirecte"
+    }]
+  },
+  {
+    "code" : "INF",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Informateur"
+    }]
+  },
+  {
+    "code" : "IRCP",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Destinataire de l'information"
+    }]
+  },
+  {
+    "code" : "LA",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Responsable légal de l'acte"
+    }]
+  },
+  {
+    "code" : "LOC",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Emplacement principal"
+    }]
+  },
+  {
+    "code" : "NRD",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Dispositif non réutilisable"
+    }]
+  },
+  {
+    "code" : "NOT",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Personne à prévenir en cas d'urgence"
+    }]
+  },
+  {
+    "code" : "ORG",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Lieu d'origine"
+    }]
+  },
+  {
+    "code" : "PART",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Participant"
+    }]
+  },
+  {
+    "code" : "PPRF",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Exécutant principal"
+    }]
+  },
+  {
+    "code" : "PRCP",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Destinataire principal de l'information"
+    }]
+  },
+  {
+    "code" : "PRD",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Produit"
+    }]
+  },
+  {
+    "code" : "PRF",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Exécutant"
+    }]
+  },
+  {
+    "code" : "RCT",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Dossier médical"
+    }]
+  },
+  {
+    "code" : "RCV",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Récepteur"
+    }]
+  },
+  {
+    "code" : "RDV",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Dispositif réutilisable"
+    }]
+  },
+  {
+    "code" : "REF",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Référent / Prescripteur"
+    }]
+  },
+  {
+    "code" : "REFB",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Personne ayant adressé le patient"
+    }]
+  },
+  {
+    "code" : "REFT",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Personne recevant le patient"
+    }]
+  },
+  {
+    "code" : "RESP",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Responsable de l'acte"
+    }]
+  },
+  {
+    "code" : "RML",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Emplacement distant"
+    }]
+  },
+  {
+    "code" : "SBJ",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Sujet"
+    }]
+  },
+  {
+    "code" : "SPC",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Echantillon"
+    }]
+  },
+  {
+    "code" : "SPRF",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Exécutant secondaire"
+    }]
+  },
+  {
+    "code" : "TRANS",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Transcripteur"
+    }]
+  },
+  {
+    "code" : "TRC",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Personne recevant une copie de l'information"
+    }]
+  },
+  {
+    "code" : "VIA",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Emplacement intermédiaire"
+    }]
+  },
+  {
+    "code" : "VRF",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Vérificateur"
+    }]
+  },
+  {
+    "code" : "WIT",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Témoin"
+    }]
+  }]
+}

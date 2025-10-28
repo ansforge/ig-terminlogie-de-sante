@@ -1,0 +1,142 @@
+# Confidentiality SupplementFr - Terminologies de Santé v1.3.0
+
+* [**Table of Contents**](toc.md)
+* [**Artifacts Summary**](artifacts.md)
+* **Confidentiality SupplementFr**
+
+## CodeSystem: Confidentiality SupplementFr (Experimental) 
+
+| | |
+| :--- | :--- |
+| *Official URL*:http://hl7.org/fhir/us/example/CodeSystem/Confidentiality-supplement-fr | *Version*:1.0 |
+| Draft as of 2025-10-24 | *Computable Name*:ConfidentialitySupplementFr |
+
+ 
+Traduction Francaise 
+
+ This Code system is referenced in the content logical definition of the following value sets: 
+
+* Ce supplément de terminologie de référence (CodeSystem) nest pas utilisé ici; il peut être utilisé ailleurs (par exemple spécifications et/ou implémentations qui utilisent ce contenu)
+
+Langue : fr-FR
+
+This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/Confidentiality-supplement-fr` defines labels on the following codes:
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "CodeSystem",
+  "id" : "Confidentiality-supplement-fr",
+  "language" : "fr-FR",
+  "extension" : [
+    {
+      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+      "valueCode" : "vocab"
+    }
+  ],
+  "url" : "http://hl7.org/fhir/us/example/CodeSystem/Confidentiality-supplement-fr",
+  "version" : "1.0",
+  "name" : "ConfidentialitySupplementFr",
+  "title" : "Confidentiality SupplementFr",
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2025-10-24T16:40:38+11:00",
+  "description" : "Traduction Francaise",
+  "jurisdiction" : [
+    {
+      "coding" : [
+        {
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "FRA"
+        }
+      ]
+    }
+  ],
+  "content" : "supplement",
+  "supplements" : "http://terminology.hl7.org/CodeSystem/v3-Confidentiality|3.0.0",
+  "concept" : [
+    {
+      "code" : "L",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+            "code" : "preferredForLanguage"
+          },
+          "value" : "Bas"
+        }
+      ]
+    },
+    {
+      "code" : "M",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+            "code" : "preferredForLanguage"
+          },
+          "value" : "Modéré"
+        }
+      ]
+    },
+    {
+      "code" : "N",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+            "code" : "preferredForLanguage"
+          },
+          "value" : "Normal"
+        }
+      ]
+    },
+    {
+      "code" : "R",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+            "code" : "preferredForLanguage"
+          },
+          "value" : "Restreint"
+        }
+      ]
+    },
+    {
+      "code" : "U",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+            "code" : "preferredForLanguage"
+          },
+          "value" : "Non restreint"
+        }
+      ]
+    },
+    {
+      "code" : "V",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+            "code" : "preferredForLanguage"
+          },
+          "value" : "Très restreint"
+        }
+      ]
+    }
+  ]
+}
+
+```

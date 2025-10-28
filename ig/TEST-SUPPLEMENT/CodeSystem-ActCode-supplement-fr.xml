@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="ActCode-supplement-fr"/>
+  <language value="fr-FR"/>
+  <text>
+    <status value="generated"/><div xml:lang="fr-FR" xmlns="http://www.w3.org/1999/xhtml" lang="fr-FR"><p class="res-header-id"><b>Narratif généré : CodeSystem ActCode-supplement-fr</b></p><a name="ActCode-supplement-fr"> </a><a name="hcActCode-supplement-fr"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Langue : fr-FR</p></div><p>This code system supplement <code>http://hl7.org/fhir/us/example/CodeSystem/ActCode-supplement-fr</code> defines labels on the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ActCode.html#v3-ActCode-AMB">AMB</a><a name="ActCode-supplement-fr-AMB"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ActCode.html#v3-ActCode-EMER">EMER</a><a name="ActCode-supplement-fr-EMER"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ActCode.html#v3-ActCode-FLD">FLD</a><a name="ActCode-supplement-fr-FLD"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ActCode.html#v3-ActCode-HH">HH</a><a name="ActCode-supplement-fr-HH"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ActCode.html#v3-ActCode-IMP">IMP</a><a name="ActCode-supplement-fr-IMP"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ActCode.html#v3-ActCode-OBSENC">OBSENC</a><a name="ActCode-supplement-fr-OBSENC"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ActCode.html#v3-ActCode-PRENC">PRENC</a><a name="ActCode-supplement-fr-PRENC"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ActCode.html#v3-ActCode-SS">SS</a><a name="ActCode-supplement-fr-SS"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ActCode.html#v3-ActCode-VR">VR</a><a name="ActCode-supplement-fr-VR"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ActCode.html#v3-ActCode-CIRCLE">CIRCLE</a><a name="ActCode-supplement-fr-CIRCLE"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ActCode.html#v3-ActCode-ELLIPSE">ELLIPSE</a><a name="ActCode-supplement-fr-ELLIPSE"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ActCode.html#v3-ActCode-POINT">POINT</a><a name="ActCode-supplement-fr-POINT"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ActCode.html#v3-ActCode-POLY">POLY</a><a name="ActCode-supplement-fr-POLY"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ActCode.html#v3-ActCode-DRUG">DRUG</a><a name="ActCode-supplement-fr-DRUG"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ActCode.html#v3-ActCode-FD">FD</a><a name="ActCode-supplement-fr-FD"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ActCode.html#v3-ActCode-BOOSTER">BOOSTER</a><a name="ActCode-supplement-fr-BOOSTER"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ActCode.html#v3-ActCode-IMMUNIZ">IMMUNIZ</a><a name="ActCode-supplement-fr-IMMUNIZ"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ActCode.html#v3-ActCode-INITIMMUNIZ">INITIMMUNIZ</a><a name="ActCode-supplement-fr-INITIMMUNIZ"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ActCode.html#v3-ActCode-SEV">SEV</a><a name="ActCode-supplement-fr-SEV"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ActCode.html#v3-ActCode-FFC">FFC</a><a name="ActCode-supplement-fr-FFC"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ActCode.html#v3-ActCode-FFP">FFP</a><a name="ActCode-supplement-fr-FFP"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ActCode.html#v3-ActCode-RFP">RFP</a><a name="ActCode-supplement-fr-RFP"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ActCode.html#v3-ActCode-RFC">RFC</a><a name="ActCode-supplement-fr-RFC"> </a></td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="vocab"/>
+  </extension>
+  <url value="http://hl7.org/fhir/us/example/CodeSystem/ActCode-supplement-fr"/>
+  <version value="1.0"/>
+  <name value="ActCodeSupplementFr"/>
+  <title value="ActCodeSupplementFr"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2025-10-24T16:40:38+11:00"/>
+  <description value="Traduction Francaise"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FRA"/>
+    </coding>
+  </jurisdiction>
+  <content value="supplement"/>
+  <supplements value="http://terminology.hl7.org/CodeSystem/v3-ActCode|9.0.0"/>
+  <concept>
+    <code value="AMB"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Ambulatoire (hors établissement)"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="EMER"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Passage aux urgences (établissement)"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="FLD"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Terrain (voie publique, hélicoptère, ambulance, etc.)"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="HH"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Soins à domicile (hors établissement)"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="IMP"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Hospitalisation (établissement, y compris HAD)"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="OBSENC"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Observation"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="PRENC"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Pré-admission"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="SS"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Hospitalisation de jour"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="VR"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Virtuelle (exemple : RCP en l'absence du patient)"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="CIRCLE"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Cercle"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="ELLIPSE"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Elipse"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="POINT"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Point"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="POLY"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Multi"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="DRUG"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Médicament"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="FD"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Aliment"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="BOOSTER"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Rappel de vaccin"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="IMMUNIZ"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Vaccination sans autre précision"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="INITIMMUNIZ"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="1ère série vaccinante"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="SEV"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Sévérité"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="FFC"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Première dispensation - complète"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="FFP"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Première dispensation - partielle"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="RFP"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Dispensation suivante - partielle"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="RFC"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Dispensation suivante - complète"/>
+    </designation>
+  </concept>
+</CodeSystem>

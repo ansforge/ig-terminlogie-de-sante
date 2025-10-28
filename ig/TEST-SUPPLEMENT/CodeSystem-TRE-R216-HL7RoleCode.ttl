@@ -15,23 +15,32 @@
      fhir:lastUpdated [ fhir:v "2025-07-02T18:16:09.793+00:00"^^xsd:dateTime ] ;
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
+       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
      ] )
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem TRE-R216-HL7RoleCode</b></p><a name=\"TRE-R216-HL7RoleCode\"> </a><a name=\"hcTRE-R216-HL7RoleCode\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 7; Dernière mise à jour : 2024-12-19 19:11:44+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://mos.esante.gouv.fr/NOS/TRE_R216-HL7RoleCode/FHIR/TRE-R216-HL7RoleCode</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>dateFin</b></td><td><b>French (France) (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">MTH<a name=\"TRE-R216-HL7RoleCode-MTH\"> </a></td><td>Mère</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">FTH<a name=\"TRE-R216-HL7RoleCode-FTH\"> </a></td><td>Père</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">NMTH<a name=\"TRE-R216-HL7RoleCode-NMTH\"> </a></td><td>Mère biologique</td><td>2016-09-01T00:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">NFTH<a name=\"TRE-R216-HL7RoleCode-NFTH\"> </a></td><td>Père biologique</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">STPMTH<a name=\"TRE-R216-HL7RoleCode-STPMTH\"> </a></td><td>Belle-mère - épouse du père ou de la mère</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td>Belle-mère</td></tr><tr><td style=\"white-space:nowrap\">STPFTH<a name=\"TRE-R216-HL7RoleCode-STPFTH\"> </a></td><td>Beau-père - époux du père ou de la mère</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td>Beau-père</td></tr><tr><td style=\"white-space:nowrap\">GRMTH<a name=\"TRE-R216-HL7RoleCode-GRMTH\"> </a></td><td>Grand-mère</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">GRFTH<a name=\"TRE-R216-HL7RoleCode-GRFTH\"> </a></td><td>Grand-père</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">GGRMTH<a name=\"TRE-R216-HL7RoleCode-GGRMTH\"> </a></td><td>Arrière-grand-mère</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">GGRFTH<a name=\"TRE-R216-HL7RoleCode-GGRFTH\"> </a></td><td>Arrière-grand-père</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">DAU<a name=\"TRE-R216-HL7RoleCode-DAU\"> </a></td><td>Fille biologique</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">SON<a name=\"TRE-R216-HL7RoleCode-SON\"> </a></td><td>Fils biologique</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">BRO<a name=\"TRE-R216-HL7RoleCode-BRO\"> </a></td><td>Frère</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">SIS<a name=\"TRE-R216-HL7RoleCode-SIS\"> </a></td><td>Soeur</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">HBRO<a name=\"TRE-R216-HL7RoleCode-HBRO\"> </a></td><td>Demi-frère</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">HSIS<a name=\"TRE-R216-HL7RoleCode-HSIS\"> </a></td><td>Demi-soeur</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">GRNDDAU<a name=\"TRE-R216-HL7RoleCode-GRNDDAU\"> </a></td><td>Petite-fille</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">GRNDSO<a name=\"TRE-R216-HL7RoleCode-GRNDSO\"> </a></td><td>Petit-fils</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">UNCLE<a name=\"TRE-R216-HL7RoleCode-UNCLE\"> </a></td><td>Oncle</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">AUNT<a name=\"TRE-R216-HL7RoleCode-AUNT\"> </a></td><td>Tante</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">NEPHEW<a name=\"TRE-R216-HL7RoleCode-NEPHEW\"> </a></td><td>Neveu</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">NIECE<a name=\"TRE-R216-HL7RoleCode-NIECE\"> </a></td><td>Nièce</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">COUSIN<a name=\"TRE-R216-HL7RoleCode-COUSIN\"> </a></td><td>Cousin(e)</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">HUSB<a name=\"TRE-R216-HL7RoleCode-HUSB\"> </a></td><td>Epoux</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">WIFE<a name=\"TRE-R216-HL7RoleCode-WIFE\"> </a></td><td>Epouse</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">DOMPART<a name=\"TRE-R216-HL7RoleCode-DOMPART\"> </a></td><td>Concubin(e) ou partenaire PACS</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">ROOM<a name=\"TRE-R216-HL7RoleCode-ROOM\"> </a></td><td>Personne vivant sous le même toit</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td>Personne vivant sous même toit</td></tr><tr><td style=\"white-space:nowrap\">FRND<a name=\"TRE-R216-HL7RoleCode-FRND\"> </a></td><td>Autre proche</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">NBOR<a name=\"TRE-R216-HL7RoleCode-NBOR\"> </a></td><td>Voisin(e)</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">FAMMEMB<a name=\"TRE-R216-HL7RoleCode-FAMMEMB\"> </a></td><td>Autre membre de la famille</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">EXT<a name=\"TRE-R216-HL7RoleCode-EXT\"> </a></td><td>Autre membre de la famille sans lien génétique direct</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td>Autre mbre fam sans lien géné</td></tr><tr><td style=\"white-space:nowrap\">SPS<a name=\"TRE-R216-HL7RoleCode-SPS\"> </a></td><td>Epoux ou épouse</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">RESPRSN<a name=\"TRE-R216-HL7RoleCode-RESPRSN\"> </a></td><td>Responsable légal non membre de la famille</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td>Resp légal non mbre de la fam</td></tr><tr><td style=\"white-space:nowrap\">ADOPTF<a name=\"TRE-R216-HL7RoleCode-ADOPTF\"> </a></td><td>Père adoptif</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">ADOPTM<a name=\"TRE-R216-HL7RoleCode-ADOPTM\"> </a></td><td>Mère adoptive</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">ADOPTP<a name=\"TRE-R216-HL7RoleCode-ADOPTP\"> </a></td><td>Parent adoptif, au sens père ou mère</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td>Parent adoptif</td></tr><tr><td style=\"white-space:nowrap\">BROINLAW<a name=\"TRE-R216-HL7RoleCode-BROINLAW\"> </a></td><td>Beau-frère</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">CHILD<a name=\"TRE-R216-HL7RoleCode-CHILD\"> </a></td><td>Enfant</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">CHLDADOPT<a name=\"TRE-R216-HL7RoleCode-CHLDADOPT\"> </a></td><td>Enfant adopté</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">CHLDFOST<a name=\"TRE-R216-HL7RoleCode-CHLDFOST\"> </a></td><td>Enfant placé en famille d'accueil</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td>Enfant en famille d'accueil</td></tr><tr><td style=\"white-space:nowrap\">CHLDINLAW<a name=\"TRE-R216-HL7RoleCode-CHLDINLAW\"> </a></td><td>Gendre ou belle-fille</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">COUSN<a name=\"TRE-R216-HL7RoleCode-COUSN\"> </a></td><td>Cousin(e)</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">DAUADOPT<a name=\"TRE-R216-HL7RoleCode-DAUADOPT\"> </a></td><td>Fille adoptive</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">DAUC<a name=\"TRE-R216-HL7RoleCode-DAUC\"> </a></td><td>Fille</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">DAUFOST<a name=\"TRE-R216-HL7RoleCode-DAUFOST\"> </a></td><td>Fille placée en famille d'accueil</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td>Fille en famille d'accueil</td></tr><tr><td style=\"white-space:nowrap\">DAUINLAW<a name=\"TRE-R216-HL7RoleCode-DAUINLAW\"> </a></td><td>Belle-fille</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">FMRSPS<a name=\"TRE-R216-HL7RoleCode-FMRSPS\"> </a></td><td>Ancien époux ou ancienne épouse</td><td>2024-01-26T12:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Ancien époux - ancienne épouse</td></tr><tr><td style=\"white-space:nowrap\">FTHFOST<a name=\"TRE-R216-HL7RoleCode-FTHFOST\"> </a></td><td>Assistant familial - Famille d'accueil</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td>Assistant familial</td></tr><tr><td style=\"white-space:nowrap\">FTHINLAW<a name=\"TRE-R216-HL7RoleCode-FTHINLAW\"> </a></td><td>Beau-père</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">GESTM<a name=\"TRE-R216-HL7RoleCode-GESTM\"> </a></td><td>Mère porteuse</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">GGRPRN<a name=\"TRE-R216-HL7RoleCode-GGRPRN\"> </a></td><td>Arrière-grand-parent</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">GRNDCHILD<a name=\"TRE-R216-HL7RoleCode-GRNDCHILD\"> </a></td><td>Petit-enfant</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">GRPRN<a name=\"TRE-R216-HL7RoleCode-GRPRN\"> </a></td><td>Grand-parent</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">HSIB<a name=\"TRE-R216-HL7RoleCode-HSIB\"> </a></td><td>Demi-frère ou demi-soeur</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">MTHFOST<a name=\"TRE-R216-HL7RoleCode-MTHFOST\"> </a></td><td>Assistante familiale - Famille d'accueil</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td>Assistante familiale</td></tr><tr><td style=\"white-space:nowrap\">MTHINLAW<a name=\"TRE-R216-HL7RoleCode-MTHINLAW\"> </a></td><td>Belle-mère</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">NBRO<a name=\"TRE-R216-HL7RoleCode-NBRO\"> </a></td><td>Frère biologique</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">NIENEPH<a name=\"TRE-R216-HL7RoleCode-NIENEPH\"> </a></td><td>Neveu ou nièce</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">NPRN<a name=\"TRE-R216-HL7RoleCode-NPRN\"> </a></td><td>Parent biologique, au sens père ou mère</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td>Parent biologique</td></tr><tr><td style=\"white-space:nowrap\">NSIB<a name=\"TRE-R216-HL7RoleCode-NSIB\"> </a></td><td>Frère ou soeur biologique</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">NSIS<a name=\"TRE-R216-HL7RoleCode-NSIS\"> </a></td><td>Soeur biologique</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">PRN<a name=\"TRE-R216-HL7RoleCode-PRN\"> </a></td><td>Parent, au sens père ou mère</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">PRNINLAW<a name=\"TRE-R216-HL7RoleCode-PRNINLAW\"> </a></td><td>Beau-père ou belle-mère</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">SIB<a name=\"TRE-R216-HL7RoleCode-SIB\"> </a></td><td>Frère ou soeur</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">SIBINLAW<a name=\"TRE-R216-HL7RoleCode-SIBINLAW\"> </a></td><td>Beau-frère ou belle-soeur</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">SIGOTHR<a name=\"TRE-R216-HL7RoleCode-SIGOTHR\"> </a></td><td>Conjoint</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">SISINLAW<a name=\"TRE-R216-HL7RoleCode-SISINLAW\"> </a></td><td>Belle-soeur</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">SONADOPT<a name=\"TRE-R216-HL7RoleCode-SONADOPT\"> </a></td><td>Fils adoptif</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">SONC<a name=\"TRE-R216-HL7RoleCode-SONC\"> </a></td><td>Fils</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">SONFOST<a name=\"TRE-R216-HL7RoleCode-SONFOST\"> </a></td><td>Garçon placé en famille d'accueil</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td>Garçon en famille d'accueil</td></tr><tr><td style=\"white-space:nowrap\">SONINLAW<a name=\"TRE-R216-HL7RoleCode-SONINLAW\"> </a></td><td>Gendre</td><td>2024-01-26T12:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">STPBRO<a name=\"TRE-R216-HL7RoleCode-STPBRO\"> </a></td><td>Fils du beau-père ou de la belle-mère</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td>Fils du beau-père/belle-mère</td></tr><tr><td style=\"white-space:nowrap\">STPCHLD<a name=\"TRE-R216-HL7RoleCode-STPCHLD\"> </a></td><td>Enfant du conjoint, issu d'un mariage précédent</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td>Enfant du conjoint</td></tr><tr><td style=\"white-space:nowrap\">STPDAU<a name=\"TRE-R216-HL7RoleCode-STPDAU\"> </a></td><td>Fille du conjoint, issue d'un mariage précédent</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td>Fille du conjoint</td></tr><tr><td style=\"white-space:nowrap\">STPPRN<a name=\"TRE-R216-HL7RoleCode-STPPRN\"> </a></td><td>Beau-père ou belle-mère - époux(se) du père ou de la mère</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td>Beau-père ou belle-mère</td></tr><tr><td style=\"white-space:nowrap\">STPSIB<a name=\"TRE-R216-HL7RoleCode-STPSIB\"> </a></td><td>Enfant du beau-père ou de la belle-mère</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td>Enfant du beau-père/belle-mère</td></tr><tr><td style=\"white-space:nowrap\">STPSIS<a name=\"TRE-R216-HL7RoleCode-STPSIS\"> </a></td><td>Fille du beau-père ou de la belle-mère</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td>Fille du beau-père/belle-mère</td></tr><tr><td style=\"white-space:nowrap\">STPSON<a name=\"TRE-R216-HL7RoleCode-STPSON\"> </a></td><td>Fils du conjoint, issu d'un mariage précédent</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td>Fils du conjoint</td></tr><tr><td style=\"white-space:nowrap\">TWIN<a name=\"TRE-R216-HL7RoleCode-TWIN\"> </a></td><td>Frère jumeau ou soeur jumelle</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">TWINBRO<a name=\"TRE-R216-HL7RoleCode-TWINBRO\"> </a></td><td>Frère jumeau</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">TWINSIS<a name=\"TRE-R216-HL7RoleCode-TWINSIS\"> </a></td><td>Soeur jumelle</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">FTWIN<a name=\"TRE-R216-HL7RoleCode-FTWIN\"> </a></td><td>Jumeau ou jumelle dizygote</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">FTWINBRO<a name=\"TRE-R216-HL7RoleCode-FTWINBRO\"> </a></td><td>Jumeau dizygote</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">FTWINSIS<a name=\"TRE-R216-HL7RoleCode-FTWINSIS\"> </a></td><td>Jumelle dizygot</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">GRNDSON<a name=\"TRE-R216-HL7RoleCode-GRNDSON\"> </a></td><td>Petit-fils</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">ITWINBRO<a name=\"TRE-R216-HL7RoleCode-ITWINBRO\"> </a></td><td>Jumeau monozygote</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">ITWINSIS<a name=\"TRE-R216-HL7RoleCode-ITWINSIS\"> </a></td><td>Jumelle monozygote</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">MAUNT<a name=\"TRE-R216-HL7RoleCode-MAUNT\"> </a></td><td>Tante maternelle</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">MCOUSN<a name=\"TRE-R216-HL7RoleCode-MCOUSN\"> </a></td><td>Cousin (maternel)</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">MGGRFTH<a name=\"TRE-R216-HL7RoleCode-MGGRFTH\"> </a></td><td>Arrière-grand-père maternel</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">MGGRMTH<a name=\"TRE-R216-HL7RoleCode-MGGRMTH\"> </a></td><td>Arrière-grand-mère maternelle</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">MGGRPRN<a name=\"TRE-R216-HL7RoleCode-MGGRPRN\"> </a></td><td>Arrière grand parent maternel</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">MGRFTH<a name=\"TRE-R216-HL7RoleCode-MGRFTH\"> </a></td><td>Grand-père maternel</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">MGRMTH<a name=\"TRE-R216-HL7RoleCode-MGRMTH\"> </a></td><td>Grand-mère maternelle</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">MGRPRN<a name=\"TRE-R216-HL7RoleCode-MGRPRN\"> </a></td><td>Grand parent maternel</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">MUNCLE<a name=\"TRE-R216-HL7RoleCode-MUNCLE\"> </a></td><td>Oncle maternel</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">NCHILD<a name=\"TRE-R216-HL7RoleCode-NCHILD\"> </a></td><td>Enfant biologique</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">NFTHF<a name=\"TRE-R216-HL7RoleCode-NFTHF\"> </a></td><td>Père biologique du fœtus</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">NMTHF<a name=\"TRE-R216-HL7RoleCode-NMTHF\"> </a></td><td>Mère biologique du fœtus</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">PAUNT<a name=\"TRE-R216-HL7RoleCode-PAUNT\"> </a></td><td>Tante paternelle</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">PCOUSN<a name=\"TRE-R216-HL7RoleCode-PCOUSN\"> </a></td><td>Cousin (paternel)</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">PGGRFTH<a name=\"TRE-R216-HL7RoleCode-PGGRFTH\"> </a></td><td>Arrière-grand-père paternel</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">PGGRMTH<a name=\"TRE-R216-HL7RoleCode-PGGRMTH\"> </a></td><td>Arrière-grand-mère paternelle</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">PGGRPRN<a name=\"TRE-R216-HL7RoleCode-PGGRPRN\"> </a></td><td>Arrière grand parent paternel</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">PGRFTH<a name=\"TRE-R216-HL7RoleCode-PGRFTH\"> </a></td><td>Grand-père paternel</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">PGRMTH<a name=\"TRE-R216-HL7RoleCode-PGRMTH\"> </a></td><td>Grand-mère paternelle</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">PGRPRN<a name=\"TRE-R216-HL7RoleCode-PGRPRN\"> </a></td><td>Grand parent paternel</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">PRNFOST<a name=\"TRE-R216-HL7RoleCode-PRNFOST\"> </a></td><td>Parent, au sens famille d'accueil</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">PUNCLE<a name=\"TRE-R216-HL7RoleCode-PUNCLE\"> </a></td><td>Oncle paternel</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">C<a name=\"TRE-R216-HL7RoleCode-C\"> </a></td><td>Spécimen utilisé pour les paramètres d'étalonnage initiaux d'un instrument</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">G<a name=\"TRE-R216-HL7RoleCode-G\"> </a></td><td>Ensemble d'échantillons de patients dans lequel les individus du groupe peuvent ou non être identifiés.</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">L<a name=\"TRE-R216-HL7RoleCode-L\"> </a></td><td>Aliquot d'échantillons individuels combinés pour former un seul spécimen représentant tous les individus inclus.</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">P<a name=\"TRE-R216-HL7RoleCode-P\"> </a></td><td>Spécimen prélevé sur un patient</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">SELF<a name=\"TRE-R216-HL7RoleCode-SELF\"> </a></td><td>Couverture personnelle</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">FAMDEP<a name=\"TRE-R216-HL7RoleCode-FAMDEP\"> </a></td><td>Couverture familiale</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">STUD<a name=\"TRE-R216-HL7RoleCode-STUD\"> </a></td><td>Couverture étudiante</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">ITWIN<a name=\"TRE-R216-HL7RoleCode-ITWIN\"> </a></td><td>Jumeau ou jumelle monozygote</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr></table></div>"^^rdf:XMLLiteral
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem TRE-R216-HL7RoleCode</b></p><a name=\"TRE-R216-HL7RoleCode\"> </a><a name=\"hcTRE-R216-HL7RoleCode\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 7; Dernière mise à jour : 2024-12-19 19:11:44+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://mos.esante.gouv.fr/NOS/TRE_R216-HL7RoleCode/FHIR/TRE-R216-HL7RoleCode</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>dateFin</b></td><td><b>French (France) (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">MTH<a name=\"TRE-R216-HL7RoleCode-MTH\"> </a></td><td>Mère</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">FTH<a name=\"TRE-R216-HL7RoleCode-FTH\"> </a></td><td>Père</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">NMTH<a name=\"TRE-R216-HL7RoleCode-NMTH\"> </a></td><td>Mère biologique</td><td>2016-09-01T00:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">NFTH<a name=\"TRE-R216-HL7RoleCode-NFTH\"> </a></td><td>Père biologique</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">STPMTH<a name=\"TRE-R216-HL7RoleCode-STPMTH\"> </a></td><td>Belle-mère - épouse du père ou de la mère</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td>Belle-mère</td></tr><tr><td style=\"white-space:nowrap\">STPFTH<a name=\"TRE-R216-HL7RoleCode-STPFTH\"> </a></td><td>Beau-père - époux du père ou de la mère</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td>Beau-père</td></tr><tr><td style=\"white-space:nowrap\">GRMTH<a name=\"TRE-R216-HL7RoleCode-GRMTH\"> </a></td><td>Grand-mère</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">GRFTH<a name=\"TRE-R216-HL7RoleCode-GRFTH\"> </a></td><td>Grand-père</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">GGRMTH<a name=\"TRE-R216-HL7RoleCode-GGRMTH\"> </a></td><td>Arrière-grand-mère</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">GGRFTH<a name=\"TRE-R216-HL7RoleCode-GGRFTH\"> </a></td><td>Arrière-grand-père</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">DAU<a name=\"TRE-R216-HL7RoleCode-DAU\"> </a></td><td>Fille biologique</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">SON<a name=\"TRE-R216-HL7RoleCode-SON\"> </a></td><td>Fils biologique</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">BRO<a name=\"TRE-R216-HL7RoleCode-BRO\"> </a></td><td>Frère</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">SIS<a name=\"TRE-R216-HL7RoleCode-SIS\"> </a></td><td>Soeur</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">HBRO<a name=\"TRE-R216-HL7RoleCode-HBRO\"> </a></td><td>Demi-frère</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">HSIS<a name=\"TRE-R216-HL7RoleCode-HSIS\"> </a></td><td>Demi-soeur</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">GRNDDAU<a name=\"TRE-R216-HL7RoleCode-GRNDDAU\"> </a></td><td>Petite-fille</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">GRNDSO<a name=\"TRE-R216-HL7RoleCode-GRNDSO\"> </a></td><td>Petit-fils</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">UNCLE<a name=\"TRE-R216-HL7RoleCode-UNCLE\"> </a></td><td>Oncle</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">AUNT<a name=\"TRE-R216-HL7RoleCode-AUNT\"> </a></td><td>Tante</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">NEPHEW<a name=\"TRE-R216-HL7RoleCode-NEPHEW\"> </a></td><td>Neveu</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">NIECE<a name=\"TRE-R216-HL7RoleCode-NIECE\"> </a></td><td>Nièce</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">COUSIN<a name=\"TRE-R216-HL7RoleCode-COUSIN\"> </a></td><td>Cousin(e)</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">HUSB<a name=\"TRE-R216-HL7RoleCode-HUSB\"> </a></td><td>Epoux</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">WIFE<a name=\"TRE-R216-HL7RoleCode-WIFE\"> </a></td><td>Epouse</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">DOMPART<a name=\"TRE-R216-HL7RoleCode-DOMPART\"> </a></td><td>Concubin(e) ou partenaire PACS</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">ROOM<a name=\"TRE-R216-HL7RoleCode-ROOM\"> </a></td><td>Personne vivant sous le même toit</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td>Personne vivant sous même toit</td></tr><tr><td style=\"white-space:nowrap\">FRND<a name=\"TRE-R216-HL7RoleCode-FRND\"> </a></td><td>Autre proche</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">NBOR<a name=\"TRE-R216-HL7RoleCode-NBOR\"> </a></td><td>Voisin(e)</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">FAMMEMB<a name=\"TRE-R216-HL7RoleCode-FAMMEMB\"> </a></td><td>Autre membre de la famille</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">EXT<a name=\"TRE-R216-HL7RoleCode-EXT\"> </a></td><td>Autre membre de la famille sans lien génétique direct</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td>Autre mbre fam sans lien géné</td></tr><tr><td style=\"white-space:nowrap\">SPS<a name=\"TRE-R216-HL7RoleCode-SPS\"> </a></td><td>Epoux ou épouse</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">RESPRSN<a name=\"TRE-R216-HL7RoleCode-RESPRSN\"> </a></td><td>Responsable légal non membre de la famille</td><td>2016-09-01T00:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td>Resp légal non mbre de la fam</td></tr><tr><td style=\"white-space:nowrap\">ADOPTF<a name=\"TRE-R216-HL7RoleCode-ADOPTF\"> </a></td><td>Père adoptif</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">ADOPTM<a name=\"TRE-R216-HL7RoleCode-ADOPTM\"> </a></td><td>Mère adoptive</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">ADOPTP<a name=\"TRE-R216-HL7RoleCode-ADOPTP\"> </a></td><td>Parent adoptif, au sens père ou mère</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td>Parent adoptif</td></tr><tr><td style=\"white-space:nowrap\">BROINLAW<a name=\"TRE-R216-HL7RoleCode-BROINLAW\"> </a></td><td>Beau-frère</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">CHILD<a name=\"TRE-R216-HL7RoleCode-CHILD\"> </a></td><td>Enfant</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">CHLDADOPT<a name=\"TRE-R216-HL7RoleCode-CHLDADOPT\"> </a></td><td>Enfant adopté</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">CHLDFOST<a name=\"TRE-R216-HL7RoleCode-CHLDFOST\"> </a></td><td>Enfant placé en famille d'accueil</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td>Enfant en famille d'accueil</td></tr><tr><td style=\"white-space:nowrap\">CHLDINLAW<a name=\"TRE-R216-HL7RoleCode-CHLDINLAW\"> </a></td><td>Gendre ou belle-fille</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">COUSN<a name=\"TRE-R216-HL7RoleCode-COUSN\"> </a></td><td>Cousin(e)</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">DAUADOPT<a name=\"TRE-R216-HL7RoleCode-DAUADOPT\"> </a></td><td>Fille adoptive</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">DAUC<a name=\"TRE-R216-HL7RoleCode-DAUC\"> </a></td><td>Fille</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">DAUFOST<a name=\"TRE-R216-HL7RoleCode-DAUFOST\"> </a></td><td>Fille placée en famille d'accueil</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td>Fille en famille d'accueil</td></tr><tr><td style=\"white-space:nowrap\">DAUINLAW<a name=\"TRE-R216-HL7RoleCode-DAUINLAW\"> </a></td><td>Belle-fille</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">FMRSPS<a name=\"TRE-R216-HL7RoleCode-FMRSPS\"> </a></td><td>Ancien époux ou ancienne épouse</td><td>2024-01-26T12:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>Ancien époux - ancienne épouse</td></tr><tr><td style=\"white-space:nowrap\">FTHFOST<a name=\"TRE-R216-HL7RoleCode-FTHFOST\"> </a></td><td>Assistant familial - Famille d'accueil</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td>Assistant familial</td></tr><tr><td style=\"white-space:nowrap\">FTHINLAW<a name=\"TRE-R216-HL7RoleCode-FTHINLAW\"> </a></td><td>Beau-père</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">GESTM<a name=\"TRE-R216-HL7RoleCode-GESTM\"> </a></td><td>Mère porteuse</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">GGRPRN<a name=\"TRE-R216-HL7RoleCode-GGRPRN\"> </a></td><td>Arrière-grand-parent</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">GRNDCHILD<a name=\"TRE-R216-HL7RoleCode-GRNDCHILD\"> </a></td><td>Petit-enfant</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">GRPRN<a name=\"TRE-R216-HL7RoleCode-GRPRN\"> </a></td><td>Grand-parent</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">HSIB<a name=\"TRE-R216-HL7RoleCode-HSIB\"> </a></td><td>Demi-frère ou demi-soeur</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">MTHFOST<a name=\"TRE-R216-HL7RoleCode-MTHFOST\"> </a></td><td>Assistante familiale - Famille d'accueil</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td>Assistante familiale</td></tr><tr><td style=\"white-space:nowrap\">MTHINLAW<a name=\"TRE-R216-HL7RoleCode-MTHINLAW\"> </a></td><td>Belle-mère</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">NBRO<a name=\"TRE-R216-HL7RoleCode-NBRO\"> </a></td><td>Frère biologique</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">NIENEPH<a name=\"TRE-R216-HL7RoleCode-NIENEPH\"> </a></td><td>Neveu ou nièce</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">NPRN<a name=\"TRE-R216-HL7RoleCode-NPRN\"> </a></td><td>Parent biologique, au sens père ou mère</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td>Parent biologique</td></tr><tr><td style=\"white-space:nowrap\">NSIB<a name=\"TRE-R216-HL7RoleCode-NSIB\"> </a></td><td>Frère ou soeur biologique</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">NSIS<a name=\"TRE-R216-HL7RoleCode-NSIS\"> </a></td><td>Soeur biologique</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">PRN<a name=\"TRE-R216-HL7RoleCode-PRN\"> </a></td><td>Parent, au sens père ou mère</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">PRNINLAW<a name=\"TRE-R216-HL7RoleCode-PRNINLAW\"> </a></td><td>Beau-père ou belle-mère</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">SIB<a name=\"TRE-R216-HL7RoleCode-SIB\"> </a></td><td>Frère ou soeur</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">SIBINLAW<a name=\"TRE-R216-HL7RoleCode-SIBINLAW\"> </a></td><td>Beau-frère ou belle-soeur</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">SIGOTHR<a name=\"TRE-R216-HL7RoleCode-SIGOTHR\"> </a></td><td>Conjoint</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">SISINLAW<a name=\"TRE-R216-HL7RoleCode-SISINLAW\"> </a></td><td>Belle-soeur</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">SONADOPT<a name=\"TRE-R216-HL7RoleCode-SONADOPT\"> </a></td><td>Fils adoptif</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">SONC<a name=\"TRE-R216-HL7RoleCode-SONC\"> </a></td><td>Fils</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">SONFOST<a name=\"TRE-R216-HL7RoleCode-SONFOST\"> </a></td><td>Garçon placé en famille d'accueil</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td>Garçon en famille d'accueil</td></tr><tr><td style=\"white-space:nowrap\">SONINLAW<a name=\"TRE-R216-HL7RoleCode-SONINLAW\"> </a></td><td>Gendre</td><td>2024-01-26T12:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">STPBRO<a name=\"TRE-R216-HL7RoleCode-STPBRO\"> </a></td><td>Fils du beau-père ou de la belle-mère</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td>Fils du beau-père/belle-mère</td></tr><tr><td style=\"white-space:nowrap\">STPCHLD<a name=\"TRE-R216-HL7RoleCode-STPCHLD\"> </a></td><td>Enfant du conjoint, issu d'un mariage précédent</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td>Enfant du conjoint</td></tr><tr><td style=\"white-space:nowrap\">STPDAU<a name=\"TRE-R216-HL7RoleCode-STPDAU\"> </a></td><td>Fille du conjoint, issue d'un mariage précédent</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td>Fille du conjoint</td></tr><tr><td style=\"white-space:nowrap\">STPPRN<a name=\"TRE-R216-HL7RoleCode-STPPRN\"> </a></td><td>Beau-père ou belle-mère - époux(se) du père ou de la mère</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td>Beau-père ou belle-mère</td></tr><tr><td style=\"white-space:nowrap\">STPSIB<a name=\"TRE-R216-HL7RoleCode-STPSIB\"> </a></td><td>Enfant du beau-père ou de la belle-mère</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td>Enfant du beau-père/belle-mère</td></tr><tr><td style=\"white-space:nowrap\">STPSIS<a name=\"TRE-R216-HL7RoleCode-STPSIS\"> </a></td><td>Fille du beau-père ou de la belle-mère</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td>Fille du beau-père/belle-mère</td></tr><tr><td style=\"white-space:nowrap\">STPSON<a name=\"TRE-R216-HL7RoleCode-STPSON\"> </a></td><td>Fils du conjoint, issu d'un mariage précédent</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td>Fils du conjoint</td></tr><tr><td style=\"white-space:nowrap\">TWIN<a name=\"TRE-R216-HL7RoleCode-TWIN\"> </a></td><td>Frère jumeau ou soeur jumelle</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">TWINBRO<a name=\"TRE-R216-HL7RoleCode-TWINBRO\"> </a></td><td>Frère jumeau</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">TWINSIS<a name=\"TRE-R216-HL7RoleCode-TWINSIS\"> </a></td><td>Soeur jumelle</td><td>2020-01-31T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">FTWIN<a name=\"TRE-R216-HL7RoleCode-FTWIN\"> </a></td><td>Jumeau ou jumelle dizygote</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">FTWINBRO<a name=\"TRE-R216-HL7RoleCode-FTWINBRO\"> </a></td><td>Jumeau dizygote</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">FTWINSIS<a name=\"TRE-R216-HL7RoleCode-FTWINSIS\"> </a></td><td>Jumelle dizygot</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">GRNDSON<a name=\"TRE-R216-HL7RoleCode-GRNDSON\"> </a></td><td>Petit-fils</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">ITWINBRO<a name=\"TRE-R216-HL7RoleCode-ITWINBRO\"> </a></td><td>Jumeau monozygote</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">ITWINSIS<a name=\"TRE-R216-HL7RoleCode-ITWINSIS\"> </a></td><td>Jumelle monozygote</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">MAUNT<a name=\"TRE-R216-HL7RoleCode-MAUNT\"> </a></td><td>Tante maternelle</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">MCOUSN<a name=\"TRE-R216-HL7RoleCode-MCOUSN\"> </a></td><td>Cousin (maternel)</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">MGGRFTH<a name=\"TRE-R216-HL7RoleCode-MGGRFTH\"> </a></td><td>Arrière-grand-père maternel</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">MGGRMTH<a name=\"TRE-R216-HL7RoleCode-MGGRMTH\"> </a></td><td>Arrière-grand-mère maternelle</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">MGGRPRN<a name=\"TRE-R216-HL7RoleCode-MGGRPRN\"> </a></td><td>Arrière grand parent maternel</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">MGRFTH<a name=\"TRE-R216-HL7RoleCode-MGRFTH\"> </a></td><td>Grand-père maternel</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">MGRMTH<a name=\"TRE-R216-HL7RoleCode-MGRMTH\"> </a></td><td>Grand-mère maternelle</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">MGRPRN<a name=\"TRE-R216-HL7RoleCode-MGRPRN\"> </a></td><td>Grand parent maternel</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">MUNCLE<a name=\"TRE-R216-HL7RoleCode-MUNCLE\"> </a></td><td>Oncle maternel</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">NCHILD<a name=\"TRE-R216-HL7RoleCode-NCHILD\"> </a></td><td>Enfant biologique</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">NFTHF<a name=\"TRE-R216-HL7RoleCode-NFTHF\"> </a></td><td>Père biologique du fœtus</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">NMTHF<a name=\"TRE-R216-HL7RoleCode-NMTHF\"> </a></td><td>Mère biologique du fœtus</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">PAUNT<a name=\"TRE-R216-HL7RoleCode-PAUNT\"> </a></td><td>Tante paternelle</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">PCOUSN<a name=\"TRE-R216-HL7RoleCode-PCOUSN\"> </a></td><td>Cousin (paternel)</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">PGGRFTH<a name=\"TRE-R216-HL7RoleCode-PGGRFTH\"> </a></td><td>Arrière-grand-père paternel</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">PGGRMTH<a name=\"TRE-R216-HL7RoleCode-PGGRMTH\"> </a></td><td>Arrière-grand-mère paternelle</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">PGGRPRN<a name=\"TRE-R216-HL7RoleCode-PGGRPRN\"> </a></td><td>Arrière grand parent paternel</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">PGRFTH<a name=\"TRE-R216-HL7RoleCode-PGRFTH\"> </a></td><td>Grand-père paternel</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">PGRMTH<a name=\"TRE-R216-HL7RoleCode-PGRMTH\"> </a></td><td>Grand-mère paternelle</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">PGRPRN<a name=\"TRE-R216-HL7RoleCode-PGRPRN\"> </a></td><td>Grand parent paternel</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">PRNFOST<a name=\"TRE-R216-HL7RoleCode-PRNFOST\"> </a></td><td>Parent, au sens famille d'accueil</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">PUNCLE<a name=\"TRE-R216-HL7RoleCode-PUNCLE\"> </a></td><td>Oncle paternel</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">C<a name=\"TRE-R216-HL7RoleCode-C\"> </a></td><td>Spécimen utilisé pour les paramètres d'étalonnage initiaux d'un instrument</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">G<a name=\"TRE-R216-HL7RoleCode-G\"> </a></td><td>Ensemble d'échantillons de patients dans lequel les individus du groupe peuvent ou non être identifiés.</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">L<a name=\"TRE-R216-HL7RoleCode-L\"> </a></td><td>Aliquot d'échantillons individuels combinés pour former un seul spécimen représentant tous les individus inclus.</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">P<a name=\"TRE-R216-HL7RoleCode-P\"> </a></td><td>Spécimen prélevé sur un patient</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">SELF<a name=\"TRE-R216-HL7RoleCode-SELF\"> </a></td><td>Couverture personnelle</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">FAMDEP<a name=\"TRE-R216-HL7RoleCode-FAMDEP\"> </a></td><td>Couverture familiale</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">STUD<a name=\"TRE-R216-HL7RoleCode-STUD\"> </a></td><td>Couverture étudiante</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">ITWIN<a name=\"TRE-R216-HL7RoleCode-ITWIN\"> </a></td><td>Jumeau ou jumelle monozygote</td><td>2024-12-13T12:00:00+01:00</td><td>2024-12-13T12:00:00+01:00</td><td/><td/></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
-     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod>
+     ] ;
      fhir:value [
        a fhir:Period ;
        fhir:start [ fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime ]
      ]
   ] ) ; # 
-  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R216-HL7RoleCode/FHIR/TRE-R216-HL7RoleCode"^^xsd:anyURI] ; # 
+  fhir:url [
+     fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R216-HL7RoleCode/FHIR/TRE-R216-HL7RoleCode"^^xsd:anyURI ;
+     fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R216-HL7RoleCode/FHIR/TRE-R216-HL7RoleCode>
+  ] ; # 
   fhir:identifier ( [
-     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:system [
+       fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
+       fhir:l <urn:ietf:rfc:3986>
+     ] ;
      fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.5.111" ]
   ] ) ; # 
   fhir:version [ fhir:v "20241213120000"] ; # 
@@ -43,7 +52,10 @@
   fhir:description [ fhir:v "HL7 roleCode"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
-       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
        fhir:code [ fhir:v "FRA" ]
      ] )
   ] ) ; # 
@@ -63,17 +75,26 @@
      fhir:type [ fhir:v "dateTime" ]
   ] [
      fhir:code [ fhir:v "deprecationDate" ] ;
-     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#deprecationDate"^^xsd:anyURI ] ;
+     fhir:uri [
+       fhir:v "http://hl7.org/fhir/concept-properties#deprecationDate"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/concept-properties#deprecationDate>
+     ] ;
      fhir:description [ fhir:v "Date Concept was deprecated" ] ;
      fhir:type [ fhir:v "dateTime" ]
   ] [
      fhir:code [ fhir:v "status" ] ;
-     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#status"^^xsd:anyURI ] ;
+     fhir:uri [
+       fhir:v "http://hl7.org/fhir/concept-properties#status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/concept-properties#status>
+     ] ;
      fhir:description [ fhir:v "A property that indicates the status of the concept." ] ;
      fhir:type [ fhir:v "code" ]
   ] [
      fhir:code [ fhir:v "retirementDate" ] ;
-     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#retirementDate"^^xsd:anyURI ] ;
+     fhir:uri [
+       fhir:v "http://hl7.org/fhir/concept-properties#retirementDate"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/concept-properties#retirementDate>
+     ] ;
      fhir:description [ fhir:v "Date Concept was retired" ] ;
      fhir:type [ fhir:v "dateTime" ]
   ] ) ; # 
@@ -83,19 +104,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -105,19 +126,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -127,19 +148,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -149,19 +170,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -172,7 +193,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Belle-mère" ]
@@ -180,19 +204,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -203,7 +227,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Beau-père" ]
@@ -211,19 +238,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -233,19 +260,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -255,19 +282,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -277,19 +304,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -299,19 +326,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -321,19 +348,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -343,19 +370,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -365,19 +392,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -387,19 +414,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -409,19 +436,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -431,19 +458,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -453,19 +480,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -475,19 +502,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -497,19 +524,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -519,19 +546,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -541,19 +568,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -563,19 +590,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -585,31 +612,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -619,19 +646,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -641,19 +668,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -663,19 +690,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -686,7 +713,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Personne vivant sous même toit" ]
@@ -694,19 +724,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -716,19 +746,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -738,19 +768,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -760,19 +790,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -783,7 +813,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Autre mbre fam sans lien géné" ]
@@ -791,19 +824,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -813,19 +846,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -836,7 +869,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Resp légal non mbre de la fam" ]
@@ -844,19 +880,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -866,19 +902,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -888,19 +924,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -911,7 +947,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Parent adoptif" ]
@@ -919,19 +958,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -941,19 +980,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -963,19 +1002,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -985,19 +1024,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1008,7 +1047,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Enfant en famille d'accueil" ]
@@ -1016,19 +1058,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1038,19 +1080,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1060,19 +1102,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1082,19 +1124,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1104,19 +1146,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1127,7 +1169,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Fille en famille d'accueil" ]
@@ -1135,19 +1180,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1157,19 +1202,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1180,7 +1225,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Ancien époux - ancienne épouse" ]
@@ -1188,19 +1236,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-01-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-01-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1211,7 +1259,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Assistant familial" ]
@@ -1219,19 +1270,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1241,19 +1292,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1263,19 +1314,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1285,19 +1336,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1307,19 +1358,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1329,19 +1380,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1351,19 +1402,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1374,7 +1425,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Assistante familiale" ]
@@ -1382,19 +1436,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1404,19 +1458,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1426,19 +1480,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1448,19 +1502,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1471,7 +1525,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Parent biologique" ]
@@ -1479,19 +1536,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1501,19 +1558,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1523,19 +1580,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1545,19 +1602,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1567,19 +1624,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1589,19 +1646,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1611,19 +1668,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1633,19 +1690,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1655,19 +1712,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1677,19 +1734,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1699,19 +1756,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1722,7 +1779,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Garçon en famille d'accueil" ]
@@ -1730,19 +1790,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1752,19 +1812,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-01-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-01-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1775,7 +1835,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Fils du beau-père/belle-mère" ]
@@ -1783,19 +1846,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1806,7 +1869,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Enfant du conjoint" ]
@@ -1814,19 +1880,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1837,7 +1903,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Fille du conjoint" ]
@@ -1845,19 +1914,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1868,7 +1937,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Beau-père ou belle-mère" ]
@@ -1876,19 +1948,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1899,7 +1971,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Enfant du beau-père/belle-mère" ]
@@ -1907,19 +1982,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1930,7 +2005,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Fille du beau-père/belle-mère" ]
@@ -1938,19 +2016,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1961,7 +2039,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Fils du conjoint" ]
@@ -1969,19 +2050,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1991,19 +2072,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -2013,19 +2094,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -2035,19 +2116,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -2057,19 +2138,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -2079,19 +2160,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -2101,19 +2182,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -2123,19 +2204,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -2145,19 +2226,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -2167,19 +2248,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -2189,19 +2270,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -2211,19 +2292,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -2233,19 +2314,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -2255,19 +2336,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -2277,19 +2358,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -2299,19 +2380,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -2321,19 +2402,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -2343,19 +2424,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -2365,19 +2446,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -2387,19 +2468,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -2409,19 +2490,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -2431,19 +2512,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -2453,19 +2534,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -2475,19 +2556,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -2497,19 +2578,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -2519,19 +2600,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -2541,19 +2622,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -2563,19 +2644,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -2585,19 +2666,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -2607,19 +2688,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -2629,19 +2710,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -2651,19 +2732,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -2673,19 +2754,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -2695,19 +2776,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -2717,19 +2798,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -2739,19 +2820,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -2761,19 +2842,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -2783,19 +2864,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -2805,19 +2886,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -2827,19 +2908,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )

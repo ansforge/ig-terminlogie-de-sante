@@ -9,7 +9,7 @@
 | | | |
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/terminologie-bdpm?vs | *Version*:20241106120000 | |
-| Active as of 2025-10-24 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ValueSet_BDPM_All |
+| Active as of 2025-10-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ValueSet_BDPM_All |
 
  
 Ce jeu de valeurs inclut tous les codes de la terminologie BDPM 
@@ -74,7 +74,7 @@ Ce jeu de valeurs (ValueSet) a 41,118 codes. Pour garder la publication gérable
   "name" : "ValueSet_BDPM_All",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-10-24T16:30:00+00:00",
+  "date" : "2025-10-28T16:16:24+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Ce jeu de valeurs inclut tous les codes de la terminologie BDPM",
   "jurisdiction" : [

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="RoleClass-supplement-fr"/>
+  <language value="fr-FR"/>
+  <text>
+    <status value="generated"/><div xml:lang="fr-FR" xmlns="http://www.w3.org/1999/xhtml" lang="fr-FR"><p class="res-header-id"><b>Narratif généré : CodeSystem RoleClass-supplement-fr</b></p><a name="RoleClass-supplement-fr"> </a><a name="hcRoleClass-supplement-fr"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Langue : fr-FR</p></div><p>This code system supplement <code>http://hl7.org/fhir/us/example/CodeSystem/RoleClass-supplement-fr</code> defines labels on the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleClass.html#v3-RoleClass-INGR">INGR</a><a name="RoleClass-supplement-fr-INGR"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleClass.html#v3-RoleClass-ACTI">ACTI</a><a name="RoleClass-supplement-fr-ACTI"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleClass.html#v3-RoleClass-ADJV">ADJV</a><a name="RoleClass-supplement-fr-ADJV"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleClass.html#v3-RoleClass-ADTV">ADTV</a><a name="RoleClass-supplement-fr-ADTV"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleClass.html#v3-RoleClass-BASE">BASE</a><a name="RoleClass-supplement-fr-BASE"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleClass.html#v3-RoleClass-CNTM">CNTM</a><a name="RoleClass-supplement-fr-CNTM"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleClass.html#v3-RoleClass-IACT">IACT</a><a name="RoleClass-supplement-fr-IACT"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleClass.html#v3-RoleClass-MECH">MECH</a><a name="RoleClass-supplement-fr-MECH"> </a></td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="vocab"/>
+  </extension>
+  <url value="http://hl7.org/fhir/us/example/CodeSystem/RoleClass-supplement-fr"/>
+  <version value="1.0"/>
+  <name value="RoleClassSupplementFr"/>
+  <title value="RoleClassSupplementFr"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2025-10-24T16:40:38+11:00"/>
+  <description value="Traduction Francaise"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FRA"/>
+    </coding>
+  </jurisdiction>
+  <content value="supplement"/>
+  <supplements value="http://terminology.hl7.org/CodeSystem/v3-RoleClass|4.0.0"/>
+  <concept>
+    <code value="INGR"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Ingrédient"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="ACTI"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Ingredient actif"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="ADJV"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Adjuvant"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="ADTV"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Additif"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="BASE"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Base"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="CNTM"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Ingredient contaminant"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="IACT"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Ingredient inactif"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="MECH"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Ingrédient mécanique"/>
+    </designation>
+  </concept>
+</CodeSystem>

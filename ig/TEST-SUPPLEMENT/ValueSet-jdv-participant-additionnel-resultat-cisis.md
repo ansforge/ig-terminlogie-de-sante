@@ -39,6 +39,8 @@ Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
 
 ### Expansion
 
+Ce jeu de valeur (ValueSet) contient 5 concepts
+
 -------
 
  Explanation of the columns that may appear on this page: 

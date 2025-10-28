@@ -15,23 +15,32 @@
      fhir:lastUpdated [ fhir:v "2025-07-02T18:11:51.547+00:00"^^xsd:dateTime ] ;
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
+       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
      ] )
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem TRE-G19-SecteurActiviteADELI</b></p><a name=\"TRE-G19-SecteurActiviteADELI\"> </a><a name=\"hcTRE-G19-SecteurActiviteADELI\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 9; Dernière mise à jour : 2025-05-26 18:11:12+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td/><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td/><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td/><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr><tr><td>deprecationDate</td><td>deprecationDate</td><td>http://hl7.org/fhir/concept-properties#deprecationDate</td><td>dateTime</td><td>Date Concept was deprecated</td></tr><tr><td>status</td><td>status</td><td>http://hl7.org/fhir/concept-properties#status</td><td>code</td><td>A property that indicates the status of the concept.</td></tr><tr><td>retirementDate</td><td>retirementDate</td><td>http://hl7.org/fhir/concept-properties#retirementDate</td><td>dateTime</td><td>Date Concept was retired</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://mos.esante.gouv.fr/NOS/TRE_G19-SecteurActiviteADELI/FHIR/TRE-G19-SecteurActiviteADELI</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Définition</b></td><td><b>Déprécié</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>dateFin</b></td><td><b>deprecationDate</b></td><td><b>status</b></td><td><b>French (France) (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">10<a name=\"TRE-G19-SecteurActiviteADELI-10\"> </a></td><td>Etablissement public de santé</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">11<a name=\"TRE-G19-SecteurActiviteADELI-11\"> </a></td><td>Hôpital militaire du Service de santé des armées</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Hôpital militaire SSA</td></tr><tr><td style=\"white-space:nowrap\">16<a name=\"TRE-G19-SecteurActiviteADELI-16\"> </a></td><td>Etablissement privé PSPH</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Etab privé PSPH</td></tr><tr><td style=\"white-space:nowrap\">17<a name=\"TRE-G19-SecteurActiviteADELI-17\"> </a></td><td>Etablissement privé non PSPH</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Etab privé non PSPH</td></tr><tr><td style=\"white-space:nowrap\">25<a name=\"TRE-G19-SecteurActiviteADELI-25\"> </a></td><td>Centre de santé</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">26<a name=\"TRE-G19-SecteurActiviteADELI-26\"> </a></td><td>Autre structure du Service de santé des armées</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Autre structure SSA</td></tr><tr><td style=\"white-space:nowrap\">31<a name=\"TRE-G19-SecteurActiviteADELI-31\"> </a></td><td>Cabinet individuel</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">32<a name=\"TRE-G19-SecteurActiviteADELI-32\"> </a></td><td>Cabinet de groupe</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">33<a name=\"TRE-G19-SecteurActiviteADELI-33\"> </a></td><td>Exercice en société</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">34<a name=\"TRE-G19-SecteurActiviteADELI-34\"> </a></td><td>Secteur privé, praticien hospitalier temps plein</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Secteur privé, PH TP</td></tr><tr><td style=\"white-space:nowrap\">35<a name=\"TRE-G19-SecteurActiviteADELI-35\"> </a></td><td>Transporteur sanitaire</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Transport sanitaire</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">37<a name=\"TRE-G19-SecteurActiviteADELI-37\"> </a></td><td>Entreprise d'intérim</td><td/><td>Déprécié</td><td>2007-07-25T15:04:44+01:00</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td>deprecated</td><td/></tr><tr><td style=\"white-space:nowrap\">41<a name=\"TRE-G19-SecteurActiviteADELI-41\"> </a></td><td>Etablissement de soins et prévention</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Etab de soins et prévention</td></tr><tr><td style=\"white-space:nowrap\">42<a name=\"TRE-G19-SecteurActiviteADELI-42\"> </a></td><td>Prévention et soins en entreprise</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Prévent, soins en entreprise</td></tr><tr><td style=\"white-space:nowrap\">43<a name=\"TRE-G19-SecteurActiviteADELI-43\"> </a></td><td>Etablissement scolaire ou universitaire</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Etab scolaire ou universitaire</td></tr><tr><td style=\"white-space:nowrap\">44<a name=\"TRE-G19-SecteurActiviteADELI-44\"> </a></td><td>Recrutement ou Gestion RH</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Recrutement, Gestion RH</td></tr><tr><td style=\"white-space:nowrap\">45<a name=\"TRE-G19-SecteurActiviteADELI-45\"> </a></td><td>PMI et Planification familiale</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>PMI, Planification familiale</td></tr><tr><td style=\"white-space:nowrap\">51<a name=\"TRE-G19-SecteurActiviteADELI-51\"> </a></td><td>Etablissement pour personnes handicapées</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Etab pour handicapés</td></tr><tr><td style=\"white-space:nowrap\">52<a name=\"TRE-G19-SecteurActiviteADELI-52\"> </a></td><td>Communication, Marketing, Consulting, Média</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Commun, Mark, Consult, Média</td></tr><tr><td style=\"white-space:nowrap\">53<a name=\"TRE-G19-SecteurActiviteADELI-53\"> </a></td><td>Etablissement pour personnes âgées</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Etab pour personnes âgées</td></tr><tr><td style=\"white-space:nowrap\">54<a name=\"TRE-G19-SecteurActiviteADELI-54\"> </a></td><td>Etablissement aide à la famille</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Etab aide à la famille</td></tr><tr><td style=\"white-space:nowrap\">55<a name=\"TRE-G19-SecteurActiviteADELI-55\"> </a></td><td>Etablissement d'enseignement</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Etab d'enseignement</td></tr><tr><td style=\"white-space:nowrap\">56<a name=\"TRE-G19-SecteurActiviteADELI-56\"> </a></td><td>Etablissement pour la protection de l'enfance</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Etab pour protection enfance</td></tr><tr><td style=\"white-space:nowrap\">57<a name=\"TRE-G19-SecteurActiviteADELI-57\"> </a></td><td>Etablissement d'hébergement et de réadaptation</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Etab hébergement, réadaptation</td></tr><tr><td style=\"white-space:nowrap\">58<a name=\"TRE-G19-SecteurActiviteADELI-58\"> </a></td><td>Recherche</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2010-11-18T00:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">61<a name=\"TRE-G19-SecteurActiviteADELI-61\"> </a></td><td>Assurance privée</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">62<a name=\"TRE-G19-SecteurActiviteADELI-62\"> </a></td><td>Organisme de sécurité sociale</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">65<a name=\"TRE-G19-SecteurActiviteADELI-65\"> </a></td><td>Ministère ou Service déconcentré</td><td/><td/><td>2007-07-27T16:46:43+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Ministère, Service déconcentré</td></tr><tr><td style=\"white-space:nowrap\">66<a name=\"TRE-G19-SecteurActiviteADELI-66\"> </a></td><td>Collectivité territoriale</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">68<a name=\"TRE-G19-SecteurActiviteADELI-68\"> </a></td><td>Association ou organisme humanitaire</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Asso ou organisme humanitaire</td></tr><tr><td style=\"white-space:nowrap\">71<a name=\"TRE-G19-SecteurActiviteADELI-71\"> </a></td><td>Laboratoire (d'analyse et) de biologie médicale</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>LBM ou LABM</td></tr><tr><td style=\"white-space:nowrap\">75<a name=\"TRE-G19-SecteurActiviteADELI-75\"> </a></td><td>Autre établissement sanitaire</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">81<a name=\"TRE-G19-SecteurActiviteADELI-81\"> </a></td><td>Répartition et Distribution de médicaments et dispositifs médicaux</td><td/><td/><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Répart, Distrib médic et DM</td></tr><tr><td style=\"white-space:nowrap\">85<a name=\"TRE-G19-SecteurActiviteADELI-85\"> </a></td><td>Appareillage médical</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">86<a name=\"TRE-G19-SecteurActiviteADELI-86\"> </a></td><td>Pharmacie d'officine</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">87<a name=\"TRE-G19-SecteurActiviteADELI-87\"> </a></td><td>Centre de dialyse</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">88<a name=\"TRE-G19-SecteurActiviteADELI-88\"> </a></td><td>Para-pharmacie</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">91<a name=\"TRE-G19-SecteurActiviteADELI-91\"> </a></td><td>Autre établissement du domaine social ou médico-social</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-12-22T12:00:00+01:00</td><td/><td/><td>active</td><td>Autre étab dom (médico-)social</td></tr><tr><td style=\"white-space:nowrap\">92<a name=\"TRE-G19-SecteurActiviteADELI-92\"> </a></td><td>Secteur non défini</td><td/><td/><td>2007-07-25T00:00:00+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">93<a name=\"TRE-G19-SecteurActiviteADELI-93\"> </a></td><td>Centre anti-cancer</td><td/><td/><td>2007-07-25T00:00:00+01:00</td><td>2009-08-24T00:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">94<a name=\"TRE-G19-SecteurActiviteADELI-94\"> </a></td><td>Centre de transfusion sanguine</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/><td/><td>active</td><td>Centre transfusion sanguine</td></tr><tr><td style=\"white-space:nowrap\">95<a name=\"TRE-G19-SecteurActiviteADELI-95\"> </a></td><td>Fab, Exploit, Import, Répart, Distrib médicaments et dispo médicaux</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Fab,Expl,Imp,Rép,Dis méd et DM</td></tr><tr><td style=\"white-space:nowrap\">96<a name=\"TRE-G19-SecteurActiviteADELI-96\"> </a></td><td>Incendie et secours</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">97<a name=\"TRE-G19-SecteurActiviteADELI-97\"> </a></td><td>Entreprise indus et tertiaire hors pharmaceutique</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Ent industrielle et tertiaire</td></tr><tr><td style=\"white-space:nowrap\">98<a name=\"TRE-G19-SecteurActiviteADELI-98\"> </a></td><td>Entité Outre-Mer</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">99<a name=\"TRE-G19-SecteurActiviteADELI-99\"> </a></td><td>Fabrication, Exploitation et Importation de médicaments et dispositifs médicaux</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Fab, Expl, Import médic et DM</td></tr><tr><td style=\"white-space:nowrap\">100<a name=\"TRE-G19-SecteurActiviteADELI-100\"> </a></td><td>Structure d'urgence hors établissement hospitalier</td><td/><td/><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Structure d'urgence hors hôp</td></tr><tr><td style=\"white-space:nowrap\">101<a name=\"TRE-G19-SecteurActiviteADELI-101\"> </a></td><td>Structure de coop avec autorisation de soins</td><td/><td/><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Struct coop avec auto soins</td></tr><tr><td style=\"white-space:nowrap\">102<a name=\"TRE-G19-SecteurActiviteADELI-102\"> </a></td><td>Maison de santé ou Pôle de santé</td><td/><td/><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Maison de santé, Pôle de santé</td></tr><tr><td style=\"white-space:nowrap\">103<a name=\"TRE-G19-SecteurActiviteADELI-103\"> </a></td><td>Siège administratif d'un établissement de santé</td><td/><td/><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Siège administratif étab santé</td></tr><tr><td style=\"white-space:nowrap\">104<a name=\"TRE-G19-SecteurActiviteADELI-104\"> </a></td><td>Centre de dépistage et de prévention</td><td/><td/><td>2014-09-30T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Centre dépistage et prévention</td></tr><tr><td style=\"white-space:nowrap\">105<a name=\"TRE-G19-SecteurActiviteADELI-105\"> </a></td><td>Laboratoire pharmaceutique préparant délivrant allergènes</td><td/><td/><td>2007-07-25T00:00:00+01:00</td><td>2016-12-22T12:00:00+01:00</td><td/><td/><td>active</td><td>Labo pharmaceutique allergènes</td></tr><tr><td style=\"white-space:nowrap\">106<a name=\"TRE-G19-SecteurActiviteADELI-106\"> </a></td><td>Propharmacie</td><td/><td/><td>2007-07-25T00:00:00+01:00</td><td>2013-01-23T00:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">107<a name=\"TRE-G19-SecteurActiviteADELI-107\"> </a></td><td>Structure de coop avec mission coordination soins</td><td/><td/><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Struct coop mission coor soins</td></tr><tr><td style=\"white-space:nowrap\">108<a name=\"TRE-G19-SecteurActiviteADELI-108\"> </a></td><td>Entreprise de taxis</td><td/><td/><td>2014-05-28T00:00:00+01:00</td><td>2014-05-28T00:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">109<a name=\"TRE-G19-SecteurActiviteADELI-109\"> </a></td><td>Labo de biologie médicale hors catégorie standard</td><td/><td/><td>2015-12-21T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>LBM hors catégorie stand</td></tr><tr><td style=\"white-space:nowrap\">110<a name=\"TRE-G19-SecteurActiviteADELI-110\"> </a></td><td>Centres médicaux SNCF</td><td/><td/><td>2016-12-22T12:00:00+01:00</td><td>2016-12-22T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">111<a name=\"TRE-G19-SecteurActiviteADELI-111\"> </a></td><td>Structure Dispensatrice à domicile d'Oxygène à usage médical</td><td/><td/><td>2017-10-13T12:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/><td/><td>active</td><td>Struct dispen oxygène domicile</td></tr><tr><td style=\"white-space:nowrap\">112<a name=\"TRE-G19-SecteurActiviteADELI-112\"> </a></td><td>Ordre professionnel de santé</td><td/><td/><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">113<a name=\"TRE-G19-SecteurActiviteADELI-113\"> </a></td><td>Structures de coordination et d'orientation</td><td>Structures non effectrices de soins permettant la coordination entre professionnels de santé et/ou l'orientation des personnes dans leur parcours de soins</td><td/><td>2020-02-28T12:00:00+01:00</td><td>2025-05-23T12:00:00+01:00</td><td/><td/><td>active</td><td>Coordination et orientation</td></tr><tr><td style=\"white-space:nowrap\">114<a name=\"TRE-G19-SecteurActiviteADELI-114\"> </a></td><td>Société de téléconsultation</td><td/><td/><td>2024-06-28T12:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">115<a name=\"TRE-G19-SecteurActiviteADELI-115\"> </a></td><td>Antenne de pharmacie</td><td/><td/><td>2024-06-28T12:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">116<a name=\"TRE-G19-SecteurActiviteADELI-116\"> </a></td><td>Services de Prévention et de Santé au Travail (SPST)</td><td/><td/><td>2024-05-31T12:00:00+01:00</td><td>2024-05-31T12:00:00+01:00</td><td/><td/><td>active</td><td>SPST</td></tr><tr><td style=\"white-space:nowrap\">117<a name=\"TRE-G19-SecteurActiviteADELI-117\"> </a></td><td>Maisons médicales de garde (MMG)</td><td/><td/><td>2024-05-31T12:00:00+01:00</td><td>2024-05-31T12:00:00+01:00</td><td/><td/><td>active</td><td>MMG</td></tr><tr><td style=\"white-space:nowrap\">118<a name=\"TRE-G19-SecteurActiviteADELI-118\"> </a></td><td>Services départementaux d'incendie et de secours (SDIS)</td><td/><td/><td>2024-07-26T12:00:00+01:00</td><td>2024-07-26T12:00:00+01:00</td><td/><td/><td>active</td><td>SDIS</td></tr><tr><td style=\"white-space:nowrap\">119<a name=\"TRE-G19-SecteurActiviteADELI-119\"> </a></td><td>Maisons de naissance</td><td/><td/><td>2024-07-26T12:00:00+01:00</td><td>2024-07-26T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr></table></div>"^^rdf:XMLLiteral
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem TRE-G19-SecteurActiviteADELI</b></p><a name=\"TRE-G19-SecteurActiviteADELI\"> </a><a name=\"hcTRE-G19-SecteurActiviteADELI\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 9; Dernière mise à jour : 2025-05-26 18:11:12+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td/><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td/><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td/><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr><tr><td>deprecationDate</td><td>deprecationDate</td><td>http://hl7.org/fhir/concept-properties#deprecationDate</td><td>dateTime</td><td>Date Concept was deprecated</td></tr><tr><td>status</td><td>status</td><td>http://hl7.org/fhir/concept-properties#status</td><td>code</td><td>A property that indicates the status of the concept.</td></tr><tr><td>retirementDate</td><td>retirementDate</td><td>http://hl7.org/fhir/concept-properties#retirementDate</td><td>dateTime</td><td>Date Concept was retired</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://mos.esante.gouv.fr/NOS/TRE_G19-SecteurActiviteADELI/FHIR/TRE-G19-SecteurActiviteADELI</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Définition</b></td><td><b>Déprécié</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>dateFin</b></td><td><b>deprecationDate</b></td><td><b>status</b></td><td><b>French (France) (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">10<a name=\"TRE-G19-SecteurActiviteADELI-10\"> </a></td><td>Etablissement public de santé</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">11<a name=\"TRE-G19-SecteurActiviteADELI-11\"> </a></td><td>Hôpital militaire du Service de santé des armées</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Hôpital militaire SSA</td></tr><tr><td style=\"white-space:nowrap\">16<a name=\"TRE-G19-SecteurActiviteADELI-16\"> </a></td><td>Etablissement privé PSPH</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Etab privé PSPH</td></tr><tr><td style=\"white-space:nowrap\">17<a name=\"TRE-G19-SecteurActiviteADELI-17\"> </a></td><td>Etablissement privé non PSPH</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Etab privé non PSPH</td></tr><tr><td style=\"white-space:nowrap\">25<a name=\"TRE-G19-SecteurActiviteADELI-25\"> </a></td><td>Centre de santé</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">26<a name=\"TRE-G19-SecteurActiviteADELI-26\"> </a></td><td>Autre structure du Service de santé des armées</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Autre structure SSA</td></tr><tr><td style=\"white-space:nowrap\">31<a name=\"TRE-G19-SecteurActiviteADELI-31\"> </a></td><td>Cabinet individuel</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">32<a name=\"TRE-G19-SecteurActiviteADELI-32\"> </a></td><td>Cabinet de groupe</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">33<a name=\"TRE-G19-SecteurActiviteADELI-33\"> </a></td><td>Exercice en société</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">34<a name=\"TRE-G19-SecteurActiviteADELI-34\"> </a></td><td>Secteur privé, praticien hospitalier temps plein</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Secteur privé, PH TP</td></tr><tr><td style=\"white-space:nowrap\">35<a name=\"TRE-G19-SecteurActiviteADELI-35\"> </a></td><td>Transporteur sanitaire</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Transport sanitaire</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">37<a name=\"TRE-G19-SecteurActiviteADELI-37\"> </a></td><td>Entreprise d'intérim</td><td/><td>Déprécié</td><td>2007-07-25T15:04:44+01:00</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td>deprecated</td><td/></tr><tr><td style=\"white-space:nowrap\">41<a name=\"TRE-G19-SecteurActiviteADELI-41\"> </a></td><td>Etablissement de soins et prévention</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Etab de soins et prévention</td></tr><tr><td style=\"white-space:nowrap\">42<a name=\"TRE-G19-SecteurActiviteADELI-42\"> </a></td><td>Prévention et soins en entreprise</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Prévent, soins en entreprise</td></tr><tr><td style=\"white-space:nowrap\">43<a name=\"TRE-G19-SecteurActiviteADELI-43\"> </a></td><td>Etablissement scolaire ou universitaire</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Etab scolaire ou universitaire</td></tr><tr><td style=\"white-space:nowrap\">44<a name=\"TRE-G19-SecteurActiviteADELI-44\"> </a></td><td>Recrutement ou Gestion RH</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Recrutement, Gestion RH</td></tr><tr><td style=\"white-space:nowrap\">45<a name=\"TRE-G19-SecteurActiviteADELI-45\"> </a></td><td>PMI et Planification familiale</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>PMI, Planification familiale</td></tr><tr><td style=\"white-space:nowrap\">51<a name=\"TRE-G19-SecteurActiviteADELI-51\"> </a></td><td>Etablissement pour personnes handicapées</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Etab pour handicapés</td></tr><tr><td style=\"white-space:nowrap\">52<a name=\"TRE-G19-SecteurActiviteADELI-52\"> </a></td><td>Communication, Marketing, Consulting, Média</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Commun, Mark, Consult, Média</td></tr><tr><td style=\"white-space:nowrap\">53<a name=\"TRE-G19-SecteurActiviteADELI-53\"> </a></td><td>Etablissement pour personnes âgées</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Etab pour personnes âgées</td></tr><tr><td style=\"white-space:nowrap\">54<a name=\"TRE-G19-SecteurActiviteADELI-54\"> </a></td><td>Etablissement aide à la famille</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Etab aide à la famille</td></tr><tr><td style=\"white-space:nowrap\">55<a name=\"TRE-G19-SecteurActiviteADELI-55\"> </a></td><td>Etablissement d'enseignement</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Etab d'enseignement</td></tr><tr><td style=\"white-space:nowrap\">56<a name=\"TRE-G19-SecteurActiviteADELI-56\"> </a></td><td>Etablissement pour la protection de l'enfance</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Etab pour protection enfance</td></tr><tr><td style=\"white-space:nowrap\">57<a name=\"TRE-G19-SecteurActiviteADELI-57\"> </a></td><td>Etablissement d'hébergement et de réadaptation</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Etab hébergement, réadaptation</td></tr><tr><td style=\"white-space:nowrap\">58<a name=\"TRE-G19-SecteurActiviteADELI-58\"> </a></td><td>Recherche</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2010-11-18T00:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">61<a name=\"TRE-G19-SecteurActiviteADELI-61\"> </a></td><td>Assurance privée</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">62<a name=\"TRE-G19-SecteurActiviteADELI-62\"> </a></td><td>Organisme de sécurité sociale</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">65<a name=\"TRE-G19-SecteurActiviteADELI-65\"> </a></td><td>Ministère ou Service déconcentré</td><td/><td/><td>2007-07-27T16:46:43+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Ministère, Service déconcentré</td></tr><tr><td style=\"white-space:nowrap\">66<a name=\"TRE-G19-SecteurActiviteADELI-66\"> </a></td><td>Collectivité territoriale</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">68<a name=\"TRE-G19-SecteurActiviteADELI-68\"> </a></td><td>Association ou organisme humanitaire</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Asso ou organisme humanitaire</td></tr><tr><td style=\"white-space:nowrap\">71<a name=\"TRE-G19-SecteurActiviteADELI-71\"> </a></td><td>Laboratoire (d'analyse et) de biologie médicale</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>LBM ou LABM</td></tr><tr><td style=\"white-space:nowrap\">75<a name=\"TRE-G19-SecteurActiviteADELI-75\"> </a></td><td>Autre établissement sanitaire</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">81<a name=\"TRE-G19-SecteurActiviteADELI-81\"> </a></td><td>Répartition et Distribution de médicaments et dispositifs médicaux</td><td/><td/><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Répart, Distrib médic et DM</td></tr><tr><td style=\"white-space:nowrap\">85<a name=\"TRE-G19-SecteurActiviteADELI-85\"> </a></td><td>Appareillage médical</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">86<a name=\"TRE-G19-SecteurActiviteADELI-86\"> </a></td><td>Pharmacie d'officine</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">87<a name=\"TRE-G19-SecteurActiviteADELI-87\"> </a></td><td>Centre de dialyse</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">88<a name=\"TRE-G19-SecteurActiviteADELI-88\"> </a></td><td>Para-pharmacie</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">91<a name=\"TRE-G19-SecteurActiviteADELI-91\"> </a></td><td>Autre établissement du domaine social ou médico-social</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-12-22T12:00:00+01:00</td><td/><td/><td>active</td><td>Autre étab dom (médico-)social</td></tr><tr><td style=\"white-space:nowrap\">92<a name=\"TRE-G19-SecteurActiviteADELI-92\"> </a></td><td>Secteur non défini</td><td/><td/><td>2007-07-25T00:00:00+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">93<a name=\"TRE-G19-SecteurActiviteADELI-93\"> </a></td><td>Centre anti-cancer</td><td/><td/><td>2007-07-25T00:00:00+01:00</td><td>2009-08-24T00:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">94<a name=\"TRE-G19-SecteurActiviteADELI-94\"> </a></td><td>Centre de transfusion sanguine</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2008-02-28T00:00:00+01:00</td><td/><td/><td>active</td><td>Centre transfusion sanguine</td></tr><tr><td style=\"white-space:nowrap\">95<a name=\"TRE-G19-SecteurActiviteADELI-95\"> </a></td><td>Fab, Exploit, Import, Répart, Distrib médicaments et dispo médicaux</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Fab,Expl,Imp,Rép,Dis méd et DM</td></tr><tr><td style=\"white-space:nowrap\">96<a name=\"TRE-G19-SecteurActiviteADELI-96\"> </a></td><td>Incendie et secours</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">97<a name=\"TRE-G19-SecteurActiviteADELI-97\"> </a></td><td>Entreprise indus et tertiaire hors pharmaceutique</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Ent industrielle et tertiaire</td></tr><tr><td style=\"white-space:nowrap\">98<a name=\"TRE-G19-SecteurActiviteADELI-98\"> </a></td><td>Entité Outre-Mer</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">99<a name=\"TRE-G19-SecteurActiviteADELI-99\"> </a></td><td>Fabrication, Exploitation et Importation de médicaments et dispositifs médicaux</td><td/><td/><td>2007-07-25T15:04:44+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Fab, Expl, Import médic et DM</td></tr><tr><td style=\"white-space:nowrap\">100<a name=\"TRE-G19-SecteurActiviteADELI-100\"> </a></td><td>Structure d'urgence hors établissement hospitalier</td><td/><td/><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Structure d'urgence hors hôp</td></tr><tr><td style=\"white-space:nowrap\">101<a name=\"TRE-G19-SecteurActiviteADELI-101\"> </a></td><td>Structure de coop avec autorisation de soins</td><td/><td/><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Struct coop avec auto soins</td></tr><tr><td style=\"white-space:nowrap\">102<a name=\"TRE-G19-SecteurActiviteADELI-102\"> </a></td><td>Maison de santé ou Pôle de santé</td><td/><td/><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Maison de santé, Pôle de santé</td></tr><tr><td style=\"white-space:nowrap\">103<a name=\"TRE-G19-SecteurActiviteADELI-103\"> </a></td><td>Siège administratif d'un établissement de santé</td><td/><td/><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Siège administratif étab santé</td></tr><tr><td style=\"white-space:nowrap\">104<a name=\"TRE-G19-SecteurActiviteADELI-104\"> </a></td><td>Centre de dépistage et de prévention</td><td/><td/><td>2014-09-30T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Centre dépistage et prévention</td></tr><tr><td style=\"white-space:nowrap\">105<a name=\"TRE-G19-SecteurActiviteADELI-105\"> </a></td><td>Laboratoire pharmaceutique préparant délivrant allergènes</td><td/><td/><td>2007-07-25T00:00:00+01:00</td><td>2016-12-22T12:00:00+01:00</td><td/><td/><td>active</td><td>Labo pharmaceutique allergènes</td></tr><tr><td style=\"white-space:nowrap\">106<a name=\"TRE-G19-SecteurActiviteADELI-106\"> </a></td><td>Propharmacie</td><td/><td/><td>2007-07-25T00:00:00+01:00</td><td>2013-01-23T00:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">107<a name=\"TRE-G19-SecteurActiviteADELI-107\"> </a></td><td>Structure de coop avec mission coordination soins</td><td/><td/><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>Struct coop mission coor soins</td></tr><tr><td style=\"white-space:nowrap\">108<a name=\"TRE-G19-SecteurActiviteADELI-108\"> </a></td><td>Entreprise de taxis</td><td/><td/><td>2014-05-28T00:00:00+01:00</td><td>2014-05-28T00:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">109<a name=\"TRE-G19-SecteurActiviteADELI-109\"> </a></td><td>Labo de biologie médicale hors catégorie standard</td><td/><td/><td>2015-12-21T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td/><td>active</td><td>LBM hors catégorie stand</td></tr><tr><td style=\"white-space:nowrap\">110<a name=\"TRE-G19-SecteurActiviteADELI-110\"> </a></td><td>Centres médicaux SNCF</td><td/><td/><td>2016-12-22T12:00:00+01:00</td><td>2016-12-22T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">111<a name=\"TRE-G19-SecteurActiviteADELI-111\"> </a></td><td>Structure Dispensatrice à domicile d'Oxygène à usage médical</td><td/><td/><td>2017-10-13T12:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/><td/><td>active</td><td>Struct dispen oxygène domicile</td></tr><tr><td style=\"white-space:nowrap\">112<a name=\"TRE-G19-SecteurActiviteADELI-112\"> </a></td><td>Ordre professionnel de santé</td><td/><td/><td>2019-12-13T12:00:00+01:00</td><td>2019-12-13T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">113<a name=\"TRE-G19-SecteurActiviteADELI-113\"> </a></td><td>Structures de coordination et d'orientation</td><td>Structures non effectrices de soins permettant la coordination entre professionnels de santé et/ou l'orientation des personnes dans leur parcours de soins</td><td/><td>2020-02-28T12:00:00+01:00</td><td>2025-05-23T12:00:00+01:00</td><td/><td/><td>active</td><td>Coordination et orientation</td></tr><tr><td style=\"white-space:nowrap\">114<a name=\"TRE-G19-SecteurActiviteADELI-114\"> </a></td><td>Société de téléconsultation</td><td/><td/><td>2024-06-28T12:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">115<a name=\"TRE-G19-SecteurActiviteADELI-115\"> </a></td><td>Antenne de pharmacie</td><td/><td/><td>2024-06-28T12:00:00+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">116<a name=\"TRE-G19-SecteurActiviteADELI-116\"> </a></td><td>Services de Prévention et de Santé au Travail (SPST)</td><td/><td/><td>2024-05-31T12:00:00+01:00</td><td>2024-05-31T12:00:00+01:00</td><td/><td/><td>active</td><td>SPST</td></tr><tr><td style=\"white-space:nowrap\">117<a name=\"TRE-G19-SecteurActiviteADELI-117\"> </a></td><td>Maisons médicales de garde (MMG)</td><td/><td/><td>2024-05-31T12:00:00+01:00</td><td>2024-05-31T12:00:00+01:00</td><td/><td/><td>active</td><td>MMG</td></tr><tr><td style=\"white-space:nowrap\">118<a name=\"TRE-G19-SecteurActiviteADELI-118\"> </a></td><td>Services départementaux d'incendie et de secours (SDIS)</td><td/><td/><td>2024-07-26T12:00:00+01:00</td><td>2024-07-26T12:00:00+01:00</td><td/><td/><td>active</td><td>SDIS</td></tr><tr><td style=\"white-space:nowrap\">119<a name=\"TRE-G19-SecteurActiviteADELI-119\"> </a></td><td>Maisons de naissance</td><td/><td/><td>2024-07-26T12:00:00+01:00</td><td>2024-07-26T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
-     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod>
+     ] ;
      fhir:value [
        a fhir:Period ;
        fhir:start [ fhir:v "2007-07-25T15:04:44+01:00"^^xsd:dateTime ]
      ]
   ] ) ; # 
-  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_G19-SecteurActiviteADELI/FHIR/TRE-G19-SecteurActiviteADELI"^^xsd:anyURI] ; # 
+  fhir:url [
+     fhir:v "https://mos.esante.gouv.fr/NOS/TRE_G19-SecteurActiviteADELI/FHIR/TRE-G19-SecteurActiviteADELI"^^xsd:anyURI ;
+     fhir:l <https://mos.esante.gouv.fr/NOS/TRE_G19-SecteurActiviteADELI/FHIR/TRE-G19-SecteurActiviteADELI>
+  ] ; # 
   fhir:identifier ( [
-     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:system [
+       fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
+       fhir:l <urn:ietf:rfc:3986>
+     ] ;
      fhir:value [ fhir:v "urn:oid:1.2.250.1.71.1.2.23" ]
   ] ) ; # 
   fhir:version [ fhir:v "20250523120000"] ; # 
@@ -43,7 +52,10 @@
   fhir:description [ fhir:v "Secteur d'activité ADELI"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
-       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
        fhir:code [ fhir:v "FRA" ]
      ] )
   ] ) ; # 
@@ -63,17 +75,26 @@
      fhir:type [ fhir:v "dateTime" ]
   ] [
      fhir:code [ fhir:v "deprecationDate" ] ;
-     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#deprecationDate"^^xsd:anyURI ] ;
+     fhir:uri [
+       fhir:v "http://hl7.org/fhir/concept-properties#deprecationDate"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/concept-properties#deprecationDate>
+     ] ;
      fhir:description [ fhir:v "Date Concept was deprecated" ] ;
      fhir:type [ fhir:v "dateTime" ]
   ] [
      fhir:code [ fhir:v "status" ] ;
-     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#status"^^xsd:anyURI ] ;
+     fhir:uri [
+       fhir:v "http://hl7.org/fhir/concept-properties#status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/concept-properties#status>
+     ] ;
      fhir:description [ fhir:v "A property that indicates the status of the concept." ] ;
      fhir:type [ fhir:v "code" ]
   ] [
      fhir:code [ fhir:v "retirementDate" ] ;
-     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#retirementDate"^^xsd:anyURI ] ;
+     fhir:uri [
+       fhir:v "http://hl7.org/fhir/concept-properties#retirementDate"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/concept-properties#retirementDate>
+     ] ;
      fhir:description [ fhir:v "Date Concept was retired" ] ;
      fhir:type [ fhir:v "dateTime" ]
   ] ) ; # 
@@ -83,19 +104,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-25T15:04:44+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -106,7 +127,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Hôpital militaire SSA" ]
@@ -114,19 +138,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-25T15:04:44+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -137,7 +161,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Etab privé PSPH" ]
@@ -145,19 +172,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-25T15:04:44+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -168,7 +195,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Etab privé non PSPH" ]
@@ -176,19 +206,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-25T15:04:44+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -198,19 +228,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-25T15:04:44+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -221,7 +251,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Autre structure SSA" ]
@@ -229,19 +262,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-25T15:04:44+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -251,19 +284,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-25T15:04:44+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -273,19 +306,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-25T15:04:44+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -295,19 +328,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-25T15:04:44+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -318,7 +351,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Secteur privé, PH TP" ]
@@ -326,19 +362,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-25T15:04:44+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -349,7 +385,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Transport sanitaire" ]
@@ -357,19 +396,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-25T15:04:44+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -379,31 +418,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-25T15:04:44+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -414,7 +453,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Etab de soins et prévention" ]
@@ -422,19 +464,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-25T15:04:44+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -445,7 +487,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Prévent, soins en entreprise" ]
@@ -453,19 +498,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-25T15:04:44+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -476,7 +521,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Etab scolaire ou universitaire" ]
@@ -484,19 +532,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-25T15:04:44+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -507,7 +555,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Recrutement, Gestion RH" ]
@@ -515,19 +566,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-25T15:04:44+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -538,7 +589,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "PMI, Planification familiale" ]
@@ -546,19 +600,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-25T15:04:44+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -569,7 +623,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Etab pour handicapés" ]
@@ -577,19 +634,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-25T15:04:44+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -600,7 +657,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Commun, Mark, Consult, Média" ]
@@ -608,19 +668,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-25T15:04:44+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -631,7 +691,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Etab pour personnes âgées" ]
@@ -639,19 +702,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-25T15:04:44+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -662,7 +725,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Etab aide à la famille" ]
@@ -670,19 +736,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-25T15:04:44+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -693,7 +759,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Etab d'enseignement" ]
@@ -701,19 +770,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-25T15:04:44+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -724,7 +793,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Etab pour protection enfance" ]
@@ -732,19 +804,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-25T15:04:44+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -755,7 +827,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Etab hébergement, réadaptation" ]
@@ -763,19 +838,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-25T15:04:44+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -785,19 +860,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-25T15:04:44+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2010-11-18T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -807,19 +882,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-25T15:04:44+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -829,19 +904,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-25T15:04:44+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -852,7 +927,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Ministère, Service déconcentré" ]
@@ -860,19 +938,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-27T16:46:43+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -882,19 +960,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-25T15:04:44+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -905,7 +983,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Asso ou organisme humanitaire" ]
@@ -913,19 +994,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-25T15:04:44+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -936,7 +1017,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "LBM ou LABM" ]
@@ -944,7 +1028,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Laboratoire (d'analyse et) de biologie médicale (LBM ou LABM)" ]
@@ -952,19 +1039,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-25T15:04:44+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -974,19 +1061,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-25T15:04:44+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -997,7 +1084,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Répart, Distrib médic et DM" ]
@@ -1005,19 +1095,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1027,19 +1117,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-25T15:04:44+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1049,19 +1139,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-25T15:04:44+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1071,19 +1161,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-25T15:04:44+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1093,19 +1183,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-25T15:04:44+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1116,7 +1206,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Autre étab dom (médico-)social" ]
@@ -1124,19 +1217,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-25T15:04:44+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-12-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1146,19 +1239,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1168,19 +1261,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2009-08-24T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1191,7 +1284,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Centre transfusion sanguine" ]
@@ -1199,19 +1295,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-25T15:04:44+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2008-02-28T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1222,7 +1318,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Fab,Expl,Imp,Rép,Dis méd et DM" ]
@@ -1230,7 +1329,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Fabrication, Exploitation, Importation, Répartition, Distribution médicaments et dispositifs médicaux" ]
@@ -1238,19 +1340,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-25T15:04:44+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1260,19 +1362,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-25T15:04:44+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1283,7 +1385,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Ent industrielle et tertiaire" ]
@@ -1291,7 +1396,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Entreprise industrielle et tertiaire hors industrie pharmaceutique" ]
@@ -1299,19 +1407,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-25T15:04:44+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1321,19 +1429,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-25T15:04:44+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1344,7 +1452,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Fab, Expl, Import médic et DM" ]
@@ -1352,19 +1463,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-25T15:04:44+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1375,7 +1486,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Structure d'urgence hors hôp" ]
@@ -1383,19 +1497,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1406,7 +1520,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Struct coop avec auto soins" ]
@@ -1414,7 +1531,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Structure de coopération avec autorisation de soins" ]
@@ -1422,19 +1542,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1445,7 +1565,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Maison de santé, Pôle de santé" ]
@@ -1453,19 +1576,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1476,7 +1599,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Siège administratif étab santé" ]
@@ -1484,19 +1610,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1507,7 +1633,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Centre dépistage et prévention" ]
@@ -1515,19 +1644,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2014-09-30T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1538,7 +1667,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Labo pharmaceutique allergènes" ]
@@ -1546,7 +1678,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Laboratoire pharmaceutique préparant et délivrant des allergènes" ]
@@ -1554,19 +1689,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-12-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1576,19 +1711,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2013-01-23T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1599,7 +1734,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Struct coop mission coor soins" ]
@@ -1607,7 +1745,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Structure de coopération avec mission de coordination de soins" ]
@@ -1615,19 +1756,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1637,19 +1778,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2014-05-28T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2014-05-28T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1660,7 +1801,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "LBM hors catégorie stand" ]
@@ -1668,7 +1812,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Laboratoire de biologie médicale hors catégorie standard" ]
@@ -1676,19 +1823,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-12-21T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1698,19 +1845,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-12-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-12-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1721,7 +1868,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Struct dispen oxygène domicile" ]
@@ -1729,19 +1879,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2017-10-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1751,19 +1901,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1775,7 +1925,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Coordination et orientation" ]
@@ -1783,19 +1936,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-02-28T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2025-05-23T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1805,19 +1958,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-06-28T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-06-28T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1827,19 +1980,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-06-28T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-06-28T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1850,7 +2003,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "SPST" ]
@@ -1858,19 +2014,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-05-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-05-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1881,7 +2037,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "MMG" ]
@@ -1889,19 +2048,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-05-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-05-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1912,7 +2071,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "SDIS" ]
@@ -1920,7 +2082,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Services départementaux d'incendie et de secours" ]
@@ -1928,19 +2093,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-07-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-07-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1950,19 +2115,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-07-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-07-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )

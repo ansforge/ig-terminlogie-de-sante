@@ -14,9 +14,9 @@
 
 version: 15; Dernière mise à jour : 2025-10-16 11:04:31+0200
 
-Tag: Resource encoded in summary mode (Details: ObservationValue code SUBSETTED = 'Resource encoded in summary mode')
+Tag: Resource encoded in summary mode (Détails : code ObservationValue SUBSETTED = 'Resource encoded in summary mode')
 
-Mapping from [ValueSet_NUVA_All](ValueSet-vs-nuva-all.md) to [ValueSet_CIPUCD_All](ValueSet-vs-cipucd-all.md)
+Mapping de [ValueSet_NUVA_All](ValueSet-vs-nuva-all.md) vers [ValueSet_CIPUCD_All](ValueSet-vs-cipucd-all.md)
 
 
 

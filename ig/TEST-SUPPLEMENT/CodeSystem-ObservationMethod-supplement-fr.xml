@@ -1,0 +1,2976 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="ObservationMethod-supplement-fr"/>
+  <language value="fr-FR"/>
+  <text>
+    <status value="generated"/><div xml:lang="fr-FR" xmlns="http://www.w3.org/1999/xhtml" lang="fr-FR"><p class="res-header-id"><b>Narratif généré : CodeSystem ObservationMethod-supplement-fr</b></p><a name="ObservationMethod-supplement-fr"> </a><a name="hcObservationMethod-supplement-fr"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Langue : fr-FR</p></div><p>This code system supplement <code>http://hl7.org/fhir/us/example/CodeSystem/ObservationMethod-supplement-fr</code> defines labels on the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-1">1</a><a name="ObservationMethod-supplement-fr-1"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-2">2</a><a name="ObservationMethod-supplement-fr-2"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-3">3</a><a name="ObservationMethod-supplement-fr-3"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-4">4</a><a name="ObservationMethod-supplement-fr-4"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-5">5</a><a name="ObservationMethod-supplement-fr-5"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-6">6</a><a name="ObservationMethod-supplement-fr-6"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-7">7</a><a name="ObservationMethod-supplement-fr-7"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-8">8</a><a name="ObservationMethod-supplement-fr-8"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-9">9</a><a name="ObservationMethod-supplement-fr-9"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-10">10</a><a name="ObservationMethod-supplement-fr-10"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-11">11</a><a name="ObservationMethod-supplement-fr-11"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-12">12</a><a name="ObservationMethod-supplement-fr-12"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-13">13</a><a name="ObservationMethod-supplement-fr-13"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-14">14</a><a name="ObservationMethod-supplement-fr-14"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-15">15</a><a name="ObservationMethod-supplement-fr-15"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-16">16</a><a name="ObservationMethod-supplement-fr-16"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-17">17</a><a name="ObservationMethod-supplement-fr-17"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-18">18</a><a name="ObservationMethod-supplement-fr-18"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-19">19</a><a name="ObservationMethod-supplement-fr-19"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-20">20</a><a name="ObservationMethod-supplement-fr-20"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-21">21</a><a name="ObservationMethod-supplement-fr-21"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-22">22</a><a name="ObservationMethod-supplement-fr-22"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-23">23</a><a name="ObservationMethod-supplement-fr-23"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-24">24</a><a name="ObservationMethod-supplement-fr-24"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-25">25</a><a name="ObservationMethod-supplement-fr-25"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-26">26</a><a name="ObservationMethod-supplement-fr-26"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-27">27</a><a name="ObservationMethod-supplement-fr-27"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-30">30</a><a name="ObservationMethod-supplement-fr-30"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-31">31</a><a name="ObservationMethod-supplement-fr-31"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-32">32</a><a name="ObservationMethod-supplement-fr-32"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-33">33</a><a name="ObservationMethod-supplement-fr-33"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-34">34</a><a name="ObservationMethod-supplement-fr-34"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-37">37</a><a name="ObservationMethod-supplement-fr-37"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-38">38</a><a name="ObservationMethod-supplement-fr-38"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-39">39</a><a name="ObservationMethod-supplement-fr-39"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-40">40</a><a name="ObservationMethod-supplement-fr-40"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-41">41</a><a name="ObservationMethod-supplement-fr-41"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-42">42</a><a name="ObservationMethod-supplement-fr-42"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-43">43</a><a name="ObservationMethod-supplement-fr-43"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-44">44</a><a name="ObservationMethod-supplement-fr-44"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-45">45</a><a name="ObservationMethod-supplement-fr-45"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-46">46</a><a name="ObservationMethod-supplement-fr-46"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-47">47</a><a name="ObservationMethod-supplement-fr-47"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-48">48</a><a name="ObservationMethod-supplement-fr-48"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-49">49</a><a name="ObservationMethod-supplement-fr-49"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-50">50</a><a name="ObservationMethod-supplement-fr-50"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-51">51</a><a name="ObservationMethod-supplement-fr-51"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-52">52</a><a name="ObservationMethod-supplement-fr-52"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-53">53</a><a name="ObservationMethod-supplement-fr-53"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-54">54</a><a name="ObservationMethod-supplement-fr-54"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-61">61</a><a name="ObservationMethod-supplement-fr-61"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-62">62</a><a name="ObservationMethod-supplement-fr-62"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-63">63</a><a name="ObservationMethod-supplement-fr-63"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-64">64</a><a name="ObservationMethod-supplement-fr-64"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-65">65</a><a name="ObservationMethod-supplement-fr-65"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-66">66</a><a name="ObservationMethod-supplement-fr-66"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-67">67</a><a name="ObservationMethod-supplement-fr-67"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-68">68</a><a name="ObservationMethod-supplement-fr-68"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-69">69</a><a name="ObservationMethod-supplement-fr-69"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-70">70</a><a name="ObservationMethod-supplement-fr-70"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-71">71</a><a name="ObservationMethod-supplement-fr-71"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-72">72</a><a name="ObservationMethod-supplement-fr-72"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-73">73</a><a name="ObservationMethod-supplement-fr-73"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-74">74</a><a name="ObservationMethod-supplement-fr-74"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-75">75</a><a name="ObservationMethod-supplement-fr-75"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-76">76</a><a name="ObservationMethod-supplement-fr-76"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-77">77</a><a name="ObservationMethod-supplement-fr-77"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-78">78</a><a name="ObservationMethod-supplement-fr-78"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-79">79</a><a name="ObservationMethod-supplement-fr-79"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-80">80</a><a name="ObservationMethod-supplement-fr-80"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-81">81</a><a name="ObservationMethod-supplement-fr-81"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-82">82</a><a name="ObservationMethod-supplement-fr-82"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-83">83</a><a name="ObservationMethod-supplement-fr-83"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-84">84</a><a name="ObservationMethod-supplement-fr-84"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-85">85</a><a name="ObservationMethod-supplement-fr-85"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-86">86</a><a name="ObservationMethod-supplement-fr-86"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-87">87</a><a name="ObservationMethod-supplement-fr-87"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-88">88</a><a name="ObservationMethod-supplement-fr-88"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-89">89</a><a name="ObservationMethod-supplement-fr-89"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-90">90</a><a name="ObservationMethod-supplement-fr-90"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-91">91</a><a name="ObservationMethod-supplement-fr-91"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-92">92</a><a name="ObservationMethod-supplement-fr-92"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-93">93</a><a name="ObservationMethod-supplement-fr-93"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-94">94</a><a name="ObservationMethod-supplement-fr-94"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-95">95</a><a name="ObservationMethod-supplement-fr-95"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-96">96</a><a name="ObservationMethod-supplement-fr-96"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-97">97</a><a name="ObservationMethod-supplement-fr-97"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-98">98</a><a name="ObservationMethod-supplement-fr-98"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-99">99</a><a name="ObservationMethod-supplement-fr-99"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-100">100</a><a name="ObservationMethod-supplement-fr-100"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-101">101</a><a name="ObservationMethod-supplement-fr-101"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-102">102</a><a name="ObservationMethod-supplement-fr-102"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-103">103</a><a name="ObservationMethod-supplement-fr-103"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-104">104</a><a name="ObservationMethod-supplement-fr-104"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-105">105</a><a name="ObservationMethod-supplement-fr-105"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-106">106</a><a name="ObservationMethod-supplement-fr-106"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-107">107</a><a name="ObservationMethod-supplement-fr-107"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-108">108</a><a name="ObservationMethod-supplement-fr-108"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-109">109</a><a name="ObservationMethod-supplement-fr-109"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-110">110</a><a name="ObservationMethod-supplement-fr-110"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-111">111</a><a name="ObservationMethod-supplement-fr-111"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-112">112</a><a name="ObservationMethod-supplement-fr-112"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-113">113</a><a name="ObservationMethod-supplement-fr-113"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-114">114</a><a name="ObservationMethod-supplement-fr-114"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-115">115</a><a name="ObservationMethod-supplement-fr-115"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-116">116</a><a name="ObservationMethod-supplement-fr-116"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-117">117</a><a name="ObservationMethod-supplement-fr-117"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-120">120</a><a name="ObservationMethod-supplement-fr-120"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-122">122</a><a name="ObservationMethod-supplement-fr-122"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-123">123</a><a name="ObservationMethod-supplement-fr-123"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-127">127</a><a name="ObservationMethod-supplement-fr-127"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-128">128</a><a name="ObservationMethod-supplement-fr-128"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-129">129</a><a name="ObservationMethod-supplement-fr-129"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-130">130</a><a name="ObservationMethod-supplement-fr-130"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-131">131</a><a name="ObservationMethod-supplement-fr-131"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-132">132</a><a name="ObservationMethod-supplement-fr-132"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-134">134</a><a name="ObservationMethod-supplement-fr-134"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-135">135</a><a name="ObservationMethod-supplement-fr-135"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-138">138</a><a name="ObservationMethod-supplement-fr-138"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-139">139</a><a name="ObservationMethod-supplement-fr-139"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-140">140</a><a name="ObservationMethod-supplement-fr-140"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-141">141</a><a name="ObservationMethod-supplement-fr-141"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-142">142</a><a name="ObservationMethod-supplement-fr-142"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-143">143</a><a name="ObservationMethod-supplement-fr-143"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-144">144</a><a name="ObservationMethod-supplement-fr-144"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-145">145</a><a name="ObservationMethod-supplement-fr-145"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-146">146</a><a name="ObservationMethod-supplement-fr-146"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-147">147</a><a name="ObservationMethod-supplement-fr-147"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-148">148</a><a name="ObservationMethod-supplement-fr-148"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-149">149</a><a name="ObservationMethod-supplement-fr-149"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-150">150</a><a name="ObservationMethod-supplement-fr-150"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-151">151</a><a name="ObservationMethod-supplement-fr-151"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-152">152</a><a name="ObservationMethod-supplement-fr-152"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-153">153</a><a name="ObservationMethod-supplement-fr-153"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-154">154</a><a name="ObservationMethod-supplement-fr-154"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-155">155</a><a name="ObservationMethod-supplement-fr-155"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-156">156</a><a name="ObservationMethod-supplement-fr-156"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-157">157</a><a name="ObservationMethod-supplement-fr-157"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-158">158</a><a name="ObservationMethod-supplement-fr-158"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-159">159</a><a name="ObservationMethod-supplement-fr-159"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-160">160</a><a name="ObservationMethod-supplement-fr-160"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-161">161</a><a name="ObservationMethod-supplement-fr-161"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-162">162</a><a name="ObservationMethod-supplement-fr-162"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-163">163</a><a name="ObservationMethod-supplement-fr-163"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-164">164</a><a name="ObservationMethod-supplement-fr-164"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-165">165</a><a name="ObservationMethod-supplement-fr-165"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-166">166</a><a name="ObservationMethod-supplement-fr-166"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-167">167</a><a name="ObservationMethod-supplement-fr-167"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-168">168</a><a name="ObservationMethod-supplement-fr-168"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-169">169</a><a name="ObservationMethod-supplement-fr-169"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-170">170</a><a name="ObservationMethod-supplement-fr-170"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-171">171</a><a name="ObservationMethod-supplement-fr-171"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-172">172</a><a name="ObservationMethod-supplement-fr-172"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-173">173</a><a name="ObservationMethod-supplement-fr-173"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-174">174</a><a name="ObservationMethod-supplement-fr-174"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-175">175</a><a name="ObservationMethod-supplement-fr-175"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-176">176</a><a name="ObservationMethod-supplement-fr-176"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-177">177</a><a name="ObservationMethod-supplement-fr-177"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-178">178</a><a name="ObservationMethod-supplement-fr-178"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-179">179</a><a name="ObservationMethod-supplement-fr-179"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-180">180</a><a name="ObservationMethod-supplement-fr-180"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-181">181</a><a name="ObservationMethod-supplement-fr-181"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-182">182</a><a name="ObservationMethod-supplement-fr-182"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-183">183</a><a name="ObservationMethod-supplement-fr-183"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-184">184</a><a name="ObservationMethod-supplement-fr-184"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-185">185</a><a name="ObservationMethod-supplement-fr-185"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-186">186</a><a name="ObservationMethod-supplement-fr-186"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-187">187</a><a name="ObservationMethod-supplement-fr-187"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-188">188</a><a name="ObservationMethod-supplement-fr-188"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-189">189</a><a name="ObservationMethod-supplement-fr-189"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-190">190</a><a name="ObservationMethod-supplement-fr-190"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-191">191</a><a name="ObservationMethod-supplement-fr-191"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-192">192</a><a name="ObservationMethod-supplement-fr-192"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-193">193</a><a name="ObservationMethod-supplement-fr-193"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-194">194</a><a name="ObservationMethod-supplement-fr-194"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-195">195</a><a name="ObservationMethod-supplement-fr-195"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-196">196</a><a name="ObservationMethod-supplement-fr-196"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-197">197</a><a name="ObservationMethod-supplement-fr-197"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-198">198</a><a name="ObservationMethod-supplement-fr-198"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-199">199</a><a name="ObservationMethod-supplement-fr-199"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-200">200</a><a name="ObservationMethod-supplement-fr-200"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-201">201</a><a name="ObservationMethod-supplement-fr-201"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-202">202</a><a name="ObservationMethod-supplement-fr-202"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-203">203</a><a name="ObservationMethod-supplement-fr-203"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-204">204</a><a name="ObservationMethod-supplement-fr-204"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-205">205</a><a name="ObservationMethod-supplement-fr-205"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-206">206</a><a name="ObservationMethod-supplement-fr-206"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-207">207</a><a name="ObservationMethod-supplement-fr-207"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-208">208</a><a name="ObservationMethod-supplement-fr-208"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-209">209</a><a name="ObservationMethod-supplement-fr-209"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-210">210</a><a name="ObservationMethod-supplement-fr-210"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-211">211</a><a name="ObservationMethod-supplement-fr-211"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-212">212</a><a name="ObservationMethod-supplement-fr-212"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-213">213</a><a name="ObservationMethod-supplement-fr-213"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-214">214</a><a name="ObservationMethod-supplement-fr-214"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-215">215</a><a name="ObservationMethod-supplement-fr-215"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-216">216</a><a name="ObservationMethod-supplement-fr-216"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-217">217</a><a name="ObservationMethod-supplement-fr-217"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-218">218</a><a name="ObservationMethod-supplement-fr-218"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-219">219</a><a name="ObservationMethod-supplement-fr-219"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-220">220</a><a name="ObservationMethod-supplement-fr-220"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-221">221</a><a name="ObservationMethod-supplement-fr-221"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-222">222</a><a name="ObservationMethod-supplement-fr-222"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-223">223</a><a name="ObservationMethod-supplement-fr-223"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-224">224</a><a name="ObservationMethod-supplement-fr-224"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-225">225</a><a name="ObservationMethod-supplement-fr-225"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-226">226</a><a name="ObservationMethod-supplement-fr-226"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-227">227</a><a name="ObservationMethod-supplement-fr-227"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-228">228</a><a name="ObservationMethod-supplement-fr-228"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-229">229</a><a name="ObservationMethod-supplement-fr-229"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-230">230</a><a name="ObservationMethod-supplement-fr-230"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-231">231</a><a name="ObservationMethod-supplement-fr-231"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-232">232</a><a name="ObservationMethod-supplement-fr-232"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-233">233</a><a name="ObservationMethod-supplement-fr-233"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-234">234</a><a name="ObservationMethod-supplement-fr-234"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-235">235</a><a name="ObservationMethod-supplement-fr-235"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-236">236</a><a name="ObservationMethod-supplement-fr-236"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-237">237</a><a name="ObservationMethod-supplement-fr-237"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-238">238</a><a name="ObservationMethod-supplement-fr-238"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-239">239</a><a name="ObservationMethod-supplement-fr-239"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-240">240</a><a name="ObservationMethod-supplement-fr-240"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-241">241</a><a name="ObservationMethod-supplement-fr-241"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-242">242</a><a name="ObservationMethod-supplement-fr-242"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-243">243</a><a name="ObservationMethod-supplement-fr-243"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-244">244</a><a name="ObservationMethod-supplement-fr-244"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-245">245</a><a name="ObservationMethod-supplement-fr-245"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-246">246</a><a name="ObservationMethod-supplement-fr-246"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-247">247</a><a name="ObservationMethod-supplement-fr-247"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-248">248</a><a name="ObservationMethod-supplement-fr-248"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-249">249</a><a name="ObservationMethod-supplement-fr-249"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-250">250</a><a name="ObservationMethod-supplement-fr-250"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-251">251</a><a name="ObservationMethod-supplement-fr-251"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-252">252</a><a name="ObservationMethod-supplement-fr-252"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-253">253</a><a name="ObservationMethod-supplement-fr-253"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-254">254</a><a name="ObservationMethod-supplement-fr-254"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-255">255</a><a name="ObservationMethod-supplement-fr-255"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-256">256</a><a name="ObservationMethod-supplement-fr-256"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-257">257</a><a name="ObservationMethod-supplement-fr-257"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-258">258</a><a name="ObservationMethod-supplement-fr-258"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-259">259</a><a name="ObservationMethod-supplement-fr-259"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-261">261</a><a name="ObservationMethod-supplement-fr-261"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-262">262</a><a name="ObservationMethod-supplement-fr-262"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-263">263</a><a name="ObservationMethod-supplement-fr-263"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-264">264</a><a name="ObservationMethod-supplement-fr-264"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-265">265</a><a name="ObservationMethod-supplement-fr-265"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-266">266</a><a name="ObservationMethod-supplement-fr-266"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-267">267</a><a name="ObservationMethod-supplement-fr-267"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-268">268</a><a name="ObservationMethod-supplement-fr-268"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-269">269</a><a name="ObservationMethod-supplement-fr-269"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-270">270</a><a name="ObservationMethod-supplement-fr-270"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-271">271</a><a name="ObservationMethod-supplement-fr-271"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-272">272</a><a name="ObservationMethod-supplement-fr-272"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-273">273</a><a name="ObservationMethod-supplement-fr-273"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-274">274</a><a name="ObservationMethod-supplement-fr-274"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-275">275</a><a name="ObservationMethod-supplement-fr-275"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-275a">275a</a><a name="ObservationMethod-supplement-fr-275a"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-276">276</a><a name="ObservationMethod-supplement-fr-276"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-277">277</a><a name="ObservationMethod-supplement-fr-277"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-278">278</a><a name="ObservationMethod-supplement-fr-278"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-279">279</a><a name="ObservationMethod-supplement-fr-279"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-280">280</a><a name="ObservationMethod-supplement-fr-280"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-ALGM">ALGM</a><a name="ObservationMethod-supplement-fr-ALGM"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-BYCL">BYCL</a><a name="ObservationMethod-supplement-fr-BYCL"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-PCR">PCR</a><a name="ObservationMethod-supplement-fr-PCR"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-VDOC">VDOC</a><a name="ObservationMethod-supplement-fr-VDOC"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-VREG">VREG</a><a name="ObservationMethod-supplement-fr-VREG"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-VTOKEN">VTOKEN</a><a name="ObservationMethod-supplement-fr-VTOKEN"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationMethod.html#v3-ObservationMethod-VVOICE">VVOICE</a><a name="ObservationMethod-supplement-fr-VVOICE"> </a></td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="vocab"/>
+  </extension>
+  <url value="http://hl7.org/fhir/us/example/CodeSystem/ObservationMethod-supplement-fr"/>
+  <version value="1.0"/>
+  <name value="ObservationMethodSupplementFr"/>
+  <title value="ObservationMethodSupplementFr"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2025-10-24T16:40:38+11:00"/>
+  <description value="Traduction Francaise"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FRA"/>
+    </coding>
+  </jurisdiction>
+  <content value="supplement"/>
+  <supplements value="http://terminology.hl7.org/CodeSystem/v3-ObservationMethod|3.0.0"/>
+  <concept>
+    <code value="1"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Fixation complément"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="2"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Tomographie axiale"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="3"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Test de haut niveau de résistance aux aminosides sur gélose"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="4"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Examen macroscopique"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="5"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Résonnance magnétique"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="6"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Morphométrie"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="7"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Tomographie par émission de positrons"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="8"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="SAMHSA confirmation"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="9"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="SAMHSA dépistage"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="10"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Neutralisation sérum"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="11"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Titrimétrie"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="12"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Ultrasonographie"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="13"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Cristallographie Rayon X"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="14"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Agglutination"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="15"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Agglutination sur plaque tampon acidifié"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="16"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Agglutination sur carte"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="17"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Hémagglutination"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="18"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Inhibition hémagglutination"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="19"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Agglutination latex"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="20"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Agglutination plaque"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="21"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Agglutination rapide"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="22"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Agglutination érythrocytes"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="23"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Agglutination,rivanol"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="24"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Agglutination en tube"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="25"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Bioanalyse"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="26"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Inoculation animal"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="27"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Cytotoxicité"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="30"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Inoculation intracérébrale à la souris"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="31"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Analyse qualitative"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="32"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Analyse quantitative"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="33"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Méthode chimique"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="34"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Test chimique d'absorption de lumière différentielle"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="37"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Test sur bandelette"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="38"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Chromatographie"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="39"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Chromatographie d'affinité"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="40"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Chromatographie phase gazeuse liquide"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="41"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Chromatographie liquide haute pression"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="42"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Chromatographie liquide"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="43"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Chromatographie d'affinité à la protéine A"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="44"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coagulation"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="45"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Temps de coagulation en tube"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="46"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coagulation induite par reptilase en tube"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="47"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Comptage automatisé"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="48"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Comptage manuel"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="49"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Comptage plaquettaire de Rees-Ecker"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="50"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Culture aérobie"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="51"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Culture anaérobie"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="52"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Culture sur embryon de poulet"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="53"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Enrichissement secondaire retardé"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="54"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Culture microaérophile"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="61"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Culture cellulaire somatique"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="62"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Diffusion gel Agar"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="63"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Immunodiffusion"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="64"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Électrophorèse"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="65"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Électrophorèse gel agarose"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="66"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Électrophorèse citrate agar"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="67"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Immunoélectrophorèse"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="68"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Électrophorèse sur gel de polyacrylamide"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="69"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Électrophorèse sur gel d'amidon"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="70"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="ELISA"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="71"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="ELISA avec captude d'antigène"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="72"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="ELISA avec complexe avidine biotine péroxydase"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="73"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="ELISA avec cinétique"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="74"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="ELISA avec péroxydase-anti-péroxydase"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="75"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Identification par galerie API 20 Strep"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="76"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Identification par galerie API 20A"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="77"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Identification par galerie API 20C AUX"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="78"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Identification par galerie API 20E"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="79"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Identification par galerie API 20NE"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="80"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Identification par galerie API 50 CH"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="81"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Identification par galerie API An-IDENT"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="82"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Identification par galerie API Coryne"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="83"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Identification par galerie API Rapid 20E"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="84"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Identification par galerie API Staph"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="85"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Identification par galerie API 20 Strep"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="86"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Identification bactérienne"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="87"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Identification par mini VIDAS"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="88"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Identification par lysotypie"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="89"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Identification par galerie QuadFERM+"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="90"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Identification par galerie RAPIDEC Staph"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="91"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Identification par agglutination latex Staphaurex"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="92"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Identification par VIDAS"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="93"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Identification par VITEK"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="94"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Identification par VITEK 2"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="95"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration immune"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="96"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Immunofluorescence directe"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="97"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Immunofluorescence indirecte"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="98"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Immunopéroxydase (complexe avidine-Biotine)"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="99"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Immunopéroxydase (complexe péroxydase-antipéroxydase)"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="100"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Immunopéroxydase (complexe Protéine A-péroxydase)"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="101"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Immunoanalyse"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="102"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Immunoanalyse qualitative à plusieurs étapes"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="103"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Immunoanalyse qualitative à une étape"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="104"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Radioimmunologie"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="105"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Immunoanalyse semi-quantitative à plusieurs étapes"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="106"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Immunoanalyse semi-quantitative à une étape"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="107"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Microscopie"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="108"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Microscopie fond noir"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="109"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Microscopie électronique"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="110"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Microscopie électronique, Tomographie numérique"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="111"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Microscopie électronique en contraste de phase"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="112"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Microscopie électronique sur section épaisse"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="113"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Microscopie électronique sur section fine"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="114"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Microscvopie en lumière directe"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="115"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Microscopie à polarisation"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="116"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Microscopie électronique à balayage"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="117"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Microscopie électronique à transmission"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="120"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="ADN branché"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="122"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Immunoblot"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="123"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Hybridation moléculaire in situ"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="127"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Sonde acide nucléique"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="128"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Sonde acide nucléique avec amplification"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="129"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Sonde acide nucléique avec amplification ciblée"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="130"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Transcription inverse"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="131"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Séquençage d'acides nucléiques"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="132"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="PCR"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="134"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="RFLP"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="135"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Southern-blot"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="138"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Western-Blot"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="139"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Floculation"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="140"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Immunoprécipitation"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="141"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Test à l'anneau de lait"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="142"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Précipitine"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="143"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration acide rapide"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="144"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration acide rapide/fluorochrome"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="145"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration acide rapide Kinyoun"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="146"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration acide Ziehl-Neelsen"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="147"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration phosphatase acide"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="148"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration acridine orange"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="149"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration orange brillant KH"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="150"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration rouge alizarine"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="151"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration bleu alcian"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="152"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration bleu alcian+acide périodique-Schiff"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="153"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration argentaffine"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="154"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration argent argentaffine"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="155"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration azur-éosine"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="156"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration fuchsine basique"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="157"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration Bennhold"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="158"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration rouge Congo/Bennhold"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="159"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration Bielschowsky"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="160"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration Argent/Bielschowsky"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="161"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Décoloration"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="162"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration Bodian"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="163"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration Brown et Brenn"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="164"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration butyrate estérase"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="165"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Préparation calcofluor blanc"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="166"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration carbol fuchsine"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="167"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration carmin"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="168"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration Churukian-Schenk"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="169"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration rouge Congo"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="170"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration violet de crésyl acétate"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="171"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration crystal violet"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="172"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration de Galantha"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="173"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration de Dieterle par imprégnation argentique"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="174"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration Fite-Faraco"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="175"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration Fontana-Masson"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="176"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration Fouchet"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="177"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration Gomori"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="178"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration méthénamine argent Gomori"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="179"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration trichrome Gomori-Wheatly"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="180"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration Gridley"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="181"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration argent Grimelius"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="182"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration de Grocott"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="183"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration méthénamine argent Grocott"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="184"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration à l'oxyde ferrique colloïdale de Hale"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="185"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration au fer colloïdale de Hale"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="186"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration Hansel"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="187"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration hématoxylline Harris+éosine"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="188"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration hématoxylline+éosine"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="189"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration Highman"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="190"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration Holzer"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="191"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration fer hématoxylline"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="192"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration Jones"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="193"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration méthénamine argent Jones"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="194"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration Kossa"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="195"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration Lawson-Van Gieson"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="196"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration bleu de méthylène Loeffler"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="197"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration Luxol bleu au violet crésyl"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="198"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration Luxol bleu à l'acide périodique-Schiff"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="199"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration tétrachrome MacNeal"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="200"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration Mallory-Heidenhain"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="201"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration trichrome Masson"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="202"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration Mayer mucicarmine"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="203"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration Mayer hématoxyline éosine"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="204"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration May-Grunwald Giemsa"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="205"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration au vert de méthyl"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="206"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration au vert de méthyl pyronine"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="207"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration trichrome Gomori-Wheatley"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="208"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration trichrome Masson modifié"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="209"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration trichrome modifié"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="210"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration pentachrome Movat"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="211"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration mucicarmine"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="212"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration rouge neutre"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="213"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration bleu nuit"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="214"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration estérase non spécifique"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="215"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration huile rouge O"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="216"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration orcéine"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="217"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration de Perls"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="218"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration hématoxyline phosphotungstique"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="219"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration ferrocyanure de potassium"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="220"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration bleu de Prusse"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="221"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration Bennhold modifiée"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="222"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration quinacrine fluorescente"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="223"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration réticuline"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="224"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration rhodamine"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="225"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration safranée"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="226"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration Schmorl"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="227"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration Sevier-Munger"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="228"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration argentique"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="229"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration estérase spécifique (Butyrate estérase)"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="230"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration Steiner"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="231"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration Soudan III"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="232"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration Soudan IV"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="233"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration bleu alcian sulfaté"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="234"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration supravitale"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="235"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration thioflavine-S"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="236"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration Giemsa 3µ"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="237"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration Vassar-Culling"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="238"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration vitale"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="239"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coloration Von Kossa"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="240"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Antibiogramme méthode par diffusion"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="241"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Antibiogramme méthode par automate BACTEC"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="242"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Antibiogramme méthode par dilution"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="243"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Concentration minimale bactéricide (CMB) par macrodilution (tube)"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="244"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Concentration minimale bactéricide (CMB) par microdilution (plaque)"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="245"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Concentration minimale inhibitrice (CMI) par macrodilution (tube)"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="246"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Concentration minimale inhibitrice (CMI) par microdilution (plaque)"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="247"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Turbidimétrie"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="248"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Réfractométrie"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="249"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Chromatographie couche mince"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="250"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="EMIT"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="251"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Cytométrie de flux"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="252"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Immunodiffusion radiale (RID)"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="253"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="PFIA"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="254"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Immunofixation"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="255"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Dialyse à l'équilibre"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="256"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Elution acide de Kleihauer-Betke"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="257"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Immunofluorescence anti-complément (ACIF)"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="258"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Chromatographie phase gazeuse/Spectroscopie de masse (GC/MS)"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="259"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Néphélométrie"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="261"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Test de micro-lymphocytotoxicité"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="262"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Spectrophotométrie"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="263"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Spectrophotométrie d'absorption atomique (SAA)"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="264"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Electrode ionique sélective"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="265"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Chromatographie phase gazeuse (CG)"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="266"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Isoélectrofocalisation (IEF)"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="267"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Chimioluminescence"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="268"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="MEIA"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="269"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Spectrométrie de masse à plasma à couplage inductif (ICP/MS)"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="270"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="IRMA"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="271"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Coagulation par détection optique du caillot"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="272"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Concentration minimale inhibitrice (CMI)"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="273"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Susceptibilité génotypique virale"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="274"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Susceptibilité phénotypique virale"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="275"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Bandelette à gradient"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="275a"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Concentration minimale létale (CML)"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="276"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Susceptibilité des mycobactéries à croissance lente"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="277"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Titre bactéricide sérique (TBS)"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="278"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Dépistage sur gélose"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="279"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Test d'induction par disque"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="280"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Test de sensibilité"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="ALGM"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Algorythme"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="BYCL"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Analyse stastistique Bayésienne"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="PCR"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="PCR"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="VDOC"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Vérification à partir d'un document"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="VREG"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Vérification par requête électronique"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="VTOKEN"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Vérification au moyen d'un jeton électronique"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="VVOICE"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Vérification par voie orale"/>
+    </designation>
+  </concept>
+</CodeSystem>

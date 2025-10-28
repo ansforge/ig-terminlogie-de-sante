@@ -1,5 +1,173 @@
 [
   {
+    "id" : "ActCode-supplement-fr",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/fhir/us/example/CodeSystem/ActCode-supplement-fr",
+    "version" : "1.0",
+    "name" : "ActCodeSupplementFr"
+  },
+  {
+    "id" : "ActMood-supplement-fr",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/fhir/us/example/CodeSystem/ActMood-supplement-fr",
+    "version" : "1.0",
+    "name" : "ActMoodSupplementFr"
+  },
+  {
+    "id" : "ActPriority-supplement-fr",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/fhir/us/example/CodeSystem/ActPriority-supplement-fr",
+    "version" : "1.0",
+    "name" : "ActPrioritySupplementFr"
+  },
+  {
+    "id" : "ActStatus-supplement-fr",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/fhir/us/example/CodeSystem/ActStatus-supplement-fr",
+    "version" : "1.0",
+    "name" : "ActStatusSupplementFr"
+  },
+  {
+    "id" : "AdministrativeGender-supplement-fr",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/fhir/us/example/CodeSystem/AdministrativeGender-supplement-fr",
+    "version" : "1.0",
+    "name" : "AdministrativeGenderSupplementFr"
+  },
+  {
+    "id" : "Confidentiality-supplement-fr",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/fhir/us/example/CodeSystem/Confidentiality-supplement-fr",
+    "version" : "1.0",
+    "name" : "ConfidentialitySupplementFr"
+  },
+  {
+    "id" : "ObservationInterpretation-supplement-fr",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/fhir/us/example/CodeSystem/ObservationInterpretation-supplement-fr",
+    "version" : "1.0",
+    "name" : "ObservationInterpretationSupplementFr"
+  },
+  {
+    "id" : "ObservationMethod-supplement-fr",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/fhir/us/example/CodeSystem/ObservationMethod-supplement-fr",
+    "version" : "1.0",
+    "name" : "ObservationMethodSupplementFr"
+  },
+  {
+    "id" : "ObservationValue-supplement-fr",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/fhir/us/example/CodeSystem/ObservationValue-supplement-fr",
+    "version" : "1.0",
+    "name" : "ObservationValueSupplementFr"
+  },
+  {
+    "id" : "ParticipationFunction-supplement-fr",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/fhir/us/example/CodeSystem/ParticipationFunction-supplement-fr",
+    "version" : "1.0",
+    "name" : "ParticipationFunctionSupplementFr"
+  },
+  {
+    "id" : "ParticipationType-supplement-fr",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/fhir/us/example/CodeSystem/ParticipationType-supplement-fr",
+    "version" : "1.0",
+    "name" : "ParticipationTypeSupplementFr"
+  },
+  {
+    "id" : "RoleClass-supplement-fr",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/fhir/us/example/CodeSystem/RoleClass-supplement-fr",
+    "version" : "1.0",
+    "name" : "RoleClassSupplementFr"
+  },
+  {
+    "id" : "RoleCode-supplement-fr",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/fhir/us/example/CodeSystem/RoleCode-supplement-fr",
+    "version" : "1.0",
+    "name" : "RoleCodeSupplementFr"
+  },
+  {
+    "id" : "SpecimenType-supplement-fr",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/fhir/us/example/CodeSystem/SpecimenType-supplement-fr",
+    "version" : "1.0",
+    "name" : "SpecimenTypeSupplementFr"
+  },
+  {
+    "id" : "TimingEvent-supplement-fr",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/fhir/us/example/CodeSystem/TimingEvent-supplement-fr",
+    "version" : "1.0",
+    "name" : "TimingEventSupplementFr"
+  },
+  {
+    "id" : "allergy-intolerance-criticality-supplement-fr",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/fhir/us/example/CodeSystem/allergy-intolerance-criticality-supplement-fr",
+    "version" : "1.0",
+    "name" : "allergy-intolerance-criticalitySupplementFr"
+  },
+  {
+    "id" : "allergyintolerance-clinical-supplement-fr",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/fhir/us/example/CodeSystem/allergyintolerance-clinical-supplement-fr",
+    "version" : "1.0",
+    "name" : "allergyintolerance-clinicalSupplementFr"
+  },
+  {
+    "id" : "condition-clinical-supplement-fr",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/fhir/us/example/CodeSystem/condition-clinical-supplement-fr",
+    "version" : "1.0",
+    "name" : "condition-clinicalSupplementFr"
+  },
+  {
+    "id" : "condition-ver-status-supplement-fr",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/fhir/us/example/CodeSystem/condition-ver-status-supplement-fr",
+    "version" : "1.0",
+    "name" : "condition-ver-statusSupplementFr"
+  },
+  {
+    "id" : "employmentStatus-supplement-fr",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/fhir/us/example/CodeSystem/employmentStatus-supplement-fr",
+    "version" : "1.0",
+    "name" : "employmentStatusSupplementFr"
+  },
+  {
+    "id" : "mediaType-supplement-fr",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/fhir/us/example/CodeSystem/mediaType-supplement-fr",
+    "version" : "1.0",
+    "name" : "mediaTypeSupplementFr"
+  },
+  {
+    "id" : "orderableDrugForm-supplement-fr",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/fhir/us/example/CodeSystem/orderableDrugForm-supplement-fr",
+    "version" : "1.0",
+    "name" : "orderableDrugFormSupplementFr"
+  },
+  {
+    "id" : "substanceAdminSubstitution-supplement-fr",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/fhir/us/example/CodeSystem/substanceAdminSubstitution-supplement-fr",
+    "version" : "1.0",
+    "name" : "substanceAdminSubstitutionSupplementFr"
+  },
+  {
+    "id" : "v3-ActPriority-supplement-fr",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/fhir/us/example/CodeSystem/v3-ActPriority-supplement-fr",
+    "version" : "1.0",
+    "name" : "V3ActPrioritySupplementFr"
+  },
+  {
     "id" : "11000315107-20250621",
     "type" : "CodeSystem",
     "url" : "http://snomed.info/sct",
@@ -4420,13 +4588,6 @@
     "version" : "20250625120000",
     "name" : "TreR394CompetenceMetier",
     "oids" : ["1.2.250.1.213.1.6.1.375"]
-  },
-  {
-    "id" : "v3-ActPriority-supplement-fr",
-    "type" : "CodeSystem",
-    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/v3-ActPriority-supplement-fr",
-    "version" : "1.0",
-    "name" : "V3ActPrioritySupplementFr"
   },
   {
     "id" : "alignement-nuva-bdpm",

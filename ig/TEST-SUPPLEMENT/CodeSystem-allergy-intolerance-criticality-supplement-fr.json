@@ -1,0 +1,62 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "allergy-intolerance-criticality-supplement-fr",
+  "language" : "fr-FR",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem allergy-intolerance-criticality-supplement-fr</b></p><a name=\"allergy-intolerance-criticality-supplement-fr\"> </a><a name=\"hcallergy-intolerance-criticality-supplement-fr\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Langue : fr-FR</p></div><p>This code system supplement <code>http://hl7.org/fhir/us/example/CodeSystem/allergy-intolerance-criticality-supplement-fr</code> defines labels on the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://hl7.org/fhir/R4/codesystem-allergy-intolerance-criticality.html#allergy-intolerance-criticality-low\">low</a><a name=\"allergy-intolerance-criticality-supplement-fr-low\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://hl7.org/fhir/R4/codesystem-allergy-intolerance-criticality.html#allergy-intolerance-criticality-high\">high</a><a name=\"allergy-intolerance-criticality-supplement-fr-high\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://hl7.org/fhir/R4/codesystem-allergy-intolerance-criticality.html#allergy-intolerance-criticality-unable-to-assess\">unable-to-assess</a><a name=\"allergy-intolerance-criticality-supplement-fr-unable-to-assess\"> </a></td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+    "valueCode" : "vocab"
+  }],
+  "url" : "http://hl7.org/fhir/us/example/CodeSystem/allergy-intolerance-criticality-supplement-fr",
+  "version" : "1.0",
+  "name" : "allergy-intolerance-criticalitySupplementFr",
+  "title" : "allergy-intolerance-criticalitySupplementFr",
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2025-10-24T16:40:38+11:00",
+  "description" : "Traduction Francaise",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
+  "content" : "supplement",
+  "supplements" : "http://hl7.org/fhir/allergy-intolerance-criticality",
+  "concept" : [{
+    "code" : "low",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Bas"
+    }]
+  },
+  {
+    "code" : "high",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Elevé"
+    }]
+  },
+  {
+    "code" : "unable-to-assess",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Impossible à évaluer"
+    }]
+  }]
+}

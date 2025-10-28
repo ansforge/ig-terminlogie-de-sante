@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="ObservationValue-supplement-fr"/>
+  <language value="fr-FR"/>
+  <text>
+    <status value="generated"/><div xml:lang="fr-FR" xmlns="http://www.w3.org/1999/xhtml" lang="fr-FR"><p class="res-header-id"><b>Narratif généré : CodeSystem ObservationValue-supplement-fr</b></p><a name="ObservationValue-supplement-fr"> </a><a name="hcObservationValue-supplement-fr"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Langue : fr-FR</p></div><p>This code system supplement <code>http://hl7.org/fhir/us/example/CodeSystem/ObservationValue-supplement-fr</code> defines labels on the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationValue.html#v3-ObservationValue-DS">DS</a><a name="ObservationValue-supplement-fr-DS"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationValue.html#v3-ObservationValue-EMS">EMS</a><a name="ObservationValue-supplement-fr-EMS"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationValue.html#v3-ObservationValue-ES">ES</a><a name="ObservationValue-supplement-fr-ES"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationValue.html#v3-ObservationValue-NS">NS</a><a name="ObservationValue-supplement-fr-NS"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationValue.html#v3-ObservationValue-RSWN">RSWN</a><a name="ObservationValue-supplement-fr-RSWN"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationValue.html#v3-ObservationValue-RSWON">RSWON</a><a name="ObservationValue-supplement-fr-RSWON"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationValue.html#v3-ObservationValue-SS">SS</a><a name="ObservationValue-supplement-fr-SS"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationValue.html#v3-ObservationValue-VLS">VLS</a><a name="ObservationValue-supplement-fr-VLS"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationValue.html#v3-ObservationValue-VS">VS</a><a name="ObservationValue-supplement-fr-VS"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationValue.html#v3-ObservationValue-Employed">Employed</a><a name="ObservationValue-supplement-fr-Employed"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationValue.html#v3-ObservationValue-NotInLaborForce">NotInLaborForce</a><a name="ObservationValue-supplement-fr-NotInLaborForce"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationValue.html#v3-ObservationValue-Unemployed">Unemployed</a><a name="ObservationValue-supplement-fr-Unemployed"> </a></td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="vocab"/>
+  </extension>
+  <url value="http://hl7.org/fhir/us/example/CodeSystem/ObservationValue-supplement-fr"/>
+  <version value="1.0"/>
+  <name value="ObservationValueSupplementFr"/>
+  <title value="ObservationValueSupplementFr"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2025-10-24T16:40:38+11:00"/>
+  <description value="Traduction Francaise"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FRA"/>
+    </coding>
+  </jurisdiction>
+  <content value="supplement"/>
+  <supplements value="http://terminology.hl7.org/CodeSystem/v3-ObservationValue|4.0.0"/>
+  <concept>
+    <code value="DS"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Journée (par exemple : entre 6h et 18h)"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="EMS"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Matin (entre 2h et 14h)"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="ES"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Après-midi (entre 14h et minuit)"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="NS"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Nuit (entre 21h et 8h)"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="RSWN"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Variable (journées, soirées, avec parfois des nuits)"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="RSWON"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Variable (journées, soirées, sans nuits ni soirées)"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="SS"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Journée avec coupure de 2 à 4 heures."/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="VLS"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Horaires de longue durée (17h ou plus)"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="VS"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Irrégulier avec information à court terme"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="Employed"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="En activité"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="NotInLaborForce"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Inactif"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="Unemployed"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Sans activité"/>
+    </designation>
+  </concept>
+</CodeSystem>

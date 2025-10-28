@@ -1,0 +1,95 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "Confidentiality-supplement-fr",
+  "language" : "fr-FR",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem Confidentiality-supplement-fr</b></p><a name=\"Confidentiality-supplement-fr\"> </a><a name=\"hcConfidentiality-supplement-fr\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Langue : fr-FR</p></div><p>This code system supplement <code>http://hl7.org/fhir/us/example/CodeSystem/Confidentiality-supplement-fr</code> defines labels on the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-Confidentiality.html#v3-Confidentiality-L\">L</a><a name=\"Confidentiality-supplement-fr-L\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-Confidentiality.html#v3-Confidentiality-M\">M</a><a name=\"Confidentiality-supplement-fr-M\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-Confidentiality.html#v3-Confidentiality-N\">N</a><a name=\"Confidentiality-supplement-fr-N\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-Confidentiality.html#v3-Confidentiality-R\">R</a><a name=\"Confidentiality-supplement-fr-R\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-Confidentiality.html#v3-Confidentiality-U\">U</a><a name=\"Confidentiality-supplement-fr-U\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-Confidentiality.html#v3-Confidentiality-V\">V</a><a name=\"Confidentiality-supplement-fr-V\"> </a></td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+    "valueCode" : "vocab"
+  }],
+  "url" : "http://hl7.org/fhir/us/example/CodeSystem/Confidentiality-supplement-fr",
+  "version" : "1.0",
+  "name" : "ConfidentialitySupplementFr",
+  "title" : "Confidentiality SupplementFr",
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2025-10-24T16:40:38+11:00",
+  "description" : "Traduction Francaise",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
+  "content" : "supplement",
+  "supplements" : "http://terminology.hl7.org/CodeSystem/v3-Confidentiality|3.0.0",
+  "concept" : [{
+    "code" : "L",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Bas"
+    }]
+  },
+  {
+    "code" : "M",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Modéré"
+    }]
+  },
+  {
+    "code" : "N",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Normal"
+    }]
+  },
+  {
+    "code" : "R",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Restreint"
+    }]
+  },
+  {
+    "code" : "U",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Non restreint"
+    }]
+  },
+  {
+    "code" : "V",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Très restreint"
+    }]
+  }]
+}

@@ -1,0 +1,1293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="RoleCode-supplement-fr"/>
+  <language value="fr-FR"/>
+  <text>
+    <status value="generated"/><div xml:lang="fr-FR" xmlns="http://www.w3.org/1999/xhtml" lang="fr-FR"><p class="res-header-id"><b>Narratif généré : CodeSystem RoleCode-supplement-fr</b></p><a name="RoleCode-supplement-fr"> </a><a name="hcRoleCode-supplement-fr"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Langue : fr-FR</p></div><p>This code system supplement <code>http://hl7.org/fhir/us/example/CodeSystem/RoleCode-supplement-fr</code> defines labels on the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-C">C</a><a name="RoleCode-supplement-fr-C"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-G">G</a><a name="RoleCode-supplement-fr-G"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-L">L</a><a name="RoleCode-supplement-fr-L"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-P">P</a><a name="RoleCode-supplement-fr-P"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-ADOPTF">ADOPTF</a><a name="RoleCode-supplement-fr-ADOPTF"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-ADOPTM">ADOPTM</a><a name="RoleCode-supplement-fr-ADOPTM"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-ADOPTP">ADOPTP</a><a name="RoleCode-supplement-fr-ADOPTP"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-AUNT">AUNT</a><a name="RoleCode-supplement-fr-AUNT"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-BRO">BRO</a><a name="RoleCode-supplement-fr-BRO"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-BROINLAW">BROINLAW</a><a name="RoleCode-supplement-fr-BROINLAW"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-CHILD">CHILD</a><a name="RoleCode-supplement-fr-CHILD"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-CHLDADOPT">CHLDADOPT</a><a name="RoleCode-supplement-fr-CHLDADOPT"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-CHLDFOST">CHLDFOST</a><a name="RoleCode-supplement-fr-CHLDFOST"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-CHLDINLAW">CHLDINLAW</a><a name="RoleCode-supplement-fr-CHLDINLAW"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-COUSN">COUSN</a><a name="RoleCode-supplement-fr-COUSN"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-DAU">DAU</a><a name="RoleCode-supplement-fr-DAU"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-DAUADOPT">DAUADOPT</a><a name="RoleCode-supplement-fr-DAUADOPT"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-DAUC">DAUC</a><a name="RoleCode-supplement-fr-DAUC"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-DAUFOST">DAUFOST</a><a name="RoleCode-supplement-fr-DAUFOST"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-DAUINLAW">DAUINLAW</a><a name="RoleCode-supplement-fr-DAUINLAW"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-DOMPART">DOMPART</a><a name="RoleCode-supplement-fr-DOMPART"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-EXT">EXT</a><a name="RoleCode-supplement-fr-EXT"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-FAMMEMB">FAMMEMB</a><a name="RoleCode-supplement-fr-FAMMEMB"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-FMRSPS">FMRSPS</a><a name="RoleCode-supplement-fr-FMRSPS"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-FRND">FRND</a><a name="RoleCode-supplement-fr-FRND"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-FTH">FTH</a><a name="RoleCode-supplement-fr-FTH"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-FTHFOST">FTHFOST</a><a name="RoleCode-supplement-fr-FTHFOST"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-FTHINLAW">FTHINLAW</a><a name="RoleCode-supplement-fr-FTHINLAW"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-FTWIN">FTWIN</a><a name="RoleCode-supplement-fr-FTWIN"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-FTWINBRO">FTWINBRO</a><a name="RoleCode-supplement-fr-FTWINBRO"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-FTWINSIS">FTWINSIS</a><a name="RoleCode-supplement-fr-FTWINSIS"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-GESTM">GESTM</a><a name="RoleCode-supplement-fr-GESTM"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-GGRFTH">GGRFTH</a><a name="RoleCode-supplement-fr-GGRFTH"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-GGRMTH">GGRMTH</a><a name="RoleCode-supplement-fr-GGRMTH"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-GGRPRN">GGRPRN</a><a name="RoleCode-supplement-fr-GGRPRN"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-GRFTH">GRFTH</a><a name="RoleCode-supplement-fr-GRFTH"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-GRMTH">GRMTH</a><a name="RoleCode-supplement-fr-GRMTH"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-GRPRN">GRPRN</a><a name="RoleCode-supplement-fr-GRPRN"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-GRNDCHILD">GRNDCHILD</a><a name="RoleCode-supplement-fr-GRNDCHILD"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-GRNDDAU">GRNDDAU</a><a name="RoleCode-supplement-fr-GRNDDAU"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-GRNDSON">GRNDSON</a><a name="RoleCode-supplement-fr-GRNDSON"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-HBRO">HBRO</a><a name="RoleCode-supplement-fr-HBRO"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-HSIB">HSIB</a><a name="RoleCode-supplement-fr-HSIB"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-HSIS">HSIS</a><a name="RoleCode-supplement-fr-HSIS"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-HUSB">HUSB</a><a name="RoleCode-supplement-fr-HUSB"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-ITWIN">ITWIN</a><a name="RoleCode-supplement-fr-ITWIN"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-ITWINBRO">ITWINBRO</a><a name="RoleCode-supplement-fr-ITWINBRO"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-ITWINSIS">ITWINSIS</a><a name="RoleCode-supplement-fr-ITWINSIS"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-MAUNT">MAUNT</a><a name="RoleCode-supplement-fr-MAUNT"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-MCOUSN">MCOUSN</a><a name="RoleCode-supplement-fr-MCOUSN"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-MGGRFTH">MGGRFTH</a><a name="RoleCode-supplement-fr-MGGRFTH"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-MGGRMTH">MGGRMTH</a><a name="RoleCode-supplement-fr-MGGRMTH"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-MGGRPRN">MGGRPRN</a><a name="RoleCode-supplement-fr-MGGRPRN"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-MGRFTH">MGRFTH</a><a name="RoleCode-supplement-fr-MGRFTH"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-MGRMTH">MGRMTH</a><a name="RoleCode-supplement-fr-MGRMTH"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-MGRPRN">MGRPRN</a><a name="RoleCode-supplement-fr-MGRPRN"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-MTH">MTH</a><a name="RoleCode-supplement-fr-MTH"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-MTHFOST">MTHFOST</a><a name="RoleCode-supplement-fr-MTHFOST"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-MTHINLAW">MTHINLAW</a><a name="RoleCode-supplement-fr-MTHINLAW"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-MUNCLE">MUNCLE</a><a name="RoleCode-supplement-fr-MUNCLE"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-NBOR">NBOR</a><a name="RoleCode-supplement-fr-NBOR"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-NBRO">NBRO</a><a name="RoleCode-supplement-fr-NBRO"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-NCHILD">NCHILD</a><a name="RoleCode-supplement-fr-NCHILD"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-NEPHEW">NEPHEW</a><a name="RoleCode-supplement-fr-NEPHEW"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-NFTH">NFTH</a><a name="RoleCode-supplement-fr-NFTH"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-NFTHF">NFTHF</a><a name="RoleCode-supplement-fr-NFTHF"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-NIECE">NIECE</a><a name="RoleCode-supplement-fr-NIECE"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-NIENEPH">NIENEPH</a><a name="RoleCode-supplement-fr-NIENEPH"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-NMTH">NMTH</a><a name="RoleCode-supplement-fr-NMTH"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-NMTHF">NMTHF</a><a name="RoleCode-supplement-fr-NMTHF"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-NPRN">NPRN</a><a name="RoleCode-supplement-fr-NPRN"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-NSIB">NSIB</a><a name="RoleCode-supplement-fr-NSIB"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-NSIS">NSIS</a><a name="RoleCode-supplement-fr-NSIS"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-PAUNT">PAUNT</a><a name="RoleCode-supplement-fr-PAUNT"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-PCOUSN">PCOUSN</a><a name="RoleCode-supplement-fr-PCOUSN"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-PGGRFTH">PGGRFTH</a><a name="RoleCode-supplement-fr-PGGRFTH"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-PGGRMTH">PGGRMTH</a><a name="RoleCode-supplement-fr-PGGRMTH"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-PGGRPRN">PGGRPRN</a><a name="RoleCode-supplement-fr-PGGRPRN"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-PGRFTH">PGRFTH</a><a name="RoleCode-supplement-fr-PGRFTH"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-PGRMTH">PGRMTH</a><a name="RoleCode-supplement-fr-PGRMTH"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-PGRPRN">PGRPRN</a><a name="RoleCode-supplement-fr-PGRPRN"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-PRN">PRN</a><a name="RoleCode-supplement-fr-PRN"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-PRNINLAW">PRNINLAW</a><a name="RoleCode-supplement-fr-PRNINLAW"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-PRNFOST">PRNFOST</a><a name="RoleCode-supplement-fr-PRNFOST"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-PUNCLE">PUNCLE</a><a name="RoleCode-supplement-fr-PUNCLE"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-RESPRSN">RESPRSN</a><a name="RoleCode-supplement-fr-RESPRSN"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-ROOM">ROOM</a><a name="RoleCode-supplement-fr-ROOM"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-SIB">SIB</a><a name="RoleCode-supplement-fr-SIB"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-SIBINLAW">SIBINLAW</a><a name="RoleCode-supplement-fr-SIBINLAW"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-SIGOTHR">SIGOTHR</a><a name="RoleCode-supplement-fr-SIGOTHR"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-SIS">SIS</a><a name="RoleCode-supplement-fr-SIS"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-SISINLAW">SISINLAW</a><a name="RoleCode-supplement-fr-SISINLAW"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-SON">SON</a><a name="RoleCode-supplement-fr-SON"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-SONADOPT">SONADOPT</a><a name="RoleCode-supplement-fr-SONADOPT"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-SONC">SONC</a><a name="RoleCode-supplement-fr-SONC"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-SONFOST">SONFOST</a><a name="RoleCode-supplement-fr-SONFOST"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-SONINLAW">SONINLAW</a><a name="RoleCode-supplement-fr-SONINLAW"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-SPS">SPS</a><a name="RoleCode-supplement-fr-SPS"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-STPBRO">STPBRO</a><a name="RoleCode-supplement-fr-STPBRO"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-STPFTH">STPFTH</a><a name="RoleCode-supplement-fr-STPFTH"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-STPMTH">STPMTH</a><a name="RoleCode-supplement-fr-STPMTH"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-STPCHLD">STPCHLD</a><a name="RoleCode-supplement-fr-STPCHLD"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-STPDAU">STPDAU</a><a name="RoleCode-supplement-fr-STPDAU"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-STPPRN">STPPRN</a><a name="RoleCode-supplement-fr-STPPRN"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-STPSIB">STPSIB</a><a name="RoleCode-supplement-fr-STPSIB"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-STPSIS">STPSIS</a><a name="RoleCode-supplement-fr-STPSIS"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-STPSON">STPSON</a><a name="RoleCode-supplement-fr-STPSON"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-TWIN">TWIN</a><a name="RoleCode-supplement-fr-TWIN"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-TWINBRO">TWINBRO</a><a name="RoleCode-supplement-fr-TWINBRO"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-TWINSIS">TWINSIS</a><a name="RoleCode-supplement-fr-TWINSIS"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-UNCLE">UNCLE</a><a name="RoleCode-supplement-fr-UNCLE"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-WIFE">WIFE</a><a name="RoleCode-supplement-fr-WIFE"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-FAMDEP">FAMDEP</a><a name="RoleCode-supplement-fr-FAMDEP"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-STUD">STUD</a><a name="RoleCode-supplement-fr-STUD"> </a></td></tr><tr><td><a style="white-space:nowrap" href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-RoleCode.html#v3-RoleCode-SELF">SELF</a><a name="RoleCode-supplement-fr-SELF"> </a></td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="vocab"/>
+  </extension>
+  <url value="http://hl7.org/fhir/us/example/CodeSystem/RoleCode-supplement-fr"/>
+  <version value="1.0"/>
+  <name value="RoleCodeSupplementFr"/>
+  <title value="RoleCodeSupplementFr"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2025-10-24T16:40:38+11:00"/>
+  <description value="Traduction Francaise"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FRA"/>
+    </coding>
+  </jurisdiction>
+  <content value="supplement"/>
+  <supplements value="http://terminology.hl7.org/CodeSystem/v3-RoleCode|3.0.0"/>
+  <concept>
+    <code value="C"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Spécimen utilisé pour les paramètres d'étalonnage initiaux d'un instrument"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="G"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Ensemble d'échantillons de patients dans lequel les individus du groupe peuvent ou non être identifiés."/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="L"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Aliquot d'échantillons individuels combinés pour former un seul spécimen représentant tous les individus inclus."/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="P"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Spécimen prélevé sur un patient"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="ADOPTF"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Père adoptif"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="ADOPTM"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Mère adoptive"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="ADOPTP"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Parent adoptif, au sens père ou mère"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="AUNT"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Tante"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="BRO"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Frère"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="BROINLAW"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Beau-frère"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="CHILD"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Enfant"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="CHLDADOPT"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Enfant adopté"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="CHLDFOST"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Enfant placé en famille d'accueil"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="CHLDINLAW"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Gendre ou belle-fille"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="COUSN"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Cousin(e)"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="DAU"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Fille biologique"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="DAUADOPT"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Fille adoptive"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="DAUC"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Fille"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="DAUFOST"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Fille placée en famille d'accueil"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="DAUINLAW"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Belle-fille"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="DOMPART"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Concubin(e) ou partenaire PACS"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="EXT"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Autre membre de la famille sans lien génétique direct"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="FAMMEMB"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Autre membre de la famille"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="FMRSPS"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Ancien époux ou ancienne épouse"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="FRND"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Autre proche"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="FTH"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Père"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="FTHFOST"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Assistant familial - Famille d'accueil"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="FTHINLAW"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Beau-père"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="FTWIN"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Jumeau ou jumelle dizygote"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="FTWINBRO"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Jumeau dizygote"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="FTWINSIS"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Jumelle dizygote"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="GESTM"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Mère porteuse"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="GGRFTH"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Arrière-grand-père"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="GGRMTH"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Arrière-grand-mère"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="GGRPRN"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Arrière-grand-parent"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="GRFTH"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Grand-père"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="GRMTH"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Grand-mère"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="GRPRN"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Grand-parent"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="GRNDCHILD"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Petit-enfant"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="GRNDDAU"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Petite-fille"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="GRNDSON"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Petit-fils"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="HBRO"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Demi-frère"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="HSIB"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Demi-frère ou demi-sœur"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="HSIS"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Demi-sœur"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="HUSB"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Epoux"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="ITWIN"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Jumeau ou jumelle monozygote"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="ITWINBRO"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Jumeau monozygote"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="ITWINSIS"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Jumelle monozygote"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="MAUNT"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Tante maternelle"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="MCOUSN"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Cousin (maternel)"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="MGGRFTH"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Arrière-grand-père maternel"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="MGGRMTH"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Arrière-grand-mère maternelle"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="MGGRPRN"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Arrière grand parent maternel"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="MGRFTH"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Grand-père maternel"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="MGRMTH"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Grand-mère maternelle"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="MGRPRN"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Grand parent maternel"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="MTH"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Mère"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="MTHFOST"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Assistante familiale - Famille d'accueil"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="MTHINLAW"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Belle-mère"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="MUNCLE"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Oncle maternel"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="NBOR"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Voisin(e)"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="NBRO"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Frère biologique"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="NCHILD"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Enfant biologique"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="NEPHEW"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Neveu"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="NFTH"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Père biologique"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="NFTHF"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Père biologique du fœtus"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="NIECE"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Nièce"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="NIENEPH"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Neveu ou nièce"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="NMTH"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Mère biologique"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="NMTHF"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Mère biologique du fœtus"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="NPRN"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Parent biologique, au sens père ou mère"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="NSIB"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Frère ou soeur biologique"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="NSIS"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Soeur biologique"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="PAUNT"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Tante paternelle"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="PCOUSN"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Cousin (paternel)"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="PGGRFTH"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Arrière-grand-père paternel"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="PGGRMTH"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Arrière-grand-mère paternelle"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="PGGRPRN"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Arrière grand parent paternel"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="PGRFTH"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Grand-père paternel"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="PGRMTH"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Grand-mère paternelle"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="PGRPRN"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Grand parent paternel"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="PRN"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Parent, au sens père ou mère"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="PRNINLAW"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Beau-père ou belle-mère"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="PRNFOST"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Parent, au sens famille d'accueil"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="PUNCLE"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Oncle paternel"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="RESPRSN"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Responsable légal non membre de la famille"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="ROOM"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Personne vivant sous le même toit"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="SIB"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Frère ou sœur"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="SIBINLAW"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Beau-frère ou belle-sœur"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="SIGOTHR"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Conjoint"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="SIS"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Sœur"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="SISINLAW"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Belle-sœur"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="SON"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Fils biologique"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="SONADOPT"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Fils adoptif"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="SONC"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Fils"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="SONFOST"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Garçon placé en famille d'accueil"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="SONINLAW"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Gendre"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="SPS"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Epoux ou épouse"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="STPBRO"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Fils du beau-père ou de la belle-mère"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="STPFTH"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Beau-père - époux du père ou de la mère"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="STPMTH"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Belle-mère - épouse du père ou de la mère"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="STPCHLD"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Enfant du conjoint, issu d'un mariage précédent"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="STPDAU"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Fille du conjoint, issue d'un mariage précédent"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="STPPRN"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Beau-père ou belle-mère - époux(se) du père ou de la mère"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="STPSIB"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Enfant du beau-père ou de la belle-mère"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="STPSIS"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Fille du beau-père ou de la belle-mère"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="STPSON"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Fils du conjoint, issu d'un mariage précédent"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="TWIN"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Frère jumeau ou soeur jumelle"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="TWINBRO"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Frère jumeau"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="TWINSIS"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Soeur jumelle"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="UNCLE"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Oncle"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="WIFE"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Epouse"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="FAMDEP"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Couverture familiale"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="STUD"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Couverture étudiante"/>
+    </designation>
+  </concept>
+  <concept>
+    <code value="SELF"/>
+    <designation>
+      <language value="fr-FR"/>
+      <use>
+        <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
+        <code value="preferredForLanguage"/>
+      </use>
+      <value value="Couverture personnelle"/>
+    </designation>
+  </concept>
+</CodeSystem>

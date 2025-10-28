@@ -15,23 +15,32 @@
      fhir:lastUpdated [ fhir:v "2025-07-02T18:17:42.919+00:00"^^xsd:dateTime ] ;
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
+       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
      ] )
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem TRE-R343-FonctionLieu</b></p><a name=\"TRE-R343-FonctionLieu\"> </a><a name=\"hcTRE-R343-FonctionLieu\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 5; Dernière mise à jour : 2025-07-01 10:02:15+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://mos.esante.gouv.fr/NOS/TRE_R343-FonctionLieu/FHIR/TRE-R343-FonctionLieu</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>French (France) (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">001<a name=\"TRE-R343-FonctionLieu-001\"> </a></td><td>Hébergement MCO</td><td>2022-09-30T12:00:00+01:00</td><td>2025-06-20T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">002<a name=\"TRE-R343-FonctionLieu-002\"> </a></td><td>Hébergement PSY</td><td>2025-06-20T12:00:00+01:00</td><td>2025-06-20T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">003<a name=\"TRE-R343-FonctionLieu-003\"> </a></td><td>Hébergement MS</td><td>2025-06-20T12:00:00+01:00</td><td>2025-06-20T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">004<a name=\"TRE-R343-FonctionLieu-004\"> </a></td><td>Hébergement SMR</td><td>2025-06-20T12:00:00+01:00</td><td>2025-06-20T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">005<a name=\"TRE-R343-FonctionLieu-005\"> </a></td><td>Adresse</td><td>2025-06-20T12:00:00+01:00</td><td>2025-06-20T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">006<a name=\"TRE-R343-FonctionLieu-006\"> </a></td><td>Bloc opératoire</td><td>2025-06-20T12:00:00+01:00</td><td>2025-06-20T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">007<a name=\"TRE-R343-FonctionLieu-007\"> </a></td><td>Caisson hyperbare</td><td>2025-06-20T12:00:00+01:00</td><td>2025-06-20T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">008<a name=\"TRE-R343-FonctionLieu-008\"> </a></td><td>Chambre mortuaire</td><td>2025-06-20T12:00:00+01:00</td><td>2025-06-20T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">009<a name=\"TRE-R343-FonctionLieu-009\"> </a></td><td>Plateau d’endoscopie</td><td>2025-06-20T12:00:00+01:00</td><td>2025-06-20T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">010<a name=\"TRE-R343-FonctionLieu-010\"> </a></td><td>Plateau d’imagerie conventionnelle</td><td>2025-06-20T12:00:00+01:00</td><td>2025-06-20T12:00:00+01:00</td><td>Plateau d’imagerie conv.</td></tr><tr><td style=\"white-space:nowrap\">011<a name=\"TRE-R343-FonctionLieu-011\"> </a></td><td>Plateau d’imagerie interventionnelle</td><td>2025-06-20T12:00:00+01:00</td><td>2025-06-20T12:00:00+01:00</td><td>Plateau d’imagerie inter.</td></tr><tr><td style=\"white-space:nowrap\">012<a name=\"TRE-R343-FonctionLieu-012\"> </a></td><td>Plateau de réadaptation</td><td>2025-06-20T12:00:00+01:00</td><td>2025-06-20T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">013<a name=\"TRE-R343-FonctionLieu-013\"> </a></td><td>Salle de travail (salle de naissance)</td><td>2025-06-20T12:00:00+01:00</td><td>2025-06-20T12:00:00+01:00</td><td>Salle de travail</td></tr></table></div>"^^rdf:XMLLiteral
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem TRE-R343-FonctionLieu</b></p><a name=\"TRE-R343-FonctionLieu\"> </a><a name=\"hcTRE-R343-FonctionLieu\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 5; Dernière mise à jour : 2025-07-01 10:02:15+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://mos.esante.gouv.fr/NOS/TRE_R343-FonctionLieu/FHIR/TRE-R343-FonctionLieu</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>French (France) (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">001<a name=\"TRE-R343-FonctionLieu-001\"> </a></td><td>Hébergement MCO</td><td>2022-09-30T12:00:00+01:00</td><td>2025-06-20T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">002<a name=\"TRE-R343-FonctionLieu-002\"> </a></td><td>Hébergement PSY</td><td>2025-06-20T12:00:00+01:00</td><td>2025-06-20T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">003<a name=\"TRE-R343-FonctionLieu-003\"> </a></td><td>Hébergement MS</td><td>2025-06-20T12:00:00+01:00</td><td>2025-06-20T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">004<a name=\"TRE-R343-FonctionLieu-004\"> </a></td><td>Hébergement SMR</td><td>2025-06-20T12:00:00+01:00</td><td>2025-06-20T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">005<a name=\"TRE-R343-FonctionLieu-005\"> </a></td><td>Adresse</td><td>2025-06-20T12:00:00+01:00</td><td>2025-06-20T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">006<a name=\"TRE-R343-FonctionLieu-006\"> </a></td><td>Bloc opératoire</td><td>2025-06-20T12:00:00+01:00</td><td>2025-06-20T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">007<a name=\"TRE-R343-FonctionLieu-007\"> </a></td><td>Caisson hyperbare</td><td>2025-06-20T12:00:00+01:00</td><td>2025-06-20T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">008<a name=\"TRE-R343-FonctionLieu-008\"> </a></td><td>Chambre mortuaire</td><td>2025-06-20T12:00:00+01:00</td><td>2025-06-20T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">009<a name=\"TRE-R343-FonctionLieu-009\"> </a></td><td>Plateau d’endoscopie</td><td>2025-06-20T12:00:00+01:00</td><td>2025-06-20T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">010<a name=\"TRE-R343-FonctionLieu-010\"> </a></td><td>Plateau d’imagerie conventionnelle</td><td>2025-06-20T12:00:00+01:00</td><td>2025-06-20T12:00:00+01:00</td><td>Plateau d’imagerie conv.</td></tr><tr><td style=\"white-space:nowrap\">011<a name=\"TRE-R343-FonctionLieu-011\"> </a></td><td>Plateau d’imagerie interventionnelle</td><td>2025-06-20T12:00:00+01:00</td><td>2025-06-20T12:00:00+01:00</td><td>Plateau d’imagerie inter.</td></tr><tr><td style=\"white-space:nowrap\">012<a name=\"TRE-R343-FonctionLieu-012\"> </a></td><td>Plateau de réadaptation</td><td>2025-06-20T12:00:00+01:00</td><td>2025-06-20T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">013<a name=\"TRE-R343-FonctionLieu-013\"> </a></td><td>Salle de travail (salle de naissance)</td><td>2025-06-20T12:00:00+01:00</td><td>2025-06-20T12:00:00+01:00</td><td>Salle de travail</td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
-     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod>
+     ] ;
      fhir:value [
        a fhir:Period ;
        fhir:start [ fhir:v "2022-09-30T12:00:00+01:00"^^xsd:dateTime ]
      ]
   ] ) ; # 
-  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R343-FonctionLieu/FHIR/TRE-R343-FonctionLieu"^^xsd:anyURI] ; # 
+  fhir:url [
+     fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R343-FonctionLieu/FHIR/TRE-R343-FonctionLieu"^^xsd:anyURI ;
+     fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R343-FonctionLieu/FHIR/TRE-R343-FonctionLieu>
+  ] ; # 
   fhir:identifier ( [
-     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:system [
+       fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
+       fhir:l <urn:ietf:rfc:3986>
+     ] ;
      fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.227" ]
   ] ) ; # 
   fhir:version [ fhir:v "20250620120000"] ; # 
@@ -43,7 +52,10 @@
   fhir:description [ fhir:v "Destination d'usage du lieu"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
-       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
        fhir:code [ fhir:v "FRA" ]
      ] )
   ] ) ; # 
@@ -64,17 +76,26 @@
      fhir:type [ fhir:v "dateTime" ]
   ] [
      fhir:code [ fhir:v "deprecationDate" ] ;
-     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#deprecationDate"^^xsd:anyURI ] ;
+     fhir:uri [
+       fhir:v "http://hl7.org/fhir/concept-properties#deprecationDate"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/concept-properties#deprecationDate>
+     ] ;
      fhir:description [ fhir:v "Date Concept was deprecated" ] ;
      fhir:type [ fhir:v "dateTime" ]
   ] [
      fhir:code [ fhir:v "status" ] ;
-     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#status"^^xsd:anyURI ] ;
+     fhir:uri [
+       fhir:v "http://hl7.org/fhir/concept-properties#status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/concept-properties#status>
+     ] ;
      fhir:description [ fhir:v "A property that indicates the status of the concept." ] ;
      fhir:type [ fhir:v "code" ]
   ] [
      fhir:code [ fhir:v "retirementDate" ] ;
-     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#retirementDate"^^xsd:anyURI ] ;
+     fhir:uri [
+       fhir:v "http://hl7.org/fhir/concept-properties#retirementDate"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/concept-properties#retirementDate>
+     ] ;
      fhir:description [ fhir:v "Date Concept was retired" ] ;
      fhir:type [ fhir:v "dateTime" ]
   ] ) ; # 
@@ -84,19 +105,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2022-09-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2025-06-20T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -106,19 +127,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2025-06-20T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2025-06-20T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -128,19 +149,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2025-06-20T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2025-06-20T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -150,19 +171,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2025-06-20T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2025-06-20T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -172,19 +193,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2025-06-20T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2025-06-20T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -194,19 +215,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2025-06-20T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2025-06-20T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -216,19 +237,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2025-06-20T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2025-06-20T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -238,19 +259,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2025-06-20T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2025-06-20T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -260,19 +281,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2025-06-20T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2025-06-20T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -283,7 +304,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Plateau d’imagerie conv." ]
@@ -291,19 +315,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2025-06-20T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2025-06-20T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -314,7 +338,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Plateau d’imagerie inter." ]
@@ -322,19 +349,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2025-06-20T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2025-06-20T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -344,19 +371,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2025-06-20T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2025-06-20T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -367,7 +394,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Salle de travail" ]
@@ -375,19 +405,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2025-06-20T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2025-06-20T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )

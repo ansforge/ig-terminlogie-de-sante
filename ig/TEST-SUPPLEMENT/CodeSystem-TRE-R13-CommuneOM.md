@@ -21,7 +21,7 @@ version: 1; Dernière mise à jour : 2025-01-10 13:09:36+0000
 
 Profil: [Shareable CodeSystem](http://hl7.org/fhir/R4/shareablecodesystem.html)
 
-Tag: Resource encoded in summary mode (Details: ObservationValue code SUBSETTED = 'Resource encoded in summary mode')
+Tag: Resource encoded in summary mode (Détails : code ObservationValue SUBSETTED = 'Resource encoded in summary mode')
 
 **Propriétés**
 

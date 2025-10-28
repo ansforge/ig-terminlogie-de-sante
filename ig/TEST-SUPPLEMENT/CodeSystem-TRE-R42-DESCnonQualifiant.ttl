@@ -15,23 +15,32 @@
      fhir:lastUpdated [ fhir:v "2025-07-02T18:18:06.072+00:00"^^xsd:dateTime ] ;
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
+       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
      ] )
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem TRE-R42-DESCnonQualifiant</b></p><a name=\"TRE-R42-DESCnonQualifiant\"> </a><a name=\"hcTRE-R42-DESCnonQualifiant\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 5; Dernière mise à jour : 2024-08-28 05:13:51+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://mos.esante.gouv.fr/NOS/TRE_R42-DESCnonQualifiant/FHIR/TRE-R42-DESCnonQualifiant</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>French (France) (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">DSM200<a name=\"TRE-R42-DESCnonQualifiant-DSM200\"> </a></td><td>Addictologie (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td><td>Addictologie</td></tr><tr><td style=\"white-space:nowrap\">DSM201<a name=\"TRE-R42-DESCnonQualifiant-DSM201\"> </a></td><td>Allergologie et Immunologie clinique (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Allergo, Immunologie clinique</td></tr><tr><td style=\"white-space:nowrap\">DSM202<a name=\"TRE-R42-DESCnonQualifiant-DSM202\"> </a></td><td>Andrologie (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td><td>Andrologie</td></tr><tr><td style=\"white-space:nowrap\">DSM203<a name=\"TRE-R42-DESCnonQualifiant-DSM203\"> </a></td><td>Biochimie hormonale et métabolique (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Biochimie hormon, métabolique</td></tr><tr><td style=\"white-space:nowrap\">DSM204<a name=\"TRE-R42-DESCnonQualifiant-DSM204\"> </a></td><td>Biologie des agents infectieux (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Biologie des agents infectieux</td></tr><tr><td style=\"white-space:nowrap\">DSM205<a name=\"TRE-R42-DESCnonQualifiant-DSM205\"> </a></td><td>Biologie moléculaire (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td><td>Biologie moléculaire</td></tr><tr><td style=\"white-space:nowrap\">DSM206<a name=\"TRE-R42-DESCnonQualifiant-DSM206\"> </a></td><td>Cancérologie (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td><td>Cancérologie</td></tr><tr><td style=\"white-space:nowrap\">DSM207<a name=\"TRE-R42-DESCnonQualifiant-DSM207\"> </a></td><td>Chirurgie de la face et du cou (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Chirurgie face et cou</td></tr><tr><td style=\"white-space:nowrap\">DSM208<a name=\"TRE-R42-DESCnonQualifiant-DSM208\"> </a></td><td>Chirurgie plastique et reconstructrice (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Chirurgie plastique et recon</td></tr><tr><td style=\"white-space:nowrap\">DSM209<a name=\"TRE-R42-DESCnonQualifiant-DSM209\"> </a></td><td>Chirurgie vasculaire (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td><td>Chirurgie vasculaire</td></tr><tr><td style=\"white-space:nowrap\">DSM210<a name=\"TRE-R42-DESCnonQualifiant-DSM210\"> </a></td><td>Cytogénétique humaine (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Cytogénétique humaine</td></tr><tr><td style=\"white-space:nowrap\">DSM211<a name=\"TRE-R42-DESCnonQualifiant-DSM211\"> </a></td><td>Dermatopathologie (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td><td>Dermatopathologie</td></tr><tr><td style=\"white-space:nowrap\">DSM212<a name=\"TRE-R42-DESCnonQualifiant-DSM212\"> </a></td><td>Foetopathologie (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td><td>Foetopathologie</td></tr><tr><td style=\"white-space:nowrap\">DSM213<a name=\"TRE-R42-DESCnonQualifiant-DSM213\"> </a></td><td>Gériatrie (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td><td>Gériatrie</td></tr><tr><td style=\"white-space:nowrap\">DSM214<a name=\"TRE-R42-DESCnonQualifiant-DSM214\"> </a></td><td>Hématologie biologique (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Hématologie biologique</td></tr><tr><td style=\"white-space:nowrap\">DSM215<a name=\"TRE-R42-DESCnonQualifiant-DSM215\"> </a></td><td>Hématologie maladies du sang (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Hématologie maladies du sang</td></tr><tr><td style=\"white-space:nowrap\">DSM216<a name=\"TRE-R42-DESCnonQualifiant-DSM216\"> </a></td><td>Hémobiologie-transfusion (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Hémobiologie-transfusion</td></tr><tr><td style=\"white-space:nowrap\">DSM217<a name=\"TRE-R42-DESCnonQualifiant-DSM217\"> </a></td><td>Immunologie et Immunopathologie (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Immunol, Immunopatho</td></tr><tr><td style=\"white-space:nowrap\">DSM218<a name=\"TRE-R42-DESCnonQualifiant-DSM218\"> </a></td><td>Médecine de la reproduction (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Médecine de la reproduction</td></tr><tr><td style=\"white-space:nowrap\">DSM219<a name=\"TRE-R42-DESCnonQualifiant-DSM219\"> </a></td><td>Médecine du sport (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td><td>Médecine du sport</td></tr><tr><td style=\"white-space:nowrap\">DSM220<a name=\"TRE-R42-DESCnonQualifiant-DSM220\"> </a></td><td>Médecine d'urgence (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td><td>Médecine d'urgence</td></tr><tr><td style=\"white-space:nowrap\">DSM221<a name=\"TRE-R42-DESCnonQualifiant-DSM221\"> </a></td><td>Médecine légale et Expertises médicales (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Médecine légale, Expertise méd</td></tr><tr><td style=\"white-space:nowrap\">DSM222<a name=\"TRE-R42-DESCnonQualifiant-DSM222\"> </a></td><td>Médecine nucléaire (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td><td>Médecine nucléaire</td></tr><tr><td style=\"white-space:nowrap\">DSM223<a name=\"TRE-R42-DESCnonQualifiant-DSM223\"> </a></td><td>Médecine vasculaire (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td><td>Médecine vasculaire</td></tr><tr><td style=\"white-space:nowrap\">DSM224<a name=\"TRE-R42-DESCnonQualifiant-DSM224\"> </a></td><td>Néonatalogie (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td><td>Néonatalogie</td></tr><tr><td style=\"white-space:nowrap\">DSM225<a name=\"TRE-R42-DESCnonQualifiant-DSM225\"> </a></td><td>Neuropathologie (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td><td>Neuropathologie</td></tr><tr><td style=\"white-space:nowrap\">DSM226<a name=\"TRE-R42-DESCnonQualifiant-DSM226\"> </a></td><td>Nutrition (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td><td>Nutrition</td></tr><tr><td style=\"white-space:nowrap\">DSM227<a name=\"TRE-R42-DESCnonQualifiant-DSM227\"> </a></td><td>Orthopédie dento-maxillo-faciale (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Orthopédie dento-maxilo-fac</td></tr><tr><td style=\"white-space:nowrap\">DSM228<a name=\"TRE-R42-DESCnonQualifiant-DSM228\"> </a></td><td>Pathologie infectieuse et tropicale, clinique et biologique (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Patho infect, trop, clin, bio</td></tr><tr><td style=\"white-space:nowrap\">DSM229<a name=\"TRE-R42-DESCnonQualifiant-DSM229\"> </a></td><td>Pharmacocinétique et Métabolisme des médicaments (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Pharmacocin, Métabolisme médic</td></tr><tr><td style=\"white-space:nowrap\">DSM230<a name=\"TRE-R42-DESCnonQualifiant-DSM230\"> </a></td><td>Pharmacologie clinique et Evaluation des thérapeutiques (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Pharmacol cliniq, Eval thérap</td></tr><tr><td style=\"white-space:nowrap\">DSM231<a name=\"TRE-R42-DESCnonQualifiant-DSM231\"> </a></td><td>Psychiatrie de l'enfant et de l'adolescent (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Psychiatrie enfant et ado</td></tr><tr><td style=\"white-space:nowrap\">DSM232<a name=\"TRE-R42-DESCnonQualifiant-DSM232\"> </a></td><td>Radiopharmacie et Radiobiologie (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Radiopharm, Radiobiologie</td></tr><tr><td style=\"white-space:nowrap\">DSM233<a name=\"TRE-R42-DESCnonQualifiant-DSM233\"> </a></td><td>Réanimation médicale (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td><td>Réanimation médicale</td></tr><tr><td style=\"white-space:nowrap\">DSM234<a name=\"TRE-R42-DESCnonQualifiant-DSM234\"> </a></td><td>Toxicologie biologique (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Toxicologie biologique</td></tr><tr><td style=\"white-space:nowrap\">DSM235<a name=\"TRE-R42-DESCnonQualifiant-DSM235\"> </a></td><td>Médecine de la douleur et Médecine palliative (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Médecine douleur, palliative</td></tr><tr><td style=\"white-space:nowrap\">DSM236<a name=\"TRE-R42-DESCnonQualifiant-DSM236\"> </a></td><td>Cancérologie, option Traitements médicaux des cancers (DNQ)</td><td>2015-07-06T14:59:38+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Cancéro, opt Trait méd cancers</td></tr><tr><td style=\"white-space:nowrap\">DSM237<a name=\"TRE-R42-DESCnonQualifiant-DSM237\"> </a></td><td>Cancérologie, option Chirurgie cancérologique (DNQ)</td><td>2015-07-06T14:59:38+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Cancéro, opt Chirurgie cancéro</td></tr><tr><td style=\"white-space:nowrap\">DSM238<a name=\"TRE-R42-DESCnonQualifiant-DSM238\"> </a></td><td>Cancérologie, option Réseaux de cancérologie (DNQ)</td><td>2015-07-06T14:59:38+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Cancéro, opt Réseaux cancéro</td></tr><tr><td style=\"white-space:nowrap\">DSM239<a name=\"TRE-R42-DESCnonQualifiant-DSM239\"> </a></td><td>Cancérologie, option Biologie cancérologie (DNQ)</td><td>2015-07-06T14:59:38+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Cancéro, opt Biologie cancéro</td></tr><tr><td style=\"white-space:nowrap\">DSM240<a name=\"TRE-R42-DESCnonQualifiant-DSM240\"> </a></td><td>Cancérologie, option Imagerie cancérologie (DNQ)</td><td>2015-07-06T14:59:38+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Cancéro, opt Imagerie cancéro</td></tr></table></div>"^^rdf:XMLLiteral
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem TRE-R42-DESCnonQualifiant</b></p><a name=\"TRE-R42-DESCnonQualifiant\"> </a><a name=\"hcTRE-R42-DESCnonQualifiant\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 5; Dernière mise à jour : 2024-08-28 05:13:51+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://mos.esante.gouv.fr/NOS/TRE_R42-DESCnonQualifiant/FHIR/TRE-R42-DESCnonQualifiant</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>French (France) (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">DSM200<a name=\"TRE-R42-DESCnonQualifiant-DSM200\"> </a></td><td>Addictologie (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td><td>Addictologie</td></tr><tr><td style=\"white-space:nowrap\">DSM201<a name=\"TRE-R42-DESCnonQualifiant-DSM201\"> </a></td><td>Allergologie et Immunologie clinique (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Allergo, Immunologie clinique</td></tr><tr><td style=\"white-space:nowrap\">DSM202<a name=\"TRE-R42-DESCnonQualifiant-DSM202\"> </a></td><td>Andrologie (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td><td>Andrologie</td></tr><tr><td style=\"white-space:nowrap\">DSM203<a name=\"TRE-R42-DESCnonQualifiant-DSM203\"> </a></td><td>Biochimie hormonale et métabolique (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Biochimie hormon, métabolique</td></tr><tr><td style=\"white-space:nowrap\">DSM204<a name=\"TRE-R42-DESCnonQualifiant-DSM204\"> </a></td><td>Biologie des agents infectieux (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Biologie des agents infectieux</td></tr><tr><td style=\"white-space:nowrap\">DSM205<a name=\"TRE-R42-DESCnonQualifiant-DSM205\"> </a></td><td>Biologie moléculaire (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td><td>Biologie moléculaire</td></tr><tr><td style=\"white-space:nowrap\">DSM206<a name=\"TRE-R42-DESCnonQualifiant-DSM206\"> </a></td><td>Cancérologie (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td><td>Cancérologie</td></tr><tr><td style=\"white-space:nowrap\">DSM207<a name=\"TRE-R42-DESCnonQualifiant-DSM207\"> </a></td><td>Chirurgie de la face et du cou (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Chirurgie face et cou</td></tr><tr><td style=\"white-space:nowrap\">DSM208<a name=\"TRE-R42-DESCnonQualifiant-DSM208\"> </a></td><td>Chirurgie plastique et reconstructrice (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Chirurgie plastique et recon</td></tr><tr><td style=\"white-space:nowrap\">DSM209<a name=\"TRE-R42-DESCnonQualifiant-DSM209\"> </a></td><td>Chirurgie vasculaire (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td><td>Chirurgie vasculaire</td></tr><tr><td style=\"white-space:nowrap\">DSM210<a name=\"TRE-R42-DESCnonQualifiant-DSM210\"> </a></td><td>Cytogénétique humaine (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Cytogénétique humaine</td></tr><tr><td style=\"white-space:nowrap\">DSM211<a name=\"TRE-R42-DESCnonQualifiant-DSM211\"> </a></td><td>Dermatopathologie (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td><td>Dermatopathologie</td></tr><tr><td style=\"white-space:nowrap\">DSM212<a name=\"TRE-R42-DESCnonQualifiant-DSM212\"> </a></td><td>Foetopathologie (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td><td>Foetopathologie</td></tr><tr><td style=\"white-space:nowrap\">DSM213<a name=\"TRE-R42-DESCnonQualifiant-DSM213\"> </a></td><td>Gériatrie (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td><td>Gériatrie</td></tr><tr><td style=\"white-space:nowrap\">DSM214<a name=\"TRE-R42-DESCnonQualifiant-DSM214\"> </a></td><td>Hématologie biologique (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Hématologie biologique</td></tr><tr><td style=\"white-space:nowrap\">DSM215<a name=\"TRE-R42-DESCnonQualifiant-DSM215\"> </a></td><td>Hématologie maladies du sang (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Hématologie maladies du sang</td></tr><tr><td style=\"white-space:nowrap\">DSM216<a name=\"TRE-R42-DESCnonQualifiant-DSM216\"> </a></td><td>Hémobiologie-transfusion (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Hémobiologie-transfusion</td></tr><tr><td style=\"white-space:nowrap\">DSM217<a name=\"TRE-R42-DESCnonQualifiant-DSM217\"> </a></td><td>Immunologie et Immunopathologie (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Immunol, Immunopatho</td></tr><tr><td style=\"white-space:nowrap\">DSM218<a name=\"TRE-R42-DESCnonQualifiant-DSM218\"> </a></td><td>Médecine de la reproduction (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Médecine de la reproduction</td></tr><tr><td style=\"white-space:nowrap\">DSM219<a name=\"TRE-R42-DESCnonQualifiant-DSM219\"> </a></td><td>Médecine du sport (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td><td>Médecine du sport</td></tr><tr><td style=\"white-space:nowrap\">DSM220<a name=\"TRE-R42-DESCnonQualifiant-DSM220\"> </a></td><td>Médecine d'urgence (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td><td>Médecine d'urgence</td></tr><tr><td style=\"white-space:nowrap\">DSM221<a name=\"TRE-R42-DESCnonQualifiant-DSM221\"> </a></td><td>Médecine légale et Expertises médicales (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Médecine légale, Expertise méd</td></tr><tr><td style=\"white-space:nowrap\">DSM222<a name=\"TRE-R42-DESCnonQualifiant-DSM222\"> </a></td><td>Médecine nucléaire (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td><td>Médecine nucléaire</td></tr><tr><td style=\"white-space:nowrap\">DSM223<a name=\"TRE-R42-DESCnonQualifiant-DSM223\"> </a></td><td>Médecine vasculaire (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td><td>Médecine vasculaire</td></tr><tr><td style=\"white-space:nowrap\">DSM224<a name=\"TRE-R42-DESCnonQualifiant-DSM224\"> </a></td><td>Néonatalogie (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td><td>Néonatalogie</td></tr><tr><td style=\"white-space:nowrap\">DSM225<a name=\"TRE-R42-DESCnonQualifiant-DSM225\"> </a></td><td>Neuropathologie (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td><td>Neuropathologie</td></tr><tr><td style=\"white-space:nowrap\">DSM226<a name=\"TRE-R42-DESCnonQualifiant-DSM226\"> </a></td><td>Nutrition (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td><td>Nutrition</td></tr><tr><td style=\"white-space:nowrap\">DSM227<a name=\"TRE-R42-DESCnonQualifiant-DSM227\"> </a></td><td>Orthopédie dento-maxillo-faciale (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Orthopédie dento-maxilo-fac</td></tr><tr><td style=\"white-space:nowrap\">DSM228<a name=\"TRE-R42-DESCnonQualifiant-DSM228\"> </a></td><td>Pathologie infectieuse et tropicale, clinique et biologique (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Patho infect, trop, clin, bio</td></tr><tr><td style=\"white-space:nowrap\">DSM229<a name=\"TRE-R42-DESCnonQualifiant-DSM229\"> </a></td><td>Pharmacocinétique et Métabolisme des médicaments (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Pharmacocin, Métabolisme médic</td></tr><tr><td style=\"white-space:nowrap\">DSM230<a name=\"TRE-R42-DESCnonQualifiant-DSM230\"> </a></td><td>Pharmacologie clinique et Evaluation des thérapeutiques (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Pharmacol cliniq, Eval thérap</td></tr><tr><td style=\"white-space:nowrap\">DSM231<a name=\"TRE-R42-DESCnonQualifiant-DSM231\"> </a></td><td>Psychiatrie de l'enfant et de l'adolescent (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Psychiatrie enfant et ado</td></tr><tr><td style=\"white-space:nowrap\">DSM232<a name=\"TRE-R42-DESCnonQualifiant-DSM232\"> </a></td><td>Radiopharmacie et Radiobiologie (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Radiopharm, Radiobiologie</td></tr><tr><td style=\"white-space:nowrap\">DSM233<a name=\"TRE-R42-DESCnonQualifiant-DSM233\"> </a></td><td>Réanimation médicale (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2009-02-12T00:00:00+01:00</td><td>Réanimation médicale</td></tr><tr><td style=\"white-space:nowrap\">DSM234<a name=\"TRE-R42-DESCnonQualifiant-DSM234\"> </a></td><td>Toxicologie biologique (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Toxicologie biologique</td></tr><tr><td style=\"white-space:nowrap\">DSM235<a name=\"TRE-R42-DESCnonQualifiant-DSM235\"> </a></td><td>Médecine de la douleur et Médecine palliative (DNQ)</td><td>2007-07-26T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Médecine douleur, palliative</td></tr><tr><td style=\"white-space:nowrap\">DSM236<a name=\"TRE-R42-DESCnonQualifiant-DSM236\"> </a></td><td>Cancérologie, option Traitements médicaux des cancers (DNQ)</td><td>2015-07-06T14:59:38+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Cancéro, opt Trait méd cancers</td></tr><tr><td style=\"white-space:nowrap\">DSM237<a name=\"TRE-R42-DESCnonQualifiant-DSM237\"> </a></td><td>Cancérologie, option Chirurgie cancérologique (DNQ)</td><td>2015-07-06T14:59:38+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Cancéro, opt Chirurgie cancéro</td></tr><tr><td style=\"white-space:nowrap\">DSM238<a name=\"TRE-R42-DESCnonQualifiant-DSM238\"> </a></td><td>Cancérologie, option Réseaux de cancérologie (DNQ)</td><td>2015-07-06T14:59:38+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Cancéro, opt Réseaux cancéro</td></tr><tr><td style=\"white-space:nowrap\">DSM239<a name=\"TRE-R42-DESCnonQualifiant-DSM239\"> </a></td><td>Cancérologie, option Biologie cancérologie (DNQ)</td><td>2015-07-06T14:59:38+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Cancéro, opt Biologie cancéro</td></tr><tr><td style=\"white-space:nowrap\">DSM240<a name=\"TRE-R42-DESCnonQualifiant-DSM240\"> </a></td><td>Cancérologie, option Imagerie cancérologie (DNQ)</td><td>2015-07-06T14:59:38+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Cancéro, opt Imagerie cancéro</td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
-     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod>
+     ] ;
      fhir:value [
        a fhir:Period ;
        fhir:start [ fhir:v "2015-12-28T00:00:00+01:00"^^xsd:dateTime ]
      ]
   ] ) ; # 
-  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R42-DESCnonQualifiant/FHIR/TRE-R42-DESCnonQualifiant"^^xsd:anyURI] ; # 
+  fhir:url [
+     fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R42-DESCnonQualifiant/FHIR/TRE-R42-DESCnonQualifiant"^^xsd:anyURI ;
+     fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R42-DESCnonQualifiant/FHIR/TRE-R42-DESCnonQualifiant>
+  ] ; # 
   fhir:identifier ( [
-     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:system [
+       fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
+       fhir:l <urn:ietf:rfc:3986>
+     ] ;
      fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.32" ]
   ] ) ; # 
   fhir:version [ fhir:v "20240628120000"] ; # 
@@ -43,7 +52,10 @@
   fhir:description [ fhir:v "Savoir-faire liés aux DESC du groupe 1 non qualifiants"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
-       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
        fhir:code [ fhir:v "FRA" ]
      ] )
   ] ) ; # 
@@ -63,17 +75,26 @@
      fhir:type [ fhir:v "dateTime" ]
   ] [
      fhir:code [ fhir:v "deprecationDate" ] ;
-     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#deprecationDate"^^xsd:anyURI ] ;
+     fhir:uri [
+       fhir:v "http://hl7.org/fhir/concept-properties#deprecationDate"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/concept-properties#deprecationDate>
+     ] ;
      fhir:description [ fhir:v "Date Concept was deprecated" ] ;
      fhir:type [ fhir:v "dateTime" ]
   ] [
      fhir:code [ fhir:v "status" ] ;
-     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#status"^^xsd:anyURI ] ;
+     fhir:uri [
+       fhir:v "http://hl7.org/fhir/concept-properties#status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/concept-properties#status>
+     ] ;
      fhir:description [ fhir:v "A property that indicates the status of the concept." ] ;
      fhir:type [ fhir:v "code" ]
   ] [
      fhir:code [ fhir:v "retirementDate" ] ;
-     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#retirementDate"^^xsd:anyURI ] ;
+     fhir:uri [
+       fhir:v "http://hl7.org/fhir/concept-properties#retirementDate"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/concept-properties#retirementDate>
+     ] ;
      fhir:description [ fhir:v "Date Concept was retired" ] ;
      fhir:type [ fhir:v "dateTime" ]
   ] ) ; # 
@@ -84,7 +105,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Addictologie" ]
@@ -92,19 +116,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2009-02-12T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -115,7 +139,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Allergo, Immunologie clinique" ]
@@ -123,19 +150,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -146,7 +173,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Andrologie" ]
@@ -154,19 +184,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2009-02-12T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -177,7 +207,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Biochimie hormon, métabolique" ]
@@ -185,19 +218,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -208,7 +241,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Biologie des agents infectieux" ]
@@ -216,19 +252,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -239,7 +275,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Biologie moléculaire" ]
@@ -247,19 +286,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2009-02-12T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -270,7 +309,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Cancérologie" ]
@@ -278,19 +320,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2009-02-12T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -301,7 +343,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Chirurgie face et cou" ]
@@ -309,19 +354,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -332,7 +377,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Chirurgie plastique et recon" ]
@@ -340,19 +388,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -363,7 +411,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Chirurgie vasculaire" ]
@@ -371,19 +422,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2009-02-12T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -394,7 +445,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Cytogénétique humaine" ]
@@ -402,19 +456,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -425,7 +479,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Dermatopathologie" ]
@@ -433,19 +490,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2009-02-12T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -456,7 +513,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Foetopathologie" ]
@@ -464,19 +524,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2009-02-12T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -487,7 +547,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Gériatrie" ]
@@ -495,19 +558,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2009-02-12T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -518,7 +581,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Hématologie biologique" ]
@@ -526,19 +592,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -549,7 +615,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Hématologie maladies du sang" ]
@@ -557,19 +626,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -580,7 +649,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Hémobiologie-transfusion" ]
@@ -588,19 +660,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -611,7 +683,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Immunol, Immunopatho" ]
@@ -619,19 +694,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -642,7 +717,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Médecine de la reproduction" ]
@@ -650,19 +728,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -673,7 +751,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Médecine du sport" ]
@@ -681,19 +762,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2009-02-12T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -704,7 +785,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Médecine d'urgence" ]
@@ -712,19 +796,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2009-02-12T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -735,7 +819,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Médecine légale, Expertise méd" ]
@@ -743,19 +830,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -766,7 +853,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Médecine nucléaire" ]
@@ -774,19 +864,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2009-02-12T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -797,7 +887,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Médecine vasculaire" ]
@@ -805,19 +898,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2009-02-12T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -828,7 +921,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Néonatalogie" ]
@@ -836,19 +932,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2009-02-12T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -859,7 +955,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Neuropathologie" ]
@@ -867,19 +966,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2009-02-12T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -890,7 +989,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Nutrition" ]
@@ -898,19 +1000,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2009-02-12T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -921,7 +1023,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Orthopédie dento-maxilo-fac" ]
@@ -929,19 +1034,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -952,7 +1057,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Patho infect, trop, clin, bio" ]
@@ -960,19 +1068,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -983,7 +1091,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Pharmacocin, Métabolisme médic" ]
@@ -991,19 +1102,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1014,7 +1125,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Pharmacol cliniq, Eval thérap" ]
@@ -1022,19 +1136,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1045,7 +1159,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Psychiatrie enfant et ado" ]
@@ -1053,19 +1170,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1076,7 +1193,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Radiopharm, Radiobiologie" ]
@@ -1084,19 +1204,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1107,7 +1227,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Réanimation médicale" ]
@@ -1115,19 +1238,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2009-02-12T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1138,7 +1261,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Toxicologie biologique" ]
@@ -1146,19 +1272,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1169,7 +1295,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Médecine douleur, palliative" ]
@@ -1177,19 +1306,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-26T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1200,7 +1329,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Cancéro, opt Trait méd cancers" ]
@@ -1208,19 +1340,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-07-06T14:59:38+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1231,7 +1363,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Cancéro, opt Chirurgie cancéro" ]
@@ -1239,19 +1374,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-07-06T14:59:38+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1262,7 +1397,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Cancéro, opt Réseaux cancéro" ]
@@ -1270,19 +1408,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-07-06T14:59:38+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1293,7 +1431,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Cancéro, opt Biologie cancéro" ]
@@ -1301,19 +1442,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-07-06T14:59:38+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1324,7 +1465,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Cancéro, opt Imagerie cancéro" ]
@@ -1332,19 +1476,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-07-06T14:59:38+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )

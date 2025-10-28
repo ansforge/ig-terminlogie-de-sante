@@ -1,0 +1,161 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "ObservationValue-supplement-fr",
+  "language" : "fr-FR",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem ObservationValue-supplement-fr</b></p><a name=\"ObservationValue-supplement-fr\"> </a><a name=\"hcObservationValue-supplement-fr\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Langue : fr-FR</p></div><p>This code system supplement <code>http://hl7.org/fhir/us/example/CodeSystem/ObservationValue-supplement-fr</code> defines labels on the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationValue.html#v3-ObservationValue-DS\">DS</a><a name=\"ObservationValue-supplement-fr-DS\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationValue.html#v3-ObservationValue-EMS\">EMS</a><a name=\"ObservationValue-supplement-fr-EMS\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationValue.html#v3-ObservationValue-ES\">ES</a><a name=\"ObservationValue-supplement-fr-ES\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationValue.html#v3-ObservationValue-NS\">NS</a><a name=\"ObservationValue-supplement-fr-NS\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationValue.html#v3-ObservationValue-RSWN\">RSWN</a><a name=\"ObservationValue-supplement-fr-RSWN\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationValue.html#v3-ObservationValue-RSWON\">RSWON</a><a name=\"ObservationValue-supplement-fr-RSWON\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationValue.html#v3-ObservationValue-SS\">SS</a><a name=\"ObservationValue-supplement-fr-SS\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationValue.html#v3-ObservationValue-VLS\">VLS</a><a name=\"ObservationValue-supplement-fr-VLS\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationValue.html#v3-ObservationValue-VS\">VS</a><a name=\"ObservationValue-supplement-fr-VS\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationValue.html#v3-ObservationValue-Employed\">Employed</a><a name=\"ObservationValue-supplement-fr-Employed\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationValue.html#v3-ObservationValue-NotInLaborForce\">NotInLaborForce</a><a name=\"ObservationValue-supplement-fr-NotInLaborForce\"> </a></td></tr><tr><td><a style=\"white-space:nowrap\" href=\"http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationValue.html#v3-ObservationValue-Unemployed\">Unemployed</a><a name=\"ObservationValue-supplement-fr-Unemployed\"> </a></td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+    "valueCode" : "vocab"
+  }],
+  "url" : "http://hl7.org/fhir/us/example/CodeSystem/ObservationValue-supplement-fr",
+  "version" : "1.0",
+  "name" : "ObservationValueSupplementFr",
+  "title" : "ObservationValueSupplementFr",
+  "status" : "draft",
+  "experimental" : true,
+  "date" : "2025-10-24T16:40:38+11:00",
+  "description" : "Traduction Francaise",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
+  "content" : "supplement",
+  "supplements" : "http://terminology.hl7.org/CodeSystem/v3-ObservationValue|4.0.0",
+  "concept" : [{
+    "code" : "DS",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Journée (par exemple : entre 6h et 18h)"
+    }]
+  },
+  {
+    "code" : "EMS",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Matin (entre 2h et 14h)"
+    }]
+  },
+  {
+    "code" : "ES",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Après-midi (entre 14h et minuit)"
+    }]
+  },
+  {
+    "code" : "NS",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Nuit (entre 21h et 8h)"
+    }]
+  },
+  {
+    "code" : "RSWN",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Variable (journées, soirées, avec parfois des nuits)"
+    }]
+  },
+  {
+    "code" : "RSWON",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Variable (journées, soirées, sans nuits ni soirées)"
+    }]
+  },
+  {
+    "code" : "SS",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Journée avec coupure de 2 à 4 heures."
+    }]
+  },
+  {
+    "code" : "VLS",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Horaires de longue durée (17h ou plus)"
+    }]
+  },
+  {
+    "code" : "VS",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Irrégulier avec information à court terme"
+    }]
+  },
+  {
+    "code" : "Employed",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "En activité"
+    }]
+  },
+  {
+    "code" : "NotInLaborForce",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Inactif"
+    }]
+  },
+  {
+    "code" : "Unemployed",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
+        "code" : "preferredForLanguage"
+      },
+      "value" : "Sans activité"
+    }]
+  }]
+}
