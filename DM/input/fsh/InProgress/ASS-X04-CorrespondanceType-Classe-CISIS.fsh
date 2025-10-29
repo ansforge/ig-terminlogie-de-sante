@@ -186,6 +186,12 @@ Usage: #definition
 * group[=].element[+].code = #61357-0
 * group[=].element[=].target.code = #42
 * group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #61358-8
+* group[=].element[=].target.code = #95
+* group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #61359-6
+* group[=].element[=].target.code = #95
+* group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #67851-6
 * group[=].element[=].target.code = #10
 * group[=].element[=].target.equivalence = #equivalent
@@ -306,6 +312,9 @@ Usage: #definition
 * group[=].element[+].code = #100967-9
 * group[=].element[=].target.code = #10
 * group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #101881-1
+* group[=].element[=].target.code = #52
+* group[=].element[=].target.equivalence = #equivalent
 * group[+].source = "https://mos.esante.gouv.fr/NOS/TRE_A05-TypeDocComplementaire/FHIR/TRE-A05-TypeDocComplementaire"
 * group[=].target = "https://mos.esante.gouv.fr/NOS/TRE_A03-ClasseDocument/FHIR/TRE-A03-ClasseDocument"
 * group[=].element[0].code = #ATTEST-ASS-COMPL
@@ -320,6 +329,9 @@ Usage: #definition
 * group[=].element[+].code = #ATTEST-DROITS-AM
 * group[=].element[=].target.code = #95
 * group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #ATTEST-VITALE
+* group[=].element[=].target.code = #95
+* group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #AUTORIS-SOINS
 * group[=].element[=].target.code = #95
 * group[=].element[=].target.equivalence = #equivalent
@@ -328,6 +340,9 @@ Usage: #definition
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #CERT_DECL
 * group[=].element[=].target.code = #52
+* group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #CONTACTS-URGENCE
+* group[=].element[=].target.code = #95
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #DISP_AUT
 * group[=].element[=].target.code = #43
@@ -370,6 +385,9 @@ Usage: #definition
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #DOCPAT09
 * group[=].element[=].target.code = #95
+* group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #DOCPAT10
+* group[=].element[=].target.code = #90
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #IMG-KOS
 * group[=].element[=].target.code = #31
