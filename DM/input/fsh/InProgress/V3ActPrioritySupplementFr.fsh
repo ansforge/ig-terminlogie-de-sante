@@ -60,7 +60,7 @@ Description: "Traduction Francaise"
 * #S ^designation.language = #fr-FR
 * #S ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
 * #S ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #S ^designation.value = "\tImmédiatement"
+* #S ^designation.value = "Immédiatement"
 * #T
 * #T ^designation.language = #fr-FR
 * #T ^designation.use.system = "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"
