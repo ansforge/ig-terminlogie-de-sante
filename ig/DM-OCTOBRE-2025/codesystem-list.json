@@ -74,7 +74,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_A06-FormatCodeComplementaire/FHIR/TRE-A06-FormatCodeComplementaire",
-      "version" : "20240726120000",
+      "version" : "20251029120000",
       "status" : "active",
       "name" : "TRE_A06_FormatCodeComplementaire",
       "title" : null,
@@ -641,7 +641,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R220-ModeleDocumentCDAStructure/FHIR/TRE-R220-ModeleDocumentCDAStructure",
-      "version" : "20240726120000",
+      "version" : "20251029120000",
       "status" : "active",
       "name" : "TRE_R220_ModeleDocumentCDAStructure",
       "title" : null,

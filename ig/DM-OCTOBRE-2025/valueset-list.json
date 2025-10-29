@@ -152,7 +152,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J10-XdsFormatCode-CISIS/FHIR/JDV-J10-XdsFormatCode-CISIS",
-      "version" : "20240726120000",
+      "version" : "20251029120000",
       "status" : "active",
       "name" : "JDV_J10_XdsFormatCode_CISIS",
       "title" : null,
