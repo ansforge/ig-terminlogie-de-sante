@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250624152101"
+             dateMaj="20251028115835"
              dateValid="20100101000000"
              description="JDV Signe Vital CISIS"
              displayName="JdvSigneVitalCisis"
@@ -32,7 +32,7 @@
          <concept code="29463-7" codeSystem="" displayName="Poids"/>
          <concept code="39156-5"
                   codeSystem=""
-                  displayName="Index de masse corporelle (IMC)"/>
+                  displayName="Indice de masse corporelle (IMC)"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

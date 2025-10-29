@@ -23899,9 +23899,19 @@
         <valueString value="ConceptMap"/>
       </extension>
       <reference>
+        <reference value="ConceptMap/alignement-nuva-cipucd"/>
+      </reference>
+      <name value="Alignement des codes NUVA avec les codes CIP de la CIP_CUD"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <reference>
         <reference value="ConceptMap/alignement-nuva-bdpm"/>
       </reference>
-      <name value="Aligner les codes CIS et CIP de NUVA avec les codes CIS et CIP du BDPM"/>
+      <name value="Alignement des codes NUVA avec les codes CIS et CIP de la BDPM"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -24336,6 +24346,17 @@
       </reference>
       <name value="CoverageRoleType"/>
       <description value="CoverageRoleType"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-hl7-days-of-week"/>
+      </reference>
+      <name value="DaysOfWeek"/>
+      <description value="DaysOfWeek"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

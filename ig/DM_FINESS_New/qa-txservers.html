@@ -12,7 +12,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Terminology Server Report for Terminologies</h1>
- <p>Generated Wed Oct 15 14:11:17 UTC 2025, FHIR version 4.0.1 for ans.fr.terminologies#0.1.0 (canonical = <a href="https://interop.esante.gouv.fr/terminologies">https://interop.esante.gouv.fr/terminologies</a> (<a href="https://interop.esante.gouv.fr/terminologies/history.html">history</a>))</p>
+ <p>Generated Wed Oct 29 16:58:45 UTC 2025, FHIR version 4.0.1 for ans.fr.terminologies#0.1.0 (canonical = <a href="https://interop.esante.gouv.fr/terminologies">https://interop.esante.gouv.fr/terminologies</a> (<a href="https://interop.esante.gouv.fr/terminologies/history.html">history</a>))</p>
 <p>This page provides a report on which terminology servers were used while publishing this IG. Note that terminology caching reduces the server hit count - this page only reports content that wasn't cached</p>
 <h2>Terminology Parameters</h2>
 <ul>
@@ -879,13 +879,6 @@
     <td></td>
     <td>http://snomed.info/sct</td>
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4</td>
-  </tr>
-  <tr>
-    <td>Found candidate server http://tx.fhir.org/r4</td>
-    <td>http://tx.fhir.org/r4</td>
-    <td></td>
-    <td>http://loinc.org</td>
-    <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -6481,6 +6474,13 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4</td>
   </tr>
   <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td></td>
+    <td>http://snomed.info/sct</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4</td>
+  </tr>
+  <tr>
     <td>Found candidate server http://tx.fhir.org/r4</td>
     <td>http://tx.fhir.org/r4</td>
     <td></td>
@@ -6686,7 +6686,7 @@
   <tr>
     <td>System not handled by any servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
-    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-absent-or-unknown-allergy-cisis|20250624152100</td>
+    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-absent-or-unknown-allergy-cisis|20251028115833</td>
     <td>http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips</td>
     <td>auth = , candidates=</td>
   </tr>
@@ -6700,7 +6700,7 @@
   <tr>
     <td>System not handled by any servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
-    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-absent-or-unknown-devices-cisis|20250624152100</td>
+    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-absent-or-unknown-devices-cisis|20251028115833</td>
     <td>http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips</td>
     <td>auth = , candidates=</td>
   </tr>
@@ -6714,7 +6714,7 @@
   <tr>
     <td>System not handled by any servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
-    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-absent-or-unknown-immunization-cisis|20250624152100</td>
+    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-absent-or-unknown-immunization-cisis|20251028115833</td>
     <td>http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips</td>
     <td>auth = , candidates=</td>
   </tr>
@@ -6728,7 +6728,7 @@
   <tr>
     <td>System not handled by any servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
-    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-absent-or-unknown-medication-cisis|20250624152100</td>
+    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-absent-or-unknown-medication-cisis|20251028115832</td>
     <td>http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips</td>
     <td>auth = , candidates=</td>
   </tr>
@@ -6742,7 +6742,7 @@
   <tr>
     <td>System not handled by any servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
-    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-absent-or-unknown-problem-cisis|20250624152100</td>
+    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-absent-or-unknown-problem-cisis|20251028115833</td>
     <td>http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips</td>
     <td>auth = , candidates=</td>
   </tr>
@@ -6756,7 +6756,7 @@
   <tr>
     <td>System not handled by any servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
-    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-absent-or-unknown-procedure-cisis|20250624152100</td>
+    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-absent-or-unknown-procedure-cisis|20251028115832</td>
     <td>http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips</td>
     <td>auth = , candidates=</td>
   </tr>
@@ -7085,7 +7085,7 @@
   <tr>
     <td>System not handled by any servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
-    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-conditionnement-cisis|20250624152101</td>
+    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-conditionnement-cisis|20251028115835</td>
     <td>https://smt.esante.gouv.fr/terminologie-adicap</td>
     <td>auth = , candidates=</td>
   </tr>
@@ -7141,7 +7141,7 @@
   <tr>
     <td>Found most authoritative server https://smt.esante.gouv.fr/fhir</td>
     <td>https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-defaillance-materielle-cisis|20250624152059</td>
+    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-defaillance-materielle-cisis|20251028115831</td>
     <td>[https://www.imdrf.org, https://smt.esante.gouv.fr/terminologie-emdn]</td>
     <td>[auth = , candidates=, auth = https://smt.esante.gouv.fr/fhir, candidates=]</td>
   </tr>
@@ -7615,6 +7615,13 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4</td>
   </tr>
   <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td></td>
+    <td>http://snomed.info/sct</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4</td>
+  </tr>
+  <tr>
     <td>System not handled by any servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
     <td></td>
@@ -7624,7 +7631,7 @@
   <tr>
     <td>System not handled by any servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
-    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-lateralite-ncit-cisis|20250624152101</td>
+    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-lateralite-ncit-cisis|20251028115835</td>
     <td>https://smt.esante.gouv.fr/terminologie-ncit</td>
     <td>auth = , candidates=</td>
   </tr>
@@ -7897,7 +7904,7 @@
   <tr>
     <td>Found authoritative server http://tx.fhir.org/r4</td>
     <td>http://tx.fhir.org/r4</td>
-    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-morphologie-cisis|20250624152100</td>
+    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-morphologie-cisis|20251028115835</td>
     <td>http://terminology.hl7.org/CodeSystem/icd-o-3</td>
     <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4</td>
   </tr>
@@ -8100,7 +8107,7 @@
   <tr>
     <td>System not handled by any servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
-    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-organe-cisis|20250624152101</td>
+    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-organe-cisis|20251028115835</td>
     <td>https://smt.esante.gouv.fr/terminologie-adicap</td>
     <td>auth = , candidates=</td>
   </tr>
@@ -8163,7 +8170,7 @@
   <tr>
     <td>System not handled by any servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
-    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-profession-cisis|20250624152100</td>
+    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-profession-cisis|20251028115835</td>
     <td>https://smt.esante.gouv.fr/terminologie-PCS/</td>
     <td>auth = , candidates=</td>
   </tr>
@@ -8464,7 +8471,7 @@
   <tr>
     <td>System not handled by any servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
-    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-secteur-activite-employeur-cisis|20250624152101</td>
+    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-secteur-activite-employeur-cisis|20251028115835</td>
     <td>https://wiki.ihe.net/index.php/IHERoleCode_Vocabulary</td>
     <td>auth = , candidates=</td>
   </tr>
@@ -8534,7 +8541,7 @@
   <tr>
     <td>System not handled by any servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
-    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-sop-class-cisis|20250624152100</td>
+    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-sop-class-cisis|20251028115832</td>
     <td>http://​dicom.​nema.​org/​medical/​dicom/​current/​output/​chtml/​part06/​chapter_A.html</td>
     <td>auth = , candidates=</td>
   </tr>
@@ -8625,7 +8632,7 @@
   <tr>
     <td>System not handled by any servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
-    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-technique-biologie-cisis|20250624152100</td>
+    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-technique-biologie-cisis|20251028115833</td>
     <td>https://smt.esante.gouv.fr/terminologie-tccr</td>
     <td>auth = , candidates=</td>
   </tr>
@@ -8828,7 +8835,7 @@
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
     <td>https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-evenement-indesirable-previsible-cisis|20250624152100</td>
+    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-evenement-indesirable-previsible-cisis|20251028115833</td>
     <td>http://snomed.info/sct</td>
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4</td>
   </tr>
@@ -8849,7 +8856,7 @@
   <tr>
     <td>System not handled by any servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
-    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-histo-etat-tumoral-cisis|20250624152100</td>
+    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-histo-etat-tumoral-cisis|20251028115834</td>
     <td>https://smt.esante.gouv.fr/terminologie-adicap</td>
     <td>auth = , candidates=</td>
   </tr>
@@ -8898,7 +8905,7 @@
   <tr>
     <td>System not handled by any servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
-    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-pelevement-origine-cisis|20250624152101</td>
+    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-pelevement-origine-cisis|20251028115835</td>
     <td>https://smt.esante.gouv.fr/terminologie-adicap</td>
     <td>auth = , candidates=</td>
   </tr>
@@ -8996,7 +9003,7 @@
   <tr>
     <td>System not handled by any servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
-    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-ufcv-effet-inr-cisis|20250624152101</td>
+    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-ufcv-effet-inr-cisis|20251028115835</td>
     <td>https://www.meddra.org</td>
     <td>auth = , candidates=</td>
   </tr>
@@ -9227,7 +9234,7 @@
 </table>
 <h2>Primary Server: https://tx.fhir.org/r4</h2>
 <a href="https://tx.fhir.org/r4"></a>
-<p>Use Count: 513. Code Systems used: </p>
+<p>Use Count: 512. Code Systems used: </p>
 <table class="grid">
   <tr>
     <th>
@@ -9259,7 +9266,7 @@
   </tr>
   <tr>
     <td>http://loinc.org</td>
-    <td>128</td>
+    <td>127</td>
     <td>154</td>
     <td>
       <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-loinc.html">Logical Observation Identifiers, Names and Codes (LOINC)</a>
@@ -9452,7 +9459,7 @@
 </table>
 <h2>Server: https://smt.esante.gouv.fr/fhir</h2>
 <a href="https://smt.esante.gouv.fr/fhir"></a>
-<p>Use Count: 789. Code Systems used: </p>
+<p>Use Count: 791. Code Systems used: </p>
 <table class="grid">
   <tr>
     <th>
@@ -9478,7 +9485,7 @@
   </tr>
   <tr>
     <td>http://snomed.info/sct</td>
-    <td>342</td>
+    <td>344</td>
     <td>147</td>
     <td>
       <a href="CodeSystem-900000000000207008-20251001.html">SNOMED CT core</a>

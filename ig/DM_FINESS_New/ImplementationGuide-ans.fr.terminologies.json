@@ -32808,9 +32808,20 @@
         "valueString" : "ConceptMap"
       }],
       "reference" : {
+        "reference" : "ConceptMap/alignement-nuva-cipucd"
+      },
+      "name" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ConceptMap"
+      }],
+      "reference" : {
         "reference" : "ConceptMap/alignement-nuva-bdpm"
       },
-      "name" : "Aligner les codes CIS et CIP de NUVA avec les codes CIS et CIP du BDPM",
+      "name" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM",
       "exampleBoolean" : false
     },
     {
@@ -33285,6 +33296,18 @@
       },
       "name" : "CoverageRoleType",
       "description" : "CoverageRoleType",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-hl7-days-of-week"
+      },
+      "name" : "DaysOfWeek",
+      "description" : "DaysOfWeek",
       "exampleBoolean" : false
     },
     {

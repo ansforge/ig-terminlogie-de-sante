@@ -44761,10 +44761,27 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ConceptMap/alignement-nuva-cipucd> ;
+         fhir:reference [ fhir:v "ConceptMap/alignement-nuva-cipucd" ]
+       ] ;
+       fhir:name [ fhir:v "Alignement des codes NUVA avec les codes CIP de la CIP_CUD" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ConceptMap"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/terminologies/ConceptMap/alignement-nuva-bdpm> ;
          fhir:reference [ fhir:v "ConceptMap/alignement-nuva-bdpm" ]
        ] ;
-       fhir:name [ fhir:v "Aligner les codes CIS et CIP de NUVA avec les codes CIS et CIP du BDPM" ] ;
+       fhir:name [ fhir:v "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -45479,6 +45496,24 @@
        ] ;
        fhir:name [ fhir:v "CoverageRoleType" ] ;
        fhir:description [ fhir:v "CoverageRoleType" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-hl7-days-of-week> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-hl7-days-of-week" ]
+       ] ;
+       fhir:name [ fhir:v "DaysOfWeek" ] ;
+       fhir:description [ fhir:v "DaysOfWeek" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false

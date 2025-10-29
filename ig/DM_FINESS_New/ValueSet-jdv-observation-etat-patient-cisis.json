@@ -2,13 +2,13 @@
   "resourceType" : "ValueSet",
   "id" : "jdv-observation-etat-patient-cisis",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2025-06-25T09:15:22.008+00:00",
+    "versionId" : "3",
+    "lastUpdated" : "2025-10-29T10:44:23.833+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-observation-etat-patient-cisis</b></p><a name=\"jdv-observation-etat-patient-cisis\"> </a><a name=\"hcjdv-observation-etat-patient-cisis\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 2; Dernière mise à jour : 2025-06-25 09:15:22+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include les codes sont définis dans <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/288575003\">288575003</a></td><td>capable de communiquer</td></tr><tr><td><a href=\"http://snomed.info/id/247663003\">247663003</a></td><td>bien orienté</td></tr><tr><td><a href=\"http://snomed.info/id/62476001\">62476001</a></td><td>désorienté(e)</td></tr><tr><td><a href=\"http://snomed.info/id/24199005\">24199005</a></td><td>sensation d'agitation</td></tr><tr><td><a href=\"http://snomed.info/id/248043008\">248043008</a></td><td>comportement non-conciliant</td></tr><tr><td><a href=\"http://snomed.info/id/425104003\">425104003</a></td><td>comportement suicidaire</td></tr><tr><td><a href=\"http://snomed.info/id/397540003\">397540003</a></td><td>malvoyance</td></tr><tr><td><a href=\"http://snomed.info/id/15188001\">15188001</a></td><td>perte auditive</td></tr><tr><td><a href=\"http://snomed.info/id/62305002\">62305002</a></td><td>trouble du langage</td></tr><tr><td><a href=\"http://snomed.info/id/161898004\">161898004</a></td><td>chutes</td></tr><tr><td><a href=\"http://snomed.info/id/50239007\">50239007</a></td><td>errance</td></tr><tr><td><a href=\"http://snomed.info/id/248046000\">248046000</a></td><td>fugue</td></tr><tr><td><a href=\"http://snomed.info/id/386423001\">386423001</a></td><td>contention physique</td></tr><tr><td><a href=\"http://snomed.info/id/285304000\">285304000</a></td><td>à risque d'escarre</td></tr><tr><td><a href=\"http://snomed.info/id/249492002\">249492002</a></td><td>fausse route alimentaire</td></tr></table></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-observation-etat-patient-cisis</b></p><a name=\"jdv-observation-etat-patient-cisis\"> </a><a name=\"hcjdv-observation-etat-patient-cisis\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 3; Dernière mise à jour : 2025-10-29 10:44:23+0100</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include les codes sont définis dans <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/288575003\">288575003</a></td><td>capable de communiquer</td></tr><tr><td><a href=\"http://snomed.info/id/247663003\">247663003</a></td><td>bien orienté</td></tr><tr><td><a href=\"http://snomed.info/id/62476001\">62476001</a></td><td>désorienté(e)</td></tr><tr><td><a href=\"http://snomed.info/id/24199005\">24199005</a></td><td>sensation d'agitation</td></tr><tr><td><a href=\"http://snomed.info/id/248043008\">248043008</a></td><td>comportement non-conciliant</td></tr><tr><td><a href=\"http://snomed.info/id/425104003\">425104003</a></td><td>comportement suicidaire</td></tr><tr><td><a href=\"http://snomed.info/id/397540003\">397540003</a></td><td>malvoyance</td></tr><tr><td><a href=\"http://snomed.info/id/15188001\">15188001</a></td><td>perte auditive</td></tr><tr><td><a href=\"http://snomed.info/id/62305002\">62305002</a></td><td>trouble du langage</td></tr><tr><td><a href=\"http://snomed.info/id/161898004\">161898004</a></td><td>chutes</td></tr><tr><td><a href=\"http://snomed.info/id/50239007\">50239007</a></td><td>errance</td></tr><tr><td><a href=\"http://snomed.info/id/248046000\">248046000</a></td><td>en fugue</td></tr><tr><td><a href=\"http://snomed.info/id/386423001\">386423001</a></td><td>contention physique</td></tr><tr><td><a href=\"http://snomed.info/id/285304000\">285304000</a></td><td>à risque d'escarre</td></tr><tr><td><a href=\"http://snomed.info/id/249492002\">249492002</a></td><td>fausse route alimentaire</td></tr></table></li></ul></div>"
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -21,12 +21,12 @@
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.514"
   }],
-  "version" : "20250624152100",
+  "version" : "20251028115832",
   "name" : "JdvObservationEtatPatientCisis",
   "title" : "JDV Observation Etat Patient CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-06-24T15:21:00+01:00",
+  "date" : "2025-10-28T11:58:32+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Observation Etat Patient CISIS",
   "compose" : {
@@ -78,7 +78,7 @@
       },
       {
         "code" : "248046000",
-        "display" : "fugue"
+        "display" : "en fugue"
       },
       {
         "code" : "386423001",

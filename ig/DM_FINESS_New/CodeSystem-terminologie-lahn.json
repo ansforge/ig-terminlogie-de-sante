@@ -2,8 +2,8 @@
   "resourceType" : "CodeSystem",
   "id" : "terminologie-lahn",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2025-03-17T12:59:14.485+00:00",
+    "versionId" : "3",
+    "lastUpdated" : "2025-10-16T10:46:39.308+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "text" : {
@@ -12,6 +12,11 @@
   },
   "url" : "https://smt.esante.gouv.fr/terminologie-lahn",
   "identifier" : [{
+    "use" : "usual",
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.2.79"
+  },
+  {
     "use" : "secondary",
     "system" : "https://smt.esante.gouv.fr/",
     "value" : "terminologie-lahn"
