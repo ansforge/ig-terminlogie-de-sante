@@ -1,18 +1,18 @@
-# substanceAdminSubstitutionSupplementFr - Terminologies de Santé v1.3.0
+# SubstanceAdminSubstitutionSupplementFr - Terminologies de Santé v1.3.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
-* **substanceAdminSubstitutionSupplementFr**
+* **SubstanceAdminSubstitutionSupplementFr**
 
-## CodeSystem: substanceAdminSubstitutionSupplementFr (Experimental) 
+## CodeSystem: SubstanceAdminSubstitutionSupplementFr (Experimental) 
 
 | | |
 | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/substanceAdminSubstitution-supplement-fr | *Version*:1.0 |
-| Draft as of 2025-10-24 | *Computable Name*:substanceAdminSubstitutionSupplementFr |
+| Draft as of 2025-10-24 | *Computable Name*:SubstanceAdminSubstitutionSupplementFr |
 
  
-Traduction Francaise 
+Traduction Française 
 
  This Code system is referenced in the content logical definition of the following value sets: 
 
@@ -33,12 +33,12 @@ This code system supplement `https://smt.esante.gouv.fr/fhir/CodeSystem/substanc
   "language" : "fr-FR",
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/substanceAdminSubstitution-supplement-fr",
   "version" : "1.0",
-  "name" : "substanceAdminSubstitutionSupplementFr",
-  "title" : "substanceAdminSubstitutionSupplementFr",
+  "name" : "SubstanceAdminSubstitutionSupplementFr",
+  "title" : "SubstanceAdminSubstitutionSupplementFr",
   "status" : "draft",
   "experimental" : true,
   "date" : "2025-10-24T16:40:38+11:00",
-  "description" : "Traduction Francaise",
+  "description" : "Traduction Française",
   "jurisdiction" : [
     {
       "coding" : [

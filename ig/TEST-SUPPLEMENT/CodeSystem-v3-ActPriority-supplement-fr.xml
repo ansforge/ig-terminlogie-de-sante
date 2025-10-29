@@ -125,7 +125,7 @@
         <system value="http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra"/>
         <code value="preferredForLanguage"/>
       </use>
-      <value value="&#x9;Immédiatement"/>
+      <value value="Immédiatement"/>
     </designation>
   </concept>
   <concept>

@@ -6,7 +6,7 @@
       "status" : "draft",
       "name" : "ObservationValueSupplementFr",
       "title" : "ObservationValueSupplementFr",
-      "description" : "Traduction Francaise"
+      "description" : "Traduction Française"
     },
     {
       "url" : "http://hl7.org/fhir/us/example/CodeSystem/v3-ActPriority-supplement-fr",
@@ -2299,7 +2299,7 @@
       "status" : "draft",
       "name" : "ActCodeSupplementFr",
       "title" : "ActCodeSupplementFr",
-      "description" : "Traduction Francaise"
+      "description" : "Traduction Française"
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/actMood-supplement-fr",
@@ -2307,7 +2307,7 @@
       "status" : "draft",
       "name" : "ActMoodSupplementFr",
       "title" : "ActMoodSupplementFr",
-      "description" : "Traduction Francaise"
+      "description" : "Traduction Française"
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/actPriority-supplement-fr",
@@ -2315,7 +2315,7 @@
       "status" : "draft",
       "name" : "ActPrioritySupplementFr",
       "title" : "ActPrioritySupplementFr",
-      "description" : "Traduction Francaise"
+      "description" : "Traduction Française"
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/actStatus-supplement-fr",
@@ -2323,7 +2323,7 @@
       "status" : "draft",
       "name" : "ActStatusSupplementFr",
       "title" : "ActStatusSupplementFr",
-      "description" : "Traduction Francaise"
+      "description" : "Traduction Française"
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/administrativeGender-supplement-fr",
@@ -2331,39 +2331,39 @@
       "status" : "draft",
       "name" : "AdministrativeGenderSupplementFr",
       "title" : "AdministrativeGenderSupplementFr",
-      "description" : "Traduction Francaise"
+      "description" : "Traduction Française"
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/allergy-intolerance-criticality-supplement-fr",
       "version" : "1.0",
       "status" : "draft",
-      "name" : "allergy-intolerance-criticalitySupplementFr",
-      "title" : "allergy-intolerance-criticalitySupplementFr",
-      "description" : "Traduction Francaise"
+      "name" : "AllergyIntoleranceCriticalitySupplementFr",
+      "title" : "AllergyIntoleranceCriticalitySupplementFr",
+      "description" : "Traduction Française"
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/allergyintolerance-clinical-supplement-fr",
       "version" : "1.0",
       "status" : "draft",
-      "name" : "allergyintolerance-clinicalSupplementFr",
-      "title" : "allergyintolerance-clinicalSupplementFr",
-      "description" : "Traduction Francaise"
+      "name" : "AllergyIntoleranceClinicalSupplementFr",
+      "title" : "AllergyIntoleranceClinicalSupplementFr",
+      "description" : "Traduction Française"
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/condition-clinical-supplement-fr",
       "version" : "1.0",
       "status" : "draft",
-      "name" : "condition-clinicalSupplementFr",
-      "title" : "condition-clinicalSupplementFr",
-      "description" : "Traduction Francaise"
+      "name" : "ConditionClinicalSupplementFr",
+      "title" : "ConditionClinicalSupplementFr",
+      "description" : "Traduction Française"
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/condition-ver-status-supplement-fr",
       "version" : "1.0",
       "status" : "draft",
-      "name" : "condition-ver-statusSupplementFr",
-      "title" : "condition-ver-statusSupplementFr",
-      "description" : "Traduction Francaise"
+      "name" : "ConditionVerStatusSupplementFr",
+      "title" : "ConditionVerStatusSupplementFr",
+      "description" : "Traduction Française"
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/confidentiality-supplement-fr",
@@ -2371,23 +2371,23 @@
       "status" : "draft",
       "name" : "ConfidentialitySupplementFr",
       "title" : "Confidentiality SupplementFr",
-      "description" : "Traduction Francaise"
+      "description" : "Traduction Française"
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/employmentStatus-supplement-fr",
       "version" : "1.0",
       "status" : "draft",
-      "name" : "employmentStatusSupplementFr",
-      "title" : "employmentStatusSupplementFr",
-      "description" : "Traduction Francaise"
+      "name" : "EmploymentStatusSupplementFr",
+      "title" : "EmploymentStatusSupplementFr",
+      "description" : "Traduction Française"
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/mediaType-supplement-fr",
       "version" : "1.0",
       "status" : "draft",
-      "name" : "mediaTypeSupplementFr",
-      "title" : "mediaTypeSupplementFr",
-      "description" : "Traduction Francaise"
+      "name" : "MediaTypeSupplementFr",
+      "title" : "MediaTypeSupplementFr",
+      "description" : "Traduction Française"
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/observationInterpretation-supplement-fr",
@@ -2395,7 +2395,7 @@
       "status" : "draft",
       "name" : "ObservationInterpretationSupplementFr",
       "title" : "ObservationInterpretationSupplementFr",
-      "description" : "Traduction Francaise"
+      "description" : "Traduction Française"
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/observationMethod-supplement-fr",
@@ -2403,15 +2403,15 @@
       "status" : "draft",
       "name" : "ObservationMethodSupplementFr",
       "title" : "ObservationMethodSupplementFr",
-      "description" : "Traduction Francaise"
+      "description" : "Traduction Française"
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/orderableDrugForm-supplement-fr",
       "version" : "1.0",
       "status" : "draft",
-      "name" : "orderableDrugFormSupplementFr",
-      "title" : "orderableDrugFormSupplementFr",
-      "description" : "Traduction Francaise"
+      "name" : "OrderableDrugFormSupplementFr",
+      "title" : "OrderableDrugFormSupplementFr",
+      "description" : "Traduction Française"
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/participationFunction-supplement-fr",
@@ -2419,7 +2419,7 @@
       "status" : "draft",
       "name" : "ParticipationFunctionSupplementFr",
       "title" : "ParticipationFunctionSupplementFr",
-      "description" : "Traduction Francaise"
+      "description" : "Traduction Française"
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/participationType-supplement-fr",
@@ -2427,7 +2427,7 @@
       "status" : "draft",
       "name" : "ParticipationTypeSupplementFr",
       "title" : "ParticipationTypeSupplementFr",
-      "description" : "Traduction Francaise"
+      "description" : "Traduction Française"
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/roleClass-supplement-fr",
@@ -2435,7 +2435,7 @@
       "status" : "draft",
       "name" : "RoleClassSupplementFr",
       "title" : "RoleClassSupplementFr",
-      "description" : "Traduction Francaise"
+      "description" : "Traduction Française"
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/roleCode-supplement-fr",
@@ -2443,7 +2443,7 @@
       "status" : "draft",
       "name" : "RoleCodeSupplementFr",
       "title" : "RoleCodeSupplementFr",
-      "description" : "Traduction Francaise"
+      "description" : "Traduction Française"
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/specimenType-supplement-fr",
@@ -2451,15 +2451,15 @@
       "status" : "draft",
       "name" : "SpecimenTypeSupplementFr",
       "title" : "SpecimenTypeSupplementFr",
-      "description" : "Traduction Francaise"
+      "description" : "Traduction Française"
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/substanceAdminSubstitution-supplement-fr",
       "version" : "1.0",
       "status" : "draft",
-      "name" : "substanceAdminSubstitutionSupplementFr",
-      "title" : "substanceAdminSubstitutionSupplementFr",
-      "description" : "Traduction Francaise"
+      "name" : "SubstanceAdminSubstitutionSupplementFr",
+      "title" : "SubstanceAdminSubstitutionSupplementFr",
+      "description" : "Traduction Française"
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
@@ -2476,7 +2476,7 @@
       "status" : "draft",
       "name" : "TimingEventSupplementFr",
       "title" : "TimingEventSupplementFr",
-      "description" : "Traduction Francaise"
+      "description" : "Traduction Française"
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statut-bilan-projet-personnalise",

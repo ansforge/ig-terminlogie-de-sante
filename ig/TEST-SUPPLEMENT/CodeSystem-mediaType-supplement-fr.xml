@@ -8,12 +8,12 @@
   </text>
   <url value="https://smt.esante.gouv.fr/fhir/CodeSystem/mediaType-supplement-fr"/>
   <version value="1.0"/>
-  <name value="mediaTypeSupplementFr"/>
-  <title value="mediaTypeSupplementFr"/>
+  <name value="MediaTypeSupplementFr"/>
+  <title value="MediaTypeSupplementFr"/>
   <status value="draft"/>
   <experimental value="true"/>
   <date value="2025-10-24T16:40:38+11:00"/>
-  <description value="Traduction Francaise"/>
+  <description value="Traduction Française"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>

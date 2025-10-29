@@ -4435,28 +4435,28 @@
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/allergy-intolerance-criticality-supplement-fr",
     "version" : "1.0",
-    "name" : "allergy-intolerance-criticalitySupplementFr"
+    "name" : "AllergyIntoleranceCriticalitySupplementFr"
   },
   {
     "id" : "allergyintolerance-clinical-supplement-fr",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/allergyintolerance-clinical-supplement-fr",
     "version" : "1.0",
-    "name" : "allergyintolerance-clinicalSupplementFr"
+    "name" : "AllergyIntoleranceClinicalSupplementFr"
   },
   {
     "id" : "condition-clinical-supplement-fr",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/condition-clinical-supplement-fr",
     "version" : "1.0",
-    "name" : "condition-clinicalSupplementFr"
+    "name" : "ConditionClinicalSupplementFr"
   },
   {
     "id" : "condition-ver-status-supplement-fr",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/condition-ver-status-supplement-fr",
     "version" : "1.0",
-    "name" : "condition-ver-statusSupplementFr"
+    "name" : "ConditionVerStatusSupplementFr"
   },
   {
     "id" : "Confidentiality-supplement-fr",
@@ -4470,14 +4470,14 @@
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/employmentStatus-supplement-fr",
     "version" : "1.0",
-    "name" : "employmentStatusSupplementFr"
+    "name" : "EmploymentStatusSupplementFr"
   },
   {
     "id" : "mediaType-supplement-fr",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/mediaType-supplement-fr",
     "version" : "1.0",
-    "name" : "mediaTypeSupplementFr"
+    "name" : "MediaTypeSupplementFr"
   },
   {
     "id" : "ObservationInterpretation-supplement-fr",
@@ -4498,7 +4498,7 @@
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/orderableDrugForm-supplement-fr",
     "version" : "1.0",
-    "name" : "orderableDrugFormSupplementFr"
+    "name" : "OrderableDrugFormSupplementFr"
   },
   {
     "id" : "ParticipationFunction-supplement-fr",
@@ -4540,7 +4540,7 @@
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/substanceAdminSubstitution-supplement-fr",
     "version" : "1.0",
-    "name" : "substanceAdminSubstitutionSupplementFr"
+    "name" : "SubstanceAdminSubstitutionSupplementFr"
   },
   {
     "id" : "terminologie-cisis",

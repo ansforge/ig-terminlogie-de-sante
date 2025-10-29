@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "Terminologies"] ; # 
   fhir:title [ fhir:v "Terminologies  de Santé"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-10-28T19:18:48+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-10-29T09:26:27+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -52531,7 +52531,7 @@
          fhir:reference [ fhir:v "CodeSystem/actCode-supplement-fr" ]
        ] ;
        fhir:name [ fhir:v "ActCodeSupplementFr" ] ;
-       fhir:description [ fhir:v "Traduction Francaise" ] ;
+       fhir:description [ fhir:v "Traduction Française" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -52615,7 +52615,7 @@
          fhir:reference [ fhir:v "CodeSystem/ActMood-supplement-fr" ]
        ] ;
        fhir:name [ fhir:v "ActMoodSupplementFr" ] ;
-       fhir:description [ fhir:v "Traduction Francaise" ] ;
+       fhir:description [ fhir:v "Traduction Française" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -52678,7 +52678,7 @@
          fhir:reference [ fhir:v "CodeSystem/ActPriority-supplement-fr" ]
        ] ;
        fhir:name [ fhir:v "ActPrioritySupplementFr" ] ;
-       fhir:description [ fhir:v "Traduction Francaise" ] ;
+       fhir:description [ fhir:v "Traduction Française" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -52720,7 +52720,7 @@
          fhir:reference [ fhir:v "CodeSystem/ActStatus-supplement-fr" ]
        ] ;
        fhir:name [ fhir:v "ActStatusSupplementFr" ] ;
-       fhir:description [ fhir:v "Traduction Francaise" ] ;
+       fhir:description [ fhir:v "Traduction Française" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -52866,7 +52866,7 @@
          fhir:reference [ fhir:v "CodeSystem/AdministrativeGender-supplement-fr" ]
        ] ;
        fhir:name [ fhir:v "AdministrativeGenderSupplementFr" ] ;
-       fhir:description [ fhir:v "Traduction Francaise" ] ;
+       fhir:description [ fhir:v "Traduction Française" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -52940,27 +52940,6 @@
          ] ;
          fhir:value [
            a fhir:String ;
-           fhir:v "CodeSystem"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/allergy-intolerance-criticality-supplement-fr> ;
-         fhir:reference [ fhir:v "CodeSystem/allergy-intolerance-criticality-supplement-fr" ]
-       ] ;
-       fhir:name [ fhir:v "allergy-intolerance-criticalitySupplementFr" ] ;
-       fhir:description [ fhir:v "Traduction Francaise" ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
            fhir:v "ValueSet"
          ]
        ] ) ;
@@ -52989,8 +52968,29 @@
          fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/allergyintolerance-clinical-supplement-fr> ;
          fhir:reference [ fhir:v "CodeSystem/allergyintolerance-clinical-supplement-fr" ]
        ] ;
-       fhir:name [ fhir:v "allergyintolerance-clinicalSupplementFr" ] ;
-       fhir:description [ fhir:v "Traduction Francaise" ] ;
+       fhir:name [ fhir:v "AllergyIntoleranceClinicalSupplementFr" ] ;
+       fhir:description [ fhir:v "Traduction Française" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/allergy-intolerance-criticality-supplement-fr> ;
+         fhir:reference [ fhir:v "CodeSystem/allergy-intolerance-criticality-supplement-fr" ]
+       ] ;
+       fhir:name [ fhir:v "AllergyIntoleranceCriticalitySupplementFr" ] ;
+       fhir:description [ fhir:v "Traduction Française" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -53766,8 +53766,8 @@
          fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/condition-clinical-supplement-fr> ;
          fhir:reference [ fhir:v "CodeSystem/condition-clinical-supplement-fr" ]
        ] ;
-       fhir:name [ fhir:v "condition-clinicalSupplementFr" ] ;
-       fhir:description [ fhir:v "Traduction Francaise" ] ;
+       fhir:name [ fhir:v "ConditionClinicalSupplementFr" ] ;
+       fhir:description [ fhir:v "Traduction Française" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -53787,8 +53787,8 @@
          fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/condition-ver-status-supplement-fr> ;
          fhir:reference [ fhir:v "CodeSystem/condition-ver-status-supplement-fr" ]
        ] ;
-       fhir:name [ fhir:v "condition-ver-statusSupplementFr" ] ;
-       fhir:description [ fhir:v "Traduction Francaise" ] ;
+       fhir:name [ fhir:v "ConditionVerStatusSupplementFr" ] ;
+       fhir:description [ fhir:v "Traduction Française" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -53830,7 +53830,7 @@
          fhir:reference [ fhir:v "CodeSystem/Confidentiality-supplement-fr" ]
        ] ;
        fhir:name [ fhir:v "Confidentiality SupplementFr" ] ;
-       fhir:description [ fhir:v "Traduction Francaise" ] ;
+       fhir:description [ fhir:v "Traduction Française" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -53892,8 +53892,8 @@
          fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/employmentStatus-supplement-fr> ;
          fhir:reference [ fhir:v "CodeSystem/employmentStatus-supplement-fr" ]
        ] ;
-       fhir:name [ fhir:v "employmentStatusSupplementFr" ] ;
-       fhir:description [ fhir:v "Traduction Francaise" ] ;
+       fhir:name [ fhir:v "EmploymentStatusSupplementFr" ] ;
+       fhir:description [ fhir:v "Traduction Française" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -68736,8 +68736,8 @@
          fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/mediaType-supplement-fr> ;
          fhir:reference [ fhir:v "CodeSystem/mediaType-supplement-fr" ]
        ] ;
-       fhir:name [ fhir:v "mediaTypeSupplementFr" ] ;
-       fhir:description [ fhir:v "Traduction Francaise" ] ;
+       fhir:name [ fhir:v "MediaTypeSupplementFr" ] ;
+       fhir:description [ fhir:v "Traduction Française" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -68862,7 +68862,7 @@
          fhir:reference [ fhir:v "CodeSystem/ObservationInterpretation-supplement-fr" ]
        ] ;
        fhir:name [ fhir:v "ObservationInterpretationSupplementFr" ] ;
-       fhir:description [ fhir:v "Traduction Francaise" ] ;
+       fhir:description [ fhir:v "Traduction Française" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -68904,7 +68904,7 @@
          fhir:reference [ fhir:v "CodeSystem/ObservationMethod-supplement-fr" ]
        ] ;
        fhir:name [ fhir:v "ObservationMethodSupplementFr" ] ;
-       fhir:description [ fhir:v "Traduction Francaise" ] ;
+       fhir:description [ fhir:v "Traduction Française" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -68925,7 +68925,7 @@
          fhir:reference [ fhir:v "CodeSystem/ObservationValue-supplement-fr" ]
        ] ;
        fhir:name [ fhir:v "ObservationValueSupplementFr" ] ;
-       fhir:description [ fhir:v "Traduction Francaise" ] ;
+       fhir:description [ fhir:v "Traduction Française" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -68945,8 +68945,8 @@
          fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/orderableDrugForm-supplement-fr> ;
          fhir:reference [ fhir:v "CodeSystem/orderableDrugForm-supplement-fr" ]
        ] ;
-       fhir:name [ fhir:v "orderableDrugFormSupplementFr" ] ;
-       fhir:description [ fhir:v "Traduction Francaise" ] ;
+       fhir:name [ fhir:v "OrderableDrugFormSupplementFr" ] ;
+       fhir:description [ fhir:v "Traduction Française" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -68988,7 +68988,7 @@
          fhir:reference [ fhir:v "CodeSystem/ParticipationFunction-supplement-fr" ]
        ] ;
        fhir:name [ fhir:v "ParticipationFunctionSupplementFr" ] ;
-       fhir:description [ fhir:v "Traduction Francaise" ] ;
+       fhir:description [ fhir:v "Traduction Française" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -69030,7 +69030,7 @@
          fhir:reference [ fhir:v "CodeSystem/ParticipationType-supplement-fr" ]
        ] ;
        fhir:name [ fhir:v "ParticipationTypeSupplementFr" ] ;
-       fhir:description [ fhir:v "Traduction Francaise" ] ;
+       fhir:description [ fhir:v "Traduction Française" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -69134,7 +69134,7 @@
          fhir:reference [ fhir:v "CodeSystem/RoleClass-supplement-fr" ]
        ] ;
        fhir:name [ fhir:v "RoleClassSupplementFr" ] ;
-       fhir:description [ fhir:v "Traduction Francaise" ] ;
+       fhir:description [ fhir:v "Traduction Française" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -69155,7 +69155,7 @@
          fhir:reference [ fhir:v "CodeSystem/RoleCode-supplement-fr" ]
        ] ;
        fhir:name [ fhir:v "RoleCodeSupplementFr" ] ;
-       fhir:description [ fhir:v "Traduction Francaise" ] ;
+       fhir:description [ fhir:v "Traduction Française" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -69321,7 +69321,7 @@
          fhir:reference [ fhir:v "CodeSystem/specimenType-supplement-fr" ]
        ] ;
        fhir:name [ fhir:v "SpecimenTypeSupplementFr" ] ;
-       fhir:description [ fhir:v "Traduction Francaise" ] ;
+       fhir:description [ fhir:v "Traduction Française" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -69362,8 +69362,8 @@
          fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/substanceAdminSubstitution-supplement-fr> ;
          fhir:reference [ fhir:v "CodeSystem/substanceAdminSubstitution-supplement-fr" ]
        ] ;
-       fhir:name [ fhir:v "substanceAdminSubstitutionSupplementFr" ] ;
-       fhir:description [ fhir:v "Traduction Francaise" ] ;
+       fhir:name [ fhir:v "SubstanceAdminSubstitutionSupplementFr" ] ;
+       fhir:description [ fhir:v "Traduction Française" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -69426,7 +69426,7 @@
          fhir:reference [ fhir:v "CodeSystem/TimingEvent-supplement-fr" ]
        ] ;
        fhir:name [ fhir:v "TimingEventSupplementFr" ] ;
-       fhir:description [ fhir:v "Traduction Francaise" ] ;
+       fhir:description [ fhir:v "Traduction Française" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false

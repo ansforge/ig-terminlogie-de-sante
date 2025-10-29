@@ -8,12 +8,12 @@
   },
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/condition-clinical-supplement-fr",
   "version" : "1.0",
-  "name" : "condition-clinicalSupplementFr",
-  "title" : "condition-clinicalSupplementFr",
+  "name" : "ConditionClinicalSupplementFr",
+  "title" : "ConditionClinicalSupplementFr",
   "status" : "draft",
   "experimental" : true,
   "date" : "2025-10-24T16:40:38+11:00",
-  "description" : "Traduction Francaise",
+  "description" : "Traduction Française",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

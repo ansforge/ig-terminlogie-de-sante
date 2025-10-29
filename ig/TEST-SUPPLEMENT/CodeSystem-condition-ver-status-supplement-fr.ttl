@@ -19,12 +19,12 @@
      fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/condition-ver-status-supplement-fr>
   ] ; # 
   fhir:version [ fhir:v "1.0"] ; # 
-  fhir:name [ fhir:v "condition-ver-statusSupplementFr"] ; # 
-  fhir:title [ fhir:v "condition-ver-statusSupplementFr"] ; # 
+  fhir:name [ fhir:v "ConditionVerStatusSupplementFr"] ; # 
+  fhir:title [ fhir:v "ConditionVerStatusSupplementFr"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v true] ; # 
   fhir:date [ fhir:v "2025-10-24T16:40:38+11:00"^^xsd:dateTime] ; # 
-  fhir:description [ fhir:v "Traduction Francaise"] ; # 
+  fhir:description [ fhir:v "Traduction Française"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
        fhir:system [

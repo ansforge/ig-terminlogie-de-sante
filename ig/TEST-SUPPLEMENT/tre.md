@@ -13,34 +13,42 @@ Les terminologies sont des nomenclatures officielles créées et maintenues :
 | :--- | :--- | :--- |
 | Name | Description | date_maj |
 | [ATC](CodeSystem-terminologie-atc.md) | La classification ATC (anatomique, thérapeutique et chimique) classe les substances actives dans différents groupes selon l’organe ou le système sur lequel ils agissent et selon leurs propriétés thérapeutiques, pharmacologiques et chimiques. | 10/03/2025 |
-| [ActCodeSupplementFr](CodeSystem-actCode-supplement-fr.md) | Traduction Francaise | 24/10/2025 |
-| [ActMoodSupplementFr](CodeSystem-ActMood-supplement-fr.md) | Traduction Francaise | 24/10/2025 |
-| [ActPrioritySupplementFr](CodeSystem-ActPriority-supplement-fr.md) | Traduction Francaise | 24/10/2025 |
-| [ActStatusSupplementFr](CodeSystem-ActStatus-supplement-fr.md) | Traduction Francaise | 24/10/2025 |
-| [AdministrativeGenderSupplementFr](CodeSystem-AdministrativeGender-supplement-fr.md) | Traduction Francaise | 24/10/2025 |
+| [ActCodeSupplementFr](CodeSystem-actCode-supplement-fr.md) | Traduction Française | 24/10/2025 |
+| [ActMoodSupplementFr](CodeSystem-ActMood-supplement-fr.md) | Traduction Française | 24/10/2025 |
+| [ActPrioritySupplementFr](CodeSystem-ActPriority-supplement-fr.md) | Traduction Française | 24/10/2025 |
+| [ActStatusSupplementFr](CodeSystem-ActStatus-supplement-fr.md) | Traduction Française | 24/10/2025 |
+| [AdministrativeGenderSupplementFr](CodeSystem-AdministrativeGender-supplement-fr.md) | Traduction Française | 24/10/2025 |
+| [AllergyIntoleranceClinicalSupplementFr](CodeSystem-allergyintolerance-clinical-supplement-fr.md) | Traduction Française | 24/10/2025 |
+| [AllergyIntoleranceCriticalitySupplementFr](CodeSystem-allergy-intolerance-criticality-supplement-fr.md) | Traduction Française | 24/10/2025 |
 | [BDPM](CodeSystem-terminologie-bdpm.md) | LA BDPM est un des référentiels du médicament gérée et distribuée par l’ANSM. Elle recense l’ensemble des spécialités et des présentations effectivement commercialisées durant les 5 dernières années. De ce fait, elle ne propose pas un historique exhaustif des codes de présentation et spécialités, celui-ci peut être obtenu grâce à la base RCP disponible sur le site de l’ANSM | 01/10/2025 |
 | [CCAM](CodeSystem-terminologie-ccam.md) | La Classification Commune des Actes Médicaux est la terminologie de facturation créée et maintenue par la CNAM. | 10/09/2025 |
-| [CIM11_MMS](CodeSystem-terminologie-cim11-mms.md) | La Classification Internationale des Maladies (CIM) dans sa 11ème révision permet d’établir, partout dans le monde, les statistiques sanitaires. Fournissant un langage commun pour alimenter les dossiers patients électroniques, la CIM11 permet d’échanger des données médicales de manière cohérente et normalisée pour de nombreux cas d’usage (production de soins, coordination professionnelle, pilotage, et exploitation de données) | 28/10/2025 |
+| [CIM11_MMS](CodeSystem-terminologie-cim11-mms.md) | La Classification Internationale des Maladies (CIM) dans sa 11ème révision permet d’établir, partout dans le monde, les statistiques sanitaires. Fournissant un langage commun pour alimenter les dossiers patients électroniques, la CIM11 permet d’échanger des données médicales de manière cohérente et normalisée pour de nombreux cas d’usage (production de soins, coordination professionnelle, pilotage, et exploitation de données) | 29/10/2025 |
 | [CIM_10_FR_PMSI](CodeSystem-terminologie-cim-10.md) | La Classification Internationale des Maladies (CIM) permet d’établir les statistiques sanitaires (morbi-mortalité) partout dans le monde. Elle est gérée par l’Organisation Mondiale de la Santé qui publie une mise à jour annuelle. En France l’ATIH édite et publie une version complète du volume 1 de la CIM–10 à usage PMSI. La CIM–10 est aussi utilisée pour alimenter les dossier médicaux électronique des patients.Elle est destinée à être progressivement remplacée par la CIM 11 | 20/12/2024 |
 | [CISP_2](CodeSystem-terminologie-cisp.md) | La Classification internationale des soins primaires (CISP) est la version française de l’International Classification of Primary Care (ICPC). Elle permet de coder trois éléments de consultation de médecine générale : motifs de rencontre (du point de vue du patient), problèmes de santé diagnostiqués et procédures de soins.Elle trouve sa place au sein de la famille des classifications de l’OMS comme classification associée à la CIM (classification internationale des maladies), l’ICF (classification internationale du fonctionnement, du handicap et de la santé) et l'ICHI (classification internationale des interventions de santé). | 26/06/2019 |
-| [ConfidentialitySupplementFr](CodeSystem-Confidentiality-supplement-fr.md) | Traduction Francaise | 24/10/2025 |
+| [ConditionClinicalSupplementFr](CodeSystem-condition-clinical-supplement-fr.md) | Traduction Française | 24/10/2025 |
+| [ConditionVerStatusSupplementFr](CodeSystem-condition-ver-status-supplement-fr.md) | Traduction Française | 24/10/2025 |
+| [ConfidentialitySupplementFr](CodeSystem-Confidentiality-supplement-fr.md) | Traduction Française | 24/10/2025 |
 | [EMDN](CodeSystem-terminologie-emdn.md) | La nomenclature européenne des dispositifs médicaux (EMDN) est la nomenclature que doivent utiliser les fabricants pour enregistrer leurs dispositifs médicaux dans EUDAMED, base de données européenne sur les dispositifs médicaux. Il s'agit d'alimenter le système européen d’identification des dispositifs fondé sur un identifiant unique du dispositif (IUD) pour en faciliter la traçabilité. | 28/04/2022 |
+| [EmploymentStatusSupplementFr](CodeSystem-employmentStatus-supplement-fr.md) | Traduction Française | 24/10/2025 |
 | [LAHN](CodeSystem-terminologie-lahn.md) | La liste des actes innovants hors nomenclature (LAHN) a été mise en place par la direction générale de l’offre de soins (DGOS) en 2024, dans le cadre du développement de l’innovation en santé. Elle est la fusion du RIHN et de la Liste Complémentaire (LC). L’objectif est de soutenir l’innovation et de la dynamiser par une prise en charge et une évaluation rapide des actes innovants. La LAHN contient une liste d’actes innovants (biologie et anatomocytopathologie) pris en charge à titre transitoire moyennant un recueil de données pour leur évaluation. | 09/10/2024 |
+| [MediaTypeSupplementFr](CodeSystem-mediaType-supplement-fr.md) | Traduction Française | 24/10/2025 |
 | [NABM](CodeSystem-terminologie-nabm.md) | La NABM est la terminologie de facturation des actes de biologie médicale. Elle décrit la liste des actes de biologie dans une arborescence en chapitres et sous-chapitres ainsi que des règles de facturation. | 08/09/2025 |
 | [NUVA](CodeSystem-terminologie-nuva.md) | La nomenclature unifiée des vaccins (NUVA) liste les spécialités vaccinales commercialisées ou ayant été commercialisées en France ou à l’étranger. Ces spécialités sont associées à une dénomination générique et à une description structurée notamment au niveau des valences et des pathologies cibles.Elle permet de constituer un historique vaccinal complet, aussi précis que le permettent les sources des données, interprétable par des systèmes d’information. | 02/10/2025 |
-| [ObservationInterpretationSupplementFr](CodeSystem-ObservationInterpretation-supplement-fr.md) | Traduction Francaise | 24/10/2025 |
-| [ObservationMethodSupplementFr](CodeSystem-ObservationMethod-supplement-fr.md) | Traduction Francaise | 24/10/2025 |
-| [ObservationValueSupplementFr](CodeSystem-ObservationValue-supplement-fr.md) | Traduction Francaise | 24/10/2025 |
-| [ParticipationFunctionSupplementFr](CodeSystem-ParticipationFunction-supplement-fr.md) | Traduction Francaise | 24/10/2025 |
-| [ParticipationTypeSupplementFr](CodeSystem-ParticipationType-supplement-fr.md) | Traduction Francaise | 24/10/2025 |
-| [RoleClassSupplementFr](CodeSystem-RoleClass-supplement-fr.md) | Traduction Francaise | 24/10/2025 |
-| [RoleCodeSupplementFr](CodeSystem-RoleCode-supplement-fr.md) | Traduction Francaise | 24/10/2025 |
+| [ObservationInterpretationSupplementFr](CodeSystem-ObservationInterpretation-supplement-fr.md) | Traduction Française | 24/10/2025 |
+| [ObservationMethodSupplementFr](CodeSystem-ObservationMethod-supplement-fr.md) | Traduction Française | 24/10/2025 |
+| [ObservationValueSupplementFr](CodeSystem-ObservationValue-supplement-fr.md) | Traduction Française | 24/10/2025 |
+| [OrderableDrugFormSupplementFr](CodeSystem-orderableDrugForm-supplement-fr.md) | Traduction Française | 24/10/2025 |
+| [ParticipationFunctionSupplementFr](CodeSystem-ParticipationFunction-supplement-fr.md) | Traduction Française | 24/10/2025 |
+| [ParticipationTypeSupplementFr](CodeSystem-ParticipationType-supplement-fr.md) | Traduction Française | 24/10/2025 |
+| [RoleClassSupplementFr](CodeSystem-RoleClass-supplement-fr.md) | Traduction Française | 24/10/2025 |
+| [RoleCodeSupplementFr](CodeSystem-RoleCode-supplement-fr.md) | Traduction Française | 24/10/2025 |
 | [SERAFIN_PH](CodeSystem-terminologie-SERAFINPH.md) | Les nomenclatures des besoins et des prestations ont été élaborées par un groupe de travail issu du projet SERAFIN-PH porté par la Caisse nationale de Solidarité pour l’Autonomie (CNSA) et la Direction Générale de la Cohésion Sociale (DGCS). Elles permettent de décrire, sur la base d’un langage commun, les besoins identifiés des personnes, et les prestations réalisées en réponse à ces besoins. Les usages locaux de ces nomenclatures montrent leur pertinence pour nouer autour des projets personnalisés d’accompagnement et de leurs déclinaisons opérationnelles un dialogue soutenu et permanent entre tous les acteurs concernés, de la personne accompagnée aux structures médico-sociales, acteurs de droit commun et jusqu’aux institutions de régulation (ARS, services déconcentrés et collectivités locales). | 31/12/2022 |
 | [SNOMED_CT](CodeSystem-11000315107-20250621.md) | SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO). | 21/06/2025 |
 | [SNOMED_CT](CodeSystem-900000000000207008-20251001.md) | SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO). | 30/09/2025 |
 | [ServiceType](CodeSystem-service-type.md) | This value set defines an example set of codes of service-types. | 09/03/2024 |
-| [SpecimenTypeSupplementFr](CodeSystem-specimenType-supplement-fr.md) | Traduction Francaise | 24/10/2025 |
+| [SpecimenTypeSupplementFr](CodeSystem-specimenType-supplement-fr.md) | Traduction Française | 24/10/2025 |
 | [Standard_terms_EDQM](CodeSystem-terminologie-standardterms.md) | Les standard terms (ou listes de termes normalisés) ont été établis en réponse à une demande de la Commission européenne. Ils contiennent les formes pharmaceutiques, les voies et/ou les méthodes d’administration, les unités de présentation, ainsi que les conditionnements, les systèmes de fermeture et les dispositifs d’administration des médicaments à usage humain et/ou vétérinaire. | 11/07/2025 |
+| [SubstanceAdminSubstitutionSupplementFr](CodeSystem-substanceAdminSubstitution-supplement-fr.md) | Traduction Française | 24/10/2025 |
 | [TRE_A00_ProducteurDocNonPS](CodeSystem-TRE-A00-ProducteurDocNonPS.md) | Producteur de document non PS | 29/03/2024 |
 | [TRE_A01_CadreExercice](CodeSystem-TRE-A01-CadreExercice.md) | Cadre d'exercice | 27/09/2024 |
 | [TRE_A02_ProfessionSavFaire_CISIS](CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.md) | Profession et savoir-faire CI-SIS | 13/12/2024 |
@@ -286,18 +294,10 @@ Les terminologies sont des nomenclatures officielles créées et maintenues :
 | [TRE_R96_AutreFonctionSanitaire](CodeSystem-TRE-R96-AutreFonctionSanitaire.md) | Autres fonctions du domaine sanitaire | 15/12/2023 |
 | [TRE_R97_DroitExerciceCompl](CodeSystem-TRE-R97-DroitExerciceCompl.md) | Droit d'exercice complémentaire | 15/12/2023 |
 | [TerminologieCISIS](CodeSystem-terminologie-cisis.md) | Terminologie multi-domaines créée et maintenue par l'ANS contenant les termes non trouvés dans les autres terminologies internationales ou nationales. | 23/10/2025 |
-| [TimingEventSupplementFr](CodeSystem-TimingEvent-supplement-fr.md) | Traduction Francaise | 24/10/2025 |
+| [TimingEventSupplementFr](CodeSystem-TimingEvent-supplement-fr.md) | Traduction Française | 24/10/2025 |
 | [TreR389StatutBilanProjetPersonnalise](CodeSystem-tre-r389-statut-bilan-projet-personnalise.md) | Statut du bilan du projet personnalisé. | 18/04/2025 |
 | [TreR390TypeProjetPersonnalise](CodeSystem-tre-r390-type-projet-personnalise.md) | Cette nomenclature donne le type de projet personnalisé qui est un document co-construit par l'usager, son entourage familial et professionnel du médico-social. | 22/04/2025 |
 | [TreR393TypeContratSejour](CodeSystem-tre-r393-type-contrat-sejour.md) | Type de contrat conclu entre l’établissement/service et la personne/son représentant légal lors de son entrée en établissement | 21/05/2025 |
 | [TreR394CompetenceMetier](CodeSystem-tre-r394-competence-metier.md) | Type de savoir-faire opérationnel, transversal ou spécifique, acquis et exercé à titre non exclusif dans le cadre d’une activité professionnelle reconnue. | 25/06/2025 |
 | [V3ActPrioritySupplementFr](CodeSystem-v3-ActPriority-supplement-fr.md) | Traduction Francaise | 24/10/2025 |
-| [allergy-intolerance-criticalitySupplementFr](CodeSystem-allergy-intolerance-criticality-supplement-fr.md) | Traduction Francaise | 24/10/2025 |
-| [allergyintolerance-clinicalSupplementFr](CodeSystem-allergyintolerance-clinical-supplement-fr.md) | Traduction Francaise | 24/10/2025 |
-| [condition-clinicalSupplementFr](CodeSystem-condition-clinical-supplement-fr.md) | Traduction Francaise | 24/10/2025 |
-| [condition-ver-statusSupplementFr](CodeSystem-condition-ver-status-supplement-fr.md) | Traduction Francaise | 24/10/2025 |
-| [employmentStatusSupplementFr](CodeSystem-employmentStatus-supplement-fr.md) | Traduction Francaise | 24/10/2025 |
-| [mediaTypeSupplementFr](CodeSystem-mediaType-supplement-fr.md) | Traduction Francaise | 24/10/2025 |
-| [orderableDrugFormSupplementFr](CodeSystem-orderableDrugForm-supplement-fr.md) | Traduction Francaise | 24/10/2025 |
-| [substanceAdminSubstitutionSupplementFr](CodeSystem-substanceAdminSubstitution-supplement-fr.md) | Traduction Francaise | 24/10/2025 |
 

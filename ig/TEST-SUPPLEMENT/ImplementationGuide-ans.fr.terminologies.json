@@ -10,7 +10,7 @@
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2025-10-28T19:18:48+00:00",
+  "date" : "2025-10-29T09:26:27+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -24095,7 +24095,7 @@
         "reference" : "CodeSystem/actCode-supplement-fr"
       },
       "name" : "ActCodeSupplementFr",
-      "description" : "Traduction Francaise",
+      "description" : "Traduction Française",
       "exampleBoolean" : false
     },
     {
@@ -24143,7 +24143,7 @@
         "reference" : "CodeSystem/ActMood-supplement-fr"
       },
       "name" : "ActMoodSupplementFr",
-      "description" : "Traduction Francaise",
+      "description" : "Traduction Française",
       "exampleBoolean" : false
     },
     {
@@ -24179,7 +24179,7 @@
         "reference" : "CodeSystem/ActPriority-supplement-fr"
       },
       "name" : "ActPrioritySupplementFr",
-      "description" : "Traduction Francaise",
+      "description" : "Traduction Française",
       "exampleBoolean" : false
     },
     {
@@ -24203,7 +24203,7 @@
         "reference" : "CodeSystem/ActStatus-supplement-fr"
       },
       "name" : "ActStatusSupplementFr",
-      "description" : "Traduction Francaise",
+      "description" : "Traduction Française",
       "exampleBoolean" : false
     },
     {
@@ -24286,7 +24286,7 @@
         "reference" : "CodeSystem/AdministrativeGender-supplement-fr"
       },
       "name" : "AdministrativeGenderSupplementFr",
-      "description" : "Traduction Francaise",
+      "description" : "Traduction Française",
       "exampleBoolean" : false
     },
     {
@@ -24326,18 +24326,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/allergy-intolerance-criticality-supplement-fr"
-      },
-      "name" : "allergy-intolerance-criticalitySupplementFr",
-      "description" : "Traduction Francaise",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
@@ -24355,8 +24343,20 @@
       "reference" : {
         "reference" : "CodeSystem/allergyintolerance-clinical-supplement-fr"
       },
-      "name" : "allergyintolerance-clinicalSupplementFr",
-      "description" : "Traduction Francaise",
+      "name" : "AllergyIntoleranceClinicalSupplementFr",
+      "description" : "Traduction Française",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/allergy-intolerance-criticality-supplement-fr"
+      },
+      "name" : "AllergyIntoleranceCriticalitySupplementFr",
+      "description" : "Traduction Française",
       "exampleBoolean" : false
     },
     {
@@ -24799,8 +24799,8 @@
       "reference" : {
         "reference" : "CodeSystem/condition-clinical-supplement-fr"
       },
-      "name" : "condition-clinicalSupplementFr",
-      "description" : "Traduction Francaise",
+      "name" : "ConditionClinicalSupplementFr",
+      "description" : "Traduction Française",
       "exampleBoolean" : false
     },
     {
@@ -24811,8 +24811,8 @@
       "reference" : {
         "reference" : "CodeSystem/condition-ver-status-supplement-fr"
       },
-      "name" : "condition-ver-statusSupplementFr",
-      "description" : "Traduction Francaise",
+      "name" : "ConditionVerStatusSupplementFr",
+      "description" : "Traduction Française",
       "exampleBoolean" : false
     },
     {
@@ -24836,7 +24836,7 @@
         "reference" : "CodeSystem/Confidentiality-supplement-fr"
       },
       "name" : "Confidentiality SupplementFr",
-      "description" : "Traduction Francaise",
+      "description" : "Traduction Française",
       "exampleBoolean" : false
     },
     {
@@ -24871,8 +24871,8 @@
       "reference" : {
         "reference" : "CodeSystem/employmentStatus-supplement-fr"
       },
-      "name" : "employmentStatusSupplementFr",
-      "description" : "Traduction Francaise",
+      "name" : "EmploymentStatusSupplementFr",
+      "description" : "Traduction Française",
       "exampleBoolean" : false
     },
     {
@@ -33352,8 +33352,8 @@
       "reference" : {
         "reference" : "CodeSystem/mediaType-supplement-fr"
       },
-      "name" : "mediaTypeSupplementFr",
-      "description" : "Traduction Francaise",
+      "name" : "MediaTypeSupplementFr",
+      "description" : "Traduction Française",
       "exampleBoolean" : false
     },
     {
@@ -33424,7 +33424,7 @@
         "reference" : "CodeSystem/ObservationInterpretation-supplement-fr"
       },
       "name" : "ObservationInterpretationSupplementFr",
-      "description" : "Traduction Francaise",
+      "description" : "Traduction Française",
       "exampleBoolean" : false
     },
     {
@@ -33448,7 +33448,7 @@
         "reference" : "CodeSystem/ObservationMethod-supplement-fr"
       },
       "name" : "ObservationMethodSupplementFr",
-      "description" : "Traduction Francaise",
+      "description" : "Traduction Française",
       "exampleBoolean" : false
     },
     {
@@ -33460,7 +33460,7 @@
         "reference" : "CodeSystem/ObservationValue-supplement-fr"
       },
       "name" : "ObservationValueSupplementFr",
-      "description" : "Traduction Francaise",
+      "description" : "Traduction Française",
       "exampleBoolean" : false
     },
     {
@@ -33471,8 +33471,8 @@
       "reference" : {
         "reference" : "CodeSystem/orderableDrugForm-supplement-fr"
       },
-      "name" : "orderableDrugFormSupplementFr",
-      "description" : "Traduction Francaise",
+      "name" : "OrderableDrugFormSupplementFr",
+      "description" : "Traduction Française",
       "exampleBoolean" : false
     },
     {
@@ -33496,7 +33496,7 @@
         "reference" : "CodeSystem/ParticipationFunction-supplement-fr"
       },
       "name" : "ParticipationFunctionSupplementFr",
-      "description" : "Traduction Francaise",
+      "description" : "Traduction Française",
       "exampleBoolean" : false
     },
     {
@@ -33520,7 +33520,7 @@
         "reference" : "CodeSystem/ParticipationType-supplement-fr"
       },
       "name" : "ParticipationTypeSupplementFr",
-      "description" : "Traduction Francaise",
+      "description" : "Traduction Française",
       "exampleBoolean" : false
     },
     {
@@ -33579,7 +33579,7 @@
         "reference" : "CodeSystem/RoleClass-supplement-fr"
       },
       "name" : "RoleClassSupplementFr",
-      "description" : "Traduction Francaise",
+      "description" : "Traduction Française",
       "exampleBoolean" : false
     },
     {
@@ -33591,7 +33591,7 @@
         "reference" : "CodeSystem/RoleCode-supplement-fr"
       },
       "name" : "RoleCodeSupplementFr",
-      "description" : "Traduction Francaise",
+      "description" : "Traduction Française",
       "exampleBoolean" : false
     },
     {
@@ -33685,7 +33685,7 @@
         "reference" : "CodeSystem/specimenType-supplement-fr"
       },
       "name" : "SpecimenTypeSupplementFr",
-      "description" : "Traduction Francaise",
+      "description" : "Traduction Française",
       "exampleBoolean" : false
     },
     {
@@ -33708,8 +33708,8 @@
       "reference" : {
         "reference" : "CodeSystem/substanceAdminSubstitution-supplement-fr"
       },
-      "name" : "substanceAdminSubstitutionSupplementFr",
-      "description" : "Traduction Francaise",
+      "name" : "SubstanceAdminSubstitutionSupplementFr",
+      "description" : "Traduction Française",
       "exampleBoolean" : false
     },
     {
@@ -33745,7 +33745,7 @@
         "reference" : "CodeSystem/TimingEvent-supplement-fr"
       },
       "name" : "TimingEventSupplementFr",
-      "description" : "Traduction Francaise",
+      "description" : "Traduction Française",
       "exampleBoolean" : false
     },
     {

@@ -11,7 +11,7 @@
   <name value="Terminologies"/>
   <title value="Terminologies  de Santé"/>
   <status value="active"/>
-  <date value="2025-10-28T19:18:48+00:00"/>
+  <date value="2025-10-29T09:26:27+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -17537,7 +17537,7 @@
         <reference value="CodeSystem/actCode-supplement-fr"/>
       </reference>
       <name value="ActCodeSupplementFr"/>
-      <description value="Traduction Francaise"/>
+      <description value="Traduction Française"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -17581,7 +17581,7 @@
         <reference value="CodeSystem/ActMood-supplement-fr"/>
       </reference>
       <name value="ActMoodSupplementFr"/>
-      <description value="Traduction Francaise"/>
+      <description value="Traduction Française"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -17614,7 +17614,7 @@
         <reference value="CodeSystem/ActPriority-supplement-fr"/>
       </reference>
       <name value="ActPrioritySupplementFr"/>
-      <description value="Traduction Francaise"/>
+      <description value="Traduction Française"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -17636,7 +17636,7 @@
         <reference value="CodeSystem/ActStatus-supplement-fr"/>
       </reference>
       <name value="ActStatusSupplementFr"/>
-      <description value="Traduction Francaise"/>
+      <description value="Traduction Française"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -17712,7 +17712,7 @@
         <reference value="CodeSystem/AdministrativeGender-supplement-fr"/>
       </reference>
       <name value="AdministrativeGenderSupplementFr"/>
-      <description value="Traduction Francaise"/>
+      <description value="Traduction Française"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -17748,17 +17748,6 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/allergy-intolerance-criticality-supplement-fr"/>
-      </reference>
-      <name value="allergy-intolerance-criticalitySupplementFr"/>
-      <description value="Traduction Francaise"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
@@ -17775,8 +17764,19 @@
       <reference>
         <reference value="CodeSystem/allergyintolerance-clinical-supplement-fr"/>
       </reference>
-      <name value="allergyintolerance-clinicalSupplementFr"/>
-      <description value="Traduction Francaise"/>
+      <name value="AllergyIntoleranceClinicalSupplementFr"/>
+      <description value="Traduction Française"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/allergy-intolerance-criticality-supplement-fr"/>
+      </reference>
+      <name value="AllergyIntoleranceCriticalitySupplementFr"/>
+      <description value="Traduction Française"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -18182,8 +18182,8 @@
       <reference>
         <reference value="CodeSystem/condition-clinical-supplement-fr"/>
       </reference>
-      <name value="condition-clinicalSupplementFr"/>
-      <description value="Traduction Francaise"/>
+      <name value="ConditionClinicalSupplementFr"/>
+      <description value="Traduction Française"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -18193,8 +18193,8 @@
       <reference>
         <reference value="CodeSystem/condition-ver-status-supplement-fr"/>
       </reference>
-      <name value="condition-ver-statusSupplementFr"/>
-      <description value="Traduction Francaise"/>
+      <name value="ConditionVerStatusSupplementFr"/>
+      <description value="Traduction Française"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -18216,7 +18216,7 @@
         <reference value="CodeSystem/Confidentiality-supplement-fr"/>
       </reference>
       <name value="Confidentiality SupplementFr"/>
-      <description value="Traduction Francaise"/>
+      <description value="Traduction Française"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -18248,8 +18248,8 @@
       <reference>
         <reference value="CodeSystem/employmentStatus-supplement-fr"/>
       </reference>
-      <name value="employmentStatusSupplementFr"/>
-      <description value="Traduction Francaise"/>
+      <name value="EmploymentStatusSupplementFr"/>
+      <description value="Traduction Française"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -26022,8 +26022,8 @@
       <reference>
         <reference value="CodeSystem/mediaType-supplement-fr"/>
       </reference>
-      <name value="mediaTypeSupplementFr"/>
-      <description value="Traduction Francaise"/>
+      <name value="MediaTypeSupplementFr"/>
+      <description value="Traduction Française"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -26088,7 +26088,7 @@
         <reference value="CodeSystem/ObservationInterpretation-supplement-fr"/>
       </reference>
       <name value="ObservationInterpretationSupplementFr"/>
-      <description value="Traduction Francaise"/>
+      <description value="Traduction Française"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -26110,7 +26110,7 @@
         <reference value="CodeSystem/ObservationMethod-supplement-fr"/>
       </reference>
       <name value="ObservationMethodSupplementFr"/>
-      <description value="Traduction Francaise"/>
+      <description value="Traduction Française"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -26121,7 +26121,7 @@
         <reference value="CodeSystem/ObservationValue-supplement-fr"/>
       </reference>
       <name value="ObservationValueSupplementFr"/>
-      <description value="Traduction Francaise"/>
+      <description value="Traduction Française"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -26131,8 +26131,8 @@
       <reference>
         <reference value="CodeSystem/orderableDrugForm-supplement-fr"/>
       </reference>
-      <name value="orderableDrugFormSupplementFr"/>
-      <description value="Traduction Francaise"/>
+      <name value="OrderableDrugFormSupplementFr"/>
+      <description value="Traduction Française"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -26154,7 +26154,7 @@
         <reference value="CodeSystem/ParticipationFunction-supplement-fr"/>
       </reference>
       <name value="ParticipationFunctionSupplementFr"/>
-      <description value="Traduction Francaise"/>
+      <description value="Traduction Française"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -26176,7 +26176,7 @@
         <reference value="CodeSystem/ParticipationType-supplement-fr"/>
       </reference>
       <name value="ParticipationTypeSupplementFr"/>
-      <description value="Traduction Francaise"/>
+      <description value="Traduction Française"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -26230,7 +26230,7 @@
         <reference value="CodeSystem/RoleClass-supplement-fr"/>
       </reference>
       <name value="RoleClassSupplementFr"/>
-      <description value="Traduction Francaise"/>
+      <description value="Traduction Française"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -26241,7 +26241,7 @@
         <reference value="CodeSystem/RoleCode-supplement-fr"/>
       </reference>
       <name value="RoleCodeSupplementFr"/>
-      <description value="Traduction Francaise"/>
+      <description value="Traduction Française"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -26327,7 +26327,7 @@
         <reference value="CodeSystem/specimenType-supplement-fr"/>
       </reference>
       <name value="SpecimenTypeSupplementFr"/>
-      <description value="Traduction Francaise"/>
+      <description value="Traduction Française"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -26348,8 +26348,8 @@
       <reference>
         <reference value="CodeSystem/substanceAdminSubstitution-supplement-fr"/>
       </reference>
-      <name value="substanceAdminSubstitutionSupplementFr"/>
-      <description value="Traduction Francaise"/>
+      <name value="SubstanceAdminSubstitutionSupplementFr"/>
+      <description value="Traduction Française"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -26382,7 +26382,7 @@
         <reference value="CodeSystem/TimingEvent-supplement-fr"/>
       </reference>
       <name value="TimingEventSupplementFr"/>
-      <description value="Traduction Francaise"/>
+      <description value="Traduction Française"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

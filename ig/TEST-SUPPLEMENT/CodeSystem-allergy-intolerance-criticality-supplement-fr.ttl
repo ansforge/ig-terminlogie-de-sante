@@ -19,12 +19,12 @@
      fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/allergy-intolerance-criticality-supplement-fr>
   ] ; # 
   fhir:version [ fhir:v "1.0"] ; # 
-  fhir:name [ fhir:v "allergy-intolerance-criticalitySupplementFr"] ; # 
-  fhir:title [ fhir:v "allergy-intolerance-criticalitySupplementFr"] ; # 
+  fhir:name [ fhir:v "AllergyIntoleranceCriticalitySupplementFr"] ; # 
+  fhir:title [ fhir:v "AllergyIntoleranceCriticalitySupplementFr"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v true] ; # 
   fhir:date [ fhir:v "2025-10-24T16:40:38+11:00"^^xsd:dateTime] ; # 
-  fhir:description [ fhir:v "Traduction Francaise"] ; # 
+  fhir:description [ fhir:v "Traduction Française"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
        fhir:system [

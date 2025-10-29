@@ -1,18 +1,18 @@
-# employmentStatusSupplementFr - Terminologies de Santé v1.3.0
+# EmploymentStatusSupplementFr - Terminologies de Santé v1.3.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
-* **employmentStatusSupplementFr**
+* **EmploymentStatusSupplementFr**
 
-## CodeSystem: employmentStatusSupplementFr (Experimental) 
+## CodeSystem: EmploymentStatusSupplementFr (Experimental) 
 
 | | |
 | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/employmentStatus-supplement-fr | *Version*:1.0 |
-| Draft as of 2025-10-24 | *Computable Name*:employmentStatusSupplementFr |
+| Draft as of 2025-10-24 | *Computable Name*:EmploymentStatusSupplementFr |
 
  
-Traduction Francaise 
+Traduction Française 
 
  This Code system is referenced in the content logical definition of the following value sets: 
 
@@ -33,12 +33,12 @@ This code system supplement `https://smt.esante.gouv.fr/fhir/CodeSystem/employme
   "language" : "fr-FR",
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/employmentStatus-supplement-fr",
   "version" : "1.0",
-  "name" : "employmentStatusSupplementFr",
-  "title" : "employmentStatusSupplementFr",
+  "name" : "EmploymentStatusSupplementFr",
+  "title" : "EmploymentStatusSupplementFr",
   "status" : "draft",
   "experimental" : true,
   "date" : "2025-10-24T16:40:38+11:00",
-  "description" : "Traduction Francaise",
+  "description" : "Traduction Française",
   "jurisdiction" : [
     {
       "coding" : [

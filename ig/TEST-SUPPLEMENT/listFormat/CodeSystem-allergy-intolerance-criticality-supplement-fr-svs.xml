@@ -4,8 +4,8 @@
    <ValueSet dateFin=""
              dateMaj="20251024164038"
              dateValid=""
-             description="Traduction Francaise"
-             displayName="allergy-intolerance-criticalitySupplementFr"
+             description="Traduction Française"
+             displayName="AllergyIntoleranceCriticalitySupplementFr"
              id=""
              typeFichier="TRE"
              urlFichier="">

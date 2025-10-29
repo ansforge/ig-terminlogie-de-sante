@@ -113,56 +113,56 @@
   },
   {
     "id" : "allergy-intolerance-criticality-supplement-fr",
-    "name" : "allergy-intolerance-criticalitySupplementFr",
-    "title" : "allergy-intolerance-criticalitySupplementFr",
+    "name" : "AllergyIntoleranceCriticalitySupplementFr",
+    "title" : "AllergyIntoleranceCriticalitySupplementFr",
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/allergy-intolerance-criticality-supplement-fr",
     "identifier" : null,
     "status" : "draft"
   },
   {
     "id" : "allergyintolerance-clinical-supplement-fr",
-    "name" : "allergyintolerance-clinicalSupplementFr",
-    "title" : "allergyintolerance-clinicalSupplementFr",
+    "name" : "AllergyIntoleranceClinicalSupplementFr",
+    "title" : "AllergyIntoleranceClinicalSupplementFr",
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/allergyintolerance-clinical-supplement-fr",
     "identifier" : null,
     "status" : "draft"
   },
   {
     "id" : "condition-clinical-supplement-fr",
-    "name" : "condition-clinicalSupplementFr",
-    "title" : "condition-clinicalSupplementFr",
+    "name" : "ConditionClinicalSupplementFr",
+    "title" : "ConditionClinicalSupplementFr",
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/condition-clinical-supplement-fr",
     "identifier" : null,
     "status" : "draft"
   },
   {
     "id" : "condition-ver-status-supplement-fr",
-    "name" : "condition-ver-statusSupplementFr",
-    "title" : "condition-ver-statusSupplementFr",
+    "name" : "ConditionVerStatusSupplementFr",
+    "title" : "ConditionVerStatusSupplementFr",
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/condition-ver-status-supplement-fr",
     "identifier" : null,
     "status" : "draft"
   },
   {
     "id" : "employmentStatus-supplement-fr",
-    "name" : "employmentStatusSupplementFr",
-    "title" : "employmentStatusSupplementFr",
+    "name" : "EmploymentStatusSupplementFr",
+    "title" : "EmploymentStatusSupplementFr",
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/employmentStatus-supplement-fr",
     "identifier" : null,
     "status" : "draft"
   },
   {
     "id" : "mediaType-supplement-fr",
-    "name" : "mediaTypeSupplementFr",
-    "title" : "mediaTypeSupplementFr",
+    "name" : "MediaTypeSupplementFr",
+    "title" : "MediaTypeSupplementFr",
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/mediaType-supplement-fr",
     "identifier" : null,
     "status" : "draft"
   },
   {
     "id" : "orderableDrugForm-supplement-fr",
-    "name" : "orderableDrugFormSupplementFr",
-    "title" : "orderableDrugFormSupplementFr",
+    "name" : "OrderableDrugFormSupplementFr",
+    "title" : "OrderableDrugFormSupplementFr",
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/orderableDrugForm-supplement-fr",
     "identifier" : null,
     "status" : "draft"
@@ -177,8 +177,8 @@
   },
   {
     "id" : "substanceAdminSubstitution-supplement-fr",
-    "name" : "substanceAdminSubstitutionSupplementFr",
-    "title" : "substanceAdminSubstitutionSupplementFr",
+    "name" : "SubstanceAdminSubstitutionSupplementFr",
+    "title" : "SubstanceAdminSubstitutionSupplementFr",
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/substanceAdminSubstitution-supplement-fr",
     "identifier" : null,
     "status" : "draft"

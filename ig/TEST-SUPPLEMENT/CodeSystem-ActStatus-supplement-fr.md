@@ -12,7 +12,7 @@
 | Draft as of 2025-10-24 | *Computable Name*:ActStatusSupplementFr |
 
  
-Traduction Francaise 
+Traduction Française 
 
  This Code system is referenced in the content logical definition of the following value sets: 
 
@@ -38,7 +38,7 @@ This code system supplement `https://smt.esante.gouv.fr/fhir/CodeSystem/actStatu
   "status" : "draft",
   "experimental" : true,
   "date" : "2025-10-24T16:40:38+11:00",
-  "description" : "Traduction Francaise",
+  "description" : "Traduction Française",
   "jurisdiction" : [
     {
       "coding" : [

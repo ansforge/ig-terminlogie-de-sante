@@ -18,23 +18,30 @@ Les systèmes d'identification définis ici sont destinés à la commodité des 
 | ActPrioritySupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/actPriority-supplement-fr |  |
 | ActStatusSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/actStatus-supplement-fr |  |
 | AdministrativeGenderSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/administrativeGender-supplement-fr |  |
+| AllergyIntoleranceClinicalSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/allergyintolerance-clinical-supplement-fr |  |
+| AllergyIntoleranceCriticalitySupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/allergy-intolerance-criticality-supplement-fr |  |
 | BDPM | https://smt.esante.gouv.fr/terminologie-bdpm |  |
 | CCAM | https://smt.esante.gouv.fr/terminologie-ccam | 1.2.250.1.215.300.1 |
 | CIM11_MMS | https://smt.esante.gouv.fr/terminologie-cim11-mms | 2.16.840.1.113883.6.347 |
 | CIM_10_FR_PMSI | https://smt.esante.gouv.fr/terminologie-cim-10 | 2.16.840.1.113883.6.3 |
 | CISP_2 | https://smt.esante.gouv.fr/terminologie-cisp | 2.16.840.1.113883.6.139 |
+| ConditionClinicalSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/condition-clinical-supplement-fr |  |
+| ConditionVerStatusSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/condition-ver-status-supplement-fr |  |
 | ConfidentialitySupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/confidentiality-supplement-fr |  |
 | EMDN | https://smt.esante.gouv.fr/terminologie-emdn | 1.2.250.1.213.2.68 |
+| EmploymentStatusSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/employmentStatus-supplement-fr |  |
 | IHERoleCode_Vocabulary | https://wiki.ihe.net/index.php/IHERoleCode_Vocabulary | 1.3.6.1.4.1.19376.1.5.3.3 |
 | LAHN | https://smt.esante.gouv.fr/terminologie-lahn | 1.2.250.1.213.2.79 |
 | LOINC | http://loinc.org | 2.16.840.1.113883.6.1 |
 | MEDDRA | https://www.meddra.org/ | 2.16.840.1.113883.6.163 |
+| MediaTypeSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/mediaType-supplement-fr |  |
 | NABM | https://smt.esante.gouv.fr/terminologie-nabm | 1.2.250.1.215.300.2 |
 | NCIT | http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl | 2.16.840.1.113883.3.26.1.1 |
 | NUVA | https://smt.esante.gouv.fr/terminologie-nuva | 1.3.6.1.4.1.48601.1 |
 | ObservationInterpretationSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/observationInterpretation-supplement-fr |  |
 | ObservationMethodSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/observationMethod-supplement-fr |  |
 | ObservationValueSupplementFr | http://hl7.org/fhir/us/example/CodeSystem/ObservationValue-supplement-fr |  |
+| OrderableDrugFormSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/orderableDrugForm-supplement-fr |  |
 | PCS | https://www.insee.fr/ | 1.2.250.1.213.2.13 |
 | ParticipationFunctionSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/participationFunction-supplement-fr |  |
 | ParticipationTypeSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/participationType-supplement-fr |  |
@@ -47,6 +54,7 @@ Les systèmes d'identification définis ici sont destinés à la commodité des 
 | Snomed_CT_core_900000000000207008 | http://snomed.info/sct | 2.16.840.1.113883.6.96 |
 | SpecimenTypeSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/specimenType-supplement-fr |  |
 | Standard_terms_EDQM | https://smt.esante.gouv.fr/terminologie-standardterms | 0.4.0.127.0.16.1.1.2.1 |
+| SubstanceAdminSubstitutionSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/substanceAdminSubstitution-supplement-fr |  |
 | TRE_A00_ProducteurDocNonPS | https://mos.esante.gouv.fr/NOS/TRE_A00-ProducteurDocNonPS/FHIR/TRE-A00-ProducteurDocNonPS | 1.2.250.1.213.1.1.4.6 |
 | TRE_A01_CadreExercice | https://mos.esante.gouv.fr/NOS/TRE_A01-CadreExercice/FHIR/TRE-A01-CadreExercice | 1.2.250.1.213.1.1.4.9 |
 | TRE_A02_ProfessionSavFaire_CISIS | https://mos.esante.gouv.fr/NOS/TRE_A02-ProfessionSavFaire-CISIS/FHIR/TRE-A02-ProfessionSavFaire-CISIS | 1.2.250.1.213.1.1.4.5 |
@@ -305,12 +313,4 @@ Les systèmes d'identification définis ici sont destinés à la commodité des 
 | TreR394CompetenceMetier | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r394-competence-metier | 1.2.250.1.213.1.6.1.375 |
 | UCUM | http://unitsofmeasure.org | 2.16.840.1.113883.6.8 |
 | V3ActPrioritySupplementFr | http://hl7.org/fhir/us/example/CodeSystem/v3-ActPriority-supplement-fr |  |
-| allergy-intolerance-criticalitySupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/allergy-intolerance-criticality-supplement-fr |  |
-| allergyintolerance-clinicalSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/allergyintolerance-clinical-supplement-fr |  |
-| condition-clinicalSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/condition-clinical-supplement-fr |  |
-| condition-ver-statusSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/condition-ver-status-supplement-fr |  |
-| employmentStatusSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/employmentStatus-supplement-fr |  |
-| mediaTypeSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/mediaType-supplement-fr |  |
-| orderableDrugFormSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/orderableDrugForm-supplement-fr |  |
-| substanceAdminSubstitutionSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/substanceAdminSubstitution-supplement-fr |  |
 

@@ -1,18 +1,18 @@
-# condition-clinicalSupplementFr - Terminologies de Santé v1.3.0
+# ConditionClinicalSupplementFr - Terminologies de Santé v1.3.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
-* **condition-clinicalSupplementFr**
+* **ConditionClinicalSupplementFr**
 
-## CodeSystem: condition-clinicalSupplementFr (Experimental) 
+## CodeSystem: ConditionClinicalSupplementFr (Experimental) 
 
 | | |
 | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/condition-clinical-supplement-fr | *Version*:1.0 |
-| Draft as of 2025-10-24 | *Computable Name*:condition-clinicalSupplementFr |
+| Draft as of 2025-10-24 | *Computable Name*:ConditionClinicalSupplementFr |
 
  
-Traduction Francaise 
+Traduction Française 
 
  This Code system is referenced in the content logical definition of the following value sets: 
 
@@ -33,12 +33,12 @@ This code system supplement `https://smt.esante.gouv.fr/fhir/CodeSystem/conditio
   "language" : "fr-FR",
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/condition-clinical-supplement-fr",
   "version" : "1.0",
-  "name" : "condition-clinicalSupplementFr",
-  "title" : "condition-clinicalSupplementFr",
+  "name" : "ConditionClinicalSupplementFr",
+  "title" : "ConditionClinicalSupplementFr",
   "status" : "draft",
   "experimental" : true,
   "date" : "2025-10-24T16:40:38+11:00",
-  "description" : "Traduction Francaise",
+  "description" : "Traduction Française",
   "jurisdiction" : [
     {
       "coding" : [

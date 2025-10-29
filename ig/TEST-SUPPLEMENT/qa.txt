@@ -1,17 +1,17 @@
 Terminologies : Validation Results
 =========================================
 
-err = 3033, warn = 1243, info = 1389
+err = 3031, warn = 1234, info = 1389
 IG Publisher Version: 2.0.24
-Generated Tue Oct 28 19:36:09 UTC 2025. FHIR version 4.0.1 for ans.fr.terminologies#1.3.0 (canonical = https://interop.esante.gouv.fr/terminologies)
+Generated Wed Oct 29 09:43:18 UTC 2025. FHIR version 4.0.1 for ans.fr.terminologies#1.3.0 (canonical = https://interop.esante.gouv.fr/terminologies)
  Build Errors : 70 / 23 / 0
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-ActMood-supplement-fr : 2 / 0 / 2
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-ActPriority-supplement-fr : 3 / 0 / 2
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-ActPriority-supplement-fr : 2 / 0 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-ActStatus-supplement-fr : 2 / 0 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-AdministrativeGender-supplement-fr : 2 / 0 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-Confidentiality-supplement-fr : 2 / 0 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-ObservationInterpretation-supplement-fr : 2 / 0 / 2
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-ObservationMethod-supplement-fr : 3 / 0 / 2
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-ObservationMethod-supplement-fr : 2 / 0 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-ObservationValue-supplement-fr : 3 / 2 / 3
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-ParticipationFunction-supplement-fr : 2 / 0 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-ParticipationType-supplement-fr : 2 / 0 / 2
@@ -19,16 +19,16 @@ Generated Tue Oct 28 19:36:09 UTC 2025. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-RoleCode-supplement-fr : 2 / 0 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TimingEvent-supplement-fr : 2 / 0 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-actCode-supplement-fr : 2 / 0 / 2
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-allergy-intolerance-criticality-supplement-fr : 2 / 1 / 1
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-allergyintolerance-clinical-supplement-fr : 2 / 1 / 2
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-condition-clinical-supplement-fr : 2 / 1 / 2
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-condition-ver-status-supplement-fr : 2 / 1 / 2
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-employmentStatus-supplement-fr : 2 / 1 / 2
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-mediaType-supplement-fr : 2 / 1 / 2
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-orderableDrugForm-supplement-fr : 2 / 1 / 2
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-allergy-intolerance-criticality-supplement-fr : 2 / 0 / 1
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-allergyintolerance-clinical-supplement-fr : 2 / 0 / 2
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-condition-clinical-supplement-fr : 2 / 0 / 2
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-condition-ver-status-supplement-fr : 2 / 0 / 2
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-employmentStatus-supplement-fr : 2 / 0 / 2
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-mediaType-supplement-fr : 2 / 0 / 2
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-orderableDrugForm-supplement-fr : 2 / 0 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-specimenType-supplement-fr : 32 / 1 / 2
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-substanceAdminSubstitution-supplement-fr : 2 / 1 / 2
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-v3-ActPriority-supplement-fr : 2 / 5 / 3
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-substanceAdminSubstitution-supplement-fr : 2 / 0 / 2
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-v3-ActPriority-supplement-fr : 2 / 4 / 3
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A13-TypeEvenement-FluxStandardise : 0 / 1 / 1
@@ -1180,7 +1180,6 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 == DM/fsh-generated/resources/CodeSystem-ActPriority-supplement-fr.json ==
 ERROR: CodeSystem.where(url = 'https://smt.esante.gouv.fr/fhir/CodeSystem/actPriority-supplement-fr'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-ActPriority-supplement-fr.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/ActPriority-supplement-fr) does not match the URL (https://smt.esante.gouv.fr/fhir/CodeSystem/actPriority-supplement-fr). Use the special-url parameter if you really mean for it not to match
 INFORMATION: CodeSystem.supplements: Pinned the version of http://terminology.hl7.org/CodeSystem/v3-ActPriority to 3.0.0 from choices of 2.1.0 (hl7.terminology.r4#5.0.0), 3.0.0 (hl7.terminology.r4#6.5.0)
-ERROR: CodeSystem/ActPriority-supplement-fr: CodeSystem.concept[5]: The code '&' is not declared in the base CodeSystem http://terminology.hl7.org/CodeSystem/v3-ActPriority|3.0.0 so is not valid in the supplement
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-ActPriority-supplement-fr: URL Mismatch https://interop.esante.gouv.fr/terminologies/CodeSystem/ActPriority-supplement-fr vs https://smt.esante.gouv.fr/fhir/CodeSystem/actPriority-supplement-fr
 == DM/fsh-generated/resources/CodeSystem-ActStatus-supplement-fr.json ==
 ERROR: CodeSystem.where(url = 'https://smt.esante.gouv.fr/fhir/CodeSystem/actStatus-supplement-fr'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-ActStatus-supplement-fr.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/ActStatus-supplement-fr) does not match the URL (https://smt.esante.gouv.fr/fhir/CodeSystem/actStatus-supplement-fr). Use the special-url parameter if you really mean for it not to match
@@ -1201,7 +1200,6 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 == DM/fsh-generated/resources/CodeSystem-ObservationMethod-supplement-fr.json ==
 ERROR: CodeSystem.where(url = 'https://smt.esante.gouv.fr/fhir/CodeSystem/observationMethod-supplement-fr'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-ObservationMethod-supplement-fr.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/ObservationMethod-supplement-fr) does not match the URL (https://smt.esante.gouv.fr/fhir/CodeSystem/observationMethod-supplement-fr). Use the special-url parameter if you really mean for it not to match
 INFORMATION: CodeSystem.supplements: Pinned the version of http://terminology.hl7.org/CodeSystem/v3-ObservationMethod to 3.0.0 from choices of 2.1.0 (hl7.terminology.r4#5.0.0), 3.0.0 (hl7.terminology.r4#6.5.0)
-ERROR: CodeSystem/ObservationMethod-supplement-fr: CodeSystem.concept[255]: The code '275a' is not declared in the base CodeSystem http://terminology.hl7.org/CodeSystem/v3-ObservationMethod|3.0.0 so is not valid in the supplement
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-ObservationMethod-supplement-fr: URL Mismatch https://interop.esante.gouv.fr/terminologies/CodeSystem/ObservationMethod-supplement-fr vs https://smt.esante.gouv.fr/fhir/CodeSystem/observationMethod-supplement-fr
 == DM/fsh-generated/resources/CodeSystem-ObservationValue-supplement-fr.json ==
 ERROR: CodeSystem.where(url = 'http://hl7.org/fhir/us/example/CodeSystem/ObservationValue-supplement-fr'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-ObservationValue-supplement-fr.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/ObservationValue-supplement-fr) does not match the URL (http://hl7.org/fhir/us/example/CodeSystem/ObservationValue-supplement-fr). Use the special-url parameter if you really mean for it not to match
@@ -1237,37 +1235,30 @@ INFORMATION: CodeSystem.supplements: Pinned the version of http://terminology.hl
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-actCode-supplement-fr: URL Mismatch https://interop.esante.gouv.fr/terminologies/CodeSystem/actCode-supplement-fr vs https://smt.esante.gouv.fr/fhir/CodeSystem/actCode-supplement-fr
 == DM/fsh-generated/resources/CodeSystem-allergy-intolerance-criticality-supplement-fr.json ==
 ERROR: CodeSystem.where(url = 'https://smt.esante.gouv.fr/fhir/CodeSystem/allergy-intolerance-criticality-supplement-fr'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-allergy-intolerance-criticality-supplement-fr.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/allergy-intolerance-criticality-supplement-fr) does not match the URL (https://smt.esante.gouv.fr/fhir/CodeSystem/allergy-intolerance-criticality-supplement-fr). Use the special-url parameter if you really mean for it not to match
-WARNING: CodeSystem/allergy-intolerance-criticality-supplement-fr: CodeSystem: Constraint failed: csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-allergy-intolerance-criticality-supplement-fr: URL Mismatch https://interop.esante.gouv.fr/terminologies/CodeSystem/allergy-intolerance-criticality-supplement-fr vs https://smt.esante.gouv.fr/fhir/CodeSystem/allergy-intolerance-criticality-supplement-fr
 == DM/fsh-generated/resources/CodeSystem-allergyintolerance-clinical-supplement-fr.json ==
 ERROR: CodeSystem.where(url = 'https://smt.esante.gouv.fr/fhir/CodeSystem/allergyintolerance-clinical-supplement-fr'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-allergyintolerance-clinical-supplement-fr.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/allergyintolerance-clinical-supplement-fr) does not match the URL (https://smt.esante.gouv.fr/fhir/CodeSystem/allergyintolerance-clinical-supplement-fr). Use the special-url parameter if you really mean for it not to match
 INFORMATION: CodeSystem.supplements: Pinned the version of http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical to 1.0.1 from choices of 0.5.0 (hl7.terminology.r4#5.0.0), 1.0.1 (hl7.terminology.r4#6.5.0)
-WARNING: CodeSystem/allergyintolerance-clinical-supplement-fr: CodeSystem: Constraint failed: csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-allergyintolerance-clinical-supplement-fr: URL Mismatch https://interop.esante.gouv.fr/terminologies/CodeSystem/allergyintolerance-clinical-supplement-fr vs https://smt.esante.gouv.fr/fhir/CodeSystem/allergyintolerance-clinical-supplement-fr
 == DM/fsh-generated/resources/CodeSystem-condition-clinical-supplement-fr.json ==
 ERROR: CodeSystem.where(url = 'https://smt.esante.gouv.fr/fhir/CodeSystem/condition-clinical-supplement-fr'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-condition-clinical-supplement-fr.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/condition-clinical-supplement-fr) does not match the URL (https://smt.esante.gouv.fr/fhir/CodeSystem/condition-clinical-supplement-fr). Use the special-url parameter if you really mean for it not to match
 INFORMATION: CodeSystem.supplements: Pinned the version of http://terminology.hl7.org/CodeSystem/condition-clinical to 3.0.0 from choices of 2.0.0 (hl7.terminology.r4#5.0.0), 3.0.0 (hl7.terminology.r4#6.5.0)
-WARNING: CodeSystem/condition-clinical-supplement-fr: CodeSystem: Constraint failed: csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-condition-clinical-supplement-fr: URL Mismatch https://interop.esante.gouv.fr/terminologies/CodeSystem/condition-clinical-supplement-fr vs https://smt.esante.gouv.fr/fhir/CodeSystem/condition-clinical-supplement-fr
 == DM/fsh-generated/resources/CodeSystem-condition-ver-status-supplement-fr.json ==
 ERROR: CodeSystem.where(url = 'https://smt.esante.gouv.fr/fhir/CodeSystem/condition-ver-status-supplement-fr'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-condition-ver-status-supplement-fr.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/condition-ver-status-supplement-fr) does not match the URL (https://smt.esante.gouv.fr/fhir/CodeSystem/condition-ver-status-supplement-fr). Use the special-url parameter if you really mean for it not to match
 INFORMATION: CodeSystem.supplements: Pinned the version of http://terminology.hl7.org/CodeSystem/condition-ver-status to 2.0.1 from choices of 0.5.0 (hl7.terminology.r4#5.0.0), 2.0.1 (hl7.terminology.r4#6.5.0)
-WARNING: CodeSystem/condition-ver-status-supplement-fr: CodeSystem: Constraint failed: csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-condition-ver-status-supplement-fr: URL Mismatch https://interop.esante.gouv.fr/terminologies/CodeSystem/condition-ver-status-supplement-fr vs https://smt.esante.gouv.fr/fhir/CodeSystem/condition-ver-status-supplement-fr
 == DM/fsh-generated/resources/CodeSystem-employmentStatus-supplement-fr.json ==
 ERROR: CodeSystem.where(url = 'https://smt.esante.gouv.fr/fhir/CodeSystem/employmentStatus-supplement-fr'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-employmentStatus-supplement-fr.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/employmentStatus-supplement-fr) does not match the URL (https://smt.esante.gouv.fr/fhir/CodeSystem/employmentStatus-supplement-fr). Use the special-url parameter if you really mean for it not to match
 INFORMATION: CodeSystem.supplements: Pinned the version of http://terminology.hl7.org/CodeSystem/v2-0066 to 2.2.0 from choices of 2.0.0 (hl7.terminology.r4#6.5.0), 2.2.0 (hl7.terminology.r4#5.0.0)
-WARNING: CodeSystem/employmentStatus-supplement-fr: CodeSystem: Constraint failed: csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-employmentStatus-supplement-fr: URL Mismatch https://interop.esante.gouv.fr/terminologies/CodeSystem/employmentStatus-supplement-fr vs https://smt.esante.gouv.fr/fhir/CodeSystem/employmentStatus-supplement-fr
 == DM/fsh-generated/resources/CodeSystem-mediaType-supplement-fr.json ==
 ERROR: CodeSystem.where(url = 'https://smt.esante.gouv.fr/fhir/CodeSystem/mediaType-supplement-fr'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-mediaType-supplement-fr.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/mediaType-supplement-fr) does not match the URL (https://smt.esante.gouv.fr/fhir/CodeSystem/mediaType-supplement-fr). Use the special-url parameter if you really mean for it not to match
 INFORMATION: CodeSystem.supplements: Pinned the version of http://terminology.hl7.org/CodeSystem/v3-mediaType to 3.0.0 from choices of 2.2.0 (hl7.terminology.r4#5.0.0), 3.0.0 (hl7.terminology.r4#6.5.0)
-WARNING: CodeSystem/mediaType-supplement-fr: CodeSystem: Constraint failed: csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-mediaType-supplement-fr: URL Mismatch https://interop.esante.gouv.fr/terminologies/CodeSystem/mediaType-supplement-fr vs https://smt.esante.gouv.fr/fhir/CodeSystem/mediaType-supplement-fr
 == DM/fsh-generated/resources/CodeSystem-orderableDrugForm-supplement-fr.json ==
 ERROR: CodeSystem.where(url = 'https://smt.esante.gouv.fr/fhir/CodeSystem/orderableDrugForm-supplement-fr'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-orderableDrugForm-supplement-fr.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/orderableDrugForm-supplement-fr) does not match the URL (https://smt.esante.gouv.fr/fhir/CodeSystem/orderableDrugForm-supplement-fr). Use the special-url parameter if you really mean for it not to match
 INFORMATION: CodeSystem.supplements: Pinned the version of http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm to 3.0.0 from choices of 2.1.0 (hl7.terminology.r4#5.0.0), 3.0.0 (hl7.terminology.r4#6.5.0)
-WARNING: CodeSystem/orderableDrugForm-supplement-fr: CodeSystem: Constraint failed: csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-orderableDrugForm-supplement-fr: URL Mismatch https://interop.esante.gouv.fr/terminologies/CodeSystem/orderableDrugForm-supplement-fr vs https://smt.esante.gouv.fr/fhir/CodeSystem/orderableDrugForm-supplement-fr
 == DM/fsh-generated/resources/CodeSystem-specimenType-supplement-fr.json ==
 ERROR: CodeSystem.where(url = 'https://smt.esante.gouv.fr/fhir/CodeSystem/specimenType-supplement-fr'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-specimenType-supplement-fr.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/specimenType-supplement-fr) does not match the URL (https://smt.esante.gouv.fr/fhir/CodeSystem/specimenType-supplement-fr). Use the special-url parameter if you really mean for it not to match
@@ -1307,12 +1298,10 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 == DM/fsh-generated/resources/CodeSystem-substanceAdminSubstitution-supplement-fr.json ==
 ERROR: CodeSystem.where(url = 'https://smt.esante.gouv.fr/fhir/CodeSystem/substanceAdminSubstitution-supplement-fr'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-substanceAdminSubstitution-supplement-fr.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/substanceAdminSubstitution-supplement-fr) does not match the URL (https://smt.esante.gouv.fr/fhir/CodeSystem/substanceAdminSubstitution-supplement-fr). Use the special-url parameter if you really mean for it not to match
 INFORMATION: CodeSystem.supplements: Pinned the version of http://terminology.hl7.org/CodeSystem/v3-substanceAdminSubstitution to 3.0.0 from choices of 2.1.0 (hl7.terminology.r4#5.0.0), 3.0.0 (hl7.terminology.r4#6.5.0)
-WARNING: CodeSystem/substanceAdminSubstitution-supplement-fr: CodeSystem: Constraint failed: csd-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation (name.matches('[A-Z]([A-Za-z0-9_]){0,254}'))'
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-substanceAdminSubstitution-supplement-fr: URL Mismatch https://interop.esante.gouv.fr/terminologies/CodeSystem/substanceAdminSubstitution-supplement-fr vs https://smt.esante.gouv.fr/fhir/CodeSystem/substanceAdminSubstitution-supplement-fr
 == DM/fsh-generated/resources/CodeSystem-v3-ActPriority-supplement-fr.json ==
 ERROR: CodeSystem.where(url = 'http://hl7.org/fhir/us/example/CodeSystem/v3-ActPriority-supplement-fr'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-v3-ActPriority-supplement-fr.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-ActPriority-supplement-fr) does not match the URL (http://hl7.org/fhir/us/example/CodeSystem/v3-ActPriority-supplement-fr). Use the special-url parameter if you really mean for it not to match
 INFORMATION: CodeSystem.supplements: Pinned the version of http://terminology.hl7.org/CodeSystem/v3-ActPriority to 3.0.0 from choices of 2.1.0 (hl7.terminology.r4#5.0.0), 3.0.0 (hl7.terminology.r4#6.5.0)
-WARNING: CodeSystem/v3-ActPriority-supplement-fr: CodeSystem.concept[8].designation[0].value: value should not start or finish with whitespace '\tImmédiatement'
 WARNING: CodeSystem/v3-ActPriority-supplement-fr: CodeSystem: When HL7 is publishing a resource, the publisher must be provided, and for WG 'vocab' it should be 'HL7 International / Terminology Infrastructure'
 WARNING: CodeSystem/v3-ActPriority-supplement-fr: CodeSystem: The nominated WG 'vocab' means that the contact url should be 'http://www.hl7.org/Special/committees/Vocab' but it was not found
 INFORMATION: CodeSystem/v3-ActPriority-supplement-fr: CodeSystem: Most code systems defined in HL7 IGs will need to move to THO later during the process. Consider giving this code system a THO URL now (See https://confluence.hl7.org/display/TSMG/Terminology+Play+Book, and/or talk to TSMG)
@@ -2510,8 +2499,8 @@ WARNING: ValueSet/JDV-J146-MethodBodyHeight-ENS: ValueSet.compose.include[0].sys
 INFORMATION: ValueSet/JDV-J146-MethodBodyHeight-ENS: ValueSet.compose.include[0].concept[0]: A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-ncit' could not be found, so the code cannot be validated
 INFORMATION: ValueSet/JDV-J146-MethodBodyHeight-ENS: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
 WARNING: ValueSet/JDV-J146-MethodBodyHeight-ENS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-ERROR: ValueSet.where(id = 'JDV-J146-MethodBodyHeight-ENS'): Error from https://smt.esante.gouv.fr/fhir: Error: [7a27d4b2-8fdd-4644-9d31-bcbfba145326]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
-Information: X-Request-Id: 1e53b507-a5c5-4559-9f2d-37280e44bcea
+ERROR: ValueSet.where(id = 'JDV-J146-MethodBodyHeight-ENS'): Error from https://smt.esante.gouv.fr/fhir: Error: [57912c29-cbca-4bbb-86f1-4b78ade0df62]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
+Information: X-Request-Id: e5b07bd1-8042-4b02-a022-f9eecfa6b5bd
 == input/ontoserver/JDV/JDV_J147_MethodHeartrate_ENS_JDV-J147-MethodHeartrate-ENS.json ==
 INFORMATION: ValueSet/JDV-J147-MethodHeartrate-ENS: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
 WARNING: ValueSet/JDV-J147-MethodHeartrate-ENS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
@@ -3776,8 +3765,8 @@ WARNING: ValueSet/JDV-J50-AccessibiliteLieu-ROR: ValueSet: Published value sets 
 WARNING: ValueSet/JDV-J51-FamilleActiviteOperationnelle-ROR: ValueSet.compose.include[1].system: No definition could be found for URL value 'https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin'
 INFORMATION: ValueSet/JDV-J51-FamilleActiviteOperationnelle-ROR: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
 WARNING: ValueSet/JDV-J51-FamilleActiviteOperationnelle-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-ERROR: ValueSet.where(id = 'JDV-J51-FamilleActiviteOperationnelle-ROR'): Error from https://smt.esante.gouv.fr/fhir: Error: [8365813a-88a3-4a8e-ad6c-26994ecaaad9]: A usable code system with URL https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin could not be resolved.
-Information: X-Request-Id: 86e6d3a7-b16c-4f92-918d-0d0586d1b7be
+ERROR: ValueSet.where(id = 'JDV-J51-FamilleActiviteOperationnelle-ROR'): Error from https://smt.esante.gouv.fr/fhir: Error: [69d96511-d528-485a-a169-a02a4b743daa]: A usable code system with URL https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin could not be resolved.
+Information: X-Request-Id: 0a80b1f2-def6-46b6-a79e-5ea1283a8aef
 == input/ontoserver/JDV/JDV_J52_AvailabilityStatus_CISIS_JDV-J52-AvailabilityStatus-CISIS.json ==
 WARNING: ValueSet/JDV-J52-AvailabilityStatus-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J53_TypeRequeteGestionDossier_CISIS_JDV-J53-TypeRequeteGestionDossier-CISIS.json ==
@@ -4363,8 +4352,8 @@ INFORMATION: ValueSet/jdv-date-consultation-cisis: ValueSet.compose.include[1]: 
 WARNING: ValueSet/jdv-defaillance-materielle-cisis: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://www.imdrf.org'
 INFORMATION: ValueSet/jdv-defaillance-materielle-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
 INFORMATION: ValueSet/jdv-defaillance-materielle-cisis: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
-ERROR: ValueSet.where(id = 'jdv-defaillance-materielle-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [03325ab3-e421-4cd2-a75d-dc5ee522c7e8]: A usable code system with URL https://www.imdrf.org could not be resolved.
-Information: X-Request-Id: 6ab2c46c-20ae-4555-9700-1e24a4243f50
+ERROR: ValueSet.where(id = 'jdv-defaillance-materielle-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [6f93c07e-7315-4420-bb5f-647b4760e406]: A usable code system with URL https://www.imdrf.org could not be resolved.
+Information: X-Request-Id: 71161785-b593-4e80-be32-052d116ea06f
 == input/ontoserver/JDV/JdvDeficiencePhysiqueCisis_jdv-deficience-physique-cisis.json ==
 INFORMATION: ValueSet/jdv-deficience-physique-cisis: ValueSet.compose.include[2]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvDelimitationActiviteCisis_jdv-delimitation-activite-cisis.json ==
@@ -4470,15 +4459,15 @@ INFORMATION: ValueSet/jdv-fluide-route-code-cisis: ValueSet.compose.include[0]: 
 == input/ontoserver/JDV/JdvFonctionEtudieeTepCisis_jdv-fonction-etudiee-tep-cisis.json ==
 == input/ontoserver/JDV/JdvGeneCisis_jdv-gene-cisis.json ==
 INFORMATION: ValueSet/jdv-gene-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
-ERROR: ValueSet.where(id = 'jdv-gene-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [dbb56c5d-4bd4-4f4e-aa99-08fc936b21e6]: A usable code system with URL http://www.genenames.org/geneId could not be resolved.
-Information: X-Request-Id: 4718f920-3838-43b0-aaee-3d28205a41a5
+ERROR: ValueSet.where(id = 'jdv-gene-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [d3c44297-ffd0-42b8-886b-a7ab39f3083f]: A usable code system with URL http://www.genenames.org/geneId could not be resolved.
+Information: X-Request-Id: a75ac539-0a51-4225-a5a3-228c232bccf6
 == input/ontoserver/JDV/JdvGesteReanimationNouveauNeCisis_jdv-geste-reanimation-nouveau-ne-cisis.json ==
 INFORMATION: ValueSet/jdv-geste-reanimation-nouveau-ne-cisis: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvGestionEffetSecondaireCisis_jdv-gestion-effet-secondaire-cisis.json ==
 WARNING: ValueSet/jdv-gestion-effet-secondaire-cisis: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-ncit'
 INFORMATION: ValueSet/jdv-gestion-effet-secondaire-cisis: ValueSet.compose.include[0].concept[0]: A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-ncit' could not be found, so the code cannot be validated
-ERROR: ValueSet.where(id = 'jdv-gestion-effet-secondaire-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [3ac84685-1c8b-46a3-b2c2-acb764755eff]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
-Information: X-Request-Id: 812f8e79-2429-4208-956f-284d02859fc7
+ERROR: ValueSet.where(id = 'jdv-gestion-effet-secondaire-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [3bbdace6-d582-47b4-bc1c-9878544d86e4]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
+Information: X-Request-Id: d626fe96-0407-493f-9282-23c87d0e7103
 == input/ontoserver/JDV/JdvGirCisis_jdv-gir-cisis.json ==
 == input/ontoserver/JDV/JdvGraviteCisis_jdv-gravite-cisis.json ==
 INFORMATION: ValueSet/jdv-gravite-cisis: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
@@ -4684,8 +4673,8 @@ ERROR: ValueSet/jdv-modalite-demande-acte-imagerie-cisis: ValueSet.compose.inclu
 ERROR: ValueSet/jdv-modalite-demande-acte-imagerie-cisis: ValueSet.compose.include[2].concept[3]: The code 'OT' is not valid in the system http://dicom.nema.org/resources/ontology/DCM (Wrong Display Name 'Autre technique d'imagerie' for http://dicom.nema.org/resources/ontology/DCM#OT. Valid display is 'Other Modality' (for the language(s) 'en, en-US'))
 ERROR: ValueSet/jdv-modalite-demande-acte-imagerie-cisis: ValueSet.compose.include[2].concept[4]: The code 'NM' is not valid in the system http://dicom.nema.org/resources/ontology/DCM (Wrong Display Name 'Scintigraphie' for http://dicom.nema.org/resources/ontology/DCM#NM. Valid display is 'Nuclear Medicine' (for the language(s) 'en, en-US'))
 ERROR: ValueSet/jdv-modalite-demande-acte-imagerie-cisis: ValueSet.compose.include[2].concept[5]: The code 'PT' is not valid in the system http://dicom.nema.org/resources/ontology/DCM (Wrong Display Name 'TEP : Tomographie par émission de positons' for http://dicom.nema.org/resources/ontology/DCM#PT. Valid display is 'Positron emission tomography' (for the language(s) 'en, en-US'))
-ERROR: ValueSet.where(id = 'jdv-modalite-demande-acte-imagerie-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [d523625d-c02a-4aa0-bcc0-a7c60b8682a8]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
-Information: X-Request-Id: b04f819f-7c9e-4627-8567-704bf37bcd7d
+ERROR: ValueSet.where(id = 'jdv-modalite-demande-acte-imagerie-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [ca30aecd-2639-488a-8af7-d0e3def1ae6b]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
+Information: X-Request-Id: 1fe0aee4-91a9-48ef-b9f2-d2d2fab09bce
 == input/ontoserver/JDV/JdvModaliteEntreeCisis_jdv-modalite-entree-cisis.json ==
 INFORMATION: ValueSet/jdv-modalite-entree-cisis: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvModaliteSortieCisis_jdv-modalite-sortie-cisis.json ==
@@ -5290,9 +5279,9 @@ ERROR: ValueSet/jdv-specimen-type-cisis: ValueSet.compose.include[1].concept[308
 ERROR: ValueSet/jdv-specimen-type-cisis: ValueSet.compose.include[1].concept[309]: The code 'WWT' is not valid in the system http://terminology.hl7.org/CodeSystem/v2-0487 (Wrong Display Name 'Eau (robinet)' for http://terminology.hl7.org/CodeSystem/v2-0487#WWT. Valid display is 'Environmental, Water  (Tap)' (for the language(s) 'en, en-US'))
 == input/ontoserver/JDV/JdvStaticSemProcedureCisis_jdv-static-sem-procedure-cisis.json ==
 ERROR: ValueSet/jdv-static-sem-procedure-cisis: ValueSet.compose.include[0].concept[0]: The code 'JQQP003' is not valid in the system https://smt.esante.gouv.fr/terminologie-ccam (Error from https://smt.esante.gouv.fr/fhir: Error: NullPointerException
-Information: X-Request-Id: 960999a2-fffe-4be9-b630-b5a8fce83850)
+Information: X-Request-Id: 0f1905b7-bd4b-454e-be92-4c4036cca825)
 INFORMATION: ValueSet/jdv-static-sem-procedure-cisis: ValueSet.compose.include[0].concept[0]: Error from https://smt.esante.gouv.fr/fhir: Error: NullPointerException
-Information: X-Request-Id: 960999a2-fffe-4be9-b630-b5a8fce83850
+Information: X-Request-Id: 0f1905b7-bd4b-454e-be92-4c4036cca825
 == input/ontoserver/JDV/JdvStatutActuelDiagnosticCisis_jdv-statut-actuel-diagnostic-cisis.json ==
 INFORMATION: ValueSet/jdv-statut-actuel-diagnostic-cisis: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvStatutCasPresenteCisis_jdv-statut-cas-presente-cisis.json ==
@@ -5343,8 +5332,8 @@ INFORMATION: ValueSet/jdv-traitement-preventif-cisis: ValueSet.compose.include[0
 == input/ontoserver/JDV/JdvTraitementSoinsFrcpCisis_jdv-traitement-soins-frcp-cisis.json ==
 WARNING: ValueSet/jdv-traitement-soins-frcp-cisis: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-ncit'
 INFORMATION: ValueSet/jdv-traitement-soins-frcp-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
-ERROR: ValueSet.where(id = 'jdv-traitement-soins-frcp-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [986baf6c-2b01-4e54-9a0a-321d67275e89]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
-Information: X-Request-Id: f3f37e55-e6f0-43c7-b322-b9c51ea7ce97
+ERROR: ValueSet.where(id = 'jdv-traitement-soins-frcp-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [23125b89-f1da-4ea6-a529-0e0c2a3de754]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
+Information: X-Request-Id: 4d204c13-d758-4ad8-9118-ae317c435ad2
 == input/ontoserver/JDV/JdvTraitementSuiviCisis_jdv-traitement-suivi-cisis.json ==
 == input/ontoserver/JDV/JdvTransfertMutationCisis_jdv-transfert-mutation-cisis.json ==
 INFORMATION: ValueSet/jdv-transfert-mutation-cisis: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
@@ -5353,8 +5342,8 @@ INFORMATION: ValueSet/jdv-trouble-visuel-cisis: ValueSet.compose.include[0]: The
 == input/ontoserver/JDV/JdvTrousseCcuCisis_jdv-trousse-ccu-cisis.json ==
 WARNING: ValueSet/jdv-trousse-ccu-cisis: ValueSet.compose.include[1].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-tccr'
 INFORMATION: ValueSet/jdv-trousse-ccu-cisis: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
-ERROR: ValueSet.where(id = 'jdv-trousse-ccu-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [8b180bbe-4871-4d58-8b39-4b8d153d2735]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-tccr could not be resolved.
-Information: X-Request-Id: f86fa697-7e92-4fab-ad90-e7b9c5697700
+ERROR: ValueSet.where(id = 'jdv-trousse-ccu-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [0f0ab4f9-950e-4a6c-9b05-061b802b844d]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-tccr could not be resolved.
+Information: X-Request-Id: c5e81283-36db-4b0f-830f-dbb0a540db8e
 == input/ontoserver/JDV/JdvTumeurCisis_jdv-tumeur-cisis.json ==
 INFORMATION: ValueSet/jdv-tumeur-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvTypeAccompagnementSocioproCisis_jdv-type-accompagnement-sociopro-cisis.json ==
@@ -5428,8 +5417,8 @@ INFORMATION: ValueSet/jdv-type-presentation-cisis: ValueSet.compose.include[1]: 
 == input/ontoserver/JDV/JdvTypeProduitSanguinLabileCisis_jdv-type-produit-sanguin-labile-cisis.json ==
 WARNING: ValueSet/jdv-type-produit-sanguin-labile-cisis: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-ncit'
 INFORMATION: ValueSet/jdv-type-produit-sanguin-labile-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
-ERROR: ValueSet.where(id = 'jdv-type-produit-sanguin-labile-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [d7c32452-ae9d-43fb-9581-ca1841b78f83]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
-Information: X-Request-Id: ae65b052-de31-4d0b-874c-236ea533af70
+ERROR: ValueSet.where(id = 'jdv-type-produit-sanguin-labile-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [d6b613a8-b201-4806-9fba-abe630d48650]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
+Information: X-Request-Id: d8720b19-814a-44e3-af62-54455936aecc
 == input/ontoserver/JDV/JdvTypeRencontreCisis_jdv-type-rencontre-cisis.json ==
 == input/ontoserver/JDV/JdvTypeRencontreObpCisis_jdv-type-rencontre-obp-cisis.json ==
 == input/ontoserver/JDV/JdvTypeResultatCisis_jdv-type-resultat-cisis.json ==

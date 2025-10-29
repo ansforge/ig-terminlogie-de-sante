@@ -1,18 +1,18 @@
-# condition-ver-statusSupplementFr - Terminologies de Santé v1.3.0
+# ConditionVerStatusSupplementFr - Terminologies de Santé v1.3.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
-* **condition-ver-statusSupplementFr**
+* **ConditionVerStatusSupplementFr**
 
-## CodeSystem: condition-ver-statusSupplementFr (Experimental) 
+## CodeSystem: ConditionVerStatusSupplementFr (Experimental) 
 
 | | |
 | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/condition-ver-status-supplement-fr | *Version*:1.0 |
-| Draft as of 2025-10-24 | *Computable Name*:condition-ver-statusSupplementFr |
+| Draft as of 2025-10-24 | *Computable Name*:ConditionVerStatusSupplementFr |
 
  
-Traduction Francaise 
+Traduction Française 
 
  This Code system is referenced in the content logical definition of the following value sets: 
 
@@ -33,12 +33,12 @@ This code system supplement `https://smt.esante.gouv.fr/fhir/CodeSystem/conditio
   "language" : "fr-FR",
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/condition-ver-status-supplement-fr",
   "version" : "1.0",
-  "name" : "condition-ver-statusSupplementFr",
-  "title" : "condition-ver-statusSupplementFr",
+  "name" : "ConditionVerStatusSupplementFr",
+  "title" : "ConditionVerStatusSupplementFr",
   "status" : "draft",
   "experimental" : true,
   "date" : "2025-10-24T16:40:38+11:00",
-  "description" : "Traduction Francaise",
+  "description" : "Traduction Française",
   "jurisdiction" : [
     {
       "coding" : [

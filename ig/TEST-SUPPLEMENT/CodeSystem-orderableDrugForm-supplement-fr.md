@@ -1,18 +1,18 @@
-# orderableDrugFormSupplementFr - Terminologies de Santé v1.3.0
+# OrderableDrugFormSupplementFr - Terminologies de Santé v1.3.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
-* **orderableDrugFormSupplementFr**
+* **OrderableDrugFormSupplementFr**
 
-## CodeSystem: orderableDrugFormSupplementFr (Experimental) 
+## CodeSystem: OrderableDrugFormSupplementFr (Experimental) 
 
 | | |
 | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/orderableDrugForm-supplement-fr | *Version*:1.0 |
-| Draft as of 2025-10-24 | *Computable Name*:orderableDrugFormSupplementFr |
+| Draft as of 2025-10-24 | *Computable Name*:OrderableDrugFormSupplementFr |
 
  
-Traduction Francaise 
+Traduction Française 
 
  This Code system is referenced in the content logical definition of the following value sets: 
 
@@ -33,12 +33,12 @@ This code system supplement `https://smt.esante.gouv.fr/fhir/CodeSystem/orderabl
   "language" : "fr-FR",
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/orderableDrugForm-supplement-fr",
   "version" : "1.0",
-  "name" : "orderableDrugFormSupplementFr",
-  "title" : "orderableDrugFormSupplementFr",
+  "name" : "OrderableDrugFormSupplementFr",
+  "title" : "OrderableDrugFormSupplementFr",
   "status" : "draft",
   "experimental" : true,
   "date" : "2025-10-24T16:40:38+11:00",
-  "description" : "Traduction Francaise",
+  "description" : "Traduction Française",
   "jurisdiction" : [
     {
       "coding" : [

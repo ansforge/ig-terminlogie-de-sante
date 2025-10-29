@@ -4,8 +4,8 @@
    <ValueSet dateFin=""
              dateMaj="20251024164038"
              dateValid=""
-             description="Traduction Francaise"
-             displayName="orderableDrugFormSupplementFr"
+             description="Traduction Française"
+             displayName="OrderableDrugFormSupplementFr"
              id=""
              typeFichier="TRE"
              urlFichier="">

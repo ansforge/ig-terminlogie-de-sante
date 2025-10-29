@@ -175,7 +175,7 @@ This code system supplement `http://hl7.org/fhir/us/example/CodeSystem/v3-ActPri
             "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
             "code" : "preferredForLanguage"
           },
-          "value" : "\tImmédiatement"
+          "value" : "Immédiatement"
         }
       ]
     },

@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://mos.esante.gouv.fr/NOS/ASS_X01_TranscoSavFaireADELI_SavFaireR01 | *Version*:5.0.0 |
-| Active as of 2025-10-28 | *Computable Name*:ASS_X01_TranscoSavFaireADELI_SavFaireR01 |
+| Active as of 2025-10-29 | *Computable Name*:ASS_X01_TranscoSavFaireADELI_SavFaireR01 |
 
  
 ASS_X01_TranscoSavFaireADELI_SavFaireR01 
@@ -38,7 +38,7 @@ Mapping de (non spécifié) vers (non spécifié)
   "title" : "ASS_X01_TranscoSavFaireADELI_SavFaireR01",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-10-28T19:18:48+00:00",
+  "date" : "2025-10-29T09:26:27+00:00",
   "publisher" : "ANS",
   "contact" : [
     {

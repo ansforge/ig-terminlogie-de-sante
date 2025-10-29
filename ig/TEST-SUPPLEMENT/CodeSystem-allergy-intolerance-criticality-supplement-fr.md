@@ -1,18 +1,18 @@
-# allergy-intolerance-criticalitySupplementFr - Terminologies de Santé v1.3.0
+# AllergyIntoleranceCriticalitySupplementFr - Terminologies de Santé v1.3.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
-* **allergy-intolerance-criticalitySupplementFr**
+* **AllergyIntoleranceCriticalitySupplementFr**
 
-## CodeSystem: allergy-intolerance-criticalitySupplementFr (Experimental) 
+## CodeSystem: AllergyIntoleranceCriticalitySupplementFr (Experimental) 
 
 | | |
 | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/allergy-intolerance-criticality-supplement-fr | *Version*:1.0 |
-| Draft as of 2025-10-24 | *Computable Name*:allergy-intolerance-criticalitySupplementFr |
+| Draft as of 2025-10-24 | *Computable Name*:AllergyIntoleranceCriticalitySupplementFr |
 
  
-Traduction Francaise 
+Traduction Française 
 
  This Code system is referenced in the content logical definition of the following value sets: 
 
@@ -33,12 +33,12 @@ This code system supplement `https://smt.esante.gouv.fr/fhir/CodeSystem/allergy-
   "language" : "fr-FR",
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/allergy-intolerance-criticality-supplement-fr",
   "version" : "1.0",
-  "name" : "allergy-intolerance-criticalitySupplementFr",
-  "title" : "allergy-intolerance-criticalitySupplementFr",
+  "name" : "AllergyIntoleranceCriticalitySupplementFr",
+  "title" : "AllergyIntoleranceCriticalitySupplementFr",
   "status" : "draft",
   "experimental" : true,
   "date" : "2025-10-24T16:40:38+11:00",
-  "description" : "Traduction Francaise",
+  "description" : "Traduction Française",
   "jurisdiction" : [
     {
       "coding" : [
