@@ -345,11 +345,6 @@ Description: "Traduction Française"
 * #BLDA ^designation.use = $hl7TermMaintInfra#preferredForLanguage
 * #BLDA ^designation.value = "Sang artériel"
 
-* #BLDC
-* #BLDC ^designation.language = #fr-FR
-* #BLDC ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #BLDC ^designation.value = "Sang capillaire"
-
 * #BLDCO
 * #BLDCO ^designation.language = #fr-FR
 * #BLDCO ^designation.use = $hl7TermMaintInfra#preferredForLanguage
@@ -399,11 +394,6 @@ Description: "Traduction Française"
 * #BRN ^designation.language = #fr-FR
 * #BRN ^designation.use = $hl7TermMaintInfra#preferredForLanguage
 * #BRN ^designation.value = "Brûlure"
-
-* #BRO
-* #BRO ^designation.language = #fr-FR
-* #BRO ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #BRO ^designation.value = "Prélèvement bronchique"
 
 * #BRSH
 * #BRSH ^designation.language = #fr-FR
@@ -485,11 +475,6 @@ Description: "Traduction Française"
 * #CONE ^designation.use = $hl7TermMaintInfra#preferredForLanguage
 * #CONE ^designation.value = "Biopsie conique"
 
-* #CRN
-* #CRN ^designation.language = #fr-FR
-* #CRN ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #CRN ^designation.value = "Cornée"
-
 * #CSCR
 * #CSCR ^designation.language = #fr-FR
 * #CSCR ^designation.use = $hl7TermMaintInfra#preferredForLanguage
@@ -550,11 +535,6 @@ Description: "Traduction Française"
 * #CVPT ^designation.use = $hl7TermMaintInfra#preferredForLanguage
 * #CVPT ^designation.value = "Cathéter veineux central (embout)"
 
-* #CVX
-* #CVX ^designation.language = #fr-FR
-* #CVX ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #CVX ^designation.value = "Col de l’utérus"
-
 * #CYN
 * #CYN ^designation.language = #fr-FR
 * #CYN ^designation.use = $hl7TermMaintInfra#preferredForLanguage
@@ -605,11 +585,6 @@ Description: "Traduction Française"
 * #DIV ^designation.use = $hl7TermMaintInfra#preferredForLanguage
 * #DIV ^designation.value = "Diverticule"
 
-* #DOSE
-* #DOSE ^designation.language = #fr-FR
-* #DOSE ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #DOSE ^designation.value = "Posologie (médicament ou substance)"
-
 * #DRN
 * #DRN ^designation.language = #fr-FR
 * #DRN ^designation.use = $hl7TermMaintInfra#preferredForLanguage
@@ -629,11 +604,6 @@ Description: "Traduction Française"
 * #DUFL ^designation.language = #fr-FR
 * #DUFL ^designation.use = $hl7TermMaintInfra#preferredForLanguage
 * #DUFL ^designation.value = "Liquide duodénal"
-
-* #EAR
-* #EAR ^designation.language = #fr-FR
-* #EAR ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #EAR ^designation.value = "Oreille"
 
 * #EARW
 * #EARW ^designation.language = #fr-FR
@@ -674,16 +644,6 @@ Description: "Traduction Française"
 * #ELT ^designation.language = #fr-FR
 * #ELT ^designation.use = $hl7TermMaintInfra#preferredForLanguage
 * #ELT ^designation.value = "Electrode"
-
-* #ENDC
-* #ENDC ^designation.language = #fr-FR
-* #ENDC ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #ENDC ^designation.value = "Endocarde"
-
-* #ENDM
-* #ENDM ^designation.language = #fr-FR
-* #ENDM ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #ENDM ^designation.value = "Endomètre"
 
 * #ENVIR
 * #ENVIR ^designation.language = #fr-FR
@@ -745,11 +705,6 @@ Description: "Traduction Française"
 * #EXUDTE ^designation.use = $hl7TermMaintInfra#preferredForLanguage
 * #EXUDTE ^designation.value = "Exudat"
 
-* #EYE
-* #EYE ^designation.language = #fr-FR
-* #EYE ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #EYE ^designation.value = "Oeil"
-
 * #FAW
 * #FAW ^designation.language = #fr-FR
 * #FAW ^designation.use = $hl7TermMaintInfra#preferredForLanguage
@@ -800,11 +755,6 @@ Description: "Traduction Française"
 * #FOLEY ^designation.use = $hl7TermMaintInfra#preferredForLanguage
 * #FOLEY ^designation.value = "Cathéter de Foley (embout)"
 
-* #FOOD
-* #FOOD ^designation.language = #fr-FR
-* #FOOD ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #FOOD ^designation.value = "Aliment"
-
 * #FRS
 * #FRS ^designation.language = #fr-FR
 * #FRS ^designation.use = $hl7TermMaintInfra#preferredForLanguage
@@ -849,21 +799,6 @@ Description: "Traduction Française"
 * #GAST ^designation.language = #fr-FR
 * #GAST ^designation.use = $hl7TermMaintInfra#preferredForLanguage
 * #GAST ^designation.value = "Prélèvement digestif"
-
-* #GEN
-* #GEN ^designation.language = #fr-FR
-* #GEN ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #GEN ^designation.value = "Prélèvement génitaux"
-
-* #GENC
-* #GENC ^designation.language = #fr-FR
-* #GENC ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #GENC ^designation.value = "Prélèvement cervico-vaginal"
-
-* #GENF
-* #GENF ^designation.language = #fr-FR
-* #GENF ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #GENF ^designation.value = "Sécrétions des organes génitaux"
 
 * #GENL
 * #GENL ^designation.language = #fr-FR
@@ -1070,11 +1005,6 @@ Description: "Traduction Française"
 * #KIDFLD ^designation.use = $hl7TermMaintInfra#preferredForLanguage
 * #KIDFLD ^designation.value = "Liquide rénal"
 
-* #LAM
-* #LAM ^designation.language = #fr-FR
-* #LAM ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #LAM ^designation.value = "Lame"
-
 * #LAVG
 * #LAVG ^designation.language = #fr-FR
 * #LAVG ^designation.use = $hl7TermMaintInfra#preferredForLanguage
@@ -1119,11 +1049,6 @@ Description: "Traduction Française"
 * #LIQO ^designation.language = #fr-FR
 * #LIQO ^designation.use = $hl7TermMaintInfra#preferredForLanguage
 * #LIQO ^designation.value = "Liquide (autres)"
-
-* #LN
-* #LN ^designation.language = #fr-FR
-* #LN ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #LN ^designation.value = "Ponction"
 
 * #LNA
 * #LNA ^designation.language = #fr-FR
@@ -1235,11 +1160,6 @@ Description: "Traduction Française"
 * #NODUL ^designation.use = $hl7TermMaintInfra#preferredForLanguage
 * #NODUL ^designation.value = "Nodule(s)"
 
-* #NOS
-* #NOS ^designation.language = #fr-FR
-* #NOS ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #NOS ^designation.value = "Prélèvement nasopharyngée"
-
 * #NSECR
 * #NSECR ^designation.language = #fr-FR
 * #NSECR ^designation.use = $hl7TermMaintInfra#preferredForLanguage
@@ -1269,11 +1189,6 @@ Description: "Traduction Française"
 * #PAFL ^designation.language = #fr-FR
 * #PAFL ^designation.use = $hl7TermMaintInfra#preferredForLanguage
 * #PAFL ^designation.value = "Liquide pancréatique"
-
-* #PAT
-* #PAT ^designation.language = #fr-FR
-* #PAT ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #PAT ^designation.value = "Patient"
 
 * #PCFL
 * #PCFL ^designation.language = #fr-FR
@@ -1400,11 +1315,6 @@ Description: "Traduction Française"
 * #PRP ^designation.use = $hl7TermMaintInfra#preferredForLanguage
 * #PRP ^designation.value = "Plasma riche en plaquettes"
 
-* #PRT
-* #PRT ^designation.language = #fr-FR
-* #PRT ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #PRT ^designation.value = "Liquide péritonéal"
-
 * #PSC
 * #PSC ^designation.language = #fr-FR
 * #PSC ^designation.use = $hl7TermMaintInfra#preferredForLanguage
@@ -1530,11 +1440,6 @@ Description: "Traduction Française"
 * #SKBP ^designation.use = $hl7TermMaintInfra#preferredForLanguage
 * #SKBP ^designation.value = "Biopsie de peau"
 
-* #SKM
-* #SKM ^designation.language = #fr-FR
-* #SKM ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #SKM ^designation.value = "Muscle squelettique "
-
 * #SKN
 * #SKN ^designation.language = #fr-FR
 * #SKN ^designation.use = $hl7TermMaintInfra#preferredForLanguage
@@ -1549,11 +1454,6 @@ Description: "Traduction Française"
 * #SMN ^designation.language = #fr-FR
 * #SMN ^designation.use = $hl7TermMaintInfra#preferredForLanguage
 * #SMN ^designation.value = "Sperme"
-
-* #SMPLS
-* #SMPLS ^designation.language = #fr-FR
-* #SMPLS ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #SMPLS ^designation.value = "Plasma séminal"
 
 * #SNV
 * #SNV ^designation.language = #fr-FR
@@ -1675,21 +1575,6 @@ Description: "Traduction Française"
 * #THRB ^designation.use = $hl7TermMaintInfra#preferredForLanguage
 * #THRB ^designation.value = "Plaquettes"
 
-* #THRT
-* #THRT ^designation.language = #fr-FR
-* #THRT ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #THRT ^designation.value = "Gorge"
-
-* #TISG
-* #TISG ^designation.language = #fr-FR
-* #TISG ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #TISG ^designation.value = "Vésicule biliaire"
-
-* #TISPL
-* #TISPL ^designation.language = #fr-FR
-* #TISPL ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #TISPL ^designation.value = "Trophoblastes"
-
 * #TISS
 * #TISS ^designation.language = #fr-FR
 * #TISS ^designation.use = $hl7TermMaintInfra#preferredForLanguage
@@ -1704,16 +1589,6 @@ Description: "Traduction Française"
 * #TLC ^designation.language = #fr-FR
 * #TLC ^designation.use = $hl7TermMaintInfra#preferredForLanguage
 * #TLC ^designation.value = "Cathéter triple lumière (embout)"
-
-* #TLGI
-* #TLGI ^designation.language = #fr-FR
-* #TLGI ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #TLGI ^designation.value = "Gros intestin"
-
-* #TLNG
-* #TLNG ^designation.language = #fr-FR
-* #TLNG ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #TLNG ^designation.value = "Tissu pulmonaire"
 
 * #TRAC
 * #TRAC ^designation.language = #fr-FR
@@ -1730,11 +1605,6 @@ Description: "Traduction Française"
 * #TSERU ^designation.use = $hl7TermMaintInfra#preferredForLanguage
 * #TSERU ^designation.value = "par sérum"
 
-* #TSMI
-* #TSMI ^designation.language = #fr-FR
-* #TSMI ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #TSMI ^designation.value = "Intestin grêle"
-
 * #TSTES
 * #TSTES ^designation.language = #fr-FR
 * #TSTES ^designation.use = $hl7TermMaintInfra#preferredForLanguage
@@ -1744,11 +1614,6 @@ Description: "Traduction Française"
 * #TTRA ^designation.language = #fr-FR
 * #TTRA ^designation.use = $hl7TermMaintInfra#preferredForLanguage
 * #TTRA ^designation.value = "Aspiration transtrachéale"
-
-* #TUB
-* #TUB ^designation.language = #fr-FR
-* #TUB ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #TUB ^designation.value = "Tube"
 
 * #TUBES
 * #TUBES ^designation.language = #fr-FR
@@ -1769,16 +1634,6 @@ Description: "Traduction Française"
 * #UDENT ^designation.language = #fr-FR
 * #UDENT ^designation.use = $hl7TermMaintInfra#preferredForLanguage
 * #UDENT ^designation.value = "Origine non identifiée"
-
-* #ULC
-* #ULC ^designation.language = #fr-FR
-* #ULC ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #ULC ^designation.value = "Ulcère"
-
-* #UMB
-* #UMB ^designation.language = #fr-FR
-* #UMB ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #UMB ^designation.value = "Sang de cordon ombilical"
 
 * #UMED
 * #UMED ^designation.language = #fr-FR
@@ -1829,11 +1684,6 @@ Description: "Traduction Française"
 * #URT ^designation.language = #fr-FR
 * #URT ^designation.use = $hl7TermMaintInfra#preferredForLanguage
 * #URT ^designation.value = "Urine par cathéter"
-
-* #URTH
-* #URTH ^designation.language = #fr-FR
-* #URTH ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #URTH ^designation.value = "Urètre"
 
 * #USCOP
 * #USCOP ^designation.language = #fr-FR
@@ -4610,11 +4460,6 @@ Description: "Traduction Française"
 * #AUNT ^designation.use = $hl7TermMaintInfra#preferredForLanguage
 * #AUNT ^designation.value = "Tante"
 
-* #BRO
-* #BRO ^designation.language = #fr-FR
-* #BRO ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #BRO ^designation.value = "Frère"
-
 * #BROINLAW
 * #BROINLAW ^designation.language = #fr-FR
 * #BROINLAW ^designation.use = $hl7TermMaintInfra#preferredForLanguage
@@ -5272,3 +5117,140 @@ Description: "Traduction Française"
 * #WAKE ^designation.language = #fr-FR
 * #WAKE ^designation.use = $hl7TermMaintInfra#preferredForLanguage
 * #WAKE ^designation.value = "Au réveil"
+
+
+CodeSystem: V3SpecimenTypeSupplementFr
+Id: v3-SpecimenType-supplement-fr
+Title: "V3SpecimenTypeSupplementFr"
+Description: "Traduction Française"
+* ^language = #fr-FR
+
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/v3-SpecimenType-supplement-fr"
+* ^version = "1.0"
+* ^status = #draft
+* ^experimental = true
+* ^date = "2025-10-24T16:40:38+11:00"
+* ^content = #supplement
+* ^supplements = "http://terminology.hl7.org/CodeSystem/v3-SpecimenType"
+
+* #BLDC
+* #BLDC ^designation.language = #fr-FR
+* #BLDC ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #BLDC ^designation.value = "Sang capillaire"
+* #BRO
+* #BRO ^designation.language = #fr-FR
+* #BRO ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #BRO ^designation.value = "Prélèvement bronchique"
+* #CRN
+* #CRN ^designation.language = #fr-FR
+* #CRN ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #CRN ^designation.value = "Cornée"
+* #CVX
+* #CVX ^designation.language = #fr-FR
+* #CVX ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #CVX ^designation.value = "Col de l’utérus"
+* #DOSE
+* #DOSE ^designation.language = #fr-FR
+* #DOSE ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #DOSE ^designation.value = "Posologie (médicament ou substance)"
+* #EAR
+* #EAR ^designation.language = #fr-FR
+* #EAR ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #EAR ^designation.value = "Oreille"
+* #ENDC
+* #ENDC ^designation.language = #fr-FR
+* #ENDC ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #ENDC ^designation.value = "Endocarde"
+* #ENDM
+* #ENDM ^designation.language = #fr-FR
+* #ENDM ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #ENDM ^designation.value = "Endomètre"
+* #EYE
+* #EYE ^designation.language = #fr-FR
+* #EYE ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #EYE ^designation.value = "Oeil"
+* #FOOD
+* #FOOD ^designation.language = #fr-FR
+* #FOOD ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #FOOD ^designation.value = "Aliment"
+* #GEN
+* #GEN ^designation.language = #fr-FR
+* #GEN ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #GEN ^designation.value = "Prélèvement génitaux"
+* #GENC
+* #GENC ^designation.language = #fr-FR
+* #GENC ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #GENC ^designation.value = "Prélèvement cervico-vaginal"
+* #GENF
+* #GENF ^designation.language = #fr-FR
+* #GENF ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #GENF ^designation.value = "Sécrétions des organes génitaux"
+* #LAM
+* #LAM ^designation.language = #fr-FR
+* #LAM ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #LAM ^designation.value = "Lame"
+* #LN
+* #LN ^designation.language = #fr-FR
+* #LN ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #LN ^designation.value = "Ponction"
+* #NOS
+* #NOS ^designation.language = #fr-FR
+* #NOS ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #NOS ^designation.value = "Prélèvement nasopharyngée"
+* #PAT
+* #PAT ^designation.language = #fr-FR
+* #PAT ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #PAT ^designation.value = "Patient"
+* #PRT
+* #PRT ^designation.language = #fr-FR
+* #PRT ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #PRT ^designation.value = "Liquide péritonéal"
+* #SKM
+* #SKM ^designation.language = #fr-FR
+* #SKM ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #SKM ^designation.value = "Muscle squelettique"
+* #SMPLS
+* #SMPLS ^designation.language = #fr-FR
+* #SMPLS ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #SMPLS ^designation.value = "Plasma séminal"
+* #THRT
+* #THRT ^designation.language = #fr-FR
+* #THRT ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #THRT ^designation.value = "Gorge"
+* #TISG
+* #TISG ^designation.language = #fr-FR
+* #TISG ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #TISG ^designation.value = "Vésicule biliaire"
+* #TISPL
+* #TISPL ^designation.language = #fr-FR
+* #TISPL ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #TISPL ^designation.value = "Trophoblastes"
+* #TLGI
+* #TLGI ^designation.language = #fr-FR
+* #TLGI ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #TLGI ^designation.value = "Gros intestin"
+* #TLNG
+* #TLNG ^designation.language = #fr-FR
+* #TLNG ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #TLNG ^designation.value = "Tissu pulmonaire"
+* #TSMI
+* #TSMI ^designation.language = #fr-FR
+* #TSMI ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #TSMI ^designation.value = "Intestin grêle"
+* #TUB
+* #TUB ^designation.language = #fr-FR
+* #TUB ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #TUB ^designation.value = "Tube"
+* #ULC
+* #ULC ^designation.language = #fr-FR
+* #ULC ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #ULC ^designation.value = "Ulcère"
+* #UMB
+* #UMB ^designation.language = #fr-FR
+* #UMB ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #UMB ^designation.value = "Sang de cordon ombilical"
+* #URTH
+* #URTH ^designation.language = #fr-FR
+* #URTH ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #URTH ^designation.value = "Urètre"
+
