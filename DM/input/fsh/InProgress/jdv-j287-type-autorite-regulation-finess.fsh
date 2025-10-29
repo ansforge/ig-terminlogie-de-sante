@@ -17,4 +17,4 @@ Description: "Jeu de valeurs FINESS contenant les types d'autorité de régulati
 * ^experimental = false
 * ^date = "2025-08-26T18:02:28.249+00:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* include codes from system $tre-r396-autorite  where AutoriteRegulationFiness = "true" and niveau = "1"
+* include codes from system $tre-r396-autorite where AutoriteRegulationFiness = "true" and niveau = "1"
