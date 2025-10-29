@@ -137,7 +137,7 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #05 ^property[=].valueCode = #active
 * #05 ^property[+].code = #niveau
 * #05 ^property[=].valueInteger = 1
-* #05 ^property[+].code = #AutoriteRegulationFiness
+* #05 ^property[+].code = #AutoriteEnregistrementFiness
 * #05 ^property[=].valueBoolean = true
 * #06 "Conseil départemental"
 * #06 ^designation[0].language = #fr-FR
@@ -169,7 +169,7 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * #07 ^property[=].valueCode = #active
 * #07 ^property[+].code = #niveau
 * #07 ^property[=].valueInteger = 1
-* #07 ^property[+].code = #AutoriteEnregistrementFiness
+* #07 ^property[+].code = #AutoriteRegulationFiness
 * #07 ^property[=].valueBoolean = true
 * #08 "Services des Armées"
 * #08 ^designation[0].language = #fr-FR
