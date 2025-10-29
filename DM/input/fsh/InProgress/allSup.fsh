@@ -2228,10 +2228,10 @@ Description: "Traduction Française"
 * #P ^designation.use = $hl7TermMaintInfra#preferredForLanguage
 * #P ^designation.value = "A réaliser avant l'intervention"
 
-* #&
-* #& ^designation.language = #fr-FR
-* #& ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #& ^designation.value = "Si nécessaire"
+* #PRN
+* #PRN ^designation.language = #fr-FR
+* #PRN ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #PRN ^designation.value = "Si nécessaire"
 
 * #R
 * #R ^designation.language = #fr-FR
@@ -3967,10 +3967,10 @@ Description: "Traduction Française"
 * #0275 ^designation.use = $hl7TermMaintInfra#preferredForLanguage
 * #0275 ^designation.value = "Bandelette à gradient"
 
-* #275a
-* #275a ^designation.language = #fr-FR
-* #275a ^designation.use = $hl7TermMaintInfra#preferredForLanguage
-* #275a ^designation.value = "Concentration minimale létale (CML)"
+* #0275a
+* #0275a ^designation.language = #fr-FR
+* #0275a ^designation.use = $hl7TermMaintInfra#preferredForLanguage
+* #0275a ^designation.value = "Concentration minimale létale (CML)"
 
 * #0276
 * #0276 ^designation.language = #fr-FR
