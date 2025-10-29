@@ -16,7 +16,7 @@
  
 La nomenclature européenne des dispositifs médicaux (EMDN) est la nomenclature que doivent utiliser les fabricants pour enregistrer leurs dispositifs médicaux dans EUDAMED, base de données européenne sur les dispositifs médicaux. Il s’agit d’alimenter le système européen d’identification des dispositifs fondé sur un identifiant unique du dispositif (IUD) pour en faciliter la traçabilité. 
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J145_MethodBodyWeight_ENS](ValueSet-JDV-J145-MethodBodyWeight-ENS.md)
 * [JDV_J146_MethodBodyHeight_ENS](ValueSet-JDV-J146-MethodBodyHeight-ENS.md)

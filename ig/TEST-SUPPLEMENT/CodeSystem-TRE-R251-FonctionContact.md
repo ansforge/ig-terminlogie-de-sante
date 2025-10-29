@@ -15,7 +15,7 @@
  
 Un titre, une position, une fonction de la personne contact dans l’organisation 
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J220_FonctionContact_ROR](ValueSet-JDV-J220-FonctionContact-ROR.md)
 

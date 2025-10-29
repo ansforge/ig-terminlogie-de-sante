@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-etiologie-avc-cisis | *Version*:20250624152100 | |
-| Active as of 2025-06-24 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvEtiologieAvcCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-etiologie-avc-cisis | *Version*:20251028115833 | |
+| Active as of 2025-10-28 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvEtiologieAvcCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.679 | | |
 
  
@@ -29,7 +29,7 @@ Requête sur le SMT
 
 ### Logical Definition (CLD)
 
-version: 4; Dernière mise à jour : 2025-06-25 09:13:55+0000; Langue : fr-FR
+version: 5; Dernière mise à jour : 2025-10-29 10:43:40+0100; Langue : fr-FR
 
 Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
 
@@ -71,8 +71,8 @@ Ce jeu de valeur (ValueSet) contient 3 concepts
   "resourceType" : "ValueSet",
   "id" : "jdv-etiologie-avc-cisis",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2025-06-25T09:13:55.788+00:00",
+    "versionId" : "5",
+    "lastUpdated" : "2025-10-29T10:43:40.825+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -91,12 +91,12 @@ Ce jeu de valeur (ValueSet) contient 3 concepts
       "value" : "urn:oid:1.2.250.1.213.1.1.5.679"
     }
   ],
-  "version" : "20250624152100",
+  "version" : "20251028115833",
   "name" : "JdvEtiologieAvcCisis",
   "title" : "JDV Etiologie Avc CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-06-24T15:21:00+01:00",
+  "date" : "2025-10-28T11:58:33+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Etiologie Avc CISIS",
   "jurisdiction" : [

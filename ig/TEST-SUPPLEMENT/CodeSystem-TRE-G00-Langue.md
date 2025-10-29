@@ -15,7 +15,7 @@
  
 Langue 
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J115_Langue_ENREG](ValueSet-JDV-J115-Langue-ENREG.md)
 * [JDV_J82_Langue_RASS](ValueSet-JDV-J82-Langue-RASS.md)

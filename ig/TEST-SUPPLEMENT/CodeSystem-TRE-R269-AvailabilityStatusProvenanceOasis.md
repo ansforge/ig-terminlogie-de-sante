@@ -15,7 +15,7 @@
  
 Statut de l’objet provenant de la norme Oasis 
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J52_AvailabilityStatus_CISIS](ValueSet-JDV-J52-AvailabilityStatus-CISIS.md)
 

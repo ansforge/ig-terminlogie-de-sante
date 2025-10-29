@@ -15,7 +15,7 @@
  
 Savoir-faire liés aux DESC du groupe 1 non qualifiants 
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J107_EnsembleSavoirFaire_RASS](ValueSet-JDV-J107-EnsembleSavoirFaire-RASS.md)
 * [JDV_J215_DESCnonQualifiant_ROR](ValueSet-JDV-J215-DESCnonQualifiant-ROR.md)

@@ -15,7 +15,7 @@
  
 Les conditions d’accès à un tarif modulé 
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J39_ConditionTarifaire_ROR](ValueSet-JDV-J39-ConditionTarifaire-ROR.md)
 

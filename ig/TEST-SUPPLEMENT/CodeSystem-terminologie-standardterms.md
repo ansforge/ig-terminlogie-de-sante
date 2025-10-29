@@ -16,7 +16,7 @@
  
 Les standard terms (ou listes de termes normalisés) ont été établis en réponse à une demande de la Commission européenne. Ils contiennent les formes pharmaceutiques, les voies et/ou les méthodes d’administration, les unités de présentation, ainsi que les conditionnements, les systèmes de fermeture et les dispositifs d’administration des médicaments à usage humain et/ou vétérinaire. 
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JdvFluideRouteCodeCisis](ValueSet-jdv-fluide-route-code-cisis.md)
 * [JdvImmunizationRouteCodeCisis](ValueSet-jdv-immunization-route-code-cisis.md)

@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-xActMoodDocumentObservation | *Version*:20250624152100 | |
-| Active as of 2025-06-24 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:XActMoodDocumentObservation |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-xActMoodDocumentObservation | *Version*:20251028115834 | |
+| Active as of 2025-10-28 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:XActMoodDocumentObservation |
 | *Other Identifiers:*OID:2.16.840.1.113883.1.11.18943 | | |
 
  
@@ -29,7 +29,7 @@ Requête sur le SMT
 
 ### Logical Definition (CLD)
 
-version: 4; Dernière mise à jour : 2025-06-25 09:17:22+0000; Langue : fr-FR
+version: 5; Dernière mise à jour : 2025-10-29 10:45:25+0100; Langue : fr-FR
 
 Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
 
@@ -63,8 +63,8 @@ Ce jeu de valeur (ValueSet) contient 10 concepts
   "resourceType" : "ValueSet",
   "id" : "jdv-hl7-v3-xActMoodDocumentObservation",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2025-06-25T09:17:22.163+00:00",
+    "versionId" : "5",
+    "lastUpdated" : "2025-10-29T10:45:25.378+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -83,12 +83,12 @@ Ce jeu de valeur (ValueSet) contient 10 concepts
       "value" : "urn:oid:2.16.840.1.113883.1.11.18943"
     }
   ],
-  "version" : "20250624152100",
+  "version" : "20251028115834",
   "name" : "XActMoodDocumentObservation",
   "title" : "x_ActMoodDocumentObservation",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-06-24T15:21:00+01:00",
+  "date" : "2025-10-28T11:58:34+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "x_ActMoodDocumentObservation",
   "jurisdiction" : [

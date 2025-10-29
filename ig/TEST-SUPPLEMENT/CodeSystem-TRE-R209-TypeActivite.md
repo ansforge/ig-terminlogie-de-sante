@@ -15,7 +15,7 @@
  
 Type d’activité 
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J03_XdsContentTypeCode_CISIS](ValueSet-JDV-J03-XdsContentTypeCode-CISIS.md)
 * [JDV_J138_TypeActivite_RASS](ValueSet-JDV-J138-TypeActivite-RASS.md)

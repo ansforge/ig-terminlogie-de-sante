@@ -38,7 +38,7 @@ Mapping de (non spécifié) vers (non spécifié)
   "title" : "ASS_X10_AgregatCategorieEtablissement",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-10-29T09:26:27+00:00",
+  "date" : "2025-10-29T12:44:38+00:00",
   "publisher" : "ANS",
   "contact" : [
     {

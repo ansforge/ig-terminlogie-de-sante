@@ -15,7 +15,7 @@
  
 Genre d’activité 
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J05_SubjectRole_CISIS](ValueSet-JDV-J05-SubjectRole-CISIS.md)
 * [JDV_J116_GenreActivite_ENREG](ValueSet-JDV-J116-GenreActivite-ENREG.md)

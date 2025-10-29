@@ -15,7 +15,7 @@
  
 Mode d’exercice 
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J117_ModeExercice_ENREG](ValueSet-JDV-J117-ModeExercice-ENREG.md)
 * [JDV_J217_ModeExercice_ROR](ValueSet-JDV-J217-ModeExercice-ROR.md)

@@ -15,7 +15,7 @@
  
 Niveau de dépendance associé à un tarif 
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J27_GroupeTarifaireDependance_ROR](ValueSet-JDV-J27-GroupeTarifaireDependance-ROR.md)
 

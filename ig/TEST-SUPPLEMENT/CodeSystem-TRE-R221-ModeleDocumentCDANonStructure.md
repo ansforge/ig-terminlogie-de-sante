@@ -15,7 +15,7 @@
  
 Identifiant des modèles de CDA non structurés 
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JdvModeleDocumentCda](ValueSet-jdv-modele-document-cda.md)
 * [JdvTreR221ModeleDocumentCdaNonStructureAll](ValueSet-jdv-tre-r221-modele-document-cda-non-structure-all.md)

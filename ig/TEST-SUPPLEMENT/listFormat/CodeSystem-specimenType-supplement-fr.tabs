@@ -23,7 +23,6 @@
 ;BITE;;;;;;
 ;BLD;;;;;;
 ;BLDA;;;;;;
-;BLDC;;;;;;
 ;BLDCO;;;;;;
 ;BLDV;;;;;;
 ;BLEB;;;;;;
@@ -34,7 +33,6 @@
 ;BPH;;;;;;
 ;BPU;;;;;;
 ;BRN;;;;;;
-;BRO;;;;;;
 ;BRSH;;;;;;
 ;BRTH;;;;;;
 ;BRUS;;;;;;
@@ -51,7 +49,6 @@
 ;CNL;;;;;;
 ;COL;;;;;;
 ;CONE;;;;;;
-;CRN;;;;;;
 ;CSCR;;;;;;
 ;CSERU;;;;;;
 ;CSF;;;;;;
@@ -64,7 +61,6 @@
 ;CVM;;;;;;
 ;CVPS;;;;;;
 ;CVPT;;;;;;
-;CVX;;;;;;
 ;CYN;;;;;;
 ;CYST;;;;;;
 ;DBITE;;;;;;
@@ -75,12 +71,10 @@
 ;DIAF;;;;;;
 ;DISCHG;;;;;;
 ;DIV;;;;;;
-;DOSE;;;;;;
 ;DRN;;;;;;
 ;DRNG;;;;;;
 ;DRNGP;;;;;;
 ;DUFL;;;;;;
-;EAR;;;;;;
 ;EARW;;;;;;
 ;EBRUSH;;;;;;
 ;EEYE;;;;;;
@@ -89,8 +83,6 @@
 ;EFOD;;;;;;
 ;EISO;;;;;;
 ;ELT;;;;;;
-;ENDC;;;;;;
-;ENDM;;;;;;
 ;ENVIR;;;;;;
 ;EOS;;;;;;
 ;EOTH;;;;;;
@@ -103,7 +95,6 @@
 ;EXG;;;;;;
 ;EXS;;;;;;
 ;EXUDTE;;;;;;
-;EYE;;;;;;
 ;FAW;;;;;;
 ;FBLOOD;;;;;;
 ;FGA;;;;;;
@@ -114,7 +105,6 @@
 ;FLU;;;;;;
 ;FLUID;;;;;;
 ;FOLEY;;;;;;
-;FOOD;;;;;;
 ;FRS;;;;;;
 ;FSCLP;;;;;;
 ;FUR;;;;;;
@@ -124,9 +114,6 @@
 ;GASBR;;;;;;
 ;GASD;;;;;;
 ;GAST;;;;;;
-;GEN;;;;;;
-;GENC;;;;;;
-;GENF;;;;;;
 ;GENL;;;;;;
 ;GENV;;;;;;
 ;GRAFT;;;;;;
@@ -168,7 +155,6 @@
 ;JP;;;;;;
 ;KELOI;;;;;;
 ;KIDFLD;;;;;;
-;LAM;;;;;;
 ;LAVG;;;;;;
 ;LAVGG;;;;;;
 ;LAVGP;;;;;;
@@ -178,7 +164,6 @@
 ;LESN;;;;;;
 ;LIQ;;;;;;
 ;LIQO;;;;;;
-;LN;;;;;;
 ;LNA;;;;;;
 ;LNV;;;;;;
 ;LSAC;;;;;;
@@ -201,14 +186,12 @@
 ;NGAST;;;;;;
 ;NGS;;;;;;
 ;NODUL;;;;;;
-;NOS;;;;;;
 ;NSECR;;;;;;
 ;ORH;;;;;;
 ;ORL;;;;;;
 ;OTH;;;;;;
 ;PACEM;;;;;;
 ;PAFL;;;;;;
-;PAT;;;;;;
 ;PCFL;;;;;;
 ;PDSIT;;;;;;
 ;PDTS;;;;;;
@@ -234,7 +217,6 @@
 ;PPP;;;;;;
 ;PROST;;;;;;
 ;PRP;;;;;;
-;PRT;;;;;;
 ;PSC;;;;;;
 ;PUNCT;;;;;;
 ;PUS;;;;;;
@@ -260,11 +242,9 @@
 ;SHUNT;;;;;;
 ;SITE;;;;;;
 ;SKBP;;;;;;
-;SKM;;;;;;
 ;SKN;;;;;;
 ;SMM;;;;;;
 ;SMN;;;;;;
-;SMPLS;;;;;;
 ;SNV;;;;;;
 ;SPRM;;;;;;
 ;SPRP;;;;;;
@@ -289,27 +269,18 @@
 ;TASP;;;;;;
 ;TEAR;;;;;;
 ;THRB;;;;;;
-;THRT;;;;;;
-;TISG;;;;;;
-;TISPL;;;;;;
 ;TISS;;;;;;
 ;TISU;;;;;;
 ;TLC;;;;;;
-;TLGI;;;;;;
-;TLNG;;;;;;
 ;TRAC;;;;;;
 ;TRANS;;;;;;
 ;TSERU;;;;;;
-;TSMI;;;;;;
 ;TSTES;;;;;;
 ;TTRA;;;;;;
-;TUB;;;;;;
 ;TUBES;;;;;;
 ;TUMOR;;;;;;
 ;TZANC;;;;;;
 ;UDENT;;;;;;
-;ULC;;;;;;
-;UMB;;;;;;
 ;UMED;;;;;;
 ;UR;;;;;;
 ;URC;;;;;;
@@ -320,7 +291,6 @@
 ;URINP;;;;;;
 ;URNS;;;;;;
 ;URT;;;;;;
-;URTH;;;;;;
 ;USCOP;;;;;;
 ;USPEC;;;;;;
 ;USUB;;;;;;

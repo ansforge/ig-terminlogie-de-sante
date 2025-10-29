@@ -15,7 +15,7 @@
  
 Etablissement de santé privé d’intérêt collectif 
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J162_ESPIC_RASS](ValueSet-JDV-J162-ESPIC-RASS.md)
 * [JDV_J202_ESPIC_ROR](ValueSet-JDV-J202-ESPIC-ROR.md)

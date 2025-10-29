@@ -15,7 +15,7 @@
  
 Liste des codes complémentaires utilisables dans un contexte particulier 
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J123_Pays_MDPH](ValueSet-JDV-J123-Pays-MDPH.md)
 * [JDV_J125_MotifRejet_ENREG](ValueSet-JDV-J125-MotifRejet-ENREG.md)

@@ -74,7 +74,7 @@ Ce jeu de valeurs (ValueSet) a 41,118 codes. Pour garder la publication gérable
   "name" : "ValueSet_BDPM_All",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-10-29T09:26:27+00:00",
+  "date" : "2025-10-29T12:44:38+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Ce jeu de valeurs inclut tous les codes de la terminologie BDPM",
   "jurisdiction" : [

@@ -15,7 +15,7 @@
  
 Type de diplôme 
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J233_TypeDiplome_EPARS](ValueSet-JDV-J233-TypeDiplome-EPARS.md)
 * [JDV_J81_TypeDiplome_RASS](ValueSet-JDV-J81-TypeDiplome-RASS.md)

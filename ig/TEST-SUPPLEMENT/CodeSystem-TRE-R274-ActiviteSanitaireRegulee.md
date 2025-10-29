@@ -15,7 +15,7 @@
  
 Activités sanitaires soumises à une régulation de la part de l’ARS 
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J133_ActiviteSanitaireRegulee_RASS](ValueSet-JDV-J133-ActiviteSanitaireRegulee-RASS.md)
 

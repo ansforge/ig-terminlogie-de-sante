@@ -15,7 +15,7 @@
  
 Permet de donner une indication pour savoir une action doit être menée ou de son résultat lorsqu’elle a été menée 
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J196_StatutCommunication_ROR](ValueSet-JDV-J196-StatutCommunication-ROR.md)
 

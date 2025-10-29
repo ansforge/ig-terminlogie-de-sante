@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-evenement-indesirable-previsible-cisis | *Version*:20250624152100 | |
-| Active as of 2025-06-24 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvTypeEvenementIndesirablePrevisibleCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-evenement-indesirable-previsible-cisis | *Version*:20251028115833 | |
+| Active as of 2025-10-28 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvTypeEvenementIndesirablePrevisibleCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.794 | | |
 
  
@@ -29,7 +29,7 @@ Requête sur le SMT
 
 ### Logical Definition (CLD)
 
-version: 3; Dernière mise à jour : 2025-06-25 09:16:48+0000; Langue : fr-FR
+version: 4; Dernière mise à jour : 2025-10-29 10:45:05+0100; Langue : fr-FR
 
 Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
 
@@ -63,8 +63,8 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "resourceType" : "ValueSet",
   "id" : "jdv-type-evenement-indesirable-previsible-cisis",
   "meta" : {
-    "versionId" : "3",
-    "lastUpdated" : "2025-06-25T09:16:48.586+00:00",
+    "versionId" : "4",
+    "lastUpdated" : "2025-10-29T10:45:05.329+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -83,12 +83,12 @@ No Expansion for this valueset (not supported by Publication Tooling)
       "value" : "urn:oid:1.2.250.1.213.1.1.5.794"
     }
   ],
-  "version" : "20250624152100",
+  "version" : "20251028115833",
   "name" : "JdvTypeEvenementIndesirablePrevisibleCisis",
   "title" : "JDV Type Evenement Indesirable Previsible CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-06-24T15:21:00+01:00",
+  "date" : "2025-10-28T11:58:33+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Type Evenement Indesirable Previsible CISIS",
   "jurisdiction" : [
@@ -132,7 +132,7 @@ No Expansion for this valueset (not supported by Publication Tooling)
           },
           {
             "code" : "609398007",
-            "display" : "hypersensibilité non allergique à une drogue ou un médicament"
+            "display" : "hypersensibilité non allergique médicamenteuse"
           },
           {
             "code" : "735449006",
@@ -148,7 +148,7 @@ No Expansion for this valueset (not supported by Publication Tooling)
           },
           {
             "code" : "59037007",
-            "display" : "intolérance aux drogues et/ou médicaments"
+            "display" : "intolérance médicamenteuse"
           },
           {
             "code" : "235719002",

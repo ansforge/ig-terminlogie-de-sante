@@ -11,7 +11,7 @@
   <name value="Terminologies"/>
   <title value="Terminologies  de Santé"/>
   <status value="active"/>
-  <date value="2025-10-29T09:26:27+00:00"/>
+  <date value="2025-10-29T12:44:38+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -18235,6 +18235,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-hl7-days-of-week"/>
+      </reference>
+      <name value="DaysOfWeek"/>
+      <description value="DaysOfWeek"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-hl7-v3-employmentStatusODH-cisis"/>
       </reference>
       <name value="EmploymentStatusODH"/>
@@ -29197,6 +29208,17 @@
       </reference>
       <name value="v3ActPrioritySupplementFr"/>
       <description value="Traduction Francaise"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/v3-SpecimenType-supplement-fr"/>
+      </reference>
+      <name value="V3SpecimenTypeSupplementFr"/>
+      <description value="Traduction Française"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

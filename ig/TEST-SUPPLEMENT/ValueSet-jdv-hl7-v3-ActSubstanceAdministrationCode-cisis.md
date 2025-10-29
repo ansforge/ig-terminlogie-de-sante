@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActSubstanceAdministrationCode-cisis | *Version*:20250624152101 | |
-| Active as of 2025-06-24 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ActSubstanceAdministrationCode |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActSubstanceAdministrationCode-cisis | *Version*:20251028115836 | |
+| Active as of 2025-10-28 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ActSubstanceAdministrationCode |
 | *Other Identifiers:*OID:2.16.840.1.113883.1.11.19708 | | |
 
  
@@ -29,7 +29,7 @@ Requête sur le SMT
 
 ### Logical Definition (CLD)
 
-version: 4; Dernière mise à jour : 2025-06-25 09:12:23+0000; Langue : fr-FR
+version: 5; Dernière mise à jour : 2025-10-29 10:42:58+0100; Langue : fr-FR
 
 Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
 
@@ -63,8 +63,8 @@ Ce jeu de valeur (ValueSet) contient 2 concepts
   "resourceType" : "ValueSet",
   "id" : "jdv-hl7-v3-ActSubstanceAdministrationCode-cisis",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2025-06-25T09:12:23.770+00:00",
+    "versionId" : "5",
+    "lastUpdated" : "2025-10-29T10:42:58.094+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -83,12 +83,12 @@ Ce jeu de valeur (ValueSet) contient 2 concepts
       "value" : "urn:oid:2.16.840.1.113883.1.11.19708"
     }
   ],
-  "version" : "20250624152101",
+  "version" : "20251028115836",
   "name" : "ActSubstanceAdministrationCode",
   "title" : "ActSubstanceAdministrationCode",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-06-24T15:21:01+01:00",
+  "date" : "2025-10-28T11:58:36+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "ActSubstanceAdministrationCode",
   "jurisdiction" : [

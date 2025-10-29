@@ -14,7 +14,7 @@
  
 Traduction Française 
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * Ce supplément de terminologie de référence (CodeSystem) nest pas utilisé ici; il peut être utilisé ailleurs (par exemple spécifications et/ou implémentations qui utilisent ce contenu)
 
@@ -339,19 +339,6 @@ This code system supplement `https://smt.esante.gouv.fr/fhir/CodeSystem/specimen
       ]
     },
     {
-      "code" : "BLDC",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
-            "code" : "preferredForLanguage"
-          },
-          "value" : "Sang capillaire"
-        }
-      ]
-    },
-    {
       "code" : "BLDCO",
       "designation" : [
         {
@@ -478,19 +465,6 @@ This code system supplement `https://smt.esante.gouv.fr/fhir/CodeSystem/specimen
             "code" : "preferredForLanguage"
           },
           "value" : "Brûlure"
-        }
-      ]
-    },
-    {
-      "code" : "BRO",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
-            "code" : "preferredForLanguage"
-          },
-          "value" : "Prélèvement bronchique"
         }
       ]
     },
@@ -703,19 +677,6 @@ This code system supplement `https://smt.esante.gouv.fr/fhir/CodeSystem/specimen
       ]
     },
     {
-      "code" : "CRN",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
-            "code" : "preferredForLanguage"
-          },
-          "value" : "Cornée"
-        }
-      ]
-    },
-    {
       "code" : "CSCR",
       "designation" : [
         {
@@ -872,19 +833,6 @@ This code system supplement `https://smt.esante.gouv.fr/fhir/CodeSystem/specimen
       ]
     },
     {
-      "code" : "CVX",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
-            "code" : "preferredForLanguage"
-          },
-          "value" : "Col de l’utérus"
-        }
-      ]
-    },
-    {
       "code" : "CYN",
       "designation" : [
         {
@@ -1015,19 +963,6 @@ This code system supplement `https://smt.esante.gouv.fr/fhir/CodeSystem/specimen
       ]
     },
     {
-      "code" : "DOSE",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
-            "code" : "preferredForLanguage"
-          },
-          "value" : "Posologie (médicament ou substance)"
-        }
-      ]
-    },
-    {
       "code" : "DRN",
       "designation" : [
         {
@@ -1076,19 +1011,6 @@ This code system supplement `https://smt.esante.gouv.fr/fhir/CodeSystem/specimen
             "code" : "preferredForLanguage"
           },
           "value" : "Liquide duodénal"
-        }
-      ]
-    },
-    {
-      "code" : "EAR",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
-            "code" : "preferredForLanguage"
-          },
-          "value" : "Oreille"
         }
       ]
     },
@@ -1193,32 +1115,6 @@ This code system supplement `https://smt.esante.gouv.fr/fhir/CodeSystem/specimen
             "code" : "preferredForLanguage"
           },
           "value" : "Electrode"
-        }
-      ]
-    },
-    {
-      "code" : "ENDC",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
-            "code" : "preferredForLanguage"
-          },
-          "value" : "Endocarde"
-        }
-      ]
-    },
-    {
-      "code" : "ENDM",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
-            "code" : "preferredForLanguage"
-          },
-          "value" : "Endomètre"
         }
       ]
     },
@@ -1379,19 +1275,6 @@ This code system supplement `https://smt.esante.gouv.fr/fhir/CodeSystem/specimen
       ]
     },
     {
-      "code" : "EYE",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
-            "code" : "preferredForLanguage"
-          },
-          "value" : "Oeil"
-        }
-      ]
-    },
-    {
       "code" : "FAW",
       "designation" : [
         {
@@ -1522,19 +1405,6 @@ This code system supplement `https://smt.esante.gouv.fr/fhir/CodeSystem/specimen
       ]
     },
     {
-      "code" : "FOOD",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
-            "code" : "preferredForLanguage"
-          },
-          "value" : "Aliment"
-        }
-      ]
-    },
-    {
       "code" : "FRS",
       "designation" : [
         {
@@ -1648,45 +1518,6 @@ This code system supplement `https://smt.esante.gouv.fr/fhir/CodeSystem/specimen
             "code" : "preferredForLanguage"
           },
           "value" : "Prélèvement digestif"
-        }
-      ]
-    },
-    {
-      "code" : "GEN",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
-            "code" : "preferredForLanguage"
-          },
-          "value" : "Prélèvement génitaux"
-        }
-      ]
-    },
-    {
-      "code" : "GENC",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
-            "code" : "preferredForLanguage"
-          },
-          "value" : "Prélèvement cervico-vaginal"
-        }
-      ]
-    },
-    {
-      "code" : "GENF",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
-            "code" : "preferredForLanguage"
-          },
-          "value" : "Sécrétions des organes génitaux"
         }
       ]
     },
@@ -2224,19 +2055,6 @@ This code system supplement `https://smt.esante.gouv.fr/fhir/CodeSystem/specimen
       ]
     },
     {
-      "code" : "LAM",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
-            "code" : "preferredForLanguage"
-          },
-          "value" : "Lame"
-        }
-      ]
-    },
-    {
       "code" : "LAVG",
       "designation" : [
         {
@@ -2350,19 +2168,6 @@ This code system supplement `https://smt.esante.gouv.fr/fhir/CodeSystem/specimen
             "code" : "preferredForLanguage"
           },
           "value" : "Liquide (autres)"
-        }
-      ]
-    },
-    {
-      "code" : "LN",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
-            "code" : "preferredForLanguage"
-          },
-          "value" : "Ponction"
         }
       ]
     },
@@ -2653,19 +2458,6 @@ This code system supplement `https://smt.esante.gouv.fr/fhir/CodeSystem/specimen
       ]
     },
     {
-      "code" : "NOS",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
-            "code" : "preferredForLanguage"
-          },
-          "value" : "Prélèvement nasopharyngée"
-        }
-      ]
-    },
-    {
       "code" : "NSECR",
       "designation" : [
         {
@@ -2740,19 +2532,6 @@ This code system supplement `https://smt.esante.gouv.fr/fhir/CodeSystem/specimen
             "code" : "preferredForLanguage"
           },
           "value" : "Liquide pancréatique"
-        }
-      ]
-    },
-    {
-      "code" : "PAT",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
-            "code" : "preferredForLanguage"
-          },
-          "value" : "Patient"
         }
       ]
     },
@@ -3082,19 +2861,6 @@ This code system supplement `https://smt.esante.gouv.fr/fhir/CodeSystem/specimen
       ]
     },
     {
-      "code" : "PRT",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
-            "code" : "preferredForLanguage"
-          },
-          "value" : "Liquide péritonéal"
-        }
-      ]
-    },
-    {
       "code" : "PSC",
       "designation" : [
         {
@@ -3420,19 +3186,6 @@ This code system supplement `https://smt.esante.gouv.fr/fhir/CodeSystem/specimen
       ]
     },
     {
-      "code" : "SKM",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
-            "code" : "preferredForLanguage"
-          },
-          "value" : "Muscle squelettique "
-        }
-      ]
-    },
-    {
       "code" : "SKN",
       "designation" : [
         {
@@ -3468,19 +3221,6 @@ This code system supplement `https://smt.esante.gouv.fr/fhir/CodeSystem/specimen
             "code" : "preferredForLanguage"
           },
           "value" : "Sperme"
-        }
-      ]
-    },
-    {
-      "code" : "SMPLS",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
-            "code" : "preferredForLanguage"
-          },
-          "value" : "Plasma séminal"
         }
       ]
     },
@@ -3797,45 +3537,6 @@ This code system supplement `https://smt.esante.gouv.fr/fhir/CodeSystem/specimen
       ]
     },
     {
-      "code" : "THRT",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
-            "code" : "preferredForLanguage"
-          },
-          "value" : "Gorge"
-        }
-      ]
-    },
-    {
-      "code" : "TISG",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
-            "code" : "preferredForLanguage"
-          },
-          "value" : "Vésicule biliaire"
-        }
-      ]
-    },
-    {
-      "code" : "TISPL",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
-            "code" : "preferredForLanguage"
-          },
-          "value" : "Trophoblastes"
-        }
-      ]
-    },
-    {
       "code" : "TISS",
       "designation" : [
         {
@@ -3871,32 +3572,6 @@ This code system supplement `https://smt.esante.gouv.fr/fhir/CodeSystem/specimen
             "code" : "preferredForLanguage"
           },
           "value" : "Cathéter triple lumière (embout)"
-        }
-      ]
-    },
-    {
-      "code" : "TLGI",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
-            "code" : "preferredForLanguage"
-          },
-          "value" : "Gros intestin"
-        }
-      ]
-    },
-    {
-      "code" : "TLNG",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
-            "code" : "preferredForLanguage"
-          },
-          "value" : "Tissu pulmonaire"
         }
       ]
     },
@@ -3940,19 +3615,6 @@ This code system supplement `https://smt.esante.gouv.fr/fhir/CodeSystem/specimen
       ]
     },
     {
-      "code" : "TSMI",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
-            "code" : "preferredForLanguage"
-          },
-          "value" : "Intestin grêle"
-        }
-      ]
-    },
-    {
       "code" : "TSTES",
       "designation" : [
         {
@@ -3975,19 +3637,6 @@ This code system supplement `https://smt.esante.gouv.fr/fhir/CodeSystem/specimen
             "code" : "preferredForLanguage"
           },
           "value" : "Aspiration transtrachéale"
-        }
-      ]
-    },
-    {
-      "code" : "TUB",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
-            "code" : "preferredForLanguage"
-          },
-          "value" : "Tube"
         }
       ]
     },
@@ -4040,32 +3689,6 @@ This code system supplement `https://smt.esante.gouv.fr/fhir/CodeSystem/specimen
             "code" : "preferredForLanguage"
           },
           "value" : "Origine non identifiée"
-        }
-      ]
-    },
-    {
-      "code" : "ULC",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
-            "code" : "preferredForLanguage"
-          },
-          "value" : "Ulcère"
-        }
-      ]
-    },
-    {
-      "code" : "UMB",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
-            "code" : "preferredForLanguage"
-          },
-          "value" : "Sang de cordon ombilical"
         }
       ]
     },
@@ -4196,19 +3819,6 @@ This code system supplement `https://smt.esante.gouv.fr/fhir/CodeSystem/specimen
             "code" : "preferredForLanguage"
           },
           "value" : "Urine par cathéter"
-        }
-      ]
-    },
-    {
-      "code" : "URTH",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
-            "code" : "preferredForLanguage"
-          },
-          "value" : "Urètre"
         }
       ]
     },

@@ -15,7 +15,7 @@
  
 Equipement 
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J18_EquipementSpecifique_ROR](ValueSet-JDV-J18-EquipementSpecifique-ROR.md)
 * [JDV_J70_Equipement_Santefr](ValueSet-JDV-J70-Equipement-Santefr.md)

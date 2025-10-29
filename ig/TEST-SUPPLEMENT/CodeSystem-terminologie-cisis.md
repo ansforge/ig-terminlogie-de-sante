@@ -15,7 +15,7 @@
  
 Terminologie multi-domaines créée et maintenue par l’ANS contenant les termes non trouvés dans les autres terminologies internationales ou nationales. 
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J154_TypeGlucose_ENS](ValueSet-JDV-J154-TypeGlucose-ENS.md)
 * [JDV_J157_MomentGlucose_ENS](ValueSet-JDV-J157-MomentGlucose-ENS.md)

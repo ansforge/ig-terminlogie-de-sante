@@ -192,6 +192,14 @@
     "status" : "draft"
   },
   {
+    "id" : "v3-SpecimenType-supplement-fr",
+    "name" : "V3SpecimenTypeSupplementFr",
+    "title" : "V3SpecimenTypeSupplementFr",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/v3-SpecimenType-supplement-fr",
+    "identifier" : null,
+    "status" : "draft"
+  },
+  {
     "id" : "terminologie-atc",
     "name" : "ATC",
     "title" : "Classification anatomique, thérapeutique et chimique",

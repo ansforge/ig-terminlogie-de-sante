@@ -30,6 +30,7 @@ These define sets of codes used by systems conforming to this implementation gui
 | [Condition Verification Status](ValueSet-jdv-hl7-condition-ver-status-cisis.md) | Condition Verification Status |
 | [Confidentiality](ValueSet-jdv-hl7-v2-0952-cisis.md) | Confidentiality |
 | [CoverageRoleType](ValueSet-jdv-hl7-v3-CoverageRoleType-cisis.md) | CoverageRoleType |
+| [DaysOfWeek](ValueSet-jdv-hl7-days-of-week.md) | DaysOfWeek |
 | [EmploymentStatusODH](ValueSet-jdv-hl7-v3-employmentStatusODH-cisis.md) | EmploymentStatusODH |
 | [JDV Abord Veineux Central CISIS](ValueSet-jdv-abord-veineux-central-cisis.md) | JDV Abord Veineux Central CISIS |
 | [JDV Abord Veineux Peripherique CISIS](ValueSet-jdv-abord-veineux-peripherique-cisis.md) | JDV Abord Veineux Peripherique CISIS |
@@ -1052,6 +1053,7 @@ These define new code systems used by systems conforming to this implementation 
 | [Tre R390 Type Projet Personnalise](CodeSystem-tre-r390-type-projet-personnalise.md) | Cette nomenclature donne le type de projet personnalisé qui est un document co-construit par l’usager, son entourage familial et professionnel du médico-social. |
 | [Tre R393 Type Contrat Sejour](CodeSystem-tre-r393-type-contrat-sejour.md) | Type de contrat conclu entre l’établissement/service et la personne/son représentant légal lors de son entrée en établissement |
 | [Tre R394 Competence Metier](CodeSystem-tre-r394-competence-metier.md) | Type de savoir-faire opérationnel, transversal ou spécifique, acquis et exercé à titre non exclusif dans le cadre d’une activité professionnelle reconnue. |
+| [V3SpecimenTypeSupplementFr](CodeSystem-v3-SpecimenType-supplement-fr.md) | Traduction Française |
 | [v3ActPrioritySupplementFr](CodeSystem-v3-ActPriority-supplement-fr.md) | Traduction Francaise |
 
 ### Terminology: Naming Systems 

@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-severite-observation-cisis | *Version*:20250624152100 | |
-| Active as of 2025-06-24 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvSeveriteObservationCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-severite-observation-cisis | *Version*:20251028115833 | |
+| Active as of 2025-10-28 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvSeveriteObservationCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.675 | | |
 
  
@@ -29,7 +29,7 @@ Requête sur le SMT
 
 ### Logical Definition (CLD)
 
-version: 4; Dernière mise à jour : 2025-06-25 09:16:04+0000; Langue : fr-FR
+version: 5; Dernière mise à jour : 2025-10-29 10:44:45+0100; Langue : fr-FR
 
 Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
 
@@ -65,8 +65,8 @@ Ce jeu de valeur (ValueSet) contient 6 concepts
   "resourceType" : "ValueSet",
   "id" : "jdv-severite-observation-cisis",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2025-06-25T09:16:04.030+00:00",
+    "versionId" : "5",
+    "lastUpdated" : "2025-10-29T10:44:45.101+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -85,12 +85,12 @@ Ce jeu de valeur (ValueSet) contient 6 concepts
       "value" : "urn:oid:1.2.250.1.213.1.1.5.675"
     }
   ],
-  "version" : "20250624152100",
+  "version" : "20251028115833",
   "name" : "JdvSeveriteObservationCisis",
   "title" : "JDV Severite Observation CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-06-24T15:21:00+01:00",
+  "date" : "2025-10-28T11:58:33+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Severite Observation CISIS",
   "jurisdiction" : [
@@ -110,27 +110,27 @@ Ce jeu de valeur (ValueSet) contient 6 concepts
         "concept" : [
           {
             "code" : "442452003",
-            "display" : "gravité mortelle"
+            "display" : "mise en jeu du pronostic vital"
           },
           {
             "code" : "24484000",
-            "display" : "grave"
+            "display" : "gravité sévère"
           },
           {
             "code" : "371924009",
-            "display" : "modéré à sévère"
+            "display" : "gravité modérée à sévère"
           },
           {
             "code" : "6736007",
-            "display" : "modéré"
+            "display" : "gravité modérée"
           },
           {
             "code" : "371923003",
-            "display" : "léger à modéré"
+            "display" : "gravité modérée à sévère"
           },
           {
             "code" : "255604002",
-            "display" : "léger"
+            "display" : "gravité légère"
           }
         ]
       }

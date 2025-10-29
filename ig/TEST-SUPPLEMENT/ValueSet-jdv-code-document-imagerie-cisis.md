@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-code-document-imagerie-cisis | *Version*:20250624152100 | |
-| Active as of 2025-06-24 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvCodeDocumentImagerieCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-code-document-imagerie-cisis | *Version*:20251028115832 | |
+| Active as of 2025-10-28 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvCodeDocumentImagerieCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.687 | | |
 
  
@@ -29,7 +29,7 @@ Requête sur le SMT
 
 ### Logical Definition (CLD)
 
-version: 4; Dernière mise à jour : 2025-06-25 09:13:21+0000; Langue : fr-FR
+version: 5; Dernière mise à jour : 2025-10-29 10:43:24+0100; Langue : fr-FR
 
 Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
 
@@ -41,7 +41,7 @@ Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
 
 Expansion from tx.fhir.org based on Loinc v2.81
 
-Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable, seulement une selection (1,000 codes) de lensemble des codes est affiché.
+Ce jeu de valeurs (ValueSet) a 6,922 codes. Pour garder la publication gérable, seulement une selection (1,000 codes) de lensemble des codes est affiché.
 
 -------
 
@@ -65,8 +65,8 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
   "resourceType" : "ValueSet",
   "id" : "jdv-code-document-imagerie-cisis",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2025-06-25T09:13:21.783+00:00",
+    "versionId" : "5",
+    "lastUpdated" : "2025-10-29T10:43:24.924+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -85,12 +85,12 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
       "value" : "urn:oid:1.2.250.1.213.1.1.5.687"
     }
   ],
-  "version" : "20250624152100",
+  "version" : "20251028115832",
   "name" : "JdvCodeDocumentImagerieCisis",
   "title" : "JDV Code Document Imagerie CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-06-24T15:21:00+01:00",
+  "date" : "2025-10-28T11:58:32+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Code Document Imagerie CISIS",
   "jurisdiction" : [
@@ -122,7 +122,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "18746-8",
-            "display" : "étude colonoscopique"
+            "display" : "étude coloscopique"
           },
           {
             "code" : "18751-8",
@@ -146,7 +146,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24534-0",
-            "display" : "échographie doppler des vaisseaux abdominaux"
+            "display" : "échographie Doppler des vaisseaux abdominaux"
           },
           {
             "code" : "24535-7",
@@ -162,11 +162,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24538-1",
-            "display" : "RM cheville"
+            "display" : "résonance magnétique cheville"
           },
           {
             "code" : "24539-9",
-            "display" : "RM cheville sans et avec contraste IV"
+            "display" : "résonance magnétique cheville sans et avec contraste IV"
           },
           {
             "code" : "24540-7",
@@ -186,7 +186,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24544-9",
-            "display" : "scanner de l'aorte thoracique"
+            "display" : "CT de l'aorte thoracique"
           },
           {
             "code" : "24545-6",
@@ -214,7 +214,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24552-2",
-            "display" : "RF stent ; incidences avec contraste intra stent"
+            "display" : "fluoroscopie stent ; incidences avec contraste intra stent"
           },
           {
             "code" : "24553-0",
@@ -230,11 +230,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24556-3",
-            "display" : "RM abdomen"
+            "display" : "résonance magnétique abdomen"
           },
           {
             "code" : "24557-1",
-            "display" : "RM abdomen sans et avec contraste IV"
+            "display" : "résonance magnétique abdomen sans et avec contraste IV"
           },
           {
             "code" : "24558-9",
@@ -242,7 +242,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24559-7",
-            "display" : "échographie abdomen ; guidage pour drainage+placement d'un cathéter de drainage"
+            "display" : "échographie abdomen ; guidage pour drainage et placement d'un cathéter de drainage"
           },
           {
             "code" : "24560-5",
@@ -278,15 +278,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24570-4",
-            "display" : "RF canal cholédoque ; guidage pour élimination d'un calcul avec contraste rétrograde intra biliaire"
+            "display" : "fluoroscopie canal cholédoque ; guidage pour élimination d'un calcul avec contraste rétrograde intra biliaire"
           },
           {
             "code" : "24571-2",
-            "display" : "MN voies biliaires et vésicule biliaire ; incidences pour perméabilité de structures biliaires+fraction d'éjection avec sincalide+avec radionucléide IV"
+            "display" : "médecine nucléaire voies biliaires et vésicule biliaire ; incidences pour perméabilité de structures biliaires et fraction d'éjection avec sincalide et avec radionucléide IV"
           },
           {
             "code" : "24572-0",
-            "display" : "MN voies biliaires et vésicule biliaire ; incidences pour perméabilité de structures biliaires avec Tc-99m IV"
+            "display" : "médecine nucléaire voies biliaires et vésicule biliaire ; incidences pour perméabilité de structures biliaires avec Tc-99m IV"
           },
           {
             "code" : "24573-8",
@@ -294,11 +294,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24574-6",
-            "display" : "RF voies biliaires et vésicule biliaire ; incidences pendant la chirurgie avec contraste des voies biliaires"
+            "display" : "fluoroscopie voies biliaires et vésicule biliaire ; incidences pendant la chirurgie avec contraste des voies biliaires"
           },
           {
             "code" : "24575-3",
-            "display" : "RF voies biliaires et vésicule biliaire ; incidences avec contraste percutané transhépatique"
+            "display" : "fluoroscopie voies biliaires et vésicule biliaire ; incidences avec contraste percutané transhépatique"
           },
           {
             "code" : "24576-1",
@@ -310,7 +310,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24578-7",
-            "display" : "MN SPECT os avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT os avec radionucléide IV"
           },
           {
             "code" : "24579-5",
@@ -326,11 +326,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24582-9",
-            "display" : "RM plexus brachial"
+            "display" : "résonance magnétique plexus brachial"
           },
           {
             "code" : "24583-7",
-            "display" : "RM plexus brachial sans et avec contraste IV"
+            "display" : "résonance magnétique plexus brachial sans et avec contraste IV"
           },
           {
             "code" : "24584-5",
@@ -342,27 +342,27 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24586-0",
-            "display" : "RM cerveau avec anesthésie"
+            "display" : "résonance magnétique cerveau avec anesthésie"
           },
           {
             "code" : "24587-8",
-            "display" : "RM cerveau sans et avec contraste IV"
+            "display" : "résonance magnétique cerveau sans et avec contraste IV"
           },
           {
             "code" : "24588-6",
-            "display" : "RM cerveau sans & avec contraste IV+avec anesthésie"
+            "display" : "résonance magnétique cerveau sans et avec contraste IV et avec anesthésie"
           },
           {
             "code" : "24589-4",
-            "display" : "RM cerveau avec contraste IV"
+            "display" : "résonance magnétique cerveau avec contraste IV"
           },
           {
             "code" : "24590-2",
-            "display" : "RM cerveau"
+            "display" : "résonance magnétique cerveau"
           },
           {
             "code" : "24591-0",
-            "display" : "MN cerveau ; incidences pour protocole de mort cérébrale avec Tc-99m HMPAO IV"
+            "display" : "médecine nucléaire cerveau ; incidences pour protocole de mort cérébrale avec Tc-99m HMPAO IV"
           },
           {
             "code" : "24593-6",
@@ -370,11 +370,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24594-4",
-            "display" : "MG sein ; guidage pour aspiration percutanée d'un kyste"
+            "display" : "mammographie sein ; guidage pour aspiration percutanée d'un kyste"
           },
           {
             "code" : "24595-1",
-            "display" : "MG sein ; guidage pour localisation à l'aiguille d'une masse"
+            "display" : "mammographie sein ; guidage pour localisation à l'aiguille d'une masse"
           },
           {
             "code" : "24596-9",
@@ -382,11 +382,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24597-7",
-            "display" : "MG ^échantillon du sein ; incidences"
+            "display" : "mammographie^échantillon du sein ; incidences"
           },
           {
             "code" : "24598-5",
-            "display" : "MG sein ; guidage pour aspiration percutanée d'un fluide"
+            "display" : "mammographie sein ; guidage pour aspiration percutanée d'un fluide"
           },
           {
             "code" : "24599-3",
@@ -402,31 +402,31 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24602-5",
-            "display" : "MG sein ; guidage pour biopsie percutanée"
+            "display" : "mammographie sein ; guidage pour biopsie percutanée"
           },
           {
             "code" : "24603-3",
-            "display" : "mammo.stéréotaxique sein ; guidage pour biopsie percutanée"
+            "display" : "mammographie stéréotaxique sein ; guidage pour biopsie percutanée"
           },
           {
             "code" : "24604-1",
-            "display" : "MG sein ; incidences limitées pour diagnostic"
+            "display" : "mammographie sein ; incidences limitées pour diagnostic"
           },
           {
             "code" : "24605-8",
-            "display" : "MG sein ; incidences pour diagnostic"
+            "display" : "mammographie sein ; incidences pour diagnostic"
           },
           {
             "code" : "24606-6",
-            "display" : "MG sein ; incidences pour dépistage"
+            "display" : "mammographie sein ; incidences pour dépistage"
           },
           {
             "code" : "24609-0",
-            "display" : "MG sein ; guidage pour biopsie percutanée à l'aiguille fine"
+            "display" : "mammographie sein ; guidage pour biopsie percutanée à l'aiguille fine"
           },
           {
             "code" : "24610-8",
-            "display" : "MG sein ; incidences limitées"
+            "display" : "mammographie sein ; incidences limitées"
           },
           {
             "code" : "24612-4",
@@ -454,11 +454,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24620-7",
-            "display" : "RF cathéter ; incidences pour vérification de perméabilité avec contraste via cathéter"
+            "display" : "fluoroscopie cathéter ; incidences pour vérification de perméabilité avec contraste via cathéter"
           },
           {
             "code" : "24621-5",
-            "display" : "RF ; guidage pour drainage percutané + placement d'un cathéter de drainage"
+            "display" : "fluoroscopie guidage pour drainage percutané et placement d'un cathéter de drainage"
           },
           {
             "code" : "24622-3",
@@ -490,7 +490,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24629-8",
-            "display" : "RM thorax"
+            "display" : "résonance magnétique thorax"
           },
           {
             "code" : "24630-6",
@@ -498,7 +498,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24631-4",
-            "display" : "RF ; incidences pour vérification du placement d'un cathéter veineux central"
+            "display" : "fluoroscopie incidences pour vérification du placement d'un cathéter veineux central"
           },
           {
             "code" : "24632-2",
@@ -506,11 +506,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24634-8",
-            "display" : "RX.portable thorax ; incidences avec inspiration + avec expiration"
+            "display" : "RX.portable thorax ; incidences avec inspiration et avec expiration"
           },
           {
             "code" : "24635-5",
-            "display" : "RX thorax ; incidences postéroantérieures verticales en inspiration + en expiration"
+            "display" : "RX thorax ; incidences postéroantérieures verticales en inspiration et en expiration"
           },
           {
             "code" : "24636-3",
@@ -534,7 +534,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24641-3",
-            "display" : "RX.portable thorax ; incidence oblique gauche"
+            "display" : "RX.portable thorax ; incidence oblique  gauche"
           },
           {
             "code" : "24642-1",
@@ -590,11 +590,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24655-3",
-            "display" : "RF thorax ; amplificateur d'images pendant la chirurgie"
+            "display" : "fluoroscopie thorax ; amplificateur d'images pendant la chirurgie"
           },
           {
             "code" : "24656-1",
-            "display" : "RF thorax ; incidence pendant une chirurgie"
+            "display" : "fluoroscopie thorax ; incidence pendant une chirurgie"
           },
           {
             "code" : "24657-9",
@@ -614,7 +614,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24661-1",
-            "display" : "RF espace pleural ; incidences avec contraste intra espace pleural"
+            "display" : "fluoroscopie espace pleural ; incidences avec contraste intra espace pleural"
           },
           {
             "code" : "24662-9",
@@ -622,7 +622,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24663-7",
-            "display" : "MN citernes cérébrales ; incidences avec radionucléide intrathécal"
+            "display" : "médecine nucléaire citernes cérébrales ; incidences avec radionucléide intrathécal"
           },
           {
             "code" : "24664-5",
@@ -634,19 +634,19 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24666-0",
-            "display" : "RF côlon ; incidences avec contraste naturel par l’air ambiant par voie rectale+avec contraste au barium par voie rectale"
+            "display" : "fluoroscopie côlon ; incidences avec contraste naturel par l’air ambiant par voie rectale et avec contraste au barium par voie rectale"
           },
           {
             "code" : "24667-8",
-            "display" : "RF côlon ; incidences avec contraste intrarectal"
+            "display" : "fluoroscopie côlon ; incidences avec contraste intrarectal"
           },
           {
             "code" : "24668-6",
-            "display" : "RF côlon ; incidence pour transit contraste post solide per os"
+            "display" : "fluoroscopie côlon ; incidence pour transit contraste post solide per os"
           },
           {
             "code" : "24669-4",
-            "display" : "RF côlon ; incidences avec contraste soluble dans l'eau par voie rectale"
+            "display" : "fluoroscopie côlon ; incidences avec contraste soluble dans l'eau par voie rectale"
           },
           {
             "code" : "24670-2",
@@ -654,7 +654,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24671-0",
-            "display" : "RF ; guidage pour aspiration percutanée d'un kyste"
+            "display" : "fluoroscopie guidage pour aspiration percutanée d'un kyste"
           },
           {
             "code" : "24672-8",
@@ -662,11 +662,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24674-4",
-            "display" : "RM coude"
+            "display" : "résonance magnétique coude"
           },
           {
             "code" : "24675-1",
-            "display" : "RM coude sans et avec contraste IV"
+            "display" : "résonance magnétique coude sans et avec contraste IV"
           },
           {
             "code" : "24676-9",
@@ -678,27 +678,27 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24678-5",
-            "display" : "RF oesophage ; incidences avec contraste per os"
+            "display" : "fluoroscopie oesophage ; incidences avec contraste per os"
           },
           {
             "code" : "24679-3",
-            "display" : "RF oesophage ; incidences avec gastrografine per os"
+            "display" : "fluoroscopie oesophage ; incidences avec gastrografine per os"
           },
           {
             "code" : "24680-1",
-            "display" : "RF oesophage ; guidage pour dilatation"
+            "display" : "fluoroscopie oesophage ; guidage pour dilatation"
           },
           {
             "code" : "24681-9",
-            "display" : "RF.vidéo hypopharynx et oesophage ; incidences avec contraste PO+pendant la déglutition"
+            "display" : "fluoroscopie vidéo hypopharynx et oesophage ; incidences avec contraste PO et pendant la déglutition"
           },
           {
             "code" : "24682-7",
-            "display" : "RF.vidéo hypopharynx et oesophage ; incidences avec constraste liquide per os+avec contraste en pâte per os+pendant la déglution"
+            "display" : "fluoroscopie.vidéo hypopharynx et oesophage ; incidences avec constraste liquide per os et avec contraste en pâte per os et pendant la déglution"
           },
           {
             "code" : "24683-5",
-            "display" : "MN oesophage+estomac ; incidences avec sulfocolloïde de technétium 99 per os"
+            "display" : "médecine nucléaire oesophage et estomac ; incidences avec sulfocolloïde de technétium 99 per os"
           },
           {
             "code" : "24684-3",
@@ -714,11 +714,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24687-6",
-            "display" : "RM articulation du membre inférieur"
+            "display" : "résonance magnétique articulation du membre inférieur"
           },
           {
             "code" : "24688-4",
-            "display" : "RM membre supérieur"
+            "display" : "résonance magnétique membre supérieur"
           },
           {
             "code" : "24689-2",
@@ -734,7 +734,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24692-6",
-            "display" : "échographie membre ; guidage pour drainage+placement d'un cathéter de drainage"
+            "display" : "échographie membre ; guidage pour drainage et placement d'un cathéter de drainage"
           },
           {
             "code" : "24693-4",
@@ -742,7 +742,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24694-2",
-            "display" : "RM face sans et avec contraste IV"
+            "display" : "résonance magnétique face sans et avec contraste IV"
           },
           {
             "code" : "24695-9",
@@ -770,11 +770,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24702-3",
-            "display" : "RM cuisse"
+            "display" : "résonance magnétique cuisse"
           },
           {
             "code" : "24703-1",
-            "display" : "RM cuisse sans et avec contraste IV"
+            "display" : "résonance magnétique cuisse sans et avec contraste IV"
           },
           {
             "code" : "24704-9",
@@ -782,7 +782,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24705-6",
-            "display" : "RM doigt"
+            "display" : "résonance magnétique doigt"
           },
           {
             "code" : "24706-4",
@@ -790,11 +790,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24707-2",
-            "display" : "RM pied"
+            "display" : "résonance magnétique pied"
           },
           {
             "code" : "24708-0",
-            "display" : "RX pied ; incidences avec position debout"
+            "display" : "RX pied ; incidences en position debout"
           },
           {
             "code" : "24709-8",
@@ -802,7 +802,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24710-6",
-            "display" : "RM avantbras"
+            "display" : "résonance magnétique avantbras"
           },
           {
             "code" : "24711-4",
@@ -818,19 +818,19 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24714-8",
-            "display" : "MN tractus gastro-intestinal ; incidences pour saignement gastrointestinal avec globules rouges marqués au Tc-99m IV"
+            "display" : "médecine nucléaire tractus gastro-intestinal ; incidences pour saignement gastrointestinal avec globules rouges marqués au Tc-99m IV"
           },
           {
             "code" : "24715-5",
-            "display" : "RF tractus gastrointestinal supérieur ; incidence avec contraste per os"
+            "display" : "fluoroscopie tractus gastrointestinal supérieur ; incidence avec contraste per os"
           },
           {
             "code" : "24716-3",
-            "display" : "RF tractus gastro-intestinal ; guidage pour placement d'un sonde de décompression"
+            "display" : "fluoroscopie tractus gastro-intestinal ; guidage pour placement d'un sonde de décompression"
           },
           {
             "code" : "24718-9",
-            "display" : "RF foie ; guidage pour biopsie transjugulaire avec contraste IV"
+            "display" : "fluoroscopie foie ; guidage pour biopsie transjugulaire avec contraste IV"
           },
           {
             "code" : "24719-7",
@@ -838,7 +838,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24720-5",
-            "display" : "RM main"
+            "display" : "résonance magnétique main"
           },
           {
             "code" : "24721-3",
@@ -870,15 +870,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24728-8",
-            "display" : "tomodensitométrie.perfusion tête"
+            "display" : "CT perfusion tête"
           },
           {
             "code" : "24729-6",
-            "display" : "tomodensitométrie.perfusion tête sans et avec contraste IV"
+            "display" : "CT perfusion tête sans et avec contraste IV"
           },
           {
             "code" : "24730-4",
-            "display" : "MN cerveau ; incidences avec radionucléide IV"
+            "display" : "médecine nucléaire cerveau ; incidences avec radionucléide IV"
           },
           {
             "code" : "24731-2",
@@ -898,11 +898,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24735-3",
-            "display" : "RM conduit auditif interne et fosse postérieure"
+            "display" : "résonance magnétique conduit auditif interne et fosse postérieure"
           },
           {
             "code" : "24740-3",
-            "display" : "RM conduit auditif interne et fosse postérieure sans et avec contraste IV"
+            "display" : "résonance magnétique conduit auditif interne et fosse postérieure sans et avec contraste IV"
           },
           {
             "code" : "24745-2",
@@ -910,23 +910,23 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24748-6",
-            "display" : "RM coeur"
+            "display" : "résonance magnétique coeur"
           },
           {
             "code" : "24750-2",
-            "display" : "MN coeur ; incidences au repos+avec Tl-201 IV"
+            "display" : "médecine nucléaire coeur ; incidences au repos et avec Tl-201 IV"
           },
           {
             "code" : "24751-0",
-            "display" : "MN glande parathyroïde ; incidences avec soustraction du Tc-99m du TI-201 IV"
+            "display" : "médecine nucléaire glande parathyroïde ; incidences avec soustraction du Tc-99m du TI-201 IV"
           },
           {
             "code" : "24752-8",
-            "display" : "RF.vidéo coeur ; incidences"
+            "display" : "fluoroscopie.vidéo coeur ; incidences"
           },
           {
             "code" : "24753-6",
-            "display" : "CT avec contraste IV"
+            "display" : "CT avec contraste IV dans une région du corps non spécifiée"
           },
           {
             "code" : "24755-1",
@@ -950,7 +950,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24764-3",
-            "display" : "RF hanche ; incidences avec contraste intraarticulaire"
+            "display" : "fluoroscopie hanche ; incidences avec contraste intraarticulaire"
           },
           {
             "code" : "24765-0",
@@ -970,11 +970,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24770-0",
-            "display" : "MN articulation ; incidences avec In-111 intraarticulaire"
+            "display" : "médecine nucléiare articulation ; incidences avec In-111 intraarticulaire"
           },
           {
             "code" : "24771-8",
-            "display" : "RF espace articulaire ; guidage pour aspiration percutanée d'un fluide"
+            "display" : "fluoroscopie espace articulaire ; guidage pour aspiration percutanée d'un fluide"
           },
           {
             "code" : "24772-6",
@@ -990,27 +990,27 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24778-3",
-            "display" : "RX rein - bilatéral ; incidences avec 3 séries sans & avec contraste IV"
+            "display" : "RX rein - bilatéral ; incidences avec 3 séries sans et avec contraste IV"
           },
           {
             "code" : "24779-1",
-            "display" : "RF rein - bilatéral ; guidage pour placement percutané d'une sonde de néphrostomie avec contraste via une sonde"
+            "display" : "fluoroscopie rein - bilatéral ; guidage pour placement percutané d'une sonde de néphrostomie avec contraste via une sonde"
           },
           {
             "code" : "24780-9",
-            "display" : "RF rein - bilatéral ; incidences avec contraste via sonde de néphrostomie"
+            "display" : "fluoroscopie rein - bilatéral ; incidences avec contraste via sonde de néphrostomie"
           },
           {
             "code" : "24781-7",
-            "display" : "RF rein - bilatéral ; guidage pour échange percutané d'une sonde de néphrostomie avec contraste"
+            "display" : "fluoroscopie rein - bilatéral ; guidage pour échange percutané d'une sonde de néphrostomie avec contraste"
           },
           {
             "code" : "24782-5",
-            "display" : "RF rein - bilatéral ; guidage pour placement percutané d'un stent néphro-urétéral avec contraste via stent"
+            "display" : "fluoroscopie rein - bilatéral ; guidage pour placement percutané d'un stent néphro-urétéral avec contraste via stent"
           },
           {
             "code" : "24783-3",
-            "display" : "RF rein - bilatéral ; incidences pour urodynamique"
+            "display" : "fluoroscopie rein - bilatéral ; incidences pour urodynamique"
           },
           {
             "code" : "24784-1",
@@ -1018,7 +1018,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24787-4",
-            "display" : "RX.Tomographie rein - bilatéral sans contraste+10mn post contraste IV"
+            "display" : "RX Tomographie rein - bilatéral sans contraste et 10mn post contraste IV"
           },
           {
             "code" : "24788-2",
@@ -1066,7 +1066,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24800-5",
-            "display" : "RF genou ; incidences avec contraste intraarticulaire"
+            "display" : "fluoroscopie genou ; incidences avec contraste intraarticulaire"
           },
           {
             "code" : "24801-3",
@@ -1074,11 +1074,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24802-1",
-            "display" : "RM genou"
+            "display" : "résonance magnétique genou"
           },
           {
             "code" : "24803-9",
-            "display" : "RM genou sans et avec contraste IV"
+            "display" : "résonance magnétique genou sans et avec contraste IV"
           },
           {
             "code" : "24804-7",
@@ -1086,7 +1086,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24805-4",
-            "display" : "RX genou ; incidences antéropostérieures + latérales en position debout"
+            "display" : "RX genou ; incidences antéropostérieures et latérales en position debout"
           },
           {
             "code" : "24806-2",
@@ -1094,15 +1094,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24807-0",
-            "display" : "RX genou ; incidences antéropostérieures avec position debout"
+            "display" : "RX genou ; incidences antéropostérieures en position debout"
           },
           {
             "code" : "24808-8",
-            "display" : "RX genou ; incidences antéropostérieures et postéroantérieures avec position debout"
+            "display" : "RX genou ; incidences antéropostérieures et postéroantérieures en position debout"
           },
           {
             "code" : "24809-6",
-            "display" : "RX genou ; incidences avec position debout"
+            "display" : "RX genou ; incidences en position debout"
           },
           {
             "code" : "24811-2",
@@ -1130,7 +1130,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24817-9",
-            "display" : "MN SPECT foie avec Tc-99m IV"
+            "display" : "médecine nucléaire SPECT foie avec Tc-99m IV"
           },
           {
             "code" : "24818-7",
@@ -1142,7 +1142,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24821-1",
-            "display" : "RM jambe"
+            "display" : "résonance magnétique jambe"
           },
           {
             "code" : "24822-9",
@@ -1154,7 +1154,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24824-5",
-            "display" : "MN poumon ; incidences avec portable avec radionucléide IV"
+            "display" : "médecine nucléaire poumon ; incidences avec portable avec radionucléide IV"
           },
           {
             "code" : "24825-2",
@@ -1162,7 +1162,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24826-0",
-            "display" : "MN vaisseaux lymphatiques ; incidences avec radionucléide intralymphatique"
+            "display" : "médecine nucléaire vaisseaux lymphatiques ; incidences avec radionucléide intralymphatique"
           },
           {
             "code" : "24827-8",
@@ -1182,7 +1182,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24831-0",
-            "display" : "MN intestin grêle ; incidence pour diverticule de Meckel avec Tc-99m M04 IV"
+            "display" : "médecine nucléaire intestin grêle ; incidence pour diverticule de Meckel avec Tc-99m M04 IV"
           },
           {
             "code" : "24832-8",
@@ -1214,15 +1214,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24839-3",
-            "display" : "RM cou"
+            "display" : "résonance magnétique cou"
           },
           {
             "code" : "24840-1",
-            "display" : "RM cou sans et avec contraste IV"
+            "display" : "résonance magnétique cou sans et avec contraste IV"
           },
           {
             "code" : "24841-9",
-            "display" : "RM cou avec contraste IV"
+            "display" : "résonance magnétique cou avec contraste IV"
           },
           {
             "code" : "24842-7",
@@ -1238,7 +1238,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24845-0",
-            "display" : "RF cou ; incidences avec contraste intralarynx"
+            "display" : "fluoroscopie cou ; incidences avec contraste intralarynx"
           },
           {
             "code" : "24846-8",
@@ -1258,15 +1258,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24851-8",
-            "display" : "RM orbite - bilatérale sans et avec contraste IV"
+            "display" : "résonance magnétique orbite - bilatérale sans et avec contraste IV"
           },
           {
             "code" : "24852-6",
-            "display" : "RM orbite - bilatérale avec contraste IV"
+            "display" : "résonance magnétique orbite - bilatérale avec contraste IV"
           },
           {
             "code" : "24853-4",
-            "display" : "échographie oeil+orbite - bilatéral"
+            "display" : "échographie oeil et orbite - bilatéraux"
           },
           {
             "code" : "24854-2",
@@ -1274,7 +1274,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24855-9",
-            "display" : "RF.vidéo partie orale du pharynx ; incidences"
+            "display" : "fluoroscopie vidéo partie orale du pharynx ; incidences"
           },
           {
             "code" : "24856-7",
@@ -1322,11 +1322,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24867-4",
-            "display" : "RM pelvis"
+            "display" : "résonance magnétique pelvis"
           },
           {
             "code" : "24868-2",
-            "display" : "échographie pelvis ; guidage pour drainage+placement d'un cathéter de drainage"
+            "display" : "échographie pelvis ; guidage pour drainage et placement d'un cathéter de drainage"
           },
           {
             "code" : "24869-0",
@@ -1342,7 +1342,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24872-4",
-            "display" : "RM pelvis et hanche"
+            "display" : "résonance magnétique pelvis et hanche"
           },
           {
             "code" : "24873-2",
@@ -1354,7 +1354,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24876-5",
-            "display" : "MN tête+cou+thorax+abdomen+pelvis ; incidences pour permabilité d'un shunt avec Tc-99m DTPA intrathécal"
+            "display" : "médecine nucléaire tête et cou et thorax et abdomen et pelvis ; incidences pour permabilité d'un shunt avec Tc-99m DTPA intrathécal"
           },
           {
             "code" : "24877-3",
@@ -1366,11 +1366,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24879-9",
-            "display" : "RM hypophyse et selle turcique sans et avec contraste IV"
+            "display" : "résonance magnétique hypophyse et selle turcique sans et avec contraste IV"
           },
           {
             "code" : "24880-7",
-            "display" : "RM hypophyse et selle turcique"
+            "display" : "résonance magnétique hypophyse et selle turcique"
           },
           {
             "code" : "24881-5",
@@ -1394,7 +1394,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24888-0",
-            "display" : "MN système pulmonaire ; incidences ventilation+perfusion avec Xe-133 en inhalation+W Tc-99m MAA IV"
+            "display" : "médecine nucléaire système pulmonaire ; incidences ventilation et perfusion avec Xe-133 en inhalation et W Tc-99m MAA IV"
           },
           {
             "code" : "24889-8",
@@ -1410,15 +1410,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24893-0",
-            "display" : "RF rectum ; incidences post contraste par voie rectale+pendant la défécation"
+            "display" : "fluoroscopie rectum ; incidences post contraste par voie rectale et pendant la défécation"
           },
           {
             "code" : "24894-8",
-            "display" : "RF rectum et vessie urinaire ; incidences avec contraste par voie rectale+avec contraste intravésiculaire+pendant la défécation+pendant la miction"
+            "display" : "fluoroscopie rectum et vessie urinaire ; incidences avec contraste par voie rectale et avec contraste intravésiculaire et pendant la défécation et pendant la miction"
           },
           {
             "code" : "24896-3",
-            "display" : "échographie rein ; guidage pour drainage+placement d'un cathéter de drainage"
+            "display" : "échographie rein ; guidage pour drainage et placement d'un cathéter de drainage"
           },
           {
             "code" : "24899-7",
@@ -1434,7 +1434,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24902-9",
-            "display" : "RF glande salivaire ; incidences avec contraste intra conduit salivaire"
+            "display" : "fluoroscopie glande salivaire ; incidences avec contraste intra conduit salivaire"
           },
           {
             "code" : "24903-7",
@@ -1446,11 +1446,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24905-2",
-            "display" : "RM épaule"
+            "display" : "résonance magnétique épaule"
           },
           {
             "code" : "24906-0",
-            "display" : "RM épaule sans et avec contraste IV"
+            "display" : "résonance magnétique épaule sans et avec contraste IV"
           },
           {
             "code" : "24907-8",
@@ -1466,15 +1466,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24910-2",
-            "display" : "RF épaule ; incidences avec contraste intraarticulaire"
+            "display" : "fluoroscopie épaule ; incidences avec contraste intraarticulaire"
           },
           {
             "code" : "24911-0",
-            "display" : "RF shunt ; incidences"
+            "display" : "fluoroscopie shunt ; incidences"
           },
           {
             "code" : "24912-8",
-            "display" : "RF tractus du sinus ; incidences avec contraste intra tractus du sinus"
+            "display" : "fluoroscopie tractus du sinus ; incidences avec contraste intra tractus du sinus"
           },
           {
             "code" : "24913-6",
@@ -1482,11 +1482,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24914-4",
-            "display" : "RM sinus"
+            "display" : "résonance magnétique sinus"
           },
           {
             "code" : "24915-1",
-            "display" : "RM sinus avec contraste IV"
+            "display" : "résonance magnétique sinus avec contraste IV"
           },
           {
             "code" : "24916-9",
@@ -1518,11 +1518,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24923-5",
-            "display" : "RF intestin grêle ; incidences avec contraste positif via une sonde d'entéroclyse"
+            "display" : "fluoroscopie intestin grêle ; incidences avec contraste positif via une sonde d'entéroclyse"
           },
           {
             "code" : "24924-3",
-            "display" : "RF intestin grêle ; incidences avec contraste per os"
+            "display" : "fluoroscopie intestin grêle ; incidences avec contraste per os"
           },
           {
             "code" : "24925-0",
@@ -1534,7 +1534,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24927-6",
-            "display" : "RF rachis ; incidences avec contraste intradiscal"
+            "display" : "fluoroscopie rachis ; incidences avec contraste intradiscal"
           },
           {
             "code" : "24928-4",
@@ -1542,7 +1542,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24929-2",
-            "display" : "RX rachis dorsal et rachis lombaire ; incidences pour scoliose avec flexion + avec extension"
+            "display" : "RX rachis dorsal et rachis lombaire ; incidences pour scoliose avec flexion et avec extension"
           },
           {
             "code" : "24930-0",
@@ -1550,7 +1550,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24931-8",
-            "display" : "RF articulation zygapophysaire du rachis ; guidage pour injection"
+            "display" : "fluoroscopie articulation zygapophysaire du rachis ; guidage pour injection"
           },
           {
             "code" : "24932-6",
@@ -1566,19 +1566,19 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24935-9",
-            "display" : "RM rachis cervical"
+            "display" : "résonance magnétique rachis cervical"
           },
           {
             "code" : "24936-7",
-            "display" : "RM rachis cervical avec anesthésie"
+            "display" : "résonance magnétique rachis cervical avec anesthésie"
           },
           {
             "code" : "24937-5",
-            "display" : "RM rachis cervical sans et avec contraste IV"
+            "display" : "résonance magnétique rachis cervical sans et avec contraste IV"
           },
           {
             "code" : "24938-3",
-            "display" : "RM rachis cervical avec contraste IV"
+            "display" : "résonance magnétique rachis cervical avec contraste IV"
           },
           {
             "code" : "24939-1",
@@ -1602,11 +1602,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24944-1",
-            "display" : "RX rachis cervical ; incidence du nageur"
+            "display" : "RX rachis cervical ; incidence de Swimmer"
           },
           {
             "code" : "24945-8",
-            "display" : "RX rachis cervical ; incidences avec flexion + avec extension"
+            "display" : "RX rachis cervical ; incidences avec flexion et avec extension"
           },
           {
             "code" : "24946-6",
@@ -1614,7 +1614,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24947-4",
-            "display" : "RF rachis cervical ; incidences avec contraste intrathécal"
+            "display" : "fluoroscopie rachis cervical ; incidences avec contraste intrathécal"
           },
           {
             "code" : "24948-2",
@@ -1634,11 +1634,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24967-2",
-            "display" : "RM rachis lombaire sans et avec contraste IV"
+            "display" : "résonance magnétique rachis lombaire sans et avec contraste IV"
           },
           {
             "code" : "24968-0",
-            "display" : "RM rachis lombaire"
+            "display" : "résonance magnétique rachis lombaire"
           },
           {
             "code" : "24969-8",
@@ -1650,7 +1650,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24971-4",
-            "display" : "RX rachis lombaire ; incidences avec flexion + avec extension"
+            "display" : "RX rachis lombaire ; incidences avec flexion et avec extension"
           },
           {
             "code" : "24972-2",
@@ -1658,19 +1658,19 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24973-0",
-            "display" : "RF espace du rachis lombaire ; guidage pour aspiration percutanée d'un fluide"
+            "display" : "fluoroscopie espace du rachis lombaire ; guidage pour aspiration percutanée d'un fluide"
           },
           {
             "code" : "24974-8",
-            "display" : "RF rachis lombaire ; incidences avec contraste intrathécal"
+            "display" : "fluoroscopie rachis lombaire ; incidences avec contraste intrathécal"
           },
           {
             "code" : "24975-5",
-            "display" : "RX rachis lombaire et articulation sacro-iliaque - bilatéraux ; incidences"
+            "display" : "RX rachis lombaire et articulation sacro-iliaque - bilatérale ; incidences"
           },
           {
             "code" : "24977-1",
-            "display" : "RM rachis lombaire avec anesthésie"
+            "display" : "résonance magnétique rachis lombaire avec anesthésie"
           },
           {
             "code" : "24978-9",
@@ -1682,15 +1682,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24980-5",
-            "display" : "RM rachis dorsal"
+            "display" : "résonance magnétique rachis dorsal"
           },
           {
             "code" : "24981-3",
-            "display" : "RM rachis dorsal sans et avec contraste IV"
+            "display" : "résonance magnétique rachis dorsal sans et avec contraste IV"
           },
           {
             "code" : "24982-1",
-            "display" : "RM rachis dorsal avec contraste IV"
+            "display" : "résonance magnétique rachis dorsal avec contraste IV"
           },
           {
             "code" : "24983-9",
@@ -1702,7 +1702,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24985-4",
-            "display" : "RF rachis dorsal ; incidences avec contraste intrathécal"
+            "display" : "fluoroscopie rachis dorsal ; incidences avec contraste intrathécal"
           },
           {
             "code" : "24986-2",
@@ -1738,23 +1738,23 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "24995-3",
-            "display" : "RF estomac ; guidage pour placement d'une sonde"
+            "display" : "fluoroscopie estomac ; guidage pour placement d'une sonde"
           },
           {
             "code" : "24996-1",
-            "display" : "RF estomac ; guidage pour remplacement percutané d'une gastrostomie"
+            "display" : "fluoroscopie estomac ; guidage pour remplacement percutané d'une gastrostomie"
           },
           {
             "code" : "24997-9",
-            "display" : "MN estomac ; incidences avec phase solide du vidange gastrique avec sulfocolloïde de technétium 99 IV"
+            "display" : "médecine nucléaire estomac ; incidences avec phase solide du vidange gastrique avec sulfocolloïde de technétium 99 IV"
           },
           {
             "code" : "24998-7",
-            "display" : "RF estomac ; incidences pour la vérification du placement d'une sonde de gastostomie avec contraste via la sonde gastrointestinale"
+            "display" : "fluoroscopie estomac ; incidences pour la vérification du placement d'une sonde de gastostomie avec contraste via la sonde gastrointestinale"
           },
           {
             "code" : "24999-5",
-            "display" : "RM articulation temporomandibulaire"
+            "display" : "résonance magnétique articulation temporomandibulaire"
           },
           {
             "code" : "25000-1",
@@ -1782,11 +1782,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "25007-6",
-            "display" : "MN glande thyroïde ; incidences avec I-131 IV"
+            "display" : "médecine nucléaire glande thyroïde ; incidences avec I-131 IV"
           },
           {
             "code" : "25008-4",
-            "display" : "MN glande thyroïde ; incidences + incidences pour absorption avec I-131 IV"
+            "display" : "médecine nucléaire glande thyroïde ; incidences et incidences pour absorption avec I-131 IV"
           },
           {
             "code" : "25009-2",
@@ -1810,11 +1810,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "25016-7",
-            "display" : "RF urètre ; incidences avec contraste intra urètre"
+            "display" : "fluoroscopie urètre ; incidences avec contraste intra urètre"
           },
           {
             "code" : "25017-5",
-            "display" : "RF vessie urinaire et urètre ; incidences avec contraste intravésical"
+            "display" : "fluoroscopie vessie urinaire et urètre ; incidences avec contraste intravésical"
           },
           {
             "code" : "25018-3",
@@ -1826,11 +1826,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "25020-9",
-            "display" : "RF vessie urinaire et urètre ; incidences avec contraste rétrograde via urètre"
+            "display" : "fluoroscopie vessie urinaire et urètre ; incidences avec contraste rétrograde via urètre"
           },
           {
             "code" : "25022-5",
-            "display" : "RF utérus et trompes de Fallope ; incidences avec contraste intrautérin"
+            "display" : "fluoroscopie utérus et trompes de Fallope ; incidences avec contraste intrautérin"
           },
           {
             "code" : "25023-3",
@@ -1866,23 +1866,23 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "25031-6",
-            "display" : "MN os ; incidences avec radionucléide IV"
+            "display" : "médecine nucléaire os ; incidences avec radionucléide IV"
           },
           {
             "code" : "25032-4",
-            "display" : "MN os ; incidences avec globules blancs marqués à l'In-111 IV"
+            "display" : "médecine nucléaire os ; incidences avec globules blancs marqués à l'In-111 IV"
           },
           {
             "code" : "25033-2",
-            "display" : "RM poignet"
+            "display" : "résonance magnétique poignet"
           },
           {
             "code" : "25034-0",
-            "display" : "RF poignet ; incidences avec contraste intraarticulaire"
+            "display" : "fluoroscopie poignet ; incidences avec contraste intraarticulaire"
           },
           {
             "code" : "25035-7",
-            "display" : "RM poignet sans et avec contraste IV"
+            "display" : "résonance magnétique poignet sans et avec contraste IV"
           },
           {
             "code" : "25036-5",
@@ -1890,15 +1890,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "25039-9",
-            "display" : "CT limitée"
+            "display" : "CT limitée dans une région du corps non spécifiée"
           },
           {
             "code" : "25041-5",
-            "display" : "CT ; guidage pour aspiration ou biopsie avec contraste IV"
+            "display" : "CT ; guidage pour aspiration ou biopsie avec contraste IV dans une région du corps non spécifiée"
           },
           {
             "code" : "25042-3",
-            "display" : "CT ; guidage pour aspiration ou biopsie"
+            "display" : "CT ; guidage pour aspiration ou biopsie dans une région du corps non spécifiée"
           },
           {
             "code" : "25043-1",
@@ -1906,35 +1906,35 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "25044-9",
-            "display" : "CT ; guidage pour biopsie percutanée"
+            "display" : "CT ; guidage pour biopsie percutanée dans une région du corps non spécifiée"
           },
           {
             "code" : "25045-6",
-            "display" : "CT"
+            "display" : "CT dans une région du corps non spécifiée"
           },
           {
             "code" : "25046-4",
-            "display" : "CT avec anesthésie"
+            "display" : "CT avec anesthésie dans une région du corps non spécifiée"
           },
           {
             "code" : "25047-2",
-            "display" : "CT avec sédation consciente"
+            "display" : "CT avec sédation consciente dans une région du corps non spécifiée"
           },
           {
             "code" : "25053-0",
-            "display" : "CT ; guidage pour radiochirurgie"
+            "display" : "CT ; guidage pour radiochirurgie dans une région du corps non spécifiée"
           },
           {
             "code" : "25054-8",
-            "display" : "CT ; guidage pour radiochirurgie avec contraste IV"
+            "display" : "CT ; guidage pour radiochirurgie avec contraste IV dans une région du corps non spécifiée"
           },
           {
             "code" : "25056-3",
-            "display" : "RM"
+            "display" : "résonance magnétique dans une région du corps non spécifiée"
           },
           {
             "code" : "25057-1",
-            "display" : "RM avec sédation consciente"
+            "display" : "résonance magnétique avec sédation consciente dans une région du corps non spécifiée"
           },
           {
             "code" : "25058-9",
@@ -1942,15 +1942,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "25059-7",
-            "display" : "échographie ; guidage pour biopsie percutanée"
+            "display" : "échographie ; guidage pour biopsie percutanée dans une région du corps non spécifiée"
           },
           {
             "code" : "25060-5",
-            "display" : "échographie ; sans charge"
+            "display" : "échographie ; sans charge dans une région du corps non spécifiée"
           },
           {
             "code" : "25061-3",
-            "display" : "échographie"
+            "display" : "échographie dans une région du corps non spécifiée"
           },
           {
             "code" : "25062-1",
@@ -1966,31 +1966,31 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "25065-4",
-            "display" : "RF 15 minutes"
+            "display" : "fluoroscopie 15 minutes"
           },
           {
             "code" : "25066-2",
-            "display" : "RF 30 minutes"
+            "display" : "fluoroscopie 30 minutes"
           },
           {
             "code" : "25067-0",
-            "display" : "RF 45 minutes"
+            "display" : "fluoroscopie 45 minutes"
           },
           {
             "code" : "25068-8",
-            "display" : "RF 1 heure"
+            "display" : "fluoroscopie 1 heure"
           },
           {
             "code" : "25069-6",
-            "display" : "RF ; guidage pour biopsie percutanée"
+            "display" : "fluoroscopie guidage pour biopsie percutanée"
           },
           {
             "code" : "25070-4",
-            "display" : "RF ; incidences pendant la chirurgie dans une région du corps non spécifié"
+            "display" : "fluoroscopie ; incidences pendant la chirurgie dans une région du corps non spécifié"
           },
           {
             "code" : "25071-2",
-            "display" : "RX.Tomographie"
+            "display" : "RX.Tomographie d'une région du corps non spécifié"
           },
           {
             "code" : "25072-0",
@@ -2014,7 +2014,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "25078-7",
-            "display" : "RF système porte intrahépatique ; guidage pour placement d'un stent"
+            "display" : "fluoroscopie système porte intrahépatique ; guidage pour placement d'un stent"
           },
           {
             "code" : "25079-5",
@@ -2022,7 +2022,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "25080-3",
-            "display" : "angiographie par fluoroscopie veine rénale - bilatéral ; incidences pour échantillonage de rénine avec contraste IV"
+            "display" : "angiographie par fluoroscopie veine rénale - bilatérale ; incidences pour échantillonage de rénine avec contraste IV"
           },
           {
             "code" : "25081-1",
@@ -2042,51 +2042,51 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "26067-9",
-            "display" : "RF glande salivaire - bilatérale ; incidences avec contraste intra conduit salivaire"
+            "display" : "fluoroscopie glande salivaire - bilatérale ; incidences avec contraste intra conduit salivaire"
           },
           {
             "code" : "26068-7",
-            "display" : "RF glande salivaire - gauche ; incidences avec contraste intra conduit salivaire"
+            "display" : "fluoroscopie glande salivaire - gauche ; incidences avec contraste intra conduit salivaire"
           },
           {
             "code" : "26069-5",
-            "display" : "RF glande salivaire - droite ; incidences avec contraste intra conduit salivaire"
+            "display" : "fluoroscopie glande salivaire - droite ; incidences avec contraste intra conduit salivaire"
           },
           {
             "code" : "26070-3",
-            "display" : "RF hanche - bilatérale ; incidences avec contraste intraarticulaire"
+            "display" : "fluoroscopie hanche - bilatérale ; incidences avec contraste intraarticulaire"
           },
           {
             "code" : "26071-1",
-            "display" : "RF hanche - gauche ; incidences avec contraste intraarticulaire"
+            "display" : "fluoroscopie hanche - gauche ; incidences avec contraste intraarticulaire"
           },
           {
             "code" : "26072-9",
-            "display" : "RF hanche - droite ; incidences avec contraste intraarticulaire"
+            "display" : "fluoroscopie hanche - droite ; incidences avec contraste intraarticulaire"
           },
           {
             "code" : "26073-7",
-            "display" : "RF genou - bilatéral ; incidences avec contraste intraarticulaire"
+            "display" : "fluoroscopie genou - bilatéral ; incidences avec contraste intraarticulaire"
           },
           {
             "code" : "26074-5",
-            "display" : "RF genou - gauche ; incidences avec contraste intraarticulaire"
+            "display" : "fluoroscopie genou - gauche ; incidences avec contraste intraarticulaire"
           },
           {
             "code" : "26075-2",
-            "display" : "RF genou - droit ; incidences avec contraste intraarticulaire"
+            "display" : "fluoroscopie genou - droit ; incidences avec contraste intraarticulaire"
           },
           {
             "code" : "26076-0",
-            "display" : "RF épaule - bilatérale ; incidences avec contraste intraarticulaire"
+            "display" : "fluoroscopie épaule - bilatérale ; incidences avec contraste intraarticulaire"
           },
           {
             "code" : "26077-8",
-            "display" : "RF épaule - gauche ; incidences avec contraste intraarticulaire"
+            "display" : "fluoroscopie épaule - gauche ; incidences avec contraste intraarticulaire"
           },
           {
             "code" : "26078-6",
-            "display" : "RF épaule - droite ; incidences avec contraste intraarticulaire"
+            "display" : "fluoroscopie épaule - droite ; incidences avec contraste intraarticulaire"
           },
           {
             "code" : "26079-4",
@@ -2114,15 +2114,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "26085-1",
-            "display" : "RX genou - bilatéral ; incidences avec position debout"
+            "display" : "RX genou - bilatéral ; incidences en position debout"
           },
           {
             "code" : "26086-9",
-            "display" : "RX genou - gauche ; incidences avec position debout"
+            "display" : "RX genou - gauche ; incidences en position debout"
           },
           {
             "code" : "26087-7",
-            "display" : "RX genou - droit ; incidences avec position debout"
+            "display" : "RX genou - droit ; incidences en position debout"
           },
           {
             "code" : "26088-5",
@@ -2150,15 +2150,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "26094-3",
-            "display" : "RX pied - bilatéral ; incidences avec position debout"
+            "display" : "RX pied - bilatéral ; incidences en position debout"
           },
           {
             "code" : "26095-0",
-            "display" : "RX pied - gauche ; incidences avec position debout"
+            "display" : "RX pied - gauche ; incidences en position debout"
           },
           {
             "code" : "26096-8",
-            "display" : "RX pied - droit ; incidences avec position debout"
+            "display" : "RX pied - droit ; incidences en position debout"
           },
           {
             "code" : "26097-6",
@@ -2330,7 +2330,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "26146-1",
-            "display" : "RX radius et ulna - bilatéral ; incidences"
+            "display" : "RX radius et ulna - bilatéraux ; incidences"
           },
           {
             "code" : "26148-7",
@@ -2438,15 +2438,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "26175-0",
-            "display" : "MG sein bilatéral ; incidences pour dépistage"
+            "display" : "mammographie sein bilatéral ; incidences pour dépistage"
           },
           {
             "code" : "26176-8",
-            "display" : "MG sein gauche ; incidences pour dépistage"
+            "display" : "mammographie sein gauche ; incidences pour dépistage"
           },
           {
             "code" : "26177-6",
-            "display" : "MG sein droit ; incidences pour dépistage"
+            "display" : "mammographie sein droit ; incidences pour dépistage"
           },
           {
             "code" : "26178-4",
@@ -2486,111 +2486,111 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "26187-5",
-            "display" : "RM cheville bilatérale sans et avec contraste IV"
+            "display" : "résonance magnétique cheville bilatérale sans et avec contraste IV"
           },
           {
             "code" : "26188-3",
-            "display" : "RM cheville gauche sans et avec contraste IV"
+            "display" : "résonance magnétique cheville gauche sans et avec contraste IV"
           },
           {
             "code" : "26189-1",
-            "display" : "RM cheville droite sans et avec contraste IV"
+            "display" : "résonance magnétique cheville droite sans et avec contraste IV"
           },
           {
             "code" : "26190-9",
-            "display" : "RM plexus brachial - bilatéral sans et avec contraste IV"
+            "display" : "résonance magnétique plexus brachial - bilatéral sans et avec contraste IV"
           },
           {
             "code" : "26191-7",
-            "display" : "RM plexus brachial - gauche sans et avec contraste IV"
+            "display" : "résonance magnétique plexus brachial - gauche sans et avec contraste IV"
           },
           {
             "code" : "26192-5",
-            "display" : "RM plexus brachial - droit sans et avec contraste IV"
+            "display" : "résonance magnétique plexus brachial - droit sans et avec contraste IV"
           },
           {
             "code" : "26193-3",
-            "display" : "RM coude - bilatéral sans et avec contraste IV"
+            "display" : "résonance magnétique coude - bilatéral sans et avec contraste IV"
           },
           {
             "code" : "26194-1",
-            "display" : "RM coude - gauche sans et avec contraste IV"
+            "display" : "résonance magnétique coude - gauche sans et avec contraste IV"
           },
           {
             "code" : "26195-8",
-            "display" : "RM coude - droit sans et avec contraste IV"
+            "display" : "résonance magnétique coude - droit sans et avec contraste IV"
           },
           {
             "code" : "26196-6",
-            "display" : "RM cuisse - bilatérale sans et avec contraste IV"
+            "display" : "résonance magnétique cuisse - bilatérale sans et avec contraste IV"
           },
           {
             "code" : "26197-4",
-            "display" : "RM cuisse - gauche sans et avec contraste IV"
+            "display" : "résonance magnétique cuisse - gauche sans et avec contraste IV"
           },
           {
             "code" : "26198-2",
-            "display" : "RM cuisse - droite sans et avec contraste IV"
+            "display" : "résonance magnétique cuisse - droite sans et avec contraste IV"
           },
           {
             "code" : "26199-0",
-            "display" : "RM genou - bilatéral sans et avec contraste IV"
+            "display" : "résonance magnétique genou - bilatéral sans et avec contraste IV"
           },
           {
             "code" : "26200-6",
-            "display" : "RM genou - gauche sans et avec contraste IV"
+            "display" : "résonance magnétique genou - gauche sans et avec contraste IV"
           },
           {
             "code" : "26201-4",
-            "display" : "RM genou - droit sans et avec contraste IV"
+            "display" : "résonance magnétique genou - droit sans et avec contraste IV"
           },
           {
             "code" : "26202-2",
-            "display" : "RM épaule - bilatérale sans et avec contraste IV"
+            "display" : "résonance magnétique épaule - bilatérale sans et avec contraste IV"
           },
           {
             "code" : "26203-0",
-            "display" : "RM épaule - gauche sans et avec contraste IV"
+            "display" : "résonance magnétique épaule - gauche sans et avec contraste IV"
           },
           {
             "code" : "26204-8",
-            "display" : "RM épaule - droite sans et avec contraste IV"
+            "display" : "résonance magnétique épaule - droite sans et avec contraste IV"
           },
           {
             "code" : "26205-5",
-            "display" : "RM poignet - bilatéral sans et avec contraste IV"
+            "display" : "résonance magnétique poignet - bilatéral sans et avec contraste IV"
           },
           {
             "code" : "26206-3",
-            "display" : "RM poignet - gauche sans et avec contraste IV"
+            "display" : "résonance magnétique poignet - gauche sans et avec contraste IV"
           },
           {
             "code" : "26207-1",
-            "display" : "RM poignet - droit sans et avec contraste IV"
+            "display" : "résonance magnétique poignet - droit sans et avec contraste IV"
           },
           {
             "code" : "26208-9",
-            "display" : "RM cheville bilatérale"
+            "display" : "résonance magnétique cheville bilatérale"
           },
           {
             "code" : "26209-7",
-            "display" : "RM cheville gauche"
+            "display" : "résonance magnétique cheville gauche"
           },
           {
             "code" : "26210-5",
-            "display" : "RM cheville droite"
+            "display" : "résonance magnétique cheville droite"
           },
           {
             "code" : "26211-3",
-            "display" : "RM plexus brachial - bilatéral"
+            "display" : "résonance magnétique plexus brachial - bilatéral"
           },
           {
             "code" : "26212-1",
-            "display" : "RM plexus brachial - gauche"
+            "display" : "résonance magnétique plexus brachial - gauche"
           },
           {
             "code" : "26213-9",
-            "display" : "RM plexus brachial - droit"
+            "display" : "résonance magnétique plexus brachial - droit"
           },
           {
             "code" : "26214-7",
@@ -2618,15 +2618,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "26220-4",
-            "display" : "RM coude - bilatéral"
+            "display" : "résonance magnétique coude - bilatéral"
           },
           {
             "code" : "26221-2",
-            "display" : "RM coude - gauche"
+            "display" : "résonance magnétique coude - gauche"
           },
           {
             "code" : "26222-0",
-            "display" : "RM coude - droit"
+            "display" : "résonance magnétique coude - droit"
           },
           {
             "code" : "26223-8",
@@ -2646,15 +2646,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "26227-9",
-            "display" : "RM articulation du membre inférieur - bilatéral"
+            "display" : "résonance magnétique articulation du membre inférieur - bilatéral"
           },
           {
             "code" : "26228-7",
-            "display" : "RM articulation du membre inférieur - gauche"
+            "display" : "résonance magnétique articulation du membre inférieur - gauche"
           },
           {
             "code" : "26229-5",
-            "display" : "RM articulation du membre inférieur - droit"
+            "display" : "résonance magnétique articulation du membre inférieur - droit"
           },
           {
             "code" : "26230-3",
@@ -2666,75 +2666,75 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "26232-9",
-            "display" : "RM membre supérieur - bilatéral"
+            "display" : "résonance magnétique membre supérieur - bilatéral"
           },
           {
             "code" : "26233-7",
-            "display" : "RM membre supérieur - gauche"
+            "display" : "résonance magnétique membre supérieur - gauche"
           },
           {
             "code" : "26234-5",
-            "display" : "RM membre supérieur - droit"
+            "display" : "résonance magnétique membre supérieur - droit"
           },
           {
             "code" : "26235-2",
-            "display" : "RM cuisse - bilatérale"
+            "display" : "résonance magnétique cuisse - bilatérale"
           },
           {
             "code" : "26236-0",
-            "display" : "RM cuisse - gauche"
+            "display" : "résonance magnétique cuisse - gauche"
           },
           {
             "code" : "26237-8",
-            "display" : "RM cuisse - droite"
+            "display" : "résonance magnétique cuisse - droite"
           },
           {
             "code" : "26238-6",
-            "display" : "RM doigt - bilatéral"
+            "display" : "résonance magnétique doigt - bilatéral"
           },
           {
             "code" : "26239-4",
-            "display" : "RM doigt - gauche"
+            "display" : "résonance magnétique doigt - gauche"
           },
           {
             "code" : "26240-2",
-            "display" : "RM doigt - droit"
+            "display" : "résonance magnétique doigt - droit"
           },
           {
             "code" : "26241-0",
-            "display" : "RM pied - bilatéral"
+            "display" : "résonance magnétique pied - bilatéral"
           },
           {
             "code" : "26242-8",
-            "display" : "RM pied - gauche"
+            "display" : "résonance magnétique pied - gauche"
           },
           {
             "code" : "26243-6",
-            "display" : "RM pied - droit"
+            "display" : "résonance magnétique pied - droit"
           },
           {
             "code" : "26244-4",
-            "display" : "RM avantbras - bilatéral"
+            "display" : "résonance magnétique avantbras - bilatéral"
           },
           {
             "code" : "26245-1",
-            "display" : "RM avantbras - gauche"
+            "display" : "résonance magnétique avantbras - gauche"
           },
           {
             "code" : "26246-9",
-            "display" : "RM avantbras - droit"
+            "display" : "résonance magnétique avantbras - droit"
           },
           {
             "code" : "26247-7",
-            "display" : "RM main - bilatérale"
+            "display" : "résonance magnétique main - bilatérale"
           },
           {
             "code" : "26248-5",
-            "display" : "RM main - gauche"
+            "display" : "résonance magnétique main - gauche"
           },
           {
             "code" : "26249-3",
-            "display" : "RM main - droite"
+            "display" : "résonance magnétique main - droite"
           },
           {
             "code" : "26250-1",
@@ -2762,27 +2762,27 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "26256-8",
-            "display" : "RM genou - bilatéral"
+            "display" : "résonance magnétique genou - bilatéral"
           },
           {
             "code" : "26257-6",
-            "display" : "RM genou - gauche"
+            "display" : "résonance magnétique genou - gauche"
           },
           {
             "code" : "26258-4",
-            "display" : "RM genou - droit"
+            "display" : "résonance magnétique genou - droit"
           },
           {
             "code" : "26259-2",
-            "display" : "RM pelvis et hanche - bilatéraux"
+            "display" : "résonance magnétique pelvis et hanche - bilatéraux"
           },
           {
             "code" : "26260-0",
-            "display" : "RM pelvis et hanche - gauche"
+            "display" : "résonance magnétique pelvis et hanche - gauche"
           },
           {
             "code" : "26261-8",
-            "display" : "RM pelvis et hanche - droite"
+            "display" : "résonance magnétique pelvis et hanche - droite"
           },
           {
             "code" : "26262-6",
@@ -2802,7 +2802,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "26266-7",
-            "display" : "RM épaule - bilatérale"
+            "display" : "résonance magnétique épaule - bilatérale"
           },
           {
             "code" : "26267-5",
@@ -2810,7 +2810,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "26268-3",
-            "display" : "RM épaule - gauche"
+            "display" : "résonance magnétique épaule - gauche"
           },
           {
             "code" : "26269-1",
@@ -2818,7 +2818,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "26270-9",
-            "display" : "RM épaule - droite"
+            "display" : "résonance magnétique épaule - droite"
           },
           {
             "code" : "26271-7",
@@ -2834,7 +2834,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "26277-4",
-            "display" : "RM poignet - bilatéral"
+            "display" : "résonance magnétique poignet - bilatéral"
           },
           {
             "code" : "26278-2",
@@ -2842,7 +2842,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "26279-0",
-            "display" : "RM poignet - gauche"
+            "display" : "résonance magnétique poignet - gauche"
           },
           {
             "code" : "26280-8",
@@ -2850,7 +2850,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "26281-6",
-            "display" : "RM poignet - droit"
+            "display" : "résonance magnétique poignet - droit"
           },
           {
             "code" : "26282-4",
@@ -2874,7 +2874,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "26287-3",
-            "display" : "MG sein bilatéral ; incidences limitées"
+            "display" : "mammographie sein bilatéral ; incidences limitées"
           },
           {
             "code" : "26288-1",
@@ -2882,7 +2882,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "26289-9",
-            "display" : "MG sein gauche ; incidences limitées"
+            "display" : "mammographie sein gauche ; incidences limitées"
           },
           {
             "code" : "26290-7",
@@ -2890,19 +2890,19 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "26291-5",
-            "display" : "MG sein droit ; incidences limitées"
+            "display" : "mammographie sein droit ; incidences limitées"
           },
           {
             "code" : "26292-3",
-            "display" : "mammo.stéréotaxique sein bilatéral ; guidage pour biopsie percutanée"
+            "display" : "mammographie stéréotaxique sein bilatéral ; guidage pour biopsie percutanée"
           },
           {
             "code" : "26293-1",
-            "display" : "mammo.stéréotaxique sein gauche ; guidage pour biopsie percutanée"
+            "display" : "mammographie stéréotaxique sein gauche ; guidage pour biopsie percutanée"
           },
           {
             "code" : "26294-9",
-            "display" : "mammo.stéréotaxique sein droit ; guidage pour biopsie percutanée"
+            "display" : "mammographie stéréotaxique sein droit ; guidage pour biopsie percutanée"
           },
           {
             "code" : "26295-6",
@@ -2986,15 +2986,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "26315-2",
-            "display" : "MG sein bilatéral ; guidage pour localisation à l'aiguille d'une masse"
+            "display" : "mammographie sein bilatéral ; guidage pour localisation à l'aiguille d'une masse"
           },
           {
             "code" : "26316-0",
-            "display" : "MG sein gauche ; guidage pour localisation à l'aiguille d'une masse"
+            "display" : "mammographie sein gauche ; guidage pour localisation à l'aiguille d'une masse"
           },
           {
             "code" : "26317-8",
-            "display" : "MG sein droit ; guidage pour localisation à l'aiguille d'une masse"
+            "display" : "mammographie sein droit ; guidage pour localisation à l'aiguille d'une masse"
           },
           {
             "code" : "26318-6",
@@ -3014,39 +3014,39 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "26322-8",
-            "display" : "RF articulation zygapophysaire du rachis - bilatéral ; guidage pour injection"
+            "display" : "fluoroscopie articulation zygapophysaire du rachis - bilatéral ; guidage pour injection"
           },
           {
             "code" : "26323-6",
-            "display" : "RF articulation zygapophysaire du rachis - gauche ; guidage pour injection"
+            "display" : "fluoroscopie articulation zygapophysaire du rachis - gauche ; guidage pour injection"
           },
           {
             "code" : "26324-4",
-            "display" : "RF articulation zygapophysaire du rachis - droite ; guidage pour injection"
+            "display" : "fluoroscopie articulation zygapophysaire du rachis - droite ; guidage pour injection"
           },
           {
             "code" : "26325-1",
-            "display" : "échographie extrémité - bilatérale ; guidage pour drainage+placement d'un cathéter de drainage"
+            "display" : "échographie extrémité - bilatérale ; guidage pour drainage et placement d'un cathéter de drainage"
           },
           {
             "code" : "26326-9",
-            "display" : "échographie extrémité gauche ; guidage pour drainage+placement d'un cathéter de drainage"
+            "display" : "échographie extrémité gauche ; guidage pour drainage et placement d'un cathéter de drainage"
           },
           {
             "code" : "26327-7",
-            "display" : "échographie membre droit ; guidage pour drainage+placement d'un cathéter de drainage"
+            "display" : "échographie membre droit ; guidage pour drainage et placement d'un cathéter de drainage"
           },
           {
             "code" : "26328-5",
-            "display" : "échographie rein - bilatéral ; guidage pour drainage+placement d'un cathéter de drainage"
+            "display" : "échographie rein - bilatéral ; guidage pour drainage et placement d'un cathéter de drainage"
           },
           {
             "code" : "26329-3",
-            "display" : "échographie rein - gauche ; guidage pour drainage+placement d'un cathéter de drainage"
+            "display" : "échographie rein - gauche ; guidage pour drainage et placement d'un cathéter de drainage"
           },
           {
             "code" : "26330-1",
-            "display" : "échographie rein - droit ; guidage pour drainage+placement d'un cathéter de drainage"
+            "display" : "échographie rein - droit ; guidage pour drainage et placement d'un cathéter de drainage"
           },
           {
             "code" : "26331-9",
@@ -3062,27 +3062,27 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "26334-3",
-            "display" : "MG sein bilatéral ; guidage pour biopsie percutanée à l'aiguille fine"
+            "display" : "mammographie sein bilatéral ; guidage pour biopsie percutanée à l'aiguille fine"
           },
           {
             "code" : "26335-0",
-            "display" : "MG sein gauche ; guidage pour biopsie percutanée à l'aiguille fine"
+            "display" : "mammographie sein gauche ; guidage pour biopsie percutanée à l'aiguille fine"
           },
           {
             "code" : "26336-8",
-            "display" : "MG sein droit ; guidage pour biopsie percutanée à l'aiguille fine"
+            "display" : "mammographie sein droit ; guidage pour biopsie percutanée à l'aiguille fine"
           },
           {
             "code" : "26337-6",
-            "display" : "MG sein bilatéral ; guidage pour biopsie percutanée"
+            "display" : "mammographie sein bilatéral ; guidage pour biopsie percutanée"
           },
           {
             "code" : "26338-4",
-            "display" : "MG sein gauche ; guidage pour biopsie percutanée"
+            "display" : "mammographie sein gauche ; guidage pour biopsie percutanée"
           },
           {
             "code" : "26339-2",
-            "display" : "MG sein droit ; guidage pour biopsie percutanée"
+            "display" : "mammographie sein droit ; guidage pour biopsie percutanée"
           },
           {
             "code" : "26340-0",
@@ -3098,43 +3098,43 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "26343-4",
-            "display" : "MG sein bilatéral ; guidage pour aspiration percutanée d'un kyste"
+            "display" : "mammographie sein bilatéral ; guidage pour aspiration percutanée d'un kyste"
           },
           {
             "code" : "26344-2",
-            "display" : "MG sein gauche ; guidage pour aspiration percutanée d'un kyste"
+            "display" : "mammographie sein gauche ; guidage pour aspiration percutanée d'un kyste"
           },
           {
             "code" : "26345-9",
-            "display" : "MG sein droit ; guidage pour aspiration percutanée d'un kyste"
+            "display" : "mammographie sein droit ; guidage pour aspiration percutanée d'un kyste"
           },
           {
             "code" : "26346-7",
-            "display" : "MG sein bilatéral ; incidences pour diagnostic"
+            "display" : "mammographie sein bilatéral ; incidences pour diagnostic"
           },
           {
             "code" : "26347-5",
-            "display" : "MG sein gauche ; incidences pour diagnostic"
+            "display" : "mammographie sein gauche ; incidences pour diagnostic"
           },
           {
             "code" : "26348-3",
-            "display" : "MG sein droit ; incidences pour diagnostic"
+            "display" : "mammographie sein droit ; incidences pour diagnostic"
           },
           {
             "code" : "26349-1",
-            "display" : "MG sein bilatéral ; incidences limitées pour diagnostic"
+            "display" : "mammographie sein bilatéral ; incidences limitées pour diagnostic"
           },
           {
             "code" : "26350-9",
-            "display" : "MG sein gauche ; incidences limitées pour diagnostic"
+            "display" : "mammographie sein gauche ; incidences limitées pour diagnostic"
           },
           {
             "code" : "26351-7",
-            "display" : "MG sein droit ; incidences limitées pour diagnostic"
+            "display" : "mammographie sein droit ; incidences limitées pour diagnostic"
           },
           {
             "code" : "26352-5",
-            "display" : "RX poignet - bilatéral et main - bilatéral ; incidences pour âge osseux"
+            "display" : "RX poignet - bilatéral et main - bilatérale ; incidences pour âge osseux"
           },
           {
             "code" : "26353-3",
@@ -3158,39 +3158,39 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "26358-2",
-            "display" : "RX genou - bilatéral ; incidences antéropostérieures avec position debout"
+            "display" : "RX genou - bilatéral ; incidences antéropostérieures en position debout"
           },
           {
             "code" : "26359-0",
-            "display" : "RX genou - gauche ; incidences antéropostérieures avec position debout"
+            "display" : "RX genou - gauche ; incidences antéropostérieures en position debout"
           },
           {
             "code" : "26360-8",
-            "display" : "RX genou - droit ; incidences antéropostérieures avec position debout"
+            "display" : "RX genou - droit ; incidences antéropostérieures en position debout"
           },
           {
             "code" : "26361-6",
-            "display" : "RX genou - bilatéral ; incidences antéropostérieures et postéroantérieures avec position debout"
+            "display" : "RX genou - bilatéral ; incidences antéropostérieures et postéroantérieures en position debout"
           },
           {
             "code" : "26362-4",
-            "display" : "RX genou - gauche ; incidences antéropostérieures et postéroantérieures avec position debout"
+            "display" : "RX genou - gauche ; incidences antéropostérieures et postéroantérieures en position debout"
           },
           {
             "code" : "26363-2",
-            "display" : "RX genou - droit ; incidences antéropostérieures et postéroantérieures avec position debout"
+            "display" : "RX genou - droit ; incidences antéropostérieures et postéroantérieures en position debout"
           },
           {
             "code" : "26364-0",
-            "display" : "RX genou - bilatéral ; incidences antéropostérieures + latérales en position debout"
+            "display" : "RX genou - bilatéral ; incidences antéropostérieures et latérales en position debout"
           },
           {
             "code" : "26365-7",
-            "display" : "RX genou - gauche ; incidences antéropostérieures + latérales en position debout"
+            "display" : "RX genou - gauche ; incidences antéropostérieures et latérales en position debout"
           },
           {
             "code" : "26366-5",
-            "display" : "RX genou - droit ; incidences antéropostérieures + latérales en position debout"
+            "display" : "RX genou - droit ; incidences antéropostérieures et latérales en position debout"
           },
           {
             "code" : "26370-7",
@@ -3278,7 +3278,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "26397-0",
-            "display" : "RX patella - bilatéral ; 2 incidences"
+            "display" : "RX patella - bilatérale ; 2 incidences"
           },
           {
             "code" : "26398-8",
@@ -3310,7 +3310,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "28020-6",
-            "display" : "entéroscopie à travers une stomie"
+            "display" : "étude entéroscopique à travers une stomie"
           },
           {
             "code" : "28028-9",
@@ -3333,16 +3333,12 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
             "display" : "RX genou ; incidences"
           },
           {
-            "code" : "28566-8",
-            "display" : "CT rachis"
-          },
-          {
             "code" : "28567-6",
             "display" : "RX humérus ; incidences"
           },
           {
             "code" : "28576-7",
-            "display" : "RM articulation"
+            "display" : "résonance magnétique articulation"
           },
           {
             "code" : "28582-5",
@@ -3362,15 +3358,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "29756-4",
-            "display" : "péritonéoscopie espace péritonéal ; compte rendu"
+            "display" : "étude péritonéoscopique"
           },
           {
             "code" : "29757-2",
-            "display" : "colposcopie prélèvement cervicovaginal ; compte rendu"
+            "display" : "étude colposcopique"
           },
           {
             "code" : "30578-9",
-            "display" : "CT ; guidage d'un drainage d'un abcès + placement d'un cathéter de drainage"
+            "display" : "CT ; guidage d'un drainage d'un abcès et placement d'un cathéter de drainage dans une région du corps non spécifiée"
           },
           {
             "code" : "30579-7",
@@ -3378,7 +3374,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "30580-5",
-            "display" : "CT ; guidage pour aspiration à l'aiguille fine percutanée"
+            "display" : "CT ; guidage pour aspiration à l'aiguille fine percutanée dans une région du corps non spécifiée"
           },
           {
             "code" : "30581-3",
@@ -3386,7 +3382,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "30582-1",
-            "display" : "CT ; guidage pour radiothérapie sans contraste"
+            "display" : "CT ; guidage pour radiothérapie sans contraste dans une région du corps non spécifiée"
           },
           {
             "code" : "30583-9",
@@ -3430,11 +3426,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "30593-8",
-            "display" : "CTA vaisseaux de la tête sans et avec contraste IV"
+            "display" : "angiographie par tomodensitométrie vaisseaux de la tête sans et avec contraste IV"
           },
           {
             "code" : "30594-6",
-            "display" : "CTA vaisseaux du cou sans et avec contraste IV"
+            "display" : "angiographie par tomodensitométrie vaisseaux du cou sans et avec contraste IV"
           },
           {
             "code" : "30595-3",
@@ -3538,7 +3534,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "30623-3",
-            "display" : "CTA vaisseaux du pelvis sans et avec contraste IV"
+            "display" : "angiographie par tomodensitométrie vaisseaux du pelvis sans et avec contraste IV"
           },
           {
             "code" : "30624-1",
@@ -3558,43 +3554,43 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "30628-2",
-            "display" : "RF ; guidage pour retrait d'un corps étranger"
+            "display" : "fluoroscopie guidage pour retrait d'un corps étranger"
           },
           {
             "code" : "30629-0",
-            "display" : "RF ; guidage pour procédure"
+            "display" : "fluoroscopie guidage pour procédure"
           },
           {
             "code" : "30630-8",
-            "display" : "RF.vidéo citernes cérébrales ; incidences avec contraste"
+            "display" : "fluoroscopie vidéo citernes cérébrales ; incidences avec contraste"
           },
           {
             "code" : "30631-6",
-            "display" : "RF thorax ; incidences"
+            "display" : "fluoroscopie thorax ; incidences"
           },
           {
             "code" : "30632-4",
-            "display" : "RF diaphragme ; pour mouvement"
+            "display" : "fluoroscopie diaphragme ; pour mouvement"
           },
           {
             "code" : "30633-2",
-            "display" : "RF oesophage ; incidences avec contraste au barium per os"
+            "display" : "fluoroscopie oesophage ; incidences avec contraste au barium per os"
           },
           {
             "code" : "30634-0",
-            "display" : "RF poumon ; guidage pour biopsie percutanée"
+            "display" : "fluoroscopie poumon ; guidage pour biopsie percutanée"
           },
           {
             "code" : "30636-5",
-            "display" : "RF côlon ; incidences pour rédution avec contraste par voie rectale"
+            "display" : "fluoroscopie côlon ; incidences pour rédution avec contraste par voie rectale"
           },
           {
             "code" : "30637-3",
-            "display" : "RF tractus gastro-intestinal ; guidage pour placement d'une sonde"
+            "display" : "fluoroscopie tractus gastro-intestinal ; guidage pour placement d'une sonde"
           },
           {
             "code" : "30638-1",
-            "display" : "RF hanche ; guidage pour injection"
+            "display" : "fluoroscopie hanche ; guidage pour injection"
           },
           {
             "code" : "30639-9",
@@ -3610,7 +3606,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "30642-3",
-            "display" : "RF ; incidence unique d'une région du coprs non spécifié"
+            "display" : "fluoroscopie ; incidence unique d'une région du coprs non spécifié"
           },
           {
             "code" : "30643-1",
@@ -3618,7 +3614,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "30644-9",
-            "display" : "échographie veine ; guidage pour placement d'un cathéter veineux central tunnelisé"
+            "display" : "échographie veine ; guidage pour placement d'un cathéter veineux central tunnelé"
           },
           {
             "code" : "30645-6",
@@ -3626,11 +3622,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "30646-4",
-            "display" : "RF tractus du sinus ; guidage pour changement de sonde avec contraste"
+            "display" : "fluoroscopie tractus du sinus ; guidage pour changement de sonde avec contraste"
           },
           {
             "code" : "30647-2",
-            "display" : "RF voies biliaires et vésicule biliaire ; incidences avec contraste via sonde en T"
+            "display" : "fluoroscopie voies biliaires et vésicule biliaire ; incidences avec contraste via sonde en T"
           },
           {
             "code" : "30648-0",
@@ -3642,7 +3638,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "30650-6",
-            "display" : "RF ; incidences pour shunt"
+            "display" : "fluoroscopie incidences pour shunt"
           },
           {
             "code" : "30651-4",
@@ -3658,163 +3654,163 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "30654-8",
-            "display" : "RM plexus brachial sans contraste"
+            "display" : "résonance magnétique plexus brachial sans contraste"
           },
           {
             "code" : "30655-5",
-            "display" : "RM citernes cérébrales"
+            "display" : "résonance magnétique citernes cérébrales"
           },
           {
             "code" : "30656-3",
-            "display" : "RM cerveau ; guidage pour localisation stéréotaxique avec contraste IV"
+            "display" : "résonance magnétique cerveau ; guidage pour localisation stéréotaxique avec contraste IV"
           },
           {
             "code" : "30657-1",
-            "display" : "RM cerveau sans contraste"
+            "display" : "résonance magnétique cerveau sans contraste"
           },
           {
             "code" : "30658-9",
-            "display" : "RM conduit auditif interne sans contraste"
+            "display" : "résonance magnétique conduit auditif interne sans contraste"
           },
           {
             "code" : "30659-7",
-            "display" : "RM conduit auditif interne sans et avec contraste IV"
+            "display" : "résonance magnétique conduit auditif interne sans et avec contraste IV"
           },
           {
             "code" : "30660-5",
-            "display" : "RM cou sans contraste"
+            "display" : "résonance magnétique cou sans contraste"
           },
           {
             "code" : "30661-3",
-            "display" : "RM orbite - bilatérale sans contraste"
+            "display" : "résonance magnétique orbite - bilatérale sans contraste"
           },
           {
             "code" : "30662-1",
-            "display" : "RM sinus sans contraste"
+            "display" : "résonance magnétique sinus sans contraste"
           },
           {
             "code" : "30663-9",
-            "display" : "RM sinus sans et avec contraste IV"
+            "display" : "résonance magnétique sinus sans et avec contraste IV"
           },
           {
             "code" : "30664-7",
-            "display" : "RM ; guidage pour radiothérapie avec contraste IV"
+            "display" : "résonance magnétique guidage pour radiothérapie avec contraste IV dans une région du corps non spécifiée"
           },
           {
             "code" : "30665-4",
-            "display" : "RM ; guidage pour radiothérapie sans contraste"
+            "display" : "résonance magnétique guidage pour radiothérapie sans contraste dans une région du corps non spécifiée"
           },
           {
             "code" : "30666-2",
-            "display" : "RM hypophyse et selle turcique sans contraste"
+            "display" : "résonance magnétique hypophyse et selle turcique sans contraste"
           },
           {
             "code" : "30667-0",
-            "display" : "RM rachis cervical sans contraste"
+            "display" : "résonance magnétique rachis cervical sans contraste"
           },
           {
             "code" : "30668-8",
-            "display" : "RM abdomen sans contraste"
+            "display" : "résonance magnétique abdomen sans contraste"
           },
           {
             "code" : "30669-6",
-            "display" : "RM foie sans contraste"
+            "display" : "résonance magnétique foie sans contraste"
           },
           {
             "code" : "30670-4",
-            "display" : "RM foie sans et avec contraste IV"
+            "display" : "résonance magnétique foie sans et avec contraste IV"
           },
           {
             "code" : "30671-2",
-            "display" : "RM pelvis et hanche sans contraste"
+            "display" : "résonance magnétique pelvis et hanche sans contraste"
           },
           {
             "code" : "30672-0",
-            "display" : "RM pelvis et hanche sans et avec contraste IV"
+            "display" : "résonance magnétique pelvis et hanche sans et avec contraste IV"
           },
           {
             "code" : "30673-8",
-            "display" : "RM pelvis sans contraste"
+            "display" : "résonance magnétique pelvis sans contraste"
           },
           {
             "code" : "30674-6",
-            "display" : "RM pelvis sans et avec contraste IV"
+            "display" : "résonance magnétique pelvis sans et avec contraste IV"
           },
           {
             "code" : "30675-3",
-            "display" : "RM prostate"
+            "display" : "résonance magnétique prostate"
           },
           {
             "code" : "30678-7",
-            "display" : "RM rachis lombaire avec contraste IV"
+            "display" : "résonance magnétique rachis lombaire avec contraste IV"
           },
           {
             "code" : "30679-5",
-            "display" : "RM rachis lombaire sans contraste"
+            "display" : "résonance magnétique rachis lombaire sans contraste"
           },
           {
             "code" : "30680-3",
-            "display" : "RM cheville sans contraste"
+            "display" : "résonance magnétique cheville sans contraste"
           },
           {
             "code" : "30681-1",
-            "display" : "RM pied sans contraste"
+            "display" : "résonance magnétique pied sans contraste"
           },
           {
             "code" : "30682-9",
-            "display" : "RM pied sans et avec contraste IV"
+            "display" : "résonance magnétique pied sans et avec contraste IV"
           },
           {
             "code" : "30683-7",
-            "display" : "RM avantbras sans contraste"
+            "display" : "résonance magnétique avantbras sans contraste"
           },
           {
             "code" : "30684-5",
-            "display" : "RM avantbras sans et avec contraste IV"
+            "display" : "résonance magnétique avantbras sans et avec contraste IV"
           },
           {
             "code" : "30685-2",
-            "display" : "RM main sans contraste"
+            "display" : "résonance magnétique main sans contraste"
           },
           {
             "code" : "30686-0",
-            "display" : "RM main sans et avec contraste IV"
+            "display" : "résonance magnétique main sans et avec contraste IV"
           },
           {
             "code" : "30687-8",
-            "display" : "RM hanche sans contraste"
+            "display" : "résonance magnétique hanche sans contraste"
           },
           {
             "code" : "30688-6",
-            "display" : "RM hanche sans et avec contraste IV"
+            "display" : "résonance magnétique hanche sans et avec contraste IV"
           },
           {
             "code" : "30689-4",
-            "display" : "RM bras sans contraste"
+            "display" : "résonance magnétique bras sans contraste"
           },
           {
             "code" : "30690-2",
-            "display" : "RM bras sans et avec contraste IV"
+            "display" : "résonance magnétique bras sans et avec contraste IV"
           },
           {
             "code" : "30691-0",
-            "display" : "RM genou sans contraste"
+            "display" : "résonance magnétique genou sans contraste"
           },
           {
             "code" : "30692-8",
-            "display" : "RM membre inférieur"
+            "display" : "résonance magnétique membre inférieur"
           },
           {
             "code" : "30693-6",
-            "display" : "RM épaule sans contraste"
+            "display" : "résonance magnétique épaule sans contraste"
           },
           {
             "code" : "30694-4",
-            "display" : "MN glande thyroïde ; incidences + incidence pour absorption avec radionucléide IV"
+            "display" : "médecine nucléaire glande thyroïde ; incidences et incidence pour absorption avec radionucléide IV"
           },
           {
             "code" : "30695-1",
-            "display" : "MN glande thyroïde ; incidences avec radionucléide IV"
+            "display" : "médecine nucléaire glande thyroïde ; incidences avec radionucléide IV"
           },
           {
             "code" : "30696-9",
@@ -3822,19 +3818,19 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "30697-7",
-            "display" : "MN système pulmonaire ; incidences de ventilation+perfusion avec radionucléide en inhalation +avec radionucléide IV"
+            "display" : "médecine nucléaire système pulmonaire ; incidences de ventilation et perfusion avec radionucléide en inhalation et avec radionucléide IV"
           },
           {
             "code" : "30698-5",
-            "display" : "échographie ; guidage pour aspiration percutanée d'un kyste"
+            "display" : "échographie ; guidage pour aspiration percutanée d'un kyste dans une région du corps non spécifiée"
           },
           {
             "code" : "30699-3",
-            "display" : "échographie ; guidage pour drainage+placement d'un cathéter de drainage"
+            "display" : "échographie ; guidage pour drainage et placement d'un cathéter de drainage dans une région du corps non spécifiée"
           },
           {
             "code" : "30701-7",
-            "display" : "échographie pendant chirurgie"
+            "display" : "échographie pendant chirurgie dans une région du corps non spécifiée"
           },
           {
             "code" : "30702-5",
@@ -3874,7 +3870,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "30713-2",
-            "display" : "RX rachis ; incidences avec inclinaison droite + avec inclinaison gauche"
+            "display" : "RX rachis ; incidences avec inclinaison droite et avec inclinaison gauche"
           },
           {
             "code" : "30714-0",
@@ -3890,7 +3886,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "30717-3",
-            "display" : "RX rachis dorsal et rachis lombaire ; incidences pour scoliose avec position debout"
+            "display" : "RX rachis dorsal et rachis lombaire ; incidences pour scoliose en position debout"
           },
           {
             "code" : "30719-9",
@@ -3954,7 +3950,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "30736-3",
-            "display" : "RX thorax ; incidences en inspiration + en expiration"
+            "display" : "RX thorax ; incidences en inspiration et en expiration"
           },
           {
             "code" : "30737-1",
@@ -4078,11 +4074,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "30768-6",
-            "display" : "RX pelvis et hanche - bilatéraux ; incidences"
+            "display" : "RX pelvis et hanche - bilatérale ; incidences"
           },
           {
             "code" : "30769-4",
-            "display" : "RX pelvis et hanche - bilatéraux ; incidences en abduction maximale"
+            "display" : "RX pelvis et hanche - bilatérale ; incidences en abduction maximale"
           },
           {
             "code" : "30770-2",
@@ -4182,15 +4178,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "30794-2",
-            "display" : "RM sein"
+            "display" : "résonance magnétique sein"
           },
           {
             "code" : "30795-9",
-            "display" : "RM sein bilatéral"
+            "display" : "résonance magnétique sein - unilatéral"
           },
           {
             "code" : "30796-7",
-            "display" : "RM coude sans contraste"
+            "display" : "résonance magnétique coude sans contraste"
           },
           {
             "code" : "30797-5",
@@ -4202,7 +4198,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "30800-7",
-            "display" : "RM cerveau ; guidage pour localisation stéréotaxique sans contraste"
+            "display" : "résonance magnétique cerveau ; guidage pour localisation stéréotaxique sans contraste"
           },
           {
             "code" : "30801-5",
@@ -4218,35 +4214,35 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "30804-9",
-            "display" : "CTA vaisseaux thoraciques sans et avec contraste IV"
+            "display" : "angiographie par tomodensitométrie vaisseaux thoraciques sans et avec contraste IV"
           },
           {
             "code" : "30805-6",
-            "display" : "CTA vaisseaux abdominaux sans et avec contraste IV"
+            "display" : "angiographie par tomodensitométrie vaisseaux abdominaux sans et avec contraste IV"
           },
           {
             "code" : "30807-2",
-            "display" : "CTA vaisseaux du membre inférieur sans et avec contraste IV"
+            "display" : "angiographie par tomodensitométrie vaisseaux du membre inférieur sans et avec contraste IV"
           },
           {
             "code" : "30808-0",
-            "display" : "RF rachis cervical et rachis dorsal et rachis lombaire ; incidences avec contraste intrathécal"
+            "display" : "fluoroscopie rachis cervical et rachis dorsal et rachis lombaire ; incidences avec contraste intrathécal"
           },
           {
             "code" : "30809-8",
-            "display" : "RF tractus gastro-intestinal supérieur et intestin grêle ; incidence avec contraste per os"
+            "display" : "fluoroscopie tractus gastro-intestinal supérieur et intestin grêle ; incidence avec contraste per os"
           },
           {
             "code" : "30810-6",
-            "display" : "RF conduit lacrymal ; incidences avec contraste intracanal lacrimal"
+            "display" : "fluoroscopie conduit lacrymal ; incidences avec contraste intracanal lacrimal"
           },
           {
             "code" : "30811-4",
-            "display" : "RF fosse postérieure ; incidences avec contraste intrathécal"
+            "display" : "fluoroscopie fosse postérieure ; incidences avec contraste intrathécal"
           },
           {
             "code" : "30812-2",
-            "display" : "RF articulation zygapophysaire du rachis cervical ; guidage pour injection"
+            "display" : "fluoroscopie articulation zygapophysaire du rachis cervical ; guidage pour injection"
           },
           {
             "code" : "30813-0",
@@ -4254,11 +4250,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "30814-8",
-            "display" : "RF articulation zygapophysaire du rachis dorsal ; guidage pour injection"
+            "display" : "fluoroscopie articulation zygapophysaire du rachis dorsal ; guidage pour injection"
           },
           {
             "code" : "30815-5",
-            "display" : "RF voies biliaires et canaux pancréatiques ; guidage pour endoscopie avec contraste rétrograde"
+            "display" : "fluoroscopie voies biliaires et canaux pancréatiques ; guidage pour endoscopie avec contraste rétrograde"
           },
           {
             "code" : "30816-3",
@@ -4266,11 +4262,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "30817-1",
-            "display" : "RF articulation zygapophysaire du rachis lombaire ; guidage pour injection"
+            "display" : "fluoroscopie articulation zygapophysaire du rachis lombaire ; guidage pour injection"
           },
           {
             "code" : "30818-9",
-            "display" : "RF trompes utérines ; guidage pour placement d'un cathéter transcervical"
+            "display" : "fluoroscopie trompes utérines ; guidage pour placement d'un cathéter transcervical"
           },
           {
             "code" : "30819-7",
@@ -4346,7 +4342,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "30840-3",
-            "display" : "angiographie par fluoroscopie vaisseaux lymphatiques abdominaux - bilatéral ; incidences avec contraste intralymphatique"
+            "display" : "angiographie par fluoroscopie vaisseaux lymphatiques abdominaux - bilatéraux ; incidences avec contraste intralymphatique"
           },
           {
             "code" : "30841-1",
@@ -4390,7 +4386,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "30851-0",
-            "display" : "angiographie par fluoroscopie vaisseaux lymphatiques d'un membre - bilatéraux ; incidences avec contraste intralymphatique"
+            "display" : "angiographie par fluoroscopie vaisseaux lymphatiques d'un membre - bilatéral ; incidences avec contraste intralymphatique"
           },
           {
             "code" : "30852-8",
@@ -4402,11 +4398,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "30854-4",
-            "display" : "RM rachis cervical et rachis dorsal et rachis lombaire sans contraste"
+            "display" : "résonance magnétique rachis cervical et rachis dorsal et rachis lombaire sans contraste"
           },
           {
             "code" : "30855-1",
-            "display" : "RM rachis cervical et rachis dorsal et rachis lombaire sans et avec contraste IV"
+            "display" : "résonance magnétique rachis cervical et rachis dorsal et rachis lombaire sans et avec contraste IV"
           },
           {
             "code" : "30856-9",
@@ -4414,7 +4410,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "30857-7",
-            "display" : "RM nerf crânien"
+            "display" : "résonance magnétique nerf crânien"
           },
           {
             "code" : "30858-5",
@@ -4426,7 +4422,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "30860-1",
-            "display" : "RM nasopharynx"
+            "display" : "résonance magnétique nasopharynx"
           },
           {
             "code" : "30861-9",
@@ -4446,7 +4442,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "30866-8",
-            "display" : "RM plexus lombosacré"
+            "display" : "résonance magnétique plexus lombosacré"
           },
           {
             "code" : "30867-6",
@@ -4458,11 +4454,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "30869-2",
-            "display" : "RM jambe sans contraste"
+            "display" : "résonance magnétique jambe sans contraste"
           },
           {
             "code" : "30870-0",
-            "display" : "RM jambe sans et avec contraste IV"
+            "display" : "résonance magnétique jambe sans et avec contraste IV"
           },
           {
             "code" : "30871-8",
@@ -4482,7 +4478,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "30875-9",
-            "display" : "RM membre supérieur.articulation"
+            "display" : "résonance magnétique articulation du membre supérieur"
           },
           {
             "code" : "30876-7",
@@ -4490,11 +4486,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "30877-5",
-            "display" : "MN rein+vaisseaux rénaux ; incidences avec radionucléide IV"
+            "display" : "MN rein et vaisseaux rénaux ; incidences avec radionucléide IV"
           },
           {
             "code" : "30878-3",
-            "display" : "échographie ; guidage pour aspiration percutanée d'un fluide"
+            "display" : "échographie ; guidage pour aspiration percutanée d'un fluide dans une région du corps non spécifiée"
           },
           {
             "code" : "30880-9",
@@ -4538,7 +4534,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "30892-4",
-            "display" : "RF voies biliaires et canaux pancréatiques ; guidage pour placement d'un cathéter avec contraste rétrograde"
+            "display" : "fluoroscopie voies biliaires et canaux pancréatiques ; guidage pour placement d'un cathéter avec contraste rétrograde"
           },
           {
             "code" : "35881-2",
@@ -4554,11 +4550,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "35884-6",
-            "display" : "CT abdomen ; guidage d'un drainage d'un abcès + placement d'un cathéter de drainage"
+            "display" : "CT abdomen ; guidage d'un drainage d'un abcès et placement d'un cathéter de drainage"
           },
           {
             "code" : "35885-3",
-            "display" : "RF ; guidage d'un drainage d'un abcès + placement d'un cathéter de drainage"
+            "display" : "fluoroscopie guidage d'un drainage d'un abcès et placement d'un cathéter de drainage"
           },
           {
             "code" : "35886-1",
@@ -4566,19 +4562,19 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "35887-9",
-            "display" : "CT ; guidage pour aspiration percutanée d'un kyste"
+            "display" : "CT ; guidage pour aspiration percutanée d'un kyste dans une région du corps non spécifiée"
           },
           {
             "code" : "35888-7",
-            "display" : "RF hanche ; guidage pour aspiration percutanée d'un fluide"
+            "display" : "fluoroscopie hanche ; guidage pour aspiration percutanée d'un fluide"
           },
           {
             "code" : "35889-5",
-            "display" : "RF thorax ; guidage pour bronchoscopie"
+            "display" : "fluoroscopie thorax ; guidage pour bronchoscopie"
           },
           {
             "code" : "35890-3",
-            "display" : "RF abdomen ; guidage pour biopsie percutanée"
+            "display" : "fluoroscopie abdomen ; guidage pour biopsie percutanée"
           },
           {
             "code" : "35891-1",
@@ -4594,7 +4590,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "35894-5",
-            "display" : "RF thorax ; guidage pour biopsie percutanée"
+            "display" : "fluoroscopie thorax ; guidage pour biopsie percutanée"
           },
           {
             "code" : "35895-2",
@@ -4614,11 +4610,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "35899-4",
-            "display" : "RF rein ; guidage pour biopsie percutanée"
+            "display" : "fluoroscopie rein ; guidage pour biopsie percutanée"
           },
           {
             "code" : "35900-0",
-            "display" : "RF foie ; guidage pour biopsie percutanée"
+            "display" : "fluoroscopie foie ; guidage pour biopsie percutanée"
           },
           {
             "code" : "35901-8",
@@ -4626,7 +4622,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "35902-6",
-            "display" : "RF pancréas ; guidage pour biopsie percutanée"
+            "display" : "fluoroscopie pancréas ; guidage pour biopsie percutanée"
           },
           {
             "code" : "35903-4",
@@ -4646,7 +4642,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "35907-5",
-            "display" : "RF rate ; guidage pour biopsie percutanée"
+            "display" : "fluoroscopie rate ; guidage pour biopsie percutanée"
           },
           {
             "code" : "35908-3",
@@ -4666,35 +4662,35 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "35912-5",
-            "display" : "RF ; guidage pour positionnement d'un cathéter"
+            "display" : "fluoroscopie guidage pour positionnement d'un cathéter"
           },
           {
             "code" : "35913-3",
-            "display" : "CT abdomen ; guidage pour drainage+placement d'un cathéter de drainage"
+            "display" : "CT abdomen ; guidage pour drainage et placement d'un cathéter de drainage"
           },
           {
             "code" : "35914-1",
-            "display" : "CT anus ; guidage pour drainage+placement d'un cathéter de drainage"
+            "display" : "CT anus ; guidage pour drainage et placement d'un cathéter de drainage"
           },
           {
             "code" : "35915-8",
-            "display" : "CT appendice ; guidage pour drainage+placement d'un cathéter de drainage"
+            "display" : "CT appendice ; guidage pour drainage et placement d'un cathéter de drainage"
           },
           {
             "code" : "35916-6",
-            "display" : "CT thorax ; guidage pour drainage+placement d'un cathéter de drainage"
+            "display" : "CT thorax ; guidage pour drainage et placement d'un cathéter de drainage"
           },
           {
             "code" : "35917-4",
-            "display" : "CT vésicule biliaire ; guidage pour drainage+placement d'un cathéter de drainage"
+            "display" : "CT vésicule biliaire ; guidage pour drainage et placement d'un cathéter de drainage"
           },
           {
             "code" : "35918-2",
-            "display" : "CT rein ; guidage pour drainage+placement d'un cathéter de drainage"
+            "display" : "CT rein ; guidage pour drainage et placement d'un cathéter de drainage"
           },
           {
             "code" : "35919-0",
-            "display" : "CT foie ; guidage pour drainage+placement d'un cathéter de drainage"
+            "display" : "CT foie ; guidage pour drainage et placement d'un cathéter de drainage"
           },
           {
             "code" : "35920-8",
@@ -4702,31 +4698,31 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "35921-6",
-            "display" : "CT pelvis ; guidage pour drainage+placement d'un cathéter de drainage"
+            "display" : "CT pelvis ; guidage pour drainage et placement d'un cathéter de drainage"
           },
           {
             "code" : "35922-4",
-            "display" : "CT ; guidage pour drainage+placement d'un cathéter de drainage"
+            "display" : "CT ; guidage pour drainage et placement d'un cathéter de drainage"
           },
           {
             "code" : "35923-2",
-            "display" : "CT thorax ; guidage pour drainage+placement d'un cathéter de drainage avec contraste IV"
+            "display" : "CT thorax ; guidage pour drainage et placement d'un cathéter de drainage avec contraste IV"
           },
           {
             "code" : "35924-0",
-            "display" : "CT thorax ; guidage pour drainage+placement d'un cathéter de drainage sans contraste"
+            "display" : "CT thorax ; guidage pour drainage et placement d'un cathéter de drainage sans contraste"
           },
           {
             "code" : "35925-7",
-            "display" : "RF estomac ; guidage pour endoscopie"
+            "display" : "fluoroscopie estomac ; guidage pour endoscopie"
           },
           {
             "code" : "35926-5",
-            "display" : "RF estomac ; guidage pour gastrostomie"
+            "display" : "fluoroscopie estomac ; guidage pour gastrostomie"
           },
           {
             "code" : "35927-3",
-            "display" : "RF articulation sacro-iliaque ; guidage pour injection"
+            "display" : "fluoroscopie articulation sacro-iliaque ; guidage pour injection"
           },
           {
             "code" : "35928-1",
@@ -4762,11 +4758,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "35936-4",
-            "display" : "RF rachis ; guidage pour vertébroplastie percutanée"
+            "display" : "fluoroscopie rachis ; guidage pour vertébroplastie percutanée"
           },
           {
             "code" : "35937-2",
-            "display" : "CT ; guidage pour placement des champs de radiothérapie"
+            "display" : "CT ; guidage pour placement des champs de radiothérapie dans une région du corps non spécifiée"
           },
           {
             "code" : "35938-0",
@@ -4806,7 +4802,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "35947-1",
-            "display" : "RM aorte abdominale et thoracique"
+            "display" : "résonance magnétique aorte abdominale et thoracique"
           },
           {
             "code" : "35948-9",
@@ -4814,11 +4810,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "35949-7",
-            "display" : "RM aorte abdominale"
+            "display" : "résonance magnétique aorte abdominale"
           },
           {
             "code" : "35950-5",
-            "display" : "RM aorte thoracique"
+            "display" : "résonance magnétique aorte thoracique"
           },
           {
             "code" : "35951-3",
@@ -4830,19 +4826,19 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "35953-9",
-            "display" : "RM face"
+            "display" : "résonance magnétique face"
           },
           {
             "code" : "35954-7",
-            "display" : "RM sein gauche"
+            "display" : "résonance magnétique sein gauche"
           },
           {
             "code" : "35955-4",
-            "display" : "RM sein droit"
+            "display" : "résonance magnétique sein droit"
           },
           {
             "code" : "35956-2",
-            "display" : "RM conduit auditif interne"
+            "display" : "résonance magnétique conduit auditif interne"
           },
           {
             "code" : "35957-0",
@@ -4862,7 +4858,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "35961-2",
-            "display" : "RM clavicule"
+            "display" : "résonance magnétique clavicule"
           },
           {
             "code" : "35962-0",
@@ -4914,11 +4910,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "35974-5",
-            "display" : "angioIRM vaisseaux du membre inférieur - bilatéraux"
+            "display" : "angioIRM vaisseaux du membre inférieur - bilatéral"
           },
           {
             "code" : "35975-2",
-            "display" : "RM membre inférieur - bilatéral"
+            "display" : "résonance magnétique membre inférieur - bilatéral"
           },
           {
             "code" : "35976-0",
@@ -4930,7 +4926,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "35978-6",
-            "display" : "RM membre inférieur - gauche"
+            "display" : "résonance magnétique membre inférieur - gauche"
           },
           {
             "code" : "35979-4",
@@ -4938,7 +4934,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "35980-2",
-            "display" : "RM membre inférieur - droit"
+            "display" : "résonance magnétique membre inférieur - droit"
           },
           {
             "code" : "35981-0",
@@ -4978,7 +4974,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "35990-1",
-            "display" : "RM concerne le foetus"
+            "display" : "résonance magnétique du foetus"
           },
           {
             "code" : "35991-9",
@@ -5050,7 +5046,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36008-1",
-            "display" : "RM poignet et main"
+            "display" : "résonance magnétique poignet et main"
           },
           {
             "code" : "36009-9",
@@ -5066,7 +5062,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36013-1",
-            "display" : "RM hanche"
+            "display" : "résonance magnétique hanche"
           },
           {
             "code" : "36014-9",
@@ -5082,7 +5078,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36017-2",
-            "display" : "RM hanche - bilatérale"
+            "display" : "résonance magnétique hanche - bilatérale"
           },
           {
             "code" : "36018-0",
@@ -5094,7 +5090,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36020-6",
-            "display" : "RM hanche - gauche"
+            "display" : "résonance magnétique hanche - gauche"
           },
           {
             "code" : "36021-4",
@@ -5102,7 +5098,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36022-2",
-            "display" : "RM hanche - droite"
+            "display" : "résonance magnétique hanche - droite"
           },
           {
             "code" : "36023-0",
@@ -5114,7 +5110,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36025-5",
-            "display" : "RM bras"
+            "display" : "résonance magnétique bras"
           },
           {
             "code" : "36026-3",
@@ -5126,7 +5122,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36028-9",
-            "display" : "RM bras - gauche"
+            "display" : "résonance magnétique bras - gauche"
           },
           {
             "code" : "36029-7",
@@ -5134,11 +5130,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36030-5",
-            "display" : "RM bras - droit"
+            "display" : "résonance magnétique bras - droit"
           },
           {
             "code" : "36031-3",
-            "display" : "RM articulation sacro-iliaque"
+            "display" : "résonance magnétique articulation sacro-iliaque"
           },
           {
             "code" : "36032-1",
@@ -5146,19 +5142,19 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36033-9",
-            "display" : "RM rein"
+            "display" : "résonance magnétique rein"
           },
           {
             "code" : "36034-7",
-            "display" : "RM rein - bilatéral"
+            "display" : "résonance magnétique rein - bilatéral"
           },
           {
             "code" : "36035-4",
-            "display" : "RM rein - gauche"
+            "display" : "résonance magnétique rein - gauche"
           },
           {
             "code" : "36036-2",
-            "display" : "RM rein - droit"
+            "display" : "résonance magnétique rein - droit"
           },
           {
             "code" : "36037-0",
@@ -5194,11 +5190,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36045-3",
-            "display" : "RM larynx"
+            "display" : "résonance magnétique larynx"
           },
           {
             "code" : "36046-1",
-            "display" : "RM foie"
+            "display" : "résonance magnétique foie"
           },
           {
             "code" : "36047-9",
@@ -5222,11 +5218,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36052-9",
-            "display" : "RM pancréas"
+            "display" : "résonance magnétique pancréas"
           },
           {
             "code" : "36053-7",
-            "display" : "RM glande parathyroïde"
+            "display" : "résonance magnétique glande parathyroïde"
           },
           {
             "code" : "36054-5",
@@ -5238,7 +5234,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36056-0",
-            "display" : "RM fosse postérieure"
+            "display" : "résonance magnétique fosse postérieure"
           },
           {
             "code" : "36057-8",
@@ -5250,15 +5246,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36059-4",
-            "display" : "RM sacrum"
+            "display" : "résonance magnétique sacrum"
           },
           {
             "code" : "36060-2",
-            "display" : "RM sacrum et coccyx"
+            "display" : "résonance magnétique sacrum et coccyx"
           },
           {
             "code" : "36061-0",
-            "display" : "RM scapula"
+            "display" : "résonance magnétique scapula"
           },
           {
             "code" : "36062-8",
@@ -5282,7 +5278,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36067-7",
-            "display" : "RM rachis"
+            "display" : "résonance magnétique rachis"
           },
           {
             "code" : "36068-5",
@@ -5294,7 +5290,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36070-1",
-            "display" : "RM rate"
+            "display" : "résonance magnétique rate"
           },
           {
             "code" : "36071-9",
@@ -5302,11 +5298,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36072-7",
-            "display" : "RM sternum"
+            "display" : "résonance magnétique sternum"
           },
           {
             "code" : "36073-5",
-            "display" : "RM scrotum et testicule"
+            "display" : "résonance magnétique scrotum et testicule"
           },
           {
             "code" : "36074-3",
@@ -5314,11 +5310,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36075-0",
-            "display" : "RM jambe - gauche"
+            "display" : "résonance magnétique jambe - gauche"
           },
           {
             "code" : "36076-8",
-            "display" : "RM jambe droite"
+            "display" : "résonance magnétique jambe droite"
           },
           {
             "code" : "36077-6",
@@ -5346,7 +5342,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36083-4",
-            "display" : "RM veine cave inférieure"
+            "display" : "résonance magnétique veine cave inférieure"
           },
           {
             "code" : "36084-2",
@@ -5366,7 +5362,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36088-3",
-            "display" : "RM conduit auditif interne limitée"
+            "display" : "résonance magnétique conduit auditif interne limitée"
           },
           {
             "code" : "36089-1",
@@ -5378,7 +5374,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36091-7",
-            "display" : "RM coeur limitée"
+            "display" : "résonance magnétique coeur limitée"
           },
           {
             "code" : "36092-5",
@@ -5386,11 +5382,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36093-3",
-            "display" : "RM articulation du membre inférieur limitée"
+            "display" : "résonance magnétique articulation du membre inférieur limitée"
           },
           {
             "code" : "36094-1",
-            "display" : "RM membre supérieur.articulation limitée"
+            "display" : "résonance magnétique membre supérieur articulation limitée"
           },
           {
             "code" : "36095-8",
@@ -5398,7 +5394,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36096-6",
-            "display" : "RM cerveau limitée avec contraste IV"
+            "display" : "résonance magnétique cerveau limitée avec contraste IV"
           },
           {
             "code" : "36097-4",
@@ -5414,15 +5410,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36100-6",
-            "display" : "RM rachis lombaire limitée avec contraste IV"
+            "display" : "résonance magnétique rachis lombaire limitée avec contraste IV"
           },
           {
             "code" : "36101-4",
-            "display" : "RM rachis dorsal limitée avec contraste IV"
+            "display" : "résonance magnétique rachis dorsal limitée avec contraste IV"
           },
           {
             "code" : "36102-2",
-            "display" : "CT abdomen limitée sans & avec contraste IV"
+            "display" : "CT abdomen limitée sans et avec contraste IV"
           },
           {
             "code" : "36103-0",
@@ -5434,7 +5430,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36105-5",
-            "display" : "RM cerveau limitée sans contraste"
+            "display" : "résonance magnétique cerveau limitée sans contraste"
           },
           {
             "code" : "36106-3",
@@ -5442,7 +5438,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36107-1",
-            "display" : "RM articulation du membre inférieur - gauche limitée sans contraste"
+            "display" : "résonance magnétique articulation du membre inférieur - gauche limitée sans contraste"
           },
           {
             "code" : "36108-9",
@@ -5458,51 +5454,51 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36111-3",
-            "display" : "RM rachis lombaire limitée sans contraste"
+            "display" : "résonance magnétique rachis lombaire limitée sans contraste"
           },
           {
             "code" : "36112-1",
-            "display" : "RM rachis dorsal limitée sans contraste"
+            "display" : "résonance magnétique rachis dorsal limitée sans contraste"
           },
           {
             "code" : "36113-9",
-            "display" : "RM rein avec contraste IV"
+            "display" : "résonance magnétique rein avec contraste IV"
           },
           {
             "code" : "36114-7",
-            "display" : "RM sein bilatéral dynamique avec contraste IV"
+            "display" : "résonance magnétique sein bilatéral dynamique avec contraste IV"
           },
           {
             "code" : "36115-4",
-            "display" : "RM cheville avec contraste intraarticulaire"
+            "display" : "résonance magnétique cheville avec contraste intraarticulaire"
           },
           {
             "code" : "36116-2",
-            "display" : "RM cheville gauche avec contraste intraarticulaire"
+            "display" : "résonance magnétique cheville gauche avec contraste intraarticulaire"
           },
           {
             "code" : "36117-0",
-            "display" : "RM cheville droite avec contraste intraarticulaire"
+            "display" : "résonance magnétique cheville droite avec contraste intraarticulaire"
           },
           {
             "code" : "36118-8",
-            "display" : "RM coude - gauche avec contraste intraarticulaire"
+            "display" : "résonance magnétique coude - gauche avec contraste intraarticulaire"
           },
           {
             "code" : "36119-6",
-            "display" : "RM coude - droit avec contraste intraarticulaire"
+            "display" : "résonance magnétique coude - droit avec contraste intraarticulaire"
           },
           {
             "code" : "36120-4",
-            "display" : "RM hanche avec contraste intraarticulaire"
+            "display" : "résonance magnétique hanche avec contraste intraarticulaire"
           },
           {
             "code" : "36121-2",
-            "display" : "RM hanche - gauche avec contraste intraarticulaire"
+            "display" : "résonance magnétique hanche - gauche avec contraste intraarticulaire"
           },
           {
             "code" : "36122-0",
-            "display" : "RM hanche - droite avec contraste intraarticulaire"
+            "display" : "résonance magnétique hanche - droite avec contraste intraarticulaire"
           },
           {
             "code" : "36123-8",
@@ -5514,15 +5510,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36125-3",
-            "display" : "RM genou avec contraste intraarticulaire"
+            "display" : "résonance magnétique genou avec contraste intraarticulaire"
           },
           {
             "code" : "36126-1",
-            "display" : "RM genou - gauche avec contraste intraarticulaire"
+            "display" : "résonance magnétique genou - gauche avec contraste intraarticulaire"
           },
           {
             "code" : "36127-9",
-            "display" : "RM genou - droit avec contraste intraarticulaire"
+            "display" : "résonance magnétique genou - droit avec contraste intraarticulaire"
           },
           {
             "code" : "36128-7",
@@ -5530,11 +5526,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36129-5",
-            "display" : "RM épaule avec contraste intraarticulaire"
+            "display" : "résonance magnétique épaule avec contraste intraarticulaire"
           },
           {
             "code" : "36130-3",
-            "display" : "RM épaule - gauche avec contraste intraarticulaire"
+            "display" : "résonance magnétique épaule - gauche avec contraste intraarticulaire"
           },
           {
             "code" : "36131-1",
@@ -5542,11 +5538,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36132-9",
-            "display" : "RM épaule - droite avec contraste intraarticulaire"
+            "display" : "résonance magnétique épaule - droite avec contraste intraarticulaire"
           },
           {
             "code" : "36134-5",
-            "display" : "RM abdomen avec contraste IV"
+            "display" : "résonance magnétique abdomen avec contraste IV"
           },
           {
             "code" : "36135-2",
@@ -5554,7 +5550,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36136-0",
-            "display" : "RM cheville avec contraste IV"
+            "display" : "résonance magnétique cheville avec contraste IV"
           },
           {
             "code" : "36137-8",
@@ -5562,7 +5558,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36138-6",
-            "display" : "RM cheville gauche avec contraste IV"
+            "display" : "résonance magnétique cheville gauche avec contraste IV"
           },
           {
             "code" : "36139-4",
@@ -5570,11 +5566,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36140-2",
-            "display" : "RM cheville droite avec contraste IV"
+            "display" : "résonance magnétique cheville droite avec contraste IV"
           },
           {
             "code" : "36141-0",
-            "display" : "CTA aorte abdominale et thoracique avec contraste IV"
+            "display" : "angiographie par tomodensitométrie aorte abdominale et thoracique avec contraste IV"
           },
           {
             "code" : "36142-8",
@@ -5586,7 +5582,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36144-4",
-            "display" : "CTA arc aortique avec contraste IV"
+            "display" : "angiographie par tomodensitométrie arc aortique avec contraste IV"
           },
           {
             "code" : "36145-1",
@@ -5594,39 +5590,39 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36146-9",
-            "display" : "CTA artère carotidienne avec contraste IV"
+            "display" : "angiographie par tomodensitométrie artère carotidienne avec contraste IV"
           },
           {
             "code" : "36147-7",
-            "display" : "CTA artères pulmonaires avec contraste IV"
+            "display" : "angiographie par tomodensitométrie artères pulmonaires avec contraste IV"
           },
           {
             "code" : "36148-5",
-            "display" : "RM face avec contraste IV"
+            "display" : "résonance magnétique face avec contraste IV"
           },
           {
             "code" : "36149-3",
-            "display" : "RM sein avec contraste IV"
+            "display" : "résonance magnétique sein avec contraste IV"
           },
           {
             "code" : "36150-1",
-            "display" : "RM sein bilatéral avec contraste IV"
+            "display" : "résonance magnétique sein bilatéral avec contraste IV"
           },
           {
             "code" : "36151-9",
-            "display" : "RM sein gauche avec contraste IV"
+            "display" : "résonance magnétique sein gauche avec contraste IV"
           },
           {
             "code" : "36152-7",
-            "display" : "RM sein droit avec contraste IV"
+            "display" : "résonance magnétique sein droit avec contraste IV"
           },
           {
             "code" : "36155-0",
-            "display" : "RM conduit auditif interne avec contraste IV"
+            "display" : "résonance magnétique conduit auditif interne avec contraste IV"
           },
           {
             "code" : "36156-8",
-            "display" : "RM thorax avec contraste IV"
+            "display" : "résonance magnétique thorax avec contraste IV"
           },
           {
             "code" : "36157-6",
@@ -5634,7 +5630,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36158-4",
-            "display" : "RM coude avec contraste IV"
+            "display" : "résonance magnétique coude avec contraste IV"
           },
           {
             "code" : "36159-2",
@@ -5642,7 +5638,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36160-0",
-            "display" : "RM coude - gauche avec contraste IV"
+            "display" : "résonance magnétique coude - gauche avec contraste IV"
           },
           {
             "code" : "36161-8",
@@ -5650,11 +5646,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36162-6",
-            "display" : "RM coude - droit avec contraste IV"
+            "display" : "résonance magnétique coude - droit avec contraste IV"
           },
           {
             "code" : "36163-4",
-            "display" : "RM membre inférieur - bilatéral avec contraste IV"
+            "display" : "résonance magnétique membre inférieur - bilatéral avec contraste IV"
           },
           {
             "code" : "36164-2",
@@ -5662,7 +5658,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36165-9",
-            "display" : "RM membre inférieur - gauche avec contraste IV"
+            "display" : "résonance magnétique membre inférieur - gauche avec contraste IV"
           },
           {
             "code" : "36166-7",
@@ -5670,7 +5666,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36167-5",
-            "display" : "RM membre inférieur - droit avec contraste IV"
+            "display" : "résonance magnétique membre inférieur - droit avec contraste IV"
           },
           {
             "code" : "36168-3",
@@ -5686,7 +5682,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36171-7",
-            "display" : "RM membre supérieur - droit avec contraste IV"
+            "display" : "résonance magnétique membre supérieur - droit avec contraste IV"
           },
           {
             "code" : "36172-5",
@@ -5694,7 +5690,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36173-3",
-            "display" : "RM cuisse avec contraste IV"
+            "display" : "résonance magnétique cuisse avec contraste IV"
           },
           {
             "code" : "36174-1",
@@ -5702,7 +5698,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36175-8",
-            "display" : "RM cuisse - gauche avec contraste IV"
+            "display" : "résonance magnétique cuisse - gauche avec contraste IV"
           },
           {
             "code" : "36176-6",
@@ -5710,7 +5706,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36177-4",
-            "display" : "RM cuisse - droite avec contraste IV"
+            "display" : "résonance magnétique cuisse - droite avec contraste IV"
           },
           {
             "code" : "36178-2",
@@ -5718,11 +5714,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36179-0",
-            "display" : "RM pied avec contraste IV"
+            "display" : "résonance magnétique pied avec contraste IV"
           },
           {
             "code" : "36180-8",
-            "display" : "RM pied - bilatéral avec contraste IV"
+            "display" : "résonance magnétique pied - bilatéral avec contraste IV"
           },
           {
             "code" : "36181-6",
@@ -5730,7 +5726,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36182-4",
-            "display" : "RM pied - gauche avec contraste IV"
+            "display" : "résonance magnétique pied - gauche avec contraste IV"
           },
           {
             "code" : "36183-2",
@@ -5738,7 +5734,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36184-0",
-            "display" : "RM pied - droit avec contraste IV"
+            "display" : "résonance magnétique pied - droit avec contraste IV"
           },
           {
             "code" : "36185-7",
@@ -5746,7 +5742,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36186-5",
-            "display" : "RM avantbras avec contraste IV"
+            "display" : "résonance magnétique avantbras avec contraste IV"
           },
           {
             "code" : "36187-3",
@@ -5754,7 +5750,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36188-1",
-            "display" : "RM avantbras - gauche avec contraste IV"
+            "display" : "résonance magnétique avantbras - gauche avec contraste IV"
           },
           {
             "code" : "36189-9",
@@ -5762,7 +5758,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36190-7",
-            "display" : "RM avantbras - droit avec contraste IV"
+            "display" : "résonance magnétique avantbras - droit avec contraste IV"
           },
           {
             "code" : "36191-5",
@@ -5770,7 +5766,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36192-3",
-            "display" : "RM main avec contraste IV"
+            "display" : "résonance magnétique main - avec contraste IV"
           },
           {
             "code" : "36193-1",
@@ -5778,7 +5774,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36194-9",
-            "display" : "RM main - gauche avec contraste IV"
+            "display" : "résonance magnétique main - gauche avec contraste IV"
           },
           {
             "code" : "36195-6",
@@ -5786,15 +5782,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36196-4",
-            "display" : "RM main - droite avec contraste IV"
+            "display" : "résonance magnétique main - droite avec contraste IV"
           },
           {
             "code" : "36197-2",
-            "display" : "RM coeur avec contraste IV"
+            "display" : "résonance magnétique coeur avec contraste IV"
           },
           {
             "code" : "36199-8",
-            "display" : "RM hanche avec contraste IV"
+            "display" : "résonance magnétique hanche avec contraste IV"
           },
           {
             "code" : "36200-4",
@@ -5806,7 +5802,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36202-0",
-            "display" : "RM hanche - bilatérale avec contraste IV"
+            "display" : "résonance magnétique hanche - bilatérale avec contraste IV"
           },
           {
             "code" : "36203-8",
@@ -5814,7 +5810,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36204-6",
-            "display" : "RM hanche - gauche avec contraste IV"
+            "display" : "résonance magnétique hanche - gauche avec contraste IV"
           },
           {
             "code" : "36205-3",
@@ -5822,7 +5818,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36206-1",
-            "display" : "RM hanche - droite avec contraste IV"
+            "display" : "résonance magnétique hanche - droite avec contraste IV"
           },
           {
             "code" : "36207-9",
@@ -5830,7 +5826,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36208-7",
-            "display" : "RM bras avec contraste IV"
+            "display" : "résonance magnétique bras avec contraste IV"
           },
           {
             "code" : "36209-5",
@@ -5838,7 +5834,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36210-3",
-            "display" : "RM bras - gauche avec contraste IV"
+            "display" : "résonance magnétique bras - gauche avec contraste IV"
           },
           {
             "code" : "36211-1",
@@ -5846,23 +5842,23 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36212-9",
-            "display" : "RM bras - droit avec contraste IV"
+            "display" : "résonance magnétique bras - droit avec contraste IV"
           },
           {
             "code" : "36213-7",
-            "display" : "RM articulation du membre inférieur avec contraste IV"
+            "display" : "résonance magnétique articulation du membre inférieur avec contraste IV"
           },
           {
             "code" : "36214-5",
-            "display" : "RM articulation du membre inférieur - gauche avec contraste IV"
+            "display" : "résonance magnétique articulation du membre inférieur - gauche avec contraste IV"
           },
           {
             "code" : "36215-2",
-            "display" : "RM articulation du membre inférieur - droit avec contraste IV"
+            "display" : "résonance magnétique articulation du membre inférieur - droit avec contraste IV"
           },
           {
             "code" : "36216-0",
-            "display" : "RM membre supérieur.articulation avec contraste IV"
+            "display" : "résonance magnétique articulation du membre supérieur avec contraste IV"
           },
           {
             "code" : "36217-8",
@@ -5870,19 +5866,19 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36218-6",
-            "display" : "RM articulation sacro-iliaque avec contraste IV"
+            "display" : "résonance magnétique articulation sacro-iliaque avec contraste IV"
           },
           {
             "code" : "36219-4",
-            "display" : "RM rein - bilatéral avec contraste IV"
+            "display" : "résonance magnétique rein - bilatéral avec contraste IV"
           },
           {
             "code" : "36220-2",
-            "display" : "RM rein - gauche avec contraste IV"
+            "display" : "résonance magnétique rein - gauche avec contraste IV"
           },
           {
             "code" : "36221-0",
-            "display" : "RM rein - droit avec contraste IV"
+            "display" : "résonance magnétique rein - droit avec contraste IV"
           },
           {
             "code" : "36222-8",
@@ -5890,11 +5886,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36223-6",
-            "display" : "RM genou avec contraste IV"
+            "display" : "résonance magnétique genou avec contraste IV"
           },
           {
             "code" : "36224-4",
-            "display" : "RM genou - bilatéral avec contraste IV"
+            "display" : "résonance magnétique genou - bilatéral avec contraste IV"
           },
           {
             "code" : "36225-1",
@@ -5902,7 +5898,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36226-9",
-            "display" : "RM genou - gauche avec contraste IV"
+            "display" : "résonance magnétique genou - gauche avec contraste IV"
           },
           {
             "code" : "36227-7",
@@ -5910,7 +5906,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36228-5",
-            "display" : "RM genou - droit avec contraste IV"
+            "display" : "résonance magnétique genou - droit avec contraste IV"
           },
           {
             "code" : "36229-3",
@@ -5918,11 +5914,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36230-1",
-            "display" : "RM larynx avec contraste IV"
+            "display" : "résonance magnétique larynx avec contraste IV"
           },
           {
             "code" : "36231-9",
-            "display" : "RM foie avec contraste IV"
+            "display" : "résonance magnétique foie avec contraste IV"
           },
           {
             "code" : "36232-7",
@@ -5930,11 +5926,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36233-5",
-            "display" : "RM nasopharynx avec contraste IV"
+            "display" : "résonance magnétique nasopharynx avec contraste IV"
           },
           {
             "code" : "36234-3",
-            "display" : "CTA vaisseaux du cou avec contraste IV"
+            "display" : "angiographie par tomodensitométrie vaisseaux du cou avec contraste IV"
           },
           {
             "code" : "36235-0",
@@ -5942,27 +5938,27 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36236-8",
-            "display" : "RM pancréas avec contraste IV"
+            "display" : "résonance magnétique pancréas avec contraste IV"
           },
           {
             "code" : "36237-6",
-            "display" : "RM pelvis avec contraste IV"
+            "display" : "résonance magnétique pelvis avec contraste IV"
           },
           {
             "code" : "36238-4",
-            "display" : "RM hypophyse et selle turcique avec contraste IV"
+            "display" : "résonance magnétique hypophyse et selle turcique avec contraste IV"
           },
           {
             "code" : "36239-2",
-            "display" : "RM plexus brachial avec contraste IV"
+            "display" : "résonance magnétique plexus brachial avec contraste IV"
           },
           {
             "code" : "36240-0",
-            "display" : "RM plexus brachial - gauche avec contraste IV"
+            "display" : "résonance magnétique plexus brachial - gauche avec contraste IV"
           },
           {
             "code" : "36241-8",
-            "display" : "RM plexus brachial - droit avec contraste IV"
+            "display" : "résonance magnétique plexus brachial - droit avec contraste IV"
           },
           {
             "code" : "36242-6",
@@ -5970,11 +5966,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36243-4",
-            "display" : "RM fosse postérieure avec contraste IV"
+            "display" : "résonance magnétique fosse postérieure avec contraste IV"
           },
           {
             "code" : "36244-2",
-            "display" : "RM prostate avec contraste IV"
+            "display" : "résonance magnétique prostate avec contraste IV"
           },
           {
             "code" : "36245-9",
@@ -5982,19 +5978,19 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36246-7",
-            "display" : "RM sacrum avec contraste IV"
+            "display" : "résonance magnétique sacrum avec contraste IV"
           },
           {
             "code" : "36247-5",
-            "display" : "RM sacrum et coccyx avec contraste IV"
+            "display" : "résonance magnétique sacrum et coccyx avec contraste IV"
           },
           {
             "code" : "36248-3",
-            "display" : "RM scapula - gauche avec contraste IV"
+            "display" : "résonance magnétique scapula - gauche avec contraste IV"
           },
           {
             "code" : "36249-1",
-            "display" : "RM scapula - droite avec contraste IV"
+            "display" : "résonance magnétique scapula - droite avec contraste IV"
           },
           {
             "code" : "36250-9",
@@ -6002,7 +5998,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36251-7",
-            "display" : "RM épaule avec contraste IV"
+            "display" : "résonance magnétique épaule avec contraste IV"
           },
           {
             "code" : "36252-5",
@@ -6014,7 +6010,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36254-1",
-            "display" : "RM épaule - droite avec contraste IV"
+            "display" : "résonance magnétique épaule - droite avec contraste IV"
           },
           {
             "code" : "36255-8",
@@ -6022,7 +6018,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36256-6",
-            "display" : "RM rachis avec contraste IV"
+            "display" : "résonance magnétique rachis avec contraste IV"
           },
           {
             "code" : "36257-4",
@@ -6034,7 +6030,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36259-0",
-            "display" : "RM jambe avec contraste IV"
+            "display" : "résonance magnétique jambe avec contraste IV"
           },
           {
             "code" : "36260-8",
@@ -6042,7 +6038,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36261-6",
-            "display" : "RM jambe - gauche avec contraste IV"
+            "display" : "résonance magnétique jambe - gauche avec contraste IV"
           },
           {
             "code" : "36262-4",
@@ -6050,7 +6046,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36263-2",
-            "display" : "RM jambe droite avec contraste IV"
+            "display" : "résonance magnétique jambe droite avec contraste IV"
           },
           {
             "code" : "36264-0",
@@ -6058,11 +6054,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36265-7",
-            "display" : "RM utérus avec contraste IV"
+            "display" : "résonance magnétique utérus avec contraste IV"
           },
           {
             "code" : "36266-5",
-            "display" : "CTA vaisseaux thoraciques avec contraste IV"
+            "display" : "angiographie par tomodensitométrie vaisseaux thoraciques avec contraste IV"
           },
           {
             "code" : "36267-3",
@@ -6090,7 +6086,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36273-1",
-            "display" : "RM aorte abdominale sans et avec contraste IV"
+            "display" : "résonance magnétique aorte abdominale sans et avec contraste IV"
           },
           {
             "code" : "36274-9",
@@ -6102,19 +6098,19 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36276-4",
-            "display" : "RM sein sans et avec contraste IV"
+            "display" : "résonance magnétique sein sans et avec contraste IV"
           },
           {
             "code" : "36277-2",
-            "display" : "RM sein bilatéral sans et avec contraste IV"
+            "display" : "résonance magnétique sein bilatéral sans et avec contraste IV"
           },
           {
             "code" : "36278-0",
-            "display" : "RM sein gauche sans et avec contraste IV"
+            "display" : "résonance magnétique sein gauche sans et avec contraste IV"
           },
           {
             "code" : "36279-8",
-            "display" : "RM sein droit sans et avec contraste IV"
+            "display" : "résonance magnétique sein droit sans et avec contraste IV"
           },
           {
             "code" : "36282-2",
@@ -6122,11 +6118,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36283-0",
-            "display" : "RM thorax sans et avec contraste IV"
+            "display" : "résonance magnétique thorax sans et avec contraste IV"
           },
           {
             "code" : "36284-8",
-            "display" : "RM thorax et abdomen sans et avec contraste IV"
+            "display" : "résonance magnétique thorax et abdomen sans et avec contraste IV"
           },
           {
             "code" : "36285-5",
@@ -6146,7 +6142,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36289-7",
-            "display" : "RM membre inférieur - bilatéral sans et avec contraste IV"
+            "display" : "résonance magnétique membre inférieur - bilatéral sans et avec contraste IV"
           },
           {
             "code" : "36290-5",
@@ -6154,7 +6150,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36291-3",
-            "display" : "RM membre inférieur - gauche sans et avec contraste IV"
+            "display" : "résonance magnétique membre inférieur - gauche sans et avec contraste IV"
           },
           {
             "code" : "36292-1",
@@ -6266,7 +6262,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36319-2",
-            "display" : "MG sein ; 4 incidences"
+            "display" : "mammographie sein ; 4 incidences"
           },
           {
             "code" : "36320-0",
@@ -6274,7 +6270,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36321-8",
-            "display" : "RX && RF thorax ; 4 incidences et incidences"
+            "display" : "RX et fluoroscopie thorax ; 4 incidences et incidences"
           },
           {
             "code" : "36322-6",
@@ -6322,7 +6318,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36333-3",
-            "display" : "RM membre inférieur - droit sans et avec contraste IV"
+            "display" : "résonance magnétique membre inférieur - droit sans et avec contraste IV"
           },
           {
             "code" : "36334-1",
@@ -6338,7 +6334,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36337-4",
-            "display" : "RM membre supérieur - droit sans et avec contraste IV"
+            "display" : "résonance magnétique membre supérieur - droit sans et avec contraste IV"
           },
           {
             "code" : "36338-2",
@@ -6358,7 +6354,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36342-4",
-            "display" : "RM pied - bilatéral sans et avec contraste IV"
+            "display" : "résonance magnétique pied - bilatéral sans et avec contraste IV"
           },
           {
             "code" : "36343-2",
@@ -6366,7 +6362,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36344-0",
-            "display" : "RM pied - gauche sans et avec contraste IV"
+            "display" : "résonance magnétique pied - gauche sans et avec contraste IV"
           },
           {
             "code" : "36345-7",
@@ -6374,7 +6370,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36346-5",
-            "display" : "RM pied - droit sans et avec contraste IV"
+            "display" : "résonance magnétique pied - droit sans et avec contraste IV"
           },
           {
             "code" : "36347-3",
@@ -6386,7 +6382,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36349-9",
-            "display" : "RM avantbras - gauche sans et avec contraste IV"
+            "display" : "résonance magnétique avantbras - gauche sans et avec contraste IV"
           },
           {
             "code" : "36350-7",
@@ -6394,7 +6390,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36351-5",
-            "display" : "RM avantbras - droit sans et avec contraste IV"
+            "display" : "résonance magnétique avantbras - droit sans et avec contraste IV"
           },
           {
             "code" : "36352-3",
@@ -6406,7 +6402,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36354-9",
-            "display" : "RM main - gauche sans et avec contraste IV"
+            "display" : "résonance magnétique main - gauche sans et avec contraste IV"
           },
           {
             "code" : "36355-6",
@@ -6414,11 +6410,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36356-4",
-            "display" : "RM main - droite sans et avec contraste IV"
+            "display" : "résonance magnétique main - droite sans et avec contraste IV"
           },
           {
             "code" : "36357-2",
-            "display" : "RM coeur sans et avec contraste IV"
+            "display" : "résonance magnétique coeur sans et avec contraste IV"
           },
           {
             "code" : "36359-8",
@@ -6430,7 +6426,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36361-4",
-            "display" : "RM hanche - bilatérale sans et avec contraste IV"
+            "display" : "résonance magnétique hanche - bilatérale sans et avec contraste IV"
           },
           {
             "code" : "36362-2",
@@ -6438,7 +6434,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36363-0",
-            "display" : "RM hanche - gauche sans et avec contraste IV"
+            "display" : "résonance magnétique hanche - gauche sans et avec contraste IV"
           },
           {
             "code" : "36364-8",
@@ -6446,7 +6442,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36365-5",
-            "display" : "RM hanche - droite sans et avec contraste IV"
+            "display" : "résonance magnétique hanche - droite sans et avec contraste IV"
           },
           {
             "code" : "36366-3",
@@ -6458,7 +6454,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36368-9",
-            "display" : "RM bras - gauche sans et avec contraste IV"
+            "display" : "résonance magnétique bras - gauche sans et avec contraste IV"
           },
           {
             "code" : "36369-7",
@@ -6466,23 +6462,23 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36370-5",
-            "display" : "RM bras - droit sans et avec contraste IV"
+            "display" : "résonance magnétique bras - droit sans et avec contraste IV"
           },
           {
             "code" : "36371-3",
-            "display" : "RM articulation du membre inférieur sans et avec contraste IV"
+            "display" : "résonance magnétique articulation du membre inférieur sans et avec contraste IV"
           },
           {
             "code" : "36372-1",
-            "display" : "RM articulation du membre inférieur - gauche sans et avec contraste IV"
+            "display" : "résonance magnétique articulation du membre inférieur - gauche sans et avec contraste IV"
           },
           {
             "code" : "36373-9",
-            "display" : "RM articulation du membre inférieur - droit sans et avec contraste IV"
+            "display" : "résonance magnétique articulation du membre inférieur - droit sans et avec contraste IV"
           },
           {
             "code" : "36374-7",
-            "display" : "RM membre supérieur.articulation sans et avec contraste IV"
+            "display" : "résonance magnétique membre supérieur.articulation sans et avec contraste IV"
           },
           {
             "code" : "36375-4",
@@ -6490,7 +6486,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36376-2",
-            "display" : "RM articulation sacro-iliaque sans et avec contraste IV"
+            "display" : "résonance magnétique articulation sacro-iliaque sans et avec contraste IV"
           },
           {
             "code" : "36377-0",
@@ -6498,7 +6494,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36378-8",
-            "display" : "RM rein - bilatéral sans et avec contraste IV"
+            "display" : "résonance magnétique rein - bilatéral sans et avec contraste IV"
           },
           {
             "code" : "36379-6",
@@ -6514,7 +6510,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36382-0",
-            "display" : "RM larynx sans et avec contraste IV"
+            "display" : "résonance magnétique larynx sans et avec contraste IV"
           },
           {
             "code" : "36383-8",
@@ -6522,11 +6518,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36384-6",
-            "display" : "RM nasopharynx sans et avec contraste IV"
+            "display" : "résonance magnétique nasopharynx sans et avec contraste IV"
           },
           {
             "code" : "36385-3",
-            "display" : "RM pancréas sans et avec contraste IV"
+            "display" : "résonance magnétique pancréas sans et avec contraste IV"
           },
           {
             "code" : "36387-9",
@@ -6534,11 +6530,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36388-7",
-            "display" : "RM fosse postérieure sans et avec contraste IV"
+            "display" : "résonance magnétique fosse postérieure sans et avec contraste IV"
           },
           {
             "code" : "36389-5",
-            "display" : "RM prostate sans et avec contraste IV"
+            "display" : "résonance magnétique prostate sans et avec contraste IV"
           },
           {
             "code" : "36390-3",
@@ -6546,19 +6542,19 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36391-1",
-            "display" : "RM sacrum sans et avec contraste IV"
+            "display" : "résonance magnétique sacrum sans et avec contraste IV"
           },
           {
             "code" : "36392-9",
-            "display" : "RM sacrum et coccyx sans et avec contraste IV"
+            "display" : "résonance magnétique sacrum et coccyx sans et avec contraste IV"
           },
           {
             "code" : "36393-7",
-            "display" : "RM scapula - gauche sans et avec contraste IV"
+            "display" : "résonance magnétique scapula - gauche sans et avec contraste IV"
           },
           {
             "code" : "36394-5",
-            "display" : "RM scapula - droite sans et avec contraste IV"
+            "display" : "résonance magnétique scapula - droite sans et avec contraste IV"
           },
           {
             "code" : "36395-2",
@@ -6582,7 +6578,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36400-0",
-            "display" : "RM rachis sans et avec contraste IV"
+            "display" : "résonance magnétique rachis sans et avec contraste IV"
           },
           {
             "code" : "36401-8",
@@ -6598,7 +6594,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36404-2",
-            "display" : "RM rate sans et avec contraste IV"
+            "display" : "résonance magnétique rate sans et avec contraste IV"
           },
           {
             "code" : "36405-9",
@@ -6606,11 +6602,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36406-7",
-            "display" : "RM scrotum et testicule sans et avec contraste IV"
+            "display" : "résonance magnétique scrotum et testicule sans et avec contraste IV"
           },
           {
             "code" : "36407-5",
-            "display" : "RM glande thyroïde sans et avec contraste IV"
+            "display" : "résonance magnétique glande thyroïde sans et avec contraste IV"
           },
           {
             "code" : "36408-3",
@@ -6622,7 +6618,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36410-9",
-            "display" : "RM jambe - gauche sans et avec contraste IV"
+            "display" : "résonance magnétique jambe - gauche sans et avec contraste IV"
           },
           {
             "code" : "36411-7",
@@ -6630,11 +6626,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36412-5",
-            "display" : "RM jambe droite sans et avec contraste IV"
+            "display" : "résonance magnétique jambe droite sans et avec contraste IV"
           },
           {
             "code" : "36413-3",
-            "display" : "RM utérus sans et avec contraste IV"
+            "display" : "résonance magnétique utérus sans et avec contraste IV"
           },
           {
             "code" : "36414-1",
@@ -6654,11 +6650,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36418-2",
-            "display" : "RM veine cave inférieure sans et avec contraste IV"
+            "display" : "résonance magnétique veine cave inférieure sans et avec contraste IV"
           },
           {
             "code" : "36419-0",
-            "display" : "RM veine cave supérieure sans et avec contraste IV"
+            "display" : "résonance magnétique veine cave supérieure sans et avec contraste IV"
           },
           {
             "code" : "36420-8",
@@ -6666,7 +6662,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36421-6",
-            "display" : "CTA vaisseaux du membre supérieur sans et avec contraste IV"
+            "display" : "angiographie par tomodensitométrie vaisseaux du membre supérieur sans et avec contraste IV"
           },
           {
             "code" : "36422-4",
@@ -6690,7 +6686,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36427-3",
-            "display" : "RM cheville gauche sans contraste"
+            "display" : "résonance magnétique cheville gauche sans contraste"
           },
           {
             "code" : "36428-1",
@@ -6698,7 +6694,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36429-9",
-            "display" : "RM cheville droite sans contraste"
+            "display" : "résonance magnétique cheville droite sans contraste"
           },
           {
             "code" : "36430-7",
@@ -6722,27 +6718,27 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36435-6",
-            "display" : "RM face sans contraste"
+            "display" : "résonance magnétique face sans contraste"
           },
           {
             "code" : "36436-4",
-            "display" : "RM sein sans contraste"
+            "display" : "résonance magnétique sein sans contraste"
           },
           {
             "code" : "36437-2",
-            "display" : "RM sein bilatéral sans contraste"
+            "display" : "résonance magnétique sein bilatéral sans contraste"
           },
           {
             "code" : "36438-0",
-            "display" : "RM sein gauche sans contraste"
+            "display" : "résonance magnétique sein gauche sans contraste"
           },
           {
             "code" : "36439-8",
-            "display" : "RM sein droit sans contraste"
+            "display" : "résonance magnétique sein droit sans contraste"
           },
           {
             "code" : "36442-2",
-            "display" : "RM thorax sans contraste"
+            "display" : "résonance magnétique thorax sans contraste"
           },
           {
             "code" : "36443-0",
@@ -6758,7 +6754,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36446-3",
-            "display" : "RM coude - gauche sans contraste"
+            "display" : "résonance magnétique coude - gauche sans contraste"
           },
           {
             "code" : "36447-1",
@@ -6766,7 +6762,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36448-9",
-            "display" : "RM coude - droit sans contraste"
+            "display" : "résonance magnétique coude - droit sans contraste"
           },
           {
             "code" : "36449-7",
@@ -6778,7 +6774,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36451-3",
-            "display" : "RM membre inférieur - bilatéral sans contraste"
+            "display" : "résonance magnétique membre inférieur - bilatéral sans contraste"
           },
           {
             "code" : "36452-1",
@@ -6786,7 +6782,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36453-9",
-            "display" : "RM membre inférieur - gauche sans contraste"
+            "display" : "résonance magnétique membre inférieur - gauche sans contraste"
           },
           {
             "code" : "36454-7",
@@ -6794,7 +6790,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36455-4",
-            "display" : "RM membre inférieur - droit sans contraste"
+            "display" : "résonance magnétique membre inférieur - droit sans contraste"
           },
           {
             "code" : "36456-2",
@@ -6810,7 +6806,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36459-6",
-            "display" : "RM membre supérieur - droit sans contraste"
+            "display" : "résonance magnétique membre supérieur - droit sans contraste"
           },
           {
             "code" : "36460-4",
@@ -6818,7 +6814,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36461-2",
-            "display" : "RM cuisse sans contraste"
+            "display" : "résonance magnétique cuisse sans contraste"
           },
           {
             "code" : "36462-0",
@@ -6826,7 +6822,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36463-8",
-            "display" : "RM cuisse - gauche sans contraste"
+            "display" : "résonance magnétique cuisse - gauche sans contraste"
           },
           {
             "code" : "36464-6",
@@ -6834,7 +6830,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36465-3",
-            "display" : "RM cuisse - droite sans contraste"
+            "display" : "résonance magnétique cuisse - droite sans contraste"
           },
           {
             "code" : "36466-1",
@@ -6842,7 +6838,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36467-9",
-            "display" : "RM pied - bilatéral sans contraste"
+            "display" : "résonance magnétique pied - bilatéral sans contraste"
           },
           {
             "code" : "36468-7",
@@ -6850,7 +6846,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36469-5",
-            "display" : "RM pied - gauche sans contraste"
+            "display" : "résonance magnétique pied - gauche sans contraste"
           },
           {
             "code" : "36470-3",
@@ -6858,7 +6854,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36471-1",
-            "display" : "RM pied - droit sans contraste"
+            "display" : "résonance magnétique pied - droit sans contraste"
           },
           {
             "code" : "36472-9",
@@ -6870,7 +6866,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36474-5",
-            "display" : "RM avantbras - gauche sans contraste"
+            "display" : "résonance magnétique avantbras - gauche sans contraste"
           },
           {
             "code" : "36475-2",
@@ -6878,7 +6874,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36476-0",
-            "display" : "RM avantbras - droit sans contraste"
+            "display" : "résonance magnétique avantbras - droit sans contraste"
           },
           {
             "code" : "36477-8",
@@ -6890,7 +6886,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36479-4",
-            "display" : "RM main - gauche sans contraste"
+            "display" : "résonance magnétique main - gauche sans contraste"
           },
           {
             "code" : "36480-2",
@@ -6898,11 +6894,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36481-0",
-            "display" : "RM main - droite sans contraste"
+            "display" : "résonance magnétique main - droite sans contraste"
           },
           {
             "code" : "36482-8",
-            "display" : "RM coeur sans contraste"
+            "display" : "résonance magnétique coeur sans contraste"
           },
           {
             "code" : "36484-4",
@@ -6914,7 +6910,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36486-9",
-            "display" : "RM hanche - bilatérale sans contraste"
+            "display" : "résonance magnétique hanche - bilatérale sans contraste"
           },
           {
             "code" : "36487-7",
@@ -6922,7 +6918,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36488-5",
-            "display" : "RM hanche - gauche sans contraste"
+            "display" : "résonance magnétique hanche - gauche sans contraste"
           },
           {
             "code" : "36489-3",
@@ -6930,7 +6926,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36490-1",
-            "display" : "RM hanche - droite sans contraste"
+            "display" : "résonance magnétique hanche - droite sans contraste"
           },
           {
             "code" : "36491-9",
@@ -6942,7 +6938,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36493-5",
-            "display" : "RM bras - gauche sans contraste"
+            "display" : "résonance magnétique bras - gauche sans contraste"
           },
           {
             "code" : "36494-3",
@@ -6950,27 +6946,27 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36495-0",
-            "display" : "RM bras - droit sans contraste"
+            "display" : "résonance magnétique bras - droit sans contraste"
           },
           {
             "code" : "36496-8",
-            "display" : "RM articulation acromioclaviculaire sans contraste"
+            "display" : "résonance magnétique articulation acromioclaviculaire sans contraste"
           },
           {
             "code" : "36497-6",
-            "display" : "RM articulation du membre inférieur sans contraste"
+            "display" : "résonance magnétique articulation du membre inférieur sans contraste"
           },
           {
             "code" : "36498-4",
-            "display" : "RM articulation du membre inférieur - gauche sans contraste"
+            "display" : "résonance magnétique articulation du membre inférieur - gauche sans contraste"
           },
           {
             "code" : "36499-2",
-            "display" : "RM articulation du membre inférieur - droit sans contraste"
+            "display" : "résonance magnétique articulation du membre inférieur - droit sans contraste"
           },
           {
             "code" : "36500-7",
-            "display" : "RM membre supérieur.articulation sans contraste"
+            "display" : "résonance magnétique membre supérieur.articulation sans contraste"
           },
           {
             "code" : "36501-5",
@@ -6978,7 +6974,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36502-3",
-            "display" : "RM articulation sacro-iliaque sans contraste"
+            "display" : "résonance magnétique articulation sacro-iliaque sans contraste"
           },
           {
             "code" : "36503-1",
@@ -6986,7 +6982,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36504-9",
-            "display" : "RM rein - bilatéral sans contraste"
+            "display" : "résonance magnétique rein - bilatéral sans contraste"
           },
           {
             "code" : "36505-6",
@@ -6994,7 +6990,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36506-4",
-            "display" : "RM genou - bilatéral sans contraste"
+            "display" : "résonance magnétique genou - bilatéral sans contraste"
           },
           {
             "code" : "36507-2",
@@ -7002,7 +6998,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36508-0",
-            "display" : "RM genou - gauche sans contraste"
+            "display" : "résonance magnétique genou - gauche sans contraste"
           },
           {
             "code" : "36509-8",
@@ -7010,7 +7006,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36510-6",
-            "display" : "RM genou - droit sans contraste"
+            "display" : "résonance magnétique genou - droit sans contraste"
           },
           {
             "code" : "36511-4",
@@ -7022,7 +7018,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36513-0",
-            "display" : "RM nasopharynx sans contraste"
+            "display" : "résonance magnétique nasopharynx sans contraste"
           },
           {
             "code" : "36514-8",
@@ -7030,11 +7026,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36515-5",
-            "display" : "RM pancréas sans contraste"
+            "display" : "résonance magnétique pancréas sans contraste"
           },
           {
             "code" : "36516-3",
-            "display" : "RM plexus brachial - droit sans contraste"
+            "display" : "résonance magnétique plexus brachial - droit sans contraste"
           },
           {
             "code" : "36517-1",
@@ -7042,11 +7038,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36518-9",
-            "display" : "RM fosse postérieure sans contraste"
+            "display" : "résonance magnétique fosse postérieure sans contraste"
           },
           {
             "code" : "36519-7",
-            "display" : "RM prostate sans contraste"
+            "display" : "résonance magnétique prostate sans contraste"
           },
           {
             "code" : "36520-5",
@@ -7054,15 +7050,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36521-3",
-            "display" : "RM sacrum sans contraste"
+            "display" : "résonance magnétique sacrum sans contraste"
           },
           {
             "code" : "36522-1",
-            "display" : "RM sacrum et coccyx sans contraste"
+            "display" : "résonance magnétique sacrum et coccyx sans contraste"
           },
           {
             "code" : "36523-9",
-            "display" : "RM scapula - gauche sans contraste"
+            "display" : "résonance magnétique scapula - gauche sans contraste"
           },
           {
             "code" : "36524-7",
@@ -7070,7 +7066,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36525-4",
-            "display" : "RM épaule - bilatérale sans contraste"
+            "display" : "résonance magnétique épaule - bilatérale sans contraste"
           },
           {
             "code" : "36526-2",
@@ -7082,7 +7078,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36528-8",
-            "display" : "RM épaule - droite sans contraste"
+            "display" : "résonance magnétique épaule - droite sans contraste"
           },
           {
             "code" : "36529-6",
@@ -7094,15 +7090,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36531-2",
-            "display" : "RM rachis sans contraste"
+            "display" : "résonance magnétique rachis sans contraste"
           },
           {
             "code" : "36532-0",
-            "display" : "RM rachis dorsal sans contraste"
+            "display" : "résonance magnétique rachis dorsal sans contraste"
           },
           {
             "code" : "36533-8",
-            "display" : "RM rate sans contraste"
+            "display" : "résonance magnétique rate sans contraste"
           },
           {
             "code" : "36534-6",
@@ -7110,11 +7106,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36535-3",
-            "display" : "RM scrotum et testicule sans contraste"
+            "display" : "résonance magnétique scrotum et testicule sans contraste"
           },
           {
             "code" : "36536-1",
-            "display" : "RM glande thyroïde sans contraste"
+            "display" : "résonance magnétique glande thyroïde sans contraste"
           },
           {
             "code" : "36537-9",
@@ -7126,7 +7122,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36539-5",
-            "display" : "RM jambe - gauche sans contraste"
+            "display" : "résonance magnétique jambe - gauche sans contraste"
           },
           {
             "code" : "36540-3",
@@ -7134,11 +7130,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36541-1",
-            "display" : "RM jambe droite sans contraste"
+            "display" : "résonance magnétique jambe droite sans contraste"
           },
           {
             "code" : "36542-9",
-            "display" : "RM utérus sans contraste"
+            "display" : "résonance magnétique utérus sans contraste"
           },
           {
             "code" : "36543-7",
@@ -7150,11 +7146,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36545-2",
-            "display" : "RM veine cave inférieure sans contraste"
+            "display" : "résonance magnétique veine cave inférieure sans contraste"
           },
           {
             "code" : "36546-0",
-            "display" : "RM veine cave supérieure sans contraste"
+            "display" : "résonance magnétique veine cave supérieure sans contraste"
           },
           {
             "code" : "36547-8",
@@ -7458,15 +7454,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36625-2",
-            "display" : "MG sein ; incidences"
+            "display" : "mammographie sein ; incidences"
           },
           {
             "code" : "36626-0",
-            "display" : "MG sein bilatéral ; incidences"
+            "display" : "mammographie sein bilatéral ; incidences"
           },
           {
             "code" : "36627-8",
-            "display" : "MG sein gauche ; incidences"
+            "display" : "mammographie sein gauche ; incidences"
           },
           {
             "code" : "36628-6",
@@ -7510,7 +7506,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36638-5",
-            "display" : "RX patella - bilatéral ; incidences"
+            "display" : "RX patella - bilatérale ; incidences"
           },
           {
             "code" : "36639-3",
@@ -7518,7 +7514,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36640-1",
-            "display" : "RF rachis cervical ; incidences"
+            "display" : "fluoroscopie rachis cervical ; incidences"
           },
           {
             "code" : "36641-9",
@@ -7526,7 +7522,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36642-7",
-            "display" : "MG sein gauche ; 2 incidences"
+            "display" : "mammographie sein gauche ; 2 incidences"
           },
           {
             "code" : "36643-5",
@@ -7534,7 +7530,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36644-3",
-            "display" : "RX && RF thorax ; 2 incidences et incidences"
+            "display" : "RX et fluoroscopie thorax ; 2 incidences et incidences"
           },
           {
             "code" : "36645-0",
@@ -7594,7 +7590,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36659-1",
-            "display" : "RX radius et ulna - bilatéral ; 2 incidences"
+            "display" : "RX radius et ulna - bilatéraux ; 2 incidences"
           },
           {
             "code" : "36660-9",
@@ -7754,7 +7750,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36699-7",
-            "display" : "RX radius et ulna - bilatéral ; incidences antéropostérieures et latérales"
+            "display" : "RX radius et ulna - bilatéraux ; incidences antéropostérieures et latérales"
           },
           {
             "code" : "36700-3",
@@ -7806,7 +7802,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36712-8",
-            "display" : "RX patella - bilatéral ; incidences antéropostérieures et latérales"
+            "display" : "RX patella - bilatérale ; incidences antéropostérieures et latérales"
           },
           {
             "code" : "36713-6",
@@ -7926,7 +7922,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36742-5",
-            "display" : "RX radius et ulna - bilatéral ; incidences obliques"
+            "display" : "RX radius et ulna - bilatéraux ; incidences obliques"
           },
           {
             "code" : "36743-3",
@@ -7958,11 +7954,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36750-8",
-            "display" : "RX thorax ; incidences postéroantérieures et antéropostérieures décubitus latérales"
+            "display" : "RX thorax ; incidences postéroantérieures et antéropostérieures en décubitus latéral"
           },
           {
             "code" : "36751-6",
-            "display" : "RX && RF thorax ; incidences postéroantérieures et latérales et incidences"
+            "display" : "RX et fluoroscopie thorax ; incidences postéroantérieures et latérales et incidences"
           },
           {
             "code" : "36752-4",
@@ -8002,7 +7998,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36761-5",
-            "display" : "RF canaux biliaires ; guidage pour dilatation au ballon avec contraste"
+            "display" : "fluoroscopie canaux biliaires ; guidage pour dilatation au ballon avec contraste"
           },
           {
             "code" : "36762-3",
@@ -8038,11 +8034,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36770-6",
-            "display" : "CT voies biliaires et vésicule biliaire ; guidage pour drainage+placement d'un cathéter de drainage"
+            "display" : "CT voies biliaires et vésicule biliaire ; guidage pour drainage et placement d'un cathéter de drainage"
           },
           {
             "code" : "36771-4",
-            "display" : "RF articulation ; guidage pour injection"
+            "display" : "fluoroscopie articulation ; guidage pour injection"
           },
           {
             "code" : "36772-2",
@@ -8054,11 +8050,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36774-8",
-            "display" : "RM membre inférieur.articulation gauche"
+            "display" : "résonance magnétique articulation du membre inférieur gauche"
           },
           {
             "code" : "36775-5",
-            "display" : "RM membre inférieur.articulation droite"
+            "display" : "résonance magnétique articulation du membre inférieur droit"
           },
           {
             "code" : "36776-3",
@@ -8066,19 +8062,19 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36777-1",
-            "display" : "RM orbite"
+            "display" : "résonance magnétique orbite"
           },
           {
             "code" : "36778-9",
-            "display" : "RM orbite - droite"
+            "display" : "résonance magnétique orbite - droite"
           },
           {
             "code" : "36779-7",
-            "display" : "RM ovaire"
+            "display" : "résonance magnétique ovaire"
           },
           {
             "code" : "36780-5",
-            "display" : "RM orteil"
+            "display" : "résonance magnétique orteil"
           },
           {
             "code" : "36781-3",
@@ -8118,7 +8114,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36790-4",
-            "display" : "angioIRM veine cave inférieure + collatérales"
+            "display" : "angioIRM veine cave inférieure et collatérales"
           },
           {
             "code" : "36791-2",
@@ -8134,7 +8130,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36795-3",
-            "display" : "angioIRM vaisseaux du membre inférieur - gauches"
+            "display" : "angioIRM vaisseaux du membre inférieur - gauche"
           },
           {
             "code" : "36796-1",
@@ -8170,7 +8166,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36804-3",
-            "display" : "angioIRM vaisseaux rénaux - bilatéral"
+            "display" : "angioIRM vaisseaux rénaux - bilatéraux"
           },
           {
             "code" : "36805-0",
@@ -8178,7 +8174,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36806-8",
-            "display" : "angioIRM vaisseaux de l'épaule - gauches"
+            "display" : "angioIRM vaisseaux de l'épaule - gauche"
           },
           {
             "code" : "36807-6",
@@ -8190,7 +8186,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36809-2",
-            "display" : "CTA artère hépatique avec contraste intraartériel"
+            "display" : "angiographie par tomodensitométrie artère hépatique avec contraste intraartériel"
           },
           {
             "code" : "36811-8",
@@ -8198,7 +8194,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36812-6",
-            "display" : "RM articulation avec contraste intraarticulaire"
+            "display" : "résonance magnétique articulation avec contraste intraarticulaire"
           },
           {
             "code" : "36813-4",
@@ -8206,7 +8202,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36814-2",
-            "display" : "CTA artères de la tête avec contraste IV"
+            "display" : "angiographie par tomodensitométrie  artères de la tête avec contraste IV"
           },
           {
             "code" : "36815-9",
@@ -8218,39 +8214,39 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36817-5",
-            "display" : "RM membre inférieur.articulation bilatérale avec contraste IV"
+            "display" : "résonance magnétique articulation bilatérale du membre inférieur avec contraste IV"
           },
           {
             "code" : "36818-3",
-            "display" : "RM membre inférieur.articulation gauche avec contraste IV"
+            "display" : "résonance magnétique articulation gauche du membre inférieur avec contraste IV"
           },
           {
             "code" : "36819-1",
-            "display" : "RM membre inférieur.articulation droite avec contraste IV"
+            "display" : "résonance magnétique articulation droite du membre inférieur avec contraste IV"
           },
           {
             "code" : "36820-9",
-            "display" : "RM orbite avec contraste IV"
+            "display" : "résonance magnétique orbite avec contraste IV"
           },
           {
             "code" : "36821-7",
-            "display" : "RM orbite - gauche avec contraste IV"
+            "display" : "résonance magnétique orbite - gauche avec contraste IV"
           },
           {
             "code" : "36822-5",
-            "display" : "RM orbite - droite avec contraste IV"
+            "display" : "résonance magnétique orbite - droite avec contraste IV"
           },
           {
             "code" : "36823-3",
-            "display" : "RM ovaire avec contraste IV"
+            "display" : "résonance magnétique ovaire avec contraste IV"
           },
           {
             "code" : "36824-1",
-            "display" : "CTA veines du membre inférieur - gauche avec contraste IV"
+            "display" : "angiographie par tomodensitométrie veines du membre inférieur - gauche avec contraste IV"
           },
           {
             "code" : "36825-8",
-            "display" : "CTA veines du membre inférieur - droit avec contraste IV"
+            "display" : "angiographie par tomodensitométrie veines du membre inférieur - droit avec contraste IV"
           },
           {
             "code" : "36826-6",
@@ -8262,15 +8258,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36828-2",
-            "display" : "CTA vaisseaux abdominaux avec contraste IV"
+            "display" : "angiographie par tomodensitométrie vaisseaux abdominaux avec contraste IV"
           },
           {
             "code" : "36830-8",
-            "display" : "CTA vaisseaux de la tête avec contraste IV"
+            "display" : "angiographie par tomodensitométrie vaisseaux de la tête avec contraste IV"
           },
           {
             "code" : "36831-6",
-            "display" : "CTA vaisseaux du membre inférieur avec contraste IV"
+            "display" : "angiographie par tomodensitométrie vaisseaux du membre inférieur avec contraste IV"
           },
           {
             "code" : "36832-4",
@@ -8278,11 +8274,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36833-2",
-            "display" : "CTA vaisseaux rénaux avec contraste IV"
+            "display" : "angiographie par tomodensitométrie vaisseaux rénaux avec contraste IV"
           },
           {
             "code" : "36834-0",
-            "display" : "CTA vaisseau avec contraste IV"
+            "display" : "angiographie par tomodensitométrie vaisseau avec contraste IV"
           },
           {
             "code" : "36835-7",
@@ -8302,27 +8298,27 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36840-7",
-            "display" : "RM membre inférieur.articulation gauche sans et avec contraste IV"
+            "display" : "résonance magnétique membre inférieur articulation gauche sans et avec contraste IV"
           },
           {
             "code" : "36841-5",
-            "display" : "RM membre inférieur.articulation droite sans et avec contraste IV"
+            "display" : "résonance magnétique membre inférieur articulation droite sans et avec contraste IV"
           },
           {
             "code" : "36842-3",
-            "display" : "RM orbite sans et avec contraste IV"
+            "display" : "résonance magnétique orbite sans et avec contraste IV"
           },
           {
             "code" : "36843-1",
-            "display" : "RM orbite - gauche sans et avec contraste IV"
+            "display" : "résonance magnétique orbite - gauche sans et avec contraste IV"
           },
           {
             "code" : "36844-9",
-            "display" : "RM orbite - droite sans et avec contraste IV"
+            "display" : "résonance magnétique orbite - droite sans et avec contraste IV"
           },
           {
             "code" : "36845-6",
-            "display" : "RM ovaire sans et avec contraste IV"
+            "display" : "résonance magnétique ovaire sans et avec contraste IV"
           },
           {
             "code" : "36846-4",
@@ -8370,7 +8366,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36858-9",
-            "display" : "angioIRM vaisseaux du membre inférieur - gauches sans et avec contraste IV"
+            "display" : "angioIRM vaisseaux du membre inférieur - gauche sans et avec contraste IV"
           },
           {
             "code" : "36859-7",
@@ -8414,31 +8410,31 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36869-6",
-            "display" : "RM membre inférieur.articulation gauche sans contraste"
+            "display" : "résonance magnétique membre inférieur articulation gauche sans contraste"
           },
           {
             "code" : "36870-4",
-            "display" : "RM membre inférieur.articulation droite sans contraste"
+            "display" : "résonance magnétique membre inférieur articulation droite sans contraste"
           },
           {
             "code" : "36871-2",
-            "display" : "RM articulation sans contraste"
+            "display" : "résonance magnétique articulation sans contraste"
           },
           {
             "code" : "36872-0",
-            "display" : "RM orbite sans contraste"
+            "display" : "résonance magnétique orbite sans contraste"
           },
           {
             "code" : "36873-8",
-            "display" : "RM orbite - gauche sans contraste"
+            "display" : "résonance magnétique orbite - gauche sans contraste"
           },
           {
             "code" : "36874-6",
-            "display" : "RM orbite - droite sans contraste"
+            "display" : "résonance magnétique orbite - droite sans contraste"
           },
           {
             "code" : "36875-3",
-            "display" : "RM ovaire sans contraste"
+            "display" : "résonance magnétique ovaire sans contraste"
           },
           {
             "code" : "36876-1",
@@ -8462,7 +8458,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36882-9",
-            "display" : "angioIRM vaisseaux du membre inférieur - gauches sans contraste"
+            "display" : "angioIRM vaisseaux du membre inférieur - gauche sans contraste"
           },
           {
             "code" : "36883-7",
@@ -8506,7 +8502,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36931-4",
-            "display" : "RM glande surrénale"
+            "display" : "résonance magnétique glande surrénale"
           },
           {
             "code" : "36932-2",
@@ -8514,7 +8510,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36933-0",
-            "display" : "RM glande salivaire"
+            "display" : "résonance magnétique glande salivaire"
           },
           {
             "code" : "36934-8",
@@ -8526,7 +8522,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36936-3",
-            "display" : "RM cerveau ; guidage pour biopsie stéréotaxique"
+            "display" : "résonance magnétique cerveau ; guidage pour biopsie stéréotaxique"
           },
           {
             "code" : "36937-1",
@@ -8542,7 +8538,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36942-1",
-            "display" : "RM thorax et abdomen avec contraste IV"
+            "display" : "résonance magnétique thorax et abdomen avec contraste IV"
           },
           {
             "code" : "36943-9",
@@ -8550,27 +8546,27 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36944-7",
-            "display" : "RM voies biliaires et canaux pancréatiques sans et avec contraste IV"
+            "display" : "résonance magnétique voies biliaires et canaux pancréatiques sans et avec contraste IV"
           },
           {
             "code" : "36945-4",
-            "display" : "RX genou - bilatéral ; 2 incidences avec position debout"
+            "display" : "RX genou - bilatéral ; 2 incidences en position debout"
           },
           {
             "code" : "36946-2",
-            "display" : "RX rachis lombaire ; 2 incidences avec position debout"
+            "display" : "RX rachis lombaire ; 2 incidences en position debout"
           },
           {
             "code" : "36947-0",
-            "display" : "RX pied - bilatéral ; 3 incidences avec position debout"
+            "display" : "RX pied - bilatéral ; 3 incidences en position debout"
           },
           {
             "code" : "36948-8",
-            "display" : "RX pied - gauche ; 3 incidences avec position debout"
+            "display" : "RX pied - gauche ; 3 incidences en position debout"
           },
           {
             "code" : "36949-6",
-            "display" : "RX rachis lombaire ; 3 incidences avec position debout"
+            "display" : "RX rachis lombaire ; 3 incidences en position debout"
           },
           {
             "code" : "36950-4",
@@ -8578,7 +8574,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36951-2",
-            "display" : "RM glande surrénale sans et avec contraste IV"
+            "display" : "résonance magnétique glande surrénale sans et avec contraste IV"
           },
           {
             "code" : "36952-0",
@@ -8590,7 +8586,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36954-6",
-            "display" : "RM glande surrénale sans contraste"
+            "display" : "résonance magnétique glande surrénale sans contraste"
           },
           {
             "code" : "36955-3",
@@ -8598,7 +8594,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36956-1",
-            "display" : "RM orbite et face sans contraste"
+            "display" : "résonance magnétique orbite et face sans contraste"
           },
           {
             "code" : "36958-7",
@@ -8618,7 +8614,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36962-9",
-            "display" : "MG sein ; incidence axillaire"
+            "display" : "mammographie sein ; incidence axillaire"
           },
           {
             "code" : "36963-7",
@@ -8698,7 +8694,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36984-3",
-            "display" : "RX abdomen ; incidence latérale à rayonnement horizontaux"
+            "display" : "RX abdomen ; incidence latérale à rayonnement horizontal"
           },
           {
             "code" : "36985-0",
@@ -8754,7 +8750,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "36998-3",
-            "display" : "RX rachis cervical ; vue latérale W en flexion"
+            "display" : "RX rachis cervical ; vue latérale avec en flexion"
           },
           {
             "code" : "36999-1",
@@ -8766,15 +8762,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37001-5",
-            "display" : "RX pied ; incidence latérale avec position debout"
+            "display" : "RX pied ; incidence latérale en position debout"
           },
           {
             "code" : "37002-3",
-            "display" : "RX genou - gauche ; incidence latérale avec position debout"
+            "display" : "RX genou - gauche ; incidence latérale en position debout"
           },
           {
             "code" : "37003-1",
-            "display" : "RX rachis lombaire ; incidence latérale avec position debout"
+            "display" : "RX rachis lombaire ; incidence latérale en position debout"
           },
           {
             "code" : "37004-9",
@@ -8782,11 +8778,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37005-6",
-            "display" : "MG sein gauche ; incidence avec agrandissement"
+            "display" : "mammographie sein gauche ; incidence avec agrandissement"
           },
           {
             "code" : "37006-4",
-            "display" : "MG sein bilatéral ; incidence MLO"
+            "display" : "mammographie sein bilatéral ; incidence MLO"
           },
           {
             "code" : "37007-2",
@@ -8818,7 +8814,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37014-8",
-            "display" : "RX genou - gauche ; incidence postéroantérieure avec position debout"
+            "display" : "RX genou - gauche ; incidence postéroantérieure en position debout"
           },
           {
             "code" : "37015-5",
@@ -8826,11 +8822,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37016-3",
-            "display" : "MG sein bilatéral ; incidences déroulées"
+            "display" : "mammographie sein bilatéral ; incidences déroulées"
           },
           {
             "code" : "37017-1",
-            "display" : "MG sein gauche ; incidences déroulées"
+            "display" : "mammographie sein gauche ; incidences déroulées"
           },
           {
             "code" : "37018-9",
@@ -8874,15 +8870,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37028-8",
-            "display" : "MG sein ; incidence tangentielle"
+            "display" : "mammographie sein ; incidence tangentielle"
           },
           {
             "code" : "37029-6",
-            "display" : "MG sein bilatéral ; incidence tangentielle"
+            "display" : "mammographie sein bilatéral ; incidence tangentielle"
           },
           {
             "code" : "37030-4",
-            "display" : "MG sein gauche ; incidence tangentielle"
+            "display" : "mammographie sein gauche ; incidence tangentielle"
           },
           {
             "code" : "37031-2",
@@ -8906,11 +8902,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37037-9",
-            "display" : "MG sein ; incidence latérale vraie"
+            "display" : "mammographie sein ; incidence latérale vraie"
           },
           {
             "code" : "37038-7",
-            "display" : "MG sein bilatéral ; incidence latérale vraie"
+            "display" : "mammographie sein bilatéral ; incidence latérale vraie"
           },
           {
             "code" : "37039-5",
@@ -8966,11 +8962,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37052-8",
-            "display" : "MG sein bilatéral ; incidence XCCL"
+            "display" : "mammographie sein bilatéral ; incidence XCCL"
           },
           {
             "code" : "37053-6",
-            "display" : "MG sein gauche ; incidence XCCL"
+            "display" : "mammographie sein gauche ; incidence XCCL"
           },
           {
             "code" : "37054-4",
@@ -8990,11 +8986,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37058-5",
-            "display" : "RX calcanéus - bilatéral ; incidence avec position debout"
+            "display" : "RX calcanéus - bilatéral ; incidence en position debout"
           },
           {
             "code" : "37059-3",
-            "display" : "RX hanche - bilatérale ; incidence avec position debout"
+            "display" : "RX hanche - bilatérale ; incidence en position debout"
           },
           {
             "code" : "37060-1",
@@ -9006,7 +9002,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37063-5",
-            "display" : "RF ; incidences du corps étranger"
+            "display" : "fluoroscopie incidences du corps étranger"
           },
           {
             "code" : "37064-3",
@@ -9022,11 +9018,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37068-4",
-            "display" : "RX pied - bilatéral ; 2 incidences avec position debout"
+            "display" : "RX pied - bilatéral ; 2 incidences en position debout"
           },
           {
             "code" : "37069-2",
-            "display" : "RX pied - gauche ; 2 incidences avec position debout"
+            "display" : "RX pied - gauche ; 2 incidences en position debout"
           },
           {
             "code" : "37070-0",
@@ -9042,7 +9038,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37073-4",
-            "display" : "RX rachis lombaire ; 5 incidences avec position debout"
+            "display" : "RX rachis lombaire ; 5 incidences en position debout"
           },
           {
             "code" : "37074-2",
@@ -9142,7 +9138,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37098-1",
-            "display" : "RX rachis cervical ; antéropostérieur et oblique et latéral avec flexion+avec extension"
+            "display" : "RX rachis cervical ; antéropostérieur et oblique et latéral avec flexion et avec extension"
           },
           {
             "code" : "37099-9",
@@ -9150,7 +9146,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37100-5",
-            "display" : "RX rachis cervical ; (incidences antéropostérieures + obliques + odontoïdes) + (incidences latérales avec flexion + avec extension)"
+            "display" : "RX rachis cervical ; (incidences antéropostérieures et obliques et odontoïdes) et (incidences latérales avec flexion et avec extension)"
           },
           {
             "code" : "37101-3",
@@ -9166,11 +9162,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37104-7",
-            "display" : "RX rachis cervical ; (incidences antéropostérieures + odontoïdes) + (incidences latérales avec flexion + avec extension)"
+            "display" : "RX rachis cervical ; (incidences antéropostérieures et odontoïdes) et (incidences latérales avec flexion et avec extension)"
           },
           {
             "code" : "37105-4",
-            "display" : "RX rachis lombaire ; incidences antérpostérieures et latérales et centrées"
+            "display" : "RX rachis lombaire ; incidences antéropostérieures et latérales et centrées"
           },
           {
             "code" : "37106-2",
@@ -9186,7 +9182,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37109-6",
-            "display" : "RX patella - bilatéral ; incidences antéropostérieures et latérales et en lever de soleil"
+            "display" : "RX patella - bilatérale ; incidences antéropostérieures et latérales et en lever de soleil"
           },
           {
             "code" : "37110-4",
@@ -9270,11 +9266,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37132-8",
-            "display" : "RX rachis lombaire ; incidences latérales avec flexion + avec extension"
+            "display" : "RX rachis lombaire ; incidences latérales avec flexion et avec extension"
           },
           {
             "code" : "37133-6",
-            "display" : "RX rachis cervical ; incidences latérales avec flexion + avec extension"
+            "display" : "RX rachis cervical ; incidences latérales avec flexion et avec extension"
           },
           {
             "code" : "37134-4",
@@ -9298,7 +9294,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37139-3",
-            "display" : "RX rachis cervical ; (incidence oblique) + (incidence latérale avec flexion + avec extension)"
+            "display" : "RX rachis cervical ; (incidence oblique) et (incidence latérale avec flexion et avec extension)"
           },
           {
             "code" : "37140-1",
@@ -9346,7 +9342,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37151-8",
-            "display" : "RF.portable ; incidences"
+            "display" : "fluoroscopie.portable ; incidences dans une région du corps non spécifiée"
           },
           {
             "code" : "37152-6",
@@ -9354,7 +9350,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37153-4",
-            "display" : "RX mastoïde ; incidences de Stenver and Arcelin"
+            "display" : "RX mastoïde ; incidences de Stenver et d'Arcelin"
           },
           {
             "code" : "37154-2",
@@ -9470,47 +9466,47 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37183-1",
-            "display" : "RF cheville ; incidences avec contraste intraarticulaire"
+            "display" : "fluoroscopie cheville ; incidences avec contraste intraarticulaire"
           },
           {
             "code" : "37184-9",
-            "display" : "RF cheville bilatérale ; incidences avec contraste intraarticulaire"
+            "display" : "fluoroscopie cheville bilatérale ; incidences avec contraste intraarticulaire"
           },
           {
             "code" : "37185-6",
-            "display" : "RF cheville gauche ; incidences avec contraste intraarticulaire"
+            "display" : "fluoroscopie cheville gauche ; incidences avec contraste intraarticulaire"
           },
           {
             "code" : "37186-4",
-            "display" : "RF coude ; incidences avec contraste intraarticulaire"
+            "display" : "fluoroscopie coude ; incidences avec contraste intraarticulaire"
           },
           {
             "code" : "37187-2",
-            "display" : "RF coude - bilatéral ; incidences avec contraste intraarticulaire"
+            "display" : "fluoroscopie coude - bilatéral ; incidences avec contraste intraarticulaire"
           },
           {
             "code" : "37188-0",
-            "display" : "RF coude - gauche ; incidences avec contraste intraarticulaire"
+            "display" : "fluoroscopie coude - gauche ; incidences avec contraste intraarticulaire"
           },
           {
             "code" : "37189-8",
-            "display" : "RF articulation sacro-iliaque - bilatérale ; incidences avec contraste intraarticulaire"
+            "display" : "fluoroscopie articulation sacro-iliaque - bilatérale ; incidences avec contraste intraarticulaire"
           },
           {
             "code" : "37190-6",
-            "display" : "RF articulation sacro-iliaque - gauche ; incidences avec contraste intraarticulaire"
+            "display" : "fluoroscopie articulation sacro-iliaque - gauche ; incidences avec contraste intraarticulaire"
           },
           {
             "code" : "37191-4",
-            "display" : "RF articulation ; incidences avec contraste intraarticulaire"
+            "display" : "fluoroscopie articulation ; incidences avec contraste intraarticulaire"
           },
           {
             "code" : "37192-2",
-            "display" : "RF rachis cervical ; incidences avec contraste intradiscal"
+            "display" : "fluoroscopie rachis cervical ; incidences avec contraste intradiscal"
           },
           {
             "code" : "37193-0",
-            "display" : "RF rachis lombaire ; incidences avec contraste intradiscal"
+            "display" : "fluoroscopie rachis lombaire ; incidences avec contraste intradiscal"
           },
           {
             "code" : "37195-5",
@@ -9526,7 +9522,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37199-7",
-            "display" : "RF thorax ; incidences avec contraste per os"
+            "display" : "fluoroscopie thorax ; incidences avec contraste per os"
           },
           {
             "code" : "37200-3",
@@ -9534,39 +9530,39 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37201-1",
-            "display" : "RX cheville ; incidences avec position debout"
+            "display" : "RX cheville ; incidences en position debout"
           },
           {
             "code" : "37202-9",
-            "display" : "RX cheville bilatérale ; incidences avec position debout"
+            "display" : "RX cheville bilatérale ; incidences en position debout"
           },
           {
             "code" : "37203-7",
-            "display" : "RX cheville gauche ; incidences avec position debout"
+            "display" : "RX cheville gauche ; incidences en position debout"
           },
           {
             "code" : "37204-5",
-            "display" : "RX membre inférieur ; incidences avec position debout"
+            "display" : "RX membre inférieur ; incidences en position debout"
           },
           {
             "code" : "37205-2",
-            "display" : "RX calcanéus ; incidences avec position debout"
+            "display" : "RX calcanéus ; incidences en position debout"
           },
           {
             "code" : "37206-0",
-            "display" : "RX calcanéus - gauche ; incidences avec position debout"
+            "display" : "RX calcanéus - gauche ; incidences en position debout"
           },
           {
             "code" : "37207-8",
-            "display" : "RX hanche - gauche ; incidence avec position debout"
+            "display" : "RX hanche - gauche ; incidence en position debout"
           },
           {
             "code" : "37208-6",
-            "display" : "RX rachis lombaire ; incidences avec position debout"
+            "display" : "RX rachis lombaire ; incidences en position debout"
           },
           {
             "code" : "37209-4",
-            "display" : "RX orteils - gauches ; incidences avec position debout"
+            "display" : "RX orteils - gauches ; incidences en position debout"
           },
           {
             "code" : "37210-2",
@@ -9590,31 +9586,31 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37215-1",
-            "display" : "RM cerveau et larynx avec contraste IV"
+            "display" : "résonance magnétique cerveau et larynx avec contraste IV"
           },
           {
             "code" : "37217-7",
-            "display" : "RM tronc cérébral et nerfs crâniens"
+            "display" : "résonance magnétique tronc cérébral et nerfs crâniens"
           },
           {
             "code" : "37218-5",
-            "display" : "RM cerveau.temporal"
+            "display" : "résonance magnétique cerveau temporal"
           },
           {
             "code" : "37219-3",
-            "display" : "RM canaux biliaires"
+            "display" : "résonance magnétique canaux biliaires"
           },
           {
             "code" : "37220-1",
-            "display" : "RM voies biliaires et canaux pancréatiques"
+            "display" : "résonance magnétique voies biliaires et canaux pancréatiques"
           },
           {
             "code" : "37221-9",
-            "display" : "CT pour fistule"
+            "display" : "CT pour fistule dans une région du corps non spécifiée"
           },
           {
             "code" : "37222-7",
-            "display" : "RM cheville et pied"
+            "display" : "résonance magnétique cheville et pied"
           },
           {
             "code" : "37223-5",
@@ -9622,7 +9618,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37224-3",
-            "display" : "RM glande parotide"
+            "display" : "résonance magnétique glande parotide"
           },
           {
             "code" : "37225-0",
@@ -9638,7 +9634,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37228-4",
-            "display" : "RM articulation temporomandibulaire - bilatérale"
+            "display" : "résonance magnétique articulation temporomandibulaire - bilatérale"
           },
           {
             "code" : "37229-2",
@@ -9646,11 +9642,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37230-0",
-            "display" : "RM articulation temporomandibulaire - gauche"
+            "display" : "résonance magnétique articulation temporomandibulaire - gauche"
           },
           {
             "code" : "37231-8",
-            "display" : "RM articulation temporomandibulaire - droite"
+            "display" : "résonance magnétique articulation temporomandibulaire - droite"
           },
           {
             "code" : "37232-6",
@@ -9662,7 +9658,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37234-2",
-            "display" : "RM médiastin"
+            "display" : "résonance magnétique médiastin"
           },
           {
             "code" : "37235-9",
@@ -9678,7 +9674,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37239-1",
-            "display" : "RM cerveau et conduit auditif interne avec contraste IV"
+            "display" : "résonance magnétique cerveau et conduit auditif interne avec contraste IV"
           },
           {
             "code" : "37240-9",
@@ -9686,7 +9682,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37241-7",
-            "display" : "RM glande parotide avec contraste IV"
+            "display" : "résonance magnétique glande parotide avec contraste IV"
           },
           {
             "code" : "37242-5",
@@ -9698,11 +9694,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37244-1",
-            "display" : "RM articulation temporomandibulaire avec contraste IV"
+            "display" : "résonance magnétique articulation temporomandibulaire avec contraste IV"
           },
           {
             "code" : "37245-8",
-            "display" : "RM articulation temporomandibulaire - bilatérale avec contraste IV"
+            "display" : "résonance magnétique articulation temporomandibulaire - bilatérale avec contraste IV"
           },
           {
             "code" : "37246-6",
@@ -9710,7 +9706,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37247-4",
-            "display" : "RM articulation temporomandibulaire - gauche avec contraste IV"
+            "display" : "résonance magnétique articulation temporomandibulaire - gauche avec contraste IV"
           },
           {
             "code" : "37248-2",
@@ -9718,11 +9714,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37249-0",
-            "display" : "RM articulation temporomandibulaire - droite avec contraste IV"
+            "display" : "résonance magnétique articulation temporomandibulaire - droite avec contraste IV"
           },
           {
             "code" : "37253-2",
-            "display" : "RM tissu mou avec contraste IV"
+            "display" : "résonance magnétique tissu mou avec contraste IV"
           },
           {
             "code" : "37254-0",
@@ -9750,7 +9746,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37265-6",
-            "display" : "RM glande parotide sans et avec contraste IV"
+            "display" : "résonance magnétique glande parotide sans et avec contraste IV"
           },
           {
             "code" : "37266-4",
@@ -9762,23 +9758,23 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37268-0",
-            "display" : "RM articulation temporomandibulaire sans et avec contraste IV"
+            "display" : "résonance magnétique articulation temporomandibulaire sans et avec contraste IV"
           },
           {
             "code" : "37269-8",
-            "display" : "RM articulation temporomandibulaire - bilatérale sans et avec contraste IV"
+            "display" : "résonance magnétique articulation temporomandibulaire - bilatérale sans et avec contraste IV"
           },
           {
             "code" : "37270-6",
-            "display" : "RM articulation temporomandibulaire - gauche sans et avec contraste IV"
+            "display" : "résonance magnétique articulation temporomandibulaire - gauche sans et avec contraste IV"
           },
           {
             "code" : "37271-4",
-            "display" : "RM articulation temporomandibulaire - droite sans et avec contraste IV"
+            "display" : "résonance magnétique articulation temporomandibulaire - droite sans et avec contraste IV"
           },
           {
             "code" : "37272-2",
-            "display" : "RM médiastin sans et avec contraste IV"
+            "display" : "résonance magnétique médiastin sans et avec contraste IV"
           },
           {
             "code" : "37277-1",
@@ -9786,11 +9782,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37278-9",
-            "display" : "RM cerveau et conduit auditif interne sans contraste"
+            "display" : "résonance magnétique cerveau et conduit auditif interne sans contraste"
           },
           {
             "code" : "37279-7",
-            "display" : "RM cerveau et larynx sans contraste"
+            "display" : "résonance magnétique cerveau et larynx sans contraste"
           },
           {
             "code" : "37280-5",
@@ -9798,7 +9794,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37281-3",
-            "display" : "RM glande parotide sans contraste"
+            "display" : "résonance magnétique glande parotide sans contraste"
           },
           {
             "code" : "37282-1",
@@ -9810,19 +9806,19 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37284-7",
-            "display" : "RM articulation temporomandibulaire sans contraste"
+            "display" : "résonance magnétique articulation temporomandibulaire sans contraste"
           },
           {
             "code" : "37285-4",
-            "display" : "RM articulation temporomandibulaire - bilatérale sans contraste"
+            "display" : "résonance magnétique articulation temporomandibulaire - bilatérale sans contraste"
           },
           {
             "code" : "37286-2",
-            "display" : "RM articulation temporomandibulaire - gauche sans contraste"
+            "display" : "résonance magnétique articulation temporomandibulaire - gauche sans contraste"
           },
           {
             "code" : "37287-0",
-            "display" : "RM articulation temporomandibulaire - droite sans contraste"
+            "display" : "résonance magnétique articulation temporomandibulaire - droite sans contraste"
           },
           {
             "code" : "37288-8",
@@ -9830,11 +9826,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37293-8",
-            "display" : "RM tissu mou sans contraste"
+            "display" : "résonance magnétique tissu mou sans contraste"
           },
           {
             "code" : "37297-9",
-            "display" : "RX abdomen+^Foetus ; incidence unique pour âge foetal"
+            "display" : "RX abdomen et ^Foetus ; incidence unique pour âge foetal"
           },
           {
             "code" : "37298-7",
@@ -10002,7 +9998,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37392-8",
-            "display" : "angiographie par fluoroscopie artères carotidiennes et artère vertébrale - bilatérales ; incidences avec contraste intra-artériel"
+            "display" : "angiographie par fluoroscopie artères carotidiennes et artère vertébrale - bilatérale ; incidences avec contraste intra-artériel"
           },
           {
             "code" : "37393-6",
@@ -10062,11 +10058,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37409-0",
-            "display" : "RF articulation temporomandibulaire - bilatérale ; incidences avec contraste intraarticulaire"
+            "display" : "fluoroscopie articulation temporomandibulaire - bilatérale ; incidences avec contraste intraarticulaire"
           },
           {
             "code" : "37410-8",
-            "display" : "RF articulation temporomandibulaire - gauche ; incidences avec contraste intraarticulaire"
+            "display" : "fluoroscopie articulation temporomandibulaire - gauche ; incidences avec contraste intraarticulaire"
           },
           {
             "code" : "37411-6",
@@ -10082,11 +10078,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37414-0",
-            "display" : "angiographie par fluoroscopie veines du membre inférieur - bilatérales ; incidences avec contraste IV"
+            "display" : "angiographie par fluoroscopie veines du membre inférieur - bilatéral ; incidences avec contraste IV"
           },
           {
             "code" : "37415-7",
-            "display" : "angiographie par fluoroscopie veines du membre supérieur - bilatérales ; incidences avec contraste IV"
+            "display" : "angiographie par fluoroscopie veines du membre supérieur - bilatéral ; incidences avec contraste IV"
           },
           {
             "code" : "37416-5",
@@ -10114,7 +10110,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37427-2",
-            "display" : "RF rachis ; guidage pour injection"
+            "display" : "fluoroscopie rachis ; guidage pour injection"
           },
           {
             "code" : "37428-0",
@@ -10142,15 +10138,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37434-8",
-            "display" : "RM coeur ; ciné pour fonction"
+            "display" : "résonance magnétique coeur ; ciné pour fonction"
           },
           {
             "code" : "37435-5",
-            "display" : "RM articulation temporomandibulaire ; ciné"
+            "display" : "résonance magnétique articulation temporomandibulaire ; ciné"
           },
           {
             "code" : "37437-1",
-            "display" : "RM sein dynamique avec contraste IV"
+            "display" : "résonance magnétique sein dynamique avec contraste IV"
           },
           {
             "code" : "37439-7",
@@ -10170,19 +10166,19 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37443-9",
-            "display" : "spectroscopie.IRM"
+            "display" : "spectroscopie.IRM dans une région du corps non spécifiée"
           },
           {
             "code" : "37444-7",
-            "display" : "RM poignet avec contraste intraarticulaire"
+            "display" : "résonance magnétique poignet avec contraste intraarticulaire"
           },
           {
             "code" : "37445-4",
-            "display" : "RM poignet - gauche avec contraste intraarticulaire"
+            "display" : "résonance magnétique poignet - gauche avec contraste intraarticulaire"
           },
           {
             "code" : "37446-2",
-            "display" : "RM poignet - droit avec contraste intraarticulaire"
+            "display" : "résonance magnétique poignet - droit avec contraste intraarticulaire"
           },
           {
             "code" : "37447-0",
@@ -10190,11 +10186,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37448-8",
-            "display" : "RM poignet avec contraste IV"
+            "display" : "résonance magnétique poignet avec contraste IV"
           },
           {
             "code" : "37449-6",
-            "display" : "RM poignet - bilatéral avec contraste IV"
+            "display" : "résonance magnétique poignet - bilatéral avec contraste IV"
           },
           {
             "code" : "37450-4",
@@ -10202,7 +10198,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37451-2",
-            "display" : "RM poignet - gauche avec contraste IV"
+            "display" : "résonance magnétique poignet - gauche avec contraste IV"
           },
           {
             "code" : "37452-0",
@@ -10210,7 +10206,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37453-8",
-            "display" : "RM poignet - droit avec contraste IV"
+            "display" : "résonance magnétique poignet - droit avec contraste IV"
           },
           {
             "code" : "37454-6",
@@ -10234,7 +10230,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37460-3",
-            "display" : "RM poignet sans contraste"
+            "display" : "résonance magnétique poignet sans contraste"
           },
           {
             "code" : "37461-1",
@@ -10242,7 +10238,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37462-9",
-            "display" : "RM poignet - bilatéral sans contraste"
+            "display" : "résonance magnétique poignet - bilatéral sans contraste"
           },
           {
             "code" : "37463-7",
@@ -10250,7 +10246,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37464-5",
-            "display" : "RM poignet - gauche sans contraste"
+            "display" : "résonance magnétique poignet - gauche sans contraste"
           },
           {
             "code" : "37465-2",
@@ -10258,7 +10254,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37466-0",
-            "display" : "RM poignet - droit sans contraste"
+            "display" : "résonance magnétique poignet - droit sans contraste"
           },
           {
             "code" : "37467-8",
@@ -10358,7 +10354,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37494-2",
-            "display" : "RF tendon ; guidage pour injection"
+            "display" : "fluoroscopie tendon ; guidage pour injection"
           },
           {
             "code" : "37495-9",
@@ -10374,7 +10370,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37498-3",
-            "display" : "CTA vaisseaux de la tête et vaisseaux du cou avec contraste IV"
+            "display" : "angiographie par tomodensitométrie vaisseaux de la tête et vaisseaux du cou avec contraste IV"
           },
           {
             "code" : "37500-6",
@@ -10502,11 +10498,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37539-4",
-            "display" : "MG sein ; incidences avec grille"
+            "display" : "mammographie sein ; incidences avec grille"
           },
           {
             "code" : "37540-2",
-            "display" : "RX genou - bilatéral ; incidence d'Holmblad avec position debout"
+            "display" : "RX genou - bilatéral ; incidence d'Holmblad en position debout"
           },
           {
             "code" : "37541-0",
@@ -10514,11 +10510,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37542-8",
-            "display" : "MG sein ; incidences avec agrandissement"
+            "display" : "mammographie sein ; incidences avec agrandissement"
           },
           {
             "code" : "37543-6",
-            "display" : "MG sein bilatéral ; incidences avec agrandissement"
+            "display" : "mammographie sein bilatéral ; incidences avec agrandissement"
           },
           {
             "code" : "37544-4",
@@ -10550,19 +10546,19 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37551-9",
-            "display" : "MG sein ; incidences centrées"
+            "display" : "mammographie sein ; incidences centrées"
           },
           {
             "code" : "37552-7",
-            "display" : "MG sein bilatéral ; incidences centrées"
+            "display" : "mammographie sein bilatéral ; incidences centrées"
           },
           {
             "code" : "37553-5",
-            "display" : "MG sein gauche ; incidences centrées compression"
+            "display" : "mammographie sein gauche ; incidences centrées compression"
           },
           {
             "code" : "37554-3",
-            "display" : "MG sein bilatéral ; incidences avec agrandissement et localisé"
+            "display" : "mammographie sein bilatéral ; incidences avec agrandissement et localisé"
           },
           {
             "code" : "37555-0",
@@ -10606,35 +10602,35 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37565-9",
-            "display" : "RF ; incidences avec contraste au barium via fistule"
+            "display" : "fluoroscopie incidences avec contraste au barium via fistule"
           },
           {
             "code" : "37566-7",
-            "display" : "RF ; incidences avec contraste via cathéter"
+            "display" : "fluoroscopie incidences avec contraste via cathéter"
           },
           {
             "code" : "37567-5",
-            "display" : "RF côlon ; incidences avec contraste via colostomie"
+            "display" : "fluoroscopie côlon ; incidences avec contraste via colostomie"
           },
           {
             "code" : "37568-3",
-            "display" : "RF ; incidences avec contraste via fistule"
+            "display" : "fluoroscopie incidences avec contraste via fistule"
           },
           {
             "code" : "37569-1",
-            "display" : "RF vessie urinaire ; incidences avec contraste via sonde suspubienne"
+            "display" : "fluoroscopie vessie urinaire ; incidences avec contraste via sonde suspubienne"
           },
           {
             "code" : "37570-9",
-            "display" : "RF poignet - bilatéral ; incidences avec contraste intraarticulaire"
+            "display" : "fluoroscopie poignet - bilatéral ; incidences avec contraste intraarticulaire"
           },
           {
             "code" : "37571-7",
-            "display" : "RF poignet - gauche ; incidences avec contraste intraarticulaire"
+            "display" : "fluoroscopie poignet - gauche ; incidences avec contraste intraarticulaire"
           },
           {
             "code" : "37572-5",
-            "display" : "RF rachis ; incidences avec contraste intrathécal"
+            "display" : "fluoroscopie rachis ; incidences avec contraste intrathécal"
           },
           {
             "code" : "37574-1",
@@ -10642,11 +10638,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37575-8",
-            "display" : "RX vésicule biliaire ; incidences après repas gras+avec contraste per os"
+            "display" : "RX vésicule biliaire ; incidences après repas gras et avec contraste per os"
           },
           {
             "code" : "37576-6",
-            "display" : "RF ; incidences avec gastrografine via fistule"
+            "display" : "fluoroscopie incidences avec gastrografine via fistule"
           },
           {
             "code" : "37577-4",
@@ -10658,15 +10654,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37579-0",
-            "display" : "RX articulation acromioclaviculaire ; incidences sans & avec poids"
+            "display" : "RX articulation acromioclaviculaire ; incidences sans et avec poids"
           },
           {
             "code" : "37580-8",
-            "display" : "RX articulation acromioclaviculaire - bilatérale ; incidences sans & avec poids"
+            "display" : "RX articulation acromioclaviculaire - bilatérale ; incidences sans et avec poids"
           },
           {
             "code" : "37581-6",
-            "display" : "RX articulation acromioclaviculaire - gauche ; incidences sans & avec poids"
+            "display" : "RX articulation acromioclaviculaire - gauche ; incidences sans et avec poids"
           },
           {
             "code" : "37582-4",
@@ -10674,19 +10670,19 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37583-2",
-            "display" : "RX pelvis et hanche - bilatéraux ; incidences et profil en grenouille"
+            "display" : "RX pelvis et hanche - bilatérale ; incidences et profil en grenouille"
           },
           {
             "code" : "37584-0",
-            "display" : "RX gros orteil gauche ; incidences avec position debout"
+            "display" : "RX gros orteil gauche ; incidences en position debout"
           },
           {
             "code" : "37585-7",
-            "display" : "RF jéjunum ; incidences avec contraste"
+            "display" : "fluoroscopie jéjunum ; incidences avec contraste"
           },
           {
             "code" : "37586-5",
-            "display" : "RF pénis ; incidences avec contraste intra corps caverneux"
+            "display" : "fluoroscopie pénis ; incidences avec contraste intra corps caverneux"
           },
           {
             "code" : "37587-3",
@@ -10714,7 +10710,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37593-1",
-            "display" : "angiographie par fluoroscopie arc aortique et artère carotidienne externe - droites ; incidences avec contraste intra-artériel"
+            "display" : "angiographie par fluoroscopie arc aortique et artère carotidienne externe - droite ; incidences avec contraste intra-artériel"
           },
           {
             "code" : "37594-9",
@@ -10734,7 +10730,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37598-0",
-            "display" : "angiographie par fluoroscopie vaisseaux lymphatiques abdominaux et pelviens - bilatéral ; incidences avec contraste intralymphatique"
+            "display" : "angiographie par fluoroscopie vaisseaux lymphatiques abdominaux et pelviens - bilatéraux ; incidences avec contraste intralymphatique"
           },
           {
             "code" : "37599-8",
@@ -10866,7 +10862,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37633-5",
-            "display" : "RX pelvis ; incidence avec position debout"
+            "display" : "RX pelvis ; incidence en position debout"
           },
           {
             "code" : "37634-3",
@@ -10894,7 +10890,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37641-8",
-            "display" : "RF poignet - droit ; incidences avec contraste intraarticulaire"
+            "display" : "fluoroscopie poignet - droit ; incidences avec contraste intraarticulaire"
           },
           {
             "code" : "37642-6",
@@ -10918,7 +10914,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37647-5",
-            "display" : "RF articulation sacro-iliaque ; incidences avec contraste intraarticulaire"
+            "display" : "fluoroscopie articulation sacro-iliaque ; incidences avec contraste intraarticulaire"
           },
           {
             "code" : "37648-3",
@@ -10962,11 +10958,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37659-0",
-            "display" : "RX rachis dorsal et rachis lombaire ; incidences antéropostérieures pour scoliose avec position debout"
+            "display" : "RX rachis dorsal et rachis lombaire ; incidences antéropostérieures pour scoliose en position debout"
           },
           {
             "code" : "37660-8",
-            "display" : "RX rachis dorsal et rachis lombaire ; incidence latérale pour scoliose avec position debout"
+            "display" : "RX rachis dorsal et rachis lombaire ; incidence latérale pour scoliose en position debout"
           },
           {
             "code" : "37661-6",
@@ -10978,7 +10974,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37663-2",
-            "display" : "RX articulation acromioclaviculaire - droite ; incidences sans & avec poids"
+            "display" : "RX articulation acromioclaviculaire - droite ; incidences sans et avec poids"
           },
           {
             "code" : "37664-0",
@@ -11026,11 +11022,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37675-6",
-            "display" : "RX cheville droite ; 2 incidences avec position debout"
+            "display" : "RX cheville droite ; 2 incidences en position debout"
           },
           {
             "code" : "37676-4",
-            "display" : "RX cheville droite ; incidences avec position debout"
+            "display" : "RX cheville droite ; incidences en position debout"
           },
           {
             "code" : "37677-2",
@@ -11098,7 +11094,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37693-9",
-            "display" : "RX fémur - droit ; incidences avec position debout"
+            "display" : "RX fémur - droit ; incidences en position debout"
           },
           {
             "code" : "37694-7",
@@ -11118,7 +11114,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37698-8",
-            "display" : "RX pied - droit ; 2 incidences avec position debout"
+            "display" : "RX pied - droit ; 2 incidences en position debout"
           },
           {
             "code" : "37699-6",
@@ -11126,7 +11122,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37700-2",
-            "display" : "RX pied - droit ; 3 incidences avec position debout"
+            "display" : "RX pied - droit ; 3 incidences en position debout"
           },
           {
             "code" : "37701-0",
@@ -11206,7 +11202,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37720-0",
-            "display" : "RX calcanéus - droit ; incidences avec position debout"
+            "display" : "RX calcanéus - droit ; incidences en position debout"
           },
           {
             "code" : "37721-8",
@@ -11250,7 +11246,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37731-7",
-            "display" : "RX hanche - droite ; incidence avec position debout"
+            "display" : "RX hanche - droite ; incidence en position debout"
           },
           {
             "code" : "37732-5",
@@ -11258,11 +11254,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37733-3",
-            "display" : "RX membre inférieur - droit ; incidences antéropostérieures avec position debout"
+            "display" : "RX membre inférieur - droit ; incidences antéropostérieures en position debout"
           },
           {
             "code" : "37734-1",
-            "display" : "RX membre inférieur - droit ; incidence avec position debout"
+            "display" : "RX membre inférieur - droit ; incidence en position debout"
           },
           {
             "code" : "37735-8",
@@ -11342,11 +11338,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37754-9",
-            "display" : "RX genou - droit ; incidence latérale avec position debout"
+            "display" : "RX genou - droit ; incidence latérale en position debout"
           },
           {
             "code" : "37755-6",
-            "display" : "RX genou - droit ; incidence postéroantérieure avec position debout"
+            "display" : "RX genou - droit ; incidence postéroantérieure en position debout"
           },
           {
             "code" : "37756-4",
@@ -11374,11 +11370,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37762-2",
-            "display" : "RX genou - droit ; 2 incidences avec position debout"
+            "display" : "RX genou - droit ; 2 incidences en position debout"
           },
           {
             "code" : "37763-0",
-            "display" : "RX genou - droit ; 4 incidences avec position debout"
+            "display" : "RX genou - droit ; 4 incidences en position debout"
           },
           {
             "code" : "37764-8",
@@ -11398,35 +11394,35 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37768-9",
-            "display" : "MG sein droit ; 2 incidences"
+            "display" : "mammographie sein droit ; 2 incidences"
           },
           {
             "code" : "37769-7",
-            "display" : "MG sein droit ; incidences avec agrandissement et localisé"
+            "display" : "mammographie sein droit ; incidences avec agrandissement et localisé"
           },
           {
             "code" : "37770-5",
-            "display" : "MG sein droit ; incidence tangentielle"
+            "display" : "mammographie sein droit ; incidence tangentielle"
           },
           {
             "code" : "37771-3",
-            "display" : "MG sein droit ; incidence latérale vraie"
+            "display" : "mammographie sein droit ; incidence latérale vraie"
           },
           {
             "code" : "37772-1",
-            "display" : "MG sein droit ; incidence XCCL"
+            "display" : "mammographie sein droit ; incidence XCCL"
           },
           {
             "code" : "37773-9",
-            "display" : "MG sein droit ; incidence avec agrandissement"
+            "display" : "mammographie sein droit ; incidence avec agrandissement"
           },
           {
             "code" : "37774-7",
-            "display" : "MG sein droit ; incidences"
+            "display" : "mammographie sein droit ; incidences"
           },
           {
             "code" : "37775-4",
-            "display" : "MG sein droit ; incidences déroulées"
+            "display" : "mammographie sein droit ; incidences déroulées"
           },
           {
             "code" : "37776-2",
@@ -11466,7 +11462,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37785-3",
-            "display" : "RF articulation sacro-iliaque - droite ; incidences avec contraste intraarticulaire"
+            "display" : "fluoroscopie articulation sacro-iliaque - droite ; incidences avec contraste intraarticulaire"
           },
           {
             "code" : "37786-1",
@@ -11598,7 +11594,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37818-2",
-            "display" : "RF articulation temporomandibulaire - droite ; incidences avec contraste intraarticulaire"
+            "display" : "fluoroscopie articulation temporomandibulaire - droite ; incidences avec contraste intraarticulaire"
           },
           {
             "code" : "37819-0",
@@ -11618,7 +11614,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37823-2",
-            "display" : "RX orteils - droits ; incidences avec position debout"
+            "display" : "RX orteils - droits ; incidences en position debout"
           },
           {
             "code" : "37824-0",
@@ -11658,7 +11654,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37833-1",
-            "display" : "RX poignet - droit ; vue latérale W en extension"
+            "display" : "RX poignet - droit ; vue latérale avec extension"
           },
           {
             "code" : "37834-9",
@@ -11802,7 +11798,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37872-9",
-            "display" : "RX crâne ; incidence latérale à rayonnement horizontaux"
+            "display" : "RX crâne ; incidence latérale à rayonnement horizontal"
           },
           {
             "code" : "37874-5",
@@ -11858,7 +11854,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37887-7",
-            "display" : "RF espace pleural ; guidage pour aspiration percutanée d'un fluide"
+            "display" : "fluoroscopie espace pleural ; guidage pour aspiration percutanée d'un fluide"
           },
           {
             "code" : "37888-5",
@@ -11906,11 +11902,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37899-2",
-            "display" : "RX tibia et fibula ; incidences avec position debout"
+            "display" : "RX tibia et fibula ; incidences en position debout"
           },
           {
             "code" : "37901-6",
-            "display" : "RF articulation temporomandibulaire ; incidences avec contraste intraarticulaire"
+            "display" : "fluoroscopie articulation temporomandibulaire ; incidences avec contraste intraarticulaire"
           },
           {
             "code" : "37902-4",
@@ -11918,7 +11914,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37903-2",
-            "display" : "RX rachis dorsal ; incidence latérale à rayonnement horizontaux"
+            "display" : "RX rachis dorsal ; incidence latérale à rayonnement horizontal"
           },
           {
             "code" : "37904-0",
@@ -11946,7 +11942,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37910-7",
-            "display" : "RX rachis dorsal ; incidence latérale avec position debout"
+            "display" : "RX rachis dorsal ; incidence latérale en position debout"
           },
           {
             "code" : "37911-5",
@@ -12018,7 +12014,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37929-7",
-            "display" : "RX poignet ; incidences latérales avec flexion + avec extension"
+            "display" : "RX poignet ; incidences latérales avec flexion et avec extension"
           },
           {
             "code" : "37930-5",
@@ -12070,7 +12066,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37942-0",
-            "display" : "RF cheville droite ; incidences avec contraste intraarticulaire"
+            "display" : "fluoroscopie cheville droite ; incidences avec contraste intraarticulaire"
           },
           {
             "code" : "37943-8",
@@ -12086,7 +12082,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37947-9",
-            "display" : "RF coude - droit ; incidences avec contraste intraarticulaire"
+            "display" : "fluoroscopie coude - droit ; incidences avec contraste intraarticulaire"
           },
           {
             "code" : "37948-7",
@@ -12146,7 +12142,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37967-7",
-            "display" : "angiographie par fluoroscopie artères du membre supérieur - droites ; incidences avec contraste intra-artériel"
+            "display" : "angiographie par fluoroscopie artères du membre supérieur - droit ; incidences avec contraste intra-artériel"
           },
           {
             "code" : "37968-5",
@@ -12170,7 +12166,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "37973-5",
-            "display" : "RF vaisseaux testiculaires ; incidences avec contraste"
+            "display" : "fluoroscopie vaisseaux testiculaires ; incidences avec contraste"
           },
           {
             "code" : "37974-3",
@@ -12238,11 +12234,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "38003-0",
-            "display" : "RX pied - gauche ; incidences antéropostérieures avec position debout"
+            "display" : "RX pied - gauche ; incidences antéropostérieures en position debout"
           },
           {
             "code" : "38004-8",
-            "display" : "RX épaule - gauche ; incidences de Grashey sans & avec poids"
+            "display" : "RX épaule - gauche ; incidences de Grashey sans et avec poids"
           },
           {
             "code" : "38006-3",
@@ -12258,11 +12254,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "38009-7",
-            "display" : "RX rachis dorsal ; incidences antéropostérieures et latérales et du nageur"
+            "display" : "RX rachis dorsal ; incidences antéropostérieures et latérales et du Swimmer"
           },
           {
             "code" : "38010-5",
-            "display" : "RX rachis dorsal ; incidences latérales avec flexion + avec extension"
+            "display" : "RX rachis dorsal ; incidences latérales avec flexion et avec extension"
           },
           {
             "code" : "38011-3",
@@ -12318,7 +12314,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "38024-6",
-            "display" : "échographie ; guidage pour la biopsie à l'aiguille creuse"
+            "display" : "échographie ; guidage pour la biopsie à l'aiguille creuse dans une région du corps non spécifiée"
           },
           {
             "code" : "38025-3",
@@ -12334,7 +12330,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "38032-9",
-            "display" : "échographie ; guidage pour localisation à l'aiguille"
+            "display" : "échographie ; guidage pour localisation à l'aiguille dans une région du corps non spécifiée"
           },
           {
             "code" : "38033-7",
@@ -12426,23 +12422,23 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "38057-6",
-            "display" : "RM sein gauche ; pour implant"
+            "display" : "résonance magnétique sein gauche ; pour implant"
           },
           {
             "code" : "38058-4",
-            "display" : "RM sein droit ; pour implant"
+            "display" : "résonance magnétique sein droit ; pour implant"
           },
           {
             "code" : "38061-8",
-            "display" : "RM rachis cervical et rachis dorsal et rachis lombaire et sacrum avec contraste IV"
+            "display" : "résonance magnétique rachis cervical et rachis dorsal et rachis lombaire et sacrum avec contraste IV"
           },
           {
             "code" : "38062-6",
-            "display" : "RM sein droit pour implant sans et avec contraste IV"
+            "display" : "résonance magnétique sein droit pour implant sans et avec contraste IV"
           },
           {
             "code" : "38064-2",
-            "display" : "RM sein gauche pour implant sans contraste IV"
+            "display" : "résonance magnétique sein gauche pour implant sans contraste IV"
           },
           {
             "code" : "38065-9",
@@ -12462,15 +12458,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "38070-9",
-            "display" : "MG sein ; incidences pour implant"
+            "display" : "mammographie sein ; incidences pour implant"
           },
           {
             "code" : "38071-7",
-            "display" : "MG sein bilatéral ; incidences pour implant"
+            "display" : "mammographie sein bilatéral ; incidences pour implant"
           },
           {
             "code" : "38072-5",
-            "display" : "MG sein gauche ; incidences pour implant"
+            "display" : "mammographie sein gauche ; incidences pour implant"
           },
           {
             "code" : "38073-3",
@@ -12482,11 +12478,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "38079-0",
-            "display" : "MG ^échantillon du sein.bilatéral ; incidences"
+            "display" : "mammographie ^échantillon du sein.bilatéral ; incidences"
           },
           {
             "code" : "38080-8",
-            "display" : "MG ^échantillon du sein.gauche ; incidences"
+            "display" : "mammographie ^échantillon du sein.gauche ; incidences"
           },
           {
             "code" : "38082-4",
@@ -12494,7 +12490,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "38083-2",
-            "display" : "RX rachis cervical ; incidences antéropostérieures et latérales et obliques et odontoïdes et du nageur"
+            "display" : "RX rachis cervical ; incidences antéropostérieures et latérales et obliques et odontoïdes et du Swimmer"
           },
           {
             "code" : "38084-0",
@@ -12518,15 +12514,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "38090-7",
-            "display" : "MG sein bilatéral ; incidence air gap"
+            "display" : "mammographie sein bilatéral ; incidence air gap"
           },
           {
             "code" : "38091-5",
-            "display" : "MG sein gauche ; incidence air gap"
+            "display" : "mammographie sein gauche ; incidence air gap"
           },
           {
             "code" : "38092-3",
-            "display" : "RF vessie urinaire ; incidences avec chaine intravésicale+avec contraste intravésical"
+            "display" : "fluoroscopie vessie urinaire ; incidences avec chaine intravésicale et avec contraste intravésical"
           },
           {
             "code" : "38093-1",
@@ -12534,31 +12530,31 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "38094-9",
-            "display" : "RF cavité vertébrale ; incidences avec contraste"
+            "display" : "fluoroscopie cavité vertébrale ; incidences avec contraste"
           },
           {
             "code" : "38095-6",
-            "display" : "MG canal galactophore - bilatéral ; incidences avec contraste intracanalaire"
+            "display" : "mammographie canal galactophore - bilatéral ; incidences avec contraste intracanalaire"
           },
           {
             "code" : "38096-4",
-            "display" : "MG canal galactophore - gauche ; incidences avec contraste intracanalaire"
+            "display" : "mammographie canal galactophore - gauche ; incidences avec contraste intracanalaire"
           },
           {
             "code" : "38097-2",
-            "display" : "RF glande parotide - gauche ; incidences avec contraste intra conduit salivaire"
+            "display" : "fluoroscopie glande parotide - gauche ; incidences avec contraste intra conduit salivaire"
           },
           {
             "code" : "38098-0",
-            "display" : "RF conduit lacrymal - bilatéral ; incidences avec contraste intracanal lacrimal"
+            "display" : "fluoroscopie conduit lacrymal - bilatéral ; incidences avec contraste intracanal lacrimal"
           },
           {
             "code" : "38099-8",
-            "display" : "RF conduit lacrymal - gauche ; incidences avec contraste intracanal lacrimal"
+            "display" : "fluoroscopie conduit lacrymal - gauche ; incidences avec contraste intracanal lacrimal"
           },
           {
             "code" : "38100-4",
-            "display" : "RF vessie urinaire et urètre ; incidences avec contraste antérograde"
+            "display" : "fluoroscopie vessie urinaire et urètre ; incidences avec contraste antérograde"
           },
           {
             "code" : "38101-2",
@@ -12570,11 +12566,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "38103-8",
-            "display" : "RF rachis cervical et rachis lombaire ; incidences avec contraste intrathécal"
+            "display" : "fluoroscopie rachis cervical et rachis lombaire ; incidences avec contraste intrathécal"
           },
           {
             "code" : "38104-6",
-            "display" : "RF espace épidural du rachis ; incidences avec contraste intrathécal"
+            "display" : "fluoroscopie espace épidural du rachis ; incidences avec contraste intrathécal"
           },
           {
             "code" : "38105-3",
@@ -12590,7 +12586,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "38112-9",
-            "display" : "RF rein - droit ; incidences avec contraste via sonde de néphrostomie"
+            "display" : "fluoroscopie rein - droit ; incidences avec contraste via sonde de néphrostomie"
           },
           {
             "code" : "38114-5",
@@ -12602,7 +12598,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "38116-0",
-            "display" : "RF glande parotide ; incidences avec contraste intra conduit salivaire"
+            "display" : "fluoroscopie glande parotide ; incidences avec contraste intra conduit salivaire"
           },
           {
             "code" : "38117-8",
@@ -12618,7 +12614,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "38120-2",
-            "display" : "RF rachis dorsal ; incidences limitées avec contraste intrathécal"
+            "display" : "fluoroscopie rachis dorsal ; incidences limitées avec contraste intrathécal"
           },
           {
             "code" : "38121-0",
@@ -12630,11 +12626,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "38124-4",
-            "display" : "RX rachis dorsal et rachis lombaire ; incidences avec position debout"
+            "display" : "RX rachis dorsal et rachis lombaire ; incidences en position debout"
           },
           {
             "code" : "38125-1",
-            "display" : "RF rachis cervical et rachis dorsal et rachis lombaire ; incidences limitées avec contraste intrathécal"
+            "display" : "fluoroscopie rachis cervical et rachis dorsal et rachis lombaire ; incidences limitées avec contraste intrathécal"
           },
           {
             "code" : "38126-9",
@@ -12658,7 +12654,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "38131-9",
-            "display" : "échographie vaisseaux sousclaviers - bilatéral"
+            "display" : "échographie vaisseaux sousclaviers - bilatéraux"
           },
           {
             "code" : "38132-7",
@@ -12702,7 +12698,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "38142-6",
-            "display" : "échographie thorax ; guidage pour drainage+placement d'un cathéter de drainage"
+            "display" : "échographie thorax ; guidage pour drainage et placement d'un cathéter de drainage"
           },
           {
             "code" : "38143-4",
@@ -12746,11 +12742,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "38153-3",
-            "display" : "RF glande submandibulaire ; incidences avec contraste intra conduit salivaire"
+            "display" : "fluoroscopie glande submandibulaire ; incidences avec contraste intra conduit salivaire"
           },
           {
             "code" : "38154-1",
-            "display" : "RF os ; guidage pour biopsie superficielle"
+            "display" : "fluoroscopie os ; guidage pour biopsie superficielle"
           },
           {
             "code" : "38155-8",
@@ -12766,7 +12762,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "38269-7",
-            "display" : "absorptiométrie radiologique en double énergie système squelettique ; compte rendu"
+            "display" : "compte rendu absorptiométrie radiologique en double énergie système squelettique"
           },
           {
             "code" : "38765-4",
@@ -12786,11 +12782,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "38769-6",
-            "display" : "RM articulation du membre inférieur - droit limitée sans contraste"
+            "display" : "résonance magnétique articulation du membre inférieur - droit limitée sans contraste"
           },
           {
             "code" : "38770-4",
-            "display" : "RM scapula - droite sans contraste"
+            "display" : "résonance magnétique scapula - droite sans contraste"
           },
           {
             "code" : "38771-2",
@@ -12934,7 +12930,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "38807-4",
-            "display" : "MG sein droit ; incidences centrées"
+            "display" : "mammographie sein droit ; incidences centrées"
           },
           {
             "code" : "38808-2",
@@ -12942,7 +12938,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "38810-8",
-            "display" : "RX gros orteil droit ; incidences avec position debout"
+            "display" : "RX gros orteil droit ; incidences en position debout"
           },
           {
             "code" : "38811-6",
@@ -12962,15 +12958,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "38815-7",
-            "display" : "RX pied - droit ; incidences antéropostérieures avec position debout"
+            "display" : "RX pied - droit ; incidences antéropostérieures en position debout"
           },
           {
             "code" : "38816-5",
-            "display" : "RX épaule - droite ; incidences de Grashey sans & avec poids"
+            "display" : "RX épaule - droite ; incidences de Grashey sans et avec poids"
           },
           {
             "code" : "38817-3",
-            "display" : "RM sein droit pour implant sans contraste IV"
+            "display" : "résonance magnétique sein droit pour implant sans contraste IV"
           },
           {
             "code" : "38818-1",
@@ -12982,11 +12978,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "38820-7",
-            "display" : "MG sein droit ; incidences pour implant"
+            "display" : "mammographie sein droit ; incidences pour implant"
           },
           {
             "code" : "38821-5",
-            "display" : "MG ^échantillon du sein.droit ; incidences"
+            "display" : "mammographie ^échantillon du sein.droit ; incidences"
           },
           {
             "code" : "38822-3",
@@ -12998,15 +12994,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "38825-6",
-            "display" : "MG canal galactophore - droit ; incidences avec contraste intracanalaire"
+            "display" : "mammographie canal galactophore - droit ; incidences avec contraste intracanalaire"
           },
           {
             "code" : "38826-4",
-            "display" : "RF glande parotide - droite ; incidences avec contraste intra conduit salivaire"
+            "display" : "fluoroscopie glande parotide - droite ; incidences avec contraste intra conduit salivaire"
           },
           {
             "code" : "38827-2",
-            "display" : "RF conduit lacrymal - droit ; incidences avec contraste intracanal lacrimal"
+            "display" : "fluoroscopie conduit lacrymal - droit ; incidences avec contraste intracanal lacrimal"
           },
           {
             "code" : "38828-0",
@@ -13014,27 +13010,27 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "38829-8",
-            "display" : "RM membre supérieur - gauche avec contraste IV"
+            "display" : "résonance magnétique membre supérieur - gauche avec contraste IV"
           },
           {
             "code" : "38830-6",
-            "display" : "RM épaule - gauche avec contraste IV"
+            "display" : "résonance magnétique épaule - gauche avec contraste IV"
           },
           {
             "code" : "38831-4",
-            "display" : "RM membre supérieur - gauche sans et avec contraste IV"
+            "display" : "résonance magnétique membre supérieur - gauche sans et avec contraste IV"
           },
           {
             "code" : "38832-2",
-            "display" : "RM membre supérieur - gauche sans contraste"
+            "display" : "résonance magnétique membre supérieur - gauche sans contraste"
           },
           {
             "code" : "38833-0",
-            "display" : "RM plexus brachial - gauche sans contraste"
+            "display" : "résonance magnétique plexus brachial - gauche sans contraste"
           },
           {
             "code" : "38834-8",
-            "display" : "RM épaule - gauche sans contraste"
+            "display" : "résonance magnétique épaule - gauche sans contraste"
           },
           {
             "code" : "38835-5",
@@ -13042,7 +13038,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "38836-3",
-            "display" : "RM orbite - gauche"
+            "display" : "résonance magnétique orbite - gauche"
           },
           {
             "code" : "38837-1",
@@ -13062,7 +13058,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "38841-3",
-            "display" : "RX cheville gauche ; 2 incidences avec position debout"
+            "display" : "RX cheville gauche ; 2 incidences en position debout"
           },
           {
             "code" : "38842-1",
@@ -13078,7 +13074,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "38845-4",
-            "display" : "RX fémur - gauche ; incidences avec position debout"
+            "display" : "RX fémur - gauche ; incidences en position debout"
           },
           {
             "code" : "38846-2",
@@ -13094,31 +13090,31 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "38849-6",
-            "display" : "RX membre inférieur - gauche ; incidences antéropostérieures avec position debout"
+            "display" : "RX membre inférieur - gauche ; incidences antéropostérieures en position debout"
           },
           {
             "code" : "38850-4",
-            "display" : "RX membre inférieur - gauche ; incidence avec position debout"
+            "display" : "RX membre inférieur - gauche ; incidence en position debout"
           },
           {
             "code" : "38851-2",
-            "display" : "RX genou - gauche ; 2 incidences avec position debout"
+            "display" : "RX genou - gauche ; 2 incidences en position debout"
           },
           {
             "code" : "38852-0",
-            "display" : "RX genou - gauche ; 4 incidences avec position debout"
+            "display" : "RX genou - gauche ; 4 incidences en position debout"
           },
           {
             "code" : "38853-8",
-            "display" : "angiographie par fluoroscopie vaisseaux du membre inférieur - gauches ; incidences avec contraste"
+            "display" : "angiographie par fluoroscopie vaisseaux du membre inférieur - gauche ; incidences avec contraste"
           },
           {
             "code" : "38854-6",
-            "display" : "MG sein gauche ; incidences avec agrandissement et localisé"
+            "display" : "mammographie sein gauche ; incidences avec agrandissement et localisé"
           },
           {
             "code" : "38855-3",
-            "display" : "MG sein gauche ; incidence latérale vraie"
+            "display" : "mammographie sein gauche ; incidence latérale vraie"
           },
           {
             "code" : "38856-1",
@@ -13178,7 +13174,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "38870-2",
-            "display" : "RM sein gauche pour implant sans et avec contraste IV"
+            "display" : "résonance magnétique sein gauche pour implant sans et avec contraste IV"
           },
           {
             "code" : "38871-0",
@@ -13186,7 +13182,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "38872-8",
-            "display" : "RF rein - gauche ; incidences avec contraste via sonde de néphrostomie"
+            "display" : "fluoroscopie rein - gauche ; incidences avec contraste via sonde de néphrostomie"
           },
           {
             "code" : "38874-4",
@@ -13194,19 +13190,19 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "39026-0",
-            "display" : "CT ; guidage pour localisation à l'aiguille"
+            "display" : "CT ; guidage pour localisation à l'aiguille dans une région du corps non spécifiée"
           },
           {
             "code" : "39027-8",
-            "display" : "RF ; guidage pour localisation à l'aiguille"
+            "display" : "fluoroscopie guidage pour localisation à l'aiguille"
           },
           {
             "code" : "39028-6",
-            "display" : "RM ; guidage pour localisation à l'aiguille"
+            "display" : "résonance magnétique guidage pour localisation à l'aiguille d'une région du corps non spécifié"
           },
           {
             "code" : "39029-4",
-            "display" : "RM orbite et face sans et avec contraste IV"
+            "display" : "résonance magnétique orbite et face sans et avec contraste IV"
           },
           {
             "code" : "39030-2",
@@ -13222,11 +13218,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "39033-6",
-            "display" : "RM membre supérieur sans contraste"
+            "display" : "résonance magnétique membre supérieur sans contraste"
           },
           {
             "code" : "39034-4",
-            "display" : "RM membre supérieur sans et avec contraste IV"
+            "display" : "résonance magnétique membre supérieur sans et avec contraste IV"
           },
           {
             "code" : "39036-9",
@@ -13234,11 +13230,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "39037-7",
-            "display" : "RM membre supérieur avec contraste IV"
+            "display" : "résonance magnétique membre supérieur avec contraste IV"
           },
           {
             "code" : "39038-5",
-            "display" : "RM orbite et face avec contraste IV"
+            "display" : "résonance magnétique orbite et face avec contraste IV"
           },
           {
             "code" : "39039-3",
@@ -13266,7 +13262,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "39047-6",
-            "display" : "RF hanche ; incidence pendant une chirurgie"
+            "display" : "fluoroscopie hanche ; incidence pendant une chirurgie"
           },
           {
             "code" : "39048-4",
@@ -13294,7 +13290,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "39054-2",
-            "display" : "MG canal galactophore ; incidences avec contraste intracanalaire"
+            "display" : "mammographie canal galactophore ; incidences avec contraste intracanalaire"
           },
           {
             "code" : "39055-9",
@@ -13326,7 +13322,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "39063-3",
-            "display" : "RX rachis lombaire ; 5 incidences avec flexion + avec extension"
+            "display" : "RX rachis lombaire ; 5 incidences avec flexion et avec extension"
           },
           {
             "code" : "39064-1",
@@ -13338,7 +13334,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "39066-6",
-            "display" : "RX && RF thorax ; incidences antéropostérieures et latérales et incidences"
+            "display" : "RX et fluoroscopie thorax ; incidences antéropostérieures et latérales et incidences"
           },
           {
             "code" : "39067-4",
@@ -13346,7 +13342,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "39068-2",
-            "display" : "RX pied ; incidences antéropostérieures + latérales en position debout"
+            "display" : "RX pied ; incidences antéropostérieures et latérales en position debout"
           },
           {
             "code" : "39069-0",
@@ -13426,39 +13422,39 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "39139-1",
-            "display" : "échographie ; guidage pour accès vasculaire"
+            "display" : "échographie ; guidage pour accès vasculaire dans une région du corps non spécifiée"
           },
           {
             "code" : "39140-9",
-            "display" : "RM coeur ciné pour cartographie de la vélocité du flux sanguin"
+            "display" : "résonance magnétique coeur ciné pour cartographie de la vélocité du flux sanguin"
           },
           {
             "code" : "39141-7",
-            "display" : "RM moelle osseuse"
+            "display" : "résonance magnétique moelle osseuse"
           },
           {
             "code" : "39142-5",
-            "display" : "tomodensitométrie.perfusion tête avec contraste IV"
+            "display" : "CT perfusion tête avec contraste IV"
           },
           {
             "code" : "39144-1",
-            "display" : "RF tractus gastrointestinal supérieur ; incidence avec contraste naturel par l’air ambiant per os"
+            "display" : "fluoroscopie tractus gastrointestinal supérieur ; incidence avec contraste naturel par l’air ambiant per os"
           },
           {
             "code" : "39145-8",
-            "display" : "MG canal galactophore - gauche ; incidences avec contraste intra canaux multiples"
+            "display" : "mammographie canal galactophore - gauche ; incidences avec contraste intra canaux multiples"
           },
           {
             "code" : "39146-6",
-            "display" : "MG canal galactophore - bilatéral ; incidences avec contraste intra canaux multiples"
+            "display" : "mammographie canal galactophore - bilatéral ; incidences avec contraste intra canaux multiples"
           },
           {
             "code" : "39147-4",
-            "display" : "MG canal galactophore - droit ; incidences avec contraste intra canaux multiples"
+            "display" : "mammographie canal galactophore - droit ; incidences avec contraste intra canaux multiples"
           },
           {
             "code" : "39148-2",
-            "display" : "MG canal galactophore ; incidences avec contraste intra canaux multiples"
+            "display" : "mammographie canal galactophore ; incidences avec contraste intra canaux multiples"
           },
           {
             "code" : "39149-0",
@@ -13470,7 +13466,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "39151-6",
-            "display" : "RF conduit déférent ; incidences avec contraste intra vas deferens"
+            "display" : "fluoroscopie conduit déférent ; incidences avec contraste intra vas deferens"
           },
           {
             "code" : "39152-4",
@@ -13486,15 +13482,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "39291-0",
-            "display" : "RM membre inférieur sans et avec contraste IV"
+            "display" : "résonance magnétique membre inférieur sans et avec contraste IV"
           },
           {
             "code" : "39292-8",
-            "display" : "RM membre inférieur sans contraste"
+            "display" : "résonance magnétique membre inférieur sans contraste"
           },
           {
             "code" : "39293-6",
-            "display" : "RM membre inférieur avec contraste IV"
+            "display" : "résonance magnétique membre inférieur avec contraste IV"
           },
           {
             "code" : "39321-5",
@@ -13518,11 +13514,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "39326-4",
-            "display" : "RX côtes - gauches et thorax ; incidences"
+            "display" : "RX côtes - gauches et incidences thorax"
           },
           {
             "code" : "39327-2",
-            "display" : "RX abdomen+^Foetus ; incidences pour âge foetal"
+            "display" : "RX abdomen et ^Foetus ; incidences pour âge foetal"
           },
           {
             "code" : "39328-0",
@@ -13534,23 +13530,23 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "39330-6",
-            "display" : "RX cheville bilatérale ; incidences antéropostérieures + latérales en position debout"
+            "display" : "RX cheville bilatérale ; incidences antéropostérieures et latérales en position debout"
           },
           {
             "code" : "39331-4",
-            "display" : "RX pied - bilatéral ; incidences antéropostérieures + latérales en position debout"
+            "display" : "RX pied - bilatéral ; incidences antéropostérieures et latérales en position debout"
           },
           {
             "code" : "39332-2",
-            "display" : "RX pied - gauche ; incidences antéropostérieures + latérales en position debout"
+            "display" : "RX pied - gauche ; incidences antéropostérieures et latérales en position debout"
           },
           {
             "code" : "39333-0",
-            "display" : "RX rachis lombaire ; incidences antéropostérieures + latérales en position debout"
+            "display" : "RX rachis lombaire ; incidences antéropostérieures et latérales en position debout"
           },
           {
             "code" : "39334-8",
-            "display" : "RX pied - gauche ; incidences antéropostérieures + latérales + obliques en position debout"
+            "display" : "RX pied - gauche ; incidences antéropostérieures et latérales et obliques en position debout"
           },
           {
             "code" : "39335-5",
@@ -13574,11 +13570,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "39340-5",
-            "display" : "RX rachis lombaire ; incidences latérales en position debout + en flexion + en extension"
+            "display" : "RX rachis lombaire ; incidences latérales en position debout et en flexion et en extension"
           },
           {
             "code" : "39341-3",
-            "display" : "RX thorax ; incidences latérales et postéroantérieures en inspiration + en expiration"
+            "display" : "RX thorax ; incidences latérales et postéroantérieures en inspiration et en expiration"
           },
           {
             "code" : "39343-9",
@@ -13606,7 +13602,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "39349-6",
-            "display" : "RF rein - bilatéral ; incidences avec contraste rétrograde"
+            "display" : "fluoroscopie rein - bilatéral ; incidences avec contraste rétrograde"
           },
           {
             "code" : "39350-4",
@@ -13634,11 +13630,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "39361-1",
-            "display" : "RF foie ; guidage d'un drainage d'un abcès + placement d'un cathéter de drainage"
+            "display" : "fluoroscopie foie ; guidage d'un drainage d'un abcès et placement d'un cathéter de drainage"
           },
           {
             "code" : "39362-9",
-            "display" : "RF thorax ; guidage pour placement d'une sonde"
+            "display" : "fluoroscopie thorax ; guidage pour placement d'une sonde"
           },
           {
             "code" : "39363-7",
@@ -13658,11 +13654,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "39367-8",
-            "display" : "RX rachis dorsal et rachis lombaire ; (incidences antéropostérieures + latérales) pour scoliose avec position debout"
+            "display" : "RX rachis dorsal et rachis lombaire ; (incidences antéropostérieures et latérales) pour scoliose en position debout"
           },
           {
             "code" : "39368-6",
-            "display" : "RX cheville droite ; incidences antéropostérieures + latérales en position debout"
+            "display" : "RX cheville droite ; incidences antéropostérieures et latérales en position debout"
           },
           {
             "code" : "39369-4",
@@ -13670,11 +13666,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "39370-2",
-            "display" : "RX cheville droite ; incidences et (incidence avec stress manuel)"
+            "display" : "RX cheville droite ; incidences et incidence avec stress manuel"
           },
           {
             "code" : "39371-0",
-            "display" : "RX cheville droite ; incidences antéropostérieures + latérales + obliques en position debout"
+            "display" : "RX cheville droite ; incidences antéropostérieures et latérales et obliques en position debout"
           },
           {
             "code" : "39372-8",
@@ -13686,11 +13682,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "39374-4",
-            "display" : "RX pied - droit ; incidences antéropostérieures + latérales en position debout"
+            "display" : "RX pied - droit ; incidences antéropostérieures et latérales en position debout"
           },
           {
             "code" : "39375-1",
-            "display" : "RX pied - droit ; incidences antéropostérieures + latérales + obliques en position debout"
+            "display" : "RX pied - droit ; incidences antéropostérieures et latérales et obliques en position debout"
           },
           {
             "code" : "39376-9",
@@ -13718,7 +13714,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "39382-7",
-            "display" : "RX genou - droit ; 2 incidences et (tunnel en position debout)"
+            "display" : "RX genou - droit ; 2 incidences et tunnel en position debout"
           },
           {
             "code" : "39383-5",
@@ -13726,7 +13722,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "39384-3",
-            "display" : "RX genou - droit ; (4 incidences) + (incidence antéropostérieure avec position debout)"
+            "display" : "RX genou - droit ; 4 incidences et incidence antéropostérieure en position debout"
           },
           {
             "code" : "39385-0",
@@ -13838,7 +13834,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "39412-2",
-            "display" : "RX rachis dorsal ; incidences et nageur"
+            "display" : "RX rachis dorsal ; incidences et incidences du Swimmer"
           },
           {
             "code" : "39413-0",
@@ -13862,7 +13858,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "39419-7",
-            "display" : "échographie Doppler vaisseaux rénaux - bilatéral"
+            "display" : "échographie Doppler vaisseaux rénaux - bilatéraux"
           },
           {
             "code" : "39420-5",
@@ -13906,11 +13902,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "39430-4",
-            "display" : "échographie Doppler vaisseaux du membre inférieur - gauches limitée"
+            "display" : "échographie Doppler vaisseaux du membre inférieur - gauche limitée"
           },
           {
             "code" : "39431-2",
-            "display" : "échographie Doppler vaisseaux du membre inférieur - gauches"
+            "display" : "échographie Doppler vaisseaux du membre inférieur - gauche"
           },
           {
             "code" : "39432-0",
@@ -13986,7 +13982,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "39451-0",
-            "display" : "échographie ; guidage d'un drainage d'un abcès + placement d'un cathéter de drainage"
+            "display" : "échographie ; guidage d'un drainage d'un abcès et placement d'un cathéter de drainage dans une région du corps non spécifiée"
           },
           {
             "code" : "39452-8",
@@ -14030,7 +14026,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "39496-5",
-            "display" : "échographie Doppler veine du membre supérieur - bilatérale"
+            "display" : "échographie Doppler veine du membre supérieur - bilatéral"
           },
           {
             "code" : "39497-3",
@@ -14106,7 +14102,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "39515-2",
-            "display" : "RX poignet - droit ; incidences latérales avec flexion + avec extension"
+            "display" : "RX poignet - droit ; incidences latérales avec flexion et avec extension"
           },
           {
             "code" : "39516-0",
@@ -14154,23 +14150,23 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "39527-7",
-            "display" : "échographie pour corps étranger"
+            "display" : "échographie pour corps étranger dans une région du corps non spécifiée"
           },
           {
             "code" : "39619-2",
-            "display" : "MN système pulmonaire ; incidences avec radionucléide IV"
+            "display" : "médecine nucléaire système pulmonaire ; incidences avec radionucléide IV"
           },
           {
             "code" : "39620-0",
-            "display" : "MN ; guidage limité pour localisation d'un abcès avec radionucléide IV"
+            "display" : "médecine nucléaire ; guidage limité pour localisation d'un abcès avec radionucléide IV dans une région du corps non spécifiée"
           },
           {
             "code" : "39621-8",
-            "display" : "MN SPECT ; guidage pour localisation d'un abcès avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT ; guidage pour localisation d'un abcès avec radionucléide IV"
           },
           {
             "code" : "39622-6",
-            "display" : "MN SPECT corps entier ; guidage pour localisation d'un abcès avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT corps entier ; guidage pour localisation d'un abcès avec radionucléide IV"
           },
           {
             "code" : "39623-4",
@@ -14178,83 +14174,83 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "39624-2",
-            "display" : "MN glande surrénale ; incidences avec I-131 norcholestérol IV"
+            "display" : "médecine nucléaire glande surrénale ; incidences avec I-131 norcholestérol IV"
           },
           {
             "code" : "39625-9",
-            "display" : "MN artère ; incidences avec Tc-99m DTPA intraartériel"
+            "display" : "médecine nucléaire artère ; incidences avec Tc-99m DTPA intraartériel"
           },
           {
             "code" : "39626-7",
-            "display" : "MN veine - bilatérale ; incidences avec radionucléide IV"
+            "display" : "médecine nucléaire veine - bilatérale ; incidences avec radionucléide IV"
           },
           {
             "code" : "39627-5",
-            "display" : "MN os ; incidences limitées avec radionucélide IV"
+            "display" : "médecine nucléaire os ; incidences limitées avec radionucélide IV"
           },
           {
             "code" : "39628-3",
-            "display" : "MN SPECT intestin grêle pour diverticule de Meckel avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT intestin grêle pour diverticule de Meckel avec radionucléide IV"
           },
           {
             "code" : "39629-1",
-            "display" : "MN intestin grêle ; incidences pour diverticule de Meckel avec radionucléide IV"
+            "display" : "médecine nucléaire intestin grêle ; incidences pour diverticule de Meckel avec radionucléide IV"
           },
           {
             "code" : "39630-9",
-            "display" : "MN cerveau ; incidences avec Tc-99m HMPAO IV"
+            "display" : "médecine nucléaire cerveau ; incidences avec Tc-99m HMPAO IV"
           },
           {
             "code" : "39631-7",
-            "display" : "MN SPECT cerveau avec Tc-99m HMPAO IV"
+            "display" : "médecine nucléaire SPECT cerveau avec Tc-99m HMPAO IV"
           },
           {
             "code" : "39632-5",
-            "display" : "MN SPECT cerveau avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT cerveau avec radionucléide IV"
           },
           {
             "code" : "39634-1",
-            "display" : "MN cerveau ; incidences limitées avec radionucélide IV"
+            "display" : "médecine nucléaire cerveau ; incidences limitées avec radionucélide IV"
           },
           {
             "code" : "39635-8",
-            "display" : "MN cerveau ; incidences avec Tl-201 IV"
+            "display" : "médecine nucléaire cerveau ; incidences avec Tl-201 IV"
           },
           {
             "code" : "39636-6",
-            "display" : "MN cerveau ; incidence pour débit sanguin avec radionucléide IV"
+            "display" : "médecine nucléaire cerveau ; incidence pour débit sanguin avec radionucléide IV"
           },
           {
             "code" : "39637-4",
-            "display" : "MN SPECT cerveau pour débit sanguin avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT cerveau pour débit sanguin avec radionucléide IV"
           },
           {
             "code" : "39638-2",
-            "display" : "MN SPECT cerveau avec I-123 IV"
+            "display" : "médecine nucléaire SPECT cerveau avec I-123 IV"
           },
           {
             "code" : "39639-0",
-            "display" : "MN SPECT cerveau avec Tl-201 IV"
+            "display" : "médecine nucléaire SPECT cerveau avec Tl-201 IV"
           },
           {
             "code" : "39640-8",
-            "display" : "MN SPECT cerveau avec Tc-99m DTPA IV"
+            "display" : "médecine nucléaire SPECT cerveau avec Tc-99m DTPA IV"
           },
           {
             "code" : "39641-6",
-            "display" : "MN SPECT cerveau avec Tc-99m glucoheptonate IV"
+            "display" : "médecine nucléaire SPECT cerveau avec Tc-99m glucoheptonate IV"
           },
           {
             "code" : "39642-4",
-            "display" : "MN cerveau ; incidences avec Tc-99m glucoheptonate IV"
+            "display" : "médecine nucléaire cerveau ; incidences avec Tc-99m glucoheptonate IV"
           },
           {
             "code" : "39643-2",
-            "display" : "MN veines du cerveau ; incidences avec radionucléide IV"
+            "display" : "médecine nucléaire veines du cerveau ; incidences avec radionucléide IV"
           },
           {
             "code" : "39644-0",
-            "display" : "MN SPECT sein avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT sein avec radionucléide IV"
           },
           {
             "code" : "39645-7",
@@ -14266,87 +14262,87 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "39647-3",
-            "display" : "MN SPECT coeur avec Tc 99m tétrofosmine IV"
+            "display" : "médecine nucléaire SPECT coeur avec Tc 99m tétrofosmine IV"
           },
           {
             "code" : "39648-1",
-            "display" : "MN SPECT coeur avec dipyridamole IV+avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT coeur avec dipyridamole IV et avec radionucléide IV"
           },
           {
             "code" : "39649-9",
-            "display" : "MN SPECT coeur avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT coeur avec radionucléide IV"
           },
           {
             "code" : "39650-7",
-            "display" : "MN coeur ; incidences avec radionucléide IV"
+            "display" : "médecine nucléaire coeur ; incidences avec radionucléide IV"
           },
           {
             "code" : "39651-5",
-            "display" : "MN coeur ; incidences avec adénosine+avec Tl-201 IV"
+            "display" : "médecine nucléaire coeur ; incidences avec adénosine et avec Tl-201 IV"
           },
           {
             "code" : "39652-3",
-            "display" : "MN coeur ; incidences avec dobutamine+avec Tl-201 IV"
+            "display" : "médecine nucléaire coeur ; incidences avec dobutamine et avec Tl-201 IV"
           },
           {
             "code" : "39653-1",
-            "display" : "MN coeur ; incidence pour infarctus avec radionucléide IV"
+            "display" : "médecine nucléaire coeur ; incidence pour infarctus avec radionucléide IV"
           },
           {
             "code" : "39654-9",
-            "display" : "MN SPECT coeur pour infarctus avec Tc-99m PYP IV"
+            "display" : "médecine nucléaire SPECT coeur pour infarctus avec Tc-99m PYP IV"
           },
           {
             "code" : "39655-6",
-            "display" : "MN SPECT coeur pour infarctus avec Tc-99m Sestamibi IV"
+            "display" : "médecine nucléaire SPECT coeur pour infarctus avec Tc-99m Sestamibi IV"
           },
           {
             "code" : "39656-4",
-            "display" : "MN SPECT coeur pour infarctus avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT coeur pour infarctus avec radionucléide IV"
           },
           {
             "code" : "39657-2",
-            "display" : "MN coeur ; incidences pour infarctus avec Tc-99m PYP IV"
+            "display" : "médecine nucléaire coeur ; incidences pour infarctus avec Tc-99m PYP IV"
           },
           {
             "code" : "39658-0",
-            "display" : "MN SPECT coeur au repos+avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT coeur au repos et avec radionucléide IV"
           },
           {
             "code" : "39660-6",
-            "display" : "MN coeur ; incidences au repos+avec dipyridamole IV+avec radionucléide IV"
+            "display" : "médecine nucléaire coeur ; incidences au repos et avec dipyridamole IV et avec radionucléide IV"
           },
           {
             "code" : "39661-4",
-            "display" : "MN coeur ; incidences au repos+avec DOBUTamine+avec radionucléide IV"
+            "display" : "médecine nucléaire coeur ; incidences au repos et avec dobutamine et avec radionucléide IV"
           },
           {
             "code" : "39662-2",
-            "display" : "MN SPECT coeur au repos+avec stress+avec Tc-99m Sestamibi IV"
+            "display" : "médecine nucléaire SPECT coeur au repos et avec stress et avec Tc-99m Sestamibi IV"
           },
           {
             "code" : "39663-0",
-            "display" : "MN coeur ; incidences au repos+avec stress+avec radionucléide IV"
+            "display" : "médecine nucléaire coeur ; incidences au repos et avec stress et avec radionucléide IV"
           },
           {
             "code" : "39664-8",
-            "display" : "MN coeur ; incidences pour détection de shunt avec Tc-99m MAA IV"
+            "display" : "médecine nucléaire coeur ; incidences pour détection de shunt avec Tc-99m MAA IV"
           },
           {
             "code" : "39665-5",
-            "display" : "MN coeur ; incidences pour détection d'un shunt avec radionucléide IV"
+            "display" : "médecine nucléaire coeur ; incidences pour détection d'un shunt avec radionucléide IV"
           },
           {
             "code" : "39666-3",
-            "display" : "MN coeur ; incidences avec stress+avec 201 TH IV"
+            "display" : "médecine nucléaire coeur ; incidences avec stress et avec 201 TH IV"
           },
           {
             "code" : "39667-1",
-            "display" : "MN coeur ; incidences avec stress+avec radionucléide IV"
+            "display" : "médecine nucléaire coeur ; incidences avec stress et avec radionucléide IV"
           },
           {
             "code" : "39668-9",
-            "display" : "MN SPECT coeur avec stress+avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT coeur avec stress et avec radionucléide IV"
           },
           {
             "code" : "39669-7",
@@ -14354,7 +14350,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "39670-5",
-            "display" : "MN conduit lacrymal ; incidences avec radionucléide intra canal lacrymal"
+            "display" : "médecine nucléaire conduit lacrymal ; incidences avec radionucléide intra canal lacrymal"
           },
           {
             "code" : "39671-3",
@@ -14362,43 +14358,43 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "39672-1",
-            "display" : "MN oesophage ; incidences pour motilité avec radionucléide per os"
+            "display" : "médecine nucléaire oesophage ; incidences pour motilité avec radionucléide per os"
           },
           {
             "code" : "39673-9",
-            "display" : "MN oesophage ; incidences pour reflux avec radionucléide per os"
+            "display" : "médecine nucléaire oesophage ; incidences pour reflux avec radionucléide per os"
           },
           {
             "code" : "39674-7",
-            "display" : "MN vésicule biliaire ; incidences avec disofénine de technétium (99mTc) IV"
+            "display" : "médecine nucléaire vésicule biliaire ; incidences avec disofénine de technétium (99mTc) IV"
           },
           {
             "code" : "39675-4",
-            "display" : "MN SPECT corps entier pour infection avec Ga-67 IV"
+            "display" : "médecine nucléaire SPECT corps entier pour infection avec Ga-67 IV"
           },
           {
             "code" : "39677-0",
-            "display" : "MN ; incidences pour infection avec Ga-67 IV"
+            "display" : "médecine nucléaire ; incidences pour infection avec Ga-67 IV dans une région du corps non spécifiée"
           },
           {
             "code" : "39678-8",
-            "display" : "MN SPECT corps entier pour tumeur avec Ga-67 IV"
+            "display" : "médecine nucléaire SPECT corps entier pour tumeur avec Ga-67 IV"
           },
           {
             "code" : "39679-6",
-            "display" : "MN ; incidences pour tumeur avec Ga-67 IV"
+            "display" : "médecine nucléaire ; incidences pour tumeur avec Ga-67 IV dans une région du corps non spécifiée"
           },
           {
             "code" : "39680-4",
-            "display" : "MN SPECT corps entier avec Ga-67 IV"
+            "display" : "médecine nucléaire SPECT corps entier avec Ga-67 IV"
           },
           {
             "code" : "39681-2",
-            "display" : "MN SPECT limitée avec Ga-67 IV"
+            "display" : "médecine nucléaire SPECT limitée avec Ga-67 IV"
           },
           {
             "code" : "39682-0",
-            "display" : "MN SPECT avec Ga-67 IV"
+            "display" : "médecine nucléaire SPECT avec Ga-67 IV"
           },
           {
             "code" : "39683-8",
@@ -14406,11 +14402,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "39684-6",
-            "display" : "MN SPECT pour abcès avec Ga-67 IV"
+            "display" : "médecine nucléaire SPECT pour abcès avec Ga-67 IV"
           },
           {
             "code" : "39685-3",
-            "display" : "MN ; incidences pour abcès avec Ga-67 IV"
+            "display" : "médecine nucléaire ; incidences pour abcès avec Ga-67 IV dans une région du corps non spécifiée"
           },
           {
             "code" : "39686-1",
@@ -14418,47 +14414,47 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "39687-9",
-            "display" : "MN ; incidences limitées avec Ga-67 IV"
+            "display" : "médecine nucléaire ; incidences limitées avec Ga-67 IV dans une région du corps non spécifiée"
           },
           {
             "code" : "39688-7",
-            "display" : "MN ; incidences avec Ga-67 IV"
+            "display" : "médecine nucléaire ; incidences avec Ga-67 IV dans une région du corps non spécifiée"
           },
           {
             "code" : "39689-5",
-            "display" : "MN tractus gastro-intestinal ; incidences avec sulfocolloïde de technétium 99 IV"
+            "display" : "médecine nucléaire tractus gastro-intestinal ; incidences avec sulfocolloïde de technétium 99 IV"
           },
           {
             "code" : "39690-3",
-            "display" : "MN foie ; incidences avec globules rouges marqués au Tc-99m IV"
+            "display" : "médecine nucléaire foie ; incidences avec globules rouges marqués au Tc-99m IV"
           },
           {
             "code" : "39691-1",
-            "display" : "MN SPECT foie avec globules rouges marqués au Tc-99m IV"
+            "display" : "médecine nucléaire SPECT foie avec globules rouges marqués au Tc-99m IV"
           },
           {
             "code" : "39692-9",
-            "display" : "MN SPECT foie avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT foie avec radionucléide IV"
           },
           {
             "code" : "39693-7",
-            "display" : "MN foie ; incidences avec radionucléide IV"
+            "display" : "médecine nucléaire foie ; incidences avec radionucléide IV"
           },
           {
             "code" : "39694-5",
-            "display" : "MN abdomen ; incidences pour foie transplanté avec radionucléide IV"
+            "display" : "médecine nucléaire abdomen ; incidences pour foie transplanté avec radionucléide IV"
           },
           {
             "code" : "39695-2",
-            "display" : "MN poumon ; incidences limitées avec radionucélide IV"
+            "display" : "médecine nucléaire poumon ; incidences limitées avec radionucélide IV"
           },
           {
             "code" : "39696-0",
-            "display" : "MN poumon ; incidences avec dépréotide & avec radionucléide IV"
+            "display" : "médecine nucléaire poumon ; incidences avec dépréotide et avec radionucléide IV"
           },
           {
             "code" : "39697-8",
-            "display" : "MN poumon ; incidences de perfusion avec radionucléide IV"
+            "display" : "médecine nucléaire poumon ; incidences de perfusion avec radionucléide IV"
           },
           {
             "code" : "39698-6",
@@ -14466,171 +14462,171 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "39699-4",
-            "display" : "MN coeur ; incidences de perfusion au repos+avec Tc-99m Sestamibi IV"
+            "display" : "médecine nucléaire coeur ; incidences de perfusion au repos et avec Tc-99m Sestamibi IV"
           },
           {
             "code" : "39700-0",
-            "display" : "MN SPECT coeur de perfusion avec adénosine+avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT coeur de perfusion avec adénosine et avec radionucléide IV"
           },
           {
             "code" : "39701-8",
-            "display" : "MN coeur ; incidences de perfusion avec adénosine+avec radionucléide IV"
+            "display" : "médecine nucléaire coeur ; incidences de perfusion avec adénosine et avec radionucléide IV"
           },
           {
             "code" : "39702-6",
-            "display" : "MN coeur ; incidences de perfusion avec DOBUTamine+avec Tc-99m Sestamibi IV"
+            "display" : "médecine nucléaire coeur ; incidences de perfusion avec dobutamine et avec Tc-99m Sestamibi IV"
           },
           {
             "code" : "39703-4",
-            "display" : "MN coeur ; incidences de perfusion avec DOBUTamine+avec radionucléide IV"
+            "display" : "médecine nucléaire coeur ; incidences de perfusion avec dobutamine et avec radionucléide IV"
           },
           {
             "code" : "39704-2",
-            "display" : "MN coeur ; incidences de perfusion avec Tc-99m Sestamibi IV"
+            "display" : "médecine nucléaire coeur ; incidences de perfusion avec Tc-99m Sestamibi IV"
           },
           {
             "code" : "39705-9",
-            "display" : "MN coeur ; incidences de perfusion avec dipyridamole IV+avec Tc-99m Sestamibi IV"
+            "display" : "médecine nucléaire coeur ; incidences de perfusion avec dipyridamole IV et avec Tc-99m Sestamibi IV"
           },
           {
             "code" : "39707-5",
-            "display" : "MN coeur ; incidences de perfusion avec dipyridamole IV+avec Tl-201 IV"
+            "display" : "médecine nucléaire coeur ; incidences de perfusion avec dipyridamole IV et avec Tl-201 IV"
           },
           {
             "code" : "39708-3",
-            "display" : "MN coeur ; incidences de perfusion avec dipyridamole IV+avec radionucléide IV"
+            "display" : "médecine nucléaire coeur ; incidences de perfusion avec dipyridamole IV et avec radionucléide IV"
           },
           {
             "code" : "39709-1",
-            "display" : "MN coeur ; incidences de perfusion avec dipyridamole IV+avec Tc-99m IV"
+            "display" : "médecine nucléaire coeur ; incidences de perfusion avec dipyridamole IV et avec Tc-99m IV"
           },
           {
             "code" : "39710-9",
-            "display" : "MN SPECT coeur de perfusion avec Tc-99m Sestamibi IV"
+            "display" : "médecine nucléaire SPECT coeur de perfusion avec Tc-99m Sestamibi IV"
           },
           {
             "code" : "39711-7",
-            "display" : "MN SPECT coeur de perfusion avec Tl-201 IV"
+            "display" : "médecine nucléaire SPECT coeur de perfusion avec Tl-201 IV"
           },
           {
             "code" : "39712-5",
-            "display" : "MN SPECT coeur de perfusion avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT coeur de perfusion avec radionucléide IV"
           },
           {
             "code" : "39713-3",
-            "display" : "MN coeur ; incidences de perfusion avec Tl-201 IV+avec Tc-99m Tétrofosmine IV"
+            "display" : "médecine nucléaire coeur ; incidences de perfusion avec Tl-201 IV et avec Tc-99m Tétrofosmine IV"
           },
           {
             "code" : "39714-1",
-            "display" : "MN coeur ; incidences de perfusion avec Tl-201 IV"
+            "display" : "médecine nucléaire coeur ; incidences de perfusion avec Tl-201 IV"
           },
           {
             "code" : "39715-8",
-            "display" : "MN coeur ; incidences de perfusion avec stress+avec Tl-201 IV"
+            "display" : "médecine nucléaire coeur ; incidences de perfusion avec stress et avec Tl-201 IV"
           },
           {
             "code" : "39716-6",
-            "display" : "MN coeur ; incidences de perfusion avec radionucléide IV"
+            "display" : "médecine nucléaire coeur ; incidences de perfusion avec radionucléide IV"
           },
           {
             "code" : "39718-2",
-            "display" : "MN SPECT coeur perfusion au repos+avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT coeur perfusion au repos et avec radionucléide IV"
           },
           {
             "code" : "39719-0",
-            "display" : "MN coeur ; incidences de perfusion au repos+avec adénosine+avec radionucléide IV"
+            "display" : "médecine nucléaire coeur ; incidences de perfusion au repos et avec adénosine et avec radionucléide IV"
           },
           {
             "code" : "39720-8",
-            "display" : "MN coeur ; incidences de perfusion au repos+avec dipyridamole IV+avec Tc-99m Sestamibi IV"
+            "display" : "médecine nucléaire coeur ; incidences de perfusion au repos et avec dipyridamole IV et avec Tc-99m Sestamibi IV"
           },
           {
             "code" : "39722-4",
-            "display" : "MN coeur ; incidences de perfusion au repos+avec dipyridamole IV+avec radionucléide IV"
+            "display" : "médecine nucléaire coeur ; incidences de perfusion au repos et avec dipyridamole IV et avec radionucléide IV"
           },
           {
             "code" : "39723-2",
-            "display" : "MN SPECT coeur de perfusion au repos+avec stress+avec Tl-201 IV"
+            "display" : "médecine nucléaire SPECT coeur de perfusion au repos et avec stress et avec Tl-201 IV"
           },
           {
             "code" : "39724-0",
-            "display" : "MN SPECT coeur perfusion au repos+avec stress+avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT coeur perfusion au repos et avec stress et avec radionucléide IV"
           },
           {
             "code" : "39725-7",
-            "display" : "MN SPECT coeur perfusion au repos+avec adénosine+avec Tl-201 IV"
+            "display" : "médecine nucléaire SPECT coeur perfusion au repos et avec adénosine et avec Tl-201 IV"
           },
           {
             "code" : "39726-5",
-            "display" : "MN coeur ; incidences de perfusion au repos+avec stress IV+avec radionucléide IV"
+            "display" : "MN coeur ; incidences de perfusion au repos et avec stress IV et avec radionucléide IV"
           },
           {
             "code" : "39727-3",
-            "display" : "MN coeur ; incidences de perfusion au repos+avec stress IV+avec Tc-99m Sestamibi IV"
+            "display" : "médecine nucléaire coeur ; incidences de perfusion au repos et avec stress IV et avec Tc-99m Sestamibi IV"
           },
           {
             "code" : "39728-1",
-            "display" : "MN coeur ; incidences de perfusion au repos+avec radionucléide IV"
+            "display" : "médecine nucléaire coeur ; incidences de perfusion au repos et avec radionucléide IV"
           },
           {
             "code" : "39729-9",
-            "display" : "MN SPECT coeur perfusion au repos+avec Tl-201 IV"
+            "display" : "médecine nucléaire SPECT coeur perfusion au repos et avec Tl-201 IV"
           },
           {
             "code" : "39730-7",
-            "display" : "MN coeur ; incidences de perfusion avec stress+avec radionucléide IV"
+            "display" : "médecine nucléaire coeur ; incidences de perfusion avec stress et avec radionucléide IV"
           },
           {
             "code" : "39731-5",
-            "display" : "MN coeur ; incidences de perfusion avec adénosine+avec Tc-99m Sestamibi IV"
+            "display" : "médecine nucléaire coeur ; incidences de perfusion avec adénosine et avec Tc-99m Sestamibi IV"
           },
           {
             "code" : "39732-3",
-            "display" : "MN coeur ; incidences de perfusion avec stress+avec Tc-99m Sestamibi IV"
+            "display" : "médecine nucléaire coeur ; incidences de perfusion avec stress et avec Tc-99m Sestamibi IV"
           },
           {
             "code" : "39733-1",
-            "display" : "MN coeur ; incidences de perfusion avec DOBUTamine+avec Tl-201 IV"
+            "display" : "médecine nucléaire coeur ; incidences de perfusion avec dobutamine et avec Tl-201 IV"
           },
           {
             "code" : "39734-9",
-            "display" : "MN SPECT coeur de perfusion avec stress+avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT coeur de perfusion avec stress et avec radionucléide IV"
           },
           {
             "code" : "39735-6",
-            "display" : "MN coeur ; incidences perfusion avec adénosine+avec Tl-201 IV"
+            "display" : "médecine nucléaire coeur ; incidences perfusion avec adénosine et avec Tl-201 IV"
           },
           {
             "code" : "39736-4",
-            "display" : "MN SPECT coeur de perfusion avec stress+avec Tc-99m Sestamibi IV"
+            "display" : "médecine nucléaire SPECT coeur de perfusion avec stress et avec Tc-99m Sestamibi IV"
           },
           {
             "code" : "39737-2",
-            "display" : "MN cou ; incidences avec radionucléide IV"
+            "display" : "médecine nucléaire cou ; incidences avec radionucléide IV"
           },
           {
             "code" : "39738-0",
-            "display" : "MN abdomen ; incidences avec In-111 Satumomab IV"
+            "display" : "médecine nucléaire abdomen ; incidences avec In-111 Satumomab IV"
           },
           {
             "code" : "39739-8",
-            "display" : "MN pancréas ; incidences avec radionucléide IV"
+            "display" : "médecine nucléaire pancréas ; incidences avec radionucléide IV"
           },
           {
             "code" : "39740-6",
-            "display" : "MN SPECT glande parathyroïde avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT glande parathyroïde avec radionucléide IV"
           },
           {
             "code" : "39741-4",
-            "display" : "MN glande parathyroïde ; incidences retardées avec radionucléide IV"
+            "display" : "médecine nucléaire glande parathyroïde ; incidences retardées avec radionucléide IV"
           },
           {
             "code" : "39742-2",
-            "display" : "MN glande parathyroïde ; incidences avec radionucléide IV"
+            "display" : "médecine nucléaire glande parathyroïde ; incidences avec radionucléide IV"
           },
           {
             "code" : "39743-0",
-            "display" : "MN SPECT prostate avec Tc-99m capromab pendatide IV"
+            "display" : "médecine nucléaire SPECT prostate avec Tc-99m capromab pendatide IV"
           },
           {
             "code" : "39744-8",
@@ -14646,11 +14642,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "39747-1",
-            "display" : "MN glande salivaire ; incidences avec radionucléide IV"
+            "display" : "médecine nucléaire glande salivaire ; incidences avec radionucléide IV"
           },
           {
             "code" : "39748-9",
-            "display" : "MN SPECT corps entier pour tumeur avec Tc-99m Sestamibi IV"
+            "display" : "médecine nucléaire SPECT corps entier pour tumeur avec Tc-99m Sestamibi IV"
           },
           {
             "code" : "39749-7",
@@ -14658,7 +14654,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "39750-5",
-            "display" : "MN ; incidences pour tumeur avec Tc-99m Sestamibi IV"
+            "display" : "médecine nucléaire ; incidences pour tumeur avec Tc-99m Sestamibi IV dans une région du corps non spécifiée"
           },
           {
             "code" : "39751-3",
@@ -14674,19 +14670,19 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "39754-7",
-            "display" : "MN glande thyroïde ; incidences limitées avec I-131 IV"
+            "display" : "médecine nucléaire glande thyroïde ; incidences limitées avec I-131 IV"
           },
           {
             "code" : "39755-4",
-            "display" : "MN SPECT glande thyroïde avec I-131 IV"
+            "display" : "médecine nucléaire SPECT glande thyroïde avec I-131 IV"
           },
           {
             "code" : "39756-2",
-            "display" : "MN glande thyroïde ; incidences avec Tc-99m Sestamibi IV"
+            "display" : "médecine nucléaire glande thyroïde ; incidences avec Tc-99m Sestamibi IV"
           },
           {
             "code" : "39757-0",
-            "display" : "MN glande thyroïde ; incidences avec Tc-99m IV"
+            "display" : "médecine nucléaire glande thyroïde ; incidences avec Tc-99m IV"
           },
           {
             "code" : "39758-8",
@@ -14694,103 +14690,103 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "39759-6",
-            "display" : "MN SPECT ; guidage limité pour localisation de tumeur avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT ; guidage limité pour localisation de tumeur avec radionucléide IV"
           },
           {
             "code" : "39760-4",
-            "display" : "MN ; guidage limité pour localisation de tumeur avec radionucléide IV"
+            "display" : "médecine nucléaire ; guidage limité pour localisation de tumeur avec radionucléide IV dans une région du corps non spécifiée"
           },
           {
             "code" : "39761-2",
-            "display" : "MN ; guidage limité pour localisation de tumeur avec Tc-99m Sestamibi IV"
+            "display" : "médecine nucléaire ; guidage limité pour localisation de tumeur avec Tc-99m Sestamibi IV"
           },
           {
             "code" : "39762-0",
-            "display" : "MN SPECT corps entier ; guidage pour localisation de tumeur avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT corps entier ; guidage pour localisation de tumeur avec radionucléide IV"
           },
           {
             "code" : "39763-8",
-            "display" : "MN corps entier ; guidage pour localisation de tumeur avec radionucléide IV"
+            "display" : "médecine nucléaire corps entier ; guidage pour localisation de tumeur avec radionucléide IV"
           },
           {
             "code" : "39764-6",
-            "display" : "MN veine ; incidences avec sulfocolloïde de technétium 99 IV"
+            "display" : "médecine nucléaire veine ; incidences avec sulfocolloïde de technétium 99 IV"
           },
           {
             "code" : "39765-3",
-            "display" : "MN veine ; incidences avec Tc-99m DTPA IV"
+            "display" : "médecine nucléaire veine ; incidences avec Tc-99m DTPA IV"
           },
           {
             "code" : "39766-1",
-            "display" : "MN veine ; incidences avec oxidronate marqué au technétium 99mTc IV"
+            "display" : "médecine nucléaire veine ; incidences avec oxidronate marqué au technétium 99mTc IV"
           },
           {
             "code" : "39767-9",
-            "display" : "MN estomac ; incidences pour la phase solide de la vidange gastrique avec radionucléide per os"
+            "display" : "médecine nucléaire estomac ; incidences pour la phase solide de la vidange gastrique avec radionucléide per os"
           },
           {
             "code" : "39768-7",
-            "display" : "MN estomac ; incidences avec vidange gastrique avec sulfocolloïde de technétium 99 IV"
+            "display" : "médecine nucléaire estomac ; incidences avec vidange gastrique avec sulfocolloïde de technétium 99 IV"
           },
           {
             "code" : "39769-5",
-            "display" : "MN estomac ; incidence pour vidange gastrique avec radionucléide per os"
+            "display" : "médecine nucléaire estomac ; incidence pour vidange gastrique avec radionucléide per os"
           },
           {
             "code" : "39770-3",
-            "display" : "MN SPECT tractus gastro-intestinal avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT tractus gastro-intestinal avec radionucléide IV"
           },
           {
             "code" : "39811-5",
-            "display" : "MN SPECT pour abcès avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT pour abcès avec radionucléide IV"
           },
           {
             "code" : "39812-3",
-            "display" : "MN os ; incidences avec Tc-99m HMPAO IV"
+            "display" : "médecine nucléaire os ; incidences avec Tc-99m HMPAO IV"
           },
           {
             "code" : "39813-1",
-            "display" : "MN SPECT os limitée avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT os limitée avec radionucléide IV"
           },
           {
             "code" : "39816-4",
-            "display" : "MN SPECT os du corps entier avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT os du corps entier avec radionucléide IV"
           },
           {
             "code" : "39818-0",
-            "display" : "MN os du corps entier ; incidences avec radionucléide IV"
+            "display" : "médecine nucléaire os du corps entier ; incidences avec radionucléide IV"
           },
           {
             "code" : "39819-8",
-            "display" : "MN os ; incidences retardées avec radionucléide IV"
+            "display" : "médecine nucléaire os ; incidences retardées avec radionucléide IV"
           },
           {
             "code" : "39820-6",
-            "display" : "MN os ; incidences avec Sm-153 IV"
+            "display" : "médecine nucléaire os ; incidences avec Sm-153 IV"
           },
           {
             "code" : "39821-4",
-            "display" : "MN SPECT moelle osseuse limitée avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT moelle osseuse limitée avec radionucléide IV"
           },
           {
             "code" : "39822-2",
-            "display" : "MN moelle osseuse ; incidences limitées avec radionucélide IV"
+            "display" : "médecine nucléaire moelle osseuse ; incidences limitées avec radionucélide IV"
           },
           {
             "code" : "39823-0",
-            "display" : "MN SPECT moelle osseuse avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT moelle osseuse avec radionucléide IV"
           },
           {
             "code" : "39824-8",
-            "display" : "MN moelle osseuse ; incidences avec radionucléide IV"
+            "display" : "médecine nucléaire moelle osseuse ; incidences avec radionucléide IV"
           },
           {
             "code" : "39825-5",
-            "display" : "MN SPECT moelle osseuse corps entier avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT moelle osseuse corps entier avec radionucléide IV"
           },
           {
             "code" : "39826-3",
-            "display" : "MN moelle osseuse corps entier ; incidences avec radionucléide IV"
+            "display" : "médecine nucléaire moelle osseuse corps entier ; incidences avec radionucléide IV"
           },
           {
             "code" : "39827-1",
@@ -14802,7 +14798,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "39829-7",
-            "display" : "MN corps entier ; incidences pour tumeur avec Ga-67 IV"
+            "display" : "médecine nucléaire corps entier ; incidences pour tumeur avec Ga-67 IV"
           },
           {
             "code" : "39830-5",
@@ -14810,23 +14806,23 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "39831-3",
-            "display" : "MN ; incidences limitées pour tumeur avec Ga-67 IV"
+            "display" : "médecine nucléaire ; incidences limitées pour tumeur avec Ga-67 IV dans une région du corps non spécifiée"
           },
           {
             "code" : "39834-7",
-            "display" : "MN poumon ; incidences de ventilation avec Tc-99m DTPA aérosol en inhalation"
+            "display" : "médecine nucléaire poumon ; incidences de ventilation avec Tc-99m DTPA aérosol en inhalation"
           },
           {
             "code" : "39837-0",
-            "display" : "MN poumon ; incidences de ventilation avec radionucléide en inhalation"
+            "display" : "médecine nucléaire poumon ; incidences de ventilation avec radionucléide en inhalation"
           },
           {
             "code" : "39838-8",
-            "display" : "MN SPECT poumon de ventilation+perfusion avec radionucléide en inhalation+avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT poumon de ventilation et perfusion avec radionucléide en inhalation et avec radionucléide IV"
           },
           {
             "code" : "39839-6",
-            "display" : "MN SPECT corps entier avec I-131 MIBG IV"
+            "display" : "médecine nucléaire SPECT corps entier avec I-131 MIBG IV"
           },
           {
             "code" : "39840-4",
@@ -14834,7 +14830,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "39841-2",
-            "display" : "MN ; incidences avec I-131 MIBG IV"
+            "display" : "médecine nucléaire ; incidences avec I-131 MIBG IV dans une région du corps non spécifiée"
           },
           {
             "code" : "39842-0",
@@ -14842,11 +14838,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "39843-8",
-            "display" : "MN ; incidences limitées avec In-111 Satumomab IV"
+            "display" : "médecine nucléaire ; incidences limitées avec In-111 Satumomab IV dans une région du corps non spécifiée"
           },
           {
             "code" : "39844-6",
-            "display" : "MN SPECT corps entier avec In-111 Satumomab IV"
+            "display" : "médecine nucléaire SPECT corps entier avec In-111 Satumomab IV"
           },
           {
             "code" : "39845-3",
@@ -14854,19 +14850,19 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "39846-1",
-            "display" : "MN ; incidences avec In-111 Satumomab IV"
+            "display" : "médecine nucléaire ; incidences avec In-111 Satumomab IV dans une région du corps non spécifiée"
           },
           {
             "code" : "39847-9",
-            "display" : "MN glande parotide ; incidence pour débit sanguin avec radionucléide IV"
+            "display" : "médecine nucléaire glande parotide ; incidence pour débit sanguin avec radionucléide IV"
           },
           {
             "code" : "39848-7",
-            "display" : "MN tête+cou+thorax+abdomen+pelvis ; incidences pour perméabilité d'un shunt W In-111 IT"
+            "display" : "médecine nucléaire tête et cou et thorax et abdomen et pelvis ; incidences pour perméabilité d'un shunt W In-111 IT"
           },
           {
             "code" : "39849-5",
-            "display" : "MN tête+cou+thorax+abdomen+pelvis ; incidences pour perméabilité d'un shunt avec radionucléide intrathécal"
+            "display" : "médecine nucléaire tête et cou et thorax et abdomen et pelvis ; incidences pour perméabilité d'un shunt avec radionucléide intrathécal"
           },
           {
             "code" : "39850-3",
@@ -14874,87 +14870,87 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "39851-1",
-            "display" : "MN SPECT rein - bilatéral avec Tc-99m Mertiatide IV"
+            "display" : "médecine nucléaire SPECT rein - bilatéral avec Tc-99m Mertiatide IV"
           },
           {
             "code" : "39852-9",
-            "display" : "MN SPECT rein - bilatéral avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT rein - bilatéral avec radionucléide IV"
           },
           {
             "code" : "39856-0",
-            "display" : "MN glande thyroïde ; incidence pour débit sanguin avec radionucléide IV"
+            "display" : "médecine nucléaire glande thyroïde ; incidence pour débit sanguin avec radionucléide IV"
           },
           {
             "code" : "39857-8",
-            "display" : "MN glande surrénale ; incidences avec I-131 MIBG IV"
+            "display" : "médecine nucléaire glande surrénale ; incidences avec I-131 MIBG IV"
           },
           {
             "code" : "39858-6",
-            "display" : "MN os ; incidence pour débit sanguin avec radionucléide IV"
+            "display" : "médecine nucléaire os ; incidence pour débit sanguin avec radionucléide IV"
           },
           {
             "code" : "39859-4",
-            "display" : "MN cerveau ; incidences retardées avec radionucléide IV"
+            "display" : "médecine nucléaire cerveau ; incidences retardées avec radionucléide IV"
           },
           {
             "code" : "39860-2",
-            "display" : "MN coeur ; incidences pool sanguin avec stress & avec radionucléide IV"
+            "display" : "médecine nucléaire coeur ; incidences pool sanguin avec stress et avec radionucléide IV"
           },
           {
             "code" : "39861-0",
-            "display" : "MN coeur ; incidences pool sanguin avec radionucléide IV"
+            "display" : "médecine nucléaire coeur ; incidences pool sanguin avec radionucléide IV"
           },
           {
             "code" : "39862-8",
-            "display" : "MN SPECT coeur pool sanguin au repos+avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT coeur pool sanguin au repos et avec radionucléide IV"
           },
           {
             "code" : "39863-6",
-            "display" : "MN coeur ; incidences de première passe au repos+avec stress+avec radionucléide IV"
+            "display" : "médecine nucléaire coeur ; incidences de première passe au repos et avec stress et avec radionucléide IV"
           },
           {
             "code" : "39864-4",
-            "display" : "MN coeur ; incidences de premier passage avec radionucléide IV"
+            "display" : "médecine nucléaire coeur ; incidences de premier passage avec radionucléide IV"
           },
           {
             "code" : "39865-1",
-            "display" : "MN ventricule gauche ; incidences de premier passage avec radionucléide IV"
+            "display" : "médecine nucléaire ventricule gauche ; incidences de premier passage avec radionucléide IV"
           },
           {
             "code" : "39866-9",
-            "display" : "MN coeur ; incidences de premier passage au repos+avec Tc-99m Sestamibi IV"
+            "display" : "médecine nucléaire coeur ; incidences de premier passage au repos et avec Tc-99m Sestamibi IV"
           },
           {
             "code" : "39867-7",
-            "display" : "MN coeur ; incidences au premier passage du marqueur au repos+avec radionucléide IV"
+            "display" : "médecine nucléaire coeur ; incidences au premier passage du marqueur au repos et avec radionucléide IV"
           },
           {
             "code" : "39868-5",
-            "display" : "MN coeur ; incidences de premier passage avec stress+avec Tc-99m Sestamibi IV"
+            "display" : "médecine nucléaire coeur ; incidences de premier passage avec stress et avec Tc-99m Sestamibi IV"
           },
           {
             "code" : "39869-3",
-            "display" : "MN coeur ; incidences de premier passage avec stress+avec radionucléide IV"
+            "display" : "médecine nucléaire coeur ; incidences de premier passage avec stress et avec radionucléide IV"
           },
           {
             "code" : "39870-1",
-            "display" : "MN coeur ; incidences pour débit sanguin avec avec pertechnétate de technétium 99m Tc IV"
+            "display" : "médecine nucléaire coeur ; incidences pour débit sanguin avec avec pertechnétate de technétium 99m Tc IV"
           },
           {
             "code" : "39871-9",
-            "display" : "MN coeur ; incidence pour débit sanguin avec radionucléide IV"
+            "display" : "médecine nucléaire coeur ; incidence pour débit sanguin avec radionucléide IV"
           },
           {
             "code" : "39872-7",
-            "display" : "MN SPECT coeur cinétique pariétale avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT coeur cinétique pariétale avec radionucléide IV"
           },
           {
             "code" : "39873-5",
-            "display" : "MN coeur ; incidences cinétique pariétale avec radionucléide IV"
+            "display" : "médecine nucléaire coeur ; incidences cinétique pariétale avec radionucléide IV"
           },
           {
             "code" : "39874-3",
-            "display" : "MN citernes cérébrales ; incidences retardées avec radionucléide intrathécal"
+            "display" : "médecine nucléaire citernes cérébrales ; incidences retardées avec radionucléide intrathécal"
           },
           {
             "code" : "39875-0",
@@ -14962,255 +14958,255 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "39876-8",
-            "display" : "MN SPECT foie et rate avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT foie et rate avec radionucléide IV"
           },
           {
             "code" : "39877-6",
-            "display" : "MN foie et rate ; incidences avec radionucléide IV"
+            "display" : "médecine nucléaire foie et rate ; incidences avec radionucléide IV"
           },
           {
             "code" : "39879-2",
-            "display" : "MN SPECT os (unique) avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT os (unique) avec radionucléide IV"
           },
           {
             "code" : "39880-0",
-            "display" : "MN os ; incidences 2 phases avec radionucléide IV"
+            "display" : "médecine nucléaire os ; incidences 2 phases avec radionucléide IV"
           },
           {
             "code" : "39881-8",
-            "display" : "MN SPECT os du corps entier 3 phases avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT os du corps entier 3 phases avec radionucléide IV"
           },
           {
             "code" : "39882-6",
-            "display" : "MN os du corps entier ; incidences 3 phases avec radionucléide IV"
+            "display" : "médecine nucléaire os du corps entier ; incidences 3 phases avec radionucléide IV"
           },
           {
             "code" : "39883-4",
-            "display" : "MN os ; incidences 3 phases avec radionucléide IV"
+            "display" : "médecine nucléaire os ; incidences 3 phases avec radionucléide IV"
           },
           {
             "code" : "39884-2",
-            "display" : "MN os ; incidences pool sanguin avec radionucléide IV"
+            "display" : "médecine nucléaire os ; incidences pool sanguin avec radionucléide IV"
           },
           {
             "code" : "39885-9",
-            "display" : "MN coeur ; incidences au premier passage du marqueur+volume ventriculaire avec radionucléide IV"
+            "display" : "médecine nucléaire coeur ; incidences au premier passage du marqueur et volume ventriculaire avec radionucléide IV"
           },
           {
             "code" : "39886-7",
-            "display" : "MN coeur ; incidences premier passage+cinétique pariétale au repos+avec radionucléide IV"
+            "display" : "médecine nucléaire coeur ; incidences premier passage et cinétique pariétale au repos et avec radionucléide IV"
           },
           {
             "code" : "39887-5",
-            "display" : "MN coeur ; incidences au premier passage du marqueur+fraction d'éjection au repos+avec radionucléide IV"
+            "display" : "médecine nucléaire coeur ; incidences au premier passage du marqueur et fraction d'éjection au repos et avec radionucléide IV"
           },
           {
             "code" : "39888-3",
-            "display" : "MN coeur ; incidences premier passage+cinétique pariétale avec stress+avec radionucléide IV"
+            "display" : "médecine nucléaire coeur ; incidences premier passage et cinétique pariétale avec stress et avec radionucléide IV"
           },
           {
             "code" : "39889-1",
-            "display" : "MN coeur ; incidences au premier passage du marqueur+fraction d'éjection avec radionucléide IV"
+            "display" : "médecine nucléaire coeur ; incidences au premier passage du marqueur et fraction d'éjection avec radionucléide IV"
           },
           {
             "code" : "39890-9",
-            "display" : "MN coeur ; incidences premier passage+cinétique pariétale avec radionucléide IV"
+            "display" : "médecine nucléaire coeur ; incidences premier passage et cinétique pariétale avec radionucléide IV"
           },
           {
             "code" : "39891-7",
-            "display" : "MN coeur ; incidences pour infarctus+au premier passage du marqueur avec Tc-99m PYP IV"
+            "display" : "médecine nucléaire coeur ; incidences pour infarctus et au premier passage du marqueur avec Tc-99m PYP IV"
           },
           {
             "code" : "39892-5",
-            "display" : "MN coeur ; incidences pour infarctus+première passe avec radionucléide IV"
+            "display" : "médecine nucléaire coeur ; incidences pour infarctus et première passe avec radionucléide IV"
           },
           {
             "code" : "39893-3",
-            "display" : "MN coeur ; incidences pour débit sanguin+détection d'un shunt avec radionucléide IV"
+            "display" : "médecine nucléaire coeur ; incidences pour débit sanguin et détection d'un shunt avec radionucléide IV"
           },
           {
             "code" : "39895-8",
-            "display" : "MN vésicule biliaire ; incidences pour fraction d'éjection avec Tc-99m DISIDA IV"
+            "display" : "médecine nucléaire vésicule biliaire ; incidences pour fraction d'éjection avec Tc-99m DISIDA IV"
           },
           {
             "code" : "39897-4",
-            "display" : "MN poumon et foie ; incidences avec radionucléide IV"
+            "display" : "médecine nucléaire poumon et foie ; incidences avec radionucléide IV"
           },
           {
             "code" : "39898-2",
-            "display" : "MN SPECT poumon de ventilation avec aérosol de radionucléide en inhalation"
+            "display" : "médecine nucléaire SPECT poumon de ventilation avec aérosol de radionucléide en inhalation"
           },
           {
             "code" : "39899-0",
-            "display" : "MN glande salivaire ; incidence pour débit sanguin avec radionucléide IV"
+            "display" : "médecine nucléaire glande salivaire ; incidence pour débit sanguin avec radionucléide IV"
           },
           {
             "code" : "39901-4",
-            "display" : "MN os ; incidences 3 phases aires multiples avec radionucléide IV"
+            "display" : "médecine nucléaire os ; incidences 3 phases aires multiples avec radionucléide IV"
           },
           {
             "code" : "39902-2",
-            "display" : "MN os ; incidences 3 phases aire unique avec radionucléide IV"
+            "display" : "médecine nucléaire os ; incidences 3 phases aire unique avec radionucléide IV"
           },
           {
             "code" : "39904-8",
-            "display" : "MN os ; incidences d'aires multiples avec radionucléide IV"
+            "display" : "médecine nucléaire os ; incidences d'aires multiples avec radionucléide IV"
           },
           {
             "code" : "39905-5",
-            "display" : "MN SPECT os aires multiples avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT os aires multiples avec radionucléide IV"
           },
           {
             "code" : "39906-3",
-            "display" : "MN SPECT moelle osseuse aires multiples avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT moelle osseuse aires multiples avec radionucléide IV"
           },
           {
             "code" : "39907-1",
-            "display" : "MN moelle osseuse ; incidences d'aires multiples avec radionucléide IV"
+            "display" : "médecine nucléaire moelle osseuse ; incidences d'aires multiples avec radionucléide IV"
           },
           {
             "code" : "39908-9",
-            "display" : "MN coeur ; incidences premier passage+cinétique pariétale+volume ventriculaire avec stress+avec radionucléide IV"
+            "display" : "MN coeur ; incidences premier passage et cinétique pariétale et volume ventriculaire avec stress et avec radionucléide IV"
           },
           {
             "code" : "39909-7",
-            "display" : "MN coeur ; incidences premier passage+cinétique pariétale+volume ventriculaire+fraction d'éjection avec stress+avec radionucléide IV"
+            "display" : "médecine nucléaire coeur ; incidences premier passage et cinétique pariétale et volume ventriculaire et fraction d'éjection avec stress et avec radionucléide IV"
           },
           {
             "code" : "39910-5",
-            "display" : "MN coeur ; incidences premier passage+cinétique pariétale+fraction d'éjection avec radionucléide IV"
+            "display" : "médecine nucléaire coeur ; incidences premier passage et cinétique pariétale et fraction d'éjection avec radionucléide IV"
           },
           {
             "code" : "39912-1",
-            "display" : "MN coeur ; incidences premier passage+cinétique pariétale+volume ventriculaire+fraction d'éjection avec radionucléide IV"
+            "display" : "médecine nucléaire coeur ; incidences premier passage et cinétique pariétale et volume ventriculaire et fraction d'éjection avec radionucléide IV"
           },
           {
             "code" : "39913-9",
-            "display" : "MN SPECT coeur synchronisée+fraction d'éjection avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT coeur synchronisée et fraction d'éjection avec radionucléide IV"
           },
           {
             "code" : "39914-7",
-            "display" : "MN coeur ; incidences synchronisées avec Tc-99m Sestamibi IV"
+            "display" : "médecine nucléaire coeur ; incidences synchronisées avec Tc-99m Sestamibi IV"
           },
           {
             "code" : "39915-4",
-            "display" : "MN coeur ; incidences synchronisées avec radionucléide IV"
+            "display" : "médecine nucléaire coeur ; incidences synchronisées avec radionucléide IV"
           },
           {
             "code" : "39916-2",
-            "display" : "MN SPECT coeur synchronisée avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT coeur synchronisée avec radionucléide IV"
           },
           {
             "code" : "39917-0",
-            "display" : "MN coeur ; incidences synchronisées+fraction d'éjection avec radionucléide IV"
+            "display" : "médecine nucléaire coeur ; incidences synchronisées et fraction d'éjection avec radionucléide IV"
           },
           {
             "code" : "39918-8",
-            "display" : "MN SPECT coeur synchronisée+cinétique pariétale avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT coeur synchronisée et cinétique pariétale avec radionucléide IV"
           },
           {
             "code" : "39919-6",
-            "display" : "MN coeur ; incidences synchronisées+premier passage avec radionucléide IV"
+            "display" : "médecine nucléaire coeur ; incidences synchronisées et premier passage avec radionucléide IV"
           },
           {
             "code" : "39920-4",
-            "display" : "MN coeur ; incidences synchronisées au repos+avec Tc-99m Sestamibi IV"
+            "display" : "médecine nucléaire coeur ; incidences synchronisées au repos et avec Tc-99m Sestamibi IV"
           },
           {
             "code" : "39921-2",
-            "display" : "MN coeur ; incidences synchronisées au repos+avec radionucléide IV"
+            "display" : "médecine nucléaire coeur ; incidences synchronisées au repos et avec radionucléide IV"
           },
           {
             "code" : "39922-0",
-            "display" : "MN coeur ; incidences synchronisées au repos+avec Tc-99m pertechnétate IV"
+            "display" : "médecine nucléaire coeur ; incidences synchronisées au repos et avec Tc-99m pertechnétate IV"
           },
           {
             "code" : "39923-8",
-            "display" : "MN coeur ; incidences synchronisées+fraction d'éjection au repos+avec radionucléide IV"
+            "display" : "médecine nucléaire coeur ; incidences synchronisées et fraction d'éjection au repos et avec radionucléide IV"
           },
           {
             "code" : "39924-6",
-            "display" : "MN coeur ; incidences synchronisées au repos+avec stress+avec radionucléide IV"
+            "display" : "médecine nucléaire coeur ; incidences synchronisées au repos et avec stress et avec radionucléide IV"
           },
           {
             "code" : "39925-3",
-            "display" : "MN coeur ; incidences synchronisées et cinétique pariétale et fraction d'éjection au repos+avec radionucléide IV"
+            "display" : "médecine nucléaire coeur ; incidences synchronisées et cinétique pariétale et fraction d'éjection au repos et avec radionucléide IV"
           },
           {
             "code" : "39927-9",
-            "display" : "MN coeur ; incidences synchronisées avec stress+avec Tc-99m pertechnétate IV"
+            "display" : "médecine nucléaire coeur ; incidences synchronisées avec stress et avec Tc-99m pertechnétate IV"
           },
           {
             "code" : "39928-7",
-            "display" : "MN coeur ; incidences synchronisées avec stress+avec radionucléide IV"
+            "display" : "médecine nucléaire coeur ; incidences synchronisées avec stress et avec radionucléide IV"
           },
           {
             "code" : "39929-5",
-            "display" : "MN coeur ; incidences synchronisées et cinétique pariétale avec stress+avec radionucléide IV"
+            "display" : "médecine nucléaire coeur ; incidences synchronisées et cinétique pariétale avec stress et avec radionucléide IV"
           },
           {
             "code" : "39930-3",
-            "display" : "MN SPECT coeur synchronisée avec stress+avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT coeur synchronisée avec stress et avec radionucléide IV"
           },
           {
             "code" : "39931-1",
-            "display" : "MN coeur ; incidences synchronisées et cinétique pariétale et fraction d'éjection avec radionucléide IV"
+            "display" : "médecine nucléaire coeur ; incidences synchronisées et cinétique pariétale et fraction d'éjection avec radionucléide IV"
           },
           {
             "code" : "39932-9",
-            "display" : "MN coeur ; incidences cinétique pariétale+fraction d'éjection avec radionucléide IV"
+            "display" : "médecine nucléaire coeur ; incidences cinétique pariétale et fraction d'éjection avec radionucléide IV"
           },
           {
             "code" : "39933-7",
-            "display" : "MN ; incidences pour infection d'aires mutliples avec Ga-67 IV"
+            "display" : "médecine nucléaire ; incidences pour infection d'aires mutliples avec Ga-67 IV dans une région du corps non spécifiée"
           },
           {
             "code" : "39934-5",
-            "display" : "MN ; incidences pour aires mutliples de tumeur avec Ga-67 IV"
+            "display" : "médecine nucléaire ; incidences pour aires mutliples de tumeur avec Ga-67 IV dans une région du corps non spécifiée"
           },
           {
             "code" : "39935-2",
-            "display" : "MN ; incidences d'aires mutliples avec Ga-67 IV"
+            "display" : "médecine nucléaire ; incidences d'aires mutliples avec Ga-67 IV dans une région du corps non spécifiée"
           },
           {
             "code" : "39936-0",
-            "display" : "MN articulation ; incidences limitées avec radionucélide IV"
+            "display" : "médecine nucléiare articulation ; incidences limitées avec radionucélide IV"
           },
           {
             "code" : "39937-8",
-            "display" : "MN articulation ; incidences d'aires multiples avec radionucléide XXX"
+            "display" : "médecine nucléaire articulation ; incidences d'aires multiples avec radionucléide XXX"
           },
           {
             "code" : "39938-6",
-            "display" : "MN SPECT articulation avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT articulation avec radionucléide IV"
           },
           {
             "code" : "39939-4",
-            "display" : "MN articulation ; incidences avec radionucléide IV"
+            "display" : "médecine nucléiare articulation ; incidences avec radionucléide IV"
           },
           {
             "code" : "39940-2",
-            "display" : "MN poumon ; incidences pour clairance avec Tc-99m DTPA en aérosol en inhalation"
+            "display" : "médecine nucléaire poumon ; incidences pour clairance avec Tc-99m DTPA en aérosol en inhalation"
           },
           {
             "code" : "39942-8",
-            "display" : "MN poumon ; incidences de ventilation+perfusion avec radionucléide en inhalation +avec radionucléide IV"
+            "display" : "médecine nucléaire poumon ; incidences de ventilation et perfusion avec radionucléide en inhalation et avec radionucléide IV"
           },
           {
             "code" : "39944-4",
-            "display" : "MN poumon ; incidences de ventilation et d'équilibre et de lavage avec radionucléide en inhalation"
+            "display" : "médecine nucléaire poumon ; incidences de ventilation et d'équilibre et de lavage avec radionucléide en inhalation"
           },
           {
             "code" : "39946-9",
-            "display" : "MN poumon ; incidences de ventilation+de perfusion+différentielles avec radionucléide en inhalation+avec radionucléide IV"
+            "display" : "médecine nucléaire poumon ; incidences de ventilation et de perfusion et différentielles avec radionucléide en inhalation et avec radionucléide IV"
           },
           {
             "code" : "39947-7",
-            "display" : "MN poumon ; incidences ventilation+équilibre avec radionucléide en inhalation"
+            "display" : "médecine nucléaire poumon ; incidences ventilation et équilibre avec radionucléide en inhalation"
           },
           {
             "code" : "39949-3",
-            "display" : "MN ; incidences en aires multiples avec In-111 Satumomab IV"
+            "display" : "médecine nucléaire ; incidences en aires multiples avec In-111 Satumomab IV dans une région du corps non spécifiée"
           },
           {
             "code" : "39950-1",
@@ -15218,23 +15214,23 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "39951-9",
-            "display" : "MN ; incidences pour aires mutliples de tumeur avecTc-99m Sestamibi IV"
+            "display" : "médecine nucléaire ; incidences pour aires mutliples de tumeur avecTc-99m Sestamibi IV dans une région du corps non spécifiée"
           },
           {
             "code" : "39952-7",
-            "display" : "MN scrotum et testicule ; incidences pour débit sanguin+fonction avec radionucléide IV"
+            "display" : "MN scrotum et testicule ; incidences pour débit sanguin et fonction avec radionucléide IV"
           },
           {
             "code" : "39953-5",
-            "display" : "MN ; guidage pour localisation de tumeur d'aires multiples avec radionucléide IV"
+            "display" : "médecine nucléaire ; guidage pour localisation de tumeur d'aires multiples avec radionucléide IV dans une région du corps non spécifiée"
           },
           {
             "code" : "39954-3",
-            "display" : "MN veine ; incidences pour thrombose avec radionucléide IV"
+            "display" : "médecine nucléaire veine ; incidences pour thrombose avec radionucléide IV"
           },
           {
             "code" : "41770-9",
-            "display" : "MN vésicule biliaire ; incidences avec cholécystokinine+avec radionucléide IV"
+            "display" : "médecine nucléaire vésicule biliaire ; incidences avec cholécystokinine et avec radionucléide IV"
           },
           {
             "code" : "41771-7",
@@ -15242,7 +15238,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "41772-5",
-            "display" : "MN SPECT os avec globules blancs marqués In-111 IV"
+            "display" : "médecine nucléaire SPECT os avec globules blancs marqués In-111 IV"
           },
           {
             "code" : "41773-3",
@@ -15322,23 +15318,23 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "41795-6",
-            "display" : "RF tractus gastro-intestinal supérieur et intestin grêle ; incidence avec contraste naturel par l’air ambiant per os"
+            "display" : "fluoroscopie tractus gastro-intestinal supérieur et intestin grêle ; incidence avec contraste naturel par l’air ambiant per os"
           },
           {
             "code" : "41797-2",
-            "display" : "RF côlon ; incidences limitées avec contraste naturel par l’air ambiant par voie rectale+avec contraste au barium par voie rectale"
+            "display" : "fluoroscopie côlon ; incidences limitées avec contraste naturel par l’air ambiant par voie rectale et avec contraste au barium par voie rectale"
           },
           {
             "code" : "41798-0",
-            "display" : "échographie prostate ; guidage pour drainage+placement d'un cathéter de drainage"
+            "display" : "échographie prostate ; guidage pour drainage et placement d'un cathéter de drainage"
           },
           {
             "code" : "41799-8",
-            "display" : "RF foie ; guidage pour placement d'une sonde"
+            "display" : "fluoroscopie foie ; guidage pour placement d'une sonde"
           },
           {
             "code" : "41800-4",
-            "display" : "RF pharynx ; guidage pour drainage+placement d'un cathéter de drainage"
+            "display" : "fluoroscopie pharynx ; guidage pour drainage et placement d'un cathéter de drainage"
           },
           {
             "code" : "41801-2",
@@ -15346,11 +15342,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "41802-0",
-            "display" : "RF prostate ; guidage pour biopsie"
+            "display" : "fluoroscopie prostate ; guidage pour biopsie"
           },
           {
             "code" : "41803-8",
-            "display" : "RF sein ; guidage pour biopsie percutanée"
+            "display" : "fluoroscopie sein ; guidage pour biopsie percutanée"
           },
           {
             "code" : "41806-1",
@@ -15366,7 +15362,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "41809-5",
-            "display" : "échographie rétropéritoine ; guidage pour drainage+placement d'un cathéter de drainage"
+            "display" : "échographie rétropéritoine ; guidage pour drainage et placement d'un cathéter de drainage"
           },
           {
             "code" : "41811-1",
@@ -15462,15 +15458,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "41836-8",
-            "display" : "MN os ; incidences limitées avec globules blancs marqués à l'In-111 IV"
+            "display" : "médecine nucléaire os ; incidences limitées avec globules blancs marqués à l'In-111 IV"
           },
           {
             "code" : "41837-6",
-            "display" : "MN SPECT corps entier avec Tc-99m Arcitumomab IV"
+            "display" : "médecine nucléaire SPECT corps entier avec Tc-99m Arcitumomab IV"
           },
           {
             "code" : "41838-4",
-            "display" : "MN SPECT prostate avec In-111 Satumomab IV"
+            "display" : "médecine nucléaire SPECT prostate avec In-111 Satumomab IV"
           },
           {
             "code" : "42007-5",
@@ -15486,7 +15482,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "42010-9",
-            "display" : "RX côtes - droites et thorax ; incidences et postéroantérieure"
+            "display" : "RX côtes - droites et thorax ; incidences et thorax postéroantérieur"
           },
           {
             "code" : "42011-7",
@@ -15494,15 +15490,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "42012-5",
-            "display" : "RF tractus gastrointestinal supérieur ; incidences avec contraste soluble dans l'eau per os"
+            "display" : "fluoroscopie tractus gastrointestinal supérieur ; incidences avec contraste soluble dans l'eau per os"
           },
           {
             "code" : "42014-1",
-            "display" : "RF vessie urinaire et urètre ; incidences avec contraste"
+            "display" : "fluoroscopie vessie urinaire et urètre ; incidences avec contraste"
           },
           {
             "code" : "42017-4",
-            "display" : "RF abdomen ; guidage pour remplacement percutané de cholécystotomie"
+            "display" : "fluoroscopie abdomen ; guidage pour remplacement percutané de cholécystotomie"
           },
           {
             "code" : "42018-2",
@@ -15526,7 +15522,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "42133-9",
-            "display" : "échographie foie ; guidage d'un drainage d'un abcès + placement d'un cathéter de drainage"
+            "display" : "échographie foie ; guidage d'un drainage d'un abcès et placement d'un cathéter de drainage"
           },
           {
             "code" : "42134-7",
@@ -15550,7 +15546,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "42141-2",
-            "display" : "échographie veine ; guidage pour ablation d'un cathéter veineux central tunnelisé"
+            "display" : "échographie veine ; guidage pour ablation d'un cathéter veineux central tunnelé"
           },
           {
             "code" : "42143-8",
@@ -15606,7 +15602,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "42158-6",
-            "display" : "MN glande surrénale ; incidences avec radionucléide IV"
+            "display" : "médecine nucléaire glande surrénale ; incidences avec radionucléide IV"
           },
           {
             "code" : "42159-4",
@@ -15618,7 +15614,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "42161-0",
-            "display" : "MN coeur ; incidences avec DOBUTamine+avec radionucléide IV"
+            "display" : "médecine nucléaire coeur ; incidences avec dobutamine et avec radionucléide IV"
           },
           {
             "code" : "42163-6",
@@ -15630,15 +15626,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "42165-1",
-            "display" : "RX côtes et thorax ; incidences et postéroantérieure"
+            "display" : "RX côtes incidences et thorax postéroantérieur"
           },
           {
             "code" : "42166-9",
-            "display" : "MN coeur ; 2 incidences au repos+avec Tl-201 IV"
+            "display" : "médecine nucléaire coeur ; 2 incidences au repos et avec Tl-201 IV"
           },
           {
             "code" : "42167-7",
-            "display" : "RX pelvis et hanche - bilatéraux ; incidences antéropostérerieures et latérales en grenouille"
+            "display" : "RX pelvis et hanche - bilatérale ; incidences antéropostérerieures et latérales en grenouille"
           },
           {
             "code" : "42168-5",
@@ -15666,7 +15662,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "42260-0",
-            "display" : "CT ; guidage pour biopsie percutanée avec contraste IV"
+            "display" : "CT ; guidage pour biopsie percutanée avec contraste IV dans une région du corps non spécifiée"
           },
           {
             "code" : "42261-8",
@@ -15674,7 +15670,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "42262-6",
-            "display" : "MN foie ; incidence pour débit sanguin avec radionucléide IV"
+            "display" : "médecine nucléaire foie ; incidence pour débit sanguin avec radionucléide IV"
           },
           {
             "code" : "42263-4",
@@ -15694,11 +15690,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "42270-9",
-            "display" : "RM rachis cervical avec flexion + avec extension"
+            "display" : "résonance magnétique rachis cervical avec flexion et avec extension"
           },
           {
             "code" : "42271-7",
-            "display" : "MN glande thyroïde ; incidences + incidences pour absorption avec I-123 IV"
+            "display" : "médecine nucléaire glande thyroïde ; incidences et incidences pour absorption avec I-123 IV"
           },
           {
             "code" : "42272-5",
@@ -15734,19 +15730,19 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "42280-8",
-            "display" : "CT appendice ; guidage d'un drainage d'un abcès + placement d'un cathéter de drainage"
+            "display" : "CT appendice ; guidage d'un drainage d'un abcès et placement d'un cathéter de drainage"
           },
           {
             "code" : "42281-6",
-            "display" : "CT thorax ; guidage d'un drainage d'un abcès + placement d'un cathéter de drainage"
+            "display" : "CT thorax ; guidage d'un drainage d'un abcès et placement d'un cathéter de drainage"
           },
           {
             "code" : "42282-4",
-            "display" : "CT foie ; guidage d'un drainage d'un abcès + placement d'un cathéter de drainage"
+            "display" : "CT foie ; guidage d'un drainage d'un abcès et placement d'un cathéter de drainage"
           },
           {
             "code" : "42283-2",
-            "display" : "CT pancréas ; guidage pour drainage+placement d'un cathéter de drainage"
+            "display" : "CT pancréas ; guidage pour drainage et placement d'un cathéter de drainage"
           },
           {
             "code" : "42284-0",
@@ -15754,15 +15750,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "42285-7",
-            "display" : "CT rein ; guidage d'un drainage d'un abcès + placement d'un cathéter de drainage"
+            "display" : "CT rein ; guidage d'un drainage d'un abcès et placement d'un cathéter de drainage"
           },
           {
             "code" : "42286-5",
-            "display" : "CT pelvis ; guidage d'un drainage d'un abcès + placement d'un cathéter de drainage"
+            "display" : "CT pelvis ; guidage d'un drainage d'un abcès et placement d'un cathéter de drainage"
           },
           {
             "code" : "42287-3",
-            "display" : "CT rétropéritoine ; guidage pour drainage+placement d'un cathéter de drainage"
+            "display" : "CT rétropéritoine ; guidage pour drainage et placement d'un cathéter de drainage"
           },
           {
             "code" : "42291-5",
@@ -15770,51 +15766,51 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "42292-3",
-            "display" : "MN SPECT corps entier pour tumeur avec Tl-201 IV"
+            "display" : "médecine nucléaire SPECT corps entier pour tumeur avec Tl-201 IV"
           },
           {
             "code" : "42293-1",
-            "display" : "CTA vaisseaux de la tête sans contraste"
+            "display" : "angiographie par tomodensitométrie vaisseaux de la tête sans contraste"
           },
           {
             "code" : "42294-9",
-            "display" : "CTA vaisseaux du pelvis avec contraste IV"
+            "display" : "angiographie par tomodensitométrie vaisseaux du pelvis avec contraste IV"
           },
           {
             "code" : "42295-6",
-            "display" : "CTA vaisseaux du membre supérieur avec contraste IV"
+            "display" : "angiographie par tomodensitométrie vaisseaux du membre supérieur avec contraste IV"
           },
           {
             "code" : "42296-4",
-            "display" : "MG sein gauche ; guidage pour localisation"
+            "display" : "mammographie sein gauche ; guidage pour localisation"
           },
           {
             "code" : "42297-2",
-            "display" : "MG sein droit ; guidage pour localisation"
+            "display" : "mammographie sein droit ; guidage pour localisation"
           },
           {
             "code" : "42298-0",
-            "display" : "RM sans et avec contraste IV"
+            "display" : "résonance magnétique sans et avec contraste IV dans une région du corps non spécifiée"
           },
           {
             "code" : "42299-8",
-            "display" : "RM clavicule sans et avec contraste IV"
+            "display" : "résonance magnétique clavicule sans et avec contraste IV"
           },
           {
             "code" : "42300-4",
-            "display" : "RM glande thyroïde"
+            "display" : "résonance magnétique glande thyroïde"
           },
           {
             "code" : "42301-2",
-            "display" : "RM utérus"
+            "display" : "résonance magnétique utérus"
           },
           {
             "code" : "42302-0",
-            "display" : "RM clavicule sans contraste"
+            "display" : "résonance magnétique clavicule sans contraste"
           },
           {
             "code" : "42303-8",
-            "display" : "RM orbite et face"
+            "display" : "résonance magnétique orbite et face"
           },
           {
             "code" : "42304-6",
@@ -15826,19 +15822,19 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "42306-1",
-            "display" : "MN coeur ; incidences synchronisées et cinétique pariétale avec radionucléide IV"
+            "display" : "médecine nucléaire coeur ; incidences synchronisées et cinétique pariétale avec radionucléide IV"
           },
           {
             "code" : "42308-7",
-            "display" : "MN scrotum et testicule ; incidence pour débit sanguin avec radionucléide IV"
+            "display" : "médecine nucléaire scrotum et testicule ; incidence pour débit sanguin avec radionucléide IV"
           },
           {
             "code" : "42309-5",
-            "display" : "MN coeur ; incidences au repos+avec stress+avec Tl-201 IV"
+            "display" : "médecine nucléaire coeur ; incidences au repos et avec stress et avec Tl-201 IV"
           },
           {
             "code" : "42310-3",
-            "display" : "MN SPECT rein avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT rein avec radionucléide IV"
           },
           {
             "code" : "42311-1",
@@ -15866,11 +15862,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "42335-0",
-            "display" : "RF rachis cervical ; incidences limitées avec contraste intrathécal"
+            "display" : "fluoroscopie rachis cervical ; incidences limitées avec contraste intrathécal"
           },
           {
             "code" : "42377-2",
-            "display" : "tomodensitométrie.perfusion tête avec Xe-133 en inhalation+ sans & avec contraste IV"
+            "display" : "CT perfusion tête avec Xe-133 en inhalation et sans et avec contraste IV"
           },
           {
             "code" : "42378-0",
@@ -15882,7 +15878,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "42380-6",
-            "display" : "RX cheville gauche ; incidences antéropostérieures + latérales en position debout"
+            "display" : "RX cheville gauche ; incidences antéropostérieures et latérales en position debout"
           },
           {
             "code" : "42381-4",
@@ -15890,47 +15886,47 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "42382-2",
-            "display" : "RX cheville gauche ; incidences latérales + mortaise + Broden avec stress manuel"
+            "display" : "RX cheville gauche ; incidences latérales et mortaise et Broden avec stress manuel"
           },
           {
             "code" : "42383-0",
-            "display" : "RX vésicule biliaire ; incidences avec contraste per os +avec contraste per os"
+            "display" : "RX vésicule biliaire ; incidences avec contraste per os et avec contraste per os"
           },
           {
             "code" : "42385-5",
-            "display" : "RM cerveau et hypophyse et selle turcique"
+            "display" : "résonance magnétique cerveau et hypophyse et selle turcique"
           },
           {
             "code" : "42386-3",
-            "display" : "RM cerveau ; ciné pour flux du liquide céphalorachidien"
+            "display" : "résonance magnétique cerveau ; ciné pour flux du liquide céphalorachidien"
           },
           {
             "code" : "42387-1",
-            "display" : "RM ; ciné pour flux du liquide céphalorachidien"
+            "display" : "résonance magnétique ciné pour flux du liquide céphalorachidien"
           },
           {
             "code" : "42388-9",
-            "display" : "RM prostate ; endorectal"
+            "display" : "résonance magnétique prostate ; endorectal"
           },
           {
             "code" : "42389-7",
-            "display" : "RM pelvis ; endorectal"
+            "display" : "résonance magnétique pelvis ; endorectal"
           },
           {
             "code" : "42390-5",
-            "display" : "RM ; endovaginal"
+            "display" : "résonance magnétique endovaginale"
           },
           {
             "code" : "42391-3",
-            "display" : "RM cerveau et hypophyse et selle turcique avec contraste IV"
+            "display" : "résonance magnétique cerveau et hypophyse et selle turcique avec contraste IV"
           },
           {
             "code" : "42392-1",
-            "display" : "RM cerveau et hypophyse et selle turcique sans et avec contraste IV"
+            "display" : "résonance magnétique cerveau et hypophyse et selle turcique sans et avec contraste IV"
           },
           {
             "code" : "42393-9",
-            "display" : "RM cerveau et hypophyse et selle turcique sans contraste"
+            "display" : "résonance magnétique cerveau et hypophyse et selle turcique sans contraste"
           },
           {
             "code" : "42394-7",
@@ -15938,7 +15934,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "42395-4",
-            "display" : "RX os sésamoïdes du pied - bilatéraux ; incidence axiale"
+            "display" : "RX os sésamoïdes du pied - bilatéral ; incidence axiale"
           },
           {
             "code" : "42396-2",
@@ -15950,7 +15946,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "42398-8",
-            "display" : "RX pied ; (incidence oblique) + (incidences antéropostérieures + latérales avec position debout)"
+            "display" : "RX pied ; (incidence oblique) et (incidences antéropostérieures et latérales en position debout)"
           },
           {
             "code" : "42399-6",
@@ -15958,11 +15954,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "42400-2",
-            "display" : "RX os sésamoïdes du pied - bilatéraux ; incidences"
+            "display" : "RX os sésamoïdes du pied - bilatéral ; incidences"
           },
           {
             "code" : "42401-0",
-            "display" : "RX rachis lombaire ; (incidences antéropostérieures avec flexion gauche + avec flexion droite + sans flexion) + (incidence latérale)"
+            "display" : "RX rachis lombaire ; (incidences antéropostérieures avec flexion gauche et avec flexion droite et sans flexion) et (incidence latérale)"
           },
           {
             "code" : "42402-8",
@@ -15970,7 +15966,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "42403-6",
-            "display" : "RX rachis lombaire ; incidences antéropostérieures avec inclinaison droite + avec inclinaison gauche"
+            "display" : "RX rachis lombaire ; incidences antéropostérieures avec inclinaison droite et avec inclinaison gauche"
           },
           {
             "code" : "42404-4",
@@ -15978,19 +15974,19 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "42405-1",
-            "display" : "RX genou ; (incidences antéropostérieures avec position debout) + (incidence latérale avec extension)"
+            "display" : "RX genou ; (incidences antéropostérieures en position debout) et (incidence latérale avec extension)"
           },
           {
             "code" : "42406-9",
-            "display" : "RX rachis lombaire ; incidences antéropostérieures sans & avec inclinaison gauche"
+            "display" : "RX rachis lombaire ; incidences antéropostérieures sans et avec inclinaison gauche"
           },
           {
             "code" : "42407-7",
-            "display" : "RX rachis lombaire ; incidences antéropostérieures sans & avec inclinaison droite"
+            "display" : "RX rachis lombaire ; incidences antéropostérieures sans et avec inclinaison droite"
           },
           {
             "code" : "42408-5",
-            "display" : "RX rachis lombaire ; incidences antéropostérieures avec inclinaison gauche + avec inclinaison droite + sans inclinaison"
+            "display" : "RX rachis lombaire ; incidences antéropostérieures avec inclinaison gauche et avec inclinaison droite et sans inclinaison"
           },
           {
             "code" : "42409-3",
@@ -16010,7 +16006,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "42413-5",
-            "display" : "RX rachis lombaire ; incidences avec inclinaison droite + avec inclinaison gauche"
+            "display" : "RX rachis lombaire ; incidences avec inclinaison droite et avec inclinaison gauche"
           },
           {
             "code" : "42414-3",
@@ -16018,11 +16014,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "42415-0",
-            "display" : "MG sein bilatéral ; incidences placement d'un guide"
+            "display" : "mammographie sein bilatéral ; incidences placement d'un guide"
           },
           {
             "code" : "42416-8",
-            "display" : "MG sein gauche ; incidences placement d'un guide"
+            "display" : "mammographie sein gauche ; incidences placement d'un guide"
           },
           {
             "code" : "42417-6",
@@ -16038,19 +16034,19 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "42420-0",
-            "display" : "RX pelvis ; incidences antéropostérieures avec position debout"
+            "display" : "RX pelvis ; incidences antéropostérieures en position debout"
           },
           {
             "code" : "42421-8",
-            "display" : "RF ; guidage pour drainage percutané d'un abcès + placement d'un cathéter de drainage"
+            "display" : "fluoroscopie guidage pour drainage percutané d'un abcès et placement d'un cathéter de drainage"
           },
           {
             "code" : "42422-6",
-            "display" : "RF sein ; guidage pour drainage percutané d'un abcès + placement d'un cathéter de drainage"
+            "display" : "fluoroscopie sein ; guidage pour drainage percutané d'un abcès et placement d'un cathéter de drainage"
           },
           {
             "code" : "42423-4",
-            "display" : "RF thorax ; guidage pour drainage percutané d'un abcès + placement d'un cathéter de drainage"
+            "display" : "fluoroscopie thorax ; guidage pour drainage percutané d'un abcès et placement d'un cathéter de drainage"
           },
           {
             "code" : "42424-2",
@@ -16058,7 +16054,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "42425-9",
-            "display" : "RX rachis dorsal et rachis lombaire ; incidences antéropostérieures pour scoliose avec position debout + avec inclinaison droite + avec inclinaison gauche + sans inclinaison"
+            "display" : "RX rachis dorsal et rachis lombaire ; incidences antéropostérieures pour scoliose en position debout et avec inclinaison droite et avec inclinaison gauche et sans inclinaison"
           },
           {
             "code" : "42426-7",
@@ -16074,15 +16070,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "42429-1",
-            "display" : "RX rachis dorsal et rachis lombaire ; incidences antéropostérieures pour scoliose avec position debout + avec inclinaison droite"
+            "display" : "RX rachis dorsal et rachis lombaire ; incidences antéropostérieures pour scoliose en position debout et avec inclinaison droite"
           },
           {
             "code" : "42430-9",
-            "display" : "RX genou - droit ; 2 incidences et (incidences avec position debout)"
+            "display" : "RX genou - droit ; 2 incidences et (incidences en position debout)"
           },
           {
             "code" : "42431-7",
-            "display" : "RX genou - droit ; incidence postéroantérieure avec 30° de flexion avec position debout"
+            "display" : "RX genou - droit ; incidence postéroantérieure avec 30° de flexion en position debout"
           },
           {
             "code" : "42432-5",
@@ -16090,7 +16086,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "42433-3",
-            "display" : "mammo.stéréotaxique sein droit ; guidage pour biopsie percutanée à l'aiguille fine"
+            "display" : "mammographie stéréotaxique sein droit ; guidage pour biopsie percutanée à l'aiguille fine"
           },
           {
             "code" : "42434-1",
@@ -16122,23 +16118,23 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "42442-4",
-            "display" : "RX rachis ; incidence latérale avec position debout"
+            "display" : "RX rachis ; incidence latérale en position debout"
           },
           {
             "code" : "42443-2",
-            "display" : "RX rachis dorsal ; 3 incidences avec position debout"
+            "display" : "RX rachis dorsal ; 3 incidences en position debout"
           },
           {
             "code" : "42444-0",
-            "display" : "RX rachis dorsal ; incidences antéropostérieures avec inclinaison gauche + avec inclinaison droite + sans inclinaison"
+            "display" : "RX rachis dorsal ; incidences antéropostérieures avec inclinaison gauche et avec inclinaison droite et sans inclinaison"
           },
           {
             "code" : "42445-7",
-            "display" : "RX rachis dorsal ; incidences antéropostérieures avec inclinaison gauche + sans inclinaison"
+            "display" : "RX rachis dorsal ; incidences antéropostérieures avec inclinaison gauche et sans inclinaison"
           },
           {
             "code" : "42446-5",
-            "display" : "RX rachis dorsal ; incidences antéropostérieures avec inclinaison droite + sans inclinaison"
+            "display" : "RX rachis dorsal ; incidences antéropostérieures avec inclinaison droite et sans inclinaison"
           },
           {
             "code" : "42447-3",
@@ -16158,7 +16154,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "42455-6",
-            "display" : "échographie pelvis s transabdominale et transvaginale"
+            "display" : "échographie pelvis transabdominale et transvaginale"
           },
           {
             "code" : "42456-4",
@@ -16174,11 +16170,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "42459-8",
-            "display" : "RF tractus gastrointestinal supérieur ; incidences avec contraste per os"
+            "display" : "fluoroscopie tractus gastrointestinal supérieur ; incidences avec contraste per os"
           },
           {
             "code" : "42460-6",
-            "display" : "RF glande submandibulaire - gauche ; incidences avec contraste intra conduit salivaire"
+            "display" : "fluoroscopie glande submandibulaire - gauche ; incidences avec contraste intra conduit salivaire"
           },
           {
             "code" : "42461-4",
@@ -16198,11 +16194,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "42469-7",
-            "display" : "RF tractus gastro-intestinal supérieur et intestin grêle et vésicule biliaire ; incidence avec contraste per os"
+            "display" : "fluoroscopie tractus gastro-intestinal supérieur et intestin grêle et vésicule biliaire ; incidence avec contraste per os"
           },
           {
             "code" : "42470-5",
-            "display" : "RF tractus gastro-intestinal supérieur et vésicule biliaire ; incidence avec contraste per os"
+            "display" : "fluoroscopie tractus gastro-intestinal supérieur et vésicule biliaire ; incidence avec contraste per os"
           },
           {
             "code" : "42471-3",
@@ -16238,15 +16234,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "42680-9",
-            "display" : "MG sein ; incidence XCCL"
+            "display" : "mammographie sein ; incidence XCCL"
           },
           {
             "code" : "42681-7",
-            "display" : "RF côlon ; incidences avec gastrografine par voie rectale"
+            "display" : "fluoroscopie côlon ; incidences avec gastrografine par voie rectale"
           },
           {
             "code" : "42684-1",
-            "display" : "RF tractus gastrointestinal supérieur ; incidences avec gastrografine per os"
+            "display" : "fluoroscopie tractus gastrointestinal supérieur ; incidences avec gastrografine per os"
           },
           {
             "code" : "42685-8",
@@ -16270,7 +16266,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "42690-8",
-            "display" : "RX rachis ; incidences avec flexion + avec extension"
+            "display" : "RX rachis ; incidences avec flexion et avec extension"
           },
           {
             "code" : "42691-6",
@@ -16282,27 +16278,27 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "42693-2",
-            "display" : "RM vessie urinaire et urètre ; ciné"
+            "display" : "résonance magnétique vessie urinaire et urètre ; ciné"
           },
           {
             "code" : "42694-0",
-            "display" : "RM clavicule avec contraste IV"
+            "display" : "résonance magnétique clavicule avec contraste IV"
           },
           {
             "code" : "42695-7",
-            "display" : "RM jambe - bilatérale avec contraste IV"
+            "display" : "résonance magnétique jambe - bilatérale avec contraste IV"
           },
           {
             "code" : "42696-5",
-            "display" : "RM jambe - bilatérale"
+            "display" : "résonance magnétique jambe - bilatérale"
           },
           {
             "code" : "42697-3",
-            "display" : "RM jambe - bilatérale sans et avec contraste IV"
+            "display" : "résonance magnétique jambe - bilatérale sans et avec contraste IV"
           },
           {
             "code" : "42698-1",
-            "display" : "RM rachis cervical et rachis dorsal et rachis lombaire"
+            "display" : "résonance magnétique rachis cervical et rachis dorsal et rachis lombaire"
           },
           {
             "code" : "42699-9",
@@ -16310,7 +16306,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "42700-5",
-            "display" : "MN os ; incidences avec globules blancs marqués au Tc-99m IV"
+            "display" : "médecine nucléaire os ; incidences avec globules blancs marqués au Tc-99m IV"
           },
           {
             "code" : "42701-3",
@@ -16318,15 +16314,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "42702-1",
-            "display" : "RF supérieur à 1 heure"
+            "display" : "fluoroscopie supérieur à 1 heure"
           },
           {
             "code" : "42703-9",
-            "display" : "RF moins d'1 heure"
+            "display" : "fluoroscopie moins d'1 heure"
           },
           {
             "code" : "42705-4",
-            "display" : "échographie appendice ; guidage d'un drainage d'un abcès + placement d'un cathéter de drainage"
+            "display" : "échographie appendice ; guidage d'un drainage d'un abcès et placement d'un cathéter de drainage"
           },
           {
             "code" : "42706-2",
@@ -16342,7 +16338,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "42709-6",
-            "display" : "MN foie ; incidences pool sanguin avec radionucléide IV"
+            "display" : "médecine nucléaire foie ; incidences pool sanguin avec radionucléide IV"
           },
           {
             "code" : "42710-4",
@@ -16354,7 +16350,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "42776-5",
-            "display" : "MN ; incidences pour shunt artérioveineux avec radionucléide IV"
+            "display" : "médecine nucléaire ; incidences pour shunt artérioveineux avec radionucléide IV dans une région du corps non spécifiée"
           },
           {
             "code" : "42811-0",
@@ -16374,7 +16370,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "43444-9",
-            "display" : "CT ; guidage pour drainage percutané d'un abcès + placement d'un cathéter de drainage"
+            "display" : "CT ; guidage pour drainage percutané d'un abcès et placement d'un cathéter de drainage dans une région du corps non spécifiée"
           },
           {
             "code" : "43445-6",
@@ -16382,43 +16378,43 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "43448-0",
-            "display" : "RM foie sans & avec ferumoxides IV"
+            "display" : "résonance magnétique foie sans et avec ferumoxides IV"
           },
           {
             "code" : "43449-8",
-            "display" : "RM cheville droite dynamique avec contraste IV"
+            "display" : "résonance magnétique cheville droite dynamique avec contraste IV"
           },
           {
             "code" : "43450-6",
-            "display" : "RM coude - gauche dynamique avec contraste IV"
+            "display" : "résonance magnétique coude - gauche dynamique avec contraste IV"
           },
           {
             "code" : "43451-4",
-            "display" : "RM coude - droit dynamique avec contraste IV"
+            "display" : "résonance magnétique coude - droit dynamique avec contraste IV"
           },
           {
             "code" : "43452-2",
-            "display" : "RM genou - gauche dynamique avec contraste IV"
+            "display" : "résonance magnétique genou - gauche dynamique avec contraste IV"
           },
           {
             "code" : "43453-0",
-            "display" : "RM genou - droit dynamique avec contraste IV"
+            "display" : "résonance magnétique genou - droit dynamique avec contraste IV"
           },
           {
             "code" : "43454-8",
-            "display" : "RM système pulmonaire"
+            "display" : "résonance magnétique système pulmonaire"
           },
           {
             "code" : "43455-5",
-            "display" : "RM partie orale du pharynx"
+            "display" : "résonance magnétique oropharynx"
           },
           {
             "code" : "43456-3",
-            "display" : "RM rachis cervical et rachis dorsal sans et avec contraste IV"
+            "display" : "résonance magnétique rachis cervical et rachis dorsal sans et avec contraste IV"
           },
           {
             "code" : "43457-1",
-            "display" : "RM rachis cervical et rachis dorsal"
+            "display" : "résonance magnétique rachis cervical et rachis dorsal"
           },
           {
             "code" : "43458-9",
@@ -16426,15 +16422,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "43459-7",
-            "display" : "MN cerveau ; incidences pendant un traitement par choc électroconvulsif"
+            "display" : "médecine nucléaire cerveau ; incidences pendant un traitement par choc électroconvulsif"
           },
           {
             "code" : "43461-3",
-            "display" : "MN rein ; incidences avec furosémide IV+avec radionucléide IV"
+            "display" : "MN rein ; incidences avec furosémide IV et avec radionucléide IV"
           },
           {
             "code" : "43463-9",
-            "display" : "RX thorax et abdomen ; incidence postéroantérieure et incidences allongées+verticales"
+            "display" : "RX thorax et abdomen ; incidence postéroantérieure et incidences allongées et verticales"
           },
           {
             "code" : "43466-2",
@@ -16458,35 +16454,35 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "43471-2",
-            "display" : "RF 2 heures"
+            "display" : "fluoroscopie 2 heures"
           },
           {
             "code" : "43472-0",
-            "display" : "RF 90 minutes"
+            "display" : "fluoroscopie 90 minutes"
           },
           {
             "code" : "43473-8",
-            "display" : "RF voies biliaires et canaux pancréatiques ; guidage pour endoscopie 2H post contraste rétrograde intrabiliaire"
+            "display" : "fluoroscopie voies biliaires et canaux pancréatiques ; guidage pour endoscopie 2H post contraste rétrograde intrabiliaire"
           },
           {
             "code" : "43474-6",
-            "display" : "RF voies biliaires et canaux pancréatiques ; guidage pour endoscopie 15mn post contraste rétrograde intrabiliaire"
+            "display" : "fluoroscopie voies biliaires et canaux pancréatiques ; guidage pour endoscopie 15mn post contraste rétrograde intrabiliaire"
           },
           {
             "code" : "43475-3",
-            "display" : "RF voies biliaires et canaux pancréatiques ; guidage pour endoscopie 30mn post contraste rétrograde intrabiliaire"
+            "display" : "fluoroscopie voies biliaires et canaux pancréatiques ; guidage pour endoscopie 30mn post contraste rétrograde intrabiliaire"
           },
           {
             "code" : "43476-1",
-            "display" : "RF voies biliaires et canaux pancréatiques ; guidage pour endoscopie 45mn post contraste rétrograde intrabiliaire"
+            "display" : "fluoroscopie voies biliaires et canaux pancréatiques ; guidage pour endoscopie 45mn post contraste rétrograde intrabiliaire"
           },
           {
             "code" : "43477-9",
-            "display" : "RF voies biliaires et canaux pancréatiques ; guidage pour endoscopie 1H post contraste rétrograde intrabiliaire"
+            "display" : "fluoroscopie voies biliaires et canaux pancréatiques ; guidage pour endoscopie 1H post contraste rétrograde intrabiliaire"
           },
           {
             "code" : "43478-7",
-            "display" : "RF voies biliaires et canaux pancréatiques ; guidage pour endoscopie 1,5H post contraste rétrograde intrabiliaire"
+            "display" : "fluoroscopie voies biliaires et canaux pancréatiques ; guidage pour endoscopie 1,5H post contraste rétrograde intrabiliaire"
           },
           {
             "code" : "43479-5",
@@ -16498,7 +16494,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "43481-1",
-            "display" : "RX articulation ; incidences avec flexion + avec extension"
+            "display" : "RX articulation ; incidences avec flexion et avec extension"
           },
           {
             "code" : "43482-9",
@@ -16510,7 +16506,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "43485-2",
-            "display" : "RX rein ; incidences pendant chirurgie+avec contraste rétrograde"
+            "display" : "RX rein ; incidences pendant chirurgie et avec contraste rétrograde"
           },
           {
             "code" : "43486-0",
@@ -16518,7 +16514,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "43487-8",
-            "display" : "échographie ; guidage pour placement des champs de radiothérapie"
+            "display" : "échographie ; guidage pour placement des champs de radiothérapie dans une région du corps non spécifiée"
           },
           {
             "code" : "43488-6",
@@ -16570,51 +16566,51 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "43500-8",
-            "display" : "MN vaisseau ; incidence pour débit sanguin avec radionucléide IV"
+            "display" : "médecine nucléaire vaisseau ; incidence pour débit sanguin avec radionucléide IV"
           },
           {
             "code" : "43501-6",
-            "display" : "MN vaisseau ; incidences avec radionucléide IV"
+            "display" : "médecine nucléaire vaisseau ; incidences avec radionucléide IV"
           },
           {
             "code" : "43502-4",
-            "display" : "CT récessus subphrénique ; guidage d'un drainage d'un abcès + placement d'un cathéter de drainage"
+            "display" : "CT récessus subphrénique ; guidage d'un drainage d'un abcès et placement d'un cathéter de drainage"
           },
           {
             "code" : "43504-0",
-            "display" : "RM aisselle - gauche avec contraste IV"
+            "display" : "résonance magnétique aisselle - gauche avec contraste IV"
           },
           {
             "code" : "43505-7",
-            "display" : "RM aisselle - droite avec contraste IV"
+            "display" : "résonance magnétique aisselle - droite avec contraste IV"
           },
           {
             "code" : "43506-5",
-            "display" : "RM ovaire - bilatéral"
+            "display" : "résonance magnétique ovaire - bilatéral"
           },
           {
             "code" : "43507-3",
-            "display" : "RM thymus"
+            "display" : "résonance magnétique thymus"
           },
           {
             "code" : "43508-1",
-            "display" : "RM aisselle - gauche"
+            "display" : "résonance magnétique aisselle - gauche"
           },
           {
             "code" : "43509-9",
-            "display" : "RM aisselle - gauche sans et avec contraste IV"
+            "display" : "résonance magnétique aisselle - gauche sans et avec contraste IV"
           },
           {
             "code" : "43510-7",
-            "display" : "RM aisselle - droite"
+            "display" : "résonance magnétique aisselle - droite"
           },
           {
             "code" : "43511-5",
-            "display" : "RM aisselle - droite sans et avec contraste IV"
+            "display" : "résonance magnétique aisselle - droite sans et avec contraste IV"
           },
           {
             "code" : "43512-3",
-            "display" : "angioIRM vaisseaux de la jambe - bilatéral avec contraste IV"
+            "display" : "angioIRM vaisseaux de la jambe - bilatérale avec contraste IV"
           },
           {
             "code" : "43513-1",
@@ -16662,15 +16658,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "43525-5",
-            "display" : "CT sans contraste"
+            "display" : "CT sans contraste dans une région du corps non spécifiée"
           },
           {
             "code" : "43526-3",
-            "display" : "MN SPECT avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT avec radionucléide IV"
           },
           {
             "code" : "43528-9",
-            "display" : "RM sein - unilatéral sans et avec contraste IV"
+            "display" : "résonance magnétique sein - unilatéral sans et avec contraste IV"
           },
           {
             "code" : "43529-7",
@@ -16678,7 +16674,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "43530-5",
-            "display" : "RM orbite, face et cou"
+            "display" : "résonance magnétique orbite, face et cou"
           },
           {
             "code" : "43532-1",
@@ -16686,15 +16682,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "43536-2",
-            "display" : "RF.vidéo rachis lombaire ; incidences"
+            "display" : "vidéofluoroscopie rachis lombaire ; incidences"
           },
           {
             "code" : "43537-0",
-            "display" : "RF ; guidage pour drainage+placement d'un cathéter de drainage"
+            "display" : "fluoroscopie guidage pour drainage et placement d'un cathéter de drainage"
           },
           {
             "code" : "43538-8",
-            "display" : "RF.vidéo rachis cervical ; incidences"
+            "display" : "fluoroscopie.vidéo rachis cervical ; incidences"
           },
           {
             "code" : "43539-6",
@@ -16706,7 +16702,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "43550-3",
-            "display" : "MN cerveau ; incidences pour débit sanguin+fonction avec radionucléide IV"
+            "display" : "médecine nucléaire cerveau ; incidences pour débit sanguin et fonction avec radionucléide IV"
           },
           {
             "code" : "43552-9",
@@ -16718,7 +16714,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "43555-2",
-            "display" : "RM cheville gauche dynamique avec contraste IV"
+            "display" : "résonance magnétique cheville gauche dynamique avec contraste IV"
           },
           {
             "code" : "43556-0",
@@ -16726,15 +16722,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "43557-8",
-            "display" : "MN foie et voies biliaires et vésicule biliaire ; incidences avec radionucléide IV"
+            "display" : "médecine nucléaire foie et voies biliaires et vésicule biliaire ; incidences avec radionucléide IV"
           },
           {
             "code" : "43558-6",
-            "display" : "RF ; guidage pour changement d'un cathéter de dialyse avec contraste IV"
+            "display" : "fluoroscopie guidage pour changement d'un cathéter de dialyse avec contraste IV"
           },
           {
             "code" : "43559-4",
-            "display" : "RF vessie urinaire et urètre ; incidences avec contraste intravésiculaire+pendant la miction"
+            "display" : "fluoroscopie vessie urinaire et urètre ; incidences avec contraste intravésiculaire et pendant la miction"
           },
           {
             "code" : "43561-0",
@@ -16742,11 +16738,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "43562-8",
-            "display" : "MN système squelettique.axial ; incidences pour densité osseuse"
+            "display" : "médecine nucléaire système squelettique.axial ; incidences pour densité osseuse"
           },
           {
             "code" : "43563-6",
-            "display" : "MN système squelettique.périphérique ; incidences pour densité osseuse"
+            "display" : "médecine nucléaire système squelettique.périphérique ; incidences pour densité osseuse"
           },
           {
             "code" : "43564-4",
@@ -16766,7 +16762,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "43569-3",
-            "display" : "RX rachis dorsal et rachis lombaire ; incidences antéropostérieures pour scoliose vertical & décubitus dorsal"
+            "display" : "RX rachis dorsal et rachis lombaire ; incidences antéropostérieures pour scoliose vertical et décubitus dorsal"
           },
           {
             "code" : "43570-1",
@@ -16778,7 +16774,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "43574-3",
-            "display" : "RF tractus gastro-intestinal supérieur et intestin grêle ; incidences avec contraste au barium per os"
+            "display" : "fluoroscopie tractus gastro-intestinal supérieur et intestin grêle ; incidences avec contraste au barium per os"
           },
           {
             "code" : "43641-0",
@@ -16786,15 +16782,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "43642-8",
-            "display" : "MN cerveau ; incidences pour débit sanguin avec Tc-99m DTPA IV"
+            "display" : "médecine nucléaire cerveau ; incidences pour débit sanguin avec Tc-99m DTPA IV"
           },
           {
             "code" : "43643-6",
-            "display" : "MN cerveau ; incidences pour débit sanguin avec Tc-99m glucoheptonate IV"
+            "display" : "médecine nucléaire cerveau ; incidences pour débit sanguin avec Tc-99m glucoheptonate IV"
           },
           {
             "code" : "43644-4",
-            "display" : "MN cerveau ; incidences limitées pour débit sanguin avec radionucléide IV"
+            "display" : "médecine nucléaire cerveau ; incidences limitées pour débit sanguin avec radionucléide IV"
           },
           {
             "code" : "43645-1",
@@ -16802,71 +16798,71 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "43646-9",
-            "display" : "MN coeur ; incidences qualitatives+quantitatives pour infarctus avec radionucléide IV"
+            "display" : "médecine nucléaire coeur ; incidences qualitatives et quantitatives pour infarctus avec radionucléide IV"
           },
           {
             "code" : "43647-7",
-            "display" : "MN coeur ; incidences quantitatives pour infarctus avec radionucléide IV"
+            "display" : "médecine nucléaire coeur ; incidences quantitatives pour infarctus avec radionucléide IV"
           },
           {
             "code" : "43648-5",
-            "display" : "MN ; incidences pour tumeur endocrine d'aires multiples avec I-131 MIBG IV"
+            "display" : "médecine nucléaire ; incidences pour tumeur endocrine d'aires multiples avec I-131 MIBG IV dans une région du corps non spécifiée"
           },
           {
             "code" : "43649-3",
-            "display" : "MN ; incidences pour tumeur endocrine d'aires multiples avec In-111 pentétréotide IV"
+            "display" : "médecine nucléaire ; incidences pour tumeur endocrine d'aires multiples avec In-111 pentétréotide IV dans une région du corps non spécifiée"
           },
           {
             "code" : "43650-1",
-            "display" : "MN foie et voies biliaires et vésicule biliaire ; incidences avec cholécystokinine+avec radionucléide IV"
+            "display" : "médecine nucléaire foie et voies biliaires et vésicule biliaire ; incidences avec cholécystokinine et avec radionucléide IV"
           },
           {
             "code" : "43651-9",
-            "display" : "MN foie et voies biliaires et vésicule biliaire ; incidences avec sincalide+avec radionucléide IV"
+            "display" : "médecine nucléaire foie et voies biliaires et vésicule biliaire ; incidences avec sincalide et avec radionucléide IV"
           },
           {
             "code" : "43652-7",
-            "display" : "MN SPECT foie et rate pour débit sanguin avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT foie et rate pour débit sanguin avec radionucléide IV"
           },
           {
             "code" : "43653-5",
-            "display" : "MN foie et rate ; incidence pour débit sanguin avec radionucléide IV"
+            "display" : "médecine nucléaire foie et rate ; incidence pour débit sanguin avec radionucléide IV"
           },
           {
             "code" : "43654-3",
-            "display" : "MN foie ; incidences pour débit sanguin avec globules rouges marqués au Tc-99m IV"
+            "display" : "médecine nucléaire foie ; incidences pour débit sanguin avec globules rouges marqués au Tc-99m IV"
           },
           {
             "code" : "43655-0",
-            "display" : "MN SPECT foie pour débit sanguin avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT foie pour débit sanguin avec radionucléide IV"
           },
           {
             "code" : "43656-8",
-            "display" : "MN poumon ; incidences de perfusion quantitative avec radionucléide IV"
+            "display" : "médecine nucléaire poumon ; incidences de perfusion quantitative avec radionucléide IV"
           },
           {
             "code" : "43657-6",
-            "display" : "MN poumon ; incidences quantitatives avec radionucléide IV"
+            "display" : "médecine nucléaire poumon ; incidences quantitatives avec radionucléide IV"
           },
           {
             "code" : "43658-4",
-            "display" : "MN coeur ; incidences de perfusion quantitative avec radionucléide IV"
+            "display" : "médecine nucléaire coeur ; incidences de perfusion quantitative avec radionucléide IV"
           },
           {
             "code" : "43659-2",
-            "display" : "MN SPECT coeur perfusion qualitative au repos+avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT coeur perfusion qualitative au repos et avec radionucléide IV"
           },
           {
             "code" : "43660-0",
-            "display" : "MN coeur ; incidences de perfusion qualitative au repos+avec radionucléide IV"
+            "display" : "médecine nucléaire coeur ; incidences de perfusion qualitative au repos et avec radionucléide IV"
           },
           {
             "code" : "43661-8",
-            "display" : "MN coeur ; incidences de perfusion quantitative au repos+avec radionucléide IV"
+            "display" : "médecine nucléaire coeur ; incidences de perfusion quantitative au repos et avec radionucléide IV"
           },
           {
             "code" : "43662-6",
-            "display" : "MN SPECT vaisseaux rénaux pour débit sanguin avec Tc-99m glucoheptonate IV"
+            "display" : "médecine nucléaire SPECT vaisseaux rénaux pour débit sanguin avec Tc-99m glucoheptonate IV"
           },
           {
             "code" : "43663-4",
@@ -16882,11 +16878,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "43666-7",
-            "display" : "MN rein+vaisseaux rénaux ; incidences pour débit sanguin avec Tc-99m glucoheptonate IV"
+            "display" : "MN rein et vaisseaux rénaux ; incidences pour débit sanguin avec Tc-99m glucoheptonate IV"
           },
           {
             "code" : "43667-5",
-            "display" : "MN rein+vaisseaux rénaux ; incidences avec Tc-99m DTPA IV"
+            "display" : "MN rein et vaisseaux rénaux ; incidences avec Tc-99m DTPA IV"
           },
           {
             "code" : "43669-1",
@@ -16894,19 +16890,19 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "43670-9",
-            "display" : "MN SPECT rate pour débit sanguin avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT rate pour débit sanguin avec radionucléide IV"
           },
           {
             "code" : "43671-7",
-            "display" : "MN glande thyroïde ; incidence centrée avec radionucléide IV"
+            "display" : "médecine nucléaire glande thyroïde ; incidence centrée avec radionucléide IV"
           },
           {
             "code" : "43672-5",
-            "display" : "MN glande thyroïde ; incidences + incidences pour absorption Incidences + incidence pour absorption avec radionucléide IV"
+            "display" : "médecine nucléaire glande thyroïde ; incidences et incidences pour absorption Incidences et incidence pour absorption avec radionucléide IV"
           },
           {
             "code" : "43673-3",
-            "display" : "MN SPECT glande thyroïde pour débit sanguin avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT glande thyroïde pour débit sanguin avec radionucléide IV"
           },
           {
             "code" : "43756-6",
@@ -16962,7 +16958,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "43769-9",
-            "display" : "RM cerveau et conduit auditif interne sans et avec contraste IV"
+            "display" : "résonance magnétique cerveau et conduit auditif interne sans et avec contraste IV"
           },
           {
             "code" : "43770-7",
@@ -16974,11 +16970,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "43772-3",
-            "display" : "RM cerveau et conduit auditif interne"
+            "display" : "résonance magnétique cerveau et conduit auditif interne"
           },
           {
             "code" : "43773-1",
-            "display" : "RM rein sans contraste"
+            "display" : "résonance magnétique rein sans contraste"
           },
           {
             "code" : "43774-9",
@@ -16986,7 +16982,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "43775-6",
-            "display" : "RM rein sans et avec contraste IV"
+            "display" : "résonance magnétique rein sans et avec contraste IV"
           },
           {
             "code" : "43776-4",
@@ -16994,7 +16990,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "43777-2",
-            "display" : "MN coeur ; incidences de perfusion au repos+avec adénosine+avec Tl-201 IV"
+            "display" : "médecine nucléaire coeur ; incidences de perfusion au repos et avec adénosine et avec Tl-201 IV"
           },
           {
             "code" : "43778-0",
@@ -17034,11 +17030,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "43788-9",
-            "display" : "RF sonde ; incidences pour perméabilité avec contraste via sonde"
+            "display" : "fluoroscopie sonde ; incidences pour perméabilité avec contraste via sonde"
           },
           {
             "code" : "43789-7",
-            "display" : "MN foie et voies biliaires et vésicule biliaire ; incidences pour perméabilité avec Tc-99m IV"
+            "display" : "médecine nucléaire foie et voies biliaires et vésicule biliaire ; incidences pour perméabilité avec Tc-99m IV"
           },
           {
             "code" : "43790-5",
@@ -17122,11 +17118,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "44113-9",
-            "display" : "CT rachis dorsal sans & avec contraste intrathécal"
+            "display" : "CT rachis dorsal sans et avec contraste intrathécal"
           },
           {
             "code" : "44114-7",
-            "display" : "CT rachis lombaire sans & avec contraste intrathécal"
+            "display" : "CT rachis lombaire sans et avec contraste intrathécal"
           },
           {
             "code" : "44115-4",
@@ -17150,27 +17146,27 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "44122-0",
-            "display" : "RM cerveau ; guidage pour biopsie stéréotaxique sans & avec contraste IV"
+            "display" : "résonance magnétique cerveau ; guidage pour biopsie stéréotaxique sans et avec contraste IV"
           },
           {
             "code" : "44123-8",
-            "display" : "RM voies biliaires et canaux pancréatiques sans contraste"
+            "display" : "résonance magnétique voies biliaires et canaux pancréatiques sans contraste"
           },
           {
             "code" : "44124-6",
-            "display" : "RM glande surrénale avec contraste IV"
+            "display" : "résonance magnétique glande surrénale avec contraste IV"
           },
           {
             "code" : "44125-3",
-            "display" : "RM voies biliaires et canaux pancréatiques avec contraste IV"
+            "display" : "résonance magnétique voies biliaires et canaux pancréatiques avec contraste IV"
           },
           {
             "code" : "44126-1",
-            "display" : "RM coeur ; ciné pour encodage de la vélocité du flux sanguin avec contraste IV"
+            "display" : "résonance magnétique coeur ; ciné pour encodage de la vélocité du flux sanguin avec contraste IV"
           },
           {
             "code" : "44127-9",
-            "display" : "RM coeur ciné pour fonction limitée"
+            "display" : "résonance magnétique coeur ciné pour fonction limitée"
           },
           {
             "code" : "44128-7",
@@ -17202,83 +17198,83 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "44135-2",
-            "display" : "angioIRM vaisseaux du membre inférieur - bilatéraux avec contraste IV"
+            "display" : "angioIRM vaisseaux du membre inférieur - bilatéral avec contraste IV"
           },
           {
             "code" : "44136-0",
-            "display" : "TEP avec radionucléide IV"
+            "display" : "tomographie par émission de positons avec radionucléide IV dans une  région du corps non précisée"
           },
           {
             "code" : "44137-8",
-            "display" : "TEP coeur avec radionucléide IV"
+            "display" : "tomographie par émission de positons coeur avec radionucléide IV"
           },
           {
             "code" : "44138-6",
-            "display" : "TEP cerveau avec radionucléide IV"
+            "display" : "tomographie par émission de positons cerveau avec radionucléide IV"
           },
           {
             "code" : "44139-4",
-            "display" : "TEP corps entier avec radionucléide IV"
+            "display" : "tomographie par émission de positons corps entier avec radionucléide IV"
           },
           {
             "code" : "44140-2",
-            "display" : "MN abdomen et pelvis ; incidences pour tumeur"
+            "display" : "médecine nucléaire abdomen et pelvis ; incidences pour tumeur"
           },
           {
             "code" : "44141-0",
-            "display" : "MN foie et rate Incidences avec Tc-99m MAA IV"
+            "display" : "médecine nucléaire foie et rate Incidences avec Tc-99m MAA IV"
           },
           {
             "code" : "44142-8",
-            "display" : "MN os ; incidences avec Tc-99m médronate IV"
+            "display" : "médecine nucléaire os ; incidences avec Tc-99m médronate IV"
           },
           {
             "code" : "44143-6",
-            "display" : "MN coeur ; incidences avec globules rouges marqués au Tc-99m IV"
+            "display" : "médecine nucléaire coeur ; incidences avec globules rouges marqués au Tc-99m IV"
           },
           {
             "code" : "44144-4",
-            "display" : "MN foie ; incidences avec Xe-133 en inhalation"
+            "display" : "médecine nucléaire foie ; incidences avec Xe-133 en inhalation"
           },
           {
             "code" : "44145-1",
-            "display" : "MN glande parathyroïde ; incidences avec Tc-99m Sestamibi IV"
+            "display" : "médecine nucléaire glande parathyroïde ; incidences avec Tc-99m Sestamibi IV"
           },
           {
             "code" : "44146-9",
-            "display" : "MN moelle osseuse ; incidences avec sulfocolloïde de technétium 99 IV"
+            "display" : "médecine nucléaire moelle osseuse ; incidences avec sulfocolloïde de technétium 99 IV"
           },
           {
             "code" : "44147-7",
-            "display" : "MN glande thyroïde ; incidences + incidence pour absorption avec Tc-99m pertechnétate IV"
+            "display" : "médecine nucléaire glande thyroïde ; incidences et incidence pour absorption avec Tc-99m pertechnétate IV"
           },
           {
             "code" : "44148-5",
-            "display" : "MN cerveau ; incidences pour débit sanguin avec Tc-99m bicisate IV"
+            "display" : "médecine nucléaire cerveau ; incidences pour débit sanguin avec Tc-99m bicisate IV"
           },
           {
             "code" : "44149-3",
-            "display" : "MN abdomen et pelvis ; incidences pour perméabilité d'un shunt avec Tc-99m MAA en injection"
+            "display" : "médecine nucléaire abdomen et pelvis ; incidences pour perméabilité d'un shunt avec Tc-99m MAA en injection"
           },
           {
             "code" : "44150-1",
-            "display" : "MN cerveau ; incidences avec Tc-99m bicisate IV"
+            "display" : "médecine nucléaire cerveau ; incidences avec Tc-99m bicisate IV"
           },
           {
             "code" : "44151-9",
-            "display" : "MN SPECT coeur avec Tc-99m Sestamibi IV"
+            "display" : "médecine nucléaire SPECT coeur avec Tc-99m Sestamibi IV"
           },
           {
             "code" : "44152-7",
-            "display" : "MN SPECT cerveau avec Tc-99m bicisate IV"
+            "display" : "médecine nucléaire SPECT cerveau avec Tc-99m bicisate IV"
           },
           {
             "code" : "44153-5",
-            "display" : "MN SPECT rein avec Tc-99m glucoheptonate IV"
+            "display" : "médecine nucléaire SPECT rein avec Tc-99m glucoheptonate IV"
           },
           {
             "code" : "44154-3",
-            "display" : "MN SPECT coeur avec dipyridamole IV+avec Tc-99m Sestamibi IV"
+            "display" : "médecine nucléaire SPECT coeur avec dipyridamole IV et avec Tc-99m Sestamibi IV"
           },
           {
             "code" : "44155-0",
@@ -17322,23 +17318,23 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "44166-7",
-            "display" : "échographie récessus subphrénique ; guidage d'un drainage d'un abcès + placement d'un cathéter de drainage"
+            "display" : "échographie récessus subphrénique ; guidage d'un drainage d'un abcès et placement d'un cathéter de drainage"
           },
           {
             "code" : "44167-5",
-            "display" : "échographie rein ; guidage d'un drainage d'un abcès + placement d'un cathéter de drainage"
+            "display" : "échographie rein ; guidage d'un drainage d'un abcès et placement d'un cathéter de drainage"
           },
           {
             "code" : "44168-3",
-            "display" : "échographie pelvis ; guidage d'un drainage d'un abcès + placement d'un cathéter de drainage"
+            "display" : "échographie pelvis ; guidage d'un drainage d'un abcès et placement d'un cathéter de drainage"
           },
           {
             "code" : "44169-1",
-            "display" : "échographie espace péritonéal ; guidage d'un drainage d'un abcès + placement d'un cathéter de drainage"
+            "display" : "échographie espace péritonéal ; guidage d'un drainage d'un abcès et placement d'un cathéter de drainage"
           },
           {
             "code" : "44172-5",
-            "display" : "échographie pancréas ; guidage pour drainage+placement d'un cathéter de drainage"
+            "display" : "échographie pancréas ; guidage pour drainage et placement d'un cathéter de drainage"
           },
           {
             "code" : "44173-3",
@@ -17358,7 +17354,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "44177-4",
-            "display" : "RX membre inférieur - bilatéral ; incidences antéropostérieures avec position debout"
+            "display" : "RX membre inférieur - bilatéral ; incidences antéropostérieures en position debout"
           },
           {
             "code" : "44178-2",
@@ -17394,7 +17390,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "44187-3",
-            "display" : "RX.portable rachis cervical ; (incidences antéropostérieures + obliques + odontoïdes) + (incidences latérales avec flexion + avec extension)"
+            "display" : "RX.portable rachis cervical ; (incidences antéropostérieures et obliques et odontoïdes) et (incidences latérales avec flexion et avec extension)"
           },
           {
             "code" : "44188-1",
@@ -17430,11 +17426,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "44196-4",
-            "display" : "RX rachis lombaire ; plus de 5 incidences avec inclinaison droite + avec inclinaison gauche"
+            "display" : "RX rachis lombaire ; plus de 5 incidences avec inclinaison droite et avec inclinaison gauche"
           },
           {
             "code" : "44197-2",
-            "display" : "RX genou - bilatéral ; plus de 5 incidences avec position debout"
+            "display" : "RX genou - bilatéral ; plus de 5 incidences en position debout"
           },
           {
             "code" : "44198-0",
@@ -17458,7 +17454,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "44205-3",
-            "display" : "RX membre inférieur - bilatéral ; incidence avec position debout"
+            "display" : "RX membre inférieur - bilatéral ; incidence en position debout"
           },
           {
             "code" : "44206-1",
@@ -17486,27 +17482,27 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "44213-7",
-            "display" : "RF canal pancréatique ; guidage pour endoscopie avec contraste rétrograde"
+            "display" : "fluoroscopie canal pancréatique ; guidage pour endoscopie avec contraste rétrograde"
           },
           {
             "code" : "44214-5",
-            "display" : "RF canaux biliaires ; guidage pour endoscopie avec contraste rétrograde"
+            "display" : "fluoroscopie canaux biliaires ; guidage pour endoscopie avec contraste rétrograde"
           },
           {
             "code" : "44215-2",
-            "display" : "RF ; guidage pour aspiration à l'aiguille fine percutanée"
+            "display" : "fluoroscopie guidage pour aspiration à l'aiguille fine percutanée"
           },
           {
             "code" : "44216-0",
-            "display" : "RF glande thyroïde ; guidage pour aspiration à l'aiguille fine percutanée"
+            "display" : "fluoroscopie glande thyroïde ; guidage pour aspiration à l'aiguille fine percutanée"
           },
           {
             "code" : "44217-8",
-            "display" : "RF rein ; guidage pour aspiration à l'aiguille fine percutanée"
+            "display" : "fluoroscopie rein ; guidage pour aspiration à l'aiguille fine percutanée"
           },
           {
             "code" : "44218-6",
-            "display" : "RF pancréas ; guidage pour aspiration à l'aiguille fine percutanée"
+            "display" : "fluoroscopie pancréas ; guidage pour aspiration à l'aiguille fine percutanée"
           },
           {
             "code" : "44219-4",
@@ -17514,35 +17510,35 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "44220-2",
-            "display" : "RF foie ; guidage pour aspiration à l'aiguille fine percutanée"
+            "display" : "fluoroscopie foie ; guidage pour aspiration à l'aiguille fine percutanée"
           },
           {
             "code" : "44221-0",
-            "display" : "RF tissu ; guidage pour aspiration profonde.aiguille fine"
+            "display" : "fluoroscopie tissu ; guidage pour aspiration profonde.aiguille fine"
           },
           {
             "code" : "44222-8",
-            "display" : "RF espace articulaire ; guidage pour procédure"
+            "display" : "fluoroscopie espace articulaire ; guidage pour procédure"
           },
           {
             "code" : "44223-6",
-            "display" : "RF ovaire ; guidage pour drainage percutané d'un abcès + placement d'un cathéter de drainage"
+            "display" : "fluoroscopie ovaire ; guidage pour drainage percutané d'un abcès et placement d'un cathéter de drainage"
           },
           {
             "code" : "44224-4",
-            "display" : "RF ; guidage pour placement d'une sonde"
+            "display" : "fluoroscopie guidage pour placement d'une sonde"
           },
           {
             "code" : "44225-1",
-            "display" : "RF foie ; guidage pour biopsie percutanée avec contraste IV"
+            "display" : "fluoroscopie foie ; guidage pour biopsie percutanée avec contraste IV"
           },
           {
             "code" : "44226-9",
-            "display" : "RF côlon ; incidences pour réduction avec contraste au barium par voie rectale"
+            "display" : "fluoroscopie côlon ; incidences pour réduction avec contraste au barium par voie rectale"
           },
           {
             "code" : "44227-7",
-            "display" : "RF côlon ; incidences avec constraste au barium par voie rectale"
+            "display" : "fluoroscopie côlon ; incidences avec constraste au barium par voie rectale"
           },
           {
             "code" : "44228-5",
@@ -17566,7 +17562,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "44233-5",
-            "display" : "MN rein ; incidences sans & avec Tc-99m DTPA IV"
+            "display" : "MN rein ; incidences sans et avec Tc-99m DTPA IV"
           },
           {
             "code" : "44234-3",
@@ -17598,19 +17594,19 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "46281-2",
-            "display" : "CT ; guidage pour aspiration ou injection d'un kyste"
+            "display" : "CT ; guidage pour aspiration ou injection d'un kyste dans une région du corps non spécifiée"
           },
           {
             "code" : "46282-0",
-            "display" : "échographie ; guidage pour aspiration ou injection d'un kyste"
+            "display" : "échographie ; guidage pour aspiration ou injection d'un kyste dans une région du corps non spécifiée"
           },
           {
             "code" : "46283-8",
-            "display" : "MG sein droit ; guidage pour aspiration à l'aiguille fine percutanée"
+            "display" : "mammographie sein droit ; guidage pour aspiration à l'aiguille fine percutanée"
           },
           {
             "code" : "46284-6",
-            "display" : "MG sein gauche ; guidage pour aspiration à l'aiguille fine percutanée"
+            "display" : "mammographie sein gauche ; guidage pour aspiration à l'aiguille fine percutanée"
           },
           {
             "code" : "46285-3",
@@ -17622,39 +17618,39 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "46289-5",
-            "display" : "CT ; guidage pour biopsie percutanée sans et avec contraste IV"
+            "display" : "CT ; guidage pour biopsie percutanée sans et avec contraste IV dans une région du corps non spécifiée"
           },
           {
             "code" : "46290-3",
-            "display" : "CT ; guidage pour biopsie percutanée sans contraste IV"
+            "display" : "CT ; guidage pour biopsie percutanée sans contraste IV dans une région du corps non spécifiée"
           },
           {
             "code" : "46291-1",
-            "display" : "CT ; guidage pour drainage+placement d'un cathéter de drainage sans & avec contraste IV"
+            "display" : "CT ; guidage pour drainage et placement d'un cathéter de drainage sans et avec contraste IV dans une région du corps non spécifiée"
           },
           {
             "code" : "46292-9",
-            "display" : "CT ; guidage pour drainage+placement d'un cathéter de drainage avec contraste IV"
+            "display" : "CT ; guidage pour drainage et placement d'un cathéter de drainage avec contraste IV dans une région du corps non spécifiée"
           },
           {
             "code" : "46293-7",
-            "display" : "CT ; guidage pour drainage+placement d'un cathéter de drainage sans contraste"
+            "display" : "CT ; guidage pour drainage et placement d'un cathéter de drainage sans contraste dans une région du corps non spécifiée"
           },
           {
             "code" : "46294-5",
-            "display" : "RF estomac ; guidage pour remplacement percutané d'un cathéter de drainage"
+            "display" : "fluoroscopie estomac ; guidage pour remplacement percutané d'un cathéter de drainage"
           },
           {
             "code" : "46295-2",
-            "display" : "mammo.stéréotaxique sein gauche ; guidage pour biopsie percutanée à l'aiguille fine"
+            "display" : "mammographie stéréotaxique sein gauche ; guidage pour biopsie percutanée à l'aiguille fine"
           },
           {
             "code" : "46296-0",
-            "display" : "mammo.stéréotaxique sein ; guidage pour biopsie percutanée à l'aiguille fine"
+            "display" : "mammographie stéréotaxique sein ; guidage pour biopsie percutanée à l'aiguille fine"
           },
           {
             "code" : "46297-8",
-            "display" : "MN SPECT corps entier avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT corps entier avec radionucléide IV"
           },
           {
             "code" : "46298-6",
@@ -17662,7 +17658,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "46299-4",
-            "display" : "RM sein - unilatéral"
+            "display" : "résonance magnétique sein unilatéral"
           },
           {
             "code" : "46301-8",
@@ -17690,19 +17686,19 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "46307-5",
-            "display" : "CTA vaisseaux du membre inférieur - droit sans et avec contraste IV"
+            "display" : "angiographie par tomodensitométrie vaisseaux du membre inférieur - droit sans et avec contraste IV"
           },
           {
             "code" : "46308-3",
-            "display" : "CTA vaisseaux du membre inférieur - gauches sans et avec contraste IV"
+            "display" : "angiographie par tomodensitométrie vaisseaux du membre inférieur - gauche sans et avec contraste IV"
           },
           {
             "code" : "46309-1",
-            "display" : "CTA vaisseaux du membre supérieur - droit sans et avec contraste IV"
+            "display" : "angiographie par tomodensitométrie vaisseaux du membre supérieur - droit sans et avec contraste IV"
           },
           {
             "code" : "46310-9",
-            "display" : "RM orbite, face et cou sans et avec contraste IV"
+            "display" : "résonance magnétique orbite, face et cou sans et avec contraste IV"
           },
           {
             "code" : "46311-7",
@@ -17710,35 +17706,35 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "46312-5",
-            "display" : "CTA vaisseaux du membre supérieur - gauche sans et avec contraste IV"
+            "display" : "angiographie par tomodensitométrie vaisseaux du membre supérieur - gauche sans et avec contraste IV"
           },
           {
             "code" : "46313-3",
-            "display" : "CT pelvis sans & avec volume de contraste réduit IV"
+            "display" : "CT pelvis sans et avec volume de contraste réduit IV"
           },
           {
             "code" : "46314-1",
-            "display" : "CT conduit auditif interne sans & avec volume de contraste réduit IV"
+            "display" : "CT conduit auditif interne sans et avec volume de contraste réduit IV"
           },
           {
             "code" : "46315-8",
-            "display" : "CT région maxillofaciale sans & avec volume de contraste réduit IV"
+            "display" : "CT région maxillofaciale sans et avec volume de contraste réduit IV"
           },
           {
             "code" : "46316-6",
-            "display" : "CT tête sans & avec volume de contraste réduit IV"
+            "display" : "CT tête sans et avec volume de contraste réduit IV"
           },
           {
             "code" : "46317-4",
-            "display" : "CT thorax sans & avec volume de contraste réduit IV"
+            "display" : "CT thorax sans et avec volume de contraste réduit IV"
           },
           {
             "code" : "46318-2",
-            "display" : "CT abdomen sans & avec volume de contraste réduit IV"
+            "display" : "CT abdomen sans et avec volume de contraste réduit IV"
           },
           {
             "code" : "46319-0",
-            "display" : "RM coude avec contraste intraarticulaire"
+            "display" : "résonance magnétique coude avec contraste intraarticulaire"
           },
           {
             "code" : "46320-8",
@@ -17746,7 +17742,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "46321-6",
-            "display" : "RM orbite, face et cou avec contraste IV"
+            "display" : "résonance magnétique orbite, face et cou avec contraste IV"
           },
           {
             "code" : "46322-4",
@@ -17754,7 +17750,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "46323-2",
-            "display" : "RM sein - unilatéral avec contraste IV"
+            "display" : "résonance magnétique sein - unilatéral avec contraste IV"
           },
           {
             "code" : "46324-0",
@@ -17790,31 +17786,31 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "46332-3",
-            "display" : "RM orbite, face et cou sans contraste"
+            "display" : "résonance magnétique orbite, face et cou sans contraste"
           },
           {
             "code" : "46333-1",
-            "display" : "RM sein - unilatéral sans contraste"
+            "display" : "résonance magnétique sein - unilatéral sans contraste"
           },
           {
             "code" : "46335-6",
-            "display" : "MG sein bilatéral ; incidence unique"
+            "display" : "mammographie sein bilatéral ; incidence unique"
           },
           {
             "code" : "46336-4",
-            "display" : "MG sein gauche ; incidence unique"
+            "display" : "mammographie sein gauche ; incidence unique"
           },
           {
             "code" : "46337-2",
-            "display" : "MG sein droit ; incidence unique"
+            "display" : "mammographie sein droit ; incidence unique"
           },
           {
             "code" : "46338-0",
-            "display" : "MG sein - unilatéral ; incidence unique"
+            "display" : "mammographie sein - unilatéral ; incidence unique"
           },
           {
             "code" : "46339-8",
-            "display" : "MG sein - unilatéral ; incidences"
+            "display" : "mammographie sein - unilatéral ; incidences"
           },
           {
             "code" : "46340-6",
@@ -17822,7 +17818,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "46341-4",
-            "display" : "RF abdomen ; incidences"
+            "display" : "fluoroscopie abdomen ; incidences"
           },
           {
             "code" : "46342-2",
@@ -17858,15 +17854,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "46350-5",
-            "display" : "MG sein - unilatéral ; incidences pour diagnostic"
+            "display" : "mammographie sein - unilatéral ; incidences pour diagnostic"
           },
           {
             "code" : "46351-3",
-            "display" : "MG sein bilatéral ; incidences pour déplacement pour implant"
+            "display" : "mammographie sein bilatéral ; incidences pour déplacement pour implant"
           },
           {
             "code" : "46352-1",
-            "display" : "MG canal galactophore ; incidences pendant la chirurgie avec contraste intra canalaire"
+            "display" : "mammographie canal galactophore ; incidences pendant la chirurgie avec contraste intra canalaire"
           },
           {
             "code" : "46354-7",
@@ -17878,15 +17874,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "46356-2",
-            "display" : "MG sein - unilatéral ; incidences pour dépistage"
+            "display" : "mammographie sein - unilatéral ; incidences pour dépistage"
           },
           {
             "code" : "46357-0",
-            "display" : "RF côlon ; incidence avec contraste naturel par l’air ambiant par voie rectale"
+            "display" : "fluoroscopie côlon ; incidence avec contraste naturel par l’air ambiant par voie rectale"
           },
           {
             "code" : "46358-8",
-            "display" : "RM corps entier"
+            "display" : "résonance magnétique corps entier"
           },
           {
             "code" : "46359-6",
@@ -17898,7 +17894,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "46361-2",
-            "display" : "MN poumon ; incidences ventilation avec Xe-133 en inhalation"
+            "display" : "médecine nucléaire poumon ; incidences ventilation avec Xe-133 en inhalation"
           },
           {
             "code" : "46362-0",
@@ -17918,7 +17914,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "46366-1",
-            "display" : "MN SPECT os ; guidage pour biopsie percutanée avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT os ; guidage pour biopsie percutanée avec radionucléide IV"
           },
           {
             "code" : "46369-5",
@@ -17930,15 +17926,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "46371-1",
-            "display" : "RX ; guidage pour changement de sonde percutanée avec contraste"
+            "display" : "RX ; guidage pour changement de sonde percutanée avec contraste dans une région du corps non spécifiée"
           },
           {
             "code" : "46372-9",
-            "display" : "RF canaux biliaires ; guidage pour drainage percutané + placement d'un cathéter de drainage"
+            "display" : "fluoroscopie canaux biliaires ; guidage pour drainage percutané et placement d'un cathéter de drainage"
           },
           {
             "code" : "46373-7",
-            "display" : "MN SPECT thorax ; guidage pour placement d'une sonde avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT thorax ; guidage pour placement d'une sonde avec radionucléide IV"
           },
           {
             "code" : "46374-5",
@@ -17950,7 +17946,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "46376-0",
-            "display" : "RF rein - bilatéral ; incidences avec contraste antérograde"
+            "display" : "fluoroscopie rein - bilatéral ; incidences avec contraste antérograde"
           },
           {
             "code" : "46377-8",
@@ -17958,7 +17954,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "46378-6",
-            "display" : "RX genou - bilatéral ; incidences postéroantérieures avec position debout + avec flexion"
+            "display" : "RX genou - bilatéral ; incidences postéroantérieures en position debout et avec flexion"
           },
           {
             "code" : "46379-4",
@@ -17966,7 +17962,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "46380-2",
-            "display" : "MG sein - unilatéral ; incidences pour implant"
+            "display" : "mammographie sein - unilatéral ; incidences pour implant"
           },
           {
             "code" : "46381-0",
@@ -17978,7 +17974,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "46384-4",
-            "display" : "MN SPECT os ; guidage pour biopsie superficielle avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT os ; guidage pour biopsie superficielle avec radionucléide IV"
           },
           {
             "code" : "46385-1",
@@ -17990,7 +17986,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "46387-7",
-            "display" : "MG sein ; guidage pour aspiration à l'aiguille fine percutanée"
+            "display" : "mammographie sein ; guidage pour aspiration à l'aiguille fine percutanée"
           },
           {
             "code" : "46388-5",
@@ -18010,7 +18006,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "46392-7",
-            "display" : "RF sinus ; guidage pour injection"
+            "display" : "fluoroscopie sinus ; guidage pour injection"
           },
           {
             "code" : "46393-5",
@@ -18018,11 +18014,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "46395-0",
-            "display" : "MN SPECT coeur synchronisée+fraction d'éjection au repos+avec stress+avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT coeur synchronisée et fraction d'éjection au repos et avec stress et avec radionucléide IV"
           },
           {
             "code" : "46396-8",
-            "display" : "MN SPECT coeur synchronisée au repos+avec Tc-99m Sestamibi IV"
+            "display" : "médecine nucléaire SPECT coeur synchronisée au repos et avec Tc-99m Sestamibi IV"
           },
           {
             "code" : "47366-0",
@@ -18030,7 +18026,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "47367-8",
-            "display" : "RX && RF thorax ; plus que 4 incidences et incidences"
+            "display" : "RX et fluoroscopie thorax ; plus que 4 incidences et incidences"
           },
           {
             "code" : "47368-6",
@@ -18070,7 +18066,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "47378-5",
-            "display" : "MN SPECT foie pool sanguin avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT foie pool sanguin avec radionucléide IV"
           },
           {
             "code" : "47379-3",
@@ -18106,7 +18102,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "47987-3",
-            "display" : "angiographie par fluoroscopie artères du membre inférieur - droites ; incidences avec contraste intra-artériel"
+            "display" : "angiographie par fluoroscopie artères du membre inférieur - droit ; incidences avec contraste intra-artériel"
           },
           {
             "code" : "48433-7",
@@ -18118,27 +18114,27 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "48435-2",
-            "display" : "RF glande salivaire - bilatérale ; guidage pour injection"
+            "display" : "fluoroscopie glande salivaire - bilatérale ; guidage pour injection"
           },
           {
             "code" : "48436-0",
-            "display" : "RM rachis lombaire avec contraste intrathécal"
+            "display" : "résonance magnétique rachis lombaire avec contraste intrathécal"
           },
           {
             "code" : "48439-4",
-            "display" : "RM rachis dorsal avec contraste intrathécal"
+            "display" : "résonance magnétique rachis dorsal avec contraste intrathécal"
           },
           {
             "code" : "48440-2",
-            "display" : "RM base du crâne avec contraste IV"
+            "display" : "résonance magnétique base du crâne avec contraste IV"
           },
           {
             "code" : "48441-0",
-            "display" : "RM rachis dorsal sans & avec contraste intrathécal"
+            "display" : "résonance magnétique rachis dorsal sans et avec contraste intrathécal"
           },
           {
             "code" : "48442-8",
-            "display" : "CT rachis sans & avec contraste intrathécal"
+            "display" : "CT rachis sans et avec contraste intrathécal"
           },
           {
             "code" : "48443-6",
@@ -18146,11 +18142,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "48444-4",
-            "display" : "RM cerveau.temporal avec contraste IV"
+            "display" : "résonance magnétique cerveau temporal avec contraste IV"
           },
           {
             "code" : "48445-1",
-            "display" : "RM larynx sans contraste"
+            "display" : "résonance magnétique larynx sans contraste"
           },
           {
             "code" : "48446-9",
@@ -18158,7 +18154,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "48447-7",
-            "display" : "RM rachis cervical avec contraste intrathécal"
+            "display" : "résonance magnétique rachis cervical avec contraste intrathécal"
           },
           {
             "code" : "48448-5",
@@ -18170,7 +18166,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "48450-1",
-            "display" : "RM rachis cervical sans & avec contraste intrathécal"
+            "display" : "résonance magnétique rachis cervical sans et avec contraste intrathécal"
           },
           {
             "code" : "48451-9",
@@ -18178,43 +18174,43 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "48452-7",
-            "display" : "RM rachis lombaire sans & avec contraste intrathécal"
+            "display" : "résonance magnétique rachis lombaire sans et avec contraste intrathécal"
           },
           {
             "code" : "48453-5",
-            "display" : "RM cerveau.temporal sans contraste"
+            "display" : "résonance magnétique cerveau temporal sans contraste"
           },
           {
             "code" : "48454-3",
-            "display" : "RM clavicule - droite sans et avec contraste IV"
+            "display" : "résonance magnétique clavicule - droite sans et avec contraste IV"
           },
           {
             "code" : "48455-0",
-            "display" : "RM clavicule - gauche sans et avec contraste IV"
+            "display" : "résonance magnétique clavicule - gauche sans et avec contraste IV"
           },
           {
             "code" : "48456-8",
-            "display" : "RM clavicule - droite avec contraste IV"
+            "display" : "résonance magnétique clavicule - droite avec contraste IV"
           },
           {
             "code" : "48457-6",
-            "display" : "RM clavicule - gauche avec contraste IV"
+            "display" : "résonance magnétique clavicule - gauche avec contraste IV"
           },
           {
             "code" : "48458-4",
-            "display" : "RM clavicule - droite sans contraste"
+            "display" : "résonance magnétique clavicule - droite sans contraste"
           },
           {
             "code" : "48459-2",
-            "display" : "RM clavicule - gauche sans contraste"
+            "display" : "résonance magnétique clavicule - gauche sans contraste"
           },
           {
             "code" : "48460-0",
-            "display" : "RM limitée"
+            "display" : "résonance magnétique limitée dans une région du corps non spécifiée"
           },
           {
             "code" : "48461-8",
-            "display" : "RM cou limitée"
+            "display" : "résonance magnétique cou limitée"
           },
           {
             "code" : "48462-6",
@@ -18226,11 +18222,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "48464-2",
-            "display" : "RF trachée ; incidences"
+            "display" : "fluoroscopie trachée ; incidences"
           },
           {
             "code" : "48465-9",
-            "display" : "RF larynx ; incidences"
+            "display" : "fluoroscopie larynx ; incidences"
           },
           {
             "code" : "48466-7",
@@ -18258,7 +18254,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "48472-5",
-            "display" : "RX rachis dorsal ; 3 incidences et du nageur"
+            "display" : "RX rachis dorsal ; 3 incidences et incidence de Swimmer"
           },
           {
             "code" : "48473-3",
@@ -18270,7 +18266,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "48475-8",
-            "display" : "MG sein bilatéral ; incidence diagnostique pour implant"
+            "display" : "mammographie sein bilatéral ; incidence diagnostique pour implant"
           },
           {
             "code" : "48476-6",
@@ -18306,7 +18302,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "48484-0",
-            "display" : "RX côtes - droites et thorax ; plus de 2 incidences et incidence postéroantérieure"
+            "display" : "RX côtes - droites et thorax ; plus de 2 incidences et thorax postéroantérieur"
           },
           {
             "code" : "48485-7",
@@ -18326,7 +18322,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "48489-9",
-            "display" : "radiographie mastoïde - gauche 1 ou 2 incidences"
+            "display" : "RX mastoïde - gauche 1 ou 2 incidences"
           },
           {
             "code" : "48490-7",
@@ -18338,11 +18334,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "48492-3",
-            "display" : "MG sein bilatéral ; incidences pour dépistage pour implant"
+            "display" : "mammographie sein bilatéral ; incidences pour dépistage pour implant"
           },
           {
             "code" : "48687-8",
-            "display" : "RM base du crâne sans contraste"
+            "display" : "résonance magnétique base du crâne sans contraste"
           },
           {
             "code" : "48688-6",
@@ -18354,7 +18350,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "48690-2",
-            "display" : "échographie veine du membre supérieur - bilatérale"
+            "display" : "échographie veine du membre supérieur - bilatéral"
           },
           {
             "code" : "48691-0",
@@ -18370,7 +18366,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "48694-4",
-            "display" : "RM cerveau.temporal sans et avec contraste IV"
+            "display" : "résonance magnétique cerveau.temporal sans et avec contraste IV"
           },
           {
             "code" : "48695-1",
@@ -18378,7 +18374,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "48696-9",
-            "display" : "RF glande submandibulaire - droite ; incidences avec contraste intra conduit salivaire"
+            "display" : "fluoroscopie glande submandibulaire - droite ; incidences avec contraste intra conduit salivaire"
           },
           {
             "code" : "48697-7",
@@ -18386,7 +18382,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "48698-5",
-            "display" : "RF glande submandibulaire - bilatérale ; incidences avec contraste intra conduit salivaire"
+            "display" : "fluoroscopie glande submandibulaire - bilatérale ; incidences avec contraste intra conduit salivaire"
           },
           {
             "code" : "48699-3",
@@ -18394,11 +18390,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "48735-5",
-            "display" : "MG sein ; guidage pour localisation"
+            "display" : "mammographie sein ; guidage pour localisation"
           },
           {
             "code" : "48736-3",
-            "display" : "MG sein gauche ; guidage pour injection d'un ganglion lymphatique sentinelle"
+            "display" : "mammographie sein gauche ; guidage pour injection d'un ganglion lymphatique sentinelle"
           },
           {
             "code" : "48737-1",
@@ -18406,15 +18402,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "48738-9",
-            "display" : "RX poignet - bilatéral et main - bilatéral ; 3 incidences"
+            "display" : "RX poignet - bilatéral et main - bilatérale ; 3 incidences"
           },
           {
             "code" : "48739-7",
-            "display" : "MG sein droit ; guidage pour injection d'un ganglion lymphatique sentinelle"
+            "display" : "mammographie sein droit ; guidage pour injection d'un ganglion lymphatique sentinelle"
           },
           {
             "code" : "48740-5",
-            "display" : "MG sein ; guidage pour injection d'un ganglion lymphatique sentinelle"
+            "display" : "mammographie sein ; guidage pour injection d'un ganglion lymphatique sentinelle"
           },
           {
             "code" : "48742-1",
@@ -18442,27 +18438,27 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "49118-3",
-            "display" : "MN ; incidences avec radionucléide IV"
+            "display" : "MN ; incidences avec radionucléide IV dans une région du corps non spécifiée"
           },
           {
             "code" : "49507-7",
-            "display" : "RM avec contraste IV"
+            "display" : "résonance magnétique avec contraste IV dans une région du corps non spécifiée"
           },
           {
             "code" : "49509-3",
-            "display" : "MG canal galactophore - droit ; incidence avec contraste intracanalaire"
+            "display" : "mammographie canal galactophore - droit ; incidence avec contraste intracanalaire"
           },
           {
             "code" : "49510-1",
-            "display" : "MG canal galactophore - gauche ; incidence avec contraste intracanalaire"
+            "display" : "mammographie canal galactophore - gauche ; incidence avec contraste intracanalaire"
           },
           {
             "code" : "49511-9",
-            "display" : "angiographie par fluoroscopie artère fémorale ; incidence d'écoulement sans & avec contraste intraartériel"
+            "display" : "angiographie par fluoroscopie artère fémorale ; incidence d'écoulement sans et avec contraste intraartériel"
           },
           {
             "code" : "49512-7",
-            "display" : "RF ; incidences"
+            "display" : "fluoroscopie incidences"
           },
           {
             "code" : "49565-5",
@@ -18470,19 +18466,19 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "49566-3",
-            "display" : "MN SPECT coeur au repos+avec Tc-99m Sestamibi IV"
+            "display" : "médecine nucléaire SPECT coeur au repos et avec Tc-99m Sestamibi IV"
           },
           {
             "code" : "49567-1",
-            "display" : "MN SPECT coeur de perfusion avec adénosine+avec Tc-99m Sestamibi IV"
+            "display" : "médecine nucléaire SPECT coeur de perfusion avec adénosine et avec Tc-99m Sestamibi IV"
           },
           {
             "code" : "49568-9",
-            "display" : "MN SPECT coeur de perfusion au repos+avec stress+avec Tl-201 IV+avec Tc-99m Sestamibi IV"
+            "display" : "médecine nucléaire SPECT coeur de perfusion au repos et avec stress et avec Tl-201 IV et avec Tc-99m Sestamibi IV"
           },
           {
             "code" : "49569-7",
-            "display" : "MN SPECT coeur de perfusion et cinétique pariétale au repos+avec stress+avec Tl-201 IV+avec Tc-99m Sestamibi IV"
+            "display" : "médecine nucléaire SPECT coeur de perfusion et cinétique pariétale au repos et avec stress et avec Tl-201 IV et avec Tc-99m Sestamibi IV"
           },
           {
             "code" : "49570-5",
@@ -18490,7 +18486,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "49571-3",
-            "display" : "MN ; incidences limitées avec I-131 MIBG IV"
+            "display" : "médecine nucléaire ; incidences limitées avec I-131 MIBG IV dans une région du corps non spécifiée"
           },
           {
             "code" : "50755-8",
@@ -18534,11 +18530,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "57822-9",
-            "display" : "TEP poumon avec radionucléide IV"
+            "display" : "tomographie par émission de positons poumon avec radionucléide IV"
           },
           {
             "code" : "57823-7",
-            "display" : "TEP oesophage avec radionucléide IV"
+            "display" : "tomographie par émission de positons oesophage avec radionucléide IV"
           },
           {
             "code" : "58740-2",
@@ -18546,15 +18542,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "58741-0",
-            "display" : "TEP de la base du crâne à micuisse avec radionucléide IV"
+            "display" : "tomographie par émission de positons de la base du crâne à micuisse avec radionucléide IV"
           },
           {
             "code" : "58742-8",
-            "display" : "TEP tête et cou avec radionucléide IV"
+            "display" : "tomographie par émission de positons tête et cou avec radionucléide IV"
           },
           {
             "code" : "58743-6",
-            "display" : "échographie ; guidage pour ablation de tissu"
+            "display" : "échographie ; guidage pour ablation de tissu dans une région du corps non spécifiée"
           },
           {
             "code" : "58744-4",
@@ -18566,19 +18562,19 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "58747-7",
-            "display" : "CT ; guidage pour ablation de tissu"
+            "display" : "CT ; guidage pour ablation de tissu dans une région du corps non spécifiée"
           },
           {
             "code" : "58748-5",
-            "display" : "RMF cerveau"
+            "display" : "IRM fonctionnelle du cerveau"
           },
           {
             "code" : "58749-3",
-            "display" : "RM coeur avec stress+sans & avec contraste IV"
+            "display" : "résonance magnétique coeur avec stress et sans et avec contraste IV"
           },
           {
             "code" : "58750-1",
-            "display" : "RM coeur avec stress"
+            "display" : "résonance magnétique coeur avec stress"
           },
           {
             "code" : "59281-6",
@@ -18594,7 +18590,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "60527-9",
-            "display" : "MN glande thyroïde ; incidences + incidences pour absorption avec I-123 per os"
+            "display" : "médecine nucléaire glande thyroïde ; incidences et incidences pour absorption avec I-123 per os"
           },
           {
             "code" : "62443-7",
@@ -18602,7 +18598,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "62444-5",
-            "display" : "incidences multiples de radiographie numérique dentaire"
+            "display" : "incidences de radiographie numérique dentaire partielle"
           },
           {
             "code" : "62445-2",
@@ -18626,7 +18622,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "62450-2",
-            "display" : "RF péritoine ; guidage pour positionnement d'un cathéter"
+            "display" : "fluoroscopie péritoine ; guidage pour positionnement d'un cathéter"
           },
           {
             "code" : "62451-0",
@@ -18646,7 +18642,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "62494-0",
-            "display" : "échographie ; guidage pour drainage percutané + placement d'un cathéter de drainage"
+            "display" : "échographie ; guidage pour drainage percutané et placement d'un cathéter de drainage dans une région du corps non spécifiée"
           },
           {
             "code" : "64051-6",
@@ -18666,7 +18662,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "64993-9",
-            "display" : "échographie ; guidage pour placement d'une aiguille"
+            "display" : "échographie ; guidage pour placement d'une aiguille dans une région du corps non spécifiée"
           },
           {
             "code" : "64995-4",
@@ -18682,11 +18678,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "64998-8",
-            "display" : "RF trompe de Fallope - gauche ; guidage pour placement d'un cathéter transcervical"
+            "display" : "fluoroscopie trompe de Fallope - gauche ; guidage pour placement d'un cathéter transcervical"
           },
           {
             "code" : "64999-6",
-            "display" : "RF trompe de Fallope - droite ; guidage pour placement d'un cathéter transcervical"
+            "display" : "fluoroscopie trompe de Fallope - droite ; guidage pour placement d'un cathéter transcervical"
           },
           {
             "code" : "65000-2",
@@ -18702,15 +18698,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "65799-9",
-            "display" : "RF rein - bilatéral ; incidence unique pour kyste"
+            "display" : "fluoroscopie rein - bilatéral ; incidence unique pour kyste"
           },
           {
             "code" : "65800-5",
-            "display" : "RF rein - gauche ; incidence unique pour kyste"
+            "display" : "fluoroscopie rein - gauche ; incidence unique pour kyste"
           },
           {
             "code" : "65801-3",
-            "display" : "RF rein - droit ; incidence unique pour kyste"
+            "display" : "fluoroscopie rein - droit ; incidence unique pour kyste"
           },
           {
             "code" : "69054-5",
@@ -18746,7 +18742,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "69062-8",
-            "display" : "RX genou - bilatéral ; 4 incidences avec position debout"
+            "display" : "RX genou - bilatéral ; 4 incidences en position debout"
           },
           {
             "code" : "69063-6",
@@ -18770,11 +18766,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "69068-5",
-            "display" : "MG sein bilatéral ; guidage pour localisation à l'aiguille"
+            "display" : "mammographie sein bilatéral ; guidage pour localisation à l'aiguille"
           },
           {
             "code" : "69069-3",
-            "display" : "RX patella - bilatéral ; incidence du lever de soleil"
+            "display" : "RX patella - bilatérale ; incidence du lever de soleil"
           },
           {
             "code" : "69070-1",
@@ -18790,19 +18786,19 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "69073-5",
-            "display" : "RF ; guidage pour la biopsie à l'aiguille creuse"
+            "display" : "fluoroscopie guidage pour la biopsie à l'aiguille creuse"
           },
           {
             "code" : "69074-3",
-            "display" : "RF pelvis ; guidage pour biopsie percutanée"
+            "display" : "fluoroscopie pelvis ; guidage pour biopsie percutanée"
           },
           {
             "code" : "69075-0",
-            "display" : "RF glande salivaire ; guidage pour biopsie percutanée"
+            "display" : "fluoroscopie glande salivaire ; guidage pour biopsie percutanée"
           },
           {
             "code" : "69076-8",
-            "display" : "RF os ; guidage pour biopsie percutanée"
+            "display" : "fluoroscopie os ; guidage pour biopsie percutanée"
           },
           {
             "code" : "69077-6",
@@ -18810,7 +18806,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "69078-4",
-            "display" : "RF thorax ; guidage pour drainage+placement d'un cathéter de drainage"
+            "display" : "fluoroscopie thorax ; guidage pour drainage et placement d'un cathéter de drainage"
           },
           {
             "code" : "69079-2",
@@ -18818,11 +18814,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "69080-0",
-            "display" : "RX rachis cervical ; 5 incidences avec flexion + avec extension"
+            "display" : "RX rachis cervical ; 5 incidences avec flexion et avec extension"
           },
           {
             "code" : "69081-8",
-            "display" : "RX rachis cervical ; 5 incidences et du nageur"
+            "display" : "RX rachis cervical ; 5 incidences et incidence de Swimmer"
           },
           {
             "code" : "69083-4",
@@ -18830,7 +18826,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "69084-2",
-            "display" : "CTA vaisseaux thoraciques sans contraste"
+            "display" : "angiographie par tomodensitométrie vaisseaux thoraciques sans contraste"
           },
           {
             "code" : "69087-5",
@@ -18938,35 +18934,35 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "69119-6",
-            "display" : "CTA aorte thoracique sans contraste"
+            "display" : "angiographie par tomodensitométrie aorte thoracique sans contraste"
           },
           {
             "code" : "69120-4",
-            "display" : "RF cou ; guidage d'un drainage d'un abcès + placement d'un cathéter de drainage"
+            "display" : "fluoroscopie cou ; guidage d'un drainage d'un abcès et placement d'un cathéter de drainage"
           },
           {
             "code" : "69121-2",
-            "display" : "RF ovaire ; guidage pour aspiration percutanée d'un kyste"
+            "display" : "fluoroscopie ovaire ; guidage pour aspiration percutanée d'un kyste"
           },
           {
             "code" : "69122-0",
-            "display" : "RF pancréas ; guidage d'un drainage d'un abcès + placement d'un cathéter de drainage"
+            "display" : "fluoroscopie pancréas ; guidage d'un drainage d'un abcès et placement d'un cathéter de drainage"
           },
           {
             "code" : "69123-8",
-            "display" : "RF espace pleural ; guidage pour drainage d'un abcès et placement d'une sonde thoracique"
+            "display" : "fluoroscopie espace pleural ; guidage pour drainage d'un abcès et placement d'une sonde thoracique"
           },
           {
             "code" : "69124-6",
-            "display" : "RF tissu ; guidage pour aspiration superficielle.aiguille fine"
+            "display" : "fluoroscopie tissu ; guidage pour aspiration superficielle.aiguille fine"
           },
           {
             "code" : "69127-9",
-            "display" : "RF plèvre thoracique ; guidage pour biopsie"
+            "display" : "fluoroscopie plèvre thoracique ; guidage pour biopsie"
           },
           {
             "code" : "69129-5",
-            "display" : "RF glande thyroïde ; guidage pour biopsie percutanée"
+            "display" : "fluoroscopie glande thyroïde ; guidage pour biopsie percutanée"
           },
           {
             "code" : "69130-3",
@@ -18982,7 +18978,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "69133-7",
-            "display" : "RF hanche ; guidage pour drainage+placement d'un cathéter de drainage"
+            "display" : "fluoroscopie hanche ; guidage pour drainage et placement d'un cathéter de drainage"
           },
           {
             "code" : "69134-5",
@@ -18998,11 +18994,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "69137-8",
-            "display" : "RX cheville gauche ; incidences antéropostérieures + latérales + obliques en position debout"
+            "display" : "RX cheville gauche ; incidences antéropostérieures et latérales et obliques en position debout"
           },
           {
             "code" : "69138-6",
-            "display" : "RX cheville gauche ; 3 incidences avec position debout"
+            "display" : "RX cheville gauche ; 3 incidences en position debout"
           },
           {
             "code" : "69139-4",
@@ -19022,11 +19018,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "69143-6",
-            "display" : "RX genou - gauche ; 2 incidences et tunnel avec position debout"
+            "display" : "RX genou - gauche ; 2 incidences et tunnel en position debout"
           },
           {
             "code" : "69144-4",
-            "display" : "RX genou - gauche ; (4 incidences) + (incidence antéropostérieure avec position debout)"
+            "display" : "RX genou - gauche ; (4 incidences) et (incidence antéropostérieure en position debout)"
           },
           {
             "code" : "69145-1",
@@ -19050,7 +19046,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "69150-1",
-            "display" : "MG sein gauche ; incidence diagnostique pour implant"
+            "display" : "mammographie sein gauche ; incidence diagnostique pour implant"
           },
           {
             "code" : "69151-9",
@@ -19078,7 +19074,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "69157-6",
-            "display" : "RX poignet - gauche ; incidences latérales avec flexion + avec extension"
+            "display" : "RX poignet - gauche ; incidences latérales avec flexion et avec extension"
           },
           {
             "code" : "69158-4",
@@ -19098,291 +19094,291 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "69163-4",
-            "display" : "RM cheville bilatérale avec contraste IV"
+            "display" : "résonance magnétique cheville bilatérale avec contraste IV"
           },
           {
             "code" : "69164-2",
-            "display" : "RM cheville bilatérale sans contraste"
+            "display" : "résonance magnétique cheville bilatérale sans contraste"
           },
           {
             "code" : "69165-9",
-            "display" : "RM sein bilatéral ; pour implant"
+            "display" : "résonance magnétique sein bilatéral ; pour implant"
           },
           {
             "code" : "69166-7",
-            "display" : "RM sein bilatéral pour implant sans et avec contraste IV"
+            "display" : "résonance magnétique sein bilatéral pour implant sans et avec contraste IV"
           },
           {
             "code" : "69167-5",
-            "display" : "RM sein bilatéral pour implant avec contraste IV"
+            "display" : "résonance magnétique sein bilatéral pour implant avec contraste IV"
           },
           {
             "code" : "69168-3",
-            "display" : "RM sein bilatéral pour implant sans contraste IV"
+            "display" : "résonance magnétique sein bilatéral pour implant sans contraste IV"
           },
           {
             "code" : "69169-1",
-            "display" : "RM sein bilatéral ; guidage pour biopsie percutanée"
+            "display" : "résonance magnétique sein bilatéral ; guidage pour biopsie percutanée"
           },
           {
             "code" : "69170-9",
-            "display" : "RM coude - bilatéral avec contraste IV"
+            "display" : "résonance magnétique coude - bilatéral avec contraste IV"
           },
           {
             "code" : "69171-7",
-            "display" : "RM coude - bilatéral sans contraste"
+            "display" : "résonance magnétique coude - bilatéral sans contraste"
           },
           {
             "code" : "69172-5",
-            "display" : "RM fémur - bilatéral avec contraste IV"
+            "display" : "résonance magnétique fémur - bilatéral avec contraste IV"
           },
           {
             "code" : "69173-3",
-            "display" : "RM fémur - bilatéral sans contraste"
+            "display" : "résonance magnétique fémur - bilatéral sans contraste"
           },
           {
             "code" : "69174-1",
-            "display" : "RM avantbras - bilatéral sans et avec contraste IV"
+            "display" : "résonance magnétique avantbras - bilatéral sans et avec contraste IV"
           },
           {
             "code" : "69175-8",
-            "display" : "RM avantbras - bilatéral avec contraste IV"
+            "display" : "résonance magnétique avantbras - bilatéral avec contraste IV"
           },
           {
             "code" : "69176-6",
-            "display" : "RM avantbras - bilatéral sans contraste"
+            "display" : "résonance magnétique avantbras - bilatéral sans contraste"
           },
           {
             "code" : "69177-4",
-            "display" : "RM main - bilatérale sans et avec contraste IV"
+            "display" : "résonance magnétique main - bilatérale sans et avec contraste IV"
           },
           {
             "code" : "69178-2",
-            "display" : "RM main - bilatérale avec contraste IV"
+            "display" : "résonance magnétique main - bilatérale avec contraste IV"
           },
           {
             "code" : "69179-0",
-            "display" : "RM main - bilatérale sans contraste"
+            "display" : "résonance magnétique main - bilatérale sans contraste"
           },
           {
             "code" : "69180-8",
-            "display" : "RM bras - bilatéral"
+            "display" : "résonance magnétique bras - bilatéral"
           },
           {
             "code" : "69181-6",
-            "display" : "RM bras - bilatéral sans et avec contraste IV"
+            "display" : "résonance magnétique bras - bilatéral sans et avec contraste IV"
           },
           {
             "code" : "69182-4",
-            "display" : "RM bras - bilatéral avec contraste IV"
+            "display" : "résonance magnétique bras - bilatéral avec contraste IV"
           },
           {
             "code" : "69183-2",
-            "display" : "RM bras - bilatéral sans contraste"
+            "display" : "résonance magnétique bras - bilatéral sans contraste"
           },
           {
             "code" : "69184-0",
-            "display" : "RM épaule - bilatérale avec contraste IV"
+            "display" : "résonance magnétique épaule - bilatérale avec contraste IV"
           },
           {
             "code" : "69185-7",
-            "display" : "RM jambe - bilatérale sans contraste"
+            "display" : "résonance magnétique jambe - bilatérale sans contraste"
           },
           {
             "code" : "69186-5",
-            "display" : "RM membre supérieur - bilatéral sans et avec contraste IV"
+            "display" : "résonance magnétique membre supérieur - bilatéral sans et avec contraste IV"
           },
           {
             "code" : "69187-3",
-            "display" : "RM membre supérieur - bilatéral avec contraste IV"
+            "display" : "résonance magnétique membre supérieur - bilatéral avec contraste IV"
           },
           {
             "code" : "69188-1",
-            "display" : "RM membre supérieur - bilatéral sans contraste"
+            "display" : "résonance magnétique membre supérieur - bilatéral sans contraste"
           },
           {
             "code" : "69189-9",
-            "display" : "RM sein pour implant sans et avec contraste IV"
+            "display" : "résonance magnétique sein pour implant sans et avec contraste IV"
           },
           {
             "code" : "69190-7",
-            "display" : "RM sein pour implant avec contraste IV"
+            "display" : "résonance magnétique sein pour implant avec contraste IV"
           },
           {
             "code" : "69191-5",
-            "display" : "RM sein pour implant sans contraste IV"
+            "display" : "résonance magnétique sein pour implant sans contraste IV"
           },
           {
             "code" : "69192-3",
-            "display" : "RM sein ; guidage pour aspiration percutanée d'un kyste"
+            "display" : "résonance magnétique sein ; guidage pour aspiration percutanée d'un kyste"
           },
           {
             "code" : "69193-1",
-            "display" : "RM membre"
+            "display" : "résonance magnétique d'un membre"
           },
           {
             "code" : "69194-9",
-            "display" : "RM doigt sans et avec contraste IV"
+            "display" : "résonance magnétique doigt sans et avec contraste IV"
           },
           {
             "code" : "69195-6",
-            "display" : "RM doigt avec contraste IV"
+            "display" : "résonance magnétique doigt avec contraste IV"
           },
           {
             "code" : "69196-4",
-            "display" : "RM doigt sans contraste"
+            "display" : "résonance magnétique doigt sans contraste"
           },
           {
             "code" : "69197-2",
-            "display" : "RM foie ; guidage pour biopsie percutanée"
+            "display" : "résonance magnétique foie ; guidage pour biopsie percutanée"
           },
           {
             "code" : "69198-0",
-            "display" : "RM muscle ; guidage pour biopsie percutanée"
+            "display" : "résonance magnétique muscle ; guidage pour biopsie percutanée"
           },
           {
             "code" : "69199-8",
-            "display" : "RM pancréas ; guidage pour biopsie percutanée"
+            "display" : "résonance magnétique pancréas ; guidage pour biopsie percutanée"
           },
           {
             "code" : "69200-4",
-            "display" : "RM plèvre thoracique ; guidage pour biopsie"
+            "display" : "résonance magnétique plèvre thoracique ; guidage pour biopsie"
           },
           {
             "code" : "69201-2",
-            "display" : "RM glande salivaire ; guidage pour biopsie"
+            "display" : "résonance magnétique glande salivaire ; guidage pour biopsie"
           },
           {
             "code" : "69202-0",
-            "display" : "RM glande thyroïde ; guidage pour biopsie percutanée"
+            "display" : "résonance magnétique glande thyroïde ; guidage pour biopsie percutanée"
           },
           {
             "code" : "69203-8",
-            "display" : "RM sein gauche ; guidage pour biopsie percutanée"
+            "display" : "résonance magnétique sein gauche ; guidage pour biopsie percutanée"
           },
           {
             "code" : "69204-6",
-            "display" : "RM doigt - gauche sans et avec contraste IV"
+            "display" : "résonance magnétique doigt - gauche sans et avec contraste IV"
           },
           {
             "code" : "69205-3",
-            "display" : "RM doigt - gauche avec contraste IV"
+            "display" : "résonance magnétique doigt - gauche avec contraste IV"
           },
           {
             "code" : "69206-1",
-            "display" : "RM doigt - gauche sans contraste"
+            "display" : "résonance magnétique doigt - gauche sans contraste"
           },
           {
             "code" : "69207-9",
-            "display" : "RM hanche - gauche sans & avec contraste intraarticulaire"
+            "display" : "résonance magnétique hanche - gauche sans et avec contraste intraarticulaire"
           },
           {
             "code" : "69208-7",
-            "display" : "RM épaule - gauche sans & avec contraste intraarticulaire"
+            "display" : "résonance magnétique épaule - gauche sans et avec contraste intraarticulaire"
           },
           {
             "code" : "69209-5",
-            "display" : "RM poignet - gauche et main - gauche"
+            "display" : "résonance magnétique poignet - gauche et main - gauche"
           },
           {
             "code" : "69210-3",
-            "display" : "RM articulation du membre inférieur avec contraste intraarticulaire"
+            "display" : "résonance magnétique articulation du membre inférieur avec contraste intraarticulaire"
           },
           {
             "code" : "69211-1",
-            "display" : "RM os du nez"
+            "display" : "résonance magnétique os du nez"
           },
           {
             "code" : "69212-9",
-            "display" : "RM pelvis limitée"
+            "display" : "résonance magnétique pelvis limitée"
           },
           {
             "code" : "69213-7",
-            "display" : "RM sein droit ; guidage pour biopsie percutanée"
+            "display" : "résonance magnétique sein droit ; guidage pour biopsie percutanée"
           },
           {
             "code" : "69214-5",
-            "display" : "RM doigt - droit sans et avec contraste IV"
+            "display" : "résonance magnétique doigt - droit sans et avec contraste IV"
           },
           {
             "code" : "69215-2",
-            "display" : "RM doigt - droit avec contraste IV"
+            "display" : "résonance magnétique doigt - droit avec contraste IV"
           },
           {
             "code" : "69216-0",
-            "display" : "RM doigt - droit sans contraste"
+            "display" : "résonance magnétique doigt - droit sans contraste"
           },
           {
             "code" : "69217-8",
-            "display" : "RM hanche - droite sans & avec contraste intraarticulaire"
+            "display" : "résonance magnétique hanche - droite sans et avec contraste intraarticulaire"
           },
           {
             "code" : "69218-6",
-            "display" : "RM épaule - droite sans & avec contraste intraarticulaire"
+            "display" : "résonance magnétique épaule - droite sans et avec contraste intraarticulaire"
           },
           {
             "code" : "69219-4",
-            "display" : "RM poignet - droit et main - droite"
+            "display" : "résonance magnétique poignet - droit et main - droite"
           },
           {
             "code" : "69220-2",
-            "display" : "RM base du crâne sans et avec contraste IV"
+            "display" : "résonance magnétique base du crâne sans et avec contraste IV"
           },
           {
             "code" : "69221-0",
-            "display" : "RM scrotum et testicule avec contraste IV"
+            "display" : "résonance magnétique scrotum et testicule avec contraste IV"
           },
           {
             "code" : "69222-8",
-            "display" : "RM veine cave"
+            "display" : "résonance magnétique veine cave"
           },
           {
             "code" : "69223-6",
-            "display" : "RM sans contraste"
+            "display" : "résonance magnétique sans contraste dans une région du corps non spécifiée"
           },
           {
             "code" : "69226-9",
-            "display" : "RF muscle ; guidage pour biopsie percutanée"
+            "display" : "fluoroscopie muscle ; guidage pour biopsie percutanée"
           },
           {
             "code" : "69229-3",
-            "display" : "MN SPECT foie avec sulfocolloïde de technétium 99 IV"
+            "display" : "médecine nucléaire SPECT foie avec sulfocolloïde de technétium 99 IV"
           },
           {
             "code" : "69230-1",
-            "display" : "MN foie ; incidences avec sulfocolloïde de technétium 99 IV"
+            "display" : "médecine nucléaire foie ; incidences avec sulfocolloïde de technétium 99 IV"
           },
           {
             "code" : "69231-9",
-            "display" : "MN coeur ; incidences avec stress+avec Tc-99m IV"
+            "display" : "médecine nucléaire coeur ; incidences avec stress et avec Tc-99m IV"
           },
           {
             "code" : "69232-7",
-            "display" : "MN coeur ; incidences avec stress+avec Tc-99m Sestamibi IV"
+            "display" : "médecine nucléaire coeur ; incidences avec stress et avec Tc-99m Sestamibi IV"
           },
           {
             "code" : "69233-5",
-            "display" : "MN glande parotide ; incidences avec pertechnétate de technétium 99m Tc IV"
+            "display" : "médecine nucléaire glande parotide ; incidences avec pertechnétate de technétium 99m Tc IV"
           },
           {
             "code" : "69234-3",
-            "display" : "MN SPECT rate avec globules rouges marqués au Tc-99m IV"
+            "display" : "médecine nucléaire SPECT rate avec globules rouges marqués au Tc-99m IV"
           },
           {
             "code" : "69235-0",
-            "display" : "MN SPECT scrotum et testicule pour débit sanguin avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT scrotum et testicule pour débit sanguin avec radionucléide IV"
           },
           {
             "code" : "69236-8",
-            "display" : "MN glande thyroïde ; incidences + incidences pour absorption avec I-131 per os"
+            "display" : "médecine nucléaire glande thyroïde ; incidences et incidences pour absorption avec I-131 per os"
           },
           {
             "code" : "69237-6",
-            "display" : "MN SPECT corps entier pour tumeur avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT corps entier pour tumeur avec radionucléide IV"
           },
           {
             "code" : "69238-4",
-            "display" : "MN SPECT vessie urinaire et urètre avec contraste intravésical+pendant la miction"
+            "display" : "médecine nucléaire SPECT vessie urinaire et urètre avec contraste intravésical et pendant la miction"
           },
           {
             "code" : "69239-2",
@@ -19390,19 +19386,19 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "69241-8",
-            "display" : "RF abdomen ; guidage pour drainage percutané d'un abcès + placement d'un cathéter de drainage"
+            "display" : "fluoroscopie abdomen ; guidage pour drainage percutané d'un abcès et placement d'un cathéter de drainage"
           },
           {
             "code" : "69242-6",
-            "display" : "RF appendice ; guidage pour drainage percutané d'un abcès + placement d'un cathéter de drainage"
+            "display" : "fluoroscopie appendice ; guidage pour drainage percutané d'un abcès et placement d'un cathéter de drainage"
           },
           {
             "code" : "69243-4",
-            "display" : "RF poumon ; guidage pour drainage percutané d'un abcès + placement d'un cathéter de drainage"
+            "display" : "fluoroscopie poumon ; guidage pour drainage percutané d'un abcès et placement d'un cathéter de drainage"
           },
           {
             "code" : "69244-2",
-            "display" : "RF pelvis ; guidage pour drainage percutané d'un abcès + placement d'un cathéter de drainage"
+            "display" : "fluoroscopie pelvis ; guidage pour drainage percutané d'un abcès et placement d'un cathéter de drainage"
           },
           {
             "code" : "69248-3",
@@ -19418,7 +19414,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "69251-7",
-            "display" : "MG sein ; incidences placement d'un guide"
+            "display" : "mammographie sein ; incidences placement d'un guide"
           },
           {
             "code" : "69252-5",
@@ -19430,7 +19426,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "69254-1",
-            "display" : "RX cheville droite ; 3 incidences avec position debout"
+            "display" : "RX cheville droite ; 3 incidences en position debout"
           },
           {
             "code" : "69255-8",
@@ -19450,7 +19446,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "69259-0",
-            "display" : "MG sein droit ; incidence diagnostique pour implant"
+            "display" : "mammographie sein droit ; incidence diagnostique pour implant"
           },
           {
             "code" : "69260-8",
@@ -19470,7 +19466,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "69264-0",
-            "display" : "RX sacrum ; incidences avec position debout"
+            "display" : "RX sacrum ; incidences en position debout"
           },
           {
             "code" : "69265-7",
@@ -19486,7 +19482,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "69268-1",
-            "display" : "MG canal galactophore ; incidence avec contraste intracanalaire"
+            "display" : "mammographie canal galactophore ; incidence avec contraste intracanalaire"
           },
           {
             "code" : "69269-9",
@@ -19502,7 +19498,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "69272-3",
-            "display" : "RF intestin grêle ; incidences avec contraste via iléostomie"
+            "display" : "fluoroscopie intestin grêle ; incidences avec contraste via iléostomie"
           },
           {
             "code" : "69273-1",
@@ -19510,11 +19506,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "69274-9",
-            "display" : "RX rachis dorsal ; 2 incidences avec position debout"
+            "display" : "RX rachis dorsal ; 2 incidences en position debout"
           },
           {
             "code" : "69275-6",
-            "display" : "RX rachis dorsal ; incidences avec position debout"
+            "display" : "RX rachis dorsal ; incidences en position debout"
           },
           {
             "code" : "69276-4",
@@ -19622,7 +19618,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "69306-9",
-            "display" : "RF os ; guidage pour aspiration percutanée d'un kyste"
+            "display" : "fluoroscopie os ; guidage pour aspiration percutanée d'un kyste"
           },
           {
             "code" : "69307-7",
@@ -19686,7 +19682,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "69385-3",
-            "display" : "échographie veines du membre inférieur - bilatérales"
+            "display" : "échographie veines du membre inférieur - bilatéral"
           },
           {
             "code" : "69387-9",
@@ -19694,7 +19690,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "69388-7",
-            "display" : "échographie vessie urinaire postmictionnel"
+            "display" : "échographie vessie urinaire postmictionnelle"
           },
           {
             "code" : "69389-5",
@@ -19750,7 +19746,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "69908-2",
-            "display" : "CTA vaisseaux abdominaux et vaisseaux du pelvis avec contraste IV"
+            "display" : "angiographie par tomodensitométrie vaisseaux abdominaux et vaisseaux du pelvis avec contraste IV"
           },
           {
             "code" : "70915-4",
@@ -19766,15 +19762,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "70918-8",
-            "display" : "RF rachis cervical ; guidage pour injection"
+            "display" : "fluoroscopie rachis cervical ; guidage pour injection"
           },
           {
             "code" : "70919-6",
-            "display" : "RF rachis lombaire ; guidage pour injection"
+            "display" : "fluoroscopie rachis lombaire ; guidage pour injection"
           },
           {
             "code" : "70920-4",
-            "display" : "RF rachis dorsal ; guidage pour injection"
+            "display" : "fluoroscopie rachis dorsal ; guidage pour injection"
           },
           {
             "code" : "70921-2",
@@ -19786,15 +19782,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "70923-8",
-            "display" : "RF rachis cervical ; guidage pour vertébroplastie percutanée"
+            "display" : "fluoroscopie rachis cervical ; guidage pour vertébroplastie percutanée"
           },
           {
             "code" : "70924-6",
-            "display" : "RF rachis lombaire ; guidage pour vertébroplastie percutanée"
+            "display" : "fluoroscopie rachis lombaire ; guidage pour vertébroplastie percutanée"
           },
           {
             "code" : "70925-3",
-            "display" : "RF rachis dorsal ; guidage pour vertébroplastie percutanée"
+            "display" : "fluoroscopie rachis dorsal ; guidage pour vertébroplastie percutanée"
           },
           {
             "code" : "70926-1",
@@ -19814,71 +19810,71 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "70933-7",
-            "display" : "RF rachis dorsal ; incidences avec contraste intradiscal"
+            "display" : "fluoroscopie rachis dorsal ; incidences avec contraste intradiscal"
           },
           {
             "code" : "72137-3",
-            "display" : "TMN sein droit diagnostique"
+            "display" : "tomosynthèse mammaire numérique sein droit diagnostique"
           },
           {
             "code" : "72138-1",
-            "display" : "TMN sein gauche diagnostique"
+            "display" : "tomosynthèse mammaire numérique sein gauche diagnostique"
           },
           {
             "code" : "72139-9",
-            "display" : "TMN sein bilatéral diagnostique"
+            "display" : "tomosynthèse mammaire numérique sein bilatéral diagnostique"
           },
           {
             "code" : "72140-7",
-            "display" : "TMN sein droit de dépistage"
+            "display" : "tomosynthèse mammaire numérique  sein droit de dépistage"
           },
           {
             "code" : "72141-5",
-            "display" : "TMN sein gauche de dépistage"
+            "display" : "tomosynthèse mammaire numérique  sein gauche de dépistage"
           },
           {
             "code" : "72142-3",
-            "display" : "TMN sein bilatéral de dépistage"
+            "display" : "tomosynthèse mammaire numérique sein bilatéral de dépistage"
           },
           {
             "code" : "72238-9",
-            "display" : "RM orteils - droits sans et avec contraste IV"
+            "display" : "résonance magnétique orteils - droits sans et avec contraste IV"
           },
           {
             "code" : "72239-7",
-            "display" : "RM orteils - droits sans contraste"
+            "display" : "résonance magnétique orteils - droits sans contraste"
           },
           {
             "code" : "72240-5",
-            "display" : "RM orteils - droits avec contraste IV"
+            "display" : "résonance magnétique orteils - droits avec contraste IV"
           },
           {
             "code" : "72241-3",
-            "display" : "RM orteils - gauches sans et avec contraste IV"
+            "display" : "résonance magnétique orteils - gauches sans et avec contraste IV"
           },
           {
             "code" : "72242-1",
-            "display" : "RM orteils - gauches sans contraste"
+            "display" : "résonance magnétique orteils - gauches sans contraste"
           },
           {
             "code" : "72243-9",
-            "display" : "RM orteils - gauches avec contraste IV"
+            "display" : "résonance magnétique orteils - gauches avec contraste IV"
           },
           {
             "code" : "72244-7",
-            "display" : "RM pelvis endorectale sans & avec contraste IV"
+            "display" : "résonance magnétique pelvis endorectal sans et avec contraste IV"
           },
           {
             "code" : "72245-4",
-            "display" : "RM pelvis avec contraste par voie rectale+au repos+contraction maximale du sphincter+pendant l'effort de défécation+pendant la défécation"
+            "display" : "résonance magnétique pelvis avec contraste par voie rectale et au repos et contraction maximale du sphincter et pendant l'effort de défécation et pendant la défécation"
           },
           {
             "code" : "72246-2",
-            "display" : "RM abdomen et pelvis avec contraste per os+sans & avec contraste IV"
+            "display" : "résonance magnétique abdomen et pelvis avec contraste per os et sans et avec contraste IV"
           },
           {
             "code" : "72247-0",
-            "display" : "RM abdomen et pelvis avec contraste per os+sans contraste IV"
+            "display" : "résonance magnétique abdomen et pelvis avec contraste per os et sans contraste IV"
           },
           {
             "code" : "72248-8",
@@ -19890,7 +19886,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "72250-4",
-            "display" : "CT intestin grêle avec contraste per os+avec contraste IV"
+            "display" : "CT intestin grêle avec contraste per os et avec contraste IV"
           },
           {
             "code" : "72251-2",
@@ -19926,7 +19922,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "72531-7",
-            "display" : "CT côlon et rectum avec contraste IV+avec contraste naturel par l’air ambiant par voie rectale"
+            "display" : "CT côlon et rectum avec contraste IV et avec contraste naturel par l’air ambiant par voie rectale"
           },
           {
             "code" : "72532-5",
@@ -19958,31 +19954,31 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "72539-0",
-            "display" : "RF nerf périphérique ; guidage pour dénervation"
+            "display" : "fluoroscopie nerf périphérique ; guidage pour dénervation"
           },
           {
             "code" : "72540-8",
-            "display" : "RF articulation zygapophysaire du rachis ; guidage pour dénervation"
+            "display" : "fluoroscopie articulation zygapophysaire du rachis ; guidage pour dénervation"
           },
           {
             "code" : "72541-6",
-            "display" : "RF articulation zygapophysaire du rachis cervical ; guidage pour dénervation"
+            "display" : "fluoroscopie articulation zygapophysaire du rachis cervical ; guidage pour dénervation"
           },
           {
             "code" : "72542-4",
-            "display" : "RF articulation zygapophysaire du rachis lombaire ; guidage pour dénervation"
+            "display" : "fluoroscopie articulation zygapophysaire du rachis lombaire ; guidage pour dénervation"
           },
           {
             "code" : "72543-2",
-            "display" : "RF nerf intercostal du rachis dorsal ; guidage pour dénervation"
+            "display" : "fluoroscopie nerf intercostal du rachis dorsal ; guidage pour dénervation"
           },
           {
             "code" : "72544-0",
-            "display" : "RF rein - bilatéral ; guidage pour ablation percutanée d'une sonde de néphrostomie avec contraste"
+            "display" : "fluoroscopie rein - bilatéral ; guidage pour ablation percutanée d'une sonde de néphrostomie avec contraste"
           },
           {
             "code" : "72545-7",
-            "display" : "RF voies biliaires et vésicule biliaire ; guidage pour remplacement percutané d'un cathéter de drainage"
+            "display" : "fluoroscopie voies biliaires et vésicule biliaire ; guidage pour remplacement percutané d'un cathéter de drainage"
           },
           {
             "code" : "72546-5",
@@ -19998,7 +19994,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "72549-9",
-            "display" : "RF veine ; guidage pour ablation d'un cathéter veineux central tunnelisé"
+            "display" : "fluoroscopie veine ; guidage pour ablation d'un cathéter veineux central tunnelé"
           },
           {
             "code" : "72550-7",
@@ -20010,15 +20006,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "72552-3",
-            "display" : "RF rachis lombaire ; guidage pour cyphoplastie"
+            "display" : "fluoroscopie rachis lombaire ; guidage pour cyphoplastie"
           },
           {
             "code" : "72553-1",
-            "display" : "RF rachis dorsal ; guidage pour cyphoplastie"
+            "display" : "fluoroscopie rachis dorsal ; guidage pour cyphoplastie"
           },
           {
             "code" : "72554-9",
-            "display" : "RF muscle ; guidage pour injection d'un point cible"
+            "display" : "fluoroscopie muscle ; guidage pour injection d'un point cible"
           },
           {
             "code" : "72642-2",
@@ -20046,7 +20042,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "72832-9",
-            "display" : "échographie Doppler artères d'extrémité - bilatérales pour étude physiologique d'une artère au repos+à l'exercice"
+            "display" : "échographie Doppler artères d'extrémité - bilatérales pour étude physiologique d'une artère au repos et à l'exercice"
           },
           {
             "code" : "72876-6",
@@ -20054,15 +20050,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "75669-2",
-            "display" : "RF moelle osseuse ; guidage pour biopsie percutanée"
+            "display" : "fluoroscopie moelle osseuse ; guidage pour biopsie percutanée"
           },
           {
             "code" : "75670-0",
-            "display" : "RF espace épidural du rachis lombaire ; incidences avec contraste dans l'espace péridural"
+            "display" : "fluoroscopie espace épidural du rachis lombaire ; incidences avec contraste dans l'espace péridural"
           },
           {
             "code" : "75671-8",
-            "display" : "CTA cercle artériel du cerveau sans et avec contraste IV"
+            "display" : "angiographie par tomodensitométrie cercle artériel du cerveau sans et avec contraste IV"
           },
           {
             "code" : "75672-6",
@@ -20074,7 +20070,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "75747-6",
-            "display" : "RF espace pleural - bilatéral ; guidage pour drainage d'un abcès et placement d'une sonde thoracique"
+            "display" : "fluoroscopie espace pleural - bilatéral ; guidage pour drainage d'un abcès et placement d'une sonde thoracique"
           },
           {
             "code" : "75748-4",
@@ -20082,15 +20078,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "75749-2",
-            "display" : "RF disque intervertébral ; guidage pour aspiration percutanée d'un fluide"
+            "display" : "fluoroscopie disque intervertébral ; guidage pour aspiration percutanée d'un fluide"
           },
           {
             "code" : "75750-0",
-            "display" : "RF disque intervertébral ; guidage pour biopsie percutanée"
+            "display" : "fluoroscopie disque intervertébral ; guidage pour biopsie percutanée"
           },
           {
             "code" : "75751-8",
-            "display" : "RF espace pleural - gauche ; guidage pour drainage d'un abcès et placement d'une sonde thoracique"
+            "display" : "fluoroscopie espace pleural - gauche ; guidage pour drainage d'un abcès et placement d'une sonde thoracique"
           },
           {
             "code" : "75752-6",
@@ -20098,11 +20094,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "75816-9",
-            "display" : "RF rachis.espace épidural thoracique ; incidences avec contraste dans l'espace péridural"
+            "display" : "fluoroscopie rachis.espace épidural thoracique ; incidences avec contraste dans l'espace péridural"
           },
           {
             "code" : "75817-7",
-            "display" : "RF espace pleural - droit ; guidage pour drainage d'un abcès et placement d'une sonde thoracique"
+            "display" : "fluoroscopie espace pleural - droit ; guidage pour drainage d'un abcès et placement d'une sonde thoracique"
           },
           {
             "code" : "75818-5",
@@ -20110,11 +20106,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "75853-2",
-            "display" : "RF vagin ; incidences avec contraste intra vaginal"
+            "display" : "fluoroscopie vagin ; incidences avec contraste intra vaginal"
           },
           {
             "code" : "77311-9",
-            "display" : "CTA aorte abdominale et vaisseaux bilatéraux pour endoprothèse"
+            "display" : "angiographie par tomodensitométrie aorte abdominale et vaisseaux bilatéraux pour endoprothèse"
           },
           {
             "code" : "77448-9",
@@ -20122,7 +20118,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "77451-3",
-            "display" : "CTA aorte abdominale et thoracique et vaisseaux - bilatéraux pour endoprothèse"
+            "display" : "angiographie par tomodensitométrie aorte abdominale et thoracique et vaisseaux - bilatéraux pour endoprothèse"
           },
           {
             "code" : "77456-2",
@@ -20162,23 +20158,23 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "78031-2",
-            "display" : "CTA aorte abdominale et vaisseaux collatéraux sans et avec contraste IV"
+            "display" : "angiographie par tomodensitométrie aorte abdominale et vaisseaux collatéraux sans et avec contraste IV"
           },
           {
             "code" : "78032-0",
-            "display" : "CTA aorte abdominale et thoracique et vaisseaux collatéraux sans et avec contraste IV"
+            "display" : "angiographie par tomodensitométrie aorte abdominale et thoracique et vaisseaux collatéraux sans et avec contraste IV"
           },
           {
             "code" : "78037-9",
-            "display" : "CTA aorte abdominale et vaisseaux collatéraux avec contraste IV"
+            "display" : "angiographie par tomodensitométrie aorte abdominale et vaisseaux collatéraux avec contraste IV"
           },
           {
             "code" : "78038-7",
-            "display" : "CTA aorte abdominale et thoracique et vaisseaux collatéraux avec contraste IV"
+            "display" : "angiographie par tomodensitométrie aorte abdominale et thoracique et vaisseaux collatéraux avec contraste IV"
           },
           {
             "code" : "78973-5",
-            "display" : "scanogramme.CT membre inférieur - bilatéral pour mesure de jambe sans contraste"
+            "display" : "CT membre inférieur - bilatéral pour mesure de jambe sans contraste"
           },
           {
             "code" : "79065-9",
@@ -20198,23 +20194,23 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "79069-1",
-            "display" : "CT côlon et rectum pour dépistage sans contraste IV+avec contraste naturel par l’air ambiant par voie rectale"
+            "display" : "CT côlon et rectum pour dépistage sans contraste IV et avec contraste naturel par l’air ambiant par voie rectale"
           },
           {
             "code" : "79071-7",
-            "display" : "CT côlon et rectum sans contraste IV+avec contraste naturel par l’air ambiant par voie rectale"
+            "display" : "CT côlon et rectum sans contraste IV et avec contraste naturel par l’air ambiant par voie rectale"
           },
           {
             "code" : "79072-5",
-            "display" : "CT ; guidage pour radiothérapie"
+            "display" : "CT ; guidage pour radiothérapie dans une région du corps non spécifiée"
           },
           {
             "code" : "79073-3",
-            "display" : "CTA coeur et artères coronaires avec contraste IV"
+            "display" : "angiographie par tomodensitométrie coeur et artères coronaires avec contraste IV"
           },
           {
             "code" : "79074-1",
-            "display" : "CT rein et uretère et vessie urinaire post processing 3D sans & avec contraste IV"
+            "display" : "CT rein et uretère et vessie urinaire post processing 3D sans et avec contraste IV"
           },
           {
             "code" : "79075-8",
@@ -20226,7 +20222,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "79077-4",
-            "display" : "CTA artères pulmonaires pour embolie pulmonaire avec contraste IV"
+            "display" : "angiographie par tomodensitométrie artères pulmonaires pour embolie pulmonaire avec contraste IV"
           },
           {
             "code" : "79078-2",
@@ -20278,7 +20274,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "79090-7",
-            "display" : "densitométrie par tomodensitométrie rachis lombaire sans contraste"
+            "display" : "densitométrie par CT rachis lombaire sans contraste"
           },
           {
             "code" : "79091-5",
@@ -20286,11 +20282,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "79092-3",
-            "display" : "densitométrie par tomodensitométrie rachis dorsal sans contraste"
+            "display" : "densitométrie par CT rachis dorsal sans contraste"
           },
           {
             "code" : "79093-1",
-            "display" : "CT ; post traitement 3 dimensions"
+            "display" : "CT ; post traitement 3 dimensions dans une région du corps non spécifiée"
           },
           {
             "code" : "79094-9",
@@ -20334,7 +20330,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "79351-3",
-            "display" : "RX rachis cervical ; plus grand qu'une incidence"
+            "display" : "RX rachis cervical ; plus d'une incidence"
           },
           {
             "code" : "79352-1",
@@ -20346,11 +20342,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "79354-7",
-            "display" : "RX doigt ; plus grand qu'une incidence"
+            "display" : "RX doigt ; plus d'une incidence"
           },
           {
             "code" : "79355-4",
-            "display" : "RX pied ; 3 incidences avec position debout"
+            "display" : "RX pied ; 3 incidences en position debout"
           },
           {
             "code" : "79356-2",
@@ -20366,19 +20362,19 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "79359-6",
-            "display" : "RX hanche - gauche ; plus grand qu'une incidence"
+            "display" : "RX hanche - gauche ; plus d'une incidence"
           },
           {
             "code" : "79360-4",
-            "display" : "RX hanche - droite ; plus grand qu'une incidence"
+            "display" : "RX hanche - droite ; plus d'une incidence"
           },
           {
             "code" : "79361-2",
-            "display" : "RX hanche ; plus grand qu'une incidence"
+            "display" : "RX hanche ; plus d'une incidence"
           },
           {
             "code" : "79362-0",
-            "display" : "RX humérus ; plus grand qu'une incidence"
+            "display" : "RX humérus ; plus d'une incidence"
           },
           {
             "code" : "79363-8",
@@ -20394,27 +20390,27 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "79366-1",
-            "display" : "RX côtes - unilatérales et thorax ; 2 incidences"
+            "display" : "RX côtes - unilatérales et 2 incidences thorax"
           },
           {
             "code" : "79367-9",
-            "display" : "RX sacrum et coccyx ; plus grand qu'une incidence"
+            "display" : "RX sacrum et coccyx ; plus d'une incidence"
           },
           {
             "code" : "79368-7",
-            "display" : "RX épaule - gauche ; plus grand qu'une incidence"
+            "display" : "RX épaule - gauche ; plus d'une incidence"
           },
           {
             "code" : "79369-5",
-            "display" : "RX épaule - droite ; plus grand qu'une incidence"
+            "display" : "RX épaule - droite ; plus d'une incidence"
           },
           {
             "code" : "79370-3",
-            "display" : "RX épaule ; plus grand qu'une incidence"
+            "display" : "RX épaule ; plus d'une incidence"
           },
           {
             "code" : "79371-1",
-            "display" : "RX rachis lombaire et sacrum ; plus grand qu'une incidence"
+            "display" : "RX rachis lombaire et sacrum ; plus d'une incidence"
           },
           {
             "code" : "79372-9",
@@ -20422,7 +20418,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "79373-7",
-            "display" : "RX orteil ; plus grand qu'une incidence"
+            "display" : "RX orteil ; plus d'une incidence"
           },
           {
             "code" : "79374-5",
@@ -20430,31 +20426,31 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "80495-5",
-            "display" : "RM médiastin sans contraste"
+            "display" : "résonance magnétique médiastin sans contraste"
           },
           {
             "code" : "80496-3",
-            "display" : "RM ; post traitement 3 dimensions"
+            "display" : "résonance magnétique ; post traitement 3 dimensions"
           },
           {
             "code" : "80497-1",
-            "display" : "RM sein droit ; guidage pour localisation à l'aiguille"
+            "display" : "résonance magnétique sein droit ; guidage pour localisation à l'aiguille"
           },
           {
             "code" : "80498-9",
-            "display" : "RM sein gauche ; guidage pour localisation à l'aiguille"
+            "display" : "résonance magnétique sein gauche ; guidage pour localisation à l'aiguille"
           },
           {
             "code" : "80499-7",
-            "display" : "RM corps entier sans et avec contraste IV"
+            "display" : "résonance magnétique corps entier sans et avec contraste IV"
           },
           {
             "code" : "80500-2",
-            "display" : "RM coeur avec stress+sans contraste"
+            "display" : "résonance magnétique coeur avec stress et sans contraste"
           },
           {
             "code" : "80501-0",
-            "display" : "RM intestin grêle avec contraste per os+sans contraste IV"
+            "display" : "résonance magnétique intestin grêle avec contraste per os et sans contraste IV"
           },
           {
             "code" : "80502-8",
@@ -20462,63 +20458,63 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "80503-6",
-            "display" : "RM intestin grêle avec contraste per os+sans & avec contraste IV"
+            "display" : "résonance magnétique intestin grêle avec contraste per os et sans et avec contraste IV"
           },
           {
             "code" : "80504-4",
-            "display" : "RM ; guidage pour biopsie percutanée"
+            "display" : "résonance magnétique guidage pour biopsie percutanée d'une région du corps non spécifiée"
           },
           {
             "code" : "80505-1",
-            "display" : "RM cerveau pour tumeur nouvellement diagnostiquée sans & avec contraste IV"
+            "display" : "résonance magnétique cerveau pour tumeur nouvellement diagnostiquée sans et avec contraste IV"
           },
           {
             "code" : "80506-9",
-            "display" : "RM cerveau pour tumeur de bas grade sans et avec constraste IV"
+            "display" : "résonance magnétique cerveau pour tumeur de bas grade sans et avec constraste IV"
           },
           {
             "code" : "80507-7",
-            "display" : "RM cerveau pour tumeur de haut grade sans & avec contraste IV"
+            "display" : "résonance magnétique cerveau pour tumeur de haut grade sans et avec contraste IV"
           },
           {
             "code" : "80508-5",
-            "display" : "RM membre supérieur.articulation avec contraste intraarticulaire"
+            "display" : "résonance magnétique membre supérieur articulation avec contraste intraarticulaire"
           },
           {
             "code" : "80509-3",
-            "display" : "RM ; guidage pour placement d'un clip"
+            "display" : "résonance magnétique guidage pour placement d'un clip dans une région du corps non spécifiée"
           },
           {
             "code" : "80510-1",
-            "display" : "RM cerveau pour métastase sans & avec contraste IV"
+            "display" : "résonance magnétique cerveau pour métastase sans et avec contraste IV"
           },
           {
             "code" : "80511-9",
-            "display" : "RM cerveau ; pour le postopératoire"
+            "display" : "résonance magnétique cerveau ; pour le postopératoire"
           },
           {
             "code" : "80512-7",
-            "display" : "RM moelle osseuse sans contraste"
+            "display" : "résonance magnétique moelle osseuse sans contraste"
           },
           {
             "code" : "80513-5",
-            "display" : "RM moelle osseuse avec contraste IV"
+            "display" : "résonance magnétique moelle osseuse avec contraste IV"
           },
           {
             "code" : "80514-3",
-            "display" : "RM moelle osseuse sans et avec contraste IV"
+            "display" : "résonance magnétique moelle osseuse sans et avec contraste IV"
           },
           {
             "code" : "80583-8",
-            "display" : "RMF cerveau ; pour fonction motrice"
+            "display" : "IRM fonctionnelle du cerveau pour fonction motrice"
           },
           {
             "code" : "80584-6",
-            "display" : "RM urètre endovaginale sans contraste"
+            "display" : "résonance magnétique urètre endovaginale sans contraste"
           },
           {
             "code" : "80585-3",
-            "display" : "RM pelvis endorectale avec contraste IV"
+            "display" : "résonance magnétique pelvis endorectal avec contraste IV"
           },
           {
             "code" : "80833-7",
@@ -20586,7 +20582,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "80851-9",
-            "display" : "échographie Doppler artère cérébral moyenne^foetus pour grossesse"
+            "display" : "échographie Doppler artère cérébral moyenne foetus pour grossesse"
           },
           {
             "code" : "80852-7",
@@ -20634,7 +20630,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "80863-4",
-            "display" : "échographie.Doppler pour rein transplanté"
+            "display" : "échographie Doppler pour rein transplanté"
           },
           {
             "code" : "80864-2",
@@ -20714,7 +20710,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "80895-6",
-            "display" : "échographie veines du membre supérieur - bilatérales"
+            "display" : "échographie veines du membre supérieur - bilatéral"
           },
           {
             "code" : "80896-4",
@@ -20762,191 +20758,191 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "81206-5",
-            "display" : "MN foie et rate ; incidences avec sulfocolloïde de technétium 99 IV"
+            "display" : "médecine nucléaire foie et rate ; incidences avec sulfocolloïde de technétium 99 IV"
           },
           {
             "code" : "81542-3",
-            "display" : "MN rachis lombaire ; incidences pour fuite de liquide céphalorachidien après ponction lombaire avec radionucléide intrathécal"
+            "display" : "médecine nucléaire rachis lombaire ; incidences pour fuite de liquide céphalorachidien après ponction lombaire avec radionucléide intrathécal"
           },
           {
             "code" : "81543-1",
-            "display" : "MN tête ; incidences pour fuite de LCR avec rhinorrhée ou otorrhée avec radionucléide intrathécal"
+            "display" : "médecine nucléaire tête ; incidences pour fuite de LCR avec rhinorrhée ou otorrhée avec radionucléide intrathécal"
           },
           {
             "code" : "81544-9",
-            "display" : "MN tractus gastro-intestinal ; incidences pour saignement gastrointestinal avec radionucléide IV"
+            "display" : "médecine nucléaire tractus gastro-intestinal ; incidences pour saignement gastrointestinal avec radionucléide IV"
           },
           {
             "code" : "81545-6",
-            "display" : "MN abdomen et pelvis ; incidences pour perméabilité d'un shunt avec radionucléide IV"
+            "display" : "médecine nucléaire abdomen et pelvis ; incidences pour perméabilité d'un shunt avec radionucléide IV"
           },
           {
             "code" : "81546-4",
-            "display" : "MN rein ; incidences pour débit sanguin+fonction rénale avec radionucléide IV"
+            "display" : "médecine nucléaire rein ; incidences pour débit sanguin et fonction rénale avec radionucléide IV"
           },
           {
             "code" : "81547-2",
-            "display" : "MN SPECT corps entier avec In-111 pentétréotide IV"
+            "display" : "médecine nucléaire SPECT corps entier avec In-111 pentétréotide IV"
           },
           {
             "code" : "81548-0",
-            "display" : "MN SPECT avec globules blancs marqués IV"
+            "display" : "médecine nucléaire SPECT avec globules blancs marqués IV"
           },
           {
             "code" : "81549-8",
-            "display" : "MN SPECT+CT ganglion lymphatique avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT et CT ganglion lymphatique avec radionucléide IV"
           },
           {
             "code" : "81550-6",
-            "display" : "MN SPECT+CT glande parathyroïde avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT et CT glande parathyroïde avec radionucléide IV"
           },
           {
             "code" : "81551-4",
-            "display" : "PET+CT os de la base du crâne à micuisse fluorure 18F de sodium IV"
+            "display" : "tomographie par émission de positons et CT os de la base du crâne à micuisse fluorure 18F de sodium IV"
           },
           {
             "code" : "81552-2",
-            "display" : "PET+CT os du corps entier fluorure 18F de sodium IV"
+            "display" : "tomographie par émission de positons et CT os du corps entier fluorure 18F de sodium IV"
           },
           {
             "code" : "81553-0",
-            "display" : "PET+CT ; guidage limité pour localisation de tumeur avec 18F-FDG IV"
+            "display" : "tomographie par émission de positons et CT ; guidage limité pour localisation de tumeur avec 18F-FDG IV dans une région du corps non spécifiée"
           },
           {
             "code" : "81554-8",
-            "display" : "PET+CT de la base du crâne à micuisse ; guidage pour localisation de tumeur avec 18F-FDG IV"
+            "display" : "tomographie par émission de positons et CT de la base du crâne à micuisse ; guidage pour localisation de tumeur avec 18F-FDG IV"
           },
           {
             "code" : "81555-5",
-            "display" : "PET+CT corps entier ; guidage pour localisation de tumeur avec 18F-FDG IV"
+            "display" : "tomographie par émission de positons et CT corps entier ; guidage pour localisation de tumeur avec 18F-FDG IV"
           },
           {
             "code" : "81556-3",
-            "display" : "MN SPECT pour infection et inflammation avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT pour infection et inflammation avec radionucléide IV"
           },
           {
             "code" : "81557-1",
-            "display" : "MN SPECT cerveau avec florbétapir IV"
+            "display" : "médecine nucléaire SPECT cerveau avec florbétapir IV"
           },
           {
             "code" : "81558-9",
-            "display" : "MN SPECT cerveau avec Tc-99m IV"
+            "display" : "médecine nucléaire SPECT cerveau avec Tc-99m IV"
           },
           {
             "code" : "81559-7",
-            "display" : "PET+CT limitée pour simulation avec radionucléide IV"
+            "display" : "tomographie par émission de positons et CT limitée pour simulation avec radionucléide IV dans une région du corps non spécifiée"
           },
           {
             "code" : "81560-5",
-            "display" : "MN SPECT corps entier avec In-111 capromab pendétide IV"
+            "display" : "médecine nucléaire SPECT corps entier avec In-111 capromab pendétide IV"
           },
           {
             "code" : "81561-3",
-            "display" : "MN SPECT coeur avec états multiples d'exercice + avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT coeur avec états multiples d'exercice et avec radionucléide IV"
           },
           {
             "code" : "81562-1",
-            "display" : "MN SPECT coeur avec état simple d'exercice + avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT coeur avec état simple d'exercice et avec radionucléide IV"
           },
           {
             "code" : "81563-9",
-            "display" : "MN coeur ; incidences au premier passage du marqueur+pool sanguin avec radionucléide IV"
+            "display" : "médecine nucléaire coeur ; incidences au premier passage du marqueur et pool sanguin avec radionucléide IV"
           },
           {
             "code" : "81564-7",
-            "display" : "TEP coeur pour sarcoïdose avec radionucléide IV"
+            "display" : "tomographie par émission de positons coeur pour sarcoïdose avec radionucléide IV"
           },
           {
             "code" : "81565-4",
-            "display" : "TEP coeur pour viabilité des tissus avec radionucléide IV"
+            "display" : "tomographie par émission de positons coeur pour viabilité des tissus avec radionucléide IV"
           },
           {
             "code" : "81566-2",
-            "display" : "MN coeur ; incidences synchronisées+pool sanguin+fraction d'éjection+cinétique pariétale avec états multiples d'exercice+avec radionucléide IV"
+            "display" : "médecine nucléaire coeur ; incidences synchronisées et pool sanguin et fraction d'éjection et cinétique pariétale avec états multiples d'exercice et avec radionucléide IV"
           },
           {
             "code" : "81567-0",
-            "display" : "MN coeur ; incidences synchronisées+pool sanguin+fraction d'éjection+cinétique pariétale avec état unique d'exercice+avec radionucléide IV"
+            "display" : "MN coeur ; incidences synchronisées et pool sanguin et fraction d'éjection et cinétique pariétale avec état unique d'exercice et avec radionucléide IV"
           },
           {
             "code" : "81568-8",
-            "display" : "TEP.perfusion coeur avec états multiples d'exercice"
+            "display" : "tomographie par émission de positons perfusion coeur avec états multiples d'exercice"
           },
           {
             "code" : "81569-6",
-            "display" : "TEP.perfusion coeur avec état unique d'exercice"
+            "display" : "tomographie par émission de positons perfusion coeur avec état unique d'exercice"
           },
           {
             "code" : "81570-4",
-            "display" : "MN coeur ; incidences de perfusion avec état unique d'exercice+avec radionucléide IV"
+            "display" : "médecine nucléaire coeur ; incidences de perfusion avec état unique d'exercice et avec radionucléide IV"
           },
           {
             "code" : "81571-2",
-            "display" : "MN coeur ; incidences de perfusion avec états multiple d'exercice+avec radionucléide IV"
+            "display" : "médecine nucléaire coeur ; incidences de perfusion avec états multiple d'exercice et avec radionucléide IV"
           },
           {
             "code" : "81572-0",
-            "display" : "MN glande salivaire ; incidences pour fonction avec radionucléide IV"
+            "display" : "médecine nucléaire glande salivaire ; incidences pour fonction avec radionucléide IV"
           },
           {
             "code" : "81573-8",
-            "display" : "MN cerveau ; incidences pour protocole de mort cérébrale avec radionucléide IV"
+            "display" : "médecine nucléaire cerveau ; incidences pour protocole de mort cérébrale avec radionucléide IV"
           },
           {
             "code" : "81574-6",
-            "display" : "MN cerveau ; plus de 4 incidences avec radionucléide IV"
+            "display" : "médecine nucléaire cerveau ; plus de 4 incidences avec radionucléide IV"
           },
           {
             "code" : "81575-3",
-            "display" : "MN cerveau ; plus de 4 incidences pour débit sanguin avec radionucléide IV"
+            "display" : "médecine nucléaire cerveau ; plus de 4 incidences pour débit sanguin avec radionucléide IV"
           },
           {
             "code" : "81576-1",
-            "display" : "MN cerveau ; moins de 4 incidences pour débit sanguin avec radionucléide IV"
+            "display" : "médecine nucléaire cerveau ; moins de 4 incidences pour débit sanguin avec radionucléide IV"
           },
           {
             "code" : "81577-9",
-            "display" : "TEP cerveau pour amylose avec radionucléide IV"
+            "display" : "tomographie par émission de positons cerveau pour amylose avec radionucléide IV"
           },
           {
             "code" : "81578-7",
-            "display" : "TEP cerveau métabolique avec radionucléide IV"
+            "display" : "tomographie par émission de positons cerveau métabolique avec radionucléide IV"
           },
           {
             "code" : "81579-5",
-            "display" : "TEP.perfusion cerveau avec radionucléide IV"
+            "display" : "tomographie par émission de positons perfusion cerveau avec radionucléide IV"
           },
           {
             "code" : "81580-3",
-            "display" : "MN glande thyroïde ; incidences pour thérapie avec I-131 per os"
+            "display" : "médecine nucléaire glande thyroïde ; incidences pour thérapie avec I-131 per os"
           },
           {
             "code" : "81581-1",
-            "display" : "MN glande thyroïde ; incidences pour dosimétrie avec radionucléide per os"
+            "display" : "médecine nucléaire glande thyroïde ; incidences pour dosimétrie avec radionucléide per os"
           },
           {
             "code" : "81582-9",
-            "display" : "MN glande thyroïde ; absorption avec radionucléide IV"
+            "display" : "médecine nucléaire glande thyroïde ; absorption avec radionucléide IV"
           },
           {
             "code" : "81583-7",
-            "display" : "MN corps entier ; incidences avec Sm-153 IV"
+            "display" : "médecine nucléaire corps entier ; incidences avec Sm-153 IV"
           },
           {
             "code" : "81584-5",
-            "display" : "MN corps entier ; incidences avec globules blancs marqués IV"
+            "display" : "médecine nucléaire corps entier ; incidences avec globules blancs marqués IV"
           },
           {
             "code" : "81585-2",
-            "display" : "MN ; incidences avec globules blancs marqués IV"
+            "display" : "médecine nucléaire ; incidences avec globules blancs marqués IV dans une région du corps non spécifiée"
           },
           {
             "code" : "81586-0",
-            "display" : "MN corps entier ; incidences avec Y-90 ibritumomab tiuxétan IV"
+            "display" : "médecine nucléaire corps entier ; incidences avec Y-90 ibritumomab tiuxétan IV"
           },
           {
             "code" : "81587-8",
-            "display" : "MN ; incidences limitées pour infection ou inflammation avec radionucléide IV"
+            "display" : "médecine nucléaire ; incidences limitées pour infection ou inflammation avec radionucléide IV dans une région du corps non spécifiée"
           },
           {
             "code" : "81588-6",
@@ -20954,107 +20950,107 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "81589-4",
-            "display" : "MN corps entier ; incidences pour infection ou inflammation avec radionucléide IV"
+            "display" : "médecine nucléaire corps entier ; incidences pour infection ou inflammation avec radionucléide IV"
           },
           {
             "code" : "81590-2",
-            "display" : "MN veines d'extrémité - bilatérale ; incidences pour thrombose avec radionucléide IV"
+            "display" : "médecine nucléaire veines d'extrémité - bilatérale ; incidences pour thrombose avec radionucléide IV"
           },
           {
             "code" : "81591-0",
-            "display" : "MN veines d'extrémité - unilatérale ; incidences pour thrombose avec radionucléide IV"
+            "display" : "médecine nucléaire veines d'extrémité - unilatérale ; incidences pour thrombose avec radionucléide IV"
           },
           {
             "code" : "81592-8",
-            "display" : "MN pelvis ; incidences pour rein transplanté avec radionucléide IV"
+            "display" : "médecine nucléaire pelvis ; incidences pour rein transplanté avec radionucléide IV"
           },
           {
             "code" : "81593-6",
-            "display" : "MN ganglion lymphatique ; incidences avec radionucléide IV"
+            "display" : "médecine nucléaire ganglion lymphatique ; incidences avec radionucléide IV"
           },
           {
             "code" : "81594-4",
-            "display" : "MN ganglion lymphatique - bilatéral ; incidences avec radionucléide IV"
+            "display" : "médecine nucléaire ganglion lymphatique - bilatéral ; incidences avec radionucléide IV"
           },
           {
             "code" : "81595-1",
-            "display" : "MN ganglion lymphatique ; incidences pour lymphoedème avec radionucléide IV"
+            "display" : "médecine nucléaire ganglion lymphatique ; incidences pour lymphoedème avec radionucléide IV"
           },
           {
             "code" : "81596-9",
-            "display" : "MN poumon ; incidences de ventilation+perfusion quantitative avec radionucléide IV"
+            "display" : "médecine nucléaire poumon ; incidences de ventilation et perfusion quantitative avec radionucléide IV"
           },
           {
             "code" : "81597-7",
-            "display" : "MN os ; incidences pour métastase W Ra-223 IV"
+            "display" : "médecine nucléaire os ; incidences pour métastases avec Ra-223 IV"
           },
           {
             "code" : "81598-5",
-            "display" : "MN corps entier ; incidences pour métastases de tumeur thyroïdienne post thérapeutique avec radionucléide IV"
+            "display" : "médecine nucléaire corps entier ; incidences pour métastases de tumeur thyroïdienne post thérapeutique avec radionucléide IV"
           },
           {
             "code" : "81599-3",
-            "display" : "MN corps entier ; guidage de plusieurs jours pour localisation de tumeur avec radionucléide IV"
+            "display" : "médecine nucléaire corps entier ; guidage de plusieurs jours pour localisation de tumeur avec radionucléide IV"
           },
           {
             "code" : "81600-9",
-            "display" : "MN ; incidences limitées pour infection ou inflammation avec globules rouges marqués au Tc-99m IV"
+            "display" : "médecine nucléaire ; incidences limitées pour infection ou inflammation avec globules rouges marqués au Tc-99m IV dans une région du corps non spécifiée"
           },
           {
             "code" : "81601-7",
-            "display" : "MN ; incidences limitées pour métastases de tumeur throïdienne avec radionucléide IV"
+            "display" : "MN ; incidences limitées pour métastases de tumeur throïdienne avec radionucléide IV dans une région du corps non spécifiée"
           },
           {
             "code" : "81602-5",
-            "display" : "MN estomac ; incidence pour phase solide de vidange gastrique avec radionucléide per os"
+            "display" : "médecine nucléaire estomac ; incidence pour phase solide de vidange gastrique avec radionucléide per os"
           },
           {
             "code" : "81603-3",
-            "display" : "MN rein ; incidences pour débit sanguin+fonction rénale avec diurétique IV+avec radionucléide IV"
+            "display" : "médecine nucléaire rein ; incidences pour débit sanguin et fonction rénale avec diurétique IV et avec radionucléide IV"
           },
           {
             "code" : "81604-1",
-            "display" : "MN rein ; incidences pour taux de filtration glomérulaire avec radionucléide IV"
+            "display" : "médecine nucléaire rein ; incidences pour taux de filtration glomérulaire avec radionucléide IV"
           },
           {
             "code" : "81605-8",
-            "display" : "MN uretère et vessie urinaire ; incidences avec radionucléide IV"
+            "display" : "médecine nucléaire uretère et vessie urinaire ; incidences avec radionucléide IV"
           },
           {
             "code" : "81606-6",
-            "display" : "MN foie et voies biliaires et vésicule biliaire ; incidences avec cholécystokinétique+avec radionucléide IV"
+            "display" : "médecine nucléaire foie et voies biliaires et vésicule biliaire ; incidences avec cholécystokinétique et avec radionucléide IV"
           },
           {
             "code" : "81607-4",
-            "display" : "MN cortex du rein ; incidences avec radionucléide IV"
+            "display" : "médecine nucléaire cortex du rein ; incidences avec radionucléide IV"
           },
           {
             "code" : "81608-2",
-            "display" : "MN rein ; incidences pour débit sanguin+fonction rénale avec inhibiteurs de l'enzyme de conversion de l'angiotensine per os+avec radionucléide IV"
+            "display" : "médecine nucléaire rein ; incidences pour débit sanguin et fonction rénale avec inhibiteurs de l'enzyme de conversion de l'angiotensine per os et avec radionucléide IV"
           },
           {
             "code" : "81609-0",
-            "display" : "MN foie ; incidences avec injection intraartérielle hépatique de sphères SR"
+            "display" : "médecine nucléaire foie ; incidences avec injection intraartérielle hépatique de sphères SR"
           },
           {
             "code" : "81610-8",
-            "display" : "MN foie ; incidences avec injection hépatique intraartérielle de Theraspheres"
+            "display" : "médecine nucléaire foie ; incidences avec injection hépatique intraartérielle de Theraspheres"
           },
           {
             "code" : "81611-6",
-            "display" : "MN tête+cou+thorax+abdomen+pelvis ; incidences pour perméabilité d'un shunt avec radionucléide IV"
+            "display" : "médecine nucléaire tête et cou et thorax et abdomen et pelvis ; incidences pour perméabilité d'un shunt avec radionucléide IV"
           },
           {
             "code" : "81612-4",
-            "display" : "MN coeur ; incidences pool sanguin+fraction d'éjection+premier passage avec radionucléide IV"
+            "display" : "médecine nucléaire coeur ; incidences pool sanguin et fraction d'éjection et premier passage avec radionucléide IV"
           },
           {
             "code" : "81613-2",
-            "display" : "MN SPECT foie pour hémangiome avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT foie pour hémangiome avec radionucléide IV"
           },
           {
             "code" : "82123-1",
-            "display" : "RM ; guidage pour radiothérapie"
+            "display" : "résonance magnétique guidage pour radiothérapie dans une région du corps non spécifiée"
           },
           {
             "code" : "82124-9",
@@ -21062,23 +21058,23 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "82126-4",
-            "display" : "TEP ; guidage pour radiothérapie"
+            "display" : "tomographie par émission de positons ; guidage pour radiothérapie dans une  région du corps non précisée"
           },
           {
             "code" : "82128-0",
-            "display" : "RM cerveau et face sans contraste"
+            "display" : "résonance magnétique cerveau et face sans contraste"
           },
           {
             "code" : "82129-8",
-            "display" : "RM cerveau et face sans et avec contraste IV"
+            "display" : "résonance magnétique cerveau et face sans et avec contraste IV"
           },
           {
             "code" : "82130-6",
-            "display" : "RM tête et cou sans contraste"
+            "display" : "résonance magnétique tête et cou sans contraste"
           },
           {
             "code" : "82131-4",
-            "display" : "RM tête et cou sans et avec contraste IV"
+            "display" : "résonance magnétique tête et cou sans et avec contraste IV"
           },
           {
             "code" : "82132-2",
@@ -21090,7 +21086,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "82136-3",
-            "display" : "MN corps entier ; incidences pour tumeur avec I-123 MIBG IV"
+            "display" : "médecine nucléaire corps entier ; incidences pour tumeur avec I-123 MIBG IV"
           },
           {
             "code" : "82676-8",
@@ -21098,19 +21094,19 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "82677-6",
-            "display" : "CTA aorte abdominale avec contraste IV"
+            "display" : "angiographie par tomodensitométrie aorte abdominale avec contraste IV"
           },
           {
             "code" : "82678-4",
-            "display" : "CTA aorte abdominale sans et avec contraste IV"
+            "display" : "angiographie par tomodensitométrie aorte abdominale sans et avec contraste IV"
           },
           {
             "code" : "82679-2",
-            "display" : "CTA vaisseaux abdominaux et vaisseaux du pelvis sans et avec contraste IV"
+            "display" : "angiographie par tomodensitométrie vaisseaux abdominaux et vaisseaux du pelvis sans et avec contraste IV"
           },
           {
             "code" : "82680-0",
-            "display" : "CTA vaisseaux de la tête et vaisseaux du cou sans et avec contraste IV"
+            "display" : "angiographie par tomodensitométrie vaisseaux de la tête et vaisseaux du cou sans et avec contraste IV"
           },
           {
             "code" : "82681-8",
@@ -21142,11 +21138,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "82688-3",
-            "display" : "CT côlon et rectum sans & avec contraste IV+avec contraste naturel par l’air ambiant par voie rectale"
+            "display" : "CT côlon et rectum sans et avec contraste IV et avec contraste naturel par l’air ambiant par voie rectale"
           },
           {
             "code" : "82689-1",
-            "display" : "CT intestin grêle avec contraste per os+sans & avec contraste IV"
+            "display" : "CT intestin grêle avec contraste per os et sans et avec contraste IV"
           },
           {
             "code" : "82690-9",
@@ -21170,7 +21166,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "82695-8",
-            "display" : "CT pelvis et membre inférieur - bilatéraux avec contraste IV"
+            "display" : "CT pelvis et membre inférieur - bilatéral avec contraste IV"
           },
           {
             "code" : "82696-6",
@@ -21222,31 +21218,31 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "82708-9",
-            "display" : "CTA vaisseaux du membre inférieur - bilatéraux sans et avec contraste IV"
+            "display" : "angiographie par tomodensitométrie vaisseaux du membre inférieur - bilatéral sans et avec contraste IV"
           },
           {
             "code" : "82709-7",
-            "display" : "CTA aorte thoracique"
+            "display" : "angiographie par tomodensitométrie aorte thoracique"
           },
           {
             "code" : "82710-5",
-            "display" : "CTA vaisseaux du membre inférieur - droit"
+            "display" : "angiographie par tomodensitométrie vaisseaux du membre inférieur - droit"
           },
           {
             "code" : "82711-3",
-            "display" : "CTA vaisseaux du membre inférieur - bilatéraux"
+            "display" : "angiographie par tomodensitométrie vaisseaux du membre inférieur - bilatéraux"
           },
           {
             "code" : "82712-1",
-            "display" : "CTA vaisseaux du membre inférieur - gauches"
+            "display" : "angiographie par tomodensitométrie vaisseaux du membre inférieur - gauche"
           },
           {
             "code" : "82713-9",
-            "display" : "CTA vaisseaux du membre supérieur - gauche"
+            "display" : "angiographie par tomodensitométrie vaisseaux du membre supérieur - gauche"
           },
           {
             "code" : "82714-7",
-            "display" : "CTA vaisseaux du membre supérieur - droit"
+            "display" : "angiographie par tomodensitométrie vaisseaux du membre supérieur - droit"
           },
           {
             "code" : "82715-4",
@@ -21266,47 +21262,47 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "82742-8",
-            "display" : "CT tête et orbite - bilatérale ; sans+avec contraste et avec contraste"
+            "display" : "CT tête et orbite - bilatérale ; sans et avec contraste et avec contraste"
           },
           {
             "code" : "82800-4",
-            "display" : "PET+CT coeur avec radionucléide IV+avec contraste IV"
+            "display" : "tomographie par émission de positons et CT coeur avec radionucléide IV et avec contraste IV"
           },
           {
             "code" : "82801-2",
-            "display" : "PET+CT coeur sans contraste"
+            "display" : "PET et CT coeur sans contraste"
           },
           {
             "code" : "82802-0",
-            "display" : "CT tête et sinus ; sans+avec contraste et avec contraste"
+            "display" : "CT tête et sinus ; sans et avec contraste et avec contraste"
           },
           {
             "code" : "82803-8",
-            "display" : "CT tête et os temporal ; sans+avec contraste et avec contraste"
+            "display" : "CT tête et os temporal ; sans et avec contraste et avec contraste"
           },
           {
             "code" : "82804-6",
-            "display" : "CT tête et cou ; sans+avec contraste et avec contraste"
+            "display" : "CT tête et cou ; sans et avec contraste et avec contraste"
           },
           {
             "code" : "82805-3",
-            "display" : "PET+CT corps entier ; guidage pour localisation de tumeur avec 18F-FDG IV+sans contraste"
+            "display" : "tomographie par émission de positons et CT corps entier ; guidage pour localisation de tumeur avec 18F-FDG IV et sans contraste"
           },
           {
             "code" : "82806-1",
-            "display" : "PET+CT corps entier ; guidage pour localisation de tumeur avec 18F-FDG IV+avec contraste IV"
+            "display" : "tomographie par émission de positons et CT corps entier ; guidage pour localisation de tumeur avec 18F-FDG IV et avec contraste IV"
           },
           {
             "code" : "82807-9",
-            "display" : "PET+CT du vertex crânien à mi-cuisse ; guidage pour localisation de tumeur avec 18F-FDG IV+sans contraste"
+            "display" : "tomographie par émission de positons et CT du vertex crânien à mi-cuisse ; guidage pour localisation de tumeur avec 18F-FDG IV et sans contraste"
           },
           {
             "code" : "82808-7",
-            "display" : "PET+CT de la base du crâne à micuisse ; guidage pour localisation de tumeur avec 18F-FDG IV+sans contraste"
+            "display" : "tomographie par émission de positons et CT de la base du crâne à micuisse ; guidage pour localisation de tumeur avec 18F-FDG IV et sans contraste"
           },
           {
             "code" : "82809-5",
-            "display" : "PET+CT de la base du crâne à micuisse ; guidage pour localisation de tumeur avec 18F-FDG IV+avec contraste IV"
+            "display" : "tomographie par émission de positons et CT de la base du crâne à micuisse ; guidage pour localisation de tumeur avec 18F-FDG IV et avec contraste IV"
           },
           {
             "code" : "83012-5",
@@ -21358,11 +21354,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "83024-0",
-            "display" : "RX thorax ; 2 incidences et incidences latéral-décubitus"
+            "display" : "RX thorax ; 2 incidences et incidences latérales-décubitus"
           },
           {
             "code" : "83025-7",
-            "display" : "RX coccyx ; plus grand qu'une incidence"
+            "display" : "RX coccyx ; plus d'une incidence"
           },
           {
             "code" : "83026-5",
@@ -21374,7 +21370,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "83028-1",
-            "display" : "RX rachis cervical et rachis dorsal et rachis lombaire ; plus grand qu'une incidence"
+            "display" : "RX rachis cervical et rachis dorsal et rachis lombaire ; plus d'une incidence"
           },
           {
             "code" : "83029-9",
@@ -21398,7 +21394,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "83034-9",
-            "display" : "RX pelvis et hanche - bilatéraux ; plus d'1 incidence en pédiatrie"
+            "display" : "RX pelvis et hanche - bilatérale ; plus d'une incidence en pédiatrie"
           },
           {
             "code" : "83035-6",
@@ -21406,11 +21402,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "83036-4",
-            "display" : "RX membre inférieur ; plus grand qu'une incidence"
+            "display" : "RX membre inférieur ; plus d'une incidence"
           },
           {
             "code" : "83037-2",
-            "display" : "RX rachis lombaire ; incidence pendant une chirurgie"
+            "display" : "RX rachis lombaire ; incidence unique pendant une chirurgie"
           },
           {
             "code" : "83038-0",
@@ -21438,7 +21434,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "83044-8",
-            "display" : "RX sacrum ; plus grand qu'une incidence"
+            "display" : "RX sacrum ; plus d'une incidence"
           },
           {
             "code" : "83045-5",
@@ -21450,7 +21446,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "83047-1",
-            "display" : "RX sternum ; plus grand qu'une incidence"
+            "display" : "RX sternum ; plus d'une incidence"
           },
           {
             "code" : "83048-9",
@@ -21458,7 +21454,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "83049-7",
-            "display" : "RX membre supérieur ; plus grand qu'une incidence"
+            "display" : "RX membre supérieur ; plus d'une incidence"
           },
           {
             "code" : "83050-5",
@@ -21470,11 +21466,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "83289-9",
-            "display" : "tomodensitométrie et angioscannographie coeur et artères coronaires ; pour score calcique sans contraste"
+            "display" : "CT et angiographie par tomodensitométrie coeur et artères coronaires ; pour score calcique sans contraste"
           },
           {
             "code" : "83290-7",
-            "display" : "CTA artères pulmonaires - bilatérales et veines du pelvis et veines du membre inférieur - bilatéral pour embolie pulmonaire+thrombose veineuse profonde avec contraste IV"
+            "display" : "angiographie par tomodensitométrie artères pulmonaires - bilatérales et veines du pelvis et veines du membre inférieur - bilatéral pour embolie pulmonaire et thrombose veineuse profonde avec contraste IV"
           },
           {
             "code" : "83291-5",
@@ -21498,7 +21494,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "83296-4",
-            "display" : "CT tête et orbite - bilatérale avec contraste IV && sans & avec contraste IV"
+            "display" : "CT tête et orbite - bilatérale avec contraste IV et sans et avec contraste IV"
           },
           {
             "code" : "83297-2",
@@ -21506,11 +21502,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "83298-0",
-            "display" : "CTA vaisseaux thoraciques et vaisseaux abdominaux et vaisseaux du pelvis sans et avec contraste IV"
+            "display" : "angiographie par tomodensitométrie vaisseaux thoraciques et vaisseaux abdominaux et vaisseaux du pelvis sans et avec contraste IV"
           },
           {
             "code" : "83299-8",
-            "display" : "tomodensitométrie et angioscannographie thorax et abdomen et pelvis et aorte abdominale et thoracique sans et avec contraste IV"
+            "display" : "CT et CT.angio thorax et abdomen et pelvis et aorte abdominale et thoracique sans et avec contraste IV"
           },
           {
             "code" : "83300-4",
@@ -21562,7 +21558,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "85041-2",
-            "display" : "RM ; modèle en impression 3D"
+            "display" : "résonance magnétique modèle en impression 3D dans une région du corps non spécifiée"
           },
           {
             "code" : "85475-2",
@@ -21570,99 +21566,99 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "86348-0",
-            "display" : "MG sein.gauche && ^échantillon du sein.gauche ; guidage pour localisation d'une aiguille et incidences"
+            "display" : "mammographie sein.gauche et échantillon du sein gauche ; guidage pour localisation d'une aiguille et incidences"
           },
           {
             "code" : "86350-6",
-            "display" : "MG sein - unilatéral ; incidence unique pour placement d'un clip"
+            "display" : "mammographie sein - unilatéral ; incidence unique pour placement d'un clip"
           },
           {
             "code" : "86351-4",
-            "display" : "MG sein gauche ; guidage additionnel pour aspiration de kyste"
+            "display" : "mammographie sein gauche ; guidage additionnel pour aspiration de kyste"
           },
           {
             "code" : "86352-2",
-            "display" : "MG sein droit ; guidage additionnel pour aspiration de kyste"
+            "display" : "mammographie sein droit ; guidage additionnel pour aspiration de kyste"
           },
           {
             "code" : "86353-0",
-            "display" : "MG sein gauche ; guidage pour placement d'un clip"
+            "display" : "mammographie sein gauche ; guidage pour placement d'un clip"
           },
           {
             "code" : "86354-8",
-            "display" : "MG sein droit ; guidage pour placement d'un clip"
+            "display" : "mammographie sein droit ; guidage pour placement d'un clip"
           },
           {
             "code" : "86355-5",
-            "display" : "MG sein gauche ; guidage additionnel pour localisation d'une aiguille"
+            "display" : "mammographie sein gauche ; guidage additionnel pour localisation d'une aiguille"
           },
           {
             "code" : "86356-3",
-            "display" : "MG sein droit ; guidage additionnel pour localisation d'une aiguille"
+            "display" : "mammographie sein droit ; guidage additionnel pour localisation d'une aiguille"
           },
           {
             "code" : "86357-1",
-            "display" : "MG sein gauche ; guidage pour localisation à l'aiguille"
+            "display" : "mammographie sein gauche ; guidage pour localisation à l'aiguille"
           },
           {
             "code" : "86358-9",
-            "display" : "MG sein droit ; guidage pour localisation à l'aiguille"
+            "display" : "mammographie sein droit ; guidage pour localisation à l'aiguille"
           },
           {
             "code" : "86360-5",
-            "display" : "MG sein.droit && ^échantillon du sein.droit ; guidage pour localisation d'une aiguille et incidences"
+            "display" : "mammographie sein.droit et échantillon du sein droit ; guidage pour localisation à l'aiguille et incidences"
           },
           {
             "code" : "86361-3",
-            "display" : "mammo.stéréotaxique sein gauche ; guidage additionnel pour biopsie"
+            "display" : "mammographie stéréotaxique sein gauche ; guidage additionnel pour biopsie"
           },
           {
             "code" : "86362-1",
-            "display" : "mammo.stéréotaxique sein droit ; guidage additionnel pour biopsie"
+            "display" : "mammographie stéréotaxique sein droit ; guidage additionnel pour biopsie"
           },
           {
             "code" : "86363-9",
-            "display" : "MG sein gauche ; guidage additionnel pour biopsie par le vide"
+            "display" : "mammographie sein gauche ; guidage additionnel pour biopsie par le vide"
           },
           {
             "code" : "86364-7",
-            "display" : "MG sein droit ; guidage additionnel pour biopsie par le vide"
+            "display" : "mammographie sein droit ; guidage additionnel pour biopsie par le vide"
           },
           {
             "code" : "86365-4",
-            "display" : "MG sein gauche ; guidage pour biopsie par le vide"
+            "display" : "mammographie sein gauche ; guidage pour biopsie par le vide"
           },
           {
             "code" : "86366-2",
-            "display" : "MG sein droit ; guidage pour biopsie par le vide"
+            "display" : "mammographie sein droit ; guidage pour biopsie par le vide"
           },
           {
             "code" : "86367-0",
-            "display" : "MG sein ; incidence diagnostique pour rappel clinique"
+            "display" : "mammographie sein ; incidence diagnostique pour rappel clinique"
           },
           {
             "code" : "86368-8",
-            "display" : "MG sein gauche ; incidence diagnostique pour rappel clinique"
+            "display" : "mammographie sein gauche ; incidence diagnostique pour rappel clinique"
           },
           {
             "code" : "86369-6",
-            "display" : "MG sein droit ; incidence diagnostique pour rappel clinique"
+            "display" : "mammographie sein droit ; incidence diagnostique pour rappel clinique"
           },
           {
             "code" : "86370-4",
-            "display" : "MG sein ; incidence diagnostique pour rappel technique"
+            "display" : "mammographie sein ; incidence diagnostique pour rappel technique"
           },
           {
             "code" : "86372-0",
-            "display" : "RF rein et uretère et vessie urinaire ; incidences avec contraste IV"
+            "display" : "fluoroscopie rein et uretère et vessie urinaire ; incidences avec contraste IV"
           },
           {
             "code" : "86373-8",
-            "display" : "RF fistule artérioveineuse ; incidences avec contraste via ponction supplémentaire"
+            "display" : "fluoroscopie fistule artérioveineuse ; incidences avec contraste via ponction supplémentaire"
           },
           {
             "code" : "86374-6",
-            "display" : "angiographie par fluoroscopie vaisseaux lymphatiques du pied - bilatéraux ; incidences avec contraste intralymphatique"
+            "display" : "angiographie par fluoroscopie vaisseaux lymphatiques du pied - bilatéral ; incidences avec contraste intralymphatique"
           },
           {
             "code" : "86375-3",
@@ -21670,75 +21666,75 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "86376-1",
-            "display" : "RF canaux biliaires ; incidences avec contraste via cathéter existant"
+            "display" : "fluoroscopie canaux biliaires ; incidences avec contraste via cathéter existant"
           },
           {
             "code" : "86377-9",
-            "display" : "RF tractus gastro-intestinal ; guidage pour avancement d'une sonde d'alimentation"
+            "display" : "fluoroscopie tractus gastro-intestinal ; guidage pour avancement d'une sonde d'alimentation"
           },
           {
             "code" : "86378-7",
-            "display" : "RF tractus gastro-intestinal ; incidences pour fistule"
+            "display" : "fluoroscopie tractus gastro-intestinal ; incidences pour fistule"
           },
           {
             "code" : "86379-5",
-            "display" : "RF intestin grêle ; incidences pour stomie en anse"
+            "display" : "fluoroscopie intestin grêle ; incidences pour stomie en anse"
           },
           {
             "code" : "86380-3",
-            "display" : "RF rein et uretère et vessie urinaire ; incidences pour fistule"
+            "display" : "fluoroscopie rein et uretère et vessie urinaire ; incidences pour fistule"
           },
           {
             "code" : "86381-1",
-            "display" : "RF côlon ; incidences de dépistage avec contraste naturel par l’air ambiant par voie rectale+avec contraste au barium par voie rectale"
+            "display" : "fluoroscopie côlon ; incidences de dépistage avec contraste naturel par l’air ambiant par voie rectale et avec contraste au barium par voie rectale"
           },
           {
             "code" : "86382-9",
-            "display" : "RF canaux biliaires ; incidences limitées pendant une chirurgie"
+            "display" : "fluoroscopie canaux biliaires ; incidences limitées pendant une chirurgie"
           },
           {
             "code" : "86383-7",
-            "display" : "RF canaux biliaires ; incidences avec contraste IV"
+            "display" : "fluoroscopie canaux biliaires ; incidences avec contraste IV"
           },
           {
             "code" : "86384-5",
-            "display" : "RF vésicule biliaire ; incidences après repas gras+avec contraste per os"
+            "display" : "fluoroscopie vésicule biliaire ; incidences après repas gras et avec contraste per os"
           },
           {
             "code" : "86385-2",
-            "display" : "RF vésicule biliaire ; incidences avec contraste per os"
+            "display" : "fluoroscopie vésicule biliaire ; incidences avec contraste per os"
           },
           {
             "code" : "86386-0",
-            "display" : "RF tractus gastrointestinal supérieur ; incidences avec contraste au barium per os"
+            "display" : "fluoroscopie tractus gastrointestinal supérieur ; incidences avec contraste au barium per os"
           },
           {
             "code" : "86387-8",
-            "display" : "RF rein et uretère et vessie urinaire ; incidences avec contraste antérograde"
+            "display" : "fluoroscopie rein et uretère et vessie urinaire ; incidences avec contraste antérograde"
           },
           {
             "code" : "86388-6",
-            "display" : "RF rein et uretère et vessie urinaire ; incidences avec contraste rétrograde"
+            "display" : "fluoroscopie rein et uretère et vessie urinaire ; incidences avec contraste rétrograde"
           },
           {
             "code" : "86389-4",
-            "display" : "RF rein et uretère et vessie urinaire ; incidences pendant chirurgie+avec contraste rétrograde"
+            "display" : "fluoroscopie rein et uretère et vessie urinaire ; incidences pendant chirurgie et avec contraste rétrograde"
           },
           {
             "code" : "86390-2",
-            "display" : "RF rein et uretère et vessie urinaire ; incidences avec contraste via sonde de néphrostomie"
+            "display" : "fluoroscopie rein et uretère et vessie urinaire ; incidences avec contraste via sonde de néphrostomie"
           },
           {
             "code" : "86391-0",
-            "display" : "RF fistule artérioveineuse ; incidences avec contraste via cathéter existant"
+            "display" : "fluoroscopie fistule artérioveineuse ; incidences avec contraste via cathéter existant"
           },
           {
             "code" : "86392-8",
-            "display" : "RF rein et uretère et vessie urinaire ; incidences limitées avec contraste IV"
+            "display" : "fluoroscopie rein et uretère et vessie urinaire ; incidences limitées avec contraste IV"
           },
           {
             "code" : "86393-6",
-            "display" : "RF rein - bilatéral et uretère - bilatéral et vessie urinaire ; incidences avec contraste rétrograde"
+            "display" : "fluoroscopie rein - bilatéral et uretère - bilatéral et vessie urinaire ; incidences avec contraste rétrograde"
           },
           {
             "code" : "86394-4",
@@ -21746,7 +21742,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "86395-1",
-            "display" : "RF.vidéo hypopharynx et oesophage ; incidences pour fonction de dégkutition avec parole+avec contraste au barium per os"
+            "display" : "fluoroscopie.vidéo hypopharynx et oesophage ; incidences pour fonction de déglutition avec parole et avec contraste au barium per os"
           },
           {
             "code" : "86396-9",
@@ -21754,63 +21750,63 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "86397-7",
-            "display" : "RF vessie urinaire ; guidage pour drainage et placement d'un cathéter suspubien"
+            "display" : "fluoroscopie vessie urinaire ; guidage pour drainage et placement d'un cathéter suspubien"
           },
           {
             "code" : "86398-5",
-            "display" : "RF citernes cérébrales ; incidences avec contraste intrathécal"
+            "display" : "fluoroscopie citernes cérébrales ; incidences avec contraste intrathécal"
           },
           {
             "code" : "86399-3",
-            "display" : "RF ; incidences et guidage pour injection d'un shunt non vasculaire"
+            "display" : "fluoroscopie incidences et guidage pour injection d'un shunt non vasculaire"
           },
           {
             "code" : "86400-9",
-            "display" : "RF ; guidage pour placement d'une aiguille"
+            "display" : "fluoroscopie guidage pour placement d'une aiguille"
           },
           {
             "code" : "86401-7",
-            "display" : "RF vessie urinaire ; incidences avec contraste intravésical"
+            "display" : "fluoroscopie vessie urinaire ; incidences avec contraste intravésical"
           },
           {
             "code" : "86402-5",
-            "display" : "RF épaule ; incidences limitées avec contraste intraarticulaire"
+            "display" : "fluoroscopie épaule ; incidences limitées avec contraste intraarticulaire"
           },
           {
             "code" : "86403-3",
-            "display" : "RF trompe de Fallope ; guidage pour positionnement d'un cathéter"
+            "display" : "fluoroscopie trompe de Fallope ; guidage pour positionnement d'un cathéter"
           },
           {
             "code" : "86404-1",
-            "display" : "RF vessie urinaire ; guidage pour aspiration percutanée d'un fluide"
+            "display" : "fluoroscopie vessie urinaire ; guidage pour aspiration percutanée d'un fluide"
           },
           {
             "code" : "86405-8",
-            "display" : "RF ; guidage pour l'échange d'une sonde"
+            "display" : "fluoroscopie guidage pour l'échange d'une sonde"
           },
           {
             "code" : "86406-6",
-            "display" : "RF ; incidences pendant la chirurgie dans une région du corps non spécifiée moins d'1 heure"
+            "display" : "fluoroscopie ; incidences pendant la chirurgie dans une région du corps non spécifiée moins d'1 heure"
           },
           {
             "code" : "86407-4",
-            "display" : "RF ; conseil"
+            "display" : "fluoroscopie conseil dans une région du corps non spécifiée"
           },
           {
             "code" : "86408-2",
-            "display" : "RF pelvis ; incidences pour poche urinaire"
+            "display" : "fluoroscopie pelvis ; incidences pour poche urinaire"
           },
           {
             "code" : "86409-0",
-            "display" : "RF rectum ; incidences pour dysfonctionnement rectal avec constraste au barium par voie rectale"
+            "display" : "fluoroscopie rectum ; incidences pour dysfonctionnement rectal avec constraste au barium par voie rectale"
           },
           {
             "code" : "86410-8",
-            "display" : "RF pharynx et oesophage cervical ; incidences avec contraste au barium per os"
+            "display" : "fluoroscopie pharynx et oesophage cervical ; incidences avec contraste au barium per os"
           },
           {
             "code" : "86411-6",
-            "display" : "RF fosse postérieure - bilatérale ; incidences avec contraste intrathécal"
+            "display" : "fluoroscopie fosse postérieure - bilatérale ; incidences avec contraste intrathécal"
           },
           {
             "code" : "86412-4",
@@ -21818,7 +21814,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "86413-2",
-            "display" : "RF tractus gastro-intestinal ; guidage pour placement d'une sonde longue pour alimentation"
+            "display" : "fluoroscopie tractus gastro-intestinal ; guidage pour placement d'une sonde longue pour alimentation"
           },
           {
             "code" : "86414-0",
@@ -21830,7 +21826,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "86416-5",
-            "display" : "MG sein - bilatéral et échantillon du sein - bilatéral ; guidage pour localisation d'une aiguille et incidences"
+            "display" : "mammographie sein - bilatéral et échantillon du sein - bilatéral ; guidage pour localisation d'une aiguille et incidences"
           },
           {
             "code" : "86417-3",
@@ -21846,27 +21842,27 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "86420-7",
-            "display" : "RF tractus gastrointestinal supérieur ; incidences avec contraste naturel par l’air ambiant per os+avec constraste au barium per os"
+            "display" : "fluoroscopie tractus gastrointestinal supérieur ; incidences avec contraste naturel par l’air ambiant per os et avec constraste au barium per os"
           },
           {
             "code" : "86421-5",
-            "display" : "RX && RF tractus gastrointestinal supérieur ; incidences && incidences avec contraste per os+avec contraste au barium per os"
+            "display" : "RX et fluoroscopie tractus gastrointestinal supérieur ; incidences et incidences avec contraste per os et avec contraste au barium per os"
           },
           {
             "code" : "86422-3",
-            "display" : "RX && RF tractus gastrointestinal supérieur ; incidences && incidences avec contraste soluble dans l'eau per os"
+            "display" : "RX et fluoroscopie tractus gastrointestinal supérieur ; incidences et incidences avec contraste soluble dans l'eau per os"
           },
           {
             "code" : "86423-1",
-            "display" : "RX && RF tractus gastrointestinal supérieur ; incidence && incidences avec contraste per os"
+            "display" : "RX et fluoroscopie tractus gastrointestinal supérieur ; incidence et incidences avec contraste per os"
           },
           {
             "code" : "86424-9",
-            "display" : "RX && RF tractus gastrointestinal supérieur ; incidence && incidences avec contraste au barium per os"
+            "display" : "RX et fluoroscopie tractus gastrointestinal supérieur ; incidence et incidences avec contraste au barium per os"
           },
           {
             "code" : "86425-6",
-            "display" : "RF rein ; guidage pour manométrie"
+            "display" : "fluoroscopie rein ; guidage pour manométrie"
           },
           {
             "code" : "86426-4",
@@ -21874,7 +21870,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "86427-2",
-            "display" : "RF tractus gastro-intestinal supérieur et intestin grêle ; incidences avec contraste naturel par l’air ambiant per os+avec constraste au barium per os"
+            "display" : "fluoroscopie tractus gastro-intestinal supérieur et intestin grêle ; incidences avec contraste naturel par l’air ambiant per os et avec constraste au barium per os"
           },
           {
             "code" : "86428-0",
@@ -21886,7 +21882,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "86430-6",
-            "display" : "RF fosse postérieure - unilatérale ; incidences avec contraste intrathécal"
+            "display" : "fluoroscopie fosse postérieure - unilatérale ; incidences avec contraste intrathécal"
           },
           {
             "code" : "86431-4",
@@ -21910,27 +21906,27 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "86436-3",
-            "display" : "RF fistule ; guidage pour traitement avec contraste intra fistule"
+            "display" : "fluoroscopie fistule ; guidage pour traitement avec contraste intra fistule"
           },
           {
             "code" : "86437-1",
-            "display" : "RF fistule ; incidences diagnostiques avec contraste intra fistule"
+            "display" : "fluoroscopie fistule ; incidences diagnostiques avec contraste intra fistule"
           },
           {
             "code" : "86438-9",
-            "display" : "RF tractus gastrointestinal supérieur ; guidage pour vérification de sonde d'alimentation"
+            "display" : "fluoroscopie tractus gastrointestinal supérieur ; guidage pour vérification de sonde d'alimentation"
           },
           {
             "code" : "86439-7",
-            "display" : "RF sinus cérébraux ; incidences avec contraste IV"
+            "display" : "fluoroscopie sinus cérébraux ; incidences avec contraste IV"
           },
           {
             "code" : "86440-5",
-            "display" : "RF vésicule séminale ; incidences avec contraste intra vésicule séminale"
+            "display" : "fluoroscopie vésicule séminale ; incidences avec contraste intra vésicule séminale"
           },
           {
             "code" : "86441-3",
-            "display" : "RF rein et uretère et vessie urinaire ; guidage pour manométrie"
+            "display" : "fluoroscopie rein et uretère et vessie urinaire ; guidage pour manométrie"
           },
           {
             "code" : "86442-1",
@@ -21938,7 +21934,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "86443-9",
-            "display" : "RF uretère ; incidences avec contraste intra uretère"
+            "display" : "fluoroscopie uretère ; incidences avec contraste intra uretère"
           },
           {
             "code" : "86460-3",
@@ -21950,11 +21946,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "86462-9",
-            "display" : "TMN sein - unilatéral"
+            "display" : "tomosynthèse mammaire numérique sein - unilatéral"
           },
           {
             "code" : "86463-7",
-            "display" : "TMN sein bilatéral"
+            "display" : "tomosynthèse mammaire numérique sein bilatéral"
           },
           {
             "code" : "86464-5",
@@ -21978,27 +21974,27 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "86960-2",
-            "display" : "CTA vaisseaux du membre supérieur - droit avec contraste IV"
+            "display" : "angiographie par tomodensitométrie vaisseaux du membre supérieur - droit avec contraste IV"
           },
           {
             "code" : "86961-0",
-            "display" : "CTA vaisseaux du membre supérieur - gauche avec contraste IV"
+            "display" : "angiographie par tomodensitométrie vaisseaux du membre supérieur - gauche avec contraste IV"
           },
           {
             "code" : "86962-8",
-            "display" : "CTA vaisseaux du membre supérieur - bilatéraux avec contraste IV"
+            "display" : "angiographie par tomodensitométrie vaisseaux du membre supérieur - bilatéral avec contraste IV"
           },
           {
             "code" : "86963-6",
-            "display" : "CTA vaisseaux du membre inférieur - droit avec contraste IV"
+            "display" : "angiographie par tomodensitométrie vaisseaux du membre inférieur - droit avec contraste IV"
           },
           {
             "code" : "86964-4",
-            "display" : "CTA vaisseaux du membre inférieur - gauches avec contraste IV"
+            "display" : "angiographie par tomodensitométrie vaisseaux du membre inférieur - gauche avec contraste IV"
           },
           {
             "code" : "86965-1",
-            "display" : "CTA vaisseaux du membre inférieur - bilatéraux avec contraste IV"
+            "display" : "angiographie par tomodensitométrie vaisseaux du membre inférieur - bilatéral avec contraste IV"
           },
           {
             "code" : "86966-9",
@@ -22022,7 +22018,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "86971-9",
-            "display" : "CTA vaisseaux abdominaux et thoraciques sans et avec contraste IV"
+            "display" : "angiographie par tomodensitométrie vaisseaux abdominaux et thoraciques sans et avec contraste IV"
           },
           {
             "code" : "86972-7",
@@ -22042,7 +22038,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "86976-8",
-            "display" : "PET+CT cerveau métabolique avec radionucléide IV"
+            "display" : "tomographie par émission de positons et CT cerveau métabolique avec radionucléide IV"
           },
           {
             "code" : "86977-6",
@@ -22054,23 +22050,23 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "86979-2",
-            "display" : "CT pelvis et hanche - bilatéraux sans contraste"
+            "display" : "CT pelvis et hanche - bilatérale sans contraste"
           },
           {
             "code" : "86980-0",
-            "display" : "CTA coeur et artères coronaires sans et avec contraste IV"
+            "display" : "angiographie par tomodensitométrie coeur et artères coronaires sans et avec contraste IV"
           },
           {
             "code" : "86981-8",
-            "display" : "CTA vaisseaux thoraciques"
+            "display" : "angiographie par tomodensitométrie vaisseaux thoraciques"
           },
           {
             "code" : "86982-6",
-            "display" : "CTA vaisseaux abdominaux et thoraciques avec contraste IV"
+            "display" : "angiographie par tomodensitométrie vaisseaux abdominaux et thoraciques avec contraste IV"
           },
           {
             "code" : "86983-4",
-            "display" : "CTA vaisseaux thoraciques et vaisseaux abdominaux et vaisseaux du pelvis avec contraste IV"
+            "display" : "angiographie par tomodensitométrie vaisseaux thoraciques et vaisseaux abdominaux et vaisseaux du pelvis avec contraste IV"
           },
           {
             "code" : "86984-2",
@@ -22122,7 +22118,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "86996-6",
-            "display" : "vertèbre du rachis ; guidage additionnel pour augmentation"
+            "display" : "{modalité d'imagerie} vertèbre du rachis ; guidage additionnel pour augmentation"
           },
           {
             "code" : "86997-4",
@@ -22214,7 +22210,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "87019-6",
-            "display" : "guidage pour drainage+placement d'un cathéter de drainage"
+            "display" : "guidage pour drainage et placement d'un cathéter de drainage"
           },
           {
             "code" : "87020-4",
@@ -22386,7 +22382,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "87062-6",
-            "display" : "plexus coeliaque ; guidage pour blocage nerveux"
+            "display" : "guidage pour blocage nerveux du plexus coeliaque"
           },
           {
             "code" : "87063-4",
@@ -22410,7 +22406,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "87068-3",
-            "display" : "rein ; guidage pour biopsie transjugulaire et veinographie"
+            "display" : "{modalité d'imagerie} rein ; guidage pour biopsie transjugulaire et veinographie"
           },
           {
             "code" : "87069-1",
@@ -22450,7 +22446,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "87078-2",
-            "display" : "abdomen ; guidage pour drainage percutané + placement d'un cathéter de drainage"
+            "display" : "abdomen ; guidage pour drainage percutané et placement d'un cathéter de drainage"
           },
           {
             "code" : "87079-0",
@@ -22506,23 +22502,23 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "87092-3",
-            "display" : "veine cave inférieure ; guidage pour placement d'un filtre veineux"
+            "display" : "{modalité d'imagerie} veine cave inférieure ; guidage pour placement d'un filtre veineux"
           },
           {
             "code" : "87093-1",
-            "display" : "veine cave inférieure ; guidage pour ablation d'un filtre veineux"
+            "display" : "{modalité d'imagerie} veine cave inférieure ; guidage pour ablation d'un filtre veineux"
           },
           {
             "code" : "87094-9",
-            "display" : "veine cave inférieure ; guidage pour repositionnement d'un filtre veineux"
+            "display" : "{modalité d'imagerie} veine cave inférieure ; guidage pour repositionnement d'un filtre veineux"
           },
           {
             "code" : "87095-6",
-            "display" : "artère viscérale ; guidage pour angioplastie percutanée transluminale"
+            "display" : "{modalité d'imagerie} artère viscérale ; guidage pour angioplastie percutanée transluminale"
           },
           {
             "code" : "87096-4",
-            "display" : "artère viscérale ; guidage pour placement d'un stent"
+            "display" : "{modalité d'imagerie} artère viscérale ; guidage pour placement d'un stent"
           },
           {
             "code" : "87097-2",
@@ -22578,7 +22574,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "87110-3",
-            "display" : "thorax ; guidage pour thoracocentèse + insertion d'une sonde"
+            "display" : "thorax ; guidage pour thoracocentèse et insertion d'une sonde"
           },
           {
             "code" : "87111-1",
@@ -22586,19 +22582,19 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "87112-9",
-            "display" : "thorax ; guidage pour échange d'un cathéter veineux central tunnelisé sans port"
+            "display" : "thorax ; guidage pour échange d'un cathéter veineux central tunnelé sans port"
           },
           {
             "code" : "87113-7",
-            "display" : "thorax ; guidage pour placement d'un cathéter veineux central tunnelisé sans port"
+            "display" : "thorax ; guidage pour placement d'un cathéter veineux central tunnellisé sans port"
           },
           {
             "code" : "87114-5",
-            "display" : "thorax ; guidage pour ablation d'un cathéter veineux central tunnelisé sans port"
+            "display" : "thorax ; guidage pour ablation d'un cathéter veineux central tunnelé sans port"
           },
           {
             "code" : "87115-2",
-            "display" : "thorax ; guidage pour réparation d'un cathéter veineux central non tunnelisé sans port"
+            "display" : "thorax ; guidage pour réparation d'un cathéter veineux central non tunnelé sans port"
           },
           {
             "code" : "87116-0",
@@ -22622,7 +22618,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "87121-0",
-            "display" : "plèvre thoracique ; guidage pour positionnement d'un cathéter tunnelisé"
+            "display" : "plèvre thoracique ; guidage pour positionnement d'un cathéter tunnelé"
           },
           {
             "code" : "87122-8",
@@ -22646,15 +22642,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "87127-7",
-            "display" : "veine cave supérieure ; guidage pour repositionnement d'un filtre veineux"
+            "display" : "{modalité d'imagerie} veine cave supérieure ; guidage pour repositionnement d'un filtre veineux"
           },
           {
             "code" : "87128-5",
-            "display" : "veine cave supérieure ; guidage pour placement d'un filtre veineux"
+            "display" : "{modalité d'imagerie} veine cave supérieure ; guidage pour placement d'un filtre veineux"
           },
           {
             "code" : "87129-3",
-            "display" : "jambe ; guidage pour angioplastie percutanée transluminale"
+            "display" : "{modalité d'imagerie} jambe ; guidage pour angioplastie percutanée transluminale"
           },
           {
             "code" : "87130-1",
@@ -22706,11 +22702,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "87142-6",
-            "display" : "membre supérieur ; guidage pour échange d'un cathéter veineux central avec port"
+            "display" : "{modalité d'imagerie} membre supérieur ; guidage pour échange d'un cathéter veineux central avec port"
           },
           {
             "code" : "87143-4",
-            "display" : "membre supérieur ; guidage pour échange d'un cathéter veineux central inséré périphériquement"
+            "display" : "{modalité d'imagerie} membre supérieur ; guidage pour échange d'un cathéter veineux central inséré périphériquement"
           },
           {
             "code" : "87144-2",
@@ -22774,7 +22770,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "87159-0",
-            "display" : "articulation temporomandibulaire ; guidage pour injection"
+            "display" : "{modalité d'imagerie} articulation temporomandibulaire ; guidage pour injection"
           },
           {
             "code" : "87160-8",
@@ -22814,7 +22810,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "87169-9",
-            "display" : "artère ; guidage initial pour thrombectomie mécanique percutanée"
+            "display" : "{modalité d'imagerie} artère ; guidage initial pour thrombectomie mécanique percutanée"
           },
           {
             "code" : "87170-7",
@@ -22862,7 +22858,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "87181-4",
-            "display" : "artère utérine ; embolisation thérapeutique"
+            "display" : "{modalité d'imagerie} artère utérine ; embolisation thérapeutique"
           },
           {
             "code" : "87182-2",
@@ -22930,7 +22926,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "87198-8",
-            "display" : "guidage d'un drainage d'un abcès + placement d'un cathéter de drainage"
+            "display" : "guidage d'un drainage d'un abcès et placement d'un cathéter de drainage"
           },
           {
             "code" : "87199-6",
@@ -22954,7 +22950,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "87205-1",
-            "display" : "thorax ; guidage pour l'échange d'un cathéter veineux central non tunnelisé"
+            "display" : "thorax ; guidage pour l'échange d'un cathéter veineux central non tunnelé"
           },
           {
             "code" : "87206-9",
@@ -22966,11 +22962,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "87280-4",
-            "display" : "CTA veines abdominales, veines du pelvis et veines du membre inférieur - bilatéral avec contraste IV"
+            "display" : "angiographie par tomodensitométrie veines abdominales, veines du pelvis et veines du membre inférieur - bilatéral avec contraste IV"
           },
           {
             "code" : "87281-2",
-            "display" : "CTA veines du membre inférieur - bilatérales avec contraste IV"
+            "display" : "angiographie par tomodensitométrie veines du membre inférieur - bilatéral avec contraste IV"
           },
           {
             "code" : "87308-3",
@@ -22994,95 +22990,95 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "87836-3",
-            "display" : "CTA vaisseaux hépatiques sans et avec contraste IV"
+            "display" : "angiographie par tomodensitométrie vaisseaux hépatiques sans et avec contraste IV"
           },
           {
             "code" : "87837-1",
-            "display" : "CTA valve aortique avec contraste IV"
+            "display" : "angiographie par tomodensitométrie valve aortique avec contraste IV"
           },
           {
             "code" : "87838-9",
-            "display" : "CTA veines abdominales et veines du pelvis avec contraste IV"
+            "display" : "angiographie par tomodensitométrie veines abdominales et veines du pelvis avec contraste IV"
           },
           {
             "code" : "87839-7",
-            "display" : "CTA veines pulmonaires avec contraste IV"
+            "display" : "angiographie par tomodensitométrie veines pulmonaires avec contraste IV"
           },
           {
             "code" : "87840-5",
-            "display" : "CTA artères coronaires et artères pulmonaires avec contraste IV"
+            "display" : "angiographie par tomodensitométrie artères coronaires et artères pulmonaires avec contraste IV"
           },
           {
             "code" : "87841-3",
-            "display" : "CTA artères coronaires et aorte thoracique avec contraste IV"
+            "display" : "angiographie par tomodensitométrie artères coronaires et aorte thoracique avec contraste IV"
           },
           {
             "code" : "87842-1",
-            "display" : "CTA artères coronaires et artères pulmonaires et aorte thoracique avec contraste IV"
+            "display" : "angiographie par tomodensitométrie artères coronaires et artères pulmonaires et aorte thoracique avec contraste IV"
           },
           {
             "code" : "87843-9",
-            "display" : "CTA veines du pelvis et veines du membre inférieur - bilatéral"
+            "display" : "angiographie par tomodensitométrie veines du pelvis et veines du membre inférieur - bilatéral"
           },
           {
             "code" : "87844-7",
-            "display" : "CTA veine du pelvis"
+            "display" : "angiographie par tomodensitométrie veine du pelvis"
           },
           {
             "code" : "87845-4",
-            "display" : "CTA vaisseaux du membre inférieur"
+            "display" : "angiographie par tomodensitométrie vaisseaux du membre inférieur"
           },
           {
             "code" : "87846-2",
-            "display" : "CTA vaisseaux rénaux sans et avec contraste IV"
+            "display" : "angiographie par tomodensitométrie vaisseaux rénaux sans et avec contraste IV"
           },
           {
             "code" : "87847-0",
-            "display" : "tomodensitométrie et angioscannographie thorax et artères coronaires sans contraste & avec contraste IV"
+            "display" : "CT et angiographie par tomodensitométrie thorax et artères coronaires sans contraste et avec contraste IV"
           },
           {
             "code" : "87848-8",
-            "display" : "CTA artères pulmonaires - bilatérales et veines du membre inférieur - bilatéral pour embolie pulmonaire+thrombose veineuse profonde avec contraste IV"
+            "display" : "angiographie par tomodensitométrie artères pulmonaires - bilatérales et veines du membre inférieur - bilatéral pour embolie pulmonaire et thrombose veineuse profonde avec contraste IV"
           },
           {
             "code" : "87849-6",
-            "display" : "CTA artères pulmonaires - bilatérales et veines du membre inférieur - bilatéral ; pour embolie pulmonaire et thrombose veineuse profonde"
+            "display" : "angiographie par tomodensitométrie artères pulmonaires - bilatérales et veines du membre inférieur - bilatéral ; pour embolie pulmonaire et thrombose veineuse profonde"
           },
           {
             "code" : "87850-4",
-            "display" : "CTA artère épigastrique profonde inférieure sans et avec contraste IV"
+            "display" : "angiographie par tomodensitométrie  artère épigastrique profonde inférieure sans et avec contraste IV"
           },
           {
             "code" : "87851-2",
-            "display" : "CTA vaisseaux mésentériques avec contraste IV"
+            "display" : "angiographie par tomodensitométrie vaisseaux mésentériques avec contraste IV"
           },
           {
             "code" : "87852-0",
-            "display" : "CTA vaisseaux mésentériques sans et avec contraste IV"
+            "display" : "angiographie par tomodensitométrie vaisseaux mésentériques sans et avec contraste IV"
           },
           {
             "code" : "87853-8",
-            "display" : "tomodensitométrie et angioscannographie abdomen, pelvis et aorte abdominale sans et avec contraste IV"
+            "display" : "CT abdomen, pelvis et angiographie par tomodensitométrie aorte abdominale sans et avec contraste IV"
           },
           {
             "code" : "87854-6",
-            "display" : "tomodensitométrie et angioscannographie abdomen, pelvis et aorte abdominale avec contraste IV"
+            "display" : "CT abdomen, pelvis et angiographie par tomodensitométrie aorte abdominale avec contraste IV"
           },
           {
             "code" : "87855-3",
-            "display" : "CTA cercle artériel du cerveau et artères carotides sans et avec contraste IV"
+            "display" : "angiographie par tomodensitométrie cercle artériel du cerveau et artères carotides sans et avec contraste IV"
           },
           {
             "code" : "87856-1",
-            "display" : "CTA cercle artériel du cerveau et artères carotides avec contraste IV"
+            "display" : "angiographie par tomodensitométrie cercle artériel du cerveau et artères carotides avec contraste IV"
           },
           {
             "code" : "87857-9",
-            "display" : "CTA aorte abdominale et thoracique sans et avec contraste IV"
+            "display" : "angiographie par tomodensitométrie aorte abdominale et thoracique sans et avec contraste IV"
           },
           {
             "code" : "87858-7",
-            "display" : "CTA artère épigastrique profonde inférieure avec contraste IV"
+            "display" : "angiographie par tomodensitométrie artère épigastrique profonde inférieure avec contraste IV"
           },
           {
             "code" : "87859-5",
@@ -23098,19 +23094,19 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "87862-9",
-            "display" : "CT abdomen et abdomen + Pelvis sans contraste & avec contraste IV"
+            "display" : "CT abdomen et abdomen et Pelvis sans contraste et avec contraste IV"
           },
           {
             "code" : "87863-7",
-            "display" : "CT abdomen et thorax + abdomen sans contraste & avec contraste IV"
+            "display" : "CT abdomen et thorax et abdomen sans contraste et avec contraste IV"
           },
           {
             "code" : "87864-5",
-            "display" : "CT abdomen et Thorax+Abdomen+Pelvis sans contraste & avec contraste IV"
+            "display" : "CT abdomen et Thorax et Abdomen et Pelvis sans contraste et avec contraste IV"
           },
           {
             "code" : "87865-2",
-            "display" : "CT abdomen+Pelvis et Thorax+Abdomen+Pelvis sans contraste & avec contraste IV"
+            "display" : "CT abdomen et Pelvis et Thorax et Abdomen et Pelvis sans contraste et avec contraste IV"
           },
           {
             "code" : "87866-0",
@@ -23122,7 +23118,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "87868-6",
-            "display" : "CT rachis lombaire pour reconstruction sans & avec contraste IV"
+            "display" : "CT rachis lombaire pour reconstruction sans et avec contraste IV"
           },
           {
             "code" : "87869-4",
@@ -23270,7 +23266,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "87905-6",
-            "display" : "PET+CT tête et cou ; guidage pour localisation de tumeur avec 18F-FDG IV"
+            "display" : "tomographie par émission de positons et CT tête et cou ; guidage pour localisation de tumeur avec 18F-FDG IV"
           },
           {
             "code" : "87906-4",
@@ -23278,7 +23274,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "87907-2",
-            "display" : "PET+CT cerveau pour amylose avec radionucléide IV"
+            "display" : "tomographie par émission de positons et CT cerveau pour amylose avec radionucléide IV"
           },
           {
             "code" : "87908-0",
@@ -23310,11 +23306,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "87915-5",
-            "display" : "PET+CT du vertex crânien à mi-cuisse ; guidage pour localisation de tumeur avec 18F-FDG IV+avec contraste IV"
+            "display" : "tomographie par émission de positons et CT du vertex crânien à mi-cuisse ; guidage pour localisation de tumeur avec 18F-FDG IV et avec contraste IV"
           },
           {
             "code" : "87916-3",
-            "display" : "CT ; guidage pour injection d'un kyste"
+            "display" : "CT ; guidage pour injection d'un kyste dans une région du corps non spécifiée"
           },
           {
             "code" : "87917-1",
@@ -23346,11 +23342,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "88243-1",
-            "display" : "plèvre thoracique ; guidage pour ablation d'un cathéter tunnelisé"
+            "display" : "plèvre thoracique ; guidage pour ablation d'un cathéter tunnelé"
           },
           {
             "code" : "88315-7",
-            "display" : "CT.perfusion && CT.angio cerveau et vaisseaux du cou et de la tête ; sans+avec contraste pour perfusion et avec contraste"
+            "display" : "CT.perfusion et CT.angio cerveau et vaisseaux du cou et de la tête ; sans et avec contraste pour perfusion et avec contraste"
           },
           {
             "code" : "88316-5",
@@ -23362,7 +23358,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "88318-1",
-            "display" : "CTA artères coronaires et veines pulmonaires avec contraste IV"
+            "display" : "angiographie par tomodensitométrie artères coronaires et veines pulmonaires avec contraste IV"
           },
           {
             "code" : "88319-9",
@@ -23370,15 +23366,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "88320-7",
-            "display" : "tomodensitométrie et angioscannographie cou et vaisseaux du cou et de la tête avec contraste IV"
+            "display" : "CT et angiographie par tomodensitométrie cou et vaisseaux du cou et de la tête avec contraste IV"
           },
           {
             "code" : "88321-5",
-            "display" : "CT ; guidage pour localisation stéréotaxique"
+            "display" : "CT ; guidage pour localisation stéréotaxique dans une région du corps non spécifiée"
           },
           {
             "code" : "88322-3",
-            "display" : "tomodensitométrie et angioscannographie thorax et artères pulmonaires avec contraste IV && pour embolie pulmonaire avec constraste IV"
+            "display" : "CT et angiographie par tomodensitométrie thorax et artères pulmonaires avec contraste IV et pour embolie pulmonaire avec constraste IV"
           },
           {
             "code" : "88323-1",
@@ -23394,15 +23390,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "88326-4",
-            "display" : "CT.perfusion && CT.angio vaisseaux de la tête et cerveau sans et avec contraste IV"
+            "display" : "CT.perfusion et CT.angio vaisseaux de la tête et cerveau sans et avec contraste IV"
           },
           {
             "code" : "88327-2",
-            "display" : "tomodensitométrie et angioscannographie tête et vaisseaux du cou et de la tête avec contraste IV"
+            "display" : "CT et angiographie par tomodensitométrie tête et vaisseaux du cou et de la tête avec contraste IV"
           },
           {
             "code" : "88349-6",
-            "display" : "guide pendant la chirurgie"
+            "display" : "guidage pendant la chirurgie"
           },
           {
             "code" : "88526-9",
@@ -23410,19 +23406,19 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "88831-3",
-            "display" : "RF rein - droit et uretère ; incidences avec contraste rétrograde intra uretère"
+            "display" : "fluoroscopie rein - droit et uretère ; incidences avec contraste rétrograde intra uretère"
           },
           {
             "code" : "88832-1",
-            "display" : "RF rein - gauche et uretère ; incidences avec contraste rétrograde intra uretère"
+            "display" : "fluoroscopie rein - gauche et uretère ; incidences avec contraste rétrograde intra uretère"
           },
           {
             "code" : "88833-9",
-            "display" : "RF rein - bilatéral et uretère ; incidences avec contraste rétrograde intra uretère"
+            "display" : "fluoroscopie rein - bilatéral et uretère ; incidences avec contraste rétrograde intra uretère"
           },
           {
             "code" : "88834-7",
-            "display" : "RF rein et abdomen et urètre ; guidage pour dilatation"
+            "display" : "fluoroscopie rein et abdomen et urètre ; guidage pour dilatation"
           },
           {
             "code" : "88929-5",
@@ -23430,7 +23426,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "88930-3",
-            "display" : "canaux biliaires ; guidage pour dilatation d'une sténose+placement d'un stent avec contraste IV"
+            "display" : "canaux biliaires ; guidage pour dilatation d'une sténose et placement d'un stent avec contraste IV"
           },
           {
             "code" : "88931-1",
@@ -23450,7 +23446,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "88935-2",
-            "display" : "artère hépatique ; guidage pour chimioembolisation d'une tumeur avec chimiothérapie intraartérielle +avec agent embolique intraartériel"
+            "display" : "artère hépatique ; guidage pour chimioembolisation d'une tumeur avec chimiothérapie intraartérielle et avec agent embolique intraartériel"
           },
           {
             "code" : "88936-0",
@@ -23486,15 +23482,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "88944-4",
-            "display" : "MN poumon et foie ; incidences pour shunt artérioveineux avec Tc-99m MAA+avec injection hépatique intraartérielle"
+            "display" : "médecine nucléaire poumon et foie ; incidences pour shunt artérioveineux avec Tc-99m MAA et avec injection hépatique intraartérielle"
           },
           {
             "code" : "89283-6",
-            "display" : "CT cou+Thorax+Abdomen+Pelvis avec contraste IV"
+            "display" : "CT cou et Thorax et Abdomen et Pelvis avec contraste IV"
           },
           {
             "code" : "89284-4",
-            "display" : "RM rachis cervical et rachis dorsal avec contraste IV"
+            "display" : "résonance magnétique rachis cervical et rachis dorsal avec contraste IV"
           },
           {
             "code" : "89602-7",
@@ -23542,7 +23538,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "89613-4",
-            "display" : "CT abdomen ; guidage pour drainage+placement d'un cathéter de drainage sans contraste"
+            "display" : "CT abdomen ; guidage pour drainage et placement d'un cathéter de drainage sans contraste"
           },
           {
             "code" : "89614-2",
@@ -23550,7 +23546,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "89615-9",
-            "display" : "CT abdomen ; guidage pour drainage+placement d'un cathéter de drainage avec contraste IV"
+            "display" : "CT abdomen ; guidage pour drainage et placement d'un cathéter de drainage avec contraste IV"
           },
           {
             "code" : "89616-7",
@@ -23582,11 +23578,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "89623-3",
-            "display" : "CT espace péritonéal ; guidage pour drainage+placement d'un cathéter de drainage"
+            "display" : "CT espace péritonéal ; guidage pour drainage et placement d'un cathéter de drainage"
           },
           {
             "code" : "89624-1",
-            "display" : "CT espace péritonéal ; guidage d'un drainage d'un abcès + placement d'un cathéter de drainage"
+            "display" : "CT espace péritonéal ; guidage d'un drainage d'un abcès et placement d'un cathéter de drainage"
           },
           {
             "code" : "89625-8",
@@ -23594,7 +23590,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "89626-6",
-            "display" : "CTA vaisseaux abdominaux, du pelvis et du membre inférieur avec contraste IV"
+            "display" : "angiographie par tomodensitométrie vaisseaux abdominaux, du pelvis et du membre inférieur avec contraste IV"
           },
           {
             "code" : "89627-4",
@@ -23614,15 +23610,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "89631-6",
-            "display" : "MN SPECT+CT corps entier ; guidage pour localisation de tumeur avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT et CT corps entier ; guidage pour localisation de tumeur avec radionucléide IV"
           },
           {
             "code" : "89695-1",
-            "display" : "CT pelvis ; guidage pour drainage+placement d'un cathéter de drainage sans contraste"
+            "display" : "CT pelvis ; guidage pour drainage et placement d'un cathéter de drainage sans contraste"
           },
           {
             "code" : "89696-9",
-            "display" : "CT pelvis ; guidage pour drainage+placement d'un cathéter de drainage avec contraste IV"
+            "display" : "CT pelvis ; guidage pour drainage et placement d'un cathéter de drainage avec contraste IV"
           },
           {
             "code" : "89697-7",
@@ -23686,15 +23682,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "89712-4",
-            "display" : "PET+CT ; guidage limité pour localisation de tumeur avec 18F-FDG IV+avec contraste IV"
+            "display" : "tomographie par émission de positons et CT ; guidage limité pour localisation de tumeur avec 18F-FDG IV et avec contraste IV dans une région du corps non spécifiée"
           },
           {
             "code" : "89713-2",
-            "display" : "CT membre inférieur.articulation droite avec contraste intraarticulaire"
+            "display" : "CT membre inférieur articulation droite avec contraste intraarticulaire"
           },
           {
             "code" : "89714-0",
-            "display" : "CT membre inférieur.articulation gauche avec contraste intraarticulaire"
+            "display" : "CT membre inférieur articulation gauche avec contraste intraarticulaire"
           },
           {
             "code" : "89715-7",
@@ -23706,31 +23702,31 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "89717-3",
-            "display" : "CT ; guidage pour biopsie stéréotaxique sans & avec contraste IV"
+            "display" : "CT ; guidage pour biopsie stéréotaxique sans et avec contraste IV dans une région du corps non spécifiée"
           },
           {
             "code" : "89718-1",
-            "display" : "CT ; guidage pour localisation stéréotaxique avec contraste IV"
+            "display" : "CT ; guidage pour localisation stéréotaxique avec contraste IV dans une région du corps non spécifiée"
           },
           {
             "code" : "89719-9",
-            "display" : "CT poumon - droit ; guidage d'un drainage d'un abcès + placement d'un cathéter de drainage"
+            "display" : "CT poumon - droit ; guidage d'un drainage d'un abcès et placement d'un cathéter de drainage"
           },
           {
             "code" : "89720-7",
-            "display" : "CT poumon - gauche ; guidage d'un drainage d'un abcès + placement d'un cathéter de drainage"
+            "display" : "CT poumon - gauche ; guidage d'un drainage d'un abcès et placement d'un cathéter de drainage"
           },
           {
             "code" : "89721-5",
-            "display" : "CT rétropéritoine ; guidage d'un drainage d'un abcès + placement d'un cathéter de drainage"
+            "display" : "CT rétropéritoine ; guidage d'un drainage d'un abcès et placement d'un cathéter de drainage"
           },
           {
             "code" : "89722-3",
-            "display" : "CTA veines du membre supérieur - gauche avec contraste IV"
+            "display" : "angiographie par tomodensitométrie veines du membre supérieur - gauche avec contraste IV"
           },
           {
             "code" : "89723-1",
-            "display" : "CTA veines du membre supérieur - droit avec contraste IV"
+            "display" : "angiographie par tomodensitométrie veines du membre supérieur - droit avec contraste IV"
           },
           {
             "code" : "89827-0",
@@ -23750,7 +23746,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "89831-2",
-            "display" : "CT récessus subphrénique ; guidage pour drainage+placement d'un cathéter de drainage"
+            "display" : "CT récessus subphrénique ; guidage pour drainage et placement d'un cathéter de drainage"
           },
           {
             "code" : "89832-0",
@@ -23758,7 +23754,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "89833-8",
-            "display" : "CT ; par reconstruction"
+            "display" : "CT ; par reconstruction dans une région du corps non spécifiée"
           },
           {
             "code" : "89834-6",
@@ -23790,11 +23786,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "89841-1",
-            "display" : "CTA vaisseaux du membre supérieur - bilatéraux sans et avec contraste IV"
+            "display" : "angiographie par tomodensitométrie vaisseaux du membre supérieur - bilatéral sans et avec contraste IV"
           },
           {
             "code" : "89842-9",
-            "display" : "MN SPECT+CT corps entier avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT et CT corps entier avec radionucléide IV"
           },
           {
             "code" : "89844-5",
@@ -23826,23 +23822,23 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "89851-0",
-            "display" : "CTA limitée"
+            "display" : "angiographie par tomodensitométrie d'une région non spécifiée limitée"
           },
           {
             "code" : "89852-8",
-            "display" : "CT limitée avec contraste IV"
+            "display" : "CT limitée avec contraste IV dans une région du corps non spécifiée"
           },
           {
             "code" : "89853-6",
-            "display" : "CT limitée sans contraste"
+            "display" : "CT limitée sans contraste dans une région du corps non spécifiée"
           },
           {
             "code" : "89854-4",
-            "display" : "CT espace périrénal - gauche ; guidage d'un drainage d'un abcès + placement d'un cathéter de drainage"
+            "display" : "CT espace périrénal - gauche ; guidage d'un drainage d'un abcès et placement d'un cathéter de drainage"
           },
           {
             "code" : "89855-1",
-            "display" : "CT espace périrénal droit ; guidage d'un drainage d'un abcès + placement d'un cathéter de drainage"
+            "display" : "CT espace périrénal droit ; guidage d'un drainage d'un abcès et placement d'un cathéter de drainage"
           },
           {
             "code" : "89856-9",
@@ -23862,15 +23858,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "89860-1",
-            "display" : "CT thorax avec inspiration + avec expiration"
+            "display" : "CT thorax avec inspiration et avec expiration"
           },
           {
             "code" : "89925-2",
-            "display" : "CT pelvis et membre inférieur - bilatéraux sans et avec contraste IV"
+            "display" : "CT pelvis et membre inférieur - bilatéral sans et avec contraste IV"
           },
           {
             "code" : "89927-8",
-            "display" : "tomodensitométrie et angioscannographie coeur et bulbe aortique ; pour score calcique sans contraste"
+            "display" : "CT et angiographie par tomodensitométrie coeur et bulbe aortique ; pour score calcique sans contraste"
           },
           {
             "code" : "89928-6",
@@ -23886,11 +23882,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "89931-0",
-            "display" : "CT région périrectale ; guidage pour drainage+placement d'un cathéter de drainage"
+            "display" : "CT région périrectale ; guidage pour drainage et placement d'un cathéter de drainage"
           },
           {
             "code" : "89932-8",
-            "display" : "CT ; guidage pour placement profond d'une aiguille"
+            "display" : "CT ; guidage pour placement profond d'une aiguille dans une région du corps non spécifiée"
           },
           {
             "code" : "89952-6",
@@ -23926,11 +23922,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "89960-9",
-            "display" : "CT rein - droit ; guidage d'un drainage d'un abcès + placement d'un cathéter de drainage"
+            "display" : "CT rein - droit ; guidage d'un drainage d'un abcès et placement d'un cathéter de drainage"
           },
           {
             "code" : "89961-7",
-            "display" : "CT rein - gauche ; guidage d'un drainage d'un abcès + placement d'un cathéter de drainage"
+            "display" : "CT rein - gauche ; guidage d'un drainage d'un abcès et placement d'un cathéter de drainage"
           },
           {
             "code" : "89962-5",
@@ -23958,19 +23954,19 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "90309-6",
-            "display" : "CT poumon - droit ; guidage pour drainage+placement d'un cathéter de drainage"
+            "display" : "CT poumon - droit ; guidage pour drainage et placement d'un cathéter de drainage"
           },
           {
             "code" : "90310-4",
-            "display" : "CT rétropéritoine ; guidage pour drainage+placement d'un cathéter de drainage sans contraste"
+            "display" : "CT rétropéritoine ; guidage pour drainage et placement d'un cathéter de drainage sans contraste"
           },
           {
             "code" : "90311-2",
-            "display" : "CT ; guidage pour remplacement percutané d'un cathéter de drainage"
+            "display" : "CT ; guidage pour remplacement percutané d'un cathéter de drainage dans une région du corps non spécifiée"
           },
           {
             "code" : "90312-0",
-            "display" : "MN SPECT+CT système squelettique avec radionucléide IV"
+            "display" : "médecine nucléaire SPECT et CT système squelettique avec radionucléide IV"
           },
           {
             "code" : "90313-8",
@@ -23978,7 +23974,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "90314-6",
-            "display" : "CT rétropéritoine ; guidage pour drainage+placement d'un cathéter de drainage avec contraste IV"
+            "display" : "CT rétropéritoine ; guidage pour drainage et placement d'un cathéter de drainage avec contraste IV"
           },
           {
             "code" : "90315-3",
@@ -23990,15 +23986,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "90317-9",
-            "display" : "CT membre inférieur - gauche ; guidage pour drainage+placement d'un cathéter de drainage"
+            "display" : "CT membre inférieur - gauche ; guidage pour drainage et placement d'un cathéter de drainage"
           },
           {
             "code" : "90318-7",
-            "display" : "CT membre inférieur - droit ; guidage pour drainage+placement d'un cathéter de drainage"
+            "display" : "CT membre inférieur - droit ; guidage pour drainage et placement d'un cathéter de drainage"
           },
           {
             "code" : "90319-5",
-            "display" : "CT poumon - gauche ; guidage pour drainage+placement d'un cathéter de drainage"
+            "display" : "CT poumon - gauche ; guidage pour drainage et placement d'un cathéter de drainage"
           },
           {
             "code" : "90334-4",
@@ -24014,7 +24010,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "90352-6",
-            "display" : "CT && CT.perfusion && angio.CT tête et cerveau et vaisseaux de la tête sans et avec contraste IV"
+            "display" : "CT et CT.perfusion et CT.angio tête et cerveau et vaisseaux de la tête sans et avec contraste IV"
           },
           {
             "code" : "90372-4",
@@ -24026,95 +24022,95 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "91517-3",
-            "display" : "TMN sein droit diagnostique pour implant"
+            "display" : "tomosynthèse mammaire numérique sein droit diagnostique pour implant"
           },
           {
             "code" : "91518-1",
-            "display" : "TMN sein gauche diagnostique pour implant"
+            "display" : "tomosynthèse mammaire numérique sein gauche diagnostique pour implant"
           },
           {
             "code" : "91519-9",
-            "display" : "TMN sein bilatéral diagnostique pour implant"
+            "display" : "tomosynthèse mammaire numérique  sein bilatéral diagnostique pour implant"
           },
           {
             "code" : "91520-7",
-            "display" : "TMN sein droit de dépistage pour implant"
+            "display" : "tomosynthèse mammaire numérique sein droit de dépistage pour implant"
           },
           {
             "code" : "91521-5",
-            "display" : "TMN sein gauche de dépistage pour implant"
+            "display" : "tomosynthèse mammaire numérique sein gauche de dépistage pour implant"
           },
           {
             "code" : "91522-3",
-            "display" : "TMN sein bilatéral de dépistage pour implant"
+            "display" : "tomosynthèse mammaire numérique sein bilatéral de dépistage pour implant"
           },
           {
             "code" : "91523-1",
-            "display" : "RM thorax, abdomen et pelvis avec contraste IV"
+            "display" : "résonance magnétique thorax, abdomen et pelvis avec contraste IV"
           },
           {
             "code" : "91524-9",
-            "display" : "RM thorax, abdomen et pelvis sans et avec contraste IV"
+            "display" : "résonance magnétique thorax, abdomen et pelvis sans et avec contraste IV"
           },
           {
             "code" : "91525-6",
-            "display" : "RM thorax, abdomen et pelvis sans contraste"
+            "display" : "résonance magnétique thorax, abdomen et pelvis sans contraste"
           },
           {
             "code" : "91561-1",
-            "display" : "RM rachis cervical et rachis dorsal et rachis lombaire avec contraste IV"
+            "display" : "résonance magnétique rachis cervical et rachis dorsal et rachis lombaire avec contraste IV"
           },
           {
             "code" : "91591-8",
-            "display" : "RM cerveau et orbite - bilatéraux avec contraste IV"
+            "display" : "résonance magnétique cerveau et orbite - bilatérale avec contraste IV"
           },
           {
             "code" : "91592-6",
-            "display" : "RM cerveau et orbite - bilatéraux sans et avec contraste IV"
+            "display" : "résonance magnétique cerveau et orbite - bilatérale sans et avec contraste IV"
           },
           {
             "code" : "91593-4",
-            "display" : "RM cerveau et orbite - bilatéraux sans contraste"
+            "display" : "résonance magnétique cerveau et orbite - bilatérale sans contraste"
           },
           {
             "code" : "91594-2",
-            "display" : "RM sacrum et articulation sacro-iliaque avec contraste IV"
+            "display" : "résonance magnétique sacrum et articulation sacro-iliaque avec contraste IV"
           },
           {
             "code" : "91595-9",
-            "display" : "RM sacrum et articulation sacro-iliaque sans et avec contraste IV"
+            "display" : "résonance magnétique sacrum et articulation sacro-iliaque sans et avec contraste IV"
           },
           {
             "code" : "91596-7",
-            "display" : "RM sacrum et articulation sacro-iliaque sans contraste"
+            "display" : "résonance magnétique sacrum et articulation sacro-iliaque sans contraste"
           },
           {
             "code" : "91597-5",
-            "display" : "RM orteil sans et avec contraste IV"
+            "display" : "résonance magnétique orteil sans et avec contraste IV"
           },
           {
             "code" : "91598-3",
-            "display" : "RX genou ; plus grand qu'une incidence"
+            "display" : "RX genou ; plus d'une incidence"
           },
           {
             "code" : "91715-3",
-            "display" : "RM rachis lombaire et sacrum avec contraste IV"
+            "display" : "résonance magnétique rachis lombaire et sacrum avec contraste IV"
           },
           {
             "code" : "91716-1",
-            "display" : "RM rachis lombaire et sacrum sans et avec contraste IV"
+            "display" : "résonance magnétique rachis lombaire et sacrum sans et avec contraste IV"
           },
           {
             "code" : "91717-9",
-            "display" : "RM rachis lombaire et sacrum sans contraste"
+            "display" : "résonance magnétique rachis lombaire et sacrum sans contraste"
           },
           {
             "code" : "91718-7",
-            "display" : "RM ; postmortem"
+            "display" : "résonance magnétique ; postmortem dans une région du corps non spécifiée"
           },
           {
             "code" : "91719-5",
-            "display" : "CT ; postmortem"
+            "display" : "CT ; postmortem dans une région du corps non spécifiée"
           },
           {
             "code" : "91720-3",
@@ -24126,7 +24122,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "92567-7",
-            "display" : "CT ; guidage pour drainage percutané + placement d'un cathéter de drainage"
+            "display" : "CT ; guidage pour drainage percutané et placement d'un cathéter de drainage dans une région du corps non spécifiée"
           },
           {
             "code" : "92569-3",
@@ -24202,11 +24198,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "92926-5",
-            "display" : "CT ; guidage pour radiothérapie sans & avec contraste IV"
+            "display" : "CT ; guidage pour radiothérapie sans et avec contraste IV"
           },
           {
             "code" : "92927-3",
-            "display" : "PET+CT cerveau pour protéine tau avec radionucléide IV"
+            "display" : "tomographie par émission de positons et CT cerveau pour protéine tau avec radionucléide IV"
           },
           {
             "code" : "92928-1",
@@ -24214,7 +24210,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "93241-8",
-            "display" : "échographie Doppler"
+            "display" : "échographie Doppler d'une région du corps non spécifié"
           },
           {
             "code" : "93603-9",
@@ -24222,7 +24218,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "93604-7",
-            "display" : "échographie Doppler artères+veines du membre inférieur - bilatéral"
+            "display" : "échographie Doppler artères et veines du membre inférieur - bilatéral"
           },
           {
             "code" : "93605-4",
@@ -24238,19 +24234,19 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "94088-2",
-            "display" : "RM rachis dorsal et rachis lombaire sans & avec constraste"
+            "display" : "résonance magnétique rachis dorsal et rachis lombaire sans et avec constraste"
           },
           {
             "code" : "94089-0",
-            "display" : "IRM && angio.IRM thorax ; sans+avec contraste et avec contraste"
+            "display" : "résonance magnétique et angioIRM thorax ; sans et avec contraste et avec contraste"
           },
           {
             "code" : "94090-8",
-            "display" : "angiographie par fluoroscopie vaisseaux ; incidences pour fistule de dialyse avec contraste intraartériel & guidage pour angioplastie percutanée transluminale + placement transcathéter du stent"
+            "display" : "angiographie par fluoroscopie vaisseaux ; incidences pour fistule de dialyse avec contraste intraartériel et guidage pour angioplastie percutanée transluminale et placement transcathéter du stent"
           },
           {
             "code" : "94091-6",
-            "display" : "angiographie par fluoroscopie vaisseaux ; incidences pour fistule de dialyse avec contraste intraartériel & guidage pour angioplastie percutanée transluminale"
+            "display" : "angiographie par fluoroscopie vaisseaux ; incidences pour fistule de dialyse avec contraste intraartériel et guidage pour angioplastie percutanée transluminale"
           },
           {
             "code" : "94092-4",
@@ -24266,7 +24262,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "94678-0",
-            "display" : "MN foie et voies biliaires et vésicule biliaire ; incidences pour perméabilité avec radionucléide IV"
+            "display" : "médecine nucléaire foie et voies biliaires et vésicule biliaire ; incidences pour perméabilité avec radionucléide IV"
           },
           {
             "code" : "94679-8",
@@ -24282,11 +24278,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "94682-2",
-            "display" : "RX calcanéus ; plus grand qu'une incidence"
+            "display" : "RX calcanéus ; plus d'une incidence"
           },
           {
             "code" : "94683-0",
-            "display" : "RX pelvis et hanche - unilatérale ; plus grand qu'une incidence"
+            "display" : "RX pelvis et hanche - unilatérale ; plus d'une incidence"
           },
           {
             "code" : "94684-8",
@@ -24298,15 +24294,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "94686-3",
-            "display" : "IRM && angio.IRM vaisseaux de la tête et cerveau ; sans+avec contraste et sans contraste"
+            "display" : "résonance magnétique et angioIRM vaisseaux de la tête et cerveau ; sans et avec contraste et sans contraste"
           },
           {
             "code" : "94687-1",
-            "display" : "CTA vaisseaux abdominaux et vaisseaux du pelvis sans contraste"
+            "display" : "angiographie par tomodensitométrie vaisseaux abdominaux et vaisseaux du pelvis sans contraste"
           },
           {
             "code" : "94688-9",
-            "display" : "CTA vaisseaux du cou et vaisseaux du thorax sans et avec contraste IV"
+            "display" : "angiographie par tomodensitométrie vaisseaux du cou et vaisseaux du thorax sans et avec contraste IV"
           },
           {
             "code" : "95610-2",
@@ -24318,11 +24314,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "95612-8",
-            "display" : "RX.portable ; incidences"
+            "display" : "RX.portable ; incidences dans une région du corps non spécifiée"
           },
           {
             "code" : "95923-9",
-            "display" : "RM coeur avec stress+avec contraste IV"
+            "display" : "résonance magnétique coeur avec stress et avec contraste IV"
           },
           {
             "code" : "95924-7",
@@ -24350,11 +24346,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "97100-2",
-            "display" : "coloscopie+échographie tractus gastrointestinal inférieur ; compte rendu"
+            "display" : "étude coloscopique et échographique"
           },
           {
             "code" : "97101-0",
-            "display" : "sigmoïdoscopie flexible+échographie tractus gastrointestinal inférieur ; compte rendu"
+            "display" : "étude sigmoïdoscopique flexible et échographique"
           },
           {
             "code" : "97340-4",
@@ -24486,19 +24482,19 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "97372-7",
-            "display" : "RX radius et ulna - bilatéral ; incidence antéropostérieure"
+            "display" : "RX radius et ulna - bilatéraux ; incidence antéropostérieure"
           },
           {
             "code" : "97373-5",
-            "display" : "RX radius et ulna - bilatéral ; incidence postéroantérieure"
+            "display" : "RX radius et ulna - bilatéraux ; incidence postéroantérieure"
           },
           {
             "code" : "97374-3",
-            "display" : "RX radius et ulna - bilatéral ; incidence latérale"
+            "display" : "RX radius et ulna - bilatéraux ; incidence latérale"
           },
           {
             "code" : "97375-0",
-            "display" : "RX clavicule - bilatérale ; incidences antéropostérieures et oblique"
+            "display" : "RX clavicule - bilatérale ; incidences antéropostérieures et obliques"
           },
           {
             "code" : "97376-8",
@@ -24562,15 +24558,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "97391-7",
-            "display" : "RM abdomen et pelvis sans contraste"
+            "display" : "résonance magnétique abdomen et pelvis sans contraste"
           },
           {
             "code" : "97392-5",
-            "display" : "RM abdomen et pelvis sans et avec contraste IV"
+            "display" : "résonance magnétique abdomen et pelvis sans et avec contraste IV"
           },
           {
             "code" : "97393-3",
-            "display" : "RM abdomen et pelvis avec contraste IV"
+            "display" : "résonance magnétique abdomen et pelvis avec contraste IV"
           },
           {
             "code" : "97394-1",
@@ -24994,11 +24990,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "98033-4",
-            "display" : "PET+CT membre inférieur avec radionucléide IV"
+            "display" : "tomographie par émission de positons et CT membre inférieur avec radionucléide IV"
           },
           {
             "code" : "98034-2",
-            "display" : "RF ; incidences limitées"
+            "display" : "fluoroscopie incidences limitées"
           },
           {
             "code" : "98035-9",
@@ -25006,7 +25002,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "98036-7",
-            "display" : "MN abdomen ; incidences pour thérapeutique avec sulfocolloïde de Technétium 99 IV"
+            "display" : "médecine nucléaire abdomen ; incidences pour thérapeutique avec sulfocolloïde de Technétium 99 IV"
           },
           {
             "code" : "98074-8",
@@ -25030,7 +25026,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "98286-8",
-            "display" : "échographie Doppler vaisseaux du pied - droits"
+            "display" : "échographie Doppler vaisseaux du pied - droit"
           },
           {
             "code" : "98287-6",
@@ -25038,11 +25034,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "98288-4",
-            "display" : "échographie Doppler vaisseaux du pied - gauches"
+            "display" : "échographie Doppler vaisseaux du pied - gauche"
           },
           {
             "code" : "98289-2",
-            "display" : "échographie Doppler vaisseaux de la main gauches"
+            "display" : "échographie Doppler vaisseaux de la main gauche"
           },
           {
             "code" : "98290-0",
@@ -25050,11 +25046,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "98291-8",
-            "display" : "échographie Doppler vaisseaux de la main droits"
+            "display" : "échographie Doppler vaisseaux de la main droite"
           },
           {
             "code" : "98292-6",
-            "display" : "échographie Doppler artère fémorale et artère poplitée - droits"
+            "display" : "échographie Doppler artère fémorale et artère poplitée - droites"
           },
           {
             "code" : "98293-4",
@@ -25138,7 +25134,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "98313-0",
-            "display" : "RX os cunéiformes du pied bilatéraux ; incidences"
+            "display" : "RX os cunéiformes du pied bilatéral ; incidences"
           },
           {
             "code" : "98314-8",
@@ -25398,19 +25394,19 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "99605-8",
-            "display" : "échographie.doppler vaisseaux du membre inférieur - gauche pour cartographie veineuse"
+            "display" : "échographie Doppler vaisseaux du membre inférieur - gauche pour cartographie veineuse"
           },
           {
             "code" : "99606-6",
-            "display" : "échographie.doppler vaisseaux du membre inférieur - droit pour cartographie veineuse"
+            "display" : "échographie Doppler vaisseaux du membre inférieur - droit pour cartographie veineuse"
           },
           {
             "code" : "99607-4",
-            "display" : "échographie.doppler veine du membre inférieur - bilatéral pour cartographie veineuse"
+            "display" : "échographie Doppler veine du membre inférieur - bilatéral pour cartographie veineuse"
           },
           {
             "code" : "99608-2",
-            "display" : "angioIRM des vaisseaux sousclaviers - bilatéral sans et avec contraste IV"
+            "display" : "angioIRM des vaisseaux sousclaviers - bilatéraux sans et avec contraste IV"
           },
           {
             "code" : "99609-0",
@@ -25426,23 +25422,23 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "99612-4",
-            "display" : "scanner coeur sans contraste"
+            "display" : "CT coeur sans contraste"
           },
           {
             "code" : "99613-2",
-            "display" : "scanner du coeur sans et avec contraste IV"
+            "display" : "CT du coeur sans et avec contraste IV"
           },
           {
             "code" : "99628-0",
-            "display" : "scanner Cou+Thorax+Abdomen+Pelvis"
+            "display" : "CT Cou et Thorax et Abdomen et Pelvis"
           },
           {
             "code" : "99629-8",
-            "display" : "scanner Cou+Thorax+Abdomen+Pelvis sans contraste"
+            "display" : "CT Cou et Thorax et Abdomen et Pelvis sans contraste"
           },
           {
             "code" : "99630-6",
-            "display" : "scanner Cou+Thorax+Abdomen+Pelvis sans et avec contraste IV"
+            "display" : "CT Cou et Thorax et Abdomen et Pelvis sans et avec contraste IV"
           },
           {
             "code" : "99631-4",
@@ -25458,19 +25454,19 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "99702-3",
-            "display" : "tractographie par résonnance magnétique du cerveau"
+            "display" : "tractographie par résonance magnétique du cerveau"
           },
           {
             "code" : "99703-1",
-            "display" : "résonnance magnétique de perfusion du cerveau"
+            "display" : "résonance magnétique de perfusion du cerveau"
           },
           {
             "code" : "99704-9",
-            "display" : "résonnance magnétique du cerveau pour cartographie d’accident vasculaire cérébral"
+            "display" : "résonance magnétique du cerveau pour cartographie d’accident vasculaire cérébral"
           },
           {
             "code" : "99705-6",
-            "display" : "résonnance magnétique du cerveau pour cartographie de crises comitiales"
+            "display" : "résonance magnétique du cerveau pour cartographie de crises comitiales"
           },
           {
             "code" : "99826-0",
@@ -25486,7 +25482,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "100369-8",
-            "display" : "sciintigraphie de la glande thyroïde incidences avec Tl-201 IV"
+            "display" : "médecine nucléaire glande thyroïde incidences avec Tl-201 IV"
           },
           {
             "code" : "100655-0",
@@ -25498,11 +25494,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "100852-3",
-            "display" : "scintigraphie osseuse : incidences pour métastases avec Sr-89 IV"
+            "display" : "médecine nucléaire osseuse incidences pour métastases avec Sr-89 IV"
           },
           {
             "code" : "100853-1",
-            "display" : "épanchement péricardique dans l'espace péricardique par médecine nucléaire"
+            "display" : "médecine nucléaire épanchement péricardique dans l'espace péricardique"
           },
           {
             "code" : "100875-4",
@@ -25530,23 +25526,23 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "100881-2",
-            "display" : "RM os ; guidage pour cryoablation"
+            "display" : "résonance magnétique os ; guidage pour cryoablation"
           },
           {
             "code" : "100882-0",
-            "display" : "péritoine par résonnance magnétique avec contraste percutané intrapéritonéal"
+            "display" : "résonance magnétique péritoine avec contraste percutané intrapéritonéal"
           },
           {
             "code" : "100883-8",
-            "display" : "résonnance magnétique guidage pour biopsie percutanée du rein - gauche"
+            "display" : "résonance magnétique guidage pour biopsie percutanée du rein - gauche"
           },
           {
             "code" : "100884-6",
-            "display" : "résonnance magnétique guidage pour biopsie percutanée du rein - droit"
+            "display" : "résonance magnétique guidage pour biopsie percutanée du rein - droit"
           },
           {
             "code" : "101301-0",
-            "display" : "deux incidences et incidences de l'abdomen de face et de profil pour RX rachis thoracique"
+            "display" : "RX rachis thoracique deux incidences et incidences de l'abdomen de face et de profil"
           },
           {
             "code" : "101579-1",
@@ -25638,7 +25634,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "103246-5",
-            "display" : "RX bassin et hanche - bilatéraux 2 incidences"
+            "display" : "RX bassin et hanche - bilatérale 2 incidences"
           },
           {
             "code" : "103247-3",
@@ -25662,7 +25658,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "103252-3",
-            "display" : "RX bassin et hanche - bilatéraux incidence antéropostérieure et 2 incidences"
+            "display" : "RX bassin et hanche - bilatérale incidence antéropostérieure et 2 incidences"
           },
           {
             "code" : "103253-1",
@@ -25714,11 +25710,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "103265-5",
-            "display" : "RX bassin et hanche - bilatéraux 5 incidences ou plus"
+            "display" : "RX bassin et hanche - bilatérale 5 incidences ou plus"
           },
           {
             "code" : "103266-3",
-            "display" : "RX bassin et hanche - bialtéraux 3 ou 4 incidences"
+            "display" : "RX bassin et hanche - bilatérale 3 ou 4 incidences"
           },
           {
             "code" : "103267-1",
@@ -25750,7 +25746,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "103274-7",
-            "display" : "RX bassin et hanche - bilatéraux incidence antéropostérieure et 3 ou 4 incidences"
+            "display" : "RX bassin et hanche - bilatérale incidence antéropostérieure et 3 ou 4 incidences"
           },
           {
             "code" : "103275-4",
@@ -25770,7 +25766,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "103279-6",
-            "display" : "RX bassin et hanche - bilatéraux 2 incidences ou plus"
+            "display" : "RX bassin et hanche - bilatérale 2 incidences ou plus"
           },
           {
             "code" : "103280-4",
@@ -25866,7 +25862,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "103303-4",
-            "display" : "RX bassin et hanche - bilatéraux incidence antéropostérieure et incidences"
+            "display" : "RX bassin et hanche - bilatérale incidence antéropostérieure et incidences"
           },
           {
             "code" : "103304-2",
@@ -25990,7 +25986,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "103334-9",
-            "display" : "RX bassin et hanche - bilatéraux incidence unique"
+            "display" : "RX bassin et hanche - bilatérale incidence unique"
           },
           {
             "code" : "103335-6",
@@ -26046,7 +26042,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "103348-9",
-            "display" : "RX bassin et hanche - bilatéraux 5 incidences"
+            "display" : "RX bassin et hanche - bilatérale 5 incidences"
           },
           {
             "code" : "103349-7",
@@ -26326,7 +26322,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "103418-0",
-            "display" : "RX os de la face 2 incidences"
+            "display" : "RX os de la face ; 2 incidences"
           },
           {
             "code" : "103419-8",
@@ -26538,11 +26534,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "103471-9",
-            "display" : "RX bassin et hanche - bialtéraux 2 ou 3 incidences"
+            "display" : "RX bassin et hanche - bialtérale 2 ou 3 incidences"
           },
           {
             "code" : "103472-7",
-            "display" : "RX os du nez 1 ou 2 incidences"
+            "display" : "RX os du nez ; 1 ou 2 incidences"
           },
           {
             "code" : "103473-5",
@@ -26830,7 +26826,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "103850-4",
-            "display" : "RF rein incidences avec contraste via sonde de néphrostomie"
+            "display" : "fluoroscopie rein incidences avec contraste via sonde de néphrostomie"
           },
           {
             "code" : "103851-2",
@@ -26838,15 +26834,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "103852-0",
-            "display" : "angiographie par fluoroscopie guide pour angioplastie des vaisseaux des extrémités - bilatéraux -- avec contraste"
+            "display" : "guidage par angiographie par fluoroscopie pour angioplastie des vaisseaux des extrémités - bilatéraux -- avec contraste"
           },
           {
             "code" : "103853-8",
-            "display" : "angiographie par fluoroscopie guide pour angioplastie des vaisseaux des extrémités - gauches -- avec contraste"
+            "display" : "guidage par angiographie par fluoroscopie pour angioplastie des vaisseaux des extrémités - gauches -- avec contraste"
           },
           {
             "code" : "103854-6",
-            "display" : "angiographie par fluoroscopie guide pour angioplastie des vaisseaux des extrémités - droits -- avec contraste"
+            "display" : "guidage par angiographie par fluoroscopie pour angioplastie des vaisseaux des extrémités - droits -- avec contraste"
           },
           {
             "code" : "103855-3",
@@ -26862,99 +26858,99 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "103858-7",
-            "display" : "rayons X et fluoroscopie thorax plus de 2 incidences et incidences"
+            "display" : "RX et fluoroscopie thorax plus de 2 incidences et incidences"
           },
           {
             "code" : "103859-5",
-            "display" : "scanner abdomen et pelvis avec contraste per os et avec contraste IV"
+            "display" : "CT abdomen et pelvis avec contraste per os et avec contraste IV"
           },
           {
             "code" : "103860-3",
-            "display" : "scanner abdomen avec contraste per os"
+            "display" : "CT abdomen avec contraste per os"
           },
           {
             "code" : "103861-1",
-            "display" : "scanner de l'abdomen avec contraste per os et avec contraste IV"
+            "display" : "CT de l'abdomen avec contraste per os et avec contraste IV"
           },
           {
             "code" : "103862-9",
-            "display" : "scanner os de la face sans contraste et avec contraste IV"
+            "display" : "CT os de la face sans contraste et avec contraste IV"
           },
           {
             "code" : "103863-7",
-            "display" : "scanner du rein, de l'uretère et de la vessie urinaire avec contraste IV"
+            "display" : "CT du rein, de l'uretère et de la vessie urinaire avec contraste IV"
           },
           {
             "code" : "103864-5",
-            "display" : "scanner selle turcique et orbite avec contraste IV"
+            "display" : "CT selle turcique et orbite avec contraste IV"
           },
           {
             "code" : "103865-2",
-            "display" : "scanner de l'épaule - bilatérale sans contraste et avec contraste IV"
+            "display" : "CT de l'épaule - bilatérale sans contraste et avec contraste IV"
           },
           {
             "code" : "103866-0",
-            "display" : "scanner de la jambe - bilatérale avec contraste IV"
+            "display" : "CT de la jambe - bilatérale avec contraste IV"
           },
           {
             "code" : "103867-8",
-            "display" : "scanner de la jambe - bilatérale sans contraste et avec contraste IV"
+            "display" : "CT de la jambe - bilatérale sans contraste et avec contraste IV"
           },
           {
             "code" : "103868-6",
-            "display" : "scanner selle turcique et orbite sans contraste"
+            "display" : "CT selle turcique et orbite sans contraste"
           },
           {
             "code" : "103869-4",
-            "display" : "scanner selle turcique et orbite sans contraste et avec contraste IV"
+            "display" : "CT selle turcique et orbite sans contraste et avec contraste IV"
           },
           {
             "code" : "103870-2",
-            "display" : "scanner selle turcique et orbite - bilatéraux"
+            "display" : "CT selle turcique et orbites - bilatérales"
           },
           {
             "code" : "103871-0",
-            "display" : "scanner selle turcique et orbite - bilatéraux sans contraste"
+            "display" : "CT selle turcique et orbites - bilatérales sans contraste"
           },
           {
             "code" : "103872-8",
-            "display" : "scanner selle turcique et orbite - bilatéraux avec contraste IV"
+            "display" : "CT selle turcique et orbites - bilatérales avec contraste IV"
           },
           {
             "code" : "103873-6",
-            "display" : "scanner selle turcique et orbite - bilatéraux sans contraste et avec contraste IV"
+            "display" : "CT selle turcique et orbite - bilatéraux sans contraste et avec contraste IV"
           },
           {
             "code" : "103874-4",
-            "display" : "scanner thorax et abdomen"
+            "display" : "CT thorax et abdomen"
           },
           {
             "code" : "103875-1",
-            "display" : "scanner du pelvis avec contraste per os"
+            "display" : "CT du pelvis avec contraste per os"
           },
           {
             "code" : "103876-9",
-            "display" : "scanner du pelvis avec contraste per os et avec contraste IV"
+            "display" : "CT du pelvis avec contraste per os et avec contraste IV"
           },
           {
             "code" : "103877-7",
-            "display" : "scanner de l'avantbras - bilatéral avec contraste IV"
+            "display" : "CT de l'avantbras - bilatéral avec contraste IV"
           },
           {
             "code" : "103878-5",
-            "display" : "scanner de l'avantbras - bilatéral sans contraste"
+            "display" : "CT de l'avantbras - bilatéral sans contraste"
           },
           {
             "code" : "103879-3",
-            "display" : "scanner de l'avantbras - bilatéral sans et avec contraste IV"
+            "display" : "CT de l'avantbras - bilatéral sans et avec contraste IV"
           },
           {
             "code" : "103880-1",
-            "display" : "scanner de la cheville - bilatéral sans et avec contraste IV"
+            "display" : "CT de la cheville - bilatérale sans et avec contraste IV"
           },
           {
             "code" : "103881-9",
-            "display" : "scanner de la mastoïde sans contraste"
+            "display" : "CT mastoïde sans contraste"
           },
           {
             "code" : "103882-7",
@@ -26962,11 +26958,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "103883-5",
-            "display" : "scanner du pied - bilatéral sans et avec contraste IV"
+            "display" : "CT du pied - bilatéral sans et avec contraste IV"
           },
           {
             "code" : "103884-3",
-            "display" : "scanner du poignet - bilatéral sans et avec contraste IV"
+            "display" : "CT du poignet - bilatéral sans et avec contraste IV"
           },
           {
             "code" : "103885-0",
@@ -26974,7 +26970,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "103886-8",
-            "display" : "mammongraphie sein - droit dépistage pour implant"
+            "display" : "mammographie sein - droit dépistage pour implant"
           },
           {
             "code" : "103887-6",
@@ -26990,11 +26986,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "103890-0",
-            "display" : "mammographie stéréo guidage pour aiguille localisation du sein - gauche"
+            "display" : "mammographie stéréotaxique guidage pour aiguille localisation du sein - gauche"
           },
           {
             "code" : "103891-8",
-            "display" : "mammographie stéréo guidage pour aiguille localisation du sein - droit"
+            "display" : "mammographie stéréotaxique guidage pour aiguille localisation du sein - droit"
           },
           {
             "code" : "103892-6",
@@ -27022,15 +27018,15 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "103898-3",
-            "display" : "écho.Doppler pour rein transplanté gauche"
+            "display" : "échographie Doppler pour rein transplanté gauche"
           },
           {
             "code" : "103899-1",
-            "display" : "écho.Doppler pour rein transplanté droit"
+            "display" : "échographie Doppler pour rein transplanté droit"
           },
           {
             "code" : "103900-7",
-            "display" : "écho.Doppler pour rein transplanté bilatéral"
+            "display" : "échographie Doppler pour rein transplanté bilatéral"
           },
           {
             "code" : "103901-5",
@@ -27038,7 +27034,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "103902-3",
-            "display" : "échographie.doppler abdomen et pelvis"
+            "display" : "échographie Doppler abdomen et pelvis"
           },
           {
             "code" : "103903-1",
@@ -27050,11 +27046,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "103905-6",
-            "display" : "échographie.doppler des vaisseaux du rein - gauche"
+            "display" : "échographie Doppler des vaisseaux du rein - gauche"
           },
           {
             "code" : "103906-4",
-            "display" : "échographie.doppler des vaisseaux du rein - droit"
+            "display" : "échographie Doppler des vaisseaux du rein - droit"
           },
           {
             "code" : "103907-2",
@@ -27078,7 +27074,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "103912-2",
-            "display" : "échographie veine d'un membre - bilatérale"
+            "display" : "échographie veine d'un membre - bilatéral"
           },
           {
             "code" : "103913-0",
@@ -27102,19 +27098,19 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "103918-9",
-            "display" : "échographie.doppler thoracique et abdominale, limité à l'aorte"
+            "display" : "échographie Doppler thoracique et abdominale, limité à l'aorte"
           },
           {
             "code" : "103919-7",
-            "display" : "échographie.Doppler aorte abdominale"
+            "display" : "échographie Doppler aorte abdominale"
           },
           {
             "code" : "103920-5",
-            "display" : "échographie.doppler aorte thoracique et abdominale et veine cave inférieure"
+            "display" : "échographie Doppler aorte thoracique et abdominale et veine cave inférieure"
           },
           {
             "code" : "103921-3",
-            "display" : "échographie.doppler aorte thoracique et abdominale et veine cave inférieure limité"
+            "display" : "échographie Doppler aorte thoracique et abdominale et veine cave inférieure limité"
           },
           {
             "code" : "103922-1",
@@ -27134,23 +27130,23 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "103926-2",
-            "display" : "échographie.Doppler veine - bilatérale"
+            "display" : "échographie Doppler veine - bilatérale"
           },
           {
             "code" : "103927-0",
-            "display" : "échographie.Doppler artère d'un membre inférieur - gauche limitée"
+            "display" : "échographie Doppler artère d'un membre inférieur - gauche limitée"
           },
           {
             "code" : "103928-8",
-            "display" : "échographie.Doppler artère d'un membre inférieur - droit limitée"
+            "display" : "échographie Doppler artère d'un membre inférieur - droit limitée"
           },
           {
             "code" : "103944-5",
-            "display" : "scanner cou+thorax+abdomen sans contraste"
+            "display" : "CT cou et thorax et abdomen sans contraste"
           },
           {
             "code" : "103945-2",
-            "display" : "scanner cou+thorax+abdomen avec contraste IV"
+            "display" : "CT cou et thorax et abdomen avec contraste IV"
           },
           {
             "code" : "104065-8",
@@ -27158,19 +27154,19 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "104128-4",
-            "display" : "radiographie glande salivaire incidence unique pour lithiase salivaire"
+            "display" : "RX glande salivaire incidence unique pour lithiase salivaire"
           },
           {
             "code" : "104129-2",
-            "display" : "radiographie glande salivaire incidence unique bilatérale pour lithiase salivaire"
+            "display" : "RX glande salivaire incidence unique bilatérale pour lithiase salivaire"
           },
           {
             "code" : "104130-0",
-            "display" : "radiographie glande salivaire incidence unique droite pour lithiase salivaire"
+            "display" : "RX glande salivaire incidence unique droite pour lithiase salivaire"
           },
           {
             "code" : "104131-8",
-            "display" : "radiographie de la glande salivaire - gauche incidence unique pour lithiase salivaire"
+            "display" : "RX glande salivaire - gauche incidence unique pour lithiase salivaire"
           },
           {
             "code" : "104211-8",
@@ -27190,43 +27186,47 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "104215-9",
-            "display" : "mammographie stéréo sein - incidences gauches localisation des grains radioactifs"
+            "display" : "mammographie stéréotaxique sein - incidences gauches localisation des grains radioactifs"
           },
           {
             "code" : "104216-7",
-            "display" : "mammographie stéréo sein - incidences droits localisation des grains radioactifs"
+            "display" : "mammographie stéréotaxique sein - incidences droits localisation des grains radioactifs"
+          },
+          {
+            "code" : "104633-3",
+            "display" : "guidage par échographie pour aspiration d'un kyste ganglionnaire d'une région du corps non spécifiée"
           },
           {
             "code" : "104867-7",
-            "display" : "TEP+CT coeur métabolique"
+            "display" : "tomographie par émission de positons et CT coeur métabolique"
           },
           {
             "code" : "104869-3",
-            "display" : "scanner du cerveau pendant la chirurgie"
+            "display" : "CT cerveau pendant la chirurgie"
           },
           {
             "code" : "104870-1",
-            "display" : "scanner du rachis cervical pendant la chirurgie"
+            "display" : "CT du rachis cervical pendant la chirurgie"
           },
           {
             "code" : "105128-3",
-            "display" : "RM foie et canaux biliaires et pancréas"
+            "display" : "résonance magnétique foie et canaux biliaires et pancréas"
           },
           {
             "code" : "105129-1",
-            "display" : "RM foie et canaux biliaires et pancréas avec contraste IV"
+            "display" : "résonance magnétique foie et canaux biliaires et pancréas avec contraste IV"
           },
           {
             "code" : "105130-9",
-            "display" : "résonnance magnétique de perfusion du cerveau avec contraste IV"
+            "display" : "résonance magnétique de perfusion du cerveau avec contraste IV"
           },
           {
             "code" : "105131-7",
-            "display" : "résonnance magnétique de perfusion du cerveau sans et avec contraste IV"
+            "display" : "résonance magnétique de perfusion du cerveau sans et avec contraste IV"
           },
           {
             "code" : "105132-5",
-            "display" : "résonnance magnétique de perfusion du cerveau sans contraste"
+            "display" : "résonance magnétique de perfusion du cerveau sans contraste"
           },
           {
             "code" : "105133-3",
@@ -27290,7 +27290,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "105148-1",
-            "display" : "angioIRM vaisseaux du membre supérieur - droit avec contraste IV"
+            "display" : "angioIRM vaisseaux du membre supérieur - droits avec contraste IV"
           },
           {
             "code" : "105149-9",
@@ -27322,39 +27322,39 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "105156-4",
-            "display" : "RM orbite - bilatérale"
+            "display" : "résonance magnétique orbite - bilatérale"
           },
           {
             "code" : "105157-2",
-            "display" : "RM intestin grêle avec contraste per os et avec contraste IV"
+            "display" : "résonance magnétique intestin grêle avec contraste per os et avec contraste IV"
           },
           {
             "code" : "105158-0",
-            "display" : "RM plexus lombosacré sans contraste IV"
+            "display" : "résonance magnétique plexus lombosacré sans contraste IV"
           },
           {
             "code" : "105159-8",
-            "display" : "RM plexus lombosacré avec contraste IV"
+            "display" : "résonance magnétique plexus lombosacré avec contraste IV"
           },
           {
             "code" : "105160-6",
-            "display" : "RM plexus lombosacré sans et avec contraste IV"
+            "display" : "résonance magnétique plexus lombosacré sans et avec contraste IV"
           },
           {
             "code" : "105161-4",
-            "display" : "RM d'une articulation du membre supérieur - bilatéral sans contraste IV"
+            "display" : "résonance magnétique d'une articulation du membre supérieur - bilatéral sans contraste IV"
           },
           {
             "code" : "105162-2",
-            "display" : "RM d'une articulation du membre supérieur - bilatéral sans et avec contraste IV"
+            "display" : "résonance magnétique articulation du membre supérieur - bilatéral sans et avec contraste IV"
           },
           {
             "code" : "105163-0",
-            "display" : "RM cerveau pendant chirurgie avec contraste IV"
+            "display" : "résonance magnétique cerveau pendant chirurgie avec contraste IV"
           },
           {
             "code" : "105164-8",
-            "display" : "RM cerveau pendant chirurgie avec et sans contraste IV"
+            "display" : "résonance magnétique cerveau pendant chirurgie avec et sans contraste IV"
           },
           {
             "code" : "105165-5",
@@ -27362,39 +27362,39 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "105166-3",
-            "display" : "MR fonctionnelle du cerveau sans contraste"
+            "display" : "IRM fonctionnelle du cerveau sans contraste"
           },
           {
             "code" : "105167-1",
-            "display" : "RM coeur ciné pour cartographie de la vélocité du flux sanguin sans contraste"
+            "display" : "résonance magnétique coeur ciné pour cartographie de la vélocité du flux sanguin sans contraste"
           },
           {
             "code" : "105168-9",
-            "display" : "RM coeur ciné pour fonction sans et avec contraste IV"
+            "display" : "résonance magnétique coeur ciné pour fonction sans et avec contraste IV"
           },
           {
             "code" : "105169-7",
-            "display" : "RM coeur ciné pour fonction avec contraste IV"
+            "display" : "résonance magnétique coeur ciné pour fonction avec contraste IV"
           },
           {
             "code" : "105170-5",
-            "display" : "angionIRM du coeur sans contraste IV"
+            "display" : "angioIRM du coeur sans contraste IV"
           },
           {
             "code" : "105171-3",
-            "display" : "angionIRM du coeur avec contraste IV"
+            "display" : "angioIRM du coeur avec contraste IV"
           },
           {
             "code" : "105172-1",
-            "display" : "angionIRM du coeur sans et avec contraste IV"
+            "display" : "angioIRM du coeur sans et avec contraste IV"
           },
           {
             "code" : "105173-9",
-            "display" : "RM coeur ciné pour cartographie de la vélocité du flux sanguin sans contraste IV"
+            "display" : "résonance magnétique coeur ciné pour cartographie de la vélocité du flux sanguin sans contraste IV"
           },
           {
             "code" : "105174-7",
-            "display" : "RM coeur ciné pour cartographie de la vélocité du flux sanguin sans et avec contraste IV"
+            "display" : "résonance magnétique coeur ciné pour cartographie de la vélocité du flux sanguin sans et avec contraste IV"
           },
           {
             "code" : "105420-4",
@@ -27414,7 +27414,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "106253-8",
-            "display" : "guidage par échographie pour aspiration du pelvis et de la hanche - bilatéraux"
+            "display" : "guidage par échographie pour aspiration du pelvis et de la hanche - bilatérale"
           },
           {
             "code" : "106254-6",
@@ -27427,6 +27427,10 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           {
             "code" : "106256-1",
             "display" : "guidage par échographie pour aspiration du pelvis et de la hanche - droits"
+          },
+          {
+            "code" : "106257-9",
+            "display" : "guidage par échographie pour placement d'un cathéter veineux central non-tunnélisé veine jugulaire - unilatérale"
           },
           {
             "code" : "106258-7",
@@ -27546,11 +27550,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "106291-8",
-            "display" : "échograhpie du pouce - gauche"
+            "display" : "échographie du pouce - gauche"
           },
           {
             "code" : "106292-6",
-            "display" : "échograhpie du pouce - droit"
+            "display" : "échographie du pouce - droit"
           },
           {
             "code" : "106293-4",
@@ -27562,11 +27566,11 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "106302-3",
-            "display" : "tomographie par émission de positons de la prostate"
+            "display" : "tomographie par émission de positons prostate"
           },
           {
             "code" : "106304-9",
-            "display" : "scintigraphie incidences abdominales"
+            "display" : "médecine nucléaire incidences abdominales"
           },
           {
             "code" : "106305-6",
@@ -27606,7 +27610,7 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           },
           {
             "code" : "106314-8",
-            "display" : "écho.Doppler des veines du membres inférieures - bilatérales"
+            "display" : "échographie Doppler des veines du membre inférieur - bilatéral"
           },
           {
             "code" : "106318-9",
@@ -27691,6 +27695,106 @@ Ce jeu de valeurs (ValueSet) a 6,896 codes. Pour garder la publication gérable,
           {
             "code" : "106338-7",
             "display" : "échographie main - droite"
+          },
+          {
+            "code" : "107262-8",
+            "display" : "guidage par fluoroscopie pour thrombectomie mécanique percutanée artères pulmonaires droites"
+          },
+          {
+            "code" : "107264-4",
+            "display" : "guidage par fluoroscopie pour thrombectomie mécanique percutanée artère pulmonaire"
+          },
+          {
+            "code" : "107267-7",
+            "display" : "guidage par fluoroscopie pour thrombectomie par aspiration percutanée artère du membre inférieur - gauche"
+          },
+          {
+            "code" : "107268-5",
+            "display" : "guidage par fluoroscopie pour embolisation artères carotides - gauches"
+          },
+          {
+            "code" : "107269-3",
+            "display" : "guidage par angiographie par fluoroscopie pour embolisation artère cérébrale"
+          },
+          {
+            "code" : "107270-1",
+            "display" : "guidage par angiographie par fluoroscopie pour insertion d'un stent artères carotides - droites"
+          },
+          {
+            "code" : "107271-9",
+            "display" : "RX et fluoroscopie poignet - droit incidences"
+          },
+          {
+            "code" : "107272-7",
+            "display" : "RX et fluoroscopie poignet - gauche incidences"
+          },
+          {
+            "code" : "107273-5",
+            "display" : "guidage par fluoroscopie pour repositionnement d'un cathéter veineux central dans une région du coprs non spécifiée"
+          },
+          {
+            "code" : "107274-3",
+            "display" : "guidage par fluoroscopie pour échange d'un cathéter veineux central d'une région corporelle non spécifiée"
+          },
+          {
+            "code" : "107275-0",
+            "display" : "RX et fluoroscopie membre supérieur - droit incidences"
+          },
+          {
+            "code" : "107276-8",
+            "display" : "fluoroscopie membre supérieur - droit incidences"
+          },
+          {
+            "code" : "107277-6",
+            "display" : "RX et fluoroscopie membre supérieur - gauche incidences"
+          },
+          {
+            "code" : "107278-4",
+            "display" : "fluoroscopie membre supérieur - gauche incidences"
+          },
+          {
+            "code" : "107279-2",
+            "display" : "RX et fluoroscopie membre supérieur - bilatéral incidences"
+          },
+          {
+            "code" : "107280-0",
+            "display" : "RX et fluoroscopie crâne incidences"
+          },
+          {
+            "code" : "107290-9",
+            "display" : "guidage par fluoroscopie pour embolisation artère pulmonaire"
+          },
+          {
+            "code" : "107294-1",
+            "display" : "guidage par fluoroscopie pour ablation par radiofréquence nerf intercostal du rachis dorsal"
+          },
+          {
+            "code" : "107297-4",
+            "display" : "guidage par fluoroscopie pour remplacement d'une sonde de gastrojéjunostomie dans tractus gastrointestinal supérieur"
+          },
+          {
+            "code" : "107300-6",
+            "display" : "guidage par angiographie par fluoroscopie pour le placement d'une endoprothèse artère carotide commune - droite"
+          },
+          {
+            "code" : "107301-4",
+            "display" : "guidage par fluoroscopie pour placement d'une sonde en GJ dans tractus gastrointestinal supérieur"
+          },
+          {
+            "code" : "107302-2",
+            "display" : "guidage par fluoroscopie pour embolisation artère carotide externe"
+          },
+          {
+            "code" : "107303-0",
+            "display" : "guidage par fluoroscopie pour embolisation d'une région du corps non spécifié"
+          },
+          {
+            "code" : "107306-3",
+            "display" : "guidage par fluoroscopie pour angioplastie percutanée transluminale artère iliaque"
+          },
+          {
+            "code" : "107307-1",
+            "display" : "guidage par fluoroscopie pour thrombectomie percutanée artère cérébrale"
           }
         ]
       }

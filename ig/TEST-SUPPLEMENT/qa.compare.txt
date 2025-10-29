@@ -1,7 +1,7 @@
 Terminologies : Validation Results
 =========================================
 
-err = 3031, warn = 1234, info = 1389
+err = 3011, warn = 1233, info = 1390
 $--
 Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https://interop.esante.gouv.fr/terminologies)
  Build Errors : 70 / 23 / 0
@@ -26,9 +26,10 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-employmentStatus-supplement-fr : 2 / 0 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-mediaType-supplement-fr : 2 / 0 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-orderableDrugForm-supplement-fr : 2 / 0 / 2
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-specimenType-supplement-fr : 32 / 1 / 2
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-specimenType-supplement-fr : 2 / 0 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-substanceAdminSubstitution-supplement-fr : 2 / 0 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-v3-ActPriority-supplement-fr : 2 / 4 / 3
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-v3-SpecimenType-supplement-fr : 2 / 0 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS : 0 / 0 / 1
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/ConceptMap-ASS-A13-TypeEvenement-FluxStandardise : 0 / 1 / 1
@@ -82,6 +83,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/ConditionVerificationStatus_jdv-hl7-condition-ver-status-cisis : 3 / 1 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/Confidentiality_jdv-hl7-v2-0952-cisis : 5 / 1 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/CoverageRoleType_jdv-hl7-v3-CoverageRoleType-cisis : 3 / 1 / 2
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/DaysOfWeek_jdv-hl7-days-of-week : 9 / 0 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/EmploymentStatusODH_jdv-hl7-v3-employmentStatusODH-cisis : 3 / 1 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/Hl7VSEmploymentStatus_jdv-hl7-v2-0066-cisis : 11 / 1 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/Hl7VSSpecimenCollectionMethod_jdv-hl7-v2-0488-cisis : 0 / 1 / 1
@@ -579,7 +581,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvObjectifActiviteCisis_jdv-objectif-activite-cisis : 0 / 0 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvObpResultatEvenementCisis_jdv-obp-resultat-evenement-cisis : 0 / 0 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvObpTestAuditionCisis_jdv-obp-test-audition-cisis : 0 / 0 / 2
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvObservationEnfantCisis_jdv-observation-enfant-cisis : 1 / 0 / 3
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvObservationEnfantCisis_jdv-observation-enfant-cisis : 0 / 0 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvObservationEtatPatientCisis_jdv-observation-etat-patient-cisis : 0 / 0 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvObservationGrossesseCisis_jdv-observation-grossesse-cisis : 0 / 0 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvOeilExamineCisis_jdv-oeil-examine-cisis : 0 / 0 / 2
@@ -1165,7 +1167,7 @@ ERROR: NamingSystem-v3-loinc.html#/html/body/div/div/div/div/div/ul/li/a at Line
 ERROR: NamingSystem-v3-loinc.json.html#/html/body/div/div/div/div/div/ul/li/a at Line 213, column 4: The link 'NamingSystem-v3-loinc.demande.html' for "Demande" cannot be resolved
 ERROR: NamingSystem-v3-loinc.ttl.html#/html/body/div/div/div/div/div/ul/li/a at Line 213, column 4: The link 'NamingSystem-v3-loinc.demande.html' for "Demande" cannot be resolved
 ERROR: NamingSystem-v3-loinc.xml.html#/html/body/div/div/div/div/div/ul/li/a at Line 213, column 4: The link 'NamingSystem-v3-loinc.demande.html' for "Demande" cannot be resolved
-ERROR: ValueSet-jdv-complication-neuropsychiatrique-cisis.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 375, column 11: The link 'CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-525' for "MED-525" cannot be resolved (valid targets: 1594 targets)
+ERROR: ValueSet-jdv-complication-neuropsychiatrique-cisis.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 375, column 11: The link 'CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-525' for "MED-525" cannot be resolved (valid targets: 1593 targets)
 ERROR: downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 206, column 8: The link 'definitions.json.zip' for "JSON Définitions (zip)" cannot be resolved
 ERROR: downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 207, column 8: The link 'examples.json.zip' for "JSON Exemples (zip)" cannot be resolved
 ERROR: downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 208, column 8: The link 'definitions.xml.zip' for "XML Definitions (zip)" cannot be resolved
@@ -1263,37 +1265,6 @@ ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSou
 == DM/fsh-generated/resources/CodeSystem-specimenType-supplement-fr.json ==
 ERROR: CodeSystem.where(url = 'https://smt.esante.gouv.fr/fhir/CodeSystem/specimenType-supplement-fr'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-specimenType-supplement-fr.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/specimenType-supplement-fr) does not match the URL (https://smt.esante.gouv.fr/fhir/CodeSystem/specimenType-supplement-fr). Use the special-url parameter if you really mean for it not to match
 INFORMATION: CodeSystem.supplements: Pinned the version of http://terminology.hl7.org/CodeSystem/v2-0487 to 2.3.0 from choices of 2.0.0 (hl7.terminology.r4#6.5.0), 2.3.0 (hl7.terminology.r4#5.0.0)
-WARNING: CodeSystem/specimenType-supplement-fr: CodeSystem.concept[259].designation[0].value: value should not start or finish with whitespace 'Muscle squelettique '
-ERROR: CodeSystem/specimenType-supplement-fr: CodeSystem.concept[22]: The code 'BLDC' is not declared in the base CodeSystem http://terminology.hl7.org/CodeSystem/v2-0487|2.3.0 so is not valid in the supplement
-ERROR: CodeSystem/specimenType-supplement-fr: CodeSystem.concept[33]: The code 'BRO' is not declared in the base CodeSystem http://terminology.hl7.org/CodeSystem/v2-0487|2.3.0 so is not valid in the supplement
-ERROR: CodeSystem/specimenType-supplement-fr: CodeSystem.concept[50]: The code 'CRN' is not declared in the base CodeSystem http://terminology.hl7.org/CodeSystem/v2-0487|2.3.0 so is not valid in the supplement
-ERROR: CodeSystem/specimenType-supplement-fr: CodeSystem.concept[63]: The code 'CVX' is not declared in the base CodeSystem http://terminology.hl7.org/CodeSystem/v2-0487|2.3.0 so is not valid in the supplement
-ERROR: CodeSystem/specimenType-supplement-fr: CodeSystem.concept[74]: The code 'DOSE' is not declared in the base CodeSystem http://terminology.hl7.org/CodeSystem/v2-0487|2.3.0 so is not valid in the supplement
-ERROR: CodeSystem/specimenType-supplement-fr: CodeSystem.concept[79]: The code 'EAR' is not declared in the base CodeSystem http://terminology.hl7.org/CodeSystem/v2-0487|2.3.0 so is not valid in the supplement
-ERROR: CodeSystem/specimenType-supplement-fr: CodeSystem.concept[88]: The code 'ENDC' is not declared in the base CodeSystem http://terminology.hl7.org/CodeSystem/v2-0487|2.3.0 so is not valid in the supplement
-ERROR: CodeSystem/specimenType-supplement-fr: CodeSystem.concept[89]: The code 'ENDM' is not declared in the base CodeSystem http://terminology.hl7.org/CodeSystem/v2-0487|2.3.0 so is not valid in the supplement
-ERROR: CodeSystem/specimenType-supplement-fr: CodeSystem.concept[102]: The code 'EYE' is not declared in the base CodeSystem http://terminology.hl7.org/CodeSystem/v2-0487|2.3.0 so is not valid in the supplement
-ERROR: CodeSystem/specimenType-supplement-fr: CodeSystem.concept[113]: The code 'FOOD' is not declared in the base CodeSystem http://terminology.hl7.org/CodeSystem/v2-0487|2.3.0 so is not valid in the supplement
-ERROR: CodeSystem/specimenType-supplement-fr: CodeSystem.concept[123]: The code 'GEN' is not declared in the base CodeSystem http://terminology.hl7.org/CodeSystem/v2-0487|2.3.0 so is not valid in the supplement
-ERROR: CodeSystem/specimenType-supplement-fr: CodeSystem.concept[124]: The code 'GENC' is not declared in the base CodeSystem http://terminology.hl7.org/CodeSystem/v2-0487|2.3.0 so is not valid in the supplement
-ERROR: CodeSystem/specimenType-supplement-fr: CodeSystem.concept[125]: The code 'GENF' is not declared in the base CodeSystem http://terminology.hl7.org/CodeSystem/v2-0487|2.3.0 so is not valid in the supplement
-ERROR: CodeSystem/specimenType-supplement-fr: CodeSystem.concept[167]: The code 'LAM' is not declared in the base CodeSystem http://terminology.hl7.org/CodeSystem/v2-0487|2.3.0 so is not valid in the supplement
-ERROR: CodeSystem/specimenType-supplement-fr: CodeSystem.concept[177]: The code 'LN' is not declared in the base CodeSystem http://terminology.hl7.org/CodeSystem/v2-0487|2.3.0 so is not valid in the supplement
-ERROR: CodeSystem/specimenType-supplement-fr: CodeSystem.concept[200]: The code 'NOS' is not declared in the base CodeSystem http://terminology.hl7.org/CodeSystem/v2-0487|2.3.0 so is not valid in the supplement
-ERROR: CodeSystem/specimenType-supplement-fr: CodeSystem.concept[207]: The code 'PAT' is not declared in the base CodeSystem http://terminology.hl7.org/CodeSystem/v2-0487|2.3.0 so is not valid in the supplement
-ERROR: CodeSystem/specimenType-supplement-fr: CodeSystem.concept[233]: The code 'PRT' is not declared in the base CodeSystem http://terminology.hl7.org/CodeSystem/v2-0487|2.3.0 so is not valid in the supplement
-ERROR: CodeSystem/specimenType-supplement-fr: CodeSystem.concept[259]: The code 'SKM' is not declared in the base CodeSystem http://terminology.hl7.org/CodeSystem/v2-0487|2.3.0 so is not valid in the supplement
-ERROR: CodeSystem/specimenType-supplement-fr: CodeSystem.concept[263]: The code 'SMPLS' is not declared in the base CodeSystem http://terminology.hl7.org/CodeSystem/v2-0487|2.3.0 so is not valid in the supplement
-ERROR: CodeSystem/specimenType-supplement-fr: CodeSystem.concept[288]: The code 'THRT' is not declared in the base CodeSystem http://terminology.hl7.org/CodeSystem/v2-0487|2.3.0 so is not valid in the supplement
-ERROR: CodeSystem/specimenType-supplement-fr: CodeSystem.concept[289]: The code 'TISG' is not declared in the base CodeSystem http://terminology.hl7.org/CodeSystem/v2-0487|2.3.0 so is not valid in the supplement
-ERROR: CodeSystem/specimenType-supplement-fr: CodeSystem.concept[290]: The code 'TISPL' is not declared in the base CodeSystem http://terminology.hl7.org/CodeSystem/v2-0487|2.3.0 so is not valid in the supplement
-ERROR: CodeSystem/specimenType-supplement-fr: CodeSystem.concept[294]: The code 'TLGI' is not declared in the base CodeSystem http://terminology.hl7.org/CodeSystem/v2-0487|2.3.0 so is not valid in the supplement
-ERROR: CodeSystem/specimenType-supplement-fr: CodeSystem.concept[295]: The code 'TLNG' is not declared in the base CodeSystem http://terminology.hl7.org/CodeSystem/v2-0487|2.3.0 so is not valid in the supplement
-ERROR: CodeSystem/specimenType-supplement-fr: CodeSystem.concept[299]: The code 'TSMI' is not declared in the base CodeSystem http://terminology.hl7.org/CodeSystem/v2-0487|2.3.0 so is not valid in the supplement
-ERROR: CodeSystem/specimenType-supplement-fr: CodeSystem.concept[302]: The code 'TUB' is not declared in the base CodeSystem http://terminology.hl7.org/CodeSystem/v2-0487|2.3.0 so is not valid in the supplement
-ERROR: CodeSystem/specimenType-supplement-fr: CodeSystem.concept[307]: The code 'ULC' is not declared in the base CodeSystem http://terminology.hl7.org/CodeSystem/v2-0487|2.3.0 so is not valid in the supplement
-ERROR: CodeSystem/specimenType-supplement-fr: CodeSystem.concept[308]: The code 'UMB' is not declared in the base CodeSystem http://terminology.hl7.org/CodeSystem/v2-0487|2.3.0 so is not valid in the supplement
-ERROR: CodeSystem/specimenType-supplement-fr: CodeSystem.concept[319]: The code 'URTH' is not declared in the base CodeSystem http://terminology.hl7.org/CodeSystem/v2-0487|2.3.0 so is not valid in the supplement
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-specimenType-supplement-fr: URL Mismatch https://interop.esante.gouv.fr/terminologies/CodeSystem/specimenType-supplement-fr vs https://smt.esante.gouv.fr/fhir/CodeSystem/specimenType-supplement-fr
 == DM/fsh-generated/resources/CodeSystem-substanceAdminSubstitution-supplement-fr.json ==
 ERROR: CodeSystem.where(url = 'https://smt.esante.gouv.fr/fhir/CodeSystem/substanceAdminSubstitution-supplement-fr'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-substanceAdminSubstitution-supplement-fr.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/substanceAdminSubstitution-supplement-fr) does not match the URL (https://smt.esante.gouv.fr/fhir/CodeSystem/substanceAdminSubstitution-supplement-fr). Use the special-url parameter if you really mean for it not to match
@@ -1308,6 +1279,10 @@ INFORMATION: CodeSystem/v3-ActPriority-supplement-fr: CodeSystem: Most code syst
 WARNING: CodeSystem/v3-ActPriority-supplement-fr: CodeSystem.concept[0]: HL7 Defined CodeSystems should ensure that every concept has a display
 WARNING: CodeSystem/v3-ActPriority-supplement-fr: CodeSystem.concept[0]: HL7 Defined CodeSystems should ensure that every concept has a definition
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-v3-ActPriority-supplement-fr: URL Mismatch https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-ActPriority-supplement-fr vs http://hl7.org/fhir/us/example/CodeSystem/v3-ActPriority-supplement-fr
+== DM/fsh-generated/resources/CodeSystem-v3-SpecimenType-supplement-fr.json ==
+ERROR: CodeSystem.where(url = 'https://smt.esante.gouv.fr/fhir/CodeSystem/v3-SpecimenType-supplement-fr'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-v3-SpecimenType-supplement-fr.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-SpecimenType-supplement-fr) does not match the URL (https://smt.esante.gouv.fr/fhir/CodeSystem/v3-SpecimenType-supplement-fr). Use the special-url parameter if you really mean for it not to match
+INFORMATION: CodeSystem.supplements: Pinned the version of http://terminology.hl7.org/CodeSystem/v3-SpecimenType to 3.0.0 from choices of 2.1.1 (hl7.terminology.r4#5.0.0), 3.0.0 (hl7.terminology.r4#6.5.0)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-v3-SpecimenType-supplement-fr: URL Mismatch https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-SpecimenType-supplement-fr vs https://smt.esante.gouv.fr/fhir/CodeSystem/v3-SpecimenType-supplement-fr
 == DM/fsh-generated/resources/ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.json ==
 == DM/fsh-generated/resources/ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.json ==
 == DM/fsh-generated/resources/ConceptMap-ASS-A13-TypeEvenement-FluxStandardise.json ==
@@ -1792,6 +1767,17 @@ ERROR: ValueSet/jdv-hl7-v3-CoverageRoleType-cisis: ValueSet.compose.include[0].c
 INFORMATION: ValueSet/jdv-hl7-v3-CoverageRoleType-cisis: ValueSet.compose.include[0].concept[0]: Wrong Display Name 'Couverture familiale' for http://terminology.hl7.org/CodeSystem/v3-RoleCode#FAMDEP. Valid display is 'family dependent' (en) (for the language(s) 'en, en-US')
 ERROR: ValueSet/jdv-hl7-v3-CoverageRoleType-cisis: ValueSet.compose.include[0].concept[1]: The code 'STUD' is not valid in the system http://terminology.hl7.org/CodeSystem/v3-RoleCode (Wrong Display Name 'Couverture étudiante' for http://terminology.hl7.org/CodeSystem/v3-RoleCode#STUD. Valid display is 'student' (en) (for the language(s) 'en, en-US'))
 ERROR: ValueSet/jdv-hl7-v3-CoverageRoleType-cisis: ValueSet.compose.include[0].concept[2]: The code 'SELF' is not valid in the system http://terminology.hl7.org/CodeSystem/v3-RoleCode (Wrong Display Name 'Couverture personnelle' for http://terminology.hl7.org/CodeSystem/v3-RoleCode#SELF. Valid display is 'self' (en) (for the language(s) 'en, en-US'))
+== input/ontoserver/JDV/DaysOfWeek_jdv-hl7-days-of-week.json ==
+ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-days-of-week'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/DaysOfWeek_jdv-hl7-days-of-week.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-hl7-days-of-week) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-days-of-week). Use the special-url parameter if you really mean for it not to match
+ERROR: ValueSet/jdv-hl7-days-of-week: ValueSet.compose.include[0].concept[0]: The code 'mon' is not valid in the system http://hl7.org/fhir/days-of-week (Wrong Display Name 'lundi' for http://hl7.org/fhir/days-of-week#mon. Valid display is 'Monday' (for the language(s) 'en, en-US'))
+INFORMATION: ValueSet/jdv-hl7-days-of-week: ValueSet.compose.include[0].concept[0]: Wrong Display Name 'lundi' for http://hl7.org/fhir/days-of-week#mon. Valid display is 'Monday' (for the language(s) 'en, en-US')
+ERROR: ValueSet/jdv-hl7-days-of-week: ValueSet.compose.include[0].concept[1]: The code 'tue' is not valid in the system http://hl7.org/fhir/days-of-week (Wrong Display Name 'mardi' for http://hl7.org/fhir/days-of-week#tue. Valid display is 'Tuesday' (for the language(s) 'en, en-US'))
+ERROR: ValueSet/jdv-hl7-days-of-week: ValueSet.compose.include[0].concept[2]: The code 'wed' is not valid in the system http://hl7.org/fhir/days-of-week (Wrong Display Name 'mercredi' for http://hl7.org/fhir/days-of-week#wed. Valid display is 'Wednesday' (for the language(s) 'en, en-US'))
+ERROR: ValueSet/jdv-hl7-days-of-week: ValueSet.compose.include[0].concept[3]: The code 'thu' is not valid in the system http://hl7.org/fhir/days-of-week (Wrong Display Name 'jeudi' for http://hl7.org/fhir/days-of-week#thu. Valid display is 'Thursday' (for the language(s) 'en, en-US'))
+ERROR: ValueSet/jdv-hl7-days-of-week: ValueSet.compose.include[0].concept[4]: The code 'fri' is not valid in the system http://hl7.org/fhir/days-of-week (Wrong Display Name 'vendredi' for http://hl7.org/fhir/days-of-week#fri. Valid display is 'Friday' (for the language(s) 'en, en-US'))
+ERROR: ValueSet/jdv-hl7-days-of-week: ValueSet.compose.include[0].concept[5]: The code 'sat' is not valid in the system http://hl7.org/fhir/days-of-week (Wrong Display Name 'samedi' for http://hl7.org/fhir/days-of-week#sat. Valid display is 'Saturday' (for the language(s) 'en, en-US'))
+ERROR: ValueSet/jdv-hl7-days-of-week: ValueSet.compose.include[0].concept[6]: The code 'sun' is not valid in the system http://hl7.org/fhir/days-of-week (Wrong Display Name 'dimanche' for http://hl7.org/fhir/days-of-week#sun. Valid display is 'Sunday' (for the language(s) 'en, en-US'))
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/DaysOfWeek_jdv-hl7-days-of-week: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-hl7-days-of-week vs https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-days-of-week
 == input/ontoserver/JDV/EmploymentStatusODH_jdv-hl7-v3-employmentStatusODH-cisis.json ==
 WARNING: ValueSet/jdv-hl7-v3-employmentStatusODH-cisis: ValueSet.compose.include[0]: There are multiple different potential matches for the url 'http://terminology.hl7.org/CodeSystem/v3-ObservationValue'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '4.0.0', found versions: 2.1.0, 4.0.0. Suggested fix: change the canonical reference from 'http://terminology.hl7.org/CodeSystem/v3-ObservationValue' to 'http://terminology.hl7.org/CodeSystem/v3-ObservationValue|4.0.0'
 ERROR: ValueSet/jdv-hl7-v3-employmentStatusODH-cisis: ValueSet.compose.include[0].concept[0]: The code 'Employed' is not valid in the system http://terminology.hl7.org/CodeSystem/v3-ObservationValue (Wrong Display Name 'En activité' for http://terminology.hl7.org/CodeSystem/v3-ObservationValue#Employed. Valid display is 'Employed' (en) (for the language(s) 'en, en-US'))
@@ -2499,8 +2485,8 @@ WARNING: ValueSet/JDV-J146-MethodBodyHeight-ENS: ValueSet.compose.include[0].sys
 INFORMATION: ValueSet/JDV-J146-MethodBodyHeight-ENS: ValueSet.compose.include[0].concept[0]: A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-ncit' could not be found, so the code cannot be validated
 INFORMATION: ValueSet/JDV-J146-MethodBodyHeight-ENS: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
 WARNING: ValueSet/JDV-J146-MethodBodyHeight-ENS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-ERROR: ValueSet.where(id = 'JDV-J146-MethodBodyHeight-ENS'): Error from https://smt.esante.gouv.fr/fhir: Error: [57912c29-cbca-4bbb-86f1-4b78ade0df62]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
-Information: X-Request-Id: e5b07bd1-8042-4b02-a022-f9eecfa6b5bd
+ERROR: ValueSet.where(id = 'JDV-J146-MethodBodyHeight-ENS'): Error from https://smt.esante.gouv.fr/fhir: Error: [a07985dc-6a15-4c62-8c09-6c9667d36a2d]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
+Information: X-Request-Id: a5f7d55b-da76-4dbf-890f-7b21ff2a8641
 == input/ontoserver/JDV/JDV_J147_MethodHeartrate_ENS_JDV-J147-MethodHeartrate-ENS.json ==
 INFORMATION: ValueSet/JDV-J147-MethodHeartrate-ENS: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
 WARNING: ValueSet/JDV-J147-MethodHeartrate-ENS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
@@ -3765,8 +3751,8 @@ WARNING: ValueSet/JDV-J50-AccessibiliteLieu-ROR: ValueSet: Published value sets 
 WARNING: ValueSet/JDV-J51-FamilleActiviteOperationnelle-ROR: ValueSet.compose.include[1].system: No definition could be found for URL value 'https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin'
 INFORMATION: ValueSet/JDV-J51-FamilleActiviteOperationnelle-ROR: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
 WARNING: ValueSet/JDV-J51-FamilleActiviteOperationnelle-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-ERROR: ValueSet.where(id = 'JDV-J51-FamilleActiviteOperationnelle-ROR'): Error from https://smt.esante.gouv.fr/fhir: Error: [69d96511-d528-485a-a169-a02a4b743daa]: A usable code system with URL https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin could not be resolved.
-Information: X-Request-Id: 0a80b1f2-def6-46b6-a79e-5ea1283a8aef
+ERROR: ValueSet.where(id = 'JDV-J51-FamilleActiviteOperationnelle-ROR'): Error from https://smt.esante.gouv.fr/fhir: Error: [7bdc167f-0110-477c-bed7-9e0e96d722b3]: A usable code system with URL https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin could not be resolved.
+Information: X-Request-Id: 0f99efa4-9558-4579-a2ad-c08255ea33b9
 == input/ontoserver/JDV/JDV_J52_AvailabilityStatus_CISIS_JDV-J52-AvailabilityStatus-CISIS.json ==
 WARNING: ValueSet/JDV-J52-AvailabilityStatus-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J53_TypeRequeteGestionDossier_CISIS_JDV-J53-TypeRequeteGestionDossier-CISIS.json ==
@@ -4297,7 +4283,7 @@ INFORMATION: ValueSet/jdv-classe-therapie-cisis: ValueSet.compose.include[0]: Th
 == input/ontoserver/JDV/JdvClassificationRingMessmerCisis_jdv-classification-ring-messmer-cisis.json ==
 == input/ontoserver/JDV/JdvClicheTechniquementInsuffisantCisis_jdv-cliche-techniquement-insuffisant-cisis.json ==
 == input/ontoserver/JDV/JdvCodeDocumentImagerieCisis_jdv-code-document-imagerie-cisis.json ==
-INFORMATION: ValueSet/jdv-code-document-imagerie-cisis: ValueSet.compose.include[0]: The value set include has too many concepts to validate (6,896), so each individual code has not been checked
+INFORMATION: ValueSet/jdv-code-document-imagerie-cisis: ValueSet.compose.include[0]: The value set include has too many concepts to validate (6,922), so each individual code has not been checked
 INFORMATION: ValueSet.where(id = 'jdv-code-document-imagerie-cisis'): The value set expansion is too large, and only a subset has been displayed
 == input/ontoserver/JDV/JdvCodeProblemeCisis_jdv-code-probleme-cisis.json ==
 INFORMATION: ValueSet/jdv-code-probleme-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
@@ -4352,8 +4338,8 @@ INFORMATION: ValueSet/jdv-date-consultation-cisis: ValueSet.compose.include[1]: 
 WARNING: ValueSet/jdv-defaillance-materielle-cisis: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://www.imdrf.org'
 INFORMATION: ValueSet/jdv-defaillance-materielle-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
 INFORMATION: ValueSet/jdv-defaillance-materielle-cisis: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
-ERROR: ValueSet.where(id = 'jdv-defaillance-materielle-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [6f93c07e-7315-4420-bb5f-647b4760e406]: A usable code system with URL https://www.imdrf.org could not be resolved.
-Information: X-Request-Id: 71161785-b593-4e80-be32-052d116ea06f
+ERROR: ValueSet.where(id = 'jdv-defaillance-materielle-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [babb0cba-d2dd-43c8-9e7b-6bcc0b936b21]: A usable code system with URL https://www.imdrf.org could not be resolved.
+Information: X-Request-Id: 6aab1e6b-56e8-4d41-8ff1-aec424bf42d2
 == input/ontoserver/JDV/JdvDeficiencePhysiqueCisis_jdv-deficience-physique-cisis.json ==
 INFORMATION: ValueSet/jdv-deficience-physique-cisis: ValueSet.compose.include[2]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvDelimitationActiviteCisis_jdv-delimitation-activite-cisis.json ==
@@ -4459,15 +4445,15 @@ INFORMATION: ValueSet/jdv-fluide-route-code-cisis: ValueSet.compose.include[0]: 
 == input/ontoserver/JDV/JdvFonctionEtudieeTepCisis_jdv-fonction-etudiee-tep-cisis.json ==
 == input/ontoserver/JDV/JdvGeneCisis_jdv-gene-cisis.json ==
 INFORMATION: ValueSet/jdv-gene-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
-ERROR: ValueSet.where(id = 'jdv-gene-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [d3c44297-ffd0-42b8-886b-a7ab39f3083f]: A usable code system with URL http://www.genenames.org/geneId could not be resolved.
-Information: X-Request-Id: a75ac539-0a51-4225-a5a3-228c232bccf6
+ERROR: ValueSet.where(id = 'jdv-gene-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [74345e13-fd71-4504-a92d-989307ddf74d]: A usable code system with URL http://www.genenames.org/geneId could not be resolved.
+Information: X-Request-Id: 0fb99c96-bdf4-4f77-bd92-d2949a4d71c9
 == input/ontoserver/JDV/JdvGesteReanimationNouveauNeCisis_jdv-geste-reanimation-nouveau-ne-cisis.json ==
 INFORMATION: ValueSet/jdv-geste-reanimation-nouveau-ne-cisis: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvGestionEffetSecondaireCisis_jdv-gestion-effet-secondaire-cisis.json ==
 WARNING: ValueSet/jdv-gestion-effet-secondaire-cisis: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-ncit'
 INFORMATION: ValueSet/jdv-gestion-effet-secondaire-cisis: ValueSet.compose.include[0].concept[0]: A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-ncit' could not be found, so the code cannot be validated
-ERROR: ValueSet.where(id = 'jdv-gestion-effet-secondaire-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [3bbdace6-d582-47b4-bc1c-9878544d86e4]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
-Information: X-Request-Id: d626fe96-0407-493f-9282-23c87d0e7103
+ERROR: ValueSet.where(id = 'jdv-gestion-effet-secondaire-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [e413f1bb-0fe7-40cb-9368-50931c72e3a5]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
+Information: X-Request-Id: 97a92611-30f6-4cd1-992e-a000bcaaf780
 == input/ontoserver/JDV/JdvGirCisis_jdv-gir-cisis.json ==
 == input/ontoserver/JDV/JdvGraviteCisis_jdv-gravite-cisis.json ==
 INFORMATION: ValueSet/jdv-gravite-cisis: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
@@ -4673,8 +4659,8 @@ ERROR: ValueSet/jdv-modalite-demande-acte-imagerie-cisis: ValueSet.compose.inclu
 ERROR: ValueSet/jdv-modalite-demande-acte-imagerie-cisis: ValueSet.compose.include[2].concept[3]: The code 'OT' is not valid in the system http://dicom.nema.org/resources/ontology/DCM (Wrong Display Name 'Autre technique d'imagerie' for http://dicom.nema.org/resources/ontology/DCM#OT. Valid display is 'Other Modality' (for the language(s) 'en, en-US'))
 ERROR: ValueSet/jdv-modalite-demande-acte-imagerie-cisis: ValueSet.compose.include[2].concept[4]: The code 'NM' is not valid in the system http://dicom.nema.org/resources/ontology/DCM (Wrong Display Name 'Scintigraphie' for http://dicom.nema.org/resources/ontology/DCM#NM. Valid display is 'Nuclear Medicine' (for the language(s) 'en, en-US'))
 ERROR: ValueSet/jdv-modalite-demande-acte-imagerie-cisis: ValueSet.compose.include[2].concept[5]: The code 'PT' is not valid in the system http://dicom.nema.org/resources/ontology/DCM (Wrong Display Name 'TEP : Tomographie par émission de positons' for http://dicom.nema.org/resources/ontology/DCM#PT. Valid display is 'Positron emission tomography' (for the language(s) 'en, en-US'))
-ERROR: ValueSet.where(id = 'jdv-modalite-demande-acte-imagerie-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [ca30aecd-2639-488a-8af7-d0e3def1ae6b]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
-Information: X-Request-Id: 1fe0aee4-91a9-48ef-b9f2-d2d2fab09bce
+ERROR: ValueSet.where(id = 'jdv-modalite-demande-acte-imagerie-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [13fc661a-0a80-48b6-8e43-27795afe0e3a]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
+Information: X-Request-Id: 8c8ce5d6-8741-4a5b-9625-c34334968cf0
 == input/ontoserver/JDV/JdvModaliteEntreeCisis_jdv-modalite-entree-cisis.json ==
 INFORMATION: ValueSet/jdv-modalite-entree-cisis: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvModaliteSortieCisis_jdv-modalite-sortie-cisis.json ==
@@ -4759,8 +4745,6 @@ INFORMATION: ValueSet/jdv-obp-resultat-evenement-cisis: ValueSet.compose.include
 INFORMATION: ValueSet/jdv-obp-test-audition-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvObservationEnfantCisis_jdv-observation-enfant-cisis.json ==
 INFORMATION: ValueSet/jdv-observation-enfant-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
-ERROR: ValueSet/jdv-observation-enfant-cisis: ValueSet.compose.include[1].concept[0]: The code '107724000' is not valid in the system http://snomed.info/sct (Wrong Display Name 'transfert du patient' for http://snomed.info/sct#107724000. Valid display is one of 7 choices: ['Transfer care' (en), 'Patient transfer (procedure)' (en), 'Patient transfer' (en-x-sctlang-90000000-00005090-07), 'Transfer of patient' (en), 'Patient transfer' (en), 'Patient transfer' (en-x-sctlang-90000000-00005080-04), 'Transfer of patient procedure' (en)] (for the language(s) 'fr'))
-INFORMATION: ValueSet/jdv-observation-enfant-cisis: ValueSet.compose.include[1].concept[0]: Wrong Display Name 'transfert du patient' for http://snomed.info/sct#107724000. Valid display is one of 7 choices: ['Transfer care' (en), 'Patient transfer (procedure)' (en), 'Patient transfer' (en-x-sctlang-90000000-00005090-07), 'Transfer of patient' (en), 'Patient transfer' (en), 'Patient transfer' (en-x-sctlang-90000000-00005080-04), 'Transfer of patient procedure' (en)] (for the language(s) 'fr')
 == input/ontoserver/JDV/JdvObservationEtatPatientCisis_jdv-observation-etat-patient-cisis.json ==
 INFORMATION: ValueSet/jdv-observation-etat-patient-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvObservationGrossesseCisis_jdv-observation-grossesse-cisis.json ==
@@ -5279,9 +5263,9 @@ ERROR: ValueSet/jdv-specimen-type-cisis: ValueSet.compose.include[1].concept[308
 ERROR: ValueSet/jdv-specimen-type-cisis: ValueSet.compose.include[1].concept[309]: The code 'WWT' is not valid in the system http://terminology.hl7.org/CodeSystem/v2-0487 (Wrong Display Name 'Eau (robinet)' for http://terminology.hl7.org/CodeSystem/v2-0487#WWT. Valid display is 'Environmental, Water  (Tap)' (for the language(s) 'en, en-US'))
 == input/ontoserver/JDV/JdvStaticSemProcedureCisis_jdv-static-sem-procedure-cisis.json ==
 ERROR: ValueSet/jdv-static-sem-procedure-cisis: ValueSet.compose.include[0].concept[0]: The code 'JQQP003' is not valid in the system https://smt.esante.gouv.fr/terminologie-ccam (Error from https://smt.esante.gouv.fr/fhir: Error: NullPointerException
-Information: X-Request-Id: 0f1905b7-bd4b-454e-be92-4c4036cca825)
+Information: X-Request-Id: 9e56bc1b-9a89-482d-8dc9-6808148caf27)
 INFORMATION: ValueSet/jdv-static-sem-procedure-cisis: ValueSet.compose.include[0].concept[0]: Error from https://smt.esante.gouv.fr/fhir: Error: NullPointerException
-Information: X-Request-Id: 0f1905b7-bd4b-454e-be92-4c4036cca825
+Information: X-Request-Id: 9e56bc1b-9a89-482d-8dc9-6808148caf27
 == input/ontoserver/JDV/JdvStatutActuelDiagnosticCisis_jdv-statut-actuel-diagnostic-cisis.json ==
 INFORMATION: ValueSet/jdv-statut-actuel-diagnostic-cisis: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvStatutCasPresenteCisis_jdv-statut-cas-presente-cisis.json ==
@@ -5332,8 +5316,8 @@ INFORMATION: ValueSet/jdv-traitement-preventif-cisis: ValueSet.compose.include[0
 == input/ontoserver/JDV/JdvTraitementSoinsFrcpCisis_jdv-traitement-soins-frcp-cisis.json ==
 WARNING: ValueSet/jdv-traitement-soins-frcp-cisis: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-ncit'
 INFORMATION: ValueSet/jdv-traitement-soins-frcp-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
-ERROR: ValueSet.where(id = 'jdv-traitement-soins-frcp-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [23125b89-f1da-4ea6-a529-0e0c2a3de754]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
-Information: X-Request-Id: 4d204c13-d758-4ad8-9118-ae317c435ad2
+ERROR: ValueSet.where(id = 'jdv-traitement-soins-frcp-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [29373ffe-a8b8-4ebb-89e3-b34ecd14b6c8]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
+Information: X-Request-Id: dad32a48-198a-4e8a-bbfc-2521b0727bc6
 == input/ontoserver/JDV/JdvTraitementSuiviCisis_jdv-traitement-suivi-cisis.json ==
 == input/ontoserver/JDV/JdvTransfertMutationCisis_jdv-transfert-mutation-cisis.json ==
 INFORMATION: ValueSet/jdv-transfert-mutation-cisis: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
@@ -5342,8 +5326,8 @@ INFORMATION: ValueSet/jdv-trouble-visuel-cisis: ValueSet.compose.include[0]: The
 == input/ontoserver/JDV/JdvTrousseCcuCisis_jdv-trousse-ccu-cisis.json ==
 WARNING: ValueSet/jdv-trousse-ccu-cisis: ValueSet.compose.include[1].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-tccr'
 INFORMATION: ValueSet/jdv-trousse-ccu-cisis: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
-ERROR: ValueSet.where(id = 'jdv-trousse-ccu-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [0f0ab4f9-950e-4a6c-9b05-061b802b844d]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-tccr could not be resolved.
-Information: X-Request-Id: c5e81283-36db-4b0f-830f-dbb0a540db8e
+ERROR: ValueSet.where(id = 'jdv-trousse-ccu-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [a8bb1285-81f1-48ff-8240-e2dec6051496]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-tccr could not be resolved.
+Information: X-Request-Id: 1d50eae4-6462-4a19-963c-4ccdc0dc37bb
 == input/ontoserver/JDV/JdvTumeurCisis_jdv-tumeur-cisis.json ==
 INFORMATION: ValueSet/jdv-tumeur-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvTypeAccompagnementSocioproCisis_jdv-type-accompagnement-sociopro-cisis.json ==
@@ -5417,8 +5401,8 @@ INFORMATION: ValueSet/jdv-type-presentation-cisis: ValueSet.compose.include[1]: 
 == input/ontoserver/JDV/JdvTypeProduitSanguinLabileCisis_jdv-type-produit-sanguin-labile-cisis.json ==
 WARNING: ValueSet/jdv-type-produit-sanguin-labile-cisis: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-ncit'
 INFORMATION: ValueSet/jdv-type-produit-sanguin-labile-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
-ERROR: ValueSet.where(id = 'jdv-type-produit-sanguin-labile-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [d6b613a8-b201-4806-9fba-abe630d48650]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
-Information: X-Request-Id: d8720b19-814a-44e3-af62-54455936aecc
+ERROR: ValueSet.where(id = 'jdv-type-produit-sanguin-labile-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [1772ab27-4c94-466d-a0c1-2e1d1b73b4e5]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
+Information: X-Request-Id: af978c36-2179-4467-a2df-dcace447211e
 == input/ontoserver/JDV/JdvTypeRencontreCisis_jdv-type-rencontre-cisis.json ==
 == input/ontoserver/JDV/JdvTypeRencontreObpCisis_jdv-type-rencontre-obp-cisis.json ==
 == input/ontoserver/JDV/JdvTypeResultatCisis_jdv-type-resultat-cisis.json ==

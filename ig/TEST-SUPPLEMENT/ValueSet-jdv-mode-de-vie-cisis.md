@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mode-de-vie-cisis | *Version*:20250624152101 | |
-| Active as of 2025-06-24 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvModeDeVieCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mode-de-vie-cisis | *Version*:20251028115836 | |
+| Active as of 2025-10-28 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvModeDeVieCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.156 | | |
 
  
@@ -29,7 +29,7 @@ Requête sur le SMT
 
 ### Logical Definition (CLD)
 
-version: 4; Dernière mise à jour : 2025-06-25 09:14:57+0000; Langue : fr-FR
+version: 5; Dernière mise à jour : 2025-10-29 10:44:13+0100; Langue : fr-FR
 
 Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
 
@@ -65,8 +65,8 @@ Ce jeu de valeur (ValueSet) contient 3 concepts
   "resourceType" : "ValueSet",
   "id" : "jdv-mode-de-vie-cisis",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2025-06-25T09:14:57.121+00:00",
+    "versionId" : "5",
+    "lastUpdated" : "2025-10-29T10:44:13.543+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -85,12 +85,12 @@ Ce jeu de valeur (ValueSet) contient 3 concepts
       "value" : "urn:oid:1.2.250.1.213.1.1.5.156"
     }
   ],
-  "version" : "20250624152101",
+  "version" : "20251028115836",
   "name" : "JdvModeDeVieCisis",
   "title" : "JDV Mode De Vie CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-06-24T15:21:01+01:00",
+  "date" : "2025-10-28T11:58:36+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Mode De Vie CISIS",
   "jurisdiction" : [

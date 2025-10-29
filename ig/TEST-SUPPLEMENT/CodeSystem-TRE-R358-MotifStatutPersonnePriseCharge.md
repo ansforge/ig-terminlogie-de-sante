@@ -15,7 +15,7 @@
  
 Motif du statut de la personne prise en charge 
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J250_MotifStatutPersonnePriseChargeUnite](ValueSet-JDV-J250-MotifStatutPersonnePriseChargeUnite.md)
 * [JDV_J251_MotifStatutPersonnePriseChargeESMS](ValueSet-JDV-J251-MotifStatutPersonnePriseChargeESMS.md)

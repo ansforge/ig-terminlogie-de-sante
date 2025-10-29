@@ -10,7 +10,7 @@
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2025-10-29T09:26:27+00:00",
+  "date" : "2025-10-29T12:44:38+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -24857,6 +24857,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-hl7-days-of-week"
+      },
+      "name" : "DaysOfWeek",
+      "description" : "DaysOfWeek",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-hl7-v3-employmentStatusODH-cisis"
       },
       "name" : "EmploymentStatusODH",
@@ -36816,6 +36828,18 @@
       },
       "name" : "v3ActPrioritySupplementFr",
       "description" : "Traduction Francaise",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/v3-SpecimenType-supplement-fr"
+      },
+      "name" : "V3SpecimenTypeSupplementFr",
+      "description" : "Traduction Française",
       "exampleBoolean" : false
     },
     {

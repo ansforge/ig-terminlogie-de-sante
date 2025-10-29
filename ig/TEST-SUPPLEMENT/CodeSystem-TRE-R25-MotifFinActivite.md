@@ -15,7 +15,7 @@
  
 Motif de fin d’activité 
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J169_MotifFinActivite_EPARS](ValueSet-JDV-J169-MotifFinActivite-EPARS.md)
 * [JDV_J92_MotifFinActivite_RASS](ValueSet-JDV-J92-MotifFinActivite-RASS.md)

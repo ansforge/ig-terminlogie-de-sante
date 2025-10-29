@@ -16,7 +16,7 @@
  
 La classification ATC (anatomique, thérapeutique et chimique) classe les substances actives dans différents groupes selon l’organe ou le système sur lequel ils agissent et selon leurs propriétés thérapeutiques, pharmacologiques et chimiques. 
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JdvAllergieVaccinCisis](ValueSet-jdv-allergie-vaccin-cisis.md)
 * [JdvClasseTherapieCisis](ValueSet-jdv-classe-therapie-cisis.md)

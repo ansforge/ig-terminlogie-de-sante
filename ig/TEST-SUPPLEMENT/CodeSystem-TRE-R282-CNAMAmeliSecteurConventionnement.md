@@ -15,7 +15,7 @@
  
 Secteur de conventionnement du professionnel libéral par la CNAM extracts ameli 
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J130_CNAMAmeliSecteurConventionnement_RASS](ValueSet-JDV-J130-CNAMAmeliSecteurConventionnement-RASS.md)
 * [JDV_J218_CNAMAmeliSecteurConventionnement_ROR](ValueSet-JDV-J218-CNAMAmeliSecteurConventionnement-ROR.md)

@@ -15,7 +15,7 @@
  
 Permet d’indiquer le type de crise qui permet de mobiliser le nombre de lits supplémentaires décrits 
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J194_TypeCrise_ROR](ValueSet-JDV-J194-TypeCrise-ROR.md)
 

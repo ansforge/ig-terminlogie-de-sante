@@ -15,7 +15,7 @@
  
 Rôles fonctionnels HL7 
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J265_RoleMembreCercleDeSoins_CISIS](ValueSet-JDV-J265-RoleMembreCercleDeSoins-CISIS.md)
 * [JDV_J47_FunctionCode_CISIS](ValueSet-JDV-J47-FunctionCode-CISIS.md)

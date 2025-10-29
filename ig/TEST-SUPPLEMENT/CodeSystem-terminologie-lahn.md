@@ -16,7 +16,7 @@
  
 La liste des actes innovants hors nomenclature (LAHN) a été mise en place par la direction générale de l’offre de soins (DGOS) en 2024, dans le cadre du développement de l’innovation en santé. Elle est la fusion du RIHN et de la Liste Complémentaire (LC). L’objectif est de soutenir l’innovation et de la dynamiser par une prise en charge et une évaluation rapide des actes innovants. La LAHN contient une liste d’actes innovants (biologie et anatomocytopathologie) pris en charge à titre transitoire moyennant un recueil de données pour leur évaluation. 
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * Cette terminologie de référence (CodeSystem) nest pas utilisée ici; elle peut être utilisée ailleurs (par exemple spécifications et/ou implémentations qui utilisent ce contenu)
 

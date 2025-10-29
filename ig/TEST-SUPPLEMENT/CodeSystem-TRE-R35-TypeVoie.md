@@ -15,7 +15,7 @@
  
 Type de voie 
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J103_TypeVoie_RASS](ValueSet-JDV-J103-TypeVoie-RASS.md)
 * [JDV_J219_TypeVoie_ROR](ValueSet-JDV-J219-TypeVoie-ROR.md)

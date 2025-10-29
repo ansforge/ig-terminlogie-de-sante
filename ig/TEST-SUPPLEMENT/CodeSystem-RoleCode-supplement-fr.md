@@ -14,7 +14,7 @@
  
 Traduction Française 
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * Ce supplément de terminologie de référence (CodeSystem) nest pas utilisé ici; il peut être utilisé ailleurs (par exemple spécifications et/ou implémentations qui utilisent ce contenu)
 
@@ -153,19 +153,6 @@ This code system supplement `https://smt.esante.gouv.fr/fhir/CodeSystem/roleCode
             "code" : "preferredForLanguage"
           },
           "value" : "Tante"
-        }
-      ]
-    },
-    {
-      "code" : "BRO",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
-            "code" : "preferredForLanguage"
-          },
-          "value" : "Frère"
         }
       ]
     },

@@ -16,7 +16,7 @@
  
 La Classification Internationale des Maladies (CIM) dans sa 11ème révision permet d’établir, partout dans le monde, les statistiques sanitaires. Fournissant un langage commun pour alimenter les dossiers patients électroniques, la CIM11 permet d’échanger des données médicales de manière cohérente et normalisée pour de nombreux cas d’usage (production de soins, coordination professionnelle, pilotage, et exploitation de données) 
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JdvCauseAccidentDomestiqueCisis](ValueSet-jdv-cause-accident-domestique-cisis.md)
 
@@ -67,7 +67,7 @@ This code system `https://smt.esante.gouv.fr/terminologie-cim11-mms` defines cod
   "title" : "Classification internationale des maladies et des problèmes de santé connexes - 11ème révision",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-10-29T09:26:27+00:00",
+  "date" : "2025-10-29T12:44:38+00:00",
   "publisher" : "Agence du numérique en santé",
   "description" : "La Classification Internationale des Maladies (CIM) dans sa 11ème révision permet d’établir, partout dans le monde, les statistiques sanitaires. Fournissant un langage commun pour alimenter les dossiers patients électroniques, la CIM11 permet d’échanger des données médicales de manière cohérente et normalisée pour de nombreux cas d’usage (production de soins, coordination professionnelle, pilotage, et exploitation de données)",
   "jurisdiction" : [

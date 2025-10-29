@@ -15,7 +15,7 @@
  
 Rôle de la personne point de contact auprès d’une autre personne repris de la terminologie HL7 v3 RoleClass (https://www.hl7.org/fhir/v3/RoleClass/cs.html) 
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J141_RoleClass_CISIS](ValueSet-JDV-J141-RoleClass-CISIS.md)
 * [JDV_J265_RoleMembreCercleDeSoins_CISIS](ValueSet-JDV-J265-RoleMembreCercleDeSoins-CISIS.md)

@@ -15,7 +15,7 @@
  
 Classe de document 
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J06_XdsClassCode_CISIS](ValueSet-JDV-J06-XdsClassCode-CISIS.md)
 * [JDV_J57_ClassCode_DMP](ValueSet-JDV-J57-ClassCode-DMP.md)

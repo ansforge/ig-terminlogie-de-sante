@@ -15,7 +15,7 @@
  
 Type de maternité 
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J227_NiveauExpertise_ROR](ValueSet-JDV-J227-NiveauExpertise-ROR.md)
 * [JDV_J42_TypeMaternite_ROR](ValueSet-JDV-J42-TypeMaternite-ROR.md)

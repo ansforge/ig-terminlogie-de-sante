@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-glycemie-cisis | *Version*:20250624152059 | |
-| Active as of 2025-06-24 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvResultatDepistageGlycemieCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-glycemie-cisis | *Version*:20251028115831 | |
+| Active as of 2025-10-28 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvResultatDepistageGlycemieCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.768 | | |
 
  
@@ -29,7 +29,7 @@ Requête sur le SMT
 
 ### Logical Definition (CLD)
 
-version: 4; Dernière mise à jour : 2025-06-25 09:15:49+0000; Langue : fr-FR
+version: 5; Dernière mise à jour : 2025-10-29 10:44:35+0100; Langue : fr-FR
 
 Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
 
@@ -65,8 +65,8 @@ Ce jeu de valeur (ValueSet) contient 3 concepts
   "resourceType" : "ValueSet",
   "id" : "jdv-resultat-depistage-glycemie-cisis",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2025-06-25T09:15:49.164+00:00",
+    "versionId" : "5",
+    "lastUpdated" : "2025-10-29T10:44:35.859+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -85,12 +85,12 @@ Ce jeu de valeur (ValueSet) contient 3 concepts
       "value" : "urn:oid:1.2.250.1.213.1.1.5.768"
     }
   ],
-  "version" : "20250624152059",
+  "version" : "20251028115831",
   "name" : "JdvResultatDepistageGlycemieCisis",
   "title" : "JDV Resultat Depistage Glycemie CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-06-24T15:20:59+01:00",
+  "date" : "2025-10-28T11:58:31+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Resultat Depistage Glycemie CISIS",
   "jurisdiction" : [

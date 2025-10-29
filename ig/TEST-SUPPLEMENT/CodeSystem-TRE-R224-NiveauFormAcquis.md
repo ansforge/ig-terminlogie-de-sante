@@ -15,7 +15,7 @@
  
 Niveaux de formation acquis dans le cycle de formation des étudiants 
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J87_NiveauFormAcquis_RASS](ValueSet-JDV-J87-NiveauFormAcquis-RASS.md)
 

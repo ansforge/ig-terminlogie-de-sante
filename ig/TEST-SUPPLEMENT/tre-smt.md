@@ -35,6 +35,7 @@ Vous trouverez ici la liste des terminologies au format FHIR publiée par le SMT
 | [SpecimenTypeSupplementFr](CodeSystem-specimenType-supplement-fr.md) | Traduction Française | 24/10/2025 |
 | [SubstanceAdminSubstitutionSupplementFr](CodeSystem-substanceAdminSubstitution-supplement-fr.md) | Traduction Française | 24/10/2025 |
 | [V3ActPrioritySupplementFr](CodeSystem-v3-ActPriority-supplement-fr.md) | Traduction Francaise | 24/10/2025 |
+| [V3SpecimenTypeSupplementFr](CodeSystem-v3-SpecimenType-supplement-fr.md) | Traduction Française | 24/10/2025 |
 | [ATC](CodeSystem-terminologie-atc.md) | La classification ATC (anatomique, thérapeutique et chimique) classe les substances actives dans différents groupes selon l’organe ou le système sur lequel ils agissent et selon leurs propriétés thérapeutiques, pharmacologiques et chimiques. | 10/03/2025 |
 | [BDPM](CodeSystem-terminologie-bdpm.md) | LA BDPM est un des référentiels du médicament gérée et distribuée par l’ANSM. Elle recense l’ensemble des spécialités et des présentations effectivement commercialisées durant les 5 dernières années. De ce fait, elle ne propose pas un historique exhaustif des codes de présentation et spécialités, celui-ci peut être obtenu grâce à la base RCP disponible sur le site de l’ANSM | 01/10/2025 |
 | [CCAM](CodeSystem-terminologie-ccam.md) | La Classification Commune des Actes Médicaux est la terminologie de facturation créée et maintenue par la CNAM. | 10/09/2025 |

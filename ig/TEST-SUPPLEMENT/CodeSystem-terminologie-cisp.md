@@ -16,7 +16,7 @@
  
 La Classification internationale des soins primaires (CISP) est la version française de l’International Classification of Primary Care (ICPC). Elle permet de coder trois éléments de consultation de médecine générale : motifs de rencontre (du point de vue du patient), problèmes de santé diagnostiqués et procédures de soins.Elle trouve sa place au sein de la famille des classifications de l’OMS comme classification associée à la CIM (classification internationale des maladies), l’ICF (classification internationale du fonctionnement, du handicap et de la santé) et l’ICHI (classification internationale des interventions de santé). 
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * Cette terminologie de référence (CodeSystem) nest pas utilisée ici; elle peut être utilisée ailleurs (par exemple spécifications et/ou implémentations qui utilisent ce contenu)
 

@@ -79,7 +79,7 @@ Ce jeu de valeur (ValueSet) contient 84 concepts
   "title" : "Jdv Modele Document Cda",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-10-29T09:26:27+00:00",
+  "date" : "2025-10-29T12:44:38+00:00",
   "publisher" : "ANS",
   "contact" : [
     {

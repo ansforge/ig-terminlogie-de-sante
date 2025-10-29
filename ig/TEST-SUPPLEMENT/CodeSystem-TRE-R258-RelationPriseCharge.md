@@ -15,7 +15,7 @@
  
 Relation dans la prise en charge du patient 
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J47_FunctionCode_CISIS](ValueSet-JDV-J47-FunctionCode-CISIS.md)
 

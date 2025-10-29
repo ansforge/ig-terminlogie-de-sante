@@ -300,4 +300,5 @@ Les terminologies sont des nomenclatures officielles créées et maintenues :
 | [TreR393TypeContratSejour](CodeSystem-tre-r393-type-contrat-sejour.md) | Type de contrat conclu entre l’établissement/service et la personne/son représentant légal lors de son entrée en établissement | 21/05/2025 |
 | [TreR394CompetenceMetier](CodeSystem-tre-r394-competence-metier.md) | Type de savoir-faire opérationnel, transversal ou spécifique, acquis et exercé à titre non exclusif dans le cadre d’une activité professionnelle reconnue. | 25/06/2025 |
 | [V3ActPrioritySupplementFr](CodeSystem-v3-ActPriority-supplement-fr.md) | Traduction Francaise | 24/10/2025 |
+| [V3SpecimenTypeSupplementFr](CodeSystem-v3-SpecimenType-supplement-fr.md) | Traduction Française | 24/10/2025 |
 

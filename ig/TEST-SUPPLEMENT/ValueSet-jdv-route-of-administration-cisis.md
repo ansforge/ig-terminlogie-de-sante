@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-route-of-administration-cisis | *Version*:20250624152100 | |
-| Active as of 2025-06-24 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvRouteOfAdministrationCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-route-of-administration-cisis | *Version*:20251028115833 | |
+| Active as of 2025-10-28 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvRouteOfAdministrationCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.677 | | |
 
  
@@ -29,7 +29,7 @@ Requête sur le SMT
 
 ### Logical Definition (CLD)
 
-version: 3; Dernière mise à jour : 2025-06-25 09:15:56+0000; Langue : fr-FR
+version: 4; Dernière mise à jour : 2025-10-29 10:44:39+0100; Langue : fr-FR
 
 Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
 
@@ -65,8 +65,8 @@ Ce jeu de valeur (ValueSet) contient 83 concepts
   "resourceType" : "ValueSet",
   "id" : "jdv-route-of-administration-cisis",
   "meta" : {
-    "versionId" : "3",
-    "lastUpdated" : "2025-06-25T09:15:56.012+00:00",
+    "versionId" : "4",
+    "lastUpdated" : "2025-10-29T10:44:39.760+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -85,12 +85,12 @@ Ce jeu de valeur (ValueSet) contient 83 concepts
       "value" : "urn:oid:1.2.250.1.213.1.1.5.677"
     }
   ],
-  "version" : "20250624152100",
+  "version" : "20251028115833",
   "name" : "JdvRouteOfAdministrationCisis",
   "title" : "JDV Route Of Administration CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-06-24T15:21:00+01:00",
+  "date" : "2025-10-28T11:58:33+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Route Of Administration CISIS",
   "jurisdiction" : [

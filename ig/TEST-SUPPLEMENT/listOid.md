@@ -313,4 +313,5 @@ Les systèmes d'identification définis ici sont destinés à la commodité des 
 | TreR394CompetenceMetier | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r394-competence-metier | 1.2.250.1.213.1.6.1.375 |
 | UCUM | http://unitsofmeasure.org | 2.16.840.1.113883.6.8 |
 | V3ActPrioritySupplementFr | http://hl7.org/fhir/us/example/CodeSystem/v3-ActPriority-supplement-fr |  |
+| V3SpecimenTypeSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/v3-SpecimenType-supplement-fr |  |
 

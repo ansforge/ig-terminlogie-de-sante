@@ -82,15 +82,6 @@
                   longDesignation=""
                   shortDesignation=""
                   descriptionMetier=""/>
-         <Concept code="BRO"
-                  codeSystem=""
-                  dateFin=""
-                  dateMaj=""
-                  dateValid=""
-                  displayName=""
-                  longDesignation=""
-                  shortDesignation=""
-                  descriptionMetier=""/>
          <Concept code="BROINLAW"
                   codeSystem=""
                   dateFin=""

@@ -15,7 +15,7 @@
  
 Type de savoir-faire 
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J209_TypeSavoirFaire_ROR](ValueSet-JDV-J209-TypeSavoirFaire-ROR.md)
 * [JDV_J91_TypeSavoirFaire_RASS](ValueSet-JDV-J91-TypeSavoirFaire-RASS.md)

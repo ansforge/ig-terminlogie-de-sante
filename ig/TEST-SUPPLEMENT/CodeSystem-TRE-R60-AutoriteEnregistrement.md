@@ -15,7 +15,7 @@
  
 Autorité d’enregistrement 
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J170_AutoriteEnregistrement_EPARS](ValueSet-JDV-J170-AutoriteEnregistrement-EPARS.md)
 * [JDV_J83_AutoriteEnregistrement_RASS](ValueSet-JDV-J83-AutoriteEnregistrement-RASS.md)

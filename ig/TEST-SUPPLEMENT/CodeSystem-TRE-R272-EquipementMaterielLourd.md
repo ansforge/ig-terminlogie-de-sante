@@ -15,7 +15,7 @@
  
 Equipements Matériels Lourds 
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J135_EquipementMaterielLourd_RASS](ValueSet-JDV-J135-EquipementMaterielLourd-RASS.md)
 

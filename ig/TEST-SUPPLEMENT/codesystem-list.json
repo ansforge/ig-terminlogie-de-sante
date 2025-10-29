@@ -2515,6 +2515,14 @@
       "oids" : ["1.2.250.1.213.1.6.1.375"]
     },
     {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/v3-SpecimenType-supplement-fr",
+      "version" : "1.0",
+      "status" : "draft",
+      "name" : "V3SpecimenTypeSupplementFr",
+      "title" : "V3SpecimenTypeSupplementFr",
+      "description" : "Traduction Française"
+    },
+    {
       "url" : "https://smt.esante.gouv.fr/terminologie-SERAFINPH",
       "version" : "2023.1.0",
       "status" : "active",

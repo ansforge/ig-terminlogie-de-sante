@@ -16,7 +16,7 @@
  
 La Classification Commune des Actes Médicaux est la terminologie de facturation créée et maintenue par la CNAM. 
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JdvInvestigationRealiseeAunvCisis](ValueSet-jdv-investigation-realisee-aunv-cisis.md)
 * [JdvInvestigationRealiseeEunvCisis](ValueSet-jdv-investigation-realisee-eunv-cisis.md)

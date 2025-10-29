@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-rupture-membrane-ph-cisis | *Version*:20250624152059 | |
-| Active as of 2025-06-24 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvResultatDepistageRuptureMembranePhCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-rupture-membrane-ph-cisis | *Version*:20251028115832 | |
+| Active as of 2025-10-28 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvResultatDepistageRuptureMembranePhCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.772 | | |
 
  
@@ -29,7 +29,7 @@ Requête sur le SMT
 
 ### Logical Definition (CLD)
 
-version: 2; Dernière mise à jour : 2025-06-25 09:15:51+0000; Langue : fr-FR
+version: 3; Dernière mise à jour : 2025-10-29 10:44:37+0100; Langue : fr-FR
 
 Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
 
@@ -65,8 +65,8 @@ Ce jeu de valeur (ValueSet) contient 3 concepts
   "resourceType" : "ValueSet",
   "id" : "jdv-resultat-depistage-rupture-membrane-ph-cisis",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2025-06-25T09:15:51.169+00:00",
+    "versionId" : "3",
+    "lastUpdated" : "2025-10-29T10:44:37.538+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -85,12 +85,12 @@ Ce jeu de valeur (ValueSet) contient 3 concepts
       "value" : "urn:oid:1.2.250.1.213.1.1.5.772"
     }
   ],
-  "version" : "20250624152059",
+  "version" : "20251028115832",
   "name" : "JdvResultatDepistageRuptureMembranePhCisis",
   "title" : "JDV Resultat Depistage Rupture Membrane Ph CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-06-24T15:20:59+01:00",
+  "date" : "2025-10-28T11:58:32+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Resultat Depistage Rupture Membrane Ph CISIS",
   "jurisdiction" : [
@@ -118,7 +118,7 @@ Ce jeu de valeur (ValueSet) contient 3 concepts
           },
           {
             "code" : "373068000",
-            "display" : "indéterminé(e)"
+            "display" : "non déterminé(e)"
           }
         ]
       }

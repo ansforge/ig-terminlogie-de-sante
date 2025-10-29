@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-localisation-infarctus-cerebral-cisis | *Version*:20250624152100 | |
-| Active as of 2025-06-24 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvLocalisationInfarctusCerebralCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-localisation-infarctus-cerebral-cisis | *Version*:20251028115832 | |
+| Active as of 2025-10-28 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvLocalisationInfarctusCerebralCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.205 | | |
 
  
@@ -29,7 +29,7 @@ Requête sur le SMT
 
 ### Logical Definition (CLD)
 
-version: 3; Dernière mise à jour : 2025-06-25 09:14:44+0000; Langue : fr-FR
+version: 4; Dernière mise à jour : 2025-10-29 10:44:10+0100; Langue : fr-FR
 
 Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
 
@@ -65,8 +65,8 @@ Ce jeu de valeur (ValueSet) contient 6 concepts
   "resourceType" : "ValueSet",
   "id" : "jdv-localisation-infarctus-cerebral-cisis",
   "meta" : {
-    "versionId" : "3",
-    "lastUpdated" : "2025-06-25T09:14:44.879+00:00",
+    "versionId" : "4",
+    "lastUpdated" : "2025-10-29T10:44:10.305+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -85,12 +85,12 @@ Ce jeu de valeur (ValueSet) contient 6 concepts
       "value" : "urn:oid:1.2.250.1.213.1.1.5.205"
     }
   ],
-  "version" : "20250624152100",
+  "version" : "20251028115832",
   "name" : "JdvLocalisationInfarctusCerebralCisis",
   "title" : "JDV Localisation Infarctus Cerebral CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-06-24T15:21:00+01:00",
+  "date" : "2025-10-28T11:58:32+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Localisation Infarctus Cerebral CISIS",
   "jurisdiction" : [
@@ -110,7 +110,7 @@ Ce jeu de valeur (ValueSet) contient 6 concepts
         "concept" : [
           {
             "code" : "60176003",
-            "display" : "artère cérébrale antérieure"
+            "display" : "ACA - artère cérébrale antérieure"
           },
           {
             "code" : "55438003",
@@ -122,7 +122,7 @@ Ce jeu de valeur (ValueSet) contient 6 concepts
           },
           {
             "code" : "50974003",
-            "display" : "jonctionnel"
+            "display" : "jonctionnel(le)"
           },
           {
             "code" : "15926001",

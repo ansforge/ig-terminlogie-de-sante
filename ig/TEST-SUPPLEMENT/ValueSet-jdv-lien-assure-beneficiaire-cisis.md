@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-lien-assure-beneficiaire-cisis | *Version*:20250624152100 | |
-| Active as of 2025-06-24 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvLienAssureBeneficiaireCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-lien-assure-beneficiaire-cisis | *Version*:20251028115834 | |
+| Active as of 2025-10-28 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvLienAssureBeneficiaireCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.126 | | |
 
  
@@ -29,7 +29,7 @@ Requête sur le SMT
 
 ### Logical Definition (CLD)
 
-version: 4; Dernière mise à jour : 2025-06-25 09:14:40+0000; Langue : fr-FR
+version: 5; Dernière mise à jour : 2025-10-29 10:44:08+0100; Langue : fr-FR
 
 Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
 
@@ -63,8 +63,8 @@ Ce jeu de valeur (ValueSet) contient 3 concepts
   "resourceType" : "ValueSet",
   "id" : "jdv-lien-assure-beneficiaire-cisis",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2025-06-25T09:14:40.328+00:00",
+    "versionId" : "5",
+    "lastUpdated" : "2025-10-29T10:44:08.169+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -83,12 +83,12 @@ Ce jeu de valeur (ValueSet) contient 3 concepts
       "value" : "urn:oid:1.2.250.1.213.1.1.5.126"
     }
   ],
-  "version" : "20250624152100",
+  "version" : "20251028115834",
   "name" : "JdvLienAssureBeneficiaireCisis",
   "title" : "JDV Lien Assure Beneficiaire CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-06-24T15:21:00+01:00",
+  "date" : "2025-10-28T11:58:34+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Lien Assure Beneficiaire CISIS",
   "jurisdiction" : [

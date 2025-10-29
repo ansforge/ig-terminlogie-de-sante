@@ -15,7 +15,7 @@
  
 Classe d’âge 
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J15_ClasseAge_ROR](ValueSet-JDV-J15-ClasseAge-ROR.md)
 

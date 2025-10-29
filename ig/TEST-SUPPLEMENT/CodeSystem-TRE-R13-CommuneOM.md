@@ -12,7 +12,7 @@
 | Active as of 2024-06-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R13_CommuneOM |
 | *Other Identifiers:*OID:1.2.250.1.213.2.23 | | |
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J120_CommuneHistorisee](ValueSet-JDV-J120-CommuneHistorisee.md)
 * [JDV_J124_Commune](ValueSet-JDV-J124-Commune.md)

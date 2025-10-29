@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-sop-class-cisis | *Version*:20250624152100 | |
-| Active as of 2025-06-24 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvSopClassCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-sop-class-cisis | *Version*:20251028115832 | |
+| Active as of 2025-10-28 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvSopClassCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.689 | | |
 
  
@@ -29,7 +29,7 @@ Requête sur le SMT
 
 ### Logical Definition (CLD)
 
-version: 4; Dernière mise à jour : 2025-06-25 09:16:07+0000; Langue : fr-FR
+version: 5; Dernière mise à jour : 2025-10-29 10:44:47+0100; Langue : fr-FR
 
 Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
 
@@ -63,8 +63,8 @@ No Expansion for this valueset (Unknown Code System)
   "resourceType" : "ValueSet",
   "id" : "jdv-sop-class-cisis",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2025-06-25T09:16:07.834+00:00",
+    "versionId" : "5",
+    "lastUpdated" : "2025-10-29T10:44:47.649+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -83,12 +83,12 @@ No Expansion for this valueset (Unknown Code System)
       "value" : "urn:oid:1.2.250.1.213.1.1.5.689"
     }
   ],
-  "version" : "20250624152100",
+  "version" : "20251028115832",
   "name" : "JdvSopClassCisis",
   "title" : "JDV Sop Class CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-06-24T15:21:00+01:00",
+  "date" : "2025-10-28T11:58:32+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Sop Class CISIS",
   "jurisdiction" : [

@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-dispositif-oculaire-cisis | *Version*:20250624152100 | |
-| Active as of 2025-06-24 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvTypeDispositifOculaireCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-dispositif-oculaire-cisis | *Version*:20251028115833 | |
+| Active as of 2025-10-28 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvTypeDispositifOculaireCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.716 | | |
 
  
@@ -29,7 +29,7 @@ Requête sur le SMT
 
 ### Logical Definition (CLD)
 
-version: 3; Dernière mise à jour : 2025-06-25 09:16:46+0000; Langue : fr-FR
+version: 4; Dernière mise à jour : 2025-10-29 10:45:04+0100; Langue : fr-FR
 
 Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
 
@@ -65,8 +65,8 @@ Ce jeu de valeur (ValueSet) contient 2 concepts
   "resourceType" : "ValueSet",
   "id" : "jdv-type-dispositif-oculaire-cisis",
   "meta" : {
-    "versionId" : "3",
-    "lastUpdated" : "2025-06-25T09:16:46.933+00:00",
+    "versionId" : "4",
+    "lastUpdated" : "2025-10-29T10:45:04.923+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -85,12 +85,12 @@ Ce jeu de valeur (ValueSet) contient 2 concepts
       "value" : "urn:oid:1.2.250.1.213.1.1.5.716"
     }
   ],
-  "version" : "20250624152100",
+  "version" : "20251028115833",
   "name" : "JdvTypeDispositifOculaireCisis",
   "title" : "JDV Type Dispositif Oculaire CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-06-24T15:21:00+01:00",
+  "date" : "2025-10-28T11:58:33+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Type Dispositif Oculaire CISIS",
   "jurisdiction" : [
@@ -114,7 +114,7 @@ Ce jeu de valeur (ValueSet) contient 2 concepts
           },
           {
             "code" : "57368009",
-            "display" : "lentille de contact"
+            "display" : "lentilles de contact"
           }
         ]
       }

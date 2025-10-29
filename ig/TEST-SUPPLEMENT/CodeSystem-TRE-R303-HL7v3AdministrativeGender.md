@@ -15,7 +15,7 @@
  
 Sexe d’une personne utilisée à des fins administratives (par opposition au sexe clinique) repris de la terminologie HL7 v3 AdministrativeGender (https://www.hl7.org/fhir/v3/AdministrativeGender/cs.html) 
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J143_AdministrativeGender_CISIS](ValueSet-JDV-J143-AdministrativeGender-CISIS.md)
 * [JDV_J148_ReferenceRangeAppliesTo_CISIS](ValueSet-JDV-J148-ReferenceRangeAppliesTo-CISIS.md)

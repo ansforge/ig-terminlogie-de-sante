@@ -15,7 +15,7 @@
  
 Types d’identifiants utilisés dans la métadonnée XDS referenceIdList de la fiche du document. Ces types d’identifiants sont spécifiés dans une terminologie incluse dans le profil XDS dans le Cadre Technique d’IHE IT Infrastructure. 
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J197_XdsTypesIdentifiantsReferenceId_CISIS](ValueSet-JDV-J197-XdsTypesIdentifiantsReferenceId-CISIS.md)
 * [JDV_J231_XdsTypesIdentifiantsReferenceId_DMP](ValueSet-JDV-J231-XdsTypesIdentifiantsReferenceId-DMP.md)
