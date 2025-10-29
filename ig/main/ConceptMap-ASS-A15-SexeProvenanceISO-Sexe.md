@@ -15,22 +15,22 @@
  
 Correspondance codes TRE_R267-SexeProvenanceISO / codes TRE_R249-Sexe 
 
-Mapping from (non spécifié) to (non spécifié)
+Mapping de (non spécifié) vers (non spécifié)
 
-**Group 1**Mapping from [TRE_R267_SexeProvenanceISO](CodeSystem-TRE-R267-SexeProvenanceISO.md) to [TRE_R249_Sexe](CodeSystem-TRE-R249-Sexe.md)
+**Groupe 1**Mapping de [TRE_R267_SexeProvenanceISO](CodeSystem-TRE-R267-SexeProvenanceISO.md) to [TRE_R249_Sexe](CodeSystem-TRE-R249-Sexe.md)
 
-* **Source Code**: 0 (Inconnu)
+* **Code source**: 0 (Inconnu)
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
-  * **Target Code**: UN (Inconnu)
-* **Source Code**: 1 (Masculin)
+  * **Code cible**: UN (Inconnu)
+* **Code source**: 1 (Masculin)
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
-  * **Target Code**: M (Masculin)
-* **Source Code**: 2 (Féminin)
+  * **Code cible**: M (Masculin)
+* **Code source**: 2 (Féminin)
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
-  * **Target Code**: F (Féminin)
-* **Source Code**: 9 (Autre (sexe ni masculin, ni féminin))
+  * **Code cible**: F (Féminin)
+* **Code source**: 9 (Autre (sexe ni masculin, ni féminin))
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
-  * **Target Code**: O (Autre sexe (ni masculin, ni féminin))
+  * **Code cible**: O (Autre sexe (ni masculin, ni féminin))
 
 
 

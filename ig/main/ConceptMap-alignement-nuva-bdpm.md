@@ -14,9 +14,9 @@
 
 version: 14; Dernière mise à jour : 2025-10-16 09:36:23+0200
 
-Tag: Resource encoded in summary mode (Details: ObservationValue code SUBSETTED = 'Resource encoded in summary mode')
+Tag: Resource encoded in summary mode (Détails : code ObservationValue SUBSETTED = 'Resource encoded in summary mode')
 
-Mapping from [ValueSet_NUVA_All](ValueSet-vs-nuva-all.md) to [ValueSet_BDPM_All](ValueSet-vs-bdpm-all.md)
+Mapping de [ValueSet_NUVA_All](ValueSet-vs-nuva-all.md) vers [ValueSet_BDPM_All](ValueSet-vs-bdpm-all.md)
 
 
 

@@ -13,7 +13,7 @@
 
 version: 1; Dernière mise à jour : 2025-07-23 08:49:50+0000
 
-Tag: Resource encoded in summary mode (Details: ObservationValue code SUBSETTED = 'Resource encoded in summary mode')
+Tag: Resource encoded in summary mode (Détails : code ObservationValue SUBSETTED = 'Resource encoded in summary mode')
 
 ### Résumé
 
@@ -22,7 +22,7 @@ Tag: Resource encoded in summary mode (Details: ObservationValue code SUBSETTED 
 | Defining URL | https://interop.esante.gouv.fr/terminologies/NamingSystem/ADICAP |
 | Nom | ADICAP |
 | Statut | active |
-| Publisher | Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris |
+| Éditeur | Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris |
 
 ### Identifiants
 

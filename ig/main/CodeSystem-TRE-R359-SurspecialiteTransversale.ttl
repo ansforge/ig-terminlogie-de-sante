@@ -15,23 +15,32 @@
      fhir:lastUpdated [ fhir:v "2025-07-02T18:17:56.514+00:00"^^xsd:dateTime ] ;
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
+       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
      ] )
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem TRE-R359-SurspecialiteTransversale</b></p><a name=\"TRE-R359-SurspecialiteTransversale\"> </a><a name=\"hcTRE-R359-SurspecialiteTransversale\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 5; Dernière mise à jour : 2024-08-28 05:13:47+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://mos.esante.gouv.fr/NOS/TRE_R359-SurspecialiteTransversale/FHIR/TRE-R359-SurspecialiteTransversale</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>French (France) (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">SST01<a name=\"TRE-R359-SurspecialiteTransversale-SST01\"> </a></td><td>Addictologie</td><td>2023-10-30T12:00:00+01:00</td><td>2023-10-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SST02<a name=\"TRE-R359-SurspecialiteTransversale-SST02\"> </a></td><td>Bio-informatique médicale</td><td>2023-10-30T12:00:00+01:00</td><td>2024-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SST03<a name=\"TRE-R359-SurspecialiteTransversale-SST03\"> </a></td><td>Cancérologie déc. hémato-cancérologie pédiatrique</td><td>2023-10-30T12:00:00+01:00</td><td>2024-05-31T12:00:00+01:00</td><td>Cancéro hémato-cancéro pédiatr</td></tr><tr><td style=\"white-space:nowrap\">SST04<a name=\"TRE-R359-SurspecialiteTransversale-SST04\"> </a></td><td>Cancérologie traitements médicaux des cancers</td><td>2023-10-30T12:00:00+01:00</td><td>2024-05-31T12:00:00+01:00</td><td>Cancéro traitements médicaux</td></tr><tr><td style=\"white-space:nowrap\">SST05<a name=\"TRE-R359-SurspecialiteTransversale-SST05\"> </a></td><td>Cardiologie pédiatrique et congénitale</td><td>2023-10-30T12:00:00+01:00</td><td>2023-10-30T12:00:00+01:00</td><td>Cardio pédiatrique congénitale</td></tr><tr><td style=\"white-space:nowrap\">SST06<a name=\"TRE-R359-SurspecialiteTransversale-SST06\"> </a></td><td>Chirurgie de la main</td><td>2023-10-30T12:00:00+01:00</td><td>2023-10-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SST07<a name=\"TRE-R359-SurspecialiteTransversale-SST07\"> </a></td><td>Chirurgie en situation de guerre ou de catastrophe</td><td>2023-10-30T12:00:00+01:00</td><td>2024-05-31T12:00:00+01:00</td><td>Chir de guerre ou catastrophe</td></tr><tr><td style=\"white-space:nowrap\">SST08<a name=\"TRE-R359-SurspecialiteTransversale-SST08\"> </a></td><td>Chirurgie orbito-palpébro-lacrymale</td><td>2023-10-30T12:00:00+01:00</td><td>2024-05-31T12:00:00+01:00</td><td>Chir orbito-palpébro-lacrymale</td></tr><tr><td style=\"white-space:nowrap\">SST09<a name=\"TRE-R359-SurspecialiteTransversale-SST09\"> </a></td><td>Douleur</td><td>2023-10-30T12:00:00+01:00</td><td>2023-10-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SST10<a name=\"TRE-R359-SurspecialiteTransversale-SST10\"> </a></td><td>Expertise médicale-préjudice corporel</td><td>2023-10-30T12:00:00+01:00</td><td>2024-05-31T12:00:00+01:00</td><td>Expertise méd-préjudice corpo</td></tr><tr><td style=\"white-space:nowrap\">SST11<a name=\"TRE-R359-SurspecialiteTransversale-SST11\"> </a></td><td>Foetopathologie</td><td>2023-10-30T12:00:00+01:00</td><td>2023-10-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SST12<a name=\"TRE-R359-SurspecialiteTransversale-SST12\"> </a></td><td>Génétique et médecine moléculaire bioclinique</td><td>2023-10-30T12:00:00+01:00</td><td>2024-05-31T12:00:00+01:00</td><td>Gén et méd molécul bioclinique</td></tr><tr><td style=\"white-space:nowrap\">SST13<a name=\"TRE-R359-SurspecialiteTransversale-SST13\"> </a></td><td>Hématologie bioclinique</td><td>2023-10-30T12:00:00+01:00</td><td>2024-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SST14<a name=\"TRE-R359-SurspecialiteTransversale-SST14\"> </a></td><td>Hygiène-prévention de l'infection, résistances</td><td>2023-10-30T12:00:00+01:00</td><td>2024-05-31T12:00:00+01:00</td><td>Hyg-prév infection résistances</td></tr><tr><td style=\"white-space:nowrap\">SST15<a name=\"TRE-R359-SurspecialiteTransversale-SST15\"> </a></td><td>Maladies allergiques</td><td>2023-10-30T12:00:00+01:00</td><td>2023-10-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SST16<a name=\"TRE-R359-SurspecialiteTransversale-SST16\"> </a></td><td>Médecine hospitalière polyvalente</td><td>2023-10-30T12:00:00+01:00</td><td>2024-05-31T12:00:00+01:00</td><td>Médecine hospit polyvalente</td></tr><tr><td style=\"white-space:nowrap\">SST17<a name=\"TRE-R359-SurspecialiteTransversale-SST17\"> </a></td><td>Médecine palliative</td><td>2023-10-30T12:00:00+01:00</td><td>2023-10-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SST18<a name=\"TRE-R359-SurspecialiteTransversale-SST18\"> </a></td><td>Médecine scolaire</td><td>2023-10-30T12:00:00+01:00</td><td>2023-10-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SST19<a name=\"TRE-R359-SurspecialiteTransversale-SST19\"> </a></td><td>Médecine en situation de guerre ou en SSE</td><td>2023-10-30T12:00:00+01:00</td><td>2024-05-31T12:00:00+01:00</td><td>Médecine de guerre ou en SSE</td></tr><tr><td style=\"white-space:nowrap\">SST20<a name=\"TRE-R359-SurspecialiteTransversale-SST20\"> </a></td><td>Médecine et biologie de la reproduction-andrologie</td><td>2023-10-30T12:00:00+01:00</td><td>2024-05-31T12:00:00+01:00</td><td>Méd biologie repro-andrologie</td></tr><tr><td style=\"white-space:nowrap\">SST21<a name=\"TRE-R359-SurspecialiteTransversale-SST21\"> </a></td><td>Médecine du sport</td><td>2023-10-30T12:00:00+01:00</td><td>2023-10-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SST22<a name=\"TRE-R359-SurspecialiteTransversale-SST22\"> </a></td><td>Nutrition appliquée</td><td>2023-10-30T12:00:00+01:00</td><td>2023-10-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SST23<a name=\"TRE-R359-SurspecialiteTransversale-SST23\"> </a></td><td>Pharmacologie médicale/thérapeutique</td><td>2023-10-30T12:00:00+01:00</td><td>2024-05-31T12:00:00+01:00</td><td>Pharmaco médical/thérapeutique</td></tr><tr><td style=\"white-space:nowrap\">SST24<a name=\"TRE-R359-SurspecialiteTransversale-SST24\"> </a></td><td>Sommeil</td><td>2023-10-30T12:00:00+01:00</td><td>2023-10-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SST25<a name=\"TRE-R359-SurspecialiteTransversale-SST25\"> </a></td><td>Thérapie cellulaire/transfusion</td><td>2023-10-30T12:00:00+01:00</td><td>2024-05-31T12:00:00+01:00</td><td>Thérapie cellulair/transfusion</td></tr><tr><td style=\"white-space:nowrap\">SST26<a name=\"TRE-R359-SurspecialiteTransversale-SST26\"> </a></td><td>Urgences pédiatriques</td><td>2023-10-30T12:00:00+01:00</td><td>2024-05-31T12:00:00+01:00</td><td/></tr></table></div>"^^rdf:XMLLiteral
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem TRE-R359-SurspecialiteTransversale</b></p><a name=\"TRE-R359-SurspecialiteTransversale\"> </a><a name=\"hcTRE-R359-SurspecialiteTransversale\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 5; Dernière mise à jour : 2024-08-28 05:13:47+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://mos.esante.gouv.fr/NOS/TRE_R359-SurspecialiteTransversale/FHIR/TRE-R359-SurspecialiteTransversale</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>French (France) (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">SST01<a name=\"TRE-R359-SurspecialiteTransversale-SST01\"> </a></td><td>Addictologie</td><td>2023-10-30T12:00:00+01:00</td><td>2023-10-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SST02<a name=\"TRE-R359-SurspecialiteTransversale-SST02\"> </a></td><td>Bio-informatique médicale</td><td>2023-10-30T12:00:00+01:00</td><td>2024-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SST03<a name=\"TRE-R359-SurspecialiteTransversale-SST03\"> </a></td><td>Cancérologie déc. hémato-cancérologie pédiatrique</td><td>2023-10-30T12:00:00+01:00</td><td>2024-05-31T12:00:00+01:00</td><td>Cancéro hémato-cancéro pédiatr</td></tr><tr><td style=\"white-space:nowrap\">SST04<a name=\"TRE-R359-SurspecialiteTransversale-SST04\"> </a></td><td>Cancérologie traitements médicaux des cancers</td><td>2023-10-30T12:00:00+01:00</td><td>2024-05-31T12:00:00+01:00</td><td>Cancéro traitements médicaux</td></tr><tr><td style=\"white-space:nowrap\">SST05<a name=\"TRE-R359-SurspecialiteTransversale-SST05\"> </a></td><td>Cardiologie pédiatrique et congénitale</td><td>2023-10-30T12:00:00+01:00</td><td>2023-10-30T12:00:00+01:00</td><td>Cardio pédiatrique congénitale</td></tr><tr><td style=\"white-space:nowrap\">SST06<a name=\"TRE-R359-SurspecialiteTransversale-SST06\"> </a></td><td>Chirurgie de la main</td><td>2023-10-30T12:00:00+01:00</td><td>2023-10-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SST07<a name=\"TRE-R359-SurspecialiteTransversale-SST07\"> </a></td><td>Chirurgie en situation de guerre ou de catastrophe</td><td>2023-10-30T12:00:00+01:00</td><td>2024-05-31T12:00:00+01:00</td><td>Chir de guerre ou catastrophe</td></tr><tr><td style=\"white-space:nowrap\">SST08<a name=\"TRE-R359-SurspecialiteTransversale-SST08\"> </a></td><td>Chirurgie orbito-palpébro-lacrymale</td><td>2023-10-30T12:00:00+01:00</td><td>2024-05-31T12:00:00+01:00</td><td>Chir orbito-palpébro-lacrymale</td></tr><tr><td style=\"white-space:nowrap\">SST09<a name=\"TRE-R359-SurspecialiteTransversale-SST09\"> </a></td><td>Douleur</td><td>2023-10-30T12:00:00+01:00</td><td>2023-10-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SST10<a name=\"TRE-R359-SurspecialiteTransversale-SST10\"> </a></td><td>Expertise médicale-préjudice corporel</td><td>2023-10-30T12:00:00+01:00</td><td>2024-05-31T12:00:00+01:00</td><td>Expertise méd-préjudice corpo</td></tr><tr><td style=\"white-space:nowrap\">SST11<a name=\"TRE-R359-SurspecialiteTransversale-SST11\"> </a></td><td>Foetopathologie</td><td>2023-10-30T12:00:00+01:00</td><td>2023-10-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SST12<a name=\"TRE-R359-SurspecialiteTransversale-SST12\"> </a></td><td>Génétique et médecine moléculaire bioclinique</td><td>2023-10-30T12:00:00+01:00</td><td>2024-05-31T12:00:00+01:00</td><td>Gén et méd molécul bioclinique</td></tr><tr><td style=\"white-space:nowrap\">SST13<a name=\"TRE-R359-SurspecialiteTransversale-SST13\"> </a></td><td>Hématologie bioclinique</td><td>2023-10-30T12:00:00+01:00</td><td>2024-05-31T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SST14<a name=\"TRE-R359-SurspecialiteTransversale-SST14\"> </a></td><td>Hygiène-prévention de l'infection, résistances</td><td>2023-10-30T12:00:00+01:00</td><td>2024-05-31T12:00:00+01:00</td><td>Hyg-prév infection résistances</td></tr><tr><td style=\"white-space:nowrap\">SST15<a name=\"TRE-R359-SurspecialiteTransversale-SST15\"> </a></td><td>Maladies allergiques</td><td>2023-10-30T12:00:00+01:00</td><td>2023-10-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SST16<a name=\"TRE-R359-SurspecialiteTransversale-SST16\"> </a></td><td>Médecine hospitalière polyvalente</td><td>2023-10-30T12:00:00+01:00</td><td>2024-05-31T12:00:00+01:00</td><td>Médecine hospit polyvalente</td></tr><tr><td style=\"white-space:nowrap\">SST17<a name=\"TRE-R359-SurspecialiteTransversale-SST17\"> </a></td><td>Médecine palliative</td><td>2023-10-30T12:00:00+01:00</td><td>2023-10-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SST18<a name=\"TRE-R359-SurspecialiteTransversale-SST18\"> </a></td><td>Médecine scolaire</td><td>2023-10-30T12:00:00+01:00</td><td>2023-10-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SST19<a name=\"TRE-R359-SurspecialiteTransversale-SST19\"> </a></td><td>Médecine en situation de guerre ou en SSE</td><td>2023-10-30T12:00:00+01:00</td><td>2024-05-31T12:00:00+01:00</td><td>Médecine de guerre ou en SSE</td></tr><tr><td style=\"white-space:nowrap\">SST20<a name=\"TRE-R359-SurspecialiteTransversale-SST20\"> </a></td><td>Médecine et biologie de la reproduction-andrologie</td><td>2023-10-30T12:00:00+01:00</td><td>2024-05-31T12:00:00+01:00</td><td>Méd biologie repro-andrologie</td></tr><tr><td style=\"white-space:nowrap\">SST21<a name=\"TRE-R359-SurspecialiteTransversale-SST21\"> </a></td><td>Médecine du sport</td><td>2023-10-30T12:00:00+01:00</td><td>2023-10-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SST22<a name=\"TRE-R359-SurspecialiteTransversale-SST22\"> </a></td><td>Nutrition appliquée</td><td>2023-10-30T12:00:00+01:00</td><td>2023-10-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SST23<a name=\"TRE-R359-SurspecialiteTransversale-SST23\"> </a></td><td>Pharmacologie médicale/thérapeutique</td><td>2023-10-30T12:00:00+01:00</td><td>2024-05-31T12:00:00+01:00</td><td>Pharmaco médical/thérapeutique</td></tr><tr><td style=\"white-space:nowrap\">SST24<a name=\"TRE-R359-SurspecialiteTransversale-SST24\"> </a></td><td>Sommeil</td><td>2023-10-30T12:00:00+01:00</td><td>2023-10-30T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">SST25<a name=\"TRE-R359-SurspecialiteTransversale-SST25\"> </a></td><td>Thérapie cellulaire/transfusion</td><td>2023-10-30T12:00:00+01:00</td><td>2024-05-31T12:00:00+01:00</td><td>Thérapie cellulair/transfusion</td></tr><tr><td style=\"white-space:nowrap\">SST26<a name=\"TRE-R359-SurspecialiteTransversale-SST26\"> </a></td><td>Urgences pédiatriques</td><td>2023-10-30T12:00:00+01:00</td><td>2024-05-31T12:00:00+01:00</td><td/></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
-     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod>
+     ] ;
      fhir:value [
        a fhir:Period ;
        fhir:start [ fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime ]
      ]
   ] ) ; # 
-  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R359-SurspecialiteTransversale/FHIR/TRE-R359-SurspecialiteTransversale"^^xsd:anyURI] ; # 
+  fhir:url [
+     fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R359-SurspecialiteTransversale/FHIR/TRE-R359-SurspecialiteTransversale"^^xsd:anyURI ;
+     fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R359-SurspecialiteTransversale/FHIR/TRE-R359-SurspecialiteTransversale>
+  ] ; # 
   fhir:identifier ( [
-     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:system [
+       fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
+       fhir:l <urn:ietf:rfc:3986>
+     ] ;
      fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.76" ]
   ] ) ; # 
   fhir:version [ fhir:v "20240531120000"] ; # 
@@ -43,7 +52,10 @@
   fhir:description [ fhir:v "Surspécialité (compétence) acquise par l'interne à l'issue d'une Formation Spécialisée Transversale (FST)"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
-       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
        fhir:code [ fhir:v "FRA" ]
      ] )
   ] ) ; # 
@@ -63,17 +75,26 @@
      fhir:type [ fhir:v "dateTime" ]
   ] [
      fhir:code [ fhir:v "deprecationDate" ] ;
-     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#deprecationDate"^^xsd:anyURI ] ;
+     fhir:uri [
+       fhir:v "http://hl7.org/fhir/concept-properties#deprecationDate"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/concept-properties#deprecationDate>
+     ] ;
      fhir:description [ fhir:v "Date Concept was deprecated" ] ;
      fhir:type [ fhir:v "dateTime" ]
   ] [
      fhir:code [ fhir:v "status" ] ;
-     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#status"^^xsd:anyURI ] ;
+     fhir:uri [
+       fhir:v "http://hl7.org/fhir/concept-properties#status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/concept-properties#status>
+     ] ;
      fhir:description [ fhir:v "A property that indicates the status of the concept." ] ;
      fhir:type [ fhir:v "code" ]
   ] [
      fhir:code [ fhir:v "retirementDate" ] ;
-     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#retirementDate"^^xsd:anyURI ] ;
+     fhir:uri [
+       fhir:v "http://hl7.org/fhir/concept-properties#retirementDate"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/concept-properties#retirementDate>
+     ] ;
      fhir:description [ fhir:v "Date Concept was retired" ] ;
      fhir:type [ fhir:v "dateTime" ]
   ] ) ; # 
@@ -83,19 +104,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -105,19 +126,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-05-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -128,7 +149,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Cancéro hémato-cancéro pédiatr" ]
@@ -136,7 +160,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Cancérologie déclinaison hémato-cancérologie pédiatrique" ]
@@ -144,19 +171,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-05-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -167,7 +194,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Cancéro traitements médicaux" ]
@@ -175,19 +205,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-05-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -198,7 +228,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Cardio pédiatrique congénitale" ]
@@ -206,19 +239,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -228,19 +261,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -251,7 +284,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Chir de guerre ou catastrophe" ]
@@ -259,19 +295,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-05-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -282,7 +318,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Chir orbito-palpébro-lacrymale" ]
@@ -290,19 +329,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-05-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -312,19 +351,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -335,7 +374,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Expertise méd-préjudice corpo" ]
@@ -343,19 +385,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-05-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -365,19 +407,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -388,7 +430,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Gén et méd molécul bioclinique" ]
@@ -396,19 +441,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-05-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -418,19 +463,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-05-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -441,7 +486,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Hyg-prév infection résistances" ]
@@ -449,19 +497,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-05-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -471,19 +519,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -494,7 +542,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Médecine hospit polyvalente" ]
@@ -502,19 +553,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-05-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -524,19 +575,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -546,19 +597,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -569,7 +620,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Médecine de guerre ou en SSE" ]
@@ -577,19 +631,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-05-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -600,7 +654,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Méd biologie repro-andrologie" ]
@@ -608,19 +665,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-05-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -630,19 +687,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -652,19 +709,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -675,7 +732,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Pharmaco médical/thérapeutique" ]
@@ -683,7 +743,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Pharmacologie médicale/ thérapeutique" ]
@@ -691,19 +754,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-05-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -713,19 +776,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -736,7 +799,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Thérapie cellulair/transfusion" ]
@@ -744,7 +810,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Thérapie cellulaire/ transfusion" ]
@@ -752,19 +821,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-05-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -774,19 +843,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-10-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-05-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )

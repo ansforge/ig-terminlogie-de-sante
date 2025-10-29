@@ -13,7 +13,7 @@
 
 version: 1; Dernière mise à jour : 2024-07-25 11:58:56+0000
 
-Tag: Resource encoded in summary mode (Details: ObservationValue code SUBSETTED = 'Resource encoded in summary mode')
+Tag: Resource encoded in summary mode (Détails : code ObservationValue SUBSETTED = 'Resource encoded in summary mode')
 
 ### Résumé
 
@@ -22,7 +22,7 @@ Tag: Resource encoded in summary mode (Details: ObservationValue code SUBSETTED 
 | Defining URL | https://interop.esante.gouv.fr/terminologies/NamingSystem/v3-loinc |
 | Nom | LOINC |
 | Statut | active |
-| Publisher | LOINC and Health Data Standards, Regenstrief Institute, Inc. |
+| Éditeur | LOINC and Health Data Standards, Regenstrief Institute, Inc. |
 
 ### Identifiants
 

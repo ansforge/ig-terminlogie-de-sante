@@ -14,24 +14,33 @@
      fhir:lastUpdated [ fhir:v "2025-01-06T12:41:38.141+00:00"^^xsd:dateTime ] ;
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
+       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
      ] )
   ] ; # 
   fhir:language [ fhir:v "fr-FR"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>JDV_J69_ActiviteOperationnelle_Santefr</h2><tt>https://mos.esante.gouv.fr/NOS/JDV_J69-ActiviteOperationnelle-Santefr/FHIR/JDV-J69-ActiviteOperationnelle-Santefr</tt><p>Activités opérationnelles de Santé.fr</p></div>"^^rdf:XMLLiteral
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>JDV_J69_ActiviteOperationnelle_Santefr</h2><tt>https://mos.esante.gouv.fr/NOS/JDV_J69-ActiviteOperationnelle-Santefr/FHIR/JDV-J69-ActiviteOperationnelle-Santefr</tt><p>Activités opérationnelles de Santé.fr</p></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
-     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod>
+     ] ;
      fhir:value [
        a fhir:Period ;
        fhir:start [ fhir:v "2019-03-29T12:00:00+01:00"^^xsd:dateTime ]
      ]
   ] ) ; # 
-  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J69-ActiviteOperationnelle-Santefr/FHIR/JDV-J69-ActiviteOperationnelle-Santefr"^^xsd:anyURI] ; # 
+  fhir:url [
+     fhir:v "https://mos.esante.gouv.fr/NOS/JDV_J69-ActiviteOperationnelle-Santefr/FHIR/JDV-J69-ActiviteOperationnelle-Santefr"^^xsd:anyURI ;
+     fhir:l <https://mos.esante.gouv.fr/NOS/JDV_J69-ActiviteOperationnelle-Santefr/FHIR/JDV-J69-ActiviteOperationnelle-Santefr>
+  ] ; # 
   fhir:identifier ( [
-     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:system [
+       fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
+       fhir:l <urn:ietf:rfc:3986>
+     ] ;
      fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.68" ]
   ] ) ; # 
   fhir:version [ fhir:v "20240531120000"] ; # 
@@ -44,13 +53,19 @@
   fhir:description [ fhir:v "Activités opérationnelles de Santé.fr"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
-       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
        fhir:code [ fhir:v "FRA" ]
      ] )
   ] ) ; # 
   fhir:compose [
      fhir:include ( [
-       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle"^^xsd:anyURI ;
+         fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle>
+       ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "001" ] ;
          fhir:display [ fhir:v "Addictologie comportementale (sans substance)" ]
@@ -1403,7 +1418,10 @@
          fhir:display [ fhir:v "Diététique" ]
        ] )
      ] [
-       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique"^^xsd:anyURI ;
+         fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique>
+       ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "0897" ] ;
          fhir:display [ fhir:v "Vaccination contre la grippe" ]

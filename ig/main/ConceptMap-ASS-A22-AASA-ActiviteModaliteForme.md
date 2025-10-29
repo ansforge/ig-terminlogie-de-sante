@@ -15,140 +15,140 @@
  
 Triplet activité modalité forme pour les Activités Soumises à Autorisation (ASA) 
 
-Mapping from (non spécifié) to (non spécifié)
+Mapping de (non spécifié) vers (non spécifié)
 
-**Group 1**Mapping from [TRE_R274_ActiviteSanitaireRegulee](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md) to [TRE_R275_ModaliteActivite](CodeSystem-TRE-R275-ModaliteActivite.md)
+**Groupe 1**Mapping de [TRE_R274_ActiviteSanitaireRegulee](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md) to [TRE_R275_ModaliteActivite](CodeSystem-TRE-R275-ModaliteActivite.md)
 
-* **Codes**from[TRE_R274_ActiviteSanitaireRegulee](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md): A0
+* **Codes**de[TRE_R274_ActiviteSanitaireRegulee](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md): A0
   * **TRER276FormeActivite**: Installation de chirurgie esthétique
   * : 01
-  * **Codes**from[TRE_R275_ModaliteActivite](CodeSystem-TRE-R275-ModaliteActivite.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * **Codes**de[TRE_R275_ModaliteActivite](CodeSystem-TRE-R275-ModaliteActivite.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
   * ?: 00
   * ?: 
-* **Codes**from[TRE_R274_ActiviteSanitaireRegulee](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md): A0
+* **Codes**de[TRE_R274_ActiviteSanitaireRegulee](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md): A0
   * **TRER276FormeActivite**: Installation de chirurgie esthétique
   * : 07
-  * **Codes**from[TRE_R275_ModaliteActivite](CodeSystem-TRE-R275-ModaliteActivite.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * **Codes**de[TRE_R275_ModaliteActivite](CodeSystem-TRE-R275-ModaliteActivite.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
   * ?: 00
   * ?: 
-* **Codes**from[TRE_R274_ActiviteSanitaireRegulee](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md): A0
+* **Codes**de[TRE_R274_ActiviteSanitaireRegulee](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md): A0
   * **TRER276FormeActivite**: Installation de chirurgie esthétique
   * : 15
-  * **Codes**from[TRE_R275_ModaliteActivite](CodeSystem-TRE-R275-ModaliteActivite.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * **Codes**de[TRE_R275_ModaliteActivite](CodeSystem-TRE-R275-ModaliteActivite.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
   * ?: 00
   * ?: 
-* **Codes**from[TRE_R274_ActiviteSanitaireRegulee](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md): A1
+* **Codes**de[TRE_R274_ActiviteSanitaireRegulee](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md): A1
   * **TRER276FormeActivite**: Dépôt de sang
   * : 00
-  * **Codes**from[TRE_R275_ModaliteActivite](CodeSystem-TRE-R275-ModaliteActivite.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * **Codes**de[TRE_R275_ModaliteActivite](CodeSystem-TRE-R275-ModaliteActivite.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
   * ?: M0
   * ?: 
-* **Codes**from[TRE_R274_ActiviteSanitaireRegulee](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md): A1
+* **Codes**de[TRE_R274_ActiviteSanitaireRegulee](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md): A1
   * **TRER276FormeActivite**: Dépôt de sang
   * : 00
-  * **Codes**from[TRE_R275_ModaliteActivite](CodeSystem-TRE-R275-ModaliteActivite.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * **Codes**de[TRE_R275_ModaliteActivite](CodeSystem-TRE-R275-ModaliteActivite.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
   * ?: M1
   * ?: 
-* **Codes**from[TRE_R274_ActiviteSanitaireRegulee](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md): A1
+* **Codes**de[TRE_R274_ActiviteSanitaireRegulee](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md): A1
   * **TRER276FormeActivite**: Dépôt de sang
   * : 00
-  * **Codes**from[TRE_R275_ModaliteActivite](CodeSystem-TRE-R275-ModaliteActivite.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * **Codes**de[TRE_R275_ModaliteActivite](CodeSystem-TRE-R275-ModaliteActivite.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
   * ?: M2
   * ?: 
-* **Codes**from[TRE_R274_ActiviteSanitaireRegulee](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md): A2
+* **Codes**de[TRE_R274_ActiviteSanitaireRegulee](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md): A2
   * **TRER276FormeActivite**: Lactarium
   * : 00
-  * **Codes**from[TRE_R275_ModaliteActivite](CodeSystem-TRE-R275-ModaliteActivite.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * **Codes**de[TRE_R275_ModaliteActivite](CodeSystem-TRE-R275-ModaliteActivite.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
   * ?: M3
   * ?: 
-* **Codes**from[TRE_R274_ActiviteSanitaireRegulee](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md): A2
+* **Codes**de[TRE_R274_ActiviteSanitaireRegulee](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md): A2
   * **TRER276FormeActivite**: Lactarium
   * : 00
-  * **Codes**from[TRE_R275_ModaliteActivite](CodeSystem-TRE-R275-ModaliteActivite.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * **Codes**de[TRE_R275_ModaliteActivite](CodeSystem-TRE-R275-ModaliteActivite.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
   * ?: M4
   * ?: 
-* **Codes**from[TRE_R274_ActiviteSanitaireRegulee](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md): A3
+* **Codes**de[TRE_R274_ActiviteSanitaireRegulee](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md): A3
   * **TRER276FormeActivite**: Lieux de recherches impliquant la personne humaine
   * : 00
-  * **Codes**from[TRE_R275_ModaliteActivite](CodeSystem-TRE-R275-ModaliteActivite.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * **Codes**de[TRE_R275_ModaliteActivite](CodeSystem-TRE-R275-ModaliteActivite.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
   * ?: AQ
   * ?: 
-* **Codes**from[TRE_R274_ActiviteSanitaireRegulee](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md): A3
+* **Codes**de[TRE_R274_ActiviteSanitaireRegulee](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md): A3
   * **TRER276FormeActivite**: Lieux de recherches impliquant la personne humaine
   * : 00
-  * **Codes**from[TRE_R275_ModaliteActivite](CodeSystem-TRE-R275-ModaliteActivite.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * **Codes**de[TRE_R275_ModaliteActivite](CodeSystem-TRE-R275-ModaliteActivite.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
   * ?: AR
   * ?: 
-* **Codes**from[TRE_R274_ActiviteSanitaireRegulee](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md): A4
+* **Codes**de[TRE_R274_ActiviteSanitaireRegulee](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md): A4
   * **TRER276FormeActivite**: Prélèvement de cellules hématopoïétiques
   * : 00
-  * **Codes**from[TRE_R275_ModaliteActivite](CodeSystem-TRE-R275-ModaliteActivite.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * **Codes**de[TRE_R275_ModaliteActivite](CodeSystem-TRE-R275-ModaliteActivite.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
   * ?: M5
   * ?: 
-* **Codes**from[TRE_R274_ActiviteSanitaireRegulee](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md): A4
+* **Codes**de[TRE_R274_ActiviteSanitaireRegulee](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md): A4
   * **TRER276FormeActivite**: Prélèvement de cellules hématopoïétiques
   * : 00
-  * **Codes**from[TRE_R275_ModaliteActivite](CodeSystem-TRE-R275-ModaliteActivite.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * **Codes**de[TRE_R275_ModaliteActivite](CodeSystem-TRE-R275-ModaliteActivite.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
   * ?: M6
   * ?: 
-* **Codes**from[TRE_R274_ActiviteSanitaireRegulee](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md): A4
+* **Codes**de[TRE_R274_ActiviteSanitaireRegulee](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md): A4
   * **TRER276FormeActivite**: Prélèvement de cellules hématopoïétiques
   * : 00
-  * **Codes**from[TRE_R275_ModaliteActivite](CodeSystem-TRE-R275-ModaliteActivite.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * **Codes**de[TRE_R275_ModaliteActivite](CodeSystem-TRE-R275-ModaliteActivite.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
   * ?: M7
   * ?: 
-* **Codes**from[TRE_R274_ActiviteSanitaireRegulee](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md): A4
+* **Codes**de[TRE_R274_ActiviteSanitaireRegulee](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md): A4
   * **TRER276FormeActivite**: Prélèvement de cellules hématopoïétiques
   * : 00
-  * **Codes**from[TRE_R275_ModaliteActivite](CodeSystem-TRE-R275-ModaliteActivite.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * **Codes**de[TRE_R275_ModaliteActivite](CodeSystem-TRE-R275-ModaliteActivite.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
   * ?: M8
   * ?: 
-* **Codes**from[TRE_R274_ActiviteSanitaireRegulee](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md): A4
+* **Codes**de[TRE_R274_ActiviteSanitaireRegulee](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md): A4
   * **TRER276FormeActivite**: Prélèvement de cellules hématopoïétiques
   * : 00
-  * **Codes**from[TRE_R275_ModaliteActivite](CodeSystem-TRE-R275-ModaliteActivite.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * **Codes**de[TRE_R275_ModaliteActivite](CodeSystem-TRE-R275-ModaliteActivite.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
   * ?: M9
   * ?: 
-* **Codes**from[TRE_R274_ActiviteSanitaireRegulee](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md): A5
+* **Codes**de[TRE_R274_ActiviteSanitaireRegulee](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md): A5
   * **TRER276FormeActivite**: Prélèvement d'organes
   * : 22
-  * **Codes**from[TRE_R275_ModaliteActivite](CodeSystem-TRE-R275-ModaliteActivite.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * **Codes**de[TRE_R275_ModaliteActivite](CodeSystem-TRE-R275-ModaliteActivite.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
   * ?: 11
   * ?: Activités interventionnelles sous imagerie méd, voie endovasculaire, cardio
-* **Codes**from[TRE_R274_ActiviteSanitaireRegulee](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md): A5
+* **Codes**de[TRE_R274_ActiviteSanitaireRegulee](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md): A5
   * **TRER276FormeActivite**: Prélèvement d'organes
   * : 22
-  * **Codes**from[TRE_R275_ModaliteActivite](CodeSystem-TRE-R275-ModaliteActivite.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * **Codes**de[TRE_R275_ModaliteActivite](CodeSystem-TRE-R275-ModaliteActivite.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
   * ?: 12
   * ?: Neurochirurgie
-* **Codes**from[TRE_R274_ActiviteSanitaireRegulee](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md): A5
+* **Codes**de[TRE_R274_ActiviteSanitaireRegulee](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md): A5
   * **TRER276FormeActivite**: Prélèvement d'organes
   * : 22
-  * **Codes**from[TRE_R275_ModaliteActivite](CodeSystem-TRE-R275-ModaliteActivite.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * **Codes**de[TRE_R275_ModaliteActivite](CodeSystem-TRE-R275-ModaliteActivite.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
   * ?: 13
   * ?: Activités interventionnelles sous imagerie méd, voie endovasculaire, neurorad
-* **Codes**from[TRE_R274_ActiviteSanitaireRegulee](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md): A5
+* **Codes**de[TRE_R274_ActiviteSanitaireRegulee](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md): A5
   * **TRER276FormeActivite**: Prélèvement d'organes
   * : 20
-  * **Codes**from[TRE_R275_ModaliteActivite](CodeSystem-TRE-R275-ModaliteActivite.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * **Codes**de[TRE_R275_ModaliteActivite](CodeSystem-TRE-R275-ModaliteActivite.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
   * ?: 31
   * ?: 
-* **Codes**from[TRE_R274_ActiviteSanitaireRegulee](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md): A5
+* **Codes**de[TRE_R274_ActiviteSanitaireRegulee](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md): A5
   * **TRER276FormeActivite**: Prélèvement d'organes
   * : 21
-  * **Codes**from[TRE_R275_ModaliteActivite](CodeSystem-TRE-R275-ModaliteActivite.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * **Codes**de[TRE_R275_ModaliteActivite](CodeSystem-TRE-R275-ModaliteActivite.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
   * ?: 31
   * ?: 
-* **Codes**from[TRE_R274_ActiviteSanitaireRegulee](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md): A6
+* **Codes**de[TRE_R274_ActiviteSanitaireRegulee](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md): A6
   * **TRER276FormeActivite**: Prélèvement de tissus
   * : 20
-  * **Codes**from[TRE_R275_ModaliteActivite](CodeSystem-TRE-R275-ModaliteActivite.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * **Codes**de[TRE_R275_ModaliteActivite](CodeSystem-TRE-R275-ModaliteActivite.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
   * ?: 00
   * ?: 
-* **Codes**from[TRE_R274_ActiviteSanitaireRegulee](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md): A6
+* **Codes**de[TRE_R274_ActiviteSanitaireRegulee](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md): A6
   * **TRER276FormeActivite**: Prélèvement de tissus
   * : 21
-  * **Codes**from[TRE_R275_ModaliteActivite](CodeSystem-TRE-R275-ModaliteActivite.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * **Codes**de[TRE_R275_ModaliteActivite](CodeSystem-TRE-R275-ModaliteActivite.md): [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
   * ?: P4
   * ?: 
 

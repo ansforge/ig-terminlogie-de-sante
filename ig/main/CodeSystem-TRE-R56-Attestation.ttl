@@ -15,23 +15,32 @@
      fhir:lastUpdated [ fhir:v "2025-07-02T18:18:21.968+00:00"^^xsd:dateTime ] ;
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
+       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
      ] )
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem TRE-R56-Attestation</b></p><a name=\"TRE-R56-Attestation\"> </a><a name=\"hcTRE-R56-Attestation\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 5; Dernière mise à jour : 2024-08-28 05:14:00+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://mos.esante.gouv.fr/NOS/TRE_R56-Attestation/FHIR/TRE-R56-Attestation</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Définition</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>French (France) (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">DIP24<a name=\"TRE-R56-Attestation-DIP24\"> </a></td><td>Attestation études Léprologie</td><td/><td>2008-03-20T10:49:21+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Att étu Léprologie</td></tr><tr><td style=\"white-space:nowrap\">DIP25<a name=\"TRE-R56-Attestation-DIP25\"> </a></td><td>Attestation études Electroencéphalographie clinique</td><td/><td>2008-03-20T10:49:22+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Att étu Electroencéphalograph</td></tr><tr><td style=\"white-space:nowrap\">DIP26<a name=\"TRE-R56-Attestation-DIP26\"> </a></td><td>Attestation études Endoscopie digestive</td><td/><td>2008-03-20T10:49:22+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Att étu Endoscopie digestive</td></tr><tr><td style=\"white-space:nowrap\">DIP27<a name=\"TRE-R56-Attestation-DIP27\"> </a></td><td>Attestation EU Réparation juridique du dommage corporel</td><td/><td>2008-03-20T10:49:17+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Att EU Répar jur domm corporel</td></tr><tr><td style=\"white-space:nowrap\">DIP28<a name=\"TRE-R56-Attestation-DIP28\"> </a></td><td>Attestation études Exploration fonctionnelle neuromusculaire</td><td/><td>2008-03-20T10:49:23+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Att étu Explor fonct neuromusc</td></tr><tr><td style=\"white-space:nowrap\">DIP29<a name=\"TRE-R56-Attestation-DIP29\"> </a></td><td>Attestation EU Vertébrothérapie et Médecine manuelle</td><td/><td>2008-03-20T10:49:24+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Att EU Vertébrothérap, Méd man</td></tr><tr><td style=\"white-space:nowrap\">DIP194<a name=\"TRE-R56-Attestation-DIP194\"> </a></td><td>Attestation EU Echographie générale</td><td/><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Att EU Echographie générale</td></tr><tr><td style=\"white-space:nowrap\">DIP200<a name=\"TRE-R56-Attestation-DIP200\"> </a></td><td>Attestation études supérieures de Proctologie</td><td/><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Att étu sup Proctologie</td></tr><tr><td style=\"white-space:nowrap\">DIP202<a name=\"TRE-R56-Attestation-DIP202\"> </a></td><td>Attestation études Thérapeutiques manuelles et Médecine physique</td><td/><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Att étu Thérap man, Méd phys</td></tr><tr><td style=\"white-space:nowrap\">DIP205<a name=\"TRE-R56-Attestation-DIP205\"> </a></td><td>Attestation formation à l'Ostéodensitométrie</td><td/><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Att form Ostéodensitométrie</td></tr><tr><td style=\"white-space:nowrap\">DIP208<a name=\"TRE-R56-Attestation-DIP208\"> </a></td><td>Attestation étude complémentaire Echographie hépato-gastro-entérologie</td><td/><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Att EC Echograph hép-gast-enté</td></tr><tr><td style=\"white-space:nowrap\">DIP217<a name=\"TRE-R56-Attestation-DIP217\"> </a></td><td>Attestation étude complémentaire Echographie, option Echotomographie</td><td/><td>2008-03-20T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Att EC Echograph Echotomograph</td></tr><tr><td style=\"white-space:nowrap\">DIP307<a name=\"TRE-R56-Attestation-DIP307\"> </a></td><td>Attestation de 5ième année de médecine validée</td><td>Attestation de 5ième année de médecine validée (cette voie d'accès à la profession d'infirmier n'est plus aujourd'hui possible mais l'a été)</td><td>2020-01-31T12:00:00+01:00</td><td>2020-07-31T12:00:00+01:00</td><td>Attest5ièmeannéeméd</td></tr><tr><td style=\"white-space:nowrap\">DIP363<a name=\"TRE-R56-Attestation-DIP363\"> </a></td><td>Attestation de connaissances d'Ergothérapeute</td><td>Article L4331-5 du code de la santé publique (CSP)</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td>Attestation Ergothérapeute</td></tr><tr><td style=\"white-space:nowrap\">DIP366<a name=\"TRE-R56-Attestation-DIP366\"> </a></td><td>Attestation de connaissances de Psychomotricien</td><td>Article L4332-5 du code de la santé publique (CSP)</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td>Attestation Psychomotricien</td></tr><tr><td style=\"white-space:nowrap\">DIP370<a name=\"TRE-R56-Attestation-DIP370\"> </a></td><td>Attestation de connaissances de MER</td><td>Article L4351-6 2° du code de la santé publique (CSP)</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td>Attestation MER</td></tr></table></div>"^^rdf:XMLLiteral
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem TRE-R56-Attestation</b></p><a name=\"TRE-R56-Attestation\"> </a><a name=\"hcTRE-R56-Attestation\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 5; Dernière mise à jour : 2024-08-28 05:14:00+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://mos.esante.gouv.fr/NOS/TRE_R56-Attestation/FHIR/TRE-R56-Attestation</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Définition</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>French (France) (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">DIP24<a name=\"TRE-R56-Attestation-DIP24\"> </a></td><td>Attestation études Léprologie</td><td/><td>2008-03-20T10:49:21+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Att étu Léprologie</td></tr><tr><td style=\"white-space:nowrap\">DIP25<a name=\"TRE-R56-Attestation-DIP25\"> </a></td><td>Attestation études Electroencéphalographie clinique</td><td/><td>2008-03-20T10:49:22+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Att étu Electroencéphalograph</td></tr><tr><td style=\"white-space:nowrap\">DIP26<a name=\"TRE-R56-Attestation-DIP26\"> </a></td><td>Attestation études Endoscopie digestive</td><td/><td>2008-03-20T10:49:22+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Att étu Endoscopie digestive</td></tr><tr><td style=\"white-space:nowrap\">DIP27<a name=\"TRE-R56-Attestation-DIP27\"> </a></td><td>Attestation EU Réparation juridique du dommage corporel</td><td/><td>2008-03-20T10:49:17+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Att EU Répar jur domm corporel</td></tr><tr><td style=\"white-space:nowrap\">DIP28<a name=\"TRE-R56-Attestation-DIP28\"> </a></td><td>Attestation études Exploration fonctionnelle neuromusculaire</td><td/><td>2008-03-20T10:49:23+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Att étu Explor fonct neuromusc</td></tr><tr><td style=\"white-space:nowrap\">DIP29<a name=\"TRE-R56-Attestation-DIP29\"> </a></td><td>Attestation EU Vertébrothérapie et Médecine manuelle</td><td/><td>2008-03-20T10:49:24+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Att EU Vertébrothérap, Méd man</td></tr><tr><td style=\"white-space:nowrap\">DIP194<a name=\"TRE-R56-Attestation-DIP194\"> </a></td><td>Attestation EU Echographie générale</td><td/><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Att EU Echographie générale</td></tr><tr><td style=\"white-space:nowrap\">DIP200<a name=\"TRE-R56-Attestation-DIP200\"> </a></td><td>Attestation études supérieures de Proctologie</td><td/><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Att étu sup Proctologie</td></tr><tr><td style=\"white-space:nowrap\">DIP202<a name=\"TRE-R56-Attestation-DIP202\"> </a></td><td>Attestation études Thérapeutiques manuelles et Médecine physique</td><td/><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Att étu Thérap man, Méd phys</td></tr><tr><td style=\"white-space:nowrap\">DIP205<a name=\"TRE-R56-Attestation-DIP205\"> </a></td><td>Attestation formation à l'Ostéodensitométrie</td><td/><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Att form Ostéodensitométrie</td></tr><tr><td style=\"white-space:nowrap\">DIP208<a name=\"TRE-R56-Attestation-DIP208\"> </a></td><td>Attestation étude complémentaire Echographie hépato-gastro-entérologie</td><td/><td>2007-07-25T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Att EC Echograph hép-gast-enté</td></tr><tr><td style=\"white-space:nowrap\">DIP217<a name=\"TRE-R56-Attestation-DIP217\"> </a></td><td>Attestation étude complémentaire Echographie, option Echotomographie</td><td/><td>2008-03-20T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>Att EC Echograph Echotomograph</td></tr><tr><td style=\"white-space:nowrap\">DIP307<a name=\"TRE-R56-Attestation-DIP307\"> </a></td><td>Attestation de 5ième année de médecine validée</td><td>Attestation de 5ième année de médecine validée (cette voie d'accès à la profession d'infirmier n'est plus aujourd'hui possible mais l'a été)</td><td>2020-01-31T12:00:00+01:00</td><td>2020-07-31T12:00:00+01:00</td><td>Attest5ièmeannéeméd</td></tr><tr><td style=\"white-space:nowrap\">DIP363<a name=\"TRE-R56-Attestation-DIP363\"> </a></td><td>Attestation de connaissances d'Ergothérapeute</td><td>Article L4331-5 du code de la santé publique (CSP)</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td>Attestation Ergothérapeute</td></tr><tr><td style=\"white-space:nowrap\">DIP366<a name=\"TRE-R56-Attestation-DIP366\"> </a></td><td>Attestation de connaissances de Psychomotricien</td><td>Article L4332-5 du code de la santé publique (CSP)</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td>Attestation Psychomotricien</td></tr><tr><td style=\"white-space:nowrap\">DIP370<a name=\"TRE-R56-Attestation-DIP370\"> </a></td><td>Attestation de connaissances de MER</td><td>Article L4351-6 2° du code de la santé publique (CSP)</td><td>2023-03-31T12:00:00+01:00</td><td>2023-03-31T12:00:00+01:00</td><td>Attestation MER</td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
-     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod>
+     ] ;
      fhir:value [
        a fhir:Period ;
        fhir:start [ fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime ]
      ]
   ] ) ; # 
-  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R56-Attestation/FHIR/TRE-R56-Attestation"^^xsd:anyURI] ; # 
+  fhir:url [
+     fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R56-Attestation/FHIR/TRE-R56-Attestation"^^xsd:anyURI ;
+     fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R56-Attestation/FHIR/TRE-R56-Attestation>
+  ] ; # 
   fhir:identifier ( [
-     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:system [
+       fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
+       fhir:l <urn:ietf:rfc:3986>
+     ] ;
      fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.27" ]
   ] ) ; # 
   fhir:version [ fhir:v "20240329120000"] ; # 
@@ -43,7 +52,10 @@
   fhir:description [ fhir:v "Attestation"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
-       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
        fhir:code [ fhir:v "FRA" ]
      ] )
   ] ) ; # 
@@ -63,17 +75,26 @@
      fhir:type [ fhir:v "dateTime" ]
   ] [
      fhir:code [ fhir:v "deprecationDate" ] ;
-     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#deprecationDate"^^xsd:anyURI ] ;
+     fhir:uri [
+       fhir:v "http://hl7.org/fhir/concept-properties#deprecationDate"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/concept-properties#deprecationDate>
+     ] ;
      fhir:description [ fhir:v "Date Concept was deprecated" ] ;
      fhir:type [ fhir:v "dateTime" ]
   ] [
      fhir:code [ fhir:v "status" ] ;
-     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#status"^^xsd:anyURI ] ;
+     fhir:uri [
+       fhir:v "http://hl7.org/fhir/concept-properties#status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/concept-properties#status>
+     ] ;
      fhir:description [ fhir:v "A property that indicates the status of the concept." ] ;
      fhir:type [ fhir:v "code" ]
   ] [
      fhir:code [ fhir:v "retirementDate" ] ;
-     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#retirementDate"^^xsd:anyURI ] ;
+     fhir:uri [
+       fhir:v "http://hl7.org/fhir/concept-properties#retirementDate"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/concept-properties#retirementDate>
+     ] ;
      fhir:description [ fhir:v "Date Concept was retired" ] ;
      fhir:type [ fhir:v "dateTime" ]
   ] ) ; # 
@@ -84,7 +105,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Att étu Léprologie" ]
@@ -92,19 +116,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2008-03-20T10:49:21+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -115,7 +139,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Att étu Electroencéphalograph" ]
@@ -123,19 +150,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2008-03-20T10:49:22+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -146,7 +173,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Att étu Endoscopie digestive" ]
@@ -154,19 +184,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2008-03-20T10:49:22+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -177,7 +207,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Att EU Répar jur domm corporel" ]
@@ -185,19 +218,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2008-03-20T10:49:17+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -208,7 +241,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Att étu Explor fonct neuromusc" ]
@@ -216,19 +252,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2008-03-20T10:49:23+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -239,7 +275,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Att EU Vertébrothérap, Méd man" ]
@@ -247,19 +286,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2008-03-20T10:49:24+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -270,7 +309,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Att EU Echographie générale" ]
@@ -278,19 +320,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -301,7 +343,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Att étu sup Proctologie" ]
@@ -309,19 +354,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -332,7 +377,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Att étu Thérap man, Méd phys" ]
@@ -340,19 +388,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -363,7 +411,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Att form Ostéodensitométrie" ]
@@ -371,19 +422,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -394,7 +445,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Att EC Echograph hép-gast-enté" ]
@@ -402,19 +456,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2007-07-25T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -425,7 +479,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Att EC Echograph Echotomograph" ]
@@ -433,19 +490,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2008-03-20T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -457,7 +514,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Attest5ièmeannéeméd" ]
@@ -465,19 +525,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-07-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -489,7 +549,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Attestation Ergothérapeute" ]
@@ -497,7 +560,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Attestation de vérification de connaissances d'Ergothérapeute" ]
@@ -505,19 +571,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -529,7 +595,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Attestation Psychomotricien" ]
@@ -537,7 +606,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Attestation de vérification de connaissances de Psychomotricien" ]
@@ -545,19 +617,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -569,7 +641,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Attestation MER" ]
@@ -577,7 +652,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Attestation de vérification de connaissances de Manipulateur d'Electro-Radiologie" ]
@@ -585,19 +663,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-03-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
