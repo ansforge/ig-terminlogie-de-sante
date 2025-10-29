@@ -10,7 +10,7 @@
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2025-10-28T15:57:21+00:00",
+  "date" : "2025-10-29T13:41:50+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -24563,6 +24563,18 @@
       },
       "name" : "CoverageRoleType",
       "description" : "CoverageRoleType",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-hl7-days-of-week"
+      },
+      "name" : "DaysOfWeek",
+      "description" : "DaysOfWeek",
       "exampleBoolean" : false
     },
     {

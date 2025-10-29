@@ -18,7 +18,7 @@
   fhir:name [ fhir:v "Terminologies"] ; # 
   fhir:title [ fhir:v "Terminologies  de Santé"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-10-28T15:57:21+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-10-29T13:41:50+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -33586,6 +33586,24 @@
        ] ;
        fhir:name [ fhir:v "CoverageRoleType" ] ;
        fhir:description [ fhir:v "CoverageRoleType" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-hl7-days-of-week> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-hl7-days-of-week" ]
+       ] ;
+       fhir:name [ fhir:v "DaysOfWeek" ] ;
+       fhir:description [ fhir:v "DaysOfWeek" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
