@@ -19,7 +19,7 @@ Tag: Resource encoded in summary mode (Détails : code ObservationValue SUBSETTE
 
 | | |
 | :--- | :--- |
-| Defining URL | https://interop.esante.gouv.fr/terminologies/NamingSystem/v3-loinc |
+| URL de définition | https://interop.esante.gouv.fr/terminologies/NamingSystem/v3-loinc |
 | Nom | LOINC |
 | Statut | active |
 | Éditeur | LOINC and Health Data Standards, Regenstrief Institute, Inc. |

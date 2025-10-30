@@ -19,7 +19,7 @@ Tag: Resource encoded in summary mode (Détails : code ObservationValue SUBSETTE
 
 | | |
 | :--- | :--- |
-| Defining URL | https://interop.esante.gouv.fr/terminologies/NamingSystem/Snomed-CT-core |
+| URL de définition | https://interop.esante.gouv.fr/terminologies/NamingSystem/Snomed-CT-core |
 | Nom | Snomed_CT_core_900000000000207008 |
 | Statut | active |
 | Éditeur | Agence du Numérique en Santé, ANS, France |

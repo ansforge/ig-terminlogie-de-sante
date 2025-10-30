@@ -19,7 +19,7 @@ Tag: Resource encoded in summary mode (Détails : code ObservationValue SUBSETTE
 
 | | |
 | :--- | :--- |
-| Defining URL | https://interop.esante.gouv.fr/terminologies/NamingSystem/SERAFIN |
+| URL de définition | https://interop.esante.gouv.fr/terminologies/NamingSystem/SERAFIN |
 | Nom | SERAFIN |
 | Statut | active |
 | Éditeur | Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris |
