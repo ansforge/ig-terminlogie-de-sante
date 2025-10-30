@@ -17,7 +17,7 @@ copyrightYear: 2020+
 #releaseLabel: for-comment
 releaseLabel: final-text
 jurisdiction: urn:iso:std:iso:3166#FRA
-language: #fr-FR
+
 dependencies:
    hl7.fhir.uv.ips: 1.1.0
    hl7.fhir.uv.extensions.r4: 5.2.0
