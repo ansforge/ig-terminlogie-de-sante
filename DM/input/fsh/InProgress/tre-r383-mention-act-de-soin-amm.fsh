@@ -487,13 +487,6 @@ Description: "Nomenclature des mentions pour les activités de soin AMM"
 * #ME065 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #ME065 ^property[+].code = #status
 * #ME065 ^property[=].valueCode = #active
-* #ME066 "Antenne de médecine d'urgence"
-* #ME066 ^property[0].code = #dateValid
-* #ME066 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
-* #ME066 ^property[+].code = #dateMaj
-* #ME066 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
-* #ME066 ^property[+].code = #status
-* #ME066 ^property[=].valueCode = #active
 * #ME067 "Antenne de SMUR"
 * #ME067 ^property[0].code = #dateValid
 * #ME067 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"

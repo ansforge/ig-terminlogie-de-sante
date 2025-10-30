@@ -214,7 +214,7 @@ Description: "Nomenclature des modalités pour les activités de soin AMM"
 * #MO025 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #MO025 ^property[+].code = #status
 * #MO025 ^property[=].valueCode = #active
-* #MO026 "Socle"
+* #MO026 "Cytogénétique y compris cytogénétique moléculaire"
 * #MO026 ^property[0].code = #dateValid
 * #MO026 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #MO026 ^property[+].code = #dateMaj
@@ -249,6 +249,13 @@ Description: "Nomenclature des modalités pour les activités de soin AMM"
 * #MO032 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #MO032 ^property[+].code = #status
 * #MO032 ^property[=].valueCode = #active
+* #MO033 "Antenne de médecine d'urgence"
+* #MO033 ^property[0].code = #dateValid
+* #MO033 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
+* #MO033 ^property[+].code = #dateMaj
+* #MO033 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
+* #MO033 ^property[+].code = #status
+* #MO033 ^property[=].valueCode = #active
 * #MO047 "AMP CLI -  Prélèvement d'ovocytes en vue d'une AMP"
 * #MO047 ^property[0].code = #dateValid
 * #MO047 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
