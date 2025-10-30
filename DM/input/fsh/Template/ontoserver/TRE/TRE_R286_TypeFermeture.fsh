@@ -1,22 +1,23 @@
 CodeSystem: TRE_R286_TypeFermeture
 Id: TRE-R286-TypeFermeture
 Description: "Type de fermeture, codes provenant du FINESS pour les EJ et EG"
-* ^meta.versionId = "5"
-* ^meta.lastUpdated = "2025-07-02T18:17:13.871+00:00"
+* ^meta.versionId = "8"
+* ^meta.lastUpdated = "2025-10-02T20:13:50.234+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2019-01-25T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.136"
-* ^version = "20231215120000"
+* ^version = "20250915120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2023-12-15T12:00:00+01:00"
+* ^date = "2025-09-15T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
+* ^count = 7
 * ^property[0].code = #dateValid
 * ^property[=].description = "date de validité d'un code concept"
 * ^property[=].type = #dateTime
@@ -83,3 +84,10 @@ Description: "Type de fermeture, codes provenant du FINESS pour les EJ et EG"
 * #PRO ^property[=].valueDateTime = "2019-01-25T12:00:00+01:00"
 * #PRO ^property[+].code = #status
 * #PRO ^property[=].valueCode = #active
+* #PRE "Prévisionnelle"
+* #PRE ^property[0].code = #dateValid
+* #PRE ^property[=].valueDateTime = "2025-09-15T12:00:00+01:00"
+* #PRE ^property[+].code = #dateMaj
+* #PRE ^property[=].valueDateTime = "2025-09-15T12:00:00+01:00"
+* #PRE ^property[+].code = #status
+* #PRE ^property[=].valueCode = #active

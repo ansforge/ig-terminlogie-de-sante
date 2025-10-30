@@ -1,21 +1,21 @@
 CodeSystem: TRE_R210_ActeSpecifique
 Id: TRE-R210-ActeSpecifique
-* ^meta.versionId = "20"
-* ^meta.lastUpdated = "2025-07-02T18:15:39.391+00:00"
+* ^meta.versionId = "26"
+* ^meta.lastUpdated = "2025-10-02T20:13:22.251+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^meta.tag = $v3-ObservationValue#SUBSETTED "Resource encoded in summary mode"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.11"
-* ^version = "20250623120000"
+* ^version = "20250919120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-06-23T12:00:00+01:00"
+* ^date = "2025-09-19T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #not-present
-* ^count = 1537
+* ^count = 1550
 * ^property[0].code = #dateValid
 * ^property[=].description = "date de validité d'un code concept"
 * ^property[=].type = #dateTime
