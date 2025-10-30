@@ -3,7 +3,7 @@ Alias: $sct = http://snomed.info/sct
 
 CodeSystem : TreR397CategorieEntiteGeographiqueExercice
 Id: tre-r397-categorie-entite-geographique-exercice
-Title: "TreR397CategorieEntiteGeographiqueExercice"
+Title: "Tre R397 Categorie Entite Geographique Exercice"
 Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TRE R66"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2025-09-22T18:12:58.721+00:00"
