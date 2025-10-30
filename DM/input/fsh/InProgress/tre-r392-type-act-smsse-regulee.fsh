@@ -8016,25 +8016,6 @@ Description: "Type activité SMSSE régulée"
 * #511 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #511 ^property[+].code = #declarationAMM
 * #511 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE017
-* #512 "AMM/QA014/MO032/ME066/PTS00/DE018"
-* #512 ^property[0].code = #dateValid
-* #512 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
-* #512 ^property[+].code = #dateMaj
-* #512 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
-* #512 ^property[+].code = #status
-* #512 ^property[=].valueCode = #active
-* #512 ^property[+].code = #natureActivite
-* #512 ^property[=].valueCoding = $tre-r374-nature-activite-smsse-regulee#AMM
-* #512 ^property[+].code = #activiteAMM
-* #512 ^property[=].valueCoding = $tre-r381-activite-amm#QA014
-* #512 ^property[+].code = #modaliteAMM
-* #512 ^property[=].valueCoding = $tre-r382-modalite-act-de-soin-amm#MO032
-* #512 ^property[+].code = #mentionAMM
-* #512 ^property[=].valueCoding = $tre-r383-mention-act-de-soin-amm#ME066
-* #512 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
-* #512 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
-* #512 ^property[+].code = #declarationAMM
-* #512 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE018
 * #513 "AMM/QA015/MO006/ME016/PTS00/DE005"
 * #513 ^property[0].code = #dateValid
 * #513 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
