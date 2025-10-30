@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-hematurie-cisis | *Version*:20250624152100 | |
-| Active as of 2025-06-24 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvResultatDepistageHematurieCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-hematurie-cisis | *Version*:20251028115833 | |
+| Active as of 2025-10-28 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvResultatDepistageHematurieCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.781 | | |
 
  
@@ -29,7 +29,7 @@ Requête sur le SMT
 
 ### Logical Definition (CLD)
 
-version: 3; Dernière mise à jour : 2025-06-25 09:15:49+0000; Langue : fr-FR
+version: 4; Dernière mise à jour : 2025-10-29 10:44:36+0100; Langue : fr-FR
 
 Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
 
@@ -65,8 +65,8 @@ Ce jeu de valeur (ValueSet) contient 7 concepts
   "resourceType" : "ValueSet",
   "id" : "jdv-resultat-depistage-hematurie-cisis",
   "meta" : {
-    "versionId" : "3",
-    "lastUpdated" : "2025-06-25T09:15:49.618+00:00",
+    "versionId" : "4",
+    "lastUpdated" : "2025-10-29T10:44:36.206+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -85,12 +85,12 @@ Ce jeu de valeur (ValueSet) contient 7 concepts
       "value" : "urn:oid:1.2.250.1.213.1.1.5.781"
     }
   ],
-  "version" : "20250624152100",
+  "version" : "20251028115833",
   "name" : "JdvResultatDepistageHematurieCisis",
   "title" : "JDV Resultat Depistage Hematurie CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-06-24T15:21:00+01:00",
+  "date" : "2025-10-28T11:58:33+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Resultat Depistage Hematurie CISIS",
   "jurisdiction" : [
@@ -114,7 +114,7 @@ Ce jeu de valeur (ValueSet) contient 7 concepts
           },
           {
             "code" : "167298001",
-            "display" : "trace de sang non-hémolysé détecté par bandelette urinaire"
+            "display" : "trace de sang non-hémolysé détectée par bandelette urinaire"
           },
           {
             "code" : "1348270000",

@@ -15,7 +15,7 @@
  
 Territoire de Santé (au sens ARS) en France 
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J249_TerritoireSante_ROR](ValueSet-JDV-J249-TerritoireSante-ROR.md)
 

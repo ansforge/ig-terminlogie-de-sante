@@ -15,7 +15,7 @@
  
 Catégorie professionnelle 
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J118_CategorieProfessionnelle_ENREG](ValueSet-JDV-J118-CategorieProfessionnelle-ENREG.md)
 * [JDV_J89_CategorieProfessionnelle_RASS](ValueSet-JDV-J89-CategorieProfessionnelle-RASS.md)

@@ -15,7 +15,7 @@
  
 Type d’organisation de prise en charge 
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J03_XdsContentTypeCode_CISIS](ValueSet-JDV-J03-XdsContentTypeCode-CISIS.md)
 * [JDV_J134_FormeActivite_RASS](ValueSet-JDV-J134-FormeActivite-RASS.md)

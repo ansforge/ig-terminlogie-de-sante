@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-health-status-code-cisis | *Version*:20250624152100 | |
-| Active as of 2025-06-24 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvHealthStatusCodeCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-health-status-code-cisis | *Version*:20251028115833 | |
+| Active as of 2025-10-28 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvHealthStatusCodeCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.4.2.283.1 | | |
 
  
@@ -29,7 +29,7 @@ Requête sur le SMT
 
 ### Logical Definition (CLD)
 
-version: 4; Dernière mise à jour : 2025-06-25 09:14:17+0000; Langue : fr-FR
+version: 5; Dernière mise à jour : 2025-10-29 10:43:51+0100; Langue : fr-FR
 
 Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
 
@@ -41,7 +41,7 @@ Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
 
 Expansion from smt.esante.gouv.fr based on SNOMED CT 11000315107 edition 21-Jun 2025
 
-Ce jeu de valeur (ValueSet) contient 7 concepts
+Ce jeu de valeur (ValueSet) contient 8 concepts
 
 -------
 
@@ -65,8 +65,8 @@ Ce jeu de valeur (ValueSet) contient 7 concepts
   "resourceType" : "ValueSet",
   "id" : "jdv-health-status-code-cisis",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2025-06-25T09:14:17.920+00:00",
+    "versionId" : "5",
+    "lastUpdated" : "2025-10-29T10:43:51.844+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -85,12 +85,12 @@ Ce jeu de valeur (ValueSet) contient 7 concepts
       "value" : "urn:oid:1.2.250.1.213.1.1.4.2.283.1"
     }
   ],
-  "version" : "20250624152100",
+  "version" : "20251028115833",
   "name" : "JdvHealthStatusCodeCisis",
   "title" : "JDV Health Status Code CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-06-24T15:21:00+01:00",
+  "date" : "2025-10-28T11:58:33+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Health Status Code CISIS",
   "jurisdiction" : [
@@ -109,8 +109,12 @@ Ce jeu de valeur (ValueSet) contient 7 concepts
         "system" : "http://snomed.info/sct",
         "concept" : [
           {
-            "code" : "102499006",
-            "display" : "en forme"
+            "code" : "81323004",
+            "display" : "fonction corporelle générale : normale"
+          },
+          {
+            "code" : "765205004",
+            "display" : "pathologie en rémission"
           },
           {
             "code" : "27624003",
@@ -125,15 +129,15 @@ Ce jeu de valeur (ValueSet) contient 7 concepts
             "display" : "incapacité : sévère"
           },
           {
-            "code" : "419620001",
-            "display" : "mort"
+            "code" : "419099009",
+            "display" : "mort(e)"
           },
           {
             "code" : "21134002",
             "display" : "incapacité"
           },
           {
-            "code" : "84387000",
+            "code" : "162467007",
             "display" : "asymptomatique"
           }
         ]

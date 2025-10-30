@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-statut-tabagique-cisis | *Version*:20250624152100 | |
-| Active as of 2025-06-24 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvStatutTabagiqueCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-statut-tabagique-cisis | *Version*:20251028115833 | |
+| Active as of 2025-10-28 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvStatutTabagiqueCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.667 | | |
 
  
@@ -29,7 +29,7 @@ Requête sur le SMT
 
 ### Logical Definition (CLD)
 
-version: 2; Dernière mise à jour : 2025-06-25 09:16:15+0000; Langue : fr-FR
+version: 3; Dernière mise à jour : 2025-10-29 10:44:53+0100; Langue : fr-FR
 
 Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
 
@@ -65,8 +65,8 @@ Ce jeu de valeur (ValueSet) contient 7 concepts
   "resourceType" : "ValueSet",
   "id" : "jdv-statut-tabagique-cisis",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2025-06-25T09:16:15.609+00:00",
+    "versionId" : "3",
+    "lastUpdated" : "2025-10-29T10:44:53.033+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -85,12 +85,12 @@ Ce jeu de valeur (ValueSet) contient 7 concepts
       "value" : "urn:oid:1.2.250.1.213.1.1.5.667"
     }
   ],
-  "version" : "20250624152100",
+  "version" : "20251028115833",
   "name" : "JdvStatutTabagiqueCisis",
   "title" : "JDV Statut Tabagique CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-06-24T15:21:00+01:00",
+  "date" : "2025-10-28T11:58:33+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Statut Tabagique CISIS",
   "jurisdiction" : [
@@ -110,15 +110,15 @@ Ce jeu de valeur (ValueSet) contient 7 concepts
         "concept" : [
           {
             "code" : "449868002",
-            "display" : "fumeur(-euse) quotidien(ne)"
+            "display" : "fume quotidiennement"
           },
           {
             "code" : "428041000124106",
-            "display" : "fumeur(-euse) occasionnel(le)"
+            "display" : "fume occasionnellement"
           },
           {
             "code" : "8517006",
-            "display" : "ancien(ne) fumeur(-euse)"
+            "display" : "ne fume plus"
           },
           {
             "code" : "266919005",
@@ -126,15 +126,15 @@ Ce jeu de valeur (ValueSet) contient 7 concepts
           },
           {
             "code" : "266927001",
-            "display" : "Tobacco smoking consumption unknown"
+            "display" : "consommation de tabac inconnue"
           },
           {
             "code" : "56771006",
-            "display" : "gros(se) fumeur(-euse) (plus de 20 cigarettes par jour)"
+            "display" : "fume plus de 20 fois par jour"
           },
           {
             "code" : "56578002",
-            "display" : "fumeur(-euse) modéré(e) (20 cigarettes ou moins par jour)"
+            "display" : "fume 20 fois ou moins par jour"
           }
         ]
       }

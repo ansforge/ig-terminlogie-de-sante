@@ -39,9 +39,7 @@ Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
 
 ### Expansion
 
-Expansion from smt.esante.gouv.fr based on [system TRE_R13_CommuneOM v20240628120000 (CodeSystem)](CodeSystem-TRE-R13-CommuneOM.md)
-
-Ce jeu de valeurs (ValueSet) a 39,293 codes. Pour garder la publication gérable, seulement une selection (1,000 codes) de lensemble des codes est affiché.
+No Expansion for this valueset (not supported by Publication Tooling)
 
 -------
 

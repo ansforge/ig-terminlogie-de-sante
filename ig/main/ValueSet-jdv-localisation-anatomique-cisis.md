@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-localisation-anatomique-cisis | *Version*:20250624152100 | |
-| Active as of 2025-06-24 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvLocalisationAnatomiqueCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-localisation-anatomique-cisis | *Version*:20251028115832 | |
+| Active as of 2025-10-28 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvLocalisationAnatomiqueCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.694 | | |
 
  
@@ -29,7 +29,7 @@ Requête sur le SMT
 
 ### Logical Definition (CLD)
 
-version: 3; Dernière mise à jour : 2025-06-25 09:14:43+0000; Langue : fr-FR
+version: 4; Dernière mise à jour : 2025-10-29 10:44:09+0100; Langue : fr-FR
 
 Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
 
@@ -65,8 +65,8 @@ Ce jeu de valeur (ValueSet) contient 357 concepts
   "resourceType" : "ValueSet",
   "id" : "jdv-localisation-anatomique-cisis",
   "meta" : {
-    "versionId" : "3",
-    "lastUpdated" : "2025-06-25T09:14:43.327+00:00",
+    "versionId" : "4",
+    "lastUpdated" : "2025-10-29T10:44:09.606+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -85,12 +85,12 @@ Ce jeu de valeur (ValueSet) contient 357 concepts
       "value" : "urn:oid:1.2.250.1.213.1.1.5.694"
     }
   ],
-  "version" : "20250624152100",
+  "version" : "20251028115832",
   "name" : "JdvLocalisationAnatomiqueCisis",
   "title" : "JDV Localisation Anatomique CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-06-24T15:21:00+01:00",
+  "date" : "2025-10-28T11:58:32+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Localisation Anatomique CISIS",
   "jurisdiction" : [
@@ -190,7 +190,7 @@ Ce jeu de valeur (ValueSet) contient 357 concepts
           },
           {
             "code" : "730364005",
-            "display" : "zone entière du conduit auditif interne"
+            "display" : "zone entière du méat acoustique interne"
           },
           {
             "code" : "362877004",
@@ -522,7 +522,7 @@ Ce jeu de valeur (ValueSet) contient 357 concepts
           },
           {
             "code" : "181178004",
-            "display" : "conduit auditif externe entier"
+            "display" : "méat acoustique externe entier"
           },
           {
             "code" : "362044002",
@@ -541,8 +541,8 @@ Ce jeu de valeur (ValueSet) contient 357 concepts
             "display" : "veine jugulaire externe entière"
           },
           {
-            "code" : "1290040004",
-            "display" : "œil entier"
+            "code" : "81745001",
+            "display" : "œil"
           },
           {
             "code" : "732141005",
@@ -582,7 +582,7 @@ Ce jeu de valeur (ValueSet) contient 357 concepts
           },
           {
             "code" : "302541005",
-            "display" : "doigt entier de la main, sauf le pouce"
+            "display" : "doigt entier de la main excepté le pouce"
           },
           {
             "code" : "362673003",
@@ -666,7 +666,7 @@ Ce jeu de valeur (ValueSet) contient 357 concepts
           },
           {
             "code" : "281490009",
-            "display" : "partie laryngée entière du pharynx"
+            "display" : "hypopharynx entier"
           },
           {
             "code" : "181249005",
@@ -722,7 +722,7 @@ Ce jeu de valeur (ValueSet) contient 357 concepts
           },
           {
             "code" : "361734005",
-            "display" : "conduit auditif interne entier de l'os temporal"
+            "display" : "méat acoustique interne entier de l'os temporal"
           },
           {
             "code" : "362045001",
@@ -794,11 +794,11 @@ Ce jeu de valeur (ValueSet) contient 357 concepts
           },
           {
             "code" : "244387002",
-            "display" : "atrium gauche entier"
+            "display" : "oreillette gauche entière"
           },
           {
             "code" : "277930000",
-            "display" : "appendice atrial gauche entier"
+            "display" : "appendice auriculaire gauche entier"
           },
           {
             "code" : "244385005",
@@ -842,7 +842,7 @@ Ce jeu de valeur (ValueSet) contient 357 concepts
           },
           {
             "code" : "362793004",
-            "display" : "partie inférieure entière de la jambe, du genou à la cheville"
+            "display" : "partie inférieure entière du membre inférieur"
           },
           {
             "code" : "182281004",
@@ -898,7 +898,7 @@ Ce jeu de valeur (ValueSet) contient 357 concepts
           },
           {
             "code" : "265784008",
-            "display" : "mastoïde entière"
+            "display" : "mastoïde entier"
           },
           {
             "code" : "181813003",
@@ -1382,7 +1382,7 @@ Ce jeu de valeur (ValueSet) contient 357 concepts
           },
           {
             "code" : "243931006",
-            "display" : "colonne thoracique entière"
+            "display" : "colonne vertébrale thoracique entière"
           },
           {
             "code" : "1145018008",
@@ -1442,7 +1442,7 @@ Ce jeu de valeur (ValueSet) contient 357 concepts
           },
           {
             "code" : "61660003",
-            "display" : "portion ombilicale entière de la veine porte"
+            "display" : "partie ombilicale entière de la veine porte"
           },
           {
             "code" : "243961003",
@@ -1454,7 +1454,7 @@ Ce jeu de valeur (ValueSet) contient 357 concepts
           },
           {
             "code" : "302538001",
-            "display" : "partie supérieure entière du bras, de l'épaule au coude"
+            "display" : "partie supérieure entière du membre supérieur"
           },
           {
             "code" : "181132007",

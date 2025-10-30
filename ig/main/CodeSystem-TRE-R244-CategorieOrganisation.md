@@ -15,7 +15,7 @@
  
 Catégorie d’organisation 
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J238_TypeOffre_ROR](ValueSet-JDV-J238-TypeOffre-ROR.md)
 * [JDV_J34_CategorieOrganisation_ROR](ValueSet-JDV-J34-CategorieOrganisation-ROR.md)

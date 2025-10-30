@@ -15,7 +15,7 @@
  
 Niveaux d’accessibilité d’un établissement recevant du public (ERP) 
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J50_AccessibiliteLieu_ROR](ValueSet-JDV-J50-AccessibiliteLieu-ROR.md)
 

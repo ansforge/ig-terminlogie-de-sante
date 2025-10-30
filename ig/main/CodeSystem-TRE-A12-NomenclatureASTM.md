@@ -15,7 +15,7 @@
  
 Nomenclature identifiée par ASTM 
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J07_XdsTypeCode_CISIS](ValueSet-JDV-J07-XdsTypeCode-CISIS.md)
 * [JDV_J66_TypeCode_DMP](ValueSet-JDV-J66-TypeCode-DMP.md)

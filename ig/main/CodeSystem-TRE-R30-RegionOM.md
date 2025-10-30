@@ -15,7 +15,7 @@
  
 Référentiel des codes régions et collectivités d’outre-mer provenant du COG INSEE + Monaco 
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J237_RegionOM_ROR](ValueSet-JDV-J237-RegionOM-ROR.md)
 * [JDV_J257_Region](ValueSet-JDV-J257-Region.md)

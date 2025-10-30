@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modificateur-topographique-cisis | *Version*:20250624152100 | |
-| Active as of 2025-06-24 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvModificateurTopographiqueCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modificateur-topographique-cisis | *Version*:20251028115832 | |
+| Active as of 2025-10-28 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvModificateurTopographiqueCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.688 | | |
 
  
@@ -29,7 +29,7 @@ Requête sur le SMT
 
 ### Logical Definition (CLD)
 
-version: 2; Dernière mise à jour : 2025-06-25 09:15:02+0000; Langue : fr-FR
+version: 3; Dernière mise à jour : 2025-10-29 10:44:14+0100; Langue : fr-FR
 
 Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
 
@@ -65,8 +65,8 @@ Ce jeu de valeur (ValueSet) contient 46 concepts
   "resourceType" : "ValueSet",
   "id" : "jdv-modificateur-topographique-cisis",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2025-06-25T09:15:02.135+00:00",
+    "versionId" : "3",
+    "lastUpdated" : "2025-10-29T10:44:14.825+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -85,12 +85,12 @@ Ce jeu de valeur (ValueSet) contient 46 concepts
       "value" : "urn:oid:1.2.250.1.213.1.1.5.688"
     }
   ],
-  "version" : "20250624152100",
+  "version" : "20251028115832",
   "name" : "JdvModificateurTopographiqueCisis",
   "title" : "JDV Modificateur Topographique CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-06-24T15:21:00+01:00",
+  "date" : "2025-10-28T11:58:32+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Modificateur Topographique CISIS",
   "jurisdiction" : [
@@ -110,15 +110,15 @@ Ce jeu de valeur (ValueSet) contient 46 concepts
         "concept" : [
           {
             "code" : "24028007",
-            "display" : "droit"
+            "display" : "côté droit"
           },
           {
             "code" : "7771000",
-            "display" : "gauche"
+            "display" : "côté gauche"
           },
           {
             "code" : "51440002",
-            "display" : "bilatéral"
+            "display" : "bilatéral(e)"
           },
           {
             "code" : "66459002",
@@ -194,11 +194,11 @@ Ce jeu de valeur (ValueSet) contient 46 concepts
           },
           {
             "code" : "60583000",
-            "display" : "postaxial"
+            "display" : "postaxial(e)"
           },
           {
             "code" : "32400000",
-            "display" : "préaxial"
+            "display" : "préaxial(e)"
           },
           {
             "code" : "43674008",
@@ -242,7 +242,7 @@ Ce jeu de valeur (ValueSet) contient 46 concepts
           },
           {
             "code" : "30730003",
-            "display" : "sagital(le)"
+            "display" : "sagittal(e)"
           },
           {
             "code" : "24422004",
@@ -290,7 +290,7 @@ Ce jeu de valeur (ValueSet) contient 46 concepts
           },
           {
             "code" : "112233002",
-            "display" : "marginal"
+            "display" : "marginal(e)"
           }
         ]
       }

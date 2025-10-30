@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-imputabilite-cisis | *Version*:20250624152100 | |
-| Active as of 2025-06-24 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvImputabiliteCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-imputabilite-cisis | *Version*:20251028115832 | |
+| Active as of 2025-10-28 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvImputabiliteCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.786 | | |
 
  
@@ -29,7 +29,7 @@ Requête sur le SMT
 
 ### Logical Definition (CLD)
 
-version: 2; Dernière mise à jour : 2025-06-25 09:14:22+0000; Langue : fr-FR
+version: 3; Dernière mise à jour : 2025-10-29 10:43:55+0100; Langue : fr-FR
 
 Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
 
@@ -65,8 +65,8 @@ Ce jeu de valeur (ValueSet) contient 4 concepts
   "resourceType" : "ValueSet",
   "id" : "jdv-imputabilite-cisis",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2025-06-25T09:14:22.077+00:00",
+    "versionId" : "3",
+    "lastUpdated" : "2025-10-29T10:43:55.198+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -85,12 +85,12 @@ Ce jeu de valeur (ValueSet) contient 4 concepts
       "value" : "urn:oid:1.2.250.1.213.1.1.5.786"
     }
   ],
-  "version" : "20250624152100",
+  "version" : "20251028115832",
   "name" : "JdvImputabiliteCisis",
   "title" : "JDV Imputabilite CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-06-24T15:21:00+01:00",
+  "date" : "2025-10-28T11:58:32+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Imputabilite CISIS",
   "jurisdiction" : [
@@ -122,7 +122,7 @@ Ce jeu de valeur (ValueSet) contient 4 concepts
           },
           {
             "code" : "373068000",
-            "display" : "indéterminé(e)"
+            "display" : "non déterminé(e)"
           }
         ]
       }

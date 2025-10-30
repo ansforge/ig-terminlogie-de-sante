@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-cholesterol-cisis | *Version*:20250624152059 | |
-| Active as of 2025-06-24 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvResultatDepistageCholesterolCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-cholesterol-cisis | *Version*:20251028115832 | |
+| Active as of 2025-10-28 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvResultatDepistageCholesterolCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.770 | | |
 
  
@@ -29,7 +29,7 @@ Requête sur le SMT
 
 ### Logical Definition (CLD)
 
-version: 3; Dernière mise à jour : 2025-06-25 09:15:47+0000; Langue : fr-FR
+version: 4; Dernière mise à jour : 2025-10-29 10:44:34+0100; Langue : fr-FR
 
 Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
 
@@ -65,8 +65,8 @@ Ce jeu de valeur (ValueSet) contient 2 concepts
   "resourceType" : "ValueSet",
   "id" : "jdv-resultat-depistage-cholesterol-cisis",
   "meta" : {
-    "versionId" : "3",
-    "lastUpdated" : "2025-06-25T09:15:47.262+00:00",
+    "versionId" : "4",
+    "lastUpdated" : "2025-10-29T10:44:34.250+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -85,12 +85,12 @@ Ce jeu de valeur (ValueSet) contient 2 concepts
       "value" : "urn:oid:1.2.250.1.213.1.1.5.770"
     }
   ],
-  "version" : "20250624152059",
+  "version" : "20251028115832",
   "name" : "JdvResultatDepistageCholesterolCisis",
   "title" : "JDV Resultat Depistage Cholesterol CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-06-24T15:20:59+01:00",
+  "date" : "2025-10-28T11:58:32+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Resultat Depistage Cholesterol CISIS",
   "jurisdiction" : [
@@ -114,7 +114,7 @@ Ce jeu de valeur (ValueSet) contient 2 concepts
           },
           {
             "code" : "371879000",
-            "display" : "anormalement haut"
+            "display" : "anormalement haut(e)"
           }
         ]
       }

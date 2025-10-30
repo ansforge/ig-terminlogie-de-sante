@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-traitement-iv-cisis | *Version*:20250624152101 | |
-| Active as of 2025-06-24 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvTypeTraitementIvCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-traitement-iv-cisis | *Version*:20251028115835 | |
+| Active as of 2025-10-28 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvTypeTraitementIvCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.173 | | |
 
  
@@ -29,7 +29,7 @@ Requête sur le SMT
 
 ### Logical Definition (CLD)
 
-version: 3; Dernière mise à jour : 2025-06-25 09:17:01+0000; Langue : fr-FR
+version: 4; Dernière mise à jour : 2025-10-29 10:45:10+0100; Langue : fr-FR
 
 Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
 
@@ -65,8 +65,8 @@ Ce jeu de valeur (ValueSet) contient 2 concepts
   "resourceType" : "ValueSet",
   "id" : "jdv-type-traitement-iv-cisis",
   "meta" : {
-    "versionId" : "3",
-    "lastUpdated" : "2025-06-25T09:17:01.644+00:00",
+    "versionId" : "4",
+    "lastUpdated" : "2025-10-29T10:45:10.528+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -85,12 +85,12 @@ Ce jeu de valeur (ValueSet) contient 2 concepts
       "value" : "urn:oid:1.2.250.1.213.1.1.5.173"
     }
   ],
-  "version" : "20250624152101",
+  "version" : "20251028115835",
   "name" : "JdvTypeTraitementIvCisis",
   "title" : "JDV Type Traitement Iv CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-06-24T15:21:01+01:00",
+  "date" : "2025-10-28T11:58:35+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Type Traitement Iv CISIS",
   "jurisdiction" : [
@@ -110,11 +110,11 @@ Ce jeu de valeur (ValueSet) contient 2 concepts
         "concept" : [
           {
             "code" : "233428003",
-            "display" : "thrombolyse d'une veine"
+            "display" : "thrombolyse veineuse"
           },
           {
             "code" : "397028007",
-            "display" : "thrombectomie d'une veine"
+            "display" : "thrombectomie veineuse"
           }
         ]
       }

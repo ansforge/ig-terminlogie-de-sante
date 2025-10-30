@@ -15,7 +15,7 @@
  
 Référentiel des codes départements et collectivités d’outre-mer provenant du COG INSEE + Monaco 
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J167_DepartementOM_EPARS](ValueSet-JDV-J167-DepartementOM-EPARS.md)
 * [JDV_J248_DepartementOM_ROR](ValueSet-JDV-J248-DepartementOM-ROR.md)

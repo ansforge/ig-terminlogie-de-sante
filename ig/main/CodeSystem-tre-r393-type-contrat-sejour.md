@@ -15,7 +15,7 @@
  
 Type de contrat conclu entre l’établissement/service et la personne/son représentant légal lors de son entrée en établissement 
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JdvJ370TypeContratSejourMs](ValueSet-jdv-j370-type-contrat-sejour-ms.md)
 

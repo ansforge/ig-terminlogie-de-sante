@@ -30,6 +30,7 @@ These define sets of codes used by systems conforming to this implementation gui
 | [Condition Verification Status](ValueSet-jdv-hl7-condition-ver-status-cisis.md) | Condition Verification Status |
 | [Confidentiality](ValueSet-jdv-hl7-v2-0952-cisis.md) | Confidentiality |
 | [CoverageRoleType](ValueSet-jdv-hl7-v3-CoverageRoleType-cisis.md) | CoverageRoleType |
+| [DaysOfWeek](ValueSet-jdv-hl7-days-of-week.md) | DaysOfWeek |
 | [EmploymentStatusODH](ValueSet-jdv-hl7-v3-employmentStatusODH-cisis.md) | EmploymentStatusODH |
 | [JDV Abord Veineux Central CISIS](ValueSet-jdv-abord-veineux-central-cisis.md) | JDV Abord Veineux Central CISIS |
 | [JDV Abord Veineux Peripherique CISIS](ValueSet-jdv-abord-veineux-peripherique-cisis.md) | JDV Abord Veineux Peripherique CISIS |

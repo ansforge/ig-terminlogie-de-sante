@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-circonstance-deces-cisis | *Version*:20250624152100 | |
-| Active as of 2025-06-24 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvCirconstanceDecesCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-circonstance-deces-cisis | *Version*:20251028115832 | |
+| Active as of 2025-10-28 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvCirconstanceDecesCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.741 | | |
 
  
@@ -29,7 +29,7 @@ Requête sur le SMT
 
 ### Logical Definition (CLD)
 
-version: 3; Dernière mise à jour : 2025-06-25 09:13:07+0000; Langue : fr-FR
+version: 4; Dernière mise à jour : 2025-10-29 10:43:17+0100; Langue : fr-FR
 
 Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
 
@@ -65,8 +65,8 @@ Ce jeu de valeur (ValueSet) contient 4 concepts
   "resourceType" : "ValueSet",
   "id" : "jdv-circonstance-deces-cisis",
   "meta" : {
-    "versionId" : "3",
-    "lastUpdated" : "2025-06-25T09:13:07.553+00:00",
+    "versionId" : "4",
+    "lastUpdated" : "2025-10-29T10:43:17.489+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -85,12 +85,12 @@ Ce jeu de valeur (ValueSet) contient 4 concepts
       "value" : "urn:oid:1.2.250.1.213.1.1.5.741"
     }
   ],
-  "version" : "20250624152100",
+  "version" : "20251028115832",
   "name" : "JdvCirconstanceDecesCisis",
   "title" : "JDV Circonstance Deces CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-06-24T15:21:00+01:00",
+  "date" : "2025-10-28T11:58:32+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Circonstance Deces CISIS",
   "jurisdiction" : [
@@ -110,15 +110,15 @@ Ce jeu de valeur (ValueSet) contient 4 concepts
         "concept" : [
           {
             "code" : "17766007",
-            "display" : "mort fœtale par asphyxie et/ou par anoxie, pas clair si noté avant ou après le début du travaile"
+            "display" : "mort fœtale par asphyxie et/ou anoxie, pas clair si noté avant ou après le début du travail"
           },
           {
             "code" : "44174001",
-            "display" : "mort fœtale par asphyxie et/ou par anoxie avant le début du travail"
+            "display" : "mort fœtale par asphyxie et/ou anoxie avant le début du travail"
           },
           {
             "code" : "1762004",
-            "display" : "mort fœtale par asphyxie et/ou par anoxie pendant le travail"
+            "display" : "mort fœtale par asphyxie et/ou anoxie pendant le travail"
           },
           {
             "code" : "67313008",

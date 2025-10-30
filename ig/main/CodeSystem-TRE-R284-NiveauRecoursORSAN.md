@@ -15,7 +15,7 @@
  
 Hiérarchisation fonctionnelle des Éts pour accueil patients après le SAMU 
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J204_NiveauRecoursORSAN_ROR](ValueSet-JDV-J204-NiveauRecoursORSAN-ROR.md)
 

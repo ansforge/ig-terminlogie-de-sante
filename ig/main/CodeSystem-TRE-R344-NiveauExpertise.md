@@ -15,7 +15,7 @@
  
 Le niveau d’expertise atteste du niveau de ressources humaines et matérielles engagées dans la réalisation de l’offre et défini dans un cahier des charges officiel. 
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J227_NiveauExpertise_ROR](ValueSet-JDV-J227-NiveauExpertise-ROR.md)
 

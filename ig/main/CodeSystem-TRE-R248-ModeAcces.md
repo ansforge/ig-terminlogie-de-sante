@@ -15,7 +15,7 @@
  
 Mode d’accès pour accéder à un SI santé avec données patients 
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J38_ModeAcces_CISIS](ValueSet-JDV-J38-ModeAcces-CISIS.md)
 

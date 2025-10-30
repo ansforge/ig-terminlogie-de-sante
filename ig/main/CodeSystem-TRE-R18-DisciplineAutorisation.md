@@ -15,7 +15,7 @@
  
 Discipline d’autorisation 
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J76_DisciplineAutorisation_RASS](ValueSet-JDV-J76-DisciplineAutorisation-RASS.md)
 

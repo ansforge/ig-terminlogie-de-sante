@@ -15,7 +15,7 @@
  
 Année universitaire 
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J88_AnneeUniversitaire_RASS](ValueSet-JDV-J88-AnneeUniversitaire-RASS.md)
 

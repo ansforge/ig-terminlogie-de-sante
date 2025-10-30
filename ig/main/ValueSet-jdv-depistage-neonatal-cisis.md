@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-depistage-neonatal-cisis | *Version*:20250624152100 | |
-| Active as of 2025-06-24 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvDepistageNeonatalCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-depistage-neonatal-cisis | *Version*:20251028115833 | |
+| Active as of 2025-10-28 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvDepistageNeonatalCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.827 | | |
 
  
@@ -29,7 +29,7 @@ Requête sur le SMT
 
 ### Logical Definition (CLD)
 
-version: 2; Dernière mise à jour : 2025-06-25 09:13:44+0000; Langue : fr-FR
+version: 3; Dernière mise à jour : 2025-10-29 10:43:34+0100; Langue : fr-FR
 
 Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
 
@@ -65,8 +65,8 @@ Ce jeu de valeur (ValueSet) contient 5 concepts
   "resourceType" : "ValueSet",
   "id" : "jdv-depistage-neonatal-cisis",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2025-06-25T09:13:44.754+00:00",
+    "versionId" : "3",
+    "lastUpdated" : "2025-10-29T10:43:34.950+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -85,12 +85,12 @@ Ce jeu de valeur (ValueSet) contient 5 concepts
       "value" : "urn:oid:1.2.250.1.213.1.1.5.827"
     }
   ],
-  "version" : "20250624152100",
+  "version" : "20251028115833",
   "name" : "JdvDepistageNeonatalCisis",
   "title" : "Jdv Depistage Neonatal CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-06-24T15:21:00+01:00",
+  "date" : "2025-10-28T11:58:33+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Jdv Depistage Neonatal CISIS",
   "jurisdiction" : [

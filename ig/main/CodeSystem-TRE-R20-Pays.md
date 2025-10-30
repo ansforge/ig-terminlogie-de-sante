@@ -15,7 +15,7 @@
  
 Référentiel des codes pays provenant du COG INSEE 
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J114_Pays_ENREG](ValueSet-JDV-J114-Pays-ENREG.md)
 * [JDV_J123_Pays_MDPH](ValueSet-JDV-J123-Pays-MDPH.md)

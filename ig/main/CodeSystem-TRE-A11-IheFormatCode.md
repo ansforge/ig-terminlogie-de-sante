@@ -15,7 +15,7 @@
  
 IHE formatCode 
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J10_XdsFormatCode_CISIS](ValueSet-JDV-J10-XdsFormatCode-CISIS.md)
 * [JDV_J60_FormatCode_DMP](ValueSet-JDV-J60-FormatCode-DMP.md)

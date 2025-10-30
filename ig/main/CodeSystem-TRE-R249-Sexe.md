@@ -15,7 +15,7 @@
  
 Sexe 
 
- This Code system is referenced in the content logical definition of the following value sets: 
+ Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J262_Sexe](ValueSet-JDV-J262-Sexe.md)
 * [JDV_J80_Sexe_RASS](ValueSet-JDV-J80-Sexe-RASS.md)

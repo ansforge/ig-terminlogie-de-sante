@@ -716,6 +716,7 @@
 * [AllergyIntolerance Clinical Status Codes](ValueSet-jdv-hl7-allergyintolerance-clinical-cisis.md)
 * [Condition Clinical Status Codes](ValueSet-jdv-hl7-condition-clinical-cisis.md)
 * [Condition Verification Status](ValueSet-jdv-hl7-condition-ver-status-cisis.md)
+* [DaysOfWeek](ValueSet-jdv-hl7-days-of-week.md)
 * [hl7VS-employmentStatus](ValueSet-jdv-hl7-v2-0066-cisis.md)
 * [hl7VS-specimenCollectionMethod](ValueSet-jdv-hl7-v2-0488-cisis.md)
 * [Confidentiality](ValueSet-jdv-hl7-v2-0952-cisis.md)
