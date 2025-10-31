@@ -1,4 +1,4 @@
-# JDV_J91_TypeSavoirFaire_RASS - Terminologies de Santé v1.3.0
+# JDV_J91_TypeSavoirFaire_RASS - Terminologies de Santé v1.4.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J91-TypeSavoirFaire-RASS/FHIR/JDV-J91-TypeSavoirFaire-RASS | *Version*:20250625120000 | |
-| Active as of 2025-06-25 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J91_TypeSavoirFaire_RASS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J91-TypeSavoirFaire-RASS/FHIR/JDV-J91-TypeSavoirFaire-RASS | *Version*:20251016120000 | |
+| Active as of 2025-10-16 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J91_TypeSavoirFaire_RASS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.159 | | |
 
  
@@ -29,11 +29,11 @@ Requête sur le SMT
 
 ### Logical Definition (CLD)
 
-version: 7; Dernière mise à jour : 2025-07-02 17:06:55+0000; Langue : fr-FR
+version: 8; Dernière mise à jour : 2025-10-31 15:18:02+0100; Langue : fr-FR
 
 Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
 
-* Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R04-TypeSavoirFaire/FHIR/TRE-R04-TypeSavoirFaire`](CodeSystem-TRE-R04-TypeSavoirFaire.md)version 📦20250625120000
+* Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R04-TypeSavoirFaire/FHIR/TRE-R04-TypeSavoirFaire`](CodeSystem-TRE-R04-TypeSavoirFaire.md)version 📦20251016120000
 
  
 
@@ -61,8 +61,8 @@ Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
   "resourceType" : "ValueSet",
   "id" : "JDV-J91-TypeSavoirFaire-RASS",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2025-07-02T17:06:55.974+00:00",
+    "versionId" : "8",
+    "lastUpdated" : "2025-10-31T15:18:02.419+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -81,11 +81,11 @@ Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
       "value" : "urn:oid:1.2.250.1.213.1.6.1.159"
     }
   ],
-  "version" : "20250625120000",
+  "version" : "20251016120000",
   "name" : "JDV_J91_TypeSavoirFaire_RASS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-06-25T12:00:00+01:00",
+  "date" : "2025-10-16T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Types de savoir-faire des professionnels du RASS",
   "jurisdiction" : [
@@ -105,7 +105,7 @@ Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
         "concept" : [
           {
             "code" : "C",
-            "display" : "Compétence"
+            "display" : "Compétence de médecine"
           },
           {
             "code" : "CAPA",

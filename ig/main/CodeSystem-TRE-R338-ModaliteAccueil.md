@@ -1,4 +1,4 @@
-# TRE_R338_ModaliteAccueil - Terminologies de Santé v1.3.0
+# TRE_R338_ModaliteAccueil - Terminologies de Santé v1.4.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R338-ModaliteAccueil/FHIR/TRE-R338-ModaliteAccueil | *Version*:20250828120000 | |
-| Active as of 2025-08-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R338_ModaliteAccueil |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R338-ModaliteAccueil/FHIR/TRE-R338-ModaliteAccueil | *Version*:20251017120000 | |
+| Active as of 2025-10-17 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R338_ModaliteAccueil |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.221 | | |
 
  
@@ -28,8 +28,8 @@ Modalités d’accueil
   "resourceType" : "CodeSystem",
   "id" : "TRE-R338-ModaliteAccueil",
   "meta" : {
-    "versionId" : "15",
-    "lastUpdated" : "2025-10-02T20:13:51.531+02:00",
+    "versionId" : "16",
+    "lastUpdated" : "2025-10-31T15:01:40.827+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
     ]
@@ -49,11 +49,11 @@ Modalités d’accueil
       "value" : "urn:oid:1.2.250.1.213.3.3.221"
     }
   ],
-  "version" : "20250828120000",
+  "version" : "20251017120000",
   "name" : "TRE_R338_ModaliteAccueil",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-08-28T12:00:00+01:00",
+  "date" : "2025-10-17T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Modalités d'accueil",
   "jurisdiction" : [
@@ -530,6 +530,7 @@ Modalités d’accueil
     {
       "code" : "20",
       "display" : "Accueil en unité protégée",
+      "definition" : "Il s'agit de la prise en charge de patients, souvent âgés ou présentant des troubles cognitifs, dans une unité sécurisée offrant un environnement adapté pour prévenir les risques et assurer la sécurité physique et psychologique.",
       "property" : [
         {
           "code" : "dateValid",
@@ -537,7 +538,7 @@ Modalités d’accueil
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-07-09T12:00:00+01:00"
+          "valueDateTime" : "2025-10-17T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -548,6 +549,7 @@ Modalités d’accueil
     {
       "code" : "21",
       "display" : "Accueil saisonnier possible",
+      "definition" : "Accueil possible des patients pendant les périodes de vacances ou lors d'évènements exceptionnels (exemple : compétition sportive internationale) pour des soins de dialyse par exemple",
       "property" : [
         {
           "code" : "dateValid",
@@ -555,7 +557,7 @@ Modalités d’accueil
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-08-28T12:00:00+01:00"
+          "valueDateTime" : "2025-10-17T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -566,6 +568,7 @@ Modalités d’accueil
     {
       "code" : "22",
       "display" : "Accueil saisonnier uniquement",
+      "definition" : "Accueil  des patients exclusivement pendant les périodes de vacances ou lors d'évènements exceptionnels (exemple : compétition sportive internationale) pour des soins de dialyse par exemple.",
       "property" : [
         {
           "code" : "dateValid",
@@ -573,7 +576,7 @@ Modalités d’accueil
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-08-28T12:00:00+01:00"
+          "valueDateTime" : "2025-10-17T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -584,6 +587,7 @@ Modalités d’accueil
     {
       "code" : "23",
       "display" : "Autodialyse simple",
+      "definition" : "Modalité de traitement de l’insuffisance rénale chronique dans laquelle le patient réalise lui-même sa séance de dialyse, sous la surveillance d’un personnel paramédical, dans une unité spécifique.",
       "property" : [
         {
           "code" : "dateValid",
@@ -591,7 +595,7 @@ Modalités d’accueil
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-08-28T12:00:00+01:00"
+          "valueDateTime" : "2025-10-17T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -602,6 +606,7 @@ Modalités d’accueil
     {
       "code" : "24",
       "display" : "Autodialyse assistée",
+      "definition" : "Modalité de traitement de l’insuffisance rénale chronique dans laquelle le patient réalise sa dialyse assisté d’un infirmier dans une unité dédiée.",
       "property" : [
         {
           "code" : "dateValid",
@@ -609,7 +614,7 @@ Modalités d’accueil
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-08-28T12:00:00+01:00"
+          "valueDateTime" : "2025-10-17T12:00:00+01:00"
         },
         {
           "code" : "status",

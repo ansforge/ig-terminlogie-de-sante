@@ -1,4 +1,4 @@
-# ASS_X04_CorrespondanceType_Classe_CISIS - Terminologies de Santé v1.3.0
+# ASS_X04_CorrespondanceType_Classe_CISIS - Terminologies de Santé v1.4.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/ASS_X04-CorrespondanceType-Classe-CISIS/FHIR/ASS-X04-CorrespondanceType-Classe-CISIS | *Version*:20250623120000 |
-| Active as of 2025-06-23 | *Computable Name*:ASS_X04_CorrespondanceType_Classe_CISIS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/ASS_X04-CorrespondanceType-Classe-CISIS/FHIR/ASS-X04-CorrespondanceType-Classe-CISIS | *Version*:20251028120000 |
+| Active as of 2025-10-28 | *Computable Name*:ASS_X04_CorrespondanceType_Classe_CISIS |
 | *Other Identifiers:*urn:oid:1.2.250.1.213.1.1.4.249 | |
 
  
@@ -187,6 +187,12 @@ Mapping de (non spécifié) vers [JDV_J06_XdsClassCode_CISIS](ValueSet-JDV-J06-X
 * **Code source**: 61357-0 (Medication pharmaceutical advice.brief Document)
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
   * **Code cible**: 42 (Prescription)
+* **Code source**: 61358-8 (Surgical operation consent Document)
+  * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * **Code cible**: 95 (Document de gestion)
+* **Code source**: 61359-6 (Anesthesia consent Document)
+  * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * **Code cible**: 95 (Document de gestion)
 * **Code source**: 67851-6 (Admission evaluation note)
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
   * **Code cible**: 10 (Compte rendu)
@@ -262,6 +268,9 @@ Mapping de (non spécifié) vers [JDV_J06_XdsClassCode_CISIS](ValueSet-JDV-J06-X
 * **Code source**: 83901-9 (Psychology History and physical note)
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
   * **Code cible**: 11 (Synthèse)
+* **Code source**: 83963-9 (Social worker Patient's home Note)
+  * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * **Code cible**: 11 (Synthèse)
 * **Code source**: 83981-1 (Social worker Transfer summary note)
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
   * **Code cible**: 10 (Compte rendu)
@@ -304,6 +313,9 @@ Mapping de (non spécifié) vers [JDV_J06_XdsClassCode_CISIS](ValueSet-JDV-J06-X
 * **Code source**: 100967-9 (Fetal Document Fetal Heart Tracing)
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
   * **Code cible**: 10 (Compte rendu)
+* **Code source**: 101881-1 (Implant card)
+  * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * **Code cible**: 52 (Certificat, déclaration)
 
 -------
 
@@ -321,6 +333,9 @@ Mapping de (non spécifié) vers [JDV_J06_XdsClassCode_CISIS](ValueSet-JDV-J06-X
 * **Code source**: ATTEST-DROITS-AM (Attestation de droits à l'assurance maladie)
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
   * **Code cible**: 95 (Document de gestion)
+* **Code source**: ATTEST-VITALE (Attestation de carte vitale)
+  * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * **Code cible**: 95 (Document de gestion)
 * **Code source**: AUTORIS-SOINS (Autorisation de soins et actes non usuels sanitaires)
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
   * **Code cible**: 95 (Document de gestion)
@@ -330,6 +345,9 @@ Mapping de (non spécifié) vers [JDV_J06_XdsClassCode_CISIS](ValueSet-JDV-J06-X
 * **Code source**: CERT_DECL (Certificat, déclaration)
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
   * **Code cible**: 52 (Certificat, déclaration)
+* **Code source**: CONTACTS-URGENCE (Fiche contacts d'urgence)
+  * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * **Code cible**: 95 (Document de gestion)
 * **Code source**: DISP_AUT (Dispensation (autre))
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
   * **Code cible**: 43 (Dispensation)
@@ -372,6 +390,9 @@ Mapping de (non spécifié) vers [JDV_J06_XdsClassCode_CISIS](ValueSet-JDV-J06-X
 * **Code source**: DOCPAT09 (Document administratif déposé par le patient)
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
   * **Code cible**: 95 (Document de gestion)
+* **Code source**: DOCPAT10 (Autorisation de soins et actes non usuels sanitaires)
+  * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * **Code cible**: 90 (Autres documents déposés par le patient)
 * **Code source**: IMG-KOS (Reference d'objets d'un examen d'imagerie)
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
   * **Code cible**: 31 (Imagerie médicale)
@@ -447,12 +468,12 @@ Mapping de (non spécifié) vers [JDV_J06_XdsClassCode_CISIS](ValueSet-JDV-J06-X
   "identifier" : {
     "value" : "urn:oid:1.2.250.1.213.1.1.4.249"
   },
-  "version" : "20250623120000",
+  "version" : "20251028120000",
   "name" : "ASS_X04_CorrespondanceType_Classe_CISIS",
   "title" : "ASS_X04_CorrespondanceType_Classe_CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-06-23T12:00:00+01:00",
+  "date" : "2025-10-28T12:00:00+01:00",
   "description" : "Correspondance entre types et classes de documents CI-SIS",
   "jurisdiction" : [
     {
@@ -975,6 +996,24 @@ Mapping de (non spécifié) vers [JDV_J06_XdsClassCode_CISIS](ValueSet-JDV-J06-X
           ]
         },
         {
+          "code" : "61358-8",
+          "target" : [
+            {
+              "code" : "95",
+              "equivalence" : "equivalent"
+            }
+          ]
+        },
+        {
+          "code" : "61359-6",
+          "target" : [
+            {
+              "code" : "95",
+              "equivalence" : "equivalent"
+            }
+          ]
+        },
+        {
           "code" : "67851-6",
           "target" : [
             {
@@ -1200,6 +1239,15 @@ Mapping de (non spécifié) vers [JDV_J06_XdsClassCode_CISIS](ValueSet-JDV-J06-X
           ]
         },
         {
+          "code" : "83963-9",
+          "target" : [
+            {
+              "code" : "11",
+              "equivalence" : "equivalent"
+            }
+          ]
+        },
+        {
           "code" : "83981-1",
           "target" : [
             {
@@ -1324,6 +1372,15 @@ Mapping de (non spécifié) vers [JDV_J06_XdsClassCode_CISIS](ValueSet-JDV-J06-X
               "equivalence" : "equivalent"
             }
           ]
+        },
+        {
+          "code" : "101881-1",
+          "target" : [
+            {
+              "code" : "52",
+              "equivalence" : "equivalent"
+            }
+          ]
         }
       ]
     },
@@ -1368,6 +1425,15 @@ Mapping de (non spécifié) vers [JDV_J06_XdsClassCode_CISIS](ValueSet-JDV-J06-X
           ]
         },
         {
+          "code" : "ATTEST-VITALE",
+          "target" : [
+            {
+              "code" : "95",
+              "equivalence" : "equivalent"
+            }
+          ]
+        },
+        {
           "code" : "AUTORIS-SOINS",
           "target" : [
             {
@@ -1390,6 +1456,15 @@ Mapping de (non spécifié) vers [JDV_J06_XdsClassCode_CISIS](ValueSet-JDV-J06-X
           "target" : [
             {
               "code" : "52",
+              "equivalence" : "equivalent"
+            }
+          ]
+        },
+        {
+          "code" : "CONTACTS-URGENCE",
+          "target" : [
+            {
+              "code" : "95",
               "equivalence" : "equivalent"
             }
           ]
@@ -1516,6 +1591,15 @@ Mapping de (non spécifié) vers [JDV_J06_XdsClassCode_CISIS](ValueSet-JDV-J06-X
           "target" : [
             {
               "code" : "95",
+              "equivalence" : "equivalent"
+            }
+          ]
+        },
+        {
+          "code" : "DOCPAT10",
+          "target" : [
+            {
+              "code" : "90",
               "equivalence" : "equivalent"
             }
           ]

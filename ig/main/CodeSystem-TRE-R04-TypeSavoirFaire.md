@@ -1,4 +1,4 @@
-# TRE_R04_TypeSavoirFaire - Terminologies de Santé v1.3.0
+# TRE_R04_TypeSavoirFaire - Terminologies de Santé v1.4.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R04-TypeSavoirFaire/FHIR/TRE-R04-TypeSavoirFaire | *Version*:20250625120000 | |
-| Active as of 2025-06-25 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R04_TypeSavoirFaire |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R04-TypeSavoirFaire/FHIR/TRE-R04-TypeSavoirFaire | *Version*:20251016120000 | |
+| Active as of 2025-10-16 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R04_TypeSavoirFaire |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.16 | | |
 
  
@@ -29,8 +29,8 @@ Type de savoir-faire
   "resourceType" : "CodeSystem",
   "id" : "TRE-R04-TypeSavoirFaire",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-07-02T18:12:04.430+00:00",
+    "versionId" : "7",
+    "lastUpdated" : "2025-10-31T14:58:01.413+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
     ]
@@ -50,11 +50,11 @@ Type de savoir-faire
       "value" : "urn:oid:1.2.250.1.213.1.6.1.16"
     }
   ],
-  "version" : "20250625120000",
+  "version" : "20251016120000",
   "name" : "TRE_R04_TypeSavoirFaire",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-06-25T12:00:00+01:00",
+  "date" : "2025-10-16T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Type de savoir-faire",
   "jurisdiction" : [
@@ -108,7 +108,8 @@ Type de savoir-faire
   "concept" : [
     {
       "code" : "C",
-      "display" : "Compétence",
+      "display" : "Compétence de médecine",
+      "definition" : "Compétence acquise par le professionnel.",
       "property" : [
         {
           "code" : "dateValid",
@@ -116,7 +117,7 @@ Type de savoir-faire
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2007-07-25T15:04:43+01:00"
+          "valueDateTime" : "2025-10-16T15:04:43+01:00"
         },
         {
           "code" : "status",
@@ -127,6 +128,7 @@ Type de savoir-faire
     {
       "code" : "CAPA",
       "display" : "Capacité",
+      "definition" : "La capacité, en tant que savoir-faire, représente la reconnaissance par l'ordre d'un diplôme de capacité.",
       "property" : [
         {
           "code" : "dateValid",
@@ -134,7 +136,7 @@ Type de savoir-faire
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2007-07-25T15:04:43+01:00"
+          "valueDateTime" : "2025-10-16T15:04:43+01:00"
         },
         {
           "code" : "status",
@@ -145,6 +147,7 @@ Type de savoir-faire
     {
       "code" : "CEX",
       "display" : "Compétence exclusive",
+      "definition" : "La compétence exclusive, en tant que savoir-faire, est une compétence exercée à titre exclusif. Un professionnel ne peut exercer à la fois une compétence exclusive et une spécialité.",
       "property" : [
         {
           "code" : "dateValid",
@@ -152,7 +155,7 @@ Type de savoir-faire
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2007-07-25T15:04:43+01:00"
+          "valueDateTime" : "2025-10-16T15:04:43+01:00"
         },
         {
           "code" : "status",
@@ -163,7 +166,7 @@ Type de savoir-faire
     {
       "code" : "CM",
       "display" : "Compétence métier",
-      "definition" : "La compétence métier désigne un type de savoir-faire opérationnel, transversal ou spécifique, acquis et exercé à titre non exclusif dans le cadre d’une activité professionnelle reconnue. Elle reflète une expertise fonctionnelle ou technique mobilisée dans l’exercice quotidien du professionnel de santé. Contrairement aux spécialités ordinales ou compétences de médecines, la compétence métier n’est pas nécessairement encadrée par un diplôme ou une qualification ordinale, mais elle peut être attestée par l’expérience, des formations spécifiques, ou une reconnaissance institutionnelle (ex. : missions ANS, ARS, établissements de santé, etc.). Dans le cadre du modèle, la classe CompétenceMetier est représentée comme une spécialisation de la classe SavoirFaire, i-e un TypeDeSavoirFaire et à ce titre, elle hérite des attributs et des associations de cette classe. Elle se distingue des autres types de savoir-faire par son ancrage dans les pratiques professionnelles et organisationnelles, plutôt que dans une logique de qualification médicale ou réglementaire.",
+      "definition" : "La compétence métie désigne un type de savoir-faire opérationnel, transversal ou spécifique, acquis et exercé à titre non exclusif dans le cadre d’une activité professionnelle reconnue. Elle reflète une expertise fonctionnelle ou technique mobilisée dans l’exercice quotidien du professionnel de santé.",
       "property" : [
         {
           "code" : "dateValid",
@@ -171,7 +174,7 @@ Type de savoir-faire
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-06-25T15:04:43+01:00"
+          "valueDateTime" : "2025-10-16T15:04:43+01:00"
         },
         {
           "code" : "status",
@@ -182,6 +185,7 @@ Type de savoir-faire
     {
       "code" : "DEC",
       "display" : "Droit d'exercice complémentaire",
+      "definition" : "Les docteurs en médecine initialement qualifiés comme médecins spécialistes peuvent obtenir un droit d'exercice dans l'une des spécialités définies par un des DESC de médecine du groupe I.",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -199,7 +203,7 @@ Type de savoir-faire
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2016-09-01T00:00:00+01:00"
+          "valueDateTime" : "2025-10-16T00:00:00+01:00"
         },
         {
           "code" : "status",
@@ -210,6 +214,7 @@ Type de savoir-faire
     {
       "code" : "DNQ",
       "display" : "DESC non qualifiant",
+      "definition" : "Diplôme d'Etudes Spécialisées Complémentaires (DESC) non qualifiant, en fonction du ou des DESC de groupe I, que le professionnel a obtenu(s).",
       "property" : [
         {
           "code" : "dateValid",
@@ -217,7 +222,7 @@ Type de savoir-faire
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2007-07-25T15:04:43+01:00"
+          "valueDateTime" : "2025-10-16T15:04:43+01:00"
         },
         {
           "code" : "status",
@@ -228,6 +233,7 @@ Type de savoir-faire
     {
       "code" : "FQ",
       "display" : "Fonction qualifiée",
+      "definition" : "Expérience pratique exigée par le code de la santé publique (art R5124-16) pour exercer certaines fonctions dans l’industrie pharmaceutique et la distribution en gros. Ces dispositions s’appliquent uniquement à la profession de pharmacien.",
       "property" : [
         {
           "code" : "dateValid",
@@ -235,7 +241,7 @@ Type de savoir-faire
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2007-07-25T00:00:00+01:00"
+          "valueDateTime" : "2025-10-16T00:00:00+01:00"
         },
         {
           "code" : "status",
@@ -246,6 +252,7 @@ Type de savoir-faire
     {
       "code" : "OP",
       "display" : "Orientation particulière",
+      "definition" : "Type de savoir faire qui caractérise une orientation d'exercice: acupuncture ou homéopathie.",
       "property" : [
         {
           "code" : "dateValid",
@@ -253,7 +260,7 @@ Type de savoir-faire
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2016-09-01T00:00:00+01:00"
+          "valueDateTime" : "2025-10-16T00:00:00+01:00"
         },
         {
           "code" : "status",
@@ -264,6 +271,7 @@ Type de savoir-faire
     {
       "code" : "PAC",
       "display" : "Qualification PAC",
+      "definition" : "La qualification de Praticien Adjoint Contractuel (PAC) autorise à exercer en établissement sans être qualifié ni en médecine générale, ni en spécialité. (diplômes étrangers)",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -292,6 +300,7 @@ Type de savoir-faire
     {
       "code" : "S",
       "display" : "Spécialité ordinale",
+      "definition" : "Spécialité médicale ou odontologique, reconnue par une autorité d'enregistrement (Ordre ou SSA)",
       "property" : [
         {
           "code" : "dateValid",
@@ -299,7 +308,7 @@ Type de savoir-faire
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2016-09-01T00:00:00+01:00"
+          "valueDateTime" : "2025-10-16T00:00:00+01:00"
         },
         {
           "code" : "status",
@@ -338,6 +347,7 @@ Type de savoir-faire
     {
       "code" : "SST",
       "display" : "Surspécialité de Formation Spécialisée Transversale (FST)",
+      "definition" : "Surspécialité acquise par le professionnel en supplément de la spécialité de DES",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -363,7 +373,7 @@ Type de savoir-faire
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2023-10-30T12:00:00+01:00"
+          "valueDateTime" : "2025-10-16T12:00:00+01:00"
         },
         {
           "code" : "status",

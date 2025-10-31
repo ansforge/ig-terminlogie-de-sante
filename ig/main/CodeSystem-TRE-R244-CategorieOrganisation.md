@@ -1,4 +1,4 @@
-# TRE_R244_CategorieOrganisation - Terminologies de Santé v1.3.0
+# TRE_R244_CategorieOrganisation - Terminologies de Santé v1.4.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R244-CategorieOrganisation/FHIR/TRE-R244-CategorieOrganisation | *Version*:20250828120000 | |
-| Active as of 2025-08-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R244_CategorieOrganisation |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R244-CategorieOrganisation/FHIR/TRE-R244-CategorieOrganisation | *Version*:20251017120000 | |
+| Active as of 2025-10-17 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R244_CategorieOrganisation |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.39 | | |
 
  
@@ -29,8 +29,8 @@ Catégorie d’organisation
   "resourceType" : "CodeSystem",
   "id" : "TRE-R244-CategorieOrganisation",
   "meta" : {
-    "versionId" : "23",
-    "lastUpdated" : "2025-10-02T20:13:49.625+02:00",
+    "versionId" : "24",
+    "lastUpdated" : "2025-10-31T15:01:39.403+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
     ]
@@ -50,11 +50,11 @@ Catégorie d’organisation
       "value" : "urn:oid:1.2.250.1.213.3.3.39"
     }
   ],
-  "version" : "20250828120000",
+  "version" : "20251017120000",
   "name" : "TRE_R244_CategorieOrganisation",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-08-28T12:00:00+01:00",
+  "date" : "2025-10-17T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Catégorie d'organisation",
   "jurisdiction" : [
@@ -69,7 +69,7 @@ Catégorie d’organisation
   ],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 278,
+  "count" : 283,
   "property" : [
     {
       "code" : "dateValid",
@@ -200,7 +200,7 @@ Catégorie d’organisation
     },
     {
       "code" : "05",
-      "display" : "Centre d'Accueil Thérapeutique à Temps Partiel (CATTP)",
+      "display" : "Centre d’Activités Thérapeutiques et de Temps de Groupe (CATTG) – ex CATTP",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -208,7 +208,7 @@ Catégorie d’organisation
             "system" : "http://snomed.info/sct",
             "code" : "900000000000013009"
           },
-          "value" : "CATTP"
+          "value" : "CATTG (ex-CATTP)"
         }
       ],
       "property" : [
@@ -218,7 +218,7 @@ Catégorie d’organisation
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2017-10-13T12:00:00+01:00"
+          "valueDateTime" : "2025-10-17T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -310,7 +310,7 @@ Catégorie d’organisation
     },
     {
       "code" : "10",
-      "display" : "Centre Médico-Psychologique (CMP)",
+      "display" : "Centre Médico-Psychologique (CMP) Adulte",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -318,7 +318,7 @@ Catégorie d’organisation
             "system" : "http://snomed.info/sct",
             "code" : "900000000000013009"
           },
-          "value" : "CMP"
+          "value" : "CMP Adulte"
         }
       ],
       "property" : [
@@ -328,7 +328,7 @@ Catégorie d’organisation
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2017-10-13T12:00:00+01:00"
+          "valueDateTime" : "2025-10-17T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -1325,7 +1325,7 @@ Catégorie d’organisation
     },
     {
       "code" : "46",
-      "display" : "Établissement et Service de Pré-Orientation (ESPO)",
+      "display" : "Établissement et Service de Préorientation (ESPO)",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1343,7 +1343,7 @@ Catégorie d’organisation
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-08-28T12:00:00+01:00"
+          "valueDateTime" : "2025-10-17T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -4774,7 +4774,17 @@ Catégorie d’organisation
     },
     {
       "code" : "174",
-      "display" : "Unité psychiatrique",
+      "display" : "Unité hospitalière de psychiatrie de l’adulte",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "Unité psychiatrique adulte"
+        }
+      ],
       "property" : [
         {
           "code" : "dateValid",
@@ -4782,7 +4792,7 @@ Catégorie d’organisation
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2024-10-25T12:00:00+01:00"
+          "valueDateTime" : "2025-10-17T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -7064,7 +7074,7 @@ Catégorie d’organisation
     },
     {
       "code" : "257",
-      "display" : "Unité pour Personnes Handicapées Vieillissantes (UPHV)",
+      "display" : "Unité pour Personnes Handicapées Vieillissantes (UPHV - UPHA)",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -7072,7 +7082,7 @@ Catégorie d’organisation
             "system" : "http://snomed.info/sct",
             "code" : "900000000000013009"
           },
-          "value" : "UPHV"
+          "value" : "UPHV-UPHA"
         }
       ],
       "property" : [
@@ -7082,7 +7092,7 @@ Catégorie d’organisation
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-04-25T12:00:00+01:00"
+          "valueDateTime" : "2025-10-17T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -7585,6 +7595,7 @@ Catégorie d’organisation
     {
       "code" : "277",
       "display" : "Equipe de coordination hospitalière de tissus et/ou d’organes",
+      "definition" : "Il s'agit d'une équipe hospitalière pluridisciplinaire chargée d’identifier les donneurs potentiels d’organes et de tissus, d’organiser et de coordonner les prélèvements, en garantissant le respect des règles légales, éthiques et de sécurité sanitaire, ainsi que l’accompagnement des proches. Elle assure la liaison entre les services hospitaliers, les équipes de greffe et l’Agence de la biomédecine pour la traçabilité et la qualité du don.",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -7602,7 +7613,7 @@ Catégorie d’organisation
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-07-10T12:00:00+01:00"
+          "valueDateTime" : "2025-10-17T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -7613,6 +7624,7 @@ Catégorie d’organisation
     {
       "code" : "278",
       "display" : "Unité Hospitalière de Courte Durée (UHCD)",
+      "definition" : "Il s'agit d'une unité rattachée aux urgences qui accueille temporairement des patients nécessitant une surveillance, des examens complémentaires ou des soins avant une décision d’hospitalisation ou de retour à domicile. Elle assure une prise en charge continue, limitée à 24 ou 48 heures.",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -7630,7 +7642,148 @@ Catégorie d’organisation
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-07-10T12:00:00+01:00"
+          "valueDateTime" : "2025-10-17T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "279",
+      "display" : "Equipe mobile de psychiatrie de l'Enfant et de l'Adolescent",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "Equipe mobile pédopsychiatrie"
+        }
+      ],
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-10-17T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-10-17T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "280",
+      "display" : "Equipe mobile de psychiatrie adulte",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "Equipe mobile psy Adulte"
+        }
+      ],
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-10-17T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-10-17T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "281",
+      "display" : "Centre Médico-Psychologique Enfant et Adolescent (CMPEA)",
+      "definition" : "Il s'agit d'un service de santé mentale destiné aux enfants et adolescents qui propose des consultations, évaluations et suivis psychologiques ou psychiatriques, en lien avec la famille et l’école.",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "CMPEA"
+        }
+      ],
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-10-17T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-10-17T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "282",
+      "display" : "Unité hospitalière de psychiatrie de l’enfant et de l’adolescent (pédopsychiatrie)",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "Unité de pédopsychiatrie"
+        }
+      ],
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-10-17T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-10-17T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "283",
+      "display" : "Equipe mobile de psychiatrie périnatale",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "Equipe mobile psy périnatale"
+        }
+      ],
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-10-17T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-10-17T12:00:00+01:00"
         },
         {
           "code" : "status",

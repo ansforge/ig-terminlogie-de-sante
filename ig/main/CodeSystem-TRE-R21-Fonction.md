@@ -1,4 +1,4 @@
-# TRE_R21_Fonction - Terminologies de Santé v1.3.0
+# TRE_R21_Fonction - Terminologies de Santé v1.4.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R21-Fonction/FHIR/TRE-R21-Fonction | *Version*:20250623120000 | |
-| Active as of 2025-06-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R21_Fonction |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R21-Fonction/FHIR/TRE-R21-Fonction | *Version*:20251023120000 | |
+| Active as of 2025-10-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R21_Fonction |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.17 | | |
 
  
@@ -30,8 +30,8 @@ Fonction
   "resourceType" : "CodeSystem",
   "id" : "TRE-R21-Fonction",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2025-07-02T18:13:49.053+00:00",
+    "versionId" : "9",
+    "lastUpdated" : "2025-10-31T14:59:22.247+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
     ]
@@ -51,11 +51,11 @@ Fonction
       "value" : "urn:oid:1.2.250.1.213.1.6.1.17"
     }
   ],
-  "version" : "20250623120000",
+  "version" : "20251023120000",
   "name" : "TRE_R21_Fonction",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-06-23T12:00:00+01:00",
+  "date" : "2025-10-23T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Fonction",
   "jurisdiction" : [
@@ -70,7 +70,7 @@ Fonction
   ],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 54,
+  "count" : 55,
   "property" : [
     {
       "code" : "dateValid",
@@ -1356,6 +1356,34 @@ Fonction
         {
           "code" : "dateMaj",
           "valueDateTime" : "2025-06-23T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "FON-62",
+      "display" : "Consultations de solidarité territoriale",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "Fonction d'un médecin volontaire exerçant dans une zone rouge identifiée dans le cadre du pacte de solidarité (zone en manque de médecins traitants)"
+        }
+      ],
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-10-23T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-10-23T12:00:00+01:00"
         },
         {
           "code" : "status",

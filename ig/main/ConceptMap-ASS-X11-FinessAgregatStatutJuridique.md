@@ -1,4 +1,4 @@
-# ASS_X11_FinessAgregatStatutJuridique - Terminologies de Santé v1.3.0
+# ASS_X11_FinessAgregatStatutJuridique - Terminologies de Santé v1.4.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -38,7 +38,7 @@ Mapping de (non spécifié) vers (non spécifié)
   "title" : "ASS_X11_FinessAgregatStatutJuridique",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-10-31T04:22:19+00:00",
+  "date" : "2025-10-31T14:38:45+00:00",
   "publisher" : "ANS",
   "contact" : [
     {

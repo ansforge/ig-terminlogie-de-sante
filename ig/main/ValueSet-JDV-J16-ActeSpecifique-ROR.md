@@ -1,4 +1,4 @@
-# JDV_J16_ActeSpecifique_ROR - Terminologies de Santé v1.3.0
+# JDV_J16_ActeSpecifique_ROR - Terminologies de Santé v1.4.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J16-ActeSpecifique-ROR/FHIR/JDV-J16-ActeSpecifique-ROR | *Version*:20250919120000 | |
-| Active as of 2025-09-19 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J16_ActeSpecifique_ROR |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J16-ActeSpecifique-ROR/FHIR/JDV-J16-ActeSpecifique-ROR | *Version*:20251017120000 | |
+| Active as of 2025-10-17 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J16_ActeSpecifique_ROR |
 | *Other Identifiers:*OID:1.2.250.1.213.3.4.4 | | |
 
  
@@ -29,11 +29,11 @@ Requête sur le SMT
 
 ### Logical Definition (CLD)
 
-version: 24; Dernière mise à jour : 2025-10-02 19:01:57+0200; Langue : fr-FR
+version: 25; Dernière mise à jour : 2025-10-31 15:17:56+0100; Langue : fr-FR
 
 Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
 
-* Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique`](CodeSystem-TRE-R210-ActeSpecifique.md)version 📦20250919120000
+* Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique`](CodeSystem-TRE-R210-ActeSpecifique.md)version 📦20251017120000
 
  
 
@@ -61,8 +61,8 @@ Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
   "resourceType" : "ValueSet",
   "id" : "JDV-J16-ActeSpecifique-ROR",
   "meta" : {
-    "versionId" : "24",
-    "lastUpdated" : "2025-10-02T19:01:57.497+02:00",
+    "versionId" : "25",
+    "lastUpdated" : "2025-10-31T15:17:56.994+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -81,11 +81,11 @@ Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
       "value" : "urn:oid:1.2.250.1.213.3.4.4"
     }
   ],
-  "version" : "20250919120000",
+  "version" : "20251017120000",
   "name" : "JDV_J16_ActeSpecifique_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-09-19T12:00:00+01:00",
+  "date" : "2025-10-17T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Acte spécifique - ROR",
   "jurisdiction" : [
@@ -4858,6 +4858,30 @@ Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
           {
             "code" : "1550",
             "display" : "Autodialyse assistée"
+          },
+          {
+            "code" : "1551",
+            "display" : "Accueil en unité protégée"
+          },
+          {
+            "code" : "1552",
+            "display" : "Rééducation par réalité virtuelle"
+          },
+          {
+            "code" : "1553",
+            "display" : "Rééducation de l’amputé"
+          },
+          {
+            "code" : "1554",
+            "display" : "Rééducation vestibulaire (trouble de l’équilibre)"
+          },
+          {
+            "code" : "1555",
+            "display" : "Rééducation du rachis"
+          },
+          {
+            "code" : "1556",
+            "display" : "Rééducation des paralysies cérébrales et polyhandicaps"
           }
         ]
       }

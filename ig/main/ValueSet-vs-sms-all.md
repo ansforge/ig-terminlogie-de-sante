@@ -1,4 +1,4 @@
-# ValueSet_SMS_All - Terminologies de Santé v1.3.0
+# ValueSet_SMS_All - Terminologies de Santé v1.4.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -72,7 +72,7 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "name" : "ValueSet_SMS_All",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-10-31T04:22:19+00:00",
+  "date" : "2025-10-31T14:38:45+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Ce jeu de valeurs inclut tous les codes de la terminologie SMS, Dictionnaire des substances médicamenteuses",
   "jurisdiction" : [

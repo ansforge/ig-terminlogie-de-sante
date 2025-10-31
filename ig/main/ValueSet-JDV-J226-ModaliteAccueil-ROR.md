@@ -1,4 +1,4 @@
-# JDV_J226_ModaliteAccueil_ROR - Terminologies de Santé v1.3.0
+# JDV_J226_ModaliteAccueil_ROR - Terminologies de Santé v1.4.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -33,7 +33,7 @@ version: 14; Dernière mise à jour : 2025-10-02 19:02:01+0200; Langue : fr-FR
 
 Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
 
-* Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R338-ModaliteAccueil/FHIR/TRE-R338-ModaliteAccueil`](CodeSystem-TRE-R338-ModaliteAccueil.md)version 📦20250828120000
+* Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R338-ModaliteAccueil/FHIR/TRE-R338-ModaliteAccueil`](CodeSystem-TRE-R338-ModaliteAccueil.md)version 📦20251017120000
 
  
 

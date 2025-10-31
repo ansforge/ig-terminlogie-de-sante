@@ -1,4 +1,4 @@
-# TRE_R343_FonctionLieu - Terminologies de Santé v1.3.0
+# TRE_R343_FonctionLieu - Terminologies de Santé v1.4.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R343-FonctionLieu/FHIR/TRE-R343-FonctionLieu | *Version*:20250620120000 | |
-| Active as of 2025-06-20 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R343_FonctionLieu |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R343-FonctionLieu/FHIR/TRE-R343-FonctionLieu | *Version*:20251017120000 | |
+| Active as of 2025-10-17 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R343_FonctionLieu |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.227 | | |
 
  
@@ -28,8 +28,8 @@ Destination d’usage du lieu
   "resourceType" : "CodeSystem",
   "id" : "TRE-R343-FonctionLieu",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-07-02T18:17:42.919+00:00",
+    "versionId" : "7",
+    "lastUpdated" : "2025-10-31T15:01:41.551+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
     ]
@@ -49,11 +49,11 @@ Destination d’usage du lieu
       "value" : "urn:oid:1.2.250.1.213.3.3.227"
     }
   ],
-  "version" : "20250620120000",
+  "version" : "20251017120000",
   "name" : "TRE_R343_FonctionLieu",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-06-20T12:00:00+01:00",
+  "date" : "2025-10-17T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Destination d'usage du lieu",
   "jurisdiction" : [
@@ -68,7 +68,7 @@ Destination d’usage du lieu
   ],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 13,
+  "count" : 14,
   "property" : [
     {
       "code" : "dateValid",
@@ -362,6 +362,25 @@ Destination d’usage du lieu
         {
           "code" : "dateMaj",
           "valueDateTime" : "2025-06-20T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "014",
+      "display" : "Bloc obstétrical",
+      "definition" : "Lieu hospitalier dédié à la prise en charge des césariennes, disposant des locaux, du matériel et des équipes pluridisciplinaires (sages-femmes, obstétriciens, anesthésistes, pédiatres) nécessaires à toute heure pour assurer la sécurité de la mère et du nouveau-né, y compris en cas de complications obstétricales.",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-10-17T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-10-17T12:00:00+01:00"
         },
         {
           "code" : "status",

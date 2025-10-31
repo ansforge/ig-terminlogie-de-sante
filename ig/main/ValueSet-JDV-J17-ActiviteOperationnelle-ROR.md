@@ -1,4 +1,4 @@
-# JDV_J17_ActiviteOperationnelle_ROR - Terminologies de Santé v1.3.0
+# JDV_J17_ActiviteOperationnelle_ROR - Terminologies de Santé v1.4.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J17-ActiviteOperationnelle-ROR/FHIR/JDV-J17-ActiviteOperationnelle-ROR | *Version*:20250828120000 | |
-| Active as of 2025-08-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J17_ActiviteOperationnelle_ROR |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J17-ActiviteOperationnelle-ROR/FHIR/JDV-J17-ActiviteOperationnelle-ROR | *Version*:20251017120000 | |
+| Active as of 2025-10-17 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J17_ActiviteOperationnelle_ROR |
 | *Other Identifiers:*OID:1.2.250.1.213.3.4.5 | | |
 
  
@@ -29,11 +29,11 @@ Requête sur le SMT
 
 ### Logical Definition (CLD)
 
-version: 22; Dernière mise à jour : 2025-10-02 19:01:59+0200; Langue : fr-FR
+version: 23; Dernière mise à jour : 2025-10-31 15:17:58+0100; Langue : fr-FR
 
 Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
 
-* Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle`](CodeSystem-TRE-R211-ActiviteOperationnelle.md)version 📦20250918120000
+* Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle`](CodeSystem-TRE-R211-ActiviteOperationnelle.md)version 📦20251017120000
 
  
 
@@ -61,8 +61,8 @@ Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
   "resourceType" : "ValueSet",
   "id" : "JDV-J17-ActiviteOperationnelle-ROR",
   "meta" : {
-    "versionId" : "22",
-    "lastUpdated" : "2025-10-02T19:01:59.037+02:00",
+    "versionId" : "23",
+    "lastUpdated" : "2025-10-31T15:17:58.586+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -81,11 +81,11 @@ Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
       "value" : "urn:oid:1.2.250.1.213.3.4.5"
     }
   ],
-  "version" : "20250828120000",
+  "version" : "20251017120000",
   "name" : "JDV_J17_ActiviteOperationnelle_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-08-28T12:00:00+01:00",
+  "date" : "2025-10-17T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Activité Operationnelle - ROR",
   "jurisdiction" : [
@@ -189,7 +189,7 @@ Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
           },
           {
             "code" : "035",
-            "display" : "Coordination hospitalière de prélèvement d'organes"
+            "display" : "Coordination hospitalière de prélèvement d'organe"
           },
           {
             "code" : "037",
@@ -2153,15 +2153,15 @@ Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
           },
           {
             "code" : "594",
-            "display" : "Coordination hospitalière de prélèvement de tissus"
+            "display" : "Coordination hospitalière de prélèvement de tissu"
           },
           {
             "code" : "595",
-            "display" : "Coordination hospitalière de prélèvement de tissus pédiatrique"
+            "display" : "Coordination hospitalière de prélèvement de tissu pédiatrique"
           },
           {
             "code" : "596",
-            "display" : "Coordination hospitalière de prélèvement d’organes pédiatrique"
+            "display" : "Coordination hospitalière de prélèvement d’organe pédiatrique"
           },
           {
             "code" : "597",

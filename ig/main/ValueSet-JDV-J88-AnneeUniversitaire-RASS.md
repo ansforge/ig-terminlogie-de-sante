@@ -1,4 +1,4 @@
-# JDV_J88_AnneeUniversitaire_RASS - Terminologies de Santé v1.3.0
+# JDV_J88_AnneeUniversitaire_RASS - Terminologies de Santé v1.4.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J88-AnneeUniversitaire-RASS/FHIR/JDV-J88-AnneeUniversitaire-RASS | *Version*:20200424120000 | |
-| Active as of 2020-04-24 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J88_AnneeUniversitaire_RASS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J88-AnneeUniversitaire-RASS/FHIR/JDV-J88-AnneeUniversitaire-RASS | *Version*:20251016120000 | |
+| Active as of 2025-10-16 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J88_AnneeUniversitaire_RASS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.156 | | |
 
  
@@ -29,11 +29,11 @@ Requête sur le SMT
 
 ### Logical Definition (CLD)
 
-version: 4; Dernière mise à jour : 2025-07-02 17:06:54+0000; Langue : fr-FR
+version: 5; Dernière mise à jour : 2025-10-31 15:18:01+0100; Langue : fr-FR
 
 Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
 
-* Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R225-AnneeUniversitaire/FHIR/TRE-R225-AnneeUniversitaire`](CodeSystem-TRE-R225-AnneeUniversitaire.md)version 📦20231215120000
+* Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R225-AnneeUniversitaire/FHIR/TRE-R225-AnneeUniversitaire`](CodeSystem-TRE-R225-AnneeUniversitaire.md)version 📦20251009120000
 
  
 
@@ -61,8 +61,8 @@ Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
   "resourceType" : "ValueSet",
   "id" : "JDV-J88-AnneeUniversitaire-RASS",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2025-07-02T17:06:54.476+00:00",
+    "versionId" : "5",
+    "lastUpdated" : "2025-10-31T15:18:01.944+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -81,11 +81,11 @@ Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
       "value" : "urn:oid:1.2.250.1.213.1.6.1.156"
     }
   ],
-  "version" : "20200424120000",
+  "version" : "20251016120000",
   "name" : "JDV_J88_AnneeUniversitaire_RASS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2020-04-24T12:00:00+01:00",
+  "date" : "2025-10-16T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Années universitaires des professionnels du RASS",
   "jurisdiction" : [
@@ -103,6 +103,14 @@ Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
       {
         "system" : "https://mos.esante.gouv.fr/NOS/TRE_R225-AnneeUniversitaire/FHIR/TRE-R225-AnneeUniversitaire",
         "concept" : [
+          {
+            "code" : "AU0809",
+            "display" : "2008-2009"
+          },
+          {
+            "code" : "AU0910",
+            "display" : "2009-2010"
+          },
           {
             "code" : "AU1011",
             "display" : "2010-2011"

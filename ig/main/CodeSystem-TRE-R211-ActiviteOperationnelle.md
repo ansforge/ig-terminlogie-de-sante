@@ -1,4 +1,4 @@
-# TRE_R211_ActiviteOperationnelle - Terminologies de Santé v1.3.0
+# TRE_R211_ActiviteOperationnelle - Terminologies de Santé v1.4.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle | *Version*:20250918120000 | |
-| Active as of 2025-09-18 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R211_ActiviteOperationnelle |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle | *Version*:20251017120000 | |
+| Active as of 2025-10-17 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R211_ActiviteOperationnelle |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.12 | | |
 
  
@@ -30,8 +30,8 @@ Activite Operationnelle
   "resourceType" : "CodeSystem",
   "id" : "TRE-R211-ActiviteOperationnelle",
   "meta" : {
-    "versionId" : "22",
-    "lastUpdated" : "2025-10-02T20:13:38.448+02:00",
+    "versionId" : "23",
+    "lastUpdated" : "2025-10-31T15:01:29.432+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
     ]
@@ -51,11 +51,11 @@ Activite Operationnelle
       "value" : "urn:oid:1.2.250.1.213.3.3.12"
     }
   ],
-  "version" : "20250918120000",
+  "version" : "20251017120000",
   "name" : "TRE_R211_ActiviteOperationnelle",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-09-18T12:00:00+01:00",
+  "date" : "2025-10-17T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Activite Operationnelle",
   "jurisdiction" : [
@@ -830,7 +830,7 @@ Activite Operationnelle
     },
     {
       "code" : "035",
-      "display" : "Coordination hospitalière de prélèvement d'organes",
+      "display" : "Coordination hospitalière de prélèvement d'organe",
       "definition" : "Equipe pluriprofessionnelle de professionnels de santé, ayant pour mission d'organiser et de coordonner les dons d'organes et de tissus, d'assurer le lien entre les différents acteurs de la chaîne de don, de garantir le respect des procédures et des bonnes pratiques légales éthiques et techniques, d'organiser la prise en charge du donneur et d'accompagner les proches tout au long du processus de don.",
       "property" : [
         {
@@ -839,7 +839,7 @@ Activite Operationnelle
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-08-28T12:00:00+01:00"
+          "valueDateTime" : "2025-10-17T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -12026,6 +12026,7 @@ Activite Operationnelle
     {
       "code" : "593",
       "display" : "Prise en charge coordonnée des patients atteints de maladies rares",
+      "definition" : "Organisation de soins qui dispense  pour les personnes atteintes de maladies rares, un accompagnement pluridisciplinaire, depuis le diagnostic jusqu’au suivi, impliquant professionnels spécialisés, de proximité, médico-social, social et associations.",
       "property" : [
         {
           "code" : "dateValid",
@@ -12033,7 +12034,7 @@ Activite Operationnelle
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-08-28T12:00:00+01:00"
+          "valueDateTime" : "2025-10-17T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -12043,7 +12044,7 @@ Activite Operationnelle
     },
     {
       "code" : "594",
-      "display" : "Coordination hospitalière de prélèvement de tissus",
+      "display" : "Coordination hospitalière de prélèvement de tissu",
       "property" : [
         {
           "code" : "dateValid",
@@ -12051,7 +12052,7 @@ Activite Operationnelle
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-08-28T12:00:00+01:00"
+          "valueDateTime" : "2025-10-17T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -12061,7 +12062,7 @@ Activite Operationnelle
     },
     {
       "code" : "595",
-      "display" : "Coordination hospitalière de prélèvement de tissus pédiatrique",
+      "display" : "Coordination hospitalière de prélèvement de tissu pédiatrique",
       "property" : [
         {
           "code" : "dateValid",
@@ -12069,7 +12070,7 @@ Activite Operationnelle
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-08-28T12:00:00+01:00"
+          "valueDateTime" : "2025-10-17T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -12079,7 +12080,7 @@ Activite Operationnelle
     },
     {
       "code" : "596",
-      "display" : "Coordination hospitalière de prélèvement d’organes pédiatrique",
+      "display" : "Coordination hospitalière de prélèvement d’organe pédiatrique",
       "property" : [
         {
           "code" : "dateValid",
@@ -12087,7 +12088,7 @@ Activite Operationnelle
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-08-28T12:00:00+01:00"
+          "valueDateTime" : "2025-10-17T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -12098,6 +12099,7 @@ Activite Operationnelle
     {
       "code" : "597",
       "display" : "Evaluation de la mémoire (bilan mémoire)",
+      "definition" : "Evaluation clinique spécialisée qui mesure de façon formelle les capacités mnésiques  (encodage, stockage, restitution ) et recherche leur retentissement sur la vie quotidienne, à l’aide de tests validés, d’un entretien, et d’examens complémentaires afin de poser un diagnostic ou d’orienter vers une prise en charge adaptée.",
       "property" : [
         {
           "code" : "dateValid",
@@ -12105,7 +12107,7 @@ Activite Operationnelle
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-08-28T12:00:00+01:00"
+          "valueDateTime" : "2025-10-17T12:00:00+01:00"
         },
         {
           "code" : "status",

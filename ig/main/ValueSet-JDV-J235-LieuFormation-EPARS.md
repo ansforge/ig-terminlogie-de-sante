@@ -1,4 +1,4 @@
-# JDV_J235_LieuFormation_EPARS - Terminologies de Santé v1.3.0
+# JDV_J235_LieuFormation_EPARS - Terminologies de Santé v1.4.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -33,7 +33,7 @@ version: 5; Dernière mise à jour : 2025-07-02 17:06:02+0000; Langue : fr-FR
 
 Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
 
-* Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R16-LieuFormation/FHIR/TRE-R16-LieuFormation`](CodeSystem-TRE-R16-LieuFormation.md)version 📦20250709120000
+* Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R16-LieuFormation/FHIR/TRE-R16-LieuFormation`](CodeSystem-TRE-R16-LieuFormation.md)version 📦20251016120000
 
  
 

@@ -1,4 +1,4 @@
-# JDV_J07_XdsTypeCode_CISIS - Terminologies de Santé v1.3.0
+# JDV_J07_XdsTypeCode_CISIS - Terminologies de Santé v1.4.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J07-XdsTypeCode-CISIS/FHIR/JDV-J07-XdsTypeCode-CISIS | *Version*:20250623120000 | |
-| Active as of 2025-06-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J07_XdsTypeCode_CISIS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J07-XdsTypeCode-CISIS/FHIR/JDV-J07-XdsTypeCode-CISIS | *Version*:20251029120000 | |
+| Active as of 2025-10-29 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J07_XdsTypeCode_CISIS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.471 | | |
 
  
@@ -29,7 +29,7 @@ Requête sur le SMT
 
 ### Logical Definition (CLD)
 
-version: 12; Dernière mise à jour : 2025-07-02 17:04:36+0000; Langue : fr-FR
+version: 13; Dernière mise à jour : 2025-10-31 15:17:54+0100; Langue : fr-FR
 
 Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
 
@@ -49,7 +49,7 @@ Expansion from tx.fhir.org based on:
 * [codesystem TRE_A05_TypeDocComplementaire v20240329120000 (CodeSystem)](CodeSystem-TRE-A05-TypeDocComplementaire.md)
 * [codesystem TRE_A12_NomenclatureASTM v20231215120000 (CodeSystem)](CodeSystem-TRE-A12-NomenclatureASTM.md)
 
-Ce jeu de valeur (ValueSet) contient 118 concepts
+Ce jeu de valeur (ValueSet) contient 119 concepts
 
 -------
 
@@ -73,8 +73,8 @@ Ce jeu de valeur (ValueSet) contient 118 concepts
   "resourceType" : "ValueSet",
   "id" : "JDV-J07-XdsTypeCode-CISIS",
   "meta" : {
-    "versionId" : "12",
-    "lastUpdated" : "2025-07-02T17:04:36.798+00:00",
+    "versionId" : "13",
+    "lastUpdated" : "2025-10-31T15:17:54.211+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -93,11 +93,11 @@ Ce jeu de valeur (ValueSet) contient 118 concepts
       "value" : "urn:oid:1.2.250.1.213.1.1.5.471"
     }
   ],
-  "version" : "20250623120000",
+  "version" : "20251029120000",
   "name" : "JDV_J07_XdsTypeCode_CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-06-23T12:00:00+01:00",
+  "date" : "2025-10-29T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "XDS typeCode CI-SIS",
   "jurisdiction" : [
@@ -511,6 +511,10 @@ Ce jeu de valeur (ValueSet) contient 118 concepts
           {
             "code" : "83901-9",
             "display" : "Bilan psychologique"
+          },
+          {
+            "code" : "83963-9",
+            "display" : "Synthèse environnementale"
           },
           {
             "code" : "83981-1",

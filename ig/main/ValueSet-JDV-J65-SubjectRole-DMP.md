@@ -1,4 +1,4 @@
-# JDV_J65_SubjectRole_DMP - Terminologies de Santé v1.3.0
+# JDV_J65_SubjectRole_DMP - Terminologies de Santé v1.4.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -44,7 +44,7 @@ Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :
 * Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R01-EnsembleSavoirFaire-CISIS/FHIR/TRE-R01-EnsembleSavoirFaire-CISIS`](CodeSystem-TRE-R01-EnsembleSavoirFaire-CISIS.md)version 📦20241213120000 
 * Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_G05-SousSectionTableauCNOP/FHIR/TRE-G05-SousSectionTableauCNOP`](CodeSystem-TRE-G05-SousSectionTableauCNOP.md)version 📦20231215120000 
 * Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R22-GenreActivite/FHIR/TRE-R22-GenreActivite`](CodeSystem-TRE-R22-GenreActivite.md)version 📦20240329120000 
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R21-Fonction/FHIR/TRE-R21-Fonction`](CodeSystem-TRE-R21-Fonction.md)version 📦20250623120000 
+* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R21-Fonction/FHIR/TRE-R21-Fonction`](CodeSystem-TRE-R21-Fonction.md)version 📦20251023120000 
 * Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge`](CodeSystem-TRE-R85-RolePriseCharge.md)version 📦20250919120000 
 
  

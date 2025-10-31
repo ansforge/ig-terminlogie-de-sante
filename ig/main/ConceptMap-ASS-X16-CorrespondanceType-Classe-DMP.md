@@ -1,4 +1,4 @@
-# ASS_X16_CorrespondanceType_Classe_DMP - Terminologies de Santé v1.3.0
+# ASS_X16_CorrespondanceType_Classe_DMP - Terminologies de Santé v1.4.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,14 +8,14 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/ASS_X16-CorrespondanceType-Classe-DMP/FHIR/ASS-X16-CorrespondanceType-Classe-DMP | *Version*:20240223120000 |
-| Active as of 2024-02-23 | *Computable Name*:ASS_X16_CorrespondanceType_Classe_DMP |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/ASS_X16-CorrespondanceType-Classe-DMP/FHIR/ASS-X16-CorrespondanceType-Classe-DMP | *Version*:20240927120000 |
+| Active as of 2024-09-27 | *Computable Name*:ASS_X16_CorrespondanceType_Classe_DMP |
 | *Other Identifiers:*urn:oid:1.2.250.1.213.1.1.5.587 | |
 
  
 Correspondance entre types et classes de documents, restreinte aux codes des JDV_J66 et JDV_J57 du DMP 
 
-Mapping de (non spécifié) vers [JDV_J57_ClassCode_DMP](ValueSet-JDV-J57-ClassCode-DMP.md)
+Mapping de [JDV_J66_TypeCode_DMP](ValueSet-JDV-J66-TypeCode-DMP.md) vers [JDV_J57_ClassCode_DMP](ValueSet-JDV-J57-ClassCode-DMP.md)
 
 **Groupe 1**Mapping de [Logical Observation Identifiers, Names and Codes (LOINC)](http://terminology.hl7.org/6.5.0/CodeSystem-v3-loinc.html) to [TRE_A03_ClasseDocument](CodeSystem-TRE-A03-ClasseDocument.md)
 
@@ -55,6 +55,9 @@ Mapping de (non spécifié) vers [JDV_J57_ClassCode_DMP](ValueSet-JDV-J57-ClassC
 * **Code source**: 18776-5 (Plan of care note)
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
   * **Code cible**: 44 (Plan de soins, protocole de soins)
+* **Code source**: 28617-9 (Dentistry Progress note)
+  * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * **Code cible**: 10 (Compte rendu)
 * **Code source**: 28653-4 (Social worker Note)
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
   * **Code cible**: 10 (Compte rendu)
@@ -62,6 +65,9 @@ Mapping de (non spécifié) vers [JDV_J57_ClassCode_DMP](ValueSet-JDV-J57-ClassC
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
   * **Code cible**: 10 (Compte rendu)
 * **Code source**: 34112-3 (Hospital Note)
+  * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * **Code cible**: 10 (Compte rendu)
+* **Code source**: 34120-6 (Outpatient Initial evaluation note)
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
   * **Code cible**: 10 (Compte rendu)
 * **Code source**: 34133-9 (Summary of episode note)
@@ -121,6 +127,9 @@ Mapping de (non spécifié) vers [JDV_J57_ClassCode_DMP](ValueSet-JDV-J57-ClassC
 * **Code source**: 59284-0 (Consent Document)
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
   * **Code cible**: 95 (Document de gestion)
+* **Code source**: 60280-5 (Emergency department Discharge instructions)
+  * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * **Code cible**: 11 (Synthèse)
 * **Code source**: 60568-3 (Pathology synoptic report)
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
   * **Code cible**: 10 (Compte rendu)
@@ -169,6 +178,9 @@ Mapping de (non spécifié) vers [JDV_J57_ClassCode_DMP](ValueSet-JDV-J57-ClassC
 * **Code source**: 77604-7 (Medication treatment plan.brief Document)
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
   * **Code cible**: 44 (Plan de soins, protocole de soins)
+* **Code source**: 78341-5 (Emergency department Transfer summary note)
+  * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * **Code cible**: 11 (Synthèse)
 * **Code source**: 78489-2 (Neonatal perinatal medicine Transfer summary note)
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
   * **Code cible**: 11 (Synthèse)
@@ -214,6 +226,9 @@ Mapping de (non spécifié) vers [JDV_J57_ClassCode_DMP](ValueSet-JDV-J57-ClassC
 * **Code source**: 88348-8 (Nurse Long term care facility Transfer summary note)
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
   * **Code cible**: 11 (Synthèse)
+* **Code source**: 89233-1 (Obstetrics Progress note)
+  * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * **Code cible**: 10 (Compte rendu)
 * **Code source**: 89235-6 (Obstetrics Transfer summary note)
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
   * **Code cible**: 11 (Synthèse)
@@ -230,6 +245,9 @@ Mapping de (non spécifié) vers [JDV_J57_ClassCode_DMP](ValueSet-JDV-J57-ClassC
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
   * **Code cible**: 10 (Compte rendu)
 * **Code source**: 96874-3 (COVID-19 Immunization note)
+  * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * **Code cible**: 52 (Certificat, déclaration)
+* **Code source**: 101881-1 (Implant card)
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
   * **Code cible**: 52 (Certificat, déclaration)
 
@@ -363,12 +381,12 @@ Mapping de (non spécifié) vers [JDV_J57_ClassCode_DMP](ValueSet-JDV-J57-ClassC
   "identifier" : {
     "value" : "urn:oid:1.2.250.1.213.1.1.5.587"
   },
-  "version" : "20240223120000",
+  "version" : "20240927120000",
   "name" : "ASS_X16_CorrespondanceType_Classe_DMP",
   "title" : "ASS_X16_CorrespondanceType_Classe_DMP",
   "status" : "active",
   "experimental" : false,
-  "date" : "2024-02-23T12:00:00+01:00",
+  "date" : "2024-09-27T12:00:00+01:00",
   "description" : "Correspondance entre types et classes de documents, restreinte aux codes des JDV_J66 et JDV_J57 du DMP",
   "jurisdiction" : [
     {
@@ -380,6 +398,7 @@ Mapping de (non spécifié) vers [JDV_J57_ClassCode_DMP](ValueSet-JDV-J57-ClassC
       ]
     }
   ],
+  "sourceUri" : "https://mos.esante.gouv.fr/NOS/JDV_J66-TypeCode-DMP/FHIR/JDV-J66-TypeCode-DMP",
   "targetUri" : "https://mos.esante.gouv.fr/NOS/JDV_J57-ClassCode-DMP/FHIR/JDV-J57-ClassCode-DMP",
   "group" : [
     {
@@ -495,6 +514,15 @@ Mapping de (non spécifié) vers [JDV_J57_ClassCode_DMP](ValueSet-JDV-J57-ClassC
           ]
         },
         {
+          "code" : "28617-9",
+          "target" : [
+            {
+              "code" : "10",
+              "equivalence" : "equivalent"
+            }
+          ]
+        },
+        {
           "code" : "28653-4",
           "target" : [
             {
@@ -514,6 +542,15 @@ Mapping de (non spécifié) vers [JDV_J57_ClassCode_DMP](ValueSet-JDV-J57-ClassC
         },
         {
           "code" : "34112-3",
+          "target" : [
+            {
+              "code" : "10",
+              "equivalence" : "equivalent"
+            }
+          ]
+        },
+        {
+          "code" : "34120-6",
           "target" : [
             {
               "code" : "10",
@@ -693,6 +730,15 @@ Mapping de (non spécifié) vers [JDV_J57_ClassCode_DMP](ValueSet-JDV-J57-ClassC
           ]
         },
         {
+          "code" : "60280-5",
+          "target" : [
+            {
+              "code" : "11",
+              "equivalence" : "equivalent"
+            }
+          ]
+        },
+        {
           "code" : "60568-3",
           "target" : [
             {
@@ -837,6 +883,15 @@ Mapping de (non spécifié) vers [JDV_J57_ClassCode_DMP](ValueSet-JDV-J57-ClassC
           ]
         },
         {
+          "code" : "78341-5",
+          "target" : [
+            {
+              "code" : "11",
+              "equivalence" : "equivalent"
+            }
+          ]
+        },
+        {
           "code" : "78489-2",
           "target" : [
             {
@@ -972,6 +1027,15 @@ Mapping de (non spécifié) vers [JDV_J57_ClassCode_DMP](ValueSet-JDV-J57-ClassC
           ]
         },
         {
+          "code" : "89233-1",
+          "target" : [
+            {
+              "code" : "10",
+              "equivalence" : "equivalent"
+            }
+          ]
+        },
+        {
           "code" : "89235-6",
           "target" : [
             {
@@ -1018,6 +1082,15 @@ Mapping de (non spécifié) vers [JDV_J57_ClassCode_DMP](ValueSet-JDV-J57-ClassC
         },
         {
           "code" : "96874-3",
+          "target" : [
+            {
+              "code" : "52",
+              "equivalence" : "equivalent"
+            }
+          ]
+        },
+        {
+          "code" : "101881-1",
           "target" : [
             {
               "code" : "52",
