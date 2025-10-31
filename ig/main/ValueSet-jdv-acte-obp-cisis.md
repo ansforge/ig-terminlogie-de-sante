@@ -43,7 +43,13 @@ Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :
 
 ### Expansion
 
-No Expansion for this valueset (not supported by Publication Tooling)
+Expansion from smt.esante.gouv.fr, tx.fhir.org based on:
+
+* Loinc v2.81
+* [codesystem TerminologieCISIS - Terminologie des concepts non trouvés dans les autres terminologies v202510230000 (CodeSystem)](CodeSystem-terminologie-cisis.md)
+* SNOMED CT 11000315107 edition 21-Jun 2025
+
+Ce jeu de valeur (ValueSet) contient 7 concepts
 
 -------
 

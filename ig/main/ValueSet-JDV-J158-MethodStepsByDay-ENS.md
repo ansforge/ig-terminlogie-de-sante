@@ -39,7 +39,9 @@ Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
 
 ### Expansion
 
-No Expansion for this valueset (not supported by Publication Tooling)
+Expansion from smt.esante.gouv.fr based on [system European Medical device nomenclature vv1.2 (CodeSystem)](CodeSystem-terminologie-emdn.md)
+
+Ce jeu de valeur (ValueSet) contient 3 concepts
 
 -------
 
