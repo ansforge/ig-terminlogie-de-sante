@@ -7,12 +7,12 @@ Usage: #definition
 * extension[=].valueBoolean = true
 * url = "https://mos.esante.gouv.fr/NOS/ASS_X04-CorrespondanceType-Classe-CISIS/FHIR/ASS-X04-CorrespondanceType-Classe-CISIS"
 * identifier.value = "urn:oid:1.2.250.1.213.1.1.4.249"
-* version = "20250623120000"
+* version = "20251028120000"
 * name = "ASS_X04_CorrespondanceType_Classe_CISIS"
 * title = "ASS_X04_CorrespondanceType_Classe_CISIS"
 * experimental = false
 * status = #active
-* date = "2025-06-23T12:00:00+01:00"
+* date = "2025-10-28T12:00:00+01:00"
 * description = "Correspondance entre types et classes de documents CI-SIS"
 // * sourceUri = "https://mos.esante.gouv.fr/NOS/JDV_J07-XdsTypeCode-CISIS/FHIR/JDV-J07-XdsTypeCode-CISIS"
 * targetUri = "https://mos.esante.gouv.fr/NOS/JDV_J06-XdsClassCode-CISIS/FHIR/JDV-J06-XdsClassCode-CISIS"
@@ -186,6 +186,12 @@ Usage: #definition
 * group[=].element[+].code = #61357-0
 * group[=].element[=].target.code = #42
 * group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #61358-8
+* group[=].element[=].target.code = #95
+* group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #61359-6
+* group[=].element[=].target.code = #95
+* group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #67851-6
 * group[=].element[=].target.code = #10
 * group[=].element[=].target.equivalence = #equivalent
@@ -261,6 +267,9 @@ Usage: #definition
 * group[=].element[+].code = #83901-9
 * group[=].element[=].target.code = #11
 * group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #83963-9
+* group[=].element[=].target.code = #11
+* group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #83981-1
 * group[=].element[=].target.code = #10
 * group[=].element[=].target.equivalence = #equivalent
@@ -303,6 +312,9 @@ Usage: #definition
 * group[=].element[+].code = #100967-9
 * group[=].element[=].target.code = #10
 * group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #101881-1
+* group[=].element[=].target.code = #52
+* group[=].element[=].target.equivalence = #equivalent
 * group[+].source = "https://mos.esante.gouv.fr/NOS/TRE_A05-TypeDocComplementaire/FHIR/TRE-A05-TypeDocComplementaire"
 * group[=].target = "https://mos.esante.gouv.fr/NOS/TRE_A03-ClasseDocument/FHIR/TRE-A03-ClasseDocument"
 * group[=].element[0].code = #ATTEST-ASS-COMPL
@@ -317,6 +329,9 @@ Usage: #definition
 * group[=].element[+].code = #ATTEST-DROITS-AM
 * group[=].element[=].target.code = #95
 * group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #ATTEST-VITALE
+* group[=].element[=].target.code = #95
+* group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #AUTORIS-SOINS
 * group[=].element[=].target.code = #95
 * group[=].element[=].target.equivalence = #equivalent
@@ -325,6 +340,9 @@ Usage: #definition
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #CERT_DECL
 * group[=].element[=].target.code = #52
+* group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #CONTACTS-URGENCE
+* group[=].element[=].target.code = #95
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #DISP_AUT
 * group[=].element[=].target.code = #43
@@ -367,6 +385,9 @@ Usage: #definition
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #DOCPAT09
 * group[=].element[=].target.code = #95
+* group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #DOCPAT10
+* group[=].element[=].target.code = #90
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #IMG-KOS
 * group[=].element[=].target.code = #31

@@ -7,14 +7,14 @@ Usage: #definition
 * extension[=].valueBoolean = true
 * url = "https://mos.esante.gouv.fr/NOS/ASS_X16-CorrespondanceType-Classe-DMP/FHIR/ASS-X16-CorrespondanceType-Classe-DMP"
 * identifier.value = "urn:oid:1.2.250.1.213.1.1.5.587"
-* version = "20240223120000"
+* version = "20240927120000"
 * name = "ASS_X16_CorrespondanceType_Classe_DMP"
 * title = "ASS_X16_CorrespondanceType_Classe_DMP"
 * experimental = false
 * status = #active
-* date = "2024-02-23T12:00:00+01:00"
+* date = "2024-09-27T12:00:00+01:00"
 * description = "Correspondance entre types et classes de documents, restreinte aux codes des JDV_J66 et JDV_J57 du DMP"
-//* sourceUri = "https://mos.esante.gouv.fr/NOS/JDV_J66-TypeCode-DMP/FHIR/JDV-J66-TypeCode-DMP"
+* sourceUri = "https://mos.esante.gouv.fr/NOS/JDV_J66-TypeCode-DMP/FHIR/JDV-J66-TypeCode-DMP"
 * targetUri = "https://mos.esante.gouv.fr/NOS/JDV_J57-ClassCode-DMP/FHIR/JDV-J57-ClassCode-DMP"
 * group[0].source = "http://loinc.org"
 * group[=].target = "https://mos.esante.gouv.fr/NOS/TRE_A03-ClasseDocument/FHIR/TRE-A03-ClasseDocument"
@@ -54,6 +54,9 @@ Usage: #definition
 * group[=].element[+].code = #18776-5
 * group[=].element[=].target.code = #44
 * group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #28617-9
+* group[=].element[=].target.code = #10
+* group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #28653-4
 * group[=].element[=].target.code = #10
 * group[=].element[=].target.equivalence = #equivalent
@@ -61,6 +64,9 @@ Usage: #definition
 * group[=].element[=].target.code = #10
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #34112-3
+* group[=].element[=].target.code = #10
+* group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #34120-6
 * group[=].element[=].target.code = #10
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #34133-9
@@ -120,6 +126,9 @@ Usage: #definition
 * group[=].element[+].code = #59284-0
 * group[=].element[=].target.code = #95
 * group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #60280-5
+* group[=].element[=].target.code = #11
+* group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #60568-3
 * group[=].element[=].target.code = #10
 * group[=].element[=].target.equivalence = #equivalent
@@ -168,6 +177,9 @@ Usage: #definition
 * group[=].element[+].code = #77604-7
 * group[=].element[=].target.code = #44
 * group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #78341-5
+* group[=].element[=].target.code = #11
+* group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #78489-2
 * group[=].element[=].target.code = #11
 * group[=].element[=].target.equivalence = #equivalent
@@ -213,6 +225,9 @@ Usage: #definition
 * group[=].element[+].code = #88348-8
 * group[=].element[=].target.code = #11
 * group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #89233-1
+* group[=].element[=].target.code = #10
+* group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #89235-6
 * group[=].element[=].target.code = #11
 * group[=].element[=].target.equivalence = #equivalent
@@ -229,6 +244,9 @@ Usage: #definition
 * group[=].element[=].target.code = #10
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #96874-3
+* group[=].element[=].target.code = #52
+* group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #101881-1
 * group[=].element[=].target.code = #52
 * group[=].element[=].target.equivalence = #equivalent
 * group[+].source = "https://mos.esante.gouv.fr/NOS/TRE_A05-TypeDocComplementaire/FHIR/TRE-A05-TypeDocComplementaire"
