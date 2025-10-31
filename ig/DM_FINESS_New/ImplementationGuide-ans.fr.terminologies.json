@@ -42965,10 +42965,10 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
-        "reference" : "CodeSystem/TRE-R400-FinessStatutJuridique"
+        "reference" : "CodeSystem/tre-r397-categorie-entite-geographique-exercice"
       },
-      "name" : "Tre R400 Finess Statut Juridique",
-      "description" : "Statuts juridiques de FINESS",
+      "name" : "Tre R397 Categorie Entite Geographique Exercice",
+      "description" : "Catégorie d'établissements - TRE Hierarchique qui remplace la TRE R66",
       "exampleBoolean" : false
     },
     {
@@ -42977,10 +42977,10 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
-        "reference" : "CodeSystem/tre-r397-categorie-entite-geographique-exercice"
+        "reference" : "CodeSystem/TRE-R400-FinessStatutJuridique"
       },
-      "name" : "TreR397CategorieEntiteGeographiqueExercice",
-      "description" : "Catégorie d'établissements - TRE Hierarchique qui remplace la TRE R66",
+      "name" : "Tre R400 Finess Statut Juridique",
+      "description" : "Statuts juridiques de FINESS",
       "exampleBoolean" : false
     },
     {

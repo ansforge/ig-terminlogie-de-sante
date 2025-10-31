@@ -33208,10 +33208,10 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/TRE-R400-FinessStatutJuridique"/>
+        <reference value="CodeSystem/tre-r397-categorie-entite-geographique-exercice"/>
       </reference>
-      <name value="Tre R400 Finess Statut Juridique"/>
-      <description value="Statuts juridiques de FINESS"/>
+      <name value="Tre R397 Categorie Entite Geographique Exercice"/>
+      <description value="Catégorie d'établissements - TRE Hierarchique qui remplace la TRE R66"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -33219,10 +33219,10 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/tre-r397-categorie-entite-geographique-exercice"/>
+        <reference value="CodeSystem/TRE-R400-FinessStatutJuridique"/>
       </reference>
-      <name value="TreR397CategorieEntiteGeographiqueExercice"/>
-      <description value="Catégorie d'établissements - TRE Hierarchique qui remplace la TRE R66"/>
+      <name value="Tre R400 Finess Statut Juridique"/>
+      <description value="Statuts juridiques de FINESS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

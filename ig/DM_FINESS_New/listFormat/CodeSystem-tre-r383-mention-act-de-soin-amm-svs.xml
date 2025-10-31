@@ -586,15 +586,6 @@
                   longDesignation="Adulte et pédiatrique"
                   shortDesignation="Adulte et pédiatrique"
                   descriptionMetier=""/>
-         <concept code="ME066"
-                  codeSystem="1.2.250.1.213.1.6.1.298"
-                  dateFin=""
-                  dateMaj="19000101000000"
-                  dateValid="19000101000000"
-                  displayName="Antenne de médecine d'urgence"
-                  longDesignation="Antenne de médecine d'urgence"
-                  shortDesignation="Antenne de médecine d'urgence"
-                  descriptionMetier=""/>
          <concept code="ME067"
                   codeSystem="1.2.250.1.213.1.6.1.298"
                   dateFin=""

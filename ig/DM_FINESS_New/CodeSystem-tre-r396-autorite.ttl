@@ -32,7 +32,7 @@
   fhir:url [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"^^xsd:anyURI] ; # 
   fhir:identifier ( [
      fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
-     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.378" ]
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.377" ]
   ] ) ; # 
   fhir:version [ fhir:v "20250825120000"] ; # 
   fhir:name [ fhir:v "TreR396Autorite"] ; # 

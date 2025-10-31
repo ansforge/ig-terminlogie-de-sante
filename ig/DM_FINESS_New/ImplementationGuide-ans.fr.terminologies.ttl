@@ -60006,11 +60006,11 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/TRE-R400-FinessStatutJuridique> ;
-         fhir:reference [ fhir:v "CodeSystem/TRE-R400-FinessStatutJuridique" ]
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r397-categorie-entite-geographique-exercice> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r397-categorie-entite-geographique-exercice" ]
        ] ;
-       fhir:name [ fhir:v "Tre R400 Finess Statut Juridique" ] ;
-       fhir:description [ fhir:v "Statuts juridiques de FINESS" ] ;
+       fhir:name [ fhir:v "Tre R397 Categorie Entite Geographique Exercice" ] ;
+       fhir:description [ fhir:v "Catégorie d'établissements - TRE Hierarchique qui remplace la TRE R66" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -60024,11 +60024,11 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r397-categorie-entite-geographique-exercice> ;
-         fhir:reference [ fhir:v "CodeSystem/tre-r397-categorie-entite-geographique-exercice" ]
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/TRE-R400-FinessStatutJuridique> ;
+         fhir:reference [ fhir:v "CodeSystem/TRE-R400-FinessStatutJuridique" ]
        ] ;
-       fhir:name [ fhir:v "TreR397CategorieEntiteGeographiqueExercice" ] ;
-       fhir:description [ fhir:v "Catégorie d'établissements - TRE Hierarchique qui remplace la TRE R66" ] ;
+       fhir:name [ fhir:v "Tre R400 Finess Statut Juridique" ] ;
+       fhir:description [ fhir:v "Statuts juridiques de FINESS" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
