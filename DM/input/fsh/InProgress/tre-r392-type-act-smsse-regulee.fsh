@@ -7997,10 +7997,6 @@ Description: "Type activité SMSSE régulée"
 * #510 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
 * #510 ^property[+].code = #declarationAMM
 * #510 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE018
-* #511 ^property[+].code = #pratiqueTherapeutiqueSpecifiqueAMM
-* #511 ^property[=].valueCoding = $tre-r384-pratique-therapeutique-specifique-act-de-soin-amm#PTS00
-* #511 ^property[+].code = #declarationAMM
-* #511 ^property[=].valueCoding = $tre-r385-declaration-act-de-soin-amm#DE017
 * #513 "AMM/QA015/MO006/ME016/PTS00/DE005"
 * #513 ^property[0].code = #dateValid
 * #513 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
