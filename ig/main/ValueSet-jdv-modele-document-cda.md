@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://mos.esante.gouv.fr/NOS/JDV-ModeleDocumentCDA | *Version*:1.1.0 |
-| Active as of 2025-10-31 | *Computable Name*:JdvModeleDocumentCda |
+| Active as of 2025-11-01 | *Computable Name*:JdvModeleDocumentCda |
 
  
 JDV avec l’ensemble des codes de la TRE_R220_ModeleDocumentCDAStructure et TRE_R221_ModeleDocumentCDANonStructure 
@@ -79,7 +79,7 @@ Ce jeu de valeur (ValueSet) contient 84 concepts
   "title" : "Jdv Modele Document Cda",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-10-31T14:38:45+00:00",
+  "date" : "2025-11-01T04:20:29+00:00",
   "publisher" : "ANS",
   "contact" : [
     {
