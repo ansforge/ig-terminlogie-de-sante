@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250626120000"
+             dateMaj="20251016120000"
              dateValid="20190830120000"
              description="Ensemble des fonctions et rôles du RASS"
              displayName="JDV_J108_EnsembleFonction_RASS"
@@ -133,6 +133,9 @@
          <concept code="FON-60"
                   codeSystem="1.2.250.1.213.1.6.1.17"
                   displayName="Pharmacien remplaçant BPDO"/>
+         <concept code="FON-62"
+                  codeSystem="1.2.250.1.213.1.6.1.17"
+                  displayName="Consultations de solidarité territoriale"/>
          <concept code="FON-AU"
                   codeSystem="1.2.250.1.213.1.6.1.17"
                   displayName="Fonction non définie"/>
@@ -295,9 +298,6 @@
          <concept code="349"
                   codeSystem="1.2.250.1.213.1.6.1.107"
                   displayName="Etudiant - masseur-kinésithérapeute"/>
-         <concept code="350"
-                  codeSystem="1.2.250.1.213.1.6.1.107"
-                  displayName="Aide à domicile"/>
          <concept code="351"
                   codeSystem="1.2.250.1.213.1.6.1.107"
                   displayName="Assistant(e) maternel(le)"/>
@@ -349,12 +349,15 @@
          <concept code="368"
                   codeSystem="1.2.250.1.213.1.6.1.107"
                   displayName="Animateur"/>
-         <concept code="369"
-                  codeSystem="1.2.250.1.213.1.6.1.107"
-                  displayName="Biologiste médical non-médecin"/>
          <concept code="370"
                   codeSystem="1.2.250.1.213.1.6.1.107"
                   displayName="Opérateur de Soins Non Programmés"/>
+         <concept code="371"
+                  codeSystem="1.2.250.1.213.1.6.1.107"
+                  displayName="Aide à domicile qualifié(e)"/>
+         <concept code="372"
+                  codeSystem="1.2.250.1.213.1.6.1.107"
+                  displayName="Aide à domicile"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>
