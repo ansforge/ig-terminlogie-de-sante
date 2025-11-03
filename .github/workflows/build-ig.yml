@@ -18,6 +18,14 @@ jobs:
       - uses: actions/checkout@v4
         with:      
           path: igSource
+
+      - run: |
+          echo 'PACKAGE_JSON<<EOF' >> $GITHUB_ENV
+          cat ./igSource/publication-request.json >> $GITHUB_ENV
+          echo 'EOF' >> $GITHUB_ENV
+      - run: |
+          echo '${{ fromJson(env.PACKAGE_JSON).version }}'
+          echo '${{ fromJson(env.PACKAGE_JSON).desc }}'
       
       - name: Install fhirpy
         run :  pip install fhirpy
