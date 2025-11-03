@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://mos.esante.gouv.fr/NOS/ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS | *Version*:5.0.0 |
-| Active as of 2025-11-02 | *Computable Name*:ASS_A11_CorresModeleCDA_XdsFormatCode_CISIS |
+| Active as of 2025-11-03 | *Computable Name*:ASS_A11_CorresModeleCDA_XdsFormatCode_CISIS |
 | **Usage:**Workflow Task:  | |
 
  
@@ -298,7 +298,7 @@ Mapping de [Jdv Modele Document Cda](ValueSet-jdv-modele-document-cda.md) vers (
   "title" : "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-11-02T04:21:31+00:00",
+  "date" : "2025-11-03T04:27:11+00:00",
   "publisher" : "ANS",
   "contact" : [
     {
