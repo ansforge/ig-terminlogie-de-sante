@@ -1,4 +1,3 @@
-
 Alias: $sct = http://snomed.info/sct
 
 CodeSystem : TreR397CategorieEntiteGeographiqueExercice
@@ -65,9 +64,6 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #0100 "Etablissements d'administration"
 * #0100 ^property[0].code = #niveau
 * #0100 ^property[=].valueInteger =  1
-* #0100 ^property[+].code = #domaine
-* #0100 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
-* #0100 ^property[=].valueCoding.code = #ADM
 * #0100 ^designation[0].language = #fr-FR
 * #0100 ^designation[=].use.system = "http://snomed.info/sct"
 * #0100 ^designation[=].use = $sct#900000000000013009
@@ -85,9 +81,6 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #1000 "Etablissements Relevant de la Loi Hospitalière"
 * #1000 ^property[0].code = #niveau
 * #1000 ^property[=].valueInteger =  1
-* #1000 ^property[+].code = #domaine
-* #1000 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
-* #1000 ^property[=].valueCoding.code = #SAN
 * #1000 ^designation[0].language = #fr-FR
 * #1000 ^designation[=].use.system = "http://snomed.info/sct"
 * #1000 ^designation[=].use = $sct#900000000000013009
@@ -101,9 +94,6 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #2000 "Autres Etablissements de Soins et Prévention"
 * #2000 ^property[0].code = #niveau
 * #2000 ^property[=].valueInteger =  1
-* #2000 ^property[+].code = #domaine
-* #2000 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
-* #2000 ^property[=].valueCoding.code = #SAN
 * #2000 ^designation[0].language = #fr-FR
 * #2000 ^designation[=].use.system = "http://snomed.info/sct"
 * #2000 ^designation[=].use = $sct#900000000000013009
@@ -121,9 +111,6 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #3000 "Autres Etablissements à Caractère Sanitaire"
 * #3000 ^property[0].code = #niveau
 * #3000 ^property[=].valueInteger =  1
-* #3000 ^property[+].code = #domaine
-* #3000 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
-* #3000 ^property[=].valueCoding.code = #SAN
 * #3000 ^designation[0].language = #fr-FR
 * #3000 ^designation[=].use.system = "http://snomed.info/sct"
 * #3000 ^designation[=].use = $sct#900000000000013009
@@ -141,9 +128,6 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4000 "Etab.Serv.Soc.d'Accueil Hébergement Assistance Réadaptation"
 * #4000 ^property[0].code = #niveau
 * #4000 ^property[=].valueInteger =  1
-* #4000 ^property[+].code = #domaine
-* #4000 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
-* #4000 ^property[=].valueCoding.code = #SOC
 * #4000 ^designation[0].language = #fr-FR
 * #4000 ^designation[=].use.system = "http://snomed.info/sct"
 * #4000 ^designation[=].use = $sct#900000000000013009
@@ -161,9 +145,6 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #5000 "Etablissements et Services Sociaux d'Aide à la Famille"
 * #5000 ^property[0].code = #niveau
 * #5000 ^property[=].valueInteger =  1
-* #5000 ^property[+].code = #domaine
-* #5000 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
-* #5000 ^property[=].valueCoding.code = #SOC
 * #5000 ^designation[0].language = #fr-FR
 * #5000 ^designation[=].use.system = "http://snomed.info/sct"
 * #5000 ^designation[=].use = $sct#900000000000013009
@@ -177,9 +158,6 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #6000 "Etab.de Formation des Personnels Sanitaires et Sociaux"
 * #6000 ^property[0].code = #niveau
 * #6000 ^property[=].valueInteger =  1
-* #6000 ^property[+].code = #domaine
-* #6000 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
-* #6000 ^property[=].valueCoding.code = #ENS
 * #6000 ^designation[0].language = #fr-FR
 * #6000 ^designation[=].use = $sct#900000000000013009
 * #6000 ^designation[=].value = "Etab.Form.San & Soc"
@@ -192,23 +170,6 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #6000 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #6000 ^property[+].code = #status
 * #6000 ^property[=].valueCode = #active
-* #110 "Etablissements d'Administration"
-* #110 ^property[0].code = #niveau
-* #110 ^property[=].valueInteger =  2
-* #110 ^designation[0].language = #fr-FR
-* #110 ^designation[=].use.system = "http://snomed.info/sct"
-* #110 ^designation[=].use = $sct#900000000000013009
-* #110 ^designation[=].value = "Etab.Administration"
-* #110 ^property[+].code = #dateValid
-* #110 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
-* #110 ^property[+].code = #dateFin
-* #110 ^property[=].valueDateTime = "2019-10-01T12:00:00+01:00"
-* #110 ^property[+].code = #dateMaj
-* #110 ^property[=].valueDateTime = "2019-10-01T12:00:00+01:00"
-* #110 ^property[+].code = #deprecationDate
-* #110 ^property[=].valueDateTime = "2019-10-01T12:00:00+01:00"
-* #110 ^property[+].code = #status
-* #110 ^property[=].valueCode = #deprecated
 * #0110 "Etablissements d'Administration"
 * #0110 ^property[0].code = #niveau
 * #0110 ^property[=].valueInteger =  2
@@ -227,6 +188,23 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #0110 ^property[=].valueDateTime = "2023-01-27T12:00:00+01:00"
 * #0110 ^property[+].code = #status
 * #0110 ^property[=].valueCode = #deprecated
+* #110 "Etablissements d'Administration"
+* #110 ^property[0].code = #niveau
+* #110 ^property[=].valueInteger =  2
+* #110 ^designation[0].language = #fr-FR
+* #110 ^designation[=].use.system = "http://snomed.info/sct"
+* #110 ^designation[=].use = $sct#900000000000013009
+* #110 ^designation[=].value = "Etab.Administration"
+* #110 ^property[+].code = #dateValid
+* #110 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
+* #110 ^property[+].code = #dateFin
+* #110 ^property[=].valueDateTime = "2019-10-01T12:00:00+01:00"
+* #110 ^property[+].code = #dateMaj
+* #110 ^property[=].valueDateTime = "2019-10-01T12:00:00+01:00"
+* #110 ^property[+].code = #deprecationDate
+* #110 ^property[=].valueDateTime = "2019-10-01T12:00:00+01:00"
+* #110 ^property[+].code = #status
+* #110 ^property[=].valueCode = #deprecated
 * #1100 "Etablissements Hospitaliers"
 * #1100 ^property[0].code = #niveau
 * #1100 ^property[=].valueInteger =  2
@@ -285,8 +263,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #2200 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #2200 ^property[+].code = #dateMaj
 * #2200 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
-* #2100 ^property[+].code = #status
-* #2100 ^property[=].valueCode = #active
+* #2200 ^property[+].code = #status
+* #2200 ^property[=].valueCode = #active
 * #3100 "Laboratoires de Biologie Médicale"
 * #3100 ^property[0].code = #niveau
 * #3100 ^property[=].valueInteger =  2
@@ -1869,6 +1847,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #001 "Autres lits de m.R."
 * #001 ^property[0].code = #niveau
 * #001 ^property[=].valueInteger =  4
+* #001 ^property[+].code = #domaine
+* #001 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #001 ^property[=].valueCoding.code = #SOC
 * #001 ^property[+].code = #parent
 * #001 ^property[=].valueCode = #4401
 * #001 ^designation[0].language = #fr-FR
@@ -1888,6 +1869,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #002 "Autres places de l-f."
 * #002 ^property[0].code = #niveau
 * #002 ^property[=].valueInteger =  4
+* #002 ^property[+].code = #domaine
+* #002 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #002 ^property[=].valueCoding.code = #SOC
 * #002 ^property[+].code = #parent
 * #002 ^property[=].valueCode = #4401
 * #002 ^designation[0].language = #fr-FR
@@ -1907,6 +1891,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #003 "Autres lits de l-s"
 * #003 ^property[0].code = #niveau
 * #003 ^property[=].valueInteger =  4
+* #003 ^property[+].code = #domaine
+* #003 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #003 ^property[=].valueCoding.code = #SAN
 * #003 ^property[+].code = #parent
 * #003 ^property[=].valueCode = #1109
 * #003 ^property[+].code = #dateValid
@@ -1922,6 +1909,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #101 "Centre Hospitalier Régional (C.H.R.)"
 * #101 ^property[0].code = #niveau
 * #101 ^property[=].valueInteger =  4
+* #101 ^property[+].code = #domaine
+* #101 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #101 ^property[=].valueCoding.code = #SAN
 * #101 ^property[+].code = #parent
 * #101 ^property[=].valueCode = #1101
 * #101 ^designation[0].language = #fr-FR
@@ -1941,6 +1931,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #106 "Centre hospitalier, ex Hôpital local"
 * #106 ^property[0].code = #niveau
 * #106 ^property[=].valueInteger =  4
+* #106 ^property[+].code = #domaine
+* #106 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #106 ^property[=].valueCoding.code = #SAN
 * #106 ^property[+].code = #parent
 * #106 ^property[=].valueCode = #1106
 * #106 ^designation[0].language = #fr-FR
@@ -1960,6 +1953,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #108 "Etablissement de Convalescence et de Repos"
 * #108 ^property[0].code = #niveau
 * #108 ^property[=].valueInteger =  4
+* #108 ^property[+].code = #domaine
+* #108 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #108 ^property[=].valueCoding.code = #SAN
 * #108 ^property[+].code = #parent
 * #108 ^property[=].valueCode = #1107
 * #108 ^designation[0].language = #fr-FR
@@ -1979,6 +1975,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #109 "Etablissement de santé privé autorisé en SSR"
 * #109 ^property[0].code = #niveau
 * #109 ^property[=].valueInteger =  4
+* #109 ^property[+].code = #domaine
+* #109 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #109 ^property[=].valueCoding.code = #SAN
 * #109 ^property[+].code = #parent
 * #109 ^property[=].valueCode = #1107
 * #109 ^designation[0].language = #fr-FR
@@ -1998,6 +1997,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #112 "Centre de Convalescence Cure ou Réadaptation"
 * #112 ^property[0].code = #niveau
 * #112 ^property[=].valueInteger =  4
+* #112 ^property[+].code = #domaine
+* #112 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #112 ^property[=].valueCoding.code = #SAN
 * #112 ^property[+].code = #parent
 * #112 ^property[=].valueCode = #1107
 * #112 ^designation[0].language = #fr-FR
@@ -2021,6 +2023,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #114 "Hôpital des armées"
 * #114 ^property[0].code = #niveau
 * #114 ^property[=].valueInteger =  4
+* #114 ^property[+].code = #domaine
+* #114 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #114 ^property[=].valueCoding.code = #SAN
 * #114 ^property[+].code = #parent
 * #114 ^property[=].valueCode = #2205
 * #114 ^designation[0].language = #fr-FR
@@ -2036,6 +2041,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #115 "Etablissement de Soins du Service de Santé des Armées"
 * #115 ^property[0].code = #niveau
 * #115 ^property[=].valueInteger =  4
+* #115 ^property[+].code = #domaine
+* #115 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #115 ^property[=].valueCoding.code = #SAN
 * #115 ^property[+].code = #parent
 * #115 ^property[=].valueCode = #2205
 * #115 ^designation[0].language = #fr-FR
@@ -2055,6 +2063,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #119 "Maison de Régime"
 * #119 ^property[0].code = #niveau
 * #119 ^property[=].valueInteger =  4
+* #119 ^property[+].code = #domaine
+* #119 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #119 ^property[=].valueCoding.code = #SAN
 * #119 ^property[+].code = #parent
 * #119 ^property[=].valueCode = #1107
 * #119 ^property[+].code = #dateValid
@@ -2070,6 +2081,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #122 "Etablissement Soins Obstétriques Chirurgico-Gynécologiques"
 * #122 ^property[0].code = #niveau
 * #122 ^property[=].valueInteger =  4
+* #122 ^property[+].code = #domaine
+* #122 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #122 ^property[=].valueCoding.code = #SAN
 * #122 ^property[+].code = #parent
 * #122 ^property[=].valueCode = #1110
 * #122 ^designation[0].language = #fr-FR
@@ -2089,6 +2103,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #124 "Centre de Santé"
 * #124 ^property[0].code = #niveau
 * #124 ^property[=].valueInteger =  4
+* #124 ^property[+].code = #domaine
+* #124 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #124 ^property[=].valueCoding.code = #SAN
 * #124 ^property[+].code = #parent
 * #124 ^property[=].valueCode = #2206
 * #124 ^property[+].code = #dateValid
@@ -2100,6 +2117,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #125 "Centre de Santé Dentaire"
 * #125 ^property[0].code = #niveau
 * #125 ^property[=].valueInteger =  4
+* #125 ^property[+].code = #domaine
+* #125 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #125 ^property[=].valueCoding.code = #SAN
 * #125 ^property[+].code = #parent
 * #125 ^property[=].valueCode = #2206
 * #125 ^designation[0].language = #fr-FR
@@ -2119,6 +2139,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #126 "Etablissement Thermal"
 * #126 ^property[0].code = #niveau
 * #126 ^property[=].valueInteger =  4
+* #126 ^property[+].code = #domaine
+* #126 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #126 ^property[=].valueCoding.code = #SAN
 * #126 ^property[+].code = #parent
 * #126 ^property[=].valueCode = #1205
 * #126 ^designation[0].language = #fr-FR
@@ -2134,6 +2157,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #127 "Hospitalisation à Domicile"
 * #127 ^property[0].code = #niveau
 * #127 ^property[=].valueInteger =  4
+* #127 ^property[+].code = #domaine
+* #127 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #127 ^property[=].valueCoding.code = #SAN
 * #127 ^property[+].code = #parent
 * #127 ^property[=].valueCode = #1201
 * #127 ^designation[0].language = #fr-FR
@@ -2153,6 +2179,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #128 "Etablissement de Soins Chirurgicaux"
 * #128 ^property[0].code = #niveau
 * #128 ^property[=].valueInteger =  4
+* #128 ^property[+].code = #domaine
+* #128 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #128 ^property[=].valueCoding.code = #SAN
 * #128 ^property[+].code = #parent
 * #128 ^property[=].valueCode = #1110
 * #128 ^designation[0].language = #fr-FR
@@ -2168,6 +2197,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #129 "Etablissement de Soins Médicaux"
 * #129 ^property[0].code = #niveau
 * #129 ^property[=].valueInteger =  4
+* #129 ^property[+].code = #domaine
+* #129 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #129 ^property[=].valueCoding.code = #SAN
 * #129 ^property[+].code = #parent
 * #129 ^property[=].valueCode = #1110
 * #129 ^designation[0].language = #fr-FR
@@ -2183,6 +2215,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #130 "Centre de Soins Médicaux"
 * #130 ^property[0].code = #niveau
 * #130 ^property[=].valueInteger =  4
+* #130 ^property[+].code = #domaine
+* #130 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #130 ^property[=].valueCoding.code = #SAN
 * #130 ^property[+].code = #parent
 * #130 ^property[=].valueCode = #2206
 * #130 ^designation[0].language = #fr-FR
@@ -2202,6 +2237,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #131 "Centre de Lutte Contre Cancer"
 * #131 ^property[0].code = #niveau
 * #131 ^property[=].valueInteger =  4
+* #131 ^property[+].code = #domaine
+* #131 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #131 ^property[=].valueCoding.code = #SAN
 * #131 ^property[+].code = #parent
 * #131 ^property[=].valueCode = #1104
 * #131 ^designation[0].language = #fr-FR
@@ -2217,6 +2255,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #132 "Etablissement de Transfusion Sanguine"
 * #132 ^property[0].code = #niveau
 * #132 ^property[=].valueInteger =  4
+* #132 ^property[+].code = #domaine
+* #132 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #132 ^property[=].valueCoding.code = #SAN
 * #132 ^property[+].code = #parent
 * #132 ^property[=].valueCode = #3401
 * #132 ^designation[0].language = #fr-FR
@@ -2232,6 +2273,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #135 "Etablissement Réadaptation Fonctionnelle"
 * #135 ^property[0].code = #niveau
 * #135 ^property[=].valueInteger =  4
+* #135 ^property[+].code = #domaine
+* #135 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #135 ^property[=].valueCoding.code = #SAN
 * #135 ^property[+].code = #parent
 * #135 ^property[=].valueCode = #1107
 * #135 ^designation[0].language = #fr-FR
@@ -2251,6 +2295,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #136 "Banque de Sperme"
 * #136 ^property[0].code = #niveau
 * #136 ^property[=].valueInteger =  4
+* #136 ^property[+].code = #domaine
+* #136 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #136 ^property[=].valueCoding.code = #SAN
 * #136 ^property[+].code = #parent
 * #136 ^property[=].valueCode = #3402
 * #136 ^property[+].code = #dateValid
@@ -2266,6 +2313,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #137 "Banque d'Organes"
 * #137 ^property[0].code = #niveau
 * #137 ^property[=].valueInteger =  4
+* #137 ^property[+].code = #domaine
+* #137 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #137 ^property[=].valueCoding.code = #SAN
 * #137 ^property[+].code = #parent
 * #137 ^property[=].valueCode = #3402
 * #137 ^property[+].code = #dateValid
@@ -2281,6 +2331,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #138 "Centre de Dialyse Périodique"
 * #138 ^property[0].code = #niveau
 * #138 ^property[=].valueInteger =  4
+* #138 ^property[+].code = #domaine
+* #138 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #138 ^property[=].valueCoding.code = #SAN
 * #138 ^property[+].code = #parent
 * #138 ^property[=].valueCode = #1203
 * #138 ^designation[0].language = #fr-FR
@@ -2300,6 +2353,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #139 "Centre de Dialyse et d'entraînement à la Dialyse"
 * #139 ^property[0].code = #niveau
 * #139 ^property[=].valueInteger =  4
+* #139 ^property[+].code = #domaine
+* #139 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #139 ^property[=].valueCoding.code = #SAN
 * #139 ^property[+].code = #parent
 * #139 ^property[=].valueCode = #1203
 * #139 ^designation[0].language = #fr-FR
@@ -2319,6 +2375,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #140 "Centre d'Entraînement à la Dialyse"
 * #140 ^property[0].code = #niveau
 * #140 ^property[=].valueInteger =  4
+* #140 ^property[+].code = #domaine
+* #140 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #140 ^property[=].valueCoding.code = #SAN
 * #140 ^property[+].code = #parent
 * #140 ^property[=].valueCode = #1203
 * #140 ^designation[0].language = #fr-FR
@@ -2338,6 +2397,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #141 "Centre de dialyse"
 * #141 ^property[0].code = #niveau
 * #141 ^property[=].valueInteger =  4
+* #141 ^property[+].code = #domaine
+* #141 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #141 ^property[=].valueCoding.code = #SAN
 * #141 ^property[+].code = #parent
 * #141 ^property[=].valueCode = #1203
 * #141 ^designation[0].language = #fr-FR
@@ -2353,6 +2415,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #142 "Dispensaire Antituberculeux"
 * #142 ^property[0].code = #niveau
 * #142 ^property[=].valueInteger =  4
+* #142 ^property[+].code = #domaine
+* #142 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #142 ^property[=].valueCoding.code = #SAN
 * #142 ^property[+].code = #parent
 * #142 ^property[=].valueCode = #2201
 * #142 ^designation[0].language = #fr-FR
@@ -2368,6 +2433,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #143 "Centre de Vaccination BCG"
 * #143 ^property[0].code = #niveau
 * #143 ^property[=].valueInteger =  4
+* #143 ^property[+].code = #domaine
+* #143 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #143 ^property[=].valueCoding.code = #SAN
 * #143 ^property[+].code = #parent
 * #143 ^property[=].valueCode = #2201
 * #143 ^designation[0].language = #fr-FR
@@ -2383,6 +2451,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #144 "Etablissement de Lutte Contre la Tuberculose"
 * #144 ^property[0].code = #niveau
 * #144 ^property[=].valueInteger =  4
+* #144 ^property[+].code = #domaine
+* #144 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #144 ^property[=].valueCoding.code = #SAN
 * #144 ^property[+].code = #parent
 * #144 ^property[=].valueCode = #1107
 * #144 ^designation[0].language = #fr-FR
@@ -2402,6 +2473,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #146 "Structure d'Alternative à la dialyse en centre"
 * #146 ^property[0].code = #niveau
 * #146 ^property[=].valueInteger =  4
+* #146 ^property[+].code = #domaine
+* #146 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #146 ^property[=].valueCoding.code = #SAN
 * #146 ^property[+].code = #parent
 * #146 ^property[=].valueCode = #1203
 * #146 ^designation[0].language = #fr-FR
@@ -2417,6 +2491,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #156 "Centre Médico-Psychologique (C.M.P.)"
 * #156 ^property[0].code = #niveau
 * #156 ^property[=].valueInteger =  4
+* #156 ^property[+].code = #domaine
+* #156 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #156 ^property[=].valueCoding.code = #SAN
 * #156 ^property[+].code = #parent
 * #156 ^property[=].valueCode = #1111
 * #156 ^designation[0].language = #fr-FR
@@ -2436,6 +2513,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #157 "Centre de Postcure"
 * #157 ^property[0].code = #niveau
 * #157 ^property[=].valueInteger =  4
+* #157 ^property[+].code = #domaine
+* #157 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #157 ^property[=].valueCoding.code = #SAN
 * #157 ^property[+].code = #parent
 * #157 ^property[=].valueCode = #1111
 * #157 ^designation[0].language = #fr-FR
@@ -2455,6 +2535,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #159 "Centre Parental"
 * #159 ^property[0].code = #niveau
 * #159 ^property[=].valueInteger =  4
+* #159 ^property[+].code = #domaine
+* #159 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #159 ^property[=].valueCoding.code = #SOC
 * #159 ^property[+].code = #parent
 * #159 ^property[=].valueCode = #4501
 * #159 ^property[+].code = #dateValid
@@ -2466,6 +2549,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #160 "Centre de Soins Spécifiques pour Toxicomanes (C.S.S.T.)"
 * #160 ^property[0].code = #niveau
 * #160 ^property[=].valueInteger =  4
+* #160 ^property[+].code = #domaine
+* #160 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #160 ^property[=].valueCoding.code = #SOC
 * #160 ^property[+].code = #parent
 * #160 ^property[=].valueCode = #4604
 * #160 ^designation[0].language = #fr-FR
@@ -2489,6 +2575,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #161 "Maison de Santé pour Maladies Mentales"
 * #161 ^property[0].code = #niveau
 * #161 ^property[=].valueInteger =  4
+* #161 ^property[+].code = #domaine
+* #161 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #161 ^property[=].valueCoding.code = #SAN
 * #161 ^property[+].code = #parent
 * #161 ^property[=].valueCode = #1111
 * #161 ^designation[0].language = #fr-FR
@@ -2504,6 +2593,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #162 "Centre de Cure Ambulatoire en Alcoologie (C.C.A.A.)"
 * #162 ^property[0].code = #niveau
 * #162 ^property[=].valueInteger =  4
+* #162 ^property[+].code = #domaine
+* #162 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #162 ^property[=].valueCoding.code = #SOC
 * #162 ^property[+].code = #parent
 * #162 ^property[=].valueCode = #4604
 * #162 ^designation[0].language = #fr-FR
@@ -2527,6 +2619,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #163 "Maison d'Enfants à Caractère Sanitaire Temporaire"
 * #163 ^property[0].code = #niveau
 * #163 ^property[=].valueInteger =  4
+* #163 ^property[+].code = #domaine
+* #163 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #163 ^property[=].valueCoding.code = #SAN
 * #163 ^property[+].code = #parent
 * #163 ^property[=].valueCode = #1112
 * #163 ^designation[0].language = #fr-FR
@@ -2550,6 +2645,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #164 "Etablissements Expérimentaux Accueil de la Petite Enfance"
 * #164 ^property[0].code = #niveau
 * #164 ^property[=].valueInteger =  4
+* #164 ^property[+].code = #domaine
+* #164 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #164 ^property[=].valueCoding.code = #SOC
 * #164 ^property[+].code = #parent
 * #164 ^property[=].valueCode = #5101
 * #164 ^designation[0].language = #fr-FR
@@ -2573,6 +2671,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #165 "Appartement de Coordination Thérapeutique (A.C.T.)"
 * #165 ^property[0].code = #niveau
 * #165 ^property[=].valueInteger =  4
+* #165 ^property[+].code = #domaine
+* #165 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #165 ^property[=].valueCoding.code = #SOC
 * #165 ^property[+].code = #parent
 * #165 ^property[=].valueCode = #4604
 * #165 ^designation[0].language = #fr-FR
@@ -2592,6 +2693,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #166 "Etablissement d'Accueil Mère-Enfant"
 * #166 ^property[0].code = #niveau
 * #166 ^property[=].valueInteger =  4
+* #166 ^property[+].code = #domaine
+* #166 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #166 ^property[=].valueCoding.code = #SOC
 * #166 ^property[+].code = #parent
 * #166 ^property[=].valueCode = #4501
 * #166 ^designation[0].language = #fr-FR
@@ -2607,6 +2711,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #167 "Crèche Collective"
 * #167 ^property[0].code = #niveau
 * #167 ^property[=].valueInteger =  4
+* #167 ^property[+].code = #domaine
+* #167 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #167 ^property[=].valueCoding.code = #SOC
 * #167 ^property[+].code = #parent
 * #167 ^property[=].valueCode = #5101
 * #167 ^property[+].code = #dateValid
@@ -2622,6 +2729,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #168 "Service Accueil Familial pour la Petite Enfance"
 * #168 ^property[0].code = #niveau
 * #168 ^property[=].valueInteger =  4
+* #168 ^property[+].code = #domaine
+* #168 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #168 ^property[=].valueCoding.code = #SOC
 * #168 ^property[+].code = #parent
 * #168 ^property[=].valueCode = #5101
 * #168 ^designation[0].language = #fr-FR
@@ -2641,6 +2751,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #169 "Crèche Multi Accueil Collectif et Familial"
 * #169 ^property[0].code = #niveau
 * #169 ^property[=].valueInteger =  4
+* #169 ^property[+].code = #domaine
+* #169 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #169 ^property[=].valueCoding.code = #SOC
 * #169 ^property[+].code = #parent
 * #169 ^property[=].valueCode = #5101
 * #169 ^designation[0].language = #fr-FR
@@ -2664,6 +2777,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #170 "Halte Garderie"
 * #170 ^property[0].code = #niveau
 * #170 ^property[=].valueInteger =  4
+* #170 ^property[+].code = #domaine
+* #170 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #170 ^property[=].valueCoding.code = #SOC
 * #170 ^property[+].code = #parent
 * #170 ^property[=].valueCode = #5101
 * #170 ^designation[0].language = #fr-FR
@@ -2683,6 +2799,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #171 "Garderie et Jardin d'Enfants"
 * #171 ^property[0].code = #niveau
 * #171 ^property[=].valueInteger =  4
+* #171 ^property[+].code = #domaine
+* #171 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #171 ^property[=].valueCoding.code = #SOC
 * #171 ^property[+].code = #parent
 * #171 ^property[=].valueCode = #5101
 * #171 ^designation[0].language = #fr-FR
@@ -2706,6 +2825,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #172 "Pouponnière à Caractère Social"
 * #172 ^property[0].code = #niveau
 * #172 ^property[=].valueInteger =  4
+* #172 ^property[+].code = #domaine
+* #172 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #172 ^property[=].valueCoding.code = #SOC
 * #172 ^property[+].code = #parent
 * #172 ^property[=].valueCode = #4501
 * #172 ^designation[0].language = #fr-FR
@@ -2721,6 +2843,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #173 "Pouponnière à Caractère Sanitaire"
 * #173 ^property[0].code = #niveau
 * #173 ^property[=].valueInteger =  4
+* #173 ^property[+].code = #domaine
+* #173 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #173 ^property[=].valueCoding.code = #SAN
 * #173 ^property[+].code = #parent
 * #173 ^property[=].valueCode = #1112
 * #173 ^designation[0].language = #fr-FR
@@ -2740,6 +2865,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #174 "Etablissement d'Accueil Collectif Régulier et Occasionnel"
 * #174 ^property[0].code = #niveau
 * #174 ^property[=].valueInteger =  4
+* #174 ^property[+].code = #domaine
+* #174 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #174 ^property[=].valueCoding.code = #SOC
 * #174 ^property[+].code = #parent
 * #174 ^property[=].valueCode = #5101
 * #174 ^designation[0].language = #fr-FR
@@ -2759,6 +2887,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #175 "Foyer de l'Enfance"
 * #175 ^property[0].code = #niveau
 * #175 ^property[=].valueInteger =  4
+* #175 ^property[+].code = #domaine
+* #175 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #175 ^property[=].valueCoding.code = #SOC
 * #175 ^property[+].code = #parent
 * #175 ^property[=].valueCode = #4501
 * #175 ^property[+].code = #dateValid
@@ -2770,6 +2901,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #176 "Village d'Enfants"
 * #176 ^property[0].code = #niveau
 * #176 ^property[=].valueInteger =  4
+* #176 ^property[+].code = #domaine
+* #176 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #176 ^property[=].valueCoding.code = #SOC
 * #176 ^property[+].code = #parent
 * #176 ^property[=].valueCode = #4501
 * #176 ^property[+].code = #dateValid
@@ -2781,6 +2915,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #177 "Maison d'Enfants à Caractère Social"
 * #177 ^property[0].code = #niveau
 * #177 ^property[=].valueInteger =  4
+* #177 ^property[+].code = #domaine
+* #177 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #177 ^property[=].valueCoding.code = #SOC
 * #177 ^property[+].code = #parent
 * #177 ^property[=].valueCode = #4501
 * #177 ^designation[0].language = #fr-FR
@@ -2796,6 +2933,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #178 "Ctre.Accueil- Accomp.Réduc.Risq.Usag. Drogues (C.A.A.R.U.D.)"
 * #178 ^property[0].code = #niveau
 * #178 ^property[=].valueInteger =  4
+* #178 ^property[+].code = #domaine
+* #178 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #178 ^property[=].valueCoding.code = #SOC
 * #178 ^property[+].code = #parent
 * #178 ^property[=].valueCode = #4604
 * #178 ^designation[0].language = #fr-FR
@@ -2815,6 +2955,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #179 "Maison d'Enfants à Caractère Sanitaire Permanente"
 * #179 ^property[0].code = #niveau
 * #179 ^property[=].valueInteger =  4
+* #179 ^property[+].code = #domaine
+* #179 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #179 ^property[=].valueCoding.code = #SAN
 * #179 ^property[+].code = #parent
 * #179 ^property[=].valueCode = #1112
 * #179 ^designation[0].language = #fr-FR
@@ -2838,6 +2981,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #180 "Lits Halte Soins Santé (L.H.S.S.)"
 * #180 ^property[0].code = #niveau
 * #180 ^property[=].valueInteger =  4
+* #180 ^property[+].code = #domaine
+* #180 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #180 ^property[=].valueCoding.code = #SOC
 * #180 ^property[+].code = #parent
 * #180 ^property[=].valueCode = #4604
 * #180 ^designation[0].language = #fr-FR
@@ -2857,6 +3003,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #181 "Maison Familiale de Vacances"
 * #181 ^property[0].code = #niveau
 * #181 ^property[=].valueInteger =  4
+* #181 ^property[+].code = #domaine
+* #181 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #181 ^property[=].valueCoding.code = #SOC
 * #181 ^property[+].code = #parent
 * #181 ^property[=].valueCode = #5103
 * #181 ^designation[0].language = #fr-FR
@@ -2876,6 +3025,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #182 "Service d'Éducation Spéciale et de Soins à Domicile"
 * #182 ^property[0].code = #niveau
 * #182 ^property[=].valueInteger =  4
+* #182 ^property[+].code = #domaine
+* #182 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #182 ^property[=].valueCoding.code = #SOC
 * #182 ^property[+].code = #parent
 * #182 ^property[=].valueCode = #4106
 * #182 ^designation[0].language = #fr-FR
@@ -2895,6 +3047,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #183 "Institut Médico-Educatif (I.M.E.)"
 * #183 ^property[0].code = #niveau
 * #183 ^property[=].valueInteger =  4
+* #183 ^property[+].code = #domaine
+* #183 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #183 ^property[=].valueCoding.code = #SOC
 * #183 ^property[+].code = #parent
 * #183 ^property[=].valueCode = #4101
 * #183 ^designation[0].language = #fr-FR
@@ -2914,6 +3069,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #184 "Institut Médico-Pédagogique (I.M.P.)"
 * #184 ^property[0].code = #niveau
 * #184 ^property[=].valueInteger =  4
+* #184 ^property[+].code = #domaine
+* #184 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #184 ^property[=].valueCoding.code = #SOC
 * #184 ^property[+].code = #parent
 * #184 ^property[=].valueCode = #4101
 * #184 ^designation[0].language = #fr-FR
@@ -2937,6 +3095,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #185 "Institut Médico-Professionnel (I.M.Pro.)"
 * #185 ^property[0].code = #niveau
 * #185 ^property[=].valueInteger =  4
+* #185 ^property[+].code = #domaine
+* #185 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #185 ^property[=].valueCoding.code = #SOC
 * #185 ^property[+].code = #parent
 * #185 ^property[=].valueCode = #4101
 * #185 ^designation[0].language = #fr-FR
@@ -2960,6 +3121,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #186 "Institut Thérapeutique Éducatif et Pédagogique (I.T.E.P.)"
 * #186 ^property[0].code = #niveau
 * #186 ^property[=].valueInteger =  4
+* #186 ^property[+].code = #domaine
+* #186 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #186 ^property[=].valueCoding.code = #SOC
 * #186 ^property[+].code = #parent
 * #186 ^property[=].valueCode = #4102
 * #186 ^designation[0].language = #fr-FR
@@ -2979,6 +3143,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #188 "Etablissement pour Enfants ou Adolescents Polyhandicapés"
 * #188 ^property[0].code = #niveau
 * #188 ^property[=].valueInteger =  4
+* #188 ^property[+].code = #domaine
+* #188 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #188 ^property[=].valueCoding.code = #SOC
 * #188 ^property[+].code = #parent
 * #188 ^property[=].valueCode = #4101
 * #188 ^designation[0].language = #fr-FR
@@ -2994,6 +3161,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #189 "Centre Médico-Psycho-Pédagogique (C.M.P.P.)"
 * #189 ^property[0].code = #niveau
 * #189 ^property[=].valueInteger =  4
+* #189 ^property[+].code = #domaine
+* #189 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #189 ^property[=].valueCoding.code = #SOC
 * #189 ^property[+].code = #parent
 * #189 ^property[=].valueCode = #4106
 * #189 ^designation[0].language = #fr-FR
@@ -3013,6 +3183,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #190 "Centre Action Médico-Sociale Précoce (C.A.M.S.P.)"
 * #190 ^property[0].code = #niveau
 * #190 ^property[=].valueInteger =  4
+* #190 ^property[+].code = #domaine
+* #190 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #190 ^property[=].valueCoding.code = #SOC
 * #190 ^property[+].code = #parent
 * #190 ^property[=].valueCode = #4106
 * #190 ^designation[0].language = #fr-FR
@@ -3032,6 +3205,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #191 "Etablissement pour Déficients Moteurs Cérébraux"
 * #191 ^property[0].code = #niveau
 * #191 ^property[=].valueInteger =  4
+* #191 ^property[+].code = #domaine
+* #191 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #191 ^property[=].valueCoding.code = #SOC
 * #191 ^property[+].code = #parent
 * #191 ^property[=].valueCode = #4103
 * #191 ^designation[0].language = #fr-FR
@@ -3051,6 +3227,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #192 "Institut d'éducation motrice"
 * #192 ^property[0].code = #niveau
 * #192 ^property[=].valueInteger =  4
+* #192 ^property[+].code = #domaine
+* #192 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #192 ^property[=].valueCoding.code = #SOC
 * #192 ^property[+].code = #parent
 * #192 ^property[=].valueCode = #4103
 * #192 ^designation[0].language = #fr-FR
@@ -3066,6 +3245,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #193 "Etablissement pour Déficients Moteurs et Moteurs Cérébraux"
 * #193 ^property[0].code = #niveau
 * #193 ^property[=].valueInteger =  4
+* #193 ^property[+].code = #domaine
+* #193 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #193 ^property[=].valueCoding.code = #SOC
 * #193 ^property[+].code = #parent
 * #193 ^property[=].valueCode = #4103
 * #193 ^designation[0].language = #fr-FR
@@ -3085,6 +3267,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #194 "Institut pour Déficients Visuels"
 * #194 ^property[0].code = #niveau
 * #194 ^property[=].valueInteger =  4
+* #194 ^property[+].code = #domaine
+* #194 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #194 ^property[=].valueCoding.code = #SOC
 * #194 ^property[+].code = #parent
 * #194 ^property[=].valueCode = #4104
 * #194 ^designation[0].language = #fr-FR
@@ -3100,6 +3285,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #195 "Institut pour Déficients Auditifs"
 * #195 ^property[0].code = #niveau
 * #195 ^property[=].valueInteger =  4
+* #195 ^property[+].code = #domaine
+* #195 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #195 ^property[=].valueCoding.code = #SOC
 * #195 ^property[+].code = #parent
 * #195 ^property[=].valueCode = #4104
 * #195 ^designation[0].language = #fr-FR
@@ -3115,6 +3303,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #196 "Institut d'Education Sensorielle Sourd-Aveugle"
 * #196 ^property[0].code = #niveau
 * #196 ^property[=].valueInteger =  4
+* #196 ^property[+].code = #domaine
+* #196 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #196 ^property[=].valueCoding.code = #SOC
 * #196 ^property[+].code = #parent
 * #196 ^property[=].valueCode = #4104
 * #196 ^designation[0].language = #fr-FR
@@ -3134,6 +3325,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #197 "Centre soins accompagnement prévention addictologie (CSAPA)"
 * #197 ^property[0].code = #niveau
 * #197 ^property[=].valueInteger =  4
+* #197 ^property[+].code = #domaine
+* #197 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #197 ^property[=].valueCoding.code = #SOC
 * #197 ^property[+].code = #parent
 * #197 ^property[=].valueCode = #4604
 * #197 ^designation[0].language = #fr-FR
@@ -3153,6 +3347,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #198 "Établissement et Service de Préorientation"
 * #198 ^property[0].code = #niveau
 * #198 ^property[=].valueInteger =  4
+* #198 ^property[+].code = #domaine
+* #198 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #198 ^property[=].valueCoding.code = #SOC
 * #198 ^property[+].code = #parent
 * #198 ^property[=].valueCode = #4303
 * #198 ^designation[0].language = #fr-FR
@@ -3168,6 +3365,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #199 "Hospice"
 * #199 ^property[0].code = #niveau
 * #199 ^property[=].valueInteger =  4
+* #199 ^property[+].code = #domaine
+* #199 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #199 ^property[=].valueCoding.code = #SOC
 * #199 ^property[+].code = #parent
 * #199 ^property[=].valueCode = #4401
 * #199 ^property[+].code = #dateValid
@@ -3183,6 +3383,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #200 "Maison de Retraite"
 * #200 ^property[0].code = #niveau
 * #200 ^property[=].valueInteger =  4
+* #200 ^property[+].code = #domaine
+* #200 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #200 ^property[=].valueCoding.code = #SOC
 * #200 ^property[+].code = #parent
 * #200 ^property[=].valueCode = #4401
 * #200 ^property[+].code = #dateValid
@@ -3198,6 +3401,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #202 "Résidences autonomie"
 * #202 ^property[0].code = #niveau
 * #202 ^property[=].valueInteger =  4
+* #202 ^property[+].code = #domaine
+* #202 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #202 ^property[=].valueCoding.code = #SOC
 * #202 ^property[+].code = #parent
 * #202 ^property[=].valueCode = #4401
 * #202 ^property[+].code = #dateValid
@@ -3209,6 +3415,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #205 "Foyer Club Restaurant"
 * #205 ^property[0].code = #niveau
 * #205 ^property[=].valueInteger =  4
+* #205 ^property[+].code = #domaine
+* #205 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #205 ^property[=].valueCoding.code = #SOC
 * #205 ^property[+].code = #parent
 * #205 ^property[=].valueCode = #4403
 * #205 ^designation[0].language = #fr-FR
@@ -3228,6 +3437,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #207 "Centre de Jour pour Personnes Agées"
 * #207 ^property[0].code = #niveau
 * #207 ^property[=].valueInteger =  4
+* #207 ^property[+].code = #domaine
+* #207 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #207 ^property[=].valueCoding.code = #SOC
 * #207 ^property[+].code = #parent
 * #207 ^property[=].valueCode = #4402
 * #207 ^designation[0].language = #fr-FR
@@ -3247,6 +3459,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #208 "Service d'Aide Ménagère à Domicile"
 * #208 ^property[0].code = #niveau
 * #208 ^property[=].valueInteger =  4
+* #208 ^property[+].code = #domaine
+* #208 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #208 ^property[=].valueCoding.code = #SOC
 * #208 ^property[+].code = #parent
 * #208 ^property[=].valueCode = #4403
 * #208 ^designation[0].language = #fr-FR
@@ -3270,6 +3485,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #209 "Service autonomie aide et soins (SAAS)"
 * #209 ^property[0].code = #niveau
 * #209 ^property[=].valueInteger =  4
+* #209 ^property[+].code = #domaine
+* #209 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #209 ^property[=].valueCoding.code = #SOC
 * #209 ^property[+].code = #parent
 * #209 ^property[=].valueCode = #4605
 * #209 ^designation[0].language = #fr-FR
@@ -3289,6 +3507,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #212 "Alarme Médico-Sociale"
 * #212 ^property[0].code = #niveau
 * #212 ^property[=].valueInteger =  4
+* #212 ^property[+].code = #domaine
+* #212 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #212 ^property[=].valueCoding.code = #SOC
 * #212 ^property[+].code = #parent
 * #212 ^property[=].valueCode = #4403
 * #212 ^designation[0].language = #fr-FR
@@ -3308,6 +3529,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #213 "Lits d'Accueil Médicalisés (L.A.M.)"
 * #213 ^property[0].code = #niveau
 * #213 ^property[=].valueInteger =  4
+* #213 ^property[+].code = #domaine
+* #213 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #213 ^property[=].valueCoding.code = #SOC
 * #213 ^property[+].code = #parent
 * #213 ^property[=].valueCode = #4604
 * #213 ^designation[0].language = #fr-FR
@@ -3323,6 +3547,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #214 "Centre Hébergement & Réinsertion Sociale (C.H.R.S.)"
 * #214 ^property[0].code = #niveau
 * #214 ^property[=].valueInteger =  4
+* #214 ^property[+].code = #domaine
+* #214 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #214 ^property[=].valueCoding.code = #SOC
 * #214 ^property[+].code = #parent
 * #214 ^property[=].valueCode = #4601
 * #214 ^designation[0].language = #fr-FR
@@ -3342,6 +3569,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #215 "Maison Relai"
 * #215 ^property[0].code = #niveau
 * #215 ^property[=].valueInteger =  4
+* #215 ^property[+].code = #domaine
+* #215 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #215 ^property[=].valueCoding.code = #SOC
 * #215 ^property[+].code = #parent
 * #215 ^property[=].valueCode = #4601
 * #215 ^designation[0].language = #fr-FR
@@ -3361,6 +3591,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #216 "Résidence Hôtelière à Vocation Sociale (R.H.V.S)"
 * #216 ^property[0].code = #niveau
 * #216 ^property[=].valueInteger =  4
+* #216 ^property[+].code = #domaine
+* #216 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #216 ^property[=].valueCoding.code = #SOC
 * #216 ^property[+].code = #parent
 * #216 ^property[=].valueCode = #4601
 * #216 ^designation[0].language = #fr-FR
@@ -3376,6 +3609,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #217 "Cité de Transit"
 * #217 ^property[0].code = #niveau
 * #217 ^property[=].valueInteger =  4
+* #217 ^property[+].code = #domaine
+* #217 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #217 ^property[=].valueCoding.code = #SOC
 * #217 ^property[+].code = #parent
 * #217 ^property[=].valueCode = #4601
 * #217 ^property[+].code = #dateValid
@@ -3391,6 +3627,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #218 "Aire Station Nomades"
 * #218 ^property[0].code = #niveau
 * #218 ^property[=].valueInteger =  4
+* #218 ^property[+].code = #domaine
+* #218 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #218 ^property[=].valueCoding.code = #SOC
 * #218 ^property[+].code = #parent
 * #218 ^property[=].valueCode = #4602
 * #218 ^property[+].code = #dateValid
@@ -3402,6 +3641,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #219 "Autre Centre d'Accueil"
 * #219 ^property[0].code = #niveau
 * #219 ^property[=].valueInteger =  4
+* #219 ^property[+].code = #domaine
+* #219 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #219 ^property[=].valueCoding.code = #SOC
 * #219 ^property[+].code = #parent
 * #219 ^property[=].valueCode = #4601
 * #219 ^designation[0].language = #fr-FR
@@ -3417,6 +3659,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #220 "Centre Social"
 * #220 ^property[0].code = #niveau
 * #220 ^property[=].valueInteger =  4
+* #220 ^property[+].code = #domaine
+* #220 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #220 ^property[=].valueCoding.code = #SOC
 * #220 ^property[+].code = #parent
 * #220 ^property[=].valueCode = #5104
 * #220 ^designation[0].language = #fr-FR
@@ -3432,6 +3677,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #221 "Bureau d'Aide Psychologique Universitaire (B.A.P.U.)"
 * #221 ^property[0].code = #niveau
 * #221 ^property[=].valueInteger =  4
+* #221 ^property[+].code = #domaine
+* #221 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #221 ^property[=].valueCoding.code = #SOC
 * #221 ^property[+].code = #parent
 * #221 ^property[=].valueCode = #4106
 * #221 ^designation[0].language = #fr-FR
@@ -3451,6 +3699,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #223 "Protection Maternelle et Infantile (P.M.I.)"
 * #223 ^property[0].code = #niveau
 * #223 ^property[=].valueInteger =  4
+* #223 ^property[+].code = #domaine
+* #223 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #223 ^property[=].valueCoding.code = #SAN
 * #223 ^property[+].code = #parent
 * #223 ^property[=].valueCode = #2202
 * #223 ^designation[0].language = #fr-FR
@@ -3470,6 +3721,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #224 "Etablissement de Consultation Pré et Post-natale"
 * #224 ^property[0].code = #niveau
 * #224 ^property[=].valueInteger =  4
+* #224 ^property[+].code = #domaine
+* #224 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #224 ^property[=].valueCoding.code = #SAN
 * #224 ^property[+].code = #parent
 * #224 ^property[=].valueCode = #2202
 * #224 ^designation[0].language = #fr-FR
@@ -3485,6 +3739,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #225 "Consultations de Nourrissons"
 * #225 ^property[0].code = #niveau
 * #225 ^property[=].valueInteger =  4
+* #225 ^property[+].code = #domaine
+* #225 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #225 ^property[=].valueCoding.code = #SAN
 * #225 ^property[+].code = #parent
 * #225 ^property[=].valueCode = #2202
 * #225 ^designation[0].language = #fr-FR
@@ -3504,6 +3761,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #228 "Centre de Santé Sexuelle"
 * #228 ^property[0].code = #niveau
 * #228 ^property[=].valueInteger =  4
+* #228 ^property[+].code = #domaine
+* #228 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #228 ^property[=].valueCoding.code = #SAN
 * #228 ^property[+].code = #parent
 * #228 ^property[=].valueCode = #2202
 * #228 ^designation[0].language = #fr-FR
@@ -3519,6 +3779,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #229 "Consultation Problèmes naissance"
 * #229 ^property[0].code = #niveau
 * #229 ^property[=].valueInteger =  4
+* #229 ^property[+].code = #domaine
+* #229 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #229 ^property[=].valueCoding.code = #SAN
 * #229 ^property[+].code = #parent
 * #229 ^property[=].valueCode = #2202
 * #229 ^designation[0].language = #fr-FR
@@ -3538,6 +3801,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #230 "Etablissement Consultation Protection Infantile"
 * #230 ^property[0].code = #niveau
 * #230 ^property[=].valueInteger =  4
+* #230 ^property[+].code = #domaine
+* #230 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #230 ^property[=].valueCoding.code = #SAN
 * #230 ^property[+].code = #parent
 * #230 ^property[=].valueCode = #2202
 * #230 ^designation[0].language = #fr-FR
@@ -3553,6 +3819,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #231 "Etablissement Information Consultation Conseil Familial"
 * #231 ^property[0].code = #niveau
 * #231 ^property[=].valueInteger =  4
+* #231 ^property[+].code = #domaine
+* #231 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #231 ^property[=].valueCoding.code = #SAN
 * #231 ^property[+].code = #parent
 * #231 ^property[=].valueCode = #2202
 * #231 ^designation[0].language = #fr-FR
@@ -3572,6 +3841,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #233 "Lactarium"
 * #233 ^property[0].code = #niveau
 * #233 ^property[=].valueInteger =  4
+* #233 ^property[+].code = #domaine
+* #233 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #233 ^property[=].valueCoding.code = #SAN
 * #233 ^property[+].code = #parent
 * #233 ^property[=].valueCode = #3402
 * #233 ^property[+].code = #dateValid
@@ -3587,6 +3859,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #236 "Centre Placement Familial Socio-Educatif (C.P.F.S.E.)"
 * #236 ^property[0].code = #niveau
 * #236 ^property[=].valueInteger =  4
+* #236 ^property[+].code = #domaine
+* #236 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #236 ^property[=].valueCoding.code = #SOC
 * #236 ^property[+].code = #parent
 * #236 ^property[=].valueCode = #4501
 * #236 ^designation[0].language = #fr-FR
@@ -3606,6 +3881,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #237 "Centre de Placement Familial Spécialisé"
 * #237 ^property[0].code = #niveau
 * #237 ^property[=].valueInteger =  4
+* #237 ^property[+].code = #domaine
+* #237 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #237 ^property[=].valueCoding.code = #SOC
 * #237 ^property[+].code = #parent
 * #237 ^property[=].valueCode = #4301
 * #237 ^designation[0].language = #fr-FR
@@ -3625,6 +3903,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #238 "Centre d'Accueil Familial Spécialisé"
 * #238 ^property[0].code = #niveau
 * #238 ^property[=].valueInteger =  4
+* #238 ^property[+].code = #domaine
+* #238 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #238 ^property[=].valueCoding.code = #SOC
 * #238 ^property[+].code = #parent
 * #238 ^property[=].valueCode = #4105
 * #238 ^designation[0].language = #fr-FR
@@ -3640,6 +3921,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #241 "Établissement de Placement"
 * #241 ^property[0].code = #niveau
 * #241 ^property[=].valueInteger =  4
+* #241 ^property[+].code = #domaine
+* #241 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #241 ^property[=].valueCoding.code = #SOC
 * #241 ^property[+].code = #parent
 * #241 ^property[=].valueCode = #4502
 * #241 ^property[+].code = #dateValid
@@ -3651,6 +3935,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #242 "Service d’Activité de Jour"
 * #242 ^property[0].code = #niveau
 * #242 ^property[=].valueInteger =  4
+* #242 ^property[+].code = #domaine
+* #242 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #242 ^property[=].valueCoding.code = #SOC
 * #242 ^property[+].code = #parent
 * #242 ^property[=].valueCode = #4502
 * #242 ^property[+].code = #dateValid
@@ -3662,6 +3949,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #246 "Etablissement et Service d'Aide par le Travail (E.S.A.T.)"
 * #246 ^property[0].code = #niveau
 * #246 ^property[=].valueInteger =  4
+* #246 ^property[+].code = #domaine
+* #246 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #246 ^property[=].valueCoding.code = #SOC
 * #246 ^property[+].code = #parent
 * #246 ^property[=].valueCode = #4302
 * #246 ^designation[0].language = #fr-FR
@@ -3681,6 +3971,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #247 "Entreprise adaptée"
 * #247 ^property[0].code = #niveau
 * #247 ^property[=].valueInteger =  4
+* #247 ^property[+].code = #domaine
+* #247 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #247 ^property[=].valueCoding.code = #SOC
 * #247 ^property[+].code = #parent
 * #247 ^property[=].valueCode = #4302
 * #247 ^property[+].code = #dateValid
@@ -3692,6 +3985,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #249 "Établissement et Service de Réadaptation Professionnelle"
 * #249 ^property[0].code = #niveau
 * #249 ^property[=].valueInteger =  4
+* #249 ^property[+].code = #domaine
+* #249 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #249 ^property[=].valueCoding.code = #SOC
 * #249 ^property[+].code = #parent
 * #249 ^property[=].valueCode = #4303
 * #249 ^designation[0].language = #fr-FR
@@ -3707,6 +4003,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #250 "Centre Réentrainement au travail"
 * #250 ^property[0].code = #niveau
 * #250 ^property[=].valueInteger =  4
+* #250 ^property[+].code = #domaine
+* #250 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #250 ^property[=].valueCoding.code = #SOC
 * #250 ^property[+].code = #parent
 * #250 ^property[=].valueCode = #4303
 * #250 ^designation[0].language = #fr-FR
@@ -3730,6 +4029,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #251 "Maison Vacances pour Handicapés"
 * #251 ^property[0].code = #niveau
 * #251 ^property[=].valueInteger =  4
+* #251 ^property[+].code = #domaine
+* #251 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #251 ^property[=].valueCoding.code = #SOC
 * #251 ^property[+].code = #parent
 * #251 ^property[=].valueCode = #4301
 * #251 ^designation[0].language = #fr-FR
@@ -3753,6 +4055,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #252 "Foyer Hébergement Adultes Handicapés"
 * #252 ^property[0].code = #niveau
 * #252 ^property[=].valueInteger =  4
+* #252 ^property[+].code = #domaine
+* #252 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #252 ^property[=].valueCoding.code = #SOC
 * #252 ^property[+].code = #parent
 * #252 ^property[=].valueCode = #4301
 * #252 ^designation[0].language = #fr-FR
@@ -3776,6 +4081,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #253 "Foyer d'Accueil Polyvalent pour Adultes Handicapés"
 * #253 ^property[0].code = #niveau
 * #253 ^property[=].valueInteger =  4
+* #253 ^property[+].code = #domaine
+* #253 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #253 ^property[=].valueCoding.code = #SOC
 * #253 ^property[+].code = #parent
 * #253 ^property[=].valueCode = #4301
 * #253 ^designation[0].language = #fr-FR
@@ -3795,6 +4103,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #255 "Maison d'Accueil Spécialisée (M.A.S.)"
 * #255 ^property[0].code = #niveau
 * #255 ^property[=].valueInteger =  4
+* #255 ^property[+].code = #domaine
+* #255 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #255 ^property[=].valueCoding.code = #SOC
 * #255 ^property[+].code = #parent
 * #255 ^property[=].valueCode = #4301
 * #255 ^designation[0].language = #fr-FR
@@ -3814,6 +4125,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #256 "Foyer Travailleurs Migrants non transformé en Résidence Soc."
 * #256 ^property[0].code = #niveau
 * #256 ^property[=].valueInteger =  4
+* #256 ^property[+].code = #domaine
+* #256 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #256 ^property[=].valueCoding.code = #SOC
 * #256 ^property[+].code = #parent
 * #256 ^property[=].valueCode = #4602
 * #256 ^designation[0].language = #fr-FR
@@ -3833,6 +4147,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #257 "Foyers de jeunes travailleurs"
 * #257 ^property[0].code = #niveau
 * #257 ^property[=].valueInteger =  4
+* #257 ^property[+].code = #domaine
+* #257 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #257 ^property[=].valueCoding.code = #SOC
 * #257 ^property[+].code = #parent
 * #257 ^property[=].valueCode = #4602
 * #257 ^designation[0].language = #fr-FR
@@ -3848,6 +4165,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #258 "Maisons Relais - Pensions de Famille"
 * #258 ^property[0].code = #niveau
 * #258 ^property[=].valueInteger =  4
+* #258 ^property[+].code = #domaine
+* #258 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #258 ^property[=].valueCoding.code = #SOC
 * #258 ^property[+].code = #parent
 * #258 ^property[=].valueCode = #4607
 * #258 ^designation[0].language = #fr-FR
@@ -3867,6 +4187,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #259 "Autres résidences sociales"
 * #259 ^property[0].code = #niveau
 * #259 ^property[=].valueInteger =  4
+* #259 ^property[+].code = #domaine
+* #259 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #259 ^property[=].valueCoding.code = #SOC
 * #259 ^property[+].code = #parent
 * #259 ^property[=].valueCode = #4607
 * #259 ^property[+].code = #dateValid
@@ -3878,6 +4201,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #261 "D.D.A.S.S."
 * #261 ^property[0].code = #niveau
 * #261 ^property[=].valueInteger =  4
+* #261 ^property[+].code = #domaine
+* #261 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #261 ^property[=].valueCoding.code = #ADM
 * #261 ^property[+].code = #parent
 * #261 ^property[=].valueCode = #0101
 * #261 ^designation[0].language = #fr-FR
@@ -3897,6 +4223,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #262 "Etablissement Régional d'Enseignement Adapté"
 * #262 ^property[0].code = #niveau
 * #262 ^property[=].valueInteger =  4
+* #262 ^property[+].code = #domaine
+* #262 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #262 ^property[=].valueCoding.code = #SOC
 * #262 ^property[+].code = #parent
 * #262 ^property[=].valueCode = #4202
 * #262 ^designation[0].language = #fr-FR
@@ -3916,6 +4245,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #265 "Section Education Spéciale Classe Atelier"
 * #265 ^property[0].code = #niveau
 * #265 ^property[=].valueInteger =  4
+* #265 ^property[+].code = #domaine
+* #265 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #265 ^property[=].valueCoding.code = #SOC
 * #265 ^property[+].code = #parent
 * #265 ^property[=].valueCode = #4202
 * #265 ^designation[0].language = #fr-FR
@@ -3939,6 +4271,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #266 "Dispensaire Antivénérien"
 * #266 ^property[0].code = #niveau
 * #266 ^property[=].valueInteger =  4
+* #266 ^property[+].code = #domaine
+* #266 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #266 ^property[=].valueCoding.code = #SAN
 * #266 ^property[+].code = #parent
 * #266 ^property[=].valueCode = #2201
 * #266 ^designation[0].language = #fr-FR
@@ -3954,6 +4289,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #267 "Dispensaire Antihansénien"
 * #267 ^property[0].code = #niveau
 * #267 ^property[=].valueInteger =  4
+* #267 ^property[+].code = #domaine
+* #267 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #267 ^property[=].valueCoding.code = #SAN
 * #267 ^property[+].code = #parent
 * #267 ^property[=].valueCode = #2201
 * #267 ^designation[0].language = #fr-FR
@@ -3969,6 +4307,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #268 "Centre Médico-Scolaire"
 * #268 ^property[0].code = #niveau
 * #268 ^property[=].valueInteger =  4
+* #268 ^property[+].code = #domaine
+* #268 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #268 ^property[=].valueCoding.code = #SAN
 * #268 ^property[+].code = #parent
 * #268 ^property[=].valueCode = #2201
 * #268 ^designation[0].language = #fr-FR
@@ -3984,6 +4325,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #269 "Centre de Médecine Universitaire"
 * #269 ^property[0].code = #niveau
 * #269 ^property[=].valueInteger =  4
+* #269 ^property[+].code = #domaine
+* #269 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #269 ^property[=].valueCoding.code = #SAN
 * #269 ^property[+].code = #parent
 * #269 ^property[=].valueCode = #2201
 * #269 ^designation[0].language = #fr-FR
@@ -3999,6 +4343,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #270 "Centre de Médecine Sportive"
 * #270 ^property[0].code = #niveau
 * #270 ^property[=].valueInteger =  4
+* #270 ^property[+].code = #domaine
+* #270 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #270 ^property[=].valueCoding.code = #SAN
 * #270 ^property[+].code = #parent
 * #270 ^property[=].valueCode = #2201
 * #270 ^designation[0].language = #fr-FR
@@ -4014,6 +4361,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #271 "Maison d'accueil Hospitalière"
 * #271 ^property[0].code = #niveau
 * #271 ^property[=].valueInteger =  4
+* #271 ^property[+].code = #domaine
+* #271 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #271 ^property[=].valueCoding.code = #SOC
 * #271 ^property[+].code = #parent
 * #271 ^property[=].valueCode = #4602
 * #271 ^property[+].code = #dateValid
@@ -4025,6 +4375,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #272 "Ecole d'ambulanciers"
 * #272 ^property[0].code = #niveau
 * #272 ^property[=].valueInteger =  4
+* #272 ^property[+].code = #domaine
+* #272 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #272 ^property[=].valueCoding.code = #ENS
 * #272 ^property[+].code = #parent
 * #272 ^property[=].valueCode = #6103
 * #272 ^property[+].code = #dateValid
@@ -4040,6 +4393,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #273 "Institut de formation en soins infirmiers (I.F.S.I.)"
 * #273 ^property[0].code = #niveau
 * #273 ^property[=].valueInteger =  4
+* #273 ^property[+].code = #domaine
+* #273 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #273 ^property[=].valueCoding.code = #ENS
 * #273 ^property[+].code = #parent
 * #273 ^property[=].valueCode = #6101
 * #273 ^designation[0].language = #fr-FR
@@ -4063,6 +4419,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #274 "Ecole de sages_femmes"
 * #274 ^property[0].code = #niveau
 * #274 ^property[=].valueInteger =  4
+* #274 ^property[+].code = #domaine
+* #274 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #274 ^property[=].valueCoding.code = #ENS
 * #274 ^property[+].code = #parent
 * #274 ^property[=].valueCode = #6101
 * #274 ^designation[0].language = #fr-FR
@@ -4086,6 +4445,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #275 "Ecole de masseurs-kinésithérapeutes"
 * #275 ^property[0].code = #niveau
 * #275 ^property[=].valueInteger =  4
+* #275 ^property[+].code = #domaine
+* #275 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #275 ^property[=].valueCoding.code = #ENS
 * #275 ^property[+].code = #parent
 * #275 ^property[=].valueCode = #6101
 * #275 ^designation[0].language = #fr-FR
@@ -4105,6 +4467,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #276 "Ecole de laborantins d'analyses médicales"
 * #276 ^property[0].code = #niveau
 * #276 ^property[=].valueInteger =  4
+* #276 ^property[+].code = #domaine
+* #276 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #276 ^property[=].valueCoding.code = #ENS
 * #276 ^property[+].code = #parent
 * #276 ^property[=].valueCode = #6102
 * #276 ^designation[0].language = #fr-FR
@@ -4124,6 +4489,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #277 "Ecole de péricultrices"
 * #277 ^property[0].code = #niveau
 * #277 ^property[=].valueInteger =  4
+* #277 ^property[+].code = #domaine
+* #277 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #277 ^property[=].valueCoding.code = #ENS
 * #277 ^property[+].code = #parent
 * #277 ^property[=].valueCode = #6101
 * #277 ^designation[0].language = #fr-FR
@@ -4147,6 +4515,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #278 "Etablissement de formation polyvalent"
 * #278 ^property[0].code = #niveau
 * #278 ^property[=].valueInteger =  4
+* #278 ^property[+].code = #domaine
+* #278 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #278 ^property[=].valueCoding.code = #ENS
 * #278 ^property[+].code = #parent
 * #278 ^property[=].valueCode = #6103
 * #278 ^designation[0].language = #fr-FR
@@ -4166,6 +4537,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #279 "Ecole de service social"
 * #279 ^property[0].code = #niveau
 * #279 ^property[=].valueInteger =  4
+* #279 ^property[+].code = #domaine
+* #279 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #279 ^property[=].valueCoding.code = #ENS
 * #279 ^property[+].code = #parent
 * #279 ^property[=].valueCode = #6201
 * #279 ^designation[0].language = #fr-FR
@@ -4185,6 +4559,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #280 "Ecole d'éducateurs spécialisés"
 * #280 ^property[0].code = #niveau
 * #280 ^property[=].valueInteger =  4
+* #280 ^property[+].code = #domaine
+* #280 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #280 ^property[=].valueCoding.code = #ENS
 * #280 ^property[+].code = #parent
 * #280 ^property[=].valueCode = #6201
 * #280 ^designation[0].language = #fr-FR
@@ -4204,6 +4581,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #281 "Centre de formation d'aides soignants"
 * #281 ^property[0].code = #niveau
 * #281 ^property[=].valueInteger =  4
+* #281 ^property[+].code = #domaine
+* #281 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #281 ^property[=].valueCoding.code = #ENS
 * #281 ^property[+].code = #parent
 * #281 ^property[=].valueCode = #6103
 * #281 ^designation[0].language = #fr-FR
@@ -4227,6 +4607,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #282 "Ecole de pédicures-podologues"
 * #282 ^property[0].code = #niveau
 * #282 ^property[=].valueInteger =  4
+* #282 ^property[+].code = #domaine
+* #282 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #282 ^property[=].valueCoding.code = #ENS
 * #282 ^property[+].code = #parent
 * #282 ^property[=].valueCode = #6101
 * #282 ^designation[0].language = #fr-FR
@@ -4246,6 +4629,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #283 "Ecole de manipulateurs d'électro-radiologie"
 * #283 ^property[0].code = #niveau
 * #283 ^property[=].valueInteger =  4
+* #283 ^property[+].code = #domaine
+* #283 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #283 ^property[=].valueCoding.code = #ENS
 * #283 ^property[+].code = #parent
 * #283 ^property[=].valueCode = #6102
 * #283 ^designation[0].language = #fr-FR
@@ -4269,6 +4655,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #284 "Ecole de travailleuses familiales"
 * #284 ^property[0].code = #niveau
 * #284 ^property[=].valueInteger =  4
+* #284 ^property[+].code = #domaine
+* #284 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #284 ^property[=].valueCoding.code = #ENS
 * #284 ^property[+].code = #parent
 * #284 ^property[=].valueCode = #6201
 * #284 ^designation[0].language = #fr-FR
@@ -4288,6 +4677,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #285 "Centres de Loisirs sans Hébergement"
 * #285 ^property[0].code = #niveau
 * #285 ^property[=].valueInteger =  4
+* #285 ^property[+].code = #domaine
+* #285 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #285 ^property[=].valueCoding.code = #SOC
 * #285 ^property[+].code = #parent
 * #285 ^property[=].valueCode = #5103
 * #285 ^designation[0].language = #fr-FR
@@ -4311,6 +4703,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #286 "Club Equipe de Prévention"
 * #286 ^property[0].code = #niveau
 * #286 ^property[=].valueInteger =  4
+* #286 ^property[+].code = #domaine
+* #286 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #286 ^property[=].valueCoding.code = #SOC
 * #286 ^property[+].code = #parent
 * #286 ^property[=].valueCode = #4504
 * #286 ^designation[0].language = #fr-FR
@@ -4330,6 +4725,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #289 "Centre de Soins Infirmiers"
 * #289 ^property[0].code = #niveau
 * #289 ^property[=].valueInteger =  4
+* #289 ^property[+].code = #domaine
+* #289 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #289 ^property[=].valueCoding.code = #SAN
 * #289 ^property[+].code = #parent
 * #289 ^property[=].valueCode = #2206
 * #289 ^designation[0].language = #fr-FR
@@ -4349,6 +4747,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #292 "Centre Hospitalier Spécialisé lutte Maladies Mentales"
 * #292 ^property[0].code = #niveau
 * #292 ^property[=].valueInteger =  4
+* #292 ^property[+].code = #domaine
+* #292 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #292 ^property[=].valueCoding.code = #SAN
 * #292 ^property[+].code = #parent
 * #292 ^property[=].valueCode = #1103
 * #292 ^designation[0].language = #fr-FR
@@ -4368,6 +4769,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #294 "Centre de Consultations Cancer"
 * #294 ^property[0].code = #niveau
 * #294 ^property[=].valueInteger =  4
+* #294 ^property[+].code = #domaine
+* #294 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #294 ^property[=].valueCoding.code = #SAN
 * #294 ^property[+].code = #parent
 * #294 ^property[=].valueCode = #2201
 * #294 ^designation[0].language = #fr-FR
@@ -4383,6 +4787,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #295 "Service AEMO et AED"
 * #295 ^property[0].code = #niveau
 * #295 ^property[=].valueInteger =  4
+* #295 ^property[+].code = #domaine
+* #295 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #295 ^property[=].valueCoding.code = #SOC
 * #295 ^property[+].code = #parent
 * #295 ^property[=].valueCode = #4504
 * #295 ^property[+].code = #dateValid
@@ -4394,6 +4801,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #297 "Dispensaire Polyvalent"
 * #297 ^property[0].code = #niveau
 * #297 ^property[=].valueInteger =  4
+* #297 ^property[+].code = #domaine
+* #297 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #297 ^property[=].valueCoding.code = #SAN
 * #297 ^property[+].code = #parent
 * #297 ^property[=].valueCode = #2201
 * #297 ^designation[0].language = #fr-FR
@@ -4413,6 +4823,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #300 "Ecoles Formant aux Professions Sanitaires"
 * #300 ^property[0].code = #niveau
 * #300 ^property[=].valueInteger =  4
+* #300 ^property[+].code = #domaine
+* #300 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #300 ^property[=].valueCoding.code = #ENS
 * #300 ^property[+].code = #parent
 * #300 ^property[=].valueCode = #6101
 * #300 ^designation[0].language = #fr-FR
@@ -4432,6 +4845,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #303 "Ecole de conseillers en économie sociale et familiale"
 * #303 ^property[0].code = #niveau
 * #303 ^property[=].valueInteger =  4
+* #303 ^property[+].code = #domaine
+* #303 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #303 ^property[=].valueCoding.code = #ENS
 * #303 ^property[+].code = #parent
 * #303 ^property[=].valueCode = #6201
 * #303 ^designation[0].language = #fr-FR
@@ -4451,6 +4867,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #304 "Ecole d'ergothérapeutes"
 * #304 ^property[0].code = #niveau
 * #304 ^property[=].valueInteger =  4
+* #304 ^property[+].code = #domaine
+* #304 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #304 ^property[=].valueCoding.code = #ENS
 * #304 ^property[+].code = #parent
 * #304 ^property[=].valueCode = #6101
 * #304 ^designation[0].language = #fr-FR
@@ -4470,6 +4889,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #305 "Ecole de psycho-motriciens"
 * #305 ^property[0].code = #niveau
 * #305 ^property[=].valueInteger =  4
+* #305 ^property[+].code = #domaine
+* #305 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #305 ^property[=].valueCoding.code = #ENS
 * #305 ^property[+].code = #parent
 * #305 ^property[=].valueCode = #6101
 * #305 ^designation[0].language = #fr-FR
@@ -4493,6 +4915,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #306 "Ecole d'infirmiers anesthésistes"
 * #306 ^property[0].code = #niveau
 * #306 ^property[=].valueInteger =  4
+* #306 ^property[+].code = #domaine
+* #306 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #306 ^property[=].valueCoding.code = #ENS
 * #306 ^property[+].code = #parent
 * #306 ^property[=].valueCode = #6101
 * #306 ^designation[0].language = #fr-FR
@@ -4512,6 +4937,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #307 "Ecole d'infirmiers de bloc opératoire"
 * #307 ^property[0].code = #niveau
 * #307 ^property[=].valueInteger =  4
+* #307 ^property[+].code = #domaine
+* #307 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #307 ^property[=].valueCoding.code = #ENS
 * #307 ^property[+].code = #parent
 * #307 ^property[=].valueCode = #6101
 * #307 ^designation[0].language = #fr-FR
@@ -4531,6 +4959,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #308 "Centre de formation professionnelle de secteur psychiatrique"
 * #308 ^property[0].code = #niveau
 * #308 ^property[=].valueInteger =  4
+* #308 ^property[+].code = #domaine
+* #308 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #308 ^property[=].valueCoding.code = #ENS
 * #308 ^property[+].code = #parent
 * #308 ^property[=].valueCode = #6101
 * #308 ^designation[0].language = #fr-FR
@@ -4550,6 +4981,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #309 "Ecole de cadres infirmiers"
 * #309 ^property[0].code = #niveau
 * #309 ^property[=].valueInteger =  4
+* #309 ^property[+].code = #domaine
+* #309 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #309 ^property[=].valueCoding.code = #ENS
 * #309 ^property[+].code = #parent
 * #309 ^property[=].valueCode = #6101
 * #309 ^designation[0].language = #fr-FR
@@ -4569,6 +5003,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #310 "Ecole de cadres de secteur psychiatrique"
 * #310 ^property[0].code = #niveau
 * #310 ^property[=].valueInteger =  4
+* #310 ^property[+].code = #domaine
+* #310 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #310 ^property[=].valueCoding.code = #ENS
 * #310 ^property[+].code = #parent
 * #310 ^property[=].valueCode = #6101
 * #310 ^designation[0].language = #fr-FR
@@ -4588,6 +5025,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #311 "Ecole de cadres de masseurs-kinésithérapeutes"
 * #311 ^property[0].code = #niveau
 * #311 ^property[=].valueInteger =  4
+* #311 ^property[+].code = #domaine
+* #311 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #311 ^property[=].valueCoding.code = #ENS
 * #311 ^property[+].code = #parent
 * #311 ^property[=].valueCode = #6101
 * #311 ^designation[0].language = #fr-FR
@@ -4607,6 +5047,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #312 "Ecole de cadres de manipulateurs d'électro-radiologie"
 * #312 ^property[0].code = #niveau
 * #312 ^property[=].valueInteger =  4
+* #312 ^property[+].code = #domaine
+* #312 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #312 ^property[=].valueCoding.code = #ENS
 * #312 ^property[+].code = #parent
 * #312 ^property[=].valueCode = #6102
 * #312 ^designation[0].language = #fr-FR
@@ -4630,6 +5073,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #313 "Ecole d'éducateurs de jeunes enfants"
 * #313 ^property[0].code = #niveau
 * #313 ^property[=].valueInteger =  4
+* #313 ^property[+].code = #domaine
+* #313 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #313 ^property[=].valueCoding.code = #ENS
 * #313 ^property[+].code = #parent
 * #313 ^property[=].valueCode = #6201
 * #313 ^designation[0].language = #fr-FR
@@ -4649,6 +5095,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #314 "Ecole d'éducateurs techniques spécialisés"
 * #314 ^property[0].code = #niveau
 * #314 ^property[=].valueInteger =  4
+* #314 ^property[+].code = #domaine
+* #314 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #314 ^property[=].valueCoding.code = #ENS
 * #314 ^property[+].code = #parent
 * #314 ^property[=].valueCode = #6201
 * #314 ^designation[0].language = #fr-FR
@@ -4668,6 +5117,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #315 "Ecole de moniteurs-éducateurs"
 * #315 ^property[0].code = #niveau
 * #315 ^property[=].valueInteger =  4
+* #315 ^property[+].code = #domaine
+* #315 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #315 ^property[=].valueCoding.code = #ENS
 * #315 ^property[+].code = #parent
 * #315 ^property[=].valueCode = #6201
 * #315 ^designation[0].language = #fr-FR
@@ -4687,6 +5139,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #316 "Ecole d'aides médico-psychologiques"
 * #316 ^property[0].code = #niveau
 * #316 ^property[=].valueInteger =  4
+* #316 ^property[+].code = #domaine
+* #316 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #316 ^property[=].valueCoding.code = #ENS
 * #316 ^property[+].code = #parent
 * #316 ^property[=].valueCode = #6201
 * #316 ^designation[0].language = #fr-FR
@@ -4706,6 +5161,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #317 "Ecole d'animateurs socio-éducatifs"
 * #317 ^property[0].code = #niveau
 * #317 ^property[=].valueInteger =  4
+* #317 ^property[+].code = #domaine
+* #317 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #317 ^property[=].valueCoding.code = #ENS
 * #317 ^property[+].code = #parent
 * #317 ^property[=].valueCode = #6201
 * #317 ^designation[0].language = #fr-FR
@@ -4725,6 +5183,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #319 "Inst. régional de formation des travailleurs sociaux"
 * #319 ^property[0].code = #niveau
 * #319 ^property[=].valueInteger =  4
+* #319 ^property[+].code = #domaine
+* #319 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #319 ^property[=].valueCoding.code = #ENS
 * #319 ^property[+].code = #parent
 * #319 ^property[=].valueCode = #6201
 * #319 ^designation[0].language = #fr-FR
@@ -4748,6 +5209,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #320 "S.A.M.U. et Centre 15"
 * #320 ^property[0].code = #niveau
 * #320 ^property[=].valueInteger =  4
+* #320 ^property[+].code = #domaine
+* #320 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #320 ^property[=].valueCoding.code = #SAN
 * #320 ^property[+].code = #parent
 * #320 ^property[=].valueCode = #1204
 * #320 ^designation[0].language = #fr-FR
@@ -4771,6 +5235,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #321 "Unité Mobile Hospitalière"
 * #321 ^property[0].code = #niveau
 * #321 ^property[=].valueInteger =  4
+* #321 ^property[+].code = #domaine
+* #321 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #321 ^property[=].valueCoding.code = #SAN
 * #321 ^property[+].code = #parent
 * #321 ^property[=].valueCode = #1204
 * #321 ^designation[0].language = #fr-FR
@@ -4790,6 +5257,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #322 "Centre Rég.Informatiq.Hospit."
 * #322 ^property[0].code = #niveau
 * #322 ^property[=].valueInteger =  4
+* #322 ^property[+].code = #domaine
+* #322 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #322 ^property[=].valueCoding.code = #ADM
 * #322 ^property[+].code = #parent
 * #322 ^property[=].valueCode = #0101
 * #322 ^designation[0].language = #fr-FR
@@ -4813,6 +5283,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #324 "Logement Foyer non Spécialisé"
 * #324 ^property[0].code = #niveau
 * #324 ^property[=].valueInteger =  4
+* #324 ^property[+].code = #domaine
+* #324 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #324 ^property[=].valueCoding.code = #SOC
 * #324 ^property[+].code = #parent
 * #324 ^property[=].valueCode = #4602
 * #324 ^designation[0].language = #fr-FR
@@ -4828,6 +5301,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #326 "Ecole de cadres"
 * #326 ^property[0].code = #niveau
 * #326 ^property[=].valueInteger =  4
+* #326 ^property[+].code = #domaine
+* #326 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #326 ^property[=].valueCoding.code = #ENS
 * #326 ^property[+].code = #parent
 * #326 ^property[=].valueCode = #6101
 * #326 ^property[+].code = #dateValid
@@ -4843,6 +5319,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #327 "Service d'Ambulances"
 * #327 ^property[0].code = #niveau
 * #327 ^property[=].valueInteger =  4
+* #327 ^property[+].code = #domaine
+* #327 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #327 ^property[=].valueCoding.code = #SAN
 * #327 ^property[+].code = #parent
 * #327 ^property[=].valueCode = #3404
 * #327 ^designation[0].language = #fr-FR
@@ -4862,6 +5341,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #328 "Centre Consultation Soins Dentaire"
 * #328 ^property[0].code = #niveau
 * #328 ^property[=].valueInteger =  4
+* #328 ^property[+].code = #domaine
+* #328 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #328 ^property[=].valueCoding.code = #SAN
 * #328 ^property[+].code = #parent
 * #328 ^property[=].valueCode = #2203
 * #328 ^designation[0].language = #fr-FR
@@ -4885,6 +5367,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #329 "Sectorisation Psychiatrique"
 * #329 ^property[0].code = #niveau
 * #329 ^property[=].valueInteger =  4
+* #329 ^property[+].code = #domaine
+* #329 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #329 ^property[=].valueCoding.code = #SAN
 * #329 ^property[+].code = #parent
 * #329 ^property[=].valueCode = #1202
 * #329 ^designation[0].language = #fr-FR
@@ -4904,6 +5389,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #330 "Ecoles Formant aux Professions Sociales"
 * #330 ^property[0].code = #niveau
 * #330 ^property[=].valueInteger =  4
+* #330 ^property[+].code = #domaine
+* #330 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #330 ^property[=].valueCoding.code = #ENS
 * #330 ^property[+].code = #parent
 * #330 ^property[=].valueCode = #6201
 * #330 ^designation[0].language = #fr-FR
@@ -4923,6 +5411,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #340 "Service mandataire judiciaire à la protection des majeurs"
 * #340 ^property[0].code = #niveau
 * #340 ^property[=].valueInteger =  4
+* #340 ^property[+].code = #domaine
+* #340 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #340 ^property[=].valueCoding.code = #SOC
 * #340 ^property[+].code = #parent
 * #340 ^property[=].valueCode = #4608
 * #340 ^designation[0].language = #fr-FR
@@ -4938,6 +5429,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #341 "Service dédié mesures d'accompagnement social personnalisé"
 * #341 ^property[0].code = #niveau
 * #341 ^property[=].valueInteger =  4
+* #341 ^property[+].code = #domaine
+* #341 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #341 ^property[=].valueCoding.code = #SOC
 * #341 ^property[+].code = #parent
 * #341 ^property[=].valueCode = #4608
 * #341 ^designation[0].language = #fr-FR
@@ -4957,6 +5451,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #342 "Service d'information et de soutien aux tuteurs familiaux"
 * #342 ^property[0].code = #niveau
 * #342 ^property[=].valueInteger =  4
+* #342 ^property[+].code = #domaine
+* #342 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #342 ^property[=].valueCoding.code = #SOC
 * #342 ^property[+].code = #parent
 * #342 ^property[=].valueCode = #4608
 * #342 ^designation[0].language = #fr-FR
@@ -4972,6 +5469,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #343 "Equipe Préparation et Suite Reclassement (EPSR)"
 * #343 ^property[0].code = #niveau
 * #343 ^property[=].valueInteger =  4
+* #343 ^property[+].code = #domaine
+* #343 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #343 ^property[=].valueCoding.code = #SOC
 * #343 ^property[+].code = #parent
 * #343 ^property[=].valueCode = #4303
 * #343 ^designation[0].language = #fr-FR
@@ -4995,6 +5495,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #344 "Service délégué aux prestations familiales"
 * #344 ^property[0].code = #niveau
 * #344 ^property[=].valueInteger =  4
+* #344 ^property[+].code = #domaine
+* #344 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #344 ^property[=].valueCoding.code = #SOC
 * #344 ^property[+].code = #parent
 * #344 ^property[=].valueCode = #4504
 * #344 ^designation[0].language = #fr-FR
@@ -5010,6 +5513,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #345 "Service Tutelle Prestation Sociale"
 * #345 ^property[0].code = #niveau
 * #345 ^property[=].valueInteger =  4
+* #345 ^property[+].code = #domaine
+* #345 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #345 ^property[=].valueCoding.code = #SOC
 * #345 ^property[+].code = #parent
 * #345 ^property[=].valueCode = #5104
 * #345 ^designation[0].language = #fr-FR
@@ -5029,6 +5535,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #346 "Service de Travailleuses Familiales"
 * #346 ^property[0].code = #niveau
 * #346 ^property[=].valueInteger =  4
+* #346 ^property[+].code = #domaine
+* #346 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #346 ^property[=].valueCoding.code = #SOC
 * #346 ^property[+].code = #parent
 * #346 ^property[=].valueCode = #5104
 * #346 ^designation[0].language = #fr-FR
@@ -5048,6 +5557,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #347 "Centre d'Examens de Santé"
 * #347 ^property[0].code = #niveau
 * #347 ^property[=].valueInteger =  4
+* #347 ^property[+].code = #domaine
+* #347 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #347 ^property[=].valueCoding.code = #SAN
 * #347 ^property[+].code = #parent
 * #347 ^property[=].valueCode = #2201
 * #347 ^designation[0].language = #fr-FR
@@ -5063,6 +5575,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #349 "Ecole de cadres de sages-femmes"
 * #349 ^property[0].code = #niveau
 * #349 ^property[=].valueInteger =  4
+* #349 ^property[+].code = #domaine
+* #349 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #349 ^property[=].valueCoding.code = #ENS
 * #349 ^property[+].code = #parent
 * #349 ^property[=].valueCode = #6101
 * #349 ^designation[0].language = #fr-FR
@@ -5082,6 +5597,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #350 "Centre de formation d'auxiliaires de puériculture"
 * #350 ^property[0].code = #niveau
 * #350 ^property[=].valueInteger =  4
+* #350 ^property[+].code = #domaine
+* #350 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #350 ^property[=].valueCoding.code = #ENS
 * #350 ^property[+].code = #parent
 * #350 ^property[=].valueCode = #6101
 * #350 ^designation[0].language = #fr-FR
@@ -5101,6 +5619,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #352 "Centre de Psychothérapie"
 * #352 ^property[0].code = #niveau
 * #352 ^property[=].valueInteger =  4
+* #352 ^property[+].code = #domaine
+* #352 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #352 ^property[=].valueCoding.code = #SAN
 * #352 ^property[+].code = #parent
 * #352 ^property[=].valueCode = #1111
 * #352 ^designation[0].language = #fr-FR
@@ -5120,6 +5641,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #353 "Hôpital de Jour Spécialités Médicales"
 * #353 ^property[0].code = #niveau
 * #353 ^property[=].valueInteger =  4
+* #353 ^property[+].code = #domaine
+* #353 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #353 ^property[=].valueCoding.code = #SAN
 * #353 ^property[+].code = #parent
 * #353 ^property[=].valueCode = #1205
 * #353 ^designation[0].language = #fr-FR
@@ -5139,6 +5663,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #354 "Service de Soins Infirmiers A Domicile (S.S.I.A.D)"
 * #354 ^property[0].code = #niveau
 * #354 ^property[=].valueInteger =  4
+* #354 ^property[+].code = #domaine
+* #354 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #354 ^property[=].valueCoding.code = #SOC
 * #354 ^property[+].code = #parent
 * #354 ^property[=].valueCode = #4605
 * #354 ^designation[0].language = #fr-FR
@@ -5158,6 +5685,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #355 "Centre Hospitalier (C.H.)"
 * #355 ^property[0].code = #niveau
 * #355 ^property[=].valueInteger =  4
+* #355 ^property[+].code = #domaine
+* #355 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #355 ^property[=].valueCoding.code = #SAN
 * #355 ^property[+].code = #parent
 * #355 ^property[=].valueCode = #1102
 * #355 ^designation[0].language = #fr-FR
@@ -5177,6 +5707,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #357 "Association Aide aux Insuffisants Respiratoires"
 * #357 ^property[0].code = #niveau
 * #357 ^property[=].valueInteger =  4
+* #357 ^property[+].code = #domaine
+* #357 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #357 ^property[=].valueCoding.code = #SAN
 * #357 ^property[+].code = #parent
 * #357 ^property[=].valueCode = #1201
 * #357 ^designation[0].language = #fr-FR
@@ -5200,6 +5733,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #359 "Centre Circonscription Sanitaire et Sociale"
 * #359 ^property[0].code = #niveau
 * #359 ^property[=].valueInteger =  4
+* #359 ^property[+].code = #domaine
+* #359 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #359 ^property[=].valueCoding.code = #SOC
 * #359 ^property[+].code = #parent
 * #359 ^property[=].valueCode = #5104
 * #359 ^designation[0].language = #fr-FR
@@ -5215,6 +5751,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #361 "Centre de Cure Médicale"
 * #361 ^property[0].code = #niveau
 * #361 ^property[=].valueInteger =  4
+* #361 ^property[+].code = #domaine
+* #361 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #361 ^property[=].valueCoding.code = #SAN
 * #361 ^property[+].code = #parent
 * #361 ^property[=].valueCode = #1107
 * #361 ^designation[0].language = #fr-FR
@@ -5234,6 +5773,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #362 "Etablissement de Soins Longue Durée"
 * #362 ^property[0].code = #niveau
 * #362 ^property[=].valueInteger =  4
+* #362 ^property[+].code = #domaine
+* #362 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #362 ^property[=].valueCoding.code = #SAN
 * #362 ^property[+].code = #parent
 * #362 ^property[=].valueCode = #1109
 * #362 ^designation[0].language = #fr-FR
@@ -5249,6 +5791,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #363 "Centre moyen et long séjour"
 * #363 ^property[0].code = #niveau
 * #363 ^property[=].valueInteger =  4
+* #363 ^property[+].code = #domaine
+* #363 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #363 ^property[=].valueCoding.code = #SAN
 * #363 ^property[+].code = #parent
 * #363 ^property[=].valueCode = #1108
 * #363 ^designation[0].language = #fr-FR
@@ -5272,6 +5817,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #365 "Etablissement de Soins Pluridisciplinaire"
 * #365 ^property[0].code = #niveau
 * #365 ^property[=].valueInteger =  4
+* #365 ^property[+].code = #domaine
+* #365 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #365 ^property[=].valueCoding.code = #SAN
 * #365 ^property[+].code = #parent
 * #365 ^property[=].valueCode = #1110
 * #365 ^designation[0].language = #fr-FR
@@ -5287,6 +5835,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #366 "Atelier Thérapeutique"
 * #366 ^property[0].code = #niveau
 * #366 ^property[=].valueInteger =  4
+* #366 ^property[+].code = #domaine
+* #366 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #366 ^property[=].valueCoding.code = #SAN
 * #366 ^property[+].code = #parent
 * #366 ^property[=].valueCode = #1111
 * #366 ^designation[0].language = #fr-FR
@@ -5302,6 +5853,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #367 "Maison d'Enfants non Conventionnée ni Habilitée"
 * #367 ^property[0].code = #niveau
 * #367 ^property[=].valueInteger =  4
+* #367 ^property[+].code = #domaine
+* #367 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #367 ^property[=].valueCoding.code = #SOC
 * #367 ^property[+].code = #parent
 * #367 ^property[=].valueCode = #5102
 * #367 ^designation[0].language = #fr-FR
@@ -5325,6 +5879,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #368 "Service de Repas à Domicile"
 * #368 ^property[0].code = #niveau
 * #368 ^property[=].valueInteger =  4
+* #368 ^property[+].code = #domaine
+* #368 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #368 ^property[=].valueCoding.code = #SOC
 * #368 ^property[+].code = #parent
 * #368 ^property[=].valueCode = #4403
 * #368 ^designation[0].language = #fr-FR
@@ -5344,6 +5901,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #369 "Centre Adaptation Vie Active (C.A.V.A.)"
 * #369 ^property[0].code = #niveau
 * #369 ^property[=].valueInteger =  4
+* #369 ^property[+].code = #domaine
+* #369 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #369 ^property[=].valueCoding.code = #SOC
 * #369 ^property[+].code = #parent
 * #369 ^property[=].valueCode = #4601
 * #369 ^designation[0].language = #fr-FR
@@ -5367,6 +5927,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #370 "Etablissement Expérimental pour personnes handicapées"
 * #370 ^property[0].code = #niveau
 * #370 ^property[=].valueInteger =  4
+* #370 ^property[+].code = #domaine
+* #370 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #370 ^property[=].valueCoding.code = #SOC
 * #370 ^property[+].code = #parent
 * #370 ^property[=].valueCode = #4301
 * #370 ^designation[0].language = #fr-FR
@@ -5382,6 +5945,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #371 "Service Action Socio-Educative pour Familles en difficulté"
 * #371 ^property[0].code = #niveau
 * #371 ^property[=].valueInteger =  4
+* #371 ^property[+].code = #domaine
+* #371 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #371 ^property[=].valueCoding.code = #SOC
 * #371 ^property[+].code = #parent
 * #371 ^property[=].valueCode = #4601
 * #371 ^designation[0].language = #fr-FR
@@ -5405,6 +5971,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #373 "Centre de formation supérieure des travailleurs sociaux"
 * #373 ^property[0].code = #niveau
 * #373 ^property[=].valueInteger =  4
+* #373 ^property[+].code = #domaine
+* #373 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #373 ^property[=].valueCoding.code = #ENS
 * #373 ^property[+].code = #parent
 * #373 ^property[=].valueCode = #6201
 * #373 ^designation[0].language = #fr-FR
@@ -5424,6 +5993,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #374 "Ecole Nationale Santé Publique (E.N.S.P.)"
 * #374 ^property[0].code = #niveau
 * #374 ^property[=].valueInteger =  4
+* #374 ^property[+].code = #domaine
+* #374 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #374 ^property[=].valueCoding.code = #ENS
 * #374 ^property[+].code = #parent
 * #374 ^property[=].valueCode = #6301
 * #374 ^designation[0].language = #fr-FR
@@ -5443,6 +6015,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #375 "Classe d'Adaptation"
 * #375 ^property[0].code = #niveau
 * #375 ^property[=].valueInteger =  4
+* #375 ^property[+].code = #domaine
+* #375 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #375 ^property[=].valueCoding.code = #SOC
 * #375 ^property[+].code = #parent
 * #375 ^property[=].valueCode = #4201
 * #375 ^property[+].code = #dateValid
@@ -5458,6 +6033,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #376 "Classe Spéciale Ecole Primaire"
 * #376 ^property[0].code = #niveau
 * #376 ^property[=].valueInteger =  4
+* #376 ^property[+].code = #domaine
+* #376 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #376 ^property[=].valueCoding.code = #SOC
 * #376 ^property[+].code = #parent
 * #376 ^property[=].valueCode = #4201
 * #376 ^designation[0].language = #fr-FR
@@ -5481,6 +6059,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #377 "Etablissement Expérimental pour Enfance Handicapée"
 * #377 ^property[0].code = #niveau
 * #377 ^property[=].valueInteger =  4
+* #377 ^property[+].code = #domaine
+* #377 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #377 ^property[=].valueCoding.code = #SOC
 * #377 ^property[+].code = #parent
 * #377 ^property[=].valueCode = #4107
 * #377 ^designation[0].language = #fr-FR
@@ -5500,6 +6081,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #378 "Etablissement Expérimental Enfance Protégée"
 * #378 ^property[0].code = #niveau
 * #378 ^property[=].valueInteger =  4
+* #378 ^property[+].code = #domaine
+* #378 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #378 ^property[=].valueCoding.code = #SOC
 * #378 ^property[+].code = #parent
 * #378 ^property[=].valueCode = #4505
 * #378 ^designation[0].language = #fr-FR
@@ -5515,6 +6099,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #379 "Etablissement Expérimental pour Adultes Handicapés"
 * #379 ^property[0].code = #niveau
 * #379 ^property[=].valueInteger =  4
+* #379 ^property[+].code = #domaine
+* #379 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #379 ^property[=].valueCoding.code = #SOC
 * #379 ^property[+].code = #parent
 * #379 ^property[=].valueCode = #4304
 * #379 ^designation[0].language = #fr-FR
@@ -5534,6 +6121,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #380 "Etablissement Expérimental Autres Adultes"
 * #380 ^property[0].code = #niveau
 * #380 ^property[=].valueInteger =  4
+* #380 ^property[+].code = #domaine
+* #380 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #380 ^property[=].valueCoding.code = #SOC
 * #380 ^property[+].code = #parent
 * #380 ^property[=].valueCode = #4603
 * #380 ^designation[0].language = #fr-FR
@@ -5549,6 +6139,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #381 "Etablissement Expérimental pour Personnes Agées"
 * #381 ^property[0].code = #niveau
 * #381 ^property[=].valueInteger =  4
+* #381 ^property[+].code = #domaine
+* #381 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #381 ^property[=].valueCoding.code = #SOC
 * #381 ^property[+].code = #parent
 * #381 ^property[=].valueCode = #4404
 * #381 ^designation[0].language = #fr-FR
@@ -5568,6 +6161,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #382 "Foyer de Vie pour Adultes Handicapés"
 * #382 ^property[0].code = #niveau
 * #382 ^property[=].valueInteger =  4
+* #382 ^property[+].code = #domaine
+* #382 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #382 ^property[=].valueCoding.code = #SOC
 * #382 ^property[+].code = #parent
 * #382 ^property[=].valueCode = #4301
 * #382 ^designation[0].language = #fr-FR
@@ -5587,6 +6183,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #386 "Ecole Secondaire Spéciale"
 * #386 ^property[0].code = #niveau
 * #386 ^property[=].valueInteger =  4
+* #386 ^property[+].code = #domaine
+* #386 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #386 ^property[=].valueCoding.code = #SOC
 * #386 ^property[+].code = #parent
 * #386 ^property[=].valueCode = #4202
 * #386 ^designation[0].language = #fr-FR
@@ -5606,6 +6205,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #390 "Etablissement d'Accueil Temporaire d'Enfants Handicapés"
 * #390 ^property[0].code = #niveau
 * #390 ^property[=].valueInteger =  4
+* #390 ^property[+].code = #domaine
+* #390 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #390 ^property[=].valueCoding.code = #SOC
 * #390 ^property[+].code = #parent
 * #390 ^property[=].valueCode = #4105
 * #390 ^designation[0].language = #fr-FR
@@ -5621,6 +6223,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #393 "Autre résidence But lucratif pr personnes Âgées"
 * #393 ^property[0].code = #niveau
 * #393 ^property[=].valueInteger =  4
+* #393 ^property[+].code = #domaine
+* #393 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #393 ^property[=].valueCoding.code = #SOC
 * #393 ^property[+].code = #parent
 * #393 ^property[=].valueCode = #4401
 * #393 ^designation[0].language = #fr-FR
@@ -5644,6 +6249,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #394 "Etablissement d'Accueil Temporaire pour Personnes Agées"
 * #394 ^property[0].code = #niveau
 * #394 ^property[=].valueInteger =  4
+* #394 ^property[+].code = #domaine
+* #394 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #394 ^property[=].valueCoding.code = #SOC
 * #394 ^property[+].code = #parent
 * #394 ^property[=].valueCode = #4401
 * #394 ^designation[0].language = #fr-FR
@@ -5667,6 +6275,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #395 "Etablissement d'Accueil Temporaire pour Adultes Handicapés"
 * #395 ^property[0].code = #niveau
 * #395 ^property[=].valueInteger =  4
+* #395 ^property[+].code = #domaine
+* #395 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #395 ^property[=].valueCoding.code = #SOC
 * #395 ^property[+].code = #parent
 * #395 ^property[=].valueCode = #4301
 * #395 ^designation[0].language = #fr-FR
@@ -5682,6 +6293,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #396 "Foyer Hébergement Enfants et Adolescents Handicapés"
 * #396 ^property[0].code = #niveau
 * #396 ^property[=].valueInteger =  4
+* #396 ^property[+].code = #domaine
+* #396 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #396 ^property[=].valueCoding.code = #SOC
 * #396 ^property[+].code = #parent
 * #396 ^property[=].valueCode = #4105
 * #396 ^designation[0].language = #fr-FR
@@ -5701,6 +6315,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #397 "Service Auxiliaire de Vie pour Handicapés"
 * #397 ^property[0].code = #niveau
 * #397 ^property[=].valueInteger =  4
+* #397 ^property[+].code = #domaine
+* #397 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #397 ^property[=].valueCoding.code = #SOC
 * #397 ^property[+].code = #parent
 * #397 ^property[=].valueCode = #4305
 * #397 ^designation[0].language = #fr-FR
@@ -5720,6 +6337,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #398 "Crèche Parentale"
 * #398 ^property[0].code = #niveau
 * #398 ^property[=].valueInteger =  4
+* #398 ^property[+].code = #domaine
+* #398 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #398 ^property[=].valueCoding.code = #SOC
 * #398 ^property[+].code = #parent
 * #398 ^property[=].valueCode = #5101
 * #398 ^property[+].code = #dateValid
@@ -5735,6 +6355,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #399 "Halte Garderie Parentale"
 * #399 ^property[0].code = #niveau
 * #399 ^property[=].valueInteger =  4
+* #399 ^property[+].code = #domaine
+* #399 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #399 ^property[=].valueCoding.code = #SOC
 * #399 ^property[+].code = #parent
 * #399 ^property[=].valueCode = #5101
 * #399 ^designation[0].language = #fr-FR
@@ -5754,6 +6377,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #400 "Centre de Services pour Associations"
 * #400 ^property[0].code = #niveau
 * #400 ^property[=].valueInteger =  4
+* #400 ^property[+].code = #domaine
+* #400 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #400 ^property[=].valueCoding.code = #SOC
 * #400 ^property[+].code = #parent
 * #400 ^property[=].valueCode = #5104
 * #400 ^designation[0].language = #fr-FR
@@ -5769,6 +6395,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #401 "D.R.A.S.S."
 * #401 ^property[0].code = #niveau
 * #401 ^property[=].valueInteger =  4
+* #401 ^property[+].code = #domaine
+* #401 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #401 ^property[=].valueCoding.code = #ADM
 * #401 ^property[+].code = #parent
 * #401 ^property[=].valueCode = #0101
 * #401 ^designation[0].language = #fr-FR
@@ -5788,6 +6417,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #402 "Jardin d'Enfants Spécialisé"
 * #402 ^property[0].code = #niveau
 * #402 ^property[=].valueInteger =  4
+* #402 ^property[+].code = #domaine
+* #402 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #402 ^property[=].valueCoding.code = #SOC
 * #402 ^property[+].code = #parent
 * #402 ^property[=].valueCode = #4101
 * #402 ^designation[0].language = #fr-FR
@@ -5803,6 +6435,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #403 "Service Social Spécialisé ou Polyvalent de Catégorie"
 * #403 ^property[0].code = #niveau
 * #403 ^property[=].valueInteger =  4
+* #403 ^property[+].code = #domaine
+* #403 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #403 ^property[=].valueCoding.code = #SOC
 * #403 ^property[+].code = #parent
 * #403 ^property[=].valueCode = #5104
 * #403 ^designation[0].language = #fr-FR
@@ -5818,6 +6453,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #404 "Etablissement Acc.Collect.Parental Régulier & Occasionnel"
 * #404 ^property[0].code = #niveau
 * #404 ^property[=].valueInteger =  4
+* #404 ^property[+].code = #domaine
+* #404 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #404 ^property[=].valueCoding.code = #SOC
 * #404 ^property[+].code = #parent
 * #404 ^property[=].valueCode = #5101
 * #404 ^designation[0].language = #fr-FR
@@ -5841,6 +6479,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #405 "Service Social Polyvalent de Secteur"
 * #405 ^property[0].code = #niveau
 * #405 ^property[=].valueInteger =  4
+* #405 ^property[+].code = #domaine
+* #405 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #405 ^property[=].valueCoding.code = #SOC
 * #405 ^property[+].code = #parent
 * #405 ^property[=].valueCode = #5104
 * #405 ^designation[0].language = #fr-FR
@@ -5856,6 +6497,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #411 "Intermédiaire de Placement Social"
 * #411 ^property[0].code = #niveau
 * #411 ^property[=].valueInteger =  4
+* #411 ^property[+].code = #domaine
+* #411 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #411 ^property[=].valueCoding.code = #SOC
 * #411 ^property[+].code = #parent
 * #411 ^property[=].valueCode = #4501
 * #411 ^designation[0].language = #fr-FR
@@ -5871,6 +6515,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #412 "Appartement Thérapeutique"
 * #412 ^property[0].code = #niveau
 * #412 ^property[=].valueInteger =  4
+* #412 ^property[+].code = #domaine
+* #412 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #412 ^property[=].valueCoding.code = #SAN
 * #412 ^property[+].code = #parent
 * #412 ^property[=].valueCode = #1111
 * #412 ^designation[0].language = #fr-FR
@@ -5886,6 +6533,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #413 "C.E.C.O.S"
 * #413 ^property[0].code = #niveau
 * #413 ^property[=].valueInteger =  4
+* #413 ^property[+].code = #domaine
+* #413 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #413 ^property[=].valueCoding.code = #SAN
 * #413 ^property[+].code = #parent
 * #413 ^property[=].valueCode = #3402
 * #413 ^designation[0].language = #fr-FR
@@ -5905,6 +6555,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #414 "Centre Anti Poison"
 * #414 ^property[0].code = #niveau
 * #414 ^property[=].valueInteger =  4
+* #414 ^property[+].code = #domaine
+* #414 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #414 ^property[=].valueCoding.code = #SAN
 * #414 ^property[+].code = #parent
 * #414 ^property[=].valueCode = #3403
 * #414 ^designation[0].language = #fr-FR
@@ -5924,6 +6577,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #415 "Service Médico-Psychologique Régional (S.M.P.R.)"
 * #415 ^property[0].code = #niveau
 * #415 ^property[=].valueInteger =  4
+* #415 ^property[+].code = #domaine
+* #415 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #415 ^property[=].valueCoding.code = #SAN
 * #415 ^property[+].code = #parent
 * #415 ^property[=].valueCode = #1111
 * #415 ^designation[0].language = #fr-FR
@@ -5943,6 +6599,11 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #418 "Service d'Enquêtes Sociales (S.E.S.)"
 * #418 ^property[0].code = #niveau
 * #418 ^property[=].valueInteger =  4
+* #418 ^property[+].code = #domaine
+* #418 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #418 ^property[=].valueCoding.code = #SOC
+* #418 ^property[+].code = #parent
+* #418 ^property[=].valueCode = #4504
 * #418 ^designation[0].language = #fr-FR
 * #418 ^designation[=].use.system = "http://snomed.info/sct"
 * #418 ^designation[=].use = $sct#900000000000013009
@@ -5964,6 +6625,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #419 "Centre d'Accueil Toxicomanes"
 * #419 ^property[0].code = #niveau
 * #419 ^property[=].valueInteger =  4
+* #419 ^property[+].code = #domaine
+* #419 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #419 ^property[=].valueCoding.code = #SAN
 * #419 ^property[+].code = #parent
 * #419 ^property[=].valueCode = #1113
 * #419 ^designation[0].language = #fr-FR
@@ -5983,6 +6647,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #420 "Entreprise d'Insertion"
 * #420 ^property[0].code = #niveau
 * #420 ^property[=].valueInteger =  4
+* #420 ^property[+].code = #domaine
+* #420 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #420 ^property[=].valueCoding.code = #SOC
 * #420 ^property[+].code = #parent
 * #420 ^property[=].valueCode = #4601
 * #420 ^designation[0].language = #fr-FR
@@ -6002,6 +6669,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #421 "Centre d'enseignement aux secours d'urgence"
 * #421 ^property[0].code = #niveau
 * #421 ^property[=].valueInteger =  4
+* #421 ^property[+].code = #domaine
+* #421 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #421 ^property[=].valueCoding.code = #ENS
 * #421 ^property[+].code = #parent
 * #421 ^property[=].valueCode = #6103
 * #421 ^designation[0].language = #fr-FR
@@ -6021,6 +6691,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #422 "Traitements Spécialisés à Domicile"
 * #422 ^property[0].code = #niveau
 * #422 ^property[=].valueInteger =  4
+* #422 ^property[+].code = #domaine
+* #422 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #422 ^property[=].valueCoding.code = #SAN
 * #422 ^property[+].code = #parent
 * #422 ^property[=].valueCode = #1201
 * #422 ^designation[0].language = #fr-FR
@@ -6036,6 +6709,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #423 "Ecole des cadres de laborantins d'analyses médicales"
 * #423 ^property[0].code = #niveau
 * #423 ^property[=].valueInteger =  4
+* #423 ^property[+].code = #domaine
+* #423 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #423 ^property[=].valueCoding.code = #ENS
 * #423 ^property[+].code = #parent
 * #423 ^property[=].valueCode = #6102
 * #423 ^designation[0].language = #fr-FR
@@ -6055,6 +6731,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #425 "Centre d'Accueil Thérapeutique à temps partiel (C.A.T.T.P.)"
 * #425 ^property[0].code = #niveau
 * #425 ^property[=].valueInteger =  4
+* #425 ^property[+].code = #domaine
+* #425 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #425 ^property[=].valueCoding.code = #SAN
 * #425 ^property[+].code = #parent
 * #425 ^property[=].valueCode = #1111
 * #425 ^designation[0].language = #fr-FR
@@ -6074,6 +6753,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #426 "Syndicat Inter Hospitalier (S.I.H.)"
 * #426 ^property[0].code = #niveau
 * #426 ^property[=].valueInteger =  4
+* #426 ^property[+].code = #domaine
+* #426 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #426 ^property[=].valueCoding.code = #SAN
 * #426 ^property[+].code = #parent
 * #426 ^property[=].valueCode = #1205
 * #426 ^designation[0].language = #fr-FR
@@ -6093,6 +6775,11 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #427 "Service Educatif Auprès des Tribunaux (S.E.A.T.)"
 * #427 ^property[0].code = #niveau
 * #427 ^property[=].valueInteger =  4
+* #427 ^property[+].code = #domaine
+* #427 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #427 ^property[=].valueCoding.code = #SOC
+* #427 ^property[+].code = #parent
+* #427 ^property[=].valueCode = #4502
 * #427 ^designation[0].language = #fr-FR
 * #427 ^designation[=].use.system = "http://snomed.info/sct"
 * #427 ^designation[=].use = $sct#900000000000013009
@@ -6114,6 +6801,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #430 "Centre Postcure Malades Mentaux"
 * #430 ^property[0].code = #niveau
 * #430 ^property[=].valueInteger =  4
+* #430 ^property[+].code = #domaine
+* #430 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #430 ^property[=].valueCoding.code = #SAN
 * #430 ^property[+].code = #parent
 * #430 ^property[=].valueCode = #1111
 * #430 ^designation[0].language = #fr-FR
@@ -6133,6 +6823,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #431 "Centre Postcure pour Alcooliques"
 * #431 ^property[0].code = #niveau
 * #431 ^property[=].valueInteger =  4
+* #431 ^property[+].code = #domaine
+* #431 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #431 ^property[=].valueCoding.code = #SAN
 * #431 ^property[+].code = #parent
 * #431 ^property[=].valueCode = #1113
 * #431 ^designation[0].language = #fr-FR
@@ -6152,6 +6845,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #432 "Centre Postcure pour Toxicomanes"
 * #432 ^property[0].code = #niveau
 * #432 ^property[=].valueInteger =  4
+* #432 ^property[+].code = #domaine
+* #432 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #432 ^property[=].valueCoding.code = #SAN
 * #432 ^property[+].code = #parent
 * #432 ^property[=].valueCode = #1113
 * #432 ^designation[0].language = #fr-FR
@@ -6171,6 +6867,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #433 "Etablissement Sanitaire des Prisons"
 * #433 ^property[0].code = #niveau
 * #433 ^property[=].valueInteger =  4
+* #433 ^property[+].code = #domaine
+* #433 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #433 ^property[=].valueCoding.code = #SAN
 * #433 ^property[+].code = #parent
 * #433 ^property[=].valueCode = #2204
 * #433 ^designation[0].language = #fr-FR
@@ -6186,6 +6885,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #434 "Classe Spéciale en Ecole Maternelle"
 * #434 ^property[0].code = #niveau
 * #434 ^property[=].valueInteger =  4
+* #434 ^property[+].code = #domaine
+* #434 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #434 ^property[=].valueCoding.code = #SOC
 * #434 ^property[+].code = #parent
 * #434 ^property[=].valueCode = #4201
 * #434 ^designation[0].language = #fr-FR
@@ -6209,6 +6911,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #435 "Centre de formation d'aide à domicile"
 * #435 ^property[0].code = #niveau
 * #435 ^property[=].valueInteger =  4
+* #435 ^property[+].code = #domaine
+* #435 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #435 ^property[=].valueCoding.code = #ENS
 * #435 ^property[+].code = #parent
 * #435 ^property[=].valueCode = #6201
 * #435 ^designation[0].language = #fr-FR
@@ -6228,6 +6933,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #436 "Ecoles Formant aux Professions Sanitaires et Sociales"
 * #436 ^property[0].code = #niveau
 * #436 ^property[=].valueInteger =  4
+* #436 ^property[+].code = #domaine
+* #436 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #436 ^property[=].valueCoding.code = #ENS
 * #436 ^property[+].code = #parent
 * #436 ^property[=].valueCode = #6301
 * #436 ^designation[0].language = #fr-FR
@@ -6243,6 +6951,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #437 "Foyer d'Accueil Médicalisé pour Adultes Handicapés (F.A.M.)"
 * #437 ^property[0].code = #niveau
 * #437 ^property[=].valueInteger =  4
+* #437 ^property[+].code = #domaine
+* #437 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #437 ^property[=].valueCoding.code = #SOC
 * #437 ^property[+].code = #parent
 * #437 ^property[=].valueCode = #4301
 * #437 ^designation[0].language = #fr-FR
@@ -6266,6 +6977,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #438 "Centre de Médecine collective"
 * #438 ^property[0].code = #niveau
 * #438 ^property[=].valueInteger =  4
+* #438 ^property[+].code = #domaine
+* #438 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #438 ^property[=].valueCoding.code = #SAN
 * #438 ^property[+].code = #parent
 * #438 ^property[=].valueCode = #2201
 * #438 ^designation[0].language = #fr-FR
@@ -6281,6 +6995,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #439 "Centre Santé Polyvalent"
 * #439 ^property[0].code = #niveau
 * #439 ^property[=].valueInteger =  4
+* #439 ^property[+].code = #domaine
+* #439 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #439 ^property[=].valueCoding.code = #SAN
 * #439 ^property[+].code = #parent
 * #439 ^property[=].valueCode = #2206
 * #439 ^designation[0].language = #fr-FR
@@ -6304,6 +7021,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #440 "Service d’Investigation Educative"
 * #440 ^property[0].code = #niveau
 * #440 ^property[=].valueInteger =  4
+* #440 ^property[+].code = #domaine
+* #440 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #440 ^property[=].valueCoding.code = #SOC
 * #440 ^property[+].code = #parent
 * #440 ^property[=].valueCode = #4502
 * #440 ^property[+].code = #dateValid
@@ -6315,6 +7035,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #441 "Service d’Intervention Educative en Milieu Ouvert"
 * #441 ^property[0].code = #niveau
 * #441 ^property[=].valueInteger =  4
+* #441 ^property[+].code = #domaine
+* #441 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #441 ^property[=].valueCoding.code = #SOC
 * #441 ^property[+].code = #parent
 * #441 ^property[=].valueCode = #4502
 * #441 ^designation[0].language = #fr-FR
@@ -6330,6 +7053,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #442 "Centre Provisoire Hébergement (C.P.H.)"
 * #442 ^property[0].code = #niveau
 * #442 ^property[=].valueInteger =  4
+* #442 ^property[+].code = #domaine
+* #442 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #442 ^property[=].valueCoding.code = #SOC
 * #442 ^property[+].code = #parent
 * #442 ^property[=].valueCode = #4601
 * #442 ^designation[0].language = #fr-FR
@@ -6349,6 +7075,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #443 "Centre Accueil Demandeurs Asile (C.A.D.A.)"
 * #443 ^property[0].code = #niveau
 * #443 ^property[=].valueInteger =  4
+* #443 ^property[+].code = #domaine
+* #443 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #443 ^property[=].valueCoding.code = #SOC
 * #443 ^property[+].code = #parent
 * #443 ^property[=].valueCode = #4601
 * #443 ^designation[0].language = #fr-FR
@@ -6368,6 +7097,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #444 "Centre Crise Accueil Permanent"
 * #444 ^property[0].code = #niveau
 * #444 ^property[=].valueInteger =  4
+* #444 ^property[+].code = #domaine
+* #444 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #444 ^property[=].valueCoding.code = #SAN
 * #444 ^property[+].code = #parent
 * #444 ^property[=].valueCode = #1111
 * #444 ^designation[0].language = #fr-FR
@@ -6387,6 +7119,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #445 "Service d'accompagnement médico-social adultes handicapés"
 * #445 ^property[0].code = #niveau
 * #445 ^property[=].valueInteger =  4
+* #445 ^property[+].code = #domaine
+* #445 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #445 ^property[=].valueCoding.code = #SOC
 * #445 ^property[+].code = #parent
 * #445 ^property[=].valueCode = #4305
 * #445 ^designation[0].language = #fr-FR
@@ -6406,6 +7141,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #446 "Service d'Accompagnement à la Vie Sociale (S.A.V.S.)"
 * #446 ^property[0].code = #niveau
 * #446 ^property[=].valueInteger =  4
+* #446 ^property[+].code = #domaine
+* #446 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #446 ^property[=].valueCoding.code = #SOC
 * #446 ^property[+].code = #parent
 * #446 ^property[=].valueCode = #4305
 * #446 ^designation[0].language = #fr-FR
@@ -6425,6 +7163,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #447 "Entreprise Intérim Insertion"
 * #447 ^property[0].code = #niveau
 * #447 ^property[=].valueInteger =  4
+* #447 ^property[+].code = #domaine
+* #447 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #447 ^property[=].valueCoding.code = #SOC
 * #447 ^property[+].code = #parent
 * #447 ^property[=].valueCode = #4601
 * #447 ^designation[0].language = #fr-FR
@@ -6444,6 +7185,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #448 "Etab.Acc.Médicalisé en tout ou partie personnes handicapées"
 * #448 ^property[0].code = #niveau
 * #448 ^property[=].valueInteger =  4
+* #448 ^property[+].code = #domaine
+* #448 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #448 ^property[=].valueCoding.code = #SOC
 * #448 ^property[+].code = #parent
 * #448 ^property[=].valueCode = #4301
 * #448 ^designation[0].language = #fr-FR
@@ -6463,6 +7207,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #449 "Etab.Accueil Non Médicalisé pour personnes handicapées"
 * #449 ^property[0].code = #niveau
 * #449 ^property[=].valueInteger =  4
+* #449 ^property[+].code = #domaine
+* #449 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #449 ^property[=].valueCoding.code = #SOC
 * #449 ^property[+].code = #parent
 * #449 ^property[=].valueCode = #4301
 * #449 ^designation[0].language = #fr-FR
@@ -6482,6 +7229,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #450 "Service d'Aide aux Personnes Agées"
 * #450 ^property[0].code = #niveau
 * #450 ^property[=].valueInteger =  4
+* #450 ^property[+].code = #domaine
+* #450 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #450 ^property[=].valueCoding.code = #SOC
 * #450 ^property[+].code = #parent
 * #450 ^property[=].valueCode = #4403
 * #450 ^designation[0].language = #fr-FR
@@ -6505,6 +7255,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #451 "Service d'Aide aux Familles en Difficulté"
 * #451 ^property[0].code = #niveau
 * #451 ^property[=].valueInteger =  4
+* #451 ^property[+].code = #domaine
+* #451 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #451 ^property[=].valueCoding.code = #SOC
 * #451 ^property[+].code = #parent
 * #451 ^property[=].valueCode = #5104
 * #451 ^designation[0].language = #fr-FR
@@ -6524,6 +7277,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #452 "Régie de Quartier"
 * #452 ^property[0].code = #niveau
 * #452 ^property[=].valueInteger =  4
+* #452 ^property[+].code = #domaine
+* #452 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #452 ^property[=].valueCoding.code = #SOC
 * #452 ^property[+].code = #parent
 * #452 ^property[=].valueCode = #4601
 * #452 ^property[+].code = #dateValid
@@ -6539,6 +7295,11 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #453 "Service de Réparation Pénale"
 * #453 ^property[0].code = #niveau
 * #453 ^property[=].valueInteger =  4
+* #453 ^property[+].code = #domaine
+* #453 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #453 ^property[=].valueCoding.code = #SOC
+* #453 ^property[+].code = #parent
+* #453 ^property[=].valueCode = #4504
 * #453 ^designation[0].language = #fr-FR
 * #453 ^designation[=].use.system = "http://snomed.info/sct"
 * #453 ^designation[=].use = $sct#900000000000013009
@@ -6556,6 +7317,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #460 "Service autonomie aide (SAA)"
 * #460 ^property[0].code = #niveau
 * #460 ^property[=].valueInteger =  4
+* #460 ^property[+].code = #domaine
+* #460 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #460 ^property[=].valueCoding.code = #SOC
 * #460 ^property[+].code = #parent
 * #460 ^property[=].valueCode = #4605
 * #460 ^designation[0].language = #fr-FR
@@ -6575,6 +7339,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #461 "Centres de Ressources S.A.I. (Sans Aucune Indication)"
 * #461 ^property[0].code = #niveau
 * #461 ^property[=].valueInteger =  4
+* #461 ^property[+].code = #domaine
+* #461 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #461 ^property[=].valueCoding.code = #SOC
 * #461 ^property[+].code = #parent
 * #461 ^property[=].valueCode = #4606
 * #461 ^designation[0].language = #fr-FR
@@ -6594,6 +7361,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #462 "Lieux de Vie et d’Accueil"
 * #462 ^property[0].code = #niveau
 * #462 ^property[=].valueInteger =  4
+* #462 ^property[+].code = #domaine
+* #462 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #462 ^property[=].valueCoding.code = #SOC
 * #462 ^property[+].code = #parent
 * #462 ^property[=].valueCode = #4605
 * #462 ^property[+].code = #dateValid
@@ -6605,6 +7375,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #463 "Centres Locaux Information Coordination P.A.(C.L.I.C.)"
 * #463 ^property[0].code = #niveau
 * #463 ^property[=].valueInteger =  4
+* #463 ^property[+].code = #domaine
+* #463 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #463 ^property[=].valueCoding.code = #SOC
 * #463 ^property[+].code = #parent
 * #463 ^property[=].valueCode = #4606
 * #463 ^designation[0].language = #fr-FR
@@ -6624,6 +7397,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #464 "Unités Evaluation Réentraînement et d'Orient. Soc. et Pro."
 * #464 ^property[0].code = #niveau
 * #464 ^property[=].valueInteger =  4
+* #464 ^property[+].code = #domaine
+* #464 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #464 ^property[=].valueCoding.code = #SOC
 * #464 ^property[+].code = #parent
 * #464 ^property[=].valueCode = #4609
 * #464 ^designation[0].language = #fr-FR
@@ -6643,6 +7419,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #500 "Etablissement d'hébergement pour personnes âgées dépendantes"
 * #500 ^property[0].code = #niveau
 * #500 ^property[=].valueInteger =  4
+* #500 ^property[+].code = #domaine
+* #500 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #500 ^property[=].valueCoding.code = #SOC
 * #500 ^property[+].code = #parent
 * #500 ^property[=].valueCode = #4401
 * #500 ^designation[0].language = #fr-FR
@@ -6658,6 +7437,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #501 "EHPA percevant des crédits d'assurance maladie"
 * #501 ^property[0].code = #niveau
 * #501 ^property[=].valueInteger =  4
+* #501 ^property[+].code = #domaine
+* #501 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #501 ^property[=].valueCoding.code = #SOC
 * #501 ^property[+].code = #parent
 * #501 ^property[=].valueCode = #4401
 * #501 ^designation[0].language = #fr-FR
@@ -6673,6 +7455,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #502 "EHPA ne percevant pas des crédits d'assurance maladie"
 * #502 ^property[0].code = #niveau
 * #502 ^property[=].valueInteger =  4
+* #502 ^property[+].code = #domaine
+* #502 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #502 ^property[=].valueCoding.code = #SOC
 * #502 ^property[+].code = #parent
 * #502 ^property[=].valueCode = #4401
 * #502 ^designation[0].language = #fr-FR
@@ -6688,6 +7473,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #601 "Cabinet Libéral Médical"
 * #601 ^property[0].code = #niveau
 * #601 ^property[=].valueInteger =  4
+* #601 ^property[+].code = #domaine
+* #601 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #601 ^property[=].valueCoding.code = #SAN
 * #601 ^property[+].code = #parent
 * #601 ^property[=].valueCode = #2101
 * #601 ^designation[0].language = #fr-FR
@@ -6707,6 +7495,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #602 "Cabinet de Groupe"
 * #602 ^property[0].code = #niveau
 * #602 ^property[=].valueInteger =  4
+* #602 ^property[+].code = #domaine
+* #602 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #602 ^property[=].valueCoding.code = #SAN
 * #602 ^property[+].code = #parent
 * #602 ^property[=].valueCode = #2102
 * #602 ^property[+].code = #dateValid
@@ -6722,6 +7513,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #603 "Maison de santé (L.6223-3)"
 * #603 ^property[0].code = #niveau
 * #603 ^property[=].valueInteger =  4
+* #603 ^property[+].code = #domaine
+* #603 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #603 ^property[=].valueCoding.code = #SAN
 * #603 ^property[+].code = #parent
 * #603 ^property[=].valueCode = #2103
 * #603 ^designation[0].language = #fr-FR
@@ -6741,6 +7535,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #604 "Communauté Professionnelle Territoriale de Santé (CPTS)" "Les Communautés Professionnelles Territoriales de Santé (CPTS) ont été créées par la loi de modernisation de notre système de santé du 26 janvier 2016 (cf. articles Article L1434-12 et Article L1434-13 du code de la Santé Publique). Leur enregistrement est régi par l'instruction DGOS/DIR/DREES/DMSI/2020/12. Les CPTS sont un espace d'organisation et de coordination entre professionnels de santé et non pas des structures de soins : elles regroupent les professionnels de santé d'un même territoire qui souhaitent s'organiser - à leur initiative - autour d'un projet de santé pour répondre aux besoins de santé de la population. Les CPTS sont constituées entre des professionnels de santé, le cas échéant de maisons de santé, de centres de santé, de réseaux de santé, d'établissements de santé, d'établissements et de services médico-sociaux, des groupements de coopération sanitaire, et des groupements de coopération sociale et médicosociale. Grâce à l'accord conventionnel interprofessionnel (ACI) intervenu en 2019, les CPTS dont le projet de santé est validé par l'ARS sont enregistrés dans FINESS et peuvent bénéficier de financement de l'assurance maladie  Ne sont enregistrés dans FINESS que l'Entité Juridique et le siège social. Les établissements et professionnels constitutif d'une CPTS ne sont pas enregistrés dans FINESS."
 * #604 ^property[0].code = #niveau
 * #604 ^property[=].valueInteger =  4
+* #604 ^property[+].code = #domaine
+* #604 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #604 ^property[=].valueCoding.code = #SAN
 * #604 ^property[+].code = #parent
 * #604 ^property[=].valueCode = #2103
 * #604 ^designation[0].language = #fr-FR
@@ -6756,6 +7553,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #605 "Cabinet d'Auxiliaires Médicaux"
 * #605 ^property[0].code = #niveau
 * #605 ^property[=].valueInteger =  4
+* #605 ^property[+].code = #domaine
+* #605 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #605 ^property[=].valueCoding.code = #SAN
 * #605 ^property[+].code = #parent
 * #605 ^property[=].valueCode = #2105
 * #605 ^designation[0].language = #fr-FR
@@ -6775,6 +7575,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #606 "Dispositif d'appui à la coordination (DAC)"
 * #606 ^property[0].code = #niveau
 * #606 ^property[=].valueInteger =  4
+* #606 ^property[+].code = #domaine
+* #606 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #606 ^property[=].valueCoding.code = #SAN
 * #606 ^property[+].code = #parent
 * #606 ^property[=].valueCode = #3408
 * #606 ^designation[0].language = #fr-FR
@@ -6790,6 +7593,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #607 "Groupement Régional d'Appui au Développement de la e-Santé (GRADeS)"
 * #607 ^property[0].code = #niveau
 * #607 ^property[=].valueInteger =  4
+* #607 ^property[+].code = #domaine
+* #607 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #607 ^property[=].valueCoding.code = #SAN
 * #607 ^property[+].code = #parent
 * #607 ^property[=].valueCode = #3408
 * #607 ^designation[0].language = #fr-FR
@@ -6805,6 +7611,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #608 "Equipe mobile médico-sociale précarité (EMMSP)"
 * #608 ^property[0].code = #niveau
 * #608 ^property[=].valueInteger =  4
+* #608 ^property[+].code = #domaine
+* #608 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #608 ^property[=].valueCoding.code = #SAN
 * #608 ^property[+].code = #parent
 * #608 ^property[=].valueCode = #4604
 * #608 ^designation[0].language = #fr-FR
@@ -6820,6 +7629,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #609 "Maison Départementale pour Personnes Handicapées (MDPH)"
 * #609 ^property[0].code = #niveau
 * #609 ^property[=].valueInteger =  4
+* #609 ^property[+].code = #domaine
+* #609 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #609 ^property[=].valueCoding.code = #SOC
 * #609 ^property[+].code = #parent
 * #609 ^property[=].valueCode = #4606
 * #609 ^designation[0].language = #fr-FR
@@ -6835,6 +7647,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #610 "Laboratoire d'Analyses"
 * #610 ^property[0].code = #niveau
 * #610 ^property[=].valueInteger =  4
+* #610 ^property[+].code = #domaine
+* #610 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #610 ^property[=].valueCoding.code = #SAN
 * #610 ^property[+].code = #parent
 * #610 ^property[=].valueCode = #3101
 * #610 ^designation[0].language = #fr-FR
@@ -6850,6 +7665,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #611 "Laboratoire de Biologie Médicale"
 * #611 ^property[0].code = #niveau
 * #611 ^property[=].valueInteger =  4
+* #611 ^property[+].code = #domaine
+* #611 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #611 ^property[=].valueCoding.code = #SAN
 * #611 ^property[+].code = #parent
 * #611 ^property[=].valueCode = #3101
 * #611 ^designation[0].language = #fr-FR
@@ -6869,6 +7687,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #612 "Autre Laboratoire de Biologie Médicale sans FSE"
 * #612 ^property[0].code = #niveau
 * #612 ^property[=].valueInteger =  4
+* #612 ^property[+].code = #domaine
+* #612 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #612 ^property[=].valueCoding.code = #SAN
 * #612 ^property[+].code = #parent
 * #612 ^property[=].valueCode = #3101
 * #612 ^designation[0].language = #fr-FR
@@ -6884,6 +7705,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #614 "Dispositif Spécifique Régional du Cancer (DSRC)"
 * #614 ^property[0].code = #niveau
 * #614 ^property[=].valueInteger =  4
+* #614 ^property[+].code = #domaine
+* #614 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #614 ^property[=].valueCoding.code = #SAN
 * #614 ^property[+].code = #parent
 * #614 ^property[=].valueCode = #3408
 * #614 ^designation[0].language = #fr-FR
@@ -6899,6 +7723,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #616 "Services de Prévention et de Santé au Travail (SPST)"
 * #616 ^property[0].code = #niveau
 * #616 ^property[=].valueInteger =  4
+* #616 ^property[+].code = #domaine
+* #616 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #616 ^property[=].valueCoding.code = #SAN
 * #616 ^property[+].code = #parent
 * #616 ^property[=].valueCode = #3409
 * #616 ^designation[0].language = #fr-FR
@@ -6914,6 +7741,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #617 "Maison médicale de garde (MMG)"
 * #617 ^property[0].code = #niveau
 * #617 ^property[=].valueInteger =  4
+* #617 ^property[+].code = #domaine
+* #617 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #617 ^property[=].valueCoding.code = #SAN
 * #617 ^property[+].code = #parent
 * #617 ^property[=].valueCode = #2103
 * #617 ^designation[0].language = #fr-FR
@@ -6929,6 +7759,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #618 "Autre structure de soins non programmés (SNP)"
 * #618 ^property[0].code = #niveau
 * #618 ^property[=].valueInteger =  4
+* #618 ^property[+].code = #domaine
+* #618 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #618 ^property[=].valueCoding.code = #SAN
 * #618 ^property[+].code = #parent
 * #618 ^property[=].valueCode = #2103
 * #618 ^designation[0].language = #fr-FR
@@ -6944,6 +7777,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #620 "Pharmacie d'Officine"
 * #620 ^property[0].code = #niveau
 * #620 ^property[=].valueInteger =  4
+* #620 ^property[+].code = #domaine
+* #620 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #620 ^property[=].valueCoding.code = #SAN
 * #620 ^property[+].code = #parent
 * #620 ^property[=].valueCode = #3201
 * #620 ^property[+].code = #dateValid
@@ -6955,6 +7791,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #621 "Lunetterie Médicale"
 * #621 ^property[0].code = #niveau
 * #621 ^property[=].valueInteger =  4
+* #621 ^property[+].code = #domaine
+* #621 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #621 ^property[=].valueCoding.code = #SAN
 * #621 ^property[+].code = #parent
 * #621 ^property[=].valueCode = #3202
 * #621 ^property[+].code = #dateValid
@@ -6970,6 +7809,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #622 "Centre d'Appareillage & Prothèse"
 * #622 ^property[0].code = #niveau
 * #622 ^property[=].valueInteger =  4
+* #622 ^property[+].code = #domaine
+* #622 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #622 ^property[=].valueCoding.code = #SAN
 * #622 ^property[+].code = #parent
 * #622 ^property[=].valueCode = #3202
 * #622 ^designation[0].language = #fr-FR
@@ -6993,6 +7835,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #623 "Herboristerie"
 * #623 ^property[0].code = #niveau
 * #623 ^property[=].valueInteger =  4
+* #623 ^property[+].code = #domaine
+* #623 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #623 ^property[=].valueCoding.code = #SAN
 * #623 ^property[+].code = #parent
 * #623 ^property[=].valueCode = #3202
 * #623 ^property[+].code = #dateValid
@@ -7008,6 +7853,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #624 "Laboratoire pharmaceutique préparant délivrant allergènes"
 * #624 ^property[0].code = #niveau
 * #624 ^property[=].valueInteger =  4
+* #624 ^property[+].code = #domaine
+* #624 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #624 ^property[=].valueCoding.code = #SAN
 * #624 ^property[+].code = #parent
 * #624 ^property[=].valueCode = #3201
 * #624 ^designation[0].language = #fr-FR
@@ -7027,6 +7875,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #627 "Propharmacie"
 * #627 ^property[0].code = #niveau
 * #627 ^property[=].valueInteger =  4
+* #627 ^property[+].code = #domaine
+* #627 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #627 ^property[=].valueCoding.code = #SAN
 * #627 ^property[+].code = #parent
 * #627 ^property[=].valueCode = #3201
 * #627 ^property[+].code = #dateValid
@@ -7038,6 +7889,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #628 "Pharmacie Minière"
 * #628 ^property[0].code = #niveau
 * #628 ^property[=].valueInteger =  4
+* #628 ^property[+].code = #domaine
+* #628 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #628 ^property[=].valueCoding.code = #SAN
 * #628 ^property[+].code = #parent
 * #628 ^property[=].valueCode = #3201
 * #628 ^property[+].code = #dateValid
@@ -7049,6 +7903,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #629 "Pharmacie Mutualiste"
 * #629 ^property[0].code = #niveau
 * #629 ^property[=].valueInteger =  4
+* #629 ^property[+].code = #domaine
+* #629 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #629 ^property[=].valueCoding.code = #SAN
 * #629 ^property[+].code = #parent
 * #629 ^property[=].valueCode = #3201
 * #629 ^property[+].code = #dateValid
@@ -7060,6 +7917,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #630 "Installation autonome de chirurgie esthétique"
 * #630 ^property[0].code = #niveau
 * #630 ^property[=].valueInteger =  4
+* #630 ^property[+].code = #domaine
+* #630 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #630 ^property[=].valueCoding.code = #SAN
 * #630 ^property[+].code = #parent
 * #630 ^property[=].valueCode = #3405
 * #630 ^designation[0].language = #fr-FR
@@ -7075,6 +7935,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #631 "Maisons de naissance"
 * #631 ^property[0].code = #niveau
 * #631 ^property[=].valueInteger =  4
+* #631 ^property[+].code = #domaine
+* #631 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #631 ^property[=].valueCoding.code = #SAN
 * #631 ^property[+].code = #parent
 * #631 ^property[=].valueCode = #3406
 * #631 ^property[+].code = #dateValid
@@ -7086,6 +7949,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #632 "Structure Dispensatrice à domicile d'Oxygène à usage médical"
 * #632 ^property[0].code = #niveau
 * #632 ^property[=].valueInteger =  4
+* #632 ^property[+].code = #domaine
+* #632 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #632 ^property[=].valueCoding.code = #SAN
 * #632 ^property[+].code = #parent
 * #632 ^property[=].valueCode = #3201
 * #632 ^designation[0].language = #fr-FR
@@ -7101,6 +7967,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #633 "Structure Expérimentale en Santé"
 * #633 ^property[0].code = #niveau
 * #633 ^property[=].valueInteger =  4
+* #633 ^property[+].code = #domaine
+* #633 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #633 ^property[=].valueCoding.code = #SAN
 * #633 ^property[+].code = #parent
 * #633 ^property[=].valueCode = #3407
 * #633 ^designation[0].language = #fr-FR
@@ -7116,6 +7985,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #636 "Centre de soins et de prévention"
 * #636 ^property[0].code = #niveau
 * #636 ^property[=].valueInteger =  4
+* #636 ^property[+].code = #domaine
+* #636 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #636 ^property[=].valueCoding.code = #SAN
 * #636 ^property[+].code = #parent
 * #636 ^property[=].valueCode = #2206
 * #636 ^designation[0].language = #fr-FR
@@ -7131,6 +8003,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #637 "Centre de Lutte Antituberculeuse (CLAT)"
 * #637 ^property[0].code = #niveau
 * #637 ^property[=].valueInteger =  4
+* #637 ^property[+].code = #domaine
+* #637 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #637 ^property[=].valueCoding.code = #SAN
 * #637 ^property[+].code = #parent
 * #637 ^property[=].valueCode = #2201
 * #637 ^designation[0].language = #fr-FR
@@ -7150,6 +8025,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #638 "Centre gratuit d'information de dépistage et de diagnostic (CeGIDD)"
 * #638 ^property[0].code = #niveau
 * #638 ^property[=].valueInteger =  4
+* #638 ^property[+].code = #domaine
+* #638 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #638 ^property[=].valueCoding.code = #SAN
 * #638 ^property[+].code = #parent
 * #638 ^property[=].valueCode = #2201
 * #638 ^designation[0].language = #fr-FR
@@ -7169,6 +8047,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #639 "Sociétés de téléconsultation (STLC)"
 * #639 ^property[0].code = #niveau
 * #639 ^property[=].valueInteger =  4
+* #639 ^property[+].code = #domaine
+* #639 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #639 ^property[=].valueCoding.code = #SAN
 * #639 ^property[+].code = #parent
 * #639 ^property[=].valueCode = #2206
 * #639 ^designation[0].language = #fr-FR
@@ -7188,6 +8069,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #640 "Service d'aide et d'accompagnement à domicile aux familles (SAADF)"
 * #640 ^property[0].code = #niveau
 * #640 ^property[=].valueInteger =  4
+* #640 ^property[+].code = #domaine
+* #640 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #640 ^property[=].valueCoding.code = #SAN
 * #640 ^property[+].code = #parent
 * #640 ^property[=].valueCode = #4601
 * #640 ^designation[0].language = #fr-FR
@@ -7207,6 +8091,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #641 "Antenne de Pharmacie d'officine"
 * #641 ^property[0].code = #niveau
 * #641 ^property[=].valueInteger =  4
+* #641 ^property[+].code = #domaine
+* #641 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #641 ^property[=].valueCoding.code = #SAN
 * #641 ^property[+].code = #parent
 * #641 ^property[=].valueCode = #3201
 * #641 ^designation[0].language = #fr-FR
@@ -7222,6 +8109,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #642 "Services départementaux d'incendie et de secours"
 * #642 ^property[0].code = #niveau
 * #642 ^property[=].valueInteger =  4
+* #642 ^property[+].code = #domaine
+* #642 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #642 ^property[=].valueCoding.code = #SAN
 * #642 ^property[+].code = #parent
 * #642 ^property[=].valueCode = #3410
 * #642 ^designation[0].language = #fr-FR
@@ -7237,6 +8127,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #643 "Serv. d'éval de la minorité de l'isolement pour les pers. se déclarant mineures"
 * #643 ^property[0].code = #niveau
 * #643 ^property[=].valueInteger =  4
+* #643 ^property[+].code = #domaine
+* #643 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #643 ^property[=].valueCoding.code = #SOC
 * #643 ^property[+].code = #parent
 * #643 ^property[=].valueCode = #4504
 * #643 ^designation[0].language = #fr-FR
@@ -7256,6 +8149,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #644 "Etab. de mise à l'abri pour les pers. se déclarant mineures non accompagnées"
 * #644 ^property[0].code = #niveau
 * #644 ^property[=].valueInteger =  4
+* #644 ^property[+].code = #domaine
+* #644 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #644 ^property[=].valueCoding.code = #SOC
 * #644 ^property[+].code = #parent
 * #644 ^property[=].valueCode = #4504
 * #644 ^designation[0].language = #fr-FR
@@ -7275,6 +8171,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #645 "Centre de Vaccination"
 * #645 ^property[0].code = #niveau
 * #645 ^property[=].valueInteger =  4
+* #645 ^property[+].code = #domaine
+* #645 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #645 ^property[=].valueCoding.code = #SAN
 * #645 ^property[+].code = #parent
 * #645 ^property[=].valueCode = #2201
 * #645 ^designation[0].language = #fr-FR
@@ -7290,6 +8189,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #646 "Centre de Vaccination Internationale"
 * #646 ^property[0].code = #niveau
 * #646 ^property[=].valueInteger =  4
+* #646 ^property[+].code = #domaine
+* #646 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #646 ^property[=].valueCoding.code = #SAN
 * #646 ^property[+].code = #parent
 * #646 ^property[=].valueCode = #2201
 * #646 ^designation[0].language = #fr-FR
@@ -7305,6 +8207,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #647 "Equipe de Soins Spécialisés"
 * #647 ^property[0].code = #niveau
 * #647 ^property[=].valueInteger =  4
+* #647 ^property[+].code = #domaine
+* #647 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #647 ^property[=].valueCoding.code = #SAN
 * #647 ^property[+].code = #parent
 * #647 ^property[=].valueCode = #2103
 * #647 ^designation[0].language = #fr-FR
@@ -7320,6 +8225,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #648 "Structure qui contribue au Service d'Accès aux Soins"
 * #648 ^property[0].code = #niveau
 * #648 ^property[=].valueInteger =  4
+* #648 ^property[+].code = #domaine
+* #648 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #648 ^property[=].valueCoding.code = #SAN
 * #648 ^property[+].code = #parent
 * #648 ^property[=].valueCode = #3408
 * #648 ^designation[0].language = #fr-FR
@@ -7335,6 +8243,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #690 "Etablissement de Fabrication Annexe à une Officine"
 * #690  ^property[0].code = #niveau
 * #690 ^property[=].valueInteger =  4
+* #690 ^property[+].code = #domaine
+* #690 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #690 ^property[=].valueCoding.code = #SAN
 * #690 ^property[+].code = #parent
 * #690 ^property[=].valueCode = #3201
 * #690 ^designation[0].language = #fr-FR
@@ -7354,6 +8265,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #695 "Groupement de coopération sanitaire de moyens - Exploitant"
 * #695  ^property[0].code = #niveau
 * #695 ^property[=].valueInteger =  4
+* #695 ^property[+].code = #domaine
+* #695 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #695 ^property[=].valueCoding.code = #SAN
 * #695 ^property[+].code = #parent
 * #695 ^property[=].valueCode = #1205
 * #695 ^designation[0].language = #fr-FR
@@ -7369,6 +8283,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #696 "Groupement de coopération sanitaire de moyens"
 * #696  ^property[0].code = #niveau
 * #696 ^property[=].valueInteger =  4
+* #696 ^property[+].code = #domaine
+* #696 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #696 ^property[=].valueCoding.code = #SAN
 * #696 ^property[+].code = #parent
 * #696 ^property[=].valueCode = #1205
 * #696 ^designation[0].language = #fr-FR
@@ -7384,6 +8301,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #697 "Groupement de coopération sanitaire - Etablissement de santé"
 * #697  ^property[0].code = #niveau
 * #697 ^property[=].valueInteger =  4
+* #697 ^property[+].code = #domaine
+* #697 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #697 ^property[=].valueCoding.code = #SAN
 * #697 ^property[+].code = #parent
 * #697 ^property[=].valueCode = #1205
 * #697 ^designation[0].language = #fr-FR
@@ -7403,6 +8323,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #698 "Autre Etablissement Loi Hospitalière"
 * #698  ^property[0].code = #niveau
 * #698 ^property[=].valueInteger =  4
+* #698 ^property[+].code = #domaine
+* #698 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #698 ^property[=].valueCoding.code = #SAN
 * #698 ^property[+].code = #parent
 * #698 ^property[=].valueCode = #1205
 * #698 ^designation[0].language = #fr-FR
@@ -7421,6 +8344,9 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #699 "Entité Ayant Autorisation"
 * #699  ^property[0].code = #niveau
 * #699 ^property[=].valueInteger =  4
+* #699 ^property[+].code = #domaine
+* #699 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #699 ^property[=].valueCoding.code = #SAN
 * #699 ^property[+].code = #parent
 * #699 ^property[=].valueCode = #1205
 * #699 ^designation[0].language = #fr-FR
