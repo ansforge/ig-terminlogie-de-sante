@@ -66,9 +66,9 @@ jobs:
           rm -rf .git
 
       - run: |
-          echo 'PACKAGE_JSON<<EOF' >> $GITHUB_ENV
+          echo PACKAGE_JSON<<EOF >> $GITHUB_ENV
           cat ./igSource/publication-request.json >> $GITHUB_ENV
-          echo 'EOF' >> $GITHUB_ENV
+          echo EOF >> $GITHUB_ENV
       - run: |
           echo '${{ fromJson(env.PACKAGE_JSON).version }}'
           echo '${{ fromJson(env.PACKAGE_JSON).desc }}'
