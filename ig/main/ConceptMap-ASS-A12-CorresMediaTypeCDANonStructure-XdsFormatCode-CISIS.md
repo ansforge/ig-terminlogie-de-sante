@@ -49,7 +49,7 @@ Mapping de [JDV-MediaTypeCorpsCDANonStructure](ValueSet-TRE-R222-MediaTypeCorpsC
   "title" : "ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-11-03T04:27:11+00:00",
+  "date" : "2025-11-03T09:32:32+00:00",
   "publisher" : "ANS",
   "contact" : [
     {

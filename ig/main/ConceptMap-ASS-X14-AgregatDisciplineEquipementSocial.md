@@ -38,7 +38,7 @@ Mapping de (non spécifié) vers (non spécifié)
   "title" : "ASS_X14_AgregatDisciplineEquipementSocial",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-11-03T04:27:11+00:00",
+  "date" : "2025-11-03T09:32:32+00:00",
   "publisher" : "ANS",
   "contact" : [
     {
