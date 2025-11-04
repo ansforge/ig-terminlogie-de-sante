@@ -1,22 +1,34 @@
-CodeSystem: TRE_R280_DisciplineEquipementSocial
-Id: TRE-R280-DisciplineEquipementSocial
-Description: "Disciplines d'équipement pour le social"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2024-08-28T05:13:05.311+00:00"
+Alias: $sct = http://snomed.info/sct
+
+CodeSystem: TreR401ActiviteSocialeRegulee
+Id: tre-r401-activite-sociale-regulee
+Title: "Tre R401 Activite Sociale Regulee"
+Description: "Activité Sociale Régulée de FINESS"
+* ^meta.versionId = "1"
+* ^meta.lastUpdated = "2025-11-04T05:14:07.558+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
-* ^extension.valuePeriod.start = "2018-10-26T12:00:00+01:00"
-* ^url = "https://mos.esante.gouv.fr/NOS/TRE_R280-DisciplineEquipementSocial/FHIR/TRE-R280-DisciplineEquipementSocial"
+* ^extension.valuePeriod.start = "1979-01-01T00:00:00+01:00"
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.133"
-* ^version = "20231215120000"
+* ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.380"
+* ^version = "20251104120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2023-12-15T12:00:00+01:00"
+* ^date = "2025-11-04T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
-* ^valueSet = "https://mos.esante.gouv.fr/NOS/TRE_R280-DisciplineEquipementSocial/FHIR/TRE-R280-DisciplineEquipementSocial?vs"
 * ^content = #complete
+* ^hierarchyMeaning = #is-a
+* ^property[0].code = #niveau
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#niveau"
+* ^property[=].description = "Permet d'indiquer le niveau hiérarchique du code"
+* ^property[=].type = #integer
+* ^property[+].code = #parent
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#parent"
+* ^property[=].description = "An immediate parent of the concept in the hierarchy"
+* ^property[=].type = #code
 * ^property[0].code = #dateValid
 * ^property[=].description = "date de validité d'un code concept"
 * ^property[=].type = #dateTime
@@ -26,6 +38,446 @@ Description: "Disciplines d'équipement pour le social"
 * ^property[+].code = #dateFin
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
+* ^property[+].code = #deprecationDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
+* ^property[=].description = "Date Concept was deprecated"
+* ^property[=].type = #dateTime
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "A property that indicates the status of the concept."
+* ^property[=].type = #code
+* ^property[+].code = #retirementDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
+* ^property[=].description = "Date Concept was retired"
+* ^property[=].type = #dateTime
+* #4000 "Disciplines d'équipement sociales"
+* #4000 ^designation.language = #fr-FR
+* #4000 ^designation.use = $sct#900000000000013009
+* #4000 ^designation.value = "Disciplines équip.sociales"
+* #4000 ^property[0].code = #dateValid
+* #4000 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4000 ^property[+].code = #dateMaj
+* #4000 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4000 ^property[+].code = #status
+* #4000 ^property[=].valueCode = #active
+* #4000 ^property[+].code = #niveau
+* #4000 ^property[=].valueInteger = 1
+* #4300 "Adultes handicapés"
+* #4300 ^property[0].code = #dateValid
+* #4300 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4300 ^property[+].code = #dateMaj
+* #4300 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4300 ^property[+].code = #status
+* #4300 ^property[=].valueCode = #active
+* #4300 ^property[+].code = #niveau
+* #4300 ^property[=].valueInteger = 2
+* #4300 ^property[+].code = #parent
+* #4300 ^property[=].valueCode = #4000
+* #4400 "Personnes âgées"
+* #4400 ^property[0].code = #dateValid
+* #4400 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4400 ^property[+].code = #dateMaj
+* #4400 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4400 ^property[+].code = #status
+* #4400 ^property[=].valueCode = #active
+* #4400 ^property[+].code = #niveau
+* #4400 ^property[=].valueInteger = 2
+* #4400 ^property[+].code = #parent
+* #4400 ^property[=].valueCode = #4000
+* #4500 "Protection de l'enfance"
+* #4500 ^designation.language = #fr-FR
+* #4500 ^designation.use.system = "http://snomed.info/sct"
+* #4500 ^designation.use = $sct#900000000000013009
+* #4500 ^designation.value = "Protection enfance"
+* #4500 ^property[0].code = #dateValid
+* #4500 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4500 ^property[+].code = #dateMaj
+* #4500 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4500 ^property[+].code = #status
+* #4500 ^property[=].valueCode = #active
+* #4500 ^property[+].code = #niveau
+* #4500 ^property[=].valueInteger = 2
+* #4500 ^property[+].code = #parent
+* #4500 ^property[=].valueCode = #4000
+* #4600 "Action sociale autres adultes"
+* #4600 ^property[0].code = #dateValid
+* #4600 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4600 ^property[+].code = #dateMaj
+* #4600 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4600 ^property[+].code = #status
+* #4600 ^property[=].valueCode = #active
+* #4600 ^property[+].code = #niveau
+* #4600 ^property[=].valueInteger = 2
+* #4600 ^property[+].code = #parent
+* #4600 ^property[=].valueCode = #4000
+* #4700 "Enfance handicapée"
+* #4700 ^property[0].code = #dateValid
+* #4700 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4700 ^property[+].code = #dateMaj
+* #4700 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4700 ^property[+].code = #status
+* #4700 ^property[=].valueCode = #active
+* #4700 ^property[+].code = #niveau
+* #4700 ^property[=].valueInteger = 2
+* #4700 ^property[+].code = #parent
+* #4700 ^property[=].valueCode = #4000
+* #4800 "Aide à la famille"
+* #4800 ^property[0].code = #dateValid
+* #4800 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4800 ^property[+].code = #dateMaj
+* #4800 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4800 ^property[+].code = #status
+* #4800 ^property[=].valueCode = #active
+* #4800 ^property[+].code = #niveau
+* #4800 ^property[=].valueInteger = 2
+* #4800 ^property[+].code = #parent
+* #4800 ^property[=].valueCode = #4000
+* #4900 "Autres services du domaine social"
+* #4900 ^designation.language = #fr-FR
+* #4900 ^designation.use = $sct#900000000000013009
+* #4900 ^designation.value = "Autres services domaine social"
+* #4900 ^property[0].code = #dateValid
+* #4900 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4900 ^property[+].code = #dateMaj
+* #4900 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4900 ^property[+].code = #status
+* #4900 ^property[=].valueCode = #active
+* #4900 ^property[+].code = #niveau
+* #4900 ^property[=].valueInteger = 2
+* #4900 ^property[+].code = #parent
+* #4900 ^property[=].valueCode = #4000
+* #4310 "Insertion professionnelle et sociale des adultes handicapés"
+* #4310 ^designation.language = #fr-FR
+* #4310 ^designation.use.system = "http://snomed.info/sct"
+* #4310 ^designation.use = $sct#900000000000013009
+* #4310 ^designation.value = "Inser.prof.soc.adultes hand."
+* #4310 ^property[0].code = #dateValid
+* #4310 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4310 ^property[+].code = #dateMaj
+* #4310 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4310 ^property[+].code = #status
+* #4310 ^property[=].valueCode = #active
+* #4310 ^property[+].code = #niveau
+* #4310 ^property[=].valueInteger = 3
+* #4310 ^property[+].code = #parent
+* #4310 ^property[=].valueCode = #4300
+* #4320 "Hébergement des adultes handicapés"
+* #4320 ^designation.language = #fr-FR
+* #4320 ^designation.use.system = "http://snomed.info/sct"
+* #4320 ^designation.use = $sct#900000000000013009
+* #4320 ^designation.value = "Hébergement adultes hand."
+* #4320 ^property[0].code = #dateValid
+* #4320 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4320 ^property[+].code = #dateMaj
+* #4320 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4320 ^property[+].code = #status
+* #4320 ^property[=].valueCode = #active
+* #4320 ^property[+].code = #niveau
+* #4320 ^property[=].valueInteger = 3
+* #4320 ^property[+].code = #parent
+* #4320 ^property[=].valueCode = #4300
+* #4330 "Accueil et accompagnement pour personnes handicapées"
+* #4330 ^designation.language = #fr-FR
+* #4330 ^designation.use.system = "http://snomed.info/sct"
+* #4330 ^designation.use = $sct#900000000000013009
+* #4330 ^designation.value = "Accueil acc.pers.hand."
+* #4330 ^property[0].code = #dateValid
+* #4330 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4330 ^property[+].code = #dateMaj
+* #4330 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4330 ^property[+].code = #status
+* #4330 ^property[=].valueCode = #active
+* #4330 ^property[+].code = #niveau
+* #4330 ^property[=].valueInteger = 3
+* #4330 ^property[+].code = #parent
+* #4330 ^property[=].valueCode = #4300
+* #4410 "Soins médico sociaux aux personnes âgées"
+* #4410 ^designation.language = #fr-FR
+* #4410 ^designation.use.system = "http://snomed.info/sct"
+* #4410 ^designation.use = $sct#900000000000013009
+* #4410 ^designation.value = "Soins médico soc.pers.âgées"
+* #4410 ^property[0].code = #dateValid
+* #4410 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4410 ^property[+].code = #dateMaj
+* #4410 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4410 ^property[+].code = #status
+* #4410 ^property[=].valueCode = #active
+* #4410 ^property[+].code = #niveau
+* #4410 ^property[=].valueInteger = 3
+* #4410 ^property[+].code = #parent
+* #4410 ^property[=].valueCode = #4400
+* #4420 "Hébergement personnes âgées"
+* #4420 ^property[0].code = #dateValid
+* #4420 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4420 ^property[+].code = #dateMaj
+* #4420 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4420 ^property[+].code = #status
+* #4420 ^property[=].valueCode = #active
+* #4420 ^property[+].code = #niveau
+* #4420 ^property[=].valueInteger = 3
+* #4420 ^property[+].code = #parent
+* #4420 ^property[=].valueCode = #4400
+* #4510 "Accueil au titre de la protection de l'enfance"
+* #4510 ^designation.language = #fr-FR
+* #4510 ^designation.use.system = "http://snomed.info/sct"
+* #4510 ^designation.use = $sct#900000000000013009
+* #4510 ^designation.value = "Acc.Protec.Enfance"
+* #4510 ^property[0].code = #dateValid
+* #4510 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4510 ^property[+].code = #dateMaj
+* #4510 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4510 ^property[+].code = #status
+* #4510 ^property[=].valueCode = #active
+* #4510 ^property[+].code = #niveau
+* #4510 ^property[=].valueInteger = 3
+* #4510 ^property[+].code = #parent
+* #4510 ^property[=].valueCode = #4500
+* #4520 "Observation orientation mineurs en difficulté"
+* #4520 ^designation.language = #fr-FR
+* #4520 ^designation.use.system = "http://snomed.info/sct"
+* #4520 ^designation.use = $sct#900000000000013009
+* #4520 ^designation.value = "Obs.orient.min.difficulté"
+* #4520 ^property[0].code = #dateValid
+* #4520 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4520 ^property[+].code = #dateMaj
+* #4520 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4520 ^property[+].code = #status
+* #4520 ^property[=].valueCode = #active
+* #4520 ^property[+].code = #niveau
+* #4520 ^property[=].valueInteger = 3
+* #4520 ^property[+].code = #parent
+* #4520 ^property[=].valueCode = #4500
+* #4530 "Soutien personnalisé enfants et ado en difficulté sociale"
+* #4530 ^designation.language = #fr-FR
+* #4530 ^designation.use.system = "http://snomed.info/sct"
+* #4530 ^designation.use = $sct#900000000000013009
+* #4530 ^designation.value = "Soutien pers.enf.ado.dif.soc."
+* #4530 ^property[0].code = #dateValid
+* #4530 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4530 ^property[+].code = #dateMaj
+* #4530 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4530 ^property[+].code = #status
+* #4530 ^property[=].valueCode = #active
+* #4530 ^property[+].code = #niveau
+* #4530 ^property[=].valueInteger = 3
+* #4530 ^property[+].code = #parent
+* #4530 ^property[=].valueCode = #4500
+* #4610 "Réinsertion professionnelle et sociale adultes en difficulté"
+* #4610 ^designation.language = #fr-FR
+* #4610 ^designation.use.system = "http://snomed.info/sct"
+* #4610 ^designation.use = $sct#900000000000013009
+* #4610 ^designation.value = "Réins.prof.soc.adlts.dif."
+* #4610 ^property[0].code = #dateValid
+* #4610 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4610 ^property[+].code = #dateMaj
+* #4610 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4610 ^property[+].code = #status
+* #4610 ^property[=].valueCode = #active
+* #4610 ^property[+].code = #niveau
+* #4610 ^property[=].valueInteger = 3
+* #4610 ^property[+].code = #parent
+* #4610 ^property[=].valueCode = #4600
+* #4620 "Hébergement des adultes en difficulté"
+* #4620 ^designation.language = #fr-FR
+* #4620 ^designation.use.system = "http://snomed.info/sct"
+* #4620 ^designation.use = $sct#900000000000013009
+* #4620 ^designation.value = "Hébergement adultes difficulté"
+* #4620 ^property[0].code = #dateValid
+* #4620 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4620 ^property[+].code = #dateMaj
+* #4620 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4620 ^property[+].code = #status
+* #4620 ^property[=].valueCode = #active
+* #4620 ^property[+].code = #niveau
+* #4620 ^property[=].valueInteger = 3
+* #4620 ^property[+].code = #parent
+* #4620 ^property[=].valueCode = #4600
+* #4630 "Hébergement des autres adultes"
+* #4630 ^designation.language = #fr-FR
+* #4630 ^designation.use.system = "http://snomed.info/sct"
+* #4630 ^designation.use = $sct#900000000000013009
+* #4630 ^designation.value = "Hébergement autres adultes"
+* #4630 ^property[0].code = #dateValid
+* #4630 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4630 ^property[+].code = #dateMaj
+* #4630 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4630 ^property[+].code = #status
+* #4630 ^property[=].valueCode = #active
+* #4630 ^property[+].code = #niveau
+* #4630 ^property[=].valueInteger = 3
+* #4630 ^property[+].code = #parent
+* #4630 ^property[=].valueCode = #4600
+* #4640 "Prise en charge des personnes en difficultés spécifiques"
+* #4640 ^designation.language = #fr-FR
+* #4640 ^designation.use.system = "http://snomed.info/sct"
+* #4640 ^designation.use = $sct#900000000000013009
+* #4640 ^designation.value = "Prise charge pers.dif.spéc"
+* #4640 ^property[0].code = #dateValid
+* #4640 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4640 ^property[+].code = #dateMaj
+* #4640 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4640 ^property[+].code = #status
+* #4640 ^property[=].valueCode = #active
+* #4640 ^property[+].code = #niveau
+* #4640 ^property[=].valueInteger = 3
+* #4640 ^property[+].code = #parent
+* #4640 ^property[=].valueCode = #4600
+* #4650 "Mesures de protection des majeurs"
+* #4650 ^designation.language = #fr-FR
+* #4650 ^designation.use.system = "http://snomed.info/sct"
+* #4650 ^designation.use = $sct#900000000000013009
+* #4650 ^designation.value = "Mesures protection majeurs"
+* #4650 ^property[0].code = #dateValid
+* #4650 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4650 ^property[+].code = #dateMaj
+* #4650 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4650 ^property[+].code = #status
+* #4650 ^property[=].valueCode = #active
+* #4650 ^property[+].code = #niveau
+* #4650 ^property[=].valueInteger = 3
+* #4650 ^property[+].code = #parent
+* #4650 ^property[=].valueCode = #4600
+* #4710 "Soins médico-sociaux enfance handicapée"
+* #4710 ^designation.language = #fr-FR
+* #4710 ^designation.use.system = "http://snomed.info/sct"
+* #4710 ^designation.use = $sct#900000000000013009
+* #4710 ^designation.value = "Soins médico-soc.enf.hand."
+* #4710 ^property[0].code = #dateValid
+* #4710 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4710 ^property[+].code = #dateMaj
+* #4710 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4710 ^property[+].code = #status
+* #4710 ^property[=].valueCode = #active
+* #4710 ^property[+].code = #niveau
+* #4710 ^property[=].valueInteger = 3
+* #4710 ^property[+].code = #parent
+* #4710 ^property[=].valueCode = #4700
+* #4720 "Education spéciale enfance handicapée"
+* #4720 ^designation.language = #fr-FR
+* #4720 ^designation.use.system = "http://snomed.info/sct"
+* #4720 ^designation.use = $sct#900000000000013009
+* #4720 ^designation.value = "Education spéc.enf.hand."
+* #4720 ^property[0].code = #dateValid
+* #4720 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4720 ^property[+].code = #dateMaj
+* #4720 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4720 ^property[+].code = #status
+* #4720 ^property[=].valueCode = #active
+* #4720 ^property[+].code = #niveau
+* #4720 ^property[=].valueInteger = 3
+* #4720 ^property[+].code = #parent
+* #4720 ^property[=].valueCode = #4700
+* #4730 "Hébergement enfance handicapée"
+* #4730 ^designation.language = #fr-FR
+* #4730 ^designation.use.system = "http://snomed.info/sct"
+* #4730 ^designation.use = $sct#900000000000013009
+* #4730 ^designation.value = "Hébergement enfance hand."
+* #4730 ^property[0].code = #dateValid
+* #4730 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4730 ^property[+].code = #dateMaj
+* #4730 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4730 ^property[+].code = #status
+* #4730 ^property[=].valueCode = #active
+* #4730 ^property[+].code = #niveau
+* #4730 ^property[=].valueInteger = 3
+* #4730 ^property[+].code = #parent
+* #4730 ^property[=].valueCode = #4700
+* #4740 "Education adaptée et accompagnement social et médico-social"
+* #4740 ^designation.language = #fr-FR
+* #4740 ^designation.use.system = "http://snomed.info/sct"
+* #4740 ^designation.use = $sct#900000000000013009
+* #4740 ^designation.value = "Educ.adap.acc.soc.médic.soc."
+* #4740 ^property[0].code = #dateValid
+* #4740 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4740 ^property[+].code = #dateMaj
+* #4740 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4740 ^property[+].code = #status
+* #4740 ^property[=].valueCode = #active
+* #4740 ^property[+].code = #niveau
+* #4740 ^property[=].valueInteger = 3
+* #4740 ^property[+].code = #parent
+* #4740 ^property[=].valueCode = #4700
+* #4810 "Garde des enfants"
+* #4810 ^property[0].code = #dateValid
+* #4810 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4810 ^property[+].code = #dateMaj
+* #4810 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4810 ^property[+].code = #status
+* #4810 ^property[=].valueCode = #active
+* #4810 ^property[+].code = #niveau
+* #4810 ^property[=].valueInteger = 3
+* #4810 ^property[+].code = #parent
+* #4810 ^property[=].valueCode = #4800
+* #4820 "Services à la famille"
+* #4820 ^property[0].code = #dateValid
+* #4820 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4820 ^property[+].code = #dateMaj
+* #4820 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4820 ^property[+].code = #status
+* #4820 ^property[=].valueCode = #active
+* #4820 ^property[+].code = #niveau
+* #4820 ^property[=].valueInteger = 3
+* #4820 ^property[+].code = #parent
+* #4820 ^property[=].valueCode = #4800
+* #4910 "Services medico-sociaux à domicile"
+* #4910 ^designation.language = #fr-FR
+* #4910 ^designation.use.system = "http://snomed.info/sct"
+* #4910 ^designation.use = $sct#900000000000013009
+* #4910 ^designation.value = "Services medico-soc.dom."
+* #4910 ^property[0].code = #dateValid
+* #4910 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4910 ^property[+].code = #dateMaj
+* #4910 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4910 ^property[+].code = #status
+* #4910 ^property[=].valueCode = #active
+* #4910 ^property[+].code = #niveau
+* #4910 ^property[=].valueInteger = 3
+* #4910 ^property[+].code = #parent
+* #4910 ^property[=].valueCode = #4900
+* #4920 "Recherche et administration domaine social"
+* #4920 ^designation.language = #fr-FR
+* #4920 ^designation.use.system = "http://snomed.info/sct"
+* #4920 ^designation.use = $sct#900000000000013009
+* #4920 ^designation.value = "Recherche admin.dom.soc."
+* #4920 ^property[0].code = #dateValid
+* #4920 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4920 ^property[+].code = #dateMaj
+* #4920 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4920 ^property[+].code = #status
+* #4920 ^property[=].valueCode = #active
+* #4920 ^property[+].code = #niveau
+* #4920 ^property[=].valueInteger = 3
+* #4920 ^property[+].code = #parent
+* #4920 ^property[=].valueCode = #4900
+* #4930 "Activité expérimentale dans établissements sociaux"
+* #4930 ^designation.language = #fr-FR
+* #4930 ^designation.use.system = "http://snomed.info/sct"
+* #4930 ^designation.use = $sct#900000000000013009
+* #4930 ^designation.value = "Activité exp.étab.soc."
+* #4930 ^property[0].code = #dateValid
+* #4930 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4930 ^property[+].code = #dateMaj
+* #4930 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4930 ^property[+].code = #status
+* #4930 ^property[=].valueCode = #active
+* #4930 ^property[+].code = #niveau
+* #4930 ^property[=].valueInteger = 3
+* #4930 ^property[+].code = #parent
+* #4930 ^property[=].valueCode = #4900
+* #4940 "Activité des centres de ressources"
+* #4940 ^designation.language = #fr-FR
+* #4940 ^designation.use = $sct#900000000000013009
+* #4940 ^designation.value = "Activité centres ressources"
+* #4940 ^property[0].code = #dateValid
+* #4940 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4940 ^property[+].code = #dateMaj
+* #4940 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #4940 ^property[+].code = #status
+* #4940 ^property[=].valueCode = #active
+* #4940 ^property[+].code = #niveau
+* #4940 ^property[=].valueInteger = 3
+* #4940 ^property[+].code = #parent
+* #4940 ^property[=].valueCode = #4900
 * #177 "Section Cure Médicale (dont)"
 * #177 ^designation[0].language = #fr-FR
 * #177 ^designation[=].use.system = "http://snomed.info/sct"
@@ -35,6 +487,12 @@ Description: "Disciplines d'équipement pour le social"
 * #177 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #177 ^property[+].code = #dateMaj
 * #177 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #177 ^property[+].code = #status
+* #177 ^property[=].valueCode = #active
+* #177 ^property[+].code = #niveau
+* #177 ^property[=].valueInteger = 4
+* #177 ^property[+].code = #parent
+* #177 ^property[=].valueCode = #4410
 * #246 "Hébergement Accueil Mère Enfant"
 * #246 ^designation[0].language = #fr-FR
 * #246 ^designation[=].use.system = "http://snomed.info/sct"
@@ -44,6 +502,12 @@ Description: "Disciplines d'équipement pour le social"
 * #246 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #246 ^property[+].code = #dateMaj
 * #246 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #246 ^property[+].code = #status
+* #246 ^property[=].valueCode = #active
+* #246 ^property[+].code = #niveau
+* #246 ^property[=].valueInteger = 4
+* #246 ^property[+].code = #parent
+* #246 ^property[=].valueCode = #4510
 * #247 "Hébergement en centre parental"
 * #247 ^designation[0].language = #fr-FR
 * #247 ^designation[=].use.system = "http://snomed.info/sct"
@@ -53,6 +517,12 @@ Description: "Disciplines d'équipement pour le social"
 * #247 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
 * #247 ^property[+].code = #dateMaj
 * #247 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #247 ^property[+].code = #status
+* #247 ^property[=].valueCode = #active
+* #247 ^property[+].code = #niveau
+* #247 ^property[=].valueInteger = 4
+* #247 ^property[+].code = #parent
+* #247 ^property[=].valueCode = #4510
 * #250 "Accueil en Jardin d'Enfants"
 * #250 ^designation[0].language = #fr-FR
 * #250 ^designation[=].use.system = "http://snomed.info/sct"
@@ -64,6 +534,14 @@ Description: "Disciplines d'équipement pour le social"
 * #250 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #250 ^property[+].code = #dateMaj
 * #250 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #250 ^property[+].code = #deprecationDate
+* #250 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #250 ^property[+].code = #status
+* #250 ^property[=].valueCode = #deprecated
+* #250 ^property[+].code = #niveau
+* #250 ^property[=].valueInteger = 4
+* #250 ^property[+].code = #parent
+* #250 ^property[=].valueCode = #4810
 * #257 "Aide éducative à Domicile"
 * #257 ^designation[0].language = #fr-FR
 * #257 ^designation[=].use.system = "http://snomed.info/sct"
@@ -73,6 +551,12 @@ Description: "Disciplines d'équipement pour le social"
 * #257 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
 * #257 ^property[+].code = #dateMaj
 * #257 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #257 ^property[+].code = #status
+* #257 ^property[=].valueCode = #active
+* #257 ^property[+].code = #niveau
+* #257 ^property[=].valueInteger = 4
+* #257 ^property[+].code = #parent
+* #257 ^property[=].valueCode = #4530
 * #258 "Action Éducative en Milieu Ouvert"
 * #258 ^designation[0].language = #fr-FR
 * #258 ^designation[=].use.system = "http://snomed.info/sct"
@@ -82,6 +566,12 @@ Description: "Disciplines d'équipement pour le social"
 * #258 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #258 ^property[+].code = #dateMaj
 * #258 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #258 ^property[+].code = #status
+* #258 ^property[=].valueCode = #active
+* #258 ^property[+].code = #niveau
+* #258 ^property[=].valueInteger = 4
+* #258 ^property[+].code = #parent
+* #258 ^property[=].valueCode = #4530
 * #259 "Activ.Club et Équipe de Prévention"
 * #259 ^designation[0].language = #fr-FR
 * #259 ^designation[=].use.system = "http://snomed.info/sct"
@@ -91,6 +581,12 @@ Description: "Disciplines d'équipement pour le social"
 * #259 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #259 ^property[+].code = #dateMaj
 * #259 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #259 ^property[+].code = #status
+* #259 ^property[=].valueCode = #active
+* #259 ^property[+].code = #niveau
+* #259 ^property[=].valueInteger = 4
+* #259 ^property[+].code = #parent
+* #259 ^property[=].valueCode = #4520
 * #262 "Placement Familial Social"
 * #262 ^designation[0].language = #fr-FR
 * #262 ^designation[=].use.system = "http://snomed.info/sct"
@@ -102,6 +598,14 @@ Description: "Disciplines d'équipement pour le social"
 * #262 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #262 ^property[+].code = #dateMaj
 * #262 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #262 ^property[+].code = #deprecationDate
+* #262 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #262 ^property[+].code = #status
+* #262 ^property[=].valueCode = #deprecated
+* #262 ^property[+].code = #niveau
+* #262 ^property[=].valueInteger = 4
+* #262 ^property[+].code = #parent
+* #262 ^property[=].valueCode = #4510
 * #278 "Aide Psychologique Universitaire"
 * #278 ^designation[0].language = #fr-FR
 * #278 ^designation[=].use.system = "http://snomed.info/sct"
@@ -111,6 +615,12 @@ Description: "Disciplines d'équipement pour le social"
 * #278 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #278 ^property[+].code = #dateMaj
 * #278 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #278 ^property[+].code = #status
+* #278 ^property[=].valueCode = #active
+* #278 ^property[+].code = #niveau
+* #278 ^property[=].valueInteger = 4
+* #278 ^property[+].code = #parent
+* #278 ^property[=].valueCode = #4710
 * #319 "Education Spécialisée et Soins à domicile Enfants Handicapés"
 * #319 ^designation[0].language = #fr-FR
 * #319 ^designation[=].use.system = "http://snomed.info/sct"
@@ -122,6 +632,14 @@ Description: "Disciplines d'équipement pour le social"
 * #319 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #319 ^property[+].code = #dateMaj
 * #319 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #319 ^property[+].code = #deprecationDate
+* #319 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #319 ^property[+].code = #status
+* #319 ^property[=].valueCode = #deprecated
+* #319 ^property[+].code = #niveau
+* #319 ^property[=].valueInteger = 4
+* #319 ^property[+].code = #parent
+* #319 ^property[=].valueCode = #4710
 * #320 "Activité C.M.P.P."
 * #320 ^designation[0].language = #fr-FR
 * #320 ^designation[=].use.system = "http://snomed.info/sct"
@@ -131,6 +649,12 @@ Description: "Disciplines d'équipement pour le social"
 * #320 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #320 ^property[+].code = #dateMaj
 * #320 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #320 ^property[+].code = #status
+* #320 ^property[=].valueCode = #active
+* #320 ^property[+].code = #niveau
+* #320 ^property[=].valueInteger = 4
+* #320 ^property[+].code = #parent
+* #320 ^property[=].valueCode = #4710
 * #325 "Placement Familial pour Enfants Handicapés"
 * #325 ^designation[0].language = #fr-FR
 * #325 ^designation[=].use.system = "http://snomed.info/sct"
@@ -142,6 +666,14 @@ Description: "Disciplines d'équipement pour le social"
 * #325 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #325 ^property[+].code = #dateMaj
 * #325 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #325 ^property[+].code = #deprecationDate
+* #325 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #325 ^property[+].code = #status
+* #325 ^property[=].valueCode = #deprecated
+* #325 ^property[+].code = #niveau
+* #325 ^property[=].valueInteger = 4
+* #325 ^property[+].code = #parent
+* #325 ^property[=].valueCode = #4730
 * #354 "Restaurant pour Personnes Âgées"
 * #354 ^designation[0].language = #fr-FR
 * #354 ^designation[=].use.system = "http://snomed.info/sct"
@@ -151,6 +683,12 @@ Description: "Disciplines d'équipement pour le social"
 * #354 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #354 ^property[+].code = #dateMaj
 * #354 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #354 ^property[+].code = #status
+* #354 ^property[=].valueCode = #active
+* #354 ^property[+].code = #niveau
+* #354 ^property[=].valueInteger = 4
+* #354 ^property[+].code = #parent
+* #354 ^property[=].valueCode = #4410
 * #355 "Activité des Centres de Jour pour Personnes Âgées"
 * #355 ^designation[0].language = #fr-FR
 * #355 ^designation[=].use.system = "http://snomed.info/sct"
@@ -162,6 +700,14 @@ Description: "Disciplines d'équipement pour le social"
 * #355 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #355 ^property[+].code = #dateMaj
 * #355 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #355 ^property[+].code = #deprecationDate
+* #355 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #355 ^property[+].code = #status
+* #355 ^property[=].valueCode = #deprecated
+* #355 ^property[+].code = #niveau
+* #355 ^property[=].valueInteger = 4
+* #355 ^property[+].code = #parent
+* #355 ^property[=].valueCode = #4410
 * #356 "Aide Ménagère à Domicile"
 * #356 ^designation[0].language = #fr-FR
 * #356 ^designation[=].use.system = "http://snomed.info/sct"
@@ -173,6 +719,14 @@ Description: "Disciplines d'équipement pour le social"
 * #356 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #356 ^property[+].code = #dateMaj
 * #356 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #356 ^property[+].code = #deprecationDate
+* #356 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #356 ^property[+].code = #status
+* #356 ^property[=].valueCode = #deprecated
+* #356 ^property[+].code = #niveau
+* #356 ^property[=].valueInteger = 4
+* #356 ^property[+].code = #parent
+* #356 ^property[=].valueCode = #4910
 * #357 "Activité soins d'accompagnement et de réhabilitation"
 * #357 ^designation[0].language = #fr-FR
 * #357 ^designation[=].use.system = "http://snomed.info/sct"
@@ -182,6 +736,12 @@ Description: "Disciplines d'équipement pour le social"
 * #357 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #357 ^property[+].code = #dateMaj
 * #357 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #357 ^property[+].code = #status
+* #357 ^property[=].valueCode = #active
+* #357 ^property[+].code = #niveau
+* #357 ^property[=].valueInteger = 4
+* #357 ^property[+].code = #parent
+* #357 ^property[=].valueCode = #4910
 * #358 "Soins infirmiers à Domicile"
 * #358 ^designation[0].language = #fr-FR
 * #358 ^designation[=].use.system = "http://snomed.info/sct"
@@ -191,11 +751,23 @@ Description: "Disciplines d'équipement pour le social"
 * #358 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #358 ^property[+].code = #dateMaj
 * #358 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #358 ^property[+].code = #status
+* #358 ^property[=].valueCode = #active
+* #358 ^property[+].code = #niveau
+* #358 ^property[=].valueInteger = 4
+* #358 ^property[+].code = #parent
+* #358 ^property[=].valueCode = #4910
 * #359 "Repas à Domicile"
 * #359 ^property[0].code = #dateValid
 * #359 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #359 ^property[+].code = #dateMaj
 * #359 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #359 ^property[+].code = #status
+* #359 ^property[=].valueCode = #active
+* #359 ^property[+].code = #niveau
+* #359 ^property[=].valueInteger = 4
+* #359 ^property[+].code = #parent
+* #359 ^property[=].valueCode = #4910
 * #360 "Blanchisserie à Domicile"
 * #360 ^designation[0].language = #fr-FR
 * #360 ^designation[=].use.system = "http://snomed.info/sct"
@@ -205,6 +777,12 @@ Description: "Disciplines d'équipement pour le social"
 * #360 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #360 ^property[+].code = #dateMaj
 * #360 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #360 ^property[+].code = #status
+* #360 ^property[=].valueCode = #active
+* #360 ^property[+].code = #niveau
+* #360 ^property[=].valueInteger = 4
+* #360 ^property[+].code = #parent
+* #360 ^property[=].valueCode = #4910
 * #365 "Alarme Médico-Sociale"
 * #365 ^designation[0].language = #fr-FR
 * #365 ^designation[=].use.system = "http://snomed.info/sct"
@@ -214,6 +792,12 @@ Description: "Disciplines d'équipement pour le social"
 * #365 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #365 ^property[+].code = #dateMaj
 * #365 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #365 ^property[+].code = #status
+* #365 ^property[=].valueCode = #active
+* #365 ^property[+].code = #niveau
+* #365 ^property[=].valueInteger = 4
+* #365 ^property[+].code = #parent
+* #365 ^property[=].valueCode = #4910
 * #377 "Stationnement Pour Nomades"
 * #377 ^designation[0].language = #fr-FR
 * #377 ^designation[=].use.system = "http://snomed.info/sct"
@@ -223,6 +807,12 @@ Description: "Disciplines d'équipement pour le social"
 * #377 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #377 ^property[+].code = #dateMaj
 * #377 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #377 ^property[+].code = #status
+* #377 ^property[=].valueCode = #active
+* #377 ^property[+].code = #niveau
+* #377 ^property[=].valueInteger = 4
+* #377 ^property[+].code = #parent
+* #377 ^property[=].valueCode = #4630
 * #380 "Mesure judiciaire aide gestion budget familial"
 * #380 ^designation[0].language = #fr-FR
 * #380 ^designation[=].use.system = "http://snomed.info/sct"
@@ -232,6 +822,12 @@ Description: "Disciplines d'équipement pour le social"
 * #380 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #380 ^property[+].code = #dateMaj
 * #380 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #380 ^property[+].code = #status
+* #380 ^property[=].valueCode = #active
+* #380 ^property[+].code = #niveau
+* #380 ^property[=].valueInteger = 4
+* #380 ^property[+].code = #parent
+* #380 ^property[=].valueCode = #4530
 * #381 "Héberg. non médicalisé de patients, accompagnants, aidants"
 * #381 ^designation[0].language = #fr-FR
 * #381 ^designation[=].use.system = "http://snomed.info/sct"
@@ -241,6 +837,12 @@ Description: "Disciplines d'équipement pour le social"
 * #381 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #381 ^property[+].code = #dateMaj
 * #381 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #381 ^property[+].code = #status
+* #381 ^property[=].valueCode = #active
+* #381 ^property[+].code = #niveau
+* #381 ^property[=].valueInteger = 4
+* #381 ^property[+].code = #parent
+* #381 ^property[=].valueCode = #4630
 * #382 "Tutelle aux Prestations Sociales"
 * #382 ^designation[0].language = #fr-FR
 * #382 ^designation[=].use.system = "http://snomed.info/sct"
@@ -250,6 +852,12 @@ Description: "Disciplines d'équipement pour le social"
 * #382 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #382 ^property[+].code = #dateMaj
 * #382 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #382 ^property[+].code = #status
+* #382 ^property[=].valueCode = #active
+* #382 ^property[+].code = #niveau
+* #382 ^property[=].valueInteger = 4
+* #382 ^property[+].code = #parent
+* #382 ^property[=].valueCode = #4530
 * #383 "Activité Serv. Travailleuses Familiales"
 * #383 ^designation[0].language = #fr-FR
 * #383 ^designation[=].use.system = "http://snomed.info/sct"
@@ -261,6 +869,14 @@ Description: "Disciplines d'équipement pour le social"
 * #383 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #383 ^property[+].code = #dateMaj
 * #383 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #383 ^property[+].code = #deprecationDate
+* #383 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #383 ^property[+].code = #status
+* #383 ^property[=].valueCode = #deprecated
+* #383 ^property[+].code = #niveau
+* #383 ^property[=].valueInteger = 4
+* #383 ^property[+].code = #parent
+* #383 ^property[=].valueCode = #4910
 * #398 "Placement Familial Spécialisé Pr Adultes Handicapés"
 * #398 ^designation[0].language = #fr-FR
 * #398 ^designation[=].use.system = "http://snomed.info/sct"
@@ -272,6 +888,14 @@ Description: "Disciplines d'équipement pour le social"
 * #398 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #398 ^property[+].code = #dateMaj
 * #398 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #398 ^property[+].code = #deprecationDate
+* #398 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #398 ^property[+].code = #status
+* #398 ^property[=].valueCode = #deprecated
+* #398 ^property[+].code = #niveau
+* #398 ^property[=].valueInteger = 4
+* #398 ^property[+].code = #parent
+* #398 ^property[=].valueCode = #4320
 * #399 "Préorientation pour Adultes handicapés"
 * #399 ^designation[0].language = #fr-FR
 * #399 ^designation[=].use.system = "http://snomed.info/sct"
@@ -281,6 +905,12 @@ Description: "Disciplines d'équipement pour le social"
 * #399 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #399 ^property[+].code = #dateMaj
 * #399 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #399 ^property[+].code = #status
+* #399 ^property[=].valueCode = #active
+* #399 ^property[+].code = #niveau
+* #399 ^property[=].valueInteger = 4
+* #399 ^property[+].code = #parent
+* #399 ^property[=].valueCode = #4310
 * #400 "Préparation et Suite du Reclassement"
 * #400 ^designation[0].language = #fr-FR
 * #400 ^designation[=].use.system = "http://snomed.info/sct"
@@ -292,6 +922,14 @@ Description: "Disciplines d'équipement pour le social"
 * #400 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #400 ^property[+].code = #dateMaj
 * #400 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #400 ^property[+].code = #deprecationDate
+* #400 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #400 ^property[+].code = #status
+* #400 ^property[=].valueCode = #deprecated
+* #400 ^property[+].code = #niveau
+* #400 ^property[=].valueInteger = 4
+* #400 ^property[+].code = #parent
+* #400 ^property[=].valueCode = #4310
 * #410 "Information,conseil, expertise, coordination"
 * #410 ^designation[0].language = #fr-FR
 * #410 ^designation[=].use.system = "http://snomed.info/sct"
@@ -301,6 +939,12 @@ Description: "Disciplines d'équipement pour le social"
 * #410 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #410 ^property[+].code = #dateMaj
 * #410 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #410 ^property[+].code = #status
+* #410 ^property[=].valueCode = #active
+* #410 ^property[+].code = #niveau
+* #410 ^property[=].valueInteger = 4
+* #410 ^property[+].code = #parent
+* #410 ^property[=].valueCode = #4940
 * #411 "Evaluation des situations des personnes"
 * #411 ^designation[0].language = #fr-FR
 * #411 ^designation[=].use.system = "http://snomed.info/sct"
@@ -310,6 +954,12 @@ Description: "Disciplines d'équipement pour le social"
 * #411 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #411 ^property[+].code = #dateMaj
 * #411 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #411 ^property[+].code = #status
+* #411 ^property[=].valueCode = #active
+* #411 ^property[+].code = #niveau
+* #411 ^property[=].valueInteger = 4
+* #411 ^property[+].code = #parent
+* #411 ^property[=].valueCode = #4940
 * #412 "Centre de ressources territorial"
 * #412 ^designation[0].language = #fr-FR
 * #412 ^designation[=].use.system = "http://snomed.info/sct"
@@ -323,11 +973,23 @@ Description: "Disciplines d'équipement pour le social"
 * #412 ^property[=].valueDateTime = "2022-09-22T00:00:00+01:00"
 * #412 ^property[+].code = #dateMaj
 * #412 ^property[=].valueDateTime = "2023-12-15T12:00:00+01:00"
+* #412 ^property[+].code = #status
+* #412 ^property[=].valueCode = #active
+* #412 ^property[+].code = #niveau
+* #412 ^property[=].valueInteger = 4
+* #412 ^property[+].code = #parent
+* #412 ^property[=].valueCode = #4420
 * #442 "Veille sociale"
 * #442 ^property[0].code = #dateValid
 * #442 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #442 ^property[+].code = #dateMaj
 * #442 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #442 ^property[+].code = #status
+* #442 ^property[=].valueCode = #active
+* #442 ^property[+].code = #niveau
+* #442 ^property[=].valueInteger = 4
+* #442 ^property[+].code = #parent
+* #442 ^property[=].valueCode = #4610
 * #443 "Soutien et accompagnement social"
 * #443 ^designation[0].language = #fr-FR
 * #443 ^designation[=].use.system = "http://snomed.info/sct"
@@ -337,6 +999,12 @@ Description: "Disciplines d'équipement pour le social"
 * #443 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #443 ^property[+].code = #dateMaj
 * #443 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #443 ^property[+].code = #status
+* #443 ^property[=].valueCode = #active
+* #443 ^property[+].code = #niveau
+* #443 ^property[=].valueInteger = 4
+* #443 ^property[+].code = #parent
+* #443 ^property[=].valueCode = #4610
 * #445 "Aide Psychopédagogique"
 * #445 ^designation[0].language = #fr-FR
 * #445 ^designation[=].use.system = "http://snomed.info/sct"
@@ -346,11 +1014,23 @@ Description: "Disciplines d'équipement pour le social"
 * #445 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #445 ^property[+].code = #dateMaj
 * #445 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #445 ^property[+].code = #status
+* #445 ^property[=].valueCode = #active
+* #445 ^property[+].code = #niveau
+* #445 ^property[=].valueInteger = 4
+* #445 ^property[+].code = #parent
+* #445 ^property[=].valueCode = #4530
 * #469 "Aide à Domicile"
 * #469 ^property[0].code = #dateValid
 * #469 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #469 ^property[+].code = #dateMaj
 * #469 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #469 ^property[+].code = #status
+* #469 ^property[=].valueCode = #active
+* #469 ^property[+].code = #niveau
+* #469 ^property[=].valueInteger = 4
+* #469 ^property[+].code = #parent
+* #469 ^property[=].valueCode = #4910
 * #506 "Evaluat réentraînem orientat soc. et socioprof cérébro-lésés"
 * #506 ^designation[0].language = #fr-FR
 * #506 ^designation[=].use.system = "http://snomed.info/sct"
@@ -360,6 +1040,12 @@ Description: "Disciplines d'équipement pour le social"
 * #506 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #506 ^property[+].code = #dateMaj
 * #506 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #506 ^property[+].code = #status
+* #506 ^property[=].valueCode = #active
+* #506 ^property[+].code = #niveau
+* #506 ^property[=].valueInteger = 4
+* #506 ^property[+].code = #parent
+* #506 ^property[=].valueCode = #4310
 * #507 "Hébergement médico soc personnes en difficultés spécifiques"
 * #507 ^designation[0].language = #fr-FR
 * #507 ^designation[=].use.system = "http://snomed.info/sct"
@@ -369,6 +1055,12 @@ Description: "Disciplines d'équipement pour le social"
 * #507 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #507 ^property[+].code = #dateMaj
 * #507 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #507 ^property[+].code = #status
+* #507 ^property[=].valueCode = #active
+* #507 ^property[+].code = #niveau
+* #507 ^property[=].valueInteger = 4
+* #507 ^property[+].code = #parent
+* #507 ^property[=].valueCode = #4640
 * #508 "Accueil orientation soins accompagnement diff spécifiques"
 * #508 ^designation[0].language = #fr-FR
 * #508 ^designation[=].use.system = "http://snomed.info/sct"
@@ -378,6 +1070,12 @@ Description: "Disciplines d'équipement pour le social"
 * #508 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #508 ^property[+].code = #dateMaj
 * #508 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #508 ^property[+].code = #status
+* #508 ^property[=].valueCode = #active
+* #508 ^property[+].code = #niveau
+* #508 ^property[=].valueInteger = 4
+* #508 ^property[+].code = #parent
+* #508 ^property[=].valueCode = #4640
 * #509 "Accompagnement à la vie sociale des adultes handicapés"
 * #509 ^designation[0].language = #fr-FR
 * #509 ^designation[=].use.system = "http://snomed.info/sct"
@@ -389,6 +1087,14 @@ Description: "Disciplines d'équipement pour le social"
 * #509 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #509 ^property[+].code = #dateMaj
 * #509 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #509 ^property[+].code = #deprecationDate
+* #509 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #509 ^property[+].code = #status
+* #509 ^property[=].valueCode = #deprecated
+* #509 ^property[+].code = #niveau
+* #509 ^property[=].valueInteger = 4
+* #509 ^property[+].code = #parent
+* #509 ^property[=].valueCode = #4310
 * #510 "Accompagnement médico social des adultes handicapés"
 * #510 ^designation[0].language = #fr-FR
 * #510 ^designation[=].use.system = "http://snomed.info/sct"
@@ -400,6 +1106,14 @@ Description: "Disciplines d'équipement pour le social"
 * #510 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #510 ^property[+].code = #dateMaj
 * #510 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #510 ^property[+].code = #deprecationDate
+* #510 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #510 ^property[+].code = #status
+* #510 ^property[=].valueCode = #deprecated
+* #510 ^property[+].code = #niveau
+* #510 ^property[=].valueInteger = 4
+* #510 ^property[+].code = #parent
+* #510 ^property[=].valueCode = #4310
 * #511 "Equipe mobile santé précarité"
 * #511 ^designation[0].language = #fr-FR
 * #511 ^designation[=].use.system = "http://snomed.info/sct"
@@ -409,6 +1123,12 @@ Description: "Disciplines d'équipement pour le social"
 * #511 ^property[=].valueDateTime = "2022-03-25T12:00:00+01:00"
 * #511 ^property[+].code = #dateMaj
 * #511 ^property[=].valueDateTime = "2022-03-25T12:00:00+01:00"
+* #511 ^property[+].code = #status
+* #511 ^property[=].valueCode = #active
+* #511 ^property[+].code = #niveau
+* #511 ^property[=].valueInteger = 4
+* #511 ^property[+].code = #parent
+* #511 ^property[=].valueCode = #4640
 * #512 "Equipe spécialisée de soins infirmiers précarité"
 * #512 ^designation[0].language = #fr-FR
 * #512 ^designation[=].use.system = "http://snomed.info/sct"
@@ -418,6 +1138,12 @@ Description: "Disciplines d'équipement pour le social"
 * #512 ^property[=].valueDateTime = "2022-03-25T12:00:00+01:00"
 * #512 ^property[+].code = #dateMaj
 * #512 ^property[=].valueDateTime = "2022-03-25T12:00:00+01:00"
+* #512 ^property[+].code = #status
+* #512 ^property[=].valueCode = #active
+* #512 ^property[+].code = #niveau
+* #512 ^property[=].valueInteger = 4
+* #512 ^property[+].code = #parent
+* #512 ^property[=].valueCode = #4640
 * #520 "Tutelle curatelle mandat spécial sauvegarde justice pers maj"
 * #520 ^designation[0].language = #fr-FR
 * #520 ^designation[=].use.system = "http://snomed.info/sct"
@@ -427,6 +1153,12 @@ Description: "Disciplines d'équipement pour le social"
 * #520 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #520 ^property[+].code = #dateMaj
 * #520 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #520 ^property[+].code = #status
+* #520 ^property[=].valueCode = #active
+* #520 ^property[+].code = #niveau
+* #520 ^property[=].valueInteger = 4
+* #520 ^property[+].code = #parent
+* #520 ^property[=].valueCode = #4650
 * #521 "Mesure d'accompagnement judiciaire"
 * #521 ^designation[0].language = #fr-FR
 * #521 ^designation[=].use.system = "http://snomed.info/sct"
@@ -436,6 +1168,12 @@ Description: "Disciplines d'équipement pour le social"
 * #521 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #521 ^property[+].code = #dateMaj
 * #521 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #521 ^property[+].code = #status
+* #521 ^property[=].valueCode = #active
+* #521 ^property[+].code = #niveau
+* #521 ^property[=].valueInteger = 4
+* #521 ^property[+].code = #parent
+* #521 ^property[=].valueCode = #4650
 * #522 "Mesure d'accompagnement social personnalisé"
 * #522 ^designation[0].language = #fr-FR
 * #522 ^designation[=].use.system = "http://snomed.info/sct"
@@ -445,6 +1183,12 @@ Description: "Disciplines d'équipement pour le social"
 * #522 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #522 ^property[+].code = #dateMaj
 * #522 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #522 ^property[+].code = #status
+* #522 ^property[=].valueCode = #active
+* #522 ^property[+].code = #niveau
+* #522 ^property[=].valueInteger = 4
+* #522 ^property[+].code = #parent
+* #522 ^property[=].valueCode = #4650
 * #523 "Information des tuteurs familiaux"
 * #523 ^designation[0].language = #fr-FR
 * #523 ^designation[=].use.system = "http://snomed.info/sct"
@@ -454,6 +1198,12 @@ Description: "Disciplines d'équipement pour le social"
 * #523 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #523 ^property[+].code = #dateMaj
 * #523 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #523 ^property[+].code = #status
+* #523 ^property[=].valueCode = #active
+* #523 ^property[+].code = #niveau
+* #523 ^property[=].valueInteger = 4
+* #523 ^property[+].code = #parent
+* #523 ^property[=].valueCode = #4650
 * #569 "Centre de Vie pour Cas lourds"
 * #569 ^designation[0].language = #fr-FR
 * #569 ^designation[=].use.system = "http://snomed.info/sct"
@@ -465,6 +1215,14 @@ Description: "Disciplines d'équipement pour le social"
 * #569 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #569 ^property[+].code = #dateMaj
 * #569 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #569 ^property[+].code = #deprecationDate
+* #569 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #569 ^property[+].code = #status
+* #569 ^property[=].valueCode = #deprecated
+* #569 ^property[+].code = #niveau
+* #569 ^property[=].valueInteger = 4
+* #569 ^property[+].code = #parent
+* #569 ^property[=].valueCode = #4320
 * #589 "Tutelle d'État"
 * #589 ^designation[0].language = #fr-FR
 * #589 ^designation[=].use.system = "http://snomed.info/sct"
@@ -476,6 +1234,14 @@ Description: "Disciplines d'équipement pour le social"
 * #589 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #589 ^property[+].code = #dateMaj
 * #589 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #589 ^property[+].code = #deprecationDate
+* #589 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #589 ^property[+].code = #status
+* #589 ^property[=].valueCode = #deprecated
+* #589 ^property[+].code = #niveau
+* #589 ^property[=].valueInteger = 4
+* #589 ^property[+].code = #parent
+* #589 ^property[=].valueCode = #4530
 * #633 "Services expérimentaux en faveur des personnes âgées"
 * #633 ^designation[0].language = #fr-FR
 * #633 ^designation[=].use.system = "http://snomed.info/sct"
@@ -485,6 +1251,12 @@ Description: "Disciplines d'équipement pour le social"
 * #633 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #633 ^property[+].code = #dateMaj
 * #633 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #633 ^property[+].code = #status
+* #633 ^property[=].valueCode = #active
+* #633 ^property[+].code = #niveau
+* #633 ^property[=].valueInteger = 4
+* #633 ^property[+].code = #parent
+* #633 ^property[=].valueCode = #4930
 * #650 "Accueil temporaire enfants handicapés"
 * #650 ^designation[0].language = #fr-FR
 * #650 ^designation[=].use.system = "http://snomed.info/sct"
@@ -496,6 +1268,14 @@ Description: "Disciplines d'équipement pour le social"
 * #650 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #650 ^property[+].code = #dateMaj
 * #650 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #650 ^property[+].code = #deprecationDate
+* #650 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #650 ^property[+].code = #status
+* #650 ^property[=].valueCode = #deprecated
+* #650 ^property[+].code = #niveau
+* #650 ^property[=].valueInteger = 4
+* #650 ^property[+].code = #parent
+* #650 ^property[=].valueCode = #4730
 * #654 "Hébergement Spécialisé Pr Enfants et Adolescents Handicapés"
 * #654 ^designation[0].language = #fr-FR
 * #654 ^designation[=].use.system = "http://snomed.info/sct"
@@ -507,6 +1287,14 @@ Description: "Disciplines d'équipement pour le social"
 * #654 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #654 ^property[+].code = #dateMaj
 * #654 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #654 ^property[+].code = #deprecationDate
+* #654 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #654 ^property[+].code = #status
+* #654 ^property[=].valueCode = #deprecated
+* #654 ^property[+].code = #niveau
+* #654 ^property[=].valueInteger = 4
+* #654 ^property[+].code = #parent
+* #654 ^property[=].valueCode = #4730
 * #655 "Prestation de Service Pr Association"
 * #655 ^designation[0].language = #fr-FR
 * #655 ^designation[=].use.system = "http://snomed.info/sct"
@@ -516,6 +1304,12 @@ Description: "Disciplines d'équipement pour le social"
 * #655 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #655 ^property[+].code = #dateMaj
 * #655 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #655 ^property[+].code = #status
+* #655 ^property[=].valueCode = #active
+* #655 ^property[+].code = #niveau
+* #655 ^property[=].valueInteger = 4
+* #655 ^property[+].code = #parent
+* #655 ^property[=].valueCode = #4920
 * #656 "Garde et Observation en Jardin Enfants Spéc.Enf.Handicapés"
 * #656 ^designation[0].language = #fr-FR
 * #656 ^designation[=].use.system = "http://snomed.info/sct"
@@ -527,6 +1321,14 @@ Description: "Disciplines d'équipement pour le social"
 * #656 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #656 ^property[+].code = #dateMaj
 * #656 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #656 ^property[+].code = #deprecationDate
+* #656 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #656 ^property[+].code = #status
+* #656 ^property[=].valueCode = #deprecated
+* #656 ^property[+].code = #niveau
+* #656 ^property[=].valueInteger = 4
+* #656 ^property[+].code = #parent
+* #656 ^property[=].valueCode = #4720
 * #657 "Accueil temporaire pour Personnes Âgées"
 * #657 ^designation[0].language = #fr-FR
 * #657 ^designation[=].use.system = "http://snomed.info/sct"
@@ -536,6 +1338,12 @@ Description: "Disciplines d'équipement pour le social"
 * #657 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #657 ^property[+].code = #dateMaj
 * #657 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #657 ^property[+].code = #status
+* #657 ^property[=].valueCode = #active
+* #657 ^property[+].code = #niveau
+* #657 ^property[=].valueInteger = 4
+* #657 ^property[+].code = #parent
+* #657 ^property[=].valueCode = #4420
 * #658 "Accueil temporaire pour adultes handicapés"
 * #658 ^designation[0].language = #fr-FR
 * #658 ^designation[=].use.system = "http://snomed.info/sct"
@@ -547,6 +1355,14 @@ Description: "Disciplines d'équipement pour le social"
 * #658 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #658 ^property[+].code = #dateMaj
 * #658 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #658 ^property[+].code = #deprecationDate
+* #658 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #658 ^property[+].code = #status
+* #658 ^property[=].valueCode = #deprecated
+* #658 ^property[+].code = #niveau
+* #658 ^property[=].valueInteger = 4
+* #658 ^property[+].code = #parent
+* #658 ^property[=].valueCode = #4320
 * #659 "Accueil temporaire pour adultes handicapés"
 * #659 ^designation[0].language = #fr-FR
 * #659 ^designation[=].use.system = "http://snomed.info/sct"
@@ -561,6 +1377,14 @@ Description: "Disciplines d'équipement pour le social"
 * #659 ^property[=].valueDateTime = "2023-01-27T12:00:00+01:00"
 * #659 ^property[+].code = #dateMaj
 * #659 ^property[=].valueDateTime = "2023-01-27T12:00:00+01:00"
+* #659 ^property[+].code = #deprecationDate
+* #659 ^property[=].valueDateTime = "2023-01-27T12:00:00+01:00"
+* #659 ^property[+].code = #status
+* #659 ^property[=].valueCode = #deprecated
+* #659 ^property[+].code = #niveau
+* #659 ^property[=].valueInteger = 4
+* #659 ^property[+].code = #parent
+* #659 ^property[=].valueCode = #4420
 * #660 "Réalisation d'Enquêtes sociales"
 * #660 ^designation[0].language = #fr-FR
 * #660 ^designation[=].use.system = "http://snomed.info/sct"
@@ -570,6 +1394,12 @@ Description: "Disciplines d'équipement pour le social"
 * #660 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #660 ^property[+].code = #dateMaj
 * #660 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #660 ^property[+].code = #status
+* #660 ^property[=].valueCode = #active
+* #660 ^property[+].code = #niveau
+* #660 ^property[=].valueInteger = 4
+* #660 ^property[+].code = #parent
+* #660 ^property[=].valueCode = #4520
 * #661 "Permanence des Assistants de Service Social"
 * #661 ^designation[0].language = #fr-FR
 * #661 ^designation[=].use.system = "http://snomed.info/sct"
@@ -579,6 +1409,12 @@ Description: "Disciplines d'équipement pour le social"
 * #661 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #661 ^property[+].code = #dateMaj
 * #661 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #661 ^property[+].code = #status
+* #661 ^property[=].valueCode = #active
+* #661 ^property[+].code = #niveau
+* #661 ^property[=].valueInteger = 4
+* #661 ^property[+].code = #parent
+* #661 ^property[=].valueCode = #4820
 * #691 "Services expérimentaux en faveur des adultes handicapés"
 * #691 ^designation[0].language = #fr-FR
 * #691 ^designation[=].use.system = "http://snomed.info/sct"
@@ -590,6 +1426,14 @@ Description: "Disciplines d'équipement pour le social"
 * #691 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #691 ^property[+].code = #dateMaj
 * #691 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #691 ^property[+].code = #deprecationDate
+* #691 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #691 ^property[+].code = #status
+* #691 ^property[=].valueCode = #deprecated
+* #691 ^property[+].code = #niveau
+* #691 ^property[=].valueInteger = 4
+* #691 ^property[+].code = #parent
+* #691 ^property[=].valueCode = #4930
 * #695 "Auxiliaires de Vie pour Handicapés"
 * #695 ^designation[0].language = #fr-FR
 * #695 ^designation[=].use.system = "http://snomed.info/sct"
@@ -601,6 +1445,14 @@ Description: "Disciplines d'équipement pour le social"
 * #695 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #695 ^property[+].code = #dateMaj
 * #695 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #695 ^property[+].code = #deprecationDate
+* #695 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #695 ^property[+].code = #status
+* #695 ^property[=].valueCode = #deprecated
+* #695 ^property[+].code = #niveau
+* #695 ^property[=].valueInteger = 4
+* #695 ^property[+].code = #parent
+* #695 ^property[=].valueCode = #4910
 * #697 "Intermédiaire de placement Social"
 * #697 ^designation[0].language = #fr-FR
 * #697 ^designation[=].use.system = "http://snomed.info/sct"
@@ -610,6 +1462,12 @@ Description: "Disciplines d'équipement pour le social"
 * #697 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #697 ^property[+].code = #dateMaj
 * #697 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #697 ^property[+].code = #status
+* #697 ^property[=].valueCode = #active
+* #697 ^property[+].code = #niveau
+* #697 ^property[=].valueInteger = 4
+* #697 ^property[+].code = #parent
+* #697 ^property[=].valueCode = #4920
 * #714 "Recherche dans Domaine Social"
 * #714 ^designation[0].language = #fr-FR
 * #714 ^designation[=].use.system = "http://snomed.info/sct"
@@ -619,6 +1477,12 @@ Description: "Disciplines d'équipement pour le social"
 * #714 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #714 ^property[+].code = #dateMaj
 * #714 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #714 ^property[+].code = #status
+* #714 ^property[=].valueCode = #active
+* #714 ^property[+].code = #niveau
+* #714 ^property[=].valueInteger = 4
+* #714 ^property[+].code = #parent
+* #714 ^property[=].valueCode = #4920
 * #836 "Préparation à la Vie Sociale pour Adolescents Handicapés"
 * #836 ^designation[0].language = #fr-FR
 * #836 ^designation[=].use.system = "http://snomed.info/sct"
@@ -630,6 +1494,14 @@ Description: "Disciplines d'équipement pour le social"
 * #836 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #836 ^property[+].code = #dateMaj
 * #836 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #836 ^property[+].code = #deprecationDate
+* #836 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #836 ^property[+].code = #status
+* #836 ^property[=].valueCode = #deprecated
+* #836 ^property[+].code = #niveau
+* #836 ^property[=].valueInteger = 4
+* #836 ^property[+].code = #parent
+* #836 ^property[=].valueCode = #4720
 * #837 "Evaluat.réentraînem.orientat. scolaire cérébro-lésés"
 * #837 ^designation[0].language = #fr-FR
 * #837 ^designation[=].use.system = "http://snomed.info/sct"
@@ -641,6 +1513,14 @@ Description: "Disciplines d'équipement pour le social"
 * #837 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #837 ^property[+].code = #dateMaj
 * #837 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #837 ^property[+].code = #deprecationDate
+* #837 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #837 ^property[+].code = #status
+* #837 ^property[=].valueCode = #deprecated
+* #837 ^property[+].code = #niveau
+* #837 ^property[=].valueInteger = 4
+* #837 ^property[+].code = #parent
+* #837 ^property[=].valueCode = #4710
 * #838 "Accompagement familial éducation précoce Enfants Handicapés"
 * #838 ^designation[0].language = #fr-FR
 * #838 ^designation[=].use.system = "http://snomed.info/sct"
@@ -652,6 +1532,14 @@ Description: "Disciplines d'équipement pour le social"
 * #838 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #838 ^property[+].code = #dateMaj
 * #838 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #838 ^property[+].code = #deprecationDate
+* #838 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #838 ^property[+].code = #status
+* #838 ^property[=].valueCode = #deprecated
+* #838 ^property[+].code = #niveau
+* #838 ^property[=].valueInteger = 4
+* #838 ^property[+].code = #parent
+* #838 ^property[=].valueCode = #4710
 * #839 "Acquisition, autonomie, intégration scol. Enfants Handicapés"
 * #839 ^designation[0].language = #fr-FR
 * #839 ^designation[=].use.system = "http://snomed.info/sct"
@@ -663,6 +1551,14 @@ Description: "Disciplines d'équipement pour le social"
 * #839 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #839 ^property[+].code = #dateMaj
 * #839 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #839 ^property[+].code = #deprecationDate
+* #839 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #839 ^property[+].code = #status
+* #839 ^property[=].valueCode = #deprecated
+* #839 ^property[+].code = #niveau
+* #839 ^property[=].valueInteger = 4
+* #839 ^property[+].code = #parent
+* #839 ^property[=].valueCode = #4710
 * #840 "Accompagnement précoce de jeunes enfants"
 * #840 ^designation[0].language = #fr-FR
 * #840 ^designation[=].use.system = "http://snomed.info/sct"
@@ -672,6 +1568,12 @@ Description: "Disciplines d'équipement pour le social"
 * #840 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #840 ^property[+].code = #dateMaj
 * #840 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #840 ^property[+].code = #status
+* #840 ^property[=].valueCode = #active
+* #840 ^property[+].code = #niveau
+* #840 ^property[=].valueInteger = 4
+* #840 ^property[+].code = #parent
+* #840 ^property[=].valueCode = #4740
 * #841 "Acc. dans l'acquisition de l'autonomie et la scolarisation"
 * #841 ^designation[0].language = #fr-FR
 * #841 ^designation[=].use.system = "http://snomed.info/sct"
@@ -681,6 +1583,12 @@ Description: "Disciplines d'équipement pour le social"
 * #841 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #841 ^property[+].code = #dateMaj
 * #841 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #841 ^property[+].code = #status
+* #841 ^property[=].valueCode = #active
+* #841 ^property[+].code = #niveau
+* #841 ^property[=].valueInteger = 4
+* #841 ^property[+].code = #parent
+* #841 ^property[=].valueCode = #4740
 * #842 "Préparation à la vie professionnelle"
 * #842 ^designation[0].language = #fr-FR
 * #842 ^designation[=].use.system = "http://snomed.info/sct"
@@ -690,6 +1598,12 @@ Description: "Disciplines d'équipement pour le social"
 * #842 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #842 ^property[+].code = #dateMaj
 * #842 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #842 ^property[+].code = #status
+* #842 ^property[=].valueCode = #active
+* #842 ^property[+].code = #niveau
+* #842 ^property[=].valueInteger = 4
+* #842 ^property[+].code = #parent
+* #842 ^property[=].valueCode = #4740
 * #843 "Accompagnement enseignement supérieur"
 * #843 ^designation[0].language = #fr-FR
 * #843 ^designation[=].use.system = "http://snomed.info/sct"
@@ -699,6 +1613,12 @@ Description: "Disciplines d'équipement pour le social"
 * #843 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #843 ^property[+].code = #dateMaj
 * #843 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #843 ^property[+].code = #status
+* #843 ^property[=].valueCode = #active
+* #843 ^property[+].code = #niveau
+* #843 ^property[=].valueInteger = 4
+* #843 ^property[+].code = #parent
+* #843 ^property[=].valueCode = #4740
 * #844 "Tous projets éducatifs thérapeutiques et pédagogiques"
 * #844 ^designation[0].language = #fr-FR
 * #844 ^designation[=].use.system = "http://snomed.info/sct"
@@ -708,6 +1628,12 @@ Description: "Disciplines d'équipement pour le social"
 * #844 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #844 ^property[+].code = #dateMaj
 * #844 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #844 ^property[+].code = #status
+* #844 ^property[=].valueCode = #active
+* #844 ^property[+].code = #niveau
+* #844 ^property[=].valueInteger = 4
+* #844 ^property[+].code = #parent
+* #844 ^property[=].valueCode = #4740
 * #897 "Hébergement ouvert en foyer pour adultes handicapés"
 * #897 ^designation[0].language = #fr-FR
 * #897 ^designation[=].use.system = "http://snomed.info/sct"
@@ -719,6 +1645,14 @@ Description: "Disciplines d'équipement pour le social"
 * #897 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #897 ^property[+].code = #dateMaj
 * #897 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #897 ^property[+].code = #deprecationDate
+* #897 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #897 ^property[+].code = #status
+* #897 ^property[=].valueCode = #deprecated
+* #897 ^property[+].code = #niveau
+* #897 ^property[=].valueInteger = 4
+* #897 ^property[+].code = #parent
+* #897 ^property[=].valueCode = #4320
 * #900 "Action Médico-Sociale Précoce"
 * #900 ^designation[0].language = #fr-FR
 * #900 ^designation[=].use.system = "http://snomed.info/sct"
@@ -728,6 +1662,12 @@ Description: "Disciplines d'équipement pour le social"
 * #900 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #900 ^property[+].code = #dateMaj
 * #900 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #900 ^property[+].code = #status
+* #900 ^property[=].valueCode = #active
+* #900 ^property[+].code = #niveau
+* #900 ^property[=].valueInteger = 4
+* #900 ^property[+].code = #parent
+* #900 ^property[=].valueCode = #4710
 * #901 "Éducation Générale et Soins Spécialisés Enfants Handicapés"
 * #901 ^designation[0].language = #fr-FR
 * #901 ^designation[=].use.system = "http://snomed.info/sct"
@@ -739,6 +1679,14 @@ Description: "Disciplines d'équipement pour le social"
 * #901 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #901 ^property[+].code = #dateMaj
 * #901 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #901 ^property[+].code = #deprecationDate
+* #901 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #901 ^property[+].code = #status
+* #901 ^property[=].valueCode = #deprecated
+* #901 ^property[+].code = #niveau
+* #901 ^property[=].valueInteger = 4
+* #901 ^property[+].code = #parent
+* #901 ^property[=].valueCode = #4720
 * #902 "Éducation Profession.& Soins Spécial.Enfants Handicapés"
 * #902 ^designation[0].language = #fr-FR
 * #902 ^designation[=].use.system = "http://snomed.info/sct"
@@ -750,6 +1698,14 @@ Description: "Disciplines d'équipement pour le social"
 * #902 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #902 ^property[+].code = #dateMaj
 * #902 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #902 ^property[+].code = #deprecationDate
+* #902 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #902 ^property[+].code = #status
+* #902 ^property[=].valueCode = #deprecated
+* #902 ^property[+].code = #niveau
+* #902 ^property[=].valueInteger = 4
+* #902 ^property[+].code = #parent
+* #902 ^property[=].valueCode = #4720
 * #903 "Éduc.Générale.Profession.& Soins Spécial.Enfants Handicapés"
 * #903 ^designation[0].language = #fr-FR
 * #903 ^designation[=].use.system = "http://snomed.info/sct"
@@ -761,6 +1717,14 @@ Description: "Disciplines d'équipement pour le social"
 * #903 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #903 ^property[+].code = #dateMaj
 * #903 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #903 ^property[+].code = #deprecationDate
+* #903 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #903 ^property[+].code = #status
+* #903 ^property[=].valueCode = #deprecated
+* #903 ^property[+].code = #niveau
+* #903 ^property[=].valueInteger = 4
+* #903 ^property[+].code = #parent
+* #903 ^property[=].valueCode = #4720
 * #904 "Enseignement Général Spécialisé"
 * #904 ^designation[0].language = #fr-FR
 * #904 ^designation[=].use.system = "http://snomed.info/sct"
@@ -772,6 +1736,14 @@ Description: "Disciplines d'équipement pour le social"
 * #904 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #904 ^property[+].code = #dateMaj
 * #904 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #904 ^property[+].code = #deprecationDate
+* #904 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #904 ^property[+].code = #status
+* #904 ^property[=].valueCode = #deprecated
+* #904 ^property[+].code = #niveau
+* #904 ^property[=].valueInteger = 4
+* #904 ^property[+].code = #parent
+* #904 ^property[=].valueCode = #4720
 * #905 "Enseignement Professionnel Spécialisé"
 * #905 ^designation[0].language = #fr-FR
 * #905 ^designation[=].use.system = "http://snomed.info/sct"
@@ -783,6 +1755,14 @@ Description: "Disciplines d'équipement pour le social"
 * #905 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #905 ^property[+].code = #dateMaj
 * #905 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #905 ^property[+].code = #deprecationDate
+* #905 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #905 ^property[+].code = #status
+* #905 ^property[=].valueCode = #deprecated
+* #905 ^property[+].code = #niveau
+* #905 ^property[=].valueInteger = 4
+* #905 ^property[+].code = #parent
+* #905 ^property[=].valueCode = #4720
 * #906 "Réadaptation Professionnelle pour Adultes Handicapés"
 * #906 ^designation[0].language = #fr-FR
 * #906 ^designation[=].use.system = "http://snomed.info/sct"
@@ -792,6 +1772,12 @@ Description: "Disciplines d'équipement pour le social"
 * #906 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #906 ^property[+].code = #dateMaj
 * #906 ^property[=].valueDateTime = "2021-05-28T12:00:00+01:00"
+* #906 ^property[+].code = #status
+* #906 ^property[=].valueCode = #active
+* #906 ^property[+].code = #niveau
+* #906 ^property[=].valueInteger = 4
+* #906 ^property[+].code = #parent
+* #906 ^property[=].valueCode = #4310
 * #907 "Adaptation à la vie active"
 * #907 ^designation[0].language = #fr-FR
 * #907 ^designation[=].use.system = "http://snomed.info/sct"
@@ -801,6 +1787,12 @@ Description: "Disciplines d'équipement pour le social"
 * #907 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #907 ^property[+].code = #dateMaj
 * #907 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #907 ^property[+].code = #status
+* #907 ^property[=].valueCode = #active
+* #907 ^property[+].code = #niveau
+* #907 ^property[=].valueInteger = 4
+* #907 ^property[+].code = #parent
+* #907 ^property[=].valueCode = #4610
 * #908 "Aide par le travail pour Adultes Handicapés"
 * #908 ^designation[0].language = #fr-FR
 * #908 ^designation[=].use.system = "http://snomed.info/sct"
@@ -810,6 +1802,12 @@ Description: "Disciplines d'équipement pour le social"
 * #908 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #908 ^property[+].code = #dateMaj
 * #908 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #908 ^property[+].code = #status
+* #908 ^property[=].valueCode = #active
+* #908 ^property[+].code = #niveau
+* #908 ^property[=].valueInteger = 4
+* #908 ^property[+].code = #parent
+* #908 ^property[=].valueCode = #4310
 * #909 "Travail protégé pour Adultes Handicapés"
 * #909 ^designation[0].language = #fr-FR
 * #909 ^designation[=].use.system = "http://snomed.info/sct"
@@ -819,6 +1817,12 @@ Description: "Disciplines d'équipement pour le social"
 * #909 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #909 ^property[+].code = #dateMaj
 * #909 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #909 ^property[+].code = #status
+* #909 ^property[=].valueCode = #active
+* #909 ^property[+].code = #niveau
+* #909 ^property[=].valueInteger = 4
+* #909 ^property[+].code = #parent
+* #909 ^property[=].valueCode = #4310
 * #910 "Accueil collectif régulier d'enfants d'âge préscolaire"
 * #910 ^designation[0].language = #fr-FR
 * #910 ^designation[=].use.system = "http://snomed.info/sct"
@@ -830,6 +1834,14 @@ Description: "Disciplines d'équipement pour le social"
 * #910 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #910 ^property[+].code = #dateMaj
 * #910 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #910 ^property[+].code = #deprecationDate
+* #910 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #910 ^property[+].code = #status
+* #910 ^property[=].valueCode = #deprecated
+* #910 ^property[+].code = #niveau
+* #910 ^property[=].valueInteger = 4
+* #910 ^property[+].code = #parent
+* #910 ^property[=].valueCode = #4810
 * #911 "Accueil collectif occasionnel d'enfants d'âge préscolaire"
 * #911 ^designation[0].language = #fr-FR
 * #911 ^designation[=].use.system = "http://snomed.info/sct"
@@ -841,6 +1853,14 @@ Description: "Disciplines d'équipement pour le social"
 * #911 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #911 ^property[+].code = #dateMaj
 * #911 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #911 ^property[+].code = #deprecationDate
+* #911 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #911 ^property[+].code = #status
+* #911 ^property[=].valueCode = #deprecated
+* #911 ^property[+].code = #niveau
+* #911 ^property[=].valueInteger = 4
+* #911 ^property[+].code = #parent
+* #911 ^property[=].valueCode = #4810
 * #912 "Accueil au titre de la protection de l'enfance"
 * #912 ^designation[0].language = #fr-FR
 * #912 ^designation[=].use.system = "http://snomed.info/sct"
@@ -850,6 +1870,12 @@ Description: "Disciplines d'équipement pour le social"
 * #912 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #912 ^property[+].code = #dateMaj
 * #912 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #912 ^property[+].code = #status
+* #912 ^property[=].valueCode = #active
+* #912 ^property[+].code = #niveau
+* #912 ^property[=].valueInteger = 4
+* #912 ^property[+].code = #parent
+* #912 ^property[=].valueCode = #4510
 * #913 "Accueil d'urgence protection de l'enfance"
 * #913 ^designation[0].language = #fr-FR
 * #913 ^designation[=].use.system = "http://snomed.info/sct"
@@ -859,6 +1885,12 @@ Description: "Disciplines d'équipement pour le social"
 * #913 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #913 ^property[+].code = #dateMaj
 * #913 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #913 ^property[+].code = #status
+* #913 ^property[=].valueCode = #active
+* #913 ^property[+].code = #niveau
+* #913 ^property[=].valueInteger = 4
+* #913 ^property[+].code = #parent
+* #913 ^property[=].valueCode = #4510
 * #914 "Accueil temporaire saisonnier ou week-end protection de l'enfance"
 * #914 ^designation[0].language = #fr-FR
 * #914 ^designation[=].use.system = "http://snomed.info/sct"
@@ -868,6 +1900,12 @@ Description: "Disciplines d'équipement pour le social"
 * #914 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #914 ^property[+].code = #dateMaj
 * #914 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #914 ^property[+].code = #status
+* #914 ^property[=].valueCode = #active
+* #914 ^property[+].code = #niveau
+* #914 ^property[=].valueInteger = 4
+* #914 ^property[+].code = #parent
+* #914 ^property[=].valueCode = #4510
 * #915 "Accueil collectif polyvalent regulier et occasionnel"
 * #915 ^designation[0].language = #fr-FR
 * #915 ^designation[=].use.system = "http://snomed.info/sct"
@@ -879,6 +1917,14 @@ Description: "Disciplines d'équipement pour le social"
 * #915 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #915 ^property[+].code = #dateMaj
 * #915 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #915 ^property[+].code = #deprecationDate
+* #915 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #915 ^property[+].code = #status
+* #915 ^property[=].valueCode = #deprecated
+* #915 ^property[+].code = #niveau
+* #915 ^property[=].valueInteger = 4
+* #915 ^property[+].code = #parent
+* #915 ^property[=].valueCode = #4810
 * #916 "Hébergement Réadapt. Sociale Pers.Familles en Difficulté"
 * #916 ^designation[0].language = #fr-FR
 * #916 ^designation[=].use.system = "http://snomed.info/sct"
@@ -888,6 +1934,12 @@ Description: "Disciplines d'équipement pour le social"
 * #916 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #916 ^property[+].code = #dateMaj
 * #916 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #916 ^property[+].code = #status
+* #916 ^property[=].valueCode = #active
+* #916 ^property[+].code = #niveau
+* #916 ^property[=].valueInteger = 4
+* #916 ^property[+].code = #parent
+* #916 ^property[=].valueCode = #4620
 * #917 "Accueil spécialisé pour Adultes Handicapés"
 * #917 ^designation[0].language = #fr-FR
 * #917 ^designation[=].use.system = "http://snomed.info/sct"
@@ -899,6 +1951,14 @@ Description: "Disciplines d'équipement pour le social"
 * #917 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #917 ^property[+].code = #dateMaj
 * #917 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #917 ^property[+].code = #deprecationDate
+* #917 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #917 ^property[+].code = #status
+* #917 ^property[=].valueCode = #deprecated
+* #917 ^property[+].code = #niveau
+* #917 ^property[=].valueInteger = 4
+* #917 ^property[+].code = #parent
+* #917 ^property[=].valueCode = #4320
 * #918 "Accueil familial régulier d'enfants d'âge préscolaire"
 * #918 ^designation[0].language = #fr-FR
 * #918 ^designation[=].use.system = "http://snomed.info/sct"
@@ -910,6 +1970,14 @@ Description: "Disciplines d'équipement pour le social"
 * #918 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #918 ^property[+].code = #dateMaj
 * #918 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #918 ^property[+].code = #deprecationDate
+* #918 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #918 ^property[+].code = #status
+* #918 ^property[=].valueCode = #deprecated
+* #918 ^property[+].code = #niveau
+* #918 ^property[=].valueInteger = 4
+* #918 ^property[+].code = #parent
+* #918 ^property[=].valueCode = #4810
 * #919 "Accueil familial occasionnel d'enfants d'âge préscolaire"
 * #919 ^designation[0].language = #fr-FR
 * #919 ^designation[=].use.system = "http://snomed.info/sct"
@@ -921,6 +1989,14 @@ Description: "Disciplines d'équipement pour le social"
 * #919 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #919 ^property[+].code = #dateMaj
 * #919 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #919 ^property[+].code = #deprecationDate
+* #919 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #919 ^property[+].code = #status
+* #919 ^property[=].valueCode = #deprecated
+* #919 ^property[+].code = #niveau
+* #919 ^property[=].valueInteger = 4
+* #919 ^property[+].code = #parent
+* #919 ^property[=].valueCode = #4810
 * #920 "Hébergement Ouvert en Ets Pr Adultes & Familles"
 * #920 ^designation[0].language = #fr-FR
 * #920 ^designation[=].use.system = "http://snomed.info/sct"
@@ -930,6 +2006,12 @@ Description: "Disciplines d'équipement pour le social"
 * #920 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #920 ^property[+].code = #dateMaj
 * #920 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #920 ^property[+].code = #status
+* #920 ^property[=].valueCode = #active
+* #920 ^property[+].code = #niveau
+* #920 ^property[=].valueInteger = 4
+* #920 ^property[+].code = #parent
+* #920 ^property[=].valueCode = #4630
 * #921 "Séjours de rupture/distanciation/apaisement"
 * #921 ^designation[0].language = #fr-FR
 * #921 ^designation[=].use.system = "http://snomed.info/sct"
@@ -939,6 +2021,12 @@ Description: "Disciplines d'équipement pour le social"
 * #921 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
 * #921 ^property[+].code = #dateMaj
 * #921 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #921 ^property[+].code = #status
+* #921 ^property[=].valueCode = #active
+* #921 ^property[+].code = #niveau
+* #921 ^property[=].valueInteger = 4
+* #921 ^property[+].code = #parent
+* #921 ^property[=].valueCode = #4510
 * #922 "Accueil Temporaire d'Urgence Pr Adultes & Familles"
 * #922 ^designation[0].language = #fr-FR
 * #922 ^designation[=].use.system = "http://snomed.info/sct"
@@ -948,6 +2036,12 @@ Description: "Disciplines d'équipement pour le social"
 * #922 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #922 ^property[+].code = #dateMaj
 * #922 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #922 ^property[+].code = #status
+* #922 ^property[=].valueCode = #active
+* #922 ^property[+].code = #niveau
+* #922 ^property[=].valueInteger = 4
+* #922 ^property[+].code = #parent
+* #922 ^property[=].valueCode = #4620
 * #923 "Accueil Temp.Saisonnier ou W E Adultes & Familles"
 * #923 ^designation[0].language = #fr-FR
 * #923 ^designation[=].use.system = "http://snomed.info/sct"
@@ -957,6 +2051,12 @@ Description: "Disciplines d'équipement pour le social"
 * #923 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #923 ^property[+].code = #dateMaj
 * #923 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #923 ^property[+].code = #status
+* #923 ^property[=].valueCode = #active
+* #923 ^property[+].code = #niveau
+* #923 ^property[=].valueInteger = 4
+* #923 ^property[+].code = #parent
+* #923 ^property[=].valueCode = #4630
 * #924 "Accueil pour Personnes Âgées"
 * #924 ^designation[0].language = #fr-FR
 * #924 ^designation[=].use.system = "http://snomed.info/sct"
@@ -966,6 +2066,12 @@ Description: "Disciplines d'équipement pour le social"
 * #924 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #924 ^property[+].code = #dateMaj
 * #924 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #924 ^property[+].code = #status
+* #924 ^property[=].valueCode = #active
+* #924 ^property[+].code = #niveau
+* #924 ^property[=].valueInteger = 4
+* #924 ^property[+].code = #parent
+* #924 ^property[=].valueCode = #4420
 * #925 "Hébergement résidence autonomie personnes âgées seules F1"
 * #925 ^designation[0].language = #fr-FR
 * #925 ^designation[=].use.system = "http://snomed.info/sct"
@@ -975,6 +2081,12 @@ Description: "Disciplines d'équipement pour le social"
 * #925 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #925 ^property[+].code = #dateMaj
 * #925 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #925 ^property[+].code = #status
+* #925 ^property[=].valueCode = #active
+* #925 ^property[+].code = #niveau
+* #925 ^property[=].valueInteger = 4
+* #925 ^property[+].code = #parent
+* #925 ^property[=].valueCode = #4420
 * #926 "Hébergement résidence autonomie personnes âgées couple F2"
 * #926 ^designation[0].language = #fr-FR
 * #926 ^designation[=].use.system = "http://snomed.info/sct"
@@ -984,6 +2096,12 @@ Description: "Disciplines d'équipement pour le social"
 * #926 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #926 ^property[+].code = #dateMaj
 * #926 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #926 ^property[+].code = #status
+* #926 ^property[=].valueCode = #active
+* #926 ^property[+].code = #niveau
+* #926 ^property[=].valueInteger = 4
+* #926 ^property[+].code = #parent
+* #926 ^property[=].valueCode = #4420
 * #927 "Hébergement résidence autonomie personnes âgées F1BIS"
 * #927 ^designation[0].language = #fr-FR
 * #927 ^designation[=].use.system = "http://snomed.info/sct"
@@ -993,6 +2111,12 @@ Description: "Disciplines d'équipement pour le social"
 * #927 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #927 ^property[+].code = #dateMaj
 * #927 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #927 ^property[+].code = #status
+* #927 ^property[=].valueCode = #active
+* #927 ^property[+].code = #niveau
+* #927 ^property[=].valueInteger = 4
+* #927 ^property[+].code = #parent
+* #927 ^property[=].valueCode = #4420
 * #928 "Observation en Milieu Ouvert Pour Mineurs Justice (O.M.O)"
 * #928 ^designation[0].language = #fr-FR
 * #928 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1002,6 +2126,12 @@ Description: "Disciplines d'équipement pour le social"
 * #928 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #928 ^property[+].code = #dateMaj
 * #928 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #928 ^property[+].code = #status
+* #928 ^property[=].valueCode = #active
+* #928 ^property[+].code = #niveau
+* #928 ^property[=].valueInteger = 4
+* #928 ^property[+].code = #parent
+* #928 ^property[=].valueCode = #4520
 * #929 "Consultation d'Orientation Pour Mineurs Justice"
 * #929 ^designation[0].language = #fr-FR
 * #929 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1011,6 +2141,12 @@ Description: "Disciplines d'équipement pour le social"
 * #929 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #929 ^property[+].code = #dateMaj
 * #929 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #929 ^property[+].code = #status
+* #929 ^property[=].valueCode = #active
+* #929 ^property[+].code = #niveau
+* #929 ^property[=].valueInteger = 4
+* #929 ^property[+].code = #parent
+* #929 ^property[=].valueCode = #4520
 * #930 "Observation Orientation Pour Mineurs Justice"
 * #930 ^designation[0].language = #fr-FR
 * #930 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1020,6 +2156,12 @@ Description: "Disciplines d'équipement pour le social"
 * #930 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #930 ^property[+].code = #dateMaj
 * #930 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #930 ^property[+].code = #status
+* #930 ^property[=].valueCode = #active
+* #930 ^property[+].code = #niveau
+* #930 ^property[=].valueInteger = 4
+* #930 ^property[+].code = #parent
+* #930 ^property[=].valueCode = #4520
 * #931 "Suivi Social en Milieu Ouvert"
 * #931 ^designation[0].language = #fr-FR
 * #931 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1029,6 +2171,12 @@ Description: "Disciplines d'équipement pour le social"
 * #931 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #931 ^property[+].code = #dateMaj
 * #931 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #931 ^property[+].code = #status
+* #931 ^property[=].valueCode = #active
+* #931 ^property[+].code = #niveau
+* #931 ^property[=].valueInteger = 4
+* #931 ^property[+].code = #parent
+* #931 ^property[=].valueCode = #4530
 * #932 "Animation de la Vie Sociale"
 * #932 ^designation[0].language = #fr-FR
 * #932 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1038,6 +2186,12 @@ Description: "Disciplines d'équipement pour le social"
 * #932 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #932 ^property[+].code = #dateMaj
 * #932 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #932 ^property[+].code = #status
+* #932 ^property[=].valueCode = #active
+* #932 ^property[+].code = #niveau
+* #932 ^property[=].valueInteger = 4
+* #932 ^property[+].code = #parent
+* #932 ^property[=].valueCode = #4820
 * #933 "Activités de Plein Air"
 * #933 ^designation[0].language = #fr-FR
 * #933 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1049,6 +2203,14 @@ Description: "Disciplines d'équipement pour le social"
 * #933 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #933 ^property[+].code = #dateMaj
 * #933 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #933 ^property[+].code = #deprecationDate
+* #933 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #933 ^property[+].code = #status
+* #933 ^property[=].valueCode = #deprecated
+* #933 ^property[+].code = #niveau
+* #933 ^property[=].valueInteger = 4
+* #933 ^property[+].code = #parent
+* #933 ^property[=].valueCode = #4810
 * #934 "Activités liées Aux Vacances"
 * #934 ^designation[0].language = #fr-FR
 * #934 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1060,6 +2222,14 @@ Description: "Disciplines d'équipement pour le social"
 * #934 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #934 ^property[+].code = #dateMaj
 * #934 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #934 ^property[+].code = #deprecationDate
+* #934 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #934 ^property[+].code = #status
+* #934 ^property[=].valueCode = #deprecated
+* #934 ^property[+].code = #niveau
+* #934 ^property[=].valueInteger = 4
+* #934 ^property[+].code = #parent
+* #934 ^property[=].valueCode = #4820
 * #935 "Activités des Établissements Expérimentaux"
 * #935 ^designation[0].language = #fr-FR
 * #935 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1069,6 +2239,12 @@ Description: "Disciplines d'équipement pour le social"
 * #935 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #935 ^property[+].code = #dateMaj
 * #935 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #935 ^property[+].code = #status
+* #935 ^property[=].valueCode = #active
+* #935 ^property[+].code = #niveau
+* #935 ^property[=].valueInteger = 4
+* #935 ^property[+].code = #parent
+* #935 ^property[=].valueCode = #4930
 * #936 "Accueil en Foyer de Vie pour Adultes Handicapés"
 * #936 ^designation[0].language = #fr-FR
 * #936 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1080,6 +2256,14 @@ Description: "Disciplines d'équipement pour le social"
 * #936 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #936 ^property[+].code = #dateMaj
 * #936 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #936 ^property[+].code = #deprecationDate
+* #936 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #936 ^property[+].code = #status
+* #936 ^property[=].valueCode = #deprecated
+* #936 ^property[+].code = #niveau
+* #936 ^property[=].valueInteger = 4
+* #936 ^property[+].code = #parent
+* #936 ^property[=].valueCode = #4320
 * #937 "Réinsertion Par l'Économie"
 * #937 ^designation[0].language = #fr-FR
 * #937 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1089,6 +2273,12 @@ Description: "Disciplines d'équipement pour le social"
 * #937 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #937 ^property[+].code = #dateMaj
 * #937 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #937 ^property[+].code = #status
+* #937 ^property[=].valueCode = #active
+* #937 ^property[+].code = #niveau
+* #937 ^property[=].valueInteger = 4
+* #937 ^property[+].code = #parent
+* #937 ^property[=].valueCode = #4610
 * #938 "Hébergement en Hospice"
 * #938 ^designation[0].language = #fr-FR
 * #938 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1100,6 +2290,14 @@ Description: "Disciplines d'équipement pour le social"
 * #938 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #938 ^property[+].code = #dateMaj
 * #938 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #938 ^property[+].code = #deprecationDate
+* #938 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #938 ^property[+].code = #status
+* #938 ^property[=].valueCode = #deprecated
+* #938 ^property[+].code = #niveau
+* #938 ^property[=].valueInteger = 4
+* #938 ^property[+].code = #parent
+* #938 ^property[=].valueCode = #4420
 * #939 "Accueil médicalisé pour adultes handicapés"
 * #939 ^designation[0].language = #fr-FR
 * #939 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1111,6 +2309,14 @@ Description: "Disciplines d'équipement pour le social"
 * #939 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #939 ^property[+].code = #dateMaj
 * #939 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #939 ^property[+].code = #deprecationDate
+* #939 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #939 ^property[+].code = #status
+* #939 ^property[=].valueCode = #deprecated
+* #939 ^property[+].code = #niveau
+* #939 ^property[=].valueInteger = 4
+* #939 ^property[+].code = #parent
+* #939 ^property[=].valueCode = #4320
 * #941 "Maisons Relais - Résidence Accueil"
 * #941 ^designation[0].language = #fr-FR
 * #941 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1120,6 +2326,12 @@ Description: "Disciplines d'équipement pour le social"
 * #941 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #941 ^property[+].code = #dateMaj
 * #941 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #941 ^property[+].code = #status
+* #941 ^property[=].valueCode = #active
+* #941 ^property[+].code = #niveau
+* #941 ^property[=].valueInteger = 4
+* #941 ^property[+].code = #parent
+* #941 ^property[=].valueCode = #4630
 * #942 "Maisons Relais pour Personnes Vieillissantes"
 * #942 ^designation[0].language = #fr-FR
 * #942 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1129,6 +2341,12 @@ Description: "Disciplines d'équipement pour le social"
 * #942 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #942 ^property[+].code = #dateMaj
 * #942 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #942 ^property[+].code = #status
+* #942 ^property[=].valueCode = #active
+* #942 ^property[+].code = #niveau
+* #942 ^property[=].valueInteger = 4
+* #942 ^property[+].code = #parent
+* #942 ^property[=].valueCode = #4630
 * #943 "Maisons Relais \"Classique\""
 * #943 ^designation[0].language = #fr-FR
 * #943 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1138,6 +2356,12 @@ Description: "Disciplines d'équipement pour le social"
 * #943 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #943 ^property[+].code = #dateMaj
 * #943 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #943 ^property[+].code = #status
+* #943 ^property[=].valueCode = #active
+* #943 ^property[+].code = #niveau
+* #943 ^property[=].valueInteger = 4
+* #943 ^property[+].code = #parent
+* #943 ^property[=].valueCode = #4630
 * #944 "Résidences Sociales ex Foyer Jeunes Travailleurs"
 * #944 ^designation[0].language = #fr-FR
 * #944 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1147,6 +2371,12 @@ Description: "Disciplines d'équipement pour le social"
 * #944 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #944 ^property[+].code = #dateMaj
 * #944 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #944 ^property[+].code = #status
+* #944 ^property[=].valueCode = #active
+* #944 ^property[+].code = #niveau
+* #944 ^property[=].valueInteger = 4
+* #944 ^property[+].code = #parent
+* #944 ^property[=].valueCode = #4630
 * #945 "Résidences Sociales ex Foyers Travailleurs Migrants"
 * #945 ^designation[0].language = #fr-FR
 * #945 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1156,6 +2386,12 @@ Description: "Disciplines d'équipement pour le social"
 * #945 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #945 ^property[+].code = #dateMaj
 * #945 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #945 ^property[+].code = #status
+* #945 ^property[=].valueCode = #active
+* #945 ^property[+].code = #niveau
+* #945 ^property[=].valueInteger = 4
+* #945 ^property[+].code = #parent
+* #945 ^property[=].valueCode = #4630
 * #946 "Résidences Sociales créées ex Nihilo"
 * #946 ^designation[0].language = #fr-FR
 * #946 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1165,6 +2401,12 @@ Description: "Disciplines d'équipement pour le social"
 * #946 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #946 ^property[+].code = #dateMaj
 * #946 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #946 ^property[+].code = #status
+* #946 ^property[=].valueCode = #active
+* #946 ^property[+].code = #niveau
+* #946 ^property[=].valueInteger = 4
+* #946 ^property[+].code = #parent
+* #946 ^property[=].valueCode = #4630
 * #947 "Résidence sociale FJT"
 * #947 ^designation[0].language = #fr-FR
 * #947 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1174,11 +2416,23 @@ Description: "Disciplines d'équipement pour le social"
 * #947 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #947 ^property[+].code = #dateMaj
 * #947 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #947 ^property[+].code = #status
+* #947 ^property[=].valueCode = #active
+* #947 ^property[+].code = #niveau
+* #947 ^property[=].valueInteger = 4
+* #947 ^property[+].code = #parent
+* #947 ^property[=].valueCode = #4630
 * #948 "C.H.R.S. Hors les murs"
 * #948 ^property[0].code = #dateValid
 * #948 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
 * #948 ^property[+].code = #dateMaj
 * #948 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #948 ^property[+].code = #status
+* #948 ^property[=].valueCode = #active
+* #948 ^property[+].code = #niveau
+* #948 ^property[=].valueInteger = 4
+* #948 ^property[+].code = #parent
+* #948 ^property[=].valueCode = #4610
 * #957 "Hébergement d'insertion Adultes,Familles Difficulté"
 * #957 ^designation[0].language = #fr-FR
 * #957 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1188,6 +2442,12 @@ Description: "Disciplines d'équipement pour le social"
 * #957 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #957 ^property[+].code = #dateMaj
 * #957 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #957 ^property[+].code = #status
+* #957 ^property[=].valueCode = #active
+* #957 ^property[+].code = #niveau
+* #957 ^property[=].valueInteger = 4
+* #957 ^property[+].code = #parent
+* #957 ^property[=].valueCode = #4620
 * #958 "Hébergement de Stabilisation Adultes,familles Difficulté"
 * #958 ^designation[0].language = #fr-FR
 * #958 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1197,6 +2457,12 @@ Description: "Disciplines d'équipement pour le social"
 * #958 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #958 ^property[+].code = #dateMaj
 * #958 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #958 ^property[+].code = #status
+* #958 ^property[=].valueCode = #active
+* #958 ^property[+].code = #niveau
+* #958 ^property[=].valueInteger = 4
+* #958 ^property[+].code = #parent
+* #958 ^property[=].valueCode = #4620
 * #959 "Hébergement d'Urgence Adultes, Familles Difficulté"
 * #959 ^designation[0].language = #fr-FR
 * #959 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1206,6 +2472,12 @@ Description: "Disciplines d'équipement pour le social"
 * #959 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #959 ^property[+].code = #dateMaj
 * #959 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #959 ^property[+].code = #status
+* #959 ^property[=].valueCode = #active
+* #959 ^property[+].code = #niveau
+* #959 ^property[=].valueInteger = 4
+* #959 ^property[+].code = #parent
+* #959 ^property[=].valueCode = #4620
 * #960 "Hébergement d'Urgence avec Accompagnement Social (H.U.A.S.)"
 * #960 ^designation[0].language = #fr-FR
 * #960 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1215,6 +2487,12 @@ Description: "Disciplines d'équipement pour le social"
 * #960 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
 * #960 ^property[+].code = #dateMaj
 * #960 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
+* #960 ^property[+].code = #status
+* #960 ^property[=].valueCode = #active
+* #960 ^property[+].code = #niveau
+* #960 ^property[=].valueInteger = 4
+* #960 ^property[+].code = #parent
+* #960 ^property[=].valueCode = #4620
 * #961 "Pôles d'activité et de soins adaptés"
 * #961 ^designation[0].language = #fr-FR
 * #961 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1224,6 +2502,12 @@ Description: "Disciplines d'équipement pour le social"
 * #961 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #961 ^property[+].code = #dateMaj
 * #961 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #961 ^property[+].code = #status
+* #961 ^property[=].valueCode = #active
+* #961 ^property[+].code = #niveau
+* #961 ^property[=].valueInteger = 4
+* #961 ^property[+].code = #parent
+* #961 ^property[=].valueCode = #4420
 * #962 "Unités d'hébergement renforcées"
 * #962 ^designation[0].language = #fr-FR
 * #962 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1233,6 +2517,12 @@ Description: "Disciplines d'équipement pour le social"
 * #962 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #962 ^property[+].code = #dateMaj
 * #962 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #962 ^property[+].code = #status
+* #962 ^property[=].valueCode = #active
+* #962 ^property[+].code = #niveau
+* #962 ^property[=].valueInteger = 4
+* #962 ^property[+].code = #parent
+* #962 ^property[=].valueCode = #4420
 * #963 "Plateforme d'accompagnement et de répit des aidants (PFR)"
 * #963 ^designation[0].language = #fr-FR
 * #963 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1242,6 +2532,12 @@ Description: "Disciplines d'équipement pour le social"
 * #963 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #963 ^property[+].code = #dateMaj
 * #963 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #963 ^property[+].code = #status
+* #963 ^property[=].valueCode = #active
+* #963 ^property[+].code = #niveau
+* #963 ^property[=].valueInteger = 4
+* #963 ^property[+].code = #parent
+* #963 ^property[=].valueCode = #4420
 * #964 "Accueil et accompagnement spécialisé personnes handicapés"
 * #964 ^designation[0].language = #fr-FR
 * #964 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1251,6 +2547,12 @@ Description: "Disciplines d'équipement pour le social"
 * #964 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #964 ^property[+].code = #dateMaj
 * #964 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #964 ^property[+].code = #status
+* #964 ^property[=].valueCode = #active
+* #964 ^property[+].code = #niveau
+* #964 ^property[=].valueInteger = 4
+* #964 ^property[+].code = #parent
+* #964 ^property[=].valueCode = #4330
 * #965 "Accueil et accompagnement non médical. personnes handicapées"
 * #965 ^designation[0].language = #fr-FR
 * #965 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1260,6 +2562,12 @@ Description: "Disciplines d'équipement pour le social"
 * #965 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #965 ^property[+].code = #dateMaj
 * #965 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #965 ^property[+].code = #status
+* #965 ^property[=].valueCode = #active
+* #965 ^property[+].code = #niveau
+* #965 ^property[=].valueInteger = 4
+* #965 ^property[+].code = #parent
+* #965 ^property[=].valueCode = #4330
 * #966 "Accueil et accompagnement médicalisé personnes handicapées"
 * #966 ^designation[0].language = #fr-FR
 * #966 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1269,6 +2577,12 @@ Description: "Disciplines d'équipement pour le social"
 * #966 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #966 ^property[+].code = #dateMaj
 * #966 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
+* #966 ^property[+].code = #status
+* #966 ^property[=].valueCode = #active
+* #966 ^property[+].code = #niveau
+* #966 ^property[=].valueInteger = 4
+* #966 ^property[+].code = #parent
+* #966 ^property[=].valueCode = #4330
 * #991 "Éducation Générale Soins Spéc. Enfants Hand.Troubles Assoc."
 * #991 ^designation[0].language = #fr-FR
 * #991 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1280,6 +2594,14 @@ Description: "Disciplines d'équipement pour le social"
 * #991 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #991 ^property[+].code = #dateMaj
 * #991 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #991 ^property[+].code = #deprecationDate
+* #991 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #991 ^property[+].code = #status
+* #991 ^property[=].valueCode = #deprecated
+* #991 ^property[+].code = #niveau
+* #991 ^property[=].valueInteger = 4
+* #991 ^property[+].code = #parent
+* #991 ^property[=].valueCode = #4720
 * #992 "Éducation Prof. Soins Spéc. Enfants Hand. Troubles Associés"
 * #992 ^designation[0].language = #fr-FR
 * #992 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1291,6 +2613,14 @@ Description: "Disciplines d'équipement pour le social"
 * #992 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #992 ^property[+].code = #dateMaj
 * #992 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #992 ^property[+].code = #deprecationDate
+* #992 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #992 ^property[+].code = #status
+* #992 ^property[=].valueCode = #deprecated
+* #992 ^property[+].code = #niveau
+* #992 ^property[=].valueInteger = 4
+* #992 ^property[+].code = #parent
+* #992 ^property[=].valueCode = #4720
 * #999 "Regroupement des Calculs (Annexes 24)"
 * #999 ^designation[0].language = #fr-FR
 * #999 ^designation[=].use = $sct#900000000000013009
@@ -1301,3 +2631,11 @@ Description: "Disciplines d'équipement pour le social"
 * #999 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #999 ^property[+].code = #dateMaj
 * #999 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #999 ^property[+].code = #deprecationDate
+* #999 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
+* #999 ^property[+].code = #status
+* #999 ^property[=].valueCode = #deprecated
+* #999 ^property[+].code = #niveau
+* #999 ^property[=].valueInteger = 4
+* #999 ^property[+].code = #parent
+* #999 ^property[=].valueCode = #4720

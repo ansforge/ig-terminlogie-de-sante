@@ -1,7 +1,7 @@
 Alias: $sct = http://snomed.info/sct
 
 CodeSystem: TreR400FinessStatutJuridique
-Id: TRE-R400-FinessStatutJuridique
+Id: tre-r400-finess-statut-juridique
 Title: "Tre R400 Finess Statut Juridique"
 Description: "Statuts juridiques de FINESS"
 * ^meta.versionId = "1"
@@ -18,8 +18,8 @@ Description: "Statuts juridiques de FINESS"
 * ^date = "2025-09-25T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^caseSensitive = false
-* ^hierarchyMeaning = #is-a
 * ^content = #complete
+* ^hierarchyMeaning = #is-a
 * ^property[0].code = #niveau
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#niveau"
 * ^property[=].description = "Permet d'indiquer le niveau hiérarchique du code"
