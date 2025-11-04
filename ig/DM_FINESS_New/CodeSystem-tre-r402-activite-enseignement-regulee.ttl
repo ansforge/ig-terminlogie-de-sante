@@ -20,7 +20,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem tre-r402-activite-enseignement-regulee</b></p><a name=\"tre-r402-activite-enseignement-regulee\"> </a><a name=\"hctre-r402-activite-enseignement-regulee\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 1; Dernière mise à jour : 2025-11-04 05:14:07+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>niveau</td><td>niveau</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#niveau</td><td>integer</td><td>Permet d'indiquer le niveau hiérarchique du code</td></tr><tr><td>Parent</td><td>parent</td><td>http://hl7.org/fhir/concept-properties#parent</td><td>code</td><td>An immediate parent of the concept in the hierarchy</td></tr><tr><td>dateValid</td><td>dateValid</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr><tr><td>deprecationDate</td><td>deprecationDate</td><td>http://hl7.org/fhir/concept-properties#deprecationDate</td><td>dateTime</td><td>Date Concept was deprecated</td></tr><tr><td>status</td><td>status</td><td>http://hl7.org/fhir/concept-properties#status</td><td>code</td><td>A property that indicates the status of the concept.</td></tr><tr><td>retirementDate</td><td>retirementDate</td><td>http://hl7.org/fhir/concept-properties#retirementDate</td><td>dateTime</td><td>Date Concept was retired</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee</code> defines the following codes in a Is-A hierarchy:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Déprécié</b></td><td><b>niveau</b></td><td><b>Parent</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>dateFin</b></td><td><b>deprecationDate</b></td><td><b>status</b></td><td><b>French (France) (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">2000<a name=\"tre-r402-activite-enseignement-regulee-2000\"> </a></td><td>Disciplines d'enseignement</td><td/><td>1</td><td/><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">2200<a name=\"tre-r402-activite-enseignement-regulee-2200\"> </a></td><td>Services Spécialisés d'Enseignement</td><td/><td>2</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2000\">2000</a></td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Services Spéc.Enseign.</td></tr><tr><td style=\"white-space:nowrap\">2210<a name=\"tre-r402-activite-enseignement-regulee-2210\"> </a></td><td>Formation des Personnels Sanitaires</td><td/><td>3</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2200\">2200</a></td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Formation Personnels Sanit.</td></tr><tr><td style=\"white-space:nowrap\">2220<a name=\"tre-r402-activite-enseignement-regulee-2220\"> </a></td><td>Formation des Personnels Sociaux</td><td/><td>3</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2200\">2200</a></td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Formation Personnels Soc.</td></tr><tr><td style=\"white-space:nowrap\">2230<a name=\"tre-r402-activite-enseignement-regulee-2230\"> </a></td><td>Formation des Personnels Administratifs San. et Soc</td><td/><td>3</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2200\">2200</a></td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form.Person.Admin.San.Soc.</td></tr><tr><td style=\"white-space:nowrap\">2240<a name=\"tre-r402-activite-enseignement-regulee-2240\"> </a></td><td>Formation de cadre de santé</td><td/><td>3</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2200\">2200</a></td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">413<a name=\"tre-r402-activite-enseignement-regulee-413\"> </a></td><td>Formation DE Ambulancier</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2210\">2210</a></td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form Ambulancier</td></tr><tr><td style=\"white-space:nowrap\">414<a name=\"tre-r402-activite-enseignement-regulee-414\"> </a></td><td>Formation DE Infirmier</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2210\">2210</a></td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form Infirmier</td></tr><tr><td style=\"white-space:nowrap\">415<a name=\"tre-r402-activite-enseignement-regulee-415\"> </a></td><td>Formation DE Sage-Femme</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2210\">2210</a></td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form Sage-Femmes</td></tr><tr><td style=\"white-space:nowrap\">416<a name=\"tre-r402-activite-enseignement-regulee-416\"> </a></td><td>Formation DE Masseur-Kinésithérapeute</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2210\">2210</a></td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form Masseur-Kiné.</td></tr><tr><td style=\"white-space:nowrap\">417<a name=\"tre-r402-activite-enseignement-regulee-417\"> </a></td><td>Formation DE Technicien en laboratoire médical</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2210\">2210</a></td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form Techn LBM</td></tr><tr><td style=\"white-space:nowrap\">418<a name=\"tre-r402-activite-enseignement-regulee-418\"> </a></td><td>Formation DE Puéricultrice</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2210\">2210</a></td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form Puéricultrice</td></tr><tr><td style=\"white-space:nowrap\">419<a name=\"tre-r402-activite-enseignement-regulee-419\"> </a></td><td>Formation DE Aide-Soignant</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2210\">2210</a></td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form Aide-Soignant</td></tr><tr><td style=\"white-space:nowrap\">420<a name=\"tre-r402-activite-enseignement-regulee-420\"> </a></td><td>Formation DE Pédicure-Podologue</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2210\">2210</a></td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form Pédicure-Pod.</td></tr><tr><td style=\"white-space:nowrap\">421<a name=\"tre-r402-activite-enseignement-regulee-421\"> </a></td><td>Formation DE ManipulateurElectro-radiologie médicale</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2210\">2210</a></td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form Manip.Elec.Rad</td></tr><tr><td style=\"white-space:nowrap\">422<a name=\"tre-r402-activite-enseignement-regulee-422\"> </a></td><td>Formation DE Conseillère en Économie Sociale et Familiale</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2220\">2220</a></td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form DCESF</td></tr><tr><td style=\"white-space:nowrap\">423<a name=\"tre-r402-activite-enseignement-regulee-423\"> </a></td><td>Formation DE Ergothérapeute</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2210\">2210</a></td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form Ergothérapeute</td></tr><tr><td style=\"white-space:nowrap\">424<a name=\"tre-r402-activite-enseignement-regulee-424\"> </a></td><td>Formation DE Psychomotricien</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2210\">2210</a></td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form Psychomotric.</td></tr><tr><td style=\"white-space:nowrap\">425<a name=\"tre-r402-activite-enseignement-regulee-425\"> </a></td><td>Formation DE Infirmier Anesthésiste</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2210\">2210</a></td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form Inf.Anesthés.</td></tr><tr><td style=\"white-space:nowrap\">426<a name=\"tre-r402-activite-enseignement-regulee-426\"> </a></td><td>Formation DE Infirmier Bloc Opératoire</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2210\">2210</a></td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form Inf.Bloc Opér.</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">427<a name=\"tre-r402-activite-enseignement-regulee-427\"> </a></td><td>Formation Professionnel Secteur Psychiatrique</td><td>Déprécié</td><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2210\">2210</a></td><td>2021-11-26T12:00:00+01:00</td><td>2021-11-26T12:00:00+01:00</td><td>2021-11-26T12:00:00+01:00</td><td>2021-11-26T12:00:00+01:00</td><td>deprecated</td><td>Form.Prof.S.Psy</td></tr><tr><td style=\"white-space:nowrap\">428<a name=\"tre-r402-activite-enseignement-regulee-428\"> </a></td><td>Formation Cadre de santé (Infirmier)</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2240\">2240</a></td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form Cadre Infirm.</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">429<a name=\"tre-r402-activite-enseignement-regulee-429\"> </a></td><td>Formation Cadres Infirmiers Secteur Psychiatrique</td><td>Déprécié</td><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2210\">2210</a></td><td>2021-11-26T12:00:00+01:00</td><td>2021-11-26T12:00:00+01:00</td><td>2021-11-26T12:00:00+01:00</td><td>2021-11-26T12:00:00+01:00</td><td>deprecated</td><td>Form Cadre Inf.S.Ps</td></tr><tr><td style=\"white-space:nowrap\">430<a name=\"tre-r402-activite-enseignement-regulee-430\"> </a></td><td>Formation Cadre de santé (Masseur-Kinésithérapeute)</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2240\">2240</a></td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form Cadre Mass.Kin</td></tr><tr><td style=\"white-space:nowrap\">431<a name=\"tre-r402-activite-enseignement-regulee-431\"> </a></td><td>Formation Cadre de santé (Manip.Electro-Radiologie)</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2240\">2240</a></td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form Cadre M.E.Rad.</td></tr><tr><td style=\"white-space:nowrap\">432<a name=\"tre-r402-activite-enseignement-regulee-432\"> </a></td><td>Formation DE d'assistant de Service Social</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2220\">2220</a></td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form DEASS</td></tr><tr><td style=\"white-space:nowrap\">433<a name=\"tre-r402-activite-enseignement-regulee-433\"> </a></td><td>Formation DE d'éducateur spécialisé</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2220\">2220</a></td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form DEES</td></tr><tr><td style=\"white-space:nowrap\">434<a name=\"tre-r402-activite-enseignement-regulee-434\"> </a></td><td>Formation DE technicien de l'intervention sociale familiale</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2220\">2220</a></td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form DETISF</td></tr><tr><td style=\"white-space:nowrap\">435<a name=\"tre-r402-activite-enseignement-regulee-435\"> </a></td><td>Formation DE d'éducateurs Jeunes Enfants</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2220\">2220</a></td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form DEEJE.</td></tr><tr><td style=\"white-space:nowrap\">436<a name=\"tre-r402-activite-enseignement-regulee-436\"> </a></td><td>Formation DE éducateur technique spécialisé</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2220\">2220</a></td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form DE ETS</td></tr><tr><td style=\"white-space:nowrap\">437<a name=\"tre-r402-activite-enseignement-regulee-437\"> </a></td><td>Formation DE moniteur éducateurs</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2220\">2220</a></td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form DEME</td></tr><tr><td style=\"white-space:nowrap\">438<a name=\"tre-r402-activite-enseignement-regulee-438\"> </a></td><td>Formation DE aide médico psychologique</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2220\">2220</a></td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form DE AMP</td></tr><tr><td style=\"white-space:nowrap\">439<a name=\"tre-r402-activite-enseignement-regulee-439\"> </a></td><td>Formation DE fonction d'animation</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2220\">2220</a></td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form DEFA</td></tr><tr><td style=\"white-space:nowrap\">440<a name=\"tre-r402-activite-enseignement-regulee-440\"> </a></td><td>Formation CF Délégué Tutelle aux Prestations Sociales</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2220\">2220</a></td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form Dél.Tut.Pr.Soc</td></tr><tr><td style=\"white-space:nowrap\">441<a name=\"tre-r402-activite-enseignement-regulee-441\"> </a></td><td>Formation DE Médiateur Familial</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2220\">2220</a></td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form DEMF</td></tr><tr><td style=\"white-space:nowrap\">444<a name=\"tre-r402-activite-enseignement-regulee-444\"> </a></td><td>Formation CA fonction encadrement unité intervention sociale</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2220\">2220</a></td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form CAFERUIS</td></tr><tr><td style=\"white-space:nowrap\">449<a name=\"tre-r402-activite-enseignement-regulee-449\"> </a></td><td>Formation CA fonction directeur établissement social</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2220\">2220</a></td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form CAFDES</td></tr><tr><td style=\"white-space:nowrap\">453<a name=\"tre-r402-activite-enseignement-regulee-453\"> </a></td><td>Formation Cadre de Santé (sans autre indication)</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2240\">2240</a></td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form.Cadr.Santé SAI</td></tr><tr><td style=\"white-space:nowrap\">454<a name=\"tre-r402-activite-enseignement-regulee-454\"> </a></td><td>Formation Cadre de santé (Sage-Femme)</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2240\">2240</a></td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form Cadres Sag.Fem</td></tr><tr><td style=\"white-space:nowrap\">456<a name=\"tre-r402-activite-enseignement-regulee-456\"> </a></td><td>Formation DE Auxiliaire Puériculture</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2210\">2210</a></td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form Auxil.Puéric.</td></tr><tr><td style=\"white-space:nowrap\">500<a name=\"tre-r402-activite-enseignement-regulee-500\"> </a></td><td>Formation Personnels Admin.Santé Secteur Social</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2230\">2230</a></td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form.Pers.San.Soc.</td></tr><tr><td style=\"white-space:nowrap\">584<a name=\"tre-r402-activite-enseignement-regulee-584\"> </a></td><td>Formation qualification Conseil Conjugal ou Familial</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2220\">2220</a></td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form.Cons.Conj.Fam</td></tr><tr><td style=\"white-space:nowrap\">585<a name=\"tre-r402-activite-enseignement-regulee-585\"> </a></td><td>Formation diplôme supérieur en Travail social</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2220\">2220</a></td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form.DSTS.</td></tr><tr><td style=\"white-space:nowrap\">586<a name=\"tre-r402-activite-enseignement-regulee-586\"> </a></td><td>Formation DE auxiliaire de vie sociale</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2220\">2220</a></td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form DEAVS</td></tr><tr><td style=\"white-space:nowrap\">587<a name=\"tre-r402-activite-enseignement-regulee-587\"> </a></td><td>Formation DE Assistant Familial</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2220\">2220</a></td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form DEAF</td></tr><tr><td style=\"white-space:nowrap\">588<a name=\"tre-r402-activite-enseignement-regulee-588\"> </a></td><td>Formation DE Ingénierie Sociale</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2220\">2220</a></td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>D.E.I.S.</td></tr><tr><td style=\"white-space:nowrap\">590<a name=\"tre-r402-activite-enseignement-regulee-590\"> </a></td><td>Formation DE Accompagnant Éducatif et Social</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2220\">2220</a></td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form DEAES</td></tr><tr><td style=\"white-space:nowrap\">591<a name=\"tre-r402-activite-enseignement-regulee-591\"> </a></td><td>Formation DE Mandataire Judiciaire à la Protection des Majeurs</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2220\">2220</a></td><td>2024-03-29T12:00:00+01:00</td><td>2024-03-29T12:00:00+01:00</td><td/><td/><td>active</td><td>Form MJPM</td></tr><tr><td style=\"white-space:nowrap\">592<a name=\"tre-r402-activite-enseignement-regulee-592\"> </a></td><td>Formation DE Délégué aux Prestations Familiales</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2220\">2220</a></td><td>2024-03-29T12:00:00+01:00</td><td>2024-03-29T12:00:00+01:00</td><td/><td/><td>active</td><td>Form DPF</td></tr><tr><td style=\"white-space:nowrap\">597<a name=\"tre-r402-activite-enseignement-regulee-597\"> </a></td><td>Formation Manipulateur Exploration Fonctionnelle</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2210\">2210</a></td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form Mani.Exp.Fonc.</td></tr><tr><td style=\"white-space:nowrap\">804<a name=\"tre-r402-activite-enseignement-regulee-804\"> </a></td><td>Formation Cadre de santé (technicien LABM)</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2240\">2240</a></td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form Cadre tech LABM</td></tr><tr><td style=\"white-space:nowrap\">805<a name=\"tre-r402-activite-enseignement-regulee-805\"> </a></td><td>Formation Cadre de santé (ergothérapeute)</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2240\">2240</a></td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form Cadre Ergothér</td></tr><tr><td style=\"white-space:nowrap\">880<a name=\"tre-r402-activite-enseignement-regulee-880\"> </a></td><td>Formation Préparateur en Pharmacie Hospitalière</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2210\">2210</a></td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form PPH</td></tr><tr><td style=\"white-space:nowrap\">881<a name=\"tre-r402-activite-enseignement-regulee-881\"> </a></td><td>Formation Cadre de Santé (diététicien)</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2240\">2240</a></td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form cadre dietetic</td></tr><tr><td style=\"white-space:nowrap\">882<a name=\"tre-r402-activite-enseignement-regulee-882\"> </a></td><td>Formation Cadre de Santé (audioprothésiste)</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2240\">2240</a></td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form cadre audioprot</td></tr><tr><td style=\"white-space:nowrap\">883<a name=\"tre-r402-activite-enseignement-regulee-883\"> </a></td><td>Formation Cadre de Santé (pédicure podologue)</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2240\">2240</a></td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form cadre pedi podo</td></tr><tr><td style=\"white-space:nowrap\">884<a name=\"tre-r402-activite-enseignement-regulee-884\"> </a></td><td>Formation Cadre de Santé (psychomotricien)</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2240\">2240</a></td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form cadre psychomot</td></tr><tr><td style=\"white-space:nowrap\">885<a name=\"tre-r402-activite-enseignement-regulee-885\"> </a></td><td>Formation Cadre de Santé (opticien)</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2240\">2240</a></td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form cadre opticien</td></tr><tr><td style=\"white-space:nowrap\">886<a name=\"tre-r402-activite-enseignement-regulee-886\"> </a></td><td>Formation Cadre de Santé (orthophoniste)</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2240\">2240</a></td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form cadre ophoniste</td></tr><tr><td style=\"white-space:nowrap\">887<a name=\"tre-r402-activite-enseignement-regulee-887\"> </a></td><td>Formation Cadre de Santé (orthoptiste)</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2240\">2240</a></td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form cadre ortptiste</td></tr><tr><td style=\"white-space:nowrap\">888<a name=\"tre-r402-activite-enseignement-regulee-888\"> </a></td><td>Formation Cadre de Santé (préparateur pharmacie hospitalièr)</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2240\">2240</a></td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form cadre PPH</td></tr></table></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem tre-r402-activite-enseignement-regulee</b></p><a name=\"tre-r402-activite-enseignement-regulee\"> </a><a name=\"hctre-r402-activite-enseignement-regulee\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 1; Dernière mise à jour : 2025-11-04 05:14:07+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>niveau</td><td>niveau</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#niveau</td><td>integer</td><td>Permet d'indiquer le niveau hiérarchique du code</td></tr><tr><td>Parent</td><td>parent</td><td>http://hl7.org/fhir/concept-properties#parent</td><td>code</td><td>An immediate parent of the concept in the hierarchy</td></tr><tr><td>finess</td><td>finess</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#finess</td><td>boolean</td><td>Permet de définir les codes concepts utilisés par FINESS+</td></tr><tr><td>dateValid</td><td>dateValid</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr><tr><td>deprecationDate</td><td>deprecationDate</td><td>http://hl7.org/fhir/concept-properties#deprecationDate</td><td>dateTime</td><td>Date Concept was deprecated</td></tr><tr><td>status</td><td>status</td><td>http://hl7.org/fhir/concept-properties#status</td><td>code</td><td>A property that indicates the status of the concept.</td></tr><tr><td>retirementDate</td><td>retirementDate</td><td>http://hl7.org/fhir/concept-properties#retirementDate</td><td>dateTime</td><td>Date Concept was retired</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee</code> defines the following codes in a Is-A hierarchy:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Déprécié</b></td><td><b>niveau</b></td><td><b>Parent</b></td><td><b>finess</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>dateFin</b></td><td><b>deprecationDate</b></td><td><b>status</b></td><td><b>French (France) (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">2000<a name=\"tre-r402-activite-enseignement-regulee-2000\"> </a></td><td>Disciplines d'enseignement</td><td/><td>1</td><td/><td>true</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">2200<a name=\"tre-r402-activite-enseignement-regulee-2200\"> </a></td><td>Services Spécialisés d'Enseignement</td><td/><td>2</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2000\">2000</a></td><td>true</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Services Spéc.Enseign.</td></tr><tr><td style=\"white-space:nowrap\">2210<a name=\"tre-r402-activite-enseignement-regulee-2210\"> </a></td><td>Formation des Personnels Sanitaires</td><td/><td>3</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2200\">2200</a></td><td>true</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Formation Personnels Sanit.</td></tr><tr><td style=\"white-space:nowrap\">2220<a name=\"tre-r402-activite-enseignement-regulee-2220\"> </a></td><td>Formation des Personnels Sociaux</td><td/><td>3</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2200\">2200</a></td><td>true</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Formation Personnels Soc.</td></tr><tr><td style=\"white-space:nowrap\">2230<a name=\"tre-r402-activite-enseignement-regulee-2230\"> </a></td><td>Formation des Personnels Administratifs San. et Soc</td><td/><td>3</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2200\">2200</a></td><td>true</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form.Person.Admin.San.Soc.</td></tr><tr><td style=\"white-space:nowrap\">2240<a name=\"tre-r402-activite-enseignement-regulee-2240\"> </a></td><td>Formation de cadre de santé</td><td/><td>3</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2200\">2200</a></td><td>true</td><td>2020-06-26T12:00:00+01:00</td><td>2020-06-26T12:00:00+01:00</td><td/><td/><td>active</td><td/></tr><tr><td style=\"white-space:nowrap\">413<a name=\"tre-r402-activite-enseignement-regulee-413\"> </a></td><td>Formation DE Ambulancier</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2210\">2210</a></td><td>true</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form Ambulancier</td></tr><tr><td style=\"white-space:nowrap\">414<a name=\"tre-r402-activite-enseignement-regulee-414\"> </a></td><td>Formation DE Infirmier</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2210\">2210</a></td><td>true</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form Infirmier</td></tr><tr><td style=\"white-space:nowrap\">415<a name=\"tre-r402-activite-enseignement-regulee-415\"> </a></td><td>Formation DE Sage-Femme</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2210\">2210</a></td><td>true</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form Sage-Femmes</td></tr><tr><td style=\"white-space:nowrap\">416<a name=\"tre-r402-activite-enseignement-regulee-416\"> </a></td><td>Formation DE Masseur-Kinésithérapeute</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2210\">2210</a></td><td>true</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form Masseur-Kiné.</td></tr><tr><td style=\"white-space:nowrap\">417<a name=\"tre-r402-activite-enseignement-regulee-417\"> </a></td><td>Formation DE Technicien en laboratoire médical</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2210\">2210</a></td><td>true</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form Techn LBM</td></tr><tr><td style=\"white-space:nowrap\">418<a name=\"tre-r402-activite-enseignement-regulee-418\"> </a></td><td>Formation DE Puéricultrice</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2210\">2210</a></td><td>true</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form Puéricultrice</td></tr><tr><td style=\"white-space:nowrap\">419<a name=\"tre-r402-activite-enseignement-regulee-419\"> </a></td><td>Formation DE Aide-Soignant</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2210\">2210</a></td><td>true</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form Aide-Soignant</td></tr><tr><td style=\"white-space:nowrap\">420<a name=\"tre-r402-activite-enseignement-regulee-420\"> </a></td><td>Formation DE Pédicure-Podologue</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2210\">2210</a></td><td>true</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form Pédicure-Pod.</td></tr><tr><td style=\"white-space:nowrap\">421<a name=\"tre-r402-activite-enseignement-regulee-421\"> </a></td><td>Formation DE ManipulateurElectro-radiologie médicale</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2210\">2210</a></td><td>true</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form Manip.Elec.Rad</td></tr><tr><td style=\"white-space:nowrap\">422<a name=\"tre-r402-activite-enseignement-regulee-422\"> </a></td><td>Formation DE Conseillère en Économie Sociale et Familiale</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2220\">2220</a></td><td>true</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form DCESF</td></tr><tr><td style=\"white-space:nowrap\">423<a name=\"tre-r402-activite-enseignement-regulee-423\"> </a></td><td>Formation DE Ergothérapeute</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2210\">2210</a></td><td>true</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form Ergothérapeute</td></tr><tr><td style=\"white-space:nowrap\">424<a name=\"tre-r402-activite-enseignement-regulee-424\"> </a></td><td>Formation DE Psychomotricien</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2210\">2210</a></td><td>true</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form Psychomotric.</td></tr><tr><td style=\"white-space:nowrap\">425<a name=\"tre-r402-activite-enseignement-regulee-425\"> </a></td><td>Formation DE Infirmier Anesthésiste</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2210\">2210</a></td><td>true</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form Inf.Anesthés.</td></tr><tr><td style=\"white-space:nowrap\">426<a name=\"tre-r402-activite-enseignement-regulee-426\"> </a></td><td>Formation DE Infirmier Bloc Opératoire</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2210\">2210</a></td><td>true</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form Inf.Bloc Opér.</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">427<a name=\"tre-r402-activite-enseignement-regulee-427\"> </a></td><td>Formation Professionnel Secteur Psychiatrique</td><td>Déprécié</td><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2210\">2210</a></td><td>true</td><td>2021-11-26T12:00:00+01:00</td><td>2021-11-26T12:00:00+01:00</td><td>2021-11-26T12:00:00+01:00</td><td>2021-11-26T12:00:00+01:00</td><td>deprecated</td><td>Form.Prof.S.Psy</td></tr><tr><td style=\"white-space:nowrap\">428<a name=\"tre-r402-activite-enseignement-regulee-428\"> </a></td><td>Formation Cadre de santé (Infirmier)</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2240\">2240</a></td><td>true</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form Cadre Infirm.</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">429<a name=\"tre-r402-activite-enseignement-regulee-429\"> </a></td><td>Formation Cadres Infirmiers Secteur Psychiatrique</td><td>Déprécié</td><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2210\">2210</a></td><td>true</td><td>2021-11-26T12:00:00+01:00</td><td>2021-11-26T12:00:00+01:00</td><td>2021-11-26T12:00:00+01:00</td><td>2021-11-26T12:00:00+01:00</td><td>deprecated</td><td>Form Cadre Inf.S.Ps</td></tr><tr><td style=\"white-space:nowrap\">430<a name=\"tre-r402-activite-enseignement-regulee-430\"> </a></td><td>Formation Cadre de santé (Masseur-Kinésithérapeute)</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2240\">2240</a></td><td>true</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form Cadre Mass.Kin</td></tr><tr><td style=\"white-space:nowrap\">431<a name=\"tre-r402-activite-enseignement-regulee-431\"> </a></td><td>Formation Cadre de santé (Manip.Electro-Radiologie)</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2240\">2240</a></td><td>true</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form Cadre M.E.Rad.</td></tr><tr><td style=\"white-space:nowrap\">432<a name=\"tre-r402-activite-enseignement-regulee-432\"> </a></td><td>Formation DE d'assistant de Service Social</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2220\">2220</a></td><td>true</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form DEASS</td></tr><tr><td style=\"white-space:nowrap\">433<a name=\"tre-r402-activite-enseignement-regulee-433\"> </a></td><td>Formation DE d'éducateur spécialisé</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2220\">2220</a></td><td>true</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form DEES</td></tr><tr><td style=\"white-space:nowrap\">434<a name=\"tre-r402-activite-enseignement-regulee-434\"> </a></td><td>Formation DE technicien de l'intervention sociale familiale</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2220\">2220</a></td><td>true</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form DETISF</td></tr><tr><td style=\"white-space:nowrap\">435<a name=\"tre-r402-activite-enseignement-regulee-435\"> </a></td><td>Formation DE d'éducateurs Jeunes Enfants</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2220\">2220</a></td><td>true</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form DEEJE.</td></tr><tr><td style=\"white-space:nowrap\">436<a name=\"tre-r402-activite-enseignement-regulee-436\"> </a></td><td>Formation DE éducateur technique spécialisé</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2220\">2220</a></td><td>true</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form DE ETS</td></tr><tr><td style=\"white-space:nowrap\">437<a name=\"tre-r402-activite-enseignement-regulee-437\"> </a></td><td>Formation DE moniteur éducateurs</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2220\">2220</a></td><td>true</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form DEME</td></tr><tr><td style=\"white-space:nowrap\">438<a name=\"tre-r402-activite-enseignement-regulee-438\"> </a></td><td>Formation DE aide médico psychologique</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2220\">2220</a></td><td>true</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form DE AMP</td></tr><tr><td style=\"white-space:nowrap\">439<a name=\"tre-r402-activite-enseignement-regulee-439\"> </a></td><td>Formation DE fonction d'animation</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2220\">2220</a></td><td>true</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form DEFA</td></tr><tr><td style=\"white-space:nowrap\">440<a name=\"tre-r402-activite-enseignement-regulee-440\"> </a></td><td>Formation CF Délégué Tutelle aux Prestations Sociales</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2220\">2220</a></td><td>true</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form Dél.Tut.Pr.Soc</td></tr><tr><td style=\"white-space:nowrap\">441<a name=\"tre-r402-activite-enseignement-regulee-441\"> </a></td><td>Formation DE Médiateur Familial</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2220\">2220</a></td><td>true</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form DEMF</td></tr><tr><td style=\"white-space:nowrap\">444<a name=\"tre-r402-activite-enseignement-regulee-444\"> </a></td><td>Formation CA fonction encadrement unité intervention sociale</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2220\">2220</a></td><td>true</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form CAFERUIS</td></tr><tr><td style=\"white-space:nowrap\">449<a name=\"tre-r402-activite-enseignement-regulee-449\"> </a></td><td>Formation CA fonction directeur établissement social</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2220\">2220</a></td><td>true</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form CAFDES</td></tr><tr><td style=\"white-space:nowrap\">453<a name=\"tre-r402-activite-enseignement-regulee-453\"> </a></td><td>Formation Cadre de Santé (sans autre indication)</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2240\">2240</a></td><td>true</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form.Cadr.Santé SAI</td></tr><tr><td style=\"white-space:nowrap\">454<a name=\"tre-r402-activite-enseignement-regulee-454\"> </a></td><td>Formation Cadre de santé (Sage-Femme)</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2240\">2240</a></td><td>true</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form Cadres Sag.Fem</td></tr><tr><td style=\"white-space:nowrap\">456<a name=\"tre-r402-activite-enseignement-regulee-456\"> </a></td><td>Formation DE Auxiliaire Puériculture</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2210\">2210</a></td><td>true</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form Auxil.Puéric.</td></tr><tr><td style=\"white-space:nowrap\">500<a name=\"tre-r402-activite-enseignement-regulee-500\"> </a></td><td>Formation Personnels Admin.Santé Secteur Social</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2230\">2230</a></td><td>true</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form.Pers.San.Soc.</td></tr><tr><td style=\"white-space:nowrap\">584<a name=\"tre-r402-activite-enseignement-regulee-584\"> </a></td><td>Formation qualification Conseil Conjugal ou Familial</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2220\">2220</a></td><td>true</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form.Cons.Conj.Fam</td></tr><tr><td style=\"white-space:nowrap\">585<a name=\"tre-r402-activite-enseignement-regulee-585\"> </a></td><td>Formation diplôme supérieur en Travail social</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2220\">2220</a></td><td>true</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form.DSTS.</td></tr><tr><td style=\"white-space:nowrap\">586<a name=\"tre-r402-activite-enseignement-regulee-586\"> </a></td><td>Formation DE auxiliaire de vie sociale</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2220\">2220</a></td><td>true</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form DEAVS</td></tr><tr><td style=\"white-space:nowrap\">587<a name=\"tre-r402-activite-enseignement-regulee-587\"> </a></td><td>Formation DE Assistant Familial</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2220\">2220</a></td><td>true</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form DEAF</td></tr><tr><td style=\"white-space:nowrap\">588<a name=\"tre-r402-activite-enseignement-regulee-588\"> </a></td><td>Formation DE Ingénierie Sociale</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2220\">2220</a></td><td>true</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>D.E.I.S.</td></tr><tr><td style=\"white-space:nowrap\">590<a name=\"tre-r402-activite-enseignement-regulee-590\"> </a></td><td>Formation DE Accompagnant Éducatif et Social</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2220\">2220</a></td><td>true</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form DEAES</td></tr><tr><td style=\"white-space:nowrap\">591<a name=\"tre-r402-activite-enseignement-regulee-591\"> </a></td><td>Formation DE Mandataire Judiciaire à la Protection des Majeurs</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2220\">2220</a></td><td>true</td><td>2024-03-29T12:00:00+01:00</td><td>2024-03-29T12:00:00+01:00</td><td/><td/><td>active</td><td>Form MJPM</td></tr><tr><td style=\"white-space:nowrap\">592<a name=\"tre-r402-activite-enseignement-regulee-592\"> </a></td><td>Formation DE Délégué aux Prestations Familiales</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2220\">2220</a></td><td>true</td><td>2024-03-29T12:00:00+01:00</td><td>2024-03-29T12:00:00+01:00</td><td/><td/><td>active</td><td>Form DPF</td></tr><tr><td style=\"white-space:nowrap\">597<a name=\"tre-r402-activite-enseignement-regulee-597\"> </a></td><td>Formation Manipulateur Exploration Fonctionnelle</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2210\">2210</a></td><td>true</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form Mani.Exp.Fonc.</td></tr><tr><td style=\"white-space:nowrap\">804<a name=\"tre-r402-activite-enseignement-regulee-804\"> </a></td><td>Formation Cadre de santé (technicien LABM)</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2240\">2240</a></td><td>true</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form Cadre tech LABM</td></tr><tr><td style=\"white-space:nowrap\">805<a name=\"tre-r402-activite-enseignement-regulee-805\"> </a></td><td>Formation Cadre de santé (ergothérapeute)</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2240\">2240</a></td><td>true</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form Cadre Ergothér</td></tr><tr><td style=\"white-space:nowrap\">880<a name=\"tre-r402-activite-enseignement-regulee-880\"> </a></td><td>Formation Préparateur en Pharmacie Hospitalière</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2210\">2210</a></td><td>true</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form PPH</td></tr><tr><td style=\"white-space:nowrap\">881<a name=\"tre-r402-activite-enseignement-regulee-881\"> </a></td><td>Formation Cadre de Santé (diététicien)</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2240\">2240</a></td><td>true</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form cadre dietetic</td></tr><tr><td style=\"white-space:nowrap\">882<a name=\"tre-r402-activite-enseignement-regulee-882\"> </a></td><td>Formation Cadre de Santé (audioprothésiste)</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2240\">2240</a></td><td>true</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form cadre audioprot</td></tr><tr><td style=\"white-space:nowrap\">883<a name=\"tre-r402-activite-enseignement-regulee-883\"> </a></td><td>Formation Cadre de Santé (pédicure podologue)</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2240\">2240</a></td><td>true</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form cadre pedi podo</td></tr><tr><td style=\"white-space:nowrap\">884<a name=\"tre-r402-activite-enseignement-regulee-884\"> </a></td><td>Formation Cadre de Santé (psychomotricien)</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2240\">2240</a></td><td>true</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form cadre psychomot</td></tr><tr><td style=\"white-space:nowrap\">885<a name=\"tre-r402-activite-enseignement-regulee-885\"> </a></td><td>Formation Cadre de Santé (opticien)</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2240\">2240</a></td><td>true</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form cadre opticien</td></tr><tr><td style=\"white-space:nowrap\">886<a name=\"tre-r402-activite-enseignement-regulee-886\"> </a></td><td>Formation Cadre de Santé (orthophoniste)</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2240\">2240</a></td><td>true</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form cadre ophoniste</td></tr><tr><td style=\"white-space:nowrap\">887<a name=\"tre-r402-activite-enseignement-regulee-887\"> </a></td><td>Formation Cadre de Santé (orthoptiste)</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2240\">2240</a></td><td>true</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form cadre ortptiste</td></tr><tr><td style=\"white-space:nowrap\">888<a name=\"tre-r402-activite-enseignement-regulee-888\"> </a></td><td>Formation Cadre de Santé (préparateur pharmacie hospitalièr)</td><td/><td>4</td><td><a href=\"#tre-r402-activite-enseignement-regulee-2240\">2240</a></td><td>true</td><td>2018-10-26T12:00:00+01:00</td><td>2018-10-26T12:00:00+01:00</td><td/><td/><td>active</td><td>Form cadre PPH</td></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
@@ -62,6 +62,11 @@
      fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#parent"^^xsd:anyURI ] ;
      fhir:description [ fhir:v "An immediate parent of the concept in the hierarchy" ] ;
      fhir:type [ fhir:v "code" ]
+  ] [
+     fhir:code [ fhir:v "finess" ] ;
+     fhir:uri [ fhir:v "https://smt.esante.gouv.fr/fhir/concept-properties#finess"^^xsd:anyURI ] ;
+     fhir:description [ fhir:v "Permet de définir les codes concepts utilisés par FINESS+" ] ;
+     fhir:type [ fhir:v "boolean" ]
   ] [
      fhir:code [ fhir:v "dateValid" ] ;
      fhir:uri [ fhir:v "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"^^xsd:anyURI ] ;
@@ -120,6 +125,12 @@
          a fhir:integer ;
          fhir:v 1
        ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "2200" ] ;
@@ -162,6 +173,12 @@
        fhir:value [
          a fhir:code ;
          fhir:v "2000"
+       ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
        ]
      ] )
   ] [
@@ -206,6 +223,12 @@
          a fhir:code ;
          fhir:v "2200"
        ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "2220" ] ;
@@ -248,6 +271,12 @@
        fhir:value [
          a fhir:code ;
          fhir:v "2200"
+       ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
        ]
      ] )
   ] [
@@ -292,6 +321,12 @@
          a fhir:code ;
          fhir:v "2200"
        ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "2240" ] ;
@@ -325,6 +360,12 @@
        fhir:value [
          a fhir:code ;
          fhir:v "2200"
+       ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
        ]
      ] )
   ] [
@@ -369,6 +410,12 @@
          a fhir:code ;
          fhir:v "2210"
        ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "414" ] ;
@@ -411,6 +458,12 @@
        fhir:value [
          a fhir:code ;
          fhir:v "2210"
+       ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
        ]
      ] )
   ] [
@@ -455,6 +508,12 @@
          a fhir:code ;
          fhir:v "2210"
        ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "416" ] ;
@@ -497,6 +556,12 @@
        fhir:value [
          a fhir:code ;
          fhir:v "2210"
+       ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
        ]
      ] )
   ] [
@@ -541,6 +606,12 @@
          a fhir:code ;
          fhir:v "2210"
        ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "418" ] ;
@@ -583,6 +654,12 @@
        fhir:value [
          a fhir:code ;
          fhir:v "2210"
+       ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
        ]
      ] )
   ] [
@@ -627,6 +704,12 @@
          a fhir:code ;
          fhir:v "2210"
        ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "420" ] ;
@@ -669,6 +752,12 @@
        fhir:value [
          a fhir:code ;
          fhir:v "2210"
+       ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
        ]
      ] )
   ] [
@@ -713,6 +802,12 @@
          a fhir:code ;
          fhir:v "2210"
        ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "422" ] ;
@@ -755,6 +850,12 @@
        fhir:value [
          a fhir:code ;
          fhir:v "2220"
+       ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
        ]
      ] )
   ] [
@@ -799,6 +900,12 @@
          a fhir:code ;
          fhir:v "2210"
        ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "424" ] ;
@@ -841,6 +948,12 @@
        fhir:value [
          a fhir:code ;
          fhir:v "2210"
+       ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
        ]
      ] )
   ] [
@@ -885,6 +998,12 @@
          a fhir:code ;
          fhir:v "2210"
        ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "426" ] ;
@@ -927,6 +1046,12 @@
        fhir:value [
          a fhir:code ;
          fhir:v "2210"
+       ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
        ]
      ] )
   ] [
@@ -983,6 +1108,12 @@
          a fhir:code ;
          fhir:v "2210"
        ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "428" ] ;
@@ -1025,6 +1156,12 @@
        fhir:value [
          a fhir:code ;
          fhir:v "2240"
+       ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
        ]
      ] )
   ] [
@@ -1081,6 +1218,12 @@
          a fhir:code ;
          fhir:v "2210"
        ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "430" ] ;
@@ -1123,6 +1266,12 @@
        fhir:value [
          a fhir:code ;
          fhir:v "2240"
+       ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
        ]
      ] )
   ] [
@@ -1167,6 +1316,12 @@
          a fhir:code ;
          fhir:v "2240"
        ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "432" ] ;
@@ -1209,6 +1364,12 @@
        fhir:value [
          a fhir:code ;
          fhir:v "2220"
+       ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
        ]
      ] )
   ] [
@@ -1253,6 +1414,12 @@
          a fhir:code ;
          fhir:v "2220"
        ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "434" ] ;
@@ -1295,6 +1462,12 @@
        fhir:value [
          a fhir:code ;
          fhir:v "2220"
+       ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
        ]
      ] )
   ] [
@@ -1339,6 +1512,12 @@
          a fhir:code ;
          fhir:v "2220"
        ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "436" ] ;
@@ -1381,6 +1560,12 @@
        fhir:value [
          a fhir:code ;
          fhir:v "2220"
+       ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
        ]
      ] )
   ] [
@@ -1425,6 +1610,12 @@
          a fhir:code ;
          fhir:v "2220"
        ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "438" ] ;
@@ -1467,6 +1658,12 @@
        fhir:value [
          a fhir:code ;
          fhir:v "2220"
+       ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
        ]
      ] )
   ] [
@@ -1511,6 +1708,12 @@
          a fhir:code ;
          fhir:v "2220"
        ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "440" ] ;
@@ -1553,6 +1756,12 @@
        fhir:value [
          a fhir:code ;
          fhir:v "2220"
+       ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
        ]
      ] )
   ] [
@@ -1597,6 +1806,12 @@
          a fhir:code ;
          fhir:v "2220"
        ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "444" ] ;
@@ -1639,6 +1854,12 @@
        fhir:value [
          a fhir:code ;
          fhir:v "2220"
+       ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
        ]
      ] )
   ] [
@@ -1683,6 +1904,12 @@
          a fhir:code ;
          fhir:v "2220"
        ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "453" ] ;
@@ -1725,6 +1952,12 @@
        fhir:value [
          a fhir:code ;
          fhir:v "2240"
+       ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
        ]
      ] )
   ] [
@@ -1769,6 +2002,12 @@
          a fhir:code ;
          fhir:v "2240"
        ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "456" ] ;
@@ -1811,6 +2050,12 @@
        fhir:value [
          a fhir:code ;
          fhir:v "2210"
+       ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
        ]
      ] )
   ] [
@@ -1855,6 +2100,12 @@
          a fhir:code ;
          fhir:v "2230"
        ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "584" ] ;
@@ -1897,6 +2148,12 @@
        fhir:value [
          a fhir:code ;
          fhir:v "2220"
+       ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
        ]
      ] )
   ] [
@@ -1941,6 +2198,12 @@
          a fhir:code ;
          fhir:v "2220"
        ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "586" ] ;
@@ -1983,6 +2246,12 @@
        fhir:value [
          a fhir:code ;
          fhir:v "2220"
+       ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
        ]
      ] )
   ] [
@@ -2027,6 +2296,12 @@
          a fhir:code ;
          fhir:v "2220"
        ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "588" ] ;
@@ -2069,6 +2344,12 @@
        fhir:value [
          a fhir:code ;
          fhir:v "2220"
+       ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
        ]
      ] )
   ] [
@@ -2113,6 +2394,12 @@
          a fhir:code ;
          fhir:v "2220"
        ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "591" ] ;
@@ -2155,6 +2442,12 @@
        fhir:value [
          a fhir:code ;
          fhir:v "2220"
+       ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
        ]
      ] )
   ] [
@@ -2199,6 +2492,12 @@
          a fhir:code ;
          fhir:v "2220"
        ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "597" ] ;
@@ -2241,6 +2540,12 @@
        fhir:value [
          a fhir:code ;
          fhir:v "2210"
+       ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
        ]
      ] )
   ] [
@@ -2285,6 +2590,12 @@
          a fhir:code ;
          fhir:v "2240"
        ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "805" ] ;
@@ -2327,6 +2638,12 @@
        fhir:value [
          a fhir:code ;
          fhir:v "2240"
+       ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
        ]
      ] )
   ] [
@@ -2371,6 +2688,12 @@
          a fhir:code ;
          fhir:v "2210"
        ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "881" ] ;
@@ -2413,6 +2736,12 @@
        fhir:value [
          a fhir:code ;
          fhir:v "2240"
+       ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
        ]
      ] )
   ] [
@@ -2457,6 +2786,12 @@
          a fhir:code ;
          fhir:v "2240"
        ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "883" ] ;
@@ -2499,6 +2834,12 @@
        fhir:value [
          a fhir:code ;
          fhir:v "2240"
+       ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
        ]
      ] )
   ] [
@@ -2543,6 +2884,12 @@
          a fhir:code ;
          fhir:v "2240"
        ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "885" ] ;
@@ -2585,6 +2932,12 @@
        fhir:value [
          a fhir:code ;
          fhir:v "2240"
+       ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
        ]
      ] )
   ] [
@@ -2629,6 +2982,12 @@
          a fhir:code ;
          fhir:v "2240"
        ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "887" ] ;
@@ -2672,6 +3031,12 @@
          a fhir:code ;
          fhir:v "2240"
        ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "888" ] ;
@@ -2714,6 +3079,12 @@
        fhir:value [
          a fhir:code ;
          fhir:v "2240"
+       ]
+     ] [
+       fhir:code [ fhir:v "finess" ] ;
+       fhir:value [
+         a fhir:boolean ;
+         fhir:v true
        ]
      ] )
   ] ) . # 
