@@ -29,6 +29,10 @@ Description: "Activité Sociale Régulée de FINESS"
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#parent"
 * ^property[=].description = "An immediate parent of the concept in the hierarchy"
 * ^property[=].type = #code
+* ^property[+].code = #finess
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#finess"
+* ^property[=].description = "Permet de définir les codes concepts utilisés par FINESS+"
+* ^property[=].type = #boolean
 * ^property[+].code = #dateValid
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"
@@ -65,6 +69,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #4000 ^property[=].valueCode = #active
 * #4000 ^property[+].code = #niveau
 * #4000 ^property[=].valueInteger = 1
+* #4000 ^property[+].code = #finess
+* #4000 ^property[=].valueBoolean = true
 * #4300 "Adultes handicapés"
 * #4300 ^property[0].code = #dateValid
 * #4300 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
@@ -76,6 +82,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #4300 ^property[=].valueInteger = 2
 * #4300 ^property[+].code = #parent
 * #4300 ^property[=].valueCode = #4000
+* #4300 ^property[+].code = #finess
+* #4300 ^property[=].valueBoolean = true
 * #4400 "Personnes âgées"
 * #4400 ^property[0].code = #dateValid
 * #4400 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
@@ -87,6 +95,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #4400 ^property[=].valueInteger = 2
 * #4400 ^property[+].code = #parent
 * #4400 ^property[=].valueCode = #4000
+* #4400 ^property[+].code = #finess
+* #4400 ^property[=].valueBoolean = true
 * #4500 "Protection de l'enfance"
 * #4500 ^designation.language = #fr-FR
 * #4500 ^designation.use.system = "http://snomed.info/sct"
@@ -102,6 +112,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #4500 ^property[=].valueInteger = 2
 * #4500 ^property[+].code = #parent
 * #4500 ^property[=].valueCode = #4000
+* #4500 ^property[+].code = #finess
+* #4500 ^property[=].valueBoolean = true
 * #4600 "Action sociale autres adultes"
 * #4600 ^property[0].code = #dateValid
 * #4600 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
@@ -113,6 +125,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #4600 ^property[=].valueInteger = 2
 * #4600 ^property[+].code = #parent
 * #4600 ^property[=].valueCode = #4000
+* #4600 ^property[+].code = #finess
+* #4600 ^property[=].valueBoolean = true
 * #4700 "Enfance handicapée"
 * #4700 ^property[0].code = #dateValid
 * #4700 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
@@ -124,6 +138,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #4700 ^property[=].valueInteger = 2
 * #4700 ^property[+].code = #parent
 * #4700 ^property[=].valueCode = #4000
+* #4700 ^property[+].code = #finess
+* #4700 ^property[=].valueBoolean = true
 * #4800 "Aide à la famille"
 * #4800 ^property[0].code = #dateValid
 * #4800 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
@@ -135,6 +151,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #4800 ^property[=].valueInteger = 2
 * #4800 ^property[+].code = #parent
 * #4800 ^property[=].valueCode = #4000
+* #4800 ^property[+].code = #finess
+* #4800 ^property[=].valueBoolean = true
 * #4900 "Autres services du domaine social"
 * #4900 ^designation.language = #fr-FR
 * #4900 ^designation.use = $sct#900000000000013009
@@ -149,6 +167,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #4900 ^property[=].valueInteger = 2
 * #4900 ^property[+].code = #parent
 * #4900 ^property[=].valueCode = #4000
+* #4900 ^property[+].code = #finess
+* #4900 ^property[=].valueBoolean = true
 * #4310 "Insertion professionnelle et sociale des adultes handicapés"
 * #4310 ^designation.language = #fr-FR
 * #4310 ^designation.use.system = "http://snomed.info/sct"
@@ -164,6 +184,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #4310 ^property[=].valueInteger = 3
 * #4310 ^property[+].code = #parent
 * #4310 ^property[=].valueCode = #4300
+* #4310 ^property[+].code = #finess
+* #4310 ^property[=].valueBoolean = true
 * #4320 "Hébergement des adultes handicapés"
 * #4320 ^designation.language = #fr-FR
 * #4320 ^designation.use.system = "http://snomed.info/sct"
@@ -179,6 +201,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #4320 ^property[=].valueInteger = 3
 * #4320 ^property[+].code = #parent
 * #4320 ^property[=].valueCode = #4300
+* #4320 ^property[+].code = #finess
+* #4320 ^property[=].valueBoolean = true
 * #4330 "Accueil et accompagnement pour personnes handicapées"
 * #4330 ^designation.language = #fr-FR
 * #4330 ^designation.use.system = "http://snomed.info/sct"
@@ -194,6 +218,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #4330 ^property[=].valueInteger = 3
 * #4330 ^property[+].code = #parent
 * #4330 ^property[=].valueCode = #4300
+* #4330 ^property[+].code = #finess
+* #4330 ^property[=].valueBoolean = true
 * #4410 "Soins médico sociaux aux personnes âgées"
 * #4410 ^designation.language = #fr-FR
 * #4410 ^designation.use.system = "http://snomed.info/sct"
@@ -209,6 +235,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #4410 ^property[=].valueInteger = 3
 * #4410 ^property[+].code = #parent
 * #4410 ^property[=].valueCode = #4400
+* #4410 ^property[+].code = #finess
+* #4410 ^property[=].valueBoolean = true
 * #4420 "Hébergement personnes âgées"
 * #4420 ^property[0].code = #dateValid
 * #4420 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
@@ -220,6 +248,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #4420 ^property[=].valueInteger = 3
 * #4420 ^property[+].code = #parent
 * #4420 ^property[=].valueCode = #4400
+* #4420 ^property[+].code = #finess
+* #4420 ^property[=].valueBoolean = true
 * #4510 "Accueil au titre de la protection de l'enfance"
 * #4510 ^designation.language = #fr-FR
 * #4510 ^designation.use.system = "http://snomed.info/sct"
@@ -235,6 +265,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #4510 ^property[=].valueInteger = 3
 * #4510 ^property[+].code = #parent
 * #4510 ^property[=].valueCode = #4500
+* #4510 ^property[+].code = #finess
+* #4510 ^property[=].valueBoolean = true
 * #4520 "Observation orientation mineurs en difficulté"
 * #4520 ^designation.language = #fr-FR
 * #4520 ^designation.use.system = "http://snomed.info/sct"
@@ -250,6 +282,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #4520 ^property[=].valueInteger = 3
 * #4520 ^property[+].code = #parent
 * #4520 ^property[=].valueCode = #4500
+* #4520 ^property[+].code = #finess
+* #4520 ^property[=].valueBoolean = true
 * #4530 "Soutien personnalisé enfants et ado en difficulté sociale"
 * #4530 ^designation.language = #fr-FR
 * #4530 ^designation.use.system = "http://snomed.info/sct"
@@ -265,6 +299,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #4530 ^property[=].valueInteger = 3
 * #4530 ^property[+].code = #parent
 * #4530 ^property[=].valueCode = #4500
+* #4530 ^property[+].code = #finess
+* #4530 ^property[=].valueBoolean = true
 * #4610 "Réinsertion professionnelle et sociale adultes en difficulté"
 * #4610 ^designation.language = #fr-FR
 * #4610 ^designation.use.system = "http://snomed.info/sct"
@@ -280,6 +316,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #4610 ^property[=].valueInteger = 3
 * #4610 ^property[+].code = #parent
 * #4610 ^property[=].valueCode = #4600
+* #4610 ^property[+].code = #finess
+* #4610 ^property[=].valueBoolean = true
 * #4620 "Hébergement des adultes en difficulté"
 * #4620 ^designation.language = #fr-FR
 * #4620 ^designation.use.system = "http://snomed.info/sct"
@@ -295,6 +333,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #4620 ^property[=].valueInteger = 3
 * #4620 ^property[+].code = #parent
 * #4620 ^property[=].valueCode = #4600
+* #4620 ^property[+].code = #finess
+* #4620 ^property[=].valueBoolean = true
 * #4630 "Hébergement des autres adultes"
 * #4630 ^designation.language = #fr-FR
 * #4630 ^designation.use.system = "http://snomed.info/sct"
@@ -310,6 +350,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #4630 ^property[=].valueInteger = 3
 * #4630 ^property[+].code = #parent
 * #4630 ^property[=].valueCode = #4600
+* #4630 ^property[+].code = #finess
+* #4630 ^property[=].valueBoolean = true
 * #4640 "Prise en charge des personnes en difficultés spécifiques"
 * #4640 ^designation.language = #fr-FR
 * #4640 ^designation.use.system = "http://snomed.info/sct"
@@ -325,6 +367,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #4640 ^property[=].valueInteger = 3
 * #4640 ^property[+].code = #parent
 * #4640 ^property[=].valueCode = #4600
+* #4640 ^property[+].code = #finess
+* #4640 ^property[=].valueBoolean = true
 * #4650 "Mesures de protection des majeurs"
 * #4650 ^designation.language = #fr-FR
 * #4650 ^designation.use.system = "http://snomed.info/sct"
@@ -340,6 +384,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #4650 ^property[=].valueInteger = 3
 * #4650 ^property[+].code = #parent
 * #4650 ^property[=].valueCode = #4600
+* #4650 ^property[+].code = #finess
+* #4650 ^property[=].valueBoolean = true
 * #4710 "Soins médico-sociaux enfance handicapée"
 * #4710 ^designation.language = #fr-FR
 * #4710 ^designation.use.system = "http://snomed.info/sct"
@@ -355,6 +401,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #4710 ^property[=].valueInteger = 3
 * #4710 ^property[+].code = #parent
 * #4710 ^property[=].valueCode = #4700
+* #4710 ^property[+].code = #finess
+* #4710 ^property[=].valueBoolean = true
 * #4720 "Education spéciale enfance handicapée"
 * #4720 ^designation.language = #fr-FR
 * #4720 ^designation.use.system = "http://snomed.info/sct"
@@ -370,6 +418,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #4720 ^property[=].valueInteger = 3
 * #4720 ^property[+].code = #parent
 * #4720 ^property[=].valueCode = #4700
+* #4720 ^property[+].code = #finess
+* #4720 ^property[=].valueBoolean = true
 * #4730 "Hébergement enfance handicapée"
 * #4730 ^designation.language = #fr-FR
 * #4730 ^designation.use.system = "http://snomed.info/sct"
@@ -385,6 +435,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #4730 ^property[=].valueInteger = 3
 * #4730 ^property[+].code = #parent
 * #4730 ^property[=].valueCode = #4700
+* #4730 ^property[+].code = #finess
+* #4730 ^property[=].valueBoolean = true
 * #4740 "Education adaptée et accompagnement social et médico-social"
 * #4740 ^designation.language = #fr-FR
 * #4740 ^designation.use.system = "http://snomed.info/sct"
@@ -400,6 +452,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #4740 ^property[=].valueInteger = 3
 * #4740 ^property[+].code = #parent
 * #4740 ^property[=].valueCode = #4700
+* #4740 ^property[+].code = #finess
+* #4740 ^property[=].valueBoolean = true
 * #4810 "Garde des enfants"
 * #4810 ^property[0].code = #dateValid
 * #4810 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
@@ -411,6 +465,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #4810 ^property[=].valueInteger = 3
 * #4810 ^property[+].code = #parent
 * #4810 ^property[=].valueCode = #4800
+* #4810 ^property[+].code = #finess
+* #4810 ^property[=].valueBoolean = true
 * #4820 "Services à la famille"
 * #4820 ^property[0].code = #dateValid
 * #4820 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
@@ -422,6 +478,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #4820 ^property[=].valueInteger = 3
 * #4820 ^property[+].code = #parent
 * #4820 ^property[=].valueCode = #4800
+* #4820 ^property[+].code = #finess
+* #4820 ^property[=].valueBoolean = true
 * #4910 "Services medico-sociaux à domicile"
 * #4910 ^designation.language = #fr-FR
 * #4910 ^designation.use.system = "http://snomed.info/sct"
@@ -437,6 +495,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #4910 ^property[=].valueInteger = 3
 * #4910 ^property[+].code = #parent
 * #4910 ^property[=].valueCode = #4900
+* #4910 ^property[+].code = #finess
+* #4910 ^property[=].valueBoolean = true
 * #4920 "Recherche et administration domaine social"
 * #4920 ^designation.language = #fr-FR
 * #4920 ^designation.use.system = "http://snomed.info/sct"
@@ -452,6 +512,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #4920 ^property[=].valueInteger = 3
 * #4920 ^property[+].code = #parent
 * #4920 ^property[=].valueCode = #4900
+* #4920 ^property[+].code = #finess
+* #4920 ^property[=].valueBoolean = true
 * #4930 "Activité expérimentale dans établissements sociaux"
 * #4930 ^designation.language = #fr-FR
 * #4930 ^designation.use.system = "http://snomed.info/sct"
@@ -467,6 +529,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #4930 ^property[=].valueInteger = 3
 * #4930 ^property[+].code = #parent
 * #4930 ^property[=].valueCode = #4900
+* #4930 ^property[+].code = #finess
+* #4930 ^property[=].valueBoolean = true
 * #4940 "Activité des centres de ressources"
 * #4940 ^designation.language = #fr-FR
 * #4940 ^designation.use = $sct#900000000000013009
@@ -481,6 +545,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #4940 ^property[=].valueInteger = 3
 * #4940 ^property[+].code = #parent
 * #4940 ^property[=].valueCode = #4900
+* #4940 ^property[+].code = #finess
+* #4940 ^property[=].valueBoolean = true
 * #177 "Section Cure Médicale (dont)"
 * #177 ^designation[0].language = #fr-FR
 * #177 ^designation[=].use.system = "http://snomed.info/sct"
@@ -496,6 +562,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #177 ^property[=].valueInteger = 4
 * #177 ^property[+].code = #parent
 * #177 ^property[=].valueCode = #4410
+* #177 ^property[+].code = #finess
+* #177 ^property[=].valueBoolean = true
 * #246 "Hébergement Accueil Mère Enfant"
 * #246 ^designation[0].language = #fr-FR
 * #246 ^designation[=].use.system = "http://snomed.info/sct"
@@ -511,6 +579,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #246 ^property[=].valueInteger = 4
 * #246 ^property[+].code = #parent
 * #246 ^property[=].valueCode = #4510
+* #246 ^property[+].code = #finess
+* #246 ^property[=].valueBoolean = true
 * #247 "Hébergement en centre parental"
 * #247 ^designation[0].language = #fr-FR
 * #247 ^designation[=].use.system = "http://snomed.info/sct"
@@ -526,6 +596,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #247 ^property[=].valueInteger = 4
 * #247 ^property[+].code = #parent
 * #247 ^property[=].valueCode = #4510
+* #247 ^property[+].code = #finess
+* #247 ^property[=].valueBoolean = true
 * #250 "Accueil en Jardin d'Enfants"
 * #250 ^designation[0].language = #fr-FR
 * #250 ^designation[=].use.system = "http://snomed.info/sct"
@@ -545,6 +617,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #250 ^property[=].valueInteger = 4
 * #250 ^property[+].code = #parent
 * #250 ^property[=].valueCode = #4810
+* #250 ^property[+].code = #finess
+* #250 ^property[=].valueBoolean = true
 * #257 "Aide éducative à Domicile"
 * #257 ^designation[0].language = #fr-FR
 * #257 ^designation[=].use.system = "http://snomed.info/sct"
@@ -560,6 +634,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #257 ^property[=].valueInteger = 4
 * #257 ^property[+].code = #parent
 * #257 ^property[=].valueCode = #4530
+* #257 ^property[+].code = #finess
+* #257 ^property[=].valueBoolean = true
 * #258 "Action Éducative en Milieu Ouvert"
 * #258 ^designation[0].language = #fr-FR
 * #258 ^designation[=].use.system = "http://snomed.info/sct"
@@ -575,6 +651,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #258 ^property[=].valueInteger = 4
 * #258 ^property[+].code = #parent
 * #258 ^property[=].valueCode = #4530
+* #258 ^property[+].code = #finess
+* #258 ^property[=].valueBoolean = true
 * #259 "Activ.Club et Équipe de Prévention"
 * #259 ^designation[0].language = #fr-FR
 * #259 ^designation[=].use.system = "http://snomed.info/sct"
@@ -590,6 +668,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #259 ^property[=].valueInteger = 4
 * #259 ^property[+].code = #parent
 * #259 ^property[=].valueCode = #4520
+* #259 ^property[+].code = #finess
+* #259 ^property[=].valueBoolean = true
 * #262 "Placement Familial Social"
 * #262 ^designation[0].language = #fr-FR
 * #262 ^designation[=].use.system = "http://snomed.info/sct"
@@ -609,6 +689,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #262 ^property[=].valueInteger = 4
 * #262 ^property[+].code = #parent
 * #262 ^property[=].valueCode = #4510
+* #262 ^property[+].code = #finess
+* #262 ^property[=].valueBoolean = true
 * #278 "Aide Psychologique Universitaire"
 * #278 ^designation[0].language = #fr-FR
 * #278 ^designation[=].use.system = "http://snomed.info/sct"
@@ -624,6 +706,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #278 ^property[=].valueInteger = 4
 * #278 ^property[+].code = #parent
 * #278 ^property[=].valueCode = #4710
+* #278 ^property[+].code = #finess
+* #278 ^property[=].valueBoolean = true
 * #319 "Education Spécialisée et Soins à domicile Enfants Handicapés"
 * #319 ^designation[0].language = #fr-FR
 * #319 ^designation[=].use.system = "http://snomed.info/sct"
@@ -643,6 +727,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #319 ^property[=].valueInteger = 4
 * #319 ^property[+].code = #parent
 * #319 ^property[=].valueCode = #4710
+* #319 ^property[+].code = #finess
+* #319 ^property[=].valueBoolean = true
 * #320 "Activité C.M.P.P."
 * #320 ^designation[0].language = #fr-FR
 * #320 ^designation[=].use.system = "http://snomed.info/sct"
@@ -658,6 +744,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #320 ^property[=].valueInteger = 4
 * #320 ^property[+].code = #parent
 * #320 ^property[=].valueCode = #4710
+* #320 ^property[+].code = #finess
+* #320 ^property[=].valueBoolean = true
 * #325 "Placement Familial pour Enfants Handicapés"
 * #325 ^designation[0].language = #fr-FR
 * #325 ^designation[=].use.system = "http://snomed.info/sct"
@@ -677,6 +765,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #325 ^property[=].valueInteger = 4
 * #325 ^property[+].code = #parent
 * #325 ^property[=].valueCode = #4730
+* #325 ^property[+].code = #finess
+* #325 ^property[=].valueBoolean = true
 * #354 "Restaurant pour Personnes Âgées"
 * #354 ^designation[0].language = #fr-FR
 * #354 ^designation[=].use.system = "http://snomed.info/sct"
@@ -692,6 +782,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #354 ^property[=].valueInteger = 4
 * #354 ^property[+].code = #parent
 * #354 ^property[=].valueCode = #4410
+* #354 ^property[+].code = #finess
+* #354 ^property[=].valueBoolean = true
 * #355 "Activité des Centres de Jour pour Personnes Âgées"
 * #355 ^designation[0].language = #fr-FR
 * #355 ^designation[=].use.system = "http://snomed.info/sct"
@@ -711,6 +803,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #355 ^property[=].valueInteger = 4
 * #355 ^property[+].code = #parent
 * #355 ^property[=].valueCode = #4410
+* #355 ^property[+].code = #finess
+* #355 ^property[=].valueBoolean = true
 * #356 "Aide Ménagère à Domicile"
 * #356 ^designation[0].language = #fr-FR
 * #356 ^designation[=].use.system = "http://snomed.info/sct"
@@ -730,6 +824,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #356 ^property[=].valueInteger = 4
 * #356 ^property[+].code = #parent
 * #356 ^property[=].valueCode = #4910
+* #356 ^property[+].code = #finess
+* #356 ^property[=].valueBoolean = true
 * #357 "Activité soins d'accompagnement et de réhabilitation"
 * #357 ^designation[0].language = #fr-FR
 * #357 ^designation[=].use.system = "http://snomed.info/sct"
@@ -745,6 +841,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #357 ^property[=].valueInteger = 4
 * #357 ^property[+].code = #parent
 * #357 ^property[=].valueCode = #4910
+* #357 ^property[+].code = #finess
+* #357 ^property[=].valueBoolean = true
 * #358 "Soins infirmiers à Domicile"
 * #358 ^designation[0].language = #fr-FR
 * #358 ^designation[=].use.system = "http://snomed.info/sct"
@@ -760,6 +858,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #358 ^property[=].valueInteger = 4
 * #358 ^property[+].code = #parent
 * #358 ^property[=].valueCode = #4910
+* #358 ^property[+].code = #finess
+* #358 ^property[=].valueBoolean = true
 * #359 "Repas à Domicile"
 * #359 ^property[0].code = #dateValid
 * #359 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
@@ -771,6 +871,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #359 ^property[=].valueInteger = 4
 * #359 ^property[+].code = #parent
 * #359 ^property[=].valueCode = #4910
+* #359 ^property[+].code = #finess
+* #359 ^property[=].valueBoolean = true
 * #360 "Blanchisserie à Domicile"
 * #360 ^designation[0].language = #fr-FR
 * #360 ^designation[=].use.system = "http://snomed.info/sct"
@@ -786,6 +888,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #360 ^property[=].valueInteger = 4
 * #360 ^property[+].code = #parent
 * #360 ^property[=].valueCode = #4910
+* #360 ^property[+].code = #finess
+* #360 ^property[=].valueBoolean = true
 * #365 "Alarme Médico-Sociale"
 * #365 ^designation[0].language = #fr-FR
 * #365 ^designation[=].use.system = "http://snomed.info/sct"
@@ -801,6 +905,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #365 ^property[=].valueInteger = 4
 * #365 ^property[+].code = #parent
 * #365 ^property[=].valueCode = #4910
+* #365 ^property[+].code = #finess
+* #365 ^property[=].valueBoolean = true
 * #377 "Stationnement Pour Nomades"
 * #377 ^designation[0].language = #fr-FR
 * #377 ^designation[=].use.system = "http://snomed.info/sct"
@@ -816,6 +922,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #377 ^property[=].valueInteger = 4
 * #377 ^property[+].code = #parent
 * #377 ^property[=].valueCode = #4630
+* #377 ^property[+].code = #finess
+* #377 ^property[=].valueBoolean = true
 * #380 "Mesure judiciaire aide gestion budget familial"
 * #380 ^designation[0].language = #fr-FR
 * #380 ^designation[=].use.system = "http://snomed.info/sct"
@@ -831,6 +939,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #380 ^property[=].valueInteger = 4
 * #380 ^property[+].code = #parent
 * #380 ^property[=].valueCode = #4530
+* #380 ^property[+].code = #finess
+* #380 ^property[=].valueBoolean = true
 * #381 "Héberg. non médicalisé de patients, accompagnants, aidants"
 * #381 ^designation[0].language = #fr-FR
 * #381 ^designation[=].use.system = "http://snomed.info/sct"
@@ -846,6 +956,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #381 ^property[=].valueInteger = 4
 * #381 ^property[+].code = #parent
 * #381 ^property[=].valueCode = #4630
+* #381 ^property[+].code = #finess
+* #381 ^property[=].valueBoolean = true
 * #382 "Tutelle aux Prestations Sociales"
 * #382 ^designation[0].language = #fr-FR
 * #382 ^designation[=].use.system = "http://snomed.info/sct"
@@ -861,6 +973,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #382 ^property[=].valueInteger = 4
 * #382 ^property[+].code = #parent
 * #382 ^property[=].valueCode = #4530
+* #382 ^property[+].code = #finess
+* #382 ^property[=].valueBoolean = true
 * #383 "Activité Serv. Travailleuses Familiales"
 * #383 ^designation[0].language = #fr-FR
 * #383 ^designation[=].use.system = "http://snomed.info/sct"
@@ -880,6 +994,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #383 ^property[=].valueInteger = 4
 * #383 ^property[+].code = #parent
 * #383 ^property[=].valueCode = #4910
+* #383 ^property[+].code = #finess
+* #383 ^property[=].valueBoolean = true
 * #398 "Placement Familial Spécialisé Pr Adultes Handicapés"
 * #398 ^designation[0].language = #fr-FR
 * #398 ^designation[=].use.system = "http://snomed.info/sct"
@@ -899,6 +1015,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #398 ^property[=].valueInteger = 4
 * #398 ^property[+].code = #parent
 * #398 ^property[=].valueCode = #4320
+* #398 ^property[+].code = #finess
+* #398 ^property[=].valueBoolean = true
 * #399 "Préorientation pour Adultes handicapés"
 * #399 ^designation[0].language = #fr-FR
 * #399 ^designation[=].use.system = "http://snomed.info/sct"
@@ -914,6 +1032,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #399 ^property[=].valueInteger = 4
 * #399 ^property[+].code = #parent
 * #399 ^property[=].valueCode = #4310
+* #399 ^property[+].code = #finess
+* #399 ^property[=].valueBoolean = true
 * #400 "Préparation et Suite du Reclassement"
 * #400 ^designation[0].language = #fr-FR
 * #400 ^designation[=].use.system = "http://snomed.info/sct"
@@ -933,6 +1053,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #400 ^property[=].valueInteger = 4
 * #400 ^property[+].code = #parent
 * #400 ^property[=].valueCode = #4310
+* #400 ^property[+].code = #finess
+* #400 ^property[=].valueBoolean = true
 * #410 "Information,conseil, expertise, coordination"
 * #410 ^designation[0].language = #fr-FR
 * #410 ^designation[=].use.system = "http://snomed.info/sct"
@@ -948,6 +1070,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #410 ^property[=].valueInteger = 4
 * #410 ^property[+].code = #parent
 * #410 ^property[=].valueCode = #4940
+* #410 ^property[+].code = #finess
+* #410 ^property[=].valueBoolean = true
 * #411 "Evaluation des situations des personnes"
 * #411 ^designation[0].language = #fr-FR
 * #411 ^designation[=].use.system = "http://snomed.info/sct"
@@ -963,6 +1087,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #411 ^property[=].valueInteger = 4
 * #411 ^property[+].code = #parent
 * #411 ^property[=].valueCode = #4940
+* #411 ^property[+].code = #finess
+* #411 ^property[=].valueBoolean = true
 * #412 "Centre de ressources territorial"
 * #412 ^designation[0].language = #fr-FR
 * #412 ^designation[=].use.system = "http://snomed.info/sct"
@@ -982,6 +1108,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #412 ^property[=].valueInteger = 4
 * #412 ^property[+].code = #parent
 * #412 ^property[=].valueCode = #4420
+* #412 ^property[+].code = #finess
+* #412 ^property[=].valueBoolean = true
 * #442 "Veille sociale"
 * #442 ^property[0].code = #dateValid
 * #442 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
@@ -993,6 +1121,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #442 ^property[=].valueInteger = 4
 * #442 ^property[+].code = #parent
 * #442 ^property[=].valueCode = #4610
+* #442 ^property[+].code = #finess
+* #442 ^property[=].valueBoolean = true
 * #443 "Soutien et accompagnement social"
 * #443 ^designation[0].language = #fr-FR
 * #443 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1008,6 +1138,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #443 ^property[=].valueInteger = 4
 * #443 ^property[+].code = #parent
 * #443 ^property[=].valueCode = #4610
+* #443 ^property[+].code = #finess
+* #443 ^property[=].valueBoolean = true
 * #445 "Aide Psychopédagogique"
 * #445 ^designation[0].language = #fr-FR
 * #445 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1023,6 +1155,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #445 ^property[=].valueInteger = 4
 * #445 ^property[+].code = #parent
 * #445 ^property[=].valueCode = #4530
+* #445 ^property[+].code = #finess
+* #445 ^property[=].valueBoolean = true
 * #469 "Aide à Domicile"
 * #469 ^property[0].code = #dateValid
 * #469 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
@@ -1034,6 +1168,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #469 ^property[=].valueInteger = 4
 * #469 ^property[+].code = #parent
 * #469 ^property[=].valueCode = #4910
+* #469 ^property[+].code = #finess
+* #469 ^property[=].valueBoolean = true
 * #506 "Evaluat réentraînem orientat soc. et socioprof cérébro-lésés"
 * #506 ^designation[0].language = #fr-FR
 * #506 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1049,6 +1185,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #506 ^property[=].valueInteger = 4
 * #506 ^property[+].code = #parent
 * #506 ^property[=].valueCode = #4310
+* #506 ^property[+].code = #finess
+* #506 ^property[=].valueBoolean = true
 * #507 "Hébergement médico soc personnes en difficultés spécifiques"
 * #507 ^designation[0].language = #fr-FR
 * #507 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1064,6 +1202,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #507 ^property[=].valueInteger = 4
 * #507 ^property[+].code = #parent
 * #507 ^property[=].valueCode = #4640
+* #507 ^property[+].code = #finess
+* #507 ^property[=].valueBoolean = true
 * #508 "Accueil orientation soins accompagnement diff spécifiques"
 * #508 ^designation[0].language = #fr-FR
 * #508 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1079,6 +1219,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #508 ^property[=].valueInteger = 4
 * #508 ^property[+].code = #parent
 * #508 ^property[=].valueCode = #4640
+* #508 ^property[+].code = #finess
+* #508 ^property[=].valueBoolean = true
 * #509 "Accompagnement à la vie sociale des adultes handicapés"
 * #509 ^designation[0].language = #fr-FR
 * #509 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1098,6 +1240,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #509 ^property[=].valueInteger = 4
 * #509 ^property[+].code = #parent
 * #509 ^property[=].valueCode = #4310
+* #509 ^property[+].code = #finess
+* #509 ^property[=].valueBoolean = true
 * #510 "Accompagnement médico social des adultes handicapés"
 * #510 ^designation[0].language = #fr-FR
 * #510 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1117,6 +1261,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #510 ^property[=].valueInteger = 4
 * #510 ^property[+].code = #parent
 * #510 ^property[=].valueCode = #4310
+* #510 ^property[+].code = #finess
+* #510 ^property[=].valueBoolean = true
 * #511 "Equipe mobile santé précarité"
 * #511 ^designation[0].language = #fr-FR
 * #511 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1132,6 +1278,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #511 ^property[=].valueInteger = 4
 * #511 ^property[+].code = #parent
 * #511 ^property[=].valueCode = #4640
+* #511 ^property[+].code = #finess
+* #511 ^property[=].valueBoolean = true
 * #512 "Equipe spécialisée de soins infirmiers précarité"
 * #512 ^designation[0].language = #fr-FR
 * #512 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1147,6 +1295,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #512 ^property[=].valueInteger = 4
 * #512 ^property[+].code = #parent
 * #512 ^property[=].valueCode = #4640
+* #512 ^property[+].code = #finess
+* #512 ^property[=].valueBoolean = true
 * #520 "Tutelle curatelle mandat spécial sauvegarde justice pers maj"
 * #520 ^designation[0].language = #fr-FR
 * #520 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1162,6 +1312,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #520 ^property[=].valueInteger = 4
 * #520 ^property[+].code = #parent
 * #520 ^property[=].valueCode = #4650
+* #520 ^property[+].code = #finess
+* #520 ^property[=].valueBoolean = true
 * #521 "Mesure d'accompagnement judiciaire"
 * #521 ^designation[0].language = #fr-FR
 * #521 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1177,6 +1329,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #521 ^property[=].valueInteger = 4
 * #521 ^property[+].code = #parent
 * #521 ^property[=].valueCode = #4650
+* #521 ^property[+].code = #finess
+* #521 ^property[=].valueBoolean = true
 * #522 "Mesure d'accompagnement social personnalisé"
 * #522 ^designation[0].language = #fr-FR
 * #522 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1192,6 +1346,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #522 ^property[=].valueInteger = 4
 * #522 ^property[+].code = #parent
 * #522 ^property[=].valueCode = #4650
+* #522 ^property[+].code = #finess
+* #522 ^property[=].valueBoolean = true
 * #523 "Information des tuteurs familiaux"
 * #523 ^designation[0].language = #fr-FR
 * #523 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1207,6 +1363,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #523 ^property[=].valueInteger = 4
 * #523 ^property[+].code = #parent
 * #523 ^property[=].valueCode = #4650
+* #523 ^property[+].code = #finess
+* #523 ^property[=].valueBoolean = true
 * #569 "Centre de Vie pour Cas lourds"
 * #569 ^designation[0].language = #fr-FR
 * #569 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1226,6 +1384,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #569 ^property[=].valueInteger = 4
 * #569 ^property[+].code = #parent
 * #569 ^property[=].valueCode = #4320
+* #569 ^property[+].code = #finess
+* #569 ^property[=].valueBoolean = true
 * #589 "Tutelle d'État"
 * #589 ^designation[0].language = #fr-FR
 * #589 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1245,6 +1405,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #589 ^property[=].valueInteger = 4
 * #589 ^property[+].code = #parent
 * #589 ^property[=].valueCode = #4530
+* #589 ^property[+].code = #finess
+* #589 ^property[=].valueBoolean = true
 * #633 "Services expérimentaux en faveur des personnes âgées"
 * #633 ^designation[0].language = #fr-FR
 * #633 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1260,6 +1422,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #633 ^property[=].valueInteger = 4
 * #633 ^property[+].code = #parent
 * #633 ^property[=].valueCode = #4930
+* #633 ^property[+].code = #finess
+* #633 ^property[=].valueBoolean = true
 * #650 "Accueil temporaire enfants handicapés"
 * #650 ^designation[0].language = #fr-FR
 * #650 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1279,6 +1443,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #650 ^property[=].valueInteger = 4
 * #650 ^property[+].code = #parent
 * #650 ^property[=].valueCode = #4730
+* #650 ^property[+].code = #finess
+* #650 ^property[=].valueBoolean = true
 * #654 "Hébergement Spécialisé Pr Enfants et Adolescents Handicapés"
 * #654 ^designation[0].language = #fr-FR
 * #654 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1298,6 +1464,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #654 ^property[=].valueInteger = 4
 * #654 ^property[+].code = #parent
 * #654 ^property[=].valueCode = #4730
+* #654 ^property[+].code = #finess
+* #654 ^property[=].valueBoolean = true
 * #655 "Prestation de Service Pr Association"
 * #655 ^designation[0].language = #fr-FR
 * #655 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1313,6 +1481,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #655 ^property[=].valueInteger = 4
 * #655 ^property[+].code = #parent
 * #655 ^property[=].valueCode = #4920
+* #655 ^property[+].code = #finess
+* #655 ^property[=].valueBoolean = true
 * #656 "Garde et Observation en Jardin Enfants Spéc.Enf.Handicapés"
 * #656 ^designation[0].language = #fr-FR
 * #656 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1332,6 +1502,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #656 ^property[=].valueInteger = 4
 * #656 ^property[+].code = #parent
 * #656 ^property[=].valueCode = #4720
+* #656 ^property[+].code = #finess
+* #656 ^property[=].valueBoolean = true
 * #657 "Accueil temporaire pour Personnes Âgées"
 * #657 ^designation[0].language = #fr-FR
 * #657 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1347,6 +1519,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #657 ^property[=].valueInteger = 4
 * #657 ^property[+].code = #parent
 * #657 ^property[=].valueCode = #4420
+* #657 ^property[+].code = #finess
+* #657 ^property[=].valueBoolean = true
 * #658 "Accueil temporaire pour adultes handicapés"
 * #658 ^designation[0].language = #fr-FR
 * #658 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1366,6 +1540,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #658 ^property[=].valueInteger = 4
 * #658 ^property[+].code = #parent
 * #658 ^property[=].valueCode = #4320
+* #658 ^property[+].code = #finess
+* #658 ^property[=].valueBoolean = true
 * #659 "Accueil temporaire pour adultes handicapés"
 * #659 ^designation[0].language = #fr-FR
 * #659 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1388,6 +1564,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #659 ^property[=].valueInteger = 4
 * #659 ^property[+].code = #parent
 * #659 ^property[=].valueCode = #4420
+* #659 ^property[+].code = #finess
+* #659 ^property[=].valueBoolean = true
 * #660 "Réalisation d'Enquêtes sociales"
 * #660 ^designation[0].language = #fr-FR
 * #660 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1403,6 +1581,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #660 ^property[=].valueInteger = 4
 * #660 ^property[+].code = #parent
 * #660 ^property[=].valueCode = #4520
+* #660 ^property[+].code = #finess
+* #660 ^property[=].valueBoolean = true
 * #661 "Permanence des Assistants de Service Social"
 * #661 ^designation[0].language = #fr-FR
 * #661 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1418,6 +1598,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #661 ^property[=].valueInteger = 4
 * #661 ^property[+].code = #parent
 * #661 ^property[=].valueCode = #4820
+* #661 ^property[+].code = #finess
+* #661 ^property[=].valueBoolean = true
 * #691 "Services expérimentaux en faveur des adultes handicapés"
 * #691 ^designation[0].language = #fr-FR
 * #691 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1437,6 +1619,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #691 ^property[=].valueInteger = 4
 * #691 ^property[+].code = #parent
 * #691 ^property[=].valueCode = #4930
+* #691 ^property[+].code = #finess
+* #691 ^property[=].valueBoolean = true
 * #695 "Auxiliaires de Vie pour Handicapés"
 * #695 ^designation[0].language = #fr-FR
 * #695 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1456,6 +1640,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #695 ^property[=].valueInteger = 4
 * #695 ^property[+].code = #parent
 * #695 ^property[=].valueCode = #4910
+* #695 ^property[+].code = #finess
+* #695 ^property[=].valueBoolean = true
 * #697 "Intermédiaire de placement Social"
 * #697 ^designation[0].language = #fr-FR
 * #697 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1471,6 +1657,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #697 ^property[=].valueInteger = 4
 * #697 ^property[+].code = #parent
 * #697 ^property[=].valueCode = #4920
+* #697 ^property[+].code = #finess
+* #697 ^property[=].valueBoolean = true
 * #714 "Recherche dans Domaine Social"
 * #714 ^designation[0].language = #fr-FR
 * #714 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1486,6 +1674,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #714 ^property[=].valueInteger = 4
 * #714 ^property[+].code = #parent
 * #714 ^property[=].valueCode = #4920
+* #714 ^property[+].code = #finess
+* #714 ^property[=].valueBoolean = true
 * #836 "Préparation à la Vie Sociale pour Adolescents Handicapés"
 * #836 ^designation[0].language = #fr-FR
 * #836 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1505,6 +1695,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #836 ^property[=].valueInteger = 4
 * #836 ^property[+].code = #parent
 * #836 ^property[=].valueCode = #4720
+* #836 ^property[+].code = #finess
+* #836 ^property[=].valueBoolean = true
 * #837 "Evaluat.réentraînem.orientat. scolaire cérébro-lésés"
 * #837 ^designation[0].language = #fr-FR
 * #837 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1524,6 +1716,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #837 ^property[=].valueInteger = 4
 * #837 ^property[+].code = #parent
 * #837 ^property[=].valueCode = #4710
+* #837 ^property[+].code = #finess
+* #837 ^property[=].valueBoolean = true
 * #838 "Accompagement familial éducation précoce Enfants Handicapés"
 * #838 ^designation[0].language = #fr-FR
 * #838 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1543,6 +1737,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #838 ^property[=].valueInteger = 4
 * #838 ^property[+].code = #parent
 * #838 ^property[=].valueCode = #4710
+* #838 ^property[+].code = #finess
+* #838 ^property[=].valueBoolean = true
 * #839 "Acquisition, autonomie, intégration scol. Enfants Handicapés"
 * #839 ^designation[0].language = #fr-FR
 * #839 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1562,6 +1758,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #839 ^property[=].valueInteger = 4
 * #839 ^property[+].code = #parent
 * #839 ^property[=].valueCode = #4710
+* #839 ^property[+].code = #finess
+* #839 ^property[=].valueBoolean = true
 * #840 "Accompagnement précoce de jeunes enfants"
 * #840 ^designation[0].language = #fr-FR
 * #840 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1577,6 +1775,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #840 ^property[=].valueInteger = 4
 * #840 ^property[+].code = #parent
 * #840 ^property[=].valueCode = #4740
+* #840 ^property[+].code = #finess
+* #840 ^property[=].valueBoolean = true
 * #841 "Acc. dans l'acquisition de l'autonomie et la scolarisation"
 * #841 ^designation[0].language = #fr-FR
 * #841 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1592,6 +1792,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #841 ^property[=].valueInteger = 4
 * #841 ^property[+].code = #parent
 * #841 ^property[=].valueCode = #4740
+* #841 ^property[+].code = #finess
+* #841 ^property[=].valueBoolean = true
 * #842 "Préparation à la vie professionnelle"
 * #842 ^designation[0].language = #fr-FR
 * #842 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1607,6 +1809,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #842 ^property[=].valueInteger = 4
 * #842 ^property[+].code = #parent
 * #842 ^property[=].valueCode = #4740
+* #842 ^property[+].code = #finess
+* #842 ^property[=].valueBoolean = true
 * #843 "Accompagnement enseignement supérieur"
 * #843 ^designation[0].language = #fr-FR
 * #843 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1622,6 +1826,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #843 ^property[=].valueInteger = 4
 * #843 ^property[+].code = #parent
 * #843 ^property[=].valueCode = #4740
+* #843 ^property[+].code = #finess
+* #843 ^property[=].valueBoolean = true
 * #844 "Tous projets éducatifs thérapeutiques et pédagogiques"
 * #844 ^designation[0].language = #fr-FR
 * #844 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1637,6 +1843,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #844 ^property[=].valueInteger = 4
 * #844 ^property[+].code = #parent
 * #844 ^property[=].valueCode = #4740
+* #844 ^property[+].code = #finess
+* #844 ^property[=].valueBoolean = true
 * #897 "Hébergement ouvert en foyer pour adultes handicapés"
 * #897 ^designation[0].language = #fr-FR
 * #897 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1656,6 +1864,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #897 ^property[=].valueInteger = 4
 * #897 ^property[+].code = #parent
 * #897 ^property[=].valueCode = #4320
+* #897 ^property[+].code = #finess
+* #897 ^property[=].valueBoolean = true
 * #900 "Action Médico-Sociale Précoce"
 * #900 ^designation[0].language = #fr-FR
 * #900 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1671,6 +1881,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #900 ^property[=].valueInteger = 4
 * #900 ^property[+].code = #parent
 * #900 ^property[=].valueCode = #4710
+* #900 ^property[+].code = #finess
+* #900 ^property[=].valueBoolean = true
 * #901 "Éducation Générale et Soins Spécialisés Enfants Handicapés"
 * #901 ^designation[0].language = #fr-FR
 * #901 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1690,6 +1902,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #901 ^property[=].valueInteger = 4
 * #901 ^property[+].code = #parent
 * #901 ^property[=].valueCode = #4720
+* #901 ^property[+].code = #finess
+* #901 ^property[=].valueBoolean = true
 * #902 "Éducation Profession.& Soins Spécial.Enfants Handicapés"
 * #902 ^designation[0].language = #fr-FR
 * #902 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1709,6 +1923,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #902 ^property[=].valueInteger = 4
 * #902 ^property[+].code = #parent
 * #902 ^property[=].valueCode = #4720
+* #902 ^property[+].code = #finess
+* #902 ^property[=].valueBoolean = true
 * #903 "Éduc.Générale.Profession.& Soins Spécial.Enfants Handicapés"
 * #903 ^designation[0].language = #fr-FR
 * #903 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1728,6 +1944,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #903 ^property[=].valueInteger = 4
 * #903 ^property[+].code = #parent
 * #903 ^property[=].valueCode = #4720
+* #903 ^property[+].code = #finess
+* #903 ^property[=].valueBoolean = true
 * #904 "Enseignement Général Spécialisé"
 * #904 ^designation[0].language = #fr-FR
 * #904 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1747,6 +1965,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #904 ^property[=].valueInteger = 4
 * #904 ^property[+].code = #parent
 * #904 ^property[=].valueCode = #4720
+* #904 ^property[+].code = #finess
+* #904 ^property[=].valueBoolean = true
 * #905 "Enseignement Professionnel Spécialisé"
 * #905 ^designation[0].language = #fr-FR
 * #905 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1766,6 +1986,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #905 ^property[=].valueInteger = 4
 * #905 ^property[+].code = #parent
 * #905 ^property[=].valueCode = #4720
+* #905 ^property[+].code = #finess
+* #905 ^property[=].valueBoolean = true
 * #906 "Réadaptation Professionnelle pour Adultes Handicapés"
 * #906 ^designation[0].language = #fr-FR
 * #906 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1781,6 +2003,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #906 ^property[=].valueInteger = 4
 * #906 ^property[+].code = #parent
 * #906 ^property[=].valueCode = #4310
+* #906 ^property[+].code = #finess
+* #906 ^property[=].valueBoolean = true
 * #907 "Adaptation à la vie active"
 * #907 ^designation[0].language = #fr-FR
 * #907 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1796,6 +2020,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #907 ^property[=].valueInteger = 4
 * #907 ^property[+].code = #parent
 * #907 ^property[=].valueCode = #4610
+* #907 ^property[+].code = #finess
+* #907 ^property[=].valueBoolean = true
 * #908 "Aide par le travail pour Adultes Handicapés"
 * #908 ^designation[0].language = #fr-FR
 * #908 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1811,6 +2037,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #908 ^property[=].valueInteger = 4
 * #908 ^property[+].code = #parent
 * #908 ^property[=].valueCode = #4310
+* #908 ^property[+].code = #finess
+* #908 ^property[=].valueBoolean = true
 * #909 "Travail protégé pour Adultes Handicapés"
 * #909 ^designation[0].language = #fr-FR
 * #909 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1826,6 +2054,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #909 ^property[=].valueInteger = 4
 * #909 ^property[+].code = #parent
 * #909 ^property[=].valueCode = #4310
+* #909 ^property[+].code = #finess
+* #909 ^property[=].valueBoolean = true
 * #910 "Accueil collectif régulier d'enfants d'âge préscolaire"
 * #910 ^designation[0].language = #fr-FR
 * #910 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1845,6 +2075,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #910 ^property[=].valueInteger = 4
 * #910 ^property[+].code = #parent
 * #910 ^property[=].valueCode = #4810
+* #910 ^property[+].code = #finess
+* #910 ^property[=].valueBoolean = true
 * #911 "Accueil collectif occasionnel d'enfants d'âge préscolaire"
 * #911 ^designation[0].language = #fr-FR
 * #911 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1864,6 +2096,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #911 ^property[=].valueInteger = 4
 * #911 ^property[+].code = #parent
 * #911 ^property[=].valueCode = #4810
+* #911 ^property[+].code = #finess
+* #911 ^property[=].valueBoolean = true
 * #912 "Accueil au titre de la protection de l'enfance"
 * #912 ^designation[0].language = #fr-FR
 * #912 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1879,6 +2113,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #912 ^property[=].valueInteger = 4
 * #912 ^property[+].code = #parent
 * #912 ^property[=].valueCode = #4510
+* #912 ^property[+].code = #finess
+* #912 ^property[=].valueBoolean = true
 * #913 "Accueil d'urgence protection de l'enfance"
 * #913 ^designation[0].language = #fr-FR
 * #913 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1894,6 +2130,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #913 ^property[=].valueInteger = 4
 * #913 ^property[+].code = #parent
 * #913 ^property[=].valueCode = #4510
+* #913 ^property[+].code = #finess
+* #913 ^property[=].valueBoolean = true
 * #914 "Accueil temporaire saisonnier ou week-end protection de l'enfance"
 * #914 ^designation[0].language = #fr-FR
 * #914 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1909,6 +2147,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #914 ^property[=].valueInteger = 4
 * #914 ^property[+].code = #parent
 * #914 ^property[=].valueCode = #4510
+* #914 ^property[+].code = #finess
+* #914 ^property[=].valueBoolean = true
 * #915 "Accueil collectif polyvalent regulier et occasionnel"
 * #915 ^designation[0].language = #fr-FR
 * #915 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1928,6 +2168,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #915 ^property[=].valueInteger = 4
 * #915 ^property[+].code = #parent
 * #915 ^property[=].valueCode = #4810
+* #915 ^property[+].code = #finess
+* #915 ^property[=].valueBoolean = true
 * #916 "Hébergement Réadapt. Sociale Pers.Familles en Difficulté"
 * #916 ^designation[0].language = #fr-FR
 * #916 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1943,6 +2185,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #916 ^property[=].valueInteger = 4
 * #916 ^property[+].code = #parent
 * #916 ^property[=].valueCode = #4620
+* #916 ^property[+].code = #finess
+* #916 ^property[=].valueBoolean = true
 * #917 "Accueil spécialisé pour Adultes Handicapés"
 * #917 ^designation[0].language = #fr-FR
 * #917 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1962,6 +2206,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #917 ^property[=].valueInteger = 4
 * #917 ^property[+].code = #parent
 * #917 ^property[=].valueCode = #4320
+* #917 ^property[+].code = #finess
+* #917 ^property[=].valueBoolean = true
 * #918 "Accueil familial régulier d'enfants d'âge préscolaire"
 * #918 ^designation[0].language = #fr-FR
 * #918 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1981,6 +2227,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #918 ^property[=].valueInteger = 4
 * #918 ^property[+].code = #parent
 * #918 ^property[=].valueCode = #4810
+* #918 ^property[+].code = #finess
+* #918 ^property[=].valueBoolean = true
 * #919 "Accueil familial occasionnel d'enfants d'âge préscolaire"
 * #919 ^designation[0].language = #fr-FR
 * #919 ^designation[=].use.system = "http://snomed.info/sct"
@@ -2000,6 +2248,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #919 ^property[=].valueInteger = 4
 * #919 ^property[+].code = #parent
 * #919 ^property[=].valueCode = #4810
+* #919 ^property[+].code = #finess
+* #919 ^property[=].valueBoolean = true
 * #920 "Hébergement Ouvert en Ets Pr Adultes & Familles"
 * #920 ^designation[0].language = #fr-FR
 * #920 ^designation[=].use.system = "http://snomed.info/sct"
@@ -2015,6 +2265,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #920 ^property[=].valueInteger = 4
 * #920 ^property[+].code = #parent
 * #920 ^property[=].valueCode = #4630
+* #920 ^property[+].code = #finess
+* #920 ^property[=].valueBoolean = true
 * #921 "Séjours de rupture/distanciation/apaisement"
 * #921 ^designation[0].language = #fr-FR
 * #921 ^designation[=].use.system = "http://snomed.info/sct"
@@ -2030,6 +2282,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #921 ^property[=].valueInteger = 4
 * #921 ^property[+].code = #parent
 * #921 ^property[=].valueCode = #4510
+* #921 ^property[+].code = #finess
+* #921 ^property[=].valueBoolean = true
 * #922 "Accueil Temporaire d'Urgence Pr Adultes & Familles"
 * #922 ^designation[0].language = #fr-FR
 * #922 ^designation[=].use.system = "http://snomed.info/sct"
@@ -2045,6 +2299,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #922 ^property[=].valueInteger = 4
 * #922 ^property[+].code = #parent
 * #922 ^property[=].valueCode = #4620
+* #922 ^property[+].code = #finess
+* #922 ^property[=].valueBoolean = true
 * #923 "Accueil Temp.Saisonnier ou W E Adultes & Familles"
 * #923 ^designation[0].language = #fr-FR
 * #923 ^designation[=].use.system = "http://snomed.info/sct"
@@ -2060,6 +2316,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #923 ^property[=].valueInteger = 4
 * #923 ^property[+].code = #parent
 * #923 ^property[=].valueCode = #4630
+* #923 ^property[+].code = #finess
+* #923 ^property[=].valueBoolean = true
 * #924 "Accueil pour Personnes Âgées"
 * #924 ^designation[0].language = #fr-FR
 * #924 ^designation[=].use.system = "http://snomed.info/sct"
@@ -2075,6 +2333,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #924 ^property[=].valueInteger = 4
 * #924 ^property[+].code = #parent
 * #924 ^property[=].valueCode = #4420
+* #924 ^property[+].code = #finess
+* #924 ^property[=].valueBoolean = true
 * #925 "Hébergement résidence autonomie personnes âgées seules F1"
 * #925 ^designation[0].language = #fr-FR
 * #925 ^designation[=].use.system = "http://snomed.info/sct"
@@ -2090,6 +2350,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #925 ^property[=].valueInteger = 4
 * #925 ^property[+].code = #parent
 * #925 ^property[=].valueCode = #4420
+* #925 ^property[+].code = #finess
+* #925 ^property[=].valueBoolean = true
 * #926 "Hébergement résidence autonomie personnes âgées couple F2"
 * #926 ^designation[0].language = #fr-FR
 * #926 ^designation[=].use.system = "http://snomed.info/sct"
@@ -2105,6 +2367,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #926 ^property[=].valueInteger = 4
 * #926 ^property[+].code = #parent
 * #926 ^property[=].valueCode = #4420
+* #926 ^property[+].code = #finess
+* #926 ^property[=].valueBoolean = true
 * #927 "Hébergement résidence autonomie personnes âgées F1BIS"
 * #927 ^designation[0].language = #fr-FR
 * #927 ^designation[=].use.system = "http://snomed.info/sct"
@@ -2120,6 +2384,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #927 ^property[=].valueInteger = 4
 * #927 ^property[+].code = #parent
 * #927 ^property[=].valueCode = #4420
+* #927 ^property[+].code = #finess
+* #927 ^property[=].valueBoolean = true
 * #928 "Observation en Milieu Ouvert Pour Mineurs Justice (O.M.O)"
 * #928 ^designation[0].language = #fr-FR
 * #928 ^designation[=].use.system = "http://snomed.info/sct"
@@ -2135,6 +2401,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #928 ^property[=].valueInteger = 4
 * #928 ^property[+].code = #parent
 * #928 ^property[=].valueCode = #4520
+* #928 ^property[+].code = #finess
+* #928 ^property[=].valueBoolean = true
 * #929 "Consultation d'Orientation Pour Mineurs Justice"
 * #929 ^designation[0].language = #fr-FR
 * #929 ^designation[=].use.system = "http://snomed.info/sct"
@@ -2150,6 +2418,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #929 ^property[=].valueInteger = 4
 * #929 ^property[+].code = #parent
 * #929 ^property[=].valueCode = #4520
+* #929 ^property[+].code = #finess
+* #929 ^property[=].valueBoolean = true
 * #930 "Observation Orientation Pour Mineurs Justice"
 * #930 ^designation[0].language = #fr-FR
 * #930 ^designation[=].use.system = "http://snomed.info/sct"
@@ -2165,6 +2435,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #930 ^property[=].valueInteger = 4
 * #930 ^property[+].code = #parent
 * #930 ^property[=].valueCode = #4520
+* #930 ^property[+].code = #finess
+* #930 ^property[=].valueBoolean = true
 * #931 "Suivi Social en Milieu Ouvert"
 * #931 ^designation[0].language = #fr-FR
 * #931 ^designation[=].use.system = "http://snomed.info/sct"
@@ -2180,6 +2452,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #931 ^property[=].valueInteger = 4
 * #931 ^property[+].code = #parent
 * #931 ^property[=].valueCode = #4530
+* #931 ^property[+].code = #finess
+* #931 ^property[=].valueBoolean = true
 * #932 "Animation de la Vie Sociale"
 * #932 ^designation[0].language = #fr-FR
 * #932 ^designation[=].use.system = "http://snomed.info/sct"
@@ -2195,6 +2469,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #932 ^property[=].valueInteger = 4
 * #932 ^property[+].code = #parent
 * #932 ^property[=].valueCode = #4820
+* #932 ^property[+].code = #finess
+* #932 ^property[=].valueBoolean = true
 * #933 "Activités de Plein Air"
 * #933 ^designation[0].language = #fr-FR
 * #933 ^designation[=].use.system = "http://snomed.info/sct"
@@ -2214,6 +2490,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #933 ^property[=].valueInteger = 4
 * #933 ^property[+].code = #parent
 * #933 ^property[=].valueCode = #4810
+* #933 ^property[+].code = #finess
+* #933 ^property[=].valueBoolean = true
 * #934 "Activités liées Aux Vacances"
 * #934 ^designation[0].language = #fr-FR
 * #934 ^designation[=].use.system = "http://snomed.info/sct"
@@ -2233,6 +2511,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #934 ^property[=].valueInteger = 4
 * #934 ^property[+].code = #parent
 * #934 ^property[=].valueCode = #4820
+* #934 ^property[+].code = #finess
+* #934 ^property[=].valueBoolean = true
 * #935 "Activités des Établissements Expérimentaux"
 * #935 ^designation[0].language = #fr-FR
 * #935 ^designation[=].use.system = "http://snomed.info/sct"
@@ -2248,6 +2528,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #935 ^property[=].valueInteger = 4
 * #935 ^property[+].code = #parent
 * #935 ^property[=].valueCode = #4930
+* #935 ^property[+].code = #finess
+* #935 ^property[=].valueBoolean = true
 * #936 "Accueil en Foyer de Vie pour Adultes Handicapés"
 * #936 ^designation[0].language = #fr-FR
 * #936 ^designation[=].use.system = "http://snomed.info/sct"
@@ -2267,6 +2549,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #936 ^property[=].valueInteger = 4
 * #936 ^property[+].code = #parent
 * #936 ^property[=].valueCode = #4320
+* #936 ^property[+].code = #finess
+* #936 ^property[=].valueBoolean = true
 * #937 "Réinsertion Par l'Économie"
 * #937 ^designation[0].language = #fr-FR
 * #937 ^designation[=].use.system = "http://snomed.info/sct"
@@ -2282,6 +2566,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #937 ^property[=].valueInteger = 4
 * #937 ^property[+].code = #parent
 * #937 ^property[=].valueCode = #4610
+* #937 ^property[+].code = #finess
+* #937 ^property[=].valueBoolean = true
 * #938 "Hébergement en Hospice"
 * #938 ^designation[0].language = #fr-FR
 * #938 ^designation[=].use.system = "http://snomed.info/sct"
@@ -2301,6 +2587,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #938 ^property[=].valueInteger = 4
 * #938 ^property[+].code = #parent
 * #938 ^property[=].valueCode = #4420
+* #938 ^property[+].code = #finess
+* #938 ^property[=].valueBoolean = true
 * #939 "Accueil médicalisé pour adultes handicapés"
 * #939 ^designation[0].language = #fr-FR
 * #939 ^designation[=].use.system = "http://snomed.info/sct"
@@ -2320,6 +2608,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #939 ^property[=].valueInteger = 4
 * #939 ^property[+].code = #parent
 * #939 ^property[=].valueCode = #4320
+* #939 ^property[+].code = #finess
+* #939 ^property[=].valueBoolean = true
 * #941 "Maisons Relais - Résidence Accueil"
 * #941 ^designation[0].language = #fr-FR
 * #941 ^designation[=].use.system = "http://snomed.info/sct"
@@ -2335,6 +2625,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #941 ^property[=].valueInteger = 4
 * #941 ^property[+].code = #parent
 * #941 ^property[=].valueCode = #4630
+* #941 ^property[+].code = #finess
+* #941 ^property[=].valueBoolean = true
 * #942 "Maisons Relais pour Personnes Vieillissantes"
 * #942 ^designation[0].language = #fr-FR
 * #942 ^designation[=].use.system = "http://snomed.info/sct"
@@ -2350,6 +2642,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #942 ^property[=].valueInteger = 4
 * #942 ^property[+].code = #parent
 * #942 ^property[=].valueCode = #4630
+* #942 ^property[+].code = #finess
+* #942 ^property[=].valueBoolean = true
 * #943 "Maisons Relais \"Classique\""
 * #943 ^designation[0].language = #fr-FR
 * #943 ^designation[=].use.system = "http://snomed.info/sct"
@@ -2365,6 +2659,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #943 ^property[=].valueInteger = 4
 * #943 ^property[+].code = #parent
 * #943 ^property[=].valueCode = #4630
+* #943 ^property[+].code = #finess
+* #943 ^property[=].valueBoolean = true
 * #944 "Résidences Sociales ex Foyer Jeunes Travailleurs"
 * #944 ^designation[0].language = #fr-FR
 * #944 ^designation[=].use.system = "http://snomed.info/sct"
@@ -2380,6 +2676,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #944 ^property[=].valueInteger = 4
 * #944 ^property[+].code = #parent
 * #944 ^property[=].valueCode = #4630
+* #944 ^property[+].code = #finess
+* #944 ^property[=].valueBoolean = true
 * #945 "Résidences Sociales ex Foyers Travailleurs Migrants"
 * #945 ^designation[0].language = #fr-FR
 * #945 ^designation[=].use.system = "http://snomed.info/sct"
@@ -2395,6 +2693,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #945 ^property[=].valueInteger = 4
 * #945 ^property[+].code = #parent
 * #945 ^property[=].valueCode = #4630
+* #945 ^property[+].code = #finess
+* #945 ^property[=].valueBoolean = true
 * #946 "Résidences Sociales créées ex Nihilo"
 * #946 ^designation[0].language = #fr-FR
 * #946 ^designation[=].use.system = "http://snomed.info/sct"
@@ -2410,6 +2710,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #946 ^property[=].valueInteger = 4
 * #946 ^property[+].code = #parent
 * #946 ^property[=].valueCode = #4630
+* #946 ^property[+].code = #finess
+* #946 ^property[=].valueBoolean = true
 * #947 "Résidence sociale FJT"
 * #947 ^designation[0].language = #fr-FR
 * #947 ^designation[=].use.system = "http://snomed.info/sct"
@@ -2425,6 +2727,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #947 ^property[=].valueInteger = 4
 * #947 ^property[+].code = #parent
 * #947 ^property[=].valueCode = #4630
+* #947 ^property[+].code = #finess
+* #947 ^property[=].valueBoolean = true
 * #948 "C.H.R.S. Hors les murs"
 * #948 ^property[0].code = #dateValid
 * #948 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
@@ -2436,6 +2740,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #948 ^property[=].valueInteger = 4
 * #948 ^property[+].code = #parent
 * #948 ^property[=].valueCode = #4610
+* #948 ^property[+].code = #finess
+* #948 ^property[=].valueBoolean = true
 * #957 "Hébergement d'insertion Adultes,Familles Difficulté"
 * #957 ^designation[0].language = #fr-FR
 * #957 ^designation[=].use.system = "http://snomed.info/sct"
@@ -2451,6 +2757,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #957 ^property[=].valueInteger = 4
 * #957 ^property[+].code = #parent
 * #957 ^property[=].valueCode = #4620
+* #957 ^property[+].code = #finess
+* #957 ^property[=].valueBoolean = true
 * #958 "Hébergement de Stabilisation Adultes,familles Difficulté"
 * #958 ^designation[0].language = #fr-FR
 * #958 ^designation[=].use.system = "http://snomed.info/sct"
@@ -2466,6 +2774,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #958 ^property[=].valueInteger = 4
 * #958 ^property[+].code = #parent
 * #958 ^property[=].valueCode = #4620
+* #958 ^property[+].code = #finess
+* #958 ^property[=].valueBoolean = true
 * #959 "Hébergement d'Urgence Adultes, Familles Difficulté"
 * #959 ^designation[0].language = #fr-FR
 * #959 ^designation[=].use.system = "http://snomed.info/sct"
@@ -2481,6 +2791,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #959 ^property[=].valueInteger = 4
 * #959 ^property[+].code = #parent
 * #959 ^property[=].valueCode = #4620
+* #959 ^property[+].code = #finess
+* #959 ^property[=].valueBoolean = true
 * #960 "Hébergement d'Urgence avec Accompagnement Social (H.U.A.S.)"
 * #960 ^designation[0].language = #fr-FR
 * #960 ^designation[=].use.system = "http://snomed.info/sct"
@@ -2496,6 +2808,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #960 ^property[=].valueInteger = 4
 * #960 ^property[+].code = #parent
 * #960 ^property[=].valueCode = #4620
+* #960 ^property[+].code = #finess
+* #960 ^property[=].valueBoolean = true
 * #961 "Pôles d'activité et de soins adaptés"
 * #961 ^designation[0].language = #fr-FR
 * #961 ^designation[=].use.system = "http://snomed.info/sct"
@@ -2511,6 +2825,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #961 ^property[=].valueInteger = 4
 * #961 ^property[+].code = #parent
 * #961 ^property[=].valueCode = #4420
+* #961 ^property[+].code = #finess
+* #961 ^property[=].valueBoolean = true
 * #962 "Unités d'hébergement renforcées"
 * #962 ^designation[0].language = #fr-FR
 * #962 ^designation[=].use.system = "http://snomed.info/sct"
@@ -2526,6 +2842,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #962 ^property[=].valueInteger = 4
 * #962 ^property[+].code = #parent
 * #962 ^property[=].valueCode = #4420
+* #962 ^property[+].code = #finess
+* #962 ^property[=].valueBoolean = true
 * #963 "Plateforme d'accompagnement et de répit des aidants (PFR)"
 * #963 ^designation[0].language = #fr-FR
 * #963 ^designation[=].use.system = "http://snomed.info/sct"
@@ -2541,6 +2859,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #963 ^property[=].valueInteger = 4
 * #963 ^property[+].code = #parent
 * #963 ^property[=].valueCode = #4420
+* #963 ^property[+].code = #finess
+* #963 ^property[=].valueBoolean = true
 * #964 "Accueil et accompagnement spécialisé personnes handicapés"
 * #964 ^designation[0].language = #fr-FR
 * #964 ^designation[=].use.system = "http://snomed.info/sct"
@@ -2556,6 +2876,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #964 ^property[=].valueInteger = 4
 * #964 ^property[+].code = #parent
 * #964 ^property[=].valueCode = #4330
+* #964 ^property[+].code = #finess
+* #964 ^property[=].valueBoolean = true
 * #965 "Accueil et accompagnement non médical. personnes handicapées"
 * #965 ^designation[0].language = #fr-FR
 * #965 ^designation[=].use.system = "http://snomed.info/sct"
@@ -2571,6 +2893,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #965 ^property[=].valueInteger = 4
 * #965 ^property[+].code = #parent
 * #965 ^property[=].valueCode = #4330
+* #965 ^property[+].code = #finess
+* #965 ^property[=].valueBoolean = true
 * #966 "Accueil et accompagnement médicalisé personnes handicapées"
 * #966 ^designation[0].language = #fr-FR
 * #966 ^designation[=].use.system = "http://snomed.info/sct"
@@ -2586,6 +2910,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #966 ^property[=].valueInteger = 4
 * #966 ^property[+].code = #parent
 * #966 ^property[=].valueCode = #4330
+* #966 ^property[+].code = #finess
+* #966 ^property[=].valueBoolean = true
 * #991 "Éducation Générale Soins Spéc. Enfants Hand.Troubles Assoc."
 * #991 ^designation[0].language = #fr-FR
 * #991 ^designation[=].use.system = "http://snomed.info/sct"
@@ -2605,6 +2931,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #991 ^property[=].valueInteger = 4
 * #991 ^property[+].code = #parent
 * #991 ^property[=].valueCode = #4720
+* #991 ^property[+].code = #finess
+* #991 ^property[=].valueBoolean = true
 * #992 "Éducation Prof. Soins Spéc. Enfants Hand. Troubles Associés"
 * #992 ^designation[0].language = #fr-FR
 * #992 ^designation[=].use.system = "http://snomed.info/sct"
@@ -2624,6 +2952,8 @@ Description: "Activité Sociale Régulée de FINESS"
 * #992 ^property[=].valueInteger = 4
 * #992 ^property[+].code = #parent
 * #992 ^property[=].valueCode = #4720
+* #992 ^property[+].code = #finess
+* #992 ^property[=].valueBoolean = true
 * #999 "Regroupement des Calculs (Annexes 24)"
 * #999 ^designation[0].language = #fr-FR
 * #999 ^designation[=].use = $sct#900000000000013009
@@ -2642,3 +2972,5 @@ Description: "Activité Sociale Régulée de FINESS"
 * #999 ^property[=].valueInteger = 4
 * #999 ^property[+].code = #parent
 * #999 ^property[=].valueCode = #4720
+* #999 ^property[+].code = #finess
+* #999 ^property[=].valueBoolean = true
