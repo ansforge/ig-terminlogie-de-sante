@@ -48693,11 +48693,155 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j318-activite-enseignement-regulee-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j318-activite-enseignement-regulee-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J318 Activite Enseignement Regulee Finess" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs FINESS contenant les activités d'enseignement régulées de niveau 4" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j319-activite-enseignement-regulee-niv1-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j319-activite-enseignement-regulee-niv1-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J319 Activite Enseignement Regulee Niv1 Finess" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs FINESS contenant les activités d'enseignement régulées de niveau 1" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j320-activite-enseignement-regulee-niv2-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j320-activite-enseignement-regulee-niv2-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J320 Activite Enseignement Regulee Niv2 Finess" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs FINESS contenant les activités d'enseignement régulées de niveau 2" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j321-activite-enseignement-regulee-niv3-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j321-activite-enseignement-regulee-niv3-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J321 Activite Enseignement Regulee Niv3 Finess" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs FINESS contenant les activités d'enseignement régulées de niveau 3" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j322-type-act-enseignement-regulee-finess> ;
          fhir:reference [ fhir:v "ValueSet/jdv-j322-type-act-enseignement-regulee-finess" ]
        ] ;
        fhir:name [ fhir:v "Jdv J322 Type Act Enseignement Regulee Finess" ] ;
        fhir:description [ fhir:v "Jeu de valeurs FINESS reprenant les types d'activité d'enseignement régulée" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j323-activite-sociale-regulee-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j323-activite-sociale-regulee-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J323 Activite Sociale Regulee" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 4" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j324-activite-sociale-regulee-niv1-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j324-activite-sociale-regulee-niv1-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J324 Activite Sociale Regulee Niv1 Finess" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 1" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j325-activite-sociale-regulee-niv2-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j325-activite-sociale-regulee-niv2-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J325 Activite Sociale Regulee Niv2 Finess" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 2" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j326-activite-sociale-regulee-niv3-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j326-activite-sociale-regulee-niv3-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J326 Activite Sociale Regulee Niv3 Finess" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 3" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -60024,11 +60168,47 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/TRE-R400-FinessStatutJuridique> ;
-         fhir:reference [ fhir:v "CodeSystem/TRE-R400-FinessStatutJuridique" ]
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r400-finess-statut-juridique> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r400-finess-statut-juridique" ]
        ] ;
        fhir:name [ fhir:v "Tre R400 Finess Statut Juridique" ] ;
        fhir:description [ fhir:v "Statuts juridiques de FINESS" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r401-activite-sociale-regulee> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r401-activite-sociale-regulee" ]
+       ] ;
+       fhir:name [ fhir:v "Tre R401 Activite Sociale Regulee" ] ;
+       fhir:description [ fhir:v "Activité Sociale Régulée de FINESS" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r402-activite-enseignement-regulee> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r402-activite-enseignement-regulee" ]
+       ] ;
+       fhir:name [ fhir:v "Tre R402 Activite Enseignement Regulee" ] ;
+       fhir:description [ fhir:v "Activité Enseignement Régulée de FINESS" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -64826,42 +65006,6 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r280-activite-sociale-regulee-all> ;
-         fhir:reference [ fhir:v "ValueSet/vs-tre-r280-activite-sociale-regulee-all" ]
-       ] ;
-       fhir:name [ fhir:v "Vs Tre R280 Activite Sociale Regulee All" ] ;
-       fhir:description [ fhir:v "Jeu de valeurs ALL contenant les activités régulées pour le social" ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r281-enseignement-regulee-all> ;
-         fhir:reference [ fhir:v "ValueSet/vs-tre-r281-enseignement-regulee-all" ]
-       ] ;
-       fhir:name [ fhir:v "Vs Tre R281 Enseignement Regulee All" ] ;
-       fhir:description [ fhir:v "Jeu de valeurs ALL contenant les disciplines pour l'enseignement" ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r293-agregat-public-activite-smsse-regulee-niv1-all> ;
          fhir:reference [ fhir:v "ValueSet/vs-tre-r293-agregat-public-activite-smsse-regulee-niv1-all" ]
        ] ;
@@ -64898,119 +65042,11 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r295-agregat-activite-enseignement-regulee-niv1-all> ;
-         fhir:reference [ fhir:v "ValueSet/vs-tre-r295-agregat-activite-enseignement-regulee-niv1-all" ]
-       ] ;
-       fhir:name [ fhir:v "Vs Tre R295 Agregat Activite Enseignement Regulee Niv1 All" ] ;
-       fhir:description [ fhir:v "Jeu de valeurs ALL contenant les agrégats des activités régulées de niveau 1 pour l'enseignement" ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r296-agregat-activite-enseignement-regulee-niv2-all> ;
-         fhir:reference [ fhir:v "ValueSet/vs-tre-r296-agregat-activite-enseignement-regulee-niv2-all" ]
-       ] ;
-       fhir:name [ fhir:v "Vs Tre R296 Agregat Activite Enseignement Regulee Niv2 All" ] ;
-       fhir:description [ fhir:v "Jeu de valeurs ALL contenant les agrégats des activités régulées de niveau 2 pour l'enseignement" ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r297-agregat-activite-enseignement-regulee-niv3-all> ;
-         fhir:reference [ fhir:v "ValueSet/vs-tre-r297-agregat-activite-enseignement-regulee-niv3-all" ]
-       ] ;
-       fhir:name [ fhir:v "Vs Tre R297 Agregat Activite Enseignement Regulee Niv3 All" ] ;
-       fhir:description [ fhir:v "Jeu de valeurs ALL contenant les agrégats des activités régulées de niveau 3 pour l'enseignement" ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r298-activite-sociale-regulee-niv1-all> ;
-         fhir:reference [ fhir:v "ValueSet/vs-tre-r298-activite-sociale-regulee-niv1-all" ]
-       ] ;
-       fhir:name [ fhir:v "Vs Tre R298 Activite Sociale Regulee Niv1 All" ] ;
-       fhir:description [ fhir:v "Jeu de valeurs ALL contenant les agrégats des activités régulées de niveau 1 pour le social" ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r299-activite-sociale-regulee-niv2-all> ;
-         fhir:reference [ fhir:v "ValueSet/vs-tre-r299-activite-sociale-regulee-niv2-all" ]
-       ] ;
-       fhir:name [ fhir:v "Vs Tre R299 Activite Sociale Regulee Niv2 All" ] ;
-       fhir:description [ fhir:v "Jeu de valeurs ALL contenant les agrégats des activités régulées de niveau 2 pour le social" ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r30-region-om-all> ;
          fhir:reference [ fhir:v "ValueSet/vs-tre-r30-region-om-all" ]
        ] ;
        fhir:name [ fhir:v "Vs Tre R30 Region Om All" ] ;
        fhir:description [ fhir:v "Jeu de valeurs ALL contenant le référentiel des codes régions et collectivités d'outre-mer provenant du COG INSEE + Monaco" ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r300-activite-sociale-regulee-niv3-all> ;
-         fhir:reference [ fhir:v "ValueSet/vs-tre-r300-activite-sociale-regulee-niv3-all" ]
-       ] ;
-       fhir:name [ fhir:v "Vs Tre R300 Activite Sociale Regulee Niv3 All" ] ;
-       fhir:description [ fhir:v "Jeu de valeurs ALL contenant les agrégats des activités régulées de niveau 3 pour le social" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false

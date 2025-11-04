@@ -35426,10 +35426,106 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-j318-activite-enseignement-regulee-finess"
+      },
+      "name" : "Jdv J318 Activite Enseignement Regulee Finess",
+      "description" : "Jeu de valeurs FINESS contenant les activités d'enseignement régulées de niveau 4",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j319-activite-enseignement-regulee-niv1-finess"
+      },
+      "name" : "Jdv J319 Activite Enseignement Regulee Niv1 Finess",
+      "description" : "Jeu de valeurs FINESS contenant les activités d'enseignement régulées de niveau 1",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j320-activite-enseignement-regulee-niv2-finess"
+      },
+      "name" : "Jdv J320 Activite Enseignement Regulee Niv2 Finess",
+      "description" : "Jeu de valeurs FINESS contenant les activités d'enseignement régulées de niveau 2",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j321-activite-enseignement-regulee-niv3-finess"
+      },
+      "name" : "Jdv J321 Activite Enseignement Regulee Niv3 Finess",
+      "description" : "Jeu de valeurs FINESS contenant les activités d'enseignement régulées de niveau 3",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-j322-type-act-enseignement-regulee-finess"
       },
       "name" : "Jdv J322 Type Act Enseignement Regulee Finess",
       "description" : "Jeu de valeurs FINESS reprenant les types d'activité d'enseignement régulée",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j323-activite-sociale-regulee-finess"
+      },
+      "name" : "Jdv J323 Activite Sociale Regulee",
+      "description" : "Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 4",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j324-activite-sociale-regulee-niv1-finess"
+      },
+      "name" : "Jdv J324 Activite Sociale Regulee Niv1 Finess",
+      "description" : "Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 1",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j325-activite-sociale-regulee-niv2-finess"
+      },
+      "name" : "Jdv J325 Activite Sociale Regulee Niv2 Finess",
+      "description" : "Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 2",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j326-activite-sociale-regulee-niv3-finess"
+      },
+      "name" : "Jdv J326 Activite Sociale Regulee Niv3 Finess",
+      "description" : "Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 3",
       "exampleBoolean" : false
     },
     {
@@ -42977,10 +43073,34 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
-        "reference" : "CodeSystem/TRE-R400-FinessStatutJuridique"
+        "reference" : "CodeSystem/tre-r400-finess-statut-juridique"
       },
       "name" : "Tre R400 Finess Statut Juridique",
       "description" : "Statuts juridiques de FINESS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r401-activite-sociale-regulee"
+      },
+      "name" : "Tre R401 Activite Sociale Regulee",
+      "description" : "Activité Sociale Régulée de FINESS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r402-activite-enseignement-regulee"
+      },
+      "name" : "Tre R402 Activite Enseignement Regulee",
+      "description" : "Activité Enseignement Régulée de FINESS",
       "exampleBoolean" : false
     },
     {
@@ -46177,30 +46297,6 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/vs-tre-r280-activite-sociale-regulee-all"
-      },
-      "name" : "Vs Tre R280 Activite Sociale Regulee All",
-      "description" : "Jeu de valeurs ALL contenant les activités régulées pour le social",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/vs-tre-r281-enseignement-regulee-all"
-      },
-      "name" : "Vs Tre R281 Enseignement Regulee All",
-      "description" : "Jeu de valeurs ALL contenant les disciplines pour l'enseignement",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
         "reference" : "ValueSet/vs-tre-r293-agregat-public-activite-smsse-regulee-niv1-all"
       },
       "name" : "Vs Tre R293 Agregat Public Activite Smsse Regulee Niv1 All",
@@ -46225,82 +46321,10 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/vs-tre-r295-agregat-activite-enseignement-regulee-niv1-all"
-      },
-      "name" : "Vs Tre R295 Agregat Activite Enseignement Regulee Niv1 All",
-      "description" : "Jeu de valeurs ALL contenant les agrégats des activités régulées de niveau 1 pour l'enseignement",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/vs-tre-r296-agregat-activite-enseignement-regulee-niv2-all"
-      },
-      "name" : "Vs Tre R296 Agregat Activite Enseignement Regulee Niv2 All",
-      "description" : "Jeu de valeurs ALL contenant les agrégats des activités régulées de niveau 2 pour l'enseignement",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/vs-tre-r297-agregat-activite-enseignement-regulee-niv3-all"
-      },
-      "name" : "Vs Tre R297 Agregat Activite Enseignement Regulee Niv3 All",
-      "description" : "Jeu de valeurs ALL contenant les agrégats des activités régulées de niveau 3 pour l'enseignement",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/vs-tre-r298-activite-sociale-regulee-niv1-all"
-      },
-      "name" : "Vs Tre R298 Activite Sociale Regulee Niv1 All",
-      "description" : "Jeu de valeurs ALL contenant les agrégats des activités régulées de niveau 1 pour le social",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/vs-tre-r299-activite-sociale-regulee-niv2-all"
-      },
-      "name" : "Vs Tre R299 Activite Sociale Regulee Niv2 All",
-      "description" : "Jeu de valeurs ALL contenant les agrégats des activités régulées de niveau 2 pour le social",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
         "reference" : "ValueSet/vs-tre-r30-region-om-all"
       },
       "name" : "Vs Tre R30 Region Om All",
       "description" : "Jeu de valeurs ALL contenant le référentiel des codes régions et collectivités d'outre-mer provenant du COG INSEE + Monaco",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/vs-tre-r300-activite-sociale-regulee-niv3-all"
-      },
-      "name" : "Vs Tre R300 Activite Sociale Regulee Niv3 All",
-      "description" : "Jeu de valeurs ALL contenant les agrégats des activités régulées de niveau 3 pour le social",
       "exampleBoolean" : false
     },
     {

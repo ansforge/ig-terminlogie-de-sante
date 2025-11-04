@@ -3,8 +3,8 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="TRE-R300-AgregatDisciplineEquipSocNiv3"/>
   <meta>
-    <versionId value="4"/>
-    <lastUpdated value="2024-08-28T05:13:17.386+00:00"/>
+    <versionId value="5"/>
+    <lastUpdated value="2025-07-02T18:17:23.130+00:00"/>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
   </meta>
   <text>
@@ -27,10 +27,14 @@
   <date value="2023-12-15T12:00:00+01:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <description value="Agrégats de disciplines d'équipement pour le social niveau 3"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FR"/>
+    </coding>
+  </jurisdiction>
   <caseSensitive value="false"/>
-  <valueSet value="https://mos.esante.gouv.fr/NOS/TRE_R300-AgregatDisciplineEquipSocNiv3/FHIR/TRE-R300-AgregatDisciplineEquipSocNiv3?vs"/>
   <content value="complete"/>
-  <count value="23"/>
   <property>
     <code value="dateValid"/>
     <description value="date de validité d'un code concept"/>
@@ -44,6 +48,24 @@
   <property>
     <code value="dateFin"/>
     <description value="Date de fin d'exploitation d'un code concept"/>
+    <type value="dateTime"/>
+  </property>
+  <property>
+    <code value="deprecationDate"/>
+    <uri value="http://hl7.org/fhir/concept-properties#deprecationDate"/>
+    <description value="Date Concept was deprecated"/>
+    <type value="dateTime"/>
+  </property>
+  <property>
+    <code value="status"/>
+    <uri value="http://hl7.org/fhir/concept-properties#status"/>
+    <description value="A property that indicates the status of the concept."/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="retirementDate"/>
+    <uri value="http://hl7.org/fhir/concept-properties#retirementDate"/>
+    <description value="Date Concept was retired"/>
     <type value="dateTime"/>
   </property>
   <concept>
@@ -65,6 +87,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2020-06-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="4320"/>
@@ -84,6 +110,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2020-06-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -105,6 +135,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2020-06-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="4410"/>
@@ -125,6 +159,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2020-06-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="4420"/>
@@ -136,6 +174,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2020-06-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -157,6 +199,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2020-06-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="4520"/>
@@ -176,6 +222,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2020-06-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -197,6 +247,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2020-06-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="4610"/>
@@ -216,6 +270,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2020-06-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -237,6 +295,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2020-06-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="4630"/>
@@ -256,6 +318,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2020-06-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -277,6 +343,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2020-06-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="4650"/>
@@ -296,6 +366,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2020-06-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -317,6 +391,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2020-06-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="4720"/>
@@ -336,6 +414,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2020-06-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -357,6 +439,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2020-06-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="4740"/>
@@ -377,6 +463,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2020-06-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="4810"/>
@@ -389,6 +479,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2020-06-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="4820"/>
@@ -400,6 +494,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2020-06-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -421,6 +519,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2020-06-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="4920"/>
@@ -440,6 +542,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2020-06-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -461,6 +567,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="2020-06-26T12:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="4940"/>
@@ -480,6 +590,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="2020-06-26T12:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
 </CodeSystem>

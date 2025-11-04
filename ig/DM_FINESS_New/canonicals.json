@@ -3486,28 +3486,12 @@
     "oids" : ["1.2.250.1.213.1.6.1.133"]
   },
   {
-    "id" : "vs-tre-r280-activite-sociale-regulee-all",
-    "type" : "ValueSet",
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R280-DisciplineEquipementSocial/FHIR/TRE-R280-DisciplineEquipementSocial?vs",
-    "version" : "20250222120000",
-    "name" : "VsTreR280ActiviteSocialeReguleeAll",
-    "oids" : ["1.2.250.1.213.1.6.1.331"]
-  },
-  {
     "id" : "TRE-R281-DisciplineEnseignement",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R281-DisciplineEnseignement/FHIR/TRE-R281-DisciplineEnseignement",
     "version" : "20240329120000",
     "name" : "TRE_R281_DisciplineEnseignement",
     "oids" : ["1.2.250.1.213.1.6.1.134"]
-  },
-  {
-    "id" : "vs-tre-r281-enseignement-regulee-all",
-    "type" : "ValueSet",
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R281-DisciplineEnseignement/FHIR/TRE-R281-DisciplineEnseignement?vs",
-    "version" : "20250222120000",
-    "name" : "VsTreR281EnseignementReguleeAll",
-    "oids" : ["1.2.250.1.213.1.6.1.326"]
   },
   {
     "id" : "TRE-R282-CNAMAmeliSecteurConventionnement",
@@ -3654,28 +3638,12 @@
     "oids" : ["1.2.250.1.213.1.6.1.195"]
   },
   {
-    "id" : "vs-tre-r295-agregat-activite-enseignement-regulee-niv1-all",
-    "type" : "ValueSet",
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R295-AgregatDisciplineEnseignNiv1/FHIR/TRE-R295-AgregatDisciplineEnseignNiv1?vs",
-    "version" : "20250222120000",
-    "name" : "VsTreR295AgregatActiviteEnseignementReguleeNiv1All",
-    "oids" : ["1.2.250.1.213.1.6.1.327"]
-  },
-  {
     "id" : "TRE-R296-AgregatDisciplineEnseignNiv2",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R296-AgregatDisciplineEnseignNiv2/FHIR/TRE-R296-AgregatDisciplineEnseignNiv2",
     "version" : "20231215120000",
     "name" : "TRE_R296_AgregatDisciplineEnseignNiv2",
     "oids" : ["1.2.250.1.213.1.6.1.196"]
-  },
-  {
-    "id" : "vs-tre-r296-agregat-activite-enseignement-regulee-niv2-all",
-    "type" : "ValueSet",
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R296-AgregatDisciplineEnseignNiv2/FHIR/TRE-R296-AgregatDisciplineEnseignNiv2?vs",
-    "version" : "20250222120000",
-    "name" : "VsTreR296AgregatActiviteEnseignementReguleeNiv2All",
-    "oids" : ["1.2.250.1.213.1.6.1.328"]
   },
   {
     "id" : "TRE-R297-AgregatDisciplineEnseignNiv3",
@@ -3686,14 +3654,6 @@
     "oids" : ["1.2.250.1.213.1.6.1.197"]
   },
   {
-    "id" : "vs-tre-r297-agregat-activite-enseignement-regulee-niv3-all",
-    "type" : "ValueSet",
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R297-AgregatDisciplineEnseignNiv3/FHIR/TRE-R297-AgregatDisciplineEnseignNiv3?vs",
-    "version" : "20250222120000",
-    "name" : "VsTreR297AgregatActiviteEnseignementReguleeNiv3All",
-    "oids" : ["1.2.250.1.213.1.6.1.329"]
-  },
-  {
     "id" : "TRE-R298-AgregatDisciplineEquipSocNiv1",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R298-AgregatDisciplineEquipSocNiv1/FHIR/TRE-R298-AgregatDisciplineEquipSocNiv1",
@@ -3702,28 +3662,12 @@
     "oids" : ["1.2.250.1.213.1.6.1.202"]
   },
   {
-    "id" : "vs-tre-r298-activite-sociale-regulee-niv1-all",
-    "type" : "ValueSet",
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R298-AgregatDisciplineEquipSocNiv1/FHIR/TRE-R298-AgregatDisciplineEquipSocNiv1?vs",
-    "version" : "20250222120000",
-    "name" : "VsTreR298ActiviteSocialeReguleeNiv1All",
-    "oids" : ["1.2.250.1.213.1.6.1.332"]
-  },
-  {
     "id" : "TRE-R299-AgregatDisciplineEquipSocNiv2",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R299-AgregatDisciplineEquipSocNiv2/FHIR/TRE-R299-AgregatDisciplineEquipSocNiv2",
     "version" : "20231215120000",
     "name" : "TRE_R299_AgregatDisciplineEquipSocNiv2",
     "oids" : ["1.2.250.1.213.1.6.1.203"]
-  },
-  {
-    "id" : "vs-tre-r299-activite-sociale-regulee-niv2-all",
-    "type" : "ValueSet",
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R299-AgregatDisciplineEquipSocNiv2/FHIR/TRE-R299-AgregatDisciplineEquipSocNiv2?vs",
-    "version" : "20250222120000",
-    "name" : "VsTreR299ActiviteSocialeReguleeNiv2All",
-    "oids" : ["1.2.250.1.213.1.6.1.333"]
   },
   {
     "id" : "TRE-R30-RegionOM",
@@ -3748,14 +3692,6 @@
     "version" : "20231215120000",
     "name" : "TRE_R300_AgregatDisciplineEquipSocNiv3",
     "oids" : ["1.2.250.1.213.1.6.1.204"]
-  },
-  {
-    "id" : "vs-tre-r300-activite-sociale-regulee-niv3-all",
-    "type" : "ValueSet",
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R300-AgregatDisciplineEquipSocNiv3/FHIR/TRE-R300-AgregatDisciplineEquipSocNiv3?vs",
-    "version" : "20250222120000",
-    "name" : "VsTreR300ActiviteSocialeReguleeNiv3All",
-    "oids" : ["1.2.250.1.213.1.6.1.334"]
   },
   {
     "id" : "TRE-R301-SourceInformationInstallation",
@@ -5030,12 +4966,28 @@
     "oids" : ["1.2.250.1.213.1.6.1.999"]
   },
   {
-    "id" : "TRE-R400-FinessStatutJuridique",
+    "id" : "tre-r400-finess-statut-juridique",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique",
     "version" : "20250923120000",
     "name" : "TreR400FinessStatutJuridique",
     "oids" : ["1.2.250.1.213.1.6.1.379"]
+  },
+  {
+    "id" : "tre-r401-activite-sociale-regulee",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
+    "version" : "20251104120000",
+    "name" : "TreR401ActiviteSocialeRegulee",
+    "oids" : ["1.2.250.1.213.1.6.1.380"]
+  },
+  {
+    "id" : "tre-r402-activite-enseignement-regulee",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+    "version" : "20251104120000",
+    "name" : "TreR401ActiviteEnseignementRegulee",
+    "oids" : ["1.2.250.1.213.1.6.1.381"]
   },
   {
     "id" : "alignement-nuva-bdpm",
@@ -6708,12 +6660,76 @@
     "oids" : ["OID:1.2.250.1.213.1.6.1.322"]
   },
   {
+    "id" : "jdv-j318-activite-enseignement-regulee-finess",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j318-activite-enseignement-regulee-finess",
+    "version" : "20251104120000",
+    "name" : "JdvJ318ActiviteEnseignementReguleeFiness",
+    "oids" : ["1.2.250.1.213.1.6.1.326"]
+  },
+  {
+    "id" : "jdv-j319-activite-enseignement-regulee-niv1-finess",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j319-activite-enseignement-regulee-niv1-finess",
+    "version" : "20251104120000",
+    "name" : "JdvJ319ActiviteEnseignementReguleeNiv1Finess",
+    "oids" : ["1.2.250.1.213.1.6.1.327"]
+  },
+  {
+    "id" : "jdv-j320-activite-enseignement-regulee-niv2-finess",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j320-activite-enseignement-regulee-niv2-finess",
+    "version" : "20251104120000",
+    "name" : "JdvJ320ActiviteEnseignementReguleeNiv2Finess",
+    "oids" : ["1.2.250.1.213.1.6.1.328"]
+  },
+  {
+    "id" : "jdv-j321-activite-enseignement-regulee-niv3-finess",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j321-activite-enseignement-regulee-niv3-finess",
+    "version" : "20251104120000",
+    "name" : "JdvJ321ActiviteEnseignementReguleeNiv3Finess",
+    "oids" : ["1.2.250.1.213.1.6.1.329"]
+  },
+  {
     "id" : "jdv-j322-type-act-enseignement-regulee-finess",
     "type" : "ValueSet",
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j322-type-act-enseignement-regulee-finess",
     "version" : "20250603120000",
     "name" : "JdvJ322TypeActEnseignementReguleeFiness",
     "oids" : ["1.2.250.1.213.1.6.1.330"]
+  },
+  {
+    "id" : "jdv-j323-activite-sociale-regulee-finess",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j323-activite-sociale-regulee-finess",
+    "version" : "20251104120000",
+    "name" : "JdvJ323ActiviteSocialeRegulee",
+    "oids" : ["1.2.250.1.213.1.6.1.331"]
+  },
+  {
+    "id" : "jdv-j324-activite-sociale-regulee-niv1-finess",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j324-activite-sociale-regulee-niv1-finess",
+    "version" : "20251104120000",
+    "name" : "JdvJ324ActiviteSocialeReguleeNiv1Finess",
+    "oids" : ["1.2.250.1.213.1.6.1.332"]
+  },
+  {
+    "id" : "jdv-j325-activite-sociale-regulee-niv2-finess",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j325-activite-sociale-regulee-niv2-finess",
+    "version" : "20250222120000",
+    "name" : "JdvJ325ActiviteSocialeReguleeNiv2Finess",
+    "oids" : ["1.2.250.1.213.1.6.1.333"]
+  },
+  {
+    "id" : "jdv-j326-activite-sociale-regulee-niv3-finess",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j326-activite-sociale-regulee-niv3-finess",
+    "version" : "20251104120000",
+    "name" : "JdvJ326ActiviteSocialeReguleeNiv3Finess",
+    "oids" : ["1.2.250.1.213.1.6.1.334"]
   },
   {
     "id" : "jdv-j331-type-act-sociale-regulee-finess",

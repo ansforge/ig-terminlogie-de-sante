@@ -1,0 +1,64 @@
+<OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MAJ>
+1.2.250.1.213.1.6.1.381;TRE;TreR401ActiviteEnseignementRegulee.tabs;Activité Enseignement Régulée de FINESS;;20251104120000;;20251104120000
+<OID>;<Code>;<Libellé adapté>;<Libellé court>;<Libellé long>;<Date valid>;<Date fin>;<Date MAJ> 
+1.2.250.1.213.1.6.1.381;2000;Disciplines d'enseignement;Disciplines d'enseignement;Disciplines d'enseignement;20200626120000;;20200626120000
+1.2.250.1.213.1.6.1.381;2200;Services Spécialisés d'Enseignement;Services Spéc.Enseign.;Services Spécialisés d'Enseignement;20200626120000;;20200626120000
+1.2.250.1.213.1.6.1.381;2210;Formation des Personnels Sanitaires;Formation Personnels Sanit.;Formation des Personnels Sanitaires;20200626120000;;20200626120000
+1.2.250.1.213.1.6.1.381;2220;Formation des Personnels Sociaux;Formation Personnels Soc.;Formation des Personnels Sociaux;20200626120000;;20200626120000
+1.2.250.1.213.1.6.1.381;2230;Formation des Personnels Administratifs San. et Soc;Form.Person.Admin.San.Soc.;Formation des Personnels Administratifs San. et Soc;20200626120000;;20200626120000
+1.2.250.1.213.1.6.1.381;2240;Formation de cadre de santé;Formation de cadre de santé;Formation de cadre de santé;20200626120000;;20200626120000
+1.2.250.1.213.1.6.1.381;413;Formation DE Ambulancier;Form Ambulancier;Formation DE Ambulancier;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.381;414;Formation DE Infirmier;Form Infirmier;Formation DE Infirmier;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.381;415;Formation DE Sage-Femme;Form Sage-Femmes;Formation DE Sage-Femme;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.381;416;Formation DE Masseur-Kinésithérapeute;Form Masseur-Kiné.;Formation DE Masseur-Kinésithérapeute;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.381;417;Formation DE Technicien en laboratoire médical;Form Techn LBM;Formation DE Technicien en laboratoire médical;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.381;418;Formation DE Puéricultrice;Form Puéricultrice;Formation DE Puéricultrice;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.381;419;Formation DE Aide-Soignant;Form Aide-Soignant;Formation DE Aide-Soignant;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.381;420;Formation DE Pédicure-Podologue;Form Pédicure-Pod.;Formation DE Pédicure-Podologue;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.381;421;Formation DE ManipulateurElectro-radiologie médicale;Form Manip.Elec.Rad;Formation DE ManipulateurElectro-radiologie médicale;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.381;422;Formation DE Conseillère en Économie Sociale et Familiale;Form DCESF;Formation DE Conseillère en Économie Sociale et Familiale;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.381;423;Formation DE Ergothérapeute;Form Ergothérapeute;Formation DE Ergothérapeute;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.381;424;Formation DE Psychomotricien;Form Psychomotric.;Formation DE Psychomotricien;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.381;425;Formation DE Infirmier Anesthésiste;Form Inf.Anesthés.;Formation DE Infirmier Anesthésiste;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.381;426;Formation DE Infirmier Bloc Opératoire;Form Inf.Bloc Opér.;Formation DE Infirmier Bloc Opératoire;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.381;427;Formation Professionnel Secteur Psychiatrique;Form.Prof.S.Psy;Formation Professionnel Secteur Psychiatrique;20211126120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.381;428;Formation Cadre de santé (Infirmier);Form Cadre Infirm.;Formation Cadre de santé (Infirmier);20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.381;429;Formation Cadres Infirmiers Secteur Psychiatrique;Form Cadre Inf.S.Ps;Formation Cadres Infirmiers Secteur Psychiatrique;20211126120000;20211126120000;20211126120000
+1.2.250.1.213.1.6.1.381;430;Formation Cadre de santé (Masseur-Kinésithérapeute);Form Cadre Mass.Kin;Formation Cadre de santé (Masseur-Kinésithérapeute);20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.381;431;Formation Cadre de santé (Manip.Electro-Radiologie);Form Cadre M.E.Rad.;Formation Cadre de santé (Manip.Electro-Radiologie);20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.381;432;Formation DE d'assistant de Service Social;Form DEASS;Formation DE d'assistant de Service Social;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.381;433;Formation DE d'éducateur spécialisé;Form DEES;Formation DE d'éducateur spécialisé;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.381;434;Formation DE technicien de l'intervention sociale familiale;Form DETISF;Formation DE technicien de l'intervention sociale familiale;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.381;435;Formation DE d'éducateurs Jeunes Enfants;Form DEEJE.;Formation DE d'éducateurs Jeunes Enfants;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.381;436;Formation DE éducateur technique spécialisé;Form DE ETS;Formation DE éducateur technique spécialisé;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.381;437;Formation DE moniteur éducateurs;Form DEME;Formation DE moniteur éducateurs;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.381;438;Formation DE aide médico psychologique;Form DE AMP;Formation DE aide médico psychologique;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.381;439;Formation DE fonction d'animation;Form DEFA;Formation DE fonction d'animation;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.381;440;Formation CF Délégué Tutelle aux Prestations Sociales;Form Dél.Tut.Pr.Soc;Formation CF Délégué Tutelle aux Prestations Sociales;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.381;441;Formation DE Médiateur Familial;Form DEMF;Formation DE Médiateur Familial;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.381;444;Formation CA fonction encadrement unité intervention sociale;Form CAFERUIS;Formation CA fonction encadrement unité intervention sociale;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.381;449;Formation CA fonction directeur établissement social;Form CAFDES;Formation CA fonction directeur établissement social;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.381;453;Formation Cadre de Santé (sans autre indication);Form.Cadr.Santé SAI;Formation Cadre de Santé (sans autre indication);20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.381;454;Formation Cadre de santé (Sage-Femme);Form Cadres Sag.Fem;Formation Cadre de santé (Sage-Femme);20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.381;456;Formation DE Auxiliaire Puériculture;Form Auxil.Puéric.;Formation DE Auxiliaire Puériculture;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.381;500;Formation Personnels Admin.Santé Secteur Social;Form.Pers.San.Soc.;Formation Personnels Admin.Santé Secteur Social;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.381;584;Formation qualification Conseil Conjugal ou Familial;Form.Cons.Conj.Fam;Formation qualification Conseil Conjugal ou Familial;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.381;585;Formation diplôme supérieur en Travail social;Form.DSTS.;Formation diplôme supérieur en Travail social;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.381;586;Formation DE auxiliaire de vie sociale;Form DEAVS;Formation DE auxiliaire de vie sociale;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.381;587;Formation DE Assistant Familial;Form DEAF;Formation DE Assistant Familial;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.381;588;Formation DE Ingénierie Sociale;D.E.I.S.;Formation DE Ingénierie Sociale;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.381;590;Formation DE Accompagnant Éducatif et Social;Form DEAES;Formation DE Accompagnant Éducatif et Social;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.381;591;Formation DE Mandataire Judiciaire à la Protection des Majeurs;Form MJPM;Formation DE Mandataire Judiciaire à la Protection des Majeurs;20240329120000;;20240329120000
+1.2.250.1.213.1.6.1.381;592;Formation DE Délégué aux Prestations Familiales;Form DPF;Formation DE Délégué aux Prestations Familiales;20240329120000;;20240329120000
+1.2.250.1.213.1.6.1.381;597;Formation Manipulateur Exploration Fonctionnelle;Form Mani.Exp.Fonc.;Formation Manipulateur Exploration Fonctionnelle;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.381;804;Formation Cadre de santé (technicien LABM);Form Cadre tech LABM;Formation Cadre de santé (technicien LABM);20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.381;805;Formation Cadre de santé (ergothérapeute);Form Cadre Ergothér;Formation Cadre de santé (ergothérapeute);20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.381;880;Formation Préparateur en Pharmacie Hospitalière;Form PPH;Formation Préparateur en Pharmacie Hospitalière;20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.381;881;Formation Cadre de Santé (diététicien);Form cadre dietetic;Formation Cadre de Santé (diététicien);20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.381;882;Formation Cadre de Santé (audioprothésiste);Form cadre audioprot;Formation Cadre de Santé (audioprothésiste);20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.381;883;Formation Cadre de Santé (pédicure podologue);Form cadre pedi podo;Formation Cadre de Santé (pédicure podologue);20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.381;884;Formation Cadre de Santé (psychomotricien);Form cadre psychomot;Formation Cadre de Santé (psychomotricien);20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.381;885;Formation Cadre de Santé (opticien);Form cadre opticien;Formation Cadre de Santé (opticien);20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.381;886;Formation Cadre de Santé (orthophoniste);Form cadre ophoniste;Formation Cadre de Santé (orthophoniste);20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.381;887;Formation Cadre de Santé (orthoptiste);Form cadre ortptiste;Formation Cadre de Santé (orthoptiste);20181026120000;;20181026120000
+1.2.250.1.213.1.6.1.381;888;Formation Cadre de Santé (préparateur pharmacie hospitalièr);Form cadre PPH;Formation Cadre de Santé (préparateur pharmacie hospitalièr);20181026120000;;20181026120000

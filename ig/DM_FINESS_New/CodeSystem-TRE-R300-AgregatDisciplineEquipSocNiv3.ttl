@@ -11,8 +11,8 @@
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "TRE-R300-AgregatDisciplineEquipSocNiv3"] ; # 
   fhir:meta [
-     fhir:versionId [ fhir:v "4" ] ;
-     fhir:lastUpdated [ fhir:v "2024-08-28T05:13:17.386+00:00"^^xsd:dateTime ] ;
+     fhir:versionId [ fhir:v "5" ] ;
+     fhir:lastUpdated [ fhir:v "2025-07-02T18:17:23.130+00:00"^^xsd:dateTime ] ;
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"^^xsd:anyURI ;
        fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
@@ -41,13 +41,14 @@
   fhir:date [ fhir:v "2023-12-15T12:00:00+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
   fhir:description [ fhir:v "Agrégats de disciplines d'équipement pour le social niveau 3"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "FR" ]
+     ] )
+  ] ) ; # 
   fhir:caseSensitive [ fhir:v false] ; # 
-  fhir:valueSet [
-     fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R300-AgregatDisciplineEquipSocNiv3/FHIR/TRE-R300-AgregatDisciplineEquipSocNiv3?vs"^^xsd:anyURI ;
-     fhir:link <https://mos.esante.gouv.fr/NOS/TRE_R300-AgregatDisciplineEquipSocNiv3/FHIR/TRE-R300-AgregatDisciplineEquipSocNiv3?vs>
-  ] ; # 
   fhir:content [ fhir:v "complete"] ; # 
-  fhir:count [ fhir:v "23"^^xsd:nonNegativeInteger] ; # 
   fhir:property ( [
      fhir:code [ fhir:v "dateValid" ] ;
      fhir:description [ fhir:v "date de validité d'un code concept" ] ;
@@ -59,6 +60,21 @@
   ] [
      fhir:code [ fhir:v "dateFin" ] ;
      fhir:description [ fhir:v "Date de fin d'exploitation d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "deprecationDate" ] ;
+     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#deprecationDate"^^xsd:anyURI ] ;
+     fhir:description [ fhir:v "Date Concept was deprecated" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "status" ] ;
+     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#status"^^xsd:anyURI ] ;
+     fhir:description [ fhir:v "A property that indicates the status of the concept." ] ;
+     fhir:type [ fhir:v "code" ]
+  ] [
+     fhir:code [ fhir:v "retirementDate" ] ;
+     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#retirementDate"^^xsd:anyURI ] ;
+     fhir:description [ fhir:v "Date Concept was retired" ] ;
      fhir:type [ fhir:v "dateTime" ]
   ] ) ; # 
   fhir:concept ( [
@@ -85,6 +101,12 @@
          a fhir:dateTime ;
          fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "4320" ] ;
@@ -109,6 +131,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -135,6 +163,12 @@
          a fhir:dateTime ;
          fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "4410" ] ;
@@ -160,6 +194,12 @@
          a fhir:dateTime ;
          fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "4420" ] ;
@@ -175,6 +215,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -201,6 +247,12 @@
          a fhir:dateTime ;
          fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "4520" ] ;
@@ -225,6 +277,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -251,6 +309,12 @@
          a fhir:dateTime ;
          fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "4610" ] ;
@@ -275,6 +339,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -301,6 +371,12 @@
          a fhir:dateTime ;
          fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "4630" ] ;
@@ -325,6 +401,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -351,6 +433,12 @@
          a fhir:dateTime ;
          fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "4650" ] ;
@@ -375,6 +463,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -401,6 +495,12 @@
          a fhir:dateTime ;
          fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "4720" ] ;
@@ -425,6 +525,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -451,6 +557,12 @@
          a fhir:dateTime ;
          fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "4740" ] ;
@@ -476,6 +588,12 @@
          a fhir:dateTime ;
          fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "4810" ] ;
@@ -492,6 +610,12 @@
          a fhir:dateTime ;
          fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "4820" ] ;
@@ -507,6 +631,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -533,6 +663,12 @@
          a fhir:dateTime ;
          fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "4920" ] ;
@@ -557,6 +693,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -583,6 +725,12 @@
          a fhir:dateTime ;
          fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "4940" ] ;
@@ -607,6 +755,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2020-06-26T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] ) . # 

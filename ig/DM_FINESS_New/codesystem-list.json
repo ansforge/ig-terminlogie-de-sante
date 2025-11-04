@@ -2611,6 +2611,24 @@
       "oids" : ["1.2.250.1.213.1.6.1.379"]
     },
     {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
+      "version" : "20251104120000",
+      "status" : "active",
+      "name" : "TreR401ActiviteSocialeRegulee",
+      "title" : "Tre R401 Activite Sociale Regulee",
+      "description" : "Activité Sociale Régulée de FINESS",
+      "oids" : ["1.2.250.1.213.1.6.1.380"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+      "version" : "20251104120000",
+      "status" : "active",
+      "name" : "TreR401ActiviteEnseignementRegulee",
+      "title" : "Tre R402 Activite Enseignement Regulee",
+      "description" : "Activité Enseignement Régulée de FINESS",
+      "oids" : ["1.2.250.1.213.1.6.1.381"]
+    },
+    {
       "url" : "https://smt.esante.gouv.fr/terminologie-SERAFINPH",
       "version" : "2023.1.0",
       "status" : "active",
