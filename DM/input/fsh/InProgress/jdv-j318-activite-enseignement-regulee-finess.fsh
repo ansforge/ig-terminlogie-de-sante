@@ -1,4 +1,4 @@
-Alias: $tre-r402-activite-sanitaire-regulee = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee
+Alias: $tre-r402-activite-enseignement-regulee = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee
 
 ValueSet: JdvJ318ActiviteEnseignementReguleeFiness
 Id: jdv-j318-activite-enseignement-regulee-finess
