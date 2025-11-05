@@ -5,17 +5,17 @@ Id: tre-r397-categorie-entite-geographique-exercice
 Title: "Tre R397 Categorie Entite Geographique Exercice"
 Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TRE R66"
 * ^meta.versionId = "1"
-* ^meta.lastUpdated = "2025-09-22T18:12:58.721+00:00"
+* ^meta.lastUpdated = "2025-12-22T18:12:58.721+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "1979-01-01T00:00:00+01:00"
 * ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.378"
-* ^version = "20250922120000"
+* ^version = "20251222120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-04-25T12:00:00+01:00"
+* ^date = "2025-12-22T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^caseSensitive = false
 * ^content = #complete
@@ -3633,10 +3633,14 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #218 ^property[=].valueCode = #4602
 * #218 ^property[+].code = #dateValid
 * #218 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
+* #218 ^property[+].code = #dateFin
+* #218 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
 * #218 ^property[+].code = #dateMaj
-* #218 ^property[=].valueDateTime = "2005-07-06T00:00:00+01:00"
+* #218 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
+* #218 ^property[+].code = #deprecationDate
+* #218 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
 * #218 ^property[+].code = #status
-* #218 ^property[=].valueCode = #active
+* #218 ^property[=].valueCode = #deprecated
 * #219 "Autre Centre d'Accueil"
 * #219 ^property[0].code = #niveau
 * #219 ^property[=].valueInteger =  4
@@ -3669,10 +3673,14 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #220 ^designation[=].value = "Ctre.Social"
 * #220 ^property[+].code = #dateValid
 * #220 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
+* #220 ^property[+].code = #dateFin
+* #220 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
 * #220 ^property[+].code = #dateMaj
-* #220 ^property[=].valueDateTime = "1990-01-05T00:00:00+01:00"
+* #220 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
+* #220 ^property[+].code = #deprecationDate
+* #220 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
 * #220 ^property[+].code = #status
-* #220 ^property[=].valueCode = #active
+* #220 ^property[=].valueCode = #deprecated
 * #221 "Bureau d'Aide Psychologique Universitaire (B.A.P.U.)"
 * #221 ^property[0].code = #niveau
 * #221 ^property[=].valueInteger =  4
@@ -5293,10 +5301,14 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #324 ^designation[=].value = "Log.Foyer non Spéc."
 * #324 ^property[+].code = #dateValid
 * #324 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
+* #324 ^property[+].code = #dateFin
+* #324 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
 * #324 ^property[+].code = #dateMaj
-* #324 ^property[=].valueDateTime = "2005-07-06T00:00:00+01:00"
+* #324 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
+* #324 ^property[+].code = #deprecationDate
+* #324 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
 * #324 ^property[+].code = #status
-* #324 ^property[=].valueCode = #active
+* #324 ^property[=].valueCode = #deprecated
 * #326 "Ecole de cadres"
 * #326 ^property[0].code = #niveau
 * #326 ^property[=].valueInteger =  4
@@ -5527,10 +5539,14 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #345 ^designation[=].value = "Service de tutelle aux prestations sociales adultes"
 * #345 ^property[+].code = #dateValid
 * #345 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
+* #345 ^property[+].code = #dateFin
+* #345 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
 * #345 ^property[+].code = #dateMaj
-* #345 ^property[=].valueDateTime = "1979-01-23T00:00:00+01:00"
+* #345 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
+* #345 ^property[+].code = #deprecationDate
+* #345 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
 * #345 ^property[+].code = #status
-* #345 ^property[=].valueCode = #active
+* #345 ^property[=].valueCode = #deprecated
 * #346 "Service de Travailleuses Familiales"
 * #346 ^property[0].code = #niveau
 * #346 ^property[=].valueInteger =  4
@@ -5743,10 +5759,14 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #359 ^designation[=].value = "Ctre.Circons.San.Soc"
 * #359 ^property[+].code = #dateValid
 * #359 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
+* #359 ^property[+].code = #dateFin
+* #359 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
 * #359 ^property[+].code = #dateMaj
-* #359 ^property[=].valueDateTime = "1979-01-23T00:00:00+01:00"
+* #359 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
+* #359 ^property[+].code = #deprecationDate
+* #359 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
 * #359 ^property[+].code = #status
-* #359 ^property[=].valueCode = #active
+* #359 ^property[=].valueCode = #deprecated
 * #361 "Centre de Cure Médicale"
 * #361 ^property[0].code = #niveau
 * #361 ^property[=].valueInteger =  4
@@ -6387,10 +6407,14 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #400 ^designation[=].value = "Ctre.Services Assoc."
 * #400 ^property[+].code = #dateValid
 * #400 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
+* #400 ^property[+].code = #dateFin
+* #400 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
 * #400 ^property[+].code = #dateMaj
-* #400 ^property[=].valueDateTime = "1982-11-19T00:00:00+01:00"
+* #400 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
+* #400 ^property[+].code = #deprecationDate
+* #400 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
 * #400 ^property[+].code = #status
-* #400 ^property[=].valueCode = #active
+* #400 ^property[=].valueCode = #deprecated
 * #401 "D.R.A.S.S."
 * #401 ^property[0].code = #niveau
 * #401 ^property[=].valueInteger =  4
@@ -6445,10 +6469,14 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #403 ^designation[=].value = "Serv.Soc.Spéc.Pol.Ca"
 * #403 ^property[+].code = #dateValid
 * #403 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
+* #403 ^property[+].code = #dateFin
+* #403 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
 * #403 ^property[+].code = #dateMaj
-* #403 ^property[=].valueDateTime = "1994-07-05T00:00:00+01:00"
+* #403 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
+* #403 ^property[+].code = #deprecationDate
+* #403 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
 * #403 ^property[+].code = #status
-* #403 ^property[=].valueCode = #active
+* #403 ^property[=].valueCode = #deprecated
 * #404 "Etablissement Acc.Collect.Parental Régulier & Occasionnel"
 * #404 ^property[0].code = #niveau
 * #404 ^property[=].valueInteger =  4
@@ -6489,10 +6517,14 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #405 ^designation[=].value = "Serv.Soc.Polyv.Sect."
 * #405 ^property[+].code = #dateValid
 * #405 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
+* #405 ^property[+].code = #dateFin
+* #405 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
 * #405 ^property[+].code = #dateMaj
-* #405 ^property[=].valueDateTime = "1982-12-08T00:00:00+01:00"
+* #405 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
+* #405 ^property[+].code = #deprecationDate
+* #405 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
 * #405 ^property[+].code = #status
-* #405 ^property[=].valueCode = #active
+* #405 ^property[=].valueCode = #deprecated
 * #411 "Intermédiaire de Placement Social"
 * #411 ^property[0].code = #niveau
 * #411 ^property[=].valueInteger =  4
