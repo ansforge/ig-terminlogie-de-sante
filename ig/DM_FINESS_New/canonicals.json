@@ -3470,14 +3470,6 @@
     "oids" : ["1.2.250.1.213.1.6.1.132"]
   },
   {
-    "id" : "vs-tre-r279-public-activite-smsse-regulee-all",
-    "type" : "ValueSet",
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele?vs",
-    "version" : "20250222120000",
-    "name" : "VsTreR279PublicActiviteSmsseReguleeAll",
-    "oids" : ["1.2.250.1.213.1.6.1.336"]
-  },
-  {
     "id" : "TRE-R280-DisciplineEquipementSocial",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R280-DisciplineEquipementSocial/FHIR/TRE-R280-DisciplineEquipementSocial",
@@ -3590,14 +3582,6 @@
     "oids" : ["1.2.250.1.213.1.6.1.192"]
   },
   {
-    "id" : "vs-tre-r293-agregat-public-activite-smsse-regulee-niv1-all",
-    "type" : "ValueSet",
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R293-AgregatClienteleNiv1/FHIR/TRE-R293-AgregatClienteleNiv1?vs",
-    "version" : "20250222120000",
-    "name" : "VsTreR293AgregatPublicActiviteSmsseReguleeNiv1All",
-    "oids" : ["1.2.250.1.213.1.6.1.337"]
-  },
-  {
     "id" : "TRE-R293-AgregatClienteleNiv2",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R293-AgregatClienteleNiv2/FHIR/TRE-R293-AgregatClienteleNiv2",
@@ -3612,14 +3596,6 @@
     "version" : "20251015120000",
     "name" : "TRE_R294_AgregatClienteleNiv2",
     "oids" : ["1.2.250.1.213.1.6.1.193"]
-  },
-  {
-    "id" : "vs-tre-r294-public-activite-smsse-regulee-niv2-all",
-    "type" : "ValueSet",
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R294-AgregatClienteleNiv2/FHIR/TRE-R294-AgregatClienteleNiv2?vs",
-    "version" : "20250222120000",
-    "name" : "VsTreR294PublicActiviteSmsseReguleeNiv2All",
-    "oids" : ["1.2.250.1.213.1.6.1.338"]
   },
   {
     "id" : "TRE-R294-AgregatClienteleNiv3",
@@ -4988,6 +4964,14 @@
     "version" : "20251104120000",
     "name" : "TreR401ActiviteEnseignementRegulee",
     "oids" : ["1.2.250.1.213.1.6.1.381"]
+  },
+  {
+    "id" : "tre-r403-public-activite-smsse-regulee",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
+    "version" : "20251104120000",
+    "name" : "TreR403PublicActiviteSmsseRegulee",
+    "oids" : ["1.2.250.1.213.1.6.1.382"]
   },
   {
     "id" : "alignement-nuva-bdpm",
@@ -6730,6 +6714,30 @@
     "version" : "20251104120000",
     "name" : "JdvJ326ActiviteSocialeReguleeNiv3Finess",
     "oids" : ["1.2.250.1.213.1.6.1.334"]
+  },
+  {
+    "id" : "jdv-j328-public-activite-smsse-regulee-finess",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j328-public-activite-smsse-regulee-finess",
+    "version" : "20251104120000",
+    "name" : "JdvJ328PublicActiviteSmsseReguleeFiness",
+    "oids" : ["1.2.250.1.213.1.6.1.336"]
+  },
+  {
+    "id" : "jdv-j329-public-activite-smsse-regulee-niv1-finess",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j329-public-activite-smsse-regulee-niv1-finess",
+    "version" : "20251104120000",
+    "name" : "JdvJ329PublicActiviteSmsseReguleeNiv1Finess",
+    "oids" : ["1.2.250.1.213.1.6.1.337"]
+  },
+  {
+    "id" : "jdv-j330-public-activite-smsse-regulee-niv2-finess",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j330-public-activite-smsse-regulee-niv2-finess",
+    "version" : "20251104120000",
+    "name" : "JdvJ330PublicActiviteSmsseReguleeNiv2Finess",
+    "oids" : ["1.2.250.1.213.1.6.1.338"]
   },
   {
     "id" : "jdv-j331-type-act-sociale-regulee-finess",

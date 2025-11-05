@@ -35534,6 +35534,42 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-j328-public-activite-smsse-regulee-finess"
+      },
+      "name" : "Jdv J328 Public Activite Smsse Regulee Finess",
+      "description" : "Jeu de valeurs FINESS contenant les codes des publics des activités régulées de niveau 3",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j329-public-activite-smsse-regulee-niv1-finess"
+      },
+      "name" : "Jdv J329 Public Activite Smsse Regulee Niv1 Finess",
+      "description" : "Jeu de valeurs FINESS contenant les codes des publics des activités régulées de niveau 1",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j330-public-activite-smsse-regulee-niv2-finess"
+      },
+      "name" : "Jdv J330 Public Activite Smsse Regulee Niv2 Finess",
+      "description" : "Jeu de valeurs FINESS contenant les codes des publics des activités régulées de niveau 2",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-j331-type-act-sociale-regulee-finess"
       },
       "name" : "Jdv J331 Type Act Sociale Regulee Finess",
@@ -43109,6 +43145,18 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
+        "reference" : "CodeSystem/tre-r403-public-activite-smsse-regulee"
+      },
+      "name" : "Tre R403 Public Activite Smsse Regulee",
+      "description" : "Clientèles",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
         "reference" : "CodeSystem/TRE-A00-ProducteurDocNonPS"
       },
       "name" : "TRE_A00_ProducteurDocNonPS",
@@ -46277,42 +46325,6 @@
       },
       "name" : "Vs Tre R276 Forme Activite Smsse Regulee All",
       "description" : "Jeu de valeurs ALL contenant les types d'organisation de prise en charge",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/vs-tre-r279-public-activite-smsse-regulee-all"
-      },
-      "name" : "Vs Tre R279 Public Activite Smsse Regulee All",
-      "description" : "Jeu de valeurs ALL contenant les agrégats des activitées SMSSE régulées pour le public de niveau 1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/vs-tre-r293-agregat-public-activite-smsse-regulee-niv1-all"
-      },
-      "name" : "Vs Tre R293 Agregat Public Activite Smsse Regulee Niv1 All",
-      "description" : "Jeu de valeurs ALL contenant les agrégats des activitées SMSSE régulées pour le public niveau 1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/vs-tre-r294-public-activite-smsse-regulee-niv2-all"
-      },
-      "name" : "Vs Tre R294 Public Activite Smsse Regulee Niv2 All",
-      "description" : "Jeu de valeurs ALL contenant les activités SMSSE régulées pour le public de niveau 2",
       "exampleBoolean" : false
     },
     {

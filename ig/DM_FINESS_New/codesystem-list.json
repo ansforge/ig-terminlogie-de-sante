@@ -2629,6 +2629,15 @@
       "oids" : ["1.2.250.1.213.1.6.1.381"]
     },
     {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
+      "version" : "20251104120000",
+      "status" : "active",
+      "name" : "TreR403PublicActiviteSmsseRegulee",
+      "title" : "Tre R403 Public Activite Smsse Regulee",
+      "description" : "Clientèles",
+      "oids" : ["1.2.250.1.213.1.6.1.382"]
+    },
+    {
       "url" : "https://smt.esante.gouv.fr/terminologie-SERAFINPH",
       "version" : "2023.1.0",
       "status" : "active",

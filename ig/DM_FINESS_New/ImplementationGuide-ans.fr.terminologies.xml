@@ -26397,6 +26397,39 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-j328-public-activite-smsse-regulee-finess"/>
+      </reference>
+      <name value="Jdv J328 Public Activite Smsse Regulee Finess"/>
+      <description value="Jeu de valeurs FINESS contenant les codes des publics des activités régulées de niveau 3"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j329-public-activite-smsse-regulee-niv1-finess"/>
+      </reference>
+      <name value="Jdv J329 Public Activite Smsse Regulee Niv1 Finess"/>
+      <description value="Jeu de valeurs FINESS contenant les codes des publics des activités régulées de niveau 1"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j330-public-activite-smsse-regulee-niv2-finess"/>
+      </reference>
+      <name value="Jdv J330 Public Activite Smsse Regulee Niv2 Finess"/>
+      <description value="Jeu de valeurs FINESS contenant les codes des publics des activités régulées de niveau 2"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-j331-type-act-sociale-regulee-finess"/>
       </reference>
       <name value="Jdv J331 Type Act Sociale Regulee Finess"/>
@@ -33340,6 +33373,17 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/tre-r403-public-activite-smsse-regulee"/>
+      </reference>
+      <name value="Tre R403 Public Activite Smsse Regulee"/>
+      <description value="Clientèles"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/TRE-A00-ProducteurDocNonPS"/>
       </reference>
       <name value="TRE_A00_ProducteurDocNonPS"/>
@@ -36244,39 +36288,6 @@
       </reference>
       <name value="Vs Tre R276 Forme Activite Smsse Regulee All"/>
       <description value="Jeu de valeurs ALL contenant les types d'organisation de prise en charge"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/vs-tre-r279-public-activite-smsse-regulee-all"/>
-      </reference>
-      <name value="Vs Tre R279 Public Activite Smsse Regulee All"/>
-      <description value="Jeu de valeurs ALL contenant les agrégats des activitées SMSSE régulées pour le public de niveau 1"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/vs-tre-r293-agregat-public-activite-smsse-regulee-niv1-all"/>
-      </reference>
-      <name value="Vs Tre R293 Agregat Public Activite Smsse Regulee Niv1 All"/>
-      <description value="Jeu de valeurs ALL contenant les agrégats des activitées SMSSE régulées pour le public niveau 1"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/vs-tre-r294-public-activite-smsse-regulee-niv2-all"/>
-      </reference>
-      <name value="Vs Tre R294 Public Activite Smsse Regulee Niv2 All"/>
-      <description value="Jeu de valeurs ALL contenant les activités SMSSE régulées pour le public de niveau 2"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

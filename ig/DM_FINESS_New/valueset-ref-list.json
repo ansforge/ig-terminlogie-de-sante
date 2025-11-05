@@ -3658,45 +3658,6 @@
       "sources" : ["1.2.250.1.213.1.6.1.347"]
     },
     {
-      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele?vs",
-      "version" : "20250222120000",
-      "status" : "active",
-      "name" : "VsTreR279PublicActiviteSmsseReguleeAll",
-      "title" : "Vs Tre R279 Public Activite Smsse Regulee All",
-      "description" : "Jeu de valeurs ALL contenant les agrégats des activitées SMSSE régulées pour le public de niveau 1",
-      "systems" : [
-        "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"
-      ],
-      "oids" : ["1.2.250.1.213.1.6.1.336"],
-      "sources" : ["1.2.250.1.213.1.6.1.336"]
-    },
-    {
-      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R293-AgregatClienteleNiv1/FHIR/TRE-R293-AgregatClienteleNiv1?vs",
-      "version" : "20250222120000",
-      "status" : "active",
-      "name" : "VsTreR293AgregatPublicActiviteSmsseReguleeNiv1All",
-      "title" : "Vs Tre R293 Agregat Public Activite Smsse Regulee Niv1 All",
-      "description" : "Jeu de valeurs ALL contenant les agrégats des activitées SMSSE régulées pour le public niveau 1",
-      "systems" : [
-        "https://mos.esante.gouv.fr/NOS/TRE_R293-AgregatClienteleNiv1/FHIR/TRE-R293-AgregatClienteleNiv1"
-      ],
-      "oids" : ["1.2.250.1.213.1.6.1.337"],
-      "sources" : ["1.2.250.1.213.1.6.1.337"]
-    },
-    {
-      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R294-AgregatClienteleNiv2/FHIR/TRE-R294-AgregatClienteleNiv2?vs",
-      "version" : "20250222120000",
-      "status" : "active",
-      "name" : "VsTreR294PublicActiviteSmsseReguleeNiv2All",
-      "title" : "Vs Tre R294 Public Activite Smsse Regulee Niv2 All",
-      "description" : "Jeu de valeurs ALL contenant les activités SMSSE régulées pour le public de niveau 2",
-      "systems" : [
-        "https://mos.esante.gouv.fr/NOS/TRE_R294-AgregatClienteleNiv2/FHIR/TRE-R294-AgregatClienteleNiv2"
-      ],
-      "oids" : ["1.2.250.1.213.1.6.1.338"],
-      "sources" : ["1.2.250.1.213.1.6.1.338"]
-    },
-    {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM?vs",
       "version" : "20250222120000",
       "status" : "active",
@@ -6772,6 +6733,45 @@
       ],
       "oids" : ["1.2.250.1.213.1.6.1.334"],
       "sources" : ["1.2.250.1.213.1.6.1.334"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j328-public-activite-smsse-regulee-finess",
+      "version" : "20251104120000",
+      "status" : "active",
+      "name" : "JdvJ328PublicActiviteSmsseReguleeFiness",
+      "title" : "Jdv J328 Public Activite Smsse Regulee Finess",
+      "description" : "Jeu de valeurs FINESS contenant les codes des publics des activités régulées de niveau 3",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.336"],
+      "sources" : ["1.2.250.1.213.1.6.1.336"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j329-public-activite-smsse-regulee-niv1-finess",
+      "version" : "20251104120000",
+      "status" : "active",
+      "name" : "JdvJ329PublicActiviteSmsseReguleeNiv1Finess",
+      "title" : "Jdv J329 Public Activite Smsse Regulee Niv1 Finess",
+      "description" : "Jeu de valeurs FINESS contenant les codes des publics des activités régulées de niveau 1",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.337"],
+      "sources" : ["1.2.250.1.213.1.6.1.337"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j330-public-activite-smsse-regulee-niv2-finess",
+      "version" : "20251104120000",
+      "status" : "active",
+      "name" : "JdvJ330PublicActiviteSmsseReguleeNiv2Finess",
+      "title" : "Jdv J330 Public Activite Smsse Regulee Niv2 Finess",
+      "description" : "Jeu de valeurs FINESS contenant les codes des publics des activités régulées de niveau 2",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.338"],
+      "sources" : ["1.2.250.1.213.1.6.1.338"]
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j331-type-act-sociale-regulee-finess",
