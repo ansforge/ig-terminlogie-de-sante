@@ -4,7 +4,7 @@
    <ValueSet dateFin=""
              dateMaj="20251104120000"
              dateValid="20251104120000"
-             description="Clientèles"
+             description="Public Activité SMSSE Régulée de FINESS"
              displayName="TreR403PublicActiviteSmsseRegulee"
              id="1.2.250.1.213.1.6.1.382"
              typeFichier="TRE"

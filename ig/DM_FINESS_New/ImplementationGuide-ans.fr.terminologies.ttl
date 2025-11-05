@@ -49503,8 +49503,8 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j372-conventiont-rass> ;
-         fhir:reference [ fhir:v "ValueSet/jdv-j372-conventiont-rass" ]
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j372-convention-rass> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j372-convention-rass" ]
        ] ;
        fhir:name [ fhir:v "Jdv J372 Convention Rass" ] ;
        fhir:description [ fhir:v "Jeu de valeurs RASS contenant les engagements de type Convention." ] ;
@@ -59736,6 +59736,24 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r406-forme-activite-smsse-regulee> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r406-forme-activite-smsse-regulee" ]
+       ] ;
+       fhir:name [ fhir:v "Tre 406 Forme Activite Smsse Regulee" ] ;
+       fhir:description [ fhir:v "Formes des activites smsse régulées" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee> ;
          fhir:reference [ fhir:v "CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ]
        ] ;
@@ -60406,7 +60424,43 @@
          fhir:reference [ fhir:v "CodeSystem/tre-r403-public-activite-smsse-regulee" ]
        ] ;
        fhir:name [ fhir:v "Tre R403 Public Activite Smsse Regulee" ] ;
-       fhir:description [ fhir:v "Clientèles" ] ;
+       fhir:description [ fhir:v "Public Activité SMSSE Régulée de FINESS" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee" ]
+       ] ;
+       fhir:name [ fhir:v "Tre R404 Mode Fonctionnemet Activite Smsse Regulee" ] ;
+       fhir:description [ fhir:v "Mode de fonctinonemment des activités ssmsse régulées" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r405-modalite-activite-smsse-regulee> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r405-modalite-activite-smsse-regulee" ]
+       ] ;
+       fhir:name [ fhir:v "Tre R405 Modalite Activite Smsse Regulee" ] ;
+       fhir:description [ fhir:v "Modalités des activités SSMSE régulées" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -65060,24 +65114,6 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r209-mode-fonctionnement-all> ;
-         fhir:reference [ fhir:v "ValueSet/vs-tre-r209-mode-fonctionnement-all" ]
-       ] ;
-       fhir:name [ fhir:v "Vs Tre R209 Mode Fonctionnement All" ] ;
-       fhir:description [ fhir:v "Jeu de valeurs ALL contenant les modes de fonctionnement" ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r272-equipement-materiel-lourd-all> ;
          fhir:reference [ fhir:v "ValueSet/vs-tre-r272-equipement-materiel-lourd-all" ]
        ] ;
@@ -65101,42 +65137,6 @@
        ] ;
        fhir:name [ fhir:v "Vs Tre R274 Activite Sanitaire Regulee All" ] ;
        fhir:description [ fhir:v "Jeu de valeurs FINESS contenant les activités sanitaires soumises à une régulation de la part de l'ARS." ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r275-modalite-activite-smsse-regulee-all> ;
-         fhir:reference [ fhir:v "ValueSet/vs-tre-r275-modalite-activite-smsse-regulee-all" ]
-       ] ;
-       fhir:name [ fhir:v "Vs Tre R275 Modalite Activite Smsse Regulee All" ] ;
-       fhir:description [ fhir:v "Jeu de valeurs ALL contenant les modes d'application ou types de soins encadrant une activité" ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r276-forme-activite-smsse-regulee-all> ;
-         fhir:reference [ fhir:v "ValueSet/vs-tre-r276-forme-activite-smsse-regulee-all" ]
-       ] ;
-       fhir:name [ fhir:v "Vs Tre R276 Forme Activite Smsse Regulee All" ] ;
-       fhir:description [ fhir:v "Jeu de valeurs ALL contenant les types d'organisation de prise en charge" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false

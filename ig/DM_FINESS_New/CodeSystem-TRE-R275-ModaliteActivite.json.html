@@ -268,8 +268,8 @@
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem">resourceType</a>" : "CodeSystem",
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.id">id</a>" : "TRE-R275-ModaliteActivite",
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.meta">meta</a>" : {
-    "<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.versionId">versionId</a>" : "4",
-    "<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.lastUpdated">lastUpdated</a>" : "2024-08-28T05:13:01.580+00:00",
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.versionId">versionId</a>" : "5",
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.lastUpdated">lastUpdated</a>" : "2025-07-02T18:17:01.194+00:00",
     "<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>" : [
       <a href="http://hl7.org/fhir/R4/shareablecodesystem.html" style="color: Maroon">&#x1F517;</a> "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
     ]
@@ -300,10 +300,18 @@
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.date">date</a>" : "2023-12-15T12:00:00+01:00",
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.publisher">publisher</a>" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.description">description</a>" : "Mode d'application ou type de soins encadrant une activité",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.jurisdiction">jurisdiction</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "urn:iso:std:iso:3166",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "FR"
+        }
+      ]
+    }
+  ],
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.caseSensitive">caseSensitive</a>" : false,
-  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.valueSet">valueSet</a>" : "https://mos.esante.gouv.fr/NOS/TRE_R275-ModaliteActivite/FHIR/TRE-R275-ModaliteActivite?vs",
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.content">content</a>" : "complete",
-  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.count">count</a>" : 183,
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property">property</a>" : [
     {
       "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.code">code</a>" : "dateValid",
@@ -319,6 +327,24 @@
       "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.code">code</a>" : "dateFin",
       "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.description">description</a>" : "Date de fin d'exploitation d'un code concept",
       "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.type">type</a>" : "dateTime"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.code">code</a>" : "deprecationDate",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.uri">uri</a>" : "http://hl7.org/fhir/concept-properties#deprecationDate",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.description">description</a>" : "Date Concept was deprecated",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.type">type</a>" : "dateTime"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.code">code</a>" : "status",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.uri">uri</a>" : "http://hl7.org/fhir/concept-properties#status",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.description">description</a>" : "A property that indicates the status of the concept.",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.type">type</a>" : "code"
+    },
+    {
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.code">code</a>" : "retirementDate",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.uri">uri</a>" : "http://hl7.org/fhir/concept-properties#retirementDate",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.description">description</a>" : "Date Concept was retired",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.type">type</a>" : "dateTime"
     }
   ],
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>" : [
@@ -333,6 +359,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -347,6 +377,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -361,6 +395,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -375,6 +413,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -389,6 +431,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -403,6 +449,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -417,6 +467,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -431,6 +485,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -445,6 +503,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -459,6 +521,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -473,6 +539,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -487,6 +557,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -501,6 +575,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -515,6 +593,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -529,6 +611,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -543,6 +629,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -557,6 +647,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -571,6 +665,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -585,6 +683,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -599,6 +701,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -613,6 +719,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -627,6 +737,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -641,6 +755,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -655,6 +773,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -669,6 +791,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -683,6 +809,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -697,6 +827,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -711,6 +845,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -725,6 +863,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -739,6 +881,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -753,6 +899,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -767,6 +917,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -781,6 +935,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -805,6 +963,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -829,6 +991,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -853,6 +1019,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -877,6 +1047,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -901,6 +1075,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-09-28T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -919,6 +1097,14 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-09-28T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "deprecationDate",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-09-28T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "deprecated"
         }
       ]
     },
@@ -933,6 +1119,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-09-28T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -961,6 +1151,14 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-09-28T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "deprecationDate",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-09-28T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "deprecated"
         }
       ]
     },
@@ -979,6 +1177,14 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-09-28T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "deprecationDate",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-09-28T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "deprecated"
         }
       ]
     },
@@ -997,6 +1203,14 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-09-28T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "deprecationDate",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-09-28T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "deprecated"
         }
       ]
     },
@@ -1011,6 +1225,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1025,6 +1243,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1039,6 +1261,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1053,6 +1279,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1067,6 +1297,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1081,6 +1315,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1095,6 +1333,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1109,6 +1351,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1133,6 +1379,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1147,6 +1397,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1161,6 +1415,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1175,6 +1433,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1189,6 +1451,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1203,6 +1469,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1227,6 +1497,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1251,6 +1525,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1265,6 +1543,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1289,6 +1571,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1303,6 +1589,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1317,6 +1607,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1331,6 +1625,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1345,6 +1643,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1359,6 +1661,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1373,6 +1679,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1387,6 +1697,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1401,6 +1715,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1415,6 +1733,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1429,6 +1751,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1443,6 +1769,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1457,6 +1787,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1471,6 +1805,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1485,6 +1823,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-09-28T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1499,6 +1841,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-09-28T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1513,6 +1859,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-09-28T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1537,6 +1887,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-09-28T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1551,6 +1905,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-09-28T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1565,6 +1923,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-09-28T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1579,6 +1941,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1593,6 +1959,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1607,6 +1977,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1621,6 +1995,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1635,6 +2013,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1649,6 +2031,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1663,6 +2049,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1677,6 +2067,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1691,6 +2085,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1705,6 +2103,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1719,6 +2121,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1733,6 +2139,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1747,6 +2157,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1761,6 +2175,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1775,6 +2193,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1789,6 +2211,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1803,6 +2229,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1817,6 +2247,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1831,6 +2265,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1845,6 +2283,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1859,6 +2301,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1873,6 +2319,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1887,6 +2337,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1901,6 +2355,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1915,6 +2373,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1939,6 +2401,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1953,6 +2419,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1967,6 +2437,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1981,6 +2455,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -1995,6 +2473,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2009,6 +2491,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2023,6 +2509,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2037,6 +2527,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2051,6 +2545,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2065,6 +2563,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2079,6 +2581,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2093,6 +2599,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2107,6 +2617,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2121,6 +2635,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2135,6 +2653,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2149,6 +2671,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2163,6 +2689,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2177,6 +2707,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2191,6 +2725,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2205,6 +2743,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2219,6 +2761,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2233,6 +2779,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2247,6 +2797,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2022-03-25T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2261,6 +2815,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2275,6 +2833,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2289,6 +2851,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2303,6 +2869,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2317,6 +2887,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2331,6 +2905,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2345,6 +2923,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2359,6 +2941,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2373,6 +2959,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2387,6 +2977,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2401,6 +2995,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2415,6 +3013,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2429,6 +3031,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2443,6 +3049,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2457,6 +3067,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2471,6 +3085,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2485,6 +3103,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2499,6 +3121,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2513,6 +3139,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2527,6 +3157,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2541,6 +3175,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2555,6 +3193,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2569,6 +3211,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2583,6 +3229,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2597,6 +3247,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2611,6 +3265,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2018-07-27T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2625,6 +3283,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2639,6 +3301,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2653,6 +3319,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2667,6 +3337,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2681,6 +3355,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2695,6 +3373,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2709,6 +3391,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2723,6 +3409,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2737,6 +3427,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2751,6 +3445,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2765,6 +3463,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2779,6 +3481,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2793,6 +3499,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2807,6 +3517,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2821,6 +3535,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2835,6 +3553,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2849,6 +3571,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2863,6 +3589,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2877,6 +3607,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2891,6 +3625,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2905,6 +3643,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2919,6 +3661,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2933,6 +3679,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2947,6 +3697,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2961,6 +3715,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2975,6 +3733,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -2989,6 +3751,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -3003,6 +3769,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     },
@@ -3017,6 +3787,10 @@
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "2019-12-13T12:00:00+01:00"
+        },
+        {
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
         }
       ]
     }
@@ -3067,7 +3841,7 @@
 
 <div class="inner-wrapper">
   <p>
-    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Nov 5, 2025 12:12+0000">2025-11-05</span>
+    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Nov 5, 2025 14:25+0000">2025-11-05</span>
     <br/>
     <span style="color: var(--footer-highlight-text-color)"></span>
       Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

@@ -2863,14 +2863,6 @@
     "oids" : ["1.2.250.1.213.2.2"]
   },
   {
-    "id" : "vs-tre-r209-mode-fonctionnement-all",
-    "type" : "ValueSet",
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R209-TypeActivite/FHIR/TRE-R209-TypeActivite?vs",
-    "version" : "20250222120000",
-    "name" : "VsTreR209ModeFonctionnementAll",
-    "oids" : ["1.2.250.1.213.1.6.1.335"]
-  },
-  {
     "id" : "TRE-R21-Fonction",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R21-Fonction/FHIR/TRE-R21-Fonction",
@@ -3422,28 +3414,12 @@
     "oids" : ["1.2.250.1.213.1.6.1.127"]
   },
   {
-    "id" : "vs-tre-r275-modalite-activite-smsse-regulee-all",
-    "type" : "ValueSet",
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R275-ModaliteActivite/FHIR/TRE-R275-ModaliteActivite?vs",
-    "version" : "20250222120000",
-    "name" : "VsTreR275ModaliteActiviteSmsseReguleeAll",
-    "oids" : ["1.2.250.1.213.1.6.1.346"]
-  },
-  {
     "id" : "TRE-R276-FormeActivite",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
     "version" : "20240329120000",
     "name" : "TRE_R276_FormeActivite",
     "oids" : ["1.2.250.1.213.1.6.1.128"]
-  },
-  {
-    "id" : "vs-tre-r276-forme-activite-smsse-regulee-all",
-    "type" : "ValueSet",
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite?vs",
-    "version" : "20250222120000",
-    "name" : "VsTreR276FormeActiviteSmsseReguleeAll",
-    "oids" : ["1.2.250.1.213.1.6.1.347"]
   },
   {
     "id" : "TRE-R277-CategorieActiviteSanitaireRegulee",
@@ -4892,6 +4868,30 @@
     "version" : "20251104120000",
     "name" : "TreR403PublicActiviteSmsseRegulee",
     "oids" : ["1.2.250.1.213.1.6.1.382"]
+  },
+  {
+    "id" : "tre-r404-mode-fonctionnement-activite-smsse-regulee",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee",
+    "version" : "20251105120000",
+    "name" : "TreR404ModeFonctionnemetActiviteSmsseRegulee",
+    "oids" : ["1.2.250.1.213.1.6.1.383"]
+  },
+  {
+    "id" : "tre-r405-modalite-activite-smsse-regulee",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee",
+    "version" : "20251105120000",
+    "name" : "TreR405ModaliteActiviteSmsseRegulee",
+    "oids" : ["1.2.250.1.213.1.6.1.384"]
+  },
+  {
+    "id" : "tre-r406-forme-activite-smsse-regulee",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee",
+    "version" : "20251105120000",
+    "name" : "Tre406FormeActiviteSmsseRegulee",
+    "oids" : ["1.2.250.1.213.1.6.1.385"]
   },
   {
     "id" : "alignement-nuva-bdpm",
@@ -6460,14 +6460,6 @@
     "oids" : ["1.2.250.1.213.1.6.1.267"]
   },
   {
-    "id" : "jdv-j372-conventiont-rass",
-    "type" : "ValueSet",
-    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j293-type-engagement-finess",
-    "version" : "20250822120000",
-    "name" : "JdvJ372ConventionRass",
-    "oids" : ["1.2.250.1.213.1.6.1.377"]
-  },
-  {
     "id" : "jdv-j294-document-justificatif-finess",
     "type" : "ValueSet",
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j294-document-justificatif-finess",
@@ -6922,6 +6914,14 @@
     "version" : "20250222120000",
     "name" : "JdvJ371EtatObjetAdministratifFiness",
     "oids" : ["1.2.250.1.213.1.6.1.305"]
+  },
+  {
+    "id" : "jdv-j372-convention-rass",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j372-convention-rass",
+    "version" : "20250822120000",
+    "name" : "JdvJ372ConventionRass",
+    "oids" : ["1.2.250.1.213.1.6.1.377"]
   },
   {
     "id" : "jdv-j373-type-autorite",

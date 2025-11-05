@@ -26793,7 +26793,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/jdv-j372-conventiont-rass"/>
+        <reference value="ValueSet/jdv-j372-convention-rass"/>
       </reference>
       <name value="Jdv J372 Convention Rass"/>
       <description value="Jeu de valeurs RASS contenant les engagements de type Convention."/>
@@ -33043,6 +33043,17 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/tre-r406-forme-activite-smsse-regulee"/>
+      </reference>
+      <name value="Tre 406 Forme Activite Smsse Regulee"/>
+      <description value="Formes des activites smsse régulées"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       </reference>
       <name value="Tre R347 Activite Sanitaire Diverse Regulee"/>
@@ -33453,7 +33464,29 @@
         <reference value="CodeSystem/tre-r403-public-activite-smsse-regulee"/>
       </reference>
       <name value="Tre R403 Public Activite Smsse Regulee"/>
-      <description value="Clientèles"/>
+      <description value="Public Activité SMSSE Régulée de FINESS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"/>
+      </reference>
+      <name value="Tre R404 Mode Fonctionnemet Activite Smsse Regulee"/>
+      <description value="Mode de fonctinonemment des activités ssmsse régulées"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r405-modalite-activite-smsse-regulee"/>
+      </reference>
+      <name value="Tre R405 Modalite Activite Smsse Regulee"/>
+      <description value="Modalités des activités SSMSE régulées"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -36295,17 +36328,6 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/vs-tre-r209-mode-fonctionnement-all"/>
-      </reference>
-      <name value="Vs Tre R209 Mode Fonctionnement All"/>
-      <description value="Jeu de valeurs ALL contenant les modes de fonctionnement"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
         <reference value="ValueSet/vs-tre-r272-equipement-materiel-lourd-all"/>
       </reference>
       <name value="Vs Tre R272 Equipement Materiel Lourd All"/>
@@ -36321,28 +36343,6 @@
       </reference>
       <name value="Vs Tre R274 Activite Sanitaire Regulee All"/>
       <description value="Jeu de valeurs FINESS contenant les activités sanitaires soumises à une régulation de la part de l'ARS."/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/vs-tre-r275-modalite-activite-smsse-regulee-all"/>
-      </reference>
-      <name value="Vs Tre R275 Modalite Activite Smsse Regulee All"/>
-      <description value="Jeu de valeurs ALL contenant les modes d'application ou types de soins encadrant une activité"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/vs-tre-r276-forme-activite-smsse-regulee-all"/>
-      </reference>
-      <name value="Vs Tre R276 Forme Activite Smsse Regulee All"/>
-      <description value="Jeu de valeurs ALL contenant les types d'organisation de prise en charge"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

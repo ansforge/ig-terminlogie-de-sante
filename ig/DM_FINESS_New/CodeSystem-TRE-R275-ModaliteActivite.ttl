@@ -11,8 +11,8 @@
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "TRE-R275-ModaliteActivite"] ; # 
   fhir:meta [
-     fhir:versionId [ fhir:v "4" ] ;
-     fhir:lastUpdated [ fhir:v "2024-08-28T05:13:01.580+00:00"^^xsd:dateTime ] ;
+     fhir:versionId [ fhir:v "5" ] ;
+     fhir:lastUpdated [ fhir:v "2025-07-02T18:17:01.194+00:00"^^xsd:dateTime ] ;
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"^^xsd:anyURI ;
        fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
@@ -41,13 +41,14 @@
   fhir:date [ fhir:v "2023-12-15T12:00:00+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
   fhir:description [ fhir:v "Mode d'application ou type de soins encadrant une activité"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "FR" ]
+     ] )
+  ] ) ; # 
   fhir:caseSensitive [ fhir:v false] ; # 
-  fhir:valueSet [
-     fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R275-ModaliteActivite/FHIR/TRE-R275-ModaliteActivite?vs"^^xsd:anyURI ;
-     fhir:link <https://mos.esante.gouv.fr/NOS/TRE_R275-ModaliteActivite/FHIR/TRE-R275-ModaliteActivite?vs>
-  ] ; # 
   fhir:content [ fhir:v "complete"] ; # 
-  fhir:count [ fhir:v "183"^^xsd:nonNegativeInteger] ; # 
   fhir:property ( [
      fhir:code [ fhir:v "dateValid" ] ;
      fhir:description [ fhir:v "date de validité d'un code concept" ] ;
@@ -59,6 +60,21 @@
   ] [
      fhir:code [ fhir:v "dateFin" ] ;
      fhir:description [ fhir:v "Date de fin d'exploitation d'un code concept" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "deprecationDate" ] ;
+     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#deprecationDate"^^xsd:anyURI ] ;
+     fhir:description [ fhir:v "Date Concept was deprecated" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "status" ] ;
+     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#status"^^xsd:anyURI ] ;
+     fhir:description [ fhir:v "A property that indicates the status of the concept." ] ;
+     fhir:type [ fhir:v "code" ]
+  ] [
+     fhir:code [ fhir:v "retirementDate" ] ;
+     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#retirementDate"^^xsd:anyURI ] ;
+     fhir:description [ fhir:v "Date Concept was retired" ] ;
      fhir:type [ fhir:v "dateTime" ]
   ] ) ; # 
   fhir:concept ( [
@@ -76,6 +92,12 @@
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "01" ] ;
@@ -91,6 +113,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -108,6 +136,12 @@
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "03" ] ;
@@ -123,6 +157,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -140,6 +180,12 @@
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "05" ] ;
@@ -155,6 +201,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -172,6 +224,12 @@
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "07" ] ;
@@ -187,6 +245,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -204,6 +268,12 @@
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "09" ] ;
@@ -219,6 +289,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -236,6 +312,12 @@
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "11" ] ;
@@ -251,6 +333,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -268,6 +356,12 @@
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "13" ] ;
@@ -283,6 +377,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -300,6 +400,12 @@
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "23" ] ;
@@ -315,6 +421,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -332,6 +444,12 @@
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "26" ] ;
@@ -347,6 +465,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -364,6 +488,12 @@
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "29" ] ;
@@ -379,6 +509,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -396,6 +532,12 @@
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "31" ] ;
@@ -411,6 +553,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -428,6 +576,12 @@
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "41" ] ;
@@ -443,6 +597,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -460,6 +620,12 @@
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "43" ] ;
@@ -475,6 +641,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -492,6 +664,12 @@
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "45" ] ;
@@ -507,6 +685,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -524,6 +708,12 @@
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "47" ] ;
@@ -539,6 +729,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -556,6 +752,12 @@
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "49" ] ;
@@ -572,6 +774,12 @@
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "50" ] ;
@@ -587,6 +795,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -613,6 +827,12 @@
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "52" ] ;
@@ -637,6 +857,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -663,6 +889,12 @@
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "59" ] ;
@@ -687,6 +919,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -713,6 +951,12 @@
          a fhir:dateTime ;
          fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "61" ] ;
@@ -735,6 +979,18 @@
          a fhir:dateTime ;
          fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "deprecationDate" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "deprecated"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "62" ] ;
@@ -750,6 +1006,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -782,6 +1044,18 @@
          a fhir:dateTime ;
          fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "deprecationDate" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "deprecated"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "64" ] ;
@@ -803,6 +1077,18 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "deprecationDate" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "deprecated"
        ]
      ] )
   ] [
@@ -826,6 +1112,18 @@
          a fhir:dateTime ;
          fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "deprecationDate" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "deprecated"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "67" ] ;
@@ -841,6 +1139,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -858,6 +1162,12 @@
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "69" ] ;
@@ -873,6 +1183,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -890,6 +1206,12 @@
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "71" ] ;
@@ -905,6 +1227,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -922,6 +1250,12 @@
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "73" ] ;
@@ -938,6 +1272,12 @@
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "74" ] ;
@@ -953,6 +1293,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -979,6 +1325,12 @@
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "76" ] ;
@@ -994,6 +1346,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -1011,6 +1369,12 @@
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "78" ] ;
@@ -1026,6 +1390,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -1043,6 +1413,12 @@
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "80" ] ;
@@ -1058,6 +1434,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -1084,6 +1466,12 @@
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "82" ] ;
@@ -1109,6 +1497,12 @@
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "83" ] ;
@@ -1124,6 +1518,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -1150,6 +1550,12 @@
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "85" ] ;
@@ -1165,6 +1571,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -1182,6 +1594,12 @@
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "88" ] ;
@@ -1197,6 +1615,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -1214,6 +1638,12 @@
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "90" ] ;
@@ -1229,6 +1659,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -1246,6 +1682,12 @@
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "92" ] ;
@@ -1261,6 +1703,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -1278,6 +1726,12 @@
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "94" ] ;
@@ -1293,6 +1747,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -1310,6 +1770,12 @@
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "97" ] ;
@@ -1325,6 +1791,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -1342,6 +1814,12 @@
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "99" ] ;
@@ -1357,6 +1835,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -1374,6 +1858,12 @@
          a fhir:dateTime ;
          fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "AM" ] ;
@@ -1390,6 +1880,12 @@
          a fhir:dateTime ;
          fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "AN" ] ;
@@ -1405,6 +1901,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -1431,6 +1933,12 @@
          a fhir:dateTime ;
          fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "AQ" ] ;
@@ -1446,6 +1954,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -1463,6 +1977,12 @@
          a fhir:dateTime ;
          fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "B1" ] ;
@@ -1478,6 +1998,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -1495,6 +2021,12 @@
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "B3" ] ;
@@ -1510,6 +2042,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -1527,6 +2065,12 @@
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "B5" ] ;
@@ -1542,6 +2086,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -1559,6 +2109,12 @@
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "B8" ] ;
@@ -1574,6 +2130,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -1591,6 +2153,12 @@
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "C2" ] ;
@@ -1606,6 +2174,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -1623,6 +2197,12 @@
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "C5" ] ;
@@ -1638,6 +2218,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -1655,6 +2241,12 @@
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "C7" ] ;
@@ -1670,6 +2262,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -1687,6 +2285,12 @@
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "C9" ] ;
@@ -1702,6 +2306,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -1719,6 +2329,12 @@
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "D3" ] ;
@@ -1734,6 +2350,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -1751,6 +2373,12 @@
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "D5" ] ;
@@ -1766,6 +2394,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -1783,6 +2417,12 @@
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "D7" ] ;
@@ -1798,6 +2438,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -1815,6 +2461,12 @@
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "D9" ] ;
@@ -1830,6 +2482,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -1847,6 +2505,12 @@
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "E2" ] ;
@@ -1862,6 +2526,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -1888,6 +2558,12 @@
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "E4" ] ;
@@ -1903,6 +2579,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -1920,6 +2602,12 @@
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "E7" ] ;
@@ -1935,6 +2623,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -1952,6 +2646,12 @@
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "E9" ] ;
@@ -1967,6 +2667,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -1984,6 +2690,12 @@
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "F2" ] ;
@@ -1999,6 +2711,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -2016,6 +2734,12 @@
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "F5" ] ;
@@ -2031,6 +2755,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -2048,6 +2778,12 @@
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "F7" ] ;
@@ -2063,6 +2799,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -2080,6 +2822,12 @@
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "G1" ] ;
@@ -2095,6 +2843,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -2112,6 +2866,12 @@
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "G5" ] ;
@@ -2127,6 +2887,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -2144,6 +2910,12 @@
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "G8" ] ;
@@ -2159,6 +2931,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -2176,6 +2954,12 @@
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "H1" ] ;
@@ -2191,6 +2975,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -2208,6 +2998,12 @@
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "H5" ] ;
@@ -2223,6 +3019,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -2240,6 +3042,12 @@
          a fhir:dateTime ;
          fhir:v "2022-03-25T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "H9" ] ;
@@ -2255,6 +3063,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -2272,6 +3086,12 @@
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "M1" ] ;
@@ -2287,6 +3107,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -2304,6 +3130,12 @@
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "M3" ] ;
@@ -2319,6 +3151,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -2336,6 +3174,12 @@
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "M5" ] ;
@@ -2351,6 +3195,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -2368,6 +3218,12 @@
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "M7" ] ;
@@ -2383,6 +3239,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -2400,6 +3262,12 @@
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "M9" ] ;
@@ -2415,6 +3283,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -2432,6 +3306,12 @@
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "N1" ] ;
@@ -2447,6 +3327,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -2464,6 +3350,12 @@
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "N3" ] ;
@@ -2479,6 +3371,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -2496,6 +3394,12 @@
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "N5" ] ;
@@ -2511,6 +3415,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -2528,6 +3438,12 @@
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "N7" ] ;
@@ -2543,6 +3459,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -2560,6 +3482,12 @@
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "N9" ] ;
@@ -2575,6 +3503,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -2592,6 +3526,12 @@
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "P1" ] ;
@@ -2607,6 +3547,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -2624,6 +3570,12 @@
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "P3" ] ;
@@ -2639,6 +3591,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -2656,6 +3614,12 @@
          a fhir:dateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "P5" ] ;
@@ -2671,6 +3635,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -2688,6 +3658,12 @@
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "P7" ] ;
@@ -2703,6 +3679,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -2720,6 +3702,12 @@
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "P9" ] ;
@@ -2735,6 +3723,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -2752,6 +3746,12 @@
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "U1" ] ;
@@ -2767,6 +3767,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -2784,6 +3790,12 @@
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "U3" ] ;
@@ -2799,6 +3811,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -2816,6 +3834,12 @@
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "U5" ] ;
@@ -2831,6 +3855,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -2848,6 +3878,12 @@
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "U8" ] ;
@@ -2863,6 +3899,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -2880,6 +3922,12 @@
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "V1" ] ;
@@ -2895,6 +3943,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -2912,6 +3966,12 @@
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "V3" ] ;
@@ -2927,6 +3987,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -2944,6 +4010,12 @@
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "V5" ] ;
@@ -2959,6 +4031,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -2976,6 +4054,12 @@
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "V7" ] ;
@@ -2991,6 +4075,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -3008,6 +4098,12 @@
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "V9" ] ;
@@ -3023,6 +4119,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -3040,6 +4142,12 @@
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "W2" ] ;
@@ -3055,6 +4163,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -3072,6 +4186,12 @@
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "W4" ] ;
@@ -3087,6 +4207,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -3104,6 +4230,12 @@
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "W6" ] ;
@@ -3119,6 +4251,12 @@
        fhir:value [
          a fhir:dateTime ;
          fhir:v "2019-12-13T12:00:00+01:00"^^xsd:dateTime
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] ) . # 

@@ -2616,8 +2616,35 @@
       "status" : "active",
       "name" : "TreR403PublicActiviteSmsseRegulee",
       "title" : "Tre R403 Public Activite Smsse Regulee",
-      "description" : "Clientèles",
+      "description" : "Public Activité SMSSE Régulée de FINESS",
       "oids" : ["1.2.250.1.213.1.6.1.382"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee",
+      "version" : "20251105120000",
+      "status" : "active",
+      "name" : "TreR404ModeFonctionnemetActiviteSmsseRegulee",
+      "title" : "Tre R404 Mode Fonctionnemet Activite Smsse Regulee",
+      "description" : "Mode de fonctinonemment des activités ssmsse régulées",
+      "oids" : ["1.2.250.1.213.1.6.1.383"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee",
+      "version" : "20251105120000",
+      "status" : "active",
+      "name" : "TreR405ModaliteActiviteSmsseRegulee",
+      "title" : "Tre R405 Modalite Activite Smsse Regulee",
+      "description" : "Modalités des activités SSMSE régulées",
+      "oids" : ["1.2.250.1.213.1.6.1.384"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee",
+      "version" : "20251105120000",
+      "status" : "active",
+      "name" : "Tre406FormeActiviteSmsseRegulee",
+      "title" : "Tre 406 Forme Activite Smsse Regulee",
+      "description" : "Formes des activites smsse régulées",
+      "oids" : ["1.2.250.1.213.1.6.1.385"]
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-SERAFINPH",

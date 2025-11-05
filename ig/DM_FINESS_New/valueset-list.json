@@ -3523,19 +3523,6 @@
       "sources" : ["1.2.250.1.213.1.6.1.370"]
     },
     {
-      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R209-TypeActivite/FHIR/TRE-R209-TypeActivite?vs",
-      "version" : "20250222120000",
-      "status" : "active",
-      "name" : "VsTreR209ModeFonctionnementAll",
-      "title" : "Vs Tre R209 Mode Fonctionnement All",
-      "description" : "Jeu de valeurs ALL contenant les modes de fonctionnement",
-      "systems" : [
-        "https://mos.esante.gouv.fr/NOS/TRE_R209-TypeActivite/FHIR/TRE-R209-TypeActivite"
-      ],
-      "oids" : ["1.2.250.1.213.1.6.1.335"],
-      "sources" : ["1.2.250.1.213.1.6.1.335"]
-    },
-    {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R221-ModeleDocumentCDANonStructure/FHIR/TRE-R221-ModeleDocumentCDANonStructure?vs",
       "version" : "1.1.0",
       "status" : "active",
@@ -3571,32 +3558,6 @@
       ],
       "oids" : ["1.2.250.1.213.1.6.1.345"],
       "sources" : ["1.2.250.1.213.1.6.1.345"]
-    },
-    {
-      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R275-ModaliteActivite/FHIR/TRE-R275-ModaliteActivite?vs",
-      "version" : "20250222120000",
-      "status" : "active",
-      "name" : "VsTreR275ModaliteActiviteSmsseReguleeAll",
-      "title" : "Vs Tre R275 Modalite Activite Smsse Regulee All",
-      "description" : "Jeu de valeurs ALL contenant les modes d'application ou types de soins encadrant une activité",
-      "systems" : [
-        "https://mos.esante.gouv.fr/NOS/TRE_R275-ModaliteActivite/FHIR/TRE-R275-ModaliteActivite"
-      ],
-      "oids" : ["1.2.250.1.213.1.6.1.346"],
-      "sources" : ["1.2.250.1.213.1.6.1.346"]
-    },
-    {
-      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite?vs",
-      "version" : "20250222120000",
-      "status" : "active",
-      "name" : "VsTreR276FormeActiviteSmsseReguleeAll",
-      "title" : "Vs Tre R276 Forme Activite Smsse Regulee All",
-      "description" : "Jeu de valeurs ALL contenant les types d'organisation de prise en charge",
-      "systems" : [
-        "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite"
-      ],
-      "oids" : ["1.2.250.1.213.1.6.1.347"],
-      "sources" : ["1.2.250.1.213.1.6.1.347"]
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM?vs",
@@ -6286,19 +6247,6 @@
       "sources" : ["1.2.250.1.213.1.6.1.267"]
     },
     {
-      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j293-type-engagement-finess",
-      "version" : "20250822120000",
-      "status" : "active",
-      "name" : "JdvJ372ConventionRass",
-      "title" : "Jdv J372 Convention Rass",
-      "description" : "Jeu de valeurs RASS contenant les engagements de type Convention.",
-      "systems" : [
-        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r395-engagement"
-      ],
-      "oids" : ["1.2.250.1.213.1.6.1.377"],
-      "sources" : ["1.2.250.1.213.1.6.1.377"]
-    },
-    {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j294-document-justificatif-finess",
       "version" : "20250222120000",
       "status" : "active",
@@ -7038,6 +6986,19 @@
       ],
       "oids" : ["1.2.250.1.213.1.6.1.305"],
       "sources" : ["1.2.250.1.213.1.6.1.305"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j372-convention-rass",
+      "version" : "20250822120000",
+      "status" : "active",
+      "name" : "JdvJ372ConventionRass",
+      "title" : "Jdv J372 Convention Rass",
+      "description" : "Jeu de valeurs RASS contenant les engagements de type Convention.",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r395-engagement"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.377"],
+      "sources" : ["1.2.250.1.213.1.6.1.377"]
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j373-type-autorite",
