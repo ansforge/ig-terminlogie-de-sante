@@ -3,7 +3,7 @@ Alias: $sct = http://snomed.info/sct
 CodeSystem: TreR403PublicActiviteSmsseRegulee
 Id: tre-r403-public-activite-smsse-regulee
 Title: "Tre R403 Public Activite Smsse Regulee"
-Description: "Clientèles"
+Description: "Public Activité SMSSE Régulée de FINESS"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2025-11-04T05:14:07.558+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
