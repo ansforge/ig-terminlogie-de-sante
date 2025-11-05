@@ -3,8 +3,8 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="TRE-R70-FinessAgregatStatutJuridique"/>
   <meta>
-    <versionId value="1"/>
-    <lastUpdated value="2024-08-28T05:14:08.776+00:00"/>
+    <versionId value="2"/>
+    <lastUpdated value="2025-07-02T18:18:42.511+00:00"/>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
   </meta>
   <text>
@@ -27,10 +27,14 @@
   <date value="2023-12-15T12:00:00+01:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <description value="Agrégat de statuts juridiques FINESS"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FR"/>
+    </coding>
+  </jurisdiction>
   <caseSensitive value="false"/>
-  <valueSet value="https://mos.esante.gouv.fr/NOS/TRE_R70-FinessAgregatStatutJuridique/FHIR/TRE-R70-FinessAgregatStatutJuridique?vs"/>
   <content value="complete"/>
-  <count value="22"/>
   <property>
     <code value="dateValid"/>
     <description value="date de validité d'un code concept"/>
@@ -46,6 +50,24 @@
     <description value="Date de fin d'exploitation d'un code concept"/>
     <type value="dateTime"/>
   </property>
+  <property>
+    <code value="deprecationDate"/>
+    <uri value="http://hl7.org/fhir/concept-properties#deprecationDate"/>
+    <description value="Date Concept was deprecated"/>
+    <type value="dateTime"/>
+  </property>
+  <property>
+    <code value="status"/>
+    <uri value="http://hl7.org/fhir/concept-properties#status"/>
+    <description value="A property that indicates the status of the concept."/>
+    <type value="code"/>
+  </property>
+  <property>
+    <code value="retirementDate"/>
+    <uri value="http://hl7.org/fhir/concept-properties#retirementDate"/>
+    <description value="Date Concept was retired"/>
+    <type value="dateTime"/>
+  </property>
   <concept>
     <code value="1110"/>
     <display value="Etat"/>
@@ -56,6 +78,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="1979-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -77,6 +103,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="1979-01-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="1210"/>
@@ -96,6 +126,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="1979-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -117,6 +151,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="1979-01-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="2110"/>
@@ -137,6 +175,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="1979-01-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="2120"/>
@@ -156,6 +198,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="1979-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -185,6 +231,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="1979-01-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="2140"/>
@@ -204,6 +254,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="1979-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -225,6 +279,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="1979-01-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="2160"/>
@@ -236,6 +294,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="1979-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -249,6 +311,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="1979-01-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="2180"/>
@@ -260,6 +326,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="1979-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -281,6 +351,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="1979-01-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="2210"/>
@@ -292,6 +366,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="1979-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -321,6 +399,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="1979-01-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="2230"/>
@@ -348,6 +430,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="1979-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -377,6 +463,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="1979-01-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="2250"/>
@@ -389,6 +479,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="1979-01-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="2260"/>
@@ -400,6 +494,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="1979-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -421,6 +519,10 @@
       <code value="dateMaj"/>
       <valueDateTime value="1979-01-01T00:00:00+01:00"/>
     </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
+    </property>
   </concept>
   <concept>
     <code value="2280"/>
@@ -440,6 +542,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="1979-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
   <concept>
@@ -468,6 +574,10 @@
     <property>
       <code value="dateMaj"/>
       <valueDateTime value="1979-01-01T00:00:00+01:00"/>
+    </property>
+    <property>
+      <code value="status"/>
+      <valueCode value="active"/>
     </property>
   </concept>
 </CodeSystem>

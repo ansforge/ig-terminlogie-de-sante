@@ -28,7 +28,7 @@
   "experimental" : false,
   "date" : "2025-06-11T18:02:28.249+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description" : "Jeu de valeurs FINESS contenant les catégories d'entité géographique d'exercice spécifiques à FINESS",
+  "description" : "Jeu de valeurs FINESS contenant les catégories d'entité géographique d'exercice spécifiques à FINESS et de niveau 4",
   "compose" : {
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",

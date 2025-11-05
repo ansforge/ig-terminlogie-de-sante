@@ -2,8 +2,8 @@
   "resourceType" : "CodeSystem",
   "id" : "TRE-R72-FinessStatutJuridique",
   "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2024-08-28T05:14:09.581+00:00",
+    "versionId" : "2",
+    "lastUpdated" : "2025-07-02T18:18:44.240+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "text" : {
@@ -28,10 +28,14 @@
   "date" : "2024-03-29T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Statuts juridiques provenant de FINESS, excepté pour les codes 000 et 100 à 110 qui ont été ajoutés pour les besoins du RPPS en 2017.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
   "caseSensitive" : false,
-  "valueSet" : "https://mos.esante.gouv.fr/NOS/TRE_R72-FinessStatutJuridique/FHIR/TRE-R72-FinessStatutJuridique?vs",
   "content" : "complete",
-  "count" : 79,
   "property" : [{
     "code" : "dateValid",
     "description" : "date de validité d'un code concept",
@@ -46,6 +50,24 @@
     "code" : "dateFin",
     "description" : "Date de fin d'exploitation d'un code concept",
     "type" : "dateTime"
+  },
+  {
+    "code" : "deprecationDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
+    "description" : "Date Concept was deprecated",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "status",
+    "uri" : "http://hl7.org/fhir/concept-properties#status",
+    "description" : "A property that indicates the status of the concept.",
+    "type" : "code"
+  },
+  {
+    "code" : "retirementDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
+    "description" : "Date Concept was retired",
+    "type" : "dateTime"
   }],
   "concept" : [{
     "code" : "000",
@@ -58,6 +80,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -70,6 +96,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -82,6 +112,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -94,6 +128,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -106,6 +144,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -126,6 +168,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -146,6 +192,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -166,6 +216,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-02-17T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -186,6 +240,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2019-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -206,6 +264,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -226,6 +288,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -246,6 +312,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -266,6 +336,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -286,6 +360,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -306,6 +384,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -334,6 +416,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -354,6 +440,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -374,6 +464,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -394,6 +488,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -414,6 +512,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -434,6 +536,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -454,6 +560,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -474,6 +584,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -502,6 +616,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -522,6 +640,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -550,6 +672,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -570,6 +696,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -598,6 +728,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -626,6 +760,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1999-06-17T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -654,6 +792,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2014-02-12T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -674,6 +816,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -694,6 +840,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -714,6 +864,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -742,6 +896,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -770,6 +928,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -790,6 +952,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -810,6 +976,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -822,6 +992,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -842,6 +1016,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -862,6 +1040,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -890,6 +1072,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -902,6 +1088,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -922,6 +1112,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -942,6 +1136,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -962,6 +1160,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -982,6 +1184,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -994,6 +1200,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1006,6 +1216,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1026,6 +1240,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1054,6 +1272,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2014-02-12T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1066,6 +1288,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1094,6 +1320,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1122,6 +1352,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1150,6 +1384,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1162,6 +1400,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1174,6 +1416,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1202,6 +1448,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1222,6 +1472,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1250,6 +1504,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1278,6 +1536,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1306,6 +1568,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2012-04-03T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1334,6 +1600,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1362,6 +1632,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1390,6 +1664,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1418,6 +1696,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1996-10-24T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1446,6 +1728,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1999-06-17T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1474,6 +1760,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1502,6 +1792,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2014-02-12T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1522,6 +1816,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2014-02-12T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1550,6 +1848,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2014-02-12T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1571,6 +1873,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1592,6 +1898,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1613,6 +1923,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1634,6 +1948,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1655,6 +1973,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1676,6 +1998,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1697,6 +2023,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1718,6 +2048,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -1739,6 +2073,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   }]
 }

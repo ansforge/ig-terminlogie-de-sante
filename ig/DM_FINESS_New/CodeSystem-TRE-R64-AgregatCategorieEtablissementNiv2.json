@@ -2,13 +2,13 @@
   "resourceType" : "CodeSystem",
   "id" : "TRE-R64-AgregatCategorieEtablissementNiv2",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2025-10-14T05:14:04.028+00:00",
+    "versionId" : "5",
+    "lastUpdated" : "2025-07-02T18:18:29.224+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem TRE-R64-AgregatCategorieEtablissementNiv2</b></p><a name=\"TRE-R64-AgregatCategorieEtablissementNiv2\"> </a><a name=\"hcTRE-R64-AgregatCategorieEtablissementNiv2\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 4; Dernière mise à jour : 2025-10-14 05:14:04+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://mos.esante.gouv.fr/NOS/TRE_R64-AgregatCategorieEtablissementNiv2/FHIR/TRE-R64-AgregatCategorieEtablissementNiv2</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>dateFin</b></td><td><b>French (France) (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">110<a name=\"TRE-R64-AgregatCategorieEtablissementNiv2-110\"> </a></td><td>Etablissements d'Administration</td><td>1979-01-01T00:00:00+01:00</td><td>2019-10-01T12:00:00+01:00</td><td>2019-10-01T12:00:00+01:00</td><td>Etab.Administration</td></tr><tr><td style=\"white-space:nowrap\">1100<a name=\"TRE-R64-AgregatCategorieEtablissementNiv2-1100\"> </a></td><td>Etablissements Hospitaliers</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/><td>Etab.Hospitaliers</td></tr><tr><td style=\"white-space:nowrap\">1200<a name=\"TRE-R64-AgregatCategorieEtablissementNiv2-1200\"> </a></td><td>Autres Etablissements Relevant de la Loi Hospitalière</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/><td>Autres Etab.Loi Hosp</td></tr><tr><td style=\"white-space:nowrap\">2100<a name=\"TRE-R64-AgregatCategorieEtablissementNiv2-2100\"> </a></td><td>Cabinets Libéraux</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">2200<a name=\"TRE-R64-AgregatCategorieEtablissementNiv2-2200\"> </a></td><td>Autres Etablissements de Soins et Prévention</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/><td>Autres Etab.de Soins</td></tr><tr><td style=\"white-space:nowrap\">3100<a name=\"TRE-R64-AgregatCategorieEtablissementNiv2-3100\"> </a></td><td>Laboratoires de Biologie Médicale</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/><td>Labo Biolog Médicale</td></tr><tr><td style=\"white-space:nowrap\">3200<a name=\"TRE-R64-AgregatCategorieEtablissementNiv2-3200\"> </a></td><td>Commerce de Biens à Usage Médicaux</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/><td>Com.Biens Usage Méd.</td></tr><tr><td style=\"white-space:nowrap\">3400<a name=\"TRE-R64-AgregatCategorieEtablissementNiv2-3400\"> </a></td><td>Autres Etablissements à Caractère Sanitaire</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/><td>Autres Etab.Sanit.</td></tr><tr><td style=\"white-space:nowrap\">4100<a name=\"TRE-R64-AgregatCategorieEtablissementNiv2-4100\"> </a></td><td>Etab.et Serv.pour l'Enfance et la Jeunesse Handicapée</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/><td>Enfance &amp; Jeun. Hand</td></tr><tr><td style=\"white-space:nowrap\">4200<a name=\"TRE-R64-AgregatCategorieEtablissementNiv2-4200\"> </a></td><td>Etablissements ou Classes d'Enseignement Spécial</td><td>1979-01-01T00:00:00+01:00</td><td>2021-03-26T12:00:00+01:00</td><td>2021-03-26T12:00:00+01:00</td><td>Classe Enseig.Spéc.</td></tr><tr><td style=\"white-space:nowrap\">4300<a name=\"TRE-R64-AgregatCategorieEtablissementNiv2-4300\"> </a></td><td>Etablissements et Services pour Adultes Handicapés</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/><td>Etab.Adultes Handi.</td></tr><tr><td style=\"white-space:nowrap\">4400<a name=\"TRE-R64-AgregatCategorieEtablissementNiv2-4400\"> </a></td><td>Etablissements et Services pour Personnes Agées</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/><td>Etab.Personnes Agées</td></tr><tr><td style=\"white-space:nowrap\">4500<a name=\"TRE-R64-AgregatCategorieEtablissementNiv2-4500\"> </a></td><td>Etab.et Serv.Sociaux Concourant à la Protection de l'Enfance</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/><td>Protection Enfance</td></tr><tr><td style=\"white-space:nowrap\">4600<a name=\"TRE-R64-AgregatCategorieEtablissementNiv2-4600\"> </a></td><td>Autres Etab. Accueil, Hébergement, Réadaptation et Services</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/><td>Autres Etab.Soc &amp; MS</td></tr><tr><td style=\"white-space:nowrap\">5100<a name=\"TRE-R64-AgregatCategorieEtablissementNiv2-5100\"> </a></td><td>Etablissements et Services Sociaux d'Aide à la Famille</td><td>1979-01-01T00:00:00+01:00</td><td>2018-12-14T12:00:00+01:00</td><td/><td>Etab.Aide à Famille</td></tr><tr><td style=\"white-space:nowrap\">6100<a name=\"TRE-R64-AgregatCategorieEtablissementNiv2-6100\"> </a></td><td>Etablissements de Formation des Personnels Sanitaires</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/><td>Etab.Form.Pers.San.</td></tr><tr><td style=\"white-space:nowrap\">6200<a name=\"TRE-R64-AgregatCategorieEtablissementNiv2-6200\"> </a></td><td>Etablissements de Formation des Personnels Sociaux</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/><td>Etab.Form.Sociaux</td></tr><tr><td style=\"white-space:nowrap\">6300<a name=\"TRE-R64-AgregatCategorieEtablissementNiv2-6300\"> </a></td><td>Etablissements de Formation Polyvalente</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/><td>Etab.Form.Polyval.</td></tr><tr><td style=\"white-space:nowrap\">0110<a name=\"TRE-R64-AgregatCategorieEtablissementNiv2-0110\"> </a></td><td>Etablissements d'Administration</td><td>2023-01-27T12:00:00+01:00</td><td>2023-01-27T12:00:00+01:00</td><td>2023-01-27T12:00:00+01:00</td><td>Etab.Administration</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem TRE-R64-AgregatCategorieEtablissementNiv2</b></p><a name=\"TRE-R64-AgregatCategorieEtablissementNiv2\"> </a><a name=\"hcTRE-R64-AgregatCategorieEtablissementNiv2\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 4; Dernière mise à jour : 2024-08-28 05:14:04+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://mos.esante.gouv.fr/NOS/TRE_R64-AgregatCategorieEtablissementNiv2/FHIR/TRE-R64-AgregatCategorieEtablissementNiv2</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>dateFin</b></td><td><b>French (France) (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">110<a name=\"TRE-R64-AgregatCategorieEtablissementNiv2-110\"> </a></td><td>Etablissements d'Administration</td><td>1979-01-01T00:00:00+01:00</td><td>2019-10-01T12:00:00+01:00</td><td>2019-10-01T12:00:00+01:00</td><td>Etab.Administration</td></tr><tr><td style=\"white-space:nowrap\">1100<a name=\"TRE-R64-AgregatCategorieEtablissementNiv2-1100\"> </a></td><td>Etablissements Hospitaliers</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/><td>Etab.Hospitaliers</td></tr><tr><td style=\"white-space:nowrap\">1200<a name=\"TRE-R64-AgregatCategorieEtablissementNiv2-1200\"> </a></td><td>Autres Etablissements Relevant de la Loi Hospitalière</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/><td>Autres Etab.Loi Hosp</td></tr><tr><td style=\"white-space:nowrap\">2100<a name=\"TRE-R64-AgregatCategorieEtablissementNiv2-2100\"> </a></td><td>Cabinets Libéraux</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">2200<a name=\"TRE-R64-AgregatCategorieEtablissementNiv2-2200\"> </a></td><td>Autres Etablissements de Soins et Prévention</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/><td>Autres Etab.de Soins</td></tr><tr><td style=\"white-space:nowrap\">3100<a name=\"TRE-R64-AgregatCategorieEtablissementNiv2-3100\"> </a></td><td>Laboratoires de Biologie Médicale</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/><td>Labo Biolog Médicale</td></tr><tr><td style=\"white-space:nowrap\">3200<a name=\"TRE-R64-AgregatCategorieEtablissementNiv2-3200\"> </a></td><td>Commerce de Biens à Usage Médicaux</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/><td>Com.Biens Usage Méd.</td></tr><tr><td style=\"white-space:nowrap\">3400<a name=\"TRE-R64-AgregatCategorieEtablissementNiv2-3400\"> </a></td><td>Autres Etablissements à Caractère Sanitaire</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/><td>Autres Etab.Sanit.</td></tr><tr><td style=\"white-space:nowrap\">4100<a name=\"TRE-R64-AgregatCategorieEtablissementNiv2-4100\"> </a></td><td>Etab.et Serv.pour l'Enfance et la Jeunesse Handicapée</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/><td>Enfance &amp; Jeun. Hand</td></tr><tr><td style=\"white-space:nowrap\">4200<a name=\"TRE-R64-AgregatCategorieEtablissementNiv2-4200\"> </a></td><td>Etablissements ou Classes d'Enseignement Spécial</td><td>1979-01-01T00:00:00+01:00</td><td>2021-03-26T12:00:00+01:00</td><td>2021-03-26T12:00:00+01:00</td><td>Classe Enseig.Spéc.</td></tr><tr><td style=\"white-space:nowrap\">4300<a name=\"TRE-R64-AgregatCategorieEtablissementNiv2-4300\"> </a></td><td>Etablissements et Services pour Adultes Handicapés</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/><td>Etab.Adultes Handi.</td></tr><tr><td style=\"white-space:nowrap\">4400<a name=\"TRE-R64-AgregatCategorieEtablissementNiv2-4400\"> </a></td><td>Etablissements et Services pour Personnes Agées</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/><td>Etab.Personnes Agées</td></tr><tr><td style=\"white-space:nowrap\">4500<a name=\"TRE-R64-AgregatCategorieEtablissementNiv2-4500\"> </a></td><td>Etab.et Serv.Sociaux Concourant à la Protection de l'Enfance</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/><td>Protection Enfance</td></tr><tr><td style=\"white-space:nowrap\">4600<a name=\"TRE-R64-AgregatCategorieEtablissementNiv2-4600\"> </a></td><td>Autres Etab. Accueil, Hébergement, Réadaptation et Services</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/><td>Autres Etab.Soc &amp; MS</td></tr><tr><td style=\"white-space:nowrap\">5100<a name=\"TRE-R64-AgregatCategorieEtablissementNiv2-5100\"> </a></td><td>Etablissements et Services Sociaux d'Aide à la Famille</td><td>1979-01-01T00:00:00+01:00</td><td>2018-12-14T12:00:00+01:00</td><td/><td>Etab.Aide à Famille</td></tr><tr><td style=\"white-space:nowrap\">6100<a name=\"TRE-R64-AgregatCategorieEtablissementNiv2-6100\"> </a></td><td>Etablissements de Formation des Personnels Sanitaires</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/><td>Etab.Form.Pers.San.</td></tr><tr><td style=\"white-space:nowrap\">6200<a name=\"TRE-R64-AgregatCategorieEtablissementNiv2-6200\"> </a></td><td>Etablissements de Formation des Personnels Sociaux</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/><td>Etab.Form.Sociaux</td></tr><tr><td style=\"white-space:nowrap\">6300<a name=\"TRE-R64-AgregatCategorieEtablissementNiv2-6300\"> </a></td><td>Etablissements de Formation Polyvalente</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/><td>Etab.Form.Polyval.</td></tr><tr><td style=\"white-space:nowrap\">0110<a name=\"TRE-R64-AgregatCategorieEtablissementNiv2-0110\"> </a></td><td>Etablissements d'Administration</td><td>2023-01-27T12:00:00+01:00</td><td>2023-01-27T12:00:00+01:00</td><td>2023-01-27T12:00:00+01:00</td><td>Etab.Administration</td></tr></table></div>"
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -21,17 +21,21 @@
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.6"
   }],
-  "version" : "20251014120000",
+  "version" : "20231215120000",
   "name" : "TRE_R64_AgregatCategorieEtablissementNiv2",
-  "status" : "retired",
+  "status" : "active",
   "experimental" : false,
-  "date" : "2025-10-14T12:00:00+01:00",
+  "date" : "2023-12-15T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Agrégats de catégories d'établissements niveau 2",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
   "caseSensitive" : false,
-  "valueSet" : "https://mos.esante.gouv.fr/NOS/TRE_R64-AgregatCategorieEtablissementNiv2/FHIR/TRE-R64-AgregatCategorieEtablissementNiv2?vs",
   "content" : "complete",
-  "count" : 19,
   "property" : [{
     "code" : "dateValid",
     "description" : "date de validité d'un code concept",
@@ -45,6 +49,24 @@
   {
     "code" : "dateFin",
     "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "deprecationDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
+    "description" : "Date Concept was deprecated",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "status",
+    "uri" : "http://hl7.org/fhir/concept-properties#status",
+    "description" : "A property that indicates the status of the concept.",
+    "type" : "code"
+  },
+  {
+    "code" : "retirementDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
+    "description" : "Date Concept was retired",
     "type" : "dateTime"
   }],
   "concept" : [{
@@ -69,6 +91,14 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2019-10-01T12:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2019-10-01T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
     }]
   },
   {
@@ -89,6 +119,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -109,6 +143,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -121,6 +159,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -149,6 +191,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -169,6 +215,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -189,6 +239,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -217,6 +271,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -245,6 +303,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -269,6 +331,14 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2021-03-26T12:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2021-03-26T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
     }]
   },
   {
@@ -289,6 +359,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -317,6 +391,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -345,6 +423,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -373,6 +455,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -393,6 +479,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-12-14T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -413,6 +503,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -433,6 +527,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -453,6 +551,10 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     }]
   },
   {
@@ -477,6 +579,14 @@
     {
       "code" : "dateMaj",
       "valueDateTime" : "2023-01-27T12:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2023-01-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
     }]
   }]
 }

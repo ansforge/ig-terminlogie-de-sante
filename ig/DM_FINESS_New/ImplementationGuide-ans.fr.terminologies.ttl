@@ -48603,6 +48603,78 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j301-finess-statut-juridique-niv1-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j301-finess-statut-juridique-niv1-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J301 Finess Statut Juridique Niv1 Finess" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs FINESS contenant les statuts juridiques de niveau 1" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j302-finess-statut-juridique-niv2-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j302-finess-statut-juridique-niv2-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J302 Finess Statut Juridique Niv2 Finess" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs FINESS contenant les statuts juridiques de niveau 2" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j303-finess-statut-juridique-niv3-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j303-finess-statut-juridique-niv3-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J303 Finess Statut Juridique Niv3 Finess" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs FINESS contenant les statuts juridiques de niveau 3" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j304-finess-statut-juridique-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j304-finess-statut-juridique-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J304 Finess Statut Juridique Finess" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs FINESS contenant les statuts juridiques de niveau 4" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j305-type-groupement-finess> ;
          fhir:reference [ fhir:v "ValueSet/jdv-j305-type-groupement-finess" ]
        ] ;
@@ -48639,11 +48711,65 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j307-categorie-entite-geographique-exercice-niv1-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j307-categorie-entite-geographique-exercice-niv1-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J307 Categorie Entite Geographique Exercice Niv1 Finess" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs FINESS contenant les catégories des entités géographiques d'exercice de niveau 1" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j308-categorie-entite-geographique-exercice-niv2-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j308-categorie-entite-geographique-exercice-niv2-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J308 Categorie Entite Geographique Exercice Niv2 Finess" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs FINESS contenant les catégories des entités géographiques d'exercice de niveau 2" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j309-categorie-entite-geographique-exercice-niv3-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j309-categorie-entite-geographique-exercice-niv3-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J309 Categorie Entite Geographique Exercice Niv3 Finess" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs FINESS contenant les catégories des entités géographiques d'exercice de niveau 3" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j310-categorie-entite-geographique-exercice-finess> ;
          fhir:reference [ fhir:v "ValueSet/jdv-j310-categorie-entite-geographique-exercice-finess" ]
        ] ;
        fhir:name [ fhir:v "Jdv J310 Categorie Entite Geographique Exercice Finess" ] ;
-       fhir:description [ fhir:v "Jeu de valeurs FINESS contenant les catégories d'entité géographique d'exercice spécifiques à FINESS" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs FINESS contenant les catégories d'entité géographique d'exercice spécifiques à FINESS et de niveau 4" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -62793,46 +62919,10 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/TRE-R293-AgregatClienteleNiv1> ;
-         fhir:reference [ fhir:v "CodeSystem/TRE-R293-AgregatClienteleNiv1" ]
-       ] ;
-       fhir:name [ fhir:v "TRE_R293_AgregatClienteleNiv1" ] ;
-       fhir:description [ fhir:v "Agrégats de clientèle niveau 1" ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "CodeSystem"
-         ]
-       ] ) ;
-       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/TRE-R293-AgregatClienteleNiv2> ;
          fhir:reference [ fhir:v "CodeSystem/TRE-R293-AgregatClienteleNiv2" ]
        ] ;
        fhir:name [ fhir:v "TRE_R293_AgregatClienteleNiv2" ] ;
-       fhir:description [ fhir:v "Agrégats de clientèle niveau 2" ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "CodeSystem"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/TRE-R294-AgregatClienteleNiv2> ;
-         fhir:reference [ fhir:v "CodeSystem/TRE-R294-AgregatClienteleNiv2" ]
-       ] ;
-       fhir:name [ fhir:v "TRE_R294_AgregatClienteleNiv2" ] ;
        fhir:description [ fhir:v "Agrégats de clientèle niveau 2" ] ;
        fhir:example [
          a fhir:boolean ;
@@ -65348,155 +65438,11 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r397-categorie-entite-geographique-exercice-all> ;
-         fhir:reference [ fhir:v "ValueSet/vs-tre-r397-categorie-entite-geographique-exercice-all" ]
-       ] ;
-       fhir:name [ fhir:v "Vs Tre R397 Categorie Entite Geographique Exercice All" ] ;
-       fhir:description [ fhir:v "Jeu de valeurs ALL contenant les catégories d'établissement" ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r62-domaine-all> ;
          fhir:reference [ fhir:v "ValueSet/vs-tre-r62-domaine-all" ]
        ] ;
        fhir:name [ fhir:v "Vs Tre R62 Domaine All" ] ;
        fhir:description [ fhir:v "Jeu de valeurs ALL contenant les domaines" ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r63-categorie-entite-geographique-exercice-niv1-all> ;
-         fhir:reference [ fhir:v "ValueSet/vs-tre-r63-categorie-entite-geographique-exercice-niv1-all" ]
-       ] ;
-       fhir:name [ fhir:v "Vs Tre R63 Categorie Entite Geographique Exercice Niv1 All" ] ;
-       fhir:description [ fhir:v "Jeu de valeurs ALL contenant les catégories des entités géographiques d'exercice de niveau 1" ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r64-categorie-entite-geographique-exercice-niv2-all> ;
-         fhir:reference [ fhir:v "ValueSet/vs-tre-r64-categorie-entite-geographique-exercice-niv2-all" ]
-       ] ;
-       fhir:name [ fhir:v "Vs Tre R64 Categorie Entite Geographique Exercice Niv2 All" ] ;
-       fhir:description [ fhir:v "Jeu de valeurs ALL contenant les catégories des entités géographiques d'exercice de niveau 2" ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r65-categorie-entite-geographique-exercice-niv3-all> ;
-         fhir:reference [ fhir:v "ValueSet/vs-tre-r65-categorie-entite-geographique-exercice-niv3-all" ]
-       ] ;
-       fhir:name [ fhir:v "Vs Tre R65 Categorie Entite Geographique Exercice Niv3 All" ] ;
-       fhir:description [ fhir:v "Jeu de valeurs ALL contenant les catégories des entités géographiques d'exercice de niveau 3" ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r68-finess-agregat-statut-juridique-niv1-all> ;
-         fhir:reference [ fhir:v "ValueSet/vs-tre-r68-finess-agregat-statut-juridique-niv1-all" ]
-       ] ;
-       fhir:name [ fhir:v "Vs Tre R68 Finess Agregat Statut Juridique Niv1 All" ] ;
-       fhir:description [ fhir:v "Jeu de valeurs ALL contenant les agrégats de statuts juridiques FINESS niveau 1" ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r69-finess-agregat-statut-juridique-niv2-all> ;
-         fhir:reference [ fhir:v "ValueSet/vs-tre-r69-finess-agregat-statut-juridique-niv2-all" ]
-       ] ;
-       fhir:name [ fhir:v "Vs Tre R69 Finess Agregat Statut Juridique Niv2 All" ] ;
-       fhir:description [ fhir:v "Jeu de valeurs ALL contenant les agrégats de statuts juridiques FINESS niveau 2" ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r70-finess-agregat-statut-juridique-niv3-all> ;
-         fhir:reference [ fhir:v "ValueSet/vs-tre-r70-finess-agregat-statut-juridique-niv3-all" ]
-       ] ;
-       fhir:name [ fhir:v "Vs Tre R70 Finess Agregat Statut Juridique Niv3 All" ] ;
-       fhir:description [ fhir:v "Jeu de valeurs ALL contenant les agrégats de statuts juridiques FINESS niveau 3" ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r72-finess-statut-juridique-all> ;
-         fhir:reference [ fhir:v "ValueSet/vs-tre-r72-finess-statut-juridique-all" ]
-       ] ;
-       fhir:name [ fhir:v "Vs Tre R72 Finess Statut Juridique All" ] ;
-       fhir:description [ fhir:v "Jeu de valeurs ALL contenant les statuts juridiques provenant de FINESS, excepté pour les codes 000 et 100 à 110 qui ont été ajoutés pour les besoins du RPPS en 2017." ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false

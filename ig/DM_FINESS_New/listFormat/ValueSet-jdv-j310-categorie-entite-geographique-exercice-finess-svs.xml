@@ -4,7 +4,7 @@
    <ValueSet dateFin=""
              dateMaj="20250611180228"
              dateValid="20250611180228"
-             description="Jeu de valeurs FINESS contenant les catégories d'entité géographique d'exercice spécifiques à FINESS"
+             description="Jeu de valeurs FINESS contenant les catégories d'entité géographique d'exercice spécifiques à FINESS et de niveau 4"
              displayName="JdvJ310CategorieEntiteGeographiqueExerciceFiness"
              id="1.2.250.1.213.1.6.1.318"
              typeFichier="JDV"

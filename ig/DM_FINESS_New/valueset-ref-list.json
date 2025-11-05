@@ -3684,97 +3684,6 @@
       "sources" : ["1.2.250.1.213.1.6.1.319"]
     },
     {
-      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R63-AgregatCategorieEtablissementNiv1/FHIR/TRE-R63-AgregatCategorieEtablissementNiv1?vs",
-      "version" : "20250222120000",
-      "status" : "active",
-      "name" : "VsTreR63CategorieEntiteGeographiqueExerciceNiv1All",
-      "title" : "Vs Tre R63 Categorie Entite Geographique Exercice Niv1 All",
-      "description" : "Jeu de valeurs ALL contenant les catégories des entités géographiques d'exercice de niveau 1",
-      "systems" : [
-        "https://mos.esante.gouv.fr/NOS/TRE_R63-AgregatCategorieEtablissementNiv1/FHIR/TRE-R63-AgregatCategorieEtablissementNiv1"
-      ],
-      "oids" : ["1.2.250.1.213.1.6.1.315"],
-      "sources" : ["1.2.250.1.213.1.6.1.315"]
-    },
-    {
-      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R64-AgregatCategorieEtablissementNiv2/FHIR/TRE-R64-AgregatCategorieEtablissementNiv2?vs",
-      "version" : "20250222120000",
-      "status" : "active",
-      "name" : "VsTreR64CategorieEntiteGeographiqueExerciceNiv2All",
-      "title" : "Vs Tre R64 Categorie Entite Geographique Exercice Niv2 All",
-      "description" : "Jeu de valeurs ALL contenant les catégories des entités géographiques d'exercice de niveau 2",
-      "systems" : [
-        "https://mos.esante.gouv.fr/NOS/TRE_R64-AgregatCategorieEtablissementNiv2/FHIR/TRE-R64-AgregatCategorieEtablissementNiv2"
-      ],
-      "oids" : ["1.2.250.1.213.1.6.1.316"],
-      "sources" : ["1.2.250.1.213.1.6.1.316"]
-    },
-    {
-      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R65-AgregatCategorieEtablissement/FHIR/TRE-R65-AgregatCategorieEtablissement?vs",
-      "version" : "20250222120000",
-      "status" : "active",
-      "name" : "VsTreR65CategorieEntiteGeographiqueExerciceNiv3All",
-      "title" : "Vs Tre R65 Categorie Entite Geographique Exercice Niv3 All",
-      "description" : "Jeu de valeurs ALL contenant les catégories des entités géographiques d'exercice de niveau 3",
-      "systems" : [
-        "https://mos.esante.gouv.fr/NOS/TRE_R65-AgregatCategorieEtablissement/FHIR/TRE-R65-AgregatCategorieEtablissement"
-      ],
-      "oids" : ["1.2.250.1.213.1.6.1.317"],
-      "sources" : ["1.2.250.1.213.1.6.1.317"]
-    },
-    {
-      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R68-FinessAgregatStatutJuridiqueNiv1/FHIR/TRE-R68-FinessAgregatStatutJuridiqueNiv1?vs",
-      "version" : "20250222120000",
-      "status" : "active",
-      "name" : "VsTreR68FinessAgregatStatutJuridiqueNiv1All",
-      "title" : "Vs Tre R68 Finess Agregat Statut Juridique Niv1 All",
-      "description" : "Jeu de valeurs ALL contenant les agrégats de statuts juridiques FINESS niveau 1",
-      "systems" : [
-        "https://mos.esante.gouv.fr/NOS/TRE_R68-FinessAgregatStatutJuridiqueNiv1/FHIR/TRE-R68-FinessAgregatStatutJuridiqueNiv1"
-      ],
-      "oids" : ["1.2.250.1.213.1.6.1.309"],
-      "sources" : ["1.2.250.1.213.1.6.1.309"]
-    },
-    {
-      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R69-FinessAgregatStatutJuridiqueNiv2/FHIR/TRE-R69-FinessAgregatStatutJuridiqueNiv2?vs",
-      "version" : "20250222120000",
-      "status" : "active",
-      "name" : "VsTreR69FinessAgregatStatutJuridiqueNiv2All",
-      "title" : "Vs Tre R69 Finess Agregat Statut Juridique Niv2 All",
-      "description" : "Jeu de valeurs ALL contenant les agrégats de statuts juridiques FINESS niveau 2",
-      "systems" : [
-        "https://mos.esante.gouv.fr/NOS/TRE_R69-FinessAgregatStatutJuridiqueNiv2/FHIR/TRE-R69-FinessAgregatStatutJuridiqueNiv2"
-      ],
-      "oids" : ["1.2.250.1.213.1.6.1.310"],
-      "sources" : ["1.2.250.1.213.1.6.1.310"]
-    },
-    {
-      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R70-FinessAgregatStatutJuridique/FHIR/TRE-R70-FinessAgregatStatutJuridique?vs",
-      "version" : "20250222120000",
-      "status" : "active",
-      "name" : "VsTreR70FinessAgregatStatutJuridiqueNiv3All",
-      "title" : "Vs Tre R70 Finess Agregat Statut Juridique Niv3 All",
-      "description" : "Jeu de valeurs ALL contenant les agrégats de statuts juridiques FINESS niveau 3",
-      "systems" : [
-        "https://mos.esante.gouv.fr/NOS/TRE_R70-FinessAgregatStatutJuridique/FHIR/TRE-R70-FinessAgregatStatutJuridique"
-      ],
-      "oids" : ["1.2.250.1.213.1.6.1.311"],
-      "sources" : ["1.2.250.1.213.1.6.1.311"]
-    },
-    {
-      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R72-FinessStatutJuridique/FHIR/TRE-R72-FinessStatutJuridique?vs",
-      "version" : "20250222120000",
-      "status" : "active",
-      "name" : "VsTreR72FinessStatutJuridiqueAll",
-      "title" : "Vs Tre R72 Finess Statut Juridique All",
-      "description" : "Jeu de valeurs ALL contenant les statuts juridiques provenant de FINESS, excepté pour les codes 000 et 100 à 110 qui ont été ajoutés pour les besoins du RPPS en 2017.",
-      "systems" : [
-        "https://mos.esante.gouv.fr/NOS/TRE_R72-FinessStatutJuridique/FHIR/TRE-R72-FinessStatutJuridique"
-      ],
-      "oids" : ["1.2.250.1.213.1.6.1.312"],
-      "sources" : ["1.2.250.1.213.1.6.1.312"]
-    },
-    {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R73-ESPIC/FHIR/TRE-R73-ESPIC?vs",
       "version" : "20250222120000",
       "status" : "active",
@@ -3994,19 +3903,6 @@
       ],
       "oids" : ["1.2.250.1.213.1.6.1.322"],
       "sources" : ["1.2.250.1.213.1.6.1.322"]
-    },
-    {
-      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice?vs",
-      "version" : "20251014120000",
-      "status" : "active",
-      "name" : "VsTreR397CategorieEntiteGeographiqueExerciceAll",
-      "title" : "Vs Tre R397 Categorie Entite Geographique Exercice All",
-      "description" : "Jeu de valeurs ALL contenant les catégories d'établissement",
-      "systems" : [
-        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice"
-      ],
-      "oids" : ["1.2.250.1.213.1.6.1.999"],
-      "sources" : ["1.2.250.1.213.1.6.1.999"]
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/VS-test",
@@ -6553,6 +6449,58 @@
       "sources" : ["1.2.250.1.213.1.6.1.308"]
     },
     {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j301-finess-statut-juridique-niv1-finess",
+      "version" : "20251104120000",
+      "status" : "active",
+      "name" : "JdvJ301FinessStatutJuridiqueNiv1Finess",
+      "title" : "Jdv J301 Finess Statut Juridique Niv1 Finess",
+      "description" : "Jeu de valeurs FINESS contenant les statuts juridiques de niveau 1",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.309"],
+      "sources" : ["1.2.250.1.213.1.6.1.309"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j302-finess-statut-juridique-niv2-finess",
+      "version" : "20251104120000",
+      "status" : "active",
+      "name" : "JdvJ302FinessStatutJuridiqueNiv2Finess",
+      "title" : "Jdv J302 Finess Statut Juridique Niv2 Finess",
+      "description" : "Jeu de valeurs FINESS contenant les statuts juridiques de niveau 2",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.310"],
+      "sources" : ["1.2.250.1.213.1.6.1.310"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j303-finess-statut-juridique-niv3-finess",
+      "version" : "20251104120000",
+      "status" : "active",
+      "name" : "JdvJ303FinessStatutJuridiqueNiv3Finess",
+      "title" : "Jdv J303 Finess Statut Juridique Niv3 Finess",
+      "description" : "Jeu de valeurs FINESS contenant les statuts juridiques de niveau 3",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.311"],
+      "sources" : ["1.2.250.1.213.1.6.1.311"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j304-finess-statut-juridique-finess",
+      "version" : "20251104120000",
+      "status" : "active",
+      "name" : "JdvJ304FinessStatutJuridiqueFiness",
+      "title" : "Jdv J304 Finess Statut Juridique Finess",
+      "description" : "Jeu de valeurs FINESS contenant les statuts juridiques de niveau 4",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.312"],
+      "sources" : ["1.2.250.1.213.1.6.1.312"]
+    },
+    {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j305-type-groupement-finess",
       "version" : "20250611120000",
       "status" : "active",
@@ -6579,12 +6527,51 @@
       "sources" : ["1.2.250.1.213.1.6.1.314"]
     },
     {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j307-categorie-entite-geographique-exercice-niv1-finess",
+      "version" : "20251104120000",
+      "status" : "active",
+      "name" : "JdvJ307CategorieEntiteGeographiqueExerciceNiv1Finess",
+      "title" : "Jdv J307 Categorie Entite Geographique Exercice Niv1 Finess",
+      "description" : "Jeu de valeurs FINESS contenant les catégories des entités géographiques d'exercice de niveau 1",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.315"],
+      "sources" : ["1.2.250.1.213.1.6.1.315"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j308-categorie-entite-geographique-exercice-niv2-finess",
+      "version" : "20251104120000",
+      "status" : "active",
+      "name" : "JdvJ308CategorieEntiteGeographiqueExerciceNiv2Finess",
+      "title" : "Jdv J308 Categorie Entite Geographique Exercice Niv2 Finess",
+      "description" : "Jeu de valeurs FINESS contenant les catégories des entités géographiques d'exercice de niveau 2",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.316"],
+      "sources" : ["1.2.250.1.213.1.6.1.316"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j309-categorie-entite-geographique-exercice-niv3-finess",
+      "version" : "20251104120000",
+      "status" : "active",
+      "name" : "JdvJ309CategorieEntiteGeographiqueExerciceNiv3Finess",
+      "title" : "Jdv J309 Categorie Entite Geographique Exercice Niv3 Finess",
+      "description" : "Jeu de valeurs FINESS contenant les catégories des entités géographiques d'exercice de niveau 3",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.317"],
+      "sources" : ["1.2.250.1.213.1.6.1.317"]
+    },
+    {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j310-categorie-entite-geographique-exercice-finess",
       "version" : "20250611120000",
       "status" : "active",
       "name" : "JdvJ310CategorieEntiteGeographiqueExerciceFiness",
       "title" : "Jdv J310 Categorie Entite Geographique Exercice Finess",
-      "description" : "Jeu de valeurs FINESS contenant les catégories d'entité géographique d'exercice spécifiques à FINESS",
+      "description" : "Jeu de valeurs FINESS contenant les catégories d'entité géographique d'exercice spécifiques à FINESS et de niveau 4",
       "systems" : [
         "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice"
       ],

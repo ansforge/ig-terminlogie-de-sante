@@ -35366,6 +35366,54 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-j301-finess-statut-juridique-niv1-finess"
+      },
+      "name" : "Jdv J301 Finess Statut Juridique Niv1 Finess",
+      "description" : "Jeu de valeurs FINESS contenant les statuts juridiques de niveau 1",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j302-finess-statut-juridique-niv2-finess"
+      },
+      "name" : "Jdv J302 Finess Statut Juridique Niv2 Finess",
+      "description" : "Jeu de valeurs FINESS contenant les statuts juridiques de niveau 2",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j303-finess-statut-juridique-niv3-finess"
+      },
+      "name" : "Jdv J303 Finess Statut Juridique Niv3 Finess",
+      "description" : "Jeu de valeurs FINESS contenant les statuts juridiques de niveau 3",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j304-finess-statut-juridique-finess"
+      },
+      "name" : "Jdv J304 Finess Statut Juridique Finess",
+      "description" : "Jeu de valeurs FINESS contenant les statuts juridiques de niveau 4",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-j305-type-groupement-finess"
       },
       "name" : "Jdv J305 Type Groupement Finess",
@@ -35390,10 +35438,46 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-j307-categorie-entite-geographique-exercice-niv1-finess"
+      },
+      "name" : "Jdv J307 Categorie Entite Geographique Exercice Niv1 Finess",
+      "description" : "Jeu de valeurs FINESS contenant les catégories des entités géographiques d'exercice de niveau 1",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j308-categorie-entite-geographique-exercice-niv2-finess"
+      },
+      "name" : "Jdv J308 Categorie Entite Geographique Exercice Niv2 Finess",
+      "description" : "Jeu de valeurs FINESS contenant les catégories des entités géographiques d'exercice de niveau 2",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j309-categorie-entite-geographique-exercice-niv3-finess"
+      },
+      "name" : "Jdv J309 Categorie Entite Geographique Exercice Niv3 Finess",
+      "description" : "Jeu de valeurs FINESS contenant les catégories des entités géographiques d'exercice de niveau 3",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-j310-categorie-entite-geographique-exercice-finess"
       },
       "name" : "Jdv J310 Categorie Entite Geographique Exercice Finess",
-      "description" : "Jeu de valeurs FINESS contenant les catégories d'entité géographique d'exercice spécifiques à FINESS",
+      "description" : "Jeu de valeurs FINESS contenant les catégories d'entité géographique d'exercice spécifiques à FINESS et de niveau 4",
       "exampleBoolean" : false
     },
     {
@@ -44822,33 +44906,9 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
-        "reference" : "CodeSystem/TRE-R293-AgregatClienteleNiv1"
-      },
-      "name" : "TRE_R293_AgregatClienteleNiv1",
-      "description" : "Agrégats de clientèle niveau 1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
         "reference" : "CodeSystem/TRE-R293-AgregatClienteleNiv2"
       },
       "name" : "TRE_R293_AgregatClienteleNiv2",
-      "description" : "Agrégats de clientèle niveau 2",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/TRE-R294-AgregatClienteleNiv2"
-      },
-      "name" : "TRE_R294_AgregatClienteleNiv2",
       "description" : "Agrégats de clientèle niveau 2",
       "exampleBoolean" : false
     },
@@ -46525,106 +46585,10 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/vs-tre-r397-categorie-entite-geographique-exercice-all"
-      },
-      "name" : "Vs Tre R397 Categorie Entite Geographique Exercice All",
-      "description" : "Jeu de valeurs ALL contenant les catégories d'établissement",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
         "reference" : "ValueSet/vs-tre-r62-domaine-all"
       },
       "name" : "Vs Tre R62 Domaine All",
       "description" : "Jeu de valeurs ALL contenant les domaines",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/vs-tre-r63-categorie-entite-geographique-exercice-niv1-all"
-      },
-      "name" : "Vs Tre R63 Categorie Entite Geographique Exercice Niv1 All",
-      "description" : "Jeu de valeurs ALL contenant les catégories des entités géographiques d'exercice de niveau 1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/vs-tre-r64-categorie-entite-geographique-exercice-niv2-all"
-      },
-      "name" : "Vs Tre R64 Categorie Entite Geographique Exercice Niv2 All",
-      "description" : "Jeu de valeurs ALL contenant les catégories des entités géographiques d'exercice de niveau 2",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/vs-tre-r65-categorie-entite-geographique-exercice-niv3-all"
-      },
-      "name" : "Vs Tre R65 Categorie Entite Geographique Exercice Niv3 All",
-      "description" : "Jeu de valeurs ALL contenant les catégories des entités géographiques d'exercice de niveau 3",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/vs-tre-r68-finess-agregat-statut-juridique-niv1-all"
-      },
-      "name" : "Vs Tre R68 Finess Agregat Statut Juridique Niv1 All",
-      "description" : "Jeu de valeurs ALL contenant les agrégats de statuts juridiques FINESS niveau 1",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/vs-tre-r69-finess-agregat-statut-juridique-niv2-all"
-      },
-      "name" : "Vs Tre R69 Finess Agregat Statut Juridique Niv2 All",
-      "description" : "Jeu de valeurs ALL contenant les agrégats de statuts juridiques FINESS niveau 2",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/vs-tre-r70-finess-agregat-statut-juridique-niv3-all"
-      },
-      "name" : "Vs Tre R70 Finess Agregat Statut Juridique Niv3 All",
-      "description" : "Jeu de valeurs ALL contenant les agrégats de statuts juridiques FINESS niveau 3",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/vs-tre-r72-finess-statut-juridique-all"
-      },
-      "name" : "Vs Tre R72 Finess Statut Juridique All",
-      "description" : "Jeu de valeurs ALL contenant les statuts juridiques provenant de FINESS, excepté pour les codes 000 et 100 à 110 qui ont été ajoutés pour les besoins du RPPS en 2017.",
       "exampleBoolean" : false
     },
     {
