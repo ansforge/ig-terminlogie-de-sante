@@ -33,10 +33,6 @@ Description: "Clientèles"
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#finess"
 * ^property[=].description = "Permet de définir les codes concepts utilisés par FINESS+"
 * ^property[=].type = #boolean
-* ^property[+].code = #rass
-* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#rass"
-* ^property[=].description = "Permet de définir les codes concepts utilisés par le RASS"
-* ^property[=].type = #boolean
 * ^property[0].code = #dateValid
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"
@@ -72,8 +68,6 @@ Description: "Clientèles"
 * #1000 ^property[=].valueInteger = 1
 * #1000 ^property[+].code = #finess
 * #1000 ^property[=].valueBoolean = true
-* #1000 ^property[+].code = #rass
-* #1000 ^property[=].valueBoolean = true
 * #2000 "Personnes Agées"
 * #2000 ^property[0].code = #dateValid
 * #2000 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
@@ -84,8 +78,6 @@ Description: "Clientèles"
 * #2000 ^property[+].code = #niveau
 * #2000 ^property[=].valueInteger = 1
 * #2000 ^property[+].code = #finess
-* #2000 ^property[=].valueBoolean = true
-* #2000 ^property[+].code = #rass
 * #2000 ^property[=].valueBoolean = true
 * #3000 "Enfants et Adolescents (Aide Soc Just)"
 * #3000 ^designation.language = #fr-FR
@@ -102,8 +94,6 @@ Description: "Clientèles"
 * #3000 ^property[=].valueInteger = 1
 * #3000 ^property[+].code = #finess
 * #3000 ^property[=].valueBoolean = true
-* #3000 ^property[+].code = #rass
-* #3000 ^property[=].valueBoolean = true
 * #4000 "Autres Enfants"
 * #4000 ^property[0].code = #dateValid
 * #4000 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
@@ -114,8 +104,6 @@ Description: "Clientèles"
 * #4000 ^property[+].code = #niveau
 * #4000 ^property[=].valueInteger = 1
 * #4000 ^property[+].code = #finess
-* #4000 ^property[=].valueBoolean = true
-* #4000 ^property[+].code = #rass
 * #4000 ^property[=].valueBoolean = true
 * #5000 "Personnes et Familles en Difficulté"
 * #5000 ^designation.language = #fr-FR
@@ -132,8 +120,6 @@ Description: "Clientèles"
 * #5000 ^property[=].valueInteger = 1
 * #5000 ^property[+].code = #finess
 * #5000 ^property[=].valueBoolean = true
-* #5000 ^property[+].code = #rass
-* #5000 ^property[=].valueBoolean = true
 * #6000 "Autres Catégories de Clientèles"
 * #6000 ^designation.language = #fr-FR
 * #6000 ^designation.use.system = "http://snomed.info/sct"
@@ -149,8 +135,6 @@ Description: "Clientèles"
 * #6000 ^property[=].valueInteger = 1
 * #6000 ^property[+].code = #finess
 * #6000 ^property[=].valueBoolean = true
-* #6000 ^property[+].code = #rass
-* #6000 ^property[=].valueBoolean = true
 * #7000 "Toute Population"
 * #7000 ^property[0].code = #dateValid
 * #7000 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
@@ -161,8 +145,6 @@ Description: "Clientèles"
 * #7000 ^property[+].code = #niveau
 * #7000 ^property[=].valueInteger = 1
 * #7000 ^property[+].code = #finess
-* #7000 ^property[=].valueBoolean = true
-* #7000 ^property[+].code = #rass
 * #7000 ^property[=].valueBoolean = true
 * #8000 "Personnes ayant des pathologies ou difficultés spécifiques"
 * #8000 ^designation.language = #fr-FR
@@ -178,8 +160,6 @@ Description: "Clientèles"
 * #8000 ^property[=].valueInteger = 1
 * #8000 ^property[+].code = #finess
 * #8000 ^property[=].valueBoolean = true
-* #8000 ^property[+].code = #rass
-* #8000 ^property[=].valueBoolean = true
 * #1100 "Tous Types de Déficiences"
 * #1100 ^property[0].code = #dateValid
 * #1100 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
@@ -193,8 +173,6 @@ Description: "Clientèles"
 * #1100 ^property[=].valueCode = #1000
 * #1100 ^property[+].code = #finess
 * #1100 ^property[=].valueBoolean = true
-* #1100 ^property[+].code = #rass
-* #1100 ^property[=].valueBoolean = true
 * #1200 "Déficiences Intellectuelles"
 * #1200 ^property[0].code = #dateValid
 * #1200 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
@@ -207,8 +185,6 @@ Description: "Clientèles"
 * #1200 ^property[+].code = #parent
 * #1200 ^property[=].valueCode = #1000
 * #1200 ^property[+].code = #finess
-* #1200 ^property[=].valueBoolean = true
-* #1200 ^property[+].code = #rass
 * #1200 ^property[=].valueBoolean = true
 * #1300 "Troubles du Comportement, Handicap psychique ou cognitif"
 * #1300 ^designation.language = #fr-FR
@@ -227,8 +203,6 @@ Description: "Clientèles"
 * #1300 ^property[=].valueCode = #1000
 * #1300 ^property[+].code = #finess
 * #1300 ^property[=].valueBoolean = true
-* #1300 ^property[+].code = #rass
-* #1300 ^property[=].valueBoolean = true
 * #1500 "Déficiences Motrices"
 * #1500 ^property[0].code = #dateValid
 * #1500 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
@@ -241,8 +215,6 @@ Description: "Clientèles"
 * #1500 ^property[+].code = #parent
 * #1500 ^property[=].valueCode = #1000
 * #1500 ^property[+].code = #finess
-* #1500 ^property[=].valueBoolean = true
-* #1500 ^property[+].code = #rass
 * #1500 ^property[=].valueBoolean = true
 * #1600 "Polyhandicap"
 * #1600 ^property[0].code = #dateValid
@@ -257,8 +229,6 @@ Description: "Clientèles"
 * #1600 ^property[=].valueCode = #1000
 * #1600 ^property[+].code = #finess
 * #1600 ^property[=].valueBoolean = true
-* #1600 ^property[+].code = #rass
-* #1600 ^property[=].valueBoolean = true
 * #1700 "Déficiences Auditives"
 * #1700 ^property[0].code = #dateValid
 * #1700 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
@@ -271,8 +241,6 @@ Description: "Clientèles"
 * #1700 ^property[+].code = #parent
 * #1700 ^property[=].valueCode = #1000
 * #1700 ^property[+].code = #finess
-* #1700 ^property[=].valueBoolean = true
-* #1700 ^property[+].code = #rass
 * #1700 ^property[=].valueBoolean = true
 * #1800 "Déficiences Visuelles"
 * #1800 ^property[0].code = #dateValid
@@ -287,8 +255,6 @@ Description: "Clientèles"
 * #1800 ^property[=].valueCode = #1000
 * #1800 ^property[+].code = #finess
 * #1800 ^property[=].valueBoolean = true
-* #1800 ^property[+].code = #rass
-* #1800 ^property[=].valueBoolean = true
 * #1900 "Surdi-Cécité"
 * #1900 ^property[0].code = #dateValid
 * #1900 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
@@ -302,8 +268,6 @@ Description: "Clientèles"
 * #1900 ^property[=].valueCode = #1000
 * #1900 ^property[+].code = #finess
 * #1900 ^property[=].valueBoolean = true
-* #1900 ^property[+].code = #rass
-* #1900 ^property[=].valueBoolean = true
 * #2100 "Personnes Agées"
 * #2100 ^property[0].code = #dateValid
 * #2100 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
@@ -316,8 +280,6 @@ Description: "Clientèles"
 * #2100 ^property[+].code = #parent
 * #2100 ^property[=].valueCode = #2000
 * #2100 ^property[+].code = #finess
-* #2100 ^property[=].valueBoolean = true
-* #2100 ^property[+].code = #rass
 * #2100 ^property[=].valueBoolean = true
 * #3100 "Enfants et Adolescents (Aide Soc Justice)"
 * #3100 ^designation.language = #fr-FR
@@ -336,8 +298,6 @@ Description: "Clientèles"
 * #3100 ^property[=].valueCode = #3000
 * #3100 ^property[+].code = #finess
 * #3100 ^property[=].valueBoolean = true
-* #3100 ^property[+].code = #rass
-* #3100 ^property[=].valueBoolean = true
 * #4100 "Autres Enfants"
 * #4100 ^property[0].code = #dateValid
 * #4100 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
@@ -350,8 +310,6 @@ Description: "Clientèles"
 * #4100 ^property[+].code = #parent
 * #4100 ^property[=].valueCode = #4000
 * #4100 ^property[+].code = #finess
-* #4100 ^property[=].valueBoolean = true
-* #4100 ^property[+].code = #rass
 * #4100 ^property[=].valueBoolean = true
 * #5100 "Adultes en Difficulté d'Insertion Sociale"
 * #5100 ^designation.language = #fr-FR
@@ -370,8 +328,6 @@ Description: "Clientèles"
 * #5100 ^property[=].valueCode = #5000
 * #5100 ^property[+].code = #finess
 * #5100 ^property[=].valueBoolean = true
-* #5100 ^property[+].code = #rass
-* #5100 ^property[=].valueBoolean = true
 * #5200 "Familles en Difficulté d'Insertion Sociale"
 * #5200 ^designation.language = #fr-FR
 * #5200 ^designation.use.system = "http://snomed.info/sct"
@@ -388,8 +344,6 @@ Description: "Clientèles"
 * #5200 ^property[+].code = #parent
 * #5200 ^property[=].valueCode = #5000
 * #5200 ^property[+].code = #finess
-* #5200 ^property[=].valueBoolean = true
-* #5200 ^property[+].code = #rass
 * #5200 ^property[=].valueBoolean = true
 * #5300 "Personnes et Familles Protégées"
 * #5300 ^designation.language = #fr-FR
@@ -408,8 +362,6 @@ Description: "Clientèles"
 * #5300 ^property[=].valueCode = #5000
 * #5300 ^property[+].code = #finess
 * #5300 ^property[=].valueBoolean = true
-* #5300 ^property[+].code = #rass
-* #5300 ^property[=].valueBoolean = true
 * #6100 "Autres Catégories de Clientèles"
 * #6100 ^designation.language = #fr-FR
 * #6100 ^designation.use.system = "http://snomed.info/sct"
@@ -426,8 +378,6 @@ Description: "Clientèles"
 * #6100 ^property[+].code = #parent
 * #6100 ^property[=].valueCode = #6000
 * #6100 ^property[+].code = #finess
-* #6100 ^property[=].valueBoolean = true
-* #6100 ^property[+].code = #rass
 * #6100 ^property[=].valueBoolean = true
 * #6200 "Clientèles transverses"
 * #6200 ^designation.language = #fr-FR
@@ -446,8 +396,6 @@ Description: "Clientèles"
 * #6200 ^property[=].valueCode = #6000
 * #6200 ^property[+].code = #finess
 * #6200 ^property[=].valueBoolean = true
-* #6200 ^property[+].code = #rass
-* #6200 ^property[=].valueBoolean = true
 * #7100 "Toute Population"
 * #7100 ^property[0].code = #dateValid
 * #7100 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
@@ -460,8 +408,6 @@ Description: "Clientèles"
 * #7100 ^property[+].code = #parent
 * #7100 ^property[=].valueCode = #7000
 * #7100 ^property[+].code = #finess
-* #7100 ^property[=].valueBoolean = true
-* #7100 ^property[+].code = #rass
 * #7100 ^property[=].valueBoolean = true
 * #8100 "Troubles Psychopathologiques"
 * #8100 ^designation.language = #fr-FR
@@ -484,8 +430,6 @@ Description: "Clientèles"
 * #8100 ^property[=].valueCode = #8000
 * #8100 ^property[+].code = #finess
 * #8100 ^property[=].valueBoolean = true
-* #8100 ^property[+].code = #rass
-* #8100 ^property[=].valueBoolean = false
 * #8200 "Epilepsies"
 * #8200 ^property[0].code = #dateValid
 * #8200 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
@@ -498,8 +442,6 @@ Description: "Clientèles"
 * #8200 ^property[+].code = #parent
 * #8200 ^property[=].valueCode = #8000
 * #8200 ^property[+].code = #finess
-* #8200 ^property[=].valueBoolean = true
-* #8200 ^property[+].code = #rass
 * #8200 ^property[=].valueBoolean = true
 * #8300 "Maladie Invalidante de Longue Durée"
 * #8300 ^designation.language = #fr-FR
@@ -518,8 +460,6 @@ Description: "Clientèles"
 * #8300 ^property[=].valueCode = #8000
 * #8300 ^property[+].code = #finess
 * #8300 ^property[=].valueBoolean = true
-* #8300 ^property[+].code = #rass
-* #8300 ^property[=].valueBoolean = true
 * #8400 "Personnes ayant des pratiques addictives"
 * #8400 ^designation.language = #fr-FR
 * #8400 ^designation.use = $sct#900000000000013009
@@ -535,8 +475,6 @@ Description: "Clientèles"
 * #8400 ^property[+].code = #parent
 * #8400 ^property[=].valueCode = #8000
 * #8400 ^property[+].code = #finess
-* #8400 ^property[=].valueBoolean = true
-* #8400 ^property[+].code = #rass
 * #8400 ^property[=].valueBoolean = true
 * #010 "Tous Types de Déficiences Pers.Handicap.(sans autre indic.)"
 * #010 ^designation.language = #fr-FR
@@ -555,8 +493,6 @@ Description: "Clientèles"
 * #010 ^property[=].valueCode = #1100
 * #010 ^property[+].code = #finess
 * #010 ^property[=].valueBoolean = true
-* #010 ^property[+].code = #rass
-* #010 ^property[=].valueBoolean = true
 * #011 "Handicap rare"
 * #011 ^property[0].code = #dateValid
 * #011 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
@@ -569,8 +505,6 @@ Description: "Clientèles"
 * #011 ^property[+].code = #parent
 * #011 ^property[=].valueCode = #1100
 * #011 ^property[+].code = #finess
-* #011 ^property[=].valueBoolean = true
-* #011 ^property[+].code = #rass
 * #011 ^property[=].valueBoolean = true
 * #020 "Toutes Déficiences Physiques (Sans autre indication)"
 * #020 ^designation.language = #fr-FR
@@ -593,8 +527,6 @@ Description: "Clientèles"
 * #020 ^property[=].valueCode = #1100
 * #020 ^property[+].code = #finess
 * #020 ^property[=].valueBoolean = true
-* #020 ^property[+].code = #rass
-* #020 ^property[=].valueBoolean = false
 * #030 "Toutes Déficiences Mentales (sans autre indication)"
 * #030 ^designation.language = #fr-FR
 * #030 ^designation.use.system = "http://snomed.info/sct"
@@ -616,8 +548,6 @@ Description: "Clientèles"
 * #030 ^property[=].valueCode = #1100
 * #030 ^property[+].code = #finess
 * #030 ^property[=].valueBoolean = true
-* #030 ^property[+].code = #rass
-* #030 ^property[=].valueBoolean = false
 * #040 "Aidants / aidés Personnes âgées"
 * #040 ^designation.language = #fr-FR
 * #040 ^designation.use.system = "http://snomed.info/sct"
@@ -634,8 +564,6 @@ Description: "Clientèles"
 * #040 ^property[+].code = #parent
 * #040 ^property[=].valueCode = #6200
 * #040 ^property[+].code = #finess
-* #040 ^property[=].valueBoolean = true
-* #040 ^property[+].code = #rass
 * #040 ^property[=].valueBoolean = true
 * #041 "Aidants / aidés Maladies chroniques invalidantes"
 * #041 ^designation.language = #fr-FR
@@ -654,8 +582,6 @@ Description: "Clientèles"
 * #041 ^property[=].valueCode = #6200
 * #041 ^property[+].code = #finess
 * #041 ^property[=].valueBoolean = true
-* #041 ^property[+].code = #rass
-* #041 ^property[=].valueBoolean = true
 * #042 "Aidants / aidés Tous types de handicap"
 * #042 ^designation.language = #fr-FR
 * #042 ^designation.use.system = "http://snomed.info/sct"
@@ -673,8 +599,6 @@ Description: "Clientèles"
 * #042 ^property[=].valueCode = #6200
 * #042 ^property[+].code = #finess
 * #042 ^property[=].valueBoolean = true
-* #042 ^property[+].code = #rass
-* #042 ^property[=].valueBoolean = true
 * #043 "Aidants / aidés Troubles du spectre de l'autisme"
 * #043 ^designation.language = #fr-FR
 * #043 ^designation.use.system = "http://snomed.info/sct"
@@ -691,8 +615,6 @@ Description: "Clientèles"
 * #043 ^property[+].code = #parent
 * #043 ^property[=].valueCode = #6200
 * #043 ^property[+].code = #finess
-* #043 ^property[=].valueBoolean = true
-* #043 ^property[+].code = #rass
 * #043 ^property[=].valueBoolean = true
 * #110 "Déficience Intellectuelle (sans autre indication)"
 * #110 ^designation.language = #fr-FR
@@ -715,8 +637,6 @@ Description: "Clientèles"
 * #110 ^property[=].valueCode = #1200
 * #110 ^property[+].code = #finess
 * #110 ^property[=].valueBoolean = true
-* #110 ^property[+].code = #rass
-* #110 ^property[=].valueBoolean = false
 * #111 "Retard Mental Profond ou Sévère"
 * #111 ^designation.language = #fr-FR
 * #111 ^designation.use.system = "http://snomed.info/sct"
@@ -738,8 +658,6 @@ Description: "Clientèles"
 * #111 ^property[=].valueCode = #1200
 * #111 ^property[+].code = #finess
 * #111 ^property[=].valueBoolean = true
-* #111 ^property[+].code = #rass
-* #111 ^property[=].valueBoolean = false
 * #112 "Débilité Profonde & Arriéré Profond"
 * #112 ^designation.language = #fr-FR
 * #112 ^designation.use.system = "http://snomed.info/sct"
@@ -761,8 +679,6 @@ Description: "Clientèles"
 * #112 ^property[=].valueCode = #1200
 * #112 ^property[+].code = #finess
 * #112 ^property[=].valueBoolean = true
-* #112 ^property[+].code = #rass
-* #112 ^property[=].valueBoolean = false
 * #113 "Débilité Profonde"
 * #113 ^property[0].code = #dateValid
 * #113 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
@@ -780,8 +696,6 @@ Description: "Clientèles"
 * #113 ^property[=].valueCode = #1200
 * #113 ^property[+].code = #finess
 * #113 ^property[=].valueBoolean = true
-* #113 ^property[+].code = #rass
-* #113 ^property[=].valueBoolean = false
 * #114 "Retard Mental Profond/Sévère/Moyen"
 * #114 ^designation.language = #fr-FR
 * #114 ^designation.use.system = "http://snomed.info/sct"
@@ -803,8 +717,6 @@ Description: "Clientèles"
 * #114 ^property[=].valueCode = #1200
 * #114 ^property[+].code = #finess
 * #114 ^property[=].valueBoolean = true
-* #114 ^property[+].code = #rass
-* #114 ^property[=].valueBoolean = false
 * #115 "Retard Mental Moyen"
 * #115 ^designation.language = #fr-FR
 * #115 ^designation.use.system = "http://snomed.info/sct"
@@ -826,8 +738,6 @@ Description: "Clientèles"
 * #115 ^property[=].valueCode = #1200
 * #115 ^property[+].code = #finess
 * #115 ^property[=].valueBoolean = true
-* #115 ^property[+].code = #rass
-* #115 ^property[=].valueBoolean = false
 * #116 "Retard Mental Moyen et Léger"
 * #116 ^designation.language = #fr-FR
 * #116 ^designation.use.system = "http://snomed.info/sct"
@@ -849,8 +759,6 @@ Description: "Clientèles"
 * #116 ^property[=].valueCode = #1200
 * #116 ^property[+].code = #finess
 * #116 ^property[=].valueBoolean = true
-* #116 ^property[+].code = #rass
-* #116 ^property[=].valueBoolean = false
 * #117 "Déficience intellectuelle"
 * #117 ^designation.language = #fr-FR
 * #117 ^designation.use.system = "http://snomed.info/sct"
@@ -867,8 +775,6 @@ Description: "Clientèles"
 * #117 ^property[+].code = #parent
 * #117 ^property[=].valueCode = #1200
 * #117 ^property[+].code = #finess
-* #117 ^property[=].valueBoolean = true
-* #117 ^property[+].code = #rass
 * #117 ^property[=].valueBoolean = true
 * #118 "Retard Mental Léger"
 * #118 ^property[0].code = #dateValid
@@ -887,8 +793,6 @@ Description: "Clientèles"
 * #118 ^property[=].valueCode = #1200
 * #118 ^property[+].code = #finess
 * #118 ^property[=].valueBoolean = true
-* #118 ^property[+].code = #rass
-* #118 ^property[=].valueBoolean = false
 * #120 "Déficiences Intellectuelles (SAI) avec Troubles Associés"
 * #120 ^designation.language = #fr-FR
 * #120 ^designation.use.system = "http://snomed.info/sct"
@@ -910,8 +814,6 @@ Description: "Clientèles"
 * #120 ^property[=].valueCode = #1200
 * #120 ^property[+].code = #finess
 * #120 ^property[=].valueBoolean = true
-* #120 ^property[+].code = #rass
-* #120 ^property[=].valueBoolean = false
 * #121 "Retard Mental Profond et Sévère avec Troubles Associés"
 * #121 ^designation.language = #fr-FR
 * #121 ^designation.use.system = "http://snomed.info/sct"
@@ -933,8 +835,6 @@ Description: "Clientèles"
 * #121 ^property[=].valueCode = #1200
 * #121 ^property[+].code = #finess
 * #121 ^property[=].valueBoolean = true
-* #121 ^property[+].code = #rass
-* #121 ^property[=].valueBoolean = false
 * #125 "Retard Mental Moyen avec Troubles Associés"
 * #125 ^designation.language = #fr-FR
 * #125 ^designation.use.system = "http://snomed.info/sct"
@@ -956,8 +856,6 @@ Description: "Clientèles"
 * #125 ^property[=].valueCode = #1200
 * #125 ^property[+].code = #finess
 * #125 ^property[=].valueBoolean = true
-* #125 ^property[+].code = #rass
-* #125 ^property[=].valueBoolean = false
 * #128 "Retard Mental Léger avec Troubles Associés"
 * #128 ^designation.language = #fr-FR
 * #128 ^designation.use.system = "http://snomed.info/sct"
@@ -979,8 +877,6 @@ Description: "Clientèles"
 * #128 ^property[=].valueCode = #1200
 * #128 ^property[+].code = #finess
 * #128 ^property[=].valueBoolean = true
-* #128 ^property[+].code = #rass
-* #128 ^property[=].valueBoolean = false
 * #200 "Difficultés psychologiques avec troubles du comportement"
 * #200 ^designation.language = #fr-FR
 * #200 ^designation.use.system = "http://snomed.info/sct"
@@ -998,8 +894,6 @@ Description: "Clientèles"
 * #200 ^property[=].valueCode = #1300
 * #200 ^property[+].code = #finess
 * #200 ^property[=].valueBoolean = true
-* #200 ^property[+].code = #rass
-* #200 ^property[=].valueBoolean = true
 * #201 "Déficience Intermittente de la Conscience ycompris épilepsie"
 * #201 ^designation.language = #fr-FR
 * #201 ^designation.use.system = "http://snomed.info/sct"
@@ -1016,8 +910,6 @@ Description: "Clientèles"
 * #201 ^property[+].code = #parent
 * #201 ^property[=].valueCode = #1300
 * #201 ^property[+].code = #finess
-* #201 ^property[=].valueBoolean = true
-* #201 ^property[+].code = #rass
 * #201 ^property[=].valueBoolean = true
 * #202 "Déficience Grave du Psychisme consécutive à lésion cérébrale"
 * #202 ^designation.language = #fr-FR
@@ -1040,8 +932,6 @@ Description: "Clientèles"
 * #202 ^property[=].valueCode = #1300
 * #202 ^property[+].code = #finess
 * #202 ^property[=].valueBoolean = true
-* #202 ^property[+].code = #rass
-* #202 ^property[=].valueBoolean = false
 * #203 "Déficience Grave de la Communication"
 * #203 ^designation.language = #fr-FR
 * #203 ^designation.use.system = "http://snomed.info/sct"
@@ -1063,8 +953,6 @@ Description: "Clientèles"
 * #203 ^property[=].valueCode = #1300
 * #203 ^property[+].code = #finess
 * #203 ^property[=].valueBoolean = true
-* #203 ^property[+].code = #rass
-* #203 ^property[=].valueBoolean = false
 * #204 "Déficience Grave du Psychisme"
 * #204 ^designation.language = #fr-FR
 * #204 ^designation.use.system = "http://snomed.info/sct"
@@ -1086,8 +974,6 @@ Description: "Clientèles"
 * #204 ^property[=].valueCode = #1300
 * #204 ^property[+].code = #finess
 * #204 ^property[=].valueBoolean = true
-* #204 ^property[+].code = #rass
-* #204 ^property[=].valueBoolean = false
 * #205 "Déficience du Psychisme (Sans Autre Indication)"
 * #205 ^designation.language = #fr-FR
 * #205 ^designation.use.system = "http://snomed.info/sct"
@@ -1109,8 +995,6 @@ Description: "Clientèles"
 * #205 ^property[=].valueCode = #1300
 * #205 ^property[+].code = #finess
 * #205 ^property[=].valueBoolean = true
-* #205 ^property[+].code = #rass
-* #205 ^property[=].valueBoolean = false
 * #206 "Handicap psychique"
 * #206 ^property[0].code = #dateValid
 * #206 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
@@ -1123,8 +1007,6 @@ Description: "Clientèles"
 * #206 ^property[+].code = #parent
 * #206 ^property[=].valueCode = #1300
 * #206 ^property[+].code = #finess
-* #206 ^property[=].valueBoolean = true
-* #206 ^property[+].code = #rass
 * #206 ^property[=].valueBoolean = true
 * #207 "Handicap cognitif spécifique"
 * #207 ^designation.language = #fr-FR
@@ -1143,8 +1025,6 @@ Description: "Clientèles"
 * #207 ^property[=].valueCode = #1300
 * #207 ^property[+].code = #finess
 * #207 ^property[=].valueBoolean = true
-* #207 ^property[+].code = #rass
-* #207 ^property[=].valueBoolean = true
 * #310 "Déficience Auditive"
 * #310 ^property[0].code = #dateValid
 * #310 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
@@ -1162,8 +1042,6 @@ Description: "Clientèles"
 * #310 ^property[=].valueCode = #1700
 * #310 ^property[+].code = #finess
 * #310 ^property[=].valueBoolean = true
-* #310 ^property[+].code = #rass
-* #310 ^property[=].valueBoolean = false
 * #311 "Surdité"
 * #311 ^property[0].code = #dateValid
 * #311 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
@@ -1181,8 +1059,6 @@ Description: "Clientèles"
 * #311 ^property[=].valueCode = #1700
 * #311 ^property[+].code = #finess
 * #311 ^property[=].valueBoolean = true
-* #311 ^property[+].code = #rass
-* #311 ^property[=].valueBoolean = false
 * #312 "Malentendant"
 * #312 ^property[0].code = #dateValid
 * #312 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
@@ -1200,8 +1076,6 @@ Description: "Clientèles"
 * #312 ^property[=].valueCode = #1700
 * #312 ^property[+].code = #finess
 * #312 ^property[=].valueBoolean = true
-* #312 ^property[+].code = #rass
-* #312 ^property[=].valueBoolean = false
 * #313 "Sourd et Malentendant"
 * #313 ^designation.language = #fr-FR
 * #313 ^designation.use.system = "http://snomed.info/sct"
@@ -1223,8 +1097,6 @@ Description: "Clientèles"
 * #313 ^property[=].valueCode = #1700
 * #313 ^property[+].code = #finess
 * #313 ^property[=].valueBoolean = true
-* #313 ^property[+].code = #rass
-* #313 ^property[=].valueBoolean = false
 * #317 "Déficiences Auditives avec troubles associés"
 * #317 ^designation.language = #fr-FR
 * #317 ^designation.use.system = "http://snomed.info/sct"
@@ -1246,8 +1118,6 @@ Description: "Clientèles"
 * #317 ^property[=].valueCode = #1700
 * #317 ^property[+].code = #finess
 * #317 ^property[=].valueBoolean = true
-* #317 ^property[+].code = #rass
-* #317 ^property[=].valueBoolean = false
 * #318 "Déficience auditive grave"
 * #318 ^designation.language = #fr-FR
 * #318 ^designation.use.system = "http://snomed.info/sct"
@@ -1264,8 +1134,6 @@ Description: "Clientèles"
 * #318 ^property[+].code = #parent
 * #318 ^property[=].valueCode = #1700
 * #318 ^property[+].code = #finess
-* #318 ^property[=].valueBoolean = true
-* #318 ^property[+].code = #rass
 * #318 ^property[=].valueBoolean = true
 * #320 "Déficience Visuelle (Sans Autre Indication)"
 * #320 ^designation.language = #fr-FR
@@ -1288,8 +1156,6 @@ Description: "Clientèles"
 * #320 ^property[=].valueCode = #1800
 * #320 ^property[+].code = #finess
 * #320 ^property[=].valueBoolean = true
-* #320 ^property[+].code = #rass
-* #320 ^property[=].valueBoolean = false
 * #321 "Cécité"
 * #321 ^property[0].code = #dateValid
 * #321 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
@@ -1307,8 +1173,6 @@ Description: "Clientèles"
 * #321 ^property[=].valueCode = #1800
 * #321 ^property[+].code = #finess
 * #321 ^property[=].valueBoolean = true
-* #321 ^property[+].code = #rass
-* #321 ^property[=].valueBoolean = false
 * #322 "Cécité et Malvoyance"
 * #322 ^property[0].code = #dateValid
 * #322 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
@@ -1326,8 +1190,6 @@ Description: "Clientèles"
 * #322 ^property[=].valueCode = #1800
 * #322 ^property[+].code = #finess
 * #322 ^property[=].valueBoolean = true
-* #322 ^property[+].code = #rass
-* #322 ^property[=].valueBoolean = false
 * #323 "Malvoyance"
 * #323 ^property[0].code = #dateValid
 * #323 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
@@ -1345,8 +1207,6 @@ Description: "Clientèles"
 * #323 ^property[=].valueCode = #1800
 * #323 ^property[+].code = #finess
 * #323 ^property[=].valueBoolean = true
-* #323 ^property[+].code = #rass
-* #323 ^property[=].valueBoolean = false
 * #324 "Déficience visuelle grave"
 * #324 ^designation.language = #fr-FR
 * #324 ^designation.use.system = "http://snomed.info/sct"
@@ -1363,8 +1223,6 @@ Description: "Clientèles"
 * #324 ^property[+].code = #parent
 * #324 ^property[=].valueCode = #1800
 * #324 ^property[+].code = #finess
-* #324 ^property[=].valueBoolean = true
-* #324 ^property[+].code = #rass
 * #324 ^property[=].valueBoolean = true
 * #327 "Déficiences Visuelles avec troubles associés"
 * #327 ^designation.language = #fr-FR
@@ -1387,8 +1245,6 @@ Description: "Clientèles"
 * #327 ^property[=].valueCode = #1800
 * #327 ^property[+].code = #finess
 * #327 ^property[=].valueBoolean = true
-* #327 ^property[+].code = #rass
-* #327 ^property[=].valueBoolean = false
 * #410 "Déficience Motrice sans Troubles Associés"
 * #410 ^designation.language = #fr-FR
 * #410 ^designation.use.system = "http://snomed.info/sct"
@@ -1410,8 +1266,6 @@ Description: "Clientèles"
 * #410 ^property[=].valueCode = #1500
 * #410 ^property[+].code = #finess
 * #410 ^property[=].valueBoolean = true
-* #410 ^property[+].code = #rass
-* #410 ^property[=].valueBoolean = false
 * #411 "Infirm.Mot.Cérébrale/non Cérébrale"
 * #411 ^designation.language = #fr-FR
 * #411 ^designation.use.system = "http://snomed.info/sct"
@@ -1433,8 +1287,6 @@ Description: "Clientèles"
 * #411 ^property[=].valueCode = #1500
 * #411 ^property[+].code = #finess
 * #411 ^property[=].valueBoolean = true
-* #411 ^property[+].code = #rass
-* #411 ^property[=].valueBoolean = false
 * #412 "Infirmité Motrice Cérébrale"
 * #412 ^designation.language = #fr-FR
 * #412 ^designation.use.system = "http://snomed.info/sct"
@@ -1456,8 +1308,6 @@ Description: "Clientèles"
 * #412 ^property[=].valueCode = #1500
 * #412 ^property[+].code = #finess
 * #412 ^property[=].valueBoolean = true
-* #412 ^property[+].code = #rass
-* #412 ^property[=].valueBoolean = false
 * #413 "Infirmité Motrice non Cérébrale"
 * #413 ^designation.language = #fr-FR
 * #413 ^designation.use.system = "http://snomed.info/sct"
@@ -1479,8 +1329,6 @@ Description: "Clientèles"
 * #413 ^property[=].valueCode = #1500
 * #413 ^property[+].code = #finess
 * #413 ^property[=].valueBoolean = true
-* #413 ^property[+].code = #rass
-* #413 ^property[=].valueBoolean = false
 * #414 "Déficience Motrice"
 * #414 ^property[0].code = #dateValid
 * #414 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
@@ -1493,8 +1341,6 @@ Description: "Clientèles"
 * #414 ^property[+].code = #parent
 * #414 ^property[=].valueCode = #1500
 * #414 ^property[+].code = #finess
-* #414 ^property[=].valueBoolean = true
-* #414 ^property[+].code = #rass
 * #414 ^property[=].valueBoolean = true
 * #420 "Déficience Motrice avec Troubles Associés"
 * #420 ^designation.language = #fr-FR
@@ -1517,8 +1363,6 @@ Description: "Clientèles"
 * #420 ^property[=].valueCode = #1500
 * #420 ^property[+].code = #finess
 * #420 ^property[=].valueBoolean = true
-* #420 ^property[+].code = #rass
-* #420 ^property[=].valueBoolean = false
 * #430 "Personnes nécessitant prise en charge psycho soc et san SAI"
 * #430 ^designation.language = #fr-FR
 * #430 ^designation.use.system = "http://snomed.info/sct"
@@ -1536,8 +1380,6 @@ Description: "Clientèles"
 * #430 ^property[=].valueCode = #8300
 * #430 ^property[+].code = #finess
 * #430 ^property[=].valueBoolean = true
-* #430 ^property[+].code = #rass
-* #430 ^property[=].valueBoolean = true
 * #431 "Affection Cardiaque"
 * #431 ^property[0].code = #dateValid
 * #431 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
@@ -1550,8 +1392,6 @@ Description: "Clientèles"
 * #431 ^property[+].code = #parent
 * #431 ^property[=].valueCode = #8300
 * #431 ^property[+].code = #finess
-* #431 ^property[=].valueBoolean = true
-* #431 ^property[+].code = #rass
 * #431 ^property[=].valueBoolean = true
 * #432 "Diabète"
 * #432 ^designation.language = #fr-FR
@@ -1570,8 +1410,6 @@ Description: "Clientèles"
 * #432 ^property[=].valueCode = #8300
 * #432 ^property[+].code = #finess
 * #432 ^property[=].valueBoolean = true
-* #432 ^property[+].code = #rass
-* #432 ^property[=].valueBoolean = true
 * #433 "Affection Respiratoire"
 * #433 ^designation.language = #fr-FR
 * #433 ^designation.use.system = "http://snomed.info/sct"
@@ -1589,8 +1427,6 @@ Description: "Clientèles"
 * #433 ^property[=].valueCode = #8300
 * #433 ^property[+].code = #finess
 * #433 ^property[=].valueBoolean = true
-* #433 ^property[+].code = #rass
-* #433 ^property[=].valueBoolean = true
 * #434 "Hémophilie"
 * #434 ^property[0].code = #dateValid
 * #434 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
@@ -1604,8 +1440,6 @@ Description: "Clientèles"
 * #434 ^property[=].valueCode = #8300
 * #434 ^property[+].code = #finess
 * #434 ^property[=].valueBoolean = true
-* #434 ^property[+].code = #rass
-* #434 ^property[=].valueBoolean = true
 * #435 "Insuffisance Rénale"
 * #435 ^property[0].code = #dateValid
 * #435 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
@@ -1618,8 +1452,6 @@ Description: "Clientèles"
 * #435 ^property[+].code = #parent
 * #435 ^property[=].valueCode = #8300
 * #435 ^property[+].code = #finess
-* #435 ^property[=].valueBoolean = true
-* #435 ^property[+].code = #rass
 * #435 ^property[=].valueBoolean = true
 * #436 "Personnes Alzheimer ou maladies apparentées"
 * #436 ^designation.language = #fr-FR
@@ -1638,8 +1470,6 @@ Description: "Clientèles"
 * #436 ^property[=].valueCode = #8300
 * #436 ^property[+].code = #finess
 * #436 ^property[=].valueBoolean = true
-* #436 ^property[+].code = #rass
-* #436 ^property[=].valueBoolean = true
 * #437 "Troubles du spectre de l'autisme"
 * #437 ^designation.language = #fr-FR
 * #437 ^designation.use.system = "http://snomed.info/sct"
@@ -1657,8 +1487,6 @@ Description: "Clientèles"
 * #437 ^property[=].valueCode = #1100
 * #437 ^property[+].code = #finess
 * #437 ^property[=].valueBoolean = true
-* #437 ^property[+].code = #rass
-* #437 ^property[=].valueBoolean = true
 * #438 "Cérébro lésés"
 * #438 ^property[0].code = #dateValid
 * #438 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
@@ -1672,8 +1500,6 @@ Description: "Clientèles"
 * #438 ^property[=].valueCode = #1100
 * #438 ^property[+].code = #finess
 * #438 ^property[=].valueBoolean = true
-* #438 ^property[+].code = #rass
-* #438 ^property[=].valueBoolean = true
 * #439 "VIH VHC"
 * #439 ^property[0].code = #dateValid
 * #439 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
@@ -1686,8 +1512,6 @@ Description: "Clientèles"
 * #439 ^property[+].code = #parent
 * #439 ^property[=].valueCode = #8300
 * #439 ^property[+].code = #finess
-* #439 ^property[=].valueBoolean = true
-* #439 ^property[+].code = #rass
 * #439 ^property[=].valueBoolean = true
 * #440 "MND autres que Maladie Alzheimer et Maladies Apparentées"
 * #440 ^designation.language = #fr-FR
@@ -1706,8 +1530,6 @@ Description: "Clientèles"
 * #440 ^property[=].valueCode = #8300
 * #440 ^property[+].code = #finess
 * #440 ^property[=].valueBoolean = true
-* #440 ^property[+].code = #rass
-* #440 ^property[=].valueBoolean = true
 * #441 "Adultes autistes relevant des cas complexes"
 * #441 ^designation.language = #fr-FR
 * #441 ^designation.use.system = "http://snomed.info/sct"
@@ -1725,8 +1547,6 @@ Description: "Clientèles"
 * #441 ^property[=].valueCode = #1100
 * #441 ^property[+].code = #finess
 * #441 ^property[=].valueBoolean = true
-* #441 ^property[+].code = #rass
-* #441 ^property[=].valueBoolean = true
 * #442 "Troubles du neurodéveloppement"
 * #442 ^property[0].code = #dateValid
 * #442 ^property[=].valueDateTime = "2024-09-27T12:00:00+01:00"
@@ -1740,8 +1560,6 @@ Description: "Clientèles"
 * #442 ^property[=].valueCode = #1100
 * #442 ^property[+].code = #finess
 * #442 ^property[=].valueBoolean = true
-* #442 ^property[+].code = #rass
-* #442 ^property[=].valueBoolean = true
 * #500 "Polyhandicap"
 * #500 ^property[0].code = #dateValid
 * #500 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
@@ -1754,8 +1572,6 @@ Description: "Clientèles"
 * #500 ^property[+].code = #parent
 * #500 ^property[=].valueCode = #1600
 * #500 ^property[+].code = #finess
-* #500 ^property[=].valueBoolean = true
-* #500 ^property[+].code = #rass
 * #500 ^property[=].valueBoolean = true
 * #501 "Polyhandicap Moteur et Mental."
 * #501 ^designation.language = #fr-FR
@@ -1778,8 +1594,6 @@ Description: "Clientèles"
 * #501 ^property[=].valueCode = #1600
 * #501 ^property[+].code = #finess
 * #501 ^property[=].valueBoolean = true
-* #501 ^property[+].code = #rass
-* #501 ^property[=].valueBoolean = false
 * #502 "Polyhandicap Auditif et Mental"
 * #502 ^designation.language = #fr-FR
 * #502 ^designation.use.system = "http://snomed.info/sct"
@@ -1801,8 +1615,6 @@ Description: "Clientèles"
 * #502 ^property[=].valueCode = #1600
 * #502 ^property[+].code = #finess
 * #502 ^property[=].valueBoolean = true
-* #502 ^property[+].code = #rass
-* #502 ^property[=].valueBoolean = false
 * #503 "Polyhandicap Visuel et Mental"
 * #503 ^designation.language = #fr-FR
 * #503 ^designation.use.system = "http://snomed.info/sct"
@@ -1824,8 +1636,6 @@ Description: "Clientèles"
 * #503 ^property[=].valueCode = #1600
 * #503 ^property[+].code = #finess
 * #503 ^property[=].valueBoolean = true
-* #503 ^property[+].code = #rass
-* #503 ^property[=].valueBoolean = false
 * #506 "Polyhandicap Mot.Mental & Sens"
 * #506 ^designation.language = #fr-FR
 * #506 ^designation.use.system = "http://snomed.info/sct"
@@ -1847,8 +1657,6 @@ Description: "Clientèles"
 * #506 ^property[=].valueCode = #1600
 * #506 ^property[+].code = #finess
 * #506 ^property[=].valueBoolean = true
-* #506 ^property[+].code = #rass
-* #506 ^property[=].valueBoolean = false
 * #510 "Déficience Auditive & Visuelle"
 * #510 ^designation.language = #fr-FR
 * #510 ^designation.use.system = "http://snomed.info/sct"
@@ -1870,8 +1678,6 @@ Description: "Clientèles"
 * #510 ^property[=].valueCode = #1900
 * #510 ^property[+].code = #finess
 * #510 ^property[=].valueBoolean = true
-* #510 ^property[+].code = #rass
-* #510 ^property[=].valueBoolean = false
 * #511 "Surdi-Cécité avec ou sans troubles associés"
 * #511 ^designation.language = #fr-FR
 * #511 ^designation.use.system = "http://snomed.info/sct"
@@ -1888,8 +1694,6 @@ Description: "Clientèles"
 * #511 ^property[+].code = #parent
 * #511 ^property[=].valueCode = #1900
 * #511 ^property[+].code = #finess
-* #511 ^property[=].valueBoolean = true
-* #511 ^property[+].code = #rass
 * #511 ^property[=].valueBoolean = true
 * #512 "Défic.Visuelle.& Audit.Associées"
 * #512 ^designation.language = #fr-FR
@@ -1912,8 +1716,6 @@ Description: "Clientèles"
 * #512 ^property[=].valueCode = #1900
 * #512 ^property[+].code = #finess
 * #512 ^property[=].valueBoolean = true
-* #512 ^property[+].code = #rass
-* #512 ^property[=].valueBoolean = false
 * #600 "Troubles Psychopathologiques (Sans Autre Indication)"
 * #600 ^designation.language = #fr-FR
 * #600 ^designation.use.system = "http://snomed.info/sct"
@@ -1935,8 +1737,6 @@ Description: "Clientèles"
 * #600 ^property[=].valueCode = #8100
 * #600 ^property[+].code = #finess
 * #600 ^property[=].valueBoolean = true
-* #600 ^property[+].code = #rass
-* #600 ^property[=].valueBoolean = false
 * #601 "Troubles Psychopatologiques Légers"
 * #601 ^designation.language = #fr-FR
 * #601 ^designation.use.system = "http://snomed.info/sct"
@@ -1958,8 +1758,6 @@ Description: "Clientèles"
 * #601 ^property[=].valueCode = #8100
 * #601 ^property[+].code = #finess
 * #601 ^property[=].valueBoolean = true
-* #601 ^property[+].code = #rass
-* #601 ^property[=].valueBoolean = false
 * #602 "Troubles Psychopathologiques Graves"
 * #602 ^designation.language = #fr-FR
 * #602 ^designation.use.system = "http://snomed.info/sct"
@@ -1981,8 +1779,6 @@ Description: "Clientèles"
 * #602 ^property[=].valueCode = #8100
 * #602 ^property[+].code = #finess
 * #602 ^property[=].valueBoolean = true
-* #602 ^property[+].code = #rass
-* #602 ^property[=].valueBoolean = false
 * #620 "Epilepsie"
 * #620 ^property[0].code = #dateValid
 * #620 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
@@ -1995,8 +1791,6 @@ Description: "Clientèles"
 * #620 ^property[+].code = #parent
 * #620 ^property[=].valueCode = #8200
 * #620 ^property[+].code = #finess
-* #620 ^property[=].valueBoolean = true
-* #620 ^property[+].code = #rass
 * #620 ^property[=].valueBoolean = true
 * #700 "Personnes Agées (Sans Autre Indication)"
 * #700 ^designation.language = #fr-FR
@@ -2015,8 +1809,6 @@ Description: "Clientèles"
 * #700 ^property[=].valueCode = #2100
 * #700 ^property[+].code = #finess
 * #700 ^property[=].valueBoolean = true
-* #700 ^property[+].code = #rass
-* #700 ^property[=].valueBoolean = true
 * #701 "Personnes Agées Autonomes"
 * #701 ^designation.language = #fr-FR
 * #701 ^designation.use.system = "http://snomed.info/sct"
@@ -2034,8 +1826,6 @@ Description: "Clientèles"
 * #701 ^property[=].valueCode = #2100
 * #701 ^property[+].code = #finess
 * #701 ^property[=].valueBoolean = true
-* #701 ^property[+].code = #rass
-* #701 ^property[=].valueBoolean = true
 * #702 "Personnes Handicapées vieillissantes"
 * #702 ^designation.language = #fr-FR
 * #702 ^designation.use.system = "http://snomed.info/sct"
@@ -2052,8 +1842,6 @@ Description: "Clientèles"
 * #702 ^property[+].code = #parent
 * #702 ^property[=].valueCode = #2100
 * #702 ^property[+].code = #finess
-* #702 ^property[=].valueBoolean = true
-* #702 ^property[+].code = #rass
 * #702 ^property[=].valueBoolean = true
 * #703 "Personnes Agées semi-Autonomes"
 * #703 ^designation.language = #fr-FR
@@ -2076,8 +1864,6 @@ Description: "Clientèles"
 * #703 ^property[=].valueCode = #2100
 * #703 ^property[+].code = #finess
 * #703 ^property[=].valueBoolean = true
-* #703 ^property[+].code = #rass
-* #703 ^property[=].valueBoolean = false
 * #704 "Personnes Agées non Autonomes"
 * #704 ^designation.language = #fr-FR
 * #704 ^designation.use.system = "http://snomed.info/sct"
@@ -2099,8 +1885,6 @@ Description: "Clientèles"
 * #704 ^property[=].valueCode = #2100
 * #704 ^property[+].code = #finess
 * #704 ^property[=].valueBoolean = true
-* #704 ^property[+].code = #rass
-* #704 ^property[=].valueBoolean = false
 * #707 "Personnes Agées semi et non-Autonomes"
 * #707 ^designation.language = #fr-FR
 * #707 ^designation.use.system = "http://snomed.info/sct"
@@ -2122,8 +1906,6 @@ Description: "Clientèles"
 * #707 ^property[=].valueCode = #2100
 * #707 ^property[+].code = #finess
 * #707 ^property[=].valueBoolean = true
-* #707 ^property[+].code = #rass
-* #707 ^property[=].valueBoolean = false
 * #710 "Personnes Agées Auto et semi-Autonomes"
 * #710 ^designation.language = #fr-FR
 * #710 ^designation.use.system = "http://snomed.info/sct"
@@ -2145,8 +1927,6 @@ Description: "Clientèles"
 * #710 ^property[=].valueCode = #2100
 * #710 ^property[+].code = #finess
 * #710 ^property[=].valueBoolean = true
-* #710 ^property[+].code = #rass
-* #710 ^property[=].valueBoolean = false
 * #711 "Personnes Agées dépendantes"
 * #711 ^designation.language = #fr-FR
 * #711 ^designation.use.system = "http://snomed.info/sct"
@@ -2163,8 +1943,6 @@ Description: "Clientèles"
 * #711 ^property[+].code = #parent
 * #711 ^property[=].valueCode = #2100
 * #711 ^property[+].code = #finess
-* #711 ^property[=].valueBoolean = true
-* #711 ^property[+].code = #rass
 * #711 ^property[=].valueBoolean = true
 * #800 "Enfants, adolescents et jeunes majeurs ASE"
 * #800 ^designation.language = #fr-FR
@@ -2183,8 +1961,6 @@ Description: "Clientèles"
 * #800 ^property[=].valueCode = #3100
 * #800 ^property[+].code = #finess
 * #800 ^property[=].valueBoolean = true
-* #800 ^property[+].code = #rass
-* #800 ^property[=].valueBoolean = true
 * #801 "Enfants ASE (0-6 ans)"
 * #801 ^designation.language = #fr-FR
 * #801 ^designation.use.system = "http://snomed.info/sct"
@@ -2201,8 +1977,6 @@ Description: "Clientèles"
 * #801 ^property[+].code = #parent
 * #801 ^property[=].valueCode = #3100
 * #801 ^property[+].code = #finess
-* #801 ^property[=].valueBoolean = true
-* #801 ^property[+].code = #rass
 * #801 ^property[=].valueBoolean = true
 * #802 "Adolescents ASE (7-17 ans)"
 * #802 ^designation.language = #fr-FR
@@ -2221,8 +1995,6 @@ Description: "Clientèles"
 * #802 ^property[=].valueCode = #3100
 * #802 ^property[+].code = #finess
 * #802 ^property[=].valueBoolean = true
-* #802 ^property[+].code = #rass
-* #802 ^property[=].valueBoolean = true
 * #803 "Jeunes Majeurs ASE (18-21 ans)"
 * #803 ^designation.language = #fr-FR
 * #803 ^designation.use.system = "http://snomed.info/sct"
@@ -2239,8 +2011,6 @@ Description: "Clientèles"
 * #803 ^property[+].code = #parent
 * #803 ^property[=].valueCode = #3100
 * #803 ^property[+].code = #finess
-* #803 ^property[=].valueBoolean = true
-* #803 ^property[+].code = #rass
 * #803 ^property[=].valueBoolean = true
 * #804 "Enfants, adolescents et jeunes majeurs PJJ"
 * #804 ^designation.language = #fr-FR
@@ -2259,8 +2029,6 @@ Description: "Clientèles"
 * #804 ^property[=].valueCode = #3100
 * #804 ^property[+].code = #finess
 * #804 ^property[=].valueBoolean = true
-* #804 ^property[+].code = #rass
-* #804 ^property[=].valueBoolean = true
 * #805 "Jeunes et familles en risque d'inadaptation sociale"
 * #805 ^designation.language = #fr-FR
 * #805 ^designation.use.system = "http://snomed.info/sct"
@@ -2277,8 +2045,6 @@ Description: "Clientèles"
 * #805 ^property[+].code = #parent
 * #805 ^property[=].valueCode = #3100
 * #805 ^property[+].code = #finess
-* #805 ^property[=].valueBoolean = true
-* #805 ^property[+].code = #rass
 * #805 ^property[=].valueBoolean = true
 * #806 "Personnes se présentant comme MNA en attente d'évaluation"
 * #806 ^designation.language = #fr-FR
@@ -2297,8 +2063,6 @@ Description: "Clientèles"
 * #806 ^property[=].valueCode = #3100
 * #806 ^property[+].code = #finess
 * #806 ^property[=].valueBoolean = true
-* #806 ^property[+].code = #rass
-* #806 ^property[=].valueBoolean = true
 * #807 "Enfants et Adolescents avec difficultés sociales"
 * #807 ^designation.language = #fr-FR
 * #807 ^designation.use.system = "http://snomed.info/sct"
@@ -2315,8 +2079,6 @@ Description: "Clientèles"
 * #807 ^property[+].code = #parent
 * #807 ^property[=].valueCode = #5300
 * #807 ^property[+].code = #finess
-* #807 ^property[=].valueBoolean = true
-* #807 ^property[+].code = #rass
 * #807 ^property[=].valueBoolean = true
 * #808 "Enfants d'Age Préscolaire"
 * #808 ^designation.language = #fr-FR
@@ -2335,8 +2097,6 @@ Description: "Clientèles"
 * #808 ^property[=].valueCode = #4100
 * #808 ^property[+].code = #finess
 * #808 ^property[=].valueBoolean = true
-* #808 ^property[+].code = #rass
-* #808 ^property[=].valueBoolean = true
 * #809 "Autres Enfants, Adolescents"
 * #809 ^designation.language = #fr-FR
 * #809 ^designation.use.system = "http://snomed.info/sct"
@@ -2353,8 +2113,6 @@ Description: "Clientèles"
 * #809 ^property[+].code = #parent
 * #809 ^property[=].valueCode = #4100
 * #809 ^property[+].code = #finess
-* #809 ^property[=].valueBoolean = true
-* #809 ^property[+].code = #rass
 * #809 ^property[=].valueBoolean = true
 * #810 "Adultes en Difficulté d'Insertion Sociale (SAI)"
 * #810 ^designation.language = #fr-FR
@@ -2373,8 +2131,6 @@ Description: "Clientèles"
 * #810 ^property[=].valueCode = #5100
 * #810 ^property[+].code = #finess
 * #810 ^property[=].valueBoolean = true
-* #810 ^property[+].code = #rass
-* #810 ^property[=].valueBoolean = true
 * #811 "Jeunes Adultes en Difficulté"
 * #811 ^designation.language = #fr-FR
 * #811 ^designation.use.system = "http://snomed.info/sct"
@@ -2391,8 +2147,6 @@ Description: "Clientèles"
 * #811 ^property[+].code = #parent
 * #811 ^property[=].valueCode = #5100
 * #811 ^property[+].code = #finess
-* #811 ^property[=].valueBoolean = true
-* #811 ^property[+].code = #rass
 * #811 ^property[=].valueBoolean = true
 * #812 "Femmes Seules en Difficulté"
 * #812 ^designation.language = #fr-FR
@@ -2411,8 +2165,6 @@ Description: "Clientèles"
 * #812 ^property[=].valueCode = #5100
 * #812 ^property[+].code = #finess
 * #812 ^property[=].valueBoolean = true
-* #812 ^property[+].code = #rass
-* #812 ^property[=].valueBoolean = true
 * #813 "Personnes en difficulté avec l'alcool"
 * #813 ^designation.language = #fr-FR
 * #813 ^designation.use.system = "http://snomed.info/sct"
@@ -2429,8 +2181,6 @@ Description: "Clientèles"
 * #813 ^property[+].code = #parent
 * #813 ^property[=].valueCode = #8400
 * #813 ^property[+].code = #finess
-* #813 ^property[=].valueBoolean = true
-* #813 ^property[+].code = #rass
 * #813 ^property[=].valueBoolean = true
 * #814 "Personnes consommant des substances psychoactives illicites"
 * #814 ^designation.language = #fr-FR
@@ -2449,8 +2199,6 @@ Description: "Clientèles"
 * #814 ^property[=].valueCode = #8400
 * #814 ^property[+].code = #finess
 * #814 ^property[=].valueBoolean = true
-* #814 ^property[+].code = #rass
-* #814 ^property[=].valueBoolean = true
 * #815 "Sortants d'Etablissement Hospitalier ou médico-social yc psy"
 * #815 ^designation.language = #fr-FR
 * #815 ^designation.use.system = "http://snomed.info/sct"
@@ -2467,8 +2215,6 @@ Description: "Clientèles"
 * #815 ^property[+].code = #parent
 * #815 ^property[=].valueCode = #5100
 * #815 ^property[+].code = #finess
-* #815 ^property[=].valueBoolean = true
-* #815 ^property[+].code = #rass
 * #815 ^property[=].valueBoolean = true
 * #816 "Prostituées avec ou sans Enfant"
 * #816 ^designation.language = #fr-FR
@@ -2487,8 +2233,6 @@ Description: "Clientèles"
 * #816 ^property[=].valueCode = #5100
 * #816 ^property[+].code = #finess
 * #816 ^property[=].valueBoolean = true
-* #816 ^property[+].code = #rass
-* #816 ^property[=].valueBoolean = true
 * #817 "Vagabonds et ex-Détenus"
 * #817 ^designation.language = #fr-FR
 * #817 ^designation.use.system = "http://snomed.info/sct"
@@ -2505,8 +2249,6 @@ Description: "Clientèles"
 * #817 ^property[+].code = #parent
 * #817 ^property[=].valueCode = #5100
 * #817 ^property[+].code = #finess
-* #817 ^property[=].valueBoolean = true
-* #817 ^property[+].code = #rass
 * #817 ^property[=].valueBoolean = true
 * #818 "Inculpés sous Contrôle judiciaire et Condamnés Libres"
 * #818 ^designation.language = #fr-FR
@@ -2525,8 +2267,6 @@ Description: "Clientèles"
 * #818 ^property[=].valueCode = #5100
 * #818 ^property[+].code = #finess
 * #818 ^property[=].valueBoolean = true
-* #818 ^property[+].code = #rass
-* #818 ^property[=].valueBoolean = true
 * #819 "Autres Adultes en difficulté d'Insertion Sociale"
 * #819 ^designation.language = #fr-FR
 * #819 ^designation.use.system = "http://snomed.info/sct"
@@ -2543,8 +2283,6 @@ Description: "Clientèles"
 * #819 ^property[+].code = #parent
 * #819 ^property[=].valueCode = #5100
 * #819 ^property[+].code = #finess
-* #819 ^property[=].valueBoolean = true
-* #819 ^property[+].code = #rass
 * #819 ^property[=].valueBoolean = true
 * #820 "Hommes seuls en difficulté"
 * #820 ^designation.language = #fr-FR
@@ -2563,8 +2301,6 @@ Description: "Clientèles"
 * #820 ^property[=].valueCode = #5100
 * #820 ^property[+].code = #finess
 * #820 ^property[=].valueBoolean = true
-* #820 ^property[+].code = #rass
-* #820 ^property[=].valueBoolean = true
 * #821 "Familles en Difficulté ou sans Logement"
 * #821 ^designation.language = #fr-FR
 * #821 ^designation.use.system = "http://snomed.info/sct"
@@ -2581,8 +2317,6 @@ Description: "Clientèles"
 * #821 ^property[+].code = #parent
 * #821 ^property[=].valueCode = #5200
 * #821 ^property[+].code = #finess
-* #821 ^property[=].valueBoolean = true
-* #821 ^property[+].code = #rass
 * #821 ^property[=].valueBoolean = true
 * #822 "Personnes et Familles Rapatriées"
 * #822 ^designation.language = #fr-FR
@@ -2601,8 +2335,6 @@ Description: "Clientèles"
 * #822 ^property[=].valueCode = #5200
 * #822 ^property[+].code = #finess
 * #822 ^property[=].valueBoolean = true
-* #822 ^property[+].code = #rass
-* #822 ^property[=].valueBoolean = true
 * #823 "Familles Nomades"
 * #823 ^property[0].code = #dateValid
 * #823 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
@@ -2615,8 +2347,6 @@ Description: "Clientèles"
 * #823 ^property[+].code = #parent
 * #823 ^property[=].valueCode = #6100
 * #823 ^property[+].code = #finess
-* #823 ^property[=].valueBoolean = true
-* #823 ^property[+].code = #rass
 * #823 ^property[=].valueBoolean = true
 * #824 "Personnes seules en Difficulté avec Enfant"
 * #824 ^designation.language = #fr-FR
@@ -2635,8 +2365,6 @@ Description: "Clientèles"
 * #824 ^property[=].valueCode = #5200
 * #824 ^property[+].code = #finess
 * #824 ^property[=].valueBoolean = true
-* #824 ^property[+].code = #rass
-* #824 ^property[=].valueBoolean = true
 * #825 "Travailleurs Migrants"
 * #825 ^designation.language = #fr-FR
 * #825 ^designation.use.system = "http://snomed.info/sct"
@@ -2654,8 +2382,6 @@ Description: "Clientèles"
 * #825 ^property[=].valueCode = #6100
 * #825 ^property[+].code = #finess
 * #825 ^property[=].valueBoolean = true
-* #825 ^property[+].code = #rass
-* #825 ^property[=].valueBoolean = true
 * #826 "Jeunes Travailleurs"
 * #826 ^property[0].code = #dateValid
 * #826 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
@@ -2668,8 +2394,6 @@ Description: "Clientèles"
 * #826 ^property[+].code = #parent
 * #826 ^property[=].valueCode = #6100
 * #826 ^property[+].code = #finess
-* #826 ^property[=].valueBoolean = true
-* #826 ^property[+].code = #rass
 * #826 ^property[=].valueBoolean = true
 * #827 "Personnes et Familles Réfugiées"
 * #827 ^designation.language = #fr-FR
@@ -2688,8 +2412,6 @@ Description: "Clientèles"
 * #827 ^property[=].valueCode = #5200
 * #827 ^property[+].code = #finess
 * #827 ^property[=].valueBoolean = true
-* #827 ^property[+].code = #rass
-* #827 ^property[=].valueBoolean = true
 * #828 "Accompagnants (ou aidants)"
 * #828 ^designation.language = #fr-FR
 * #828 ^designation.use.system = "http://snomed.info/sct"
@@ -2706,8 +2428,6 @@ Description: "Clientèles"
 * #828 ^property[+].code = #parent
 * #828 ^property[=].valueCode = #6100
 * #828 ^property[+].code = #finess
-* #828 ^property[=].valueBoolean = true
-* #828 ^property[+].code = #rass
 * #828 ^property[=].valueBoolean = true
 * #829 "Familles en difficulté et-ou femmes isolées"
 * #829 ^designation.language = #fr-FR
@@ -2726,8 +2446,6 @@ Description: "Clientèles"
 * #829 ^property[=].valueCode = #5200
 * #829 ^property[+].code = #finess
 * #829 ^property[=].valueBoolean = true
-* #829 ^property[+].code = #rass
-* #829 ^property[=].valueBoolean = true
 * #830 "Personnes et Familles Demandeurs d'Asile"
 * #830 ^designation.language = #fr-FR
 * #830 ^designation.use.system = "http://snomed.info/sct"
@@ -2744,8 +2462,6 @@ Description: "Clientèles"
 * #830 ^property[+].code = #parent
 * #830 ^property[=].valueCode = #5200
 * #830 ^property[+].code = #finess
-* #830 ^property[=].valueBoolean = true
-* #830 ^property[+].code = #rass
 * #830 ^property[=].valueBoolean = true
 * #831 "Femmes Victimes de Violence"
 * #831 ^designation.language = #fr-FR
@@ -2764,8 +2480,6 @@ Description: "Clientèles"
 * #831 ^property[=].valueCode = #5100
 * #831 ^property[+].code = #finess
 * #831 ^property[=].valueBoolean = true
-* #831 ^property[+].code = #rass
-* #831 ^property[=].valueBoolean = true
 * #832 "Personnes avec Problèmes Psychiques"
 * #832 ^designation.language = #fr-FR
 * #832 ^designation.use.system = "http://snomed.info/sct"
@@ -2782,8 +2496,6 @@ Description: "Clientèles"
 * #832 ^property[+].code = #parent
 * #832 ^property[=].valueCode = #5100
 * #832 ^property[+].code = #finess
-* #832 ^property[=].valueBoolean = true
-* #832 ^property[+].code = #rass
 * #832 ^property[=].valueBoolean = true
 * #833 "Pers.agée, Pers.handicapée, Etudiant, Jeune travailleur"
 * #833 ^designation.language = #fr-FR
@@ -2802,8 +2514,6 @@ Description: "Clientèles"
 * #833 ^property[=].valueCode = #6100
 * #833 ^property[+].code = #finess
 * #833 ^property[=].valueBoolean = true
-* #833 ^property[+].code = #rass
-* #833 ^property[=].valueBoolean = true
 * #834 "Patients et accompagnants (ou aidants)"
 * #834 ^designation.language = #fr-FR
 * #834 ^designation.use.system = "http://snomed.info/sct"
@@ -2820,8 +2530,6 @@ Description: "Clientèles"
 * #834 ^property[+].code = #parent
 * #834 ^property[=].valueCode = #6100
 * #834 ^property[+].code = #finess
-* #834 ^property[=].valueBoolean = true
-* #834 ^property[+].code = #rass
 * #834 ^property[=].valueBoolean = true
 * #835 "Parents en difficulté avec enfant"
 * #835 ^designation.language = #fr-FR
@@ -2840,8 +2548,6 @@ Description: "Clientèles"
 * #835 ^property[=].valueCode = #5200
 * #835 ^property[+].code = #finess
 * #835 ^property[=].valueBoolean = true
-* #835 ^property[+].code = #rass
-* #835 ^property[=].valueBoolean = true
 * #836 "Personnes victimes de la Traite des Etres Humains (T.E.H.)"
 * #836 ^designation.language = #fr-FR
 * #836 ^designation.use.system = "http://snomed.info/sct"
@@ -2858,8 +2564,6 @@ Description: "Clientèles"
 * #836 ^property[+].code = #parent
 * #836 ^property[=].valueCode = #5100
 * #836 ^property[+].code = #finess
-* #836 ^property[=].valueBoolean = true
-* #836 ^property[+].code = #rass
 * #836 ^property[=].valueBoolean = true
 * #840 "Personnes sans Domicile"
 * #840 ^designation.language = #fr-FR
@@ -2878,8 +2582,6 @@ Description: "Clientèles"
 * #840 ^property[=].valueCode = #5100
 * #840 ^property[+].code = #finess
 * #840 ^property[=].valueBoolean = true
-* #840 ^property[+].code = #rass
-* #840 ^property[=].valueBoolean = true
 * #850 "Personnes souffrant d'addictions sans substances"
 * #850 ^designation.language = #fr-FR
 * #850 ^designation.use.system = "http://snomed.info/sct"
@@ -2896,8 +2598,6 @@ Description: "Clientèles"
 * #850 ^property[+].code = #parent
 * #850 ^property[=].valueCode = #8400
 * #850 ^property[+].code = #finess
-* #850 ^property[=].valueBoolean = true
-* #850 ^property[+].code = #rass
 * #850 ^property[=].valueBoolean = true
 * #851 "Personnes mésusant de médicaments"
 * #851 ^designation.language = #fr-FR
@@ -2916,8 +2616,6 @@ Description: "Clientèles"
 * #851 ^property[=].valueCode = #8400
 * #851 ^property[+].code = #finess
 * #851 ^property[=].valueBoolean = true
-* #851 ^property[+].code = #rass
-* #851 ^property[=].valueBoolean = true
 * #852 "Personnes en demande sevrage tabagique ou diminution tabac"
 * #852 ^designation.language = #fr-FR
 * #852 ^designation.use.system = "http://snomed.info/sct"
@@ -2934,8 +2632,6 @@ Description: "Clientèles"
 * #852 ^property[+].code = #parent
 * #852 ^property[=].valueCode = #8400
 * #852 ^property[+].code = #finess
-* #852 ^property[=].valueBoolean = true
-* #852 ^property[+].code = #rass
 * #852 ^property[=].valueBoolean = true
 * #853 "Personnes souffrant d'addictions (Sans Autre Indication)"
 * #853 ^designation.language = #fr-FR
@@ -2954,8 +2650,6 @@ Description: "Clientèles"
 * #853 ^property[=].valueCode = #8400
 * #853 ^property[+].code = #finess
 * #853 ^property[=].valueBoolean = true
-* #853 ^property[+].code = #rass
-* #853 ^property[=].valueBoolean = true
 * #860 "Majeurs Protégés"
 * #860 ^property[0].code = #dateValid
 * #860 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
@@ -2968,8 +2662,6 @@ Description: "Clientèles"
 * #860 ^property[+].code = #parent
 * #860 ^property[=].valueCode = #5300
 * #860 ^property[+].code = #finess
-* #860 ^property[=].valueBoolean = true
-* #860 ^property[+].code = #rass
 * #860 ^property[=].valueBoolean = true
 * #861 "Adultes avec difficultés budgétaires"
 * #861 ^designation.language = #fr-FR
@@ -2988,8 +2680,6 @@ Description: "Clientèles"
 * #861 ^property[=].valueCode = #5300
 * #861 ^property[+].code = #finess
 * #861 ^property[=].valueBoolean = true
-* #861 ^property[+].code = #rass
-* #861 ^property[=].valueBoolean = true
 * #862 "Tuteurs Familiaux"
 * #862 ^property[0].code = #dateValid
 * #862 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
@@ -3002,8 +2692,6 @@ Description: "Clientèles"
 * #862 ^property[+].code = #parent
 * #862 ^property[=].valueCode = #5300
 * #862 ^property[+].code = #finess
-* #862 ^property[=].valueBoolean = true
-* #862 ^property[+].code = #rass
 * #862 ^property[=].valueBoolean = true
 * #899 "Tous publics en difficulté"
 * #899 ^designation.language = #fr-FR
@@ -3022,8 +2710,6 @@ Description: "Clientèles"
 * #899 ^property[=].valueCode = #5100
 * #899 ^property[+].code = #finess
 * #899 ^property[=].valueBoolean = true
-* #899 ^property[+].code = #rass
-* #899 ^property[=].valueBoolean = true
 * #990 "Toute Population"
 * #990 ^property[0].code = #dateValid
 * #990 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
@@ -3036,8 +2722,6 @@ Description: "Clientèles"
 * #990 ^property[+].code = #parent
 * #990 ^property[=].valueCode = #7100
 * #990 ^property[+].code = #finess
-* #990 ^property[=].valueBoolean = true
-* #990 ^property[+].code = #rass
 * #990 ^property[=].valueBoolean = true
 * #999 "Regroupement calculs (annexe xxiv)"
 * #999 ^designation.language = #fr-FR
@@ -3059,5 +2743,3 @@ Description: "Clientèles"
 * #999 ^property[=].valueCode = #1100
 * #999 ^property[+].code = #finess
 * #999 ^property[=].valueBoolean = true
-* #999 ^property[+].code = #rass
-* #999 ^property[=].valueBoolean = false
