@@ -18,7 +18,6 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * ^date = "2025-04-25T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^caseSensitive = false
-* ^valueSet = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice?vs"
 * ^content = #complete
 * ^hierarchyMeaning = #is-a
 * ^property[0].code = #niveau

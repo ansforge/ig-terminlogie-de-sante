@@ -33,7 +33,7 @@ Description: "Clientèles"
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#finess"
 * ^property[=].description = "Permet de définir les codes concepts utilisés par FINESS+"
 * ^property[=].type = #boolean
-* ^property[0].code = #dateValid
+* ^property[+].code = #dateValid
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"
 * ^property[=].type = #dateTime

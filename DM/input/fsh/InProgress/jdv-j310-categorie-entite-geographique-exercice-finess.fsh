@@ -3,7 +3,7 @@ Alias: $tre-r397-categorie-entite-geographique-exercice = https://smt.esante.gou
 ValueSet: JdvJ310CategorieEntiteGeographiqueExerciceFiness
 Id: jdv-j310-categorie-entite-geographique-exercice-finess
 Title: "Jdv J310 Categorie Entite Geographique Exercice Finess"
-Description: "Jeu de valeurs FINESS contenant les catégories d'entité géographique d'exercice spécifiques à FINESS"
+Description: "Jeu de valeurs FINESS contenant les catégories d'entité géographique d'exercice spécifiques à FINESS et de niveau 4"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2025-06-11T18:02:28.249+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
