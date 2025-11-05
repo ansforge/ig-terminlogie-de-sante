@@ -29,7 +29,7 @@ Requête sur le SMT
 
 ### Logical Definition (CLD)
 
-version: 24; Dernière mise à jour : 2025-10-31 15:18:01+0100; Langue : fr-FR
+version: 25; Dernière mise à jour : 2025-11-04 19:02:06+0100; Langue : fr-FR
 
 Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
 
@@ -61,8 +61,8 @@ Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
   "resourceType" : "ValueSet",
   "id" : "JDV-J34-CategorieOrganisation-ROR",
   "meta" : {
-    "versionId" : "24",
-    "lastUpdated" : "2025-10-31T15:18:01.468+01:00",
+    "versionId" : "25",
+    "lastUpdated" : "2025-11-04T19:02:06.467+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

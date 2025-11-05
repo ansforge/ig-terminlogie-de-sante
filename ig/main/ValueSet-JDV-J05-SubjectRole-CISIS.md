@@ -29,7 +29,7 @@ Requête sur le SMT
 
 ### Logical Definition (CLD)
 
-version: 19; Dernière mise à jour : 2025-10-31 15:17:52+0100; Langue : fr-FR
+version: 20; Dernière mise à jour : 2025-11-04 19:01:55+0100; Langue : fr-FR
 
 Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
 
@@ -75,8 +75,8 @@ Ce jeu de valeur (ValueSet) contient 444 concepts
   "resourceType" : "ValueSet",
   "id" : "JDV-J05-SubjectRole-CISIS",
   "meta" : {
-    "versionId" : "19",
-    "lastUpdated" : "2025-10-31T15:17:52.710+01:00",
+    "versionId" : "20",
+    "lastUpdated" : "2025-11-04T19:01:55.982+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
