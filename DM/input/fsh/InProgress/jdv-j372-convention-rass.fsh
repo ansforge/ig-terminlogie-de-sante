@@ -3,7 +3,7 @@ Alias: $tre-r395-engagement = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r39
 ValueSet: JdvJ372ConventionRass
 Id: jdv-j372-convention-rass
 Title: "Jdv J372 Convention Rass"
-Description: "Jeu de valeurs RASS contenant les engagements de type Convention."
+Description: "Liste des engagements de type Convention pour le RASS"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2025-06-19T18:02:28.249+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
