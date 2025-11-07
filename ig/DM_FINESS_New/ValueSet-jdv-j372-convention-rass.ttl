@@ -40,7 +40,7 @@
   fhir:experimental [ fhir:v false] ; # 
   fhir:date [ fhir:v "2025-08-22T18:02:28.249+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
-  fhir:description [ fhir:v "Jeu de valeurs RASS contenant les engagements de type Convention."] ; # 
+  fhir:description [ fhir:v "Liste des engagements de type Convention pour le RASS"] ; # 
   fhir:compose [
      fhir:include ( [
        fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r395-engagement"^^xsd:anyURI ] ;

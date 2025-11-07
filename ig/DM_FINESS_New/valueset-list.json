@@ -6993,7 +6993,7 @@
       "status" : "active",
       "name" : "JdvJ372ConventionRass",
       "title" : "Jdv J372 Convention Rass",
-      "description" : "Jeu de valeurs RASS contenant les engagements de type Convention.",
+      "description" : "Liste des engagements de type Convention pour le RASS",
       "systems" : [
         "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r395-engagement"
       ],

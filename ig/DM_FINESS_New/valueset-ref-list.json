@@ -7052,7 +7052,7 @@
       "status" : "active",
       "name" : "JdvJ372ConventionRass",
       "title" : "Jdv J372 Convention Rass",
-      "description" : "Jeu de valeurs RASS contenant les engagements de type Convention.",
+      "description" : "Liste des engagements de type Convention pour le RASS",
       "systems" : [
         "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r395-engagement"
       ],
@@ -10590,8 +10590,8 @@
       "systems" : ["https://smt.esante.gouv.fr/terminologie-nuva"],
       "uses" : {
       },
-      "ConceptMap-alignement-nuva-bdpm.html" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM",
-      "ConceptMap-alignement-nuva-cipucd.html" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD"
+      "ConceptMap-alignement-nuva-cipucd.html" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD",
+      "ConceptMap-alignement-nuva-bdpm.html" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM"
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-sms?vs",

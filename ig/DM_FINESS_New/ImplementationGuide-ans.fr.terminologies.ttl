@@ -45576,6 +45576,24 @@
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/11000315107-20250621> ;
+         fhir:reference [ fhir:v "CodeSystem/11000315107-20250621" ]
+       ] ;
+       fhir:name [ fhir:v "French module" ] ;
+       fhir:description [ fhir:v "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO)." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
            fhir:v "ValueSet"
          ]
        ] ) ;
@@ -49507,7 +49525,7 @@
          fhir:reference [ fhir:v "ValueSet/jdv-j372-convention-rass" ]
        ] ;
        fhir:name [ fhir:v "Jdv J372 Convention Rass" ] ;
-       fhir:description [ fhir:v "Jeu de valeurs RASS contenant les engagements de type Convention." ] ;
+       fhir:description [ fhir:v "Liste des engagements de type Convention pour le RASS" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -59599,24 +59617,6 @@
        ] ;
        fhir:name [ fhir:v "SeverityObservationCode" ] ;
        fhir:description [ fhir:v "SeverityObservationCode" ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "CodeSystem"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/900000000000207008-20251001> ;
-         fhir:reference [ fhir:v "CodeSystem/900000000000207008-20251001" ]
-       ] ;
-       fhir:name [ fhir:v "SNOMED CT core" ] ;
-       fhir:description [ fhir:v "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO)." ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false

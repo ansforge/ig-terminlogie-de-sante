@@ -353,9 +353,9 @@
 <td>https://smt.esante.gouv.fr/fhir/concept-properties#finess</td>
 <td>boolean</td>
 <td>Permet de définir les codes concepts utilisés par FINESS+</td></tr>
-<tr><td>rpps</td>
-<td>rpps</td>
-<td>https://smt.esante.gouv.fr/fhir/concept-properties#rpps</td>
+<tr><td>specialisationRpps</td>
+<td>specialisationRpps</td>
+<td>https://smt.esante.gouv.fr/fhir/concept-properties#specialisationRpps</td>
 <td>boolean</td>
 <td>Permet de définir les codes concepts définis par le RPPS</td></tr>
 <tr><td>enreg</td>
@@ -393,7 +393,7 @@
 <td>https://smt.esante.gouv.fr/fhir/concept-properties#dateFin</td>
 <td>dateTime</td>
 <td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique</code> defines the following codes in a Is-A hierarchy:</p>
-<table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Définition</b></td><td><b>niveau</b></td><td><b>Parent</b></td><td><b>finess</b></td><td><b>rpps</b></td><td><b>enreg</b></td><td><b>status</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>French (France) (fr)</b></td></tr>
+<table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Définition</b></td><td><b>niveau</b></td><td><b>Parent</b></td><td><b>finess</b></td><td><b>specialisationRpps</b></td><td><b>enreg</b></td><td><b>status</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>French (France) (fr)</b></td></tr>
 <tr><td style="white-space:nowrap">1000<a name="tre-r400-finess-statut-juridique-1000"> </a></td>
 <td>Organismes et Etablissements Publics</td>
 <td></td>
@@ -757,7 +757,7 @@
 <tr><td style="white-space:nowrap">000<a name="tre-r400-finess-statut-juridique-000"> </a></td>
 <td>En cours de vérification</td>
 <td>Code ne provenant pas du FINESS, ajouté pour des usages RPPS.</td>
-<td>1</td>
+<td>4</td>
 <td></td>
 <td>false</td>
 <td>true</td>
@@ -879,8 +879,8 @@
 <td>Code ne provenant pas du FINESS, ajouté pour des usages RPPS.</td>
 <td>4</td>
 <td><a href="#tre-r400-finess-statut-juridique-2230">2230</a></td>
+<td>false</td>
 <td>true</td>
-<td></td>
 <td>true</td>
 <td>active</td>
 <td>2017-10-13T12:00:00+01:00</td>
@@ -891,8 +891,8 @@
 <td>Code ne provenant pas du FINESS, ajouté pour des usages RPPS.</td>
 <td>4</td>
 <td><a href="#tre-r400-finess-statut-juridique-2260">2260</a></td>
+<td>false</td>
 <td>true</td>
-<td></td>
 <td>true</td>
 <td>active</td>
 <td>2017-10-13T12:00:00+01:00</td>
@@ -903,8 +903,8 @@
 <td>Code ne provenant pas du FINESS, ajouté pour des usages RPPS.</td>
 <td>4</td>
 <td><a href="#tre-r400-finess-statut-juridique-2260">2260</a></td>
+<td>false</td>
 <td>true</td>
-<td></td>
 <td>true</td>
 <td>active</td>
 <td>2017-10-13T12:00:00+01:00</td>
@@ -915,8 +915,8 @@
 <td>Code ne provenant pas du FINESS, ajouté pour des usages RPPS.</td>
 <td>4</td>
 <td><a href="#tre-r400-finess-statut-juridique-2260">2260</a></td>
+<td>false</td>
 <td>true</td>
-<td></td>
 <td>true</td>
 <td>active</td>
 <td>2017-10-13T12:00:00+01:00</td>
@@ -927,8 +927,8 @@
 <td>Code ne provenant pas du FINESS, ajouté pour des usages RPPS.</td>
 <td>4</td>
 <td><a href="#tre-r400-finess-statut-juridique-2260">2260</a></td>
+<td>false</td>
 <td>true</td>
-<td></td>
 <td>true</td>
 <td>active</td>
 <td>2017-10-13T12:00:00+01:00</td>
@@ -939,8 +939,8 @@
 <td>Code ne provenant pas du FINESS, ajouté pour des usages RPPS.</td>
 <td>4</td>
 <td><a href="#tre-r400-finess-statut-juridique-2260">2260</a></td>
+<td>false</td>
 <td>true</td>
-<td></td>
 <td>true</td>
 <td>active</td>
 <td>2017-10-13T12:00:00+01:00</td>
@@ -951,8 +951,8 @@
 <td>Code ne provenant pas du FINESS, ajouté pour des usages RPPS.</td>
 <td>4</td>
 <td><a href="#tre-r400-finess-statut-juridique-2240">2240</a></td>
+<td>false</td>
 <td>true</td>
-<td></td>
 <td>true</td>
 <td>active</td>
 <td>2017-10-13T12:00:00+01:00</td>
@@ -963,8 +963,8 @@
 <td>Code ne provenant pas du FINESS, ajouté pour des usages RPPS.</td>
 <td>4</td>
 <td><a href="#tre-r400-finess-statut-juridique-2240">2240</a></td>
+<td>false</td>
 <td>true</td>
-<td></td>
 <td>true</td>
 <td>active</td>
 <td>2017-10-13T12:00:00+01:00</td>
@@ -987,8 +987,8 @@
 <td>Code ne provenant pas du FINESS, ajouté pour des usages RPPS.</td>
 <td>4</td>
 <td><a href="#tre-r400-finess-statut-juridique-2260">2260</a></td>
+<td>false</td>
 <td>true</td>
-<td></td>
 <td>true</td>
 <td>active</td>
 <td>2017-10-13T12:00:00+01:00</td>
@@ -1750,7 +1750,7 @@
 
 <div class="inner-wrapper">
   <p>
-    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Nov 5, 2025 14:25+0000">2025-11-05</span>
+    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Nov 7, 2025 09:52+0000">2025-11-07</span>
     <br/>
     <span style="color: var(--footer-highlight-text-color)"></span>
       Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

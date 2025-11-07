@@ -33348,6 +33348,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/11000315107-20250621"
+      },
+      "name" : "French module",
+      "description" : "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
@@ -35969,7 +35981,7 @@
         "reference" : "ValueSet/jdv-j372-convention-rass"
       },
       "name" : "Jdv J372 Convention Rass",
-      "description" : "Jeu de valeurs RASS contenant les engagements de type Convention.",
+      "description" : "Liste des engagements de type Convention pour le RASS",
       "exampleBoolean" : false
     },
     {
@@ -42695,18 +42707,6 @@
       },
       "name" : "SeverityObservationCode",
       "description" : "SeverityObservationCode",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/900000000000207008-20251001"
-      },
-      "name" : "SNOMED CT core",
-      "description" : "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
       "exampleBoolean" : false
     },
     {

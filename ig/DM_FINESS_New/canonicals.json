@@ -40,10 +40,10 @@
     "oids" : ["1.2.250.1.213.1.6.1.375"]
   },
   {
-    "id" : "900000000000207008-20251001",
+    "id" : "11000315107-20250621",
     "type" : "CodeSystem",
     "url" : "http://snomed.info/sct",
-    "version" : "http://snomed.info/sct/900000000000207008/version/20251001",
+    "version" : "http://snomed.info/sct/11000315107/version/20250621",
     "name" : "SNOMED_CT",
     "oids" : ["2.16.840.1.113883.6.96"]
   },
