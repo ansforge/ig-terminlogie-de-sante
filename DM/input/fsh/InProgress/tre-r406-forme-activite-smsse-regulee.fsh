@@ -1,8 +1,8 @@
 Alias: $sct = http://snomed.info/sct
 
-CodeSystem: Tre406FormeActiviteSmsseRegulee
+CodeSystem: TreR406FormeActiviteSmsseRegulee
 Id: tre-r406-forme-activite-smsse-regulee
-Title: "Tre 406 Forme Activite Smsse Regulee"
+Title: "Tre R406 Forme Activite Smsse Regulee"
 Description: "Formes des activites smsse régulées"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2025-11-05T18:17:02.393+00:00"
