@@ -2549,7 +2549,7 @@
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee",
-      "version" : "20250430120000",
+      "version" : "20251107120000",
       "status" : "active",
       "name" : "TreR392TypeActSmsseRegulee",
       "title" : "Tre R392 Type Act Smsse Regulee",
@@ -2598,7 +2598,7 @@
       "status" : "active",
       "name" : "TreR401ActiviteSocialeRegulee",
       "title" : "Tre R401 Activite Sociale Regulee",
-      "description" : "Activité Sociale Régulée de FINESS",
+      "description" : "Liste des activités sociales régulées organisée en 3 niveaux d'agrégation. Annule et remplace les anciennes TRE xxxEquipementSocial",
       "oids" : ["1.2.250.1.213.1.6.1.380"]
     },
     {
@@ -2607,7 +2607,7 @@
       "status" : "active",
       "name" : "TreR401ActiviteEnseignementRegulee",
       "title" : "Tre R402 Activite Enseignement Regulee",
-      "description" : "Activité Enseignement Régulée de FINESS",
+      "description" : "Liste des activités d'enseignement régulées organisée en 3 niveaux d'agrégation. Annule et remplace les anciennes TRE xxxEnseignement",
       "oids" : ["1.2.250.1.213.1.6.1.381"]
     },
     {
@@ -2616,7 +2616,7 @@
       "status" : "active",
       "name" : "TreR403PublicActiviteSmsseRegulee",
       "title" : "Tre R403 Public Activite Smsse Regulee",
-      "description" : "Public Activité SMSSE Régulée de FINESS",
+      "description" : "Liste des publics des activités régulées organisée en 2 niveaux d'agrégation. Annule et remplace les 3 anciennes TRE xxxClientele",
       "oids" : ["1.2.250.1.213.1.6.1.382"]
     },
     {
@@ -2665,7 +2665,7 @@
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-bdpm",
-      "version" : "2025-10-01",
+      "version" : "2025-11-06",
       "status" : "active",
       "name" : "BDPM",
       "title" : "Base de données publique du médicament",

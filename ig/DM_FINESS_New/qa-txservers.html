@@ -12,7 +12,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Terminology Server Report for Terminologies</h1>
- <p>Generated Fri Nov 07 10:07:43 UTC 2025, FHIR version 4.0.1 for ans.fr.terminologies#0.1.0 (canonical = <a href="https://interop.esante.gouv.fr/terminologies">https://interop.esante.gouv.fr/terminologies</a> (<a href="https://interop.esante.gouv.fr/terminologies/history.html">history</a>))</p>
+ <p>Generated Fri Nov 07 15:02:45 UTC 2025, FHIR version 4.0.1 for ans.fr.terminologies#0.1.0 (canonical = <a href="https://interop.esante.gouv.fr/terminologies">https://interop.esante.gouv.fr/terminologies</a> (<a href="https://interop.esante.gouv.fr/terminologies/history.html">history</a>))</p>
 <p>This page provides a report on which terminology servers were used while publishing this IG. Note that terminology caching reduces the server hit count - this page only reports content that wasn't cached</p>
 <h2>Terminology Parameters</h2>
 <ul>
@@ -5249,11 +5249,11 @@
     <td>auth = , candidates=</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found candidate server https://tx.fhir.org/r4</td>
+    <td>https://tx.fhir.org/r4</td>
     <td>null</td>
     <td>http://snomed.info/sct</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4</td>
+    <td>auth = , candidates=https://tx.fhir.org/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -8546,18 +8546,18 @@
     <td>auth = , candidates=</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found candidate server https://tx.fhir.org/r4</td>
+    <td>https://tx.fhir.org/r4</td>
     <td></td>
     <td>https://smt.esante.gouv.fr/terminologie-ccam</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>auth = , candidates=https://tx.fhir.org/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
     <td>https://smt.esante.gouv.fr/fhir</td>
-    <td></td>
-    <td>http://snomed.info/sct</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4</td>
+    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-static-sem-procedure-cisis|20250624152100</td>
+    <td>[https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis, https://smt.esante.gouv.fr/terminologie-ccam, http://snomed.info/sct]</td>
+    <td>[auth = https://smt.esante.gouv.fr/fhir, candidates=, auth = https://smt.esante.gouv.fr/fhir, candidates=, auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4]</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -9252,6 +9252,18 @@
     </td>
   </tr>
   <tr>
+    <td>http://snomed.info/sct|http://snomed.info/sct/11000315107</td>
+    <td style="background-color: #ffe3e3">
+      <span title="https://tx.fhir.org/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Fsnomed.info%2Fsct%7Chttp%3A%2F%2Fsnomed.info%2Fsct%2F11000315107&amp;usage=publication">Error resolving system http://snomed.info/sct|http://snomed.info/sct/11000315107: Connect timed out</span>
+    </td>
+  </tr>
+  <tr>
+    <td>https://smt.esante.gouv.fr/terminologie-ccam</td>
+    <td style="background-color: #ffe3e3">
+      <span title="https://tx.fhir.org/tx-reg/resolve?fhirVersion=4.0&amp;url=https%3A%2F%2Fsmt.esante.gouv.fr%2Fterminologie-ccam&amp;usage=publication">Error resolving system https://smt.esante.gouv.fr/terminologie-ccam: Connect timed out</span>
+    </td>
+  </tr>
+  <tr>
     <td>https://www.imdrf.org|null</td>
     <td style="background-color: #ffe3e3">
       <ul>
@@ -9291,7 +9303,7 @@
 </table>
 <h2>Primary Server: https://tx.fhir.org/r4</h2>
 <a href="https://tx.fhir.org/r4"></a>
-<p>Use Count: 514. Code Systems used: </p>
+<p>Use Count: 516. Code Systems used: </p>
 <table class="grid">
   <tr>
     <th>
@@ -9327,6 +9339,14 @@
     <td>154</td>
     <td>
       <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-loinc.html">Logical Observation Identifiers, Names and Codes (LOINC)</a>
+    </td>
+  </tr>
+  <tr>
+    <td>http://snomed.info/sct</td>
+    <td>0</td>
+    <td>1</td>
+    <td>
+      <a href="CodeSystem-11000315107-20250621.html">French module</a>
     </td>
   </tr>
   <tr>
@@ -9410,6 +9430,14 @@
     <td>16</td>
     <td>5</td>
     <td></td>
+  </tr>
+  <tr>
+    <td>https://smt.esante.gouv.fr/terminologie-ccam</td>
+    <td>1</td>
+    <td>0</td>
+    <td>
+      <a href="CodeSystem-terminologie-ccam.html">Classification Commune des Actes Médicaux</a>
+    </td>
   </tr>
   <tr>
     <td>https://smt.esante.gouv.fr/terminologie-cip_ucd</td>
@@ -9510,7 +9538,7 @@
 </table>
 <h2>Server: https://smt.esante.gouv.fr/fhir</h2>
 <a href="https://smt.esante.gouv.fr/fhir"></a>
-<p>Use Count: 792. Code Systems used: </p>
+<p>Use Count: 790. Code Systems used: </p>
 <table class="grid">
   <tr>
     <th>
@@ -9537,7 +9565,7 @@
   <tr>
     <td>http://snomed.info/sct</td>
     <td>344</td>
-    <td>147</td>
+    <td>146</td>
     <td>
       <a href="CodeSystem-11000315107-20250621.html">French module</a>
     </td>
@@ -9588,7 +9616,7 @@
   </tr>
   <tr>
     <td>https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis</td>
-    <td>7</td>
+    <td>8</td>
     <td>0</td>
     <td>
       <a href="CodeSystem-terminologie-cisis.html">TerminologieCISIS - Terminologie des concepts non trouvés dans les autres terminologies</a>

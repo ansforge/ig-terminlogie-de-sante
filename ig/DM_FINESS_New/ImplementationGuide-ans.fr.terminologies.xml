@@ -26848,6 +26848,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-j376-public-activite-smsse-regulee-rass"/>
+      </reference>
+      <name value="Jdv J376 Public Activite Smsse Regulee Rass"/>
+      <description value="Jeu de valeurs RASS contenant les codes actifs des publics des activités régulées de niveau 3"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/JDV-J69-ActiviteOperationnelle-Santefr"/>
       </reference>
       <name value="JDV J69 ActiviteOperationnelle Santefr"/>
@@ -33442,7 +33453,7 @@
         <reference value="CodeSystem/tre-r401-activite-sociale-regulee"/>
       </reference>
       <name value="Tre R401 Activite Sociale Regulee"/>
-      <description value="Activité Sociale Régulée de FINESS"/>
+      <description value="Liste des activités sociales régulées organisée en 3 niveaux d'agrégation. Annule et remplace les anciennes TRE xxxEquipementSocial"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -33453,7 +33464,7 @@
         <reference value="CodeSystem/tre-r402-activite-enseignement-regulee"/>
       </reference>
       <name value="Tre R402 Activite Enseignement Regulee"/>
-      <description value="Activité Enseignement Régulée de FINESS"/>
+      <description value="Liste des activités d'enseignement régulées organisée en 3 niveaux d'agrégation. Annule et remplace les anciennes TRE xxxEnseignement"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -33464,7 +33475,7 @@
         <reference value="CodeSystem/tre-r403-public-activite-smsse-regulee"/>
       </reference>
       <name value="Tre R403 Public Activite Smsse Regulee"/>
-      <description value="Public Activité SMSSE Régulée de FINESS"/>
+      <description value="Liste des publics des activités régulées organisée en 2 niveaux d'agrégation. Annule et remplace les 3 anciennes TRE xxxClientele"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

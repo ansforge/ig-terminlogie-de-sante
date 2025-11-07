@@ -4,7 +4,7 @@
    <ValueSet dateFin=""
              dateMaj="20251104120000"
              dateValid="19790101000000"
-             description="Activité Sociale Régulée de FINESS"
+             description="Liste des activités sociales régulées organisée en 3 niveaux d'agrégation. Annule et remplace les anciennes TRE xxxEquipementSocial"
              displayName="TreR401ActiviteSocialeRegulee"
              id="1.2.250.1.213.1.6.1.380"
              typeFichier="TRE"

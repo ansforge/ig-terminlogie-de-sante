@@ -18,7 +18,7 @@
   <url value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j374-autorite"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:1.2.250.1.213.1.6.1.380"/>
+    <value value="urn:oid:1.2.250.1.213.1.6.1.388"/>
   </identifier>
   <version value="2025080120000"/>
   <name value="JdvJ374Autorite"/>

@@ -27,7 +27,7 @@
   <experimental value="false"/>
   <date value="2025-11-04T12:00:00+01:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
-  <description value="Public Activité SMSSE Régulée de FINESS"/>
+  <description value="Liste des publics des activités régulées organisée en 2 niveaux d'agrégation. Annule et remplace les 3 anciennes TRE xxxClientele"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>

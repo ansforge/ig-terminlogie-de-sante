@@ -1,5 +1,5 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MAJ>
-1.2.250.1.213.1.6.1.380;TRE;TreR401ActiviteSocialeRegulee.tabs;Activité Sociale Régulée de FINESS;;19790101000000;;20251104120000
+1.2.250.1.213.1.6.1.380;TRE;TreR401ActiviteSocialeRegulee.tabs;Liste des activités sociales régulées organisée en 3 niveaux d'agrégation. Annule et remplace les anciennes TRE xxxEquipementSocial;;19790101000000;;20251104120000
 <OID>;<Code>;<Libellé adapté>;<Libellé court>;<Libellé long>;<Date valid>;<Date fin>;<Date MAJ> 
 1.2.250.1.213.1.6.1.380;4000;Disciplines d'équipement sociales;Disciplines équip.sociales;Disciplines d'équipement sociales;20200626120000;;20200626120000
 1.2.250.1.213.1.6.1.380;4300;Adultes handicapés;Adultes handicapés;Adultes handicapés;20200626120000;;20200626120000

@@ -7056,8 +7056,8 @@
       "systems" : [
         "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r395-engagement"
       ],
-      "oids" : ["1.2.250.1.213.1.6.1.377"],
-      "sources" : ["1.2.250.1.213.1.6.1.377"]
+      "oids" : ["1.2.250.1.213.1.6.1.386"],
+      "sources" : ["1.2.250.1.213.1.6.1.386"]
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j373-type-autorite",
@@ -7069,8 +7069,8 @@
       "systems" : [
         "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
       ],
-      "oids" : ["1.2.250.1.213.1.6.1.379"],
-      "sources" : ["1.2.250.1.213.1.6.1.379"]
+      "oids" : ["1.2.250.1.213.1.6.1.387"],
+      "sources" : ["1.2.250.1.213.1.6.1.387"]
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j374-autorite",
@@ -7082,8 +7082,8 @@
       "systems" : [
         "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
       ],
-      "oids" : ["1.2.250.1.213.1.6.1.380"],
-      "sources" : ["1.2.250.1.213.1.6.1.380"]
+      "oids" : ["1.2.250.1.213.1.6.1.388"],
+      "sources" : ["1.2.250.1.213.1.6.1.388"]
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j375-ordre",
@@ -7095,8 +7095,21 @@
       "systems" : [
         "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
       ],
-      "oids" : ["1.2.250.1.213.1.6.1.381"],
-      "sources" : ["1.2.250.1.213.1.6.1.381"]
+      "oids" : ["1.2.250.1.213.1.6.1.389"],
+      "sources" : ["1.2.250.1.213.1.6.1.389"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j376-public-activite-smsse-regulee-rass",
+      "version" : "20251107120000",
+      "status" : "active",
+      "name" : "JdvJ376PublicActiviteSmsseReguleeRass",
+      "title" : "Jdv J376 Public Activite Smsse Regulee Rass",
+      "description" : "Jeu de valeurs RASS contenant les codes actifs des publics des activités régulées de niveau 3",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.390"],
+      "sources" : ["1.2.250.1.213.1.6.1.390"]
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-jour-semaine-cisis",

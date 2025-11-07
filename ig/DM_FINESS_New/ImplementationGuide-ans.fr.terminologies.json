@@ -36026,6 +36026,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-j376-public-activite-smsse-regulee-rass"
+      },
+      "name" : "Jdv J376 Public Activite Smsse Regulee Rass",
+      "description" : "Jeu de valeurs RASS contenant les codes actifs des publics des activités régulées de niveau 3",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/JDV-J69-ActiviteOperationnelle-Santefr"
       },
       "name" : "JDV J69 ActiviteOperationnelle Santefr",
@@ -43220,7 +43232,7 @@
         "reference" : "CodeSystem/tre-r401-activite-sociale-regulee"
       },
       "name" : "Tre R401 Activite Sociale Regulee",
-      "description" : "Activité Sociale Régulée de FINESS",
+      "description" : "Liste des activités sociales régulées organisée en 3 niveaux d'agrégation. Annule et remplace les anciennes TRE xxxEquipementSocial",
       "exampleBoolean" : false
     },
     {
@@ -43232,7 +43244,7 @@
         "reference" : "CodeSystem/tre-r402-activite-enseignement-regulee"
       },
       "name" : "Tre R402 Activite Enseignement Regulee",
-      "description" : "Activité Enseignement Régulée de FINESS",
+      "description" : "Liste des activités d'enseignement régulées organisée en 3 niveaux d'agrégation. Annule et remplace les anciennes TRE xxxEnseignement",
       "exampleBoolean" : false
     },
     {
@@ -43244,7 +43256,7 @@
         "reference" : "CodeSystem/tre-r403-public-activite-smsse-regulee"
       },
       "name" : "Tre R403 Public Activite Smsse Regulee",
-      "description" : "Public Activité SMSSE Régulée de FINESS",
+      "description" : "Liste des publics des activités régulées organisée en 2 niveaux d'agrégation. Annule et remplace les 3 anciennes TRE xxxClientele",
       "exampleBoolean" : false
     },
     {

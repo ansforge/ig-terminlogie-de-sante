@@ -31,7 +31,7 @@
   fhir:url [ fhir:v "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j372-convention-rass"^^xsd:anyURI] ; # 
   fhir:identifier ( [
      fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
-     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.377" ]
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.386" ]
   ] ) ; # 
   fhir:version [ fhir:v "20250822120000"] ; # 
   fhir:name [ fhir:v "JdvJ372ConventionRass"] ; # 

@@ -19,7 +19,7 @@
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j373-type-autorite",
   "identifier" : [{
     "system" : "urn:ietf:rfc:3986",
-    "value" : "urn:oid:1.2.250.1.213.1.6.1.379"
+    "value" : "urn:oid:1.2.250.1.213.1.6.1.387"
   }],
   "version" : "2025080120000",
   "name" : "JdvJ373TypeAutorite",

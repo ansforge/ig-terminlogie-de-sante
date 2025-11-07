@@ -49593,6 +49593,24 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j376-public-activite-smsse-regulee-rass> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j376-public-activite-smsse-regulee-rass" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J376 Public Activite Smsse Regulee Rass" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs RASS contenant les codes actifs des publics des activités régulées de niveau 3" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/JDV-J69-ActiviteOperationnelle-Santefr> ;
          fhir:reference [ fhir:v "ValueSet/JDV-J69-ActiviteOperationnelle-Santefr" ]
        ] ;
@@ -60388,7 +60406,7 @@
          fhir:reference [ fhir:v "CodeSystem/tre-r401-activite-sociale-regulee" ]
        ] ;
        fhir:name [ fhir:v "Tre R401 Activite Sociale Regulee" ] ;
-       fhir:description [ fhir:v "Activité Sociale Régulée de FINESS" ] ;
+       fhir:description [ fhir:v "Liste des activités sociales régulées organisée en 3 niveaux d'agrégation. Annule et remplace les anciennes TRE xxxEquipementSocial" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -60406,7 +60424,7 @@
          fhir:reference [ fhir:v "CodeSystem/tre-r402-activite-enseignement-regulee" ]
        ] ;
        fhir:name [ fhir:v "Tre R402 Activite Enseignement Regulee" ] ;
-       fhir:description [ fhir:v "Activité Enseignement Régulée de FINESS" ] ;
+       fhir:description [ fhir:v "Liste des activités d'enseignement régulées organisée en 3 niveaux d'agrégation. Annule et remplace les anciennes TRE xxxEnseignement" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -60424,7 +60442,7 @@
          fhir:reference [ fhir:v "CodeSystem/tre-r403-public-activite-smsse-regulee" ]
        ] ;
        fhir:name [ fhir:v "Tre R403 Public Activite Smsse Regulee" ] ;
-       fhir:description [ fhir:v "Public Activité SMSSE Régulée de FINESS" ] ;
+       fhir:description [ fhir:v "Liste des publics des activités régulées organisée en 2 niveaux d'agrégation. Annule et remplace les 3 anciennes TRE xxxClientele" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false

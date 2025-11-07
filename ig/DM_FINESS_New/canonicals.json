@@ -4793,7 +4793,7 @@
     "id" : "tre-r392-type-act-smsse-regulee",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee",
-    "version" : "20250430120000",
+    "version" : "20251107120000",
     "name" : "TreR392TypeActSmsseRegulee",
     "oids" : ["1.2.250.1.213.1.6.1.374"]
   },
@@ -6921,7 +6921,7 @@
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j372-convention-rass",
     "version" : "20250822120000",
     "name" : "JdvJ372ConventionRass",
-    "oids" : ["1.2.250.1.213.1.6.1.377"]
+    "oids" : ["1.2.250.1.213.1.6.1.386"]
   },
   {
     "id" : "jdv-j373-type-autorite",
@@ -6929,7 +6929,7 @@
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j373-type-autorite",
     "version" : "2025080120000",
     "name" : "JdvJ373TypeAutorite",
-    "oids" : ["1.2.250.1.213.1.6.1.379"]
+    "oids" : ["1.2.250.1.213.1.6.1.387"]
   },
   {
     "id" : "jdv-j374-autorite",
@@ -6937,7 +6937,7 @@
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j374-autorite",
     "version" : "2025080120000",
     "name" : "JdvJ374Autorite",
-    "oids" : ["1.2.250.1.213.1.6.1.380"]
+    "oids" : ["1.2.250.1.213.1.6.1.388"]
   },
   {
     "id" : "jdv-j375-ordre",
@@ -6945,7 +6945,15 @@
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j375-ordre",
     "version" : "20250826120000",
     "name" : "JdvJ375Ordre",
-    "oids" : ["1.2.250.1.213.1.6.1.381"]
+    "oids" : ["1.2.250.1.213.1.6.1.389"]
+  },
+  {
+    "id" : "jdv-j376-public-activite-smsse-regulee-rass",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j376-public-activite-smsse-regulee-rass",
+    "version" : "20251107120000",
+    "name" : "JdvJ376PublicActiviteSmsseReguleeRass",
+    "oids" : ["1.2.250.1.213.1.6.1.390"]
   },
   {
     "id" : "jdv-jour-semaine-cisis",
@@ -9189,7 +9197,7 @@
     "id" : "terminologie-bdpm",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-bdpm",
-    "version" : "2025-10-01",
+    "version" : "2025-11-06",
     "name" : "BDPM"
   },
   {

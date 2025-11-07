@@ -4,7 +4,7 @@
    <ValueSet dateFin=""
              dateMaj="20251104120000"
              dateValid="20251104120000"
-             description="Activité Enseignement Régulée de FINESS"
+             description="Liste des activités d'enseignement régulées organisée en 3 niveaux d'agrégation. Annule et remplace les anciennes TRE xxxEnseignement"
              displayName="TreR401ActiviteEnseignementRegulee"
              id="1.2.250.1.213.1.6.1.381"
              typeFichier="TRE"
