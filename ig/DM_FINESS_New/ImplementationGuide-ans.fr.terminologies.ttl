@@ -59754,24 +59754,6 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r406-forme-activite-smsse-regulee> ;
-         fhir:reference [ fhir:v "CodeSystem/tre-r406-forme-activite-smsse-regulee" ]
-       ] ;
-       fhir:name [ fhir:v "Tre 406 Forme Activite Smsse Regulee" ] ;
-       fhir:description [ fhir:v "Formes des activites smsse régulées" ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "CodeSystem"
-         ]
-       ] ) ;
-       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee> ;
          fhir:reference [ fhir:v "CodeSystem/tre-r347-activite-sanitaire-diverse-regulee" ]
        ] ;
@@ -60479,6 +60461,24 @@
        ] ;
        fhir:name [ fhir:v "Tre R405 Modalite Activite Smsse Regulee" ] ;
        fhir:description [ fhir:v "Modalités des activités SSMSE régulées" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r406-forme-activite-smsse-regulee> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r406-forme-activite-smsse-regulee" ]
+       ] ;
+       fhir:name [ fhir:v "Tre R406 Forme Activite Smsse Regulee" ] ;
+       fhir:description [ fhir:v "Formes des activites smsse régulées" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false

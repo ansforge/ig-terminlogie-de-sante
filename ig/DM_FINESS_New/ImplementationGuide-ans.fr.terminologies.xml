@@ -33054,17 +33054,6 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/tre-r406-forme-activite-smsse-regulee"/>
-      </reference>
-      <name value="Tre 406 Forme Activite Smsse Regulee"/>
-      <description value="Formes des activites smsse régulées"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
         <reference value="CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"/>
       </reference>
       <name value="Tre R347 Activite Sanitaire Diverse Regulee"/>
@@ -33498,6 +33487,17 @@
       </reference>
       <name value="Tre R405 Modalite Activite Smsse Regulee"/>
       <description value="Modalités des activités SSMSE régulées"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r406-forme-activite-smsse-regulee"/>
+      </reference>
+      <name value="Tre R406 Forme Activite Smsse Regulee"/>
+      <description value="Formes des activites smsse régulées"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

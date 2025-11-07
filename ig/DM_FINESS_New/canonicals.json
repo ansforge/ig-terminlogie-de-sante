@@ -4890,7 +4890,7 @@
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee",
     "version" : "20251105120000",
-    "name" : "Tre406FormeActiviteSmsseRegulee",
+    "name" : "TreR406FormeActiviteSmsseRegulee",
     "oids" : ["1.2.250.1.213.1.6.1.385"]
   },
   {

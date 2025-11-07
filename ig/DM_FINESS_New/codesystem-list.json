@@ -2641,8 +2641,8 @@
       "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee",
       "version" : "20251105120000",
       "status" : "active",
-      "name" : "Tre406FormeActiviteSmsseRegulee",
-      "title" : "Tre 406 Forme Activite Smsse Regulee",
+      "name" : "TreR406FormeActiviteSmsseRegulee",
+      "title" : "Tre R406 Forme Activite Smsse Regulee",
       "description" : "Formes des activites smsse régulées",
       "oids" : ["1.2.250.1.213.1.6.1.385"]
     },

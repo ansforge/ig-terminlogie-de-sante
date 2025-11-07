@@ -42797,18 +42797,6 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
-        "reference" : "CodeSystem/tre-r406-forme-activite-smsse-regulee"
-      },
-      "name" : "Tre 406 Forme Activite Smsse Regulee",
-      "description" : "Formes des activites smsse régulées",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
         "reference" : "CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"
       },
       "name" : "Tre R347 Activite Sanitaire Diverse Regulee",
@@ -43281,6 +43269,18 @@
       },
       "name" : "Tre R405 Modalite Activite Smsse Regulee",
       "description" : "Modalités des activités SSMSE régulées",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r406-forme-activite-smsse-regulee"
+      },
+      "name" : "Tre R406 Forme Activite Smsse Regulee",
+      "description" : "Formes des activites smsse régulées",
       "exampleBoolean" : false
     },
     {
