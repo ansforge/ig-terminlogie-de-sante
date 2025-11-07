@@ -39,7 +39,7 @@ Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
 
 ### Expansion
 
-Expansion from smt.esante.gouv.fr based on [system Classification anatomique, thérapeutique et chimique v2025-02 (CodeSystem)](CodeSystem-terminologie-atc.md)
+Expansion from smt.esante.gouv.fr based on [codesystem Classification anatomique, thérapeutique et chimique v2025-02 (CodeSystem)](CodeSystem-terminologie-atc.md)
 
 Ce jeu de valeur (ValueSet) contient 2 concepts
 

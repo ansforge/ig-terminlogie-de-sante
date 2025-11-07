@@ -9,7 +9,7 @@
 | | | |
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/terminologie-standardterms?vs | *Version*:20241114120000 | |
-| Active as of 2025-11-06 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ValueSet_EDQM_All |
+| Active as of 2025-11-07 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ValueSet_EDQM_All |
 
  
 Ce jeu de valeurs inclut tous les codes de la terminologie EDQM 
@@ -38,7 +38,7 @@ Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
 
 ### Expansion
 
-Expansion from smt.esante.gouv.fr based on [system Standard Terms Data Base Dictionnaire européen multilingue de termes normalisés descripteurs de médicaments v2025-03-19 (CodeSystem)](CodeSystem-terminologie-standardterms.md)
+Expansion from smt.esante.gouv.fr based on [codesystem Standard Terms Data Base Dictionnaire européen multilingue de termes normalisés descripteurs de médicaments v2025-03-19 (CodeSystem)](CodeSystem-terminologie-standardterms.md)
 
 Ce jeu de valeurs (ValueSet) a 1,297 codes. Pour garder la publication gérable, seulement une selection (1,000 codes) de lensemble des codes est affiché.
 
@@ -74,7 +74,7 @@ Ce jeu de valeurs (ValueSet) a 1,297 codes. Pour garder la publication gérable,
   "name" : "ValueSet_EDQM_All",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-11-06T04:25:35+00:00",
+  "date" : "2025-11-07T04:21:30+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Ce jeu de valeurs inclut tous les codes de la terminologie EDQM",
   "jurisdiction" : [
