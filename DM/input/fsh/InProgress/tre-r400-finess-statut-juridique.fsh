@@ -32,8 +32,8 @@ Description: "Statuts juridiques de FINESS"
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#finess"
 * ^property[=].description = "Permet de définir les codes concepts utilisés par FINESS+"
 * ^property[=].type = #boolean
-* ^property[+].code = #rpps
-* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#rpps"
+* ^property[+].code = #specialisationRpps
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#specialisationRpps"
 * ^property[=].description = "Permet de définir les codes concepts définis par le RPPS"
 * ^property[=].type = #boolean
 * ^property[+].code = #enreg
@@ -622,10 +622,10 @@ Description: "Statuts juridiques de FINESS"
 * #3110 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #000 "En cours de vérification" "Code ne provenant pas du FINESS, ajouté pour des usages RPPS."
 * #000 ^property[0].code = #niveau
-* #000 ^property[=].valueInteger = 1
+* #000 ^property[=].valueInteger = 4
 * #000 ^property[+].code = #finess
 * #000 ^property[=].valueBoolean = false
-* #000 ^property[+].code = #rpps
+* #000 ^property[+].code = #specialisationRpps
 * #000 ^property[=].valueBoolean = true
 * #000 ^property[+].code = #enreg
 * #000 ^property[=].valueBoolean = true
@@ -796,6 +796,8 @@ Description: "Statuts juridiques de FINESS"
 * #100 ^property[+].code = #parent
 * #100 ^property[=].valueCode = #2230
 * #100 ^property[+].code = #finess
+* #100 ^property[=].valueBoolean = false
+* #100 ^property[+].code = #specialisationRpps
 * #100 ^property[=].valueBoolean = true
 * #100 ^property[+].code = #enreg
 * #100 ^property[=].valueBoolean = true
@@ -815,6 +817,8 @@ Description: "Statuts juridiques de FINESS"
 * #101 ^property[+].code = #parent
 * #101 ^property[=].valueCode = #2260
 * #101 ^property[+].code = #finess
+* #101 ^property[=].valueBoolean = false
+* #101 ^property[+].code = #specialisationRpps
 * #101 ^property[=].valueBoolean = true
 * #101 ^property[+].code = #enreg
 * #101 ^property[=].valueBoolean = true
@@ -834,6 +838,8 @@ Description: "Statuts juridiques de FINESS"
 * #102 ^property[+].code = #parent
 * #102 ^property[=].valueCode = #2260
 * #102 ^property[+].code = #finess
+* #102 ^property[=].valueBoolean = false
+* #102 ^property[+].code = #specialisationRpps
 * #102 ^property[=].valueBoolean = true
 * #102 ^property[+].code = #enreg
 * #102 ^property[=].valueBoolean = true
@@ -853,6 +859,8 @@ Description: "Statuts juridiques de FINESS"
 * #103 ^property[+].code = #parent
 * #103 ^property[=].valueCode = #2260
 * #103 ^property[+].code = #finess
+* #103 ^property[=].valueBoolean = false
+* #103 ^property[+].code = #specialisationRpps
 * #103 ^property[=].valueBoolean = true
 * #103 ^property[+].code = #enreg
 * #103 ^property[=].valueBoolean = true
@@ -872,6 +880,8 @@ Description: "Statuts juridiques de FINESS"
 * #104 ^property[+].code = #parent
 * #104 ^property[=].valueCode = #2260
 * #104 ^property[+].code = #finess
+* #104 ^property[=].valueBoolean = false
+* #104 ^property[+].code = #specialisationRpps
 * #104 ^property[=].valueBoolean = true
 * #104 ^property[+].code = #enreg
 * #104 ^property[=].valueBoolean = true
@@ -891,6 +901,8 @@ Description: "Statuts juridiques de FINESS"
 * #105 ^property[+].code = #parent
 * #105 ^property[=].valueCode = #2260
 * #105 ^property[+].code = #finess
+* #105 ^property[=].valueBoolean = false
+* #105 ^property[+].code = #specialisationRpps
 * #105 ^property[=].valueBoolean = true
 * #105 ^property[+].code = #enreg
 * #105 ^property[=].valueBoolean = true
@@ -910,6 +922,8 @@ Description: "Statuts juridiques de FINESS"
 * #106 ^property[+].code = #parent
 * #106 ^property[=].valueCode = #2240
 * #106 ^property[+].code = #finess
+* #106 ^property[=].valueBoolean = false
+* #106 ^property[+].code = #specialisationRpps
 * #106 ^property[=].valueBoolean = true
 * #106 ^property[+].code = #enreg
 * #106 ^property[=].valueBoolean = true
@@ -929,6 +943,8 @@ Description: "Statuts juridiques de FINESS"
 * #107 ^property[+].code = #parent
 * #107 ^property[=].valueCode = #2240
 * #107 ^property[+].code = #finess
+* #107 ^property[=].valueBoolean = false
+* #107 ^property[+].code = #specialisationRpps
 * #107 ^property[=].valueBoolean = true
 * #107 ^property[+].code = #enreg
 * #107 ^property[=].valueBoolean = true
@@ -967,6 +983,8 @@ Description: "Statuts juridiques de FINESS"
 * #110 ^property[+].code = #parent
 * #110 ^property[=].valueCode = #2260
 * #110 ^property[+].code = #finess
+* #110 ^property[=].valueBoolean = false
+* #110 ^property[+].code = #specialisationRpps
 * #110 ^property[=].valueBoolean = true
 * #110 ^property[+].code = #enreg
 * #110 ^property[=].valueBoolean = true
