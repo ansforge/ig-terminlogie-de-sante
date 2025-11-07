@@ -11,7 +11,7 @@ Description: "Jeu de valeurs comportant uniquement les autorités de type Ordre.
 * ^extension.valuePeriod.start = "2025-08-26T18:02:28.249+00:00"
 * ^url = "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j375-ordre"
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.381"
+* ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.389"
 * ^version = "20250826120000"
 * ^status = #active
 * ^experimental = false

@@ -11,7 +11,7 @@ Description: "Jeu de valeurs contenant la liste des autorités quelque soit la c
 * ^extension.valuePeriod.start = "2025-08-26T18:02:28.249+00:00"
 * ^url = "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j374-autorite"
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.380"
+* ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.388"
 * ^version = "2025080120000"
 * ^status = #active
 * ^experimental = false

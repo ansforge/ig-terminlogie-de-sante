@@ -11,7 +11,7 @@ Description: "Jeu de valeurs contenant les différents types d'autorité (actifs
 * ^extension.valuePeriod.start = "2025-08-26T18:02:28.249+00:00"
 * ^url = "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j373-type-autorite"
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.379"
+* ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.387"
 * ^version = "2025080120000"
 * ^status = #active
 * ^experimental = false

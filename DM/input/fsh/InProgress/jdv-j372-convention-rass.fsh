@@ -11,7 +11,7 @@ Description: "Liste des engagements de type Convention pour le RASS"
 * ^extension.valuePeriod.start = "2025-06-19T18:02:28.249+00:00"
 * ^url = "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j372-convention-rass"
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.377"
+* ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.386"
 * ^version = "20250822120000"
 * ^status = #active
 * ^experimental = false
