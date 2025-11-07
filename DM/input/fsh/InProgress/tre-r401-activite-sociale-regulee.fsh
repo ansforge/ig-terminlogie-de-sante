@@ -3,7 +3,7 @@ Alias: $sct = http://snomed.info/sct
 CodeSystem: TreR401ActiviteSocialeRegulee
 Id: tre-r401-activite-sociale-regulee
 Title: "Tre R401 Activite Sociale Regulee"
-Description: "Activité Sociale Régulée de FINESS"
+Description: "Liste des activités sociales régulées organisée en 3 niveaux d'agrégation. Annule et remplace les anciennes TRE xxxEquipementSocial"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2025-11-04T05:14:07.558+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"

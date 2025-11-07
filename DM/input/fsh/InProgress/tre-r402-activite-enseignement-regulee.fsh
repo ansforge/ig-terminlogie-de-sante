@@ -3,7 +3,7 @@ Alias: $sct = http://snomed.info/sct
 CodeSystem: TreR401ActiviteEnseignementRegulee
 Id: tre-r402-activite-enseignement-regulee
 Title: "Tre R402 Activite Enseignement Regulee"
-Description: "Activité Enseignement Régulée de FINESS"
+Description: "Liste des activités d'enseignement régulées organisée en 3 niveaux d'agrégation. Annule et remplace les anciennes TRE xxxEnseignement"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2025-11-04T05:14:07.558+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
