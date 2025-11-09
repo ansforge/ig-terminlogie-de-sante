@@ -33,7 +33,7 @@ version: 2; Dernière mise à jour : 2025-07-02 17:06:16+0000; Langue : fr-FR
 
 Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
 
-* Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture`](CodeSystem-TRE-R286-TypeFermeture.md)version 📦20250915120000
+* Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture`](CodeSystem-TRE-R286-TypeFermeture.md)version 📦20251016120000
 
  
 

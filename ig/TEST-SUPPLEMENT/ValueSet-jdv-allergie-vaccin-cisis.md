@@ -45,7 +45,7 @@ Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :
 Expansion from smt.esante.gouv.fr based on:
 
 * SNOMED CT 11000315107 edition 21-Jun 2025
-* [system Classification anatomique, thérapeutique et chimique v2025-02 (CodeSystem)](CodeSystem-terminologie-atc.md)
+* [codesystem Classification anatomique, thérapeutique et chimique v2025-02 (CodeSystem)](CodeSystem-terminologie-atc.md)
 
 Ce jeu de valeur (ValueSet) contient 6 concepts
 

@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique | *Version*:20250919120000 | |
-| Active as of 2025-09-19 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R210_ActeSpecifique |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique | *Version*:20251017120000 | |
+| Active as of 2025-10-17 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R210_ActeSpecifique |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.11 | | |
 
  
@@ -29,8 +29,8 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
   "resourceType" : "CodeSystem",
   "id" : "TRE-R210-ActeSpecifique",
   "meta" : {
-    "versionId" : "26",
-    "lastUpdated" : "2025-10-02T20:13:22.251+02:00",
+    "versionId" : "27",
+    "lastUpdated" : "2025-10-31T15:01:10.415+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
     ]
@@ -50,11 +50,11 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
       "value" : "urn:oid:1.2.250.1.213.3.3.11"
     }
   ],
-  "version" : "20250919120000",
+  "version" : "20251017120000",
   "name" : "TRE_R210_ActeSpecifique",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-09-19T12:00:00+01:00",
+  "date" : "2025-10-17T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Un acte spécifique est une action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé. Les actes réalisés habituellement par ce type d'organisation ne sont pas des actes spécifiques. Les actes spécifiques décrits sont réalisés avec les ressources propres de l’organisation ou via des ressources mises à disposition dans le cadre d’une convention à la condition que ces ressources interviennent sur site dans la réalisation de la prestation.",
   "jurisdiction" : [
@@ -69,7 +69,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
   ],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 1550,
+  "count" : 1555,
   "property" : [
     {
       "code" : "dateValid",
@@ -12401,6 +12401,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
     {
       "code" : "0384",
       "display" : "Prélèvement d'organes à coeur battant (mort cérébrale)",
+      "definition" : "Prélèvement d’organes effectué sur une personne en état de mort encéphalique, dont les fonctions cardiaques et respiratoires sont temporairement maintenues artificiellement pour préserver les organes en vue d’une transplantation.",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -12418,7 +12419,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-09-19T00:00:00+01:00"
+          "valueDateTime" : "2025-10-17T00:00:00+01:00"
         },
         {
           "code" : "status",
@@ -41796,6 +41797,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
     {
       "code" : "1539",
       "display" : "Test Rapide d’Orientation Diagnostique (TROD) Covid-19",
+      "definition" : "Test qui permet d’orienter rapidement le diagnostic d’une infection à la Covid-19 (SARS-CoV-2), à partir d’un prélèvement nasal ou salivaire, en détectant la présence du virus ou des anticorps produits contre lui.",
       "property" : [
         {
           "code" : "dateValid",
@@ -41803,7 +41805,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-09-19T12:00:00+01:00"
+          "valueDateTime" : "2025-10-17T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -41814,6 +41816,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
     {
       "code" : "1540",
       "display" : "Test Rapide d’Orientation Diagnostique (TROD) Grippe",
+      "definition" : "Test permettant d’orienter rapidement le diagnostic d’une infection grippale, à partir d’un prélèvement nasal ou nasopharyngé, en détectant la présence du virus de la grippe (virus influenza).",
       "property" : [
         {
           "code" : "dateValid",
@@ -41821,7 +41824,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-09-19T12:00:00+01:00"
+          "valueDateTime" : "2025-10-17T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -41832,6 +41835,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
     {
       "code" : "1541",
       "display" : "Test Rapide d’Orientation Diagnostique (TROD) Virus respiratoire syncytial (VRS)",
+      "definition" : "Test permettant d’orienter rapidement le diagnostic d’une infection par le virus respiratoire syncytial, à partir d’un prélèvement nasal ou nasopharyngé, en détectant la présence du virus responsable de bronchiolites et d’infections respiratoires aiguës.",
       "property" : [
         {
           "code" : "dateValid",
@@ -41839,7 +41843,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-09-19T12:00:00+01:00"
+          "valueDateTime" : "2025-10-17T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -41850,6 +41854,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
     {
       "code" : "1542",
       "display" : "Test Rapide d’Orientation Diagnostique (TROD) Angine",
+      "definition" : "Test permettant d’orienter rapidement le diagnostic d’une angine bactérienne, à partir d’un prélèvement de gorge, en détectant la présence du streptocoque du groupe A. I",
       "property" : [
         {
           "code" : "dateValid",
@@ -41857,7 +41862,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-09-19T12:00:00+01:00"
+          "valueDateTime" : "2025-10-17T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -41868,6 +41873,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
     {
       "code" : "1543",
       "display" : "Test Rapide d’Orientation Diagnostique (TROD) Syphilis",
+      "definition" : "Test permettant d’orienter rapidement le diagnostic d’une infection par Treponema pallidum, bactérie responsable de la syphilis, à partir d’un prélèvement capillaire ou sanguin.",
       "property" : [
         {
           "code" : "dateValid",
@@ -41875,7 +41881,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-09-19T12:00:00+01:00"
+          "valueDateTime" : "2025-10-17T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -41886,6 +41892,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
     {
       "code" : "1544",
       "display" : "Test Rapide d’Orientation Diagnostique (TROD) Cystite",
+      "definition" : "Test permettant d’orienter rapidement le diagnostic d’une infection urinaire (cystite) en détectant la présence de bactéries ou de marqueurs urinaires spécifiques, à partir d’un prélèvement d’urine.",
       "property" : [
         {
           "code" : "dateValid",
@@ -41893,7 +41900,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-09-19T12:00:00+01:00"
+          "valueDateTime" : "2025-10-17T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -41904,6 +41911,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
     {
       "code" : "1545",
       "display" : "Chirurgie de l’allongement osseux",
+      "definition" : "Intervention chirurgicale orthopédique visant à augmenter la longueur d’un os, généralement à l’aide d’un dispositif externe ou interne permettant une distraction progressive de l’os.",
       "property" : [
         {
           "code" : "dateValid",
@@ -41911,7 +41919,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-09-19T12:00:00+01:00"
+          "valueDateTime" : "2025-10-17T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -41922,6 +41930,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
     {
       "code" : "1546",
       "display" : "Correction des malformations congénitales de la main",
+      "definition" : "Intervention chirurgicale visant à réparer ou améliorer les anomalies présentes dès la naissance de la main, afin de restaurer sa fonction et son apparence.",
       "property" : [
         {
           "code" : "dateValid",
@@ -41929,7 +41938,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-09-19T12:00:00+01:00"
+          "valueDateTime" : "2025-10-17T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -41940,6 +41949,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
     {
       "code" : "1547",
       "display" : "Accueil saisonnier possible",
+      "definition" : "Accueil possible des patients pendant les périodes de vacances ou lors d'évènements exceptionnels (exemple : compétition sportive internationale) pour des soins de dialyse par exemple",
       "property" : [
         {
           "code" : "dateValid",
@@ -41947,7 +41957,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-09-19T12:00:00+01:00"
+          "valueDateTime" : "2025-10-17T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -41958,6 +41968,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
     {
       "code" : "1548",
       "display" : "Accueil saisonnier uniquement",
+      "definition" : "Accueil  des patients exclusivement pendant les périodes de vacances ou lors d'évènements exceptionnels (exemple : compétition sportive internationale) pour des soins de dialyse par exemple",
       "property" : [
         {
           "code" : "dateValid",
@@ -41965,7 +41976,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-09-19T12:00:00+01:00"
+          "valueDateTime" : "2025-10-17T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -41976,6 +41987,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
     {
       "code" : "1549",
       "display" : "Autodialyse simple",
+      "definition" : "Modalité de traitement de l’insuffisance rénale chronique dans laquelle le patient réalise lui-même sa séance de dialyse, sous la surveillance d’un personnel paramédical, dans une unité spécifique.",
       "property" : [
         {
           "code" : "dateValid",
@@ -41983,7 +41995,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-09-19T12:00:00+01:00"
+          "valueDateTime" : "2025-10-17T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -41994,6 +42006,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
     {
       "code" : "1550",
       "display" : "Autodialyse assistée",
+      "definition" : "Modalité de traitement de l’insuffisance rénale chronique dans laquelle le patient réalise sa dialyse assisté d’un infirmier dans une unité dédiée.",
       "property" : [
         {
           "code" : "dateValid",
@@ -42001,7 +42014,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-09-19T12:00:00+01:00"
+          "valueDateTime" : "2025-10-17T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -42012,6 +42025,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
     {
       "code" : "1551",
       "display" : "Accueil en unité protégée",
+      "definition" : "Les unités de vie protégée hébergent des personnes âgées qui sont atteintes de la maladie d’Alzheimer ou d'une maladie apparentée diagnostiquée et qui présentent des troubles modérés du comportement. Ces unités sont généralement des services de petite taille situés au sein d’un EHPAD. Elles ont une capacité d’accueil de 10 à 20 résidents. Les chambres y sont souvent réparties autour d'une salle commune qui permet, dans un même lieu, de partager les repas et les activités collectives. La configuration des lieux est pensée pour être apaisante notamment pour les personnes qui déambulent et qui sont désorientées. Leur architecture est ainsi conçue pour permettre aux personnes de marcher comme bon leur semble sans se perdre. La vie en petit groupe est plus adaptée et facile pour elles.",
       "property" : [
         {
           "code" : "dateValid",
@@ -42019,7 +42033,97 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-09-24T12:00:00+01:00"
+          "valueDateTime" : "2025-10-17T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "1552",
+      "display" : "Rééducation par réalité virtuelle",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-10-17T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-10-17T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "1553",
+      "display" : "Rééducation de l’amputé",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-10-17T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-10-17T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "1554",
+      "display" : "Rééducation vestibulaire (trouble de l’équilibre)",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-10-17T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-10-17T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "1555",
+      "display" : "Rééducation du rachis",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-10-17T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-10-17T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "1556",
+      "display" : "Rééducation des paralysies cérébrales et polyhandicaps",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-10-17T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-10-17T12:00:00+01:00"
         },
         {
           "code" : "status",

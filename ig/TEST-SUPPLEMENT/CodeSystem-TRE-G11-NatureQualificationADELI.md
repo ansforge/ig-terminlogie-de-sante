@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_G11-NatureQualificationADELI/FHIR/TRE-G11-NatureQualificationADELI | *Version*:20231215120000 | |
-| Active as of 2023-12-15 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_G11_NatureQualificationADELI |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_G11-NatureQualificationADELI/FHIR/TRE-G11-NatureQualificationADELI | *Version*:20251016120000 | |
+| Active as of 2025-10-16 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_G11_NatureQualificationADELI |
 | *Other Identifiers:*OID:1.2.250.1.71.1.2.17 | | |
 
  
@@ -28,8 +28,8 @@ Nature de qualification ADELI
   "resourceType" : "CodeSystem",
   "id" : "TRE-G11-NatureQualificationADELI",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:11:43.901+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2025-10-31T14:58:00.535+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
     ]
@@ -49,11 +49,11 @@ Nature de qualification ADELI
       "value" : "urn:oid:1.2.250.1.71.1.2.17"
     }
   ],
-  "version" : "20231215120000",
+  "version" : "20251016120000",
   "name" : "TRE_G11_NatureQualificationADELI",
   "status" : "active",
   "experimental" : false,
-  "date" : "2023-12-15T12:00:00+01:00",
+  "date" : "2025-10-16T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Nature de qualification ADELI",
   "jurisdiction" : [
@@ -68,6 +68,7 @@ Nature de qualification ADELI
   ],
   "caseSensitive" : false,
   "content" : "complete",
+  "count" : 9,
   "property" : [
     {
       "code" : "dateValid",
@@ -135,6 +136,7 @@ Nature de qualification ADELI
     {
       "code" : "01",
       "display" : "Spécialité ordinale (SM)",
+      "definition" : "Spécialité médicale ou odontologique, reconnue par une autorité d'enregistrement (Ordre ou SSA)",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -152,7 +154,7 @@ Nature de qualification ADELI
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2016-04-01T00:00:00+01:00"
+          "valueDateTime" : "2025-10-16T00:00:00+01:00"
         },
         {
           "code" : "status",
@@ -162,7 +164,8 @@ Nature de qualification ADELI
     },
     {
       "code" : "02",
-      "display" : "Compétence (C)",
+      "display" : "Compétence de médecine (C)",
+      "definition" : "Compétence acquise par le professionnel.",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -180,7 +183,7 @@ Nature de qualification ADELI
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2016-04-01T00:00:00+01:00"
+          "valueDateTime" : "2025-10-16T00:00:00+01:00"
         },
         {
           "code" : "status",
@@ -219,6 +222,7 @@ Nature de qualification ADELI
     {
       "code" : "04",
       "display" : "Compétence exclusive (CEX)",
+      "definition" : "La compétence exclusive, en tant que savoir-faire, est une compétence exercée à titre exclusif. Un professionnel ne peut exercer à la fois une compétence exclusive et une spécialité.",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -236,7 +240,7 @@ Nature de qualification ADELI
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2016-04-01T00:00:00+01:00"
+          "valueDateTime" : "2025-10-16T00:00:00+01:00"
         },
         {
           "code" : "status",
@@ -283,6 +287,7 @@ Nature de qualification ADELI
     {
       "code" : "07",
       "display" : "DESC non qualifiant (DNQ)",
+      "definition" : "Diplôme d'Etudes Spécialisées Complémentaires (DESC) non qualifiant, en fonction du ou des DESC de groupe I, que le professionnel a obtenu(s).",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -300,7 +305,7 @@ Nature de qualification ADELI
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2016-09-01T00:00:00+01:00"
+          "valueDateTime" : "2025-10-16T00:00:00+01:00"
         },
         {
           "code" : "status",
@@ -311,6 +316,7 @@ Nature de qualification ADELI
     {
       "code" : "08",
       "display" : "Capacité (CAPA)",
+      "definition" : "La capacité, en tant que savoir-faire, représente la reconnaissance par l'ordre d'un diplôme de capacité.",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -328,7 +334,7 @@ Nature de qualification ADELI
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2016-04-01T00:00:00+01:00"
+          "valueDateTime" : "2025-10-16T00:00:00+01:00"
         },
         {
           "code" : "status",
@@ -339,6 +345,7 @@ Nature de qualification ADELI
     {
       "code" : "09",
       "display" : "Surspécialité acquise à l'issue d'une Formation Spécialisée Transversale (SST)",
+      "definition" : "Surspécialité acquise par le professionnel en supplément de la spécialité de DES",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -356,7 +363,7 @@ Nature de qualification ADELI
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2023-10-30T12:00:00+01:00"
+          "valueDateTime" : "2025-10-16T12:00:00+01:00"
         },
         {
           "code" : "status",

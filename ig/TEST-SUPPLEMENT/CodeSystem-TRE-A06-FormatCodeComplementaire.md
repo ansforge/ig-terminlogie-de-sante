@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_A06-FormatCodeComplementaire/FHIR/TRE-A06-FormatCodeComplementaire | *Version*:20240726120000 | |
-| Active as of 2024-07-26 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_A06_FormatCodeComplementaire |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_A06-FormatCodeComplementaire/FHIR/TRE-A06-FormatCodeComplementaire | *Version*:20251029120000 | |
+| Active as of 2025-10-29 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_A06_FormatCodeComplementaire |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.4.2.282 | | |
 
  
@@ -29,8 +29,8 @@ formatCode en complément des nomenclatures internationales
   "resourceType" : "CodeSystem",
   "id" : "TRE-A06-FormatCodeComplementaire",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-07-02T18:11:26.409+00:00",
+    "versionId" : "8",
+    "lastUpdated" : "2025-11-04T20:11:52.054+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
     ]
@@ -50,11 +50,11 @@ formatCode en complément des nomenclatures internationales
       "value" : "urn:oid:1.2.250.1.213.1.1.4.2.282"
     }
   ],
-  "version" : "20240726120000",
+  "version" : "20251029120000",
   "name" : "TRE_A06_FormatCodeComplementaire",
   "status" : "active",
   "experimental" : false,
-  "date" : "2024-07-26T12:00:00+01:00",
+  "date" : "2025-10-29T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "formatCode en complément des nomenclatures internationales",
   "jurisdiction" : [
@@ -69,6 +69,7 @@ formatCode en complément des nomenclatures internationales
   ],
   "caseSensitive" : false,
   "content" : "complete",
+  "count" : 63,
   "property" : [
     {
       "code" : "dateValid",
@@ -1893,11 +1894,19 @@ formatCode en complément des nomenclatures internationales
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2024-04-26T12:00:00+01:00"
+          "valueDateTime" : "2025-10-29T12:00:00+01:00"
+        },
+        {
+          "code" : "dateFin",
+          "valueDateTime" : "2025-10-29T12:00:00+01:00"
         },
         {
           "code" : "status",
-          "valueCode" : "active"
+          "valueCode" : "adeprecated"
+        },
+        {
+          "code" : "deprecationDate",
+          "valueDateTime" : "2025-10-29T12:00:00+01:00"
         }
       ]
     },

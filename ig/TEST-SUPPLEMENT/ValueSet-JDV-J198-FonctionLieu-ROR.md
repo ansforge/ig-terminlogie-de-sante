@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J198-FonctionLieu-ROR/FHIR/JDV-J198-FonctionLieu-ROR | *Version*:20250620120000 | |
-| Active as of 2025-06-20 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J198_FonctionLieu_ROR |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J198-FonctionLieu-ROR/FHIR/JDV-J198-FonctionLieu-ROR | *Version*:20251017120000 | |
+| Active as of 2025-10-17 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J198_FonctionLieu_ROR |
 | *Other Identifiers:*OID:1.2.250.1.213.3.4.30 | | |
 
  
@@ -29,11 +29,11 @@ Requête sur le SMT
 
 ### Logical Definition (CLD)
 
-version: 6; Dernière mise à jour : 2025-07-02 17:05:42+0000; Langue : fr-FR
+version: 8; Dernière mise à jour : 2025-11-04 19:02:03+0100; Langue : fr-FR
 
 Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
 
-* Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R343-FonctionLieu/FHIR/TRE-R343-FonctionLieu`](CodeSystem-TRE-R343-FonctionLieu.md)version 📦20250620120000
+* Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R343-FonctionLieu/FHIR/TRE-R343-FonctionLieu`](CodeSystem-TRE-R343-FonctionLieu.md)version 📦20251017120000
 
  
 
@@ -61,8 +61,8 @@ Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
   "resourceType" : "ValueSet",
   "id" : "JDV-J198-FonctionLieu-ROR",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-07-02T17:05:42.186+00:00",
+    "versionId" : "8",
+    "lastUpdated" : "2025-11-04T19:02:03.306+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -81,11 +81,11 @@ Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
       "value" : "urn:oid:1.2.250.1.213.3.4.30"
     }
   ],
-  "version" : "20250620120000",
+  "version" : "20251017120000",
   "name" : "JDV_J198_FonctionLieu_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-06-20T12:00:00+01:00",
+  "date" : "2025-10-17T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Destination d'usage du lieu pour le lieu de réalisation de l'offre.",
   "jurisdiction" : [
@@ -154,6 +154,10 @@ Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
           {
             "code" : "013",
             "display" : "Salle de travail (salle de naissance)"
+          },
+          {
+            "code" : "014",
+            "display" : "Bloc obstétrical"
           }
         ]
       }

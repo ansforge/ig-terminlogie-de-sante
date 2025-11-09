@@ -45,7 +45,7 @@ Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :
 Expansion from smt.esante.gouv.fr based on:
 
 * [codesystem TerminologieCISIS - Terminologie des concepts non trouvés dans les autres terminologies v202510230000 (CodeSystem)](CodeSystem-terminologie-cisis.md)
-* [system European Medical device nomenclature vv1.2 (CodeSystem)](CodeSystem-terminologie-emdn.md)
+* [codesystem European Medical device nomenclature vv1.2 (CodeSystem)](CodeSystem-terminologie-emdn.md)
 
 Ce jeu de valeur (ValueSet) contient 4 concepts
 

@@ -18,8 +18,6 @@ Traduction Française
 
 * Ce supplément de terminologie de référence (CodeSystem) nest pas utilisé ici; il peut être utilisé ailleurs (par exemple spécifications et/ou implémentations qui utilisent ce contenu)
 
-Langue : fr-FR
-
 This code system supplement `https://smt.esante.gouv.fr/fhir/CodeSystem/v3-SpecimenType-supplement-fr` defines labels on the following codes:
 
 
@@ -30,7 +28,6 @@ This code system supplement `https://smt.esante.gouv.fr/fhir/CodeSystem/v3-Speci
 {
   "resourceType" : "CodeSystem",
   "id" : "v3-SpecimenType-supplement-fr",
-  "language" : "fr-FR",
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/v3-SpecimenType-supplement-fr",
   "version" : "1.0",
   "name" : "V3SpecimenTypeSupplementFr",

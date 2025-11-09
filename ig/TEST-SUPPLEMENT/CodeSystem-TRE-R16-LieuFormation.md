@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R16-LieuFormation/FHIR/TRE-R16-LieuFormation | *Version*:20250709120000 | |
-| Active as of 2025-07-09 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R16_LieuFormation |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R16-LieuFormation/FHIR/TRE-R16-LieuFormation | *Version*:20251016120000 | |
+| Active as of 2025-10-16 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R16_LieuFormation |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.35 | | |
 
  
@@ -28,8 +28,8 @@ Lieu de formation
   "resourceType" : "CodeSystem",
   "id" : "TRE-R16-LieuFormation",
   "meta" : {
-    "versionId" : "11",
-    "lastUpdated" : "2025-07-25T09:43:44.631+00:00",
+    "versionId" : "12",
+    "lastUpdated" : "2025-10-31T14:59:20.465+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
     ]
@@ -49,11 +49,11 @@ Lieu de formation
       "value" : "urn:oid:1.2.250.1.213.1.6.1.35"
     }
   ],
-  "version" : "20250709120000",
+  "version" : "20251016120000",
   "name" : "TRE_R16_LieuFormation",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-07-09T12:00:00+01:00",
+  "date" : "2025-10-16T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Lieu de formation",
   "jurisdiction" : [
@@ -10615,7 +10615,7 @@ Lieu de formation
     },
     {
       "code" : "UK11",
-      "display" : "IFMK du CHU de Grenoble",
+      "display" : "IFMK du CHU de Grenoble (Saint-Martin d'Hères)",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -10623,7 +10623,7 @@ Lieu de formation
             "system" : "http://snomed.info/sct",
             "code" : "900000000000013009"
           },
-          "value" : "Echirolles"
+          "value" : "Saint-Martin d'Hères"
         }
       ],
       "property" : [
@@ -10633,7 +10633,7 @@ Lieu de formation
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2016-05-03T00:00:00+01:00"
+          "valueDateTime" : "2025-10-16T00:00:00+01:00"
         },
         {
           "code" : "status",

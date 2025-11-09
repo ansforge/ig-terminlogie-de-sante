@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J108-EnsembleFonction-RASS/FHIR/JDV-J108-EnsembleFonction-RASS | *Version*:20250626120000 | |
-| Active as of 2025-06-26 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J108_EnsembleFonction_RASS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J108-EnsembleFonction-RASS/FHIR/JDV-J108-EnsembleFonction-RASS | *Version*:20251016120000 | |
+| Active as of 2025-10-16 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J108_EnsembleFonction_RASS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.176 | | |
 
  
@@ -29,13 +29,13 @@ Requête sur le SMT
 
 ### Logical Definition (CLD)
 
-version: 13; Dernière mise à jour : 2025-07-02 17:04:45+0000; Langue : fr-FR
+version: 15; Dernière mise à jour : 2025-11-04 19:01:57+0100; Langue : fr-FR
 
 Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
 
 Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :
 
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R21-Fonction/FHIR/TRE-R21-Fonction`](CodeSystem-TRE-R21-Fonction.md)version 📦20250623120000
+* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R21-Fonction/FHIR/TRE-R21-Fonction`](CodeSystem-TRE-R21-Fonction.md)version 📦20251023120000
 * Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R96-AutreFonctionSanitaire/FHIR/TRE-R96-AutreFonctionSanitaire`](CodeSystem-TRE-R96-AutreFonctionSanitaire.md)version 📦20231215120000 
 * Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge`](CodeSystem-TRE-R85-RolePriseCharge.md)version 📦20250919120000 
 
@@ -43,7 +43,7 @@ Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :
 
 ### Expansion
 
-Ce jeu de valeur (ValueSet) contient 115 concepts
+Ce jeu de valeur (ValueSet) contient 116 concepts
 
 -------
 
@@ -67,8 +67,8 @@ Ce jeu de valeur (ValueSet) contient 115 concepts
   "resourceType" : "ValueSet",
   "id" : "JDV-J108-EnsembleFonction-RASS",
   "meta" : {
-    "versionId" : "13",
-    "lastUpdated" : "2025-07-02T17:04:45.789+00:00",
+    "versionId" : "15",
+    "lastUpdated" : "2025-11-04T19:01:57.775+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -87,11 +87,11 @@ Ce jeu de valeur (ValueSet) contient 115 concepts
       "value" : "urn:oid:1.2.250.1.213.1.6.1.176"
     }
   ],
-  "version" : "20250626120000",
+  "version" : "20251016120000",
   "name" : "JDV_J108_EnsembleFonction_RASS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-06-26T12:00:00+01:00",
+  "date" : "2025-10-16T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Ensemble des fonctions et rôles du RASS",
   "jurisdiction" : [
@@ -272,6 +272,10 @@ Ce jeu de valeur (ValueSet) contient 115 concepts
           {
             "code" : "FON-60",
             "display" : "Pharmacien remplaçant BPDO"
+          },
+          {
+            "code" : "FON-62",
+            "display" : "Consultations de solidarité territoriale"
           },
           {
             "code" : "FON-AU",
@@ -500,10 +504,6 @@ Ce jeu de valeur (ValueSet) contient 115 concepts
             "display" : "Etudiant - masseur-kinésithérapeute"
           },
           {
-            "code" : "350",
-            "display" : "Aide à domicile"
-          },
-          {
             "code" : "351",
             "display" : "Assistant(e) maternel(le)"
           },
@@ -572,12 +572,16 @@ Ce jeu de valeur (ValueSet) contient 115 concepts
             "display" : "Animateur"
           },
           {
-            "code" : "369",
-            "display" : "Biologiste médical non-médecin"
-          },
-          {
             "code" : "370",
             "display" : "Opérateur de Soins Non Programmés"
+          },
+          {
+            "code" : "371",
+            "display" : "Aide à domicile qualifié(e)"
+          },
+          {
+            "code" : "372",
+            "display" : "Aide à domicile"
           }
         ]
       }

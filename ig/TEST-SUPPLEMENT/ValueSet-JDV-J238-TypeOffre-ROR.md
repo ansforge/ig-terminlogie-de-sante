@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J238-TypeOffre-ROR/FHIR/JDV-J238-TypeOffre-ROR | *Version*:20250828120000 | |
-| Active as of 2025-08-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J238_TypeOffre_ROR |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J238-TypeOffre-ROR/FHIR/JDV-J238-TypeOffre-ROR | *Version*:20251017120000 | |
+| Active as of 2025-10-17 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J238_TypeOffre_ROR |
 | *Other Identifiers:*OID:1.2.250.1.213.3.4.65 | | |
 
  
@@ -29,11 +29,11 @@ Requête sur le SMT
 
 ### Logical Definition (CLD)
 
-version: 23; Dernière mise à jour : 2025-10-02 19:02:02+0200; Langue : fr-FR
+version: 25; Dernière mise à jour : 2025-11-04 19:02:05+0100; Langue : fr-FR
 
 Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
 
-* Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R244-CategorieOrganisation/FHIR/TRE-R244-CategorieOrganisation`](CodeSystem-TRE-R244-CategorieOrganisation.md)version 📦20250828120000
+* Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R244-CategorieOrganisation/FHIR/TRE-R244-CategorieOrganisation`](CodeSystem-TRE-R244-CategorieOrganisation.md)version 📦20251017120000
 
  
 
@@ -61,8 +61,8 @@ Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
   "resourceType" : "ValueSet",
   "id" : "JDV-J238-TypeOffre-ROR",
   "meta" : {
-    "versionId" : "23",
-    "lastUpdated" : "2025-10-02T19:02:02.762+02:00",
+    "versionId" : "25",
+    "lastUpdated" : "2025-11-04T19:02:05.263+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -81,11 +81,11 @@ Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
       "value" : "urn:oid:1.2.250.1.213.3.4.65"
     }
   ],
-  "version" : "20250828120000",
+  "version" : "20251017120000",
   "name" : "JDV_J238_TypeOffre_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-08-28T12:00:00+01:00",
+  "date" : "2025-10-17T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Prestations que peut réaliser une structure et qui permettent de répondre au besoin de santé d'une personne",
   "jurisdiction" : [
@@ -121,7 +121,7 @@ Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
           },
           {
             "code" : "05",
-            "display" : "Centre d'Accueil Thérapeutique à Temps Partiel (CATTP)"
+            "display" : "Centre d’Activités Thérapeutiques et de Temps de Groupe (CATTG) – ex CATTP"
           },
           {
             "code" : "06",
@@ -141,7 +141,7 @@ Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
           },
           {
             "code" : "10",
-            "display" : "Centre Médico-Psychologique (CMP)"
+            "display" : "Centre Médico-Psychologique (CMP) Adulte"
           },
           {
             "code" : "11",
@@ -281,7 +281,7 @@ Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
           },
           {
             "code" : "46",
-            "display" : "Établissement et Service de Pré-Orientation (ESPO)"
+            "display" : "Établissement et Service de Préorientation (ESPO)"
           },
           {
             "code" : "47",
@@ -781,7 +781,7 @@ Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
           },
           {
             "code" : "174",
-            "display" : "Unité psychiatrique"
+            "display" : "Unité hospitalière de psychiatrie de l’adulte"
           },
           {
             "code" : "175",
@@ -1105,7 +1105,7 @@ Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
           },
           {
             "code" : "257",
-            "display" : "Unité pour Personnes Handicapées Vieillissantes (UPHV)"
+            "display" : "Unité pour Personnes Handicapées Vieillissantes (UPHV - UPHA)"
           },
           {
             "code" : "258",
@@ -1190,6 +1190,26 @@ Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
           {
             "code" : "278",
             "display" : "Unité Hospitalière de Courte Durée (UHCD)"
+          },
+          {
+            "code" : "279",
+            "display" : "Equipe mobile de psychiatrie de l'Enfant et de l'Adolescent"
+          },
+          {
+            "code" : "280",
+            "display" : "Equipe mobile de psychiatrie adulte"
+          },
+          {
+            "code" : "281",
+            "display" : "Centre Médico-Psychologique Enfant et Adolescent (CMPEA)"
+          },
+          {
+            "code" : "282",
+            "display" : "Unité hospitalière de psychiatrie de l’enfant et de l’adolescent (pédopsychiatrie)"
+          },
+          {
+            "code" : "283",
+            "display" : "Equipe mobile de psychiatrie périnatale"
           }
         ]
       }

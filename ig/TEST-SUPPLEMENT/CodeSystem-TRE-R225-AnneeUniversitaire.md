@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R225-AnneeUniversitaire/FHIR/TRE-R225-AnneeUniversitaire | *Version*:20231215120000 | |
-| Active as of 2023-12-15 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R225_AnneeUniversitaire |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R225-AnneeUniversitaire/FHIR/TRE-R225-AnneeUniversitaire | *Version*:20251009120000 | |
+| Active as of 2025-10-09 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R225_AnneeUniversitaire |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.117 | | |
 
  
@@ -28,8 +28,8 @@ Année universitaire
   "resourceType" : "CodeSystem",
   "id" : "TRE-R225-AnneeUniversitaire",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:16:16.894+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2025-10-31T15:01:32.300+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
     ]
@@ -49,11 +49,11 @@ Année universitaire
       "value" : "urn:oid:1.2.250.1.213.1.6.1.117"
     }
   ],
-  "version" : "20231215120000",
+  "version" : "20251009120000",
   "name" : "TRE_R225_AnneeUniversitaire",
   "status" : "active",
   "experimental" : false,
-  "date" : "2023-12-15T12:00:00+01:00",
+  "date" : "2025-10-09T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Année universitaire",
   "jurisdiction" : [
@@ -68,6 +68,7 @@ Année universitaire
   ],
   "caseSensitive" : false,
   "content" : "complete",
+  "count" : 21,
   "property" : [
     {
       "code" : "dateValid",
@@ -104,6 +105,62 @@ Année universitaire
     }
   ],
   "concept" : [
+    {
+      "code" : "AU0809",
+      "display" : "2008-2009",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "Année universitaire 2008-2009"
+        }
+      ],
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-10-09T00:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-10-09T00:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "AU0910",
+      "display" : "2009-2010",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "Année universitaire 2009-2010"
+        }
+      ],
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-10-09T00:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-10-09T00:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
     {
       "code" : "AU1011",
       "display" : "2010-2011",

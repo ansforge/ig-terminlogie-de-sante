@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/terminologie-bdpm | *Version*:2025-10-01 | |
-| Active as of 2025-10-01 | *Responsible:*Agence du numérique en santé | *Computable Name*:BDPM |
+| *Official URL*:https://smt.esante.gouv.fr/terminologie-bdpm | *Version*:2025-11-06 | |
+| Active as of 2025-11-06 | *Responsible:*Agence du numérique en santé | *Computable Name*:BDPM |
 | *Other Identifiers:*https://smt.esante.gouv.fr/#terminologie-bdpm (use: secondary, ) | | |
 | **Copyright/Legal**:[LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md) | | |
 
@@ -20,7 +20,7 @@ LA BDPM est un des référentiels du médicament gérée et distribuée par l’
 
 * [ValueSet_BDPM_All](ValueSet-vs-bdpm-all.md)
 
-version: 20; Dernière mise à jour : 2025-10-01 14:40:02+0200
+version: 21; Dernière mise à jour : 2025-11-07 12:58:44+0100
 
 Profil: [Shareable CodeSystem](http://hl7.org/fhir/R4/shareablecodesystem.html)
 
@@ -43,8 +43,8 @@ This code system `https://smt.esante.gouv.fr/terminologie-bdpm` defines codes, b
   "resourceType" : "CodeSystem",
   "id" : "terminologie-bdpm",
   "meta" : {
-    "versionId" : "20",
-    "lastUpdated" : "2025-10-01T14:40:02.219+02:00",
+    "versionId" : "21",
+    "lastUpdated" : "2025-11-07T12:58:44.217+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
     ]
@@ -57,12 +57,12 @@ This code system `https://smt.esante.gouv.fr/terminologie-bdpm` defines codes, b
       "value" : "terminologie-bdpm"
     }
   ],
-  "version" : "2025-10-01",
+  "version" : "2025-11-06",
   "name" : "BDPM",
   "title" : "Base de données publique du médicament",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-10-01T00:00:00+00:00",
+  "date" : "2025-11-06T00:00:00+00:00",
   "publisher" : "Agence du numérique en santé",
   "description" : "LA BDPM est un des référentiels du médicament gérée et distribuée par l’ANSM. Elle recense l’ensemble des spécialités et des présentations effectivement commercialisées durant les 5 dernières années. De ce fait, elle ne propose pas un historique exhaustif des codes de présentation et spécialités, celui-ci peut être obtenu grâce à la base RCP disponible sur le site de l’ANSM",
   "jurisdiction" : [
@@ -78,7 +78,7 @@ This code system `https://smt.esante.gouv.fr/terminologie-bdpm` defines codes, b
   "copyright" : "[LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md)",
   "valueSet" : "https://smt.esante.gouv.fr/terminologie-bdpm?vs",
   "content" : "not-present",
-  "count" : 41118,
+  "count" : 41206,
   "filter" : [
     {
       "code" : "root",

@@ -45,9 +45,9 @@ Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :
 
 Expansion from smt.esante.gouv.fr based on:
 
+* SNOMED CT 11000315107 edition 21-Jun 2025
 * [codesystem TRE_R66_CategorieEtablissement v20250425120000 (CodeSystem)](CodeSystem-TRE-R66-CategorieEtablissement.md)
 * [codesystem TerminologieCISIS - Terminologie des concepts non trouvés dans les autres terminologies v202510230000 (CodeSystem)](CodeSystem-terminologie-cisis.md)
-* SNOMED CT 11000315107 edition 21-Jun 2025
 
 Ce jeu de valeur (ValueSet) contient 3 concepts
 

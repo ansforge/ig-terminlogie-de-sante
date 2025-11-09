@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J10-XdsFormatCode-CISIS/FHIR/JDV-J10-XdsFormatCode-CISIS | *Version*:20240726120000 | |
-| Active as of 2024-07-26 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J10_XdsFormatCode_CISIS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J10-XdsFormatCode-CISIS/FHIR/JDV-J10-XdsFormatCode-CISIS | *Version*:20251029120000 | |
+| Active as of 2025-10-29 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J10_XdsFormatCode_CISIS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.465 | | |
 
  
@@ -29,13 +29,13 @@ Requête sur le SMT
 
 ### Logical Definition (CLD)
 
-version: 4; Dernière mise à jour : 2025-07-02 17:04:46+0000; Langue : fr-FR
+version: 6; Dernière mise à jour : 2025-11-04 19:01:58+0100; Langue : fr-FR
 
 Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
 
 Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :
 
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_A06-FormatCodeComplementaire/FHIR/TRE-A06-FormatCodeComplementaire`](CodeSystem-TRE-A06-FormatCodeComplementaire.md)version 📦20240726120000
+* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_A06-FormatCodeComplementaire/FHIR/TRE-A06-FormatCodeComplementaire`](CodeSystem-TRE-A06-FormatCodeComplementaire.md)version 📦20251029120000
 * Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_A11-IheFormatCode/FHIR/TRE-A11-IheFormatCode`](CodeSystem-TRE-A11-IheFormatCode.md)version 📦20240426120000 
 * Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_A09-DICOMuidRegistry/FHIR/TRE-A09-DICOMuidRegistry`](CodeSystem-TRE-A09-DICOMuidRegistry.md)version 📦20231215120000 
 * Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_A10-NomenclatureURN/FHIR/TRE-A10-NomenclatureURN`](CodeSystem-TRE-A10-NomenclatureURN.md)version 📦20231215120000 
@@ -44,7 +44,7 @@ Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :
 
 ### Expansion
 
-Ce jeu de valeur (ValueSet) contient 64 concepts
+Ce jeu de valeur (ValueSet) contient 63 concepts
 
 -------
 
@@ -68,8 +68,8 @@ Ce jeu de valeur (ValueSet) contient 64 concepts
   "resourceType" : "ValueSet",
   "id" : "JDV-J10-XdsFormatCode-CISIS",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2025-07-02T17:04:46.392+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2025-11-04T19:01:58.541+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -88,11 +88,11 @@ Ce jeu de valeur (ValueSet) contient 64 concepts
       "value" : "urn:oid:1.2.250.1.213.1.1.5.465"
     }
   ],
-  "version" : "20240726120000",
+  "version" : "20251029120000",
   "name" : "JDV_J10_XdsFormatCode_CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2024-07-26T12:00:00+01:00",
+  "date" : "2025-10-29T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "XDS formatCode documents CI-SIS",
   "jurisdiction" : [
@@ -285,10 +285,6 @@ Ce jeu de valeur (ValueSet) contient 64 concepts
           {
             "code" : "urn:ans:ci-sis:feuille-de-style:2023",
             "display" : "Feuille de style"
-          },
-          {
-            "code" : "urn:asip:ci-sis:dlu:2024",
-            "display" : "Document de liaison d'urgence"
           },
           {
             "code" : "urn:asip:ci-sis:ft-su:2024",

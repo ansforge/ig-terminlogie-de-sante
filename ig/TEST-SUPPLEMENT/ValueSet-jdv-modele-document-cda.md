@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://mos.esante.gouv.fr/NOS/JDV-ModeleDocumentCDA | *Version*:1.1.0 |
-| Active as of 2025-10-30 | *Computable Name*:JdvModeleDocumentCda |
+| Active as of 2025-11-09 | *Computable Name*:JdvModeleDocumentCda |
 
  
 JDV avec l’ensemble des codes de la TRE_R220_ModeleDocumentCDAStructure et TRE_R221_ModeleDocumentCDANonStructure 
@@ -32,7 +32,7 @@ Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
 
 Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :
 
-* Inclut tous les codes définis dans [`https://mos.esante.gouv.fr/NOS/TRE_R220-ModeleDocumentCDAStructure/FHIR/TRE-R220-ModeleDocumentCDAStructure`](CodeSystem-TRE-R220-ModeleDocumentCDAStructure.md)version 📦20240726120000
+* Inclut tous les codes définis dans [`https://mos.esante.gouv.fr/NOS/TRE_R220-ModeleDocumentCDAStructure/FHIR/TRE-R220-ModeleDocumentCDAStructure`](CodeSystem-TRE-R220-ModeleDocumentCDAStructure.md)version 📦20251029120000
 * Inclut tous les codes définis dans [`https://mos.esante.gouv.fr/NOS/TRE_R221-ModeleDocumentCDANonStructure/FHIR/TRE-R221-ModeleDocumentCDANonStructure`](CodeSystem-TRE-R221-ModeleDocumentCDANonStructure.md)version 📦20231215120000
 
  
@@ -79,7 +79,7 @@ Ce jeu de valeur (ValueSet) contient 84 concepts
   "title" : "Jdv Modele Document Cda",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-10-30T12:13:43+00:00",
+  "date" : "2025-11-09T13:49:29+00:00",
   "publisher" : "ANS",
   "contact" : [
     {

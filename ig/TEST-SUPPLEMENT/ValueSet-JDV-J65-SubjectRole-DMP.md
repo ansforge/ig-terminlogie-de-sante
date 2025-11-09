@@ -29,7 +29,7 @@ Requête sur le SMT
 
 ### Logical Definition (CLD)
 
-version: 7; Dernière mise à jour : 2025-07-02 17:06:43+0000; Langue : fr-FR
+version: 8; Dernière mise à jour : 2025-11-04 19:02:07+0100; Langue : fr-FR
 
 Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
 
@@ -44,7 +44,7 @@ Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :
 * Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R01-EnsembleSavoirFaire-CISIS/FHIR/TRE-R01-EnsembleSavoirFaire-CISIS`](CodeSystem-TRE-R01-EnsembleSavoirFaire-CISIS.md)version 📦20241213120000 
 * Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_G05-SousSectionTableauCNOP/FHIR/TRE-G05-SousSectionTableauCNOP`](CodeSystem-TRE-G05-SousSectionTableauCNOP.md)version 📦20231215120000 
 * Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R22-GenreActivite/FHIR/TRE-R22-GenreActivite`](CodeSystem-TRE-R22-GenreActivite.md)version 📦20240329120000 
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R21-Fonction/FHIR/TRE-R21-Fonction`](CodeSystem-TRE-R21-Fonction.md)version 📦20250623120000 
+* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R21-Fonction/FHIR/TRE-R21-Fonction`](CodeSystem-TRE-R21-Fonction.md)version 📦20251023120000 
 * Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge`](CodeSystem-TRE-R85-RolePriseCharge.md)version 📦20250919120000 
 
  
@@ -75,8 +75,8 @@ Ce jeu de valeur (ValueSet) contient 432 concepts
   "resourceType" : "ValueSet",
   "id" : "JDV-J65-SubjectRole-DMP",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2025-07-02T17:06:43.421+00:00",
+    "versionId" : "8",
+    "lastUpdated" : "2025-11-04T19:02:07.998+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",

@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J05-SubjectRole-CISIS/FHIR/JDV-J05-SubjectRole-CISIS | *Version*:20250721120000 | |
-| Active as of 2025-07-21 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J05_SubjectRole_CISIS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J05-SubjectRole-CISIS/FHIR/JDV-J05-SubjectRole-CISIS | *Version*:20251028120000 | |
+| Active as of 2025-10-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J05_SubjectRole_CISIS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.470 | | |
 
  
@@ -29,7 +29,7 @@ Requête sur le SMT
 
 ### Logical Definition (CLD)
 
-version: 18; Dernière mise à jour : 2025-07-25 09:32:08+0000; Langue : fr-FR
+version: 20; Dernière mise à jour : 2025-11-04 19:01:55+0100; Langue : fr-FR
 
 Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
 
@@ -44,14 +44,14 @@ Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :
 * Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R01-EnsembleSavoirFaire-CISIS/FHIR/TRE-R01-EnsembleSavoirFaire-CISIS`](CodeSystem-TRE-R01-EnsembleSavoirFaire-CISIS.md)version 📦20241213120000 
 * Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_G05-SousSectionTableauCNOP/FHIR/TRE-G05-SousSectionTableauCNOP`](CodeSystem-TRE-G05-SousSectionTableauCNOP.md)version 📦20231215120000 
 * Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R22-GenreActivite/FHIR/TRE-R22-GenreActivite`](CodeSystem-TRE-R22-GenreActivite.md)version 📦20240329120000 
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R21-Fonction/FHIR/TRE-R21-Fonction`](CodeSystem-TRE-R21-Fonction.md)version 📦20250623120000 
+* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R21-Fonction/FHIR/TRE-R21-Fonction`](CodeSystem-TRE-R21-Fonction.md)version 📦20251023120000 
 * Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge`](CodeSystem-TRE-R85-RolePriseCharge.md)version 📦20250919120000 
 
  
 
 ### Expansion
 
-Ce jeu de valeur (ValueSet) contient 443 concepts
+Ce jeu de valeur (ValueSet) contient 444 concepts
 
 -------
 
@@ -75,8 +75,8 @@ Ce jeu de valeur (ValueSet) contient 443 concepts
   "resourceType" : "ValueSet",
   "id" : "JDV-J05-SubjectRole-CISIS",
   "meta" : {
-    "versionId" : "18",
-    "lastUpdated" : "2025-07-25T09:32:08.747+00:00",
+    "versionId" : "20",
+    "lastUpdated" : "2025-11-04T19:01:55.982+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -95,11 +95,11 @@ Ce jeu de valeur (ValueSet) contient 443 concepts
       "value" : "urn:oid:1.2.250.1.213.1.1.5.470"
     }
   ],
-  "version" : "20250721120000",
+  "version" : "20251028120000",
   "name" : "JDV_J05_SubjectRole_CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-07-21T12:00:00+01:00",
+  "date" : "2025-10-28T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "subjectRole CI-SIS",
   "jurisdiction" : [
@@ -1645,6 +1645,10 @@ Ce jeu de valeur (ValueSet) contient 443 concepts
           {
             "code" : "FON-60",
             "display" : "Pharmacien remplaçant Bonnes Pratiques de Dispensation d'Oxygène"
+          },
+          {
+            "code" : "FON-62",
+            "display" : "Consultations de solidarité territoriale"
           },
           {
             "code" : "FON-AU",

@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R220-ModeleDocumentCDAStructure/FHIR/TRE-R220-ModeleDocumentCDAStructure | *Version*:20240726120000 | |
-| Active as of 2024-07-26 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R220_ModeleDocumentCDAStructure |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R220-ModeleDocumentCDAStructure/FHIR/TRE-R220-ModeleDocumentCDAStructure | *Version*:20251029120000 | |
+| Active as of 2025-10-29 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R220_ModeleDocumentCDAStructure |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.4.328 | | |
 
  
@@ -29,8 +29,8 @@ Identifiant des modèles de CDA structurés
   "resourceType" : "CodeSystem",
   "id" : "TRE-R220-ModeleDocumentCDAStructure",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2025-07-02T18:16:13.789+00:00",
+    "versionId" : "9",
+    "lastUpdated" : "2025-10-31T15:01:31.499+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
     ]
@@ -50,11 +50,11 @@ Identifiant des modèles de CDA structurés
       "value" : "urn:oid:1.2.250.1.213.1.1.4.328"
     }
   ],
-  "version" : "20240726120000",
+  "version" : "20251029120000",
   "name" : "TRE_R220_ModeleDocumentCDAStructure",
   "status" : "active",
   "experimental" : false,
-  "date" : "2024-07-26T12:00:00+01:00",
+  "date" : "2025-10-29T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Identifiant des modèles de CDA structurés",
   "jurisdiction" : [
@@ -69,6 +69,7 @@ Identifiant des modèles de CDA structurés
   ],
   "caseSensitive" : false,
   "content" : "complete",
+  "count" : 83,
   "property" : [
     {
       "code" : "dateValid",
@@ -1769,11 +1770,19 @@ Identifiant des modèles de CDA structurés
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2024-04-26T12:00:00+01:00"
+          "valueDateTime" : "2025-10-29T12:00:00+01:00"
+        },
+        {
+          "code" : "dateFin",
+          "valueDateTime" : "2025-10-29T12:00:00+01:00"
         },
         {
           "code" : "status",
-          "valueCode" : "active"
+          "valueCode" : "deprecated"
+        },
+        {
+          "code" : "deprecationDate",
+          "valueDateTime" : "2025-10-29T12:00:00+01:00"
         }
       ]
     },
