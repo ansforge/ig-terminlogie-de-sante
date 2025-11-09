@@ -4,7 +4,7 @@
   "parameter" : [
     {
       "name": "displayLanguage",
-      "valueCode": "fr"
+      "valueCode": "fr-FR"
     },  
     {
     "name" : "system-version",
