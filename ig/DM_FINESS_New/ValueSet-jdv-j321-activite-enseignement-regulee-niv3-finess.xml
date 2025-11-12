@@ -8,7 +8,7 @@
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narratif généré : EnsembleValeurs jdv-j321-activite-enseignement-regulee-niv3-finess</b></p><a name="jdv-j321-activite-enseignement-regulee-niv3-finess"> </a><a name="hcjdv-j321-activite-enseignement-regulee-niv3-finess"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version: 1; Dernière mise à jour : 2025-11-04 18:02:28+0000</p><p style="margin-bottom: 0px">Profil: <a href="http://hl7.org/fhir/R4/shareablevalueset.html">Shareable ValueSet</a></p></div><ul><li>Include codes provenant de<a href="CodeSystem-tre-r402-activite-enseignement-regulee.html"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee</code></a> où niveau  = 3</li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narratif généré : EnsembleValeurs jdv-j321-activite-enseignement-regulee-niv3-finess</b></p><a name="jdv-j321-activite-enseignement-regulee-niv3-finess"> </a><a name="hcjdv-j321-activite-enseignement-regulee-niv3-finess"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version: 1; Dernière mise à jour : 2025-11-04 18:02:28+0000</p><p style="margin-bottom: 0px">Profil: <a href="http://hl7.org/fhir/R4/shareablevalueset.html">Shareable ValueSet</a></p></div><ul><li>Include codes provenant de<a href="CodeSystem-tre-r402-activite-enseignement-regulee.html"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee</code></a> où niveau  = 3 et finess  = true</li></ul></div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
     <valuePeriod>
@@ -35,6 +35,11 @@
         <property value="niveau"/>
         <op value="="/>
         <value value="3"/>
+      </filter>
+      <filter>
+        <property value="finess"/>
+        <op value="="/>
+        <value value="true"/>
       </filter>
     </include>
   </compose>
