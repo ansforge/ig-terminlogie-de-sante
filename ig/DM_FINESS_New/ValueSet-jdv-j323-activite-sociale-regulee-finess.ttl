@@ -19,7 +19,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-j323-activite-sociale-regulee-finess</b></p><a name=\"jdv-j323-activite-sociale-regulee-finess\"> </a><a name=\"hcjdv-j323-activite-sociale-regulee-finess\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 1; Dernière mise à jour : 2025-11-04 18:02:28+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include codes provenant de<a href=\"CodeSystem-tre-r401-activite-sociale-regulee.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee</code></a> où niveau  = 4</li></ul></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-j323-activite-sociale-regulee-finess</b></p><a name=\"jdv-j323-activite-sociale-regulee-finess\"> </a><a name=\"hcjdv-j323-activite-sociale-regulee-finess\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 1; Dernière mise à jour : 2025-11-04 18:02:28+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include codes provenant de<a href=\"CodeSystem-tre-r401-activite-sociale-regulee.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee</code></a> où niveau  = 4 et finess  = true</li></ul></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
@@ -48,6 +48,10 @@
          fhir:property [ fhir:v "niveau" ] ;
          fhir:op [ fhir:v "=" ] ;
          fhir:value [ fhir:v "4" ]
+       ] [
+         fhir:property [ fhir:v "finess" ] ;
+         fhir:op [ fhir:v "=" ] ;
+         fhir:value [ fhir:v "true" ]
        ] )
      ] )
   ] . # 
