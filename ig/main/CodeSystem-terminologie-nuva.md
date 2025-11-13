@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/terminologie-nuva | *Version*:1.0.1009 | |
-| Active as of 2025-10-02 | *Responsible:*Agence du numérique en santé | *Computable Name*:NUVA |
+| *Official URL*:https://smt.esante.gouv.fr/terminologie-nuva | *Version*:1.0.1030 | |
+| Active as of 2025-11-06 | *Responsible:*Agence du numérique en santé | *Computable Name*:NUVA |
 | *Other Identifiers:*OID:1.3.6.1.4.1.48601.1 (use: usual, ), https://smt.esante.gouv.fr/#terminologie-nuva (use: secondary, ) | | |
 | **Copyright/Legal**: SYADEM | | |
 
@@ -20,7 +20,7 @@ La nomenclature unifiée des vaccins (NUVA) liste les spécialités vaccinales c
 
 * [ValueSet_NUVA_All](ValueSet-vs-nuva-all.md)
 
-version: 21; Dernière mise à jour : 2025-10-02 10:06:08+0200
+version: 22; Dernière mise à jour : 2025-11-12 09:54:36+0100
 
 Profil: [Shareable CodeSystem](http://hl7.org/fhir/R4/shareablecodesystem.html)
 
@@ -43,8 +43,8 @@ This code system `https://smt.esante.gouv.fr/terminologie-nuva` defines codes, b
   "resourceType" : "CodeSystem",
   "id" : "terminologie-nuva",
   "meta" : {
-    "versionId" : "21",
-    "lastUpdated" : "2025-10-02T10:06:08.346+02:00",
+    "versionId" : "22",
+    "lastUpdated" : "2025-11-12T09:54:36.369+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
     ]
@@ -62,12 +62,12 @@ This code system `https://smt.esante.gouv.fr/terminologie-nuva` defines codes, b
       "value" : "terminologie-nuva"
     }
   ],
-  "version" : "1.0.1009",
+  "version" : "1.0.1030",
   "name" : "NUVA",
   "title" : "Nomenclature Unifiée des Vaccins",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-10-02T00:00:00+00:00",
+  "date" : "2025-11-06T00:00:00+00:00",
   "publisher" : "Agence du numérique en santé",
   "description" : "La nomenclature unifiée des vaccins (NUVA) liste les spécialités vaccinales commercialisées ou ayant été commercialisées en France ou à l’étranger. Ces spécialités sont associées à une dénomination générique et à une description structurée notamment au niveau des valences et des pathologies cibles.Elle permet de constituer un historique vaccinal complet, aussi précis que le permettent les sources des données, interprétable par des systèmes d’information.",
   "jurisdiction" : [
@@ -83,7 +83,7 @@ This code system `https://smt.esante.gouv.fr/terminologie-nuva` defines codes, b
   "copyright" : "SYADEM",
   "valueSet" : "https://smt.esante.gouv.fr/terminologie-nuva?vs",
   "content" : "not-present",
-  "count" : 1889,
+  "count" : 1893,
   "filter" : [
     {
       "code" : "root",

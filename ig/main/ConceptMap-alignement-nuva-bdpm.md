@@ -8,11 +8,11 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-bdpm | *Version*:1.0.1009 | |
-| Active as of 2025-10-02 | *Responsible:*[Agence du numérique en santé](https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-bdpm) | *Computable Name*:Alignement_Codes_NUVA_CIS_CIP_BDMP |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-bdpm | *Version*:1.0.1030 | |
+| Active as of 2025-11-06 | *Responsible:*[Agence du numérique en santé](https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-bdpm) | *Computable Name*:Alignement_Codes_NUVA_CIS_CIP_BDMP |
 | **Usage:**Workflow Task: alignement des données | | |
 
-version: 14; Dernière mise à jour : 2025-10-16 09:36:23+0200
+version: 15; Dernière mise à jour : 2025-11-12 10:05:38+0100
 
 Tag: Resource encoded in summary mode (Détails : code ObservationValue SUBSETTED = 'Resource encoded in summary mode')
 
@@ -27,8 +27,8 @@ Mapping de [ValueSet_NUVA_All](ValueSet-vs-nuva-all.md) vers [ValueSet_BDPM_All]
   "resourceType" : "ConceptMap",
   "id" : "alignement-nuva-bdpm",
   "meta" : {
-    "versionId" : "14",
-    "lastUpdated" : "2025-10-16T09:36:23.436+02:00",
+    "versionId" : "15",
+    "lastUpdated" : "2025-11-12T10:05:38.575+01:00",
     "tag" : [
       {
         "system" : "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
@@ -38,11 +38,11 @@ Mapping de [ValueSet_NUVA_All](ValueSet-vs-nuva-all.md) vers [ValueSet_BDPM_All]
     ]
   },
   "url" : "https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-bdpm",
-  "version" : "1.0.1009",
+  "version" : "1.0.1030",
   "name" : "Alignement_Codes_NUVA_CIS_CIP_BDMP",
   "title" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM",
   "status" : "active",
-  "date" : "2025-10-02",
+  "date" : "2025-11-06",
   "publisher" : "Agence du numérique en santé",
   "contact" : [
     {
