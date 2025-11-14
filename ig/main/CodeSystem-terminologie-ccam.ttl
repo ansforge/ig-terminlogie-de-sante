@@ -10,8 +10,8 @@
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "terminologie-ccam"] ; # 
   fhir:meta [
-     fhir:versionId [ fhir:v "6" ] ;
-     fhir:lastUpdated [ fhir:v "2025-09-10T12:55:45.130+02:00"^^xsd:dateTime ] ;
+     fhir:versionId [ fhir:v "7.1763056871385" ] ;
+     fhir:lastUpdated [ fhir:v "2025-11-13T19:01:11.385+01:00"^^xsd:dateTime ] ;
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"^^xsd:anyURI ;
        fhir:l <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
@@ -40,12 +40,12 @@
      ] ;
      fhir:value [ fhir:v "terminologie-ccam" ]
   ] ) ; # 
-  fhir:version [ fhir:v "v79.10"] ; # 
+  fhir:version [ fhir:v "v80.00"] ; # 
   fhir:name [ fhir:v "CCAM"] ; # 
   fhir:title [ fhir:v "Classification Commune des Actes Médicaux"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-09-10T00:00:00+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-11-05T00:00:00+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du numérique en santé"] ; # 
   fhir:description [ fhir:v "La Classification Commune des Actes Médicaux est la terminologie de facturation créée et maintenue par la CNAM."] ; # 
   fhir:jurisdiction ( [

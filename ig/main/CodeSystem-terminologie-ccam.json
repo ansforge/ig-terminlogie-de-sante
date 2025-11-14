@@ -2,8 +2,8 @@
   "resourceType" : "CodeSystem",
   "id" : "terminologie-ccam",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-09-10T12:55:45.130+02:00",
+    "versionId" : "7.1763056871385",
+    "lastUpdated" : "2025-11-13T19:01:11.385+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "text" : {
@@ -21,12 +21,12 @@
     "system" : "https://smt.esante.gouv.fr/",
     "value" : "terminologie-ccam"
   }],
-  "version" : "v79.10",
+  "version" : "v80.00",
   "name" : "CCAM",
   "title" : "Classification Commune des Actes Médicaux",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-09-10T00:00:00+00:00",
+  "date" : "2025-11-05T00:00:00+00:00",
   "publisher" : "Agence du numérique en santé",
   "description" : "La Classification Commune des Actes Médicaux est la terminologie de facturation créée et maintenue par la CNAM.",
   "jurisdiction" : [{

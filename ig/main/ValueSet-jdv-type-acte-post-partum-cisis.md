@@ -47,7 +47,7 @@ Expansion from smt.esante.gouv.fr based on:
 
 * SNOMED CT 11000315107 edition 21-Jun 2025
 * [codesystem TerminologieCISIS - Terminologie des concepts non trouvés dans les autres terminologies v202510230000 (CodeSystem)](CodeSystem-terminologie-cisis.md)
-* [codesystem Classification Commune des Actes Médicaux vv79.10 (CodeSystem)](CodeSystem-terminologie-ccam.md)
+* [codesystem Classification Commune des Actes Médicaux vv80.00 (CodeSystem)](CodeSystem-terminologie-ccam.md)
 
 Ce jeu de valeur (ValueSet) contient 7 concepts
 

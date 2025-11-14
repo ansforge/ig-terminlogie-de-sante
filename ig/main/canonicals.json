@@ -8,6 +8,14 @@
     "oids" : ["2.16.840.1.113883.6.96"]
   },
   {
+    "id" : "900000000000207008-20251101",
+    "type" : "CodeSystem",
+    "url" : "http://snomed.info/sct",
+    "version" : "http://snomed.info/sct/900000000000207008/version/20251101",
+    "name" : "SNOMED_CT",
+    "oids" : ["2.16.840.1.113883.6.96"]
+  },
+  {
     "id" : "service-type",
     "type" : "CodeSystem",
     "url" : "http://terminology.hl7.org/CodeSystem/service-type",
@@ -8235,7 +8243,7 @@
     "id" : "terminologie-ccam",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-ccam",
-    "version" : "v79.10",
+    "version" : "v80.00",
     "name" : "CCAM",
     "oids" : ["1.2.250.1.215.300.1"]
   },

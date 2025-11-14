@@ -12,7 +12,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Terminology Server Report for Terminologies</h1>
- <p>Generated Thu Nov 13 04:44:11 UTC 2025, FHIR version 4.0.1 for ans.fr.terminologies#1.4.0 (canonical = <a href="https://interop.esante.gouv.fr/terminologies">https://interop.esante.gouv.fr/terminologies</a> (<a href="https://interop.esante.gouv.fr/terminologies/history.html">history</a>))</p>
+ <p>Generated Fri Nov 14 04:43:02 UTC 2025, FHIR version 4.0.1 for ans.fr.terminologies#1.4.0 (canonical = <a href="https://interop.esante.gouv.fr/terminologies">https://interop.esante.gouv.fr/terminologies</a> (<a href="https://interop.esante.gouv.fr/terminologies/history.html">history</a>))</p>
 <p>This page provides a report on which terminology servers were used while publishing this IG. Note that terminology caching reduces the server hit count - this page only reports content that wasn't cached</p>
 <h2>Terminology Parameters</h2>
 <ul>
@@ -3387,11 +3387,11 @@
     <td>auth = , candidates=</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td>null</td>
-    <td>http://snomed.info/sct|http://snomed.info/sct/11000315107/version/20250621</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|https://tx.fhir.ch/r4</td>
+    <td>http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://smt.esante.gouv.fr/fhir|https://apps.health.belgium.be/ontoserver/fhir|https://tx.fhir.ch/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -3782,7 +3782,7 @@
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
     <td>https://smt.esante.gouv.fr/fhir</td>
     <td>null</td>
-    <td>https://smt.esante.gouv.fr/terminologie-ccam|v79.10</td>
+    <td>https://smt.esante.gouv.fr/terminologie-ccam|v80.00</td>
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
   </tr>
   <tr>
@@ -6765,7 +6765,7 @@
     <td>https://tx.fhir.org/r4</td>
     <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-traitement-pps-cisis|20250624152101</td>
     <td>[https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis, https://smt.esante.gouv.fr/terminologie-ncit, http://snomed.info/sct]</td>
-    <td>[auth = , candidates=https://tx.fhir.org/r4, auth = , candidates=, auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|https://tx.fhir.ch/r4]</td>
+    <td>[auth = https://smt.esante.gouv.fr/fhir, candidates=, auth = , candidates=, auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|https://tx.fhir.ch/r4]</td>
   </tr>
   <tr>
     <td>Found candidate server http://tx.fhir.org/r4</td>
@@ -7038,12 +7038,6 @@
     </td>
   </tr>
   <tr>
-    <td>https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis</td>
-    <td style="background-color: #ffe3e3">
-      <span title="https://tx.fhir.org/tx-reg/resolve?fhirVersion=4.0&amp;url=https%3A%2F%2Fsmt.esante.gouv.fr%2Ffhir%2FCodeSystem%2Fterminologie-cisis&amp;usage=publication">Error resolving system https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis: Connect timed out</span>
-    </td>
-  </tr>
-  <tr>
     <td>https://www.meddra.org|3.0.0</td>
     <td style="background-color: #ffe3e3">
       <span title="https://tx.fhir.org/tx-reg/resolve?fhirVersion=4.0&amp;url=https%3A%2F%2Fwww.meddra.org%7C3.0.0&amp;usage=publication">Error resolving system https://www.meddra.org|3.0.0: Bad Request</span>
@@ -7122,6 +7116,14 @@
     <td>1</td>
     <td>
       <a href="http://terminology.hl7.org/6.5.0/CodeSystem-v3-loinc.html">Logical Observation Identifiers, Names and Codes (LOINC)</a>
+    </td>
+  </tr>
+  <tr>
+    <td>http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20251101</td>
+    <td>0</td>
+    <td>1</td>
+    <td>
+      <a href="CodeSystem-900000000000207008-20251101.html">SNOMED CT core</a>
     </td>
   </tr>
   <tr>
@@ -7353,15 +7355,7 @@
     <td>342</td>
     <td>27</td>
     <td>
-      <a href="CodeSystem-11000315107-20250621.html">French module</a>
-    </td>
-  </tr>
-  <tr>
-    <td>http://snomed.info/sct|http://snomed.info/sct/11000315107/version/20250621</td>
-    <td>0</td>
-    <td>1</td>
-    <td>
-      <a href="CodeSystem-11000315107-20250621.html">French module</a>
+      <a href="CodeSystem-900000000000207008-20251101.html">SNOMED CT core</a>
     </td>
   </tr>
   <tr>
@@ -7441,7 +7435,7 @@
     </td>
   </tr>
   <tr>
-    <td>https://smt.esante.gouv.fr/terminologie-ccam|v79.10</td>
+    <td>https://smt.esante.gouv.fr/terminologie-ccam|v80.00</td>
     <td>0</td>
     <td>1</td>
     <td>

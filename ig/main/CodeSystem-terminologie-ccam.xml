@@ -3,8 +3,8 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="terminologie-ccam"/>
   <meta>
-    <versionId value="6"/>
-    <lastUpdated value="2025-09-10T12:55:45.130+02:00"/>
+    <versionId value="7.1763056871385"/>
+    <lastUpdated value="2025-11-13T19:01:11.385+01:00"/>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
   </meta>
   <text>
@@ -21,12 +21,12 @@
     <system value="https://smt.esante.gouv.fr/"/>
     <value value="terminologie-ccam"/>
   </identifier>
-  <version value="v79.10"/>
+  <version value="v80.00"/>
   <name value="CCAM"/>
   <title value="Classification Commune des Actes Médicaux"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2025-09-10T00:00:00+00:00"/>
+  <date value="2025-11-05T00:00:00+00:00"/>
   <publisher value="Agence du numérique en santé"/>
   <description value="La Classification Commune des Actes Médicaux est la terminologie de facturation créée et maintenue par la CNAM."/>
   <jurisdiction>

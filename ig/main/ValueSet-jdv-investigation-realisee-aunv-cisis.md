@@ -39,7 +39,7 @@ Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
 
 ### Expansion
 
-Expansion from smt.esante.gouv.fr based on [codesystem Classification Commune des Actes Médicaux vv79.10 (CodeSystem)](CodeSystem-terminologie-ccam.md)
+Expansion from smt.esante.gouv.fr based on [codesystem Classification Commune des Actes Médicaux vv80.00 (CodeSystem)](CodeSystem-terminologie-ccam.md)
 
 Ce jeu de valeur (ValueSet) contient 5 concepts
 

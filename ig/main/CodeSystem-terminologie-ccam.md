@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/terminologie-ccam | *Version*:v79.10 | |
-| Active as of 2025-09-10 | *Responsible:*Agence du numérique en santé | *Computable Name*:CCAM |
+| *Official URL*:https://smt.esante.gouv.fr/terminologie-ccam | *Version*:v80.00 | |
+| Active as of 2025-11-05 | *Responsible:*Agence du numérique en santé | *Computable Name*:CCAM |
 | *Other Identifiers:*OID:1.2.250.1.215.300.1 (use: usual, ), https://smt.esante.gouv.fr/#terminologie-ccam (use: secondary, ) | | |
 | **Copyright/Legal**:[LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md) | | |
 
@@ -23,7 +23,7 @@ La Classification Commune des Actes Médicaux est la terminologie de facturation
 * [JdvStaticSemProcedureCisis](ValueSet-jdv-static-sem-procedure-cisis.md)
 * [JdvTypeActePostPartumCisis](ValueSet-jdv-type-acte-post-partum-cisis.md)
 
-version: 6; Dernière mise à jour : 2025-09-10 12:55:45+0200
+version: 7.1763056871385; Dernière mise à jour : 2025-11-13 19:01:11+0100
 
 Profil: [Shareable CodeSystem](http://hl7.org/fhir/R4/shareablecodesystem.html)
 
@@ -46,8 +46,8 @@ This code system `https://smt.esante.gouv.fr/terminologie-ccam` defines codes, b
   "resourceType" : "CodeSystem",
   "id" : "terminologie-ccam",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-09-10T12:55:45.130+02:00",
+    "versionId" : "7.1763056871385",
+    "lastUpdated" : "2025-11-13T19:01:11.385+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
     ]
@@ -65,12 +65,12 @@ This code system `https://smt.esante.gouv.fr/terminologie-ccam` defines codes, b
       "value" : "terminologie-ccam"
     }
   ],
-  "version" : "v79.10",
+  "version" : "v80.00",
   "name" : "CCAM",
   "title" : "Classification Commune des Actes Médicaux",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-09-10T00:00:00+00:00",
+  "date" : "2025-11-05T00:00:00+00:00",
   "publisher" : "Agence du numérique en santé",
   "description" : "La Classification Commune des Actes Médicaux est la terminologie de facturation créée et maintenue par la CNAM.",
   "jurisdiction" : [
