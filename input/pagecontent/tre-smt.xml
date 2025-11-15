@@ -9,13 +9,23 @@
     <li class="active"><a href="#">Terminologie du SMT</a></li>      
     <li><a href="tre-nos.html" >Terminologie du NOS</a></li>
     <li><a href="tre-retired.html" >Terminologies (Retired)</a></li>
+    <li><a href="tre-supplement.html" >Supplement (Traduction)</a></li>            
     <li><a href="tre-telechargement.html">Téléchargement</a></li>
   </ul>
     <br/>
     <div id="orig">
 
    {% sql {
-  "query" : "select name as Name, Description,STRFTIME('%d/%m/%Y',date(date)) date_maj , Web from Resources where Type='CodeSystem' and id not like 'tre-%'  and url not like '%NOS%' ",
+  "query" : "select   name as Name,
+                      Description,
+                      STRFTIME('%d/%m/%Y',date(date)) date_maj, 
+                      Web 
+            from      Resources 
+            where     Type='CodeSystem' 
+                      and id not like 'tre-%'  
+                      and url not like '%NOS%' 
+                      and  json_extract(Resources.json,'$.supplements') is  NULL               
+          ",
   "class" : "codes",
   "columns" : [
     { "name" : "Name", "type" : "link", "source" : "Name", "target" : "Web"},

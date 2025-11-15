@@ -1,36 +1,34 @@
 <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/r5/fhir-single.xsd">
 
 
-  Les terminologies sont des nomenclatures officielles créées et maintenues :
-  <ul>
-    <li> soit par l'agence du numérique en santé qui en est propriétaire.
-      Par exemple, la TRE_R87-TypeCarte est une nomenclature regroupant les différents types de cartes des professionnels (CPx) fournies par l’agence du numérique en santé ;
-    </li>
-    <li>  soit par une organisation externe à l'agence du numérique en santé ; dans ce cas, l'agence du numérique en santé extrait la terminologie, la formate selon ses conventions de nommage et de structure, pour l'intégrer dans ses systèmes.
-  </li>
-</ul>
+
+
+Les suppléments de système de code contiennent des informations qui peuvent  des attributs et propriétés supplémentaires associés aux concepts.
+Ces derniers pemrettent d'ajouter les traductions pour les terminologies d'HL7.
+
+
 
     <br/>
     <ul class="nav nav-tabs">
-    <li class="active"><a href="#">Ensemble des terminologies</a></li>
+    <li ><a href="tre.html">Ensemble des terminologies</a></li>
     <li><a href="tre-smt.html">Terminologie du SMT</a></li>  
     <li><a href="tre-nos.html">Terminologie du NOS</a></li>
     <li><a href="tre-retired.html" >Terminologies (Retired)</a></li>      
-    <li><a href="tre-supplement.html" >Supplement (Traduction)</a></li>              
+    <li class="active"><a href="#" >Supplement (Traduction)</a></li>        
     <li><a href="tre-telechargement.html">Téléchargement</a></li>
   </ul>
         <br/>
     <div id="orig">
 
    {% sql {
-  "query" : " select  name as Name, 
+  "query" : "select   name as Name,
                       Description,
                       STRFTIME('%d/%m/%Y',date(date)) date_maj,
-                      Web 
+                      Web
               from    Resources 
               where   Type='CodeSystem'  
-                      and  json_extract(Resources.json,'$.status') != 'retired'
-                      and  json_extract(Resources.json,'$.supplements') is  NULL     
+                      and  json_extract(Resources.json,'$.status') != 'retired' 
+                      and  json_extract(Resources.json,'$.supplements') is not NULL    
               order by name",
   "class" : "codes",
   "columns" : [
