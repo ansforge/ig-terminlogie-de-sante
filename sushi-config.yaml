@@ -97,7 +97,7 @@ parameters:
       - https://mos.esante.gouv.fr/NOS/JDV-MediaTypeCorpsCDANonStructure?vs
       - https://mos.esante.gouv.fr/NOS/JDV-ModeleDocumentCDA
       - https://mos.esante.gouv.fr/NOS/TRE_R221-ModeleDocumentCDANonStructure/FHIR/TRE-R221-ModeleDocumentCDANonStructure?vs
-      - https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-atc
+      - https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-cipucd
       - https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-bdpm
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActEncounterCode-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActMoodIntent-cisis
@@ -119,6 +119,7 @@ parameters:
       - http://hl7.org/fhir/ValueSet/designation-use
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-employmentStatusODH-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v2-0066-cisis
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-days-of-week
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v2-0488-cisis
       - https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS
       - https://mos.esante.gouv.fr/NOS/JDV_J02-XdsHealthcareFacilityTypeCode-CISIS/FHIR/JDV-J02-XdsHealthcareFacilityTypeCode-CISIS
