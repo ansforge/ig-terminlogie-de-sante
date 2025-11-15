@@ -23,7 +23,7 @@ La Classification Commune des Actes Médicaux est la terminologie de facturation
 * [JdvStaticSemProcedureCisis](ValueSet-jdv-static-sem-procedure-cisis.md)
 * [JdvTypeActePostPartumCisis](ValueSet-jdv-type-acte-post-partum-cisis.md)
 
-version: 7.1763056871385; Dernière mise à jour : 2025-11-13 19:01:11+0100
+version: 7.1763107593766; Dernière mise à jour : 2025-11-14 09:06:33+0100
 
 Profil: [Shareable CodeSystem](http://hl7.org/fhir/R4/shareablecodesystem.html)
 
@@ -46,8 +46,8 @@ This code system `https://smt.esante.gouv.fr/terminologie-ccam` defines codes, b
   "resourceType" : "CodeSystem",
   "id" : "terminologie-ccam",
   "meta" : {
-    "versionId" : "7.1763056871385",
-    "lastUpdated" : "2025-11-13T19:01:11.385+01:00",
+    "versionId" : "7.1763107593766",
+    "lastUpdated" : "2025-11-14T09:06:33.766+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
     ]

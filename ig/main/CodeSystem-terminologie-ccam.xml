@@ -3,8 +3,8 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="terminologie-ccam"/>
   <meta>
-    <versionId value="7.1763056871385"/>
-    <lastUpdated value="2025-11-13T19:01:11.385+01:00"/>
+    <versionId value="7.1763107593766"/>
+    <lastUpdated value="2025-11-14T09:06:33.766+01:00"/>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
   </meta>
   <text>
