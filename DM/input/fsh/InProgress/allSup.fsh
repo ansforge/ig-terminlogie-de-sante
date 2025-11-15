@@ -28,10 +28,14 @@ CodeSystem: AllergyIntoleranceCriticalitySupplementFr
 Id: allergy-intolerance-criticality-supplement-fr
 Title: "AllergyIntoleranceCriticalitySupplementFr"
 Description: "Traduction Française"
+<<<<<<< HEAD
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"
 * ^extension.valueCode = #vocab
 
  
+=======
+// * ^language = #fr-FR
+>>>>>>> 63de3828d6a6ec4b4ea9090fecd5e99d53aa0b10
 
 * ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/allergy-intolerance-criticality-supplement-fr"
 * ^version = "1.0"
@@ -60,7 +64,11 @@ CodeSystem: AllergyIntoleranceClinicalSupplementFr
 Id: allergyintolerance-clinical-supplement-fr
 Title: "AllergyIntoleranceClinicalSupplementFr"
 Description: "Traduction Française"
+<<<<<<< HEAD
  
+=======
+// * ^language = #fr-FR
+>>>>>>> 63de3828d6a6ec4b4ea9090fecd5e99d53aa0b10
 
 * ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/allergyintolerance-clinical-supplement-fr"
 * ^version = "1.0"
@@ -89,7 +97,11 @@ CodeSystem: ConditionClinicalSupplementFr
 Id: condition-clinical-supplement-fr
 Title: "ConditionClinicalSupplementFr"
 Description: "Traduction Française"
+<<<<<<< HEAD
  
+=======
+// * ^language = #fr-FR
+>>>>>>> 63de3828d6a6ec4b4ea9090fecd5e99d53aa0b10
 
 * ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/condition-clinical-supplement-fr"
 * ^version = "1.0"
@@ -133,7 +145,11 @@ CodeSystem: ConditionVerStatusSupplementFr
 Id: condition-ver-status-supplement-fr
 Title: "ConditionVerStatusSupplementFr"
 Description: "Traduction Française"
+<<<<<<< HEAD
  
+=======
+// * ^language = #fr-FR
+>>>>>>> 63de3828d6a6ec4b4ea9090fecd5e99d53aa0b10
 
 * ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/condition-ver-status-supplement-fr"
 * ^version = "1.0"
@@ -162,7 +178,11 @@ CodeSystem: EmploymentStatusSupplementFr
 Id: employmentStatus-supplement-fr
 Title: "EmploymentStatusSupplementFr"
 Description: "Traduction Française"
+<<<<<<< HEAD
  
+=======
+// * ^language = #fr-FR
+>>>>>>> 63de3828d6a6ec4b4ea9090fecd5e99d53aa0b10
 
 * ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/employmentStatus-supplement-fr"
 * ^version = "1.0"
@@ -231,7 +251,11 @@ CodeSystem: SpecimenTypeSupplementFr
 Id: specimenType-supplement-fr
 Title: "SpecimenTypeSupplementFr"
 Description: "Traduction Française"
+<<<<<<< HEAD
  
+=======
+// * ^language = #fr-FR
+>>>>>>> 63de3828d6a6ec4b4ea9090fecd5e99d53aa0b10
 
 * ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/v2-0487-supplement-fr"
 * ^version = "1.0"
@@ -1810,7 +1834,11 @@ CodeSystem: ActCodeSupplementFr
 Id: actCode-supplement-fr
 Title: "ActCodeSupplementFr"
 Description: "Traduction Française"
+<<<<<<< HEAD
  
+=======
+// * ^language = #fr-FR
+>>>>>>> 63de3828d6a6ec4b4ea9090fecd5e99d53aa0b10
 
 * ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/actCode-supplement-fr"
 * ^version = "1.0"
@@ -1940,7 +1968,11 @@ CodeSystem: ActMoodSupplementFr
 Id: ActMood-supplement-fr
 Title: "ActMoodSupplementFr"
 Description: "Traduction Française"
+<<<<<<< HEAD
  
+=======
+// * ^language = #fr-FR
+>>>>>>> 63de3828d6a6ec4b4ea9090fecd5e99d53aa0b10
 
 * ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/actMood-supplement-fr"
 * ^version = "1.0"
@@ -2049,7 +2081,11 @@ CodeSystem: ActPrioritySupplementFr
 Id: ActPriority-supplement-fr
 Title: "ActPrioritySupplementFr"
 Description: "Traduction Française"
+<<<<<<< HEAD
  
+=======
+// * ^language = #fr-FR
+>>>>>>> 63de3828d6a6ec4b4ea9090fecd5e99d53aa0b10
 
 * ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/actPriority-supplement-fr"
 * ^version = "1.0"
@@ -2123,7 +2159,11 @@ CodeSystem: ActStatusSupplementFr
 Id: ActStatus-supplement-fr
 Title: "ActStatusSupplementFr"
 Description: "Traduction Française"
+<<<<<<< HEAD
  
+=======
+// * ^language = #fr-FR
+>>>>>>> 63de3828d6a6ec4b4ea9090fecd5e99d53aa0b10
 
 * ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/actStatus-supplement-fr"
 * ^version = "1.0"
@@ -2172,7 +2212,11 @@ CodeSystem: AdministrativeGenderSupplementFr
 Id: AdministrativeGender-supplement-fr
 Title: "AdministrativeGenderSupplementFr"
 Description: "Traduction Française"
+<<<<<<< HEAD
  
+=======
+// * ^language = #fr-FR
+>>>>>>> 63de3828d6a6ec4b4ea9090fecd5e99d53aa0b10
 
 * ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/administrativeGender-supplement-fr"
 * ^version = "1.0"
@@ -2201,7 +2245,11 @@ CodeSystem: ConfidentialitySupplementFr
 Id: Confidentiality-supplement-fr
 Title: "Confidentiality SupplementFr"
 Description: "Traduction Française"
+<<<<<<< HEAD
  
+=======
+// * ^language = #fr-FR
+>>>>>>> 63de3828d6a6ec4b4ea9090fecd5e99d53aa0b10
 
 * ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/confidentiality-supplement-fr"
 * ^version = "1.0"
@@ -2245,7 +2293,11 @@ CodeSystem: MediaTypeSupplementFr
 Id: mediaType-supplement-fr
 Title: "MediaTypeSupplementFr"
 Description: "Traduction Française"
+<<<<<<< HEAD
  
+=======
+// * ^language = #fr-FR
+>>>>>>> 63de3828d6a6ec4b4ea9090fecd5e99d53aa0b10
 
 * ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/mediaType-supplement-fr"
 * ^version = "1.0"
@@ -2329,7 +2381,11 @@ CodeSystem: ObservationInterpretationSupplementFr
 Id: ObservationInterpretation-supplement-fr
 Title: "ObservationInterpretationSupplementFr"
 Description: "Traduction Française"
+<<<<<<< HEAD
  
+=======
+// * ^language = #fr-FR
+>>>>>>> 63de3828d6a6ec4b4ea9090fecd5e99d53aa0b10
 
 * ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/observationInterpretation-supplement-fr"
 * ^version = "1.0"
@@ -2538,7 +2594,11 @@ CodeSystem: ObservationMethodSupplementFr
 Id: ObservationMethod-supplement-fr
 Title: "ObservationMethodSupplementFr"
 Description: "Traduction Française"
+<<<<<<< HEAD
  
+=======
+// * ^language = #fr-FR
+>>>>>>> 63de3828d6a6ec4b4ea9090fecd5e99d53aa0b10
 
 * ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/observationMethod-supplement-fr"
 * ^version = "1.0"
@@ -3892,7 +3952,11 @@ CodeSystem: ObservationValueSupplementFr
 Id: ObservationValue-supplement-fr
 Title: "ObservationValueSupplementFr"
 Description: "Traduction Française"
+<<<<<<< HEAD
  
+=======
+// * ^language = #fr-FR
+>>>>>>> 63de3828d6a6ec4b4ea9090fecd5e99d53aa0b10
 
 * ^version = "1.0"
 * ^status = #draft
@@ -3965,7 +4029,11 @@ CodeSystem: OrderableDrugFormSupplementFr
 Id: orderableDrugForm-supplement-fr
 Title: "OrderableDrugFormSupplementFr"
 Description: "Traduction Française"
+<<<<<<< HEAD
  
+=======
+// * ^language = #fr-FR
+>>>>>>> 63de3828d6a6ec4b4ea9090fecd5e99d53aa0b10
 
 * ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/orderableDrugForm-supplement-fr"
 * ^version = "1.0"
@@ -4024,7 +4092,11 @@ CodeSystem: ParticipationFunctionSupplementFr
 Id: ParticipationFunction-supplement-fr
 Title: "ParticipationFunctionSupplementFr"
 Description: "Traduction Française"
+<<<<<<< HEAD
  
+=======
+// * ^language = #fr-FR
+>>>>>>> 63de3828d6a6ec4b4ea9090fecd5e99d53aa0b10
 
 * ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/participationFunction-supplement-fr"
 * ^version = "1.0"
@@ -4058,7 +4130,11 @@ CodeSystem: ParticipationTypeSupplementFr
 Id: ParticipationType-supplement-fr
 Title: "ParticipationTypeSupplementFr"
 Description: "Traduction Française"
+<<<<<<< HEAD
  
+=======
+// * ^language = #fr-FR
+>>>>>>> 63de3828d6a6ec4b4ea9090fecd5e99d53aa0b10
 
 * ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/participationType-supplement-fr"
 * ^version = "1.0"
@@ -4362,7 +4438,11 @@ CodeSystem: RoleClassSupplementFr
 Id: RoleClass-supplement-fr
 Title: "RoleClassSupplementFr"
 Description: "Traduction Française"
+<<<<<<< HEAD
  
+=======
+// * ^language = #fr-FR
+>>>>>>> 63de3828d6a6ec4b4ea9090fecd5e99d53aa0b10
 
 * ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/roleClass-supplement-fr"
 * ^version = "1.0"
@@ -4416,7 +4496,11 @@ CodeSystem: RoleCodeSupplementFr
 Id: RoleCode-supplement-fr
 Title: "RoleCodeSupplementFr"
 Description: "Traduction Française"
+<<<<<<< HEAD
  
+=======
+// * ^language = #fr-FR
+>>>>>>> 63de3828d6a6ec4b4ea9090fecd5e99d53aa0b10
 
 * ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/roleCode-supplement-fr"
 * ^version = "1.0"
@@ -5000,7 +5084,11 @@ CodeSystem: SubstanceAdminSubstitutionSupplementFr
 Id: substanceAdminSubstitution-supplement-fr
 Title: "SubstanceAdminSubstitutionSupplementFr"
 Description: "Traduction Française"
+<<<<<<< HEAD
  
+=======
+// * ^language = #fr-FR
+>>>>>>> 63de3828d6a6ec4b4ea9090fecd5e99d53aa0b10
 
 * ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/substanceAdminSubstitution-supplement-fr"
 * ^version = "1.0"
@@ -5024,7 +5112,11 @@ CodeSystem: TimingEventSupplementFr
 Id: TimingEvent-supplement-fr
 Title: "TimingEventSupplementFr"
 Description: "Traduction Française"
+<<<<<<< HEAD
  
+=======
+// * ^language = #fr-FR
+>>>>>>> 63de3828d6a6ec4b4ea9090fecd5e99d53aa0b10
 
 * ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/timingEvent-supplement-fr"
 * ^version = "1.0"
@@ -5129,7 +5221,11 @@ CodeSystem: V3SpecimenTypeSupplementFr
 Id: v3-SpecimenType-supplement-fr
 Title: "V3SpecimenTypeSupplementFr"
 Description: "Traduction Française"
+<<<<<<< HEAD
  
+=======
+// * ^language = #fr-FR
+>>>>>>> 63de3828d6a6ec4b4ea9090fecd5e99d53aa0b10
 
 * ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/v3-SpecimenType-supplement-fr"
 * ^version = "1.0"
