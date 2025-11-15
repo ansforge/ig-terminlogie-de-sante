@@ -1125,6 +1125,8 @@ pages:
             title :  Terminologies  (Deprecated)  
         tre-retired.xml:
             title :  Terminologies  (Retired)           
+        tre-supplement.xml:
+            title :  Supplement  (Traduction)                 
         tre-telechargement.xml:
             title :  Terminologies (Téléchargement)      
     jdv.xml:
