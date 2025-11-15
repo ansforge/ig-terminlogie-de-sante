@@ -13,26 +13,48 @@ Les systèmes d'identification définis ici sont destinés à la commodité des 
 | Name | url | OID |
 | ADICAP | https://smt.esante.gouv.fr/terminologie-adicap/ | 1.2.250.1.213.2.11 |
 | ATC | https://smt.esante.gouv.fr/terminologie-atc | 2.16.840.1.113883.6.73 |
+| ActCodeSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/actCode-supplement-fr |  |
+| ActMoodSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/actMood-supplement-fr |  |
+| ActPrioritySupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/actPriority-supplement-fr |  |
+| ActStatusSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/actStatus-supplement-fr |  |
+| AdministrativeGenderSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/administrativeGender-supplement-fr |  |
+| AllergyIntoleranceClinicalSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/allergyintolerance-clinical-supplement-fr |  |
+| AllergyIntoleranceCriticalitySupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/allergy-intolerance-criticality-supplement-fr |  |
 | BDPM | https://smt.esante.gouv.fr/terminologie-bdpm |  |
 | CCAM | https://smt.esante.gouv.fr/terminologie-ccam | 1.2.250.1.215.300.1 |
 | CIM11_MMS | https://smt.esante.gouv.fr/terminologie-cim11-mms | 2.16.840.1.113883.6.347 |
 | CIM_10_FR_PMSI | https://smt.esante.gouv.fr/terminologie-cim-10 | 2.16.840.1.113883.6.3 |
 | CISP_2 | https://smt.esante.gouv.fr/terminologie-cisp | 2.16.840.1.113883.6.139 |
+| ConditionClinicalSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/condition-clinical-supplement-fr |  |
+| ConditionVerStatusSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/condition-ver-status-supplement-fr |  |
+| ConfidentialitySupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/confidentiality-supplement-fr |  |
 | EMDN | https://smt.esante.gouv.fr/terminologie-emdn | 1.2.250.1.213.2.68 |
+| EmploymentStatusSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/employmentStatus-supplement-fr |  |
 | IHERoleCode_Vocabulary | https://wiki.ihe.net/index.php/IHERoleCode_Vocabulary | 1.3.6.1.4.1.19376.1.5.3.3 |
 | LAHN | https://smt.esante.gouv.fr/terminologie-lahn | 1.2.250.1.213.2.79 |
 | LOINC | http://loinc.org | 2.16.840.1.113883.6.1 |
 | MEDDRA | https://www.meddra.org/ | 2.16.840.1.113883.6.163 |
+| MediaTypeSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/mediaType-supplement-fr |  |
 | NABM | https://smt.esante.gouv.fr/terminologie-nabm | 1.2.250.1.215.300.2 |
 | NCIT | http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl | 2.16.840.1.113883.3.26.1.1 |
 | NUVA | https://smt.esante.gouv.fr/terminologie-nuva | 1.3.6.1.4.1.48601.1 |
+| ObservationInterpretationSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/observationInterpretation-supplement-fr |  |
+| ObservationMethodSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/observationMethod-supplement-fr |  |
+| ObservationValueSupplementFr | http://hl7.org/fhir/us/example/CodeSystem/ObservationValue-supplement-fr |  |
+| OrderableDrugFormSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/orderableDrugForm-supplement-fr |  |
 | PCS | https://www.insee.fr/ | 1.2.250.1.213.2.13 |
+| ParticipationFunctionSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/participationFunction-supplement-fr |  |
+| ParticipationTypeSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/participationType-supplement-fr |  |
+| RoleClassSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/roleClass-supplement-fr |  |
+| RoleCodeSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/roleCode-supplement-fr |  |
 | SERAFIN | https://smt.esante.gouv.fr/terminologie-SERAFINPH |  |
 | SERAFIN_PH | https://smt.esante.gouv.fr/terminologie-SERAFINPH |  |
 | SNOMED_CT | http://snomed.info/sct | 2.16.840.1.113883.6.96 |
 | ServiceType | http://terminology.hl7.org/CodeSystem/service-type | 2.16.840.1.113883.4.642.1.1145 |
 | Snomed_CT_core_900000000000207008 | http://snomed.info/sct | 2.16.840.1.113883.6.96 |
+| SpecimenTypeSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/v2-0487-supplement-fr |  |
 | Standard_terms_EDQM | https://smt.esante.gouv.fr/terminologie-standardterms | 0.4.0.127.0.16.1.1.2.1 |
+| SubstanceAdminSubstitutionSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/substanceAdminSubstitution-supplement-fr |  |
 | TRE_A00_ProducteurDocNonPS | https://mos.esante.gouv.fr/NOS/TRE_A00-ProducteurDocNonPS/FHIR/TRE-A00-ProducteurDocNonPS | 1.2.250.1.213.1.1.4.6 |
 | TRE_A01_CadreExercice | https://mos.esante.gouv.fr/NOS/TRE_A01-CadreExercice/FHIR/TRE-A01-CadreExercice | 1.2.250.1.213.1.1.4.9 |
 | TRE_A02_ProfessionSavFaire_CISIS | https://mos.esante.gouv.fr/NOS/TRE_A02-ProfessionSavFaire-CISIS/FHIR/TRE-A02-ProfessionSavFaire-CISIS | 1.2.250.1.213.1.1.4.5 |
@@ -284,9 +306,11 @@ Les systèmes d'identification définis ici sont destinés à la commodité des 
 | TRE_R96_AutreFonctionSanitaire | https://mos.esante.gouv.fr/NOS/TRE_R96-AutreFonctionSanitaire/FHIR/TRE-R96-AutreFonctionSanitaire | 1.2.250.1.213.1.6.1.110 |
 | TRE_R97_DroitExerciceCompl | https://mos.esante.gouv.fr/NOS/TRE_R97-DroitExerciceCompl/FHIR/TRE-R97-DroitExerciceCompl | 1.2.250.1.213.1.6.1.111 |
 | TerminologieCISIS | https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis | 1.2.250.1.213.1.1.4.322 |
+| TimingEventSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/timingEvent-supplement-fr |  |
 | TreR389StatutBilanProjetPersonnalise | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statut-bilan-projet-personnalise | 1.2.250.1.213.3.3.257 |
 | TreR390TypeProjetPersonnalise | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r390-type-projet-personnalise | 1.2.250.1.213.3.3.258 |
 | TreR393TypeContratSejour | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour | 1.2.250.1.213.3.3.260 |
 | TreR394CompetenceMetier | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r394-competence-metier | 1.2.250.1.213.1.6.1.375 |
 | UCUM | http://unitsofmeasure.org | 2.16.840.1.113883.6.8 |
+| V3SpecimenTypeSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/v3-SpecimenType-supplement-fr |  |
 

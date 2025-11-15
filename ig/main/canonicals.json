@@ -1,5 +1,12 @@
 [
   {
+    "id" : "ObservationValue-supplement-fr",
+    "type" : "CodeSystem",
+    "url" : "http://hl7.org/fhir/us/example/CodeSystem/ObservationValue-supplement-fr",
+    "version" : "1.0",
+    "name" : "ObservationValueSupplementFr"
+  },
+  {
     "id" : "11000315107-20250621",
     "type" : "CodeSystem",
     "url" : "http://snomed.info/sct",
@@ -4382,12 +4389,159 @@
     "oids" : ["1.2.250.1.213.1.6.1.111"]
   },
   {
+    "id" : "actCode-supplement-fr",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/actCode-supplement-fr",
+    "version" : "1.0",
+    "name" : "ActCodeSupplementFr"
+  },
+  {
+    "id" : "ActMood-supplement-fr",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/actMood-supplement-fr",
+    "version" : "1.0",
+    "name" : "ActMoodSupplementFr"
+  },
+  {
+    "id" : "ActPriority-supplement-fr",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/actPriority-supplement-fr",
+    "version" : "1.0",
+    "name" : "ActPrioritySupplementFr"
+  },
+  {
+    "id" : "ActStatus-supplement-fr",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/actStatus-supplement-fr",
+    "version" : "1.0",
+    "name" : "ActStatusSupplementFr"
+  },
+  {
+    "id" : "AdministrativeGender-supplement-fr",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/administrativeGender-supplement-fr",
+    "version" : "1.0",
+    "name" : "AdministrativeGenderSupplementFr"
+  },
+  {
+    "id" : "allergy-intolerance-criticality-supplement-fr",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/allergy-intolerance-criticality-supplement-fr",
+    "version" : "1.0",
+    "name" : "AllergyIntoleranceCriticalitySupplementFr"
+  },
+  {
+    "id" : "allergyintolerance-clinical-supplement-fr",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/allergyintolerance-clinical-supplement-fr",
+    "version" : "1.0",
+    "name" : "AllergyIntoleranceClinicalSupplementFr"
+  },
+  {
+    "id" : "condition-clinical-supplement-fr",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/condition-clinical-supplement-fr",
+    "version" : "1.0",
+    "name" : "ConditionClinicalSupplementFr"
+  },
+  {
+    "id" : "condition-ver-status-supplement-fr",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/condition-ver-status-supplement-fr",
+    "version" : "1.0",
+    "name" : "ConditionVerStatusSupplementFr"
+  },
+  {
+    "id" : "Confidentiality-supplement-fr",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/confidentiality-supplement-fr",
+    "version" : "1.0",
+    "name" : "ConfidentialitySupplementFr"
+  },
+  {
+    "id" : "employmentStatus-supplement-fr",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/employmentStatus-supplement-fr",
+    "version" : "1.0",
+    "name" : "EmploymentStatusSupplementFr"
+  },
+  {
+    "id" : "mediaType-supplement-fr",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/mediaType-supplement-fr",
+    "version" : "1.0",
+    "name" : "MediaTypeSupplementFr"
+  },
+  {
+    "id" : "ObservationInterpretation-supplement-fr",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/observationInterpretation-supplement-fr",
+    "version" : "1.0",
+    "name" : "ObservationInterpretationSupplementFr"
+  },
+  {
+    "id" : "ObservationMethod-supplement-fr",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/observationMethod-supplement-fr",
+    "version" : "1.0",
+    "name" : "ObservationMethodSupplementFr"
+  },
+  {
+    "id" : "orderableDrugForm-supplement-fr",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/orderableDrugForm-supplement-fr",
+    "version" : "1.0",
+    "name" : "OrderableDrugFormSupplementFr"
+  },
+  {
+    "id" : "ParticipationFunction-supplement-fr",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/participationFunction-supplement-fr",
+    "version" : "1.0",
+    "name" : "ParticipationFunctionSupplementFr"
+  },
+  {
+    "id" : "ParticipationType-supplement-fr",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/participationType-supplement-fr",
+    "version" : "1.0",
+    "name" : "ParticipationTypeSupplementFr"
+  },
+  {
+    "id" : "RoleClass-supplement-fr",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/roleClass-supplement-fr",
+    "version" : "1.0",
+    "name" : "RoleClassSupplementFr"
+  },
+  {
+    "id" : "RoleCode-supplement-fr",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/roleCode-supplement-fr",
+    "version" : "1.0",
+    "name" : "RoleCodeSupplementFr"
+  },
+  {
+    "id" : "substanceAdminSubstitution-supplement-fr",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/substanceAdminSubstitution-supplement-fr",
+    "version" : "1.0",
+    "name" : "SubstanceAdminSubstitutionSupplementFr"
+  },
+  {
     "id" : "terminologie-cisis",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
     "version" : "202510230000",
     "name" : "TerminologieCISIS",
     "oids" : ["1.2.250.1.213.1.1.4.322"]
+  },
+  {
+    "id" : "TimingEvent-supplement-fr",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/timingEvent-supplement-fr",
+    "version" : "1.0",
+    "name" : "TimingEventSupplementFr"
   },
   {
     "id" : "tre-r389-statut-bilan-projet-personnalise",
@@ -4420,6 +4574,20 @@
     "version" : "20250625120000",
     "name" : "TreR394CompetenceMetier",
     "oids" : ["1.2.250.1.213.1.6.1.375"]
+  },
+  {
+    "id" : "specimenType-supplement-fr",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/v2-0487-supplement-fr",
+    "version" : "1.0",
+    "name" : "SpecimenTypeSupplementFr"
+  },
+  {
+    "id" : "v3-SpecimenType-supplement-fr",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/v3-SpecimenType-supplement-fr",
+    "version" : "1.0",
+    "name" : "V3SpecimenTypeSupplementFr"
   },
   {
     "id" : "alignement-nuva-bdpm",

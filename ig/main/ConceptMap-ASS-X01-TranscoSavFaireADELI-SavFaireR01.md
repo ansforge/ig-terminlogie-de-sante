@@ -38,7 +38,7 @@ Mapping de (non spécifié) vers (non spécifié)
   "title" : "ASS_X01_TranscoSavFaireADELI_SavFaireR01",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-11-15T04:20:26+00:00",
+  "date" : "2025-11-15T14:30:24+00:00",
   "publisher" : "ANS",
   "contact" : [
     {

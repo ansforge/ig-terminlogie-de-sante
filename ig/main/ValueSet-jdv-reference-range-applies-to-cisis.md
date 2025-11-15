@@ -46,6 +46,7 @@ Expansion from smt.esante.gouv.fr based on:
 
 * SNOMED CT 11000315107 edition 21-Jun 2025
 * [codesystem AdministrativeGender v3.0.0 (CodeSystem)](http://terminology.hl7.org/6.5.0/CodeSystem-v3-AdministrativeGender.html)
+* [supplement AdministrativeGenderSupplementFr v1.0 (CodeSystem)](CodeSystem-AdministrativeGender-supplement-fr.md)
 
 Ce jeu de valeur (ValueSet) contient 3 concepts
 
