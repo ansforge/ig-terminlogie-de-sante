@@ -63,6 +63,29 @@ parameters:
       - https://smt.esante.gouv.fr/fhir
       - https://mos.esante.gouv.fr/NOS
     special-url:
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/actCode-supplement-fr
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/actMood-supplement-fr
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/actPriority-supplement-fr
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/actStatus-supplement-fr
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/administrativeGender-supplement-fr
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/allergyintolerance-clinical-supplement-fr
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/allergy-intolerance-criticality-supplement-fr
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/condition-clinical-supplement-fr
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/condition-ver-status-supplement-fr
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/confidentiality-supplement-fr
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/employmentStatus-supplement-fr
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/mediaType-supplement-fr
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/observationInterpretation-supplement-fr
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/observationMethod-supplement-fr
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/orderableDrugForm-supplement-fr
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/participationFunction-supplement-fr
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/participationType-supplement-fr
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/roleClass-supplement-fr
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/roleCode-supplement-fr
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/v2-0487-supplement-fr
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/substanceAdminSubstitution-supplement-fr
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/timingEvent-supplement-fr
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/v3-SpecimenType-supplement-fr    
       - https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies
       - https://mos.esante.gouv.fr/NOS/ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS
       - https://mos.esante.gouv.fr/NOS/ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS
