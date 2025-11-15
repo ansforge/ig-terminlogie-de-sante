@@ -74,7 +74,7 @@ Ce jeu de valeurs (ValueSet) a 6,950 codes. Pour garder la publication gérable,
   "name" : "ValueSet_ATC_All",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-11-15T14:30:24+00:00",
+  "date" : "2025-11-15T15:38:11+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Ce jeu de valeurs inclut tous les codes concepts de la terminologie ATC",
   "jurisdiction" : [
