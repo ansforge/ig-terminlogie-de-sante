@@ -85,7 +85,8 @@ parameters:
       - https://smt.esante.gouv.fr/fhir/CodeSystem/v2-0487-supplement-fr
       - https://smt.esante.gouv.fr/fhir/CodeSystem/substanceAdminSubstitution-supplement-fr
       - https://smt.esante.gouv.fr/fhir/CodeSystem/timingEvent-supplement-fr
-      - https://smt.esante.gouv.fr/fhir/CodeSystem/v3-SpecimenType-supplement-fr    
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/v3-SpecimenType-supplement-fr
+      - https://interop.esante.gouv.fr/terminologies/CodeSystem/ObservationValue-supplement-fr
       - https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies
       - https://mos.esante.gouv.fr/NOS/ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS
       - https://mos.esante.gouv.fr/NOS/ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS
