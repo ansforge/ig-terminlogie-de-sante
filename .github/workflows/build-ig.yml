@@ -92,7 +92,7 @@ jobs:
       - name: Minify QA
         run : |
               cd  ./igSource
-              npx html-minifier --collapse-whitespace --remove-comments --minify-css --minify-js ./ig/main/qa-tx.html -o ./ig/main/qa-tx.html
+              npx html-minifier --collapse-whitespace --remove-comments --minify-css --minify-js ./output/qa-tx.html -o ./output/qa-tx.html
           
       - name: Setup Python # Set Python version
         uses: actions/setup-python@v4
