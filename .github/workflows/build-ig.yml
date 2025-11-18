@@ -29,6 +29,9 @@ jobs:
       
       - name: Install fhirpy
         run :  pip install fhirpy
+        
+      - name: Install minifier
+        run :  npm install -g html-minifier
 
       - name: Install typing-extensions
         run :  pip install typing-extensions
