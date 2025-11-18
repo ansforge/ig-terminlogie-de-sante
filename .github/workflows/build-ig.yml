@@ -89,7 +89,10 @@ jobs:
               cd  ./igSource
               #java -Xmx16344m -jar ../publisher.jar   -ig .  -authorise-non-conformant-tx-servers
               java -Xmx16344m -jar ../publisher.jar   -ig .  -authorise-non-conformant-tx-servers
-
+      - name: Minify QA
+        run : |
+              cd  ./igSource
+              npx html-minifier --collapse-whitespace --remove-comments --minify-css --minify-js ig/main/qa-tx.html -o ig/main/qa-tx.html
           
       - name: Setup Python # Set Python version
         uses: actions/setup-python@v4
