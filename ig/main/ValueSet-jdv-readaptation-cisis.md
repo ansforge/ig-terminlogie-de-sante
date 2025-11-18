@@ -31,7 +31,7 @@ Requête sur le SMT
 
 version: 5; Dernière mise à jour : 2025-10-29 10:44:31+0100; Langue : fr-FR
 
-Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
+Profil: [Shareable ValueSetversion: null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
 
 * Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_A02-ProfessionSavFaire-CISIS/FHIR/TRE-A02-ProfessionSavFaire-CISIS`](CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.md)version 📦20241213120000
 
@@ -63,7 +63,9 @@ Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
   "meta" : {
     "versionId" : "5",
     "lastUpdated" : "2025-10-29T10:44:31.009+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
+    ]
   },
   "language" : "fr-FR",
   "extension" : [

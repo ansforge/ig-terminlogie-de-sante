@@ -31,7 +31,7 @@ Permet d’indiquer le type de crise qui permet de mobiliser le nombre de lits s
     "versionId" : "5",
     "lastUpdated" : "2025-07-02T18:17:39.124+00:00",
     "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
   "extension" : [

@@ -261,7 +261,7 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     "versionId" : "6",
     "lastUpdated" : "2025-10-23T15:11:51.139+02:00",
     "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
   "extension" : [

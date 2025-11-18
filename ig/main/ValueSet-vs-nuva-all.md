@@ -9,7 +9,7 @@
 | | | |
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/terminologie-nuva?vs | *Version*:20241106120000 | |
-| Active as of 2025-11-16 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ValueSet_NUVA_All |
+| Active as of 2025-11-18 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ValueSet_NUVA_All |
 
  
 Ce jeu de valeurs inclut tous les codes concepts de la terminologie NUVA 
@@ -30,7 +30,7 @@ Requête sur le SMT
 
 version: 2; Dernière mise à jour : 2025-02-27 13:42:15+0000; Langue : fr-FR
 
-Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
+Profil: [Shareable ValueSetversion: null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
 
 * Include tous les codes définis dans [`https://smt.esante.gouv.fr/terminologie-nuva`](CodeSystem-terminologie-nuva.md)version Not Stated (use latest from terminology server)
 
@@ -66,7 +66,9 @@ Ce jeu de valeurs (ValueSet) a 1,893 codes. Pour garder la publication gérable,
   "meta" : {
     "versionId" : "2",
     "lastUpdated" : "2025-02-27T13:42:15.419+00:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
+    ]
   },
   "language" : "fr-FR",
   "url" : "https://smt.esante.gouv.fr/terminologie-nuva?vs",
@@ -74,7 +76,7 @@ Ce jeu de valeurs (ValueSet) a 1,893 codes. Pour garder la publication gérable,
   "name" : "ValueSet_NUVA_All",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-11-16T04:25:57+00:00",
+  "date" : "2025-11-18T17:22:42+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Ce jeu de valeurs inclut tous les codes concepts de la terminologie NUVA",
   "jurisdiction" : [

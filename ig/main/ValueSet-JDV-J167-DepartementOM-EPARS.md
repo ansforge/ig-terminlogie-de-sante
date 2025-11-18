@@ -31,7 +31,7 @@ Requête sur le SMT
 
 version: 5; Dernière mise à jour : 2025-07-02 17:05:23+0000; Langue : fr-FR
 
-Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
+Profil: [Shareable ValueSetversion: null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
 
 * Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_G09-DepartementOM/FHIR/TRE-G09-DepartementOM`](CodeSystem-TRE-G09-DepartementOM.md)version 📦20240628120000
 
@@ -65,7 +65,9 @@ Expansions are not generated for retired value sets
   "meta" : {
     "versionId" : "5",
     "lastUpdated" : "2025-07-02T17:05:23.869+00:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
+    ]
   },
   "language" : "fr-FR",
   "extension" : [

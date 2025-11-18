@@ -17,7 +17,7 @@ Correspondance codes TRE_R268-PaysProvenanceISO / codes TRE_R20-Pays
 
 Mapping de (non spécifié) vers [JDV_J256_Pays](ValueSet-JDV-J256-Pays.md)
 
-**Groupe 1**Mapping de [TRE_R268_PaysProvenanceISO](CodeSystem-TRE-R268-PaysProvenanceISO.md) to [TRE_R20_Pays](CodeSystem-TRE-R20-Pays.md)
+**Groupe 1**Mapping de [TRE_R268_PaysProvenanceISOversion: 20240126120000)](CodeSystem-TRE-R268-PaysProvenanceISO.md) to [TRE_R20_Paysversion: 20250328120000)](CodeSystem-TRE-R20-Pays.md)
 
 * **Code source**: AD (la Principauté d'Andorre)
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
@@ -785,7 +785,9 @@ Mapping de (non spécifié) vers [JDV_J256_Pays](ValueSet-JDV-J256-Pays.md)
   "group" : [
     {
       "source" : "https://mos.esante.gouv.fr/NOS/TRE_R268-PaysProvenanceISO/FHIR/TRE-R268-PaysProvenanceISO",
+      "sourceVersion" : "20240126120000",
       "target" : "https://mos.esante.gouv.fr/NOS/TRE_R20-Pays/FHIR/TRE-R20-Pays",
+      "targetVersion" : "20250328120000",
       "element" : [
         {
           "code" : "AD",

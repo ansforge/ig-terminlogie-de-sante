@@ -28,7 +28,7 @@ La classification ATC (anatomique, thérapeutique et chimique) classe les substa
 
 version: 4.1749216615219; Dernière mise à jour : 2025-06-06 13:30:15+0000
 
-Profil: [Shareable CodeSystem](http://hl7.org/fhir/R4/shareablecodesystem.html)
+Profil: [Shareable CodeSystemversion: null4.0.1)](http://hl7.org/fhir/R4/shareablecodesystem.html)
 
 **Propriétés**
 
@@ -52,7 +52,7 @@ This code system `https://smt.esante.gouv.fr/terminologie-atc` defines codes, bu
     "versionId" : "4.1749216615219",
     "lastUpdated" : "2025-06-06T13:30:15.219+00:00",
     "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
   "url" : "https://smt.esante.gouv.fr/terminologie-atc",

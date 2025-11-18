@@ -4,7 +4,7 @@
   "meta" : {
     "versionId" : "22",
     "lastUpdated" : "2025-11-12T09:54:36.369+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
   },
   "text" : {
     "status" : "generated",

@@ -25,7 +25,7 @@ La Classification Commune des Actes Médicaux est la terminologie de facturation
 
 version: 7.1763107593766; Dernière mise à jour : 2025-11-14 09:06:33+0100
 
-Profil: [Shareable CodeSystem](http://hl7.org/fhir/R4/shareablecodesystem.html)
+Profil: [Shareable CodeSystemversion: null4.0.1)](http://hl7.org/fhir/R4/shareablecodesystem.html)
 
 **Propriétés**
 
@@ -49,7 +49,7 @@ This code system `https://smt.esante.gouv.fr/terminologie-ccam` defines codes, b
     "versionId" : "7.1763107593766",
     "lastUpdated" : "2025-11-14T09:06:33.766+01:00",
     "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
   "url" : "https://smt.esante.gouv.fr/terminologie-ccam",

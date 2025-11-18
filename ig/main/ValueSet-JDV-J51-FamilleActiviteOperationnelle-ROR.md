@@ -31,7 +31,7 @@ Requête sur le SMT
 
 version: 2; Dernière mise à jour : 2024-04-27 05:07:50+0000; Langue : fr-FR
 
-Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
+Profil: [Shareable ValueSetversion: null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
 
 Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :
 
@@ -68,7 +68,9 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "meta" : {
     "versionId" : "2",
     "lastUpdated" : "2024-04-27T05:07:50.820+00:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
+    ]
   },
   "language" : "fr-FR",
   "extension" : [

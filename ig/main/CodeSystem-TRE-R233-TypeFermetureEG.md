@@ -31,7 +31,7 @@ Type de fermeture de l’entité géographique FINESS
     "versionId" : "5",
     "lastUpdated" : "2025-07-02T18:16:20.959+00:00",
     "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
   "extension" : [

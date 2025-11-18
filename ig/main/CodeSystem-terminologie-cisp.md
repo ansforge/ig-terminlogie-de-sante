@@ -22,7 +22,7 @@ La Classification internationale des soins primaires (CISP) est la version fran�
 
 version: 3; Dernière mise à jour : 2025-03-24 13:28:48+0000
 
-Profil: [Shareable CodeSystem](http://hl7.org/fhir/R4/shareablecodesystem.html)
+Profil: [Shareable CodeSystemversion: null4.0.1)](http://hl7.org/fhir/R4/shareablecodesystem.html)
 
 **Propriétés**
 
@@ -46,7 +46,7 @@ This code system `https://smt.esante.gouv.fr/terminologie-cisp` defines codes, b
     "versionId" : "3",
     "lastUpdated" : "2025-03-24T13:28:48.192+00:00",
     "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
   "url" : "https://smt.esante.gouv.fr/terminologie-cisp",

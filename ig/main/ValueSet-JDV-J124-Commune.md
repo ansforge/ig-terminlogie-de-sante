@@ -31,7 +31,7 @@ Requête sur le SMT
 
 version: 3; Dernière mise à jour : 2024-06-28 16:09:45+0000
 
-Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
+Profil: [Shareable ValueSetversion: null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
 
 * Include codes provenant de[`https://mos.esante.gouv.fr/NOS/TRE_R13-CommuneOM/FHIR/TRE-R13-CommuneOM`](CodeSystem-TRE-R13-CommuneOM.md)version Not Stated (use latest from terminology server) où dateFin nexiste pas
 
@@ -67,7 +67,9 @@ Ce jeu de valeurs (ValueSet) a 35,030 codes. Pour garder la publication gérable
   "meta" : {
     "versionId" : "3",
     "lastUpdated" : "2024-06-28T16:09:45.842+00:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
+    ]
   },
   "extension" : [
     {

@@ -31,9 +31,9 @@ Requête sur le SMT
 
 version: 5; Dernière mise à jour : 2025-10-29 10:43:02+0100; Langue : fr-FR
 
-Profil: [Shareable ValueSet](http://hl7.org/fhir/R4/shareablevalueset.html)
+Profil: [Shareable ValueSetversion: null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
 
-* Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`http://terminology.hl7.org/CodeSystem/v3-ObservationValue`](http://terminology.hl7.org/6.5.0/CodeSystem-v3-ObservationValue.html)version 📦4.0.0
+* Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`http://terminology.hl7.org/CodeSystem/v3-ObservationValue`](http://terminology.hl7.org/7.0.0/CodeSystem-v3-ObservationValue.html)version 📦4.0.0
 
  
 
@@ -65,7 +65,9 @@ Ce jeu de valeur (ValueSet) contient 3 concepts
   "meta" : {
     "versionId" : "5",
     "lastUpdated" : "2025-10-29T10:43:02.525+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+    "profile" : [
+      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
+    ]
   },
   "language" : "fr-FR",
   "extension" : [

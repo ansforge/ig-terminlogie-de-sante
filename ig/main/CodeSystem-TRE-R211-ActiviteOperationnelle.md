@@ -33,7 +33,7 @@ Activite Operationnelle
     "versionId" : "23",
     "lastUpdated" : "2025-10-31T15:01:29.432+01:00",
     "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
   "extension" : [

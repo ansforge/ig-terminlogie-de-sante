@@ -31,7 +31,7 @@ Agrégats de statuts juridiques FINESS niveau 1
     "versionId" : "2",
     "lastUpdated" : "2025-07-02T18:18:41.253+00:00",
     "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
   "extension" : [

@@ -1107,4 +1107,5 @@ These define transformations to convert between codes by systems conforming with
 | [ASS_X16_CorrespondanceType_Classe_DMP](ConceptMap-ASS-X16-CorrespondanceType-Classe-DMP.md) | Correspondance entre types et classes de documents, restreinte aux codes des JDV_J66 et JDV_J57 du DMP |
 | [Alignement des codes NUVA avec les codes CIP de la CIP_CUD](ConceptMap-alignement-nuva-cipucd.md) |  |
 | [Alignement des codes NUVA avec les codes CIS et CIP de la BDPM](ConceptMap-alignement-nuva-bdpm.md) |  |
+| [Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD](ConceptMap-alignement-bdpm-cipucd.md) |  |
 

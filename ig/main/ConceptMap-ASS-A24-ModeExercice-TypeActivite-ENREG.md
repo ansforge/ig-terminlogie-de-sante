@@ -17,7 +17,7 @@ Table d’association Mode d’exercice / Type d’activité pour permettre la s
 
 Mapping de [JDV_J117_ModeExercice_ENREG](ValueSet-JDV-J117-ModeExercice-ENREG.md) vers [JDV_J119_TypeActiviteLiberale_ENREG](ValueSet-JDV-J119-TypeActiviteLiberale-ENREG.md)
 
-**Groupe 1**Mapping de [TRE_R23_ModeExercice](CodeSystem-TRE-R23-ModeExercice.md) to [TRE_R24_TypeActiviteLiberale](CodeSystem-TRE-R24-TypeActiviteLiberale.md)
+**Groupe 1**Mapping de [TRE_R23_ModeExerciceversion: 20231215120000)](CodeSystem-TRE-R23-ModeExercice.md) to [TRE_R24_TypeActiviteLiberaleversion: 20231215120000)](CodeSystem-TRE-R24-TypeActiviteLiberale.md)
 
 * **Code source**: L (Libéral, indépendant, artisan, commerçant)
   * **relation**: [has specialization](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#specializes)
@@ -69,7 +69,9 @@ Mapping de [JDV_J117_ModeExercice_ENREG](ValueSet-JDV-J117-ModeExercice-ENREG.md
   "group" : [
     {
       "source" : "https://mos.esante.gouv.fr/NOS/TRE_R23-ModeExercice/FHIR/TRE-R23-ModeExercice",
+      "sourceVersion" : "20231215120000",
       "target" : "https://mos.esante.gouv.fr/NOS/TRE_R24-TypeActiviteLiberale/FHIR/TRE-R24-TypeActiviteLiberale",
+      "targetVersion" : "20231215120000",
       "element" : [
         {
           "code" : "L",

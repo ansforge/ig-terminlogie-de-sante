@@ -22,7 +22,7 @@ LA BDPM est un des référentiels du médicament gérée et distribuée par l’
 
 version: 21; Dernière mise à jour : 2025-11-07 12:58:44+0100
 
-Profil: [Shareable CodeSystem](http://hl7.org/fhir/R4/shareablecodesystem.html)
+Profil: [Shareable CodeSystemversion: null4.0.1)](http://hl7.org/fhir/R4/shareablecodesystem.html)
 
 **Propriétés**
 
@@ -46,7 +46,7 @@ This code system `https://smt.esante.gouv.fr/terminologie-bdpm` defines codes, b
     "versionId" : "21",
     "lastUpdated" : "2025-11-07T12:58:44.217+01:00",
     "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
   "url" : "https://smt.esante.gouv.fr/terminologie-bdpm",

@@ -4590,6 +4590,13 @@
     "name" : "V3SpecimenTypeSupplementFr"
   },
   {
+    "id" : "alignement-bdpm-cipucd",
+    "type" : "ConceptMap",
+    "url" : "https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-bdpm-cipucd",
+    "version" : "2025-10",
+    "name" : "Alignement_Codes_Presentation_BDPM_CIPUCD"
+  },
+  {
     "id" : "alignement-nuva-bdpm",
     "type" : "ConceptMap",
     "url" : "https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-bdpm",
@@ -8458,7 +8465,7 @@
     "id" : "terminologie-lahn",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-lahn",
-    "version" : "2024 v1.0",
+    "version" : "2025 v1.0",
     "name" : "LAHN",
     "oids" : ["1.2.250.1.213.2.79"]
   },

@@ -82,8 +82,8 @@ Mapping de [ValueSet_NUVA_All](ValueSet-vs-nuva-all.md) vers [ValueSet_BDPM_All]
       ]
     }
   ],
-  "sourceCanonical" : "https://smt.esante.gouv.fr/terminologie-nuva?vs",
-  "targetCanonical" : "https://smt.esante.gouv.fr/terminologie-bdpm?vs"
+  "sourceCanonical" : "https://smt.esante.gouv.fr/terminologie-nuva?vs|20241106120000",
+  "targetCanonical" : "https://smt.esante.gouv.fr/terminologie-bdpm?vs|20241106120000"
 }
 
 ```

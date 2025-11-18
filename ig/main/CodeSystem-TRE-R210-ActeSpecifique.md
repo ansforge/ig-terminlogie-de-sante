@@ -32,7 +32,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
     "versionId" : "27",
     "lastUpdated" : "2025-10-31T15:01:10.415+01:00",
     "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
   "extension" : [

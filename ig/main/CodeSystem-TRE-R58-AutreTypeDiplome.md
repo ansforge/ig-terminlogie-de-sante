@@ -32,7 +32,7 @@ Autre type de diplôme
     "versionId" : "11",
     "lastUpdated" : "2025-10-02T20:13:55.363+02:00",
     "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
   "extension" : [

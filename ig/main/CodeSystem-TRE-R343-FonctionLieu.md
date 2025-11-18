@@ -31,7 +31,7 @@ Destination d’usage du lieu
     "versionId" : "7",
     "lastUpdated" : "2025-10-31T15:01:41.551+01:00",
     "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
   "extension" : [

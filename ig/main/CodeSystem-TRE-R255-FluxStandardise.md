@@ -31,7 +31,7 @@ Liste de flux standardisés
     "versionId" : "5",
     "lastUpdated" : "2025-07-02T18:16:41.068+00:00",
     "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
   "extension" : [

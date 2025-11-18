@@ -32,7 +32,7 @@ Type de savoir-faire
     "versionId" : "7",
     "lastUpdated" : "2025-10-31T14:58:01.413+01:00",
     "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
   "extension" : [

@@ -34,7 +34,7 @@ Statuts juridiques provenant de FINESS, excepté pour les codes 000 et 100 à 11
     "versionId" : "2",
     "lastUpdated" : "2025-07-02T18:18:44.240+00:00",
     "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
   "extension" : [

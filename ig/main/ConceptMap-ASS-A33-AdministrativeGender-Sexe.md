@@ -17,7 +17,7 @@ Correspondance entre le JDV sexe du NOS et le JDV administrative gender de FHIR 
 
 Mapping de [JDV_J262_Sexe](ValueSet-JDV-J262-Sexe.md) vers [AdministrativeGender](http://hl7.org/fhir/R4/valueset-administrative-gender.html)
 
-**Groupe 1**Mapping de [TRE_R249_Sexe](CodeSystem-TRE-R249-Sexe.md) to [AdministrativeGender](http://hl7.org/fhir/R4/codesystem-administrative-gender.html)
+**Groupe 1**Mapping de [TRE_R249_Sexeversion: 20231215120000)](CodeSystem-TRE-R249-Sexe.md) to [AdministrativeGenderversion: 4.0.1)](http://hl7.org/fhir/R4/codesystem-administrative-gender.html)
 
 * **Code source**: M (Masculin)
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
@@ -78,7 +78,9 @@ Mapping de [JDV_J262_Sexe](ValueSet-JDV-J262-Sexe.md) vers [AdministrativeGender
   "group" : [
     {
       "source" : "https://mos.esante.gouv.fr/NOS/TRE_R249-Sexe/FHIR/TRE-R249-Sexe",
+      "sourceVersion" : "20231215120000",
       "target" : "http://hl7.org/fhir/administrative-gender",
+      "targetVersion" : "4.0.1",
       "element" : [
         {
           "code" : "M",

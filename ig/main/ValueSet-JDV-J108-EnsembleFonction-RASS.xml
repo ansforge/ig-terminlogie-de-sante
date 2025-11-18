@@ -5,7 +5,7 @@
   <meta>
     <versionId value="15"/>
     <lastUpdated value="2025-11-04T19:01:57.775+01:00"/>
-    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"/>
   </meta>
   <language value="fr-FR"/>
   <text>

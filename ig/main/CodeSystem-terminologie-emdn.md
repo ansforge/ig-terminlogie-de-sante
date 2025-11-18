@@ -39,7 +39,7 @@ La nomenclature européenne des dispositifs médicaux (EMDN) est la nomenclature
 
 version: 3; Dernière mise à jour : 2025-03-20 13:52:13+0000
 
-Profil: [Shareable CodeSystem](http://hl7.org/fhir/R4/shareablecodesystem.html)
+Profil: [Shareable CodeSystemversion: null4.0.1)](http://hl7.org/fhir/R4/shareablecodesystem.html)
 
 **Propriétés**
 
@@ -63,7 +63,7 @@ This code system `https://smt.esante.gouv.fr/terminologie-emdn` defines codes, b
     "versionId" : "3",
     "lastUpdated" : "2025-03-20T13:52:13.373+00:00",
     "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
   "url" : "https://smt.esante.gouv.fr/terminologie-emdn",

@@ -35,7 +35,7 @@ Les nomenclatures des besoins et des prestations ont été élaborées par un gr
     "versionId" : "1.1746434824553",
     "lastUpdated" : "2025-05-05T08:47:04.553+00:00",
     "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
   "url" : "https://smt.esante.gouv.fr/terminologie-SERAFINPH",

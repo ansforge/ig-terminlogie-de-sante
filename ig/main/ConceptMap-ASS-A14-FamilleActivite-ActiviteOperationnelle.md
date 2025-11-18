@@ -17,7 +17,7 @@ Association Famille activité - Activité opérationnelle
 
 Mapping de (non spécifié) vers (non spécifié)
 
-**Groupe 1**Mapping de [Nomenclature des besoins et des prestations](CodeSystem-terminologie-SERAFINPH.md) to [TRE_R211_ActiviteOperationnelle](CodeSystem-TRE-R211-ActiviteOperationnelle.md)
+**Groupe 1**Mapping de [Nomenclature des besoins et des prestationsversion: 2023.1.0)](CodeSystem-terminologie-SERAFINPH.md) to [TRE_R211_ActiviteOperationnelleversion: 20251017120000)](CodeSystem-TRE-R211-ActiviteOperationnelle.md)
 
 * **Code source**: 2.1.1.1 (Soins médicaux à visée préventive, curative et palliative)
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
@@ -217,7 +217,7 @@ Mapping de (non spécifié) vers (non spécifié)
 
 -------
 
-**Groupe 2**Mapping de [TRE_R266_FamilleActiviteOperationnelleHorsSerafin](CodeSystem-TRE-R266-FamilleActiviteOperationnelleHorsSerafin.md) to [TRE_R211_ActiviteOperationnelle](CodeSystem-TRE-R211-ActiviteOperationnelle.md)
+**Groupe 2**Mapping de [TRE_R266_FamilleActiviteOperationnelleHorsSerafinversion: 20231215120000)](CodeSystem-TRE-R266-FamilleActiviteOperationnelleHorsSerafin.md) to [TRE_R211_ActiviteOperationnelleversion: 20251017120000)](CodeSystem-TRE-R211-ActiviteOperationnelle.md)
 
 * **Code source**: 01 (Accompagnement des aidants)
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
@@ -288,7 +288,9 @@ Mapping de (non spécifié) vers (non spécifié)
   "group" : [
     {
       "source" : "https://smt.esante.gouv.fr/terminologie-SERAFINPH",
+      "sourceVersion" : "2023.1.0",
       "target" : "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle",
+      "targetVersion" : "20251017120000",
       "element" : [
         {
           "code" : "2.1.1.1",
@@ -879,7 +881,9 @@ Mapping de (non spécifié) vers (non spécifié)
     },
     {
       "source" : "https://mos.esante.gouv.fr/NOS/TRE_R266-FamilleActiviteOperationnelleHorsSerafin/FHIR/TRE-R266-FamilleActiviteOperationnelleHorsSerafin",
+      "sourceVersion" : "20231215120000",
       "target" : "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle",
+      "targetVersion" : "20251017120000",
       "element" : [
         {
           "code" : "01",

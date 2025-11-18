@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "Terminologies"] ; # 
   fhir:title [ fhir:v "Terminologies  de Santé"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-11-16T04:25:57+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-11-18T17:22:42+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -60,7 +60,7 @@
        fhir:l <http://terminology.hl7.org/ImplementationGuide/hl7.terminology>
      ] ;
      fhir:packageId [ fhir:v "hl7.terminology.r4" ] ;
-     fhir:version [ fhir:v "6.5.0" ]
+     fhir:version [ fhir:v "7.0.0" ]
   ] [
      fhir:id [ fhir:v "hl7_fhir_uv_ips" ] ;
      fhir:uri [
@@ -192,7 +192,7 @@
          ] ;
          fhir:value [
            a fhir:String ;
-           fhir:v "pin-multiples"
+           fhir:v "pin-all"
          ]
        ] ) ;
        fhir:url [
@@ -1273,6 +1273,30 @@
          fhir:value [
            a fhir:String ;
            fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/v3-SpecimenType-supplement-fr"
+         ]
+       ] ) ;
+       fhir:url [
+         fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/tools/StructureDefinition/ig-parameter>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "code"^^xsd:anyURI ;
+           fhir:l fhir:code
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "special-url"
+         ]
+       ] [
+         fhir:url [
+           fhir:v "value"^^xsd:anyURI ;
+           fhir:l fhir:value
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "https://interop.esante.gouv.fr/terminologies/CodeSystem/ObservationValue-supplement-fr"
          ]
        ] ) ;
        fhir:url [
@@ -26995,7 +27019,7 @@
          ] ;
          fhir:value [
            a fhir:String ;
-           fhir:v "pin-multiples"
+           fhir:v "pin-all"
          ]
        ] ) ;
        fhir:url [
@@ -28076,6 +28100,30 @@
          fhir:value [
            a fhir:String ;
            fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/v3-SpecimenType-supplement-fr"
+         ]
+       ] ) ;
+       fhir:url [
+         fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/tools/StructureDefinition/ig-parameter>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "code"^^xsd:anyURI ;
+           fhir:l fhir:code
+         ] ;
+         fhir:value [
+           a fhir:Code ;
+           fhir:v "special-url"
+         ]
+       ] [
+         fhir:url [
+           fhir:v "value"^^xsd:anyURI ;
+           fhir:l fhir:value
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "https://interop.esante.gouv.fr/terminologies/CodeSystem/ObservationValue-supplement-fr"
          ]
        ] ) ;
        fhir:url [
@@ -54059,6 +54107,26 @@
          fhir:reference [ fhir:v "ConceptMap/alignement-nuva-bdpm" ]
        ] ;
        fhir:name [ fhir:v "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ConceptMap"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ConceptMap/alignement-bdpm-cipucd> ;
+         fhir:reference [ fhir:v "ConceptMap/alignement-bdpm-cipucd" ]
+       ] ;
+       fhir:name [ fhir:v "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false

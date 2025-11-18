@@ -17,7 +17,7 @@ Triplet activité modalité forme pour les Activités Soumises à Autorisation (
 
 Mapping de (non spécifié) vers (non spécifié)
 
-**Groupe 1**Mapping de [TRE_R274_ActiviteSanitaireRegulee](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md) to [TRE_R275_ModaliteActivite](CodeSystem-TRE-R275-ModaliteActivite.md)
+**Groupe 1**Mapping de [TRE_R274_ActiviteSanitaireReguleeversion: 20231215120000)](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md) to [TRE_R275_ModaliteActiviteversion: 20231215120000)](CodeSystem-TRE-R275-ModaliteActivite.md)
 
 * **Codes**de[TRE_R274_ActiviteSanitaireRegulee](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md): A0
   * **TRER276FormeActivite**: Installation de chirurgie esthétique
@@ -196,7 +196,9 @@ Mapping de (non spécifié) vers (non spécifié)
   "group" : [
     {
       "source" : "https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee",
+      "sourceVersion" : "20231215120000",
       "target" : "https://mos.esante.gouv.fr/NOS/TRE_R275-ModaliteActivite/FHIR/TRE-R275-ModaliteActivite",
+      "targetVersion" : "20231215120000",
       "element" : [
         {
           "code" : "A0",

@@ -31,7 +31,7 @@ Lieu de formation
     "versionId" : "12",
     "lastUpdated" : "2025-10-31T14:59:20.465+01:00",
     "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
   "extension" : [

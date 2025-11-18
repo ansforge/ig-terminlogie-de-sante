@@ -17,7 +17,7 @@ Association d’agrégats de clientèle
 
 Mapping de (non spécifié) vers (non spécifié)
 
-**Groupe 1**Mapping de [TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md) to [TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md)
+**Groupe 1**Mapping de [TRE_R293_AgregatClienteleNiv2version: 20231215120000)](CodeSystem-TRE-R293-AgregatClienteleNiv2.md) to [TRE_R294_AgregatClienteleNiv3version: 20231215120000)](CodeSystem-TRE-R294-AgregatClienteleNiv3.md)
 
 * **Codes**de[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md): 1000
   * **TRER279Clientele**: Personnes Handicapées
@@ -953,7 +953,9 @@ Mapping de (non spécifié) vers (non spécifié)
   "group" : [
     {
       "source" : "https://mos.esante.gouv.fr/NOS/TRE_R293-AgregatClienteleNiv2/FHIR/TRE-R293-AgregatClienteleNiv2",
+      "sourceVersion" : "20231215120000",
       "target" : "https://mos.esante.gouv.fr/NOS/TRE_R294-AgregatClienteleNiv3/FHIR/TRE-R294-AgregatClienteleNiv3",
+      "targetVersion" : "20231215120000",
       "element" : [
         {
           "code" : "1000",

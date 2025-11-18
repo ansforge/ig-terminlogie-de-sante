@@ -10,7 +10,7 @@
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2025-11-16T04:25:57+00:00",
+  "date" : "2025-11-18T17:22:42+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -37,7 +37,7 @@
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "6.5.0"
+    "version" : "7.0.0"
   },
   {
     "id" : "hl7_fhir_uv_ips",
@@ -103,7 +103,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "pin-multiples"
+        "valueString" : "pin-all"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -599,6 +599,17 @@
       {
         "url" : "value",
         "valueString" : "https://smt.esante.gouv.fr/fhir/CodeSystem/v3-SpecimenType-supplement-fr"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/ObservationValue-supplement-fr"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -12389,7 +12400,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "pin-multiples"
+        "valueString" : "pin-all"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -12885,6 +12896,17 @@
       {
         "url" : "value",
         "valueString" : "https://smt.esante.gouv.fr/fhir/CodeSystem/v3-SpecimenType-supplement-fr"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/ObservationValue-supplement-fr"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -24837,6 +24859,17 @@
         "reference" : "ConceptMap/alignement-nuva-bdpm"
       },
       "name" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ConceptMap"
+      }],
+      "reference" : {
+        "reference" : "ConceptMap/alignement-bdpm-cipucd"
+      },
+      "name" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD",
       "exampleBoolean" : false
     },
     {

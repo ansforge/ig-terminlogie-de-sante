@@ -59,7 +59,7 @@ La Classification Internationale des Maladies (CIM) permet d’établir les stat
 
 version: 8.1760088527280; Dernière mise à jour : 2025-10-10 11:28:47+0200
 
-Profil: [Shareable CodeSystem](http://hl7.org/fhir/R4/shareablecodesystem.html)
+Profil: [Shareable CodeSystemversion: null4.0.1)](http://hl7.org/fhir/R4/shareablecodesystem.html)
 
 **Propriétés**
 
@@ -83,7 +83,7 @@ This code system `https://smt.esante.gouv.fr/terminologie-cim-10` defines codes,
     "versionId" : "8.1760088527280",
     "lastUpdated" : "2025-10-10T11:28:47.280+02:00",
     "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
   "url" : "https://smt.esante.gouv.fr/terminologie-cim-10",

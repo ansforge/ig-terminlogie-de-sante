@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://mos.esante.gouv.fr/NOS/ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS | *Version*:5.0.0 |
-| Active as of 2025-11-16 | *Computable Name*:ASS_A12_CorresMediaTypeCDANonStructure_XdsFormatCode_CISIS |
+| Active as of 2025-11-18 | *Computable Name*:ASS_A12_CorresMediaTypeCDANonStructure_XdsFormatCode_CISIS |
 | **Usage:**Workflow Task:  | |
 
  
@@ -17,7 +17,7 @@ Association qui permet de deduire l’attribut XDS ‘formatCode’ à partir de
 
 Mapping de [JDV-MediaTypeCorpsCDANonStructure](ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all.md) vers [JDV_J10_XdsFormatCode_CISIS](ValueSet-JDV-J10-XdsFormatCode-CISIS.md)
 
-**Groupe 1**Mapping de [TRE_R222_MediaTypeCorpsCDANonStructure](CodeSystem-TRE-R222-MediaTypeCorpsCDANonStructure.md) to [TRE_A11_IheFormatCode](CodeSystem-TRE-A11-IheFormatCode.md)
+**Groupe 1**Mapping de [TRE_R222_MediaTypeCorpsCDANonStructureversion: 20231215120000)](CodeSystem-TRE-R222-MediaTypeCorpsCDANonStructure.md) to [TRE_A11_IheFormatCodeversion: 20240426120000)](CodeSystem-TRE-A11-IheFormatCode.md)
 
 * **Code source**: application/pdf (Document CDA à corps non structuré en Pdf/A-1)
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
@@ -49,7 +49,7 @@ Mapping de [JDV-MediaTypeCorpsCDANonStructure](ValueSet-TRE-R222-MediaTypeCorpsC
   "title" : "ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-11-16T04:25:57+00:00",
+  "date" : "2025-11-18T17:22:42+00:00",
   "publisher" : "ANS",
   "contact" : [
     {
@@ -89,7 +89,9 @@ Mapping de [JDV-MediaTypeCorpsCDANonStructure](ValueSet-TRE-R222-MediaTypeCorpsC
   "group" : [
     {
       "source" : "https://mos.esante.gouv.fr/NOS/TRE_R222-MediaTypeCorpsCDANonStructure/FHIR/TRE-R222-MediaTypeCorpsCDANonStructure",
+      "sourceVersion" : "20231215120000",
       "target" : "https://mos.esante.gouv.fr/NOS/TRE_A11-IheFormatCode/FHIR/TRE-A11-IheFormatCode",
+      "targetVersion" : "20240426120000",
       "element" : [
         {
           "code" : "application/pdf",

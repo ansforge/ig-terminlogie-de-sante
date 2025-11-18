@@ -31,7 +31,7 @@ Cette nomenclature permet de préciser le besoin du demandeur quant à l’étab
     "versionId" : "6",
     "lastUpdated" : "2025-07-02T18:17:32.566+00:00",
     "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
   "extension" : [

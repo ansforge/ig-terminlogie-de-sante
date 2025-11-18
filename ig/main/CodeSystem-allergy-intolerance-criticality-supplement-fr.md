@@ -47,7 +47,7 @@ This code system supplement `https://smt.esante.gouv.fr/fhir/CodeSystem/allergy-
     }
   ],
   "content" : "supplement",
-  "supplements" : "http://hl7.org/fhir/allergy-intolerance-criticality",
+  "supplements" : "http://hl7.org/fhir/allergy-intolerance-criticality|4.0.1",
   "concept" : [
     {
       "code" : "low",

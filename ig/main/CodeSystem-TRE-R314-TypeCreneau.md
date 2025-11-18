@@ -31,7 +31,7 @@ Type de créneaux de soins définis par un professionnel de santé ou son délé
     "versionId" : "7",
     "lastUpdated" : "2025-07-02T18:17:26.761+00:00",
     "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
   "extension" : [

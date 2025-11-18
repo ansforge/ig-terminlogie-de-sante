@@ -31,7 +31,7 @@ Caractérise la situation de vie de la personne : vit seule ou avec d’autres p
     "versionId" : "6",
     "lastUpdated" : "2025-07-02T18:17:27.811+00:00",
     "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
   "extension" : [

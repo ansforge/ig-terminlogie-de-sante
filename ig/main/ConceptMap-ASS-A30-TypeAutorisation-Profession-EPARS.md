@@ -17,7 +17,7 @@ Table d’association entre les types d’autorisations et les professions de sa
 
 Mapping de (non spécifié) vers (non spécifié)
 
-**Groupe 1**Mapping de [TRE_R17_TypeAutorisation](CodeSystem-TRE-R17-TypeAutorisation.md) to [TRE_G15_ProfessionSante](CodeSystem-TRE-G15-ProfessionSante.md)
+**Groupe 1**Mapping de [TRE_R17_TypeAutorisationversion: 20250523120000)](CodeSystem-TRE-R17-TypeAutorisation.md) to [TRE_G15_ProfessionSanteversion: 20250328120000)](CodeSystem-TRE-G15-ProfessionSante.md)
 
 * **Code source**: AM01 (Autorisation de plein exercice)
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
@@ -175,7 +175,7 @@ Mapping de (non spécifié) vers (non spécifié)
 
 -------
 
-**Groupe 2**Mapping de [TRE_R17_TypeAutorisation](CodeSystem-TRE-R17-TypeAutorisation.md) to [TRE_R94_ProfessionSocial](CodeSystem-TRE-R94-ProfessionSocial.md)
+**Groupe 2**Mapping de [TRE_R17_TypeAutorisationversion: 20250523120000)](CodeSystem-TRE-R17-TypeAutorisation.md) to [TRE_R94_ProfessionSocialversion: 20241213120000)](CodeSystem-TRE-R94-ProfessionSocial.md)
 
 * **Code source**: AM14 (Arrangement France-Québec (art L 4111-3-1 CSP))
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
@@ -186,7 +186,7 @@ Mapping de (non spécifié) vers (non spécifié)
 
 -------
 
-**Groupe 3**Mapping de [TRE_R17_TypeAutorisation](CodeSystem-TRE-R17-TypeAutorisation.md) to [TRE_R95_UsagerTitre](CodeSystem-TRE-R95-UsagerTitre.md)
+**Groupe 3**Mapping de [TRE_R17_TypeAutorisationversion: 20250523120000)](CodeSystem-TRE-R17-TypeAutorisation.md) to [TRE_R95_UsagerTitreversion: 20241213120000)](CodeSystem-TRE-R95-UsagerTitre.md)
 
 * **Code source**: AM27 (Autorisation d'exercice UE/EEE)
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
@@ -272,7 +272,9 @@ Mapping de (non spécifié) vers (non spécifié)
   "group" : [
     {
       "source" : "https://mos.esante.gouv.fr/NOS/TRE_R17-TypeAutorisation/FHIR/TRE-R17-TypeAutorisation",
+      "sourceVersion" : "20250523120000",
       "target" : "https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante",
+      "targetVersion" : "20250328120000",
       "element" : [
         {
           "code" : "AM01",
@@ -737,7 +739,9 @@ Mapping de (non spécifié) vers (non spécifié)
     },
     {
       "source" : "https://mos.esante.gouv.fr/NOS/TRE_R17-TypeAutorisation/FHIR/TRE-R17-TypeAutorisation",
+      "sourceVersion" : "20250523120000",
       "target" : "https://mos.esante.gouv.fr/NOS/TRE_R94-ProfessionSocial/FHIR/TRE-R94-ProfessionSocial",
+      "targetVersion" : "20241213120000",
       "element" : [
         {
           "code" : "AM14",
@@ -761,7 +765,9 @@ Mapping de (non spécifié) vers (non spécifié)
     },
     {
       "source" : "https://mos.esante.gouv.fr/NOS/TRE_R17-TypeAutorisation/FHIR/TRE-R17-TypeAutorisation",
+      "sourceVersion" : "20250523120000",
       "target" : "https://mos.esante.gouv.fr/NOS/TRE_R95-UsagerTitre/FHIR/TRE-R95-UsagerTitre",
+      "targetVersion" : "20241213120000",
       "element" : [
         {
           "code" : "AM27",

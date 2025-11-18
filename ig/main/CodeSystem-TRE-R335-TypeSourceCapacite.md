@@ -31,7 +31,7 @@ Permet d’indiquer quel type de source est à l’origine de l’information de
     "versionId" : "5",
     "lastUpdated" : "2025-07-02T18:17:38.627+00:00",
     "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
   "extension" : [

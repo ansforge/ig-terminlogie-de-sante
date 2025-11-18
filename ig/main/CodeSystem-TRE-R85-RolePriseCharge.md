@@ -42,7 +42,7 @@ Rôle dans la prise en charge des patients ou des usagers
     "versionId" : "19",
     "lastUpdated" : "2025-10-02T20:13:56.737+02:00",
     "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
   "extension" : [

@@ -31,7 +31,7 @@ Un titre, une position, une fonction de la personne contact dans l’organisatio
     "versionId" : "6",
     "lastUpdated" : "2025-07-02T18:16:38.659+00:00",
     "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
   "extension" : [

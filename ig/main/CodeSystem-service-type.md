@@ -32,7 +32,7 @@ This value set defines an example set of codes of service-types.
     "versionId" : "1",
     "lastUpdated" : "2024-05-14T14:11:18.747+00:00",
     "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
   "extension" : [

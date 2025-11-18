@@ -27,7 +27,7 @@ Les standard terms (ou listes de termes normalisés) ont été établis en répo
 
 version: 8; Dernière mise à jour : 2025-07-11 12:01:41+0000
 
-Profil: [Shareable CodeSystem](http://hl7.org/fhir/R4/shareablecodesystem.html)
+Profil: [Shareable CodeSystemversion: null4.0.1)](http://hl7.org/fhir/R4/shareablecodesystem.html)
 
 **Propriétés**
 
@@ -51,7 +51,7 @@ This code system `https://smt.esante.gouv.fr/terminologie-standardterms` defines
     "versionId" : "8",
     "lastUpdated" : "2025-07-11T12:01:41.851+00:00",
     "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
   "url" : "https://smt.esante.gouv.fr/terminologie-standardterms",

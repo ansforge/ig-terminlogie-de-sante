@@ -82,8 +82,8 @@ Mapping de [ValueSet_NUVA_All](ValueSet-vs-nuva-all.md) vers [ValueSet_CIPUCD_Al
       ]
     }
   ],
-  "sourceCanonical" : "https://smt.esante.gouv.fr/terminologie-nuva?vs",
-  "targetCanonical" : "https://smt.esante.gouv.fr/terminologie-cip_ucd?vs"
+  "sourceCanonical" : "https://smt.esante.gouv.fr/terminologie-nuva?vs|20241106120000",
+  "targetCanonical" : "https://smt.esante.gouv.fr/terminologie-cip_ucd?vs|20241114120000"
 }
 
 ```

@@ -4,7 +4,7 @@
   "meta" : {
     "versionId" : "5",
     "lastUpdated" : "2025-10-22T17:22:41.234+02:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
   "text" : {

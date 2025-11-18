@@ -31,7 +31,7 @@ Profession Ressource
     "versionId" : "14",
     "lastUpdated" : "2025-10-02T20:13:53.106+02:00",
     "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
   "extension" : [

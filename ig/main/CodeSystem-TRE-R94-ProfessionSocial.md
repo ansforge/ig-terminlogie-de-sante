@@ -40,7 +40,7 @@ Profession du social
     "versionId" : "7",
     "lastUpdated" : "2025-07-02T18:19:22.247+00:00",
     "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
   "extension" : [

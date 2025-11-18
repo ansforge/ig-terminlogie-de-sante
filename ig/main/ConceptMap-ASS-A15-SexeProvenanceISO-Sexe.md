@@ -17,7 +17,7 @@ Correspondance codes TRE_R267-SexeProvenanceISO / codes TRE_R249-Sexe
 
 Mapping de (non spécifié) vers (non spécifié)
 
-**Groupe 1**Mapping de [TRE_R267_SexeProvenanceISO](CodeSystem-TRE-R267-SexeProvenanceISO.md) to [TRE_R249_Sexe](CodeSystem-TRE-R249-Sexe.md)
+**Groupe 1**Mapping de [TRE_R267_SexeProvenanceISOversion: 20231215120000)](CodeSystem-TRE-R267-SexeProvenanceISO.md) to [TRE_R249_Sexeversion: 20231215120000)](CodeSystem-TRE-R249-Sexe.md)
 
 * **Code source**: 0 (Inconnu)
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
@@ -76,7 +76,9 @@ Mapping de (non spécifié) vers (non spécifié)
   "group" : [
     {
       "source" : "https://mos.esante.gouv.fr/NOS/TRE_R267-SexeProvenanceISO/FHIR/TRE-R267-SexeProvenanceISO",
+      "sourceVersion" : "20231215120000",
       "target" : "https://mos.esante.gouv.fr/NOS/TRE_R249-Sexe/FHIR/TRE-R249-Sexe",
+      "targetVersion" : "20231215120000",
       "element" : [
         {
           "code" : "0",

@@ -20,7 +20,7 @@
     }]
   }],
   "content" : "supplement",
-  "supplements" : "http://hl7.org/fhir/allergy-intolerance-criticality",
+  "supplements" : "http://hl7.org/fhir/allergy-intolerance-criticality|4.0.1",
   "concept" : [{
     "code" : "low",
     "designation" : [{

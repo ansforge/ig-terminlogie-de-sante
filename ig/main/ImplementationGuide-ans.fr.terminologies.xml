@@ -11,7 +11,7 @@
   <name value="Terminologies"/>
   <title value="Terminologies  de Santé"/>
   <status value="active"/>
-  <date value="2025-11-16T04:25:57+00:00"/>
+  <date value="2025-11-18T17:22:42+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -36,7 +36,7 @@
     </extension>
     <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
     <packageId value="hl7.terminology.r4"/>
-    <version value="6.5.0"/>
+    <version value="7.0.0"/>
   </dependsOn>
   <dependsOn id="hl7_fhir_uv_ips">
     <uri value="http://hl7.org/fhir/uv/ips/ImplementationGuide/hl7.fhir.uv.ips"/>
@@ -86,7 +86,7 @@
         <valueString value="pin-canonicals"/>
       </extension>
       <extension url="value">
-        <valueString value="pin-multiples"/>
+        <valueString value="pin-all"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -447,6 +447,14 @@
       </extension>
       <extension url="value">
         <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/v3-SpecimenType-supplement-fr"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://interop.esante.gouv.fr/terminologies/CodeSystem/ObservationValue-supplement-fr"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -9022,7 +9030,7 @@
         <valueCode value="pin-canonicals"/>
       </extension>
       <extension url="value">
-        <valueString value="pin-multiples"/>
+        <valueString value="pin-all"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -9383,6 +9391,14 @@
       </extension>
       <extension url="value">
         <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/v3-SpecimenType-supplement-fr"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://interop.esante.gouv.fr/terminologies/CodeSystem/ObservationValue-supplement-fr"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -18117,6 +18133,16 @@
         <reference value="ConceptMap/alignement-nuva-bdpm"/>
       </reference>
       <name value="Alignement des codes NUVA avec les codes CIS et CIP de la BDPM"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/alignement-bdpm-cipucd"/>
+      </reference>
+      <name value="Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

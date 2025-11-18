@@ -32,7 +32,7 @@ Type de document en complément des nomenclatures internationales
     "versionId" : "7",
     "lastUpdated" : "2025-07-02T18:11:24.782+00:00",
     "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
   "extension" : [

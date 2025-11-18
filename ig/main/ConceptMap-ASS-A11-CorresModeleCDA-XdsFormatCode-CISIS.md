@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://mos.esante.gouv.fr/NOS/ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS | *Version*:5.0.0 |
-| Active as of 2025-11-16 | *Computable Name*:ASS_A11_CorresModeleCDA_XdsFormatCode_CISIS |
+| Active as of 2025-11-18 | *Computable Name*:ASS_A11_CorresModeleCDA_XdsFormatCode_CISIS |
 | **Usage:**Workflow Task:  | |
 
  
@@ -17,7 +17,7 @@ Pour le document CDA, la métadonnée XDS ‘formatCode’ est calculé à parti
 
 Mapping de [Jdv Modele Document Cda](ValueSet-jdv-modele-document-cda.md) vers (non spécifié)
 
-**Groupe 1**Mapping de [TRE_R220_ModeleDocumentCDAStructure](CodeSystem-TRE-R220-ModeleDocumentCDAStructure.md) to [TRE_A06_FormatCodeComplementaire](CodeSystem-TRE-A06-FormatCodeComplementaire.md)
+**Groupe 1**Mapping de [TRE_R220_ModeleDocumentCDAStructureversion: 20251029120000)](CodeSystem-TRE-R220-ModeleDocumentCDAStructure.md) to [TRE_A06_FormatCodeComplementaireversion: 20251029120000)](CodeSystem-TRE-A06-FormatCodeComplementaire.md)
 
 * **Code source**: 1.2.250.1.213.1.1.1.5.1 (Certificat de santé du 8ème jour de l'enfant)
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
@@ -163,7 +163,7 @@ Mapping de [Jdv Modele Document Cda](ValueSet-jdv-modele-document-cda.md) vers (
 
 -------
 
-**Groupe 2**Mapping de [TRE_R220_ModeleDocumentCDAStructure](CodeSystem-TRE-R220-ModeleDocumentCDAStructure.md) to [TRE_A11_IheFormatCode](CodeSystem-TRE-A11-IheFormatCode.md)
+**Groupe 2**Mapping de [TRE_R220_ModeleDocumentCDAStructureversion: 20251029120000)](CodeSystem-TRE-R220-ModeleDocumentCDAStructure.md) to [TRE_A11_IheFormatCodeversion: 20240426120000)](CodeSystem-TRE-A11-IheFormatCode.md)
 
 * **Code source**: 1.2.250.1.213.1.1.1.39 (Prescription de médicaments)
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
@@ -261,7 +261,7 @@ Mapping de [Jdv Modele Document Cda](ValueSet-jdv-modele-document-cda.md) vers (
 
 -------
 
-**Groupe 3**Mapping de [TRE_R221_ModeleDocumentCDANonStructure](CodeSystem-TRE-R221-ModeleDocumentCDANonStructure.md) to [TRE_A11_IheFormatCode](CodeSystem-TRE-A11-IheFormatCode.md)
+**Groupe 3**Mapping de [TRE_R221_ModeleDocumentCDANonStructureversion: 20231215120000)](CodeSystem-TRE-R221-ModeleDocumentCDANonStructure.md) to [TRE_A11_IheFormatCodeversion: 20240426120000)](CodeSystem-TRE-A11-IheFormatCode.md)
 
 * **Code source**: 1.3.6.1.4.1.19376.1.2.20 (Modèle de document CDA non structuré)
   * **relation**: [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
@@ -298,7 +298,7 @@ Mapping de [Jdv Modele Document Cda](ValueSet-jdv-modele-document-cda.md) vers (
   "title" : "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-11-16T04:25:57+00:00",
+  "date" : "2025-11-18T17:22:42+00:00",
   "publisher" : "ANS",
   "contact" : [
     {
@@ -337,7 +337,9 @@ Mapping de [Jdv Modele Document Cda](ValueSet-jdv-modele-document-cda.md) vers (
   "group" : [
     {
       "source" : "https://mos.esante.gouv.fr/NOS/TRE_R220-ModeleDocumentCDAStructure/FHIR/TRE-R220-ModeleDocumentCDAStructure",
+      "sourceVersion" : "20251029120000",
       "target" : "https://mos.esante.gouv.fr/NOS/TRE_A06-FormatCodeComplementaire/FHIR/TRE-A06-FormatCodeComplementaire",
+      "targetVersion" : "20251029120000",
       "element" : [
         {
           "code" : "1.2.250.1.213.1.1.1.5.1",
@@ -766,7 +768,9 @@ Mapping de [Jdv Modele Document Cda](ValueSet-jdv-modele-document-cda.md) vers (
     },
     {
       "source" : "https://mos.esante.gouv.fr/NOS/TRE_R220-ModeleDocumentCDAStructure/FHIR/TRE-R220-ModeleDocumentCDAStructure",
+      "sourceVersion" : "20251029120000",
       "target" : "https://mos.esante.gouv.fr/NOS/TRE_A11-IheFormatCode/FHIR/TRE-A11-IheFormatCode",
+      "targetVersion" : "20240426120000",
       "element" : [
         {
           "code" : "1.2.250.1.213.1.1.1.39",
@@ -1051,7 +1055,9 @@ Mapping de [Jdv Modele Document Cda](ValueSet-jdv-modele-document-cda.md) vers (
     },
     {
       "source" : "https://mos.esante.gouv.fr/NOS/TRE_R221-ModeleDocumentCDANonStructure/FHIR/TRE-R221-ModeleDocumentCDANonStructure",
+      "sourceVersion" : "20231215120000",
       "target" : "https://mos.esante.gouv.fr/NOS/TRE_A11-IheFormatCode/FHIR/TRE-A11-IheFormatCode",
+      "targetVersion" : "20240426120000",
       "element" : [
         {
           "code" : "1.3.6.1.4.1.19376.1.2.20",

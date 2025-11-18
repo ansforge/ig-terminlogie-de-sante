@@ -32,7 +32,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     "versionId" : "11",
     "lastUpdated" : "2025-09-08T12:56:27.297+02:00",
     "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
   "url" : "https://smt.esante.gouv.fr/terminologie-nabm",

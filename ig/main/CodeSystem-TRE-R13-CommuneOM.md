@@ -19,7 +19,7 @@
 
 version: 1; Dernière mise à jour : 2025-01-10 13:09:36+0000
 
-Profil: [Shareable CodeSystem](http://hl7.org/fhir/R4/shareablecodesystem.html)
+Profil: [Shareable CodeSystemversion: null4.0.1)](http://hl7.org/fhir/R4/shareablecodesystem.html)
 
 Tag: Resource encoded in summary mode (Détails : code ObservationValue SUBSETTED = 'Resource encoded in summary mode')
 
@@ -43,7 +43,7 @@ This case-insensitive code system `https://mos.esante.gouv.fr/NOS/TRE_R13-Commun
     "versionId" : "1",
     "lastUpdated" : "2025-01-10T13:09:36.586+00:00",
     "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ],
     "tag" : [
       {

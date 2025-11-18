@@ -9,7 +9,7 @@
 | | | |
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/terminologie-cim11-mms | *Version*:2025-01 | |
-| Active as of 2025-11-16 | *Responsible:*Agence du numérique en santé | *Computable Name*:CIM11_MMS |
+| Active as of 2025-11-18 | *Responsible:*Agence du numérique en santé | *Computable Name*:CIM11_MMS |
 | *Other Identifiers:*OID:2.16.840.1.113883.6.347 (use: usual, ), https://smt.esante.gouv.fr/#terminologie-cim11-mms (use: secondary, ) | | |
 | **Copyright/Legal**:[CC BY-ND 3.0 IGO](https://creativecommons.org/licenses/by-nd/3.0/igo/legalcode) | | |
 
@@ -22,7 +22,7 @@ La Classification Internationale des Maladies (CIM) dans sa 11ème révision per
 
 version: 6; Dernière mise à jour : 2025-02-25 11:11:24+0000
 
-Profil: [Shareable CodeSystem](http://hl7.org/fhir/R4/shareablecodesystem.html)
+Profil: [Shareable CodeSystemversion: null4.0.1)](http://hl7.org/fhir/R4/shareablecodesystem.html)
 
 **Propriétés**
 
@@ -46,7 +46,7 @@ This code system `https://smt.esante.gouv.fr/terminologie-cim11-mms` defines cod
     "versionId" : "6",
     "lastUpdated" : "2025-02-25T11:11:24.278+00:00",
     "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
   "url" : "https://smt.esante.gouv.fr/terminologie-cim11-mms",
@@ -67,7 +67,7 @@ This code system `https://smt.esante.gouv.fr/terminologie-cim11-mms` defines cod
   "title" : "Classification internationale des maladies et des problèmes de santé connexes - 11ème révision",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-11-16T04:25:57+00:00",
+  "date" : "2025-11-18T17:22:42+00:00",
   "publisher" : "Agence du numérique en santé",
   "description" : "La Classification Internationale des Maladies (CIM) dans sa 11ème révision permet d’établir, partout dans le monde, les statistiques sanitaires. Fournissant un langage commun pour alimenter les dossiers patients électroniques, la CIM11 permet d’échanger des données médicales de manière cohérente et normalisée pour de nombreux cas d’usage (production de soins, coordination professionnelle, pilotage, et exploitation de données)",
   "jurisdiction" : [

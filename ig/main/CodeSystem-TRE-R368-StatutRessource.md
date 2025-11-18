@@ -31,7 +31,7 @@ Caractérise le statut d’une ressource du médico-social au cours de son cycle
     "versionId" : "6",
     "lastUpdated" : "2025-10-02T20:13:53.616+02:00",
     "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
   "extension" : [

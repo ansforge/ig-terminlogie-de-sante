@@ -17,7 +17,7 @@ Table d’association Département- AE responsable pour détermination de l’au
 
 Mapping de [JDV_J258_Departement](ValueSet-JDV-J258-Departement.md) vers [JDV_J170_AutoriteEnregistrement_EPARS](ValueSet-JDV-J170-AutoriteEnregistrement-EPARS.md)
 
-**Groupe 1**Mapping de [TRE_G09_DepartementOM](CodeSystem-TRE-G09-DepartementOM.md) to [TRE_R60_AutoriteEnregistrement](CodeSystem-TRE-R60-AutoriteEnregistrement.md)
+**Groupe 1**Mapping de [TRE_G09_DepartementOMversion: 20240628120000)](CodeSystem-TRE-G09-DepartementOM.md) to [TRE_R60_AutoriteEnregistrementversion: 20240628120000)](CodeSystem-TRE-R60-AutoriteEnregistrement.md)
 
 * **Code source**: 01 (Ain)
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
@@ -375,7 +375,9 @@ Mapping de [JDV_J258_Departement](ValueSet-JDV-J258-Departement.md) vers [JDV_J1
   "group" : [
     {
       "source" : "https://mos.esante.gouv.fr/NOS/TRE_G09-DepartementOM/FHIR/TRE-G09-DepartementOM",
+      "sourceVersion" : "20240628120000",
       "target" : "https://mos.esante.gouv.fr/NOS/TRE_R60-AutoriteEnregistrement/FHIR/TRE-R60-AutoriteEnregistrement",
+      "targetVersion" : "20240628120000",
       "element" : [
         {
           "code" : "01",
