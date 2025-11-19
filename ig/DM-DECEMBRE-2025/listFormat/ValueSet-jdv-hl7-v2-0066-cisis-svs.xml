@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ValueSet dateFin=""
+             dateMaj="20251028115834"
+             dateValid="20241209000000"
+             description="hl7VS-employmentStatus"
+             displayName="Hl7VSEmploymentStatus"
+             id="2.16.840.1.113883.21.29"
+             typeFichier="JDV"
+             urlFichier="">
+      <ConceptList>
+         <Concept code="1"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v2-0066"
+                  displayName="Employé à temps plein"/>
+         <Concept code="2"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v2-0066"
+                  displayName="Employé à temps partiel"/>
+         <Concept code="3"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v2-0066"
+                  displayName="Sans emploi"/>
+         <Concept code="4"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v2-0066"
+                  displayName="Auto-entrepreuneur"/>
+         <Concept code="5"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v2-0066"
+                  displayName="Retraité"/>
+         <Concept code="6"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v2-0066"
+                  displayName="En service militaire actif"/>
+         <Concept code="9"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v2-0066"
+                  displayName="Statut d'emploi inconnu"/>
+         <Concept code="C"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v2-0066"
+                  displayName="Contrat journalier"/>
+         <Concept code="L"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v2-0066"
+                  displayName="Congé (par exemple, congé familial, congé sabbatique, etc.)"/>
+         <Concept code="T"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v2-0066"
+                  displayName="Temporairement sans emploi"/>
+         <Concept code="O"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v2-0066"
+                  displayName="Autre"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>
