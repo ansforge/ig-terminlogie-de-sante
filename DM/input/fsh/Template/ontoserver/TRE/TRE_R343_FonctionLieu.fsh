@@ -1,23 +1,23 @@
 CodeSystem: TRE_R343_FonctionLieu
 Id: TRE-R343-FonctionLieu
 Description: "Destination d'usage du lieu"
-* ^meta.versionId = "6"
-* ^meta.lastUpdated = "2025-07-02T18:17:42.919+00:00"
+* ^meta.versionId = "7"
+* ^meta.lastUpdated = "2025-10-31T15:01:41.551+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2022-09-30T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R343-FonctionLieu/FHIR/TRE-R343-FonctionLieu"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.227"
-* ^version = "20250620120000"
+* ^version = "20251017120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-06-20T12:00:00+01:00"
+* ^date = "2025-10-17T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
-* ^count = 13
+* ^count = 14
 * ^property[0].code = #dateValid
 * ^property[=].description = "date de validité d'un code concept"
 * ^property[=].type = #dateTime
@@ -141,3 +141,10 @@ Description: "Destination d'usage du lieu"
 * #013 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
 * #013 ^property[+].code = #status
 * #013 ^property[=].valueCode = #active
+* #014 "Bloc obstétrical" "Lieu hospitalier dédié à la prise en charge des césariennes, disposant des locaux, du matériel et des équipes pluridisciplinaires (sages-femmes, obstétriciens, anesthésistes, pédiatres) nécessaires à toute heure pour assurer la sécurité de la mère et du nouveau-né, y compris en cas de complications obstétricales."
+* #014 ^property[0].code = #dateValid
+* #014 ^property[=].valueDateTime = "2025-10-17T12:00:00+01:00"
+* #014 ^property[+].code = #dateMaj
+* #014 ^property[=].valueDateTime = "2025-10-17T12:00:00+01:00"
+* #014 ^property[+].code = #status
+* #014 ^property[=].valueCode = #active

@@ -1,23 +1,23 @@
 CodeSystem: TRE_R21_Fonction
 Id: TRE-R21-Fonction
 Description: "Fonction"
-* ^meta.versionId = "8"
-* ^meta.lastUpdated = "2025-07-02T18:13:49.053+00:00"
+* ^meta.versionId = "9"
+* ^meta.lastUpdated = "2025-10-31T14:59:22.247+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2007-07-25T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R21-Fonction/FHIR/TRE-R21-Fonction"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.17"
-* ^version = "20250623120000"
+* ^version = "20251023120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-06-23T12:00:00+01:00"
+* ^date = "2025-10-23T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
-* ^count = 54
+* ^count = 55
 * ^property[0].code = #dateValid
 * ^property[=].description = "date de validité d'un code concept"
 * ^property[=].type = #dateTime
@@ -532,6 +532,7 @@ Description: "Fonction"
 * #FON-59 ^property[=].valueCode = #active
 * #FON-60 "Pharmacien remplaçant BPDO"
 * #FON-60 ^designation[0].language = #fr-FR
+* #FON-60 ^designation[=].use.system = "http://snomed.info/sct"
 * #FON-60 ^designation[=].use = $sct#900000000000013009
 * #FON-60 ^designation[=].value = "Pharmacien remplaçant Bonnes Pratiques de Dispensation d'Oxygène"
 * #FON-60 ^property[0].code = #dateValid
@@ -540,6 +541,16 @@ Description: "Fonction"
 * #FON-60 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
 * #FON-60 ^property[+].code = #status
 * #FON-60 ^property[=].valueCode = #active
+* #FON-62 "Consultations de solidarité territoriale"
+* #FON-62 ^designation[0].language = #fr-FR
+* #FON-62 ^designation[=].use = $sct#900000000000013009
+* #FON-62 ^designation[=].value = "Fonction d'un médecin volontaire exerçant dans une zone rouge identifiée dans le cadre du pacte de solidarité (zone en manque de médecins traitants)"
+* #FON-62 ^property[0].code = #dateValid
+* #FON-62 ^property[=].valueDateTime = "2025-10-23T12:00:00+01:00"
+* #FON-62 ^property[+].code = #dateMaj
+* #FON-62 ^property[=].valueDateTime = "2025-10-23T12:00:00+01:00"
+* #FON-62 ^property[+].code = #status
+* #FON-62 ^property[=].valueCode = #active
 * #FON-AU "Fonction non définie"
 * #FON-AU ^property[0].code = #dateValid
 * #FON-AU ^property[=].valueDateTime = "2007-07-25T15:04:42+01:00"

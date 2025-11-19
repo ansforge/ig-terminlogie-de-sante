@@ -1,8 +1,8 @@
 ValueSet: JDV_J198_FonctionLieu_ROR
 Id: JDV-J198-FonctionLieu-ROR
 Description: "Destination d'usage du lieu pour le lieu de réalisation de l'offre."
-* ^meta.versionId = "6"
-* ^meta.lastUpdated = "2025-07-02T17:05:42.186+00:00"
+* ^meta.versionId = "8"
+* ^meta.lastUpdated = "2025-11-04T19:02:03.306+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,12 +10,12 @@ Description: "Destination d'usage du lieu pour le lieu de réalisation de l'offr
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J198-FonctionLieu-ROR/FHIR/JDV-J198-FonctionLieu-ROR"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.4.30"
-* ^version = "20250620120000"
+* ^version = "20251017120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-06-20T12:00:00+01:00"
+* ^date = "2025-10-17T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R343-FonctionLieu#001 "Hébergement MCO"
 * $TRE-R343-FonctionLieu#002 "Hébergement PSY"
 * $TRE-R343-FonctionLieu#003 "Hébergement MS"
@@ -29,3 +29,4 @@ Description: "Destination d'usage du lieu pour le lieu de réalisation de l'offr
 * $TRE-R343-FonctionLieu#011 "Plateau d’imagerie interventionnelle"
 * $TRE-R343-FonctionLieu#012 "Plateau de réadaptation"
 * $TRE-R343-FonctionLieu#013 "Salle de travail (salle de naissance)"
+* $TRE-R343-FonctionLieu#014 "Bloc obstétrical"

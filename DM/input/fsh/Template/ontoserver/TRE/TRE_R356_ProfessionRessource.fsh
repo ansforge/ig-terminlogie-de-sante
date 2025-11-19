@@ -1,23 +1,23 @@
 CodeSystem: TRE_R356_ProfessionRessource
 Id: TRE-R356-ProfessionRessource
 Description: "Profession Ressource"
-* ^meta.versionId = "8"
-* ^meta.lastUpdated = "2025-07-02T18:17:53.567+00:00"
+* ^meta.versionId = "14"
+* ^meta.lastUpdated = "2025-10-02T20:13:53.106+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2023-03-31T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R356-ProfessionRessource/FHIR/TRE-R356-ProfessionRessource"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.246"
-* ^version = "20250623120000"
+* ^version = "20250918120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-06-23T12:00:00+01:00"
+* ^date = "2025-09-18T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
-* ^count = 98
+* ^count = 99
 * ^property[0].code = #dateValid
 * ^property[=].description = "date de validité d'un code concept"
 * ^property[=].type = #dateTime
@@ -777,10 +777,17 @@ Description: "Profession Ressource"
 * #129 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
 * #129 ^property[+].code = #status
 * #129 ^property[=].valueCode = #active
-* #130 "Psychologue du travail"
+* #130 "Psychologue du travail" "Professionnel de psychologie intervenant en santé au travail pour préserver la santé mentale des salariés et améliorer les conditions de travail, au travers de diagnostics, conseils, évaluation des risques psychosociaux et accompagnement des actions collectives ou individuelles, en lien avec le médecin du travail."
 * #130 ^property[0].code = #dateValid
 * #130 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
 * #130 ^property[+].code = #dateMaj
-* #130 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #130 ^property[=].valueDateTime = "2025-09-18T12:00:00+01:00"
 * #130 ^property[+].code = #status
 * #130 ^property[=].valueCode = #active
+* #131 "Intermédiateur"
+* #131 ^property[0].code = #dateValid
+* #131 ^property[=].valueDateTime = "2025-07-10T12:00:00+01:00"
+* #131 ^property[+].code = #dateMaj
+* #131 ^property[=].valueDateTime = "2025-07-10T12:00:00+01:00"
+* #131 ^property[+].code = #status
+* #131 ^property[=].valueCode = #active

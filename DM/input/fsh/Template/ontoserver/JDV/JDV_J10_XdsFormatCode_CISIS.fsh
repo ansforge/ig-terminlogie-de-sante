@@ -1,8 +1,8 @@
 ValueSet: JDV_J10_XdsFormatCode_CISIS
 Id: JDV-J10-XdsFormatCode-CISIS
 Description: "XDS formatCode documents CI-SIS"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2025-07-02T17:04:46.392+00:00"
+* ^meta.versionId = "6"
+* ^meta.lastUpdated = "2025-11-04T19:01:58.541+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,12 +10,12 @@ Description: "XDS formatCode documents CI-SIS"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J10-XdsFormatCode-CISIS/FHIR/JDV-J10-XdsFormatCode-CISIS"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.1.5.465"
-* ^version = "20240726120000"
+* ^version = "20251029120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2024-07-26T12:00:00+01:00"
+* ^date = "2025-10-29T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-A06-FormatCodeComplementaire#urn:ans:ci-sis:bio-ep-bio:2022 "Prescription d'actes de biologie médicale"
 * $TRE-A06-FormatCodeComplementaire#urn:ans:ci-sis:cse-mde:2023 "Mesures de signes vitaux"
 * $TRE-A06-FormatCodeComplementaire#urn:asip:ci-sis:aunv:2013 "Fiche d'admission en unité neuro-vasculaire"
@@ -60,7 +60,6 @@ Description: "XDS formatCode documents CI-SIS"
 * $TRE-A06-FormatCodeComplementaire#urn:asip:ci-sis:obp-scm:2023 "Synthèse Suites de Couches Mère"
 * $TRE-A06-FormatCodeComplementaire#urn:asip:ci-sis:obp-sem:2023 "Synthèse Enfant en Maternité"
 * $TRE-A06-FormatCodeComplementaire#urn:ans:ci-sis:feuille-de-style:2023 "Feuille de style"
-* $TRE-A06-FormatCodeComplementaire#urn:asip:ci-sis:dlu:2024 "Document de liaison d'urgence"
 * $TRE-A06-FormatCodeComplementaire#urn:asip:ci-sis:ft-su:2024 "Fiche de transfert vers le service des urgences"
 * $TRE-A06-FormatCodeComplementaire#urn:asip:ci-sis:fr-su:2024 "Fiche de retour du service des urgences"
 * $TRE-A06-FormatCodeComplementaire#urn:ans:ci-sis:trod:2024 "Test rapide d'orientation diagnostique"

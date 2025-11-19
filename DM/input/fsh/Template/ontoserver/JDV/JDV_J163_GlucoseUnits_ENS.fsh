@@ -16,5 +16,5 @@ Description: "Liste fermée des unités utilisables pour la mesure du glucose av
 * ^date = "2024-09-27T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
-* UCUM#mg/dL "milligramme par décilitre"
-* UCUM#% "pourcentage"
+* $unitsofmeasure#mg/dL "milligramme par décilitre"
+* $unitsofmeasure#% "pourcentage"

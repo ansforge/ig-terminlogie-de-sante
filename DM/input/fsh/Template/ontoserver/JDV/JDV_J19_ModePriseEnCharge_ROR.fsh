@@ -1,8 +1,8 @@
 ValueSet: JDV_J19_ModePriseEnCharge_ROR
 Id: JDV-J19-ModePriseEnCharge-ROR
 Description: "Mode de la prise en charge - ROR"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2025-07-02T17:05:43.269+00:00"
+* ^meta.versionId = "7"
+* ^meta.lastUpdated = "2025-10-02T19:02:00.951+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,10 +10,10 @@ Description: "Mode de la prise en charge - ROR"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J19-ModePriseEnCharge-ROR/FHIR/JDV-J19-ModePriseEnCharge-ROR"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.4.1"
-* ^version = "20230127120000"
+* ^version = "20250828120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2023-01-27T12:00:00+01:00"
+* ^date = "2025-08-28T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R213-ModePriseEnCharge#01 "Accueil Permanence des soins en établissement de santé"
@@ -29,7 +29,7 @@ Description: "Mode de la prise en charge - ROR"
 * $TRE-R213-ModePriseEnCharge#29 "Hospitalisation de jour (HJ)"
 * $TRE-R213-ModePriseEnCharge#30 "Hospitalisation de nuit (HN)"
 * $TRE-R213-ModePriseEnCharge#31 "Hospitalisation à domicile (HAD)"
-* $TRE-R213-ModePriseEnCharge#32 "Consultation (CS)"
+* $TRE-R213-ModePriseEnCharge#32 "Consultation (CS) ou Séance"
 * $TRE-R213-ModePriseEnCharge#33 "Accueil des urgences"
 * $TRE-R213-ModePriseEnCharge#34 "Hospitalisation de semaine (HS)"
 * $TRE-R213-ModePriseEnCharge#35 "Téléexpertise"

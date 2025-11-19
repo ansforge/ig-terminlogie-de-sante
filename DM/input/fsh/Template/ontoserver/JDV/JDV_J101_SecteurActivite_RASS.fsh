@@ -1,8 +1,8 @@
 ValueSet: JDV_J101_SecteurActivite_RASS
 Id: JDV-J101-SecteurActivite-RASS
 Description: "Secteurs d'activité des établissements avec la même activité dans le RASS"
-* ^meta.versionId = "10"
-* ^meta.lastUpdated = "2025-07-02T17:04:38.689+00:00"
+* ^meta.versionId = "13"
+* ^meta.lastUpdated = "2025-10-02T19:01:53.430+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,10 +10,10 @@ Description: "Secteurs d'activité des établissements avec la même activité d
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J101-SecteurActivite-RASS/FHIR/JDV-J101-SecteurActivite-RASS"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.169"
-* ^version = "20250523120000"
+* ^version = "20250828120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-05-23T12:00:00+01:00"
+* ^date = "2025-08-28T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R02-SecteurActivite#SA01 "Etablissement public de santé"
@@ -26,6 +26,7 @@ Description: "Secteurs d'activité des établissements avec la même activité d
 * $TRE-R02-SecteurActivite#SA08 "Cabinet de groupe"
 * $TRE-R02-SecteurActivite#SA09 "Exercice en société"
 * $TRE-R02-SecteurActivite#SA10 "Transporteur sanitaire"
+* $TRE-R02-SecteurActivite#SA11 "Entreprise d'intérim"
 * $TRE-R02-SecteurActivite#SA12 "Etablissement de soins et prévention"
 * $TRE-R02-SecteurActivite#SA13 "Prévention et soins en entreprise"
 * $TRE-R02-SecteurActivite#SA14 "Etablissements scolaires, universitaires et de formation hors champ FINESS"
@@ -80,5 +81,7 @@ Description: "Secteurs d'activité des établissements avec la même activité d
 * $TRE-R02-SecteurActivite#SA63 "Structures de coordination et d'orientation"
 * $TRE-R02-SecteurActivite#SA64 "Société de téléconsultation"
 * $TRE-R02-SecteurActivite#SA65 "Antenne de pharmacie"
+* $TRE-R02-SecteurActivite#SA66 "Services de Prévention et de Santé au Travail (SPST)"
+* $TRE-R02-SecteurActivite#SA67 "Maisons médicales de garde (MMG)"
 * $TRE-R02-SecteurActivite#SA68 "Services départementaux d'incendie et de secours"
 * $TRE-R02-SecteurActivite#SA69 "Maisons de naissance"
