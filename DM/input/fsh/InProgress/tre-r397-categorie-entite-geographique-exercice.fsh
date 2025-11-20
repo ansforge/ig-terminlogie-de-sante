@@ -8272,7 +8272,7 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #648 ^property[+].code = #status
 * #648 ^property[=].valueCode = #active
 * #690 "Etablissement de Fabrication Annexe à une Officine"
-* #690  ^property[0].code = #niveau
+* #690 ^property[0].code = #niveau
 * #690 ^property[=].valueInteger =  4
 * #690 ^property[+].code = #domaine
 * #690 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
@@ -8294,7 +8294,7 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #690 ^property[+].code = #status
 * #690 ^property[=].valueCode = #deprecated
 * #695 "Groupement de coopération sanitaire de moyens - Exploitant"
-* #695  ^property[0].code = #niveau
+* #695 ^property[0].code = #niveau
 * #695 ^property[=].valueInteger =  4
 * #695 ^property[+].code = #domaine
 * #695 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
@@ -8312,7 +8312,7 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #695 ^property[+].code = #status
 * #695 ^property[=].valueCode = #active
 * #696 "Groupement de coopération sanitaire de moyens"
-* #696  ^property[0].code = #niveau
+* #696 ^property[0].code = #niveau
 * #696 ^property[=].valueInteger =  4
 * #696 ^property[+].code = #domaine
 * #696 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
@@ -8330,7 +8330,7 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #696 ^property[+].code = #status
 * #696 ^property[=].valueCode = #active
 * #697 "Groupement de coopération sanitaire - Etablissement de santé"
-* #697  ^property[0].code = #niveau
+* #697 ^property[0].code = #niveau
 * #697 ^property[=].valueInteger =  4
 * #697 ^property[+].code = #domaine
 * #697 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
@@ -8352,7 +8352,7 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #697 ^property[+].code = #status
 * #697 ^property[=].valueCode = #active
 * #698 "Autre Etablissement Loi Hospitalière"
-* #698  ^property[0].code = #niveau
+* #698 ^property[0].code = #niveau
 * #698 ^property[=].valueInteger =  4
 * #698 ^property[+].code = #domaine
 * #698 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
@@ -8373,7 +8373,7 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #698 ^property[+].code = #status
 * #698 ^property[=].valueCode = #active
 * #699 "Entité Ayant Autorisation"
-* #699  ^property[0].code = #niveau
+* #699 ^property[0].code = #niveau
 * #699 ^property[=].valueInteger =  4
 * #699 ^property[+].code = #domaine
 * #699 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
@@ -8391,7 +8391,7 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #699 ^property[+].code = #status
 * #699 ^property[=].valueCode = #active
 * #700 "Maison sport-santé" "Catégorie créée à la demande du ROR. A date aucun enregistrement n'est prévu dans FINESS pour cette catégorie"
-* #700  ^property[0].code = #niveau
+* #700 ^property[0].code = #niveau
 * #700 ^property[=].valueInteger =  4
 * #700 ^property[+].code = #dateValid
 * #700 ^property[=].valueDateTime = "2024-07-26T12:00:00+01:00"
@@ -8402,7 +8402,7 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #700 ^property[+].code = #specialisationRor
 * #700 ^property[=].valueBoolean = true
 * #701 "Maison des adolescents (MDA)" "Catégorie créée à la demande du ROR. A date aucun enregistrement n'est prévu dans FINESS pour cette catégorie"
-* #701  ^property[0].code = #niveau
+* #701 ^property[0].code = #niveau
 * #701 ^property[=].valueInteger =  4
 * #701 ^designation[0].language = #fr-FR
 * #701 ^designation[=].use.system = "http://snomed.info/sct"
@@ -8417,7 +8417,7 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #701 ^property[+].code = #specialisationRor
 * #701 ^property[=].valueBoolean = true
 * #702 "Point Accueil Ecoute Jeunes (PAEJ)" "Catégorie créée à la demande du ROR. A date aucun enregistrement n'est prévu dans FINESS pour cette catégorie"
-* #702  ^property[0].code = #niveau
+* #702 ^property[0].code = #niveau
 * #702 ^property[=].valueInteger =  4
 * #702 ^designation[0].language = #fr-FR
 * #702 ^designation[=].use.system = "http://snomed.info/sct"
@@ -8432,7 +8432,7 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #702 ^property[+].code = #specialisationRor
 * #702 ^property[=].valueBoolean = true
 * #703 "Espace Santé Jeunes (ESJ)"
-* #703  ^property[0].code = #niveau
+* #703 ^property[0].code = #niveau
 * #703 ^property[=].valueInteger =  4
 * #703 ^designation[0].language = #fr-FR
 * #703 ^designation[=].use = $sct#900000000000013009
@@ -8445,3 +8445,14 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #703 ^property[=].valueCode = #active
 * #703 ^property[+].code = #specialisationRor
 * #703 ^property[=].valueBoolean = true
+* #704 "Autre service territorial" "Points locaux d'information dédiés aux personnes âgées. Ces services peuvent être rattachés à des CCAS ( Centre Communaux d'Action Sociale)"
+* #704 ^property[0].code = #niveau
+* #704 ^property[=].valueInteger =  4
+* #704 ^property[+].code = #dateValid
+* #704 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #704 ^property[+].code = #dateMaj
+* #704 ^property[=].valueDateTime = "2025-04-22T12:00:00+01:00"
+* #704 ^property[+].code = #status
+* #704 ^property[=].valueCode = #active
+* #704 ^property[+].code = #specialisationRor
+* #704 ^property[=].valueBoolean = true

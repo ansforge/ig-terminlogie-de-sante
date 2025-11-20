@@ -3,8 +3,8 @@ Alias: $sct = http://snomed.info/sct
 CodeSystem: TRE_G09_DepartementOM
 Id: TRE-G09-DepartementOM
 Description: "Référentiel des codes départements et collectivités d’outre-mer provenant du COG INSEE + Monaco"
-* ^meta.versionId = "6"
-* ^meta.lastUpdated = "2024-08-28T05:10:50.197+00:00"
+* ^meta.versionId = "7"
+* ^meta.lastUpdated = "2025-07-02T18:11:41.601+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2015-12-30T00:00:00+01:00"
@@ -16,6 +16,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * ^experimental = false
 * ^date = "2024-06-28T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^valueSet = "https://mos.esante.gouv.fr/NOS/TRE_G09-DepartementOM/FHIR/TRE-G09-DepartementOM?vs"
 * ^content = #complete
@@ -39,6 +40,18 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#region"
 * ^property[=].description = "Région dans laquelle se trouve le département"
 * ^property[=].type = #Coding
+* ^property[+].code = #deprecationDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
+* ^property[=].description = "Date Concept was deprecated"
+* ^property[=].type = #dateTime
+* ^property[+].code = #status
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#status"
+* ^property[=].description = "A property that indicates the status of the concept."
+* ^property[=].type = #code
+* ^property[+].code = #retirementDate
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
+* ^property[=].description = "Date Concept was retired"
+* ^property[=].type = #dateTime
 * #01 "Ain"
 * #01 ^designation[0].language = #fr-FR
 * #01 ^designation[=].use.system = "http://snomed.info/sct"
@@ -54,6 +67,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #01 ^property[+].code = #region
 * #01 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #01 ^property[=].valueCoding.code = #84
+* #01 ^property[+].code = #status
+* #01 ^property[=].valueCode = #active
 * #02 "Aisne"
 * #02 ^designation[0].language = #fr-FR
 * #02 ^designation[=].use.system = "http://snomed.info/sct"
@@ -69,6 +84,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #02 ^property[+].code = #region
 * #02 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #02 ^property[=].valueCoding.code = #32
+* #02 ^property[+].code = #status
+* #02 ^property[=].valueCode = #active
 * #03 "Allier"
 * #03 ^designation[0].language = #fr-FR
 * #03 ^designation[=].use.system = "http://snomed.info/sct"
@@ -84,6 +101,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #03 ^property[+].code = #region
 * #03 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #03 ^property[=].valueCoding.code = #84
+* #03 ^property[+].code = #status
+* #03 ^property[=].valueCode = #active
 * #04 "Alpes-de-Haute-Provence"
 * #04 ^designation[0].language = #fr-FR
 * #04 ^designation[=].use.system = "http://snomed.info/sct"
@@ -103,6 +122,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #04 ^property[+].code = #region
 * #04 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #04 ^property[=].valueCoding.code = #93
+* #04 ^property[+].code = #status
+* #04 ^property[=].valueCode = #active
 * #05 "Hautes-Alpes"
 * #05 ^designation[0].language = #fr-FR
 * #05 ^designation[=].use.system = "http://snomed.info/sct"
@@ -122,6 +143,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #05 ^property[+].code = #region
 * #05 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #05 ^property[=].valueCoding.code = #93
+* #05 ^property[+].code = #status
+* #05 ^property[=].valueCode = #active
 * #06 "Alpes-Maritimes"
 * #06 ^designation[0].language = #fr-FR
 * #06 ^designation[=].use.system = "http://snomed.info/sct"
@@ -141,6 +164,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #06 ^property[+].code = #region
 * #06 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #06 ^property[=].valueCoding.code = #93
+* #06 ^property[+].code = #status
+* #06 ^property[=].valueCode = #active
 * #07 "Ardèche"
 * #07 ^designation[0].language = #fr-FR
 * #07 ^designation[=].use.system = "http://snomed.info/sct"
@@ -160,6 +185,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #07 ^property[+].code = #region
 * #07 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #07 ^property[=].valueCoding.code = #84
+* #07 ^property[+].code = #status
+* #07 ^property[=].valueCode = #active
 * #08 "Ardennes"
 * #08 ^designation[0].language = #fr-FR
 * #08 ^designation[=].use.system = "http://snomed.info/sct"
@@ -175,6 +202,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #08 ^property[+].code = #region
 * #08 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #08 ^property[=].valueCoding.code = #44
+* #08 ^property[+].code = #status
+* #08 ^property[=].valueCode = #active
 * #09 "Ariège"
 * #09 ^designation[0].language = #fr-FR
 * #09 ^designation[=].use.system = "http://snomed.info/sct"
@@ -194,6 +223,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #09 ^property[+].code = #region
 * #09 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #09 ^property[=].valueCoding.code = #76
+* #09 ^property[+].code = #status
+* #09 ^property[=].valueCode = #active
 * #10 "Aube"
 * #10 ^designation[0].language = #fr-FR
 * #10 ^designation[=].use.system = "http://snomed.info/sct"
@@ -209,6 +240,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #10 ^property[+].code = #region
 * #10 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #10 ^property[=].valueCoding.code = #44
+* #10 ^property[+].code = #status
+* #10 ^property[=].valueCode = #active
 * #11 "Aude"
 * #11 ^designation[0].language = #fr-FR
 * #11 ^designation[=].use.system = "http://snomed.info/sct"
@@ -224,6 +257,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #11 ^property[+].code = #region
 * #11 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #11 ^property[=].valueCoding.code = #76
+* #11 ^property[+].code = #status
+* #11 ^property[=].valueCode = #active
 * #12 "Aveyron"
 * #12 ^designation[0].language = #fr-FR
 * #12 ^designation[=].use.system = "http://snomed.info/sct"
@@ -239,6 +274,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #12 ^property[+].code = #region
 * #12 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #12 ^property[=].valueCoding.code = #76
+* #12 ^property[+].code = #status
+* #12 ^property[=].valueCode = #active
 * #13 "Bouches-du-Rhône"
 * #13 ^designation[0].language = #fr-FR
 * #13 ^designation[=].use.system = "http://snomed.info/sct"
@@ -258,6 +295,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #13 ^property[+].code = #region
 * #13 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #13 ^property[=].valueCoding.code = #93
+* #13 ^property[+].code = #status
+* #13 ^property[=].valueCode = #active
 * #14 "Calvados"
 * #14 ^designation[0].language = #fr-FR
 * #14 ^designation[=].use.system = "http://snomed.info/sct"
@@ -273,6 +312,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #14 ^property[+].code = #region
 * #14 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #14 ^property[=].valueCoding.code = #28
+* #14 ^property[+].code = #status
+* #14 ^property[=].valueCode = #active
 * #15 "Cantal"
 * #15 ^designation[0].language = #fr-FR
 * #15 ^designation[=].use.system = "http://snomed.info/sct"
@@ -288,6 +329,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #15 ^property[+].code = #region
 * #15 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #15 ^property[=].valueCoding.code = #84
+* #15 ^property[+].code = #status
+* #15 ^property[=].valueCode = #active
 * #16 "Charente"
 * #16 ^designation[0].language = #fr-FR
 * #16 ^designation[=].use.system = "http://snomed.info/sct"
@@ -303,6 +346,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #16 ^property[+].code = #region
 * #16 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #16 ^property[=].valueCoding.code = #75
+* #16 ^property[+].code = #status
+* #16 ^property[=].valueCode = #active
 * #17 "Charente-Maritime"
 * #17 ^designation[0].language = #fr-FR
 * #17 ^designation[=].use.system = "http://snomed.info/sct"
@@ -322,6 +367,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #17 ^property[+].code = #region
 * #17 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #17 ^property[=].valueCoding.code = #75
+* #17 ^property[+].code = #status
+* #17 ^property[=].valueCode = #active
 * #18 "Cher"
 * #18 ^designation[0].language = #fr-FR
 * #18 ^designation[=].use.system = "http://snomed.info/sct"
@@ -337,6 +384,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #18 ^property[+].code = #region
 * #18 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #18 ^property[=].valueCoding.code = #24
+* #18 ^property[+].code = #status
+* #18 ^property[=].valueCode = #active
 * #19 "Corrèze"
 * #19 ^designation[0].language = #fr-FR
 * #19 ^designation[=].use.system = "http://snomed.info/sct"
@@ -356,6 +405,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #19 ^property[+].code = #region
 * #19 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #19 ^property[=].valueCoding.code = #75
+* #19 ^property[+].code = #status
+* #19 ^property[=].valueCode = #active
 * #20 "Corse (Ancien Code)"
 * #20 ^designation[0].language = #fr-FR
 * #20 ^designation[=].use.system = "http://snomed.info/sct"
@@ -370,6 +421,10 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #20 ^property[+].code = #region
 * #20 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #20 ^property[=].valueCoding.code = #94
+* #20 ^property[+].code = #status
+* #20 ^property[=].valueCode = #deprecated
+* #20 ^property[+].code = #deprecationDate
+* #20 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #21 "Côte-d'Or"
 * #21 ^designation[0].language = #fr-FR
 * #21 ^designation[=].use.system = "http://snomed.info/sct"
@@ -389,6 +444,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #21 ^property[+].code = #region
 * #21 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #21 ^property[=].valueCoding.code = #27
+* #21 ^property[+].code = #status
+* #21 ^property[=].valueCode = #active
 * #22 "Côtes-d'Armor"
 * #22 ^designation[0].language = #fr-FR
 * #22 ^designation[=].use.system = "http://snomed.info/sct"
@@ -408,6 +465,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #22 ^property[+].code = #region
 * #22 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #22 ^property[=].valueCoding.code = #53
+* #22 ^property[+].code = #status
+* #22 ^property[=].valueCode = #active
 * #23 "Creuse"
 * #23 ^designation[0].language = #fr-FR
 * #23 ^designation[=].use.system = "http://snomed.info/sct"
@@ -423,6 +482,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #23 ^property[+].code = #region
 * #23 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #23 ^property[=].valueCoding.code = #75
+* #23 ^property[+].code = #status
+* #23 ^property[=].valueCode = #active
 * #24 "Dordogne"
 * #24 ^designation[0].language = #fr-FR
 * #24 ^designation[=].use.system = "http://snomed.info/sct"
@@ -438,6 +499,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #24 ^property[+].code = #region
 * #24 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #24 ^property[=].valueCoding.code = #75
+* #24 ^property[+].code = #status
+* #24 ^property[=].valueCode = #active
 * #25 "Doubs"
 * #25 ^designation[0].language = #fr-FR
 * #25 ^designation[=].use.system = "http://snomed.info/sct"
@@ -453,6 +516,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #25 ^property[+].code = #region
 * #25 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #25 ^property[=].valueCoding.code = #27
+* #25 ^property[+].code = #status
+* #25 ^property[=].valueCode = #active
 * #26 "Drôme"
 * #26 ^designation[0].language = #fr-FR
 * #26 ^designation[=].use.system = "http://snomed.info/sct"
@@ -472,6 +537,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #26 ^property[+].code = #region
 * #26 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #26 ^property[=].valueCoding.code = #84
+* #26 ^property[+].code = #status
+* #26 ^property[=].valueCode = #active
 * #27 "Eure"
 * #27 ^designation[0].language = #fr-FR
 * #27 ^designation[=].use.system = "http://snomed.info/sct"
@@ -487,6 +554,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #27 ^property[+].code = #region
 * #27 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #27 ^property[=].valueCoding.code = #28
+* #27 ^property[+].code = #status
+* #27 ^property[=].valueCode = #active
 * #28 "Eure-et-Loir"
 * #28 ^designation[0].language = #fr-FR
 * #28 ^designation[=].use.system = "http://snomed.info/sct"
@@ -506,6 +575,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #28 ^property[+].code = #region
 * #28 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #28 ^property[=].valueCoding.code = #24
+* #28 ^property[+].code = #status
+* #28 ^property[=].valueCode = #active
 * #29 "Finistère"
 * #29 ^designation[0].language = #fr-FR
 * #29 ^designation[=].use.system = "http://snomed.info/sct"
@@ -525,6 +596,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #29 ^property[+].code = #region
 * #29 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #29 ^property[=].valueCoding.code = #53
+* #29 ^property[+].code = #status
+* #29 ^property[=].valueCode = #active
 * #30 "Gard"
 * #30 ^designation[0].language = #fr-FR
 * #30 ^designation[=].use.system = "http://snomed.info/sct"
@@ -540,6 +613,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #30 ^property[+].code = #region
 * #30 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #30 ^property[=].valueCoding.code = #76
+* #30 ^property[+].code = #status
+* #30 ^property[=].valueCode = #active
 * #31 "Haute-Garonne"
 * #31 ^designation[0].language = #fr-FR
 * #31 ^designation[=].use.system = "http://snomed.info/sct"
@@ -559,6 +634,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #31 ^property[+].code = #region
 * #31 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #31 ^property[=].valueCoding.code = #76
+* #31 ^property[+].code = #status
+* #31 ^property[=].valueCode = #active
 * #32 "Gers"
 * #32 ^designation[0].language = #fr-FR
 * #32 ^designation[=].use.system = "http://snomed.info/sct"
@@ -574,6 +651,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #32 ^property[+].code = #region
 * #32 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #32 ^property[=].valueCoding.code = #76
+* #32 ^property[+].code = #status
+* #32 ^property[=].valueCode = #active
 * #33 "Gironde"
 * #33 ^designation[0].language = #fr-FR
 * #33 ^designation[=].use.system = "http://snomed.info/sct"
@@ -589,6 +668,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #33 ^property[+].code = #region
 * #33 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #33 ^property[=].valueCoding.code = #75
+* #33 ^property[+].code = #status
+* #33 ^property[=].valueCode = #active
 * #34 "Hérault"
 * #34 ^designation[0].language = #fr-FR
 * #34 ^designation[=].use.system = "http://snomed.info/sct"
@@ -608,6 +689,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #34 ^property[+].code = #region
 * #34 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #34 ^property[=].valueCoding.code = #76
+* #34 ^property[+].code = #status
+* #34 ^property[=].valueCode = #active
 * #35 "Ille-et-Vilaine"
 * #35 ^designation[0].language = #fr-FR
 * #35 ^designation[=].use.system = "http://snomed.info/sct"
@@ -627,6 +710,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #35 ^property[+].code = #region
 * #35 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #35 ^property[=].valueCoding.code = #53
+* #35 ^property[+].code = #status
+* #35 ^property[=].valueCode = #active
 * #36 "Indre"
 * #36 ^designation[0].language = #fr-FR
 * #36 ^designation[=].use.system = "http://snomed.info/sct"
@@ -642,6 +727,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #36 ^property[+].code = #region
 * #36 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #36 ^property[=].valueCoding.code = #24
+* #36 ^property[+].code = #status
+* #36 ^property[=].valueCode = #active
 * #37 "Indre-et-Loire"
 * #37 ^designation[0].language = #fr-FR
 * #37 ^designation[=].use.system = "http://snomed.info/sct"
@@ -661,6 +748,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #37 ^property[+].code = #region
 * #37 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #37 ^property[=].valueCoding.code = #24
+* #37 ^property[+].code = #status
+* #37 ^property[=].valueCode = #active
 * #38 "Isère"
 * #38 ^designation[0].language = #fr-FR
 * #38 ^designation[=].use.system = "http://snomed.info/sct"
@@ -680,6 +769,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #38 ^property[+].code = #region
 * #38 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #38 ^property[=].valueCoding.code = #84
+* #38 ^property[+].code = #status
+* #38 ^property[=].valueCode = #active
 * #39 "Jura"
 * #39 ^designation[0].language = #fr-FR
 * #39 ^designation[=].use.system = "http://snomed.info/sct"
@@ -695,6 +786,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #39 ^property[+].code = #region
 * #39 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #39 ^property[=].valueCoding.code = #27
+* #39 ^property[+].code = #status
+* #39 ^property[=].valueCode = #active
 * #40 "Landes"
 * #40 ^designation[0].language = #fr-FR
 * #40 ^designation[=].use.system = "http://snomed.info/sct"
@@ -710,6 +803,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #40 ^property[+].code = #region
 * #40 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #40 ^property[=].valueCoding.code = #75
+* #40 ^property[+].code = #status
+* #40 ^property[=].valueCode = #active
 * #41 "Loir-et-Cher"
 * #41 ^designation[0].language = #fr-FR
 * #41 ^designation[=].use.system = "http://snomed.info/sct"
@@ -729,6 +824,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #41 ^property[+].code = #region
 * #41 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #41 ^property[=].valueCoding.code = #24
+* #41 ^property[+].code = #status
+* #41 ^property[=].valueCode = #active
 * #42 "Loire"
 * #42 ^designation[0].language = #fr-FR
 * #42 ^designation[=].use.system = "http://snomed.info/sct"
@@ -744,6 +841,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #42 ^property[+].code = #region
 * #42 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #42 ^property[=].valueCoding.code = #84
+* #42 ^property[+].code = #status
+* #42 ^property[=].valueCode = #active
 * #43 "Haute-Loire"
 * #43 ^designation[0].language = #fr-FR
 * #43 ^designation[=].use.system = "http://snomed.info/sct"
@@ -763,6 +862,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #43 ^property[+].code = #region
 * #43 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #43 ^property[=].valueCoding.code = #84
+* #43 ^property[+].code = #status
+* #43 ^property[=].valueCode = #active
 * #44 "Loire-Atlantique"
 * #44 ^designation[0].language = #fr-FR
 * #44 ^designation[=].use.system = "http://snomed.info/sct"
@@ -782,6 +883,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #44 ^property[+].code = #region
 * #44 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #44 ^property[=].valueCoding.code = #52
+* #44 ^property[+].code = #status
+* #44 ^property[=].valueCode = #active
 * #45 "Loiret"
 * #45 ^designation[0].language = #fr-FR
 * #45 ^designation[=].use.system = "http://snomed.info/sct"
@@ -797,6 +900,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #45 ^property[+].code = #region
 * #45 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #45 ^property[=].valueCoding.code = #24
+* #45 ^property[+].code = #status
+* #45 ^property[=].valueCode = #active
 * #46 "Lot"
 * #46 ^designation[0].language = #fr-FR
 * #46 ^designation[=].use.system = "http://snomed.info/sct"
@@ -812,6 +917,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #46 ^property[+].code = #region
 * #46 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #46 ^property[=].valueCoding.code = #76
+* #46 ^property[+].code = #status
+* #46 ^property[=].valueCode = #active
 * #47 "Lot-et-Garonne"
 * #47 ^designation[0].language = #fr-FR
 * #47 ^designation[=].use.system = "http://snomed.info/sct"
@@ -831,6 +938,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #47 ^property[+].code = #region
 * #47 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #47 ^property[=].valueCoding.code = #75
+* #47 ^property[+].code = #status
+* #47 ^property[=].valueCode = #active
 * #48 "Lozère"
 * #48 ^designation[0].language = #fr-FR
 * #48 ^designation[=].use.system = "http://snomed.info/sct"
@@ -850,6 +959,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #48 ^property[+].code = #region
 * #48 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #48 ^property[=].valueCoding.code = #76
+* #48 ^property[+].code = #status
+* #48 ^property[=].valueCode = #active
 * #49 "Maine-et-Loire"
 * #49 ^designation[0].language = #fr-FR
 * #49 ^designation[=].use.system = "http://snomed.info/sct"
@@ -869,6 +980,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #49 ^property[+].code = #region
 * #49 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #49 ^property[=].valueCoding.code = #52
+* #49 ^property[+].code = #status
+* #49 ^property[=].valueCode = #active
 * #50 "Manche"
 * #50 ^designation[0].language = #fr-FR
 * #50 ^designation[=].use.system = "http://snomed.info/sct"
@@ -884,6 +997,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #50 ^property[+].code = #region
 * #50 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #50 ^property[=].valueCoding.code = #28
+* #50 ^property[+].code = #status
+* #50 ^property[=].valueCode = #active
 * #51 "Marne"
 * #51 ^designation[0].language = #fr-FR
 * #51 ^designation[=].use.system = "http://snomed.info/sct"
@@ -899,6 +1014,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #51 ^property[+].code = #region
 * #51 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #51 ^property[=].valueCoding.code = #44
+* #51 ^property[+].code = #status
+* #51 ^property[=].valueCode = #active
 * #52 "Haute-Marne"
 * #52 ^designation[0].language = #fr-FR
 * #52 ^designation[=].use.system = "http://snomed.info/sct"
@@ -918,6 +1035,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #52 ^property[+].code = #region
 * #52 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #52 ^property[=].valueCoding.code = #44
+* #52 ^property[+].code = #status
+* #52 ^property[=].valueCode = #active
 * #53 "Mayenne"
 * #53 ^designation[0].language = #fr-FR
 * #53 ^designation[=].use.system = "http://snomed.info/sct"
@@ -933,6 +1052,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #53 ^property[+].code = #region
 * #53 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #53 ^property[=].valueCoding.code = #52
+* #53 ^property[+].code = #status
+* #53 ^property[=].valueCode = #active
 * #54 "Meurthe-et-Moselle"
 * #54 ^designation[0].language = #fr-FR
 * #54 ^designation[=].use.system = "http://snomed.info/sct"
@@ -952,6 +1073,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #54 ^property[+].code = #region
 * #54 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #54 ^property[=].valueCoding.code = #44
+* #54 ^property[+].code = #status
+* #54 ^property[=].valueCode = #active
 * #55 "Meuse"
 * #55 ^designation[0].language = #fr-FR
 * #55 ^designation[=].use.system = "http://snomed.info/sct"
@@ -967,6 +1090,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #55 ^property[+].code = #region
 * #55 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #55 ^property[=].valueCoding.code = #44
+* #55 ^property[+].code = #status
+* #55 ^property[=].valueCode = #active
 * #56 "Morbihan"
 * #56 ^designation[0].language = #fr-FR
 * #56 ^designation[=].use.system = "http://snomed.info/sct"
@@ -982,6 +1107,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #56 ^property[+].code = #region
 * #56 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #56 ^property[=].valueCoding.code = #53
+* #56 ^property[+].code = #status
+* #56 ^property[=].valueCode = #active
 * #57 "Moselle"
 * #57 ^designation[0].language = #fr-FR
 * #57 ^designation[=].use.system = "http://snomed.info/sct"
@@ -997,6 +1124,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #57 ^property[+].code = #region
 * #57 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #57 ^property[=].valueCoding.code = #44
+* #57 ^property[+].code = #status
+* #57 ^property[=].valueCode = #active
 * #58 "Nièvre"
 * #58 ^designation[0].language = #fr-FR
 * #58 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1016,6 +1145,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #58 ^property[+].code = #region
 * #58 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #58 ^property[=].valueCoding.code = #27
+* #58 ^property[+].code = #status
+* #58 ^property[=].valueCode = #active
 * #59 "Nord"
 * #59 ^designation[0].language = #fr-FR
 * #59 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1031,6 +1162,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #59 ^property[+].code = #region
 * #59 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #59 ^property[=].valueCoding.code = #32
+* #59 ^property[+].code = #status
+* #59 ^property[=].valueCode = #active
 * #60 "Oise"
 * #60 ^designation[0].language = #fr-FR
 * #60 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1046,6 +1179,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #60 ^property[+].code = #region
 * #60 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #60 ^property[=].valueCoding.code = #32
+* #60 ^property[+].code = #status
+* #60 ^property[=].valueCode = #active
 * #61 "Orne"
 * #61 ^designation[0].language = #fr-FR
 * #61 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1061,6 +1196,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #61 ^property[+].code = #region
 * #61 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #61 ^property[=].valueCoding.code = #28
+* #61 ^property[+].code = #status
+* #61 ^property[=].valueCode = #active
 * #62 "Pas-de-Calais"
 * #62 ^designation[0].language = #fr-FR
 * #62 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1080,6 +1217,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #62 ^property[+].code = #region
 * #62 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #62 ^property[=].valueCoding.code = #32
+* #62 ^property[+].code = #status
+* #62 ^property[=].valueCode = #active
 * #63 "Puy-de-Dôme"
 * #63 ^designation[0].language = #fr-FR
 * #63 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1099,6 +1238,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #63 ^property[+].code = #region
 * #63 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #63 ^property[=].valueCoding.code = #84
+* #63 ^property[+].code = #status
+* #63 ^property[=].valueCode = #active
 * #64 "Pyrénées-Atlantiques"
 * #64 ^designation[0].language = #fr-FR
 * #64 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1118,6 +1259,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #64 ^property[+].code = #region
 * #64 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #64 ^property[=].valueCoding.code = #75
+* #64 ^property[+].code = #status
+* #64 ^property[=].valueCode = #active
 * #65 "Hautes-Pyrénées"
 * #65 ^designation[0].language = #fr-FR
 * #65 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1137,6 +1280,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #65 ^property[+].code = #region
 * #65 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #65 ^property[=].valueCoding.code = #76
+* #65 ^property[+].code = #status
+* #65 ^property[=].valueCode = #active
 * #66 "Pyrénées-Orientales"
 * #66 ^designation[0].language = #fr-FR
 * #66 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1156,6 +1301,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #66 ^property[+].code = #region
 * #66 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #66 ^property[=].valueCoding.code = #76
+* #66 ^property[+].code = #status
+* #66 ^property[=].valueCode = #active
 * #67 "Bas-Rhin"
 * #67 ^designation[0].language = #fr-FR
 * #67 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1175,6 +1322,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #67 ^property[+].code = #region
 * #67 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #67 ^property[=].valueCoding.code = #44
+* #67 ^property[+].code = #status
+* #67 ^property[=].valueCode = #active
 * #68 "Haut-Rhin"
 * #68 ^designation[0].language = #fr-FR
 * #68 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1194,6 +1343,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #68 ^property[+].code = #region
 * #68 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #68 ^property[=].valueCoding.code = #44
+* #68 ^property[+].code = #status
+* #68 ^property[=].valueCode = #active
 * #69 "Rhône"
 * #69 ^designation[0].language = #fr-FR
 * #69 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1213,6 +1364,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #69 ^property[+].code = #region
 * #69 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #69 ^property[=].valueCoding.code = #84
+* #69 ^property[+].code = #status
+* #69 ^property[=].valueCode = #active
 * #70 "Haute-Saône"
 * #70 ^designation[0].language = #fr-FR
 * #70 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1232,6 +1385,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #70 ^property[+].code = #region
 * #70 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #70 ^property[=].valueCoding.code = #27
+* #70 ^property[+].code = #status
+* #70 ^property[=].valueCode = #active
 * #71 "Saône-et-Loire"
 * #71 ^designation[0].language = #fr-FR
 * #71 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1251,6 +1406,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #71 ^property[+].code = #region
 * #71 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #71 ^property[=].valueCoding.code = #27
+* #71 ^property[+].code = #status
+* #71 ^property[=].valueCode = #active
 * #72 "Sarthe"
 * #72 ^designation[0].language = #fr-FR
 * #72 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1266,6 +1423,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #72 ^property[+].code = #region
 * #72 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #72 ^property[=].valueCoding.code = #52
+* #72 ^property[+].code = #status
+* #72 ^property[=].valueCode = #active
 * #73 "Savoie"
 * #73 ^designation[0].language = #fr-FR
 * #73 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1281,6 +1440,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #73 ^property[+].code = #region
 * #73 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #73 ^property[=].valueCoding.code = #84
+* #73 ^property[+].code = #status
+* #73 ^property[=].valueCode = #active
 * #74 "Haute-Savoie"
 * #74 ^designation[0].language = #fr-FR
 * #74 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1300,6 +1461,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #74 ^property[+].code = #region
 * #74 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #74 ^property[=].valueCoding.code = #84
+* #74 ^property[+].code = #status
+* #74 ^property[=].valueCode = #active
 * #75 "Paris"
 * #75 ^designation[0].language = #fr-FR
 * #75 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1315,6 +1478,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #75 ^property[+].code = #region
 * #75 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #75 ^property[=].valueCoding.code = #11
+* #75 ^property[+].code = #status
+* #75 ^property[=].valueCode = #active
 * #76 "Seine-Maritime"
 * #76 ^designation[0].language = #fr-FR
 * #76 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1334,6 +1499,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #76 ^property[+].code = #region
 * #76 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #76 ^property[=].valueCoding.code = #28
+* #76 ^property[+].code = #status
+* #76 ^property[=].valueCode = #active
 * #77 "Seine-et-Marne"
 * #77 ^designation[0].language = #fr-FR
 * #77 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1353,6 +1520,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #77 ^property[+].code = #region
 * #77 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #77 ^property[=].valueCoding.code = #11
+* #77 ^property[+].code = #status
+* #77 ^property[=].valueCode = #active
 * #78 "Yvelines"
 * #78 ^designation[0].language = #fr-FR
 * #78 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1368,6 +1537,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #78 ^property[+].code = #region
 * #78 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #78 ^property[=].valueCoding.code = #11
+* #78 ^property[+].code = #status
+* #78 ^property[=].valueCode = #active
 * #79 "Deux-Sèvres"
 * #79 ^designation[0].language = #fr-FR
 * #79 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1387,6 +1558,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #79 ^property[+].code = #region
 * #79 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #79 ^property[=].valueCoding.code = #75
+* #79 ^property[+].code = #status
+* #79 ^property[=].valueCode = #active
 * #80 "Somme"
 * #80 ^designation[0].language = #fr-FR
 * #80 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1402,6 +1575,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #80 ^property[+].code = #region
 * #80 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #80 ^property[=].valueCoding.code = #32
+* #80 ^property[+].code = #status
+* #80 ^property[=].valueCode = #active
 * #81 "Tarn"
 * #81 ^designation[0].language = #fr-FR
 * #81 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1417,6 +1592,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #81 ^property[+].code = #region
 * #81 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #81 ^property[=].valueCoding.code = #76
+* #81 ^property[+].code = #status
+* #81 ^property[=].valueCode = #active
 * #82 "Tarn-et-Garonne"
 * #82 ^designation[0].language = #fr-FR
 * #82 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1436,6 +1613,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #82 ^property[+].code = #region
 * #82 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #82 ^property[=].valueCoding.code = #76
+* #82 ^property[+].code = #status
+* #82 ^property[=].valueCode = #active
 * #83 "Var"
 * #83 ^designation[0].language = #fr-FR
 * #83 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1451,6 +1630,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #83 ^property[+].code = #region
 * #83 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #83 ^property[=].valueCoding.code = #93
+* #83 ^property[+].code = #status
+* #83 ^property[=].valueCode = #active
 * #84 "Vaucluse"
 * #84 ^designation[0].language = #fr-FR
 * #84 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1466,6 +1647,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #84 ^property[+].code = #region
 * #84 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #84 ^property[=].valueCoding.code = #93
+* #84 ^property[+].code = #status
+* #84 ^property[=].valueCode = #active
 * #85 "Vendée"
 * #85 ^designation[0].language = #fr-FR
 * #85 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1485,6 +1668,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #85 ^property[+].code = #region
 * #85 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #85 ^property[=].valueCoding.code = #52
+* #85 ^property[+].code = #status
+* #85 ^property[=].valueCode = #active
 * #86 "Vienne"
 * #86 ^designation[0].language = #fr-FR
 * #86 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1500,6 +1685,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #86 ^property[+].code = #region
 * #86 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #86 ^property[=].valueCoding.code = #75
+* #86 ^property[+].code = #status
+* #86 ^property[=].valueCode = #active
 * #87 "Haute-Vienne"
 * #87 ^designation[0].language = #fr-FR
 * #87 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1519,6 +1706,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #87 ^property[+].code = #region
 * #87 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #87 ^property[=].valueCoding.code = #75
+* #87 ^property[+].code = #status
+* #87 ^property[=].valueCode = #active
 * #88 "Vosges"
 * #88 ^designation[0].language = #fr-FR
 * #88 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1534,6 +1723,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #88 ^property[+].code = #region
 * #88 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #88 ^property[=].valueCoding.code = #44
+* #88 ^property[+].code = #status
+* #88 ^property[=].valueCode = #active
 * #89 "Yonne"
 * #89 ^designation[0].language = #fr-FR
 * #89 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1549,6 +1740,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #89 ^property[+].code = #region
 * #89 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #89 ^property[=].valueCoding.code = #27
+* #89 ^property[+].code = #status
+* #89 ^property[=].valueCode = #active
 * #90 "Territoire de Belfort"
 * #90 ^designation[0].language = #fr-FR
 * #90 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1564,6 +1757,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #90 ^property[+].code = #region
 * #90 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #90 ^property[=].valueCoding.code = #27
+* #90 ^property[+].code = #status
+* #90 ^property[=].valueCode = #active
 * #91 "Essonne"
 * #91 ^designation[0].language = #fr-FR
 * #91 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1579,6 +1774,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #91 ^property[+].code = #region
 * #91 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #91 ^property[=].valueCoding.code = #11
+* #91 ^property[+].code = #status
+* #91 ^property[=].valueCode = #active
 * #92 "Hauts-de-Seine"
 * #92 ^designation[0].language = #fr-FR
 * #92 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1598,6 +1795,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #92 ^property[+].code = #region
 * #92 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #92 ^property[=].valueCoding.code = #11
+* #92 ^property[+].code = #status
+* #92 ^property[=].valueCode = #active
 * #93 "Seine-Saint-Denis"
 * #93 ^designation[0].language = #fr-FR
 * #93 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1617,6 +1816,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #93 ^property[+].code = #region
 * #93 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #93 ^property[=].valueCoding.code = #11
+* #93 ^property[+].code = #status
+* #93 ^property[=].valueCode = #active
 * #94 "Val-de-Marne"
 * #94 ^designation[0].language = #fr-FR
 * #94 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1636,6 +1837,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #94 ^property[+].code = #region
 * #94 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #94 ^property[=].valueCoding.code = #11
+* #94 ^property[+].code = #status
+* #94 ^property[=].valueCode = #active
 * #95 "Val-d'Oise"
 * #95 ^designation[0].language = #fr-FR
 * #95 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1655,6 +1858,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #95 ^property[+].code = #region
 * #95 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #95 ^property[=].valueCoding.code = #11
+* #95 ^property[+].code = #status
+* #95 ^property[=].valueCode = #active
 * #971 "Guadeloupe"
 * #971 ^designation[0].language = #fr-FR
 * #971 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1670,6 +1875,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #971 ^property[+].code = #region
 * #971 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #971 ^property[=].valueCoding.code = #1
+* #971 ^property[+].code = #status
+* #971 ^property[=].valueCode = #active
 * #972 "Martinique"
 * #972 ^designation[0].language = #fr-FR
 * #972 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1685,6 +1892,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #972 ^property[+].code = #region
 * #972 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #972 ^property[=].valueCoding.code = #2
+* #972 ^property[+].code = #status
+* #972 ^property[=].valueCode = #active
 * #973 "Guyane"
 * #973 ^designation[0].language = #fr-FR
 * #973 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1700,6 +1909,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #973 ^property[+].code = #region
 * #973 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #973 ^property[=].valueCoding.code = #3
+* #973 ^property[+].code = #status
+* #973 ^property[=].valueCode = #active
 * #974 "La Réunion"
 * #974 ^designation[0].language = #fr-FR
 * #974 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1719,6 +1930,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #974 ^property[+].code = #region
 * #974 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #974 ^property[=].valueCoding.code = #4
+* #974 ^property[+].code = #status
+* #974 ^property[=].valueCode = #active
 * #975 "Saint-Pierre-et-Miquelon"
 * #975 ^designation[0].language = #fr-FR
 * #975 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1731,6 +1944,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #975 ^property[+].code = #region
 * #975 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #975 ^property[=].valueCoding.code = #975
+* #975 ^property[+].code = #status
+* #975 ^property[=].valueCode = #active
 * #976 "Mayotte"
 * #976 ^designation[0].language = #fr-FR
 * #976 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1746,6 +1961,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #976 ^property[+].code = #region
 * #976 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #976 ^property[=].valueCoding.code = #6
+* #976 ^property[+].code = #status
+* #976 ^property[=].valueCode = #active
 * #977 "Saint-Barthélemy"
 * #977 ^designation[0].language = #fr-FR
 * #977 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1765,6 +1982,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #977 ^property[+].code = #region
 * #977 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #977 ^property[=].valueCoding.code = #977
+* #977 ^property[+].code = #status
+* #977 ^property[=].valueCode = #active
 * #978 "Saint-Martin"
 * #978 ^designation[0].language = #fr-FR
 * #978 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1784,6 +2003,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #978 ^property[+].code = #region
 * #978 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #978 ^property[=].valueCoding.code = #978
+* #978 ^property[+].code = #status
+* #978 ^property[=].valueCode = #active
 * #984 "Terres australes et antarctiques françaises"
 * #984 ^designation[0].language = #fr-FR
 * #984 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1800,6 +2021,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #984 ^property[+].code = #region
 * #984 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #984 ^property[=].valueCoding.code = #984
+* #984 ^property[+].code = #status
+* #984 ^property[=].valueCode = #active
 * #985 "Mayotte (Ancien Code)"
 * #985 ^designation[0].language = #fr-FR
 * #985 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1814,6 +2037,10 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #985 ^property[+].code = #region
 * #985 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #985 ^property[=].valueCoding.code = #985
+* #985 ^property[+].code = #status
+* #985 ^property[=].valueCode = #deprecated
+* #985 ^property[+].code = #deprecationDate
+* #985 ^property[=].valueDateTime = "2009-10-23T00:00:00+01:00"
 * #986 "Wallis-et-Futuna"
 * #986 ^designation[0].language = #fr-FR
 * #986 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1830,6 +2057,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #986 ^property[+].code = #region
 * #986 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #986 ^property[=].valueCoding.code = #986
+* #986 ^property[+].code = #status
+* #986 ^property[=].valueCode = #active
 * #987 "Polynésie française"
 * #987 ^designation[0].language = #fr-FR
 * #987 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1846,6 +2075,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #987 ^property[+].code = #region
 * #987 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #987 ^property[=].valueCoding.code = #987
+* #987 ^property[+].code = #status
+* #987 ^property[=].valueCode = #active
 * #988 "Nouvelle-Calédonie"
 * #988 ^designation[0].language = #fr-FR
 * #988 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1862,6 +2093,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #988 ^property[+].code = #region
 * #988 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #988 ^property[=].valueCoding.code = #988
+* #988 ^property[+].code = #status
+* #988 ^property[=].valueCode = #active
 * #989 "La Passion-Clipperton"
 * #989 ^designation[0].language = #fr-FR
 * #989 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1878,6 +2111,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #989 ^property[+].code = #region
 * #989 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #989 ^property[=].valueCoding.code = #989
+* #989 ^property[+].code = #status
+* #989 ^property[=].valueCode = #active
 * #98000 "Monaco"
 * #98000 ^designation[0].language = #fr-FR
 * #98000 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1892,6 +2127,10 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #98000 ^property[+].code = #region
 * #98000 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #98000 ^property[=].valueCoding.code = #98000
+* #98000 ^property[+].code = #status
+* #98000 ^property[=].valueCode = #deprecated
+* #98000 ^property[+].code = #deprecationDate
+* #98000 ^property[=].valueDateTime = "2016-02-05T00:00:00+01:00"
 * #99138 "Principauté de Monaco"
 * #99138 ^designation[0].language = #fr-FR
 * #99138 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1908,6 +2147,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #99138 ^property[+].code = #region
 * #99138 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #99138 ^property[=].valueCoding.code = #99138
+* #99138 ^property[+].code = #status
+* #99138 ^property[=].valueCode = #active
 * #2A "Corse-du-Sud"
 * #2A ^designation[0].language = #fr-FR
 * #2A ^designation[=].use.system = "http://snomed.info/sct"
@@ -1927,6 +2168,8 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #2A ^property[+].code = #region
 * #2A ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #2A ^property[=].valueCoding.code = #94
+* #2A ^property[+].code = #status
+* #2A ^property[=].valueCode = #active
 * #2B "Haute-Corse"
 * #2B ^designation[0].language = #fr-FR
 * #2B ^designation[=].use.system = "http://snomed.info/sct"
@@ -1946,3 +2189,5 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #2B ^property[+].code = #region
 * #2B ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
 * #2B ^property[=].valueCoding.code = #94
+* #2B ^property[+].code = #status
+* #2B ^property[=].valueCode = #active
