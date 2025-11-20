@@ -1,0 +1,27 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-2918",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-2918",
+  "name" : "UnionJdvTypeSondeGastriqueCisisAndJdvTypeSondeGastriqueCisis",
+  "title" : "Union of JDV Type Sonde Gastrique CISIS And JDV Type Sonde Gastrique CISIS",
+  "status" : "active",
+  "date" : "2025-11-20T16:10:30+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "G020299",
+        "display" : "SONDES DE NUTRITION/ASPIRATION GASTRO-INTESTINALES - AUTRES"
+      },
+      {
+        "code" : "G02020101",
+        "display" : "SONDES NASO-GASTRIQUES"
+      }]
+    }]
+  }
+}

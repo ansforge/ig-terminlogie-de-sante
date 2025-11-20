@@ -1,0 +1,25 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-1089",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-1089",
+  "name" : "IntersectionJDV_J185_TypeFermeture_RORAndJDV_J185_TypeFermeture_ROR",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-11-20T16:10:29+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "DEF",
+        "display" : "Définitive"
+      },
+      {
+        "code" : "PRO",
+        "display" : "Provisoire"
+      },
+      {
+        "code" : "PRE",
+        "display" : "Prévisionnelle"
+      }]
+    }]
+  }
+}

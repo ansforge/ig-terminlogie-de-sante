@@ -1,0 +1,39 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-2202",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-2202",
+  "name" : "IntersectionJdvLocalisationHemorragieCerebraleCisisAndJdvLocalisationHemorragieCerebraleCisis",
+  "title" : "Intersection of JDV Localisation Hemorragie Cerebrale CISIS And JDV Localisation Hemorragie Cerebrale CISIS",
+  "status" : "active",
+  "date" : "2025-11-20T16:10:30+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-446",
+        "display" : "Hémisphère topographie profonde"
+      },
+      {
+        "code" : "MED-447",
+        "display" : "Hémisphère topographie lobaire"
+      },
+      {
+        "code" : "MED-448",
+        "display" : "Hémisphère topographie intraventriculaire pure"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "113305005",
+        "display" : "cervelet"
+      },
+      {
+        "code" : "15926001",
+        "display" : "tronc de l'encéphale"
+      },
+      {
+        "code" : "35764002",
+        "display" : "ventricule cérébral"
+      }]
+    }]
+  }
+}

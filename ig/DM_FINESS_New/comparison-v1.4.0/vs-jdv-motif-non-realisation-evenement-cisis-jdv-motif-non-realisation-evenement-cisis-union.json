@@ -1,0 +1,43 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-2333",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-2333",
+  "name" : "UnionJdvMotifNonRealisationEvenementCisisAndJdvMotifNonRealisationEvenementCisis",
+  "title" : "Union of JDV Motif Non Realisation Evenement CISIS And JDV Motif Non Realisation Evenement CISIS",
+  "status" : "active",
+  "date" : "2025-11-20T16:10:30+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "GEN-357",
+        "display" : "Motif lié à la structure"
+      },
+      {
+        "code" : "ORG-077",
+        "display" : "Hospitalisation (y compris à domicile)"
+      },
+      {
+        "code" : "GEN-358",
+        "display" : "Motif lié à l'usager"
+      },
+      {
+        "code" : "GEN-359",
+        "display" : "Motif lié aux professionnels"
+      },
+      {
+        "code" : "GEN-360",
+        "display" : "Motif lié à des facteurs externes"
+      },
+      {
+        "code" : "GEN-361",
+        "display" : "Motif administratif ou légal"
+      }]
+    }]
+  }
+}

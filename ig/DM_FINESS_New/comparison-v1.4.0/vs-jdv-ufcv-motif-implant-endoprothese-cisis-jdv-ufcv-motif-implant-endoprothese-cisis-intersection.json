@@ -1,0 +1,29 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-2964",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-2964",
+  "name" : "IntersectionJdvUfcvMotifImplantEndoprotheseCisisAndJdvUfcvMotifImplantEndoprotheseCisis",
+  "title" : "Intersection of JDV UFCV Motif Implant Endoprothese CISIS And JDV UFCV Motif Implant Endoprothese CISIS",
+  "status" : "active",
+  "date" : "2025-11-20T16:10:30+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-1318",
+        "display" : "S+T+ (Segment ST sus-décalé avec augmentation des troponines)"
+      },
+      {
+        "code" : "MED-1319",
+        "display" : "S+T- (Segment ST sus-décalé sans augmentation des troponines)"
+      },
+      {
+        "code" : "MED-1320",
+        "display" : "S-T- (Segment ST non sus-décalé sans augmentation des troponines)"
+      },
+      {
+        "code" : "MED-1321",
+        "display" : "IMS (Ischémie Myocardique Silencieuse)"
+      }]
+    }]
+  }
+}

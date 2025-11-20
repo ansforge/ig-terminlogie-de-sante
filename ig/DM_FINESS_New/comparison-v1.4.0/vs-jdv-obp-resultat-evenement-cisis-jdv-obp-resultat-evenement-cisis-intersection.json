@@ -1,0 +1,47 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-2400",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-2400",
+  "name" : "IntersectionJdvObpResultatEvenementCisisAndJdvObpResultatEvenementCisis",
+  "title" : "Intersection of JDV Obp Resultat Evenement CISIS And JDV Obp Resultat Evenement CISIS",
+  "status" : "active",
+  "date" : "2025-11-20T16:10:30+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-1223",
+        "display" : "Présentation fœtale"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "73771-8",
+        "display" : "Rang de naissance"
+      },
+      {
+        "code" : "11884-4",
+        "display" : "Age gestationnel du fœtus (estimation clinique)"
+      },
+      {
+        "code" : "3156-7",
+        "display" : "Volume de liquique amniotique"
+      },
+      {
+        "code" : "38386-9",
+        "display" : "Couleur du liquide amniotique"
+      },
+      {
+        "code" : "56829-5",
+        "display" : "Durée d’ouverture de l’œuf"
+      },
+      {
+        "code" : "73757-7",
+        "display" : "Enfant vivant"
+      },
+      {
+        "code" : "92022-3",
+        "display" : "Cause initiale du décès\u00a0fœtus"
+      }]
+    }]
+  }
+}

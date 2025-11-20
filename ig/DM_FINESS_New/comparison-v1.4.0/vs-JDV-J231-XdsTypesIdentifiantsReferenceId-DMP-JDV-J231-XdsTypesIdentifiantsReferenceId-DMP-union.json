@@ -1,0 +1,37 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-1238",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-1238",
+  "name" : "UnionJDV_J231_XdsTypesIdentifiantsReferenceId_DMPAndJDV_J231_XdsTypesIdentifiantsReferenceId_DMP",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-11-20T16:10:29+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  },
+  {
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "urn:ihe:iti:xds:2013:accession",
+        "display" : "accession"
+      },
+      {
+        "code" : "urn:ihe:iti:xds:2013:order",
+        "display" : "order"
+      },
+      {
+        "code" : "urn:ihe:iti:xds:2016:studyInstanceUID",
+        "display" : "studyInstanceUID"
+      }]
+    }]
+  }
+}

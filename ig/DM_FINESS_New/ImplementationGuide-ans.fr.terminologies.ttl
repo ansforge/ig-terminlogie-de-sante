@@ -52,7 +52,7 @@
        fhir:link <http://terminology.hl7.org/ImplementationGuide/hl7.terminology>
      ] ;
      fhir:packageId [ fhir:v "hl7.terminology.r4" ] ;
-     fhir:version [ fhir:v "6.5.0" ]
+     fhir:version [ fhir:v "7.0.0" ]
   ] [
      fhir:id [ fhir:v "hl7ext" ] ;
      fhir:extension ( [
@@ -44782,6 +44782,23 @@
          fhir:reference [ fhir:v "ConceptMap/alignement-nuva-bdpm" ]
        ] ;
        fhir:name [ fhir:v "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ConceptMap"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ConceptMap/alignement-bdpm-cipucd> ;
+         fhir:reference [ fhir:v "ConceptMap/alignement-bdpm-cipucd" ]
+       ] ;
+       fhir:name [ fhir:v "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false

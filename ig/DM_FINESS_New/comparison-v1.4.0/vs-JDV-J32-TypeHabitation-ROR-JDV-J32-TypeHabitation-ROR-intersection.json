@@ -1,0 +1,41 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-1389",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-1389",
+  "name" : "IntersectionJDV_J32_TypeHabitation_RORAndJDV_J32_TypeHabitation_ROR",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-11-20T16:10:29+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "01",
+        "display" : "Chambre double"
+      },
+      {
+        "code" : "02",
+        "display" : "Chambre simple"
+      },
+      {
+        "code" : "03",
+        "display" : "F1"
+      },
+      {
+        "code" : "04",
+        "display" : "F2"
+      },
+      {
+        "code" : "05",
+        "display" : "F1bis"
+      },
+      {
+        "code" : "06",
+        "display" : "F3"
+      },
+      {
+        "code" : "07",
+        "display" : "F4"
+      }]
+    }]
+  }
+}

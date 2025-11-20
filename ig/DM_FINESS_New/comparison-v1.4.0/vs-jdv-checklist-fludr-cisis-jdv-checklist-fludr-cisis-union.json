@@ -1,0 +1,27 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-1721",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-1721",
+  "name" : "UnionJdvChecklistFludrCisisAndJdvChecklistFludrCisis",
+  "title" : "Union of JDV Checklist Fludr CISIS And JDV Checklist Fludr CISIS",
+  "status" : "active",
+  "date" : "2025-11-20T16:10:29+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "DLU_020",
+        "display" : "Ordonnance de sortie"
+      },
+      {
+        "code" : "DLU_021",
+        "display" : "Copie du dossier des urgences"
+      }]
+    }]
+  }
+}

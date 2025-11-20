@@ -1,0 +1,21 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-1599",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-1599",
+  "name" : "IntersectionJdvAbsentOrUnknownImmunizationCisisAndJdvAbsentOrUnknownImmunizationCisis",
+  "title" : "Intersection of JDV Absent Or Unknown Immunization CISIS And JDV Absent Or Unknown Immunization CISIS",
+  "status" : "active",
+  "date" : "2025-11-20T16:10:29+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "no-immunization-info",
+        "display" : "Pas d'information sur les vaccins"
+      },
+      {
+        "code" : "no-known-immunizations",
+        "display" : "Pas de vaccin connu"
+      }]
+    }]
+  }
+}

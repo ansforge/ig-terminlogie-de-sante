@@ -1,0 +1,39 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-1866",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-1866",
+  "name" : "IntersectionJdvEtatPerineeCisisAndJdvEtatPerineeCisis",
+  "title" : "Intersection of JDV Etat Perinee CISIS And JDV Etat Perinee CISIS",
+  "status" : "active",
+  "date" : "2025-11-20T16:10:30+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "O70.0",
+        "display" : "Déchirure obstétricale du périnée, du premier degré"
+      },
+      {
+        "code" : "O70.1",
+        "display" : "Déchirure obstétricale du périnée, du deuxième degré"
+      },
+      {
+        "code" : "O70.2",
+        "display" : "Déchirure obstétricale du périnée, du troisième degré"
+      },
+      {
+        "code" : "O70.3",
+        "display" : "Déchirure obstétricale du périnée, du quatrième degré"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "289854007",
+        "display" : "périnée intact"
+      },
+      {
+        "code" : "860603002",
+        "display" : "plaie d'épisiotomie"
+      }]
+    }]
+  }
+}

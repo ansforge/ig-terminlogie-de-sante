@@ -1,0 +1,27 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-1703",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-1703",
+  "name" : "UnionJdvCasSporadiqueFamilialCisisAndJdvCasSporadiqueFamilialCisis",
+  "title" : "Union of JDV Cas Sporadique Familial CISIS And JDV Cas Sporadique Familial CISIS",
+  "status" : "active",
+  "date" : "2025-11-20T16:10:29+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "75741005",
+        "display" : "sporadique"
+      },
+      {
+        "code" : "255401001",
+        "display" : "familial"
+      }]
+    }]
+  }
+}

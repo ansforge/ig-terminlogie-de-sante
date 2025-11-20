@@ -1,0 +1,37 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-1281",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-1281",
+  "name" : "IntersectionJDV_J246_Titre_CISISAndJDV_J246_Titre_CISIS",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-11-20T16:10:29+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "DR",
+        "display" : "Docteur"
+      },
+      {
+        "code" : "MC",
+        "display" : "Médecin chef"
+      },
+      {
+        "code" : "MG",
+        "display" : "Médecin général"
+      },
+      {
+        "code" : "PC",
+        "display" : "Pharmacien chef"
+      },
+      {
+        "code" : "PG",
+        "display" : "Pharmacien général"
+      },
+      {
+        "code" : "PR",
+        "display" : "Professeur"
+      }]
+    }]
+  }
+}

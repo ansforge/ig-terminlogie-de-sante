@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-2207",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-2207",
+  "name" : "UnionJdvLocalisationPrelevementCcuCisisAndJdvLocalisationPrelevementCcuCisis",
+  "title" : "Union of JDV Localisation Prelevement Ccu CISIS And JDV Localisation Prelevement Ccu CISIS",
+  "status" : "active",
+  "date" : "2025-11-20T16:10:30+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "76784001",
+        "display" : "vagin"
+      },
+      {
+        "code" : "36973007",
+        "display" : "endocol utérin"
+      },
+      {
+        "code" : "28349006",
+        "display" : "exocol utérin"
+      }]
+    }]
+  }
+}

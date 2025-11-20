@@ -1,0 +1,41 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-2712",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-2712",
+  "name" : "IntersectionJdvStatutTabagiqueCisisAndJdvStatutTabagiqueCisis",
+  "title" : "Intersection of JDV Statut Tabagique CISIS And JDV Statut Tabagique CISIS",
+  "status" : "active",
+  "date" : "2025-11-20T16:10:30+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "449868002",
+        "display" : "fume quotidiennement"
+      },
+      {
+        "code" : "428041000124106",
+        "display" : "fume occasionnellement"
+      },
+      {
+        "code" : "8517006",
+        "display" : "ne fume plus"
+      },
+      {
+        "code" : "266919005",
+        "display" : "n'a jamais fumé"
+      },
+      {
+        "code" : "266927001",
+        "display" : "consommation de tabac inconnue"
+      },
+      {
+        "code" : "56771006",
+        "display" : "fume plus de 20 fois par jour"
+      },
+      {
+        "code" : "56578002",
+        "display" : "fume 20 fois ou moins par jour"
+      }]
+    }]
+  }
+}

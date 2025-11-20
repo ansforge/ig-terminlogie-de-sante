@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-2967",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-2967",
+  "name" : "IntersectionJdvUfcvPolariteSondeCisisAndJdvUfcvPolariteSondeCisis",
+  "title" : "Intersection of JDV UFCV Polarite Sonde CISIS And JDV UFCV Polarite Sonde CISIS",
+  "status" : "active",
+  "date" : "2025-11-20T16:10:30+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-1186",
+        "display" : "Quadripolaire"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "J0190010101",
+        "display" : "SONDES DE STIMULATION CARDIAQUE ENDOCAVITAIRES UNIPOLAIRES AURICULAIRE ET VENTRICULAIRE"
+      },
+      {
+        "code" : "J0190010102",
+        "display" : "SONDES DE STIMULATION CARDIAQUE ENDOCAVITAIRES BIPOLAIRES AURICULAIRE ET VENTRICULAIRE À FIXATION ACTIVE OU PASSIVE"
+      },
+      {
+        "code" : "J0190010103",
+        "display" : "SONDES DE STIMULATION VENTRICULAIRE GAUCHE POUR STIMULATEURS TRIPLE CHAMBRE"
+      }]
+    }]
+  }
+}

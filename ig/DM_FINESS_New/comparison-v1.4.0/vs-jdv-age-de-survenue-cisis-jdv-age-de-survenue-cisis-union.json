@@ -1,0 +1,39 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-1634",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-1634",
+  "name" : "UnionJdvAgeDeSurvenueCisisAndJdvAgeDeSurvenueCisis",
+  "title" : "Union of JDV Age De Survenue CISIS And JDV Age De Survenue CISIS",
+  "status" : "active",
+  "date" : "2025-11-20T16:10:29+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "GEN-287",
+        "display" : "avant 30 ans"
+      },
+      {
+        "code" : "GEN-288",
+        "display" : "entre 30 et 39 ans"
+      },
+      {
+        "code" : "GEN-289",
+        "display" : "entre 40 et 49 ans"
+      },
+      {
+        "code" : "GEN-290",
+        "display" : "entre 50 et 59 ans"
+      },
+      {
+        "code" : "GEN-291",
+        "display" : "avant 70 ans"
+      }]
+    }]
+  }
+}

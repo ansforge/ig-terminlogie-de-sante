@@ -1,0 +1,29 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-1332",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-1332",
+  "name" : "IntersectionJDV_J262_SexeAndJDV_J262_Sexe",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-11-20T16:10:29+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "UN",
+        "display" : "Inconnu"
+      },
+      {
+        "code" : "F",
+        "display" : "Féminin"
+      },
+      {
+        "code" : "M",
+        "display" : "Masculin"
+      },
+      {
+        "code" : "O",
+        "display" : "Autre sexe (ni masculin, ni féminin)"
+      }]
+    }]
+  }
+}

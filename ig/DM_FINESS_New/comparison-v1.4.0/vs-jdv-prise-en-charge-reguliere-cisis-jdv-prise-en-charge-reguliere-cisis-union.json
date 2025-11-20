@@ -1,0 +1,29 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-2447",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-2447",
+  "name" : "UnionJdvPriseEnChargeReguliereCisisAndJdvPriseEnChargeReguliereCisis",
+  "title" : "Union of JDV Prise En Charge Reguliere CISIS And JDV Prise En Charge Reguliere CISIS",
+  "status" : "active",
+  "date" : "2025-11-20T16:10:30+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "ORG-163",
+        "display" : "Consultation de spécialité"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "409073007",
+        "display" : "éducation"
+      }]
+    }]
+  }
+}

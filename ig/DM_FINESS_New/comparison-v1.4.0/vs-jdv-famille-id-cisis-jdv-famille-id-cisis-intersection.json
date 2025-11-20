@@ -1,0 +1,33 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-1950",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-1950",
+  "name" : "IntersectionJdvFamilleIdCisisAndJdvFamilleIdCisis",
+  "title" : "Intersection of JDV Famille Id CISIS And JDV Famille Id CISIS",
+  "status" : "active",
+  "date" : "2025-11-20T16:10:30+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "DAU",
+        "display" : "Fille"
+      },
+      {
+        "code" : "PGRMTH",
+        "display" : "Grand-mère paternelle"
+      },
+      {
+        "code" : "MGRMTH",
+        "display" : "Grand-mère maternelle"
+      },
+      {
+        "code" : "MTH",
+        "display" : "Mère"
+      },
+      {
+        "code" : "SIS",
+        "display" : "Sœur"
+      }]
+    }]
+  }
+}

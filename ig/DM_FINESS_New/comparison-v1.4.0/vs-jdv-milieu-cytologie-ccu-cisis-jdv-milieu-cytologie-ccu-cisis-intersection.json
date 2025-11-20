@@ -1,0 +1,37 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-2253",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-2253",
+  "name" : "IntersectionJdvMilieuCytologieCcuCisisAndJdvMilieuCytologieCcuCisis",
+  "title" : "Intersection of JDV Milieu Cytologie Ccu CISIS And JDV Milieu Cytologie Ccu CISIS",
+  "status" : "active",
+  "date" : "2025-11-20T16:10:30+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "GEN-303",
+        "display" : "Hologic ThinPrep PreservCyt"
+      },
+      {
+        "code" : "GEN-304",
+        "display" : "BD Surepath"
+      },
+      {
+        "code" : "GEN-305",
+        "display" : "Easyfix VWR"
+      },
+      {
+        "code" : "GEN-306",
+        "display" : "Cyt-ALL Alphapath"
+      },
+      {
+        "code" : "GEN-307",
+        "display" : "Pretect Transportation Medium"
+      },
+      {
+        "code" : "GEN-092.08.07",
+        "display" : "Autre milieu"
+      }]
+    }]
+  }
+}

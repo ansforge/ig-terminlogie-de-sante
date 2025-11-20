@@ -1,0 +1,21 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-2937",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-2937",
+  "name" : "IntersectionJdvUfcvComposantProtheseValvulaireCisisAndJdvUfcvComposantProtheseValvulaireCisis",
+  "title" : "Intersection of JDV UFCV Composant Prothese Valvulaire CISIS And JDV UFCV Composant Prothese Valvulaire CISIS",
+  "status" : "active",
+  "date" : "2025-11-20T16:10:30+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "7970006",
+        "display" : "allogreffe"
+      },
+      {
+        "code" : "15879007",
+        "display" : "autogreffe"
+      }]
+    }]
+  }
+}

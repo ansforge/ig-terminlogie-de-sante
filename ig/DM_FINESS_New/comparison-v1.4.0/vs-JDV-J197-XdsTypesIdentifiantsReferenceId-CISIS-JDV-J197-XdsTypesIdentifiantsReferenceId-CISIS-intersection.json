@@ -1,0 +1,41 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-1128",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-1128",
+  "name" : "IntersectionJDV_J197_XdsTypesIdentifiantsReferenceId_CISISAndJDV_J197_XdsTypesIdentifiantsReferenceId_CISIS",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-11-20T16:10:29+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "urn:ihe:iti:xds:2013:uniqueId",
+        "display" : "uniqueId"
+      },
+      {
+        "code" : "urn:ihe:iti:xds:2013:accession",
+        "display" : "accession"
+      },
+      {
+        "code" : "urn:ihe:iti:xds:2013:referral",
+        "display" : "referral"
+      },
+      {
+        "code" : "urn:ihe:iti:xds:2013:order",
+        "display" : "order"
+      },
+      {
+        "code" : "urn:ihe:iti:xdw:2013:workflowInstanceId",
+        "display" : "workflowInstanceId"
+      },
+      {
+        "code" : "urn:ihe:iti:xds:2016:studyInstanceUID",
+        "display" : "studyInstanceUID"
+      },
+      {
+        "code" : "urn:ihe:iti:xds:2015:encounterId",
+        "display" : "encounterId"
+      }]
+    }]
+  }
+}

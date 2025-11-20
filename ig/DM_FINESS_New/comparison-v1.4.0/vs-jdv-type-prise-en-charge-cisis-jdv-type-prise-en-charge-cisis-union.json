@@ -1,0 +1,51 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-2900",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-2900",
+  "name" : "UnionJdvTypePriseEnChargeCisisAndJdvTypePriseEnChargeCisis",
+  "title" : "Union of JDV Type Prise En Charge CISIS And JDV Type Prise En Charge CISIS",
+  "status" : "active",
+  "date" : "2025-11-20T16:10:30+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "ORG-165",
+        "display" : "Séjour de répit"
+      },
+      {
+        "code" : "GEN-092.06.01",
+        "display" : "Autre établissement de santé"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "28",
+        "display" : "Hospitalisation complète (HC)"
+      },
+      {
+        "code" : "29",
+        "display" : "Hospitalisation de jour (HJ)"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "255",
+        "display" : "Maison d'Accueil Spécialisée (M.A.S.)"
+      },
+      {
+        "code" : "127",
+        "display" : "Hospitalisation à Domicile"
+      },
+      {
+        "code" : "354",
+        "display" : "Service de Soins Infirmiers A Domicile (S.S.I.A.D)"
+      }]
+    }]
+  }
+}

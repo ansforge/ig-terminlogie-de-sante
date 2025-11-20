@@ -1,0 +1,21 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-2889",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-2889",
+  "name" : "IntersectionJdvTypeMigraineCisisAndJdvTypeMigraineCisis",
+  "title" : "Intersection of JDV Type Migraine CISIS And JDV Type Migraine CISIS",
+  "status" : "active",
+  "date" : "2025-11-20T16:10:30+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "G43.1",
+        "display" : "Migraine avec aura [migraine classique]"
+      },
+      {
+        "code" : "G43.0",
+        "display" : "Migraine sans aura [migraine commune]"
+      }]
+    }]
+  }
+}

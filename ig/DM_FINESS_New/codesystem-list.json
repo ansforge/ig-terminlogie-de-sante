@@ -2673,7 +2673,7 @@
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-ccam",
-      "version" : "v79.10",
+      "version" : "v80.00",
       "status" : "active",
       "name" : "CCAM",
       "title" : "Classification Commune des Actes Médicaux",
@@ -2718,7 +2718,7 @@
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-lahn",
-      "version" : "2024 v1.0",
+      "version" : "2025 v1.0",
       "status" : "active",
       "name" : "LAHN",
       "title" : "Liste des Actes Inovants Hors Nomenclature",

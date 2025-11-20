@@ -1,0 +1,41 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-1571",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-1571",
+  "name" : "UnionJDV_J97_StatutProfessionnelSSA_RASSAndJDV_J97_StatutProfessionnelSSA_RASS",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-11-20T16:10:29+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  },
+  {
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "STA-SSA-01",
+        "display" : "Praticien"
+      },
+      {
+        "code" : "STA-SSA-02",
+        "display" : "Praticien confirmé"
+      },
+      {
+        "code" : "STA-SSA-03",
+        "display" : "Praticien certifié"
+      },
+      {
+        "code" : "STA-SSA-04",
+        "display" : "Praticien agrégé"
+      }]
+    }]
+  }
+}

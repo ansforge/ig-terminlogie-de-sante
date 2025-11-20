@@ -1,0 +1,33 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-1740",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-1740",
+  "name" : "IntersectionJdvClassificationAcrEchographieCisisAndJdvClassificationAcrEchographieCisis",
+  "title" : "Intersection of JDV Classification Acr Echographie CISIS And JDV Classification Acr Echographie CISIS",
+  "status" : "active",
+  "date" : "2025-11-20T16:10:29+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-1099",
+        "display" : "ACR 1"
+      },
+      {
+        "code" : "MED-1100",
+        "display" : "ACR 2"
+      },
+      {
+        "code" : "MED-1101",
+        "display" : "ACR 3"
+      },
+      {
+        "code" : "MED-1102",
+        "display" : "ACR 4"
+      },
+      {
+        "code" : "MED-1103",
+        "display" : "ACR 5"
+      }]
+    }]
+  }
+}

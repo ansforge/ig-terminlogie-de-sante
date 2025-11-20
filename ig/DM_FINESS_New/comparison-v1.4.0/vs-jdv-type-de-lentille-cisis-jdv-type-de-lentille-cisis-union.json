@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-2819",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-2819",
+  "name" : "UnionJdvTypeDeLentilleCisisAndJdvTypeDeLentilleCisis",
+  "title" : "Union of JDV Type De Lentille CISIS And JDV Type De Lentille CISIS",
+  "status" : "active",
+  "date" : "2025-11-20T16:10:30+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-1218",
+        "display" : "Lentille souple"
+      },
+      {
+        "code" : "MED-1219",
+        "display" : "Lentille rigide"
+      },
+      {
+        "code" : "MED-1220",
+        "display" : "Lentille hybride"
+      }]
+    }]
+  }
+}

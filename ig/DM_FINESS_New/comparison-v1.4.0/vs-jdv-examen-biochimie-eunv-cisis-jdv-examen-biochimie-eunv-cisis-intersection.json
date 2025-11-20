@@ -1,0 +1,53 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-1911",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-1911",
+  "name" : "IntersectionJdvExamenBiochimieEunvCisisAndJdvExamenBiochimieEunvCisis",
+  "title" : "Intersection of JDV Examen Biochimie Eunv CISIS And JDV Examen Biochimie Eunv CISIS",
+  "status" : "active",
+  "date" : "2025-11-20T16:10:30+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "2093-3",
+        "display" : "Cholestérol [Masse/Volume] Sérum/Plasma ; Numérique"
+      },
+      {
+        "code" : "2571-8",
+        "display" : "Triglycérides [Masse/Volume] Sérum/Plasma ; Numérique"
+      },
+      {
+        "code" : "2089-1",
+        "display" : "Cholestérol LDL [Masse/Volume] Sérum/Plasma ; Numérique"
+      },
+      {
+        "code" : "2085-9",
+        "display" : "Cholestérol HDL [Masse/Volume] Sérum/Plasma ; Numérique"
+      },
+      {
+        "code" : "2345-7",
+        "display" : "Glucose [Masse/Volume] Sérum/Plasma ; Numérique"
+      },
+      {
+        "code" : "53049-3",
+        "display" : "Glucose à jeun [Masse/Volume] Sérum/Plasma ; Numérique"
+      },
+      {
+        "code" : "27353-2",
+        "display" : "Glucose estimation moyenne [Masse/Volume] Sang ; Numérique ; Estimation hémoglobine glyquée"
+      },
+      {
+        "code" : "14682-9",
+        "display" : "Créatinine [Moles/Volume] Sérum/Plasma ; Numérique"
+      },
+      {
+        "code" : "35591-7",
+        "display" : "Créatinine clairance calculée [Volume/Temps] Sérum/Plasma ; Numérique ; Formule de Cockroft-Gault"
+      },
+      {
+        "code" : "1988-5",
+        "display" : "C Réactive protéine [Masse/Volume] Sérum/Plasma ; Numérique"
+      }]
+    }]
+  }
+}

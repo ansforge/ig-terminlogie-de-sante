@@ -1,0 +1,39 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-1674",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-1674",
+  "name" : "IntersectionJdvArterePosterieureCisisAndJdvArterePosterieureCisis",
+  "title" : "Intersection of JDV Artere Posterieure CISIS And JDV Artere Posterieure CISIS",
+  "status" : "active",
+  "date" : "2025-11-20T16:10:29+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-486",
+        "display" : "Artère cérébrale postérieure (ACP) territoire profond branches thalamoperforées"
+      },
+      {
+        "code" : "MED-487",
+        "display" : "Artère cérébrale postérieure (ACP) territoire profond branches thalamogéniculées"
+      },
+      {
+        "code" : "MED-465",
+        "display" : "Artère cérébrale postérieure territoire superficiel"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "70382005",
+        "display" : "Artère cérébrale postérieure"
+      },
+      {
+        "code" : "43119007",
+        "display" : "Artère communicante postérieure"
+      },
+      {
+        "code" : "7736000",
+        "display" : "Artère choroïdienne postérieure"
+      }]
+    }]
+  }
+}

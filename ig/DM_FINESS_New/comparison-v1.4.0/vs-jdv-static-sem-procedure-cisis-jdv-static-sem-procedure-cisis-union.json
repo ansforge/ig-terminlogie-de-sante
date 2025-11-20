@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-2687",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-2687",
+  "name" : "UnionJdvStaticSemProcedureCisisAndJdvStaticSemProcedureCisis",
+  "title" : "Union of JDV Static Sem Procedure CISIS And JDV Static Sem Procedure CISIS",
+  "status" : "active",
+  "date" : "2025-11-20T16:10:30+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "JQQP003",
+        "display" : "Autopsie médicale d'un fœtus ou d'un nouveau-né de moins de 4 jours de vie, avec examen de l'encéphale"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "GEN-092.04.13",
+        "display" : "Autre acte"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "275977009",
+        "display" : "test néonatal de 14 maladies congénitales"
+      }]
+    }]
+  }
+}

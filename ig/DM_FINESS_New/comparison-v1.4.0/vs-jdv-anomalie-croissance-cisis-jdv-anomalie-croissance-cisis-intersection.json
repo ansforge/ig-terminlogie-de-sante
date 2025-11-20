@@ -1,0 +1,23 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-1644",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-1644",
+  "name" : "IntersectionJdvAnomalieCroissanceCisisAndJdvAnomalieCroissanceCisis",
+  "title" : "Intersection of JDV Anomalie Croissance CISIS And JDV Anomalie Croissance CISIS",
+  "status" : "active",
+  "date" : "2025-11-20T16:10:29+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "P05.9",
+        "display" : "Croissance lente du fœtus, sans précision"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "MED-1261",
+        "display" : "Pas d'anomalie de croissance intra-utérine"
+      }]
+    }]
+  }
+}

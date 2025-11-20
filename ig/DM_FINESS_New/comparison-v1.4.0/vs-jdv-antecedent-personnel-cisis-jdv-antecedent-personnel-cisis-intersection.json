@@ -1,0 +1,39 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-1662",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-1662",
+  "name" : "IntersectionJdvAntecedentPersonnelCisisAndJdvAntecedentPersonnelCisis",
+  "title" : "Intersection of JDV Antecedent Personnel CISIS And JDV Antecedent Personnel CISIS",
+  "status" : "active",
+  "date" : "2025-11-20T16:10:29+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "C81",
+        "display" : "Lymphome de Hodgkin"
+      },
+      {
+        "code" : "D48.6",
+        "display" : "Tumeur à évolution imprévisible et inconnue du sein"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "443508001",
+        "display" : "pas d'antécédent médical personnel"
+      },
+      {
+        "code" : "118445002",
+        "display" : "ablation d'un néoplasme bénin"
+      },
+      {
+        "code" : "370611004",
+        "display" : "excision d'un néoplasme malin"
+      },
+      {
+        "code" : "56306000",
+        "display" : "chirurgie esthétique"
+      }]
+    }]
+  }
+}

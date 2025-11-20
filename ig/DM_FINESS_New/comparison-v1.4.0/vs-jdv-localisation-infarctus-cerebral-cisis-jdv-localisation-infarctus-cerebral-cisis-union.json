@@ -1,0 +1,43 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-2204",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-2204",
+  "name" : "UnionJdvLocalisationInfarctusCerebralCisisAndJdvLocalisationInfarctusCerebralCisis",
+  "title" : "Union of JDV Localisation Infarctus Cerebral CISIS And JDV Localisation Infarctus Cerebral CISIS",
+  "status" : "active",
+  "date" : "2025-11-20T16:10:30+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "60176003",
+        "display" : "ACA - artère cérébrale antérieure"
+      },
+      {
+        "code" : "55438003",
+        "display" : "centre semi-ovale"
+      },
+      {
+        "code" : "70382005",
+        "display" : "artère cérébrale postérieure"
+      },
+      {
+        "code" : "50974003",
+        "display" : "jonctionnel(le)"
+      },
+      {
+        "code" : "15926001",
+        "display" : "tronc de l'encéphale"
+      },
+      {
+        "code" : "113305005",
+        "display" : "cervelet"
+      }]
+    }]
+  }
+}

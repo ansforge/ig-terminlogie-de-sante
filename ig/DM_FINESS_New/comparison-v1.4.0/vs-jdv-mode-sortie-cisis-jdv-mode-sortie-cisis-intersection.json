@@ -1,0 +1,57 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-2286",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-2286",
+  "name" : "IntersectionJdvModeSortieCisisAndJdvModeSortieCisis",
+  "title" : "Intersection of JDV Mode Sortie CISIS And JDV Mode Sortie CISIS",
+  "status" : "active",
+  "date" : "2025-11-20T16:10:30+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "ORG-102",
+        "display" : "SSR spécialisé neuro"
+      },
+      {
+        "code" : "ORG-103",
+        "display" : "SSR spécialisé gériatrie"
+      },
+      {
+        "code" : "ORG-104",
+        "display" : "SSR polyvalent"
+      },
+      {
+        "code" : "ORG-162",
+        "display" : "MCO"
+      },
+      {
+        "code" : "GEN-092.06.01",
+        "display" : "Autre établissement de santé"
+      },
+      {
+        "code" : "GEN-092.06.03",
+        "display" : "Autre destination"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "127",
+        "display" : "Hospitalisation à Domicile"
+      },
+      {
+        "code" : "500",
+        "display" : "Etablissement d'hébergement pour personnes âgées dépendantes"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "160849004",
+        "display" : "retour au domicile"
+      },
+      {
+        "code" : "419620001",
+        "display" : "mort"
+      }]
+    }]
+  }
+}

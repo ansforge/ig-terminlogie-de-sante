@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-2351",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-2351",
+  "name" : "UnionJdvNihssCommandesCisisAndJdvNihssCommandesCisis",
+  "title" : "Union of JDV Nihss Commandes CISIS And JDV Nihss Commandes CISIS",
+  "status" : "active",
+  "date" : "2025-11-20T16:10:30+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "LA18443-4",
+        "display" : "Exécute les deux ordres correctement."
+      },
+      {
+        "code" : "LA18444-2",
+        "display" : "Exécute un seul ordre sur les deux."
+      },
+      {
+        "code" : "LA18445-9",
+        "display" : "N'exécute aucun des deux ordres."
+      }]
+    }]
+  }
+}

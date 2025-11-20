@@ -1,0 +1,73 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-1811",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-1811",
+  "name" : "UnionJdvDefaillanceMaterielleCisisAndJdvDefaillanceMaterielleCisis",
+  "title" : "Union of JDV Defaillance Materielle CISIS And JDV Defaillance Materielle CISIS",
+  "status" : "active",
+  "date" : "2025-11-20T16:10:30+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "A0705",
+        "display" : "Problème de batterie"
+      },
+      {
+        "code" : "A13",
+        "display" : "Problème de communication ou de transmission"
+      },
+      {
+        "code" : "A14",
+        "display" : "Problème de perfusion ou de débit"
+      },
+      {
+        "code" : "A150203",
+        "display" : "Difficulté ou retard lors de la pose du dispositif"
+      },
+      {
+        "code" : "A150206",
+        "display" : "Problème lié à l'insertion du dispositif"
+      },
+      {
+        "code" : "A1909",
+        "display" : "Problème d'approvisionnement en gaz médicaux"
+      },
+      {
+        "code" : "A191002",
+        "display" : "Problème d'alimentation en énergie"
+      },
+      {
+        "code" : "A20",
+        "display" : "Problème d'installation du dispositif"
+      },
+      {
+        "code" : "A22",
+        "display" : "Problème d'utilisation du dispositif"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "Z1203010101",
+        "display" : "APPAREILS D’ANESTHÉSIE"
+      },
+      {
+        "code" : "Z120303",
+        "display" : "ÉQUIPEMENTS DE PERFUSION"
+      },
+      {
+        "code" : "Z1203",
+        "display" : "ÉQUIPEMENTS DE SURVEILLANCE DES SIGNAUX VITAUX ET DE MAINTIEN DES FONCTIONS VITALES"
+      },
+      {
+        "code" : "Z1203019001",
+        "display" : "ÉQUIPEMENTS DE SURVEILLANCE DE LA RELAXATION NEUROMUSCULAIRE"
+      }]
+    }]
+  }
+}

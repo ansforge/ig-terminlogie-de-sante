@@ -11,8 +11,8 @@
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "TRE-G09-DepartementOM"] ; # 
   fhir:meta [
-     fhir:versionId [ fhir:v "6" ] ;
-     fhir:lastUpdated [ fhir:v "2024-08-28T05:10:50.197+00:00"^^xsd:dateTime ] ;
+     fhir:versionId [ fhir:v "7" ] ;
+     fhir:lastUpdated [ fhir:v "2025-07-02T18:11:41.601+00:00"^^xsd:dateTime ] ;
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"^^xsd:anyURI ;
        fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
@@ -20,7 +20,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem TRE-G09-DepartementOM</b></p><a name=\"TRE-G09-DepartementOM\"> </a><a name=\"hcTRE-G09-DepartementOM\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 6; Dernière mise à jour : 2024-08-28 05:10:50+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr><tr><td>autoriteEpars</td><td>autoriteEpars</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#autoriteEpars</td><td>Coding</td><td>Autorités rattachées au département vues d EPARS</td></tr><tr><td>region</td><td>region</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#region</td><td>Coding</td><td>Région dans laquelle se trouve le département</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://mos.esante.gouv.fr/NOS/TRE_G09-DepartementOM/FHIR/TRE-G09-DepartementOM</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>dateFin</b></td><td><b>autoriteEpars</b></td><td><b>region</b></td><td><b>French (France) (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">01<a name=\"TRE-G09-DepartementOM-01\"> </a></td><td>Ain</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-84</td><td>84</td><td>Ain (01)</td></tr><tr><td style=\"white-space:nowrap\">02<a name=\"TRE-G09-DepartementOM-02\"> </a></td><td>Aisne</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-32</td><td>32</td><td>Aisne (02)</td></tr><tr><td style=\"white-space:nowrap\">03<a name=\"TRE-G09-DepartementOM-03\"> </a></td><td>Allier</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-84</td><td>84</td><td>Allier (03)</td></tr><tr><td style=\"white-space:nowrap\">04<a name=\"TRE-G09-DepartementOM-04\"> </a></td><td>Alpes-de-Haute-Provence</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-93</td><td>93</td><td>ALPES DE HAUTE PROVENCE</td></tr><tr><td style=\"white-space:nowrap\">05<a name=\"TRE-G09-DepartementOM-05\"> </a></td><td>Hautes-Alpes</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-93</td><td>93</td><td>HAUTES ALPES</td></tr><tr><td style=\"white-space:nowrap\">06<a name=\"TRE-G09-DepartementOM-06\"> </a></td><td>Alpes-Maritimes</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-93</td><td>93</td><td>ALPES MARITIMES</td></tr><tr><td style=\"white-space:nowrap\">07<a name=\"TRE-G09-DepartementOM-07\"> </a></td><td>Ardèche</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-84</td><td>84</td><td>ARDECHE</td></tr><tr><td style=\"white-space:nowrap\">08<a name=\"TRE-G09-DepartementOM-08\"> </a></td><td>Ardennes</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-41</td><td>44</td><td>Ardennes (08)</td></tr><tr><td style=\"white-space:nowrap\">09<a name=\"TRE-G09-DepartementOM-09\"> </a></td><td>Ariège</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-76</td><td>76</td><td>ARIEGE</td></tr><tr><td style=\"white-space:nowrap\">10<a name=\"TRE-G09-DepartementOM-10\"> </a></td><td>Aube</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-41</td><td>44</td><td>Aube (10)</td></tr><tr><td style=\"white-space:nowrap\">11<a name=\"TRE-G09-DepartementOM-11\"> </a></td><td>Aude</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-76</td><td>76</td><td>Aude (11)</td></tr><tr><td style=\"white-space:nowrap\">12<a name=\"TRE-G09-DepartementOM-12\"> </a></td><td>Aveyron</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-76</td><td>76</td><td>Aveyron (12)</td></tr><tr><td style=\"white-space:nowrap\">13<a name=\"TRE-G09-DepartementOM-13\"> </a></td><td>Bouches-du-Rhône</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-93</td><td>93</td><td>BOUCHES DU RHONE</td></tr><tr><td style=\"white-space:nowrap\">14<a name=\"TRE-G09-DepartementOM-14\"> </a></td><td>Calvados</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-28</td><td>28</td><td>Calvados (14)</td></tr><tr><td style=\"white-space:nowrap\">15<a name=\"TRE-G09-DepartementOM-15\"> </a></td><td>Cantal</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-84</td><td>84</td><td>Cantal (15)</td></tr><tr><td style=\"white-space:nowrap\">16<a name=\"TRE-G09-DepartementOM-16\"> </a></td><td>Charente</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-75</td><td>75</td><td>Charente (16)</td></tr><tr><td style=\"white-space:nowrap\">17<a name=\"TRE-G09-DepartementOM-17\"> </a></td><td>Charente-Maritime</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-75</td><td>75</td><td>CHARENTE MARITIME</td></tr><tr><td style=\"white-space:nowrap\">18<a name=\"TRE-G09-DepartementOM-18\"> </a></td><td>Cher</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-24</td><td>24</td><td>Cher (18)</td></tr><tr><td style=\"white-space:nowrap\">19<a name=\"TRE-G09-DepartementOM-19\"> </a></td><td>Corrèze</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-75</td><td>75</td><td>CORREZE</td></tr><tr><td style=\"white-space:nowrap\">20<a name=\"TRE-G09-DepartementOM-20\"> </a></td><td>Corse (Ancien Code)</td><td>2017-07-07T10:00:00+01:00</td><td>2017-07-07T10:00:00+01:00</td><td>2017-07-07T10:00:00+01:00</td><td/><td>94</td><td>Corse (20 - Ancien Code)</td></tr><tr><td style=\"white-space:nowrap\">21<a name=\"TRE-G09-DepartementOM-21\"> </a></td><td>Côte-d'Or</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-27</td><td>27</td><td>COTE D OR</td></tr><tr><td style=\"white-space:nowrap\">22<a name=\"TRE-G09-DepartementOM-22\"> </a></td><td>Côtes-d'Armor</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-53</td><td>53</td><td>COTES D ARMOR</td></tr><tr><td style=\"white-space:nowrap\">23<a name=\"TRE-G09-DepartementOM-23\"> </a></td><td>Creuse</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-75</td><td>75</td><td>Creuse (23)</td></tr><tr><td style=\"white-space:nowrap\">24<a name=\"TRE-G09-DepartementOM-24\"> </a></td><td>Dordogne</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-75</td><td>75</td><td>Dordogne (24)</td></tr><tr><td style=\"white-space:nowrap\">25<a name=\"TRE-G09-DepartementOM-25\"> </a></td><td>Doubs</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-27</td><td>27</td><td>Doubs (25)</td></tr><tr><td style=\"white-space:nowrap\">26<a name=\"TRE-G09-DepartementOM-26\"> </a></td><td>Drôme</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-84</td><td>84</td><td>DROME</td></tr><tr><td style=\"white-space:nowrap\">27<a name=\"TRE-G09-DepartementOM-27\"> </a></td><td>Eure</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-28</td><td>28</td><td>Eure (27)</td></tr><tr><td style=\"white-space:nowrap\">28<a name=\"TRE-G09-DepartementOM-28\"> </a></td><td>Eure-et-Loir</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-24</td><td>24</td><td>EURE ET LOIR</td></tr><tr><td style=\"white-space:nowrap\">29<a name=\"TRE-G09-DepartementOM-29\"> </a></td><td>Finistère</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-53</td><td>53</td><td>FINISTERE</td></tr><tr><td style=\"white-space:nowrap\">30<a name=\"TRE-G09-DepartementOM-30\"> </a></td><td>Gard</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-57</td><td>76</td><td>Gard (30)</td></tr><tr><td style=\"white-space:nowrap\">31<a name=\"TRE-G09-DepartementOM-31\"> </a></td><td>Haute-Garonne</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-76</td><td>76</td><td>HAUTE GARONNE</td></tr><tr><td style=\"white-space:nowrap\">32<a name=\"TRE-G09-DepartementOM-32\"> </a></td><td>Gers</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-76</td><td>76</td><td>Gers (32)</td></tr><tr><td style=\"white-space:nowrap\">33<a name=\"TRE-G09-DepartementOM-33\"> </a></td><td>Gironde</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-75</td><td>75</td><td>Gironde (33)</td></tr><tr><td style=\"white-space:nowrap\">34<a name=\"TRE-G09-DepartementOM-34\"> </a></td><td>Hérault</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-76</td><td>76</td><td>HERAULT</td></tr><tr><td style=\"white-space:nowrap\">35<a name=\"TRE-G09-DepartementOM-35\"> </a></td><td>Ille-et-Vilaine</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-53</td><td>53</td><td>ILLE ET VILAINE</td></tr><tr><td style=\"white-space:nowrap\">36<a name=\"TRE-G09-DepartementOM-36\"> </a></td><td>Indre</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-24</td><td>24</td><td>Indre (36)</td></tr><tr><td style=\"white-space:nowrap\">37<a name=\"TRE-G09-DepartementOM-37\"> </a></td><td>Indre-et-Loire</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-24</td><td>24</td><td>INDRE ET LOIRE</td></tr><tr><td style=\"white-space:nowrap\">38<a name=\"TRE-G09-DepartementOM-38\"> </a></td><td>Isère</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-84</td><td>84</td><td>ISERE</td></tr><tr><td style=\"white-space:nowrap\">39<a name=\"TRE-G09-DepartementOM-39\"> </a></td><td>Jura</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-27</td><td>27</td><td>Jura (39)</td></tr><tr><td style=\"white-space:nowrap\">40<a name=\"TRE-G09-DepartementOM-40\"> </a></td><td>Landes</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-75</td><td>75</td><td>Landes (40)</td></tr><tr><td style=\"white-space:nowrap\">41<a name=\"TRE-G09-DepartementOM-41\"> </a></td><td>Loir-et-Cher</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-24</td><td>24</td><td>LOIR ET CHER</td></tr><tr><td style=\"white-space:nowrap\">42<a name=\"TRE-G09-DepartementOM-42\"> </a></td><td>Loire</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-84</td><td>84</td><td>Loire (42)</td></tr><tr><td style=\"white-space:nowrap\">43<a name=\"TRE-G09-DepartementOM-43\"> </a></td><td>Haute-Loire</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-84</td><td>84</td><td>HAUTE LOIRE</td></tr><tr><td style=\"white-space:nowrap\">44<a name=\"TRE-G09-DepartementOM-44\"> </a></td><td>Loire-Atlantique</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-52</td><td>52</td><td>LOIRE ATLANTIQUE</td></tr><tr><td style=\"white-space:nowrap\">45<a name=\"TRE-G09-DepartementOM-45\"> </a></td><td>Loiret</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-24</td><td>24</td><td>Loiret (45)</td></tr><tr><td style=\"white-space:nowrap\">46<a name=\"TRE-G09-DepartementOM-46\"> </a></td><td>Lot</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-76</td><td>76</td><td>Lot (46)</td></tr><tr><td style=\"white-space:nowrap\">47<a name=\"TRE-G09-DepartementOM-47\"> </a></td><td>Lot-et-Garonne</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-75</td><td>75</td><td>LOT ET GARONNE</td></tr><tr><td style=\"white-space:nowrap\">48<a name=\"TRE-G09-DepartementOM-48\"> </a></td><td>Lozère</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-76</td><td>76</td><td>LOZERE</td></tr><tr><td style=\"white-space:nowrap\">49<a name=\"TRE-G09-DepartementOM-49\"> </a></td><td>Maine-et-Loire</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-52</td><td>52</td><td>MAINE ET LOIRE</td></tr><tr><td style=\"white-space:nowrap\">50<a name=\"TRE-G09-DepartementOM-50\"> </a></td><td>Manche</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-28</td><td>28</td><td>Manche (50)</td></tr><tr><td style=\"white-space:nowrap\">51<a name=\"TRE-G09-DepartementOM-51\"> </a></td><td>Marne</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-41</td><td>44</td><td>Marne (51)</td></tr><tr><td style=\"white-space:nowrap\">52<a name=\"TRE-G09-DepartementOM-52\"> </a></td><td>Haute-Marne</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-41</td><td>44</td><td>HAUTE MARNE</td></tr><tr><td style=\"white-space:nowrap\">53<a name=\"TRE-G09-DepartementOM-53\"> </a></td><td>Mayenne</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-52</td><td>52</td><td>Mayenne (53)</td></tr><tr><td style=\"white-space:nowrap\">54<a name=\"TRE-G09-DepartementOM-54\"> </a></td><td>Meurthe-et-Moselle</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-41</td><td>44</td><td>MEURTHE ET MOSELLE</td></tr><tr><td style=\"white-space:nowrap\">55<a name=\"TRE-G09-DepartementOM-55\"> </a></td><td>Meuse</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-41</td><td>44</td><td>Meuse (55)</td></tr><tr><td style=\"white-space:nowrap\">56<a name=\"TRE-G09-DepartementOM-56\"> </a></td><td>Morbihan</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-53</td><td>53</td><td>Morbihan (56)</td></tr><tr><td style=\"white-space:nowrap\">57<a name=\"TRE-G09-DepartementOM-57\"> </a></td><td>Moselle</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-41</td><td>44</td><td>Moselle (57)</td></tr><tr><td style=\"white-space:nowrap\">58<a name=\"TRE-G09-DepartementOM-58\"> </a></td><td>Nièvre</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-27</td><td>27</td><td>NIEVRE</td></tr><tr><td style=\"white-space:nowrap\">59<a name=\"TRE-G09-DepartementOM-59\"> </a></td><td>Nord</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-32</td><td>32</td><td>Nord (59)</td></tr><tr><td style=\"white-space:nowrap\">60<a name=\"TRE-G09-DepartementOM-60\"> </a></td><td>Oise</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-32</td><td>32</td><td>Oise (60)</td></tr><tr><td style=\"white-space:nowrap\">61<a name=\"TRE-G09-DepartementOM-61\"> </a></td><td>Orne</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-28</td><td>28</td><td>Orne (61)</td></tr><tr><td style=\"white-space:nowrap\">62<a name=\"TRE-G09-DepartementOM-62\"> </a></td><td>Pas-de-Calais</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-32</td><td>32</td><td>PAS DE CALAIS</td></tr><tr><td style=\"white-space:nowrap\">63<a name=\"TRE-G09-DepartementOM-63\"> </a></td><td>Puy-de-Dôme</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-84</td><td>84</td><td>PUY DE DOME</td></tr><tr><td style=\"white-space:nowrap\">64<a name=\"TRE-G09-DepartementOM-64\"> </a></td><td>Pyrénées-Atlantiques</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-75</td><td>75</td><td>PYRENEES ATLANTIQUES</td></tr><tr><td style=\"white-space:nowrap\">65<a name=\"TRE-G09-DepartementOM-65\"> </a></td><td>Hautes-Pyrénées</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-76</td><td>76</td><td>HAUTES PYRENEES</td></tr><tr><td style=\"white-space:nowrap\">66<a name=\"TRE-G09-DepartementOM-66\"> </a></td><td>Pyrénées-Orientales</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-76</td><td>76</td><td>PYRENEES ORIENTALES</td></tr><tr><td style=\"white-space:nowrap\">67<a name=\"TRE-G09-DepartementOM-67\"> </a></td><td>Bas-Rhin</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-41</td><td>44</td><td>BAS RHIN</td></tr><tr><td style=\"white-space:nowrap\">68<a name=\"TRE-G09-DepartementOM-68\"> </a></td><td>Haut-Rhin</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-41</td><td>44</td><td>HAUT RHIN</td></tr><tr><td style=\"white-space:nowrap\">69<a name=\"TRE-G09-DepartementOM-69\"> </a></td><td>Rhône</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-84</td><td>84</td><td>RHONE</td></tr><tr><td style=\"white-space:nowrap\">70<a name=\"TRE-G09-DepartementOM-70\"> </a></td><td>Haute-Saône</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-27</td><td>27</td><td>HAUTE SAONE</td></tr><tr><td style=\"white-space:nowrap\">71<a name=\"TRE-G09-DepartementOM-71\"> </a></td><td>Saône-et-Loire</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-27</td><td>27</td><td>SAONE ET LOIRE</td></tr><tr><td style=\"white-space:nowrap\">72<a name=\"TRE-G09-DepartementOM-72\"> </a></td><td>Sarthe</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-52</td><td>52</td><td>Sarthe (72)</td></tr><tr><td style=\"white-space:nowrap\">73<a name=\"TRE-G09-DepartementOM-73\"> </a></td><td>Savoie</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-84</td><td>84</td><td>Savoie (73)</td></tr><tr><td style=\"white-space:nowrap\">74<a name=\"TRE-G09-DepartementOM-74\"> </a></td><td>Haute-Savoie</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-84</td><td>84</td><td>HAUTE SAVOIE</td></tr><tr><td style=\"white-space:nowrap\">75<a name=\"TRE-G09-DepartementOM-75\"> </a></td><td>Paris</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-11</td><td>11</td><td>Paris (75)</td></tr><tr><td style=\"white-space:nowrap\">76<a name=\"TRE-G09-DepartementOM-76\"> </a></td><td>Seine-Maritime</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-28</td><td>28</td><td>SEINE MARITIME</td></tr><tr><td style=\"white-space:nowrap\">77<a name=\"TRE-G09-DepartementOM-77\"> </a></td><td>Seine-et-Marne</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-11</td><td>11</td><td>SEINE ET MARNE</td></tr><tr><td style=\"white-space:nowrap\">78<a name=\"TRE-G09-DepartementOM-78\"> </a></td><td>Yvelines</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-11</td><td>11</td><td>Yvelines (78)</td></tr><tr><td style=\"white-space:nowrap\">79<a name=\"TRE-G09-DepartementOM-79\"> </a></td><td>Deux-Sèvres</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-75</td><td>75</td><td>DEUX SEVRES</td></tr><tr><td style=\"white-space:nowrap\">80<a name=\"TRE-G09-DepartementOM-80\"> </a></td><td>Somme</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-32</td><td>32</td><td>Somme (80)</td></tr><tr><td style=\"white-space:nowrap\">81<a name=\"TRE-G09-DepartementOM-81\"> </a></td><td>Tarn</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-76</td><td>76</td><td>Tarn (81)</td></tr><tr><td style=\"white-space:nowrap\">82<a name=\"TRE-G09-DepartementOM-82\"> </a></td><td>Tarn-et-Garonne</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-76</td><td>76</td><td>TARN ET GARONNE</td></tr><tr><td style=\"white-space:nowrap\">83<a name=\"TRE-G09-DepartementOM-83\"> </a></td><td>Var</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-93</td><td>93</td><td>Var (83)</td></tr><tr><td style=\"white-space:nowrap\">84<a name=\"TRE-G09-DepartementOM-84\"> </a></td><td>Vaucluse</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-93</td><td>93</td><td>Vaucluse (84)</td></tr><tr><td style=\"white-space:nowrap\">85<a name=\"TRE-G09-DepartementOM-85\"> </a></td><td>Vendée</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-52</td><td>52</td><td>VENDEE</td></tr><tr><td style=\"white-space:nowrap\">86<a name=\"TRE-G09-DepartementOM-86\"> </a></td><td>Vienne</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-75</td><td>75</td><td>Vienne (86)</td></tr><tr><td style=\"white-space:nowrap\">87<a name=\"TRE-G09-DepartementOM-87\"> </a></td><td>Haute-Vienne</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-75</td><td>75</td><td>HAUTE VIENNE</td></tr><tr><td style=\"white-space:nowrap\">88<a name=\"TRE-G09-DepartementOM-88\"> </a></td><td>Vosges</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-41</td><td>44</td><td>Vosges (88)</td></tr><tr><td style=\"white-space:nowrap\">89<a name=\"TRE-G09-DepartementOM-89\"> </a></td><td>Yonne</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-27</td><td>27</td><td>Yonne (89)</td></tr><tr><td style=\"white-space:nowrap\">90<a name=\"TRE-G09-DepartementOM-90\"> </a></td><td>Territoire de Belfort</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-27</td><td>27</td><td>Territoire de Belfort (90)</td></tr><tr><td style=\"white-space:nowrap\">91<a name=\"TRE-G09-DepartementOM-91\"> </a></td><td>Essonne</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-11</td><td>11</td><td>Essonne (91)</td></tr><tr><td style=\"white-space:nowrap\">92<a name=\"TRE-G09-DepartementOM-92\"> </a></td><td>Hauts-de-Seine</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-11</td><td>11</td><td>HAUTS DE SEINE</td></tr><tr><td style=\"white-space:nowrap\">93<a name=\"TRE-G09-DepartementOM-93\"> </a></td><td>Seine-Saint-Denis</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-11</td><td>11</td><td>SEINE SAINT DENIS</td></tr><tr><td style=\"white-space:nowrap\">94<a name=\"TRE-G09-DepartementOM-94\"> </a></td><td>Val-de-Marne</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-11</td><td>11</td><td>VAL DE MARNE</td></tr><tr><td style=\"white-space:nowrap\">95<a name=\"TRE-G09-DepartementOM-95\"> </a></td><td>Val-d'Oise</td><td>2007-07-25T15:04:36+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td>ARS-11</td><td>11</td><td>VAL D OISE</td></tr><tr><td style=\"white-space:nowrap\">971<a name=\"TRE-G09-DepartementOM-971\"> </a></td><td>Guadeloupe</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-01</td><td>1</td><td>Guadeloupe (971)</td></tr><tr><td style=\"white-space:nowrap\">972<a name=\"TRE-G09-DepartementOM-972\"> </a></td><td>Martinique</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-02</td><td>2</td><td>Martinique (972)</td></tr><tr><td style=\"white-space:nowrap\">973<a name=\"TRE-G09-DepartementOM-973\"> </a></td><td>Guyane</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-03</td><td>3</td><td>Guyane (973)</td></tr><tr><td style=\"white-space:nowrap\">974<a name=\"TRE-G09-DepartementOM-974\"> </a></td><td>La Réunion</td><td>2007-07-25T15:04:36+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td>ARS-05</td><td>4</td><td>LA REUNION</td></tr><tr><td style=\"white-space:nowrap\">975<a name=\"TRE-G09-DepartementOM-975\"> </a></td><td>Saint-Pierre-et-Miquelon</td><td>2007-07-25T15:04:36+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/><td>975</td><td>Saint-Pierre-et-Miquelon (975)</td></tr><tr><td style=\"white-space:nowrap\">976<a name=\"TRE-G09-DepartementOM-976\"> </a></td><td>Mayotte</td><td>2008-01-01T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-86</td><td>6</td><td>Mayotte (976)</td></tr><tr><td style=\"white-space:nowrap\">977<a name=\"TRE-G09-DepartementOM-977\"> </a></td><td>Saint-Barthélemy</td><td>2008-01-01T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-01</td><td>977</td><td>SAINT BARTHELEMY</td></tr><tr><td style=\"white-space:nowrap\">978<a name=\"TRE-G09-DepartementOM-978\"> </a></td><td>Saint-Martin</td><td>2008-01-01T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-01</td><td>978</td><td>SAINT MARTIN</td></tr><tr><td style=\"white-space:nowrap\">984<a name=\"TRE-G09-DepartementOM-984\"> </a></td><td>Terres australes et antarctiques françaises</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>984</td><td>TERRE AUSTRALE ANTARCTIQUE FR</td></tr><tr><td style=\"white-space:nowrap\">985<a name=\"TRE-G09-DepartementOM-985\"> </a></td><td>Mayotte (Ancien Code)</td><td>2007-05-01T00:00:00+01:00</td><td>2009-10-23T00:00:00+01:00</td><td>2009-10-23T00:00:00+01:00</td><td/><td>985</td><td>Mayotte (985 - Ancien Code)</td></tr><tr><td style=\"white-space:nowrap\">986<a name=\"TRE-G09-DepartementOM-986\"> </a></td><td>Wallis-et-Futuna</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>986</td><td>WALLIS ET FUTUNA</td></tr><tr><td style=\"white-space:nowrap\">987<a name=\"TRE-G09-DepartementOM-987\"> </a></td><td>Polynésie française</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>987</td><td>POLYNESIE FRANCAISE</td></tr><tr><td style=\"white-space:nowrap\">988<a name=\"TRE-G09-DepartementOM-988\"> </a></td><td>Nouvelle-Calédonie</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>988</td><td>NOUVELLE CALEDONIE</td></tr><tr><td style=\"white-space:nowrap\">989<a name=\"TRE-G09-DepartementOM-989\"> </a></td><td>La Passion-Clipperton</td><td>2008-01-01T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>989</td><td>LA PASSION CLIPPERTON</td></tr><tr><td style=\"white-space:nowrap\">98000<a name=\"TRE-G09-DepartementOM-98000\"> </a></td><td>Monaco</td><td>2007-07-25T15:04:36+01:00</td><td>2016-02-05T00:00:00+01:00</td><td>2016-02-05T00:00:00+01:00</td><td/><td>98000</td><td>Monaco (98000)</td></tr><tr><td style=\"white-space:nowrap\">99138<a name=\"TRE-G09-DepartementOM-99138\"> </a></td><td>Principauté de Monaco</td><td>2007-07-25T15:04:36+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/><td>99138</td><td>MONACO</td></tr><tr><td style=\"white-space:nowrap\">2A<a name=\"TRE-G09-DepartementOM-2A\"> </a></td><td>Corse-du-Sud</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-94</td><td>94</td><td>CORSE DU SUD</td></tr><tr><td style=\"white-space:nowrap\">2B<a name=\"TRE-G09-DepartementOM-2B\"> </a></td><td>Haute-Corse</td><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-94</td><td>94</td><td>HAUTE CORSE</td></tr></table></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem TRE-G09-DepartementOM</b></p><a name=\"TRE-G09-DepartementOM\"> </a><a name=\"hcTRE-G09-DepartementOM\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 7; Dernière mise à jour : 2025-07-02 18:11:41+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr><tr><td>autoriteEpars</td><td>autoriteEpars</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#autoriteEpars</td><td>Coding</td><td>Autorités rattachées au département vues d EPARS</td></tr><tr><td>region</td><td>region</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#region</td><td>Coding</td><td>Région dans laquelle se trouve le département</td></tr><tr><td>deprecationDate</td><td>deprecationDate</td><td>http://hl7.org/fhir/concept-properties#deprecationDate</td><td>dateTime</td><td>Date Concept was deprecated</td></tr><tr><td>status</td><td>status</td><td>http://hl7.org/fhir/concept-properties#status</td><td>code</td><td>A property that indicates the status of the concept.</td></tr><tr><td>retirementDate</td><td>retirementDate</td><td>http://hl7.org/fhir/concept-properties#retirementDate</td><td>dateTime</td><td>Date Concept was retired</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://mos.esante.gouv.fr/NOS/TRE_G09-DepartementOM/FHIR/TRE-G09-DepartementOM</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Déprécié</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>dateFin</b></td><td><b>autoriteEpars</b></td><td><b>region</b></td><td><b>deprecationDate</b></td><td><b>status</b></td><td><b>French (France) (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">01<a name=\"TRE-G09-DepartementOM-01\"> </a></td><td>Ain</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-84</td><td>84</td><td/><td>active</td><td>Ain (01)</td></tr><tr><td style=\"white-space:nowrap\">02<a name=\"TRE-G09-DepartementOM-02\"> </a></td><td>Aisne</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-32</td><td>32</td><td/><td>active</td><td>Aisne (02)</td></tr><tr><td style=\"white-space:nowrap\">03<a name=\"TRE-G09-DepartementOM-03\"> </a></td><td>Allier</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-84</td><td>84</td><td/><td>active</td><td>Allier (03)</td></tr><tr><td style=\"white-space:nowrap\">04<a name=\"TRE-G09-DepartementOM-04\"> </a></td><td>Alpes-de-Haute-Provence</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-93</td><td>93</td><td/><td>active</td><td>ALPES DE HAUTE PROVENCE</td></tr><tr><td style=\"white-space:nowrap\">05<a name=\"TRE-G09-DepartementOM-05\"> </a></td><td>Hautes-Alpes</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-93</td><td>93</td><td/><td>active</td><td>HAUTES ALPES</td></tr><tr><td style=\"white-space:nowrap\">06<a name=\"TRE-G09-DepartementOM-06\"> </a></td><td>Alpes-Maritimes</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-93</td><td>93</td><td/><td>active</td><td>ALPES MARITIMES</td></tr><tr><td style=\"white-space:nowrap\">07<a name=\"TRE-G09-DepartementOM-07\"> </a></td><td>Ardèche</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-84</td><td>84</td><td/><td>active</td><td>ARDECHE</td></tr><tr><td style=\"white-space:nowrap\">08<a name=\"TRE-G09-DepartementOM-08\"> </a></td><td>Ardennes</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-41</td><td>44</td><td/><td>active</td><td>Ardennes (08)</td></tr><tr><td style=\"white-space:nowrap\">09<a name=\"TRE-G09-DepartementOM-09\"> </a></td><td>Ariège</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-76</td><td>76</td><td/><td>active</td><td>ARIEGE</td></tr><tr><td style=\"white-space:nowrap\">10<a name=\"TRE-G09-DepartementOM-10\"> </a></td><td>Aube</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-41</td><td>44</td><td/><td>active</td><td>Aube (10)</td></tr><tr><td style=\"white-space:nowrap\">11<a name=\"TRE-G09-DepartementOM-11\"> </a></td><td>Aude</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-76</td><td>76</td><td/><td>active</td><td>Aude (11)</td></tr><tr><td style=\"white-space:nowrap\">12<a name=\"TRE-G09-DepartementOM-12\"> </a></td><td>Aveyron</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-76</td><td>76</td><td/><td>active</td><td>Aveyron (12)</td></tr><tr><td style=\"white-space:nowrap\">13<a name=\"TRE-G09-DepartementOM-13\"> </a></td><td>Bouches-du-Rhône</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-93</td><td>93</td><td/><td>active</td><td>BOUCHES DU RHONE</td></tr><tr><td style=\"white-space:nowrap\">14<a name=\"TRE-G09-DepartementOM-14\"> </a></td><td>Calvados</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-28</td><td>28</td><td/><td>active</td><td>Calvados (14)</td></tr><tr><td style=\"white-space:nowrap\">15<a name=\"TRE-G09-DepartementOM-15\"> </a></td><td>Cantal</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-84</td><td>84</td><td/><td>active</td><td>Cantal (15)</td></tr><tr><td style=\"white-space:nowrap\">16<a name=\"TRE-G09-DepartementOM-16\"> </a></td><td>Charente</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-75</td><td>75</td><td/><td>active</td><td>Charente (16)</td></tr><tr><td style=\"white-space:nowrap\">17<a name=\"TRE-G09-DepartementOM-17\"> </a></td><td>Charente-Maritime</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-75</td><td>75</td><td/><td>active</td><td>CHARENTE MARITIME</td></tr><tr><td style=\"white-space:nowrap\">18<a name=\"TRE-G09-DepartementOM-18\"> </a></td><td>Cher</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-24</td><td>24</td><td/><td>active</td><td>Cher (18)</td></tr><tr><td style=\"white-space:nowrap\">19<a name=\"TRE-G09-DepartementOM-19\"> </a></td><td>Corrèze</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-75</td><td>75</td><td/><td>active</td><td>CORREZE</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">20<a name=\"TRE-G09-DepartementOM-20\"> </a></td><td>Corse (Ancien Code)</td><td>Déprécié</td><td>2017-07-07T10:00:00+01:00</td><td>2017-07-07T10:00:00+01:00</td><td>2017-07-07T10:00:00+01:00</td><td/><td>94</td><td>2017-07-07T10:00:00+01:00</td><td>deprecated</td><td>Corse (20 - Ancien Code)</td></tr><tr><td style=\"white-space:nowrap\">21<a name=\"TRE-G09-DepartementOM-21\"> </a></td><td>Côte-d'Or</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-27</td><td>27</td><td/><td>active</td><td>COTE D OR</td></tr><tr><td style=\"white-space:nowrap\">22<a name=\"TRE-G09-DepartementOM-22\"> </a></td><td>Côtes-d'Armor</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-53</td><td>53</td><td/><td>active</td><td>COTES D ARMOR</td></tr><tr><td style=\"white-space:nowrap\">23<a name=\"TRE-G09-DepartementOM-23\"> </a></td><td>Creuse</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-75</td><td>75</td><td/><td>active</td><td>Creuse (23)</td></tr><tr><td style=\"white-space:nowrap\">24<a name=\"TRE-G09-DepartementOM-24\"> </a></td><td>Dordogne</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-75</td><td>75</td><td/><td>active</td><td>Dordogne (24)</td></tr><tr><td style=\"white-space:nowrap\">25<a name=\"TRE-G09-DepartementOM-25\"> </a></td><td>Doubs</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-27</td><td>27</td><td/><td>active</td><td>Doubs (25)</td></tr><tr><td style=\"white-space:nowrap\">26<a name=\"TRE-G09-DepartementOM-26\"> </a></td><td>Drôme</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-84</td><td>84</td><td/><td>active</td><td>DROME</td></tr><tr><td style=\"white-space:nowrap\">27<a name=\"TRE-G09-DepartementOM-27\"> </a></td><td>Eure</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-28</td><td>28</td><td/><td>active</td><td>Eure (27)</td></tr><tr><td style=\"white-space:nowrap\">28<a name=\"TRE-G09-DepartementOM-28\"> </a></td><td>Eure-et-Loir</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-24</td><td>24</td><td/><td>active</td><td>EURE ET LOIR</td></tr><tr><td style=\"white-space:nowrap\">29<a name=\"TRE-G09-DepartementOM-29\"> </a></td><td>Finistère</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-53</td><td>53</td><td/><td>active</td><td>FINISTERE</td></tr><tr><td style=\"white-space:nowrap\">30<a name=\"TRE-G09-DepartementOM-30\"> </a></td><td>Gard</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-57</td><td>76</td><td/><td>active</td><td>Gard (30)</td></tr><tr><td style=\"white-space:nowrap\">31<a name=\"TRE-G09-DepartementOM-31\"> </a></td><td>Haute-Garonne</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-76</td><td>76</td><td/><td>active</td><td>HAUTE GARONNE</td></tr><tr><td style=\"white-space:nowrap\">32<a name=\"TRE-G09-DepartementOM-32\"> </a></td><td>Gers</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-76</td><td>76</td><td/><td>active</td><td>Gers (32)</td></tr><tr><td style=\"white-space:nowrap\">33<a name=\"TRE-G09-DepartementOM-33\"> </a></td><td>Gironde</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-75</td><td>75</td><td/><td>active</td><td>Gironde (33)</td></tr><tr><td style=\"white-space:nowrap\">34<a name=\"TRE-G09-DepartementOM-34\"> </a></td><td>Hérault</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-76</td><td>76</td><td/><td>active</td><td>HERAULT</td></tr><tr><td style=\"white-space:nowrap\">35<a name=\"TRE-G09-DepartementOM-35\"> </a></td><td>Ille-et-Vilaine</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-53</td><td>53</td><td/><td>active</td><td>ILLE ET VILAINE</td></tr><tr><td style=\"white-space:nowrap\">36<a name=\"TRE-G09-DepartementOM-36\"> </a></td><td>Indre</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-24</td><td>24</td><td/><td>active</td><td>Indre (36)</td></tr><tr><td style=\"white-space:nowrap\">37<a name=\"TRE-G09-DepartementOM-37\"> </a></td><td>Indre-et-Loire</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-24</td><td>24</td><td/><td>active</td><td>INDRE ET LOIRE</td></tr><tr><td style=\"white-space:nowrap\">38<a name=\"TRE-G09-DepartementOM-38\"> </a></td><td>Isère</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-84</td><td>84</td><td/><td>active</td><td>ISERE</td></tr><tr><td style=\"white-space:nowrap\">39<a name=\"TRE-G09-DepartementOM-39\"> </a></td><td>Jura</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-27</td><td>27</td><td/><td>active</td><td>Jura (39)</td></tr><tr><td style=\"white-space:nowrap\">40<a name=\"TRE-G09-DepartementOM-40\"> </a></td><td>Landes</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-75</td><td>75</td><td/><td>active</td><td>Landes (40)</td></tr><tr><td style=\"white-space:nowrap\">41<a name=\"TRE-G09-DepartementOM-41\"> </a></td><td>Loir-et-Cher</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-24</td><td>24</td><td/><td>active</td><td>LOIR ET CHER</td></tr><tr><td style=\"white-space:nowrap\">42<a name=\"TRE-G09-DepartementOM-42\"> </a></td><td>Loire</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-84</td><td>84</td><td/><td>active</td><td>Loire (42)</td></tr><tr><td style=\"white-space:nowrap\">43<a name=\"TRE-G09-DepartementOM-43\"> </a></td><td>Haute-Loire</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-84</td><td>84</td><td/><td>active</td><td>HAUTE LOIRE</td></tr><tr><td style=\"white-space:nowrap\">44<a name=\"TRE-G09-DepartementOM-44\"> </a></td><td>Loire-Atlantique</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-52</td><td>52</td><td/><td>active</td><td>LOIRE ATLANTIQUE</td></tr><tr><td style=\"white-space:nowrap\">45<a name=\"TRE-G09-DepartementOM-45\"> </a></td><td>Loiret</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-24</td><td>24</td><td/><td>active</td><td>Loiret (45)</td></tr><tr><td style=\"white-space:nowrap\">46<a name=\"TRE-G09-DepartementOM-46\"> </a></td><td>Lot</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-76</td><td>76</td><td/><td>active</td><td>Lot (46)</td></tr><tr><td style=\"white-space:nowrap\">47<a name=\"TRE-G09-DepartementOM-47\"> </a></td><td>Lot-et-Garonne</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-75</td><td>75</td><td/><td>active</td><td>LOT ET GARONNE</td></tr><tr><td style=\"white-space:nowrap\">48<a name=\"TRE-G09-DepartementOM-48\"> </a></td><td>Lozère</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-76</td><td>76</td><td/><td>active</td><td>LOZERE</td></tr><tr><td style=\"white-space:nowrap\">49<a name=\"TRE-G09-DepartementOM-49\"> </a></td><td>Maine-et-Loire</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-52</td><td>52</td><td/><td>active</td><td>MAINE ET LOIRE</td></tr><tr><td style=\"white-space:nowrap\">50<a name=\"TRE-G09-DepartementOM-50\"> </a></td><td>Manche</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-28</td><td>28</td><td/><td>active</td><td>Manche (50)</td></tr><tr><td style=\"white-space:nowrap\">51<a name=\"TRE-G09-DepartementOM-51\"> </a></td><td>Marne</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-41</td><td>44</td><td/><td>active</td><td>Marne (51)</td></tr><tr><td style=\"white-space:nowrap\">52<a name=\"TRE-G09-DepartementOM-52\"> </a></td><td>Haute-Marne</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-41</td><td>44</td><td/><td>active</td><td>HAUTE MARNE</td></tr><tr><td style=\"white-space:nowrap\">53<a name=\"TRE-G09-DepartementOM-53\"> </a></td><td>Mayenne</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-52</td><td>52</td><td/><td>active</td><td>Mayenne (53)</td></tr><tr><td style=\"white-space:nowrap\">54<a name=\"TRE-G09-DepartementOM-54\"> </a></td><td>Meurthe-et-Moselle</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-41</td><td>44</td><td/><td>active</td><td>MEURTHE ET MOSELLE</td></tr><tr><td style=\"white-space:nowrap\">55<a name=\"TRE-G09-DepartementOM-55\"> </a></td><td>Meuse</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-41</td><td>44</td><td/><td>active</td><td>Meuse (55)</td></tr><tr><td style=\"white-space:nowrap\">56<a name=\"TRE-G09-DepartementOM-56\"> </a></td><td>Morbihan</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-53</td><td>53</td><td/><td>active</td><td>Morbihan (56)</td></tr><tr><td style=\"white-space:nowrap\">57<a name=\"TRE-G09-DepartementOM-57\"> </a></td><td>Moselle</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-41</td><td>44</td><td/><td>active</td><td>Moselle (57)</td></tr><tr><td style=\"white-space:nowrap\">58<a name=\"TRE-G09-DepartementOM-58\"> </a></td><td>Nièvre</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-27</td><td>27</td><td/><td>active</td><td>NIEVRE</td></tr><tr><td style=\"white-space:nowrap\">59<a name=\"TRE-G09-DepartementOM-59\"> </a></td><td>Nord</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-32</td><td>32</td><td/><td>active</td><td>Nord (59)</td></tr><tr><td style=\"white-space:nowrap\">60<a name=\"TRE-G09-DepartementOM-60\"> </a></td><td>Oise</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-32</td><td>32</td><td/><td>active</td><td>Oise (60)</td></tr><tr><td style=\"white-space:nowrap\">61<a name=\"TRE-G09-DepartementOM-61\"> </a></td><td>Orne</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-28</td><td>28</td><td/><td>active</td><td>Orne (61)</td></tr><tr><td style=\"white-space:nowrap\">62<a name=\"TRE-G09-DepartementOM-62\"> </a></td><td>Pas-de-Calais</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-32</td><td>32</td><td/><td>active</td><td>PAS DE CALAIS</td></tr><tr><td style=\"white-space:nowrap\">63<a name=\"TRE-G09-DepartementOM-63\"> </a></td><td>Puy-de-Dôme</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-84</td><td>84</td><td/><td>active</td><td>PUY DE DOME</td></tr><tr><td style=\"white-space:nowrap\">64<a name=\"TRE-G09-DepartementOM-64\"> </a></td><td>Pyrénées-Atlantiques</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-75</td><td>75</td><td/><td>active</td><td>PYRENEES ATLANTIQUES</td></tr><tr><td style=\"white-space:nowrap\">65<a name=\"TRE-G09-DepartementOM-65\"> </a></td><td>Hautes-Pyrénées</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-76</td><td>76</td><td/><td>active</td><td>HAUTES PYRENEES</td></tr><tr><td style=\"white-space:nowrap\">66<a name=\"TRE-G09-DepartementOM-66\"> </a></td><td>Pyrénées-Orientales</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-76</td><td>76</td><td/><td>active</td><td>PYRENEES ORIENTALES</td></tr><tr><td style=\"white-space:nowrap\">67<a name=\"TRE-G09-DepartementOM-67\"> </a></td><td>Bas-Rhin</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-41</td><td>44</td><td/><td>active</td><td>BAS RHIN</td></tr><tr><td style=\"white-space:nowrap\">68<a name=\"TRE-G09-DepartementOM-68\"> </a></td><td>Haut-Rhin</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-41</td><td>44</td><td/><td>active</td><td>HAUT RHIN</td></tr><tr><td style=\"white-space:nowrap\">69<a name=\"TRE-G09-DepartementOM-69\"> </a></td><td>Rhône</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-84</td><td>84</td><td/><td>active</td><td>RHONE</td></tr><tr><td style=\"white-space:nowrap\">70<a name=\"TRE-G09-DepartementOM-70\"> </a></td><td>Haute-Saône</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-27</td><td>27</td><td/><td>active</td><td>HAUTE SAONE</td></tr><tr><td style=\"white-space:nowrap\">71<a name=\"TRE-G09-DepartementOM-71\"> </a></td><td>Saône-et-Loire</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-27</td><td>27</td><td/><td>active</td><td>SAONE ET LOIRE</td></tr><tr><td style=\"white-space:nowrap\">72<a name=\"TRE-G09-DepartementOM-72\"> </a></td><td>Sarthe</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-52</td><td>52</td><td/><td>active</td><td>Sarthe (72)</td></tr><tr><td style=\"white-space:nowrap\">73<a name=\"TRE-G09-DepartementOM-73\"> </a></td><td>Savoie</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-84</td><td>84</td><td/><td>active</td><td>Savoie (73)</td></tr><tr><td style=\"white-space:nowrap\">74<a name=\"TRE-G09-DepartementOM-74\"> </a></td><td>Haute-Savoie</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-84</td><td>84</td><td/><td>active</td><td>HAUTE SAVOIE</td></tr><tr><td style=\"white-space:nowrap\">75<a name=\"TRE-G09-DepartementOM-75\"> </a></td><td>Paris</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-11</td><td>11</td><td/><td>active</td><td>Paris (75)</td></tr><tr><td style=\"white-space:nowrap\">76<a name=\"TRE-G09-DepartementOM-76\"> </a></td><td>Seine-Maritime</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-28</td><td>28</td><td/><td>active</td><td>SEINE MARITIME</td></tr><tr><td style=\"white-space:nowrap\">77<a name=\"TRE-G09-DepartementOM-77\"> </a></td><td>Seine-et-Marne</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-11</td><td>11</td><td/><td>active</td><td>SEINE ET MARNE</td></tr><tr><td style=\"white-space:nowrap\">78<a name=\"TRE-G09-DepartementOM-78\"> </a></td><td>Yvelines</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-11</td><td>11</td><td/><td>active</td><td>Yvelines (78)</td></tr><tr><td style=\"white-space:nowrap\">79<a name=\"TRE-G09-DepartementOM-79\"> </a></td><td>Deux-Sèvres</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-75</td><td>75</td><td/><td>active</td><td>DEUX SEVRES</td></tr><tr><td style=\"white-space:nowrap\">80<a name=\"TRE-G09-DepartementOM-80\"> </a></td><td>Somme</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-32</td><td>32</td><td/><td>active</td><td>Somme (80)</td></tr><tr><td style=\"white-space:nowrap\">81<a name=\"TRE-G09-DepartementOM-81\"> </a></td><td>Tarn</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-76</td><td>76</td><td/><td>active</td><td>Tarn (81)</td></tr><tr><td style=\"white-space:nowrap\">82<a name=\"TRE-G09-DepartementOM-82\"> </a></td><td>Tarn-et-Garonne</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-76</td><td>76</td><td/><td>active</td><td>TARN ET GARONNE</td></tr><tr><td style=\"white-space:nowrap\">83<a name=\"TRE-G09-DepartementOM-83\"> </a></td><td>Var</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-93</td><td>93</td><td/><td>active</td><td>Var (83)</td></tr><tr><td style=\"white-space:nowrap\">84<a name=\"TRE-G09-DepartementOM-84\"> </a></td><td>Vaucluse</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-93</td><td>93</td><td/><td>active</td><td>Vaucluse (84)</td></tr><tr><td style=\"white-space:nowrap\">85<a name=\"TRE-G09-DepartementOM-85\"> </a></td><td>Vendée</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-52</td><td>52</td><td/><td>active</td><td>VENDEE</td></tr><tr><td style=\"white-space:nowrap\">86<a name=\"TRE-G09-DepartementOM-86\"> </a></td><td>Vienne</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-75</td><td>75</td><td/><td>active</td><td>Vienne (86)</td></tr><tr><td style=\"white-space:nowrap\">87<a name=\"TRE-G09-DepartementOM-87\"> </a></td><td>Haute-Vienne</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-75</td><td>75</td><td/><td>active</td><td>HAUTE VIENNE</td></tr><tr><td style=\"white-space:nowrap\">88<a name=\"TRE-G09-DepartementOM-88\"> </a></td><td>Vosges</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-41</td><td>44</td><td/><td>active</td><td>Vosges (88)</td></tr><tr><td style=\"white-space:nowrap\">89<a name=\"TRE-G09-DepartementOM-89\"> </a></td><td>Yonne</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-27</td><td>27</td><td/><td>active</td><td>Yonne (89)</td></tr><tr><td style=\"white-space:nowrap\">90<a name=\"TRE-G09-DepartementOM-90\"> </a></td><td>Territoire de Belfort</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-27</td><td>27</td><td/><td>active</td><td>Territoire de Belfort (90)</td></tr><tr><td style=\"white-space:nowrap\">91<a name=\"TRE-G09-DepartementOM-91\"> </a></td><td>Essonne</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-11</td><td>11</td><td/><td>active</td><td>Essonne (91)</td></tr><tr><td style=\"white-space:nowrap\">92<a name=\"TRE-G09-DepartementOM-92\"> </a></td><td>Hauts-de-Seine</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-11</td><td>11</td><td/><td>active</td><td>HAUTS DE SEINE</td></tr><tr><td style=\"white-space:nowrap\">93<a name=\"TRE-G09-DepartementOM-93\"> </a></td><td>Seine-Saint-Denis</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-11</td><td>11</td><td/><td>active</td><td>SEINE SAINT DENIS</td></tr><tr><td style=\"white-space:nowrap\">94<a name=\"TRE-G09-DepartementOM-94\"> </a></td><td>Val-de-Marne</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-11</td><td>11</td><td/><td>active</td><td>VAL DE MARNE</td></tr><tr><td style=\"white-space:nowrap\">95<a name=\"TRE-G09-DepartementOM-95\"> </a></td><td>Val-d'Oise</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td>ARS-11</td><td>11</td><td/><td>active</td><td>VAL D OISE</td></tr><tr><td style=\"white-space:nowrap\">971<a name=\"TRE-G09-DepartementOM-971\"> </a></td><td>Guadeloupe</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-01</td><td>1</td><td/><td>active</td><td>Guadeloupe (971)</td></tr><tr><td style=\"white-space:nowrap\">972<a name=\"TRE-G09-DepartementOM-972\"> </a></td><td>Martinique</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-02</td><td>2</td><td/><td>active</td><td>Martinique (972)</td></tr><tr><td style=\"white-space:nowrap\">973<a name=\"TRE-G09-DepartementOM-973\"> </a></td><td>Guyane</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-03</td><td>3</td><td/><td>active</td><td>Guyane (973)</td></tr><tr><td style=\"white-space:nowrap\">974<a name=\"TRE-G09-DepartementOM-974\"> </a></td><td>La Réunion</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td>ARS-05</td><td>4</td><td/><td>active</td><td>LA REUNION</td></tr><tr><td style=\"white-space:nowrap\">975<a name=\"TRE-G09-DepartementOM-975\"> </a></td><td>Saint-Pierre-et-Miquelon</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/><td>975</td><td/><td>active</td><td>Saint-Pierre-et-Miquelon (975)</td></tr><tr><td style=\"white-space:nowrap\">976<a name=\"TRE-G09-DepartementOM-976\"> </a></td><td>Mayotte</td><td/><td>2008-01-01T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-86</td><td>6</td><td/><td>active</td><td>Mayotte (976)</td></tr><tr><td style=\"white-space:nowrap\">977<a name=\"TRE-G09-DepartementOM-977\"> </a></td><td>Saint-Barthélemy</td><td/><td>2008-01-01T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-01</td><td>977</td><td/><td>active</td><td>SAINT BARTHELEMY</td></tr><tr><td style=\"white-space:nowrap\">978<a name=\"TRE-G09-DepartementOM-978\"> </a></td><td>Saint-Martin</td><td/><td>2008-01-01T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-01</td><td>978</td><td/><td>active</td><td>SAINT MARTIN</td></tr><tr><td style=\"white-space:nowrap\">984<a name=\"TRE-G09-DepartementOM-984\"> </a></td><td>Terres australes et antarctiques françaises</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>984</td><td/><td>active</td><td>TERRE AUSTRALE ANTARCTIQUE FR</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">985<a name=\"TRE-G09-DepartementOM-985\"> </a></td><td>Mayotte (Ancien Code)</td><td>Déprécié</td><td>2007-05-01T00:00:00+01:00</td><td>2009-10-23T00:00:00+01:00</td><td>2009-10-23T00:00:00+01:00</td><td/><td>985</td><td>2009-10-23T00:00:00+01:00</td><td>deprecated</td><td>Mayotte (985 - Ancien Code)</td></tr><tr><td style=\"white-space:nowrap\">986<a name=\"TRE-G09-DepartementOM-986\"> </a></td><td>Wallis-et-Futuna</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>986</td><td/><td>active</td><td>WALLIS ET FUTUNA</td></tr><tr><td style=\"white-space:nowrap\">987<a name=\"TRE-G09-DepartementOM-987\"> </a></td><td>Polynésie française</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>987</td><td/><td>active</td><td>POLYNESIE FRANCAISE</td></tr><tr><td style=\"white-space:nowrap\">988<a name=\"TRE-G09-DepartementOM-988\"> </a></td><td>Nouvelle-Calédonie</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>988</td><td/><td>active</td><td>NOUVELLE CALEDONIE</td></tr><tr><td style=\"white-space:nowrap\">989<a name=\"TRE-G09-DepartementOM-989\"> </a></td><td>La Passion-Clipperton</td><td/><td>2008-01-01T00:00:00+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td/><td>989</td><td/><td>active</td><td>LA PASSION CLIPPERTON</td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">98000<a name=\"TRE-G09-DepartementOM-98000\"> </a></td><td>Monaco</td><td>Déprécié</td><td>2007-07-25T15:04:36+01:00</td><td>2016-02-05T00:00:00+01:00</td><td>2016-02-05T00:00:00+01:00</td><td/><td>98000</td><td>2016-02-05T00:00:00+01:00</td><td>deprecated</td><td>Monaco (98000)</td></tr><tr><td style=\"white-space:nowrap\">99138<a name=\"TRE-G09-DepartementOM-99138\"> </a></td><td>Principauté de Monaco</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-06-28T12:00:00+01:00</td><td/><td/><td>99138</td><td/><td>active</td><td>MONACO</td></tr><tr><td style=\"white-space:nowrap\">2A<a name=\"TRE-G09-DepartementOM-2A\"> </a></td><td>Corse-du-Sud</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-94</td><td>94</td><td/><td>active</td><td>CORSE DU SUD</td></tr><tr><td style=\"white-space:nowrap\">2B<a name=\"TRE-G09-DepartementOM-2B\"> </a></td><td>Haute-Corse</td><td/><td>2007-07-25T15:04:36+01:00</td><td>2024-01-26T12:00:00+01:00</td><td/><td>ARS-94</td><td>94</td><td/><td>active</td><td>HAUTE CORSE</td></tr></table></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
@@ -41,6 +41,12 @@
   fhir:date [ fhir:v "2024-06-28T12:00:00+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
   fhir:description [ fhir:v "Référentiel des codes départements et collectivités d’outre-mer provenant du COG INSEE + Monaco"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "FR" ]
+     ] )
+  ] ) ; # 
   fhir:caseSensitive [ fhir:v false] ; # 
   fhir:valueSet [
      fhir:v "https://mos.esante.gouv.fr/NOS/TRE_G09-DepartementOM/FHIR/TRE-G09-DepartementOM?vs"^^xsd:anyURI ;
@@ -73,6 +79,21 @@
      fhir:uri [ fhir:v "https://smt.esante.gouv.fr/fhir/concept-properties#region"^^xsd:anyURI ] ;
      fhir:description [ fhir:v "Région dans laquelle se trouve le département" ] ;
      fhir:type [ fhir:v "Coding" ]
+  ] [
+     fhir:code [ fhir:v "deprecationDate" ] ;
+     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#deprecationDate"^^xsd:anyURI ] ;
+     fhir:description [ fhir:v "Date Concept was deprecated" ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "status" ] ;
+     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#status"^^xsd:anyURI ] ;
+     fhir:description [ fhir:v "A property that indicates the status of the concept." ] ;
+     fhir:type [ fhir:v "code" ]
+  ] [
+     fhir:code [ fhir:v "retirementDate" ] ;
+     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#retirementDate"^^xsd:anyURI ] ;
+     fhir:description [ fhir:v "Date Concept was retired" ] ;
+     fhir:type [ fhir:v "dateTime" ]
   ] ) ; # 
   fhir:concept ( [
      fhir:code [ fhir:v "01" ] ;
@@ -111,6 +132,12 @@
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "84" ]
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -151,6 +178,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "32" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "03" ] ;
@@ -189,6 +222,12 @@
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "84" ]
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -237,6 +276,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "93" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "05" ] ;
@@ -283,6 +328,12 @@
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "93" ]
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -331,6 +382,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "93" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "07" ] ;
@@ -378,6 +435,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "84" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "08" ] ;
@@ -416,6 +479,12 @@
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "44" ]
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -464,6 +533,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "76" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "10" ] ;
@@ -502,6 +577,12 @@
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "44" ]
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -542,6 +623,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "76" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "12" ] ;
@@ -580,6 +667,12 @@
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "76" ]
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -628,6 +721,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "93" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "14" ] ;
@@ -666,6 +765,12 @@
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "28" ]
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -706,6 +811,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "84" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "16" ] ;
@@ -744,6 +855,12 @@
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "75" ]
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -792,6 +909,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "75" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "18" ] ;
@@ -830,6 +953,12 @@
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "24" ]
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -878,6 +1007,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "75" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "20" ] ;
@@ -915,6 +1050,18 @@
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "94" ]
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "deprecated"
+       ]
+     ] [
+       fhir:code [ fhir:v "deprecationDate" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2017-07-07T10:00:00+01:00"^^xsd:dateTime
        ]
      ] )
   ] [
@@ -963,6 +1110,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "27" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "22" ] ;
@@ -1010,6 +1163,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "53" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "23" ] ;
@@ -1048,6 +1207,12 @@
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "75" ]
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -1088,6 +1253,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "75" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "25" ] ;
@@ -1126,6 +1297,12 @@
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "27" ]
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -1174,6 +1351,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "84" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "27" ] ;
@@ -1212,6 +1395,12 @@
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "28" ]
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -1260,6 +1449,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "24" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "29" ] ;
@@ -1307,6 +1502,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "53" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "30" ] ;
@@ -1345,6 +1546,12 @@
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "76" ]
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -1393,6 +1600,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "76" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "32" ] ;
@@ -1432,6 +1645,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "76" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "33" ] ;
@@ -1470,6 +1689,12 @@
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "75" ]
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -1518,6 +1743,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "76" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "35" ] ;
@@ -1565,6 +1796,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "53" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "36" ] ;
@@ -1603,6 +1840,12 @@
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "24" ]
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -1651,6 +1894,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "24" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "38" ] ;
@@ -1698,6 +1947,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "84" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "39" ] ;
@@ -1737,6 +1992,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "27" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "40" ] ;
@@ -1775,6 +2036,12 @@
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "75" ]
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -1823,6 +2090,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "24" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "42" ] ;
@@ -1861,6 +2134,12 @@
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "84" ]
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -1909,6 +2188,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "84" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "44" ] ;
@@ -1956,6 +2241,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "52" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "45" ] ;
@@ -1995,6 +2286,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "24" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "46" ] ;
@@ -2033,6 +2330,12 @@
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "76" ]
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -2081,6 +2384,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "75" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "48" ] ;
@@ -2127,6 +2436,12 @@
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "76" ]
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -2175,6 +2490,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "52" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "50" ] ;
@@ -2214,6 +2535,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "28" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "51" ] ;
@@ -2252,6 +2579,12 @@
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "44" ]
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -2300,6 +2633,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "44" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "53" ] ;
@@ -2338,6 +2677,12 @@
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "52" ]
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -2386,6 +2731,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "44" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "55" ] ;
@@ -2424,6 +2775,12 @@
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "44" ]
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -2464,6 +2821,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "53" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "57" ] ;
@@ -2502,6 +2865,12 @@
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "44" ]
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -2550,6 +2919,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "27" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "59" ] ;
@@ -2588,6 +2963,12 @@
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "32" ]
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -2628,6 +3009,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "32" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "61" ] ;
@@ -2666,6 +3053,12 @@
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "28" ]
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -2714,6 +3107,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "32" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "63" ] ;
@@ -2760,6 +3159,12 @@
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "84" ]
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -2808,6 +3213,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "75" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "65" ] ;
@@ -2854,6 +3265,12 @@
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "76" ]
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -2902,6 +3319,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "76" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "67" ] ;
@@ -2948,6 +3371,12 @@
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "44" ]
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -2996,6 +3425,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "44" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "69" ] ;
@@ -3042,6 +3477,12 @@
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "84" ]
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -3090,6 +3531,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "27" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "71" ] ;
@@ -3137,6 +3584,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "27" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "72" ] ;
@@ -3176,6 +3629,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "52" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "73" ] ;
@@ -3214,6 +3673,12 @@
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "84" ]
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -3262,6 +3727,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "84" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "75" ] ;
@@ -3300,6 +3771,12 @@
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "11" ]
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -3348,6 +3825,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "28" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "77" ] ;
@@ -3395,6 +3878,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "11" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "78" ] ;
@@ -3433,6 +3922,12 @@
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "11" ]
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -3481,6 +3976,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "75" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "80" ] ;
@@ -3520,6 +4021,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "32" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "81" ] ;
@@ -3558,6 +4065,12 @@
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "76" ]
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -3606,6 +4119,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "76" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "83" ] ;
@@ -3645,6 +4164,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "93" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "84" ] ;
@@ -3683,6 +4208,12 @@
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "93" ]
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -3731,6 +4262,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "52" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "86" ] ;
@@ -3769,6 +4306,12 @@
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "75" ]
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -3817,6 +4360,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "75" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "88" ] ;
@@ -3855,6 +4404,12 @@
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "44" ]
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -3895,6 +4450,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "27" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "90" ] ;
@@ -3934,6 +4495,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "27" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "91" ] ;
@@ -3972,6 +4539,12 @@
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "11" ]
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -4020,6 +4593,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "11" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "93" ] ;
@@ -4066,6 +4645,12 @@
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "11" ]
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -4114,6 +4699,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "11" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "95" ] ;
@@ -4161,6 +4752,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "11" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "971" ] ;
@@ -4199,6 +4796,12 @@
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "1" ]
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -4239,6 +4842,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "2" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "973" ] ;
@@ -4277,6 +4886,12 @@
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "3" ]
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -4325,6 +4940,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "4" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "975" ] ;
@@ -4356,6 +4977,12 @@
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "975" ]
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -4395,6 +5022,12 @@
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "6" ]
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -4443,6 +5076,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "977" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "978" ] ;
@@ -4490,6 +5129,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "978" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "984" ] ;
@@ -4530,6 +5175,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "984" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "985" ] ;
@@ -4567,6 +5218,18 @@
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "985" ]
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "deprecated"
+       ]
+     ] [
+       fhir:code [ fhir:v "deprecationDate" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2009-10-23T00:00:00+01:00"^^xsd:dateTime
        ]
      ] )
   ] [
@@ -4608,6 +5271,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "986" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "987" ] ;
@@ -4647,6 +5316,12 @@
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "987" ]
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -4688,6 +5363,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "988" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "989" ] ;
@@ -4728,6 +5409,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "989" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "98000" ] ;
@@ -4765,6 +5452,18 @@
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "98000" ]
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "deprecated"
+       ]
+     ] [
+       fhir:code [ fhir:v "deprecationDate" ] ;
+       fhir:value [
+         a fhir:dateTime ;
+         fhir:v "2016-02-05T00:00:00+01:00"^^xsd:dateTime
        ]
      ] )
   ] [
@@ -4805,6 +5504,12 @@
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "99138" ]
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] [
@@ -4853,6 +5558,12 @@
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "94" ]
        ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
+       ]
      ] )
   ] [
      fhir:code [ fhir:v "2B" ] ;
@@ -4899,6 +5610,12 @@
          a fhir:Coding ;
          fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"^^xsd:anyURI ] ;
          fhir:code [ fhir:v "94" ]
+       ]
+     ] [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:code ;
+         fhir:v "active"
        ]
      ] )
   ] ) . # 

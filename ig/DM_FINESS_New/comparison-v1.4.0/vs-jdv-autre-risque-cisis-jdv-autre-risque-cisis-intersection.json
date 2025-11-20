@@ -1,0 +1,21 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-1683",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-1683",
+  "name" : "IntersectionJdvAutreRisqueCisisAndJdvAutreRisqueCisis",
+  "title" : "Intersection of JDV Autre Risque CISIS And JDV Autre Risque CISIS",
+  "status" : "active",
+  "date" : "2025-11-20T16:10:29+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "285304000",
+        "display" : "à risque d'escarre"
+      },
+      {
+        "code" : "249492002",
+        "display" : "fausse route alimentaire"
+      }]
+    }]
+  }
+}

@@ -3835,6 +3835,15 @@
                   longDesignation="Espace Santé Jeunes (ESJ)"
                   shortDesignation="ESJ"
                   descriptionMetier=""/>
+         <concept code="704"
+                  codeSystem="1.2.250.1.213.1.6.1.378"
+                  dateFin=""
+                  dateMaj="20250422120000"
+                  dateValid="20251222120000"
+                  displayName="Autre service territorial"
+                  longDesignation="Autre service territorial"
+                  shortDesignation="Autre service territorial"
+                  descriptionMetier="Points locaux d'information dédiés aux personnes âgées. Ces services peuvent être rattachés à des CCAS ( Centre Communaux d'Action Sociale)"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

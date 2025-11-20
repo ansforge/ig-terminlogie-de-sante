@@ -1,0 +1,25 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-2052",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-2052",
+  "name" : "IntersectionCoverageRoleTypeAndCoverageRoleType",
+  "title" : "Intersection of CoverageRoleType And CoverageRoleType",
+  "status" : "active",
+  "date" : "2025-11-20T16:10:30+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "FAMDEP",
+        "display" : "Couverture familiale"
+      },
+      {
+        "code" : "STUD",
+        "display" : "Couverture étudiante"
+      },
+      {
+        "code" : "SELF",
+        "display" : "Couverture personnelle"
+      }]
+    }]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-1143",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-1143",
+  "name" : "IntersectionJDV_J201_TypeFermeture_RORAndJDV_J201_TypeFermeture_ROR",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-11-20T16:10:29+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "DEF",
+        "display" : "Définitive"
+      },
+      {
+        "code" : "ERR",
+        "display" : "Erreur"
+      },
+      {
+        "code" : "NDI",
+        "display" : "Non défini"
+      },
+      {
+        "code" : "CHP",
+        "display" : "Sortie du champ FINESS"
+      },
+      {
+        "code" : "EML",
+        "display" : "Ancienne autorisation fonctionnement EML"
+      },
+      {
+        "code" : "PRO",
+        "display" : "Provisoire"
+      },
+      {
+        "code" : "PRE",
+        "display" : "Prévisionnelle"
+      }]
+    }]
+  }
+}
