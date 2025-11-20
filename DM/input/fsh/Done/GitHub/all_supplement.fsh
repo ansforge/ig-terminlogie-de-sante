@@ -3889,13 +3889,15 @@ Id: ObservationValue-supplement-fr
 Title: "ObservationValueSupplementFr"
 Description: "Traduction Française"
 
-
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/ObservationValue-supplement-fr"
 * ^version = "1.0"
 * ^status = #draft
 * ^experimental = true
 * ^date = "2025-10-24T16:40:38+11:00"
 * ^content = #supplement
 * ^supplements = "http://terminology.hl7.org/CodeSystem/v3-ObservationValue"
+
+
 
 * #DS
 * #DS ^designation.language = #fr-FR
