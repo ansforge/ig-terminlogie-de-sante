@@ -17,8 +17,8 @@ Usage: #definition
 * contact.telecom.system = #url
 * contact.telecom.value = "https://esante.gouv.fr"
 * jurisdiction = urn:iso:std:iso:3166#FR "France"
-* sourceUri = "https://mos.esante.gouv.fr/NOS/JDV-ModeleDocumentCDA"
-//* targetUri = "https://mos.esante.gouv.fr/NOS/JDV_J10-XdsFormatCode-CISIS/FHIR/JDV-J10-XdsFormatCode-CISIS"
+* sourceUri = "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modele-document-cda-cisis"
+* targetUri = "https://mos.esante.gouv.fr/NOS/JDV_J10-XdsFormatCode-CISIS/FHIR/JDV-J10-XdsFormatCode-CISIS"
 * group[0].source = "https://mos.esante.gouv.fr/NOS/TRE_R220-ModeleDocumentCDAStructure/FHIR/TRE-R220-ModeleDocumentCDAStructure"
 * group[=].target = "https://mos.esante.gouv.fr/NOS/TRE_A06-FormatCodeComplementaire/FHIR/TRE-A06-FormatCodeComplementaire"
 * group[=].element[0].code = #1.2.250.1.213.1.1.1.5.1
@@ -39,9 +39,7 @@ Usage: #definition
 * group[=].element[+].code = #1.2.250.1.213.1.1.1.9
 * group[=].element[=].target.code = #urn:asip:ci-sis:idap:2011
 * group[=].element[=].target.equivalence = #equivalent
-* group[=].element[+].code = #1.2.250.1.213.1.1.1.10
-* group[=].element[=].target.code = #urn:asip:ci-sis:cva:2017
-* group[=].element[=].target.equivalence = #equivalent
+
 * group[=].element[+].code = #1.2.250.1.213.1.1.1.12.1
 * group[=].element[=].target.code = #urn:asip:ci-sis:obp-sap:2023
 * group[=].element[=].target.equivalence = #equivalent
@@ -87,9 +85,7 @@ Usage: #definition
 * group[=].element[+].code = #1.2.250.1.213.1.1.1.2.1.5
 * group[=].element[=].target.code = #urn:asip:ci-sis:ppv:2009
 * group[=].element[=].target.equivalence = #equivalent
-* group[=].element[+].code = #1.2.250.1.213.1.1.1.20
-* group[=].element[=].target.code = #urn:asip:ci-sis:pps-paerpa:2017
-* group[=].element[=].target.equivalence = #equivalent
+
 * group[=].element[+].code = #1.2.250.1.213.1.1.1.21
 * group[=].element[=].target.code = #urn:asip:ci-sis:ldl-ees:2017
 * group[=].element[=].target.equivalence = #equivalent
@@ -144,15 +140,7 @@ Usage: #definition
 * group[=].element[+].code = #1.2.250.1.213.1.1.1.47
 * group[=].element[=].target.code = #urn:ans:ci-sis:img-da:2022
 * group[=].element[=].target.equivalence = #equivalent
-* group[=].element[+].code = #1.2.250.1.213.1.1.1.48
-* group[=].element[=].target.code = #urn:asip:ci-sis:dlu-dlu-dom:2022
-* group[=].element[=].target.equivalence = #equivalent
-* group[=].element[+].code = #1.2.250.1.213.1.1.1.49
-* group[=].element[=].target.code = #urn:asip:ci-sis:dlu-fludt-dom:2022
-* group[=].element[=].target.equivalence = #equivalent
-* group[=].element[+].code = #1.2.250.1.213.1.1.1.50
-* group[=].element[=].target.code = #urn:asip:ci-sis:dlu-fludr-dom:2022
-* group[=].element[=].target.equivalence = #equivalent
+
 * group[=].element[+].code = #1.2.250.1.213.1.1.1.52
 * group[=].element[=].target.code = #urn:ans:ci-sis:bio-ep-bio:2022
 * group[=].element[=].target.equivalence = #equivalent
@@ -162,6 +150,16 @@ Usage: #definition
 * group[=].element[+].code = #1.2.250.1.213.1.1.1.56
 * group[=].element[=].target.code = #urn:asip:ci-sis:ppp:2023
 * group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #1.2.250.1.213.1.1.1.59
+* group[=].element[=].target.code = #urn:ans:ci-sis:trod:2024
+* group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #1.2.250.1.213.1.1.1.61
+* group[=].element[=].target.code = #urn:asip:ci-cis:ft-su:2024
+* group[=].element[=].target.equivalence = #equivalent
+* group[=].element[+].code = #1.2.250.1.213.1.1.1.62
+* group[=].element[=].target.code = #urn:asip:ci-cis:fr-su:2024
+* group[=].element[=].target.equivalence = #equivalent
+
 * group[+].source = "https://mos.esante.gouv.fr/NOS/TRE_R220-ModeleDocumentCDAStructure/FHIR/TRE-R220-ModeleDocumentCDAStructure"
 * group[=].target = "https://mos.esante.gouv.fr/NOS/TRE_A11-IheFormatCode/FHIR/TRE-A11-IheFormatCode"
 * group[=].element[0].code = #1.2.250.1.213.1.1.1.39
