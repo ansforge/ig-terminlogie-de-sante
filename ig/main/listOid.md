@@ -40,7 +40,7 @@ Les systèmes d'identification définis ici sont destinés à la commodité des 
 | NUVA | https://smt.esante.gouv.fr/terminologie-nuva | 1.3.6.1.4.1.48601.1 |
 | ObservationInterpretationSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/observationInterpretation-supplement-fr |  |
 | ObservationMethodSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/observationMethod-supplement-fr |  |
-| ObservationValueSupplementFr | http://hl7.org/fhir/us/example/CodeSystem/ObservationValue-supplement-fr |  |
+| ObservationValueSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/ObservationValue-supplement-fr |  |
 | OrderableDrugFormSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/orderableDrugForm-supplement-fr |  |
 | PCS | https://www.insee.fr/ | 1.2.250.1.213.2.13 |
 | ParticipationFunctionSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/participationFunction-supplement-fr |  |

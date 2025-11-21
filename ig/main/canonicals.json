@@ -1,12 +1,5 @@
 [
   {
-    "id" : "ObservationValue-supplement-fr",
-    "type" : "CodeSystem",
-    "url" : "http://hl7.org/fhir/us/example/CodeSystem/ObservationValue-supplement-fr",
-    "version" : "1.0",
-    "name" : "ObservationValueSupplementFr"
-  },
-  {
     "id" : "11000315107-20250621",
     "type" : "CodeSystem",
     "url" : "http://snomed.info/sct",
@@ -4387,6 +4380,13 @@
     "version" : "20231215120000",
     "name" : "TRE_R97_DroitExerciceCompl",
     "oids" : ["1.2.250.1.213.1.6.1.111"]
+  },
+  {
+    "id" : "ObservationValue-supplement-fr",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/ObservationValue-supplement-fr",
+    "version" : "1.0",
+    "name" : "ObservationValueSupplementFr"
   },
   {
     "id" : "actCode-supplement-fr",

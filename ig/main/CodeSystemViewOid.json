@@ -59,7 +59,7 @@
     "id" : "ObservationValue-supplement-fr",
     "name" : "ObservationValueSupplementFr",
     "title" : "ObservationValueSupplementFr",
-    "url" : "http://hl7.org/fhir/us/example/CodeSystem/ObservationValue-supplement-fr",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/ObservationValue-supplement-fr",
     "identifier" : null,
     "status" : "draft"
   },

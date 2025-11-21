@@ -1,14 +1,6 @@
 {
   "codeSystems" : [
     {
-      "url" : "http://hl7.org/fhir/us/example/CodeSystem/ObservationValue-supplement-fr",
-      "version" : "1.0",
-      "status" : "draft",
-      "name" : "ObservationValueSupplementFr",
-      "title" : "ObservationValueSupplementFr",
-      "description" : "Traduction Française"
-    },
-    {
       "url" : "http://snomed.info/sct",
       "version" : "http://snomed.info/sct/11000315107/version/20250621",
       "status" : "active",
@@ -2284,6 +2276,14 @@
       "title" : null,
       "description" : "Droit d'exercice complémentaire",
       "oids" : ["1.2.250.1.213.1.6.1.111"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/ObservationValue-supplement-fr",
+      "version" : "1.0",
+      "status" : "draft",
+      "name" : "ObservationValueSupplementFr",
+      "title" : "ObservationValueSupplementFr",
+      "description" : "Traduction Française"
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/actCode-supplement-fr",
