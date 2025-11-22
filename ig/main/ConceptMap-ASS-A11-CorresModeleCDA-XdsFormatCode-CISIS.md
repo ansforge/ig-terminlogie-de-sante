@@ -9,13 +9,13 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://mos.esante.gouv.fr/NOS/ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS | *Version*:5.0.0 |
-| Active as of 2025-11-21 | *Computable Name*:ASS_A11_CorresModeleCDA_XdsFormatCode_CISIS |
+| Active as of 2025-11-22 | *Computable Name*:ASS_A11_CorresModeleCDA_XdsFormatCode_CISIS |
 | **Usage:**Workflow Task:  | |
 
  
 Pour le document CDA, la métadonnée XDS ‘formatCode’ est calculé à partir de l’élement CDA ‘templateId’. La correspondance entre templateId et formatCode est assurée par cette table d’association. 
 
-Mapping de [Jdv Modele Document Cda](ValueSet-jdv-modele-document-cda.md) vers (non spécifié)
+Mapping de [Jdv Modele Document CDA CISIS](ValueSet-jdv-modele-document-cda-cisis.md) vers [JDV_J10_XdsFormatCode_CISIS](ValueSet-JDV-J10-XdsFormatCode-CISIS.md)
 
 **Groupe 1**Mapping de [TRE_R220_ModeleDocumentCDAStructureversion: 20251029120000)](CodeSystem-TRE-R220-ModeleDocumentCDAStructure.md) to [TRE_A06_FormatCodeComplementaireversion: 20251029120000)](CodeSystem-TRE-A06-FormatCodeComplementaire.md)
 
@@ -37,9 +37,6 @@ Mapping de [Jdv Modele Document Cda](ValueSet-jdv-modele-document-cda.md) vers (
 * **Code source**: 1.2.250.1.213.1.1.1.9 (Document d'information et de directives anticipées du patient)
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
   * **Code cible**: urn:asip:ci-sis:idap:2011 (Information et Directives anticipées du patient)
-* **Code source**: 1.2.250.1.213.1.1.1.10 (Carnet de vaccination électronique)
-  * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
-  * **Code cible**: urn:asip:ci-sis:cva:2017 (Carnet de vaccination électronique)
 * **Code source**: 1.2.250.1.213.1.1.1.12.1 (Synthèse antepartum)
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
   * **Code cible**: urn:asip:ci-sis:obp-sap:2023 (Synthèse antepartum)
@@ -85,9 +82,6 @@ Mapping de [Jdv Modele Document Cda](ValueSet-jdv-modele-document-cda.md) vers (
 * **Code source**: 1.2.250.1.213.1.1.1.2.1.5 (Fiche patient à risque en cardiologie - Porteur d'une prothèse valvulaire)
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
   * **Code cible**: urn:asip:ci-sis:ppv:2009 (Fiche patient à risque en cardiologie - Porteur d'une prothèse valvulaire)
-* **Code source**: 1.2.250.1.213.1.1.1.20 (Plan Personnalisé de Santé - PAERPA)
-  * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
-  * **Code cible**: urn:asip:ci-sis:pps-paerpa:2017 (Plan Personnalisé de Santé - PAERPA)
 * **Code source**: 1.2.250.1.213.1.1.1.21 (Lettre de Liaison à l'entrée d'un établissement de santé)
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
   * **Code cible**: urn:asip:ci-sis:ldl-ees:2017 (Lettre de Liaison à l'entrée d'un établissement de santé)
@@ -142,15 +136,6 @@ Mapping de [Jdv Modele Document Cda](ValueSet-jdv-modele-document-cda.md) vers (
 * **Code source**: 1.2.250.1.213.1.1.1.47 (Demande d'actes d'imagerie)
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
   * **Code cible**: urn:ans:ci-sis:img-da:2022 (Demande d'actes d'imagerie)
-* **Code source**: 1.2.250.1.213.1.1.1.48 (Document de liaison d'urgence DOM)
-  * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
-  * **Code cible**: urn:asip:ci-sis:dlu-dlu-dom:2022 (Document de liaison d'urgence DOM)
-* **Code source**: 1.2.250.1.213.1.1.1.49 (Fiche de liaison d'urgence -Transfert du domicile vers les urgences)
-  * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
-  * **Code cible**: urn:asip:ci-sis:dlu-fludt-dom:2022 (Fiche de liaison d'urgence - Transfert du domicile vers les urgences)
-* **Code source**: 1.2.250.1.213.1.1.1.50 (Fiche de liaison d'urgence - Retour des urgences vers le domicile)
-  * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
-  * **Code cible**: urn:asip:ci-sis:dlu-fludr-dom:2022 (Fiche de liaison d'urgence - Retour des urgences vers le domicile)
 * **Code source**: 1.2.250.1.213.1.1.1.52 (Prescription d'actes de biologie médicale)
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
   * **Code cible**: urn:ans:ci-sis:bio-ep-bio:2022 (Prescription d'actes de biologie médicale)
@@ -160,6 +145,15 @@ Mapping de [Jdv Modele Document Cda](ValueSet-jdv-modele-document-cda.md) vers (
 * **Code source**: 1.2.250.1.213.1.1.1.56 (Plan personnalisé de prévention)
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
   * **Code cible**: urn:asip:ci-sis:ppp:2023 (Plan personnalisé de prévention)
+* **Code source**: 1.2.250.1.213.1.1.1.59 (Test rapide d'orientation diagnostique)
+  * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * **Code cible**: urn:ans:ci-sis:trod:2024 (Test rapide d'orientation diagnostique)
+* **Code source**: 1.2.250.1.213.1.1.1.61 (Fiche de transfert vers le service des urgences)
+  * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * **Code cible**: urn:asip:ci-cis:ft-su:2024
+* **Code source**: 1.2.250.1.213.1.1.1.62 (Fiche de retour du service des urgences)
+  * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
+  * **Code cible**: urn:asip:ci-cis:fr-su:2024
 
 -------
 
@@ -298,7 +292,7 @@ Mapping de [Jdv Modele Document Cda](ValueSet-jdv-modele-document-cda.md) vers (
   "title" : "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-11-21T04:22:12+00:00",
+  "date" : "2025-11-22T04:21:30+00:00",
   "publisher" : "ANS",
   "contact" : [
     {
@@ -333,7 +327,8 @@ Mapping de [Jdv Modele Document Cda](ValueSet-jdv-modele-document-cda.md) vers (
       ]
     }
   ],
-  "sourceUri" : "https://mos.esante.gouv.fr/NOS/JDV-ModeleDocumentCDA",
+  "sourceUri" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modele-document-cda-cisis",
+  "targetUri" : "https://mos.esante.gouv.fr/NOS/JDV_J10-XdsFormatCode-CISIS/FHIR/JDV-J10-XdsFormatCode-CISIS",
   "group" : [
     {
       "source" : "https://mos.esante.gouv.fr/NOS/TRE_R220-ModeleDocumentCDAStructure/FHIR/TRE-R220-ModeleDocumentCDAStructure",
@@ -391,15 +386,6 @@ Mapping de [Jdv Modele Document Cda](ValueSet-jdv-modele-document-cda.md) vers (
           "target" : [
             {
               "code" : "urn:asip:ci-sis:idap:2011",
-              "equivalence" : "equivalent"
-            }
-          ]
-        },
-        {
-          "code" : "1.2.250.1.213.1.1.1.10",
-          "target" : [
-            {
-              "code" : "urn:asip:ci-sis:cva:2017",
               "equivalence" : "equivalent"
             }
           ]
@@ -535,15 +521,6 @@ Mapping de [Jdv Modele Document Cda](ValueSet-jdv-modele-document-cda.md) vers (
           "target" : [
             {
               "code" : "urn:asip:ci-sis:ppv:2009",
-              "equivalence" : "equivalent"
-            }
-          ]
-        },
-        {
-          "code" : "1.2.250.1.213.1.1.1.20",
-          "target" : [
-            {
-              "code" : "urn:asip:ci-sis:pps-paerpa:2017",
               "equivalence" : "equivalent"
             }
           ]
@@ -711,33 +688,6 @@ Mapping de [Jdv Modele Document Cda](ValueSet-jdv-modele-document-cda.md) vers (
           ]
         },
         {
-          "code" : "1.2.250.1.213.1.1.1.48",
-          "target" : [
-            {
-              "code" : "urn:asip:ci-sis:dlu-dlu-dom:2022",
-              "equivalence" : "equivalent"
-            }
-          ]
-        },
-        {
-          "code" : "1.2.250.1.213.1.1.1.49",
-          "target" : [
-            {
-              "code" : "urn:asip:ci-sis:dlu-fludt-dom:2022",
-              "equivalence" : "equivalent"
-            }
-          ]
-        },
-        {
-          "code" : "1.2.250.1.213.1.1.1.50",
-          "target" : [
-            {
-              "code" : "urn:asip:ci-sis:dlu-fludr-dom:2022",
-              "equivalence" : "equivalent"
-            }
-          ]
-        },
-        {
           "code" : "1.2.250.1.213.1.1.1.52",
           "target" : [
             {
@@ -760,6 +710,33 @@ Mapping de [Jdv Modele Document Cda](ValueSet-jdv-modele-document-cda.md) vers (
           "target" : [
             {
               "code" : "urn:asip:ci-sis:ppp:2023",
+              "equivalence" : "equivalent"
+            }
+          ]
+        },
+        {
+          "code" : "1.2.250.1.213.1.1.1.59",
+          "target" : [
+            {
+              "code" : "urn:ans:ci-sis:trod:2024",
+              "equivalence" : "equivalent"
+            }
+          ]
+        },
+        {
+          "code" : "1.2.250.1.213.1.1.1.61",
+          "target" : [
+            {
+              "code" : "urn:asip:ci-cis:ft-su:2024",
+              "equivalence" : "equivalent"
+            }
+          ]
+        },
+        {
+          "code" : "1.2.250.1.213.1.1.1.62",
+          "target" : [
+            {
+              "code" : "urn:asip:ci-cis:fr-su:2024",
               "equivalence" : "equivalent"
             }
           ]

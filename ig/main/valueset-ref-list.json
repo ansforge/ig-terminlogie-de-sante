@@ -23,10 +23,7 @@
       "description" : "JDV avec l'ensemble des codes actifs de la TRE_R222_MediaTypeCorpsCDANonStructure",
       "systems" : [
         "https://mos.esante.gouv.fr/NOS/TRE_R222-MediaTypeCorpsCDANonStructure/FHIR/TRE-R222-MediaTypeCorpsCDANonStructure"
-      ],
-      "uses" : {
-      },
-      "ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.html" : "ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS"
+      ]
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV-ModeleDocumentCDA",
@@ -38,10 +35,7 @@
       "systems" : [
         "https://mos.esante.gouv.fr/NOS/TRE_R221-ModeleDocumentCDANonStructure/FHIR/TRE-R221-ModeleDocumentCDANonStructure",
         "https://mos.esante.gouv.fr/NOS/TRE_R220-ModeleDocumentCDAStructure/FHIR/TRE-R220-ModeleDocumentCDAStructure"
-      ],
-      "uses" : {
-      },
-      "ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.html" : "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS"
+      ]
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS",
@@ -190,6 +184,7 @@
       "sources" : ["1.2.250.1.213.1.1.5.465"],
       "uses" : {
       },
+      "ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.html" : "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS",
       "ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.html" : "ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS"
     },
     {
@@ -5582,7 +5577,10 @@
       "description" : "MediaType",
       "systems" : ["http://terminology.hl7.org/CodeSystem/v3-mediaType"],
       "oids" : ["2.16.840.1.113883.1.11.14824"],
-      "sources" : ["2.16.840.1.113883.1.11.14824"]
+      "sources" : ["2.16.840.1.113883.1.11.14824"],
+      "uses" : {
+      },
+      "ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.html" : "ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS"
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationInterpretation-cisis",
@@ -6605,7 +6603,10 @@
         "https://mos.esante.gouv.fr/NOS/TRE_R220-ModeleDocumentCDAStructure/FHIR/TRE-R220-ModeleDocumentCDAStructure"
       ],
       "oids" : ["1.2.250.1.213.1.1.5.820"],
-      "sources" : ["1.2.250.1.213.1.1.5.820"]
+      "sources" : ["1.2.250.1.213.1.1.5.820"],
+      "uses" : {
+      },
+      "ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.html" : "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS"
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modele-document-cda-non-structure-cisis",
@@ -9479,8 +9480,8 @@
       "systems" : ["https://smt.esante.gouv.fr/terminologie-bdpm"],
       "uses" : {
       },
-      "ConceptMap-alignement-nuva-bdpm.html" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM",
-      "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD"
+      "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD",
+      "ConceptMap-alignement-nuva-bdpm.html" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM"
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-cip_ucd?vs",
@@ -9492,8 +9493,8 @@
       "systems" : ["https://smt.esante.gouv.fr/terminologie-cip_ucd"],
       "uses" : {
       },
-      "ConceptMap-alignement-nuva-cipucd.html" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD",
-      "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD"
+      "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD",
+      "ConceptMap-alignement-nuva-cipucd.html" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD"
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-nuva?vs",
