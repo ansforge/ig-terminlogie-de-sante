@@ -154,10 +154,10 @@ Usage: #definition
 * group[=].element[=].target.code = #urn:ans:ci-sis:trod:2024
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #1.2.250.1.213.1.1.1.61
-* group[=].element[=].target.code = #urn:asip:ci-cis:ft-su:2024
+* group[=].element[=].target.code = #urn:asip:ci-sis:ft-su:2024
 * group[=].element[=].target.equivalence = #equivalent
 * group[=].element[+].code = #1.2.250.1.213.1.1.1.62
-* group[=].element[=].target.code = #urn:asip:ci-cis:fr-su:2024
+* group[=].element[=].target.code = #urn:asip:ci-sis:fr-su:2024
 * group[=].element[=].target.equivalence = #equivalent
 
 * group[+].source = "https://mos.esante.gouv.fr/NOS/TRE_R220-ModeleDocumentCDAStructure/FHIR/TRE-R220-ModeleDocumentCDAStructure"
