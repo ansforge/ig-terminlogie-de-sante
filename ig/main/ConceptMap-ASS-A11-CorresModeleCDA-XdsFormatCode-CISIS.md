@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://mos.esante.gouv.fr/NOS/ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS | *Version*:5.0.0 |
-| Active as of 2025-11-22 | *Computable Name*:ASS_A11_CorresModeleCDA_XdsFormatCode_CISIS |
+| Active as of 2025-11-23 | *Computable Name*:ASS_A11_CorresModeleCDA_XdsFormatCode_CISIS |
 | **Usage:**Workflow Task:  | |
 
  
@@ -150,10 +150,10 @@ Mapping de [Jdv Modele Document CDA CISIS](ValueSet-jdv-modele-document-cda-cisi
   * **Code cible**: urn:ans:ci-sis:trod:2024 (Test rapide d'orientation diagnostique)
 * **Code source**: 1.2.250.1.213.1.1.1.61 (Fiche de transfert vers le service des urgences)
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
-  * **Code cible**: urn:asip:ci-cis:ft-su:2024
+  * **Code cible**: urn:asip:ci-sis:ft-su:2024 (Fiche de transfert vers le service des urgences)
 * **Code source**: 1.2.250.1.213.1.1.1.62 (Fiche de retour du service des urgences)
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
-  * **Code cible**: urn:asip:ci-cis:fr-su:2024
+  * **Code cible**: urn:asip:ci-sis:fr-su:2024 (Fiche de retour du service des urgences)
 
 -------
 
@@ -292,7 +292,7 @@ Mapping de [Jdv Modele Document CDA CISIS](ValueSet-jdv-modele-document-cda-cisi
   "title" : "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-11-22T04:21:30+00:00",
+  "date" : "2025-11-23T04:34:41+00:00",
   "publisher" : "ANS",
   "contact" : [
     {
@@ -727,7 +727,7 @@ Mapping de [Jdv Modele Document CDA CISIS](ValueSet-jdv-modele-document-cda-cisi
           "code" : "1.2.250.1.213.1.1.1.61",
           "target" : [
             {
-              "code" : "urn:asip:ci-cis:ft-su:2024",
+              "code" : "urn:asip:ci-sis:ft-su:2024",
               "equivalence" : "equivalent"
             }
           ]
@@ -736,7 +736,7 @@ Mapping de [Jdv Modele Document CDA CISIS](ValueSet-jdv-modele-document-cda-cisi
           "code" : "1.2.250.1.213.1.1.1.62",
           "target" : [
             {
-              "code" : "urn:asip:ci-cis:fr-su:2024",
+              "code" : "urn:asip:ci-sis:fr-su:2024",
               "equivalence" : "equivalent"
             }
           ]
