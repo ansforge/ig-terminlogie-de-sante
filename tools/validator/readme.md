@@ -2,7 +2,7 @@
 
 ## Description
 
-Ce Schematron permet de valider sémantiquement des documents CDA (Clinical Document Architecture) en vérifiant les codes et leurs libellés contre le **SMT (Serveur Multi-Terminologique)** de l'ANS.
+Ce Schematron permet de valider sémantiquement des documents CDA (Clinical Document Architecture) en vérifiant les codes et leurs libellés contre le **FTS (Fhir terminology Service)** .
 
 ## Fonctionnalités
 
@@ -19,22 +19,22 @@ Le Schematron génère automatiquement des statistiques complètes :
 - **Codes en échec** : Terminologie trouvée mais code non valide
 - **Codes non traités** : Terminologie non disponible dans le SMT
 
-### 🌐 Intégration SMT
+### 🌐 Intégration FTS
 - Appels automatiques à l'API FHIR du SMT
 - Support du paramètre `displayLanguage=fr` pour les libellés français
 - Gestion des lookups multiples (plusieurs versions d'un CodeSystem)
-- URL du SMT configurable via la variable `$smtBaseUrl`
+- URL du FTS  configurable via la variable `$smtBaseUrl`
 
 ## Configuration
 
-### Variable SMT
+### Variable FTS
 L'URL du SMT est définie au début du fichier Schematron (ligne 24) :
 
 ```xml
 <let name="smtBaseUrl" value="'https://smt.esante.gouv.fr/fhir/'"/>
 ```
 
-Pour changer l'URL du SMT (par exemple pour un environnement de test), modifiez simplement cette ligne.
+Pour changer l'URL du FTS (par exemple pour un environnement de test), modifiez simplement cette ligne.
 
 ## validation avec JAVA
 
