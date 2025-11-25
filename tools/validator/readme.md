@@ -205,4 +205,5 @@ GET https://smt.esante.gouv.fr/fhir//CodeSystem/$lookup?system=http://snomed.inf
 
 ## Licence
 
-Ce Schematron est développé pour la validation des documents CDA conformes aux profils CI-SIS de l'ANS.
+Ce Schematron est sous la licence  CC BY :
+ - https://creativecommons.org/licenses/by/4.0/
