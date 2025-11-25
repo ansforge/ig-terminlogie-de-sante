@@ -330,6 +330,7 @@
 * [Liste des Actes Inovants Hors Nomenclature](CodeSystem-terminologie-lahn.md)
 * [Nomenclature des actes de biologie médicale](CodeSystem-terminologie-nabm.md)
 * [Nomenclature Unifiée des Vaccins](CodeSystem-terminologie-nuva.md)
+* [Dictionnaire européen multilingue des substances entrant dans la composition de médicaments](CodeSystem-terminologie-sms.md)
 * [Standard Terms Data Base Dictionnaire européen multilingue de termes normalisés descripteurs de médicaments](CodeSystem-terminologie-standardterms.md)
 * [Tre R389 Statut Bilan Projet Personnalise](CodeSystem-tre-r389-statut-bilan-projet-personnalise.md)
 * [Tre R390 Type Projet Personnalise](CodeSystem-tre-r390-type-projet-personnalise.md)

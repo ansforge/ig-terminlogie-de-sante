@@ -12,7 +12,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Terminology Server Report for Terminologies</h1>
- <p>Generated Mon Nov 24 05:10:20 UTC 2025, FHIR version 4.0.1 for ans.fr.terminologies#1.4.0 (canonical = <a href="https://interop.esante.gouv.fr/terminologies">https://interop.esante.gouv.fr/terminologies</a> (<a href="https://interop.esante.gouv.fr/terminologies/history.html">history</a>))</p>
+ <p>Generated Tue Nov 25 04:57:43 UTC 2025, FHIR version 4.0.1 for ans.fr.terminologies#1.4.0 (canonical = <a href="https://interop.esante.gouv.fr/terminologies">https://interop.esante.gouv.fr/terminologies</a> (<a href="https://interop.esante.gouv.fr/terminologies/history.html">history</a>))</p>
 <p>This page provides a report on which terminology servers were used while publishing this IG. Note that terminology caching reduces the server hit count - this page only reports content that wasn't cached</p>
 <h2>Terminology Parameters</h2>
 <ul>
@@ -18269,18 +18269,18 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
   </tr>
   <tr>
-    <td>System not handled by any servers. Using primary server</td>
-    <td>https://tx.fhir.org/r4</td>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
     <td>null</td>
-    <td>https://smt.esante.gouv.fr/terminologie-sms</td>
-    <td>auth = , candidates=</td>
+    <td>https://smt.esante.gouv.fr/terminologie-sms|2025-11</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
   </tr>
   <tr>
-    <td>Fallback: primary server</td>
-    <td>https://tx.fhir.org/r4</td>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
     <td>null</td>
     <td>https://smt.esante.gouv.fr/terminologie-sms</td>
-    <td>auth = , candidates=</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
   </tr>
   <tr>
     <td>System not handled by any servers. Using primary server</td>
@@ -21125,18 +21125,11 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
   </tr>
   <tr>
-    <td>System not handled by any servers. Using primary server</td>
-    <td>https://tx.fhir.org/r4</td>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
     <td></td>
     <td>https://smt.esante.gouv.fr/terminologie-sms</td>
-    <td>auth = , candidates=</td>
-  </tr>
-  <tr>
-    <td>System not handled by any servers. Using primary server</td>
-    <td>https://tx.fhir.org/r4</td>
-    <td>https://smt.esante.gouv.fr/terminologie-sms?vs|20241114120000</td>
-    <td>https://smt.esante.gouv.fr/terminologie-sms</td>
-    <td>auth = , candidates=</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
   </tr>
   <tr>
     <td>Use primary server for http://unstats.un.org/unsd/methods/m49/m49.htm</td>
@@ -21219,7 +21212,7 @@
 </table>
 <h2>Primary Server: https://tx.fhir.org/r4</h2>
 <a href="https://tx.fhir.org/r4"></a>
-<p>Use Count: 423. Code Systems used: </p>
+<p>Use Count: 421. Code Systems used: </p>
 <table class="grid">
   <tr>
     <th>
@@ -21380,12 +21373,6 @@
     <td></td>
   </tr>
   <tr>
-    <td>https://smt.esante.gouv.fr/terminologie-sms</td>
-    <td>2</td>
-    <td>1</td>
-    <td></td>
-  </tr>
-  <tr>
     <td>https://smt.esante.gouv.fr/terminologie-tccr</td>
     <td>7</td>
     <td>1</td>
@@ -21474,7 +21461,7 @@
 </table>
 <h2>Server: https://smt.esante.gouv.fr/fhir</h2>
 <a href="https://smt.esante.gouv.fr/fhir"></a>
-<p>Use Count: 2607. Code Systems used: </p>
+<p>Use Count: 2606. Code Systems used: </p>
 <table class="grid">
   <tr>
     <th>
@@ -22003,6 +21990,22 @@
     </td>
   </tr>
   <tr>
+    <td>https://smt.esante.gouv.fr/terminologie-sms</td>
+    <td>1</td>
+    <td>1</td>
+    <td>
+      <a href="CodeSystem-terminologie-sms.html">Dictionnaire européen multilingue des substances entrant dans la composition de médicaments</a>
+    </td>
+  </tr>
+  <tr>
+    <td>https://smt.esante.gouv.fr/terminologie-sms|2025-11</td>
+    <td>0</td>
+    <td>1</td>
+    <td>
+      <a href="CodeSystem-terminologie-sms.html">Dictionnaire européen multilingue des substances entrant dans la composition de médicaments</a>
+    </td>
+  </tr>
+  <tr>
     <td>https://smt.esante.gouv.fr/terminologie-standardterms</td>
     <td>11</td>
     <td>1</td>
@@ -22054,7 +22057,6 @@
   <li>https://smt.esante.gouv.fr/terminologie-lahn?vs</li>
   <li>https://smt.esante.gouv.fr/terminologie-nabm?vs</li>
   <li>https://smt.esante.gouv.fr/terminologie-ncit</li>
-  <li>https://smt.esante.gouv.fr/terminologie-sms</li>
   <li>https://smt.esante.gouv.fr/terminologie-tccr</li>
 </ul>
 </body>

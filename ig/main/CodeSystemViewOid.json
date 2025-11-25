@@ -240,6 +240,14 @@
     "status" : "active"
   },
   {
+    "id" : "terminologie-sms",
+    "name" : "Dictionnaire_SMS_Substance_Management_Services_",
+    "title" : "Dictionnaire européen multilingue des substances entrant dans la composition de médicaments",
+    "url" : "https://smt.esante.gouv.fr/terminologie-sms",
+    "identifier" : "urn:oid:2.16.840.1.113883.3.6905.2",
+    "status" : "active"
+  },
+  {
     "id" : "terminologie-emdn",
     "name" : "EMDN",
     "title" : "European Medical device nomenclature",

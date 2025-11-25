@@ -11,7 +11,7 @@
   <name value="Terminologies"/>
   <title value="Terminologies  de Santé"/>
   <status value="active"/>
-  <date value="2025-11-24T04:37:40+00:00"/>
+  <date value="2025-11-25T04:26:42+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -18649,6 +18649,17 @@
       </reference>
       <name value="DaysOfWeek"/>
       <description value="DaysOfWeek"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/terminologie-sms"/>
+      </reference>
+      <name value="Dictionnaire européen multilingue des substances entrant dans la composition de médicaments"/>
+      <description value="Le dictionnaire des substances ou SMS a été conçu par l’European Medicines Agency (EMA) dans le cadre d’une démarche qualité. Ce dictionnaire contient les substances entrant dans la composition de médicaments destinés à un humain et/ou vétérinaire."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

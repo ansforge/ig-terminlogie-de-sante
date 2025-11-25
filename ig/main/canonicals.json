@@ -8493,6 +8493,14 @@
     "name" : "ValueSet_NUVA_All"
   },
   {
+    "id" : "terminologie-sms",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/terminologie-sms",
+    "version" : "2025-11",
+    "name" : "Dictionnaire_SMS_Substance_Management_Services_",
+    "oids" : ["2.16.840.1.113883.3.6905.2"]
+  },
+  {
     "id" : "vs-sms-all",
     "type" : "ValueSet",
     "url" : "https://smt.esante.gouv.fr/terminologie-sms?vs",
