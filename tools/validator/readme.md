@@ -36,7 +36,7 @@ L'URL du SMT est définie au début du fichier Schematron (ligne 24) :
 
 Pour changer l'URL du FTS (par exemple pour un environnement de test), modifiez simplement cette ligne.
 
-## validation avec JAVA
+## Validation avec JAVA
 
 ### Logiciels requis
 - **Java** : JRE 8 ou supérieur
