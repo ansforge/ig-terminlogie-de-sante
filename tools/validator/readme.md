@@ -2,7 +2,7 @@
 
 ## Description
 
-Ce Schematron permet de valider sémantiquement des documents CDA (Clinical Document Architecture) en vérifiant les codes et leurs libellés contre le **FTS (Fhir terminology Service)** .
+Ce Schematron permet de valider sémantiquement des documents CDA (Clinical Document Architecture) en vérifiant les codes et leurs libellés contre le **FTS (Fhir Terminology Service)** .
 
 ## Fonctionnalités
 
@@ -22,7 +22,6 @@ Le Schematron génère automatiquement des statistiques complètes :
 ### 🌐 Intégration FTS
 - Appels automatiques à l'API FHIR du SMT
 - Support du paramètre `displayLanguage=fr` pour les libellés français
-- Gestion des lookups multiples (plusieurs versions d'un CodeSystem)
 - URL du FTS  configurable via la variable `$smtBaseUrl`
 
 ## Configuration
