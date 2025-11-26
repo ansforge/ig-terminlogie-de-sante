@@ -1,5 +1,7 @@
 # Validation Sémantique CDA avec Schematron
 
+*Link to the [English README](https://github.com/ansforge/IG-terminologie-de-sante/blob/ADD_README_EN/tools/validator/readme_en.md)*
+
 ## Description
 
 Ce Schematron permet de valider sémantiquement des documents CDA (Clinical Document Architecture) en vérifiant les codes et leurs libellés contre le **FTS (Fhir Terminology Service)** .
