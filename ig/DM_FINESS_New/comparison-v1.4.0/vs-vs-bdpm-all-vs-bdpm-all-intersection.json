@@ -1,9 +1,0 @@
-{
-  "resourceType" : "ValueSet",
-  "id" : "7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-3006",
-  "url" : "http://hl7.org/fhir/comparison/ValueSet/7d9c15a8-7c42-4b94-a6ca-28253f41dcc9-3006",
-  "name" : "IntersectionValueSet_BDPM_AllAndValueSet_BDPM_All",
-  "title" : "Intersection of null And null",
-  "status" : "active",
-  "date" : "2025-11-20T16:10:30+00:00"
-}
