@@ -1,6 +1,6 @@
 # CDA Semantic Validation with Schematron
 
-*Link to the [French README](https://github.com/ansforge/IG-terminologie-de-sante/edit/main/tools/validator/readme.md)* 
+*Lien vers le [README français](https://github.com/ansforge/IG-terminologie-de-sante/edit/main/tools/validator/readme.md)* 
 
 ## Description
 
