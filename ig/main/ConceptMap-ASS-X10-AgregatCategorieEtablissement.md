@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://mos.esante.gouv.fr/NOS/ASS_X10_AgregatCategorieEtablissement | *Version*:5.0.0 |
-| Active as of 2025-11-25 | *Computable Name*:ASS_X10_AgregatCategorieEtablissement |
+| Active as of 2025-11-26 | *Computable Name*:ASS_X10_AgregatCategorieEtablissement |
 
  
 ASS_X10_AgregatCategorieEtablissement 
@@ -38,7 +38,7 @@ Mapping de (non spécifié) vers (non spécifié)
   "title" : "ASS_X10_AgregatCategorieEtablissement",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-11-25T04:26:42+00:00",
+  "date" : "2025-11-26T04:24:52+00:00",
   "publisher" : "ANS",
   "contact" : [
     {
