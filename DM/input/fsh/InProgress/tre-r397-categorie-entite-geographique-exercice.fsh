@@ -7805,6 +7805,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #618 ^property[=].valueDateTime = "2024-03-29T12:00:00+01:00"
 * #618 ^property[+].code = #status
 * #618 ^property[=].valueCode = #active
+* #618 ^property[+].code = #specialisationRor
+* #618 ^property[=].valueBoolean = true
 * #620 "Pharmacie d'Officine"
 * #620 ^property[0].code = #niveau
 * #620 ^property[=].valueInteger =  4
