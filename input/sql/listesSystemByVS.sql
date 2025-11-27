@@ -1,6 +1,9 @@
 select 
-    system,
-    GROUP_CONCAT(vsId) listeVS
+        system,
+        (select 1 from Resources where url=system),
+        count(*),
+        GROUP_CONCAT(vsId) listeVS
+
 from(
 SELECT 
         json_extract(extractCompose.value, '$.system') AS system,
