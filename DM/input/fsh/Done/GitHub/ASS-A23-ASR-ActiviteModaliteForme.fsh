@@ -3,16 +3,17 @@ InstanceOf: ConceptMap
 Usage: #definition
 * extension[0].url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * extension[=].valuePeriod.start = "2020-07-31T12:00:00+01:00"
+* extension[=].valuePeriod.end = "2025-12-22T12:00:00+01:00"
 * extension[+].url = "http://hl7.org/fhir/StructureDefinition/concept-bidirectional"
 * extension[=].valueBoolean = true
 * url = "https://mos.esante.gouv.fr/NOS/ASS_A23-ASR-ActiviteModaliteForme/FHIR/ASS-A23-ASR-ActiviteModaliteForme"
 * identifier.value = "urn:oid:1.2.250.1.213.1.6.1.207"
-* version = "20220325120000"
+* version = "20251222120000"
 * name = "ASS_A23_ASR_ActiviteModaliteForme"
 * title = "ASS_A23_ASR_ActiviteModaliteForme"
 * experimental = false
-* status = #active
-* date = "2022-03-25T12:00:00+01:00"
+* status = #retired
+* date = "2025-12-22T12:00:00+01:00"
 * description = "Triplet activité modalité forme pour Activités Soumises à Reconnaissance (ASR)"
 * sourceUri = "https://mos.esante.gouv.fr/NOS/JDV_J133-ActiviteSanitaireRegulee-RASS/FHIR/JDV-J133-ActiviteSanitaireRegulee-RASS"
 * targetUri = "https://mos.esante.gouv.fr/NOS/JDV_J132-ModaliteActivite-RASS/FHIR/JDV-J132-ModaliteActivite-RASS"
