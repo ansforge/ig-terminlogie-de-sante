@@ -60,6 +60,14 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#specialisationRor"
 * ^property[=].description = "Propriété permettant de spécifier les codes exclusifs appartenant au ROR"
 * ^property[=].type = #boolean
+* ^property[+].code = #ror
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#ror"
+* ^property[=].description = "Permet de définir les codes concepts uilisés par le ROR"
+* ^property[=].type = #boolean
+* ^property[+].code = #cisis
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#cisis"
+* ^property[=].description = "Permet de définir les codes concepts uilisés par le CISIS"
+* ^property[=].type = #boolean
 * #0100 "Etablissements d'administration"
 * #0100 ^property[0].code = #niveau
 * #0100 ^property[=].valueInteger =  1
@@ -77,6 +85,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #0100 ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
 * #0100 ^property[+].code = #status
 * #0100 ^property[=].valueCode = #deprecated
+* #0100 ^property[+].code = #cisis
+* #0100 ^property[=].valueBoolean = true
 * #1000 "Etablissements Relevant de la Loi Hospitalière"
 * #1000 ^property[0].code = #niveau
 * #1000 ^property[=].valueInteger =  1
@@ -90,6 +100,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #1000 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #1000 ^property[+].code = #status
 * #1000 ^property[=].valueCode = #active
+* #1000 ^property[+].code = #cisis
+* #1000 ^property[=].valueBoolean = true
 * #2000 "Autres Etablissements de Soins et Prévention"
 * #2000 ^property[0].code = #niveau
 * #2000 ^property[=].valueInteger =  1
@@ -107,6 +119,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #2000 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #2000 ^property[+].code = #status
 * #2000 ^property[=].valueCode = #active
+* #2000 ^property[+].code = #cisis
+* #2000 ^property[=].valueBoolean = true
 * #3000 "Autres Etablissements à Caractère Sanitaire"
 * #3000 ^property[0].code = #niveau
 * #3000 ^property[=].valueInteger =  1
@@ -124,6 +138,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #3000 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #3000 ^property[+].code = #status
 * #3000 ^property[=].valueCode = #active
+* #3000 ^property[+].code = #cisis
+* #3000 ^property[=].valueBoolean = true
 * #4000 "Etab.Serv.Soc.d'Accueil Hébergement Assistance Réadaptation"
 * #4000 ^property[0].code = #niveau
 * #4000 ^property[=].valueInteger =  1
@@ -141,6 +157,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4000 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #4000 ^property[+].code = #status
 * #4000 ^property[=].valueCode = #active
+* #4000 ^property[+].code = #cisis
+* #4000 ^property[=].valueBoolean = true
 * #5000 "Etablissements et Services Sociaux d'Aide à la Famille"
 * #5000 ^property[0].code = #niveau
 * #5000 ^property[=].valueInteger =  1
@@ -154,6 +172,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #5000 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #5000 ^property[+].code = #status
 * #5000 ^property[=].valueCode = #active
+* #5000 ^property[+].code = #cisis
+* #5000 ^property[=].valueBoolean = true
 * #6000 "Etab.de Formation des Personnels Sanitaires et Sociaux"
 * #6000 ^property[0].code = #niveau
 * #6000 ^property[=].valueInteger =  1
@@ -169,6 +189,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #6000 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #6000 ^property[+].code = #status
 * #6000 ^property[=].valueCode = #active
+* #6000 ^property[+].code = #cisis
+* #6000 ^property[=].valueBoolean = true
 * #0110 "Etablissements d'Administration"
 * #0110 ^property[0].code = #niveau
 * #0110 ^property[=].valueInteger =  2
@@ -187,6 +209,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #0110 ^property[=].valueDateTime = "2023-01-27T12:00:00+01:00"
 * #0110 ^property[+].code = #status
 * #0110 ^property[=].valueCode = #deprecated
+* #0110 ^property[+].code = #cisis
+* #0110 ^property[=].valueBoolean = true
 * #110 "Etablissements d'Administration"
 * #110 ^property[0].code = #niveau
 * #110 ^property[=].valueInteger =  2
@@ -204,6 +228,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #110 ^property[=].valueDateTime = "2019-10-01T12:00:00+01:00"
 * #110 ^property[+].code = #status
 * #110 ^property[=].valueCode = #deprecated
+* #110 ^property[+].code = #cisis
+* #110 ^property[=].valueBoolean = true
 * #1100 "Etablissements Hospitaliers"
 * #1100 ^property[0].code = #niveau
 * #1100 ^property[=].valueInteger =  2
@@ -219,6 +245,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #1100 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #1100 ^property[+].code = #status
 * #1100 ^property[=].valueCode = #active
+* #1100 ^property[+].code = #cisis
+* #1100 ^property[=].valueBoolean = true
 * #1200 "Autres Etablissements Relevant de la Loi Hospitalière"
 * #1200 ^property[0].code = #niveau
 * #1200 ^property[=].valueInteger =  2
@@ -234,6 +262,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #1200 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #1200 ^property[+].code = #status
 * #1200 ^property[=].valueCode = #active
+* #1200 ^property[+].code = #cisis
+* #1200 ^property[=].valueBoolean = true
 * #2100 "Cabinets Libéraux"
 * #2100 ^property[0].code = #niveau
 * #2100 ^property[=].valueInteger =  2
@@ -245,6 +275,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #2100 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #2100 ^property[+].code = #status
 * #2100 ^property[=].valueCode = #active
+* #2100 ^property[+].code = #cisis
+* #2100 ^property[=].valueBoolean = true
 * #2200 "Autres Etablissements de Soins et Prévention"
 * #2200 ^property[0].code = #niveau
 * #2200 ^property[=].valueInteger =  2
@@ -264,6 +296,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #2200 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #2200 ^property[+].code = #status
 * #2200 ^property[=].valueCode = #active
+* #2200 ^property[+].code = #cisis
+* #2200 ^property[=].valueBoolean = true
 * #3100 "Laboratoires de Biologie Médicale"
 * #3100 ^property[0].code = #niveau
 * #3100 ^property[=].valueInteger =  2
@@ -279,6 +313,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #3100 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #3100 ^property[+].code = #status
 * #3100 ^property[=].valueCode = #active
+* #3100 ^property[+].code = #cisis
+* #3100 ^property[=].valueBoolean = true
 * #3200 "Commerce de Biens à Usage Médicaux"
 * #3200 ^property[0].code = #niveau
 * #3200 ^property[=].valueInteger =  2
@@ -294,6 +330,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #3200 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #3200 ^property[+].code = #status
 * #3200 ^property[=].valueCode = #active
+* #3200 ^property[+].code = #cisis
+* #3200 ^property[=].valueBoolean = true
 * #3400 "Autres Etablissements à Caractère Sanitaire"
 * #3400 ^property[0].code = #niveau
 * #3400 ^property[=].valueInteger =  2
@@ -313,6 +351,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #3400 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #3400 ^property[+].code = #status
 * #3400 ^property[=].valueCode = #active
+* #3400 ^property[+].code = #cisis
+* #3400 ^property[=].valueBoolean = true
 * #4100 "Etab.et Serv.pour l'Enfance et la Jeunesse Handicapée"
 * #4100 ^property[0].code = #niveau
 * #4100 ^property[=].valueInteger =  2
@@ -332,6 +372,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4100 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #4100 ^property[+].code = #status
 * #4100 ^property[=].valueCode = #active
+* #4100 ^property[+].code = #cisis
+* #4100 ^property[=].valueBoolean = true
 * #4200 "Etablissements ou Classes d'Enseignement Spécial"
 * #4200 ^property[0].code = #niveau
 * #4200 ^property[=].valueInteger =  2
@@ -351,6 +393,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4200 ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
 * #4200 ^property[+].code = #status
 * #4200 ^property[=].valueCode = #deprecated
+* #4200 ^property[+].code = #cisis
+* #4200 ^property[=].valueBoolean = true
 * #4300 "Etablissements et Services pour Adultes Handicapés"
 * #4300 ^property[0].code = #niveau
 * #4300 ^property[=].valueInteger =  2
@@ -366,6 +410,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4300 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #4300 ^property[+].code = #status
 * #4300 ^property[=].valueCode = #active
+* #4300 ^property[+].code = #cisis
+* #4300 ^property[=].valueBoolean = true
 * #4400 "Etablissements et Services pour Personnes Agées"
 * #4400 ^property[0].code = #niveau
 * #4400 ^property[=].valueInteger =  2
@@ -385,6 +431,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4400 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #4400 ^property[+].code = #status
 * #4400 ^property[=].valueCode = #active
+* #4400 ^property[+].code = #cisis
+* #4400 ^property[=].valueBoolean = true
 * #4500 "Etab.et Serv.Sociaux Concourant à la Protection de l'Enfance"
 * #4500 ^property[0].code = #niveau
 * #4500 ^property[=].valueInteger =  2
@@ -404,6 +452,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4500 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #4500 ^property[+].code = #status
 * #4500 ^property[=].valueCode = #active
+* #4500 ^property[+].code = #cisis
+* #4500 ^property[=].valueBoolean = true
 * #4600 "Autres Etab. Accueil, Hébergement, Réadaptation et Services"
 * #4600 ^property[0].code = #niveau
 * #4600 ^property[=].valueInteger =  2
@@ -422,6 +472,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4600 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #4600 ^property[+].code = #status
 * #4600 ^property[=].valueCode = #active
+* #4600 ^property[+].code = #cisis
+* #4600 ^property[=].valueBoolean = true
 * #5100 "Etablissements et Services Sociaux d'Aide à la Famille"
 * #5100 ^property[0].code = #niveau
 * #5100 ^property[=].valueInteger =  2
@@ -437,6 +489,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #5100 ^property[=].valueDateTime = "2018-12-14T12:00:00+01:00"
 * #5100 ^property[+].code = #status
 * #5100 ^property[=].valueCode = #active
+* #5100 ^property[+].code = #cisis
+* #5100 ^property[=].valueBoolean = true
 * #6100 "Etablissements de Formation des Personnels Sanitaires"
 * #6100 ^property[0].code = #niveau
 * #6100 ^property[=].valueInteger =  2
@@ -452,6 +506,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #6100 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #6100 ^property[+].code = #status
 * #6100 ^property[=].valueCode = #active
+* #6100 ^property[+].code = #cisis
+* #6100 ^property[=].valueBoolean = true
 * #6200 "Etablissements de Formation des Personnels Sociaux"
 * #6200 ^property[0].code = #niveau
 * #6200 ^property[=].valueInteger =  2
@@ -467,6 +523,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #6200 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #6200 ^property[+].code = #status
 * #6200 ^property[=].valueCode = #active
+* #6200 ^property[+].code = #cisis
+* #6200 ^property[=].valueBoolean = true
 * #6300 "Etablissements de Formation Polyvalente"
 * #6300 ^property[0].code = #niveau
 * #6300 ^property[=].valueInteger =  2
@@ -482,6 +540,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #6300 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #6300 ^property[+].code = #status
 * #6300 ^property[=].valueCode = #active
+* #6300 ^property[+].code = #cisis
+* #6300 ^property[=].valueBoolean = true
 * #0101 "Etablissements d'Administration"
 * #0101 ^property[0].code = #niveau
 * #0101 ^property[=].valueInteger =  3
@@ -501,6 +561,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #0101 ^property[=].valueCode = #deprecated
 * #0101 ^property[+].code = #deprecationDate
 * #0101 ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
+* #0101 ^property[+].code = #cisis
+* #0101 ^property[=].valueBoolean = true
 * #1101 "Centres Hospitaliers Régionaux"
 * #1101 ^property[0].code = #niveau
 * #1101 ^property[=].valueInteger =  3
@@ -516,6 +578,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #1101 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #1101 ^property[+].code = #status
 * #1101 ^property[=].valueCode = #active
+* #1101 ^property[+].code = #cisis
+* #1101 ^property[=].valueBoolean = true
 * #1102 "Centres Hospitaliers"
 * #1102 ^property[0].code = #niveau
 * #1102 ^property[=].valueInteger =  3
@@ -527,6 +591,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #1102 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #1102 ^property[+].code = #status
 * #1102 ^property[=].valueCode = #active
+* #1102 ^property[+].code = #cisis
+* #1102 ^property[=].valueBoolean = true
 * #1103 "Centres Hospitaliers Spécialisés Lutte Maladies Mentales"
 * #1103 ^property[0].code = #niveau
 * #1103 ^property[=].valueInteger =  3
@@ -546,6 +612,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #1103 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #1103 ^property[+].code = #status
 * #1103 ^property[=].valueCode = #active
+* #1103 ^property[+].code = #cisis
+* #1103 ^property[=].valueBoolean = true
 * #1104 "Centres de Lutte contre le Cancer"
 * #1104 ^property[0].code = #niveau
 * #1104 ^property[=].valueInteger =  3
@@ -561,6 +629,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #1104 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #1104 ^property[+].code = #status
 * #1104 ^property[=].valueCode = #active
+* #1104 ^property[+].code = #cisis
+* #1104 ^property[=].valueBoolean = true
 * #1106 "Hôpitaux Locaux"
 * #1106 ^property[0].code = #niveau
 * #1106 ^property[=].valueInteger =  3
@@ -572,6 +642,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #1106 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #1106 ^property[+].code = #status
 * #1106 ^property[=].valueCode = #active
+* #1106 ^property[+].code = #cisis
+* #1106 ^property[=].valueBoolean = true
 * #1107 "Etablissements de santé privé autorisés en SSR"
 * #1107 ^property[0].code = #niveau
 * #1107 ^property[=].valueInteger =  3
@@ -587,6 +659,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #1107 ^property[=].valueDateTime = "2018-12-14T12:00:00+01:00"
 * #1107 ^property[+].code = #status
 * #1107 ^property[=].valueCode = #active
+* #1107 ^property[+].code = #cisis
+* #1107 ^property[=].valueBoolean = true
 * #1108 "Centre de Moyen et de Long Séjour"
 * #1108 ^property[0].code = #niveau
 * #1108 ^property[=].valueInteger =  3
@@ -602,6 +676,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #1108 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #1108 ^property[+].code = #status
 * #1108 ^property[=].valueCode = #active
+* #1108 ^property[+].code = #cisis
+* #1108 ^property[=].valueBoolean = true
 * #1109 "Etablissements de Soins de Longue Durée"
 * #1109 ^property[0].code = #niveau
 * #1109 ^property[=].valueInteger =  3
@@ -617,6 +693,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #1109 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #1109 ^property[+].code = #status
 * #1109 ^property[=].valueCode = #active
+* #1109 ^property[+].code = #cisis
+* #1109 ^property[=].valueBoolean = true
 * #1110 "Etablissements de Soins de Courte Durée"
 * #1110 ^property[0].code = #niveau
 * #1110 ^property[=].valueInteger =  3
@@ -632,6 +710,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #1110 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #1110 ^property[+].code = #status
 * #1110 ^property[=].valueCode = #active
+* #1110 ^property[+].code = #cisis
+* #1110 ^property[=].valueBoolean = true
 * #1111 "Autres Etablissements de Lutte contre les Maladies Mentales"
 * #1111 ^property[0].code = #niveau
 * #1111 ^property[=].valueInteger =  3
@@ -651,6 +731,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #1111 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #1111 ^property[+].code = #status
 * #1111 ^property[=].valueCode = #active
+* #1111 ^property[+].code = #cisis
+* #1111 ^property[=].valueBoolean = true
 * #1112 "Etablissements d'Enfants à Caractère Sanitaire"
 * #1112 ^property[0].code = #niveau
 * #1112 ^property[=].valueInteger =  3
@@ -670,6 +752,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #1112 ^property[=].valueCode = #deprecated
 * #1112 ^property[+].code = #deprecationDate
 * #1112 ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
+* #1112 ^property[+].code = #cisis
+* #1112 ^property[=].valueBoolean = true
 * #1113 "Etablissements de Lutte contre l'Alcoolisme"
 * #1113 ^property[0].code = #niveau
 * #1113 ^property[=].valueInteger =  3
@@ -689,6 +773,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #1113 ^property[=].valueCode = #deprecated
 * #1113 ^property[+].code = #deprecationDate
 * #1113 ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
+* #1113 ^property[+].code = #cisis
+* #1113 ^property[=].valueBoolean = true
 * #1201 "Traitements et Soins à Domicile"
 * #1201 ^property[0].code = #niveau
 * #1201 ^property[=].valueInteger =  3
@@ -704,6 +790,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #1201 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #1201 ^property[+].code = #status
 * #1201 ^property[=].valueCode = #active
+* #1201 ^property[+].code = #cisis
+* #1201 ^property[=].valueBoolean = true
 * #1202 "Santé Mentale"
 * #1202 ^property[0].code = #niveau
 * #1202 ^property[=].valueInteger =  3
@@ -715,6 +803,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #1202 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #1202 ^property[+].code = #status
 * #1202 ^property[=].valueCode = #active
+* #1202 ^property[+].code = #cisis
+* #1202 ^property[=].valueBoolean = true
 * #1203 "Dialyse ambulatoire"
 * #1203 ^property[0].code = #niveau
 * #1203 ^property[=].valueInteger =  3
@@ -726,6 +816,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #1203 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #1203 ^property[+].code = #status
 * #1203 ^property[=].valueCode = #active
+* #1203 ^property[+].code = #cisis
+* #1203 ^property[=].valueBoolean = true
 * #1204 "Urgence et Réanimation"
 * #1204 ^property[0].code = #niveau
 * #1204 ^property[=].valueInteger =  3
@@ -745,6 +837,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #1204 ^property[=].valueCode = #deprecated
 * #1204 ^property[+].code = #deprecationDate
 * #1204 ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
+* #1204 ^property[+].code = #cisis
+* #1204 ^property[=].valueBoolean = true
 * #1205 "Autres Etablissements Relevant de la Loi Hospitalière"
 * #1205 ^property[0].code = #niveau
 * #1205 ^property[=].valueInteger =  3
@@ -764,6 +858,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #1205 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #1205 ^property[+].code = #status
 * #1205 ^property[=].valueCode = #active
+* #1205 ^property[+].code = #cisis
+* #1205 ^property[=].valueBoolean = true
 * #2101 "Cabinets Libéraux de Médecins"
 * #2101 ^property[0].code = #niveau
 * #2101 ^property[=].valueInteger =  3
@@ -783,6 +879,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #2101 ^property[=].valueCode = #deprecated
 * #2101 ^property[+].code = #deprecationDate
 * #2101 ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
+* #2101 ^property[+].code = #cisis
+* #2101 ^property[=].valueBoolean = true
 * #2102 "Cabinet de Groupe"
 * #2102 ^property[0].code = #niveau
 * #2102 ^property[=].valueInteger =  3
@@ -802,6 +900,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #2102 ^property[=].valueCode = #deprecated
 * #2102 ^property[+].code = #deprecationDate
 * #2102 ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
+* #2102 ^property[+].code = #cisis
+* #2102 ^property[=].valueBoolean = true
 * #2103 "Autres structures d'exercice libéral"
 * #2103 ^property[0].code = #niveau
 * #2103 ^property[=].valueInteger =  3
@@ -817,6 +917,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #2103 ^property[=].valueDateTime = "2012-03-28T00:00:00+01:00"
 * #2103 ^property[+].code = #status
 * #2103 ^property[=].valueCode = #active
+* #2103 ^property[+].code = #cisis
+* #2103 ^property[=].valueBoolean = true
 * #2105 "Cabinet d'Auxiliaires Médicaux"
 * #2105 ^property[0].code = #niveau
 * #2105 ^property[=].valueInteger =  3
@@ -840,6 +942,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #2105 ^property[=].valueCode = #deprecated
 * #2105 ^property[+].code = #deprecationDate
 * #2105 ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
+* #2105 ^property[+].code = #cisis
+* #2105 ^property[=].valueBoolean = true
 * #2201 "Dispensaires ou Centres de Soins"
 * #2201 ^property[0].code = #niveau
 * #2201 ^property[=].valueInteger =  3
@@ -855,6 +959,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #2201 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #2201 ^property[+].code = #status
 * #2201 ^property[=].valueCode = #active
+* #2201 ^property[+].code = #cisis
+* #2201 ^property[=].valueBoolean = true
 * #2202 "Etablissements de PMI et de Planification Familiale"
 * #2202 ^property[0].code = #niveau
 * #2202 ^property[=].valueInteger =  3
@@ -870,6 +976,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #2202 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #2202 ^property[+].code = #status
 * #2202 ^property[=].valueCode = #active
+* #2202 ^property[+].code = #cisis
+* #2202 ^property[=].valueBoolean = true
 * #2203 "Etablissements de Soins Dentaires"
 * #2203 ^property[0].code = #niveau
 * #2203 ^property[=].valueInteger =  3
@@ -889,6 +997,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #2203 ^property[=].valueCode = #deprecated
 * #2203 ^property[+].code = #deprecationDate
 * #2203 ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
+* #2203 ^property[+].code = #cisis
+* #2203 ^property[=].valueBoolean = true
 * #2204 "Etablissements ne relevant pas de la Loi Hospitalière"
 * #2204 ^property[0].code = #niveau
 * #2204 ^property[=].valueInteger =  3
@@ -904,6 +1014,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #2204 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #2204 ^property[+].code = #status
 * #2204 ^property[=].valueCode = #active
+* #2204 ^property[+].code = #cisis
+* #2204 ^property[=].valueBoolean = true
 * #2205 "Etab.de soins relevant du service de santé des armées"
 * #2205 ^property[0].code = #niveau
 * #2205 ^property[=].valueInteger =  3
@@ -923,6 +1035,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #2205 ^property[=].valueDateTime = "1999-06-17T00:00:00+01:00"
 * #2205 ^property[+].code = #status
 * #2205 ^property[=].valueCode = #active
+* #2205 ^property[+].code = #cisis
+* #2205 ^property[=].valueBoolean = true
 * #2206 "Centres de Santé"
 * #2206 ^property[0].code = #niveau
 * #2206 ^property[=].valueInteger =  3
@@ -934,6 +1048,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #2206 ^property[=].valueDateTime = "2013-12-19T00:00:00+01:00"
 * #2206 ^property[+].code = #status
 * #2206 ^property[=].valueCode = #active
+* #2206 ^property[+].code = #cisis
+* #2206 ^property[=].valueBoolean = true
 * #3101 "Laboratoires de Biologie Médicale"
 * #3101 ^property[0].code = #niveau
 * #3101 ^property[=].valueInteger =  3
@@ -949,6 +1065,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #3101 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #3101 ^property[+].code = #status
 * #3101 ^property[=].valueCode = #active
+* #3101 ^property[+].code = #cisis
+* #3101 ^property[=].valueBoolean = true
 * #3201 "Commerce de Biens à Usage Médicaux"
 * #3201 ^property[0].code = #niveau
 * #3201 ^property[=].valueInteger =  3
@@ -964,6 +1082,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #3201 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #3201 ^property[+].code = #status
 * #3201 ^property[=].valueCode = #active
+* #3201 ^property[+].code = #cisis
+* #3201 ^property[=].valueBoolean = true
 * #3202 "Commerce de Biens Médicaux"
 * #3202 ^property[0].code = #niveau
 * #3202 ^property[=].valueInteger =  3
@@ -983,6 +1103,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #3202 ^property[=].valueCode = #deprecated
 * #3202 ^property[+].code = #deprecationDate
 * #3202 ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
+* #3202 ^property[+].code = #cisis
+* #3202 ^property[=].valueBoolean = true
 * #3401 "Transfusion Sanguine"
 * #3401 ^property[0].code = #niveau
 * #3401 ^property[=].valueInteger =  3
@@ -994,6 +1116,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #3401 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #3401 ^property[+].code = #status
 * #3401 ^property[=].valueCode = #active
+* #3401 ^property[+].code = #cisis
+* #3401 ^property[=].valueBoolean = true
 * #3402 "Conservation et Stockage d'autres Produits Humains"
 * #3402 ^property[0].code = #niveau
 * #3402 ^property[=].valueInteger =  3
@@ -1013,6 +1137,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #3402 ^property[=].valueCode = #deprecated
 * #3402 ^property[+].code = #deprecationDate
 * #3402 ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
+* #3402 ^property[+].code = #cisis
+* #3402 ^property[=].valueBoolean = true
 * #3403 "Centre Antipoison"
 * #3403 ^property[0].code = #niveau
 * #3403 ^property[=].valueInteger =  3
@@ -1036,6 +1162,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #3403 ^property[=].valueCode = #deprecated
 * #3403 ^property[+].code = #deprecationDate
 * #3403 ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
+* #3403 ^property[+].code = #cisis
+* #3403 ^property[=].valueBoolean = true
 * #3404 "Service d'Ambulances"
 * #3404 ^property[0].code = #niveau
 * #3404 ^property[=].valueInteger =  3
@@ -1055,6 +1183,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #3404 ^property[=].valueCode = #deprecated
 * #3404 ^property[+].code = #deprecationDate
 * #3404 ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
+* #3404 ^property[+].code = #cisis
+* #3404 ^property[=].valueBoolean = true
 * #3405 "Installations autonomes de chirurgie esthétique"
 * #3405 ^property[0].code = #niveau
 * #3405 ^property[=].valueInteger =  3
@@ -1070,6 +1200,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #3405 ^property[=].valueDateTime = "2015-06-05T00:00:00+01:00"
 * #3405 ^property[+].code = #status
 * #3405 ^property[=].valueCode = #active
+* #3405 ^property[+].code = #cisis
+* #3405 ^property[=].valueBoolean = true
 * #3406 "Maisons de Naissance"
 * #3406 ^property[0].code = #niveau
 * #3406 ^property[=].valueInteger =  3
@@ -1081,6 +1213,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #3406 ^property[=].valueDateTime = "2019-08-30T12:00:00+01:00"
 * #3406 ^property[+].code = #status
 * #3406 ^property[=].valueCode = #active
+* #3406 ^property[+].code = #cisis
+* #3406 ^property[=].valueBoolean = true
 * #3407 "Etablissements Expérimentaux en Santé"
 * #3407 ^property[0].code = #niveau
 * #3407 ^property[=].valueInteger =  3
@@ -1096,6 +1230,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #3407 ^property[=].valueDateTime = "2020-08-28T12:00:00+01:00"
 * #3407 ^property[+].code = #status
 * #3407 ^property[=].valueCode = #active
+* #3407 ^property[+].code = #cisis
+* #3407 ^property[=].valueBoolean = true
 * #3408 "Centre de ressources transverse"
 * #3408 ^property[0].code = #niveau
 * #3408 ^property[=].valueInteger =  3
@@ -1111,6 +1247,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #3408 ^property[=].valueDateTime = "2022-01-28T12:00:00+01:00"
 * #3408 ^property[+].code = #status
 * #3408 ^property[=].valueCode = #active
+* #3408 ^property[+].code = #cisis
+* #3408 ^property[=].valueBoolean = true
 * #3409 "Services de Prévention et de Santé au Travail (SPST)"
 * #3409 ^property[0].code = #niveau
 * #3409 ^property[=].valueInteger =  3
@@ -1126,6 +1264,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #3409 ^property[=].valueDateTime = "2023-05-26T12:00:00+01:00"
 * #3409 ^property[+].code = #status
 * #3409 ^property[=].valueCode = #active
+* #3409 ^property[+].code = #cisis
+* #3409 ^property[=].valueBoolean = true
 * #3410 "Services d'incendie et de secours"
 * #3410 ^property[0].code = #niveau
 * #3410 ^property[=].valueInteger =  3
@@ -1141,6 +1281,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #3410 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
 * #3410 ^property[+].code = #status
 * #3410 ^property[=].valueCode = #active
+* #3410 ^property[+].code = #cisis
+* #3410 ^property[=].valueBoolean = true
 * #4101 "Etab.Educ.Spéciale pour Déficients Mentaux et Handicapés"
 * #4101 ^property[0].code = #niveau
 * #4101 ^property[=].valueInteger =  3
@@ -1160,6 +1302,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4101 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #4101 ^property[+].code = #status
 * #4101 ^property[=].valueCode = #active
+* #4101 ^property[+].code = #cisis
+* #4101 ^property[=].valueBoolean = true
 * #4102 "Etab.Educ Spéciale pour Enfants Trouble Conduite et Comport"
 * #4102 ^property[0].code = #niveau
 * #4102 ^property[=].valueInteger =  3
@@ -1179,6 +1323,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4102 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #4102 ^property[+].code = #status
 * #4102 ^property[=].valueCode = #active
+* #4102 ^property[+].code = #cisis
+* #4102 ^property[=].valueBoolean = true
 * #4103 "Etablissements d'Education Spéciale pour Handicapés Moteurs"
 * #4103 ^property[0].code = #niveau
 * #4103 ^property[=].valueInteger =  3
@@ -1198,6 +1344,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4103 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #4103 ^property[+].code = #status
 * #4103 ^property[=].valueCode = #active
+* #4103 ^property[+].code = #cisis
+* #4103 ^property[=].valueBoolean = true
 * #4104 "Etab.Education Spéciale pour Déficients Sensoriels"
 * #4104 ^property[0].code = #niveau
 * #4104 ^property[=].valueInteger =  3
@@ -1217,6 +1365,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4104 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #4104 ^property[+].code = #status
 * #4104 ^property[=].valueCode = #active
+* #4104 ^property[+].code = #cisis
+* #4104 ^property[=].valueBoolean = true
 * #4105 "Etablissements et Services Hébergement Enfants Handicapés"
 * #4105 ^property[0].code = #niveau
 * #4105 ^property[=].valueInteger =  3
@@ -1236,6 +1386,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4105 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #4105 ^property[+].code = #status
 * #4105 ^property[=].valueCode = #active
+* #4105 ^property[+].code = #cisis
+* #4105 ^property[=].valueBoolean = true
 * #4106 "Services à Domicile ou Ambulatoires pour Handicapés"
 * #4106 ^property[0].code = #niveau
 * #4106 ^property[=].valueInteger =  3
@@ -1251,6 +1403,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4106 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #4106 ^property[+].code = #status
 * #4106 ^property[=].valueCode = #active
+* #4106 ^property[+].code = #cisis
+* #4106 ^property[=].valueBoolean = true
 * #4107 "Etab. Expérimentaux en Faveur de l'Enfance Handicapée"
 * #4107 ^property[0].code = #niveau
 * #4107 ^property[=].valueInteger =  3
@@ -1270,6 +1424,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4107 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #4107 ^property[+].code = #status
 * #4107 ^property[=].valueCode = #active
+* #4107 ^property[+].code = #cisis
+* #4107 ^property[=].valueBoolean = true
 * #4201 "Etablissements ou Classes de Pré-Élémentaire et Élémentaire"
 * #4201 ^property[0].code = #niveau
 * #4201 ^property[=].valueInteger =  3
@@ -1289,6 +1445,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4201 ^property[=].valueCode = #deprecated
 * #4201 ^property[+].code = #deprecationDate
 * #4201 ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
+* #4201 ^property[+].code = #cisis
+* #4201 ^property[=].valueBoolean = true
 * #4202 "Etablissements d'Enseignement Secondaire"
 * #4202 ^property[0].code = #niveau
 * #4202 ^property[=].valueInteger =  3
@@ -1308,6 +1466,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4202 ^property[=].valueCode = #deprecated
 * #4202 ^property[+].code = #deprecationDate
 * #4202 ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
+* #4202 ^property[+].code = #cisis
+* #4202 ^property[=].valueBoolean = true
 * #4301 "Etab. et Services d'Hébergement pour Adultes Handicapés"
 * #4301 ^property[0].code = #niveau
 * #4301 ^property[=].valueInteger =  3
@@ -1327,6 +1487,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4301 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #4301 ^property[+].code = #status
 * #4301 ^property[=].valueCode = #active
+* #4301 ^property[+].code = #cisis
+* #4301 ^property[=].valueBoolean = true
 * #4302 "Etab.et Services de Travail Protégé pour Adultes Handicapés"
 * #4302 ^property[0].code = #niveau
 * #4302 ^property[=].valueInteger =  3
@@ -1346,6 +1508,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4302 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #4302 ^property[+].code = #status
 * #4302 ^property[=].valueCode = #active
+* #4302 ^property[+].code = #cisis
+* #4302 ^property[=].valueBoolean = true
 * #4303 "Etab.et Services de Réinsertion Prof pour Adultes Handicapés"
 * #4303 ^property[0].code = #niveau
 * #4303 ^property[=].valueInteger =  3
@@ -1365,6 +1529,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4303 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #4303 ^property[+].code = #status
 * #4303 ^property[=].valueCode = #active
+* #4303 ^property[+].code = #cisis
+* #4303 ^property[=].valueBoolean = true
 * #4304 "Etab.Expérimentaux en Faveur des Adultes Handicapés"
 * #4304 ^property[0].code = #niveau
 * #4304 ^property[=].valueInteger =  3
@@ -1384,6 +1550,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4304 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #4304 ^property[+].code = #status
 * #4304 ^property[=].valueCode = #active
+* #4304 ^property[+].code = #cisis
+* #4304 ^property[=].valueBoolean = true
 * #4305 "Services de Maintien à Domicile pour Handicapés"
 * #4305 ^property[0].code = #niveau
 * #4305 ^property[=].valueInteger =  3
@@ -1399,6 +1567,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4305 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #4305 ^property[+].code = #status
 * #4305 ^property[=].valueCode = #active
+* #4305 ^property[+].code = #cisis
+* #4305 ^property[=].valueBoolean = true
 * #4401 "Etablissements d'Hébergement pour Personnes Âgées"
 * #4401 ^property[0].code = #niveau
 * #4401 ^property[=].valueInteger =  3
@@ -1414,6 +1584,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4401 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #4401 ^property[+].code = #status
 * #4401 ^property[=].valueCode = #active
+* #4401 ^property[+].code = #cisis
+* #4401 ^property[=].valueBoolean = true
 * #4402 "Services de Maintien à Domicile pour Personnes Âgées"
 * #4402 ^property[0].code = #niveau
 * #4402 ^property[=].valueInteger =  3
@@ -1429,6 +1601,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4402 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #4402 ^property[+].code = #status
 * #4402 ^property[=].valueCode = #active
+* #4402 ^property[+].code = #cisis
+* #4402 ^property[=].valueBoolean = true
 * #4403 "Services Sociaux en Faveur des Personnes Âgées"
 * #4403 ^property[0].code = #niveau
 * #4403 ^property[=].valueInteger =  3
@@ -1448,6 +1622,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4403 ^property[=].valueCode = #deprecated
 * #4403 ^property[+].code = #deprecationDate
 * #4403 ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
+* #4403 ^property[+].code = #cisis
+* #4403 ^property[=].valueBoolean = true
 * #4404 "Etablissements Expérimentaux en Faveur des Personnes Âgées"
 * #4404 ^property[0].code = #niveau
 * #4404 ^property[=].valueInteger =  3
@@ -1463,6 +1639,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4404 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #4404 ^property[+].code = #status
 * #4404 ^property[=].valueCode = #active
+* #4404 ^property[+].code = #cisis
+* #4404 ^property[=].valueBoolean = true
 * #4501 "Etablissements de l'Aide Sociale à l'Enfance"
 * #4501 ^property[0].code = #niveau
 * #4501 ^property[=].valueInteger =  3
@@ -1478,6 +1656,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4501 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #4501 ^property[+].code = #status
 * #4501 ^property[=].valueCode = #active
+* #4501 ^property[+].code = #cisis
+* #4501 ^property[=].valueBoolean = true
 * #4502 "Etab.et Services du Ministère de la Justice pour Mineurs"
 * #4502 ^property[0].code = #niveau
 * #4502 ^property[=].valueInteger =  3
@@ -1497,6 +1677,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4502 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #4502 ^property[+].code = #status
 * #4502 ^property[=].valueCode = #active
+* #4502 ^property[+].code = #cisis
+* #4502 ^property[=].valueBoolean = true
 * #4504 "Services Concourant à la Protection de l'Enfance"
 * #4504 ^property[0].code = #niveau
 * #4504 ^property[=].valueInteger =  3
@@ -1512,6 +1694,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4504 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #4504 ^property[+].code = #status
 * #4504 ^property[=].valueCode = #active
+* #4504 ^property[+].code = #cisis
+* #4504 ^property[=].valueBoolean = true
 * #4505 "Etab. Expérimentaux en Faveur de l'Enfance Protégée"
 * #4505 ^property[0].code = #niveau
 * #4505 ^property[=].valueInteger =  3
@@ -1531,6 +1715,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4505 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #4505 ^property[+].code = #status
 * #4505 ^property[=].valueCode = #active
+* #4505 ^property[+].code = #cisis
+* #4505 ^property[=].valueBoolean = true
 * #4601 "Etablissements pour Adultes et Familles en Difficulté"
 * #4601 ^property[0].code = #niveau
 * #4601 ^property[=].valueInteger =  3
@@ -1546,6 +1732,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4601 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #4601 ^property[+].code = #status
 * #4601 ^property[=].valueCode = #active
+* #4601 ^property[+].code = #cisis
+* #4601 ^property[=].valueBoolean = true
 * #4602 "Autres Etablissements Sociaux d'Hébergement et d'Accueil"
 * #4602 ^property[0].code = #niveau
 * #4602 ^property[=].valueInteger =  3
@@ -1565,6 +1753,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4602 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #4602 ^property[+].code = #status
 * #4602 ^property[=].valueCode = #active
+* #4602 ^property[+].code = #cisis
+* #4602 ^property[=].valueBoolean = true
 * #4603 "Etablissements Expérimentaux en Faveur des Adultes"
 * #4603 ^property[0].code = #niveau
 * #4603 ^property[=].valueInteger =  3
@@ -1580,6 +1770,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4603 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #4603 ^property[+].code = #status
 * #4603 ^property[=].valueCode = #active
+* #4603 ^property[+].code = #cisis
+* #4603 ^property[=].valueBoolean = true
 * #4604 "Autres Etablissements médico-sociaux"
 * #4604 ^property[0].code = #niveau
 * #4604 ^property[=].valueInteger =  3
@@ -1599,6 +1791,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4604 ^property[=].valueDateTime = "1999-06-17T00:00:00+01:00"
 * #4604 ^property[+].code = #status
 * #4604 ^property[=].valueCode = #active
+* #4604 ^property[+].code = #cisis
+* #4604 ^property[=].valueBoolean = true
 * #4605 "Etablissements et services multi-clientèles"
 * #4605 ^property[0].code = #niveau
 * #4605 ^property[=].valueInteger =  3
@@ -1614,6 +1808,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4605 ^property[=].valueDateTime = "2002-01-01T00:00:00+01:00"
 * #4605 ^property[+].code = #status
 * #4605 ^property[=].valueCode = #active
+* #4605 ^property[+].code = #cisis
+* #4605 ^property[=].valueBoolean = true
 * #4606 "Centres de ressources"
 * #4606 ^property[0].code = #niveau
 * #4606 ^property[=].valueInteger =  3
@@ -1629,6 +1825,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4606 ^property[=].valueDateTime = "2002-01-01T00:00:00+01:00"
 * #4606 ^property[+].code = #status
 * #4606 ^property[=].valueCode = #active
+* #4606 ^property[+].code = #cisis
+* #4606 ^property[=].valueBoolean = true
 * #4607 "Logements en Structure Collective"
 * #4607 ^property[0].code = #niveau
 * #4607 ^property[=].valueInteger =  3
@@ -1644,6 +1842,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4607 ^property[=].valueDateTime = "2009-01-21T00:00:00+01:00"
 * #4607 ^property[+].code = #status
 * #4607 ^property[=].valueCode = #active
+* #4607 ^property[+].code = #cisis
+* #4607 ^property[=].valueBoolean = true
 * #4608 "Protection des majeurs"
 * #4608 ^property[0].code = #niveau
 * #4608 ^property[=].valueInteger =  3
@@ -1659,6 +1859,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4608 ^property[=].valueDateTime = "2010-11-12T00:00:00+01:00"
 * #4608 ^property[+].code = #status
 * #4608 ^property[=].valueCode = #active
+* #4608 ^property[+].code = #cisis
+* #4608 ^property[=].valueBoolean = true
 * #4609 "Centres prestataires de services pr personnes cérébro-lésées"
 * #4609 ^property[0].code = #niveau
 * #4609 ^property[=].valueInteger =  3
@@ -1678,6 +1880,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #4609 ^property[=].valueDateTime = "2012-11-05T00:00:00+01:00"
 * #4609 ^property[+].code = #status
 * #4609 ^property[=].valueCode = #active
+* #4609 ^property[+].code = #cisis
+* #4609 ^property[=].valueBoolean = true
 * #5101 "Etablissements Garde d'Enfants d'Age pré-Scolaire"
 * #5101 ^property[0].code = #niveau
 * #5101 ^property[=].valueInteger =  3
@@ -1701,6 +1905,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #5101 ^property[=].valueCode = #deprecated
 * #5101 ^property[+].code = #deprecationDate
 * #5101 ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
+* #5101 ^property[+].code = #cisis
+* #5101 ^property[=].valueBoolean = true
 * #5102 "Etablissements d'Hébergement pour Enfants d'Age Scolaire"
 * #5102 ^property[0].code = #niveau
 * #5102 ^property[=].valueInteger =  3
@@ -1724,6 +1930,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #5102 ^property[=].valueCode = #deprecated
 * #5102 ^property[+].code = #deprecationDate
 * #5102 ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
+* #5102 ^property[+].code = #cisis
+* #5102 ^property[=].valueBoolean = true
 * #5103 "Etablissements Sociaux pour Loisirs et Vacances"
 * #5103 ^property[0].code = #niveau
 * #5103 ^property[=].valueInteger =  3
@@ -1743,6 +1951,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #5103 ^property[=].valueCode = #deprecated
 * #5103 ^property[+].code = #deprecationDate
 * #5103 ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
+* #5103 ^property[+].code = #cisis
+* #5103 ^property[=].valueBoolean = true
 * #5104 "Etablissements ou Services Divers d'Aide à la Famille"
 * #5104 ^property[0].code = #niveau
 * #5104 ^property[=].valueInteger =  3
@@ -1758,6 +1968,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #5104 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #5104 ^property[+].code = #status
 * #5104 ^property[=].valueCode = #active
+* #5104 ^property[+].code = #cisis
+* #5104 ^property[=].valueBoolean = true
 * #6101 "Etablissements de Formation des Personnels Sanitaires"
 * #6101 ^property[0].code = #niveau
 * #6101 ^property[=].valueInteger =  3
@@ -1773,6 +1985,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #6101 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #6101 ^property[+].code = #status
 * #6101 ^property[=].valueCode = #active
+* #6101 ^property[+].code = #cisis
+* #6101 ^property[=].valueBoolean = true
 * #6102 "Etablissements de Formation des Personnels Techniques"
 * #6102 ^property[0].code = #niveau
 * #6102 ^property[=].valueInteger =  3
@@ -1792,6 +2006,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #6102 ^property[=].valueCode = #deprecated
 * #6102 ^property[+].code = #deprecationDate
 * #6102 ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
+* #6102 ^property[+].code = #cisis
+* #6102 ^property[=].valueBoolean = true
 * #6103 "Autres Etablissements de Formation des Personnels Techniques"
 * #6103 ^property[0].code = #niveau
 * #6103 ^property[=].valueInteger =  3
@@ -1814,6 +2030,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #6103 ^property[=].valueCode = #deprecated
 * #6103 ^property[+].code = #deprecationDate
 * #6103 ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
+* #6103 ^property[+].code = #cisis
+* #6103 ^property[=].valueBoolean = true
 * #6201 "Etablissements de Formation des Personnels Sociaux"
 * #6201 ^property[0].code = #niveau
 * #6201 ^property[=].valueInteger =  3
@@ -1829,6 +2047,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #6201 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #6201 ^property[+].code = #status
 * #6201 ^property[=].valueCode = #active
+* #6201 ^property[+].code = #cisis
+* #6201 ^property[=].valueBoolean = true
 * #6301 "Etablissements de Formation Polyvalente"
 * #6301 ^property[0].code = #niveau
 * #6301 ^property[=].valueInteger =  3
@@ -1843,6 +2063,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #6301 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #6301 ^property[+].code = #status
 * #6301 ^property[=].valueCode = #active
+* #6301 ^property[+].code = #cisis
+* #6301 ^property[=].valueBoolean = true
 * #001 "Autres lits de m.R."
 * #001 ^property[0].code = #niveau
 * #001 ^property[=].valueInteger =  4
@@ -1865,6 +2087,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #001 ^property[=].valueDateTime = "1999-09-15T00:00:00+01:00"
 * #001 ^property[+].code = #status
 * #001 ^property[=].valueCode = #deprecated
+* #001 ^property[+].code = #cisis
+* #001 ^property[=].valueBoolean = true
 * #002 "Autres places de l-f."
 * #002 ^property[0].code = #niveau
 * #002 ^property[=].valueInteger =  4
@@ -1887,6 +2111,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #002 ^property[=].valueDateTime = "1999-09-15T00:00:00+01:00"
 * #002 ^property[+].code = #status
 * #002 ^property[=].valueCode = #deprecated
+* #002 ^property[+].code = #cisis
+* #002 ^property[=].valueBoolean = true
 * #003 "Autres lits de l-s"
 * #003 ^property[0].code = #niveau
 * #003 ^property[=].valueInteger =  4
@@ -1905,6 +2131,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #003 ^property[=].valueDateTime = "1999-09-15T00:00:00+01:00"
 * #003 ^property[+].code = #status
 * #003 ^property[=].valueCode = #deprecated
+* #003 ^property[+].code = #cisis
+* #003 ^property[=].valueBoolean = true
 * #101 "Centre Hospitalier Régional (C.H.R.)"
 * #101 ^property[0].code = #niveau
 * #101 ^property[=].valueInteger =  4
@@ -1927,6 +2155,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #101 ^property[=].valueDateTime = "1990-01-05T00:00:00+01:00"
 * #101 ^property[+].code = #status
 * #101 ^property[=].valueCode = #active
+* #101 ^property[+].code = #ror
+* #101 ^property[=].valueBoolean = true
+* #101 ^property[+].code = #cisis
+* #101 ^property[=].valueBoolean = true
 * #106 "Centre hospitalier, ex Hôpital local"
 * #106 ^property[0].code = #niveau
 * #106 ^property[=].valueInteger =  4
@@ -1949,6 +2181,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #106 ^property[=].valueDateTime = "2012-01-11T00:00:00+01:00"
 * #106 ^property[+].code = #status
 * #106 ^property[=].valueCode = #active
+* #106 ^property[+].code = #ror
+* #106 ^property[=].valueBoolean = true
+* #106 ^property[+].code = #cisis
+* #106 ^property[=].valueBoolean = true
 * #108 "Etablissement de Convalescence et de Repos"
 * #108 ^property[0].code = #niveau
 * #108 ^property[=].valueInteger =  4
@@ -1971,6 +2207,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #108 ^property[=].valueDateTime = "2013-06-25T00:00:00+01:00"
 * #108 ^property[+].code = #status
 * #108 ^property[=].valueCode = #deprecated
+* #108 ^property[+].code = #cisis
+* #108 ^property[=].valueBoolean = true
 * #109 "Etablissement de santé privé autorisé en SSR"
 * #109 ^property[0].code = #niveau
 * #109 ^property[=].valueInteger =  4
@@ -1993,6 +2231,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #109 ^property[=].valueDateTime = "2013-06-25T00:00:00+01:00"
 * #109 ^property[+].code = #status
 * #109 ^property[=].valueCode = #active
+* #109 ^property[+].code = #ror
+* #109 ^property[=].valueBoolean = true
+* #109 ^property[+].code = #cisis
+* #109 ^property[=].valueBoolean = true
 * #112 "Centre de Convalescence Cure ou Réadaptation"
 * #112 ^property[0].code = #niveau
 * #112 ^property[=].valueInteger =  4
@@ -2019,6 +2261,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #112 ^property[=].valueDateTime = "1999-09-15T00:00:00+01:00"
 * #112 ^property[+].code = #status
 * #112 ^property[=].valueCode = #deprecated
+* #112 ^property[+].code = #cisis
+* #112 ^property[=].valueBoolean = true
 * #114 "Hôpital des armées"
 * #114 ^property[0].code = #niveau
 * #114 ^property[=].valueInteger =  4
@@ -2037,6 +2281,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #114 ^property[=].valueDateTime = "1999-09-15T00:00:00+01:00"
 * #114 ^property[+].code = #status
 * #114 ^property[=].valueCode = #active
+* #114 ^property[+].code = #ror
+* #114 ^property[=].valueBoolean = true
+* #114 ^property[+].code = #cisis
+* #114 ^property[=].valueBoolean = true
 * #115 "Etablissement de Soins du Service de Santé des Armées"
 * #115 ^property[0].code = #niveau
 * #115 ^property[=].valueInteger =  4
@@ -2059,6 +2307,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #115 ^property[=].valueDateTime = "1999-09-15T00:00:00+01:00"
 * #115 ^property[+].code = #status
 * #115 ^property[=].valueCode = #active
+* #115 ^property[+].code = #ror
+* #115 ^property[=].valueBoolean = true
+* #115 ^property[+].code = #cisis
+* #115 ^property[=].valueBoolean = true
 * #119 "Maison de Régime"
 * #119 ^property[0].code = #niveau
 * #119 ^property[=].valueInteger =  4
@@ -2077,6 +2329,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #119 ^property[=].valueDateTime = "2013-06-25T00:00:00+01:00"
 * #119 ^property[+].code = #status
 * #119 ^property[=].valueCode = #deprecated
+* #119 ^property[+].code = #cisis
+* #119 ^property[=].valueBoolean = true
 * #122 "Etablissement Soins Obstétriques Chirurgico-Gynécologiques"
 * #122 ^property[0].code = #niveau
 * #122 ^property[=].valueInteger =  4
@@ -2099,6 +2353,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #122 ^property[=].valueDateTime = "1994-07-07T00:00:00+01:00"
 * #122 ^property[+].code = #status
 * #122 ^property[=].valueCode = #active
+* #122 ^property[+].code = #ror
+* #122 ^property[=].valueBoolean = true
+* #122 ^property[+].code = #cisis
+* #122 ^property[=].valueBoolean = true
 * #124 "Centre de Santé"
 * #124 ^property[0].code = #niveau
 * #124 ^property[=].valueInteger =  4
@@ -2113,6 +2371,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #124 ^property[=].valueDateTime = "2013-12-19T00:00:00+01:00"
 * #124 ^property[+].code = #status
 * #124 ^property[=].valueCode = #active
+* #124 ^property[+].code = #ror
+* #124 ^property[=].valueBoolean = true
+* #124 ^property[+].code = #cisis
+* #124 ^property[=].valueBoolean = true
 * #125 "Centre de Santé Dentaire"
 * #125 ^property[0].code = #niveau
 * #125 ^property[=].valueInteger =  4
@@ -2135,6 +2397,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #125 ^property[=].valueDateTime = "2013-12-19T00:00:00+01:00"
 * #125 ^property[+].code = #status
 * #125 ^property[=].valueCode = #deprecated
+* #125 ^property[+].code = #cisis
+* #125 ^property[=].valueBoolean = true
 * #126 "Etablissement Thermal"
 * #126 ^property[0].code = #niveau
 * #126 ^property[=].valueInteger =  4
@@ -2153,6 +2417,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #126 ^property[=].valueDateTime = "1991-03-01T00:00:00+01:00"
 * #126 ^property[+].code = #status
 * #126 ^property[=].valueCode = #active
+* #126 ^property[+].code = #ror
+* #126 ^property[=].valueBoolean = true
+* #126 ^property[+].code = #cisis
+* #126 ^property[=].valueBoolean = true
 * #127 "Hospitalisation à Domicile"
 * #127 ^property[0].code = #niveau
 * #127 ^property[=].valueInteger =  4
@@ -2175,6 +2443,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #127 ^property[=].valueDateTime = "1994-07-08T00:00:00+01:00"
 * #127 ^property[+].code = #status
 * #127 ^property[=].valueCode = #active
+* #127 ^property[+].code = #ror
+* #127 ^property[=].valueBoolean = true
+* #127 ^property[+].code = #cisis
+* #127 ^property[=].valueBoolean = true
 * #128 "Etablissement de Soins Chirurgicaux"
 * #128 ^property[0].code = #niveau
 * #128 ^property[=].valueInteger =  4
@@ -2193,6 +2465,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #128 ^property[=].valueDateTime = "1994-07-05T00:00:00+01:00"
 * #128 ^property[+].code = #status
 * #128 ^property[=].valueCode = #active
+* #128 ^property[+].code = #ror
+* #128 ^property[=].valueBoolean = true
+* #128 ^property[+].code = #cisis
+* #128 ^property[=].valueBoolean = true
 * #129 "Etablissement de Soins Médicaux"
 * #129 ^property[0].code = #niveau
 * #129 ^property[=].valueInteger =  4
@@ -2211,6 +2487,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #129 ^property[=].valueDateTime = "1994-07-05T00:00:00+01:00"
 * #129 ^property[+].code = #status
 * #129 ^property[=].valueCode = #active
+* #129 ^property[+].code = #ror
+* #129 ^property[=].valueBoolean = true
+* #129 ^property[+].code = #cisis
+* #129 ^property[=].valueBoolean = true
 * #130 "Centre de Soins Médicaux"
 * #130 ^property[0].code = #niveau
 * #130 ^property[=].valueInteger =  4
@@ -2233,6 +2513,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #130 ^property[=].valueDateTime = "2013-12-19T00:00:00+01:00"
 * #130 ^property[+].code = #status
 * #130 ^property[=].valueCode = #deprecated
+* #130 ^property[+].code = #ror
+* #130 ^property[=].valueBoolean = true
+* #130 ^property[+].code = #cisis
+* #130 ^property[=].valueBoolean = true
 * #131 "Centre de Lutte Contre Cancer"
 * #131 ^property[0].code = #niveau
 * #131 ^property[=].valueInteger =  4
@@ -2251,6 +2535,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #131 ^property[=].valueDateTime = "1979-01-23T00:00:00+01:00"
 * #131 ^property[+].code = #status
 * #131 ^property[=].valueCode = #active
+* #131 ^property[+].code = #ror
+* #131 ^property[=].valueBoolean = true
+* #131 ^property[+].code = #cisis
+* #131 ^property[=].valueBoolean = true
 * #132 "Etablissement de Transfusion Sanguine"
 * #132 ^property[0].code = #niveau
 * #132 ^property[=].valueInteger =  4
@@ -2269,6 +2557,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #132 ^property[=].valueDateTime = "1994-07-05T00:00:00+01:00"
 * #132 ^property[+].code = #status
 * #132 ^property[=].valueCode = #active
+* #132 ^property[+].code = #ror
+* #132 ^property[=].valueBoolean = true
+* #132 ^property[+].code = #cisis
+* #132 ^property[=].valueBoolean = true
 * #135 "Etablissement Réadaptation Fonctionnelle"
 * #135 ^property[0].code = #niveau
 * #135 ^property[=].valueInteger =  4
@@ -2291,6 +2583,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #135 ^property[=].valueDateTime = "2013-06-25T00:00:00+01:00"
 * #135 ^property[+].code = #status
 * #135 ^property[=].valueCode = #deprecated
+* #135 ^property[+].code = #cisis
+* #135 ^property[=].valueBoolean = true
 * #136 "Banque de Sperme"
 * #136 ^property[0].code = #niveau
 * #136 ^property[=].valueInteger =  4
@@ -2309,6 +2603,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #136 ^property[=].valueDateTime = "1999-09-15T00:00:00+01:00"
 * #136 ^property[+].code = #status
 * #136 ^property[=].valueCode = #deprecated
+* #136 ^property[+].code = #cisis
+* #136 ^property[=].valueBoolean = true
 * #137 "Banque d'Organes"
 * #137 ^property[0].code = #niveau
 * #137 ^property[=].valueInteger =  4
@@ -2327,6 +2623,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #137 ^property[=].valueDateTime = "1999-09-15T00:00:00+01:00"
 * #137 ^property[+].code = #status
 * #137 ^property[=].valueCode = #deprecated
+* #137 ^property[+].code = #cisis
+* #137 ^property[=].valueBoolean = true
 * #138 "Centre de Dialyse Périodique"
 * #138 ^property[0].code = #niveau
 * #138 ^property[=].valueInteger =  4
@@ -2349,6 +2647,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #138 ^property[=].valueDateTime = "2002-02-18T00:00:00+01:00"
 * #138 ^property[+].code = #status
 * #138 ^property[=].valueCode = #deprecated
+* #138 ^property[+].code = #cisis
+* #138 ^property[=].valueBoolean = true
 * #139 "Centre de Dialyse et d'entraînement à la Dialyse"
 * #139 ^property[0].code = #niveau
 * #139 ^property[=].valueInteger =  4
@@ -2371,6 +2671,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #139 ^property[=].valueDateTime = "2002-02-18T00:00:00+01:00"
 * #139 ^property[+].code = #status
 * #139 ^property[=].valueCode = #deprecated
+* #139 ^property[+].code = #cisis
+* #139 ^property[=].valueBoolean = true
 * #140 "Centre d'Entraînement à la Dialyse"
 * #140 ^property[0].code = #niveau
 * #140 ^property[=].valueInteger =  4
@@ -2393,6 +2695,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #140 ^property[=].valueDateTime = "2002-02-18T00:00:00+01:00"
 * #140 ^property[+].code = #status
 * #140 ^property[=].valueCode = #deprecated
+* #140 ^property[+].code = #cisis
+* #140 ^property[=].valueBoolean = true
 * #141 "Centre de dialyse"
 * #141 ^property[0].code = #niveau
 * #141 ^property[=].valueInteger =  4
@@ -2411,6 +2715,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #141 ^property[=].valueDateTime = "2002-02-18T00:00:00+01:00"
 * #141 ^property[+].code = #status
 * #141 ^property[=].valueCode = #active
+* #141 ^property[+].code = #ror
+* #141 ^property[=].valueBoolean = true
+* #141 ^property[+].code = #cisis
+* #141 ^property[=].valueBoolean = true
 * #142 "Dispensaire Antituberculeux"
 * #142 ^property[0].code = #niveau
 * #142 ^property[=].valueInteger =  4
@@ -2429,6 +2737,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #142 ^property[=].valueDateTime = "1983-07-20T00:00:00+01:00"
 * #142 ^property[+].code = #status
 * #142 ^property[=].valueCode = #active
+* #142 ^property[+].code = #ror
+* #142 ^property[=].valueBoolean = true
+* #142 ^property[+].code = #cisis
+* #142 ^property[=].valueBoolean = true
 * #143 "Centre de Vaccination BCG"
 * #143 ^property[0].code = #niveau
 * #143 ^property[=].valueInteger =  4
@@ -2447,6 +2759,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #143 ^property[=].valueDateTime = "1989-12-29T00:00:00+01:00"
 * #143 ^property[+].code = #status
 * #143 ^property[=].valueCode = #active
+* #143 ^property[+].code = #ror
+* #143 ^property[=].valueBoolean = true
+* #143 ^property[+].code = #cisis
+* #143 ^property[=].valueBoolean = true
 * #144 "Etablissement de Lutte Contre la Tuberculose"
 * #144 ^property[0].code = #niveau
 * #144 ^property[=].valueInteger =  4
@@ -2469,6 +2785,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #144 ^property[=].valueDateTime = "2013-06-25T00:00:00+01:00"
 * #144 ^property[+].code = #status
 * #144 ^property[=].valueCode = #deprecated
+* #144 ^property[+].code = #cisis
+* #144 ^property[=].valueBoolean = true
 * #146 "Structure d'Alternative à la dialyse en centre"
 * #146 ^property[0].code = #niveau
 * #146 ^property[=].valueInteger =  4
@@ -2487,6 +2805,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #146 ^property[=].valueDateTime = "2002-02-18T00:00:00+01:00"
 * #146 ^property[+].code = #status
 * #146 ^property[=].valueCode = #active
+* #146 ^property[+].code = #ror
+* #146 ^property[=].valueBoolean = true
+* #146 ^property[+].code = #cisis
+* #146 ^property[=].valueBoolean = true
 * #156 "Centre Médico-Psychologique (C.M.P.)"
 * #156 ^property[0].code = #niveau
 * #156 ^property[=].valueInteger =  4
@@ -2509,6 +2831,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #156 ^property[=].valueDateTime = "1997-11-19T00:00:00+01:00"
 * #156 ^property[+].code = #status
 * #156 ^property[=].valueCode = #active
+* #156 ^property[+].code = #ror
+* #156 ^property[=].valueBoolean = true
+* #156 ^property[+].code = #cisis
+* #156 ^property[=].valueBoolean = true
 * #157 "Centre de Postcure"
 * #157 ^property[0].code = #niveau
 * #157 ^property[=].valueInteger =  4
@@ -2531,6 +2857,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #157 ^property[=].valueDateTime = "1994-09-19T00:00:00+01:00"
 * #157 ^property[+].code = #status
 * #157 ^property[=].valueCode = #deprecated
+* #157 ^property[+].code = #cisis
+* #157 ^property[=].valueBoolean = true
 * #159 "Centre Parental"
 * #159 ^property[0].code = #niveau
 * #159 ^property[=].valueInteger =  4
@@ -2545,6 +2873,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #159 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
 * #159 ^property[+].code = #status
 * #159 ^property[=].valueCode = #active
+* #159 ^property[+].code = #ror
+* #159 ^property[=].valueBoolean = true
+* #159 ^property[+].code = #cisis
+* #159 ^property[=].valueBoolean = true
 * #160 "Centre de Soins Spécifiques pour Toxicomanes (C.S.S.T.)"
 * #160 ^property[0].code = #niveau
 * #160 ^property[=].valueInteger =  4
@@ -2571,6 +2903,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #160 ^property[=].valueDateTime = "2012-12-31T00:00:00+01:00"
 * #160 ^property[+].code = #status
 * #160 ^property[=].valueCode = #deprecated
+* #160 ^property[+].code = #cisis
+* #160 ^property[=].valueBoolean = true
 * #161 "Maison de Santé pour Maladies Mentales"
 * #161 ^property[0].code = #niveau
 * #161 ^property[=].valueInteger =  4
@@ -2589,6 +2923,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #161 ^property[=].valueDateTime = "1979-01-23T00:00:00+01:00"
 * #161 ^property[+].code = #status
 * #161 ^property[=].valueCode = #active
+* #161 ^property[+].code = #ror
+* #161 ^property[=].valueBoolean = true
+* #161 ^property[+].code = #cisis
+* #161 ^property[=].valueBoolean = true
 * #162 "Centre de Cure Ambulatoire en Alcoologie (C.C.A.A.)"
 * #162 ^property[0].code = #niveau
 * #162 ^property[=].valueInteger =  4
@@ -2615,6 +2953,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #162 ^property[=].valueDateTime = "2012-12-31T00:00:00+01:00"
 * #162 ^property[+].code = #status
 * #162 ^property[=].valueCode = #deprecated
+* #162 ^property[+].code = #cisis
+* #162 ^property[=].valueBoolean = true
 * #163 "Maison d'Enfants à Caractère Sanitaire Temporaire"
 * #163 ^property[0].code = #niveau
 * #163 ^property[=].valueInteger =  4
@@ -2641,6 +2981,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #163 ^property[=].valueDateTime = "2013-06-25T00:00:00+01:00"
 * #163 ^property[+].code = #status
 * #163 ^property[=].valueCode = #deprecated
+* #163 ^property[+].code = #cisis
+* #163 ^property[=].valueBoolean = true
 * #164 "Etablissements Expérimentaux Accueil de la Petite Enfance"
 * #164 ^property[0].code = #niveau
 * #164 ^property[=].valueInteger =  4
@@ -2667,6 +3009,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #164 ^property[=].valueDateTime = "2014-03-31T00:00:00+01:00"
 * #164 ^property[+].code = #status
 * #164 ^property[=].valueCode = #deprecated
+* #164 ^property[+].code = #cisis
+* #164 ^property[=].valueBoolean = true
 * #165 "Appartement de Coordination Thérapeutique (A.C.T.)"
 * #165 ^property[0].code = #niveau
 * #165 ^property[=].valueInteger =  4
@@ -2689,6 +3033,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #165 ^property[=].valueDateTime = "2005-07-06T00:00:00+01:00"
 * #165 ^property[+].code = #status
 * #165 ^property[=].valueCode = #active
+* #165 ^property[+].code = #ror
+* #165 ^property[=].valueBoolean = true
+* #165 ^property[+].code = #cisis
+* #165 ^property[=].valueBoolean = true
 * #166 "Etablissement d'Accueil Mère-Enfant"
 * #166 ^property[0].code = #niveau
 * #166 ^property[=].valueInteger =  4
@@ -2707,6 +3055,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #166 ^property[=].valueDateTime = "2005-07-06T00:00:00+01:00"
 * #166 ^property[+].code = #status
 * #166 ^property[=].valueCode = #active
+* #166 ^property[+].code = #ror
+* #166 ^property[=].valueBoolean = true
+* #166 ^property[+].code = #cisis
+* #166 ^property[=].valueBoolean = true
 * #167 "Crèche Collective"
 * #167 ^property[0].code = #niveau
 * #167 ^property[=].valueInteger =  4
@@ -2725,6 +3077,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #167 ^property[=].valueDateTime = "2014-03-31T00:00:00+01:00"
 * #167 ^property[+].code = #status
 * #167 ^property[=].valueCode = #deprecated
+* #167 ^property[+].code = #cisis
+* #167 ^property[=].valueBoolean = true
 * #168 "Service Accueil Familial pour la Petite Enfance"
 * #168 ^property[0].code = #niveau
 * #168 ^property[=].valueInteger =  4
@@ -2747,6 +3101,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #168 ^property[=].valueDateTime = "2014-03-31T00:00:00+01:00"
 * #168 ^property[+].code = #status
 * #168 ^property[=].valueCode = #deprecated
+* #168 ^property[+].code = #cisis
+* #168 ^property[=].valueBoolean = true
 * #169 "Crèche Multi Accueil Collectif et Familial"
 * #169 ^property[0].code = #niveau
 * #169 ^property[=].valueInteger =  4
@@ -2773,6 +3129,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #169 ^property[=].valueDateTime = "2014-03-31T00:00:00+01:00"
 * #169 ^property[+].code = #status
 * #169 ^property[=].valueCode = #deprecated
+* #169 ^property[+].code = #cisis
+* #169 ^property[=].valueBoolean = true
 * #170 "Halte Garderie"
 * #170 ^property[0].code = #niveau
 * #170 ^property[=].valueInteger =  4
@@ -2795,6 +3153,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #170 ^property[=].valueDateTime = "2014-03-31T00:00:00+01:00"
 * #170 ^property[+].code = #status
 * #170 ^property[=].valueCode = #deprecated
+* #170 ^property[+].code = #cisis
+* #170 ^property[=].valueBoolean = true
 * #171 "Garderie et Jardin d'Enfants"
 * #171 ^property[0].code = #niveau
 * #171 ^property[=].valueInteger =  4
@@ -2821,6 +3181,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #171 ^property[=].valueDateTime = "2014-03-31T00:00:00+01:00"
 * #171 ^property[+].code = #status
 * #171 ^property[=].valueCode = #deprecated
+* #171 ^property[+].code = #cisis
+* #171 ^property[=].valueBoolean = true
 * #172 "Pouponnière à Caractère Social"
 * #172 ^property[0].code = #niveau
 * #172 ^property[=].valueInteger =  4
@@ -2839,6 +3201,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #172 ^property[=].valueDateTime = "2005-07-06T00:00:00+01:00"
 * #172 ^property[+].code = #status
 * #172 ^property[=].valueCode = #active
+* #172 ^property[+].code = #ror
+* #172 ^property[=].valueBoolean = true
+* #172 ^property[+].code = #cisis
+* #172 ^property[=].valueBoolean = true
 * #173 "Pouponnière à Caractère Sanitaire"
 * #173 ^property[0].code = #niveau
 * #173 ^property[=].valueInteger =  4
@@ -2861,6 +3227,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #173 ^property[=].valueDateTime = "2013-06-25T00:00:00+01:00"
 * #173 ^property[+].code = #status
 * #173 ^property[=].valueCode = #deprecated
+* #173 ^property[+].code = #cisis
+* #173 ^property[=].valueBoolean = true
 * #174 "Etablissement d'Accueil Collectif Régulier et Occasionnel"
 * #174 ^property[0].code = #niveau
 * #174 ^property[=].valueInteger =  4
@@ -2883,6 +3251,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #174 ^property[=].valueDateTime = "2014-03-31T00:00:00+01:00"
 * #174 ^property[+].code = #status
 * #174 ^property[=].valueCode = #deprecated
+* #174 ^property[+].code = #cisis
+* #174 ^property[=].valueBoolean = true
 * #175 "Foyer de l'Enfance"
 * #175 ^property[0].code = #niveau
 * #175 ^property[=].valueInteger =  4
@@ -2897,6 +3267,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #175 ^property[=].valueDateTime = "2005-07-06T00:00:00+01:00"
 * #175 ^property[+].code = #status
 * #175 ^property[=].valueCode = #active
+* #175 ^property[+].code = #ror
+* #175 ^property[=].valueBoolean = true
+* #175 ^property[+].code = #cisis
+* #175 ^property[=].valueBoolean = true
 * #176 "Village d'Enfants"
 * #176 ^property[0].code = #niveau
 * #176 ^property[=].valueInteger =  4
@@ -2911,6 +3285,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #176 ^property[=].valueDateTime = "2005-07-06T00:00:00+01:00"
 * #176 ^property[+].code = #status
 * #176 ^property[=].valueCode = #active
+* #176 ^property[+].code = #ror
+* #176 ^property[=].valueBoolean = true
+* #176 ^property[+].code = #cisis
+* #176 ^property[=].valueBoolean = true
 * #177 "Maison d'Enfants à Caractère Social"
 * #177 ^property[0].code = #niveau
 * #177 ^property[=].valueInteger =  4
@@ -2929,6 +3307,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #177 ^property[=].valueDateTime = "2005-07-06T00:00:00+01:00"
 * #177 ^property[+].code = #status
 * #177 ^property[=].valueCode = #active
+* #177 ^property[+].code = #ror
+* #177 ^property[=].valueBoolean = true
+* #177 ^property[+].code = #cisis
+* #177 ^property[=].valueBoolean = true
 * #178 "Ctre.Accueil- Accomp.Réduc.Risq.Usag. Drogues (C.A.A.R.U.D.)"
 * #178 ^property[0].code = #niveau
 * #178 ^property[=].valueInteger =  4
@@ -2951,6 +3333,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #178 ^property[=].valueDateTime = "2006-01-24T00:00:00+01:00"
 * #178 ^property[+].code = #status
 * #178 ^property[=].valueCode = #active
+* #178 ^property[+].code = #ror
+* #178 ^property[=].valueBoolean = true
+* #178 ^property[+].code = #cisis
+* #178 ^property[=].valueBoolean = true
 * #179 "Maison d'Enfants à Caractère Sanitaire Permanente"
 * #179 ^property[0].code = #niveau
 * #179 ^property[=].valueInteger =  4
@@ -2977,6 +3363,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #179 ^property[=].valueDateTime = "2013-06-25T00:00:00+01:00"
 * #179 ^property[+].code = #status
 * #179 ^property[=].valueCode = #deprecated
+* #179 ^property[+].code = #cisis
+* #179 ^property[=].valueBoolean = true
 * #180 "Lits Halte Soins Santé (L.H.S.S.)"
 * #180 ^property[0].code = #niveau
 * #180 ^property[=].valueInteger =  4
@@ -2999,6 +3387,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #180 ^property[=].valueDateTime = "2006-10-19T00:00:00+01:00"
 * #180 ^property[+].code = #status
 * #180 ^property[=].valueCode = #active
+* #180 ^property[+].code = #ror
+* #180 ^property[=].valueBoolean = true
+* #180 ^property[+].code = #cisis
+* #180 ^property[=].valueBoolean = true
 * #181 "Maison Familiale de Vacances"
 * #181 ^property[0].code = #niveau
 * #181 ^property[=].valueInteger =  4
@@ -3021,6 +3413,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #181 ^property[=].valueDateTime = "2016-01-06T00:00:00+01:00"
 * #181 ^property[+].code = #status
 * #181 ^property[=].valueCode = #deprecated
+* #181 ^property[+].code = #cisis
+* #181 ^property[=].valueBoolean = true
 * #182 "Service d'Éducation Spéciale et de Soins à Domicile"
 * #182 ^property[0].code = #niveau
 * #182 ^property[=].valueInteger =  4
@@ -3043,6 +3437,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #182 ^property[=].valueDateTime = "2005-07-06T00:00:00+01:00"
 * #182 ^property[+].code = #status
 * #182 ^property[=].valueCode = #active
+* #182 ^property[+].code = #ror
+* #182 ^property[=].valueBoolean = true
+* #182 ^property[+].code = #cisis
+* #182 ^property[=].valueBoolean = true
 * #183 "Institut Médico-Educatif (I.M.E.)"
 * #183 ^property[0].code = #niveau
 * #183 ^property[=].valueInteger =  4
@@ -3065,6 +3463,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #183 ^property[=].valueDateTime = "2005-07-06T00:00:00+01:00"
 * #183 ^property[+].code = #status
 * #183 ^property[=].valueCode = #active
+* #183 ^property[+].code = #ror
+* #183 ^property[=].valueBoolean = true
+* #183 ^property[+].code = #cisis
+* #183 ^property[=].valueBoolean = true
 * #184 "Institut Médico-Pédagogique (I.M.P.)"
 * #184 ^property[0].code = #niveau
 * #184 ^property[=].valueInteger =  4
@@ -3091,6 +3493,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #184 ^property[=].valueDateTime = "2005-07-06T00:00:00+01:00"
 * #184 ^property[+].code = #status
 * #184 ^property[=].valueCode = #deprecated
+* #184 ^property[+].code = #ror
+* #184 ^property[=].valueBoolean = true
+* #184 ^property[+].code = #cisis
+* #184 ^property[=].valueBoolean = true
 * #185 "Institut Médico-Professionnel (I.M.Pro.)"
 * #185 ^property[0].code = #niveau
 * #185 ^property[=].valueInteger =  4
@@ -3117,6 +3523,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #185 ^property[=].valueDateTime = "2005-07-06T00:00:00+01:00"
 * #185 ^property[+].code = #status
 * #185 ^property[=].valueCode = #deprecated
+* #185 ^property[+].code = #cisis
+* #185 ^property[=].valueBoolean = true
 * #186 "Institut Thérapeutique Éducatif et Pédagogique (I.T.E.P.)"
 * #186 ^property[0].code = #niveau
 * #186 ^property[=].valueInteger =  4
@@ -3139,6 +3547,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #186 ^property[=].valueDateTime = "2005-07-06T00:00:00+01:00"
 * #186 ^property[+].code = #status
 * #186 ^property[=].valueCode = #active
+* #186 ^property[+].code = #ror
+* #186 ^property[=].valueBoolean = true
+* #186 ^property[+].code = #cisis
+* #186 ^property[=].valueBoolean = true
 * #188 "Etablissement pour Enfants ou Adolescents Polyhandicapés"
 * #188 ^property[0].code = #niveau
 * #188 ^property[=].valueInteger =  4
@@ -3157,6 +3569,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #188 ^property[=].valueDateTime = "2005-07-06T00:00:00+01:00"
 * #188 ^property[+].code = #status
 * #188 ^property[=].valueCode = #active
+* #188 ^property[+].code = #ror
+* #188 ^property[=].valueBoolean = true
+* #188 ^property[+].code = #cisis
+* #188 ^property[=].valueBoolean = true
 * #189 "Centre Médico-Psycho-Pédagogique (C.M.P.P.)"
 * #189 ^property[0].code = #niveau
 * #189 ^property[=].valueInteger =  4
@@ -3179,6 +3595,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #189 ^property[=].valueDateTime = "2005-07-06T00:00:00+01:00"
 * #189 ^property[+].code = #status
 * #189 ^property[=].valueCode = #active
+* #189 ^property[+].code = #ror
+* #189 ^property[=].valueBoolean = true
+* #189 ^property[+].code = #cisis
+* #189 ^property[=].valueBoolean = true
 * #190 "Centre Action Médico-Sociale Précoce (C.A.M.S.P.)"
 * #190 ^property[0].code = #niveau
 * #190 ^property[=].valueInteger =  4
@@ -3201,6 +3621,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #190 ^property[=].valueDateTime = "2005-07-06T00:00:00+01:00"
 * #190 ^property[+].code = #status
 * #190 ^property[=].valueCode = #active
+* #190 ^property[+].code = #ror
+* #190 ^property[=].valueBoolean = true
+* #190 ^property[+].code = #cisis
+* #190 ^property[=].valueBoolean = true
 * #191 "Etablissement pour Déficients Moteurs Cérébraux"
 * #191 ^property[0].code = #niveau
 * #191 ^property[=].valueInteger =  4
@@ -3223,6 +3647,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #191 ^property[=].valueDateTime = "2005-07-06T00:00:00+01:00"
 * #191 ^property[+].code = #status
 * #191 ^property[=].valueCode = #deprecated
+* #191 ^property[+].code = #cisis
+* #191 ^property[=].valueBoolean = true
 * #192 "Institut d'éducation motrice"
 * #192 ^property[0].code = #niveau
 * #192 ^property[=].valueInteger =  4
@@ -3241,6 +3667,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #192 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #192 ^property[+].code = #status
 * #192 ^property[=].valueCode = #active
+* #192 ^property[+].code = #ror
+* #192 ^property[=].valueBoolean = true
+* #192 ^property[+].code = #cisis
+* #192 ^property[=].valueBoolean = true
 * #193 "Etablissement pour Déficients Moteurs et Moteurs Cérébraux"
 * #193 ^property[0].code = #niveau
 * #193 ^property[=].valueInteger =  4
@@ -3263,6 +3693,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #193 ^property[=].valueDateTime = "2005-07-06T00:00:00+01:00"
 * #193 ^property[+].code = #status
 * #193 ^property[=].valueCode = #deprecated
+* #193 ^property[+].code = #cisis
+* #193 ^property[=].valueBoolean = true
 * #194 "Institut pour Déficients Visuels"
 * #194 ^property[0].code = #niveau
 * #194 ^property[=].valueInteger =  4
@@ -3281,6 +3713,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #194 ^property[=].valueDateTime = "2005-07-06T00:00:00+01:00"
 * #194 ^property[+].code = #status
 * #194 ^property[=].valueCode = #active
+* #194 ^property[+].code = #ror
+* #194 ^property[=].valueBoolean = true
+* #194 ^property[+].code = #cisis
+* #194 ^property[=].valueBoolean = true
 * #195 "Institut pour Déficients Auditifs"
 * #195 ^property[0].code = #niveau
 * #195 ^property[=].valueInteger =  4
@@ -3299,6 +3735,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #195 ^property[=].valueDateTime = "2005-07-06T00:00:00+01:00"
 * #195 ^property[+].code = #status
 * #195 ^property[=].valueCode = #active
+* #195 ^property[+].code = #ror
+* #195 ^property[=].valueBoolean = true
+* #195 ^property[+].code = #cisis
+* #195 ^property[=].valueBoolean = true
 * #196 "Institut d'Education Sensorielle Sourd-Aveugle"
 * #196 ^property[0].code = #niveau
 * #196 ^property[=].valueInteger =  4
@@ -3321,6 +3761,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #196 ^property[=].valueDateTime = "2023-12-15T12:00:00+01:00"
 * #196 ^property[+].code = #status
 * #196 ^property[=].valueCode = #active
+* #196 ^property[+].code = #ror
+* #196 ^property[=].valueBoolean = true
+* #196 ^property[+].code = #cisis
+* #196 ^property[=].valueBoolean = true
 * #197 "Centre soins accompagnement prévention addictologie (CSAPA)"
 * #197 ^property[0].code = #niveau
 * #197 ^property[=].valueInteger =  4
@@ -3343,6 +3787,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #197 ^property[=].valueDateTime = "2013-01-23T00:00:00+01:00"
 * #197 ^property[+].code = #status
 * #197 ^property[=].valueCode = #active
+* #197 ^property[+].code = #ror
+* #197 ^property[=].valueBoolean = true
+* #197 ^property[+].code = #cisis
+* #197 ^property[=].valueBoolean = true
 * #198 "Établissement et Service de Préorientation"
 * #198 ^property[0].code = #niveau
 * #198 ^property[=].valueInteger =  4
@@ -3361,6 +3809,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #198 ^property[=].valueDateTime = "2021-05-28T12:00:00+01:00"
 * #198 ^property[+].code = #status
 * #198 ^property[=].valueCode = #active
+* #198 ^property[+].code = #ror
+* #198 ^property[=].valueBoolean = true
+* #198 ^property[+].code = #cisis
+* #198 ^property[=].valueBoolean = true
 * #199 "Hospice"
 * #199 ^property[0].code = #niveau
 * #199 ^property[=].valueInteger =  4
@@ -3379,6 +3831,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #199 ^property[=].valueDateTime = "2015-01-05T00:00:00+01:00"
 * #199 ^property[+].code = #status
 * #199 ^property[=].valueCode = #deprecated
+* #199 ^property[+].code = #cisis
+* #199 ^property[=].valueBoolean = true
 * #200 "Maison de Retraite"
 * #200 ^property[0].code = #niveau
 * #200 ^property[=].valueInteger =  4
@@ -3397,6 +3851,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #200 ^property[=].valueDateTime = "2015-01-01T00:00:00+01:00"
 * #200 ^property[+].code = #status
 * #200 ^property[=].valueCode = #deprecated
+* #200 ^property[+].code = #cisis
+* #200 ^property[=].valueBoolean = true
 * #202 "Résidences autonomie"
 * #202 ^property[0].code = #niveau
 * #202 ^property[=].valueInteger =  4
@@ -3411,6 +3867,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #202 ^property[=].valueDateTime = "2020-02-28T12:00:00+01:00"
 * #202 ^property[+].code = #status
 * #202 ^property[=].valueCode = #active
+* #202 ^property[+].code = #ror
+* #202 ^property[=].valueBoolean = true
+* #202 ^property[+].code = #cisis
+* #202 ^property[=].valueBoolean = true
 * #205 "Foyer Club Restaurant"
 * #205 ^property[0].code = #niveau
 * #205 ^property[=].valueInteger =  4
@@ -3433,6 +3893,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #205 ^property[=].valueDateTime = "2020-10-30T12:00:00+01:00"
 * #205 ^property[+].code = #status
 * #205 ^property[=].valueCode = #deprecated
+* #205 ^property[+].code = #cisis
+* #205 ^property[=].valueBoolean = true
 * #207 "Centre de Jour pour Personnes Agées"
 * #207 ^property[0].code = #niveau
 * #207 ^property[=].valueInteger =  4
@@ -3455,6 +3917,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #207 ^property[=].valueDateTime = "2005-07-06T00:00:00+01:00"
 * #207 ^property[+].code = #status
 * #207 ^property[=].valueCode = #active
+* #207 ^property[+].code = #ror
+* #207 ^property[=].valueBoolean = true
+* #207 ^property[+].code = #cisis
+* #207 ^property[=].valueBoolean = true
 * #208 "Service d'Aide Ménagère à Domicile"
 * #208 ^property[0].code = #niveau
 * #208 ^property[=].valueInteger =  4
@@ -3481,6 +3947,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #208 ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #208 ^property[+].code = #status
 * #208 ^property[=].valueCode = #deprecated
+* #208 ^property[+].code = #cisis
+* #208 ^property[=].valueBoolean = true
 * #209 "Service autonomie aide et soins (SAAS)"
 * #209 ^property[0].code = #niveau
 * #209 ^property[=].valueInteger =  4
@@ -3503,6 +3971,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #209 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #209 ^property[+].code = #status
 * #209 ^property[=].valueCode = #active
+* #209 ^property[+].code = #ror
+* #209 ^property[=].valueBoolean = true
+* #209 ^property[+].code = #cisis
+* #209 ^property[=].valueBoolean = true
 * #212 "Alarme Médico-Sociale"
 * #212 ^property[0].code = #niveau
 * #212 ^property[=].valueInteger =  4
@@ -3525,6 +3997,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #212 ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #212 ^property[+].code = #status
 * #212 ^property[=].valueCode = #deprecated
+* #212 ^property[+].code = #cisis
+* #212 ^property[=].valueBoolean = true
 * #213 "Lits d'Accueil Médicalisés (L.A.M.)"
 * #213 ^property[0].code = #niveau
 * #213 ^property[=].valueInteger =  4
@@ -3543,6 +4017,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #213 ^property[=].valueDateTime = "2018-12-14T12:00:00+01:00"
 * #213 ^property[+].code = #status
 * #213 ^property[=].valueCode = #active
+* #213 ^property[+].code = #ror
+* #213 ^property[=].valueBoolean = true
+* #213 ^property[+].code = #cisis
+* #213 ^property[=].valueBoolean = true
 * #214 "Centre Hébergement & Réinsertion Sociale (C.H.R.S.)"
 * #214 ^property[0].code = #niveau
 * #214 ^property[=].valueInteger =  4
@@ -3565,6 +4043,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #214 ^property[=].valueDateTime = "2005-07-06T00:00:00+01:00"
 * #214 ^property[+].code = #status
 * #214 ^property[=].valueCode = #active
+* #214 ^property[+].code = #ror
+* #214 ^property[=].valueBoolean = true
+* #214 ^property[+].code = #cisis
+* #214 ^property[=].valueBoolean = true
 * #215 "Maison Relai"
 * #215 ^property[0].code = #niveau
 * #215 ^property[=].valueInteger =  4
@@ -3587,6 +4069,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #215 ^property[=].valueDateTime = "2008-06-26T00:00:00+01:00"
 * #215 ^property[+].code = #status
 * #215 ^property[=].valueCode = #deprecated
+* #215 ^property[+].code = #cisis
+* #215 ^property[=].valueBoolean = true
 * #216 "Résidence Hôtelière à Vocation Sociale (R.H.V.S)"
 * #216 ^property[0].code = #niveau
 * #216 ^property[=].valueInteger =  4
@@ -3605,6 +4089,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #216 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
 * #216 ^property[+].code = #status
 * #216 ^property[=].valueCode = #active
+* #216 ^property[+].code = #ror
+* #216 ^property[=].valueBoolean = true
+* #216 ^property[+].code = #cisis
+* #216 ^property[=].valueBoolean = true
 * #217 "Cité de Transit"
 * #217 ^property[0].code = #niveau
 * #217 ^property[=].valueInteger =  4
@@ -3623,6 +4111,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #217 ^property[=].valueDateTime = "2001-07-31T00:00:00+01:00"
 * #217 ^property[+].code = #status
 * #217 ^property[=].valueCode = #deprecated
+* #217 ^property[+].code = #cisis
+* #217 ^property[=].valueBoolean = true
 * #218 "Aire Station Nomades"
 * #218 ^property[0].code = #niveau
 * #218 ^property[=].valueInteger =  4
@@ -3641,6 +4131,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #218 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
 * #218 ^property[+].code = #status
 * #218 ^property[=].valueCode = #deprecated
+* #218 ^property[+].code = #ror
+* #218 ^property[=].valueBoolean = true
+* #218 ^property[+].code = #cisis
+* #218 ^property[=].valueBoolean = true
 * #219 "Autre Centre d'Accueil"
 * #219 ^property[0].code = #niveau
 * #219 ^property[=].valueInteger =  4
@@ -3659,6 +4153,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #219 ^property[=].valueDateTime = "2005-07-06T00:00:00+01:00"
 * #219 ^property[+].code = #status
 * #219 ^property[=].valueCode = #active
+* #219 ^property[+].code = #ror
+* #219 ^property[=].valueBoolean = true
+* #219 ^property[+].code = #cisis
+* #219 ^property[=].valueBoolean = true
 * #220 "Centre Social"
 * #220 ^property[0].code = #niveau
 * #220 ^property[=].valueInteger =  4
@@ -3681,6 +4179,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #220 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
 * #220 ^property[+].code = #status
 * #220 ^property[=].valueCode = #deprecated
+* #220 ^property[+].code = #ror
+* #220 ^property[=].valueBoolean = true
+* #220 ^property[+].code = #cisis
+* #220 ^property[=].valueBoolean = true
 * #221 "Bureau d'Aide Psychologique Universitaire (B.A.P.U.)"
 * #221 ^property[0].code = #niveau
 * #221 ^property[=].valueInteger =  4
@@ -3703,6 +4205,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #221 ^property[=].valueDateTime = "2005-07-06T00:00:00+01:00"
 * #221 ^property[+].code = #status
 * #221 ^property[=].valueCode = #active
+* #221 ^property[+].code = #ror
+* #221 ^property[=].valueBoolean = true
+* #221 ^property[+].code = #cisis
+* #221 ^property[=].valueBoolean = true
 * #223 "Protection Maternelle et Infantile (P.M.I.)"
 * #223 ^property[0].code = #niveau
 * #223 ^property[=].valueInteger =  4
@@ -3725,6 +4231,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #223 ^property[=].valueDateTime = "1992-09-29T00:00:00+01:00"
 * #223 ^property[+].code = #status
 * #223 ^property[=].valueCode = #active
+* #223 ^property[+].code = #ror
+* #223 ^property[=].valueBoolean = true
+* #223 ^property[+].code = #cisis
+* #223 ^property[=].valueBoolean = true
 * #224 "Etablissement de Consultation Pré et Post-natale"
 * #224 ^property[0].code = #niveau
 * #224 ^property[=].valueInteger =  4
@@ -3743,6 +4253,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #224 ^property[=].valueDateTime = "1994-07-05T00:00:00+01:00"
 * #224 ^property[+].code = #status
 * #224 ^property[=].valueCode = #active
+* #224 ^property[+].code = #ror
+* #224 ^property[=].valueBoolean = true
+* #224 ^property[+].code = #cisis
+* #224 ^property[=].valueBoolean = true
 * #225 "Consultations de Nourrissons"
 * #225 ^property[0].code = #niveau
 * #225 ^property[=].valueInteger =  4
@@ -3765,6 +4279,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #225 ^property[=].valueDateTime = "1994-09-19T00:00:00+01:00"
 * #225 ^property[+].code = #status
 * #225 ^property[=].valueCode = #deprecated
+* #225 ^property[+].code = #cisis
+* #225 ^property[=].valueBoolean = true
 * #228 "Centre de Santé Sexuelle"
 * #228 ^property[0].code = #niveau
 * #228 ^property[=].valueInteger =  4
@@ -3783,6 +4299,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #228 ^property[=].valueDateTime = "2024-03-29T12:00:00+01:00"
 * #228 ^property[+].code = #status
 * #228 ^property[=].valueCode = #active
+* #228 ^property[+].code = #ror
+* #228 ^property[=].valueBoolean = true
+* #228 ^property[+].code = #cisis
+* #228 ^property[=].valueBoolean = true
 * #229 "Consultation Problèmes naissance"
 * #229 ^property[0].code = #niveau
 * #229 ^property[=].valueInteger =  4
@@ -3805,6 +4325,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #229 ^property[=].valueDateTime = "1994-09-19T00:00:00+01:00"
 * #229 ^property[+].code = #status
 * #229 ^property[=].valueCode = #deprecated
+* #229 ^property[+].code = #cisis
+* #229 ^property[=].valueBoolean = true
 * #230 "Etablissement Consultation Protection Infantile"
 * #230 ^property[0].code = #niveau
 * #230 ^property[=].valueInteger =  4
@@ -3823,6 +4345,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #230 ^property[=].valueDateTime = "1994-07-05T00:00:00+01:00"
 * #230 ^property[+].code = #status
 * #230 ^property[=].valueCode = #active
+* #230 ^property[+].code = #ror
+* #230 ^property[=].valueBoolean = true
+* #230 ^property[+].code = #cisis
+* #230 ^property[=].valueBoolean = true
 * #231 "Etablissement Information Consultation Conseil Familial"
 * #231 ^property[0].code = #niveau
 * #231 ^property[=].valueInteger =  4
@@ -3845,6 +4371,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #231 ^property[=].valueDateTime = "1979-01-23T00:00:00+01:00"
 * #231 ^property[+].code = #status
 * #231 ^property[=].valueCode = #active
+* #231 ^property[+].code = #ror
+* #231 ^property[=].valueBoolean = true
+* #231 ^property[+].code = #cisis
+* #231 ^property[=].valueBoolean = true
 * #233 "Lactarium"
 * #233 ^property[0].code = #niveau
 * #233 ^property[=].valueInteger =  4
@@ -3863,6 +4393,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #233 ^property[=].valueDateTime = "2015-03-04T00:00:00+01:00"
 * #233 ^property[+].code = #status
 * #233 ^property[=].valueCode = #deprecated
+* #233 ^property[+].code = #cisis
+* #233 ^property[=].valueBoolean = true
 * #236 "Centre Placement Familial Socio-Educatif (C.P.F.S.E.)"
 * #236 ^property[0].code = #niveau
 * #236 ^property[=].valueInteger =  4
@@ -3885,6 +4417,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #236 ^property[=].valueDateTime = "2005-07-06T00:00:00+01:00"
 * #236 ^property[+].code = #status
 * #236 ^property[=].valueCode = #active
+* #236 ^property[+].code = #ror
+* #236 ^property[=].valueBoolean = true
+* #236 ^property[+].code = #cisis
+* #236 ^property[=].valueBoolean = true
 * #237 "Centre de Placement Familial Spécialisé"
 * #237 ^property[0].code = #niveau
 * #237 ^property[=].valueInteger =  4
@@ -3907,6 +4443,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #237 ^property[=].valueDateTime = "2005-07-06T00:00:00+01:00"
 * #237 ^property[+].code = #status
 * #237 ^property[=].valueCode = #deprecated
+* #237 ^property[+].code = #cisis
+* #237 ^property[=].valueBoolean = true
 * #238 "Centre d'Accueil Familial Spécialisé"
 * #238 ^property[0].code = #niveau
 * #238 ^property[=].valueInteger =  4
@@ -3925,6 +4463,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #238 ^property[=].valueDateTime = "2005-07-06T00:00:00+01:00"
 * #238 ^property[+].code = #status
 * #238 ^property[=].valueCode = #active
+* #238 ^property[+].code = #ror
+* #238 ^property[=].valueBoolean = true
+* #238 ^property[+].code = #cisis
+* #238 ^property[=].valueBoolean = true
 * #241 "Établissement de Placement"
 * #241 ^property[0].code = #niveau
 * #241 ^property[=].valueInteger =  4
@@ -3939,6 +4481,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #241 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
 * #241 ^property[+].code = #status
 * #241 ^property[=].valueCode = #active
+* #241 ^property[+].code = #ror
+* #241 ^property[=].valueBoolean = true
+* #241 ^property[+].code = #cisis
+* #241 ^property[=].valueBoolean = true
 * #242 "Service d’Activité de Jour"
 * #242 ^property[0].code = #niveau
 * #242 ^property[=].valueInteger =  4
@@ -3953,6 +4499,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #242 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
 * #242 ^property[+].code = #status
 * #242 ^property[=].valueCode = #active
+* #242 ^property[+].code = #ror
+* #242 ^property[=].valueBoolean = true
+* #242 ^property[+].code = #cisis
+* #242 ^property[=].valueBoolean = true
 * #246 "Etablissement et Service d'Aide par le Travail (E.S.A.T.)"
 * #246 ^property[0].code = #niveau
 * #246 ^property[=].valueInteger =  4
@@ -3975,6 +4525,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #246 ^property[=].valueDateTime = "2005-07-06T00:00:00+01:00"
 * #246 ^property[+].code = #status
 * #246 ^property[=].valueCode = #active
+* #246 ^property[+].code = #ror
+* #246 ^property[=].valueBoolean = true
+* #246 ^property[+].code = #cisis
+* #246 ^property[=].valueBoolean = true
 * #247 "Entreprise adaptée"
 * #247 ^property[0].code = #niveau
 * #247 ^property[=].valueInteger =  4
@@ -3989,6 +4543,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #247 ^property[=].valueDateTime = "2005-07-06T00:00:00+01:00"
 * #247 ^property[+].code = #status
 * #247 ^property[=].valueCode = #active
+* #247 ^property[+].code = #ror
+* #247 ^property[=].valueBoolean = true
+* #247 ^property[+].code = #cisis
+* #247 ^property[=].valueBoolean = true
 * #249 "Établissement et Service de Réadaptation Professionnelle"
 * #249 ^property[0].code = #niveau
 * #249 ^property[=].valueInteger =  4
@@ -4007,6 +4565,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #249 ^property[=].valueDateTime = "2021-05-28T12:00:00+01:00"
 * #249 ^property[+].code = #status
 * #249 ^property[=].valueCode = #active
+* #249 ^property[+].code = #ror
+* #249 ^property[=].valueBoolean = true
+* #249 ^property[+].code = #cisis
+* #249 ^property[=].valueBoolean = true
 * #250 "Centre Réentrainement au travail"
 * #250 ^property[0].code = #niveau
 * #250 ^property[=].valueInteger =  4
@@ -4033,6 +4595,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #250 ^property[=].valueDateTime = "1994-09-19T00:00:00+01:00"
 * #250 ^property[+].code = #status
 * #250 ^property[=].valueCode = #deprecated
+* #250 ^property[+].code = #cisis
+* #250 ^property[=].valueBoolean = true
 * #251 "Maison Vacances pour Handicapés"
 * #251 ^property[0].code = #niveau
 * #251 ^property[=].valueInteger =  4
@@ -4059,6 +4623,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #251 ^property[=].valueDateTime = "1994-09-19T00:00:00+01:00"
 * #251 ^property[+].code = #status
 * #251 ^property[=].valueCode = #deprecated
+* #251 ^property[+].code = #cisis
+* #251 ^property[=].valueBoolean = true
 * #252 "Foyer Hébergement Adultes Handicapés"
 * #252 ^property[0].code = #niveau
 * #252 ^property[=].valueInteger =  4
@@ -4085,6 +4651,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #252 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #252 ^property[+].code = #status
 * #252 ^property[=].valueCode = #deprecated
+* #252 ^property[+].code = #ror
+* #252 ^property[=].valueBoolean = true
+* #252 ^property[+].code = #cisis
+* #252 ^property[=].valueBoolean = true
 * #253 "Foyer d'Accueil Polyvalent pour Adultes Handicapés"
 * #253 ^property[0].code = #niveau
 * #253 ^property[=].valueInteger =  4
@@ -4107,6 +4677,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #253 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #253 ^property[+].code = #status
 * #253 ^property[=].valueCode = #deprecated
+* #253 ^property[+].code = #ror
+* #253 ^property[=].valueBoolean = true
+* #253 ^property[+].code = #cisis
+* #253 ^property[=].valueBoolean = true
 * #255 "Maison d'Accueil Spécialisée (M.A.S.)"
 * #255 ^property[0].code = #niveau
 * #255 ^property[=].valueInteger =  4
@@ -4129,6 +4703,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #255 ^property[=].valueDateTime = "2005-07-06T00:00:00+01:00"
 * #255 ^property[+].code = #status
 * #255 ^property[=].valueCode = #active
+* #255 ^property[+].code = #ror
+* #255 ^property[=].valueBoolean = true
+* #255 ^property[+].code = #cisis
+* #255 ^property[=].valueBoolean = true
 * #256 "Foyer Travailleurs Migrants non transformé en Résidence Soc."
 * #256 ^property[0].code = #niveau
 * #256 ^property[=].valueInteger =  4
@@ -4151,6 +4729,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #256 ^property[=].valueDateTime = "2005-07-06T00:00:00+01:00"
 * #256 ^property[+].code = #status
 * #256 ^property[=].valueCode = #active
+* #256 ^property[+].code = #ror
+* #256 ^property[=].valueBoolean = true
+* #256 ^property[+].code = #cisis
+* #256 ^property[=].valueBoolean = true
 * #257 "Foyers de jeunes travailleurs"
 * #257 ^property[0].code = #niveau
 * #257 ^property[=].valueInteger =  4
@@ -4169,6 +4751,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #257 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #257 ^property[+].code = #status
 * #257 ^property[=].valueCode = #active
+* #257 ^property[+].code = #ror
+* #257 ^property[=].valueBoolean = true
+* #257 ^property[+].code = #cisis
+* #257 ^property[=].valueBoolean = true
 * #258 "Maisons Relais - Pensions de Famille"
 * #258 ^property[0].code = #niveau
 * #258 ^property[=].valueInteger =  4
@@ -4191,6 +4777,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #258 ^property[=].valueDateTime = "2009-01-21T00:00:00+01:00"
 * #258 ^property[+].code = #status
 * #258 ^property[=].valueCode = #active
+* #258 ^property[+].code = #ror
+* #258 ^property[=].valueBoolean = true
+* #258 ^property[+].code = #cisis
+* #258 ^property[=].valueBoolean = true
 * #259 "Autres résidences sociales"
 * #259 ^property[0].code = #niveau
 * #259 ^property[=].valueInteger =  4
@@ -4205,6 +4795,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #259 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #259 ^property[+].code = #status
 * #259 ^property[=].valueCode = #active
+* #259 ^property[+].code = #ror
+* #259 ^property[=].valueBoolean = true
+* #259 ^property[+].code = #cisis
+* #259 ^property[=].valueBoolean = true
 * #261 "D.D.A.S.S."
 * #261 ^property[0].code = #niveau
 * #261 ^property[=].valueInteger =  4
@@ -4227,6 +4821,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #261 ^property[=].valueDateTime = "1999-09-15T00:00:00+01:00"
 * #261 ^property[+].code = #status
 * #261 ^property[=].valueCode = #deprecated
+* #261 ^property[+].code = #cisis
+* #261 ^property[=].valueBoolean = true
 * #262 "Etablissement Régional d'Enseignement Adapté"
 * #262 ^property[0].code = #niveau
 * #262 ^property[=].valueInteger =  4
@@ -4249,6 +4845,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #262 ^property[=].valueDateTime = "2005-06-09T00:00:00+01:00"
 * #262 ^property[+].code = #status
 * #262 ^property[=].valueCode = #deprecated
+* #262 ^property[+].code = #cisis
+* #262 ^property[=].valueBoolean = true
 * #265 "Section Education Spéciale Classe Atelier"
 * #265 ^property[0].code = #niveau
 * #265 ^property[=].valueInteger =  4
@@ -4275,6 +4873,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #265 ^property[=].valueDateTime = "2005-06-09T00:00:00+01:00"
 * #265 ^property[+].code = #status
 * #265 ^property[=].valueCode = #deprecated
+* #265 ^property[+].code = #cisis
+* #265 ^property[=].valueBoolean = true
 * #266 "Dispensaire Antivénérien"
 * #266 ^property[0].code = #niveau
 * #266 ^property[=].valueInteger =  4
@@ -4293,6 +4893,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #266 ^property[=].valueDateTime = "1979-01-23T00:00:00+01:00"
 * #266 ^property[+].code = #status
 * #266 ^property[=].valueCode = #active
+* #266 ^property[+].code = #ror
+* #266 ^property[=].valueBoolean = true
+* #266 ^property[+].code = #cisis
+* #266 ^property[=].valueBoolean = true
 * #267 "Dispensaire Antihansénien"
 * #267 ^property[0].code = #niveau
 * #267 ^property[=].valueInteger =  4
@@ -4311,6 +4915,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #267 ^property[=].valueDateTime = "1979-01-23T00:00:00+01:00"
 * #267 ^property[+].code = #status
 * #267 ^property[=].valueCode = #active
+* #266 ^property[+].code = #ror
+* #266 ^property[=].valueBoolean = true
+* #266 ^property[+].code = #cisis
+* #266 ^property[=].valueBoolean = true
 * #268 "Centre Médico-Scolaire"
 * #268 ^property[0].code = #niveau
 * #268 ^property[=].valueInteger =  4
@@ -4329,6 +4937,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #268 ^property[=].valueDateTime = "1979-01-23T00:00:00+01:00"
 * #268 ^property[+].code = #status
 * #268 ^property[=].valueCode = #active
+* #268 ^property[+].code = #ror
+* #268 ^property[=].valueBoolean = true
+* #268 ^property[+].code = #cisis
+* #268 ^property[=].valueBoolean = true
 * #269 "Centre de Médecine Universitaire"
 * #269 ^property[0].code = #niveau
 * #269 ^property[=].valueInteger =  4
@@ -4347,6 +4959,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #269 ^property[=].valueDateTime = "1979-01-23T00:00:00+01:00"
 * #269 ^property[+].code = #status
 * #269 ^property[=].valueCode = #active
+* #269 ^property[+].code = #ror
+* #269 ^property[=].valueBoolean = true
+* #269 ^property[+].code = #cisis
+* #269 ^property[=].valueBoolean = true
 * #270 "Centre de Médecine Sportive"
 * #270 ^property[0].code = #niveau
 * #270 ^property[=].valueInteger =  4
@@ -4365,6 +4981,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #270 ^property[=].valueDateTime = "1979-01-23T00:00:00+01:00"
 * #270 ^property[+].code = #status
 * #270 ^property[=].valueCode = #active
+* #270 ^property[+].code = #ror
+* #270 ^property[=].valueBoolean = true
+* #270 ^property[+].code = #cisis
+* #270 ^property[=].valueBoolean = true
 * #271 "Maison d'accueil Hospitalière"
 * #271 ^property[0].code = #niveau
 * #271 ^property[=].valueInteger =  4
@@ -4379,6 +4999,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #271 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #271 ^property[+].code = #status
 * #271 ^property[=].valueCode = #active
+* #271 ^property[+].code = #ror
+* #271 ^property[=].valueBoolean = true
+* #271 ^property[+].code = #cisis
+* #271 ^property[=].valueBoolean = true
 * #272 "Ecole d'ambulanciers"
 * #272 ^property[0].code = #niveau
 * #272 ^property[=].valueInteger =  4
@@ -4397,6 +5021,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #272 ^property[=].valueDateTime = "2005-11-14T00:00:00+01:00"
 * #272 ^property[+].code = #status
 * #272 ^property[=].valueCode = #deprecated
+* #272 ^property[+].code = #cisis
+* #272 ^property[=].valueBoolean = true
 * #273 "Institut de formation en soins infirmiers (I.F.S.I.)"
 * #273 ^property[0].code = #niveau
 * #273 ^property[=].valueInteger =  4
@@ -4423,6 +5049,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #273 ^property[=].valueDateTime = "2005-11-14T00:00:00+01:00"
 * #273 ^property[+].code = #status
 * #273 ^property[=].valueCode = #deprecated
+* #273 ^property[+].code = #cisis
+* #273 ^property[=].valueBoolean = true
 * #274 "Ecole de sages_femmes"
 * #274 ^property[0].code = #niveau
 * #274 ^property[=].valueInteger =  4
@@ -4449,6 +5077,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #274 ^property[=].valueDateTime = "2005-11-14T00:00:00+01:00"
 * #274 ^property[+].code = #status
 * #274 ^property[=].valueCode = #deprecated
+* #274 ^property[+].code = #cisis
+* #274 ^property[=].valueBoolean = true
 * #275 "Ecole de masseurs-kinésithérapeutes"
 * #275 ^property[0].code = #niveau
 * #275 ^property[=].valueInteger =  4
@@ -4471,6 +5101,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #275 ^property[=].valueDateTime = "2005-11-14T00:00:00+01:00"
 * #275 ^property[+].code = #status
 * #275 ^property[=].valueCode = #deprecated
+* #275 ^property[+].code = #cisis
+* #275 ^property[=].valueBoolean = true
 * #276 "Ecole de laborantins d'analyses médicales"
 * #276 ^property[0].code = #niveau
 * #276 ^property[=].valueInteger =  4
@@ -4493,6 +5125,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #276 ^property[=].valueDateTime = "2005-11-14T00:00:00+01:00"
 * #276 ^property[+].code = #status
 * #276 ^property[=].valueCode = #deprecated
+* #276 ^property[+].code = #cisis
+* #276 ^property[=].valueBoolean = true
 * #277 "Ecole de péricultrices"
 * #277 ^property[0].code = #niveau
 * #277 ^property[=].valueInteger =  4
@@ -4519,6 +5153,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #277 ^property[=].valueDateTime = "2005-11-14T00:00:00+01:00"
 * #277 ^property[+].code = #status
 * #277 ^property[=].valueCode = #deprecated
+* #277 ^property[+].code = #cisis
+* #277 ^property[=].valueBoolean = true
 * #278 "Etablissement de formation polyvalent"
 * #278 ^property[0].code = #niveau
 * #278 ^property[=].valueInteger =  4
@@ -4541,6 +5177,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #278 ^property[=].valueDateTime = "2005-11-14T00:00:00+01:00"
 * #278 ^property[+].code = #status
 * #278 ^property[=].valueCode = #deprecated
+* #278 ^property[+].code = #cisis
+* #278 ^property[=].valueBoolean = true
 * #279 "Ecole de service social"
 * #279 ^property[0].code = #niveau
 * #279 ^property[=].valueInteger =  4
@@ -4563,6 +5201,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #279 ^property[=].valueDateTime = "2005-11-14T00:00:00+01:00"
 * #279 ^property[+].code = #status
 * #279 ^property[=].valueCode = #deprecated
+* #279 ^property[+].code = #cisis
+* #279 ^property[=].valueBoolean = true
 * #280 "Ecole d'éducateurs spécialisés"
 * #280 ^property[0].code = #niveau
 * #280 ^property[=].valueInteger =  4
@@ -4585,6 +5225,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #280 ^property[=].valueDateTime = "2005-11-14T00:00:00+01:00"
 * #280 ^property[+].code = #status
 * #280 ^property[=].valueCode = #deprecated
+* #280 ^property[+].code = #cisis
+* #280 ^property[=].valueBoolean = true
 * #281 "Centre de formation d'aides soignants"
 * #281 ^property[0].code = #niveau
 * #281 ^property[=].valueInteger =  4
@@ -4611,6 +5253,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #281 ^property[=].valueDateTime = "2005-11-14T00:00:00+01:00"
 * #281 ^property[+].code = #status
 * #281 ^property[=].valueCode = #deprecated
+* #281 ^property[+].code = #cisis
+* #281 ^property[=].valueBoolean = true
 * #282 "Ecole de pédicures-podologues"
 * #282 ^property[0].code = #niveau
 * #282 ^property[=].valueInteger =  4
@@ -4633,6 +5277,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #282 ^property[=].valueDateTime = "2005-11-14T00:00:00+01:00"
 * #282 ^property[+].code = #status
 * #282 ^property[=].valueCode = #deprecated
+* #282 ^property[+].code = #cisis
+* #282 ^property[=].valueBoolean = true
 * #283 "Ecole de manipulateurs d'électro-radiologie"
 * #283 ^property[0].code = #niveau
 * #283 ^property[=].valueInteger =  4
@@ -4659,6 +5305,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #283 ^property[=].valueDateTime = "2005-11-14T00:00:00+01:00"
 * #283 ^property[+].code = #status
 * #283 ^property[=].valueCode = #deprecated
+* #283 ^property[+].code = #cisis
+* #283 ^property[=].valueBoolean = true
 * #284 "Ecole de travailleuses familiales"
 * #284 ^property[0].code = #niveau
 * #284 ^property[=].valueInteger =  4
@@ -4681,6 +5329,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #284 ^property[=].valueDateTime = "2005-11-14T00:00:00+01:00"
 * #284 ^property[+].code = #status
 * #284 ^property[=].valueCode = #deprecated
+* #284 ^property[+].code = #cisis
+* #284 ^property[=].valueBoolean = true
 * #285 "Centres de Loisirs sans Hébergement"
 * #285 ^property[0].code = #niveau
 * #285 ^property[=].valueInteger =  4
@@ -4707,6 +5357,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #285 ^property[=].valueDateTime = "2016-01-06T00:00:00+01:00"
 * #285 ^property[+].code = #status
 * #285 ^property[=].valueCode = #deprecated
+* #285 ^property[+].code = #cisis
+* #285 ^property[=].valueBoolean = true
 * #286 "Club Equipe de Prévention"
 * #286 ^property[0].code = #niveau
 * #286 ^property[=].valueInteger =  4
@@ -4729,6 +5381,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #286 ^property[=].valueDateTime = "2005-07-06T00:00:00+01:00"
 * #286 ^property[+].code = #status
 * #286 ^property[=].valueCode = #active
+* #286 ^property[+].code = #ror
+* #286 ^property[=].valueBoolean = true
+* #286 ^property[+].code = #cisis
+* #286 ^property[=].valueBoolean = true
 * #289 "Centre de Soins Infirmiers"
 * #289 ^property[0].code = #niveau
 * #289 ^property[=].valueInteger =  4
@@ -4751,6 +5407,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #289 ^property[=].valueDateTime = "2013-12-19T00:00:00+01:00"
 * #289 ^property[+].code = #status
 * #289 ^property[=].valueCode = #deprecated
+* #289 ^property[+].code = #cisis
+* #289 ^property[=].valueBoolean = true
 * #292 "Centre Hospitalier Spécialisé lutte Maladies Mentales"
 * #292 ^property[0].code = #niveau
 * #292 ^property[=].valueInteger =  4
@@ -4773,6 +5431,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #292 ^property[=].valueDateTime = "1994-07-05T00:00:00+01:00"
 * #292 ^property[+].code = #status
 * #292 ^property[=].valueCode = #active
+* #292 ^property[+].code = #ror
+* #292 ^property[=].valueBoolean = true
+* #292 ^property[+].code = #cisis
+* #292 ^property[=].valueBoolean = true
 * #294 "Centre de Consultations Cancer"
 * #294 ^property[0].code = #niveau
 * #294 ^property[=].valueInteger =  4
@@ -4791,6 +5453,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #294 ^property[=].valueDateTime = "1979-01-23T00:00:00+01:00"
 * #294 ^property[+].code = #status
 * #294 ^property[=].valueCode = #active
+* #294 ^property[+].code = #ror
+* #294 ^property[=].valueBoolean = true
+* #294 ^property[+].code = #cisis
+* #294 ^property[=].valueBoolean = true
 * #295 "Service AEMO et AED"
 * #295 ^property[0].code = #niveau
 * #295 ^property[=].valueInteger =  4
@@ -4805,6 +5471,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #295 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
 * #295 ^property[+].code = #status
 * #295 ^property[=].valueCode = #active
+* #295 ^property[+].code = #ror
+* #295 ^property[=].valueBoolean = true
+* #295 ^property[+].code = #cisis
+* #295 ^property[=].valueBoolean = true
 * #297 "Dispensaire Polyvalent"
 * #297 ^property[0].code = #niveau
 * #297 ^property[=].valueInteger =  4
@@ -4827,6 +5497,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #297 ^property[=].valueDateTime = "1992-01-01T00:00:00+01:00"
 * #297 ^property[+].code = #status
 * #297 ^property[=].valueCode = #deprecated
+* #297 ^property[+].code = #cisis
+* #297 ^property[=].valueBoolean = true
 * #300 "Ecoles Formant aux Professions Sanitaires"
 * #300 ^property[0].code = #niveau
 * #300 ^property[=].valueInteger =  4
@@ -4849,6 +5521,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #300 ^property[=].valueDateTime = "2005-05-24T00:00:00+01:00"
 * #300 ^property[+].code = #status
 * #300 ^property[=].valueCode = #active
+* #300 ^property[+].code = #ror
+* #300 ^property[=].valueBoolean = true
+* #300 ^property[+].code = #cisis
+* #300 ^property[=].valueBoolean = true
 * #303 "Ecole de conseillers en économie sociale et familiale"
 * #303 ^property[0].code = #niveau
 * #303 ^property[=].valueInteger =  4
@@ -4871,6 +5547,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #303 ^property[=].valueDateTime = "2005-11-14T00:00:00+01:00"
 * #303 ^property[+].code = #status
 * #303 ^property[=].valueCode = #deprecated
+* #303 ^property[+].code = #cisis
+* #303 ^property[=].valueBoolean = true
 * #304 "Ecole d'ergothérapeutes"
 * #304 ^property[0].code = #niveau
 * #304 ^property[=].valueInteger =  4
@@ -4893,6 +5571,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #304 ^property[=].valueDateTime = "2005-11-14T00:00:00+01:00"
 * #304 ^property[+].code = #status
 * #304 ^property[=].valueCode = #deprecated
+* #304 ^property[+].code = #cisis
+* #304 ^property[=].valueBoolean = true
 * #305 "Ecole de psycho-motriciens"
 * #305 ^property[0].code = #niveau
 * #305 ^property[=].valueInteger =  4
@@ -4919,6 +5599,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #305 ^property[=].valueDateTime = "2005-11-14T00:00:00+01:00"
 * #305 ^property[+].code = #status
 * #305 ^property[=].valueCode = #deprecated
+* #305 ^property[+].code = #cisis
+* #305 ^property[=].valueBoolean = true
 * #306 "Ecole d'infirmiers anesthésistes"
 * #306 ^property[0].code = #niveau
 * #306 ^property[=].valueInteger =  4
@@ -4941,6 +5623,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #306 ^property[=].valueDateTime = "2005-11-14T00:00:00+01:00"
 * #306 ^property[+].code = #status
 * #306 ^property[=].valueCode = #deprecated
+* #306 ^property[+].code = #cisis
+* #306 ^property[=].valueBoolean = true
 * #307 "Ecole d'infirmiers de bloc opératoire"
 * #307 ^property[0].code = #niveau
 * #307 ^property[=].valueInteger =  4
@@ -4963,6 +5647,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #307 ^property[=].valueDateTime = "2005-11-14T00:00:00+01:00"
 * #307 ^property[+].code = #status
 * #307 ^property[=].valueCode = #deprecated
+* #307 ^property[+].code = #cisis
+* #307 ^property[=].valueBoolean = true
 * #308 "Centre de formation professionnelle de secteur psychiatrique"
 * #308 ^property[0].code = #niveau
 * #308 ^property[=].valueInteger =  4
@@ -4985,6 +5671,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #308 ^property[=].valueDateTime = "2005-11-14T00:00:00+01:00"
 * #308 ^property[+].code = #status
 * #308 ^property[=].valueCode = #deprecated
+* #308 ^property[+].code = #cisis
+* #308 ^property[=].valueBoolean = true
 * #309 "Ecole de cadres infirmiers"
 * #309 ^property[0].code = #niveau
 * #309 ^property[=].valueInteger =  4
@@ -5007,6 +5695,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #309 ^property[=].valueDateTime = "2005-11-14T00:00:00+01:00"
 * #309 ^property[+].code = #status
 * #309 ^property[=].valueCode = #deprecated
+* #309 ^property[+].code = #cisis
+* #309 ^property[=].valueBoolean = true
 * #310 "Ecole de cadres de secteur psychiatrique"
 * #310 ^property[0].code = #niveau
 * #310 ^property[=].valueInteger =  4
@@ -5029,6 +5719,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #310 ^property[=].valueDateTime = "2005-11-14T00:00:00+01:00"
 * #310 ^property[+].code = #status
 * #310 ^property[=].valueCode = #deprecated
+* #310 ^property[+].code = #cisis
+* #310 ^property[=].valueBoolean = true
 * #311 "Ecole de cadres de masseurs-kinésithérapeutes"
 * #311 ^property[0].code = #niveau
 * #311 ^property[=].valueInteger =  4
@@ -5051,6 +5743,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #311 ^property[=].valueDateTime = "2005-11-14T00:00:00+01:00"
 * #311 ^property[+].code = #status
 * #311 ^property[=].valueCode = #deprecated
+* #311 ^property[+].code = #cisis
+* #311 ^property[=].valueBoolean = true
 * #312 "Ecole de cadres de manipulateurs d'électro-radiologie"
 * #312 ^property[0].code = #niveau
 * #312 ^property[=].valueInteger =  4
@@ -5077,6 +5771,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #312 ^property[=].valueDateTime = "2005-11-14T00:00:00+01:00"
 * #312 ^property[+].code = #status
 * #312 ^property[=].valueCode = #deprecated
+* #312 ^property[+].code = #cisis
+* #312 ^property[=].valueBoolean = true
 * #313 "Ecole d'éducateurs de jeunes enfants"
 * #313 ^property[0].code = #niveau
 * #313 ^property[=].valueInteger =  4
@@ -5099,6 +5795,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #313 ^property[=].valueDateTime = "2005-11-14T00:00:00+01:00"
 * #313 ^property[+].code = #status
 * #313 ^property[=].valueCode = #deprecated
+* #313 ^property[+].code = #cisis
+* #313 ^property[=].valueBoolean = true
 * #314 "Ecole d'éducateurs techniques spécialisés"
 * #314 ^property[0].code = #niveau
 * #314 ^property[=].valueInteger =  4
@@ -5121,6 +5819,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #314 ^property[=].valueDateTime = "2005-11-14T00:00:00+01:00"
 * #314 ^property[+].code = #status
 * #314 ^property[=].valueCode = #deprecated
+* #314 ^property[+].code = #cisis
+* #314 ^property[=].valueBoolean = true
 * #315 "Ecole de moniteurs-éducateurs"
 * #315 ^property[0].code = #niveau
 * #315 ^property[=].valueInteger =  4
@@ -5143,6 +5843,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #315 ^property[=].valueDateTime = "2005-11-14T00:00:00+01:00"
 * #315 ^property[+].code = #status
 * #315 ^property[=].valueCode = #deprecated
+* #315 ^property[+].code = #cisis
+* #315 ^property[=].valueBoolean = true
 * #316 "Ecole d'aides médico-psychologiques"
 * #316 ^property[0].code = #niveau
 * #316 ^property[=].valueInteger =  4
@@ -5165,6 +5867,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #316 ^property[=].valueDateTime = "2005-11-14T00:00:00+01:00"
 * #316 ^property[+].code = #status
 * #316 ^property[=].valueCode = #deprecated
+* #316 ^property[+].code = #cisis
+* #316 ^property[=].valueBoolean = true
 * #317 "Ecole d'animateurs socio-éducatifs"
 * #317 ^property[0].code = #niveau
 * #317 ^property[=].valueInteger =  4
@@ -5187,6 +5891,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #317 ^property[=].valueDateTime = "2005-11-14T00:00:00+01:00"
 * #317 ^property[+].code = #status
 * #317 ^property[=].valueCode = #deprecated
+* #317 ^property[+].code = #cisis
+* #317 ^property[=].valueBoolean = true
 * #319 "Inst. régional de formation des travailleurs sociaux"
 * #319 ^property[0].code = #niveau
 * #319 ^property[=].valueInteger =  4
@@ -5213,6 +5919,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #319 ^property[=].valueDateTime = "2005-11-14T00:00:00+01:00"
 * #319 ^property[+].code = #status
 * #319 ^property[=].valueCode = #deprecated
+* #319 ^property[+].code = #cisis
+* #319 ^property[=].valueBoolean = true
 * #320 "S.A.M.U. et Centre 15"
 * #320 ^property[0].code = #niveau
 * #320 ^property[=].valueInteger =  4
@@ -5239,6 +5947,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #320 ^property[=].valueDateTime = "1999-09-15T00:00:00+01:00"
 * #320 ^property[+].code = #status
 * #320 ^property[=].valueCode = #deprecated
+* #320 ^property[+].code = #cisis
+* #320 ^property[=].valueBoolean = true
 * #321 "Unité Mobile Hospitalière"
 * #321 ^property[0].code = #niveau
 * #321 ^property[=].valueInteger =  4
@@ -5261,6 +5971,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #321 ^property[=].valueDateTime = "1999-09-15T00:00:00+01:00"
 * #321 ^property[+].code = #status
 * #321 ^property[=].valueCode = #deprecated
+* #321 ^property[+].code = #cisis
+* #321 ^property[=].valueBoolean = true
 * #322 "Centre Rég.Informatiq.Hospit."
 * #322 ^property[0].code = #niveau
 * #322 ^property[=].valueInteger =  4
@@ -5287,6 +5999,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #322 ^property[=].valueDateTime = "1999-09-15T00:00:00+01:00"
 * #322 ^property[+].code = #status
 * #322 ^property[=].valueCode = #deprecated
+* #322 ^property[+].code = #cisis
+* #322 ^property[=].valueBoolean = true
 * #324 "Logement Foyer non Spécialisé"
 * #324 ^property[0].code = #niveau
 * #324 ^property[=].valueInteger =  4
@@ -5309,6 +6023,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #324 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
 * #324 ^property[+].code = #status
 * #324 ^property[=].valueCode = #deprecated
+* #324 ^property[+].code = #ror
+* #324 ^property[=].valueBoolean = true
+* #324 ^property[+].code = #cisis
+* #324 ^property[=].valueBoolean = true
 * #326 "Ecole de cadres"
 * #326 ^property[0].code = #niveau
 * #326 ^property[=].valueInteger =  4
@@ -5327,6 +6045,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #326 ^property[=].valueDateTime = "2005-11-14T00:00:00+01:00"
 * #326 ^property[+].code = #status
 * #326 ^property[=].valueCode = #deprecated
+* #326 ^property[+].code = #cisis
+* #326 ^property[=].valueBoolean = true
 * #327 "Service d'Ambulances"
 * #327 ^property[0].code = #niveau
 * #327 ^property[=].valueInteger =  4
@@ -5349,6 +6069,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #327 ^property[=].valueDateTime = "2019-04-26T12:00:00+01:00"
 * #327 ^property[+].code = #status
 * #327 ^property[=].valueCode = #deprecated
+* #327 ^property[+].code = #cisis
+* #327 ^property[=].valueBoolean = true
 * #328 "Centre Consultation Soins Dentaire"
 * #328 ^property[0].code = #niveau
 * #328 ^property[=].valueInteger =  4
@@ -5375,6 +6097,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #328 ^property[=].valueDateTime = "1994-09-19T00:00:00+01:00"
 * #328 ^property[+].code = #status
 * #328 ^property[=].valueCode = #deprecated
+* #328 ^property[+].code = #cisis
+* #328 ^property[=].valueBoolean = true
 * #329 "Sectorisation Psychiatrique"
 * #329 ^property[0].code = #niveau
 * #329 ^property[=].valueInteger =  4
@@ -5397,6 +6121,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #329 ^property[=].valueDateTime = "1994-09-19T00:00:00+01:00"
 * #329 ^property[+].code = #status
 * #329 ^property[=].valueCode = #deprecated
+* #329 ^property[+].code = #cisis
+* #329 ^property[=].valueBoolean = true
 * #330 "Ecoles Formant aux Professions Sociales"
 * #330 ^property[0].code = #niveau
 * #330 ^property[=].valueInteger =  4
@@ -5419,6 +6145,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #330 ^property[=].valueDateTime = "2005-05-24T00:00:00+01:00"
 * #330 ^property[+].code = #status
 * #330 ^property[=].valueCode = #active
+* #330 ^property[+].code = #ror
+* #330 ^property[=].valueBoolean = true
+* #330 ^property[+].code = #cisis
+* #330 ^property[=].valueBoolean = true
 * #340 "Service mandataire judiciaire à la protection des majeurs"
 * #340 ^property[0].code = #niveau
 * #340 ^property[=].valueInteger =  4
@@ -5437,6 +6167,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #340 ^property[=].valueDateTime = "2010-11-25T00:00:00+01:00"
 * #340 ^property[+].code = #status
 * #340 ^property[=].valueCode = #active
+* #340 ^property[+].code = #ror
+* #340 ^property[=].valueBoolean = true
+* #340 ^property[+].code = #cisis
+* #340 ^property[=].valueBoolean = true
 * #341 "Service dédié mesures d'accompagnement social personnalisé"
 * #341 ^property[0].code = #niveau
 * #341 ^property[=].valueInteger =  4
@@ -5459,6 +6193,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #341 ^property[=].valueDateTime = "2010-11-25T00:00:00+01:00"
 * #341 ^property[+].code = #status
 * #341 ^property[=].valueCode = #active
+* #341 ^property[+].code = #ror
+* #341 ^property[=].valueBoolean = true
+* #341 ^property[+].code = #cisis
+* #341 ^property[=].valueBoolean = true
 * #342 "Service d'information et de soutien aux tuteurs familiaux"
 * #342 ^property[0].code = #niveau
 * #342 ^property[=].valueInteger =  4
@@ -5477,6 +6215,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #342 ^property[=].valueDateTime = "2010-11-25T00:00:00+01:00"
 * #342 ^property[+].code = #status
 * #342 ^property[=].valueCode = #active
+* #342 ^property[+].code = #ror
+* #342 ^property[=].valueBoolean = true
+* #342 ^property[+].code = #cisis
+* #342 ^property[=].valueBoolean = true
 * #343 "Equipe Préparation et Suite Reclassement (EPSR)"
 * #343 ^property[0].code = #niveau
 * #343 ^property[=].valueInteger =  4
@@ -5503,6 +6245,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #343 ^property[=].valueDateTime = "2005-06-09T00:00:00+01:00"
 * #343 ^property[+].code = #status
 * #343 ^property[=].valueCode = #deprecated
+* #343 ^property[+].code = #cisis
+* #343 ^property[=].valueBoolean = true
 * #344 "Service délégué aux prestations familiales"
 * #344 ^property[0].code = #niveau
 * #344 ^property[=].valueInteger =  4
@@ -5521,6 +6265,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #344 ^property[=].valueDateTime = "2010-11-25T00:00:00+01:00"
 * #344 ^property[+].code = #status
 * #344 ^property[=].valueCode = #active
+* #344 ^property[+].code = #ror
+* #344 ^property[=].valueBoolean = true
+* #344 ^property[+].code = #cisis
+* #344 ^property[=].valueBoolean = true
 * #345 "Service Tutelle Prestation Sociale"
 * #345 ^property[0].code = #niveau
 * #345 ^property[=].valueInteger =  4
@@ -5547,6 +6295,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #345 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
 * #345 ^property[+].code = #status
 * #345 ^property[=].valueCode = #deprecated
+* #345 ^property[+].code = #ror
+* #345 ^property[=].valueBoolean = true
+* #345 ^property[+].code = #cisis
+* #345 ^property[=].valueBoolean = true
 * #346 "Service de Travailleuses Familiales"
 * #346 ^property[0].code = #niveau
 * #346 ^property[=].valueInteger =  4
@@ -5569,6 +6321,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #346 ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #346 ^property[+].code = #status
 * #346 ^property[=].valueCode = #deprecated
+* #346 ^property[+].code = #cisis
+* #346 ^property[=].valueBoolean = true
 * #347 "Centre d'Examens de Santé"
 * #347 ^property[0].code = #niveau
 * #347 ^property[=].valueInteger =  4
@@ -5587,6 +6341,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #347 ^property[=].valueDateTime = "1988-05-05T00:00:00+01:00"
 * #347 ^property[+].code = #status
 * #347 ^property[=].valueCode = #active
+* #347 ^property[+].code = #ror
+* #347 ^property[=].valueBoolean = true
+* #347 ^property[+].code = #cisis
+* #347 ^property[=].valueBoolean = true
 * #349 "Ecole de cadres de sages-femmes"
 * #349 ^property[0].code = #niveau
 * #349 ^property[=].valueInteger =  4
@@ -5609,6 +6367,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #349 ^property[=].valueDateTime = "2005-11-14T00:00:00+01:00"
 * #349 ^property[+].code = #status
 * #349 ^property[=].valueCode = #deprecated
+* #349 ^property[+].code = #cisis
+* #349 ^property[=].valueBoolean = true
 * #350 "Centre de formation d'auxiliaires de puériculture"
 * #350 ^property[0].code = #niveau
 * #350 ^property[=].valueInteger =  4
@@ -5631,6 +6391,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #350 ^property[=].valueDateTime = "2005-11-14T00:00:00+01:00"
 * #350 ^property[+].code = #status
 * #350 ^property[=].valueCode = #deprecated
+* #350 ^property[+].code = #cisis
+* #350 ^property[=].valueBoolean = true
 * #352 "Centre de Psychothérapie"
 * #352 ^property[0].code = #niveau
 * #352 ^property[=].valueInteger =  4
@@ -5653,6 +6415,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #352 ^property[=].valueDateTime = "1994-09-19T00:00:00+01:00"
 * #352 ^property[+].code = #status
 * #352 ^property[=].valueCode = #deprecated
+* #352 ^property[+].code = #cisis
+* #352 ^property[=].valueBoolean = true
 * #353 "Hôpital de Jour Spécialités Médicales"
 * #353 ^property[0].code = #niveau
 * #353 ^property[=].valueInteger =  4
@@ -5675,6 +6439,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #353 ^property[=].valueDateTime = "1994-09-19T00:00:00+01:00"
 * #353 ^property[+].code = #status
 * #353 ^property[=].valueCode = #deprecated
+* #353 ^property[+].code = #cisis
+* #353 ^property[=].valueBoolean = true
 * #354 "Service de Soins Infirmiers A Domicile (S.S.I.A.D)"
 * #354 ^property[0].code = #niveau
 * #354 ^property[=].valueInteger =  4
@@ -5697,6 +6463,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #354 ^property[=].valueDateTime = "2005-07-06T00:00:00+01:00"
 * #354 ^property[+].code = #status
 * #354 ^property[=].valueCode = #active
+* #354 ^property[+].code = #ror
+* #354 ^property[=].valueBoolean = true
+* #354 ^property[+].code = #cisis
+* #354 ^property[=].valueBoolean = true
 * #355 "Centre Hospitalier (C.H.)"
 * #355 ^property[0].code = #niveau
 * #355 ^property[=].valueInteger =  4
@@ -5719,6 +6489,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #355 ^property[=].valueDateTime = "1979-01-23T00:00:00+01:00"
 * #355 ^property[+].code = #status
 * #355 ^property[=].valueCode = #active
+* #355 ^property[+].code = #ror
+* #355 ^property[=].valueBoolean = true
+* #355 ^property[+].code = #cisis
+* #355 ^property[=].valueBoolean = true
 * #357 "Association Aide aux Insuffisants Respiratoires"
 * #357 ^property[0].code = #niveau
 * #357 ^property[=].valueInteger =  4
@@ -5745,6 +6519,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #357 ^property[=].valueDateTime = "1999-09-15T00:00:00+01:00"
 * #357 ^property[+].code = #status
 * #357 ^property[=].valueCode = #deprecated
+* #357 ^property[+].code = #cisis
+* #357 ^property[=].valueBoolean = true
 * #359 "Centre Circonscription Sanitaire et Sociale"
 * #359 ^property[0].code = #niveau
 * #359 ^property[=].valueInteger =  4
@@ -5767,6 +6543,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #359 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
 * #359 ^property[+].code = #status
 * #359 ^property[=].valueCode = #deprecated
+* #359 ^property[+].code = #ror
+* #359 ^property[=].valueBoolean = true
+* #359 ^property[+].code = #cisis
+* #359 ^property[=].valueBoolean = true
 * #361 "Centre de Cure Médicale"
 * #361 ^property[0].code = #niveau
 * #361 ^property[=].valueInteger =  4
@@ -5789,6 +6569,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #361 ^property[=].valueDateTime = "1999-09-15T00:00:00+01:00"
 * #361 ^property[+].code = #status
 * #361 ^property[=].valueCode = #deprecated
+* #361 ^property[+].code = #cisis
+* #361 ^property[=].valueBoolean = true
 * #362 "Etablissement de Soins Longue Durée"
 * #362 ^property[0].code = #niveau
 * #362 ^property[=].valueInteger =  4
@@ -5807,6 +6589,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #362 ^property[=].valueDateTime = "1994-07-05T00:00:00+01:00"
 * #362 ^property[+].code = #status
 * #362 ^property[=].valueCode = #active
+* #362 ^property[+].code = #ror
+* #362 ^property[=].valueBoolean = true
+* #362 ^property[+].code = #cisis
+* #362 ^property[=].valueBoolean = true
 * #363 "Centre moyen et long séjour"
 * #363 ^property[0].code = #niveau
 * #363 ^property[=].valueInteger =  4
@@ -5833,6 +6619,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #363 ^property[=].valueDateTime = "1999-09-15T00:00:00+01:00"
 * #363 ^property[+].code = #status
 * #363 ^property[=].valueCode = #deprecated
+* #363 ^property[+].code = #cisis
+* #363 ^property[=].valueBoolean = true
 * #365 "Etablissement de Soins Pluridisciplinaire"
 * #365 ^property[0].code = #niveau
 * #365 ^property[=].valueInteger =  4
@@ -5851,6 +6639,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #365 ^property[=].valueDateTime = "1994-07-05T00:00:00+01:00"
 * #365 ^property[+].code = #status
 * #365 ^property[=].valueCode = #active
+* #365 ^property[+].code = #ror
+* #365 ^property[=].valueBoolean = true
+* #365 ^property[+].code = #cisis
+* #365 ^property[=].valueBoolean = true
 * #366 "Atelier Thérapeutique"
 * #366 ^property[0].code = #niveau
 * #366 ^property[=].valueInteger =  4
@@ -5869,6 +6661,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #366 ^property[=].valueDateTime = "1980-06-12T00:00:00+01:00"
 * #366 ^property[+].code = #status
 * #366 ^property[=].valueCode = #active
+* #366 ^property[+].code = #ror
+* #366 ^property[=].valueBoolean = true
+* #366 ^property[+].code = #cisis
+* #366 ^property[=].valueBoolean = true
 * #367 "Maison d'Enfants non Conventionnée ni Habilitée"
 * #367 ^property[0].code = #niveau
 * #367 ^property[=].valueInteger =  4
@@ -5895,6 +6691,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #367 ^property[=].valueDateTime = "2014-03-31T00:00:00+01:00"
 * #367 ^property[+].code = #status
 * #367 ^property[=].valueCode = #deprecated
+* #367 ^property[+].code = #cisis
+* #367 ^property[=].valueBoolean = true
 * #368 "Service de Repas à Domicile"
 * #368 ^property[0].code = #niveau
 * #368 ^property[=].valueInteger =  4
@@ -5917,6 +6715,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #368 ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #368 ^property[+].code = #status
 * #368 ^property[=].valueCode = #deprecated
+* #368 ^property[+].code = #cisis
+* #368 ^property[=].valueBoolean = true
 * #369 "Centre Adaptation Vie Active (C.A.V.A.)"
 * #369 ^property[0].code = #niveau
 * #369 ^property[=].valueInteger =  4
@@ -5943,6 +6743,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #369 ^property[=].valueDateTime = "2001-07-31T00:00:00+01:00"
 * #369 ^property[+].code = #status
 * #369 ^property[=].valueCode = #deprecated
+* #369 ^property[+].code = #cisis
+* #369 ^property[=].valueBoolean = true
 * #370 "Etablissement Expérimental pour personnes handicapées"
 * #370 ^property[0].code = #niveau
 * #370 ^property[=].valueInteger =  4
@@ -5961,6 +6763,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #370 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #370 ^property[+].code = #status
 * #370 ^property[=].valueCode = #active
+* #370 ^property[+].code = #ror
+* #370 ^property[=].valueBoolean = true
+* #370 ^property[+].code = #cisis
+* #370 ^property[=].valueBoolean = true
 * #371 "Service Action Socio-Educative pour Familles en difficulté"
 * #371 ^property[0].code = #niveau
 * #371 ^property[=].valueInteger =  4
@@ -5987,6 +6793,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #371 ^property[=].valueDateTime = "2001-07-31T00:00:00+01:00"
 * #371 ^property[+].code = #status
 * #371 ^property[=].valueCode = #deprecated
+* #371 ^property[+].code = #cisis
+* #371 ^property[=].valueBoolean = true
 * #373 "Centre de formation supérieure des travailleurs sociaux"
 * #373 ^property[0].code = #niveau
 * #373 ^property[=].valueInteger =  4
@@ -6009,6 +6817,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #373 ^property[=].valueDateTime = "2005-11-14T00:00:00+01:00"
 * #373 ^property[+].code = #status
 * #373 ^property[=].valueCode = #deprecated
+* #373 ^property[+].code = #cisis
+* #373 ^property[=].valueBoolean = true
 * #374 "Ecole Nationale Santé Publique (E.N.S.P.)"
 * #374 ^property[0].code = #niveau
 * #374 ^property[=].valueInteger =  4
@@ -6031,6 +6841,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #374 ^property[=].valueDateTime = "2005-05-24T00:00:00+01:00"
 * #374 ^property[+].code = #status
 * #374 ^property[=].valueCode = #active
+* #374 ^property[+].code = #ror
+* #374 ^property[=].valueBoolean = true
+* #374 ^property[+].code = #cisis
+* #374 ^property[=].valueBoolean = true
 * #375 "Classe d'Adaptation"
 * #375 ^property[0].code = #niveau
 * #375 ^property[=].valueInteger =  4
@@ -6049,6 +6863,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #375 ^property[=].valueDateTime = "1994-09-19T00:00:00+01:00"
 * #375 ^property[+].code = #status
 * #375 ^property[=].valueCode = #deprecated
+* #375 ^property[+].code = #cisis
+* #375 ^property[=].valueBoolean = true
 * #376 "Classe Spéciale Ecole Primaire"
 * #376 ^property[0].code = #niveau
 * #376 ^property[=].valueInteger =  4
@@ -6075,6 +6891,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #376 ^property[=].valueDateTime = "2005-06-09T00:00:00+01:00"
 * #376 ^property[+].code = #status
 * #376 ^property[=].valueCode = #deprecated
+* #376 ^property[+].code = #cisis
+* #376 ^property[=].valueBoolean = true
 * #377 "Etablissement Expérimental pour Enfance Handicapée"
 * #377 ^property[0].code = #niveau
 * #377 ^property[=].valueInteger =  4
@@ -6097,6 +6915,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #377 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #377 ^property[+].code = #status
 * #377 ^property[=].valueCode = #deprecated
+* #377 ^property[+].code = #ror
+* #377 ^property[=].valueBoolean = true
+* #377 ^property[+].code = #cisis
+* #377 ^property[=].valueBoolean = true
 * #378 "Etablissement Expérimental Enfance Protégée"
 * #378 ^property[0].code = #niveau
 * #378 ^property[=].valueInteger =  4
@@ -6115,6 +6937,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #378 ^property[=].valueDateTime = "2005-07-06T00:00:00+01:00"
 * #378 ^property[+].code = #status
 * #378 ^property[=].valueCode = #active
+* #378 ^property[+].code = #ror
+* #378 ^property[=].valueBoolean = true
+* #378 ^property[+].code = #cisis
+* #378 ^property[=].valueBoolean = true
 * #379 "Etablissement Expérimental pour Adultes Handicapés"
 * #379 ^property[0].code = #niveau
 * #379 ^property[=].valueInteger =  4
@@ -6137,6 +6963,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #379 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #379 ^property[+].code = #status
 * #379 ^property[=].valueCode = #deprecated
+* #379 ^property[+].code = #ror
+* #379 ^property[=].valueBoolean = true
+* #379 ^property[+].code = #cisis
+* #379 ^property[=].valueBoolean = true
 * #380 "Etablissement Expérimental Autres Adultes"
 * #380 ^property[0].code = #niveau
 * #380 ^property[=].valueInteger =  4
@@ -6155,6 +6985,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #380 ^property[=].valueDateTime = "2005-07-06T00:00:00+01:00"
 * #380 ^property[+].code = #status
 * #380 ^property[=].valueCode = #active
+* #380 ^property[+].code = #ror
+* #380 ^property[=].valueBoolean = true
+* #380 ^property[+].code = #cisis
+* #380 ^property[=].valueBoolean = true
 * #381 "Etablissement Expérimental pour Personnes Agées"
 * #381 ^property[0].code = #niveau
 * #381 ^property[=].valueInteger =  4
@@ -6177,6 +7011,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #381 ^property[=].valueDateTime = "2005-07-06T00:00:00+01:00"
 * #381 ^property[+].code = #status
 * #381 ^property[=].valueCode = #active
+* #381 ^property[+].code = #ror
+* #381 ^property[=].valueBoolean = true
+* #381 ^property[+].code = #cisis
+* #381 ^property[=].valueBoolean = true
 * #382 "Foyer de Vie pour Adultes Handicapés"
 * #382 ^property[0].code = #niveau
 * #382 ^property[=].valueInteger =  4
@@ -6199,6 +7037,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #382 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #382 ^property[+].code = #status
 * #382 ^property[=].valueCode = #deprecated
+* #382 ^property[+].code = #ror
+* #382 ^property[=].valueBoolean = true
+* #382 ^property[+].code = #cisis
+* #382 ^property[=].valueBoolean = true
 * #386 "Ecole Secondaire Spéciale"
 * #386 ^property[0].code = #niveau
 * #386 ^property[=].valueInteger =  4
@@ -6221,6 +7063,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #386 ^property[=].valueDateTime = "1994-09-19T00:00:00+01:00"
 * #386 ^property[+].code = #status
 * #386 ^property[=].valueCode = #deprecated
+* #386 ^property[+].code = #cisis
+* #386 ^property[=].valueBoolean = true
 * #390 "Etablissement d'Accueil Temporaire d'Enfants Handicapés"
 * #390 ^property[0].code = #niveau
 * #390 ^property[=].valueInteger =  4
@@ -6239,6 +7083,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #390 ^property[=].valueDateTime = "2005-07-06T00:00:00+01:00"
 * #390 ^property[+].code = #status
 * #390 ^property[=].valueCode = #active
+* #390 ^property[+].code = #ror
+* #390 ^property[=].valueBoolean = true
+* #390 ^property[+].code = #cisis
+* #390 ^property[=].valueBoolean = true
 * #393 "Autre résidence But lucratif pr personnes Âgées"
 * #393 ^property[0].code = #niveau
 * #393 ^property[=].valueInteger =  4
@@ -6265,6 +7113,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #393 ^property[=].valueDateTime = "1994-09-19T00:00:00+01:00"
 * #393 ^property[+].code = #status
 * #393 ^property[=].valueCode = #deprecated
+* #393 ^property[+].code = #cisis
+* #393 ^property[=].valueBoolean = true
 * #394 "Etablissement d'Accueil Temporaire pour Personnes Agées"
 * #394 ^property[0].code = #niveau
 * #394 ^property[=].valueInteger =  4
@@ -6291,6 +7141,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #394 ^property[=].valueDateTime = "2015-01-01T00:00:00+01:00"
 * #394 ^property[+].code = #status
 * #394 ^property[=].valueCode = #deprecated
+* #394 ^property[+].code = #cisis
+* #394 ^property[=].valueBoolean = true
 * #395 "Etablissement d'Accueil Temporaire pour Adultes Handicapés"
 * #395 ^property[0].code = #niveau
 * #395 ^property[=].valueInteger =  4
@@ -6309,6 +7161,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #395 ^property[=].valueDateTime = "2005-07-06T00:00:00+01:00"
 * #395 ^property[+].code = #status
 * #395 ^property[=].valueCode = #active
+* #395 ^property[+].code = #ror
+* #395 ^property[=].valueBoolean = true
+* #395 ^property[+].code = #cisis
+* #395 ^property[=].valueBoolean = true
 * #396 "Foyer Hébergement Enfants et Adolescents Handicapés"
 * #396 ^property[0].code = #niveau
 * #396 ^property[=].valueInteger =  4
@@ -6331,6 +7187,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #396 ^property[=].valueDateTime = "2005-07-06T00:00:00+01:00"
 * #396 ^property[+].code = #status
 * #396 ^property[=].valueCode = #active
+* #396 ^property[+].code = #ror
+* #396 ^property[=].valueBoolean = true
+* #396 ^property[+].code = #cisis
+* #396 ^property[=].valueBoolean = true
 * #397 "Service Auxiliaire de Vie pour Handicapés"
 * #397 ^property[0].code = #niveau
 * #397 ^property[=].valueInteger =  4
@@ -6353,6 +7213,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #397 ^property[=].valueDateTime = "2005-07-06T00:00:00+01:00"
 * #397 ^property[+].code = #status
 * #397 ^property[=].valueCode = #deprecated
+* #397 ^property[+].code = #cisis
+* #397 ^property[=].valueBoolean = true
 * #398 "Crèche Parentale"
 * #398 ^property[0].code = #niveau
 * #398 ^property[=].valueInteger =  4
@@ -6371,6 +7233,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #398 ^property[=].valueDateTime = "2014-03-31T00:00:00+01:00"
 * #398 ^property[+].code = #status
 * #398 ^property[=].valueCode = #deprecated
+* #398 ^property[+].code = #cisis
+* #398 ^property[=].valueBoolean = true
 * #399 "Halte Garderie Parentale"
 * #399 ^property[0].code = #niveau
 * #399 ^property[=].valueInteger =  4
@@ -6393,6 +7257,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #399 ^property[=].valueDateTime = "2014-03-31T00:00:00+01:00"
 * #399 ^property[+].code = #status
 * #399 ^property[=].valueCode = #deprecated
+* #399 ^property[+].code = #cisis
+* #399 ^property[=].valueBoolean = true
 * #400 "Centre de Services pour Associations"
 * #400 ^property[0].code = #niveau
 * #400 ^property[=].valueInteger =  4
@@ -6415,6 +7281,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #400 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
 * #400 ^property[+].code = #status
 * #400 ^property[=].valueCode = #deprecated
+* #400 ^property[+].code = #ror
+* #400 ^property[=].valueBoolean = true
+* #400 ^property[+].code = #cisis
+* #400 ^property[=].valueBoolean = true
 * #401 "D.R.A.S.S."
 * #401 ^property[0].code = #niveau
 * #401 ^property[=].valueInteger =  4
@@ -6437,6 +7307,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #401 ^property[=].valueDateTime = "1999-09-15T00:00:00+01:00"
 * #401 ^property[+].code = #status
 * #401 ^property[=].valueCode = #deprecated
+* #401 ^property[+].code = #cisis
+* #401 ^property[=].valueBoolean = true
 * #402 "Jardin d'Enfants Spécialisé"
 * #402 ^property[0].code = #niveau
 * #402 ^property[=].valueInteger =  4
@@ -6455,6 +7327,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #402 ^property[=].valueDateTime = "2005-07-06T00:00:00+01:00"
 * #402 ^property[+].code = #status
 * #402 ^property[=].valueCode = #active
+* #402 ^property[+].code = #ror
+* #402 ^property[=].valueBoolean = true
+* #402 ^property[+].code = #cisis
+* #402 ^property[=].valueBoolean = true
 * #403 "Service Social Spécialisé ou Polyvalent de Catégorie"
 * #403 ^property[0].code = #niveau
 * #403 ^property[=].valueInteger =  4
@@ -6477,6 +7353,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #403 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
 * #403 ^property[+].code = #status
 * #403 ^property[=].valueCode = #deprecated
+* #403 ^property[+].code = #ror
+* #403 ^property[=].valueBoolean = true
+* #403 ^property[+].code = #cisis
+* #403 ^property[=].valueBoolean = true
 * #404 "Etablissement Acc.Collect.Parental Régulier & Occasionnel"
 * #404 ^property[0].code = #niveau
 * #404 ^property[=].valueInteger =  4
@@ -6503,6 +7383,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #404 ^property[=].valueDateTime = "2014-03-31T00:00:00+01:00"
 * #404 ^property[+].code = #status
 * #404 ^property[=].valueCode = #deprecated
+* #404 ^property[+].code = #cisis
+* #404 ^property[=].valueBoolean = true
 * #405 "Service Social Polyvalent de Secteur"
 * #405 ^property[0].code = #niveau
 * #405 ^property[=].valueInteger =  4
@@ -6525,6 +7407,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #405 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
 * #405 ^property[+].code = #status
 * #405 ^property[=].valueCode = #deprecated
+* #405 ^property[+].code = #ror
+* #405 ^property[=].valueBoolean = true
+* #405 ^property[+].code = #cisis
+* #405 ^property[=].valueBoolean = true
 * #411 "Intermédiaire de Placement Social"
 * #411 ^property[0].code = #niveau
 * #411 ^property[=].valueInteger =  4
@@ -6543,6 +7429,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #411 ^property[=].valueDateTime = "2005-07-06T00:00:00+01:00"
 * #411 ^property[+].code = #status
 * #411 ^property[=].valueCode = #active
+* #411 ^property[+].code = #ror
+* #411 ^property[=].valueBoolean = true
+* #411 ^property[+].code = #cisis
+* #411 ^property[=].valueBoolean = true
 * #412 "Appartement Thérapeutique"
 * #412 ^property[0].code = #niveau
 * #412 ^property[=].valueInteger =  4
@@ -6561,6 +7451,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #412 ^property[=].valueDateTime = "1983-12-21T00:00:00+01:00"
 * #412 ^property[+].code = #status
 * #412 ^property[=].valueCode = #active
+* #412 ^property[+].code = #ror
+* #412 ^property[=].valueBoolean = true
+* #412 ^property[+].code = #cisis
+* #412 ^property[=].valueBoolean = true
 * #413 "C.E.C.O.S"
 * #413 ^property[0].code = #niveau
 * #413 ^property[=].valueInteger =  4
@@ -6583,6 +7477,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #413 ^property[=].valueDateTime = "1999-09-15T00:00:00+01:00"
 * #413 ^property[+].code = #status
 * #413 ^property[=].valueCode = #deprecated
+* #413 ^property[+].code = #cisis
+* #413 ^property[=].valueBoolean = true
 * #414 "Centre Anti Poison"
 * #414 ^property[0].code = #niveau
 * #414 ^property[=].valueInteger =  4
@@ -6605,6 +7501,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #414 ^property[=].valueDateTime = "1999-09-15T00:00:00+01:00"
 * #414 ^property[+].code = #status
 * #414 ^property[=].valueCode = #deprecated
+* #414 ^property[+].code = #cisis
+* #414 ^property[=].valueBoolean = true
 * #415 "Service Médico-Psychologique Régional (S.M.P.R.)"
 * #415 ^property[0].code = #niveau
 * #415 ^property[=].valueInteger =  4
@@ -6627,6 +7525,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #415 ^property[=].valueDateTime = "1987-12-30T00:00:00+01:00"
 * #415 ^property[+].code = #status
 * #415 ^property[=].valueCode = #active
+* #415 ^property[+].code = #ror
+* #415 ^property[=].valueBoolean = true
+* #415 ^property[+].code = #cisis
+* #415 ^property[=].valueBoolean = true
 * #418 "Service d'Enquêtes Sociales (S.E.S.)"
 * #418 ^property[0].code = #niveau
 * #418 ^property[=].valueInteger =  4
@@ -6653,6 +7555,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #418 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
 * #418 ^property[+].code = #status
 * #418 ^property[=].valueCode = #deprecated
+* #418 ^property[+].code = #cisis
+* #418 ^property[=].valueBoolean = true
 * #419 "Centre d'Accueil Toxicomanes"
 * #419 ^property[0].code = #niveau
 * #419 ^property[=].valueInteger =  4
@@ -6675,6 +7579,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #419 ^property[=].valueDateTime = "1999-09-15T00:00:00+01:00"
 * #419 ^property[+].code = #status
 * #419 ^property[=].valueCode = #deprecated
+* #419 ^property[+].code = #cisis
+* #419 ^property[=].valueBoolean = true
 * #420 "Entreprise d'Insertion"
 * #420 ^property[0].code = #niveau
 * #420 ^property[=].valueInteger =  4
@@ -6697,6 +7603,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #420 ^property[=].valueDateTime = "2001-07-31T00:00:00+01:00"
 * #420 ^property[+].code = #status
 * #420 ^property[=].valueCode = #deprecated
+* #420 ^property[+].code = #cisis
+* #420 ^property[=].valueBoolean = true
 * #421 "Centre d'enseignement aux secours d'urgence"
 * #421 ^property[0].code = #niveau
 * #421 ^property[=].valueInteger =  4
@@ -6719,6 +7627,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #421 ^property[=].valueDateTime = "2005-11-14T00:00:00+01:00"
 * #421 ^property[+].code = #status
 * #421 ^property[=].valueCode = #deprecated
+* #421 ^property[+].code = #cisis
+* #421 ^property[=].valueBoolean = true
 * #422 "Traitements Spécialisés à Domicile"
 * #422 ^property[0].code = #niveau
 * #422 ^property[=].valueInteger =  4
@@ -6737,6 +7647,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #422 ^property[=].valueDateTime = "1986-02-04T00:00:00+01:00"
 * #422 ^property[+].code = #status
 * #422 ^property[=].valueCode = #active
+* #422 ^property[+].code = #ror
+* #422 ^property[=].valueBoolean = true
+* #422 ^property[+].code = #cisis
+* #422 ^property[=].valueBoolean = true
 * #423 "Ecole des cadres de laborantins d'analyses médicales"
 * #423 ^property[0].code = #niveau
 * #423 ^property[=].valueInteger =  4
@@ -6759,6 +7673,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #423 ^property[=].valueDateTime = "2005-11-14T00:00:00+01:00"
 * #423 ^property[+].code = #status
 * #423 ^property[=].valueCode = #deprecated
+* #423 ^property[+].code = #cisis
+* #423 ^property[=].valueBoolean = true
 * #425 "Centre d'Accueil Thérapeutique à temps partiel (C.A.T.T.P.)"
 * #425 ^property[0].code = #niveau
 * #425 ^property[=].valueInteger =  4
@@ -6781,6 +7697,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #425 ^property[=].valueDateTime = "1987-01-19T00:00:00+01:00"
 * #425 ^property[+].code = #status
 * #425 ^property[=].valueCode = #active
+* #425 ^property[+].code = #ror
+* #425 ^property[=].valueBoolean = true
+* #425 ^property[+].code = #cisis
+* #425 ^property[=].valueBoolean = true
 * #426 "Syndicat Inter Hospitalier (S.I.H.)"
 * #426 ^property[0].code = #niveau
 * #426 ^property[=].valueInteger =  4
@@ -6803,6 +7723,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #426 ^property[=].valueDateTime = "2013-05-17T00:00:00+01:00"
 * #426 ^property[+].code = #status
 * #426 ^property[=].valueCode = #active
+* #426 ^property[+].code = #ror
+* #426 ^property[=].valueBoolean = true
+* #426 ^property[+].code = #cisis
+* #426 ^property[=].valueBoolean = true
 * #427 "Service Educatif Auprès des Tribunaux (S.E.A.T.)"
 * #427 ^property[0].code = #niveau
 * #427 ^property[=].valueInteger =  4
@@ -6829,6 +7753,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #427 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
 * #427 ^property[+].code = #status
 * #427 ^property[=].valueCode = #deprecated
+* #427 ^property[+].code = #cisis
+* #427 ^property[=].valueBoolean = true
 * #430 "Centre Postcure Malades Mentaux"
 * #430 ^property[0].code = #niveau
 * #430 ^property[=].valueInteger =  4
@@ -6851,6 +7777,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #430 ^property[=].valueDateTime = "1991-05-27T00:00:00+01:00"
 * #430 ^property[+].code = #status
 * #430 ^property[=].valueCode = #active
+* #430 ^property[+].code = #ror
+* #430 ^property[=].valueBoolean = true
+* #430 ^property[+].code = #cisis
+* #430 ^property[=].valueBoolean = true
 * #431 "Centre Postcure pour Alcooliques"
 * #431 ^property[0].code = #niveau
 * #431 ^property[=].valueInteger =  4
@@ -6873,6 +7803,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #431 ^property[=].valueDateTime = "2013-06-25T00:00:00+01:00"
 * #431 ^property[+].code = #status
 * #431 ^property[=].valueCode = #deprecated
+* #431 ^property[+].code = #cisis
+* #431 ^property[=].valueBoolean = true
 * #432 "Centre Postcure pour Toxicomanes"
 * #432 ^property[0].code = #niveau
 * #432 ^property[=].valueInteger =  4
@@ -6895,6 +7827,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #432 ^property[=].valueDateTime = "1999-09-15T00:00:00+01:00"
 * #432 ^property[+].code = #status
 * #432 ^property[=].valueCode = #deprecated
+* #432 ^property[+].code = #cisis
+* #432 ^property[=].valueBoolean = true
 * #433 "Etablissement Sanitaire des Prisons"
 * #433 ^property[0].code = #niveau
 * #433 ^property[=].valueInteger =  4
@@ -6913,6 +7847,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #433 ^property[=].valueDateTime = "1991-03-01T00:00:00+01:00"
 * #433 ^property[+].code = #status
 * #433 ^property[=].valueCode = #active
+* #433 ^property[+].code = #ror
+* #433 ^property[=].valueBoolean = true
+* #433 ^property[+].code = #cisis
+* #433 ^property[=].valueBoolean = true
 * #434 "Classe Spéciale en Ecole Maternelle"
 * #434 ^property[0].code = #niveau
 * #434 ^property[=].valueInteger =  4
@@ -6939,6 +7877,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #434 ^property[=].valueDateTime = "2005-06-09T00:00:00+01:00"
 * #434 ^property[+].code = #status
 * #434 ^property[=].valueCode = #deprecated
+* #434 ^property[+].code = #cisis
+* #434 ^property[=].valueBoolean = true
 * #435 "Centre de formation d'aide à domicile"
 * #435 ^property[0].code = #niveau
 * #435 ^property[=].valueInteger =  4
@@ -6961,6 +7901,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #435 ^property[=].valueDateTime = "2005-11-14T00:00:00+01:00"
 * #435 ^property[+].code = #status
 * #435 ^property[=].valueCode = #deprecated
+* #435 ^property[+].code = #cisis
+* #435 ^property[=].valueBoolean = true
 * #436 "Ecoles Formant aux Professions Sanitaires et Sociales"
 * #436 ^property[0].code = #niveau
 * #436 ^property[=].valueInteger =  4
@@ -6979,6 +7921,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #436 ^property[=].valueDateTime = "2005-05-24T00:00:00+01:00"
 * #436 ^property[+].code = #status
 * #436 ^property[=].valueCode = #active
+* #436 ^property[+].code = #ror
+* #436 ^property[=].valueBoolean = true
+* #436 ^property[+].code = #cisis
+* #436 ^property[=].valueBoolean = true
 * #437 "Foyer d'Accueil Médicalisé pour Adultes Handicapés (F.A.M.)"
 * #437 ^property[0].code = #niveau
 * #437 ^property[=].valueInteger =  4
@@ -7005,6 +7951,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #437 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #437 ^property[+].code = #status
 * #437 ^property[=].valueCode = #deprecated
+* #437 ^property[+].code = #ror
+* #437 ^property[=].valueBoolean = true
+* #437 ^property[+].code = #cisis
+* #437 ^property[=].valueBoolean = true
 * #438 "Centre de Médecine collective"
 * #438 ^property[0].code = #niveau
 * #438 ^property[=].valueInteger =  4
@@ -7023,6 +7973,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #438 ^property[=].valueDateTime = "1992-09-29T00:00:00+01:00"
 * #438 ^property[+].code = #status
 * #438 ^property[=].valueCode = #active
+* #438 ^property[+].code = #ror
+* #438 ^property[=].valueBoolean = true
+* #438 ^property[+].code = #cisis
+* #438 ^property[=].valueBoolean = true
 * #439 "Centre Santé Polyvalent"
 * #439 ^property[0].code = #niveau
 * #439 ^property[=].valueInteger =  4
@@ -7049,6 +8003,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #439 ^property[=].valueDateTime = "2013-12-19T00:00:00+01:00"
 * #439 ^property[+].code = #status
 * #439 ^property[=].valueCode = #deprecated
+* #439 ^property[+].code = #ror
+* #439 ^property[=].valueBoolean = true
+* #439 ^property[+].code = #cisis
+* #439 ^property[=].valueBoolean = true
 * #440 "Service d’Investigation Educative"
 * #440 ^property[0].code = #niveau
 * #440 ^property[=].valueInteger =  4
@@ -7063,6 +8021,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #440 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
 * #440 ^property[+].code = #status
 * #440 ^property[=].valueCode = #active
+* #440 ^property[+].code = #ror
+* #440 ^property[=].valueBoolean = true
+* #440 ^property[+].code = #cisis
+* #440 ^property[=].valueBoolean = true
 * #441 "Service d’Intervention Educative en Milieu Ouvert"
 * #441 ^property[0].code = #niveau
 * #441 ^property[=].valueInteger =  4
@@ -7081,6 +8043,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #441 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
 * #441 ^property[+].code = #status
 * #441 ^property[=].valueCode = #active
+* #441 ^property[+].code = #ror
+* #441 ^property[=].valueBoolean = true
+* #441 ^property[+].code = #cisis
+* #441 ^property[=].valueBoolean = true
 * #442 "Centre Provisoire Hébergement (C.P.H.)"
 * #442 ^property[0].code = #niveau
 * #442 ^property[=].valueInteger =  4
@@ -7103,6 +8069,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #442 ^property[=].valueDateTime = "2005-07-06T00:00:00+01:00"
 * #442 ^property[+].code = #status
 * #442 ^property[=].valueCode = #active
+* #442 ^property[+].code = #ror
+* #442 ^property[=].valueBoolean = true
+* #442 ^property[+].code = #cisis
+* #442 ^property[=].valueBoolean = true
 * #443 "Centre Accueil Demandeurs Asile (C.A.D.A.)"
 * #443 ^property[0].code = #niveau
 * #443 ^property[=].valueInteger =  4
@@ -7125,6 +8095,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #443 ^property[=].valueDateTime = "2005-07-06T00:00:00+01:00"
 * #443 ^property[+].code = #status
 * #443 ^property[=].valueCode = #active
+* #443 ^property[+].code = #ror
+* #443 ^property[=].valueBoolean = true
+* #443 ^property[+].code = #cisis
+* #443 ^property[=].valueBoolean = true
 * #444 "Centre Crise Accueil Permanent"
 * #444 ^property[0].code = #niveau
 * #444 ^property[=].valueInteger =  4
@@ -7147,6 +8121,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #444 ^property[=].valueDateTime = "1994-07-05T00:00:00+01:00"
 * #444 ^property[+].code = #status
 * #444 ^property[=].valueCode = #active
+* #444 ^property[+].code = #ror
+* #444 ^property[=].valueBoolean = true
+* #444 ^property[+].code = #cisis
+* #444 ^property[=].valueBoolean = true
 * #445 "Service d'accompagnement médico-social adultes handicapés"
 * #445 ^property[0].code = #niveau
 * #445 ^property[=].valueInteger =  4
@@ -7169,6 +8147,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #445 ^property[=].valueDateTime = "2012-05-04T00:00:00+01:00"
 * #445 ^property[+].code = #status
 * #445 ^property[=].valueCode = #active
+* #445 ^property[+].code = #ror
+* #445 ^property[=].valueBoolean = true
+* #445 ^property[+].code = #cisis
+* #445 ^property[=].valueBoolean = true
 * #446 "Service d'Accompagnement à la Vie Sociale (S.A.V.S.)"
 * #446 ^property[0].code = #niveau
 * #446 ^property[=].valueInteger =  4
@@ -7191,6 +8173,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #446 ^property[=].valueDateTime = "2005-07-06T00:00:00+01:00"
 * #446 ^property[+].code = #status
 * #446 ^property[=].valueCode = #active
+* #446 ^property[+].code = #ror
+* #446 ^property[=].valueBoolean = true
+* #446 ^property[+].code = #cisis
+* #446 ^property[=].valueBoolean = true
 * #447 "Entreprise Intérim Insertion"
 * #447 ^property[0].code = #niveau
 * #447 ^property[=].valueInteger =  4
@@ -7213,6 +8199,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #447 ^property[=].valueDateTime = "2001-07-31T00:00:00+01:00"
 * #447 ^property[+].code = #status
 * #447 ^property[=].valueCode = #deprecated
+* #447 ^property[+].code = #cisis
+* #447 ^property[=].valueBoolean = true
 * #448 "Etab.Acc.Médicalisé en tout ou partie personnes handicapées"
 * #448 ^property[0].code = #niveau
 * #448 ^property[=].valueInteger =  4
@@ -7235,6 +8223,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #448 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #448 ^property[+].code = #status
 * #448 ^property[=].valueCode = #active
+* #448 ^property[+].code = #ror
+* #448 ^property[=].valueBoolean = true
+* #448 ^property[+].code = #cisis
+* #448 ^property[=].valueBoolean = true
 * #449 "Etab.Accueil Non Médicalisé pour personnes handicapées"
 * #449 ^property[0].code = #niveau
 * #449 ^property[=].valueInteger =  4
@@ -7257,6 +8249,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #449 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #449 ^property[+].code = #status
 * #449 ^property[=].valueCode = #active
+* #449 ^property[+].code = #ror
+* #449 ^property[=].valueBoolean = true
+* #449 ^property[+].code = #cisis
+* #449 ^property[=].valueBoolean = true
 * #450 "Service d'Aide aux Personnes Agées"
 * #450 ^property[0].code = #niveau
 * #450 ^property[=].valueInteger =  4
@@ -7283,6 +8279,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #450 ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #450 ^property[+].code = #status
 * #450 ^property[=].valueCode = #deprecated
+* #450 ^property[+].code = #cisis
+* #450 ^property[=].valueBoolean = true
 * #451 "Service d'Aide aux Familles en Difficulté"
 * #451 ^property[0].code = #niveau
 * #451 ^property[=].valueInteger =  4
@@ -7305,6 +8303,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #451 ^property[=].valueDateTime = "2018-06-29T12:00:00+01:00"
 * #451 ^property[+].code = #status
 * #451 ^property[=].valueCode = #deprecated
+* #451 ^property[+].code = #cisis
+* #451 ^property[=].valueBoolean = true
 * #452 "Régie de Quartier"
 * #452 ^property[0].code = #niveau
 * #452 ^property[=].valueInteger =  4
@@ -7323,6 +8323,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #452 ^property[=].valueDateTime = "2001-07-31T00:00:00+01:00"
 * #452 ^property[+].code = #status
 * #452 ^property[=].valueCode = #deprecated
+* #452 ^property[+].code = #cisis
+* #452 ^property[=].valueBoolean = true
 * #453 "Service de Réparation Pénale"
 * #453 ^property[0].code = #niveau
 * #453 ^property[=].valueInteger =  4
@@ -7345,6 +8347,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #453 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
 * #453 ^property[+].code = #status
 * #453 ^property[=].valueCode = #deprecated
+* #453 ^property[+].code = #cisis
+* #453 ^property[=].valueBoolean = true
 * #460 "Service autonomie aide (SAA)"
 * #460 ^property[0].code = #niveau
 * #460 ^property[=].valueInteger =  4
@@ -7367,6 +8371,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #460 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #460 ^property[+].code = #status
 * #460 ^property[=].valueCode = #active
+* #460 ^property[+].code = #ror
+* #460 ^property[=].valueBoolean = true
+* #460 ^property[+].code = #cisis
+* #460 ^property[=].valueBoolean = true
 * #461 "Centres de Ressources S.A.I. (Sans Aucune Indication)"
 * #461 ^property[0].code = #niveau
 * #461 ^property[=].valueInteger =  4
@@ -7389,6 +8397,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #461 ^property[=].valueDateTime = "2005-07-06T00:00:00+01:00"
 * #461 ^property[+].code = #status
 * #461 ^property[=].valueCode = #active
+* #461 ^property[+].code = #ror
+* #461 ^property[=].valueBoolean = true
+* #461 ^property[+].code = #cisis
+* #461 ^property[=].valueBoolean = true
 * #462 "Lieux de Vie et d’Accueil"
 * #462 ^property[0].code = #niveau
 * #462 ^property[=].valueInteger =  4
@@ -7403,6 +8415,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #462 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
 * #462 ^property[+].code = #status
 * #462 ^property[=].valueCode = #active
+* #462 ^property[+].code = #ror
+* #462 ^property[=].valueBoolean = true
+* #462 ^property[+].code = #cisis
+* #462 ^property[=].valueBoolean = true
 * #463 "Centres Locaux Information Coordination P.A.(C.L.I.C.)"
 * #463 ^property[0].code = #niveau
 * #463 ^property[=].valueInteger =  4
@@ -7425,6 +8441,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #463 ^property[=].valueDateTime = "2005-07-06T00:00:00+01:00"
 * #463 ^property[+].code = #status
 * #463 ^property[=].valueCode = #active
+* #463 ^property[+].code = #ror
+* #463 ^property[=].valueBoolean = true
+* #463 ^property[+].code = #cisis
+* #463 ^property[=].valueBoolean = true
 * #464 "Unités Evaluation Réentraînement et d'Orient. Soc. et Pro."
 * #464 ^property[0].code = #niveau
 * #464 ^property[=].valueInteger =  4
@@ -7447,6 +8467,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #464 ^property[=].valueDateTime = "2023-12-15T12:00:00+01:00"
 * #464 ^property[+].code = #status
 * #464 ^property[=].valueCode = #active
+* #464 ^property[+].code = #ror
+* #464 ^property[=].valueBoolean = true
+* #464 ^property[+].code = #cisis
+* #464 ^property[=].valueBoolean = true
 * #500 "Etablissement d'hébergement pour personnes âgées dépendantes"
 * #500 ^property[0].code = #niveau
 * #500 ^property[=].valueInteger =  4
@@ -7465,6 +8489,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #500 ^property[=].valueDateTime = "2015-01-06T00:00:00+01:00"
 * #500 ^property[+].code = #status
 * #500 ^property[=].valueCode = #active
+* #500 ^property[+].code = #ror
+* #500 ^property[=].valueBoolean = true
+* #500 ^property[+].code = #cisis
+* #500 ^property[=].valueBoolean = true
 * #501 "EHPA percevant des crédits d'assurance maladie"
 * #501 ^property[0].code = #niveau
 * #501 ^property[=].valueInteger =  4
@@ -7483,6 +8511,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #501 ^property[=].valueDateTime = "2015-01-06T00:00:00+01:00"
 * #501 ^property[+].code = #status
 * #501 ^property[=].valueCode = #active
+* #501 ^property[+].code = #ror
+* #501 ^property[=].valueBoolean = true
+* #501 ^property[+].code = #cisis
+* #501 ^property[=].valueBoolean = true
 * #502 "EHPA ne percevant pas des crédits d'assurance maladie"
 * #502 ^property[0].code = #niveau
 * #502 ^property[=].valueInteger =  4
@@ -7501,6 +8533,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #502 ^property[=].valueDateTime = "2015-01-06T00:00:00+01:00"
 * #502 ^property[+].code = #status
 * #502 ^property[=].valueCode = #active
+* #502 ^property[+].code = #ror
+* #502 ^property[=].valueBoolean = true
+* #502 ^property[+].code = #cisis
+* #502 ^property[=].valueBoolean = true
 * #601 "Cabinet Libéral Médical"
 * #601 ^property[0].code = #niveau
 * #601 ^property[=].valueInteger =  4
@@ -7523,6 +8559,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #601 ^property[=].valueDateTime = "1999-09-15T00:00:00+01:00"
 * #601 ^property[+].code = #status
 * #601 ^property[=].valueCode = #deprecated
+* #601 ^property[+].code = #cisis
+* #601 ^property[=].valueBoolean = true
 * #602 "Cabinet de Groupe"
 * #602 ^property[0].code = #niveau
 * #602 ^property[=].valueInteger =  4
@@ -7541,6 +8579,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #602 ^property[=].valueDateTime = "1999-09-15T00:00:00+01:00"
 * #602 ^property[+].code = #status
 * #602 ^property[=].valueCode = #deprecated
+* #602 ^property[+].code = #cisis
+* #602 ^property[=].valueBoolean = true
 * #603 "Maison de santé (L.6223-3)"
 * #603 ^property[0].code = #niveau
 * #603 ^property[=].valueInteger =  4
@@ -7563,6 +8603,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #603 ^property[=].valueDateTime = "2012-04-03T00:00:00+01:00"
 * #603 ^property[+].code = #status
 * #603 ^property[=].valueCode = #active
+* #603 ^property[+].code = #ror
+* #603 ^property[=].valueBoolean = true
+* #603 ^property[+].code = #cisis
+* #603 ^property[=].valueBoolean = true
 * #604 "Communauté Professionnelle Territoriale de Santé (CPTS)" "Les Communautés Professionnelles Territoriales de Santé (CPTS) ont été créées par la loi de modernisation de notre système de santé du 26 janvier 2016 (cf. articles Article L1434-12 et Article L1434-13 du code de la Santé Publique). Leur enregistrement est régi par l'instruction DGOS/DIR/DREES/DMSI/2020/12. Les CPTS sont un espace d'organisation et de coordination entre professionnels de santé et non pas des structures de soins : elles regroupent les professionnels de santé d'un même territoire qui souhaitent s'organiser - à leur initiative - autour d'un projet de santé pour répondre aux besoins de santé de la population. Les CPTS sont constituées entre des professionnels de santé, le cas échéant de maisons de santé, de centres de santé, de réseaux de santé, d'établissements de santé, d'établissements et de services médico-sociaux, des groupements de coopération sanitaire, et des groupements de coopération sociale et médicosociale. Grâce à l'accord conventionnel interprofessionnel (ACI) intervenu en 2019, les CPTS dont le projet de santé est validé par l'ARS sont enregistrés dans FINESS et peuvent bénéficier de financement de l'assurance maladie  Ne sont enregistrés dans FINESS que l'Entité Juridique et le siège social. Les établissements et professionnels constitutif d'une CPTS ne sont pas enregistrés dans FINESS."
 * #604 ^property[0].code = #niveau
 * #604 ^property[=].valueInteger =  4
@@ -7581,6 +8625,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #604 ^property[=].valueDateTime = "2020-05-29T12:00:00+01:00"
 * #604 ^property[+].code = #status
 * #604 ^property[=].valueCode = #active
+* #604 ^property[+].code = #ror
+* #604 ^property[=].valueBoolean = true
+* #604 ^property[+].code = #cisis
+* #604 ^property[=].valueBoolean = true
 * #605 "Cabinet d'Auxiliaires Médicaux"
 * #605 ^property[0].code = #niveau
 * #605 ^property[=].valueInteger =  4
@@ -7603,6 +8651,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #605 ^property[=].valueDateTime = "1999-09-15T00:00:00+01:00"
 * #605 ^property[+].code = #status
 * #605 ^property[=].valueCode = #deprecated
+* #605 ^property[+].code = #cisis
+* #605 ^property[=].valueBoolean = true
 * #606 "Dispositif d'appui à la coordination (DAC)"
 * #606 ^property[0].code = #niveau
 * #606 ^property[=].valueInteger =  4
@@ -7621,6 +8671,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #606 ^property[=].valueDateTime = "2022-01-28T12:00:00+01:00"
 * #606 ^property[+].code = #status
 * #606 ^property[=].valueCode = #active
+* #606 ^property[+].code = #ror
+* #606 ^property[=].valueBoolean = true
+* #606 ^property[+].code = #cisis
+* #606 ^property[=].valueBoolean = true
 * #607 "Groupement Régional d'Appui au Développement de la e-Santé (GRADeS)"
 * #607 ^property[0].code = #niveau
 * #607 ^property[=].valueInteger =  4
@@ -7639,6 +8693,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #607 ^property[=].valueDateTime = "2022-02-25T12:00:00+01:00"
 * #607 ^property[+].code = #status
 * #607 ^property[=].valueCode = #active
+* #607 ^property[+].code = #cisis
+* #607 ^property[=].valueBoolean = true
 * #608 "Equipe mobile médico-sociale précarité (EMMSP)"
 * #608 ^property[0].code = #niveau
 * #608 ^property[=].valueInteger =  4
@@ -7657,6 +8713,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #608 ^property[=].valueDateTime = "2022-03-25T12:00:00+01:00"
 * #608 ^property[+].code = #status
 * #608 ^property[=].valueCode = #active
+* #608 ^property[+].code = #ror
+* #608 ^property[=].valueBoolean = true
+* #608 ^property[+].code = #cisis
+* #608 ^property[=].valueBoolean = true
 * #609 "Maison Départementale pour Personnes Handicapées (MDPH)"
 * #609 ^property[0].code = #niveau
 * #609 ^property[=].valueInteger =  4
@@ -7675,6 +8735,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #609 ^property[=].valueDateTime = "2022-10-28T12:00:00+01:00"
 * #609 ^property[+].code = #status
 * #609 ^property[=].valueCode = #active
+* #609 ^property[+].code = #ror
+* #609 ^property[=].valueBoolean = true
+* #609 ^property[+].code = #cisis
+* #609 ^property[=].valueBoolean = true
 * #610 "Laboratoire d'Analyses"
 * #610 ^property[0].code = #niveau
 * #610 ^property[=].valueInteger =  4
@@ -7693,6 +8757,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #610 ^property[=].valueDateTime = "1983-08-11T00:00:00+01:00"
 * #610 ^property[+].code = #status
 * #610 ^property[=].valueCode = #active
+* #610 ^property[+].code = #ror
+* #610 ^property[=].valueBoolean = true
+* #610 ^property[+].code = #cisis
+* #610 ^property[=].valueBoolean = true
 * #611 "Laboratoire de Biologie Médicale"
 * #611 ^property[0].code = #niveau
 * #611 ^property[=].valueInteger =  4
@@ -7715,6 +8783,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #611 ^property[=].valueDateTime = "2010-08-18T00:00:00+01:00"
 * #611 ^property[+].code = #status
 * #611 ^property[=].valueCode = #active
+* #611 ^property[+].code = #ror
+* #611 ^property[=].valueBoolean = true
+* #611 ^property[+].code = #cisis
+* #611 ^property[=].valueBoolean = true
 * #612 "Autre Laboratoire de Biologie Médicale sans FSE"
 * #612 ^property[0].code = #niveau
 * #612 ^property[=].valueInteger =  4
@@ -7733,6 +8805,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #612 ^property[=].valueDateTime = "2016-01-13T00:00:00+01:00"
 * #612 ^property[+].code = #status
 * #612 ^property[=].valueCode = #active
+* #612 ^property[+].code = #ror
+* #612 ^property[=].valueBoolean = true
+* #612 ^property[+].code = #cisis
+* #612 ^property[=].valueBoolean = true
 * #614 "Dispositif Spécifique Régional du Cancer (DSRC)"
 * #614 ^property[0].code = #niveau
 * #614 ^property[=].valueInteger =  4
@@ -7751,6 +8827,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #614 ^property[=].valueDateTime = "2023-01-27T12:00:00+01:00"
 * #614 ^property[+].code = #status
 * #614 ^property[=].valueCode = #active
+* #614 ^property[+].code = #ror
+* #614 ^property[=].valueBoolean = true
+* #614 ^property[+].code = #cisis
+* #614 ^property[=].valueBoolean = true
 * #616 "Services de Prévention et de Santé au Travail (SPST)"
 * #616 ^property[0].code = #niveau
 * #616 ^property[=].valueInteger =  4
@@ -7769,6 +8849,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #616 ^property[=].valueDateTime = "2023-05-26T12:00:00+01:00"
 * #616 ^property[+].code = #status
 * #616 ^property[=].valueCode = #active
+* #616 ^property[+].code = #ror
+* #616 ^property[=].valueBoolean = true
+* #616 ^property[+].code = #cisis
+* #616 ^property[=].valueBoolean = true
 * #617 "Maison médicale de garde (MMG)"
 * #617 ^property[0].code = #niveau
 * #617 ^property[=].valueInteger =  4
@@ -7787,6 +8871,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #617 ^property[=].valueDateTime = "2023-06-30T12:00:00+01:00"
 * #617 ^property[+].code = #status
 * #617 ^property[=].valueCode = #active
+* #617 ^property[+].code = #ror
+* #617 ^property[=].valueBoolean = true
+* #617 ^property[+].code = #cisis
+* #617 ^property[=].valueBoolean = true
 * #618 "Autre structure de soins non programmés (SNP)"
 * #618 ^property[0].code = #niveau
 * #618 ^property[=].valueInteger =  4
@@ -7807,6 +8895,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #618 ^property[=].valueCode = #active
 * #618 ^property[+].code = #specialisationRor
 * #618 ^property[=].valueBoolean = true
+* #618 ^property[+].code = #ror
+* #618 ^property[=].valueBoolean = true
+* #618 ^property[+].code = #cisis
+* #618 ^property[=].valueBoolean = true
 * #620 "Pharmacie d'Officine"
 * #620 ^property[0].code = #niveau
 * #620 ^property[=].valueInteger =  4
@@ -7821,6 +8913,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #620 ^property[=].valueDateTime = "1981-06-03T00:00:00+01:00"
 * #620 ^property[+].code = #status
 * #620 ^property[=].valueCode = #active
+* #620 ^property[+].code = #ror
+* #620 ^property[=].valueBoolean = true
+* #620 ^property[+].code = #cisis
+* #620 ^property[=].valueBoolean = true
 * #621 "Lunetterie Médicale"
 * #621 ^property[0].code = #niveau
 * #621 ^property[=].valueInteger =  4
@@ -7839,6 +8935,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #621 ^property[=].valueDateTime = "1999-09-15T00:00:00+01:00"
 * #621 ^property[+].code = #status
 * #621 ^property[=].valueCode = #deprecated
+* #621 ^property[+].code = #cisis
+* #621 ^property[=].valueBoolean = true
 * #622 "Centre d'Appareillage & Prothèse"
 * #622 ^property[0].code = #niveau
 * #622 ^property[=].valueInteger =  4
@@ -7865,6 +8963,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #622 ^property[=].valueDateTime = "1999-09-15T00:00:00+01:00"
 * #622 ^property[+].code = #status
 * #622 ^property[=].valueCode = #deprecated
+* #622 ^property[+].code = #cisis
+* #622 ^property[=].valueBoolean = true
 * #623 "Herboristerie"
 * #623 ^property[0].code = #niveau
 * #623 ^property[=].valueInteger =  4
@@ -7883,6 +8983,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #623 ^property[=].valueDateTime = "1999-09-15T00:00:00+01:00"
 * #623 ^property[+].code = #status
 * #623 ^property[=].valueCode = #deprecated
+* #623 ^property[+].code = #cisis
+* #623 ^property[=].valueBoolean = true
 * #624 "Laboratoire pharmaceutique préparant délivrant allergènes"
 * #624 ^property[0].code = #niveau
 * #624 ^property[=].valueInteger =  4
@@ -7905,6 +9007,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #624 ^property[=].valueDateTime = "2014-01-17T00:00:00+01:00"
 * #624 ^property[+].code = #status
 * #624 ^property[=].valueCode = #active
+* #624 ^property[+].code = #ror
+* #624 ^property[=].valueBoolean = true
+* #624 ^property[+].code = #cisis
+* #624 ^property[=].valueBoolean = true
 * #627 "Propharmacie"
 * #627 ^property[0].code = #niveau
 * #627 ^property[=].valueInteger =  4
@@ -7919,6 +9025,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #627 ^property[=].valueDateTime = "1996-09-23T00:00:00+01:00"
 * #627 ^property[+].code = #status
 * #627 ^property[=].valueCode = #active
+* #627 ^property[+].code = #ror
+* #627 ^property[=].valueBoolean = true
+* #627 ^property[+].code = #cisis
+* #627 ^property[=].valueBoolean = true
 * #628 "Pharmacie Minière"
 * #628 ^property[0].code = #niveau
 * #628 ^property[=].valueInteger =  4
@@ -7933,6 +9043,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #628 ^property[=].valueDateTime = "1996-09-23T00:00:00+01:00"
 * #628 ^property[+].code = #status
 * #628 ^property[=].valueCode = #active
+* #628 ^property[+].code = #ror
+* #628 ^property[=].valueBoolean = true
+* #628 ^property[+].code = #cisis
+* #628 ^property[=].valueBoolean = true
 * #629 "Pharmacie Mutualiste"
 * #629 ^property[0].code = #niveau
 * #629 ^property[=].valueInteger =  4
@@ -7947,6 +9061,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #629 ^property[=].valueDateTime = "1996-09-23T00:00:00+01:00"
 * #629 ^property[+].code = #status
 * #629 ^property[=].valueCode = #active
+* #629 ^property[+].code = #ror
+* #629 ^property[=].valueBoolean = true
+* #629 ^property[+].code = #cisis
+* #629 ^property[=].valueBoolean = true
 * #630 "Installation autonome de chirurgie esthétique"
 * #630 ^property[0].code = #niveau
 * #630 ^property[=].valueInteger =  4
@@ -7965,6 +9083,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #630 ^property[=].valueDateTime = "2015-06-05T00:00:00+01:00"
 * #630 ^property[+].code = #status
 * #630 ^property[=].valueCode = #active
+* #630 ^property[+].code = #ror
+* #630 ^property[=].valueBoolean = true
+* #630 ^property[+].code = #cisis
+* #630 ^property[=].valueBoolean = true
 * #631 "Maisons de naissance"
 * #631 ^property[0].code = #niveau
 * #631 ^property[=].valueInteger =  4
@@ -7979,6 +9101,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #631 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #631 ^property[+].code = #status
 * #631 ^property[=].valueCode = #active
+* #631 ^property[+].code = #ror
+* #631 ^property[=].valueBoolean = true
+* #631 ^property[+].code = #cisis
+* #631 ^property[=].valueBoolean = true
 * #632 "Structure Dispensatrice à domicile d'Oxygène à usage médical"
 * #632 ^property[0].code = #niveau
 * #632 ^property[=].valueInteger =  4
@@ -7997,6 +9123,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #632 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #632 ^property[+].code = #status
 * #632 ^property[=].valueCode = #active
+* #632 ^property[+].code = #ror
+* #632 ^property[=].valueBoolean = true
+* #632 ^property[+].code = #cisis
+* #632 ^property[=].valueBoolean = true
 * #633 "Structure Expérimentale en Santé"
 * #633 ^property[0].code = #niveau
 * #633 ^property[=].valueInteger =  4
@@ -8015,6 +9145,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #633 ^property[=].valueDateTime = "2020-08-28T12:00:00+01:00"
 * #633 ^property[+].code = #status
 * #633 ^property[=].valueCode = #active
+* #633 ^property[+].code = #ror
+* #633 ^property[=].valueBoolean = true
+* #633 ^property[+].code = #cisis
+* #633 ^property[=].valueBoolean = true
 * #636 "Centre de soins et de prévention"
 * #636 ^property[0].code = #niveau
 * #636 ^property[=].valueInteger =  4
@@ -8033,6 +9167,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #636 ^property[=].valueDateTime = "2018-12-14T12:00:00+01:00"
 * #636 ^property[+].code = #status
 * #636 ^property[=].valueCode = #active
+* #636 ^property[+].code = #ror
+* #636 ^property[=].valueBoolean = true
+* #636 ^property[+].code = #cisis
+* #636 ^property[=].valueBoolean = true
 * #637 "Centre de Lutte Antituberculeuse (CLAT)"
 * #637 ^property[0].code = #niveau
 * #637 ^property[=].valueInteger =  4
@@ -8055,6 +9193,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #637 ^property[=].valueDateTime = "2023-09-22T12:00:00+01:00"
 * #637 ^property[+].code = #status
 * #637 ^property[=].valueCode = #active
+* #637 ^property[+].code = #ror
+* #637 ^property[=].valueBoolean = true
+* #637 ^property[+].code = #cisis
+* #637 ^property[=].valueBoolean = true
 * #638 "Centre gratuit d'information de dépistage et de diagnostic (CeGIDD)"
 * #638 ^property[0].code = #niveau
 * #638 ^property[=].valueInteger =  4
@@ -8077,6 +9219,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #638 ^property[=].valueDateTime = "2023-09-22T12:00:00+01:00"
 * #638 ^property[+].code = #status
 * #638 ^property[=].valueCode = #active
+* #638 ^property[+].code = #ror
+* #638 ^property[=].valueBoolean = true
+* #638 ^property[+].code = #cisis
+* #638 ^property[=].valueBoolean = true
 * #639 "Sociétés de téléconsultation (STLC)"
 * #639 ^property[0].code = #niveau
 * #639 ^property[=].valueInteger =  4
@@ -8099,6 +9245,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #639 ^property[=].valueDateTime = "2023-09-22T12:00:00+01:00"
 * #639 ^property[+].code = #status
 * #639 ^property[=].valueCode = #active
+* #639 ^property[+].code = #ror
+* #639 ^property[=].valueBoolean = true
+* #639 ^property[+].code = #cisis
+* #639 ^property[=].valueBoolean = true
 * #640 "Service d'aide et d'accompagnement à domicile aux familles (SAADF)"
 * #640 ^property[0].code = #niveau
 * #640 ^property[=].valueInteger =  4
@@ -8121,6 +9271,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #640 ^property[=].valueDateTime = "2023-10-30T12:00:00+01:00"
 * #640 ^property[+].code = #status
 * #640 ^property[=].valueCode = #active
+* #640 ^property[+].code = #ror
+* #640 ^property[=].valueBoolean = true
+* #640 ^property[+].code = #cisis
+* #640 ^property[=].valueBoolean = true
 * #641 "Antenne de Pharmacie d'officine"
 * #641 ^property[0].code = #niveau
 * #641 ^property[=].valueInteger =  4
@@ -8139,6 +9293,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #641 ^property[=].valueDateTime = "2024-02-23T12:00:00+01:00"
 * #641 ^property[+].code = #status
 * #641 ^property[=].valueCode = #active
+* #641 ^property[+].code = #ror
+* #641 ^property[=].valueBoolean = true
+* #641 ^property[+].code = #cisis
+* #641 ^property[=].valueBoolean = true
 * #642 "Services départementaux d'incendie et de secours"
 * #642 ^property[0].code = #niveau
 * #642 ^property[=].valueInteger =  4
@@ -8157,6 +9315,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #642 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
 * #642 ^property[+].code = #status
 * #642 ^property[=].valueCode = #active
+* #642 ^property[+].code = #ror
+* #642 ^property[=].valueBoolean = true
+* #642 ^property[+].code = #cisis
+* #642 ^property[=].valueBoolean = true
 * #643 "Serv. d'éval de la minorité de l'isolement pour les pers. se déclarant mineures"
 * #643 ^property[0].code = #niveau
 * #643 ^property[=].valueInteger =  4
@@ -8179,6 +9341,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #643 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
 * #643 ^property[+].code = #status
 * #643 ^property[=].valueCode = #active
+* #643 ^property[+].code = #ror
+* #643 ^property[=].valueBoolean = true
+* #643 ^property[+].code = #cisis
+* #643 ^property[=].valueBoolean = true
 * #644 "Etab. de mise à l'abri pour les pers. se déclarant mineures non accompagnées"
 * #644 ^property[0].code = #niveau
 * #644 ^property[=].valueInteger =  4
@@ -8201,6 +9367,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #644 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
 * #644 ^property[+].code = #status
 * #644 ^property[=].valueCode = #active
+* #644 ^property[+].code = #ror
+* #644 ^property[=].valueBoolean = true
+* #644 ^property[+].code = #cisis
+* #644 ^property[=].valueBoolean = true
 * #645 "Centre de Vaccination"
 * #645 ^property[0].code = #niveau
 * #645 ^property[=].valueInteger =  4
@@ -8219,6 +9389,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #645 ^property[=].valueDateTime = "2024-09-27T12:00:00+01:00"
 * #645 ^property[+].code = #status
 * #645 ^property[=].valueCode = #active
+* #645 ^property[+].code = #ror
+* #645 ^property[=].valueBoolean = true
+* #645 ^property[+].code = #cisis
+* #645 ^property[=].valueBoolean = true
 * #646 "Centre de Vaccination Internationale"
 * #646 ^property[0].code = #niveau
 * #646 ^property[=].valueInteger =  4
@@ -8237,6 +9411,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #646 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
 * #646 ^property[+].code = #status
 * #646 ^property[=].valueCode = #active
+* #646 ^property[+].code = #ror
+* #646 ^property[=].valueBoolean = true
+* #646 ^property[+].code = #cisis
+* #646 ^property[=].valueBoolean = true
 * #647 "Equipe de Soins Spécialisés"
 * #647 ^property[0].code = #niveau
 * #647 ^property[=].valueInteger =  4
@@ -8255,6 +9433,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #647 ^property[=].valueDateTime = "2025-02-28T12:00:00+01:00"
 * #647 ^property[+].code = #status
 * #647 ^property[=].valueCode = #active
+* #647 ^property[+].code = #ror
+* #647 ^property[=].valueBoolean = true
+* #647 ^property[+].code = #cisis
+* #647 ^property[=].valueBoolean = true
 * #648 "Structure qui contribue au Service d'Accès aux Soins"
 * #648 ^property[0].code = #niveau
 * #648 ^property[=].valueInteger =  4
@@ -8273,6 +9455,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #648 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
 * #648 ^property[+].code = #status
 * #648 ^property[=].valueCode = #active
+* #648 ^property[+].code = #ror
+* #648 ^property[=].valueBoolean = true
+* #648 ^property[+].code = #cisis
+* #648 ^property[=].valueBoolean = true
 * #690 "Etablissement de Fabrication Annexe à une Officine"
 * #690 ^property[0].code = #niveau
 * #690 ^property[=].valueInteger =  4
@@ -8295,6 +9481,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #690 ^property[=].valueDateTime = "2024-02-23T12:00:00+01:00"
 * #690 ^property[+].code = #status
 * #690 ^property[=].valueCode = #deprecated
+* #690 ^property[+].code = #cisis
+* #690 ^property[=].valueBoolean = true
 * #695 "Groupement de coopération sanitaire de moyens - Exploitant"
 * #695 ^property[0].code = #niveau
 * #695 ^property[=].valueInteger =  4
@@ -8313,6 +9501,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #695 ^property[=].valueDateTime = "2019-05-29T12:00:00+01:00"
 * #695 ^property[+].code = #status
 * #695 ^property[=].valueCode = #active
+* #695 ^property[+].code = #ror
+* #695 ^property[=].valueBoolean = true
+* #695 ^property[+].code = #cisis
+* #695 ^property[=].valueBoolean = true
 * #696 "Groupement de coopération sanitaire de moyens"
 * #696 ^property[0].code = #niveau
 * #696 ^property[=].valueInteger =  4
@@ -8331,6 +9523,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #696 ^property[=].valueDateTime = "2011-05-04T00:00:00+01:00"
 * #696 ^property[+].code = #status
 * #696 ^property[=].valueCode = #active
+* #696 ^property[+].code = #ror
+* #696 ^property[=].valueBoolean = true
+* #696 ^property[+].code = #cisis
+* #696 ^property[=].valueBoolean = true
 * #697 "Groupement de coopération sanitaire - Etablissement de santé"
 * #697 ^property[0].code = #niveau
 * #697 ^property[=].valueInteger =  4
@@ -8353,6 +9549,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #697 ^property[=].valueDateTime = "2011-05-04T00:00:00+01:00"
 * #697 ^property[+].code = #status
 * #697 ^property[=].valueCode = #active
+* #697 ^property[+].code = #ror
+* #697 ^property[=].valueBoolean = true
+* #697 ^property[+].code = #cisis
+* #697 ^property[=].valueBoolean = true
 * #698 "Autre Etablissement Loi Hospitalière"
 * #698 ^property[0].code = #niveau
 * #698 ^property[=].valueInteger =  4
@@ -8374,6 +9574,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #698 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #698 ^property[+].code = #status
 * #698 ^property[=].valueCode = #active
+* #698 ^property[+].code = #ror
+* #698 ^property[=].valueBoolean = true
+* #698 ^property[+].code = #cisis
+* #698 ^property[=].valueBoolean = true
 * #699 "Entité Ayant Autorisation"
 * #699 ^property[0].code = #niveau
 * #699 ^property[=].valueInteger =  4
@@ -8392,6 +9596,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #699 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #699 ^property[+].code = #status
 * #699 ^property[=].valueCode = #active
+* #699 ^property[+].code = #ror
+* #699 ^property[=].valueBoolean = true
+* #699 ^property[+].code = #cisis
+* #699 ^property[=].valueBoolean = true
 * #700 "Maison sport-santé" "Catégorie créée à la demande du ROR. A date aucun enregistrement n'est prévu dans FINESS pour cette catégorie"
 * #700 ^property[0].code = #niveau
 * #700 ^property[=].valueInteger =  4
@@ -8402,6 +9610,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #700 ^property[+].code = #status
 * #700 ^property[=].valueCode = #active
 * #700 ^property[+].code = #specialisationRor
+* #700 ^property[=].valueBoolean = true
+* #700 ^property[+].code = #ror
+* #700 ^property[=].valueBoolean = true
+* #700 ^property[+].code = #cisis
 * #700 ^property[=].valueBoolean = true
 * #701 "Maison des adolescents (MDA)" "Catégorie créée à la demande du ROR. A date aucun enregistrement n'est prévu dans FINESS pour cette catégorie"
 * #701 ^property[0].code = #niveau
@@ -8418,6 +9630,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #701 ^property[=].valueCode = #active
 * #701 ^property[+].code = #specialisationRor
 * #701 ^property[=].valueBoolean = true
+* #701 ^property[+].code = #ror
+* #701 ^property[=].valueBoolean = true
+* #701 ^property[+].code = #cisis
+* #701 ^property[=].valueBoolean = true
 * #702 "Point Accueil Ecoute Jeunes (PAEJ)" "Catégorie créée à la demande du ROR. A date aucun enregistrement n'est prévu dans FINESS pour cette catégorie"
 * #702 ^property[0].code = #niveau
 * #702 ^property[=].valueInteger =  4
@@ -8433,6 +9649,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #702 ^property[=].valueCode = #active
 * #702 ^property[+].code = #specialisationRor
 * #702 ^property[=].valueBoolean = true
+* #702 ^property[+].code = #ror
+* #702 ^property[=].valueBoolean = true
+* #702 ^property[+].code = #cisis
+* #702 ^property[=].valueBoolean = true
 * #703 "Espace Santé Jeunes (ESJ)"
 * #703 ^property[0].code = #niveau
 * #703 ^property[=].valueInteger =  4
@@ -8447,6 +9667,10 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #703 ^property[=].valueCode = #active
 * #703 ^property[+].code = #specialisationRor
 * #703 ^property[=].valueBoolean = true
+* #703 ^property[+].code = #ror
+* #703 ^property[=].valueBoolean = true
+* #703 ^property[+].code = #cisis
+* #703 ^property[=].valueBoolean = true
 * #704 "Autre service territorial" "Points locaux d'information dédiés aux personnes âgées. Ces services peuvent être rattachés à des CCAS ( Centre Communaux d'Action Sociale)"
 * #704 ^property[0].code = #niveau
 * #704 ^property[=].valueInteger =  4
@@ -8457,4 +9681,8 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #704 ^property[+].code = #status
 * #704 ^property[=].valueCode = #active
 * #704 ^property[+].code = #specialisationRor
+* #704 ^property[=].valueBoolean = true
+* #704 ^property[+].code = #ror
+* #704 ^property[=].valueBoolean = true
+* #704 ^property[+].code = #cisis
 * #704 ^property[=].valueBoolean = true

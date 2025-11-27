@@ -32,6 +32,10 @@ Description: "Mode de fonctinonemment des activités ssmsse régulées"
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin"
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
+* ^property[+].code = #cisis
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#cisis"
+* ^property[=].description = "Permet de définir les codes concepts uilisés dans le J03 du CISIS"
+* ^property[=].type = #boolean
 * ^property[+].code = #deprecationDate
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
 * ^property[=].description = "Date Concept was deprecated"
@@ -62,6 +66,8 @@ Description: "Mode de fonctinonemment des activités ssmsse régulées"
 * #03 ^property[=].valueDateTime = "2022-09-29T00:00:00+01:00"
 * #03 ^property[+].code = #status
 * #03 ^property[=].valueCode = #active
+* #03 ^property[+].code = #cisis
+* #03 ^property[=].valueBoolean = true
 * #04 "Hospitalisation de Jour"
 * #04 ^designation[0].language = #fr-FR
 * #04 ^designation[=].use.system = "http://snomed.info/sct"
@@ -73,6 +79,8 @@ Description: "Mode de fonctinonemment des activités ssmsse régulées"
 * #04 ^property[=].valueDateTime = "1986-07-29T00:00:00+01:00"
 * #04 ^property[+].code = #status
 * #04 ^property[=].valueCode = #active
+* #04 ^property[+].code = #cisis
+* #04 ^property[=].valueBoolean = true
 * #05 "Hospitalisation de Nuit"
 * #05 ^designation[0].language = #fr-FR
 * #05 ^designation[=].use.system = "http://snomed.info/sct"
@@ -122,6 +130,8 @@ Description: "Mode de fonctinonemment des activités ssmsse régulées"
 * #07 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #07 ^property[+].code = #status
 * #07 ^property[=].valueCode = #active
+* #07 ^property[+].code = #cisis
+* #07 ^property[=].valueBoolean = true
 * #08 "Bloc opératoire (y compris obstétrical et gynécologique)"
 * #08 ^designation[0].language = #fr-FR
 * #08 ^designation[=].use.system = "http://snomed.info/sct"
@@ -133,6 +143,8 @@ Description: "Mode de fonctinonemment des activités ssmsse régulées"
 * #08 ^property[=].valueDateTime = "2022-09-29T00:00:00+01:00"
 * #08 ^property[+].code = #status
 * #08 ^property[=].valueCode = #active
+* #08 ^property[+].code = #cisis
+* #08 ^property[=].valueBoolean = true
 * #09 "Autre unité médico-tech (anesthé, explor fonct, rééduc et réadapt fonct, pharma)"
 * #09 ^designation[0].language = #fr-FR
 * #09 ^designation[=].use.system = "http://snomed.info/sct"
@@ -148,6 +160,8 @@ Description: "Mode de fonctinonemment des activités ssmsse régulées"
 * #09 ^property[=].valueDateTime = "2023-09-22T12:00:00+01:00"
 * #09 ^property[+].code = #status
 * #09 ^property[=].valueCode = #active
+* #09 ^property[+].code = #cisis
+* #09 ^property[=].valueBoolean = true
 * #10 "Accueil des Urgences"
 * #10 ^property[0].code = #dateValid
 * #10 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
@@ -170,6 +184,8 @@ Description: "Mode de fonctinonemment des activités ssmsse régulées"
 * #11 ^property[=].valueDateTime = "2022-09-29T00:00:00+01:00"
 * #11 ^property[+].code = #status
 * #11 ^property[=].valueCode = #active
+* #11 ^property[+].code = #cisis
+* #11 ^property[=].valueBoolean = true
 * #12 "Hébergement de Nuit Regroupé"
 * #12 ^designation[0].language = #fr-FR
 * #12 ^designation[=].use.system = "http://snomed.info/sct"
@@ -196,6 +212,8 @@ Description: "Mode de fonctinonemment des activités ssmsse régulées"
 * #13 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #13 ^property[+].code = #status
 * #13 ^property[=].valueCode = #active
+* #13 ^property[+].code = #cisis
+* #13 ^property[=].valueBoolean = true
 * #14 "Externat"
 * #14 ^property[0].code = #dateValid
 * #14 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
@@ -203,6 +221,8 @@ Description: "Mode de fonctinonemment des activités ssmsse régulées"
 * #14 ^property[=].valueDateTime = "1986-07-29T00:00:00+01:00"
 * #14 ^property[+].code = #status
 * #14 ^property[=].valueCode = #active
+* #14 ^property[+].code = #cisis
+* #14 ^property[=].valueBoolean = true
 * #15 "Placement en famille d'accueil (strictement social)"
 * #15 ^designation[0].language = #fr-FR
 * #15 ^designation[=].use.system = "http://snomed.info/sct"
@@ -214,6 +234,8 @@ Description: "Mode de fonctinonemment des activités ssmsse régulées"
 * #15 ^property[=].valueDateTime = "2022-09-29T00:00:00+01:00"
 * #15 ^property[+].code = #status
 * #15 ^property[=].valueCode = #active
+* #15 ^property[+].code = #cisis
+* #15 ^property[=].valueBoolean = true
 * #16 "Prestations sur le lieu de vie (non compris placement familial)"
 * #16 ^designation[0].language = #fr-FR
 * #16 ^designation[=].use.system = "http://snomed.info/sct"
@@ -225,6 +247,8 @@ Description: "Mode de fonctinonemment des activités ssmsse régulées"
 * #16 ^property[=].valueDateTime = "2022-09-29T00:00:00+01:00"
 * #16 ^property[+].code = #status
 * #16 ^property[=].valueCode = #active
+* #16 ^property[+].code = #cisis
+* #16 ^property[=].valueBoolean = true
 * #17 "Internat de Semaine"
 * #17 ^property[0].code = #dateValid
 * #17 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
@@ -232,6 +256,8 @@ Description: "Mode de fonctinonemment des activités ssmsse régulées"
 * #17 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #17 ^property[+].code = #status
 * #17 ^property[=].valueCode = #active
+* #17 ^property[+].code = #cisis
+* #17 ^property[=].valueBoolean = true
 * #18 "Hébergement de Nuit Eclaté"
 * #18 ^designation[0].language = #fr-FR
 * #18 ^designation[=].use.system = "http://snomed.info/sct"
@@ -247,6 +273,8 @@ Description: "Mode de fonctinonemment des activités ssmsse régulées"
 * #18 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #18 ^property[+].code = #status
 * #18 ^property[=].valueCode = #active
+* #18 ^property[+].code = #cisis
+* #18 ^property[=].valueBoolean = true
 * #19 "Traitement et Cure Ambulatoire"
 * #19 ^designation[0].language = #fr-FR
 * #19 ^designation[=].use.system = "http://snomed.info/sct"
@@ -258,6 +286,8 @@ Description: "Mode de fonctinonemment des activités ssmsse régulées"
 * #19 ^property[=].valueDateTime = "2021-11-26T12:00:00+01:00"
 * #19 ^property[+].code = #status
 * #19 ^property[=].valueCode = #active
+* #19 ^property[+].code = #cisis
+* #19 ^property[=].valueBoolean = true
 * #20 "Hospitalisation de Semaine"
 * #20 ^designation[0].language = #fr-FR
 * #20 ^designation[=].use.system = "http://snomed.info/sct"
@@ -269,6 +299,8 @@ Description: "Mode de fonctinonemment des activités ssmsse régulées"
 * #20 ^property[=].valueDateTime = "1986-07-29T00:00:00+01:00"
 * #20 ^property[+].code = #status
 * #20 ^property[=].valueCode = #active
+* #20 ^property[+].code = #cisis
+* #20 ^property[=].valueBoolean = true
 * #21 "Accueil de Jour (sans distinction entre semi-internat et externat)"
 * #21 ^designation[0].language = #fr-FR
 * #21 ^designation[=].use.system = "http://snomed.info/sct"
@@ -280,6 +312,8 @@ Description: "Mode de fonctinonemment des activités ssmsse régulées"
 * #21 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #21 ^property[+].code = #status
 * #21 ^property[=].valueCode = #active
+* #21 ^property[+].code = #cisis
+* #21 ^property[=].valueBoolean = true
 * #22 "Accueil de Nuit"
 * #22 ^property[0].code = #dateValid
 * #22 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
@@ -287,6 +321,8 @@ Description: "Mode de fonctinonemment des activités ssmsse régulées"
 * #22 ^property[=].valueDateTime = "2008-06-01T00:00:00+01:00"
 * #22 ^property[+].code = #status
 * #22 ^property[=].valueCode = #active
+* #22 ^property[+].code = #cisis
+* #22 ^property[=].valueBoolean = true
 * #23 "Anesthésie Chirurgie Ambulatoire"
 * #23 ^designation[0].language = #fr-FR
 * #23 ^designation[=].use.system = "http://snomed.info/sct"
@@ -351,6 +387,8 @@ Description: "Mode de fonctinonemment des activités ssmsse régulées"
 * #26 ^property[=].valueDateTime = "2022-09-29T00:00:00+01:00"
 * #26 ^property[+].code = #status
 * #26 ^property[=].valueCode = #active
+* #26 ^property[+].code = #cisis
+* #26 ^property[=].valueBoolean = true
 * #27 "Accueil modulable/séquentiel"
 * #27 ^designation[0].language = #fr-FR
 * #27 ^designation[=].use.system = "http://snomed.info/sct"
@@ -362,6 +400,8 @@ Description: "Mode de fonctinonemment des activités ssmsse régulées"
 * #27 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
 * #27 ^property[+].code = #status
 * #27 ^property[=].valueCode = #active
+* #27 ^property[+].code = #cisis
+* #27 ^property[=].valueBoolean = true
 * #28 "Consultations dentaires et soins dentaires"
 * #28 ^designation[0].language = #fr-FR
 * #28 ^designation[=].use.system = "http://snomed.info/sct"
@@ -373,6 +413,8 @@ Description: "Mode de fonctinonemment des activités ssmsse régulées"
 * #28 ^property[=].valueDateTime = "2022-09-29T00:00:00+01:00"
 * #28 ^property[+].code = #status
 * #28 ^property[=].valueCode = #active
+* #28 ^property[+].code = #cisis
+* #28 ^property[=].valueBoolean = true
 * #30 "Stockage Organes et Produits Humains"
 * #30 ^designation[0].language = #fr-FR
 * #30 ^designation[=].use.system = "http://snomed.info/sct"
@@ -413,6 +455,8 @@ Description: "Mode de fonctinonemment des activités ssmsse régulées"
 * #33 ^property[=].valueDateTime = "1995-09-25T00:00:00+01:00"
 * #33 ^property[+].code = #status
 * #33 ^property[=].valueCode = #active
+* #33 ^property[+].code = #cisis
+* #33 ^property[=].valueBoolean = true
 * #34 "Enseignement"
 * #34 ^property[0].code = #dateValid
 * #34 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
@@ -431,6 +475,8 @@ Description: "Mode de fonctinonemment des activités ssmsse régulées"
 * #37 ^property[=].valueDateTime = "1999-10-06T00:00:00+01:00"
 * #37 ^property[+].code = #status
 * #37 ^property[=].valueCode = #active
+* #37 ^property[+].code = #cisis
+* #37 ^property[=].valueBoolean = true
 * #38 "Accueil et prise en charge en centre de postcure"
 * #38 ^designation[0].language = #fr-FR
 * #38 ^designation[=].use.system = "http://snomed.info/sct"
@@ -472,6 +518,8 @@ Description: "Mode de fonctinonemment des activités ssmsse régulées"
 * #40 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #40 ^property[+].code = #status
 * #40 ^property[=].valueCode = #active
+* #40 ^property[+].code = #cisis
+* #40 ^property[=].valueBoolean = true
 * #41 "Permanence téléphonique"
 * #41 ^designation[0].language = #fr-FR
 * #41 ^designation[=].use.system = "http://snomed.info/sct"
@@ -494,6 +542,8 @@ Description: "Mode de fonctinonemment des activités ssmsse régulées"
 * #42 ^property[=].valueDateTime = "2002-02-18T00:00:00+01:00"
 * #42 ^property[+].code = #status
 * #42 ^property[=].valueCode = #active
+* #42 ^property[+].code = #cisis
+* #42 ^property[=].valueBoolean = true
 * #43 "Tous modes d'accueil avec hébergement"
 * #43 ^designation[0].language = #fr-FR
 * #43 ^designation[=].use.system = "http://snomed.info/sct"
@@ -505,6 +555,8 @@ Description: "Mode de fonctinonemment des activités ssmsse régulées"
 * #43 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #43 ^property[+].code = #status
 * #43 ^property[=].valueCode = #active
+* #43 ^property[+].code = #cisis
+* #43 ^property[=].valueBoolean = true
 * #44 "Accueil temporaire de jour"
 * #44 ^designation[0].language = #fr-FR
 * #44 ^designation[=].use.system = "http://snomed.info/sct"
@@ -516,6 +568,8 @@ Description: "Mode de fonctinonemment des activités ssmsse régulées"
 * #44 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #44 ^property[+].code = #status
 * #44 ^property[=].valueCode = #active
+* #44 ^property[+].code = #cisis
+* #44 ^property[=].valueBoolean = true
 * #45 "Accueil temporaire (avec et sans hébergement)"
 * #45 ^designation[0].language = #fr-FR
 * #45 ^designation[=].use.system = "http://snomed.info/sct"
@@ -527,6 +581,8 @@ Description: "Mode de fonctinonemment des activités ssmsse régulées"
 * #45 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #45 ^property[+].code = #status
 * #45 ^property[=].valueCode = #active
+* #45 ^property[+].code = #cisis
+* #45 ^property[=].valueBoolean = true
 * #46 "Tous modes d'accueil (avec et sans hébergement)"
 * #46 ^designation[0].language = #fr-FR
 * #46 ^designation[=].use.system = "http://snomed.info/sct"
@@ -538,6 +594,8 @@ Description: "Mode de fonctinonemment des activités ssmsse régulées"
 * #46 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #46 ^property[+].code = #status
 * #46 ^property[=].valueCode = #active
+* #46 ^property[+].code = #cisis
+* #46 ^property[=].valueBoolean = true
 * #47 "Accueil de jour et accompagnement en milieu ordinaire"
 * #47 ^designation[0].language = #fr-FR
 * #47 ^designation[=].use.system = "http://snomed.info/sct"
@@ -549,6 +607,8 @@ Description: "Mode de fonctinonemment des activités ssmsse régulées"
 * #47 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #47 ^property[+].code = #status
 * #47 ^property[=].valueCode = #active
+* #47 ^property[+].code = #cisis
+* #47 ^property[=].valueBoolean = true
 * #48 "Tous modes d'accueil et d'accompagnement"
 * #48 ^designation[0].language = #fr-FR
 * #48 ^designation[=].use.system = "http://snomed.info/sct"
@@ -560,6 +620,8 @@ Description: "Mode de fonctinonemment des activités ssmsse régulées"
 * #48 ^property[=].valueDateTime = "2018-10-26T12:00:00+01:00"
 * #48 ^property[+].code = #status
 * #48 ^property[=].valueCode = #active
+* #48 ^property[+].code = #cisis
+* #48 ^property[=].valueBoolean = true
 * #50 "Protection Juridique"
 * #50 ^property[0].code = #dateValid
 * #50 ^property[=].valueDateTime = "2010-11-12T00:00:00+01:00"
@@ -567,6 +629,8 @@ Description: "Mode de fonctinonemment des activités ssmsse régulées"
 * #50 ^property[=].valueDateTime = "2010-11-26T00:00:00+01:00"
 * #50 ^property[+].code = #status
 * #50 ^property[=].valueCode = #active
+* #50 ^property[+].code = #cisis
+* #50 ^property[=].valueBoolean = true
 * #51 "Aide Judiciaire à la Gestion du Budget Familial"
 * #51 ^designation[0].language = #fr-FR
 * #51 ^designation[=].use.system = "http://snomed.info/sct"
@@ -589,6 +653,8 @@ Description: "Mode de fonctinonemment des activités ssmsse régulées"
 * #52 ^property[=].valueDateTime = "2010-11-26T00:00:00+01:00"
 * #52 ^property[+].code = #status
 * #52 ^property[=].valueCode = #active
+* #52 ^property[+].code = #cisis
+* #52 ^property[=].valueBoolean = true
 * #53 "Information des Tuteurs Familiaux"
 * #53 ^designation[0].language = #fr-FR
 * #53 ^designation[=].use.system = "http://snomed.info/sct"
@@ -611,6 +677,8 @@ Description: "Mode de fonctinonemment des activités ssmsse régulées"
 * #60 ^property[=].valueDateTime = "2013-12-19T00:00:00+01:00"
 * #60 ^property[+].code = #status
 * #60 ^property[=].valueCode = #active
+* #60 ^property[+].code = #cisis
+* #60 ^property[=].valueBoolean = true
 * #97 "Type d'activité indifferencié"
 * #97 ^designation[0].language = #fr-FR
 * #97 ^designation[=].use.system = "http://snomed.info/sct"
@@ -625,6 +693,8 @@ Description: "Mode de fonctinonemment des activités ssmsse régulées"
 * #97 ^property[=].valueDateTime = "2024-02-23T12:00:00+01:00"
 * #97 ^property[+].code = #status
 * #97 ^property[=].valueCode = #active
+* #97 ^property[+].code = #cisis
+* #97 ^property[=].valueBoolean = true
 * #99 "Regroupement Calcules (Annexes XXIV)"
 * #99 ^designation[0].language = #fr-FR
 * #99 ^designation[=].use = $sct#900000000000013009
