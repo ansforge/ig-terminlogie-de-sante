@@ -593,13 +593,13 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J127-StatutJuridique-ENREG/FHIR/JDV-J127-StatutJuridique-ENREG",
-      "version" : "20231215120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "JDV_J127_StatutJuridique_ENREG",
       "title" : null,
       "description" : "Jeu de valeur sur les statuts juridiques pour ENREG",
       "systems" : [
-        "https://mos.esante.gouv.fr/NOS/TRE_R72-FinessStatutJuridique/FHIR/TRE-R72-FinessStatutJuridique"
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique"
       ],
       "oids" : ["1.2.250.1.213.1.6.1.213"],
       "sources" : ["1.2.250.1.213.1.6.1.213"]
@@ -743,8 +743,8 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J137-Clientele-RASS/FHIR/JDV-J137-Clientele-RASS",
-      "version" : "20240927120000",
-      "status" : "active",
+      "version" : "20251222120000",
+      "status" : "retired",
       "name" : "JDV_J137_Clientele_RASS",
       "title" : null,
       "description" : "Population prise en charge par l'établissement dans le cadre",
@@ -7009,13 +7009,13 @@
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j368-categorie-etablissement-cisis",
-      "version" : "20250422120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "JdvJ368CategorieEtablissementCisis",
       "title" : "Jdv J368 Categorie Etablissement Cisis",
-      "description" : "JDV à l'image de l'ensemble des valeurs actives de la terminologie TRE_R66-CategorieEtablissement",
+      "description" : "JDV CISIS à l'image de la terminologie TreR397CategorieEntiteGeographiqueExercice",
       "systems" : [
-        "https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement"
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice"
       ],
       "oids" : ["1.2.250.1.213.1.1.5.823"],
       "sources" : ["1.2.250.1.213.1.1.5.823"]
@@ -10605,8 +10605,8 @@
       "systems" : ["https://smt.esante.gouv.fr/terminologie-nuva"],
       "uses" : {
       },
-      "ConceptMap-alignement-nuva-cipucd.html" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD",
-      "ConceptMap-alignement-nuva-bdpm.html" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM"
+      "ConceptMap-alignement-nuva-bdpm.html" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM",
+      "ConceptMap-alignement-nuva-cipucd.html" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD"
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-sms?vs",

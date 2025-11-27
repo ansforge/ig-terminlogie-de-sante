@@ -26794,7 +26794,7 @@
         <reference value="ValueSet/jdv-j368-categorie-etablissement-cisis"/>
       </reference>
       <name value="Jdv J368 Categorie Etablissement Cisis"/>
-      <description value="JDV à l'image de l'ensemble des valeurs actives de la terminologie TRE_R66-CategorieEtablissement"/>
+      <description value="JDV CISIS à l'image de la terminologie TreR397CategorieEntiteGeographiqueExercice"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

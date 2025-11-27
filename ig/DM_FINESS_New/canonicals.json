@@ -618,7 +618,7 @@
     "id" : "JDV-J127-StatutJuridique-ENREG",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J127-StatutJuridique-ENREG/FHIR/JDV-J127-StatutJuridique-ENREG",
-    "version" : "20231215120000",
+    "version" : "20251222120000",
     "name" : "JDV_J127_StatutJuridique_ENREG",
     "oids" : ["1.2.250.1.213.1.6.1.213"]
   },
@@ -706,7 +706,7 @@
     "id" : "JDV-J137-Clientele-RASS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J137-Clientele-RASS/FHIR/JDV-J137-Clientele-RASS",
-    "version" : "20240927120000",
+    "version" : "20251222120000",
     "name" : "JDV_J137_Clientele_RASS",
     "oids" : ["1.2.250.1.213.1.6.1.223"]
   },
@@ -6902,7 +6902,7 @@
     "id" : "jdv-j368-categorie-etablissement-cisis",
     "type" : "ValueSet",
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j368-categorie-etablissement-cisis",
-    "version" : "20250422120000",
+    "version" : "20251222120000",
     "name" : "JdvJ368CategorieEtablissementCisis",
     "oids" : ["1.2.250.1.213.1.1.5.823"]
   },
