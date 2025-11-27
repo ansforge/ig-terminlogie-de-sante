@@ -1,3 +1,5 @@
+Alias: $TRE-R279-Clientele = https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele
+
 ValueSet: JDV_J137_Clientele_RASS
 Id: JDV-J137-Clientele-RASS
 Description: "Population prise en charge par l'établissement dans le cadre"
