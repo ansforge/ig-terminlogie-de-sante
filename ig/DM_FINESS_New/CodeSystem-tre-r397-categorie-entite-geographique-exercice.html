@@ -41,8 +41,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"8.878"}
-    h3,h4,h5,h6{--heading-prefix:"8.878"}</style>
+    <style type="text/css">h2{--heading-prefix:"8.879"}
+    h3,h4,h5,h6{--heading-prefix:"8.879"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -339,6 +339,7 @@
  <li><a href="ValueSet-jdv-j310-categorie-entite-geographique-exercice-finess.html">JdvJ310CategorieEntiteGeographiqueExerciceFiness</a></li>
  <li><a href="ValueSet-jdv-j368-categorie-etablissement-cisis.html">JdvJ368CategorieEtablissementCisis</a></li>
  <li><a href="ValueSet-jdv-j377-categorie-entite-geographique-exercice-ror.html">JdvJ377CategorieEntiteGeographiqueExerciceRor</a></li>
+ <li><a href="ValueSet-jdv-j380-categorie-entite-geographique-exercice-rass.html">JdvJ380CategorieEntiteGeographiqueExerciceRass</a></li>
 </ul>
 
 
@@ -405,8 +406,13 @@
 <td>cisis</td>
 <td>https://smt.esante.gouv.fr/fhir/concept-properties#cisis</td>
 <td>boolean</td>
-<td>Permet de définir les codes concepts uilisés par le CISIS</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice</code> defines the following codes in a Is-A hierarchy:</p>
-<table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Définition</b></td><td><b>Déprécié</b></td><td><b>niveau</b></td><td><b>Parent</b></td><td><b>domaine</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>dateFin</b></td><td><b>status</b></td><td><b>deprecationDate</b></td><td><b>specialisationRor</b></td><td><b>ror</b></td><td><b>cisis</b></td><td><b>French (France) (fr)</b></td></tr>
+<td>Permet de définir les codes concepts uilisés par le CISIS</td></tr>
+<tr><td>rass</td>
+<td>rass</td>
+<td>https://smt.esante.gouv.fr/fhir/concept-properties#rass</td>
+<td>boolean</td>
+<td>Permet de définir les codes concepts uilisés par le RASS</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice</code> defines the following codes in a Is-A hierarchy:</p>
+<table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Définition</b></td><td><b>Déprécié</b></td><td><b>niveau</b></td><td><b>Parent</b></td><td><b>domaine</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>dateFin</b></td><td><b>status</b></td><td><b>deprecationDate</b></td><td><b>specialisationRor</b></td><td><b>ror</b></td><td><b>cisis</b></td><td><b>rass</b></td><td><b>French (France) (fr)</b></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0100<a name="tre-r397-categorie-entite-geographique-exercice-0100"> </a></td>
 <td>Etablissements d'administration</td>
 <td></td>
@@ -422,6 +428,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Etab.Administration</td></tr>
 <tr><td style="white-space:nowrap">1000<a name="tre-r397-categorie-entite-geographique-exercice-1000"> </a></td>
 <td>Etablissements Relevant de la Loi Hospitalière</td>
@@ -437,6 +444,7 @@
 <td></td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>Etab.Loi Hospital.</td></tr>
 <tr><td style="white-space:nowrap">2000<a name="tre-r397-categorie-entite-geographique-exercice-2000"> </a></td>
@@ -454,6 +462,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td>true</td>
 <td>Autres Etab.de Soins</td></tr>
 <tr><td style="white-space:nowrap">3000<a name="tre-r397-categorie-entite-geographique-exercice-3000"> </a></td>
 <td>Autres Etablissements à Caractère Sanitaire</td>
@@ -469,6 +478,7 @@
 <td></td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>Autres Etab.Sanit.</td></tr>
 <tr><td style="white-space:nowrap">4000<a name="tre-r397-categorie-entite-geographique-exercice-4000"> </a></td>
@@ -486,6 +496,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td>true</td>
 <td>Accueil Héberg.Assis</td></tr>
 <tr><td style="white-space:nowrap">5000<a name="tre-r397-categorie-entite-geographique-exercice-5000"> </a></td>
 <td>Etablissements et Services Sociaux d'Aide à la Famille</td>
@@ -501,6 +512,7 @@
 <td></td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>Etab.Aide à Famille</td></tr>
 <tr><td style="white-space:nowrap">6000<a name="tre-r397-categorie-entite-geographique-exercice-6000"> </a></td>
@@ -518,6 +530,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td>true</td>
 <td>Etab.Form.San &amp; Soc</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0110<a name="tre-r397-categorie-entite-geographique-exercice-0110"> </a></td>
 <td>Etablissements d'Administration</td>
@@ -534,6 +547,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Etab.Administration</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">110<a name="tre-r397-categorie-entite-geographique-exercice-110"> </a></td>
 <td>Etablissements d'Administration</td>
@@ -550,6 +564,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Etab.Administration</td></tr>
 <tr><td style="white-space:nowrap">1100<a name="tre-r397-categorie-entite-geographique-exercice-1100"> </a></td>
 <td>Etablissements Hospitaliers</td>
@@ -565,6 +580,7 @@
 <td></td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>Etab.Hospitaliers</td></tr>
 <tr><td style="white-space:nowrap">1200<a name="tre-r397-categorie-entite-geographique-exercice-1200"> </a></td>
@@ -582,6 +598,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td>true</td>
 <td>Autres Etab.Loi Hosp</td></tr>
 <tr><td style="white-space:nowrap">2100<a name="tre-r397-categorie-entite-geographique-exercice-2100"> </a></td>
 <td>Cabinets Libéraux</td>
@@ -597,6 +614,7 @@
 <td></td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">2200<a name="tre-r397-categorie-entite-geographique-exercice-2200"> </a></td>
@@ -614,6 +632,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td>true</td>
 <td>Autres Etab.de Soins</td></tr>
 <tr><td style="white-space:nowrap">3100<a name="tre-r397-categorie-entite-geographique-exercice-3100"> </a></td>
 <td>Laboratoires de Biologie Médicale</td>
@@ -629,6 +648,7 @@
 <td></td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>Labo Biolog Médicale</td></tr>
 <tr><td style="white-space:nowrap">3200<a name="tre-r397-categorie-entite-geographique-exercice-3200"> </a></td>
@@ -646,6 +666,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td>true</td>
 <td>Com.Biens Usage Méd.</td></tr>
 <tr><td style="white-space:nowrap">3400<a name="tre-r397-categorie-entite-geographique-exercice-3400"> </a></td>
 <td>Autres Etablissements à Caractère Sanitaire</td>
@@ -661,6 +682,7 @@
 <td></td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>Autres Etab.Sanit.</td></tr>
 <tr><td style="white-space:nowrap">4100<a name="tre-r397-categorie-entite-geographique-exercice-4100"> </a></td>
@@ -678,6 +700,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td>true</td>
 <td>Enfance &amp; Jeun. Hand</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">4200<a name="tre-r397-categorie-entite-geographique-exercice-4200"> </a></td>
 <td>Etablissements ou Classes d'Enseignement Spécial</td>
@@ -694,6 +717,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Classe Enseig.Spéc.</td></tr>
 <tr><td style="white-space:nowrap">4300<a name="tre-r397-categorie-entite-geographique-exercice-4300"> </a></td>
 <td>Etablissements et Services pour Adultes Handicapés</td>
@@ -709,6 +733,7 @@
 <td></td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>Etab.Adultes Handi.</td></tr>
 <tr><td style="white-space:nowrap">4400<a name="tre-r397-categorie-entite-geographique-exercice-4400"> </a></td>
@@ -726,6 +751,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td>true</td>
 <td>Etab.Personnes Agées</td></tr>
 <tr><td style="white-space:nowrap">4500<a name="tre-r397-categorie-entite-geographique-exercice-4500"> </a></td>
 <td>Etab.et Serv.Sociaux Concourant à la Protection de l'Enfance</td>
@@ -741,6 +767,7 @@
 <td></td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>Protection Enfance</td></tr>
 <tr><td style="white-space:nowrap">4600<a name="tre-r397-categorie-entite-geographique-exercice-4600"> </a></td>
@@ -758,6 +785,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td>true</td>
 <td>Autres Etab.Soc &amp; MS</td></tr>
 <tr><td style="white-space:nowrap">5100<a name="tre-r397-categorie-entite-geographique-exercice-5100"> </a></td>
 <td>Etablissements et Services Sociaux d'Aide à la Famille</td>
@@ -773,6 +801,7 @@
 <td></td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>Etab.Aide à Famille</td></tr>
 <tr><td style="white-space:nowrap">6100<a name="tre-r397-categorie-entite-geographique-exercice-6100"> </a></td>
@@ -790,6 +819,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td>true</td>
 <td>Etab.Form.Pers.San.</td></tr>
 <tr><td style="white-space:nowrap">6200<a name="tre-r397-categorie-entite-geographique-exercice-6200"> </a></td>
 <td>Etablissements de Formation des Personnels Sociaux</td>
@@ -805,6 +835,7 @@
 <td></td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>Etab.Form.Sociaux</td></tr>
 <tr><td style="white-space:nowrap">6300<a name="tre-r397-categorie-entite-geographique-exercice-6300"> </a></td>
@@ -822,6 +853,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td>true</td>
 <td>Etab.Form.Polyval.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0101<a name="tre-r397-categorie-entite-geographique-exercice-0101"> </a></td>
 <td>Etablissements d'Administration</td>
@@ -838,6 +870,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Etab.Administration</td></tr>
 <tr><td style="white-space:nowrap">1101<a name="tre-r397-categorie-entite-geographique-exercice-1101"> </a></td>
 <td>Centres Hospitaliers Régionaux</td>
@@ -853,6 +886,7 @@
 <td></td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>C.H.R.</td></tr>
 <tr><td style="white-space:nowrap">1102<a name="tre-r397-categorie-entite-geographique-exercice-1102"> </a></td>
@@ -870,6 +904,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td>true</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">1103<a name="tre-r397-categorie-entite-geographique-exercice-1103"> </a></td>
 <td>Centres Hospitaliers Spécialisés Lutte Maladies Mentales</td>
@@ -885,6 +920,7 @@
 <td></td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>Lutte Malad.Mentales</td></tr>
 <tr><td style="white-space:nowrap">1104<a name="tre-r397-categorie-entite-geographique-exercice-1104"> </a></td>
@@ -902,6 +938,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td>true</td>
 <td>Lutte contre Cancer</td></tr>
 <tr><td style="white-space:nowrap">1106<a name="tre-r397-categorie-entite-geographique-exercice-1106"> </a></td>
 <td>Hôpitaux Locaux</td>
@@ -917,6 +954,7 @@
 <td></td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">1107<a name="tre-r397-categorie-entite-geographique-exercice-1107"> </a></td>
@@ -934,6 +972,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td>true</td>
 <td>Soins Suite &amp; Réadap</td></tr>
 <tr><td style="white-space:nowrap">1108<a name="tre-r397-categorie-entite-geographique-exercice-1108"> </a></td>
 <td>Centre de Moyen et de Long Séjour</td>
@@ -949,6 +988,7 @@
 <td></td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>Ctre.Moyen Long Séj.</td></tr>
 <tr><td style="white-space:nowrap">1109<a name="tre-r397-categorie-entite-geographique-exercice-1109"> </a></td>
@@ -966,6 +1006,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td>true</td>
 <td>Etab.Longue Durée</td></tr>
 <tr><td style="white-space:nowrap">1110<a name="tre-r397-categorie-entite-geographique-exercice-1110"> </a></td>
 <td>Etablissements de Soins de Courte Durée</td>
@@ -981,6 +1022,7 @@
 <td></td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>Soins Courte Durée</td></tr>
 <tr><td style="white-space:nowrap">1111<a name="tre-r397-categorie-entite-geographique-exercice-1111"> </a></td>
@@ -998,6 +1040,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td>true</td>
 <td>Autres Etab.Lut.Ment</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">1112<a name="tre-r397-categorie-entite-geographique-exercice-1112"> </a></td>
 <td>Etablissements d'Enfants à Caractère Sanitaire</td>
@@ -1014,6 +1057,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Etab.Enf.à Carac.San</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">1113<a name="tre-r397-categorie-entite-geographique-exercice-1113"> </a></td>
 <td>Etablissements de Lutte contre l'Alcoolisme</td>
@@ -1030,6 +1074,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Etab.Lutte Alcool.</td></tr>
 <tr><td style="white-space:nowrap">1201<a name="tre-r397-categorie-entite-geographique-exercice-1201"> </a></td>
 <td>Traitements et Soins à Domicile</td>
@@ -1045,6 +1090,7 @@
 <td></td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>Soins à Domicile</td></tr>
 <tr><td style="white-space:nowrap">1202<a name="tre-r397-categorie-entite-geographique-exercice-1202"> </a></td>
@@ -1062,6 +1108,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td>true</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">1203<a name="tre-r397-categorie-entite-geographique-exercice-1203"> </a></td>
 <td>Dialyse ambulatoire</td>
@@ -1077,6 +1124,7 @@
 <td></td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">1204<a name="tre-r397-categorie-entite-geographique-exercice-1204"> </a></td>
@@ -1094,6 +1142,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Urgence Réanimation</td></tr>
 <tr><td style="white-space:nowrap">1205<a name="tre-r397-categorie-entite-geographique-exercice-1205"> </a></td>
 <td>Autres Etablissements Relevant de la Loi Hospitalière</td>
@@ -1109,6 +1158,7 @@
 <td></td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>Autres Etab.Loi Hosp</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">2101<a name="tre-r397-categorie-entite-geographique-exercice-2101"> </a></td>
@@ -1126,6 +1176,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Cab.Lib.de Médecins</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">2102<a name="tre-r397-categorie-entite-geographique-exercice-2102"> </a></td>
 <td>Cabinet de Groupe</td>
@@ -1142,6 +1193,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Cabinets de groupe</td></tr>
 <tr><td style="white-space:nowrap">2103<a name="tre-r397-categorie-entite-geographique-exercice-2103"> </a></td>
 <td>Autres structures d'exercice libéral</td>
@@ -1157,6 +1209,7 @@
 <td></td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>Autr Exerc. libéral</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">2105<a name="tre-r397-categorie-entite-geographique-exercice-2105"> </a></td>
@@ -1174,6 +1227,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Cabinet Aux.Médicaux</td></tr>
 <tr><td style="white-space:nowrap">2201<a name="tre-r397-categorie-entite-geographique-exercice-2201"> </a></td>
 <td>Dispensaires ou Centres de Soins</td>
@@ -1189,6 +1243,7 @@
 <td></td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>Dispensaires</td></tr>
 <tr><td style="white-space:nowrap">2202<a name="tre-r397-categorie-entite-geographique-exercice-2202"> </a></td>
@@ -1206,6 +1261,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td>true</td>
 <td>PMI Plani. Familiale</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">2203<a name="tre-r397-categorie-entite-geographique-exercice-2203"> </a></td>
 <td>Etablissements de Soins Dentaires</td>
@@ -1222,6 +1278,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Etab.Soins Dentaires</td></tr>
 <tr><td style="white-space:nowrap">2204<a name="tre-r397-categorie-entite-geographique-exercice-2204"> </a></td>
 <td>Etablissements ne relevant pas de la Loi Hospitalière</td>
@@ -1237,6 +1294,7 @@
 <td></td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>Etab.non Loi Hospi.</td></tr>
 <tr><td style="white-space:nowrap">2205<a name="tre-r397-categorie-entite-geographique-exercice-2205"> </a></td>
@@ -1254,6 +1312,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td>true</td>
 <td>Etab.santé armées</td></tr>
 <tr><td style="white-space:nowrap">2206<a name="tre-r397-categorie-entite-geographique-exercice-2206"> </a></td>
 <td>Centres de Santé</td>
@@ -1269,6 +1328,7 @@
 <td></td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">3101<a name="tre-r397-categorie-entite-geographique-exercice-3101"> </a></td>
@@ -1286,6 +1346,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td>true</td>
 <td>Labo Biolog Médicale</td></tr>
 <tr><td style="white-space:nowrap">3201<a name="tre-r397-categorie-entite-geographique-exercice-3201"> </a></td>
 <td>Commerce de Biens à Usage Médicaux</td>
@@ -1301,6 +1362,7 @@
 <td></td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>Com.Biens Usage Méd.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">3202<a name="tre-r397-categorie-entite-geographique-exercice-3202"> </a></td>
@@ -1318,6 +1380,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Com.Biens Médicaux</td></tr>
 <tr><td style="white-space:nowrap">3401<a name="tre-r397-categorie-entite-geographique-exercice-3401"> </a></td>
 <td>Transfusion Sanguine</td>
@@ -1333,6 +1396,7 @@
 <td></td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">3402<a name="tre-r397-categorie-entite-geographique-exercice-3402"> </a></td>
@@ -1350,6 +1414,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Conserv.Pdts.Humains</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">3403<a name="tre-r397-categorie-entite-geographique-exercice-3403"> </a></td>
 <td>Centre Antipoison</td>
@@ -1366,6 +1431,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Centre Anti-Poison</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">3404<a name="tre-r397-categorie-entite-geographique-exercice-3404"> </a></td>
 <td>Service d'Ambulances</td>
@@ -1382,6 +1448,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Services d'ambulances</td></tr>
 <tr><td style="white-space:nowrap">3405<a name="tre-r397-categorie-entite-geographique-exercice-3405"> </a></td>
 <td>Installations autonomes de chirurgie esthétique</td>
@@ -1397,6 +1464,7 @@
 <td></td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>I.A.C.E.</td></tr>
 <tr><td style="white-space:nowrap">3406<a name="tre-r397-categorie-entite-geographique-exercice-3406"> </a></td>
@@ -1414,6 +1482,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td>true</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">3407<a name="tre-r397-categorie-entite-geographique-exercice-3407"> </a></td>
 <td>Etablissements Expérimentaux en Santé</td>
@@ -1429,6 +1498,7 @@
 <td></td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>Etab.Expér.Santé</td></tr>
 <tr><td style="white-space:nowrap">3408<a name="tre-r397-categorie-entite-geographique-exercice-3408"> </a></td>
@@ -1446,6 +1516,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td>true</td>
 <td>Centre ressources transverse</td></tr>
 <tr><td style="white-space:nowrap">3409<a name="tre-r397-categorie-entite-geographique-exercice-3409"> </a></td>
 <td>Services de Prévention et de Santé au Travail (SPST)</td>
@@ -1461,6 +1532,7 @@
 <td></td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>S.P.S.T.</td></tr>
 <tr><td style="white-space:nowrap">3410<a name="tre-r397-categorie-entite-geographique-exercice-3410"> </a></td>
@@ -1478,6 +1550,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td>true</td>
 <td>S.I.S.</td></tr>
 <tr><td style="white-space:nowrap">4101<a name="tre-r397-categorie-entite-geographique-exercice-4101"> </a></td>
 <td>Etab.Educ.Spéciale pour Déficients Mentaux et Handicapés</td>
@@ -1493,6 +1566,7 @@
 <td></td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>Déf.Mentaux et Hand.</td></tr>
 <tr><td style="white-space:nowrap">4102<a name="tre-r397-categorie-entite-geographique-exercice-4102"> </a></td>
@@ -1510,6 +1584,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td>true</td>
 <td>Enf.Trouble.Conduite</td></tr>
 <tr><td style="white-space:nowrap">4103<a name="tre-r397-categorie-entite-geographique-exercice-4103"> </a></td>
 <td>Etablissements d'Education Spéciale pour Handicapés Moteurs</td>
@@ -1525,6 +1600,7 @@
 <td></td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>Handicapés Moteurs</td></tr>
 <tr><td style="white-space:nowrap">4104<a name="tre-r397-categorie-entite-geographique-exercice-4104"> </a></td>
@@ -1542,6 +1618,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td>true</td>
 <td>Etab.Défic.Sensor.</td></tr>
 <tr><td style="white-space:nowrap">4105<a name="tre-r397-categorie-entite-geographique-exercice-4105"> </a></td>
 <td>Etablissements et Services Hébergement Enfants Handicapés</td>
@@ -1557,6 +1634,7 @@
 <td></td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>Héberg.Enfant Hand.</td></tr>
 <tr><td style="white-space:nowrap">4106<a name="tre-r397-categorie-entite-geographique-exercice-4106"> </a></td>
@@ -1574,6 +1652,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td>true</td>
 <td>Serv.Dom.Ambul.Handi</td></tr>
 <tr><td style="white-space:nowrap">4107<a name="tre-r397-categorie-entite-geographique-exercice-4107"> </a></td>
 <td>Etab. Expérimentaux en Faveur de l'Enfance Handicapée</td>
@@ -1589,6 +1668,7 @@
 <td></td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>Etab.Expéri.Enf.Hand</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">4201<a name="tre-r397-categorie-entite-geographique-exercice-4201"> </a></td>
@@ -1606,6 +1686,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Classe Pré &amp; Elément</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">4202<a name="tre-r397-categorie-entite-geographique-exercice-4202"> </a></td>
 <td>Etablissements d'Enseignement Secondaire</td>
@@ -1622,6 +1703,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Etab.Enseig.Second.</td></tr>
 <tr><td style="white-space:nowrap">4301<a name="tre-r397-categorie-entite-geographique-exercice-4301"> </a></td>
 <td>Etab. et Services d'Hébergement pour Adultes Handicapés</td>
@@ -1637,6 +1719,7 @@
 <td></td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>Héberg.Adultes Handi</td></tr>
 <tr><td style="white-space:nowrap">4302<a name="tre-r397-categorie-entite-geographique-exercice-4302"> </a></td>
@@ -1654,6 +1737,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td>true</td>
 <td>Trav.Prot.Adul.Handi</td></tr>
 <tr><td style="white-space:nowrap">4303<a name="tre-r397-categorie-entite-geographique-exercice-4303"> </a></td>
 <td>Etab.et Services de Réinsertion Prof pour Adultes Handicapés</td>
@@ -1669,6 +1753,7 @@
 <td></td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>Réins.Prof.Adul.Hand</td></tr>
 <tr><td style="white-space:nowrap">4304<a name="tre-r397-categorie-entite-geographique-exercice-4304"> </a></td>
@@ -1686,6 +1771,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td>true</td>
 <td>Etab.Expéri.Adul.Han</td></tr>
 <tr><td style="white-space:nowrap">4305<a name="tre-r397-categorie-entite-geographique-exercice-4305"> </a></td>
 <td>Services de Maintien à Domicile pour Handicapés</td>
@@ -1701,6 +1787,7 @@
 <td></td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>Maintien à Dom.Handi</td></tr>
 <tr><td style="white-space:nowrap">4401<a name="tre-r397-categorie-entite-geographique-exercice-4401"> </a></td>
@@ -1718,6 +1805,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td>true</td>
 <td>Héberg.Pers.Agées</td></tr>
 <tr><td style="white-space:nowrap">4402<a name="tre-r397-categorie-entite-geographique-exercice-4402"> </a></td>
 <td>Services de Maintien à Domicile pour Personnes Âgées</td>
@@ -1733,6 +1821,7 @@
 <td></td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>Serv.Maintien à Dom.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">4403<a name="tre-r397-categorie-entite-geographique-exercice-4403"> </a></td>
@@ -1750,6 +1839,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Serv.Soc.Pers.Agées</td></tr>
 <tr><td style="white-space:nowrap">4404<a name="tre-r397-categorie-entite-geographique-exercice-4404"> </a></td>
 <td>Etablissements Expérimentaux en Faveur des Personnes Âgées</td>
@@ -1765,6 +1855,7 @@
 <td></td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>Etab.Expéri.Pers.Ag.</td></tr>
 <tr><td style="white-space:nowrap">4501<a name="tre-r397-categorie-entite-geographique-exercice-4501"> </a></td>
@@ -1782,6 +1873,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td>true</td>
 <td>Aide Sociale Enfance</td></tr>
 <tr><td style="white-space:nowrap">4502<a name="tre-r397-categorie-entite-geographique-exercice-4502"> </a></td>
 <td>Etab.et Services du Ministère de la Justice pour Mineurs</td>
@@ -1797,6 +1889,7 @@
 <td></td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>Min. Justice Mineurs</td></tr>
 <tr><td style="white-space:nowrap">4504<a name="tre-r397-categorie-entite-geographique-exercice-4504"> </a></td>
@@ -1814,6 +1907,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td>true</td>
 <td>Protection Enfance</td></tr>
 <tr><td style="white-space:nowrap">4505<a name="tre-r397-categorie-entite-geographique-exercice-4505"> </a></td>
 <td>Etab. Expérimentaux en Faveur de l'Enfance Protégée</td>
@@ -1829,6 +1923,7 @@
 <td></td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>Etab.Expéri.Enf.Prot</td></tr>
 <tr><td style="white-space:nowrap">4601<a name="tre-r397-categorie-entite-geographique-exercice-4601"> </a></td>
@@ -1846,6 +1941,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td>true</td>
 <td>Adult.Fam.Difficulté</td></tr>
 <tr><td style="white-space:nowrap">4602<a name="tre-r397-categorie-entite-geographique-exercice-4602"> </a></td>
 <td>Autres Etablissements Sociaux d'Hébergement et d'Accueil</td>
@@ -1861,6 +1957,7 @@
 <td></td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>Autres Etab.Accueil</td></tr>
 <tr><td style="white-space:nowrap">4603<a name="tre-r397-categorie-entite-geographique-exercice-4603"> </a></td>
@@ -1878,6 +1975,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td>true</td>
 <td>Etab.Expéri.Adultes</td></tr>
 <tr><td style="white-space:nowrap">4604<a name="tre-r397-categorie-entite-geographique-exercice-4604"> </a></td>
 <td>Autres Etablissements médico-sociaux</td>
@@ -1893,6 +1991,7 @@
 <td></td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>Autr.Etab.médico-soc</td></tr>
 <tr><td style="white-space:nowrap">4605<a name="tre-r397-categorie-entite-geographique-exercice-4605"> </a></td>
@@ -1910,6 +2009,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td>true</td>
 <td>Etab.multi-clientèle</td></tr>
 <tr><td style="white-space:nowrap">4606<a name="tre-r397-categorie-entite-geographique-exercice-4606"> </a></td>
 <td>Centres de ressources</td>
@@ -1925,6 +2025,7 @@
 <td></td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>Ctre.de ressources</td></tr>
 <tr><td style="white-space:nowrap">4607<a name="tre-r397-categorie-entite-geographique-exercice-4607"> </a></td>
@@ -1942,6 +2043,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td>true</td>
 <td>Log. Struct. Collect</td></tr>
 <tr><td style="white-space:nowrap">4608<a name="tre-r397-categorie-entite-geographique-exercice-4608"> </a></td>
 <td>Protection des majeurs</td>
@@ -1957,6 +2059,7 @@
 <td></td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>Protection majeurs</td></tr>
 <tr><td style="white-space:nowrap">4609<a name="tre-r397-categorie-entite-geographique-exercice-4609"> </a></td>
@@ -1974,6 +2077,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td>true</td>
 <td>Ctre serv pr cérébro</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">5101<a name="tre-r397-categorie-entite-geographique-exercice-5101"> </a></td>
 <td>Etablissements Garde d'Enfants d'Age pré-Scolaire</td>
@@ -1990,6 +2094,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Etab.Gard.Enf.Présco</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">5102<a name="tre-r397-categorie-entite-geographique-exercice-5102"> </a></td>
 <td>Etablissements d'Hébergement pour Enfants d'Age Scolaire</td>
@@ -2006,6 +2111,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Etab.Héberg.Enf.Scol</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">5103<a name="tre-r397-categorie-entite-geographique-exercice-5103"> </a></td>
 <td>Etablissements Sociaux pour Loisirs et Vacances</td>
@@ -2022,6 +2128,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Etab.Sociaux Loisirs</td></tr>
 <tr><td style="white-space:nowrap">5104<a name="tre-r397-categorie-entite-geographique-exercice-5104"> </a></td>
 <td>Etablissements ou Services Divers d'Aide à la Famille</td>
@@ -2037,6 +2144,7 @@
 <td></td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>Etab.Aide à Famille</td></tr>
 <tr><td style="white-space:nowrap">6101<a name="tre-r397-categorie-entite-geographique-exercice-6101"> </a></td>
@@ -2054,6 +2162,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td>true</td>
 <td>Etab.Form.Pers.San.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">6102<a name="tre-r397-categorie-entite-geographique-exercice-6102"> </a></td>
 <td>Etablissements de Formation des Personnels Techniques</td>
@@ -2070,6 +2179,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Etab.Form.Pers.Tech</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">6103<a name="tre-r397-categorie-entite-geographique-exercice-6103"> </a></td>
 <td>Autres Etablissements de Formation des Personnels Techniques</td>
@@ -2086,6 +2196,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Autr.Etab.Form.Pers.</td></tr>
 <tr><td style="white-space:nowrap">6201<a name="tre-r397-categorie-entite-geographique-exercice-6201"> </a></td>
 <td>Etablissements de Formation des Personnels Sociaux</td>
@@ -2101,6 +2212,7 @@
 <td></td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>Etab.Form.Pers.Soc.</td></tr>
 <tr><td style="white-space:nowrap">6301<a name="tre-r397-categorie-entite-geographique-exercice-6301"> </a></td>
@@ -2118,6 +2230,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td>true</td>
 <td>Etab.Form.Polyval.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">001<a name="tre-r397-categorie-entite-geographique-exercice-001"> </a></td>
 <td>Autres lits de m.R.</td>
@@ -2134,6 +2247,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Autres lits de mR</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">002<a name="tre-r397-categorie-entite-geographique-exercice-002"> </a></td>
 <td>Autres places de l-f.</td>
@@ -2150,6 +2264,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Autres places de l-f</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">003<a name="tre-r397-categorie-entite-geographique-exercice-003"> </a></td>
 <td>Autres lits de l-s</td>
@@ -2166,6 +2281,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">101<a name="tre-r397-categorie-entite-geographique-exercice-101"> </a></td>
 <td>Centre Hospitalier Régional (C.H.R.)</td>
@@ -2180,6 +2296,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>C.H.R.</td></tr>
@@ -2198,6 +2315,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td>true</td>
 <td>C.H. (ex H.L.)</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">108<a name="tre-r397-categorie-entite-geographique-exercice-108"> </a></td>
 <td>Etablissement de Convalescence et de Repos</td>
@@ -2214,6 +2332,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Etab.Convales.&amp;Repos</td></tr>
 <tr><td style="white-space:nowrap">109<a name="tre-r397-categorie-entite-geographique-exercice-109"> </a></td>
 <td>Etablissement de santé privé autorisé en SSR</td>
@@ -2228,6 +2347,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>Soins suite réadap</td></tr>
@@ -2246,6 +2366,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Ctre.Conval.Cure Réa</td></tr>
 <tr><td style="white-space:nowrap">114<a name="tre-r397-categorie-entite-geographique-exercice-114"> </a></td>
 <td>Hôpital des armées</td>
@@ -2260,6 +2381,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>Hôpital armées</td></tr>
@@ -2278,6 +2400,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td>true</td>
 <td>Etab.Soins Armées</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">119<a name="tre-r397-categorie-entite-geographique-exercice-119"> </a></td>
 <td>Maison de Régime</td>
@@ -2294,6 +2417,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">122<a name="tre-r397-categorie-entite-geographique-exercice-122"> </a></td>
 <td>Etablissement Soins Obstétriques Chirurgico-Gynécologiques</td>
@@ -2308,6 +2432,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>Etab.Obs.Chir.Gynéco</td></tr>
@@ -2326,6 +2451,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td>true</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">125<a name="tre-r397-categorie-entite-geographique-exercice-125"> </a></td>
 <td>Centre de Santé Dentaire</td>
@@ -2342,6 +2468,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Ctre.Santé Dentaire</td></tr>
 <tr><td style="white-space:nowrap">126<a name="tre-r397-categorie-entite-geographique-exercice-126"> </a></td>
 <td>Etablissement Thermal</td>
@@ -2356,6 +2483,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>Etab.Thermal</td></tr>
@@ -2374,6 +2502,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td>true</td>
 <td>Hosp.à Domicile</td></tr>
 <tr><td style="white-space:nowrap">128<a name="tre-r397-categorie-entite-geographique-exercice-128"> </a></td>
 <td>Etablissement de Soins Chirurgicaux</td>
@@ -2388,6 +2517,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>Etab.Soins Chirur.</td></tr>
@@ -2406,6 +2536,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td>true</td>
 <td>Etab.Soins Médicaux</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">130<a name="tre-r397-categorie-entite-geographique-exercice-130"> </a></td>
 <td>Centre de Soins Médicaux</td>
@@ -2422,6 +2553,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td></td>
 <td>Ctre.Soins Médicaux</td></tr>
 <tr><td style="white-space:nowrap">131<a name="tre-r397-categorie-entite-geographique-exercice-131"> </a></td>
 <td>Centre de Lutte Contre Cancer</td>
@@ -2436,6 +2568,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>Ctre.Lutte C.Cancer</td></tr>
@@ -2454,6 +2587,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td>true</td>
 <td>Etab.Trans.Sanguine</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">135<a name="tre-r397-categorie-entite-geographique-exercice-135"> </a></td>
 <td>Etablissement Réadaptation Fonctionnelle</td>
@@ -2470,6 +2604,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Etab.Réadap.Fonct.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">136<a name="tre-r397-categorie-entite-geographique-exercice-136"> </a></td>
 <td>Banque de Sperme</td>
@@ -2486,6 +2621,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">137<a name="tre-r397-categorie-entite-geographique-exercice-137"> </a></td>
 <td>Banque d'Organes</td>
@@ -2502,6 +2638,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">138<a name="tre-r397-categorie-entite-geographique-exercice-138"> </a></td>
 <td>Centre de Dialyse Périodique</td>
@@ -2518,6 +2655,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Ctre.Dialyse Périod.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">139<a name="tre-r397-categorie-entite-geographique-exercice-139"> </a></td>
 <td>Centre de Dialyse et d'entraînement à la Dialyse</td>
@@ -2534,6 +2672,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Ctre.Dial.Entr.Dial.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">140<a name="tre-r397-categorie-entite-geographique-exercice-140"> </a></td>
 <td>Centre d'Entraînement à la Dialyse</td>
@@ -2550,6 +2689,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Ctre.Entrain.Dialyse</td></tr>
 <tr><td style="white-space:nowrap">141<a name="tre-r397-categorie-entite-geographique-exercice-141"> </a></td>
 <td>Centre de dialyse</td>
@@ -2564,6 +2704,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>Ctre.Dialyse</td></tr>
@@ -2582,6 +2723,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td>true</td>
 <td>Disp.Anti-Tubercul.</td></tr>
 <tr><td style="white-space:nowrap">143<a name="tre-r397-categorie-entite-geographique-exercice-143"> </a></td>
 <td>Centre de Vaccination BCG</td>
@@ -2596,6 +2738,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>Ctre.Vaccination BCG</td></tr>
@@ -2614,6 +2757,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Etab.Lutte Tubercul.</td></tr>
 <tr><td style="white-space:nowrap">146<a name="tre-r397-categorie-entite-geographique-exercice-146"> </a></td>
 <td>Structure d'Alternative à la dialyse en centre</td>
@@ -2628,6 +2772,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>Alternative dialyse</td></tr>
@@ -2646,6 +2791,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td>true</td>
 <td>C.M.P.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">157<a name="tre-r397-categorie-entite-geographique-exercice-157"> </a></td>
 <td>Centre de Postcure</td>
@@ -2662,6 +2808,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Ctre.de Postcure</td></tr>
 <tr><td style="white-space:nowrap">159<a name="tre-r397-categorie-entite-geographique-exercice-159"> </a></td>
 <td>Centre Parental</td>
@@ -2676,6 +2823,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td></td></tr>
@@ -2694,6 +2842,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>C.S.S.T.</td></tr>
 <tr><td style="white-space:nowrap">161<a name="tre-r397-categorie-entite-geographique-exercice-161"> </a></td>
 <td>Maison de Santé pour Maladies Mentales</td>
@@ -2708,6 +2857,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>Mais.Santé Mal.Ment</td></tr>
@@ -2726,6 +2876,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>C.C.A.A.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">163<a name="tre-r397-categorie-entite-geographique-exercice-163"> </a></td>
 <td>Maison d'Enfants à Caractère Sanitaire Temporaire</td>
@@ -2742,6 +2893,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>M.E.C.S. Temporaire</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">164<a name="tre-r397-categorie-entite-geographique-exercice-164"> </a></td>
 <td>Etablissements Expérimentaux Accueil de la Petite Enfance</td>
@@ -2758,6 +2910,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Etab.exp.petite enf.</td></tr>
 <tr><td style="white-space:nowrap">165<a name="tre-r397-categorie-entite-geographique-exercice-165"> </a></td>
 <td>Appartement de Coordination Thérapeutique (A.C.T.)</td>
@@ -2772,6 +2925,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>A.C.T.</td></tr>
@@ -2790,6 +2944,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td>true</td>
 <td>Etab.Acc.Mère-Enfant</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">167<a name="tre-r397-categorie-entite-geographique-exercice-167"> </a></td>
 <td>Crèche Collective</td>
@@ -2806,6 +2961,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">168<a name="tre-r397-categorie-entite-geographique-exercice-168"> </a></td>
 <td>Service Accueil Familial pour la Petite Enfance</td>
@@ -2822,6 +2978,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Accueil Familial</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">169<a name="tre-r397-categorie-entite-geographique-exercice-169"> </a></td>
 <td>Crèche Multi Accueil Collectif et Familial</td>
@@ -2838,6 +2995,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Crèche Fam.et Coll.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">170<a name="tre-r397-categorie-entite-geographique-exercice-170"> </a></td>
 <td>Halte Garderie</td>
@@ -2854,6 +3012,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Halte-garderie</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">171<a name="tre-r397-categorie-entite-geographique-exercice-171"> </a></td>
 <td>Garderie et Jardin d'Enfants</td>
@@ -2870,6 +3029,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Garderie Jardin Enf.</td></tr>
 <tr><td style="white-space:nowrap">172<a name="tre-r397-categorie-entite-geographique-exercice-172"> </a></td>
 <td>Pouponnière à Caractère Social</td>
@@ -2884,6 +3044,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>Pouponnière Car.Soc.</td></tr>
@@ -2902,6 +3063,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Pouponnière Car.San.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">174<a name="tre-r397-categorie-entite-geographique-exercice-174"> </a></td>
 <td>Etablissement d'Accueil Collectif Régulier et Occasionnel</td>
@@ -2918,6 +3080,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Acc.Collect.Rég&amp;Occ.</td></tr>
 <tr><td style="white-space:nowrap">175<a name="tre-r397-categorie-entite-geographique-exercice-175"> </a></td>
 <td>Foyer de l'Enfance</td>
@@ -2932,6 +3095,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td></td></tr>
@@ -2950,6 +3114,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td>true</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">177<a name="tre-r397-categorie-entite-geographique-exercice-177"> </a></td>
 <td>Maison d'Enfants à Caractère Social</td>
@@ -2964,6 +3129,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>Mais.Enf.Car.Social</td></tr>
@@ -2982,6 +3148,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td>true</td>
 <td>C.A.A.R.U.D.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">179<a name="tre-r397-categorie-entite-geographique-exercice-179"> </a></td>
 <td>Maison d'Enfants à Caractère Sanitaire Permanente</td>
@@ -2998,6 +3165,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>M.E.C.S. Permanente</td></tr>
 <tr><td style="white-space:nowrap">180<a name="tre-r397-categorie-entite-geographique-exercice-180"> </a></td>
 <td>Lits Halte Soins Santé (L.H.S.S.)</td>
@@ -3012,6 +3180,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>L.H.S.S.</td></tr>
@@ -3030,6 +3199,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Mais. Fam. Vacances</td></tr>
 <tr><td style="white-space:nowrap">182<a name="tre-r397-categorie-entite-geographique-exercice-182"> </a></td>
 <td>Service d'Éducation Spéciale et de Soins à Domicile</td>
@@ -3044,6 +3214,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>S.E.S.S.A.D.</td></tr>
@@ -3062,6 +3233,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td>true</td>
 <td>I.M.E.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">184<a name="tre-r397-categorie-entite-geographique-exercice-184"> </a></td>
 <td>Institut Médico-Pédagogique (I.M.P.)</td>
@@ -3078,6 +3250,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td></td>
 <td>I.M.P.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">185<a name="tre-r397-categorie-entite-geographique-exercice-185"> </a></td>
 <td>Institut Médico-Professionnel (I.M.Pro.)</td>
@@ -3094,6 +3267,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>I.M.Pro.</td></tr>
 <tr><td style="white-space:nowrap">186<a name="tre-r397-categorie-entite-geographique-exercice-186"> </a></td>
 <td>Institut Thérapeutique Éducatif et Pédagogique (I.T.E.P.)</td>
@@ -3108,6 +3282,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>I.T.E.P.</td></tr>
@@ -3126,6 +3301,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td>true</td>
 <td>Etab.Enf.ado.Poly.</td></tr>
 <tr><td style="white-space:nowrap">189<a name="tre-r397-categorie-entite-geographique-exercice-189"> </a></td>
 <td>Centre Médico-Psycho-Pédagogique (C.M.P.P.)</td>
@@ -3140,6 +3316,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>C.M.P.P.</td></tr>
@@ -3158,6 +3335,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td>true</td>
 <td>C.A.M.S.P.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">191<a name="tre-r397-categorie-entite-geographique-exercice-191"> </a></td>
 <td>Etablissement pour Déficients Moteurs Cérébraux</td>
@@ -3174,6 +3352,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Etab.Déf.Mot.Céréb.</td></tr>
 <tr><td style="white-space:nowrap">192<a name="tre-r397-categorie-entite-geographique-exercice-192"> </a></td>
 <td>Institut d'éducation motrice</td>
@@ -3188,6 +3367,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>I.E.M.</td></tr>
@@ -3206,6 +3386,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Etab.Déf.Mot.Déf.M.C</td></tr>
 <tr><td style="white-space:nowrap">194<a name="tre-r397-categorie-entite-geographique-exercice-194"> </a></td>
 <td>Institut pour Déficients Visuels</td>
@@ -3220,6 +3401,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>Inst.Déf.Visuels</td></tr>
@@ -3238,6 +3420,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td>true</td>
 <td>Inst.Déf.Auditifs</td></tr>
 <tr><td style="white-space:nowrap">196<a name="tre-r397-categorie-entite-geographique-exercice-196"> </a></td>
 <td>Institut d'Education Sensorielle Sourd-Aveugle</td>
@@ -3252,6 +3435,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>Inst.Ed.Sen.Sour.Ave</td></tr>
@@ -3270,6 +3454,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td>true</td>
 <td>C.S.A.P.A.</td></tr>
 <tr><td style="white-space:nowrap">198<a name="tre-r397-categorie-entite-geographique-exercice-198"> </a></td>
 <td>Établissement et Service de Préorientation</td>
@@ -3284,6 +3469,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>Etab.Serv.Préorient.</td></tr>
@@ -3302,6 +3488,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">200<a name="tre-r397-categorie-entite-geographique-exercice-200"> </a></td>
 <td>Maison de Retraite</td>
@@ -3318,6 +3505,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">202<a name="tre-r397-categorie-entite-geographique-exercice-202"> </a></td>
 <td>Résidences autonomie</td>
@@ -3332,6 +3520,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td></td></tr>
@@ -3350,6 +3539,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Foyer Club Restaur.</td></tr>
 <tr><td style="white-space:nowrap">207<a name="tre-r397-categorie-entite-geographique-exercice-207"> </a></td>
 <td>Centre de Jour pour Personnes Agées</td>
@@ -3364,6 +3554,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>Ctre.de Jour P.A.</td></tr>
@@ -3382,6 +3573,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Serv.Aide Ménag.Dom.</td></tr>
 <tr><td style="white-space:nowrap">209<a name="tre-r397-categorie-entite-geographique-exercice-209"> </a></td>
 <td>Service autonomie aide et soins (SAAS)</td>
@@ -3396,6 +3588,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>S.A.A.S.</td></tr>
@@ -3414,6 +3607,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Alarm.Médico-Sociale</td></tr>
 <tr><td style="white-space:nowrap">213<a name="tre-r397-categorie-entite-geographique-exercice-213"> </a></td>
 <td>Lits d'Accueil Médicalisés (L.A.M.)</td>
@@ -3428,6 +3622,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>L.A.M.</td></tr>
@@ -3446,6 +3641,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td>true</td>
 <td>C.H.R.S.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">215<a name="tre-r397-categorie-entite-geographique-exercice-215"> </a></td>
 <td>Maison Relai</td>
@@ -3462,6 +3658,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Maison relais</td></tr>
 <tr><td style="white-space:nowrap">216<a name="tre-r397-categorie-entite-geographique-exercice-216"> </a></td>
 <td>Résidence Hôtelière à Vocation Sociale (R.H.V.S)</td>
@@ -3476,6 +3673,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>R.H.V.S.</td></tr>
@@ -3494,6 +3692,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">218<a name="tre-r397-categorie-entite-geographique-exercice-218"> </a></td>
 <td>Aire Station Nomades</td>
@@ -3510,6 +3709,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">219<a name="tre-r397-categorie-entite-geographique-exercice-219"> </a></td>
 <td>Autre Centre d'Accueil</td>
@@ -3524,6 +3724,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>Autre Ctre.Accueil</td></tr>
@@ -3542,6 +3743,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Ctre.Social</td></tr>
 <tr><td style="white-space:nowrap">221<a name="tre-r397-categorie-entite-geographique-exercice-221"> </a></td>
 <td>Bureau d'Aide Psychologique Universitaire (B.A.P.U.)</td>
@@ -3556,6 +3758,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>B.A.P.U.</td></tr>
@@ -3574,6 +3777,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td>true</td>
 <td>P.M.I.</td></tr>
 <tr><td style="white-space:nowrap">224<a name="tre-r397-categorie-entite-geographique-exercice-224"> </a></td>
 <td>Etablissement de Consultation Pré et Post-natale</td>
@@ -3588,6 +3792,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>Etab.Cons.P.Post-Nat</td></tr>
@@ -3606,6 +3811,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Consult.Nourrissons</td></tr>
 <tr><td style="white-space:nowrap">228<a name="tre-r397-categorie-entite-geographique-exercice-228"> </a></td>
 <td>Centre de Santé Sexuelle</td>
@@ -3620,6 +3826,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>Ctre.Santé.Sexuelle</td></tr>
@@ -3638,6 +3845,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Consult. Prob.Naiss.</td></tr>
 <tr><td style="white-space:nowrap">230<a name="tre-r397-categorie-entite-geographique-exercice-230"> </a></td>
 <td>Etablissement Consultation Protection Infantile</td>
@@ -3652,6 +3860,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>Etab.Consul.Pro.Inf.</td></tr>
@@ -3670,6 +3879,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td>true</td>
 <td>Etab.Inf.Consult.Fam</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">233<a name="tre-r397-categorie-entite-geographique-exercice-233"> </a></td>
 <td>Lactarium</td>
@@ -3686,6 +3896,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">236<a name="tre-r397-categorie-entite-geographique-exercice-236"> </a></td>
 <td>Centre Placement Familial Socio-Educatif (C.P.F.S.E.)</td>
@@ -3700,6 +3911,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>C.P.F.S.E.</td></tr>
@@ -3718,6 +3930,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Ctre. Plac.Fam.Spé.</td></tr>
 <tr><td style="white-space:nowrap">238<a name="tre-r397-categorie-entite-geographique-exercice-238"> </a></td>
 <td>Centre d'Accueil Familial Spécialisé</td>
@@ -3732,6 +3945,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>Ctre.Acc.Fam.Spécia.</td></tr>
@@ -3750,6 +3964,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td>true</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">242<a name="tre-r397-categorie-entite-geographique-exercice-242"> </a></td>
 <td>Service d’Activité de Jour</td>
@@ -3764,6 +3979,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td></td></tr>
@@ -3782,6 +3998,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td>true</td>
 <td>E.S.A.T.</td></tr>
 <tr><td style="white-space:nowrap">247<a name="tre-r397-categorie-entite-geographique-exercice-247"> </a></td>
 <td>Entreprise adaptée</td>
@@ -3796,6 +4013,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td></td></tr>
@@ -3814,6 +4032,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td>true</td>
 <td>Etab.Serv.Réadap.Pro</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">250<a name="tre-r397-categorie-entite-geographique-exercice-250"> </a></td>
 <td>Centre Réentrainement au travail</td>
@@ -3830,6 +4049,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Ctre.Réentr.Travail</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">251<a name="tre-r397-categorie-entite-geographique-exercice-251"> </a></td>
 <td>Maison Vacances pour Handicapés</td>
@@ -3846,6 +4066,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Maison Vac.handicap.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">252<a name="tre-r397-categorie-entite-geographique-exercice-252"> </a></td>
 <td>Foyer Hébergement Adultes Handicapés</td>
@@ -3862,6 +4083,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td></td>
 <td>Foyer Héberg.A.H.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">253<a name="tre-r397-categorie-entite-geographique-exercice-253"> </a></td>
 <td>Foyer d'Accueil Polyvalent pour Adultes Handicapés</td>
@@ -3878,6 +4100,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td></td>
 <td>Foyer Poly.A.H.</td></tr>
 <tr><td style="white-space:nowrap">255<a name="tre-r397-categorie-entite-geographique-exercice-255"> </a></td>
 <td>Maison d'Accueil Spécialisée (M.A.S.)</td>
@@ -3892,6 +4115,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>M.A.S.</td></tr>
@@ -3910,6 +4134,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td>true</td>
 <td>Foyer Trav. Migrants</td></tr>
 <tr><td style="white-space:nowrap">257<a name="tre-r397-categorie-entite-geographique-exercice-257"> </a></td>
 <td>Foyers de jeunes travailleurs</td>
@@ -3924,6 +4149,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>F.J.T.</td></tr>
@@ -3942,6 +4168,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td>true</td>
 <td>Maisons Relais-Pens.</td></tr>
 <tr><td style="white-space:nowrap">259<a name="tre-r397-categorie-entite-geographique-exercice-259"> </a></td>
 <td>Autres résidences sociales</td>
@@ -3956,6 +4183,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td></td></tr>
@@ -3974,6 +4202,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>DDASS</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">262<a name="tre-r397-categorie-entite-geographique-exercice-262"> </a></td>
 <td>Etablissement Régional d'Enseignement Adapté</td>
@@ -3990,6 +4219,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>E.R.E.A.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">265<a name="tre-r397-categorie-entite-geographique-exercice-265"> </a></td>
 <td>Section Education Spéciale Classe Atelier</td>
@@ -4006,6 +4236,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Sect.Educ. Spéc.Clas</td></tr>
 <tr><td style="white-space:nowrap">266<a name="tre-r397-categorie-entite-geographique-exercice-266"> </a></td>
 <td>Dispensaire Antivénérien</td>
@@ -4022,6 +4253,7 @@
 <td></td>
 <td>true, true</td>
 <td>true, true</td>
+<td>true</td>
 <td>Disp.Antivénérien</td></tr>
 <tr><td style="white-space:nowrap">267<a name="tre-r397-categorie-entite-geographique-exercice-267"> </a></td>
 <td>Dispensaire Antihansénien</td>
@@ -4038,6 +4270,7 @@
 <td></td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>Disp.Antihansénien</td></tr>
 <tr><td style="white-space:nowrap">268<a name="tre-r397-categorie-entite-geographique-exercice-268"> </a></td>
 <td>Centre Médico-Scolaire</td>
@@ -4052,6 +4285,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>Ctre.Médico-Scolaire</td></tr>
@@ -4070,6 +4304,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td>true</td>
 <td>Ctre.Méd.Universit.</td></tr>
 <tr><td style="white-space:nowrap">270<a name="tre-r397-categorie-entite-geographique-exercice-270"> </a></td>
 <td>Centre de Médecine Sportive</td>
@@ -4084,6 +4319,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>Ctre.Méd.Sportive</td></tr>
@@ -4102,6 +4338,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td>true</td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">272<a name="tre-r397-categorie-entite-geographique-exercice-272"> </a></td>
 <td>Ecole d'ambulanciers</td>
@@ -4118,6 +4355,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">273<a name="tre-r397-categorie-entite-geographique-exercice-273"> </a></td>
 <td>Institut de formation en soins infirmiers (I.F.S.I.)</td>
@@ -4134,6 +4372,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>I.F.S.I.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">274<a name="tre-r397-categorie-entite-geographique-exercice-274"> </a></td>
 <td>Ecole de sages_femmes</td>
@@ -4150,6 +4389,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Ecole sages-femmes</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">275<a name="tre-r397-categorie-entite-geographique-exercice-275"> </a></td>
 <td>Ecole de masseurs-kinésithérapeutes</td>
@@ -4166,6 +4406,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Ecole masseurs-kiné</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">276<a name="tre-r397-categorie-entite-geographique-exercice-276"> </a></td>
 <td>Ecole de laborantins d'analyses médicales</td>
@@ -4182,6 +4423,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Ecole laborantins am</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">277<a name="tre-r397-categorie-entite-geographique-exercice-277"> </a></td>
 <td>Ecole de péricultrices</td>
@@ -4198,6 +4440,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Ecole péricultrices</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">278<a name="tre-r397-categorie-entite-geographique-exercice-278"> </a></td>
 <td>Etablissement de formation polyvalent</td>
@@ -4214,6 +4457,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Etab.frm.polyvalent</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">279<a name="tre-r397-categorie-entite-geographique-exercice-279"> </a></td>
 <td>Ecole de service social</td>
@@ -4230,6 +4474,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Ecole service social</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">280<a name="tre-r397-categorie-entite-geographique-exercice-280"> </a></td>
 <td>Ecole d'éducateurs spécialisés</td>
@@ -4246,6 +4491,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Ecole éduc. spé.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">281<a name="tre-r397-categorie-entite-geographique-exercice-281"> </a></td>
 <td>Centre de formation d'aides soignants</td>
@@ -4262,6 +4508,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Ctre.frm.aides soig</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">282<a name="tre-r397-categorie-entite-geographique-exercice-282"> </a></td>
 <td>Ecole de pédicures-podologues</td>
@@ -4278,6 +4525,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Ecole pédi.podo</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">283<a name="tre-r397-categorie-entite-geographique-exercice-283"> </a></td>
 <td>Ecole de manipulateurs d'électro-radiologie</td>
@@ -4294,6 +4542,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Ecole manip.é-rad</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">284<a name="tre-r397-categorie-entite-geographique-exercice-284"> </a></td>
 <td>Ecole de travailleuses familiales</td>
@@ -4310,6 +4559,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Ecole trav.famil.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">285<a name="tre-r397-categorie-entite-geographique-exercice-285"> </a></td>
 <td>Centres de Loisirs sans Hébergement</td>
@@ -4326,6 +4576,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Ctre.Loisirs ss.Héb.</td></tr>
 <tr><td style="white-space:nowrap">286<a name="tre-r397-categorie-entite-geographique-exercice-286"> </a></td>
 <td>Club Equipe de Prévention</td>
@@ -4340,6 +4591,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>Club Equipe de Prév.</td></tr>
@@ -4358,6 +4610,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Ctre.Soins Infirm.</td></tr>
 <tr><td style="white-space:nowrap">292<a name="tre-r397-categorie-entite-geographique-exercice-292"> </a></td>
 <td>Centre Hospitalier Spécialisé lutte Maladies Mentales</td>
@@ -4372,6 +4625,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>C.H.S. Mal.Mentales</td></tr>
@@ -4390,6 +4644,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td>true</td>
 <td>Ctre.Consul.Cancer</td></tr>
 <tr><td style="white-space:nowrap">295<a name="tre-r397-categorie-entite-geographique-exercice-295"> </a></td>
 <td>Service AEMO et AED</td>
@@ -4404,6 +4659,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td></td></tr>
@@ -4422,6 +4678,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Disp. Polyvalent</td></tr>
 <tr><td style="white-space:nowrap">300<a name="tre-r397-categorie-entite-geographique-exercice-300"> </a></td>
 <td>Ecoles Formant aux Professions Sanitaires</td>
@@ -4436,6 +4693,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>Ecoles sanitaires</td></tr>
@@ -4454,6 +4712,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Ecole C.E.S.F.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">304<a name="tre-r397-categorie-entite-geographique-exercice-304"> </a></td>
 <td>Ecole d'ergothérapeutes</td>
@@ -4470,6 +4729,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Ecole ergothérap.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">305<a name="tre-r397-categorie-entite-geographique-exercice-305"> </a></td>
 <td>Ecole de psycho-motriciens</td>
@@ -4486,6 +4746,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Ecole psycho-motric.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">306<a name="tre-r397-categorie-entite-geographique-exercice-306"> </a></td>
 <td>Ecole d'infirmiers anesthésistes</td>
@@ -4502,6 +4763,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Ecole inf.anesth.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">307<a name="tre-r397-categorie-entite-geographique-exercice-307"> </a></td>
 <td>Ecole d'infirmiers de bloc opératoire</td>
@@ -4518,6 +4780,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Ecole inf. bloc op.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">308<a name="tre-r397-categorie-entite-geographique-exercice-308"> </a></td>
 <td>Centre de formation professionnelle de secteur psychiatrique</td>
@@ -4534,6 +4797,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Ctre frm.pro.sec.psy</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">309<a name="tre-r397-categorie-entite-geographique-exercice-309"> </a></td>
 <td>Ecole de cadres infirmiers</td>
@@ -4550,6 +4814,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Ecole cdr.inf.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">310<a name="tre-r397-categorie-entite-geographique-exercice-310"> </a></td>
 <td>Ecole de cadres de secteur psychiatrique</td>
@@ -4566,6 +4831,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Ecole cdr.sect.psy.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">311<a name="tre-r397-categorie-entite-geographique-exercice-311"> </a></td>
 <td>Ecole de cadres de masseurs-kinésithérapeutes</td>
@@ -4582,6 +4848,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Ecole cdr.mass-kiné.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">312<a name="tre-r397-categorie-entite-geographique-exercice-312"> </a></td>
 <td>Ecole de cadres de manipulateurs d'électro-radiologie</td>
@@ -4598,6 +4865,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Ecole cdr.mani.é-rad</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">313<a name="tre-r397-categorie-entite-geographique-exercice-313"> </a></td>
 <td>Ecole d'éducateurs de jeunes enfants</td>
@@ -4614,6 +4882,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Ecole éduc.j.enf</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">314<a name="tre-r397-categorie-entite-geographique-exercice-314"> </a></td>
 <td>Ecole d'éducateurs techniques spécialisés</td>
@@ -4630,6 +4899,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Ecole éduc.tech.spé.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">315<a name="tre-r397-categorie-entite-geographique-exercice-315"> </a></td>
 <td>Ecole de moniteurs-éducateurs</td>
@@ -4646,6 +4916,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Ecole moniteurs-éduc</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">316<a name="tre-r397-categorie-entite-geographique-exercice-316"> </a></td>
 <td>Ecole d'aides médico-psychologiques</td>
@@ -4662,6 +4933,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Ecole aid.méd-psycho</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">317<a name="tre-r397-categorie-entite-geographique-exercice-317"> </a></td>
 <td>Ecole d'animateurs socio-éducatifs</td>
@@ -4678,6 +4950,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Ecole ani.socio-éduc</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">319<a name="tre-r397-categorie-entite-geographique-exercice-319"> </a></td>
 <td>Inst. régional de formation des travailleurs sociaux</td>
@@ -4694,6 +4967,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>I.R.F.T.S.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">320<a name="tre-r397-categorie-entite-geographique-exercice-320"> </a></td>
 <td>S.A.M.U. et Centre 15</td>
@@ -4710,6 +4984,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>S.A.M.U et Centre 15</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">321<a name="tre-r397-categorie-entite-geographique-exercice-321"> </a></td>
 <td>Unité Mobile Hospitalière</td>
@@ -4726,6 +5001,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Unité Mobile Hosp.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">322<a name="tre-r397-categorie-entite-geographique-exercice-322"> </a></td>
 <td>Centre Rég.Informatiq.Hospit.</td>
@@ -4742,6 +5018,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Ctre.Rég.Infor.Hosp.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">324<a name="tre-r397-categorie-entite-geographique-exercice-324"> </a></td>
 <td>Logement Foyer non Spécialisé</td>
@@ -4758,6 +5035,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Log.Foyer non Spéc.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">326<a name="tre-r397-categorie-entite-geographique-exercice-326"> </a></td>
 <td>Ecole de cadres</td>
@@ -4774,6 +5052,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">327<a name="tre-r397-categorie-entite-geographique-exercice-327"> </a></td>
 <td>Service d'Ambulances</td>
@@ -4790,6 +5069,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Serv.Ambulances</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">328<a name="tre-r397-categorie-entite-geographique-exercice-328"> </a></td>
 <td>Centre Consultation Soins Dentaire</td>
@@ -4806,6 +5086,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Ctre.Cons.Soins.Dent</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">329<a name="tre-r397-categorie-entite-geographique-exercice-329"> </a></td>
 <td>Sectorisation Psychiatrique</td>
@@ -4822,6 +5103,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Sectorisation Psy.</td></tr>
 <tr><td style="white-space:nowrap">330<a name="tre-r397-categorie-entite-geographique-exercice-330"> </a></td>
 <td>Ecoles Formant aux Professions Sociales</td>
@@ -4836,6 +5118,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>Ecoles sociales</td></tr>
@@ -4854,6 +5137,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td>true</td>
 <td>M.J.P.M.</td></tr>
 <tr><td style="white-space:nowrap">341<a name="tre-r397-categorie-entite-geographique-exercice-341"> </a></td>
 <td>Service dédié mesures d'accompagnement social personnalisé</td>
@@ -4868,6 +5152,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>M.A.S.P.</td></tr>
@@ -4886,6 +5171,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td>true</td>
 <td>S.I.S.T.F.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">343<a name="tre-r397-categorie-entite-geographique-exercice-343"> </a></td>
 <td>Equipe Préparation et Suite Reclassement (EPSR)</td>
@@ -4902,6 +5188,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>E.P.S.R.</td></tr>
 <tr><td style="white-space:nowrap">344<a name="tre-r397-categorie-entite-geographique-exercice-344"> </a></td>
 <td>Service délégué aux prestations familiales</td>
@@ -4916,6 +5203,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>D.P.F.</td></tr>
@@ -4934,6 +5222,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Serv.Tut.Prest.Soc.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">346<a name="tre-r397-categorie-entite-geographique-exercice-346"> </a></td>
 <td>Service de Travailleuses Familiales</td>
@@ -4950,6 +5239,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Serv.Trav.Familiales</td></tr>
 <tr><td style="white-space:nowrap">347<a name="tre-r397-categorie-entite-geographique-exercice-347"> </a></td>
 <td>Centre d'Examens de Santé</td>
@@ -4964,6 +5254,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>Ctre.Examens Santé</td></tr>
@@ -4982,6 +5273,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Ecole cdr.sg-femmes</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">350<a name="tre-r397-categorie-entite-geographique-exercice-350"> </a></td>
 <td>Centre de formation d'auxiliaires de puériculture</td>
@@ -4998,6 +5290,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Ctre frm.auxi.puéri</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">352<a name="tre-r397-categorie-entite-geographique-exercice-352"> </a></td>
 <td>Centre de Psychothérapie</td>
@@ -5014,6 +5307,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Ctre.Psychothérapie</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">353<a name="tre-r397-categorie-entite-geographique-exercice-353"> </a></td>
 <td>Hôpital de Jour Spécialités Médicales</td>
@@ -5030,6 +5324,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Hop.Jour Spéc.Méd.</td></tr>
 <tr><td style="white-space:nowrap">354<a name="tre-r397-categorie-entite-geographique-exercice-354"> </a></td>
 <td>Service de Soins Infirmiers A Domicile (S.S.I.A.D)</td>
@@ -5044,6 +5339,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>S.S.I.A.D.</td></tr>
@@ -5062,6 +5358,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td>true</td>
 <td>C.H.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">357<a name="tre-r397-categorie-entite-geographique-exercice-357"> </a></td>
 <td>Association Aide aux Insuffisants Respiratoires</td>
@@ -5078,6 +5375,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Assoc.Aide Ins.Resp.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">359<a name="tre-r397-categorie-entite-geographique-exercice-359"> </a></td>
 <td>Centre Circonscription Sanitaire et Sociale</td>
@@ -5094,6 +5392,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Ctre.Circons.San.Soc</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">361<a name="tre-r397-categorie-entite-geographique-exercice-361"> </a></td>
 <td>Centre de Cure Médicale</td>
@@ -5110,6 +5409,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Ctre.Cure Médicale</td></tr>
 <tr><td style="white-space:nowrap">362<a name="tre-r397-categorie-entite-geographique-exercice-362"> </a></td>
 <td>Etablissement de Soins Longue Durée</td>
@@ -5124,6 +5424,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>Etab.Soins Long.Dur.</td></tr>
@@ -5142,6 +5443,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Ctre.moyen et long</td></tr>
 <tr><td style="white-space:nowrap">365<a name="tre-r397-categorie-entite-geographique-exercice-365"> </a></td>
 <td>Etablissement de Soins Pluridisciplinaire</td>
@@ -5156,6 +5458,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>Etab.Soins Pluridis.</td></tr>
@@ -5174,6 +5477,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td>true</td>
 <td>Atelier Thérapeut.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">367<a name="tre-r397-categorie-entite-geographique-exercice-367"> </a></td>
 <td>Maison d'Enfants non Conventionnée ni Habilitée</td>
@@ -5190,6 +5494,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Mais.Enfant n.C.n.H</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">368<a name="tre-r397-categorie-entite-geographique-exercice-368"> </a></td>
 <td>Service de Repas à Domicile</td>
@@ -5206,6 +5511,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Serv.Repas Domicile</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">369<a name="tre-r397-categorie-entite-geographique-exercice-369"> </a></td>
 <td>Centre Adaptation Vie Active (C.A.V.A.)</td>
@@ -5222,6 +5528,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>C.A.V.A.</td></tr>
 <tr><td style="white-space:nowrap">370<a name="tre-r397-categorie-entite-geographique-exercice-370"> </a></td>
 <td>Etablissement Expérimental pour personnes handicapées</td>
@@ -5236,6 +5543,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>Etab.Expérim. pour PH</td></tr>
@@ -5254,6 +5562,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Serv.Act.Soc-Educ.F.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">373<a name="tre-r397-categorie-entite-geographique-exercice-373"> </a></td>
 <td>Centre de formation supérieure des travailleurs sociaux</td>
@@ -5270,6 +5579,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Ctre frm.sup.trv.scx</td></tr>
 <tr><td style="white-space:nowrap">374<a name="tre-r397-categorie-entite-geographique-exercice-374"> </a></td>
 <td>Ecole Nationale Santé Publique (E.N.S.P.)</td>
@@ -5284,6 +5594,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>E.N.S.P.</td></tr>
@@ -5302,6 +5613,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">376<a name="tre-r397-categorie-entite-geographique-exercice-376"> </a></td>
 <td>Classe Spéciale Ecole Primaire</td>
@@ -5318,6 +5630,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Classe Spéc.Ecole.Pr</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">377<a name="tre-r397-categorie-entite-geographique-exercice-377"> </a></td>
 <td>Etablissement Expérimental pour Enfance Handicapée</td>
@@ -5334,6 +5647,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td></td>
 <td>Etab.Expér.Enf.Hand.</td></tr>
 <tr><td style="white-space:nowrap">378<a name="tre-r397-categorie-entite-geographique-exercice-378"> </a></td>
 <td>Etablissement Expérimental Enfance Protégée</td>
@@ -5348,6 +5662,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>Etab.Expér.Enf.Prot.</td></tr>
@@ -5366,6 +5681,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td></td>
 <td>Etab.Expér.A.H.</td></tr>
 <tr><td style="white-space:nowrap">380<a name="tre-r397-categorie-entite-geographique-exercice-380"> </a></td>
 <td>Etablissement Expérimental Autres Adultes</td>
@@ -5380,6 +5696,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>Etab.Expér.Autre.A.</td></tr>
@@ -5398,6 +5715,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td>true</td>
 <td>Etab.Expér.P.A.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">382<a name="tre-r397-categorie-entite-geographique-exercice-382"> </a></td>
 <td>Foyer de Vie pour Adultes Handicapés</td>
@@ -5414,6 +5732,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td></td>
 <td>Foyer de vie A.H.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">386<a name="tre-r397-categorie-entite-geographique-exercice-386"> </a></td>
 <td>Ecole Secondaire Spéciale</td>
@@ -5430,6 +5749,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Ecole Secondaire Spé</td></tr>
 <tr><td style="white-space:nowrap">390<a name="tre-r397-categorie-entite-geographique-exercice-390"> </a></td>
 <td>Etablissement d'Accueil Temporaire d'Enfants Handicapés</td>
@@ -5444,6 +5764,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>Etab.Acc.Temp.E.H.</td></tr>
@@ -5462,6 +5783,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Aut.res.But luc.PA</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">394<a name="tre-r397-categorie-entite-geographique-exercice-394"> </a></td>
 <td>Etablissement d'Accueil Temporaire pour Personnes Agées</td>
@@ -5478,6 +5800,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Etab.Acc.Temp.P.A.</td></tr>
 <tr><td style="white-space:nowrap">395<a name="tre-r397-categorie-entite-geographique-exercice-395"> </a></td>
 <td>Etablissement d'Accueil Temporaire pour Adultes Handicapés</td>
@@ -5492,6 +5815,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>Etab.Acc.Temp.A.H.</td></tr>
@@ -5510,6 +5834,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td>true</td>
 <td>Foyer Heb.Enf.Ado.H.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">397<a name="tre-r397-categorie-entite-geographique-exercice-397"> </a></td>
 <td>Service Auxiliaire de Vie pour Handicapés</td>
@@ -5526,6 +5851,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Serv.Auxil.Vie Hand.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">398<a name="tre-r397-categorie-entite-geographique-exercice-398"> </a></td>
 <td>Crèche Parentale</td>
@@ -5542,6 +5868,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">399<a name="tre-r397-categorie-entite-geographique-exercice-399"> </a></td>
 <td>Halte Garderie Parentale</td>
@@ -5558,6 +5885,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Halte Garderie Par.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">400<a name="tre-r397-categorie-entite-geographique-exercice-400"> </a></td>
 <td>Centre de Services pour Associations</td>
@@ -5574,6 +5902,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Ctre.Services Assoc.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">401<a name="tre-r397-categorie-entite-geographique-exercice-401"> </a></td>
 <td>D.R.A.S.S.</td>
@@ -5590,6 +5919,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>DRASS</td></tr>
 <tr><td style="white-space:nowrap">402<a name="tre-r397-categorie-entite-geographique-exercice-402"> </a></td>
 <td>Jardin d'Enfants Spécialisé</td>
@@ -5604,6 +5934,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>Jardin Enfants Spéc.</td></tr>
@@ -5622,6 +5953,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Serv.Soc.Spéc.Pol.Ca</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">404<a name="tre-r397-categorie-entite-geographique-exercice-404"> </a></td>
 <td>Etablissement Acc.Collect.Parental Régulier &amp; Occasionnel</td>
@@ -5638,6 +5970,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Etab.Acc.Parental</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">405<a name="tre-r397-categorie-entite-geographique-exercice-405"> </a></td>
 <td>Service Social Polyvalent de Secteur</td>
@@ -5654,6 +5987,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Serv.Soc.Polyv.Sect.</td></tr>
 <tr><td style="white-space:nowrap">411<a name="tre-r397-categorie-entite-geographique-exercice-411"> </a></td>
 <td>Intermédiaire de Placement Social</td>
@@ -5668,6 +6002,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>Interméd.Pla.Social</td></tr>
@@ -5686,6 +6021,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td>true</td>
 <td>Appart.Thérapeutique</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">413<a name="tre-r397-categorie-entite-geographique-exercice-413"> </a></td>
 <td>C.E.C.O.S</td>
@@ -5702,6 +6038,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Centres d'études et de conservation des oeufs et du sperme</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">414<a name="tre-r397-categorie-entite-geographique-exercice-414"> </a></td>
 <td>Centre Anti Poison</td>
@@ -5718,6 +6055,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Centre antipoison</td></tr>
 <tr><td style="white-space:nowrap">415<a name="tre-r397-categorie-entite-geographique-exercice-415"> </a></td>
 <td>Service Médico-Psychologique Régional (S.M.P.R.)</td>
@@ -5732,6 +6070,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>S.M.P.R.</td></tr>
@@ -5750,6 +6089,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Serv.Enq.Sociales</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">419<a name="tre-r397-categorie-entite-geographique-exercice-419"> </a></td>
 <td>Centre d'Accueil Toxicomanes</td>
@@ -5766,6 +6106,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Ctre.Acc.Toxico.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">420<a name="tre-r397-categorie-entite-geographique-exercice-420"> </a></td>
 <td>Entreprise d'Insertion</td>
@@ -5782,6 +6123,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Entreprise Insertion</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">421<a name="tre-r397-categorie-entite-geographique-exercice-421"> </a></td>
 <td>Centre d'enseignement aux secours d'urgence</td>
@@ -5798,6 +6140,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>C.E.S.U.</td></tr>
 <tr><td style="white-space:nowrap">422<a name="tre-r397-categorie-entite-geographique-exercice-422"> </a></td>
 <td>Traitements Spécialisés à Domicile</td>
@@ -5812,6 +6155,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>Trait.Spéc.Domicile</td></tr>
@@ -5830,6 +6174,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Ecole cdr.labor.am</td></tr>
 <tr><td style="white-space:nowrap">425<a name="tre-r397-categorie-entite-geographique-exercice-425"> </a></td>
 <td>Centre d'Accueil Thérapeutique à temps partiel (C.A.T.T.P.)</td>
@@ -5844,6 +6189,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>C.A.T.T.P.</td></tr>
@@ -5862,6 +6208,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td>true</td>
 <td>S.I.H.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">427<a name="tre-r397-categorie-entite-geographique-exercice-427"> </a></td>
 <td>Service Educatif Auprès des Tribunaux (S.E.A.T.)</td>
@@ -5878,6 +6225,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>S.E.A.T.</td></tr>
 <tr><td style="white-space:nowrap">430<a name="tre-r397-categorie-entite-geographique-exercice-430"> </a></td>
 <td>Centre Postcure Malades Mentaux</td>
@@ -5892,6 +6240,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>Ctre.P-Cure Mal.Men.</td></tr>
@@ -5910,6 +6259,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Ctre.P-Cure Alcool.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">432<a name="tre-r397-categorie-entite-geographique-exercice-432"> </a></td>
 <td>Centre Postcure pour Toxicomanes</td>
@@ -5926,6 +6276,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Ctre.P-Cure Toxico.</td></tr>
 <tr><td style="white-space:nowrap">433<a name="tre-r397-categorie-entite-geographique-exercice-433"> </a></td>
 <td>Etablissement Sanitaire des Prisons</td>
@@ -5940,6 +6291,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>Etab.Sanit.Prisons</td></tr>
@@ -5958,6 +6310,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Classe Spéc.Ec.Mat.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">435<a name="tre-r397-categorie-entite-geographique-exercice-435"> </a></td>
 <td>Centre de formation d'aide à domicile</td>
@@ -5974,6 +6327,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Ctre frm.aide dom.</td></tr>
 <tr><td style="white-space:nowrap">436<a name="tre-r397-categorie-entite-geographique-exercice-436"> </a></td>
 <td>Ecoles Formant aux Professions Sanitaires et Sociales</td>
@@ -5988,6 +6342,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>Ecoles Pluriprof.</td></tr>
@@ -6006,6 +6361,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td></td>
 <td>F.A.M.</td></tr>
 <tr><td style="white-space:nowrap">438<a name="tre-r397-categorie-entite-geographique-exercice-438"> </a></td>
 <td>Centre de Médecine collective</td>
@@ -6020,6 +6376,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>Ctre.Méd.Collect.</td></tr>
@@ -6038,6 +6395,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td></td>
 <td>Ctre.Santé Polyv.</td></tr>
 <tr><td style="white-space:nowrap">440<a name="tre-r397-categorie-entite-geographique-exercice-440"> </a></td>
 <td>Service d’Investigation Educative</td>
@@ -6052,6 +6410,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td></td></tr>
@@ -6070,6 +6429,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td>true</td>
 <td>Service IEMO</td></tr>
 <tr><td style="white-space:nowrap">442<a name="tre-r397-categorie-entite-geographique-exercice-442"> </a></td>
 <td>Centre Provisoire Hébergement (C.P.H.)</td>
@@ -6084,6 +6444,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>C.P.H.</td></tr>
@@ -6102,6 +6463,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td>true</td>
 <td>C.A.D.A.</td></tr>
 <tr><td style="white-space:nowrap">444<a name="tre-r397-categorie-entite-geographique-exercice-444"> </a></td>
 <td>Centre Crise Accueil Permanent</td>
@@ -6116,6 +6478,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>Ctre.Crise Acc.Perm.</td></tr>
@@ -6134,6 +6497,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td>true</td>
 <td>S.A.M.S.A.H.</td></tr>
 <tr><td style="white-space:nowrap">446<a name="tre-r397-categorie-entite-geographique-exercice-446"> </a></td>
 <td>Service d'Accompagnement à la Vie Sociale (S.A.V.S.)</td>
@@ -6148,6 +6512,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>S.A.V.S.</td></tr>
@@ -6166,6 +6531,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Entrep.Intér.Insert.</td></tr>
 <tr><td style="white-space:nowrap">448<a name="tre-r397-categorie-entite-geographique-exercice-448"> </a></td>
 <td>Etab.Acc.Médicalisé en tout ou partie personnes handicapées</td>
@@ -6180,6 +6546,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>E.A.M</td></tr>
@@ -6198,6 +6565,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td>true</td>
 <td>E.A.N.M</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">450<a name="tre-r397-categorie-entite-geographique-exercice-450"> </a></td>
 <td>Service d'Aide aux Personnes Agées</td>
@@ -6214,6 +6582,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Serv.Aide Pers.Agées</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">451<a name="tre-r397-categorie-entite-geographique-exercice-451"> </a></td>
 <td>Service d'Aide aux Familles en Difficulté</td>
@@ -6230,6 +6599,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Serv.Aide Fam.Diff.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">452<a name="tre-r397-categorie-entite-geographique-exercice-452"> </a></td>
 <td>Régie de Quartier</td>
@@ -6246,6 +6616,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">453<a name="tre-r397-categorie-entite-geographique-exercice-453"> </a></td>
 <td>Service de Réparation Pénale</td>
@@ -6262,6 +6633,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Serv.Répar.Pénale</td></tr>
 <tr><td style="white-space:nowrap">460<a name="tre-r397-categorie-entite-geographique-exercice-460"> </a></td>
 <td>Service autonomie aide (SAA)</td>
@@ -6276,6 +6648,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>S.A.A.</td></tr>
@@ -6294,6 +6667,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td>true</td>
 <td>Ctre.Ressources</td></tr>
 <tr><td style="white-space:nowrap">462<a name="tre-r397-categorie-entite-geographique-exercice-462"> </a></td>
 <td>Lieux de Vie et d’Accueil</td>
@@ -6308,6 +6682,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td></td></tr>
@@ -6326,6 +6701,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td>true</td>
 <td>C.L.I.C.</td></tr>
 <tr><td style="white-space:nowrap">464<a name="tre-r397-categorie-entite-geographique-exercice-464"> </a></td>
 <td>Unités Evaluation Réentraînement et d'Orient. Soc. et Pro.</td>
@@ -6340,6 +6716,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>U.E.R.O.S</td></tr>
@@ -6358,6 +6735,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td>true</td>
 <td>EHPAD</td></tr>
 <tr><td style="white-space:nowrap">501<a name="tre-r397-categorie-entite-geographique-exercice-501"> </a></td>
 <td>EHPA percevant des crédits d'assurance maladie</td>
@@ -6372,6 +6750,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>EHPA perc crédit AM</td></tr>
@@ -6390,6 +6769,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td>true</td>
 <td>EHPA sans crédit AM</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">601<a name="tre-r397-categorie-entite-geographique-exercice-601"> </a></td>
 <td>Cabinet Libéral Médical</td>
@@ -6406,6 +6786,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Cabinet Libé.Médical</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">602<a name="tre-r397-categorie-entite-geographique-exercice-602"> </a></td>
 <td>Cabinet de Groupe</td>
@@ -6422,6 +6803,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">603<a name="tre-r397-categorie-entite-geographique-exercice-603"> </a></td>
 <td>Maison de santé (L.6223-3)</td>
@@ -6436,6 +6818,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>Maison de santé</td></tr>
@@ -6454,6 +6837,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td>true</td>
 <td>C.P.T.S.</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">605<a name="tre-r397-categorie-entite-geographique-exercice-605"> </a></td>
 <td>Cabinet d'Auxiliaires Médicaux</td>
@@ -6470,6 +6854,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Cabinet Aux.Médicaux</td></tr>
 <tr><td style="white-space:nowrap">606<a name="tre-r397-categorie-entite-geographique-exercice-606"> </a></td>
 <td>Dispositif d'appui à la coordination (DAC)</td>
@@ -6484,6 +6869,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>D.A.C</td></tr>
@@ -6502,6 +6888,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td>true</td>
 <td>G.R.A.D.e.S</td></tr>
 <tr><td style="white-space:nowrap">608<a name="tre-r397-categorie-entite-geographique-exercice-608"> </a></td>
 <td>Equipe mobile médico-sociale précarité (EMMSP)</td>
@@ -6516,6 +6903,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>E.M.M.S.P</td></tr>
@@ -6534,6 +6922,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td>true</td>
 <td>M.D.P.H</td></tr>
 <tr><td style="white-space:nowrap">610<a name="tre-r397-categorie-entite-geographique-exercice-610"> </a></td>
 <td>Laboratoire d'Analyses</td>
@@ -6548,6 +6937,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>Laboratoire Analyses</td></tr>
@@ -6566,6 +6956,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td>true</td>
 <td>Labo Biolog Médicale</td></tr>
 <tr><td style="white-space:nowrap">612<a name="tre-r397-categorie-entite-geographique-exercice-612"> </a></td>
 <td>Autre Laboratoire de Biologie Médicale sans FSE</td>
@@ -6580,6 +6971,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>Autre Labo sans FSE</td></tr>
@@ -6598,6 +6990,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td>true</td>
 <td>D.S.R.C.</td></tr>
 <tr><td style="white-space:nowrap">616<a name="tre-r397-categorie-entite-geographique-exercice-616"> </a></td>
 <td>Services de Prévention et de Santé au Travail (SPST)</td>
@@ -6612,6 +7005,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>S.P.S.T.</td></tr>
@@ -6630,6 +7024,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td>true</td>
 <td>MMG</td></tr>
 <tr><td style="white-space:nowrap">618<a name="tre-r397-categorie-entite-geographique-exercice-618"> </a></td>
 <td>Autre structure de soins non programmés (SNP)</td>
@@ -6646,6 +7041,7 @@
 <td>true</td>
 <td>true</td>
 <td>true</td>
+<td></td>
 <td>Autre structure de SNP</td></tr>
 <tr><td style="white-space:nowrap">620<a name="tre-r397-categorie-entite-geographique-exercice-620"> </a></td>
 <td>Pharmacie d'Officine</td>
@@ -6660,6 +7056,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td></td></tr>
@@ -6678,6 +7075,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">622<a name="tre-r397-categorie-entite-geographique-exercice-622"> </a></td>
 <td>Centre d'Appareillage &amp; Prothèse</td>
@@ -6694,6 +7092,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Ctre.Appar.&amp;Prothèse</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">623<a name="tre-r397-categorie-entite-geographique-exercice-623"> </a></td>
 <td>Herboristerie</td>
@@ -6710,6 +7109,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">624<a name="tre-r397-categorie-entite-geographique-exercice-624"> </a></td>
 <td>Laboratoire pharmaceutique préparant délivrant allergènes</td>
@@ -6724,6 +7124,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>Lab pharm allergènes</td></tr>
@@ -6742,6 +7143,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td>true</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">628<a name="tre-r397-categorie-entite-geographique-exercice-628"> </a></td>
 <td>Pharmacie Minière</td>
@@ -6756,6 +7158,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td></td></tr>
@@ -6774,6 +7177,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td>true</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">630<a name="tre-r397-categorie-entite-geographique-exercice-630"> </a></td>
 <td>Installation autonome de chirurgie esthétique</td>
@@ -6788,6 +7192,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>I.A.C.E.</td></tr>
@@ -6806,6 +7211,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td>true</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">632<a name="tre-r397-categorie-entite-geographique-exercice-632"> </a></td>
 <td>Structure Dispensatrice à domicile d'Oxygène à usage médical</td>
@@ -6820,6 +7226,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>Struc. Disp. Oxygène Médical</td></tr>
@@ -6838,6 +7245,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td>true</td>
 <td>Struct.Expér.Santé</td></tr>
 <tr><td style="white-space:nowrap">636<a name="tre-r397-categorie-entite-geographique-exercice-636"> </a></td>
 <td>Centre de soins et de prévention</td>
@@ -6852,6 +7260,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>Centre soins prév.</td></tr>
@@ -6870,6 +7279,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td>true</td>
 <td>C.L.A.T.</td></tr>
 <tr><td style="white-space:nowrap">638<a name="tre-r397-categorie-entite-geographique-exercice-638"> </a></td>
 <td>Centre gratuit d'information de dépistage et de diagnostic (CeGIDD)</td>
@@ -6884,6 +7294,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>C.e.G.I.D.D.</td></tr>
@@ -6902,6 +7313,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td>true</td>
 <td>S.T.L.C.</td></tr>
 <tr><td style="white-space:nowrap">640<a name="tre-r397-categorie-entite-geographique-exercice-640"> </a></td>
 <td>Service d'aide et d'accompagnement à domicile aux familles (SAADF)</td>
@@ -6916,6 +7328,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>S.A.A.D.F.</td></tr>
@@ -6934,6 +7347,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td>true</td>
 <td>Antenne Pharmacie Officine</td></tr>
 <tr><td style="white-space:nowrap">642<a name="tre-r397-categorie-entite-geographique-exercice-642"> </a></td>
 <td>Services départementaux d'incendie et de secours</td>
@@ -6948,6 +7362,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>S.D.I.S.</td></tr>
@@ -6966,6 +7381,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td>true</td>
 <td>S.E.M.I.P.M.</td></tr>
 <tr><td style="white-space:nowrap">644<a name="tre-r397-categorie-entite-geographique-exercice-644"> </a></td>
 <td>Etab. de mise à l'abri pour les pers. se déclarant mineures non accompagnées</td>
@@ -6980,6 +7396,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>E.M.A.M.N.A.</td></tr>
@@ -6998,6 +7415,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td>true</td>
 <td>C.V.</td></tr>
 <tr><td style="white-space:nowrap">646<a name="tre-r397-categorie-entite-geographique-exercice-646"> </a></td>
 <td>Centre de Vaccination Internationale</td>
@@ -7012,6 +7430,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>C.V.I.</td></tr>
@@ -7030,6 +7449,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td>true</td>
 <td>E.S.S.</td></tr>
 <tr><td style="white-space:nowrap">648<a name="tre-r397-categorie-entite-geographique-exercice-648"> </a></td>
 <td>Structure qui contribue au Service d'Accès aux Soins</td>
@@ -7044,6 +7464,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>Structure qui contribue au SAS</td></tr>
@@ -7062,6 +7483,7 @@
 <td></td>
 <td></td>
 <td>true</td>
+<td></td>
 <td>Fab.Annexe Officine</td></tr>
 <tr><td style="white-space:nowrap">695<a name="tre-r397-categorie-entite-geographique-exercice-695"> </a></td>
 <td>Groupement de coopération sanitaire de moyens - Exploitant</td>
@@ -7076,6 +7498,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>GCS Exploitant</td></tr>
@@ -7094,6 +7517,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td>true</td>
 <td>GCS-Moyens</td></tr>
 <tr><td style="white-space:nowrap">697<a name="tre-r397-categorie-entite-geographique-exercice-697"> </a></td>
 <td>Groupement de coopération sanitaire - Etablissement de santé</td>
@@ -7108,6 +7532,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>GCS-ES</td></tr>
@@ -7126,6 +7551,7 @@
 <td></td>
 <td>true</td>
 <td>true</td>
+<td>true</td>
 <td>Autre Etab.Loi Hosp.</td></tr>
 <tr><td style="white-space:nowrap">699<a name="tre-r397-categorie-entite-geographique-exercice-699"> </a></td>
 <td>Entité Ayant Autorisation</td>
@@ -7140,6 +7566,7 @@
 <td>active</td>
 <td></td>
 <td></td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>Entité Ayant Autor.</td></tr>
@@ -7158,6 +7585,7 @@
 <td>true</td>
 <td>true</td>
 <td>true</td>
+<td></td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">701<a name="tre-r397-categorie-entite-geographique-exercice-701"> </a></td>
 <td>Maison des adolescents (MDA)</td>
@@ -7174,6 +7602,7 @@
 <td>true</td>
 <td>true</td>
 <td>true</td>
+<td></td>
 <td>MDA</td></tr>
 <tr><td style="white-space:nowrap">702<a name="tre-r397-categorie-entite-geographique-exercice-702"> </a></td>
 <td>Point Accueil Ecoute Jeunes (PAEJ)</td>
@@ -7190,6 +7619,7 @@
 <td>true</td>
 <td>true</td>
 <td>true</td>
+<td></td>
 <td>PAEJ</td></tr>
 <tr><td style="white-space:nowrap">703<a name="tre-r397-categorie-entite-geographique-exercice-703"> </a></td>
 <td>Espace Santé Jeunes (ESJ)</td>
@@ -7206,6 +7636,7 @@
 <td>true</td>
 <td>true</td>
 <td>true</td>
+<td></td>
 <td>ESJ</td></tr>
 <tr><td style="white-space:nowrap">704<a name="tre-r397-categorie-entite-geographique-exercice-704"> </a></td>
 <td>Autre service territorial</td>
@@ -7222,6 +7653,7 @@
 <td>true</td>
 <td>true</td>
 <td>true</td>
+<td></td>
 <td></td></tr></table></div>
 
     
@@ -7271,7 +7703,7 @@
 
 <div class="inner-wrapper">
   <p>
-    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Nov 28, 2025 09:16+0000">2025-11-28</span>
+    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Nov 28, 2025 13:41+0000">2025-11-28</span>
     <br/>
     <span style="color: var(--footer-highlight-text-color)"></span>
       Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

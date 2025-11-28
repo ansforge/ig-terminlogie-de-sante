@@ -634,7 +634,7 @@
     "id" : "JDV-J129-CategorieEtablissement-RASS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J129-CategorieEtablissement-RASS/FHIR/JDV-J129-CategorieEtablissement-RASS",
-    "version" : "20241025120000",
+    "version" : "20251222120000",
     "name" : "JDV_J129_CategorieEtablissement_RASS",
     "oids" : ["1.2.250.1.213.1.6.1.215"]
   },
@@ -6985,6 +6985,14 @@
     "version" : "20251222120000",
     "name" : "JdvJ379ActiviteSocialeReguleeRass",
     "oids" : ["1.2.250.1.213.1.6.1.392"]
+  },
+  {
+    "id" : "jdv-j380-categorie-entite-geographique-exercice-rass",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j380-categorie-entite-geographique-exercice-rass",
+    "version" : "20251222120000",
+    "name" : "JdvJ380CategorieEntiteGeographiqueExerciceRass",
+    "oids" : ["1.2.250.1.213.1.6.1.393"]
   },
   {
     "id" : "jdv-jour-semaine-cisis",
