@@ -33,7 +33,7 @@ version: 7; Dernière mise à jour : 2025-07-02 17:06:12+0000; Langue : fr-FR
 
 Profil: [Shareable ValueSetversion: null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
 
-* Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement`](CodeSystem-TRE-R66-CategorieEtablissement.md)version 📦20250425120000
+* Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement`](CodeSystem-TRE-R66-CategorieEtablissement.md)version 📦20251222120000
 
  
 

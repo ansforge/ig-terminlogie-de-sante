@@ -96,7 +96,7 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R63_AgregatCategorieEtablissementNiv1](CodeSystem-TRE-R63-AgregatCategorieEtablissementNiv1.md) | Agrégats de catégories d'établissements niveau 1 | 15/12/2023 |
 | [TRE_R64_AgregatCategorieEtablissementNiv2](CodeSystem-TRE-R64-AgregatCategorieEtablissementNiv2.md) | Agrégats de catégories d'établissements niveau 2 | 15/12/2023 |
 | [TRE_R65_AgregatCategorieEtablissement](CodeSystem-TRE-R65-AgregatCategorieEtablissement.md) | Agrégat de catégories d'établissements | 28/02/2025 |
-| [TRE_R66_CategorieEtablissement](CodeSystem-TRE-R66-CategorieEtablissement.md) | Catégorie d'établissements | 25/04/2025 |
+| [TRE_R66_CategorieEtablissement](CodeSystem-TRE-R66-CategorieEtablissement.md) | Catégorie d'établissements | 22/12/2025 |
 | [TRE_R67_TypeStructure_EJ_EG](CodeSystem-TRE-R67-TypeStructure-EJ-EG.md) | Type de structure | 15/12/2023 |
 | [TRE_R68_FinessAgregatStatutJuridiqueNiv1](CodeSystem-TRE-R68-FinessAgregatStatutJuridiqueNiv1.md) | Agrégats de statuts juridiques FINESS niveau 1 | 15/12/2023 |
 | [TRE_R69_FinessAgregatStatutJuridiqueNiv2](CodeSystem-TRE-R69-FinessAgregatStatutJuridiqueNiv2.md) | Agrégats de statuts juridiques FINESS niveau 2 | 15/12/2023 |

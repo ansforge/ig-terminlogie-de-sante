@@ -9,7 +9,7 @@
 | | | |
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/terminologie-sms?vs | *Version*:20241114120000 | |
-| Active as of 2025-11-19 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ValueSet_SMS_All |
+| Active as of 2025-11-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ValueSet_SMS_All |
 
  
 Ce jeu de valeurs inclut tous les codes de la terminologie SMS, Dictionnaire des substances médicamenteuses 
@@ -32,13 +32,15 @@ version: 1; Dernière mise à jour : 2024-11-14 13:53:59+0000; Langue : fr-FR
 
 Profil: [Shareable ValueSetversion: null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
 
-* Include tous les codes définis dans `https://smt.esante.gouv.fr/terminologie-sms`version Not Stated (use latest from terminology server)
+* Include tous les codes définis dans [`https://smt.esante.gouv.fr/terminologie-sms`](CodeSystem-terminologie-sms.md)version Not Stated (use latest from terminology server)
 
  
 
 ### Expansion
 
-No Expansion for this valueset (not supported by Publication Tooling)
+Expansion from smt.esante.gouv.fr based on [codesystem Dictionnaire européen multilingue des substances entrant dans la composition de médicaments v2025-11 (CodeSystem)](CodeSystem-terminologie-sms.md)
+
+Ce jeu de valeurs (ValueSet) a 70,891 codes. Pour garder la publication gérable, seulement une selection (1,000 codes) de lensemble des codes est affiché.
 
 -------
 
@@ -74,7 +76,7 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "name" : "ValueSet_SMS_All",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-11-19T18:22:17+00:00",
+  "date" : "2025-11-28T16:27:44+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Ce jeu de valeurs inclut tous les codes de la terminologie SMS, Dictionnaire des substances médicamenteuses",
   "jurisdiction" : [

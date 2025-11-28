@@ -4208,7 +4208,7 @@
     "id" : "TRE-R66-CategorieEtablissement",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement",
-    "version" : "20250425120000",
+    "version" : "20251222120000",
     "name" : "TRE_R66_CategorieEtablissement",
     "oids" : ["1.2.250.1.213.1.6.1.8"]
   },
@@ -4593,7 +4593,7 @@
     "id" : "alignement-bdpm-cipucd",
     "type" : "ConceptMap",
     "url" : "https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-bdpm-cipucd",
-    "version" : "2025-10",
+    "version" : "2025-11",
     "name" : "Alignement_Codes_Presentation_BDPM_CIPUCD"
   },
   {
@@ -8491,6 +8491,14 @@
     "url" : "https://smt.esante.gouv.fr/terminologie-nuva?vs",
     "version" : "20241106120000",
     "name" : "ValueSet_NUVA_All"
+  },
+  {
+    "id" : "terminologie-sms",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/terminologie-sms",
+    "version" : "2025-11",
+    "name" : "Dictionnaire_SMS_Substance_Management_Services_",
+    "oids" : ["2.16.840.1.113883.3.6905.2"]
   },
   {
     "id" : "vs-sms-all",

@@ -42,7 +42,12 @@ Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :
 
 ### Expansion
 
-No Expansion for this valueset (not supported by Publication Tooling)
+Expansion from smt.esante.gouv.fr based on:
+
+* [codesystem TerminologieCISIS - Terminologie des concepts non trouvés dans les autres terminologies v202510230000 (CodeSystem)](CodeSystem-terminologie-cisis.md)
+* [codesystem Classification internationale des maladies et des problèmes de santé connexes - 10ème révision - Version française à usage PMSI (Programme Médicalisé des Systèmes d'Information) v2025-01-01 (CodeSystem)](CodeSystem-terminologie-cim-10.md)
+
+Ce jeu de valeur (ValueSet) contient 13 concepts
 
 -------
 

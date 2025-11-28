@@ -8,11 +8,11 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-bdpm-cipucd | *Version*:2025-10 | |
-| Active as of 2025-10-01 | *Responsible:*[Agence du numérique en santé](https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-bdpm-cipucd) | *Computable Name*:Alignement_Codes_Presentation_BDPM_CIPUCD |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-bdpm-cipucd | *Version*:2025-11 | |
+| Active as of 2025-11-07 | *Responsible:*[Agence du numérique en santé](https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-bdpm-cipucd) | *Computable Name*:Alignement_Codes_Presentation_BDPM_CIPUCD |
 | **Usage:**Workflow Task: alignement des données | | |
 
-version: 15; Dernière mise à jour : 2025-11-17 13:31:02+0100
+version: 16; Dernière mise à jour : 2025-11-27 15:44:14+0100
 
 Tag: Resource encoded in summary mode (Détails : code ObservationValue SUBSETTED = 'Resource encoded in summary mode')
 
@@ -27,8 +27,8 @@ Mapping de [ValueSet_BDPM_All](ValueSet-vs-bdpm-all.md) vers [ValueSet_CIPUCD_Al
   "resourceType" : "ConceptMap",
   "id" : "alignement-bdpm-cipucd",
   "meta" : {
-    "versionId" : "15",
-    "lastUpdated" : "2025-11-17T13:31:02.814+01:00",
+    "versionId" : "16",
+    "lastUpdated" : "2025-11-27T15:44:14.124+01:00",
     "tag" : [
       {
         "system" : "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
@@ -38,11 +38,11 @@ Mapping de [ValueSet_BDPM_All](ValueSet-vs-bdpm-all.md) vers [ValueSet_CIPUCD_Al
     ]
   },
   "url" : "https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-bdpm-cipucd",
-  "version" : "2025-10",
+  "version" : "2025-11",
   "name" : "Alignement_Codes_Presentation_BDPM_CIPUCD",
   "title" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD",
   "status" : "active",
-  "date" : "2025-10-01",
+  "date" : "2025-11-07",
   "publisher" : "Agence du numérique en santé",
   "contact" : [
     {

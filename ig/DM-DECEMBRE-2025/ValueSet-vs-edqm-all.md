@@ -9,7 +9,7 @@
 | | | |
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/terminologie-standardterms?vs | *Version*:20241114120000 | |
-| Active as of 2025-11-19 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ValueSet_EDQM_All |
+| Active as of 2025-11-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ValueSet_EDQM_All |
 
  
 Ce jeu de valeurs inclut tous les codes de la terminologie EDQM 
@@ -76,7 +76,7 @@ Ce jeu de valeurs (ValueSet) a 1,297 codes. Pour garder la publication gérable,
   "name" : "ValueSet_EDQM_All",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-11-19T18:22:17+00:00",
+  "date" : "2025-11-28T16:27:44+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Ce jeu de valeurs inclut tous les codes de la terminologie EDQM",
   "jurisdiction" : [

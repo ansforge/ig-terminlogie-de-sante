@@ -28,6 +28,7 @@ Les systèmes d'identification définis ici sont destinés à la commodité des 
 | ConditionClinicalSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/condition-clinical-supplement-fr |  |
 | ConditionVerStatusSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/condition-ver-status-supplement-fr |  |
 | ConfidentialitySupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/confidentiality-supplement-fr |  |
+| Dictionnaire_SMS_Substance_Management_Services_ | https://smt.esante.gouv.fr/terminologie-sms | 2.16.840.1.113883.3.6905.2 |
 | EMDN | https://smt.esante.gouv.fr/terminologie-emdn | 1.2.250.1.213.2.68 |
 | EmploymentStatusSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/employmentStatus-supplement-fr |  |
 | IHERoleCode_Vocabulary | https://wiki.ihe.net/index.php/IHERoleCode_Vocabulary | 1.3.6.1.4.1.19376.1.5.3.3 |

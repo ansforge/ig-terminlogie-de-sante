@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "Terminologies"] ; # 
   fhir:title [ fhir:v "Terminologies  de Santé"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-11-19T18:22:17+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-11-28T16:27:44+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -55093,6 +55093,27 @@
        ] ;
        fhir:name [ fhir:v "DaysOfWeek" ] ;
        fhir:description [ fhir:v "DaysOfWeek" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/terminologie-sms> ;
+         fhir:reference [ fhir:v "CodeSystem/terminologie-sms" ]
+       ] ;
+       fhir:name [ fhir:v "Dictionnaire européen multilingue des substances entrant dans la composition de médicaments" ] ;
+       fhir:description [ fhir:v "Le dictionnaire des substances ou SMS a été conçu par l’European Medicines Agency (EMA) dans le cadre d’une démarche qualité. Ce dictionnaire contient les substances entrant dans la composition de médicaments destinés à un humain et/ou vétérinaire." ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false

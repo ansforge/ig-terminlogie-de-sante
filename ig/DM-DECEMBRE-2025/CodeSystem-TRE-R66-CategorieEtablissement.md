@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement | *Version*:20250425120000 | |
-| Active as of 2025-04-25 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R66_CategorieEtablissement |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement | *Version*:20251222120000 | |
+| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R66_CategorieEtablissement |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.8 | | |
 
  
@@ -61,11 +61,11 @@ Catégorie d’établissements
       "value" : "urn:oid:1.2.250.1.213.1.6.1.8"
     }
   ],
-  "version" : "20250425120000",
+  "version" : "20251222120000",
   "name" : "TRE_R66_CategorieEtablissement",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-04-25T12:00:00+01:00",
+  "date" : "2025-12-22T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Catégorie d'établissements",
   "jurisdiction" : [
@@ -80,19 +80,23 @@ Catégorie d’établissements
   ],
   "caseSensitive" : false,
   "content" : "complete",
+  "count" : 318,
   "property" : [
     {
       "code" : "dateValid",
-      "description" : "date de validité d'un code concept",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
+      "description" : "Date de validité d'un code concept",
       "type" : "dateTime"
     },
     {
       "code" : "dateMaj",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
       "description" : "Date de mise à jour d'un code concept",
       "type" : "dateTime"
     },
     {
       "code" : "dateFin",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
       "description" : "Date de fin d'exploitation d'un code concept",
       "type" : "dateTime"
     },
@@ -2971,12 +2975,20 @@ Catégorie d’établissements
           "valueDateTime" : "1979-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateFin",
+          "valueDateTime" : "2025-12-22T00:00:00+01:00"
+        },
+        {
           "code" : "dateMaj",
-          "valueDateTime" : "2005-07-06T00:00:00+01:00"
+          "valueDateTime" : "2025-12-22T00:00:00+01:00"
         },
         {
           "code" : "status",
-          "valueCode" : "active"
+          "valueCode" : "deprecated"
+        },
+        {
+          "code" : "deprecationDate",
+          "valueDateTime" : "2025-12-22T00:00:00+01:00"
         }
       ]
     },
@@ -3027,12 +3039,20 @@ Catégorie d’établissements
           "valueDateTime" : "1979-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateFin",
+          "valueDateTime" : "2025-12-22T00:00:00+01:00"
+        },
+        {
           "code" : "dateMaj",
-          "valueDateTime" : "1990-01-05T00:00:00+01:00"
+          "valueDateTime" : "2025-12-22T00:00:00+01:00"
         },
         {
           "code" : "status",
-          "valueCode" : "active"
+          "valueCode" : "deprecated"
+        },
+        {
+          "code" : "deprecationDate",
+          "valueDateTime" : "2025-12-22T00:00:00+01:00"
         }
       ]
     },
@@ -5651,12 +5671,20 @@ Catégorie d’établissements
           "valueDateTime" : "1979-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateFin",
+          "valueDateTime" : "2025-12-22T00:00:00+01:00"
+        },
+        {
           "code" : "dateMaj",
-          "valueDateTime" : "2005-07-06T00:00:00+01:00"
+          "valueDateTime" : "2025-12-22T00:00:00+01:00"
         },
         {
           "code" : "status",
-          "valueCode" : "active"
+          "valueCode" : "deprecated"
+        },
+        {
+          "code" : "deprecationDate",
+          "valueDateTime" : "2025-12-22T00:00:00+01:00"
         }
       ]
     },
@@ -6033,8 +6061,20 @@ Catégorie d’établissements
           "valueDateTime" : "1979-01-23T00:00:00+01:00"
         },
         {
+          "code" : "dateFin",
+          "valueDateTime" : "2025-12-22T00:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T00:00:00+01:00"
+        },
+        {
           "code" : "status",
-          "valueCode" : "active"
+          "valueCode" : "deprecated"
+        },
+        {
+          "code" : "deprecationDate",
+          "valueDateTime" : "2025-12-22T00:00:00+01:00"
         }
       ]
     },
@@ -6381,12 +6421,20 @@ Catégorie d’établissements
           "valueDateTime" : "1979-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateFin",
+          "valueDateTime" : "2025-12-22T00:00:00+01:00"
+        },
+        {
           "code" : "dateMaj",
-          "valueDateTime" : "1979-01-23T00:00:00+01:00"
+          "valueDateTime" : "2025-12-22T00:00:00+01:00"
         },
         {
           "code" : "status",
-          "valueCode" : "active"
+          "valueCode" : "deprecated"
+        },
+        {
+          "code" : "deprecationDate",
+          "valueDateTime" : "2025-12-22T00:00:00+01:00"
         }
       ]
     },
@@ -7425,12 +7473,20 @@ Catégorie d’établissements
           "valueDateTime" : "1979-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateFin",
+          "valueDateTime" : "2025-12-22T00:00:00+01:00"
+        },
+        {
           "code" : "dateMaj",
-          "valueDateTime" : "1982-11-19T00:00:00+01:00"
+          "valueDateTime" : "2025-12-22T00:00:00+01:00"
         },
         {
           "code" : "status",
-          "valueCode" : "active"
+          "valueCode" : "deprecated"
+        },
+        {
+          "code" : "deprecationDate",
+          "valueDateTime" : "2025-12-22T00:00:00+01:00"
         }
       ]
     },
@@ -7517,12 +7573,20 @@ Catégorie d’établissements
           "valueDateTime" : "1979-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateFin",
+          "valueDateTime" : "2025-12-22T00:00:00+01:00"
+        },
+        {
           "code" : "dateMaj",
-          "valueDateTime" : "1994-07-05T00:00:00+01:00"
+          "valueDateTime" : "2025-12-22T00:00:00+01:00"
         },
         {
           "code" : "status",
-          "valueCode" : "active"
+          "valueCode" : "deprecated"
+        },
+        {
+          "code" : "deprecationDate",
+          "valueDateTime" : "2025-12-22T00:00:00+01:00"
         }
       ]
     },
@@ -7589,12 +7653,20 @@ Catégorie d’établissements
           "valueDateTime" : "1979-01-01T00:00:00+01:00"
         },
         {
+          "code" : "dateFin",
+          "valueDateTime" : "2025-12-22T00:00:00+01:00"
+        },
+        {
           "code" : "dateMaj",
-          "valueDateTime" : "1982-12-08T00:00:00+01:00"
+          "valueDateTime" : "2025-12-22T00:00:00+01:00"
         },
         {
           "code" : "status",
-          "valueCode" : "active"
+          "valueCode" : "deprecated"
+        },
+        {
+          "code" : "deprecationDate",
+          "valueDateTime" : "2025-12-22T00:00:00+01:00"
         }
       ]
     },
