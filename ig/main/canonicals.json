@@ -4593,7 +4593,7 @@
     "id" : "alignement-bdpm-cipucd",
     "type" : "ConceptMap",
     "url" : "https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-bdpm-cipucd",
-    "version" : "2025-10",
+    "version" : "2025-11",
     "name" : "Alignement_Codes_Presentation_BDPM_CIPUCD"
   },
   {
