@@ -3,7 +3,7 @@
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
              dateMaj="20251107180228"
-             dateValid="20251104180228"
+             dateValid="20251107180228"
              description="Jeu de valeurs RASS contenant les codes actifs des publics des activités régulées de niveau 3"
              displayName="JdvJ376PublicActiviteSmsseReguleeRass"
              id="1.2.250.1.213.1.6.1.390"

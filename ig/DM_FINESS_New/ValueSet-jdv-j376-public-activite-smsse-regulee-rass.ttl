@@ -11,7 +11,7 @@
   fhir:id [ fhir:v "jdv-j376-public-activite-smsse-regulee-rass"] ; # 
   fhir:meta [
      fhir:versionId [ fhir:v "1" ] ;
-     fhir:lastUpdated [ fhir:v "2025-11-04T18:02:28.249+00:00"^^xsd:dateTime ] ;
+     fhir:lastUpdated [ fhir:v "2025-11-07T18:02:28.249+00:00"^^xsd:dateTime ] ;
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset"^^xsd:anyURI ;
        fhir:link <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
@@ -19,13 +19,13 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-j376-public-activite-smsse-regulee-rass</b></p><a name=\"jdv-j376-public-activite-smsse-regulee-rass\"> </a><a name=\"hcjdv-j376-public-activite-smsse-regulee-rass\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 1; Dernière mise à jour : 2025-11-04 18:02:28+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include codes provenant de<a href=\"CodeSystem-tre-r403-public-activite-smsse-regulee.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee</code></a> où niveau  = 3 et status  = active</li></ul></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-j376-public-activite-smsse-regulee-rass</b></p><a name=\"jdv-j376-public-activite-smsse-regulee-rass\"> </a><a name=\"hcjdv-j376-public-activite-smsse-regulee-rass\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 1; Dernière mise à jour : 2025-11-07 18:02:28+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include codes provenant de<a href=\"CodeSystem-tre-r403-public-activite-smsse-regulee.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee</code></a> où niveau  = 3 et status  = active</li></ul></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
      fhir:value [
        a fhir:Period ;
-       fhir:start [ fhir:v "2025-11-04T18:02:28.249+00:00"^^xsd:dateTime ]
+       fhir:start [ fhir:v "2025-11-07T18:02:28.249+00:00"^^xsd:dateTime ]
      ]
   ] ) ; # 
   fhir:url [ fhir:v "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j376-public-activite-smsse-regulee-rass"^^xsd:anyURI] ; # 

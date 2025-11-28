@@ -87,16 +87,16 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J03-XdsContentTypeCode-CISIS/FHIR/JDV-J03-XdsContentTypeCode-CISIS",
-      "version" : "20250523120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "JDV_J03_XdsContentTypeCode_CISIS",
       "title" : null,
       "description" : "XDS contentTypeCode CI-SIS",
       "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee",
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee",
         "https://mos.esante.gouv.fr/NOS/TRE_A00-ProducteurDocNonPS/FHIR/TRE-A00-ProducteurDocNonPS",
-        "https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite",
-        "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
-        "https://mos.esante.gouv.fr/NOS/TRE_R209-TypeActivite/FHIR/TRE-R209-TypeActivite"
+        "https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite"
       ],
       "oids" : ["1.2.250.1.213.1.1.5.464"],
       "sources" : ["1.2.250.1.213.1.1.5.464"]
@@ -205,13 +205,13 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J100-FinessStatutJuridique-RASS/FHIR/JDV-J100-FinessStatutJuridique-RASS",
-      "version" : "20200424120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "JDV_J100_FinessStatutJuridique_RASS",
       "title" : null,
       "description" : "Statut juridique FINESS dans le RASS",
       "systems" : [
-        "https://mos.esante.gouv.fr/NOS/TRE_R72-FinessStatutJuridique/FHIR/TRE-R72-FinessStatutJuridique"
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique"
       ],
       "oids" : ["1.2.250.1.213.1.6.1.168"],
       "sources" : ["1.2.250.1.213.1.6.1.168"]
@@ -659,7 +659,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J131-CategorieActiviteSanitaireRegulee-RASS/FHIR/JDV-J131-CategorieActiviteSanitaireRegulee-RASS",
-      "version" : "20201127120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "JDV_J131_CategorieActiviteSanitaireRegulee_RASS",
       "title" : null,
@@ -704,13 +704,13 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J134-FormeActivite-RASS/FHIR/JDV-J134-FormeActivite-RASS",
-      "version" : "20240628120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "JDV_J134_FormeActivite_RASS",
       "title" : null,
       "description" : "Type d'organisation de prise en charge du RASS",
       "systems" : [
-        "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite"
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee"
       ],
       "oids" : ["1.2.250.1.213.1.6.1.220"],
       "sources" : ["1.2.250.1.213.1.6.1.220"]
@@ -730,8 +730,8 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J136-DisciplineEquipementSocial-RASS/FHIR/JDV-J136-DisciplineEquipementSocial-RASS",
-      "version" : "20220930120000",
-      "status" : "active",
+      "version" : "20251222120000",
+      "status" : "retired",
       "name" : "JDV_J136_DisciplineEquipementSocial_RASS",
       "title" : null,
       "description" : "Disciplines d'équipement pour le social dans le RASS",
@@ -2343,7 +2343,7 @@
       "title" : null,
       "description" : "Liste les catégories d'établissements ESSMS (Etablissement ou Service Social ou Médico-Social) pour les personnes porteurs d'handicap",
       "systems" : [
-        "https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement"
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice"
       ],
       "oids" : ["1.2.250.1.213.3.4.218"],
       "sources" : ["1.2.250.1.213.3.4.218"]
@@ -2448,8 +2448,8 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J261-SourceInformationInstallation-RASS/FHIR/JDV-J261-SourceInformationInstallation-RASS",
-      "version" : "20240927120000",
-      "status" : "active",
+      "version" : "20251222120000",
+      "status" : "retired",
       "name" : "JDV_J261_SourceInformationInstallation_RASS",
       "title" : null,
       "description" : "Sources d'information possible concernant l'installation de l'activité sociale du RASS",
@@ -2483,8 +2483,8 @@
       "title" : null,
       "description" : "Les modes de prise en charge en établissements ESMS qui sont possibles pour l'usager est validées en commission par la CDAPH",
       "systems" : [
-        "https://mos.esante.gouv.fr/NOS/TRE_R213-ModePriseEnCharge/FHIR/TRE-R213-ModePriseEnCharge",
-        "https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement"
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
+        "https://mos.esante.gouv.fr/NOS/TRE_R213-ModePriseEnCharge/FHIR/TRE-R213-ModePriseEnCharge"
       ],
       "oids" : ["1.2.250.1.213.3.4.105"],
       "sources" : ["1.2.250.1.213.3.4.105"]
@@ -2965,8 +2965,8 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J55-CategorieEG-ROR/FHIR/JDV-J55-CategorieEG-ROR",
-      "version" : "20250425120000",
-      "status" : "active",
+      "version" : "20251222120000",
+      "status" : "retired",
       "name" : "JDV_J55_CategorieEG_ROR",
       "title" : null,
       "description" : "Catégories d'établissements FINESS ou hors FINESS et secteurs d'activité des cabinets",
@@ -3349,13 +3349,13 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J83-AutoriteEnregistrement-RASS/FHIR/JDV-J83-AutoriteEnregistrement-RASS",
-      "version" : "20240628120000",
-      "status" : "active",
+      "version" : "20251222120000",
+      "status" : "retired",
       "name" : "JDV_J83_AutoriteEnregistrement_RASS",
       "title" : null,
       "description" : "Autorités d'enregistrement des acteurs de santé du RASS",
       "systems" : [
-        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"
+        "https://mos.esante.gouv.fr/NOS/TRE_R60-AutoriteEnregistrement/FHIR/TRE-R60-AutoriteEnregistrement"
       ],
       "oids" : ["1.2.250.1.213.1.6.1.151"],
       "sources" : ["1.2.250.1.213.1.6.1.151"]
@@ -3557,8 +3557,8 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J99-InseeNAFrav2Niveau5-RASS/FHIR/JDV-J99-InseeNAFrav2Niveau5-RASS",
-      "version" : "20200424120000",
-      "status" : "active",
+      "version" : "20251222120000",
+      "status" : "retired",
       "name" : "JDV_J99_InseeNAFrav2Niveau5_RASS",
       "title" : null,
       "description" : "Sous-classes de la Nomenclature Activités Française (INSEE) des prof du RASS",
@@ -7112,6 +7112,46 @@
       "sources" : ["1.2.250.1.213.1.6.1.390"]
     },
     {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j377-categorie-entite-geographique-exercice-ror",
+      "version" : "20251222120000",
+      "status" : "active",
+      "name" : "JdvJ377CategorieEntiteGeographiqueExerciceRor",
+      "title" : "Jdv J377 Categorie Entite Geographique Exercice Ror",
+      "description" : "Catégories d'établissements FINESS ou hors FINESS et secteurs d'activité des cabinets",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
+        "https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite"
+      ],
+      "oids" : ["1.2.250.1.213.3.4.224"],
+      "sources" : ["1.2.250.1.213.3.4.224"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j378-region-om-finess",
+      "version" : "20251222120000",
+      "status" : "active",
+      "name" : "JdvJ378RegionOmFiness",
+      "title" : "Jdv J378 Region Om Finess",
+      "description" : "Liste des régions administratives couvertes par le périmètre géographique de FINESS",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.391"],
+      "sources" : ["1.2.250.1.213.1.6.1.391"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j379-activite-sociale-regulee-rass",
+      "version" : "20251222120000",
+      "status" : "active",
+      "name" : "JdvJ379ActiviteSocialeReguleeRass",
+      "title" : "Jdv J379 Activite Sociale Regulee Rass",
+      "description" : "Activités sociales régulées pour le RASS",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.392"],
+      "sources" : ["1.2.250.1.213.1.6.1.392"]
+    },
+    {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-jour-semaine-cisis",
       "version" : "20250624152100",
       "status" : "active",
@@ -10579,8 +10619,8 @@
       "systems" : ["https://smt.esante.gouv.fr/terminologie-bdpm"],
       "uses" : {
       },
-      "ConceptMap-alignement-nuva-bdpm.html" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM",
-      "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD"
+      "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD",
+      "ConceptMap-alignement-nuva-bdpm.html" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM"
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-cip_ucd?vs",
@@ -10592,8 +10632,8 @@
       "systems" : ["https://smt.esante.gouv.fr/terminologie-cip_ucd"],
       "uses" : {
       },
-      "ConceptMap-alignement-nuva-cipucd.html" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD",
-      "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD"
+      "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD",
+      "ConceptMap-alignement-nuva-cipucd.html" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD"
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-nuva?vs",
@@ -10605,8 +10645,8 @@
       "systems" : ["https://smt.esante.gouv.fr/terminologie-nuva"],
       "uses" : {
       },
-      "ConceptMap-alignement-nuva-bdpm.html" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM",
-      "ConceptMap-alignement-nuva-cipucd.html" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD"
+      "ConceptMap-alignement-nuva-cipucd.html" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD",
+      "ConceptMap-alignement-nuva-bdpm.html" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM"
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-sms?vs",

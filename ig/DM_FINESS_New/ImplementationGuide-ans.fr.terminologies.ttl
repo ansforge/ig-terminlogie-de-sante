@@ -49645,6 +49645,60 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j377-categorie-entite-geographique-exercice-ror> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j377-categorie-entite-geographique-exercice-ror" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J377 Categorie Entite Geographique Exercice Ror" ] ;
+       fhir:description [ fhir:v "Catégories d'établissements FINESS ou hors FINESS et secteurs d'activité des cabinets" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j378-region-om-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j378-region-om-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J378 Region Om Finess" ] ;
+       fhir:description [ fhir:v "Liste des régions administratives couvertes par le périmètre géographique de FINESS" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j379-activite-sociale-regulee-rass> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j379-activite-sociale-regulee-rass" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J379 Activite Sociale Regulee Rass" ] ;
+       fhir:description [ fhir:v "Activités sociales régulées pour le RASS" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/JDV-J69-ActiviteOperationnelle-Santefr> ;
          fhir:reference [ fhir:v "ValueSet/JDV-J69-ActiviteOperationnelle-Santefr" ]
        ] ;

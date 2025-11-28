@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-   <ValueSet dateFin=""
-             dateMaj="20240329120000"
+   <ValueSet dateFin="20251222120000"
+             dateMaj="20251222120000"
              dateValid="20181026120000"
              description="Disciplines pour l'enseignement"
              displayName="TRE_R281_DisciplineEnseignement"

@@ -26879,6 +26879,39 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-j377-categorie-entite-geographique-exercice-ror"/>
+      </reference>
+      <name value="Jdv J377 Categorie Entite Geographique Exercice Ror"/>
+      <description value="Catégories d'établissements FINESS ou hors FINESS et secteurs d'activité des cabinets"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j378-region-om-finess"/>
+      </reference>
+      <name value="Jdv J378 Region Om Finess"/>
+      <description value="Liste des régions administratives couvertes par le périmètre géographique de FINESS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j379-activite-sociale-regulee-rass"/>
+      </reference>
+      <name value="Jdv J379 Activite Sociale Regulee Rass"/>
+      <description value="Activités sociales régulées pour le RASS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/JDV-J69-ActiviteOperationnelle-Santefr"/>
       </reference>
       <name value="JDV J69 ActiviteOperationnelle Santefr"/>

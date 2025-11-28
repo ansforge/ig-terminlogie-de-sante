@@ -169,21 +169,21 @@
     "id" : "ASS-A21-AS-ActiviteModaliteForme",
     "type" : "ConceptMap",
     "url" : "https://mos.esante.gouv.fr/NOS/ASS_A21-AS-ActiviteModaliteForme/FHIR/ASS-A21-AS-ActiviteModaliteForme",
-    "version" : "20240329120000",
+    "version" : "20251222120000",
     "name" : "ASS_A21_AS_ActiviteModaliteForme"
   },
   {
     "id" : "ASS-A22-AASA-ActiviteModaliteForme",
     "type" : "ConceptMap",
     "url" : "https://mos.esante.gouv.fr/NOS/ASS_A22-AASA-ActiviteModaliteForme/FHIR/ASS-A22-AASA-ActiviteModaliteForme",
-    "version" : "20200731120000",
+    "version" : "20251222120000",
     "name" : "ASS_A22_ASA_ActiviteModaliteForme"
   },
   {
     "id" : "ASS-A23-ASR-ActiviteModaliteForme",
     "type" : "ConceptMap",
     "url" : "https://mos.esante.gouv.fr/NOS/ASS_A23-ASR-ActiviteModaliteForme/FHIR/ASS-A23-ASR-ActiviteModaliteForme",
-    "version" : "20220325120000",
+    "version" : "20251222120000",
     "name" : "ASS_A23_ASR_ActiviteModaliteForme"
   },
   {
@@ -346,7 +346,7 @@
     "id" : "JDV-J03-XdsContentTypeCode-CISIS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J03-XdsContentTypeCode-CISIS/FHIR/JDV-J03-XdsContentTypeCode-CISIS",
-    "version" : "20250523120000",
+    "version" : "20251222120000",
     "name" : "JDV_J03_XdsContentTypeCode_CISIS",
     "oids" : ["1.2.250.1.213.1.1.5.464"]
   },
@@ -402,7 +402,7 @@
     "id" : "JDV-J100-FinessStatutJuridique-RASS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J100-FinessStatutJuridique-RASS/FHIR/JDV-J100-FinessStatutJuridique-RASS",
-    "version" : "20200424120000",
+    "version" : "20251222120000",
     "name" : "JDV_J100_FinessStatutJuridique_RASS",
     "oids" : ["1.2.250.1.213.1.6.1.168"]
   },
@@ -658,7 +658,7 @@
     "id" : "JDV-J131-CategorieActiviteSanitaireRegulee-RASS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J131-CategorieActiviteSanitaireRegulee-RASS/FHIR/JDV-J131-CategorieActiviteSanitaireRegulee-RASS",
-    "version" : "20201127120000",
+    "version" : "20251222120000",
     "name" : "JDV_J131_CategorieActiviteSanitaireRegulee_RASS",
     "oids" : ["1.2.250.1.213.1.6.1.217"]
   },
@@ -682,7 +682,7 @@
     "id" : "JDV-J134-FormeActivite-RASS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J134-FormeActivite-RASS/FHIR/JDV-J134-FormeActivite-RASS",
-    "version" : "20240628120000",
+    "version" : "20251222120000",
     "name" : "JDV_J134_FormeActivite_RASS",
     "oids" : ["1.2.250.1.213.1.6.1.220"]
   },
@@ -698,7 +698,7 @@
     "id" : "JDV-J136-DisciplineEquipementSocial-RASS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J136-DisciplineEquipementSocial-RASS/FHIR/JDV-J136-DisciplineEquipementSocial-RASS",
-    "version" : "20220930120000",
+    "version" : "20251222120000",
     "name" : "JDV_J136_DisciplineEquipementSocial_RASS",
     "oids" : ["1.2.250.1.213.1.6.1.222"]
   },
@@ -1738,7 +1738,7 @@
     "id" : "JDV-J261-SourceInformationInstallation-RASS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J261-SourceInformationInstallation-RASS/FHIR/JDV-J261-SourceInformationInstallation-RASS",
-    "version" : "20240927120000",
+    "version" : "20251222120000",
     "name" : "JDV_J261_SourceInformationInstallation_RASS",
     "oids" : ["1.2.250.1.213.1.6.1.285"]
   },
@@ -2058,7 +2058,7 @@
     "id" : "JDV-J55-CategorieEG-ROR",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J55-CategorieEG-ROR/FHIR/JDV-J55-CategorieEG-ROR",
-    "version" : "20250425120000",
+    "version" : "20251222120000",
     "name" : "JDV_J55_CategorieEG_ROR",
     "oids" : ["1.2.250.1.213.3.3.65"]
   },
@@ -2274,7 +2274,7 @@
     "id" : "JDV-J83-AutoriteEnregistrement-RASS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J83-AutoriteEnregistrement-RASS/FHIR/JDV-J83-AutoriteEnregistrement-RASS",
-    "version" : "20240628120000",
+    "version" : "20251222120000",
     "name" : "JDV_J83_AutoriteEnregistrement_RASS",
     "oids" : ["1.2.250.1.213.1.6.1.151"]
   },
@@ -2402,7 +2402,7 @@
     "id" : "JDV-J99-InseeNAFrav2Niveau5-RASS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J99-InseeNAFrav2Niveau5-RASS/FHIR/JDV-J99-InseeNAFrav2Niveau5-RASS",
-    "version" : "20200424120000",
+    "version" : "20251222120000",
     "name" : "JDV_J99_InseeNAFrav2Niveau5_RASS",
     "oids" : ["1.2.250.1.213.1.6.1.167"]
   },
@@ -3425,7 +3425,7 @@
     "id" : "TRE-R277-CategorieActiviteSanitaireRegulee",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R277-CategorieActiviteSanitaireRegulee/FHIR/TRE-R277-CategorieActiviteSanitaireRegulee",
-    "version" : "20231215120000",
+    "version" : "20251222120000",
     "name" : "TRE_R277_CategorieActiviteSanitaireRegulee",
     "oids" : ["1.2.250.1.213.1.6.1.129"]
   },
@@ -3457,7 +3457,7 @@
     "id" : "TRE-R281-DisciplineEnseignement",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R281-DisciplineEnseignement/FHIR/TRE-R281-DisciplineEnseignement",
-    "version" : "20240329120000",
+    "version" : "20251222120000",
     "name" : "TRE_R281_DisciplineEnseignement",
     "oids" : ["1.2.250.1.213.1.6.1.134"]
   },
@@ -3633,7 +3633,7 @@
     "id" : "TRE-R301-SourceInformationInstallation",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation",
-    "version" : "20231215120000",
+    "version" : "20251222120000",
     "name" : "TRE_R301_SourceInformationInstallation",
     "oids" : ["1.2.250.1.213.1.6.1.208"]
   },
@@ -4273,7 +4273,7 @@
     "id" : "TRE-R66-CategorieEtablissement",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement",
-    "version" : "20250425120000",
+    "version" : "20251222120000",
     "name" : "TRE_R66_CategorieEtablissement",
     "oids" : ["1.2.250.1.213.1.6.1.8"]
   },
@@ -4353,7 +4353,7 @@
     "id" : "TRE-R75-InseeNAFrev2Niveau5",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R75-InseeNAFrev2Niveau5/FHIR/TRE-R75-InseeNAFrev2Niveau5",
-    "version" : "20231215120000",
+    "version" : "20251222120000",
     "name" : "TRE_R75_InseeNAFrev2Niveau5",
     "oids" : ["1.2.250.1.213.1.6.1.47"]
   },
@@ -4897,7 +4897,7 @@
     "id" : "alignement-bdpm-cipucd",
     "type" : "ConceptMap",
     "url" : "https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-bdpm-cipucd",
-    "version" : "2025-10",
+    "version" : "2025-11",
     "name" : "Alignement_Codes_Presentation_BDPM_CIPUCD"
   },
   {
@@ -6961,6 +6961,30 @@
     "version" : "20251107120000",
     "name" : "JdvJ376PublicActiviteSmsseReguleeRass",
     "oids" : ["1.2.250.1.213.1.6.1.390"]
+  },
+  {
+    "id" : "jdv-j377-categorie-entite-geographique-exercice-ror",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j377-categorie-entite-geographique-exercice-ror",
+    "version" : "20251222120000",
+    "name" : "JdvJ377CategorieEntiteGeographiqueExerciceRor",
+    "oids" : ["1.2.250.1.213.3.4.224"]
+  },
+  {
+    "id" : "jdv-j378-region-om-finess",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j378-region-om-finess",
+    "version" : "20251222120000",
+    "name" : "JdvJ378RegionOmFiness",
+    "oids" : ["1.2.250.1.213.1.6.1.391"]
+  },
+  {
+    "id" : "jdv-j379-activite-sociale-regulee-rass",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j379-activite-sociale-regulee-rass",
+    "version" : "20251222120000",
+    "name" : "JdvJ379ActiviteSocialeReguleeRass",
+    "oids" : ["1.2.250.1.213.1.6.1.392"]
   },
   {
     "id" : "jdv-jour-semaine-cisis",

@@ -36060,6 +36060,42 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-j377-categorie-entite-geographique-exercice-ror"
+      },
+      "name" : "Jdv J377 Categorie Entite Geographique Exercice Ror",
+      "description" : "Catégories d'établissements FINESS ou hors FINESS et secteurs d'activité des cabinets",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j378-region-om-finess"
+      },
+      "name" : "Jdv J378 Region Om Finess",
+      "description" : "Liste des régions administratives couvertes par le périmètre géographique de FINESS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j379-activite-sociale-regulee-rass"
+      },
+      "name" : "Jdv J379 Activite Sociale Regulee Rass",
+      "description" : "Activités sociales régulées pour le RASS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/JDV-J69-ActiviteOperationnelle-Santefr"
       },
       "name" : "JDV J69 ActiviteOperationnelle Santefr",
