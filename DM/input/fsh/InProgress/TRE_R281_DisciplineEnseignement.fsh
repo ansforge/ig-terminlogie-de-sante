@@ -2,20 +2,20 @@ CodeSystem: TRE_R281_DisciplineEnseignement
 Id: TRE-R281-DisciplineEnseignement
 Description: "Disciplines pour l'enseignement"
 * ^meta.versionId = "5"
-* ^meta.lastUpdated = "2024-08-28T05:13:06.072+00:00"
+* ^meta.lastUpdated = "2025-12-22T05:13:06.072+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2018-10-26T12:00:00+01:00"
+* ^extension.valuePeriod.end = "2025-12-22T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R281-DisciplineEnseignement/FHIR/TRE-R281-DisciplineEnseignement"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.134"
-* ^version = "20240329120000"
-* ^status = #active
+* ^version = "20251222120000"
+* ^status = #retired
 * ^experimental = false
-* ^date = "2024-03-29T12:00:00+01:00"
+* ^date = "2025-12-22T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^caseSensitive = false
-* ^valueSet = "https://mos.esante.gouv.fr/NOS/TRE_R281-DisciplineEnseignement/FHIR/TRE-R281-DisciplineEnseignement?vs"
 * ^content = #complete
 * ^property[0].code = #dateValid
 * ^property[=].description = "date de validité d'un code concept"

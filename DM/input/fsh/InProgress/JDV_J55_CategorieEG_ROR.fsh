@@ -1,3 +1,6 @@
+Alias: $TRE-R66-CategorieEtablissement = https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement
+Alias: $TRE-R02-SecteurActivite = https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite
+
 ValueSet: JDV_J55_CategorieEG_ROR
 Id: JDV-J55-CategorieEG-ROR
 Description: "Catégories d'établissements FINESS ou hors FINESS et secteurs d'activité des cabinets"
