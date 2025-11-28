@@ -25,3 +25,8 @@ Description: "XDS contentTypeCode CI-SIS"
 * include codes from system $tre-r404-mode-fonctionnement-activite-smsse-regulee where cisis = "true"
 * include codes from system $TRE-R02-SecteurActivite where status = "active"
 * include codes from system $tre-r406-forme-activite-smsse-regulee where cisis = "true"
+* exclude codes from system $TRE-R02-SecteurActivite
+    * #SA01
+    * #SA02
+    * #SA03
+    * #SA04
