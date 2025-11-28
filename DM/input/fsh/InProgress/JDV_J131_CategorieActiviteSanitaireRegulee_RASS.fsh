@@ -14,7 +14,7 @@ Description: "Catégorie des activités sanitaires régulées dans le RASS"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.217"
 * ^version = "20251222120000"
-* ^status = #active
+* ^status = #retired
 * ^experimental = false
 * ^date = "2025-12-22T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
