@@ -1,3 +1,5 @@
+Alias: $TRE-R280-DisciplineEquipementSocial = https://mos.esante.gouv.fr/NOS/TRE_R280-DisciplineEquipementSocial/FHIR/TRE-R280-DisciplineEquipementSocial
+
 ValueSet: JDV_J136_DisciplineEquipementSocial_RASS
 Id: JDV-J136-DisciplineEquipementSocial-RASS
 Description: "Disciplines d'équipement pour le social dans le RASS"
