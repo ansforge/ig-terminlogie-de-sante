@@ -4131,8 +4131,6 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #218 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
 * #218 ^property[+].code = #status
 * #218 ^property[=].valueCode = #deprecated
-* #218 ^property[+].code = #ror
-* #218 ^property[=].valueBoolean = true
 * #218 ^property[+].code = #cisis
 * #218 ^property[=].valueBoolean = true
 * #219 "Autre Centre d'Accueil"
@@ -4179,8 +4177,6 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #220 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
 * #220 ^property[+].code = #status
 * #220 ^property[=].valueCode = #deprecated
-* #220 ^property[+].code = #ror
-* #220 ^property[=].valueBoolean = true
 * #220 ^property[+].code = #cisis
 * #220 ^property[=].valueBoolean = true
 * #221 "Bureau d'Aide Psychologique Universitaire (B.A.P.U.)"
@@ -6023,8 +6019,6 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #324 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
 * #324 ^property[+].code = #status
 * #324 ^property[=].valueCode = #deprecated
-* #324 ^property[+].code = #ror
-* #324 ^property[=].valueBoolean = true
 * #324 ^property[+].code = #cisis
 * #324 ^property[=].valueBoolean = true
 * #326 "Ecole de cadres"
@@ -6295,8 +6289,6 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #345 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
 * #345 ^property[+].code = #status
 * #345 ^property[=].valueCode = #deprecated
-* #345 ^property[+].code = #ror
-* #345 ^property[=].valueBoolean = true
 * #345 ^property[+].code = #cisis
 * #345 ^property[=].valueBoolean = true
 * #346 "Service de Travailleuses Familiales"
@@ -6543,8 +6535,6 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #359 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
 * #359 ^property[+].code = #status
 * #359 ^property[=].valueCode = #deprecated
-* #359 ^property[+].code = #ror
-* #359 ^property[=].valueBoolean = true
 * #359 ^property[+].code = #cisis
 * #359 ^property[=].valueBoolean = true
 * #361 "Centre de Cure Médicale"
@@ -7281,8 +7271,6 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #400 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
 * #400 ^property[+].code = #status
 * #400 ^property[=].valueCode = #deprecated
-* #400 ^property[+].code = #ror
-* #400 ^property[=].valueBoolean = true
 * #400 ^property[+].code = #cisis
 * #400 ^property[=].valueBoolean = true
 * #401 "D.R.A.S.S."
@@ -7353,8 +7341,6 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #403 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
 * #403 ^property[+].code = #status
 * #403 ^property[=].valueCode = #deprecated
-* #403 ^property[+].code = #ror
-* #403 ^property[=].valueBoolean = true
 * #403 ^property[+].code = #cisis
 * #403 ^property[=].valueBoolean = true
 * #404 "Etablissement Acc.Collect.Parental Régulier & Occasionnel"
@@ -7407,8 +7393,6 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #405 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
 * #405 ^property[+].code = #status
 * #405 ^property[=].valueCode = #deprecated
-* #405 ^property[+].code = #ror
-* #405 ^property[=].valueBoolean = true
 * #405 ^property[+].code = #cisis
 * #405 ^property[=].valueBoolean = true
 * #411 "Intermédiaire de Placement Social"
