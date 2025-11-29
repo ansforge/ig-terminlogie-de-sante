@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://mos.esante.gouv.fr/NOS/JDV-MediaTypeCorpsCDANonStructure?vs | *Version*:1.1.0 |
-| Active as of 2025-11-28 | *Computable Name*:JDV_TRE_R222_MediaTypeCorpsCDANonStructure |
+| Active as of 2025-11-29 | *Computable Name*:JDV_TRE_R222_MediaTypeCorpsCDANonStructure |
 
  
 JDV avec l’ensemble des codes actifs de la TRE_R222_MediaTypeCorpsCDANonStructure 
@@ -26,15 +26,19 @@ Indiquer un mot clé puis taper sur "enter" :
 Requête sur le SMT
 ```
 
-### Logical Definition (CLD)
+### Définition logique (CLD)
 
-Profil: [Shareable ValueSetversion: null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
+Profil: [Shareable ValueSetversion : null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
 
 * Include tous les codes définis dans [`https://mos.esante.gouv.fr/NOS/TRE_R222-MediaTypeCorpsCDANonStructure/FHIR/TRE-R222-MediaTypeCorpsCDANonStructure`](CodeSystem-TRE-R222-MediaTypeCorpsCDANonStructure.md)version 📦20231215120000
 
  
 
 ### Expansion
+
+Expansion effectuée en interne basée sur [codesystem TRE_R222_MediaTypeCorpsCDANonStructure v20231215120000 (CodeSystem)](CodeSystem-TRE-R222-MediaTypeCorpsCDANonStructure.md)
+
+Ce jeu de valeur (ValueSet) contient 5 concepts
 
 -------
 
@@ -76,7 +80,7 @@ Profil: [Shareable ValueSetversion: null4.0.1)](http://hl7.org/fhir/R4/shareable
   "title" : "JDV-MediaTypeCorpsCDANonStructure",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-11-28T04:23:57+00:00",
+  "date" : "2025-11-29T04:23:01+00:00",
   "publisher" : "ANS",
   "contact" : [
     {

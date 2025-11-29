@@ -11,9 +11,9 @@
 | *Official URL*:https://interop.esante.gouv.fr/terminologies/NamingSystem/IHERoleCodeVocabulary | *Version*: | |
 | Active as of 2025-08-20 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:IHERoleCode_Vocabulary |
 
-version: 2; Dernière mise à jour : 2025-08-27 09:43:35+0200
+version : 2; Dernière mise à jour : 2025-08-27 09:43:35+0200
 
-Tag: Resource encoded in summary mode (Détails : code ObservationValue SUBSETTED = 'Resource encoded in summary mode')
+Balise: Resource encoded in summary mode (Détails : code ObservationValue SUBSETTED = 'Resource encoded in summary mode')
 
 ### Résumé
 

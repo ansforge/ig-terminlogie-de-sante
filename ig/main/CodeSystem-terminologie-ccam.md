@@ -23,9 +23,9 @@ La Classification Commune des Actes Médicaux est la terminologie de facturation
 * [JdvStaticSemProcedureCisis](ValueSet-jdv-static-sem-procedure-cisis.md)
 * [JdvTypeActePostPartumCisis](ValueSet-jdv-type-acte-post-partum-cisis.md)
 
-version: 7.1763107593766; Dernière mise à jour : 2025-11-14 09:06:33+0100
+version : 7.1763107593766; Dernière mise à jour : 2025-11-14 09:06:33+0100
 
-Profil: [Shareable CodeSystemversion: null4.0.1)](http://hl7.org/fhir/R4/shareablecodesystem.html)
+Profil: [Shareable CodeSystemversion : null4.0.1)](http://hl7.org/fhir/R4/shareablecodesystem.html)
 
 **Propriétés**
 

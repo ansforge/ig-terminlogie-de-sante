@@ -27,19 +27,19 @@ Indiquer un mot clé puis taper sur "enter" :
 Requête sur le SMT
 ```
 
-### Logical Definition (CLD)
+### Définition logique (CLD)
 
-version: 2; Dernière mise à jour : 2025-07-02 17:06:19+0000; Langue : fr-FR
+version : 2; Dernière mise à jour : 2025-07-02 17:06:19+0000; Langue : fr-FR
 
-Profil: [Shareable ValueSetversion: null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
+Profil: [Shareable ValueSetversion : null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
 
-* Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://smt.esante.gouv.fr/terminologie-emdn`](CodeSystem-terminologie-emdn.md)version Not Stated (use latest from terminology server)
+* Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://smt.esante.gouv.fr/terminologie-emdn`](CodeSystem-terminologie-emdn.md)version Non précisé (utilise la dernière version provenant du serveur de terminologie)
 
  
 
 ### Expansion
 
-Expansion from smt.esante.gouv.fr based on [codesystem European Medical device nomenclature vv1.2 (CodeSystem)](CodeSystem-terminologie-emdn.md)
+Expansion de smt.esante.gouv.fr basée sur [codesystem European Medical device nomenclature vv1.2 (CodeSystem)](CodeSystem-terminologie-emdn.md)
 
 Ce jeu de valeur (ValueSet) contient 16 concepts
 

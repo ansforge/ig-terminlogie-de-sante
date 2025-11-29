@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://mos.esante.gouv.fr/NOS/ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS | *Version*:5.0.0 |
-| Active as of 2025-11-28 | *Computable Name*:ASS_A11_CorresModeleCDA_XdsFormatCode_CISIS |
+| Active as of 2025-11-29 | *Computable Name*:ASS_A11_CorresModeleCDA_XdsFormatCode_CISIS |
 | **Usage:**Workflow Task:  | |
 
  
@@ -17,7 +17,7 @@ Pour le document CDA, la métadonnée XDS ‘formatCode’ est calculé à parti
 
 Mapping de [Jdv Modele Document CDA CISIS](ValueSet-jdv-modele-document-cda-cisis.md) vers [JDV_J10_XdsFormatCode_CISIS](ValueSet-JDV-J10-XdsFormatCode-CISIS.md)
 
-**Groupe 1**Mapping de [TRE_R220_ModeleDocumentCDAStructureversion: 20251029120000)](CodeSystem-TRE-R220-ModeleDocumentCDAStructure.md) to [TRE_A06_FormatCodeComplementaireversion: 20251029120000)](CodeSystem-TRE-A06-FormatCodeComplementaire.md)
+**Groupe 1**Mapping de [TRE_R220_ModeleDocumentCDAStructureversion : 20251029120000)](CodeSystem-TRE-R220-ModeleDocumentCDAStructure.md) to [TRE_A06_FormatCodeComplementaireversion : 20251029120000)](CodeSystem-TRE-A06-FormatCodeComplementaire.md)
 
 * **Code source**: 1.2.250.1.213.1.1.1.5.1 (Certificat de santé du 8ème jour de l'enfant)
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
@@ -157,7 +157,7 @@ Mapping de [Jdv Modele Document CDA CISIS](ValueSet-jdv-modele-document-cda-cisi
 
 -------
 
-**Groupe 2**Mapping de [TRE_R220_ModeleDocumentCDAStructureversion: 20251029120000)](CodeSystem-TRE-R220-ModeleDocumentCDAStructure.md) to [TRE_A11_IheFormatCodeversion: 20240426120000)](CodeSystem-TRE-A11-IheFormatCode.md)
+**Groupe 2**Mapping de [TRE_R220_ModeleDocumentCDAStructureversion : 20251029120000)](CodeSystem-TRE-R220-ModeleDocumentCDAStructure.md) to [TRE_A11_IheFormatCodeversion : 20240426120000)](CodeSystem-TRE-A11-IheFormatCode.md)
 
 * **Code source**: 1.2.250.1.213.1.1.1.39 (Prescription de médicaments)
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
@@ -255,7 +255,7 @@ Mapping de [Jdv Modele Document CDA CISIS](ValueSet-jdv-modele-document-cda-cisi
 
 -------
 
-**Groupe 3**Mapping de [TRE_R221_ModeleDocumentCDANonStructureversion: 20231215120000)](CodeSystem-TRE-R221-ModeleDocumentCDANonStructure.md) to [TRE_A11_IheFormatCodeversion: 20240426120000)](CodeSystem-TRE-A11-IheFormatCode.md)
+**Groupe 3**Mapping de [TRE_R221_ModeleDocumentCDANonStructureversion : 20231215120000)](CodeSystem-TRE-R221-ModeleDocumentCDANonStructure.md) to [TRE_A11_IheFormatCodeversion : 20240426120000)](CodeSystem-TRE-A11-IheFormatCode.md)
 
 * **Code source**: 1.3.6.1.4.1.19376.1.2.20 (Modèle de document CDA non structuré)
   * **relation**: [narrower](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#narrower)
@@ -292,7 +292,7 @@ Mapping de [Jdv Modele Document CDA CISIS](ValueSet-jdv-modele-document-cda-cisi
   "title" : "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-11-28T04:23:57+00:00",
+  "date" : "2025-11-29T04:23:01+00:00",
   "publisher" : "ANS",
   "contact" : [
     {

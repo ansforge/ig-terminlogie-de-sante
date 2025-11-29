@@ -27,16 +27,16 @@ Indiquer un mot clé puis taper sur "enter" :
 Requête sur le SMT
 ```
 
-### Logical Definition (CLD)
+### Définition logique (CLD)
 
-version: 5; Dernière mise à jour : 2025-10-29 10:43:33+0100; Langue : fr-FR
+version : 5; Dernière mise à jour : 2025-10-29 10:43:33+0100; Langue : fr-FR
 
-Profil: [Shareable ValueSetversion: null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
+Profil: [Shareable ValueSetversion : null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
 
 Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :
 
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans `https://www.imdrf.org`version Not Stated (use latest from terminology server)
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://smt.esante.gouv.fr/terminologie-emdn`](CodeSystem-terminologie-emdn.md)version Not Stated (use latest from terminology server) 
+* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans `https://www.imdrf.org`version Non précisé (utilise la dernière version provenant du serveur de terminologie)
+* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://smt.esante.gouv.fr/terminologie-emdn`](CodeSystem-terminologie-emdn.md)version Non précisé (utilise la dernière version provenant du serveur de terminologie) 
 
  
 

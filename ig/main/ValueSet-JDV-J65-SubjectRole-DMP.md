@@ -27,11 +27,11 @@ Indiquer un mot clé puis taper sur "enter" :
 Requête sur le SMT
 ```
 
-### Logical Definition (CLD)
+### Définition logique (CLD)
 
-version: 8; Dernière mise à jour : 2025-11-04 19:02:07+0100; Langue : fr-FR
+version : 8; Dernière mise à jour : 2025-11-04 19:02:07+0100; Langue : fr-FR
 
-Profil: [Shareable ValueSetversion: null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
+Profil: [Shareable ValueSetversion : null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
 
 Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :
 
@@ -50,6 +50,20 @@ Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :
  
 
 ### Expansion
+
+Expansion effectuée en interne basée sur :
+
+* [codesystem TRE_A00_ProducteurDocNonPS v20240329120000 (CodeSystem)](CodeSystem-TRE-A00-ProducteurDocNonPS.md)
+* [codesystem TRE_G05_SousSectionTableauCNOP v20231215120000 (CodeSystem)](CodeSystem-TRE-G05-SousSectionTableauCNOP.md)
+* [codesystem TRE_G15_ProfessionSante v20250328120000 (CodeSystem)](CodeSystem-TRE-G15-ProfessionSante.md)
+* [codesystem TRE_G16_ProfessionFormation v20231215120000 (CodeSystem)](CodeSystem-TRE-G16-ProfessionFormation.md)
+* [codesystem TRE_R01_EnsembleSavoirFaire_CISIS v20241213120000 (CodeSystem)](CodeSystem-TRE-R01-EnsembleSavoirFaire-CISIS.md)
+* [codesystem TRE_R21_Fonction v20251023120000 (CodeSystem)](CodeSystem-TRE-R21-Fonction.md)
+* [codesystem TRE_R22_GenreActivite v20240329120000 (CodeSystem)](CodeSystem-TRE-R22-GenreActivite.md)
+* [codesystem TRE_R291_AutreProfession v20231215120000 (CodeSystem)](CodeSystem-TRE-R291-AutreProfession.md)
+* [codesystem TRE_R85_RolePriseCharge v20250919120000 (CodeSystem)](CodeSystem-TRE-R85-RolePriseCharge.md)
+* [codesystem TRE_R94_ProfessionSocial v20241213120000 (CodeSystem)](CodeSystem-TRE-R94-ProfessionSocial.md)
+* [codesystem TRE_R95_UsagerTitre v20241213120000 (CodeSystem)](CodeSystem-TRE-R95-UsagerTitre.md)
 
 Ce jeu de valeur (ValueSet) contient 432 concepts
 

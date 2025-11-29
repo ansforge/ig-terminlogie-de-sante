@@ -27,11 +27,11 @@ Indiquer un mot clé puis taper sur "enter" :
 Requête sur le SMT
 ```
 
-### Logical Definition (CLD)
+### Définition logique (CLD)
 
-version: 15; Dernière mise à jour : 2025-10-02 19:01:55+0200; Langue : fr-FR
+version : 15; Dernière mise à jour : 2025-10-02 19:01:55+0200; Langue : fr-FR
 
-Profil: [Shareable ValueSetversion: null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
+Profil: [Shareable ValueSetversion : null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
 
 Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :
 
@@ -53,6 +53,23 @@ Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :
  
 
 ### Expansion
+
+Expansion effectuée en interne basée sur :
+
+* [codesystem TRE_R226_Dip2iemeCycleNQ v20231215120000 (CodeSystem)](CodeSystem-TRE-R226-Dip2iemeCycleNQ.md)
+* [codesystem TRE_R348_FormationSpecialiseeTransversale v20231215120000 (CodeSystem)](CodeSystem-TRE-R348-FormationSpecialiseeTransversale.md)
+* [codesystem TRE_R36_AutreDiplomeObtenu v20231215120000 (CodeSystem)](CodeSystem-TRE-R36-AutreDiplomeObtenu.md)
+* [codesystem TRE_R48_DiplomeEtatFrancais v20250425120000 (CodeSystem)](CodeSystem-TRE-R48-DiplomeEtatFrancais.md)
+* [codesystem TRE_R49_DiplomeEtudeSpecialisee v20240531120000 (CodeSystem)](CodeSystem-TRE-R49-DiplomeEtudeSpecialisee.md)
+* [codesystem TRE_R50_DESCGroupe1Diplome v20231215120000 (CodeSystem)](CodeSystem-TRE-R50-DESCGroupe1Diplome.md)
+* [codesystem TRE_R51_DESCGroupe2Diplome v20231215120000 (CodeSystem)](CodeSystem-TRE-R51-DESCGroupe2Diplome.md)
+* [codesystem TRE_R52_CapaciteDiplome v20231215120000 (CodeSystem)](CodeSystem-TRE-R52-CapaciteDiplome.md)
+* [codesystem TRE_R53_DiplomePaysEEE v20231215120000 (CodeSystem)](CodeSystem-TRE-R53-DiplomePaysEEE.md)
+* [codesystem TRE_R54_DiplomeUniversiteInterUniversitaire v20240726120000 (CodeSystem)](CodeSystem-TRE-R54-DiplomeUniversiteInterUniversitaire.md)
+* [codesystem TRE_R55_CertificatEtudeSpeciale v20231215120000 (CodeSystem)](CodeSystem-TRE-R55-CertificatEtudeSpeciale.md)
+* [codesystem TRE_R56_Attestation v20240329120000 (CodeSystem)](CodeSystem-TRE-R56-Attestation.md)
+* [codesystem TRE_R57_DiplomeEuropeenEtudeSpecialisee v20231215120000 (CodeSystem)](CodeSystem-TRE-R57-DiplomeEuropeenEtudeSpecialisee.md)
+* [codesystem TRE_R58_AutreTypeDiplome v20250828120000 (CodeSystem)](CodeSystem-TRE-R58-AutreTypeDiplome.md)
 
 Ce jeu de valeur (ValueSet) contient 772 concepts
 

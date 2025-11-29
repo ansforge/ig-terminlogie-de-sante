@@ -27,17 +27,21 @@ Indiquer un mot clé puis taper sur "enter" :
 Requête sur le SMT
 ```
 
-### Logical Definition (CLD)
+### Définition logique (CLD)
 
-version: 5; Dernière mise à jour : 2025-07-02 17:06:24+0000; Langue : fr-FR
+version : 5; Dernière mise à jour : 2025-07-02 17:06:24+0000; Langue : fr-FR
 
-Profil: [Shareable ValueSetversion: null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
+Profil: [Shareable ValueSetversion : null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
 
 * Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R239-PublicPrisEnCharge/FHIR/TRE-R239-PublicPrisEnCharge`](CodeSystem-TRE-R239-PublicPrisEnCharge.md)version 📦20250328120000
 
  
 
 ### Expansion
+
+Expansion effectuée en interne basée sur [codesystem TRE_R239_PublicPrisEnCharge v20250328120000 (CodeSystem)](CodeSystem-TRE-R239-PublicPrisEnCharge.md)
+
+Ce jeu de valeur (ValueSet) contient 9 concepts
 
 -------
 

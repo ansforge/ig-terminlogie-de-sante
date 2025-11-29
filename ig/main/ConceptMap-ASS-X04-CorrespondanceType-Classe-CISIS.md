@@ -17,7 +17,7 @@ Correspondance entre types et classes de documents CI-SIS
 
 Mapping de (non spécifié) vers [JDV_J06_XdsClassCode_CISIS](ValueSet-JDV-J06-XdsClassCode-CISIS.md)
 
-**Groupe 1**Mapping de [Logical Observation Identifiers, Names and Codes (LOINC)](http://terminology.hl7.org/5.0.0/CodeSystem-v3-loinc.html) to [TRE_A03_ClasseDocumentversion: 20231215120000)](CodeSystem-TRE-A03-ClasseDocument.md)
+**Groupe 1**Mapping de [Logical Observation Identifiers, Names and Codes (LOINC)](http://terminology.hl7.org/5.0.0/CodeSystem-v3-loinc.html) to [TRE_A03_ClasseDocumentversion : 20231215120000)](CodeSystem-TRE-A03-ClasseDocument.md)
 
 * **Code source**: 10213-7 (Surgical operation note anesthesia Narrative)
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
@@ -319,7 +319,7 @@ Mapping de (non spécifié) vers [JDV_J06_XdsClassCode_CISIS](ValueSet-JDV-J06-X
 
 -------
 
-**Groupe 2**Mapping de [TRE_A05_TypeDocComplementaireversion: 20240329120000)](CodeSystem-TRE-A05-TypeDocComplementaire.md) to [TRE_A03_ClasseDocumentversion: 20231215120000)](CodeSystem-TRE-A03-ClasseDocument.md)
+**Groupe 2**Mapping de [TRE_A05_TypeDocComplementaireversion : 20240329120000)](CodeSystem-TRE-A05-TypeDocComplementaire.md) to [TRE_A03_ClasseDocumentversion : 20231215120000)](CodeSystem-TRE-A03-ClasseDocument.md)
 
 * **Code source**: ATTEST-ASS-COMPL (Attestation assurance complémentaire)
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
@@ -438,7 +438,7 @@ Mapping de (non spécifié) vers [JDV_J06_XdsClassCode_CISIS](ValueSet-JDV-J06-X
 
 -------
 
-**Groupe 3**Mapping de [TRE_A12_NomenclatureASTMversion: 20231215120000)](CodeSystem-TRE-A12-NomenclatureASTM.md) to [TRE_A10_NomenclatureURNversion: 20231215120000)](CodeSystem-TRE-A10-NomenclatureURN.md)
+**Groupe 3**Mapping de [TRE_A12_NomenclatureASTMversion : 20231215120000)](CodeSystem-TRE-A12-NomenclatureASTM.md) to [TRE_A10_NomenclatureURNversion : 20231215120000)](CodeSystem-TRE-A10-NomenclatureURN.md)
 
 * **Code source**: E1762 (Full Document)
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)

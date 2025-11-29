@@ -27,17 +27,22 @@ Indiquer un mot clé puis taper sur "enter" :
 Requête sur le SMT
 ```
 
-### Logical Definition (CLD)
+### Définition logique (CLD)
 
-version: 5; Dernière mise à jour : 2025-10-29 10:45:23+0100; Langue : fr-FR
+version : 5; Dernière mise à jour : 2025-10-29 10:45:23+0100; Langue : fr-FR
 
-Profil: [Shareable ValueSetversion: null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
+Profil: [Shareable ValueSetversion : null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
 
 * Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`http://terminology.hl7.org/CodeSystem/v3-ActCode`](http://terminology.hl7.org/7.0.0/CodeSystem-v3-ActCode.html)version 📦9.0.0
 
  
 
 ### Expansion
+
+Expansion effectuée en interne basée sur :
+
+* [codesystem ActCode v9.0.0 (CodeSystem)](http://terminology.hl7.org/7.0.0/CodeSystem-v3-ActCode.html)
+* [supplement ActCodeSupplementFr v1.0 (CodeSystem)](CodeSystem-actCode-supplement-fr.md)
 
 Ce jeu de valeur (ValueSet) contient 1 concepts
 

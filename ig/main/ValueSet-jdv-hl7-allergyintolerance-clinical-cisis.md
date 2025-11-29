@@ -27,17 +27,22 @@ Indiquer un mot clé puis taper sur "enter" :
 Requête sur le SMT
 ```
 
-### Logical Definition (CLD)
+### Définition logique (CLD)
 
-version: 5; Dernière mise à jour : 2025-10-29 10:42:59+0100; Langue : fr-FR
+version : 5; Dernière mise à jour : 2025-10-29 10:42:59+0100; Langue : fr-FR
 
-Profil: [Shareable ValueSetversion: null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
+Profil: [Shareable ValueSetversion : null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
 
 * Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical`](http://terminology.hl7.org/7.0.0/CodeSystem-allergyintolerance-clinical.html)version 📦1.0.1
 
  
 
 ### Expansion
+
+Expansion effectuée en interne basée sur :
+
+* [codesystem AllergyIntolerance Clinical Status Codes v1.0.1 (CodeSystem)](http://terminology.hl7.org/7.0.0/CodeSystem-allergyintolerance-clinical.html)
+* [supplement AllergyIntoleranceClinicalSupplementFr v1.0 (CodeSystem)](CodeSystem-allergyintolerance-clinical-supplement-fr.md)
 
 Ce jeu de valeur (ValueSet) contient 3 concepts
 

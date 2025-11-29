@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R221-ModeleDocumentCDANonStructure/FHIR/TRE-R221-ModeleDocumentCDANonStructure?vs | *Version*:1.1.0 |
-| Active as of 2025-11-28 | *Computable Name*:JdvTreR221ModeleDocumentCdaNonStructureAll |
+| Active as of 2025-11-29 | *Computable Name*:JdvTreR221ModeleDocumentCdaNonStructureAll |
 
  
 JDV avec l’ensemble des codes actifs de la TRE_R221_ModeleDocumentCDANonStructure 
@@ -26,15 +26,19 @@ Indiquer un mot clé puis taper sur "enter" :
 Requête sur le SMT
 ```
 
-### Logical Definition (CLD)
+### Définition logique (CLD)
 
-Profil: [Shareable ValueSetversion: null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
+Profil: [Shareable ValueSetversion : null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
 
 * Include tous les codes définis dans [`https://mos.esante.gouv.fr/NOS/TRE_R221-ModeleDocumentCDANonStructure/FHIR/TRE-R221-ModeleDocumentCDANonStructure`](CodeSystem-TRE-R221-ModeleDocumentCDANonStructure.md)version 📦20231215120000
 
  
 
 ### Expansion
+
+Expansion effectuée en interne basée sur [codesystem TRE_R221_ModeleDocumentCDANonStructure v20231215120000 (CodeSystem)](CodeSystem-TRE-R221-ModeleDocumentCDANonStructure.md)
+
+Ce jeu de valeur (ValueSet) contient 1 concepts
 
 -------
 
@@ -76,7 +80,7 @@ Profil: [Shareable ValueSetversion: null4.0.1)](http://hl7.org/fhir/R4/shareable
   "title" : "Jdv Tre R221 Modele Document Cda Non Structure All",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-11-28T04:23:57+00:00",
+  "date" : "2025-11-29T04:23:01+00:00",
   "publisher" : "ANS",
   "contact" : [
     {

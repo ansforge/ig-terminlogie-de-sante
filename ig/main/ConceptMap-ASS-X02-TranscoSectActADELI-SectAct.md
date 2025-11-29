@@ -17,7 +17,7 @@ Transco Secteur d’activité ADELI vers Secteur d’activité
 
 Mapping de (non spécifié) vers (non spécifié)
 
-**Groupe 1**Mapping de [TRE_G19_SecteurActiviteADELIversion: 20250523120000)](CodeSystem-TRE-G19-SecteurActiviteADELI.md) to [TRE_R02_SecteurActiviteversion: 20250523120000)](CodeSystem-TRE-R02-SecteurActivite.md)
+**Groupe 1**Mapping de [TRE_G19_SecteurActiviteADELIversion : 20250523120000)](CodeSystem-TRE-G19-SecteurActiviteADELI.md) to [TRE_R02_SecteurActiviteversion : 20250523120000)](CodeSystem-TRE-R02-SecteurActivite.md)
 
 * **Code source**: 10 (Etablissement public de santé)
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)

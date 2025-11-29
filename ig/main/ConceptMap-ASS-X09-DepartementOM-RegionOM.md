@@ -17,7 +17,7 @@ Association départements - régions (outre-mer et Monaco inclus)
 
 Mapping de (non spécifié) vers (non spécifié)
 
-**Groupe 1**Mapping de [TRE_G09_DepartementOMversion: 20240628120000)](CodeSystem-TRE-G09-DepartementOM.md) to [TRE_R30_RegionOMversion: 20240628120000)](CodeSystem-TRE-R30-RegionOM.md)
+**Groupe 1**Mapping de [TRE_G09_DepartementOMversion : 20240628120000)](CodeSystem-TRE-G09-DepartementOM.md) to [TRE_R30_RegionOMversion : 20240628120000)](CodeSystem-TRE-R30-RegionOM.md)
 
 * **Code source**: 01 (Ain)
   * **relation**: [is subsumed by](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#subsumes)

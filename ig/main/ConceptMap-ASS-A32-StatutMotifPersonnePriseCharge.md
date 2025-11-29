@@ -25,7 +25,7 @@ Pour cette association, seuls les fichiers sont disponibles :
 
 Mapping de (non spécifié) vers (non spécifié)
 
-**Groupe 1**Mapping de [TRE_R357_StatutPersonnePriseChargeversion: 20231215120000)](CodeSystem-TRE-R357-StatutPersonnePriseCharge.md) to [TRE_R358_MotifStatutPersonnePriseChargeversion: 20231215120000)](CodeSystem-TRE-R358-MotifStatutPersonnePriseCharge.md)
+**Groupe 1**Mapping de [TRE_R357_StatutPersonnePriseChargeversion : 20231215120000)](CodeSystem-TRE-R357-StatutPersonnePriseCharge.md) to [TRE_R358_MotifStatutPersonnePriseChargeversion : 20231215120000)](CodeSystem-TRE-R358-MotifStatutPersonnePriseCharge.md)
 
 * **Code source**: 181 (Période d'essai non concluante dans l'unité)
   * **relation**: [is related to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#relatedto)

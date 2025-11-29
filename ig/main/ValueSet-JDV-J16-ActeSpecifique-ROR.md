@@ -27,17 +27,21 @@ Indiquer un mot clé puis taper sur "enter" :
 Requête sur le SMT
 ```
 
-### Logical Definition (CLD)
+### Définition logique (CLD)
 
-version: 26; Dernière mise à jour : 2025-11-04 19:02:00+0100; Langue : fr-FR
+version : 26; Dernière mise à jour : 2025-11-04 19:02:00+0100; Langue : fr-FR
 
-Profil: [Shareable ValueSetversion: null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
+Profil: [Shareable ValueSetversion : null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
 
 * Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique`](CodeSystem-TRE-R210-ActeSpecifique.md)version 📦20251017120000
 
  
 
 ### Expansion
+
+Expansion effectuée en interne basée sur [codesystem TRE_R210_ActeSpecifique v20251017120000 (CodeSystem)](CodeSystem-TRE-R210-ActeSpecifique.md)
+
+Ce jeu de valeurs (ValueSet) a 1,195 codes. Pour garder la publication gérable, seulement une selection (1,000 codes) de lensemble des codes est affiché.
 
 -------
 

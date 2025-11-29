@@ -20,9 +20,9 @@ LA BDPM est un des référentiels du médicament gérée et distribuée par l’
 
 * [ValueSet_BDPM_All](ValueSet-vs-bdpm-all.md)
 
-version: 21; Dernière mise à jour : 2025-11-07 12:58:44+0100
+version : 21; Dernière mise à jour : 2025-11-07 12:58:44+0100
 
-Profil: [Shareable CodeSystemversion: null4.0.1)](http://hl7.org/fhir/R4/shareablecodesystem.html)
+Profil: [Shareable CodeSystemversion : null4.0.1)](http://hl7.org/fhir/R4/shareablecodesystem.html)
 
 **Propriétés**
 

@@ -27,17 +27,21 @@ Indiquer un mot clé puis taper sur "enter" :
 Requête sur le SMT
 ```
 
-### Logical Definition (CLD)
+### Définition logique (CLD)
 
-version: 5; Dernière mise à jour : 2025-07-02 17:05:22+0000; Langue : fr-FR
+version : 5; Dernière mise à jour : 2025-07-02 17:05:22+0000; Langue : fr-FR
 
-Profil: [Shareable ValueSetversion: null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
+Profil: [Shareable ValueSetversion : null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
 
 * Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R314-TypeCreneau/FHIR/TRE-R314-TypeCreneau`](CodeSystem-TRE-R314-TypeCreneau.md)version 📦20240726120000
 
  
 
 ### Expansion
+
+Expansion effectuée en interne basée sur [codesystem TRE_R314_TypeCreneau v20240726120000 (CodeSystem)](CodeSystem-TRE-R314-TypeCreneau.md)
+
+Ce jeu de valeur (ValueSet) contient 4 concepts
 
 -------
 

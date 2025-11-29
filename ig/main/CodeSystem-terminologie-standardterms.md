@@ -25,9 +25,9 @@ Les standard terms (ou listes de termes normalisés) ont été établis en répo
 * [JdvUsageDrogueCisis](ValueSet-jdv-usage-drogue-cisis.md)
 * [ValueSet_EDQM_All](ValueSet-vs-edqm-all.md)
 
-version: 8; Dernière mise à jour : 2025-07-11 12:01:41+0000
+version : 8; Dernière mise à jour : 2025-07-11 12:01:41+0000
 
-Profil: [Shareable CodeSystemversion: null4.0.1)](http://hl7.org/fhir/R4/shareablecodesystem.html)
+Profil: [Shareable CodeSystemversion : null4.0.1)](http://hl7.org/fhir/R4/shareablecodesystem.html)
 
 **Propriétés**
 

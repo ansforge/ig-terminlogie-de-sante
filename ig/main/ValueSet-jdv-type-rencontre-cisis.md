@@ -27,17 +27,21 @@ Indiquer un mot clé puis taper sur "enter" :
 Requête sur le SMT
 ```
 
-### Logical Definition (CLD)
+### Définition logique (CLD)
 
-version: 5; Dernière mise à jour : 2025-10-29 10:45:09+0100; Langue : fr-FR
+version : 5; Dernière mise à jour : 2025-10-29 10:45:09+0100; Langue : fr-FR
 
-Profil: [Shareable ValueSetversion: null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
+Profil: [Shareable ValueSetversion : null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
 
 * Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R305-TypeRencontre/FHIR/TRE-R305-TypeRencontre`](CodeSystem-TRE-R305-TypeRencontre.md)version 📦20231215120000
 
  
 
 ### Expansion
+
+Expansion effectuée en interne basée sur [codesystem TRE_R305_TypeRencontre v20231215120000 (CodeSystem)](CodeSystem-TRE-R305-TypeRencontre.md)
+
+Ce jeu de valeur (ValueSet) contient 2 concepts
 
 -------
 

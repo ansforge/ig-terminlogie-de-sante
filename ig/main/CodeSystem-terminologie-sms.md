@@ -20,9 +20,9 @@ Le dictionnaire des substances ou SMS a été conçu par l’European Medicines 
 
 * [ValueSet_SMS_All](ValueSet-vs-sms-all.md)
 
-version: 23.1763973498585; Dernière mise à jour : 2025-11-24 09:38:18+0100
+version : 23.1763973498585; Dernière mise à jour : 2025-11-24 09:38:18+0100
 
-Profil: [Shareable CodeSystemversion: null4.0.1)](http://hl7.org/fhir/R4/shareablecodesystem.html)
+Profil: [Shareable CodeSystemversion : null4.0.1)](http://hl7.org/fhir/R4/shareablecodesystem.html)
 
 **Propriétés**
 

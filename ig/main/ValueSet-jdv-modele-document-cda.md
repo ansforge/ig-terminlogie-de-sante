@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://mos.esante.gouv.fr/NOS/JDV-ModeleDocumentCDA | *Version*:1.1.0 |
-| Active as of 2025-11-28 | *Computable Name*:JdvModeleDocumentCda |
+| Active as of 2025-11-29 | *Computable Name*:JdvModeleDocumentCda |
 
  
 JDV avec l’ensemble des codes de la TRE_R220_ModeleDocumentCDAStructure et TRE_R221_ModeleDocumentCDANonStructure 
@@ -26,9 +26,9 @@ Indiquer un mot clé puis taper sur "enter" :
 Requête sur le SMT
 ```
 
-### Logical Definition (CLD)
+### Définition logique (CLD)
 
-Profil: [Shareable ValueSetversion: null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
+Profil: [Shareable ValueSetversion : null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
 
 Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :
 
@@ -38,6 +38,11 @@ Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :
  
 
 ### Expansion
+
+Expansion effectuée en interne basée sur :
+
+* [codesystem TRE_R220_ModeleDocumentCDAStructure v20251029120000 (CodeSystem)](CodeSystem-TRE-R220-ModeleDocumentCDAStructure.md)
+* [codesystem TRE_R221_ModeleDocumentCDANonStructure v20231215120000 (CodeSystem)](CodeSystem-TRE-R221-ModeleDocumentCDANonStructure.md)
 
 Ce jeu de valeur (ValueSet) contient 84 concepts
 
@@ -81,7 +86,7 @@ Ce jeu de valeur (ValueSet) contient 84 concepts
   "title" : "Jdv Modele Document Cda",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-11-28T04:23:57+00:00",
+  "date" : "2025-11-29T04:23:01+00:00",
   "publisher" : "ANS",
   "contact" : [
     {

@@ -37,9 +37,9 @@ La nomenclature européenne des dispositifs médicaux (EMDN) est la nomenclature
 * [JdvUfcvTypeEndoprotheseCisis](ValueSet-jdv-ufcv-type-endoprothese-cisis.md)
 * [JdvUfcvTypetValveCisis](ValueSet-jdv-ufcv-type-valve-cisis.md)
 
-version: 3; Dernière mise à jour : 2025-03-20 13:52:13+0000
+version : 3; Dernière mise à jour : 2025-03-20 13:52:13+0000
 
-Profil: [Shareable CodeSystemversion: null4.0.1)](http://hl7.org/fhir/R4/shareablecodesystem.html)
+Profil: [Shareable CodeSystemversion : null4.0.1)](http://hl7.org/fhir/R4/shareablecodesystem.html)
 
 **Propriétés**
 

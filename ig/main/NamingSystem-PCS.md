@@ -11,9 +11,9 @@
 | *Official URL*:https://interop.esante.gouv.fr/terminologies/NamingSystem/PCS | *Version*: | |
 | Active as of 2025-07-16 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:PCS |
 
-version: 1; Dernière mise à jour : 2025-07-23 08:24:01+0000
+version : 1; Dernière mise à jour : 2025-07-23 08:24:01+0000
 
-Tag: Resource encoded in summary mode (Détails : code ObservationValue SUBSETTED = 'Resource encoded in summary mode')
+Balise: Resource encoded in summary mode (Détails : code ObservationValue SUBSETTED = 'Resource encoded in summary mode')
 
 ### Résumé
 

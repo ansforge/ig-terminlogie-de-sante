@@ -17,7 +17,7 @@ Triplet activité modalité forme pour Activités Soumises à Reconnaissance (AS
 
 Mapping de [JDV_J133_ActiviteSanitaireRegulee_RASS](ValueSet-JDV-J133-ActiviteSanitaireRegulee-RASS.md) vers [JDV_J132_ModaliteActivite_RASS](ValueSet-JDV-J132-ModaliteActivite-RASS.md)
 
-**Groupe 1**Mapping de [TRE_R274_ActiviteSanitaireReguleeversion: 20231215120000)](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md) to [TRE_R275_ModaliteActiviteversion: 20231215120000)](CodeSystem-TRE-R275-ModaliteActivite.md)
+**Groupe 1**Mapping de [TRE_R274_ActiviteSanitaireReguleeversion : 20231215120000)](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md) to [TRE_R275_ModaliteActiviteversion : 20231215120000)](CodeSystem-TRE-R275-ModaliteActivite.md)
 
 * **Codes**de[TRE_R274_ActiviteSanitaireRegulee](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md): 01
   * **TRER276FormeActivite**: Médecine

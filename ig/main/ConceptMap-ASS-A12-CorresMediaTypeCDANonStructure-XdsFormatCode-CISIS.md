@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://mos.esante.gouv.fr/NOS/ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS | *Version*:5.0.0 |
-| Active as of 2025-11-28 | *Computable Name*:ASS_A12_CorresMediaTypeCDANonStructure_XdsFormatCode_CISIS |
+| Active as of 2025-11-29 | *Computable Name*:ASS_A12_CorresMediaTypeCDANonStructure_XdsFormatCode_CISIS |
 | **Usage:**Workflow Task:  | |
 
  
@@ -17,7 +17,7 @@ Association qui permet de deduire l’attribut XDS ‘formatCode’ à partir de
 
 Mapping de [MediaType](ValueSet-jdv-hl7-v3-MediaType-cisis.md) vers [JDV_J10_XdsFormatCode_CISIS](ValueSet-JDV-J10-XdsFormatCode-CISIS.md)
 
-**Groupe 1**Mapping de [TRE_R222_MediaTypeCorpsCDANonStructureversion: 20231215120000)](CodeSystem-TRE-R222-MediaTypeCorpsCDANonStructure.md) to [TRE_A11_IheFormatCodeversion: 20240426120000)](CodeSystem-TRE-A11-IheFormatCode.md)
+**Groupe 1**Mapping de [TRE_R222_MediaTypeCorpsCDANonStructureversion : 20231215120000)](CodeSystem-TRE-R222-MediaTypeCorpsCDANonStructure.md) to [TRE_A11_IheFormatCodeversion : 20240426120000)](CodeSystem-TRE-A11-IheFormatCode.md)
 
 * **Code source**: application/pdf (Document CDA à corps non structuré en Pdf/A-1)
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
@@ -49,7 +49,7 @@ Mapping de [MediaType](ValueSet-jdv-hl7-v3-MediaType-cisis.md) vers [JDV_J10_Xds
   "title" : "ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-11-28T04:23:57+00:00",
+  "date" : "2025-11-29T04:23:01+00:00",
   "publisher" : "ANS",
   "contact" : [
     {

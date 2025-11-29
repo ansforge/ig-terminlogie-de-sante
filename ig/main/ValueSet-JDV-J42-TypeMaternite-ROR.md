@@ -27,17 +27,21 @@ Indiquer un mot clé puis taper sur "enter" :
 Requête sur le SMT
 ```
 
-### Logical Definition (CLD)
+### Définition logique (CLD)
 
-version: 4; Dernière mise à jour : 2025-07-02 17:06:32+0000; Langue : fr-FR
+version : 4; Dernière mise à jour : 2025-07-02 17:06:32+0000; Langue : fr-FR
 
-Profil: [Shareable ValueSetversion: null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
+Profil: [Shareable ValueSetversion : null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
 
 * Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R253-TypeMaternite/FHIR/TRE-R253-TypeMaternite`](CodeSystem-TRE-R253-TypeMaternite.md)version 📦20231215120000
 
  
 
 ### Expansion
+
+Expansion effectuée en interne basée sur [codesystem TRE_R253_TypeMaternite v20231215120000 (CodeSystem)](CodeSystem-TRE-R253-TypeMaternite.md)
+
+Ce jeu de valeur (ValueSet) contient 4 concepts
 
 -------
 

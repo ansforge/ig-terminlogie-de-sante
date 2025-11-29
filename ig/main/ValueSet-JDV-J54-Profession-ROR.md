@@ -27,11 +27,11 @@ Indiquer un mot clé puis taper sur "enter" :
 Requête sur le SMT
 ```
 
-### Logical Definition (CLD)
+### Définition logique (CLD)
 
-version: 6; Dernière mise à jour : 2025-07-02 17:06:36+0000; Langue : fr-FR
+version : 6; Dernière mise à jour : 2025-07-02 17:06:36+0000; Langue : fr-FR
 
-Profil: [Shareable ValueSetversion: null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
+Profil: [Shareable ValueSetversion : null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
 
 Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :
 
@@ -44,6 +44,14 @@ Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :
  
 
 ### Expansion
+
+Expansion effectuée en interne basée sur :
+
+* [codesystem TRE_G15_ProfessionSante v20250328120000 (CodeSystem)](CodeSystem-TRE-G15-ProfessionSante.md)
+* [codesystem TRE_R85_RolePriseCharge v20250919120000 (CodeSystem)](CodeSystem-TRE-R85-RolePriseCharge.md)
+* [codesystem TRE_R94_ProfessionSocial v20241213120000 (CodeSystem)](CodeSystem-TRE-R94-ProfessionSocial.md)
+* [codesystem TRE_R95_UsagerTitre v20241213120000 (CodeSystem)](CodeSystem-TRE-R95-UsagerTitre.md)
+* [codesystem TRE_R96_AutreFonctionSanitaire v20231215120000 (CodeSystem)](CodeSystem-TRE-R96-AutreFonctionSanitaire.md)
 
 Ce jeu de valeur (ValueSet) contient 53 concepts
 

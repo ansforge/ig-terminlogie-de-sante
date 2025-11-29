@@ -17,7 +17,7 @@ Correspondance entre un type d’évènement et le flux standardisé corresponda
 
 Mapping de [JDV_J46_TypeEvenementNotification_CISIS](ValueSet-JDV-J46-TypeEvenementNotification-CISIS.md) vers https://mos.esante.gouv.fr/NOS/TRE_R255-FluxStandardise/FHIR/TRE-R255-FluxStandardise?vs
 
-**Groupe 1**Mapping de [TRE_R254_TypeEvenementversion: 20240329120000)](CodeSystem-TRE-R254-TypeEvenement.md) to [TRE_R255_FluxStandardiseversion: 20231215120000)](CodeSystem-TRE-R255-FluxStandardise.md)
+**Groupe 1**Mapping de [TRE_R254_TypeEvenementversion : 20240329120000)](CodeSystem-TRE-R254-TypeEvenement.md) to [TRE_R255_FluxStandardiseversion : 20231215120000)](CodeSystem-TRE-R255-FluxStandardise.md)
 
 * **Code source**: DOC (Dépôt de document pour un patient)
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)

@@ -27,17 +27,21 @@ Indiquer un mot clé puis taper sur "enter" :
 Requête sur le SMT
 ```
 
-### Logical Definition (CLD)
+### Définition logique (CLD)
 
-version: 2; Dernière mise à jour : 2025-07-01 13:32:18+0000; Langue : fr-FR
+version : 2; Dernière mise à jour : 2025-07-01 13:32:18+0000; Langue : fr-FR
 
-Profil: [Shareable ValueSetversion: null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
+Profil: [Shareable ValueSetversion : null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
 
 * Include codes provenant de[`https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statut-bilan-projet-personnalise`](CodeSystem-tre-r389-statut-bilan-projet-personnalise.md)version 📦20250418120000 où status = active
 
  
 
 ### Expansion
+
+Expansion effectuée en interne basée sur [codesystem Tre R389 Statut Bilan Projet Personnalise v20250418120000 (CodeSystem)](CodeSystem-tre-r389-statut-bilan-projet-personnalise.md)
+
+Ce jeu de valeur (ValueSet) contient 3 concepts
 
 -------
 

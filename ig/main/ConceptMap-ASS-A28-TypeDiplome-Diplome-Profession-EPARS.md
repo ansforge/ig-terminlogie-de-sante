@@ -17,7 +17,7 @@ Table d’association entre les types de diplômes, les diplômes et les profess
 
 Mapping de (non spécifié) vers [JDV_J183_Diplome_EPARS](ValueSet-JDV-J183-Diplome-EPARS.md)
 
-**Groupe 1**Mapping de [TRE_R14_TypeDiplomeversion: 20240329120000)](CodeSystem-TRE-R14-TypeDiplome.md) to [TRE_R48_DiplomeEtatFrancaisversion: 20250425120000)](CodeSystem-TRE-R48-DiplomeEtatFrancais.md)
+**Groupe 1**Mapping de [TRE_R14_TypeDiplomeversion : 20240329120000)](CodeSystem-TRE-R14-TypeDiplome.md) to [TRE_R48_DiplomeEtatFrancaisversion : 20250425120000)](CodeSystem-TRE-R48-DiplomeEtatFrancais.md)
 
 * **Codes**de[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): DE
   * **JDVJ166ProfessionEPARS**: Diplôme d'Etat français
@@ -88,7 +88,7 @@ Mapping de (non spécifié) vers [JDV_J183_Diplome_EPARS](ValueSet-JDV-J183-Dipl
 
 -------
 
-**Groupe 2**Mapping de [TRE_R14_TypeDiplomeversion: 20240329120000)](CodeSystem-TRE-R14-TypeDiplome.md) to [TRE_R58_AutreTypeDiplomeversion: 20250828120000)](CodeSystem-TRE-R58-AutreTypeDiplome.md)
+**Groupe 2**Mapping de [TRE_R14_TypeDiplomeversion : 20240329120000)](CodeSystem-TRE-R14-TypeDiplome.md) to [TRE_R58_AutreTypeDiplomeversion : 20250828120000)](CodeSystem-TRE-R58-AutreTypeDiplome.md)
 
 * **Codes**de[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): AU
   * **JDVJ166ProfessionEPARS**: Autre type de diplôme
@@ -393,7 +393,7 @@ Mapping de (non spécifié) vers [JDV_J183_Diplome_EPARS](ValueSet-JDV-J183-Dipl
 
 -------
 
-**Groupe 3**Mapping de [TRE_R14_TypeDiplomeversion: 20240329120000)](CodeSystem-TRE-R14-TypeDiplome.md) to [TRE_R56_Attestationversion: 20240329120000)](CodeSystem-TRE-R56-Attestation.md)
+**Groupe 3**Mapping de [TRE_R14_TypeDiplomeversion : 20240329120000)](CodeSystem-TRE-R14-TypeDiplome.md) to [TRE_R56_Attestationversion : 20240329120000)](CodeSystem-TRE-R56-Attestation.md)
 
 * **Codes**de[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): ATT
   * **JDVJ166ProfessionEPARS**: Attestation
@@ -410,7 +410,7 @@ Mapping de (non spécifié) vers [JDV_J183_Diplome_EPARS](ValueSet-JDV-J183-Dipl
 
 -------
 
-**Groupe 4**Mapping de [TRE_R14_TypeDiplomeversion: 20240329120000)](CodeSystem-TRE-R14-TypeDiplome.md) to [TRE_R54_DiplomeUniversiteInterUniversitaireversion: 20240726120000)](CodeSystem-TRE-R54-DiplomeUniversiteInterUniversitaire.md)
+**Groupe 4**Mapping de [TRE_R14_TypeDiplomeversion : 20240329120000)](CodeSystem-TRE-R14-TypeDiplome.md) to [TRE_R54_DiplomeUniversiteInterUniversitaireversion : 20240726120000)](CodeSystem-TRE-R54-DiplomeUniversiteInterUniversitaire.md)
 
 * **Codes**de[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md): DU
   * **JDVJ166ProfessionEPARS**: Diplôme d'université (DU) ou inter-universitaire (DIU)

@@ -17,7 +17,7 @@ Table d’association rôle / genre d’activité pour la saisie automatique
 
 Mapping de (non spécifié) vers (non spécifié)
 
-**Groupe 1**Mapping de [TRE_R85_RolePriseChargeversion: 20250919120000)](CodeSystem-TRE-R85-RolePriseCharge.md) to [TRE_R22_GenreActiviteversion: 20240329120000)](CodeSystem-TRE-R22-GenreActivite.md)
+**Groupe 1**Mapping de [TRE_R85_RolePriseChargeversion : 20250919120000)](CodeSystem-TRE-R85-RolePriseCharge.md) to [TRE_R22_GenreActiviteversion : 20240329120000)](CodeSystem-TRE-R22-GenreActivite.md)
 
 * **Code source**: 312 (Autre professionnel)
   * **relation**: [maps to wider concept](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider)

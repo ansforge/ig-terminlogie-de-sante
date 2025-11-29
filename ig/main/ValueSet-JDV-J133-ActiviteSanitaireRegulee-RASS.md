@@ -27,17 +27,21 @@ Indiquer un mot clé puis taper sur "enter" :
 Requête sur le SMT
 ```
 
-### Logical Definition (CLD)
+### Définition logique (CLD)
 
-version: 4; Dernière mise à jour : 2025-07-02 17:05:00+0000; Langue : fr-FR
+version : 4; Dernière mise à jour : 2025-07-02 17:05:00+0000; Langue : fr-FR
 
-Profil: [Shareable ValueSetversion: null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
+Profil: [Shareable ValueSetversion : null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
 
 * Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee`](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md)version 📦20231215120000
 
  
 
 ### Expansion
+
+Expansion effectuée en interne basée sur [codesystem TRE_R274_ActiviteSanitaireRegulee v20231215120000 (CodeSystem)](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md)
+
+Ce jeu de valeur (ValueSet) contient 66 concepts
 
 -------
 

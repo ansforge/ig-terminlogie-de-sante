@@ -27,11 +27,11 @@ Indiquer un mot clé puis taper sur "enter" :
 Requête sur le SMT
 ```
 
-### Logical Definition (CLD)
+### Définition logique (CLD)
 
-version: 12; Dernière mise à jour : 2025-10-02 19:01:59+0200; Langue : fr-FR
+version : 12; Dernière mise à jour : 2025-10-02 19:01:59+0200; Langue : fr-FR
 
-Profil: [Shareable ValueSetversion: null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
+Profil: [Shareable ValueSetversion : null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
 
 Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :
 
@@ -43,6 +43,13 @@ Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :
  
 
 ### Expansion
+
+Expansion effectuée en interne basée sur :
+
+* [codesystem TRE_R48_DiplomeEtatFrancais v20250425120000 (CodeSystem)](CodeSystem-TRE-R48-DiplomeEtatFrancais.md)
+* [codesystem TRE_R54_DiplomeUniversiteInterUniversitaire v20240726120000 (CodeSystem)](CodeSystem-TRE-R54-DiplomeUniversiteInterUniversitaire.md)
+* [codesystem TRE_R56_Attestation v20240329120000 (CodeSystem)](CodeSystem-TRE-R56-Attestation.md)
+* [codesystem TRE_R58_AutreTypeDiplome v20250828120000 (CodeSystem)](CodeSystem-TRE-R58-AutreTypeDiplome.md)
 
 Ce jeu de valeur (ValueSet) contient 64 concepts
 

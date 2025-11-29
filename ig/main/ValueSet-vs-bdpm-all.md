@@ -9,7 +9,7 @@
 | | | |
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/terminologie-bdpm?vs | *Version*:20241106120000 | |
-| Active as of 2025-11-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ValueSet_BDPM_All |
+| Active as of 2025-11-29 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ValueSet_BDPM_All |
 
  
 Ce jeu de valeurs inclut tous les codes de la terminologie BDPM 
@@ -26,19 +26,19 @@ Indiquer un mot clé puis taper sur "enter" :
 Requête sur le SMT
 ```
 
-### Logical Definition (CLD)
+### Définition logique (CLD)
 
-version: 1; Dernière mise à jour : 2024-11-06 12:51:55+0000; Langue : fr-FR
+version : 1; Dernière mise à jour : 2024-11-06 12:51:55+0000; Langue : fr-FR
 
-Profil: [Shareable ValueSetversion: null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
+Profil: [Shareable ValueSetversion : null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
 
-* Include tous les codes définis dans [`https://smt.esante.gouv.fr/terminologie-bdpm`](CodeSystem-terminologie-bdpm.md)version Not Stated (use latest from terminology server)
+* Include tous les codes définis dans [`https://smt.esante.gouv.fr/terminologie-bdpm`](CodeSystem-terminologie-bdpm.md)version Non précisé (utilise la dernière version provenant du serveur de terminologie)
 
  
 
 ### Expansion
 
-Expansion from smt.esante.gouv.fr based on [codesystem Base de données publique du médicament v2025-11-06 (CodeSystem)](CodeSystem-terminologie-bdpm.md)
+Expansion de smt.esante.gouv.fr basée sur [codesystem Base de données publique du médicament v2025-11-06 (CodeSystem)](CodeSystem-terminologie-bdpm.md)
 
 Ce jeu de valeurs (ValueSet) a 41,206 codes. Pour garder la publication gérable, seulement une selection (1,000 codes) de lensemble des codes est affiché.
 
@@ -76,7 +76,7 @@ Ce jeu de valeurs (ValueSet) a 41,206 codes. Pour garder la publication gérable
   "name" : "ValueSet_BDPM_All",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-11-28T04:23:57+00:00",
+  "date" : "2025-11-29T04:23:01+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Ce jeu de valeurs inclut tous les codes de la terminologie BDPM",
   "jurisdiction" : [

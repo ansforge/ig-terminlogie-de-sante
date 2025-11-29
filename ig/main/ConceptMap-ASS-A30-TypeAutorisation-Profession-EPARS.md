@@ -17,7 +17,7 @@ Table d’association entre les types d’autorisations et les professions de sa
 
 Mapping de (non spécifié) vers (non spécifié)
 
-**Groupe 1**Mapping de [TRE_R17_TypeAutorisationversion: 20250523120000)](CodeSystem-TRE-R17-TypeAutorisation.md) to [TRE_G15_ProfessionSanteversion: 20250328120000)](CodeSystem-TRE-G15-ProfessionSante.md)
+**Groupe 1**Mapping de [TRE_R17_TypeAutorisationversion : 20250523120000)](CodeSystem-TRE-R17-TypeAutorisation.md) to [TRE_G15_ProfessionSanteversion : 20250328120000)](CodeSystem-TRE-G15-ProfessionSante.md)
 
 * **Code source**: AM01 (Autorisation de plein exercice)
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
@@ -175,7 +175,7 @@ Mapping de (non spécifié) vers (non spécifié)
 
 -------
 
-**Groupe 2**Mapping de [TRE_R17_TypeAutorisationversion: 20250523120000)](CodeSystem-TRE-R17-TypeAutorisation.md) to [TRE_R94_ProfessionSocialversion: 20241213120000)](CodeSystem-TRE-R94-ProfessionSocial.md)
+**Groupe 2**Mapping de [TRE_R17_TypeAutorisationversion : 20250523120000)](CodeSystem-TRE-R17-TypeAutorisation.md) to [TRE_R94_ProfessionSocialversion : 20241213120000)](CodeSystem-TRE-R94-ProfessionSocial.md)
 
 * **Code source**: AM14 (Arrangement France-Québec (art L 4111-3-1 CSP))
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
@@ -186,7 +186,7 @@ Mapping de (non spécifié) vers (non spécifié)
 
 -------
 
-**Groupe 3**Mapping de [TRE_R17_TypeAutorisationversion: 20250523120000)](CodeSystem-TRE-R17-TypeAutorisation.md) to [TRE_R95_UsagerTitreversion: 20241213120000)](CodeSystem-TRE-R95-UsagerTitre.md)
+**Groupe 3**Mapping de [TRE_R17_TypeAutorisationversion : 20250523120000)](CodeSystem-TRE-R17-TypeAutorisation.md) to [TRE_R95_UsagerTitreversion : 20241213120000)](CodeSystem-TRE-R95-UsagerTitre.md)
 
 * **Code source**: AM27 (Autorisation d'exercice UE/EEE)
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)

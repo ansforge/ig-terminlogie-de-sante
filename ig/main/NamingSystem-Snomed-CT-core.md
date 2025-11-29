@@ -11,9 +11,9 @@
 | *Official URL*:https://interop.esante.gouv.fr/terminologies/NamingSystem/Snomed-CT-core | *Version*: | |
 | Active as of 2024-08-27 | *Responsible:*Agence du Numérique en Santé, ANS, France | *Computable Name*:Snomed_CT_core_900000000000207008 |
 
-version: 5; Dernière mise à jour : 2025-03-06 11:26:43+0000
+version : 5; Dernière mise à jour : 2025-03-06 11:26:43+0000
 
-Tag: Resource encoded in summary mode (Détails : code ObservationValue SUBSETTED = 'Resource encoded in summary mode')
+Balise: Resource encoded in summary mode (Détails : code ObservationValue SUBSETTED = 'Resource encoded in summary mode')
 
 ### Résumé
 

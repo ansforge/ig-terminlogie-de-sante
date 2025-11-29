@@ -11,9 +11,9 @@
 | *Official URL*:https://interop.esante.gouv.fr/terminologies/NamingSystem/ADICAP | *Version*: | |
 | Active as of 2025-07-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ADICAP |
 
-version: 1; Dernière mise à jour : 2025-07-23 08:49:50+0000
+version : 1; Dernière mise à jour : 2025-07-23 08:49:50+0000
 
-Tag: Resource encoded in summary mode (Détails : code ObservationValue SUBSETTED = 'Resource encoded in summary mode')
+Balise: Resource encoded in summary mode (Détails : code ObservationValue SUBSETTED = 'Resource encoded in summary mode')
 
 ### Résumé
 

@@ -11,9 +11,9 @@
 | *Official URL*:https://interop.esante.gouv.fr/terminologies/NamingSystem/SERAFIN | *Version*: | |
 | Active as of 2025-08-20 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:SERAFIN |
 
-version: 1; Dernière mise à jour : 2025-08-21 07:32:14+0000
+version : 1; Dernière mise à jour : 2025-08-21 07:32:14+0000
 
-Tag: Resource encoded in summary mode (Détails : code ObservationValue SUBSETTED = 'Resource encoded in summary mode')
+Balise: Resource encoded in summary mode (Détails : code ObservationValue SUBSETTED = 'Resource encoded in summary mode')
 
 ### Résumé
 

@@ -27,24 +27,24 @@ Indiquer un mot clé puis taper sur "enter" :
 Requête sur le SMT
 ```
 
-### Logical Definition (CLD)
+### Définition logique (CLD)
 
-version: 5; Dernière mise à jour : 2025-10-29 10:43:08+0100; Langue : fr-FR
+version : 5; Dernière mise à jour : 2025-10-29 10:43:08+0100; Langue : fr-FR
 
-Profil: [Shareable ValueSetversion: null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
+Profil: [Shareable ValueSetversion : null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
 
 Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :
 
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`http://snomed.info/sct`](http://www.snomed.org/)version Not Stated (use latest from terminology server)
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://smt.esante.gouv.fr/terminologie-atc`](CodeSystem-terminologie-atc.md)version Not Stated (use latest from terminology server) 
+* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`http://snomed.info/sct`](http://www.snomed.org/)version Non précisé (utilise la dernière version provenant du serveur de terminologie)
+* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://smt.esante.gouv.fr/terminologie-atc`](CodeSystem-terminologie-atc.md)version Non précisé (utilise la dernière version provenant du serveur de terminologie) 
 
  
 
 ### Expansion
 
-Expansion from smt.esante.gouv.fr based on:
+Expansion de smt.esante.gouv.fr basée sur :
 
-* SNOMED CT 11000315107 edition 21-Jun 2025
+* SNOMED CT édition 11000315107 21-Jun 2025
 * [codesystem Classification anatomique, thérapeutique et chimique v2025-02 (CodeSystem)](CodeSystem-terminologie-atc.md)
 
 Ce jeu de valeur (ValueSet) contient 6 concepts

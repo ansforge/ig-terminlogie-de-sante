@@ -17,7 +17,7 @@ Correspondance entre types et classes de documents, restreinte aux codes des JDV
 
 Mapping de [JDV_J66_TypeCode_DMP](ValueSet-JDV-J66-TypeCode-DMP.md) vers [JDV_J57_ClassCode_DMP](ValueSet-JDV-J57-ClassCode-DMP.md)
 
-**Groupe 1**Mapping de [Logical Observation Identifiers, Names and Codes (LOINC)](http://terminology.hl7.org/5.0.0/CodeSystem-v3-loinc.html) to [TRE_A03_ClasseDocumentversion: 20231215120000)](CodeSystem-TRE-A03-ClasseDocument.md)
+**Groupe 1**Mapping de [Logical Observation Identifiers, Names and Codes (LOINC)](http://terminology.hl7.org/5.0.0/CodeSystem-v3-loinc.html) to [TRE_A03_ClasseDocumentversion : 20231215120000)](CodeSystem-TRE-A03-ClasseDocument.md)
 
 * **Code source**: 11369-6 (History of Immunization note)
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
@@ -253,7 +253,7 @@ Mapping de [JDV_J66_TypeCode_DMP](ValueSet-JDV-J66-TypeCode-DMP.md) vers [JDV_J5
 
 -------
 
-**Groupe 2**Mapping de [TRE_A05_TypeDocComplementaireversion: 20240329120000)](CodeSystem-TRE-A05-TypeDocComplementaire.md) to [TRE_A03_ClasseDocumentversion: 20231215120000)](CodeSystem-TRE-A03-ClasseDocument.md)
+**Groupe 2**Mapping de [TRE_A05_TypeDocComplementaireversion : 20240329120000)](CodeSystem-TRE-A05-TypeDocComplementaire.md) to [TRE_A03_ClasseDocumentversion : 20231215120000)](CodeSystem-TRE-A03-ClasseDocument.md)
 
 * **Code source**: AUTORIS-SOINS (Autorisation de soins et actes non usuels sanitaires)
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
@@ -351,7 +351,7 @@ Mapping de [JDV_J66_TypeCode_DMP](ValueSet-JDV-J66-TypeCode-DMP.md) vers [JDV_J5
 
 -------
 
-**Groupe 3**Mapping de [TRE_A12_NomenclatureASTMversion: 20231215120000)](CodeSystem-TRE-A12-NomenclatureASTM.md) to [TRE_A10_NomenclatureURNversion: 20231215120000)](CodeSystem-TRE-A10-NomenclatureURN.md)
+**Groupe 3**Mapping de [TRE_A12_NomenclatureASTMversion : 20231215120000)](CodeSystem-TRE-A12-NomenclatureASTM.md) to [TRE_A10_NomenclatureURNversion : 20231215120000)](CodeSystem-TRE-A10-NomenclatureURN.md)
 
 * **Code source**: E1762 (Full Document)
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)

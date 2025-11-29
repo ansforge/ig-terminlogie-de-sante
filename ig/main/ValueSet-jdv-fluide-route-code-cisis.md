@@ -27,19 +27,19 @@ Indiquer un mot clé puis taper sur "enter" :
 Requête sur le SMT
 ```
 
-### Logical Definition (CLD)
+### Définition logique (CLD)
 
-version: 5; Dernière mise à jour : 2025-10-29 10:43:50+0100; Langue : fr-FR
+version : 5; Dernière mise à jour : 2025-10-29 10:43:50+0100; Langue : fr-FR
 
-Profil: [Shareable ValueSetversion: null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
+Profil: [Shareable ValueSetversion : null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
 
-* Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://smt.esante.gouv.fr/terminologie-standardterms`](CodeSystem-terminologie-standardterms.md)version Not Stated (use latest from terminology server)
+* Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://smt.esante.gouv.fr/terminologie-standardterms`](CodeSystem-terminologie-standardterms.md)version Non précisé (utilise la dernière version provenant du serveur de terminologie)
 
  
 
 ### Expansion
 
-Expansion from smt.esante.gouv.fr based on [codesystem Standard Terms Data Base Dictionnaire européen multilingue de termes normalisés descripteurs de médicaments v2025-03-19 (CodeSystem)](CodeSystem-terminologie-standardterms.md)
+Expansion de smt.esante.gouv.fr basée sur [codesystem Standard Terms Data Base Dictionnaire européen multilingue de termes normalisés descripteurs de médicaments v2025-03-19 (CodeSystem)](CodeSystem-terminologie-standardterms.md)
 
 Ce jeu de valeur (ValueSet) contient 6 concepts
 

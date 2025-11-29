@@ -27,11 +27,11 @@ Indiquer un mot clé puis taper sur "enter" :
 Requête sur le SMT
 ```
 
-### Logical Definition (CLD)
+### Définition logique (CLD)
 
-version: 9; Dernière mise à jour : 2025-07-02 17:04:44+0000; Langue : fr-FR
+version : 9; Dernière mise à jour : 2025-07-02 17:04:44+0000; Langue : fr-FR
 
-Profil: [Shareable ValueSetversion: null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
+Profil: [Shareable ValueSetversion : null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
 
 Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :
 
@@ -50,6 +50,20 @@ Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :
  
 
 ### Expansion
+
+Expansion effectuée en interne basée sur :
+
+* [codesystem TRE_G13_OrientationParticuliere v20231215120000 (CodeSystem)](CodeSystem-TRE-G13-OrientationParticuliere.md)
+* [codesystem TRE_R359_SurspecialiteTransversale v20240531120000 (CodeSystem)](CodeSystem-TRE-R359-SurspecialiteTransversale.md)
+* [codesystem TRE_R38_SpecialiteOrdinale v20240531120000 (CodeSystem)](CodeSystem-TRE-R38-SpecialiteOrdinale.md)
+* [codesystem TRE_R39_Competence v20240628120000 (CodeSystem)](CodeSystem-TRE-R39-Competence.md)
+* [codesystem TRE_R40_CompetenceExclusive v20231215120000 (CodeSystem)](CodeSystem-TRE-R40-CompetenceExclusive.md)
+* [codesystem TRE_R42_DESCnonQualifiant v20240628120000 (CodeSystem)](CodeSystem-TRE-R42-DESCnonQualifiant.md)
+* [codesystem TRE_R43_CapaciteSavoirFaire v20231215120000 (CodeSystem)](CodeSystem-TRE-R43-CapaciteSavoirFaire.md)
+* [codesystem TRE_R44_QualificationPAC v20231215120000 (CodeSystem)](CodeSystem-TRE-R44-QualificationPAC.md)
+* [codesystem TRE_R45_FonctionQualifiee v20231215120000 (CodeSystem)](CodeSystem-TRE-R45-FonctionQualifiee.md)
+* [codesystem TRE_R97_DroitExerciceCompl v20231215120000 (CodeSystem)](CodeSystem-TRE-R97-DroitExerciceCompl.md)
+* [codesystem Tre R394 Competence Metier v20250625120000 (CodeSystem)](CodeSystem-tre-r394-competence-metier.md)
 
 Ce jeu de valeur (ValueSet) contient 266 concepts
 

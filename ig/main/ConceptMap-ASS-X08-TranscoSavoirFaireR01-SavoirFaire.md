@@ -17,7 +17,7 @@ Transco des Savoir-faire de la TRE_R01 vers les TRE des NOS
 
 Mapping de (non spécifié) vers (non spécifié)
 
-**Groupe 1**Mapping de [TRE_R01_EnsembleSavoirFaire_CISISversion: 20241213120000)](CodeSystem-TRE-R01-EnsembleSavoirFaire-CISIS.md) to [TRE_R38_SpecialiteOrdinaleversion: 20240531120000)](CodeSystem-TRE-R38-SpecialiteOrdinale.md)
+**Groupe 1**Mapping de [TRE_R01_EnsembleSavoirFaire_CISISversion : 20241213120000)](CodeSystem-TRE-R01-EnsembleSavoirFaire-CISIS.md) to [TRE_R38_SpecialiteOrdinaleversion : 20240531120000)](CodeSystem-TRE-R38-SpecialiteOrdinale.md)
 
 * **Code source**: SCD01 (Orthopédie dento-faciale (SCD))
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
@@ -331,7 +331,7 @@ Mapping de (non spécifié) vers (non spécifié)
 
 -------
 
-**Groupe 2**Mapping de [TRE_R01_EnsembleSavoirFaire_CISISversion: 20241213120000)](CodeSystem-TRE-R01-EnsembleSavoirFaire-CISIS.md) to [TRE_R39_Competenceversion: 20240628120000)](CodeSystem-TRE-R39-Competence.md)
+**Groupe 2**Mapping de [TRE_R01_EnsembleSavoirFaire_CISISversion : 20241213120000)](CodeSystem-TRE-R01-EnsembleSavoirFaire-CISIS.md) to [TRE_R39_Competenceversion : 20240628120000)](CodeSystem-TRE-R39-Competence.md)
 
 * **Code source**: C01 (Anatomie et Cytologie pathologiques humaines (C))
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
@@ -465,7 +465,7 @@ Mapping de (non spécifié) vers (non spécifié)
 
 -------
 
-**Groupe 3**Mapping de [TRE_R01_EnsembleSavoirFaire_CISISversion: 20241213120000)](CodeSystem-TRE-R01-EnsembleSavoirFaire-CISIS.md) to [TRE_R40_CompetenceExclusiveversion: 20231215120000)](CodeSystem-TRE-R40-CompetenceExclusive.md)
+**Groupe 3**Mapping de [TRE_R01_EnsembleSavoirFaire_CISISversion : 20241213120000)](CodeSystem-TRE-R01-EnsembleSavoirFaire-CISIS.md) to [TRE_R40_CompetenceExclusiveversion : 20231215120000)](CodeSystem-TRE-R40-CompetenceExclusive.md)
 
 * **Code source**: CEX22 (Gynécologie médicale et obstétrique (CEX))
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
@@ -482,7 +482,7 @@ Mapping de (non spécifié) vers (non spécifié)
 
 -------
 
-**Groupe 4**Mapping de [TRE_R01_EnsembleSavoirFaire_CISISversion: 20241213120000)](CodeSystem-TRE-R01-EnsembleSavoirFaire-CISIS.md) to [TRE_R42_DESCnonQualifiantversion: 20240628120000)](CodeSystem-TRE-R42-DESCnonQualifiant.md)
+**Groupe 4**Mapping de [TRE_R01_EnsembleSavoirFaire_CISISversion : 20241213120000)](CodeSystem-TRE-R01-EnsembleSavoirFaire-CISIS.md) to [TRE_R42_DESCnonQualifiantversion : 20240628120000)](CodeSystem-TRE-R42-DESCnonQualifiant.md)
 
 * **Code source**: DSM200 (Addictologie (DNQ))
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
@@ -610,7 +610,7 @@ Mapping de (non spécifié) vers (non spécifié)
 
 -------
 
-**Groupe 5**Mapping de [TRE_R01_EnsembleSavoirFaire_CISISversion: 20241213120000)](CodeSystem-TRE-R01-EnsembleSavoirFaire-CISIS.md) to [TRE_R43_CapaciteSavoirFaireversion: 20231215120000)](CodeSystem-TRE-R43-CapaciteSavoirFaire.md)
+**Groupe 5**Mapping de [TRE_R01_EnsembleSavoirFaire_CISISversion : 20241213120000)](CodeSystem-TRE-R01-EnsembleSavoirFaire-CISIS.md) to [TRE_R43_CapaciteSavoirFaireversion : 20231215120000)](CodeSystem-TRE-R43-CapaciteSavoirFaire.md)
 
 * **Code source**: CAPA01 (Addictologie clinique (CAPA))
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
@@ -663,7 +663,7 @@ Mapping de (non spécifié) vers (non spécifié)
 
 -------
 
-**Groupe 6**Mapping de [TRE_R01_EnsembleSavoirFaire_CISISversion: 20241213120000)](CodeSystem-TRE-R01-EnsembleSavoirFaire-CISIS.md) to [TRE_R44_QualificationPACversion: 20231215120000)](CodeSystem-TRE-R44-QualificationPAC.md)
+**Groupe 6**Mapping de [TRE_R01_EnsembleSavoirFaire_CISISversion : 20241213120000)](CodeSystem-TRE-R01-EnsembleSavoirFaire-CISIS.md) to [TRE_R44_QualificationPACversion : 20231215120000)](CodeSystem-TRE-R44-QualificationPAC.md)
 
 * **Code source**: PAC00 (Qualification Praticien adjoint contractuel (PAC))
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
@@ -671,7 +671,7 @@ Mapping de (non spécifié) vers (non spécifié)
 
 -------
 
-**Groupe 7**Mapping de [TRE_R01_EnsembleSavoirFaire_CISISversion: 20241213120000)](CodeSystem-TRE-R01-EnsembleSavoirFaire-CISIS.md) to [TRE_R46_SpecialiteConcoursHospitalierversion: 20231215120000)](CodeSystem-TRE-R46-SpecialiteConcoursHospitalier.md)
+**Groupe 7**Mapping de [TRE_R01_EnsembleSavoirFaire_CISISversion : 20241213120000)](CodeSystem-TRE-R01-EnsembleSavoirFaire-CISIS.md) to [TRE_R46_SpecialiteConcoursHospitalierversion : 20231215120000)](CodeSystem-TRE-R46-SpecialiteConcoursHospitalier.md)
 
 * **Code source**: SCH01 (Anatomie et Cytologie pathologiques (SCH))
   * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)

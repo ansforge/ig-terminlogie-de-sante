@@ -27,16 +27,16 @@ Indiquer un mot clé puis taper sur "enter" :
 Requête sur le SMT
 ```
 
-### Logical Definition (CLD)
+### Définition logique (CLD)
 
-version: 2; Dernière mise à jour : 2024-04-27 05:07:50+0000; Langue : fr-FR
+version : 2; Dernière mise à jour : 2024-04-27 05:07:50+0000; Langue : fr-FR
 
-Profil: [Shareable ValueSetversion: null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
+Profil: [Shareable ValueSetversion : null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
 
 Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :
 
 * Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R266-FamilleActiviteOperationnelleHorsSerafin/FHIR/TRE-R266-FamilleActiviteOperationnelleHorsSerafin`](CodeSystem-TRE-R266-FamilleActiviteOperationnelleHorsSerafin.md)version 📦20231215120000
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans `https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin`version Not Stated (use latest from terminology server) 
+* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans `https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin`version Non précisé (utilise la dernière version provenant du serveur de terminologie) 
 
  
 

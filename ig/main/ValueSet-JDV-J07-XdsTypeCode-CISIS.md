@@ -27,23 +27,23 @@ Indiquer un mot clé puis taper sur "enter" :
 Requête sur le SMT
 ```
 
-### Logical Definition (CLD)
+### Définition logique (CLD)
 
-version: 14; Dernière mise à jour : 2025-11-04 19:01:56+0100; Langue : fr-FR
+version : 14; Dernière mise à jour : 2025-11-04 19:01:56+0100; Langue : fr-FR
 
-Profil: [Shareable ValueSetversion: null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
+Profil: [Shareable ValueSetversion : null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
 
 Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :
 
 * Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_A05-TypeDocComplementaire/FHIR/TRE-A05-TypeDocComplementaire`](CodeSystem-TRE-A05-TypeDocComplementaire.md)version 📦20240329120000
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`http://loinc.org`](http://loinc.org)version Not Stated (use latest from terminology server) 
+* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`http://loinc.org`](http://loinc.org)version Non précisé (utilise la dernière version provenant du serveur de terminologie) 
 * Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_A12-NomenclatureASTM/FHIR/TRE-A12-NomenclatureASTM`](CodeSystem-TRE-A12-NomenclatureASTM.md)version 📦20231215120000 
 
  
 
 ### Expansion
 
-Expansion from tx.fhir.org based on:
+Expansion de tx.fhir.org basée sur :
 
 * Loinc v2.81
 * [codesystem TRE_A05_TypeDocComplementaire v20240329120000 (CodeSystem)](CodeSystem-TRE-A05-TypeDocComplementaire.md)

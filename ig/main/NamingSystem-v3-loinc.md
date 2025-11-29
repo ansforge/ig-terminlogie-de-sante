@@ -11,9 +11,9 @@
 | *Official URL*:https://interop.esante.gouv.fr/terminologies/NamingSystem/v3-loinc | *Version*: | |
 | Active as of 2022-12-15 | *Responsible:*LOINC and Health Data Standards, Regenstrief Institute, Inc. | *Computable Name*:LOINC |
 
-version: 1; Dernière mise à jour : 2024-07-25 11:58:56+0000
+version : 1; Dernière mise à jour : 2024-07-25 11:58:56+0000
 
-Tag: Resource encoded in summary mode (Détails : code ObservationValue SUBSETTED = 'Resource encoded in summary mode')
+Balise: Resource encoded in summary mode (Détails : code ObservationValue SUBSETTED = 'Resource encoded in summary mode')
 
 ### Résumé
 

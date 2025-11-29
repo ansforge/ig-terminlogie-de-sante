@@ -27,17 +27,21 @@ Indiquer un mot clé puis taper sur "enter" :
 Requête sur le SMT
 ```
 
-### Logical Definition (CLD)
+### Définition logique (CLD)
 
-version: 7; Dernière mise à jour : 2025-10-02 19:02:01+0200; Langue : fr-FR
+version : 7; Dernière mise à jour : 2025-10-02 19:02:01+0200; Langue : fr-FR
 
-Profil: [Shareable ValueSetversion: null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
+Profil: [Shareable ValueSetversion : null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
 
 * Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture`](CodeSystem-TRE-R286-TypeFermeture.md)version 📦20251016120000
 
  
 
 ### Expansion
+
+Expansion effectuée en interne basée sur [codesystem TRE_R286_TypeFermeture v20251016120000 (CodeSystem)](CodeSystem-TRE-R286-TypeFermeture.md)
+
+Ce jeu de valeur (ValueSet) contient 7 concepts
 
 -------
 
