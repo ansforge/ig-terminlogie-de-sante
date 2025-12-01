@@ -73,6 +73,7 @@ parameters:
       - https://smt.esante.gouv.fr/fhir/CodeSystem/condition-clinical-supplement-fr
       - https://smt.esante.gouv.fr/fhir/CodeSystem/condition-ver-status-supplement-fr
       - https://smt.esante.gouv.fr/fhir/CodeSystem/confidentiality-supplement-fr
+      - https://smt.esante.gouv.fr/fhir/CodeSystem/ObservationValue-supplement-fr
       - https://smt.esante.gouv.fr/fhir/CodeSystem/employmentStatus-supplement-fr
       - https://smt.esante.gouv.fr/fhir/CodeSystem/mediaType-supplement-fr
       - https://smt.esante.gouv.fr/fhir/CodeSystem/observationInterpretation-supplement-fr
