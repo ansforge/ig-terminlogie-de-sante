@@ -9,7 +9,7 @@
 | | | |
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/terminologie-atc?vs | *Version*:20241114120000 | |
-| Active as of 2025-12-02 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ValueSet_ATC_All |
+| Active as of 2025-12-03 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ValueSet_ATC_All |
 
  
 Ce jeu de valeurs inclut tous les codes concepts de la terminologie ATC 
@@ -76,7 +76,7 @@ Ce jeu de valeurs (ValueSet) a 6,950 codes. Pour garder la publication gérable,
   "name" : "ValueSet_ATC_All",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-02T04:29:48+00:00",
+  "date" : "2025-12-03T04:28:43+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Ce jeu de valeurs inclut tous les codes concepts de la terminologie ATC",
   "jurisdiction" : [
