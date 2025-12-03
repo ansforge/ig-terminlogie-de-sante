@@ -1,0 +1,17 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"fr-evolution-effet-indesirable","fr-evolution-effet-indesirable","","","",0,*,"","","","null {[]} {[]}
+","FR-Evolution-effet-indesirable","Cette entrée permet de préciser l'évolution d'un effet indésirable à un médicament. Il est utilisé exclusivement dans un lien entryRelationship grâce auquel il est lié à l’élément qu’il qualifie.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"fr-evolution-effet-indesirable.observation","fr-evolution-effet-indesirable.observation","","","",0,1,"","","","string {[]} {[]}
+","Entrée Evolution effet indesirable","Entrée Evolution effet indesirable","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evolution-cisis|20250624152100","",,,,"fr-evolution-effet-indesirable.observation",0,1,"",""
+"fr-evolution-effet-indesirable.code","fr-evolution-effet-indesirable.code","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Code de l'entrée","Code de l'entrée","","","","","","","","","",,,,,"",,,,"fr-evolution-effet-indesirable.code",1,1,"",""
+"fr-evolution-effet-indesirable.text","fr-evolution-effet-indesirable.text","","","",1,1,"","","","string {[]} {[]}
+","Partie narrative de l'entrée","Partie narrative de l'entrée","","","","","","","","","",,,,,"",,,,"fr-evolution-effet-indesirable.text",1,1,"",""
+"fr-evolution-effet-indesirable.statusCode","fr-evolution-effet-indesirable.statusCode","","","",1,1,"","","","code {[]} {[]}
+","Statut de l'entrée
+                        
+                        Fixé à la valeur ""completed""","Statut de l'entrée
+                        
+                        Fixé à la valeur ""completed""","","","","","","","","","",,,,,"",,,,"fr-evolution-effet-indesirable.statusCode",1,1,"",""
+"fr-evolution-effet-indesirable.value","fr-evolution-effet-indesirable.value","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Evolution","Evolution","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evolution-cisis|20250624152100","",,,,"fr-evolution-effet-indesirable.value",1,1,"",""

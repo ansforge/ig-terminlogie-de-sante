@@ -1,0 +1,37 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"fr-vaccination","fr-vaccination","","","",0,*,"","","","null {[]} {[]}
+","FR-Vaccination","IHE-PCC - Immunizations                   L'entrée Vaccination est une entrée de type ""substanceAdministration"" pour décrire l'administration d'un vaccin. Elle permet également de décrire pourquoi un vaccin n'a pas été réalisé.                   Cette entrée hérite de la structuration, des contraint...","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"fr-vaccination.substanceAdministration","fr-vaccination.substanceAdministration","","","",1,1,"","","","string {[]} {[]}
+","Entrée Vaccination","Entrée Vaccination","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-immunization-approach-site-code-cisis|20251028115832","",,,,"fr-vaccination.substanceAdministration",1,1,"",""
+"fr-vaccination.id","fr-vaccination.id","","","",1,1,"","","","Identifier {[]} {[]}
+","Identifiant de l’entrée 
+                         Attribué par le LPS avec un identifiant unique de type UUID affecté à l’attribut root (l’attribut ex...","Identifiant de l’entrée 
+                         Attribué par le LPS avec un identifiant unique de type UUID affecté à l’attribut root (l’attribut ex...","","","","","","","","","",,,,,"",,,,"fr-vaccination.id",1,1,"",""
+"fr-vaccination.code","fr-vaccination.code","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Terminologies: JDV_HL7_ActSubstanceAdministrationImmunizationCode_CISIS, JDV_AbsentOrUnknownImmunization_CISIS","OIDs: 1.2.250.1.213.1.1.5.666, 2.16.840.1.113883.1.11.19709","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActSubstanceAdministrationImmunizationCode-cisis|20251028115836","",,,,"fr-vaccination.code",1,1,"",""
+"fr-vaccination.text","fr-vaccination.text","","","",1,1,"","","","string {[]} {[]}
+","Partie narrative de l’entrée","Partie narrative de l’entrée","","","","","","","","","",,,,,"",,,,"fr-vaccination.text",1,1,"",""
+"fr-vaccination.reference","fr-vaccination.reference","","","",1,1,"","","","string {[]} {[]}
+","Réference à l’élément narratif de la section","Réference à l’élément narratif de la section","","","","","","","","","",,,,,"",,,,"fr-vaccination.reference",1,1,"",""
+"fr-vaccination.statusCode","fr-vaccination.statusCode","","","",1,1,"","","","code {[]} {[]}
+","Statut de l’entrée
+                         
+                         Fixé à la valeur ""completed""","Statut de l’entrée
+                         
+                         Fixé à la valeur ""completed""","","","","","","","","","",,,,,"",,,,"fr-vaccination.statusCode",1,1,"",""
+"fr-vaccination.effectiveTime","fr-vaccination.effectiveTime","","","",1,1,"","","","string {[]} {[]}
+","Date de la vaccination
+                              Si la date de la vaccination est inconnue, utiliser une valeur nullFlavor précisant la raison pou...","Date de la vaccination
+                              Si la date de la vaccination est inconnue, utiliser une valeur nullFlavor précisant la raison pou...","","","","","","","","","",,,,,"",,,,"fr-vaccination.effectiveTime",1,1,"",""
+"fr-vaccination.routeCode","fr-vaccination.routeCode","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Voie d'administration","Voie d'administration","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-immunization-route-code-cisis|20251028115833","",,,,"fr-vaccination.routeCode",0,1,"",""
+"fr-vaccination.approachSiteCode","fr-vaccination.approachSiteCode","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","Terminologies: SNOMED CT","OIDs: 2.16.840.1.113883.6.96","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-immunization-approach-site-code-cisis|20251028115832","",,,,"fr-vaccination.approachSiteCode",0,*,"",""
+"fr-vaccination.originalText","fr-vaccination.originalText","","","",0,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-vaccination.originalText",0,1,"",""
+"fr-vaccination.doseQuantity","fr-vaccination.doseQuantity","","","",0,1,"","","","string {[]} {[]}
+","Dose administrée","Dose administrée","","","","","","","","","",,,,,"",,,,"fr-vaccination.doseQuantity",0,1,"",""
+"fr-vaccination.consumable","fr-vaccination.consumable","","","",1,1,"","","","string {[]} {[]}
+","Vaccin","Vaccin","","","","","","","","","",,,,,"",,,,"fr-vaccination.consumable",1,1,"",""
+"fr-vaccination.entryRelationship","fr-vaccination.entryRelationship","","","",0,1,"","","","string {[]} {[]}
+","Prescription","Prescription","","","","","","","","","",,,,,"",,,,"fr-vaccination.entryRelationship",0,1,"",""

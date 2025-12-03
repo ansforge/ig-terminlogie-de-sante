@@ -1,0 +1,21 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"fr-tnm-m","fr-tnm-m","","","",0,*,"","","","null {[]} {[]}
+","FR-TNM-M","IHE-APSR - TNM M-Observation","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"fr-tnm-m.observation","fr-tnm-m.observation","","","",0,1,"","","","string {[]} {[]}
+","Entrée TNM -M","Entrée TNM -M","","","","","","","","","",,,,,"",,,,"fr-tnm-m.observation",0,1,"",""
+"fr-tnm-m.id","fr-tnm-m.id","","","",0,*,"","","","Identifier {[]} {[]}
+","Identifiant de l'observation","Identifiant de l'observation","","","","","","","","","",,,,,"",,,,"fr-tnm-m.id",0,*,"",""
+"fr-tnm-m.code","fr-tnm-m.code","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Code de l'observation","Code de l'observation","","","","","","","","","",,,,,"",,,,"fr-tnm-m.code",1,1,"",""
+"fr-tnm-m.text","fr-tnm-m.text","","","",0,1,"","","","string {[]} {[]}
+","Description narrative de l'observation","Description narrative de l'observation","","","","","","","","","",,,,,"",,,,"fr-tnm-m.text",0,1,"",""
+"fr-tnm-m.statusCode","fr-tnm-m.statusCode","","","",1,1,"","","","code {[]} {[]}
+","Statut de l'observation","Statut de l'observation","","","","","","","","","",,,,,"",,,,"fr-tnm-m.statusCode",1,1,"",""
+"fr-tnm-m.effectiveTime","fr-tnm-m.effectiveTime","","","",1,1,"","","","Period {[]} {[]}
+","Date de l'observation","Date de l'observation","","","","","","","","","",,,,,"",,,,"fr-tnm-m.effectiveTime",1,1,"",""
+"fr-tnm-m.value","fr-tnm-m.value","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Valeur de l'observation","Valeur de l'observation","","","","","","","","","",,,,,"",,,,"fr-tnm-m.value",1,1,"",""
+"fr-tnm-m.qualifier","fr-tnm-m.qualifier","","","",0,1,"","","","string {[]} {[]}
+","C-Factor (Certitude)","C-Factor (Certitude)","","","","","","","","","",,,,,"",,,,"fr-tnm-m.qualifier",0,1,"",""
+"fr-tnm-m.name","fr-tnm-m.name","","","",1,1,"","","","string {[]} {[]}
+","nom","nom","","","","","","","","","",,,,,"",,,,"fr-tnm-m.name",1,1,"",""

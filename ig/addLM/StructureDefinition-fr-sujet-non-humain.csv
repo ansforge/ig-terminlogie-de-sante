@@ -1,0 +1,20 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"fr-sujet-non-humain","fr-sujet-non-humain","","","",0,*,"","","","null {[]} {[]}
+","FR-Sujet-non-humain","IHE-PCC - Non-Human Subject                                                                Cet élément doit être présent lorsque le sujet des observations du compte rendu est un échantillon provenant d'un sujet non humain (animal ou autre élément environnemental) analysé par un laboratoire de biolog...","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"fr-sujet-non-humain.subject","fr-sujet-non-humain.subject","","","",0,1,"","","","string {[]} {[]}
+","Sujet non humain","Sujet non humain","","","","","","","","","",,,,,"",,,,"fr-sujet-non-humain.subject",0,1,"",""
+"fr-sujet-non-humain.relatedSubject","fr-sujet-non-humain.relatedSubject","","","",1,1,"","","","string {[]} {[]}
+","Sujet  (ex. poulet, poisson, œuf, salade, eau, terre, air, peinture, etc.).","Sujet  (ex. poulet, poisson, œuf, salade, eau, terre, air, peinture, etc.).","","","","","","","","","",,,,,"",,,,"fr-sujet-non-humain.relatedSubject",1,1,"",""
+"fr-sujet-non-humain.code","fr-sujet-non-humain.code","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Sujet  (ex. poulet, poisson, œuf, salade, eau, terre, air, peinture, etc.).","Sujet  (ex. poulet, poisson, œuf, salade, eau, terre, air, peinture, etc.).","","","","","","","","","",,,,,"",,,,"fr-sujet-non-humain.code",1,1,"",""
+"fr-sujet-non-humain.qualifier","fr-sujet-non-humain.qualifier","","","",0,*,"","","","string {[]} {[]}
+","Nom du sujet","Nom du sujet","","","","","","","","","",,,,,"",,,,"fr-sujet-non-humain.qualifier",0,*,"",""
+"fr-sujet-non-humain.name","fr-sujet-non-humain.name","","","",0,1,"","","","string {[]} {[]}
+","Nom du sujet","Nom du sujet","","","","","","","","","",,,,,"",,,,"fr-sujet-non-humain.name",0,1,"",""
+"fr-sujet-non-humain.value","fr-sujet-non-humain.value","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Terminologies: SNOMED CT","Type de sujet (aliment ou substance) :
+                                    
+                                        
+                                 ...","","","","","","","","","",,,,,"",,,,"fr-sujet-non-humain.value",0,1,"",""
+"fr-sujet-non-humain.addr","fr-sujet-non-humain.addr","","","",1,1,"","","","Address {[]} {[]}
+","Lieu de provenance du sujet non humain","Lieu de provenance du sujet non humain","","","","","","","","","",,,,,"",,,,"fr-sujet-non-humain.addr",1,1,"",""

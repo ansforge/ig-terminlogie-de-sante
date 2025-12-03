@@ -1,0 +1,25 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"fr-antecedent-familial-observe","fr-antecedent-familial-observe","","","",0,*,"","","","null {[]} {[]}
+","FR-Antecedent-familial-observe","IHE-PCC - Family History Observation                                                                L'entrée Antécédent familial observé permet d'apporter des informations complémentaires relatives aux membres de la famille du patient (pathologies, etc…).                                             ...","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"fr-antecedent-familial-observe.observation","fr-antecedent-familial-observe.observation","","","",1,1,"","","","string {[]} {[]}
+","Entrée Antécédent familial observé","Entrée Antécédent familial observé","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-code-probleme-cisis|20251028115835","",,,,"fr-antecedent-familial-observe.observation",1,1,"",""
+"fr-antecedent-familial-observe.id","fr-antecedent-familial-observe.id","","","",1,1,"","","","Identifier {[]} {[]}
+","Identifiant de l'observation","Identifiant de l'observation","","","","","","","","","",,,,,"",,,,"fr-antecedent-familial-observe.id",1,1,"",""
+"fr-antecedent-familial-observe.code","fr-antecedent-familial-observe.code","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Type de l'observation","Type de l'observation","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-code-probleme-cisis|20251028115835","",,,,"fr-antecedent-familial-observe.code",1,1,"",""
+"fr-antecedent-familial-observe.text","fr-antecedent-familial-observe.text","","","",1,1,"","","","string {[]} {[]}
+","Description narrative de la valeur de l'observation","Description narrative de la valeur de l'observation","","","","","","","","","",,,,,"",,,,"fr-antecedent-familial-observe.text",1,1,"",""
+"fr-antecedent-familial-observe.reference","fr-antecedent-familial-observe.reference","","","",1,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-antecedent-familial-observe.reference",1,1,"",""
+"fr-antecedent-familial-observe.statusCode","fr-antecedent-familial-observe.statusCode","","","",1,1,"","","","code {[]} {[]}
+","Statut de l'entrée","Statut de l'entrée","","","","","","","","","",,,,,"",,,,"fr-antecedent-familial-observe.statusCode",1,1,"",""
+"fr-antecedent-familial-observe.effectiveTime","fr-antecedent-familial-observe.effectiveTime","","","",0,1,"","","","Period {[]} {[]}
+","Horodatage de l'entrée","Horodatage de l'entrée","","","","","","","","","",,,,,"",,,,"fr-antecedent-familial-observe.effectiveTime",0,1,"",""
+"fr-antecedent-familial-observe.value","fr-antecedent-familial-observe.value","","","",1,1,"","","","string {[]} {[]}
+","Résultat de l'observation effectuée","Résultat de l'observation effectuée","","","","","","","","","",,,,,"",,,,"fr-antecedent-familial-observe.value",1,1,"",""
+"fr-antecedent-familial-observe.interpretationCode","fr-antecedent-familial-observe.interpretationCode","","","",0,1,"","","","string {[]} {[]}
+","Interpétration","Interpétration","","","","","","","","","",,,,,"",,,,"fr-antecedent-familial-observe.interpretationCode",0,1,"",""
+"fr-antecedent-familial-observe.methodCode","fr-antecedent-familial-observe.methodCode","","","",0,1,"","","","string {[]} {[]}
+","Méthode utilisée","Méthode utilisée","","","","","","","","","",,,,,"",,,,"fr-antecedent-familial-observe.methodCode",0,1,"",""
+"fr-antecedent-familial-observe.targetSiteCode","fr-antecedent-familial-observe.targetSiteCode","","","",0,1,"","","","string {[]} {[]}
+","Site","Site","","","","","","","","","",,,,,"",,,,"fr-antecedent-familial-observe.targetSiteCode",0,1,"",""

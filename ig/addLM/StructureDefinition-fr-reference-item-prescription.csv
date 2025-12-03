@@ -1,0 +1,23 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"fr-reference-item-prescription","fr-reference-item-prescription","","","",0,*,"","","","null {[]} {[]}
+","FR-Reference-item-prescription","IHE-PRE - Reference-Prescription-Item                                                               Cette entrée permet d’enregistrer la référence à un item de prescription.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"fr-reference-item-prescription.substanceAdministration","fr-reference-item-prescription.substanceAdministration","","","",1,1,"","","","string {[]} {[]}
+","Entrée Référence item prescription","Entrée Référence item prescription","","","","","","","","","",,,,,"",,,,"fr-reference-item-prescription.substanceAdministration",1,1,"",""
+"fr-reference-item-prescription.id","fr-reference-item-prescription.id","","","",1,1,"","","","Identifier {[]} {[]}
+","Identifiant de la ligne de prescription","Identifiant de la ligne de prescription","","","","","","","","","",,,,,"",,,,"fr-reference-item-prescription.id",1,1,"",""
+"fr-reference-item-prescription.code","fr-reference-item-prescription.code","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Code de l'entrée","Code de l'entrée","","","","","","","","","",,,,,"",,,,"fr-reference-item-prescription.code",1,1,"",""
+"fr-reference-item-prescription.originalText","fr-reference-item-prescription.originalText","","","",0,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-reference-item-prescription.originalText",0,1,"",""
+"fr-reference-item-prescription.reference","fr-reference-item-prescription.reference","","","",1,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-reference-item-prescription.reference",1,1,"",""
+"fr-reference-item-prescription.consumable","fr-reference-item-prescription.consumable","","","",1,1,"","","","string {[]} {[]}
+","Produit de santé","Produit de santé","","","","","","","","","",,,,,"",,,,"fr-reference-item-prescription.consumable",1,1,"",""
+"fr-reference-item-prescription.manufacturedProduct","fr-reference-item-prescription.manufacturedProduct","","","",1,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-reference-item-prescription.manufacturedProduct",1,1,"",""
+"fr-reference-item-prescription.manufacturedMaterial","fr-reference-item-prescription.manufacturedMaterial","","","",1,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-reference-item-prescription.manufacturedMaterial",1,1,"",""
+"fr-reference-item-prescription.entryRelationship","fr-reference-item-prescription.entryRelationship","","","",0,1,"","","","string {[]} {[]}
+","Traitement prescrit","Traitement prescrit","","","","","","","","","",,,,,"",,,,"fr-reference-item-prescription.entryRelationship",0,1,"",""
+"fr-reference-item-prescription.externalDocument","fr-reference-item-prescription.externalDocument","","","",1,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-reference-item-prescription.externalDocument",1,1,"",""

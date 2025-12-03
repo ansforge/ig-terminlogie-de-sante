@@ -1,0 +1,21 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"fr-liste-des-mesures-acuite-visuelle","fr-liste-des-mesures-acuite-visuelle","","","",0,*,"","","","null {[]} {[]}
+","FR-Liste-des-mesures-acuite-visuelle","IHE EYE CARE GEE - Visual Acuity Organizer                                                                Cette entrée permet de recueillir les observations pour une seule acuité visuelle mesurée.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"fr-liste-des-mesures-acuite-visuelle.organizer","fr-liste-des-mesures-acuite-visuelle.organizer","","","",0,1,"","","","string {[]} {[]}
+","Entrée Liste des mesures acuite visuelle","Entrée Liste des mesures acuite visuelle","","","","","","","","","",,,,,"",,,,"fr-liste-des-mesures-acuite-visuelle.organizer",0,1,"",""
+"fr-liste-des-mesures-acuite-visuelle.id","fr-liste-des-mesures-acuite-visuelle.id","","","",1,1,"","","","string {[]} {[]}
+","Identifiant de l'entrée.","Identifiant de l'entrée.","","","","","","","","","",,,,,"",,,,"fr-liste-des-mesures-acuite-visuelle.id",1,1,"",""
+"fr-liste-des-mesures-acuite-visuelle.code","fr-liste-des-mesures-acuite-visuelle.code","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Code de l'entrée","Code de l'entrée","","","","","","","","","",,,,,"",,,,"fr-liste-des-mesures-acuite-visuelle.code",1,1,"",""
+"fr-liste-des-mesures-acuite-visuelle.name","fr-liste-des-mesures-acuite-visuelle.name","","","",1,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-liste-des-mesures-acuite-visuelle.name",1,1,"",""
+"fr-liste-des-mesures-acuite-visuelle.value","fr-liste-des-mesures-acuite-visuelle.value","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-liste-des-mesures-acuite-visuelle.value",1,1,"",""
+"fr-liste-des-mesures-acuite-visuelle.statusCode","fr-liste-des-mesures-acuite-visuelle.statusCode","","","",1,1,"","","","string {[]} {[]}
+","Statut de l'entrée","Statut de l'entrée","","","","","","","","","",,,,,"",,,,"fr-liste-des-mesures-acuite-visuelle.statusCode",1,1,"",""
+"fr-liste-des-mesures-acuite-visuelle.effectiveTime","fr-liste-des-mesures-acuite-visuelle.effectiveTime","","","",1,1,"","","","string {[]} {[]}
+","Date de la mesure","Date de la mesure","","","","","","","","","",,,,,"",,,,"fr-liste-des-mesures-acuite-visuelle.effectiveTime",1,1,"",""
+"fr-liste-des-mesures-acuite-visuelle.author","fr-liste-des-mesures-acuite-visuelle.author","","","",0,1,"","","","string {[]} {[]}
+","Auteur","Auteur","","","","","","","","","",,,,,"",,,,"fr-liste-des-mesures-acuite-visuelle.author",0,1,"",""
+"fr-liste-des-mesures-acuite-visuelle.component","fr-liste-des-mesures-acuite-visuelle.component","","","",1,*,"","","","string {[]} {[]}
+","Entrée FR-Mesure-acuite-visuelle","Entrée FR-Mesure-acuite-visuelle","","","","","","","","","",,,,,"",,,,"fr-liste-des-mesures-acuite-visuelle.component",1,*,"",""

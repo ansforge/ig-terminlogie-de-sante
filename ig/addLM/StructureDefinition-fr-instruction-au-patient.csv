@@ -1,0 +1,29 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"fr-instruction-au-patient","fr-instruction-au-patient","","","",0,*,"","","","null {[]} {[]}
+","FR-Instruction-au-patient","IHE-PCC - Simple-Observation                                                               Cette entrée permet d’enregistrer une instruction au patient sous forme codée (c’est notamment le cas pour les prescriptions d’examens de biologie médicale).","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"fr-instruction-au-patient.observation","fr-instruction-au-patient.observation","","","",0,1,"","","","string {[]} {[]}
+","Entrée Instruction au patient","Entrée Instruction au patient","","","","","","","","","",,,,,"",,,,"fr-instruction-au-patient.observation",0,1,"",""
+"fr-instruction-au-patient.id","fr-instruction-au-patient.id","","","",1,1,"","","","Identifier {[]} {[]}
+","Identifiant de l'observation","Identifiant de l'observation","","","","","","","","","",,,,,"",,,,"fr-instruction-au-patient.id",1,1,"",""
+"fr-instruction-au-patient.code","fr-instruction-au-patient.code","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Code de l'observation
+                        
+                        
+                            Les attributs de cet élément prennent les valeurs ...","Code de l'observation
+                        
+                        
+                            Les attributs de cet élément prennent les valeurs ...","","","","","","","","","",,,,,"",,,,"fr-instruction-au-patient.code",1,1,"",""
+"fr-instruction-au-patient.text","fr-instruction-au-patient.text","","","",1,1,"","","","string {[]} {[]}
+","Description narrative de l'observation","Description narrative de l'observation","","","","","","","","","",,,,,"",,,,"fr-instruction-au-patient.text",1,1,"",""
+"fr-instruction-au-patient.reference","fr-instruction-au-patient.reference","","","",1,1,"","","","string {[]} {[]}
+","Référence à la description narrative de la valeur de l’observation","Référence à la description narrative de la valeur de l’observation","","","","","","","","","",,,,,"",,,,"fr-instruction-au-patient.reference",1,1,"",""
+"fr-instruction-au-patient.statusCode","fr-instruction-au-patient.statusCode","","","",1,1,"","","","code {[]} {[]}
+","Statut de l'observation
+                        
+                        Fixé à la valeur ""completed""","Statut de l'observation
+                        
+                        Fixé à la valeur ""completed""","","","","","","","","","",,,,,"",,,,"fr-instruction-au-patient.statusCode",1,1,"",""
+"fr-instruction-au-patient.effectiveTime","fr-instruction-au-patient.effectiveTime","","","",0,1,"","","","Period {[]} {[]}
+","Horodatage de l’entrée","Horodatage de l’entrée","","","","","","","","","",,,,,"",,,,"fr-instruction-au-patient.effectiveTime",0,1,"",""
+"fr-instruction-au-patient.value","fr-instruction-au-patient.value","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","Terminologies: JDV_Bio_instruction_patient_CISIS","OIDs: 1.2.250.1.213.1.1.5.691","","","","","","","","","",,,,,"",,,,"fr-instruction-au-patient.value",0,*,"",""

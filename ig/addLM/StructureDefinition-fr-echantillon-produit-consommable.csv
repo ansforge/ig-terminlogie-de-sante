@@ -1,0 +1,17 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"fr-echantillon-produit-consommable","fr-echantillon-produit-consommable","","","",0,*,"","","","null {[]} {[]}
+","FR-Echantillon-produit-consommable","IHE-APSR - CDAParticipantBodyProcedureStepsAPSR2                                                               Cet élément est utilisé pour décrire l'échantillon prélevé ou l'additif utilisé.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"fr-echantillon-produit-consommable.time","fr-echantillon-produit-consommable.time","","","",0,1,"","","","Period {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-echantillon-produit-consommable.time",0,1,"",""
+"fr-echantillon-produit-consommable.participantRole","fr-echantillon-produit-consommable.participantRole","","","",1,1,"","","","string {[]} {[]}
+","Role
+                          ""SPEC"" pour un échantillon et ""ADTV"" pour un additif.","Role
+                          ""SPEC"" pour un échantillon et ""ADTV"" pour un additif.","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-SpecimenRoleType-cisis|20251028115834","",,,,"fr-echantillon-produit-consommable.participantRole",1,1,"",""
+"fr-echantillon-produit-consommable.id","fr-echantillon-produit-consommable.id","","","",0,*,"","","","Identifier {[]} {[]}
+","Identifiant de l'échantillon
+                          Il n'y a pas d'identifiant pour un additif.","Identifiant de l'échantillon
+                          Il n'y a pas d'identifiant pour un additif.","","","","","","","","","",,,,,"",,,,"fr-echantillon-produit-consommable.id",0,*,"",""
+"fr-echantillon-produit-consommable.code","fr-echantillon-produit-consommable.code","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Code du rôle de l'échantillon.
+                          ""Patient"" (P), ou ""Calibrator"" (C) or ""Quality Control (Q).  Il n'y a pas de code pour un add...","Code du rôle de l'échantillon.
+                          ""Patient"" (P), ou ""Calibrator"" (C) or ""Quality Control (Q).  Il n'y a pas de code pour un add...","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-SpecimenRoleType-cisis|20251028115834","",,,,"fr-echantillon-produit-consommable.code",0,1,"",""

@@ -1,0 +1,36 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"fr-profession-la-plus-longue","fr-profession-la-plus-longue","","","",0,*,"","","","null {[]} {[]}
+","FR-Profession-la-plus-longue","IHE-PCC - Usual Occupation Observation                                                                Cette entrée contient des informations sur la profession exercée pendant la plus longue durée au cours de la vie professionnelle, de manière continue ou pas. Une seule occurrence de cette observatio...","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"fr-profession-la-plus-longue.observation","fr-profession-la-plus-longue.observation","","","",0,1,"","","","string {[]} {[]}
+","Entrée Profession la plus longue","Entrée Profession la plus longue","","","","","","","","","",,,,,"",,,,"fr-profession-la-plus-longue.observation",0,1,"",""
+"fr-profession-la-plus-longue.id","fr-profession-la-plus-longue.id","","","",1,*,"","","","Identifier {[]} {[]}
+","Identifiant de l'entrée","Identifiant de l'entrée","","","","","","","","","",,,,,"",,,,"fr-profession-la-plus-longue.id",1,*,"",""
+"fr-profession-la-plus-longue.code","fr-profession-la-plus-longue.code","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Code de l’entrée","Code de l’entrée","","","","","","","","","",,,,,"",,,,"fr-profession-la-plus-longue.code",1,1,"",""
+"fr-profession-la-plus-longue.statusCode","fr-profession-la-plus-longue.statusCode","","","",1,1,"","","","code {[]} {[]}
+","Statut de l’entrée","Statut de l’entrée","","","","","","","","","",,,,,"",,,,"fr-profession-la-plus-longue.statusCode",1,1,"",""
+"fr-profession-la-plus-longue.effectiveTime","fr-profession-la-plus-longue.effectiveTime","","","",1,1,"","","","Period {[]} {[]}
+","Horodatage de l’entrée
+                        
+                        Date de l’observation","Horodatage de l’entrée
+                        
+                        Date de l’observation","","","","","","","","","",,,,,"",,,,"fr-profession-la-plus-longue.effectiveTime",1,1,"",""
+"fr-profession-la-plus-longue.low","fr-profession-la-plus-longue.low","","","",1,1,"","","","dateTime {[]} {[]}
+","Date de début de l’observation
+                            
+                            Si cette donnée est inconnue, mettre @nullFlavor= ""UNK""","Date de début de l’observation
+                            
+                            Si cette donnée est inconnue, mettre @nullFlavor= ""UNK""","","","","","","","","","",,,,,"",,,,"fr-profession-la-plus-longue.low",1,1,"",""
+"fr-profession-la-plus-longue.high","fr-profession-la-plus-longue.high","","","",0,1,"","","","dateTime {[]} {[]}
+","Date de fin de l’observation
+                            
+                            Si le poste est toujours occupé, il faut omettre cette donnée Si...","Date de fin de l’observation
+                            
+                            Si le poste est toujours occupé, il faut omettre cette donnée Si...","","","","","","","","","",,,,,"",,,,"fr-profession-la-plus-longue.high",0,1,"",""
+"fr-profession-la-plus-longue.value","fr-profession-la-plus-longue.value","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Terminologies: JDV_OccupationCode_CISIS","Profession
+                        
+                        Les attributs de cette valeur sont issus du jeu de valeurs JDV_OccupationCode_CISIS
+      ...","","","","","","","","","",,,,,"",,,,"fr-profession-la-plus-longue.value",1,1,"",""
+"fr-profession-la-plus-longue.entryRelationship","fr-profession-la-plus-longue.entryRelationship","","","",0,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-profession-la-plus-longue.entryRelationship",0,1,"",""

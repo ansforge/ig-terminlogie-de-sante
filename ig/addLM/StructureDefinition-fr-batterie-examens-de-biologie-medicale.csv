@@ -1,0 +1,21 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"fr-batterie-examens-de-biologie-medicale","fr-batterie-examens-de-biologie-medicale","","","",0,*,"","","","null {[]} {[]}
+","FR-Batterie-examens-de-biologie-medicale","IHE-PCC - Laboratory Battery Organizer                                                                           L'entrée Batterie d'examens de biologie médicale est une entrée de type 'organizer' qui permet de décrire des examens de biologie médicale comprenant un ou plusieurs éléments porteurs de ...","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"fr-batterie-examens-de-biologie-medicale.organizer","fr-batterie-examens-de-biologie-medicale.organizer","","","",1,1,"","","","string {[]} {[]}
+","Batterie d'examens de biologie médicale","Batterie d'examens de biologie médicale","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActStatus-cisis|20251028115833","",,,,"fr-batterie-examens-de-biologie-medicale.organizer",1,1,"",""
+"fr-batterie-examens-de-biologie-medicale.id","fr-batterie-examens-de-biologie-medicale.id","","","",0,1,"","","","Identifier {[]} {[]}
+","Identifiant de la batterie d'examen","Identifiant de la batterie d'examen","","","","","","","","","",,,,,"",,,,"fr-batterie-examens-de-biologie-medicale.id",0,1,"",""
+"fr-batterie-examens-de-biologie-medicale.code","fr-batterie-examens-de-biologie-medicale.code","","","",0,1,"","","","string {[]} {[]}
+","Code de la batterie d'examen","Code de la batterie d'examen","","","","","","","","","",,,,,"",,,,"fr-batterie-examens-de-biologie-medicale.code",0,1,"",""
+"fr-batterie-examens-de-biologie-medicale.originalText","fr-batterie-examens-de-biologie-medicale.originalText","","","",0,1,"","","","string {[]} {[]}
+","Référence à l'expression verbale dans la partie visualisable du compte-rendu","Référence à l'expression verbale dans la partie visualisable du compte-rendu","","","","","","","","","",,,,,"",,,,"fr-batterie-examens-de-biologie-medicale.originalText",0,1,"",""
+"fr-batterie-examens-de-biologie-medicale.reference","fr-batterie-examens-de-biologie-medicale.reference","","","",1,1,"","","","string {[]} {[]}
+","Référence à l'expression verbale dans la partie visualisable du compte-rendu","Référence à l'expression verbale dans la partie visualisable du compte-rendu","","","","","","","","","",,,,,"",,,,"fr-batterie-examens-de-biologie-medicale.reference",1,1,"",""
+"fr-batterie-examens-de-biologie-medicale.translation","fr-batterie-examens-de-biologie-medicale.translation","","","",0,1,"","","","string {[]} {[]}
+","Code d'identification d'attente national ou code de portée locale","Code d'identification d'attente national ou code de portée locale","","","","","","","","","",,,,,"",,,,"fr-batterie-examens-de-biologie-medicale.translation",0,1,"",""
+"fr-batterie-examens-de-biologie-medicale.statusCode","fr-batterie-examens-de-biologie-medicale.statusCode","","","",1,1,"","","","code {[]} {[]}
+","Niveau de complétude","Niveau de complétude","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActStatus-cisis|20251028115833","",,,,"fr-batterie-examens-de-biologie-medicale.statusCode",1,1,"",""
+"fr-batterie-examens-de-biologie-medicale.effectiveTime","fr-batterie-examens-de-biologie-medicale.effectiveTime","","","",0,1,"","","","Period {[]} {[]}
+","Date de l'examen","Date de l'examen","","","","","","","","","",,,,,"",,,,"fr-batterie-examens-de-biologie-medicale.effectiveTime",0,1,"",""
+"fr-batterie-examens-de-biologie-medicale.component","fr-batterie-examens-de-biologie-medicale.component","","","",0,*,"","","","string {[]} {[]}
+","Prélèvement","Prélèvement","","","","","","","","","",,,,,"",,,,"fr-batterie-examens-de-biologie-medicale.component",0,*,"",""

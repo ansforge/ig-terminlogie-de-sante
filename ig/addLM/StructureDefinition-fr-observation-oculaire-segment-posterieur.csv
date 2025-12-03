@@ -1,0 +1,29 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"fr-observation-oculaire-segment-posterieur","fr-observation-oculaire-segment-posterieur","","","",0,*,"","","","null {[]} {[]}
+","FR-Observation-oculaire-segment-posterieur","IHE GEE - Observation oculaire (segment postérieur)                                                                                 Cette entrée est une représentation abstraite d’un grand nombre d’observations oculaires(segment postérieur) utilisées dans cette spécification. .","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"fr-observation-oculaire-segment-posterieur.observation","fr-observation-oculaire-segment-posterieur.observation","","","",0,1,"","","","string {[]} {[]}
+","Entrée Observation oculaire segment postérieur","Entrée Observation oculaire segment postérieur","","","","","","","","","",,,,,"",,,,"fr-observation-oculaire-segment-posterieur.observation",0,1,"",""
+"fr-observation-oculaire-segment-posterieur.id","fr-observation-oculaire-segment-posterieur.id","","","",1,*,"","","","string {[]} {[]}
+","Identifiant de l’observation","Identifiant de l’observation","","","","","","","","","",,,,,"",,,,"fr-observation-oculaire-segment-posterieur.id",1,*,"",""
+"fr-observation-oculaire-segment-posterieur.code","fr-observation-oculaire-segment-posterieur.code","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Code de l'observation","Code de l'observation","","","","","","","","","",,,,,"",,,,"fr-observation-oculaire-segment-posterieur.code",1,1,"",""
+"fr-observation-oculaire-segment-posterieur.text","fr-observation-oculaire-segment-posterieur.text","","","",1,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-observation-oculaire-segment-posterieur.text",1,1,"",""
+"fr-observation-oculaire-segment-posterieur.reference","fr-observation-oculaire-segment-posterieur.reference","","","",1,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-observation-oculaire-segment-posterieur.reference",1,1,"",""
+"fr-observation-oculaire-segment-posterieur.statusCode","fr-observation-oculaire-segment-posterieur.statusCode","","","",1,1,"","","","string {[]} {[]}
+","Statut de l’entrée","Statut de l’entrée","","","","","","","","","",,,,,"",,,,"fr-observation-oculaire-segment-posterieur.statusCode",1,1,"",""
+"fr-observation-oculaire-segment-posterieur.effectiveTime","fr-observation-oculaire-segment-posterieur.effectiveTime","","","",1,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-observation-oculaire-segment-posterieur.effectiveTime",1,1,"",""
+"fr-observation-oculaire-segment-posterieur.value","fr-observation-oculaire-segment-posterieur.value","","","",1,1,"","","","Quantity {[]} {[]}
+","Valeur observée","Valeur observée","","","","","","","","","",,,,,"",,,,"fr-observation-oculaire-segment-posterieur.value",1,1,"",""
+"fr-observation-oculaire-segment-posterieur.interpretationCode","fr-observation-oculaire-segment-posterieur.interpretationCode","","","",0,1,"","","","string {[]} {[]}
+","Terminologies: SNOMED CT, CIM-10","OIDs: 2.16.840.1.113883.6.96","","","","","","","","","",,,,,"",,,,"fr-observation-oculaire-segment-posterieur.interpretationCode",0,1,"",""
+"fr-observation-oculaire-segment-posterieur.methodCode","fr-observation-oculaire-segment-posterieur.methodCode","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","Terminologies: SNOMED CT","OIDs: 2.16.840.1.113883.6.96","","","","","","","","","",,,,,"",,,,"fr-observation-oculaire-segment-posterieur.methodCode",0,*,"",""
+"fr-observation-oculaire-segment-posterieur.targetSiteCode","fr-observation-oculaire-segment-posterieur.targetSiteCode","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Localisation anatomique","Localisation anatomique","","","","","","","","","",,,,,"",,,,"fr-observation-oculaire-segment-posterieur.targetSiteCode",1,1,"",""
+"fr-observation-oculaire-segment-posterieur.qualifier","fr-observation-oculaire-segment-posterieur.qualifier","","","",0,*,"","","","string {[]} {[]}
+","Terminologies: SNOMED CT","OIDs: 2.16.840.1.113883.6.96","","","","","","","","","",,,,,"",,,,"fr-observation-oculaire-segment-posterieur.qualifier",0,*,"",""
+"fr-observation-oculaire-segment-posterieur.author","fr-observation-oculaire-segment-posterieur.author","","","",0,1,"","","","string {[]} {[]}
+","Auteur","Auteur","","","","","","","","","",,,,,"",,,,"fr-observation-oculaire-segment-posterieur.author",0,1,"",""

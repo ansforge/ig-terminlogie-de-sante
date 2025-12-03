@@ -1,0 +1,31 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"fr-mesure-dispositif-oculaire","fr-mesure-dispositif-oculaire","","","",0,*,"","","","null {[]} {[]}
+","FR-Mesure-dispositif-oculaire","IHE EYE CARE GEE - Lensometry Measurement Observation                 Cette entrée permet d’enregistrer une mesure appartenant à l’une des rubriques suivantes :                                                                Verres prescrits                                                            ...","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"fr-mesure-dispositif-oculaire.observation","fr-mesure-dispositif-oculaire.observation","","","",0,1,"","","","string {[]} {[]}
+","Entrée Mesure dispositif oculaire","Entrée Mesure dispositif oculaire","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-lateralite-cisis|20251028115835","",,,,"fr-mesure-dispositif-oculaire.observation",0,1,"",""
+"fr-mesure-dispositif-oculaire.id","fr-mesure-dispositif-oculaire.id","","","",1,*,"","","","string {[]} {[]}
+","Identifiant de l'entrée.","Identifiant de l'entrée.","","","","","","","","","",,,,,"",,,,"fr-mesure-dispositif-oculaire.id",1,*,"",""
+"fr-mesure-dispositif-oculaire.code","fr-mesure-dispositif-oculaire.code","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Terminologies: JDV_MesureLentilleDelivree_CISIS, JDV_MesureTypeVerrePrescrit_CISIS, JDV_MesureLentillePrescrite_CISIS","OIDs: 1.2.250.1.213.1.1.5.653, 1.2.250.1.213.1.1.5.656","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mesure-lentille-delivree-cisis|20250624152059","",,,,"fr-mesure-dispositif-oculaire.code",1,1,"",""
+"fr-mesure-dispositif-oculaire.text","fr-mesure-dispositif-oculaire.text","","","",1,1,"","","","string {[]} {[]}
+","Description narrative de l'observation.","Description narrative de l'observation.","","","","","","","","","",,,,,"",,,,"fr-mesure-dispositif-oculaire.text",1,1,"",""
+"fr-mesure-dispositif-oculaire.reference","fr-mesure-dispositif-oculaire.reference","","","",1,1,"","","","string {[]} {[]}
+","Référence vers la partie narrative.","Référence vers la partie narrative.","","","","","","","","","",,,,,"",,,,"fr-mesure-dispositif-oculaire.reference",1,1,"",""
+"fr-mesure-dispositif-oculaire.statusCode","fr-mesure-dispositif-oculaire.statusCode","","","",1,1,"","","","string {[]} {[]}
+","Statut de l'observation.","Statut de l'observation.","","","","","","","","","",,,,,"",,,,"fr-mesure-dispositif-oculaire.statusCode",1,1,"",""
+"fr-mesure-dispositif-oculaire.effectiveTime","fr-mesure-dispositif-oculaire.effectiveTime","","","",1,1,"","","","string {[]} {[]}
+","Date et heure de la mesure.
+                          Si la date et l'heure sont inconnus, utiliser l'attribut nullFlavor=""UNK"".","Date et heure de la mesure.
+                          Si la date et l'heure sont inconnus, utiliser l'attribut nullFlavor=""UNK"".","","","","","","","","","",,,,,"",,,,"fr-mesure-dispositif-oculaire.effectiveTime",1,1,"",""
+"fr-mesure-dispositif-oculaire.value","fr-mesure-dispositif-oculaire.value","","","",1,1,"","","","string {[]} {[]}
+","Valeur de l'observation.","Valeur de l'observation.","","","","","","","","","",,,,,"",,,,"fr-mesure-dispositif-oculaire.value",1,1,"",""
+"fr-mesure-dispositif-oculaire.methodCode","fr-mesure-dispositif-oculaire.methodCode","","","",1,1,"","","","string {[]} {[]}
+","Méthode utilisée pour la mesure.","Méthode utilisée pour la mesure.","","","","","","","","","",,,,,"",,,,"fr-mesure-dispositif-oculaire.methodCode",1,1,"",""
+"fr-mesure-dispositif-oculaire.targetSiteCode","fr-mesure-dispositif-oculaire.targetSiteCode","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Terminologies: JDV_TypeDispositifOcculaire_CISIS","OIDs: 1.2.250.1.213.1.1.5.716","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-lateralite-cisis|20251028115835","",,,,"fr-mesure-dispositif-oculaire.targetSiteCode",1,1,"",""
+"fr-mesure-dispositif-oculaire.qualifier","fr-mesure-dispositif-oculaire.qualifier","","","",1,1,"","","","string {[]} {[]}
+","Latéralité","Latéralité","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-lateralite-cisis|20251028115835","",,,,"fr-mesure-dispositif-oculaire.qualifier",1,1,"",""
+"fr-mesure-dispositif-oculaire.name","fr-mesure-dispositif-oculaire.name","","","",0,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-mesure-dispositif-oculaire.name",0,1,"",""
+"fr-mesure-dispositif-oculaire.author","fr-mesure-dispositif-oculaire.author","","","",0,1,"","","","string {[]} {[]}
+","Auteur.","Auteur.","","","","","","","","","",,,,,"",,,,"fr-mesure-dispositif-oculaire.author",0,1,"",""

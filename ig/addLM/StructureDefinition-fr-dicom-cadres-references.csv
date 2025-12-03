@@ -1,0 +1,9 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"fr-dicom-cadres-references","fr-dicom-cadres-references","","","",0,*,"","","","null {[]} {[]}
+","FR-DICOM-Cadres-references","Une observation d’images référencées contient une liste de valeurs de type entiers pour les images référencées d’une instance SOP d’images.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"fr-dicom-cadres-references.observation","fr-dicom-cadres-references.observation","","","",0,1,"","","","string {[]} {[]}
+","Conformité FR-DICOM-Cadres-references (CI-SIS)","Conformité FR-DICOM-Cadres-references (CI-SIS)","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-xActMoodDocumentObservation|20251028115834","",,,,"fr-dicom-cadres-references.observation",0,1,"",""
+"fr-dicom-cadres-references.code","fr-dicom-cadres-references.code","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Code de l'observation","Code de l'observation","","","","","","","","","",,,,,"",,,,"fr-dicom-cadres-references.code",1,1,"",""
+"fr-dicom-cadres-references.entryRelationship","fr-dicom-cadres-references.entryRelationship","","","",1,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-dicom-cadres-references.entryRelationship",1,1,"",""

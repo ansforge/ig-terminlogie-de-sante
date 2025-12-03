@@ -1,0 +1,29 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"fr-observation-oculaire","fr-observation-oculaire","","","",0,*,"","","","null {[]} {[]}
+","FR-Observation-oculaire","IHE GEE - Ocular Observation                                                               Cette entrée recueille divers types d'observations oculaires, telles que Lacrymal, Segment Postérieur, Segment Antérieur, Pupilles, Pression intraoculaire, etc.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"fr-observation-oculaire.observation","fr-observation-oculaire.observation","","","",0,1,"","","","string {[]} {[]}
+","Entrée Observation oculaire","Entrée Observation oculaire","","","","","","","","","",,,,,"",,,,"fr-observation-oculaire.observation",0,1,"",""
+"fr-observation-oculaire.id","fr-observation-oculaire.id","","","",1,*,"","","","string {[]} {[]}
+","Identifiant de l’observation","Identifiant de l’observation","","","","","","","","","",,,,,"",,,,"fr-observation-oculaire.id",1,*,"",""
+"fr-observation-oculaire.code","fr-observation-oculaire.code","","","",1,1,"","","","string {[]} {[]}
+","Code de l'observation","Code de l'observation","","","","","","","","","",,,,,"",,,,"fr-observation-oculaire.code",1,1,"",""
+"fr-observation-oculaire.text","fr-observation-oculaire.text","","","",1,1,"","","","string {[]} {[]}
+","Partie narrative de l'observation","Partie narrative de l'observation","","","","","","","","","",,,,,"",,,,"fr-observation-oculaire.text",1,1,"",""
+"fr-observation-oculaire.reference","fr-observation-oculaire.reference","","","",1,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-observation-oculaire.reference",1,1,"",""
+"fr-observation-oculaire.statusCode","fr-observation-oculaire.statusCode","","","",1,1,"","","","string {[]} {[]}
+","Statut de l’entrée","Statut de l’entrée","","","","","","","","","",,,,,"",,,,"fr-observation-oculaire.statusCode",1,1,"",""
+"fr-observation-oculaire.effectiveTime","fr-observation-oculaire.effectiveTime","","","",1,1,"","","","string {[]} {[]}
+","Date de l'observation","Date de l'observation","","","","","","","","","",,,,,"",,,,"fr-observation-oculaire.effectiveTime",1,1,"",""
+"fr-observation-oculaire.value","fr-observation-oculaire.value","","","",1,1,"","","","Quantity {[]} {[]}
+","Valeur observée","Valeur observée","","","","","","","","","",,,,,"",,,,"fr-observation-oculaire.value",1,1,"",""
+"fr-observation-oculaire.interpretationCode","fr-observation-oculaire.interpretationCode","","","",0,1,"","","","string {[]} {[]}
+","Interprétation","Interprétation","","","","","","","","","",,,,,"",,,,"fr-observation-oculaire.interpretationCode",0,1,"",""
+"fr-observation-oculaire.methodCode","fr-observation-oculaire.methodCode","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","Méthode utilisée pour l’observation","Méthode utilisée pour l’observation","","","","","","","","","",,,,,"",,,,"fr-observation-oculaire.methodCode",0,*,"",""
+"fr-observation-oculaire.targetSiteCode","fr-observation-oculaire.targetSiteCode","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Localisation anatomique","Localisation anatomique","","","","","","","","","",,,,,"",,,,"fr-observation-oculaire.targetSiteCode",1,1,"",""
+"fr-observation-oculaire.qualifier","fr-observation-oculaire.qualifier","","","",0,*,"","","","string {[]} {[]}
+","Terminologies: SNOMED CT","OIDs: 2.16.840.1.113883.6.96","","","","","","","","","",,,,,"",,,,"fr-observation-oculaire.qualifier",0,*,"",""
+"fr-observation-oculaire.author","fr-observation-oculaire.author","","","",0,1,"","","","string {[]} {[]}
+","Auteur","Auteur","","","","","","","","","",,,,,"",,,,"fr-observation-oculaire.author",0,1,"",""

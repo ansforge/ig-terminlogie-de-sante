@@ -1,0 +1,19 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"fr-tnm-yr","fr-tnm-yr","","","",0,*,"","","","null {[]} {[]}
+","FR-TNM-yr","IHE-APSR - TNM yr","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"fr-tnm-yr.observation","fr-tnm-yr.observation","","","",0,1,"","","","string {[]} {[]}
+","Entrée TNM -yr","Entrée TNM -yr","","","","","","","","","",,,,,"",,,,"fr-tnm-yr.observation",0,1,"",""
+"fr-tnm-yr.id","fr-tnm-yr.id","","","",0,*,"","","","Identifier {[]} {[]}
+","Identifiant de l'observation","Identifiant de l'observation","","","","","","","","","",,,,,"",,,,"fr-tnm-yr.id",0,*,"",""
+"fr-tnm-yr.code","fr-tnm-yr.code","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Code de l'observation","Code de l'observation","","","","","","","","","",,,,,"",,,,"fr-tnm-yr.code",1,1,"",""
+"fr-tnm-yr.text","fr-tnm-yr.text","","","",0,1,"","","","string {[]} {[]}
+","Description narrative de l'observation","Description narrative de l'observation","","","","","","","","","",,,,,"",,,,"fr-tnm-yr.text",0,1,"",""
+"fr-tnm-yr.statusCode","fr-tnm-yr.statusCode","","","",1,1,"","","","code {[]} {[]}
+","Statut de l'observation","Statut de l'observation","","","","","","","","","",,,,,"",,,,"fr-tnm-yr.statusCode",1,1,"",""
+"fr-tnm-yr.effectiveTime","fr-tnm-yr.effectiveTime","","","",0,1,"","","","Period {[]} {[]}
+","Date de l'observation
+                          L'élément <effectiveTime> doit être présent dans une observation autonome (c'est-à-dire une observatio...","Date de l'observation
+                          L'élément <effectiveTime> doit être présent dans une observation autonome (c'est-à-dire une observatio...","","","","","","","","","",,,,,"",,,,"fr-tnm-yr.effectiveTime",0,1,"",""
+"fr-tnm-yr.value","fr-tnm-yr.value","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Valeur de l'observation","Valeur de l'observation","","","","","","","","","",,,,,"",,,,"fr-tnm-yr.value",1,1,"",""

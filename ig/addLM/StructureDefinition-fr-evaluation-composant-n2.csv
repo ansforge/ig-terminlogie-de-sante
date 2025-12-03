@@ -1,0 +1,33 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"fr-evaluation-composant-n2","fr-evaluation-composant-n2","","","",0,*,"","","","null {[]} {[]}
+","FR-Evaluation-Composant-N2","Cette entrée permet de porter un résultat élémentaire (ex : score unitaire) répondant à une question faisant partie d’une évaluation.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"fr-evaluation-composant-n2.observation","fr-evaluation-composant-n2.observation","","","",0,1,"","","","string {[]} {[]}
+","Conformité FR-Evaluation-Composant(CI-SIS)","Conformité FR-Evaluation-Composant(CI-SIS)","","","","","","","","","",,,,,"",,,,"fr-evaluation-composant-n2.observation",0,1,"",""
+"fr-evaluation-composant-n2.id","fr-evaluation-composant-n2.id","","","",1,1,"","","","Identifier {[]} {[]}
+","Identifiant de l'entrée","Identifiant de l'entrée","","","","","","","","","",,,,,"",,,,"fr-evaluation-composant-n2.id",1,1,"",""
+"fr-evaluation-composant-n2.code","fr-evaluation-composant-n2.code","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Terminologies: LOINC","OIDs: 2.16.840.1.113883.6.1, 2.16.840.1.113883.6.254","","","","","","","","","",,,,,"",,,,"fr-evaluation-composant-n2.code",1,1,"",""
+"fr-evaluation-composant-n2.text","fr-evaluation-composant-n2.text","","","",1,1,"","","","string {[]} {[]}
+","Partie narrative","Partie narrative","","","","","","","","","",,,,,"",,,,"fr-evaluation-composant-n2.text",1,1,"",""
+"fr-evaluation-composant-n2.reference","fr-evaluation-composant-n2.reference","","","",1,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-evaluation-composant-n2.reference",1,1,"",""
+"fr-evaluation-composant-n2.statusCode","fr-evaluation-composant-n2.statusCode","","","",1,1,"","","","code {[]} {[]}
+","Statut de l'entrée
+                        
+                        Fixé à la valeur ""completed""","Statut de l'entrée
+                        
+                        Fixé à la valeur ""completed""","","","","","","","","","",,,,,"",,,,"fr-evaluation-composant-n2.statusCode",1,1,"",""
+"fr-evaluation-composant-n2.effectiveTime","fr-evaluation-composant-n2.effectiveTime","","","",1,1,"","","","Period {[]} {[]}
+","Horodatage de l'entrée","Horodatage de l'entrée","","","","","","","","","",,,,,"",,,,"fr-evaluation-composant-n2.effectiveTime",1,1,"",""
+"fr-evaluation-composant-n2.low","fr-evaluation-composant-n2.low","","","",0,1,"","","","dateTime {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-evaluation-composant-n2.low",0,1,"",""
+"fr-evaluation-composant-n2.high","fr-evaluation-composant-n2.high","","","",0,1,"","","","dateTime {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-evaluation-composant-n2.high",0,1,"",""
+"fr-evaluation-composant-n2.value","fr-evaluation-composant-n2.value","","","",1,1,"","","","string {[]} {[]}
+","Résultat de l'évaluation Le type et la valeur du résultat de l'évaluation (value) dépendent du volet utilisant cette entrée (les précisions sont alors...","Résultat de l'évaluation Le type et la valeur du résultat de l'évaluation (value) dépendent du volet utilisant cette entrée (les précisions sont alors...","","","","","","","","","",,,,,"",,,,"fr-evaluation-composant-n2.value",1,1,"",""
+"fr-evaluation-composant-n2.originalText","fr-evaluation-composant-n2.originalText","","","",0,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-evaluation-composant-n2.originalText",0,1,"",""
+"fr-evaluation-composant-n2.interpretationCode","fr-evaluation-composant-n2.interpretationCode","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","Interprétation","Interprétation","","","","","","","","","",,,,,"",,,,"fr-evaluation-composant-n2.interpretationCode",0,*,"",""
+"fr-evaluation-composant-n2.entryRelationship","fr-evaluation-composant-n2.entryRelationship","","","",0,*,"","","","string {[]} {[]}
+","Commentaire","Commentaire","","","","","","","","","",,,,,"",,,,"fr-evaluation-composant-n2.entryRelationship",0,*,"",""

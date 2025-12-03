@@ -1,0 +1,19 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"fr-voyage","fr-voyage","","","",0,*,"","","","null {[]} {[]}
+","FR-Voyage","Travel : FR-Voyage Cette entrée permet d’indiquer le type de voyage.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"fr-voyage.observation","fr-voyage.observation","","","",0,1,"","","","string {[]} {[]}
+","Entrée Voyage","Entrée Voyage","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActStatus-cisis|20251028115833","",,,,"fr-voyage.observation",0,1,"",""
+"fr-voyage.id","fr-voyage.id","","","",0,1,"","","","Identifier {[]} {[]}
+","Identifiant de l’entrée","Identifiant de l’entrée","","","","","","","","","",,,,,"",,,,"fr-voyage.id",0,1,"",""
+"fr-voyage.code","fr-voyage.code","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Type de voyage","Type de voyage","","","","","","","","","",,,,,"",,,,"fr-voyage.code",1,1,"",""
+"fr-voyage.text","fr-voyage.text","","","",1,1,"","","","string {[]} {[]}
+","Partie narrative de l'observation","Partie narrative de l'observation","","","","","","","","","",,,,,"",,,,"fr-voyage.text",1,1,"",""
+"fr-voyage.statusCode","fr-voyage.statusCode","","","",1,1,"","","","code {[]} {[]}
+","Status de l'observation","Status de l'observation","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActStatus-cisis|20251028115833","",,,,"fr-voyage.statusCode",1,1,"",""
+"fr-voyage.effectiveTime","fr-voyage.effectiveTime","","","",1,1,"","","","Period {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-voyage.effectiveTime",1,1,"",""
+"fr-voyage.value","fr-voyage.value","","","",1,1,"","","","string {[]} {[]}
+","Pays visité","Pays visité","","","","","","","","","",,,,,"",,,,"fr-voyage.value",1,1,"",""
+"fr-voyage.entryRelationship","fr-voyage.entryRelationship","","","",0,*,"","","","string {[]} {[]}
+","FR-Simple-Observation","FR-Simple-Observation","","","","","","","","","",,,,,"",,,,"fr-voyage.entryRelationship",0,*,"",""

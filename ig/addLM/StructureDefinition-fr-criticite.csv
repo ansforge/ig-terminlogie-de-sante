@@ -1,0 +1,19 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"fr-criticite","fr-criticite","","","",0,*,"","","","null {[]} {[]}
+","FR-Criticite","Cette entrée permet de fournir la criticité d'une l’allergie ou hypersensibilité.                                                                   Elle est utilisée exclusivement dans un lien entryRelationship grâce auquel elle est liée à l’élément qu’elle qualifie.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"fr-criticite.observation","fr-criticite.observation","","","",0,1,"","","","string {[]} {[]}
+","Entrée Criticité","Entrée Criticité","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-allergy-intolerance-criticality-cisis|20251028115832","",,,,"fr-criticite.observation",0,1,"",""
+"fr-criticite.id","fr-criticite.id","","","",1,1,"","","","Identifier {[]} {[]}
+","Identifiant de l'observation","Identifiant de l'observation","","","","","","","","","",,,,,"",,,,"fr-criticite.id",1,1,"",""
+"fr-criticite.code","fr-criticite.code","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Code de l'observation","Code de l'observation","","","","","","","","","",,,,,"",,,,"fr-criticite.code",1,1,"",""
+"fr-criticite.text","fr-criticite.text","","","",1,1,"","","","string {[]} {[]}
+","Description narrative de l'observation","Description narrative de l'observation","","","","","","","","","",,,,,"",,,,"fr-criticite.text",1,1,"",""
+"fr-criticite.reference","fr-criticite.reference","","","",1,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-criticite.reference",1,1,"",""
+"fr-criticite.statusCode","fr-criticite.statusCode","","","",1,1,"","","","code {[]} {[]}
+","Statut de l'observation","Statut de l'observation","","","","","","","","","",,,,,"",,,,"fr-criticite.statusCode",1,1,"",""
+"fr-criticite.effectiveTime","fr-criticite.effectiveTime","","","",1,1,"","","","Period {[]} {[]}
+","Date de l'observation","Date de l'observation","","","","","","","","","",,,,,"",,,,"fr-criticite.effectiveTime",1,1,"",""
+"fr-criticite.value","fr-criticite.value","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Valeur de l'observation","Valeur de l'observation","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-allergy-intolerance-criticality-cisis|20251028115832","",,,,"fr-criticite.value",1,1,"",""

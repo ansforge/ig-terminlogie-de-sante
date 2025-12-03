@@ -1,0 +1,37 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"fr-disposition","fr-disposition","","","",0,*,"","","","null {[]} {[]}
+","FR-Disposition","Cet élément permet d'enregistrer la disposition prévue ou réelle pour le patient (p. ex., admission, retour à la maison après le traitement, etc).","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"fr-disposition.act","fr-disposition.act","","","",1,1,"","","","string {[]} {[]}
+","Entrée Disposition","Entrée Disposition","","","","","","","","","",,,,,"",,,,"fr-disposition.act",1,1,"",""
+"fr-disposition.id","fr-disposition.id","","","",1,1,"","","","Identifier {[]} {[]}
+","Identifiant de l'entrée","Identifiant de l'entrée","","","","","","","","","",,,,,"",,,,"fr-disposition.id",1,1,"",""
+"fr-disposition.code","fr-disposition.code","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Code de l'entrée","Code de l'entrée","","","","","","","","","",,,,,"",,,,"fr-disposition.code",1,1,"",""
+"fr-disposition.text","fr-disposition.text","","","",1,1,"","","","string {[]} {[]}
+","Bloc narratif","Bloc narratif","","","","","","","","","",,,,,"",,,,"fr-disposition.text",1,1,"",""
+"fr-disposition.reference","fr-disposition.reference","","","",1,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-disposition.reference",1,1,"",""
+"fr-disposition.statusCode","fr-disposition.statusCode","","","",1,1,"","","","code {[]} {[]}
+","Statut de la disposition
+                          - Si la disposition a été réalisée : le statut prend la valeur ""completed"".  - Si l a disposition e...","Statut de la disposition
+                          - Si la disposition a été réalisée : le statut prend la valeur ""completed"".  - Si l a disposition e...","","","","","","","","","",,,,,"",,,,"fr-disposition.statusCode",1,1,"",""
+"fr-disposition.effectiveTime","fr-disposition.effectiveTime","","","",0,1,"","","","Period {[]} {[]}
+","Date du transport
+                        
+                         Cet élément est obligatoire si la disposition a déjà été effectué (moodCode=""EVN"")","Date du transport
+                        
+                         Cet élément est obligatoire si la disposition a déjà été effectué (moodCode=""EVN"")","","","","","","","","","",,,,,"",,,,"fr-disposition.effectiveTime",0,1,"",""
+"fr-disposition.low","fr-disposition.low","","","",0,1,"","","","dateTime {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-disposition.low",0,1,"",""
+"fr-disposition.high","fr-disposition.high","","","",0,1,"","","","dateTime {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-disposition.high",0,1,"",""
+"fr-disposition.performer","fr-disposition.performer","","","",0,*,"","","","string {[]} {[]}
+","Exécutant
+                          Si la rencontre est réalisée (EVN) : au moins 1 performer doit être renseigné.  Sinon (INT) : performer n'est pas ...","Exécutant
+                          Si la rencontre est réalisée (EVN) : au moins 1 performer doit être renseigné.  Sinon (INT) : performer n'est pas ...","","","","","","","","","",,,,,"",,,,"fr-disposition.performer",0,*,"",""
+"fr-disposition.time","fr-disposition.time","","","",0,1,"","","","string {[]} {[]}
+","Date d'intervention de l'exécutant.
+                              Elle peut être renseignée si elle est différente de la durée de la rencontre.","Date d'intervention de l'exécutant.
+                              Elle peut être renseignée si elle est différente de la durée de la rencontre.","","","","","","","","","",,,,,"",,,,"fr-disposition.time",0,1,"",""
+"fr-disposition.entryRelationship","fr-disposition.entryRelationship","","","",0,*,"","","","string {[]} {[]}
+","Entrée Transport du patient","Entrée Transport du patient","","","","","","","","","",,,,,"",,,,"fr-disposition.entryRelationship",0,*,"",""

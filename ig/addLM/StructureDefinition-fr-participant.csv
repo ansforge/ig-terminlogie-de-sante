@@ -1,0 +1,33 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"fr-participant","fr-participant","","","",0,*,"","","","null {[]} {[]}
+","FR-Participant","CDA - participant                 Élément participant utilisable dans les sections et entrées du corps d'un document.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"fr-participant.participant","fr-participant.participant","","","",0,1,"","","","string {[]} {[]}
+","Terminologies: cip","Participant  (utilisable dans le corps du document uniquement)","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ParticipationType-cisis|20251028115835","",,,,"fr-participant.participant",0,1,"",""
+"fr-participant.time","fr-participant.time","","","",0,1,"","","","Period {[]} {[]}
+","Terminologies: cip","Date et heure de la participation","","","","","","","","","",,,,,"",,,,"fr-participant.time",0,1,"",""
+"fr-participant.low","fr-participant.low","","","",0,1,"","","","dateTime {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-participant.low",0,1,"",""
+"fr-participant.high","fr-participant.high","","","",0,1,"","","","dateTime {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-participant.high",0,1,"",""
+"fr-participant.participantRole","fr-participant.participantRole","","","",1,1,"","","","string {[]} {[]}
+","Terminologies: cip","Identifiant du participant","","","","","","","","","",,,,,"",,,,"fr-participant.participantRole",1,1,"",""
+"fr-participant.typeId","fr-participant.typeId","","","",0,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-participant.typeId",0,1,"",""
+"fr-participant.id","fr-participant.id","","","",0,*,"","","","Identifier {[]} {[]}
+","Terminologies: cip","Identifiant du participant","","","","","","","","","",,,,,"",,,,"fr-participant.id",0,*,"",""
+"fr-participant.code","fr-participant.code","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Terminologies: cip","Type de participant","","","","","","","","","",,,,,"",,,,"fr-participant.code",0,1,"",""
+"fr-participant.playingDevice","fr-participant.playingDevice","","","",0,1,"","","","string {[]} {[]}
+","Dispositif automatique","Dispositif automatique","","","","","","","","","",,,,,"",,,,"fr-participant.playingDevice",0,1,"",""
+"fr-participant.manufacturerModelName","fr-participant.manufacturerModelName","","","",0,1,"","","","string {[]} {[]}
+","Nom du modèle","Nom du modèle","","","","","","","","","",,,,,"",,,,"fr-participant.manufacturerModelName",0,1,"",""
+"fr-participant.softwareName","fr-participant.softwareName","","","",0,1,"","","","string {[]} {[]}
+","Nom du logiciel","Nom du logiciel","","","","","","","","","",,,,,"",,,,"fr-participant.softwareName",0,1,"",""
+"fr-participant.playingEntity","fr-participant.playingEntity","","","",0,1,"","","","string {[]} {[]}
+","Terminologies: cip","Identité du participant","","","","","","","","","",,,,,"",,,,"fr-participant.playingEntity",0,1,"",""
+"fr-participant.name","fr-participant.name","","","",0,*,"","","","HumanName {[]} {[]}
+","Terminologies: cip","Nom du participant","","","","","","","","","",,,,,"",,,,"fr-participant.name",0,*,"",""
+"fr-participant.desc","fr-participant.desc","","","",0,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-participant.desc",0,1,"",""
+"fr-participant.scopingEntity","fr-participant.scopingEntity","","","",0,1,"","","","string {[]} {[]}
+","Organisation","Organisation","","","","","","","","","",,,,,"",,,,"fr-participant.scopingEntity",0,1,"",""

@@ -1,0 +1,92 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"fr-traitement-maladie-rare","fr-traitement-maladie-rare","","","",0,*,"","","","null {[]} {[]}
+","FR-Traitement-maladie-rare","IHE-PCC - Medications Cette entrée est une entrée de type substanceAdministration, peu contrainte, permettant de décrire les modalités d'administration d'un médicament au patient. Elle permet d'indiquer le médicament, le mode d'administration, la quantité, la fréquence, la durée de prise du médicame...","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"fr-traitement-maladie-rare.substanceAdministration","fr-traitement-maladie-rare.substanceAdministration","","","",1,1,"","","","string {[]} {[]}
+","Entrée Traitement Maladie Rare","Entrée Traitement Maladie Rare","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-human-substance-administration-site-cisis|20251028115832","",,,,"fr-traitement-maladie-rare.substanceAdministration",1,1,"",""
+"fr-traitement-maladie-rare.id","fr-traitement-maladie-rare.id","","","",1,1,"","","","Identifier {[]} {[]}
+","Identifiant de l'entrée 
+                        
+                        L'entrée Traitement ne peut avoir qu'un seul identifiant.
+                  ...","Identifiant de l'entrée 
+                        
+                        L'entrée Traitement ne peut avoir qu'un seul identifiant.
+                  ...","","","","","","","","","",,,,,"",,,,"fr-traitement-maladie-rare.id",1,1,"",""
+"fr-traitement-maladie-rare.code","fr-traitement-maladie-rare.code","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Acte ou situation","Acte ou situation","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActSubstanceAdministrationCode-cisis|20251028115836","",,,,"fr-traitement-maladie-rare.code",0,1,"",""
+"fr-traitement-maladie-rare.text","fr-traitement-maladie-rare.text","","","",0,1,"","","","string {[]} {[]}
+","Partie narrative de l’entrée","Partie narrative de l’entrée","","","","","","","","","",,,,,"",,,,"fr-traitement-maladie-rare.text",0,1,"",""
+"fr-traitement-maladie-rare.reference","fr-traitement-maladie-rare.reference","","","",1,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-traitement-maladie-rare.reference",1,1,"",""
+"fr-traitement-maladie-rare.statusCode","fr-traitement-maladie-rare.statusCode","","","",1,1,"","","","code {[]} {[]}
+","Statut de l’entrée
+                        Fixé à la valeur ""completed"" car l’administration a déjà été réalisée ou ordonnée","Statut de l’entrée
+                        Fixé à la valeur ""completed"" car l’administration a déjà été réalisée ou ordonnée","","","","","","","","","",,,,,"",,,,"fr-traitement-maladie-rare.statusCode",1,1,"",""
+"fr-traitement-maladie-rare.low","fr-traitement-maladie-rare.low","","","",0,1,"","","","dateTime {[]} {[]}
+","Date de début du traitement 
+                            
+                            Si la date de début du traitement n'est pas connue, utiliser nul...","Date de début du traitement 
+                            
+                            Si la date de début du traitement n'est pas connue, utiliser nul...","","","","","","","","","",,,,,"",,,,"fr-traitement-maladie-rare.low",0,1,"",""
+"fr-traitement-maladie-rare.high","fr-traitement-maladie-rare.high","","","",0,1,"","","","dateTime {[]} {[]}
+","Date de fin du traitement","Date de fin du traitement","","","","","","","","","",,,,,"",,,,"fr-traitement-maladie-rare.high",0,1,"",""
+"fr-traitement-maladie-rare.width","fr-traitement-maladie-rare.width","","","",0,1,"","","","string {[]} {[]}
+","Terminologies: JDV_HL7_TimingEvent_CISIS","OIDs: 2.16.840.1.113883.5.139","","","","","","","","","",,,,,"",,,,"fr-traitement-maladie-rare.width",0,1,"",""
+"fr-traitement-maladie-rare.routeCode","fr-traitement-maladie-rare.routeCode","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Voie d'administration 
+                        
+                        Si la voie d'administration est connue, elle doit être indiquée (code et displ...","Voie d'administration 
+                        
+                        Si la voie d'administration est connue, elle doit être indiquée (code et displ...","","","","","","","","","",,,,,"",,,,"fr-traitement-maladie-rare.routeCode",0,1,"",""
+"fr-traitement-maladie-rare.approachSiteCode","fr-traitement-maladie-rare.approachSiteCode","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Terminologies: JDV_HumanSubstanceAdministrationSite_CISIS","OIDs: 2.250.1.213.1.1.5.686","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-human-substance-administration-site-cisis|20251028115832","",,,,"fr-traitement-maladie-rare.approachSiteCode",0,1,"",""
+"fr-traitement-maladie-rare.originalText","fr-traitement-maladie-rare.originalText","","","",0,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-traitement-maladie-rare.originalText",0,1,"",""
+"fr-traitement-maladie-rare.doseQuantity","fr-traitement-maladie-rare.doseQuantity","","","",0,1,"","","","string {[]} {[]}
+","Dose à administrer
+                          S'il n'y a pas de traitement, utiliser une valeur nullFlavor. S'il y a un traitement, les sous-éléments <...","Dose à administrer
+                          S'il n'y a pas de traitement, utiliser une valeur nullFlavor. S'il y a un traitement, les sous-éléments <...","","","","","","","","","",,,,,"",,,,"fr-traitement-maladie-rare.doseQuantity",0,1,"",""
+"fr-traitement-maladie-rare.rateQuantity","fr-traitement-maladie-rare.rateQuantity","","","",0,1,"","","","string {[]} {[]}
+","Rythme d'administration
+                         
+                        Le rythme d'administration permet d'indiquer la quantité de produit à admini...","Rythme d'administration
+                         
+                        Le rythme d'administration permet d'indiquer la quantité de produit à admini...","","","","","","","","","",,,,,"",,,,"fr-traitement-maladie-rare.rateQuantity",0,1,"",""
+"fr-traitement-maladie-rare.maxDoseQuantity","fr-traitement-maladie-rare.maxDoseQuantity","","","",0,*,"","","","string {[]} {[]}
+","Dose maximale
+                         
+                        La dose maximale à <maxDoseQuantity> permet d'indiquer la quantité maximale de produit...","Dose maximale
+                         
+                        La dose maximale à <maxDoseQuantity> permet d'indiquer la quantité maximale de produit...","","","","","","","","","",,,,,"",,,,"fr-traitement-maladie-rare.maxDoseQuantity",0,*,"",""
+"fr-traitement-maladie-rare.numerator","fr-traitement-maladie-rare.numerator","","","",1,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-traitement-maladie-rare.numerator",1,1,"",""
+"fr-traitement-maladie-rare.denominator","fr-traitement-maladie-rare.denominator","","","",1,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-traitement-maladie-rare.denominator",1,1,"",""
+"fr-traitement-maladie-rare.consumable","fr-traitement-maladie-rare.consumable","","","",0,1,"","","","string {[]} {[]}
+","Médicament","Médicament","","","","","","","","","",,,,,"",,,,"fr-traitement-maladie-rare.consumable",0,1,"",""
+"fr-traitement-maladie-rare.manufacturedProduct","fr-traitement-maladie-rare.manufacturedProduct","","","",0,1,"","","","string {[]} {[]}
+","Médicament administré – ATC
+                                          Valeur issue de la terminologie Code ATC (2.16.840.1.113883.6.73).","OIDs: 2.16.840.1.113883.6.73","","","","","","","","","",,,,,"",,,,"fr-traitement-maladie-rare.manufacturedProduct",0,1,"",""
+"fr-traitement-maladie-rare.manufacturedMaterial","fr-traitement-maladie-rare.manufacturedMaterial","","","",1,1,"","","","string {[]} {[]}
+","Médicament administré – ATC
+                                          Valeur issue de la terminologie Code ATC (2.16.840.1.113883.6.73).","OIDs: 2.16.840.1.113883.6.73","","","","","","","","","",,,,,"",,,,"fr-traitement-maladie-rare.manufacturedMaterial",1,1,"",""
+"fr-traitement-maladie-rare.translation","fr-traitement-maladie-rare.translation","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Médicament administré – ATC
+                                          Valeur issue de la terminologie Code ATC (2.16.840.1.113883.6.73).","OIDs: 2.16.840.1.113883.6.73","","","","","","","","","",,,,,"",,,,"fr-traitement-maladie-rare.translation",0,1,"",""
+"fr-traitement-maladie-rare.name","fr-traitement-maladie-rare.name","","","",0,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-traitement-maladie-rare.name",0,1,"",""
+"fr-traitement-maladie-rare.lotNumberText","fr-traitement-maladie-rare.lotNumberText","","","",0,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-traitement-maladie-rare.lotNumberText",0,1,"",""
+"fr-traitement-maladie-rare.manufacturerOrganization","fr-traitement-maladie-rare.manufacturerOrganization","","","",0,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-traitement-maladie-rare.manufacturerOrganization",0,1,"",""
+"fr-traitement-maladie-rare.entryRelationship","fr-traitement-maladie-rare.entryRelationship","","","",0,*,"","","","string {[]} {[]}
+","Prescription","Prescription","","","","","","","","","",,,,,"",,,,"fr-traitement-maladie-rare.entryRelationship",0,*,"",""
+"fr-traitement-maladie-rare.sequenceNumber","fr-traitement-maladie-rare.sequenceNumber","","","",0,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-traitement-maladie-rare.sequenceNumber",0,1,"",""
+"fr-traitement-maladie-rare.precondition","fr-traitement-maladie-rare.precondition","","","",0,*,"","","","string {[]} {[]}
+","Précondition 
+                        
+                        Permet de décrire les conditions préalables à l'utilisation du médicament.
+            ...","Précondition 
+                        
+                        Permet de décrire les conditions préalables à l'utilisation du médicament.
+            ...","","","","","","","","","",,,,,"",,,,"fr-traitement-maladie-rare.precondition",0,*,"",""

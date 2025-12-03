@@ -1,0 +1,29 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"fr-reference-item-plan-traitement","fr-reference-item-plan-traitement","","","",0,*,"","","","null {[]} {[]}
+","FR-Reference-item-plan-traitement","IHE-Pharm -                                                                Cette entrée permet d’enregistrer une référence à un traitement dans un plan de traitement.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"fr-reference-item-plan-traitement.substanceAdministration","fr-reference-item-plan-traitement.substanceAdministration","","","",1,1,"","","","string {[]} {[]}
+","Entrée Référence à un Traitement dans un plan de traitement","Entrée Référence à un Traitement dans un plan de traitement","","","","","","","","","",,,,,"",,,,"fr-reference-item-plan-traitement.substanceAdministration",1,1,"",""
+"fr-reference-item-plan-traitement.id","fr-reference-item-plan-traitement.id","","","",1,1,"","","","Identifier {[]} {[]}
+","Identifiant de la ligne de traitement dans un plan de traitement.","Identifiant de la ligne de traitement dans un plan de traitement.","","","","","","","","","",,,,,"",,,,"fr-reference-item-plan-traitement.id",1,1,"",""
+"fr-reference-item-plan-traitement.code","fr-reference-item-plan-traitement.code","","","",1,1,"","","","code {[]} {[]}
+","Code de l’entrée
+                        
+                        Code indiquant que la référence est une ligne de traitement dans un plan de traiteme...","Code de l’entrée
+                        
+                        Code indiquant que la référence est une ligne de traitement dans un plan de traiteme...","","","","","","","","","",,,,,"",,,,"fr-reference-item-plan-traitement.code",1,1,"",""
+"fr-reference-item-plan-traitement.consumable","fr-reference-item-plan-traitement.consumable","","","",1,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-reference-item-plan-traitement.consumable",1,1,"",""
+"fr-reference-item-plan-traitement.manufacturedProduct","fr-reference-item-plan-traitement.manufacturedProduct","","","",1,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-reference-item-plan-traitement.manufacturedProduct",1,1,"",""
+"fr-reference-item-plan-traitement.manufacturedMaterial","fr-reference-item-plan-traitement.manufacturedMaterial","","","",1,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-reference-item-plan-traitement.manufacturedMaterial",1,1,"",""
+"fr-reference-item-plan-traitement.entryRelationship","fr-reference-item-plan-traitement.entryRelationship","","","",1,1,"","","","string {[]} {[]}
+","Item d'un plan de traitement
+                          Copie non modifiée de la ligne de traitement référencée","Item d'un plan de traitement
+                          Copie non modifiée de la ligne de traitement référencée","","","","","","","","","",,,,,"",,,,"fr-reference-item-plan-traitement.entryRelationship",1,1,"",""
+"fr-reference-item-plan-traitement.reference","fr-reference-item-plan-traitement.reference","","","",0,1,"","","","string {[]} {[]}
+","Identifiant du plan de traitement
+                          Cet identifiant peut faciliter la recherche du plan de traitement d'origine si nécessaire.","Identifiant du plan de traitement
+                          Cet identifiant peut faciliter la recherche du plan de traitement d'origine si nécessaire.","","","","","","","","","",,,,,"",,,,"fr-reference-item-plan-traitement.reference",0,1,"",""
+"fr-reference-item-plan-traitement.externalDocument","fr-reference-item-plan-traitement.externalDocument","","","",1,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-reference-item-plan-traitement.externalDocument",1,1,"",""

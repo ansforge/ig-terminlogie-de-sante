@@ -1,0 +1,19 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"fr-certitude","fr-certitude","","","",0,*,"","","","null {[]} {[]}
+","FR-Certitude","Cette entrée permet de fournir la certitude d'une observation (problème ou allergie/hypersensibilité).                                                                Elle est utilisée exclusivement dans un lien entryRelationship grâce auquel elle est liée à l’élément qu’elle qualifie.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"fr-certitude.observation","fr-certitude.observation","","","",0,1,"","","","string {[]} {[]}
+","Entrée Certitude","Entrée Certitude","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-condition-ver-status-cisis|20251028115833","",,,,"fr-certitude.observation",0,1,"",""
+"fr-certitude.id","fr-certitude.id","","","",1,1,"","","","Identifier {[]} {[]}
+","Identifiant de l'observation","Identifiant de l'observation","","","","","","","","","",,,,,"",,,,"fr-certitude.id",1,1,"",""
+"fr-certitude.code","fr-certitude.code","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Code de l'observation","Code de l'observation","","","","","","","","","",,,,,"",,,,"fr-certitude.code",1,1,"",""
+"fr-certitude.text","fr-certitude.text","","","",1,1,"","","","string {[]} {[]}
+","Description narrative de l'observation","Description narrative de l'observation","","","","","","","","","",,,,,"",,,,"fr-certitude.text",1,1,"",""
+"fr-certitude.reference","fr-certitude.reference","","","",1,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-certitude.reference",1,1,"",""
+"fr-certitude.statusCode","fr-certitude.statusCode","","","",1,1,"","","","code {[]} {[]}
+","Statut de l'observation","Statut de l'observation","","","","","","","","","",,,,,"",,,,"fr-certitude.statusCode",1,1,"",""
+"fr-certitude.effectiveTime","fr-certitude.effectiveTime","","","",1,1,"","","","Period {[]} {[]}
+","Date de l'observation","Date de l'observation","","","","","","","","","",,,,,"",,,,"fr-certitude.effectiveTime",1,1,"",""
+"fr-certitude.value","fr-certitude.value","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Terminologies: jdv-hl7-condition-ver-status-cisis","OIDs: 2.16.840.1.113883.4.642.3.166","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-condition-ver-status-cisis|20251028115833","",,,,"fr-certitude.value",1,1,"",""

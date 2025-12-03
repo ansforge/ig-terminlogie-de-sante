@@ -1,0 +1,33 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"fr-dicom-observation-subordonnee","fr-dicom-observation-subordonnee","","","",0,*,"","","","null {[]} {[]}
+","FR-DICOM-Observation-subordonnee","DICOM PART 20 - Observation codée","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"fr-dicom-observation-subordonnee.observation","fr-dicom-observation-subordonnee.observation","","","",0,1,"","","","string {[]} {[]}
+","Conformité Coded Observation (DICOM Part 20)","Conformité Coded Observation (DICOM Part 20)","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modificateur-topographique-cisis|20251028115832","",,,,"fr-dicom-observation-subordonnee.observation",0,1,"",""
+"fr-dicom-observation-subordonnee.id","fr-dicom-observation-subordonnee.id","","","",1,1,"","","","Identifier {[]} {[]}
+","Identifiant de l'observation","Identifiant de l'observation","","","","","","","","","",,,,,"",,,,"fr-dicom-observation-subordonnee.id",1,1,"",""
+"fr-dicom-observation-subordonnee.code","fr-dicom-observation-subordonnee.code","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Code de l'observation","Code de l'observation","","","","","","","","","",,,,,"",,,,"fr-dicom-observation-subordonnee.code",1,1,"",""
+"fr-dicom-observation-subordonnee.text","fr-dicom-observation-subordonnee.text","","","",0,1,"","","","string {[]} {[]}
+","Partie narrative de l'observation","Partie narrative de l'observation","","","","","","","","","",,,,,"",,,,"fr-dicom-observation-subordonnee.text",0,1,"",""
+"fr-dicom-observation-subordonnee.reference","fr-dicom-observation-subordonnee.reference","","","",1,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-dicom-observation-subordonnee.reference",1,1,"",""
+"fr-dicom-observation-subordonnee.statusCode","fr-dicom-observation-subordonnee.statusCode","","","",1,1,"","","","code {[]} {[]}
+","status de l'observation","status de l'observation","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActStatus-cisis|20251028115833","",,,,"fr-dicom-observation-subordonnee.statusCode",1,1,"",""
+"fr-dicom-observation-subordonnee.effectiveTime","fr-dicom-observation-subordonnee.effectiveTime","","","",0,1,"","","","Period {[]} {[]}
+","Date de l'observation","Date de l'observation","","","","","","","","","",,,,,"",,,,"fr-dicom-observation-subordonnee.effectiveTime",0,1,"",""
+"fr-dicom-observation-subordonnee.value","fr-dicom-observation-subordonnee.value","","","",1,1,"","","","string {[]} {[]}
+","Valeur de l'observation","Valeur de l'observation","","","","","","","","","",,,,,"",,,,"fr-dicom-observation-subordonnee.value",1,1,"",""
+"fr-dicom-observation-subordonnee.interpretationCode","fr-dicom-observation-subordonnee.interpretationCode","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Interprétation code de l'observation","Interprétation code de l'observation","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationInterpretation-cisis|20251028115834","",,,,"fr-dicom-observation-subordonnee.interpretationCode",0,1,"",""
+"fr-dicom-observation-subordonnee.translation","fr-dicom-observation-subordonnee.translation","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-dicom-observation-subordonnee.translation",0,1,"",""
+"fr-dicom-observation-subordonnee.methodCode","fr-dicom-observation-subordonnee.methodCode","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Méthode code de l'observation","Méthode code de l'observation","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationMethod-cisis|20251028115832","",,,,"fr-dicom-observation-subordonnee.methodCode",0,1,"",""
+"fr-dicom-observation-subordonnee.targetSiteCode","fr-dicom-observation-subordonnee.targetSiteCode","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Latéralité et topographie","Latéralité et topographie","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modificateur-topographique-cisis|20251028115832","",,,,"fr-dicom-observation-subordonnee.targetSiteCode",1,1,"",""
+"fr-dicom-observation-subordonnee.originalText","fr-dicom-observation-subordonnee.originalText","","","",0,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-dicom-observation-subordonnee.originalText",0,1,"",""
+"fr-dicom-observation-subordonnee.qualifier","fr-dicom-observation-subordonnee.qualifier","","","",0,1,"","","","string {[]} {[]}
+","Topographie","Topographie","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modificateur-topographique-cisis|20251028115832","",,,,"fr-dicom-observation-subordonnee.qualifier",0,1,"",""
+"fr-dicom-observation-subordonnee.name","fr-dicom-observation-subordonnee.name","","","",1,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-dicom-observation-subordonnee.name",1,1,"",""

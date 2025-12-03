@@ -1,0 +1,23 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"fr-observation-oculaire-segment-anterieur","fr-observation-oculaire-segment-anterieur","","","",0,*,"","","","null {[]} {[]}
+","FR-Observation-oculaire-segment-anterieur","IHE GEE - Observation oculaire (segment antérieur)                                                               Cette entrée est une représentation abstraite d’un grand nombre d’observations oculaires(segment antérieur)utilisées dans cette spécification.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"fr-observation-oculaire-segment-anterieur.observation","fr-observation-oculaire-segment-anterieur.observation","","","",0,1,"","","","string {[]} {[]}
+","Entrée Observation oculaire segment anterieur","Entrée Observation oculaire segment anterieur","","","","","","","","","",,,,,"",,,,"fr-observation-oculaire-segment-anterieur.observation",0,1,"",""
+"fr-observation-oculaire-segment-anterieur.id","fr-observation-oculaire-segment-anterieur.id","","","",1,*,"","","","string {[]} {[]}
+","Identifiant de l’observation","Identifiant de l’observation","","","","","","","","","",,,,,"",,,,"fr-observation-oculaire-segment-anterieur.id",1,*,"",""
+"fr-observation-oculaire-segment-anterieur.code","fr-observation-oculaire-segment-anterieur.code","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Code de l'observation","Code de l'observation","","","","","","","","","",,,,,"",,,,"fr-observation-oculaire-segment-anterieur.code",1,1,"",""
+"fr-observation-oculaire-segment-anterieur.statusCode","fr-observation-oculaire-segment-anterieur.statusCode","","","",1,1,"","","","string {[]} {[]}
+","Statut de l’entrée","Statut de l’entrée","","","","","","","","","",,,,,"",,,,"fr-observation-oculaire-segment-anterieur.statusCode",1,1,"",""
+"fr-observation-oculaire-segment-anterieur.value","fr-observation-oculaire-segment-anterieur.value","","","",1,1,"","","","Quantity {[]} {[]}
+","Valeur observée","Valeur observée","","","","","","","","","",,,,,"",,,,"fr-observation-oculaire-segment-anterieur.value",1,1,"",""
+"fr-observation-oculaire-segment-anterieur.interpretationCode","fr-observation-oculaire-segment-anterieur.interpretationCode","","","",0,1,"","","","string {[]} {[]}
+","Terminologies: SNOMED CT, CIM-10","OIDs: 2.16.840.1.113883.6.96","","","","","","","","","",,,,,"",,,,"fr-observation-oculaire-segment-anterieur.interpretationCode",0,1,"",""
+"fr-observation-oculaire-segment-anterieur.methodCode","fr-observation-oculaire-segment-anterieur.methodCode","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","Terminologies: SNOMED CT","OIDs: 2.16.840.1.113883.6.96","","","","","","","","","",,,,,"",,,,"fr-observation-oculaire-segment-anterieur.methodCode",0,*,"",""
+"fr-observation-oculaire-segment-anterieur.targetSiteCode","fr-observation-oculaire-segment-anterieur.targetSiteCode","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Localisation anatomique","Localisation anatomique","","","","","","","","","",,,,,"",,,,"fr-observation-oculaire-segment-anterieur.targetSiteCode",1,1,"",""
+"fr-observation-oculaire-segment-anterieur.qualifier","fr-observation-oculaire-segment-anterieur.qualifier","","","",0,*,"","","","string {[]} {[]}
+","Terminologies: SNOMED CT","OIDs: 2.16.840.1.113883.6.96","","","","","","","","","",,,,,"",,,,"fr-observation-oculaire-segment-anterieur.qualifier",0,*,"",""
+"fr-observation-oculaire-segment-anterieur.author","fr-observation-oculaire-segment-anterieur.author","","","",0,1,"","","","string {[]} {[]}
+","Auteur","Auteur","","","","","","","","","",,,,,"",,,,"fr-observation-oculaire-segment-anterieur.author",0,1,"",""

@@ -1,0 +1,15 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"fr-statut-clinique-du-patient","fr-statut-clinique-du-patient","","","",0,*,"","","","null {[]} {[]}
+","FR-Statut-clinique-du-patient","IHE-PCC - Health-Status-Observation                                                               L'entrée Statut clinique du patient permet de donner une évaluation de l'état clinique du patient.                                                                   L'entrée Statut clinique du patient e...","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"fr-statut-clinique-du-patient.observation","fr-statut-clinique-du-patient.observation","","","",0,1,"","","","string {[]} {[]}
+","Entrée Statut clinique du patient","Entrée Statut clinique du patient","","","","","","","","","",,"example","","http://hl7.org/fhir/ValueSet/1.2.250.1.213.1.1.4.2.283.1","",,,,"fr-statut-clinique-du-patient.observation",0,1,"",""
+"fr-statut-clinique-du-patient.code","fr-statut-clinique-du-patient.code","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Code de l’entrée","Code de l’entrée","","","","","","","","","",,,,,"",,,,"fr-statut-clinique-du-patient.code",1,1,"",""
+"fr-statut-clinique-du-patient.text","fr-statut-clinique-du-patient.text","","","",1,1,"","","","string {[]} {[]}
+","Description narrative","Description narrative","","","","","","","","","",,,,,"",,,,"fr-statut-clinique-du-patient.text",1,1,"",""
+"fr-statut-clinique-du-patient.reference","fr-statut-clinique-du-patient.reference","","","",1,1,"","","","string {[]} {[]}
+","Référence vers la partie narrative","Référence vers la partie narrative","","","","","","","","","",,,,,"",,,,"fr-statut-clinique-du-patient.reference",1,1,"",""
+"fr-statut-clinique-du-patient.statusCode","fr-statut-clinique-du-patient.statusCode","","","",1,1,"","","","code {[]} {[]}
+","Statut de l’entrée","Statut de l’entrée","","","","","","","","","",,,,,"",,,,"fr-statut-clinique-du-patient.statusCode",1,1,"",""
+"fr-statut-clinique-du-patient.value","fr-statut-clinique-du-patient.value","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Statut clinique du patient","Statut clinique du patient","","","","","","","","","",,"preferred","","http://hl7.org/fhir/ValueSet/1.2.250.1.213.1.1.4.2.283.1","",,,,"fr-statut-clinique-du-patient.value",1,1,"",""

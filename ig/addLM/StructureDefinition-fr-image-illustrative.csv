@@ -1,0 +1,39 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"fr-image-illustrative","fr-image-illustrative","","","",0,*,"","","","null {[]} {[]}
+","FR-Image-illustrative","Image illustrative                                                               Cette entrée, utilisable dans toute entrée, permet de positionner une image, référencée dans le texte de la section par l’attribut renderMultimedia.referencedObject.                                                      ...","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"fr-image-illustrative.observationMedia","fr-image-illustrative.observationMedia","","","",1,1,"","","","string {[]} {[]}
+","Entrée Image illustrative","Entrée Image illustrative","","","","","","","","","",,,,,"",,,,"fr-image-illustrative.observationMedia",1,1,"",""
+"fr-image-illustrative.id","fr-image-illustrative.id","","","",0,*,"","","","Identifier {[]} {[]}
+","Identifiant de l’entrée","Identifiant de l’entrée","","","","","","","","","",,,,,"",,,,"fr-image-illustrative.id",0,*,"",""
+"fr-image-illustrative.languageCode","fr-image-illustrative.languageCode","","","",0,1,"","","","code {[]} {[]}
+","Langue
+                              ""fr-FR"" pour français métropolitain (la casse des caractères doit être respectée).
+                        La par...","Langue
+                              ""fr-FR"" pour français métropolitain (la casse des caractères doit être respectée).
+                        La par...","","","","","","","","","",,,,,"",,,,"fr-image-illustrative.languageCode",0,1,"",""
+"fr-image-illustrative.value","fr-image-illustrative.value","","","",1,1,"","","","string {[]} {[]}
+","Image encodée en Base64
+                        
+                        Les attributs de cet élément prennent les valeurs suivantes :
+               ...","Image encodée en Base64
+                        
+                        Les attributs de cet élément prennent les valeurs suivantes :
+               ...","","","","","","","","","",,,,,"",,,,"fr-image-illustrative.value",1,1,"",""
+"fr-image-illustrative.subject","fr-image-illustrative.subject","","","",0,*,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-image-illustrative.subject",0,*,"",""
+"fr-image-illustrative.specimen","fr-image-illustrative.specimen","","","",0,*,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-image-illustrative.specimen",0,*,"",""
+"fr-image-illustrative.performer","fr-image-illustrative.performer","","","",0,*,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-image-illustrative.performer",0,*,"",""
+"fr-image-illustrative.author","fr-image-illustrative.author","","","",0,*,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-image-illustrative.author",0,*,"",""
+"fr-image-illustrative.informant","fr-image-illustrative.informant","","","",0,*,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-image-illustrative.informant",0,*,"",""
+"fr-image-illustrative.participant","fr-image-illustrative.participant","","","",0,*,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-image-illustrative.participant",0,*,"",""
+"fr-image-illustrative.entryRelationship","fr-image-illustrative.entryRelationship","","","",0,*,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-image-illustrative.entryRelationship",0,*,"",""
+"fr-image-illustrative.reference","fr-image-illustrative.reference","","","",0,*,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-image-illustrative.reference",0,*,"",""
+"fr-image-illustrative.precondition","fr-image-illustrative.precondition","","","",0,*,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-image-illustrative.precondition",0,*,"",""

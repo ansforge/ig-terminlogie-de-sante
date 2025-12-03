@@ -1,0 +1,47 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"fr-traitement-prescrit-subordonne","fr-traitement-prescrit-subordonne","","","",0,*,"","","","null {[]} {[]}
+","FR-Traitement-prescrit-subordonnee","IHE-PRE - Prescription Item                                   Une entrée FR-Traitement-prescrit de premier niveau peut contenir une ou plusieurs sous-entrées FR-Traitement-prescrit-subordonne pour les cas spécifiques des dosages progressifs, fractionnés ou conditionnels, ou pour gérer la combinaison...","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"fr-traitement-prescrit-subordonne.substanceAdministration","fr-traitement-prescrit-subordonne.substanceAdministration","","","",1,1,"","","","string {[]} {[]}
+","Entrée Traitement prescrit subordonnée","Entrée Traitement prescrit subordonnée","","","","","","","","","",,,,,"",,,,"fr-traitement-prescrit-subordonne.substanceAdministration",1,1,"",""
+"fr-traitement-prescrit-subordonne.id","fr-traitement-prescrit-subordonne.id","","","",1,*,"","","","Identifier {[]} {[]}
+","Identifiant de l'entrée","Identifiant de l'entrée","","","","","","","","","",,,,,"",,,,"fr-traitement-prescrit-subordonne.id",1,*,"",""
+"fr-traitement-prescrit-subordonne.text","fr-traitement-prescrit-subordonne.text","","","",1,1,"","","","string {[]} {[]}
+","Partie narrative de l’entrée","Partie narrative de l’entrée","","","","","","","","","",,,,,"",,,,"fr-traitement-prescrit-subordonne.text",1,1,"",""
+"fr-traitement-prescrit-subordonne.reference","fr-traitement-prescrit-subordonne.reference","","","",1,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-traitement-prescrit-subordonne.reference",1,1,"",""
+"fr-traitement-prescrit-subordonne.statusCode","fr-traitement-prescrit-subordonne.statusCode","","","",1,1,"","","","code {[]} {[]}
+","Statut de l’entrée
+                        Fixé à la valeur ""completed""","Statut de l’entrée
+                        Fixé à la valeur ""completed""","","","","","","","","","",,,,,"",,,,"fr-traitement-prescrit-subordonne.statusCode",1,1,"",""
+"fr-traitement-prescrit-subordonne.effectiveTime","fr-traitement-prescrit-subordonne.effectiveTime","","","",0,1,"","","","string {[]} {[]}
+","Terminologies: JDV_HL7_TimingEvent_CISIS","OIDs: 2.16.840.1.113883.5.139","","","","","","","","","",,,,,"",,,,"fr-traitement-prescrit-subordonne.effectiveTime",0,1,"",""
+"fr-traitement-prescrit-subordonne.doseQuantity","fr-traitement-prescrit-subordonne.doseQuantity","","","",0,1,"","","","string {[]} {[]}
+","Dose à administrer
+                          Les sous-éléments ""low"" et ""high"" permettent de fournir les doses minimales et maximales à administrer.  ...","Dose à administrer
+                          Les sous-éléments ""low"" et ""high"" permettent de fournir les doses minimales et maximales à administrer.  ...","","","","","","","","","",,,,,"",,,,"fr-traitement-prescrit-subordonne.doseQuantity",0,1,"",""
+"fr-traitement-prescrit-subordonne.low","fr-traitement-prescrit-subordonne.low","","","",1,1,"","","","string {[]} {[]}
+","Dose minimale","Dose minimale","","","","","","","","","",,,,,"",,,,"fr-traitement-prescrit-subordonne.low",1,1,"",""
+"fr-traitement-prescrit-subordonne.high","fr-traitement-prescrit-subordonne.high","","","",1,1,"","","","string {[]} {[]}
+","Dose maximale","Dose maximale","","","","","","","","","",,,,,"",,,,"fr-traitement-prescrit-subordonne.high",1,1,"",""
+"fr-traitement-prescrit-subordonne.rateQuantity","fr-traitement-prescrit-subordonne.rateQuantity","","","",0,1,"","","","string {[]} {[]}
+","Rythme d'administration
+                         
+                        Dans le cas où la posologie n'est pas structurée et décrite uniquement dans ...","Rythme d'administration
+                         
+                        Dans le cas où la posologie n'est pas structurée et décrite uniquement dans ...","","","","","","","","","",,,,,"",,,,"fr-traitement-prescrit-subordonne.rateQuantity",0,1,"",""
+"fr-traitement-prescrit-subordonne.translation","fr-traitement-prescrit-subordonne.translation","","","",0,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-traitement-prescrit-subordonne.translation",0,1,"",""
+"fr-traitement-prescrit-subordonne.originalText","fr-traitement-prescrit-subordonne.originalText","","","",1,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-traitement-prescrit-subordonne.originalText",1,1,"",""
+"fr-traitement-prescrit-subordonne.consumable","fr-traitement-prescrit-subordonne.consumable","","","",1,1,"","","","string {[]} {[]}
+","Entrée Produit de santé
+                         
+                        Pour les doses progressives, fractionnées ou conditionnelles, utilser un nul...","Entrée Produit de santé
+                         
+                        Pour les doses progressives, fractionnées ou conditionnelles, utilser un nul...","","","","","","","","","",,,,,"",,,,"fr-traitement-prescrit-subordonne.consumable",1,1,"",""
+"fr-traitement-prescrit-subordonne.precondition","fr-traitement-prescrit-subordonne.precondition","","","",0,*,"","","","string {[]} {[]}
+","Précondition à l'utilisation du médicament
+                          Permet de décrire les conditions préalables à l'utilisation du médicament.  L'att...","Précondition à l'utilisation du médicament
+                          Permet de décrire les conditions préalables à l'utilisation du médicament.  L'att...","","","","","","","","","",,,,,"",,,,"fr-traitement-prescrit-subordonne.precondition",0,*,"",""
+"fr-traitement-prescrit-subordonne.criterion","fr-traitement-prescrit-subordonne.criterion","","","",1,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-traitement-prescrit-subordonne.criterion",1,1,"",""

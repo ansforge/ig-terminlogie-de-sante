@@ -1,0 +1,36 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"fr-isolat-microbiologique","fr-isolat-microbiologique","","","",0,*,"","","","null {[]} {[]}
+","FR-Isolat-microbiologique","IHE-PCC - Laboratory isolate organizer L'entrée Isolat microbiologique est une entrée de type 'organizer' qui est utilisée pour les comptes rendus comprenant des résultats de microbiologie. Elle décrit un isolat (milieu de culture sur lequel a poussé un microorganisme) et les résultats d'examens obt...","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"fr-isolat-microbiologique.organizer","fr-isolat-microbiologique.organizer","","","",1,1,"","","","string {[]} {[]}
+","Entrée Isolat microbiologique","Entrée Isolat microbiologique","","","","","","","","","",,,,,"",,,,"fr-isolat-microbiologique.organizer",1,1,"",""
+"fr-isolat-microbiologique.id","fr-isolat-microbiologique.id","","","",0,1,"","","","Identifier {[]} {[]}
+","Identifiant de l'examen
+                          Le demandeur de l'examen comme son exécutant ont pu chacun lui affecter un identifiant, qui est un s...","Identifiant de l'examen
+                          Le demandeur de l'examen comme son exécutant ont pu chacun lui affecter un identifiant, qui est un s...","","","","","","","","","",,,,,"",,,,"fr-isolat-microbiologique.id",0,1,"",""
+"fr-isolat-microbiologique.code","fr-isolat-microbiologique.code","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Terminologies: SNOMED CT","Code isolat : 
+                        
+                        
+                            le code de l’isolat peut être codé avec les terminologies...","","","","","","","","","",,,,,"",,,,"fr-isolat-microbiologique.code",0,1,"",""
+"fr-isolat-microbiologique.statusCode","fr-isolat-microbiologique.statusCode","","","",1,1,"","","","code {[]} {[]}
+","Niveau de complétude
+                         
+                        
+                            ‘completed' : Rendu final complet. Tous les résult...","Niveau de complétude
+                         
+                        
+                            ‘completed' : Rendu final complet. Tous les résult...","","","","","","","","","",,,,,"",,,,"fr-isolat-microbiologique.statusCode",1,1,"",""
+"fr-isolat-microbiologique.effectiveTime","fr-isolat-microbiologique.effectiveTime","","","",0,1,"","","","dateTime {[]} {[]}
+","Date et heure des résultats","Date et heure des résultats","","","","","","","","","",,,,,"",,,,"fr-isolat-microbiologique.effectiveTime",0,1,"",""
+"fr-isolat-microbiologique.specimen","fr-isolat-microbiologique.specimen","","","",1,1,"","","","string {[]} {[]}
+","Isolat microbiologique
+                          Apparaît en une et une seule occurrence. Cet élément représente l'isolat soumis à l'étude, c'est-à-di...","Isolat microbiologique
+                          Apparaît en une et une seule occurrence. Cet élément représente l'isolat soumis à l'étude, c'est-à-di...","","","","","","","","","",,,,,"",,,,"fr-isolat-microbiologique.specimen",1,1,"",""
+"fr-isolat-microbiologique.specimenRole","fr-isolat-microbiologique.specimenRole","","","",1,1,"","","","string {[]} {[]}
+","Identifiant de l'isolat","Identifiant de l'isolat","","","","","","","","","",,,,,"",,,,"fr-isolat-microbiologique.specimenRole",1,1,"",""
+"fr-isolat-microbiologique.specimenPlayingEntity","fr-isolat-microbiologique.specimenPlayingEntity","","","",1,1,"","","","string {[]} {[]}
+","L'agent infectieux cultivé (bactérie, levure, virus, parasite)
+                                  codé dans le vocabulaire approprié.","L'agent infectieux cultivé (bactérie, levure, virus, parasite)
+                                  codé dans le vocabulaire approprié.","","","","","","","","","",,,,,"",,,,"fr-isolat-microbiologique.specimenPlayingEntity",1,1,"",""
+"fr-isolat-microbiologique.component","fr-isolat-microbiologique.component","","","",0,*,"","","","string {[]} {[]}
+","Batterie d'examens de biologie médicale","Batterie d'examens de biologie médicale","","","","","","","","","",,,,,"",,,,"fr-isolat-microbiologique.component",0,*,"",""

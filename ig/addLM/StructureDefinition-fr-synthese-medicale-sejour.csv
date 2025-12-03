@@ -1,0 +1,21 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"fr-synthese-medicale-sejour","fr-synthese-medicale-sejour","","","",0,*,"","","","null {[]} {[]}
+","FR-Synthese-medicale-sejour","Cette entrée permet de fournir, sous forme textuelle, une synthèse médicale du séjour.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"fr-synthese-medicale-sejour.observation","fr-synthese-medicale-sejour.observation","","","",0,1,"","","","string {[]} {[]}
+","Entrée Synthèse médicale du séjour","Entrée Synthèse médicale du séjour","","","","","","","","","",,,,,"",,,,"fr-synthese-medicale-sejour.observation",0,1,"",""
+"fr-synthese-medicale-sejour.id","fr-synthese-medicale-sejour.id","","","",1,1,"","","","Identifier {[]} {[]}
+","Identifiant de l'observation","Identifiant de l'observation","","","","","","","","","",,,,,"",,,,"fr-synthese-medicale-sejour.id",1,1,"",""
+"fr-synthese-medicale-sejour.code","fr-synthese-medicale-sejour.code","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Code de l'observation","Code de l'observation","","","","","","","","","",,,,,"",,,,"fr-synthese-medicale-sejour.code",1,1,"",""
+"fr-synthese-medicale-sejour.text","fr-synthese-medicale-sejour.text","","","",1,1,"","","","string {[]} {[]}
+","Partie narrative de l'observation","Partie narrative de l'observation","","","","","","","","","",,,,,"",,,,"fr-synthese-medicale-sejour.text",1,1,"",""
+"fr-synthese-medicale-sejour.reference","fr-synthese-medicale-sejour.reference","","","",1,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-synthese-medicale-sejour.reference",1,1,"",""
+"fr-synthese-medicale-sejour.statusCode","fr-synthese-medicale-sejour.statusCode","","","",1,1,"","","","code {[]} {[]}
+","Statut de l’entrée
+                        Fixé à la valeur ""completed""","Statut de l’entrée
+                        Fixé à la valeur ""completed""","","","","","","","","","",,,,,"",,,,"fr-synthese-medicale-sejour.statusCode",1,1,"",""
+"fr-synthese-medicale-sejour.effectiveTime","fr-synthese-medicale-sejour.effectiveTime","","","",1,1,"","","","Period {[]} {[]}
+","Date de la synthèse médicale du séjour","Date de la synthèse médicale du séjour","","","","","","","","","",,,,,"",,,,"fr-synthese-medicale-sejour.effectiveTime",1,1,"",""
+"fr-synthese-medicale-sejour.value","fr-synthese-medicale-sejour.value","","","",1,1,"","","","string {[]} {[]}
+","Synthèse médicale du séjour (sous forme textuelle)","Synthèse médicale du séjour (sous forme textuelle)","","","","","","","","","",,,,,"",,,,"fr-synthese-medicale-sejour.value",1,1,"",""

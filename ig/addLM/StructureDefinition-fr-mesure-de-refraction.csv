@@ -1,0 +1,27 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"fr-mesure-de-refraction","fr-mesure-de-refraction","","","",0,*,"","","","null {[]} {[]}
+","FR-Mesure-de-refraction","IHE EYE CARE GEE - Refractive Measurement Observation                                                               Cette entrée permet d’enregistrer une mesure de la rubrique Réfraction automatique.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"fr-mesure-de-refraction.observation","fr-mesure-de-refraction.observation","","","",0,1,"","","","string {[]} {[]}
+","Entrée Mesure de refraction","Entrée Mesure de refraction","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-oeil-examine-cisis|20251028115832","",,,,"fr-mesure-de-refraction.observation",0,1,"",""
+"fr-mesure-de-refraction.id","fr-mesure-de-refraction.id","","","",1,1,"","","","string {[]} {[]}
+","Identifiant de l'entrée.","Identifiant de l'entrée.","","","","","","","","","",,,,,"",,,,"fr-mesure-de-refraction.id",1,1,"",""
+"fr-mesure-de-refraction.code","fr-mesure-de-refraction.code","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Code de l'entrée","Code de l'entrée","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-de-mesure-de-refraction-cisis|20250624152059","",,,,"fr-mesure-de-refraction.code",1,1,"",""
+"fr-mesure-de-refraction.text","fr-mesure-de-refraction.text","","","",1,1,"","","","string {[]} {[]}
+","Description narrative de l'observation.","Description narrative de l'observation.","","","","","","","","","",,,,,"",,,,"fr-mesure-de-refraction.text",1,1,"",""
+"fr-mesure-de-refraction.reference","fr-mesure-de-refraction.reference","","","",1,1,"","","","string {[]} {[]}
+","Référence vers la partie narrative.","Référence vers la partie narrative.","","","","","","","","","",,,,,"",,,,"fr-mesure-de-refraction.reference",1,1,"",""
+"fr-mesure-de-refraction.statusCode","fr-mesure-de-refraction.statusCode","","","",1,1,"","","","string {[]} {[]}
+","Statut de l'entrée.","Statut de l'entrée.","","","","","","","","","",,,,,"",,,,"fr-mesure-de-refraction.statusCode",1,1,"",""
+"fr-mesure-de-refraction.effectiveTime","fr-mesure-de-refraction.effectiveTime","","","",1,1,"","","","string {[]} {[]}
+","Date et heure de la mesure.
+                          Si la date et l'heure sont inconnus, utiliser l'attribut nullFlavor=""UNK"".","Date et heure de la mesure.
+                          Si la date et l'heure sont inconnus, utiliser l'attribut nullFlavor=""UNK"".","","","","","","","","","",,,,,"",,,,"fr-mesure-de-refraction.effectiveTime",1,1,"",""
+"fr-mesure-de-refraction.value","fr-mesure-de-refraction.value","","","",1,1,"","","","string {[]} {[]}
+","Valeur de la mesure.","Valeur de la mesure.","","","","","","","","","",,,,,"",,,,"fr-mesure-de-refraction.value",1,1,"",""
+"fr-mesure-de-refraction.methodCode","fr-mesure-de-refraction.methodCode","","","",1,1,"","","","string {[]} {[]}
+","Méthode utilisée pour la mesure.","Méthode utilisée pour la mesure.","","","","","","","","","",,,,,"",,,,"fr-mesure-de-refraction.methodCode",1,1,"",""
+"fr-mesure-de-refraction.targetSiteCode","fr-mesure-de-refraction.targetSiteCode","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Localisation","Localisation","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-oeil-examine-cisis|20251028115832","",,,,"fr-mesure-de-refraction.targetSiteCode",1,1,"",""
+"fr-mesure-de-refraction.author","fr-mesure-de-refraction.author","","","",0,1,"","","","string {[]} {[]}
+","Auteur.","Auteur.","","","","","","","","","",,,,,"",,,,"fr-mesure-de-refraction.author",0,1,"",""

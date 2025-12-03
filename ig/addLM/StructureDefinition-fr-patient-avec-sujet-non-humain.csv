@@ -1,0 +1,20 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"fr-patient-avec-sujet-non-humain","fr-patient-avec-sujet-non-humain","","","",0,*,"","","","null {[]} {[]}
+","FR-Patient-avec-sujet-non-humain","Cet élément doit être présent lorsque le sujet des observations de cette partie du compte rendu est un échantillon provenant d'un sujet non humain (animal ou autre élément environnemental), tandis que les autres parties du rapport sont liés au patient humain.                                         ...","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"fr-patient-avec-sujet-non-humain.subject","fr-patient-avec-sujet-non-humain.subject","","","",0,1,"","","","string {[]} {[]}
+","Patient avec sujet non humain","Patient avec sujet non humain","","","","","","","","","",,,,,"",,,,"fr-patient-avec-sujet-non-humain.subject",0,1,"",""
+"fr-patient-avec-sujet-non-humain.relatedSubject","fr-patient-avec-sujet-non-humain.relatedSubject","","","",1,1,"","","","string {[]} {[]}
+","Sujet  (ex. poulet, poisson, œuf, salade, eau, terre, air, peinture, etc.).","Sujet  (ex. poulet, poisson, œuf, salade, eau, terre, air, peinture, etc.).","","","","","","","","","",,,,,"",,,,"fr-patient-avec-sujet-non-humain.relatedSubject",1,1,"",""
+"fr-patient-avec-sujet-non-humain.code","fr-patient-avec-sujet-non-humain.code","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Sujet  (ex. poulet, poisson, œuf, salade, eau, terre, air, peinture, etc.).","Sujet  (ex. poulet, poisson, œuf, salade, eau, terre, air, peinture, etc.).","","","","","","","","","",,,,,"",,,,"fr-patient-avec-sujet-non-humain.code",1,1,"",""
+"fr-patient-avec-sujet-non-humain.qualifier","fr-patient-avec-sujet-non-humain.qualifier","","","",0,*,"","","","string {[]} {[]}
+","Nom du sujet","Nom du sujet","","","","","","","","","",,,,,"",,,,"fr-patient-avec-sujet-non-humain.qualifier",0,*,"",""
+"fr-patient-avec-sujet-non-humain.name","fr-patient-avec-sujet-non-humain.name","","","",0,1,"","","","string {[]} {[]}
+","Nom du sujet","Nom du sujet","","","","","","","","","",,,,,"",,,,"fr-patient-avec-sujet-non-humain.name",0,1,"",""
+"fr-patient-avec-sujet-non-humain.value","fr-patient-avec-sujet-non-humain.value","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Terminologies: SNOMED CT","Type de sujet (aliment ou substance)
+                                    
+                                        
+                                   ...","","","","","","","","","",,,,,"",,,,"fr-patient-avec-sujet-non-humain.value",0,1,"",""
+"fr-patient-avec-sujet-non-humain.addr","fr-patient-avec-sujet-non-humain.addr","","","",1,1,"","","","Address {[]} {[]}
+","Lieu de provenance du sujet non humain","Lieu de provenance du sujet non humain","","","","","","","","","",,,,,"",,,,"fr-patient-avec-sujet-non-humain.addr",1,1,"",""

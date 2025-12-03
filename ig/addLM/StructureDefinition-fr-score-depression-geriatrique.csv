@@ -1,0 +1,28 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"fr-score-depression-geriatrique","fr-score-depression-geriatrique","","","",0,*,"","","","null {[]} {[]}
+","FR-Score-Depression-Geriatrique","IHE-PCC -  Geriatric Depression Score Observation                                                                Cette entrée permet d'enregistrer le score de la dépression gériatrique.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"fr-score-depression-geriatrique.observation","fr-score-depression-geriatrique.observation","","","",0,1,"","","","string {[]} {[]}
+","Entrée Score de la dépression gériatrique","Entrée Score de la dépression gériatrique","","","","","","","","","",,,,,"",,,,"fr-score-depression-geriatrique.observation",0,1,"",""
+"fr-score-depression-geriatrique.id","fr-score-depression-geriatrique.id","","","",1,1,"","","","Identifier {[]} {[]}
+","Identifiant de l'observation","Identifiant de l'observation","","","","","","","","","",,,,,"",,,,"fr-score-depression-geriatrique.id",1,1,"",""
+"fr-score-depression-geriatrique.code","fr-score-depression-geriatrique.code","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Code de l'observation","Code de l'observation","","","","","","","","","",,,,,"",,,,"fr-score-depression-geriatrique.code",1,1,"",""
+"fr-score-depression-geriatrique.text","fr-score-depression-geriatrique.text","","","",1,1,"","","","string {[]} {[]}
+","Description narrative de l'observation","Description narrative de l'observation","","","","","","","","","",,,,,"",,,,"fr-score-depression-geriatrique.text",1,1,"",""
+"fr-score-depression-geriatrique.reference","fr-score-depression-geriatrique.reference","","","",1,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-score-depression-geriatrique.reference",1,1,"",""
+"fr-score-depression-geriatrique.statusCode","fr-score-depression-geriatrique.statusCode","","","",1,1,"","","","code {[]} {[]}
+","Statut de l'observation","Statut de l'observation","","","","","","","","","",,,,,"",,,,"fr-score-depression-geriatrique.statusCode",1,1,"",""
+"fr-score-depression-geriatrique.effectiveTime","fr-score-depression-geriatrique.effectiveTime","","","",1,1,"","","","Period {[]} {[]}
+","Date de l'observation","Date de l'observation","","","","","","","","","",,,,,"",,,,"fr-score-depression-geriatrique.effectiveTime",1,1,"",""
+"fr-score-depression-geriatrique.repeatNumber","fr-score-depression-geriatrique.repeatNumber","","","",0,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-score-depression-geriatrique.repeatNumber",0,1,"",""
+"fr-score-depression-geriatrique.value","fr-score-depression-geriatrique.value","","","",1,1,"","","","integer {[]} {[]}
+","Valeur de l'observation","Valeur de l'observation","","","","","","","","","",,,,,"",,,,"fr-score-depression-geriatrique.value",1,1,"",""
+"fr-score-depression-geriatrique.interpretationCode","fr-score-depression-geriatrique.interpretationCode","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Terminologies: JDV_EvaluationDepressionGeriatriqueResultat_CISIS","Interprétation
+                          Si utilisation de la GDS30 : Valeur issue du JDV_EvaluationDepressionGeriatriqueResultat_CISIS","","","","","","","","","",,,,,"",,,,"fr-score-depression-geriatrique.interpretationCode",0,1,"",""
+"fr-score-depression-geriatrique.entryRelationship","fr-score-depression-geriatrique.entryRelationship","","","",0,*,"","","","string {[]} {[]}
+","Entrée Composant Score dépression gériatrique
+                         Si utilisation de la GDS 30, le résultat détaillé peut-être fourni dans les ent...","Entrée Composant Score dépression gériatrique
+                         Si utilisation de la GDS 30, le résultat détaillé peut-être fourni dans les ent...","","","","","","","","","",,,,,"",,,,"fr-score-depression-geriatrique.entryRelationship",0,*,"",""

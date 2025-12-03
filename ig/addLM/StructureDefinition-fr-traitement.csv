@@ -1,0 +1,63 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"fr-traitement","fr-traitement","","","",0,*,"","","","null {[]} {[]}
+","FR-Traitement","IHE-PCC - Medications                                                                 L'entrée ""Traitement"" est une entrée de type ""substanceAdministration"" décrivant les modalités d'administration d'un médicament au patient.                                                                    Elle pe...","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"fr-traitement.substanceAdministration","fr-traitement.substanceAdministration","","","",1,1,"","","","string {[]} {[]}
+","Entrée Traitement","Entrée Traitement","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-human-substance-administration-site-cisis|20251028115832","",,,,"fr-traitement.substanceAdministration",1,1,"",""
+"fr-traitement.id","fr-traitement.id","","","",1,*,"","","","Identifier {[]} {[]}
+","Identifiant de l'entrée 
+                            L'entrée Traitement doit être identifiée de manière unique.","Identifiant de l'entrée 
+                            L'entrée Traitement doit être identifiée de manière unique.","","","","","","","","","",,,,,"",,,,"fr-traitement.id",1,*,"",""
+"fr-traitement.code","fr-traitement.code","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Acte ou situation","Acte ou situation","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-absent-or-unknown-medication-cisis|20251028115832","",,,,"fr-traitement.code",0,1,"",""
+"fr-traitement.text","fr-traitement.text","","","",1,1,"","","","string {[]} {[]}
+","Partie narrative de l’entrée","Partie narrative de l’entrée","","","","","","","","","",,,,,"",,,,"fr-traitement.text",1,1,"",""
+"fr-traitement.reference","fr-traitement.reference","","","",1,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-traitement.reference",1,1,"",""
+"fr-traitement.statusCode","fr-traitement.statusCode","","","",1,1,"","","","code {[]} {[]}
+","Statut de l’entrée 
+                         Fixé à la valeur ""completed"" car l’administration a déjà été réalisée ou ordonnée","Statut de l’entrée 
+                         Fixé à la valeur ""completed"" car l’administration a déjà été réalisée ou ordonnée","","","","","","","","","",,,,,"",,,,"fr-traitement.statusCode",1,1,"",""
+"fr-traitement.low","fr-traitement.low","","","",0,1,"","","","dateTime {[]} {[]}
+","Date de début du traitement 
+                                Si la date de début du traitement n'est pas connue, utiliser nullFlavor=""UNK"".","Date de début du traitement 
+                                Si la date de début du traitement n'est pas connue, utiliser nullFlavor=""UNK"".","","","","","","","","","",,,,,"",,,,"fr-traitement.low",0,1,"",""
+"fr-traitement.high","fr-traitement.high","","","",0,1,"","","","dateTime {[]} {[]}
+","Date de fin du traitement 
+                                Si la date de fin du traitement n'est pas connue, utiliser l'élément nullFlavor=""UNK"".    L...","Date de fin du traitement 
+                                Si la date de fin du traitement n'est pas connue, utiliser l'élément nullFlavor=""UNK"".    L...","","","","","","","","","",,,,,"",,,,"fr-traitement.high",0,1,"",""
+"fr-traitement.width","fr-traitement.width","","","",0,1,"","","","string {[]} {[]}
+","Terminologies: JDV_HL7_TimingEvent_CISIS","OIDs: 2.16.840.1.113883.5.139","","","","","","","","","",,,,,"",,,,"fr-traitement.width",0,1,"",""
+"fr-traitement.routeCode","fr-traitement.routeCode","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Voie d'administration 
+                              Si la voie d'administration est connue, elle doit être indiquée (code et displayName). Si elle n'...","Voie d'administration 
+                              Si la voie d'administration est connue, elle doit être indiquée (code et displayName). Si elle n'...","","","","","","","","","",,,,,"",,,,"fr-traitement.routeCode",0,1,"",""
+"fr-traitement.approachSiteCode","fr-traitement.approachSiteCode","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","Terminologies: SNOMED CT, JDV_HumanSubstanceAdministrationSite_CISIS","OIDs: 1.2.250.1.213.1.1.5.686","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-human-substance-administration-site-cisis|20251028115832","",,,,"fr-traitement.approachSiteCode",0,*,"",""
+"fr-traitement.originalText","fr-traitement.originalText","","","",0,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-traitement.originalText",0,1,"",""
+"fr-traitement.doseQuantity","fr-traitement.doseQuantity","","","",0,1,"","","","string {[]} {[]}
+","Dose à administrer 
+                            S'il n'y a pas de traitement, utiliser une valeur nullFlavor.    S'il y a un traitement, les sous-élém...","Dose à administrer 
+                            S'il n'y a pas de traitement, utiliser une valeur nullFlavor.    S'il y a un traitement, les sous-élém...","","","","","","","","","",,,,,"",,,,"fr-traitement.doseQuantity",0,1,"",""
+"fr-traitement.translation","fr-traitement.translation","","","",0,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-traitement.translation",0,1,"",""
+"fr-traitement.maxDoseQuantity","fr-traitement.maxDoseQuantity","","","",0,1,"","","","string {[]} {[]}
+","Dose maximale 
+                            La dose maximale à ""maxDoseQuantity"" permet d'indiquer la quantité maximale de produit à administrer par un...","Dose maximale 
+                            La dose maximale à ""maxDoseQuantity"" permet d'indiquer la quantité maximale de produit à administrer par un...","","","","","","","","","",,,,,"",,,,"fr-traitement.maxDoseQuantity",0,1,"",""
+"fr-traitement.numerator","fr-traitement.numerator","","","",1,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-traitement.numerator",1,1,"",""
+"fr-traitement.denominator","fr-traitement.denominator","","","",1,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-traitement.denominator",1,1,"",""
+"fr-traitement.consumable","fr-traitement.consumable","","","",1,1,"","","","string {[]} {[]}
+","Médicament","Médicament","","","","","","","","","",,,,,"",,,,"fr-traitement.consumable",1,1,"",""
+"fr-traitement.entryRelationship","fr-traitement.entryRelationship","","","",0,*,"","","","string {[]} {[]}
+","Prescription","Prescription","","","","","","","","","",,,,,"",,,,"fr-traitement.entryRelationship",0,*,"",""
+"fr-traitement.sequenceNumber","fr-traitement.sequenceNumber","","","",1,1,"","","","integer {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-traitement.sequenceNumber",1,1,"",""
+"fr-traitement.precondition","fr-traitement.precondition","","","",0,1,"","","","string {[]} {[]}
+","Précondition 
+                            Permet de décrire les conditions préalables à l'utilisation du médicament.    L'attribut @value de l'élément...","Précondition 
+                            Permet de décrire les conditions préalables à l'utilisation du médicament.    L'attribut @value de l'élément...","","","","","","","","","",,,,,"",,,,"fr-traitement.precondition",0,1,"",""
+"fr-traitement.criterion","fr-traitement.criterion","","","",1,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-traitement.criterion",1,1,"",""

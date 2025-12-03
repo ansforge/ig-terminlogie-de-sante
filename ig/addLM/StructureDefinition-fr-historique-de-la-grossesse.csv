@@ -1,0 +1,29 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"fr-historique-de-la-grossesse","fr-historique-de-la-grossesse","","","",0,*,"","","","null {[]} {[]}
+","FR-Historique-de-la-grossesse","IHE-PCC - Pregnancy History Organizer                  Cette entrée permet de regrouper les observations relatives à un épisode de grossesse.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"fr-historique-de-la-grossesse.organizer","fr-historique-de-la-grossesse.organizer","","","",0,1,"","","","string {[]} {[]}
+","Entrée Historique d'une grossesse","Entrée Historique d'une grossesse","","","","","","","","","",,,,,"",,,,"fr-historique-de-la-grossesse.organizer",0,1,"",""
+"fr-historique-de-la-grossesse.id","fr-historique-de-la-grossesse.id","","","",1,1,"","","","Identifier {[]} {[]}
+","Identifiant de l'entrée","Identifiant de l'entrée","","","","","","","","","",,,,,"",,,,"fr-historique-de-la-grossesse.id",1,1,"",""
+"fr-historique-de-la-grossesse.code","fr-historique-de-la-grossesse.code","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Code de l'entrée","Code de l'entrée","","","","","","","","","",,,,,"",,,,"fr-historique-de-la-grossesse.code",1,1,"",""
+"fr-historique-de-la-grossesse.statusCode","fr-historique-de-la-grossesse.statusCode","","","",1,1,"","","","code {[]} {[]}
+","Statut de l’entrée
+                        
+                        Fixé à la valeur ""completed""","Statut de l’entrée
+                        
+                        Fixé à la valeur ""completed""","","","","","","","","","",,,,,"",,,,"fr-historique-de-la-grossesse.statusCode",1,1,"",""
+"fr-historique-de-la-grossesse.effectiveTime","fr-historique-de-la-grossesse.effectiveTime","","","",1,1,"","","","Period {[]} {[]}
+","Période de la grossesse","Période de la grossesse","","","","","","","","","",,,,,"",,,,"fr-historique-de-la-grossesse.effectiveTime",1,1,"",""
+"fr-historique-de-la-grossesse.low","fr-historique-de-la-grossesse.low","","","",0,1,"","","","dateTime {[]} {[]}
+","Date de début de grossesse","Date de début de grossesse","","","","","","","","","",,,,,"",,,,"fr-historique-de-la-grossesse.low",0,1,"",""
+"fr-historique-de-la-grossesse.high","fr-historique-de-la-grossesse.high","","","",0,1,"","","","dateTime {[]} {[]}
+","Date de fin de grossesse","Date de fin de grossesse","","","","","","","","","",,,,,"",,,,"fr-historique-de-la-grossesse.high",0,1,"",""
+"fr-historique-de-la-grossesse.component","fr-historique-de-la-grossesse.component","","","",0,*,"","","","string {[]} {[]}
+","Informations relatives aux naissances
+                            
+                            Chaque entrée FR-Naissance, de type Organizer, rassembl...","Informations relatives aux naissances
+                            
+                            Chaque entrée FR-Naissance, de type Organizer, rassembl...","","","","","","","","","",,,,,"",,,,"fr-historique-de-la-grossesse.component",0,*,"",""
+"fr-historique-de-la-grossesse.sequenceNumber","fr-historique-de-la-grossesse.sequenceNumber","","","",1,1,"","","","integer {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-historique-de-la-grossesse.sequenceNumber",1,1,"",""

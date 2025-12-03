@@ -1,0 +1,21 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"fr-reference-conseil-dispensateur","fr-reference-conseil-dispensateur","","","",0,*,"","","","null {[]} {[]}
+","FR-Reference-conseil-dispensateur","IHE-PRE - Reference-Pharmaceutical-Advice","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"fr-reference-conseil-dispensateur.observation","fr-reference-conseil-dispensateur.observation","","","",1,1,"","","","string {[]} {[]}
+","Entrée Référence conseil dispensateur","Entrée Référence conseil dispensateur","","","","","","","","","",,,,,"",,,,"fr-reference-conseil-dispensateur.observation",1,1,"",""
+"fr-reference-conseil-dispensateur.id","fr-reference-conseil-dispensateur.id","","","",1,1,"","","","Identifier {[]} {[]}
+","Identifiant de l'entrée","Identifiant de l'entrée","","","","","","","","","",,,,,"",,,,"fr-reference-conseil-dispensateur.id",1,1,"",""
+"fr-reference-conseil-dispensateur.code","fr-reference-conseil-dispensateur.code","","","",1,1,"","","","code {[]} {[]}
+","Code de l’entrée","Code de l’entrée","","","","","","","","","",,,,,"",,,,"fr-reference-conseil-dispensateur.code",1,1,"",""
+"fr-reference-conseil-dispensateur.consumable","fr-reference-conseil-dispensateur.consumable","","","",1,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-reference-conseil-dispensateur.consumable",1,1,"",""
+"fr-reference-conseil-dispensateur.manufacturedProduct","fr-reference-conseil-dispensateur.manufacturedProduct","","","",1,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-reference-conseil-dispensateur.manufacturedProduct",1,1,"",""
+"fr-reference-conseil-dispensateur.manufacturedMaterial","fr-reference-conseil-dispensateur.manufacturedMaterial","","","",1,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-reference-conseil-dispensateur.manufacturedMaterial",1,1,"",""
+"fr-reference-conseil-dispensateur.entryRelationship","fr-reference-conseil-dispensateur.entryRelationship","","","",0,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-reference-conseil-dispensateur.entryRelationship",0,1,"",""
+"fr-reference-conseil-dispensateur.reference","fr-reference-conseil-dispensateur.reference","","","",0,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-reference-conseil-dispensateur.reference",0,1,"",""
+"fr-reference-conseil-dispensateur.externalDocument","fr-reference-conseil-dispensateur.externalDocument","","","",1,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-reference-conseil-dispensateur.externalDocument",1,1,"",""

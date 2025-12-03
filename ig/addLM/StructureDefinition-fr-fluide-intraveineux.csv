@@ -1,0 +1,45 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"fr-fluide-intraveineux","fr-fluide-intraveineux","","","",0,*,"","","","null {[]} {[]}
+","FR-Fluide-intraveineux","IHE-PCC - Intravenous Fluids                 L'entrée Fluide intraveineux est une entrée de type ""substanceAdministration"" permettant de décrire la structure générale des fluides intraveineux.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"fr-fluide-intraveineux.substanceAdministration","fr-fluide-intraveineux.substanceAdministration","","","",0,1,"","","","string {[]} {[]}
+","Entrée Fluide intraveineux
+                      Si l'injection a été réalisée :  - moodCode='EVN'  - negationInd='false'  Si l'injection n'a pas été ...","Entrée Fluide intraveineux
+                      Si l'injection a été réalisée :  - moodCode='EVN'  - negationInd='false'  Si l'injection n'a pas été ...","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-human-substance-administration-site-cisis|20251028115832","",,,,"fr-fluide-intraveineux.substanceAdministration",0,1,"",""
+"fr-fluide-intraveineux.id","fr-fluide-intraveineux.id","","","",1,1,"","","","Identifier {[]} {[]}
+","Identifiant de l’entrée
+                             
+                        
+                        Sous la forme UID (UUID ou OID) Attribué par le...","Identifiant de l’entrée
+                             
+                        
+                        Sous la forme UID (UUID ou OID) Attribué par le...","","","","","","","","","",,,,,"",,,,"fr-fluide-intraveineux.id",1,1,"",""
+"fr-fluide-intraveineux.code","fr-fluide-intraveineux.code","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Mode d'administration","Mode d'administration","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-traitement-iv-cisis|20251028115835","",,,,"fr-fluide-intraveineux.code",1,1,"",""
+"fr-fluide-intraveineux.text","fr-fluide-intraveineux.text","","","",0,1,"","","","string {[]} {[]}
+","Description narrative","Description narrative","","","","","","","","","",,,,,"",,,,"fr-fluide-intraveineux.text",0,1,"",""
+"fr-fluide-intraveineux.reference","fr-fluide-intraveineux.reference","","","",1,1,"","","","string {[]} {[]}
+","Réference à l’élément narratif de la section","Réference à l’élément narratif de la section","","","","","","","","","",,,,,"",,,,"fr-fluide-intraveineux.reference",1,1,"",""
+"fr-fluide-intraveineux.statusCode","fr-fluide-intraveineux.statusCode","","","",1,1,"","","","code {[]} {[]}
+","Statut de l'entrée","Statut de l'entrée","","","","","","","","","",,,,,"",,,,"fr-fluide-intraveineux.statusCode",1,1,"",""
+"fr-fluide-intraveineux.low","fr-fluide-intraveineux.low","","","",1,1,"","","","dateTime {[]} {[]}
+","Date de début de l'administration","Date de début de l'administration","","","","","","","","","",,,,,"",,,,"fr-fluide-intraveineux.low",1,1,"",""
+"fr-fluide-intraveineux.high","fr-fluide-intraveineux.high","","","",1,1,"","","","dateTime {[]} {[]}
+","Date de fin de l'administration","Date de fin de l'administration","","","","","","","","","",,,,,"",,,,"fr-fluide-intraveineux.high",1,1,"",""
+"fr-fluide-intraveineux.routeCode","fr-fluide-intraveineux.routeCode","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Voie d'administration","Voie d'administration","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-fluide-route-code-cisis|20251028115832","",,,,"fr-fluide-intraveineux.routeCode",0,1,"",""
+"fr-fluide-intraveineux.approachSiteCode","fr-fluide-intraveineux.approachSiteCode","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","Terminologies: SNOMED CT","OIDs: 2.16.840.1.113883.6.96","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-human-substance-administration-site-cisis|20251028115832","",,,,"fr-fluide-intraveineux.approachSiteCode",0,*,"",""
+"fr-fluide-intraveineux.doseQuantity","fr-fluide-intraveineux.doseQuantity","","","",0,1,"","","","string {[]} {[]}
+","Dose","Dose","","","","","","","","","",,,,,"",,,,"fr-fluide-intraveineux.doseQuantity",0,1,"",""
+"fr-fluide-intraveineux.translation","fr-fluide-intraveineux.translation","","","",0,*,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-fluide-intraveineux.translation",0,*,"",""
+"fr-fluide-intraveineux.originalText","fr-fluide-intraveineux.originalText","","","",0,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-fluide-intraveineux.originalText",0,1,"",""
+"fr-fluide-intraveineux.rateQuantity","fr-fluide-intraveineux.rateQuantity","","","",0,1,"","","","string {[]} {[]}
+","Rythme d'administration
+                          Le rythme d'administration permet d'indiquer la quantité de produit à administrer par unité de temps...","Rythme d'administration
+                          Le rythme d'administration permet d'indiquer la quantité de produit à administrer par unité de temps...","","","","","","","","","",,,,,"",,,,"fr-fluide-intraveineux.rateQuantity",0,1,"",""
+"fr-fluide-intraveineux.consumable","fr-fluide-intraveineux.consumable","","","",1,1,"","","","string {[]} {[]}
+","Produit","Produit","","","","","","","","","",,,,,"",,,,"fr-fluide-intraveineux.consumable",1,1,"",""
+"fr-fluide-intraveineux.entryRelationship","fr-fluide-intraveineux.entryRelationship","","","",0,*,"","","","string {[]} {[]}
+","Réaction observée","Réaction observée","","","","","","","","","",,,,,"",,,,"fr-fluide-intraveineux.entryRelationship",0,*,"",""

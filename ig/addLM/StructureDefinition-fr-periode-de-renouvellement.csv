@@ -1,0 +1,15 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"fr-periode-de-renouvellement","fr-periode-de-renouvellement","","","",0,*,"","","","null {[]} {[]}
+","FR-Periode-de-renouvellement","IHE-PRE - Renewal Period                                                               Cette observation permet d'indiquer la période de renouvellement.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"fr-periode-de-renouvellement.supply","fr-periode-de-renouvellement.supply","","","",0,1,"","","","string {[]} {[]}
+","Entrée Période de renouvellement de la prescription","Entrée Période de renouvellement de la prescription","","","","","","","","","",,,,,"",,,,"fr-periode-de-renouvellement.supply",0,1,"",""
+"fr-periode-de-renouvellement.effectiveTime","fr-periode-de-renouvellement.effectiveTime","","","",1,1,"","","","Period {[]} {[]}
+","Période de renouvellement
+                          - Si la période de renouvellement est définie à partir d'une date précise, utiliser les éléments <...","Période de renouvellement
+                          - Si la période de renouvellement est définie à partir d'une date précise, utiliser les éléments <...","","","","","","","","","",,,,,"",,,,"fr-periode-de-renouvellement.effectiveTime",1,1,"",""
+"fr-periode-de-renouvellement.low","fr-periode-de-renouvellement.low","","","",0,1,"","","","dateTime {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-periode-de-renouvellement.low",0,1,"",""
+"fr-periode-de-renouvellement.high","fr-periode-de-renouvellement.high","","","",0,1,"","","","dateTime {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-periode-de-renouvellement.high",0,1,"",""
+"fr-periode-de-renouvellement.width","fr-periode-de-renouvellement.width","","","",0,1,"","","","Quantity {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-periode-de-renouvellement.width",0,1,"",""

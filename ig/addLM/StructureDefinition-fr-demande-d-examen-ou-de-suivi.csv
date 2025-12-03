@@ -1,0 +1,29 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"fr-demande-d-examen-ou-de-suivi","fr-demande-d-examen-ou-de-suivi","","","",0,*,"","","","null {[]} {[]}
+","FR-Demande-d-examen-ou-de-suivi","IHE-PCC - Observation Request                                                                L'entrée Demande d'examen / de suivi est une observation qui permet de porter des demandes d'examens (analyses biologiques, évaluations, étude d'imagerie, etc…) ou de suivis particuliers à programmer dans le...","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"fr-demande-d-examen-ou-de-suivi.observation","fr-demande-d-examen-ou-de-suivi.observation","","","",0,1,"","","","string {[]} {[]}
+","Entrée Demande d'examen ou de suivi / Objectif à atteindre","Entrée Demande d'examen ou de suivi / Objectif à atteindre","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationInterpretation-cisis|20251028115834","",,,,"fr-demande-d-examen-ou-de-suivi.observation",0,1,"",""
+"fr-demande-d-examen-ou-de-suivi.id","fr-demande-d-examen-ou-de-suivi.id","","","",1,1,"","","","Identifier {[]} {[]}
+","Identifiant de l'entrée","Identifiant de l'entrée","","","","","","","","","",,,,,"",,,,"fr-demande-d-examen-ou-de-suivi.id",1,1,"",""
+"fr-demande-d-examen-ou-de-suivi.code","fr-demande-d-examen-ou-de-suivi.code","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Type de la demande
+                        
+                         Si aucun code n'est trouvé dans des terminologies existantes, utiliser le code : ...","Type de la demande
+                        
+                         Si aucun code n'est trouvé dans des terminologies existantes, utiliser le code : ...","","","","","","","","","",,,,,"",,,,"fr-demande-d-examen-ou-de-suivi.code",1,1,"",""
+"fr-demande-d-examen-ou-de-suivi.text","fr-demande-d-examen-ou-de-suivi.text","","","",1,1,"","","","string {[]} {[]}
+","Description narrative","Description narrative","","","","","","","","","",,,,,"",,,,"fr-demande-d-examen-ou-de-suivi.text",1,1,"",""
+"fr-demande-d-examen-ou-de-suivi.reference","fr-demande-d-examen-ou-de-suivi.reference","","","",1,1,"","","","string {[]} {[]}
+","Référence à la partie narrative de la section","Référence à la partie narrative de la section","","","","","","","","","",,,,,"",,,,"fr-demande-d-examen-ou-de-suivi.reference",1,1,"",""
+"fr-demande-d-examen-ou-de-suivi.statusCode","fr-demande-d-examen-ou-de-suivi.statusCode","","","",1,1,"","","","code {[]} {[]}
+","Statut de la demande","Statut de la demande","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActStatus-cisis|20251028115833","",,,,"fr-demande-d-examen-ou-de-suivi.statusCode",1,1,"",""
+"fr-demande-d-examen-ou-de-suivi.effectiveTime","fr-demande-d-examen-ou-de-suivi.effectiveTime","","","",1,1,"","","","Period {[]} {[]}
+","Date prévisionnelle de l'examen, du suivi, de l'objectif","Date prévisionnelle de l'examen, du suivi, de l'objectif","","","","","","","","","",,,,,"",,,,"fr-demande-d-examen-ou-de-suivi.effectiveTime",1,1,"",""
+"fr-demande-d-examen-ou-de-suivi.value","fr-demande-d-examen-ou-de-suivi.value","","","",0,1,"","","","string {[]} {[]}
+","Résultat de la demande","Résultat de la demande","","","","","","","","","",,,,,"",,,,"fr-demande-d-examen-ou-de-suivi.value",0,1,"",""
+"fr-demande-d-examen-ou-de-suivi.interpretationCode","fr-demande-d-examen-ou-de-suivi.interpretationCode","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Interprétation","Interprétation","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationInterpretation-cisis|20251028115834","",,,,"fr-demande-d-examen-ou-de-suivi.interpretationCode",0,1,"",""
+"fr-demande-d-examen-ou-de-suivi.methodCode","fr-demande-d-examen-ou-de-suivi.methodCode","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Méthode","Méthode","","","","","","","","","",,,,,"",,,,"fr-demande-d-examen-ou-de-suivi.methodCode",0,1,"",""
+"fr-demande-d-examen-ou-de-suivi.targetSiteCode","fr-demande-d-examen-ou-de-suivi.targetSiteCode","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","Cible","Cible","","","","","","","","","",,,,,"",,,,"fr-demande-d-examen-ou-de-suivi.targetSiteCode",0,*,"",""

@@ -1,0 +1,75 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"fr-item-plan-traitement","fr-item-plan-traitement","","","",0,*,"","","","null {[]} {[]}
+","FR-Item-plan-traitement","IHE-MTP Medication Treatment Plan Item                 Cette entrée permet de fournir une copie du plan de traitement médicamenteux.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"fr-item-plan-traitement.substanceAdministration","fr-item-plan-traitement.substanceAdministration","","","",1,1,"","","","string {[]} {[]}
+","Entrée Item d'un plan de traitement
+                      Ligne d'un plan de traitement.","Entrée Item d'un plan de traitement
+                      Ligne d'un plan de traitement.","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-human-substance-administration-site-cisis|20251028115832","",,,,"fr-item-plan-traitement.substanceAdministration",1,1,"",""
+"fr-item-plan-traitement.id","fr-item-plan-traitement.id","","","",1,1,"","","","Identifier {[]} {[]}
+","Identifiant de l'entrée","Identifiant de l'entrée","","","","","","","","","",,,,,"",,,,"fr-item-plan-traitement.id",1,1,"",""
+"fr-item-plan-traitement.code","fr-item-plan-traitement.code","","","",0,1,"","","","string {[]} {[]}
+","Code de l'entrée","Code de l'entrée","","","","","","","","","",,,,,"",,,,"fr-item-plan-traitement.code",0,1,"",""
+"fr-item-plan-traitement.text","fr-item-plan-traitement.text","","","",1,1,"","","","string {[]} {[]}
+","Partie narrative de l’entrée","Partie narrative de l’entrée","","","","","","","","","",,,,,"",,,,"fr-item-plan-traitement.text",1,1,"",""
+"fr-item-plan-traitement.reference","fr-item-plan-traitement.reference","","","",1,1,"","","","string {[]} {[]}
+","Référence à l'élément narratif de la section
+                              Référence à la posologie, aux précautions d'utilisation liées au médicament...","Référence à l'élément narratif de la section
+                              Référence à la posologie, aux précautions d'utilisation liées au médicament...","","","","","","","","","",,,,,"",,,,"fr-item-plan-traitement.reference",1,1,"",""
+"fr-item-plan-traitement.statusCode","fr-item-plan-traitement.statusCode","","","",1,1,"","","","string {[]} {[]}
+","Statut de l’entrée","Statut de l’entrée","","","","","","","","","",,,,,"",,,,"fr-item-plan-traitement.statusCode",1,1,"",""
+"fr-item-plan-traitement.effectiveTime","fr-item-plan-traitement.effectiveTime","","","",0,1,"","","","Period {[]} {[]}
+","Durée du traitement
+                         
+                        Dans le cas où la posologie n'est pas structurée et décrite uniquement dans la p...","Durée du traitement
+                         
+                        Dans le cas où la posologie n'est pas structurée et décrite uniquement dans la p...","","","","","","","","","",,,,,"",,,,"fr-item-plan-traitement.effectiveTime",0,1,"",""
+"fr-item-plan-traitement.low","fr-item-plan-traitement.low","","","",1,1,"","","","dateTime {[]} {[]}
+","Date de début du traitement
+                              Si la date de début du traitement n'est pas connue, utiliser nullFlavor=""UNK"".","Date de début du traitement
+                              Si la date de début du traitement n'est pas connue, utiliser nullFlavor=""UNK"".","","","","","","","","","",,,,,"",,,,"fr-item-plan-traitement.low",1,1,"",""
+"fr-item-plan-traitement.high","fr-item-plan-traitement.high","","","",1,1,"","","","dateTime {[]} {[]}
+","Date de fin du traitement
+                              Si la date de fin du traitement n'est pas connue, utiliser l'élément nullFlavor=""UNK"".  La val...","Date de fin du traitement
+                              Si la date de fin du traitement n'est pas connue, utiliser l'élément nullFlavor=""UNK"".  La val...","","","","","","","","","",,,,,"",,,,"fr-item-plan-traitement.high",1,1,"",""
+"fr-item-plan-traitement.routeCode","fr-item-plan-traitement.routeCode","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Voie d'administration
+                          - Si la voie d'administration est connue, elle doit être indiquée (code et displayName).  - Si elle n'...","Voie d'administration
+                          - Si la voie d'administration est connue, elle doit être indiquée (code et displayName).  - Si elle n'...","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-route-of-administration-cisis|20251028115833","",,,,"fr-item-plan-traitement.routeCode",0,1,"",""
+"fr-item-plan-traitement.approachSiteCode","fr-item-plan-traitement.approachSiteCode","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","région anatomique d'administration","région anatomique d'administration","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-human-substance-administration-site-cisis|20251028115832","",,,,"fr-item-plan-traitement.approachSiteCode",0,*,"",""
+"fr-item-plan-traitement.originalText","fr-item-plan-traitement.originalText","","","",0,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-item-plan-traitement.originalText",0,1,"",""
+"fr-item-plan-traitement.doseQuantity","fr-item-plan-traitement.doseQuantity","","","",0,1,"","","","string {[]} {[]}
+","Dose à administrer
+                         
+                        Dans le cas où la posologie n'est pas structurée et décrite uniquement dans la pa...","Dose à administrer
+                         
+                        Dans le cas où la posologie n'est pas structurée et décrite uniquement dans la pa...","","","","","","","","","",,,,,"",,,,"fr-item-plan-traitement.doseQuantity",0,1,"",""
+"fr-item-plan-traitement.rateQuantity","fr-item-plan-traitement.rateQuantity","","","",0,1,"","","","string {[]} {[]}
+","Rythme d'administration
+                         
+                        Dans le cas où la posologie n'est pas structurée et décrite uniquement dans ...","Rythme d'administration
+                         
+                        Dans le cas où la posologie n'est pas structurée et décrite uniquement dans ...","","","","","","","","","",,,,,"",,,,"fr-item-plan-traitement.rateQuantity",0,1,"",""
+"fr-item-plan-traitement.maxDoseQuantity","fr-item-plan-traitement.maxDoseQuantity","","","",0,*,"","","","string {[]} {[]}
+","Dose maximale
+                          La dose maximale à ""maxDoseQuantity"" permet d'indiquer la quantité maximale de produit à administrer par unité...","Dose maximale
+                          La dose maximale à ""maxDoseQuantity"" permet d'indiquer la quantité maximale de produit à administrer par unité...","","","","","","","","","",,,,,"",,,,"fr-item-plan-traitement.maxDoseQuantity",0,*,"",""
+"fr-item-plan-traitement.numerator","fr-item-plan-traitement.numerator","","","",1,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-item-plan-traitement.numerator",1,1,"",""
+"fr-item-plan-traitement.denominator","fr-item-plan-traitement.denominator","","","",1,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-item-plan-traitement.denominator",1,1,"",""
+"fr-item-plan-traitement.consumable","fr-item-plan-traitement.consumable","","","",1,1,"","","","string {[]} {[]}
+","Entrée Produit de santé","Entrée Produit de santé","","","","","","","","","",,,,,"",,,,"fr-item-plan-traitement.consumable",1,1,"",""
+"fr-item-plan-traitement.entryRelationship","fr-item-plan-traitement.entryRelationship","","","",0,*,"","","","string {[]} {[]}
+","Entrée Motif du traitement (Référence interne)
+                          Le motif du traitement (ou raison de l'administration) peut être indiqué en f...","Entrée Motif du traitement (Référence interne)
+                          Le motif du traitement (ou raison de l'administration) peut être indiqué en f...","","","","","","","","","",,,,,"",,,,"fr-item-plan-traitement.entryRelationship",0,*,"",""
+"fr-item-plan-traitement.externalDocument","fr-item-plan-traitement.externalDocument","","","",1,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-item-plan-traitement.externalDocument",1,1,"",""
+"fr-item-plan-traitement.precondition","fr-item-plan-traitement.precondition","","","",0,1,"","","","string {[]} {[]}
+","Précondition à l'utilisation du médicament
+                          Permet de décrire les conditions préalables à l'utilisation du médicament.  L'att...","Précondition à l'utilisation du médicament
+                          Permet de décrire les conditions préalables à l'utilisation du médicament.  L'att...","","","","","","","","","",,,,,"",,,,"fr-item-plan-traitement.precondition",0,1,"",""
+"fr-item-plan-traitement.criterion","fr-item-plan-traitement.criterion","","","",1,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-item-plan-traitement.criterion",1,1,"",""

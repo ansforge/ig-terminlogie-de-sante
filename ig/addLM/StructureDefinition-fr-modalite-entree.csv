@@ -1,0 +1,19 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"fr-modalite-entree","fr-modalite-entree","","","",0,*,"","","","null {[]} {[]}
+","FR-Modalite-entree","Cette entrée permet d'indiquer la modalité d'entrée d'un patient en ES (urgence, programmée, etc...).","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"fr-modalite-entree.observation","fr-modalite-entree.observation","","","",0,1,"","","","string {[]} {[]}
+","Entrée Modalité d'entrée","Entrée Modalité d'entrée","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modalite-entree-cisis|20250624152100","",,,,"fr-modalite-entree.observation",0,1,"",""
+"fr-modalite-entree.id","fr-modalite-entree.id","","","",1,1,"","","","Identifier {[]} {[]}
+","Identifiant de l'observation","Identifiant de l'observation","","","","","","","","","",,,,,"",,,,"fr-modalite-entree.id",1,1,"",""
+"fr-modalite-entree.code","fr-modalite-entree.code","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Code de l'observation","Code de l'observation","","","","","","","","","",,,,,"",,,,"fr-modalite-entree.code",1,1,"",""
+"fr-modalite-entree.text","fr-modalite-entree.text","","","",1,1,"","","","string {[]} {[]}
+","Description narrative de l'observation.","Description narrative de l'observation.","","","","","","","","","",,,,,"",,,,"fr-modalite-entree.text",1,1,"",""
+"fr-modalite-entree.reference","fr-modalite-entree.reference","","","",1,1,"","","","string {[]} {[]}
+","Référence à la partie narrative de la section qui contiend la modalité d'entrée sous forme textuelle si la réponse est ""autre"".","Référence à la partie narrative de la section qui contiend la modalité d'entrée sous forme textuelle si la réponse est ""autre"".","","","","","","","","","",,,,,"",,,,"fr-modalite-entree.reference",1,1,"",""
+"fr-modalite-entree.statusCode","fr-modalite-entree.statusCode","","","",1,1,"","","","code {[]} {[]}
+","Statut de l'entrée","Statut de l'entrée","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActStatus-cisis|20251028115833","",,,,"fr-modalite-entree.statusCode",1,1,"",""
+"fr-modalite-entree.effectiveTime","fr-modalite-entree.effectiveTime","","","",1,1,"","","","Period {[]} {[]}
+","Date de l'entrée","Date de l'entrée","","","","","","","","","",,,,,"",,,,"fr-modalite-entree.effectiveTime",1,1,"",""
+"fr-modalite-entree.value","fr-modalite-entree.value","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Modalité d'entrée","Modalité d'entrée","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modalite-entree-cisis|20250624152100","",,,,"fr-modalite-entree.value",1,1,"",""

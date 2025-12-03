@@ -1,0 +1,9 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"fr-informant-apsr","fr-informant-apsr","","","",0,*,"","","","null {[]} {[]}
+","FR-Informant-APSR","Informant permet de fournir le nom et les coordonnées :                                                                d'une personne ayant fourni des informations concernant le document (rôle d'informateur); ce peut être un PS/un ES/le patient lui-même/une autre personne non PS ;                   ...","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"fr-informant-apsr.informant","fr-informant-apsr.informant","","","",0,*,"","","","string {[]} {[]}
+","Informateur, Personne de confiance, Personne à prévenir en cas d'urgence,
+                     aidant(s) du patient, personne(s) aidée(s). 
+          ...","Informateur, Personne de confiance, Personne à prévenir en cas d'urgence,
+                     aidant(s) du patient, personne(s) aidée(s). 
+          ...","","","","","","","","","",,,,,"",,,,"fr-informant-apsr.informant",0,*,"",""

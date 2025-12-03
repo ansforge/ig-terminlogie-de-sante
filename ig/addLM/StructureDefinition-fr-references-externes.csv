@@ -1,0 +1,23 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"fr-references-externes","fr-references-externes","","","",0,*,"","","","null {[]} {[]}
+","FR-References-externes","IHE-PCC - External-References                                                               Cette entrée de type act permet de relier un élément à un (ou des) document(s) externe(s) par l’intermédiaire d’une adresse URL.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"fr-references-externes.act","fr-references-externes.act","","","",0,1,"","","","string {[]} {[]}
+","Entrée Références externes","Entrée Références externes","","","","","","","","","",,,,,"",,,,"fr-references-externes.act",0,1,"",""
+"fr-references-externes.id","fr-references-externes.id","","","",1,1,"","","","Identifier {[]} {[]}
+","Identifiant de la ligne de prescription","Identifiant de la ligne de prescription","","","","","","","","","",,,,,"",,,,"fr-references-externes.id",1,1,"",""
+"fr-references-externes.code","fr-references-externes.code","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Code de l'entrée
+                        
+                        Fixé à nullFlavor=""NA""","Code de l'entrée
+                        
+                        Fixé à nullFlavor=""NA""","","","","","","","","","",,,,,"",,,,"fr-references-externes.code",1,1,"",""
+"fr-references-externes.text","fr-references-externes.text","","","",1,1,"","","","string {[]} {[]}
+","Partie narrative de l’entrée
+                        
+                        Peut faire référence à la partie narrative de la section","Partie narrative de l’entrée
+                        
+                        Peut faire référence à la partie narrative de la section","","","","","","","","","",,,,,"",,,,"fr-references-externes.text",1,1,"",""
+"fr-references-externes.reference","fr-references-externes.reference","","","",1,*,"","","","string {[]} {[]}
+","Document référencé","Document référencé","","","","","","","","","",,,,,"",,,,"fr-references-externes.reference",1,*,"",""
+"fr-references-externes.externalDocument","fr-references-externes.externalDocument","","","",1,1,"","","","string {[]} {[]}
+","Identifiant du document","Identifiant du document","","","","","","","","","",,,,,"",,,,"fr-references-externes.externalDocument",1,1,"",""

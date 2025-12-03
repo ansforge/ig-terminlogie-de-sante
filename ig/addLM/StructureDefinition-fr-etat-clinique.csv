@@ -1,0 +1,19 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"fr-etat-clinique","fr-etat-clinique","","","",0,*,"","","","null {[]} {[]}
+","FR-Etat-clinique","IHE-PCC - Concern entry                                                               L'entrée Etat clinique est une entrée ‘abstraite' de type act, décrivant un état clinique préoccupant sur laquelle des contraintes spécifiques peuvent être appliquées sur les éléments ou les vocabulaires pour const...","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"fr-etat-clinique.act","fr-etat-clinique.act","","","",0,1,"","","","string {[]} {[]}
+","Entrée Etat clinique","Entrée Etat clinique","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActStatus-cisis|20251028115833","",,,,"fr-etat-clinique.act",0,1,"",""
+"fr-etat-clinique.id","fr-etat-clinique.id","","","",1,1,"","","","Identifier {[]} {[]}
+","Identifiant de l'entrée","Identifiant de l'entrée","","","","","","","","","",,,,,"",,,,"fr-etat-clinique.id",1,1,"",""
+"fr-etat-clinique.code","fr-etat-clinique.code","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Code de l'entrée","Code de l'entrée","","","","","","","","","",,,,,"",,,,"fr-etat-clinique.code",1,1,"",""
+"fr-etat-clinique.statusCode","fr-etat-clinique.statusCode","","","",1,1,"","","","code {[]} {[]}
+","Statut de l'entrée","Statut de l'entrée","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActStatus-cisis|20251028115833","",,,,"fr-etat-clinique.statusCode",1,1,"",""
+"fr-etat-clinique.effectiveTime","fr-etat-clinique.effectiveTime","","","",1,1,"","","","Period {[]} {[]}
+","Horodatage de l'état clinique","Horodatage de l'état clinique","","","","","","","","","",,,,,"",,,,"fr-etat-clinique.effectiveTime",1,1,"",""
+"fr-etat-clinique.low","fr-etat-clinique.low","","","",1,1,"","","","dateTime {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-etat-clinique.low",1,1,"",""
+"fr-etat-clinique.high","fr-etat-clinique.high","","","",0,1,"","","","dateTime {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-etat-clinique.high",0,1,"",""
+"fr-etat-clinique.entryRelationship","fr-etat-clinique.entryRelationship","","","",1,*,"","","","string {[]} {[]}
+","Pathologie décrivant l'état clinique","Pathologie décrivant l'état clinique","","","","","","","","","",,,,,"",,,,"fr-etat-clinique.entryRelationship",1,*,"",""

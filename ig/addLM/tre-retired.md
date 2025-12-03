@@ -1,0 +1,20 @@
+# Terminologies (Retired) - Terminologies de Santé v1.4.0
+
+* [**Table of Contents**](toc.md)
+* [**Terminologies**](tre.md)
+* **Terminologies (Retired)**
+
+## Terminologies (Retired)
+
+Vous touverez ici la liste des terminologies à l'etat "retired".
+
+| | |
+| :--- | :--- |
+| Name | Description |
+| [TRE_R214_SpecialiteUnite](CodeSystem-TRE-R214-SpecialiteUnite.md) | Spécialité d'unité |
+| [TRE_R215_UniteTemps](CodeSystem-TRE-R215-UniteTemps.md) | Unité de temps |
+| [TRE_R232_TypeFermetureEJ](CodeSystem-TRE-R232-TypeFermetureEJ.md) | Type de fermeture de l'entité juridique FINESS |
+| [TRE_R233_TypeFermetureEG](CodeSystem-TRE-R233-TypeFermetureEG.md) | Type de fermeture de l'entité géographique FINESS |
+| [TRE_R35_TypeVoie](CodeSystem-TRE-R35-TypeVoie.md) | Type de voie |
+| [TRE_R46_SpecialiteConcoursHospitalier](CodeSystem-TRE-R46-SpecialiteConcoursHospitalier.md) | Spécialité de concours hospitalier |
+

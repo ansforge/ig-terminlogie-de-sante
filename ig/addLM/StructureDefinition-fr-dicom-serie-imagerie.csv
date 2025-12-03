@@ -1,0 +1,21 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"fr-dicom-serie-imagerie","fr-dicom-serie-imagerie","","","",0,*,"","","","null {[]} {[]}
+","FR-DICOM-Serie-imagerie","DICOM Part 20 - Series Act                 Cette entrée contient les informations de la série générique utilisée pour porter l’entrée FR-DICOM-SOP-instance-observation.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"fr-dicom-serie-imagerie.act","fr-dicom-serie-imagerie.act","","","",0,1,"","","","string {[]} {[]}
+","Entrée FR-DICOM-Serie-imagerie","Entrée FR-DICOM-Serie-imagerie","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modalite-acquisition-cisis|20251028115833","",,,,"fr-dicom-serie-imagerie.act",0,1,"",""
+"fr-dicom-serie-imagerie.id","fr-dicom-serie-imagerie.id","","","",1,*,"","","","Identifier {[]} {[]}
+","Identifiant de l'entrée","Identifiant de l'entrée","","","","","","","","","",,,,,"",,,,"fr-dicom-serie-imagerie.id",1,*,"",""
+"fr-dicom-serie-imagerie.code","fr-dicom-serie-imagerie.code","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Code de l'entrée","Code de l'entrée","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modalite-acquisition-cisis|20251028115833","",,,,"fr-dicom-serie-imagerie.code",1,1,"",""
+"fr-dicom-serie-imagerie.qualifier","fr-dicom-serie-imagerie.qualifier","","","",1,1,"","","","string {[]} {[]}
+","Terminologies: jdv-modalite-acquisition-cisis","OIDs: 1.2.250.1.213.1.1.5.618","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modalite-acquisition-cisis|20251028115833","",,,,"fr-dicom-serie-imagerie.qualifier",1,1,"",""
+"fr-dicom-serie-imagerie.name","fr-dicom-serie-imagerie.name","","","",1,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-dicom-serie-imagerie.name",1,1,"",""
+"fr-dicom-serie-imagerie.value","fr-dicom-serie-imagerie.value","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Terminologies: jdv-modalite-acquisition-cisis","OIDs: 1.2.250.1.213.1.1.5.618","","","","","","","","","",,"required","","https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modalite-acquisition-cisis|20251028115833","",,,,"fr-dicom-serie-imagerie.value",1,1,"",""
+"fr-dicom-serie-imagerie.text","fr-dicom-serie-imagerie.text","","","",0,1,"","","","string {[]} {[]}
+","Partie narrative de l'entrée","Partie narrative de l'entrée","","","","","","","","","",,,,,"",,,,"fr-dicom-serie-imagerie.text",0,1,"",""
+"fr-dicom-serie-imagerie.effectiveTime","fr-dicom-serie-imagerie.effectiveTime","","","",0,1,"","","","Period {[]} {[]}
+","Date de la série d'actes","Date de la série d'actes","","","","","","","","","",,,,,"",,,,"fr-dicom-serie-imagerie.effectiveTime",0,1,"",""
+"fr-dicom-serie-imagerie.entryRelationship","fr-dicom-serie-imagerie.entryRelationship","","","",1,1,"","","","string {[]} {[]}
+","","","","","","","","","","","",,,,,"",,,,"fr-dicom-serie-imagerie.entryRelationship",1,1,"",""

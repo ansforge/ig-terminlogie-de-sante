@@ -1,0 +1,21 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"fr-liste-des-mesures-keratometriques","fr-liste-des-mesures-keratometriques","","","",0,*,"","","","null {[]} {[]}
+","FR-Liste-des-mesures-keratometriques","IHE GEE - Organisateur de kératométrie                                                               Cette entrée permet d’enregistrer les mesures Keratometriques.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"fr-liste-des-mesures-keratometriques.organizer","fr-liste-des-mesures-keratometriques.organizer","","","",0,1,"","","","string {[]} {[]}
+","Entrée Liste des mesures keratometriques","Entrée Liste des mesures keratometriques","","","","","","","","","",,,,,"",,,,"fr-liste-des-mesures-keratometriques.organizer",0,1,"",""
+"fr-liste-des-mesures-keratometriques.id","fr-liste-des-mesures-keratometriques.id","","","",1,1,"","","","Identifier {[]} {[]}
+","Identifiant de l'entrée","Identifiant de l'entrée","","","","","","","","","",,,,,"",,,,"fr-liste-des-mesures-keratometriques.id",1,1,"",""
+"fr-liste-des-mesures-keratometriques.code","fr-liste-des-mesures-keratometriques.code","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Code de l'entrée","Code de l'entrée","","","","","","","","","",,,,,"",,,,"fr-liste-des-mesures-keratometriques.code",1,1,"",""
+"fr-liste-des-mesures-keratometriques.statusCode","fr-liste-des-mesures-keratometriques.statusCode","","","",1,1,"","","","string {[]} {[]}
+","Statut de l'entrée
+                        
+                        Fixé à la valeur ""completed""","Statut de l'entrée
+                        
+                        Fixé à la valeur ""completed""","","","","","","","","","",,,,,"",,,,"fr-liste-des-mesures-keratometriques.statusCode",1,1,"",""
+"fr-liste-des-mesures-keratometriques.effectiveTime","fr-liste-des-mesures-keratometriques.effectiveTime","","","",1,1,"","","","Period {[]} {[]}
+","Date et heure de la mesure","Date et heure de la mesure","","","","","","","","","",,,,,"",,,,"fr-liste-des-mesures-keratometriques.effectiveTime",1,1,"",""
+"fr-liste-des-mesures-keratometriques.author","fr-liste-des-mesures-keratometriques.author","","","",1,1,"","","","string {[]} {[]}
+","Auteur","Auteur","","","","","","","","","",,,,,"",,,,"fr-liste-des-mesures-keratometriques.author",1,1,"",""
+"fr-liste-des-mesures-keratometriques.component","fr-liste-des-mesures-keratometriques.component","","","",1,*,"","","","string {[]} {[]}
+","Entrée FR-Mesure-keratometrique","Entrée FR-Mesure-keratometrique","","","","","","","","","",,,,,"",,,,"fr-liste-des-mesures-keratometriques.component",1,*,"",""

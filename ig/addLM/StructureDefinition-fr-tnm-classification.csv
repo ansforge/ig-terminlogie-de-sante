@@ -1,0 +1,19 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"fr-tnm-classification","fr-tnm-classification","","","",0,*,"","","","null {[]} {[]}
+","FR-TNM-classification","IHE-APSR - TNM Grading                                 Cette entrée permet de classer les tumeurs dans le cadre de la formule de tumeur TNM de l'UICC/AJCC.                                  Les valeurs autorisées pour chaque site tumoral sont données par l'UICC.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"fr-tnm-classification.observation","fr-tnm-classification.observation","","","",0,1,"","","","string {[]} {[]}
+","Entrée TNM -classification","Entrée TNM -classification","","","","","","","","","",,,,,"",,,,"fr-tnm-classification.observation",0,1,"",""
+"fr-tnm-classification.id","fr-tnm-classification.id","","","",0,*,"","","","Identifier {[]} {[]}
+","Identifiant de l'observation","Identifiant de l'observation","","","","","","","","","",,,,,"",,,,"fr-tnm-classification.id",0,*,"",""
+"fr-tnm-classification.code","fr-tnm-classification.code","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Code de l'observation","Code de l'observation","","","","","","","","","",,,,,"",,,,"fr-tnm-classification.code",1,1,"",""
+"fr-tnm-classification.text","fr-tnm-classification.text","","","",0,1,"","","","string {[]} {[]}
+","Description narrative de l'observation","Description narrative de l'observation","","","","","","","","","",,,,,"",,,,"fr-tnm-classification.text",0,1,"",""
+"fr-tnm-classification.statusCode","fr-tnm-classification.statusCode","","","",1,1,"","","","code {[]} {[]}
+","Statut de l'observation","Statut de l'observation","","","","","","","","","",,,,,"",,,,"fr-tnm-classification.statusCode",1,1,"",""
+"fr-tnm-classification.effectiveTime","fr-tnm-classification.effectiveTime","","","",1,1,"","","","Period {[]} {[]}
+","Date de l'observation
+                          L'élément <effectiveTime> doit être présent dans une observation autonome (c'est-à-dire une observatio...","Date de l'observation
+                          L'élément <effectiveTime> doit être présent dans une observation autonome (c'est-à-dire une observatio...","","","","","","","","","",,,,,"",,,,"fr-tnm-classification.effectiveTime",1,1,"",""
+"fr-tnm-classification.value","fr-tnm-classification.value","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Valeur de l'observation","Valeur de l'observation","","","","","","","","","",,,,,"",,,,"fr-tnm-classification.value",1,1,"",""

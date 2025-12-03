@@ -1,0 +1,17 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"fr-document-attache","fr-document-attache","","","",0,*,"","","","null {[]} {[]}
+","FR-Document-attache","L'entrée Document Attaché est une entrée de type organiser qui permet de regrouper dans une même entrée les éléments qui contiennent :  - un élément de type Simple Observations (1.3.6.1.4.1.19376.1.5.3.1.4.13) définissant la nature du document attaché,  - un élément de type ObservationMedia acceptan...","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"fr-document-attache.organizer","fr-document-attache.organizer","","","",1,1,"","","","string {[]} {[]}
+","Entrée Document attaché","Entrée Document attaché","","","","","","","","","",,,,,"",,,,"fr-document-attache.organizer",1,1,"",""
+"fr-document-attache.id","fr-document-attache.id","","","",1,1,"","","","Identifier {[]} {[]}
+","Identifiant de l'entrée","Identifiant de l'entrée","","","","","","","","","",,,,,"",,,,"fr-document-attache.id",1,1,"",""
+"fr-document-attache.code","fr-document-attache.code","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Code de l'entrée","Code de l'entrée","","","","","","","","","",,,,,"",,,,"fr-document-attache.code",1,1,"",""
+"fr-document-attache.statusCode","fr-document-attache.statusCode","","","",1,1,"","","","code {[]} {[]}
+","Statut de l'entrée","Statut de l'entrée","","","","","","","","","",,,,,"",,,,"fr-document-attache.statusCode",1,1,"",""
+"fr-document-attache.effectiveTime","fr-document-attache.effectiveTime","","","",0,1,"","","","dateTime {[]} {[]}
+","Date de l'entrée","Date de l'entrée","","","","","","","","","",,,,,"",,,,"fr-document-attache.effectiveTime",0,1,"",""
+"fr-document-attache.observationMedia","fr-document-attache.observationMedia","","","",1,1,"","","","string {[]} {[]}
+","Identifiant utilisé dans la partie narrative par l'élément renderMultiMedia/referenceObject pour restituer l'image à partir d'un navigateur Internet.","Identifiant utilisé dans la partie narrative par l'élément renderMultiMedia/referenceObject pour restituer l'image à partir d'un navigateur Internet.","","","","","","","","","",,,,,"",,,,"fr-document-attache.observationMedia",1,1,"",""
+"fr-document-attache.value","fr-document-attache.value","","","",1,1,"","","","string {[]} {[]}
+","Document encodé en Base 64.  Le charset utilisé par défaut est iso-8859-1","Document encodé en Base 64.  Le charset utilisé par défaut est iso-8859-1","","","","","","","","","",,,,,"",,,,"fr-document-attache.value",1,1,"",""

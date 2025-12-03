@@ -1,0 +1,19 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"fr-notes-du-dispensateur","fr-notes-du-dispensateur","","","",0,*,"","","","null {[]} {[]}
+","FR-Notes-du-dispensateur","IHE PHARM DIS - fulfillment notes                                                                Une dispensation peut contenir une note du dispensateur (pharmacien).                                                                   Cette entrée est incluse dans une entrée FR-Traitement-dispense à l...","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"fr-notes-du-dispensateur.act","fr-notes-du-dispensateur.act","","","",0,1,"","","","string {[]} {[]}
+","Entrée Notes du dispensateur","Entrée Notes du dispensateur","","","","","","","","","",,,,,"",,,,"fr-notes-du-dispensateur.act",0,1,"",""
+"fr-notes-du-dispensateur.id","fr-notes-du-dispensateur.id","","","",0,*,"","","","Identifier {[]} {[]}
+","Identifiant de l'entrée","Identifiant de l'entrée","","","","","","","","","",,,,,"",,,,"fr-notes-du-dispensateur.id",0,*,"",""
+"fr-notes-du-dispensateur.code","fr-notes-du-dispensateur.code","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Code de l'entrée","Code de l'entrée","","","","","","","","","",,,,,"",,,,"fr-notes-du-dispensateur.code",1,1,"",""
+"fr-notes-du-dispensateur.text","fr-notes-du-dispensateur.text","","","",1,1,"","","","string {[]} {[]}
+","Notes du dispensateur sous forme textuelle","Notes du dispensateur sous forme textuelle","","","","","","","","","",,,,,"",,,,"fr-notes-du-dispensateur.text",1,1,"",""
+"fr-notes-du-dispensateur.reference","fr-notes-du-dispensateur.reference","","","",1,1,"","","","string {[]} {[]}
+","Référence à la partie narrative contenant le texte libre de l’instruction au dispensateur","Référence à la partie narrative contenant le texte libre de l’instruction au dispensateur","","","","","","","","","",,,,,"",,,,"fr-notes-du-dispensateur.reference",1,1,"",""
+"fr-notes-du-dispensateur.statusCode","fr-notes-du-dispensateur.statusCode","","","",1,1,"","","","code {[]} {[]}
+","Statut de l'entrée
+                        
+                        Fixé à la valeur ""completed""","Statut de l'entrée
+                        
+                        Fixé à la valeur ""completed""","","","","","","","","","",,,,,"",,,,"fr-notes-du-dispensateur.statusCode",1,1,"",""

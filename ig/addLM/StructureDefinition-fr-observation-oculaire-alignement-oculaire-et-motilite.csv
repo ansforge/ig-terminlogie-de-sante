@@ -1,0 +1,23 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"fr-observation-oculaire-alignement-oculaire-et-motilite","fr-observation-oculaire-alignement-oculaire-et-motilite","","","",0,*,"","","","null {[]} {[]}
+","FR-Observation-oculaire-alignement-oculaire-et-motilite","IHE GEE - Observation oculaire (alignement oculaire et motilité)                                                                Cette entrée est une représentation abstraite d’un grand nombre d’observations oculaires utilisées dans cette spécification. Elle est peut être réalisée par la spécificatio...","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"fr-observation-oculaire-alignement-oculaire-et-motilite.observation","fr-observation-oculaire-alignement-oculaire-et-motilite.observation","","","",0,1,"","","","string {[]} {[]}
+","Entrée Observation oculaire alignement oculaire et motilite","Entrée Observation oculaire alignement oculaire et motilite","","","","","","","","","",,,,,"",,,,"fr-observation-oculaire-alignement-oculaire-et-motilite.observation",0,1,"",""
+"fr-observation-oculaire-alignement-oculaire-et-motilite.id","fr-observation-oculaire-alignement-oculaire-et-motilite.id","","","",1,*,"","","","string {[]} {[]}
+","Identifiant de l’entrée","Identifiant de l’entrée","","","","","","","","","",,,,,"",,,,"fr-observation-oculaire-alignement-oculaire-et-motilite.id",1,*,"",""
+"fr-observation-oculaire-alignement-oculaire-et-motilite.code","fr-observation-oculaire-alignement-oculaire-et-motilite.code","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Code de l'entrée","Code de l'entrée","","","","","","","","","",,,,,"",,,,"fr-observation-oculaire-alignement-oculaire-et-motilite.code",1,1,"",""
+"fr-observation-oculaire-alignement-oculaire-et-motilite.statusCode","fr-observation-oculaire-alignement-oculaire-et-motilite.statusCode","","","",1,1,"","","","string {[]} {[]}
+","Statut de l’entrée","Statut de l’entrée","","","","","","","","","",,,,,"",,,,"fr-observation-oculaire-alignement-oculaire-et-motilite.statusCode",1,1,"",""
+"fr-observation-oculaire-alignement-oculaire-et-motilite.value","fr-observation-oculaire-alignement-oculaire-et-motilite.value","","","",1,1,"","","","string {[]} {[]}
+","Valeur observée","Valeur observée","","","","","","","","","",,,,,"",,,,"fr-observation-oculaire-alignement-oculaire-et-motilite.value",1,1,"",""
+"fr-observation-oculaire-alignement-oculaire-et-motilite.interpretationCode","fr-observation-oculaire-alignement-oculaire-et-motilite.interpretationCode","","","",0,1,"","","","string {[]} {[]}
+","Terminologies: SNOMED CT, CIM-10","OIDs: 2.16.840.1.113883.6.96","","","","","","","","","",,,,,"",,,,"fr-observation-oculaire-alignement-oculaire-et-motilite.interpretationCode",0,1,"",""
+"fr-observation-oculaire-alignement-oculaire-et-motilite.methodCode","fr-observation-oculaire-alignement-oculaire-et-motilite.methodCode","","","",0,*,"","","","CodeableConcept {[]} {[]}
+","Terminologies: SNOMED CT","OIDs: 2.16.840.1.113883.6.96","","","","","","","","","",,,,,"",,,,"fr-observation-oculaire-alignement-oculaire-et-motilite.methodCode",0,*,"",""
+"fr-observation-oculaire-alignement-oculaire-et-motilite.targetSiteCode","fr-observation-oculaire-alignement-oculaire-et-motilite.targetSiteCode","","","",1,1,"","","","CodeableConcept {[]} {[]}
+","Localisation anatomique :","Localisation anatomique :","","","","","","","","","",,,,,"",,,,"fr-observation-oculaire-alignement-oculaire-et-motilite.targetSiteCode",1,1,"",""
+"fr-observation-oculaire-alignement-oculaire-et-motilite.qualifier","fr-observation-oculaire-alignement-oculaire-et-motilite.qualifier","","","",0,*,"","","","string {[]} {[]}
+","Terminologies: SNOMED CT","OIDs: 2.16.840.1.113883.6.96","","","","","","","","","",,,,,"",,,,"fr-observation-oculaire-alignement-oculaire-et-motilite.qualifier",0,*,"",""
+"fr-observation-oculaire-alignement-oculaire-et-motilite.author","fr-observation-oculaire-alignement-oculaire-et-motilite.author","","","",0,1,"","","","string {[]} {[]}
+","Auteur","Auteur","","","","","","","","","",,,,,"",,,,"fr-observation-oculaire-alignement-oculaire-et-motilite.author",0,1,"",""
