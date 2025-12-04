@@ -2,18 +2,17 @@ CodeSystem: TRE_R275_ModaliteActivite
 Id: TRE-R275-ModaliteActivite
 Description: "Mode d'application ou type de soins encadrant une activité"
 * ^meta.versionId = "5"
-* ^meta.lastUpdated = "2025-12-22T18:17:01.194+00:00"
+* ^meta.lastUpdated = "2025-07-02T18:17:01.194+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2018-07-27T12:00:00+01:00"
-* ^extension.valuePeriod.end = "2025-12-22T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R275-ModaliteActivite/FHIR/TRE-R275-ModaliteActivite"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.127"
-* ^version = "20251222120000"
-* ^status = #retired
+* ^version = "20231215120000"
+* ^status = #active
 * ^experimental = false
-* ^date = "2025-12-22T12:00:00+01:00"
+* ^date = "2023-12-15T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
