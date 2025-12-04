@@ -10,8 +10,8 @@
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "terminologie-bdpm"] ; # 
   fhir:meta [
-     fhir:versionId [ fhir:v "22.1764717136266" ] ;
-     fhir:lastUpdated [ fhir:v "2025-12-03T00:12:16.266+01:00"^^xsd:dateTime ] ;
+     fhir:versionId [ fhir:v "24" ] ;
+     fhir:lastUpdated [ fhir:v "2025-12-03T17:12:59.233+01:00"^^xsd:dateTime ] ;
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"^^xsd:anyURI ;
        fhir:l <http://hl7.org/fhir/StructureDefinition/shareablecodesystem?version=4.0.1>
@@ -33,12 +33,12 @@
      ] ;
      fhir:value [ fhir:v "terminologie-bdpm" ]
   ] ) ; # 
-  fhir:version [ fhir:v "2025-12-02"] ; # 
+  fhir:version [ fhir:v "2025-12-03"] ; # 
   fhir:name [ fhir:v "BDPM"] ; # 
   fhir:title [ fhir:v "Base de données publique du médicament"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-12-02T00:00:00+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-12-03T00:00:00+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du numérique en santé"] ; # 
   fhir:description [ fhir:v "LA BDPM est un des référentiels du médicament gérée et distribuée par l’ANSM. Elle recense l’ensemble des spécialités et des présentations effectivement commercialisées durant les 5 dernières années. De ce fait, elle ne propose pas un historique exhaustif des codes de présentation et spécialités, celui-ci peut être obtenu grâce à la base RCP disponible sur le site de l’ANSM"] ; # 
   fhir:jurisdiction ( [
@@ -56,7 +56,7 @@
      fhir:l <https://smt.esante.gouv.fr/terminologie-bdpm?vs>
   ] ; # 
   fhir:content [ fhir:v "not-present"] ; # 
-  fhir:count [ fhir:v "41234"^^xsd:nonNegativeInteger] ; # 
+  fhir:count [ fhir:v "41229"^^xsd:nonNegativeInteger] ; # 
   fhir:filter ( [
      fhir:code [ fhir:v "root" ] ;
      fhir:operator ( [ fhir:v "=" ] ) ;
@@ -75,20 +75,6 @@
      fhir:uri [
        fhir:v "http://www.w3.org/2004/02/skos/core#broader"^^xsd:anyURI ;
        fhir:l <http://www.w3.org/2004/02/skos/core#broader>
-     ] ;
-     fhir:type [ fhir:v "code" ]
-  ] [
-     fhir:code [ fhir:v "etat_commercialisation" ] ;
-     fhir:uri [
-       fhir:v "http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/etat_commercialisation"^^xsd:anyURI ;
-       fhir:l <http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/etat_commercialisation>
-     ] ;
-     fhir:type [ fhir:v "code" ]
-  ] [
-     fhir:code [ fhir:v "statut_CIP" ] ;
-     fhir:uri [
-       fhir:v "http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/statut_CIP"^^xsd:anyURI ;
-       fhir:l <http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/statut_CIP>
      ] ;
      fhir:type [ fhir:v "code" ]
   ] [

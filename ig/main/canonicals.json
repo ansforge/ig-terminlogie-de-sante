@@ -8404,7 +8404,7 @@
     "id" : "terminologie-bdpm",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-bdpm",
-    "version" : "2025-12-02",
+    "version" : "2025-12-03",
     "name" : "BDPM"
   },
   {
@@ -8496,7 +8496,7 @@
     "id" : "terminologie-sms",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-sms",
-    "version" : "2025-11",
+    "version" : "2025-12",
     "name" : "Dictionnaire_SMS_Substance_Management_Services_",
     "oids" : ["2.16.840.1.113883.3.6905.2"]
   },
