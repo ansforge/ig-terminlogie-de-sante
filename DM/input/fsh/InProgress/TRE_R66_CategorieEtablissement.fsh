@@ -4432,17 +4432,9 @@ Description: "Catégorie d'établissements"
 * #703 ^property[+].code = #status
 * #703 ^property[=].valueCode = #active
 * #704 "Autre service territorial" "Points locaux d'information dédiés aux personnes âgées. Ces services peuvent être rattachés à des CCAS ( Centre Communaux d'Action Sociale)"
-* #704 ^property[0].code = #niveau
-* #704 ^property[=].valueInteger =  4
-* #704 ^property[+].code = #dateValid
+* #704 ^property[0].code = #dateValid
 * #704 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #704 ^property[+].code = #dateMaj
-* #704 ^property[=].valueDateTime = "2025-04-22T12:00:00+01:00"
+* #704 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #704 ^property[+].code = #status
 * #704 ^property[=].valueCode = #active
-* #704 ^property[+].code = #specialisationRor
-* #704 ^property[=].valueBoolean = true
-* #704 ^property[+].code = #ror
-* #704 ^property[=].valueBoolean = true
-* #704 ^property[+].code = #cisis
-* #704 ^property[=].valueBoolean = true
