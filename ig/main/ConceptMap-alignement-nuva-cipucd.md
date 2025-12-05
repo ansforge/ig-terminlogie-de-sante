@@ -8,11 +8,11 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-cipucd | *Version*:1.0.1030 | |
-| Active as of 2025-11-06 | *Responsible:*[Agence du numérique en santé](https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-cipucd) | *Computable Name*:Alignement_Codes_NUVA_CIP_CIPUCD |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-cipucd | *Version*:1.0.1042 | |
+| Active as of 2025-12-04 | *Responsible:*[Agence du numérique en santé](https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-cipucd) | *Computable Name*:Alignement_Codes_NUVA_CIP_CIPUCD |
 | **Usage:**Workflow Task: alignement des données | | |
 
-version : 16; Dernière mise à jour : 2025-11-12 18:02:55+0100
+version : 17; Dernière mise à jour : 2025-12-04 11:26:34+0100
 
 Balise: Resource encoded in summary mode (Détails : code ObservationValue SUBSETTED = 'Resource encoded in summary mode')
 
@@ -27,8 +27,8 @@ Mapping de [ValueSet_NUVA_All](ValueSet-vs-nuva-all.md) vers [ValueSet_CIPUCD_Al
   "resourceType" : "ConceptMap",
   "id" : "alignement-nuva-cipucd",
   "meta" : {
-    "versionId" : "16",
-    "lastUpdated" : "2025-11-12T18:02:55.280+01:00",
+    "versionId" : "17",
+    "lastUpdated" : "2025-12-04T11:26:34.712+01:00",
     "tag" : [
       {
         "system" : "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
@@ -38,11 +38,11 @@ Mapping de [ValueSet_NUVA_All](ValueSet-vs-nuva-all.md) vers [ValueSet_CIPUCD_Al
     ]
   },
   "url" : "https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-cipucd",
-  "version" : "1.0.1030",
+  "version" : "1.0.1042",
   "name" : "Alignement_Codes_NUVA_CIP_CIPUCD",
   "title" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD",
   "status" : "active",
-  "date" : "2025-11-06",
+  "date" : "2025-12-04",
   "publisher" : "Agence du numérique en santé",
   "contact" : [
     {

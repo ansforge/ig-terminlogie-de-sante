@@ -9,7 +9,7 @@
 | | | |
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/terminologie-nuva?vs | *Version*:20241106120000 | |
-| Active as of 2025-12-04 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ValueSet_NUVA_All |
+| Active as of 2025-12-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ValueSet_NUVA_All |
 
  
 Ce jeu de valeurs inclut tous les codes concepts de la terminologie NUVA 
@@ -38,9 +38,9 @@ Profil: [Shareable ValueSetversion : null4.0.1)](http://hl7.org/fhir/R4/shareabl
 
 ### Expansion
 
-Expansion de smt.esante.gouv.fr basée sur [codesystem Nomenclature Unifiée des Vaccins v1.0.1030 (CodeSystem)](CodeSystem-terminologie-nuva.md)
+Expansion de smt.esante.gouv.fr basée sur [codesystem Nomenclature Unifiée des Vaccins v1.0.1042 (CodeSystem)](CodeSystem-terminologie-nuva.md)
 
-Ce jeu de valeurs (ValueSet) a 1,893 codes. Pour garder la publication gérable, seulement une selection (1,000 codes) de lensemble des codes est affiché.
+Ce jeu de valeurs (ValueSet) a 1,899 codes. Pour garder la publication gérable, seulement une selection (1,000 codes) de lensemble des codes est affiché.
 
 -------
 
@@ -76,7 +76,7 @@ Ce jeu de valeurs (ValueSet) a 1,893 codes. Pour garder la publication gérable,
   "name" : "ValueSet_NUVA_All",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-04T04:30:45+00:00",
+  "date" : "2025-12-05T04:37:02+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Ce jeu de valeurs inclut tous les codes concepts de la terminologie NUVA",
   "jurisdiction" : [
