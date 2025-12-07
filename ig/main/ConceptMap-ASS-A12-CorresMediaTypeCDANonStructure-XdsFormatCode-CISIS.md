@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://mos.esante.gouv.fr/NOS/ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS | *Version*:5.0.0 |
-| Active as of 2025-12-06 | *Computable Name*:ASS_A12_CorresMediaTypeCDANonStructure_XdsFormatCode_CISIS |
+| Active as of 2025-12-07 | *Computable Name*:ASS_A12_CorresMediaTypeCDANonStructure_XdsFormatCode_CISIS |
 | **Usage:**Workflow Task:  | |
 
  
@@ -49,7 +49,7 @@ Mapping de [MediaType](ValueSet-jdv-hl7-v3-MediaType-cisis.md) vers [JDV_J10_Xds
   "title" : "ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-06T11:15:48+00:00",
+  "date" : "2025-12-07T04:33:36+00:00",
   "publisher" : "ANS",
   "contact" : [
     {
