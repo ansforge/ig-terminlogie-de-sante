@@ -3417,7 +3417,7 @@
     "id" : "TRE-R276-FormeActivite",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
-    "version" : "20240329120000",
+    "version" : "20251222120000",
     "name" : "TRE_R276_FormeActivite",
     "oids" : ["1.2.250.1.213.1.6.1.128"]
   },
@@ -4326,14 +4326,6 @@
     "oids" : ["1.2.250.1.213.1.6.1.45"]
   },
   {
-    "id" : "vs-tre-r73-espic-all",
-    "type" : "ValueSet",
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R73-ESPIC/FHIR/TRE-R73-ESPIC?vs",
-    "version" : "20250222120000",
-    "name" : "VsTreR73EspicAll",
-    "oids" : ["1.2.250.1.213.1.6.1.280"]
-  },
-  {
     "id" : "TRE-R74-ModeFixationTarifaire",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
@@ -4897,21 +4889,21 @@
     "id" : "alignement-bdpm-cipucd",
     "type" : "ConceptMap",
     "url" : "https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-bdpm-cipucd",
-    "version" : "2025-11",
+    "version" : "2025-12",
     "name" : "Alignement_Codes_Presentation_BDPM_CIPUCD"
   },
   {
     "id" : "alignement-nuva-bdpm",
     "type" : "ConceptMap",
     "url" : "https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-bdpm",
-    "version" : "1.0.1030",
+    "version" : "1.0.1042",
     "name" : "Alignement_Codes_NUVA_CIS_CIP_BDMP"
   },
   {
     "id" : "alignement-nuva-cipucd",
     "type" : "ConceptMap",
     "url" : "https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-cipucd",
-    "version" : "1.0.1030",
+    "version" : "1.0.1042",
     "name" : "Alignement_Codes_NUVA_CIP_CIPUCD"
   },
   {
@@ -6441,6 +6433,14 @@
     "version" : "20250710120000",
     "name" : "JdvJ240ActiviteSanitaireDiverseReguleeFiness",
     "oids" : ["1.2.250.1.213.1.6.1.250"]
+  },
+  {
+    "id" : "jdv-j273-espic-finess",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j273-espic-finess",
+    "version" : "20251222120000",
+    "name" : "JdvJ273EspicFiness",
+    "oids" : ["1.2.250.1.213.1.6.1.280"]
   },
   {
     "id" : "jdv-j287-type-autorite-regulation-finess",
@@ -9236,7 +9236,7 @@
     "id" : "terminologie-bdpm",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-bdpm",
-    "version" : "2025-11-06",
+    "version" : "2025-12-03",
     "name" : "BDPM"
   },
   {
@@ -9313,7 +9313,7 @@
     "id" : "terminologie-nuva",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-nuva",
-    "version" : "1.0.1030",
+    "version" : "1.0.1042",
     "name" : "NUVA",
     "oids" : ["1.3.6.1.4.1.48601.1"]
   },
@@ -9328,7 +9328,7 @@
     "id" : "terminologie-sms",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-sms",
-    "version" : "2025-11",
+    "version" : "2025-12",
     "name" : "Dictionnaire_SMS_Substance_Management_Services_",
     "oids" : ["2.16.840.1.113883.3.6905.2"]
   },

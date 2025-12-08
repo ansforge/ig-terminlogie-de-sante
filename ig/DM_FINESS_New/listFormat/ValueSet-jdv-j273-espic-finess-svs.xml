@@ -2,13 +2,13 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250222180228"
-             dateValid="20250222180228"
-             description="Jeu de valeurs ALL contenant les établissements de santé privés d'intérêt collectif"
-             displayName="VsTreR73EspicAll"
+             dateMaj="20251222180228"
+             dateValid="20251222180228"
+             description="Jeu de valeurs contenant les établissements de santé privés d'intérêt collectif pour FINESS"
+             displayName="JdvJ273EspicFiness"
              id="1.2.250.1.213.1.6.1.280"
              typeFichier="JDV"
-             urlFichier="https://mos.esante.gouv.fr/NOS/TRE_R73-ESPIC">
+             urlFichier="">
       <ConceptList/>
    </ValueSet>
 </RetrieveValueSetResponse>

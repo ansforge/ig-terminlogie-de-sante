@@ -1209,7 +1209,7 @@
       "title" : null,
       "description" : "Statut juridique FINESS dans EPARS",
       "systems" : [
-        "https://mos.esante.gouv.fr/NOS/TRE_R72-FinessStatutJuridique/FHIR/TRE-R72-FinessStatutJuridique"
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique"
       ],
       "oids" : ["1.2.250.1.213.1.6.1.234"],
       "sources" : ["1.2.250.1.213.1.6.1.234"]
@@ -3584,19 +3584,6 @@
       ],
       "oids" : ["1.2.250.1.213.1.6.1.319"],
       "sources" : ["1.2.250.1.213.1.6.1.319"]
-    },
-    {
-      "url" : "https://mos.esante.gouv.fr/NOS/TRE_R73-ESPIC/FHIR/TRE-R73-ESPIC?vs",
-      "version" : "20250222120000",
-      "status" : "active",
-      "name" : "VsTreR73EspicAll",
-      "title" : "Vs Tre R73 Espic All",
-      "description" : "Jeu de valeurs ALL contenant les établissements de santé privés d'intérêt collectif",
-      "systems" : [
-        "https://mos.esante.gouv.fr/NOS/TRE_R73-ESPIC/FHIR/TRE-R73-ESPIC"
-      ],
-      "oids" : ["1.2.250.1.213.1.6.1.280"],
-      "sources" : ["1.2.250.1.213.1.6.1.280"]
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire?vs",
@@ -6206,6 +6193,19 @@
       ],
       "oids" : ["1.2.250.1.213.1.6.1.250"],
       "sources" : ["1.2.250.1.213.1.6.1.250"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j273-espic-finess",
+      "version" : "20251222120000",
+      "status" : "active",
+      "name" : "JdvJ273EspicFiness",
+      "title" : "Jdv J273 Espic Finess",
+      "description" : "Jeu de valeurs contenant les établissements de santé privés d'intérêt collectif pour FINESS",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R73-ESPIC/FHIR/TRE-R73-ESPIC"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.280"],
+      "sources" : ["1.2.250.1.213.1.6.1.280"]
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j287-type-autorite-regulation-finess",

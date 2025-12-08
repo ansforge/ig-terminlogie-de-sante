@@ -26164,6 +26164,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-j273-espic-finess"/>
+      </reference>
+      <name value="Jdv J273 Espic Finess"/>
+      <description value="Jeu de valeurs contenant les établissements de santé privés d'intérêt collectif pour FINESS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-j287-type-autorite-regulation-finess"/>
       </reference>
       <name value="Jdv J287 Type Autorite Regulation Finess"/>
@@ -36605,17 +36616,6 @@
       </reference>
       <name value="Vs Tre R62 Domaine All"/>
       <description value="Jeu de valeurs ALL contenant les domaines"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/vs-tre-r73-espic-all"/>
-      </reference>
-      <name value="Vs Tre R73 Espic All"/>
-      <description value="Jeu de valeurs ALL contenant les établissements de santé privés d'intérêt collectif"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
