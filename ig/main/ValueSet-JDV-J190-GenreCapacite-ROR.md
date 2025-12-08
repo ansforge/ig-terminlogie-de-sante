@@ -29,19 +29,9 @@ Requête sur le SMT
 
 ### Définition logique (CLD)
 
-version : 7; Dernière mise à jour : 2025-10-02 19:02:00+0200; Langue : fr-FR
-
-Profil: [Shareable ValueSetversion : null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
-
-* Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R332-GenreCapacite/FHIR/TRE-R332-GenreCapacite`](CodeSystem-TRE-R332-GenreCapacite.md)version 📦20250828120000
-
  
 
 ### Expansion
-
-Expansion effectuée en interne basée sur [codesystem TRE_R332_GenreCapacite v20250828120000 (CodeSystem)](CodeSystem-TRE-R332-GenreCapacite.md)
-
-Ce jeu de valeur (ValueSet) contient 3 concepts
 
 -------
 

@@ -29,19 +29,9 @@ Requête sur le SMT
 
 ### Définition logique (CLD)
 
-version : 4; Dernière mise à jour : 2025-07-02 17:05:45+0000; Langue : fr-FR
-
-Profil: [Shareable ValueSetversion : null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
-
-* Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R284-NiveauRecoursORSAN/FHIR/TRE-R284-NiveauRecoursORSAN`](CodeSystem-TRE-R284-NiveauRecoursORSAN.md)version 📦20231215120000
-
  
 
 ### Expansion
-
-Expansion effectuée en interne basée sur [codesystem TRE_R284_NiveauRecoursORSAN v20231215120000 (CodeSystem)](CodeSystem-TRE-R284-NiveauRecoursORSAN.md)
-
-Ce jeu de valeur (ValueSet) contient 2 concepts
 
 -------
 

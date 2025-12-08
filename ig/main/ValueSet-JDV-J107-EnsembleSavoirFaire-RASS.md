@@ -29,43 +29,9 @@ Requête sur le SMT
 
 ### Définition logique (CLD)
 
-version : 9; Dernière mise à jour : 2025-07-02 17:04:44+0000; Langue : fr-FR
-
-Profil: [Shareable ValueSetversion : null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
-
-Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :
-
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R38-SpecialiteOrdinale/FHIR/TRE-R38-SpecialiteOrdinale`](CodeSystem-TRE-R38-SpecialiteOrdinale.md)version 📦20240531120000
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R39-Competence/FHIR/TRE-R39-Competence`](CodeSystem-TRE-R39-Competence.md)version 📦20240628120000 
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R40-CompetenceExclusive/FHIR/TRE-R40-CompetenceExclusive`](CodeSystem-TRE-R40-CompetenceExclusive.md)version 📦20231215120000 
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R42-DESCnonQualifiant/FHIR/TRE-R42-DESCnonQualifiant`](CodeSystem-TRE-R42-DESCnonQualifiant.md)version 📦20240628120000 
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R43-CapaciteSavoirFaire/FHIR/TRE-R43-CapaciteSavoirFaire`](CodeSystem-TRE-R43-CapaciteSavoirFaire.md)version 📦20231215120000 
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R44-QualificationPAC/FHIR/TRE-R44-QualificationPAC`](CodeSystem-TRE-R44-QualificationPAC.md)version 📦20231215120000 
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R45-FonctionQualifiee/FHIR/TRE-R45-FonctionQualifiee`](CodeSystem-TRE-R45-FonctionQualifiee.md)version 📦20231215120000 
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R97-DroitExerciceCompl/FHIR/TRE-R97-DroitExerciceCompl`](CodeSystem-TRE-R97-DroitExerciceCompl.md)version 📦20231215120000 
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_G13-OrientationParticuliere/FHIR/TRE-G13-OrientationParticuliere`](CodeSystem-TRE-G13-OrientationParticuliere.md)version 📦20231215120000 
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R359-SurspecialiteTransversale/FHIR/TRE-R359-SurspecialiteTransversale`](CodeSystem-TRE-R359-SurspecialiteTransversale.md)version 📦20240531120000 
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r394-competence-metier`](CodeSystem-tre-r394-competence-metier.md)version 📦20250625120000 
-
  
 
 ### Expansion
-
-Expansion effectuée en interne basée sur :
-
-* [codesystem TRE_G13_OrientationParticuliere v20231215120000 (CodeSystem)](CodeSystem-TRE-G13-OrientationParticuliere.md)
-* [codesystem TRE_R359_SurspecialiteTransversale v20240531120000 (CodeSystem)](CodeSystem-TRE-R359-SurspecialiteTransversale.md)
-* [codesystem TRE_R38_SpecialiteOrdinale v20240531120000 (CodeSystem)](CodeSystem-TRE-R38-SpecialiteOrdinale.md)
-* [codesystem TRE_R39_Competence v20240628120000 (CodeSystem)](CodeSystem-TRE-R39-Competence.md)
-* [codesystem TRE_R40_CompetenceExclusive v20231215120000 (CodeSystem)](CodeSystem-TRE-R40-CompetenceExclusive.md)
-* [codesystem TRE_R42_DESCnonQualifiant v20240628120000 (CodeSystem)](CodeSystem-TRE-R42-DESCnonQualifiant.md)
-* [codesystem TRE_R43_CapaciteSavoirFaire v20231215120000 (CodeSystem)](CodeSystem-TRE-R43-CapaciteSavoirFaire.md)
-* [codesystem TRE_R44_QualificationPAC v20231215120000 (CodeSystem)](CodeSystem-TRE-R44-QualificationPAC.md)
-* [codesystem TRE_R45_FonctionQualifiee v20231215120000 (CodeSystem)](CodeSystem-TRE-R45-FonctionQualifiee.md)
-* [codesystem TRE_R97_DroitExerciceCompl v20231215120000 (CodeSystem)](CodeSystem-TRE-R97-DroitExerciceCompl.md)
-* [codesystem Tre R394 Competence Metier v20250625120000 (CodeSystem)](CodeSystem-tre-r394-competence-metier.md)
-
-Ce jeu de valeur (ValueSet) contient 266 concepts
 
 -------
 

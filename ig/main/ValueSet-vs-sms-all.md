@@ -9,7 +9,7 @@
 | | | |
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/terminologie-sms?vs | *Version*:20241114120000 | |
-| Active as of 2025-12-07 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ValueSet_SMS_All |
+| Active as of 2025-12-08 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ValueSet_SMS_All |
 
  
 Ce jeu de valeurs inclut tous les codes de la terminologie SMS, Dictionnaire des substances médicamenteuses 
@@ -28,19 +28,9 @@ Requête sur le SMT
 
 ### Définition logique (CLD)
 
-version : 1; Dernière mise à jour : 2024-11-14 13:53:59+0000; Langue : fr-FR
-
-Profil: [Shareable ValueSetversion : null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
-
-* Include tous les codes définis dans [`https://smt.esante.gouv.fr/terminologie-sms`](CodeSystem-terminologie-sms.md)version Non précisé (utilise la dernière version provenant du serveur de terminologie)
-
  
 
 ### Expansion
-
-Expansion de smt.esante.gouv.fr basée sur [codesystem Dictionnaire européen multilingue des substances entrant dans la composition de médicaments v2025-12 (CodeSystem)](CodeSystem-terminologie-sms.md)
-
-Ce jeu de valeurs (ValueSet) a 71,032 codes. Pour garder la publication gérable, seulement une selection (1,000 codes) de lensemble des codes est affiché.
 
 -------
 
@@ -76,7 +66,7 @@ Ce jeu de valeurs (ValueSet) a 71,032 codes. Pour garder la publication gérable
   "name" : "ValueSet_SMS_All",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-07T04:33:36+00:00",
+  "date" : "2025-12-08T04:35:17+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Ce jeu de valeurs inclut tous les codes de la terminologie SMS, Dictionnaire des substances médicamenteuses",
   "jurisdiction" : [

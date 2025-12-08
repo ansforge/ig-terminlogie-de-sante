@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://mos.esante.gouv.fr/NOS/ASS-X11-FinessAgregatStatutJuridique | *Version*:5.0.0 |
-| Active as of 2025-12-07 | *Computable Name*:ASS_X11_FinessAgregatStatutJuridique |
+| Active as of 2025-12-08 | *Computable Name*:ASS_X11_FinessAgregatStatutJuridique |
 
  
 ASS_X11_FinessAgregatStatutJuridique 
@@ -21,8 +21,6 @@ Pour cette association, seuls les fichiers sont disponibles :
 * [ASS_X11-FinessAgregatStatutJuridique.pdf](ASS_X11-FinessAgregatStatutJuridique.pdf)
 * [ASS_X11-FinessAgregatStatutJuridique.tabs](ASS_X11-FinessAgregatStatutJuridique.tabs)
 * [ASS_X11-FinessAgregatStatutJuridique.xml](ASS_X11-FinessAgregatStatutJuridique.xml)
-
-Mapping de (non spécifié) vers (non spécifié)
 
 
 
@@ -38,7 +36,7 @@ Mapping de (non spécifié) vers (non spécifié)
   "title" : "ASS_X11_FinessAgregatStatutJuridique",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-07T04:33:36+00:00",
+  "date" : "2025-12-08T04:35:17+00:00",
   "publisher" : "ANS",
   "contact" : [
     {

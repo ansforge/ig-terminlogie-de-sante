@@ -29,49 +29,9 @@ Requête sur le SMT
 
 ### Définition logique (CLD)
 
-version : 15; Dernière mise à jour : 2025-10-02 19:01:55+0200; Langue : fr-FR
-
-Profil: [Shareable ValueSetversion : null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
-
-Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :
-
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R54-DiplomeUniversiteInterUniversitaire/FHIR/TRE-R54-DiplomeUniversiteInterUniversitaire`](CodeSystem-TRE-R54-DiplomeUniversiteInterUniversitaire.md)version 📦20240726120000
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R58-AutreTypeDiplome/FHIR/TRE-R58-AutreTypeDiplome`](CodeSystem-TRE-R58-AutreTypeDiplome.md)version 📦20250828120000 
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R55-CertificatEtudeSpeciale/FHIR/TRE-R55-CertificatEtudeSpeciale`](CodeSystem-TRE-R55-CertificatEtudeSpeciale.md)version 📦20231215120000 
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R56-Attestation/FHIR/TRE-R56-Attestation`](CodeSystem-TRE-R56-Attestation.md)version 📦20240329120000 
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R57-DiplomeEuropeenEtudeSpecialisee/FHIR/TRE-R57-DiplomeEuropeenEtudeSpecialisee`](CodeSystem-TRE-R57-DiplomeEuropeenEtudeSpecialisee.md)version 📦20231215120000 
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R226-Dip2iemeCycleNQ/FHIR/TRE-R226-Dip2iemeCycleNQ`](CodeSystem-TRE-R226-Dip2iemeCycleNQ.md)version 📦20231215120000 
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R36-AutreDiplomeObtenu/FHIR/TRE-R36-AutreDiplomeObtenu`](CodeSystem-TRE-R36-AutreDiplomeObtenu.md)version 📦20231215120000 
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R48-DiplomeEtatFrancais/FHIR/TRE-R48-DiplomeEtatFrancais`](CodeSystem-TRE-R48-DiplomeEtatFrancais.md)version 📦20250425120000 
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R49-DiplomeEtudeSpecialisee/FHIR/TRE-R49-DiplomeEtudeSpecialisee`](CodeSystem-TRE-R49-DiplomeEtudeSpecialisee.md)version 📦20240531120000 
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R50-DESCGroupe1Diplome/FHIR/TRE-R50-DESCGroupe1Diplome`](CodeSystem-TRE-R50-DESCGroupe1Diplome.md)version 📦20231215120000 
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R51-DESCGroupe2Diplome/FHIR/TRE-R51-DESCGroupe2Diplome`](CodeSystem-TRE-R51-DESCGroupe2Diplome.md)version 📦20231215120000 
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R52-CapaciteDiplome/FHIR/TRE-R52-CapaciteDiplome`](CodeSystem-TRE-R52-CapaciteDiplome.md)version 📦20231215120000 
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R53-DiplomePaysEEE/FHIR/TRE-R53-DiplomePaysEEE`](CodeSystem-TRE-R53-DiplomePaysEEE.md)version 📦20231215120000 
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R348-FormationSpecialiseeTransversale/FHIR/TRE-R348-FormationSpecialiseeTransversale`](CodeSystem-TRE-R348-FormationSpecialiseeTransversale.md)version 📦20231215120000 
-
  
 
 ### Expansion
-
-Expansion effectuée en interne basée sur :
-
-* [codesystem TRE_R226_Dip2iemeCycleNQ v20231215120000 (CodeSystem)](CodeSystem-TRE-R226-Dip2iemeCycleNQ.md)
-* [codesystem TRE_R348_FormationSpecialiseeTransversale v20231215120000 (CodeSystem)](CodeSystem-TRE-R348-FormationSpecialiseeTransversale.md)
-* [codesystem TRE_R36_AutreDiplomeObtenu v20231215120000 (CodeSystem)](CodeSystem-TRE-R36-AutreDiplomeObtenu.md)
-* [codesystem TRE_R48_DiplomeEtatFrancais v20250425120000 (CodeSystem)](CodeSystem-TRE-R48-DiplomeEtatFrancais.md)
-* [codesystem TRE_R49_DiplomeEtudeSpecialisee v20240531120000 (CodeSystem)](CodeSystem-TRE-R49-DiplomeEtudeSpecialisee.md)
-* [codesystem TRE_R50_DESCGroupe1Diplome v20231215120000 (CodeSystem)](CodeSystem-TRE-R50-DESCGroupe1Diplome.md)
-* [codesystem TRE_R51_DESCGroupe2Diplome v20231215120000 (CodeSystem)](CodeSystem-TRE-R51-DESCGroupe2Diplome.md)
-* [codesystem TRE_R52_CapaciteDiplome v20231215120000 (CodeSystem)](CodeSystem-TRE-R52-CapaciteDiplome.md)
-* [codesystem TRE_R53_DiplomePaysEEE v20231215120000 (CodeSystem)](CodeSystem-TRE-R53-DiplomePaysEEE.md)
-* [codesystem TRE_R54_DiplomeUniversiteInterUniversitaire v20240726120000 (CodeSystem)](CodeSystem-TRE-R54-DiplomeUniversiteInterUniversitaire.md)
-* [codesystem TRE_R55_CertificatEtudeSpeciale v20231215120000 (CodeSystem)](CodeSystem-TRE-R55-CertificatEtudeSpeciale.md)
-* [codesystem TRE_R56_Attestation v20240329120000 (CodeSystem)](CodeSystem-TRE-R56-Attestation.md)
-* [codesystem TRE_R57_DiplomeEuropeenEtudeSpecialisee v20231215120000 (CodeSystem)](CodeSystem-TRE-R57-DiplomeEuropeenEtudeSpecialisee.md)
-* [codesystem TRE_R58_AutreTypeDiplome v20250828120000 (CodeSystem)](CodeSystem-TRE-R58-AutreTypeDiplome.md)
-
-Ce jeu de valeur (ValueSet) contient 772 concepts
 
 -------
 

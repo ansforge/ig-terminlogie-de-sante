@@ -9,7 +9,7 @@
 | | | |
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/terminologie-atc?vs | *Version*:20241114120000 | |
-| Active as of 2025-12-07 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ValueSet_ATC_All |
+| Active as of 2025-12-08 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ValueSet_ATC_All |
 
  
 Ce jeu de valeurs inclut tous les codes concepts de la terminologie ATC 
@@ -28,19 +28,9 @@ Requête sur le SMT
 
 ### Définition logique (CLD)
 
-version : 1; Dernière mise à jour : 2024-11-14 08:35:39+0000; Langue : fr-FR
-
-Profil: [Shareable ValueSetversion : null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
-
-* Include tous les codes définis dans [`https://smt.esante.gouv.fr/terminologie-atc`](CodeSystem-terminologie-atc.md)version Non précisé (utilise la dernière version provenant du serveur de terminologie)
-
  
 
 ### Expansion
-
-Expansion de smt.esante.gouv.fr basée sur [codesystem Classification anatomique, thérapeutique et chimique v2025-02 (CodeSystem)](CodeSystem-terminologie-atc.md)
-
-Ce jeu de valeurs (ValueSet) a 6,950 codes. Pour garder la publication gérable, seulement une selection (1,000 codes) de lensemble des codes est affiché.
 
 -------
 
@@ -76,7 +66,7 @@ Ce jeu de valeurs (ValueSet) a 6,950 codes. Pour garder la publication gérable,
   "name" : "ValueSet_ATC_All",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-07T04:33:36+00:00",
+  "date" : "2025-12-08T04:35:17+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Ce jeu de valeurs inclut tous les codes concepts de la terminologie ATC",
   "jurisdiction" : [

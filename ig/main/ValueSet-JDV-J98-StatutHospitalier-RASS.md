@@ -29,19 +29,9 @@ Requête sur le SMT
 
 ### Définition logique (CLD)
 
-version : 4; Dernière mise à jour : 2025-07-02 17:06:58+0000; Langue : fr-FR
-
-Profil: [Shareable ValueSetversion : null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
-
-* Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R32-StatutHospitalier/FHIR/TRE-R32-StatutHospitalier`](CodeSystem-TRE-R32-StatutHospitalier.md)version 📦20231215120000
-
  
 
 ### Expansion
-
-Expansion effectuée en interne basée sur [codesystem TRE_R32_StatutHospitalier v20231215120000 (CodeSystem)](CodeSystem-TRE-R32-StatutHospitalier.md)
-
-Ce jeu de valeur (ValueSet) contient 19 concepts
 
 -------
 

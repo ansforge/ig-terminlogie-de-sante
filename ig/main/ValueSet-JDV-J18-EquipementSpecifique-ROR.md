@@ -29,19 +29,9 @@ Requête sur le SMT
 
 ### Définition logique (CLD)
 
-version : 17; Dernière mise à jour : 2025-07-02 17:05:38+0000; Langue : fr-FR
-
-Profil: [Shareable ValueSetversion : null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
-
-* Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement`](CodeSystem-TRE-R212-Equipement.md)version 📦20250918120000
-
  
 
 ### Expansion
-
-Expansion effectuée en interne basée sur [codesystem TRE_R212_Equipement v20250918120000 (CodeSystem)](CodeSystem-TRE-R212-Equipement.md)
-
-Ce jeu de valeur (ValueSet) contient 153 concepts
 
 -------
 

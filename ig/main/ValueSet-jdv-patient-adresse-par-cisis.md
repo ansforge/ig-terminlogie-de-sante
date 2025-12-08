@@ -29,27 +29,9 @@ Requête sur le SMT
 
 ### Définition logique (CLD)
 
-version : 4; Dernière mise à jour : 2025-06-25 09:15:27+0000; Langue : fr-FR
-
-Profil: [Shareable ValueSetversion : null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
-
-Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :
-
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_A02-ProfessionSavFaire-CISIS/FHIR/TRE-A02-ProfessionSavFaire-CISIS`](CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.md)version 📦20241213120000
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis`](CodeSystem-terminologie-cisis.md)version 📦202510230000 
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement`](CodeSystem-TRE-R66-CategorieEtablissement.md)version 📦20250425120000 
-
  
 
 ### Expansion
-
-Expansion effectuée en interne basée sur :
-
-* [codesystem TRE_A02_ProfessionSavFaire_CISIS v20241213120000 (CodeSystem)](CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.md)
-* [codesystem TRE_R66_CategorieEtablissement v20250425120000 (CodeSystem)](CodeSystem-TRE-R66-CategorieEtablissement.md)
-* [codesystem TerminologieCISIS - Terminologie des concepts non trouvés dans les autres terminologies v202510230000 (CodeSystem)](CodeSystem-terminologie-cisis.md)
-
-Ce jeu de valeur (ValueSet) contient 14 concepts
 
 -------
 

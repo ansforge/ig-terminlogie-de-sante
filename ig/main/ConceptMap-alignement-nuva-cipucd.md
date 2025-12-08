@@ -12,12 +12,6 @@
 | Active as of 2025-12-04 | *Responsible:*[Agence du numérique en santé](https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-cipucd) | *Computable Name*:Alignement_Codes_NUVA_CIP_CIPUCD |
 | **Usage:**Workflow Task: alignement des données | | |
 
-version : 17; Dernière mise à jour : 2025-12-04 11:26:34+0100
-
-Balise: Resource encoded in summary mode (Détails : code ObservationValue SUBSETTED = 'Resource encoded in summary mode')
-
-Mapping de [ValueSet_NUVA_All](ValueSet-vs-nuva-all.md) vers [ValueSet_CIPUCD_All](ValueSet-vs-cipucd-all.md)
-
 
 
 ## Resource Content

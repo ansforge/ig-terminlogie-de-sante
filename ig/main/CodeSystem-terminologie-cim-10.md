@@ -57,20 +57,6 @@ La Classification Internationale des Maladies (CIM) permet d’établir les stat
 * [JdvTypeMigraineCisis](ValueSet-jdv-type-migraine-cisis.md)
 * [JdvUfcvMotifImplantCisis](ValueSet-jdv-ufcv-motif-implant-cisis.md)
 
-version : 8.1760088527280; Dernière mise à jour : 2025-10-10 11:28:47+0200
-
-Profil: [Shareable CodeSystemversion : null4.0.1)](http://hl7.org/fhir/R4/shareablecodesystem.html)
-
-**Propriétés**
-
-**Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts**
-
-**Filtres**
-
-**Concepts**
-
-This code system `https://smt.esante.gouv.fr/terminologie-cim-10` defines codes, but no codes are represented here
-
 
 
 ## Resource Content

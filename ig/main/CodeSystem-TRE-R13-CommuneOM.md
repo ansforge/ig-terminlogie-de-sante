@@ -17,20 +17,6 @@
 * [JDV_J120_CommuneHistorisee](ValueSet-JDV-J120-CommuneHistorisee.md)
 * [JDV_J124_Commune](ValueSet-JDV-J124-Commune.md)
 
-version : 1; Dernière mise à jour : 2025-01-10 13:09:36+0000
-
-Profil: [Shareable CodeSystemversion : null4.0.1)](http://hl7.org/fhir/R4/shareablecodesystem.html)
-
-Balise: Resource encoded in summary mode (Détails : code ObservationValue SUBSETTED = 'Resource encoded in summary mode')
-
-**Propriétés**
-
-**Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts**
-
-**Concepts**
-
-This case-insensitive code system `https://mos.esante.gouv.fr/NOS/TRE_R13-CommuneOM/FHIR/TRE-R13-CommuneOM` defines codes, but no codes are represented here
-
 
 
 ## Resource Content

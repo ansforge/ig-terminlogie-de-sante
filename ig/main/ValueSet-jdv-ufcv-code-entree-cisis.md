@@ -29,25 +29,9 @@ Requête sur le SMT
 
 ### Définition logique (CLD)
 
-version : 4; Dernière mise à jour : 2025-06-25 09:17:02+0000; Langue : fr-FR
-
-Profil: [Shareable ValueSetversion : null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
-
-Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :
-
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis`](CodeSystem-terminologie-cisis.md)version 📦202510230000
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`http://loinc.org`](http://loinc.org)version Non précisé (utilise la dernière version provenant du serveur de terminologie) 
-
  
 
 ### Expansion
-
-Expansion de tx.fhir.org basée sur :
-
-* Loinc v2.81
-* [codesystem TerminologieCISIS - Terminologie des concepts non trouvés dans les autres terminologies v202510230000 (CodeSystem)](CodeSystem-terminologie-cisis.md)
-
-Ce jeu de valeur (ValueSet) contient 36 concepts
 
 -------
 

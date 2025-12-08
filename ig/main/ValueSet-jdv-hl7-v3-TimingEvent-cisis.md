@@ -29,22 +29,9 @@ Requête sur le SMT
 
 ### Définition logique (CLD)
 
-version : 5; Dernière mise à jour : 2025-10-29 10:45:24+0100; Langue : fr-FR
-
-Profil: [Shareable ValueSetversion : null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
-
-* Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`http://terminology.hl7.org/CodeSystem/v3-TimingEvent`](http://terminology.hl7.org/7.0.0/CodeSystem-v3-TimingEvent.html)version 📦3.0.0
-
  
 
 ### Expansion
-
-Expansion effectuée en interne basée sur :
-
-* [codesystem TimingEvent v3.0.0 (CodeSystem)](http://terminology.hl7.org/7.0.0/CodeSystem-v3-TimingEvent.html)
-* [supplement TimingEventSupplementFr v1.0 (CodeSystem)](CodeSystem-TimingEvent-supplement-fr.md)
-
-Ce jeu de valeur (ValueSet) contient 18 concepts
 
 -------
 

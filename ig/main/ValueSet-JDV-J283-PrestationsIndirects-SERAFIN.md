@@ -29,19 +29,9 @@ Requête sur le SMT
 
 ### Définition logique (CLD)
 
-version : 6; Dernière mise à jour : 2025-07-02 17:06:22+0000; Langue : fr-FR
-
-Profil: [Shareable ValueSetversion : null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
-
-* Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://smt.esante.gouv.fr/terminologie-SERAFINPH`](CodeSystem-terminologie-SERAFINPH.md)version 📦2023.1.0
-
  
 
 ### Expansion
-
-Expansion effectuée en interne basée sur [codesystem Nomenclature des besoins et des prestations v2023.1.0 (CodeSystem)](CodeSystem-terminologie-SERAFINPH.md)
-
-Ce jeu de valeur (ValueSet) contient 35 concepts
 
 -------
 

@@ -29,19 +29,9 @@ Requête sur le SMT
 
 ### Définition logique (CLD)
 
-version : 5; Dernière mise à jour : 2025-10-29 10:43:42+0100; Langue : fr-FR
-
-Profil: [Shareable ValueSetversion : null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
-
-* Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`http://hl7.org/fhir/sid/icf`](http://terminology.hl7.org/5.0.0/CodeSystem-ICF.html)version Non précisé (utilise la dernière version provenant du serveur de terminologie)
-
  
 
 ### Expansion
-
-Expansion de tx.fhir.org basée sur codesystem International Classification of Functioning, Disability and Health version 2017a
-
-Ce jeu de valeur (ValueSet) contient 15 concepts
 
 -------
 

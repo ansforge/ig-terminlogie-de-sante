@@ -29,26 +29,9 @@ Requête sur le SMT
 
 ### Définition logique (CLD)
 
-version : 4; Dernière mise à jour : 2025-07-02 17:06:46+0000; Langue : fr-FR
-
-Profil: [Shareable ValueSetversion : null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
-
-Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :
-
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R06-SectionTableauCNOP/FHIR/TRE-R06-SectionTableauCNOP`](CodeSystem-TRE-R06-SectionTableauCNOP.md)version 📦20231215120000
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_G05-SousSectionTableauCNOP/FHIR/TRE-G05-SousSectionTableauCNOP`](CodeSystem-TRE-G05-SousSectionTableauCNOP.md)version 📦20231215120000 
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R06-SectionTableauCNOP/FHIR/TRE-R06-SectionTableauCNOP`](CodeSystem-TRE-R06-SectionTableauCNOP.md)version 📦20231215120000 
-
  
 
 ### Expansion
-
-Expansion effectuée en interne basée sur :
-
-* [codesystem TRE_G05_SousSectionTableauCNOP v20231215120000 (CodeSystem)](CodeSystem-TRE-G05-SousSectionTableauCNOP.md)
-* [codesystem TRE_R06_SectionTableauCNOP v20231215120000 (CodeSystem)](CodeSystem-TRE-R06-SectionTableauCNOP.md)
-
-Ce jeu de valeur (ValueSet) contient 16 concepts
 
 -------
 

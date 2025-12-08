@@ -29,31 +29,9 @@ Requête sur le SMT
 
 ### Définition logique (CLD)
 
-version : 12; Dernière mise à jour : 2025-07-25 09:32:07+0000; Langue : fr-FR
-
-Profil: [Shareable ValueSetversion : null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
-
-Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :
-
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_A00-ProducteurDocNonPS/FHIR/TRE-A00-ProducteurDocNonPS`](CodeSystem-TRE-A00-ProducteurDocNonPS.md)version 📦20240329120000
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_A02-ProfessionSavFaire-CISIS/FHIR/TRE-A02-ProfessionSavFaire-CISIS`](CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.md)version 📦20241213120000 
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R95-UsagerTitre/FHIR/TRE-R95-UsagerTitre`](CodeSystem-TRE-R95-UsagerTitre.md)version 📦20241213120000 
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R94-ProfessionSocial/FHIR/TRE-R94-ProfessionSocial`](CodeSystem-TRE-R94-ProfessionSocial.md)version 📦20241213120000 
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge`](CodeSystem-TRE-R85-RolePriseCharge.md)version 📦20250919120000 
-
  
 
 ### Expansion
-
-Expansion effectuée en interne basée sur :
-
-* [codesystem TRE_A00_ProducteurDocNonPS v20240329120000 (CodeSystem)](CodeSystem-TRE-A00-ProducteurDocNonPS.md)
-* [codesystem TRE_A02_ProfessionSavFaire_CISIS v20241213120000 (CodeSystem)](CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.md)
-* [codesystem TRE_R85_RolePriseCharge v20250919120000 (CodeSystem)](CodeSystem-TRE-R85-RolePriseCharge.md)
-* [codesystem TRE_R94_ProfessionSocial v20241213120000 (CodeSystem)](CodeSystem-TRE-R94-ProfessionSocial.md)
-* [codesystem TRE_R95_UsagerTitre v20241213120000 (CodeSystem)](CodeSystem-TRE-R95-UsagerTitre.md)
-
-Ce jeu de valeur (ValueSet) contient 392 concepts
 
 -------
 

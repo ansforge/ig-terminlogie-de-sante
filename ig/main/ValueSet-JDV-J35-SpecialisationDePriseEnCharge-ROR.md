@@ -29,25 +29,9 @@ Requête sur le SMT
 
 ### Définition logique (CLD)
 
-version : 10; Dernière mise à jour : 2025-07-02 17:06:28+0000; Langue : fr-FR
-
-Profil: [Shareable ValueSetversion : null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
-
-Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :
-
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R245-SpecialisationDePriseEnCharge/FHIR/TRE-R245-SpecialisationDePriseEnCharge`](CodeSystem-TRE-R245-SpecialisationDePriseEnCharge.md)version 📦20250425120000
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle`](CodeSystem-TRE-R211-ActiviteOperationnelle.md)version 📦20251017120000 
-
  
 
 ### Expansion
-
-Expansion effectuée en interne basée sur :
-
-* [codesystem TRE_R211_ActiviteOperationnelle v20251017120000 (CodeSystem)](CodeSystem-TRE-R211-ActiviteOperationnelle.md)
-* [codesystem TRE_R245_SpecialisationDePriseEnCharge v20250425120000 (CodeSystem)](CodeSystem-TRE-R245-SpecialisationDePriseEnCharge.md)
-
-Ce jeu de valeur (ValueSet) contient 66 concepts
 
 -------
 

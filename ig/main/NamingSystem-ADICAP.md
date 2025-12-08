@@ -11,26 +11,6 @@
 | *Official URL*:https://interop.esante.gouv.fr/terminologies/NamingSystem/ADICAP | *Version*: | |
 | Active as of 2025-07-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ADICAP |
 
-version : 1; Dernière mise à jour : 2025-07-23 08:49:50+0000
-
-Balise: Resource encoded in summary mode (Détails : code ObservationValue SUBSETTED = 'Resource encoded in summary mode')
-
-### Résumé
-
-| | |
-| :--- | :--- |
-| URL de définition | https://interop.esante.gouv.fr/terminologies/NamingSystem/ADICAP |
-| Nom | ADICAP |
-| Statut | active |
-| Éditeur | Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris |
-
-### Identifiants
-
-* **Type**: OID
-  * **Valeur**: 1.2.250.1.213.2.11
-* **Type**: URI
-  * **Valeur**: https://smt.esante.gouv.fr/terminologie-adicap/
-
 
 
 ## Resource Content

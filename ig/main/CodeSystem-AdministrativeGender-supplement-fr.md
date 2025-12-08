@@ -18,8 +18,6 @@ Traduction Française
 
 * Ce supplément de terminologie de référence (CodeSystem) nest pas utilisé ici; il peut être utilisé ailleurs (par exemple spécifications et/ou implémentations qui utilisent ce contenu)
 
-This code system supplement `https://smt.esante.gouv.fr/fhir/CodeSystem/administrativeGender-supplement-fr` defines labels on the following codes:
-
 
 
 ## Resource Content

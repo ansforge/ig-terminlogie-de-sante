@@ -29,29 +29,9 @@ Requête sur le SMT
 
 ### Définition logique (CLD)
 
-version : 12; Dernière mise à jour : 2025-10-02 19:01:59+0200; Langue : fr-FR
-
-Profil: [Shareable ValueSetversion : null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
-
-Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :
-
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R48-DiplomeEtatFrancais/FHIR/TRE-R48-DiplomeEtatFrancais`](CodeSystem-TRE-R48-DiplomeEtatFrancais.md)version 📦20250425120000
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R58-AutreTypeDiplome/FHIR/TRE-R58-AutreTypeDiplome`](CodeSystem-TRE-R58-AutreTypeDiplome.md)version 📦20250828120000 
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R54-DiplomeUniversiteInterUniversitaire/FHIR/TRE-R54-DiplomeUniversiteInterUniversitaire`](CodeSystem-TRE-R54-DiplomeUniversiteInterUniversitaire.md)version 📦20240726120000 
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R56-Attestation/FHIR/TRE-R56-Attestation`](CodeSystem-TRE-R56-Attestation.md)version 📦20240329120000 
-
  
 
 ### Expansion
-
-Expansion effectuée en interne basée sur :
-
-* [codesystem TRE_R48_DiplomeEtatFrancais v20250425120000 (CodeSystem)](CodeSystem-TRE-R48-DiplomeEtatFrancais.md)
-* [codesystem TRE_R54_DiplomeUniversiteInterUniversitaire v20240726120000 (CodeSystem)](CodeSystem-TRE-R54-DiplomeUniversiteInterUniversitaire.md)
-* [codesystem TRE_R56_Attestation v20240329120000 (CodeSystem)](CodeSystem-TRE-R56-Attestation.md)
-* [codesystem TRE_R58_AutreTypeDiplome v20250828120000 (CodeSystem)](CodeSystem-TRE-R58-AutreTypeDiplome.md)
-
-Ce jeu de valeur (ValueSet) contient 64 concepts
 
 -------
 

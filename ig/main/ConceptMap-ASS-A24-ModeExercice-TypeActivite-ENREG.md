@@ -15,14 +15,6 @@
  
 Table d’association Mode d’exercice / Type d’activité pour permettre la saisie automatique du type d’activité 
 
-Mapping de [JDV_J117_ModeExercice_ENREG](ValueSet-JDV-J117-ModeExercice-ENREG.md) vers [JDV_J119_TypeActiviteLiberale_ENREG](ValueSet-JDV-J119-TypeActiviteLiberale-ENREG.md)
-
-**Groupe 1**Mapping de [TRE_R23_ModeExerciceversion : 20231215120000)](CodeSystem-TRE-R23-ModeExercice.md) to [TRE_R24_TypeActiviteLiberaleversion : 20231215120000)](CodeSystem-TRE-R24-TypeActiviteLiberale.md)
-
-* **Code source**: L (Libéral, indépendant, artisan, commerçant)
-  * **relation**: [has specialization](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#specializes)
-  * **Code cible**: ACT-LIB-05 (Autre lieu d'exercice ou autre site)
-
 
 
 ## Resource Content

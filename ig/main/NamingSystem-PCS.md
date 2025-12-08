@@ -11,26 +11,6 @@
 | *Official URL*:https://interop.esante.gouv.fr/terminologies/NamingSystem/PCS | *Version*: | |
 | Active as of 2025-07-16 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:PCS |
 
-version : 1; Dernière mise à jour : 2025-07-23 08:24:01+0000
-
-Balise: Resource encoded in summary mode (Détails : code ObservationValue SUBSETTED = 'Resource encoded in summary mode')
-
-### Résumé
-
-| | |
-| :--- | :--- |
-| URL de définition | https://interop.esante.gouv.fr/terminologies/NamingSystem/PCS |
-| Nom | PCS |
-| Statut | active |
-| Éditeur | Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris |
-
-### Identifiants
-
-* **Type**: OID
-  * **Valeur**: 1.2.250.1.213.2.13
-* **Type**: URI
-  * **Valeur**: https://www.insee.fr/
-
 
 
 ## Resource Content

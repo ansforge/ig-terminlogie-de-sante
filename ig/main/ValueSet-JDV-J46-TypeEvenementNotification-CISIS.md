@@ -29,19 +29,9 @@ Requête sur le SMT
 
 ### Définition logique (CLD)
 
-version : 4; Dernière mise à jour : 2025-07-02 17:06:32+0000; Langue : fr-FR
-
-Profil: [Shareable ValueSetversion : null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
-
-* Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R254-TypeEvenement/FHIR/TRE-R254-TypeEvenement`](CodeSystem-TRE-R254-TypeEvenement.md)version 📦20240329120000
-
  
 
 ### Expansion
-
-Expansion effectuée en interne basée sur [codesystem TRE_R254_TypeEvenement v20240329120000 (CodeSystem)](CodeSystem-TRE-R254-TypeEvenement.md)
-
-Ce jeu de valeur (ValueSet) contient 19 concepts
 
 -------
 

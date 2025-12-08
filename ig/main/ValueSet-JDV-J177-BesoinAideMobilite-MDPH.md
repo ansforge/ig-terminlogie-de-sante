@@ -29,25 +29,9 @@ Requête sur le SMT
 
 ### Définition logique (CLD)
 
-version : 4; Dernière mise à jour : 2025-07-02 17:05:29+0000; Langue : fr-FR
-
-Profil: [Shareable ValueSetversion : null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
-
-Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :
-
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R318-BesoinAideMobilite/FHIR/TRE-R318-BesoinAideMobilite`](CodeSystem-TRE-R318-BesoinAideMobilite.md)version 📦20240329120000
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R302-ContexteCodeComplementaire/FHIR/TRE-R302-ContexteCodeComplementaire`](CodeSystem-TRE-R302-ContexteCodeComplementaire.md)version 📦20240426120000 
-
  
 
 ### Expansion
-
-Expansion effectuée en interne basée sur :
-
-* [codesystem TRE_R302_ContexteCodeComplementaire v20240426120000 (CodeSystem)](CodeSystem-TRE-R302-ContexteCodeComplementaire.md)
-* [codesystem TRE_R318_BesoinAideMobilite v20240329120000 (CodeSystem)](CodeSystem-TRE-R318-BesoinAideMobilite.md)
-
-Ce jeu de valeur (ValueSet) contient 7 concepts
 
 -------
 

@@ -20,20 +20,6 @@ LA BDPM est un des référentiels du médicament gérée et distribuée par l’
 
 * [ValueSet_BDPM_All](ValueSet-vs-bdpm-all.md)
 
-version : 24; Dernière mise à jour : 2025-12-03 17:12:59+0100
-
-Profil: [Shareable CodeSystemversion : null4.0.1)](http://hl7.org/fhir/R4/shareablecodesystem.html)
-
-**Propriétés**
-
-**Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts**
-
-**Filtres**
-
-**Concepts**
-
-This code system `https://smt.esante.gouv.fr/terminologie-bdpm` defines codes, but no codes are represented here
-
 
 
 ## Resource Content

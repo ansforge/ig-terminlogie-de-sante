@@ -29,19 +29,9 @@ Requête sur le SMT
 
 ### Définition logique (CLD)
 
-version : 3; Dernière mise à jour : 2025-07-02 17:06:13+0000; Langue : fr-FR
-
-Profil: [Shareable ValueSetversion : null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
-
-* Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R359-SurspecialiteTransversale/FHIR/TRE-R359-SurspecialiteTransversale`](CodeSystem-TRE-R359-SurspecialiteTransversale.md)version 📦20240531120000
-
  
 
 ### Expansion
-
-Expansion effectuée en interne basée sur [codesystem TRE_R359_SurspecialiteTransversale v20240531120000 (CodeSystem)](CodeSystem-TRE-R359-SurspecialiteTransversale.md)
-
-Ce jeu de valeur (ValueSet) contient 26 concepts
 
 -------
 

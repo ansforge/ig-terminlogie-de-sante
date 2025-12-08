@@ -12,12 +12,6 @@
 | Active as of 2025-12-04 | *Responsible:*[Agence du numérique en santé](https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-bdpm) | *Computable Name*:Alignement_Codes_NUVA_CIS_CIP_BDMP |
 | **Usage:**Workflow Task: alignement des données | | |
 
-version : 16; Dernière mise à jour : 2025-12-04 11:21:18+0100
-
-Balise: Resource encoded in summary mode (Détails : code ObservationValue SUBSETTED = 'Resource encoded in summary mode')
-
-Mapping de [ValueSet_NUVA_All](ValueSet-vs-nuva-all.md) vers [ValueSet_BDPM_All](ValueSet-vs-bdpm-all.md)
-
 
 
 ## Resource Content

@@ -29,12 +29,6 @@ Requête sur le SMT
 
 ### Définition logique (CLD)
 
-version : 1; Dernière mise à jour : 2025-10-09 16:26:28+0200; Langue : fr-FR
-
-Profil: [Shareable ValueSetversion : null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
-
-* Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans `https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322`version Non précisé (utilise la dernière version provenant du serveur de terminologie)
-
  
 
 ### Expansion

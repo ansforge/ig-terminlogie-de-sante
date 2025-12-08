@@ -15,8 +15,6 @@
  
 Association communes - départements - régions (outre-mer et Monaco inclus) 
 
-Mapping de (non spécifié) vers (non spécifié)
-
 
 
 ## Resource Content

@@ -29,19 +29,9 @@ Requête sur le SMT
 
 ### Définition logique (CLD)
 
-version : 4; Dernière mise à jour : 2025-07-02 17:04:47+0000; Langue : fr-FR
-
-Profil: [Shareable ValueSetversion : null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
-
-* Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R31-StatutEtatCivil/FHIR/TRE-R31-StatutEtatCivil`](CodeSystem-TRE-R31-StatutEtatCivil.md)version 📦20250131120000
-
  
 
 ### Expansion
-
-Expansion effectuée en interne basée sur [codesystem TRE_R31_StatutEtatCivil v20250131120000 (CodeSystem)](CodeSystem-TRE-R31-StatutEtatCivil.md)
-
-Ce jeu de valeur (ValueSet) contient 8 concepts
 
 -------
 

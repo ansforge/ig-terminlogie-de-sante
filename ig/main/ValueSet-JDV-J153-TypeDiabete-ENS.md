@@ -29,16 +29,6 @@ Requête sur le SMT
 
 ### Définition logique (CLD)
 
-version : 3; Dernière mise à jour : 2025-01-28 12:47:09+0000; Langue : fr-FR
-
-Profil: [Shareable ValueSetversion : null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
-
-Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :
-
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans `https://mos.esante.gouv.fr/NOS/TRE_R311-RegroupementSurCIM10ATIH/FHIR/TRE-R311-RegroupementSurCIM10ATIH`version Non précisé (utilise la dernière version provenant du serveur de terminologie)
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans `https://mos.esante.gouv.fr/NOS/TRE_R310-CIM10ATIH/FHIR/TRE-R310-CIM10ATIH`version Non précisé (utilise la dernière version provenant du serveur de terminologie) 
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans `https://mos.esante.gouv.fr/NOS/TRE_R308-TAASIP/FHIR/TRE-R308-TAASIP`version Non précisé (utilise la dernière version provenant du serveur de terminologie) 
-
  
 
 ### Expansion

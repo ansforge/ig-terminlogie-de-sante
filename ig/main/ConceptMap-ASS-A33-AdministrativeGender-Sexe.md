@@ -15,23 +15,6 @@
  
 Correspondance entre le JDV sexe du NOS et le JDV administrative gender de FHIR pour simplifier l’adaptation du MOS à FHIR. 
 
-Mapping de [JDV_J262_Sexe](ValueSet-JDV-J262-Sexe.md) vers [AdministrativeGender](http://hl7.org/fhir/R4/valueset-administrative-gender.html)
-
-**Groupe 1**Mapping de [TRE_R249_Sexeversion : 20231215120000)](CodeSystem-TRE-R249-Sexe.md) to [AdministrativeGenderversion : 4.0.1)](http://hl7.org/fhir/R4/codesystem-administrative-gender.html)
-
-* **Code source**: M (Masculin)
-  * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
-  * **Code cible**: male
-* **Code source**: F (Féminin)
-  * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
-  * **Code cible**: female
-* **Code source**: O (Autre sexe (ni masculin, ni féminin))
-  * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
-  * **Code cible**: other
-* **Code source**: UN (Inconnu)
-  * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
-  * **Code cible**: unknown
-
 
 
 ## Resource Content

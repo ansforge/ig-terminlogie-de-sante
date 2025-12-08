@@ -29,25 +29,9 @@ Requête sur le SMT
 
 ### Définition logique (CLD)
 
-version : 4; Dernière mise à jour : 2025-07-02 17:06:38+0000; Langue : fr-FR
-
-Profil: [Shareable ValueSetversion : null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
-
-Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :
-
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_A03-ClasseDocument/FHIR/TRE-A03-ClasseDocument`](CodeSystem-TRE-A03-ClasseDocument.md)version 📦20231215120000
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_A10-NomenclatureURN/FHIR/TRE-A10-NomenclatureURN`](CodeSystem-TRE-A10-NomenclatureURN.md)version 📦20231215120000 
-
  
 
 ### Expansion
-
-Expansion effectuée en interne basée sur :
-
-* [codesystem TRE_A03_ClasseDocument v20231215120000 (CodeSystem)](CodeSystem-TRE-A03-ClasseDocument.md)
-* [codesystem TRE_A10_NomenclatureURN v20231215120000 (CodeSystem)](CodeSystem-TRE-A10-NomenclatureURN.md)
-
-Ce jeu de valeur (ValueSet) contient 12 concepts
 
 -------
 

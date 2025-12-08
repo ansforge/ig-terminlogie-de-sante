@@ -29,19 +29,9 @@ Requête sur le SMT
 
 ### Définition logique (CLD)
 
-version : 2; Dernière mise à jour : 2025-07-01 13:32:19+0000; Langue : fr-FR
-
-Profil: [Shareable ValueSetversion : null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
-
-* Include codes provenant de[`https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r390-type-projet-personnalise`](CodeSystem-tre-r390-type-projet-personnalise.md)version 📦20250422120000 où status = active
-
  
 
 ### Expansion
-
-Expansion effectuée en interne basée sur [codesystem Tre R390 Type Projet Personnalise v20250422120000 (CodeSystem)](CodeSystem-tre-r390-type-projet-personnalise.md)
-
-Ce jeu de valeur (ValueSet) contient 7 concepts
 
 -------
 

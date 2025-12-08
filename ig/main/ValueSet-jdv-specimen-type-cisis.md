@@ -29,27 +29,9 @@ Requête sur le SMT
 
 ### Définition logique (CLD)
 
-version : 5; Dernière mise à jour : 2025-10-29 10:44:48+0100; Langue : fr-FR
-
-Profil: [Shareable ValueSetversion : null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
-
-Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :
-
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`http://terminology.hl7.org/CodeSystem/v3-SpecimenType`](http://terminology.hl7.org/7.0.0/CodeSystem-v3-SpecimenType.html)version 📦3.0.0
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`http://terminology.hl7.org/CodeSystem/v2-0487`](http://terminology.hl7.org/5.0.0/CodeSystem-v2-0487.html)version 📦2.3.0 
-
  
 
 ### Expansion
-
-Expansion effectuée en interne basée sur :
-
-* [codesystem specimenType v2.3.0 (CodeSystem)](http://terminology.hl7.org/5.0.0/CodeSystem-v2-0487.html)
-* [codesystem SpecimenType v3.0.0 (CodeSystem)](http://terminology.hl7.org/7.0.0/CodeSystem-v3-SpecimenType.html)
-* [supplement SpecimenTypeSupplementFr v1.0 (CodeSystem)](CodeSystem-specimenType-supplement-fr.md)
-* [supplement V3SpecimenTypeSupplementFr v1.0 (CodeSystem)](CodeSystem-v3-SpecimenType-supplement-fr.md)
-
-Ce jeu de valeur (ValueSet) contient 334 concepts
 
 -------
 

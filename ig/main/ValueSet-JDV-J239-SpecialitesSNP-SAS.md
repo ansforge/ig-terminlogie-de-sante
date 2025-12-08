@@ -29,25 +29,9 @@ Requête sur le SMT
 
 ### Définition logique (CLD)
 
-version : 5; Dernière mise à jour : 2025-07-02 17:06:04+0000; Langue : fr-FR
-
-Profil: [Shareable ValueSetversion : null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
-
-Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :
-
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R38-SpecialiteOrdinale/FHIR/TRE-R38-SpecialiteOrdinale`](CodeSystem-TRE-R38-SpecialiteOrdinale.md)version 📦20240531120000
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante`](CodeSystem-TRE-G15-ProfessionSante.md)version 📦20250328120000 
-
  
 
 ### Expansion
-
-Expansion effectuée en interne basée sur :
-
-* [codesystem TRE_G15_ProfessionSante v20250328120000 (CodeSystem)](CodeSystem-TRE-G15-ProfessionSante.md)
-* [codesystem TRE_R38_SpecialiteOrdinale v20240531120000 (CodeSystem)](CodeSystem-TRE-R38-SpecialiteOrdinale.md)
-
-Ce jeu de valeur (ValueSet) contient 26 concepts
 
 -------
 

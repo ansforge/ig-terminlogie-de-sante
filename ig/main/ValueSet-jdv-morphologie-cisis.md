@@ -29,21 +29,9 @@ Requête sur le SMT
 
 ### Définition logique (CLD)
 
-version : 5; Dernière mise à jour : 2025-10-29 10:44:15+0100; Langue : fr-FR
-
-Profil: [Shareable ValueSetversion : null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
-
-* Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`http://terminology.hl7.org/CodeSystem/icd-o-3`](http://terminology.hl7.org/5.0.0/CodeSystem-icd-o-3.html)version Non précisé (utilise la dernière version provenant du serveur de terminologie)
-
  
 
 ### Expansion
-
-Expansion basée sur un fragment de CodeSystem http://terminology.hl7.org/CodeSystem/icd-o-3 International Classification of Diseases for Oncology, version 3. version 2000
-
-Expansion de tx.fhir.org basée sur codesystem International Classification of Diseases for Oncology, version 3. version 2000
-
-Ce jeu de valeur (ValueSet) contient au moins 3 concepts
 
 -------
 

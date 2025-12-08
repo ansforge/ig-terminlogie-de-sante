@@ -20,20 +20,6 @@ La nomenclature unifiée des vaccins (NUVA) liste les spécialités vaccinales c
 
 * [ValueSet_NUVA_All](ValueSet-vs-nuva-all.md)
 
-version : 23; Dernière mise à jour : 2025-12-04 10:59:51+0100
-
-Profil: [Shareable CodeSystemversion : null4.0.1)](http://hl7.org/fhir/R4/shareablecodesystem.html)
-
-**Propriétés**
-
-**Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts**
-
-**Filtres**
-
-**Concepts**
-
-This code system `https://smt.esante.gouv.fr/terminologie-nuva` defines codes, but no codes are represented here
-
 
 
 ## Resource Content

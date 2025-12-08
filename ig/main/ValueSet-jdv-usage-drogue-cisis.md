@@ -29,19 +29,9 @@ Requête sur le SMT
 
 ### Définition logique (CLD)
 
-version : 5; Dernière mise à jour : 2025-10-29 10:45:17+0100; Langue : fr-FR
-
-Profil: [Shareable ValueSetversion : null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
-
-* Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://smt.esante.gouv.fr/terminologie-standardterms`](CodeSystem-terminologie-standardterms.md)version Non précisé (utilise la dernière version provenant du serveur de terminologie)
-
  
 
 ### Expansion
-
-Expansion de smt.esante.gouv.fr basée sur [codesystem Standard Terms Data Base Dictionnaire européen multilingue de termes normalisés descripteurs de médicaments v2025-03-19 (CodeSystem)](CodeSystem-terminologie-standardterms.md)
-
-Ce jeu de valeur (ValueSet) contient 2 concepts
 
 -------
 

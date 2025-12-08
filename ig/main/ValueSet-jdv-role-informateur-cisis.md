@@ -29,22 +29,9 @@ Requête sur le SMT
 
 ### Définition logique (CLD)
 
-version : 5; Dernière mise à jour : 2025-10-29 10:44:39+0100; Langue : fr-FR
-
-Profil: [Shareable ValueSetversion : null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
-
-* Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`http://terminology.hl7.org/CodeSystem/v3-RoleClass`](http://terminology.hl7.org/7.0.0/CodeSystem-v3-RoleClass.html)version 📦4.0.0
-
  
 
 ### Expansion
-
-Expansion effectuée en interne basée sur :
-
-* [codesystem RoleClass v4.0.0 (CodeSystem)](http://terminology.hl7.org/7.0.0/CodeSystem-v3-RoleClass.html)
-* [supplement RoleClassSupplementFr v1.0 (CodeSystem)](CodeSystem-RoleClass-supplement-fr.md)
-
-Ce jeu de valeur (ValueSet) contient 5 concepts
 
 -------
 

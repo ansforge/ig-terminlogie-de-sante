@@ -29,12 +29,6 @@ Requête sur le SMT
 
 ### Définition logique (CLD)
 
-version : 5; Dernière mise à jour : 2025-10-29 10:44:47+0100; Langue : fr-FR
-
-Profil: [Shareable ValueSetversion : null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
-
-* Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans `http://​dicom.​nema.​org/​medical/​dicom/​current/​output/​chtml/​part06/​chapter_A.html`version Non précisé (utilise la dernière version provenant du serveur de terminologie)
-
  
 
 ### Expansion
