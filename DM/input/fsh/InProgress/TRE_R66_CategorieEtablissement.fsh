@@ -4315,6 +4315,17 @@ Description: "Catégorie d'établissements"
 * #648 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
 * #648 ^property[+].code = #status
 * #648 ^property[=].valueCode = #active
+* #649 "Centre de santé et de médiation en santé sexuelle" "Les centres de santé et de médiation en santé sexuelle (CSMSS) sont des établissements de santé dérogatoires relevant de l’article L. 6323-1 du code de la santé publique (CSP). Ils ont initialement fait l’objet d’une expérimentation dans le cadre du dispositif prévu à l’article 51 de la loi de financement de la sécurité sociale, au cours de laquelle ils étaient rattachés au numéro FINESS des centres de santé de droit commun. L’activité des centres de santé et de médiation en santé sexuelle (CSMSS) consiste à assurer l’accueil, l’information, la prévention, le dépistage et l’accompagnement des publics dans le domaine de la santé sexuelle dans une approche globale intégrant notamment la prévention et la prise en charge des infections sexuellement transmissibles (IST) et du VIH, la prescription de la contraception et la mise en place de parcours en santé sexuelle."
+* #649 ^designation[0].language = #fr-FR
+* #649 ^designation[=].use.system = "http://snomed.info/sct"
+* #649 ^designation[=].use = $sct#900000000000013009
+* #649 ^designation[=].value = "C.S.M.S.S."
+* #649 ^property[0].code = #dateValid
+* #649 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #649 ^property[+].code = #dateMaj
+* #649 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #649 ^property[+].code = #status
+* #649 ^property[=].valueCode = #active
 * #690 "Etablissement de Fabrication Annexe à une Officine"
 * #690 ^designation[0].language = #fr-FR
 * #690 ^designation[=].use.system = "http://snomed.info/sct"
