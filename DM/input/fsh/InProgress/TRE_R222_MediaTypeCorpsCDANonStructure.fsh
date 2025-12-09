@@ -9,10 +9,10 @@ Description: "Identifiant des modèles de CDA non structurés"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R222-MediaTypeCorpsCDANonStructure/FHIR/TRE-R222-MediaTypeCorpsCDANonStructure"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.1.4.330"
-* ^version = "20231215120000"
-* ^status = #active
+* ^version = "20251222120000"
+* ^status = #retired
 * ^experimental = false
-* ^date = "2023-12-15T12:00:00+01:00"
+* ^date = "2025-12-22T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
