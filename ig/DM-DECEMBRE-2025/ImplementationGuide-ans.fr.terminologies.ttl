@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "Terminologies"] ; # 
   fhir:title [ fhir:v "Terminologies  de Santé"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-12-09T10:41:43+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-12-09T13:35:37+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -71674,6 +71674,7 @@
          fhir:reference [ fhir:v "CodeSystem/TRE-R16-LieuFormation" ]
        ] ;
        fhir:name [ fhir:v "TRE_R16_LieuFormation" ] ;
+       fhir:description [ fhir:v "Lieu de formation" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false

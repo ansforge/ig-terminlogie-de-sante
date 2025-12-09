@@ -3,8 +3,8 @@
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
              dateMaj="20251222120000"
-             dateValid=""
-             description=""
+             dateValid="20151229000000"
+             description="Lieu de formation"
              displayName="TRE_R16_LieuFormation"
              id="1.2.250.1.213.1.6.1.35"
              typeFichier="TRE"

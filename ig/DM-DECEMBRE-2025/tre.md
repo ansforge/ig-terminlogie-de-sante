@@ -70,7 +70,7 @@ Les terminologies sont des nomenclatures officielles créées et maintenues :
 | [TRE_R11_CiviliteExercice](CodeSystem-TRE-R11-CiviliteExercice.md) | Civilité d'exercice | 15/12/2023 |
 | [TRE_R13_CommuneOM](CodeSystem-TRE-R13-CommuneOM.md) |  | 28/06/2024 |
 | [TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md) | Type de diplôme | 29/03/2024 |
-| [TRE_R16_LieuFormation](CodeSystem-TRE-R16-LieuFormation.md) |  | 22/12/2025 |
+| [TRE_R16_LieuFormation](CodeSystem-TRE-R16-LieuFormation.md) | Lieu de formation | 22/12/2025 |
 | [TRE_R17_TypeAutorisation](CodeSystem-TRE-R17-TypeAutorisation.md) | Type d'autorisation | 23/05/2025 |
 | [TRE_R18_DisciplineAutorisation](CodeSystem-TRE-R18-DisciplineAutorisation.md) | Discipline d'autorisation | 15/12/2023 |
 | [TRE_R200_CanalCommunication](CodeSystem-TRE-R200-CanalCommunication.md) | Canal de communication | 15/12/2023 |

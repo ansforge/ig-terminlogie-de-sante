@@ -419,7 +419,7 @@
       "status" : "active",
       "name" : "TRE_R16_LieuFormation",
       "title" : null,
-      "description" : "",
+      "description" : "Lieu de formation",
       "oids" : ["1.2.250.1.213.1.6.1.35"]
     },
     {
