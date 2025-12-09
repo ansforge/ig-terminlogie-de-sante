@@ -1,8 +1,11 @@
 CodeSystem: TRE_R16_LieuFormation
 Id: TRE-R16-LieuFormation
+Description: "Lieu de formation"
 * ^meta.versionId = "12"
 * ^meta.lastUpdated = "2025-10-31T14:59:20.465+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
+* ^extension.valuePeriod.start = "2015-12-29T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R16-LieuFormation/FHIR/TRE-R16-LieuFormation"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.35"
