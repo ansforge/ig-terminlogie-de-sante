@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R343-FonctionLieu/FHIR/TRE-R343-FonctionLieu | *Version*:20251017120000 | |
-| Active as of 2025-10-17 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R343_FonctionLieu |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R343-FonctionLieu/FHIR/TRE-R343-FonctionLieu | *Version*:20251222120000 | |
+| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R343_FonctionLieu |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.227 | | |
 
  
@@ -49,11 +49,11 @@ Destination d’usage du lieu
       "value" : "urn:oid:1.2.250.1.213.3.3.227"
     }
   ],
-  "version" : "20251017120000",
+  "version" : "20251222120000",
   "name" : "TRE_R343_FonctionLieu",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-10-17T12:00:00+01:00",
+  "date" : "2025-12-22T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Destination d'usage du lieu",
   "jurisdiction" : [
@@ -68,7 +68,7 @@ Destination d’usage du lieu
   ],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 14,
+  "count" : 28,
   "property" : [
     {
       "code" : "dateValid",
@@ -381,6 +381,258 @@ Destination d’usage du lieu
         {
           "code" : "dateMaj",
           "valueDateTime" : "2025-10-17T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "015",
+      "display" : "Local de cabinet de ville d'ergothérapie",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "016",
+      "display" : "Local de cabinet de ville de diététique",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "017",
+      "display" : "Local de cabinet dentaire ou de stomatologie",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "018",
+      "display" : "Local de cabinet de ville de kinésithérapie",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "019",
+      "display" : "Local de cabinet de ville infirmier",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "020",
+      "display" : "Local de cabinet de ville de maïeutique",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "021",
+      "display" : "Local de cabinet de ville d’oto-rhino-laryngologie (ORL)",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "022",
+      "display" : "Local de cabinet de ville de cardiologie",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "023",
+      "display" : "Local de cabinet de ville de médecine générale",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "024",
+      "display" : "Local de cabinet de ville de Médecine Physique et de Réadaptation (MPR)",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "025",
+      "display" : "Local de cabinet de ville de rhumatologie",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "026",
+      "display" : "Local de cabinet de ville de pédiatrie",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "027",
+      "display" : "Local de cabinet de ville d’ophtalmologie",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "028",
+      "display" : "Local de cabinet de ville de pneumologie",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",

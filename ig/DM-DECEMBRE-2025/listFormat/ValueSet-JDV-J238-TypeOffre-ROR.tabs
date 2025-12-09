@@ -1,5 +1,5 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>  
-1.2.250.1.213.3.4.65;JDV;JDV_J238_TypeOffre_ROR.tabs;Prestations que peut réaliser une structure et qui permettent de répondre au besoin de santé d'une personne;https://mos.esante.gouv.fr/NOS/JDV_J238-TypeOffre-ROR;20240126120000;;20251017120000
+1.2.250.1.213.3.4.65;JDV;JDV_J238_TypeOffre_ROR.tabs;Prestations que peut réaliser une structure et qui permettent de répondre au besoin de santé d'une personne;https://mos.esante.gouv.fr/NOS/JDV_J238-TypeOffre-ROR;20240126120000;;20251222120000
 <OID>;<Code>;<Libellé>
 1.2.250.1.213.3.3.39;01;Appartement thérapeutique
 1.2.250.1.213.3.3.39;02;Atelier thérapeutique
@@ -7,7 +7,7 @@
 1.2.250.1.213.3.3.39;04;Centre d'Accueil Permanent (CAP)
 1.2.250.1.213.3.3.39;05;Centre d’Activités Thérapeutiques et de Temps de Groupe (CATTG) – ex CATTP
 1.2.250.1.213.3.3.39;06;Centre de crise
-1.2.250.1.213.3.3.39;07;Centre de post-cure
+1.2.250.1.213.3.3.39;07;Centre de soins post-aigus (CeSPA)
 1.2.250.1.213.3.3.39;08;Centre de Ressources Autisme (CRA)
 1.2.250.1.213.3.3.39;09;Centre Expert
 1.2.250.1.213.3.3.39;10;Centre Médico-Psychologique (CMP) Adulte
@@ -36,7 +36,7 @@
 1.2.250.1.213.3.3.39;33;Service de portage de repas à domicile
 1.2.250.1.213.3.3.39;34;Service de Téléassistance
 1.2.250.1.213.3.3.39;35;Foyer restaurant
-1.2.250.1.213.3.3.39;36;Dispositif d'accueil familial
+1.2.250.1.213.3.3.39;36;Dispositif d'accueil familial social PA-PH
 1.2.250.1.213.3.3.39;37;Centre d'accueil familial spécialisé (CAFS)
 1.2.250.1.213.3.3.39;38;Plateforme d'accompagnement et de répit
 1.2.250.1.213.3.3.39;39;Foyer ou établissement d'accueil médicalisé (FAM ou EAM)
@@ -141,7 +141,7 @@
 1.2.250.1.213.3.3.39;142;Equipes Mobiles Santé Précarité (EMSP)
 1.2.250.1.213.3.3.39;143;Communauté 360
 1.2.250.1.213.3.3.39;144;Equipe Mobile de Psychiatrie de la Personne Âgée
-1.2.250.1.213.3.3.39;145;Unité d'addictologie
+1.2.250.1.213.3.3.39;145;Unité hospitalière d'addictologie
 1.2.250.1.213.3.3.39;146;Unité de prise en charge des brûlés
 1.2.250.1.213.3.3.39;147;Unité de sevrage complexe
 1.2.250.1.213.3.3.39;148;Unité hospitalière d'allergologie
@@ -153,7 +153,7 @@
 1.2.250.1.213.3.3.39;154;Unité hospitalière de dermatologie
 1.2.250.1.213.3.3.39;155;Unité hospitalière de génétique médicale
 1.2.250.1.213.3.3.39;156;Unité hospitalière de gériatrie
-1.2.250.1.213.3.3.39;157;Unité hospitalière de gynécologie et/ou obstétrique
+1.2.250.1.213.3.3.39;157;Unité hospitalière de gynécologie
 1.2.250.1.213.3.3.39;158;Unité hospitalière de médecine vasculaire
 1.2.250.1.213.3.3.39;159;Unité hospitalière de néphrologie
 1.2.250.1.213.3.3.39;160;Unité hospitalière de neurochirurgie
@@ -278,3 +278,14 @@
 1.2.250.1.213.3.3.39;281;Centre Médico-Psychologique Enfant et Adolescent (CMPEA)
 1.2.250.1.213.3.3.39;282;Unité hospitalière de psychiatrie de l’enfant et de l’adolescent (pédopsychiatrie)
 1.2.250.1.213.3.3.39;283;Equipe mobile de psychiatrie périnatale
+1.2.250.1.213.3.3.39;284;Equipe Spécialisée de Prévention et de Réadaptation à Domicile (ESPRAD)
+1.2.250.1.213.3.3.39;285;Centre Anti-Poison et de Toxico-Vigilance (CAPTV)
+1.2.250.1.213.3.3.39;286;Unité hospitalière de Soins Intensifs Néonatals (USIN)
+1.2.250.1.213.3.3.39;287;Unité hospitalière de réanimation néonatale
+1.2.250.1.213.3.3.39;288;Unité hospitalière « kangourou » ou « koala »
+1.2.250.1.213.3.3.39;289;Unité hospitalière de néonatalogie
+1.2.250.1.213.3.3.39;290;Unité hospitalière de maternité
+1.2.250.1.213.3.3.39;291;Halte Soins Addiction (HSA)
+1.2.250.1.213.3.3.39;292;Unité Hospitalière Sécurisée Interrégionale (UHSI)
+1.2.250.1.213.3.3.39;293;Unité hospitalière dédiée grossesse pathologique (GHR)
+1.2.250.1.213.3.3.39;294;Unité hospitalière de soins externes

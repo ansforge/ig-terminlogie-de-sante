@@ -1,5 +1,5 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>
-1.2.250.1.213.3.3.39;TRE;TRE_R244_CategorieOrganisation.tabs;Catégorie d'organisation;https://mos.esante.gouv.fr/NOS/TRE_R244-CategorieOrganisation;20171013120000;;20251017120000
+1.2.250.1.213.3.3.39;TRE;TRE_R244_CategorieOrganisation.tabs;Catégorie d'organisation;https://mos.esante.gouv.fr/NOS/TRE_R244-CategorieOrganisation;20171013120000;;20251222120000
 <OID>;<Code>;<Libellé adapté>;<Libellé court>;<Libellé long>;<Date valid>;<Date fin>;<Date MàJ> 
 1.2.250.1.213.3.3.39;01;Appartement thérapeutique;Appartement thérapeutique;Appartement thérapeutique;20171013120000;;20171013120000
 1.2.250.1.213.3.3.39;02;Atelier thérapeutique;Atelier thérapeutique;Atelier thérapeutique;20171013120000;;20171013120000
@@ -7,7 +7,7 @@
 1.2.250.1.213.3.3.39;04;Centre d'Accueil Permanent (CAP);CAP;Centre d'Accueil Permanent (CAP);20171013120000;;20171013120000
 1.2.250.1.213.3.3.39;05;Centre d’Activités Thérapeutiques et de Temps de Groupe (CATTG) – ex CATTP;CATTG (ex-CATTP);Centre d’Activités Thérapeutiques et de Temps de Groupe (CATTG) – ex CATTP;20171013120000;;20251017120000
 1.2.250.1.213.3.3.39;06;Centre de crise;Centre de crise;Centre de crise;20171013120000;;20171013120000
-1.2.250.1.213.3.3.39;07;Centre de post-cure;Centre de post-cure;Centre de post-cure;20171013120000;;20171013120000
+1.2.250.1.213.3.3.39;07;Centre de soins post-aigus (CeSPA);Centre de soins post-aigus (CeSPA);Centre de soins post-aigus (CeSPA);20171013120000;;20251222120000
 1.2.250.1.213.3.3.39;08;Centre de Ressources Autisme (CRA);CRA;Centre de Ressources Autisme (CRA);20171013120000;;20171013120000
 1.2.250.1.213.3.3.39;09;Centre Expert;Centre Expert;Centre Expert;20171013120000;;20171013120000
 1.2.250.1.213.3.3.39;10;Centre Médico-Psychologique (CMP) Adulte;CMP Adulte;Centre Médico-Psychologique (CMP) Adulte;20171013120000;;20251017120000
@@ -36,7 +36,7 @@
 1.2.250.1.213.3.3.39;33;Service de portage de repas à domicile;Portage de repas à domicile;Service de portage de repas à domicile;20180126120000;;20180126120000
 1.2.250.1.213.3.3.39;34;Service de Téléassistance;Service de Téléassistance;Service de Téléassistance;20180126120000;;20180126120000
 1.2.250.1.213.3.3.39;35;Foyer restaurant;Foyer restaurant;Foyer restaurant;20180126120000;;20180126120000
-1.2.250.1.213.3.3.39;36;Dispositif d'accueil familial;Dispositif d'accueil familial;Dispositif d'accueil familial;20180126120000;;20180126120000
+1.2.250.1.213.3.3.39;36;Dispositif d'accueil familial social PA-PH;Dispositif d'accueil familial social PA-PH;Dispositif d'accueil familial social PA-PH;20180126120000;;20251222120000
 1.2.250.1.213.3.3.39;37;Centre d'accueil familial spécialisé (CAFS);CAFS;Centre d'accueil familial spécialisé (CAFS);20180126120000;;20180126120000
 1.2.250.1.213.3.3.39;38;Plateforme d'accompagnement et de répit;Plat accompagnement et répit;Plateforme d'accompagnement et de répit;20180126120000;;20180126120000
 1.2.250.1.213.3.3.39;39;Foyer ou établissement d'accueil médicalisé (FAM ou EAM);FAM ou EAM;Foyer ou établissement d'accueil médicalisé (FAM ou EAM);20180126120000;;20190329120000
@@ -145,7 +145,7 @@
 1.2.250.1.213.3.3.39;142;Equipes Mobiles Santé Précarité (EMSP);EMSP;Equipes Mobiles Santé Précarité (EMSP);20241025120000;;20241025120000
 1.2.250.1.213.3.3.39;143;Communauté 360;Communauté 360;Communauté 360;20241025120000;;20241025120000
 1.2.250.1.213.3.3.39;144;Equipe Mobile de Psychiatrie de la Personne Âgée;EMPPA;Equipe Mobile de Psychiatrie de la Personne Âgée;20241025120000;;20241025120000
-1.2.250.1.213.3.3.39;145;Unité d'addictologie;Unité d'addictologie;Unité d'addictologie;20241025120000;;20241025120000
+1.2.250.1.213.3.3.39;145;Unité hospitalière d'addictologie;Unité hospitalière d'addictologie;Unité hospitalière d'addictologie;20241025120000;;20251222120000
 1.2.250.1.213.3.3.39;146;Unité de prise en charge des brûlés;Unité des brûlés;Unité de prise en charge des brûlés;20241025120000;;20241025120000
 1.2.250.1.213.3.3.39;147;Unité de sevrage complexe;Unité de sevrage complexe;Unité de sevrage complexe;20241025120000;;20241025120000
 1.2.250.1.213.3.3.39;148;Unité hospitalière d'allergologie;Unité d'allergologie;Unité hospitalière d'allergologie;20241025120000;;20241025120000
@@ -157,7 +157,7 @@
 1.2.250.1.213.3.3.39;154;Unité hospitalière de dermatologie;Unité de dermatologie;Unité hospitalière de dermatologie;20241025120000;;20241025120000
 1.2.250.1.213.3.3.39;155;Unité hospitalière de génétique médicale;Unité de génétique médicale;Unité hospitalière de génétique médicale;20241025120000;;20241025120000
 1.2.250.1.213.3.3.39;156;Unité hospitalière de gériatrie;Unité de gériatrie;Unité hospitalière de gériatrie;20241025120000;;20241025120000
-1.2.250.1.213.3.3.39;157;Unité hospitalière de gynécologie et/ou obstétrique;Unité hospitalière de gynécologie et/ou obstétrique;Unité hospitalière de gynécologie et/ou obstétrique;20241025120000;;20250625120000
+1.2.250.1.213.3.3.39;157;Unité hospitalière de gynécologie;Unité hospitalière de gynécologie;Unité hospitalière de gynécologie;20241025120000;;20251222120000
 1.2.250.1.213.3.3.39;158;Unité hospitalière de médecine vasculaire;Unité de médecine vasculaire;Unité hospitalière de médecine vasculaire;20241025120000;;20241025120000
 1.2.250.1.213.3.3.39;159;Unité hospitalière de néphrologie;Unité de néphrologie;Unité hospitalière de néphrologie;20241025120000;;20241025120000
 1.2.250.1.213.3.3.39;160;Unité hospitalière de neurochirurgie;Unité de neurochirurgie;Unité hospitalière de neurochirurgie;20241025120000;;20241025120000
@@ -284,3 +284,14 @@
 1.2.250.1.213.3.3.39;281;Centre Médico-Psychologique Enfant et Adolescent (CMPEA);CMPEA;Centre Médico-Psychologique Enfant et Adolescent (CMPEA);20251017120000;;20251017120000
 1.2.250.1.213.3.3.39;282;Unité hospitalière de psychiatrie de l’enfant et de l’adolescent (pédopsychiatrie);Unité de pédopsychiatrie;Unité hospitalière de psychiatrie de l’enfant et de l’adolescent (pédopsychiatrie);20251017120000;;20251017120000
 1.2.250.1.213.3.3.39;283;Equipe mobile de psychiatrie périnatale;Equipe mobile psy périnatale;Equipe mobile de psychiatrie périnatale;20251017120000;;20251017120000
+1.2.250.1.213.3.3.39;284;Equipe Spécialisée de Prévention et de Réadaptation à Domicile (ESPRAD);Equipe Spécialisée de Prévention et de Réadaptation à Domicile (ESPRAD);Equipe Spécialisée de Prévention et de Réadaptation à Domicile (ESPRAD);20251222120000;;20251222120000
+1.2.250.1.213.3.3.39;285;Centre Anti-Poison et de Toxico-Vigilance (CAPTV);Centre Anti-Poison et de Toxico-Vigilance (CAPTV);Centre Anti-Poison et de Toxico-Vigilance (CAPTV);20251222120000;;20251222120000
+1.2.250.1.213.3.3.39;286;Unité hospitalière de Soins Intensifs Néonatals (USIN);Unité hospitalière de Soins Intensifs Néonatals (USIN);Unité hospitalière de Soins Intensifs Néonatals (USIN);20251222120000;;20251222120000
+1.2.250.1.213.3.3.39;287;Unité hospitalière de réanimation néonatale;Unité hospitalière de réanimation néonatale;Unité hospitalière de réanimation néonatale;20251222120000;;20251222120000
+1.2.250.1.213.3.3.39;288;Unité hospitalière « kangourou » ou « koala »;Unité hospitalière « kangourou » ou « koala »;Unité hospitalière « kangourou » ou « koala »;20251222120000;;20251222120000
+1.2.250.1.213.3.3.39;289;Unité hospitalière de néonatalogie;Unité hospitalière de néonatalogie;Unité hospitalière de néonatalogie;20251222120000;;20251222120000
+1.2.250.1.213.3.3.39;290;Unité hospitalière de maternité;Unité hospitalière de maternité;Unité hospitalière de maternité;20251222120000;;20251222120000
+1.2.250.1.213.3.3.39;291;Halte Soins Addiction (HSA);Halte Soins Addiction (HSA);Halte Soins Addiction (HSA);20251222120000;;20251222120000
+1.2.250.1.213.3.3.39;292;Unité Hospitalière Sécurisée Interrégionale (UHSI);Unité Hospitalière Sécurisée Interrégionale (UHSI);Unité Hospitalière Sécurisée Interrégionale (UHSI);20251222120000;;20251222120000
+1.2.250.1.213.3.3.39;293;Unité hospitalière dédiée grossesse pathologique (GHR);Unité hospitalière dédiée grossesse pathologique (GHR);Unité hospitalière dédiée grossesse pathologique (GHR);20251222120000;;20251222120000
+1.2.250.1.213.3.3.39;294;Unité hospitalière de soins externes;Unité hospitalière de soins externes;Unité hospitalière de soins externes;20251222120000;;20251222120000

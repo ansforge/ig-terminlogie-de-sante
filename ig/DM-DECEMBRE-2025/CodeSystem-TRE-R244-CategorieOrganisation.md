@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R244-CategorieOrganisation/FHIR/TRE-R244-CategorieOrganisation | *Version*:20251017120000 | |
-| Active as of 2025-10-17 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R244_CategorieOrganisation |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R244-CategorieOrganisation/FHIR/TRE-R244-CategorieOrganisation | *Version*:20251222120000 | |
+| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R244_CategorieOrganisation |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.39 | | |
 
  
@@ -50,11 +50,11 @@ Catégorie d’organisation
       "value" : "urn:oid:1.2.250.1.213.3.3.39"
     }
   ],
-  "version" : "20251017120000",
+  "version" : "20251222120000",
   "name" : "TRE_R244_CategorieOrganisation",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-10-17T12:00:00+01:00",
+  "date" : "2025-12-22T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Catégorie d'organisation",
   "jurisdiction" : [
@@ -69,7 +69,7 @@ Catégorie d’organisation
   ],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 283,
+  "count" : 294,
   "property" : [
     {
       "code" : "dateValid",
@@ -246,7 +246,7 @@ Catégorie d’organisation
     },
     {
       "code" : "07",
-      "display" : "Centre de post-cure",
+      "display" : "Centre de soins post-aigus (CeSPA)",
       "property" : [
         {
           "code" : "dateValid",
@@ -254,7 +254,7 @@ Catégorie d’organisation
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2017-10-13T12:00:00+01:00"
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -1030,7 +1030,7 @@ Catégorie d’organisation
     },
     {
       "code" : "36",
-      "display" : "Dispositif d'accueil familial",
+      "display" : "Dispositif d'accueil familial social PA-PH",
       "property" : [
         {
           "code" : "dateValid",
@@ -1038,7 +1038,7 @@ Catégorie d’organisation
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2018-01-26T12:00:00+01:00"
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -3984,7 +3984,7 @@ Catégorie d’organisation
     },
     {
       "code" : "145",
-      "display" : "Unité d'addictologie",
+      "display" : "Unité hospitalière d'addictologie",
       "property" : [
         {
           "code" : "dateValid",
@@ -3992,7 +3992,7 @@ Catégorie d’organisation
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2024-10-25T12:00:00+01:00"
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -4300,7 +4300,7 @@ Catégorie d’organisation
     },
     {
       "code" : "157",
-      "display" : "Unité hospitalière de gynécologie et/ou obstétrique",
+      "display" : "Unité hospitalière de gynécologie",
       "property" : [
         {
           "code" : "dateValid",
@@ -4308,7 +4308,7 @@ Catégorie d’organisation
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-06-25T12:00:00+01:00"
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -7784,6 +7784,204 @@ Catégorie d’organisation
         {
           "code" : "dateMaj",
           "valueDateTime" : "2025-10-17T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "284",
+      "display" : "Equipe Spécialisée de Prévention et de Réadaptation à Domicile (ESPRAD)",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "285",
+      "display" : "Centre Anti-Poison et de Toxico-Vigilance (CAPTV)",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "286",
+      "display" : "Unité hospitalière de Soins Intensifs Néonatals (USIN)",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "287",
+      "display" : "Unité hospitalière de réanimation néonatale",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "288",
+      "display" : "Unité hospitalière « kangourou » ou « koala »",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "289",
+      "display" : "Unité hospitalière de néonatalogie",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "290",
+      "display" : "Unité hospitalière de maternité",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "291",
+      "display" : "Halte Soins Addiction (HSA)",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "292",
+      "display" : "Unité Hospitalière Sécurisée Interrégionale (UHSI)",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "293",
+      "display" : "Unité hospitalière dédiée grossesse pathologique (GHR)",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "294",
+      "display" : "Unité hospitalière de soins externes",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",

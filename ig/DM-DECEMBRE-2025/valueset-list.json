@@ -1519,7 +1519,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J198-FonctionLieu-ROR/FHIR/JDV-J198-FonctionLieu-ROR",
-      "version" : "20251017120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "JDV_J198_FonctionLieu_ROR",
       "title" : null,
@@ -2084,7 +2084,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J238-TypeOffre-ROR/FHIR/JDV-J238-TypeOffre-ROR",
-      "version" : "20251017120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "JDV_J238_TypeOffre_ROR",
       "title" : null,
@@ -2657,7 +2657,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J34-CategorieOrganisation-ROR/FHIR/JDV-J34-CategorieOrganisation-ROR",
-      "version" : "20251017120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "JDV_J34_CategorieOrganisation_ROR",
       "title" : null,
