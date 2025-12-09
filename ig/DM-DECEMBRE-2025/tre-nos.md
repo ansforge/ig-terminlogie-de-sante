@@ -57,7 +57,7 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R11_CiviliteExercice](CodeSystem-TRE-R11-CiviliteExercice.md) | Civilité d'exercice | 15/12/2023 |
 | [TRE_R13_CommuneOM](CodeSystem-TRE-R13-CommuneOM.md) |  | 28/06/2024 |
 | [TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md) | Type de diplôme | 29/03/2024 |
-| [TRE_R16_LieuFormation](CodeSystem-TRE-R16-LieuFormation.md) | Lieu de formation | 16/10/2025 |
+| [TRE_R16_LieuFormation](CodeSystem-TRE-R16-LieuFormation.md) |  | 22/12/2025 |
 | [TRE_R17_TypeAutorisation](CodeSystem-TRE-R17-TypeAutorisation.md) | Type d'autorisation | 23/05/2025 |
 | [TRE_R18_DisciplineAutorisation](CodeSystem-TRE-R18-DisciplineAutorisation.md) | Discipline d'autorisation | 15/12/2023 |
 | [TRE_R20_Pays](CodeSystem-TRE-R20-Pays.md) | Référentiel des codes pays provenant du COG INSEE | 28/03/2025 |
@@ -138,8 +138,6 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R218_ModeAuthentification](CodeSystem-TRE-R218-ModeAuthentification.md) | Mode d'authentification | 15/12/2023 |
 | [TRE_R219_AutreResponsableConsent](CodeSystem-TRE-R219-AutreResponsableConsent.md) | Autre responsable consentement | 15/12/2023 |
 | [TRE_R220_ModeleDocumentCDAStructure](CodeSystem-TRE-R220-ModeleDocumentCDAStructure.md) | Identifiant des modèles de CDA structurés | 29/10/2025 |
-| [TRE_R221_ModeleDocumentCDANonStructure](CodeSystem-TRE-R221-ModeleDocumentCDANonStructure.md) | Identifiant des modèles de CDA non structurés | 15/12/2023 |
-| [TRE_R222_MediaTypeCorpsCDANonStructure](CodeSystem-TRE-R222-MediaTypeCorpsCDANonStructure.md) | Identifiant des modèles de CDA non structurés | 15/12/2023 |
 | [TRE_R223_NatCycleForm](CodeSystem-TRE-R223-NatCycleForm.md) | Nature du cycle de formation des étudiants | 15/12/2023 |
 | [TRE_R224_NiveauFormAcquis](CodeSystem-TRE-R224-NiveauFormAcquis.md) | Niveaux de formation acquis dans le cycle de formation des étudiants | 15/12/2023 |
 | [TRE_R225_AnneeUniversitaire](CodeSystem-TRE-R225-AnneeUniversitaire.md) | Année universitaire | 09/10/2025 |

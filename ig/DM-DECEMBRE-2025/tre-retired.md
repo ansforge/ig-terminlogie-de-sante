@@ -11,6 +11,8 @@ Vous touverez ici la liste des terminologies à l'etat "retired".
 | | |
 | :--- | :--- |
 | Name | Description |
+| [TRE_R221_ModeleDocumentCDANonStructure](CodeSystem-TRE-R221-ModeleDocumentCDANonStructure.md) | Identifiant des modèles de CDA non structurés |
+| [TRE_R222_MediaTypeCorpsCDANonStructure](CodeSystem-TRE-R222-MediaTypeCorpsCDANonStructure.md) | Identifiant des modèles de CDA non structurés |
 | [TRE_R214_SpecialiteUnite](CodeSystem-TRE-R214-SpecialiteUnite.md) | Spécialité d'unité |
 | [TRE_R215_UniteTemps](CodeSystem-TRE-R215-UniteTemps.md) | Unité de temps |
 | [TRE_R232_TypeFermetureEJ](CodeSystem-TRE-R232-TypeFermetureEJ.md) | Type de fermeture de l'entité juridique FINESS |

@@ -8,12 +8,9 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R16-LieuFormation/FHIR/TRE-R16-LieuFormation | *Version*:20251016120000 | |
-| Active as of 2025-10-16 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R16_LieuFormation |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R16-LieuFormation/FHIR/TRE-R16-LieuFormation | *Version*:20251222120000 | |
+| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R16_LieuFormation |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.35 | | |
-
- 
-Lieu de formation 
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
@@ -34,14 +31,6 @@ Lieu de formation
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2015-12-29T00:00:00+01:00"
-      }
-    }
-  ],
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R16-LieuFormation/FHIR/TRE-R16-LieuFormation",
   "identifier" : [
     {
@@ -49,13 +38,12 @@ Lieu de formation
       "value" : "urn:oid:1.2.250.1.213.1.6.1.35"
     }
   ],
-  "version" : "20251016120000",
+  "version" : "20251222120000",
   "name" : "TRE_R16_LieuFormation",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-10-16T12:00:00+01:00",
+  "date" : "2025-12-22T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description" : "Lieu de formation",
   "jurisdiction" : [
     {
       "coding" : [
@@ -68,7 +56,7 @@ Lieu de formation
   ],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 1357,
+  "count" : 1360,
   "property" : [
     {
       "code" : "dateValid",
@@ -20676,6 +20664,62 @@ Lieu de formation
       ]
     },
     {
+      "code" : "U134-31",
+      "display" : "Elche (Espagne)",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "Elche"
+        }
+      ],
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T00:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T00:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "U134-32",
+      "display" : "Jaén (Espagne)",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "Jaén"
+        }
+      ],
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T00:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T00:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
       "code" : "U135",
       "display" : "Pays-Bas",
       "property" : [
@@ -21242,6 +21286,34 @@ Lieu de formation
         {
           "code" : "dateMaj",
           "valueDateTime" : "2016-09-23T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "U139-05",
+      "display" : "Barcarena (Portugal)",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "Barcarena"
+        }
+      ],
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",

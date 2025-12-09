@@ -27,13 +27,7 @@ Indiquer un mot clé puis taper sur "enter" :
 Requête sur le SMT
 ```
 
-### Logical Definition (CLD)
-
-version: 5; Dernière mise à jour : 2025-10-29 10:44:15+0100; Langue : fr-FR
-
-Profil: [Shareable ValueSetversion: null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
-
-* Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`http://terminology.hl7.org/CodeSystem/icd-o-3`](http://terminology.hl7.org/5.0.0/CodeSystem-icd-o-3.html)version Not Stated (use latest from terminology server)
+### Définition logique (CLD)
 
  
 

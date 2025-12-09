@@ -27,21 +27,11 @@ Indiquer un mot clé puis taper sur "enter" :
 Requête sur le SMT
 ```
 
-### Logical Definition (CLD)
-
-version: 4; Dernière mise à jour : 2025-10-29 10:44:00+0100; Langue : fr-FR
-
-Profil: [Shareable ValueSetversion: null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
-
-* Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://smt.esante.gouv.fr/terminologie-ccam`](CodeSystem-terminologie-ccam.md)version Not Stated (use latest from terminology server)
+### Définition logique (CLD)
 
  
 
 ### Expansion
-
-Expansion from smt.esante.gouv.fr based on [codesystem Classification Commune des Actes Médicaux vv80.00 (CodeSystem)](CodeSystem-terminologie-ccam.md)
-
-Ce jeu de valeur (ValueSet) contient 5 concepts
 
 -------
 

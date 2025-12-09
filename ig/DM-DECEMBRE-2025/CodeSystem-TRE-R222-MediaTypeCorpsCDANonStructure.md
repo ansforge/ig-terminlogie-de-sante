@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R222-MediaTypeCorpsCDANonStructure/FHIR/TRE-R222-MediaTypeCorpsCDANonStructure | *Version*:20231215120000 | |
-| Active as of 2023-12-15 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R222_MediaTypeCorpsCDANonStructure |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R222-MediaTypeCorpsCDANonStructure/FHIR/TRE-R222-MediaTypeCorpsCDANonStructure | *Version*:20251222120000 | |
+| Retired as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R222_MediaTypeCorpsCDANonStructure |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.4.330 | | |
 
  
@@ -49,11 +49,11 @@ Identifiant des modèles de CDA non structurés
       "value" : "urn:oid:1.2.250.1.213.1.1.4.330"
     }
   ],
-  "version" : "20231215120000",
+  "version" : "20251222120000",
   "name" : "TRE_R222_MediaTypeCorpsCDANonStructure",
-  "status" : "active",
+  "status" : "retired",
   "experimental" : false,
-  "date" : "2023-12-15T12:00:00+01:00",
+  "date" : "2025-12-22T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Identifiant des modèles de CDA non structurés",
   "jurisdiction" : [
@@ -68,6 +68,7 @@ Identifiant des modèles de CDA non structurés
   ],
   "caseSensitive" : false,
   "content" : "complete",
+  "count" : 5,
   "property" : [
     {
       "code" : "dateValid",

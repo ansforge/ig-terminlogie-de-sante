@@ -27,27 +27,11 @@ Indiquer un mot clé puis taper sur "enter" :
 Requête sur le SMT
 ```
 
-### Logical Definition (CLD)
-
-version: 4; Dernière mise à jour : 2025-06-25 09:15:33+0000; Langue : fr-FR
-
-Profil: [Shareable ValueSetversion: null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
-
-Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :
-
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis`](CodeSystem-terminologie-cisis.md)version 📦202510230000
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://smt.esante.gouv.fr/terminologie-emdn`](CodeSystem-terminologie-emdn.md)version Not Stated (use latest from terminology server) 
+### Définition logique (CLD)
 
  
 
 ### Expansion
-
-Expansion from smt.esante.gouv.fr based on:
-
-* [codesystem TerminologieCISIS - Terminologie des concepts non trouvés dans les autres terminologies v202510230000 (CodeSystem)](CodeSystem-terminologie-cisis.md)
-* [codesystem European Medical device nomenclature vv1.2 (CodeSystem)](CodeSystem-terminologie-emdn.md)
-
-Ce jeu de valeur (ValueSet) contient 4 concepts
 
 -------
 

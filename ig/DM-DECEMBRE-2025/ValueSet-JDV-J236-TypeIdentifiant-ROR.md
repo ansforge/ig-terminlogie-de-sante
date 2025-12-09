@@ -27,25 +27,11 @@ Indiquer un mot clé puis taper sur "enter" :
 Requête sur le SMT
 ```
 
-### Logical Definition (CLD)
-
-version: 4; Dernière mise à jour : 2025-07-02 17:06:03+0000; Langue : fr-FR
-
-Profil: [Shareable ValueSetversion: null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
-
-Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :
-
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R345-TypeIdentifiantAutre/FHIR/TRE-R345-TypeIdentifiantAutre`](CodeSystem-TRE-R345-TypeIdentifiantAutre.md)version 📦20240329120000
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R355-TypeIdentifiantOffre/FHIR/TRE-R355-TypeIdentifiantOffre`](CodeSystem-TRE-R355-TypeIdentifiantOffre.md)version 📦20240329120000 
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_R354-TypeIdentifiantRessourceOperationnelle/FHIR/TRE-R354-TypeIdentifiantRessourceOperationnelle`](CodeSystem-TRE-R354-TypeIdentifiantRessourceOperationnelle.md)version 📦20240329120000 
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_G08-TypeIdentifiantPersonne/FHIR/TRE-G08-TypeIdentifiantPersonne`](CodeSystem-TRE-G08-TypeIdentifiantPersonne.md)version 📦20240329120000 
-* Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://mos.esante.gouv.fr/NOS/TRE_G07-TypeIdentifiantStructure/FHIR/TRE-G07-TypeIdentifiantStructure`](CodeSystem-TRE-G07-TypeIdentifiantStructure.md)version 📦20240329120000 
+### Définition logique (CLD)
 
  
 
 ### Expansion
-
-Ce jeu de valeur (ValueSet) contient 14 concepts
 
 -------
 

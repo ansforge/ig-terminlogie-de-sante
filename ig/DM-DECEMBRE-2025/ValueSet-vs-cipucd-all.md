@@ -9,7 +9,7 @@
 | | | |
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/terminologie-cip_ucd?vs | *Version*:20241114120000 | |
-| Active as of 2025-11-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ValueSet_CIPUCD_All |
+| Active as of 2025-12-09 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ValueSet_CIPUCD_All |
 
  
 Ce jeu de valeurs inclut tous les codes concepts de la terminologie CIP-UCD 
@@ -26,13 +26,7 @@ Indiquer un mot clé puis taper sur "enter" :
 Requête sur le SMT
 ```
 
-### Logical Definition (CLD)
-
-version: 1; Dernière mise à jour : 2024-11-14 08:49:54+0000; Langue : fr-FR
-
-Profil: [Shareable ValueSetversion: null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
-
-* Include tous les codes définis dans `https://smt.esante.gouv.fr/terminologie-cip_ucd`version Not Stated (use latest from terminology server)
+### Définition logique (CLD)
 
  
 
@@ -74,7 +68,7 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "name" : "ValueSet_CIPUCD_All",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-11-28T16:27:44+00:00",
+  "date" : "2025-12-09T10:41:43+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Ce jeu de valeurs inclut tous les codes concepts de la terminologie CIP-UCD",
   "jurisdiction" : [

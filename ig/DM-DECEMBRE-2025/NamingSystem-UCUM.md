@@ -11,26 +11,6 @@
 | *Official URL*:https://interop.esante.gouv.fr/terminologies/NamingSystem/UCUM | *Version*: | |
 | Active as of 2025-08-20 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:UCUM |
 
-version: 1; Dernière mise à jour : 2025-08-20 13:55:58+0000
-
-Tag: Resource encoded in summary mode (Détails : code ObservationValue SUBSETTED = 'Resource encoded in summary mode')
-
-### Résumé
-
-| | |
-| :--- | :--- |
-| URL de définition | https://interop.esante.gouv.fr/terminologies/NamingSystem/UCUM |
-| Nom | UCUM |
-| Statut | active |
-| Éditeur | Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris |
-
-### Identifiants
-
-* **Type**: OID
-  * **Valeur**: 2.16.840.1.113883.6.8
-* **Type**: URI
-  * **Valeur**: http://unitsofmeasure.org
-
 
 
 ## Resource Content

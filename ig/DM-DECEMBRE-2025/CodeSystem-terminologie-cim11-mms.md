@@ -9,7 +9,7 @@
 | | | |
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/terminologie-cim11-mms | *Version*:2025-01 | |
-| Active as of 2025-11-28 | *Responsible:*Agence du numérique en santé | *Computable Name*:CIM11_MMS |
+| Active as of 2025-12-09 | *Responsible:*Agence du numérique en santé | *Computable Name*:CIM11_MMS |
 | *Other Identifiers:*OID:2.16.840.1.113883.6.347 (use: usual, ), https://smt.esante.gouv.fr/#terminologie-cim11-mms (use: secondary, ) | | |
 | **Copyright/Legal**:[CC BY-ND 3.0 IGO](https://creativecommons.org/licenses/by-nd/3.0/igo/legalcode) | | |
 
@@ -19,20 +19,6 @@ La Classification Internationale des Maladies (CIM) dans sa 11ème révision per
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JdvCauseAccidentDomestiqueCisis](ValueSet-jdv-cause-accident-domestique-cisis.md)
-
-version: 6; Dernière mise à jour : 2025-02-25 11:11:24+0000
-
-Profil: [Shareable CodeSystemversion: null4.0.1)](http://hl7.org/fhir/R4/shareablecodesystem.html)
-
-**Propriétés**
-
-**Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts**
-
-**Filtres**
-
-**Concepts**
-
-This code system `https://smt.esante.gouv.fr/terminologie-cim11-mms` defines codes, but no codes are represented here
 
 
 
@@ -67,7 +53,7 @@ This code system `https://smt.esante.gouv.fr/terminologie-cim11-mms` defines cod
   "title" : "Classification internationale des maladies et des problèmes de santé connexes - 11ème révision",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-11-28T16:27:44+00:00",
+  "date" : "2025-12-09T10:41:43+00:00",
   "publisher" : "Agence du numérique en santé",
   "description" : "La Classification Internationale des Maladies (CIM) dans sa 11ème révision permet d’établir, partout dans le monde, les statistiques sanitaires. Fournissant un langage commun pour alimenter les dossiers patients électroniques, la CIM11 permet d’échanger des données médicales de manière cohérente et normalisée pour de nombreux cas d’usage (production de soins, coordination professionnelle, pilotage, et exploitation de données)",
   "jurisdiction" : [

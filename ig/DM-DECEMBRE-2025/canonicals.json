@@ -2721,7 +2721,7 @@
     "id" : "TRE-R16-LieuFormation",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R16-LieuFormation/FHIR/TRE-R16-LieuFormation",
-    "version" : "20251016120000",
+    "version" : "20251222120000",
     "name" : "TRE_R16_LieuFormation",
     "oids" : ["1.2.250.1.213.1.6.1.35"]
   },
@@ -2937,7 +2937,7 @@
     "id" : "TRE-R221-ModeleDocumentCDANonStructure",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R221-ModeleDocumentCDANonStructure/FHIR/TRE-R221-ModeleDocumentCDANonStructure",
-    "version" : "20231215120000",
+    "version" : "20251222120000",
     "name" : "TRE_R221_ModeleDocumentCDANonStructure",
     "oids" : ["1.2.250.1.213.1.1.4.329"]
   },
@@ -2952,7 +2952,7 @@
     "id" : "TRE-R222-MediaTypeCorpsCDANonStructure",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R222-MediaTypeCorpsCDANonStructure/FHIR/TRE-R222-MediaTypeCorpsCDANonStructure",
-    "version" : "20231215120000",
+    "version" : "20251222120000",
     "name" : "TRE_R222_MediaTypeCorpsCDANonStructure",
     "oids" : ["1.2.250.1.213.1.1.4.330"]
   },
@@ -4593,21 +4593,21 @@
     "id" : "alignement-bdpm-cipucd",
     "type" : "ConceptMap",
     "url" : "https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-bdpm-cipucd",
-    "version" : "2025-11",
+    "version" : "2025-12",
     "name" : "Alignement_Codes_Presentation_BDPM_CIPUCD"
   },
   {
     "id" : "alignement-nuva-bdpm",
     "type" : "ConceptMap",
     "url" : "https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-bdpm",
-    "version" : "1.0.1030",
+    "version" : "1.0.1042",
     "name" : "Alignement_Codes_NUVA_CIS_CIP_BDMP"
   },
   {
     "id" : "alignement-nuva-cipucd",
     "type" : "ConceptMap",
     "url" : "https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-cipucd",
-    "version" : "1.0.1030",
+    "version" : "1.0.1042",
     "name" : "Alignement_Codes_NUVA_CIP_CIPUCD"
   },
   {
@@ -8404,7 +8404,7 @@
     "id" : "terminologie-bdpm",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-bdpm",
-    "version" : "2025-11-06",
+    "version" : "2025-12-03",
     "name" : "BDPM"
   },
   {
@@ -8481,7 +8481,7 @@
     "id" : "terminologie-nuva",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-nuva",
-    "version" : "1.0.1030",
+    "version" : "1.0.1042",
     "name" : "NUVA",
     "oids" : ["1.3.6.1.4.1.48601.1"]
   },
@@ -8496,7 +8496,7 @@
     "id" : "terminologie-sms",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-sms",
-    "version" : "2025-11",
+    "version" : "2025-12",
     "name" : "Dictionnaire_SMS_Substance_Management_Services_",
     "oids" : ["2.16.840.1.113883.3.6905.2"]
   },

@@ -27,21 +27,11 @@ Indiquer un mot clé puis taper sur "enter" :
 Requête sur le SMT
 ```
 
-### Logical Definition (CLD)
-
-version: 3; Dernière mise à jour : 2024-06-28 16:09:38+0000
-
-Profil: [Shareable ValueSetversion: null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
-
-* Include tous les codes définis dans [`https://mos.esante.gouv.fr/NOS/TRE_R13-CommuneOM/FHIR/TRE-R13-CommuneOM`](CodeSystem-TRE-R13-CommuneOM.md)version Not Stated (use latest from terminology server)
+### Définition logique (CLD)
 
  
 
 ### Expansion
-
-Expansion from smt.esante.gouv.fr based on [codesystem TRE_R13_CommuneOM v20240628120000 (CodeSystem)](CodeSystem-TRE-R13-CommuneOM.md)
-
-Ce jeu de valeurs (ValueSet) a 39,293 codes. Pour garder la publication gérable, seulement une selection (1,000 codes) de lensemble des codes est affiché.
 
 -------
 

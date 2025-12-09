@@ -1902,7 +1902,7 @@ formatCode en complément des nomenclatures internationales
         },
         {
           "code" : "status",
-          "valueCode" : "adeprecated"
+          "valueCode" : "deprecated"
         },
         {
           "code" : "deprecationDate",

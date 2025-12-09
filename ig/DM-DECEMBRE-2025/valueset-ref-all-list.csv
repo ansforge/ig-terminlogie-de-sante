@@ -1,4 +1,4 @@
-URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
+URL,Version,Status,OIDs,Name,Title,Description,Uses,Used,Sources
 http://hl7.org/fhir/ValueSet/administrative-gender,4.0.1,active,"2.16.840.1.113883.4.642.3.1",AdministrativeGender,AdministrativeGender,"The gender of a person used for administrative purposes.","ConceptMap/ASS-A33-AdministrativeGender-Sexe","hl7.fhir.r4.core"
 https://mos.esante.gouv.fr/NOS/JDV-MediaTypeCorpsCDANonStructure?vs,1.1.0,active,,JDV_TRE_R222_MediaTypeCorpsCDANonStructure,JDV-MediaTypeCorpsCDANonStructure,"JDV avec l'ensemble des codes actifs de la TRE_R222_MediaTypeCorpsCDANonStructure","ConceptMap/ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS","Internal"
 https://mos.esante.gouv.fr/NOS/JDV-ModeleDocumentCDA,1.1.0,active,,JdvModeleDocumentCda,Jdv Modele Document Cda,"JDV avec l'ensemble des codes  de la TRE_R220_ModeleDocumentCDAStructure et TRE_R221_ModeleDocumentCDANonStructure","ConceptMap/ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS","Internal"
@@ -736,7 +736,7 @@ https://smt.esante.gouv.fr/fhir/ValueSet/jdv-vie-en-collectivite-cisis,202506241
 https://smt.esante.gouv.fr/fhir/ValueSet/jdv-voie-abord-cisis,20250624152100,active,"1.2.250.1.213.1.1.5.491",JdvVoieAbordCisis,JDV Voie Abord CISIS,"JDV Voie Abord CISIS",,"Internal"
 https://smt.esante.gouv.fr/terminologie-atc?vs,20241114120000,active,,ValueSet_ATC_All,,"Ce jeu de valeurs inclut tous les codes concepts de la terminologie ATC",,"Internal"
 https://smt.esante.gouv.fr/terminologie-bdpm?vs,20241106120000,active,,ValueSet_BDPM_All,,"Ce jeu de valeurs inclut tous les codes de la terminologie BDPM","ConceptMap/alignement-bdpm-cipucd,ConceptMap/alignement-nuva-bdpm","Internal"
-https://smt.esante.gouv.fr/terminologie-cip_ucd?vs,20241114120000,active,,ValueSet_CIPUCD_All,,"Ce jeu de valeurs inclut tous les codes concepts de la terminologie CIP-UCD","ConceptMap/alignement-nuva-cipucd,ConceptMap/alignement-bdpm-cipucd","Other"
+https://smt.esante.gouv.fr/terminologie-cip_ucd?vs,20241114120000,active,,ValueSet_CIPUCD_All,,"Ce jeu de valeurs inclut tous les codes concepts de la terminologie CIP-UCD","ConceptMap/alignement-bdpm-cipucd,ConceptMap/alignement-nuva-cipucd","Other"
 https://smt.esante.gouv.fr/terminologie-nuva?vs,20241106120000,active,,ValueSet_NUVA_All,,"Ce jeu de valeurs inclut tous les codes concepts de la terminologie NUVA","ConceptMap/alignement-nuva-cipucd,ConceptMap/alignement-nuva-bdpm","Internal"
 https://smt.esante.gouv.fr/terminologie-sms?vs,20241114120000,active,,ValueSet_SMS_All,,"Ce jeu de valeurs inclut tous les codes de la terminologie SMS, Dictionnaire des substances médicamenteuses",,"Internal"
 https://smt.esante.gouv.fr/terminologie-standardterms?vs,20241114120000,active,,ValueSet_EDQM_All,,"Ce jeu de valeurs inclut tous les codes de la terminologie EDQM",,"Internal"

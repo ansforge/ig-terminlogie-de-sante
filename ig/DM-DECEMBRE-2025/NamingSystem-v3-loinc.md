@@ -11,28 +11,6 @@
 | *Official URL*:https://interop.esante.gouv.fr/terminologies/NamingSystem/v3-loinc | *Version*: | |
 | Active as of 2022-12-15 | *Responsible:*LOINC and Health Data Standards, Regenstrief Institute, Inc. | *Computable Name*:LOINC |
 
-version: 1; Dernière mise à jour : 2024-07-25 11:58:56+0000
-
-Tag: Resource encoded in summary mode (Détails : code ObservationValue SUBSETTED = 'Resource encoded in summary mode')
-
-### Résumé
-
-| | |
-| :--- | :--- |
-| URL de définition | https://interop.esante.gouv.fr/terminologies/NamingSystem/v3-loinc |
-| Nom | LOINC |
-| Statut | active |
-| Éditeur | LOINC and Health Data Standards, Regenstrief Institute, Inc. |
-
-### Identifiants
-
-* **Type**: OID
-  * **Valeur**: 2.16.840.1.113883.6.1
-* **Type**: URI
-  * **Valeur**: http://loinc.org
-* **Type**: URI
-  * **Valeur**: http://loinc.org/rdf/
-
 
 
 ## Resource Content

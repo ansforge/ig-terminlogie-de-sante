@@ -27,21 +27,11 @@ Indiquer un mot clé puis taper sur "enter" :
 Requête sur le SMT
 ```
 
-### Logical Definition (CLD)
-
-version: 5; Dernière mise à jour : 2025-10-29 10:44:17+0100; Langue : fr-FR
-
-Profil: [Shareable ValueSetversion: null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
-
-* Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`http://loinc.org`](http://loinc.org)version Not Stated (use latest from terminology server)
+### Définition logique (CLD)
 
  
 
 ### Expansion
-
-Expansion from tx.fhir.org based on Loinc v2.81
-
-Ce jeu de valeur (ValueSet) contient 4 concepts
 
 -------
 

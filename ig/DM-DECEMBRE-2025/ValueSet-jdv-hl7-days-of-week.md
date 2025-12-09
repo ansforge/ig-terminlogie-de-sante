@@ -27,13 +27,7 @@ Indiquer un mot clé puis taper sur "enter" :
 Requête sur le SMT
 ```
 
-### Logical Definition (CLD)
-
-version: 1; Dernière mise à jour : 2025-10-29 10:43:02+0100; Langue : fr-FR
-
-Profil: [Shareable ValueSetversion: null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
-
-* Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`http://hl7.org/fhir/days-of-week`](http://hl7.org/fhir/R4/codesystem-days-of-week.html)version 📦4.0.1
+### Définition logique (CLD)
 
  
 

@@ -10,8 +10,8 @@
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "terminologie-nuva"] ; # 
   fhir:meta [
-     fhir:versionId [ fhir:v "22" ] ;
-     fhir:lastUpdated [ fhir:v "2025-11-12T09:54:36.369+01:00"^^xsd:dateTime ] ;
+     fhir:versionId [ fhir:v "23" ] ;
+     fhir:lastUpdated [ fhir:v "2025-12-04T10:59:51.355+01:00"^^xsd:dateTime ] ;
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"^^xsd:anyURI ;
        fhir:l <http://hl7.org/fhir/StructureDefinition/shareablecodesystem?version=4.0.1>
@@ -40,12 +40,12 @@
      ] ;
      fhir:value [ fhir:v "terminologie-nuva" ]
   ] ) ; # 
-  fhir:version [ fhir:v "1.0.1030"] ; # 
+  fhir:version [ fhir:v "1.0.1042"] ; # 
   fhir:name [ fhir:v "NUVA"] ; # 
   fhir:title [ fhir:v "Nomenclature Unifiée des Vaccins"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-11-06T00:00:00+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-11-26T00:00:00+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du numérique en santé"] ; # 
   fhir:description [ fhir:v "La nomenclature unifiée des vaccins (NUVA) liste les spécialités vaccinales commercialisées ou ayant été commercialisées en France ou à l’étranger. Ces spécialités sont associées à une dénomination générique et à une description structurée notamment au niveau des valences et des pathologies cibles.Elle permet de constituer un historique vaccinal complet, aussi précis que le permettent les sources des données, interprétable par des systèmes d’information."] ; # 
   fhir:jurisdiction ( [
@@ -63,7 +63,7 @@
      fhir:l <https://smt.esante.gouv.fr/terminologie-nuva?vs>
   ] ; # 
   fhir:content [ fhir:v "not-present"] ; # 
-  fhir:count [ fhir:v "1893"^^xsd:nonNegativeInteger] ; # 
+  fhir:count [ fhir:v "1899"^^xsd:nonNegativeInteger] ; # 
   fhir:filter ( [
      fhir:code [ fhir:v "root" ] ;
      fhir:operator ( [ fhir:v "=" ] ) ;

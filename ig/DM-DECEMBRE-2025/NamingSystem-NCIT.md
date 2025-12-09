@@ -11,26 +11,6 @@
 | *Official URL*:https://interop.esante.gouv.fr/terminologies/NamingSystem/NCIT | *Version*: | |
 | Active as of 2025-07-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:NCIT |
 
-version: 1; Dernière mise à jour : 2025-07-23 12:51:45+0000
-
-Tag: Resource encoded in summary mode (Détails : code ObservationValue SUBSETTED = 'Resource encoded in summary mode')
-
-### Résumé
-
-| | |
-| :--- | :--- |
-| URL de définition | https://interop.esante.gouv.fr/terminologies/NamingSystem/NCIT |
-| Nom | NCIT |
-| Statut | active |
-| Éditeur | Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris |
-
-### Identifiants
-
-* **Type**: OID
-  * **Valeur**: 2.16.840.1.113883.3.26.1.1
-* **Type**: URI
-  * **Valeur**: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl
-
 
 
 ## Resource Content

@@ -20,20 +20,6 @@ La Classification internationale des soins primaires (CISP) est la version fran�
 
 * Cette terminologie de référence (CodeSystem) nest pas utilisée ici; elle peut être utilisée ailleurs (par exemple spécifications et/ou implémentations qui utilisent ce contenu)
 
-version: 3; Dernière mise à jour : 2025-03-24 13:28:48+0000
-
-Profil: [Shareable CodeSystemversion: null4.0.1)](http://hl7.org/fhir/R4/shareablecodesystem.html)
-
-**Propriétés**
-
-**Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts**
-
-**Filtres**
-
-**Concepts**
-
-This code system `https://smt.esante.gouv.fr/terminologie-cisp` defines codes, but no codes are represented here
-
 
 
 ## Resource Content

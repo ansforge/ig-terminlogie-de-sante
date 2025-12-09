@@ -9,7 +9,7 @@
 | | | |
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/terminologie-standardterms?vs | *Version*:20241114120000 | |
-| Active as of 2025-11-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ValueSet_EDQM_All |
+| Active as of 2025-12-09 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ValueSet_EDQM_All |
 
  
 Ce jeu de valeurs inclut tous les codes de la terminologie EDQM 
@@ -26,21 +26,11 @@ Indiquer un mot clé puis taper sur "enter" :
 Requête sur le SMT
 ```
 
-### Logical Definition (CLD)
-
-version: 1; Dernière mise à jour : 2024-11-14 13:47:33+0000; Langue : fr-FR
-
-Profil: [Shareable ValueSetversion: null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
-
-* Include tous les codes définis dans [`https://smt.esante.gouv.fr/terminologie-standardterms`](CodeSystem-terminologie-standardterms.md)version Not Stated (use latest from terminology server)
+### Définition logique (CLD)
 
  
 
 ### Expansion
-
-Expansion from smt.esante.gouv.fr based on [codesystem Standard Terms Data Base Dictionnaire européen multilingue de termes normalisés descripteurs de médicaments v2025-03-19 (CodeSystem)](CodeSystem-terminologie-standardterms.md)
-
-Ce jeu de valeurs (ValueSet) a 1,297 codes. Pour garder la publication gérable, seulement une selection (1,000 codes) de lensemble des codes est affiché.
 
 -------
 
@@ -76,7 +66,7 @@ Ce jeu de valeurs (ValueSet) a 1,297 codes. Pour garder la publication gérable,
   "name" : "ValueSet_EDQM_All",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-11-28T16:27:44+00:00",
+  "date" : "2025-12-09T10:41:43+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Ce jeu de valeurs inclut tous les codes de la terminologie EDQM",
   "jurisdiction" : [

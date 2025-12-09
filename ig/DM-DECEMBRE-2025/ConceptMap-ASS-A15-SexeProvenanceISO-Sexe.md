@@ -15,23 +15,6 @@
  
 Correspondance codes TRE_R267-SexeProvenanceISO / codes TRE_R249-Sexe 
 
-Mapping de (non spécifié) vers (non spécifié)
-
-**Groupe 1**Mapping de [TRE_R267_SexeProvenanceISOversion: 20231215120000)](CodeSystem-TRE-R267-SexeProvenanceISO.md) to [TRE_R249_Sexeversion: 20231215120000)](CodeSystem-TRE-R249-Sexe.md)
-
-* **Code source**: 0 (Inconnu)
-  * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
-  * **Code cible**: UN (Inconnu)
-* **Code source**: 1 (Masculin)
-  * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
-  * **Code cible**: M (Masculin)
-* **Code source**: 2 (Féminin)
-  * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
-  * **Code cible**: F (Féminin)
-* **Code source**: 9 (Autre (sexe ni masculin, ni féminin))
-  * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
-  * **Code cible**: O (Autre sexe (ni masculin, ni féminin))
-
 
 
 ## Resource Content

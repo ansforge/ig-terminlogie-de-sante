@@ -11,7 +11,7 @@
   <name value="Terminologies"/>
   <title value="Terminologies  de Santé"/>
   <status value="active"/>
-  <date value="2025-11-28T16:27:44+00:00"/>
+  <date value="2025-12-09T10:41:43+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -27330,7 +27330,6 @@
         <reference value="CodeSystem/TRE-R16-LieuFormation"/>
       </reference>
       <name value="TRE_R16_LieuFormation"/>
-      <description value="Lieu de formation"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

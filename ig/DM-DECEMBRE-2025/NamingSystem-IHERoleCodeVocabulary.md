@@ -11,26 +11,6 @@
 | *Official URL*:https://interop.esante.gouv.fr/terminologies/NamingSystem/IHERoleCodeVocabulary | *Version*: | |
 | Active as of 2025-08-20 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:IHERoleCode_Vocabulary |
 
-version: 2; Dernière mise à jour : 2025-08-27 09:43:35+0200
-
-Tag: Resource encoded in summary mode (Détails : code ObservationValue SUBSETTED = 'Resource encoded in summary mode')
-
-### Résumé
-
-| | |
-| :--- | :--- |
-| URL de définition | https://interop.esante.gouv.fr/terminologies/NamingSystem/IHERoleCodeVocabulary |
-| Nom | IHERoleCode_Vocabulary |
-| Statut | active |
-| Éditeur | Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris |
-
-### Identifiants
-
-* **Type**: OID
-  * **Valeur**: 1.3.6.1.4.1.19376.1.5.3.3
-* **Type**: URI
-  * **Valeur**: https://wiki.ihe.net/index.php/IHERoleCode_Vocabulary
-
 
 
 ## Resource Content

@@ -2,8 +2,8 @@
   "resourceType" : "CodeSystem",
   "id" : "terminologie-nuva",
   "meta" : {
-    "versionId" : "22",
-    "lastUpdated" : "2025-11-12T09:54:36.369+01:00",
+    "versionId" : "23",
+    "lastUpdated" : "2025-12-04T10:59:51.355+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
   },
   "text" : {
@@ -21,12 +21,12 @@
     "system" : "https://smt.esante.gouv.fr/",
     "value" : "terminologie-nuva"
   }],
-  "version" : "1.0.1030",
+  "version" : "1.0.1042",
   "name" : "NUVA",
   "title" : "Nomenclature Unifiée des Vaccins",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-11-06T00:00:00+00:00",
+  "date" : "2025-11-26T00:00:00+00:00",
   "publisher" : "Agence du numérique en santé",
   "description" : "La nomenclature unifiée des vaccins (NUVA) liste les spécialités vaccinales commercialisées ou ayant été commercialisées en France ou à l’étranger. Ces spécialités sont associées à une dénomination générique et à une description structurée notamment au niveau des valences et des pathologies cibles.Elle permet de constituer un historique vaccinal complet, aussi précis que le permettent les sources des données, interprétable par des systèmes d’information.",
   "jurisdiction" : [{
@@ -38,7 +38,7 @@
   "copyright" : "SYADEM",
   "valueSet" : "https://smt.esante.gouv.fr/terminologie-nuva?vs",
   "content" : "not-present",
-  "count" : 1893,
+  "count" : 1899,
   "filter" : [{
     "code" : "root",
     "operator" : ["="],

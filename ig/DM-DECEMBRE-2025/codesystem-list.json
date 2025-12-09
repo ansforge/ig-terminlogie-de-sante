@@ -415,11 +415,11 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R16-LieuFormation/FHIR/TRE-R16-LieuFormation",
-      "version" : "20251016120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "TRE_R16_LieuFormation",
       "title" : null,
-      "description" : "Lieu de formation",
+      "description" : "",
       "oids" : ["1.2.250.1.213.1.6.1.35"]
     },
     {
@@ -658,8 +658,8 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R221-ModeleDocumentCDANonStructure/FHIR/TRE-R221-ModeleDocumentCDANonStructure",
-      "version" : "20231215120000",
-      "status" : "active",
+      "version" : "20251222120000",
+      "status" : "retired",
       "name" : "TRE_R221_ModeleDocumentCDANonStructure",
       "title" : null,
       "description" : "Identifiant des modèles de CDA non structurés",
@@ -667,8 +667,8 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R222-MediaTypeCorpsCDANonStructure/FHIR/TRE-R222-MediaTypeCorpsCDANonStructure",
-      "version" : "20231215120000",
-      "status" : "active",
+      "version" : "20251222120000",
+      "status" : "retired",
       "name" : "TRE_R222_MediaTypeCorpsCDANonStructure",
       "title" : null,
       "description" : "Identifiant des modèles de CDA non structurés",
@@ -2533,7 +2533,7 @@
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-bdpm",
-      "version" : "2025-11-06",
+      "version" : "2025-12-03",
       "status" : "active",
       "name" : "BDPM",
       "title" : "Base de données publique du médicament",
@@ -2604,7 +2604,7 @@
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-nuva",
-      "version" : "1.0.1030",
+      "version" : "1.0.1042",
       "status" : "active",
       "name" : "NUVA",
       "title" : "Nomenclature Unifiée des Vaccins",
@@ -2613,7 +2613,7 @@
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-sms",
-      "version" : "2025-11",
+      "version" : "2025-12",
       "status" : "active",
       "name" : "Dictionnaire_SMS_Substance_Management_Services_",
       "title" : "Dictionnaire européen multilingue des substances entrant dans la composition de médicaments",

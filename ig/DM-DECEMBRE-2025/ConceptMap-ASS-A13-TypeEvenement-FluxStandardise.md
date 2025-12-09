@@ -15,23 +15,6 @@
  
 Correspondance entre un type d’évènement et le flux standardisé correspondant 
 
-Mapping de [JDV_J46_TypeEvenementNotification_CISIS](ValueSet-JDV-J46-TypeEvenementNotification-CISIS.md) vers https://mos.esante.gouv.fr/NOS/TRE_R255-FluxStandardise/FHIR/TRE-R255-FluxStandardise?vs
-
-**Groupe 1**Mapping de [TRE_R254_TypeEvenementversion: 20240329120000)](CodeSystem-TRE-R254-TypeEvenement.md) to [TRE_R255_FluxStandardiseversion: 20231215120000)](CodeSystem-TRE-R255-FluxStandardise.md)
-
-* **Code source**: DOC (Dépôt de document pour un patient)
-  * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
-  * **Code cible**: ITI42-RQ (Flux du dépôt de document (ITI42-Request))
-* **Code source**: ADM (Admission d'un patient dans un établissement de santé)
-  * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
-  * **Code cible**: ITI31-A01 (Flux d'admission dans un établissement de santé)
-* **Code source**: SOR (Sortie d'un patient de l'établissement de santé)
-  * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
-  * **Code cible**: ITI31-A03 (Flux de sortie d'un établissement de santé)
-* **Code source**: NOT (Création d'une note pour un patient dans le cahier de liaison)
-  * **relation**: [is equivalent to](http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent)
-  * **Code cible**: CREATION-NOTE (Flux de création d'une note pour un patient dans le cahier de liaison)
-
 
 
 ## Resource Content

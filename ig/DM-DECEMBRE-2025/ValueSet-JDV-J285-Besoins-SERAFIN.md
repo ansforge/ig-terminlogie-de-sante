@@ -27,13 +27,7 @@ Indiquer un mot clé puis taper sur "enter" :
 Requête sur le SMT
 ```
 
-### Logical Definition (CLD)
-
-version: 6; Dernière mise à jour : 2025-07-02 17:06:23+0000; Langue : fr-FR
-
-Profil: [Shareable ValueSetversion: null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
-
-* Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`https://smt.esante.gouv.fr/terminologie-SERAFINPH`](CodeSystem-terminologie-SERAFINPH.md)version 📦2023.1.0
+### Définition logique (CLD)
 
  
 

@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/terminologie-sms | *Version*:2025-11 | |
-| Active as of 2025-11-04 | *Responsible:*Agence du numérique en santé | *Computable Name*:Dictionnaire_SMS_Substance_Management_Services_ |
+| *Official URL*:https://smt.esante.gouv.fr/terminologie-sms | *Version*:2025-12 | |
+| Active as of 2025-12-03 | *Responsible:*Agence du numérique en santé | *Computable Name*:Dictionnaire_SMS_Substance_Management_Services_ |
 | *Other Identifiers:*OID:2.16.840.1.113883.3.6905.2 (use: usual, ), https://smt.esante.gouv.fr/#terminologie-sms (use: secondary, ) | | |
 | **Copyright/Legal**:[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode) | | |
 
@@ -20,20 +20,6 @@ Le dictionnaire des substances ou SMS a été conçu par l’European Medicines 
 
 * [ValueSet_SMS_All](ValueSet-vs-sms-all.md)
 
-version: 23.1763973498585; Dernière mise à jour : 2025-11-24 09:38:18+0100
-
-Profil: [Shareable CodeSystemversion: null4.0.1)](http://hl7.org/fhir/R4/shareablecodesystem.html)
-
-**Propriétés**
-
-**Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts**
-
-**Filtres**
-
-**Concepts**
-
-This code system `https://smt.esante.gouv.fr/terminologie-sms` defines codes, but no codes are represented here
-
 
 
 ## Resource Content
@@ -43,8 +29,8 @@ This code system `https://smt.esante.gouv.fr/terminologie-sms` defines codes, bu
   "resourceType" : "CodeSystem",
   "id" : "terminologie-sms",
   "meta" : {
-    "versionId" : "23.1763973498585",
-    "lastUpdated" : "2025-11-24T09:38:18.585+01:00",
+    "versionId" : "24",
+    "lastUpdated" : "2025-12-03T13:59:14.385+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
@@ -62,12 +48,12 @@ This code system `https://smt.esante.gouv.fr/terminologie-sms` defines codes, bu
       "value" : "terminologie-sms"
     }
   ],
-  "version" : "2025-11",
+  "version" : "2025-12",
   "name" : "Dictionnaire_SMS_Substance_Management_Services_",
   "title" : "Dictionnaire européen multilingue des substances entrant dans la composition de médicaments",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-11-04T10:00:00+00:00",
+  "date" : "2025-12-03T10:00:00+00:00",
   "publisher" : "Agence du numérique en santé",
   "description" : "Le dictionnaire des substances ou SMS a été conçu par l’European Medicines Agency (EMA) dans le cadre d’une démarche qualité. Ce dictionnaire contient les substances entrant dans la composition de médicaments destinés à un humain et/ou vétérinaire.",
   "jurisdiction" : [
@@ -83,7 +69,7 @@ This code system `https://smt.esante.gouv.fr/terminologie-sms` defines codes, bu
   "copyright" : "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode)",
   "valueSet" : "https://smt.esante.gouv.fr/terminologie-sms?vs",
   "content" : "not-present",
-  "count" : 70891,
+  "count" : 71032,
   "filter" : [
     {
       "code" : "root",

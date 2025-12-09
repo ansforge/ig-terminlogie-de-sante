@@ -11,26 +11,6 @@
 | *Official URL*:https://interop.esante.gouv.fr/terminologies/NamingSystem/Snomed-CT-core | *Version*: | |
 | Active as of 2024-08-27 | *Responsible:*Agence du Numérique en Santé, ANS, France | *Computable Name*:Snomed_CT_core_900000000000207008 |
 
-version: 5; Dernière mise à jour : 2025-03-06 11:26:43+0000
-
-Tag: Resource encoded in summary mode (Détails : code ObservationValue SUBSETTED = 'Resource encoded in summary mode')
-
-### Résumé
-
-| | |
-| :--- | :--- |
-| URL de définition | https://interop.esante.gouv.fr/terminologies/NamingSystem/Snomed-CT-core |
-| Nom | Snomed_CT_core_900000000000207008 |
-| Statut | active |
-| Éditeur | Agence du Numérique en Santé, ANS, France |
-
-### Identifiants
-
-* **Type**: OID
-  * **Valeur**: 2.16.840.1.113883.6.96
-* **Type**: URI
-  * **Valeur**: http://snomed.info/sct
-
 
 
 ## Resource Content

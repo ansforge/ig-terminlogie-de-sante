@@ -27,21 +27,11 @@ Indiquer un mot clé puis taper sur "enter" :
 Requête sur le SMT
 ```
 
-### Logical Definition (CLD)
-
-version: 2; Dernière mise à jour : 2025-07-02 17:06:20+0000; Langue : fr-FR
-
-Profil: [Shareable ValueSetversion: null4.0.1)](http://hl7.org/fhir/R4/shareablevalueset.html)
-
-* Include ce(s) code(s) tel quil(s) est (sont) défini(s) dans [`http://unitsofmeasure.org`](http://unitsofmeasure.org)version Not Stated (use latest from terminology server)
+### Définition logique (CLD)
 
  
 
 ### Expansion
-
-Expansion from tx.fhir.org based on codesystem UCUM version 2.2
-
-Ce jeu de valeur (ValueSet) contient 14 concepts
 
 -------
 
