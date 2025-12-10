@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J17-ActiviteOperationnelle-ROR/FHIR/JDV-J17-ActiviteOperationnelle-ROR | *Version*:20251017120000 | |
-| Active as of 2025-10-17 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J17_ActiviteOperationnelle_ROR |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J17-ActiviteOperationnelle-ROR/FHIR/JDV-J17-ActiviteOperationnelle-ROR | *Version*:20251222120000 | |
+| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J17_ActiviteOperationnelle_ROR |
 | *Other Identifiers:*OID:1.2.250.1.213.3.4.5 | | |
 
  
@@ -77,11 +77,11 @@ Requête sur le SMT
       "value" : "urn:oid:1.2.250.1.213.3.4.5"
     }
   ],
-  "version" : "20251017120000",
+  "version" : "20251222120000",
   "name" : "JDV_J17_ActiviteOperationnelle_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-10-17T12:00:00+01:00",
+  "date" : "2025-12-22T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Activité Operationnelle - ROR",
   "jurisdiction" : [
@@ -318,6 +318,10 @@ Requête sur le SMT
           {
             "code" : "082",
             "display" : "Médecine du travail (pathologie professionnelle)"
+          },
+          {
+            "code" : "083",
+            "display" : "Médecine polyvalente"
           },
           {
             "code" : "084",

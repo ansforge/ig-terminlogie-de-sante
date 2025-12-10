@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle | *Version*:20251017120000 | |
-| Active as of 2025-10-17 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R211_ActiviteOperationnelle |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle | *Version*:20251222120000 | |
+| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R211_ActiviteOperationnelle |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.12 | | |
 
  
@@ -51,11 +51,11 @@ Activite Operationnelle
       "value" : "urn:oid:1.2.250.1.213.3.3.12"
     }
   ],
-  "version" : "20251017120000",
+  "version" : "20251222120000",
   "name" : "TRE_R211_ActiviteOperationnelle",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-10-17T12:00:00+01:00",
+  "date" : "2025-12-22T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Activite Operationnelle",
   "jurisdiction" : [
@@ -74,16 +74,19 @@ Activite Operationnelle
   "property" : [
     {
       "code" : "dateValid",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
       "description" : "date de validité d'un code concept",
       "type" : "dateTime"
     },
     {
       "code" : "dateMaj",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
       "description" : "Date de mise à jour d'un code concept",
       "type" : "dateTime"
     },
     {
       "code" : "dateFin",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
       "description" : "Date de fin d'exploitation d'un code concept",
       "type" : "dateTime"
     },
@@ -1818,20 +1821,12 @@ Activite Operationnelle
           "valueDateTime" : "2015-04-08T00:00:00+01:00"
         },
         {
-          "code" : "dateFin",
-          "valueDateTime" : "2025-08-28T12:00:00+01:00"
-        },
-        {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-08-28T12:00:00+01:00"
-        },
-        {
-          "code" : "deprecationDate",
-          "valueDateTime" : "2025-08-28T12:00:00+01:00"
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",
-          "valueCode" : "deprecated"
+          "valueCode" : "active"
         }
       ]
     },

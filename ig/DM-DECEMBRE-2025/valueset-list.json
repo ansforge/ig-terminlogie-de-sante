@@ -1140,7 +1140,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J17-ActiviteOperationnelle-ROR/FHIR/JDV-J17-ActiviteOperationnelle-ROR",
-      "version" : "20251017120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "JDV_J17_ActiviteOperationnelle_ROR",
       "title" : null,
@@ -2898,7 +2898,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J55-CategorieEG-ROR/FHIR/JDV-J55-CategorieEG-ROR",
-      "version" : "20250425120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "JDV_J55_CategorieEG_ROR",
       "title" : null,

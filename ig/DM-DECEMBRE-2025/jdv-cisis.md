@@ -11,6 +11,7 @@ Vous touverez ici la liste des JDV du CI-SIS.
 | | | |
 | :--- | :--- | :--- |
 | Name | Description | date_maj |
+| [JDV_J161_Lateralite_CISIS](ValueSet-JDV-J161-Lateralite-CISIS.md) | JDV pour spécifier la latéralité | 30/06/2023 |
 | [JDV_J01_XdsAuthorSpecialty_CISIS](ValueSet-JDV-J01-XdsAuthorSpecialty-CISIS.md) | XDS authorSpecialty CI-SIS | 21/07/2025 |
 | [JDV_J02_XdsHealthcareFacilityTypeCode_CISIS](ValueSet-JDV-J02-XdsHealthcareFacilityTypeCode-CISIS.md) | XDS healthcareFacilityTypeCode CI-SIS | 23/05/2025 |
 | [JDV_J03_XdsContentTypeCode_CISIS](ValueSet-JDV-J03-XdsContentTypeCode-CISIS.md) | XDS contentTypeCode CI-SIS | 23/05/2025 |
@@ -29,7 +30,6 @@ Vous touverez ici la liste des JDV du CI-SIS.
 | [JDV_J143_AdministrativeGender_CISIS](ValueSet-JDV-J143-AdministrativeGender-CISIS.md) | Sexe administratif CI-SIS | 26/03/2021 |
 | [JDV_J144_ParticipationType_CISIS](ValueSet-JDV-J144-ParticipationType-CISIS.md) | Type de participation CI-SIS | 26/03/2021 |
 | [JDV_J14_QualiteRepresentantLegal_CISIS](ValueSet-JDV-J14-QualiteRepresentantLegal-CISIS.md) | Qualité représentant légal - CI-SIS | 13/12/2024 |
-| [JDV_J161_Lateralite_CISIS](ValueSet-JDV-J161-Lateralite-CISIS.md) | JDV pour spécifier la latéralité | 30/06/2023 |
 | [JDV_J197_XdsTypesIdentifiantsReferenceId_CISIS](ValueSet-JDV-J197-XdsTypesIdentifiantsReferenceId-CISIS.md) | Types d'identifiants utilisés dans la métadonnée XDS referenceIdList de la fiche du document dans le cadre du CISIS | 24/06/2022 |
 | [JDV_J22_RestrictionAudienceVIHF_CISIS](ValueSet-JDV-J22-RestrictionAudienceVIHF-CISIS.md) | Restriction d'audience pour les traces des VIHF | 24/04/2020 |
 | [JDV_J23_TypeNoteCahierLiaison_CISIS](ValueSet-JDV-J23-TypeNoteCahierLiaison-CISIS.md) | Type de note du cahier de liaison - CI-SIS | 24/04/2020 |

@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://mos.esante.gouv.fr/NOS/ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS | *Version*:5.0.0 |
-| Active as of 2025-12-09 | *Computable Name*:ASS_A11_CorresModeleCDA_XdsFormatCode_CISIS |
+| Active as of 2025-12-10 | *Computable Name*:ASS_A11_CorresModeleCDA_XdsFormatCode_CISIS |
 | **Usage:**Workflow Task:  | |
 
  
@@ -29,7 +29,7 @@ Pour le document CDA, la métadonnée XDS ‘formatCode’ est calculé à parti
   "title" : "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-09T14:49:30+00:00",
+  "date" : "2025-12-10T08:51:21+00:00",
   "publisher" : "ANS",
   "contact" : [
     {
@@ -64,7 +64,8 @@ Pour le document CDA, la métadonnée XDS ‘formatCode’ est calculé à parti
       ]
     }
   ],
-  "sourceUri" : "https://mos.esante.gouv.fr/NOS/JDV-ModeleDocumentCDA",
+  "sourceUri" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modele-document-cda-cisis",
+  "targetUri" : "https://mos.esante.gouv.fr/NOS/JDV_J10-XdsFormatCode-CISIS/FHIR/JDV-J10-XdsFormatCode-CISIS",
   "group" : [
     {
       "source" : "https://mos.esante.gouv.fr/NOS/TRE_R220-ModeleDocumentCDAStructure/FHIR/TRE-R220-ModeleDocumentCDAStructure",
@@ -122,15 +123,6 @@ Pour le document CDA, la métadonnée XDS ‘formatCode’ est calculé à parti
           "target" : [
             {
               "code" : "urn:asip:ci-sis:idap:2011",
-              "equivalence" : "equivalent"
-            }
-          ]
-        },
-        {
-          "code" : "1.2.250.1.213.1.1.1.10",
-          "target" : [
-            {
-              "code" : "urn:asip:ci-sis:cva:2017",
               "equivalence" : "equivalent"
             }
           ]
@@ -266,15 +258,6 @@ Pour le document CDA, la métadonnée XDS ‘formatCode’ est calculé à parti
           "target" : [
             {
               "code" : "urn:asip:ci-sis:ppv:2009",
-              "equivalence" : "equivalent"
-            }
-          ]
-        },
-        {
-          "code" : "1.2.250.1.213.1.1.1.20",
-          "target" : [
-            {
-              "code" : "urn:asip:ci-sis:pps-paerpa:2017",
               "equivalence" : "equivalent"
             }
           ]
@@ -442,33 +425,6 @@ Pour le document CDA, la métadonnée XDS ‘formatCode’ est calculé à parti
           ]
         },
         {
-          "code" : "1.2.250.1.213.1.1.1.48",
-          "target" : [
-            {
-              "code" : "urn:asip:ci-sis:dlu-dlu-dom:2022",
-              "equivalence" : "equivalent"
-            }
-          ]
-        },
-        {
-          "code" : "1.2.250.1.213.1.1.1.49",
-          "target" : [
-            {
-              "code" : "urn:asip:ci-sis:dlu-fludt-dom:2022",
-              "equivalence" : "equivalent"
-            }
-          ]
-        },
-        {
-          "code" : "1.2.250.1.213.1.1.1.50",
-          "target" : [
-            {
-              "code" : "urn:asip:ci-sis:dlu-fludr-dom:2022",
-              "equivalence" : "equivalent"
-            }
-          ]
-        },
-        {
           "code" : "1.2.250.1.213.1.1.1.52",
           "target" : [
             {
@@ -491,6 +447,33 @@ Pour le document CDA, la métadonnée XDS ‘formatCode’ est calculé à parti
           "target" : [
             {
               "code" : "urn:asip:ci-sis:ppp:2023",
+              "equivalence" : "equivalent"
+            }
+          ]
+        },
+        {
+          "code" : "1.2.250.1.213.1.1.1.59",
+          "target" : [
+            {
+              "code" : "urn:ans:ci-sis:trod:2024",
+              "equivalence" : "equivalent"
+            }
+          ]
+        },
+        {
+          "code" : "1.2.250.1.213.1.1.1.61",
+          "target" : [
+            {
+              "code" : "urn:asip:ci-sis:ft-su:2024",
+              "equivalence" : "equivalent"
+            }
+          ]
+        },
+        {
+          "code" : "1.2.250.1.213.1.1.1.62",
+          "target" : [
+            {
+              "code" : "urn:asip:ci-sis:fr-su:2024",
               "equivalence" : "equivalent"
             }
           ]

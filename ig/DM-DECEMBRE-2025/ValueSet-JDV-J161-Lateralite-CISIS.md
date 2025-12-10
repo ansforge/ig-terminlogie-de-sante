@@ -100,20 +100,16 @@ Requête sur le SMT
         "system" : "http://snomed.info/sct",
         "concept" : [
           {
-            "code" : "24028007",
-            "display" : "droit"
+            "code" : "24028007"
           },
           {
-            "code" : "7771000",
-            "display" : "gauche"
+            "code" : "7771000"
           },
           {
-            "code" : "51440002",
-            "display" : "bilatéral"
+            "code" : "51440002"
           },
           {
-            "code" : "385432009",
-            "display" : "non applicable"
+            "code" : "385432009"
           }
         ]
       }

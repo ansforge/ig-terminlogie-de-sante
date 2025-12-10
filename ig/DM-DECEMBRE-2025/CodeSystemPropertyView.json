@@ -7,7 +7,7 @@
     "identifier" : "urn:oid:1.2.250.1.213.1.1.4.2.282",
     "status" : "active",
     "codeProperty" : "dateValid",
-    "uriProperty" : null,
+    "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
     "typeProperty" : "dateTime",
     "descriptionProperty" : "date de validité d'un code concept"
   },
@@ -19,7 +19,7 @@
     "identifier" : "urn:oid:1.2.250.1.213.1.1.4.2.282",
     "status" : "active",
     "codeProperty" : "dateMaj",
-    "uriProperty" : null,
+    "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
     "typeProperty" : "dateTime",
     "descriptionProperty" : "Date de mise à jour d'un code concept"
   },
@@ -31,7 +31,7 @@
     "identifier" : "urn:oid:1.2.250.1.213.1.1.4.2.282",
     "status" : "active",
     "codeProperty" : "dateFin",
-    "uriProperty" : null,
+    "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
     "typeProperty" : "dateTime",
     "descriptionProperty" : "Date de fin d'exploitation d'un code concept"
   },
@@ -79,7 +79,7 @@
     "identifier" : "urn:oid:1.2.250.1.213.1.6.1.35",
     "status" : "active",
     "codeProperty" : "dateValid",
-    "uriProperty" : null,
+    "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
     "typeProperty" : "dateTime",
     "descriptionProperty" : "date de validité d'un code concept"
   },
@@ -91,7 +91,7 @@
     "identifier" : "urn:oid:1.2.250.1.213.1.6.1.35",
     "status" : "active",
     "codeProperty" : "dateMaj",
-    "uriProperty" : null,
+    "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
     "typeProperty" : "dateTime",
     "descriptionProperty" : "Date de mise à jour d'un code concept"
   },
@@ -103,7 +103,7 @@
     "identifier" : "urn:oid:1.2.250.1.213.1.6.1.35",
     "status" : "active",
     "codeProperty" : "dateFin",
-    "uriProperty" : null,
+    "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
     "typeProperty" : "dateTime",
     "descriptionProperty" : "Date de fin d'exploitation d'un code concept"
   },
@@ -144,6 +144,78 @@
     "descriptionProperty" : "Date Concept was retired"
   },
   {
+    "id" : "TRE-R211-ActiviteOperationnelle",
+    "name" : "TRE_R211_ActiviteOperationnelle",
+    "title" : null,
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle",
+    "identifier" : "urn:oid:1.2.250.1.213.3.3.12",
+    "status" : "active",
+    "codeProperty" : "dateValid",
+    "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
+    "typeProperty" : "dateTime",
+    "descriptionProperty" : "date de validité d'un code concept"
+  },
+  {
+    "id" : "TRE-R211-ActiviteOperationnelle",
+    "name" : "TRE_R211_ActiviteOperationnelle",
+    "title" : null,
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle",
+    "identifier" : "urn:oid:1.2.250.1.213.3.3.12",
+    "status" : "active",
+    "codeProperty" : "dateMaj",
+    "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
+    "typeProperty" : "dateTime",
+    "descriptionProperty" : "Date de mise à jour d'un code concept"
+  },
+  {
+    "id" : "TRE-R211-ActiviteOperationnelle",
+    "name" : "TRE_R211_ActiviteOperationnelle",
+    "title" : null,
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle",
+    "identifier" : "urn:oid:1.2.250.1.213.3.3.12",
+    "status" : "active",
+    "codeProperty" : "dateFin",
+    "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
+    "typeProperty" : "dateTime",
+    "descriptionProperty" : "Date de fin d'exploitation d'un code concept"
+  },
+  {
+    "id" : "TRE-R211-ActiviteOperationnelle",
+    "name" : "TRE_R211_ActiviteOperationnelle",
+    "title" : null,
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle",
+    "identifier" : "urn:oid:1.2.250.1.213.3.3.12",
+    "status" : "active",
+    "codeProperty" : "deprecationDate",
+    "uriProperty" : "http://hl7.org/fhir/concept-properties#deprecationDate",
+    "typeProperty" : "dateTime",
+    "descriptionProperty" : "Date Concept was deprecated"
+  },
+  {
+    "id" : "TRE-R211-ActiviteOperationnelle",
+    "name" : "TRE_R211_ActiviteOperationnelle",
+    "title" : null,
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle",
+    "identifier" : "urn:oid:1.2.250.1.213.3.3.12",
+    "status" : "active",
+    "codeProperty" : "status",
+    "uriProperty" : "http://hl7.org/fhir/concept-properties#status",
+    "typeProperty" : "code",
+    "descriptionProperty" : "A property that indicates the status of the concept."
+  },
+  {
+    "id" : "TRE-R211-ActiviteOperationnelle",
+    "name" : "TRE_R211_ActiviteOperationnelle",
+    "title" : null,
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle",
+    "identifier" : "urn:oid:1.2.250.1.213.3.3.12",
+    "status" : "active",
+    "codeProperty" : "retirementDate",
+    "uriProperty" : "http://hl7.org/fhir/concept-properties#retirementDate",
+    "typeProperty" : "dateTime",
+    "descriptionProperty" : "Date Concept was retired"
+  },
+  {
     "id" : "TRE-R221-ModeleDocumentCDANonStructure",
     "name" : "TRE_R221_ModeleDocumentCDANonStructure",
     "title" : null,
@@ -151,7 +223,7 @@
     "identifier" : "urn:oid:1.2.250.1.213.1.1.4.329",
     "status" : "retired",
     "codeProperty" : "dateValid",
-    "uriProperty" : null,
+    "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
     "typeProperty" : "dateTime",
     "descriptionProperty" : "date de validité d'un code concept"
   },
@@ -163,7 +235,7 @@
     "identifier" : "urn:oid:1.2.250.1.213.1.1.4.329",
     "status" : "retired",
     "codeProperty" : "dateMaj",
-    "uriProperty" : null,
+    "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
     "typeProperty" : "dateTime",
     "descriptionProperty" : "Date de mise à jour d'un code concept"
   },
@@ -175,7 +247,7 @@
     "identifier" : "urn:oid:1.2.250.1.213.1.1.4.329",
     "status" : "retired",
     "codeProperty" : "dateFin",
-    "uriProperty" : null,
+    "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
     "typeProperty" : "dateTime",
     "descriptionProperty" : "Date de fin d'exploitation d'un code concept"
   },
@@ -223,7 +295,7 @@
     "identifier" : "urn:oid:1.2.250.1.213.1.1.4.330",
     "status" : "retired",
     "codeProperty" : "dateValid",
-    "uriProperty" : null,
+    "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
     "typeProperty" : "dateTime",
     "descriptionProperty" : "date de validité d'un code concept"
   },
@@ -235,7 +307,7 @@
     "identifier" : "urn:oid:1.2.250.1.213.1.1.4.330",
     "status" : "retired",
     "codeProperty" : "dateMaj",
-    "uriProperty" : null,
+    "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
     "typeProperty" : "dateTime",
     "descriptionProperty" : "Date de mise à jour d'un code concept"
   },
@@ -247,7 +319,7 @@
     "identifier" : "urn:oid:1.2.250.1.213.1.1.4.330",
     "status" : "retired",
     "codeProperty" : "dateFin",
-    "uriProperty" : null,
+    "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
     "typeProperty" : "dateTime",
     "descriptionProperty" : "Date de fin d'exploitation d'un code concept"
   },
@@ -295,7 +367,7 @@
     "identifier" : "urn:oid:1.2.250.1.213.3.3.39",
     "status" : "active",
     "codeProperty" : "dateValid",
-    "uriProperty" : null,
+    "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
     "typeProperty" : "dateTime",
     "descriptionProperty" : "date de validité d'un code concept"
   },
@@ -307,7 +379,7 @@
     "identifier" : "urn:oid:1.2.250.1.213.3.3.39",
     "status" : "active",
     "codeProperty" : "dateMaj",
-    "uriProperty" : null,
+    "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
     "typeProperty" : "dateTime",
     "descriptionProperty" : "Date de mise à jour d'un code concept"
   },
@@ -319,7 +391,7 @@
     "identifier" : "urn:oid:1.2.250.1.213.3.3.39",
     "status" : "active",
     "codeProperty" : "dateFin",
-    "uriProperty" : null,
+    "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
     "typeProperty" : "dateTime",
     "descriptionProperty" : "Date de fin d'exploitation d'un code concept"
   },
@@ -367,7 +439,7 @@
     "identifier" : "urn:oid:1.2.250.1.213.3.3.227",
     "status" : "active",
     "codeProperty" : "dateValid",
-    "uriProperty" : null,
+    "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
     "typeProperty" : "dateTime",
     "descriptionProperty" : "date de validité d'un code concept"
   },
@@ -379,7 +451,7 @@
     "identifier" : "urn:oid:1.2.250.1.213.3.3.227",
     "status" : "active",
     "codeProperty" : "dateMaj",
-    "uriProperty" : null,
+    "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
     "typeProperty" : "dateTime",
     "descriptionProperty" : "Date de mise à jour d'un code concept"
   },
@@ -391,7 +463,7 @@
     "identifier" : "urn:oid:1.2.250.1.213.3.3.227",
     "status" : "active",
     "codeProperty" : "dateFin",
-    "uriProperty" : null,
+    "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
     "typeProperty" : "dateTime",
     "descriptionProperty" : "Date de fin d'exploitation d'un code concept"
   },
@@ -7157,78 +7229,6 @@
     "title" : null,
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique",
     "identifier" : "urn:oid:1.2.250.1.213.3.3.11",
-    "status" : "active",
-    "codeProperty" : "retirementDate",
-    "uriProperty" : "http://hl7.org/fhir/concept-properties#retirementDate",
-    "typeProperty" : "dateTime",
-    "descriptionProperty" : "Date Concept was retired"
-  },
-  {
-    "id" : "TRE-R211-ActiviteOperationnelle",
-    "name" : "TRE_R211_ActiviteOperationnelle",
-    "title" : null,
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle",
-    "identifier" : "urn:oid:1.2.250.1.213.3.3.12",
-    "status" : "active",
-    "codeProperty" : "dateValid",
-    "uriProperty" : null,
-    "typeProperty" : "dateTime",
-    "descriptionProperty" : "date de validité d'un code concept"
-  },
-  {
-    "id" : "TRE-R211-ActiviteOperationnelle",
-    "name" : "TRE_R211_ActiviteOperationnelle",
-    "title" : null,
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle",
-    "identifier" : "urn:oid:1.2.250.1.213.3.3.12",
-    "status" : "active",
-    "codeProperty" : "dateMaj",
-    "uriProperty" : null,
-    "typeProperty" : "dateTime",
-    "descriptionProperty" : "Date de mise à jour d'un code concept"
-  },
-  {
-    "id" : "TRE-R211-ActiviteOperationnelle",
-    "name" : "TRE_R211_ActiviteOperationnelle",
-    "title" : null,
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle",
-    "identifier" : "urn:oid:1.2.250.1.213.3.3.12",
-    "status" : "active",
-    "codeProperty" : "dateFin",
-    "uriProperty" : null,
-    "typeProperty" : "dateTime",
-    "descriptionProperty" : "Date de fin d'exploitation d'un code concept"
-  },
-  {
-    "id" : "TRE-R211-ActiviteOperationnelle",
-    "name" : "TRE_R211_ActiviteOperationnelle",
-    "title" : null,
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle",
-    "identifier" : "urn:oid:1.2.250.1.213.3.3.12",
-    "status" : "active",
-    "codeProperty" : "deprecationDate",
-    "uriProperty" : "http://hl7.org/fhir/concept-properties#deprecationDate",
-    "typeProperty" : "dateTime",
-    "descriptionProperty" : "Date Concept was deprecated"
-  },
-  {
-    "id" : "TRE-R211-ActiviteOperationnelle",
-    "name" : "TRE_R211_ActiviteOperationnelle",
-    "title" : null,
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle",
-    "identifier" : "urn:oid:1.2.250.1.213.3.3.12",
-    "status" : "active",
-    "codeProperty" : "status",
-    "uriProperty" : "http://hl7.org/fhir/concept-properties#status",
-    "typeProperty" : "code",
-    "descriptionProperty" : "A property that indicates the status of the concept."
-  },
-  {
-    "id" : "TRE-R211-ActiviteOperationnelle",
-    "name" : "TRE_R211_ActiviteOperationnelle",
-    "title" : null,
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle",
-    "identifier" : "urn:oid:1.2.250.1.213.3.3.12",
     "status" : "active",
     "codeProperty" : "retirementDate",
     "uriProperty" : "http://hl7.org/fhir/concept-properties#retirementDate",

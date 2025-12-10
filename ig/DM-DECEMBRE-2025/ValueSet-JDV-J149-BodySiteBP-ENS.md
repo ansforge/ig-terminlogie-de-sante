@@ -100,12 +100,10 @@ Requête sur le SMT
         "system" : "http://snomed.info/sct",
         "concept" : [
           {
-            "code" : "8205005",
-            "display" : "poignet"
+            "code" : "8205005"
           },
           {
-            "code" : "53120007",
-            "display" : "membre supérieur"
+            "code" : "53120007"
           }
         ]
       }

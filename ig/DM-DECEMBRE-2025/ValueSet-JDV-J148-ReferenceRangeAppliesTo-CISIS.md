@@ -116,8 +116,7 @@ Expansions are not generated for retired value sets
         "system" : "http://snomed.info/sct",
         "concept" : [
           {
-            "code" : "77386006",
-            "display" : "enceinte"
+            "code" : "77386006"
           }
         ]
       }

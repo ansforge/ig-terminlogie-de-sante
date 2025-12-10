@@ -130,7 +130,7 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R208_ClasseAge](CodeSystem-TRE-R208-ClasseAge.md) | Classe d'âge | 15/12/2023 |
 | [TRE_R209_TypeActivite](CodeSystem-TRE-R209-TypeActivite.md) | Type d'activité | 23/02/2024 |
 | [TRE_R210_ActeSpecifique](CodeSystem-TRE-R210-ActeSpecifique.md) | Un acte spécifique est une action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé. Les actes réalisés habituellement par ce type d'organisation ne sont pas des actes spécifiques. Les actes spécifiques décrits sont réalisés avec les ressources propres de l’organisation ou via des ressources mises à disposition dans le cadre d’une convention à la condition que ces ressources interviennent sur site dans la réalisation de la prestation. | 17/10/2025 |
-| [TRE_R211_ActiviteOperationnelle](CodeSystem-TRE-R211-ActiviteOperationnelle.md) | Activite Operationnelle | 17/10/2025 |
+| [TRE_R211_ActiviteOperationnelle](CodeSystem-TRE-R211-ActiviteOperationnelle.md) | Activite Operationnelle | 22/12/2025 |
 | [TRE_R212_Equipement](CodeSystem-TRE-R212-Equipement.md) | Equipement | 18/09/2025 |
 | [TRE_R213_ModePriseEnCharge](CodeSystem-TRE-R213-ModePriseEnCharge.md) | Mode de la prise en charge | 28/08/2025 |
 | [TRE_R216_HL7RoleCode](CodeSystem-TRE-R216-HL7RoleCode.md) | HL7 roleCode | 13/12/2024 |

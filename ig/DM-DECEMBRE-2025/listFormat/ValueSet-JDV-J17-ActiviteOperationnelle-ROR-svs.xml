@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20251017120000"
+             dateMaj="20251222120000"
              dateValid="20160901000000"
              description="Activité Operationnelle - ROR"
              displayName="JDV_J17_ActiviteOperationnelle_ROR"
@@ -175,6 +175,9 @@
          <Concept code="082"
                   codeSystem="1.2.250.1.213.3.3.12"
                   displayName="Médecine du travail (pathologie professionnelle)"/>
+         <Concept code="083"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Médecine polyvalente"/>
          <Concept code="084"
                   codeSystem="1.2.250.1.213.3.3.12"
                   displayName="Médecine hyperbare"/>

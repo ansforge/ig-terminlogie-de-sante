@@ -121,8 +121,7 @@ Requête sur le SMT
         "system" : "http://snomed.info/sct",
         "concept" : [
           {
-            "code" : "8499008",
-            "display" : "pouls"
+            "code" : "8499008"
           }
         ]
       }

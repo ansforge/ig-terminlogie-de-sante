@@ -969,7 +969,7 @@
     "id" : "JDV-J17-ActiviteOperationnelle-ROR",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J17-ActiviteOperationnelle-ROR/FHIR/JDV-J17-ActiviteOperationnelle-ROR",
-    "version" : "20251017120000",
+    "version" : "20251222120000",
     "name" : "JDV_J17_ActiviteOperationnelle_ROR",
     "oids" : ["1.2.250.1.213.3.4.5"]
   },
@@ -2041,7 +2041,7 @@
     "id" : "JDV-J55-CategorieEG-ROR",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J55-CategorieEG-ROR/FHIR/JDV-J55-CategorieEG-ROR",
-    "version" : "20250425120000",
+    "version" : "20251222120000",
     "name" : "JDV_J55_CategorieEG_ROR",
     "oids" : ["1.2.250.1.213.3.3.65"]
   },
@@ -2857,7 +2857,7 @@
     "id" : "TRE-R211-ActiviteOperationnelle",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle",
-    "version" : "20251017120000",
+    "version" : "20251222120000",
     "name" : "TRE_R211_ActiviteOperationnelle",
     "oids" : ["1.2.250.1.213.3.3.12"]
   },

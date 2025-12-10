@@ -109,8 +109,7 @@ Requête sur le SMT
         "system" : "http://snomed.info/sct",
         "concept" : [
           {
-            "code" : "82078001",
-            "display" : "prélèvement d'un échantillon sanguin pour le laboratoire"
+            "code" : "82078001"
           }
         ]
       }

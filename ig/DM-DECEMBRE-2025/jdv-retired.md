@@ -11,10 +11,10 @@ Vous touverez ici la liste des JDV à l'etat "retired".
 | | |
 | :--- | :--- |
 | Name | Description |
+| [JDV_J148_ReferenceRangeAppliesTo_CISIS](ValueSet-JDV-J148-ReferenceRangeAppliesTo-CISIS.md) | JDV pour le champ d'application de l'intervalle de référence |
 | [JDV_J114_Pays_ENREG](ValueSet-JDV-J114-Pays-ENREG.md) | Référentiel dérivé des pays provenant de la norme INSEE pour ENREG |
 | [JDV_J123_Pays_MDPH](ValueSet-JDV-J123-Pays-MDPH.md) | Toute la nomenclature des codes pays auquel on ajoute le code applicatif r "non renseigné" |
 | [JDV_J12_CiviliteTitre_CISIS](ValueSet-JDV-J12-CiviliteTitre-CISIS.md) | Titre civilité - CI-SIS |
-| [JDV_J148_ReferenceRangeAppliesTo_CISIS](ValueSet-JDV-J148-ReferenceRangeAppliesTo-CISIS.md) | JDV pour le champ d'application de l'intervalle de référence |
 | [JDV_J153_TypeDiabete_ENS](ValueSet-JDV-J153-TypeDiabete-ENS.md) | JDV pour caractériser le type de diabète dans l'extension DiabetisType |
 | [JDV_J167_DepartementOM_EPARS](ValueSet-JDV-J167-DepartementOM-EPARS.md) | Département pour saisie dans EPARS |
 | [JDV_J168_Pays_EPARS](ValueSet-JDV-J168-Pays-EPARS.md) | Pays pour EPARS |

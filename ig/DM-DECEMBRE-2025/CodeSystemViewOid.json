@@ -112,6 +112,14 @@
     "status" : "active"
   },
   {
+    "id" : "TRE-R211-ActiviteOperationnelle",
+    "name" : "TRE_R211_ActiviteOperationnelle",
+    "title" : null,
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle",
+    "identifier" : "urn:oid:1.2.250.1.213.3.3.12",
+    "status" : "active"
+  },
+  {
     "id" : "TRE-R221-ModeleDocumentCDANonStructure",
     "name" : "TRE_R221_ModeleDocumentCDANonStructure",
     "title" : null,
@@ -821,14 +829,6 @@
     "title" : null,
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique",
     "identifier" : "urn:oid:1.2.250.1.213.3.3.11",
-    "status" : "active"
-  },
-  {
-    "id" : "TRE-R211-ActiviteOperationnelle",
-    "name" : "TRE_R211_ActiviteOperationnelle",
-    "title" : null,
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle",
-    "identifier" : "urn:oid:1.2.250.1.213.3.3.12",
     "status" : "active"
   },
   {

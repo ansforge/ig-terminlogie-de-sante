@@ -30,7 +30,7 @@ Vous touverez ici la liste des JDV du NOS.
 | [JDV_J14_QualiteRepresentantLegal_CISIS](ValueSet-JDV-J14-QualiteRepresentantLegal-CISIS.md) | Qualité représentant légal - CI-SIS | 13/12/2024 |
 | [JDV_J15_ClasseAge_ROR](ValueSet-JDV-J15-ClasseAge-ROR.md) | Classe d'âge - ROR | 24/04/2020 |
 | [JDV_J16_ActeSpecifique_ROR](ValueSet-JDV-J16-ActeSpecifique-ROR.md) | Acte spécifique - ROR | 17/10/2025 |
-| [JDV_J17_ActiviteOperationnelle_ROR](ValueSet-JDV-J17-ActiviteOperationnelle-ROR.md) | Activité Operationnelle - ROR | 17/10/2025 |
+| [JDV_J17_ActiviteOperationnelle_ROR](ValueSet-JDV-J17-ActiviteOperationnelle-ROR.md) | Activité Operationnelle - ROR | 22/12/2025 |
 | [JDV_J18_EquipementSpecifique_ROR](ValueSet-JDV-J18-EquipementSpecifique-ROR.md) | Equipement spécifique - ROR | 23/06/2025 |
 | [JDV_J19_ModePriseEnCharge_ROR](ValueSet-JDV-J19-ModePriseEnCharge-ROR.md) | Mode de la prise en charge - ROR | 28/08/2025 |
 | [JDV_J20_ChampActivite_ROR](ValueSet-JDV-J20-ChampActivite-ROR.md) | Champ d'activité - ROR | 30/10/2023 |
@@ -62,7 +62,7 @@ Vous touverez ici la liste des JDV du NOS.
 | [JDV_J52_AvailabilityStatus_CISIS](ValueSet-JDV-J52-AvailabilityStatus-CISIS.md) | Statut du document CI-SIS | 24/04/2020 |
 | [JDV_J53_TypeRequeteGestionDossier_CISIS](ValueSet-JDV-J53-TypeRequeteGestionDossier-CISIS.md) | Code de requêtes de gestion de dossier CI-SIS | 24/04/2020 |
 | [JDV_J54_Profession_ROR](ValueSet-JDV-J54-Profession-ROR.md) | Profession de santé - ROR | 23/05/2025 |
-| [JDV_J55_CategorieEG_ROR](ValueSet-JDV-J55-CategorieEG-ROR.md) | Catégories d'établissements FINESS ou hors FINESS et secteurs d'activité des cabinets | 25/04/2025 |
+| [JDV_J55_CategorieEG_ROR](ValueSet-JDV-J55-CategorieEG-ROR.md) | Catégories d'établissements FINESS ou hors FINESS et secteurs d'activité des cabinets | 22/12/2025 |
 | [JDV_J56_AuthorSpecialty_DMP](ValueSet-JDV-J56-AuthorSpecialty-DMP.md) | Jeu de valeurs pour authorSpecialty | 27/09/2024 |
 | [JDV_J57_ClassCode_DMP](ValueSet-JDV-J57-ClassCode-DMP.md) | Jeu de valeurs pour métadonnée classCode | 22/09/2023 |
 | [JDV_J58_ConfidentialityCode_DMP](ValueSet-JDV-J58-ConfidentialityCode-DMP.md) | Jeu de valeurs pour métadonnée confidentialityCode | 24/04/2020 |
@@ -264,7 +264,7 @@ Vous touverez ici la liste des JDV du NOS.
 | [Hl7VSEmploymentStatus](ValueSet-jdv-hl7-v2-0066-cisis.md) | hl7VS-employmentStatus | 28/10/2025 |
 | [Hl7VSSpecimenCollectionMethod](ValueSet-jdv-hl7-v2-0488-cisis.md) | hl7VS-specimenCollectionMethod | 28/10/2025 |
 | [WorkScheduleODH](ValueSet-jdv-hl7-v3-WorkScheduleODH-cisis.md) | WorkScheduleODH | 28/10/2025 |
-| [JDV_TRE_R222_MediaTypeCorpsCDANonStructure](ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all.md) | JDV avec l'ensemble des codes actifs de la TRE_R222_MediaTypeCorpsCDANonStructure | 09/12/2025 |
+| [JDV_TRE_R222_MediaTypeCorpsCDANonStructure](ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all.md) | JDV avec l'ensemble des codes actifs de la TRE_R222_MediaTypeCorpsCDANonStructure | 10/12/2025 |
 | [JdvBatterieExamenCisis](ValueSet-jdv-batterie-examen-cisis.md) | JDV Batterie Examen CISIS | 24/06/2025 |
 | [JdvCasSporadiqueFamilialCisis](ValueSet-jdv-cas-sporadique-familial-cisis.md) | JDV Cas Sporadique Familial CISIS | 28/10/2025 |
 | [JdvCauseAccidentDomestiqueCisis](ValueSet-jdv-cause-accident-domestique-cisis.md) | JDV Cause Accident Domestique CISIS | 24/06/2025 |
@@ -517,7 +517,7 @@ Vous touverez ici la liste des JDV du NOS.
 | [JdvTnmPtnmPt2Cisis](ValueSet-jdv-tnm-ptnm-pt-2-cisis.md) | JDV Tnm Ptnm Pt 2 CISIS | 24/06/2025 |
 | [JdvTnmPtnmPt3Cisis](ValueSet-jdv-tnm-ptnm-pt-3-cisis.md) | JDV Tnm Ptnm Pt 3 CISIS | 24/06/2025 |
 | [TimingEvent](ValueSet-jdv-hl7-v3-TimingEvent-cisis.md) | TimingEvent | 28/10/2025 |
-| [JdvModeleDocumentCda](ValueSet-jdv-modele-document-cda.md) | JDV avec l'ensemble des codes de la TRE_R220_ModeleDocumentCDAStructure et TRE_R221_ModeleDocumentCDANonStructure | 09/12/2025 |
+| [JdvModeleDocumentCda](ValueSet-jdv-modele-document-cda.md) | JDV avec l'ensemble des codes de la TRE_R220_ModeleDocumentCDAStructure et TRE_R221_ModeleDocumentCDANonStructure | 10/12/2025 |
 | [ActMoodIntent](ValueSet-jdv-hl7-v3-ActMoodIntent-cisis.md) | ActMoodIntent | 28/10/2025 |
 | [ActMood](ValueSet-jdv-hl7-v3-ActMood-cisis.md) | ActMood | 28/10/2025 |
 | [EmploymentStatusODH](ValueSet-jdv-hl7-v3-employmentStatusODH-cisis.md) | EmploymentStatusODH | 28/10/2025 |
@@ -588,7 +588,7 @@ Vous touverez ici la liste des JDV du NOS.
 | [PersonalRelationshipRoleType](ValueSet-jdv-hl7-v3-PersonalRelationshipRoleType-cisis.md) | PersonalRelationshipRoleType | 28/10/2025 |
 | [JdvAppreciationDiagnosticCentreCisis](ValueSet-jdv-appreciation-diagnostic-centre-cisis.md) | JDV Appreciation Diagnostic Centre CISIS | 28/10/2025 |
 | [JdvSpecimenTypeCisis](ValueSet-jdv-specimen-type-cisis.md) | JDV Specimen Type CISIS | 28/10/2025 |
-| [JdvTreR221ModeleDocumentCdaNonStructureAll](ValueSet-jdv-tre-r221-modele-document-cda-non-structure-all.md) | JDV avec l'ensemble des codes actifs de la TRE_R221_ModeleDocumentCDANonStructure | 09/12/2025 |
+| [JdvTreR221ModeleDocumentCdaNonStructureAll](ValueSet-jdv-tre-r221-modele-document-cda-non-structure-all.md) | JDV avec l'ensemble des codes actifs de la TRE_R221_ModeleDocumentCDANonStructure | 10/12/2025 |
 | [ActPriority](ValueSet-jdv-hl7-v3-ActPriority-cisis.md) | ActPriority | 28/10/2025 |
 | [AllergyIntoleranceClinicalStatusCodes](ValueSet-jdv-hl7-allergyintolerance-clinical-cisis.md) | AllergyIntolerance Clinical Status Codes | 28/10/2025 |
 | [AllergyIntoleranceCriticality](ValueSet-jdv-hl7-allergy-intolerance-criticality-cisis.md) | Allergy Intolerance Criticality | 28/10/2025 |
