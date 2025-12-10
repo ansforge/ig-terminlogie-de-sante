@@ -9927,6 +9927,30 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #648 ^property[=].valueBoolean = true
 * #648 ^property[+].code = #cisis
 * #648 ^property[=].valueBoolean = true
+* #649 "Centre de santé et de médiation en santé sexuelle" "Les centres de santé et de médiation en santé sexuelle (CSMSS) sont des établissements de santé dérogatoires relevant de l’article L. 6323-1 du code de la santé publique (CSP). Ils ont initialement fait l’objet d’une expérimentation dans le cadre du dispositif prévu à l’article 51 de la loi de financement de la sécurité sociale, au cours de laquelle ils étaient rattachés au numéro FINESS des centres de santé de droit commun. L’activité des centres de santé et de médiation en santé sexuelle (CSMSS) consiste à assurer l’accueil, l’information, la prévention, le dépistage et l’accompagnement des publics dans le domaine de la santé sexuelle dans une approche globale intégrant notamment la prévention et la prise en charge des infections sexuellement transmissibles (IST) et du VIH, la prescription de la contraception et la mise en place de parcours en santé sexuelle."
+* #649 ^property[0].code = #niveau
+* #649 ^property[=].valueInteger =  4
+* #649 ^property[+].code = #domaine
+* #649 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
+* #649 ^property[=].valueCoding.code = #SAN
+* #649 ^property[+].code = #parent
+* #649 ^property[=].valueCode = #2202
+* #649 ^designation[0].language = #fr-FR
+* #649 ^designation[=].use.system = "http://snomed.info/sct"
+* #649 ^designation[=].use = $sct#900000000000013009
+* #649 ^designation[=].value = "C.S.M.S.S."
+* #649 ^property[0].code = #dateValid
+* #649 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #649 ^property[+].code = #dateMaj
+* #649 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #649 ^property[+].code = #status
+* #649 ^property[=].valueCode = #active
+* #649 ^property[+].code = #rass
+* #649 ^property[=].valueBoolean = true
+* #649 ^property[+].code = #ror
+* #649 ^property[=].valueBoolean = true
+* #649 ^property[+].code = #cisis
+* #649 ^property[=].valueBoolean = true
 * #690 "Etablissement de Fabrication Annexe à une Officine"
 * #690 ^property[0].code = #niveau
 * #690 ^property[=].valueInteger =  4
