@@ -8,7 +8,7 @@
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narratif généré : CodeSystem tre-r400-finess-statut-juridique</b></p><a name="tre-r400-finess-statut-juridique"> </a><a name="hctre-r400-finess-statut-juridique"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version: 1; Dernière mise à jour : 2025-09-28 05:14:07+0000</p><p style="margin-bottom: 0px">Profil: <a href="http://hl7.org/fhir/R4/shareablecodesystem.html">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class="grid"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>niveau</td><td>niveau</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#niveau</td><td>integer</td><td>Permet d'indiquer le niveau hiérarchique du code</td></tr><tr><td>Parent</td><td>parent</td><td>http://hl7.org/fhir/concept-properties#parent</td><td>code</td><td>An immediate parent of the concept in the hierarchy</td></tr><tr><td>finess</td><td>finess</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#finess</td><td>boolean</td><td>Permet de définir les codes concepts utilisés par FINESS+</td></tr><tr><td>specialisationRpps</td><td>specialisationRpps</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#specialisationRpps</td><td>boolean</td><td>Permet de définir les codes concepts définis par le RPPS</td></tr><tr><td>enreg</td><td>enreg</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#enreg</td><td>boolean</td><td>Permet de définir les codes concepts utilisés par ENREG</td></tr><tr><td>rass</td><td>rass</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#rass</td><td>boolean</td><td>Permet de définir les codes concepts uilisés par le RASS</td></tr><tr><td>epars</td><td>epars</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#epars</td><td>boolean</td><td>Permet de définir les codes concepts uilisés par EPARS</td></tr><tr><td>status</td><td>status</td><td>http://hl7.org/fhir/concept-properties#status</td><td>code</td><td>A property that indicates the status of the concept.</td></tr><tr><td>deprecationDate</td><td>deprecationDate</td><td>http://hl7.org/fhir/concept-properties#deprecationDate</td><td>dateTime</td><td>Date Concept was deprecated</td></tr><tr><td>retirementDate</td><td>retirementDate</td><td>http://hl7.org/fhir/concept-properties#retirementDate</td><td>dateTime</td><td>Date Concept was retired</td></tr><tr><td>dateValid</td><td>dateValid</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique</code> defines the following codes in a Is-A hierarchy:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Définition</b></td><td><b>niveau</b></td><td><b>Parent</b></td><td><b>finess</b></td><td><b>specialisationRpps</b></td><td><b>enreg</b></td><td><b>rass</b></td><td><b>epars</b></td><td><b>status</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>French (France) (fr)</b></td></tr><tr><td style="white-space:nowrap">1000<a name="tre-r400-finess-statut-juridique-1000"> </a></td><td>Organismes et Etablissements Publics</td><td/><td>1</td><td/><td>true</td><td/><td>true</td><td/><td/><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1994-10-18T00:00:00+01:00</td><td>Orga Etab. Publics</td></tr><tr><td style="white-space:nowrap">2000<a name="tre-r400-finess-statut-juridique-2000"> </a></td><td>Organismes Privés</td><td/><td>1</td><td/><td>true</td><td/><td>true</td><td/><td/><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1994-10-18T00:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">3000<a name="tre-r400-finess-statut-juridique-3000"> </a></td><td>Personne Morale de Droit Etranger</td><td/><td>1</td><td/><td>true</td><td/><td>true</td><td/><td/><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1994-10-18T00:00:00+01:00</td><td>Pers.Moral.Etranger</td></tr><tr><td style="white-space:nowrap">1100<a name="tre-r400-finess-statut-juridique-1100"> </a></td><td>Etat et Collectivités Territoriales</td><td/><td>2</td><td><a href="#tre-r400-finess-statut-juridique-1000">1000</a></td><td>true</td><td/><td>true</td><td/><td/><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Etat &amp; Col.Territ.</td></tr><tr><td style="white-space:nowrap">1200<a name="tre-r400-finess-statut-juridique-1200"> </a></td><td>Etablissement Public</td><td/><td>2</td><td><a href="#tre-r400-finess-statut-juridique-1000">1000</a></td><td>true</td><td/><td>true</td><td/><td/><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">2100<a name="tre-r400-finess-statut-juridique-2100"> </a></td><td>Organisme Privé à But non Lucratif</td><td/><td>2</td><td><a href="#tre-r400-finess-statut-juridique-2000">2000</a></td><td>true</td><td/><td>true</td><td/><td/><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Org.Privé non Lucr.</td></tr><tr><td style="white-space:nowrap">2200<a name="tre-r400-finess-statut-juridique-2200"> </a></td><td>Organisme Privé à Caractère Commercial</td><td/><td>2</td><td><a href="#tre-r400-finess-statut-juridique-2000">2000</a></td><td>true</td><td/><td>true</td><td/><td/><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Org. Privé Commer.</td></tr><tr><td style="white-space:nowrap">3100<a name="tre-r400-finess-statut-juridique-3100"> </a></td><td>Personne Morale de Droit Etranger</td><td/><td>2</td><td><a href="#tre-r400-finess-statut-juridique-3000">3000</a></td><td>true</td><td/><td>true</td><td/><td/><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Pers.Moral.Etranger</td></tr><tr><td style="white-space:nowrap">1110<a name="tre-r400-finess-statut-juridique-1110"> </a></td><td>Etat</td><td/><td>3</td><td><a href="#tre-r400-finess-statut-juridique-1100">1100</a></td><td>true</td><td/><td>true</td><td/><td/><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">1120<a name="tre-r400-finess-statut-juridique-1120"> </a></td><td>Collectivité Territoriale</td><td/><td>3</td><td><a href="#tre-r400-finess-statut-juridique-1100">1100</a></td><td>true</td><td/><td>true</td><td/><td/><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Col. Territoriale</td></tr><tr><td style="white-space:nowrap">1210<a name="tre-r400-finess-statut-juridique-1210"> </a></td><td>Etablissement Public à Caractère Administratif</td><td/><td>3</td><td><a href="#tre-r400-finess-statut-juridique-1200">1200</a></td><td>true</td><td/><td>true</td><td/><td/><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Etb.Pub. Administr.</td></tr><tr><td style="white-space:nowrap">1220<a name="tre-r400-finess-statut-juridique-1220"> </a></td><td>Etablissement Public à Caractère Industriel et Commercial</td><td/><td>3</td><td><a href="#tre-r400-finess-statut-juridique-1200">1200</a></td><td>true</td><td/><td>true</td><td/><td/><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Etb.Pub. Indus. Com.</td></tr><tr><td style="white-space:nowrap">2110<a name="tre-r400-finess-statut-juridique-2110"> </a></td><td>Organisme Gérant un Régime de Protection Sociale à Adhésion</td><td/><td>3</td><td><a href="#tre-r400-finess-statut-juridique-2100">2100</a></td><td>true</td><td/><td>true</td><td/><td/><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Org.Régime Prot.Soc.</td></tr><tr><td style="white-space:nowrap">2120<a name="tre-r400-finess-statut-juridique-2120"> </a></td><td>Organisme Mutualiste</td><td/><td>3</td><td><a href="#tre-r400-finess-statut-juridique-2100">2100</a></td><td>true</td><td/><td>true</td><td/><td/><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Org. Mutualiste</td></tr><tr><td style="white-space:nowrap">2130<a name="tre-r400-finess-statut-juridique-2130"> </a></td><td>Comité d'Entreprise et Comité d'Etablissement</td><td/><td>3</td><td><a href="#tre-r400-finess-statut-juridique-2100">2100</a></td><td>true</td><td/><td>true</td><td/><td/><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Comité d'Entreprise</td></tr><tr><td style="white-space:nowrap">2140<a name="tre-r400-finess-statut-juridique-2140"> </a></td><td>Organisme Professionnel</td><td/><td>3</td><td><a href="#tre-r400-finess-statut-juridique-2100">2100</a></td><td>true</td><td/><td>true</td><td/><td/><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Org. professionnel</td></tr><tr><td style="white-space:nowrap">2150<a name="tre-r400-finess-statut-juridique-2150"> </a></td><td>Syndicat de Propriétaires</td><td/><td>3</td><td><a href="#tre-r400-finess-statut-juridique-2100">2100</a></td><td>true</td><td/><td>true</td><td/><td/><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Synd. Propriétaires</td></tr><tr><td style="white-space:nowrap">2160<a name="tre-r400-finess-statut-juridique-2160"> </a></td><td>Association</td><td/><td>3</td><td><a href="#tre-r400-finess-statut-juridique-2100">2100</a></td><td>true</td><td/><td>true</td><td/><td/><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">2170<a name="tre-r400-finess-statut-juridique-2170"> </a></td><td>Fondation</td><td/><td>3</td><td><a href="#tre-r400-finess-statut-juridique-2100">2100</a></td><td>true</td><td/><td>true</td><td/><td/><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">2180<a name="tre-r400-finess-statut-juridique-2180"> </a></td><td>Congrégation</td><td/><td>3</td><td><a href="#tre-r400-finess-statut-juridique-2100">2100</a></td><td>true</td><td/><td>true</td><td/><td/><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">2190<a name="tre-r400-finess-statut-juridique-2190"> </a></td><td>Autre Organisme Privé à But non Lucratif</td><td/><td>3</td><td><a href="#tre-r400-finess-statut-juridique-2100">2100</a></td><td>true</td><td/><td>true</td><td/><td/><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Autre Org. Privé</td></tr><tr><td style="white-space:nowrap">2210<a name="tre-r400-finess-statut-juridique-2210"> </a></td><td>Personne Physique</td><td/><td>3</td><td><a href="#tre-r400-finess-statut-juridique-2200">2200</a></td><td>true</td><td/><td>true</td><td/><td/><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">2220<a name="tre-r400-finess-statut-juridique-2220"> </a></td><td>Société en Nom Collectif (S.N.C.)</td><td/><td>3</td><td><a href="#tre-r400-finess-statut-juridique-2200">2200</a></td><td>true</td><td/><td>true</td><td/><td/><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Soc.en Nom Collectif</td></tr><tr><td style="white-space:nowrap">2230<a name="tre-r400-finess-statut-juridique-2230"> </a></td><td>Société A Responsabilité Limitée (S.A.R.L.)</td><td/><td>3</td><td><a href="#tre-r400-finess-statut-juridique-2200">2200</a></td><td>true</td><td/><td>true</td><td/><td/><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>S.A.R.L.</td></tr><tr><td style="white-space:nowrap">2240<a name="tre-r400-finess-statut-juridique-2240"> </a></td><td>Société Anonyme (S.A.)</td><td/><td>3</td><td><a href="#tre-r400-finess-statut-juridique-2200">2200</a></td><td>true</td><td/><td>true</td><td/><td/><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Société Anonyme</td></tr><tr><td style="white-space:nowrap">2250<a name="tre-r400-finess-statut-juridique-2250"> </a></td><td>Société Civile</td><td/><td>3</td><td><a href="#tre-r400-finess-statut-juridique-2200">2200</a></td><td>true</td><td/><td>true</td><td/><td/><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">2260<a name="tre-r400-finess-statut-juridique-2260"> </a></td><td>Autre Société</td><td/><td>3</td><td><a href="#tre-r400-finess-statut-juridique-2200">2200</a></td><td>true</td><td/><td>true</td><td/><td/><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">2270<a name="tre-r400-finess-statut-juridique-2270"> </a></td><td>Groupement Privé à Caractère Commercial</td><td/><td>3</td><td><a href="#tre-r400-finess-statut-juridique-2200">2200</a></td><td>true</td><td/><td>true</td><td/><td/><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Gr.Privé.Caract.Com.</td></tr><tr><td style="white-space:nowrap">2280<a name="tre-r400-finess-statut-juridique-2280"> </a></td><td>Autre Organisme Privé à Caractère Commercial</td><td/><td>3</td><td><a href="#tre-r400-finess-statut-juridique-2200">2200</a></td><td>true</td><td/><td>true</td><td/><td/><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Autre Org.Priv.Com.</td></tr><tr><td style="white-space:nowrap">3110<a name="tre-r400-finess-statut-juridique-3110"> </a></td><td>Personne Morale de Droit Etranger</td><td/><td>3</td><td><a href="#tre-r400-finess-statut-juridique-3100">3100</a></td><td>true</td><td/><td>true</td><td/><td/><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Pers.Moral.Etranger</td></tr><tr><td style="white-space:nowrap">000<a name="tre-r400-finess-statut-juridique-000"> </a></td><td>En cours de vérification</td><td>Code ne provenant pas du FINESS, ajouté pour des usages RPPS.</td><td>4</td><td/><td>false</td><td>true</td><td>true</td><td>true</td><td>true</td><td>active</td><td>2017-10-13T12:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">01<a name="tre-r400-finess-statut-juridique-01"> </a></td><td>Etat</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-1110">1110</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">02<a name="tre-r400-finess-statut-juridique-02"> </a></td><td>Département</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-1120">1120</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">03<a name="tre-r400-finess-statut-juridique-03"> </a></td><td>Commune</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-1120">1120</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">04<a name="tre-r400-finess-statut-juridique-04"> </a></td><td>Région</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-1120">1120</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">05<a name="tre-r400-finess-statut-juridique-05"> </a></td><td>Territoire d'Outre Mer</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-1120">1120</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Territoire Outre Mer</td></tr><tr><td style="white-space:nowrap">06<a name="tre-r400-finess-statut-juridique-06"> </a></td><td>Autre Collectivité Territoriale</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-1120">1120</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Autre Collect. Terr.</td></tr><tr><td style="white-space:nowrap">07<a name="tre-r400-finess-statut-juridique-07"> </a></td><td>Métropole ou pôle métropolitain</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-1210">1210</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>2016-01-01T00:00:00+01:00</td><td>2016-02-17T00:00:00+01:00</td><td>Métropole</td></tr><tr><td style="white-space:nowrap">08<a name="tre-r400-finess-statut-juridique-08"> </a></td><td>Centre Intercommunal d'Action Sociale</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-1210">1210</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>2019-05-29T12:00:00+01:00</td><td>2019-05-29T12:00:00+01:00</td><td>C.I.A.S</td></tr><tr><td style="white-space:nowrap">10<a name="tre-r400-finess-statut-juridique-10"> </a></td><td>Etablissement Public National d'Hospitalisation</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-1210">1210</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Etb.Public Nat.Hosp.</td></tr><tr><td style="white-space:nowrap">100<a name="tre-r400-finess-statut-juridique-100"> </a></td><td>Société d'exercice libéral à responsabilité limitée unipersonnelle (SELURL)</td><td>Code ne provenant pas du FINESS, ajouté pour des usages RPPS.</td><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2230">2230</a></td><td>false</td><td>true</td><td>true</td><td>true</td><td>true</td><td>active</td><td>2017-10-13T12:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td>SELURL</td></tr><tr><td style="white-space:nowrap">101<a name="tre-r400-finess-statut-juridique-101"> </a></td><td>Société d'exercice libéral par actions simplifiée (SELAS)</td><td>Code ne provenant pas du FINESS, ajouté pour des usages RPPS.</td><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2260">2260</a></td><td>false</td><td>true</td><td>true</td><td>true</td><td>true</td><td>active</td><td>2017-10-13T12:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td>SELAS</td></tr><tr><td style="white-space:nowrap">102<a name="tre-r400-finess-statut-juridique-102"> </a></td><td>Société d'exercice libéral par actions simplifiée unipersonnelle (SELASU)</td><td>Code ne provenant pas du FINESS, ajouté pour des usages RPPS.</td><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2260">2260</a></td><td>false</td><td>true</td><td>true</td><td>true</td><td>true</td><td>active</td><td>2017-10-13T12:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td>SELASU</td></tr><tr><td style="white-space:nowrap">103<a name="tre-r400-finess-statut-juridique-103"> </a></td><td>Société en commandite simple (SCS)</td><td>Code ne provenant pas du FINESS, ajouté pour des usages RPPS.</td><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2260">2260</a></td><td>false</td><td>true</td><td>true</td><td>true</td><td>true</td><td>active</td><td>2017-10-13T12:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td>SCS</td></tr><tr><td style="white-space:nowrap">104<a name="tre-r400-finess-statut-juridique-104"> </a></td><td>Société en commandite par actions (SCA)</td><td>Code ne provenant pas du FINESS, ajouté pour des usages RPPS.</td><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2260">2260</a></td><td>false</td><td>true</td><td>true</td><td>true</td><td>true</td><td>active</td><td>2017-10-13T12:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td>SCA</td></tr><tr><td style="white-space:nowrap">105<a name="tre-r400-finess-statut-juridique-105"> </a></td><td>Société par actions simplifiée (SAS)</td><td>Code ne provenant pas du FINESS, ajouté pour des usages RPPS.</td><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2260">2260</a></td><td>false</td><td>true</td><td>true</td><td>true</td><td>true</td><td>active</td><td>2017-10-13T12:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td>SAS</td></tr><tr><td style="white-space:nowrap">106<a name="tre-r400-finess-statut-juridique-106"> </a></td><td>Société anonyme à directoire (SADI)</td><td>Code ne provenant pas du FINESS, ajouté pour des usages RPPS.</td><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2240">2240</a></td><td>false</td><td>true</td><td>true</td><td>true</td><td>true</td><td>active</td><td>2017-10-13T12:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td>SADI</td></tr><tr><td style="white-space:nowrap">107<a name="tre-r400-finess-statut-juridique-107"> </a></td><td>Société Anonyme à conseil d'administration (SACA)</td><td>Code ne provenant pas du FINESS, ajouté pour des usages RPPS.</td><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2240">2240</a></td><td>false</td><td>true</td><td>true</td><td>true</td><td>true</td><td>active</td><td>2017-10-13T12:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td>SACA</td></tr><tr><td style="white-space:nowrap">11<a name="tre-r400-finess-statut-juridique-11"> </a></td><td>Etablissement Public Départemental d'Hospitalisation</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-1210">1210</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Etb.Pub.Départ.Hosp.</td></tr><tr><td style="white-space:nowrap">110<a name="tre-r400-finess-statut-juridique-110"> </a></td><td>Société en participation (SEP)</td><td>Code ne provenant pas du FINESS, ajouté pour des usages RPPS.</td><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2260">2260</a></td><td>false</td><td>true</td><td>true</td><td>true</td><td>true</td><td>active</td><td>2017-10-13T12:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td>SEP</td></tr><tr><td style="white-space:nowrap">12<a name="tre-r400-finess-statut-juridique-12"> </a></td><td>Etablissement Public Interdépartemental d'Hospitalisation</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-1210">1210</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Etb.Pub.Intdép.Hosp.</td></tr><tr><td style="white-space:nowrap">13<a name="tre-r400-finess-statut-juridique-13"> </a></td><td>Etablissement Public Communal d'Hospitalisation</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-1210">1210</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Etb.Pub.Commun.Hosp.</td></tr><tr><td style="white-space:nowrap">14<a name="tre-r400-finess-statut-juridique-14"> </a></td><td>Etablissement Public Intercommunal d'Hospitalisation</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-1210">1210</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Etb.Pub.Intcom.Hosp.</td></tr><tr><td style="white-space:nowrap">15<a name="tre-r400-finess-statut-juridique-15"> </a></td><td>Etablissement Public Régional d'Hospitalisation</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-1210">1210</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Etb.Public Rég.Hosp.</td></tr><tr><td style="white-space:nowrap">16<a name="tre-r400-finess-statut-juridique-16"> </a></td><td>Syndicat Inter Hospitalier</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-1210">1210</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>S.I.H.</td></tr><tr><td style="white-space:nowrap">17<a name="tre-r400-finess-statut-juridique-17"> </a></td><td>Centre Communal d'Action Sociale</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-1210">1210</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>C.C.A.S.</td></tr><tr><td style="white-space:nowrap">18<a name="tre-r400-finess-statut-juridique-18"> </a></td><td>Etablissement Social et Médico-Social National</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-1210">1210</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Etb.Social National</td></tr><tr><td style="white-space:nowrap">19<a name="tre-r400-finess-statut-juridique-19"> </a></td><td>Etablissement Social et Médico-Social Départemental</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-1210">1210</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Etb.Social Départ.</td></tr><tr><td style="white-space:nowrap">20<a name="tre-r400-finess-statut-juridique-20"> </a></td><td>Etablissement Social et Médico-Social Interdépartemental</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-1210">1210</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Etb.Social Interdept</td></tr><tr><td style="white-space:nowrap">21<a name="tre-r400-finess-statut-juridique-21"> </a></td><td>Etablissement Social et Médico-Social Communal</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-1210">1210</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Etb.Social Communal</td></tr><tr><td style="white-space:nowrap">22<a name="tre-r400-finess-statut-juridique-22"> </a></td><td>Etablissement Social et Médico-Social Intercommunal</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-1210">1210</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Etb.Social Intercom.</td></tr><tr><td style="white-space:nowrap">23<a name="tre-r400-finess-statut-juridique-23"> </a></td><td>Etablissement Social et Médico-Social Régional</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-1210">1210</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Etb.Social Régional</td></tr><tr><td style="white-space:nowrap">24<a name="tre-r400-finess-statut-juridique-24"> </a></td><td>Office Public d'H.L.M.</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-1210">1210</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Office Public H.L.M.</td></tr><tr><td style="white-space:nowrap">25<a name="tre-r400-finess-statut-juridique-25"> </a></td><td>Caisse des Ecoles</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-1210">1210</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Caisse des écoles</td></tr><tr><td style="white-space:nowrap">26<a name="tre-r400-finess-statut-juridique-26"> </a></td><td>Autre Etablissement Public à Caractère Administratif</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-1210">1210</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Autre Etb. Pub. Adm</td></tr><tr><td style="white-space:nowrap">27<a name="tre-r400-finess-statut-juridique-27"> </a></td><td>Etablissement Public à Caractère Industriel ou Commercial</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-1220">1220</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Etb.Pub. Indus. Com.</td></tr><tr><td style="white-space:nowrap">28<a name="tre-r400-finess-statut-juridique-28"> </a></td><td>Groupement d'Intérêt Public (G.I.P.)</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-1210">1210</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>G.I.P.</td></tr><tr><td style="white-space:nowrap">29<a name="tre-r400-finess-statut-juridique-29"> </a></td><td>Groupement de Coopération Sanitaire public</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-1210">1210</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1999-06-17T00:00:00+01:00</td><td>1999-06-17T00:00:00+01:00</td><td>G.C.S. public</td></tr><tr><td style="white-space:nowrap">30<a name="tre-r400-finess-statut-juridique-30"> </a></td><td>Groupement de Coopération Sociale ou Médico-Sociale public</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-1210">1210</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>2014-02-12T00:00:00+01:00</td><td>2014-02-12T00:00:00+01:00</td><td>G.C.S.M.S. public</td></tr><tr><td style="white-space:nowrap">40<a name="tre-r400-finess-statut-juridique-40"> </a></td><td>Régime Général de Sécurité Sociale</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2110">2110</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Rég.Gén.Sécu.Sociale</td></tr><tr><td style="white-space:nowrap">41<a name="tre-r400-finess-statut-juridique-41"> </a></td><td>Régime Spécial de Sécurité Sociale</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2110">2110</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Rég.Spé.Sécu.Sociale</td></tr><tr><td style="white-space:nowrap">42<a name="tre-r400-finess-statut-juridique-42"> </a></td><td>Institution de Prévoyance</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2110">2110</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Institut Prévoyance</td></tr><tr><td style="white-space:nowrap">43<a name="tre-r400-finess-statut-juridique-43"> </a></td><td>Mutualité Sociale Agricole (M.S.A.)</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2110">2110</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Mut.Sociale Agricole</td></tr><tr><td style="white-space:nowrap">44<a name="tre-r400-finess-statut-juridique-44"> </a></td><td>Régime Maladie des non Salariés non Agricole</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2110">2110</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Rég.Mal.n Sal.n Agr.</td></tr><tr><td style="white-space:nowrap">45<a name="tre-r400-finess-statut-juridique-45"> </a></td><td>Régime Vieillesse Particulier</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2110">2110</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Rég.Vieillesse Part.</td></tr><tr><td style="white-space:nowrap">46<a name="tre-r400-finess-statut-juridique-46"> </a></td><td>Autre Régime de Prévoyance Sociale</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2110">2110</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Autre Rég.Prév.Soc.</td></tr><tr><td style="white-space:nowrap">47<a name="tre-r400-finess-statut-juridique-47"> </a></td><td>Société Mutualiste</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2120">2120</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">48<a name="tre-r400-finess-statut-juridique-48"> </a></td><td>Assurance Mutuelle Agricole</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2120">2120</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Assur. Mut. Agricole</td></tr><tr><td style="white-space:nowrap">49<a name="tre-r400-finess-statut-juridique-49"> </a></td><td>Autre Organisme Mutualiste</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2120">2120</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Autre Org.Mutualiste</td></tr><tr><td style="white-space:nowrap">50<a name="tre-r400-finess-statut-juridique-50"> </a></td><td>Comité d'Entreprise ou Comité d'Etablissement</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2130">2130</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Comité d'Entreprise</td></tr><tr><td style="white-space:nowrap">51<a name="tre-r400-finess-statut-juridique-51"> </a></td><td>Syndicat</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2140">2140</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">52<a name="tre-r400-finess-statut-juridique-52"> </a></td><td>Syndicat de Propriétaires</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2150">2150</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Synd. Propriétaires</td></tr><tr><td style="white-space:nowrap">60<a name="tre-r400-finess-statut-juridique-60"> </a></td><td>Association Loi 1901 non Reconnue d'Utilité Publique</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2160">2160</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Ass.L.1901 non R.U.P</td></tr><tr><td style="white-space:nowrap">61<a name="tre-r400-finess-statut-juridique-61"> </a></td><td>Association Loi 1901 Reconnue d'Utilité Publique</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2160">2160</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Ass.L.1901 R.U.P.</td></tr><tr><td style="white-space:nowrap">62<a name="tre-r400-finess-statut-juridique-62"> </a></td><td>Association de Droit Local</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2160">2160</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Ass. de Droit Local</td></tr><tr><td style="white-space:nowrap">63<a name="tre-r400-finess-statut-juridique-63"> </a></td><td>Fondation</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2170">2170</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">64<a name="tre-r400-finess-statut-juridique-64"> </a></td><td>Congrégation</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2180">2180</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">65<a name="tre-r400-finess-statut-juridique-65"> </a></td><td>Autre Organisme Privé à But non Lucratif</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2190">2190</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Autr.Org.Pri.non Luc</td></tr><tr><td style="white-space:nowrap">66<a name="tre-r400-finess-statut-juridique-66"> </a></td><td>Groupement de Coopération Sociale ou Médico-Sociale privé</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2190">2190</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>2014-02-12T00:00:00+01:00</td><td>2014-02-12T00:00:00+01:00</td><td>G.C.S.M.S. privé</td></tr><tr><td style="white-space:nowrap">70<a name="tre-r400-finess-statut-juridique-70"> </a></td><td>Personne Physique</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2210">2210</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">71<a name="tre-r400-finess-statut-juridique-71"> </a></td><td>Société en Nom Collectif (S.N.C.)</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2220">2220</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>S.N.C.</td></tr><tr><td style="white-space:nowrap">72<a name="tre-r400-finess-statut-juridique-72"> </a></td><td>Société A Responsabilité Limitée (S.A.R.L.)</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2230">2230</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>S.A.R.L.</td></tr><tr><td style="white-space:nowrap">73<a name="tre-r400-finess-statut-juridique-73"> </a></td><td>Société Anonyme (S.A.)</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2240">2240</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Société Anonyme</td></tr><tr><td style="white-space:nowrap">74<a name="tre-r400-finess-statut-juridique-74"> </a></td><td>Société Civile</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2250">2250</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">75<a name="tre-r400-finess-statut-juridique-75"> </a></td><td>Autre Société</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2260">2260</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">76<a name="tre-r400-finess-statut-juridique-76"> </a></td><td>Groupement d'Intérêt Economique (G.I.E.)</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2270">2270</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>2007-07-25T15:04:35+01:00</td><td>2008-02-28T00:00:00+01:00</td><td>G.I.E.</td></tr><tr><td style="white-space:nowrap">77<a name="tre-r400-finess-statut-juridique-77"> </a></td><td>Autre Organisme Privé à Caractère Commercial</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2280">2280</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>2007-07-25T15:04:35+01:00</td><td>2008-02-28T00:00:00+01:00</td><td>Autre Org.Priv.Com.</td></tr><tr><td style="white-space:nowrap">78<a name="tre-r400-finess-statut-juridique-78"> </a></td><td>Entreprise Unipersonnelle Responsabilité Limitée (E.U.R.L.)</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2230">2230</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>E.U.R.L.</td></tr><tr><td style="white-space:nowrap">79<a name="tre-r400-finess-statut-juridique-79"> </a></td><td>Société Civile de Moyens (S.C.M.)</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2250">2250</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>S.C.M.</td></tr><tr><td style="white-space:nowrap">80<a name="tre-r400-finess-statut-juridique-80"> </a></td><td>Société Interprofessionnelle Soins Ambulatoires (S.I.S.A.)</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2250">2250</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>2012-04-03T00:00:00+01:00</td><td>2012-04-03T00:00:00+01:00</td><td>S.I.S.A.</td></tr><tr><td style="white-space:nowrap">85<a name="tre-r400-finess-statut-juridique-85"> </a></td><td>Soc. Exercice Libéral Responsabilité Limitée (S.E.L.A.R.L.)</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2230">2230</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>S.E.L.A.R.L.</td></tr><tr><td style="white-space:nowrap">86<a name="tre-r400-finess-statut-juridique-86"> </a></td><td>Société d'Exercice Libéral à Forme Anonyme (S.E.L.A.F.A.)</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2240">2240</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>S.E.L.A.F.A.</td></tr><tr><td style="white-space:nowrap">87<a name="tre-r400-finess-statut-juridique-87"> </a></td><td>Société Exercice Libéral Commandite par Actions (S.E.L.C.A.)</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2260">2260</a></td><td>true</td><td/><td/><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>S.E.L.C.A.</td></tr><tr><td style="white-space:nowrap">88<a name="tre-r400-finess-statut-juridique-88"> </a></td><td>Société Civile Professionnelle (S.C.P.)</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2250">2250</a></td><td>true</td><td/><td/><td>true</td><td>true</td><td>active</td><td>1996-10-24T00:00:00+01:00</td><td>1996-10-24T00:00:00+01:00</td><td>S.C.P.</td></tr><tr><td style="white-space:nowrap">89<a name="tre-r400-finess-statut-juridique-89"> </a></td><td>Groupement de Coopération Sanitaire Privé</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2190">2190</a></td><td>true</td><td/><td/><td>true</td><td>true</td><td>active</td><td>1999-06-17T00:00:00+01:00</td><td>1999-06-17T00:00:00+01:00</td><td>G.C.S. privé</td></tr><tr><td style="white-space:nowrap">90<a name="tre-r400-finess-statut-juridique-90"> </a></td><td>Organisme de Droit Etranger</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-3110">3110</a></td><td>true</td><td/><td/><td>true</td><td>true</td><td>active</td><td>2007-07-25T15:04:35+01:00</td><td>2008-02-28T00:00:00+01:00</td><td>Org. Droit Etranger</td></tr><tr><td style="white-space:nowrap">91<a name="tre-r400-finess-statut-juridique-91"> </a></td><td>Société Exercice Libéral par Actions Simplifiée (S.E.L.A.S.)</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2260">2260</a></td><td>true</td><td/><td/><td>true</td><td>true</td><td>active</td><td>2014-02-12T00:00:00+01:00</td><td>2014-02-12T00:00:00+01:00</td><td>S.E.L.A.S.</td></tr><tr><td style="white-space:nowrap">93<a name="tre-r400-finess-statut-juridique-93"> </a></td><td>Société en commandite</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2260">2260</a></td><td>true</td><td/><td/><td>true</td><td>true</td><td>active</td><td>2014-02-12T00:00:00+01:00</td><td>2014-02-12T00:00:00+01:00</td><td>Société commandite</td></tr><tr><td style="white-space:nowrap">95<a name="tre-r400-finess-statut-juridique-95"> </a></td><td>Société par Actions Simplifiée (S.A.S.)</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2260">2260</a></td><td>true</td><td/><td/><td>true</td><td>true</td><td>active</td><td>2014-02-12T00:00:00+01:00</td><td>2014-02-12T00:00:00+01:00</td><td>SAS</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narratif généré : CodeSystem tre-r400-finess-statut-juridique</b></p><a name="tre-r400-finess-statut-juridique"> </a><a name="hctre-r400-finess-statut-juridique"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version: 1; Dernière mise à jour : 2025-09-28 05:14:07+0000</p><p style="margin-bottom: 0px">Profil: <a href="http://hl7.org/fhir/R4/shareablecodesystem.html">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class="grid"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>niveau</td><td>niveau</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#niveau</td><td>integer</td><td>Permet d'indiquer le niveau hiérarchique du code</td></tr><tr><td>Parent</td><td>parent</td><td>http://hl7.org/fhir/concept-properties#parent</td><td>code</td><td>An immediate parent of the concept in the hierarchy</td></tr><tr><td>ror</td><td>ror</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#ror</td><td>boolean</td><td>Permet de définir les codes concepts utilisés par le ROR</td></tr><tr><td>specialisationRpps</td><td>specialisationRpps</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#specialisationRpps</td><td>boolean</td><td>Permet de définir les codes concepts définis par le RPPS</td></tr><tr><td>enreg</td><td>enreg</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#enreg</td><td>boolean</td><td>Permet de définir les codes concepts utilisés par ENREG</td></tr><tr><td>rass</td><td>rass</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#rass</td><td>boolean</td><td>Permet de définir les codes concepts uilisés par le RASS</td></tr><tr><td>epars</td><td>epars</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#epars</td><td>boolean</td><td>Permet de définir les codes concepts uilisés par EPARS</td></tr><tr><td>status</td><td>status</td><td>http://hl7.org/fhir/concept-properties#status</td><td>code</td><td>A property that indicates the status of the concept.</td></tr><tr><td>deprecationDate</td><td>deprecationDate</td><td>http://hl7.org/fhir/concept-properties#deprecationDate</td><td>dateTime</td><td>Date Concept was deprecated</td></tr><tr><td>retirementDate</td><td>retirementDate</td><td>http://hl7.org/fhir/concept-properties#retirementDate</td><td>dateTime</td><td>Date Concept was retired</td></tr><tr><td>dateValid</td><td>dateValid</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique</code> defines the following codes in a Is-A hierarchy:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Définition</b></td><td><b>niveau</b></td><td><b>Parent</b></td><td><b>ror</b></td><td><b>specialisationRpps</b></td><td><b>enreg</b></td><td><b>rass</b></td><td><b>epars</b></td><td><b>status</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>French (France) (fr)</b></td></tr><tr><td style="white-space:nowrap">1000<a name="tre-r400-finess-statut-juridique-1000"> </a></td><td>Organismes et Etablissements Publics</td><td/><td>1</td><td/><td/><td/><td>true</td><td/><td/><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1994-10-18T00:00:00+01:00</td><td>Orga Etab. Publics</td></tr><tr><td style="white-space:nowrap">2000<a name="tre-r400-finess-statut-juridique-2000"> </a></td><td>Organismes Privés</td><td/><td>1</td><td/><td/><td/><td>true</td><td/><td/><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1994-10-18T00:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">3000<a name="tre-r400-finess-statut-juridique-3000"> </a></td><td>Personne Morale de Droit Etranger</td><td/><td>1</td><td/><td/><td/><td>true</td><td/><td/><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1994-10-18T00:00:00+01:00</td><td>Pers.Moral.Etranger</td></tr><tr><td style="white-space:nowrap">1100<a name="tre-r400-finess-statut-juridique-1100"> </a></td><td>Etat et Collectivités Territoriales</td><td/><td>2</td><td><a href="#tre-r400-finess-statut-juridique-1000">1000</a></td><td>true</td><td/><td>true</td><td/><td/><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Etat &amp; Col.Territ.</td></tr><tr><td style="white-space:nowrap">1200<a name="tre-r400-finess-statut-juridique-1200"> </a></td><td>Etablissement Public</td><td/><td>2</td><td><a href="#tre-r400-finess-statut-juridique-1000">1000</a></td><td>true</td><td/><td>true</td><td/><td/><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">2100<a name="tre-r400-finess-statut-juridique-2100"> </a></td><td>Organisme Privé à But non Lucratif</td><td/><td>2</td><td><a href="#tre-r400-finess-statut-juridique-2000">2000</a></td><td>true</td><td/><td>true</td><td/><td/><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Org.Privé non Lucr.</td></tr><tr><td style="white-space:nowrap">2200<a name="tre-r400-finess-statut-juridique-2200"> </a></td><td>Organisme Privé à Caractère Commercial</td><td/><td>2</td><td><a href="#tre-r400-finess-statut-juridique-2000">2000</a></td><td>true</td><td/><td>true</td><td/><td/><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Org. Privé Commer.</td></tr><tr><td style="white-space:nowrap">3100<a name="tre-r400-finess-statut-juridique-3100"> </a></td><td>Personne Morale de Droit Etranger</td><td/><td>2</td><td><a href="#tre-r400-finess-statut-juridique-3000">3000</a></td><td>true</td><td/><td>true</td><td/><td/><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Pers.Moral.Etranger</td></tr><tr><td style="white-space:nowrap">1110<a name="tre-r400-finess-statut-juridique-1110"> </a></td><td>Etat</td><td/><td>3</td><td><a href="#tre-r400-finess-statut-juridique-1100">1100</a></td><td/><td/><td>true</td><td/><td/><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">1120<a name="tre-r400-finess-statut-juridique-1120"> </a></td><td>Collectivité Territoriale</td><td/><td>3</td><td><a href="#tre-r400-finess-statut-juridique-1100">1100</a></td><td/><td/><td>true</td><td/><td/><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Col. Territoriale</td></tr><tr><td style="white-space:nowrap">1210<a name="tre-r400-finess-statut-juridique-1210"> </a></td><td>Etablissement Public à Caractère Administratif</td><td/><td>3</td><td><a href="#tre-r400-finess-statut-juridique-1200">1200</a></td><td/><td/><td>true</td><td/><td/><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Etb.Pub. Administr.</td></tr><tr><td style="white-space:nowrap">1220<a name="tre-r400-finess-statut-juridique-1220"> </a></td><td>Etablissement Public à Caractère Industriel et Commercial</td><td/><td>3</td><td><a href="#tre-r400-finess-statut-juridique-1200">1200</a></td><td/><td/><td>true</td><td/><td/><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Etb.Pub. Indus. Com.</td></tr><tr><td style="white-space:nowrap">2110<a name="tre-r400-finess-statut-juridique-2110"> </a></td><td>Organisme Gérant un Régime de Protection Sociale à Adhésion</td><td/><td>3</td><td><a href="#tre-r400-finess-statut-juridique-2100">2100</a></td><td/><td/><td>true</td><td/><td/><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Org.Régime Prot.Soc.</td></tr><tr><td style="white-space:nowrap">2120<a name="tre-r400-finess-statut-juridique-2120"> </a></td><td>Organisme Mutualiste</td><td/><td>3</td><td><a href="#tre-r400-finess-statut-juridique-2100">2100</a></td><td/><td/><td>true</td><td/><td/><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Org. Mutualiste</td></tr><tr><td style="white-space:nowrap">2130<a name="tre-r400-finess-statut-juridique-2130"> </a></td><td>Comité d'Entreprise et Comité d'Etablissement</td><td/><td>3</td><td><a href="#tre-r400-finess-statut-juridique-2100">2100</a></td><td/><td/><td>true</td><td/><td/><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Comité d'Entreprise</td></tr><tr><td style="white-space:nowrap">2140<a name="tre-r400-finess-statut-juridique-2140"> </a></td><td>Organisme Professionnel</td><td/><td>3</td><td><a href="#tre-r400-finess-statut-juridique-2100">2100</a></td><td/><td/><td>true</td><td/><td/><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Org. professionnel</td></tr><tr><td style="white-space:nowrap">2150<a name="tre-r400-finess-statut-juridique-2150"> </a></td><td>Syndicat de Propriétaires</td><td/><td>3</td><td><a href="#tre-r400-finess-statut-juridique-2100">2100</a></td><td/><td/><td>true</td><td/><td/><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Synd. Propriétaires</td></tr><tr><td style="white-space:nowrap">2160<a name="tre-r400-finess-statut-juridique-2160"> </a></td><td>Association</td><td/><td>3</td><td><a href="#tre-r400-finess-statut-juridique-2100">2100</a></td><td/><td/><td>true</td><td/><td/><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">2170<a name="tre-r400-finess-statut-juridique-2170"> </a></td><td>Fondation</td><td/><td>3</td><td><a href="#tre-r400-finess-statut-juridique-2100">2100</a></td><td/><td/><td>true</td><td/><td/><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">2180<a name="tre-r400-finess-statut-juridique-2180"> </a></td><td>Congrégation</td><td/><td>3</td><td><a href="#tre-r400-finess-statut-juridique-2100">2100</a></td><td/><td/><td>true</td><td/><td/><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">2190<a name="tre-r400-finess-statut-juridique-2190"> </a></td><td>Autre Organisme Privé à But non Lucratif</td><td/><td>3</td><td><a href="#tre-r400-finess-statut-juridique-2100">2100</a></td><td/><td/><td>true</td><td/><td/><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Autre Org. Privé</td></tr><tr><td style="white-space:nowrap">2210<a name="tre-r400-finess-statut-juridique-2210"> </a></td><td>Personne Physique</td><td/><td>3</td><td><a href="#tre-r400-finess-statut-juridique-2200">2200</a></td><td/><td/><td>true</td><td/><td/><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">2220<a name="tre-r400-finess-statut-juridique-2220"> </a></td><td>Société en Nom Collectif (S.N.C.)</td><td/><td>3</td><td><a href="#tre-r400-finess-statut-juridique-2200">2200</a></td><td/><td/><td>true</td><td/><td/><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Soc.en Nom Collectif</td></tr><tr><td style="white-space:nowrap">2230<a name="tre-r400-finess-statut-juridique-2230"> </a></td><td>Société A Responsabilité Limitée (S.A.R.L.)</td><td/><td>3</td><td><a href="#tre-r400-finess-statut-juridique-2200">2200</a></td><td/><td/><td>true</td><td/><td/><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>S.A.R.L.</td></tr><tr><td style="white-space:nowrap">2240<a name="tre-r400-finess-statut-juridique-2240"> </a></td><td>Société Anonyme (S.A.)</td><td/><td>3</td><td><a href="#tre-r400-finess-statut-juridique-2200">2200</a></td><td/><td/><td>true</td><td/><td/><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Société Anonyme</td></tr><tr><td style="white-space:nowrap">2250<a name="tre-r400-finess-statut-juridique-2250"> </a></td><td>Société Civile</td><td/><td>3</td><td><a href="#tre-r400-finess-statut-juridique-2200">2200</a></td><td/><td/><td>true</td><td/><td/><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">2260<a name="tre-r400-finess-statut-juridique-2260"> </a></td><td>Autre Société</td><td/><td>3</td><td><a href="#tre-r400-finess-statut-juridique-2200">2200</a></td><td/><td/><td>true</td><td/><td/><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">2270<a name="tre-r400-finess-statut-juridique-2270"> </a></td><td>Groupement Privé à Caractère Commercial</td><td/><td>3</td><td><a href="#tre-r400-finess-statut-juridique-2200">2200</a></td><td/><td/><td>true</td><td/><td/><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Gr.Privé.Caract.Com.</td></tr><tr><td style="white-space:nowrap">2280<a name="tre-r400-finess-statut-juridique-2280"> </a></td><td>Autre Organisme Privé à Caractère Commercial</td><td/><td>3</td><td><a href="#tre-r400-finess-statut-juridique-2200">2200</a></td><td/><td/><td>true</td><td/><td/><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Autre Org.Priv.Com.</td></tr><tr><td style="white-space:nowrap">3110<a name="tre-r400-finess-statut-juridique-3110"> </a></td><td>Personne Morale de Droit Etranger</td><td/><td>3</td><td><a href="#tre-r400-finess-statut-juridique-3100">3100</a></td><td/><td/><td>true</td><td/><td/><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Pers.Moral.Etranger</td></tr><tr><td style="white-space:nowrap">000<a name="tre-r400-finess-statut-juridique-000"> </a></td><td>En cours de vérification</td><td>Code ne provenant pas du FINESS, ajouté pour des usages RPPS.</td><td>4</td><td/><td>true</td><td>true</td><td>true</td><td>true</td><td>true</td><td>active</td><td>2017-10-13T12:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">01<a name="tre-r400-finess-statut-juridique-01"> </a></td><td>Etat</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-1110">1110</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">02<a name="tre-r400-finess-statut-juridique-02"> </a></td><td>Département</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-1120">1120</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">03<a name="tre-r400-finess-statut-juridique-03"> </a></td><td>Commune</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-1120">1120</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">04<a name="tre-r400-finess-statut-juridique-04"> </a></td><td>Région</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-1120">1120</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">05<a name="tre-r400-finess-statut-juridique-05"> </a></td><td>Territoire d'Outre Mer</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-1120">1120</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Territoire Outre Mer</td></tr><tr><td style="white-space:nowrap">06<a name="tre-r400-finess-statut-juridique-06"> </a></td><td>Autre Collectivité Territoriale</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-1120">1120</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Autre Collect. Terr.</td></tr><tr><td style="white-space:nowrap">07<a name="tre-r400-finess-statut-juridique-07"> </a></td><td>Métropole ou pôle métropolitain</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-1210">1210</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>2016-01-01T00:00:00+01:00</td><td>2016-02-17T00:00:00+01:00</td><td>Métropole</td></tr><tr><td style="white-space:nowrap">08<a name="tre-r400-finess-statut-juridique-08"> </a></td><td>Centre Intercommunal d'Action Sociale</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-1210">1210</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>2019-05-29T12:00:00+01:00</td><td>2019-05-29T12:00:00+01:00</td><td>C.I.A.S</td></tr><tr><td style="white-space:nowrap">10<a name="tre-r400-finess-statut-juridique-10"> </a></td><td>Etablissement Public National d'Hospitalisation</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-1210">1210</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Etb.Public Nat.Hosp.</td></tr><tr><td style="white-space:nowrap">100<a name="tre-r400-finess-statut-juridique-100"> </a></td><td>Société d'exercice libéral à responsabilité limitée unipersonnelle (SELURL)</td><td>Code ne provenant pas du FINESS, ajouté pour des usages RPPS.</td><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2230">2230</a></td><td>true</td><td>true</td><td>true</td><td>true</td><td>true</td><td>active</td><td>2017-10-13T12:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td>SELURL</td></tr><tr><td style="white-space:nowrap">101<a name="tre-r400-finess-statut-juridique-101"> </a></td><td>Société d'exercice libéral par actions simplifiée (SELAS)</td><td>Code ne provenant pas du FINESS, ajouté pour des usages RPPS.</td><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2260">2260</a></td><td>true</td><td>true</td><td>true</td><td>true</td><td>true</td><td>active</td><td>2017-10-13T12:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td>SELAS</td></tr><tr><td style="white-space:nowrap">102<a name="tre-r400-finess-statut-juridique-102"> </a></td><td>Société d'exercice libéral par actions simplifiée unipersonnelle (SELASU)</td><td>Code ne provenant pas du FINESS, ajouté pour des usages RPPS.</td><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2260">2260</a></td><td>true</td><td>true</td><td>true</td><td>true</td><td>true</td><td>active</td><td>2017-10-13T12:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td>SELASU</td></tr><tr><td style="white-space:nowrap">103<a name="tre-r400-finess-statut-juridique-103"> </a></td><td>Société en commandite simple (SCS)</td><td>Code ne provenant pas du FINESS, ajouté pour des usages RPPS.</td><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2260">2260</a></td><td>true</td><td>true</td><td>true</td><td>true</td><td>true</td><td>active</td><td>2017-10-13T12:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td>SCS</td></tr><tr><td style="white-space:nowrap">104<a name="tre-r400-finess-statut-juridique-104"> </a></td><td>Société en commandite par actions (SCA)</td><td>Code ne provenant pas du FINESS, ajouté pour des usages RPPS.</td><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2260">2260</a></td><td>true</td><td>true</td><td>true</td><td>true</td><td>true</td><td>active</td><td>2017-10-13T12:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td>SCA</td></tr><tr><td style="white-space:nowrap">105<a name="tre-r400-finess-statut-juridique-105"> </a></td><td>Société par actions simplifiée (SAS)</td><td>Code ne provenant pas du FINESS, ajouté pour des usages RPPS.</td><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2260">2260</a></td><td>true</td><td>true</td><td>true</td><td>true</td><td>true</td><td>active</td><td>2017-10-13T12:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td>SAS</td></tr><tr><td style="white-space:nowrap">106<a name="tre-r400-finess-statut-juridique-106"> </a></td><td>Société anonyme à directoire (SADI)</td><td>Code ne provenant pas du FINESS, ajouté pour des usages RPPS.</td><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2240">2240</a></td><td>true</td><td>true</td><td>true</td><td>true</td><td>true</td><td>active</td><td>2017-10-13T12:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td>SADI</td></tr><tr><td style="white-space:nowrap">107<a name="tre-r400-finess-statut-juridique-107"> </a></td><td>Société Anonyme à conseil d'administration (SACA)</td><td>Code ne provenant pas du FINESS, ajouté pour des usages RPPS.</td><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2240">2240</a></td><td>true</td><td>true</td><td>true</td><td>true</td><td>true</td><td>active</td><td>2017-10-13T12:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td>SACA</td></tr><tr><td style="white-space:nowrap">11<a name="tre-r400-finess-statut-juridique-11"> </a></td><td>Etablissement Public Départemental d'Hospitalisation</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-1210">1210</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Etb.Pub.Départ.Hosp.</td></tr><tr><td style="white-space:nowrap">110<a name="tre-r400-finess-statut-juridique-110"> </a></td><td>Société en participation (SEP)</td><td>Code ne provenant pas du FINESS, ajouté pour des usages RPPS.</td><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2260">2260</a></td><td>true</td><td>true</td><td>true</td><td>true</td><td>true</td><td>active</td><td>2017-10-13T12:00:00+01:00</td><td>2017-10-13T12:00:00+01:00</td><td>SEP</td></tr><tr><td style="white-space:nowrap">12<a name="tre-r400-finess-statut-juridique-12"> </a></td><td>Etablissement Public Interdépartemental d'Hospitalisation</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-1210">1210</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Etb.Pub.Intdép.Hosp.</td></tr><tr><td style="white-space:nowrap">13<a name="tre-r400-finess-statut-juridique-13"> </a></td><td>Etablissement Public Communal d'Hospitalisation</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-1210">1210</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Etb.Pub.Commun.Hosp.</td></tr><tr><td style="white-space:nowrap">14<a name="tre-r400-finess-statut-juridique-14"> </a></td><td>Etablissement Public Intercommunal d'Hospitalisation</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-1210">1210</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Etb.Pub.Intcom.Hosp.</td></tr><tr><td style="white-space:nowrap">15<a name="tre-r400-finess-statut-juridique-15"> </a></td><td>Etablissement Public Régional d'Hospitalisation</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-1210">1210</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Etb.Public Rég.Hosp.</td></tr><tr><td style="white-space:nowrap">16<a name="tre-r400-finess-statut-juridique-16"> </a></td><td>Syndicat Inter Hospitalier</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-1210">1210</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>S.I.H.</td></tr><tr><td style="white-space:nowrap">17<a name="tre-r400-finess-statut-juridique-17"> </a></td><td>Centre Communal d'Action Sociale</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-1210">1210</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>C.C.A.S.</td></tr><tr><td style="white-space:nowrap">18<a name="tre-r400-finess-statut-juridique-18"> </a></td><td>Etablissement Social et Médico-Social National</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-1210">1210</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Etb.Social National</td></tr><tr><td style="white-space:nowrap">19<a name="tre-r400-finess-statut-juridique-19"> </a></td><td>Etablissement Social et Médico-Social Départemental</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-1210">1210</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Etb.Social Départ.</td></tr><tr><td style="white-space:nowrap">20<a name="tre-r400-finess-statut-juridique-20"> </a></td><td>Etablissement Social et Médico-Social Interdépartemental</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-1210">1210</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Etb.Social Interdept</td></tr><tr><td style="white-space:nowrap">21<a name="tre-r400-finess-statut-juridique-21"> </a></td><td>Etablissement Social et Médico-Social Communal</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-1210">1210</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Etb.Social Communal</td></tr><tr><td style="white-space:nowrap">22<a name="tre-r400-finess-statut-juridique-22"> </a></td><td>Etablissement Social et Médico-Social Intercommunal</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-1210">1210</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Etb.Social Intercom.</td></tr><tr><td style="white-space:nowrap">23<a name="tre-r400-finess-statut-juridique-23"> </a></td><td>Etablissement Social et Médico-Social Régional</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-1210">1210</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Etb.Social Régional</td></tr><tr><td style="white-space:nowrap">24<a name="tre-r400-finess-statut-juridique-24"> </a></td><td>Office Public d'H.L.M.</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-1210">1210</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Office Public H.L.M.</td></tr><tr><td style="white-space:nowrap">25<a name="tre-r400-finess-statut-juridique-25"> </a></td><td>Caisse des Ecoles</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-1210">1210</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Caisse des écoles</td></tr><tr><td style="white-space:nowrap">26<a name="tre-r400-finess-statut-juridique-26"> </a></td><td>Autre Etablissement Public à Caractère Administratif</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-1210">1210</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Autre Etb. Pub. Adm</td></tr><tr><td style="white-space:nowrap">27<a name="tre-r400-finess-statut-juridique-27"> </a></td><td>Etablissement Public à Caractère Industriel ou Commercial</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-1220">1220</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Etb.Pub. Indus. Com.</td></tr><tr><td style="white-space:nowrap">28<a name="tre-r400-finess-statut-juridique-28"> </a></td><td>Groupement d'Intérêt Public (G.I.P.)</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-1210">1210</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>G.I.P.</td></tr><tr><td style="white-space:nowrap">29<a name="tre-r400-finess-statut-juridique-29"> </a></td><td>Groupement de Coopération Sanitaire public</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-1210">1210</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1999-06-17T00:00:00+01:00</td><td>1999-06-17T00:00:00+01:00</td><td>G.C.S. public</td></tr><tr><td style="white-space:nowrap">30<a name="tre-r400-finess-statut-juridique-30"> </a></td><td>Groupement de Coopération Sociale ou Médico-Sociale public</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-1210">1210</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>2014-02-12T00:00:00+01:00</td><td>2014-02-12T00:00:00+01:00</td><td>G.C.S.M.S. public</td></tr><tr><td style="white-space:nowrap">40<a name="tre-r400-finess-statut-juridique-40"> </a></td><td>Régime Général de Sécurité Sociale</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2110">2110</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Rég.Gén.Sécu.Sociale</td></tr><tr><td style="white-space:nowrap">41<a name="tre-r400-finess-statut-juridique-41"> </a></td><td>Régime Spécial de Sécurité Sociale</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2110">2110</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Rég.Spé.Sécu.Sociale</td></tr><tr><td style="white-space:nowrap">42<a name="tre-r400-finess-statut-juridique-42"> </a></td><td>Institution de Prévoyance</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2110">2110</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Institut Prévoyance</td></tr><tr><td style="white-space:nowrap">43<a name="tre-r400-finess-statut-juridique-43"> </a></td><td>Mutualité Sociale Agricole (M.S.A.)</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2110">2110</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Mut.Sociale Agricole</td></tr><tr><td style="white-space:nowrap">44<a name="tre-r400-finess-statut-juridique-44"> </a></td><td>Régime Maladie des non Salariés non Agricole</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2110">2110</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Rég.Mal.n Sal.n Agr.</td></tr><tr><td style="white-space:nowrap">45<a name="tre-r400-finess-statut-juridique-45"> </a></td><td>Régime Vieillesse Particulier</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2110">2110</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Rég.Vieillesse Part.</td></tr><tr><td style="white-space:nowrap">46<a name="tre-r400-finess-statut-juridique-46"> </a></td><td>Autre Régime de Prévoyance Sociale</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2110">2110</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Autre Rég.Prév.Soc.</td></tr><tr><td style="white-space:nowrap">47<a name="tre-r400-finess-statut-juridique-47"> </a></td><td>Société Mutualiste</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2120">2120</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">48<a name="tre-r400-finess-statut-juridique-48"> </a></td><td>Assurance Mutuelle Agricole</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2120">2120</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Assur. Mut. Agricole</td></tr><tr><td style="white-space:nowrap">49<a name="tre-r400-finess-statut-juridique-49"> </a></td><td>Autre Organisme Mutualiste</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2120">2120</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Autre Org.Mutualiste</td></tr><tr><td style="white-space:nowrap">50<a name="tre-r400-finess-statut-juridique-50"> </a></td><td>Comité d'Entreprise ou Comité d'Etablissement</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2130">2130</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Comité d'Entreprise</td></tr><tr><td style="white-space:nowrap">51<a name="tre-r400-finess-statut-juridique-51"> </a></td><td>Syndicat</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2140">2140</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">52<a name="tre-r400-finess-statut-juridique-52"> </a></td><td>Syndicat de Propriétaires</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2150">2150</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Synd. Propriétaires</td></tr><tr><td style="white-space:nowrap">60<a name="tre-r400-finess-statut-juridique-60"> </a></td><td>Association Loi 1901 non Reconnue d'Utilité Publique</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2160">2160</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Ass.L.1901 non R.U.P</td></tr><tr><td style="white-space:nowrap">61<a name="tre-r400-finess-statut-juridique-61"> </a></td><td>Association Loi 1901 Reconnue d'Utilité Publique</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2160">2160</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Ass.L.1901 R.U.P.</td></tr><tr><td style="white-space:nowrap">62<a name="tre-r400-finess-statut-juridique-62"> </a></td><td>Association de Droit Local</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2160">2160</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Ass. de Droit Local</td></tr><tr><td style="white-space:nowrap">63<a name="tre-r400-finess-statut-juridique-63"> </a></td><td>Fondation</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2170">2170</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">64<a name="tre-r400-finess-statut-juridique-64"> </a></td><td>Congrégation</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2180">2180</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">65<a name="tre-r400-finess-statut-juridique-65"> </a></td><td>Autre Organisme Privé à But non Lucratif</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2190">2190</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Autr.Org.Pri.non Luc</td></tr><tr><td style="white-space:nowrap">66<a name="tre-r400-finess-statut-juridique-66"> </a></td><td>Groupement de Coopération Sociale ou Médico-Sociale privé</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2190">2190</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>2014-02-12T00:00:00+01:00</td><td>2014-02-12T00:00:00+01:00</td><td>G.C.S.M.S. privé</td></tr><tr><td style="white-space:nowrap">70<a name="tre-r400-finess-statut-juridique-70"> </a></td><td>Personne Physique</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2210">2210</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">71<a name="tre-r400-finess-statut-juridique-71"> </a></td><td>Société en Nom Collectif (S.N.C.)</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2220">2220</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>S.N.C.</td></tr><tr><td style="white-space:nowrap">72<a name="tre-r400-finess-statut-juridique-72"> </a></td><td>Société A Responsabilité Limitée (S.A.R.L.)</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2230">2230</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>S.A.R.L.</td></tr><tr><td style="white-space:nowrap">73<a name="tre-r400-finess-statut-juridique-73"> </a></td><td>Société Anonyme (S.A.)</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2240">2240</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>Société Anonyme</td></tr><tr><td style="white-space:nowrap">74<a name="tre-r400-finess-statut-juridique-74"> </a></td><td>Société Civile</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2250">2250</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">75<a name="tre-r400-finess-statut-juridique-75"> </a></td><td>Autre Société</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2260">2260</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td/></tr><tr><td style="white-space:nowrap">76<a name="tre-r400-finess-statut-juridique-76"> </a></td><td>Groupement d'Intérêt Economique (G.I.E.)</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2270">2270</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>2007-07-25T15:04:35+01:00</td><td>2008-02-28T00:00:00+01:00</td><td>G.I.E.</td></tr><tr><td style="white-space:nowrap">77<a name="tre-r400-finess-statut-juridique-77"> </a></td><td>Autre Organisme Privé à Caractère Commercial</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2280">2280</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>2007-07-25T15:04:35+01:00</td><td>2008-02-28T00:00:00+01:00</td><td>Autre Org.Priv.Com.</td></tr><tr><td style="white-space:nowrap">78<a name="tre-r400-finess-statut-juridique-78"> </a></td><td>Entreprise Unipersonnelle Responsabilité Limitée (E.U.R.L.)</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2230">2230</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>E.U.R.L.</td></tr><tr><td style="white-space:nowrap">79<a name="tre-r400-finess-statut-juridique-79"> </a></td><td>Société Civile de Moyens (S.C.M.)</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2250">2250</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>S.C.M.</td></tr><tr><td style="white-space:nowrap">80<a name="tre-r400-finess-statut-juridique-80"> </a></td><td>Société Interprofessionnelle Soins Ambulatoires (S.I.S.A.)</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2250">2250</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>2012-04-03T00:00:00+01:00</td><td>2012-04-03T00:00:00+01:00</td><td>S.I.S.A.</td></tr><tr><td style="white-space:nowrap">85<a name="tre-r400-finess-statut-juridique-85"> </a></td><td>Soc. Exercice Libéral Responsabilité Limitée (S.E.L.A.R.L.)</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2230">2230</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>S.E.L.A.R.L.</td></tr><tr><td style="white-space:nowrap">86<a name="tre-r400-finess-statut-juridique-86"> </a></td><td>Société d'Exercice Libéral à Forme Anonyme (S.E.L.A.F.A.)</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2240">2240</a></td><td>true</td><td/><td>true</td><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>S.E.L.A.F.A.</td></tr><tr><td style="white-space:nowrap">87<a name="tre-r400-finess-statut-juridique-87"> </a></td><td>Société Exercice Libéral Commandite par Actions (S.E.L.C.A.)</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2260">2260</a></td><td>true</td><td/><td/><td>true</td><td>true</td><td>active</td><td>1979-01-01T00:00:00+01:00</td><td>1979-01-01T00:00:00+01:00</td><td>S.E.L.C.A.</td></tr><tr><td style="white-space:nowrap">88<a name="tre-r400-finess-statut-juridique-88"> </a></td><td>Société Civile Professionnelle (S.C.P.)</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2250">2250</a></td><td>true</td><td/><td/><td>true</td><td>true</td><td>active</td><td>1996-10-24T00:00:00+01:00</td><td>1996-10-24T00:00:00+01:00</td><td>S.C.P.</td></tr><tr><td style="white-space:nowrap">89<a name="tre-r400-finess-statut-juridique-89"> </a></td><td>Groupement de Coopération Sanitaire Privé</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2190">2190</a></td><td>true</td><td/><td/><td>true</td><td>true</td><td>active</td><td>1999-06-17T00:00:00+01:00</td><td>1999-06-17T00:00:00+01:00</td><td>G.C.S. privé</td></tr><tr><td style="white-space:nowrap">90<a name="tre-r400-finess-statut-juridique-90"> </a></td><td>Organisme de Droit Etranger</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-3110">3110</a></td><td>true</td><td/><td/><td>true</td><td>true</td><td>active</td><td>2007-07-25T15:04:35+01:00</td><td>2008-02-28T00:00:00+01:00</td><td>Org. Droit Etranger</td></tr><tr><td style="white-space:nowrap">91<a name="tre-r400-finess-statut-juridique-91"> </a></td><td>Société Exercice Libéral par Actions Simplifiée (S.E.L.A.S.)</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2260">2260</a></td><td>true</td><td/><td/><td>true</td><td>true</td><td>active</td><td>2014-02-12T00:00:00+01:00</td><td>2014-02-12T00:00:00+01:00</td><td>S.E.L.A.S.</td></tr><tr><td style="white-space:nowrap">93<a name="tre-r400-finess-statut-juridique-93"> </a></td><td>Société en commandite</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2260">2260</a></td><td>true</td><td/><td/><td>true</td><td>true</td><td>active</td><td>2014-02-12T00:00:00+01:00</td><td>2014-02-12T00:00:00+01:00</td><td>Société commandite</td></tr><tr><td style="white-space:nowrap">95<a name="tre-r400-finess-statut-juridique-95"> </a></td><td>Société par Actions Simplifiée (S.A.S.)</td><td/><td>4</td><td><a href="#tre-r400-finess-statut-juridique-2260">2260</a></td><td>true</td><td/><td/><td>true</td><td>true</td><td>active</td><td>2014-02-12T00:00:00+01:00</td><td>2014-02-12T00:00:00+01:00</td><td>SAS</td></tr></table></div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
     <valuePeriod>
@@ -45,9 +45,9 @@
     <type value="code"/>
   </property>
   <property>
-    <code value="finess"/>
-    <uri value="https://smt.esante.gouv.fr/fhir/concept-properties#finess"/>
-    <description value="Permet de définir les codes concepts utilisés par FINESS+"/>
+    <code value="ror"/>
+    <uri value="https://smt.esante.gouv.fr/fhir/concept-properties#ror"/>
+    <description value="Permet de définir les codes concepts utilisés par le ROR"/>
     <type value="boolean"/>
   </property>
   <property>
@@ -126,10 +126,6 @@
       <valueInteger value="1"/>
     </property>
     <property>
-      <code value="finess"/>
-      <valueBoolean value="true"/>
-    </property>
-    <property>
       <code value="enreg"/>
       <valueBoolean value="true"/>
     </property>
@@ -152,10 +148,6 @@
     <property>
       <code value="niveau"/>
       <valueInteger value="1"/>
-    </property>
-    <property>
-      <code value="finess"/>
-      <valueBoolean value="true"/>
     </property>
     <property>
       <code value="enreg"/>
@@ -198,10 +190,6 @@
       <valueInteger value="1"/>
     </property>
     <property>
-      <code value="finess"/>
-      <valueBoolean value="true"/>
-    </property>
-    <property>
       <code value="enreg"/>
       <valueBoolean value="true"/>
     </property>
@@ -238,7 +226,7 @@
       <valueCode value="1000"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -270,7 +258,7 @@
       <valueCode value="1000"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -310,7 +298,7 @@
       <valueCode value="2000"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -350,7 +338,7 @@
       <valueCode value="2000"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -398,7 +386,7 @@
       <valueCode value="3000"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -428,10 +416,6 @@
     <property>
       <code value="parent"/>
       <valueCode value="1100"/>
-    </property>
-    <property>
-      <code value="finess"/>
-      <valueBoolean value="true"/>
     </property>
     <property>
       <code value="enreg"/>
@@ -470,10 +454,6 @@
       <valueCode value="1100"/>
     </property>
     <property>
-      <code value="finess"/>
-      <valueBoolean value="true"/>
-    </property>
-    <property>
       <code value="enreg"/>
       <valueBoolean value="true"/>
     </property>
@@ -508,10 +488,6 @@
     <property>
       <code value="parent"/>
       <valueCode value="1200"/>
-    </property>
-    <property>
-      <code value="finess"/>
-      <valueBoolean value="true"/>
     </property>
     <property>
       <code value="enreg"/>
@@ -550,10 +526,6 @@
       <valueCode value="1200"/>
     </property>
     <property>
-      <code value="finess"/>
-      <valueBoolean value="true"/>
-    </property>
-    <property>
       <code value="enreg"/>
       <valueBoolean value="true"/>
     </property>
@@ -590,10 +562,6 @@
       <valueCode value="2100"/>
     </property>
     <property>
-      <code value="finess"/>
-      <valueBoolean value="true"/>
-    </property>
-    <property>
       <code value="enreg"/>
       <valueBoolean value="true"/>
     </property>
@@ -628,10 +596,6 @@
     <property>
       <code value="parent"/>
       <valueCode value="2100"/>
-    </property>
-    <property>
-      <code value="finess"/>
-      <valueBoolean value="true"/>
     </property>
     <property>
       <code value="enreg"/>
@@ -678,10 +642,6 @@
       <valueCode value="2100"/>
     </property>
     <property>
-      <code value="finess"/>
-      <valueBoolean value="true"/>
-    </property>
-    <property>
       <code value="enreg"/>
       <valueBoolean value="true"/>
     </property>
@@ -716,10 +676,6 @@
     <property>
       <code value="parent"/>
       <valueCode value="2100"/>
-    </property>
-    <property>
-      <code value="finess"/>
-      <valueBoolean value="true"/>
     </property>
     <property>
       <code value="enreg"/>
@@ -758,10 +714,6 @@
       <valueCode value="2100"/>
     </property>
     <property>
-      <code value="finess"/>
-      <valueBoolean value="true"/>
-    </property>
-    <property>
       <code value="enreg"/>
       <valueBoolean value="true"/>
     </property>
@@ -788,10 +740,6 @@
     <property>
       <code value="parent"/>
       <valueCode value="2100"/>
-    </property>
-    <property>
-      <code value="finess"/>
-      <valueBoolean value="true"/>
     </property>
     <property>
       <code value="enreg"/>
@@ -822,10 +770,6 @@
       <valueCode value="2100"/>
     </property>
     <property>
-      <code value="finess"/>
-      <valueBoolean value="true"/>
-    </property>
-    <property>
       <code value="enreg"/>
       <valueBoolean value="true"/>
     </property>
@@ -852,10 +796,6 @@
     <property>
       <code value="parent"/>
       <valueCode value="2100"/>
-    </property>
-    <property>
-      <code value="finess"/>
-      <valueBoolean value="true"/>
     </property>
     <property>
       <code value="enreg"/>
@@ -894,10 +834,6 @@
       <valueCode value="2100"/>
     </property>
     <property>
-      <code value="finess"/>
-      <valueBoolean value="true"/>
-    </property>
-    <property>
       <code value="enreg"/>
       <valueBoolean value="true"/>
     </property>
@@ -924,10 +860,6 @@
     <property>
       <code value="parent"/>
       <valueCode value="2200"/>
-    </property>
-    <property>
-      <code value="finess"/>
-      <valueBoolean value="true"/>
     </property>
     <property>
       <code value="enreg"/>
@@ -974,10 +906,6 @@
       <valueCode value="2200"/>
     </property>
     <property>
-      <code value="finess"/>
-      <valueBoolean value="true"/>
-    </property>
-    <property>
       <code value="enreg"/>
       <valueBoolean value="true"/>
     </property>
@@ -1020,10 +948,6 @@
     <property>
       <code value="parent"/>
       <valueCode value="2200"/>
-    </property>
-    <property>
-      <code value="finess"/>
-      <valueBoolean value="true"/>
     </property>
     <property>
       <code value="enreg"/>
@@ -1070,10 +994,6 @@
       <valueCode value="2200"/>
     </property>
     <property>
-      <code value="finess"/>
-      <valueBoolean value="true"/>
-    </property>
-    <property>
       <code value="enreg"/>
       <valueBoolean value="true"/>
     </property>
@@ -1102,10 +1022,6 @@
       <valueCode value="2200"/>
     </property>
     <property>
-      <code value="finess"/>
-      <valueBoolean value="true"/>
-    </property>
-    <property>
       <code value="enreg"/>
       <valueBoolean value="true"/>
     </property>
@@ -1132,10 +1048,6 @@
     <property>
       <code value="parent"/>
       <valueCode value="2200"/>
-    </property>
-    <property>
-      <code value="finess"/>
-      <valueBoolean value="true"/>
     </property>
     <property>
       <code value="enreg"/>
@@ -1174,10 +1086,6 @@
       <valueCode value="2200"/>
     </property>
     <property>
-      <code value="finess"/>
-      <valueBoolean value="true"/>
-    </property>
-    <property>
       <code value="enreg"/>
       <valueBoolean value="true"/>
     </property>
@@ -1212,10 +1120,6 @@
     <property>
       <code value="parent"/>
       <valueCode value="2200"/>
-    </property>
-    <property>
-      <code value="finess"/>
-      <valueBoolean value="true"/>
     </property>
     <property>
       <code value="enreg"/>
@@ -1262,10 +1166,6 @@
       <valueCode value="3100"/>
     </property>
     <property>
-      <code value="finess"/>
-      <valueBoolean value="true"/>
-    </property>
-    <property>
       <code value="enreg"/>
       <valueBoolean value="true"/>
     </property>
@@ -1291,8 +1191,8 @@
       <valueInteger value="4"/>
     </property>
     <property>
-      <code value="finess"/>
-      <valueBoolean value="false"/>
+      <code value="ror"/>
+      <valueBoolean value="true"/>
     </property>
     <property>
       <code value="specialisationRpps"/>
@@ -1335,7 +1235,7 @@
       <valueCode value="1110"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -1375,7 +1275,7 @@
       <valueCode value="1120"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -1415,7 +1315,7 @@
       <valueCode value="1120"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -1455,7 +1355,7 @@
       <valueCode value="1120"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -1503,7 +1403,7 @@
       <valueCode value="1120"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -1551,7 +1451,7 @@
       <valueCode value="1120"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -1599,7 +1499,7 @@
       <valueCode value="1210"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -1647,7 +1547,7 @@
       <valueCode value="1210"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -1695,7 +1595,7 @@
       <valueCode value="1210"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -1744,8 +1644,8 @@
       <valueCode value="2230"/>
     </property>
     <property>
-      <code value="finess"/>
-      <valueBoolean value="false"/>
+      <code value="ror"/>
+      <valueBoolean value="true"/>
     </property>
     <property>
       <code value="specialisationRpps"/>
@@ -1797,8 +1697,8 @@
       <valueCode value="2260"/>
     </property>
     <property>
-      <code value="finess"/>
-      <valueBoolean value="false"/>
+      <code value="ror"/>
+      <valueBoolean value="true"/>
     </property>
     <property>
       <code value="specialisationRpps"/>
@@ -1850,8 +1750,8 @@
       <valueCode value="2260"/>
     </property>
     <property>
-      <code value="finess"/>
-      <valueBoolean value="false"/>
+      <code value="ror"/>
+      <valueBoolean value="true"/>
     </property>
     <property>
       <code value="specialisationRpps"/>
@@ -1903,8 +1803,8 @@
       <valueCode value="2260"/>
     </property>
     <property>
-      <code value="finess"/>
-      <valueBoolean value="false"/>
+      <code value="ror"/>
+      <valueBoolean value="true"/>
     </property>
     <property>
       <code value="specialisationRpps"/>
@@ -1956,8 +1856,8 @@
       <valueCode value="2260"/>
     </property>
     <property>
-      <code value="finess"/>
-      <valueBoolean value="false"/>
+      <code value="ror"/>
+      <valueBoolean value="true"/>
     </property>
     <property>
       <code value="specialisationRpps"/>
@@ -2009,8 +1909,8 @@
       <valueCode value="2260"/>
     </property>
     <property>
-      <code value="finess"/>
-      <valueBoolean value="false"/>
+      <code value="ror"/>
+      <valueBoolean value="true"/>
     </property>
     <property>
       <code value="specialisationRpps"/>
@@ -2062,8 +1962,8 @@
       <valueCode value="2240"/>
     </property>
     <property>
-      <code value="finess"/>
-      <valueBoolean value="false"/>
+      <code value="ror"/>
+      <valueBoolean value="true"/>
     </property>
     <property>
       <code value="specialisationRpps"/>
@@ -2115,8 +2015,8 @@
       <valueCode value="2240"/>
     </property>
     <property>
-      <code value="finess"/>
-      <valueBoolean value="false"/>
+      <code value="ror"/>
+      <valueBoolean value="true"/>
     </property>
     <property>
       <code value="specialisationRpps"/>
@@ -2167,7 +2067,7 @@
       <valueCode value="1210"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -2216,8 +2116,8 @@
       <valueCode value="2260"/>
     </property>
     <property>
-      <code value="finess"/>
-      <valueBoolean value="false"/>
+      <code value="ror"/>
+      <valueBoolean value="true"/>
     </property>
     <property>
       <code value="specialisationRpps"/>
@@ -2268,7 +2168,7 @@
       <valueCode value="1210"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -2316,7 +2216,7 @@
       <valueCode value="1210"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -2364,7 +2264,7 @@
       <valueCode value="1210"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -2412,7 +2312,7 @@
       <valueCode value="1210"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -2468,7 +2368,7 @@
       <valueCode value="1210"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -2516,7 +2416,7 @@
       <valueCode value="1210"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -2564,7 +2464,7 @@
       <valueCode value="1210"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -2612,7 +2512,7 @@
       <valueCode value="1210"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -2660,7 +2560,7 @@
       <valueCode value="1210"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -2708,7 +2608,7 @@
       <valueCode value="1210"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -2756,7 +2656,7 @@
       <valueCode value="1210"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -2804,7 +2704,7 @@
       <valueCode value="1210"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -2860,7 +2760,7 @@
       <valueCode value="1210"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -2908,7 +2808,7 @@
       <valueCode value="1210"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -2964,7 +2864,7 @@
       <valueCode value="1210"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -3012,7 +2912,7 @@
       <valueCode value="1220"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -3068,7 +2968,7 @@
       <valueCode value="1210"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -3124,7 +3024,7 @@
       <valueCode value="1210"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -3180,7 +3080,7 @@
       <valueCode value="1210"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -3228,7 +3128,7 @@
       <valueCode value="2110"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -3276,7 +3176,7 @@
       <valueCode value="2110"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -3324,7 +3224,7 @@
       <valueCode value="2110"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -3380,7 +3280,7 @@
       <valueCode value="2110"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -3436,7 +3336,7 @@
       <valueCode value="2110"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -3484,7 +3384,7 @@
       <valueCode value="2110"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -3532,7 +3432,7 @@
       <valueCode value="2110"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -3572,7 +3472,7 @@
       <valueCode value="2120"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -3620,7 +3520,7 @@
       <valueCode value="2120"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -3668,7 +3568,7 @@
       <valueCode value="2120"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -3724,7 +3624,7 @@
       <valueCode value="2130"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -3764,7 +3664,7 @@
       <valueCode value="2140"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -3812,7 +3712,7 @@
       <valueCode value="2150"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -3860,7 +3760,7 @@
       <valueCode value="2160"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -3908,7 +3808,7 @@
       <valueCode value="2160"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -3956,7 +3856,7 @@
       <valueCode value="2160"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -3996,7 +3896,7 @@
       <valueCode value="2170"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -4036,7 +3936,7 @@
       <valueCode value="2180"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -4084,7 +3984,7 @@
       <valueCode value="2190"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -4140,7 +4040,7 @@
       <valueCode value="2190"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -4180,7 +4080,7 @@
       <valueCode value="2210"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -4236,7 +4136,7 @@
       <valueCode value="2220"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -4292,7 +4192,7 @@
       <valueCode value="2230"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -4348,7 +4248,7 @@
       <valueCode value="2240"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -4388,7 +4288,7 @@
       <valueCode value="2250"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -4428,7 +4328,7 @@
       <valueCode value="2260"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -4484,7 +4384,7 @@
       <valueCode value="2270"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -4532,7 +4432,7 @@
       <valueCode value="2280"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -4588,7 +4488,7 @@
       <valueCode value="2230"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -4644,7 +4544,7 @@
       <valueCode value="2250"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -4700,7 +4600,7 @@
       <valueCode value="2250"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -4756,7 +4656,7 @@
       <valueCode value="2230"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -4812,7 +4712,7 @@
       <valueCode value="2240"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -4868,7 +4768,7 @@
       <valueCode value="2260"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -4920,7 +4820,7 @@
       <valueCode value="2250"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -4972,7 +4872,7 @@
       <valueCode value="2190"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -5024,7 +4924,7 @@
       <valueCode value="3110"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -5076,7 +4976,7 @@
       <valueCode value="2260"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -5120,7 +5020,7 @@
       <valueCode value="2260"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>
@@ -5172,7 +5072,7 @@
       <valueCode value="2260"/>
     </property>
     <property>
-      <code value="finess"/>
+      <code value="ror"/>
       <valueBoolean value="true"/>
     </property>
     <property>

@@ -41,8 +41,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"8.880"}
-    h3,h4,h5,h6{--heading-prefix:"8.880"}</style>
+    <style type="text/css">h2{--heading-prefix:"8.879"}
+    h3,h4,h5,h6{--heading-prefix:"8.879"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -334,6 +334,8 @@
  <li><a href="ValueSet-JDV-J100-FinessStatutJuridique-RASS.html">JDV_J100_FinessStatutJuridique_RASS</a></li>
  <li><a href="ValueSet-JDV-J127-StatutJuridique-ENREG.html">JDV_J127_StatutJuridique_ENREG</a></li>
  <li><a href="ValueSet-JDV-J173-FinessStatutJuridique-EPARS.html">JDV_J173_FinessStatutJuridique_EPARS</a></li>
+ <li><a href="ValueSet-JDV-J199-StatutJuridique-ROR.html">JDV_J199_StatutJuridique_ROR</a></li>
+ <li><a href="ValueSet-JDV-J200-SousEnsembleAgregatStatutJuridique-ROR.html">JDV_J200_SousEnsembleAgregatStatutJuridique_ROR</a></li>
  <li><a href="ValueSet-jdv-j301-finess-statut-juridique-niv1-finess.html">JdvJ301FinessStatutJuridiqueNiv1Finess</a></li>
  <li><a href="ValueSet-jdv-j302-finess-statut-juridique-niv2-finess.html">JdvJ302FinessStatutJuridiqueNiv2Finess</a></li>
  <li><a href="ValueSet-jdv-j303-finess-statut-juridique-niv3-finess.html">JdvJ303FinessStatutJuridiqueNiv3Finess</a></li>
@@ -355,11 +357,11 @@
 <td>http://hl7.org/fhir/concept-properties#parent</td>
 <td>code</td>
 <td>An immediate parent of the concept in the hierarchy</td></tr>
-<tr><td>finess</td>
-<td>finess</td>
-<td>https://smt.esante.gouv.fr/fhir/concept-properties#finess</td>
+<tr><td>ror</td>
+<td>ror</td>
+<td>https://smt.esante.gouv.fr/fhir/concept-properties#ror</td>
 <td>boolean</td>
-<td>Permet de définir les codes concepts utilisés par FINESS+</td></tr>
+<td>Permet de définir les codes concepts utilisés par le ROR</td></tr>
 <tr><td>specialisationRpps</td>
 <td>specialisationRpps</td>
 <td>https://smt.esante.gouv.fr/fhir/concept-properties#specialisationRpps</td>
@@ -410,13 +412,13 @@
 <td>https://smt.esante.gouv.fr/fhir/concept-properties#dateFin</td>
 <td>dateTime</td>
 <td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique</code> defines the following codes in a Is-A hierarchy:</p>
-<table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Définition</b></td><td><b>niveau</b></td><td><b>Parent</b></td><td><b>finess</b></td><td><b>specialisationRpps</b></td><td><b>enreg</b></td><td><b>rass</b></td><td><b>epars</b></td><td><b>status</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>French (France) (fr)</b></td></tr>
+<table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Définition</b></td><td><b>niveau</b></td><td><b>Parent</b></td><td><b>ror</b></td><td><b>specialisationRpps</b></td><td><b>enreg</b></td><td><b>rass</b></td><td><b>epars</b></td><td><b>status</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>French (France) (fr)</b></td></tr>
 <tr><td style="white-space:nowrap">1000<a name="tre-r400-finess-statut-juridique-1000"> </a></td>
 <td>Organismes et Etablissements Publics</td>
 <td></td>
 <td>1</td>
 <td></td>
-<td>true</td>
+<td></td>
 <td></td>
 <td>true</td>
 <td></td>
@@ -430,7 +432,7 @@
 <td></td>
 <td>1</td>
 <td></td>
-<td>true</td>
+<td></td>
 <td></td>
 <td>true</td>
 <td></td>
@@ -444,7 +446,7 @@
 <td></td>
 <td>1</td>
 <td></td>
-<td>true</td>
+<td></td>
 <td></td>
 <td>true</td>
 <td></td>
@@ -528,7 +530,7 @@
 <td></td>
 <td>3</td>
 <td><a href="#tre-r400-finess-statut-juridique-1100">1100</a></td>
-<td>true</td>
+<td></td>
 <td></td>
 <td>true</td>
 <td></td>
@@ -542,7 +544,7 @@
 <td></td>
 <td>3</td>
 <td><a href="#tre-r400-finess-statut-juridique-1100">1100</a></td>
-<td>true</td>
+<td></td>
 <td></td>
 <td>true</td>
 <td></td>
@@ -556,7 +558,7 @@
 <td></td>
 <td>3</td>
 <td><a href="#tre-r400-finess-statut-juridique-1200">1200</a></td>
-<td>true</td>
+<td></td>
 <td></td>
 <td>true</td>
 <td></td>
@@ -570,7 +572,7 @@
 <td></td>
 <td>3</td>
 <td><a href="#tre-r400-finess-statut-juridique-1200">1200</a></td>
-<td>true</td>
+<td></td>
 <td></td>
 <td>true</td>
 <td></td>
@@ -584,7 +586,7 @@
 <td></td>
 <td>3</td>
 <td><a href="#tre-r400-finess-statut-juridique-2100">2100</a></td>
-<td>true</td>
+<td></td>
 <td></td>
 <td>true</td>
 <td></td>
@@ -598,7 +600,7 @@
 <td></td>
 <td>3</td>
 <td><a href="#tre-r400-finess-statut-juridique-2100">2100</a></td>
-<td>true</td>
+<td></td>
 <td></td>
 <td>true</td>
 <td></td>
@@ -612,7 +614,7 @@
 <td></td>
 <td>3</td>
 <td><a href="#tre-r400-finess-statut-juridique-2100">2100</a></td>
-<td>true</td>
+<td></td>
 <td></td>
 <td>true</td>
 <td></td>
@@ -626,7 +628,7 @@
 <td></td>
 <td>3</td>
 <td><a href="#tre-r400-finess-statut-juridique-2100">2100</a></td>
-<td>true</td>
+<td></td>
 <td></td>
 <td>true</td>
 <td></td>
@@ -640,7 +642,7 @@
 <td></td>
 <td>3</td>
 <td><a href="#tre-r400-finess-statut-juridique-2100">2100</a></td>
-<td>true</td>
+<td></td>
 <td></td>
 <td>true</td>
 <td></td>
@@ -654,7 +656,7 @@
 <td></td>
 <td>3</td>
 <td><a href="#tre-r400-finess-statut-juridique-2100">2100</a></td>
-<td>true</td>
+<td></td>
 <td></td>
 <td>true</td>
 <td></td>
@@ -668,7 +670,7 @@
 <td></td>
 <td>3</td>
 <td><a href="#tre-r400-finess-statut-juridique-2100">2100</a></td>
-<td>true</td>
+<td></td>
 <td></td>
 <td>true</td>
 <td></td>
@@ -682,7 +684,7 @@
 <td></td>
 <td>3</td>
 <td><a href="#tre-r400-finess-statut-juridique-2100">2100</a></td>
-<td>true</td>
+<td></td>
 <td></td>
 <td>true</td>
 <td></td>
@@ -696,7 +698,7 @@
 <td></td>
 <td>3</td>
 <td><a href="#tre-r400-finess-statut-juridique-2100">2100</a></td>
-<td>true</td>
+<td></td>
 <td></td>
 <td>true</td>
 <td></td>
@@ -710,7 +712,7 @@
 <td></td>
 <td>3</td>
 <td><a href="#tre-r400-finess-statut-juridique-2200">2200</a></td>
-<td>true</td>
+<td></td>
 <td></td>
 <td>true</td>
 <td></td>
@@ -724,7 +726,7 @@
 <td></td>
 <td>3</td>
 <td><a href="#tre-r400-finess-statut-juridique-2200">2200</a></td>
-<td>true</td>
+<td></td>
 <td></td>
 <td>true</td>
 <td></td>
@@ -738,7 +740,7 @@
 <td></td>
 <td>3</td>
 <td><a href="#tre-r400-finess-statut-juridique-2200">2200</a></td>
-<td>true</td>
+<td></td>
 <td></td>
 <td>true</td>
 <td></td>
@@ -752,7 +754,7 @@
 <td></td>
 <td>3</td>
 <td><a href="#tre-r400-finess-statut-juridique-2200">2200</a></td>
-<td>true</td>
+<td></td>
 <td></td>
 <td>true</td>
 <td></td>
@@ -766,7 +768,7 @@
 <td></td>
 <td>3</td>
 <td><a href="#tre-r400-finess-statut-juridique-2200">2200</a></td>
-<td>true</td>
+<td></td>
 <td></td>
 <td>true</td>
 <td></td>
@@ -780,7 +782,7 @@
 <td></td>
 <td>3</td>
 <td><a href="#tre-r400-finess-statut-juridique-2200">2200</a></td>
-<td>true</td>
+<td></td>
 <td></td>
 <td>true</td>
 <td></td>
@@ -794,7 +796,7 @@
 <td></td>
 <td>3</td>
 <td><a href="#tre-r400-finess-statut-juridique-2200">2200</a></td>
-<td>true</td>
+<td></td>
 <td></td>
 <td>true</td>
 <td></td>
@@ -808,7 +810,7 @@
 <td></td>
 <td>3</td>
 <td><a href="#tre-r400-finess-statut-juridique-2200">2200</a></td>
-<td>true</td>
+<td></td>
 <td></td>
 <td>true</td>
 <td></td>
@@ -822,7 +824,7 @@
 <td></td>
 <td>3</td>
 <td><a href="#tre-r400-finess-statut-juridique-3100">3100</a></td>
-<td>true</td>
+<td></td>
 <td></td>
 <td>true</td>
 <td></td>
@@ -836,7 +838,7 @@
 <td>Code ne provenant pas du FINESS, ajouté pour des usages RPPS.</td>
 <td>4</td>
 <td></td>
-<td>false</td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>true</td>
@@ -976,7 +978,7 @@
 <td>Code ne provenant pas du FINESS, ajouté pour des usages RPPS.</td>
 <td>4</td>
 <td><a href="#tre-r400-finess-statut-juridique-2230">2230</a></td>
-<td>false</td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>true</td>
@@ -990,7 +992,7 @@
 <td>Code ne provenant pas du FINESS, ajouté pour des usages RPPS.</td>
 <td>4</td>
 <td><a href="#tre-r400-finess-statut-juridique-2260">2260</a></td>
-<td>false</td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>true</td>
@@ -1004,7 +1006,7 @@
 <td>Code ne provenant pas du FINESS, ajouté pour des usages RPPS.</td>
 <td>4</td>
 <td><a href="#tre-r400-finess-statut-juridique-2260">2260</a></td>
-<td>false</td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>true</td>
@@ -1018,7 +1020,7 @@
 <td>Code ne provenant pas du FINESS, ajouté pour des usages RPPS.</td>
 <td>4</td>
 <td><a href="#tre-r400-finess-statut-juridique-2260">2260</a></td>
-<td>false</td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>true</td>
@@ -1032,7 +1034,7 @@
 <td>Code ne provenant pas du FINESS, ajouté pour des usages RPPS.</td>
 <td>4</td>
 <td><a href="#tre-r400-finess-statut-juridique-2260">2260</a></td>
-<td>false</td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>true</td>
@@ -1046,7 +1048,7 @@
 <td>Code ne provenant pas du FINESS, ajouté pour des usages RPPS.</td>
 <td>4</td>
 <td><a href="#tre-r400-finess-statut-juridique-2260">2260</a></td>
-<td>false</td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>true</td>
@@ -1060,7 +1062,7 @@
 <td>Code ne provenant pas du FINESS, ajouté pour des usages RPPS.</td>
 <td>4</td>
 <td><a href="#tre-r400-finess-statut-juridique-2240">2240</a></td>
-<td>false</td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>true</td>
@@ -1074,7 +1076,7 @@
 <td>Code ne provenant pas du FINESS, ajouté pour des usages RPPS.</td>
 <td>4</td>
 <td><a href="#tre-r400-finess-statut-juridique-2240">2240</a></td>
-<td>false</td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>true</td>
@@ -1102,7 +1104,7 @@
 <td>Code ne provenant pas du FINESS, ajouté pour des usages RPPS.</td>
 <td>4</td>
 <td><a href="#tre-r400-finess-statut-juridique-2260">2260</a></td>
-<td>false</td>
+<td>true</td>
 <td>true</td>
 <td>true</td>
 <td>true</td>
@@ -1985,7 +1987,7 @@
 
 <div class="inner-wrapper">
   <p>
-    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Dec 8, 2025 17:18+0000">2025-12-08</span>
+    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Dec 10, 2025 13:54+0000">2025-12-10</span>
     <br/>
     <span style="color: var(--footer-highlight-text-color)"></span>
       Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

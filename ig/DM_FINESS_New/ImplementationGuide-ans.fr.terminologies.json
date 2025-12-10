@@ -35280,18 +35280,6 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/jdv-j273-espic-finess"
-      },
-      "name" : "Jdv J273 Espic Finess",
-      "description" : "Jeu de valeurs contenant les établissements de santé privés d'intérêt collectif pour FINESS",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
         "reference" : "ValueSet/jdv-j287-type-autorite-regulation-finess"
       },
       "name" : "Jdv J287 Type Autorite Regulation Finess",

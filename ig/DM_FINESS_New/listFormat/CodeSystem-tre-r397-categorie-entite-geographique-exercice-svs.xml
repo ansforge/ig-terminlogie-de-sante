@@ -3745,6 +3745,15 @@
                   longDesignation="Structure qui contribue au Service d'Accès aux Soins"
                   shortDesignation="Structure qui contribue au SAS"
                   descriptionMetier=""/>
+         <concept code="649"
+                  codeSystem="1.2.250.1.213.1.6.1.378"
+                  dateFin=""
+                  dateMaj="20251222120000"
+                  dateValid="20251222120000"
+                  displayName="Centre de santé et de médiation en santé sexuelle"
+                  longDesignation="Centre de santé et de médiation en santé sexuelle"
+                  shortDesignation="C.S.M.S.S."
+                  descriptionMetier="Les centres de santé et de médiation en santé sexuelle (CSMSS) sont des établissements de santé dérogatoires relevant de l’article L. 6323-1 du code de la santé publique (CSP). Ils ont initialement fait l’objet d’une expérimentation dans le cadre du dispositif prévu à l’article 51 de la loi de financement de la sécurité sociale, au cours de laquelle ils étaient rattachés au numéro FINESS des centres de santé de droit commun. L’activité des centres de santé et de médiation en santé sexuelle (CSMSS) consiste à assurer l’accueil, l’information, la prévention, le dépistage et l’accompagnement des publics dans le domaine de la santé sexuelle dans une approche globale intégrant notamment la prévention et la prise en charge des infections sexuellement transmissibles (IST) et du VIH, la prescription de la contraception et la mise en place de parcours en santé sexuelle."/>
          <concept code="690"
                   codeSystem="1.2.250.1.213.1.6.1.378"
                   dateFin="20240223120000"

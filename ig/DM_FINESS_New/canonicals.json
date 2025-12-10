@@ -6435,14 +6435,6 @@
     "oids" : ["1.2.250.1.213.1.6.1.250"]
   },
   {
-    "id" : "jdv-j273-espic-finess",
-    "type" : "ValueSet",
-    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j273-espic-finess",
-    "version" : "20251222120000",
-    "name" : "JdvJ273EspicFiness",
-    "oids" : ["1.2.250.1.213.1.6.1.280"]
-  },
-  {
     "id" : "jdv-j287-type-autorite-regulation-finess",
     "type" : "ValueSet",
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j287-type-autorite-regulation-finess",
