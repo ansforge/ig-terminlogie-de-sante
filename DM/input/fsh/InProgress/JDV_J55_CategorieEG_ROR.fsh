@@ -10,10 +10,10 @@ Description: "Catégories d'établissements FINESS ou hors FINESS et secteurs d'
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J55-CategorieEG-ROR/FHIR/JDV-J55-CategorieEG-ROR"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.65"
-* ^version = "20250425120000"
+* ^version = "20251222120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-04-25T12:00:00+01:00"
+* ^date = "2025-12-22T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R66-CategorieEtablissement#101 "Centre hospitalier régional (CHR)"
@@ -198,6 +198,7 @@ Description: "Catégories d'établissements FINESS ou hors FINESS et secteurs d'
 * $TRE-R66-CategorieEtablissement#701 "Maison des adolescents (MDA)"
 * $TRE-R66-CategorieEtablissement#702 "Point Accueil Ecoute Jeunes (PAEJ)"
 * $TRE-R66-CategorieEtablissement#703 "Espace Santé Jeunes (ESJ)"
+* $TRE-R66-CategorieEtablissement#704 "Autre service territorial"
 * $TRE-R02-SecteurActivite#SA05 "Centre de santé"
 * $TRE-R02-SecteurActivite#SA07 "Cabinet individuel"
 * $TRE-R02-SecteurActivite#SA08 "Cabinet de groupe"
