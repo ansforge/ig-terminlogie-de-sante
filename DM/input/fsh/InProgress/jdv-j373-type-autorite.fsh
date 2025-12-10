@@ -17,4 +17,4 @@ Description: "Jeu de valeurs contenant les différents types d'autorité (actifs
 * ^experimental = false
 * ^date = "2025-08-26T18:02:28.249+00:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* include codes from system  $tre-r396-autorite where niveau = "1"
+* include codes from system $tre-r396-autorite where niveau = "1"

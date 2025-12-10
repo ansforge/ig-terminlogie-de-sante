@@ -28,9 +28,9 @@ Description: "Statuts juridiques de FINESS"
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#parent"
 * ^property[=].description = "An immediate parent of the concept in the hierarchy"
 * ^property[=].type = #code
-* ^property[+].code = #finess
-* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#finess"
-* ^property[=].description = "Permet de définir les codes concepts utilisés par FINESS+"
+* ^property[+].code = #ror
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#ror"
+* ^property[=].description = "Permet de définir les codes concepts utilisés par le ROR"
 * ^property[=].type = #boolean
 * ^property[+].code = #specialisationRpps
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#specialisationRpps"
@@ -75,8 +75,6 @@ Description: "Statuts juridiques de FINESS"
 * #1000 "Organismes et Etablissements Publics"
 * #1000 ^property[0].code = #niveau
 * #1000 ^property[=].valueInteger = 1
-* #1000 ^property[+].code = #finess
-* #1000 ^property[=].valueBoolean = true
 * #1000 ^property[+].code = #enreg
 * #1000 ^property[=].valueBoolean = true
 * #1000 ^property[+].code = #status
@@ -92,8 +90,6 @@ Description: "Statuts juridiques de FINESS"
 * #2000 "Organismes Privés"
 * #2000 ^property[0].code = #niveau
 * #2000 ^property[=].valueInteger = 1
-* #2000 ^property[+].code = #finess
-* #2000 ^property[=].valueBoolean = true
 * #2000 ^property[+].code = #enreg
 * #2000 ^property[=].valueBoolean = true
 * #2000 ^property[+].code = #status
@@ -105,8 +101,6 @@ Description: "Statuts juridiques de FINESS"
 * #3000 "Personne Morale de Droit Etranger"
 * #3000 ^property[0].code = #niveau
 * #3000 ^property[=].valueInteger = 1
-* #3000 ^property[+].code = #finess
-* #3000 ^property[=].valueBoolean = true
 * #3000 ^property[+].code = #enreg
 * #3000 ^property[=].valueBoolean = true
 * #3000 ^property[+].code = #status
@@ -128,7 +122,7 @@ Description: "Statuts juridiques de FINESS"
 * #1100 ^property[=].valueInteger = 2
 * #1100 ^property[+].code = #parent
 * #1100 ^property[=].valueCode = #1000
-* #1100 ^property[+].code = #finess
+* #1100 ^property[+].code = #ror
 * #1100 ^property[=].valueBoolean = true
 * #1100 ^property[+].code = #enreg
 * #1100 ^property[=].valueBoolean = true
@@ -147,7 +141,7 @@ Description: "Statuts juridiques de FINESS"
 * #1200 ^property[=].valueInteger = 2
 * #1200 ^property[+].code = #parent
 * #1200 ^property[=].valueCode = #1000
-* #1200 ^property[+].code = #finess
+* #1200 ^property[+].code = #ror
 * #1200 ^property[=].valueBoolean = true
 * #1200 ^property[+].code = #enreg
 * #1200 ^property[=].valueBoolean = true
@@ -162,7 +156,7 @@ Description: "Statuts juridiques de FINESS"
 * #2100 ^property[=].valueInteger = 2
 * #2100 ^property[+].code = #parent
 * #2100 ^property[=].valueCode = #2000
-* #2100 ^property[+].code = #finess
+* #2100 ^property[+].code = #ror
 * #2100 ^property[=].valueBoolean = true
 * #2100 ^property[+].code = #enreg
 * #2100 ^property[=].valueBoolean = true
@@ -181,7 +175,7 @@ Description: "Statuts juridiques de FINESS"
 * #2200 ^property[=].valueInteger = 2
 * #2200 ^property[+].code = #parent
 * #2200 ^property[=].valueCode = #2000
-* #2200 ^property[+].code = #finess
+* #2200 ^property[+].code = #ror
 * #2200 ^property[=].valueBoolean = true
 * #2200 ^property[+].code = #enreg
 * #2200 ^property[=].valueBoolean = true
@@ -200,7 +194,7 @@ Description: "Statuts juridiques de FINESS"
 * #3100 ^property[=].valueInteger = 2
 * #3100 ^property[+].code = #parent
 * #3100 ^property[=].valueCode = #3000
-* #3100 ^property[+].code = #finess
+* #3100 ^property[+].code = #ror
 * #3100 ^property[=].valueBoolean = true
 * #3100 ^property[+].code = #enreg
 * #3100 ^property[=].valueBoolean = true
@@ -223,8 +217,6 @@ Description: "Statuts juridiques de FINESS"
 * #1110 ^property[=].valueInteger = 3
 * #1110 ^property[+].code = #parent
 * #1110 ^property[=].valueCode = #1100
-* #1110 ^property[+].code = #finess
-* #1110 ^property[=].valueBoolean = true
 * #1110 ^property[+].code = #enreg
 * #1110 ^property[=].valueBoolean = true
 * #1110 ^property[+].code = #status
@@ -238,8 +230,6 @@ Description: "Statuts juridiques de FINESS"
 * #1120 ^property[=].valueInteger = 3
 * #1120 ^property[+].code = #parent
 * #1120 ^property[=].valueCode = #1100
-* #1120 ^property[+].code = #finess
-* #1120 ^property[=].valueBoolean = true
 * #1120 ^property[+].code = #enreg
 * #1120 ^property[=].valueBoolean = true
 * #1120 ^property[+].code = #status
@@ -257,8 +247,6 @@ Description: "Statuts juridiques de FINESS"
 * #1210 ^property[=].valueInteger = 3
 * #1210 ^property[+].code = #parent
 * #1210 ^property[=].valueCode = #1200
-* #1210 ^property[+].code = #finess
-* #1210 ^property[=].valueBoolean = true
 * #1210 ^property[+].code = #enreg
 * #1210 ^property[=].valueBoolean = true
 * #1210 ^property[+].code = #status
@@ -276,8 +264,6 @@ Description: "Statuts juridiques de FINESS"
 * #1220 ^property[=].valueInteger = 3
 * #1220 ^property[+].code = #parent
 * #1220 ^property[=].valueCode = #1200
-* #1220 ^property[+].code = #finess
-* #1220 ^property[=].valueBoolean = true
 * #1220 ^property[+].code = #enreg
 * #1220 ^property[=].valueBoolean = true
 * #1220 ^property[+].code = #status
@@ -295,8 +281,6 @@ Description: "Statuts juridiques de FINESS"
 * #2110 ^property[=].valueInteger = 3
 * #2110 ^property[+].code = #parent
 * #2110 ^property[=].valueCode = #2100
-* #2110 ^property[+].code = #finess
-* #2110 ^property[=].valueBoolean = true
 * #2110 ^property[+].code = #enreg
 * #2110 ^property[=].valueBoolean = true
 * #2110 ^property[+].code = #status
@@ -314,8 +298,6 @@ Description: "Statuts juridiques de FINESS"
 * #2120 ^property[=].valueInteger = 3
 * #2120 ^property[+].code = #parent
 * #2120 ^property[=].valueCode = #2100
-* #2120 ^property[+].code = #finess
-* #2120 ^property[=].valueBoolean = true
 * #2120 ^property[+].code = #enreg
 * #2120 ^property[=].valueBoolean = true
 * #2120 ^property[+].code = #status
@@ -333,8 +315,6 @@ Description: "Statuts juridiques de FINESS"
 * #2130 ^property[=].valueInteger = 3
 * #2130 ^property[+].code = #parent
 * #2130 ^property[=].valueCode = #2100
-* #2130 ^property[+].code = #finess
-* #2130 ^property[=].valueBoolean = true
 * #2130 ^property[+].code = #enreg
 * #2130 ^property[=].valueBoolean = true
 * #2130 ^property[+].code = #status
@@ -356,8 +336,6 @@ Description: "Statuts juridiques de FINESS"
 * #2140 ^property[=].valueInteger = 3
 * #2140 ^property[+].code = #parent
 * #2140 ^property[=].valueCode = #2100
-* #2140 ^property[+].code = #finess
-* #2140 ^property[=].valueBoolean = true
 * #2140 ^property[+].code = #enreg
 * #2140 ^property[=].valueBoolean = true
 * #2140 ^property[+].code = #status
@@ -375,8 +353,6 @@ Description: "Statuts juridiques de FINESS"
 * #2150 ^property[=].valueInteger = 3
 * #2150 ^property[+].code = #parent
 * #2150 ^property[=].valueCode = #2100
-* #2150 ^property[+].code = #finess
-* #2150 ^property[=].valueBoolean = true
 * #2150 ^property[+].code = #enreg
 * #2150 ^property[=].valueBoolean = true
 * #2150 ^property[+].code = #status
@@ -394,8 +370,6 @@ Description: "Statuts juridiques de FINESS"
 * #2160 ^property[=].valueInteger = 3
 * #2160 ^property[+].code = #parent
 * #2160 ^property[=].valueCode = #2100
-* #2160 ^property[+].code = #finess
-* #2160 ^property[=].valueBoolean = true
 * #2160 ^property[+].code = #enreg
 * #2160 ^property[=].valueBoolean = true
 * #2160 ^property[+].code = #status
@@ -409,8 +383,6 @@ Description: "Statuts juridiques de FINESS"
 * #2170 ^property[=].valueInteger = 3
 * #2170 ^property[+].code = #parent
 * #2170 ^property[=].valueCode = #2100
-* #2170 ^property[+].code = #finess
-* #2170 ^property[=].valueBoolean = true
 * #2170 ^property[+].code = #enreg
 * #2170 ^property[=].valueBoolean = true
 * #2170 ^property[+].code = #status
@@ -424,8 +396,6 @@ Description: "Statuts juridiques de FINESS"
 * #2180 ^property[=].valueInteger = 3
 * #2180 ^property[+].code = #parent
 * #2180 ^property[=].valueCode = #2100
-* #2180 ^property[+].code = #finess
-* #2180 ^property[=].valueBoolean = true
 * #2180 ^property[+].code = #enreg
 * #2180 ^property[=].valueBoolean = true
 * #2180 ^property[+].code = #status
@@ -439,8 +409,6 @@ Description: "Statuts juridiques de FINESS"
 * #2190 ^property[=].valueInteger = 3
 * #2190 ^property[+].code = #parent
 * #2190 ^property[=].valueCode = #2100
-* #2190 ^property[+].code = #finess
-* #2190 ^property[=].valueBoolean = true
 * #2190 ^property[+].code = #enreg
 * #2190 ^property[=].valueBoolean = true
 * #2190 ^property[+].code = #status
@@ -458,8 +426,6 @@ Description: "Statuts juridiques de FINESS"
 * #2210 ^property[=].valueInteger = 3
 * #2210 ^property[+].code = #parent
 * #2210 ^property[=].valueCode = #2200
-* #2210 ^property[+].code = #finess
-* #2210 ^property[=].valueBoolean = true
 * #2210 ^property[+].code = #enreg
 * #2210 ^property[=].valueBoolean = true
 * #2210 ^property[+].code = #status
@@ -473,8 +439,6 @@ Description: "Statuts juridiques de FINESS"
 * #2220 ^property[=].valueInteger = 3
 * #2220 ^property[+].code = #parent
 * #2220 ^property[=].valueCode = #2200
-* #2220 ^property[+].code = #finess
-* #2220 ^property[=].valueBoolean = true
 * #2220 ^property[+].code = #enreg
 * #2220 ^property[=].valueBoolean = true
 * #2220 ^property[+].code = #status
@@ -496,8 +460,6 @@ Description: "Statuts juridiques de FINESS"
 * #2230 ^property[=].valueInteger = 3
 * #2230 ^property[+].code = #parent
 * #2230 ^property[=].valueCode = #2200
-* #2230 ^property[+].code = #finess
-* #2230 ^property[=].valueBoolean = true
 * #2230 ^property[+].code = #enreg
 * #2230 ^property[=].valueBoolean = true
 * #2230 ^property[+].code = #status
@@ -519,8 +481,6 @@ Description: "Statuts juridiques de FINESS"
 * #2240 ^property[=].valueInteger = 3
 * #2240 ^property[+].code = #parent
 * #2240 ^property[=].valueCode = #2200
-* #2240 ^property[+].code = #finess
-* #2240 ^property[=].valueBoolean = true
 * #2240 ^property[+].code = #enreg
 * #2240 ^property[=].valueBoolean = true
 * #2240 ^property[+].code = #status
@@ -542,8 +502,6 @@ Description: "Statuts juridiques de FINESS"
 * #2250 ^property[=].valueInteger = 3
 * #2250 ^property[+].code = #parent
 * #2250 ^property[=].valueCode = #2200
-* #2250 ^property[+].code = #finess
-* #2250 ^property[=].valueBoolean = true
 * #2250 ^property[+].code = #enreg
 * #2250 ^property[=].valueBoolean = true
 * #2250 ^property[+].code = #status
@@ -557,8 +515,6 @@ Description: "Statuts juridiques de FINESS"
 * #2260 ^property[=].valueInteger = 3
 * #2260 ^property[+].code = #parent
 * #2260 ^property[=].valueCode = #2200
-* #2260 ^property[+].code = #finess
-* #2260 ^property[=].valueBoolean = true
 * #2260 ^property[+].code = #enreg
 * #2260 ^property[=].valueBoolean = true
 * #2260 ^property[+].code = #status
@@ -572,8 +528,6 @@ Description: "Statuts juridiques de FINESS"
 * #2270 ^property[=].valueInteger = 3
 * #2270 ^property[+].code = #parent
 * #2270 ^property[=].valueCode = #2200
-* #2270 ^property[+].code = #finess
-* #2270 ^property[=].valueBoolean = true
 * #2270 ^property[+].code = #enreg
 * #2270 ^property[=].valueBoolean = true
 * #2270 ^property[+].code = #status
@@ -591,8 +545,6 @@ Description: "Statuts juridiques de FINESS"
 * #2280 ^property[=].valueInteger = 3
 * #2280 ^property[+].code = #parent
 * #2280 ^property[=].valueCode = #2200
-* #2280 ^property[+].code = #finess
-* #2280 ^property[=].valueBoolean = true
 * #2280 ^property[+].code = #enreg
 * #2280 ^property[=].valueBoolean = true
 * #2280 ^property[+].code = #status
@@ -610,8 +562,6 @@ Description: "Statuts juridiques de FINESS"
 * #3110 ^property[=].valueInteger = 3
 * #3110 ^property[+].code = #parent
 * #3110 ^property[=].valueCode = #3100
-* #3110 ^property[+].code = #finess
-* #3110 ^property[=].valueBoolean = true
 * #3110 ^property[+].code = #enreg
 * #3110 ^property[=].valueBoolean = true
 * #3110 ^property[+].code = #status
@@ -631,8 +581,8 @@ Description: "Statuts juridiques de FINESS"
 * #000 "En cours de vérification" "Code ne provenant pas du FINESS, ajouté pour des usages RPPS."
 * #000 ^property[0].code = #niveau
 * #000 ^property[=].valueInteger = 4
-* #000 ^property[+].code = #finess
-* #000 ^property[=].valueBoolean = false
+* #000 ^property[+].code = #ror
+* #000 ^property[=].valueBoolean = true
 * #000 ^property[+].code = #specialisationRpps
 * #000 ^property[=].valueBoolean = true
 * #000 ^property[+].code = #enreg
@@ -652,7 +602,7 @@ Description: "Statuts juridiques de FINESS"
 * #01 ^property[=].valueInteger = 4
 * #01 ^property[+].code = #parent
 * #01 ^property[=].valueCode = #1110
-* #01 ^property[+].code = #finess
+* #01 ^property[+].code = #ror
 * #01 ^property[=].valueBoolean = true
 * #01 ^property[+].code = #enreg
 * #01 ^property[=].valueBoolean = true
@@ -671,7 +621,7 @@ Description: "Statuts juridiques de FINESS"
 * #02 ^property[=].valueInteger = 4
 * #02 ^property[+].code = #parent
 * #02 ^property[=].valueCode = #1120
-* #02 ^property[+].code = #finess
+* #02 ^property[+].code = #ror
 * #02 ^property[=].valueBoolean = true
 * #02 ^property[+].code = #enreg
 * #02 ^property[=].valueBoolean = true
@@ -690,7 +640,7 @@ Description: "Statuts juridiques de FINESS"
 * #03 ^property[=].valueInteger = 4
 * #03 ^property[+].code = #parent
 * #03 ^property[=].valueCode = #1120
-* #03 ^property[+].code = #finess
+* #03 ^property[+].code = #ror
 * #03 ^property[=].valueBoolean = true
 * #03 ^property[+].code = #enreg
 * #03 ^property[=].valueBoolean = true
@@ -709,7 +659,7 @@ Description: "Statuts juridiques de FINESS"
 * #04 ^property[=].valueInteger = 4
 * #04 ^property[+].code = #parent
 * #04 ^property[=].valueCode = #1120
-* #04 ^property[+].code = #finess
+* #04 ^property[+].code = #ror
 * #04 ^property[=].valueBoolean = true
 * #04 ^property[+].code = #enreg
 * #04 ^property[=].valueBoolean = true
@@ -728,7 +678,7 @@ Description: "Statuts juridiques de FINESS"
 * #05 ^property[=].valueInteger = 4
 * #05 ^property[+].code = #parent
 * #05 ^property[=].valueCode = #1120
-* #05 ^property[+].code = #finess
+* #05 ^property[+].code = #ror
 * #05 ^property[=].valueBoolean = true
 * #05 ^property[+].code = #enreg
 * #05 ^property[=].valueBoolean = true
@@ -751,7 +701,7 @@ Description: "Statuts juridiques de FINESS"
 * #06 ^property[=].valueInteger = 4
 * #06 ^property[+].code = #parent
 * #06 ^property[=].valueCode = #1120
-* #06 ^property[+].code = #finess
+* #06 ^property[+].code = #ror
 * #06 ^property[=].valueBoolean = true
 * #06 ^property[+].code = #enreg
 * #06 ^property[=].valueBoolean = true
@@ -774,7 +724,7 @@ Description: "Statuts juridiques de FINESS"
 * #07 ^property[=].valueInteger = 4
 * #07 ^property[+].code = #parent
 * #07 ^property[=].valueCode = #1210
-* #07 ^property[+].code = #finess
+* #07 ^property[+].code = #ror
 * #07 ^property[=].valueBoolean = true
 * #07 ^property[+].code = #enreg
 * #07 ^property[=].valueBoolean = true
@@ -797,7 +747,7 @@ Description: "Statuts juridiques de FINESS"
 * #08 ^property[=].valueInteger = 4
 * #08 ^property[+].code = #parent
 * #08 ^property[=].valueCode = #1210
-* #08 ^property[+].code = #finess
+* #08 ^property[+].code = #ror
 * #08 ^property[=].valueBoolean = true
 * #08 ^property[+].code = #enreg
 * #08 ^property[=].valueBoolean = true
@@ -820,7 +770,7 @@ Description: "Statuts juridiques de FINESS"
 * #10 ^property[=].valueInteger = 4
 * #10 ^property[+].code = #parent
 * #10 ^property[=].valueCode = #1210
-* #10 ^property[+].code = #finess
+* #10 ^property[+].code = #ror
 * #10 ^property[=].valueBoolean = true
 * #10 ^property[+].code = #enreg
 * #10 ^property[=].valueBoolean = true
@@ -843,8 +793,8 @@ Description: "Statuts juridiques de FINESS"
 * #100 ^property[=].valueInteger = 4
 * #100 ^property[+].code = #parent
 * #100 ^property[=].valueCode = #2230
-* #100 ^property[+].code = #finess
-* #100 ^property[=].valueBoolean = false
+* #100 ^property[+].code = #ror
+* #100 ^property[=].valueBoolean = true
 * #100 ^property[+].code = #specialisationRpps
 * #100 ^property[=].valueBoolean = true
 * #100 ^property[+].code = #enreg
@@ -868,8 +818,8 @@ Description: "Statuts juridiques de FINESS"
 * #101 ^property[=].valueInteger = 4
 * #101 ^property[+].code = #parent
 * #101 ^property[=].valueCode = #2260
-* #101 ^property[+].code = #finess
-* #101 ^property[=].valueBoolean = false
+* #101 ^property[+].code = #ror
+* #101 ^property[=].valueBoolean = true
 * #101 ^property[+].code = #specialisationRpps
 * #101 ^property[=].valueBoolean = true
 * #101 ^property[+].code = #enreg
@@ -893,8 +843,8 @@ Description: "Statuts juridiques de FINESS"
 * #102 ^property[=].valueInteger = 4
 * #102 ^property[+].code = #parent
 * #102 ^property[=].valueCode = #2260
-* #102 ^property[+].code = #finess
-* #102 ^property[=].valueBoolean = false
+* #102 ^property[+].code = #ror
+* #102 ^property[=].valueBoolean = true
 * #102 ^property[+].code = #specialisationRpps
 * #102 ^property[=].valueBoolean = true
 * #102 ^property[+].code = #enreg
@@ -918,8 +868,8 @@ Description: "Statuts juridiques de FINESS"
 * #103 ^property[=].valueInteger = 4
 * #103 ^property[+].code = #parent
 * #103 ^property[=].valueCode = #2260
-* #103 ^property[+].code = #finess
-* #103 ^property[=].valueBoolean = false
+* #103 ^property[+].code = #ror
+* #103 ^property[=].valueBoolean = true
 * #103 ^property[+].code = #specialisationRpps
 * #103 ^property[=].valueBoolean = true
 * #103 ^property[+].code = #enreg
@@ -943,8 +893,8 @@ Description: "Statuts juridiques de FINESS"
 * #104 ^property[=].valueInteger = 4
 * #104 ^property[+].code = #parent
 * #104 ^property[=].valueCode = #2260
-* #104 ^property[+].code = #finess
-* #104 ^property[=].valueBoolean = false
+* #104 ^property[+].code = #ror
+* #104 ^property[=].valueBoolean = true
 * #104 ^property[+].code = #specialisationRpps
 * #104 ^property[=].valueBoolean = true
 * #104 ^property[+].code = #enreg
@@ -968,8 +918,8 @@ Description: "Statuts juridiques de FINESS"
 * #105 ^property[=].valueInteger = 4
 * #105 ^property[+].code = #parent
 * #105 ^property[=].valueCode = #2260
-* #105 ^property[+].code = #finess
-* #105 ^property[=].valueBoolean = false
+* #105 ^property[+].code = #ror
+* #105 ^property[=].valueBoolean = true
 * #105 ^property[+].code = #specialisationRpps
 * #105 ^property[=].valueBoolean = true
 * #105 ^property[+].code = #enreg
@@ -993,8 +943,8 @@ Description: "Statuts juridiques de FINESS"
 * #106 ^property[=].valueInteger = 4
 * #106 ^property[+].code = #parent
 * #106 ^property[=].valueCode = #2240
-* #106 ^property[+].code = #finess
-* #106 ^property[=].valueBoolean = false
+* #106 ^property[+].code = #ror
+* #106 ^property[=].valueBoolean = true
 * #106 ^property[+].code = #specialisationRpps
 * #106 ^property[=].valueBoolean = true
 * #106 ^property[+].code = #enreg
@@ -1018,8 +968,8 @@ Description: "Statuts juridiques de FINESS"
 * #107 ^property[=].valueInteger = 4
 * #107 ^property[+].code = #parent
 * #107 ^property[=].valueCode = #2240
-* #107 ^property[+].code = #finess
-* #107 ^property[=].valueBoolean = false
+* #107 ^property[+].code = #ror
+* #107 ^property[=].valueBoolean = true
 * #107 ^property[+].code = #specialisationRpps
 * #107 ^property[=].valueBoolean = true
 * #107 ^property[+].code = #enreg
@@ -1043,7 +993,7 @@ Description: "Statuts juridiques de FINESS"
 * #11 ^property[=].valueInteger = 4
 * #11 ^property[+].code = #parent
 * #11 ^property[=].valueCode = #1210
-* #11 ^property[+].code = #finess
+* #11 ^property[+].code = #ror
 * #11 ^property[=].valueBoolean = true
 * #11 ^property[+].code = #enreg
 * #11 ^property[=].valueBoolean = true
@@ -1066,8 +1016,8 @@ Description: "Statuts juridiques de FINESS"
 * #110 ^property[=].valueInteger = 4
 * #110 ^property[+].code = #parent
 * #110 ^property[=].valueCode = #2260
-* #110 ^property[+].code = #finess
-* #110 ^property[=].valueBoolean = false
+* #110 ^property[+].code = #ror
+* #110 ^property[=].valueBoolean = true
 * #110 ^property[+].code = #specialisationRpps
 * #110 ^property[=].valueBoolean = true
 * #110 ^property[+].code = #enreg
@@ -1091,7 +1041,7 @@ Description: "Statuts juridiques de FINESS"
 * #12 ^property[=].valueInteger = 4
 * #12 ^property[+].code = #parent
 * #12 ^property[=].valueCode = #1210
-* #12 ^property[+].code = #finess
+* #12 ^property[+].code = #ror
 * #12 ^property[=].valueBoolean = true
 * #12 ^property[+].code = #enreg
 * #12 ^property[=].valueBoolean = true
@@ -1114,7 +1064,7 @@ Description: "Statuts juridiques de FINESS"
 * #13 ^property[=].valueInteger = 4
 * #13 ^property[+].code = #parent
 * #13 ^property[=].valueCode = #1210
-* #13 ^property[+].code = #finess
+* #13 ^property[+].code = #ror
 * #13 ^property[=].valueBoolean = true
 * #13 ^property[+].code = #enreg
 * #13 ^property[=].valueBoolean = true
@@ -1137,7 +1087,7 @@ Description: "Statuts juridiques de FINESS"
 * #14 ^property[=].valueInteger = 4
 * #14 ^property[+].code = #parent
 * #14 ^property[=].valueCode = #1210
-* #14 ^property[+].code = #finess
+* #14 ^property[+].code = #ror
 * #14 ^property[=].valueBoolean = true
 * #14 ^property[+].code = #enreg
 * #14 ^property[=].valueBoolean = true
@@ -1160,7 +1110,7 @@ Description: "Statuts juridiques de FINESS"
 * #15 ^property[=].valueInteger = 4
 * #15 ^property[+].code = #parent
 * #15 ^property[=].valueCode = #1210
-* #15 ^property[+].code = #finess
+* #15 ^property[+].code = #ror
 * #15 ^property[=].valueBoolean = true
 * #15 ^property[+].code = #enreg
 * #15 ^property[=].valueBoolean = true
@@ -1183,7 +1133,7 @@ Description: "Statuts juridiques de FINESS"
 * #16 ^property[=].valueInteger = 4
 * #16 ^property[+].code = #parent
 * #16 ^property[=].valueCode = #1210
-* #16 ^property[+].code = #finess
+* #16 ^property[+].code = #ror
 * #16 ^property[=].valueBoolean = true
 * #16 ^property[+].code = #enreg
 * #16 ^property[=].valueBoolean = true
@@ -1210,7 +1160,7 @@ Description: "Statuts juridiques de FINESS"
 * #17 ^property[=].valueInteger = 4
 * #17 ^property[+].code = #parent
 * #17 ^property[=].valueCode = #1210
-* #17 ^property[+].code = #finess
+* #17 ^property[+].code = #ror
 * #17 ^property[=].valueBoolean = true
 * #17 ^property[+].code = #enreg
 * #17 ^property[=].valueBoolean = true
@@ -1233,7 +1183,7 @@ Description: "Statuts juridiques de FINESS"
 * #18 ^property[=].valueInteger = 4
 * #18 ^property[+].code = #parent
 * #18 ^property[=].valueCode = #1210
-* #18 ^property[+].code = #finess
+* #18 ^property[+].code = #ror
 * #18 ^property[=].valueBoolean = true
 * #18 ^property[+].code = #enreg
 * #18 ^property[=].valueBoolean = true
@@ -1256,7 +1206,7 @@ Description: "Statuts juridiques de FINESS"
 * #19 ^property[=].valueInteger = 4
 * #19 ^property[+].code = #parent
 * #19 ^property[=].valueCode = #1210
-* #19 ^property[+].code = #finess
+* #19 ^property[+].code = #ror
 * #19 ^property[=].valueBoolean = true
 * #19 ^property[+].code = #enreg
 * #19 ^property[=].valueBoolean = true
@@ -1279,7 +1229,7 @@ Description: "Statuts juridiques de FINESS"
 * #20 ^property[=].valueInteger = 4
 * #20 ^property[+].code = #parent
 * #20 ^property[=].valueCode = #1210
-* #20 ^property[+].code = #finess
+* #20 ^property[+].code = #ror
 * #20 ^property[=].valueBoolean = true
 * #20 ^property[+].code = #enreg
 * #20 ^property[=].valueBoolean = true
@@ -1302,7 +1252,7 @@ Description: "Statuts juridiques de FINESS"
 * #21 ^property[=].valueInteger = 4
 * #21 ^property[+].code = #parent
 * #21 ^property[=].valueCode = #1210
-* #21 ^property[+].code = #finess
+* #21 ^property[+].code = #ror
 * #21 ^property[=].valueBoolean = true
 * #21 ^property[+].code = #enreg
 * #21 ^property[=].valueBoolean = true
@@ -1325,7 +1275,7 @@ Description: "Statuts juridiques de FINESS"
 * #22 ^property[=].valueInteger = 4
 * #22 ^property[+].code = #parent
 * #22 ^property[=].valueCode = #1210
-* #22 ^property[+].code = #finess
+* #22 ^property[+].code = #ror
 * #22 ^property[=].valueBoolean = true
 * #22 ^property[+].code = #enreg
 * #22 ^property[=].valueBoolean = true
@@ -1348,7 +1298,7 @@ Description: "Statuts juridiques de FINESS"
 * #23 ^property[=].valueInteger = 4
 * #23 ^property[+].code = #parent
 * #23 ^property[=].valueCode = #1210
-* #23 ^property[+].code = #finess
+* #23 ^property[+].code = #ror
 * #23 ^property[=].valueBoolean = true
 * #23 ^property[+].code = #enreg
 * #23 ^property[=].valueBoolean = true
@@ -1371,7 +1321,7 @@ Description: "Statuts juridiques de FINESS"
 * #24 ^property[=].valueInteger = 4
 * #24 ^property[+].code = #parent
 * #24 ^property[=].valueCode = #1210
-* #24 ^property[+].code = #finess
+* #24 ^property[+].code = #ror
 * #24 ^property[=].valueBoolean = true
 * #24 ^property[+].code = #enreg
 * #24 ^property[=].valueBoolean = true
@@ -1398,7 +1348,7 @@ Description: "Statuts juridiques de FINESS"
 * #25 ^property[=].valueInteger = 4
 * #25 ^property[+].code = #parent
 * #25 ^property[=].valueCode = #1210
-* #25 ^property[+].code = #finess
+* #25 ^property[+].code = #ror
 * #25 ^property[=].valueBoolean = true
 * #25 ^property[+].code = #enreg
 * #25 ^property[=].valueBoolean = true
@@ -1421,7 +1371,7 @@ Description: "Statuts juridiques de FINESS"
 * #26 ^property[=].valueInteger = 4
 * #26 ^property[+].code = #parent
 * #26 ^property[=].valueCode = #1210
-* #26 ^property[+].code = #finess
+* #26 ^property[+].code = #ror
 * #26 ^property[=].valueBoolean = true
 * #26 ^property[+].code = #enreg
 * #26 ^property[=].valueBoolean = true
@@ -1448,7 +1398,7 @@ Description: "Statuts juridiques de FINESS"
 * #27 ^property[=].valueInteger = 4
 * #27 ^property[+].code = #parent
 * #27 ^property[=].valueCode = #1220
-* #27 ^property[+].code = #finess
+* #27 ^property[+].code = #ror
 * #27 ^property[=].valueBoolean = true
 * #27 ^property[+].code = #enreg
 * #27 ^property[=].valueBoolean = true
@@ -1471,7 +1421,7 @@ Description: "Statuts juridiques de FINESS"
 * #28 ^property[=].valueInteger = 4
 * #28 ^property[+].code = #parent
 * #28 ^property[=].valueCode = #1210
-* #28 ^property[+].code = #finess
+* #28 ^property[+].code = #ror
 * #28 ^property[=].valueBoolean = true
 * #28 ^property[+].code = #enreg
 * #28 ^property[=].valueBoolean = true
@@ -1498,7 +1448,7 @@ Description: "Statuts juridiques de FINESS"
 * #29 ^property[=].valueInteger = 4
 * #29 ^property[+].code = #parent
 * #29 ^property[=].valueCode = #1210
-* #29 ^property[+].code = #finess
+* #29 ^property[+].code = #ror
 * #29 ^property[=].valueBoolean = true
 * #29 ^property[+].code = #enreg
 * #29 ^property[=].valueBoolean = true
@@ -1525,7 +1475,7 @@ Description: "Statuts juridiques de FINESS"
 * #30 ^property[=].valueInteger = 4
 * #30 ^property[+].code = #parent
 * #30 ^property[=].valueCode = #1210
-* #30 ^property[+].code = #finess
+* #30 ^property[+].code = #ror
 * #30 ^property[=].valueBoolean = true
 * #30 ^property[+].code = #enreg
 * #30 ^property[=].valueBoolean = true
@@ -1552,7 +1502,7 @@ Description: "Statuts juridiques de FINESS"
 * #40 ^property[=].valueInteger = 4
 * #40 ^property[+].code = #parent
 * #40 ^property[=].valueCode = #2110
-* #40 ^property[+].code = #finess
+* #40 ^property[+].code = #ror
 * #40 ^property[=].valueBoolean = true
 * #40 ^property[+].code = #enreg
 * #40 ^property[=].valueBoolean = true
@@ -1575,7 +1525,7 @@ Description: "Statuts juridiques de FINESS"
 * #41 ^property[=].valueInteger = 4
 * #41 ^property[+].code = #parent
 * #41 ^property[=].valueCode = #2110
-* #41 ^property[+].code = #finess
+* #41 ^property[+].code = #ror
 * #41 ^property[=].valueBoolean = true
 * #41 ^property[+].code = #enreg
 * #41 ^property[=].valueBoolean = true
@@ -1598,7 +1548,7 @@ Description: "Statuts juridiques de FINESS"
 * #42 ^property[=].valueInteger = 4
 * #42 ^property[+].code = #parent
 * #42 ^property[=].valueCode = #2110
-* #42 ^property[+].code = #finess
+* #42 ^property[+].code = #ror
 * #42 ^property[=].valueBoolean = true
 * #42 ^property[+].code = #enreg
 * #42 ^property[=].valueBoolean = true
@@ -1621,7 +1571,7 @@ Description: "Statuts juridiques de FINESS"
 * #43 ^property[=].valueInteger = 4
 * #43 ^property[+].code = #parent
 * #43 ^property[=].valueCode = #2110
-* #43 ^property[+].code = #finess
+* #43 ^property[+].code = #ror
 * #43 ^property[=].valueBoolean = true
 * #43 ^property[+].code = #enreg
 * #43 ^property[=].valueBoolean = true
@@ -1648,7 +1598,7 @@ Description: "Statuts juridiques de FINESS"
 * #44 ^property[=].valueInteger = 4
 * #44 ^property[+].code = #parent
 * #44 ^property[=].valueCode = #2110
-* #44 ^property[+].code = #finess
+* #44 ^property[+].code = #ror
 * #44 ^property[=].valueBoolean = true
 * #44 ^property[+].code = #enreg
 * #44 ^property[=].valueBoolean = true
@@ -1675,7 +1625,7 @@ Description: "Statuts juridiques de FINESS"
 * #45 ^property[=].valueInteger = 4
 * #45 ^property[+].code = #parent
 * #45 ^property[=].valueCode = #2110
-* #45 ^property[+].code = #finess
+* #45 ^property[+].code = #ror
 * #45 ^property[=].valueBoolean = true
 * #45 ^property[+].code = #enreg
 * #45 ^property[=].valueBoolean = true
@@ -1698,7 +1648,7 @@ Description: "Statuts juridiques de FINESS"
 * #46 ^property[=].valueInteger = 4
 * #46 ^property[+].code = #parent
 * #46 ^property[=].valueCode = #2110
-* #46 ^property[+].code = #finess
+* #46 ^property[+].code = #ror
 * #46 ^property[=].valueBoolean = true
 * #46 ^property[+].code = #enreg
 * #46 ^property[=].valueBoolean = true
@@ -1721,7 +1671,7 @@ Description: "Statuts juridiques de FINESS"
 * #47 ^property[=].valueInteger = 4
 * #47 ^property[+].code = #parent
 * #47 ^property[=].valueCode = #2120
-* #47 ^property[+].code = #finess
+* #47 ^property[+].code = #ror
 * #47 ^property[=].valueBoolean = true
 * #47 ^property[+].code = #enreg
 * #47 ^property[=].valueBoolean = true
@@ -1740,7 +1690,7 @@ Description: "Statuts juridiques de FINESS"
 * #48 ^property[=].valueInteger = 4
 * #48 ^property[+].code = #parent
 * #48 ^property[=].valueCode = #2120
-* #48 ^property[+].code = #finess
+* #48 ^property[+].code = #ror
 * #48 ^property[=].valueBoolean = true
 * #48 ^property[+].code = #enreg
 * #48 ^property[=].valueBoolean = true
@@ -1763,7 +1713,7 @@ Description: "Statuts juridiques de FINESS"
 * #49 ^property[=].valueInteger = 4
 * #49 ^property[+].code = #parent
 * #49 ^property[=].valueCode = #2120
-* #49 ^property[+].code = #finess
+* #49 ^property[+].code = #ror
 * #49 ^property[=].valueBoolean = true
 * #49 ^property[+].code = #enreg
 * #49 ^property[=].valueBoolean = true
@@ -1786,7 +1736,7 @@ Description: "Statuts juridiques de FINESS"
 * #50 ^property[=].valueInteger = 4
 * #50 ^property[+].code = #parent
 * #50 ^property[=].valueCode = #2130
-* #50 ^property[+].code = #finess
+* #50 ^property[+].code = #ror
 * #50 ^property[=].valueBoolean = true
 * #50 ^property[+].code = #enreg
 * #50 ^property[=].valueBoolean = true
@@ -1813,7 +1763,7 @@ Description: "Statuts juridiques de FINESS"
 * #51 ^property[=].valueInteger = 4
 * #51 ^property[+].code = #parent
 * #51 ^property[=].valueCode = #2140
-* #51 ^property[+].code = #finess
+* #51 ^property[+].code = #ror
 * #51 ^property[=].valueBoolean = true
 * #51 ^property[+].code = #enreg
 * #51 ^property[=].valueBoolean = true
@@ -1832,7 +1782,7 @@ Description: "Statuts juridiques de FINESS"
 * #52 ^property[=].valueInteger = 4
 * #52 ^property[+].code = #parent
 * #52 ^property[=].valueCode = #2150
-* #52 ^property[+].code = #finess
+* #52 ^property[+].code = #ror
 * #52 ^property[=].valueBoolean = true
 * #52 ^property[+].code = #enreg
 * #52 ^property[=].valueBoolean = true
@@ -1855,7 +1805,7 @@ Description: "Statuts juridiques de FINESS"
 * #60 ^property[=].valueInteger = 4
 * #60 ^property[+].code = #parent
 * #60 ^property[=].valueCode = #2160
-* #60 ^property[+].code = #finess
+* #60 ^property[+].code = #ror
 * #60 ^property[=].valueBoolean = true
 * #60 ^property[+].code = #enreg
 * #60 ^property[=].valueBoolean = true
@@ -1878,7 +1828,7 @@ Description: "Statuts juridiques de FINESS"
 * #61 ^property[=].valueInteger = 4
 * #61 ^property[+].code = #parent
 * #61 ^property[=].valueCode = #2160
-* #61 ^property[+].code = #finess
+* #61 ^property[+].code = #ror
 * #61 ^property[=].valueBoolean = true
 * #61 ^property[+].code = #enreg
 * #61 ^property[=].valueBoolean = true
@@ -1901,7 +1851,7 @@ Description: "Statuts juridiques de FINESS"
 * #62 ^property[=].valueInteger = 4
 * #62 ^property[+].code = #parent
 * #62 ^property[=].valueCode = #2160
-* #62 ^property[+].code = #finess
+* #62 ^property[+].code = #ror
 * #62 ^property[=].valueBoolean = true
 * #62 ^property[+].code = #enreg
 * #62 ^property[=].valueBoolean = true
@@ -1924,7 +1874,7 @@ Description: "Statuts juridiques de FINESS"
 * #63 ^property[=].valueInteger = 4
 * #63 ^property[+].code = #parent
 * #63 ^property[=].valueCode = #2170
-* #63 ^property[+].code = #finess
+* #63 ^property[+].code = #ror
 * #63 ^property[=].valueBoolean = true
 * #63 ^property[+].code = #enreg
 * #63 ^property[=].valueBoolean = true
@@ -1943,7 +1893,7 @@ Description: "Statuts juridiques de FINESS"
 * #64 ^property[=].valueInteger = 4
 * #64 ^property[+].code = #parent
 * #64 ^property[=].valueCode = #2180
-* #64 ^property[+].code = #finess
+* #64 ^property[+].code = #ror
 * #64 ^property[=].valueBoolean = true
 * #64 ^property[+].code = #enreg
 * #64 ^property[=].valueBoolean = true
@@ -1962,7 +1912,7 @@ Description: "Statuts juridiques de FINESS"
 * #65 ^property[=].valueInteger = 4
 * #65 ^property[+].code = #parent
 * #65 ^property[=].valueCode = #2190
-* #65 ^property[+].code = #finess
+* #65 ^property[+].code = #ror
 * #65 ^property[=].valueBoolean = true
 * #65 ^property[+].code = #enreg
 * #65 ^property[=].valueBoolean = true
@@ -1985,7 +1935,7 @@ Description: "Statuts juridiques de FINESS"
 * #66 ^property[=].valueInteger = 4
 * #66 ^property[+].code = #parent
 * #66 ^property[=].valueCode = #2190
-* #66 ^property[+].code = #finess
+* #66 ^property[+].code = #ror
 * #66 ^property[=].valueBoolean = true
 * #66 ^property[+].code = #enreg
 * #66 ^property[=].valueBoolean = true
@@ -2012,7 +1962,7 @@ Description: "Statuts juridiques de FINESS"
 * #70 ^property[=].valueInteger = 4
 * #70 ^property[+].code = #parent
 * #70 ^property[=].valueCode = #2210
-* #70 ^property[+].code = #finess
+* #70 ^property[+].code = #ror
 * #70 ^property[=].valueBoolean = true
 * #70 ^property[+].code = #enreg
 * #70 ^property[=].valueBoolean = true
@@ -2031,7 +1981,7 @@ Description: "Statuts juridiques de FINESS"
 * #71 ^property[=].valueInteger = 4
 * #71 ^property[+].code = #parent
 * #71 ^property[=].valueCode = #2220
-* #71 ^property[+].code = #finess
+* #71 ^property[+].code = #ror
 * #71 ^property[=].valueBoolean = true
 * #71 ^property[+].code = #enreg
 * #71 ^property[=].valueBoolean = true
@@ -2058,7 +2008,7 @@ Description: "Statuts juridiques de FINESS"
 * #72 ^property[=].valueInteger = 4
 * #72 ^property[+].code = #parent
 * #72 ^property[=].valueCode = #2230
-* #72 ^property[+].code = #finess
+* #72 ^property[+].code = #ror
 * #72 ^property[=].valueBoolean = true
 * #72 ^property[+].code = #enreg
 * #72 ^property[=].valueBoolean = true
@@ -2085,7 +2035,7 @@ Description: "Statuts juridiques de FINESS"
 * #73 ^property[=].valueInteger = 4
 * #73 ^property[+].code = #parent
 * #73 ^property[=].valueCode = #2240
-* #73 ^property[+].code = #finess
+* #73 ^property[+].code = #ror
 * #73 ^property[=].valueBoolean = true
 * #73 ^property[+].code = #enreg
 * #73 ^property[=].valueBoolean = true
@@ -2112,7 +2062,7 @@ Description: "Statuts juridiques de FINESS"
 * #74 ^property[=].valueInteger = 4
 * #74 ^property[+].code = #parent
 * #74 ^property[=].valueCode = #2250
-* #74 ^property[+].code = #finess
+* #74 ^property[+].code = #ror
 * #74 ^property[=].valueBoolean = true
 * #74 ^property[+].code = #enreg
 * #74 ^property[=].valueBoolean = true
@@ -2131,7 +2081,7 @@ Description: "Statuts juridiques de FINESS"
 * #75 ^property[=].valueInteger = 4
 * #75 ^property[+].code = #parent
 * #75 ^property[=].valueCode = #2260
-* #75 ^property[+].code = #finess
+* #75 ^property[+].code = #ror
 * #75 ^property[=].valueBoolean = true
 * #75 ^property[+].code = #enreg
 * #75 ^property[=].valueBoolean = true
@@ -2150,7 +2100,7 @@ Description: "Statuts juridiques de FINESS"
 * #76 ^property[=].valueInteger = 4
 * #76 ^property[+].code = #parent
 * #76 ^property[=].valueCode = #2270
-* #76 ^property[+].code = #finess
+* #76 ^property[+].code = #ror
 * #76 ^property[=].valueBoolean = true
 * #76 ^property[+].code = #enreg
 * #76 ^property[=].valueBoolean = true
@@ -2177,7 +2127,7 @@ Description: "Statuts juridiques de FINESS"
 * #77 ^property[=].valueInteger = 4
 * #77 ^property[+].code = #parent
 * #77 ^property[=].valueCode = #2280
-* #77 ^property[+].code = #finess
+* #77 ^property[+].code = #ror
 * #77 ^property[=].valueBoolean = true
 * #77 ^property[+].code = #enreg
 * #77 ^property[=].valueBoolean = true
@@ -2200,7 +2150,7 @@ Description: "Statuts juridiques de FINESS"
 * #78 ^property[=].valueInteger = 4
 * #78 ^property[+].code = #parent
 * #78 ^property[=].valueCode = #2230
-* #78 ^property[+].code = #finess
+* #78 ^property[+].code = #ror
 * #78 ^property[=].valueBoolean = true
 * #78 ^property[+].code = #enreg
 * #78 ^property[=].valueBoolean = true
@@ -2227,7 +2177,7 @@ Description: "Statuts juridiques de FINESS"
 * #79 ^property[=].valueInteger = 4
 * #79 ^property[+].code = #parent
 * #79 ^property[=].valueCode = #2250
-* #79 ^property[+].code = #finess
+* #79 ^property[+].code = #ror
 * #79 ^property[=].valueBoolean = true
 * #79 ^property[+].code = #enreg
 * #79 ^property[=].valueBoolean = true
@@ -2254,7 +2204,7 @@ Description: "Statuts juridiques de FINESS"
 * #80 ^property[=].valueInteger = 4
 * #80 ^property[+].code = #parent
 * #80 ^property[=].valueCode = #2250
-* #80 ^property[+].code = #finess
+* #80 ^property[+].code = #ror
 * #80 ^property[=].valueBoolean = true
 * #80 ^property[+].code = #enreg
 * #80 ^property[=].valueBoolean = true
@@ -2281,7 +2231,7 @@ Description: "Statuts juridiques de FINESS"
 * #85 ^property[=].valueInteger = 4
 * #85 ^property[+].code = #parent
 * #85 ^property[=].valueCode = #2230
-* #85 ^property[+].code = #finess
+* #85 ^property[+].code = #ror
 * #85 ^property[=].valueBoolean = true
 * #85 ^property[+].code = #enreg
 * #85 ^property[=].valueBoolean = true
@@ -2308,7 +2258,7 @@ Description: "Statuts juridiques de FINESS"
 * #86 ^property[=].valueInteger = 4
 * #86 ^property[+].code = #parent
 * #86 ^property[=].valueCode = #2240
-* #86 ^property[+].code = #finess
+* #86 ^property[+].code = #ror
 * #86 ^property[=].valueBoolean = true
 * #86 ^property[+].code = #enreg
 * #86 ^property[=].valueBoolean = true
@@ -2335,7 +2285,7 @@ Description: "Statuts juridiques de FINESS"
 * #87 ^property[=].valueInteger = 4
 * #87 ^property[+].code = #parent
 * #87 ^property[=].valueCode = #2260
-* #87 ^property[+].code = #finess
+* #87 ^property[+].code = #ror
 * #87 ^property[=].valueBoolean = true
 * #87 ^property[+].code = #rass
 * #87 ^property[=].valueBoolean = true
@@ -2360,7 +2310,7 @@ Description: "Statuts juridiques de FINESS"
 * #88 ^property[=].valueInteger = 4
 * #88 ^property[+].code = #parent
 * #88 ^property[=].valueCode = #2250
-* #88 ^property[+].code = #finess
+* #88 ^property[+].code = #ror
 * #88 ^property[=].valueBoolean = true
 * #88 ^property[+].code = #rass
 * #88 ^property[=].valueBoolean = true
@@ -2385,7 +2335,7 @@ Description: "Statuts juridiques de FINESS"
 * #89 ^property[=].valueInteger = 4
 * #89 ^property[+].code = #parent
 * #89 ^property[=].valueCode = #2190
-* #89 ^property[+].code = #finess
+* #89 ^property[+].code = #ror
 * #89 ^property[=].valueBoolean = true
 * #89 ^property[+].code = #rass
 * #89 ^property[=].valueBoolean = true
@@ -2410,7 +2360,7 @@ Description: "Statuts juridiques de FINESS"
 * #90 ^property[=].valueInteger = 4
 * #90 ^property[+].code = #parent
 * #90 ^property[=].valueCode = #3110
-* #90 ^property[+].code = #finess
+* #90 ^property[+].code = #ror
 * #90 ^property[=].valueBoolean = true
 * #90 ^property[+].code = #rass
 * #90 ^property[=].valueBoolean = true
@@ -2435,7 +2385,7 @@ Description: "Statuts juridiques de FINESS"
 * #91 ^property[=].valueInteger = 4
 * #91 ^property[+].code = #parent
 * #91 ^property[=].valueCode = #2260
-* #91 ^property[+].code = #finess
+* #91 ^property[+].code = #ror
 * #91 ^property[=].valueBoolean = true
 * #91 ^property[+].code = #rass
 * #91 ^property[=].valueBoolean = true
@@ -2460,7 +2410,7 @@ Description: "Statuts juridiques de FINESS"
 * #93 ^property[=].valueInteger = 4
 * #93 ^property[+].code = #parent
 * #93 ^property[=].valueCode = #2260
-* #93 ^property[+].code = #finess
+* #93 ^property[+].code = #ror
 * #93 ^property[=].valueBoolean = true
 * #93 ^property[+].code = #rass
 * #93 ^property[=].valueBoolean = true
@@ -2481,7 +2431,7 @@ Description: "Statuts juridiques de FINESS"
 * #95 ^property[=].valueInteger = 4
 * #95 ^property[+].code = #parent
 * #95 ^property[=].valueCode = #2260
-* #95 ^property[+].code = #finess
+* #95 ^property[+].code = #ror
 * #95 ^property[=].valueBoolean = true
 * #95 ^property[+].code = #rass
 * #95 ^property[=].valueBoolean = true
