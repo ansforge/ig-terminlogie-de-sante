@@ -529,6 +529,9 @@
          <Concept code="648"
                   codeSystem="1.2.250.1.213.1.6.1.8"
                   displayName="Structure qui contribue au Service d'Accès aux Soins"/>
+         <Concept code="649"
+                  codeSystem="1.2.250.1.213.1.6.1.8"
+                  displayName="Centre de santé et de médiation en santé sexuelle"/>
          <Concept code="695"
                   codeSystem="1.2.250.1.213.1.6.1.8"
                   displayName="Groupement de coopération sanitaire de moyens - Exploitant"/>

@@ -792,6 +792,10 @@ Requête sur le SMT
             "display" : "Structure qui contribue au Service d'Accès aux Soins"
           },
           {
+            "code" : "649",
+            "display" : "Centre de santé et de médiation en santé sexuelle"
+          },
+          {
             "code" : "695",
             "display" : "Groupement de coopération sanitaire de moyens - Exploitant"
           },
