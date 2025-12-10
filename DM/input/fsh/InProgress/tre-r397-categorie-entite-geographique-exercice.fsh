@@ -9108,7 +9108,7 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #608 ^property[=].valueInteger =  4
 * #608 ^property[+].code = #domaine
 * #608 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
-* #608 ^property[=].valueCoding.code = #SAN
+* #608 ^property[=].valueCoding.code = #SOC
 * #608 ^property[+].code = #parent
 * #608 ^property[=].valueCode = #4604
 * #608 ^designation[0].language = #fr-FR
@@ -9704,7 +9704,7 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #640 ^property[=].valueInteger =  4
 * #640 ^property[+].code = #domaine
 * #640 ^property[=].valueCoding.system = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/"
-* #640 ^property[=].valueCoding.code = #SAN
+* #640 ^property[=].valueCoding.code = #SOC
 * #640 ^property[+].code = #parent
 * #640 ^property[=].valueCode = #4601
 * #640 ^designation[0].language = #fr-FR
