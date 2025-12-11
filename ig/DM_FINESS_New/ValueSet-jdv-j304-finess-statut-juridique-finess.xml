@@ -8,7 +8,7 @@
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narratif généré : EnsembleValeurs jdv-j304-finess-statut-juridique-finess</b></p><a name="jdv-j304-finess-statut-juridique-finess"> </a><a name="hcjdv-j304-finess-statut-juridique-finess"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version: 1; Dernière mise à jour : 2025-11-04 18:02:28+0000</p><p style="margin-bottom: 0px">Profil: <a href="http://hl7.org/fhir/R4/shareablevalueset.html">Shareable ValueSet</a></p></div><p>Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :</p><ul><li>Inclut codes provenant de<a href="CodeSystem-tre-r400-finess-statut-juridique.html"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique</code></a> où niveau  = 4</li></ul><p>Ce jeu de valeur (ValueSet) exclut les codes selon les règles suivantes :</p><ul><li>Exclude codes provenant de<a href="CodeSystem-tre-r400-finess-statut-juridique.html"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique</code></a> où specialisationRPPS  = true</li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narratif généré : EnsembleValeurs jdv-j304-finess-statut-juridique-finess</b></p><a name="jdv-j304-finess-statut-juridique-finess"> </a><a name="hcjdv-j304-finess-statut-juridique-finess"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version: 1; Dernière mise à jour : 2025-11-04 18:02:28+0000</p><p style="margin-bottom: 0px">Profil: <a href="http://hl7.org/fhir/R4/shareablevalueset.html">Shareable ValueSet</a></p></div><p>Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :</p><ul><li>Inclut codes provenant de<a href="CodeSystem-tre-r400-finess-statut-juridique.html"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique</code></a> où niveau  = 4</li></ul><p>Ce jeu de valeur (ValueSet) exclut les codes selon les règles suivantes :</p><ul><li>Exclude codes provenant de<a href="CodeSystem-tre-r400-finess-statut-juridique.html"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique</code></a> où specialisationRpps  = true</li></ul></div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
     <valuePeriod>
@@ -40,7 +40,7 @@
     <exclude>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique"/>
       <filter>
-        <property value="specialisationRPPS"/>
+        <property value="specialisationRpps"/>
         <op value="="/>
         <value value="true"/>
       </filter>
