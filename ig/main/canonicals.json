@@ -8,14 +8,6 @@
     "oids" : ["2.16.840.1.113883.6.96"]
   },
   {
-    "id" : "900000000000207008-20251101",
-    "type" : "CodeSystem",
-    "url" : "http://snomed.info/sct",
-    "version" : "http://snomed.info/sct/900000000000207008/version/20251101",
-    "name" : "SNOMED_CT",
-    "oids" : ["2.16.840.1.113883.6.96"]
-  },
-  {
     "id" : "900000000000207008-20251201",
     "type" : "CodeSystem",
     "url" : "http://snomed.info/sct",

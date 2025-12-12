@@ -793,7 +793,6 @@ These define new code systems used by systems conforming to this implementation 
 | [ParticipationTypeSupplementFr](CodeSystem-ParticipationType-supplement-fr.md) | Traduction Française |
 | [RoleClassSupplementFr](CodeSystem-RoleClass-supplement-fr.md) | Traduction Française |
 | [RoleCodeSupplementFr](CodeSystem-RoleCode-supplement-fr.md) | Traduction Française |
-| [SNOMED CT core](CodeSystem-900000000000207008-20251101.md) | SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO). |
 | [SNOMED CT core](CodeSystem-900000000000207008-20251201.md) | SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO). |
 | [Service type](CodeSystem-service-type.md) | This value set defines an example set of codes of service-types. |
 | [SpecimenTypeSupplementFr](CodeSystem-specimenType-supplement-fr.md) | Traduction Française |

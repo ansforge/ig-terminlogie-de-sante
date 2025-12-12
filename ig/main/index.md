@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies | *Version*:1.4.0 |
-| Active as of 2025-12-11 | *Computable Name*:Terminologies |
+| Active as of 2025-12-12 | *Computable Name*:Terminologies |
 
 Dans ce guide, nous retrouvons l’ensemble des terminologies de santé et jeux de valeurs plubliés par l’ANS :
 
@@ -235,7 +235,7 @@ Ceci est un IG R4. Aucune des fonctionnalités quil utilise nest modifiée dans 
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2025-12-11T04:36:17+00:00",
+  "date" : "2025-12-12T04:34:06+00:00",
   "publisher" : "ANS",
   "contact" : [
     {
@@ -40544,20 +40544,6 @@ Ceci est un IG R4. Aucune des fonctionnalités quil utilise nest modifiée dans 
         },
         "name" : "SeverityObservationCode",
         "description" : "SeverityObservationCode",
-        "exampleBoolean" : false
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "CodeSystem"
-          }
-        ],
-        "reference" : {
-          "reference" : "CodeSystem/900000000000207008-20251101"
-        },
-        "name" : "SNOMED CT core",
-        "description" : "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
         "exampleBoolean" : false
       },
       {
