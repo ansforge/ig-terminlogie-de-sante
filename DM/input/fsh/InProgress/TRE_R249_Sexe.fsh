@@ -17,12 +17,15 @@ Description: "Sexe"
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateMaj
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj"
 * ^property[=].description = "Date de mise à jour d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateFin
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin"
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #deprecationDate
@@ -37,7 +40,8 @@ Description: "Sexe"
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
 * ^property[=].description = "Date Concept was retired"
 * ^property[=].type = #dateTime
-* ^property[+].code = #GenreCapaciteFiness
+* ^property[+].code = #genreCapaciteFiness
+* ^property[=].uri = "http://hl7.org/fhir/concept-properties#genreCapaciteFiness"
 * ^property[=].description = "Permet de définir les genres de capacités utilisés par FINESS+"
 * ^property[=].type = #boolean
 * #U "Inconnu"
@@ -58,7 +62,7 @@ Description: "Sexe"
 * #UN ^property[=].valueDateTime = "2023-12-15T12:00:00+01:00"
 * #UN ^property[+].code = #status
 * #UN ^property[=].valueCode = #active
-* #UN ^property[+].code = #GenreCapaciteFiness
+* #UN ^property[+].code = #genreCapaciteFiness
 * #UN ^property[=].valueBoolean = true
 * #F "Féminin"
 * #F ^property[0].code = #dateValid
@@ -67,7 +71,7 @@ Description: "Sexe"
 * #F ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
 * #F ^property[+].code = #status
 * #F ^property[=].valueCode = #active
-* #F ^property[+].code = #GenreCapaciteFiness
+* #F ^property[+].code = #genreCapaciteFiness
 * #F ^property[=].valueBoolean = true
 * #M "Masculin"
 * #M ^property[0].code = #dateValid
@@ -76,7 +80,7 @@ Description: "Sexe"
 * #M ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
 * #M ^property[+].code = #status
 * #M ^property[=].valueCode = #active
-* #M ^property[+].code = #GenreCapaciteFiness
+* #M ^property[+].code = #genreCapaciteFiness
 * #M ^property[=].valueBoolean = true
 * #O "Autre sexe (ni masculin, ni féminin)"
 * #O ^designation.language = #fr-FR
@@ -88,5 +92,5 @@ Description: "Sexe"
 * #O ^property[=].valueDateTime = "2018-12-14T12:00:00+01:00"
 * #O ^property[+].code = #status
 * #O ^property[=].valueCode = #active
-* #O ^property[+].code = #GenreCapaciteFiness
+* #O ^property[+].code = #genreCapaciteFiness
 * #O ^property[=].valueBoolean = true
