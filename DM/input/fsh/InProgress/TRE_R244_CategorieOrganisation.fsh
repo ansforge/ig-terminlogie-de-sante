@@ -102,15 +102,15 @@ Description: "Catégorie d'organisation"
 * #07 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #07 ^property[+].code = #status
 * #07 ^property[=].valueCode = #active
-* #08 "Centre de Ressources Autisme (CRA)"
+* #08 "Centre de Référence Troubles du Neuro-développement (TND) - Centre de Diagnostic et d’évaluation expert (CDE)"
 * #08 ^designation[0].language = #fr-FR
 * #08 ^designation[=].use.system = "http://snomed.info/sct"
 * #08 ^designation[=].use = $sct#900000000000013009
-* #08 ^designation[=].value = "CRA"
+* #08 ^designation[=].value = "CRTND - CDE"
 * #08 ^property[0].code = #dateValid
 * #08 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
 * #08 ^property[+].code = #dateMaj
-* #08 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
+* #08 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #08 ^property[+].code = #status
 * #08 ^property[=].valueCode = #active
 * #09 "Centre Expert"
@@ -1773,14 +1773,10 @@ Description: "Catégorie d'organisation"
 * #163 ^property[+].code = #status
 * #163 ^property[=].valueCode = #active
 * #164 "Unité hospitalière de radiologie"
-* #164 ^designation[0].language = #fr-FR
-* #164 ^designation[=].use.system = "http://snomed.info/sct"
-* #164 ^designation[=].use = $sct#900000000000013009
-* #164 ^designation[=].value = "Unité de radiologie"
 * #164 ^property[0].code = #dateValid
 * #164 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
 * #164 ^property[+].code = #dateMaj
-* #164 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
+* #164 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #164 ^property[+].code = #status
 * #164 ^property[=].valueCode = #active
 * #165 "Unité hospitalière de rhumatologie"
@@ -2284,15 +2280,11 @@ Description: "Catégorie d'organisation"
 * #210 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
 * #210 ^property[+].code = #status
 * #210 ^property[=].valueCode = #active
-* #211 "Cabinet de ville de radiologie"
-* #211 ^designation[0].language = #fr-FR
-* #211 ^designation[=].use.system = "http://snomed.info/sct"
-* #211 ^designation[=].use = $sct#900000000000013009
-* #211 ^designation[=].value = "Cabinet de radiologie"
+* #211 "Cabinet de ville d'imagerie médicale"
 * #211 ^property[0].code = #dateValid
 * #211 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
 * #211 ^property[+].code = #dateMaj
-* #211 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
+* #211 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #211 ^property[+].code = #status
 * #211 ^property[=].valueCode = #active
 * #212 "Cabinet de ville de rhumatologie"
@@ -2828,8 +2820,10 @@ Description: "Catégorie d'organisation"
 * #260 ^property[=].valueDateTime = "2025-04-25T12:00:00+01:00"
 * #260 ^property[+].code = #dateMaj
 * #260 ^property[=].valueDateTime = "2025-04-25T12:00:00+01:00"
+* #260 ^property[+].code = #deprecationDate
+* #260 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #260 ^property[+].code = #status
-* #260 ^property[=].valueCode = #active
+* #260 ^property[=].valueCode = #deprecated
 * #261 "Accueil familial pour personne âgée"
 * #261 ^designation[0].language = #fr-FR
 * #261 ^designation[=].use.system = "http://snomed.info/sct"
@@ -2983,7 +2977,7 @@ Description: "Catégorie d'organisation"
 * #275 ^property[=].valueDateTime = "2025-06-25T12:00:00+01:00"
 * #275 ^property[+].code = #status
 * #275 ^property[=].valueCode = #active
-* #276 "Unité d’Accueil et de Soins pour personnes Sourdes et malentendantes (UASS)"
+* #276 "Unité d’Accueil et de Soins pour personnes Sourdes et malentendantes (UASS)" "Une Unité d'Accueil et de Soins pour patients Sourds (UASS) est une unité dédiée à l’accueil et à la prise en charge des personnes sourdes et malentendantes. Elle garantit un accès équitable aux soins grâce à des équipes formées, bilingues en français et en langue des signes française (LSF), capables d’adapter la communication pour accompagner au mieux les patients tout au long de leur parcours de soins. L'unité a pour objectif d'accueillir en consultation les patients sourds, malentendants, de les accompagner dans leur démarche de soins grâce à des interprètes et à des intermédiateurs. Elle propose sur rendez-vous des consultations de médecine générale (systématique), de psychologues (parfois) et des temps avec des assistantes sociales. Elle propose également l’accessibilité en langue des signes à toutes les activités (consultations de spécialistes, urgence, etc..) de l’établissement. Certaines unités sont spécifiques à la prise en charge en psychiatrie."
 * #276 ^designation[0].language = #fr-FR
 * #276 ^designation[=].use.system = "http://snomed.info/sct"
 * #276 ^designation[=].use = $sct#900000000000013009
@@ -2991,7 +2985,7 @@ Description: "Catégorie d'organisation"
 * #276 ^property[0].code = #dateValid
 * #276 ^property[=].valueDateTime = "2025-07-10T12:00:00+01:00"
 * #276 ^property[+].code = #dateMaj
-* #276 ^property[=].valueDateTime = "2025-07-10T12:00:00+01:00"
+* #276 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #276 ^property[+].code = #status
 * #276 ^property[=].valueCode = #active
 * #277 "Equipe de coordination hospitalière de tissus et/ou d’organes" "Il s'agit d'une équipe hospitalière pluridisciplinaire chargée d’identifier les donneurs potentiels d’organes et de tissus, d’organiser et de coordonner les prélèvements, en garantissant le respect des règles légales, éthiques et de sécurité sanitaire, ainsi que l’accompagnement des proches. Elle assure la liaison entre les services hospitaliers, les équipes de greffe et l’Agence de la biomédecine pour la traçabilité et la qualité du don."
@@ -3147,3 +3141,14 @@ Description: "Catégorie d'organisation"
 * #294 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #294 ^property[+].code = #status
 * #294 ^property[=].valueCode = #active
+* #295 "Permanence d'Accès aux Soins de Santé (PASS)"
+* #295 ^designation[0].language = #fr-FR
+* #295 ^designation[=].use.system = "http://snomed.info/sct"
+* #295 ^designation[=].use = $sct#900000000000013009
+* #295 ^designation[=].value = "PASS"
+* #295 ^property[0].code = #dateValid
+* #295 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #295 ^property[+].code = #dateMaj
+* #295 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #295 ^property[+].code = #status
+* #295 ^property[=].valueCode = #active
