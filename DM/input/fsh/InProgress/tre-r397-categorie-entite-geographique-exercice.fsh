@@ -4619,7 +4619,7 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #230 ^property[=].valueBoolean = true
 * #230 ^property[+].code = #cisis
 * #230 ^property[=].valueBoolean = true
-* #231 "Etablissement Information Consultation Conseil Familial"
+* #231 "Espaces de vie affective, relationnelle et sexuelle (EVARS)"
 * #231 ^property[0].code = #niveau
 * #231 ^property[=].valueInteger =  4
 * #231 ^property[+].code = #domaine
@@ -4630,15 +4630,11 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #231 ^designation[0].language = #fr-FR
 * #231 ^designation[=].use.system = "http://snomed.info/sct"
 * #231 ^designation[=].use = $sct#900000000000013009
-* #231 ^designation[=].value = "Etab.Inf.Consult.Fam"
-* #231 ^designation[+].language = #fr-FR
-* #231 ^designation[=].use.system = "http://snomed.info/sct"
-* #231 ^designation[=].use = $sct#900000000000013009
-* #231 ^designation[=].value = "Etablissement d'information, de consultation et de conseil familial"
+* #231 ^designation[=].value = "E.V.A.R.S."
 * #231 ^property[+].code = #dateValid
 * #231 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #231 ^property[+].code = #dateMaj
-* #231 ^property[=].valueDateTime = "1979-01-23T00:00:00+01:00"
+* #231 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
 * #231 ^property[+].code = #status
 * #231 ^property[=].valueCode = #active
 * #231 ^property[+].code = #rass
@@ -9275,7 +9271,7 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #616 ^property[=].valueBoolean = true
 * #616 ^property[+].code = #cisis
 * #616 ^property[=].valueBoolean = true
-* #617 "Maison médicale de garde (MMG)"
+* #617 "Lieu de soins non programmés" "Un lieu de soins non programmés est un lieu fixe dédié à la médecine générale, ouvert uniquement pendant les périodes de permanence des soins : soirées, nuits, week-ends et jours fériés."
 * #617 ^property[0].code = #niveau
 * #617 ^property[=].valueInteger =  4
 * #617 ^property[+].code = #domaine
@@ -9290,7 +9286,7 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #617 ^property[+].code = #dateValid
 * #617 ^property[=].valueDateTime = "2023-06-30T12:00:00+01:00"
 * #617 ^property[+].code = #dateMaj
-* #617 ^property[=].valueDateTime = "2023-06-30T12:00:00+01:00"
+* #617 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #617 ^property[+].code = #status
 * #617 ^property[=].valueCode = #active
 * #617 ^property[+].code = #rass
@@ -10179,7 +10175,7 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #704 ^property[+].code = #dateValid
 * #704 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #704 ^property[+].code = #dateMaj
-* #704 ^property[=].valueDateTime = "2025-04-22T12:00:00+01:00"
+* #704 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #704 ^property[+].code = #status
 * #704 ^property[=].valueCode = #active
 * #704 ^property[+].code = #specialisationRor
