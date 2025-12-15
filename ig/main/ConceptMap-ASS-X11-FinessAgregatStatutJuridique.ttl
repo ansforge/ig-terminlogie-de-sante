@@ -22,7 +22,7 @@
   fhir:title [ fhir:v "ASS_X11_FinessAgregatStatutJuridique"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-12-14T04:37:05+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-12-15T04:40:08+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
