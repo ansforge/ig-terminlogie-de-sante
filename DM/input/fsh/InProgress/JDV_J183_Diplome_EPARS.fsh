@@ -2,7 +2,7 @@ ValueSet: JDV_J183_Diplome_EPARS
 Id: JDV-J183-Diplome-EPARS
 Description: "Diplômes pour l'application EPARS"
 * ^meta.versionId = "12"
-* ^meta.lastUpdated = "2025-12-22T19:01:59.632+02:00"
+* ^meta.lastUpdated = "2025-12-22T12:01:59.632+02:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
