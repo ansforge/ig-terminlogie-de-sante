@@ -358,7 +358,11 @@ Description: "Mode de la prise en charge"
 * #26 ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
 * #26 ^property[+].code = #status
 * #26 ^property[=].valueCode = #deprecated
-* #27 "Régulation médicale téléphonique" "Régulation méd tél"
+* #27 "Régulation médicale téléphonique"
+* #27 ^designation.language = #fr-FR
+* #27 ^designation.use.system = "http://snomed.info/sct"
+* #27 ^designation.use = $sct#900000000000013009
+* #27 ^designation.value = "Régulation méd tél"
 * #27 ^property[0].code = #dateValid
 * #27 ^property[=].valueDateTime = "2015-05-04T00:00:00+01:00"
 * #27 ^property[+].code = #dateMaj
