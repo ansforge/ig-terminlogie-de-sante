@@ -15,14 +15,6 @@
     "oids" : ["2.16.840.1.113883.6.96"]
   },
   {
-    "id" : "900000000000207008-20251101",
-    "type" : "CodeSystem",
-    "url" : "http://snomed.info/sct",
-    "version" : "http://snomed.info/sct/900000000000207008/version/20251101",
-    "name" : "SNOMED_CT",
-    "oids" : ["2.16.840.1.113883.6.96"]
-  },
-  {
     "id" : "900000000000207008-20251201",
     "type" : "CodeSystem",
     "url" : "http://snomed.info/sct",
@@ -313,7 +305,7 @@
     "id" : "JDV-J01-XdsAuthorSpecialty-CISIS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS",
-    "version" : "20250721120000",
+    "version" : "20251222120000",
     "name" : "JDV_J01_XdsAuthorSpecialty_CISIS",
     "oids" : ["1.2.250.1.213.1.1.5.461"]
   },
@@ -345,7 +337,7 @@
     "id" : "JDV-J05-SubjectRole-CISIS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J05-SubjectRole-CISIS/FHIR/JDV-J05-SubjectRole-CISIS",
-    "version" : "20251028120000",
+    "version" : "20251222120000",
     "name" : "JDV_J05_SubjectRole_CISIS",
     "oids" : ["1.2.250.1.213.1.1.5.470"]
   },
@@ -417,7 +409,7 @@
     "id" : "JDV-J105-EnsembleDiplome-RASS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J105-EnsembleDiplome-RASS/FHIR/JDV-J105-EnsembleDiplome-RASS",
-    "version" : "20250828120000",
+    "version" : "20251222120000",
     "name" : "JDV_J105_EnsembleDiplome_RASS",
     "oids" : ["1.2.250.1.213.1.6.1.173"]
   },
@@ -433,7 +425,7 @@
     "id" : "JDV-J107-EnsembleSavoirFaire-RASS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J107-EnsembleSavoirFaire-RASS/FHIR/JDV-J107-EnsembleSavoirFaire-RASS",
-    "version" : "20241025120000",
+    "version" : "20251222120000",
     "name" : "JDV_J107_EnsembleSavoirFaire_RASS",
     "oids" : ["1.2.250.1.213.1.6.1.175"]
   },
@@ -441,7 +433,7 @@
     "id" : "JDV-J108-EnsembleFonction-RASS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J108-EnsembleFonction-RASS/FHIR/JDV-J108-EnsembleFonction-RASS",
-    "version" : "20251016120000",
+    "version" : "20251222120000",
     "name" : "JDV_J108_EnsembleFonction_RASS",
     "oids" : ["1.2.250.1.213.1.6.1.176"]
   },
@@ -553,7 +545,7 @@
     "id" : "JDV-J121-RolePriseCharge-ENREG",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J121-RolePriseCharge-ENREG/FHIR/JDV-J121-RolePriseCharge-ENREG",
-    "version" : "20250425120000",
+    "version" : "20251222120000",
     "name" : "JDV_J121_RolePriseCharge_ENREG",
     "oids" : ["1.2.250.1.213.1.6.1.200"]
   },
@@ -1073,7 +1065,7 @@
     "id" : "JDV-J183-Diplome-EPARS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J183-Diplome-EPARS/FHIR/JDV-J183-Diplome-EPARS",
-    "version" : "20250917120000",
+    "version" : "20251222120000",
     "name" : "JDV_J183_Diplome_EPARS",
     "oids" : ["1.2.250.1.213.1.6.1.240"]
   },
@@ -1665,7 +1657,7 @@
     "id" : "JDV-J255-SurspecialiteTransversale-RPPS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J255-SurspecialiteTransversale-RPPS/FHIR/JDV-J255-SurspecialiteTransversale-RPPS",
-    "version" : "20240329120000",
+    "version" : "20251222120000",
     "name" : "JDV_J255_SurspecialiteTransversale_RPPS",
     "oids" : ["1.2.250.1.213.1.6.1.282"]
   },
@@ -1697,7 +1689,7 @@
     "id" : "JDV-J259-ModeFixationTarifaire-RASS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J259-ModeFixationTarifaire-RASS/FHIR/JDV-J259-ModeFixationTarifaire-RASS",
-    "version" : "20240927120000",
+    "version" : "20251222120000",
     "name" : "JDV_J259_ModeFixationTarifaire_RASS",
     "oids" : ["1.2.250.1.213.1.6.1.283"]
   },
@@ -3896,7 +3888,7 @@
     "id" : "TRE-R348-FormationSpecialiseeTransversale",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R348-FormationSpecialiseeTransversale/FHIR/TRE-R348-FormationSpecialiseeTransversale",
-    "version" : "20231215120000",
+    "version" : "20251222120000",
     "name" : "TRE_R348_FormationSpecialiseeTransversale",
     "oids" : ["1.2.250.1.213.1.6.1.251"]
   },
@@ -3976,7 +3968,7 @@
     "id" : "TRE-R359-SurspecialiteTransversale",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R359-SurspecialiteTransversale/FHIR/TRE-R359-SurspecialiteTransversale",
-    "version" : "20240531120000",
+    "version" : "20251222120000",
     "name" : "TRE_R359_SurspecialiteTransversale",
     "oids" : ["1.2.250.1.213.2.76"]
   },
@@ -4168,7 +4160,7 @@
     "id" : "TRE-R58-AutreTypeDiplome",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R58-AutreTypeDiplome/FHIR/TRE-R58-AutreTypeDiplome",
-    "version" : "20250828120000",
+    "version" : "20251222120000",
     "name" : "TRE_R58_AutreTypeDiplome",
     "oids" : ["1.2.250.1.213.1.6.1.53"]
   },
@@ -4272,7 +4264,7 @@
     "id" : "TRE-R74-ModeFixationTarifaire",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-    "version" : "20240223120000",
+    "version" : "20251222120000",
     "name" : "TRE_R74_ModeFixationTarifaire",
     "oids" : ["1.2.250.1.213.1.6.1.46"]
   },
@@ -4320,7 +4312,7 @@
     "id" : "TRE-R85-RolePriseCharge",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge",
-    "version" : "20250919120000",
+    "version" : "20251222120000",
     "name" : "TRE_R85_RolePriseCharge",
     "oids" : ["1.2.250.1.213.1.6.1.107"]
   },
@@ -6137,6 +6129,14 @@
     "version" : "20251028115833",
     "name" : "JdvIssueGrossesseCisis",
     "oids" : ["1.2.250.1.213.1.1.5.731"]
+  },
+  {
+    "id" : "jdv-j383-motif-cloture-exercice-professionnel-epars",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j304-finess-statut-juridique-finess",
+    "version" : "20251222120000",
+    "name" : "JdvJ383MotifClotureExerciceProfessionnelEpars",
+    "oids" : ["1.2.250.1.213.1.6.1.394"]
   },
   {
     "id" : "jdv-j366-statut-bilan-projet-personnalise-ms",

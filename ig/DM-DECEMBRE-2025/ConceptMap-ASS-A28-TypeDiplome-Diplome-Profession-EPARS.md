@@ -238,7 +238,7 @@ Table d’association entre les types de diplômes, les diplômes et les profess
       "source" : "https://mos.esante.gouv.fr/NOS/TRE_R14-TypeDiplome/FHIR/TRE-R14-TypeDiplome",
       "sourceVersion" : "20240329120000",
       "target" : "https://mos.esante.gouv.fr/NOS/TRE_R58-AutreTypeDiplome/FHIR/TRE-R58-AutreTypeDiplome",
-      "targetVersion" : "20250828120000",
+      "targetVersion" : "20251222120000",
       "element" : [
         {
           "code" : "AU",

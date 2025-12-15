@@ -25,7 +25,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS",
-      "version" : "20250721120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "JDV_J01_XdsAuthorSpecialty_CISIS",
       "title" : null,
@@ -86,7 +86,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J05-SubjectRole-CISIS/FHIR/JDV-J05-SubjectRole-CISIS",
-      "version" : "20251028120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "JDV_J05_SubjectRole_CISIS",
       "title" : null,
@@ -220,7 +220,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J105-EnsembleDiplome-RASS/FHIR/JDV-J105-EnsembleDiplome-RASS",
-      "version" : "20250828120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "JDV_J105_EnsembleDiplome_RASS",
       "title" : null,
@@ -262,7 +262,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J107-EnsembleSavoirFaire-RASS/FHIR/JDV-J107-EnsembleSavoirFaire-RASS",
-      "version" : "20241025120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "JDV_J107_EnsembleSavoirFaire_RASS",
       "title" : null,
@@ -285,7 +285,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J108-EnsembleFonction-RASS/FHIR/JDV-J108-EnsembleFonction-RASS",
-      "version" : "20251016120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "JDV_J108_EnsembleFonction_RASS",
       "title" : null,
@@ -471,7 +471,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J121-RolePriseCharge-ENREG/FHIR/JDV-J121-RolePriseCharge-ENREG",
-      "version" : "20250425120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "JDV_J121_RolePriseCharge_ENREG",
       "title" : null,
@@ -1316,7 +1316,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J183-Diplome-EPARS/FHIR/JDV-J183-Diplome-EPARS",
-      "version" : "20250917120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "JDV_J183_Diplome_EPARS",
       "title" : null,
@@ -2295,7 +2295,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J255-SurspecialiteTransversale-RPPS/FHIR/JDV-J255-SurspecialiteTransversale-RPPS",
-      "version" : "20240329120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "JDV_J255_SurspecialiteTransversale_RPPS",
       "title" : null,
@@ -2348,7 +2348,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J259-ModeFixationTarifaire-RASS/FHIR/JDV-J259-ModeFixationTarifaire-RASS",
-      "version" : "20240927120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "JDV_J259_ModeFixationTarifaire_RASS",
       "title" : null,
@@ -5896,6 +5896,19 @@
       ],
       "oids" : ["1.2.250.1.213.1.1.5.731"],
       "sources" : ["1.2.250.1.213.1.1.5.731"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j304-finess-statut-juridique-finess",
+      "version" : "20251222120000",
+      "status" : "active",
+      "name" : "JdvJ383MotifClotureExerciceProfessionnelEpars",
+      "title" : "Jdv J383 Motif Cloture Exercice Professionnel Epars",
+      "description" : "Ce jeu de valeur liste les différents motifs qui peuvent justifier la clôture d'un exercice professionnel.",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R25-MotifFinActivite/FHIR/TRE-R25-MotifFinActivite"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.394"],
+      "sources" : ["1.2.250.1.213.1.6.1.394"]
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j366-statut-bilan-projet-personnalise-ms",

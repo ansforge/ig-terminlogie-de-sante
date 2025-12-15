@@ -177,7 +177,7 @@
                   displayName="Etablissement consultation protection infantile"/>
          <Concept code="231"
                   codeSystem="1.2.250.1.213.1.6.1.8"
-                  displayName="Etablissement d'information, de consultation et de conseil familial"/>
+                  displayName="Espaces de vie affective, relationnelle et sexuelle (EVARS)"/>
          <Concept code="236"
                   codeSystem="1.2.250.1.213.1.6.1.8"
                   displayName="Centre de placement familial socio-éducatif (CPFSE)"/>
@@ -459,7 +459,7 @@
                   displayName="Services de Prévention et de Santé au Travail (SPST)"/>
          <Concept code="617"
                   codeSystem="1.2.250.1.213.1.6.1.8"
-                  displayName="Maison médicale de garde (MMG)"/>
+                  displayName="Lieu de soins non programmés"/>
          <Concept code="618"
                   codeSystem="1.2.250.1.213.1.6.1.8"
                   displayName="Autre structure de soins non programmés (SNP)"/>

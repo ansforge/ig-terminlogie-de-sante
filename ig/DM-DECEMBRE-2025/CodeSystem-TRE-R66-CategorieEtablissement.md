@@ -3270,7 +3270,7 @@ Catégorie d’établissements
     },
     {
       "code" : "231",
-      "display" : "Etablissement Information Consultation Conseil Familial",
+      "display" : "Espaces de vie affective, relationnelle et sexuelle (EVARS)",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -3278,15 +3278,7 @@ Catégorie d’établissements
             "system" : "http://snomed.info/sct",
             "code" : "900000000000013009"
           },
-          "value" : "Etab.Inf.Consult.Fam"
-        },
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Etablissement d'information, de consultation et de conseil familial"
+          "value" : "E.V.A.R.S."
         }
       ],
       "property" : [
@@ -3296,7 +3288,7 @@ Catégorie d’établissements
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "1979-01-23T00:00:00+01:00"
+          "valueDateTime" : "2025-12-22T00:00:00+01:00"
         },
         {
           "code" : "status",
@@ -9605,7 +9597,8 @@ Catégorie d’établissements
     },
     {
       "code" : "617",
-      "display" : "Maison médicale de garde (MMG)",
+      "display" : "Lieu de soins non programmés",
+      "definition" : "Un lieu de soins non programmés est un lieu fixe dédié à la médecine générale, ouvert uniquement pendant les périodes de permanence des soins : soirées, nuits, week-ends et jours fériés.",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -9613,7 +9606,7 @@ Catégorie d’établissements
             "system" : "http://snomed.info/sct",
             "code" : "900000000000013009"
           },
-          "value" : "MMG"
+          "value" : "S.N.P"
         }
       ],
       "property" : [
@@ -9623,7 +9616,7 @@ Catégorie d’établissements
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2023-06-30T12:00:00+01:00"
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",

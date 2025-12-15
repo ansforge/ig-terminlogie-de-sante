@@ -19,15 +19,6 @@
     },
     {
       "url" : "http://snomed.info/sct",
-      "version" : "http://snomed.info/sct/900000000000207008/version/20251101",
-      "status" : "active",
-      "name" : "SNOMED_CT",
-      "title" : "SNOMED CT core",
-      "description" : "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
-      "oids" : ["2.16.840.1.113883.6.96"]
-    },
-    {
-      "url" : "http://snomed.info/sct",
       "version" : "http://snomed.info/sct/900000000000207008/version/20251201",
       "status" : "active",
       "name" : "SNOMED_CT",
@@ -1729,7 +1720,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R348-FormationSpecialiseeTransversale/FHIR/TRE-R348-FormationSpecialiseeTransversale",
-      "version" : "20231215120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "TRE_R348_FormationSpecialiseeTransversale",
       "title" : null,
@@ -1819,7 +1810,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R359-SurspecialiteTransversale/FHIR/TRE-R359-SurspecialiteTransversale",
-      "version" : "20240531120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "TRE_R359_SurspecialiteTransversale",
       "title" : null,
@@ -2035,7 +2026,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R58-AutreTypeDiplome/FHIR/TRE-R58-AutreTypeDiplome",
-      "version" : "20250828120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "TRE_R58_AutreTypeDiplome",
       "title" : null,
@@ -2152,7 +2143,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-      "version" : "20240223120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "TRE_R74_ModeFixationTarifaire",
       "title" : null,
@@ -2206,7 +2197,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge",
-      "version" : "20250919120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "TRE_R85_RolePriseCharge",
       "title" : null,

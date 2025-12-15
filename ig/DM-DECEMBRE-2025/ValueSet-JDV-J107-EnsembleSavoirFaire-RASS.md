@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J107-EnsembleSavoirFaire-RASS/FHIR/JDV-J107-EnsembleSavoirFaire-RASS | *Version*:20241025120000 | |
-| Active as of 2024-10-25 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J107_EnsembleSavoirFaire_RASS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J107-EnsembleSavoirFaire-RASS/FHIR/JDV-J107-EnsembleSavoirFaire-RASS | *Version*:20251222120000 | |
+| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J107_EnsembleSavoirFaire_RASS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.175 | | |
 
  
@@ -77,11 +77,11 @@ Requête sur le SMT
       "value" : "urn:oid:1.2.250.1.213.1.6.1.175"
     }
   ],
-  "version" : "20241025120000",
+  "version" : "20251222120000",
   "name" : "JDV_J107_EnsembleSavoirFaire_RASS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2024-10-25T12:00:00+01:00",
+  "date" : "2025-12-22T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Ensemble des savoir-faire et compétences du RASS",
   "jurisdiction" : [
@@ -1203,6 +1203,10 @@ Requête sur le SMT
           {
             "code" : "SST26",
             "display" : "Urgences pédiatriques"
+          },
+          {
+            "code" : "SST27",
+            "display" : "Innovation et recherche en sciences biologiques et pharmaceutiques"
           }
         ]
       },

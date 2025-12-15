@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge | *Version*:20250919120000 | |
-| Active as of 2025-09-19 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R85_RolePriseCharge |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge | *Version*:20251222120000 | |
+| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R85_RolePriseCharge |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.107 | | |
 
  
@@ -40,7 +40,7 @@ Rôle dans la prise en charge des patients ou des usagers
   "id" : "TRE-R85-RolePriseCharge",
   "meta" : {
     "versionId" : "19",
-    "lastUpdated" : "2025-10-02T20:13:56.737+02:00",
+    "lastUpdated" : "2025-12-15T20:13:56.737+02:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
@@ -60,11 +60,11 @@ Rôle dans la prise en charge des patients ou des usagers
       "value" : "urn:oid:1.2.250.1.213.1.6.1.107"
     }
   ],
-  "version" : "20250919120000",
+  "version" : "20251222120000",
   "name" : "TRE_R85_RolePriseCharge",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-09-19T12:00:00+01:00",
+  "date" : "2025-12-22T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Rôle dans la prise en charge des patients ou des usagers",
   "jurisdiction" : [
@@ -83,16 +83,19 @@ Rôle dans la prise en charge des patients ou des usagers
   "property" : [
     {
       "code" : "dateValid",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
       "description" : "date de validité d'un code concept",
       "type" : "dateTime"
     },
     {
       "code" : "dateMaj",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
       "description" : "Date de mise à jour d'un code concept",
       "type" : "dateTime"
     },
     {
       "code" : "dateFin",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
       "description" : "Date de fin d'exploitation d'un code concept",
       "type" : "dateTime"
     },
@@ -567,11 +570,19 @@ Rôle dans la prise en charge des patients ou des usagers
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-09-19T12:00:00+01:00"
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateFin",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",
-          "valueCode" : "active"
+          "valueCode" : "deprecated"
+        },
+        {
+          "code" : "deprecationDate",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         }
       ]
     },
@@ -700,11 +711,19 @@ Rôle dans la prise en charge des patients ou des usagers
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-09-19T12:00:00+01:00"
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateFin",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",
-          "valueCode" : "active"
+          "valueCode" : "deprecated"
+        },
+        {
+          "code" : "deprecationDate",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         }
       ]
     },

@@ -321,7 +321,7 @@ Requête sur le SMT
           },
           {
             "code" : "231",
-            "display" : "Etablissement d'information, de consultation et de conseil familial"
+            "display" : "Espaces de vie affective, relationnelle et sexuelle (EVARS)"
           },
           {
             "code" : "236",
@@ -697,7 +697,7 @@ Requête sur le SMT
           },
           {
             "code" : "617",
-            "display" : "Maison médicale de garde (MMG)"
+            "display" : "Lieu de soins non programmés"
           },
           {
             "code" : "618",

@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J259-ModeFixationTarifaire-RASS/FHIR/JDV-J259-ModeFixationTarifaire-RASS | *Version*:20240927120000 | |
-| Active as of 2024-09-27 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J259_ModeFixationTarifaire_RASS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J259-ModeFixationTarifaire-RASS/FHIR/JDV-J259-ModeFixationTarifaire-RASS | *Version*:20251222120000 | |
+| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J259_ModeFixationTarifaire_RASS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.283 | | |
 
  
@@ -77,11 +77,11 @@ Requête sur le SMT
       "value" : "urn:oid:1.2.250.1.213.1.6.1.283"
     }
   ],
-  "version" : "20240927120000",
+  "version" : "20251222120000",
   "name" : "JDV_J259_ModeFixationTarifaire_RASS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2024-09-27T12:00:00+01:00",
+  "date" : "2025-12-22T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Mode de fixation tarifaire du RASS",
   "jurisdiction" : [
@@ -273,7 +273,7 @@ Requête sur le SMT
           },
           {
             "code" : "57",
-            "display" : "ARS /ARS PCD Dotation forfait ou prix de journée globalisés (CPOM)"
+            "display" : "Dotation globale de soins ARS et hébergement prix de journée PCD – sous CPOM"
           },
           {
             "code" : "58",

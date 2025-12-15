@@ -330,6 +330,7 @@
 <ul>
  <li><a href="ValueSet-JDV-J169-MotifFinActivite-EPARS.html">JDV_J169_MotifFinActivite_EPARS</a></li>
  <li><a href="ValueSet-JDV-J92-MotifFinActivite-RASS.html">JDV_J92_MotifFinActivite_RASS</a></li>
+ <li><a href="ValueSet-jdv-j383-motif-cloture-exercice-professionnel-epars.html">JdvJ383MotifClotureExerciceProfessionnelEpars</a></li>
 </ul>
 
 
@@ -339,19 +340,24 @@
 <table class="grid" data-fhir="generated"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr>
 <tr><td>dateValid</td>
 <td>dateValid</td>
-<td></td>
+<td>https://smt.esante.gouv.fr/fhir/concept-properties#dateValid</td>
 <td>dateTime</td>
 <td>date de validité d'un code concept</td></tr>
 <tr><td>dateMaj</td>
 <td>dateMaj</td>
-<td></td>
+<td>https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj</td>
 <td>dateTime</td>
 <td>Date de mise à jour d'un code concept</td></tr>
 <tr><td>dateFin</td>
 <td>dateFin</td>
-<td></td>
+<td>https://smt.esante.gouv.fr/fhir/concept-properties#dateFin</td>
 <td>dateTime</td>
 <td>Date de fin d'exploitation d'un code concept</td></tr>
+<tr><td>epars</td>
+<td>epars</td>
+<td>https://smt.esante.gouv.fr/fhir/concept-properties#epars</td>
+<td>boolean</td>
+<td>Permet de définir les codes concepts uilisés par EPARS</td></tr>
 <tr><td>deprecationDate</td>
 <td>deprecationDate</td>
 <td>http://hl7.org/fhir/concept-properties#deprecationDate</td>
@@ -367,51 +373,60 @@
 <td>http://hl7.org/fhir/concept-properties#retirementDate</td>
 <td>dateTime</td>
 <td>Date Concept was retired</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://mos.esante.gouv.fr/NOS/TRE_R25-MotifFinActivite/FHIR/TRE-R25-MotifFinActivite</code> defines the following codes:</p>
-<table class="codes" data-fhir="generated"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Affichage</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>status</b></td></tr>
+<table class="codes" data-fhir="generated"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Affichage</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>epars</b></td><td><b>status</b></td></tr>
 <tr><td style="white-space:nowrap">AUT<a name="TRE-R25-MotifFinActivite-AUT"> </a></td>
 <td>Autre motif</td>
 <td>2007-07-25T15:04:43+01:00</td>
 <td>2007-07-25T15:04:43+01:00</td>
+<td>true</td>
 <td>active</td></tr>
 <tr><td style="white-space:nowrap">CHA<a name="TRE-R25-MotifFinActivite-CHA"> </a></td>
 <td>Changement d'activité</td>
 <td>2007-07-25T15:04:43+01:00</td>
 <td>2016-09-01T00:00:00+01:00</td>
+<td></td>
 <td>active</td></tr>
 <tr><td style="white-space:nowrap">CHL<a name="TRE-R25-MotifFinActivite-CHL"> </a></td>
 <td>Changement de lieu d'exercice</td>
 <td>2007-07-25T15:04:43+01:00</td>
 <td>2016-09-01T00:00:00+01:00</td>
+<td></td>
 <td>active</td></tr>
 <tr><td style="white-space:nowrap">CHP<a name="TRE-R25-MotifFinActivite-CHP"> </a></td>
 <td>Changement de profession</td>
 <td>2007-07-25T15:04:43+01:00</td>
 <td>2016-09-01T00:00:00+01:00</td>
+<td>true</td>
 <td>active</td></tr>
 <tr><td style="white-space:nowrap">DCD<a name="TRE-R25-MotifFinActivite-DCD"> </a></td>
 <td>Décès</td>
 <td>2007-07-25T15:04:43+01:00</td>
 <td>2007-07-25T15:04:43+01:00</td>
+<td>true</td>
 <td>active</td></tr>
 <tr><td style="white-space:nowrap">ETR<a name="TRE-R25-MotifFinActivite-ETR"> </a></td>
 <td>Départ à l'étranger</td>
 <td>2007-07-25T15:04:43+01:00</td>
 <td>2016-09-01T00:00:00+01:00</td>
+<td>true</td>
 <td>active</td></tr>
 <tr><td style="white-space:nowrap">RH<a name="TRE-R25-MotifFinActivite-RH"> </a></td>
 <td>Retraite hospitalière</td>
 <td>2007-07-25T15:04:43+01:00</td>
 <td>2016-09-01T00:00:00+01:00</td>
+<td></td>
 <td>active</td></tr>
 <tr><td style="white-space:nowrap">RL<a name="TRE-R25-MotifFinActivite-RL"> </a></td>
 <td>Retraite libérale</td>
 <td>2007-07-25T15:04:43+01:00</td>
 <td>2007-07-25T15:04:43+01:00</td>
+<td>true</td>
 <td>active</td></tr>
 <tr><td style="white-space:nowrap">RS<a name="TRE-R25-MotifFinActivite-RS"> </a></td>
 <td>Retraite salariée</td>
 <td>2007-07-25T15:04:43+01:00</td>
 <td>2007-07-25T15:04:43+01:00</td>
+<td>true</td>
 <td>active</td></tr></table></div>
 
     
@@ -461,7 +476,7 @@
 
 <div class="inner-wrapper">
   <p>
-    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#1.4.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Dec 10, 2025 14:21+0000">2025-12-10</span>
+    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#1.4.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Dec 15, 2025 13:43+0000">2025-12-15</span>
     <br/>
     <span style="color: var(--footer-highlight-text-color)"></span>
       Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

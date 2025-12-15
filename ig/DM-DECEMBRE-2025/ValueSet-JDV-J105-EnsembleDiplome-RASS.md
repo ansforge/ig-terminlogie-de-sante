@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J105-EnsembleDiplome-RASS/FHIR/JDV-J105-EnsembleDiplome-RASS | *Version*:20250828120000 | |
-| Active as of 2025-08-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J105_EnsembleDiplome_RASS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J105-EnsembleDiplome-RASS/FHIR/JDV-J105-EnsembleDiplome-RASS | *Version*:20251222120000 | |
+| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J105_EnsembleDiplome_RASS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.173 | | |
 
  
@@ -56,7 +56,7 @@ Requête sur le SMT
   "id" : "JDV-J105-EnsembleDiplome-RASS",
   "meta" : {
     "versionId" : "15",
-    "lastUpdated" : "2025-10-02T19:01:55.701+02:00",
+    "lastUpdated" : "2025-12-22T19:01:55.701+02:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
@@ -77,11 +77,11 @@ Requête sur le SMT
       "value" : "urn:oid:1.2.250.1.213.1.6.1.173"
     }
   ],
-  "version" : "20250828120000",
+  "version" : "20251222120000",
   "name" : "JDV_J105_EnsembleDiplome_RASS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-08-28T12:00:00+01:00",
+  "date" : "2025-12-22T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Ensemble des diplômes et qualifications du RASS",
   "jurisdiction" : [
@@ -1050,23 +1050,23 @@ Requête sur le SMT
           },
           {
             "code" : "DIP324",
-            "display" : "Master mention psychologie clinique, psychopathologie et psychologie de la santé"
+            "display" : "Licence + Master mention psychologie clinique, psychopatho et psycho santé + Attest stage"
           },
           {
             "code" : "DIP325",
-            "display" : "Master mention psychologie sociale, du travail et des organisations"
+            "display" : "Licence + Master mention psychologie sociale, du travail et des organisations + Attest stage"
           },
           {
             "code" : "DIP326",
-            "display" : "Master mention psychologie de l'éducation et de la formation"
+            "display" : "Licence + Master mention psychologie de l'éducation et de la formation + Attest stage"
           },
           {
             "code" : "DIP327",
-            "display" : "Master mention psychopathologie clinique psychanalytique"
+            "display" : "Licence + Master mention psychologie: psychopatho clinique psychanalytique + Attest stage"
           },
           {
             "code" : "DIP328",
-            "display" : "Master de Psychanalyse"
+            "display" : "Diplôme de niveau Master en psychanalyse"
           },
           {
             "code" : "DIP329",
@@ -3251,6 +3251,10 @@ Requête sur le SMT
           {
             "code" : "FST26",
             "display" : "FST Urgences pédiatriques"
+          },
+          {
+            "code" : "FST27",
+            "display" : "FST Innovation et recherche en sciences biologiques et pharmaceutiques"
           }
         ]
       }

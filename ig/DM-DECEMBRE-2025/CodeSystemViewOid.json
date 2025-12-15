@@ -144,6 +144,14 @@
     "status" : "active"
   },
   {
+    "id" : "TRE-R25-MotifFinActivite",
+    "name" : "TRE_R25_MotifFinActivite",
+    "title" : null,
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R25-MotifFinActivite/FHIR/TRE-R25-MotifFinActivite",
+    "identifier" : "urn:oid:1.2.250.1.213.1.6.1.20",
+    "status" : "active"
+  },
+  {
     "id" : "TRE-R343-FonctionLieu",
     "name" : "TRE_R343_FonctionLieu",
     "title" : null,
@@ -152,11 +160,51 @@
     "status" : "active"
   },
   {
+    "id" : "TRE-R348-FormationSpecialiseeTransversale",
+    "name" : "TRE_R348_FormationSpecialiseeTransversale",
+    "title" : null,
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R348-FormationSpecialiseeTransversale/FHIR/TRE-R348-FormationSpecialiseeTransversale",
+    "identifier" : "urn:oid:1.2.250.1.213.1.6.1.251",
+    "status" : "active"
+  },
+  {
+    "id" : "TRE-R359-SurspecialiteTransversale",
+    "name" : "TRE_R359_SurspecialiteTransversale",
+    "title" : null,
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R359-SurspecialiteTransversale/FHIR/TRE-R359-SurspecialiteTransversale",
+    "identifier" : "urn:oid:1.2.250.1.213.2.76",
+    "status" : "active"
+  },
+  {
+    "id" : "TRE-R58-AutreTypeDiplome",
+    "name" : "TRE_R58_AutreTypeDiplome",
+    "title" : null,
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R58-AutreTypeDiplome/FHIR/TRE-R58-AutreTypeDiplome",
+    "identifier" : "urn:oid:1.2.250.1.213.1.6.1.53",
+    "status" : "active"
+  },
+  {
     "id" : "TRE-R66-CategorieEtablissement",
     "name" : "TRE_R66_CategorieEtablissement",
     "title" : null,
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement",
     "identifier" : "urn:oid:1.2.250.1.213.1.6.1.8",
+    "status" : "active"
+  },
+  {
+    "id" : "TRE-R74-ModeFixationTarifaire",
+    "name" : "TRE_R74_ModeFixationTarifaire",
+    "title" : null,
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
+    "identifier" : "urn:oid:1.2.250.1.213.1.6.1.46",
+    "status" : "active"
+  },
+  {
+    "id" : "TRE-R85-RolePriseCharge",
+    "name" : "TRE_R85_RolePriseCharge",
+    "title" : null,
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge",
+    "identifier" : "urn:oid:1.2.250.1.213.1.6.1.107",
     "status" : "active"
   },
   {
@@ -355,14 +403,6 @@
     "id" : "11000315107-20250621",
     "name" : "SNOMED_CT",
     "title" : "French module",
-    "url" : "http://snomed.info/sct",
-    "identifier" : "urn:oid:2.16.840.1.113883.6.96",
-    "status" : "active"
-  },
-  {
-    "id" : "900000000000207008-20251101",
-    "name" : "SNOMED_CT",
-    "title" : "SNOMED CT core",
     "url" : "http://snomed.info/sct",
     "identifier" : "urn:oid:2.16.840.1.113883.6.96",
     "status" : "active"
@@ -1200,14 +1240,6 @@
     "status" : "active"
   },
   {
-    "id" : "TRE-R25-MotifFinActivite",
-    "name" : "TRE_R25_MotifFinActivite",
-    "title" : null,
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R25-MotifFinActivite/FHIR/TRE-R25-MotifFinActivite",
-    "identifier" : "urn:oid:1.2.250.1.213.1.6.1.20",
-    "status" : "active"
-  },
-  {
     "id" : "TRE-R260-HL7RoleClass",
     "name" : "TRE_R260_HL7RoleClass",
     "title" : null,
@@ -1824,14 +1856,6 @@
     "status" : "active"
   },
   {
-    "id" : "TRE-R348-FormationSpecialiseeTransversale",
-    "name" : "TRE_R348_FormationSpecialiseeTransversale",
-    "title" : null,
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R348-FormationSpecialiseeTransversale/FHIR/TRE-R348-FormationSpecialiseeTransversale",
-    "identifier" : "urn:oid:1.2.250.1.213.1.6.1.251",
-    "status" : "active"
-  },
-  {
     "id" : "TRE-R349-ActionAnomalie",
     "name" : "TRE_R349_ActionAnomalie",
     "title" : null,
@@ -1901,14 +1925,6 @@
     "title" : null,
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R358-MotifStatutPersonnePriseCharge/FHIR/TRE-R358-MotifStatutPersonnePriseCharge",
     "identifier" : "urn:oid:1.2.250.1.213.3.3.248",
-    "status" : "active"
-  },
-  {
-    "id" : "TRE-R359-SurspecialiteTransversale",
-    "name" : "TRE_R359_SurspecialiteTransversale",
-    "title" : null,
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R359-SurspecialiteTransversale/FHIR/TRE-R359-SurspecialiteTransversale",
-    "identifier" : "urn:oid:1.2.250.1.213.2.76",
     "status" : "active"
   },
   {
@@ -2104,14 +2120,6 @@
     "status" : "active"
   },
   {
-    "id" : "TRE-R58-AutreTypeDiplome",
-    "name" : "TRE_R58_AutreTypeDiplome",
-    "title" : null,
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R58-AutreTypeDiplome/FHIR/TRE-R58-AutreTypeDiplome",
-    "identifier" : "urn:oid:1.2.250.1.213.1.6.1.53",
-    "status" : "active"
-  },
-  {
     "id" : "TRE-R60-AutoriteEnregistrement",
     "name" : "TRE_R60_AutoriteEnregistrement",
     "title" : null,
@@ -2200,14 +2208,6 @@
     "status" : "active"
   },
   {
-    "id" : "TRE-R74-ModeFixationTarifaire",
-    "name" : "TRE_R74_ModeFixationTarifaire",
-    "title" : null,
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-    "identifier" : "urn:oid:1.2.250.1.213.1.6.1.46",
-    "status" : "active"
-  },
-  {
     "id" : "TRE-R75-InseeNAFrev2Niveau5",
     "name" : "TRE_R75_InseeNAFrev2Niveau5",
     "title" : null,
@@ -2245,14 +2245,6 @@
     "title" : null,
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R84-ProfilAccesAnnuaire-MSSante/FHIR/TRE-R84-ProfilAccesAnnuaire-MSSante",
     "identifier" : "urn:oid:1.2.250.1.213.1.9.1.1",
-    "status" : "active"
-  },
-  {
-    "id" : "TRE-R85-RolePriseCharge",
-    "name" : "TRE_R85_RolePriseCharge",
-    "title" : null,
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge",
-    "identifier" : "urn:oid:1.2.250.1.213.1.6.1.107",
     "status" : "active"
   },
   {

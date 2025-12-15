@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J121-RolePriseCharge-ENREG/FHIR/JDV-J121-RolePriseCharge-ENREG | *Version*:20250425120000 | |
-| Active as of 2025-04-25 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J121_RolePriseCharge_ENREG |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J121-RolePriseCharge-ENREG/FHIR/JDV-J121-RolePriseCharge-ENREG | *Version*:20251222120000 | |
+| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J121_RolePriseCharge_ENREG |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.200 | | |
 
  
@@ -77,11 +77,11 @@ Requête sur le SMT
       "value" : "urn:oid:1.2.250.1.213.1.6.1.200"
     }
   ],
-  "version" : "20250425120000",
+  "version" : "20251222120000",
   "name" : "JDV_J121_RolePriseCharge_ENREG",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-04-25T12:00:00+01:00",
+  "date" : "2025-12-22T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Code des rôles et fonctions pour l'application ENREG",
   "jurisdiction" : [
@@ -128,10 +128,6 @@ Requête sur le SMT
             "display" : "Préparateur en pharmacie (officine)"
           },
           {
-            "code" : "318",
-            "display" : "Auxiliaire de vie sociale"
-          },
-          {
             "code" : "319",
             "display" : "Technicien de l'intervention sociale et familiale"
           },
@@ -146,10 +142,6 @@ Requête sur le SMT
           {
             "code" : "322",
             "display" : "Assistant familial"
-          },
-          {
-            "code" : "323",
-            "display" : "Aide médico-psychologique (AMP)"
           },
           {
             "code" : "324",
