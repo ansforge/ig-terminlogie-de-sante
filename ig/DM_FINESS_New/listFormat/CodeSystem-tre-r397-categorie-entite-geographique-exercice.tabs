@@ -204,7 +204,7 @@
 1.2.250.1.213.1.6.1.378;228;Centre de Santé Sexuelle;Ctre.Santé.Sexuelle;Centre de Santé Sexuelle;19790101000000;;20240329120000
 1.2.250.1.213.1.6.1.378;229;Consultation Problèmes naissance;Consult. Prob.Naiss.;Consultation Problèmes naissance;19790101000000;19940919000000;19910301000000
 1.2.250.1.213.1.6.1.378;230;Etablissement Consultation Protection Infantile;Etab.Consul.Pro.Inf.;Etablissement Consultation Protection Infantile;19790101000000;;19940705000000
-1.2.250.1.213.1.6.1.378;231;Etablissement Information Consultation Conseil Familial;Etab.Inf.Consult.Fam;Etablissement d'information, de consultation et de conseil familial;19790101000000;;19790123000000
+1.2.250.1.213.1.6.1.378;231;Espaces de vie affective, relationnelle et sexuelle (EVARS);E.V.A.R.S.;Espaces de vie affective, relationnelle et sexuelle (EVARS);19790101000000;;20251222000000
 1.2.250.1.213.1.6.1.378;233;Lactarium;Lactarium;Lactarium;19790101000000;20150304000000;20150315000000
 1.2.250.1.213.1.6.1.378;236;Centre Placement Familial Socio-Educatif (C.P.F.S.E.);C.P.F.S.E.;Centre de placement familial socio-éducatif (CPFSE);19790101000000;;20050706000000
 1.2.250.1.213.1.6.1.378;237;Centre de Placement Familial Spécialisé;Ctre. Plac.Fam.Spé.;Centre de Placement Familial Spécialisé;19790101000000;20050706000000;20050701000000
@@ -389,7 +389,7 @@
 1.2.250.1.213.1.6.1.378;612;Autre Laboratoire de Biologie Médicale sans FSE;Autre Labo sans FSE;Autre Laboratoire de Biologie Médicale sans FSE;20160101000000;;20160113000000
 1.2.250.1.213.1.6.1.378;614;Dispositif Spécifique Régional du Cancer (DSRC);D.S.R.C.;Dispositif Spécifique Régional du Cancer (DSRC);20230127120000;;20230127120000
 1.2.250.1.213.1.6.1.378;616;Services de Prévention et de Santé au Travail (SPST);S.P.S.T.;Services de Prévention et de Santé au Travail (SPST);20230526120000;;20230526120000
-1.2.250.1.213.1.6.1.378;617;Maison médicale de garde (MMG);MMG;Maison médicale de garde (MMG);20230630120000;;20230630120000
+1.2.250.1.213.1.6.1.378;617;Lieu de soins non programmés;MMG;Lieu de soins non programmés;20230630120000;;20251222120000
 1.2.250.1.213.1.6.1.378;618;Autre structure de soins non programmés (SNP);Autre structure de SNP;Autre structure de soins non programmés (SNP);20230630120000;;20240329120000
 1.2.250.1.213.1.6.1.378;620;Pharmacie d'Officine;Pharmacie d'Officine;Pharmacie d'Officine;19790101000000;;19810603000000
 1.2.250.1.213.1.6.1.378;621;Lunetterie Médicale;Lunetterie Médicale;Lunetterie Médicale;19790101000000;19990915000000;19990915000000
@@ -427,4 +427,4 @@
 1.2.250.1.213.1.6.1.378;701;Maison des adolescents (MDA);MDA;Maison des adolescents (MDA);20241025120000;;20241025120000
 1.2.250.1.213.1.6.1.378;702;Point Accueil Ecoute Jeunes (PAEJ);PAEJ;Point Accueil Ecoute Jeunes (PAEJ);20241025120000;;20241025120000
 1.2.250.1.213.1.6.1.378;703;Espace Santé Jeunes (ESJ);ESJ;Espace Santé Jeunes (ESJ);20250425120000;;20250425120000
-1.2.250.1.213.1.6.1.378;704;Autre service territorial;Autre service territorial;Autre service territorial;20251222120000;;20250422120000
+1.2.250.1.213.1.6.1.378;704;Autre service territorial;Autre service territorial;Autre service territorial;20251222120000;;20251222120000
