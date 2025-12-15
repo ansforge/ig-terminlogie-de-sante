@@ -107,6 +107,10 @@ Description: "Catégorie d'organisation"
 * #08 ^designation[=].use.system = "http://snomed.info/sct"
 * #08 ^designation[=].use = $sct#900000000000013009
 * #08 ^designation[=].value = "CRTND - CDE"
+* #08 ^designation[+].language = #fr-FR
+* #08 ^designation[=].use.system = "http://snomed.info/sct"
+* #08 ^designation[=].use = $sct#900000000000013009
+* #08 ^designation[=].value = "Centre de Réf Troubles du Neuro-dév  - Centre de Diag et d’éval expert"
 * #08 ^property[0].code = #dateValid
 * #08 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
 * #08 ^property[+].code = #dateMaj
