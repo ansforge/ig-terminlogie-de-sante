@@ -1341,19 +1341,15 @@ Description: "Catégorie d'établissements"
 * #230 ^property[=].valueDateTime = "1994-07-05T00:00:00+01:00"
 * #230 ^property[+].code = #status
 * #230 ^property[=].valueCode = #active
-* #231 "Etablissement Information Consultation Conseil Familial"
+* #231 "Espaces de vie affective, relationnelle et sexuelle (EVARS)"
 * #231 ^designation[0].language = #fr-FR
 * #231 ^designation[=].use.system = "http://snomed.info/sct"
 * #231 ^designation[=].use = $sct#900000000000013009
-* #231 ^designation[=].value = "Etab.Inf.Consult.Fam"
-* #231 ^designation[+].language = #fr-FR
-* #231 ^designation[=].use.system = "http://snomed.info/sct"
-* #231 ^designation[=].use = $sct#900000000000013009
-* #231 ^designation[=].value = "Etablissement d'information, de consultation et de conseil familial"
+* #231 ^designation[=].value = "E.V.A.R.S."
 * #231 ^property[0].code = #dateValid
 * #231 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #231 ^property[+].code = #dateMaj
-* #231 ^property[=].valueDateTime = "1979-01-23T00:00:00+01:00"
+* #231 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
 * #231 ^property[+].code = #status
 * #231 ^property[=].valueCode = #active
 * #233 "Lactarium"
@@ -3968,15 +3964,15 @@ Description: "Catégorie d'établissements"
 * #616 ^property[=].valueDateTime = "2023-05-26T12:00:00+01:00"
 * #616 ^property[+].code = #status
 * #616 ^property[=].valueCode = #active
-* #617 "Maison médicale de garde (MMG)"
+* #617 "Lieu de soins non programmés" "Un lieu de soins non programmés est un lieu fixe dédié à la médecine générale, ouvert uniquement pendant les périodes de permanence des soins : soirées, nuits, week-ends et jours fériés."
 * #617 ^designation[0].language = #fr-FR
 * #617 ^designation[=].use.system = "http://snomed.info/sct"
 * #617 ^designation[=].use = $sct#900000000000013009
-* #617 ^designation[=].value = "MMG"
+* #617 ^designation[=].value = "S.N.P"
 * #617 ^property[0].code = #dateValid
 * #617 ^property[=].valueDateTime = "2023-06-30T12:00:00+01:00"
 * #617 ^property[+].code = #dateMaj
-* #617 ^property[=].valueDateTime = "2023-06-30T12:00:00+01:00"
+* #617 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #617 ^property[+].code = #status
 * #617 ^property[=].valueCode = #active
 * #618 "Autre structure de soins non programmés (SNP)"
