@@ -430,6 +430,10 @@ Description: "Le niveau d'expertise atteste du niveau de ressources humaines et 
 * #45 ^designation[=].use.system = "http://snomed.info/sct"
 * #45 ^designation[=].use = $sct#900000000000013009
 * #45 ^designation[=].value = "CRTDAH"
+* #45 ^designation[0].language = #fr-FR
+* #45 ^designation[=].use.system = "http://snomed.info/sct"
+* #45 ^designation[=].use = $sct#900000000000013009
+* #45 ^designation[=].value = "Centre de réf. Trouble Déficit de l’Attention (CRTDAH)"
 * #45 ^property[0].code = #dateValid
 * #45 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #45 ^property[+].code = #dateMaj
