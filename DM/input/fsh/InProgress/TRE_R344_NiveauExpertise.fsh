@@ -422,7 +422,7 @@ Description: "Le niveau d'expertise atteste du niveau de ressources humaines et 
 * #44 ^property[0].code = #dateValid
 * #44 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #44 ^property[+].code = #dateMaj
-* #44 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
+* #44 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #44 ^property[+].code = #status
 * #44 ^property[=].valueCode = #active
 * #45 "Centre de référence du Trouble Déficit de l’Attention avec ou sans Hyperactivité (CRTDAH)"
@@ -437,7 +437,7 @@ Description: "Le niveau d'expertise atteste du niveau de ressources humaines et 
 * #45 ^property[0].code = #dateValid
 * #45 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #45 ^property[+].code = #dateMaj
-* #45 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
+* #45 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #45 ^property[+].code = #status
 * #45 ^property[=].valueCode = #active
 * #46 "Centre de compétence centre mémoire ressources et recherche (CMRR)"
@@ -448,14 +448,14 @@ Description: "Le niveau d'expertise atteste du niveau de ressources humaines et 
 * #46 ^property[0].code = #dateValid
 * #46 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #46 ^property[+].code = #dateMaj
-* #46 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
+* #46 ^property[=].valueDateTime = "2025-12-31T12:00:00+01:00"
 * #46 ^property[+].code = #status
 * #46 ^property[=].valueCode = #active
 * #47 "Centre expert Parkinson "
 * #47 ^property[0].code = #dateValid
 * #47 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #47 ^property[+].code = #dateMaj
-* #47 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
+* #47 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #47 ^property[+].code = #status
 * #47 ^property[=].valueCode = #active
 * #48 "Centre de ressources et de compétences sclérose en plaques (SEP)"
@@ -466,6 +466,6 @@ Description: "Le niveau d'expertise atteste du niveau de ressources humaines et 
 * #48 ^property[0].code = #dateValid
 * #48 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #48 ^property[+].code = #dateMaj
-* #48 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
+* #48 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #48 ^property[+].code = #status
 * #48 ^property[=].valueCode = #active
