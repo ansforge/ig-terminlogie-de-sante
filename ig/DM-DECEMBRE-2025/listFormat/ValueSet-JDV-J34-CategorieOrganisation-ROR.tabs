@@ -8,7 +8,7 @@
 1.2.250.1.213.3.3.39;05;Centre d’Activités Thérapeutiques et de Temps de Groupe (CATTG) – ex CATTP
 1.2.250.1.213.3.3.39;06;Centre de crise
 1.2.250.1.213.3.3.39;07;Centre de soins post-aigus (CeSPA)
-1.2.250.1.213.3.3.39;08;Centre de Ressources Autisme (CRA)
+1.2.250.1.213.3.3.39;08;Centre de Référence Troubles du Neuro-développement (TND) - Centre de Diagnostic et d’évaluation expert (CDE)
 1.2.250.1.213.3.3.39;09;Centre Expert
 1.2.250.1.213.3.3.39;10;Centre Médico-Psychologique (CMP) Adulte
 1.2.250.1.213.3.3.39;11;Hôpital De Jour (HDJ)
@@ -160,7 +160,7 @@
 1.2.250.1.213.3.3.39;161;Unité hospitalière de neurologie
 1.2.250.1.213.3.3.39;162;Unité hospitalière de pédiatrie
 1.2.250.1.213.3.3.39;163;Unité hospitalière de pneumologie
-1.2.250.1.213.3.3.39;164;Unité hospitalière de radiologie
+1.2.250.1.213.3.3.39;164;Unité hospitalière d'imagerie médicale
 1.2.250.1.213.3.3.39;165;Unité hospitalière de rhumatologie
 1.2.250.1.213.3.3.39;166;Unité hospitalière de stomatologie, chirurgie orale et maxillo faciale
 1.2.250.1.213.3.3.39;167;Unité hospitalière d'endocrinologie, diabétologie et nutrition
@@ -207,7 +207,7 @@
 1.2.250.1.213.3.3.39;208;Cabinet de ville de psychiatrie
 1.2.250.1.213.3.3.39;209;Cabinet de ville de psychologie
 1.2.250.1.213.3.3.39;210;Cabinet de ville de psychomotricité
-1.2.250.1.213.3.3.39;211;Cabinet de ville de radiologie
+1.2.250.1.213.3.3.39;211;Cabinet de ville d'imagerie médicale
 1.2.250.1.213.3.3.39;212;Cabinet de ville de rhumatologie
 1.2.250.1.213.3.3.39;213;Cabinet de ville de sages-femmes
 1.2.250.1.213.3.3.39;214;Cabinet de ville de stomatologie, chirurgie orale et maxillo faciale
@@ -254,7 +254,6 @@
 1.2.250.1.213.3.3.39;257;Unité pour Personnes Handicapées Vieillissantes (UPHV - UPHA)
 1.2.250.1.213.3.3.39;258;Hébergement Temporaire d'urgence (dont HT-SH)
 1.2.250.1.213.3.3.39;259;Point d'information local dédié aux personnes âgées
-1.2.250.1.213.3.3.39;260;Relayage au domicile
 1.2.250.1.213.3.3.39;261;Accueil familial pour personne âgée
 1.2.250.1.213.3.3.39;262;Unité de soins intensifs spécialisés cardiologie (USIC)
 1.2.250.1.213.3.3.39;263;Unité de soins intensifs spécialisés neurologie vasculaire (USINV)
@@ -289,3 +288,4 @@
 1.2.250.1.213.3.3.39;292;Unité Hospitalière Sécurisée Interrégionale (UHSI)
 1.2.250.1.213.3.3.39;293;Unité hospitalière dédiée grossesse pathologique (GHR)
 1.2.250.1.213.3.3.39;294;Unité hospitalière de soins externes
+1.2.250.1.213.3.3.39;295;Permanence d'Accès aux Soins de Santé (PASS)

@@ -112,11 +112,35 @@
     "status" : "active"
   },
   {
+    "id" : "TRE-R210-ActeSpecifique",
+    "name" : "TRE_R210_ActeSpecifique",
+    "title" : null,
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique",
+    "identifier" : "urn:oid:1.2.250.1.213.3.3.11",
+    "status" : "active"
+  },
+  {
     "id" : "TRE-R211-ActiviteOperationnelle",
     "name" : "TRE_R211_ActiviteOperationnelle",
     "title" : null,
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle",
     "identifier" : "urn:oid:1.2.250.1.213.3.3.12",
+    "status" : "active"
+  },
+  {
+    "id" : "TRE-R212-Equipement",
+    "name" : "TRE_R212_Equipement",
+    "title" : null,
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement",
+    "identifier" : "urn:oid:1.2.250.1.213.3.3.10",
+    "status" : "active"
+  },
+  {
+    "id" : "TRE-R213-ModePriseEnCharge",
+    "name" : "TRE_R213_ModePriseEnCharge",
+    "title" : null,
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R213-ModePriseEnCharge/FHIR/TRE-R213-ModePriseEnCharge",
+    "identifier" : "urn:oid:1.2.250.1.213.3.3.13",
     "status" : "active"
   },
   {
@@ -152,11 +176,27 @@
     "status" : "active"
   },
   {
+    "id" : "TRE-R338-ModaliteAccueil",
+    "name" : "TRE_R338_ModaliteAccueil",
+    "title" : null,
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R338-ModaliteAccueil/FHIR/TRE-R338-ModaliteAccueil",
+    "identifier" : "urn:oid:1.2.250.1.213.3.3.221",
+    "status" : "active"
+  },
+  {
     "id" : "TRE-R343-FonctionLieu",
     "name" : "TRE_R343_FonctionLieu",
     "title" : null,
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R343-FonctionLieu/FHIR/TRE-R343-FonctionLieu",
     "identifier" : "urn:oid:1.2.250.1.213.3.3.227",
+    "status" : "active"
+  },
+  {
+    "id" : "TRE-R344-NiveauExpertise",
+    "name" : "TRE_R344_NiveauExpertise",
+    "title" : null,
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R344-NiveauExpertise/FHIR/TRE-R344-NiveauExpertise",
+    "identifier" : "urn:oid:1.2.250.1.213.3.3.228",
     "status" : "active"
   },
   {
@@ -173,6 +213,14 @@
     "title" : null,
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R359-SurspecialiteTransversale/FHIR/TRE-R359-SurspecialiteTransversale",
     "identifier" : "urn:oid:1.2.250.1.213.2.76",
+    "status" : "active"
+  },
+  {
+    "id" : "TRE-R368-StatutRessource",
+    "name" : "TRE_R368_StatutRessource",
+    "title" : null,
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R368-StatutRessource/FHIR/TRE-R368-StatutRessource",
+    "identifier" : "urn:oid:1.2.250.1.213.3.3.250",
     "status" : "active"
   },
   {
@@ -861,30 +909,6 @@
     "title" : null,
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R20-Pays/FHIR/TRE-R20-Pays",
     "identifier" : "urn:oid:1.2.250.1.213.2.24",
-    "status" : "active"
-  },
-  {
-    "id" : "TRE-R210-ActeSpecifique",
-    "name" : "TRE_R210_ActeSpecifique",
-    "title" : null,
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique",
-    "identifier" : "urn:oid:1.2.250.1.213.3.3.11",
-    "status" : "active"
-  },
-  {
-    "id" : "TRE-R212-Equipement",
-    "name" : "TRE_R212_Equipement",
-    "title" : null,
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement",
-    "identifier" : "urn:oid:1.2.250.1.213.3.3.10",
-    "status" : "active"
-  },
-  {
-    "id" : "TRE-R213-ModePriseEnCharge",
-    "name" : "TRE_R213_ModePriseEnCharge",
-    "title" : null,
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R213-ModePriseEnCharge/FHIR/TRE-R213-ModePriseEnCharge",
-    "identifier" : "urn:oid:1.2.250.1.213.3.3.13",
     "status" : "active"
   },
   {
@@ -1800,14 +1824,6 @@
     "status" : "active"
   },
   {
-    "id" : "TRE-R338-ModaliteAccueil",
-    "name" : "TRE_R338_ModaliteAccueil",
-    "title" : null,
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R338-ModaliteAccueil/FHIR/TRE-R338-ModaliteAccueil",
-    "identifier" : "urn:oid:1.2.250.1.213.3.3.221",
-    "status" : "active"
-  },
-  {
     "id" : "TRE-R33-StatutInscription",
     "name" : "TRE_R33_StatutInscription",
     "title" : null,
@@ -1837,14 +1853,6 @@
     "title" : null,
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R342-XdsTypesIdentifiantsReferenceId/FHIR/TRE-R342-XdsTypesIdentifiantsReferenceId",
     "identifier" : "urn:oid:1.2.250.1.213.1.1.4.347",
-    "status" : "active"
-  },
-  {
-    "id" : "TRE-R344-NiveauExpertise",
-    "name" : "TRE_R344_NiveauExpertise",
-    "title" : null,
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R344-NiveauExpertise/FHIR/TRE-R344-NiveauExpertise",
-    "identifier" : "urn:oid:1.2.250.1.213.3.3.228",
     "status" : "active"
   },
   {
@@ -1934,14 +1942,6 @@
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R35-TypeVoie/FHIR/TRE-R35-TypeVoie",
     "identifier" : "urn:oid:1.2.250.1.213.2.44",
     "status" : "retired"
-  },
-  {
-    "id" : "TRE-R368-StatutRessource",
-    "name" : "TRE_R368_StatutRessource",
-    "title" : null,
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R368-StatutRessource/FHIR/TRE-R368-StatutRessource",
-    "identifier" : "urn:oid:1.2.250.1.213.3.3.250",
-    "status" : "active"
   },
   {
     "id" : "TRE-R369-ProfilUtilisateurReferentielNational",

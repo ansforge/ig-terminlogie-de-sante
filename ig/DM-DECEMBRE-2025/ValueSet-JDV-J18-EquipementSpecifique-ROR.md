@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J18-EquipementSpecifique-ROR/FHIR/JDV-J18-EquipementSpecifique-ROR | *Version*:20250623120000 | |
-| Active as of 2025-06-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J18_EquipementSpecifique_ROR |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J18-EquipementSpecifique-ROR/FHIR/JDV-J18-EquipementSpecifique-ROR | *Version*:20251222120000 | |
+| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J18_EquipementSpecifique_ROR |
 | *Other Identifiers:*OID:1.2.250.1.213.3.4.6 | | |
 
  
@@ -77,11 +77,11 @@ Requête sur le SMT
       "value" : "urn:oid:1.2.250.1.213.3.4.6"
     }
   ],
-  "version" : "20250623120000",
+  "version" : "20251222120000",
   "name" : "JDV_J18_EquipementSpecifique_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-06-23T12:00:00+01:00",
+  "date" : "2025-12-22T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Equipement spécifique - ROR",
   "jurisdiction" : [
@@ -710,6 +710,14 @@ Requête sur le SMT
           {
             "code" : "229",
             "display" : "Douche accessible aux personnes en fauteuil roulant"
+          },
+          {
+            "code" : "234",
+            "display" : "Espace de consommation de drogues injectables"
+          },
+          {
+            "code" : "235",
+            "display" : "Espace de consommation de drogues à fumer"
           }
         ]
       }

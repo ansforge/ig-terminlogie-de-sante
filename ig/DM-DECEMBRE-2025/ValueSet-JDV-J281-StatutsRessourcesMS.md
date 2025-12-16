@@ -8,12 +8,12 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J281-StatutsRessourcesMS/FHIR/JDV-J281-StatutsRessourcesMS | *Version*:20250425120000 | |
-| Active as of 2025-04-25 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J281_StatutsRessourcesMS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J281-StatutsRessourcesMS/FHIR/JDV-J281-StatutsRessourcesMS | *Version*:20251222120000 | |
+| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J281_StatutsRessourcesMS |
 | *Other Identifiers:*OID:1.2.250.1.213.3.4.219 | | |
 
  
-Statut de l’évaluation et des événements 
+Caractérise le statut d’une ressource du médico-social au cours de son cycle de vie. 
 
  **References** 
 
@@ -77,13 +77,13 @@ Requête sur le SMT
       "value" : "urn:oid:1.2.250.1.213.3.4.219"
     }
   ],
-  "version" : "20250425120000",
+  "version" : "20251222120000",
   "name" : "JDV_J281_StatutsRessourcesMS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-04-25T12:00:00+01:00",
+  "date" : "2025-12-22T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description" : "Statut de l'évaluation et des événements",
+  "description" : "Caractérise le statut d’une ressource du médico-social au cours de son cycle de vie.",
   "jurisdiction" : [
     {
       "coding" : [
@@ -116,10 +116,6 @@ Requête sur le SMT
             "display" : "Planifié"
           },
           {
-            "code" : "REALISE",
-            "display" : "Réalisé"
-          },
-          {
             "code" : "ANNULE",
             "display" : "Annulé"
           },
@@ -128,20 +124,16 @@ Requête sur le SMT
             "display" : "Actif"
           },
           {
-            "code" : "NONDEBUTE",
-            "display" : "Non débuté"
-          },
-          {
             "code" : "ENPREPARATION",
             "display" : "En préparation"
           },
           {
-            "code" : "ENREALISATION",
-            "display" : "En réalisation"
+            "code" : "ENCOURS",
+            "display" : "En cours"
           },
           {
-            "code" : "CREATION",
-            "display" : "Création"
+            "code" : "ENPAUSE",
+            "display" : "En pause"
           }
         ]
       }

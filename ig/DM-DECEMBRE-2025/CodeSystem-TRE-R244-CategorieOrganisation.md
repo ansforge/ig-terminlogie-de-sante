@@ -69,7 +69,7 @@ Catégorie d’organisation
   ],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 294,
+  "count" : 295,
   "property" : [
     {
       "code" : "dateValid",
@@ -267,7 +267,7 @@ Catégorie d’organisation
     },
     {
       "code" : "08",
-      "display" : "Centre de Ressources Autisme (CRA)",
+      "display" : "Centre de Référence Troubles du Neuro-développement (TND) - Centre de Diagnostic et d’évaluation expert (CDE)",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -275,7 +275,15 @@ Catégorie d’organisation
             "system" : "http://snomed.info/sct",
             "code" : "900000000000013009"
           },
-          "value" : "CRA"
+          "value" : "CRTND - CDE"
+        },
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "Centre de Réf Troubles du Neuro-dév  - Centre de Diag et d’éval expert"
         }
       ],
       "property" : [
@@ -285,7 +293,7 @@ Catégorie d’organisation
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2017-10-13T12:00:00+01:00"
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -4489,17 +4497,7 @@ Catégorie d’organisation
     },
     {
       "code" : "164",
-      "display" : "Unité hospitalière de radiologie",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Unité de radiologie"
-        }
-      ],
+      "display" : "Unité hospitalière d'imagerie médicale",
       "property" : [
         {
           "code" : "dateValid",
@@ -4507,7 +4505,7 @@ Catégorie d’organisation
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2024-10-25T12:00:00+01:00"
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -5793,17 +5791,7 @@ Catégorie d’organisation
     },
     {
       "code" : "211",
-      "display" : "Cabinet de ville de radiologie",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Cabinet de radiologie"
-        }
-      ],
+      "display" : "Cabinet de ville d'imagerie médicale",
       "property" : [
         {
           "code" : "dateValid",
@@ -5811,7 +5799,7 @@ Catégorie d’organisation
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-01-31T12:00:00+01:00"
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -7172,8 +7160,12 @@ Catégorie d’organisation
           "valueDateTime" : "2025-04-25T12:00:00+01:00"
         },
         {
+          "code" : "deprecationDate",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
           "code" : "status",
-          "valueCode" : "active"
+          "valueCode" : "deprecated"
         }
       ]
     },
@@ -7570,6 +7562,7 @@ Catégorie d’organisation
     {
       "code" : "276",
       "display" : "Unité d’Accueil et de Soins pour personnes Sourdes et malentendantes (UASS)",
+      "definition" : "Une Unité d'Accueil et de Soins pour patients Sourds (UASS) est une unité dédiée à l’accueil et à la prise en charge des personnes sourdes et malentendantes. Elle garantit un accès équitable aux soins grâce à des équipes formées, bilingues en français et en langue des signes française (LSF), capables d’adapter la communication pour accompagner au mieux les patients tout au long de leur parcours de soins. L'unité a pour objectif d'accueillir en consultation les patients sourds, malentendants, de les accompagner dans leur démarche de soins grâce à des interprètes et à des intermédiateurs. Elle propose sur rendez-vous des consultations de médecine générale (systématique), de psychologues (parfois) et des temps avec des assistantes sociales. Elle propose également l’accessibilité en langue des signes à toutes les activités (consultations de spécialistes, urgence, etc..) de l’établissement. Certaines unités sont spécifiques à la prise en charge en psychiatrie.",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -7587,7 +7580,7 @@ Catégorie d’organisation
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-07-10T12:00:00+01:00"
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -7797,6 +7790,16 @@ Catégorie d’organisation
     {
       "code" : "284",
       "display" : "Equipe Spécialisée de Prévention et de Réadaptation à Domicile (ESPRAD)",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "ESPRAD"
+        }
+      ],
       "property" : [
         {
           "code" : "dateValid",
@@ -7815,6 +7818,16 @@ Catégorie d’organisation
     {
       "code" : "285",
       "display" : "Centre Anti-Poison et de Toxico-Vigilance (CAPTV)",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "CAPTV"
+        }
+      ],
       "property" : [
         {
           "code" : "dateValid",
@@ -7833,6 +7846,16 @@ Catégorie d’organisation
     {
       "code" : "286",
       "display" : "Unité hospitalière de Soins Intensifs Néonatals (USIN)",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "USIN"
+        }
+      ],
       "property" : [
         {
           "code" : "dateValid",
@@ -7851,6 +7874,16 @@ Catégorie d’organisation
     {
       "code" : "287",
       "display" : "Unité hospitalière de réanimation néonatale",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "Unité de réa. néonatale"
+        }
+      ],
       "property" : [
         {
           "code" : "dateValid",
@@ -7869,6 +7902,16 @@ Catégorie d’organisation
     {
       "code" : "288",
       "display" : "Unité hospitalière « kangourou » ou « koala »",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "Unité kangourou"
+        }
+      ],
       "property" : [
         {
           "code" : "dateValid",
@@ -7887,6 +7930,16 @@ Catégorie d’organisation
     {
       "code" : "289",
       "display" : "Unité hospitalière de néonatalogie",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "Unité de néonatalogie"
+        }
+      ],
       "property" : [
         {
           "code" : "dateValid",
@@ -7905,6 +7958,16 @@ Catégorie d’organisation
     {
       "code" : "290",
       "display" : "Unité hospitalière de maternité",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "Unité de maternité"
+        }
+      ],
       "property" : [
         {
           "code" : "dateValid",
@@ -7923,6 +7986,16 @@ Catégorie d’organisation
     {
       "code" : "291",
       "display" : "Halte Soins Addiction (HSA)",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "HSA"
+        }
+      ],
       "property" : [
         {
           "code" : "dateValid",
@@ -7941,6 +8014,16 @@ Catégorie d’organisation
     {
       "code" : "292",
       "display" : "Unité Hospitalière Sécurisée Interrégionale (UHSI)",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "UHSI"
+        }
+      ],
       "property" : [
         {
           "code" : "dateValid",
@@ -7959,6 +8042,16 @@ Catégorie d’organisation
     {
       "code" : "293",
       "display" : "Unité hospitalière dédiée grossesse pathologique (GHR)",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "Unité GHR"
+        }
+      ],
       "property" : [
         {
           "code" : "dateValid",
@@ -7977,6 +8070,44 @@ Catégorie d’organisation
     {
       "code" : "294",
       "display" : "Unité hospitalière de soins externes",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "Unité de soins externes"
+        }
+      ],
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "295",
+      "display" : "Permanence d'Accès aux Soins de Santé (PASS)",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "PASS"
+        }
+      ],
       "property" : [
         {
           "code" : "dateValid",

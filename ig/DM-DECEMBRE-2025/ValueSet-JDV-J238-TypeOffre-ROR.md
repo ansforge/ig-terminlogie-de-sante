@@ -129,7 +129,7 @@ Requête sur le SMT
           },
           {
             "code" : "08",
-            "display" : "Centre de Ressources Autisme (CRA)"
+            "display" : "Centre de Référence Troubles du Neuro-développement (TND) - Centre de Diagnostic et d’évaluation expert (CDE)"
           },
           {
             "code" : "09",
@@ -737,7 +737,7 @@ Requête sur le SMT
           },
           {
             "code" : "164",
-            "display" : "Unité hospitalière de radiologie"
+            "display" : "Unité hospitalière d'imagerie médicale"
           },
           {
             "code" : "165",
@@ -925,7 +925,7 @@ Requête sur le SMT
           },
           {
             "code" : "211",
-            "display" : "Cabinet de ville de radiologie"
+            "display" : "Cabinet de ville d'imagerie médicale"
           },
           {
             "code" : "212",
@@ -1112,10 +1112,6 @@ Requête sur le SMT
             "display" : "Point d'information local dédié aux personnes âgées"
           },
           {
-            "code" : "260",
-            "display" : "Relayage au domicile"
-          },
-          {
             "code" : "261",
             "display" : "Accueil familial pour personne âgée"
           },
@@ -1250,6 +1246,10 @@ Requête sur le SMT
           {
             "code" : "294",
             "display" : "Unité hospitalière de soins externes"
+          },
+          {
+            "code" : "295",
+            "display" : "Permanence d'Accès aux Soins de Santé (PASS)"
           }
         ]
       }

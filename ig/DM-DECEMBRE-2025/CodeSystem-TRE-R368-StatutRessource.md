@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R368-StatutRessource/FHIR/TRE-R368-StatutRessource | *Version*:20250919120000 | |
-| Active as of 2025-09-19 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R368_StatutRessource |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R368-StatutRessource/FHIR/TRE-R368-StatutRessource | *Version*:20251222120000 | |
+| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R368_StatutRessource |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.250 | | |
 
  
@@ -49,11 +49,11 @@ Caractérise le statut d’une ressource du médico-social au cours de son cycle
       "value" : "urn:oid:1.2.250.1.213.3.3.250"
     }
   ],
-  "version" : "20250919120000",
+  "version" : "20251222120000",
   "name" : "TRE_R368_StatutRessource",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-09-19T12:00:00+01:00",
+  "date" : "2025-12-22T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Caractérise le statut d'une ressource du médico-social au cours de son cycle de vie",
   "jurisdiction" : [
@@ -68,7 +68,7 @@ Caractérise le statut d’une ressource du médico-social au cours de son cycle
   ],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 11,
+  "count" : 13,
   "property" : [
     {
       "code" : "dateValid",
@@ -108,7 +108,7 @@ Caractérise le statut d’une ressource du médico-social au cours de son cycle
     {
       "code" : "TERMINE",
       "display" : "Terminé",
-      "definition" : "La ressource est totalement finie. Resource achevée. Ce statut s'adresse à la ressource Evaluation de l'individu.  Ce statut s'applique également au projet personnalisé ainsi qu'à ses ressources Action et Objectif.",
+      "definition" : "La ressource est totalement finie. Ce statut s'adresse aux ressources Evaluation de l'individu et Evenements liés à la prise en charge de l'individu dans une structure ESSMS. Resource achevée. Ce statut s'adresse au projet personnalisé ainsi qu'aux ressources associées : Action, Objectif et Prestation.",
       "property" : [
         {
           "code" : "dateValid",
@@ -116,7 +116,7 @@ Caractérise le statut d’une ressource du médico-social au cours de son cycle
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-09-19T12:00:00+01:00"
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -192,18 +192,22 @@ Caractérise le statut d’une ressource du médico-social au cours de son cycle
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-09-19T12:00:00+01:00"
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "deprecationDate",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",
-          "valueCode" : "active"
+          "valueCode" : "deprecated"
         }
       ]
     },
     {
       "code" : "ANNULE",
       "display" : "Annulé",
-      "definition" : "La ressource n’est plus effective mais le statut est gardé pour historique. Ce statut s'adresse à la ressource Evenements liés à la prise en charge de l'individu dans une structure ESSMS.",
+      "definition" : "La ressource n’est plus effective mais le statut est gardé pour historique. Ce statut s'adresse à la ressource Evenements liés à la prise en charge de l'individu dans une structure ESSMS. Ce statut s'adresse également aux ressources Action, Objectif et Prestation du projet personnalisé.",
       "property" : [
         {
           "code" : "dateValid",
@@ -211,7 +215,7 @@ Caractérise le statut d’une ressource du médico-social au cours de son cycle
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-09-19T12:00:00+01:00"
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -222,7 +226,7 @@ Caractérise le statut d’une ressource du médico-social au cours de son cycle
     {
       "code" : "ACTIF",
       "display" : "Actif",
-      "definition" : "Ressource vivante. Ce statut s'adresse aux ressources du projet personnalisé Action et Objectif.",
+      "definition" : "Ressource vivante. Ce statut s'adresse aux ressources Action, Objectif et Prestation du projet personnalisé.",
       "property" : [
         {
           "code" : "dateValid",
@@ -230,7 +234,7 @@ Caractérise le statut d’une ressource du médico-social au cours de son cycle
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-04-25T12:00:00+01:00"
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -249,18 +253,22 @@ Caractérise le statut d’une ressource du médico-social au cours de son cycle
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-04-25T12:00:00+01:00"
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "deprecationDate",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",
-          "valueCode" : "active"
+          "valueCode" : "deprecated"
         }
       ]
     },
     {
       "code" : "ENPREPARATION",
       "display" : "En préparation",
-      "definition" : "Ressource qui est en train d'être faite, conçue, élaborée. Ce statut s'adresse au projet personnalisé.",
+      "definition" : "Ressource qui est en train d'être faite, conçue, élaborée. Ce statut s'adresse aux ressources Evaluation de l'individu. Ce statut s'adresse au projet personnalisé ainsi qu'aux ressources associées : Action, Objectif et Prestation.",
       "property" : [
         {
           "code" : "dateValid",
@@ -268,7 +276,7 @@ Caractérise le statut d’une ressource du médico-social au cours de son cycle
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-04-25T12:00:00+01:00"
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -287,11 +295,15 @@ Caractérise le statut d’une ressource du médico-social au cours de son cycle
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-04-25T12:00:00+01:00"
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "deprecationDate",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",
-          "valueCode" : "active"
+          "valueCode" : "deprecated"
         }
       ]
     },
@@ -307,6 +319,48 @@ Caractérise le statut d’une ressource du médico-social au cours de son cycle
         {
           "code" : "dateMaj",
           "valueDateTime" : "2025-04-25T12:00:00+01:00"
+        },
+        {
+          "code" : "deprecationDate",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "deprecated"
+        }
+      ]
+    },
+    {
+      "code" : "ENCOURS",
+      "display" : "En cours",
+      "definition" : "Ressource qui est en cours de mise en pratique. Ce statut s'adresse au projet personnalisé.",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "ENPAUSE",
+      "display" : "En pause",
+      "definition" : "Etat de la ressource lors d’un arrêt temporaire. Ce statut s'adresse au projet personnalisé.",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",

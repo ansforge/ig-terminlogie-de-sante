@@ -8,12 +8,9 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique | *Version*:20251017120000 | |
-| Active as of 2025-10-17 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R210_ActeSpecifique |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique | *Version*:20251222120000 | |
+| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R210_ActeSpecifique |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.11 | | |
-
- 
-Un acte spécifique est une action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé. Les actes réalisés habituellement par ce type d’organisation ne sont pas des actes spécifiques. Les actes spécifiques décrits sont réalisés avec les ressources propres de l’organisation ou via des ressources mises à disposition dans le cadre d’une convention à la condition que ces ressources interviennent sur site dans la réalisation de la prestation. 
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
@@ -35,14 +32,6 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2015-04-08T00:00:00+01:00"
-      }
-    }
-  ],
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique",
   "identifier" : [
     {
@@ -50,13 +39,12 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
       "value" : "urn:oid:1.2.250.1.213.3.3.11"
     }
   ],
-  "version" : "20251017120000",
+  "version" : "20251222120000",
   "name" : "TRE_R210_ActeSpecifique",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-10-17T12:00:00+01:00",
+  "date" : "2025-12-22T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description" : "Un acte spécifique est une action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé. Les actes réalisés habituellement par ce type d'organisation ne sont pas des actes spécifiques. Les actes spécifiques décrits sont réalisés avec les ressources propres de l’organisation ou via des ressources mises à disposition dans le cadre d’une convention à la condition que ces ressources interviennent sur site dans la réalisation de la prestation.",
   "jurisdiction" : [
     {
       "coding" : [
@@ -69,7 +57,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
   ],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 1555,
+  "count" : 1573,
   "property" : [
     {
       "code" : "dateValid",
@@ -16837,7 +16825,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
     },
     {
       "code" : "0523",
-      "display" : "Sevrage simple",
+      "display" : "Sevrage à faible risque de complication médicale (sevrage simple)",
       "definition" : "Prise en charge de troubles somatiques simples dont souffrent les patients en état de dépendance physique lors de l'arrêt de leur substance habituelle",
       "designation" : [
         {
@@ -16856,7 +16844,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2024-01-26T12:00:00+01:00"
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -16866,7 +16854,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
     },
     {
       "code" : "0524",
-      "display" : "Sevrage complexe",
+      "display" : "Sevrage à fort risque de complication médicale (sevrage complexe)",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -16884,7 +16872,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2016-09-01T00:00:00+01:00"
+          "valueDateTime" : "2025-12-22T00:00:00+01:00"
         },
         {
           "code" : "status",
@@ -26769,7 +26757,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
     },
     {
       "code" : "0849",
-      "display" : "Suivi cardiologique avec organisation de la prise en charge",
+      "display" : "Coordination pour assurer le suivi cardiologique avec organisation de la prise en charge",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -26787,7 +26775,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2018-12-14T12:00:00+01:00"
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -26797,7 +26785,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
     },
     {
       "code" : "0850",
-      "display" : "Suivi gynécologique avec organisation de la prise en charge",
+      "display" : "Coordination pour assurer le suivi gynécologique avec organisation de la prise en charge",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -26815,7 +26803,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2018-12-14T12:00:00+01:00"
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -27113,7 +27101,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
     },
     {
       "code" : "0861",
-      "display" : "Dépistage et suivi des pathologies endocriniennes",
+      "display" : "Dépistage et suivi biologique des pathologies endocriniennes",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -27131,7 +27119,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2019-03-29T12:00:00+01:00"
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -27894,8 +27882,12 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
           "valueDateTime" : "2019-07-05T12:00:00+01:00"
         },
         {
+          "code" : "deprecationDate",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
           "code" : "status",
-          "valueCode" : "active"
+          "valueCode" : "deprecated"
         }
       ]
     },
@@ -30383,7 +30375,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
     },
     {
       "code" : "0965",
-      "display" : "Réadaptation du cancer du sein",
+      "display" : "Rééducation du cancer du sein",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -30401,7 +30393,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2024-09-27T12:00:00+01:00"
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -30411,7 +30403,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
     },
     {
       "code" : "0966",
-      "display" : "Réadaptation des cicatrices",
+      "display" : "Rééducation des cicatrices",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -30429,7 +30421,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2024-09-27T12:00:00+01:00"
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -30467,7 +30459,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
     },
     {
       "code" : "0968",
-      "display" : "Réadaptation de la main",
+      "display" : "Rééducation de la main",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -30485,7 +30477,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2024-09-27T12:00:00+01:00"
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -30579,7 +30571,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
     },
     {
       "code" : "0972",
-      "display" : "Réadaptation maxillo-faciale",
+      "display" : "Rééducation maxillo-faciale",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -30597,7 +30589,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2024-09-27T12:00:00+01:00"
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -31614,7 +31606,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
     },
     {
       "code" : "1013",
-      "display" : "Vaccination contre les infections sexuellement transmissible (IST)",
+      "display" : "Vaccination contre les infections sexuellement transmissibles (IST)",
       "definition" : "Organisation de la vaccination recommandée pour prévenir les infections par le virus VHB (hépatite B) et le papillomavirus.",
       "property" : [
         {
@@ -31623,7 +31615,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-06-23T12:00:00+01:00"
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -33935,7 +33927,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
     },
     {
       "code" : "1135",
-      "display" : "Angio IRM cérébral",
+      "display" : "Angio IRM cérébrale",
       "definition" : "Examen radiologique réalisé grâce à un IRM avec ou sans injection de produit de contraste permettant de visualiser les vaisseaux cérébraux et notamment les principales artères et veines cérébrales ce qui permettra le diagnostic d'une sténose artérielle, d'une thrombose veineuse et tous autres lésions de gros vaisseaux.",
       "property" : [
         {
@@ -33944,7 +33936,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2023-06-30T12:00:00+01:00"
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -35010,7 +35002,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
     },
     {
       "code" : "1191",
-      "display" : "Embolisation cérébrale anévrisme MAV",
+      "display" : "Embolisation cérébrale anévrisme Malformation Antéro Veineuse (MAV)",
       "property" : [
         {
           "code" : "dateValid",
@@ -35018,7 +35010,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2022-10-28T12:00:00+01:00"
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -35556,7 +35548,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
     },
     {
       "code" : "1220",
-      "display" : "IRM CAI et APC",
+      "display" : "IRM Conduit Auditif Interne (CAI) et Angle Ponto-Cérébelleux (APC)",
       "property" : [
         {
           "code" : "dateValid",
@@ -35564,7 +35556,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2022-10-28T12:00:00+01:00"
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -36347,7 +36339,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
     },
     {
       "code" : "1262",
-      "display" : "Scanner pré TAVI",
+      "display" : "Scanner pré Implantation d'une valve aortique par voie percutanée (TAVI)",
       "property" : [
         {
           "code" : "dateValid",
@@ -36355,7 +36347,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2022-10-28T12:00:00+01:00"
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -40143,7 +40135,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
     },
     {
       "code" : "1454",
-      "display" : "Evaluation et suivi standardisé des commotions cérébrales",
+      "display" : "Evaluation et suivi standardisé des commotions cérébrales dans un cadre sportif",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -40161,7 +40153,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2024-12-13T12:00:00+01:00"
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -40396,7 +40388,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
     },
     {
       "code" : "1467",
-      "display" : "Examen visuel du sportif",
+      "display" : "Evaluation de la vue du sportif ",
       "property" : [
         {
           "code" : "dateValid",
@@ -40404,7 +40396,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2024-09-27T12:00:00+01:00"
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -40623,7 +40615,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
     },
     {
       "code" : "1478",
-      "display" : "Réadaptation des migraines et céphalées",
+      "display" : "Rééducation des migraines et céphalées",
       "property" : [
         {
           "code" : "dateValid",
@@ -40631,7 +40623,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2024-09-27T12:00:00+01:00"
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -40641,7 +40633,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
     },
     {
       "code" : "1479",
-      "display" : "Réadaptation abdominale du post partum",
+      "display" : "Rééducation abdominale du post partum",
       "property" : [
         {
           "code" : "dateValid",
@@ -40649,7 +40641,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2024-09-27T12:00:00+01:00"
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -40659,7 +40651,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
     },
     {
       "code" : "1480",
-      "display" : "Réadaptation abdominale préopératoire et post opératoire",
+      "display" : "Rééducation abdominale préopératoire et post opératoire",
       "property" : [
         {
           "code" : "dateValid",
@@ -40667,7 +40659,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2024-09-27T12:00:00+01:00"
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -42124,6 +42116,330 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
         {
           "code" : "dateMaj",
           "valueDateTime" : "2025-10-17T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "1557",
+      "display" : "Prise en charge de bébé grand prématuré (< 28 SA)",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "1558",
+      "display" : "Veille sanitaire et analyse de produit in situ",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "1559",
+      "display" : "Evaluation et suivi des addictions liées au cannabis et cannabinoïdes",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "1560",
+      "display" : "Evaluation et suivi des addictions liées aux psychostimulants (cocaïne, crack, dérivés des amphétamines, ecstasy, MDMA, cathinones de synthèse…)",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "1561",
+      "display" : "Evaluation et suivi des addictions liées aux opiacés (héroïne, morphinique)",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "1562",
+      "display" : "Evaluation et suivi des addictions liées aux autres substances (hallucinogènes, champignons, LSD, kétamine)",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "1563",
+      "display" : "Evaluation et suivi des addictions liées aux benzodiazépines et autres sédatifs",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "1564",
+      "display" : "Evaluation et suivi des addictions liées au chemsex (cathinones de synthèse, poppers, etc)",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "1570",
+      "display" : "Rééducation vésico-sphinctérienne",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "1571",
+      "display" : "Rééducation anorectale",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "1572",
+      "display" : "Rééducation des troubles de la déglutition",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "1573",
+      "display" : "Rééducation post-COVID (COVID long)",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "1574",
+      "display" : "Centre Ressources Autisme (CRA)",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "1575",
+      "display" : "Centre de référence des Troubles du Langage et de l’Apprentissage (CRTLA)",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "1576",
+      "display" : "Centre de référence du Trouble Déficit de l’Attention avec ou sans Hyperactivité (CRTDAH)",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "1577",
+      "display" : "Centre de compétence centre mémoire ressources et recherche (CMRR)",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "1578",
+      "display" : "Centre expert Parkinson ",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "1579",
+      "display" : "Centre de ressources et de compétences sclérose en plaques (SEP)",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",

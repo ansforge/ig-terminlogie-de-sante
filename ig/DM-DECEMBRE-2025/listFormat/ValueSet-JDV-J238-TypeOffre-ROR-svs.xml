@@ -33,7 +33,7 @@
                   displayName="Centre de soins post-aigus (CeSPA)"/>
          <Concept code="08"
                   codeSystem="1.2.250.1.213.3.3.39"
-                  displayName="Centre de Ressources Autisme (CRA)"/>
+                  displayName="Centre de Référence Troubles du Neuro-développement (TND) - Centre de Diagnostic et d’évaluation expert (CDE)"/>
          <Concept code="09"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Centre Expert"/>
@@ -489,7 +489,7 @@
                   displayName="Unité hospitalière de pneumologie"/>
          <Concept code="164"
                   codeSystem="1.2.250.1.213.3.3.39"
-                  displayName="Unité hospitalière de radiologie"/>
+                  displayName="Unité hospitalière d'imagerie médicale"/>
          <Concept code="165"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Unité hospitalière de rhumatologie"/>
@@ -630,7 +630,7 @@
                   displayName="Cabinet de ville de psychomotricité"/>
          <Concept code="211"
                   codeSystem="1.2.250.1.213.3.3.39"
-                  displayName="Cabinet de ville de radiologie"/>
+                  displayName="Cabinet de ville d'imagerie médicale"/>
          <Concept code="212"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Cabinet de ville de rhumatologie"/>
@@ -769,9 +769,6 @@
          <Concept code="259"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Point d'information local dédié aux personnes âgées"/>
-         <Concept code="260"
-                  codeSystem="1.2.250.1.213.3.3.39"
-                  displayName="Relayage au domicile"/>
          <Concept code="261"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Accueil familial pour personne âgée"/>
@@ -874,6 +871,9 @@
          <Concept code="294"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Unité hospitalière de soins externes"/>
+         <Concept code="295"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Permanence d'Accès aux Soins de Santé (PASS)"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

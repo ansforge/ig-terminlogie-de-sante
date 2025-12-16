@@ -11,7 +11,7 @@
 1.2.250.1.213.3.3.12;010;Biologie du développement et de la reproduction
 1.2.250.1.213.3.3.12;013;Cardiologie générale
 1.2.250.1.213.3.3.12;014;Cardiologie interventionnelle
-1.2.250.1.213.3.3.12;015;Centre antipoison et de toxicovigilance (CAPTV)
+1.2.250.1.213.3.3.12;015;Conseil antipoison et toxicovigilance
 1.2.250.1.213.3.3.12;016;Chirurgie cervico-faciale et Oto-rhino-laryngologie (ORL)
 1.2.250.1.213.3.3.12;017;Chirurgie de l'obésité (bariatrique)
 1.2.250.1.213.3.3.12;018;Chirurgie cardiaque et gros vaisseaux (cardio-vasculaire)
@@ -104,7 +104,6 @@
 1.2.250.1.213.3.3.12;137;Stomatologie
 1.2.250.1.213.3.3.12;138;Surveillance post-interventionnelle SSPI (réveil)
 1.2.250.1.213.3.3.12;139;Tabacologie
-1.2.250.1.213.3.3.12;142;Toxicologie
 1.2.250.1.213.3.3.12;145;Traumatologie
 1.2.250.1.213.3.3.12;147;Urgences Médico-Psychologiques (CUMP)
 1.2.250.1.213.3.3.12;148;Urgences spécialisées cardiologiques
@@ -518,3 +517,8 @@
 1.2.250.1.213.3.3.12;595;Coordination hospitalière de prélèvement de tissu pédiatrique
 1.2.250.1.213.3.3.12;596;Coordination hospitalière de prélèvement d’organe pédiatrique
 1.2.250.1.213.3.3.12;597;Evaluation de la mémoire (bilan mémoire)
+1.2.250.1.213.3.3.12;598;Toxicologie clinique
+1.2.250.1.213.3.3.12;599;Analyse toxicologique
+1.2.250.1.213.3.3.12;600;Prise en charge des malaises et surdoses liés à la prise de drogues
+1.2.250.1.213.3.3.12;601;Médiation pour le maintien en hospitalisation
+1.2.250.1.213.3.3.12;603;Prise en charge coordonnée des patients atteints de maladies neurodégénératives

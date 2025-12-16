@@ -70,7 +70,7 @@ Activite Operationnelle
   ],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 597,
+  "count" : 602,
   "property" : [
     {
       "code" : "dateValid",
@@ -399,7 +399,7 @@ Activite Operationnelle
     },
     {
       "code" : "015",
-      "display" : "Centre antipoison et de toxicovigilance (CAPTV)",
+      "display" : "Conseil antipoison et toxicovigilance",
       "property" : [
         {
           "code" : "dateValid",
@@ -407,7 +407,7 @@ Activite Operationnelle
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2015-04-08T00:00:00+01:00"
+          "valueDateTime" : "2025-12-22T00:00:00+01:00"
         },
         {
           "code" : "status",
@@ -2680,6 +2680,7 @@ Activite Operationnelle
     {
       "code" : "127",
       "display" : "Réanimation polyvalente",
+      "definition" : "Activité hospitalière qui assure la prise en charge continue, la surveillance et le traitement de patients présentant ou susceptibles de présenter une ou plusieurs défaillances vitales aiguës, nécessitant des techniques de suppléance et une présence médicale et paramédicale permanente.",
       "property" : [
         {
           "code" : "dateValid",
@@ -2687,7 +2688,7 @@ Activite Operationnelle
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2024-12-13T12:00:00+01:00"
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -2983,11 +2984,15 @@ Activite Operationnelle
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2015-04-08T00:00:00+01:00"
+          "valueDateTime" : "2025-12-22T00:00:00+01:00"
+        },
+        {
+          "code" : "deprecationDate",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",
-          "valueCode" : "active"
+          "valueCode" : "deprecated"
         }
       ]
     },
@@ -6376,6 +6381,7 @@ Activite Operationnelle
     {
       "code" : "305",
       "display" : "Accompagnements pour mener sa vie professionnelle",
+      "definition" : "Cette prestation rassemble tous les accompagnements effectués auprès d’une personne pour : - la soutenir dans l’exercice de son activité professionnelle ; - susciter, préparer, accompagner son évolution professionnelle. Ces accompagnements répondent aux besoins qu’elle rencontre dans le cadre de son travail/emploi. Ces prestations s’inscrivent dans une logique de compensation qui inclut toutes les nuances d’un accompagnement : « apprendre à faire », « faire avec », « faire pour (ou à la place de) ». Elles ont pour objectif le développement, l’acquisition et le maintien du maximum d’autonomie de la personne dans son exercice professionnel.",
       "property" : [
         {
           "code" : "dateValid",
@@ -6383,7 +6389,7 @@ Activite Operationnelle
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2024-10-25T12:00:00+01:00"
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -7308,6 +7314,7 @@ Activite Operationnelle
     {
       "code" : "351",
       "display" : "Soins intensifs polyvalents",
+      "definition" : "Activité hospitalière destinée à la prise en charge de patients présentant une ou plusieurs défaillances aiguës d’organes, mais dont l’état ne justifie pas les moyens lourds de la réanimation; elle nécessite toutefois une surveillance clinique et biologique rapprochée et continue.",
       "property" : [
         {
           "code" : "dateValid",
@@ -7315,7 +7322,7 @@ Activite Operationnelle
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2024-12-13T12:00:00+01:00"
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -7380,6 +7387,7 @@ Activite Operationnelle
     {
       "code" : "355",
       "display" : "Soins intensifs spécialisés en psychiatrie",
+      "definition" : "Activité hospitalière psychiatrique qui assure la prise en charge continue de patients présentant des troubles psychiatriques aigus sévères nécessitant une surveillance renforcée, des soins intensifs psychiatriques et une présence soignante continue dans un environnement sécurisé.",
       "property" : [
         {
           "code" : "dateValid",
@@ -7387,7 +7395,7 @@ Activite Operationnelle
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2019-03-29T12:00:00+01:00"
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -7714,6 +7722,7 @@ Activite Operationnelle
     {
       "code" : "373",
       "display" : "Surveillance continue polyvalente",
+      "definition" : "Activité hospitalière qui assure la surveillance rapprochée de patients présentant un risque de défaillance aiguë d’une ou plusieurs fonctions vitales, sans nécessiter les techniques de suppléance de la réanimation. Elle garantit une présence médicale et infirmière continue, adaptée à l’état clinique du patient.",
       "property" : [
         {
           "code" : "dateValid",
@@ -7721,7 +7730,7 @@ Activite Operationnelle
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2024-12-13T12:00:00+01:00"
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -12040,6 +12049,7 @@ Activite Operationnelle
     {
       "code" : "594",
       "display" : "Coordination hospitalière de prélèvement de tissu",
+      "definition" : "Activité hospitalière spécialisée qui coordonne l’ensemble des prélèvements de tissu (et d’organe), assure le recueil de la non-opposition, l’accompagnement des proches, la traçabilité, la sécurité sanitaire et le respect des règles légales et éthiques.",
       "property" : [
         {
           "code" : "dateValid",
@@ -12047,7 +12057,7 @@ Activite Operationnelle
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-10-17T12:00:00+01:00"
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -12058,6 +12068,7 @@ Activite Operationnelle
     {
       "code" : "595",
       "display" : "Coordination hospitalière de prélèvement de tissu pédiatrique",
+      "definition" : "Activité hospitalière spécialisée qui organise le prélèvement de tissu chez des enfants (vivants ou décédés), la recherche du consentement éclairé des représentants légaux, la traçabilité, et les règles juridiques et éthiques propres au don de tissus.",
       "property" : [
         {
           "code" : "dateValid",
@@ -12065,7 +12076,7 @@ Activite Operationnelle
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-10-17T12:00:00+01:00"
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -12076,6 +12087,7 @@ Activite Operationnelle
     {
       "code" : "596",
       "display" : "Coordination hospitalière de prélèvement d’organe pédiatrique",
+      "definition" : "Activité hospitalière spécialisée qui identifie, mobilise et coordonne les prélèvements d’organes chez les enfants, en assurant le recueil du consentement légal, la conformité aux règles éthiques, la traçabilité et la liaison entre les équipes de greffe et les proches.",
       "property" : [
         {
           "code" : "dateValid",
@@ -12083,7 +12095,7 @@ Activite Operationnelle
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-10-17T12:00:00+01:00"
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -12103,6 +12115,96 @@ Activite Operationnelle
         {
           "code" : "dateMaj",
           "valueDateTime" : "2025-10-17T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "598",
+      "display" : "Toxicologie clinique",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "599",
+      "display" : "Analyse toxicologique",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "600",
+      "display" : "Prise en charge des malaises et surdoses liés à la prise de drogues",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "601",
+      "display" : "Médiation pour le maintien en hospitalisation",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "603",
+      "display" : "Prise en charge coordonnée des patients atteints de maladies neurodégénératives",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",

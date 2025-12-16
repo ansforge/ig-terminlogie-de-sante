@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J19-ModePriseEnCharge-ROR/FHIR/JDV-J19-ModePriseEnCharge-ROR | *Version*:20250828120000 | |
-| Active as of 2025-08-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J19_ModePriseEnCharge_ROR |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J19-ModePriseEnCharge-ROR/FHIR/JDV-J19-ModePriseEnCharge-ROR | *Version*:20251222120000 | |
+| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J19_ModePriseEnCharge_ROR |
 | *Other Identifiers:*OID:1.2.250.1.213.3.4.1 | | |
 
  
@@ -77,11 +77,11 @@ Requête sur le SMT
       "value" : "urn:oid:1.2.250.1.213.3.4.1"
     }
   ],
-  "version" : "20250828120000",
+  "version" : "20251222120000",
   "name" : "JDV_J19_ModePriseEnCharge_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-08-28T12:00:00+01:00",
+  "date" : "2025-12-22T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Mode de la prise en charge - ROR",
   "jurisdiction" : [
@@ -120,10 +120,6 @@ Requête sur le SMT
             "display" : "Hospitalisation courte durée (UHCD)"
           },
           {
-            "code" : "14",
-            "display" : "Hospitalisation kangourou"
-          },
-          {
             "code" : "17",
             "display" : "Précarité, permanence d'accès aux soins de santé (PASS)"
           },
@@ -133,7 +129,7 @@ Requête sur le SMT
           },
           {
             "code" : "27",
-            "display" : "Télémédecine"
+            "display" : "Régulation médicale téléphonique"
           },
           {
             "code" : "28",

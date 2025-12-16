@@ -141,7 +141,7 @@ Requête sur le SMT
           },
           {
             "code" : "015",
-            "display" : "Centre antipoison et de toxicovigilance (CAPTV)"
+            "display" : "Conseil antipoison et toxicovigilance"
           },
           {
             "code" : "016",
@@ -510,10 +510,6 @@ Requête sur le SMT
           {
             "code" : "139",
             "display" : "Tabacologie"
-          },
-          {
-            "code" : "142",
-            "display" : "Toxicologie"
           },
           {
             "code" : "145",
@@ -2166,6 +2162,26 @@ Requête sur le SMT
           {
             "code" : "597",
             "display" : "Evaluation de la mémoire (bilan mémoire)"
+          },
+          {
+            "code" : "598",
+            "display" : "Toxicologie clinique"
+          },
+          {
+            "code" : "599",
+            "display" : "Analyse toxicologique"
+          },
+          {
+            "code" : "600",
+            "display" : "Prise en charge des malaises et surdoses liés à la prise de drogues"
+          },
+          {
+            "code" : "601",
+            "display" : "Médiation pour le maintien en hospitalisation"
+          },
+          {
+            "code" : "603",
+            "display" : "Prise en charge coordonnée des patients atteints de maladies neurodégénératives"
           }
         ]
       }

@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies | *Version*:1.4.0 |
-| Active as of 2025-12-15 | *Computable Name*:Terminologies |
+| Active as of 2025-12-16 | *Computable Name*:Terminologies |
 
 Dans ce guide, nous retrouvons l’ensemble des terminologies de santé et jeux de valeurs plubliés par l’ANS :
 
@@ -231,7 +231,7 @@ Ceci est un IG R4. Aucune des fonctionnalités quil utilise nest modifiée dans 
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2025-12-15T13:43:12+00:00",
+  "date" : "2025-12-16T11:22:18+00:00",
   "publisher" : "ANS",
   "contact" : [
     {
@@ -39146,7 +39146,7 @@ Ceci est un IG R4. Aucune des fonctionnalités quil utilise nest modifiée dans 
           "reference" : "ValueSet/JDV-J281-StatutsRessourcesMS"
         },
         "name" : "JDV_J281_StatutsRessourcesMS",
-        "description" : "Statut de l'évaluation et des événements",
+        "description" : "Caractérise le statut d’une ressource du médico-social au cours de son cycle de vie.",
         "exampleBoolean" : false
       },
       {
@@ -41519,7 +41519,6 @@ Ceci est un IG R4. Aucune des fonctionnalités quil utilise nest modifiée dans 
           "reference" : "CodeSystem/TRE-R210-ActeSpecifique"
         },
         "name" : "TRE_R210_ActeSpecifique",
-        "description" : "Un acte spécifique est une action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé. Les actes réalisés habituellement par ce type d'organisation ne sont pas des actes spécifiques. Les actes spécifiques décrits sont réalisés avec les ressources propres de l’organisation ou via des ressources mises à disposition dans le cadre d’une convention à la condition que ces ressources interviennent sur site dans la réalisation de la prestation.",
         "exampleBoolean" : false
       },
       {
