@@ -2343,7 +2343,7 @@
                   descriptionMetier=""/>
          <Concept code="260"
                   codeSystem="1.2.250.1.213.3.3.39"
-                  dateFin=""
+                  dateFin="20251222120000"
                   dateMaj="20251222120000"
                   dateValid="20250425120000"
                   displayName="Relayage au domicile"

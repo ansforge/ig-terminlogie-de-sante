@@ -7986,7 +7986,7 @@
                   descriptionMetier=""/>
          <Concept code="0887"
                   codeSystem="1.2.250.1.213.3.3.11"
-                  dateFin=""
+                  dateFin="20251222120000"
                   dateMaj="20251222120000"
                   dateValid="20190329120000"
                   displayName="Chirurgie sénologique"

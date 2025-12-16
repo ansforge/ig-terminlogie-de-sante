@@ -76,16 +76,19 @@ Mode de la prise en charge
   "property" : [
     {
       "code" : "dateValid",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
       "description" : "date de validité d'un code concept",
       "type" : "dateTime"
     },
     {
       "code" : "dateMaj",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
       "description" : "Date de mise à jour d'un code concept",
       "type" : "dateTime"
     },
     {
       "code" : "dateFin",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
       "description" : "Date de fin d'exploitation d'un code concept",
       "type" : "dateTime"
     },
@@ -488,6 +491,10 @@ Mode de la prise en charge
         },
         {
           "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T00:00:00+01:00"
+        },
+        {
+          "code" : "dateFin",
           "valueDateTime" : "2025-12-22T00:00:00+01:00"
         },
         {

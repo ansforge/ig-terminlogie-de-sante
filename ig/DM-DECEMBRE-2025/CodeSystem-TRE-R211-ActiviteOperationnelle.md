@@ -2987,6 +2987,10 @@ Activite Operationnelle
           "valueDateTime" : "2025-12-22T00:00:00+01:00"
         },
         {
+          "code" : "dateFin",
+          "valueDateTime" : "2025-12-22T00:00:00+01:00"
+        },
+        {
           "code" : "deprecationDate",
           "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },

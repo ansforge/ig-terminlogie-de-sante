@@ -129,7 +129,7 @@
                   descriptionMetier=""/>
          <Concept code="14"
                   codeSystem="1.2.250.1.213.3.3.13"
-                  dateFin=""
+                  dateFin="20251222000000"
                   dateMaj="20251222000000"
                   dateValid="20150504000000"
                   displayName="Hospitalisation kangourou"
