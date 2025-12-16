@@ -155,11 +155,11 @@ Description: "Activite Operationnelle"
 * #014 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
 * #014 ^property[+].code = #status
 * #014 ^property[=].valueCode = #active
-* #015 "Centre antipoison et de toxicovigilance (CAPTV)"
+* #015 "Conseil antipoison et toxicovigilance"
 * #015 ^property[0].code = #dateValid
 * #015 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #015 ^property[+].code = #dateMaj
-* #015 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
+* #015 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
 * #015 ^property[+].code = #status
 * #015 ^property[=].valueCode = #active
 * #016 "Chirurgie cervico-faciale et Oto-rhino-laryngologie (ORL)"
@@ -1063,11 +1063,11 @@ Description: "Activite Operationnelle"
 * #126 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #126 ^property[+].code = #status
 * #126 ^property[=].valueCode = #active
-* #127 "Réanimation polyvalente"
+* #127 "Réanimation polyvalente" "Activité hospitalière qui assure la prise en charge continue, la surveillance et le traitement de patients présentant ou susceptibles de présenter une ou plusieurs défaillances vitales aiguës, nécessitant des techniques de suppléance et une présence médicale et paramédicale permanente."
 * #127 ^property[0].code = #dateValid
 * #127 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #127 ^property[+].code = #dateMaj
-* #127 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
+* #127 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #127 ^property[+].code = #status
 * #127 ^property[=].valueCode = #active
 * #128 "Réanimation spécialisée néonatale"
@@ -1184,9 +1184,11 @@ Description: "Activite Operationnelle"
 * #142 ^property[0].code = #dateValid
 * #142 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #142 ^property[+].code = #dateMaj
-* #142 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
+* #142 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
+* #142 ^property[+].code = #deprecationDate
+* #142 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #142 ^property[+].code = #status
-* #142 ^property[=].valueCode = #active
+* #142 ^property[=].valueCode = #deprecated
 * #143 "Toxicomanie"
 * #143 ^property[0].code = #dateValid
 * #143 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
@@ -2505,11 +2507,11 @@ Description: "Activite Operationnelle"
 * #304 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
 * #304 ^property[+].code = #status
 * #304 ^property[=].valueCode = #active
-* #305 "Accompagnements pour mener sa vie professionnelle"
+* #305 "Accompagnements pour mener sa vie professionnelle" "Cette prestation rassemble tous les accompagnements effectués auprès d’une personne pour : - la soutenir dans l’exercice de son activité professionnelle ; - susciter, préparer, accompagner son évolution professionnelle. Ces accompagnements répondent aux besoins qu’elle rencontre dans le cadre de son travail/emploi. Ces prestations s’inscrivent dans une logique de compensation qui inclut toutes les nuances d’un accompagnement : « apprendre à faire », « faire avec », « faire pour (ou à la place de) ». Elles ont pour objectif le développement, l’acquisition et le maintien du maximum d’autonomie de la personne dans son exercice professionnel."
 * #305 ^property[0].code = #dateValid
 * #305 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
 * #305 ^property[+].code = #dateMaj
-* #305 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
+* #305 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #305 ^property[+].code = #status
 * #305 ^property[=].valueCode = #active
 * #306 "Activités visant la stimulation cognitivo-comportementale"
@@ -2867,11 +2869,11 @@ Description: "Activite Operationnelle"
 * #350 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
 * #350 ^property[+].code = #status
 * #350 ^property[=].valueCode = #active
-* #351 "Soins intensifs polyvalents"
+* #351 "Soins intensifs polyvalents" "Activité hospitalière destinée à la prise en charge de patients présentant une ou plusieurs défaillances aiguës d’organes, mais dont l’état ne justifie pas les moyens lourds de la réanimation; elle nécessite toutefois une surveillance clinique et biologique rapprochée et continue."
 * #351 ^property[0].code = #dateValid
 * #351 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
 * #351 ^property[+].code = #dateMaj
-* #351 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
+* #351 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #351 ^property[+].code = #status
 * #351 ^property[=].valueCode = #active
 * #352 "Soins intensifs chirurgicaux"
@@ -2895,11 +2897,11 @@ Description: "Activite Operationnelle"
 * #354 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
 * #354 ^property[+].code = #status
 * #354 ^property[=].valueCode = #active
-* #355 "Soins intensifs spécialisés en psychiatrie"
+* #355 "Soins intensifs spécialisés en psychiatrie" "Activité hospitalière psychiatrique qui assure la prise en charge continue de patients présentant des troubles psychiatriques aigus sévères nécessitant une surveillance renforcée, des soins intensifs psychiatriques et une présence soignante continue dans un environnement sécurisé."
 * #355 ^property[0].code = #dateValid
 * #355 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
 * #355 ^property[+].code = #dateMaj
-* #355 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
+* #355 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #355 ^property[+].code = #status
 * #355 ^property[=].valueCode = #active
 * #356 "Soins intensifs spécialisés neurologie vasculaire (USINV)"
@@ -3025,11 +3027,11 @@ Description: "Activite Operationnelle"
 * #372 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
 * #372 ^property[+].code = #status
 * #372 ^property[=].valueCode = #active
-* #373 "Surveillance continue polyvalente"
+* #373 "Surveillance continue polyvalente" "Activité hospitalière qui assure la surveillance rapprochée de patients présentant un risque de défaillance aiguë d’une ou plusieurs fonctions vitales, sans nécessiter les techniques de suppléance de la réanimation. Elle garantit une présence médicale et infirmière continue, adaptée à l’état clinique du patient."
 * #373 ^property[0].code = #dateValid
 * #373 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
 * #373 ^property[+].code = #dateMaj
-* #373 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
+* #373 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #373 ^property[+].code = #status
 * #373 ^property[=].valueCode = #active
 * #374 "Surveillance continue chirurgicale"
@@ -4675,25 +4677,25 @@ Description: "Activite Operationnelle"
 * #593 ^property[=].valueDateTime = "2025-10-17T12:00:00+01:00"
 * #593 ^property[+].code = #status
 * #593 ^property[=].valueCode = #active
-* #594 "Coordination hospitalière de prélèvement de tissu"
+* #594 "Coordination hospitalière de prélèvement de tissu" "Activité hospitalière spécialisée qui coordonne l’ensemble des prélèvements de tissu (et d’organe), assure le recueil de la non-opposition, l’accompagnement des proches, la traçabilité, la sécurité sanitaire et le respect des règles légales et éthiques."
 * #594 ^property[0].code = #dateValid
 * #594 ^property[=].valueDateTime = "2025-08-28T12:00:00+01:00"
 * #594 ^property[+].code = #dateMaj
-* #594 ^property[=].valueDateTime = "2025-10-17T12:00:00+01:00"
+* #594 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #594 ^property[+].code = #status
 * #594 ^property[=].valueCode = #active
-* #595 "Coordination hospitalière de prélèvement de tissu pédiatrique"
+* #595 "Coordination hospitalière de prélèvement de tissu pédiatrique" "Activité hospitalière spécialisée qui organise le prélèvement de tissu chez des enfants (vivants ou décédés), la recherche du consentement éclairé des représentants légaux, la traçabilité, et les règles juridiques et éthiques propres au don de tissus."
 * #595 ^property[0].code = #dateValid
 * #595 ^property[=].valueDateTime = "2025-08-28T12:00:00+01:00"
 * #595 ^property[+].code = #dateMaj
-* #595 ^property[=].valueDateTime = "2025-10-17T12:00:00+01:00"
+* #595 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #595 ^property[+].code = #status
 * #595 ^property[=].valueCode = #active
-* #596 "Coordination hospitalière de prélèvement d’organe pédiatrique"
+* #596 "Coordination hospitalière de prélèvement d’organe pédiatrique" "Activité hospitalière spécialisée qui identifie, mobilise et coordonne les prélèvements d’organes chez les enfants, en assurant le recueil du consentement légal, la conformité aux règles éthiques, la traçabilité et la liaison entre les équipes de greffe et les proches."
 * #596 ^property[0].code = #dateValid
 * #596 ^property[=].valueDateTime = "2025-08-28T12:00:00+01:00"
 * #596 ^property[+].code = #dateMaj
-* #596 ^property[=].valueDateTime = "2025-10-17T12:00:00+01:00"
+* #596 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #596 ^property[+].code = #status
 * #596 ^property[=].valueCode = #active
 * #597 "Evaluation de la mémoire (bilan mémoire)" "Evaluation clinique spécialisée qui mesure de façon formelle les capacités mnésiques  (encodage, stockage, restitution ) et recherche leur retentissement sur la vie quotidienne, à l’aide de tests validés, d’un entretien, et d’examens complémentaires afin de poser un diagnostic ou d’orienter vers une prise en charge adaptée."
@@ -4703,3 +4705,38 @@ Description: "Activite Operationnelle"
 * #597 ^property[=].valueDateTime = "2025-10-17T12:00:00+01:00"
 * #597 ^property[+].code = #status
 * #597 ^property[=].valueCode = #active
+* #598 "Toxicologie clinique"
+* #598 ^property[0].code = #dateValid
+* #598 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #598 ^property[+].code = #dateMaj
+* #598 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #598 ^property[+].code = #status
+* #598 ^property[=].valueCode = #active
+* #599 "Analyse toxicologique"
+* #599 ^property[0].code = #dateValid
+* #599 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #599 ^property[+].code = #dateMaj
+* #599 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #599 ^property[+].code = #status
+* #599 ^property[=].valueCode = #active
+* #600 "Prise en charge des malaises et surdoses liés à la prise de drogues"
+* #600 ^property[0].code = #dateValid
+* #600 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #600 ^property[+].code = #dateMaj
+* #600 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #600 ^property[+].code = #status
+* #600 ^property[=].valueCode = #active
+* #601 "Médiation pour le maintien en hospitalisation"
+* #601 ^property[0].code = #dateValid
+* #601 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #601 ^property[+].code = #dateMaj
+* #601 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #601 ^property[+].code = #status
+* #601 ^property[=].valueCode = #active
+* #603 "Prise en charge coordonnée des patients atteints de maladies neurodégénératives"
+* #603 ^property[0].code = #dateValid
+* #603 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #603 ^property[+].code = #dateMaj
+* #603 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #603 ^property[+].code = #status
+* #603 ^property[=].valueCode = #active
