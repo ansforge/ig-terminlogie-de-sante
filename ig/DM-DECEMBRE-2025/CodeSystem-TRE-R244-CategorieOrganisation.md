@@ -7157,7 +7157,7 @@ Catégorie d’organisation
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-04-25T12:00:00+01:00"
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "deprecationDate",

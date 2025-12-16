@@ -394,6 +394,16 @@ Destination d’usage du lieu
     {
       "code" : "015",
       "display" : "Local de cabinet de ville d'ergothérapie",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "Local d'ergothérapie"
+        }
+      ],
       "property" : [
         {
           "code" : "dateValid",
@@ -412,6 +422,16 @@ Destination d’usage du lieu
     {
       "code" : "016",
       "display" : "Local de cabinet de ville de diététique",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "Local de diététique"
+        }
+      ],
       "property" : [
         {
           "code" : "dateValid",
@@ -430,6 +450,16 @@ Destination d’usage du lieu
     {
       "code" : "017",
       "display" : "Local de cabinet dentaire ou de stomatologie",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "Local dentaire ou de stomato"
+        }
+      ],
       "property" : [
         {
           "code" : "dateValid",
@@ -448,6 +478,16 @@ Destination d’usage du lieu
     {
       "code" : "018",
       "display" : "Local de cabinet de ville de kinésithérapie",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "Local de kinésithérapie"
+        }
+      ],
       "property" : [
         {
           "code" : "dateValid",
@@ -466,6 +506,16 @@ Destination d’usage du lieu
     {
       "code" : "019",
       "display" : "Local de cabinet de ville infirmier",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "Local infirmier"
+        }
+      ],
       "property" : [
         {
           "code" : "dateValid",
@@ -484,6 +534,16 @@ Destination d’usage du lieu
     {
       "code" : "020",
       "display" : "Local de cabinet de ville de maïeutique",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "Local de maïeutique"
+        }
+      ],
       "property" : [
         {
           "code" : "dateValid",
@@ -502,6 +562,16 @@ Destination d’usage du lieu
     {
       "code" : "021",
       "display" : "Local de cabinet de ville d’oto-rhino-laryngologie (ORL)",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "Local d'ORL"
+        }
+      ],
       "property" : [
         {
           "code" : "dateValid",
@@ -520,6 +590,16 @@ Destination d’usage du lieu
     {
       "code" : "022",
       "display" : "Local de cabinet de ville de cardiologie",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "Local de cardiologie"
+        }
+      ],
       "property" : [
         {
           "code" : "dateValid",
@@ -538,6 +618,16 @@ Destination d’usage du lieu
     {
       "code" : "023",
       "display" : "Local de cabinet de ville de médecine générale",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "Local de médecine générale"
+        }
+      ],
       "property" : [
         {
           "code" : "dateValid",
@@ -556,6 +646,16 @@ Destination d’usage du lieu
     {
       "code" : "024",
       "display" : "Local de cabinet de ville de Médecine Physique et de Réadaptation (MPR)",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "Local de MPR"
+        }
+      ],
       "property" : [
         {
           "code" : "dateValid",
@@ -574,6 +674,16 @@ Destination d’usage du lieu
     {
       "code" : "025",
       "display" : "Local de cabinet de ville de rhumatologie",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "Local de rhumatologie"
+        }
+      ],
       "property" : [
         {
           "code" : "dateValid",
@@ -592,6 +702,16 @@ Destination d’usage du lieu
     {
       "code" : "026",
       "display" : "Local de cabinet de ville de pédiatrie",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "Local de pédiatrie"
+        }
+      ],
       "property" : [
         {
           "code" : "dateValid",
@@ -610,6 +730,16 @@ Destination d’usage du lieu
     {
       "code" : "027",
       "display" : "Local de cabinet de ville d’ophtalmologie",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "Local d’ophtalmologie"
+        }
+      ],
       "property" : [
         {
           "code" : "dateValid",
@@ -628,6 +758,16 @@ Destination d’usage du lieu
     {
       "code" : "028",
       "display" : "Local de cabinet de ville de pneumologie",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "Local de pneumologie"
+        }
+      ],
       "property" : [
         {
           "code" : "dateValid",

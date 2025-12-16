@@ -143,7 +143,7 @@
                   dateValid="20251222120000"
                   displayName="Local de cabinet de ville d'ergothérapie"
                   longDesignation="Local de cabinet de ville d'ergothérapie"
-                  shortDesignation="Local de cabinet de ville d'ergothérapie"
+                  shortDesignation="Local d'ergothérapie"
                   descriptionMetier=""/>
          <Concept code="016"
                   codeSystem="1.2.250.1.213.3.3.227"
@@ -152,7 +152,7 @@
                   dateValid="20251222120000"
                   displayName="Local de cabinet de ville de diététique"
                   longDesignation="Local de cabinet de ville de diététique"
-                  shortDesignation="Local de cabinet de ville de diététique"
+                  shortDesignation="Local de diététique"
                   descriptionMetier=""/>
          <Concept code="017"
                   codeSystem="1.2.250.1.213.3.3.227"
@@ -161,7 +161,7 @@
                   dateValid="20251222120000"
                   displayName="Local de cabinet dentaire ou de stomatologie"
                   longDesignation="Local de cabinet dentaire ou de stomatologie"
-                  shortDesignation="Local de cabinet dentaire ou de stomatologie"
+                  shortDesignation="Local dentaire ou de stomato"
                   descriptionMetier=""/>
          <Concept code="018"
                   codeSystem="1.2.250.1.213.3.3.227"
@@ -170,7 +170,7 @@
                   dateValid="20251222120000"
                   displayName="Local de cabinet de ville de kinésithérapie"
                   longDesignation="Local de cabinet de ville de kinésithérapie"
-                  shortDesignation="Local de cabinet de ville de kinésithérapie"
+                  shortDesignation="Local de kinésithérapie"
                   descriptionMetier=""/>
          <Concept code="019"
                   codeSystem="1.2.250.1.213.3.3.227"
@@ -179,7 +179,7 @@
                   dateValid="20251222120000"
                   displayName="Local de cabinet de ville infirmier"
                   longDesignation="Local de cabinet de ville infirmier"
-                  shortDesignation="Local de cabinet de ville infirmier"
+                  shortDesignation="Local infirmier"
                   descriptionMetier=""/>
          <Concept code="020"
                   codeSystem="1.2.250.1.213.3.3.227"
@@ -188,7 +188,7 @@
                   dateValid="20251222120000"
                   displayName="Local de cabinet de ville de maïeutique"
                   longDesignation="Local de cabinet de ville de maïeutique"
-                  shortDesignation="Local de cabinet de ville de maïeutique"
+                  shortDesignation="Local de maïeutique"
                   descriptionMetier=""/>
          <Concept code="021"
                   codeSystem="1.2.250.1.213.3.3.227"
@@ -197,7 +197,7 @@
                   dateValid="20251222120000"
                   displayName="Local de cabinet de ville d’oto-rhino-laryngologie (ORL)"
                   longDesignation="Local de cabinet de ville d’oto-rhino-laryngologie (ORL)"
-                  shortDesignation="Local de cabinet de ville d’oto-rhino-laryngologie (ORL)"
+                  shortDesignation="Local d'ORL"
                   descriptionMetier=""/>
          <Concept code="022"
                   codeSystem="1.2.250.1.213.3.3.227"
@@ -206,7 +206,7 @@
                   dateValid="20251222120000"
                   displayName="Local de cabinet de ville de cardiologie"
                   longDesignation="Local de cabinet de ville de cardiologie"
-                  shortDesignation="Local de cabinet de ville de cardiologie"
+                  shortDesignation="Local de cardiologie"
                   descriptionMetier=""/>
          <Concept code="023"
                   codeSystem="1.2.250.1.213.3.3.227"
@@ -215,7 +215,7 @@
                   dateValid="20251222120000"
                   displayName="Local de cabinet de ville de médecine générale"
                   longDesignation="Local de cabinet de ville de médecine générale"
-                  shortDesignation="Local de cabinet de ville de médecine générale"
+                  shortDesignation="Local de médecine générale"
                   descriptionMetier=""/>
          <Concept code="024"
                   codeSystem="1.2.250.1.213.3.3.227"
@@ -224,7 +224,7 @@
                   dateValid="20251222120000"
                   displayName="Local de cabinet de ville de Médecine Physique et de Réadaptation (MPR)"
                   longDesignation="Local de cabinet de ville de Médecine Physique et de Réadaptation (MPR)"
-                  shortDesignation="Local de cabinet de ville de Médecine Physique et de Réadaptation (MPR)"
+                  shortDesignation="Local de MPR"
                   descriptionMetier=""/>
          <Concept code="025"
                   codeSystem="1.2.250.1.213.3.3.227"
@@ -233,7 +233,7 @@
                   dateValid="20251222120000"
                   displayName="Local de cabinet de ville de rhumatologie"
                   longDesignation="Local de cabinet de ville de rhumatologie"
-                  shortDesignation="Local de cabinet de ville de rhumatologie"
+                  shortDesignation="Local de rhumatologie"
                   descriptionMetier=""/>
          <Concept code="026"
                   codeSystem="1.2.250.1.213.3.3.227"
@@ -242,7 +242,7 @@
                   dateValid="20251222120000"
                   displayName="Local de cabinet de ville de pédiatrie"
                   longDesignation="Local de cabinet de ville de pédiatrie"
-                  shortDesignation="Local de cabinet de ville de pédiatrie"
+                  shortDesignation="Local de pédiatrie"
                   descriptionMetier=""/>
          <Concept code="027"
                   codeSystem="1.2.250.1.213.3.3.227"
@@ -251,7 +251,7 @@
                   dateValid="20251222120000"
                   displayName="Local de cabinet de ville d’ophtalmologie"
                   longDesignation="Local de cabinet de ville d’ophtalmologie"
-                  shortDesignation="Local de cabinet de ville d’ophtalmologie"
+                  shortDesignation="Local d’ophtalmologie"
                   descriptionMetier=""/>
          <Concept code="028"
                   codeSystem="1.2.250.1.213.3.3.227"
@@ -260,7 +260,7 @@
                   dateValid="20251222120000"
                   displayName="Local de cabinet de ville de pneumologie"
                   longDesignation="Local de cabinet de ville de pneumologie"
-                  shortDesignation="Local de cabinet de ville de pneumologie"
+                  shortDesignation="Local de pneumologie"
                   descriptionMetier=""/>
       </ConceptList>
    </ValueSet>

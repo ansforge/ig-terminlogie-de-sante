@@ -27879,7 +27879,7 @@
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2019-07-05T12:00:00+01:00"
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "deprecationDate",
@@ -30627,7 +30627,7 @@
     },
     {
       "code" : "0974",
-      "display" : "Réadaptation de la Mucoviscidose",
+      "display" : "Rééducation de la Mucoviscidose",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -30645,7 +30645,7 @@
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2024-09-27T12:00:00+01:00"
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",

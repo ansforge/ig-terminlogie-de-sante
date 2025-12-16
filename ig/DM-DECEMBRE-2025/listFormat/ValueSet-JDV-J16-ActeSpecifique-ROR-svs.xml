@@ -1914,7 +1914,7 @@
                   displayName="Réadaptation vestibulaire (trouble de l'équilibre)"/>
          <Concept code="0974"
                   codeSystem="1.2.250.1.213.3.3.11"
-                  displayName="Réadaptation de la Mucoviscidose"/>
+                  displayName="Rééducation de la Mucoviscidose"/>
          <Concept code="0975"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="Traitement des lymphoedèmes"/>

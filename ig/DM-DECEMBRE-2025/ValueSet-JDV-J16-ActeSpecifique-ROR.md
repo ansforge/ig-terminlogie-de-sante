@@ -2637,7 +2637,7 @@ Requête sur le SMT
           },
           {
             "code" : "0974",
-            "display" : "Réadaptation de la Mucoviscidose"
+            "display" : "Rééducation de la Mucoviscidose"
           },
           {
             "code" : "0975",
