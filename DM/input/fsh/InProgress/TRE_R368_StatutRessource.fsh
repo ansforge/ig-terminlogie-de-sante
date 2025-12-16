@@ -18,12 +18,15 @@ Description: "Caractérise le statut d'une ressource du médico-social au cours 
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid
-* ^property[=].description = "date de validité d'un code concept"
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
+* ^property[=].description = "Date de validité d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateMaj
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj"
 * ^property[=].description = "Date de mise à jour d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateFin
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin"
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #deprecationDate
@@ -71,6 +74,8 @@ Description: "Caractérise le statut d'une ressource du médico-social au cours 
 * #REALISE ^property[=].valueDateTime = "2024-09-27T12:00:00+01:00"
 * #REALISE ^property[+].code = #dateMaj
 * #REALISE ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #REALISE ^property[+].code = #dateFin
+* #REALISE ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #REALISE ^property[+].code = #deprecationDate
 * #REALISE ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #REALISE ^property[+].code = #status
@@ -94,6 +99,8 @@ Description: "Caractérise le statut d'une ressource du médico-social au cours 
 * #NONDEBUTE ^property[=].valueDateTime = "2025-04-25T12:00:00+01:00"
 * #NONDEBUTE ^property[+].code = #dateMaj
 * #NONDEBUTE ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #NONDEBUTE ^property[+].code = #dateFin
+* #NONDEBUTE ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #NONDEBUTE ^property[+].code = #deprecationDate
 * #NONDEBUTE ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #NONDEBUTE ^property[+].code = #status
@@ -110,6 +117,8 @@ Description: "Caractérise le statut d'une ressource du médico-social au cours 
 * #ENREALISATION ^property[=].valueDateTime = "2025-04-25T12:00:00+01:00"
 * #ENREALISATION ^property[+].code = #dateMaj
 * #ENREALISATION ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #ENREALISATION ^property[+].code = #dateFin
+* #ENREALISATION ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #ENREALISATION ^property[+].code = #deprecationDate
 * #ENREALISATION ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #ENREALISATION ^property[+].code = #status
@@ -118,7 +127,9 @@ Description: "Caractérise le statut d'une ressource du médico-social au cours 
 * #CREATION ^property[0].code = #dateValid
 * #CREATION ^property[=].valueDateTime = "2025-04-25T12:00:00+01:00"
 * #CREATION ^property[+].code = #dateMaj
-* #CREATION ^property[=].valueDateTime = "2025-04-25T12:00:00+01:00"
+* #CREATION ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #CREATION ^property[+].code = #dateFin
+* #CREATION ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #CREATION ^property[+].code = #deprecationDate
 * #CREATION ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #CREATION ^property[+].code = #status
