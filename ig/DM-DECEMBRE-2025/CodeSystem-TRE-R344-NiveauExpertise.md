@@ -1082,7 +1082,7 @@ Le niveau d’expertise atteste du niveau de ressources humaines et matérielles
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-01-31T12:00:00+01:00"
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -1100,7 +1100,7 @@ Le niveau d’expertise atteste du niveau de ressources humaines et matérielles
             "system" : "http://snomed.info/sct",
             "code" : "900000000000013009"
           },
-          "value" : "CRTDAH"
+          "value" : "Centre de réf. Trouble Déficit de l’Attention (CRTDAH)"
         }
       ],
       "property" : [
@@ -1110,7 +1110,7 @@ Le niveau d’expertise atteste du niveau de ressources humaines et matérielles
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-01-31T12:00:00+01:00"
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -1138,7 +1138,7 @@ Le niveau d’expertise atteste du niveau de ressources humaines et matérielles
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-01-31T12:00:00+01:00"
+          "valueDateTime" : "2025-12-31T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -1156,7 +1156,7 @@ Le niveau d’expertise atteste du niveau de ressources humaines et matérielles
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-01-31T12:00:00+01:00"
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -1184,7 +1184,7 @@ Le niveau d’expertise atteste du niveau de ressources humaines et matérielles
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-01-31T12:00:00+01:00"
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",
