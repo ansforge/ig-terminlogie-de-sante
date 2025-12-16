@@ -409,9 +409,9 @@ Description: "Le niveau d'expertise atteste du niveau de ressources humaines et 
 * #43 ^designation[=].use = $sct#900000000000013009
 * #43 ^designation[=].value = "CRA"
 * #43 ^property[0].code = #dateValid
-* #43 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
+* #43 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #43 ^property[+].code = #dateMaj
-* #43 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
+* #43 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #43 ^property[+].code = #status
 * #43 ^property[=].valueCode = #active
 * #44 "Centre de référence des Troubles du Langage et de l’Apprentissage (CRTLA)"
@@ -420,7 +420,7 @@ Description: "Le niveau d'expertise atteste du niveau de ressources humaines et 
 * #44 ^designation[=].use = $sct#900000000000013009
 * #44 ^designation[=].value = "CRTLA"
 * #44 ^property[0].code = #dateValid
-* #44 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
+* #44 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #44 ^property[+].code = #dateMaj
 * #44 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
 * #44 ^property[+].code = #status
@@ -431,7 +431,7 @@ Description: "Le niveau d'expertise atteste du niveau de ressources humaines et 
 * #45 ^designation[=].use = $sct#900000000000013009
 * #45 ^designation[=].value = "CRTDAH"
 * #45 ^property[0].code = #dateValid
-* #45 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
+* #45 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #45 ^property[+].code = #dateMaj
 * #45 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
 * #45 ^property[+].code = #status
@@ -442,14 +442,14 @@ Description: "Le niveau d'expertise atteste du niveau de ressources humaines et 
 * #46 ^designation[=].use = $sct#900000000000013009
 * #46 ^designation[=].value = "CMRR"
 * #46 ^property[0].code = #dateValid
-* #46 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
+* #46 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #46 ^property[+].code = #dateMaj
 * #46 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
 * #46 ^property[+].code = #status
 * #46 ^property[=].valueCode = #active
 * #47 "Centre expert Parkinson "
 * #47 ^property[0].code = #dateValid
-* #47 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
+* #47 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #47 ^property[+].code = #dateMaj
 * #47 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
 * #47 ^property[+].code = #status
@@ -460,7 +460,7 @@ Description: "Le niveau d'expertise atteste du niveau de ressources humaines et 
 * #48 ^designation[=].use = $sct#900000000000013009
 * #48 ^designation[=].value = "Centre de ressources SEP"
 * #48 ^property[0].code = #dateValid
-* #48 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
+* #48 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #48 ^property[+].code = #dateMaj
 * #48 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
 * #48 ^property[+].code = #status

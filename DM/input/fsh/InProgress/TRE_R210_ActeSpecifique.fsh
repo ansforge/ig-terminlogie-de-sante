@@ -11233,7 +11233,7 @@ Id: TRE-R210-ActeSpecifique
 * #0887 ^property[0].code = #dateValid
 * #0887 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
 * #0887 ^property[+].code = #dateMaj
-* #0887 ^property[=].valueDateTime = "2019-07-05T12:00:00+01:00"
+* #0887 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #0887 ^property[+].code = #deprecationDate
 * #0887 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #0887 ^property[+].code = #status
@@ -12344,7 +12344,7 @@ Id: TRE-R210-ActeSpecifique
 * #0973 ^property[=].valueDateTime = "2022-06-24T12:00:00+01:00"
 * #0973 ^property[+].code = #status
 * #0973 ^property[=].valueCode = #active
-* #0974 "Réadaptation de la Mucoviscidose"
+* #0974 "Rééducation de la Mucoviscidose"
 * #0974 ^designation[0].language = #fr-FR
 * #0974 ^designation[=].use.system = "http://snomed.info/sct"
 * #0974 ^designation[=].use = $sct#900000000000013009
@@ -12352,7 +12352,7 @@ Id: TRE-R210-ActeSpecifique
 * #0974 ^property[0].code = #dateValid
 * #0974 ^property[=].valueDateTime = "2020-01-31T12:00:00+01:00"
 * #0974 ^property[+].code = #dateMaj
-* #0974 ^property[=].valueDateTime = "2024-09-27T12:00:00+01:00"
+* #0974 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #0974 ^property[+].code = #status
 * #0974 ^property[=].valueCode = #active
 * #0975 "Traitement des lymphoedèmes"

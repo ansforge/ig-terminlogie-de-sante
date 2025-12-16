@@ -2823,7 +2823,7 @@ Description: "Catégorie d'organisation"
 * #260 ^property[0].code = #dateValid
 * #260 ^property[=].valueDateTime = "2025-04-25T12:00:00+01:00"
 * #260 ^property[+].code = #dateMaj
-* #260 ^property[=].valueDateTime = "2025-04-25T12:00:00+01:00"
+* #260 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #260 ^property[+].code = #deprecationDate
 * #260 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #260 ^property[+].code = #status
