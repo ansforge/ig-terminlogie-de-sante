@@ -18,12 +18,15 @@ Description: "Mode de la prise en charge"
 * ^caseSensitive = false
 * ^content = #complete
 * ^property[0].code = #dateValid
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateMaj
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj"
 * ^property[=].description = "Date de mise à jour d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateFin
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin"
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #deprecationDate
@@ -193,6 +196,8 @@ Description: "Mode de la prise en charge"
 * #14 ^property[0].code = #dateValid
 * #14 ^property[=].valueDateTime = "2015-05-04T00:00:00+01:00"
 * #14 ^property[+].code = #dateMaj
+* #14 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
+* #14 ^property[+].code = #dateFin
 * #14 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
 * #14 ^property[+].code = #deprecationDate
 * #14 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
