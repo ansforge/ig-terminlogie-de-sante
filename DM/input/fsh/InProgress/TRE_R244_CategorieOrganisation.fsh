@@ -3104,7 +3104,7 @@ Description: "Catégorie d'organisation"
 * #286 ^property[=].valueCode = #active
 * #287 "Unité hospitalière de réanimation néonatale"
 * #287 ^designation[0].language = #fr-FR
-* #297 ^designation[=].use.system = "http://snomed.info/sct"
+* #287 ^designation[=].use.system = "http://snomed.info/sct"
 * #287 ^designation[=].use = $sct#900000000000013009
 * #287 ^designation[=].value = "Unité de réa. néonatale"
 * #287 ^property[0].code = #dateValid
