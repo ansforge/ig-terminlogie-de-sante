@@ -15997,11 +15997,11 @@ Id: TRE-R210-ActeSpecifique
 * #1453 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
 * #1453 ^property[+].code = #status
 * #1453 ^property[=].valueCode = #active
-* #1454 "Evaluation et suivi standardisé des commotions cérébrales dans un cadre sportif"
+* #1454 "Evaluation et suivi standardisé clinique et paraclinique des commotions cérébrales (Traumatisme Crânien Léger - TCL) dans un cadre sportif"
 * #1454 ^designation[0].language = #fr-FR
 * #1454 ^designation[=].use.system = "http://snomed.info/sct"
 * #1454 ^designation[=].use = $sct#900000000000013009
-* #1454 ^designation[=].value = "Evaluation et suivi standardisé clinique et paraclinique des commotions cérébrales (Traumatisme Crânien Léger - TCL)"
+* #1454 ^designation[=].value = "Evaluation et suivi standardisé des commotions cérébrales dans un cadre sportif"
 * #1454 ^property[0].code = #dateValid
 * #1454 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
 * #1454 ^property[+].code = #dateMaj
@@ -16096,7 +16096,7 @@ Id: TRE-R210-ActeSpecifique
 * #1466 ^property[=].valueCode = #deprecated
 * #1466 ^property[+].code = #deprecationDate
 * #1466 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
-* #1467 "Evaluation de la vue du sportif "
+* #1467 "Evaluation de la vue du sportif"
 * #1467 ^property[0].code = #dateValid
 * #1467 ^property[=].valueDateTime = "2024-09-27T12:00:00+01:00"
 * #1467 ^property[+].code = #dateMaj
