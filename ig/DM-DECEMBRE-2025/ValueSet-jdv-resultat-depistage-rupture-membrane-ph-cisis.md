@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-rupture-membrane-ph-cisis | *Version*:20251028115832 | |
-| Active as of 2025-10-28 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvResultatDepistageRuptureMembranePhCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-rupture-membrane-ph-cisis | *Version*:20251216141838 | |
+| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvResultatDepistageRuptureMembranePhCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.772 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-resultat-depistage-rupture-membrane-ph-cisis",
   "meta" : {
-    "versionId" : "3",
-    "lastUpdated" : "2025-10-29T10:44:37.538+01:00",
+    "versionId" : "4",
+    "lastUpdated" : "2025-12-17T15:46:29.008+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
@@ -77,12 +77,12 @@ Requête sur le SMT
       "value" : "urn:oid:1.2.250.1.213.1.1.5.772"
     }
   ],
-  "version" : "20251028115832",
+  "version" : "20251216141838",
   "name" : "JdvResultatDepistageRuptureMembranePhCisis",
   "title" : "JDV Resultat Depistage Rupture Membrane Ph CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-10-28T11:58:32+01:00",
+  "date" : "2025-12-16T14:18:38+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Resultat Depistage Rupture Membrane Ph CISIS",
   "jurisdiction" : [

@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-localisation-anesthesie-cisis | *Version*:20251028115835 | |
-| Active as of 2025-10-28 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvLocalisationAnesthesieCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-localisation-anesthesie-cisis | *Version*:20251216141840 | |
+| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvLocalisationAnesthesieCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.594 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-localisation-anesthesie-cisis",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-10-29T10:44:09.934+01:00",
+    "versionId" : "6",
+    "lastUpdated" : "2025-12-17T15:44:55.987+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
@@ -77,12 +77,12 @@ Requête sur le SMT
       "value" : "urn:oid:1.2.250.1.213.1.1.5.594"
     }
   ],
-  "version" : "20251028115835",
+  "version" : "20251216141840",
   "name" : "JdvLocalisationAnesthesieCisis",
   "title" : "JDV Localisation Anesthesie CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-10-28T11:58:35+01:00",
+  "date" : "2025-12-16T14:18:40+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Localisation Anesthesie CISIS",
   "jurisdiction" : [

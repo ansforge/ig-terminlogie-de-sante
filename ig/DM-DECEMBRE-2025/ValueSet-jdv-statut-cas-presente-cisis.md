@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-statut-cas-presente-cisis | *Version*:20250624152100 | |
-| Active as of 2025-06-24 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvStatutCasPresenteCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-statut-cas-presente-cisis | *Version*:20251216141839 | |
+| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvStatutCasPresenteCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.4.2.281.17 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-statut-cas-presente-cisis",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2025-06-25T09:16:13.133+00:00",
+    "versionId" : "5",
+    "lastUpdated" : "2025-12-17T15:47:05.261+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
@@ -77,12 +77,12 @@ Requête sur le SMT
       "value" : "urn:oid:1.2.250.1.213.1.1.4.2.281.17"
     }
   ],
-  "version" : "20250624152100",
+  "version" : "20251216141839",
   "name" : "JdvStatutCasPresenteCisis",
   "title" : "JDV Statut Cas Presente CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-06-24T15:21:00+01:00",
+  "date" : "2025-12-16T14:18:39+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Statut Cas Presente CISIS",
   "jurisdiction" : [

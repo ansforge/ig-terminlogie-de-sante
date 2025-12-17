@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mesure-lentille-prescrite-cisis | *Version*:20250624152059 | |
-| Active as of 2025-06-24 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvMesureLentillePrescriteCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mesure-lentille-prescrite-cisis | *Version*:20251216141838 | |
+| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvMesureLentillePrescriteCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.655 | | |
 
  
@@ -33,8 +33,6 @@ Requête sur le SMT
 
 ### Expansion
 
-No Expansion for this valueset (not supported by Publication Tooling)
-
 -------
 
  Explanation of the columns that may appear on this page: 
@@ -57,8 +55,8 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "resourceType" : "ValueSet",
   "id" : "jdv-mesure-lentille-prescrite-cisis",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2025-06-25T09:14:48.094+00:00",
+    "versionId" : "5",
+    "lastUpdated" : "2025-12-17T15:45:03.459+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
@@ -79,12 +77,12 @@ No Expansion for this valueset (not supported by Publication Tooling)
       "value" : "urn:oid:1.2.250.1.213.1.1.5.655"
     }
   ],
-  "version" : "20250624152059",
+  "version" : "20251216141838",
   "name" : "JdvMesureLentillePrescriteCisis",
   "title" : "JDV Mesure Lentille Prescrite CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-06-24T15:20:59+01:00",
+  "date" : "2025-12-16T14:18:38+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Mesure Lentille Prescrite CISIS",
   "jurisdiction" : [
@@ -100,15 +98,11 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "compose" : {
     "include" : [
       {
-        "system" : "https://smt.esante.gouv.fr/terminologie-ncit",
+        "system" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
         "concept" : [
           {
             "code" : "C53610",
             "display" : "Renouvellement"
-          },
-          {
-            "code" : "C43383",
-            "display" : "modèle"
           }
         ]
       },
@@ -187,6 +181,10 @@ No Expansion for this valueset (not supported by Publication Tooling)
           {
             "code" : "69730-0",
             "display" : "Consignes et conseils"
+          },
+          {
+            "code" : "67716-1",
+            "display" : "modèle du dispositif"
           },
           {
             "code" : "95300-0",

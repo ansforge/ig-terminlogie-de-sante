@@ -28,6 +28,8 @@ La nomenclature européenne des dispositifs médicaux (EMDN) est la nomenclature
 * [JDV_J158_MethodStepsByDay_ENS](ValueSet-JDV-J158-MethodStepsByDay-ENS.md)
 * [JDV_J275_EMDN_UPNOS](ValueSet-JDV-J275-EMDN-UPNOS.md)
 * [JdvDefaillanceMaterielleCisis](ValueSet-jdv-defaillance-materielle-cisis.md)
+* [JdvMesureTypeVerreDelivreCisis](ValueSet-jdv-mesure-type-verre-delivre-cisis.md)
+* [JdvMesureTypeVerrePrescritCisis](ValueSet-jdv-mesure-type-verre-prescrit-cisis.md)
 * [JdvProtheseObjetPersonnelCisis](ValueSet-jdv-prothese-objet-personnel-cisis.md)
 * [JdvTypeSondeGastriqueCisis](ValueSet-jdv-type-sonde-gastrique-cisis.md)
 * [JdvUfcvMaterielImplanteCisis](ValueSet-jdv-ufcv-materiel-implante-cisis.md)

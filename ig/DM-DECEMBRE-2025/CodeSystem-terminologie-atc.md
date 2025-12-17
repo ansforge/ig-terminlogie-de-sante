@@ -18,12 +18,6 @@ La classification ATC (anatomique, thérapeutique et chimique) classe les substa
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* [JdvAllergieVaccinCisis](ValueSet-jdv-allergie-vaccin-cisis.md)
-* [JdvClasseTherapieCisis](ValueSet-jdv-classe-therapie-cisis.md)
-* [JdvDispositionPretherapeutiqueCisis](ValueSet-jdv-disposition-pretherapeutique-cisis.md)
-* [JdvVaccinCse24Cisis](ValueSet-jdv-vaccin-cse24-cisis.md)
-* [JdvVaccinCse8Cisis](ValueSet-jdv-vaccin-cse8-cisis.md)
-* [JdvVaccinCse9Cisis](ValueSet-jdv-vaccin-cse9-cisis.md)
 * [ValueSet_ATC_All](ValueSet-vs-atc-all.md)
 
 

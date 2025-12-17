@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-origine-effet-indesirable-cisis | *Version*:20250624152100 | |
-| Active as of 2025-06-24 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvOrigineEffetIndesirableCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-origine-effet-indesirable-cisis | *Version*:20251216141838 | |
+| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvOrigineEffetIndesirableCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.785 | | |
 
  
@@ -33,8 +33,6 @@ Requête sur le SMT
 
 ### Expansion
 
-No Expansion for this valueset (not supported by Publication Tooling)
-
 -------
 
  Explanation of the columns that may appear on this page: 
@@ -57,8 +55,8 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "resourceType" : "ValueSet",
   "id" : "jdv-origine-effet-indesirable-cisis",
   "meta" : {
-    "versionId" : "3",
-    "lastUpdated" : "2025-06-25T09:15:24.856+00:00",
+    "versionId" : "4",
+    "lastUpdated" : "2025-12-17T15:45:54.197+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
@@ -79,12 +77,12 @@ No Expansion for this valueset (not supported by Publication Tooling)
       "value" : "urn:oid:1.2.250.1.213.1.1.5.785"
     }
   ],
-  "version" : "20250624152100",
+  "version" : "20251216141838",
   "name" : "JdvOrigineEffetIndesirableCisis",
   "title" : "JDV Origine Effet Indesirable CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-06-24T15:21:00+01:00",
+  "date" : "2025-12-16T14:18:38+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Origine Effet Indesirable CISIS",
   "jurisdiction" : [
@@ -102,6 +100,10 @@ No Expansion for this valueset (not supported by Publication Tooling)
       {
         "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
         "concept" : [
+          {
+            "code" : "MED-1334",
+            "display" : "mésusage ou d’un usage détourné"
+          },
           {
             "code" : "MED-1279",
             "display" : "défaut de qualité d’un médicament ou de médicaments falsifiés"
@@ -122,10 +124,6 @@ No Expansion for this valueset (not supported by Publication Tooling)
           {
             "code" : "1149222004",
             "display" : "surdosage"
-          },
-          {
-            "code" : "1.2.250.1.213.1.1.5.785.1",
-            "display" : "mésusage ou d’un usage détourné (Demande de création SNOMED CT en cours)"
           },
           {
             "code" : "398240004",

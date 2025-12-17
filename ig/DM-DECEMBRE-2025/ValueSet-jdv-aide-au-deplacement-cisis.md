@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-aide-au-deplacement-cisis | *Version*:20250624152100 | |
-| Active as of 2025-06-24 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvAideAuDeplacementCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-aide-au-deplacement-cisis | *Version*:20251216141839 | |
+| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvAideAuDeplacementCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.489 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-aide-au-deplacement-cisis",
   "meta" : {
-    "versionId" : "3",
-    "lastUpdated" : "2025-06-25T09:12:38.252+00:00",
+    "versionId" : "4",
+    "lastUpdated" : "2025-12-17T15:42:54.788+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
@@ -77,12 +77,12 @@ Requête sur le SMT
       "value" : "urn:oid:1.2.250.1.213.1.1.5.489"
     }
   ],
-  "version" : "20250624152100",
+  "version" : "20251216141839",
   "name" : "JdvAideAuDeplacementCisis",
   "title" : "JDV Aide Au Deplacement CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-06-24T15:21:00+01:00",
+  "date" : "2025-12-16T14:18:39+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Aide Au Deplacement CISIS",
   "jurisdiction" : [
@@ -115,11 +115,11 @@ Requête sur le SMT
         "concept" : [
           {
             "code" : "895457008",
-            "display" : "se déplace avec canne"
+            "display" : "se déplace avec une canne"
           },
           {
             "code" : "895488007",
-            "display" : "se déplace avec déambulateur"
+            "display" : "se déplace avec un déambulateur"
           },
           {
             "code" : "301578005",

@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-methode-de-mesure-acuite-visuelle-cisis | *Version*:20250624152100 | |
-| Active as of 2025-06-24 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvMethodeDeMesureAcuiteVisuelleCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-methode-de-mesure-acuite-visuelle-cisis | *Version*:20251216141839 | |
+| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvMethodeDeMesureAcuiteVisuelleCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.715 | | |
 
  
@@ -57,8 +57,8 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "resourceType" : "ValueSet",
   "id" : "jdv-methode-de-mesure-acuite-visuelle-cisis",
   "meta" : {
-    "versionId" : "3",
-    "lastUpdated" : "2025-06-25T09:14:51.413+00:00",
+    "versionId" : "4",
+    "lastUpdated" : "2025-12-17T15:45:10.062+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
@@ -79,12 +79,12 @@ No Expansion for this valueset (not supported by Publication Tooling)
       "value" : "urn:oid:1.2.250.1.213.1.1.5.715"
     }
   ],
-  "version" : "20250624152100",
+  "version" : "20251216141839",
   "name" : "JdvMethodeDeMesureAcuiteVisuelleCisis",
   "title" : "JDV Methode De Mesure Acuite Visuelle CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-06-24T15:21:00+01:00",
+  "date" : "2025-12-16T14:18:39+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Methode De Mesure Acuite Visuelle CISIS",
   "jurisdiction" : [
@@ -100,7 +100,7 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "compose" : {
     "include" : [
       {
-        "system" : "https://smt.esante.gouv.fr/terminologie-ncit",
+        "system" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
         "concept" : [
           {
             "code" : "C117877",
@@ -130,7 +130,7 @@ No Expansion for this valueset (not supported by Publication Tooling)
         "concept" : [
           {
             "code" : "252973004",
-            "display" : "échelle de Snellen"
+            "display" : "évaluation par échelle de Snellen"
           },
           {
             "code" : "252872008",

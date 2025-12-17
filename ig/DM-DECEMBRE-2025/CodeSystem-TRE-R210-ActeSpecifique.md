@@ -40142,7 +40142,7 @@
     },
     {
       "code" : "1454",
-      "display" : "Evaluation et suivi standardisé des commotions cérébrales dans un cadre sportif",
+      "display" : "Evaluation et suivi standardisé clinique et paraclinique des commotions cérébrales (Traumatisme Crânien Léger - TCL) dans un cadre sportif",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -40150,7 +40150,7 @@
             "system" : "http://snomed.info/sct",
             "code" : "900000000000013009"
           },
-          "value" : "Evaluation et suivi standardisé clinique et paraclinique des commotions cérébrales (Traumatisme Crânien Léger - TCL)"
+          "value" : "Evaluation et suivi standardisé des commotions cérébrales dans un cadre sportif"
         }
       ],
       "property" : [
@@ -40395,7 +40395,7 @@
     },
     {
       "code" : "1467",
-      "display" : "Evaluation de la vue du sportif ",
+      "display" : "Evaluation de la vue du sportif",
       "property" : [
         {
           "code" : "dateValid",

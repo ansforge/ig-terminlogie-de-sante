@@ -1,10 +1,10 @@
 Terminologies : Validation Results
 =========================================
 
-err = 119, warn = 2138, info = 5573
+err = 127, warn = 2124, info = 5576
 $--
 Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https://interop.esante.gouv.fr/terminologies)
- Build Errors : 6 / 21 / 0
+ Build Errors : 15 / 21 / 0
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-ActMood-supplement-fr : 0 / 0 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-ActPriority-supplement-fr : 0 / 0 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-ActStatus-supplement-fr : 0 / 0 / 2
@@ -19,7 +19,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-RoleCode-supplement-fr : 0 / 0 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-A06-FormatCodeComplementaire : 0 / 7 / 3
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R16-LieuFormation : 0 / 7 / 3
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R210-ActeSpecifique : 1 / 10 / 3
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R210-ActeSpecifique : 1 / 9 / 3
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R211-ActiviteOperationnelle : 0 / 7 / 3
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R212-Equipement : 0 / 9 / 3
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-TRE-R213-ModePriseEnCharge : 0 / 7 / 3
@@ -385,7 +385,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAgeDeSurvenueCisis_jdv-age-de-survenue-cisis : 0 / 0 / 3
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAideAuDeplacementCisis_jdv-aide-au-deplacement-cisis : 0 / 0 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAllergieVaccinCisis_jdv-allergie-vaccin-cisis : 0 / 0 / 5
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAnomalieCroissanceCisis_jdv-anomalie-croissance-cisis : 0 / 0 / 3
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAnomalieCroissanceCisis_jdv-anomalie-croissance-cisis : 0 / 0 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAntecedantMedicalCisis_jdv-antecedant-medical-cisis : 0 / 0 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAntecedentCse24Cisis_jdv-antecedent-cse24-cisis : 0 / 0 / 3
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvAntecedentCse9Cisis_jdv-antecedent-cse9-cisis : 0 / 0 / 3
@@ -407,10 +407,10 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvBilanTechniqueCisis_jdv-bilan-technique-cisis : 0 / 1 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvBioInstructionPatientCisis_jdv-bio-instruction-patient-cisis : 0 / 0 / 3
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvCasSporadiqueFamilialCisis_jdv-cas-sporadique-familial-cisis : 0 / 0 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvCauseAccidentDomestiqueCisis_jdv-cause-accident-domestique-cisis : 0 / 0 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvCauseAccidentDomestiqueCisis_jdv-cause-accident-domestique-cisis : 1 / 0 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvCauseCesarienneCisis_jdv-cause-cesarienne-cisis : 0 / 0 / 3
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvCddFaCisis_jdv-cdd-fa-cisis : 0 / 0 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvCerveletLocalisationCisis_jdv-cervelet-localisation-cisis : 1 / 0 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvCerveletLocalisationCisis_jdv-cervelet-localisation-cisis : 0 / 0 / 3
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvChecklistDluCisis_jdv-checklist-dlu-cisis : 0 / 4 / 3
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvChecklistFludrCisis_jdv-checklist-fludr-cisis : 0 / 0 / 3
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvCirconstanceDecesCisis_jdv-circonstance-deces-cisis : 0 / 0 / 4
@@ -425,12 +425,12 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvCodeProblemeCisis_jdv-code-probleme-cisis : 0 / 0 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvCompletudeDispensationCisis_jdv-completude-dispensation-cisis : 0 / 1 / 7
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvComplicationCisis_jdv-complication-cisis : 0 / 0 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvComplicationDigestiveCisis_jdv-complication-digestive-cisis : 0 / 0 / 3
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvComplicationDigestiveCisis_jdv-complication-digestive-cisis : 0 / 0 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvComplicationNeurologiqueCisis_jdv-complication-neurologique-cisis : 0 / 0 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvComplicationNeuropsychiatriqueCisis_jdv-complication-neuropsychiatrique-cisis : 2 / 0 / 3
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvComplicationPulmonaireCisis_jdv-complication-pulmonaire-cisis : 0 / 0 / 3
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvComplicationNeuropsychiatriqueCisis_jdv-complication-neuropsychiatrique-cisis : 0 / 0 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvComplicationPulmonaireCisis_jdv-complication-pulmonaire-cisis : 0 / 0 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvComplicationThromboemboliqueCisis_jdv-complication-thromboembolique-cisis : 0 / 0 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvComplicationUrinaireCisis_jdv-complication-urinaire-cisis : 0 / 0 / 3
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvComplicationUrinaireCisis_jdv-complication-urinaire-cisis : 0 / 0 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvConclusionSimplifieeCcuCisis_jdv-conclusion-simplifiee-ccu-cisis : 0 / 0 / 3
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvConditionnementCisis_jdv-conditionnement-cisis : 1 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvConduiteATenir1Cisis_jdv-conduite-a-tenir-1-cisis : 0 / 1 / 5
@@ -443,7 +443,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvCouvertureSocialeCisis_jdv-couverture-sociale-cisis : 0 / 0 / 3
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvDateConsultationCisis_jdv-date-consultation-cisis : 0 / 0 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvDefaillanceMaterielleCisis_jdv-defaillance-materielle-cisis : 1 / 1 / 5
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvDeficiencePhysiqueCisis_jdv-deficience-physique-cisis : 0 / 2 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvDeficiencePhysiqueCisis_jdv-deficience-physique-cisis : 1 / 2 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvDelimitationActiviteCisis_jdv-delimitation-activite-cisis : 0 / 0 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvDensiteMammaireCisis_jdv-densite-mammaire-cisis : 0 / 0 / 3
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvDepistageNeonatalCisis_jdv-depistage-neonatal-cisis : 0 / 0 / 4
@@ -459,11 +459,12 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvDureeAllaitementCisis_jdv-duree-allaitement-cisis : 0 / 0 / 3
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvEncompassingEncounterCodeCisis_jdv-encompassing-encounter-code-cisis : 0 / 1 / 10
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvEnfantExposeAuxEcransCs24Cisis_jdv-enfant-expose-aux-ecrans-cs24-cisis : 0 / 0 / 3
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvEtatNaissanceCisis_jdv-etat-naissance-cisis : 0 / 0 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvEtatDeConscienceCisis_jdv-etat-de-conscience-cisis : 2 / 0 / 3
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvEtatNaissanceCisis_jdv-etat-naissance-cisis : 0 / 0 / 5
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvEtatPerineeCisis_jdv-etat-perinee-cisis : 0 / 0 / 5
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvEtatPsychiqueCisis_jdv-etat-psychique-cisis : 0 / 0 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvEtiologieAvcCisis_jdv-etiologie-avc-cisis : 0 / 0 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvEtiologieHemorragieCisis_jdv-etiologie-hemorragie-cisis : 0 / 0 / 3
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvEtiologieHemorragieCisis_jdv-etiologie-hemorragie-cisis : 0 / 0 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvEtiologieInfarctusCisis_jdv-etiologie-infarctus-cisis : 0 / 0 / 3
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvEvaluationAggirPaCisis_jdv-evaluation-aggir-pa-cisis : 0 / 0 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvEvaluationAggirPhCisis_jdv-evaluation-aggir-ph-cisis : 0 / 0 / 4
@@ -493,7 +494,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvFonctionEtudieeTepCisis_jdv-fonction-etudiee-tep-cisis : 0 / 0 / 3
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvGeneCisis_jdv-gene-cisis : 1 / 0 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvGesteReanimationNouveauNeCisis_jdv-geste-reanimation-nouveau-ne-cisis : 0 / 0 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvGestionEffetSecondaireCisis_jdv-gestion-effet-secondaire-cisis : 1 / 1 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvGestionEffetSecondaireCisis_jdv-gestion-effet-secondaire-cisis : 1 / 0 / 3
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvGirCisis_jdv-gir-cisis : 0 / 0 / 3
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvGraviteCisis_jdv-gravite-cisis : 0 / 0 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvGroupeRhesusCisis_jdv-groupe-rhesus-cisis : 0 / 0 / 4
@@ -542,19 +543,19 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvMalformationAntenataleCisis_jdv-malformation-antenatale-cisis : 0 / 0 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvMediatypeCorpsCdaNonStructureCisis_jdv-mediatype-corps-cda-non-structure-cisis : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvMesureAssocieeCisis_jdv-mesure-associee-cisis : 0 / 0 / 3
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvMesureLentilleDelivreeCisis_jdv-mesure-lentille-delivree-cisis : 1 / 1 / 5
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvMesureLentillePrescriteCisis_jdv-mesure-lentille-prescrite-cisis : 1 / 1 / 5
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvMesureLentilleDelivreeCisis_jdv-mesure-lentille-delivree-cisis : 0 / 0 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvMesureLentillePrescriteCisis_jdv-mesure-lentille-prescrite-cisis : 0 / 0 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvMesureProtectionConduiteAutomobileCisis_jdv-mesure-protection-conduite-automobile-cisis : 0 / 0 / 3
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvMesureTypeVerreDelivreCisis_jdv-mesure-type-verre-delivre-cisis : 1 / 1 / 5
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvMesureTypeVerrePrescritCisis_jdv-mesure-type-verre-prescrit-cisis : 1 / 1 / 5
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvMesureTypeVerreDelivreCisis_jdv-mesure-type-verre-delivre-cisis : 1 / 0 / 5
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvMesureTypeVerrePrescritCisis_jdv-mesure-type-verre-prescrit-cisis : 0 / 0 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvMesureVerreDelivreCisis_jdv-mesure-verre-delivre-cisis : 0 / 0 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvMesureVerrePrescritCisis_jdv-mesure-verre-prescrit-cisis : 0 / 0 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvMethodeAccouchementCisis_jdv-methode-accouchement-cisis : 0 / 0 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvMethodeDeMesureAcuiteVisuelleCisis_jdv-methode-de-mesure-acuite-visuelle-cisis : 1 / 1 / 5
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvMethodeDeMesureAcuiteVisuelleCisis_jdv-methode-de-mesure-acuite-visuelle-cisis : 1 / 0 / 5
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvMethodePreparationEchantillonCisis_jdv-methode-preparation-echantillon-cisis : 0 / 0 / 3
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvMilieuCytologieCcuCisis_jdv-milieu-cytologie-ccu-cisis : 0 / 0 / 3
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvModaliteAcquisitionCisis_jdv-modalite-acquisition-cisis : 0 / 1 / 52
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvModaliteDemandeActeImagerieCisis_jdv-modalite-demande-acte-imagerie-cisis : 1 / 2 / 10
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvModaliteDemandeActeImagerieCisis_jdv-modalite-demande-acte-imagerie-cisis : 1 / 1 / 9
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvModaliteEntreeCisis_jdv-modalite-entree-cisis : 0 / 0 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvModaliteSortieCisis_jdv-modalite-sortie-cisis : 0 / 0 / 3
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvModeAccouchementCisis_jdv-mode-accouchement-cisis : 0 / 0 / 4
@@ -575,7 +576,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvMotifConsultationOphtalmologiqueCisis_jdv-motif-consultation-ophtalmologique-cisis : 0 / 0 / 3
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvMotifDeclenchementTravailCisis_jdv-motif-declenchement-travail-cisis : 0 / 0 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvMotifDiagnosticCisis_jdv-motif-diagnostic-cisis : 0 / 0 / 3
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvMotifEchographieCisis_jdv-motif-echographie-cisis : 1 / 1 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvMotifEchographieCisis_jdv-motif-echographie-cisis : 2 / 0 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvMotifHospitalisationCseCisis_jdv-motif-hospitalisation-cse-cisis : 0 / 0 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvMotifMiseAJourCisis_jdv-motif-mise-a-jour-cisis : 0 / 0 / 3
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvMotifNonRealisationEvenementCisis_jdv-motif-non-realisation-evenement-cisis : 0 / 0 / 3
@@ -608,7 +609,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvOeilExamineCisis_jdv-oeil-examine-cisis : 0 / 0 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvOrganeCisis_jdv-organe-cisis : 1 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvOrientationBaseDuPrismeCisis_jdv-orientation-base-du-prisme-cisis : 0 / 0 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvOrigineEffetIndesirableCisis_jdv-origine-effet-indesirable-cisis : 1 / 0 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvOrigineEffetIndesirableCisis_jdv-origine-effet-indesirable-cisis : 0 / 0 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvParticipantAdditionnelResultatCisis_jdv-participant-additionnel-resultat-cisis : 0 / 1 / 8
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvParticipantResultatCisis_jdv-participant-resultat-cisis : 0 / 1 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvPatho1ereSemaineCs8Cisis_jdv-patho-1ere-semaine-cs8-cisis : 0 / 0 / 4
@@ -629,7 +630,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvRaisonAbsenceEtiologieCisis_jdv-raison-absence-etiologie-cisis : 0 / 0 / 3
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvRaisonNonRealisationCisis_jdv-raison-non-realisation-cisis : 0 / 0 / 3
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvRcpAppareilCisis_jdv-rcp-appareil-cisis : 0 / 0 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvRcpOrganeCisis_jdv-rcp-organe-cisis : 1 / 1 / 5
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvRcpOrganeCisis_jdv-rcp-organe-cisis : 1 / 0 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvReadaptationCisis_jdv-readaptation-cisis : 0 / 0 / 3
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvRealisationActiviteCisis_jdv-realisation-activite-cisis : 0 / 0 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvRechercheAghbsCisis_jdv-recherche-aghbs-cisis : 0 / 0 / 4
@@ -695,7 +696,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvSocialHistoryCodeCisis_jdv-social-history-code-cisis : 0 / 0 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvSoinOncoDeSupportCisis_jdv-soin-onco-de-support-cisis : 0 / 0 / 3
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvSopClassCisis_jdv-sop-class-cisis : 1 / 1 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvSpecimenTypeCisis_jdv-specimen-type-cisis : 0 / 3 / 317
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvSpecimenTypeCisis_jdv-specimen-type-cisis : 0 / 3 / 316
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvStaticSemProcedureCisis_jdv-static-sem-procedure-cisis : 1 / 0 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvStatutActuelDiagnosticCisis_jdv-statut-actuel-diagnostic-cisis : 0 / 0 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvStatutCasPresenteCisis_jdv-statut-cas-presente-cisis : 0 / 0 / 3
@@ -705,7 +706,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvStatutQuorumCisis_jdv-statut-quorum-cisis : 0 / 0 / 3
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvStatutResultatCisis_jdv-statut-resultat-cisis : 0 / 0 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvStatutTabagiqueCisis_jdv-statut-tabagique-cisis : 0 / 0 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvStructureDeSoinsCisis_jdv-structure-de-soins-cisis : 0 / 1 / 3
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvStructureDeSoinsCisis_jdv-structure-de-soins-cisis : 10 / 1 / 3
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvSupportNutritionnelCisis_jdv-support-nutritionnel-cisis : 0 / 0 / 3
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvSymptomeAvcCisis_jdv-symptome-avc-cisis : 0 / 0 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvTailleCisis_jdv-taille-cisis : 0 / 0 / 4
@@ -723,9 +724,10 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvTopoTroubleCisis_jdv-topo-trouble-cisis : 0 / 0 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvTraiteNontraiteCisis_jdv-traite-nontraite-cisis : 0 / 0 / 3
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvTraitementPreventifCisis_jdv-traitement-preventif-cisis : 0 / 0 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvTraitementSoinsFrcpCisis_jdv-traitement-soins-frcp-cisis : 1 / 1 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvTraitementSoinsFrcpCisis_jdv-traitement-soins-frcp-cisis : 1 / 0 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvTraitementSuiviCisis_jdv-traitement-suivi-cisis : 0 / 0 / 3
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvTransfertMutationCisis_jdv-transfert-mutation-cisis : 0 / 0 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvTrodExamenCisis_jdv-trod-examen-cisis : 2 / 0 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvTroubleVisuelCisis_jdv-trouble-visuel-cisis : 0 / 0 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvTrousseCcuCisis_jdv-trousse-ccu-cisis : 1 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvTumeurCisis_jdv-tumeur-cisis : 0 / 0 / 4
@@ -752,7 +754,7 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvTypeDispositifOculaireCisis_jdv-type-dispositif-oculaire-cisis : 0 / 0 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvTypeDossierCisis_jdv-type-dossier-cisis : 0 / 0 / 3
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvTypeEvaluationCisis_jdv-type-evaluation-cisis : 0 / 0 / 3
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvTypeEvenementIndesirablePrevisibleCisis_jdv-type-evenement-indesirable-previsible-cisis : 1 / 0 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvTypeEvenementIndesirablePrevisibleCisis_jdv-type-evenement-indesirable-previsible-cisis : 0 / 0 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvTypeEvenementSsiadCisis_jdv-type-evenement-ssiad-cisis : 0 / 0 / 3
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvTypeGardeCisis_jdv-type-garde-cisis : 0 / 0 / 3
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvTypeHistoEtatTumoralCisis_jdv-type-histo-etat-tumoral-cisis : 1 / 1 / 4
@@ -767,20 +769,20 @@ Generated $--. FHIR version $-- for ans.fr.terminologies#$-- (canonical = https:
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvTypePelevementOrigineCisis_jdv-type-pelevement-origine-cisis : 1 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvTypePresentationCisis_jdv-type-presentation-cisis : 0 / 0 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvTypePriseEnChargeCisis_jdv-type-prise-en-charge-cisis : 0 / 0 / 3
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvTypeProduitSanguinLabileCisis_jdv-type-produit-sanguin-labile-cisis : 1 / 1 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvTypeProduitSanguinLabileCisis_jdv-type-produit-sanguin-labile-cisis : 1 / 0 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvTypeRencontreCisis_jdv-type-rencontre-cisis : 0 / 0 / 3
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvTypeRencontreObpCisis_jdv-type-rencontre-obp-cisis : 0 / 0 / 3
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvTypeResultatCisis_jdv-type-resultat-cisis : 0 / 0 / 3
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvTypeServiceCisis_jdv-type-service-cisis : 0 / 0 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvTypeSondeGastriqueCisis_jdv-type-sonde-gastrique-cisis : 0 / 0 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvTypeSystemeCisis_jdv-type-systeme-cisis : 0 / 0 / 3
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvTypeTraitementFrcpCisis_jdv-type-traitement-frcp-cisis : 1 / 1 / 5
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvTypeTraitementFrcpCisis_jdv-type-traitement-frcp-cisis : 1 / 0 / 5
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvTypeTraitementIvCisis_jdv-type-traitement-iv-cisis : 0 / 0 / 4
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvTypeTraitementPpsCisis_jdv-type-traitement-pps-cisis : 1 / 1 / 5
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvTypeTraitementPpsCisis_jdv-type-traitement-pps-cisis : 1 / 0 / 5
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvUfcvCodeEntreeCisis_jdv-ufcv-code-entree-cisis : 0 / 0 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvUfcvComposantProtheseValvulaireCisis_jdv-ufcv-composant-prothese-valvulaire-cisis : 0 / 0 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvUfcvConnexionSondeCisis_jdv-ufcv-connexion-sonde-cisis : 0 / 0 / 3
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvUfcvEffetInrCisis_jdv-ufcv-effet-inr-cisis : 1 / 0 / 4
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvUfcvEffetInrCisis_jdv-ufcv-effet-inr-cisis : 0 / 0 / 3
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvUfcvLateraliteCisis_jdv-ufcv-lateralite-cisis : 0 / 0 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvUfcvLocalisationDefibrillateurCisis_jdv-ufcv-localisation-defibrillateur-cisis : 0 / 0 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvUfcvLocalisationSondeCisis_jdv-ufcv-localisation-sonde-cisis : 0 / 0 / 4
@@ -1103,7 +1105,16 @@ WARNING: Unable to find ImplementationGuide.definition.resource.description for 
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ConceptMap/alignement-nuva-cipucd.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ConceptMap/alignement-nuva-bdpm.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ConceptMap/alignement-bdpm-cipucd.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-ERROR: ValueSet-jdv-complication-neuropsychiatrique-cisis.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 378, column 11: The link 'CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-525' for "MED-525" cannot be resolved (valid targets: 1594 targets)
+ERROR: ValueSet-jdv-structure-de-soins-cisis.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 371, column 498: The link 'CodeSystem-terminologie-cisis.html#terminologie-cisis-ORG-109' for "ORG-109" cannot be resolved (valid targets: 1593 targets)
+ERROR: ValueSet-jdv-structure-de-soins-cisis.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 371, column 667: The link 'CodeSystem-terminologie-cisis.html#terminologie-cisis-ORG-110' for "ORG-110" cannot be resolved (valid targets: 1593 targets)
+ERROR: ValueSet-jdv-structure-de-soins-cisis.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 371, column 855: The link 'CodeSystem-terminologie-cisis.html#terminologie-cisis-ORG-054' for "ORG-054" cannot be resolved (valid targets: 1593 targets)
+ERROR: ValueSet-jdv-structure-de-soins-cisis.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 371, column 1000: The link 'CodeSystem-terminologie-cisis.html#terminologie-cisis-ORG-055' for "ORG-055" cannot be resolved (valid targets: 1593 targets)
+ERROR: ValueSet-jdv-structure-de-soins-cisis.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 371, column 1130: The link 'CodeSystem-terminologie-cisis.html#terminologie-cisis-ORG-056' for "ORG-056" cannot be resolved (valid targets: 1593 targets)
+ERROR: ValueSet-jdv-structure-de-soins-cisis.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 371, column 1282: The link 'CodeSystem-terminologie-cisis.html#terminologie-cisis-ORG-057' for "ORG-057" cannot be resolved (valid targets: 1593 targets)
+ERROR: ValueSet-jdv-structure-de-soins-cisis.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 371, column 1437: The link 'CodeSystem-terminologie-cisis.html#terminologie-cisis-ORG-059' for "ORG-059" cannot be resolved (valid targets: 1593 targets)
+ERROR: ValueSet-jdv-structure-de-soins-cisis.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 371, column 1568: The link 'CodeSystem-terminologie-cisis.html#terminologie-cisis-ORG-060' for "ORG-060" cannot be resolved (valid targets: 1593 targets)
+ERROR: ValueSet-jdv-structure-de-soins-cisis.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 371, column 1717: The link 'CodeSystem-terminologie-cisis.html#terminologie-cisis-ORG-061' for "ORG-061" cannot be resolved (valid targets: 1593 targets)
+ERROR: ValueSet-jdv-structure-de-soins-cisis.html#/html/body/div/div/div/div/div/div/div/input/div/div/div/ul/li/table/tr/td/a at Line 371, column 1875: The link 'CodeSystem-terminologie-cisis.html#terminologie-cisis-ORG-062' for "ORG-062" cannot be resolved (valid targets: 1593 targets)
 ERROR: downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 206, column 8: The link 'definitions.json.zip' for "JSON Définitions (zip)" cannot be resolved
 ERROR: downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 207, column 8: The link 'examples.json.zip' for "JSON Exemples (zip)" cannot be resolved
 ERROR: downloads.html#/html/body/div/div/div/div/div/ul/li/a at Line 208, column 8: The link 'definitions.xml.zip' for "XML Definitions (zip)" cannot be resolved
@@ -1165,7 +1176,6 @@ ERROR: CodeSystem/TRE-R210-ActeSpecifique: CodeSystem: CodeSystem.description: m
 WARNING: CodeSystem/TRE-R210-ActeSpecifique: CodeSystem.property[0].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#dateValid'
 WARNING: CodeSystem/TRE-R210-ActeSpecifique: CodeSystem.property[1].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj'
 WARNING: CodeSystem/TRE-R210-ActeSpecifique: CodeSystem.property[2].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#dateFin'
-WARNING: CodeSystem/TRE-R210-ActeSpecifique: CodeSystem.concept[1465].display: value should not start or finish with whitespace 'Evaluation de la vue du sportif\u00a0'
 WARNING: CodeSystem/TRE-R210-ActeSpecifique: CodeSystem.concept[1571].display: value should not start or finish with whitespace 'Centre expert Parkinson '
 WARNING: CodeSystem/TRE-R210-ActeSpecifique: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.title is mandatory, but it is not present
 WARNING: CodeSystem/TRE-R210-ActeSpecifique: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.description is mandatory, but it is not present
@@ -3445,8 +3455,8 @@ WARNING: ValueSet/JDV-J146-MethodBodyHeight-ENS: ValueSet.compose.include[0].sys
 INFORMATION: ValueSet/JDV-J146-MethodBodyHeight-ENS: ValueSet.compose.include[0].concept[0]: A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-ncit' could not be found, so the code cannot be validated
 INFORMATION: ValueSet/JDV-J146-MethodBodyHeight-ENS: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
 WARNING: ValueSet/JDV-J146-MethodBodyHeight-ENS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-ERROR: ValueSet.where(id = 'JDV-J146-MethodBodyHeight-ENS'): Error from https://smt.esante.gouv.fr/fhir: Error: [75fdad62-3859-4261-959a-6363ac4c3c70]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
-Information: X-Request-Id: 51a55f4b-d7ef-4c61-a68e-1965567bfc33
+ERROR: ValueSet.where(id = 'JDV-J146-MethodBodyHeight-ENS'): Error from https://smt.esante.gouv.fr/fhir: Error: [7a7a3c45-757b-4a50-acdb-f033e46b738b]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
+Information: X-Request-Id: 3bc8b9a8-5cef-4236-865a-f0fe860a68e5
 == input/ontoserver/JDV/JDV_J14_QualiteRepresentantLegal_CISIS_JDV-J14-QualiteRepresentantLegal-CISIS.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 WARNING: ValueSet/JDV-J14-QualiteRepresentantLegal-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
@@ -3487,8 +3497,8 @@ INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir
 WARNING: ValueSet/JDV-J159-MethodPainSeverity-ENS: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-ncit'
 INFORMATION: ValueSet/JDV-J159-MethodPainSeverity-ENS: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
 WARNING: ValueSet/JDV-J159-MethodPainSeverity-ENS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-ERROR: ValueSet.where(id = 'JDV-J159-MethodPainSeverity-ENS'): Error from https://smt.esante.gouv.fr/fhir: Error: [160b7e00-a319-429c-8e52-189622f80a16]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
-Information: X-Request-Id: 24df828a-5a4e-4e70-96d2-352c1c14f0a5
+ERROR: ValueSet.where(id = 'JDV-J159-MethodPainSeverity-ENS'): Error from https://smt.esante.gouv.fr/fhir: Error: [bb093bd2-0bb4-4464-a096-a36a5c8da577]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
+Information: X-Request-Id: 885899e4-e045-4195-bd9f-ea50360cb5b6
 == input/ontoserver/JDV/JDV_J15_ClasseAge_ROR_JDV-J15-ClasseAge-ROR.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 WARNING: ValueSet/JDV-J15-ClasseAge-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
@@ -4959,8 +4969,8 @@ INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir
 WARNING: ValueSet/JDV-J277-NCIT-CISIS: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-ncit'
 INFORMATION: ValueSet/JDV-J277-NCIT-CISIS: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
 WARNING: ValueSet/JDV-J277-NCIT-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-ERROR: ValueSet.where(id = 'JDV-J277-NCIT-CISIS'): Error from https://smt.esante.gouv.fr/fhir: Error: [77e25300-f0bb-4b30-8f7c-f75f14588d4f]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
-Information: X-Request-Id: 805162d4-025d-40dd-ad0d-6a5a40f580cf
+ERROR: ValueSet.where(id = 'JDV-J277-NCIT-CISIS'): Error from https://smt.esante.gouv.fr/fhir: Error: [c218a97c-367a-4eba-ae55-c658e793d0f9]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
+Information: X-Request-Id: 809f238b-2d5e-41d8-b41f-6ee9d632f36f
 == input/ontoserver/JDV/JDV_J278_UcumUniteMesure_UPNOS_JDV-J278-UcumUniteMesure-UPNOS.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 INFORMATION: ValueSet/JDV-J278-UcumUniteMesure-UPNOS: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
@@ -5110,8 +5120,8 @@ INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir
 WARNING: ValueSet/JDV-J51-FamilleActiviteOperationnelle-ROR: ValueSet.compose.include[1].system: No definition could be found for URL value 'https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin'
 INFORMATION: ValueSet/JDV-J51-FamilleActiviteOperationnelle-ROR: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
 WARNING: ValueSet/JDV-J51-FamilleActiviteOperationnelle-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-ERROR: ValueSet.where(id = 'JDV-J51-FamilleActiviteOperationnelle-ROR'): Error from https://smt.esante.gouv.fr/fhir: Error: [e928bc6c-bdb8-4838-8cab-3dd5cb024935]: A usable code system with URL https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin could not be resolved.
-Information: X-Request-Id: 8ff06756-18b5-45a4-ad72-7d651eb9ba4c
+ERROR: ValueSet.where(id = 'JDV-J51-FamilleActiviteOperationnelle-ROR'): Error from https://smt.esante.gouv.fr/fhir: Error: [e29623e4-d856-4646-9ad9-9396c2bf0e35]: A usable code system with URL https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin could not be resolved.
+Information: X-Request-Id: e98748f8-0fa8-4f60-ab54-2686ae0b6350
 == input/ontoserver/JDV/JDV_J52_AvailabilityStatus_CISIS_JDV-J52-AvailabilityStatus-CISIS.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 WARNING: ValueSet/JDV-J52-AvailabilityStatus-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
@@ -5769,27 +5779,28 @@ INFORMATION: ValueSet/jdv-aide-au-deplacement-cisis: ValueSet.compose.include[1]
 == input/ontoserver/JDV/JdvAllergieVaccinCisis_jdv-allergie-vaccin-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 INFORMATION: ValueSet/jdv-allergie-vaccin-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
-INFORMATION: ValueSet/jdv-allergie-vaccin-cisis: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
+INFORMATION: ValueSet/jdv-allergie-vaccin-cisis: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvAnomalieCroissanceCisis_jdv-anomalie-croissance-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
+INFORMATION: ValueSet/jdv-anomalie-croissance-cisis: ValueSet.compose.include[0].concept[0]: Wrong Display Name 'Croissance lente du fœtus, sans précision' for http://hl7.org/fhir/sid/icd-10#P05.9. Valid display is 'Slow fetal growth, unspecified' (for the language(s) 'fr'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
 == input/ontoserver/JDV/JdvAntecedantMedicalCisis_jdv-antecedant-medical-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
-INFORMATION: ValueSet/jdv-antecedant-medical-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
+INFORMATION: ValueSet/jdv-antecedant-medical-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvAntecedentCse24Cisis_jdv-antecedent-cse24-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 == input/ontoserver/JDV/JdvAntecedentCse9Cisis_jdv-antecedent-cse9-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 == input/ontoserver/JDV/JdvAntecedentObstetricalCisis_jdv-antecedent-obstetrical-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
-INFORMATION: ValueSet/jdv-antecedent-obstetrical-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
+INFORMATION: ValueSet/jdv-antecedent-obstetrical-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
 INFORMATION: ValueSet/jdv-antecedent-obstetrical-cisis: ValueSet.compose.include[2]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvAntecedentObstetricalObpCisis_jdv-antecedent-obstetrical-obp-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
-INFORMATION: ValueSet/jdv-antecedent-obstetrical-obp-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
+INFORMATION: ValueSet/jdv-antecedent-obstetrical-obp-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
 INFORMATION: ValueSet/jdv-antecedent-obstetrical-obp-cisis: ValueSet.compose.include[2]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvAntecedentPersonnelCisis_jdv-antecedent-personnel-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
-INFORMATION: ValueSet/jdv-antecedent-personnel-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
+INFORMATION: ValueSet/jdv-antecedent-personnel-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
 INFORMATION: ValueSet/jdv-antecedent-personnel-cisis: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvAppreciationDiagnosticCentreCisis_jdv-appreciation-diagnostic-centre-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
@@ -5814,11 +5825,11 @@ INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir
 INFORMATION: ValueSet/jdv-autre-risque-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvAutreSymptomeAvcCisis_jdv-autre-symptome-avc-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
-INFORMATION: ValueSet/jdv-autre-symptome-avc-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
+INFORMATION: ValueSet/jdv-autre-symptome-avc-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
 INFORMATION: ValueSet/jdv-autre-symptome-avc-cisis: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvAutreSymptomeExNeuroCisis_jdv-autre-symptome-ex-neuro-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
-INFORMATION: ValueSet/jdv-autre-symptome-ex-neuro-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
+INFORMATION: ValueSet/jdv-autre-symptome-ex-neuro-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
 INFORMATION: ValueSet/jdv-autre-symptome-ex-neuro-cisis: ValueSet.compose.include[2]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvAvisMedicalComplementaireCisis_jdv-avis-medical-complementaire-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
@@ -5843,7 +5854,9 @@ INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir
 INFORMATION: ValueSet/jdv-cas-sporadique-familial-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvCauseAccidentDomestiqueCisis_jdv-cause-accident-domestique-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
-INFORMATION: ValueSet/jdv-cause-accident-domestique-cisis: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
+INFORMATION: ValueSet/jdv-cause-accident-domestique-cisis: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
+ERROR: ValueSet.where(id = 'jdv-cause-accident-domestique-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [536af197-f9a8-42dc-a387-42abf8e87bd6]: A usable code system with URL http://id.who.int/icd/release/11/mms could not be resolved.
+Information: X-Request-Id: d583e8a4-be9e-4271-a290-c385cd329a52
 == input/ontoserver/JDV/JdvCauseCesarienneCisis_jdv-cause-cesarienne-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 == input/ontoserver/JDV/JdvCddFaCisis_jdv-cdd-fa-cisis.json ==
@@ -5851,8 +5864,6 @@ INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir
 INFORMATION: ValueSet/jdv-cdd-fa-cisis: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvCerveletLocalisationCisis_jdv-cervelet-localisation-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
-ERROR: ValueSet/jdv-cervelet-localisation-cisis: ValueSet.compose.include[1].concept[0]: The code '58501004' is not valid in the system http://snomed.info/sct (Wrong Display Name 'vermis cérebelleux' for http://snomed.info/sct#58501004. Valid display is 'vermis cérébelleux' (fr-x-sctlang-10031000-315102) (for the language(s) 'fr'))
-INFORMATION: ValueSet/jdv-cervelet-localisation-cisis: ValueSet.compose.include[1].concept[0]: Wrong Display Name 'vermis cérebelleux' for http://snomed.info/sct#58501004. Valid display is 'vermis cérébelleux' (fr-x-sctlang-10031000-315102) (for the language(s) 'fr'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
 == input/ontoserver/JDV/JdvChecklistDluCisis_jdv-checklist-dlu-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 WARNING: ValueSet/jdv-checklist-dlu-cisis: ValueSet.compose.include[0].concept[0]: The concept 'DLU_006' is deprecated and its use should be reviewed
@@ -5866,7 +5877,7 @@ INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir
 INFORMATION: ValueSet/jdv-circonstance-deces-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvClasseTherapieCisis_jdv-classe-therapie-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
-INFORMATION: ValueSet/jdv-classe-therapie-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
+INFORMATION: ValueSet/jdv-classe-therapie-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvClassificationAcr1Cisis_jdv-classification-acr-1-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 == input/ontoserver/JDV/JdvClassificationAcr2Cisis_jdv-classification-acr-2-cisis.json ==
@@ -5895,31 +5906,33 @@ INFORMATION: ValueSet/jdv-completude-dispensation-cisis: ValueSet.compose.includ
 INFORMATION: ValueSet/jdv-completude-dispensation-cisis: ValueSet.compose.include[0].concept[3]: Wrong Display Name 'Dispensation suivante - complète' for http://terminology.hl7.org/CodeSystem/v3-ActCode#RFC. Valid display is 'Refill - Complete' (en) (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
 == input/ontoserver/JDV/JdvComplicationCisis_jdv-complication-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
-INFORMATION: ValueSet/jdv-complication-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
+INFORMATION: ValueSet/jdv-complication-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvComplicationDigestiveCisis_jdv-complication-digestive-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
+INFORMATION: ValueSet/jdv-complication-digestive-cisis: ValueSet.compose.include[0].concept[0]: Wrong Display Name 'Hémorragie gastro-intestinale, sans précision' for http://hl7.org/fhir/sid/icd-10#K92.2. Valid display is 'Gastrointestinal haemorrhage, unspecified' (for the language(s) 'fr'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
 == input/ontoserver/JDV/JdvComplicationNeurologiqueCisis_jdv-complication-neurologique-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
-INFORMATION: ValueSet/jdv-complication-neurologique-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
+INFORMATION: ValueSet/jdv-complication-neurologique-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvComplicationNeuropsychiatriqueCisis_jdv-complication-neuropsychiatrique-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
-ERROR: ValueSet/jdv-complication-neuropsychiatrique-cisis: ValueSet.compose.include[1].concept[2]: The code 'MED-525' is not valid in the system https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis (Unknown code 'MED-525' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis' version '202510230000')
-ERROR: ValueSet.text.div: Hyperlink 'CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-525' at 'div/ul/li/table/tr/td/a' for 'MED-525' does not resolve
+INFORMATION: ValueSet/jdv-complication-neuropsychiatrique-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvComplicationPulmonaireCisis_jdv-complication-pulmonaire-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
+INFORMATION: ValueSet/jdv-complication-pulmonaire-cisis: ValueSet.compose.include[0].concept[0]: Wrong Display Name 'Infection aigüe des voies respiratoires inférieures, sans précision' for http://hl7.org/fhir/sid/icd-10#J22. Valid display is 'Unspecified acute lower respiratory infection' (for the language(s) 'fr'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
 == input/ontoserver/JDV/JdvComplicationThromboemboliqueCisis_jdv-complication-thromboembolique-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
-INFORMATION: ValueSet/jdv-complication-thromboembolique-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
+INFORMATION: ValueSet/jdv-complication-thromboembolique-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvComplicationUrinaireCisis_jdv-complication-urinaire-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
+INFORMATION: ValueSet/jdv-complication-urinaire-cisis: ValueSet.compose.include[0].concept[0]: Wrong Display Name 'Infection des voies urinaires, siège non précisé' for http://hl7.org/fhir/sid/icd-10#N39.0. Valid display is 'Urinary tract infection, site not specified' (for the language(s) 'fr'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
 == input/ontoserver/JDV/JdvConclusionSimplifieeCcuCisis_jdv-conclusion-simplifiee-ccu-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 == input/ontoserver/JDV/JdvConditionnementCisis_jdv-conditionnement-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 WARNING: ValueSet/jdv-conditionnement-cisis: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-adicap'
 INFORMATION: ValueSet/jdv-conditionnement-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
-ERROR: ValueSet.where(id = 'jdv-conditionnement-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [4380c9e8-77c9-459f-83e4-5e5a055e7c75]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-adicap could not be resolved.
-Information: X-Request-Id: 21e7e8cd-d208-4c83-a5f0-bc7f9dfcccd6
+ERROR: ValueSet.where(id = 'jdv-conditionnement-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [0bfe21e5-1c41-46c6-a7ae-e43b2dd82793]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-adicap could not be resolved.
+Information: X-Request-Id: ef35304a-a685-41de-a81d-ca47c498beb4
 == input/ontoserver/JDV/JdvConduiteATenir1Cisis_jdv-conduite-a-tenir-1-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 WARNING: ValueSet/jdv-conduite-a-tenir-1-cisis: ValueSet.compose.include[1]: There are multiple different potential matches for the url 'http://dicom.nema.org/resources/ontology/DCM'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '2022.4.20221006', found versions: 01 (from hl7.fhir.r4.core#4.0.1), 2022.4.20221006 (from fhir.dicom#2022.4.20221006). Suggested fix: change the canonical reference from 'http://dicom.nema.org/resources/ontology/DCM' to 'http://dicom.nema.org/resources/ontology/DCM|2022.4.20221006'
@@ -5932,8 +5945,8 @@ INFORMATION: ValueSet/jdv-conduite-a-tenir-2-cisis: ValueSet.compose.include[1]:
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 WARNING: ValueSet/jdv-conduite-a-tenir-3-cisis: ValueSet.compose.include[1]: There are multiple different potential matches for the url 'http://dicom.nema.org/resources/ontology/DCM'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '2022.4.20221006', found versions: 01 (from hl7.fhir.r4.core#4.0.1), 2022.4.20221006 (from fhir.dicom#2022.4.20221006). Suggested fix: change the canonical reference from 'http://dicom.nema.org/resources/ontology/DCM' to 'http://dicom.nema.org/resources/ontology/DCM|2022.4.20221006'
 INFORMATION: ValueSet/jdv-conduite-a-tenir-3-cisis: ValueSet.compose.include[1].concept[0]: Wrong Display Name 'IRM' for http://dicom.nema.org/resources/ontology/DCM#MR. Valid display is 'Magnetic Resonance' (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
-ERROR: ValueSet/jdv-conduite-a-tenir-3-cisis: ValueSet.compose.include[2].concept[0]: The code '17636008' is not valid in the system http://snomed.info/sct (Wrong Display Name 'prélèvement d'échantillons' for http://snomed.info/sct#17636008. Valid display is 'prélèvement d'un échantillon' (fr-x-sctlang-10031000-315102) (for the language(s) 'fr'))
-INFORMATION: ValueSet/jdv-conduite-a-tenir-3-cisis: ValueSet.compose.include[2].concept[0]: Wrong Display Name 'prélèvement d'échantillons' for http://snomed.info/sct#17636008. Valid display is 'prélèvement d'un échantillon' (fr-x-sctlang-10031000-315102) (for the language(s) 'fr'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+ERROR: ValueSet/jdv-conduite-a-tenir-3-cisis: ValueSet.compose.include[2].concept[0]: The code '17636008' is not valid in the system http://snomed.info/sct (Wrong Display Name 'prélèvement d'échantillon' for http://snomed.info/sct#17636008. Valid display is 'prélèvement d'un échantillon' (fr-x-sctlang-10031000-315102) (for the language(s) 'fr'))
+INFORMATION: ValueSet/jdv-conduite-a-tenir-3-cisis: ValueSet.compose.include[2].concept[0]: Wrong Display Name 'prélèvement d'échantillon' for http://snomed.info/sct#17636008. Valid display is 'prélèvement d'un échantillon' (fr-x-sctlang-10031000-315102) (for the language(s) 'fr'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
 == input/ontoserver/JDV/JdvContexteActiviteCisis_jdv-contexte-activite-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 INFORMATION: ValueSet/jdv-contexte-activite-cisis: ValueSet.compose.include[2]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
@@ -5941,7 +5954,7 @@ INFORMATION: ValueSet/jdv-contexte-activite-cisis: ValueSet.compose.include[2]: 
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 == input/ontoserver/JDV/JdvContrindicationCisis_jdv-contre-indication-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
-INFORMATION: ValueSet/jdv-contre-indication-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
+INFORMATION: ValueSet/jdv-contre-indication-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
 INFORMATION: ValueSet/jdv-contre-indication-cisis: ValueSet.compose.include[2]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvContrindicationThrombolyseCisis_jdv-contreindication-thrombolyse-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
@@ -5955,10 +5968,11 @@ INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir
 WARNING: ValueSet/jdv-defaillance-materielle-cisis: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://www.imdrf.org'
 INFORMATION: ValueSet/jdv-defaillance-materielle-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
 INFORMATION: ValueSet/jdv-defaillance-materielle-cisis: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
-ERROR: ValueSet.where(id = 'jdv-defaillance-materielle-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [d47701e0-83fb-4325-9d9a-0f519edfc1d1]: A usable code system with URL https://www.imdrf.org could not be resolved.
-Information: X-Request-Id: 8b17aed0-34ef-4d15-867a-0930ca0fcf25
+ERROR: ValueSet.where(id = 'jdv-defaillance-materielle-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [8f41c195-8e01-4adf-b585-c93b13898c17]: A usable code system with URL https://www.imdrf.org could not be resolved.
+Information: X-Request-Id: 50c25891-e10e-4d7f-8978-02f2ac20213e
 == input/ontoserver/JDV/JdvDeficiencePhysiqueCisis_jdv-deficience-physique-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
+ERROR: ValueSet/jdv-deficience-physique-cisis: ValueSet.compose.include[0].concept[0]: The code 'R47.02' is not valid in the system http://hl7.org/fhir/sid/icd-10 (Unknown code 'R47.02' in the CodeSystem 'http://hl7.org/fhir/sid/icd-10' version '2019-covid-expanded')
 WARNING: ValueSet/jdv-deficience-physique-cisis: ValueSet.compose.include[1].concept[4]: The concept 'MED-333' is deprecated and its use should be reviewed
 WARNING: ValueSet/jdv-deficience-physique-cisis: ValueSet.compose.include[1].concept[5]: The concept 'MED-334' is deprecated and its use should be reviewed
 INFORMATION: ValueSet/jdv-deficience-physique-cisis: ValueSet.compose.include[2]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
@@ -5991,7 +6005,7 @@ INFORMATION: ValueSet/jdv-difficulte-cisis: ValueSet.compose.include[0]: The con
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 INFORMATION: ValueSet/jdv-disposition-pretherapeutique-cisis: ValueSet.compose.include[1].concept[0]: Wrong Display Name 'Nom du protocole d'essai clinique' for http://loinc.org#42796-3. There are no valid display names found for language(s) 'fr'. Default display is 'Clinical trial protocol Trial name'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
 INFORMATION: ValueSet/jdv-disposition-pretherapeutique-cisis: ValueSet.compose.include[2]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
-INFORMATION: ValueSet/jdv-disposition-pretherapeutique-cisis: ValueSet.compose.include[3]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
+INFORMATION: ValueSet/jdv-disposition-pretherapeutique-cisis: ValueSet.compose.include[3]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvDocumentAnnexeFludrCisis_jdv-document-annexe-fludr-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 == input/ontoserver/JDV/JdvDureeAllaitementCisis_jdv-duree-allaitement-cisis.json ==
@@ -6008,21 +6022,27 @@ INFORMATION: ValueSet/jdv-encompassing-encounter-code-cisis: ValueSet.compose.in
 INFORMATION: ValueSet/jdv-encompassing-encounter-code-cisis: ValueSet.compose.include[0].concept[6]: Wrong Display Name 'Virtuelle (exemple : RCP en l'absence du patient)' for http://terminology.hl7.org/CodeSystem/v3-ActCode#VR. Valid display is 'virtual' (en) (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
 == input/ontoserver/JDV/JdvEnfantExposeAuxEcransCs24Cisis_jdv-enfant-expose-aux-ecrans-cs24-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
+== input/ontoserver/JDV/JdvEtatDeConscienceCisis_jdv-etat-de-conscience-cisis.json ==
+ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-etat-de-conscience-cisis'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvEtatDeConscienceCisis_jdv-etat-de-conscience-cisis.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-etat-de-conscience-cisis) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-etat-de-conscience-cisis). Use the special-url parameter if you really mean for it not to match
+INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvEtatDeConscienceCisis_jdv-etat-de-conscience-cisis: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-etat-de-conscience-cisis vs https://smt.esante.gouv.fr/fhir/ValueSet/jdv-etat-de-conscience-cisis
 == input/ontoserver/JDV/JdvEtatNaissanceCisis_jdv-etat-naissance-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
+INFORMATION: ValueSet/jdv-etat-naissance-cisis: ValueSet.compose.include[0].concept[0]: Wrong Display Name 'Mort fœtale (de cause non précisée)' for http://hl7.org/fhir/sid/icd-10#P95. Valid display is 'Fetal death of unspecified cause' (for the language(s) 'fr'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
 INFORMATION: ValueSet/jdv-etat-naissance-cisis: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvEtatPerineeCisis_jdv-etat-perinee-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
-INFORMATION: ValueSet/jdv-etat-perinee-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
+INFORMATION: ValueSet/jdv-etat-perinee-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
 INFORMATION: ValueSet/jdv-etat-perinee-cisis: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvEtatPsychiqueCisis_jdv-etat-psychique-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 INFORMATION: ValueSet/jdv-etat-psychique-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvEtiologieAvcCisis_jdv-etiologie-avc-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
-INFORMATION: ValueSet/jdv-etiologie-avc-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
+INFORMATION: ValueSet/jdv-etiologie-avc-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvEtiologieHemorragieCisis_jdv-etiologie-hemorragie-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
+INFORMATION: ValueSet/jdv-etiologie-hemorragie-cisis: ValueSet.compose.include[0].concept[0]: Wrong Display Name 'Malformation congénitale de l'appareil circulatoire périphérique, sans précision' for http://hl7.org/fhir/sid/icd-10#Q27.9. Valid display is 'Congenital malformation of peripheral vascular system, unspecified' (for the language(s) 'fr'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
 == input/ontoserver/JDV/JdvEtiologieInfarctusCisis_jdv-etiologie-infarctus-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 == input/ontoserver/JDV/JdvEvaluationAggirPaCisis_jdv-evaluation-aggir-pa-cisis.json ==
@@ -6044,7 +6064,7 @@ INFORMATION: ValueSet/jdv-evaluation-douleur-cisis: ValueSet.compose.include[1]:
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 == input/ontoserver/JDV/JdvEvaluationSsiadCisis_jdv-evaluation-ssiad-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
-INFORMATION: ValueSet/jdv-evaluation-ssiad-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
+INFORMATION: ValueSet/jdv-evaluation-ssiad-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvEvenementAccouchementCisis_jdv-evenement-accouchement-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 INFORMATION: ValueSet/jdv-evenement-accouchement-cisis: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
@@ -6078,7 +6098,7 @@ INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir
 INFORMATION: ValueSet/jdv-examen-realise-cisis: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvFacteurDeRisqueAvcCisis_jdv-facteur-de-risque-avc-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
-INFORMATION: ValueSet/jdv-facteur-de-risque-avc-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
+INFORMATION: ValueSet/jdv-facteur-de-risque-avc-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvFacteurDeRisqueProfessionnelCisis_jdv-facteur-de-risque-professionnel-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 INFORMATION: ValueSet/jdv-facteur-de-risque-professionnel-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
@@ -6109,17 +6129,15 @@ INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir
 == input/ontoserver/JDV/JdvGeneCisis_jdv-gene-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 INFORMATION: ValueSet/jdv-gene-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
-ERROR: ValueSet.where(id = 'jdv-gene-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [3e165559-375d-424c-80de-4bd47148ecf9]: A usable code system with URL http://www.genenames.org/geneId could not be resolved.
-Information: X-Request-Id: 92929a0c-4da1-42bc-a237-405b832ac275
+ERROR: ValueSet.where(id = 'jdv-gene-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [ec554d88-4bd7-4be0-8b18-0bf4d40f5dfa]: A usable code system with URL http://www.genenames.org/geneId could not be resolved.
+Information: X-Request-Id: ee33dd67-0554-4319-b4bb-3feed878dc10
 == input/ontoserver/JDV/JdvGesteReanimationNouveauNeCisis_jdv-geste-reanimation-nouveau-ne-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 INFORMATION: ValueSet/jdv-geste-reanimation-nouveau-ne-cisis: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvGestionEffetSecondaireCisis_jdv-gestion-effet-secondaire-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
-WARNING: ValueSet/jdv-gestion-effet-secondaire-cisis: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-ncit'
-INFORMATION: ValueSet/jdv-gestion-effet-secondaire-cisis: ValueSet.compose.include[0].concept[0]: A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-ncit' could not be found, so the code cannot be validated
-ERROR: ValueSet.where(id = 'jdv-gestion-effet-secondaire-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [60c13cba-fa5d-4129-9700-240924a1a04a]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
-Information: X-Request-Id: 50ce2e75-97a4-45c5-9c73-c34a0a1a607c
+ERROR: ValueSet.where(id = 'jdv-gestion-effet-secondaire-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [b8525230-946d-4893-8179-c1f278e2e0b2]: A usable code system with URL http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl could not be resolved.
+Information: X-Request-Id: 8b7e57d1-d7c8-47c1-adee-2362c4063d17
 == input/ontoserver/JDV/JdvGirCisis_jdv-gir-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 == input/ontoserver/JDV/JdvGraviteCisis_jdv-gravite-cisis.json ==
@@ -6180,7 +6198,7 @@ INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir
 INFORMATION: ValueSet/jdv-info-deces-cs8-cisis: ValueSet.compose.include[1].concept[0]: Wrong Display Name 'Causes du décès' for http://loinc.org#79378-6. There are no valid display names found for language(s) 'fr'. Default display is 'Cause of death'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
 == input/ontoserver/JDV/JdvInfoPriseEnChargeCisis_jdv-info-prise-en-charge-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
-INFORMATION: ValueSet/jdv-info-prise-en-charge-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
+INFORMATION: ValueSet/jdv-info-prise-en-charge-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvInjectionPdcTepCisis_jdv-injection-pdc-tep-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 == input/ontoserver/JDV/JdvInterpretationEcgCisis_jdv-interpretation-ecg-cisis.json ==
@@ -6200,7 +6218,7 @@ INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir
 INFORMATION: ValueSet/jdv-investigation-realisee-sunv-cisis: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvIssueGrossesseCisis_jdv-issue-grossesse-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
-INFORMATION: ValueSet/jdv-issue-grossesse-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
+INFORMATION: ValueSet/jdv-issue-grossesse-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvJ366StatutBilanProjetPersonnaliseMs_jdv-j366-statut-bilan-projet-personnalise-ms.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 ERROR: ValueSet/jdv-j366-statut-bilan-projet-personnalise-ms: ValueSet.compose.include[0].filter[0]: The value for a filter based on property 'status' must be a valid code from the system 'https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statut-bilan-projet-personnalise', and 'active' is not (Unknown code 'active' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statut-bilan-projet-personnalise' version '20250418120000')
@@ -6228,14 +6246,14 @@ INFORMATION: ValueSet/jdv-lateralite-manuelle-cisis: ValueSet.compose.include[0]
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 WARNING: ValueSet/jdv-lateralite-ncit-cisis: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-ncit'
 INFORMATION: ValueSet/jdv-lateralite-ncit-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
-ERROR: ValueSet.where(id = 'jdv-lateralite-ncit-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [1c180ffd-1a8f-4c93-978a-4cc70ebeee7d]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
-Information: X-Request-Id: 8772cc10-cd4b-48e5-b6be-bb26734b4f9f
+ERROR: ValueSet.where(id = 'jdv-lateralite-ncit-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [b585ca64-d1b9-493d-ac4b-37445aa1fbe4]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
+Information: X-Request-Id: d4f06be9-b6f4-460d-aaba-43ecab775449
 == input/ontoserver/JDV/JdvLateraliteTechniqueImagerieCisis_jdv-lateralite-technique-imagerie-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 INFORMATION: ValueSet/jdv-lateralite-technique-imagerie-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvLesionTraumatiqueObstetricaleCisis_jdv-lesion-traumatique-obstetricale-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
-INFORMATION: ValueSet/jdv-lesion-traumatique-obstetricale-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
+INFORMATION: ValueSet/jdv-lesion-traumatique-obstetricale-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvLienAssureBeneficiaireCisis_jdv-lien-assure-beneficiaire-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 WARNING: ValueSet/jdv-lien-assure-beneficiaire-cisis: ValueSet.compose.include[0]: There are multiple different potential matches for the url 'http://terminology.hl7.org/CodeSystem/v3-RoleCode'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '3.0.0', found versions: 2.2.0 (from hl7.terminology.r4#5.0.0), 3.0.0 (from hl7.terminology.r4#7.0.1). Suggested fix: change the canonical reference from 'http://terminology.hl7.org/CodeSystem/v3-RoleCode' to 'http://terminology.hl7.org/CodeSystem/v3-RoleCode|3.0.0'
@@ -6275,30 +6293,20 @@ INFORMATION: ValueSet/jdv-mediatype-corps-cda-non-structure-cisis: ValueSet.comp
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 == input/ontoserver/JDV/JdvMesureLentilleDelivreeCisis_jdv-mesure-lentille-delivree-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
-WARNING: ValueSet/jdv-mesure-lentille-delivree-cisis: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-ncit'
-INFORMATION: ValueSet/jdv-mesure-lentille-delivree-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
 INFORMATION: ValueSet/jdv-mesure-lentille-delivree-cisis: ValueSet.compose.include[2]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
-ERROR: ValueSet.where(id = 'jdv-mesure-lentille-delivree-cisis'): Error from https://tx.fhir.org/r4: A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-ncit' could not be found, so the value set cannot be expanded
 == input/ontoserver/JDV/JdvMesureLentillePrescriteCisis_jdv-mesure-lentille-prescrite-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
-WARNING: ValueSet/jdv-mesure-lentille-prescrite-cisis: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-ncit'
-INFORMATION: ValueSet/jdv-mesure-lentille-prescrite-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
 INFORMATION: ValueSet/jdv-mesure-lentille-prescrite-cisis: ValueSet.compose.include[2]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
-ERROR: ValueSet.where(id = 'jdv-mesure-lentille-prescrite-cisis'): Error from https://tx.fhir.org/r4: A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-ncit' could not be found, so the value set cannot be expanded
 == input/ontoserver/JDV/JdvMesureProtectionConduiteAutomobileCisis_jdv-mesure-protection-conduite-automobile-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 == input/ontoserver/JDV/JdvMesureTypeVerreDelivreCisis_jdv-mesure-type-verre-delivre-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
-WARNING: ValueSet/jdv-mesure-type-verre-delivre-cisis: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-ncit'
-INFORMATION: ValueSet/jdv-mesure-type-verre-delivre-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
+INFORMATION: ValueSet/jdv-mesure-type-verre-delivre-cisis: ValueSet.compose.include[0].concept[0]: Wrong Display Name 'nom commercial' for http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C71898. Valid display is 'Proprietary Name' (for the language(s) 'fr'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
 INFORMATION: ValueSet/jdv-mesure-type-verre-delivre-cisis: ValueSet.compose.include[2]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
-ERROR: ValueSet.where(id = 'jdv-mesure-type-verre-delivre-cisis'): Error from https://tx.fhir.org/r4: A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-ncit' could not be found, so the value set cannot be expanded
+ERROR: ValueSet.where(id = 'jdv-mesure-type-verre-delivre-cisis'): Error from https://tx.fhir.org/r4: A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-emdn' could not be found, so the value set cannot be expanded
 == input/ontoserver/JDV/JdvMesureTypeVerrePrescritCisis_jdv-mesure-type-verre-prescrit-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
-WARNING: ValueSet/jdv-mesure-type-verre-prescrit-cisis: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-ncit'
-INFORMATION: ValueSet/jdv-mesure-type-verre-prescrit-cisis: ValueSet.compose.include[0].concept[0]: A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-ncit' could not be found, so the code cannot be validated
-INFORMATION: ValueSet/jdv-mesure-type-verre-prescrit-cisis: ValueSet.compose.include[2]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
-ERROR: ValueSet.where(id = 'jdv-mesure-type-verre-prescrit-cisis'): Error from https://tx.fhir.org/r4: A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-ncit' could not be found, so the value set cannot be expanded
+INFORMATION: ValueSet/jdv-mesure-type-verre-prescrit-cisis: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvMesureVerreDelivreCisis_jdv-mesure-verre-delivre-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 INFORMATION: ValueSet/jdv-mesure-verre-delivre-cisis: ValueSet.compose.include[1].concept[0]: Wrong Display Name 'Type de prisme' for http://loinc.org#95324-0. There are no valid display names found for language(s) 'fr'. Default display is 'Prism mode'. Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
@@ -6310,11 +6318,9 @@ INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir
 INFORMATION: ValueSet/jdv-methode-accouchement-cisis: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvMethodeDeMesureAcuiteVisuelleCisis_jdv-methode-de-mesure-acuite-visuelle-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
-WARNING: ValueSet/jdv-methode-de-mesure-acuite-visuelle-cisis: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-ncit'
-INFORMATION: ValueSet/jdv-methode-de-mesure-acuite-visuelle-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
+INFORMATION: ValueSet/jdv-methode-de-mesure-acuite-visuelle-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
 INFORMATION: ValueSet/jdv-methode-de-mesure-acuite-visuelle-cisis: ValueSet.compose.include[2]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
-ERROR: ValueSet.where(id = 'jdv-methode-de-mesure-acuite-visuelle-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [aabb0503-22ba-47ff-993a-ffba65224f4e]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
-Information: X-Request-Id: c3e325f5-f7bf-4ef1-a051-68e23a9053e7
+ERROR: ValueSet.where(id = 'jdv-methode-de-mesure-acuite-visuelle-cisis'): Error from https://tx.fhir.org/r4: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the value set cannot be expanded. Valid versions: http://snomed.info/sct/11000146104/version/20240930,http://snomed.info/sct/11000172109/version/20231115,http://snomed.info/sct/2011000195101/version/20230607,http://snomed.info/sct/32506021000036107/version/20230731,http://snomed.info/sct/449081005/version/20250510,http://snomed.info/sct/45991000052106/version/20220531,http://snomed.info/sct/45991000052106/version/20231130,http://snomed.info/sct/554471000005108/version/20250930,http://snomed.info/sct/731000124108/version/20250901,http://snomed.info/sct/827022005/version/20241216,http://snomed.info/sct/83821000000107/version/20230412,http://snomed.info/sct/900000000000207008/version/20240201,http://snomed.info/sct/900000000000207008/version/20240801,http://snomed.info/sct/900000000000207008/version/20250201,http://snomed.info/xsct/900000000000207008/version/20250814
 == input/ontoserver/JDV/JdvMethodePreparationEchantillonCisis_jdv-methode-preparation-echantillon-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 == input/ontoserver/JDV/JdvMilieuCytologieCcuCisis_jdv-milieu-cytologie-ccu-cisis.json ==
@@ -6373,8 +6379,6 @@ INFORMATION: ValueSet/jdv-modalite-acquisition-cisis: ValueSet.compose.include[0
 INFORMATION: ValueSet/jdv-modalite-acquisition-cisis: ValueSet.compose.include[0].concept[48]: Wrong Display Name 'Caméra de photographie externe' for http://dicom.nema.org/resources/ontology/DCM#XC. Valid display is 'External-camera Photography' (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
 == input/ontoserver/JDV/JdvModaliteDemandeActeImagerieCisis_jdv-modalite-demande-acte-imagerie-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
-WARNING: ValueSet/jdv-modalite-demande-acte-imagerie-cisis: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-ncit'
-INFORMATION: ValueSet/jdv-modalite-demande-acte-imagerie-cisis: ValueSet.compose.include[0].concept[0]: A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-ncit' could not be found, so the code cannot be validated
 WARNING: ValueSet/jdv-modalite-demande-acte-imagerie-cisis: ValueSet.compose.include[2]: There are multiple different potential matches for the url 'http://dicom.nema.org/resources/ontology/DCM'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '2022.4.20221006', found versions: 01 (from hl7.fhir.r4.core#4.0.1), 2022.4.20221006 (from fhir.dicom#2022.4.20221006). Suggested fix: change the canonical reference from 'http://dicom.nema.org/resources/ontology/DCM' to 'http://dicom.nema.org/resources/ontology/DCM|2022.4.20221006'
 INFORMATION: ValueSet/jdv-modalite-demande-acte-imagerie-cisis: ValueSet.compose.include[2].concept[0]: Wrong Display Name 'Mammographie' for http://dicom.nema.org/resources/ontology/DCM#MG. Valid display is 'Mammography' (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
 INFORMATION: ValueSet/jdv-modalite-demande-acte-imagerie-cisis: ValueSet.compose.include[2].concept[1]: Wrong Display Name 'Scanner/TDM' for http://dicom.nema.org/resources/ontology/DCM#CT. Valid display is 'Computed Tomography' (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
@@ -6382,8 +6386,8 @@ INFORMATION: ValueSet/jdv-modalite-demande-acte-imagerie-cisis: ValueSet.compose
 INFORMATION: ValueSet/jdv-modalite-demande-acte-imagerie-cisis: ValueSet.compose.include[2].concept[3]: Wrong Display Name 'Autre technique d'imagerie' for http://dicom.nema.org/resources/ontology/DCM#OT. Valid display is 'Other Modality' (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
 INFORMATION: ValueSet/jdv-modalite-demande-acte-imagerie-cisis: ValueSet.compose.include[2].concept[4]: Wrong Display Name 'Scintigraphie' for http://dicom.nema.org/resources/ontology/DCM#NM. Valid display is 'Nuclear Medicine' (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
 INFORMATION: ValueSet/jdv-modalite-demande-acte-imagerie-cisis: ValueSet.compose.include[2].concept[5]: Wrong Display Name 'TEP : Tomographie par émission de positons' for http://dicom.nema.org/resources/ontology/DCM#PT. Valid display is 'Positron emission tomography' (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
-ERROR: ValueSet.where(id = 'jdv-modalite-demande-acte-imagerie-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [f4dfe5f3-bd48-4e6f-91c9-1dd8791bd475]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
-Information: X-Request-Id: c3b252fc-36b9-4ffe-aca5-1aad51a1b87e
+ERROR: ValueSet.where(id = 'jdv-modalite-demande-acte-imagerie-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [39d864d5-2b5e-4a39-8812-b03ab75eb440]: A usable code system with URL http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl could not be resolved.
+Information: X-Request-Id: 4b7bb307-779c-4e24-809a-78f811bd573c
 == input/ontoserver/JDV/JdvModaliteEntreeCisis_jdv-modalite-entree-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 INFORMATION: ValueSet/jdv-modalite-entree-cisis: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
@@ -6438,18 +6442,17 @@ INFORMATION: ValueSet/jdv-morphologie-cisis: ValueSet.compose.include[0]: The va
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 == input/ontoserver/JDV/JdvMotifDeclenchementTravailCisis_jdv-motif-declenchement-travail-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
-INFORMATION: ValueSet/jdv-motif-declenchement-travail-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
+INFORMATION: ValueSet/jdv-motif-declenchement-travail-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvMotifDiagnosticCisis_jdv-motif-diagnostic-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 == input/ontoserver/JDV/JdvMotifEchographieCisis_jdv-motif-echographie-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
-WARNING: ValueSet/jdv-motif-echographie-cisis: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-ncit'
-INFORMATION: ValueSet/jdv-motif-echographie-cisis: ValueSet.compose.include[0].concept[0]: A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-ncit' could not be found, so the code cannot be validated
-ERROR: ValueSet.where(id = 'jdv-motif-echographie-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [b477b794-4120-49aa-8c16-9a846b58a9d8]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
-Information: X-Request-Id: 2f6cf2ec-c0c3-4040-aeac-9eb6901289a9
+ERROR: ValueSet/jdv-motif-echographie-cisis: ValueSet.compose.include[2].concept[0]: The code '161615003' is not valid in the system http://snomed.info/sct (Wrong Display Name 'antécédent d'intervention chirurgicale' for http://snomed.info/sct#161615003. Valid display is 'antécédents d'intervention chirurgicale' (fr-x-sctlang-10031000-315102) (for the language(s) 'fr'))
+INFORMATION: ValueSet/jdv-motif-echographie-cisis: ValueSet.compose.include[2].concept[0]: Wrong Display Name 'antécédent d'intervention chirurgicale' for http://snomed.info/sct#161615003. Valid display is 'antécédents d'intervention chirurgicale' (fr-x-sctlang-10031000-315102) (for the language(s) 'fr'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+ERROR: ValueSet.where(id = 'jdv-motif-echographie-cisis'): Error from https://tx.fhir.org/r4: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the value set cannot be expanded. Valid versions: http://snomed.info/sct/11000146104/version/20240930,http://snomed.info/sct/11000172109/version/20231115,http://snomed.info/sct/2011000195101/version/20230607,http://snomed.info/sct/32506021000036107/version/20230731,http://snomed.info/sct/449081005/version/20250510,http://snomed.info/sct/45991000052106/version/20220531,http://snomed.info/sct/45991000052106/version/20231130,http://snomed.info/sct/554471000005108/version/20250930,http://snomed.info/sct/731000124108/version/20250901,http://snomed.info/sct/827022005/version/20241216,http://snomed.info/sct/83821000000107/version/20230412,http://snomed.info/sct/900000000000207008/version/20240201,http://snomed.info/sct/900000000000207008/version/20240801,http://snomed.info/sct/900000000000207008/version/20250201,http://snomed.info/xsct/900000000000207008/version/20250814
 == input/ontoserver/JDV/JdvMotifHospitalisationCseCisis_jdv-motif-hospitalisation-cse-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
-INFORMATION: ValueSet/jdv-motif-hospitalisation-cse-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
+INFORMATION: ValueSet/jdv-motif-hospitalisation-cse-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvMotifMiseAJourCisis_jdv-motif-mise-a-jour-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 == input/ontoserver/JDV/JdvMotifNonRealisationEvenementCisis_jdv-motif-non-realisation-evenement-cisis.json ==
@@ -6533,15 +6536,14 @@ INFORMATION: ValueSet/jdv-oeil-examine-cisis: ValueSet.compose.include[0]: The c
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 WARNING: ValueSet/jdv-organe-cisis: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-adicap'
 INFORMATION: ValueSet/jdv-organe-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
-ERROR: ValueSet.where(id = 'jdv-organe-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [7cfa9523-38be-4f3a-a1d8-adf275b60d17]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-adicap could not be resolved.
-Information: X-Request-Id: 6276f033-acf8-4a2b-97db-08ffdacd7442
+ERROR: ValueSet.where(id = 'jdv-organe-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [c5fff833-6269-48d4-b696-9d0da6d7519c]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-adicap could not be resolved.
+Information: X-Request-Id: 40f5dafb-d4c2-43d7-ac6f-ad060f78f450
 == input/ontoserver/JDV/JdvOrientationBaseDuPrismeCisis_jdv-orientation-base-du-prisme-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 INFORMATION: ValueSet/jdv-orientation-base-du-prisme-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvOrigineEffetIndesirableCisis_jdv-origine-effet-indesirable-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 INFORMATION: ValueSet/jdv-origine-effet-indesirable-cisis: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
-ERROR: ValueSet.where(id = 'jdv-origine-effet-indesirable-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: Invalid concept / post-coordinated expression: line 1:0 token recognition error at: '1.'
 == input/ontoserver/JDV/JdvParticipantAdditionnelResultatCisis_jdv-participant-additionnel-resultat-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 WARNING: ValueSet/jdv-participant-additionnel-resultat-cisis: ValueSet.compose.include[0]: There are multiple different potential matches for the url 'http://terminology.hl7.org/CodeSystem/v3-ParticipationType'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.0.0', found versions: 3.1.1 (from hl7.terminology.r4#5.0.0), 5.0.0 (from hl7.terminology.r4#7.0.1). Suggested fix: change the canonical reference from 'http://terminology.hl7.org/CodeSystem/v3-ParticipationType' to 'http://terminology.hl7.org/CodeSystem/v3-ParticipationType|5.0.0'
@@ -6558,7 +6560,7 @@ INFORMATION: ValueSet/jdv-participant-resultat-cisis: ValueSet.compose.include[0
 INFORMATION: ValueSet/jdv-participant-resultat-cisis: ValueSet.compose.include[0].concept[2]: Wrong Display Name 'Responsable de l'acte' for http://terminology.hl7.org/CodeSystem/v3-ParticipationType#RESP. Valid display is 'responsible party' (en) (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
 == input/ontoserver/JDV/JdvPatho1ereSemaineCs8Cisis_jdv-patho-1ere-semaine-cs8-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
-INFORMATION: ValueSet/jdv-patho-1ere-semaine-cs8-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
+INFORMATION: ValueSet/jdv-patho-1ere-semaine-cs8-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvPatientAdresseParCisis_jdv-patient-adresse-par-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 == input/ontoserver/JDV/JdvPhaseCancerCisis_jdv-phase-cancer-cisis.json ==
@@ -6576,8 +6578,8 @@ INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 WARNING: ValueSet/jdv-profession-cisis: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-PCS/'
 INFORMATION: ValueSet/jdv-profession-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
-ERROR: ValueSet.where(id = 'jdv-profession-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [30fd4972-5212-4aed-8e96-54dba2f89caf]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-PCS/ could not be resolved.
-Information: X-Request-Id: c2a85f88-9c64-43db-b5fb-99226abd426b
+ERROR: ValueSet.where(id = 'jdv-profession-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [09d04d75-b43a-4d49-8b46-3b13c24600ce]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-PCS/ could not be resolved.
+Information: X-Request-Id: 44c68dbb-edab-4e50-81e7-baf4062c61c6
 == input/ontoserver/JDV/JdvProfessionExposeeCisis_jdv-profession-exposee-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 == input/ontoserver/JDV/JdvProfessionPersonnelActiviteCisis_jdv-profession-personnel-activite-cisis.json ==
@@ -6605,7 +6607,7 @@ INFORMATION: ValueSet/jdv-quantite-exposition-rayonnements-cisis: ValueSet.compo
 INFORMATION: ValueSet/jdv-quantite-exposition-rayonnements-cisis: ValueSet.compose.include[0].concept[10]: Wrong Display Name 'E : Dose efficace' for http://dicom.nema.org/resources/ontology/DCM#113839. Valid display is 'Effective Dose' (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
 == input/ontoserver/JDV/JdvQuantiteLiquideAmniotiqueCisis_jdv-quantite-liquide-amniotique-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
-INFORMATION: ValueSet/jdv-quantite-liquide-amniotique-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
+INFORMATION: ValueSet/jdv-quantite-liquide-amniotique-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
 INFORMATION: ValueSet/jdv-quantite-liquide-amniotique-cisis: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvRaisonAbsenceEtiologieCisis_jdv-raison-absence-etiologie-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
@@ -6616,11 +6618,10 @@ INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir
 INFORMATION: ValueSet/jdv-rcp-appareil-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvRcpOrganeCisis_jdv-rcp-organe-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
-WARNING: ValueSet/jdv-rcp-organe-cisis: ValueSet.compose.include[1].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-ncit'
-INFORMATION: ValueSet/jdv-rcp-organe-cisis: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
+INFORMATION: ValueSet/jdv-rcp-organe-cisis: ValueSet.compose.include[0].concept[0]: Wrong Display Name 'Maladies immunoprolifératives malignes' for http://hl7.org/fhir/sid/icd-10#C88. Valid display is 'Malignant immunoproliferative diseases' (for the language(s) 'fr'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/jdv-rcp-organe-cisis: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
 INFORMATION: ValueSet/jdv-rcp-organe-cisis: ValueSet.compose.include[3]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
-ERROR: ValueSet.where(id = 'jdv-rcp-organe-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [3fed3d5f-8dde-495f-afd5-e0827424390a]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
-Information: X-Request-Id: 386ceaef-5ce9-4d50-b009-beb4db40ed4c
+ERROR: ValueSet.where(id = 'jdv-rcp-organe-cisis'): Error from https://tx.fhir.org/r4: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the value set cannot be expanded. Valid versions: http://snomed.info/sct/11000146104/version/20240930,http://snomed.info/sct/11000172109/version/20231115,http://snomed.info/sct/2011000195101/version/20230607,http://snomed.info/sct/32506021000036107/version/20230731,http://snomed.info/sct/449081005/version/20250510,http://snomed.info/sct/45991000052106/version/20220531,http://snomed.info/sct/45991000052106/version/20231130,http://snomed.info/sct/554471000005108/version/20250930,http://snomed.info/sct/731000124108/version/20250901,http://snomed.info/sct/827022005/version/20241216,http://snomed.info/sct/83821000000107/version/20230412,http://snomed.info/sct/900000000000207008/version/20240201,http://snomed.info/sct/900000000000207008/version/20240801,http://snomed.info/sct/900000000000207008/version/20250201,http://snomed.info/xsct/900000000000207008/version/20250814
 == input/ontoserver/JDV/JdvReadaptationCisis_jdv-readaptation-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 == input/ontoserver/JDV/JdvRealisationActiviteCisis_jdv-realisation-activite-cisis.json ==
@@ -7054,9 +7055,8 @@ INFORMATION: ValueSet/jdv-specimen-type-cisis: ValueSet.compose.include[1].conce
 INFORMATION: ValueSet/jdv-specimen-type-cisis: ValueSet.compose.include[1].concept[230]: Wrong Display Name 'Abcès scrotal' for http://terminology.hl7.org/CodeSystem/v2-0487#SCROA. Valid display is 'Abscess, Scrotal' (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
 INFORMATION: ValueSet/jdv-specimen-type-cisis: ValueSet.compose.include[1].concept[231]: Wrong Display Name 'Sécrétion(s)' for http://terminology.hl7.org/CodeSystem/v2-0487#SECRE. Valid display is 'Secretion(s)' (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
 INFORMATION: ValueSet/jdv-specimen-type-cisis: ValueSet.compose.include[1].concept[232]: Wrong Display Name 'Sérum' for http://terminology.hl7.org/CodeSystem/v2-0487#SER. Valid display is 'Serum' (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
-INFORMATION: ValueSet/jdv-specimen-type-cisis: ValueSet.compose.include[1].concept[233]: Wrong Display Name 'Site du shunt' for http://terminology.hl7.org/CodeSystem/v2-0487#SHU. Valid display is 'Site, Shunt' (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
+INFORMATION: ValueSet/jdv-specimen-type-cisis: ValueSet.compose.include[1].concept[233]: Wrong Display Name 'Shunt (site)' for http://terminology.hl7.org/CodeSystem/v2-0487#SHU. Valid display is 'Site, Shunt' (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
 INFORMATION: ValueSet/jdv-specimen-type-cisis: ValueSet.compose.include[1].concept[234]: Wrong Display Name 'Liquide de shunt' for http://terminology.hl7.org/CodeSystem/v2-0487#SHUNF. Valid display is 'Fluid, Shunt' (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
-INFORMATION: ValueSet/jdv-specimen-type-cisis: ValueSet.compose.include[1].concept[235]: Wrong Display Name 'Shunt (site)' for http://terminology.hl7.org/CodeSystem/v2-0487#SHUNT. Valid display is 'Shunt' (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
 INFORMATION: ValueSet/jdv-specimen-type-cisis: ValueSet.compose.include[1].concept[237]: Wrong Display Name 'Biopsie de peau' for http://terminology.hl7.org/CodeSystem/v2-0487#SKBP. Valid display is 'Biopsy, Skin' (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
 INFORMATION: ValueSet/jdv-specimen-type-cisis: ValueSet.compose.include[1].concept[238]: Wrong Display Name 'Peau' for http://terminology.hl7.org/CodeSystem/v2-0487#SKN. Valid display is 'Skin' (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
 INFORMATION: ValueSet/jdv-specimen-type-cisis: ValueSet.compose.include[1].concept[239]: Wrong Display Name 'Masse sous-mandibulaire' for http://terminology.hl7.org/CodeSystem/v2-0487#SMM. Valid display is 'Mass, Sub-Mandibular' (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
@@ -7155,12 +7155,22 @@ INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir
 INFORMATION: ValueSet/jdv-statut-tabagique-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvStructureDeSoinsCisis_jdv-structure-de-soins-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
+ERROR: ValueSet/jdv-structure-de-soins-cisis: ValueSet.compose.include[0].concept[0]: The code 'ORG-109' is not valid in the system https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis (Unknown code 'ORG-109' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis' version '202512170000')
+ERROR: ValueSet/jdv-structure-de-soins-cisis: ValueSet.compose.include[0].concept[1]: The code 'ORG-110' is not valid in the system https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis (Unknown code 'ORG-110' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis' version '202512170000')
+ERROR: ValueSet/jdv-structure-de-soins-cisis: ValueSet.compose.include[0].concept[2]: The code 'ORG-054' is not valid in the system https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis (Unknown code 'ORG-054' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis' version '202512170000')
+ERROR: ValueSet/jdv-structure-de-soins-cisis: ValueSet.compose.include[0].concept[3]: The code 'ORG-055' is not valid in the system https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis (Unknown code 'ORG-055' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis' version '202512170000')
+ERROR: ValueSet/jdv-structure-de-soins-cisis: ValueSet.compose.include[0].concept[4]: The code 'ORG-056' is not valid in the system https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis (Unknown code 'ORG-056' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis' version '202512170000')
+ERROR: ValueSet/jdv-structure-de-soins-cisis: ValueSet.compose.include[0].concept[5]: The code 'ORG-057' is not valid in the system https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis (Unknown code 'ORG-057' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis' version '202512170000')
+ERROR: ValueSet/jdv-structure-de-soins-cisis: ValueSet.compose.include[0].concept[6]: The code 'ORG-059' is not valid in the system https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis (Unknown code 'ORG-059' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis' version '202512170000')
+ERROR: ValueSet/jdv-structure-de-soins-cisis: ValueSet.compose.include[0].concept[7]: The code 'ORG-060' is not valid in the system https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis (Unknown code 'ORG-060' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis' version '202512170000')
+ERROR: ValueSet/jdv-structure-de-soins-cisis: ValueSet.compose.include[0].concept[8]: The code 'ORG-061' is not valid in the system https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis (Unknown code 'ORG-061' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis' version '202512170000')
+ERROR: ValueSet/jdv-structure-de-soins-cisis: ValueSet.compose.include[0].concept[9]: The code 'ORG-062' is not valid in the system https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis (Unknown code 'ORG-062' in the CodeSystem 'https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis' version '202512170000')
 WARNING: ValueSet/jdv-structure-de-soins-cisis: ValueSet: Resource has a language, but the XHTML does not have an lang or an xml:lang tag (needs both - see https://www.w3.org/TR/i18n-html-tech-lang/#langvalues)
 == input/ontoserver/JDV/JdvSupportNutritionnelCisis_jdv-support-nutritionnel-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 == input/ontoserver/JDV/JdvSymptomeAvcCisis_jdv-symptome-avc-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
-INFORMATION: ValueSet/jdv-symptome-avc-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
+INFORMATION: ValueSet/jdv-symptome-avc-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvTailleCisis_jdv-taille-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 INFORMATION: ValueSet/jdv-taille-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
@@ -7168,8 +7178,8 @@ INFORMATION: ValueSet/jdv-taille-cisis: ValueSet.compose.include[0]: The concept
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 WARNING: ValueSet/jdv-technique-biologie-cisis: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-tccr'
 INFORMATION: ValueSet/jdv-technique-biologie-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
-ERROR: ValueSet.where(id = 'jdv-technique-biologie-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [dbaca884-d6cc-492c-8a2e-d4e61c1034bd]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-tccr could not be resolved.
-Information: X-Request-Id: 4a3fc8ba-4278-45ef-bdbc-164c10849afb
+ERROR: ValueSet.where(id = 'jdv-technique-biologie-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [1fc698e5-90bf-42c9-aa2a-48572a7c864b]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-tccr could not be resolved.
+Information: X-Request-Id: 251031be-6f95-49c4-890f-6136603021cc
 == input/ontoserver/JDV/JdvTechniqueDiagnosticCisis_jdv-technique-diagnostic-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 ERROR: ValueSet/jdv-technique-diagnostic-cisis: ValueSet.compose.include[1].concept[0]: The code '73735000' is not valid in the system http://snomed.info/sct (Wrong Display Name 'technique cytogénétique' for http://snomed.info/sct#73735000. There are no valid display names found for language(s) 'fr'. Default display is 'Cytogenetic procedure')
@@ -7206,27 +7216,31 @@ INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir
 INFORMATION: ValueSet/jdv-traitement-preventif-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvTraitementSoinsFrcpCisis_jdv-traitement-soins-frcp-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
-WARNING: ValueSet/jdv-traitement-soins-frcp-cisis: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-ncit'
-INFORMATION: ValueSet/jdv-traitement-soins-frcp-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
-ERROR: ValueSet.where(id = 'jdv-traitement-soins-frcp-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [8f2a89f5-3da7-4bcf-a82f-84a96918e582]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
-Information: X-Request-Id: 5f7fe5cb-92ef-4617-8f9b-c34c1809c430
+INFORMATION: ValueSet/jdv-traitement-soins-frcp-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
+ERROR: ValueSet.where(id = 'jdv-traitement-soins-frcp-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [f96c50fb-1f49-48c0-b526-6219a6d10203]: A usable code system with URL http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl could not be resolved.
+Information: X-Request-Id: 8b8bc56c-a070-4dc6-8d8b-49f9a753e34c
 == input/ontoserver/JDV/JdvTraitementSuiviCisis_jdv-traitement-suivi-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 == input/ontoserver/JDV/JdvTransfertMutationCisis_jdv-transfert-mutation-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 INFORMATION: ValueSet/jdv-transfert-mutation-cisis: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
+== input/ontoserver/JDV/JdvTrodExamenCisis_jdv-trod-examen-cisis.json ==
+ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/jdv-trod-examen-cisis'): Conformance resource /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvTrodExamenCisis_jdv-trod-examen-cisis.json - the canonical URL (https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-trod-examen-cisis) does not match the URL (https://smt.esante.gouv.fr/fhir/ValueSet/jdv-trod-examen-cisis). Use the special-url parameter if you really mean for it not to match
+INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
+INFORMATION: ValueSet/jdv-trod-examen-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
+ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JdvTrodExamenCisis_jdv-trod-examen-cisis: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-trod-examen-cisis vs https://smt.esante.gouv.fr/fhir/ValueSet/jdv-trod-examen-cisis
 == input/ontoserver/JDV/JdvTroubleVisuelCisis_jdv-trouble-visuel-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
-INFORMATION: ValueSet/jdv-trouble-visuel-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
+INFORMATION: ValueSet/jdv-trouble-visuel-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvTrousseCcuCisis_jdv-trousse-ccu-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 WARNING: ValueSet/jdv-trousse-ccu-cisis: ValueSet.compose.include[1].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-tccr'
 INFORMATION: ValueSet/jdv-trousse-ccu-cisis: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
-ERROR: ValueSet.where(id = 'jdv-trousse-ccu-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [0435537d-f076-45ab-8df9-27f50d82b1d3]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-tccr could not be resolved.
-Information: X-Request-Id: 744be60d-741b-4c33-8e2a-d372ff659e6c
+ERROR: ValueSet.where(id = 'jdv-trousse-ccu-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [c17f71da-4d80-4069-a8c5-0ca37dfbf6bf]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-tccr could not be resolved.
+Information: X-Request-Id: 8d10b112-9a69-426c-9f99-2a14591c617a
 == input/ontoserver/JDV/JdvTumeurCisis_jdv-tumeur-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
-INFORMATION: ValueSet/jdv-tumeur-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
+INFORMATION: ValueSet/jdv-tumeur-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvTypeAccompagnementSocioproCisis_jdv-type-accompagnement-sociopro-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 == input/ontoserver/JDV/JdvTypeActeEunvCisis_jdv-type-acte-eunv-cisis.json ==
@@ -7277,7 +7291,7 @@ INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir
 INFORMATION: ValueSet/jdv-type-de-test-realise-ccu-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvTypeDiabeteCisis_jdv-type-diabete-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
-INFORMATION: ValueSet/jdv-type-diabete-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
+INFORMATION: ValueSet/jdv-type-diabete-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvTypeDirectiveAnticipeeCisis_jdv-type-directive-anticipee-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 INFORMATION: ValueSet/jdv-type-directive-anticipee-cisis: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
@@ -7291,8 +7305,7 @@ INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 == input/ontoserver/JDV/JdvTypeEvenementIndesirablePrevisibleCisis_jdv-type-evenement-indesirable-previsible-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
-INFORMATION: ValueSet/jdv-type-evenement-indesirable-previsible-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
-ERROR: ValueSet.where(id = 'jdv-type-evenement-indesirable-previsible-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: Invalid concept / post-coordinated expression: line 1:0 token recognition error at: '1.'
+INFORMATION: ValueSet/jdv-type-evenement-indesirable-previsible-cisis: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvTypeEvenementSsiadCisis_jdv-type-evenement-ssiad-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 == input/ontoserver/JDV/JdvTypeGardeCisis_jdv-type-garde-cisis.json ==
@@ -7301,8 +7314,8 @@ INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 WARNING: ValueSet/jdv-type-histo-etat-tumoral-cisis: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-adicap'
 INFORMATION: ValueSet/jdv-type-histo-etat-tumoral-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
-ERROR: ValueSet.where(id = 'jdv-type-histo-etat-tumoral-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [6c463aac-ee23-4298-9cba-20100a76012c]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-adicap could not be resolved.
-Information: X-Request-Id: 77802ab0-444f-4e34-8b93-be1fcd953877
+ERROR: ValueSet.where(id = 'jdv-type-histo-etat-tumoral-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [e2767e6e-83a9-4e16-9dce-fbfa04a30dc3]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-adicap could not be resolved.
+Information: X-Request-Id: bf515afb-9287-4c50-bb84-def0899a7dc1
 == input/ontoserver/JDV/JdvTypeInterventionCisis_jdv-type-intervention-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 INFORMATION: ValueSet/jdv-type-intervention-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
@@ -7316,20 +7329,20 @@ INFORMATION: ValueSet/jdv-type-intubation-cisis: ValueSet.compose.include[1]: Th
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 == input/ontoserver/JDV/JdvTypeLesionImagerieCisis_jdv-type-lesion-imagerie-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
-INFORMATION: ValueSet/jdv-type-lesion-imagerie-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
+INFORMATION: ValueSet/jdv-type-lesion-imagerie-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvTypeMammographieCisis_jdv-type-mammographie-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 == input/ontoserver/JDV/JdvTypeMigraineCisis_jdv-type-migraine-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
-INFORMATION: ValueSet/jdv-type-migraine-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
+INFORMATION: ValueSet/jdv-type-migraine-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvTypeMotorisationCisis_jdv-type-motorisation-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 == input/ontoserver/JDV/JdvTypePelevementOrigineCisis_jdv-type-pelevement-origine-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 WARNING: ValueSet/jdv-type-pelevement-origine-cisis: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-adicap'
 INFORMATION: ValueSet/jdv-type-pelevement-origine-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
-ERROR: ValueSet.where(id = 'jdv-type-pelevement-origine-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [66f8e441-a623-4f51-8952-62db8118f839]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-adicap could not be resolved.
-Information: X-Request-Id: 814cc91a-9043-4087-8917-86a56b30554d
+ERROR: ValueSet.where(id = 'jdv-type-pelevement-origine-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [a70f2e9a-2674-48a7-988e-c8e58d5dd680]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-adicap could not be resolved.
+Information: X-Request-Id: 934bbd9d-8f36-40c4-ae82-b1dad5434f9c
 == input/ontoserver/JDV/JdvTypePresentationCisis_jdv-type-presentation-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 INFORMATION: ValueSet/jdv-type-presentation-cisis: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
@@ -7337,10 +7350,9 @@ INFORMATION: ValueSet/jdv-type-presentation-cisis: ValueSet.compose.include[1]: 
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 == input/ontoserver/JDV/JdvTypeProduitSanguinLabileCisis_jdv-type-produit-sanguin-labile-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
-WARNING: ValueSet/jdv-type-produit-sanguin-labile-cisis: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-ncit'
-INFORMATION: ValueSet/jdv-type-produit-sanguin-labile-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
-ERROR: ValueSet.where(id = 'jdv-type-produit-sanguin-labile-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [d4249867-b0a7-429f-9988-c36b8d55b467]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
-Information: X-Request-Id: a5994700-7954-4b6b-8213-16ec01d38383
+INFORMATION: ValueSet/jdv-type-produit-sanguin-labile-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
+ERROR: ValueSet.where(id = 'jdv-type-produit-sanguin-labile-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [024597ad-a948-403c-ac8e-6ae82d1d301e]: A usable code system with URL http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl could not be resolved.
+Information: X-Request-Id: 76ae87fc-4f8d-4d4b-863b-78fb0836304f
 == input/ontoserver/JDV/JdvTypeRencontreCisis_jdv-type-rencontre-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 == input/ontoserver/JDV/JdvTypeRencontreObpCisis_jdv-type-rencontre-obp-cisis.json ==
@@ -7357,21 +7369,17 @@ INFORMATION: ValueSet/jdv-type-sonde-gastrique-cisis: ValueSet.compose.include[0
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 == input/ontoserver/JDV/JdvTypeTraitementFrcpCisis_jdv-type-traitement-frcp-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
-WARNING: ValueSet/jdv-type-traitement-frcp-cisis: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-ncit'
-INFORMATION: ValueSet/jdv-type-traitement-frcp-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
+INFORMATION: ValueSet/jdv-type-traitement-frcp-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
 INFORMATION: ValueSet/jdv-type-traitement-frcp-cisis: ValueSet.compose.include[2]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
-ERROR: ValueSet.where(id = 'jdv-type-traitement-frcp-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [6a847cf5-5c77-482b-a0f3-de1b41c73a28]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
-Information: X-Request-Id: 7381e660-a0fe-4d03-a221-a02881e99b18
+ERROR: ValueSet.where(id = 'jdv-type-traitement-frcp-cisis'): Error from https://tx.fhir.org/r4: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the value set cannot be expanded. Valid versions: http://snomed.info/sct/11000146104/version/20240930,http://snomed.info/sct/11000172109/version/20231115,http://snomed.info/sct/2011000195101/version/20230607,http://snomed.info/sct/32506021000036107/version/20230731,http://snomed.info/sct/449081005/version/20250510,http://snomed.info/sct/45991000052106/version/20220531,http://snomed.info/sct/45991000052106/version/20231130,http://snomed.info/sct/554471000005108/version/20250930,http://snomed.info/sct/731000124108/version/20250901,http://snomed.info/sct/827022005/version/20241216,http://snomed.info/sct/83821000000107/version/20230412,http://snomed.info/sct/900000000000207008/version/20240201,http://snomed.info/sct/900000000000207008/version/20240801,http://snomed.info/sct/900000000000207008/version/20250201,http://snomed.info/xsct/900000000000207008/version/20250814
 == input/ontoserver/JDV/JdvTypeTraitementIvCisis_jdv-type-traitement-iv-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 INFORMATION: ValueSet/jdv-type-traitement-iv-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvTypeTraitementPpsCisis_jdv-type-traitement-pps-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
-WARNING: ValueSet/jdv-type-traitement-pps-cisis: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-ncit'
-INFORMATION: ValueSet/jdv-type-traitement-pps-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
+INFORMATION: ValueSet/jdv-type-traitement-pps-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
 INFORMATION: ValueSet/jdv-type-traitement-pps-cisis: ValueSet.compose.include[2]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
-ERROR: ValueSet.where(id = 'jdv-type-traitement-pps-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [1833d0a9-2465-464c-9e88-dc5224cad038]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
-Information: X-Request-Id: 956a7cd8-c496-4dbf-bec9-5e24bfcf55b6
+ERROR: ValueSet.where(id = 'jdv-type-traitement-pps-cisis'): Error from https://tx.fhir.org/r4: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/11000315107' could not be found, so the value set cannot be expanded. Valid versions: http://snomed.info/sct/11000146104/version/20240930,http://snomed.info/sct/11000172109/version/20231115,http://snomed.info/sct/2011000195101/version/20230607,http://snomed.info/sct/32506021000036107/version/20230731,http://snomed.info/sct/449081005/version/20250510,http://snomed.info/sct/45991000052106/version/20220531,http://snomed.info/sct/45991000052106/version/20231130,http://snomed.info/sct/554471000005108/version/20250930,http://snomed.info/sct/731000124108/version/20250901,http://snomed.info/sct/827022005/version/20241216,http://snomed.info/sct/83821000000107/version/20230412,http://snomed.info/sct/900000000000207008/version/20240201,http://snomed.info/sct/900000000000207008/version/20240801,http://snomed.info/sct/900000000000207008/version/20250201,http://snomed.info/xsct/900000000000207008/version/20250814
 == input/ontoserver/JDV/JdvUfcvCodeEntreeCisis_jdv-ufcv-code-entree-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 INFORMATION: ValueSet/jdv-ufcv-code-entree-cisis: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
@@ -7382,8 +7390,6 @@ INFORMATION: ValueSet/jdv-ufcv-composant-prothese-valvulaire-cisis: ValueSet.com
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 == input/ontoserver/JDV/JdvUfcvEffetInrCisis_jdv-ufcv-effet-inr-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
-INFORMATION: ValueSet/jdv-ufcv-effet-inr-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
-ERROR: ValueSet.where(id = 'jdv-ufcv-effet-inr-cisis'): Error from https://tx.fhir.org/r4: A definition for CodeSystem 'https://www.meddra.org' could not be found, so the value set cannot be expanded
 == input/ontoserver/JDV/JdvUfcvLateraliteCisis_jdv-ufcv-lateralite-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 INFORMATION: ValueSet/jdv-ufcv-lateralite-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
@@ -7401,7 +7407,7 @@ INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir
 INFORMATION: ValueSet/jdv-ufcv-modele-valve-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvUfcvMotifImplantCisis_jdv-ufcv-motif-implant-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
-INFORMATION: ValueSet/jdv-ufcv-motif-implant-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
+INFORMATION: ValueSet/jdv-ufcv-motif-implant-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvUfcvMotifImplantEndoprotheseCisis_jdv-ufcv-motif-implant-endoprothese-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 == input/ontoserver/JDV/JdvUfcvPolariteSondeCisis_jdv-ufcv-polarite-sonde-cisis.json ==
@@ -7427,13 +7433,13 @@ INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir
 INFORMATION: ValueSet/jdv-usage-drogue-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvVaccinCse24Cisis_jdv-vaccin-cse24-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
-INFORMATION: ValueSet/jdv-vaccin-cse24-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
+INFORMATION: ValueSet/jdv-vaccin-cse24-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvVaccinCse8Cisis_jdv-vaccin-cse8-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
-INFORMATION: ValueSet/jdv-vaccin-cse8-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
+INFORMATION: ValueSet/jdv-vaccin-cse8-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvVaccinCse9Cisis_jdv-vaccin-cse9-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
-INFORMATION: ValueSet/jdv-vaccin-cse9-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
+INFORMATION: ValueSet/jdv-vaccin-cse9-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvVieEnCollectiviteCisis_jdv-vie-en-collectivite-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 == input/ontoserver/JDV/JdvVoieAbordCisis_jdv-voie-abord-cisis.json ==
@@ -7973,8 +7979,8 @@ ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/VS-test'):
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 WARNING: ValueSet/VS-test: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322'
 INFORMATION: ValueSet/VS-test: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
-ERROR: ValueSet.where(id = 'VS-test'): Error from https://smt.esante.gouv.fr/fhir: Error: [3594e472-811d-4c42-a411-a4438174dc80]: A usable code system with URL https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322 could not be resolved.
-Information: X-Request-Id: 7f0f6ccb-2967-46dd-980d-59da1d1ff267
+ERROR: ValueSet.where(id = 'VS-test'): Error from https://smt.esante.gouv.fr/fhir: Error: [b372818d-c511-4567-91c6-1139bf30b9b8]: A usable code system with URL https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322 could not be resolved.
+Information: X-Request-Id: 9ad7636b-cf15-413d-805b-347bad1a56ef
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/VS_test_VS-test: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/VS-test vs https://smt.esante.gouv.fr/fhir/ValueSet/VS-test
 == input/ontoserver/JDV/ValueSet_ATC_All_vs-atc-all.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
@@ -7991,8 +7997,8 @@ INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir
 WARNING: ValueSet/vs-cipucd-all: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-cip_ucd'
 WARNING: ValueSet/vs-cipucd-all: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 WARNING: ValueSet/vs-cipucd-all: ValueSet: Resource has a language, but the XHTML does not have an lang or an xml:lang tag (needs both - see https://www.w3.org/TR/i18n-html-tech-lang/#langvalues)
-ERROR: ValueSet.where(id = 'vs-cipucd-all'): Error from https://smt.esante.gouv.fr/fhir: Error: [85cc4aea-64b7-407c-868d-b8d91c214ba5]: Could not find the code system https://smt.esante.gouv.fr/terminologie-cip_ucd|2025-12
-Information: X-Request-Id: 5ac37cb3-6b30-44dd-ba61-3838dd25da24
+ERROR: ValueSet.where(id = 'vs-cipucd-all'): Error from https://smt.esante.gouv.fr/fhir: Error: [50243ed5-de11-4b9f-936e-1f918560f7ed]: Could not find the code system https://smt.esante.gouv.fr/terminologie-cip_ucd|2025-12
+Information: X-Request-Id: 0028da94-241b-491e-8f04-1f08543b58a1
 == input/ontoserver/JDV/ValueSet_EDQM_All_vs-edqm-all.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 WARNING: ValueSet/vs-edqm-all: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present

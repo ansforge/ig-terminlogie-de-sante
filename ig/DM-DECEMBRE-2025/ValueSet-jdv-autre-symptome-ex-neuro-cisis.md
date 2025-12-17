@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-autre-symptome-ex-neuro-cisis | *Version*:20250624152101 | |
-| Active as of 2025-06-24 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvAutreSymptomeExNeuroCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-autre-symptome-ex-neuro-cisis | *Version*:20251216141840 | |
+| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvAutreSymptomeExNeuroCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.174 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-autre-symptome-ex-neuro-cisis",
   "meta" : {
-    "versionId" : "3",
-    "lastUpdated" : "2025-06-25T09:12:54.985+00:00",
+    "versionId" : "4",
+    "lastUpdated" : "2025-12-17T15:43:07.468+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
@@ -77,12 +77,12 @@ Requête sur le SMT
       "value" : "urn:oid:1.2.250.1.213.1.1.5.174"
     }
   ],
-  "version" : "20250624152101",
+  "version" : "20251216141840",
   "name" : "JdvAutreSymptomeExNeuroCisis",
   "title" : "JDV Autre Symptome Ex Neuro CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-06-24T15:21:01+01:00",
+  "date" : "2025-12-16T14:18:40+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Autre Symptome Ex Neuro CISIS",
   "jurisdiction" : [
@@ -98,7 +98,7 @@ Requête sur le SMT
   "compose" : {
     "include" : [
       {
-        "system" : "https://smt.esante.gouv.fr/terminologie-cim-10",
+        "system" : "http://hl7.org/fhir/sid/icd-10",
         "concept" : [
           {
             "code" : "G52.3",

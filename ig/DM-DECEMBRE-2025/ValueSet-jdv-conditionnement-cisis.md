@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-conditionnement-cisis | *Version*:20251028115835 | |
-| Active as of 2025-10-28 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvConditionnementCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-conditionnement-cisis | *Version*:20251216141840 | |
+| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvConditionnementCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.149 | | |
 
  
@@ -57,8 +57,8 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "resourceType" : "ValueSet",
   "id" : "jdv-conditionnement-cisis",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-10-29T10:43:31.572+01:00",
+    "versionId" : "6",
+    "lastUpdated" : "2025-12-17T15:43:33.018+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
@@ -79,12 +79,12 @@ No Expansion for this valueset (not supported by Publication Tooling)
       "value" : "urn:oid:1.2.250.1.213.1.1.5.149"
     }
   ],
-  "version" : "20251028115835",
+  "version" : "20251216141840",
   "name" : "JdvConditionnementCisis",
   "title" : "JDV Conditionnement CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-10-28T11:58:35+01:00",
+  "date" : "2025-12-16T14:18:40+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Conditionnement CISIS",
   "jurisdiction" : [

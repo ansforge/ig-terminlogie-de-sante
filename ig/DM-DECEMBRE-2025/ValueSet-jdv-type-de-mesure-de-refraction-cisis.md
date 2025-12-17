@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-de-mesure-de-refraction-cisis | *Version*:20250624152059 | |
-| Active as of 2025-06-24 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvTypeDeMesureDeRefractionCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-de-mesure-de-refraction-cisis | *Version*:20251216141838 | |
+| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvTypeDeMesureDeRefractionCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.641 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-type-de-mesure-de-refraction-cisis",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2025-06-25T09:16:41.774+00:00",
+    "versionId" : "5",
+    "lastUpdated" : "2025-12-17T15:47:41.927+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
@@ -77,12 +77,12 @@ Requête sur le SMT
       "value" : "urn:oid:1.2.250.1.213.1.1.5.641"
     }
   ],
-  "version" : "20250624152059",
+  "version" : "20251216141838",
   "name" : "JdvTypeDeMesureDeRefractionCisis",
   "title" : "JDV Type De Mesure De Refraction CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-06-24T15:20:59+01:00",
+  "date" : "2025-12-16T14:18:38+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Type De Mesure De Refraction CISIS",
   "jurisdiction" : [

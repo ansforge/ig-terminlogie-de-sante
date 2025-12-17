@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-sedentarite-cisis | *Version*:20251028115834 | |
-| Active as of 2025-10-28 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvSedentariteCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-sedentarite-cisis | *Version*:20251216141839 | |
+| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvSedentariteCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.485 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-sedentarite-cisis",
   "meta" : {
-    "versionId" : "3",
-    "lastUpdated" : "2025-10-29T10:44:44.679+01:00",
+    "versionId" : "4",
+    "lastUpdated" : "2025-12-17T15:46:48.171+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
@@ -77,12 +77,12 @@ Requête sur le SMT
       "value" : "urn:oid:1.2.250.1.213.1.1.5.485"
     }
   ],
-  "version" : "20251028115834",
+  "version" : "20251216141839",
   "name" : "JdvSedentariteCisis",
   "title" : "JDV Sedentarite CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-10-28T11:58:34+01:00",
+  "date" : "2025-12-16T14:18:39+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Sedentarite CISIS",
   "jurisdiction" : [

@@ -2983,11 +2983,11 @@ Activite Operationnelle
           "valueDateTime" : "2015-04-08T00:00:00+01:00"
         },
         {
-          "code" : "dateMaj",
+          "code" : "dateFin",
           "valueDateTime" : "2025-12-22T00:00:00+01:00"
         },
         {
-          "code" : "dateFin",
+          "code" : "dateMaj",
           "valueDateTime" : "2025-12-22T00:00:00+01:00"
         },
         {
