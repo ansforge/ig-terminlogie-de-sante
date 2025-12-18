@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-evenement-indesirable-previsible-cisis | *Version*:20251028115833 | |
-| Active as of 2025-10-28 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvTypeEvenementIndesirablePrevisibleCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-evenement-indesirable-previsible-cisis | *Version*:20251216141838 | |
+| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvTypeEvenementIndesirablePrevisibleCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.794 | | |
 
  
@@ -33,8 +33,6 @@ Requête sur le SMT
 
 ### Expansion
 
-No Expansion for this valueset (not supported by Publication Tooling)
-
 -------
 
  Explanation of the columns that may appear on this page: 
@@ -57,8 +55,8 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "resourceType" : "ValueSet",
   "id" : "jdv-type-evenement-indesirable-previsible-cisis",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2025-10-29T10:45:05.329+01:00",
+    "versionId" : "5",
+    "lastUpdated" : "2025-12-17T15:47:49.673+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
@@ -79,12 +77,12 @@ No Expansion for this valueset (not supported by Publication Tooling)
       "value" : "urn:oid:1.2.250.1.213.1.1.5.794"
     }
   ],
-  "version" : "20251028115833",
+  "version" : "20251216141838",
   "name" : "JdvTypeEvenementIndesirablePrevisibleCisis",
   "title" : "JDV Type Evenement Indesirable Previsible CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-10-28T11:58:33+01:00",
+  "date" : "2025-12-16T14:18:38+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Type Evenement Indesirable Previsible CISIS",
   "jurisdiction" : [
@@ -99,6 +97,23 @@ No Expansion for this valueset (not supported by Publication Tooling)
   ],
   "compose" : {
     "include" : [
+      {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+        "concept" : [
+          {
+            "code" : "MED-1331",
+            "display" : "allergie à une substance"
+          },
+          {
+            "code" : "MED-1332",
+            "display" : "hypersensibilité non allergique à une substance"
+          },
+          {
+            "code" : "MED-1333",
+            "display" : "intolérance à un agent environnemental"
+          }
+        ]
+      },
       {
         "system" : "http://snomed.info/sct",
         "concept" : [
@@ -119,10 +134,6 @@ No Expansion for this valueset (not supported by Publication Tooling)
             "display" : "allergie alimentaire"
           },
           {
-            "code" : "419199007",
-            "display" : "allergie à une substance"
-          },
-          {
             "code" : "609396006",
             "display" : "hypersensibilité non allergique"
           },
@@ -135,10 +146,6 @@ No Expansion for this valueset (not supported by Publication Tooling)
             "display" : "hypersensibilité non allergique alimentaire"
           },
           {
-            "code" : "609397002",
-            "display" : "hypersensibilité non allergique à une substance"
-          },
-          {
             "code" : "782197009",
             "display" : "intolérance à une substance"
           },
@@ -149,10 +156,6 @@ No Expansion for this valueset (not supported by Publication Tooling)
           {
             "code" : "235719002",
             "display" : "intolérance alimentaire"
-          },
-          {
-            "code" : "1.2.250.1.213.1.1.5.794.1",
-            "display" : "intolérance à un agent environnemental (Demande de création SNOMED CT en cours)"
           },
           {
             "code" : "56840009",

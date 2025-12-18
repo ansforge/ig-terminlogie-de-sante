@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-age-cisis | *Version*:20250624152100 | |
-| Active as of 2025-06-24 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvAgeCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-age-cisis | *Version*:20251216141840 | |
+| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvAgeCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.43 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-age-cisis",
   "meta" : {
-    "versionId" : "3",
-    "lastUpdated" : "2025-06-25T09:12:37.298+00:00",
+    "versionId" : "4",
+    "lastUpdated" : "2025-12-17T15:42:53.242+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
@@ -77,12 +77,12 @@ Requête sur le SMT
       "value" : "urn:oid:1.2.250.1.213.1.1.5.43"
     }
   ],
-  "version" : "20250624152100",
+  "version" : "20251216141840",
   "name" : "JdvAgeCisis",
   "title" : "JDV Age CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-06-24T15:21:00+01:00",
+  "date" : "2025-12-16T14:18:40+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Age CISIS",
   "jurisdiction" : [
@@ -119,7 +119,7 @@ Requête sur le SMT
           },
           {
             "code" : "373068000",
-            "display" : "indéterminé(e)"
+            "display" : "non déterminé(e)"
           },
           {
             "code" : "303112003",

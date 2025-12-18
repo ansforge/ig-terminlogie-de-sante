@@ -718,6 +718,7 @@ These define sets of codes used by systems conforming to this implementation gui
 | [JDV_J98_StatutHospitalier_RASS](ValueSet-JDV-J98-StatutHospitalier-RASS.md) | Statut des professionnels intervenant dans un hôpital dans le RASS |
 | [JDV_J99_InseeNAFrav2Niveau5_RASS](ValueSet-JDV-J99-InseeNAFrav2Niveau5-RASS.md) | Sous-classes de la Nomenclature Activités Française (INSEE) des prof du RASS |
 | [Jdv Depistage Neonatal CISIS](ValueSet-jdv-depistage-neonatal-cisis.md) | Jdv Depistage Neonatal CISIS |
+| [Jdv Etat De Conscience CISIS](ValueSet-jdv-etat-de-conscience-cisis.md) | Jdv Etat De Conscience CISIS |
 | [Jdv J366 Statut Bilan Projet Personnalise Ms](ValueSet-jdv-j366-statut-bilan-projet-personnalise-ms.md) | Statut du bilan du projet personnalisé. |
 | [Jdv J367 Type Projet Personnalise Ms](ValueSet-jdv-j367-type-projet-personnalise-ms.md) | Cette nomenclature donne le type de projet personnalisé qui est un document co-construit par l’usager, son entourage familial et professionnel du médico-social. |
 | [Jdv J368 Categorie Etablissement Cisis](ValueSet-jdv-j368-categorie-etablissement-cisis.md) | JDV à l’image de l’ensemble des valeurs actives de la terminologie TRE_R66-CategorieEtablissement |
@@ -728,6 +729,7 @@ These define sets of codes used by systems conforming to this implementation gui
 | [Jdv Modele Document Cda](ValueSet-jdv-modele-document-cda.md) | JDV avec l’ensemble des codes de la TRE_R220_ModeleDocumentCDAStructure et TRE_R221_ModeleDocumentCDANonStructure |
 | [Jdv Role Informateur CISIS](ValueSet-jdv-role-informateur-cisis.md) | Jdv Role Informateur CISIS |
 | [Jdv Tre R221 Modele Document Cda Non Structure All](ValueSet-jdv-tre-r221-modele-document-cda-non-structure-all.md) | JDV avec l’ensemble des codes actifs de la TRE_R221_ModeleDocumentCDANonStructure |
+| [Jdv Trod Examen CISIS](ValueSet-jdv-trod-examen-cisis.md) | Jdv Trod Examen CISIS |
 | [Jdv Type Systeme CISIS](ValueSet-jdv-type-systeme-cisis.md) | Jdv Type Systeme CISIS |
 | [MediaType](ValueSet-jdv-hl7-v3-MediaType-cisis.md) | MediaType |
 | [ObservationInterpretation](ValueSet-jdv-hl7-v3-ObservationInterpretation-cisis.md) | ObservationInterpretation |

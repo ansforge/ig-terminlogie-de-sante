@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-ufcv-effet-inr-cisis | *Version*:20251028115835 | |
-| Active as of 2025-10-28 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvUfcvEffetInrCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-ufcv-effet-inr-cisis | *Version*:20251216141840 | |
+| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvUfcvEffetInrCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.4.2.18 | | |
 
  
@@ -33,8 +33,6 @@ Requête sur le SMT
 
 ### Expansion
 
-No Expansion for this valueset (not supported by Publication Tooling)
-
 -------
 
  Explanation of the columns that may appear on this page: 
@@ -57,8 +55,8 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "resourceType" : "ValueSet",
   "id" : "jdv-ufcv-effet-inr-cisis",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-10-29T10:45:11.309+01:00",
+    "versionId" : "6",
+    "lastUpdated" : "2025-12-17T15:48:13.161+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
@@ -79,12 +77,12 @@ No Expansion for this valueset (not supported by Publication Tooling)
       "value" : "urn:oid:1.2.250.1.213.1.1.4.2.18"
     }
   ],
-  "version" : "20251028115835",
+  "version" : "20251216141840",
   "name" : "JdvUfcvEffetInrCisis",
   "title" : "JDV UFCV Effet INR CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-10-28T11:58:35+01:00",
+  "date" : "2025-12-16T14:18:40+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV UFCV Effet INR CISIS",
   "jurisdiction" : [
@@ -100,15 +98,15 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "compose" : {
     "include" : [
       {
-        "system" : "https://www.meddra.org",
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
         "concept" : [
           {
-            "code" : "10022401",
-            "display" : "Diminution de l'INR"
+            "code" : "MED-1335",
+            "display" : "Médicament augmentant l’INR"
           },
           {
-            "code" : "10022402",
-            "display" : "Augmentation de l'INR"
+            "code" : "MED-1336",
+            "display" : "Médicament diminuant l’INR"
           }
         ]
       }

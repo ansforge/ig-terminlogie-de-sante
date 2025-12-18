@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mode-sortie-obp-sne-cisis | *Version*:20250624152100 | |
-| Active as of 2025-06-24 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvModeSortieObpSneCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mode-sortie-obp-sne-cisis | *Version*:20251216141838 | |
+| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvModeSortieObpSneCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.699 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-mode-sortie-obp-sne-cisis",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2025-06-25T09:15:00.767+00:00",
+    "versionId" : "5",
+    "lastUpdated" : "2025-12-17T15:45:26.575+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
@@ -77,12 +77,12 @@ Requête sur le SMT
       "value" : "urn:oid:1.2.250.1.213.1.1.5.699"
     }
   ],
-  "version" : "20250624152100",
+  "version" : "20251216141838",
   "name" : "JdvModeSortieObpSneCisis",
   "title" : "JDV Mode Sortie Obp Sne CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-06-24T15:21:00+01:00",
+  "date" : "2025-12-16T14:18:38+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Mode Sortie Obp Sne CISIS",
   "jurisdiction" : [
@@ -115,11 +115,11 @@ Requête sur le SMT
         "concept" : [
           {
             "code" : "419620001",
-            "display" : "mort"
+            "display" : "décès"
           },
           {
             "code" : "107724000",
-            "display" : "transfert du patient"
+            "display" : "transfert d'un(e) patient(e)"
           }
         ]
       }

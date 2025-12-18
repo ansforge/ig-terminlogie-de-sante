@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis | *Version*:202510230000 | |
-| Active as of 2025-10-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TerminologieCISIS |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis | *Version*:202512170000 | |
+| Active as of 2025-12-17 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TerminologieCISIS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.4.322 | | |
 
  
@@ -83,6 +83,7 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
 * [JdvDocumentAnnexeFludrCisis](ValueSet-jdv-document-annexe-fludr-cisis.md)
 * [JdvDureeAllaitementCisis](ValueSet-jdv-duree-allaitement-cisis.md)
 * [JdvEnfantExposeAuxEcransCs24Cisis](ValueSet-jdv-enfant-expose-aux-ecrans-cs24-cisis.md)
+* [JdvEtatDeConscienceCisis](ValueSet-jdv-etat-de-conscience-cisis.md)
 * [JdvEtiologieHemorragieCisis](ValueSet-jdv-etiologie-hemorragie-cisis.md)
 * [JdvEtiologieInfarctusCisis](ValueSet-jdv-etiologie-infarctus-cisis.md)
 * [JdvEvaluationDouleurCisis](ValueSet-jdv-evaluation-douleur-cisis.md)
@@ -224,6 +225,7 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
 * [JdvTypeDirectiveAnticipeeCisis](ValueSet-jdv-type-directive-anticipee-cisis.md)
 * [JdvTypeDossierCisis](ValueSet-jdv-type-dossier-cisis.md)
 * [JdvTypeEvaluationCisis](ValueSet-jdv-type-evaluation-cisis.md)
+* [JdvTypeEvenementIndesirablePrevisibleCisis](ValueSet-jdv-type-evenement-indesirable-previsible-cisis.md)
 * [JdvTypeEvenementSsiadCisis](ValueSet-jdv-type-evenement-ssiad-cisis.md)
 * [JdvTypeGardeCisis](ValueSet-jdv-type-garde-cisis.md)
 * [JdvTypeInterventionVoieBasseCisis](ValueSet-jdv-type-intervention-voie-basse-cisis.md)
@@ -242,6 +244,7 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
 * [JdvTypeTraitementPpsCisis](ValueSet-jdv-type-traitement-pps-cisis.md)
 * [JdvUfcvCodeEntreeCisis](ValueSet-jdv-ufcv-code-entree-cisis.md)
 * [JdvUfcvConnexionSondeCisis](ValueSet-jdv-ufcv-connexion-sonde-cisis.md)
+* [JdvUfcvEffetInrCisis](ValueSet-jdv-ufcv-effet-inr-cisis.md)
 * [JdvUfcvLocalisationSondeCisis](ValueSet-jdv-ufcv-localisation-sonde-cisis.md)
 * [JdvUfcvMotifImplantCisis](ValueSet-jdv-ufcv-motif-implant-cisis.md)
 * [JdvUfcvMotifImplantEndoprotheseCisis](ValueSet-jdv-ufcv-motif-implant-endoprothese-cisis.md)
@@ -258,8 +261,8 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
   "resourceType" : "CodeSystem",
   "id" : "terminologie-cisis",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-10-23T15:11:51.139+02:00",
+    "versionId" : "7",
+    "lastUpdated" : "2025-12-17T14:55:38.023+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
@@ -279,12 +282,12 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       "value" : "urn:oid:1.2.250.1.213.1.1.4.322"
     }
   ],
-  "version" : "202510230000",
+  "version" : "202512170000",
   "name" : "TerminologieCISIS",
   "title" : "TerminologieCISIS - Terminologie des concepts non trouvés dans les autres terminologies",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-10-23T14:59:35-00:00",
+  "date" : "2025-12-17T14:37:59-00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Terminologie multi-domaines créée et maintenue par l'ANS contenant les termes non trouvés dans les autres terminologies internationales ou nationales.",
   "jurisdiction" : [
@@ -2061,6 +2064,42 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
         {
           "code" : "dateValid",
           "valueDateTime" : "2010-01-01T00:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "GEN-092.01.25",
+      "display" : "Autre exposition",
+      "property" : [
+        {
+          "code" : "creationDate",
+          "valueDateTime" : "2025-12-11T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-11T00:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "GEN-092.01.26",
+      "display" : "Autre complication",
+      "property" : [
+        {
+          "code" : "creationDate",
+          "valueDateTime" : "2025-12-11T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-11T00:00:00+01:00"
         },
         {
           "code" : "status",
@@ -13420,7 +13459,7 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     },
     {
       "code" : "MED-508",
-      "display" : "Toubles digestifs justifiant une sonde gastrique",
+      "display" : "Troubles digestifs justifiant une sonde gastrique",
       "property" : [
         {
           "code" : "creationDate",
@@ -25095,6 +25134,132 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       ]
     },
     {
+      "code" : "MED-1330",
+      "display" : "Etat de conscience inconnu",
+      "property" : [
+        {
+          "code" : "creationDate",
+          "valueDateTime" : "2025-10-29T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-10-29T00:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "MED-1331",
+      "display" : "allergie à une substance",
+      "property" : [
+        {
+          "code" : "creationDate",
+          "valueDateTime" : "2025-11-04T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-11-04T00:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "MED-1332",
+      "display" : "hypersensibilité non allergique à une substance",
+      "property" : [
+        {
+          "code" : "creationDate",
+          "valueDateTime" : "2025-11-04T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-11-04T00:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "MED-1333",
+      "display" : "intolérance à un agent environnemental",
+      "property" : [
+        {
+          "code" : "creationDate",
+          "valueDateTime" : "2025-11-04T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-11-04T00:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "MED-1334",
+      "display" : "mésusage ou d’un usage détourné",
+      "property" : [
+        {
+          "code" : "creationDate",
+          "valueDateTime" : "2025-11-04T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-11-04T00:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "MED-1335",
+      "display" : "Médicament augmentant l’INR",
+      "property" : [
+        {
+          "code" : "creationDate",
+          "valueDateTime" : "2025-12-15T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-15T00:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "MED-1336",
+      "display" : "Médicament diminuant l’INR",
+      "property" : [
+        {
+          "code" : "creationDate",
+          "valueDateTime" : "2025-12-15T00:00:00+01:00"
+        },
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-15T00:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
       "code" : "ORG-001",
       "display" : "Prise en charge spécifique en oncogériatrie",
       "property" : [
@@ -25599,150 +25764,6 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
       ]
     },
     {
-      "code" : "ORG-054",
-      "display" : "Établissement de santé de référence",
-      "property" : [
-        {
-          "code" : "creationDate",
-          "valueDateTime" : "2010-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2010-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
-    },
-    {
-      "code" : "ORG-055",
-      "display" : "Centre d'hébergement",
-      "property" : [
-        {
-          "code" : "creationDate",
-          "valueDateTime" : "2010-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2010-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
-    },
-    {
-      "code" : "ORG-056",
-      "display" : "Structure(s) de coordination ville-hôpital",
-      "property" : [
-        {
-          "code" : "creationDate",
-          "valueDateTime" : "2010-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2010-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
-    },
-    {
-      "code" : "ORG-057",
-      "display" : "Organisme social et de maintien dans l'emploi",
-      "property" : [
-        {
-          "code" : "creationDate",
-          "valueDateTime" : "2010-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2010-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
-    },
-    {
-      "code" : "ORG-059",
-      "display" : "Lieu d'administration",
-      "property" : [
-        {
-          "code" : "creationDate",
-          "valueDateTime" : "2010-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2010-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
-    },
-    {
-      "code" : "ORG-060",
-      "display" : "Lieu de prise en charge en oncogératrie",
-      "property" : [
-        {
-          "code" : "creationDate",
-          "valueDateTime" : "2010-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2010-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
-    },
-    {
-      "code" : "ORG-061",
-      "display" : "Lieu des mesures de préservation de la fertilité",
-      "property" : [
-        {
-          "code" : "creationDate",
-          "valueDateTime" : "2010-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2010-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
-    },
-    {
-      "code" : "ORG-062",
-      "display" : "Structure(s) de soutien et d'information",
-      "property" : [
-        {
-          "code" : "creationDate",
-          "valueDateTime" : "2010-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2010-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
-    },
-    {
       "code" : "ORG-063",
       "display" : "Acte ou intervention prévu ou à programmer",
       "property" : [
@@ -26159,42 +26180,6 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "ORG-104",
       "display" : "SSR polyvalent",
-      "property" : [
-        {
-          "code" : "creationDate",
-          "valueDateTime" : "2010-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2010-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
-    },
-    {
-      "code" : "ORG-109",
-      "display" : "Caisse d'assurance de retraite et santé au travail (CARSAT)",
-      "property" : [
-        {
-          "code" : "creationDate",
-          "valueDateTime" : "2010-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2010-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
-    },
-    {
-      "code" : "ORG-110",
-      "display" : "Service d'appui au maintien dans l'emploi des travailleurs handicapés (SAMETH)",
       "property" : [
         {
           "code" : "creationDate",

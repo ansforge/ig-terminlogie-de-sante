@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modalite-demande-acte-imagerie-cisis | *Version*:20250624152100 | |
-| Active as of 2025-06-24 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvModaliteDemandeActeImagerieCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modalite-demande-acte-imagerie-cisis | *Version*:20251216141838 | |
+| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvModaliteDemandeActeImagerieCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.660 | | |
 
  
@@ -57,8 +57,8 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "resourceType" : "ValueSet",
   "id" : "jdv-modalite-demande-acte-imagerie-cisis",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2025-06-25T09:14:53.588+00:00",
+    "versionId" : "5",
+    "lastUpdated" : "2025-12-17T15:45:13.725+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
@@ -79,12 +79,12 @@ No Expansion for this valueset (not supported by Publication Tooling)
       "value" : "urn:oid:1.2.250.1.213.1.1.5.660"
     }
   ],
-  "version" : "20250624152100",
+  "version" : "20251216141838",
   "name" : "JdvModaliteDemandeActeImagerieCisis",
   "title" : "JDV Modalite Demande Acte Iimagerie CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-06-24T15:21:00+01:00",
+  "date" : "2025-12-16T14:18:38+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Modalite Demande Acte Iimagerie CISIS",
   "jurisdiction" : [
@@ -100,11 +100,11 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "compose" : {
     "include" : [
       {
-        "system" : "https://smt.esante.gouv.fr/terminologie-ncit",
+        "system" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
         "concept" : [
           {
             "code" : "C63334",
-            "display" : "Radiologie interventionnelle"
+            "display" : "imagerie interventionnelle"
           }
         ]
       },

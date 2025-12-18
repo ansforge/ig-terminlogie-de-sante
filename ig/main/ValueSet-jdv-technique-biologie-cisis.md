@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-technique-biologie-cisis | *Version*:20251028115833 | |
-| Active as of 2025-10-28 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvTechniqueBiologieCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-technique-biologie-cisis | *Version*:20251216141838 | |
+| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvTechniqueBiologieCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.789 | | |
 
  
@@ -57,8 +57,8 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "resourceType" : "ValueSet",
   "id" : "jdv-technique-biologie-cisis",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-10-29T10:44:55.354+01:00",
+    "versionId" : "6",
+    "lastUpdated" : "2025-12-17T15:47:12.032+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
@@ -79,12 +79,12 @@ No Expansion for this valueset (not supported by Publication Tooling)
       "value" : "urn:oid:1.2.250.1.213.1.1.5.789"
     }
   ],
-  "version" : "20251028115833",
+  "version" : "20251216141838",
   "name" : "JdvTechniqueBiologieCisis",
   "title" : "JDV Technique Biologie CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-10-28T11:58:33+01:00",
+  "date" : "2025-12-16T14:18:38+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Technique Biologie CISIS",
   "jurisdiction" : [
@@ -152,15 +152,15 @@ No Expansion for this valueset (not supported by Publication Tooling)
           },
           {
             "code" : "BDB",
-            "display" : "sensibilité à une molécule-bandelettes gradient sur gélose (CMI)"
+            "display" : "Sensibilité à une molécule-bandelettes gradient sur gélose (CMI)"
           },
           {
             "code" : "BDD",
-            "display" : "sensibilité à une molécule-disque sur gélose (diamètre d'inihibition)"
+            "display" : "Sensibilité à une molécule-disque sur gélose (diamètre d'inihibition)"
           },
           {
             "code" : "BLX",
-            "display" : "sensibilité à une molécule-méthodes en milieu liquide"
+            "display" : "Sensibilité à une molécule-méthodes en milieu liquide"
           },
           {
             "code" : "CAX",
@@ -331,16 +331,16 @@ No Expansion for this valueset (not supported by Publication Tooling)
             "display" : "Cytométrie en flux-fluorescence"
           },
           {
+            "code" : "DCI",
+            "display" : "Cytométrie en flux-impédance"
+          },
+          {
             "code" : "DCO",
             "display" : "Cytométrie en flux-optique"
           },
           {
             "code" : "DCP",
             "display" : "Cytométrie en flux-activité peroxydasique"
-          },
-          {
-            "code" : "DCI",
-            "display" : "Cytométrie en flux-impédance"
           },
           {
             "code" : "DCX",
@@ -367,20 +367,20 @@ No Expansion for this valueset (not supported by Publication Tooling)
             "display" : "Spectrophotométrie-dosage de substrat-enzymatique-hexokinase"
           },
           {
-            "code" : "DEL",
-            "display" : "Spectrophotométrie-dosage de substrat-enzymatique-LDH"
-          },
-          {
             "code" : "DEI",
             "display" : "Spectrophotométrie-dosage de substrat-enzymatique-GDH"
           },
           {
-            "code" : "DEX",
-            "display" : "Spectrophotométrie-dosage de substrat-enzymatique-autre"
+            "code" : "DEL",
+            "display" : "Spectrophotométrie-dosage de substrat-enzymatique-LDH"
           },
           {
             "code" : "DEO",
             "display" : "Spectrophotométrie-dosage de substrat-enzymatique-lactate oxydase"
+          },
+          {
+            "code" : "DEX",
+            "display" : "Spectrophotométrie-dosage de substrat-enzymatique-autre"
           },
           {
             "code" : "DGX",
@@ -519,6 +519,10 @@ No Expansion for this valueset (not supported by Publication Tooling)
             "display" : "Spectrophotométrie en milieu trouble-autre"
           },
           {
+            "code" : "DRX",
+            "display" : "Spectro-Réflectométrie"
+          },
+          {
             "code" : "GAX",
             "display" : "Amplification génomique isotherme"
           },
@@ -529,10 +533,6 @@ No Expansion for this valueset (not supported by Publication Tooling)
           {
             "code" : "GMX",
             "display" : "MLPA/RT MLPA"
-          },
-          {
-            "code" : "GNX",
-            "display" : "Séquençage NGS-autre"
           },
           {
             "code" : "GNA",
@@ -559,12 +559,16 @@ No Expansion for this valueset (not supported by Publication Tooling)
             "display" : "Séquençage NGS-RNAseq-transcriptome complet"
           },
           {
+            "code" : "GNX",
+            "display" : "Séquençage NGS-autre"
+          },
+          {
             "code" : "GOX",
             "display" : "Cartographie optique du génome-OGM"
           },
           {
             "code" : "GPX",
-            "display" : "puces à ADN, CGH array"
+            "display" : "Puces à ADN, CGH array"
           },
           {
             "code" : "GRX",
@@ -572,47 +576,47 @@ No Expansion for this valueset (not supported by Publication Tooling)
           },
           {
             "code" : "GSX",
-            "display" : "séquençage Sanger"
+            "display" : "Séquençage Sanger"
           },
           {
             "code" : "GTX",
             "display" : "Short Tandem Repeat"
           },
           {
-            "code" : "GWX",
-            "display" : "pyroséquençage"
-          },
-          {
-            "code" : "GUF",
-            "display" : "PCR/RT PCR-point final"
-          },
-          {
-            "code" : "GUR",
-            "display" : "PCR/RT PCR-temps réel"
-          },
-          {
             "code" : "GUA",
             "display" : "PCR/RT PCR-analyse de fragment"
-          },
-          {
-            "code" : "GUD",
-            "display" : "PCR/RT PCR-digitale"
           },
           {
             "code" : "GUB",
             "display" : "PCR/RT PCR et génotypage sur bandelette"
           },
           {
+            "code" : "GUD",
+            "display" : "PCR/RT PCR-digitale"
+          },
+          {
+            "code" : "GUF",
+            "display" : "PCR/RT PCR-point final"
+          },
+          {
             "code" : "GUP",
             "display" : "PCR/RT PCR et génotypage sur puce"
           },
           {
-            "code" : "GYF",
-            "display" : "hybridation-FISH"
+            "code" : "GUR",
+            "display" : "PCR/RT PCR-temps réel"
+          },
+          {
+            "code" : "GWX",
+            "display" : "Pyroséquençage"
           },
           {
             "code" : "GYA",
-            "display" : "hybridation avec amplification du signal"
+            "display" : "Hybridation avec amplification du signal"
+          },
+          {
+            "code" : "GYF",
+            "display" : "Hybridation-FISH"
           },
           {
             "code" : "HPC",
@@ -629,6 +633,10 @@ No Expansion for this valueset (not supported by Publication Tooling)
           {
             "code" : "JAP",
             "display" : "Vitesse d'agrégation-photométrie capillaire"
+          },
+          {
+            "code" : "JAQ",
+            "display" : "Vitesse d'agrégation-photométrie (hors capillaire)"
           },
           {
             "code" : "JAR",
@@ -663,24 +671,36 @@ No Expansion for this valueset (not supported by Publication Tooling)
             "display" : "Microscopie-immunofluorescence indirecte (IFI)"
           },
           {
-            "code" : "MIB",
-            "display" : "Microscopie-avec coloration"
-          },
-          {
-            "code" : "MIH",
-            "display" : "Microscopie-sans coloration"
-          },
-          {
             "code" : "MIA",
             "display" : "Comptage microscopique-cellule Malassez"
           },
           {
+            "code" : "MIB",
+            "display" : "Microscopie-avec coloration"
+          },
+          {
+            "code" : "MIC",
+            "display" : "Comptage microscopique-cellule Neubauer classique"
+          },
+          {
+            "code" : "MID",
+            "display" : "Comptage microscopique-cellule Leja"
+          },
+          {
+            "code" : "MIE",
+            "display" : "Comptage microscopique-cellule Fast Read 102"
+          },
+          {
             "code" : "MIF",
-            "display" : "Comptage microscopique-cellule Fuch Rosenthal"
+            "display" : "Comptage microscopique-cellule Fuchs Rosenthal"
           },
           {
             "code" : "MIG",
-            "display" : "Comptage microscopique-cellule Bruker-Turc"
+            "display" : "Comptage microscopique-cellule Bürker-Türk"
+          },
+          {
+            "code" : "MIH",
+            "display" : "Microscopie-sans coloration"
           },
           {
             "code" : "MIK",
@@ -691,80 +711,88 @@ No Expansion for this valueset (not supported by Publication Tooling)
             "display" : "Comptage microscopique-cellule Lemaur"
           },
           {
-            "code" : "MIC",
-            "display" : "Comptage microscopique-cellule Neubauer classique"
+            "code" : "MIM",
+            "display" : "Comptage microscopique-cellule Nageotte"
           },
           {
             "code" : "MIN",
             "display" : "Comptage microscopique-cellule Neubauer améliorée"
           },
           {
-            "code" : "MIS",
-            "display" : "Comptage microscopique-cellule Makler"
+            "code" : "MIO",
+            "display" : "Comptage microscopique-cellule Vetriplast"
           },
           {
             "code" : "MIR",
-            "display" : "Comptage microscopique-cellule Bruker"
+            "display" : "Comptage microscopique-cellule Bürker"
+          },
+          {
+            "code" : "MIS",
+            "display" : "Comptage microscopique-cellule Makler"
           },
           {
             "code" : "MIT",
             "display" : "Comptage microscopique-cellule Thoma"
           },
           {
-            "code" : "MIX",
-            "display" : "Comptage microscopique-cellule autre"
-          },
-          {
             "code" : "UAA",
-            "display" : "immuno-analyse-agglutination/hémagglutination"
+            "display" : "Immuno-analyse-agglutination/hémagglutination"
           },
           {
             "code" : "UAI",
-            "display" : "immuno-analyse-inhibition de l'agglutination"
+            "display" : "Immuno-analyse-inhibition de l'agglutination"
           },
           {
             "code" : "UCX",
-            "display" : "immuno-analyse-chimiluminescence"
+            "display" : "Immuno-analyse-chimiluminescence"
           },
           {
             "code" : "UEA",
-            "display" : "immuno-analyse-UV/visible"
+            "display" : "Immuno-analyse-UV/visible"
           },
           {
             "code" : "UEC",
-            "display" : "immuno-chromatographie-détection visible"
+            "display" : "Immuno-chromatographie-détection visible"
           },
           {
             "code" : "UFA",
-            "display" : "immuno-analyse-détection en fluorescence"
+            "display" : "Immuno-analyse-détection en fluorescence"
           },
           {
             "code" : "UFC",
-            "display" : "immuno-chromatographie-détection en fluorescence"
+            "display" : "Immuno-chromatographie-détection en fluorescence"
           },
           {
             "code" : "UGA",
-            "display" : "immunoprécipitation-immunodiffusion radiale (IDR)"
+            "display" : "Immunoprécipitation-immunodiffusion radiale (IDR)"
           },
           {
             "code" : "UIX",
-            "display" : "immuno-analyse-détection isotopique-code générique"
+            "display" : "Immuno-analyse-détection isotopique-code générique"
           },
           {
             "code" : "UNX",
-            "display" : "immuno-analyse-néphélémétrie"
-          },
-          {
-            "code" : "USX",
-            "display" : "immuno-analyse-blot/dots"
+            "display" : "Immuno-analyse-néphélémétrie"
           },
           {
             "code" : "UPX",
-            "display" : "immuno-analyse-neutralisation Ag/Ac"
+            "display" : "Immuno-analyse-neutralisation Ag/Ac"
+          },
+          {
+            "code" : "USX",
+            "display" : "Immuno-analyse-blot/dots"
           },
           {
             "code" : "UTX",
-            "display" : "immuno-analyse-turbidimétrie"
+            "display" : "Immuno-analyse-turbidimétrie"
+          },
+          {
+            "code" : "UVA",
+            "display" : "Immuno-electrophorèse"
+          },
+          {
+            "code" : "UVB",
+            "display" : "Immunofixation"
           },
           {
             "code" : "VAX",
@@ -783,44 +811,36 @@ No Expansion for this valueset (not supported by Publication Tooling)
             "display" : "Isofocalisation"
           },
           {
-            "code" : "UVA",
-            "display" : "Immuno-electrophorèse"
-          },
-          {
-            "code" : "UVB",
-            "display" : "immunofixation"
-          },
-          {
             "code" : "VEB",
             "display" : "Co-électrosynérèse, électro-immunodiffusion bidimensionnelle"
-          },
-          {
-            "code" : "ZCX",
-            "display" : "Calcul mathématique"
           },
           {
             "code" : "ZAX",
             "display" : "Centrifugation-mesure d'un rapport de hauteurs"
           },
           {
-            "code" : "ZQX",
-            "display" : "Thermochimie-bombe calorimétrique"
+            "code" : "ZCX",
+            "display" : "Calcul mathématique"
           },
           {
-            "code" : "ZTX",
-            "display" : "Titrimétrie"
+            "code" : "ZDX",
+            "display" : "Abaissement cryoscopique"
+          },
+          {
+            "code" : "ZQX",
+            "display" : "Thermochimie-bombe calorimétrique"
           },
           {
             "code" : "ZRX",
             "display" : "Réfractométrie"
           },
           {
-            "code" : "ZVX",
-            "display" : "Tension de vapeur"
+            "code" : "ZTX",
+            "display" : "Titrimétrie"
           },
           {
-            "code" : "ZDX",
-            "display" : "Abaissement cryoscopique"
+            "code" : "ZVX",
+            "display" : "Tension de vapeur"
           }
         ]
       }

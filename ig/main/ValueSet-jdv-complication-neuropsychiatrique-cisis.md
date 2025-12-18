@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-complication-neuropsychiatrique-cisis | *Version*:20250624152101 | |
-| Active as of 2025-06-24 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvComplicationNeuropsychiatriqueCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-complication-neuropsychiatrique-cisis | *Version*:20251216141840 | |
+| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvComplicationNeuropsychiatriqueCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.223 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-complication-neuropsychiatrique-cisis",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2025-06-25T09:13:29.904+00:00",
+    "versionId" : "5",
+    "lastUpdated" : "2025-12-17T15:43:30.077+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
@@ -77,12 +77,12 @@ Requête sur le SMT
       "value" : "urn:oid:1.2.250.1.213.1.1.5.223"
     }
   ],
-  "version" : "20250624152101",
+  "version" : "20251216141840",
   "name" : "JdvComplicationNeuropsychiatriqueCisis",
   "title" : "JDV Complication Neuropsychiatrique CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-06-24T15:21:01+01:00",
+  "date" : "2025-12-16T14:18:40+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Complication Neuropsychiatrique CISIS",
   "jurisdiction" : [
@@ -98,11 +98,15 @@ Requête sur le SMT
   "compose" : {
     "include" : [
       {
-        "system" : "https://smt.esante.gouv.fr/terminologie-cim-10",
+        "system" : "http://hl7.org/fhir/sid/icd-10",
         "concept" : [
           {
             "code" : "F32.9",
             "display" : "Épisode dépressif, sans précision"
+          },
+          {
+            "code" : "G47.9",
+            "display" : "Trouble du sommeil, sans précision"
           }
         ]
       },
@@ -116,10 +120,6 @@ Requête sur le SMT
           {
             "code" : "MED-524",
             "display" : "Troubles du comportement (agitation, hallucinations)"
-          },
-          {
-            "code" : "MED-525",
-            "display" : "Troubles du sommeil"
           },
           {
             "code" : "GEN-092.01.15",

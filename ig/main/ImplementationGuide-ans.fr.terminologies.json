@@ -10,7 +10,7 @@
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2025-12-17T07:38:52+00:00",
+  "date" : "2025-12-18T04:35:19+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -26651,6 +26651,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-etat-de-conscience-cisis"
+      },
+      "name" : "Jdv Etat De Conscience CISIS",
+      "description" : "Jdv Etat De Conscience CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-etat-naissance-cisis"
       },
       "name" : "JDV Etat Naissance CISIS",
@@ -29919,6 +29931,18 @@
       },
       "name" : "Jdv Tre R221 Modele Document Cda Non Structure All",
       "description" : "JDV avec l'ensemble des codes actifs de la TRE_R221_ModeleDocumentCDANonStructure",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-trod-examen-cisis"
+      },
+      "name" : "Jdv Trod Examen CISIS",
+      "description" : "Jdv Trod Examen CISIS",
       "exampleBoolean" : false
     },
     {

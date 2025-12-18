@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-classification-acr-cisis | *Version*:20250624152100 | |
-| Active as of 2025-06-24 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvClassificationAcrCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-classification-acr-cisis | *Version*:20251216141839 | |
+| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvClassificationAcrCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.481 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-classification-acr-cisis",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2025-06-25T09:13:10.293+00:00",
+    "versionId" : "5",
+    "lastUpdated" : "2025-12-17T15:43:20.720+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
@@ -77,12 +77,12 @@ Requête sur le SMT
       "value" : "urn:oid:1.2.250.1.213.1.1.5.481"
     }
   ],
-  "version" : "20250624152100",
+  "version" : "20251216141839",
   "name" : "JdvClassificationAcrCisis",
   "title" : "JDV Classification Acr CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-06-24T15:21:00+01:00",
+  "date" : "2025-12-16T14:18:39+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Classification Acr CISIS",
   "jurisdiction" : [

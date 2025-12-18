@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-disposition-pretherapeutique-cisis | *Version*:20250624152100 | |
-| Active as of 2025-06-24 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvDispositionPretherapeutiqueCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-disposition-pretherapeutique-cisis | *Version*:20251216141838 | |
+| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvDispositionPretherapeutiqueCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.216 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-disposition-pretherapeutique-cisis",
   "meta" : {
-    "versionId" : "3",
-    "lastUpdated" : "2025-06-25T09:13:49.042+00:00",
+    "versionId" : "4",
+    "lastUpdated" : "2025-12-17T15:43:50.070+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
@@ -77,12 +77,12 @@ Requête sur le SMT
       "value" : "urn:oid:1.2.250.1.213.1.1.5.216"
     }
   ],
-  "version" : "20250624152100",
+  "version" : "20251216141838",
   "name" : "JdvDispositionPretherapeutiqueCisis",
   "title" : "JDV Disposition Pretherapeutique CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-06-24T15:21:00+01:00",
+  "date" : "2025-12-16T14:18:38+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Disposition Pretherapeutique CISIS",
   "jurisdiction" : [
@@ -136,7 +136,7 @@ Requête sur le SMT
         "concept" : [
           {
             "code" : "233428003",
-            "display" : "thrombolyse d'une veine"
+            "display" : "thrombolyse veineuse"
           },
           {
             "code" : "43810009",
@@ -145,7 +145,7 @@ Requête sur le SMT
         ]
       },
       {
-        "system" : "https://smt.esante.gouv.fr/terminologie-atc",
+        "system" : "http://www.whocc.no/atc",
         "concept" : [
           {
             "code" : "B01AC04",

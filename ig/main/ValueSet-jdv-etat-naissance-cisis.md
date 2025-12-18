@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-etat-naissance-cisis | *Version*:20251028115833 | |
-| Active as of 2025-10-28 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvEtatNaissanceCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-etat-naissance-cisis | *Version*:20251216141839 | |
+| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvEtatNaissanceCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.736 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-etat-naissance-cisis",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-10-29T10:43:37.670+01:00",
+    "versionId" : "6",
+    "lastUpdated" : "2025-12-17T15:43:54.954+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
@@ -77,12 +77,12 @@ Requête sur le SMT
       "value" : "urn:oid:1.2.250.1.213.1.1.5.736"
     }
   ],
-  "version" : "20251028115833",
+  "version" : "20251216141839",
   "name" : "JdvEtatNaissanceCisis",
   "title" : "JDV Etat Naissance CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-10-28T11:58:33+01:00",
+  "date" : "2025-12-16T14:18:39+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Etat Naissance CISIS",
   "jurisdiction" : [
@@ -98,7 +98,7 @@ Requête sur le SMT
   "compose" : {
     "include" : [
       {
-        "system" : "https://smt.esante.gouv.fr/terminologie-cim-10",
+        "system" : "http://hl7.org/fhir/sid/icd-10",
         "concept" : [
           {
             "code" : "P95",

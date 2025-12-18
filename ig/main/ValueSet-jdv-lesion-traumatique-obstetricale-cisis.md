@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-lesion-traumatique-obstetricale-cisis | *Version*:20251028115832 | |
-| Active as of 2025-10-28 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvLesionTraumatiqueObstetricaleCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-lesion-traumatique-obstetricale-cisis | *Version*:20251216141838 | |
+| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvLesionTraumatiqueObstetricaleCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.751 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-lesion-traumatique-obstetricale-cisis",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-10-29T10:44:07.808+01:00",
+    "versionId" : "6",
+    "lastUpdated" : "2025-12-17T15:44:53.601+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
@@ -77,12 +77,12 @@ Requête sur le SMT
       "value" : "urn:oid:1.2.250.1.213.1.1.5.751"
     }
   ],
-  "version" : "20251028115832",
+  "version" : "20251216141838",
   "name" : "JdvLesionTraumatiqueObstetricaleCisis",
   "title" : "JDV Lesion Traumatique Obstetricale CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-10-28T11:58:32+01:00",
+  "date" : "2025-12-16T14:18:38+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Lesion Traumatique Obstetricale CISIS",
   "jurisdiction" : [
@@ -98,7 +98,7 @@ Requête sur le SMT
   "compose" : {
     "include" : [
       {
-        "system" : "https://smt.esante.gouv.fr/terminologie-cim-10",
+        "system" : "http://hl7.org/fhir/sid/icd-10",
         "concept" : [
           {
             "code" : "P11.3",

@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-RoleClassIngredientEntity-cisis | *Version*:20251028115833 | |
-| Active as of 2025-10-28 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:RoleClassIngredientEntity |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-RoleClassIngredientEntity-cisis | *Version*:20251216141839 | |
+| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:RoleClassIngredientEntity |
 | *Other Identifiers:*OID:2.16.840.1.113883.1.11.10430 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-hl7-v3-RoleClassIngredientEntity-cisis",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-10-29T10:45:22.971+01:00",
+    "versionId" : "6",
+    "lastUpdated" : "2025-12-17T15:48:37.946+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
@@ -77,12 +77,12 @@ Requête sur le SMT
       "value" : "urn:oid:2.16.840.1.113883.1.11.10430"
     }
   ],
-  "version" : "20251028115833",
+  "version" : "20251216141839",
   "name" : "RoleClassIngredientEntity",
   "title" : "RoleClassIngredientEntity",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-10-28T11:58:33+01:00",
+  "date" : "2025-12-16T14:18:39+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "RoleClassIngredientEntity",
   "jurisdiction" : [

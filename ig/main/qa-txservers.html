@@ -12,7 +12,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Terminology Server Report for Terminologies</h1>
- <p>Generated Wed Dec 17 08:10:22 UTC 2025, FHIR version 4.0.1 for ans.fr.terminologies#1.4.0 (canonical = <a href="https://interop.esante.gouv.fr/terminologies">https://interop.esante.gouv.fr/terminologies</a> (<a href="https://interop.esante.gouv.fr/terminologies/history.html">history</a>))</p>
+ <p>Generated Thu Dec 18 05:08:25 UTC 2025, FHIR version 4.0.1 for ans.fr.terminologies#1.4.0 (canonical = <a href="https://interop.esante.gouv.fr/terminologies">https://interop.esante.gouv.fr/terminologies</a> (<a href="https://interop.esante.gouv.fr/terminologies/history.html">history</a>))</p>
 <p>This page provides a report on which terminology servers were used while publishing this IG. Note that terminology caching reduces the server hit count - this page only reports content that wasn't cached</p>
 <h2>Terminology Parameters</h2>
 <ul>
@@ -15042,32 +15042,158 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-atc</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://www.whocc.no/atc</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td></td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td></td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td></td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
+  </tr>
+  <tr>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td></td>
+    <td>http://loinc.org</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td></td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
+  </tr>
+  <tr>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td></td>
+    <td>http://loinc.org</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td></td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
     <td>https://smt.esante.gouv.fr/fhir</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://snomed.info/sct</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
     <td>https://smt.esante.gouv.fr/fhir</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://snomed.info/sct</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
     <td>https://smt.esante.gouv.fr/fhir</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://snomed.info/sct</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td></td>
+    <td>http://snomed.info/sct</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td></td>
+    <td>http://snomed.info/sct</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td></td>
+    <td>http://snomed.info/sct</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td></td>
+    <td>http://snomed.info/sct</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td></td>
+    <td>http://snomed.info/sct</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td></td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td></td>
+    <td>http://snomed.info/sct</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td></td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td></td>
+    <td>http://snomed.info/sct</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
+  </tr>
+  <tr>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td></td>
+    <td>http://loinc.org</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found candidate server http://tx.fhir.org/r4</td>
@@ -15080,22 +15206,22 @@
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
     <td>https://smt.esante.gouv.fr/fhir</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://snomed.info/sct</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found candidate server http://tx.fhir.org/r4</td>
-    <td>http://tx.fhir.org/r4</td>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
     <td></td>
-    <td>http://loinc.org</td>
-    <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
+    <td>http://id.who.int/icd/release/11/mms</td>
+    <td>auth = , candidates=</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
-    <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-cause-accident-domestique-cisis-inc-1</td>
+    <td>http://id.who.int/icd/release/11/mms</td>
+    <td>auth = , candidates=</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -15110,69 +15236,6 @@
     <td></td>
     <td>http://snomed.info/sct</td>
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
-  </tr>
-  <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
-    <td></td>
-    <td>http://snomed.info/sct</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
-  </tr>
-  <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
-    <td></td>
-    <td>http://snomed.info/sct</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
-  </tr>
-  <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
-    <td></td>
-    <td>http://snomed.info/sct</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
-  </tr>
-  <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
-    <td></td>
-    <td>http://snomed.info/sct</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
-  </tr>
-  <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
-    <td></td>
-    <td>http://snomed.info/sct</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
-  </tr>
-  <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
-    <td></td>
-    <td>http://snomed.info/sct</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
-  </tr>
-  <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
-    <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
-  </tr>
-  <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
-    <td></td>
-    <td>http://snomed.info/sct</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
-  </tr>
-  <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
-    <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -15185,57 +15248,8 @@
     <td>Found candidate server http://tx.fhir.org/r4</td>
     <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>http://loinc.org</td>
-    <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
-  </tr>
-  <tr>
-    <td>Found candidate server http://tx.fhir.org/r4</td>
-    <td>http://tx.fhir.org/r4</td>
-    <td></td>
-    <td>http://loinc.org</td>
-    <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
-  </tr>
-  <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
-    <td></td>
-    <td>http://snomed.info/sct</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
-  </tr>
-  <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
-    <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim11-mms</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
-  </tr>
-  <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
-    <td></td>
-    <td>http://snomed.info/sct</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
-  </tr>
-  <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
-    <td></td>
-    <td>http://snomed.info/sct</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
-  </tr>
-  <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
-    <td></td>
-    <td>http://snomed.info/sct</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
-  </tr>
-  <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
-    <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-atc</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://www.whocc.no/atc</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found candidate server http://tx.fhir.org/r4</td>
@@ -15287,53 +15301,53 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -15371,11 +15385,11 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -15413,11 +15427,11 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -15483,18 +15497,32 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-atc</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://www.whocc.no/atc</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td></td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
     <td>https://smt.esante.gouv.fr/fhir</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://snomed.info/sct</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td></td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -15507,8 +15535,15 @@
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
     <td>https://smt.esante.gouv.fr/fhir</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://snomed.info/sct</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td></td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -15518,32 +15553,11 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>http://snomed.info/sct</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
-  </tr>
-  <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
-    <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
-  </tr>
-  <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
-    <td></td>
-    <td>http://snomed.info/sct</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
-  </tr>
-  <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
-    <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server http://tx.fhir.org/r4</td>
@@ -15588,11 +15602,11 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found candidate server http://tx.fhir.org/r4</td>
@@ -15651,11 +15665,11 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -15700,18 +15714,18 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-ncit</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gestion-effet-secondaire-cisis-inc-0</td>
-    <td>https://smt.esante.gouv.fr/terminologie-ncit</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -15812,11 +15826,18 @@
     <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -15854,11 +15875,18 @@
     <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -15910,11 +15938,11 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -15987,18 +16015,18 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-ncit</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mesure-lentille-delivree-cisis-inc-0</td>
-    <td>https://smt.esante.gouv.fr/terminologie-ncit</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found candidate server http://tx.fhir.org/r4</td>
@@ -16015,18 +16043,18 @@
     <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-ncit</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mesure-type-verre-delivre-cisis-inc-0</td>
-    <td>https://smt.esante.gouv.fr/terminologie-ncit</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found candidate server http://tx.fhir.org/r4</td>
@@ -16039,14 +16067,7 @@
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
     <td>https://smt.esante.gouv.fr/fhir</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-ncit</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
-  </tr>
-  <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mesure-type-verre-prescrit-cisis-inc-0</td>
-    <td>https://smt.esante.gouv.fr/terminologie-ncit</td>
+    <td>https://smt.esante.gouv.fr/terminologie-emdn</td>
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
   </tr>
   <tr>
@@ -16078,18 +16099,18 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-ncit</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-methode-de-mesure-acuite-visuelle-cisis-inc-0</td>
-    <td>https://smt.esante.gouv.fr/terminologie-ncit</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -16099,18 +16120,18 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-ncit</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modalite-demande-acte-imagerie-cisis-inc-0</td>
-    <td>https://smt.esante.gouv.fr/terminologie-ncit</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -16204,25 +16225,25 @@
     <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-ncit</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-motif-echographie-cisis-inc-0</td>
-    <td>https://smt.esante.gouv.fr/terminologie-ncit</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -16232,11 +16253,11 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -16428,18 +16449,11 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-origine-effet-indesirable-cisis-inc-1</td>
-    <td>http://snomed.info/sct</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
-  </tr>
-  <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -16484,11 +16498,11 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -16505,25 +16519,25 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-ncit</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-rcp-organe-cisis-inc-1</td>
-    <td>https://smt.esante.gouv.fr/terminologie-ncit</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -16918,11 +16932,11 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -16974,18 +16988,18 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-ncit</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-traitement-soins-frcp-cisis-inc-0</td>
-    <td>https://smt.esante.gouv.fr/terminologie-ncit</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -16995,11 +17009,18 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://loinc.org</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td></td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -17016,11 +17037,18 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -17114,11 +17142,11 @@
     <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found candidate server http://tx.fhir.org/r4</td>
@@ -17145,13 +17173,6 @@
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
     <td>https://smt.esante.gouv.fr/fhir</td>
     <td></td>
-    <td>http://snomed.info/sct</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
-  </tr>
-  <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-evenement-indesirable-previsible-cisis-inc-0</td>
     <td>http://snomed.info/sct</td>
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
@@ -17198,18 +17219,18 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -17233,18 +17254,18 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-ncit</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-produit-sanguin-labile-cisis-inc-0</td>
-    <td>https://smt.esante.gouv.fr/terminologie-ncit</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -17261,18 +17282,18 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-ncit</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-traitement-frcp-cisis-inc-0</td>
-    <td>https://smt.esante.gouv.fr/terminologie-ncit</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -17289,18 +17310,18 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-ncit</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-traitement-pps-cisis-inc-0</td>
-    <td>https://smt.esante.gouv.fr/terminologie-ncit</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found candidate server http://tx.fhir.org/r4</td>
@@ -17317,20 +17338,6 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>System not handled by any servers. Using primary server</td>
-    <td>https://tx.fhir.org/r4</td>
-    <td></td>
-    <td>https://www.meddra.org</td>
-    <td>auth = , candidates=</td>
-  </tr>
-  <tr>
-    <td>System not handled by any servers. Using primary server</td>
-    <td>https://tx.fhir.org/r4</td>
-    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-ufcv-effet-inr-cisis-inc-0</td>
-    <td>https://www.meddra.org</td>
-    <td>auth = , candidates=</td>
-  </tr>
-  <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
     <td>https://smt.esante.gouv.fr/fhir</td>
     <td></td>
@@ -17366,11 +17373,11 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -17422,25 +17429,25 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-atc</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://www.whocc.no/atc</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-atc</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://www.whocc.no/atc</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-atc</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://www.whocc.no/atc</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -17667,25 +17674,39 @@
     <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td>null</td>
-    <td>https://smt.esante.gouv.fr/terminologie-atc|2025-02</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://www.whocc.no/atc|2.0.1</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td>null</td>
-    <td>https://smt.esante.gouv.fr/terminologie-atc</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://www.whocc.no/atc</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td>null</td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://hl7.org/fhir/sid/icd-10|2.1.1</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found candidate server http://tx.fhir.org/r4</td>
@@ -17709,18 +17730,18 @@
     <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
     <td>null</td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim11-mms|2025-01</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://id.who.int/icd/release/11/mms</td>
+    <td>auth = , candidates=</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Fallback: primary server</td>
+    <td>https://tx.fhir.org/r4</td>
     <td>null</td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim11-mms</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://id.who.int/icd/release/11/mms</td>
+    <td>auth = , candidates=</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -17730,32 +17751,25 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td>null</td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td>null</td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td>null</td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
-  </tr>
-  <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
-    <td>null</td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -17786,11 +17800,11 @@
     <td>auth = , candidates=</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td>null</td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -17807,11 +17821,11 @@
     <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td>null</td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -17821,11 +17835,11 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td>null</td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server http://tx.fhir.org/r4</td>
@@ -17870,11 +17884,25 @@
     <td>auth = , candidates=</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td>null</td>
-    <td>https://smt.esante.gouv.fr/terminologie-ncit</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl|3.0.0</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
+  </tr>
+  <tr>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
+  </tr>
+  <tr>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found candidate server http://tx.fhir.org/r4</td>
@@ -17926,10 +17954,24 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
+  </tr>
+  <tr>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
+  </tr>
+  <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
     <td>https://smt.esante.gouv.fr/fhir</td>
     <td>null</td>
-    <td>https://smt.esante.gouv.fr/terminologie-ncit</td>
+    <td>https://smt.esante.gouv.fr/terminologie-emdn</td>
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
   </tr>
   <tr>
@@ -17940,11 +17982,11 @@
     <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td>null</td>
-    <td>https://smt.esante.gouv.fr/terminologie-ncit</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server http://tx.fhir.org/r4</td>
@@ -17954,11 +17996,11 @@
     <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td>null</td>
-    <td>https://smt.esante.gouv.fr/terminologie-ncit</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -18003,11 +18045,11 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td>null</td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -18101,24 +18143,24 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>System not handled by any servers. Using primary server</td>
-    <td>https://tx.fhir.org/r4</td>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
     <td>null</td>
-    <td>https://www.meddra.org</td>
-    <td>auth = , candidates=</td>
-  </tr>
-  <tr>
-    <td>Fallback: primary server</td>
-    <td>https://tx.fhir.org/r4</td>
-    <td>null</td>
-    <td>https://www.meddra.org</td>
-    <td>auth = , candidates=</td>
+    <td>https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
     <td>https://smt.esante.gouv.fr/fhir</td>
     <td>null</td>
-    <td>https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322</td>
+    <td>https://smt.esante.gouv.fr/terminologie-atc|2025-02</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>null</td>
+    <td>https://smt.esante.gouv.fr/terminologie-atc</td>
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
   </tr>
   <tr>
@@ -18661,32 +18703,151 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-atc</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://www.whocc.no/atc</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td></td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td></td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td></td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
+  </tr>
+  <tr>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td></td>
+    <td>http://loinc.org</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td></td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
+  </tr>
+  <tr>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td></td>
+    <td>http://loinc.org</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td></td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
     <td>https://smt.esante.gouv.fr/fhir</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://snomed.info/sct</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
     <td>https://smt.esante.gouv.fr/fhir</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://snomed.info/sct</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
     <td>https://smt.esante.gouv.fr/fhir</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://snomed.info/sct</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td></td>
+    <td>http://snomed.info/sct</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td></td>
+    <td>http://snomed.info/sct</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td></td>
+    <td>http://snomed.info/sct</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td></td>
+    <td>http://snomed.info/sct</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td></td>
+    <td>http://snomed.info/sct</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td></td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td></td>
+    <td>http://snomed.info/sct</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td></td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td></td>
+    <td>http://snomed.info/sct</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
+  </tr>
+  <tr>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td></td>
+    <td>http://loinc.org</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found candidate server http://tx.fhir.org/r4</td>
@@ -18699,22 +18860,22 @@
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
     <td>https://smt.esante.gouv.fr/fhir</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://snomed.info/sct</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found candidate server http://tx.fhir.org/r4</td>
-    <td>http://tx.fhir.org/r4</td>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>https://tx.fhir.org/r4</td>
     <td></td>
-    <td>http://loinc.org</td>
-    <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
+    <td>http://id.who.int/icd/release/11/mms</td>
+    <td>auth = , candidates=</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>Found most authoritative server https://smt.esante.gouv.fr/fhir</td>
     <td>https://smt.esante.gouv.fr/fhir</td>
-    <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-cause-accident-domestique-cisis|20251216141839</td>
+    <td>[https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis, http://id.who.int/icd/release/11/mms]</td>
+    <td>[auth = https://smt.esante.gouv.fr/fhir, candidates=, auth = , candidates=]</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -18729,69 +18890,6 @@
     <td></td>
     <td>http://snomed.info/sct</td>
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
-  </tr>
-  <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
-    <td></td>
-    <td>http://snomed.info/sct</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
-  </tr>
-  <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
-    <td></td>
-    <td>http://snomed.info/sct</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
-  </tr>
-  <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
-    <td></td>
-    <td>http://snomed.info/sct</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
-  </tr>
-  <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
-    <td></td>
-    <td>http://snomed.info/sct</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
-  </tr>
-  <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
-    <td></td>
-    <td>http://snomed.info/sct</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
-  </tr>
-  <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
-    <td></td>
-    <td>http://snomed.info/sct</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
-  </tr>
-  <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
-    <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
-  </tr>
-  <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
-    <td></td>
-    <td>http://snomed.info/sct</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
-  </tr>
-  <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
-    <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -18804,113 +18902,64 @@
     <td>Found candidate server http://tx.fhir.org/r4</td>
     <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>http://loinc.org</td>
-    <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
+    <td>http://www.whocc.no/atc</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td></td>
+    <td>http://snomed.info/sct</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
     <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>http://loinc.org</td>
-    <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>http://snomed.info/sct</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim11-mms</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>http://snomed.info/sct</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>http://snomed.info/sct</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>http://snomed.info/sct</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-atc</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
-  </tr>
-  <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
-    <td></td>
-    <td>http://snomed.info/sct</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
-  </tr>
-  <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
-    <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
-  </tr>
-  <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
-    <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
-  </tr>
-  <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
-    <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
-  </tr>
-  <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
-    <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
-  </tr>
-  <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
-    <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
-  </tr>
-  <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
-    <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
-  </tr>
-  <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
-    <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -18922,7 +18971,7 @@
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
     <td>https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-conditionnement-cisis|20251028115835</td>
+    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-conditionnement-cisis|20251216141840</td>
     <td>https://smt.esante.gouv.fr/terminologie-adicap</td>
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
   </tr>
@@ -18948,11 +18997,11 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -18978,16 +19027,16 @@
   <tr>
     <td>Found most authoritative server https://smt.esante.gouv.fr/fhir</td>
     <td>https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-defaillance-materielle-cisis|20251028115831</td>
+    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-defaillance-materielle-cisis|20251216141838</td>
     <td>[https://www.imdrf.org, https://smt.esante.gouv.fr/terminologie-emdn]</td>
     <td>[auth = , candidates=, auth = https://smt.esante.gouv.fr/fhir, candidates=]</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -19053,18 +19102,32 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-atc</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://www.whocc.no/atc</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td></td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
     <td>https://smt.esante.gouv.fr/fhir</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://snomed.info/sct</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td></td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -19077,8 +19140,15 @@
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
     <td>https://smt.esante.gouv.fr/fhir</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://snomed.info/sct</td>
+    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td></td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -19088,32 +19158,11 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>http://snomed.info/sct</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
-  </tr>
-  <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
-    <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
-  </tr>
-  <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
-    <td></td>
-    <td>http://snomed.info/sct</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
-  </tr>
-  <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
-    <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server http://tx.fhir.org/r4</td>
@@ -19165,11 +19214,11 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found candidate server http://tx.fhir.org/r4</td>
@@ -19228,11 +19277,11 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -19265,7 +19314,7 @@
   <tr>
     <td>Found most authoritative server https://smt.esante.gouv.fr/fhir</td>
     <td>https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gene-cisis|20250624152101</td>
+    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gene-cisis|20251216141840</td>
     <td>[https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis, http://www.genenames.org/geneId]</td>
     <td>[auth = https://smt.esante.gouv.fr/fhir, candidates=, auth = , candidates=]</td>
   </tr>
@@ -19277,18 +19326,18 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-ncit</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>Found most authoritative server https://smt.esante.gouv.fr/fhir</td>
     <td>https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gestion-effet-secondaire-cisis|20250624152101</td>
-    <td>[https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis, https://smt.esante.gouv.fr/terminologie-ncit]</td>
-    <td>[auth = https://smt.esante.gouv.fr/fhir, candidates=, auth = https://smt.esante.gouv.fr/fhir, candidates=]</td>
+    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gestion-effet-secondaire-cisis|20251216141840</td>
+    <td>[http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis]</td>
+    <td>[auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4, auth = https://smt.esante.gouv.fr/fhir, candidates=]</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -19389,11 +19438,11 @@
     <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -19431,11 +19480,11 @@
     <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -19487,11 +19536,11 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -19564,53 +19613,53 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-ncit</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Use primary server for http://loinc.org</td>
     <td>https://tx.fhir.org/r4</td>
-    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mesure-lentille-delivree-cisis|20250624152059</td>
-    <td>[https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis, http://loinc.org, https://smt.esante.gouv.fr/terminologie-ncit]</td>
-    <td>[auth = https://smt.esante.gouv.fr/fhir, candidates=, auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4, auth = https://smt.esante.gouv.fr/fhir, candidates=]</td>
+    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mesure-lentille-delivree-cisis|20251216141838</td>
+    <td>[http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis, http://loinc.org]</td>
+    <td>[auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4, auth = https://smt.esante.gouv.fr/fhir, candidates=, auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4]</td>
   </tr>
   <tr>
     <td>Use primary server for http://loinc.org</td>
     <td>https://tx.fhir.org/r4</td>
-    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mesure-lentille-prescrite-cisis|20250624152059</td>
-    <td>[https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis, http://loinc.org, https://smt.esante.gouv.fr/terminologie-ncit]</td>
-    <td>[auth = https://smt.esante.gouv.fr/fhir, candidates=, auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4, auth = https://smt.esante.gouv.fr/fhir, candidates=]</td>
+    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mesure-lentille-prescrite-cisis|20251216141838</td>
+    <td>[http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis, http://loinc.org]</td>
+    <td>[auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4, auth = https://smt.esante.gouv.fr/fhir, candidates=, auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4]</td>
+  </tr>
+  <tr>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td></td>
+    <td>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://loinc.org</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mesure-type-verre-delivre-cisis|20251216141838</td>
+    <td>[http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis, http://loinc.org, https://smt.esante.gouv.fr/terminologie-emdn]</td>
+    <td>[auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4, auth = https://smt.esante.gouv.fr/fhir, candidates=, auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4, auth = https://smt.esante.gouv.fr/fhir, candidates=]</td>
+  </tr>
+  <tr>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td></td>
+    <td>http://loinc.org</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
     <td>https://smt.esante.gouv.fr/fhir</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-ncit</td>
+    <td>https://smt.esante.gouv.fr/terminologie-emdn</td>
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
-  </tr>
-  <tr>
-    <td>Use primary server for http://loinc.org</td>
-    <td>https://tx.fhir.org/r4</td>
-    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mesure-type-verre-delivre-cisis|20250624152059</td>
-    <td>[https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis, http://loinc.org, https://smt.esante.gouv.fr/terminologie-ncit]</td>
-    <td>[auth = https://smt.esante.gouv.fr/fhir, candidates=, auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4, auth = https://smt.esante.gouv.fr/fhir, candidates=]</td>
-  </tr>
-  <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
-    <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-ncit</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
-  </tr>
-  <tr>
-    <td>Use primary server for http://loinc.org</td>
-    <td>https://tx.fhir.org/r4</td>
-    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mesure-type-verre-prescrit-cisis|20250624152059</td>
-    <td>[https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis, http://loinc.org, https://smt.esante.gouv.fr/terminologie-ncit]</td>
-    <td>[auth = https://smt.esante.gouv.fr/fhir, candidates=, auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4, auth = https://smt.esante.gouv.fr/fhir, candidates=]</td>
   </tr>
   <tr>
     <td>Found candidate server http://tx.fhir.org/r4</td>
@@ -19634,32 +19683,32 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-ncit</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-methode-de-mesure-acuite-visuelle-cisis|20250624152100</td>
-    <td>[https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis, https://smt.esante.gouv.fr/terminologie-ncit, http://snomed.info/sct]</td>
-    <td>[auth = https://smt.esante.gouv.fr/fhir, candidates=, auth = https://smt.esante.gouv.fr/fhir, candidates=, auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4]</td>
+    <td>Use primary server for http://snomed.info/sct</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-methode-de-mesure-acuite-visuelle-cisis|20251216141839</td>
+    <td>[http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis, http://snomed.info/sct]</td>
+    <td>[auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4, auth = https://smt.esante.gouv.fr/fhir, candidates=, auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4]</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-ncit</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found most authoritative server https://smt.esante.gouv.fr/fhir</td>
     <td>https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modalite-demande-acte-imagerie-cisis|20250624152100</td>
-    <td>[https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis, https://smt.esante.gouv.fr/terminologie-ncit, http://dicom.nema.org/resources/ontology/DCM]</td>
-    <td>[auth = https://smt.esante.gouv.fr/fhir, candidates=, auth = https://smt.esante.gouv.fr/fhir, candidates=, auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4]</td>
+    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modalite-demande-acte-imagerie-cisis|20251216141838</td>
+    <td>[http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis, http://dicom.nema.org/resources/ontology/DCM]</td>
+    <td>[auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4, auth = https://smt.esante.gouv.fr/fhir, candidates=, auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4]</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -19741,42 +19790,42 @@
   <tr>
     <td>Found authoritative server http://tx.fhir.org/r4</td>
     <td>http://tx.fhir.org/r4</td>
-    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-morphologie-cisis|20251028115835</td>
+    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-morphologie-cisis|20251216141840</td>
     <td>http://terminology.hl7.org/CodeSystem/icd-o-3</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td></td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
+  </tr>
+  <tr>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td></td>
+    <td>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
+  </tr>
+  <tr>
+    <td>Use primary server for http://snomed.info/sct</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-motif-echographie-cisis|20251216141839</td>
+    <td>[http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis, http://snomed.info/sct]</td>
+    <td>[auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4, auth = https://smt.esante.gouv.fr/fhir, candidates=, auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4]</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td></td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
     <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
     <td>https://smt.esante.gouv.fr/fhir</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
-  </tr>
-  <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
-    <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-ncit</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
-  </tr>
-  <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-motif-echographie-cisis|20250624152100</td>
-    <td>[https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis, https://smt.esante.gouv.fr/terminologie-ncit, http://snomed.info/sct]</td>
-    <td>[auth = https://smt.esante.gouv.fr/fhir, candidates=, auth = https://smt.esante.gouv.fr/fhir, candidates=, auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4]</td>
-  </tr>
-  <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
-    <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
-  </tr>
-  <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
-    <td></td>
     <td>http://snomed.info/sct</td>
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
@@ -19944,7 +19993,7 @@
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
     <td>https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-organe-cisis|20251028115835</td>
+    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-organe-cisis|20251216141840</td>
     <td>https://smt.esante.gouv.fr/terminologie-adicap</td>
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
   </tr>
@@ -19963,18 +20012,11 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-origine-effet-indesirable-cisis|20250624152100</td>
-    <td>[https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis, http://snomed.info/sct]</td>
-    <td>[auth = https://smt.esante.gouv.fr/fhir, candidates=, auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4]</td>
-  </tr>
-  <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -20007,7 +20049,7 @@
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
     <td>https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-profession-cisis|20251028115835</td>
+    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-profession-cisis|20251216141840</td>
     <td>https://smt.esante.gouv.fr/terminologie-PCS/</td>
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
   </tr>
@@ -20019,11 +20061,11 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -20040,25 +20082,25 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-ncit</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-rcp-organe-cisis|20250624152101</td>
-    <td>[https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis, https://smt.esante.gouv.fr/terminologie-ncit, http://snomed.info/sct, https://smt.esante.gouv.fr/terminologie-cim-10]</td>
-    <td>[auth = https://smt.esante.gouv.fr/fhir, candidates=, auth = https://smt.esante.gouv.fr/fhir, candidates=, auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4, auth = https://smt.esante.gouv.fr/fhir, candidates=]</td>
+    <td>Use primary server for http://snomed.info/sct</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-rcp-organe-cisis|20251216141840</td>
+    <td>[http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis, http://hl7.org/fhir/sid/icd-10, http://snomed.info/sct]</td>
+    <td>[auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4, auth = https://smt.esante.gouv.fr/fhir, candidates=, auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4, auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4]</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -20308,7 +20350,7 @@
   <tr>
     <td>System not handled by any servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
-    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-secteur-activite-employeur-cisis|20251028115835</td>
+    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-secteur-activite-employeur-cisis|20251216141840</td>
     <td>https://wiki.ihe.net/index.php/IHERoleCode_Vocabulary</td>
     <td>auth = , candidates=</td>
   </tr>
@@ -20378,7 +20420,7 @@
   <tr>
     <td>System not handled by any servers. Using primary server</td>
     <td>https://tx.fhir.org/r4</td>
-    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-sop-class-cisis|20251028115832</td>
+    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-sop-class-cisis|20251216141838</td>
     <td>http://​dicom.​nema.​org/​medical/​dicom/​current/​output/​chtml/​part06/​chapter_A.html</td>
     <td>auth = , candidates=</td>
   </tr>
@@ -20439,11 +20481,11 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -20469,7 +20511,7 @@
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
     <td>https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-technique-biologie-cisis|20251028115833</td>
+    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-technique-biologie-cisis|20251216141838</td>
     <td>https://smt.esante.gouv.fr/terminologie-tccr</td>
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
   </tr>
@@ -20495,18 +20537,18 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-ncit</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>Found most authoritative server https://smt.esante.gouv.fr/fhir</td>
     <td>https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-traitement-soins-frcp-cisis|20250624152101</td>
-    <td>[https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis, https://smt.esante.gouv.fr/terminologie-ncit]</td>
-    <td>[auth = https://smt.esante.gouv.fr/fhir, candidates=, auth = https://smt.esante.gouv.fr/fhir, candidates=]</td>
+    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-traitement-soins-frcp-cisis|20251216141840</td>
+    <td>[http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis]</td>
+    <td>[auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4, auth = https://smt.esante.gouv.fr/fhir, candidates=]</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -20516,11 +20558,18 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://loinc.org</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td></td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -20532,16 +20581,16 @@
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
     <td>https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-trousse-ccu-cisis|20250624152100</td>
+    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-trousse-ccu-cisis|20251216141839</td>
     <td>[https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis, https://smt.esante.gouv.fr/terminologie-tccr]</td>
     <td>[auth = https://smt.esante.gouv.fr/fhir, candidates=, auth = https://smt.esante.gouv.fr/fhir, candidates=]</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -20635,11 +20684,11 @@
     <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found candidate server http://tx.fhir.org/r4</td>
@@ -20672,13 +20721,6 @@
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
     <td>https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-evenement-indesirable-previsible-cisis|20251028115833</td>
-    <td>http://snomed.info/sct</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
-  </tr>
-  <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
     <td></td>
     <td>http://snomed.info/sct</td>
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
@@ -20693,7 +20735,7 @@
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
     <td>https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-histo-etat-tumoral-cisis|20251028115834</td>
+    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-histo-etat-tumoral-cisis|20251216141839</td>
     <td>https://smt.esante.gouv.fr/terminologie-adicap</td>
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
   </tr>
@@ -20719,18 +20761,18 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -20742,7 +20784,7 @@
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
     <td>https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-pelevement-origine-cisis|20251028115835</td>
+    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-pelevement-origine-cisis|20251216141840</td>
     <td>https://smt.esante.gouv.fr/terminologie-adicap</td>
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
   </tr>
@@ -20754,18 +20796,18 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-ncit</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
+    <td>Found most authoritative server https://smt.esante.gouv.fr/fhir</td>
     <td>https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-produit-sanguin-labile-cisis|20250624152101</td>
-    <td>[https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis, https://smt.esante.gouv.fr/terminologie-ncit]</td>
-    <td>[auth = https://smt.esante.gouv.fr/fhir, candidates=, auth = https://smt.esante.gouv.fr/fhir, candidates=]</td>
+    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-produit-sanguin-labile-cisis|20251216141840</td>
+    <td>[http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis]</td>
+    <td>[auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4, auth = https://smt.esante.gouv.fr/fhir, candidates=]</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -20782,18 +20824,18 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-ncit</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-traitement-frcp-cisis|20250624152101</td>
-    <td>[https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis, https://smt.esante.gouv.fr/terminologie-ncit, http://snomed.info/sct]</td>
-    <td>[auth = https://smt.esante.gouv.fr/fhir, candidates=, auth = https://smt.esante.gouv.fr/fhir, candidates=, auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4]</td>
+    <td>Use primary server for http://snomed.info/sct</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-traitement-frcp-cisis|20251216141840</td>
+    <td>[http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis, http://snomed.info/sct]</td>
+    <td>[auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4, auth = https://smt.esante.gouv.fr/fhir, candidates=, auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4]</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -20803,18 +20845,18 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-ncit</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-traitement-pps-cisis|20250624152101</td>
-    <td>[https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis, https://smt.esante.gouv.fr/terminologie-ncit, http://snomed.info/sct]</td>
-    <td>[auth = https://smt.esante.gouv.fr/fhir, candidates=, auth = https://smt.esante.gouv.fr/fhir, candidates=, auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4]</td>
+    <td>Use primary server for http://snomed.info/sct</td>
+    <td>https://tx.fhir.org/r4</td>
+    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-traitement-pps-cisis|20251216141840</td>
+    <td>[http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl, https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis, http://snomed.info/sct]</td>
+    <td>[auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4, auth = https://smt.esante.gouv.fr/fhir, candidates=, auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4]</td>
   </tr>
   <tr>
     <td>Found candidate server http://tx.fhir.org/r4</td>
@@ -20831,20 +20873,6 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|https://tx.ontoserver.csiro.au/fhir|https://terminologystandardsservice.ca/tx/fhir|https://apps.health.belgium.be/ontoserver/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>System not handled by any servers. Using primary server</td>
-    <td>https://tx.fhir.org/r4</td>
-    <td></td>
-    <td>https://www.meddra.org</td>
-    <td>auth = , candidates=</td>
-  </tr>
-  <tr>
-    <td>System not handled by any servers. Using primary server</td>
-    <td>https://tx.fhir.org/r4</td>
-    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-ufcv-effet-inr-cisis|20251028115835</td>
-    <td>https://www.meddra.org</td>
-    <td>auth = , candidates=</td>
-  </tr>
-  <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
     <td>https://smt.esante.gouv.fr/fhir</td>
     <td></td>
@@ -20880,11 +20908,11 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -20936,25 +20964,25 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-atc</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://www.whocc.no/atc</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-atc</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://www.whocc.no/atc</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
-    <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
-    <td>https://smt.esante.gouv.fr/fhir</td>
+    <td>Found candidate server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
-    <td>https://smt.esante.gouv.fr/terminologie-atc</td>
-    <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
+    <td>http://www.whocc.no/atc</td>
+    <td>auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -21065,6 +21093,12 @@
     </td>
     <td>
       <b>Message</b>
+    </td>
+  </tr>
+  <tr>
+    <td>http://id.who.int/icd/release/11/mms</td>
+    <td style="background-color: #ffe3e3">
+      <span title="https://tx.fhir.org/tx-reg/resolve?fhirVersion=4.0&amp;valueSet=http%3A%2F%2Fid.who.int%2Ficd%2Frelease%2F11%2Fmms&amp;usage=publication">Error resolving valueSet http://id.who.int/icd/release/11/mms: Bad Request</span>
     </td>
   </tr>
   <tr>
@@ -21289,16 +21323,10 @@
       <span title="https://tx.fhir.org/tx-reg/resolve?fhirVersion=4.0&amp;valueSet=https%3A%2F%2Fwww.imdrf.org&amp;usage=publication">Error resolving valueSet https://www.imdrf.org: Bad Request</span>
     </td>
   </tr>
-  <tr>
-    <td>https://www.meddra.org</td>
-    <td style="background-color: #ffe3e3">
-      <span title="https://tx.fhir.org/tx-reg/resolve?fhirVersion=4.0&amp;valueSet=https%3A%2F%2Fwww.meddra.org&amp;usage=publication">Error resolving valueSet https://www.meddra.org: Bad Request</span>
-    </td>
-  </tr>
 </table>
 <h2>Primary Server: https://tx.fhir.org/r4</h2>
 <a href="https://tx.fhir.org/r4"></a>
-<p>Use Count: 360. Code Systems used: </p>
+<p>Use Count: 502. Code Systems used: </p>
 <table class="grid">
   <tr>
     <th>
@@ -21321,6 +21349,22 @@
     <td></td>
   </tr>
   <tr>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>74</td>
+    <td>13</td>
+    <td>
+      <a href="http://terminology.hl7.org/5.0.0/CodeSystem-icd10.html">ICD-10</a>
+    </td>
+  </tr>
+  <tr>
+    <td>http://hl7.org/fhir/sid/icd-10|2.1.1</td>
+    <td>0</td>
+    <td>1</td>
+    <td>
+      <a href="http://terminology.hl7.org/5.0.0/CodeSystem-icd10.html">ICD-10</a>
+    </td>
+  </tr>
+  <tr>
     <td>http://hl7.org/fhir/sid/icf</td>
     <td>6</td>
     <td>2</td>
@@ -21337,8 +21381,14 @@
     </td>
   </tr>
   <tr>
+    <td>http://id.who.int/icd/release/11/mms</td>
+    <td>3</td>
+    <td>1</td>
+    <td></td>
+  </tr>
+  <tr>
     <td>http://loinc.org</td>
-    <td>126</td>
+    <td>129</td>
     <td>111</td>
     <td>
       <a href="http://terminology.hl7.org/5.0.0/CodeSystem-v3-loinc.html">Logical Observation Identifiers, Names and Codes (LOINC)</a>
@@ -21350,6 +21400,22 @@
     <td>1</td>
     <td>
       <a href="http://terminology.hl7.org/5.0.0/CodeSystem-v3-loinc.html">Logical Observation Identifiers, Names and Codes (LOINC)</a>
+    </td>
+  </tr>
+  <tr>
+    <td>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</td>
+    <td>33</td>
+    <td>6</td>
+    <td>
+      <a href="http://terminology.hl7.org/5.0.0/CodeSystem-v3-nciThesaurus.html">NCI Thesaurus</a>
+    </td>
+  </tr>
+  <tr>
+    <td>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl|3.0.0</td>
+    <td>0</td>
+    <td>1</td>
+    <td>
+      <a href="http://terminology.hl7.org/5.0.0/CodeSystem-v3-nciThesaurus.html">NCI Thesaurus</a>
     </td>
   </tr>
   <tr>
@@ -21405,6 +21471,22 @@
     <td></td>
   </tr>
   <tr>
+    <td>http://www.whocc.no/atc</td>
+    <td>12</td>
+    <td>1</td>
+    <td>
+      <a href="http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html">WHO ATC</a>
+    </td>
+  </tr>
+  <tr>
+    <td>http://www.whocc.no/atc|2.0.1</td>
+    <td>0</td>
+    <td>1</td>
+    <td>
+      <a href="http://terminology.hl7.org/5.0.0/CodeSystem-v3-WC.html">WHO ATC</a>
+    </td>
+  </tr>
+  <tr>
     <td>http://​dicom.​nema.​org/​medical/​dicom/​current/​output/​chtml/​part06/​chapter_A.html</td>
     <td>4</td>
     <td>1</td>
@@ -21419,12 +21501,6 @@
   <tr>
     <td>https://www.imdrf.org</td>
     <td>3</td>
-    <td>1</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>https://www.meddra.org</td>
-    <td>4</td>
     <td>1</td>
     <td></td>
   </tr>
@@ -21455,6 +21531,7 @@
 </table>
 <p>ValueSets fetched:</p>
 <ul>
+  <li>http://id.who.int/icd/release/11/mms</li>
   <li>http://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statuts-bilan-projet-personnalise?vs</li>
   <li>http://smt.esante.gouv.fr/fhir/CodeSystem/tre-r390-type-projet-personnalise?vs</li>
   <li>http://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour?vs</li>
@@ -21492,7 +21569,6 @@
   <li>https://smt.esante.gouv.fr/terminologie-tccr</li>
   <li>https://wiki.ihe.net/index.php/IHERoleCode_Vocabulary</li>
   <li>https://www.imdrf.org</li>
-  <li>https://www.meddra.org</li>
 </ul>
 <h2>Server: https://tx.fhir.org/r4</h2>
 <a href="https://tx.fhir.org/r4"></a>
@@ -21515,7 +21591,7 @@
 </table>
 <h2>Server: https://smt.esante.gouv.fr/fhir</h2>
 <a href="https://smt.esante.gouv.fr/fhir"></a>
-<p>Use Count: 2690. Code Systems used: </p>
+<p>Use Count: 2548. Code Systems used: </p>
 <table class="grid">
   <tr>
     <th>
@@ -21538,8 +21614,22 @@
     <td>DICOM Controlled Terminology Definitions</td>
   </tr>
   <tr>
+    <td>http://id.who.int/icd/release/11/mms</td>
+    <td>1</td>
+    <td>0</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</td>
+    <td>4</td>
+    <td>0</td>
+    <td>
+      <a href="http://terminology.hl7.org/5.0.0/CodeSystem-v3-nciThesaurus.html">NCI Thesaurus</a>
+    </td>
+  </tr>
+  <tr>
     <td>http://snomed.info/sct</td>
-    <td>347</td>
+    <td>338</td>
     <td>29</td>
     <td>
       <a href="CodeSystem-900000000000207008-20251201.html">SNOMED CT core</a>
@@ -21943,7 +22033,7 @@
   </tr>
   <tr>
     <td>https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis</td>
-    <td>12</td>
+    <td>7</td>
     <td>0</td>
     <td>
       <a href="CodeSystem-terminologie-cisis.html">TerminologieCISIS - Terminologie des concepts non trouvés dans les autres terminologies</a>
@@ -21963,7 +22053,7 @@
   </tr>
   <tr>
     <td>https://smt.esante.gouv.fr/terminologie-atc</td>
-    <td>13</td>
+    <td>1</td>
     <td>1</td>
     <td>
       <a href="CodeSystem-terminologie-atc.html">Classification anatomique, thérapeutique et chimique</a>
@@ -22011,8 +22101,8 @@
   </tr>
   <tr>
     <td>https://smt.esante.gouv.fr/terminologie-cim-10</td>
-    <td>76</td>
-    <td>10</td>
+    <td>1</td>
+    <td>1</td>
     <td>
       <a href="CodeSystem-terminologie-cim-10.html">Classification internationale des maladies et des problèmes de santé connexes - 10ème révision - Version française à usage PMSI (Programme Médicalisé des Systèmes d'Information)</a>
     </td>
@@ -22026,22 +22116,6 @@
     </td>
   </tr>
   <tr>
-    <td>https://smt.esante.gouv.fr/terminologie-cim11-mms</td>
-    <td>2</td>
-    <td>1</td>
-    <td>
-      <a href="CodeSystem-terminologie-cim11-mms.html">Classification internationale des maladies et des problèmes de santé connexes - 11ème révision</a>
-    </td>
-  </tr>
-  <tr>
-    <td>https://smt.esante.gouv.fr/terminologie-cim11-mms|2025-01</td>
-    <td>0</td>
-    <td>1</td>
-    <td>
-      <a href="CodeSystem-terminologie-cim11-mms.html">Classification internationale des maladies et des problèmes de santé connexes - 11ème révision</a>
-    </td>
-  </tr>
-  <tr>
     <td>https://smt.esante.gouv.fr/terminologie-cip_ucd</td>
     <td>2</td>
     <td>1</td>
@@ -22049,8 +22123,8 @@
   </tr>
   <tr>
     <td>https://smt.esante.gouv.fr/terminologie-emdn</td>
-    <td>36</td>
-    <td>4</td>
+    <td>38</td>
+    <td>5</td>
     <td>
       <a href="CodeSystem-terminologie-emdn.html">European Medical device nomenclature</a>
     </td>
@@ -22065,8 +22139,8 @@
   </tr>
   <tr>
     <td>https://smt.esante.gouv.fr/terminologie-ncit</td>
-    <td>61</td>
-    <td>7</td>
+    <td>16</td>
+    <td>3</td>
     <td></td>
   </tr>
   <tr>

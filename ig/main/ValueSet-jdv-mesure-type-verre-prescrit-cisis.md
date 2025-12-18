@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mesure-type-verre-prescrit-cisis | *Version*:20250624152059 | |
-| Active as of 2025-06-24 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvMesureTypeVerrePrescritCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mesure-type-verre-prescrit-cisis | *Version*:20251216141838 | |
+| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvMesureTypeVerrePrescritCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.652 | | |
 
  
@@ -33,8 +33,6 @@ Requête sur le SMT
 
 ### Expansion
 
-No Expansion for this valueset (not supported by Publication Tooling)
-
 -------
 
  Explanation of the columns that may appear on this page: 
@@ -57,8 +55,8 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "resourceType" : "ValueSet",
   "id" : "jdv-mesure-type-verre-prescrit-cisis",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2025-06-25T09:14:49.431+00:00",
+    "versionId" : "5",
+    "lastUpdated" : "2025-12-17T15:45:06.902+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
@@ -79,12 +77,12 @@ No Expansion for this valueset (not supported by Publication Tooling)
       "value" : "urn:oid:1.2.250.1.213.1.1.5.652"
     }
   ],
-  "version" : "20250624152059",
+  "version" : "20251216141838",
   "name" : "JdvMesureTypeVerrePrescritCisis",
   "title" : "JDV Mesure Type Verre Prescrit CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-06-24T15:20:59+01:00",
+  "date" : "2025-12-16T14:18:38+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Mesure Type Verre Prescrit CISIS",
   "jurisdiction" : [
@@ -99,15 +97,6 @@ No Expansion for this valueset (not supported by Publication Tooling)
   ],
   "compose" : {
     "include" : [
-      {
-        "system" : "https://smt.esante.gouv.fr/terminologie-ncit",
-        "concept" : [
-          {
-            "code" : "C80261",
-            "display" : "Monture"
-          }
-        ]
-      },
       {
         "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
         "concept" : [
@@ -131,6 +120,15 @@ No Expansion for this valueset (not supported by Publication Tooling)
           {
             "code" : "64885-7",
             "display" : "Types de verres"
+          }
+        ]
+      },
+      {
+        "system" : "https://smt.esante.gouv.fr/terminologie-emdn",
+        "concept" : [
+          {
+            "code" : "Q021002",
+            "display" : "MONTURES DE LUNETTES"
           }
         ]
       }
