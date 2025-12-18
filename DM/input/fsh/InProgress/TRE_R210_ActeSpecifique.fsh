@@ -16865,7 +16865,7 @@ Id: TRE-R210-ActeSpecifique
 * #1577 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #1577 ^property[+].code = #status
 * #1577 ^property[=].valueCode = #active
-* #1578 "Centre expert Parkinson "
+* #1578 "Centre expert Parkinson"
 * #1578 ^property[0].code = #dateValid
 * #1578 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #1578 ^property[+].code = #dateMaj
