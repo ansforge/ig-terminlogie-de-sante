@@ -1183,14 +1183,10 @@ Description: "Activite Operationnelle"
 * #142 "Toxicologie"
 * #142 ^property[0].code = #dateValid
 * #142 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
-* #142 ^property[+].code = #dateFin
-* #142 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
 * #142 ^property[+].code = #dateMaj
-* #142 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
-* #142 ^property[+].code = #deprecationDate
-* #142 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #142 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #142 ^property[+].code = #status
-* #142 ^property[=].valueCode = #deprecated
+* #142 ^property[=].valueCode = #active
 * #143 "Toxicomanie"
 * #143 ^property[0].code = #dateValid
 * #143 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
