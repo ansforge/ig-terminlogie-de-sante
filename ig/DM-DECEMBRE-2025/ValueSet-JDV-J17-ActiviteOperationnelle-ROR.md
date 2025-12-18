@@ -512,6 +512,10 @@ Requête sur le SMT
             "display" : "Tabacologie"
           },
           {
+            "code" : "142",
+            "display" : "Toxicologie"
+          },
+          {
             "code" : "145",
             "display" : "Traumatologie"
           },
