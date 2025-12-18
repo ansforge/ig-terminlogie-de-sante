@@ -454,7 +454,7 @@ Description: "Le niveau d'expertise atteste du niveau de ressources humaines et 
 * #46 ^property[=].valueDateTime = "2025-12-31T12:00:00+01:00"
 * #46 ^property[+].code = #status
 * #46 ^property[=].valueCode = #active
-* #47 "Centre expert Parkinson "
+* #47 "Centre expert Parkinson"
 * #47 ^property[0].code = #dateValid
 * #47 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #47 ^property[+].code = #dateMaj
