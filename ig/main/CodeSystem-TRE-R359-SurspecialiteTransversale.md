@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R359-SurspecialiteTransversale/FHIR/TRE-R359-SurspecialiteTransversale | *Version*:20240531120000 | |
-| Active as of 2024-05-31 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R359_SurspecialiteTransversale |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R359-SurspecialiteTransversale/FHIR/TRE-R359-SurspecialiteTransversale | *Version*:20251222120000 | |
+| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R359_SurspecialiteTransversale |
 | *Other Identifiers:*OID:1.2.250.1.213.2.76 | | |
 
  
@@ -29,8 +29,8 @@ Surspécialité (compétence) acquise par l’interne à l’issue d’une Forma
   "resourceType" : "CodeSystem",
   "id" : "TRE-R359-SurspecialiteTransversale",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-07-02T18:17:56.514+00:00",
+    "versionId" : "7",
+    "lastUpdated" : "2025-12-18T16:42:49.895+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
@@ -50,11 +50,11 @@ Surspécialité (compétence) acquise par l’interne à l’issue d’une Forma
       "value" : "urn:oid:1.2.250.1.213.2.76"
     }
   ],
-  "version" : "20240531120000",
+  "version" : "20251222120000",
   "name" : "TRE_R359_SurspecialiteTransversale",
   "status" : "active",
   "experimental" : false,
-  "date" : "2024-05-31T12:00:00+01:00",
+  "date" : "2025-12-22T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Surspécialité (compétence) acquise par l'interne à l'issue d'une Formation Spécialisée Transversale (FST)",
   "jurisdiction" : [
@@ -69,19 +69,23 @@ Surspécialité (compétence) acquise par l’interne à l’issue d’une Forma
   ],
   "caseSensitive" : false,
   "content" : "complete",
+  "count" : 27,
   "property" : [
     {
       "code" : "dateValid",
-      "description" : "date de validité d'un code concept",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
+      "description" : "Date de validité d'un code concept",
       "type" : "dateTime"
     },
     {
       "code" : "dateMaj",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
       "description" : "Date de mise à jour d'un code concept",
       "type" : "dateTime"
     },
     {
       "code" : "dateFin",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
       "description" : "Date de fin d'exploitation d'un code concept",
       "type" : "dateTime"
     },
@@ -720,6 +724,24 @@ Surspécialité (compétence) acquise par l’interne à l’issue d’une Forma
         {
           "code" : "dateMaj",
           "valueDateTime" : "2024-05-31T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "SST27",
+      "display" : "Innovation et recherche en sciences biologiques et pharmaceutiques",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",

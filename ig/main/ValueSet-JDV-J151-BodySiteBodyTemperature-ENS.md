@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J151-BodySiteBodyTemperature-ENS",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T17:05:11.744+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2025-12-18T16:47:39.576+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
@@ -100,28 +100,22 @@ Requête sur le SMT
         "system" : "http://snomed.info/sct",
         "concept" : [
           {
-            "code" : "34402009",
-            "display" : "rectum"
+            "code" : "34402009"
           },
           {
-            "code" : "52795006",
-            "display" : "front"
+            "code" : "52795006"
           },
           {
-            "code" : "91470000",
-            "display" : "région axillaire"
+            "code" : "91470000"
           },
           {
-            "code" : "117590005",
-            "display" : "oreille"
+            "code" : "117590005"
           },
           {
-            "code" : "123851003",
-            "display" : "bouche"
+            "code" : "123851003"
           },
           {
-            "code" : "450721000",
-            "display" : "région temporale"
+            "code" : "450721000"
           }
         ]
       }

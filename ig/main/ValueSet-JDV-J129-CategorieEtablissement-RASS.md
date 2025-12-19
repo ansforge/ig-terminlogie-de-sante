@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J129-CategorieEtablissement-RASS/FHIR/JDV-J129-CategorieEtablissement-RASS | *Version*:20241025120000 | |
-| Active as of 2024-10-25 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J129_CategorieEtablissement_RASS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J129-CategorieEtablissement-RASS/FHIR/JDV-J129-CategorieEtablissement-RASS | *Version*:20251222120000 | |
+| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J129_CategorieEtablissement_RASS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.215 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J129-CategorieEtablissement-RASS",
   "meta" : {
-    "versionId" : "13",
-    "lastUpdated" : "2025-07-02T17:04:57.875+00:00",
+    "versionId" : "14",
+    "lastUpdated" : "2025-12-18T16:47:37.743+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
@@ -77,11 +77,11 @@ Requête sur le SMT
       "value" : "urn:oid:1.2.250.1.213.1.6.1.215"
     }
   ],
-  "version" : "20241025120000",
+  "version" : "20251222120000",
   "name" : "JDV_J129_CategorieEtablissement_RASS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2024-10-25T12:00:00+01:00",
+  "date" : "2025-12-22T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Catégorie d'établissement du RASS",
   "jurisdiction" : [
@@ -481,7 +481,7 @@ Requête sur le SMT
           },
           {
             "code" : "231",
-            "display" : "Etablissement Information Consultation Conseil Familial"
+            "display" : "Espaces de vie affective, relationnelle et sexuelle (EVARS)"
           },
           {
             "code" : "233",
@@ -1209,7 +1209,7 @@ Requête sur le SMT
           },
           {
             "code" : "617",
-            "display" : "Maison médicale de garde (MMG)"
+            "display" : "Lieu de soins non programmés"
           },
           {
             "code" : "618",
@@ -1314,6 +1314,10 @@ Requête sur le SMT
           {
             "code" : "648",
             "display" : "Structure qui contribue au Service d'Accès aux Soins"
+          },
+          {
+            "code" : "649",
+            "display" : "Centre de santé et de médiation en santé sexuelle"
           },
           {
             "code" : "695",

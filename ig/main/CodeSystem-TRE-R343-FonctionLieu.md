@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R343-FonctionLieu/FHIR/TRE-R343-FonctionLieu | *Version*:20251017120000 | |
-| Active as of 2025-10-17 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R343_FonctionLieu |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R343-FonctionLieu/FHIR/TRE-R343-FonctionLieu | *Version*:20251222120000 | |
+| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R343_FonctionLieu |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.227 | | |
 
  
@@ -28,8 +28,8 @@ Destination d’usage du lieu
   "resourceType" : "CodeSystem",
   "id" : "TRE-R343-FonctionLieu",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2025-10-31T15:01:41.551+01:00",
+    "versionId" : "8",
+    "lastUpdated" : "2025-12-18T16:42:48.871+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
@@ -49,11 +49,11 @@ Destination d’usage du lieu
       "value" : "urn:oid:1.2.250.1.213.3.3.227"
     }
   ],
-  "version" : "20251017120000",
+  "version" : "20251222120000",
   "name" : "TRE_R343_FonctionLieu",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-10-17T12:00:00+01:00",
+  "date" : "2025-12-22T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Destination d'usage du lieu",
   "jurisdiction" : [
@@ -68,20 +68,23 @@ Destination d’usage du lieu
   ],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 14,
+  "count" : 28,
   "property" : [
     {
       "code" : "dateValid",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
       "description" : "date de validité d'un code concept",
       "type" : "dateTime"
     },
     {
       "code" : "dateMaj",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
       "description" : "Date de mise à jour d'un code concept",
       "type" : "dateTime"
     },
     {
       "code" : "dateFin",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
       "description" : "Date de fin d'exploitation d'un code concept",
       "type" : "dateTime"
     },
@@ -381,6 +384,398 @@ Destination d’usage du lieu
         {
           "code" : "dateMaj",
           "valueDateTime" : "2025-10-17T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "015",
+      "display" : "Local de cabinet de ville d'ergothérapie",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "Local d'ergothérapie"
+        }
+      ],
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "016",
+      "display" : "Local de cabinet de ville de diététique",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "Local de diététique"
+        }
+      ],
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "017",
+      "display" : "Local de cabinet dentaire ou de stomatologie",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "Local dentaire ou de stomato"
+        }
+      ],
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "018",
+      "display" : "Local de cabinet de ville de kinésithérapie",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "Local de kinésithérapie"
+        }
+      ],
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "019",
+      "display" : "Local de cabinet de ville infirmier",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "Local infirmier"
+        }
+      ],
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "020",
+      "display" : "Local de cabinet de ville de maïeutique",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "Local de maïeutique"
+        }
+      ],
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "021",
+      "display" : "Local de cabinet de ville d’oto-rhino-laryngologie (ORL)",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "Local d'ORL"
+        }
+      ],
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "022",
+      "display" : "Local de cabinet de ville de cardiologie",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "Local de cardiologie"
+        }
+      ],
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "023",
+      "display" : "Local de cabinet de ville de médecine générale",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "Local de médecine générale"
+        }
+      ],
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "024",
+      "display" : "Local de cabinet de ville de Médecine Physique et de Réadaptation (MPR)",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "Local de MPR"
+        }
+      ],
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "025",
+      "display" : "Local de cabinet de ville de rhumatologie",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "Local de rhumatologie"
+        }
+      ],
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "026",
+      "display" : "Local de cabinet de ville de pédiatrie",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "Local de pédiatrie"
+        }
+      ],
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "027",
+      "display" : "Local de cabinet de ville d’ophtalmologie",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "Local d’ophtalmologie"
+        }
+      ],
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "028",
+      "display" : "Local de cabinet de ville de pneumologie",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "Local de pneumologie"
+        }
+      ],
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",

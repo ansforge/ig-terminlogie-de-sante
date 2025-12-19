@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J238-TypeOffre-ROR/FHIR/JDV-J238-TypeOffre-ROR | *Version*:20251017120000 | |
-| Active as of 2025-10-17 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J238_TypeOffre_ROR |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J238-TypeOffre-ROR/FHIR/JDV-J238-TypeOffre-ROR | *Version*:20251222120000 | |
+| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J238_TypeOffre_ROR |
 | *Other Identifiers:*OID:1.2.250.1.213.3.4.65 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J238-TypeOffre-ROR",
   "meta" : {
-    "versionId" : "25",
-    "lastUpdated" : "2025-11-04T19:02:05.263+01:00",
+    "versionId" : "26",
+    "lastUpdated" : "2025-12-18T16:47:48.256+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
@@ -77,11 +77,11 @@ Requête sur le SMT
       "value" : "urn:oid:1.2.250.1.213.3.4.65"
     }
   ],
-  "version" : "20251017120000",
+  "version" : "20251222120000",
   "name" : "JDV_J238_TypeOffre_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-10-17T12:00:00+01:00",
+  "date" : "2025-12-22T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Prestations que peut réaliser une structure et qui permettent de répondre au besoin de santé d'une personne",
   "jurisdiction" : [
@@ -125,11 +125,11 @@ Requête sur le SMT
           },
           {
             "code" : "07",
-            "display" : "Centre de post-cure"
+            "display" : "Centre de soins post-aigus (CeSPA)"
           },
           {
             "code" : "08",
-            "display" : "Centre de Ressources Autisme (CRA)"
+            "display" : "Centre de Référence Troubles du Neuro-développement (TND) - Centre de Diagnostic et d’évaluation expert (CDE)"
           },
           {
             "code" : "09",
@@ -241,7 +241,7 @@ Requête sur le SMT
           },
           {
             "code" : "36",
-            "display" : "Dispositif d'accueil familial"
+            "display" : "Dispositif d'accueil familial social PA-PH"
           },
           {
             "code" : "37",
@@ -661,7 +661,7 @@ Requête sur le SMT
           },
           {
             "code" : "145",
-            "display" : "Unité d'addictologie"
+            "display" : "Unité hospitalière d'addictologie"
           },
           {
             "code" : "146",
@@ -709,7 +709,7 @@ Requête sur le SMT
           },
           {
             "code" : "157",
-            "display" : "Unité hospitalière de gynécologie et/ou obstétrique"
+            "display" : "Unité hospitalière de gynécologie"
           },
           {
             "code" : "158",
@@ -737,7 +737,7 @@ Requête sur le SMT
           },
           {
             "code" : "164",
-            "display" : "Unité hospitalière de radiologie"
+            "display" : "Unité hospitalière d'imagerie médicale"
           },
           {
             "code" : "165",
@@ -925,7 +925,7 @@ Requête sur le SMT
           },
           {
             "code" : "211",
-            "display" : "Cabinet de ville de radiologie"
+            "display" : "Cabinet de ville d'imagerie médicale"
           },
           {
             "code" : "212",
@@ -1112,10 +1112,6 @@ Requête sur le SMT
             "display" : "Point d'information local dédié aux personnes âgées"
           },
           {
-            "code" : "260",
-            "display" : "Relayage au domicile"
-          },
-          {
             "code" : "261",
             "display" : "Accueil familial pour personne âgée"
           },
@@ -1206,6 +1202,54 @@ Requête sur le SMT
           {
             "code" : "283",
             "display" : "Equipe mobile de psychiatrie périnatale"
+          },
+          {
+            "code" : "284",
+            "display" : "Equipe Spécialisée de Prévention et de Réadaptation à Domicile (ESPRAD)"
+          },
+          {
+            "code" : "285",
+            "display" : "Centre Anti-Poison et de Toxico-Vigilance (CAPTV)"
+          },
+          {
+            "code" : "286",
+            "display" : "Unité hospitalière de Soins Intensifs Néonatals (USIN)"
+          },
+          {
+            "code" : "287",
+            "display" : "Unité hospitalière de réanimation néonatale"
+          },
+          {
+            "code" : "288",
+            "display" : "Unité hospitalière « kangourou » ou « koala »"
+          },
+          {
+            "code" : "289",
+            "display" : "Unité hospitalière de néonatalogie"
+          },
+          {
+            "code" : "290",
+            "display" : "Unité hospitalière de maternité"
+          },
+          {
+            "code" : "291",
+            "display" : "Halte Soins Addiction (HSA)"
+          },
+          {
+            "code" : "292",
+            "display" : "Unité Hospitalière Sécurisée Interrégionale (UHSI)"
+          },
+          {
+            "code" : "293",
+            "display" : "Unité hospitalière dédiée grossesse pathologique (GHR)"
+          },
+          {
+            "code" : "294",
+            "display" : "Unité hospitalière de soins externes"
+          },
+          {
+            "code" : "295",
+            "display" : "Permanence d'Accès aux Soins de Santé (PASS)"
           }
         ]
       }

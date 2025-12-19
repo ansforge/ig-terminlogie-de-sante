@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R221-ModeleDocumentCDANonStructure/FHIR/TRE-R221-ModeleDocumentCDANonStructure?vs | *Version*:1.1.0 |
-| Active as of 2025-12-18 | *Computable Name*:JdvTreR221ModeleDocumentCdaNonStructureAll |
+| Active as of 2025-12-19 | *Computable Name*:JdvTreR221ModeleDocumentCdaNonStructureAll |
 
  
 JDV avec l’ensemble des codes actifs de la TRE_R221_ModeleDocumentCDANonStructure 
@@ -72,7 +72,7 @@ Requête sur le SMT
   "title" : "Jdv Tre R221 Modele Document Cda Non Structure All",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-18T04:35:19+00:00",
+  "date" : "2025-12-19T04:35:39+00:00",
   "publisher" : "ANS",
   "contact" : [
     {

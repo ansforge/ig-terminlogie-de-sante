@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R58-AutreTypeDiplome/FHIR/TRE-R58-AutreTypeDiplome | *Version*:20250828120000 | |
-| Active as of 2025-08-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R58_AutreTypeDiplome |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R58-AutreTypeDiplome/FHIR/TRE-R58-AutreTypeDiplome | *Version*:20251222120000 | |
+| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R58_AutreTypeDiplome |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.53 | | |
 
  
@@ -29,8 +29,8 @@ Autre type de diplôme
   "resourceType" : "CodeSystem",
   "id" : "TRE-R58-AutreTypeDiplome",
   "meta" : {
-    "versionId" : "11",
-    "lastUpdated" : "2025-10-02T20:13:55.363+02:00",
+    "versionId" : "12",
+    "lastUpdated" : "2025-12-18T16:42:50.893+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
@@ -50,11 +50,11 @@ Autre type de diplôme
       "value" : "urn:oid:1.2.250.1.213.1.6.1.53"
     }
   ],
-  "version" : "20250828120000",
+  "version" : "20251222120000",
   "name" : "TRE_R58_AutreTypeDiplome",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-08-28T12:00:00+01:00",
+  "date" : "2025-12-22T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Autre type de diplôme",
   "jurisdiction" : [
@@ -73,16 +73,19 @@ Autre type de diplôme
   "property" : [
     {
       "code" : "dateValid",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
       "description" : "date de validité d'un code concept",
       "type" : "dateTime"
     },
     {
       "code" : "dateMaj",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
       "description" : "Date de mise à jour d'un code concept",
       "type" : "dateTime"
     },
     {
       "code" : "dateFin",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
       "description" : "Date de fin d'exploitation d'un code concept",
       "type" : "dateTime"
     },
@@ -1546,7 +1549,7 @@ Autre type de diplôme
     },
     {
       "code" : "DIP324",
-      "display" : "Licence + Master mention clinique, psychopatho et psycho santé + Attest stage",
+      "display" : "Licence + Master mention psychologie clinique, psychopatho et psycho santé + Attest stage",
       "definition" : "Article 52 de la loi n° 2004-806 du 9 août 2004 relative à la politique de santé publique ; article 1 du décret n° 2010-534 du 20 mai 2010 relatif à l'usage du titre de psychothérapeute ; article 1er, 2° et 3° du décret n°90-255 du 22 mars 1990",
       "designation" : [
         {
@@ -1573,7 +1576,7 @@ Autre type de diplôme
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2024-05-31T12:00:00+01:00"
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -1583,7 +1586,7 @@ Autre type de diplôme
     },
     {
       "code" : "DIP325",
-      "display" : "Licence + Master mention sociale, du travail et des organisations + Attest stage",
+      "display" : "Licence + Master mention psychologie sociale, du travail et des organisations + Attest stage",
       "definition" : "Article 52 de la loi n° 2004-806 du 9 août 2004 relative à la politique de santé publique ; article 1 du décret n° 2010-534 du 20 mai 2010 relatif à l'usage du titre de psychothérapeute ; article 1er, 2° et 3° du décret n°90-255 du 22 mars 1990",
       "designation" : [
         {
@@ -1610,7 +1613,7 @@ Autre type de diplôme
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2024-05-31T12:00:00+01:00"
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -1620,7 +1623,7 @@ Autre type de diplôme
     },
     {
       "code" : "DIP326",
-      "display" : "Licence + Master mention éducation et de la formation + Attest stage",
+      "display" : "Licence + Master mention psychologie de l'éducation et de la formation + Attest stage",
       "definition" : "Article 52 de la loi n° 2004-806 du 9 août 2004 relative à la politique de santé publique ; article 1 du décret n° 2010-534 du 20 mai 2010 relatif à l'usage du titre de psychothérapeute ; article 1er, 2° et 3° du décret n°90-255 du 22 mars 1990",
       "designation" : [
         {
@@ -1647,7 +1650,7 @@ Autre type de diplôme
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2024-05-31T12:00:00+01:00"
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -1657,7 +1660,7 @@ Autre type de diplôme
     },
     {
       "code" : "DIP327",
-      "display" : "Licence + Master mention psychopatho clinique psychanalytique + Attest stage",
+      "display" : "Licence + Master mention psychologie: psychopatho clinique psychanalytique + Attest stage",
       "definition" : "Article 52 de la loi n° 2004-806 du 9 août 2004 relative à la politique de santé publique ; article 1 du décret n° 2010-534 du 20 mai 2010 relatif à l'usage du titre de psychothérapeute ; article 1er, 2° et 3° du décret n°90-255 du 22 mars 1990",
       "designation" : [
         {
@@ -1684,7 +1687,7 @@ Autre type de diplôme
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2024-05-31T12:00:00+01:00"
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -1694,7 +1697,7 @@ Autre type de diplôme
     },
     {
       "code" : "DIP328",
-      "display" : "Master de Psychanalyse",
+      "display" : "Diplôme de niveau Master en psychanalyse",
       "definition" : "Article 52 de la Loi n° 2004-806 du 9 août 2004 relative à la politique de santé publique ; article 1 du Décret n° 2010-534 du 20 mai 2010 relatif à l'usage du titre de psychothérapeute",
       "designation" : [
         {
@@ -1713,7 +1716,7 @@ Autre type de diplôme
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2023-03-31T12:00:00+01:00"
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",

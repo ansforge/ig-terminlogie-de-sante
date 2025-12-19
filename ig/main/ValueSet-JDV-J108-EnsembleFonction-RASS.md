@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J108-EnsembleFonction-RASS/FHIR/JDV-J108-EnsembleFonction-RASS | *Version*:20251016120000 | |
-| Active as of 2025-10-16 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J108_EnsembleFonction_RASS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J108-EnsembleFonction-RASS/FHIR/JDV-J108-EnsembleFonction-RASS | *Version*:20251222120000 | |
+| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J108_EnsembleFonction_RASS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.176 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J108-EnsembleFonction-RASS",
   "meta" : {
-    "versionId" : "15",
-    "lastUpdated" : "2025-11-04T19:01:57.775+01:00",
+    "versionId" : "16",
+    "lastUpdated" : "2025-12-18T16:47:36.559+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
@@ -77,11 +77,11 @@ Requête sur le SMT
       "value" : "urn:oid:1.2.250.1.213.1.6.1.176"
     }
   ],
-  "version" : "20251016120000",
+  "version" : "20251222120000",
   "name" : "JDV_J108_EnsembleFonction_RASS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-10-16T12:00:00+01:00",
+  "date" : "2025-12-22T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Ensemble des fonctions et rôles du RASS",
   "jurisdiction" : [
@@ -366,10 +366,6 @@ Requête sur le SMT
             "display" : "Préparateur en pharmacie (officine)"
           },
           {
-            "code" : "318",
-            "display" : "Auxiliaire de vie sociale"
-          },
-          {
             "code" : "319",
             "display" : "Technicien de l'intervention sociale et familiale"
           },
@@ -384,10 +380,6 @@ Requête sur le SMT
           {
             "code" : "322",
             "display" : "Assistant familial"
-          },
-          {
-            "code" : "323",
-            "display" : "Aide médico-psychologique (AMP)"
           },
           {
             "code" : "324",

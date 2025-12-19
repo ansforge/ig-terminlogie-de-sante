@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS | *Version*:20250721120000 | |
-| Active as of 2025-07-21 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J01_XdsAuthorSpecialty_CISIS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS | *Version*:20251222120000 | |
+| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J01_XdsAuthorSpecialty_CISIS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.461 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J01-XdsAuthorSpecialty-CISIS",
   "meta" : {
-    "versionId" : "12",
-    "lastUpdated" : "2025-07-25T09:32:07.019+00:00",
+    "versionId" : "13",
+    "lastUpdated" : "2025-12-18T16:47:32.777+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
@@ -77,11 +77,11 @@ Requête sur le SMT
       "value" : "urn:oid:1.2.250.1.213.1.1.5.461"
     }
   ],
-  "version" : "20250721120000",
+  "version" : "20251222120000",
   "name" : "JDV_J01_XdsAuthorSpecialty_CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-07-21T12:00:00+01:00",
+  "date" : "2025-12-22T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "XDS authorSpecialty CI-SIS",
   "jurisdiction" : [
@@ -1476,10 +1476,6 @@ Requête sur le SMT
             "display" : "Préparateur en pharmacie (officine)"
           },
           {
-            "code" : "318",
-            "display" : "Auxiliaire de vie sociale"
-          },
-          {
             "code" : "319",
             "display" : "Technicien de l'intervention sociale et familiale"
           },
@@ -1494,10 +1490,6 @@ Requête sur le SMT
           {
             "code" : "322",
             "display" : "Assistant familial"
-          },
-          {
-            "code" : "323",
-            "display" : "Aide médico-psychologique (AMP)"
           },
           {
             "code" : "324",

@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R213-ModePriseEnCharge/FHIR/TRE-R213-ModePriseEnCharge | *Version*:20250828120000 | |
-| Active as of 2025-08-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R213_ModePriseEnCharge |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R213-ModePriseEnCharge/FHIR/TRE-R213-ModePriseEnCharge | *Version*:20251222120000 | |
+| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R213_ModePriseEnCharge |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.13 | | |
 
  
@@ -32,8 +32,8 @@ Mode de la prise en charge
   "resourceType" : "CodeSystem",
   "id" : "TRE-R213-ModePriseEnCharge",
   "meta" : {
-    "versionId" : "9",
-    "lastUpdated" : "2025-10-02T20:13:44.024+02:00",
+    "versionId" : "10",
+    "lastUpdated" : "2025-12-18T16:42:45.870+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
@@ -53,11 +53,11 @@ Mode de la prise en charge
       "value" : "urn:oid:1.2.250.1.213.3.3.13"
     }
   ],
-  "version" : "20250828120000",
+  "version" : "20251222120000",
   "name" : "TRE_R213_ModePriseEnCharge",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-08-28T12:00:00+01:00",
+  "date" : "2025-12-22T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Mode de la prise en charge",
   "jurisdiction" : [
@@ -76,16 +76,19 @@ Mode de la prise en charge
   "property" : [
     {
       "code" : "dateValid",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
       "description" : "date de validité d'un code concept",
       "type" : "dateTime"
     },
     {
       "code" : "dateMaj",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
       "description" : "Date de mise à jour d'un code concept",
       "type" : "dateTime"
     },
     {
       "code" : "dateFin",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
       "description" : "Date de fin d'exploitation d'un code concept",
       "type" : "dateTime"
     },
@@ -488,11 +491,19 @@ Mode de la prise en charge
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2015-05-04T00:00:00+01:00"
+          "valueDateTime" : "2025-12-22T00:00:00+01:00"
+        },
+        {
+          "code" : "dateFin",
+          "valueDateTime" : "2025-12-22T00:00:00+01:00"
+        },
+        {
+          "code" : "deprecationDate",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",
-          "valueCode" : "active"
+          "valueCode" : "deprecated"
         }
       ]
     },
@@ -884,7 +895,17 @@ Mode de la prise en charge
     },
     {
       "code" : "27",
-      "display" : "Télémédecine",
+      "display" : "Régulation médicale téléphonique",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "Régulation méd tél"
+        }
+      ],
       "property" : [
         {
           "code" : "dateValid",
@@ -892,7 +913,7 @@ Mode de la prise en charge
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2015-05-04T00:00:00+01:00"
+          "valueDateTime" : "2025-12-22T00:00:00+01:00"
         },
         {
           "code" : "status",

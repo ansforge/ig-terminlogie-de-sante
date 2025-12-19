@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J149-BodySiteBP-ENS",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T17:05:10.084+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2025-12-18T16:47:39.232+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
@@ -100,12 +100,10 @@ Requête sur le SMT
         "system" : "http://snomed.info/sct",
         "concept" : [
           {
-            "code" : "8205005",
-            "display" : "poignet"
+            "code" : "8205005"
           },
           {
-            "code" : "53120007",
-            "display" : "membre supérieur"
+            "code" : "53120007"
           }
         ]
       }

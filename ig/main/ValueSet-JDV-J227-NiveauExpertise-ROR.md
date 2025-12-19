@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J227-NiveauExpertise-ROR/FHIR/JDV-J227-NiveauExpertise-ROR | *Version*:20250425120000 | |
-| Active as of 2025-04-25 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J227_NiveauExpertise_ROR |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J227-NiveauExpertise-ROR/FHIR/JDV-J227-NiveauExpertise-ROR | *Version*:20251222120000 | |
+| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J227_NiveauExpertise_ROR |
 | *Other Identifiers:*OID:1.2.250.1.213.3.4.59 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J227-NiveauExpertise-ROR",
   "meta" : {
-    "versionId" : "12",
-    "lastUpdated" : "2025-07-02T17:05:58.518+00:00",
+    "versionId" : "13",
+    "lastUpdated" : "2025-12-18T16:47:47.299+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
@@ -77,11 +77,11 @@ Requête sur le SMT
       "value" : "urn:oid:1.2.250.1.213.3.4.59"
     }
   ],
-  "version" : "20250425120000",
+  "version" : "20251222120000",
   "name" : "JDV_J227_NiveauExpertise_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-04-25T12:00:00+01:00",
+  "date" : "2025-12-22T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Niveau de ressources humaines et matérielles utiles pour la réalisation de l'offre",
   "jurisdiction" : [
@@ -251,6 +251,30 @@ Requête sur le SMT
           {
             "code" : "42",
             "display" : "Filière Obésité - Niveau 3 (Centre Spécialisé Obésité)"
+          },
+          {
+            "code" : "43",
+            "display" : "Centre Ressources Autisme (CRA)"
+          },
+          {
+            "code" : "44",
+            "display" : "Centre de référence des Troubles du Langage et de l’Apprentissage (CRTLA)"
+          },
+          {
+            "code" : "45",
+            "display" : "Centre de référence du Trouble Déficit de l’Attention avec ou sans Hyperactivité (CRTDAH)"
+          },
+          {
+            "code" : "46",
+            "display" : "Centre de compétence centre mémoire ressources et recherche (CMRR)"
+          },
+          {
+            "code" : "47",
+            "display" : "Centre expert Parkinson"
+          },
+          {
+            "code" : "48",
+            "display" : "Centre de ressources et de compétences sclérose en plaques (SEP)"
           }
         ]
       }

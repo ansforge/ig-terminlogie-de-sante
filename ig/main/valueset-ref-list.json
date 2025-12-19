@@ -39,7 +39,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS",
-      "version" : "20250721120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "JDV_J01_XdsAuthorSpecialty_CISIS",
       "title" : null,
@@ -100,7 +100,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J05-SubjectRole-CISIS/FHIR/JDV-J05-SubjectRole-CISIS",
-      "version" : "20251028120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "JDV_J05_SubjectRole_CISIS",
       "title" : null,
@@ -241,7 +241,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J105-EnsembleDiplome-RASS/FHIR/JDV-J105-EnsembleDiplome-RASS",
-      "version" : "20250828120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "JDV_J105_EnsembleDiplome_RASS",
       "title" : null,
@@ -283,7 +283,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J107-EnsembleSavoirFaire-RASS/FHIR/JDV-J107-EnsembleSavoirFaire-RASS",
-      "version" : "20241025120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "JDV_J107_EnsembleSavoirFaire_RASS",
       "title" : null,
@@ -306,7 +306,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J108-EnsembleFonction-RASS/FHIR/JDV-J108-EnsembleFonction-RASS",
-      "version" : "20251016120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "JDV_J108_EnsembleFonction_RASS",
       "title" : null,
@@ -498,7 +498,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J121-RolePriseCharge-ENREG/FHIR/JDV-J121-RolePriseCharge-ENREG",
-      "version" : "20250425120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "JDV_J121_RolePriseCharge_ENREG",
       "title" : null,
@@ -603,7 +603,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J129-CategorieEtablissement-RASS/FHIR/JDV-J129-CategorieEtablissement-RASS",
-      "version" : "20241025120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "JDV_J129_CategorieEtablissement_RASS",
       "title" : null,
@@ -1045,7 +1045,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J16-ActeSpecifique-ROR/FHIR/JDV-J16-ActeSpecifique-ROR",
-      "version" : "20251017120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "JDV_J16_ActeSpecifique_ROR",
       "title" : null,
@@ -1173,7 +1173,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J17-ActiviteOperationnelle-ROR/FHIR/JDV-J17-ActiviteOperationnelle-ROR",
-      "version" : "20251017120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "JDV_J17_ActiviteOperationnelle_ROR",
       "title" : null,
@@ -1297,7 +1297,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J18-EquipementSpecifique-ROR/FHIR/JDV-J18-EquipementSpecifique-ROR",
-      "version" : "20250623120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "JDV_J18_EquipementSpecifique_ROR",
       "title" : null,
@@ -1352,7 +1352,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J183-Diplome-EPARS/FHIR/JDV-J183-Diplome-EPARS",
-      "version" : "20250917120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "JDV_J183_Diplome_EPARS",
       "title" : null,
@@ -1441,7 +1441,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J19-ModePriseEnCharge-ROR/FHIR/JDV-J19-ModePriseEnCharge-ROR",
-      "version" : "20250828120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "JDV_J19_ModePriseEnCharge_ROR",
       "title" : null,
@@ -1558,7 +1558,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J198-FonctionLieu-ROR/FHIR/JDV-J198-FonctionLieu-ROR",
-      "version" : "20251017120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "JDV_J198_FonctionLieu_ROR",
       "title" : null,
@@ -1962,7 +1962,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J226-ModaliteAccueil-ROR/FHIR/JDV-J226-ModaliteAccueil-ROR",
-      "version" : "20250828120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "JDV_J226_ModaliteAccueil_ROR",
       "title" : null,
@@ -1975,7 +1975,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J227-NiveauExpertise-ROR/FHIR/JDV-J227-NiveauExpertise-ROR",
-      "version" : "20250425120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "JDV_J227_NiveauExpertise_ROR",
       "title" : null,
@@ -2123,7 +2123,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J238-TypeOffre-ROR/FHIR/JDV-J238-TypeOffre-ROR",
-      "version" : "20251017120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "JDV_J238_TypeOffre_ROR",
       "title" : null,
@@ -2334,7 +2334,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J255-SurspecialiteTransversale-RPPS/FHIR/JDV-J255-SurspecialiteTransversale-RPPS",
-      "version" : "20240329120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "JDV_J255_SurspecialiteTransversale_RPPS",
       "title" : null,
@@ -2393,7 +2393,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J259-ModeFixationTarifaire-RASS/FHIR/JDV-J259-ModeFixationTarifaire-RASS",
-      "version" : "20240927120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "JDV_J259_ModeFixationTarifaire_RASS",
       "title" : null,
@@ -2570,11 +2570,11 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J281-StatutsRessourcesMS/FHIR/JDV-J281-StatutsRessourcesMS",
-      "version" : "20250425120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "JDV_J281_StatutsRessourcesMS",
       "title" : null,
-      "description" : "Statut de l'évaluation et des événements",
+      "description" : "Caractérise le statut d’une ressource du médico-social au cours de son cycle de vie.",
       "systems" : [
         "https://mos.esante.gouv.fr/NOS/TRE_R368-StatutRessource/FHIR/TRE-R368-StatutRessource"
       ],
@@ -2705,7 +2705,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J34-CategorieOrganisation-ROR/FHIR/JDV-J34-CategorieOrganisation-ROR",
-      "version" : "20251017120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "JDV_J34_CategorieOrganisation_ROR",
       "title" : null,
@@ -2949,7 +2949,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J55-CategorieEG-ROR/FHIR/JDV-J55-CategorieEG-ROR",
-      "version" : "20250425120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "JDV_J55_CategorieEG_ROR",
       "title" : null,
@@ -5948,6 +5948,19 @@
       "systems" : ["http://hl7.org/fhir/sid/icd-10", "http://snomed.info/sct"],
       "oids" : ["1.2.250.1.213.1.1.5.731"],
       "sources" : ["1.2.250.1.213.1.1.5.731"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j304-finess-statut-juridique-finess",
+      "version" : "20251222120000",
+      "status" : "active",
+      "name" : "JdvJ383MotifClotureExerciceProfessionnelEpars",
+      "title" : "Jdv J383 Motif Cloture Exercice Professionnel Epars",
+      "description" : "Ce jeu de valeur liste les différents motifs qui peuvent justifier la clôture d'un exercice professionnel.",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R25-MotifFinActivite/FHIR/TRE-R25-MotifFinActivite"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.394"],
+      "sources" : ["1.2.250.1.213.1.6.1.394"]
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j366-statut-bilan-projet-personnalise-ms",
@@ -9496,8 +9509,8 @@
       "systems" : ["https://smt.esante.gouv.fr/terminologie-cip_ucd"],
       "uses" : {
       },
-      "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD",
-      "ConceptMap-alignement-nuva-cipucd.html" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD"
+      "ConceptMap-alignement-nuva-cipucd.html" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD",
+      "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD"
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-nuva?vs",
@@ -9509,8 +9522,8 @@
       "systems" : ["https://smt.esante.gouv.fr/terminologie-nuva"],
       "uses" : {
       },
-      "ConceptMap-alignement-nuva-bdpm.html" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM",
-      "ConceptMap-alignement-nuva-cipucd.html" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD"
+      "ConceptMap-alignement-nuva-cipucd.html" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD",
+      "ConceptMap-alignement-nuva-bdpm.html" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM"
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-sms?vs",

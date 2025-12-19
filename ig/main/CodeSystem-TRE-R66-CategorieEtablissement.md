@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement | *Version*:20250425120000 | |
-| Active as of 2025-04-25 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R66_CategorieEtablissement |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement | *Version*:20251222120000 | |
+| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R66_CategorieEtablissement |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.8 | | |
 
  
@@ -40,8 +40,8 @@ Catégorie d’établissements
   "resourceType" : "CodeSystem",
   "id" : "TRE-R66-CategorieEtablissement",
   "meta" : {
-    "versionId" : "17",
-    "lastUpdated" : "2025-07-02T18:18:40.120+00:00",
+    "versionId" : "18",
+    "lastUpdated" : "2025-12-18T16:42:52.293+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
@@ -61,11 +61,11 @@ Catégorie d’établissements
       "value" : "urn:oid:1.2.250.1.213.1.6.1.8"
     }
   ],
-  "version" : "20250425120000",
+  "version" : "20251222120000",
   "name" : "TRE_R66_CategorieEtablissement",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-04-25T12:00:00+01:00",
+  "date" : "2025-12-22T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Catégorie d'établissements",
   "jurisdiction" : [
@@ -80,19 +80,23 @@ Catégorie d’établissements
   ],
   "caseSensitive" : false,
   "content" : "complete",
+  "count" : 320,
   "property" : [
     {
       "code" : "dateValid",
-      "description" : "date de validité d'un code concept",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
+      "description" : "Date de validité d'un code concept",
       "type" : "dateTime"
     },
     {
       "code" : "dateMaj",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
       "description" : "Date de mise à jour d'un code concept",
       "type" : "dateTime"
     },
     {
       "code" : "dateFin",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
       "description" : "Date de fin d'exploitation d'un code concept",
       "type" : "dateTime"
     },
@@ -3266,7 +3270,7 @@ Catégorie d’établissements
     },
     {
       "code" : "231",
-      "display" : "Etablissement Information Consultation Conseil Familial",
+      "display" : "Espaces de vie affective, relationnelle et sexuelle (EVARS)",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -3274,15 +3278,7 @@ Catégorie d’établissements
             "system" : "http://snomed.info/sct",
             "code" : "900000000000013009"
           },
-          "value" : "Etab.Inf.Consult.Fam"
-        },
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Etablissement d'information, de consultation et de conseil familial"
+          "value" : "E.V.A.R.S."
         }
       ],
       "property" : [
@@ -3292,7 +3288,7 @@ Catégorie d’établissements
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "1979-01-23T00:00:00+01:00"
+          "valueDateTime" : "2025-12-22T00:00:00+01:00"
         },
         {
           "code" : "status",
@@ -9601,7 +9597,8 @@ Catégorie d’établissements
     },
     {
       "code" : "617",
-      "display" : "Maison médicale de garde (MMG)",
+      "display" : "Lieu de soins non programmés",
+      "definition" : "Un lieu de soins non programmés est un lieu fixe dédié à la médecine générale, ouvert uniquement pendant les périodes de permanence des soins : soirées, nuits, week-ends et jours fériés.",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -9609,7 +9606,7 @@ Catégorie d’établissements
             "system" : "http://snomed.info/sct",
             "code" : "900000000000013009"
           },
-          "value" : "MMG"
+          "value" : "S.N.P"
         }
       ],
       "property" : [
@@ -9619,7 +9616,7 @@ Catégorie d’établissements
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2023-06-30T12:00:00+01:00"
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -10374,6 +10371,35 @@ Catégorie d’établissements
       ]
     },
     {
+      "code" : "649",
+      "display" : "Centre de santé et de médiation en santé sexuelle",
+      "definition" : "Les centres de santé et de médiation en santé sexuelle (CSMSS) sont des établissements de santé dérogatoires relevant de l’article L. 6323-1 du code de la santé publique (CSP). Ils ont initialement fait l’objet d’une expérimentation dans le cadre du dispositif prévu à l’article 51 de la loi de financement de la sécurité sociale, au cours de laquelle ils étaient rattachés au numéro FINESS des centres de santé de droit commun. L’activité des centres de santé et de médiation en santé sexuelle (CSMSS) consiste à assurer l’accueil, l’information, la prévention, le dépistage et l’accompagnement des publics dans le domaine de la santé sexuelle dans une approche globale intégrant notamment la prévention et la prise en charge des infections sexuellement transmissibles (IST) et du VIH, la prescription de la contraception et la mise en place de parcours en santé sexuelle.",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "C.S.M.S.S."
+        }
+      ],
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
       "code" : "690",
       "display" : "Etablissement de Fabrication Annexe à une Officine",
       "designation" : [
@@ -10663,6 +10689,25 @@ Catégorie d’établissements
         {
           "code" : "dateMaj",
           "valueDateTime" : "2025-04-25T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "704",
+      "display" : "Autre service territorial",
+      "definition" : "Points locaux d'information dédiés aux personnes âgées. Ces services peuvent être rattachés à des CCAS ( Centre Communaux d'Action Sociale)",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",

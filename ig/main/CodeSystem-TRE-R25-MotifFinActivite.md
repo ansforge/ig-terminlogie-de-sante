@@ -19,6 +19,7 @@ Motif de fin d’activité
 
 * [JDV_J169_MotifFinActivite_EPARS](ValueSet-JDV-J169-MotifFinActivite-EPARS.md)
 * [JDV_J92_MotifFinActivite_RASS](ValueSet-JDV-J92-MotifFinActivite-RASS.md)
+* [JdvJ383MotifClotureExerciceProfessionnelEpars](ValueSet-jdv-j383-motif-cloture-exercice-professionnel-epars.md)
 
 
 
@@ -29,8 +30,8 @@ Motif de fin d’activité
   "resourceType" : "CodeSystem",
   "id" : "TRE-R25-MotifFinActivite",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:16:37.389+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2025-12-18T16:42:48.416+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
@@ -69,21 +70,31 @@ Motif de fin d’activité
   ],
   "caseSensitive" : false,
   "content" : "complete",
+  "count" : 9,
   "property" : [
     {
       "code" : "dateValid",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
       "description" : "date de validité d'un code concept",
       "type" : "dateTime"
     },
     {
       "code" : "dateMaj",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
       "description" : "Date de mise à jour d'un code concept",
       "type" : "dateTime"
     },
     {
       "code" : "dateFin",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
       "description" : "Date de fin d'exploitation d'un code concept",
       "type" : "dateTime"
+    },
+    {
+      "code" : "epars",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#epars",
+      "description" : "Permet de définir les codes concepts uilisés par EPARS",
+      "type" : "boolean"
     },
     {
       "code" : "deprecationDate",
@@ -120,6 +131,10 @@ Motif de fin d’activité
         {
           "code" : "status",
           "valueCode" : "active"
+        },
+        {
+          "code" : "epars",
+          "valueBoolean" : true
         }
       ]
     },
@@ -174,6 +189,10 @@ Motif de fin d’activité
         {
           "code" : "status",
           "valueCode" : "active"
+        },
+        {
+          "code" : "epars",
+          "valueBoolean" : true
         }
       ]
     },
@@ -192,6 +211,10 @@ Motif de fin d’activité
         {
           "code" : "status",
           "valueCode" : "active"
+        },
+        {
+          "code" : "epars",
+          "valueBoolean" : true
         }
       ]
     },
@@ -210,6 +233,10 @@ Motif de fin d’activité
         {
           "code" : "status",
           "valueCode" : "active"
+        },
+        {
+          "code" : "epars",
+          "valueBoolean" : true
         }
       ]
     },
@@ -246,6 +273,10 @@ Motif de fin d’activité
         {
           "code" : "status",
           "valueCode" : "active"
+        },
+        {
+          "code" : "epars",
+          "valueBoolean" : true
         }
       ]
     },
@@ -264,6 +295,10 @@ Motif de fin d’activité
         {
           "code" : "status",
           "valueCode" : "active"
+        },
+        {
+          "code" : "epars",
+          "valueBoolean" : true
         }
       ]
     }

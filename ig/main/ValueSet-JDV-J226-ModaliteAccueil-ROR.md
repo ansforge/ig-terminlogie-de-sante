@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J226-ModaliteAccueil-ROR/FHIR/JDV-J226-ModaliteAccueil-ROR | *Version*:20250828120000 | |
-| Active as of 2025-08-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J226_ModaliteAccueil_ROR |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J226-ModaliteAccueil-ROR/FHIR/JDV-J226-ModaliteAccueil-ROR | *Version*:20251222120000 | |
+| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J226_ModaliteAccueil_ROR |
 | *Other Identifiers:*OID:1.2.250.1.213.3.4.58 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J226-ModaliteAccueil-ROR",
   "meta" : {
-    "versionId" : "14",
-    "lastUpdated" : "2025-10-02T19:02:01.774+02:00",
+    "versionId" : "15",
+    "lastUpdated" : "2025-12-18T16:47:46.551+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
@@ -77,11 +77,11 @@ Requête sur le SMT
       "value" : "urn:oid:1.2.250.1.213.3.4.58"
     }
   ],
-  "version" : "20250828120000",
+  "version" : "20251222120000",
   "name" : "JDV_J226_ModaliteAccueil_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-08-28T12:00:00+01:00",
+  "date" : "2025-12-22T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Modalité d'accueil",
   "jurisdiction" : [
@@ -194,6 +194,14 @@ Requête sur le SMT
           {
             "code" : "24",
             "display" : "Autodialyse assistée"
+          },
+          {
+            "code" : "25",
+            "display" : "Relayage courte durée (quelques heures par jour)"
+          },
+          {
+            "code" : "26",
+            "display" : "Relayage longue durée (sur plusieurs jours)"
           }
         ]
       }

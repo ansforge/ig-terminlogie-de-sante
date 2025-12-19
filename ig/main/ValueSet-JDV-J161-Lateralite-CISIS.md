@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J161-Lateralite-CISIS",
   "meta" : {
-    "versionId" : "3",
-    "lastUpdated" : "2025-07-02T17:05:19.289+00:00",
+    "versionId" : "4",
+    "lastUpdated" : "2025-12-18T16:47:40.852+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
@@ -100,20 +100,16 @@ Requête sur le SMT
         "system" : "http://snomed.info/sct",
         "concept" : [
           {
-            "code" : "24028007",
-            "display" : "droit"
+            "code" : "24028007"
           },
           {
-            "code" : "7771000",
-            "display" : "gauche"
+            "code" : "7771000"
           },
           {
-            "code" : "51440002",
-            "display" : "bilatéral"
+            "code" : "51440002"
           },
           {
-            "code" : "385432009",
-            "display" : "non applicable"
+            "code" : "385432009"
           }
         ]
       }

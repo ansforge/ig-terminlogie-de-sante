@@ -869,7 +869,7 @@
     "title" : null,
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R221-ModeleDocumentCDANonStructure/FHIR/TRE-R221-ModeleDocumentCDANonStructure",
     "identifier" : "urn:oid:1.2.250.1.213.1.1.4.329",
-    "status" : "active"
+    "status" : "retired"
   },
   {
     "id" : "TRE-R222-MediaTypeCorpsCDANonStructure",
@@ -877,7 +877,7 @@
     "title" : null,
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R222-MediaTypeCorpsCDANonStructure/FHIR/TRE-R222-MediaTypeCorpsCDANonStructure",
     "identifier" : "urn:oid:1.2.250.1.213.1.1.4.330",
-    "status" : "active"
+    "status" : "retired"
   },
   {
     "id" : "TRE-R223-NatCycleForm",

@@ -407,7 +407,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R16-LieuFormation/FHIR/TRE-R16-LieuFormation",
-      "version" : "20251016120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "TRE_R16_LieuFormation",
       "title" : null,
@@ -542,16 +542,16 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique",
-      "version" : "20251017120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "TRE_R210_ActeSpecifique",
       "title" : null,
-      "description" : "Un acte spécifique est une action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé. Les actes réalisés habituellement par ce type d'organisation ne sont pas des actes spécifiques. Les actes spécifiques décrits sont réalisés avec les ressources propres de l’organisation ou via des ressources mises à disposition dans le cadre d’une convention à la condition que ces ressources interviennent sur site dans la réalisation de la prestation.",
+      "description" : "Un acte spécifique est une action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé. Les actes réalisés habituellement par ce type d’organisation ne sont pas des actes spécifiques. Les actes spécifiques décrits sont réalisés avec les ressources propres de l’organisation ou via des ressources mises à disposition dans le cadre d’une convention à la condition que ces ressources interviennent sur site dans la réalisation de la prestation.",
       "oids" : ["1.2.250.1.213.3.3.11"]
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle",
-      "version" : "20251017120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "TRE_R211_ActiviteOperationnelle",
       "title" : null,
@@ -560,7 +560,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement",
-      "version" : "20250918120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "TRE_R212_Equipement",
       "title" : null,
@@ -569,7 +569,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R213-ModePriseEnCharge/FHIR/TRE-R213-ModePriseEnCharge",
-      "version" : "20250828120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "TRE_R213_ModePriseEnCharge",
       "title" : null,
@@ -650,8 +650,8 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R221-ModeleDocumentCDANonStructure/FHIR/TRE-R221-ModeleDocumentCDANonStructure",
-      "version" : "20231215120000",
-      "status" : "active",
+      "version" : "20251222120000",
+      "status" : "retired",
       "name" : "TRE_R221_ModeleDocumentCDANonStructure",
       "title" : null,
       "description" : "Identifiant des modèles de CDA non structurés",
@@ -659,8 +659,8 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R222-MediaTypeCorpsCDANonStructure/FHIR/TRE-R222-MediaTypeCorpsCDANonStructure",
-      "version" : "20231215120000",
-      "status" : "active",
+      "version" : "20251222120000",
+      "status" : "retired",
       "name" : "TRE_R222_MediaTypeCorpsCDANonStructure",
       "title" : null,
       "description" : "Identifiant des modèles de CDA non structurés",
@@ -857,7 +857,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R244-CategorieOrganisation/FHIR/TRE-R244-CategorieOrganisation",
-      "version" : "20251017120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "TRE_R244_CategorieOrganisation",
       "title" : null,
@@ -1640,7 +1640,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R338-ModaliteAccueil/FHIR/TRE-R338-ModaliteAccueil",
-      "version" : "20251017120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "TRE_R338_ModaliteAccueil",
       "title" : null,
@@ -1685,7 +1685,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R343-FonctionLieu/FHIR/TRE-R343-FonctionLieu",
-      "version" : "20251017120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "TRE_R343_FonctionLieu",
       "title" : null,
@@ -1694,7 +1694,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R344-NiveauExpertise/FHIR/TRE-R344-NiveauExpertise",
-      "version" : "20250623120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "TRE_R344_NiveauExpertise",
       "title" : null,
@@ -1712,7 +1712,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R348-FormationSpecialiseeTransversale/FHIR/TRE-R348-FormationSpecialiseeTransversale",
-      "version" : "20231215120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "TRE_R348_FormationSpecialiseeTransversale",
       "title" : null,
@@ -1802,7 +1802,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R359-SurspecialiteTransversale/FHIR/TRE-R359-SurspecialiteTransversale",
-      "version" : "20240531120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "TRE_R359_SurspecialiteTransversale",
       "title" : null,
@@ -1820,7 +1820,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R368-StatutRessource/FHIR/TRE-R368-StatutRessource",
-      "version" : "20250919120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "TRE_R368_StatutRessource",
       "title" : null,
@@ -2018,7 +2018,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R58-AutreTypeDiplome/FHIR/TRE-R58-AutreTypeDiplome",
-      "version" : "20250828120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "TRE_R58_AutreTypeDiplome",
       "title" : null,
@@ -2072,7 +2072,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement",
-      "version" : "20250425120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "TRE_R66_CategorieEtablissement",
       "title" : null,
@@ -2135,7 +2135,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-      "version" : "20240223120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "TRE_R74_ModeFixationTarifaire",
       "title" : null,
@@ -2189,7 +2189,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge",
-      "version" : "20250919120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "TRE_R85_RolePriseCharge",
       "title" : null,

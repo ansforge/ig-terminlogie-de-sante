@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J17-ActiviteOperationnelle-ROR/FHIR/JDV-J17-ActiviteOperationnelle-ROR | *Version*:20251017120000 | |
-| Active as of 2025-10-17 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J17_ActiviteOperationnelle_ROR |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J17-ActiviteOperationnelle-ROR/FHIR/JDV-J17-ActiviteOperationnelle-ROR | *Version*:20251222120000 | |
+| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J17_ActiviteOperationnelle_ROR |
 | *Other Identifiers:*OID:1.2.250.1.213.3.4.5 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J17-ActiviteOperationnelle-ROR",
   "meta" : {
-    "versionId" : "24",
-    "lastUpdated" : "2025-11-04T19:02:02.509+01:00",
+    "versionId" : "25",
+    "lastUpdated" : "2025-12-18T16:47:43.720+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
@@ -77,11 +77,11 @@ Requête sur le SMT
       "value" : "urn:oid:1.2.250.1.213.3.4.5"
     }
   ],
-  "version" : "20251017120000",
+  "version" : "20251222120000",
   "name" : "JDV_J17_ActiviteOperationnelle_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-10-17T12:00:00+01:00",
+  "date" : "2025-12-22T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Activité Operationnelle - ROR",
   "jurisdiction" : [
@@ -141,7 +141,7 @@ Requête sur le SMT
           },
           {
             "code" : "015",
-            "display" : "Centre antipoison et de toxicovigilance (CAPTV)"
+            "display" : "Conseil antipoison et toxicovigilance"
           },
           {
             "code" : "016",
@@ -318,6 +318,10 @@ Requête sur le SMT
           {
             "code" : "082",
             "display" : "Médecine du travail (pathologie professionnelle)"
+          },
+          {
+            "code" : "083",
+            "display" : "Médecine polyvalente"
           },
           {
             "code" : "084",
@@ -2162,6 +2166,26 @@ Requête sur le SMT
           {
             "code" : "597",
             "display" : "Evaluation de la mémoire (bilan mémoire)"
+          },
+          {
+            "code" : "598",
+            "display" : "Toxicologie clinique"
+          },
+          {
+            "code" : "599",
+            "display" : "Analyse toxicologique"
+          },
+          {
+            "code" : "600",
+            "display" : "Prise en charge des malaises et surdoses liés à la prise de drogues"
+          },
+          {
+            "code" : "601",
+            "display" : "Médiation pour le maintien en hospitalisation"
+          },
+          {
+            "code" : "603",
+            "display" : "Prise en charge coordonnée des patients atteints de maladies neurodégénératives"
           }
         ]
       }

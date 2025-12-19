@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J183-Diplome-EPARS/FHIR/JDV-J183-Diplome-EPARS | *Version*:20250917120000 | |
-| Active as of 2025-09-17 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J183_Diplome_EPARS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J183-Diplome-EPARS/FHIR/JDV-J183-Diplome-EPARS | *Version*:20251222120000 | |
+| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J183_Diplome_EPARS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.240 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J183-Diplome-EPARS",
   "meta" : {
-    "versionId" : "12",
-    "lastUpdated" : "2025-10-02T19:01:59.632+02:00",
+    "versionId" : "13",
+    "lastUpdated" : "2025-12-18T16:47:44.814+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
@@ -77,11 +77,11 @@ Requête sur le SMT
       "value" : "urn:oid:1.2.250.1.213.1.6.1.240"
     }
   ],
-  "version" : "20250917120000",
+  "version" : "20251222120000",
   "name" : "JDV_J183_Diplome_EPARS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-09-17T12:00:00+01:00",
+  "date" : "2025-12-22T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Diplômes pour l'application EPARS",
   "jurisdiction" : [
@@ -146,23 +146,23 @@ Requête sur le SMT
           },
           {
             "code" : "DIP324",
-            "display" : "Licence + Master mention clinique, psychopatho et psycho santé + Attest stage"
+            "display" : "Licence + Master mention psychologie clinique, psychopatho et psycho santé + Attest stage"
           },
           {
             "code" : "DIP325",
-            "display" : "Licence + Master mention sociale, du travail et des organisations + Attest stage"
+            "display" : "Licence + Master mention psychologie sociale, du travail et des organisations + Attest stage"
           },
           {
             "code" : "DIP326",
-            "display" : "Licence + Master mention éducation et de la formation + Attest stage"
+            "display" : "Licence + Master mention psychologie de l'éducation et de la formation + Attest stage"
           },
           {
             "code" : "DIP327",
-            "display" : "Licence + Master mention psychopatho clinique psychanalytique + Attest stage"
+            "display" : "Licence + Master mention psychologie: psychopatho clinique psychanalytique + Attest stage"
           },
           {
             "code" : "DIP328",
-            "display" : "Master de Psychanalyse"
+            "display" : "Diplôme de niveau Master en psychanalyse"
           },
           {
             "code" : "DIP329",

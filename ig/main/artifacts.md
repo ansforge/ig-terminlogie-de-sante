@@ -645,7 +645,7 @@ These define sets of codes used by systems conforming to this implementation gui
 | [JDV_J279_Loinc_UPNOS](ValueSet-JDV-J279-Loinc-UPNOS.md) | Termes LOINC utilisés |
 | [JDV_J27_GroupeTarifaireDependance_ROR](ValueSet-JDV-J27-GroupeTarifaireDependance-ROR.md) | Niveau de dépendance associé à un tarif d’un ESMS - ROR |
 | [JDV_J280_CIM10ATIH_UPNOS](ValueSet-JDV-J280-CIM10ATIH-UPNOS.md) | Termes CIM 10 utilisés |
-| [JDV_J281_StatutsRessourcesMS](ValueSet-JDV-J281-StatutsRessourcesMS.md) | Statut de l’évaluation et des événements |
+| [JDV_J281_StatutsRessourcesMS](ValueSet-JDV-J281-StatutsRessourcesMS.md) | Caractérise le statut d’une ressource du médico-social au cours de son cycle de vie. |
 | [JDV_J282_TransportsLiesAuProjetIndividuel_SERAFIN](ValueSet-JDV-J282-TransportsLiesAuProjetIndividuel-SERAFIN.md) | Liste les natures des transports liés au projet individuel provenant de la terminologie SERAFIN |
 | [JDV_J283_PrestationsIndirects_SERAFIN](ValueSet-JDV-J283-PrestationsIndirects-SERAFIN.md) | Liste des prestations indirects provenant de la terminologie SERAFIN |
 | [JDV_J284_PrestationsDirects_SERAFIN](ValueSet-JDV-J284-PrestationsDirects-SERAFIN.md) | Liste des prestations directs provenant de la terminologie SERAFIN |
@@ -723,6 +723,7 @@ These define sets of codes used by systems conforming to this implementation gui
 | [Jdv J367 Type Projet Personnalise Ms](ValueSet-jdv-j367-type-projet-personnalise-ms.md) | Cette nomenclature donne le type de projet personnalisé qui est un document co-construit par l’usager, son entourage familial et professionnel du médico-social. |
 | [Jdv J368 Categorie Etablissement Cisis](ValueSet-jdv-j368-categorie-etablissement-cisis.md) | JDV à l’image de l’ensemble des valeurs actives de la terminologie TRE_R66-CategorieEtablissement |
 | [Jdv J370 Type Contrat Sejour Ms](ValueSet-jdv-j370-type-contrat-sejour-ms.md) | Type de contrat conclu entre l’établissement/service et la personne/son représentant légal. |
+| [Jdv J383 Motif Cloture Exercice Professionnel Epars](ValueSet-jdv-j383-motif-cloture-exercice-professionnel-epars.md) | Ce jeu de valeur liste les différents motifs qui peuvent justifier la clôture d’un exercice professionnel. |
 | [Jdv Mediatype Corps Cda Non Structure CISIS](ValueSet-jdv-mediatype-corps-cda-non-structure-cisis.md) | Jdv Mediatype Corps Cda Non Structure CISIS |
 | [Jdv Modele Document CDA CISIS](ValueSet-jdv-modele-document-cda-cisis.md) | Jdv Modele Document CDA CISIS |
 | [Jdv Modele Document CDA Non Structure CISIS](ValueSet-jdv-modele-document-cda-non-structure-cisis.md) | Jdv Modele Document CDA Non Structure CISIS |

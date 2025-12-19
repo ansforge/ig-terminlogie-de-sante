@@ -57,8 +57,8 @@ Expansions are not generated for retired value sets
   "resourceType" : "ValueSet",
   "id" : "JDV-J148-ReferenceRangeAppliesTo-CISIS",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2025-07-02T17:05:09.667+00:00",
+    "versionId" : "8",
+    "lastUpdated" : "2025-12-18T16:47:38.914+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
@@ -116,8 +116,7 @@ Expansions are not generated for retired value sets
         "system" : "http://snomed.info/sct",
         "concept" : [
           {
-            "code" : "77386006",
-            "display" : "enceinte"
+            "code" : "77386006"
           }
         ]
       }

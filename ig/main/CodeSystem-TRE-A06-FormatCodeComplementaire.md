@@ -29,8 +29,8 @@ formatCode en complément des nomenclatures internationales
   "resourceType" : "CodeSystem",
   "id" : "TRE-A06-FormatCodeComplementaire",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2025-11-04T20:11:52.054+01:00",
+    "versionId" : "9",
+    "lastUpdated" : "2025-12-18T16:42:34.110+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
@@ -73,16 +73,19 @@ formatCode en complément des nomenclatures internationales
   "property" : [
     {
       "code" : "dateValid",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
       "description" : "date de validité d'un code concept",
       "type" : "dateTime"
     },
     {
       "code" : "dateMaj",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
       "description" : "Date de mise à jour d'un code concept",
       "type" : "dateTime"
     },
     {
       "code" : "dateFin",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
       "description" : "Date de fin d'exploitation d'un code concept",
       "type" : "dateTime"
     },
@@ -1902,7 +1905,7 @@ formatCode en complément des nomenclatures internationales
         },
         {
           "code" : "status",
-          "valueCode" : "adeprecated"
+          "valueCode" : "deprecated"
         },
         {
           "code" : "deprecationDate",

@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J155-MethodGlucoseSanguin-ENS",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T17:05:13.803+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2025-12-18T16:47:40.228+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
@@ -109,8 +109,7 @@ Requête sur le SMT
         "system" : "http://snomed.info/sct",
         "concept" : [
           {
-            "code" : "82078001",
-            "display" : "prélèvement d'un échantillon sanguin pour le laboratoire"
+            "code" : "82078001"
           }
         ]
       }

@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement | *Version*:20250918120000 | |
-| Active as of 2025-09-18 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R212_Equipement |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement | *Version*:20251222120000 | |
+| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R212_Equipement |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.10 | | |
 
  
@@ -29,8 +29,8 @@ Equipement
   "resourceType" : "CodeSystem",
   "id" : "TRE-R212-Equipement",
   "meta" : {
-    "versionId" : "21",
-    "lastUpdated" : "2025-10-02T20:13:42.712+02:00",
+    "versionId" : "22",
+    "lastUpdated" : "2025-12-18T16:42:45.341+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
@@ -50,11 +50,11 @@ Equipement
       "value" : "urn:oid:1.2.250.1.213.3.3.10"
     }
   ],
-  "version" : "20250918120000",
+  "version" : "20251222120000",
   "name" : "TRE_R212_Equipement",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-09-18T12:00:00+01:00",
+  "date" : "2025-12-22T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Equipement",
   "jurisdiction" : [
@@ -69,20 +69,23 @@ Equipement
   ],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 233,
+  "count" : 235,
   "property" : [
     {
       "code" : "dateValid",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
       "description" : "date de validité d'un code concept",
       "type" : "dateTime"
     },
     {
       "code" : "dateMaj",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
       "description" : "Date de mise à jour d'un code concept",
       "type" : "dateTime"
     },
     {
       "code" : "dateFin",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
       "description" : "Date de fin d'exploitation d'un code concept",
       "type" : "dateTime"
     },
@@ -5110,6 +5113,42 @@ Equipement
         {
           "code" : "finess",
           "valueBoolean" : true
+        }
+      ]
+    },
+    {
+      "code" : "234",
+      "display" : "Espace de consommation de drogues injectables",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T00:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T00:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "235",
+      "display" : "Espace de consommation de drogues à fumer",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2025-12-22T00:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2025-12-22T00:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
         }
       ]
     }

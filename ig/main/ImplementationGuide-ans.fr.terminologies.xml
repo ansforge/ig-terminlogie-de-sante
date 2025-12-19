@@ -11,7 +11,7 @@
   <name value="Terminologies"/>
   <title value="Terminologies  de Santé"/>
   <status value="active"/>
-  <date value="2025-12-18T04:35:19+00:00"/>
+  <date value="2025-12-19T04:35:39+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -20508,6 +20508,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-j383-motif-cloture-exercice-professionnel-epars"/>
+      </reference>
+      <name value="Jdv J383 Motif Cloture Exercice Professionnel Epars"/>
+      <description value="Ce jeu de valeur liste les différents motifs qui peuvent justifier la clôture d'un exercice professionnel."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/JDV-J69-ActiviteOperationnelle-Santefr"/>
       </reference>
       <name value="JDV J69 ActiviteOperationnelle Santefr"/>
@@ -25659,7 +25670,7 @@
         <reference value="ValueSet/JDV-J281-StatutsRessourcesMS"/>
       </reference>
       <name value="JDV_J281_StatutsRessourcesMS"/>
-      <description value="Statut de l'évaluation et des événements"/>
+      <description value="Caractérise le statut d’une ressource du médico-social au cours de son cycle de vie."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -27522,7 +27533,7 @@
         <reference value="CodeSystem/TRE-R210-ActeSpecifique"/>
       </reference>
       <name value="TRE_R210_ActeSpecifique"/>
-      <description value="Un acte spécifique est une action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé. Les actes réalisés habituellement par ce type d'organisation ne sont pas des actes spécifiques. Les actes spécifiques décrits sont réalisés avec les ressources propres de l’organisation ou via des ressources mises à disposition dans le cadre d’une convention à la condition que ces ressources interviennent sur site dans la réalisation de la prestation."/>
+      <description value="Un acte spécifique est une action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé. Les actes réalisés habituellement par ce type d’organisation ne sont pas des actes spécifiques. Les actes spécifiques décrits sont réalisés avec les ressources propres de l’organisation ou via des ressources mises à disposition dans le cadre d’une convention à la condition que ces ressources interviennent sur site dans la réalisation de la prestation."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

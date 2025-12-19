@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J255-SurspecialiteTransversale-RPPS/FHIR/JDV-J255-SurspecialiteTransversale-RPPS | *Version*:20240329120000 | |
-| Active as of 2024-03-29 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J255_SurspecialiteTransversale_RPPS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J255-SurspecialiteTransversale-RPPS/FHIR/JDV-J255-SurspecialiteTransversale-RPPS | *Version*:20251222120000 | |
+| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J255_SurspecialiteTransversale_RPPS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.282 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J255-SurspecialiteTransversale-RPPS",
   "meta" : {
-    "versionId" : "3",
-    "lastUpdated" : "2025-07-02T17:06:13.158+00:00",
+    "versionId" : "4",
+    "lastUpdated" : "2025-12-18T16:47:48.763+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
@@ -77,11 +77,11 @@ Requête sur le SMT
       "value" : "urn:oid:1.2.250.1.213.1.6.1.282"
     }
   ],
-  "version" : "20240329120000",
+  "version" : "20251222120000",
   "name" : "JDV_J255_SurspecialiteTransversale_RPPS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2024-03-29T12:00:00+01:00",
+  "date" : "2025-12-22T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Surspécialité (compétence) acquise par l'interne à l'issue d'une Formation Spécialisée Transversale (FST)",
   "jurisdiction" : [
@@ -202,6 +202,10 @@ Requête sur le SMT
           {
             "code" : "SST26",
             "display" : "Urgences pédiatriques"
+          },
+          {
+            "code" : "SST27",
+            "display" : "Innovation et recherche en sciences biologiques et pharmaceutiques"
           }
         ]
       }

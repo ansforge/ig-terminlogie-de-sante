@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J198-FonctionLieu-ROR/FHIR/JDV-J198-FonctionLieu-ROR | *Version*:20251017120000 | |
-| Active as of 2025-10-17 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J198_FonctionLieu_ROR |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J198-FonctionLieu-ROR/FHIR/JDV-J198-FonctionLieu-ROR | *Version*:20251222120000 | |
+| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J198_FonctionLieu_ROR |
 | *Other Identifiers:*OID:1.2.250.1.213.3.4.30 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J198-FonctionLieu-ROR",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2025-11-04T19:02:03.306+01:00",
+    "versionId" : "9",
+    "lastUpdated" : "2025-12-18T16:47:45.966+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
@@ -77,11 +77,11 @@ Requête sur le SMT
       "value" : "urn:oid:1.2.250.1.213.3.4.30"
     }
   ],
-  "version" : "20251017120000",
+  "version" : "20251222120000",
   "name" : "JDV_J198_FonctionLieu_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-10-17T12:00:00+01:00",
+  "date" : "2025-12-22T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Destination d'usage du lieu pour le lieu de réalisation de l'offre.",
   "jurisdiction" : [
@@ -154,6 +154,62 @@ Requête sur le SMT
           {
             "code" : "014",
             "display" : "Bloc obstétrical"
+          },
+          {
+            "code" : "015",
+            "display" : "Local de cabinet de ville d'ergothérapie"
+          },
+          {
+            "code" : "016",
+            "display" : "Local de cabinet de ville de diététique"
+          },
+          {
+            "code" : "017",
+            "display" : "Local de cabinet dentaire ou de stomatologie"
+          },
+          {
+            "code" : "018",
+            "display" : "Local de cabinet de ville de kinésithérapie"
+          },
+          {
+            "code" : "019",
+            "display" : "Local de cabinet de ville infirmier"
+          },
+          {
+            "code" : "020",
+            "display" : "Local de cabinet de ville de maïeutique"
+          },
+          {
+            "code" : "021",
+            "display" : "Local de cabinet de ville d’oto-rhino-laryngologie (ORL)"
+          },
+          {
+            "code" : "022",
+            "display" : "Local de cabinet de ville de cardiologie"
+          },
+          {
+            "code" : "023",
+            "display" : "Local de cabinet de ville de médecine générale"
+          },
+          {
+            "code" : "024",
+            "display" : "Local de cabinet de ville de Médecine Physique et de Réadaptation (MPR)"
+          },
+          {
+            "code" : "025",
+            "display" : "Local de cabinet de ville de rhumatologie"
+          },
+          {
+            "code" : "026",
+            "display" : "Local de cabinet de ville de pédiatrie"
+          },
+          {
+            "code" : "027",
+            "display" : "Local de cabinet de ville d’ophtalmologie"
+          },
+          {
+            "code" : "028",
+            "display" : "Local de cabinet de ville de pneumologie"
           }
         ]
       }

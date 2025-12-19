@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J16-ActeSpecifique-ROR/FHIR/JDV-J16-ActeSpecifique-ROR | *Version*:20251017120000 | |
-| Active as of 2025-10-17 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J16_ActeSpecifique_ROR |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J16-ActeSpecifique-ROR/FHIR/JDV-J16-ActeSpecifique-ROR | *Version*:20251222120000 | |
+| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J16_ActeSpecifique_ROR |
 | *Other Identifiers:*OID:1.2.250.1.213.3.4.4 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J16-ActeSpecifique-ROR",
   "meta" : {
-    "versionId" : "26",
-    "lastUpdated" : "2025-11-04T19:02:00.494+01:00",
+    "versionId" : "27",
+    "lastUpdated" : "2025-12-18T18:32:34.152+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
@@ -77,11 +77,11 @@ Requête sur le SMT
       "value" : "urn:oid:1.2.250.1.213.3.4.4"
     }
   ],
-  "version" : "20251017120000",
+  "version" : "20251222120000",
   "name" : "JDV_J16_ActeSpecifique_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-10-17T12:00:00+01:00",
+  "date" : "2025-12-22T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Acte spécifique - ROR",
   "jurisdiction" : [
@@ -1221,11 +1221,11 @@ Requête sur le SMT
           },
           {
             "code" : "0523",
-            "display" : "Sevrage simple"
+            "display" : "Sevrage à faible risque de complication médicale (sevrage simple)"
           },
           {
             "code" : "0524",
-            "display" : "Sevrage complexe"
+            "display" : "Sevrage à fort risque de complication médicale (sevrage complexe)"
           },
           {
             "code" : "0525",
@@ -2301,11 +2301,11 @@ Requête sur le SMT
           },
           {
             "code" : "0849",
-            "display" : "Suivi cardiologique avec organisation de la prise en charge"
+            "display" : "Coordination pour assurer le suivi cardiologique avec organisation de la prise en charge"
           },
           {
             "code" : "0850",
-            "display" : "Suivi gynécologique avec organisation de la prise en charge"
+            "display" : "Coordination pour assurer le suivi gynécologique avec organisation de la prise en charge"
           },
           {
             "code" : "0851",
@@ -2349,7 +2349,7 @@ Requête sur le SMT
           },
           {
             "code" : "0861",
-            "display" : "Dépistage et suivi des pathologies endocriniennes"
+            "display" : "Dépistage et suivi biologique des pathologies endocriniennes"
           },
           {
             "code" : "0862",
@@ -2438,10 +2438,6 @@ Requête sur le SMT
           {
             "code" : "0886",
             "display" : "Soins permanents continus par délégation / Présence aide-soignant de nuit"
-          },
-          {
-            "code" : "0887",
-            "display" : "Chirurgie sénologique"
           },
           {
             "code" : "0888",
@@ -2605,11 +2601,11 @@ Requête sur le SMT
           },
           {
             "code" : "0965",
-            "display" : "Réadaptation du cancer du sein"
+            "display" : "Rééducation du cancer du sein"
           },
           {
             "code" : "0966",
-            "display" : "Réadaptation des cicatrices"
+            "display" : "Rééducation des cicatrices"
           },
           {
             "code" : "0967",
@@ -2617,7 +2613,7 @@ Requête sur le SMT
           },
           {
             "code" : "0968",
-            "display" : "Réadaptation de la main"
+            "display" : "Rééducation de la main"
           },
           {
             "code" : "0969",
@@ -2633,7 +2629,7 @@ Requête sur le SMT
           },
           {
             "code" : "0972",
-            "display" : "Réadaptation maxillo-faciale"
+            "display" : "Rééducation maxillo-faciale"
           },
           {
             "code" : "0973",
@@ -2641,7 +2637,7 @@ Requête sur le SMT
           },
           {
             "code" : "0974",
-            "display" : "Réadaptation de la Mucoviscidose"
+            "display" : "Rééducation de la Mucoviscidose"
           },
           {
             "code" : "0975",
@@ -2797,7 +2793,7 @@ Requête sur le SMT
           },
           {
             "code" : "1013",
-            "display" : "Vaccination contre les infections sexuellement transmissible (IST)"
+            "display" : "Vaccination contre les infections sexuellement transmissibles (IST)"
           },
           {
             "code" : "1014",
@@ -3273,7 +3269,7 @@ Requête sur le SMT
           },
           {
             "code" : "1135",
-            "display" : "Angio IRM cérébral"
+            "display" : "Angio IRM cérébrale"
           },
           {
             "code" : "1136",
@@ -3489,7 +3485,7 @@ Requête sur le SMT
           },
           {
             "code" : "1191",
-            "display" : "Embolisation cérébrale anévrisme MAV"
+            "display" : "Embolisation cérébrale anévrisme Malformation Antéro Veineuse (MAV)"
           },
           {
             "code" : "1192",
@@ -3601,7 +3597,7 @@ Requête sur le SMT
           },
           {
             "code" : "1220",
-            "display" : "IRM CAI et APC"
+            "display" : "IRM Conduit Auditif Interne (CAI) et Angle Ponto-Cérébelleux (APC)"
           },
           {
             "code" : "1221",
@@ -3769,7 +3765,7 @@ Requête sur le SMT
           },
           {
             "code" : "1262",
-            "display" : "Scanner pré TAVI"
+            "display" : "Scanner pré Implantation d'une valve aortique par voie percutanée (TAVI)"
           },
           {
             "code" : "1263",
@@ -4477,7 +4473,7 @@ Requête sur le SMT
           },
           {
             "code" : "1454",
-            "display" : "Evaluation et suivi standardisé clinique et paraclinique des commotions cérébrales (Traumatisme Crânien Léger - TCL)"
+            "display" : "Evaluation et suivi standardisé clinique et paraclinique des commotions cérébrales (Traumatisme Crânien Léger - TCL) dans un cadre sportif"
           },
           {
             "code" : "1455",
@@ -4525,7 +4521,7 @@ Requête sur le SMT
           },
           {
             "code" : "1467",
-            "display" : "Examen visuel du sportif"
+            "display" : "Evaluation de la vue du sportif"
           },
           {
             "code" : "1468",
@@ -4565,15 +4561,15 @@ Requête sur le SMT
           },
           {
             "code" : "1478",
-            "display" : "Réadaptation des migraines et céphalées"
+            "display" : "Rééducation des migraines et céphalées"
           },
           {
             "code" : "1479",
-            "display" : "Réadaptation abdominale du post partum"
+            "display" : "Rééducation abdominale du post partum"
           },
           {
             "code" : "1480",
-            "display" : "Réadaptation abdominale préopératoire et post opératoire"
+            "display" : "Rééducation abdominale préopératoire et post opératoire"
           },
           {
             "code" : "1481",
@@ -4878,6 +4874,78 @@ Requête sur le SMT
           {
             "code" : "1556",
             "display" : "Rééducation des paralysies cérébrales et polyhandicaps"
+          },
+          {
+            "code" : "1557",
+            "display" : "Prise en charge de bébé grand prématuré (< 28 SA)"
+          },
+          {
+            "code" : "1558",
+            "display" : "Veille sanitaire et analyse de produit in situ"
+          },
+          {
+            "code" : "1559",
+            "display" : "Evaluation et suivi des addictions liées au cannabis et cannabinoïdes"
+          },
+          {
+            "code" : "1560",
+            "display" : "Evaluation et suivi des addictions liées aux psychostimulants (cocaïne, crack, dérivés des amphétamines, ecstasy, MDMA, cathinones de synthèse…)"
+          },
+          {
+            "code" : "1561",
+            "display" : "Evaluation et suivi des addictions liées aux opiacés (héroïne, morphinique)"
+          },
+          {
+            "code" : "1562",
+            "display" : "Evaluation et suivi des addictions liées aux autres substances (hallucinogènes, champignons, LSD, kétamine)"
+          },
+          {
+            "code" : "1563",
+            "display" : "Evaluation et suivi des addictions liées aux benzodiazépines et autres sédatifs"
+          },
+          {
+            "code" : "1564",
+            "display" : "Evaluation et suivi des addictions liées au chemsex (cathinones de synthèse, poppers, etc)"
+          },
+          {
+            "code" : "1570",
+            "display" : "Rééducation vésico-sphinctérienne"
+          },
+          {
+            "code" : "1571",
+            "display" : "Rééducation anorectale"
+          },
+          {
+            "code" : "1572",
+            "display" : "Rééducation des troubles de la déglutition"
+          },
+          {
+            "code" : "1573",
+            "display" : "Rééducation post-COVID (COVID long)"
+          },
+          {
+            "code" : "1574",
+            "display" : "Centre Ressources Autisme (CRA)"
+          },
+          {
+            "code" : "1575",
+            "display" : "Centre de référence des Troubles du Langage et de l’Apprentissage (CRTLA)"
+          },
+          {
+            "code" : "1576",
+            "display" : "Centre de référence du Trouble Déficit de l’Attention avec ou sans Hyperactivité (CRTDAH)"
+          },
+          {
+            "code" : "1577",
+            "display" : "Centre de compétence centre mémoire ressources et recherche (CMRR)"
+          },
+          {
+            "code" : "1578",
+            "display" : "Centre expert Parkinson"
+          },
+          {
+            "code" : "1579",
+            "display" : "Centre de ressources et de compétences sclérose en plaques (SEP)"
           }
         ]
       }

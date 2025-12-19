@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire | *Version*:20240223120000 | |
-| Active as of 2024-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R74_ModeFixationTarifaire |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire | *Version*:20251222120000 | |
+| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R74_ModeFixationTarifaire |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.46 | | |
 
  
@@ -28,8 +28,8 @@ Mode de fixation tarifaire
   "resourceType" : "CodeSystem",
   "id" : "TRE-R74-ModeFixationTarifaire",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2025-07-02T18:18:46.131+00:00",
+    "versionId" : "8",
+    "lastUpdated" : "2025-12-18T16:42:53.059+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
@@ -49,11 +49,11 @@ Mode de fixation tarifaire
       "value" : "urn:oid:1.2.250.1.213.1.6.1.46"
     }
   ],
-  "version" : "20240223120000",
+  "version" : "20251222120000",
   "name" : "TRE_R74_ModeFixationTarifaire",
   "status" : "active",
   "experimental" : false,
-  "date" : "2024-02-23T12:00:00+01:00",
+  "date" : "2025-12-22T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Mode de fixation tarifaire",
   "jurisdiction" : [
@@ -68,19 +68,23 @@ Mode de fixation tarifaire
   ],
   "caseSensitive" : false,
   "content" : "complete",
+  "count" : 52,
   "property" : [
     {
       "code" : "dateValid",
-      "description" : "date de validité d'un code concept",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
+      "description" : "Date de validité d'un code concept",
       "type" : "dateTime"
     },
     {
       "code" : "dateMaj",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
       "description" : "Date de mise à jour d'un code concept",
       "type" : "dateTime"
     },
     {
       "code" : "dateFin",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
       "description" : "Date de fin d'exploitation d'un code concept",
       "type" : "dateTime"
     },
@@ -1614,7 +1618,7 @@ Mode de fixation tarifaire
     },
     {
       "code" : "57",
-      "display" : "ARS /ARS PCD Dotation forfait ou prix de journée globalisés (CPOM)",
+      "display" : "Dotation globale de soins ARS et hébergement prix de journée PCD – sous CPOM",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1622,7 +1626,7 @@ Mode de fixation tarifaire
             "system" : "http://snomed.info/sct",
             "code" : "900000000000013009"
           },
-          "value" : "ARS/ARS PCD Dot.Glob"
+          "value" : "DGS ARS & hébergement PCD – sous CPOM"
         }
       ],
       "property" : [
@@ -1632,7 +1636,7 @@ Mode de fixation tarifaire
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2020-01-31T12:00:00+01:00"
+          "valueDateTime" : "2025-12-22T12:00:00+01:00"
         },
         {
           "code" : "status",

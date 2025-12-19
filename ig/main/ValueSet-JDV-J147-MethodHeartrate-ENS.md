@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J147-MethodHeartrate-ENS",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T17:05:09.126+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2025-12-18T16:47:38.528+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
@@ -121,8 +121,7 @@ Requête sur le SMT
         "system" : "http://snomed.info/sct",
         "concept" : [
           {
-            "code" : "8499008",
-            "display" : "pouls"
+            "code" : "8499008"
           }
         ]
       }

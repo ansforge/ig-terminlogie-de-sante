@@ -57,7 +57,7 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R11_CiviliteExercice](CodeSystem-TRE-R11-CiviliteExercice.md) | Civilité d'exercice | 15/12/2023 |
 | [TRE_R13_CommuneOM](CodeSystem-TRE-R13-CommuneOM.md) |  | 28/06/2024 |
 | [TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md) | Type de diplôme | 29/03/2024 |
-| [TRE_R16_LieuFormation](CodeSystem-TRE-R16-LieuFormation.md) | Lieu de formation | 16/10/2025 |
+| [TRE_R16_LieuFormation](CodeSystem-TRE-R16-LieuFormation.md) | Lieu de formation | 22/12/2025 |
 | [TRE_R17_TypeAutorisation](CodeSystem-TRE-R17-TypeAutorisation.md) | Type d'autorisation | 23/05/2025 |
 | [TRE_R18_DisciplineAutorisation](CodeSystem-TRE-R18-DisciplineAutorisation.md) | Discipline d'autorisation | 15/12/2023 |
 | [TRE_R20_Pays](CodeSystem-TRE-R20-Pays.md) | Référentiel des codes pays provenant du COG INSEE | 28/03/2025 |
@@ -90,26 +90,26 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R55_CertificatEtudeSpeciale](CodeSystem-TRE-R55-CertificatEtudeSpeciale.md) | Certificat d'Etude Spéciale | 15/12/2023 |
 | [TRE_R56_Attestation](CodeSystem-TRE-R56-Attestation.md) | Attestation | 29/03/2024 |
 | [TRE_R57_DiplomeEuropeenEtudeSpecialisee](CodeSystem-TRE-R57-DiplomeEuropeenEtudeSpecialisee.md) | Diplôme Européen d'Etudes Spécialisées | 15/12/2023 |
-| [TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md) | Autre type de diplôme | 28/08/2025 |
+| [TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md) | Autre type de diplôme | 22/12/2025 |
 | [TRE_R60_AutoriteEnregistrement](CodeSystem-TRE-R60-AutoriteEnregistrement.md) | Autorité d'enregistrement | 28/06/2024 |
 | [TRE_R62_Domaine](CodeSystem-TRE-R62-Domaine.md) | Domaine | 15/12/2023 |
 | [TRE_R63_AgregatCategorieEtablissementNiv1](CodeSystem-TRE-R63-AgregatCategorieEtablissementNiv1.md) | Agrégats de catégories d'établissements niveau 1 | 15/12/2023 |
 | [TRE_R64_AgregatCategorieEtablissementNiv2](CodeSystem-TRE-R64-AgregatCategorieEtablissementNiv2.md) | Agrégats de catégories d'établissements niveau 2 | 15/12/2023 |
 | [TRE_R65_AgregatCategorieEtablissement](CodeSystem-TRE-R65-AgregatCategorieEtablissement.md) | Agrégat de catégories d'établissements | 28/02/2025 |
-| [TRE_R66_CategorieEtablissement](CodeSystem-TRE-R66-CategorieEtablissement.md) | Catégorie d'établissements | 25/04/2025 |
+| [TRE_R66_CategorieEtablissement](CodeSystem-TRE-R66-CategorieEtablissement.md) | Catégorie d'établissements | 22/12/2025 |
 | [TRE_R67_TypeStructure_EJ_EG](CodeSystem-TRE-R67-TypeStructure-EJ-EG.md) | Type de structure | 15/12/2023 |
 | [TRE_R68_FinessAgregatStatutJuridiqueNiv1](CodeSystem-TRE-R68-FinessAgregatStatutJuridiqueNiv1.md) | Agrégats de statuts juridiques FINESS niveau 1 | 15/12/2023 |
 | [TRE_R69_FinessAgregatStatutJuridiqueNiv2](CodeSystem-TRE-R69-FinessAgregatStatutJuridiqueNiv2.md) | Agrégats de statuts juridiques FINESS niveau 2 | 15/12/2023 |
 | [TRE_R70_FinessAgregatStatutJuridique](CodeSystem-TRE-R70-FinessAgregatStatutJuridique.md) | Agrégat de statuts juridiques FINESS | 15/12/2023 |
 | [TRE_R72_FinessStatutJuridique](CodeSystem-TRE-R72-FinessStatutJuridique.md) | Statuts juridiques provenant de FINESS, excepté pour les codes 000 et 100 à 110 qui ont été ajoutés pour les besoins du RPPS en 2017. | 29/03/2024 |
 | [TRE_R73_ESPIC](CodeSystem-TRE-R73-ESPIC.md) | Etablissement de santé privé d'intérêt collectif | 15/12/2023 |
-| [TRE_R74_ModeFixationTarifaire](CodeSystem-TRE-R74-ModeFixationTarifaire.md) | Mode de fixation tarifaire | 23/02/2024 |
+| [TRE_R74_ModeFixationTarifaire](CodeSystem-TRE-R74-ModeFixationTarifaire.md) | Mode de fixation tarifaire | 22/12/2025 |
 | [TRE_R75_InseeNAFrev2Niveau5](CodeSystem-TRE-R75-InseeNAFrev2Niveau5.md) | Sous-classes de la Nomenclature d'Activités Française - INSEE | 15/12/2023 |
 | [TRE_R78_ProfilAccesReferentiel](CodeSystem-TRE-R78-ProfilAccesReferentiel.md) | Profil d'accès aux référentiels | 23/05/2025 |
 | [TRE_R81_Civilite](CodeSystem-TRE-R81-Civilite.md) | Civilité | 15/12/2023 |
 | [TRE_R82_Ordre](CodeSystem-TRE-R82-Ordre.md) | Ordre | 15/12/2023 |
 | [TRE_R84_ProfilAccesAnnuaire_MSSante](CodeSystem-TRE-R84-ProfilAccesAnnuaire-MSSante.md) | Profil d'accès à l'annuaire MSSante | 15/12/2023 |
-| [TRE_R85_RolePriseCharge](CodeSystem-TRE-R85-RolePriseCharge.md) | Rôle dans la prise en charge des patients ou des usagers | 19/09/2025 |
+| [TRE_R85_RolePriseCharge](CodeSystem-TRE-R85-RolePriseCharge.md) | Rôle dans la prise en charge des patients ou des usagers | 22/12/2025 |
 | [TRE_R86_ProfilVIHF](CodeSystem-TRE-R86-ProfilVIHF.md) | Profil VIHF d'accès | 15/12/2023 |
 | [TRE_R87_TypeCarte](CodeSystem-TRE-R87-TypeCarte.md) | Type de carte | 15/12/2023 |
 | [TRE_R88_TerritoireSante](CodeSystem-TRE-R88-TerritoireSante.md) | Territoire de Santé (au sens ARS) en France | 15/12/2023 |
@@ -129,17 +129,15 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R207_TypeOrganisationInterne](CodeSystem-TRE-R207-TypeOrganisationInterne.md) | Type organisation interne | 15/12/2023 |
 | [TRE_R208_ClasseAge](CodeSystem-TRE-R208-ClasseAge.md) | Classe d'âge | 15/12/2023 |
 | [TRE_R209_TypeActivite](CodeSystem-TRE-R209-TypeActivite.md) | Type d'activité | 23/02/2024 |
-| [TRE_R210_ActeSpecifique](CodeSystem-TRE-R210-ActeSpecifique.md) | Un acte spécifique est une action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé. Les actes réalisés habituellement par ce type d'organisation ne sont pas des actes spécifiques. Les actes spécifiques décrits sont réalisés avec les ressources propres de l’organisation ou via des ressources mises à disposition dans le cadre d’une convention à la condition que ces ressources interviennent sur site dans la réalisation de la prestation. | 17/10/2025 |
-| [TRE_R211_ActiviteOperationnelle](CodeSystem-TRE-R211-ActiviteOperationnelle.md) | Activite Operationnelle | 17/10/2025 |
-| [TRE_R212_Equipement](CodeSystem-TRE-R212-Equipement.md) | Equipement | 18/09/2025 |
-| [TRE_R213_ModePriseEnCharge](CodeSystem-TRE-R213-ModePriseEnCharge.md) | Mode de la prise en charge | 28/08/2025 |
+| [TRE_R210_ActeSpecifique](CodeSystem-TRE-R210-ActeSpecifique.md) | Un acte spécifique est une action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé. Les actes réalisés habituellement par ce type d’organisation ne sont pas des actes spécifiques. Les actes spécifiques décrits sont réalisés avec les ressources propres de l’organisation ou via des ressources mises à disposition dans le cadre d’une convention à la condition que ces ressources interviennent sur site dans la réalisation de la prestation. | 22/12/2025 |
+| [TRE_R211_ActiviteOperationnelle](CodeSystem-TRE-R211-ActiviteOperationnelle.md) | Activite Operationnelle | 22/12/2025 |
+| [TRE_R212_Equipement](CodeSystem-TRE-R212-Equipement.md) | Equipement | 22/12/2025 |
+| [TRE_R213_ModePriseEnCharge](CodeSystem-TRE-R213-ModePriseEnCharge.md) | Mode de la prise en charge | 22/12/2025 |
 | [TRE_R216_HL7RoleCode](CodeSystem-TRE-R216-HL7RoleCode.md) | HL7 roleCode | 13/12/2024 |
 | [TRE_R217_ProtectionJuridique](CodeSystem-TRE-R217-ProtectionJuridique.md) | Protection juridique | 15/12/2023 |
 | [TRE_R218_ModeAuthentification](CodeSystem-TRE-R218-ModeAuthentification.md) | Mode d'authentification | 15/12/2023 |
 | [TRE_R219_AutreResponsableConsent](CodeSystem-TRE-R219-AutreResponsableConsent.md) | Autre responsable consentement | 15/12/2023 |
 | [TRE_R220_ModeleDocumentCDAStructure](CodeSystem-TRE-R220-ModeleDocumentCDAStructure.md) | Identifiant des modèles de CDA structurés | 29/10/2025 |
-| [TRE_R221_ModeleDocumentCDANonStructure](CodeSystem-TRE-R221-ModeleDocumentCDANonStructure.md) | Identifiant des modèles de CDA non structurés | 15/12/2023 |
-| [TRE_R222_MediaTypeCorpsCDANonStructure](CodeSystem-TRE-R222-MediaTypeCorpsCDANonStructure.md) | Identifiant des modèles de CDA non structurés | 15/12/2023 |
 | [TRE_R223_NatCycleForm](CodeSystem-TRE-R223-NatCycleForm.md) | Nature du cycle de formation des étudiants | 15/12/2023 |
 | [TRE_R224_NiveauFormAcquis](CodeSystem-TRE-R224-NiveauFormAcquis.md) | Niveaux de formation acquis dans le cycle de formation des étudiants | 15/12/2023 |
 | [TRE_R225_AnneeUniversitaire](CodeSystem-TRE-R225-AnneeUniversitaire.md) | Année universitaire | 09/10/2025 |
@@ -157,7 +155,7 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R241_AideFinanciere](CodeSystem-TRE-R241-AideFinanciere.md) | Habilit. de l'EG permettant aux pers. accueillies d'avoir des aides financières | 15/12/2023 |
 | [TRE_R242_TypeHabitation](CodeSystem-TRE-R242-TypeHabitation.md) | Type habitation | 15/12/2023 |
 | [TRE_R243_CompetenceSpecifique](CodeSystem-TRE-R243-CompetenceSpecifique.md) | Compétence spécifique | 26/04/2024 |
-| [TRE_R244_CategorieOrganisation](CodeSystem-TRE-R244-CategorieOrganisation.md) | Catégorie d'organisation | 17/10/2025 |
+| [TRE_R244_CategorieOrganisation](CodeSystem-TRE-R244-CategorieOrganisation.md) | Catégorie d'organisation | 22/12/2025 |
 | [TRE_R245_SpecialisationDePriseEnCharge](CodeSystem-TRE-R245-SpecialisationDePriseEnCharge.md) | Spécialisation de prise en charge | 25/04/2025 |
 | [TRE_R246_TypeTarif](CodeSystem-TRE-R246-TypeTarif.md) | Type tarif | 15/12/2023 |
 | [TRE_R248_ModeAcces](CodeSystem-TRE-R248-ModeAcces.md) | Mode d'accès pour accéder à un SI santé avec données patients | 31/01/2025 |
@@ -239,14 +237,14 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R335_TypeSourceCapacite](CodeSystem-TRE-R335-TypeSourceCapacite.md) | Permet d'indiquer quel type de source est à l'origine de l'information de capacité | 15/12/2023 |
 | [TRE_R336_TypeCrise](CodeSystem-TRE-R336-TypeCrise.md) | Permet d'indiquer le type de crise qui permet de mobiliser le nombre de lits supplémentaires décrits | 15/12/2023 |
 | [TRE_R337_AffectationTemporaire](CodeSystem-TRE-R337-AffectationTemporaire.md) | Permet d'indiquer la réservation de tout ou partie des lits d'une zone d'hébergement pour des patients selon qu'ils soient -ou non- concernés par une pathologie (Covid+, Covid-, …) ou un évènement (catastrophe naturelle, attentat, …) | 15/12/2023 |
-| [TRE_R338_ModaliteAccueil](CodeSystem-TRE-R338-ModaliteAccueil.md) | Modalités d'accueil | 17/10/2025 |
+| [TRE_R338_ModaliteAccueil](CodeSystem-TRE-R338-ModaliteAccueil.md) | Modalités d'accueil | 22/12/2025 |
 | [TRE_R340_TypeCaracteristiqueEquipement](CodeSystem-TRE-R340-TypeCaracteristiqueEquipement.md) | Type de caractéristique de l'équipement | 29/03/2024 |
 | [TRE_R341_StatutCommunication](CodeSystem-TRE-R341-StatutCommunication.md) | Permet de donner une indication pour savoir une action doit être menée ou de son résultat lorsqu'elle a été menée | 15/12/2023 |
 | [TRE_R342_XdsTypesIdentifiantsReferenceId](CodeSystem-TRE-R342-XdsTypesIdentifiantsReferenceId.md) | Types d'identifiants utilisés dans la métadonnée XDS referenceIdList de la fiche du document. Ces types d'identifiants sont spécifiés dans une terminologie incluse dans le profil XDS dans le Cadre Technique d'IHE IT Infrastructure. | 15/12/2023 |
-| [TRE_R343_FonctionLieu](CodeSystem-TRE-R343-FonctionLieu.md) | Destination d'usage du lieu | 17/10/2025 |
-| [TRE_R344_NiveauExpertise](CodeSystem-TRE-R344-NiveauExpertise.md) | Le niveau d'expertise atteste du niveau de ressources humaines et matérielles engagées dans la réalisation de l'offre et défini dans un cahier des charges officiel. | 23/06/2025 |
+| [TRE_R343_FonctionLieu](CodeSystem-TRE-R343-FonctionLieu.md) | Destination d'usage du lieu | 22/12/2025 |
+| [TRE_R344_NiveauExpertise](CodeSystem-TRE-R344-NiveauExpertise.md) | Le niveau d'expertise atteste du niveau de ressources humaines et matérielles engagées dans la réalisation de l'offre et défini dans un cahier des charges officiel. | 22/12/2025 |
 | [TRE_R345_TypeIdentifiantAutre](CodeSystem-TRE-R345-TypeIdentifiantAutre.md) | Autre Type d'identifiant | 29/03/2024 |
-| [TRE_R348_FormationSpecialiseeTransversale](CodeSystem-TRE-R348-FormationSpecialiseeTransversale.md) | Formation Spécialisée Transversale (FST) | 15/12/2023 |
+| [TRE_R348_FormationSpecialiseeTransversale](CodeSystem-TRE-R348-FormationSpecialiseeTransversale.md) | Formation Spécialisée Transversale (FST) | 22/12/2025 |
 | [TRE_R349_ActionAnomalie](CodeSystem-TRE-R349-ActionAnomalie.md) | Action attendue dans le cadre de la gestion d'une anomalie | 15/12/2023 |
 | [TRE_R350_ThematiqueAnomalie](CodeSystem-TRE-R350-ThematiqueAnomalie.md) | Thématique caractérisant une anomalie | 15/12/2023 |
 | [TRE_R352_StatutMetierAnomalie](CodeSystem-TRE-R352-StatutMetierAnomalie.md) | Statut métier des anomalies | 15/12/2023 |
@@ -255,8 +253,8 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R356_ProfessionRessource](CodeSystem-TRE-R356-ProfessionRessource.md) | Profession Ressource | 18/09/2025 |
 | [TRE_R357_StatutPersonnePriseCharge](CodeSystem-TRE-R357-StatutPersonnePriseCharge.md) | Statut de la personne prise en charge. | 15/12/2023 |
 | [TRE_R358_MotifStatutPersonnePriseCharge](CodeSystem-TRE-R358-MotifStatutPersonnePriseCharge.md) | Motif du statut de la personne prise en charge | 15/12/2023 |
-| [TRE_R359_SurspecialiteTransversale](CodeSystem-TRE-R359-SurspecialiteTransversale.md) | Surspécialité (compétence) acquise par l'interne à l'issue d'une Formation Spécialisée Transversale (FST) | 31/05/2024 |
-| [TRE_R368_StatutRessource](CodeSystem-TRE-R368-StatutRessource.md) | Caractérise le statut d'une ressource du médico-social au cours de son cycle de vie | 19/09/2025 |
+| [TRE_R359_SurspecialiteTransversale](CodeSystem-TRE-R359-SurspecialiteTransversale.md) | Surspécialité (compétence) acquise par l'interne à l'issue d'une Formation Spécialisée Transversale (FST) | 22/12/2025 |
+| [TRE_R368_StatutRessource](CodeSystem-TRE-R368-StatutRessource.md) | Caractérise le statut d'une ressource du médico-social au cours de son cycle de vie | 22/12/2025 |
 | [TRE_R369_ProfilUtilisateurReferentielNational](CodeSystem-TRE-R369-ProfilUtilisateurReferentielNational.md) | Profils utilisateur d'un référentiel national | 28/03/2025 |
 | [TRE_R391_MotifRestrictionDiffusion](CodeSystem-TRE-R391-MotifRestrictionDiffusion.md) | Nomenclature contenant les motifs de restriction de diffusion | 25/04/2025 |
 

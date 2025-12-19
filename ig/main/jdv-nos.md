@@ -15,12 +15,13 @@ Vous touverez ici la liste des JDV du NOS.
 | [JdvJ367TypeProjetPersonnaliseMs](ValueSet-jdv-j367-type-projet-personnalise-ms.md) | Cette nomenclature donne le type de projet personnalisé qui est un document co-construit par l'usager, son entourage familial et professionnel du médico-social. | 15/04/2025 |
 | [JdvJ368CategorieEtablissementCisis](ValueSet-jdv-j368-categorie-etablissement-cisis.md) | JDV à l'image de l'ensemble des valeurs actives de la terminologie TRE_R66-CategorieEtablissement | 22/04/2025 |
 | [JdvJ370TypeContratSejourMs](ValueSet-jdv-j370-type-contrat-sejour-ms.md) | Type de contrat conclu entre l’établissement/service et la personne/son représentant légal. | 21/05/2025 |
+| [JdvJ383MotifClotureExerciceProfessionnelEpars](ValueSet-jdv-j383-motif-cloture-exercice-professionnel-epars.md) | Ce jeu de valeur liste les différents motifs qui peuvent justifier la clôture d'un exercice professionnel. | 22/12/2025 |
 | [RoleClassIngredientEntity](ValueSet-jdv-hl7-v3-RoleClassIngredientEntity-cisis.md) | RoleClassIngredientEntity | 16/12/2025 |
-| [JDV_J01_XdsAuthorSpecialty_CISIS](ValueSet-JDV-J01-XdsAuthorSpecialty-CISIS.md) | XDS authorSpecialty CI-SIS | 21/07/2025 |
+| [JDV_J01_XdsAuthorSpecialty_CISIS](ValueSet-JDV-J01-XdsAuthorSpecialty-CISIS.md) | XDS authorSpecialty CI-SIS | 22/12/2025 |
 | [JDV_J02_XdsHealthcareFacilityTypeCode_CISIS](ValueSet-JDV-J02-XdsHealthcareFacilityTypeCode-CISIS.md) | XDS healthcareFacilityTypeCode CI-SIS | 23/05/2025 |
 | [JDV_J03_XdsContentTypeCode_CISIS](ValueSet-JDV-J03-XdsContentTypeCode-CISIS.md) | XDS contentTypeCode CI-SIS | 23/05/2025 |
 | [JDV_J04_XdsPracticeSettingCode_CISIS](ValueSet-JDV-J04-XdsPracticeSettingCode-CISIS.md) | XDS practiceSettingCode CI-SIS | 27/09/2024 |
-| [JDV_J05_SubjectRole_CISIS](ValueSet-JDV-J05-SubjectRole-CISIS.md) | subjectRole CI-SIS | 28/10/2025 |
+| [JDV_J05_SubjectRole_CISIS](ValueSet-JDV-J05-SubjectRole-CISIS.md) | subjectRole CI-SIS | 22/12/2025 |
 | [JDV_J06_XdsClassCode_CISIS](ValueSet-JDV-J06-XdsClassCode-CISIS.md) | XDS classCode CI-SIS | 22/09/2023 |
 | [JDV_J07_XdsTypeCode_CISIS](ValueSet-JDV-J07-XdsTypeCode-CISIS.md) | XDS typeCode CI-SIS | 29/10/2025 |
 | [JDV_J08_XdsConfidentialityCode_CISIS](ValueSet-JDV-J08-XdsConfidentialityCode-CISIS.md) | XDS confidentialityCode - CI-SIS | 24/04/2020 |
@@ -29,10 +30,10 @@ Vous touverez ici la liste des JDV du NOS.
 | [JDV_J13_ResponsableConsent_CISIS](ValueSet-JDV-J13-ResponsableConsent-CISIS.md) | Responsable consentement - CI-SIS | 24/04/2020 |
 | [JDV_J14_QualiteRepresentantLegal_CISIS](ValueSet-JDV-J14-QualiteRepresentantLegal-CISIS.md) | Qualité représentant légal - CI-SIS | 13/12/2024 |
 | [JDV_J15_ClasseAge_ROR](ValueSet-JDV-J15-ClasseAge-ROR.md) | Classe d'âge - ROR | 24/04/2020 |
-| [JDV_J16_ActeSpecifique_ROR](ValueSet-JDV-J16-ActeSpecifique-ROR.md) | Acte spécifique - ROR | 17/10/2025 |
-| [JDV_J17_ActiviteOperationnelle_ROR](ValueSet-JDV-J17-ActiviteOperationnelle-ROR.md) | Activité Operationnelle - ROR | 17/10/2025 |
-| [JDV_J18_EquipementSpecifique_ROR](ValueSet-JDV-J18-EquipementSpecifique-ROR.md) | Equipement spécifique - ROR | 23/06/2025 |
-| [JDV_J19_ModePriseEnCharge_ROR](ValueSet-JDV-J19-ModePriseEnCharge-ROR.md) | Mode de la prise en charge - ROR | 28/08/2025 |
+| [JDV_J16_ActeSpecifique_ROR](ValueSet-JDV-J16-ActeSpecifique-ROR.md) | Acte spécifique - ROR | 22/12/2025 |
+| [JDV_J17_ActiviteOperationnelle_ROR](ValueSet-JDV-J17-ActiviteOperationnelle-ROR.md) | Activité Operationnelle - ROR | 22/12/2025 |
+| [JDV_J18_EquipementSpecifique_ROR](ValueSet-JDV-J18-EquipementSpecifique-ROR.md) | Equipement spécifique - ROR | 22/12/2025 |
+| [JDV_J19_ModePriseEnCharge_ROR](ValueSet-JDV-J19-ModePriseEnCharge-ROR.md) | Mode de la prise en charge - ROR | 22/12/2025 |
 | [JDV_J20_ChampActivite_ROR](ValueSet-JDV-J20-ChampActivite-ROR.md) | Champ d'activité - ROR | 30/10/2023 |
 | [JDV_J21_PalierAuthentificationActeurPP](ValueSet-JDV-J21-PalierAuthentificationActeurPP.md) | Palier du référentiel PGSSI-S d'authentification des professionnels | 24/04/2020 |
 | [JDV_J22_RestrictionAudienceVIHF_CISIS](ValueSet-JDV-J22-RestrictionAudienceVIHF-CISIS.md) | Restriction d'audience pour les traces des VIHF | 24/04/2020 |
@@ -46,7 +47,7 @@ Vous touverez ici la liste des JDV du NOS.
 | [JDV_J31_AideFinanciere_ROR](ValueSet-JDV-J31-AideFinanciere-ROR.md) | Jeu de valeur de la nomenclature des aides financières - ROR | 24/04/2020 |
 | [JDV_J32_TypeHabitation_ROR](ValueSet-JDV-J32-TypeHabitation-ROR.md) | Type habitation - ROR | 24/04/2020 |
 | [JDV_J33_CompetenceSpecifique_ROR](ValueSet-JDV-J33-CompetenceSpecifique-ROR.md) | Compétence spécifique - ROR | 26/04/2024 |
-| [JDV_J34_CategorieOrganisation_ROR](ValueSet-JDV-J34-CategorieOrganisation-ROR.md) | Catégorie d'organisation - ROR | 17/10/2025 |
+| [JDV_J34_CategorieOrganisation_ROR](ValueSet-JDV-J34-CategorieOrganisation-ROR.md) | Catégorie d'organisation - ROR | 22/12/2025 |
 | [JDV_J35_SpecialisationDePriseEnCharge_ROR](ValueSet-JDV-J35-SpecialisationDePriseEnCharge-ROR.md) | Spécialisation de prise en charge - ROR | 25/04/2025 |
 | [JDV_J36_TypeTarif_ROR](ValueSet-JDV-J36-TypeTarif-ROR.md) | Type tarif - ROR | 30/06/2023 |
 | [JDV_J37_UcumUniteTemps](ValueSet-JDV-J37-UcumUniteTemps.md) | UCUM - Unité de temps | 27/09/2024 |
@@ -62,7 +63,7 @@ Vous touverez ici la liste des JDV du NOS.
 | [JDV_J52_AvailabilityStatus_CISIS](ValueSet-JDV-J52-AvailabilityStatus-CISIS.md) | Statut du document CI-SIS | 24/04/2020 |
 | [JDV_J53_TypeRequeteGestionDossier_CISIS](ValueSet-JDV-J53-TypeRequeteGestionDossier-CISIS.md) | Code de requêtes de gestion de dossier CI-SIS | 24/04/2020 |
 | [JDV_J54_Profession_ROR](ValueSet-JDV-J54-Profession-ROR.md) | Profession de santé - ROR | 23/05/2025 |
-| [JDV_J55_CategorieEG_ROR](ValueSet-JDV-J55-CategorieEG-ROR.md) | Catégories d'établissements FINESS ou hors FINESS et secteurs d'activité des cabinets | 25/04/2025 |
+| [JDV_J55_CategorieEG_ROR](ValueSet-JDV-J55-CategorieEG-ROR.md) | Catégories d'établissements FINESS ou hors FINESS et secteurs d'activité des cabinets | 22/12/2025 |
 | [JDV_J56_AuthorSpecialty_DMP](ValueSet-JDV-J56-AuthorSpecialty-DMP.md) | Jeu de valeurs pour authorSpecialty | 27/09/2024 |
 | [JDV_J57_ClassCode_DMP](ValueSet-JDV-J57-ClassCode-DMP.md) | Jeu de valeurs pour métadonnée classCode | 22/09/2023 |
 | [JDV_J58_ConfidentialityCode_DMP](ValueSet-JDV-J58-ConfidentialityCode-DMP.md) | Jeu de valeurs pour métadonnée confidentialityCode | 24/04/2020 |
@@ -105,10 +106,10 @@ Vous touverez ici la liste des JDV du NOS.
 | [JDV_J101_SecteurActivite_RASS](ValueSet-JDV-J101-SecteurActivite-RASS.md) | Secteurs d'activité des établissements avec la même activité dans le RASS | 28/08/2025 |
 | [JDV_J103_TypeVoie_RASS](ValueSet-JDV-J103-TypeVoie-RASS.md) | Type de voie du professionnel du RASS | 24/04/2020 |
 | [JDV_J104_TypeIdentifiantStructure_RASS](ValueSet-JDV-J104-TypeIdentifiantStructure-RASS.md) | Type d'identifiant national de structure dans le RASS | 24/04/2020 |
-| [JDV_J105_EnsembleDiplome_RASS](ValueSet-JDV-J105-EnsembleDiplome-RASS.md) | Ensemble des diplômes et qualifications du RASS | 28/08/2025 |
+| [JDV_J105_EnsembleDiplome_RASS](ValueSet-JDV-J105-EnsembleDiplome-RASS.md) | Ensemble des diplômes et qualifications du RASS | 22/12/2025 |
 | [JDV_J106_EnsembleProfession_RASS](ValueSet-JDV-J106-EnsembleProfession-RASS.md) | Ensemble des professions du RASS | 28/03/2025 |
-| [JDV_J107_EnsembleSavoirFaire_RASS](ValueSet-JDV-J107-EnsembleSavoirFaire-RASS.md) | Ensemble des savoir-faire et compétences du RASS | 25/10/2024 |
-| [JDV_J108_EnsembleFonction_RASS](ValueSet-JDV-J108-EnsembleFonction-RASS.md) | Ensemble des fonctions et rôles du RASS | 16/10/2025 |
+| [JDV_J107_EnsembleSavoirFaire_RASS](ValueSet-JDV-J107-EnsembleSavoirFaire-RASS.md) | Ensemble des savoir-faire et compétences du RASS | 22/12/2025 |
+| [JDV_J108_EnsembleFonction_RASS](ValueSet-JDV-J108-EnsembleFonction-RASS.md) | Ensemble des fonctions et rôles du RASS | 22/12/2025 |
 | [JDV_J110_StatutVisibiliteDocument_CISIS](ValueSet-JDV-J110-StatutVisibiliteDocument-CISIS.md) | Restriction d'audience applicable aux objets référencés liste - CISIS | 24/04/2020 |
 | [JDV_J111_StatutEtatCivil_ENREG](ValueSet-JDV-J111-StatutEtatCivil-ENREG.md) | Statut de l'état civil pour ENREG | 31/01/2025 |
 | [JDV_J112_SexeAdministratif_ENREG](ValueSet-JDV-J112-SexeAdministratif-ENREG.md) | Sexe administratif pour ENREG | 29/05/2020 |
@@ -119,14 +120,14 @@ Vous touverez ici la liste des JDV du NOS.
 | [JDV_J118_CategorieProfessionnelle_ENREG](ValueSet-JDV-J118-CategorieProfessionnelle-ENREG.md) | Catégorie professionnelle pour ENREG | 29/03/2024 |
 | [JDV_J119_TypeActiviteLiberale_ENREG](ValueSet-JDV-J119-TypeActiviteLiberale-ENREG.md) | Type d'activité libérale pour ENREG | 29/05/2020 |
 | [JDV_J120_CommuneHistorisee](ValueSet-JDV-J120-CommuneHistorisee.md) | Toute la nomenclature des codes communes auquel on ajoute le code applicatif "Non renseigné" | 28/06/2024 |
-| [JDV_J121_RolePriseCharge_ENREG](ValueSet-JDV-J121-RolePriseCharge-ENREG.md) | Code des rôles et fonctions pour l'application ENREG | 25/04/2025 |
+| [JDV_J121_RolePriseCharge_ENREG](ValueSet-JDV-J121-RolePriseCharge-ENREG.md) | Code des rôles et fonctions pour l'application ENREG | 22/12/2025 |
 | [JDV_J122_Profession_ENREG](ValueSet-JDV-J122-Profession-ENREG.md) | Liste des professions autorisées dans ENREG Cette liste ne doit contenir qu'une professions définie comme profession par défaut pour les professionnels caractérisés par leur rôle. | 24/11/2023 |
 | [JDV_J124_Commune](ValueSet-JDV-J124-Commune.md) | Toute la nomenclature des codes actuels communes auquel on ajoute le code applicatif "Non renseigné" | 28/06/2024 |
 | [JDV_J125_MotifRejet_ENREG](ValueSet-JDV-J125-MotifRejet-ENREG.md) | Code des motifs de refus d'une demande d'enregistrement pour l'application ENREG | 27/11/2020 |
 | [JDV_J126_SecteurActivite_ENREG](ValueSet-JDV-J126-SecteurActivite-ENREG.md) | Table des Secteur d'activité des structures Siret uniquement utilisé par ENREG pour enregistrer les structures absentes des référentiels de l'ANS. | 23/05/2025 |
 | [JDV_J127_StatutJuridique_ENREG](ValueSet-JDV-J127-StatutJuridique-ENREG.md) | Jeu de valeur sur les statuts juridiques pour ENREG | 15/12/2023 |
 | [JDV_J128_TypeCarte_RASS](ValueSet-JDV-J128-TypeCarte-RASS.md) | Type de carte dans le RASS | 27/11/2020 |
-| [JDV_J129_CategorieEtablissement_RASS](ValueSet-JDV-J129-CategorieEtablissement-RASS.md) | Catégorie d'établissement du RASS | 25/10/2024 |
+| [JDV_J129_CategorieEtablissement_RASS](ValueSet-JDV-J129-CategorieEtablissement-RASS.md) | Catégorie d'établissement du RASS | 22/12/2025 |
 | [JDV_J130_CNAMAmeliSecteurConventionnement_RASS](ValueSet-JDV-J130-CNAMAmeliSecteurConventionnement-RASS.md) | Secteur de conventionnement du professionnel libéral | 27/11/2020 |
 | [JDV_J131_CategorieActiviteSanitaireRegulee_RASS](ValueSet-JDV-J131-CategorieActiviteSanitaireRegulee-RASS.md) | Catégorie des activités sanitaires régulées dans le RASS | 27/11/2020 |
 | [JDV_J132_ModaliteActivite_RASS](ValueSet-JDV-J132-ModaliteActivite-RASS.md) | Mode d'application ou type de soins encadrant une activité dans le RASS | 25/03/2022 |
@@ -173,7 +174,7 @@ Vous touverez ici la liste des JDV du NOS.
 | [JDV_J180_BesoinEntretienPersonnel_MDPH](ValueSet-JDV-J180-BesoinEntretienPersonnel-MDPH.md) | Caractérise les besoins d'aide de la personne en matière de scolarité, en lien avec l'entretien personnel | 24/09/2021 |
 | [JDV_J181_BesoinMobilite_MDPH](ValueSet-JDV-J181-BesoinMobilite-MDPH.md) | Caractérise les besoins d'aide de la personne en matière de scolarité, en lien avec la mobilité | 24/09/2021 |
 | [JDV_J182_BesoinScolarite_MDPH](ValueSet-JDV-J182-BesoinScolarite-MDPH.md) | Caractérise les besoins d'aide de la personne en matière de scolarité, en lien avec les apprentissages | 24/09/2021 |
-| [JDV_J183_Diplome_EPARS](ValueSet-JDV-J183-Diplome-EPARS.md) | Diplômes pour l'application EPARS | 17/09/2025 |
+| [JDV_J183_Diplome_EPARS](ValueSet-JDV-J183-Diplome-EPARS.md) | Diplômes pour l'application EPARS | 22/12/2025 |
 | [JDV_J185_TypeFermeture_ROR](ValueSet-JDV-J185-TypeFermeture-ROR.md) | Les seules valeurs acceptées par le ROR pour les Organisations internes et les offres | 23/09/2025 |
 | [JDV_J186_ProfessionRessource_ROR](ValueSet-JDV-J186-ProfessionRessource-ROR.md) | Profession Ressource des offres dans le ROR | 10/07/2025 |
 | [JDV_J187_NatureCapacite_ROR](ValueSet-JDV-J187-NatureCapacite-ROR.md) | Permet d'indiquer dans le ROR si la capacité est exprimée en lits ou en places | 27/05/2022 |
@@ -187,7 +188,7 @@ Vous touverez ici la liste des JDV du NOS.
 | [JDV_J195_AffectationTemporaire_ROR](ValueSet-JDV-J195-AffectationTemporaire-ROR.md) | Permet d'indiquer dans le ROR la réservation de tout ou partie des lits d'une zone d'hébergement pour des patients selon qu'ils soient -ou non- concernés par une pathologie (Covid+, Covid-, …) ou un évènement (catastrophe naturelle, attentat, …) | 27/05/2022 |
 | [JDV_J196_StatutCommunication_ROR](ValueSet-JDV-J196-StatutCommunication-ROR.md) | Permet de donner une indication dans le ROR pour savoir une action doit être menée ou de son résultat lorsqu'elle a été menée | 27/05/2022 |
 | [JDV_J197_XdsTypesIdentifiantsReferenceId_CISIS](ValueSet-JDV-J197-XdsTypesIdentifiantsReferenceId-CISIS.md) | Types d'identifiants utilisés dans la métadonnée XDS referenceIdList de la fiche du document dans le cadre du CISIS | 24/06/2022 |
-| [JDV_J198_FonctionLieu_ROR](ValueSet-JDV-J198-FonctionLieu-ROR.md) | Destination d'usage du lieu pour le lieu de réalisation de l'offre. | 17/10/2025 |
+| [JDV_J198_FonctionLieu_ROR](ValueSet-JDV-J198-FonctionLieu-ROR.md) | Destination d'usage du lieu pour le lieu de réalisation de l'offre. | 22/12/2025 |
 | [JDV_J199_StatutJuridique_ROR](ValueSet-JDV-J199-StatutJuridique-ROR.md) | Statuts juridiques provenant de FINESS et RPPS | 26/08/2022 |
 | [JDV_J200_SousEnsembleAgregatStatutJuridique_ROR](ValueSet-JDV-J200-SousEnsembleAgregatStatutJuridique-ROR.md) | Agrégats de statuts juridiques FINESS niveau 2 | 26/01/2024 |
 | [JDV_J201_TypeFermeture_ROR](ValueSet-JDV-J201-TypeFermeture-ROR.md) | Différentes valeurs de type de fermeture que peuvent envoyer FINESS au ROR (il en existe davantage) | 23/09/2025 |
@@ -215,8 +216,8 @@ Vous touverez ici la liste des JDV du NOS.
 | [JDV_J223_TypeDivisionTerritoriale_ROR](ValueSet-JDV-J223-TypeDivisionTerritoriale-ROR.md) | Type de division territoriale | 26/08/2022 |
 | [JDV_J224_StatutLieu_ROR](ValueSet-JDV-J224-StatutLieu-ROR.md) | Statut lieu | 26/08/2022 |
 | [JDV_J225_CanalCommunication_ROR](ValueSet-JDV-J225-CanalCommunication-ROR.md) | Canal de communication | 26/08/2022 |
-| [JDV_J226_ModaliteAccueil_ROR](ValueSet-JDV-J226-ModaliteAccueil-ROR.md) | Modalité d'accueil | 28/08/2025 |
-| [JDV_J227_NiveauExpertise_ROR](ValueSet-JDV-J227-NiveauExpertise-ROR.md) | Niveau de ressources humaines et matérielles utiles pour la réalisation de l'offre | 25/04/2025 |
+| [JDV_J226_ModaliteAccueil_ROR](ValueSet-JDV-J226-ModaliteAccueil-ROR.md) | Modalité d'accueil | 22/12/2025 |
+| [JDV_J227_NiveauExpertise_ROR](ValueSet-JDV-J227-NiveauExpertise-ROR.md) | Niveau de ressources humaines et matérielles utiles pour la réalisation de l'offre | 22/12/2025 |
 | [JDV_J228_TypeCaracteristiqueEquipement_ROR](ValueSet-JDV-J228-TypeCaracteristiqueEquipement-ROR.md) | Type de caractéristique équipement | 26/08/2022 |
 | [JDV_J229_ProfessionSante_ROR](ValueSet-JDV-J229-ProfessionSante-ROR.md) | Type de caractéristique équipement | 26/08/2022 |
 | [JDV_J231_XdsTypesIdentifiantsReferenceId_DMP](ValueSet-JDV-J231-XdsTypesIdentifiantsReferenceId-DMP.md) | Types d'identifiants utilisés dans la métadonnée XDS referenceIdList de la fiche du document dans le cadre du DMP | 16/12/2022 |
@@ -225,7 +226,7 @@ Vous touverez ici la liste des JDV du NOS.
 | [JDV_J234_GenreActivite_EPARS](ValueSet-JDV-J234-GenreActivite-EPARS.md) | Genre d'activité pour EPARS | 30/09/2022 |
 | [JDV_J235_LieuFormation_EPARS](ValueSet-JDV-J235-LieuFormation-EPARS.md) | Lieu de formation pour EPARS | 26/07/2024 |
 | [JDV_J236_TypeIdentifiant_ROR](ValueSet-JDV-J236-TypeIdentifiant-ROR.md) | Types d'identifiants utilisés dans le ROR | 30/10/2023 |
-| [JDV_J238_TypeOffre_ROR](ValueSet-JDV-J238-TypeOffre-ROR.md) | Prestations que peut réaliser une structure et qui permettent de répondre au besoin de santé d'une personne | 17/10/2025 |
+| [JDV_J238_TypeOffre_ROR](ValueSet-JDV-J238-TypeOffre-ROR.md) | Prestations que peut réaliser une structure et qui permettent de répondre au besoin de santé d'une personne | 22/12/2025 |
 | [JDV_J239_SpecialitesSNP_SAS](ValueSet-JDV-J239-SpecialitesSNP-SAS.md) | Professions de santé participant au Service d'Accès aux Soins | 26/01/2024 |
 | [JDV_J241_ThematiqueAnomalie_ROR](ValueSet-JDV-J241-ThematiqueAnomalie-ROR.md) | Thématique caractérisant une anomalie de donnée ROR | 26/01/2024 |
 | [JDV_J242_ActionAnomalie_ROR](ValueSet-JDV-J242-ActionAnomalie-ROR.md) | Action attendue dans le cadre de la gestion d'une anomalie de donnée dans le ROR | 31/03/2023 |
@@ -238,11 +239,11 @@ Vous touverez ici la liste des JDV du NOS.
 | [JDV_J252_StatutPersonnePriseChargeESMS](ValueSet-JDV-J252-StatutPersonnePriseChargeESMS.md) | Statut de la personne prise en charge au sein d'un ESMS | 22/09/2023 |
 | [JDV_J253_StatutPersonnePriseChargeUnite](ValueSet-JDV-J253-StatutPersonnePriseChargeUnite.md) | Statut de la personne prise en charge au sein d'une unité | 22/09/2023 |
 | [JDV_J254_CategorieEtablissementESSMSPH](ValueSet-JDV-J254-CategorieEtablissementESSMSPH.md) | Liste les catégories d'établissements ESSMS (Etablissement ou Service Social ou Médico-Social) pour les personnes porteurs d'handicap | 25/10/2024 |
-| [JDV_J255_SurspecialiteTransversale_RPPS](ValueSet-JDV-J255-SurspecialiteTransversale-RPPS.md) | Surspécialité (compétence) acquise par l'interne à l'issue d'une Formation Spécialisée Transversale (FST) | 29/03/2024 |
+| [JDV_J255_SurspecialiteTransversale_RPPS](ValueSet-JDV-J255-SurspecialiteTransversale-RPPS.md) | Surspécialité (compétence) acquise par l'interne à l'issue d'une Formation Spécialisée Transversale (FST) | 22/12/2025 |
 | [JDV_J256_Pays](ValueSet-JDV-J256-Pays.md) | Tous les codes actifs de la nomenclature du COG INSEE pays auquel on ajoute le code applicatif "non renseigné" | 28/03/2025 |
 | [JDV_J257_Region](ValueSet-JDV-J257-Region.md) | Tous les codes actifs des régions et collectivités d'outre-mer actives + Monaco du COG INSEE | 28/06/2024 |
 | [JDV_J258_Departement](ValueSet-JDV-J258-Departement.md) | Tous les codes actifs des départements et collectivités d'outre-mer actives + Monaco du COG INSEE | 28/06/2024 |
-| [JDV_J259_ModeFixationTarifaire_RASS](ValueSet-JDV-J259-ModeFixationTarifaire-RASS.md) | Mode de fixation tarifaire du RASS | 27/09/2024 |
+| [JDV_J259_ModeFixationTarifaire_RASS](ValueSet-JDV-J259-ModeFixationTarifaire-RASS.md) | Mode de fixation tarifaire du RASS | 22/12/2025 |
 | [JDV_J260_TypeFermeture_RASS](ValueSet-JDV-J260-TypeFermeture-RASS.md) | Type de fermeture, codes provenant du FINESS pour les EJ et EG pour le RASS | 27/09/2024 |
 | [JDV_J261_SourceInformationInstallation_RASS](ValueSet-JDV-J261-SourceInformationInstallation-RASS.md) | Sources d'information possible concernant l'installation de l'activité sociale du RASS | 27/09/2024 |
 | [JDV_J262_Sexe](ValueSet-JDV-J262-Sexe.md) | Tous les codes actifs de la notion sexe | 29/03/2024 |
@@ -252,7 +253,7 @@ Vous touverez ici la liste des JDV du NOS.
 | [JDV_J277_NCIT_CISIS](ValueSet-JDV-J277-NCIT-CISIS.md) | Termes NCIT utilisés | 13/12/2024 |
 | [JDV_J278_UcumUniteMesure_UPNOS](ValueSet-JDV-J278-UcumUniteMesure-UPNOS.md) | Termes UCUM utilisés | 27/09/2024 |
 | [JDV_J279_Loinc_UPNOS](ValueSet-JDV-J279-Loinc-UPNOS.md) | Termes LOINC utilisés | 27/09/2024 |
-| [JDV_J281_StatutsRessourcesMS](ValueSet-JDV-J281-StatutsRessourcesMS.md) | Statut de l'évaluation et des événements | 25/04/2025 |
+| [JDV_J281_StatutsRessourcesMS](ValueSet-JDV-J281-StatutsRessourcesMS.md) | Caractérise le statut d’une ressource du médico-social au cours de son cycle de vie. | 22/12/2025 |
 | [JDV_J282_TransportsLiesAuProjetIndividuel_SERAFIN](ValueSet-JDV-J282-TransportsLiesAuProjetIndividuel-SERAFIN.md) | Liste les natures des transports liés au projet individuel provenant de la terminologie SERAFIN | 25/10/2024 |
 | [JDV_J283_PrestationsIndirects_SERAFIN](ValueSet-JDV-J283-PrestationsIndirects-SERAFIN.md) | Liste des prestations indirects provenant de la terminologie SERAFIN | 25/10/2024 |
 | [JDV_J284_PrestationsDirects_SERAFIN](ValueSet-JDV-J284-PrestationsDirects-SERAFIN.md) | Liste des prestations directs provenant de la terminologie SERAFIN | 25/10/2024 |
@@ -264,7 +265,7 @@ Vous touverez ici la liste des JDV du NOS.
 | [Hl7VSEmploymentStatus](ValueSet-jdv-hl7-v2-0066-cisis.md) | hl7VS-employmentStatus | 16/12/2025 |
 | [Hl7VSSpecimenCollectionMethod](ValueSet-jdv-hl7-v2-0488-cisis.md) | hl7VS-specimenCollectionMethod | 16/12/2025 |
 | [WorkScheduleODH](ValueSet-jdv-hl7-v3-WorkScheduleODH-cisis.md) | WorkScheduleODH | 16/12/2025 |
-| [JDV_TRE_R222_MediaTypeCorpsCDANonStructure](ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all.md) | JDV avec l'ensemble des codes actifs de la TRE_R222_MediaTypeCorpsCDANonStructure | 18/12/2025 |
+| [JDV_TRE_R222_MediaTypeCorpsCDANonStructure](ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all.md) | JDV avec l'ensemble des codes actifs de la TRE_R222_MediaTypeCorpsCDANonStructure | 19/12/2025 |
 | [JdvBatterieExamenCisis](ValueSet-jdv-batterie-examen-cisis.md) | JDV Batterie Examen CISIS | 16/12/2025 |
 | [JdvCasSporadiqueFamilialCisis](ValueSet-jdv-cas-sporadique-familial-cisis.md) | JDV Cas Sporadique Familial CISIS | 16/12/2025 |
 | [JdvCauseAccidentDomestiqueCisis](ValueSet-jdv-cause-accident-domestique-cisis.md) | JDV Cause Accident Domestique CISIS | 16/12/2025 |
@@ -517,7 +518,7 @@ Vous touverez ici la liste des JDV du NOS.
 | [JdvTnmPtnmPt2Cisis](ValueSet-jdv-tnm-ptnm-pt-2-cisis.md) | JDV Tnm Ptnm Pt 2 CISIS | 16/12/2025 |
 | [JdvTnmPtnmPt3Cisis](ValueSet-jdv-tnm-ptnm-pt-3-cisis.md) | JDV Tnm Ptnm Pt 3 CISIS | 16/12/2025 |
 | [TimingEvent](ValueSet-jdv-hl7-v3-TimingEvent-cisis.md) | TimingEvent | 16/12/2025 |
-| [JdvModeleDocumentCda](ValueSet-jdv-modele-document-cda.md) | JDV avec l'ensemble des codes de la TRE_R220_ModeleDocumentCDAStructure et TRE_R221_ModeleDocumentCDANonStructure | 18/12/2025 |
+| [JdvModeleDocumentCda](ValueSet-jdv-modele-document-cda.md) | JDV avec l'ensemble des codes de la TRE_R220_ModeleDocumentCDAStructure et TRE_R221_ModeleDocumentCDANonStructure | 19/12/2025 |
 | [ActMoodIntent](ValueSet-jdv-hl7-v3-ActMoodIntent-cisis.md) | ActMoodIntent | 16/12/2025 |
 | [ActMood](ValueSet-jdv-hl7-v3-ActMood-cisis.md) | ActMood | 16/12/2025 |
 | [EmploymentStatusODH](ValueSet-jdv-hl7-v3-employmentStatusODH-cisis.md) | EmploymentStatusODH | 16/12/2025 |
@@ -588,7 +589,7 @@ Vous touverez ici la liste des JDV du NOS.
 | [PersonalRelationshipRoleType](ValueSet-jdv-hl7-v3-PersonalRelationshipRoleType-cisis.md) | PersonalRelationshipRoleType | 16/12/2025 |
 | [JdvAppreciationDiagnosticCentreCisis](ValueSet-jdv-appreciation-diagnostic-centre-cisis.md) | JDV Appreciation Diagnostic Centre CISIS | 16/12/2025 |
 | [JdvSpecimenTypeCisis](ValueSet-jdv-specimen-type-cisis.md) | JDV Specimen Type CISIS | 16/12/2025 |
-| [JdvTreR221ModeleDocumentCdaNonStructureAll](ValueSet-jdv-tre-r221-modele-document-cda-non-structure-all.md) | JDV avec l'ensemble des codes actifs de la TRE_R221_ModeleDocumentCDANonStructure | 18/12/2025 |
+| [JdvTreR221ModeleDocumentCdaNonStructureAll](ValueSet-jdv-tre-r221-modele-document-cda-non-structure-all.md) | JDV avec l'ensemble des codes actifs de la TRE_R221_ModeleDocumentCDANonStructure | 19/12/2025 |
 | [ActPriority](ValueSet-jdv-hl7-v3-ActPriority-cisis.md) | ActPriority | 16/12/2025 |
 | [AllergyIntoleranceClinicalStatusCodes](ValueSet-jdv-hl7-allergyintolerance-clinical-cisis.md) | AllergyIntolerance Clinical Status Codes | 16/12/2025 |
 | [AllergyIntoleranceCriticality](ValueSet-jdv-hl7-allergy-intolerance-criticality-cisis.md) | Allergy Intolerance Criticality | 16/12/2025 |
