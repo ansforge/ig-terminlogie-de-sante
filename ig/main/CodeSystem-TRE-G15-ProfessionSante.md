@@ -1,4 +1,4 @@
-# TRE_G15_ProfessionSante - Terminologies de Santé v1.4.0
+# TRE_G15_ProfessionSante - Terminologies de Santé v1.5.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

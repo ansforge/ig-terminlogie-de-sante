@@ -1,4 +1,4 @@
-# ASS_X01_TranscoSavFaireADELI_SavFaireR01 - Terminologies de Santé v1.4.0
+# ASS_X01_TranscoSavFaireADELI_SavFaireR01 - Terminologies de Santé v1.5.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -36,7 +36,7 @@ Pour cette association, seuls les fichiers sont disponibles :
   "title" : "ASS_X01_TranscoSavFaireADELI_SavFaireR01",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-19T04:35:39+00:00",
+  "date" : "2025-12-19T09:48:48+00:00",
   "publisher" : "ANS",
   "contact" : [
     {

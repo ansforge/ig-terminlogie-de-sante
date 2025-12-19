@@ -1,4 +1,4 @@
-# ValueSet_ATC_All - Terminologies de Santé v1.4.0
+# ValueSet_ATC_All - Terminologies de Santé v1.5.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -66,7 +66,7 @@ Requête sur le SMT
   "name" : "ValueSet_ATC_All",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-19T04:35:39+00:00",
+  "date" : "2025-12-19T09:48:48+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Ce jeu de valeurs inclut tous les codes concepts de la terminologie ATC",
   "jurisdiction" : [

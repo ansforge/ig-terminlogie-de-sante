@@ -1,4 +1,4 @@
-# Jdv J383 Motif Cloture Exercice Professionnel Epars - Terminologies de Santé v1.4.0
+# Jdv J383 Motif Cloture Exercice Professionnel Epars - Terminologies de Santé v1.5.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j304-finess-statut-juridique-finess | *Version*:20251222120000 | |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j383-motif-cloture-exercice-professionnel-epars | *Version*:20251222120000 | |
 | Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ383MotifClotureExerciceProfessionnelEpars |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.394 | | |
 
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-j383-motif-cloture-exercice-professionnel-epars",
   "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2025-12-18T16:47:51.583+01:00",
+    "versionId" : "2",
+    "lastUpdated" : "2025-12-19T09:32:31.318+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
@@ -70,7 +70,7 @@ Requête sur le SMT
       }
     }
   ],
-  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j304-finess-statut-juridique-finess",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j383-motif-cloture-exercice-professionnel-epars",
   "identifier" : [
     {
       "system" : "urn:ietf:rfc:3986",

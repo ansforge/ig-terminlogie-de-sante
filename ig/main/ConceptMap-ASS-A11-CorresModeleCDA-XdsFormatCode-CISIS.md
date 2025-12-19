@@ -1,4 +1,4 @@
-# ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS - Terminologies de Santé v1.4.0
+# ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS - Terminologies de Santé v1.5.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -29,7 +29,7 @@ Pour le document CDA, la métadonnée XDS ‘formatCode’ est calculé à parti
   "title" : "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-19T04:35:39+00:00",
+  "date" : "2025-12-19T09:48:48+00:00",
   "publisher" : "ANS",
   "contact" : [
     {

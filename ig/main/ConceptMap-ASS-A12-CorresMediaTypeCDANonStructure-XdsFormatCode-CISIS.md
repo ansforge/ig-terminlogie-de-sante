@@ -1,4 +1,4 @@
-# ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS - Terminologies de Santé v1.4.0
+# ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS - Terminologies de Santé v1.5.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -29,7 +29,7 @@ Association qui permet de deduire l’attribut XDS ‘formatCode’ à partir de
   "title" : "ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-19T04:35:39+00:00",
+  "date" : "2025-12-19T09:48:48+00:00",
   "publisher" : "ANS",
   "contact" : [
     {

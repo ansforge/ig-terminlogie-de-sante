@@ -5890,19 +5890,6 @@
       "sources" : ["1.2.250.1.213.1.1.5.731"]
     },
     {
-      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j304-finess-statut-juridique-finess",
-      "version" : "20251222120000",
-      "status" : "active",
-      "name" : "JdvJ383MotifClotureExerciceProfessionnelEpars",
-      "title" : "Jdv J383 Motif Cloture Exercice Professionnel Epars",
-      "description" : "Ce jeu de valeur liste les différents motifs qui peuvent justifier la clôture d'un exercice professionnel.",
-      "systems" : [
-        "https://mos.esante.gouv.fr/NOS/TRE_R25-MotifFinActivite/FHIR/TRE-R25-MotifFinActivite"
-      ],
-      "oids" : ["1.2.250.1.213.1.6.1.394"],
-      "sources" : ["1.2.250.1.213.1.6.1.394"]
-    },
-    {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j366-statut-bilan-projet-personnalise-ms",
       "version" : "20250415120000",
       "status" : "active",
@@ -5953,6 +5940,19 @@
       ],
       "oids" : ["1.2.250.1.213.3.4.223"],
       "sources" : ["1.2.250.1.213.3.4.223"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j383-motif-cloture-exercice-professionnel-epars",
+      "version" : "20251222120000",
+      "status" : "active",
+      "name" : "JdvJ383MotifClotureExerciceProfessionnelEpars",
+      "title" : "Jdv J383 Motif Cloture Exercice Professionnel Epars",
+      "description" : "Ce jeu de valeur liste les différents motifs qui peuvent justifier la clôture d'un exercice professionnel.",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R25-MotifFinActivite/FHIR/TRE-R25-MotifFinActivite"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.394"],
+      "sources" : ["1.2.250.1.213.1.6.1.394"]
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-jour-semaine-cisis",

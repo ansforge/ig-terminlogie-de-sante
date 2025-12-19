@@ -1,4 +1,4 @@
-# JDV_J145_MethodBodyWeight_ENS - Terminologies de Santé v1.4.0
+# JDV_J145_MethodBodyWeight_ENS - Terminologies de Santé v1.5.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

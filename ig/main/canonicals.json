@@ -27,7 +27,7 @@
     "id" : "ans.fr.terminologies",
     "type" : "ImplementationGuide",
     "url" : "https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies",
-    "version" : "1.4.0",
+    "version" : "1.5.0",
     "name" : "Terminologies"
   },
   {
@@ -6139,14 +6139,6 @@
     "oids" : ["1.2.250.1.213.1.1.5.731"]
   },
   {
-    "id" : "jdv-j383-motif-cloture-exercice-professionnel-epars",
-    "type" : "ValueSet",
-    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j304-finess-statut-juridique-finess",
-    "version" : "20251222120000",
-    "name" : "JdvJ383MotifClotureExerciceProfessionnelEpars",
-    "oids" : ["1.2.250.1.213.1.6.1.394"]
-  },
-  {
     "id" : "jdv-j366-statut-bilan-projet-personnalise-ms",
     "type" : "ValueSet",
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j366-statut-bilan-projet-personnalise-ms",
@@ -6177,6 +6169,14 @@
     "version" : "20250521120000",
     "name" : "JdvJ370TypeContratSejourMs",
     "oids" : ["1.2.250.1.213.3.4.223"]
+  },
+  {
+    "id" : "jdv-j383-motif-cloture-exercice-professionnel-epars",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j383-motif-cloture-exercice-professionnel-epars",
+    "version" : "20251222120000",
+    "name" : "JdvJ383MotifClotureExerciceProfessionnelEpars",
+    "oids" : ["1.2.250.1.213.1.6.1.394"]
   },
   {
     "id" : "jdv-jour-semaine-cisis",

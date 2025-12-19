@@ -1,4 +1,4 @@
-# Accueil - Terminologies de Santé v1.4.0
+# Accueil - Terminologies de Santé v1.5.0
 
 * [**Table of Contents**](toc.md)
 * **Accueil**
@@ -7,7 +7,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies | *Version*:1.4.0 |
+| *Official URL*:https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies | *Version*:1.5.0 |
 | Active as of 2025-12-19 | *Computable Name*:Terminologies |
 
 Dans ce guide, nous retrouvons l’ensemble des terminologies de santé et jeux de valeurs plubliés par l’ANS :
@@ -226,11 +226,11 @@ Ceci est un IG R4. Aucune des fonctionnalités quil utilise nest modifiée dans 
   "resourceType" : "ImplementationGuide",
   "id" : "ans.fr.terminologies",
   "url" : "https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies",
-  "version" : "1.4.0",
+  "version" : "1.5.0",
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2025-12-19T04:35:39+00:00",
+  "date" : "2025-12-19T09:48:48+00:00",
   "publisher" : "ANS",
   "contact" : [
     {
@@ -7106,6 +7106,19 @@ Ceci est un IG R4. Aucune des fonctionnalités quil utilise nest modifiée dans 
           {
             "url" : "value",
             "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j370-type-contrat-sejour-ms"
+          }
+        ],
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension" : [
+          {
+            "url" : "code",
+            "valueString" : "special-url"
+          },
+          {
+            "url" : "value",
+            "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j383-motif-cloture-exercice-professionnel-epars"
           }
         ],
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
@@ -21650,6 +21663,19 @@ Ceci est un IG R4. Aucune des fonctionnalités quil utilise nest modifiée dans 
           {
             "url" : "value",
             "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j370-type-contrat-sejour-ms"
+          }
+        ],
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension" : [
+          {
+            "url" : "code",
+            "valueCode" : "special-url"
+          },
+          {
+            "url" : "value",
+            "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j383-motif-cloture-exercice-professionnel-epars"
           }
         ],
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
