@@ -561,6 +561,7 @@ parameters:
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j367-type-projet-personnalise-ms
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j368-categorie-etablissement-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j370-type-contrat-sejour-ms
+      - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j383-motif-cloture-exercice-professionnel-epars
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-jour-semaine-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-juridique-cisis
       - https://smt.esante.gouv.fr/fhir/ValueSet/jdv-lateralite-cisis
