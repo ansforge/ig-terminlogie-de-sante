@@ -15,23 +15,32 @@
      fhir:lastUpdated [ fhir:v "2024-08-28T05:13:00.147+00:00"^^xsd:dateTime ] ;
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
+       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
      ] )
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem TRE-R272-EquipementMaterielLourd</b></p><a name=\"TRE-R272-EquipementMaterielLourd\"> </a><a name=\"hcTRE-R272-EquipementMaterielLourd\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 4; Dernière mise à jour : 2024-08-28 05:13:00+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://mos.esante.gouv.fr/NOS/TRE_R272-EquipementMaterielLourd/FHIR/TRE-R272-EquipementMaterielLourd</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>French (France) (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">05602<a name=\"TRE-R272-EquipementMaterielLourd-05602\"> </a></td><td>Scanographe à utilisation médicale</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td>Scanographe</td></tr><tr><td style=\"white-space:nowrap\">05701<a name=\"TRE-R272-EquipementMaterielLourd-05701\"> </a></td><td>Caméra à scintillation sans détecteur d'émission de positons</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td>Gamma Caméra sans détecteur</td></tr><tr><td style=\"white-space:nowrap\">05702<a name=\"TRE-R272-EquipementMaterielLourd-05702\"> </a></td><td>Caméra à scintillation avec détecteur d'émission de positons</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td>Gamma Caméra avec détecteur</td></tr><tr><td style=\"white-space:nowrap\">05705<a name=\"TRE-R272-EquipementMaterielLourd-05705\"> </a></td><td>Tomographe à émissions</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">05706<a name=\"TRE-R272-EquipementMaterielLourd-05706\"> </a></td><td>Caméra à positons</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">06201<a name=\"TRE-R272-EquipementMaterielLourd-06201\"> </a></td><td>Appareil d'IRM à utilisation clinique</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td>IRM</td></tr><tr><td style=\"white-space:nowrap\">06301<a name=\"TRE-R272-EquipementMaterielLourd-06301\"> </a></td><td>Cyclotron à utilisation médicale</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td>Cyclotron</td></tr><tr><td style=\"white-space:nowrap\">44901<a name=\"TRE-R272-EquipementMaterielLourd-44901\"> </a></td><td>Caisson hyperbare</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr></table></div>"^^rdf:XMLLiteral
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem TRE-R272-EquipementMaterielLourd</b></p><a name=\"TRE-R272-EquipementMaterielLourd\"> </a><a name=\"hcTRE-R272-EquipementMaterielLourd\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 4; Dernière mise à jour : 2024-08-28 05:13:00+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://mos.esante.gouv.fr/NOS/TRE_R272-EquipementMaterielLourd/FHIR/TRE-R272-EquipementMaterielLourd</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>French (France) (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">05602<a name=\"TRE-R272-EquipementMaterielLourd-05602\"> </a></td><td>Scanographe à utilisation médicale</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td>Scanographe</td></tr><tr><td style=\"white-space:nowrap\">05701<a name=\"TRE-R272-EquipementMaterielLourd-05701\"> </a></td><td>Caméra à scintillation sans détecteur d'émission de positons</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td>Gamma Caméra sans détecteur</td></tr><tr><td style=\"white-space:nowrap\">05702<a name=\"TRE-R272-EquipementMaterielLourd-05702\"> </a></td><td>Caméra à scintillation avec détecteur d'émission de positons</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td>Gamma Caméra avec détecteur</td></tr><tr><td style=\"white-space:nowrap\">05705<a name=\"TRE-R272-EquipementMaterielLourd-05705\"> </a></td><td>Tomographe à émissions</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">05706<a name=\"TRE-R272-EquipementMaterielLourd-05706\"> </a></td><td>Caméra à positons</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">06201<a name=\"TRE-R272-EquipementMaterielLourd-06201\"> </a></td><td>Appareil d'IRM à utilisation clinique</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td>IRM</td></tr><tr><td style=\"white-space:nowrap\">06301<a name=\"TRE-R272-EquipementMaterielLourd-06301\"> </a></td><td>Cyclotron à utilisation médicale</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td>Cyclotron</td></tr><tr><td style=\"white-space:nowrap\">44901<a name=\"TRE-R272-EquipementMaterielLourd-44901\"> </a></td><td>Caisson hyperbare</td><td>2018-07-27T12:00:00+01:00</td><td>2018-07-27T12:00:00+01:00</td><td/></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
-     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod>
+     ] ;
      fhir:value [
        a fhir:Period ;
        fhir:start [ fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime ]
      ]
   ] ) ; # 
-  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R272-EquipementMaterielLourd/FHIR/TRE-R272-EquipementMaterielLourd"^^xsd:anyURI] ; # 
+  fhir:url [
+     fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R272-EquipementMaterielLourd/FHIR/TRE-R272-EquipementMaterielLourd"^^xsd:anyURI ;
+     fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R272-EquipementMaterielLourd/FHIR/TRE-R272-EquipementMaterielLourd>
+  ] ; # 
   fhir:identifier ( [
-     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:system [
+       fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
+       fhir:l <urn:ietf:rfc:3986>
+     ] ;
      fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.124" ]
   ] ) ; # 
   fhir:version [ fhir:v "20231215120000"] ; # 
@@ -44,23 +53,32 @@
   fhir:caseSensitive [ fhir:v false] ; # 
   fhir:valueSet [
      fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R272-EquipementMaterielLourd/FHIR/TRE-R272-EquipementMaterielLourd?vs"^^xsd:anyURI ;
-     fhir:link <https://mos.esante.gouv.fr/NOS/TRE_R272-EquipementMaterielLourd/FHIR/TRE-R272-EquipementMaterielLourd?vs>
+     fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R272-EquipementMaterielLourd/FHIR/TRE-R272-EquipementMaterielLourd?vs>
   ] ; # 
   fhir:content [ fhir:v "complete"] ; # 
   fhir:count [ fhir:v "8"^^xsd:nonNegativeInteger] ; # 
   fhir:property ( [
      fhir:code [ fhir:v "dateValid" ] ;
-     fhir:uri [ fhir:v "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"^^xsd:anyURI ] ;
+     fhir:uri [
+       fhir:v "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"^^xsd:anyURI ;
+       fhir:l <https://smt.esante.gouv.fr/fhir/concept-properties#dateValid>
+     ] ;
      fhir:description [ fhir:v "date de validité d'un code concept" ] ;
      fhir:type [ fhir:v "dateTime" ]
   ] [
      fhir:code [ fhir:v "dateMaj" ] ;
-     fhir:uri [ fhir:v "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj"^^xsd:anyURI ] ;
+     fhir:uri [
+       fhir:v "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj"^^xsd:anyURI ;
+       fhir:l <https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj>
+     ] ;
      fhir:description [ fhir:v "Date de mise à jour d'un code concept" ] ;
      fhir:type [ fhir:v "dateTime" ]
   ] [
      fhir:code [ fhir:v "dateFin" ] ;
-     fhir:uri [ fhir:v "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin"^^xsd:anyURI ] ;
+     fhir:uri [
+       fhir:v "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin"^^xsd:anyURI ;
+       fhir:l <https://smt.esante.gouv.fr/fhir/concept-properties#dateFin>
+     ] ;
      fhir:description [ fhir:v "Date de fin d'exploitation d'un code concept" ] ;
      fhir:type [ fhir:v "dateTime" ]
   ] ) ; # 
@@ -71,7 +89,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Scanographe" ]
@@ -79,13 +100,13 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
      ] )
@@ -96,7 +117,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Gamma Caméra sans détecteur" ]
@@ -104,13 +128,13 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
      ] )
@@ -121,7 +145,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Gamma Caméra avec détecteur" ]
@@ -129,13 +156,13 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
      ] )
@@ -145,13 +172,13 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
      ] )
@@ -161,13 +188,13 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
      ] )
@@ -178,7 +205,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "IRM" ]
@@ -186,13 +216,13 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
      ] )
@@ -203,7 +233,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Cyclotron" ]
@@ -211,13 +244,13 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
      ] )
@@ -227,13 +260,13 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2018-07-27T12:00:00+01:00"^^xsd:dateTime
        ]
      ] )

@@ -43,8 +43,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"8.867"}
-    h3,h4,h5,h6{--heading-prefix:"8.867"}</style>
+    <style type="text/css">h2{--heading-prefix:"8.870"}
+    h3,h4,h5,h6{--heading-prefix:"8.870"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -62,7 +62,7 @@
 
 
 
-  <span title="">FR</span>
+  <img alt="France flag" src="assets/images/fra.svg" height="16" title="France"/>
 
 
             </span>
@@ -163,7 +163,7 @@
         <div class="row">
           <div class="inner-wrapper">
 <div style="counter-reset: section 8" class="col-12">
-<!--ReleaseHeader--><p id="publish-box">Terminologies  de Santé (Publiées par l'ANS) - Local Development build (v0.1.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://interop.esante.gouv.fr/terminologies/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+<!--ReleaseHeader--><p id="publish-box">Terminologies  de Santé (Publiées par l'ANS) - version de développement local (v0.1.0) construite par les outils de publication FHIR (HL7® FHIR® Standard). Voir le <a href='https://interop.esante.gouv.fr/terminologies/history.html'>répertoire des versions publiées</a></p><!--EndReleaseHeader-->
 
 
 
@@ -267,24 +267,24 @@
 
 
 
-  <pre class="json" style="white-space: pre; text-wrap: nowrap; width: auto;"><code style="white-space: pre; text-wrap: nowrap;">{
+  <pre class="json" data-fhir="generated" style="white-space: pre; text-wrap: nowrap; width: auto;"><code style="white-space: pre; text-wrap: nowrap;">{
   "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem">resourceType</a>" : "CodeSystem",
-  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.id">id</a>" : "tre-r385-declaration-act-de-soin-amm",
-  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.meta">meta</a>" : {
+  "<a href="http://hl7.org/fhir/R4/resource.html#CodeSystem.id">id</a>" : "tre-r385-declaration-act-de-soin-amm",
+  "<a href="http://hl7.org/fhir/R4/resource.html#CodeSystem.meta">meta</a>" : {
     "<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.versionId">versionId</a>" : "1",
     "<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.lastUpdated">lastUpdated</a>" : "2024-12-30T12:00:00+01:00",
     "<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>" : [
       <a href="http://hl7.org/fhir/R4/shareablecodesystem.html" style="color: Maroon">&#x1F517;</a> "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
     ]
   },
-  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.text">text</a>" : {
+  "<a href="http://hl7.org/fhir/R4/domainresource.html#CodeSystem.text">text</a>" : {
     "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
-    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Narratif généré : CodeSystem tre-r385-declaration-act-de-soin-amm&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;tre-r385-declaration-act-de-soin-amm\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hctre-r385-declaration-act-de-soin-amm\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;version: 1; Dernière mise à jour : 2024-12-30 12:00:00+0100&lt;/p&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profil: &lt;a href=\&quot;http://hl7.org/fhir/R4/shareablecodesystem.html\&quot;&gt;Shareable CodeSystem&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;Propriétés&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts&lt;/b&gt;&lt;/p&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Nom&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;URI&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Description&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;dateValid&lt;/td&gt;&lt;td&gt;dateValid&lt;/td&gt;&lt;td&gt;https://smt.esante.gouv.fr/fhir/concept-properties#dateValid&lt;/td&gt;&lt;td&gt;dateTime&lt;/td&gt;&lt;td&gt;date de validité d'un code concept&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;dateMaj&lt;/td&gt;&lt;td&gt;dateMaj&lt;/td&gt;&lt;td&gt;https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj&lt;/td&gt;&lt;td&gt;dateTime&lt;/td&gt;&lt;td&gt;Date de mise à jour d'un code concept&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;dateFin&lt;/td&gt;&lt;td&gt;dateFin&lt;/td&gt;&lt;td&gt;https://smt.esante.gouv.fr/fhir/concept-properties#dateFin&lt;/td&gt;&lt;td&gt;dateTime&lt;/td&gt;&lt;td&gt;Date de fin d'exploitation d'un code concept&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;status&lt;/td&gt;&lt;td&gt;status&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/concept-properties#status&lt;/td&gt;&lt;td&gt;code&lt;/td&gt;&lt;td&gt;A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;deprecationDate&lt;/td&gt;&lt;td&gt;deprecationDate&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/concept-properties#deprecationDate&lt;/td&gt;&lt;td&gt;dateTime&lt;/td&gt;&lt;td&gt;The date at which a concept was deprecated. Concepts that are deprecated but not inactive can still be used, but their use is discouraged, and they should be expected to be made inactive in a future release. Property type is dateTime. Note that the status property may also be used to indicate that a concept is deprecated&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;retirementDate&lt;/td&gt;&lt;td&gt;retirementDate&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/concept-properties#retirementDate&lt;/td&gt;&lt;td&gt;dateTime&lt;/td&gt;&lt;td&gt;The date at which a concept was retired&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;Concepts&lt;/b&gt;&lt;/p&gt;&lt;p&gt;This case-insensitive code system &lt;code&gt;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r385-declaration-act-de-soin-amm&lt;/code&gt; defines the following codes:&lt;/p&gt;&lt;table class=\&quot;codes\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;dateValid&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;dateMaj&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;status&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DE000&lt;a name=\&quot;tre-r385-declaration-act-de-soin-amm-DE000\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pas de déclaration&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DE001&lt;a name=\&quot;tre-r385-declaration-act-de-soin-amm-DE001\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;B1 : Actes diagnostiques ou thérapeutiques réalisés par l’administration de mrp préparé en système ouvert&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DE002&lt;a name=\&quot;tre-r385-declaration-act-de-soin-amm-DE002\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;B2 : Actes diagnostiques réalisés dans le cadre d’explorations de marquage cellulaire des éléments figurés du sang par un ou des radionucléides&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DE003&lt;a name=\&quot;tre-r385-declaration-act-de-soin-amm-DE003\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;B3 : Actes thérapeutiques réalisés par l’administration de dispositif médical implantable actif&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DE004&lt;a name=\&quot;tre-r385-declaration-act-de-soin-amm-DE004\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;B4 : Actes thérapeutiques pour les pathologies cancéreuses réalisés par l’administration de mrp&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DE005&lt;a name=\&quot;tre-r385-declaration-act-de-soin-amm-DE005\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Aucun SI de spécialité&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DE006&lt;a name=\&quot;tre-r385-declaration-act-de-soin-amm-DE006\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SI Néphrologie&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DE007&lt;a name=\&quot;tre-r385-declaration-act-de-soin-amm-DE007\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SI Respiratoire&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DE008&lt;a name=\&quot;tre-r385-declaration-act-de-soin-amm-DE008\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SI hépato-gastro-entérologie&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DE009&lt;a name=\&quot;tre-r385-declaration-act-de-soin-amm-DE009\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SI Autres&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DE010&lt;a name=\&quot;tre-r385-declaration-act-de-soin-amm-DE010\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SI Cardio&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DE012&lt;a name=\&quot;tre-r385-declaration-act-de-soin-amm-DE012\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Demande exceptionnelle d'autorisation dérogatoire pour exception géographique&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DE013&lt;a name=\&quot;tre-r385-declaration-act-de-soin-amm-DE013\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Demande exceptionnelle d'autorisation dérogatoire pour exception géographique (pour la région Corse et les DROM)&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DE014&lt;a name=\&quot;tre-r385-declaration-act-de-soin-amm-DE014\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Demande exceptionnelle d’autorisation de chirurgie oncologique avec mention C hors site également autorisé en TMSC avec mention C&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DE015&lt;a name=\&quot;tre-r385-declaration-act-de-soin-amm-DE015\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Adultes&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DE016&lt;a name=\&quot;tre-r385-declaration-act-de-soin-amm-DE016\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Enfant et adolescent&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DE017&lt;a name=\&quot;tre-r385-declaration-act-de-soin-amm-DE017\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Saisonnier&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DE018&lt;a name=\&quot;tre-r385-declaration-act-de-soin-amm-DE018\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Non saisonnier&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DE022&lt;a name=\&quot;tre-r385-declaration-act-de-soin-amm-DE022\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Hospitalisation à temps complet&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DE023&lt;a name=\&quot;tre-r385-declaration-act-de-soin-amm-DE023\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Hospitalisation ambulatoire&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DE024&lt;a name=\&quot;tre-r385-declaration-act-de-soin-amm-DE024\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Hospitalisation à temps partiel&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DE025&lt;a name=\&quot;tre-r385-declaration-act-de-soin-amm-DE025\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Structures de prise en charge sur le site autorisé&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DE026&lt;a name=\&quot;tre-r385-declaration-act-de-soin-amm-DE026\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Liste des communes (à renseigner dans la suite du dossier)&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Narratif généré : CodeSystem tre-r385-declaration-act-de-soin-amm&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;tre-r385-declaration-act-de-soin-amm\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hctre-r385-declaration-act-de-soin-amm\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;version : 1; Dernière mise à jour : 2024-12-30 12:00:00+0100&lt;/p&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profil: &lt;a href=\&quot;http://hl7.org/fhir/R4/shareablecodesystem.html\&quot;&gt;Shareable CodeSystem&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;Propriétés&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts&lt;/b&gt;&lt;/p&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Nom&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;URI&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Description&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;dateValid&lt;/td&gt;&lt;td&gt;dateValid&lt;/td&gt;&lt;td&gt;https://smt.esante.gouv.fr/fhir/concept-properties#dateValid&lt;/td&gt;&lt;td&gt;dateTime&lt;/td&gt;&lt;td&gt;date de validité d'un code concept&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;dateMaj&lt;/td&gt;&lt;td&gt;dateMaj&lt;/td&gt;&lt;td&gt;https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj&lt;/td&gt;&lt;td&gt;dateTime&lt;/td&gt;&lt;td&gt;Date de mise à jour d'un code concept&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;dateFin&lt;/td&gt;&lt;td&gt;dateFin&lt;/td&gt;&lt;td&gt;https://smt.esante.gouv.fr/fhir/concept-properties#dateFin&lt;/td&gt;&lt;td&gt;dateTime&lt;/td&gt;&lt;td&gt;Date de fin d'exploitation d'un code concept&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;status&lt;/td&gt;&lt;td&gt;status&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/concept-properties#status&lt;/td&gt;&lt;td&gt;code&lt;/td&gt;&lt;td&gt;A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;deprecationDate&lt;/td&gt;&lt;td&gt;deprecationDate&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/concept-properties#deprecationDate&lt;/td&gt;&lt;td&gt;dateTime&lt;/td&gt;&lt;td&gt;The date at which a concept was deprecated. Concepts that are deprecated but not inactive can still be used, but their use is discouraged, and they should be expected to be made inactive in a future release. Property type is dateTime. Note that the status property may also be used to indicate that a concept is deprecated&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;retirementDate&lt;/td&gt;&lt;td&gt;retirementDate&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/concept-properties#retirementDate&lt;/td&gt;&lt;td&gt;dateTime&lt;/td&gt;&lt;td&gt;The date at which a concept was retired&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;Concepts&lt;/b&gt;&lt;/p&gt;&lt;p&gt;This case-insensitive code system &lt;code&gt;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r385-declaration-act-de-soin-amm&lt;/code&gt; defines the following codes:&lt;/p&gt;&lt;table class=\&quot;codes\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Affichage&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;dateValid&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;dateMaj&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;status&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DE000&lt;a name=\&quot;tre-r385-declaration-act-de-soin-amm-DE000\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pas de déclaration&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DE001&lt;a name=\&quot;tre-r385-declaration-act-de-soin-amm-DE001\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;B1 : Actes diagnostiques ou thérapeutiques réalisés par l’administration de mrp préparé en système ouvert&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DE002&lt;a name=\&quot;tre-r385-declaration-act-de-soin-amm-DE002\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;B2 : Actes diagnostiques réalisés dans le cadre d’explorations de marquage cellulaire des éléments figurés du sang par un ou des radionucléides&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DE003&lt;a name=\&quot;tre-r385-declaration-act-de-soin-amm-DE003\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;B3 : Actes thérapeutiques réalisés par l’administration de dispositif médical implantable actif&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DE004&lt;a name=\&quot;tre-r385-declaration-act-de-soin-amm-DE004\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;B4 : Actes thérapeutiques pour les pathologies cancéreuses réalisés par l’administration de mrp&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DE005&lt;a name=\&quot;tre-r385-declaration-act-de-soin-amm-DE005\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Aucun SI de spécialité&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DE006&lt;a name=\&quot;tre-r385-declaration-act-de-soin-amm-DE006\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SI Néphrologie&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DE007&lt;a name=\&quot;tre-r385-declaration-act-de-soin-amm-DE007\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SI Respiratoire&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DE008&lt;a name=\&quot;tre-r385-declaration-act-de-soin-amm-DE008\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SI hépato-gastro-entérologie&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DE009&lt;a name=\&quot;tre-r385-declaration-act-de-soin-amm-DE009\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SI Autres&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DE010&lt;a name=\&quot;tre-r385-declaration-act-de-soin-amm-DE010\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;SI Cardio&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DE012&lt;a name=\&quot;tre-r385-declaration-act-de-soin-amm-DE012\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Demande exceptionnelle d'autorisation dérogatoire pour exception géographique&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DE013&lt;a name=\&quot;tre-r385-declaration-act-de-soin-amm-DE013\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Demande exceptionnelle d'autorisation dérogatoire pour exception géographique (pour la région Corse et les DROM)&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DE014&lt;a name=\&quot;tre-r385-declaration-act-de-soin-amm-DE014\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Demande exceptionnelle d’autorisation de chirurgie oncologique avec mention C hors site également autorisé en TMSC avec mention C&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DE015&lt;a name=\&quot;tre-r385-declaration-act-de-soin-amm-DE015\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Adultes&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DE016&lt;a name=\&quot;tre-r385-declaration-act-de-soin-amm-DE016\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Enfant et adolescent&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DE017&lt;a name=\&quot;tre-r385-declaration-act-de-soin-amm-DE017\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Saisonnier&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DE018&lt;a name=\&quot;tre-r385-declaration-act-de-soin-amm-DE018\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Non saisonnier&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DE022&lt;a name=\&quot;tre-r385-declaration-act-de-soin-amm-DE022\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Hospitalisation à temps complet&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DE023&lt;a name=\&quot;tre-r385-declaration-act-de-soin-amm-DE023\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Hospitalisation ambulatoire&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DE024&lt;a name=\&quot;tre-r385-declaration-act-de-soin-amm-DE024\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Hospitalisation à temps partiel&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DE025&lt;a name=\&quot;tre-r385-declaration-act-de-soin-amm-DE025\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Structures de prise en charge sur le site autorisé&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;DE026&lt;a name=\&quot;tre-r385-declaration-act-de-soin-amm-DE026\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Liste des communes (à renseigner dans la suite du dossier)&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"
   },
-  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.extension">extension</a>" : [
+  "<a href="http://hl7.org/fhir/R4/domainresource.html#CodeSystem.extension">extension</a>" : [
     {
       "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">url</a>" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value[x]">valuePeriod</a>" : {
+      "<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">valuePeriod</a>" : {
         "<a href="http://hl7.org/fhir/R4/datatypes.html#Period#Period.start">start</a>" : "1900-01-01T00:00:00+01:00"
       }
     }
@@ -353,15 +353,15 @@
       "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateValid",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
         },
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
         },
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "active"
         }
       ]
     },
@@ -371,15 +371,15 @@
       "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateValid",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
         },
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
         },
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "active"
         }
       ]
     },
@@ -389,15 +389,15 @@
       "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateValid",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
         },
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
         },
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "active"
         }
       ]
     },
@@ -407,15 +407,15 @@
       "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateValid",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
         },
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
         },
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "active"
         }
       ]
     },
@@ -425,15 +425,15 @@
       "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateValid",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
         },
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
         },
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "active"
         }
       ]
     },
@@ -443,15 +443,15 @@
       "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateValid",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
         },
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
         },
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "active"
         }
       ]
     },
@@ -461,15 +461,15 @@
       "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateValid",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
         },
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
         },
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "active"
         }
       ]
     },
@@ -479,15 +479,15 @@
       "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateValid",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
         },
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
         },
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "active"
         }
       ]
     },
@@ -497,15 +497,15 @@
       "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateValid",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
         },
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
         },
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "active"
         }
       ]
     },
@@ -515,15 +515,15 @@
       "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateValid",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
         },
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
         },
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "active"
         }
       ]
     },
@@ -533,15 +533,15 @@
       "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateValid",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
         },
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
         },
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "active"
         }
       ]
     },
@@ -551,15 +551,15 @@
       "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateValid",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
         },
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
         },
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "active"
         }
       ]
     },
@@ -569,15 +569,15 @@
       "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateValid",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
         },
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
         },
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "active"
         }
       ]
     },
@@ -587,15 +587,15 @@
       "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateValid",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
         },
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
         },
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "active"
         }
       ]
     },
@@ -605,15 +605,15 @@
       "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateValid",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
         },
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
         },
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "active"
         }
       ]
     },
@@ -623,15 +623,15 @@
       "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateValid",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
         },
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
         },
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "active"
         }
       ]
     },
@@ -641,15 +641,15 @@
       "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateValid",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
         },
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
         },
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "active"
         }
       ]
     },
@@ -659,15 +659,15 @@
       "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateValid",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
         },
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
         },
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "active"
         }
       ]
     },
@@ -677,15 +677,15 @@
       "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateValid",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
         },
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
         },
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "active"
         }
       ]
     },
@@ -695,15 +695,15 @@
       "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateValid",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
         },
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
         },
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "active"
         }
       ]
     },
@@ -713,15 +713,15 @@
       "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateValid",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
         },
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
         },
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "active"
         }
       ]
     },
@@ -731,15 +731,15 @@
       "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateValid",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
         },
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
         },
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "active"
         }
       ]
     },
@@ -749,15 +749,15 @@
       "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">property</a>" : [
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateValid",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
         },
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "dateMaj",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueDateTime</a>" : "1900-01-01T00:00:00+01:00"
         },
         {
           "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">code</a>" : "status",
-          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">valueCode</a>" : "active"
+          "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">valueCode</a>" : "active"
         }
       ]
     }
@@ -808,7 +808,7 @@
 
 <div class="inner-wrapper">
   <p>
-    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Dec 15, 2025 15:14+0000">2025-12-15</span>
+    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sat, Dec 20, 2025 13:25+0000">2025-12-20</span>
     <br/>
     <span style="color: var(--footer-highlight-text-color)"></span>
       Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

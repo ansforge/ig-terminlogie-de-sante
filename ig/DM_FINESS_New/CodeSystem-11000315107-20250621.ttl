@@ -15,18 +15,22 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem 11000315107-20250621</b></p><a name=\"11000315107-20250621\"> </a><a name=\"hc11000315107-20250621\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 1; Dernière mise à jour : 2025-11-06 10:03:09+0000</p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>inactive</td><td>inactive</td><td>boolean</td><td>Whether the code is active or not (defaults to false).</td></tr><tr><td>sufficientlyDefined</td><td>sufficientlyDefined</td><td>boolean</td><td>True if the description logic definition of the concept includes sufficient conditions (i.e., if the concept is not primitive).</td></tr><tr><td>parent</td><td>parent</td><td>code</td><td>The SNOMED CT concept id that is a direct parent of the concept.</td></tr><tr><td>child</td><td>child</td><td>code</td><td>The SNOMED CT concept id that is a direct child of the concept.</td></tr><tr><td>moduleId</td><td>moduleId</td><td>code</td><td>The SNOMED CT concept id of the module that the concept belongs to.</td></tr></table><p><b>Filtres</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>Description</b></td><td><b>Op</b></td><td><b>Valeur</b></td></tr><tr><td>concept</td><td>Includes all concept ids that have a transitive is-a relationship with the code provided as the value.</td><td>is-a </td><td>A SNOMED CT code</td></tr><tr><td>concept</td><td>Includes all concept ids that have a transitive is-a relationship with the code provided as the value, excluding the code itself.</td><td>descendent-of </td><td>A SNOMED CT code</td></tr><tr><td>concept</td><td>Includes all concept ids that are active members of the reference set identified by the concept id provided as the value.</td><td>in </td><td>A SNOMED CT concept id</td></tr><tr><td>constraint</td><td>The result of the filter is the result of evaluating the given SNOMED CT Expression Constraint.</td><td>= </td><td>A SNOMED CT Expression Constraint</td></tr><tr><td>expression</td><td>The result of the filter is the result of evaluating the given SNOMED CT Expression Constraint.</td><td>= </td><td>A SNOMED CT Expression Constraint</td></tr><tr><td>parent</td><td>Includes all concept ids that have/do not have a parent concept.</td><td>exists = </td><td>A boolean, to specifiy whether or not the property has a value.</td></tr><tr><td>child</td><td>Includes all concept ids that have/do not have a child concept.</td><td>exists = </td><td>A boolean, to specifiy whether or not the property has a value.</td></tr></table><p><b>Concepts</b></p><p>This case-sensitive code system <code>http://snomed.info/sct</code> defines codes in a Is-A hierarchy, but no codes are represented here</p></div>"^^rdf:XMLLiteral
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem 11000315107-20250621</b></p><a name=\"11000315107-20250621\"> </a><a name=\"hc11000315107-20250621\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 1; Dernière mise à jour : 2025-11-06 10:03:09+0000</p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>inactive</td><td>inactive</td><td>boolean</td><td>Whether the code is active or not (defaults to false).</td></tr><tr><td>sufficientlyDefined</td><td>sufficientlyDefined</td><td>boolean</td><td>True if the description logic definition of the concept includes sufficient conditions (i.e., if the concept is not primitive).</td></tr><tr><td>parent</td><td>parent</td><td>code</td><td>The SNOMED CT concept id that is a direct parent of the concept.</td></tr><tr><td>child</td><td>child</td><td>code</td><td>The SNOMED CT concept id that is a direct child of the concept.</td></tr><tr><td>moduleId</td><td>moduleId</td><td>code</td><td>The SNOMED CT concept id of the module that the concept belongs to.</td></tr></table><p><b>Filtres</b></p><table class=\"grid\"><tr><td><b>Code</b></td><td><b>Description</b></td><td><b>Op</b></td><td><b>Valeur</b></td></tr><tr><td>concept</td><td>Includes all concept ids that have a transitive is-a relationship with the code provided as the value.</td><td>is-a </td><td>A SNOMED CT code</td></tr><tr><td>concept</td><td>Includes all concept ids that have a transitive is-a relationship with the code provided as the value, excluding the code itself.</td><td>descendent-of </td><td>A SNOMED CT code</td></tr><tr><td>concept</td><td>Includes all concept ids that are active members of the reference set identified by the concept id provided as the value.</td><td>in </td><td>A SNOMED CT concept id</td></tr><tr><td>constraint</td><td>The result of the filter is the result of evaluating the given SNOMED CT Expression Constraint.</td><td>= </td><td>A SNOMED CT Expression Constraint</td></tr><tr><td>expression</td><td>The result of the filter is the result of evaluating the given SNOMED CT Expression Constraint.</td><td>= </td><td>A SNOMED CT Expression Constraint</td></tr><tr><td>parent</td><td>Includes all concept ids that have/do not have a parent concept.</td><td>exists = </td><td>A boolean, to specifiy whether or not the property has a value.</td></tr><tr><td>child</td><td>Includes all concept ids that have/do not have a child concept.</td><td>exists = </td><td>A boolean, to specifiy whether or not the property has a value.</td></tr></table><p><b>Concepts</b></p><p>This case-sensitive code system <code>http://snomed.info/sct</code> defines codes dans une hiérarchie Is-A, but no codes are represented here</p></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:contained ( [
      a fhir:Provenance ;
      fhir:id [ fhir:v "1" ] ;
      fhir:target ( [
+       fhir:l fhir:11000315107-20250621 ;
        fhir:reference [ fhir:v "11000315107-20250621" ]
      ] ) ;
      fhir:recorded [ fhir:v "2025-07-01T08:54:18.863+00:00"^^xsd:dateTime ] ;
      fhir:activity [
        fhir:coding ( [
-         fhir:system [ fhir:v "http://hl7.org/fhir/w3c-provenance-activity-type"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://hl7.org/fhir/w3c-provenance-activity-type"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/w3c-provenance-activity-type>
+         ] ;
          fhir:code [ fhir:v "Derivation" ] ;
          fhir:display [ fhir:v "wasDerivedFrom" ]
        ] )
@@ -34,17 +38,22 @@
      fhir:agent ( [
        fhir:role ( [
          fhir:coding ( [
-           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/extra-security-role-type"^^xsd:anyURI ] ;
+           fhir:system [
+             fhir:v "http://terminology.hl7.org/CodeSystem/extra-security-role-type"^^xsd:anyURI ;
+             fhir:l <http://terminology.hl7.org/CodeSystem/extra-security-role-type>
+           ] ;
            fhir:code [ fhir:v "dataprocessor" ]
          ] )
        ] ) ;
        fhir:who [
+         fhir:l <#2> ;
          fhir:reference [ fhir:v "#2" ]
        ]
      ] ) ;
      fhir:entity ( [
        fhir:role [ fhir:v "source" ] ;
        fhir:what [
+         fhir:l <#3> ;
          fhir:reference [ fhir:v "#3" ]
        ]
      ] )
@@ -52,7 +61,10 @@
      a fhir:Device ;
      fhir:id [ fhir:v "2" ] ;
      fhir:identifier ( [
-       fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
+         fhir:l <urn:ietf:rfc:3986>
+       ] ;
        fhir:value [ fhir:v "http://ontoserver.csiro.au" ]
      ] ) ;
      fhir:version ( [
@@ -64,7 +76,10 @@
      fhir:status [ fhir:v "current" ] ;
      fhir:content ( [
        fhir:attachment [
-         fhir:url [ fhir:v "file:/tmp/rawdata-18096421365736105238.zip"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "file:/tmp/rawdata-18096421365736105238.zip"^^xsd:anyURI ;
+           fhir:l <https://interop.esante.gouv.fr/terminologies/file:/tmp/rawdata-18096421365736105238.zip>
+         ] ;
          fhir:title [ fhir:v "RF2_SOURCE_SNAPSHOT" ]
        ]
      ] )
@@ -72,13 +87,16 @@
      a fhir:Provenance ;
      fhir:id [ fhir:v "321fec7b-62c2-4b66-8b12-2683d9c852e6" ] ;
      fhir:target ( [
-       fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/11000315107-20250621> ;
+       fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/11000315107-20250621> ;
        fhir:reference [ fhir:v "CodeSystem/11000315107-20250621" ]
      ] ) ;
      fhir:recorded [ fhir:v "2025-11-06T11:03:09.230+01:00"^^xsd:dateTime ] ;
      fhir:activity [
        fhir:coding ( [
-         fhir:system [ fhir:v "http://hl7.org/fhir/w3c-provenance-activity-type"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://hl7.org/fhir/w3c-provenance-activity-type"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/w3c-provenance-activity-type>
+         ] ;
          fhir:code [ fhir:v "Derivation" ] ;
          fhir:display [ fhir:v "wasDerivedFrom" ]
        ] )
@@ -86,17 +104,22 @@
      fhir:agent ( [
        fhir:role ( [
          fhir:coding ( [
-           fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/extra-security-role-type"^^xsd:anyURI ] ;
+           fhir:system [
+             fhir:v "http://terminology.hl7.org/CodeSystem/extra-security-role-type"^^xsd:anyURI ;
+             fhir:l <http://terminology.hl7.org/CodeSystem/extra-security-role-type>
+           ] ;
            fhir:code [ fhir:v "dataprocessor" ]
          ] )
        ] ) ;
        fhir:who [
+         fhir:l <#8367b72c-0acf-4e92-b56f-f5d69deffdd2> ;
          fhir:reference [ fhir:v "#8367b72c-0acf-4e92-b56f-f5d69deffdd2" ]
        ]
      ] ) ;
      fhir:entity ( [
        fhir:role [ fhir:v "source" ] ;
        fhir:what [
+         fhir:l <#bd5b903c-d82e-46a2-b25f-945159ca9bda> ;
          fhir:reference [ fhir:v "#bd5b903c-d82e-46a2-b25f-945159ca9bda" ]
        ]
      ] )
@@ -104,7 +127,10 @@
      a fhir:Device ;
      fhir:id [ fhir:v "8367b72c-0acf-4e92-b56f-f5d69deffdd2" ] ;
      fhir:identifier ( [
-       fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
+         fhir:l <urn:ietf:rfc:3986>
+       ] ;
        fhir:value [ fhir:v "http://ontoserver.csiro.au" ]
      ] ) ;
      fhir:version ( [
@@ -116,47 +142,82 @@
      fhir:status [ fhir:v "current" ] ;
      fhir:content ( [
        fhir:attachment [
-         fhir:url [ fhir:v "file:/tmp/rawdata-420918405825916513.zip"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "file:/tmp/rawdata-420918405825916513.zip"^^xsd:anyURI ;
+           fhir:l <https://interop.esante.gouv.fr/terminologies/file:/tmp/rawdata-420918405825916513.zip>
+         ] ;
          fhir:title [ fhir:v "RF2_SOURCE_SNAPSHOT" ]
        ]
      ] )
   ] ) ; # 
   fhir:extension ( [
      fhir:extension ( [
-       fhir:url [ fhir:v "provenance"^^xsd:anyURI ] ;
+       fhir:url [
+         fhir:v "provenance"^^xsd:anyURI ;
+         fhir:l fhir:provenance
+       ] ;
        fhir:value [
          a fhir:Reference ;
+         fhir:l <#1> ;
          fhir:reference [ fhir:v "#1" ]
        ]
      ] [
-       fhir:url [ fhir:v "source"^^xsd:anyURI ] ;
+       fhir:url [
+         fhir:v "source"^^xsd:anyURI ;
+         fhir:l fhir:source
+       ] ;
        fhir:value [
          a fhir:Attachment ;
-         fhir:url [ fhir:v "file:/tmp/rawdata-18096421365736105238.zip"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "file:/tmp/rawdata-18096421365736105238.zip"^^xsd:anyURI ;
+           fhir:l <https://interop.esante.gouv.fr/terminologies/file:/tmp/rawdata-18096421365736105238.zip>
+         ] ;
          fhir:title [ fhir:v "RF2_SOURCE_SNAPSHOT" ]
        ]
      ] ) ;
-     fhir:url [ fhir:v "http://ontoserver.csiro.au/profiles/cs-provenance"^^xsd:anyURI ]
+     fhir:url [
+       fhir:v "http://ontoserver.csiro.au/profiles/cs-provenance"^^xsd:anyURI ;
+       fhir:l <http://ontoserver.csiro.au/profiles/cs-provenance>
+     ]
   ] [
      fhir:extension ( [
-       fhir:url [ fhir:v "provenance"^^xsd:anyURI ] ;
+       fhir:url [
+         fhir:v "provenance"^^xsd:anyURI ;
+         fhir:l fhir:provenance
+       ] ;
        fhir:value [
          a fhir:Reference ;
+         fhir:l <#321fec7b-62c2-4b66-8b12-2683d9c852e6> ;
          fhir:reference [ fhir:v "#321fec7b-62c2-4b66-8b12-2683d9c852e6" ]
        ]
      ] [
-       fhir:url [ fhir:v "source"^^xsd:anyURI ] ;
+       fhir:url [
+         fhir:v "source"^^xsd:anyURI ;
+         fhir:l fhir:source
+       ] ;
        fhir:value [
          a fhir:Attachment ;
-         fhir:url [ fhir:v "file:/tmp/rawdata-420918405825916513.zip"^^xsd:anyURI ] ;
+         fhir:url [
+           fhir:v "file:/tmp/rawdata-420918405825916513.zip"^^xsd:anyURI ;
+           fhir:l <https://interop.esante.gouv.fr/terminologies/file:/tmp/rawdata-420918405825916513.zip>
+         ] ;
          fhir:title [ fhir:v "RF2_SOURCE_SNAPSHOT" ]
        ]
      ] ) ;
-     fhir:url [ fhir:v "http://ontoserver.csiro.au/profiles/cs-provenance"^^xsd:anyURI ]
+     fhir:url [
+       fhir:v "http://ontoserver.csiro.au/profiles/cs-provenance"^^xsd:anyURI ;
+       fhir:l <http://ontoserver.csiro.au/profiles/cs-provenance>
+     ]
   ] ) ; # 
-  fhir:url [ fhir:v "http://snomed.info/sct"^^xsd:anyURI] ; # 
+  fhir:url [
+     fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+     fhir:l <http://snomed.info/sct>
+  ] ; # 
   fhir:identifier ( [
-     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:system [
+       fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
+       fhir:l <urn:ietf:rfc:3986>
+     ] ;
      fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.96" ]
   ] ) ; # 
   fhir:version [ fhir:v "http://snomed.info/sct/11000315107/version/20250621"] ; # 
@@ -171,7 +232,7 @@
   fhir:caseSensitive [ fhir:v true] ; # 
   fhir:valueSet [
      fhir:v "http://snomed.info/sct/11000315107/version/20250621?fhir_vs"^^xsd:anyURI ;
-     fhir:link <http://snomed.info/sct/11000315107/version/20250621?fhir_vs>
+     fhir:l <http://snomed.info/sct/11000315107/version/20250621?fhir_vs>
   ] ; # 
   fhir:hierarchyMeaning [ fhir:v "is-a"] ; # 
   fhir:compositional [ fhir:v true] ; # 

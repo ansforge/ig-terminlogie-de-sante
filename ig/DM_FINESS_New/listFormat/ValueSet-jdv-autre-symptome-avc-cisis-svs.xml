@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20251028115835"
+             dateMaj="20251216141840"
              dateValid="20100101000000"
              description="JDV Autre Symptome Avc CISIS"
              displayName="JdvAutreSymptomeAvcCisis"
@@ -11,25 +11,23 @@
              urlFichier="">
       <ConceptList>
          <concept code="Y06.9"
-                  codeSystem="2.16.840.1.113883.6.3"
+                  codeSystem=""
                   displayName="Délaissement et abandon par une personne non précisée"/>
          <concept code="G44"
-                  codeSystem="2.16.840.1.113883.6.3"
+                  codeSystem=""
                   displayName="Autres syndromes d'algies céphaliques"/>
          <concept code="R41.8"
-                  codeSystem="2.16.840.1.113883.6.3"
+                  codeSystem=""
                   displayName="Symptômes et signes relatifs aux fonctions cognitives et à la conscience, autres et non précisés"/>
          <concept code="R41.0"
-                  codeSystem="2.16.840.1.113883.6.3"
+                  codeSystem=""
                   displayName="Désorientation, sans précision"/>
          <concept code="R47.02"
-                  codeSystem="2.16.840.1.113883.6.3"
+                  codeSystem=""
                   displayName="Aphasie, autre et sans précision"/>
-         <concept code="R47.1"
-                  codeSystem="2.16.840.1.113883.6.3"
-                  displayName="Dysarthrie et anarthrie"/>
+         <concept code="R47.1" codeSystem="" displayName="Dysarthrie et anarthrie"/>
          <concept code="G90.9"
-                  codeSystem="2.16.840.1.113883.6.3"
+                  codeSystem=""
                   displayName="Affection du système nerveux autonome, sans précision"/>
          <concept code="61683000"
                   codeSystem="2.16.840.1.113883.6.96"

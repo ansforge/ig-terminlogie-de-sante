@@ -420,7 +420,7 @@
       "status" : "active",
       "name" : "TRE_R13_CommuneOM",
       "title" : null,
-      "description" : null,
+      "description" : "",
       "oids" : ["1.2.250.1.213.2.23"]
     },
     {
@@ -434,11 +434,11 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R16-LieuFormation/FHIR/TRE-R16-LieuFormation",
-      "version" : "20251016120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "TRE_R16_LieuFormation",
       "title" : null,
-      "description" : null,
+      "description" : "",
       "oids" : ["1.2.250.1.213.1.6.1.35"]
     },
     {
@@ -569,16 +569,16 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique",
-      "version" : "20251017120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "TRE_R210_ActeSpecifique",
       "title" : null,
-      "description" : null,
+      "description" : "",
       "oids" : ["1.2.250.1.213.3.3.11"]
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle",
-      "version" : "20251017120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "TRE_R211_ActiviteOperationnelle",
       "title" : null,
@@ -596,7 +596,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R213-ModePriseEnCharge/FHIR/TRE-R213-ModePriseEnCharge",
-      "version" : "20250828120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "TRE_R213_ModePriseEnCharge",
       "title" : null,
@@ -677,8 +677,8 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R221-ModeleDocumentCDANonStructure/FHIR/TRE-R221-ModeleDocumentCDANonStructure",
-      "version" : "20231215120000",
-      "status" : "active",
+      "version" : "20251222120000",
+      "status" : "retired",
       "name" : "TRE_R221_ModeleDocumentCDANonStructure",
       "title" : null,
       "description" : "Identifiant des modèles de CDA non structurés",
@@ -686,8 +686,8 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R222-MediaTypeCorpsCDANonStructure/FHIR/TRE-R222-MediaTypeCorpsCDANonStructure",
-      "version" : "20231215120000",
-      "status" : "active",
+      "version" : "20251222120000",
+      "status" : "retired",
       "name" : "TRE_R222_MediaTypeCorpsCDANonStructure",
       "title" : null,
       "description" : "Identifiant des modèles de CDA non structurés",
@@ -884,7 +884,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R244-CategorieOrganisation/FHIR/TRE-R244-CategorieOrganisation",
-      "version" : "20251017120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "TRE_R244_CategorieOrganisation",
       "title" : null,
@@ -1667,7 +1667,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R338-ModaliteAccueil/FHIR/TRE-R338-ModaliteAccueil",
-      "version" : "20251017120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "TRE_R338_ModaliteAccueil",
       "title" : null,
@@ -1712,7 +1712,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R343-FonctionLieu/FHIR/TRE-R343-FonctionLieu",
-      "version" : "20251017120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "TRE_R343_FonctionLieu",
       "title" : null,
@@ -1721,7 +1721,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R344-NiveauExpertise/FHIR/TRE-R344-NiveauExpertise",
-      "version" : "20250623120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "TRE_R344_NiveauExpertise",
       "title" : null,
@@ -1739,7 +1739,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R348-FormationSpecialiseeTransversale/FHIR/TRE-R348-FormationSpecialiseeTransversale",
-      "version" : "20231215120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "TRE_R348_FormationSpecialiseeTransversale",
       "title" : null,
@@ -1829,7 +1829,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R359-SurspecialiteTransversale/FHIR/TRE-R359-SurspecialiteTransversale",
-      "version" : "20240531120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "TRE_R359_SurspecialiteTransversale",
       "title" : null,
@@ -1847,7 +1847,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R368-StatutRessource/FHIR/TRE-R368-StatutRessource",
-      "version" : "20250919120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "TRE_R368_StatutRessource",
       "title" : null,
@@ -2045,7 +2045,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R58-AutreTypeDiplome/FHIR/TRE-R58-AutreTypeDiplome",
-      "version" : "20250828120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "TRE_R58_AutreTypeDiplome",
       "title" : null,
@@ -2216,7 +2216,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge",
-      "version" : "20250919120000",
+      "version" : "20251222120000",
       "status" : "active",
       "name" : "TRE_R85_RolePriseCharge",
       "title" : null,
@@ -2306,7 +2306,7 @@
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-      "version" : "202510230000",
+      "version" : "202512170000",
       "status" : "active",
       "name" : "TerminologieCISIS",
       "title" : "TerminologieCISIS - Terminologie des concepts non trouvés dans les autres terminologies",
@@ -2660,7 +2660,7 @@
       "status" : "active",
       "name" : "ATC",
       "title" : "Classification anatomique, thérapeutique et chimique",
-      "description" : null,
+      "description" : "",
       "oids" : ["2.16.840.1.113883.6.73"]
     },
     {
@@ -2669,7 +2669,7 @@
       "status" : "active",
       "name" : "BDPM",
       "title" : "Base de données publique du médicament",
-      "description" : null
+      "description" : ""
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-ccam",
@@ -2677,7 +2677,7 @@
       "status" : "active",
       "name" : "CCAM",
       "title" : "Classification Commune des Actes Médicaux",
-      "description" : null,
+      "description" : "",
       "oids" : ["1.2.250.1.215.300.1"]
     },
     {
@@ -2686,7 +2686,7 @@
       "status" : "active",
       "name" : "CIM_10_FR_PMSI",
       "title" : "Classification internationale des maladies et des problèmes de santé connexes - 10ème révision - Version française à usage PMSI (Programme Médicalisé des Systèmes d'Information)",
-      "description" : null,
+      "description" : "",
       "oids" : ["2.16.840.1.113883.6.3"]
     },
     {
@@ -2695,7 +2695,7 @@
       "status" : "active",
       "name" : "CIM11_MMS",
       "title" : "Classification internationale des maladies et des problèmes de santé connexes - 11ème révision",
-      "description" : null,
+      "description" : "",
       "oids" : ["2.16.840.1.113883.6.347"]
     },
     {
@@ -2704,7 +2704,7 @@
       "status" : "active",
       "name" : "CISP_2",
       "title" : "Classification internationale des soins primaires - 2ème version",
-      "description" : null,
+      "description" : "",
       "oids" : ["2.16.840.1.113883.6.139"]
     },
     {
@@ -2713,7 +2713,7 @@
       "status" : "active",
       "name" : "EMDN",
       "title" : "European Medical device nomenclature",
-      "description" : null,
+      "description" : "",
       "oids" : ["1.2.250.1.213.2.68"]
     },
     {
@@ -2731,7 +2731,7 @@
       "status" : "active",
       "name" : "NABM",
       "title" : "Nomenclature des actes de biologie médicale",
-      "description" : null,
+      "description" : "",
       "oids" : ["1.2.250.1.215.300.2"]
     },
     {
@@ -2740,7 +2740,7 @@
       "status" : "active",
       "name" : "NUVA",
       "title" : "Nomenclature Unifiée des Vaccins",
-      "description" : null,
+      "description" : "",
       "oids" : ["1.3.6.1.4.1.48601.1"]
     },
     {
@@ -2749,7 +2749,7 @@
       "status" : "active",
       "name" : "Dictionnaire_SMS_Substance_Management_Services_",
       "title" : "Dictionnaire européen multilingue des substances entrant dans la composition de médicaments",
-      "description" : null,
+      "description" : "",
       "oids" : ["2.16.840.1.113883.3.6905.2"]
     },
     {
@@ -2758,7 +2758,7 @@
       "status" : "active",
       "name" : "Standard_terms_EDQM",
       "title" : "Standard Terms Data Base Dictionnaire européen multilingue de termes normalisés descripteurs de médicaments",
-      "description" : null,
+      "description" : "",
       "oids" : ["0.4.0.127.0.16.1.1.2.1"]
     }
   ]

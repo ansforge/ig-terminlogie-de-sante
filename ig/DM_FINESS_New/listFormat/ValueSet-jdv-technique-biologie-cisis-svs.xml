@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20251028115833"
+             dateMaj="20251216141838"
              dateValid="20220112000000"
              description="JDV Technique Biologie CISIS"
              displayName="JdvTechniqueBiologieCisis"
@@ -36,13 +36,13 @@
                   displayName="Culture sur milieu chromogène"/>
          <concept code="BDB"
                   codeSystem=""
-                  displayName="sensibilité à une molécule-bandelettes gradient sur gélose (CMI)"/>
+                  displayName="Sensibilité à une molécule-bandelettes gradient sur gélose (CMI)"/>
          <concept code="BDD"
                   codeSystem=""
-                  displayName="sensibilité à une molécule-disque sur gélose (diamètre d'inihibition)"/>
+                  displayName="Sensibilité à une molécule-disque sur gélose (diamètre d'inihibition)"/>
          <concept code="BLX"
                   codeSystem=""
-                  displayName="sensibilité à une molécule-méthodes en milieu liquide"/>
+                  displayName="Sensibilité à une molécule-méthodes en milieu liquide"/>
          <concept code="CAX" codeSystem="" displayName="Chromatographie d'affinité"/>
          <concept code="CBX" codeSystem="" displayName="Chromatographie-CLBP"/>
          <concept code="CLA"
@@ -161,11 +161,11 @@
          <concept code="DCF"
                   codeSystem=""
                   displayName="Cytométrie en flux-fluorescence"/>
+         <concept code="DCI" codeSystem="" displayName="Cytométrie en flux-impédance"/>
          <concept code="DCO" codeSystem="" displayName="Cytométrie en flux-optique"/>
          <concept code="DCP"
                   codeSystem=""
                   displayName="Cytométrie en flux-activité peroxydasique"/>
-         <concept code="DCI" codeSystem="" displayName="Cytométrie en flux-impédance"/>
          <concept code="DCX" codeSystem="" displayName="Cytométrie en flux-autre"/>
          <concept code="DE3"
                   codeSystem=""
@@ -182,18 +182,18 @@
          <concept code="DEH"
                   codeSystem=""
                   displayName="Spectrophotométrie-dosage de substrat-enzymatique-hexokinase"/>
-         <concept code="DEL"
-                  codeSystem=""
-                  displayName="Spectrophotométrie-dosage de substrat-enzymatique-LDH"/>
          <concept code="DEI"
                   codeSystem=""
                   displayName="Spectrophotométrie-dosage de substrat-enzymatique-GDH"/>
-         <concept code="DEX"
+         <concept code="DEL"
                   codeSystem=""
-                  displayName="Spectrophotométrie-dosage de substrat-enzymatique-autre"/>
+                  displayName="Spectrophotométrie-dosage de substrat-enzymatique-LDH"/>
          <concept code="DEO"
                   codeSystem=""
                   displayName="Spectrophotométrie-dosage de substrat-enzymatique-lactate oxydase"/>
+         <concept code="DEX"
+                  codeSystem=""
+                  displayName="Spectrophotométrie-dosage de substrat-enzymatique-autre"/>
          <concept code="DGX"
                   codeSystem=""
                   displayName="Spectrométrie d'absorption atomique (SAA)"/>
@@ -286,12 +286,12 @@
          <concept code="DOX"
                   codeSystem=""
                   displayName="Spectrophotométrie en milieu trouble-autre"/>
+         <concept code="DRX" codeSystem="" displayName="Spectro-Réflectométrie"/>
          <concept code="GAX"
                   codeSystem=""
                   displayName="Amplification génomique isotherme"/>
          <concept code="GCX" codeSystem="" displayName="Caryotype"/>
          <concept code="GMX" codeSystem="" displayName="MLPA/RT MLPA"/>
-         <concept code="GNX" codeSystem="" displayName="Séquençage NGS-autre"/>
          <concept code="GNA"
                   codeSystem=""
                   displayName="Séquençage NGS-ciblé par amplicon"/>
@@ -308,30 +308,31 @@
          <concept code="GNT"
                   codeSystem=""
                   displayName="Séquençage NGS-RNAseq-transcriptome complet"/>
+         <concept code="GNX" codeSystem="" displayName="Séquençage NGS-autre"/>
          <concept code="GOX"
                   codeSystem=""
                   displayName="Cartographie optique du génome-OGM"/>
-         <concept code="GPX" codeSystem="" displayName="puces à ADN, CGH array"/>
+         <concept code="GPX" codeSystem="" displayName="Puces à ADN, CGH array"/>
          <concept code="GRX" codeSystem="" displayName="RFLP"/>
-         <concept code="GSX" codeSystem="" displayName="séquençage Sanger"/>
+         <concept code="GSX" codeSystem="" displayName="Séquençage Sanger"/>
          <concept code="GTX" codeSystem="" displayName="Short Tandem Repeat"/>
-         <concept code="GWX" codeSystem="" displayName="pyroséquençage"/>
-         <concept code="GUF" codeSystem="" displayName="PCR/RT PCR-point final"/>
-         <concept code="GUR" codeSystem="" displayName="PCR/RT PCR-temps réel"/>
          <concept code="GUA"
                   codeSystem=""
                   displayName="PCR/RT PCR-analyse de fragment"/>
-         <concept code="GUD" codeSystem="" displayName="PCR/RT PCR-digitale"/>
          <concept code="GUB"
                   codeSystem=""
                   displayName="PCR/RT PCR et génotypage sur bandelette"/>
+         <concept code="GUD" codeSystem="" displayName="PCR/RT PCR-digitale"/>
+         <concept code="GUF" codeSystem="" displayName="PCR/RT PCR-point final"/>
          <concept code="GUP"
                   codeSystem=""
                   displayName="PCR/RT PCR et génotypage sur puce"/>
-         <concept code="GYF" codeSystem="" displayName="hybridation-FISH"/>
+         <concept code="GUR" codeSystem="" displayName="PCR/RT PCR-temps réel"/>
+         <concept code="GWX" codeSystem="" displayName="Pyroséquençage"/>
          <concept code="GYA"
                   codeSystem=""
-                  displayName="hybridation avec amplification du signal"/>
+                  displayName="Hybridation avec amplification du signal"/>
+         <concept code="GYF" codeSystem="" displayName="Hybridation-FISH"/>
          <concept code="HPC"
                   codeSystem=""
                   displayName="Chronométrie-agrégométrie des plaquettes"/>
@@ -340,6 +341,9 @@
          <concept code="JAP"
                   codeSystem=""
                   displayName="Vitesse d'agrégation-photométrie capillaire"/>
+         <concept code="JAQ"
+                  codeSystem=""
+                  displayName="Vitesse d'agrégation-photométrie (hors capillaire)"/>
          <concept code="JAR"
                   codeSystem=""
                   displayName="Vitesse d'agrégation-rhéoscopie photométrique"/>
@@ -362,94 +366,103 @@
          <concept code="MFI"
                   codeSystem=""
                   displayName="Microscopie-immunofluorescence indirecte (IFI)"/>
-         <concept code="MIB" codeSystem="" displayName="Microscopie-avec coloration"/>
-         <concept code="MIH" codeSystem="" displayName="Microscopie-sans coloration"/>
          <concept code="MIA"
                   codeSystem=""
                   displayName="Comptage microscopique-cellule Malassez"/>
+         <concept code="MIB" codeSystem="" displayName="Microscopie-avec coloration"/>
+         <concept code="MIC"
+                  codeSystem=""
+                  displayName="Comptage microscopique-cellule Neubauer classique"/>
+         <concept code="MID"
+                  codeSystem=""
+                  displayName="Comptage microscopique-cellule Leja"/>
+         <concept code="MIE"
+                  codeSystem=""
+                  displayName="Comptage microscopique-cellule Fast Read 102"/>
          <concept code="MIF"
                   codeSystem=""
-                  displayName="Comptage microscopique-cellule Fuch Rosenthal"/>
+                  displayName="Comptage microscopique-cellule Fuchs Rosenthal"/>
          <concept code="MIG"
                   codeSystem=""
-                  displayName="Comptage microscopique-cellule Bruker-Turc"/>
+                  displayName="Comptage microscopique-cellule Bürker-Türk"/>
+         <concept code="MIH" codeSystem="" displayName="Microscopie-sans coloration"/>
          <concept code="MIK"
                   codeSystem=""
                   displayName="Comptage microscopique-cellule Kova"/>
          <concept code="MIL"
                   codeSystem=""
                   displayName="Comptage microscopique-cellule Lemaur"/>
-         <concept code="MIC"
+         <concept code="MIM"
                   codeSystem=""
-                  displayName="Comptage microscopique-cellule Neubauer classique"/>
+                  displayName="Comptage microscopique-cellule Nageotte"/>
          <concept code="MIN"
                   codeSystem=""
                   displayName="Comptage microscopique-cellule Neubauer améliorée"/>
+         <concept code="MIO"
+                  codeSystem=""
+                  displayName="Comptage microscopique-cellule Vetriplast"/>
+         <concept code="MIR"
+                  codeSystem=""
+                  displayName="Comptage microscopique-cellule Bürker"/>
          <concept code="MIS"
                   codeSystem=""
                   displayName="Comptage microscopique-cellule Makler"/>
-         <concept code="MIR"
-                  codeSystem=""
-                  displayName="Comptage microscopique-cellule Bruker"/>
          <concept code="MIT"
                   codeSystem=""
                   displayName="Comptage microscopique-cellule Thoma"/>
-         <concept code="MIX"
-                  codeSystem=""
-                  displayName="Comptage microscopique-cellule autre"/>
          <concept code="UAA"
                   codeSystem=""
-                  displayName="immuno-analyse-agglutination/hémagglutination"/>
+                  displayName="Immuno-analyse-agglutination/hémagglutination"/>
          <concept code="UAI"
                   codeSystem=""
-                  displayName="immuno-analyse-inhibition de l'agglutination"/>
+                  displayName="Immuno-analyse-inhibition de l'agglutination"/>
          <concept code="UCX"
                   codeSystem=""
-                  displayName="immuno-analyse-chimiluminescence"/>
-         <concept code="UEA" codeSystem="" displayName="immuno-analyse-UV/visible"/>
+                  displayName="Immuno-analyse-chimiluminescence"/>
+         <concept code="UEA" codeSystem="" displayName="Immuno-analyse-UV/visible"/>
          <concept code="UEC"
                   codeSystem=""
-                  displayName="immuno-chromatographie-détection visible"/>
+                  displayName="Immuno-chromatographie-détection visible"/>
          <concept code="UFA"
                   codeSystem=""
-                  displayName="immuno-analyse-détection en fluorescence"/>
+                  displayName="Immuno-analyse-détection en fluorescence"/>
          <concept code="UFC"
                   codeSystem=""
-                  displayName="immuno-chromatographie-détection en fluorescence"/>
+                  displayName="Immuno-chromatographie-détection en fluorescence"/>
          <concept code="UGA"
                   codeSystem=""
-                  displayName="immunoprécipitation-immunodiffusion radiale (IDR)"/>
+                  displayName="Immunoprécipitation-immunodiffusion radiale (IDR)"/>
          <concept code="UIX"
                   codeSystem=""
-                  displayName="immuno-analyse-détection isotopique-code générique"/>
-         <concept code="UNX" codeSystem="" displayName="immuno-analyse-néphélémétrie"/>
-         <concept code="USX" codeSystem="" displayName="immuno-analyse-blot/dots"/>
+                  displayName="Immuno-analyse-détection isotopique-code générique"/>
+         <concept code="UNX" codeSystem="" displayName="Immuno-analyse-néphélémétrie"/>
          <concept code="UPX"
                   codeSystem=""
-                  displayName="immuno-analyse-neutralisation Ag/Ac"/>
-         <concept code="UTX" codeSystem="" displayName="immuno-analyse-turbidimétrie"/>
+                  displayName="Immuno-analyse-neutralisation Ag/Ac"/>
+         <concept code="USX" codeSystem="" displayName="Immuno-analyse-blot/dots"/>
+         <concept code="UTX" codeSystem="" displayName="Immuno-analyse-turbidimétrie"/>
+         <concept code="UVA" codeSystem="" displayName="Immuno-electrophorèse"/>
+         <concept code="UVB" codeSystem="" displayName="Immunofixation"/>
          <concept code="VAX" codeSystem="" displayName="Electrophorèse avec colorant"/>
          <concept code="VBI"
                   codeSystem=""
                   displayName="Electrophorèse capillaire-immunosoustraction"/>
          <concept code="VBX" codeSystem="" displayName="Electrophorèse capillaire"/>
          <concept code="VCX" codeSystem="" displayName="Isofocalisation"/>
-         <concept code="UVA" codeSystem="" displayName="Immuno-electrophorèse"/>
-         <concept code="UVB" codeSystem="" displayName="immunofixation"/>
          <concept code="VEB"
                   codeSystem=""
                   displayName="Co-électrosynérèse, électro-immunodiffusion bidimensionnelle"/>
-         <concept code="ZCX" codeSystem="" displayName="Calcul mathématique"/>
          <concept code="ZAX"
                   codeSystem=""
                   displayName="Centrifugation-mesure d'un rapport de hauteurs"/>
+         <concept code="ZCX" codeSystem="" displayName="Calcul mathématique"/>
+         <concept code="ZDX" codeSystem="" displayName="Abaissement cryoscopique"/>
          <concept code="ZQX"
                   codeSystem=""
                   displayName="Thermochimie-bombe calorimétrique"/>
-         <concept code="ZTX" codeSystem="" displayName="Titrimétrie"/>
          <concept code="ZRX" codeSystem="" displayName="Réfractométrie"/>
+         <concept code="ZTX" codeSystem="" displayName="Titrimétrie"/>
          <concept code="ZVX" codeSystem="" displayName="Tension de vapeur"/>
-         <concept code="ZDX" codeSystem="" displayName="Abaissement cryoscopique"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

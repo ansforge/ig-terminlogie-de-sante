@@ -1,7 +1,7 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MAJ>  
-1.2.250.1.213.1.1.5.598;JDV;JdvRcpOrganeCisis;JDV RCP Organe CISIS;;20210419000000;;20250624152101
+1.2.250.1.213.1.1.5.598;JDV;JdvRcpOrganeCisis;JDV RCP Organe CISIS;;20210419000000;;20251216141840
 <system>;<Code>;<Libellé> 
-2.16.840.1.113883.6.3;C88;Maladies immunoprolifératives malignes
+;C88;Maladies immunoprolifératives malignes
 ;C3211;lymphome non hodgkinien
 ;C9357;Lymphome de Hodgkin
 ;C3483;leucémie chronique
@@ -14,13 +14,13 @@
 ;C9300;leucémie aiguë
 ;C27262;maladies myélodysplasiques-myéloprolifératives
 ;C3242;myélome à cellules plasmatiques
-;C94529;Vulve et vagin
+;C94529;région vulvo-vaginale
 ;C12664;Péritoine-rétropéritoine
 1.2.250.1.213.1.1.4.322;MED-237;Fosses nasales, sinus, oreille moy/int
 1.2.250.1.213.1.1.4.322;MED-251;Colon-Rectum-Anus
 1.2.250.1.213.1.1.4.322;MED-255;Trachée, Bronches, Poumon
-2.16.840.1.113883.6.96;57171008;structure du système hématopoïétique
-2.16.840.1.113883.6.96;119253004;voie aérodigestive supérieure
+2.16.840.1.113883.6.96;57171008;système hématopoïétique
+2.16.840.1.113883.6.96;119253004;voies aérodigestives supérieures
 2.16.840.1.113883.6.96;303270005;foie et/ou voies biliaires
 2.16.840.1.113883.6.96;39937001;peau
 2.16.840.1.113883.6.96;76752008;sein
@@ -31,7 +31,7 @@
 2.16.840.1.113883.6.96;3120008;plèvre
 2.16.840.1.113883.6.96;86762007;système digestif
 2.16.840.1.113883.6.96;74262004;cavité orale
-2.16.840.1.113883.6.96;48477009;lèvre de la bouche
+2.16.840.1.113883.6.96;48477009;lèvre
 2.16.840.1.113883.6.96;21974007;langue
 2.16.840.1.113883.6.96;54066008;pharynx
 2.16.840.1.113883.6.96;32849002;œsophage
@@ -53,8 +53,8 @@
 2.16.840.1.113883.6.96;40689003;testicule
 2.16.840.1.113883.6.96;21483005;système nerveux central
 2.16.840.1.113883.6.96;84782009;nerf périphérique
-2.16.840.1.113883.6.96;1290040004;œil entier
+2.16.840.1.113883.6.96;81745001;œil
 2.16.840.1.113883.6.96;387910009;glande endocrine
-2.16.840.1.113883.6.96;23451007;glande surrénale
-2.16.840.1.113883.6.96;69748006;glande thyroïde
+2.16.840.1.113883.6.96;23451007;glande suprarénale
+2.16.840.1.113883.6.96;69748006;thyroïde
 2.16.840.1.113883.6.96;72410000;médiastin

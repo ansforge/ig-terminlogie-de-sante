@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20251017120000"
+             dateMaj="20251222120000"
              dateValid="20220930120000"
              description="Destination d'usage du lieu pour le lieu de réalisation de l'offre."
              displayName="JDV_J198_FonctionLieu_ROR"
@@ -50,6 +50,48 @@
          <concept code="014"
                   codeSystem="1.2.250.1.213.3.3.227"
                   displayName="Bloc obstétrical"/>
+         <concept code="015"
+                  codeSystem="1.2.250.1.213.3.3.227"
+                  displayName="Local de cabinet de ville d'ergothérapie"/>
+         <concept code="016"
+                  codeSystem="1.2.250.1.213.3.3.227"
+                  displayName="Local de cabinet de ville de diététique"/>
+         <concept code="017"
+                  codeSystem="1.2.250.1.213.3.3.227"
+                  displayName="Local de cabinet dentaire ou de stomatologie"/>
+         <concept code="018"
+                  codeSystem="1.2.250.1.213.3.3.227"
+                  displayName="Local de cabinet de ville de kinésithérapie"/>
+         <concept code="019"
+                  codeSystem="1.2.250.1.213.3.3.227"
+                  displayName="Local de cabinet de ville infirmier"/>
+         <concept code="020"
+                  codeSystem="1.2.250.1.213.3.3.227"
+                  displayName="Local de cabinet de ville de maïeutique"/>
+         <concept code="021"
+                  codeSystem="1.2.250.1.213.3.3.227"
+                  displayName="Local de cabinet de ville d’oto-rhino-laryngologie (ORL)"/>
+         <concept code="022"
+                  codeSystem="1.2.250.1.213.3.3.227"
+                  displayName="Local de cabinet de ville de cardiologie"/>
+         <concept code="023"
+                  codeSystem="1.2.250.1.213.3.3.227"
+                  displayName="Local de cabinet de ville de médecine générale"/>
+         <concept code="024"
+                  codeSystem="1.2.250.1.213.3.3.227"
+                  displayName="Local de cabinet de ville de Médecine Physique et de Réadaptation (MPR)"/>
+         <concept code="025"
+                  codeSystem="1.2.250.1.213.3.3.227"
+                  displayName="Local de cabinet de ville de rhumatologie"/>
+         <concept code="026"
+                  codeSystem="1.2.250.1.213.3.3.227"
+                  displayName="Local de cabinet de ville de pédiatrie"/>
+         <concept code="027"
+                  codeSystem="1.2.250.1.213.3.3.227"
+                  displayName="Local de cabinet de ville d’ophtalmologie"/>
+         <concept code="028"
+                  codeSystem="1.2.250.1.213.3.3.227"
+                  displayName="Local de cabinet de ville de pneumologie"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20251028115833"
+             dateMaj="20251216141838"
              dateValid="20100101000000"
              description="JDV Specimen Type CISIS"
              displayName="JdvSpecimenTypeCisis"
@@ -293,9 +293,9 @@
          <concept code="SCROA" codeSystem="" displayName="Abcès scrotal"/>
          <concept code="SECRE" codeSystem="" displayName="Sécrétion(s)"/>
          <concept code="SER" codeSystem="" displayName="Sérum"/>
-         <concept code="SHU" codeSystem="" displayName="Site du shunt"/>
+         <concept code="SHU" codeSystem="" displayName="Shunt (site)"/>
          <concept code="SHUNF" codeSystem="" displayName="Liquide de shunt"/>
-         <concept code="SHUNT" codeSystem="" displayName="Shunt (site)"/>
+         <concept code="SHUNT" codeSystem="" displayName="Shunt"/>
          <concept code="SITE" codeSystem="" displayName="Site"/>
          <concept code="SKBP" codeSystem="" displayName="Biopsie de peau"/>
          <concept code="SKN" codeSystem="" displayName="Peau"/>

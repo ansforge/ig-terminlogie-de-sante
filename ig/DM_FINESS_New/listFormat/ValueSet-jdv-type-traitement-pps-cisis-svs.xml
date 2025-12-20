@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250624152101"
+             dateMaj="20251216141840"
              dateValid="20210419000000"
              description="JDV Type Traitement Pps CISIS"
              displayName="JdvTypeTraitementPpsCisis"
@@ -18,10 +18,8 @@
          <concept code="C15262" codeSystem="" displayName="immunothérapie"/>
          <concept code="C63334"
                   codeSystem=""
-                  displayName="Radiologie interventionnelle"/>
-         <concept code="C157891"
-                  codeSystem=""
-                  displayName="endoscopie interventionnelle"/>
+                  displayName="imagerie interventionnelle"/>
+         <concept code="C157891" codeSystem="" displayName="endoscopie peropératoire"/>
          <concept code="MED-556"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Fenêtre thérapeutique"/>

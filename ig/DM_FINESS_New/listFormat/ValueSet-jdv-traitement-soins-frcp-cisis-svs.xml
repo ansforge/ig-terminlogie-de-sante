@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250624152101"
+             dateMaj="20251216141840"
              dateValid="20210414000000"
              description="JDV Traitement Soins Frcp CISIS"
              displayName="JdvTraitementSoinsFrcpCisis"
@@ -15,7 +15,7 @@
          <concept code="C15252" codeSystem="" displayName="soins palliatifs"/>
          <concept code="C63334"
                   codeSystem=""
-                  displayName="Radiologie interventionnelle"/>
+                  displayName="imagerie interventionnelle"/>
          <concept code="C15747" codeSystem="" displayName="soins de support"/>
          <concept code="C16832" codeSystem="" displayName="oncologie médicale"/>
          <concept code="C71326"

@@ -1,10 +1,10 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MAJ>  
-1.2.250.1.213.1.1.5.596;JDV;JdvTraitementSoinsFrcpCisis;JDV Traitement Soins Frcp CISIS;;20210414000000;;20250624152101
+1.2.250.1.213.1.1.5.596;JDV;JdvTraitementSoinsFrcpCisis;JDV Traitement Soins Frcp CISIS;;20210414000000;;20251216141840
 <system>;<Code>;<Libellé> 
 ;C3580;métastases osseuses
 ;C3303;douleur
 ;C15252;soins palliatifs
-;C63334;Radiologie interventionnelle
+;C63334;imagerie interventionnelle
 ;C15747;soins de support
 ;C16832;oncologie médicale
 ;C71326;préservation de la fertilité

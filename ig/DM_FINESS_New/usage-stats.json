@@ -34,6 +34,9 @@
     "http://hl7.org/fhir/StructureDefinition/valueset-warning": [
       "ValueSet"
     ],
+    "http://hl7.org/fhir/tools/StructureDefinition/expansion-parameters": [
+      "ImplementationGuide.definition"
+    ],
     "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency": [
       "ImplementationGuide.definition"
     ],

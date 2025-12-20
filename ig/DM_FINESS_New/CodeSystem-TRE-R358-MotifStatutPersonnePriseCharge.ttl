@@ -15,23 +15,32 @@
      fhir:lastUpdated [ fhir:v "2025-07-02T18:17:55.678+00:00"^^xsd:dateTime ] ;
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
+       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
      ] )
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem TRE-R358-MotifStatutPersonnePriseCharge</b></p><a name=\"TRE-R358-MotifStatutPersonnePriseCharge\"> </a><a name=\"hcTRE-R358-MotifStatutPersonnePriseCharge\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 4; Dernière mise à jour : 2024-08-28 05:13:46+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://mos.esante.gouv.fr/NOS/TRE_R358-MotifStatutPersonnePriseCharge/FHIR/TRE-R358-MotifStatutPersonnePriseCharge</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>dateFin</b></td><td><b>French (France) (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">84<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-84\"> </a></td><td>Le demandeur ne remplit pas les exigences d'admission</td><td>2023-06-30T12:00:00+01:00</td><td>2023-06-30T12:00:00+01:00</td><td/><td>Remplit pas exigence admission</td></tr><tr><td style=\"white-space:nowrap\">85<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-85\"> </a></td><td>Volonté du demandeur</td><td>2023-06-30T12:00:00+01:00</td><td>2023-06-30T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">86<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-86\"> </a></td><td>Le plateau technique n'est pas adapté à la prise en charge de l'usager</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>Plateau technique pas adapté</td></tr><tr><td style=\"white-space:nowrap\">87<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-87\"> </a></td><td>L'usager est admis dans un autre ESMS suite à un déménagement</td><td>2023-06-30T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>Déménagement ESMS</td></tr><tr><td style=\"white-space:nowrap\">88<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-88\"> </a></td><td>Suite à la décision de la CDAPH</td><td>2023-06-30T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>Décision CDAPH</td></tr><tr><td style=\"white-space:nowrap\">89<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-89\"> </a></td><td>L'usager ne souhaite plus être pris en charge par l'ESMS</td><td>2023-06-30T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>Décision usager</td></tr><tr><td style=\"white-space:nowrap\">90<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-90\"> </a></td><td>Décès</td><td>2023-06-30T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">91<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-91\"> </a></td><td>L'usager est admis dans un autre ESMS suite à une réorientation</td><td>2023-06-30T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>Réorientation</td></tr><tr><td style=\"white-space:nowrap\">92<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-92\"> </a></td><td>Amélioration notoire de la situation de l'usager</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>Amélioration</td></tr><tr><td style=\"white-space:nowrap\">93<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-93\"> </a></td><td>Aggravation notoire de la situation de l'usager</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>Aggravation</td></tr><tr><td style=\"white-space:nowrap\">95<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-95\"> </a></td><td>Annulation automatique</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">98<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-98\"> </a></td><td>Fin de validité de la notification</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>Fin de validité</td></tr><tr><td style=\"white-space:nowrap\">100<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-100\"> </a></td><td>Volonté de l'usager</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">109<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-109\"> </a></td><td>Déménagement</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">112<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-112\"> </a></td><td>Erreur d'utilisation du logiciel</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>Erreur utilisation logiciel</td></tr><tr><td style=\"white-space:nowrap\">113<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-113\"> </a></td><td>Eloignement géographique</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">114<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-114\"> </a></td><td>Les ressources de l'ESMS ne sont pas suffisantes</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>Ressources ESMS insuffisantes</td></tr><tr><td style=\"white-space:nowrap\">115<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-115\"> </a></td><td>L'ESMS n'est pas adapté au projet de vie actuel de l'usager</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>L'ESMS n'est pas adapté</td></tr><tr><td style=\"white-space:nowrap\">116<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-116\"> </a></td><td>Le type de handicap ne relève pas de l'ESMS</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>Handicap pas PEC par l'ESMS</td></tr><tr><td style=\"white-space:nowrap\">117<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-117\"> </a></td><td>La situation de l'usager a changé, l'ESMS n'est pas adapté</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>Situation de l'usager changée</td></tr><tr><td style=\"white-space:nowrap\">118<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-118\"> </a></td><td>L'usager ou son représentant légal refuse de s'inscrire dans l'ESMS</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>Refus inscription dans l'ESMS</td></tr><tr><td style=\"white-space:nowrap\">119<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-119\"> </a></td><td>L'usager a été admis dans un autre ESMS, l'orientation n'est plus pertinente</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>Usager admis dans autre ESMS</td></tr><tr><td style=\"white-space:nowrap\">120<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-120\"> </a></td><td>L'usager a déménagé, l'orientation n'est plus pertinente géographiquement</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>L'usager a déménagé</td></tr><tr><td style=\"white-space:nowrap\">121<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-121\"> </a></td><td>L'usager ou son représentant légal refuse d'adhérer au projet de vie de l'ESMS</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>Refus projet de vie de l'ESMS</td></tr><tr><td style=\"white-space:nowrap\">122<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-122\"> </a></td><td>L'âge de l'usager est incompatible</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>Age usager est incompatible</td></tr><tr><td style=\"white-space:nowrap\">124<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-124\"> </a></td><td>L'usager est décédé</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">125<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-125\"> </a></td><td>L'usager a démissionné (ESAT)</td><td>2023-06-30T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>Démission (ESAT)</td></tr><tr><td style=\"white-space:nowrap\">126<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-126\"> </a></td><td>Prise en charge invalidité SS (ESAT)</td><td>2023-06-30T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>Prise charge invalidité SS</td></tr><tr><td style=\"white-space:nowrap\">127<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-127\"> </a></td><td>Retraite (ESAT)</td><td>2023-06-30T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>L'usager a fait valoir ses droits à la retraite (ESAT)</td></tr><tr><td style=\"white-space:nowrap\">128<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-128\"> </a></td><td>Fin de contrat (SAVS/SAMSAH/SESSAD)</td><td>2023-06-30T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>Fin contrat SAVS/SAMSAH/SESSAD</td></tr><tr><td style=\"white-space:nowrap\">135<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-135\"> </a></td><td>Fin de période d'essai</td><td>2023-06-30T12:00:00+01:00</td><td>2023-06-30T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">136<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-136\"> </a></td><td>Renouvellement</td><td>2023-06-30T12:00:00+01:00</td><td>2023-06-30T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">146<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-146\"> </a></td><td>Entrée en apprentissage</td><td>2023-06-30T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>L'usager a pu entrer en apprentissage</td></tr><tr><td style=\"white-space:nowrap\">147<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-147\"> </a></td><td>Réinsertion en milieu ordinaire</td><td>2023-06-30T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>Réinsertion milieu ordinaire</td></tr><tr><td style=\"white-space:nowrap\">148<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-148\"> </a></td><td>L'ESMS n'a pas réussi à joindre l'usager</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>Usager injoignable par ESMS</td></tr><tr><td style=\"white-space:nowrap\">150<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-150\"> </a></td><td>L'usager a pris contact avec l'ESMS</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>Prise de contact avec l'ESMS</td></tr><tr><td style=\"white-space:nowrap\">151<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-151\"> </a></td><td>L'ESMS a pris contact avec l'usager</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>Prise de contact avec usager</td></tr><tr><td style=\"white-space:nowrap\">152<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-152\"> </a></td><td>L'usager a visité l'ESMS</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">153<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-153\"> </a></td><td>L'ESMS a envoyé une documentation à l'usager</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>Documentation ESMS envoyée</td></tr><tr><td style=\"white-space:nowrap\">157<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-157\"> </a></td><td>Hospitalisation</td><td>2023-06-30T12:00:00+01:00</td><td>2023-06-30T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">158<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-158\"> </a></td><td>Admission en établissement pour personnes âgées</td><td>2023-06-30T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>Adm étab. pr personnes âgées</td></tr><tr><td style=\"white-space:nowrap\">159<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-159\"> </a></td><td>Fin de formation</td><td>2023-06-30T12:00:00+01:00</td><td>2023-06-30T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">168<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-168\"> </a></td><td>Pour placer l'usager en liste d'attente</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>Usager en liste d'attente</td></tr><tr><td style=\"white-space:nowrap\">170<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-170\"> </a></td><td>Pour prendre en charge l'usager à temps adapté</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>PEC de l'usager à temps adapté</td></tr><tr><td style=\"white-space:nowrap\">172<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-172\"> </a></td><td>Changement de situation de l'usager</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>Changement de situation usager</td></tr><tr><td style=\"white-space:nowrap\">173<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-173\"> </a></td><td>Une autre décision annule et remplace cette décision</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>Annule et remplace décision</td></tr><tr><td style=\"white-space:nowrap\">174<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-174\"> </a></td><td>Décision clôturée par la MDPH</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">184<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-184\"> </a></td><td>L'usager est accueilli en famille d'accueil</td><td>2023-06-30T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>Usager en famille d'accueil</td></tr><tr><td style=\"white-space:nowrap\">204<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-204\"> </a></td><td>Fin de l'accueil temporaire</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">253<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-253\"> </a></td><td>L'usager est transféré dans une autre unité</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>Usager transféré - autre unité</td></tr></table></div>"^^rdf:XMLLiteral
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem TRE-R358-MotifStatutPersonnePriseCharge</b></p><a name=\"TRE-R358-MotifStatutPersonnePriseCharge\"> </a><a name=\"hcTRE-R358-MotifStatutPersonnePriseCharge\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 4; Dernière mise à jour : 2024-08-28 05:13:46+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://mos.esante.gouv.fr/NOS/TRE_R358-MotifStatutPersonnePriseCharge/FHIR/TRE-R358-MotifStatutPersonnePriseCharge</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>dateFin</b></td><td><b>French (France) (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">84<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-84\"> </a></td><td>Le demandeur ne remplit pas les exigences d'admission</td><td>2023-06-30T12:00:00+01:00</td><td>2023-06-30T12:00:00+01:00</td><td/><td>Remplit pas exigence admission</td></tr><tr><td style=\"white-space:nowrap\">85<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-85\"> </a></td><td>Volonté du demandeur</td><td>2023-06-30T12:00:00+01:00</td><td>2023-06-30T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">86<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-86\"> </a></td><td>Le plateau technique n'est pas adapté à la prise en charge de l'usager</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>Plateau technique pas adapté</td></tr><tr><td style=\"white-space:nowrap\">87<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-87\"> </a></td><td>L'usager est admis dans un autre ESMS suite à un déménagement</td><td>2023-06-30T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>Déménagement ESMS</td></tr><tr><td style=\"white-space:nowrap\">88<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-88\"> </a></td><td>Suite à la décision de la CDAPH</td><td>2023-06-30T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>Décision CDAPH</td></tr><tr><td style=\"white-space:nowrap\">89<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-89\"> </a></td><td>L'usager ne souhaite plus être pris en charge par l'ESMS</td><td>2023-06-30T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>Décision usager</td></tr><tr><td style=\"white-space:nowrap\">90<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-90\"> </a></td><td>Décès</td><td>2023-06-30T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">91<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-91\"> </a></td><td>L'usager est admis dans un autre ESMS suite à une réorientation</td><td>2023-06-30T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>Réorientation</td></tr><tr><td style=\"white-space:nowrap\">92<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-92\"> </a></td><td>Amélioration notoire de la situation de l'usager</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>Amélioration</td></tr><tr><td style=\"white-space:nowrap\">93<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-93\"> </a></td><td>Aggravation notoire de la situation de l'usager</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>Aggravation</td></tr><tr><td style=\"white-space:nowrap\">95<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-95\"> </a></td><td>Annulation automatique</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">98<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-98\"> </a></td><td>Fin de validité de la notification</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>Fin de validité</td></tr><tr><td style=\"white-space:nowrap\">100<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-100\"> </a></td><td>Volonté de l'usager</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">109<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-109\"> </a></td><td>Déménagement</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">112<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-112\"> </a></td><td>Erreur d'utilisation du logiciel</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>Erreur utilisation logiciel</td></tr><tr><td style=\"white-space:nowrap\">113<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-113\"> </a></td><td>Eloignement géographique</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">114<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-114\"> </a></td><td>Les ressources de l'ESMS ne sont pas suffisantes</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>Ressources ESMS insuffisantes</td></tr><tr><td style=\"white-space:nowrap\">115<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-115\"> </a></td><td>L'ESMS n'est pas adapté au projet de vie actuel de l'usager</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>L'ESMS n'est pas adapté</td></tr><tr><td style=\"white-space:nowrap\">116<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-116\"> </a></td><td>Le type de handicap ne relève pas de l'ESMS</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>Handicap pas PEC par l'ESMS</td></tr><tr><td style=\"white-space:nowrap\">117<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-117\"> </a></td><td>La situation de l'usager a changé, l'ESMS n'est pas adapté</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>Situation de l'usager changée</td></tr><tr><td style=\"white-space:nowrap\">118<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-118\"> </a></td><td>L'usager ou son représentant légal refuse de s'inscrire dans l'ESMS</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>Refus inscription dans l'ESMS</td></tr><tr><td style=\"white-space:nowrap\">119<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-119\"> </a></td><td>L'usager a été admis dans un autre ESMS, l'orientation n'est plus pertinente</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>Usager admis dans autre ESMS</td></tr><tr><td style=\"white-space:nowrap\">120<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-120\"> </a></td><td>L'usager a déménagé, l'orientation n'est plus pertinente géographiquement</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>L'usager a déménagé</td></tr><tr><td style=\"white-space:nowrap\">121<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-121\"> </a></td><td>L'usager ou son représentant légal refuse d'adhérer au projet de vie de l'ESMS</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>Refus projet de vie de l'ESMS</td></tr><tr><td style=\"white-space:nowrap\">122<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-122\"> </a></td><td>L'âge de l'usager est incompatible</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>Age usager est incompatible</td></tr><tr><td style=\"white-space:nowrap\">124<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-124\"> </a></td><td>L'usager est décédé</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">125<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-125\"> </a></td><td>L'usager a démissionné (ESAT)</td><td>2023-06-30T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>Démission (ESAT)</td></tr><tr><td style=\"white-space:nowrap\">126<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-126\"> </a></td><td>Prise en charge invalidité SS (ESAT)</td><td>2023-06-30T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>Prise charge invalidité SS</td></tr><tr><td style=\"white-space:nowrap\">127<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-127\"> </a></td><td>Retraite (ESAT)</td><td>2023-06-30T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>L'usager a fait valoir ses droits à la retraite (ESAT)</td></tr><tr><td style=\"white-space:nowrap\">128<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-128\"> </a></td><td>Fin de contrat (SAVS/SAMSAH/SESSAD)</td><td>2023-06-30T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>Fin contrat SAVS/SAMSAH/SESSAD</td></tr><tr><td style=\"white-space:nowrap\">135<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-135\"> </a></td><td>Fin de période d'essai</td><td>2023-06-30T12:00:00+01:00</td><td>2023-06-30T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">136<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-136\"> </a></td><td>Renouvellement</td><td>2023-06-30T12:00:00+01:00</td><td>2023-06-30T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">146<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-146\"> </a></td><td>Entrée en apprentissage</td><td>2023-06-30T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>L'usager a pu entrer en apprentissage</td></tr><tr><td style=\"white-space:nowrap\">147<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-147\"> </a></td><td>Réinsertion en milieu ordinaire</td><td>2023-06-30T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>Réinsertion milieu ordinaire</td></tr><tr><td style=\"white-space:nowrap\">148<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-148\"> </a></td><td>L'ESMS n'a pas réussi à joindre l'usager</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>Usager injoignable par ESMS</td></tr><tr><td style=\"white-space:nowrap\">150<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-150\"> </a></td><td>L'usager a pris contact avec l'ESMS</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>Prise de contact avec l'ESMS</td></tr><tr><td style=\"white-space:nowrap\">151<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-151\"> </a></td><td>L'ESMS a pris contact avec l'usager</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>Prise de contact avec usager</td></tr><tr><td style=\"white-space:nowrap\">152<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-152\"> </a></td><td>L'usager a visité l'ESMS</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">153<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-153\"> </a></td><td>L'ESMS a envoyé une documentation à l'usager</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>Documentation ESMS envoyée</td></tr><tr><td style=\"white-space:nowrap\">157<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-157\"> </a></td><td>Hospitalisation</td><td>2023-06-30T12:00:00+01:00</td><td>2023-06-30T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">158<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-158\"> </a></td><td>Admission en établissement pour personnes âgées</td><td>2023-06-30T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>Adm étab. pr personnes âgées</td></tr><tr><td style=\"white-space:nowrap\">159<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-159\"> </a></td><td>Fin de formation</td><td>2023-06-30T12:00:00+01:00</td><td>2023-06-30T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">168<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-168\"> </a></td><td>Pour placer l'usager en liste d'attente</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>Usager en liste d'attente</td></tr><tr><td style=\"white-space:nowrap\">170<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-170\"> </a></td><td>Pour prendre en charge l'usager à temps adapté</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>PEC de l'usager à temps adapté</td></tr><tr><td style=\"white-space:nowrap\">172<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-172\"> </a></td><td>Changement de situation de l'usager</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>Changement de situation usager</td></tr><tr><td style=\"white-space:nowrap\">173<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-173\"> </a></td><td>Une autre décision annule et remplace cette décision</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>Annule et remplace décision</td></tr><tr><td style=\"white-space:nowrap\">174<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-174\"> </a></td><td>Décision clôturée par la MDPH</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">184<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-184\"> </a></td><td>L'usager est accueilli en famille d'accueil</td><td>2023-06-30T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>Usager en famille d'accueil</td></tr><tr><td style=\"white-space:nowrap\">204<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-204\"> </a></td><td>Fin de l'accueil temporaire</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td/></tr><tr><td style=\"white-space:nowrap\">253<a name=\"TRE-R358-MotifStatutPersonnePriseCharge-253\"> </a></td><td>L'usager est transféré dans une autre unité</td><td>2023-09-22T12:00:00+01:00</td><td>2023-09-22T12:00:00+01:00</td><td/><td>Usager transféré - autre unité</td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
-     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod>
+     ] ;
      fhir:value [
        a fhir:Period ;
        fhir:start [ fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime ]
      ]
   ] ) ; # 
-  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R358-MotifStatutPersonnePriseCharge/FHIR/TRE-R358-MotifStatutPersonnePriseCharge"^^xsd:anyURI] ; # 
+  fhir:url [
+     fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R358-MotifStatutPersonnePriseCharge/FHIR/TRE-R358-MotifStatutPersonnePriseCharge"^^xsd:anyURI ;
+     fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R358-MotifStatutPersonnePriseCharge/FHIR/TRE-R358-MotifStatutPersonnePriseCharge>
+  ] ; # 
   fhir:identifier ( [
-     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:system [
+       fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
+       fhir:l <urn:ietf:rfc:3986>
+     ] ;
      fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.248" ]
   ] ) ; # 
   fhir:version [ fhir:v "20231215120000"] ; # 
@@ -43,7 +52,10 @@
   fhir:description [ fhir:v "Motif du statut de la personne prise en charge"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
-       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
        fhir:code [ fhir:v "FR" ]
      ] )
   ] ) ; # 
@@ -63,17 +75,26 @@
      fhir:type [ fhir:v "dateTime" ]
   ] [
      fhir:code [ fhir:v "deprecationDate" ] ;
-     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#deprecationDate"^^xsd:anyURI ] ;
+     fhir:uri [
+       fhir:v "http://hl7.org/fhir/concept-properties#deprecationDate"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/concept-properties#deprecationDate>
+     ] ;
      fhir:description [ fhir:v "Date Concept was deprecated" ] ;
      fhir:type [ fhir:v "dateTime" ]
   ] [
      fhir:code [ fhir:v "status" ] ;
-     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#status"^^xsd:anyURI ] ;
+     fhir:uri [
+       fhir:v "http://hl7.org/fhir/concept-properties#status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/concept-properties#status>
+     ] ;
      fhir:description [ fhir:v "A property that indicates the status of the concept." ] ;
      fhir:type [ fhir:v "code" ]
   ] [
      fhir:code [ fhir:v "retirementDate" ] ;
-     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#retirementDate"^^xsd:anyURI ] ;
+     fhir:uri [
+       fhir:v "http://hl7.org/fhir/concept-properties#retirementDate"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/concept-properties#retirementDate>
+     ] ;
      fhir:description [ fhir:v "Date Concept was retired" ] ;
      fhir:type [ fhir:v "dateTime" ]
   ] ) ; # 
@@ -84,7 +105,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Remplit pas exigence admission" ]
@@ -92,19 +116,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -114,19 +138,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -137,7 +161,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Plateau technique pas adapté" ]
@@ -145,19 +172,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -168,7 +195,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Déménagement ESMS" ]
@@ -176,19 +206,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -199,7 +229,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Décision CDAPH" ]
@@ -207,19 +240,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -230,7 +263,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Décision usager" ]
@@ -238,19 +274,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -260,31 +296,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -295,7 +331,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Réorientation" ]
@@ -303,19 +342,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -326,7 +365,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Amélioration" ]
@@ -334,19 +376,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -357,7 +399,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Aggravation" ]
@@ -365,19 +410,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -387,19 +432,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -410,7 +455,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Fin de validité" ]
@@ -418,19 +466,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -440,19 +488,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -462,19 +510,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -485,7 +533,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Erreur utilisation logiciel" ]
@@ -493,19 +544,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -515,19 +566,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -538,7 +589,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Ressources ESMS insuffisantes" ]
@@ -546,19 +600,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -569,7 +623,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "L'ESMS n'est pas adapté" ]
@@ -577,19 +634,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -600,7 +657,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Handicap pas PEC par l'ESMS" ]
@@ -608,19 +668,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -631,7 +691,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Situation de l'usager changée" ]
@@ -639,19 +702,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -662,7 +725,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Refus inscription dans l'ESMS" ]
@@ -670,19 +736,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -693,7 +759,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Usager admis dans autre ESMS" ]
@@ -701,19 +770,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -724,7 +793,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "L'usager a déménagé" ]
@@ -732,19 +804,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -755,7 +827,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Refus projet de vie de l'ESMS" ]
@@ -763,19 +838,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -786,7 +861,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Age usager est incompatible" ]
@@ -794,19 +872,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -816,19 +894,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -839,7 +917,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Démission (ESAT)" ]
@@ -847,19 +928,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -870,7 +951,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Prise charge invalidité SS" ]
@@ -878,7 +962,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "L'usager est pris en charge par la sécurité sociale au titre de l'invalidité (ESAT)" ]
@@ -886,19 +973,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -909,7 +996,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "L'usager a fait valoir ses droits à la retraite (ESAT)" ]
@@ -917,19 +1007,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -940,7 +1030,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Fin contrat SAVS/SAMSAH/SESSAD" ]
@@ -948,7 +1041,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "L'usager est arrivé à la fin du contrat de prise en charge (SAVS/SAMSAH/SESSAD)" ]
@@ -956,19 +1052,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -978,19 +1074,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1000,19 +1096,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1023,7 +1119,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "L'usager a pu entrer en apprentissage" ]
@@ -1031,19 +1130,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1054,7 +1153,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Réinsertion milieu ordinaire" ]
@@ -1062,7 +1164,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "L'usager a pu se réinsérer en milieu ordinaire" ]
@@ -1070,19 +1175,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1093,7 +1198,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Usager injoignable par ESMS" ]
@@ -1101,19 +1209,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1124,7 +1232,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Prise de contact avec l'ESMS" ]
@@ -1132,19 +1243,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1155,7 +1266,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Prise de contact avec usager" ]
@@ -1163,19 +1277,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1185,19 +1299,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1208,7 +1322,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Documentation ESMS envoyée" ]
@@ -1216,19 +1333,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1238,19 +1355,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1261,7 +1378,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Adm étab. pr personnes âgées" ]
@@ -1269,7 +1389,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "L'usager est admis dans un établissement pour personnes âgées" ]
@@ -1277,19 +1400,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1299,19 +1422,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1322,7 +1445,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Usager en liste d'attente" ]
@@ -1330,19 +1456,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1353,7 +1479,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "PEC de l'usager à temps adapté" ]
@@ -1361,19 +1490,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1384,7 +1513,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Changement de situation usager" ]
@@ -1392,19 +1524,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1415,7 +1547,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Annule et remplace décision" ]
@@ -1423,19 +1558,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1445,19 +1580,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1468,7 +1603,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Usager en famille d'accueil" ]
@@ -1476,19 +1614,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-06-30T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1498,19 +1636,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )
@@ -1521,7 +1659,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Usager transféré - autre unité" ]
@@ -1529,19 +1670,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2023-09-22T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] )

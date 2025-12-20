@@ -15,23 +15,32 @@
      fhir:lastUpdated [ fhir:v "2024-12-30T12:00:00+01:00"^^xsd:dateTime ] ;
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
+       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
      ] )
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem tre-r365-etat-objet</b></p><a name=\"tre-r365-etat-objet\"> </a><a name=\"hctre-r365-etat-objet\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 1; Dernière mise à jour : 2024-12-30 12:00:00+0100</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr><tr><td>status</td><td>status</td><td>http://hl7.org/fhir/concept-properties#status</td><td>code</td><td>A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired</td></tr><tr><td>deprecationDate</td><td>deprecationDate</td><td>http://hl7.org/fhir/concept-properties#deprecationDate</td><td>dateTime</td><td>The date at which a concept was deprecated. Concepts that are deprecated but not inactive can still be used, but their use is discouraged, and they should be expected to be made inactive in a future release. Property type is dateTime. Note that the status property may also be used to indicate that a concept is deprecated</td></tr><tr><td>retirementDate</td><td>retirementDate</td><td>http://hl7.org/fhir/concept-properties#retirementDate</td><td>dateTime</td><td>The date at which a concept was retired</td></tr><tr><td>macroEtatAdministratif</td><td>macroEtatAdministratif</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#macroEtatAdministratif</td><td>Coding</td><td>Macro-état administratif (actif ou inactif) du code concept</td></tr><tr><td>finess</td><td>finess</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#finess</td><td>boolean</td><td>Permet de définir les codes concepts utilisés par FINESS+</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r365-etat-objet</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>status</b></td><td><b>macroEtatAdministratif</b></td><td><b>finess</b></td><td><b>French (France) (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">001<a name=\"tre-r365-etat-objet-001\"> </a></td><td>Entrée dans le champ FINESS</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>A</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">002<a name=\"tre-r365-etat-objet-002\"> </a></td><td>Sortie du champ FINESS</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>I</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">003<a name=\"tre-r365-etat-objet-003\"> </a></td><td>Créée / immatriculée</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>A</td><td>true</td><td>Créée</td></tr><tr><td style=\"white-space:nowrap\">004<a name=\"tre-r365-etat-objet-004\"> </a></td><td>Cessée</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>I</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">005<a name=\"tre-r365-etat-objet-005\"> </a></td><td>Fermée</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>I</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">007<a name=\"tre-r365-etat-objet-007\"> </a></td><td>Première autorisation de l'EGE</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>A</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">010<a name=\"tre-r365-etat-objet-010\"> </a></td><td>Activité autorisée</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>A</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">012<a name=\"tre-r365-etat-objet-012\"> </a></td><td>Activité installée/meo</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>A</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">013<a name=\"tre-r365-etat-objet-013\"> </a></td><td>Activité fermée</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>I</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">015<a name=\"tre-r365-etat-objet-015\"> </a></td><td>Activité désinstallée</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>I</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">016<a name=\"tre-r365-etat-objet-016\"> </a></td><td>Devient membre du groupe</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>A</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">017<a name=\"tre-r365-etat-objet-017\"> </a></td><td>Sortie du groupe</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>A</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">018<a name=\"tre-r365-etat-objet-018\"> </a></td><td>EGE fermée suite à cession</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>I</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">019<a name=\"tre-r365-etat-objet-019\"> </a></td><td>EGE reprise</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>A</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">020<a name=\"tre-r365-etat-objet-020\"> </a></td><td>PM-EJ fermée suite à cession</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>I</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">021<a name=\"tre-r365-etat-objet-021\"> </a></td><td>Activité exercée cédée</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>A</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">022<a name=\"tre-r365-etat-objet-022\"> </a></td><td>Activité exercée reprise</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>A</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">023<a name=\"tre-r365-etat-objet-023\"> </a></td><td>Activité exercée fermée suite à regroupement</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>I</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">024<a name=\"tre-r365-etat-objet-024\"> </a></td><td>Activité exercée regroupée</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>A</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">025<a name=\"tre-r365-etat-objet-025\"> </a></td><td>Activité en injonction (suspendue)</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>I</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">027<a name=\"tre-r365-etat-objet-027\"> </a></td><td>Fin de suspension, activité active</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>A</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">029<a name=\"tre-r365-etat-objet-029\"> </a></td><td>Activité autorisée caduque (fermée)</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>I</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">030<a name=\"tre-r365-etat-objet-030\"> </a></td><td>Titularité activité cédée</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>I</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">031<a name=\"tre-r365-etat-objet-031\"> </a></td><td>Titularité activité reprise</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>A</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">032<a name=\"tre-r365-etat-objet-032\"> </a></td><td>Activité fermée suite à regroupement (autorisée)</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>I</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">033<a name=\"tre-r365-etat-objet-033\"> </a></td><td>Activité autorisée regroupée</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>A</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">034<a name=\"tre-r365-etat-objet-034\"> </a></td><td>PM Pharmacie créée</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>A</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">035<a name=\"tre-r365-etat-objet-035\"> </a></td><td>EGE Pharmacie créée</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>A</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">036<a name=\"tre-r365-etat-objet-036\"> </a></td><td>EGE Pharmacie ouverte</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>A</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">037<a name=\"tre-r365-etat-objet-037\"> </a></td><td>Nouveau titulaire</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>A</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">038<a name=\"tre-r365-etat-objet-038\"> </a></td><td>EGE fermée provisoirement</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>I</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">039<a name=\"tre-r365-etat-objet-039\"> </a></td><td>EGE réouverte</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>A</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">040<a name=\"tre-r365-etat-objet-040\"> </a></td><td>Activitée fermée provisoirement</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>I</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">041<a name=\"tre-r365-etat-objet-041\"> </a></td><td>Activitée réouverte</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>A</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">100<a name=\"tre-r365-etat-objet-100\"> </a></td><td>Sortie définitivement champ FINESS</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>I</td><td>true</td><td>Sortie définitivement</td></tr><tr><td style=\"white-space:nowrap\">101<a name=\"tre-r365-etat-objet-101\"> </a></td><td>Erreur d'enregistrement</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>I</td><td>true</td><td>Erreur</td></tr><tr><td style=\"white-space:nowrap\">102<a name=\"tre-r365-etat-objet-102\"> </a></td><td>Sortie champ FINESS</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>I</td><td>true</td><td>Sortie champ</td></tr><tr><td style=\"white-space:nowrap\">103<a name=\"tre-r365-etat-objet-103\"> </a></td><td>Sortie provisoirement champ FINESS</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>I</td><td>true</td><td>Sortie provisoirement</td></tr></table></div>"^^rdf:XMLLiteral
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem tre-r365-etat-objet</b></p><a name=\"tre-r365-etat-objet\"> </a><a name=\"hctre-r365-etat-objet\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 1; Dernière mise à jour : 2024-12-30 12:00:00+0100</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr><tr><td>status</td><td>status</td><td>http://hl7.org/fhir/concept-properties#status</td><td>code</td><td>A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired</td></tr><tr><td>deprecationDate</td><td>deprecationDate</td><td>http://hl7.org/fhir/concept-properties#deprecationDate</td><td>dateTime</td><td>The date at which a concept was deprecated. Concepts that are deprecated but not inactive can still be used, but their use is discouraged, and they should be expected to be made inactive in a future release. Property type is dateTime. Note that the status property may also be used to indicate that a concept is deprecated</td></tr><tr><td>retirementDate</td><td>retirementDate</td><td>http://hl7.org/fhir/concept-properties#retirementDate</td><td>dateTime</td><td>The date at which a concept was retired</td></tr><tr><td>macroEtatAdministratif</td><td>macroEtatAdministratif</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#macroEtatAdministratif</td><td>Coding</td><td>Macro-état administratif (actif ou inactif) du code concept</td></tr><tr><td>finess</td><td>finess</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#finess</td><td>boolean</td><td>Permet de définir les codes concepts utilisés par FINESS+</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r365-etat-objet</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>status</b></td><td><b>macroEtatAdministratif</b></td><td><b>finess</b></td><td><b>French (France) (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">001<a name=\"tre-r365-etat-objet-001\"> </a></td><td>Entrée dans le champ FINESS</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>A</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">002<a name=\"tre-r365-etat-objet-002\"> </a></td><td>Sortie du champ FINESS</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>I</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">003<a name=\"tre-r365-etat-objet-003\"> </a></td><td>Créée / immatriculée</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>A</td><td>true</td><td>Créée</td></tr><tr><td style=\"white-space:nowrap\">004<a name=\"tre-r365-etat-objet-004\"> </a></td><td>Cessée</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>I</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">005<a name=\"tre-r365-etat-objet-005\"> </a></td><td>Fermée</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>I</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">007<a name=\"tre-r365-etat-objet-007\"> </a></td><td>Première autorisation de l'EGE</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>A</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">010<a name=\"tre-r365-etat-objet-010\"> </a></td><td>Activité autorisée</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>A</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">012<a name=\"tre-r365-etat-objet-012\"> </a></td><td>Activité installée/meo</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>A</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">013<a name=\"tre-r365-etat-objet-013\"> </a></td><td>Activité fermée</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>I</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">015<a name=\"tre-r365-etat-objet-015\"> </a></td><td>Activité désinstallée</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>I</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">016<a name=\"tre-r365-etat-objet-016\"> </a></td><td>Devient membre du groupe</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>A</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">017<a name=\"tre-r365-etat-objet-017\"> </a></td><td>Sortie du groupe</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>A</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">018<a name=\"tre-r365-etat-objet-018\"> </a></td><td>EGE fermée suite à cession</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>I</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">019<a name=\"tre-r365-etat-objet-019\"> </a></td><td>EGE reprise</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>A</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">020<a name=\"tre-r365-etat-objet-020\"> </a></td><td>PM-EJ fermée suite à cession</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>I</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">021<a name=\"tre-r365-etat-objet-021\"> </a></td><td>Activité exercée cédée</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>A</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">022<a name=\"tre-r365-etat-objet-022\"> </a></td><td>Activité exercée reprise</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>A</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">023<a name=\"tre-r365-etat-objet-023\"> </a></td><td>Activité exercée fermée suite à regroupement</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>I</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">024<a name=\"tre-r365-etat-objet-024\"> </a></td><td>Activité exercée regroupée</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>A</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">025<a name=\"tre-r365-etat-objet-025\"> </a></td><td>Activité en injonction (suspendue)</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>I</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">027<a name=\"tre-r365-etat-objet-027\"> </a></td><td>Fin de suspension, activité active</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>A</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">029<a name=\"tre-r365-etat-objet-029\"> </a></td><td>Activité autorisée caduque (fermée)</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>I</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">030<a name=\"tre-r365-etat-objet-030\"> </a></td><td>Titularité activité cédée</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>I</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">031<a name=\"tre-r365-etat-objet-031\"> </a></td><td>Titularité activité reprise</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>A</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">032<a name=\"tre-r365-etat-objet-032\"> </a></td><td>Activité fermée suite à regroupement (autorisée)</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>I</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">033<a name=\"tre-r365-etat-objet-033\"> </a></td><td>Activité autorisée regroupée</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>A</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">034<a name=\"tre-r365-etat-objet-034\"> </a></td><td>PM Pharmacie créée</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>A</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">035<a name=\"tre-r365-etat-objet-035\"> </a></td><td>EGE Pharmacie créée</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>A</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">036<a name=\"tre-r365-etat-objet-036\"> </a></td><td>EGE Pharmacie ouverte</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>A</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">037<a name=\"tre-r365-etat-objet-037\"> </a></td><td>Nouveau titulaire</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>A</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">038<a name=\"tre-r365-etat-objet-038\"> </a></td><td>EGE fermée provisoirement</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>I</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">039<a name=\"tre-r365-etat-objet-039\"> </a></td><td>EGE réouverte</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>A</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">040<a name=\"tre-r365-etat-objet-040\"> </a></td><td>Activitée fermée provisoirement</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>I</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">041<a name=\"tre-r365-etat-objet-041\"> </a></td><td>Activitée réouverte</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>A</td><td>true</td><td/></tr><tr><td style=\"white-space:nowrap\">100<a name=\"tre-r365-etat-objet-100\"> </a></td><td>Sortie définitivement champ FINESS</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>I</td><td>true</td><td>Sortie définitivement</td></tr><tr><td style=\"white-space:nowrap\">101<a name=\"tre-r365-etat-objet-101\"> </a></td><td>Erreur d'enregistrement</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>I</td><td>true</td><td>Erreur</td></tr><tr><td style=\"white-space:nowrap\">102<a name=\"tre-r365-etat-objet-102\"> </a></td><td>Sortie champ FINESS</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>I</td><td>true</td><td>Sortie champ</td></tr><tr><td style=\"white-space:nowrap\">103<a name=\"tre-r365-etat-objet-103\"> </a></td><td>Sortie provisoirement champ FINESS</td><td>1900-01-01T00:00:00+01:00</td><td>1900-01-01T00:00:00+01:00</td><td>active</td><td>I</td><td>true</td><td>Sortie provisoirement</td></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
-     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod>
+     ] ;
      fhir:value [
        a fhir:Period ;
        fhir:start [ fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime ]
      ]
   ] ) ; # 
-  fhir:url [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r365-etat-objet"^^xsd:anyURI] ; # 
+  fhir:url [
+     fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r365-etat-objet"^^xsd:anyURI ;
+     fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r365-etat-objet>
+  ] ; # 
   fhir:identifier ( [
-     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:system [
+       fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
+       fhir:l <urn:ietf:rfc:3986>
+     ] ;
      fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.259" ]
   ] ) ; # 
   fhir:version [ fhir:v "20241230120000"] ; # 
@@ -47,42 +56,66 @@
   fhir:count [ fhir:v "38"^^xsd:nonNegativeInteger] ; # 
   fhir:property ( [
      fhir:code [ fhir:v "dateValid" ] ;
-     fhir:uri [ fhir:v "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"^^xsd:anyURI ] ;
+     fhir:uri [
+       fhir:v "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"^^xsd:anyURI ;
+       fhir:l <https://smt.esante.gouv.fr/fhir/concept-properties#dateValid>
+     ] ;
      fhir:description [ fhir:v "date de validité d'un code concept" ] ;
      fhir:type [ fhir:v "dateTime" ]
   ] [
      fhir:code [ fhir:v "dateMaj" ] ;
-     fhir:uri [ fhir:v "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj"^^xsd:anyURI ] ;
+     fhir:uri [
+       fhir:v "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj"^^xsd:anyURI ;
+       fhir:l <https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj>
+     ] ;
      fhir:description [ fhir:v "Date de mise à jour d'un code concept" ] ;
      fhir:type [ fhir:v "dateTime" ]
   ] [
      fhir:code [ fhir:v "dateFin" ] ;
-     fhir:uri [ fhir:v "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin"^^xsd:anyURI ] ;
+     fhir:uri [
+       fhir:v "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin"^^xsd:anyURI ;
+       fhir:l <https://smt.esante.gouv.fr/fhir/concept-properties#dateFin>
+     ] ;
      fhir:description [ fhir:v "Date de fin d'exploitation d'un code concept" ] ;
      fhir:type [ fhir:v "dateTime" ]
   ] [
      fhir:code [ fhir:v "status" ] ;
-     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#status"^^xsd:anyURI ] ;
+     fhir:uri [
+       fhir:v "http://hl7.org/fhir/concept-properties#status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/concept-properties#status>
+     ] ;
      fhir:description [ fhir:v "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired" ] ;
      fhir:type [ fhir:v "code" ]
   ] [
      fhir:code [ fhir:v "deprecationDate" ] ;
-     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#deprecationDate"^^xsd:anyURI ] ;
+     fhir:uri [
+       fhir:v "http://hl7.org/fhir/concept-properties#deprecationDate"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/concept-properties#deprecationDate>
+     ] ;
      fhir:description [ fhir:v "The date at which a concept was deprecated. Concepts that are deprecated but not inactive can still be used, but their use is discouraged, and they should be expected to be made inactive in a future release. Property type is dateTime. Note that the status property may also be used to indicate that a concept is deprecated" ] ;
      fhir:type [ fhir:v "dateTime" ]
   ] [
      fhir:code [ fhir:v "retirementDate" ] ;
-     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#retirementDate"^^xsd:anyURI ] ;
+     fhir:uri [
+       fhir:v "http://hl7.org/fhir/concept-properties#retirementDate"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/concept-properties#retirementDate>
+     ] ;
      fhir:description [ fhir:v "The date at which a concept was retired" ] ;
      fhir:type [ fhir:v "dateTime" ]
   ] [
      fhir:code [ fhir:v "macroEtatAdministratif" ] ;
-     fhir:uri [ fhir:v "https://smt.esante.gouv.fr/fhir/concept-properties#macroEtatAdministratif"^^xsd:anyURI ] ;
+     fhir:uri [
+       fhir:v "https://smt.esante.gouv.fr/fhir/concept-properties#macroEtatAdministratif"^^xsd:anyURI ;
+       fhir:l <https://smt.esante.gouv.fr/fhir/concept-properties#macroEtatAdministratif>
+     ] ;
      fhir:description [ fhir:v "Macro-état administratif (actif ou inactif) du code concept" ] ;
      fhir:type [ fhir:v "Coding" ]
   ] [
      fhir:code [ fhir:v "finess" ] ;
-     fhir:uri [ fhir:v "https://smt.esante.gouv.fr/fhir/concept-properties#finess"^^xsd:anyURI ] ;
+     fhir:uri [
+       fhir:v "https://smt.esante.gouv.fr/fhir/concept-properties#finess"^^xsd:anyURI ;
+       fhir:l <https://smt.esante.gouv.fr/fhir/concept-properties#finess>
+     ] ;
      fhir:description [ fhir:v "Permet de définir les codes concepts utilisés par FINESS+" ] ;
      fhir:type [ fhir:v "boolean" ]
   ] ) ; # 
@@ -92,32 +125,35 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] [
        fhir:code [ fhir:v "macroEtatAdministratif" ] ;
        fhir:value [
          a fhir:Coding ;
-         fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+         ] ;
          fhir:code [ fhir:v "A" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
        fhir:value [
-         a fhir:boolean ;
+         a fhir:Boolean ;
          fhir:v true
        ]
      ] )
@@ -127,32 +163,35 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] [
        fhir:code [ fhir:v "macroEtatAdministratif" ] ;
        fhir:value [
          a fhir:Coding ;
-         fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+         ] ;
          fhir:code [ fhir:v "I" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
        fhir:value [
-         a fhir:boolean ;
+         a fhir:Boolean ;
          fhir:v true
        ]
      ] )
@@ -163,7 +202,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Créée" ]
@@ -171,32 +213,35 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] [
        fhir:code [ fhir:v "macroEtatAdministratif" ] ;
        fhir:value [
          a fhir:Coding ;
-         fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+         ] ;
          fhir:code [ fhir:v "A" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
        fhir:value [
-         a fhir:boolean ;
+         a fhir:Boolean ;
          fhir:v true
        ]
      ] )
@@ -206,32 +251,35 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] [
        fhir:code [ fhir:v "macroEtatAdministratif" ] ;
        fhir:value [
          a fhir:Coding ;
-         fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+         ] ;
          fhir:code [ fhir:v "I" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
        fhir:value [
-         a fhir:boolean ;
+         a fhir:Boolean ;
          fhir:v true
        ]
      ] )
@@ -241,32 +289,35 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] [
        fhir:code [ fhir:v "macroEtatAdministratif" ] ;
        fhir:value [
          a fhir:Coding ;
-         fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+         ] ;
          fhir:code [ fhir:v "I" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
        fhir:value [
-         a fhir:boolean ;
+         a fhir:Boolean ;
          fhir:v true
        ]
      ] )
@@ -276,32 +327,35 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] [
        fhir:code [ fhir:v "macroEtatAdministratif" ] ;
        fhir:value [
          a fhir:Coding ;
-         fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+         ] ;
          fhir:code [ fhir:v "A" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
        fhir:value [
-         a fhir:boolean ;
+         a fhir:Boolean ;
          fhir:v true
        ]
      ] )
@@ -311,32 +365,35 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] [
        fhir:code [ fhir:v "macroEtatAdministratif" ] ;
        fhir:value [
          a fhir:Coding ;
-         fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+         ] ;
          fhir:code [ fhir:v "A" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
        fhir:value [
-         a fhir:boolean ;
+         a fhir:Boolean ;
          fhir:v true
        ]
      ] )
@@ -346,32 +403,35 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] [
        fhir:code [ fhir:v "macroEtatAdministratif" ] ;
        fhir:value [
          a fhir:Coding ;
-         fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+         ] ;
          fhir:code [ fhir:v "A" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
        fhir:value [
-         a fhir:boolean ;
+         a fhir:Boolean ;
          fhir:v true
        ]
      ] )
@@ -381,32 +441,35 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] [
        fhir:code [ fhir:v "macroEtatAdministratif" ] ;
        fhir:value [
          a fhir:Coding ;
-         fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+         ] ;
          fhir:code [ fhir:v "I" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
        fhir:value [
-         a fhir:boolean ;
+         a fhir:Boolean ;
          fhir:v true
        ]
      ] )
@@ -416,32 +479,35 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] [
        fhir:code [ fhir:v "macroEtatAdministratif" ] ;
        fhir:value [
          a fhir:Coding ;
-         fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+         ] ;
          fhir:code [ fhir:v "I" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
        fhir:value [
-         a fhir:boolean ;
+         a fhir:Boolean ;
          fhir:v true
        ]
      ] )
@@ -451,32 +517,35 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] [
        fhir:code [ fhir:v "macroEtatAdministratif" ] ;
        fhir:value [
          a fhir:Coding ;
-         fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+         ] ;
          fhir:code [ fhir:v "A" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
        fhir:value [
-         a fhir:boolean ;
+         a fhir:Boolean ;
          fhir:v true
        ]
      ] )
@@ -486,32 +555,35 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] [
        fhir:code [ fhir:v "macroEtatAdministratif" ] ;
        fhir:value [
          a fhir:Coding ;
-         fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+         ] ;
          fhir:code [ fhir:v "A" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
        fhir:value [
-         a fhir:boolean ;
+         a fhir:Boolean ;
          fhir:v true
        ]
      ] )
@@ -521,32 +593,35 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] [
        fhir:code [ fhir:v "macroEtatAdministratif" ] ;
        fhir:value [
          a fhir:Coding ;
-         fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+         ] ;
          fhir:code [ fhir:v "I" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
        fhir:value [
-         a fhir:boolean ;
+         a fhir:Boolean ;
          fhir:v true
        ]
      ] )
@@ -556,32 +631,35 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] [
        fhir:code [ fhir:v "macroEtatAdministratif" ] ;
        fhir:value [
          a fhir:Coding ;
-         fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+         ] ;
          fhir:code [ fhir:v "A" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
        fhir:value [
-         a fhir:boolean ;
+         a fhir:Boolean ;
          fhir:v true
        ]
      ] )
@@ -591,32 +669,35 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] [
        fhir:code [ fhir:v "macroEtatAdministratif" ] ;
        fhir:value [
          a fhir:Coding ;
-         fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+         ] ;
          fhir:code [ fhir:v "I" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
        fhir:value [
-         a fhir:boolean ;
+         a fhir:Boolean ;
          fhir:v true
        ]
      ] )
@@ -626,32 +707,35 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] [
        fhir:code [ fhir:v "macroEtatAdministratif" ] ;
        fhir:value [
          a fhir:Coding ;
-         fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+         ] ;
          fhir:code [ fhir:v "A" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
        fhir:value [
-         a fhir:boolean ;
+         a fhir:Boolean ;
          fhir:v true
        ]
      ] )
@@ -661,32 +745,35 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] [
        fhir:code [ fhir:v "macroEtatAdministratif" ] ;
        fhir:value [
          a fhir:Coding ;
-         fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+         ] ;
          fhir:code [ fhir:v "A" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
        fhir:value [
-         a fhir:boolean ;
+         a fhir:Boolean ;
          fhir:v true
        ]
      ] )
@@ -696,32 +783,35 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] [
        fhir:code [ fhir:v "macroEtatAdministratif" ] ;
        fhir:value [
          a fhir:Coding ;
-         fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+         ] ;
          fhir:code [ fhir:v "I" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
        fhir:value [
-         a fhir:boolean ;
+         a fhir:Boolean ;
          fhir:v true
        ]
      ] )
@@ -731,32 +821,35 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] [
        fhir:code [ fhir:v "macroEtatAdministratif" ] ;
        fhir:value [
          a fhir:Coding ;
-         fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+         ] ;
          fhir:code [ fhir:v "A" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
        fhir:value [
-         a fhir:boolean ;
+         a fhir:Boolean ;
          fhir:v true
        ]
      ] )
@@ -766,32 +859,35 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] [
        fhir:code [ fhir:v "macroEtatAdministratif" ] ;
        fhir:value [
          a fhir:Coding ;
-         fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+         ] ;
          fhir:code [ fhir:v "I" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
        fhir:value [
-         a fhir:boolean ;
+         a fhir:Boolean ;
          fhir:v true
        ]
      ] )
@@ -801,32 +897,35 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] [
        fhir:code [ fhir:v "macroEtatAdministratif" ] ;
        fhir:value [
          a fhir:Coding ;
-         fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+         ] ;
          fhir:code [ fhir:v "A" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
        fhir:value [
-         a fhir:boolean ;
+         a fhir:Boolean ;
          fhir:v true
        ]
      ] )
@@ -836,32 +935,35 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] [
        fhir:code [ fhir:v "macroEtatAdministratif" ] ;
        fhir:value [
          a fhir:Coding ;
-         fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+         ] ;
          fhir:code [ fhir:v "I" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
        fhir:value [
-         a fhir:boolean ;
+         a fhir:Boolean ;
          fhir:v true
        ]
      ] )
@@ -871,32 +973,35 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] [
        fhir:code [ fhir:v "macroEtatAdministratif" ] ;
        fhir:value [
          a fhir:Coding ;
-         fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+         ] ;
          fhir:code [ fhir:v "I" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
        fhir:value [
-         a fhir:boolean ;
+         a fhir:Boolean ;
          fhir:v true
        ]
      ] )
@@ -906,32 +1011,35 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] [
        fhir:code [ fhir:v "macroEtatAdministratif" ] ;
        fhir:value [
          a fhir:Coding ;
-         fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+         ] ;
          fhir:code [ fhir:v "A" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
        fhir:value [
-         a fhir:boolean ;
+         a fhir:Boolean ;
          fhir:v true
        ]
      ] )
@@ -941,32 +1049,35 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] [
        fhir:code [ fhir:v "macroEtatAdministratif" ] ;
        fhir:value [
          a fhir:Coding ;
-         fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+         ] ;
          fhir:code [ fhir:v "I" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
        fhir:value [
-         a fhir:boolean ;
+         a fhir:Boolean ;
          fhir:v true
        ]
      ] )
@@ -976,32 +1087,35 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] [
        fhir:code [ fhir:v "macroEtatAdministratif" ] ;
        fhir:value [
          a fhir:Coding ;
-         fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+         ] ;
          fhir:code [ fhir:v "A" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
        fhir:value [
-         a fhir:boolean ;
+         a fhir:Boolean ;
          fhir:v true
        ]
      ] )
@@ -1011,32 +1125,35 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] [
        fhir:code [ fhir:v "macroEtatAdministratif" ] ;
        fhir:value [
          a fhir:Coding ;
-         fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+         ] ;
          fhir:code [ fhir:v "A" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
        fhir:value [
-         a fhir:boolean ;
+         a fhir:Boolean ;
          fhir:v true
        ]
      ] )
@@ -1046,32 +1163,35 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] [
        fhir:code [ fhir:v "macroEtatAdministratif" ] ;
        fhir:value [
          a fhir:Coding ;
-         fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+         ] ;
          fhir:code [ fhir:v "A" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
        fhir:value [
-         a fhir:boolean ;
+         a fhir:Boolean ;
          fhir:v true
        ]
      ] )
@@ -1081,32 +1201,35 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] [
        fhir:code [ fhir:v "macroEtatAdministratif" ] ;
        fhir:value [
          a fhir:Coding ;
-         fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+         ] ;
          fhir:code [ fhir:v "A" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
        fhir:value [
-         a fhir:boolean ;
+         a fhir:Boolean ;
          fhir:v true
        ]
      ] )
@@ -1116,32 +1239,35 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] [
        fhir:code [ fhir:v "macroEtatAdministratif" ] ;
        fhir:value [
          a fhir:Coding ;
-         fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+         ] ;
          fhir:code [ fhir:v "A" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
        fhir:value [
-         a fhir:boolean ;
+         a fhir:Boolean ;
          fhir:v true
        ]
      ] )
@@ -1151,32 +1277,35 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] [
        fhir:code [ fhir:v "macroEtatAdministratif" ] ;
        fhir:value [
          a fhir:Coding ;
-         fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+         ] ;
          fhir:code [ fhir:v "I" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
        fhir:value [
-         a fhir:boolean ;
+         a fhir:Boolean ;
          fhir:v true
        ]
      ] )
@@ -1186,32 +1315,35 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] [
        fhir:code [ fhir:v "macroEtatAdministratif" ] ;
        fhir:value [
          a fhir:Coding ;
-         fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+         ] ;
          fhir:code [ fhir:v "A" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
        fhir:value [
-         a fhir:boolean ;
+         a fhir:Boolean ;
          fhir:v true
        ]
      ] )
@@ -1221,32 +1353,35 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] [
        fhir:code [ fhir:v "macroEtatAdministratif" ] ;
        fhir:value [
          a fhir:Coding ;
-         fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+         ] ;
          fhir:code [ fhir:v "I" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
        fhir:value [
-         a fhir:boolean ;
+         a fhir:Boolean ;
          fhir:v true
        ]
      ] )
@@ -1256,32 +1391,35 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] [
        fhir:code [ fhir:v "macroEtatAdministratif" ] ;
        fhir:value [
          a fhir:Coding ;
-         fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+         ] ;
          fhir:code [ fhir:v "A" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
        fhir:value [
-         a fhir:boolean ;
+         a fhir:Boolean ;
          fhir:v true
        ]
      ] )
@@ -1292,7 +1430,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Sortie définitivement" ]
@@ -1300,32 +1441,35 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] [
        fhir:code [ fhir:v "macroEtatAdministratif" ] ;
        fhir:value [
          a fhir:Coding ;
-         fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+         ] ;
          fhir:code [ fhir:v "I" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
        fhir:value [
-         a fhir:boolean ;
+         a fhir:Boolean ;
          fhir:v true
        ]
      ] )
@@ -1336,7 +1480,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Erreur" ]
@@ -1344,32 +1491,35 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] [
        fhir:code [ fhir:v "macroEtatAdministratif" ] ;
        fhir:value [
          a fhir:Coding ;
-         fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+         ] ;
          fhir:code [ fhir:v "I" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
        fhir:value [
-         a fhir:boolean ;
+         a fhir:Boolean ;
          fhir:v true
        ]
      ] )
@@ -1380,7 +1530,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Sortie champ" ]
@@ -1388,32 +1541,35 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] [
        fhir:code [ fhir:v "macroEtatAdministratif" ] ;
        fhir:value [
          a fhir:Coding ;
-         fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+         ] ;
          fhir:code [ fhir:v "I" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
        fhir:value [
-         a fhir:boolean ;
+         a fhir:Boolean ;
          fhir:v true
        ]
      ] )
@@ -1424,7 +1580,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Sortie provisoirement" ]
@@ -1432,32 +1591,35 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1900-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "active"
        ]
      ] [
        fhir:code [ fhir:v "macroEtatAdministratif" ] ;
        fhir:value [
          a fhir:Coding ;
-         fhir:system [ fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif"^^xsd:anyURI ;
+           fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif>
+         ] ;
          fhir:code [ fhir:v "I" ]
        ]
      ] [
        fhir:code [ fhir:v "finess" ] ;
        fhir:value [
-         a fhir:boolean ;
+         a fhir:Boolean ;
          fhir:v true
        ]
      ] )

@@ -48,7 +48,7 @@
     }],
     "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
     "packageId" : "hl7.fhir.uv.extensions.r4",
-    "version" : "5.3.0-ballot-tc1"
+    "version" : "5.2.0"
   }],
   "definition" : {
     "extension" : [{
@@ -16354,8 +16354,14 @@
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
     {
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/expansion-parameters",
+      "valueReference" : {
+        "reference" : "Parameters/expansion-parameters"
+      }
+    },
+    {
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency",
-      "valueCode" : "hl7.fhir.uv.tools.r4#0.5.0"
+      "valueCode" : "hl7.fhir.uv.tools.r4#0.9.0"
     },
     {
       "extension" : [{
@@ -34524,6 +34530,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-etat-de-conscience-cisis"
+      },
+      "name" : "Jdv Etat De Conscience CISIS",
+      "description" : "Jdv Etat De Conscience CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-etat-naissance-cisis"
       },
       "name" : "JDV Etat Naissance CISIS",
@@ -36100,6 +36118,18 @@
       },
       "name" : "Jdv J380 Categorie Entite Geographique Exercice Rass",
       "description" : "Catégories d'établissements FINESS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j383-motif-cloture-exercice-professionnel-epars"
+      },
+      "name" : "Jdv J383 Motif Cloture Exercice Professionnel Epars",
+      "description" : "Ce jeu de valeur liste les différents motifs qui peuvent justifier la clôture d'un exercice professionnel.",
       "exampleBoolean" : false
     },
     {
@@ -38560,6 +38590,18 @@
       },
       "name" : "JDV Transfert Mutation CISIS",
       "description" : "JDV Transfert Mutation CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-trod-examen-cisis"
+      },
+      "name" : "Jdv Trod Examen CISIS",
+      "description" : "Jdv Trod Examen CISIS",
       "exampleBoolean" : false
     },
     {
@@ -41715,7 +41757,7 @@
         "reference" : "ValueSet/JDV-J281-StatutsRessourcesMS"
       },
       "name" : "JDV_J281_StatutsRessourcesMS",
-      "description" : "Statut de l'évaluation et des événements",
+      "description" : "Caractérise le statut d’une ressource du médico-social au cours de son cycle de vie.",
       "exampleBoolean" : false
     },
     {

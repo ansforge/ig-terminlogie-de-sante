@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250624152100"
+             dateMaj="20251216141838"
              dateValid="20220401000000"
              description="JDV Facteur De Risque Avc CISIS"
              displayName="JdvFacteurDeRisqueAvcCisis"
@@ -11,19 +11,17 @@
              urlFichier="">
       <ConceptList>
          <concept code="I10"
-                  codeSystem="2.16.840.1.113883.6.3"
+                  codeSystem=""
                   displayName="Hypertension essentielle (primitive)"/>
          <concept code="E14"
-                  codeSystem="2.16.840.1.113883.6.3"
+                  codeSystem=""
                   displayName="Diabète sucré, sans précision"/>
-         <concept code="E66.9"
-                  codeSystem="2.16.840.1.113883.6.3"
-                  displayName="Obésité, sans précision"/>
+         <concept code="E66.9" codeSystem="" displayName="Obésité, sans précision"/>
          <concept code="F17"
-                  codeSystem="2.16.840.1.113883.6.3"
+                  codeSystem=""
                   displayName="Troubles mentaux et du comportement liés à l'utilisation de tabac"/>
          <concept code="E78"
-                  codeSystem="2.16.840.1.113883.6.3"
+                  codeSystem=""
                   displayName="Anomalies du métabolisme des lipoprotéines et autres lipidémies"/>
          <concept code="MED-325"
                   codeSystem="1.2.250.1.213.1.1.4.322"

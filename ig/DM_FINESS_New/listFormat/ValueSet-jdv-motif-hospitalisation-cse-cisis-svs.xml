@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250624152100"
+             dateMaj="20251216141838"
              dateValid="20220404000000"
              description="JDV Motif Hospitalisation Cse CISIS"
              displayName="JdvMotifHospitalisationCseCisis"
@@ -11,13 +11,13 @@
              urlFichier="">
       <ConceptList>
          <concept code="P05.0"
-                  codeSystem="2.16.840.1.113883.6.3"
+                  codeSystem=""
                   displayName="Faible poids pour l'âge gestationnel"/>
          <concept code="O13"
-                  codeSystem="2.16.840.1.113883.6.3"
+                  codeSystem=""
                   displayName="Hypertension gestationnelle [liée à la grossesse]"/>
          <concept code="O47.0"
-                  codeSystem="2.16.840.1.113883.6.3"
+                  codeSystem=""
                   displayName="Faux travail avant 37 semaines révolues de gestation"/>
          <concept code="GEN-092.01.08"
                   codeSystem="1.2.250.1.213.1.1.4.322"

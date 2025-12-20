@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250624152101"
+             dateMaj="20251216141840"
              dateValid="20210414000000"
              description="JDV Type Traitement Frcp CISIS"
              displayName="JdvTypeTraitementFrcpCisis"
@@ -14,14 +14,12 @@
          <concept code="C15195" codeSystem="" displayName="curiethérapie"/>
          <concept code="C15632" codeSystem="" displayName="chimiothérapie"/>
          <concept code="C93352" codeSystem="" displayName="thérapie ciblée"/>
-         <concept code="C547" codeSystem="" displayName="Hormonothérapie"/>
+         <concept code="C547" codeSystem="" displayName="hormonothérapie"/>
          <concept code="C15262" codeSystem="" displayName="immunothérapie"/>
          <concept code="C63334"
                   codeSystem=""
-                  displayName="Radiologie interventionnelle"/>
-         <concept code="C157891"
-                  codeSystem=""
-                  displayName="endoscopie interventionnelle"/>
+                  displayName="imagerie interventionnelle"/>
+         <concept code="C157891" codeSystem="" displayName="endoscopie peropératoire"/>
          <concept code="C15747" codeSystem="" displayName="soins de support"/>
          <concept code="C15252" codeSystem="" displayName="soins palliatifs"/>
          <concept code="MED-556"

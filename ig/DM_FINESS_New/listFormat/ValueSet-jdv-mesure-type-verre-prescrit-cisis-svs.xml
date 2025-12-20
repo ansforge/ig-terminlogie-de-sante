@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250624152059"
+             dateMaj="20251216141838"
              dateValid="20210924000000"
              description="JDV Mesure Type Verre Prescrit CISIS"
              displayName="JdvMesureTypeVerrePrescritCisis"
@@ -10,7 +10,6 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="C80261" codeSystem="" displayName="Monture"/>
          <concept code="GEN-292"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Commentaire"/>
@@ -19,6 +18,9 @@
                   displayName="Intolérance aux verres progressifs"/>
          <concept code="28792-0" codeSystem="" displayName="Ecart interpupillaire"/>
          <concept code="64885-7" codeSystem="" displayName="Types de verres"/>
+         <concept code="Q021002"
+                  codeSystem="1.2.250.1.213.2.68"
+                  displayName="MONTURES DE LUNETTES"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

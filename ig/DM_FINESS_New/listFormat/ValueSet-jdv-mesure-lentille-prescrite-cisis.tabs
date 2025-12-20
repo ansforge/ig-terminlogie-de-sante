@@ -1,8 +1,7 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MAJ>  
-1.2.250.1.213.1.1.5.655;JDV;JdvMesureLentillePrescriteCisis;JDV Mesure Lentille Prescrite CISIS;;20210924000000;;20250624152059
+1.2.250.1.213.1.1.5.655;JDV;JdvMesureLentillePrescriteCisis;JDV Mesure Lentille Prescrite CISIS;;20210924000000;;20251216141838
 <system>;<Code>;<Libellé> 
 ;C53610;Renouvellement
-;C43383;modèle
 1.2.250.1.213.1.1.4.322;MED-897;Prise en charge LPP
 1.2.250.1.213.1.1.4.322;MED-1083;Prescription pour primo porteur de lentille de contact
 1.2.250.1.213.1.1.4.322;MED-1182;Date de fin d'adapation de la prescription
@@ -20,6 +19,7 @@
 1.2.250.1.213.1.1.4.322;MED-1088;Puissance du cylindre – lentille prescrite
 ;74712-1;Date de fin de validité
 ;69730-0;Consignes et conseils
+;67716-1;modèle du dispositif
 ;95300-0;Axe du K
 ;95325-7;Axe en degrés des lentilles
 ;28814-2;Addition – grandeur

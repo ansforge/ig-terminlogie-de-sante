@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20251028115835"
+             dateMaj="20251216141840"
              dateValid="20100101000000"
              description="JDV Vaccin Cse24 CISIS"
              displayName="JdvVaccinCse24Cisis"
@@ -11,44 +11,36 @@
              urlFichier="">
       <ConceptList>
          <concept code="J07CA06"
-                  codeSystem="2.16.840.1.113883.6.73"
+                  codeSystem=""
                   displayName="diphtérie-Haemophilus influenzae B-coqueluche-poliomyélite-tétanos"/>
          <concept code="J07CA01"
-                  codeSystem="2.16.840.1.113883.6.73"
+                  codeSystem=""
                   displayName="diphtérie-poliomyélite-tétanos"/>
-         <concept code="J07AJ"
-                  codeSystem="2.16.840.1.113883.6.73"
-                  displayName="vaccins coquelucheux"/>
+         <concept code="J07AJ" codeSystem="" displayName="vaccins coquelucheux"/>
          <concept code="J07AG"
-                  codeSystem="2.16.840.1.113883.6.73"
+                  codeSystem=""
                   displayName="vaccins de l'Haemophilus influenzae B"/>
          <concept code="J07BC01"
-                  codeSystem="2.16.840.1.113883.6.73"
+                  codeSystem=""
                   displayName="hépatite B, antigène purifié"/>
-         <concept code="J07AL"
-                  codeSystem="2.16.840.1.113883.6.73"
-                  displayName="vaccins pneumococciques"/>
+         <concept code="J07AL" codeSystem="" displayName="vaccins pneumococciques"/>
          <concept code="J07AH07"
-                  codeSystem="2.16.840.1.113883.6.73"
+                  codeSystem=""
                   displayName="méningocoque C, antigène polysaccharidique purifié conjugué"/>
          <concept code="J07AH08"
-                  codeSystem="2.16.840.1.113883.6.73"
+                  codeSystem=""
                   displayName="méningocoques A,C,Y, W-135, antigènes polysaccharidiques tétravalents purifiés conjugués"/>
          <concept code="J07AH09"
-                  codeSystem="2.16.840.1.113883.6.73"
+                  codeSystem=""
                   displayName="méningocoque B, vaccin multicomposant"/>
          <concept code="J07BD52"
-                  codeSystem="2.16.840.1.113883.6.73"
+                  codeSystem=""
                   displayName="rougeole en association aux oreillons et à la rubéole, virus vivants atténués"/>
          <concept code="J07BH"
-                  codeSystem="2.16.840.1.113883.6.73"
+                  codeSystem=""
                   displayName="vaccins des diarrhées à Rotavirus"/>
-         <concept code="J07AN"
-                  codeSystem="2.16.840.1.113883.6.73"
-                  displayName="vaccins de la tuberculose"/>
-         <concept code="J07BL"
-                  codeSystem="2.16.840.1.113883.6.73"
-                  displayName="vaccins de la fièvre jaune"/>
+         <concept code="J07AN" codeSystem="" displayName="vaccins de la tuberculose"/>
+         <concept code="J07BL" codeSystem="" displayName="vaccins de la fièvre jaune"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20251028115833"
+             dateMaj="20251216141838"
              dateValid="20240604000000"
              description="JDV Type Evenement Indesirable Previsible CISIS"
              displayName="JdvTypeEvenementIndesirablePrevisibleCisis"
@@ -10,6 +10,15 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
+         <concept code="MED-1331"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="allergie à une substance"/>
+         <concept code="MED-1332"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="hypersensibilité non allergique à une substance"/>
+         <concept code="MED-1333"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="intolérance à un agent environnemental"/>
          <concept code="420134006"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="propension aux effets indésirables"/>
@@ -22,9 +31,6 @@
          <concept code="414285001"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="allergie alimentaire"/>
-         <concept code="419199007"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="allergie à une substance"/>
          <concept code="609396006"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="hypersensibilité non allergique"/>
@@ -34,9 +40,6 @@
          <concept code="735449006"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="hypersensibilité non allergique alimentaire"/>
-         <concept code="609397002"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="hypersensibilité non allergique à une substance"/>
          <concept code="782197009"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="intolérance à une substance"/>
@@ -46,9 +49,6 @@
          <concept code="235719002"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="intolérance alimentaire"/>
-         <concept code="1.2.250.1.213.1.1.5.794.1"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="intolérance à un agent environnemental (Demande de création SNOMED CT en cours)"/>
          <concept code="56840009"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="idiosyncrasie"/>

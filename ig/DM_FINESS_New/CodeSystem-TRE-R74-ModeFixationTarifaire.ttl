@@ -15,23 +15,32 @@
      fhir:lastUpdated [ fhir:v "2024-08-28T05:14:10.851+00:00"^^xsd:dateTime ] ;
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
+       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
      ] )
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem TRE-R74-ModeFixationTarifaire</b></p><a name=\"TRE-R74-ModeFixationTarifaire\"> </a><a name=\"hcTRE-R74-ModeFixationTarifaire\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 6; Dernière mise à jour : 2024-08-28 05:14:10+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>dateFin</b></td><td><b>French (France) (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">01<a name=\"TRE-R74-ModeFixationTarifaire-01\"> </a></td><td>Etablissement Tarif Libre</td><td>1999-11-02T00:00:00+01:00</td><td>2018-09-28T12:00:00+01:00</td><td/><td>Tarif libre</td></tr><tr><td style=\"white-space:nowrap\">02<a name=\"TRE-R74-ModeFixationTarifaire-02\"> </a></td><td>Autorité Ministérielle</td><td>1999-11-02T00:00:00+01:00</td><td>2018-09-28T12:00:00+01:00</td><td/><td>Autorité Ministre</td></tr><tr><td style=\"white-space:nowrap\">03<a name=\"TRE-R74-ModeFixationTarifaire-03\"> </a></td><td>ARS établissements Publics de santé dotation globale</td><td>1999-11-02T00:00:00+01:00</td><td>1999-09-21T00:00:00+01:00</td><td/><td>ARS - DG EPS</td></tr><tr><td style=\"white-space:nowrap\">04<a name=\"TRE-R74-ModeFixationTarifaire-04\"> </a></td><td>ARS établissements PSPH dotation globale</td><td>1999-11-02T00:00:00+01:00</td><td>1999-09-21T00:00:00+01:00</td><td/><td>ARS - DG PSPH</td></tr><tr><td style=\"white-space:nowrap\">05<a name=\"TRE-R74-ModeFixationTarifaire-05\"> </a></td><td>ARS établissements médico-soc. non financés dotation globale</td><td>1999-11-02T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td>ARS - Non DG</td></tr><tr><td style=\"white-space:nowrap\">06<a name=\"TRE-R74-ModeFixationTarifaire-06\"> </a></td><td>Tarif d'autorité</td><td>1999-11-02T00:00:00+01:00</td><td>1999-09-21T00:00:00+01:00</td><td/><td>AM-Tarif Autorité</td></tr><tr><td style=\"white-space:nowrap\">07<a name=\"TRE-R74-ModeFixationTarifaire-07\"> </a></td><td>ARS établissements de santé non financés dotation globale</td><td>1999-11-02T00:00:00+01:00</td><td>1999-09-21T00:00:00+01:00</td><td/><td>ARS - san pr non DG</td></tr><tr><td style=\"white-space:nowrap\">08<a name=\"TRE-R74-ModeFixationTarifaire-08\"> </a></td><td>Président du Conseil Départemental ou métropole</td><td>1999-11-02T00:00:00+01:00</td><td>2024-02-23T12:00:00+01:00</td><td/><td>PCD ou métropole</td></tr><tr><td style=\"white-space:nowrap\">09<a name=\"TRE-R74-ModeFixationTarifaire-09\"> </a></td><td>ARS PCD mixte (2 arrêtés), habilité aide sociale</td><td>1999-11-02T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td>ARS PCD mixte HAS</td></tr><tr><td style=\"white-space:nowrap\">10<a name=\"TRE-R74-ModeFixationTarifaire-10\"> </a></td><td>Autorité Conjointe Préfet ou ARS/PCD ou métropole (1 arrêté)</td><td>1999-11-02T00:00:00+01:00</td><td>2024-02-23T12:00:00+01:00</td><td/><td>Préfet ou ARS/PCD ou métropole</td></tr><tr><td style=\"white-space:nowrap\">11<a name=\"TRE-R74-ModeFixationTarifaire-11\"> </a></td><td>Tarifs ARS, PCD, hébergt libre</td><td>1999-11-02T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td>ARS-PCD mixte nHAS</td></tr><tr><td style=\"white-space:nowrap\">14<a name=\"TRE-R74-ModeFixationTarifaire-14\"> </a></td><td>Organismes Nationaux de Sécurité Sociale</td><td>1999-11-02T00:00:00+01:00</td><td>2018-09-28T12:00:00+01:00</td><td/><td>Organ.Nationaux S.S.</td></tr><tr><td style=\"white-space:nowrap\">15<a name=\"TRE-R74-ModeFixationTarifaire-15\"> </a></td><td>ARS privé hors PSPH sous dotation globale</td><td>1999-11-02T00:00:00+01:00</td><td>1999-01-12T00:00:00+01:00</td><td/><td>ARS priv non PSPH DG</td></tr><tr><td style=\"white-space:nowrap\">16<a name=\"TRE-R74-ModeFixationTarifaire-16\"> </a></td><td>CRAM homologué préfet de région</td><td>1999-11-02T00:00:00+01:00</td><td>2002-02-07T00:00:00+01:00</td><td>2001-12-31T00:00:00+01:00</td><td>CRAM homol préf rég</td></tr><tr><td style=\"white-space:nowrap\">17<a name=\"TRE-R74-ModeFixationTarifaire-17\"> </a></td><td>Autorité mixte ARS PCD dotation globale</td><td>1999-11-02T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td>ARS PCD mixte DG</td></tr><tr><td style=\"white-space:nowrap\">18<a name=\"TRE-R74-ModeFixationTarifaire-18\"> </a></td><td>Autorité mixte ARS PCG Etab long séjour conv tripartite</td><td>1999-11-02T00:00:00+01:00</td><td>1999-09-21T00:00:00+01:00</td><td>2001-03-01T00:00:00+01:00</td><td>ARS PCG mixte LS</td></tr><tr><td style=\"white-space:nowrap\">19<a name=\"TRE-R74-ModeFixationTarifaire-19\"> </a></td><td>Autorité mixte préfet dpt PCG EHPA conv tripartite</td><td>1999-11-02T00:00:00+01:00</td><td>1999-09-21T00:00:00+01:00</td><td>2001-03-01T00:00:00+01:00</td><td>PD PCG mixte EHPA</td></tr><tr><td style=\"white-space:nowrap\">20<a name=\"TRE-R74-ModeFixationTarifaire-20\"> </a></td><td>ARS PCG mixte, Accueil de jour PA, HAS</td><td>2001-03-01T00:00:00+01:00</td><td>2015-04-24T00:00:00+01:00</td><td>2015-04-24T00:00:00+01:00</td><td>ARS-PCG CAJ PA HAS</td></tr><tr><td style=\"white-space:nowrap\">21<a name=\"TRE-R74-ModeFixationTarifaire-21\"> </a></td><td>ARS PCD mixte, Accueil de jour PA, HAS</td><td>2001-03-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td>ARS-PCD CAJ PA HAS</td></tr><tr><td style=\"white-space:nowrap\">22<a name=\"TRE-R74-ModeFixationTarifaire-22\"> </a></td><td>Autorité mixte ARS PCD ESLD tripartite DG global</td><td>2001-03-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td>ARS-PCD ESLD global</td></tr><tr><td style=\"white-space:nowrap\">23<a name=\"TRE-R74-ModeFixationTarifaire-23\"> </a></td><td>Autorité mixte ARS PCD ESLD tripartite DG partielle</td><td>2001-03-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td>ARS-PCD ESLD partiel</td></tr><tr><td style=\"white-space:nowrap\">24<a name=\"TRE-R74-ModeFixationTarifaire-24\"> </a></td><td>ARS PCG mixte, Accueil de jour PA, nHAS, hébergement libre</td><td>2001-03-01T00:00:00+01:00</td><td>2015-01-22T00:00:00+01:00</td><td>2015-01-22T00:00:00+01:00</td><td>ARS-PCG CAJ PA nHAS</td></tr><tr><td style=\"white-space:nowrap\">25<a name=\"TRE-R74-ModeFixationTarifaire-25\"> </a></td><td>ARS PCD mixte, Accueil de jour PA, nHAS, hébergement libre</td><td>2001-03-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td>ARS-PCD CAJ PA nHAS</td></tr><tr><td style=\"white-space:nowrap\">26<a name=\"TRE-R74-ModeFixationTarifaire-26\"> </a></td><td>Logement Foyer convention partielle PAP (conv. EHPAD part.)</td><td>2011-11-18T00:00:00+01:00</td><td>2014-07-23T00:00:00+01:00</td><td>2014-07-07T00:00:00+01:00</td><td>LF conv partiel PAP</td></tr><tr><td style=\"white-space:nowrap\">30<a name=\"TRE-R74-ModeFixationTarifaire-30\"> </a></td><td>Préfet de région établissements et services sociaux</td><td>2010-11-12T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td>Préfet région soc.</td></tr><tr><td style=\"white-space:nowrap\">31<a name=\"TRE-R74-ModeFixationTarifaire-31\"> </a></td><td>Pdt Conseil Départemental-Subvention</td><td>2010-11-12T00:00:00+01:00</td><td>2018-09-28T12:00:00+01:00</td><td/><td>PCD-subv</td></tr><tr><td style=\"white-space:nowrap\">32<a name=\"TRE-R74-ModeFixationTarifaire-32\"> </a></td><td>Echelle tarifaire publique</td><td>2011-05-04T00:00:00+01:00</td><td>2011-05-13T00:00:00+01:00</td><td/><td>Ech tarif publique</td></tr><tr><td style=\"white-space:nowrap\">33<a name=\"TRE-R74-ModeFixationTarifaire-33\"> </a></td><td>Echelle tarifaire privée</td><td>2011-05-04T00:00:00+01:00</td><td>2011-05-13T00:00:00+01:00</td><td/><td>Ech tarif privée</td></tr><tr><td style=\"white-space:nowrap\">34<a name=\"TRE-R74-ModeFixationTarifaire-34\"> </a></td><td>ARS - DG dotation globale</td><td>2013-01-23T00:00:00+01:00</td><td>2013-01-23T00:00:00+01:00</td><td/><td>ARS - DG</td></tr><tr><td style=\"white-space:nowrap\">35<a name=\"TRE-R74-ModeFixationTarifaire-35\"> </a></td><td>Préfet de département Subvention</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td>Préfet départ. subv.</td></tr><tr><td style=\"white-space:nowrap\">36<a name=\"TRE-R74-ModeFixationTarifaire-36\"> </a></td><td>Tarifs conventionnels assurance maladie</td><td>2013-12-19T00:00:00+01:00</td><td>2013-12-19T00:00:00+01:00</td><td/><td>Conventionnel AM</td></tr><tr><td style=\"white-space:nowrap\">38<a name=\"TRE-R74-ModeFixationTarifaire-38\"> </a></td><td>Régime spécial de prévoyance</td><td>2021-11-26T12:00:00+01:00</td><td>2021-11-26T12:00:00+01:00</td><td/><td>Régime spécial</td></tr><tr><td style=\"white-space:nowrap\">40<a name=\"TRE-R74-ModeFixationTarifaire-40\"> </a></td><td>ARS-PCD, Tarif global, habilité aide sociale, recours PUI</td><td>2015-01-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td>ARS TG HAS PUI</td></tr><tr><td style=\"white-space:nowrap\">41<a name=\"TRE-R74-ModeFixationTarifaire-41\"> </a></td><td>ARS-PCD, Tarif global, habilité aide sociale sans PUI</td><td>2015-01-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td>ARS TG HAS nPUI</td></tr><tr><td style=\"white-space:nowrap\">42<a name=\"TRE-R74-ModeFixationTarifaire-42\"> </a></td><td>ARS-PCD, Tarif global, non hab.aide sociale, recours PUI</td><td>2015-01-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td>ARS TG nHAS PUI</td></tr><tr><td style=\"white-space:nowrap\">43<a name=\"TRE-R74-ModeFixationTarifaire-43\"> </a></td><td>ARS-PCD, Tarif global, non habilité aide sociale sans PUI</td><td>2015-01-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td>ARS TG nHAS nPUI</td></tr><tr><td style=\"white-space:nowrap\">44<a name=\"TRE-R74-ModeFixationTarifaire-44\"> </a></td><td>ARS-PCD, Tarif partiel, habilité aide sociale, recours PUI</td><td>2015-01-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td>ARS TP HAS PUI</td></tr><tr><td style=\"white-space:nowrap\">45<a name=\"TRE-R74-ModeFixationTarifaire-45\"> </a></td><td>ARS-PCD, Tarif partiel, habilité aide sociale sans PUI</td><td>2015-01-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td>ARS TP HAS nPUI</td></tr><tr><td style=\"white-space:nowrap\">46<a name=\"TRE-R74-ModeFixationTarifaire-46\"> </a></td><td>ARS-PCD, Tarif partiel, non hab.aide sociale, recours PUI</td><td>2015-01-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td>ARS TP nHAS PUI</td></tr><tr><td style=\"white-space:nowrap\">47<a name=\"TRE-R74-ModeFixationTarifaire-47\"> </a></td><td>ARS-PCD, Tarif partiel, non habilité aide sociale sans PUI</td><td>2015-01-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td>ARS TP nHAS nPUI</td></tr><tr><td style=\"white-space:nowrap\">48<a name=\"TRE-R74-ModeFixationTarifaire-48\"> </a></td><td>ARS-PCD, EHPA, dot globale de soins, habilité aide sociale</td><td>2015-01-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td>ARS PCD EHPA DGS HAS</td></tr><tr><td style=\"white-space:nowrap\">49<a name=\"TRE-R74-ModeFixationTarifaire-49\"> </a></td><td>ARS-PCD, EHPA, dot globale soins, non habilité aide sociale</td><td>2015-01-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td>ARS PCD EHPA DGS nAS</td></tr><tr><td style=\"white-space:nowrap\">50<a name=\"TRE-R74-ModeFixationTarifaire-50\"> </a></td><td>ARS-PCD, PUV, forfait soins, habilité aide sociale</td><td>2015-01-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td>ARS PCD PUV FS HAS</td></tr><tr><td style=\"white-space:nowrap\">51<a name=\"TRE-R74-ModeFixationTarifaire-51\"> </a></td><td>ARS-PCD, PUV, forfait soins, non habilité aide sociale</td><td>2015-01-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td>ARS PCD PUV FS nHAS</td></tr><tr><td style=\"white-space:nowrap\">52<a name=\"TRE-R74-ModeFixationTarifaire-52\"> </a></td><td>ARS-PCD, LF, forfait soins, habilité aide sociale</td><td>2015-01-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td>ARS PCD LF FS HAS</td></tr><tr><td style=\"white-space:nowrap\">53<a name=\"TRE-R74-ModeFixationTarifaire-53\"> </a></td><td>ARS-PCD, LF, forfait soins, non habilité aide sociale</td><td>2015-01-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td>ARS PCD LF FS nHAS</td></tr><tr><td style=\"white-space:nowrap\">54<a name=\"TRE-R74-ModeFixationTarifaire-54\"> </a></td><td>Tarif AM - Services de Soins Infirmiers A Domicile</td><td>2016-09-01T00:00:00+01:00</td><td>2018-09-28T12:00:00+01:00</td><td/><td>Tarif AM - SSIAD</td></tr><tr><td style=\"white-space:nowrap\">55<a name=\"TRE-R74-ModeFixationTarifaire-55\"> </a></td><td>ARS-PCD, PUV, convention SSIAD, non habilité à l'aide social</td><td>2018-09-28T12:00:00+01:00</td><td>2018-09-28T12:00:00+01:00</td><td/><td>ARS PCD PUV CD NHAS</td></tr><tr><td style=\"white-space:nowrap\">56<a name=\"TRE-R74-ModeFixationTarifaire-56\"> </a></td><td>ARS-PCD, PUV, convention SSIAD, habilité à l'aide sociale</td><td>2018-09-28T12:00:00+01:00</td><td>2018-09-28T12:00:00+01:00</td><td/><td>ARS PCD PUV CD HAS</td></tr><tr><td style=\"white-space:nowrap\">57<a name=\"TRE-R74-ModeFixationTarifaire-57\"> </a></td><td>ARS /ARS PCD Dotation forfait ou prix de journée globalisés (CPOM)</td><td>2018-09-28T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td>ARS/ARS PCD Dot.Glob</td></tr><tr><td style=\"white-space:nowrap\">58<a name=\"TRE-R74-ModeFixationTarifaire-58\"> </a></td><td>ARS dotation forfait ou prix de journée globalisé hors CPOM</td><td>2018-09-28T12:00:00+01:00</td><td>2018-09-28T12:00:00+01:00</td><td/><td>ARS PJ glob.hors CPOM</td></tr><tr><td style=\"white-space:nowrap\">99<a name=\"TRE-R74-ModeFixationTarifaire-99\"> </a></td><td>Indéterminé</td><td>2002-01-01T00:00:00+01:00</td><td>2002-04-15T00:00:00+01:00</td><td/><td/></tr></table></div>"^^rdf:XMLLiteral
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem TRE-R74-ModeFixationTarifaire</b></p><a name=\"TRE-R74-ModeFixationTarifaire\"> </a><a name=\"hcTRE-R74-ModeFixationTarifaire\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 6; Dernière mise à jour : 2024-08-28 05:14:10+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>https://smt.esante.gouv.fr/fhir/concept-properties#dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>dateFin</b></td><td><b>French (France) (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">01<a name=\"TRE-R74-ModeFixationTarifaire-01\"> </a></td><td>Etablissement Tarif Libre</td><td>1999-11-02T00:00:00+01:00</td><td>2018-09-28T12:00:00+01:00</td><td/><td>Tarif libre</td></tr><tr><td style=\"white-space:nowrap\">02<a name=\"TRE-R74-ModeFixationTarifaire-02\"> </a></td><td>Autorité Ministérielle</td><td>1999-11-02T00:00:00+01:00</td><td>2018-09-28T12:00:00+01:00</td><td/><td>Autorité Ministre</td></tr><tr><td style=\"white-space:nowrap\">03<a name=\"TRE-R74-ModeFixationTarifaire-03\"> </a></td><td>ARS établissements Publics de santé dotation globale</td><td>1999-11-02T00:00:00+01:00</td><td>1999-09-21T00:00:00+01:00</td><td/><td>ARS - DG EPS</td></tr><tr><td style=\"white-space:nowrap\">04<a name=\"TRE-R74-ModeFixationTarifaire-04\"> </a></td><td>ARS établissements PSPH dotation globale</td><td>1999-11-02T00:00:00+01:00</td><td>1999-09-21T00:00:00+01:00</td><td/><td>ARS - DG PSPH</td></tr><tr><td style=\"white-space:nowrap\">05<a name=\"TRE-R74-ModeFixationTarifaire-05\"> </a></td><td>ARS établissements médico-soc. non financés dotation globale</td><td>1999-11-02T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td>ARS - Non DG</td></tr><tr><td style=\"white-space:nowrap\">06<a name=\"TRE-R74-ModeFixationTarifaire-06\"> </a></td><td>Tarif d'autorité</td><td>1999-11-02T00:00:00+01:00</td><td>1999-09-21T00:00:00+01:00</td><td/><td>AM-Tarif Autorité</td></tr><tr><td style=\"white-space:nowrap\">07<a name=\"TRE-R74-ModeFixationTarifaire-07\"> </a></td><td>ARS établissements de santé non financés dotation globale</td><td>1999-11-02T00:00:00+01:00</td><td>1999-09-21T00:00:00+01:00</td><td/><td>ARS - san pr non DG</td></tr><tr><td style=\"white-space:nowrap\">08<a name=\"TRE-R74-ModeFixationTarifaire-08\"> </a></td><td>Président du Conseil Départemental ou métropole</td><td>1999-11-02T00:00:00+01:00</td><td>2024-02-23T12:00:00+01:00</td><td/><td>PCD ou métropole</td></tr><tr><td style=\"white-space:nowrap\">09<a name=\"TRE-R74-ModeFixationTarifaire-09\"> </a></td><td>ARS PCD mixte (2 arrêtés), habilité aide sociale</td><td>1999-11-02T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td>ARS PCD mixte HAS</td></tr><tr><td style=\"white-space:nowrap\">10<a name=\"TRE-R74-ModeFixationTarifaire-10\"> </a></td><td>Autorité Conjointe Préfet ou ARS/PCD ou métropole (1 arrêté)</td><td>1999-11-02T00:00:00+01:00</td><td>2024-02-23T12:00:00+01:00</td><td/><td>Préfet ou ARS/PCD ou métropole</td></tr><tr><td style=\"white-space:nowrap\">11<a name=\"TRE-R74-ModeFixationTarifaire-11\"> </a></td><td>Tarifs ARS, PCD, hébergt libre</td><td>1999-11-02T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td>ARS-PCD mixte nHAS</td></tr><tr><td style=\"white-space:nowrap\">14<a name=\"TRE-R74-ModeFixationTarifaire-14\"> </a></td><td>Organismes Nationaux de Sécurité Sociale</td><td>1999-11-02T00:00:00+01:00</td><td>2018-09-28T12:00:00+01:00</td><td/><td>Organ.Nationaux S.S.</td></tr><tr><td style=\"white-space:nowrap\">15<a name=\"TRE-R74-ModeFixationTarifaire-15\"> </a></td><td>ARS privé hors PSPH sous dotation globale</td><td>1999-11-02T00:00:00+01:00</td><td>1999-01-12T00:00:00+01:00</td><td/><td>ARS priv non PSPH DG</td></tr><tr><td style=\"white-space:nowrap\">16<a name=\"TRE-R74-ModeFixationTarifaire-16\"> </a></td><td>CRAM homologué préfet de région</td><td>1999-11-02T00:00:00+01:00</td><td>2002-02-07T00:00:00+01:00</td><td>2001-12-31T00:00:00+01:00</td><td>CRAM homol préf rég</td></tr><tr><td style=\"white-space:nowrap\">17<a name=\"TRE-R74-ModeFixationTarifaire-17\"> </a></td><td>Autorité mixte ARS PCD dotation globale</td><td>1999-11-02T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td>ARS PCD mixte DG</td></tr><tr><td style=\"white-space:nowrap\">18<a name=\"TRE-R74-ModeFixationTarifaire-18\"> </a></td><td>Autorité mixte ARS PCG Etab long séjour conv tripartite</td><td>1999-11-02T00:00:00+01:00</td><td>1999-09-21T00:00:00+01:00</td><td>2001-03-01T00:00:00+01:00</td><td>ARS PCG mixte LS</td></tr><tr><td style=\"white-space:nowrap\">19<a name=\"TRE-R74-ModeFixationTarifaire-19\"> </a></td><td>Autorité mixte préfet dpt PCG EHPA conv tripartite</td><td>1999-11-02T00:00:00+01:00</td><td>1999-09-21T00:00:00+01:00</td><td>2001-03-01T00:00:00+01:00</td><td>PD PCG mixte EHPA</td></tr><tr><td style=\"white-space:nowrap\">20<a name=\"TRE-R74-ModeFixationTarifaire-20\"> </a></td><td>ARS PCG mixte, Accueil de jour PA, HAS</td><td>2001-03-01T00:00:00+01:00</td><td>2015-04-24T00:00:00+01:00</td><td>2015-04-24T00:00:00+01:00</td><td>ARS-PCG CAJ PA HAS</td></tr><tr><td style=\"white-space:nowrap\">21<a name=\"TRE-R74-ModeFixationTarifaire-21\"> </a></td><td>ARS PCD mixte, Accueil de jour PA, HAS</td><td>2001-03-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td>ARS-PCD CAJ PA HAS</td></tr><tr><td style=\"white-space:nowrap\">22<a name=\"TRE-R74-ModeFixationTarifaire-22\"> </a></td><td>Autorité mixte ARS PCD ESLD tripartite DG global</td><td>2001-03-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td>ARS-PCD ESLD global</td></tr><tr><td style=\"white-space:nowrap\">23<a name=\"TRE-R74-ModeFixationTarifaire-23\"> </a></td><td>Autorité mixte ARS PCD ESLD tripartite DG partielle</td><td>2001-03-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td>ARS-PCD ESLD partiel</td></tr><tr><td style=\"white-space:nowrap\">24<a name=\"TRE-R74-ModeFixationTarifaire-24\"> </a></td><td>ARS PCG mixte, Accueil de jour PA, nHAS, hébergement libre</td><td>2001-03-01T00:00:00+01:00</td><td>2015-01-22T00:00:00+01:00</td><td>2015-01-22T00:00:00+01:00</td><td>ARS-PCG CAJ PA nHAS</td></tr><tr><td style=\"white-space:nowrap\">25<a name=\"TRE-R74-ModeFixationTarifaire-25\"> </a></td><td>ARS PCD mixte, Accueil de jour PA, nHAS, hébergement libre</td><td>2001-03-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td>ARS-PCD CAJ PA nHAS</td></tr><tr><td style=\"white-space:nowrap\">26<a name=\"TRE-R74-ModeFixationTarifaire-26\"> </a></td><td>Logement Foyer convention partielle PAP (conv. EHPAD part.)</td><td>2011-11-18T00:00:00+01:00</td><td>2014-07-23T00:00:00+01:00</td><td>2014-07-07T00:00:00+01:00</td><td>LF conv partiel PAP</td></tr><tr><td style=\"white-space:nowrap\">30<a name=\"TRE-R74-ModeFixationTarifaire-30\"> </a></td><td>Préfet de région établissements et services sociaux</td><td>2010-11-12T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td>Préfet région soc.</td></tr><tr><td style=\"white-space:nowrap\">31<a name=\"TRE-R74-ModeFixationTarifaire-31\"> </a></td><td>Pdt Conseil Départemental-Subvention</td><td>2010-11-12T00:00:00+01:00</td><td>2018-09-28T12:00:00+01:00</td><td/><td>PCD-subv</td></tr><tr><td style=\"white-space:nowrap\">32<a name=\"TRE-R74-ModeFixationTarifaire-32\"> </a></td><td>Echelle tarifaire publique</td><td>2011-05-04T00:00:00+01:00</td><td>2011-05-13T00:00:00+01:00</td><td/><td>Ech tarif publique</td></tr><tr><td style=\"white-space:nowrap\">33<a name=\"TRE-R74-ModeFixationTarifaire-33\"> </a></td><td>Echelle tarifaire privée</td><td>2011-05-04T00:00:00+01:00</td><td>2011-05-13T00:00:00+01:00</td><td/><td>Ech tarif privée</td></tr><tr><td style=\"white-space:nowrap\">34<a name=\"TRE-R74-ModeFixationTarifaire-34\"> </a></td><td>ARS - DG dotation globale</td><td>2013-01-23T00:00:00+01:00</td><td>2013-01-23T00:00:00+01:00</td><td/><td>ARS - DG</td></tr><tr><td style=\"white-space:nowrap\">35<a name=\"TRE-R74-ModeFixationTarifaire-35\"> </a></td><td>Préfet de département Subvention</td><td>2016-09-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td>Préfet départ. subv.</td></tr><tr><td style=\"white-space:nowrap\">36<a name=\"TRE-R74-ModeFixationTarifaire-36\"> </a></td><td>Tarifs conventionnels assurance maladie</td><td>2013-12-19T00:00:00+01:00</td><td>2013-12-19T00:00:00+01:00</td><td/><td>Conventionnel AM</td></tr><tr><td style=\"white-space:nowrap\">38<a name=\"TRE-R74-ModeFixationTarifaire-38\"> </a></td><td>Régime spécial de prévoyance</td><td>2021-11-26T12:00:00+01:00</td><td>2021-11-26T12:00:00+01:00</td><td/><td>Régime spécial</td></tr><tr><td style=\"white-space:nowrap\">40<a name=\"TRE-R74-ModeFixationTarifaire-40\"> </a></td><td>ARS-PCD, Tarif global, habilité aide sociale, recours PUI</td><td>2015-01-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td>ARS TG HAS PUI</td></tr><tr><td style=\"white-space:nowrap\">41<a name=\"TRE-R74-ModeFixationTarifaire-41\"> </a></td><td>ARS-PCD, Tarif global, habilité aide sociale sans PUI</td><td>2015-01-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td>ARS TG HAS nPUI</td></tr><tr><td style=\"white-space:nowrap\">42<a name=\"TRE-R74-ModeFixationTarifaire-42\"> </a></td><td>ARS-PCD, Tarif global, non hab.aide sociale, recours PUI</td><td>2015-01-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td>ARS TG nHAS PUI</td></tr><tr><td style=\"white-space:nowrap\">43<a name=\"TRE-R74-ModeFixationTarifaire-43\"> </a></td><td>ARS-PCD, Tarif global, non habilité aide sociale sans PUI</td><td>2015-01-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td>ARS TG nHAS nPUI</td></tr><tr><td style=\"white-space:nowrap\">44<a name=\"TRE-R74-ModeFixationTarifaire-44\"> </a></td><td>ARS-PCD, Tarif partiel, habilité aide sociale, recours PUI</td><td>2015-01-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td>ARS TP HAS PUI</td></tr><tr><td style=\"white-space:nowrap\">45<a name=\"TRE-R74-ModeFixationTarifaire-45\"> </a></td><td>ARS-PCD, Tarif partiel, habilité aide sociale sans PUI</td><td>2015-01-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td>ARS TP HAS nPUI</td></tr><tr><td style=\"white-space:nowrap\">46<a name=\"TRE-R74-ModeFixationTarifaire-46\"> </a></td><td>ARS-PCD, Tarif partiel, non hab.aide sociale, recours PUI</td><td>2015-01-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td>ARS TP nHAS PUI</td></tr><tr><td style=\"white-space:nowrap\">47<a name=\"TRE-R74-ModeFixationTarifaire-47\"> </a></td><td>ARS-PCD, Tarif partiel, non habilité aide sociale sans PUI</td><td>2015-01-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td>ARS TP nHAS nPUI</td></tr><tr><td style=\"white-space:nowrap\">48<a name=\"TRE-R74-ModeFixationTarifaire-48\"> </a></td><td>ARS-PCD, EHPA, dot globale de soins, habilité aide sociale</td><td>2015-01-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td>ARS PCD EHPA DGS HAS</td></tr><tr><td style=\"white-space:nowrap\">49<a name=\"TRE-R74-ModeFixationTarifaire-49\"> </a></td><td>ARS-PCD, EHPA, dot globale soins, non habilité aide sociale</td><td>2015-01-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td>ARS PCD EHPA DGS nAS</td></tr><tr><td style=\"white-space:nowrap\">50<a name=\"TRE-R74-ModeFixationTarifaire-50\"> </a></td><td>ARS-PCD, PUV, forfait soins, habilité aide sociale</td><td>2015-01-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td>ARS PCD PUV FS HAS</td></tr><tr><td style=\"white-space:nowrap\">51<a name=\"TRE-R74-ModeFixationTarifaire-51\"> </a></td><td>ARS-PCD, PUV, forfait soins, non habilité aide sociale</td><td>2015-01-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td>ARS PCD PUV FS nHAS</td></tr><tr><td style=\"white-space:nowrap\">52<a name=\"TRE-R74-ModeFixationTarifaire-52\"> </a></td><td>ARS-PCD, LF, forfait soins, habilité aide sociale</td><td>2015-01-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td>ARS PCD LF FS HAS</td></tr><tr><td style=\"white-space:nowrap\">53<a name=\"TRE-R74-ModeFixationTarifaire-53\"> </a></td><td>ARS-PCD, LF, forfait soins, non habilité aide sociale</td><td>2015-01-01T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td/><td>ARS PCD LF FS nHAS</td></tr><tr><td style=\"white-space:nowrap\">54<a name=\"TRE-R74-ModeFixationTarifaire-54\"> </a></td><td>Tarif AM - Services de Soins Infirmiers A Domicile</td><td>2016-09-01T00:00:00+01:00</td><td>2018-09-28T12:00:00+01:00</td><td/><td>Tarif AM - SSIAD</td></tr><tr><td style=\"white-space:nowrap\">55<a name=\"TRE-R74-ModeFixationTarifaire-55\"> </a></td><td>ARS-PCD, PUV, convention SSIAD, non habilité à l'aide social</td><td>2018-09-28T12:00:00+01:00</td><td>2018-09-28T12:00:00+01:00</td><td/><td>ARS PCD PUV CD NHAS</td></tr><tr><td style=\"white-space:nowrap\">56<a name=\"TRE-R74-ModeFixationTarifaire-56\"> </a></td><td>ARS-PCD, PUV, convention SSIAD, habilité à l'aide sociale</td><td>2018-09-28T12:00:00+01:00</td><td>2018-09-28T12:00:00+01:00</td><td/><td>ARS PCD PUV CD HAS</td></tr><tr><td style=\"white-space:nowrap\">57<a name=\"TRE-R74-ModeFixationTarifaire-57\"> </a></td><td>ARS /ARS PCD Dotation forfait ou prix de journée globalisés (CPOM)</td><td>2018-09-28T12:00:00+01:00</td><td>2020-01-31T12:00:00+01:00</td><td/><td>ARS/ARS PCD Dot.Glob</td></tr><tr><td style=\"white-space:nowrap\">58<a name=\"TRE-R74-ModeFixationTarifaire-58\"> </a></td><td>ARS dotation forfait ou prix de journée globalisé hors CPOM</td><td>2018-09-28T12:00:00+01:00</td><td>2018-09-28T12:00:00+01:00</td><td/><td>ARS PJ glob.hors CPOM</td></tr><tr><td style=\"white-space:nowrap\">99<a name=\"TRE-R74-ModeFixationTarifaire-99\"> </a></td><td>Indéterminé</td><td>2002-01-01T00:00:00+01:00</td><td>2002-04-15T00:00:00+01:00</td><td/><td/></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
-     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod>
+     ] ;
      fhir:value [
        a fhir:Period ;
        fhir:start [ fhir:v "1999-11-02T00:00:00+01:00"^^xsd:dateTime ]
      ]
   ] ) ; # 
-  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire"^^xsd:anyURI] ; # 
+  fhir:url [
+     fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire"^^xsd:anyURI ;
+     fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire>
+  ] ; # 
   fhir:identifier ( [
-     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:system [
+       fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
+       fhir:l <urn:ietf:rfc:3986>
+     ] ;
      fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.46" ]
   ] ) ; # 
   fhir:version [ fhir:v "20240223120000"] ; # 
@@ -44,23 +53,32 @@
   fhir:caseSensitive [ fhir:v false] ; # 
   fhir:valueSet [
      fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire?vs"^^xsd:anyURI ;
-     fhir:link <https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire?vs>
+     fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire?vs>
   ] ; # 
   fhir:content [ fhir:v "complete"] ; # 
   fhir:count [ fhir:v "52"^^xsd:nonNegativeInteger] ; # 
   fhir:property ( [
      fhir:code [ fhir:v "dateValid" ] ;
-     fhir:uri [ fhir:v "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"^^xsd:anyURI ] ;
+     fhir:uri [
+       fhir:v "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"^^xsd:anyURI ;
+       fhir:l <https://smt.esante.gouv.fr/fhir/concept-properties#dateValid>
+     ] ;
      fhir:description [ fhir:v "date de validité d'un code concept" ] ;
      fhir:type [ fhir:v "dateTime" ]
   ] [
      fhir:code [ fhir:v "dateMaj" ] ;
-     fhir:uri [ fhir:v "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj"^^xsd:anyURI ] ;
+     fhir:uri [
+       fhir:v "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj"^^xsd:anyURI ;
+       fhir:l <https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj>
+     ] ;
      fhir:description [ fhir:v "Date de mise à jour d'un code concept" ] ;
      fhir:type [ fhir:v "dateTime" ]
   ] [
      fhir:code [ fhir:v "dateFin" ] ;
-     fhir:uri [ fhir:v "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin"^^xsd:anyURI ] ;
+     fhir:uri [
+       fhir:v "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin"^^xsd:anyURI ;
+       fhir:l <https://smt.esante.gouv.fr/fhir/concept-properties#dateFin>
+     ] ;
      fhir:description [ fhir:v "Date de fin d'exploitation d'un code concept" ] ;
      fhir:type [ fhir:v "dateTime" ]
   ] ) ; # 
@@ -71,7 +89,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Tarif libre" ]
@@ -79,13 +100,13 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1999-11-02T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime
        ]
      ] )
@@ -96,7 +117,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Autorité Ministre" ]
@@ -104,13 +128,13 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1999-11-02T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime
        ]
      ] )
@@ -121,7 +145,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "ARS - DG EPS" ]
@@ -129,13 +156,13 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1999-11-02T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1999-09-21T00:00:00+01:00"^^xsd:dateTime
        ]
      ] )
@@ -146,7 +173,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "ARS - DG PSPH" ]
@@ -154,13 +184,13 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1999-11-02T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1999-09-21T00:00:00+01:00"^^xsd:dateTime
        ]
      ] )
@@ -171,7 +201,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "ARS - Non DG" ]
@@ -179,7 +212,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "ARS établissements médico-sociaux non financés par dotation globale" ]
@@ -187,13 +223,13 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1999-11-02T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] )
@@ -204,7 +240,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "AM-Tarif Autorité" ]
@@ -212,13 +251,13 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1999-11-02T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1999-09-21T00:00:00+01:00"^^xsd:dateTime
        ]
      ] )
@@ -229,7 +268,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "ARS - san pr non DG" ]
@@ -237,7 +279,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "ARS établissements de santé non financés par dotation globale" ]
@@ -245,13 +290,13 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1999-11-02T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1999-09-21T00:00:00+01:00"^^xsd:dateTime
        ]
      ] )
@@ -262,7 +307,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "PCD ou métropole" ]
@@ -270,13 +318,13 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1999-11-02T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-02-23T12:00:00+01:00"^^xsd:dateTime
        ]
      ] )
@@ -287,7 +335,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "ARS PCD mixte HAS" ]
@@ -295,13 +346,13 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1999-11-02T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] )
@@ -312,7 +363,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Préfet ou ARS/PCD ou métropole" ]
@@ -320,13 +374,13 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1999-11-02T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-02-23T12:00:00+01:00"^^xsd:dateTime
        ]
      ] )
@@ -337,7 +391,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "ARS-PCD mixte nHAS" ]
@@ -345,7 +402,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Tarifs ARS, PCD, hébergement libre" ]
@@ -353,13 +413,13 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1999-11-02T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] )
@@ -370,7 +430,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Organ.Nationaux S.S." ]
@@ -378,13 +441,13 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1999-11-02T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime
        ]
      ] )
@@ -395,7 +458,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "ARS priv non PSPH DG" ]
@@ -403,13 +469,13 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1999-11-02T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1999-01-12T00:00:00+01:00"^^xsd:dateTime
        ]
      ] )
@@ -420,7 +486,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "CRAM homol préf rég" ]
@@ -428,19 +497,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1999-11-02T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2001-12-31T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2002-02-07T00:00:00+01:00"^^xsd:dateTime
        ]
      ] )
@@ -451,7 +520,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "ARS PCD mixte DG" ]
@@ -459,13 +531,13 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1999-11-02T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] )
@@ -476,7 +548,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "ARS PCG mixte LS" ]
@@ -484,7 +559,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Autorité mixte ARS PCG établissement long séjour convention tripartite" ]
@@ -492,19 +570,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1999-11-02T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2001-03-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1999-09-21T00:00:00+01:00"^^xsd:dateTime
        ]
      ] )
@@ -515,7 +593,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "PD PCG mixte EHPA" ]
@@ -523,7 +604,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Autorité mixte préfet déptartement PCG EHPA convention tripartite" ]
@@ -531,19 +615,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1999-11-02T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2001-03-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "1999-09-21T00:00:00+01:00"^^xsd:dateTime
        ]
      ] )
@@ -554,7 +638,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "ARS-PCG CAJ PA HAS" ]
@@ -562,19 +649,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2001-03-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-04-24T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-04-24T00:00:00+01:00"^^xsd:dateTime
        ]
      ] )
@@ -585,7 +672,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "ARS-PCD CAJ PA HAS" ]
@@ -593,13 +683,13 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2001-03-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] )
@@ -610,7 +700,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "ARS-PCD ESLD global" ]
@@ -618,13 +711,13 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2001-03-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] )
@@ -635,7 +728,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "ARS-PCD ESLD partiel" ]
@@ -643,13 +739,13 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2001-03-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] )
@@ -660,7 +756,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "ARS-PCG CAJ PA nHAS" ]
@@ -668,19 +767,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2001-03-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-01-22T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-01-22T00:00:00+01:00"^^xsd:dateTime
        ]
      ] )
@@ -691,7 +790,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "ARS-PCD CAJ PA nHAS" ]
@@ -699,13 +801,13 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2001-03-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] )
@@ -716,7 +818,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "LF conv partiel PAP" ]
@@ -724,7 +829,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Logement Foyer convention partielle PAP (conv EHPAD part)" ]
@@ -732,19 +840,19 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2011-11-18T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2014-07-07T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2014-07-23T00:00:00+01:00"^^xsd:dateTime
        ]
      ] )
@@ -755,7 +863,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Préfet région soc." ]
@@ -763,13 +874,13 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2010-11-12T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] )
@@ -780,7 +891,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "PCD-subv" ]
@@ -788,7 +902,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Président Conseil Départemental-Subvention" ]
@@ -796,13 +913,13 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2010-11-12T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime
        ]
      ] )
@@ -813,7 +930,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Ech tarif publique" ]
@@ -821,13 +941,13 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2011-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2011-05-13T00:00:00+01:00"^^xsd:dateTime
        ]
      ] )
@@ -838,7 +958,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Ech tarif privée" ]
@@ -846,13 +969,13 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2011-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2011-05-13T00:00:00+01:00"^^xsd:dateTime
        ]
      ] )
@@ -863,7 +986,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "ARS - DG" ]
@@ -871,13 +997,13 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2013-01-23T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2013-01-23T00:00:00+01:00"^^xsd:dateTime
        ]
      ] )
@@ -888,7 +1014,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Préfet départ. subv." ]
@@ -896,13 +1025,13 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] )
@@ -913,7 +1042,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Conventionnel AM" ]
@@ -921,13 +1053,13 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2013-12-19T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2013-12-19T00:00:00+01:00"^^xsd:dateTime
        ]
      ] )
@@ -938,7 +1070,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Régime spécial" ]
@@ -946,13 +1081,13 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2021-11-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2021-11-26T12:00:00+01:00"^^xsd:dateTime
        ]
      ] )
@@ -963,7 +1098,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "ARS TG HAS PUI" ]
@@ -971,13 +1109,13 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] )
@@ -988,7 +1126,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "ARS TG HAS nPUI" ]
@@ -996,13 +1137,13 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] )
@@ -1013,7 +1154,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "ARS TG nHAS PUI" ]
@@ -1021,7 +1165,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "ARS-PCD, Tarif global, non habilité aide sociale, recours PUI" ]
@@ -1029,13 +1176,13 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] )
@@ -1046,7 +1193,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "ARS TG nHAS nPUI" ]
@@ -1054,13 +1204,13 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] )
@@ -1071,7 +1221,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "ARS TP HAS PUI" ]
@@ -1079,13 +1232,13 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] )
@@ -1096,7 +1249,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "ARS TP HAS nPUI" ]
@@ -1104,13 +1260,13 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] )
@@ -1121,7 +1277,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "ARS TP nHAS PUI" ]
@@ -1129,7 +1288,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "ARS-PCD, Tarif partiel, non habilité aide sociale, recours PUI" ]
@@ -1137,13 +1299,13 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] )
@@ -1154,7 +1316,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "ARS TP nHAS nPUI" ]
@@ -1162,13 +1327,13 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] )
@@ -1179,7 +1344,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "ARS PCD EHPA DGS HAS" ]
@@ -1187,7 +1355,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "ARS-PCD, EHPA, dotation globale de soins, habilité aide sociale" ]
@@ -1195,13 +1366,13 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] )
@@ -1212,7 +1383,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "ARS PCD EHPA DGS nAS" ]
@@ -1220,7 +1394,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "ARS-PCD, EHPA, dotation globale de soins, non habilité aide sociale" ]
@@ -1228,13 +1405,13 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] )
@@ -1245,7 +1422,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "ARS PCD PUV FS HAS" ]
@@ -1253,13 +1433,13 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] )
@@ -1270,7 +1450,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "ARS PCD PUV FS nHAS" ]
@@ -1278,13 +1461,13 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] )
@@ -1295,7 +1478,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "ARS PCD LF FS HAS" ]
@@ -1303,13 +1489,13 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] )
@@ -1320,7 +1506,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "ARS PCD LF FS nHAS" ]
@@ -1328,13 +1517,13 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] )
@@ -1345,7 +1534,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Tarif AM - SSIAD" ]
@@ -1353,13 +1545,13 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime
        ]
      ] )
@@ -1370,7 +1562,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "ARS PCD PUV CD NHAS" ]
@@ -1378,13 +1573,13 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime
        ]
      ] )
@@ -1395,7 +1590,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "ARS PCD PUV CD HAS" ]
@@ -1403,13 +1601,13 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime
        ]
      ] )
@@ -1420,7 +1618,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "ARS/ARS PCD Dot.Glob" ]
@@ -1428,13 +1629,13 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2020-01-31T12:00:00+01:00"^^xsd:dateTime
        ]
      ] )
@@ -1445,7 +1646,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "ARS PJ glob.hors CPOM" ]
@@ -1453,13 +1657,13 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2018-09-28T12:00:00+01:00"^^xsd:dateTime
        ]
      ] )
@@ -1469,13 +1673,13 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2002-01-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2002-04-15T00:00:00+01:00"^^xsd:dateTime
        ]
      ] )

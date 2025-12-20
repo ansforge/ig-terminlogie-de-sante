@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20251028115833"
+             dateMaj="20251216141839"
              dateValid="20220804000000"
              description="JDV Issue Grossesse CISIS"
              displayName="JdvIssueGrossesseCisis"
@@ -10,23 +10,15 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="O01"
-                  codeSystem="2.16.840.1.113883.6.3"
-                  displayName="Môle hydatiforme"/>
-         <concept code="O00"
-                  codeSystem="2.16.840.1.113883.6.3"
-                  displayName="Grossesse extra-utérine"/>
-         <concept code="O03"
-                  codeSystem="2.16.840.1.113883.6.3"
-                  displayName="Avortement spontané"/>
+         <concept code="O01" codeSystem="" displayName="Môle hydatiforme"/>
+         <concept code="O00" codeSystem="" displayName="Grossesse extra-utérine"/>
+         <concept code="O03" codeSystem="" displayName="Avortement spontané"/>
          <concept code="O04.-0"
-                  codeSystem="2.16.840.1.113883.6.3"
+                  codeSystem=""
                   displayName="Interruption médicale volontaire de grossesse [IVG dans le cadre légal]"/>
-         <concept code="O04"
-                  codeSystem="2.16.840.1.113883.6.3"
-                  displayName="Avortement médical"/>
+         <concept code="O04" codeSystem="" displayName="Avortement médical"/>
          <concept code="P95"
-                  codeSystem="2.16.840.1.113883.6.3"
+                  codeSystem=""
                   displayName="Mort fœtale (de cause non précisée)"/>
          <concept code="3950001"
                   codeSystem="2.16.840.1.113883.6.96"

@@ -15,24 +15,33 @@
      fhir:lastUpdated [ fhir:v "2025-07-02T18:16:07.185+00:00"^^xsd:dateTime ] ;
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
+       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
      ] )
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem TRE-R214-SpecialiteUnite</b></p><a name=\"TRE-R214-SpecialiteUnite\"> </a><a name=\"hcTRE-R214-SpecialiteUnite\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 7; Dernière mise à jour : 2024-10-31 19:11:27+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://mos.esante.gouv.fr/NOS/TRE_R214-SpecialiteUnite/FHIR/TRE-R214-SpecialiteUnite</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>dateFin</b></td><td><b>French (France) (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">01<a name=\"TRE-R214-SpecialiteUnite-01\"> </a></td><td>Addictologie</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">02<a name=\"TRE-R214-SpecialiteUnite-02\"> </a></td><td>Allergologie et Immunologie clinique</td><td>2015-05-04T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td>Allergologie, Immunolog cliniq</td></tr><tr><td style=\"white-space:nowrap\">03<a name=\"TRE-R214-SpecialiteUnite-03\"> </a></td><td>Anatomie et Cytologie pathologiques</td><td>2015-05-04T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td>Anatomie, Cytologie pathologiq</td></tr><tr><td style=\"white-space:nowrap\">04<a name=\"TRE-R214-SpecialiteUnite-04\"> </a></td><td>Anesthésie</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">05<a name=\"TRE-R214-SpecialiteUnite-05\"> </a></td><td>Biologie médicale</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">06<a name=\"TRE-R214-SpecialiteUnite-06\"> </a></td><td>Brûlologie (brûlés)</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">07<a name=\"TRE-R214-SpecialiteUnite-07\"> </a></td><td>Cardiologie</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">08<a name=\"TRE-R214-SpecialiteUnite-08\"> </a></td><td>Chirurgie cardiaque et gros vaisseaux</td><td>2015-05-04T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td>Chir cardiaque, gros vaisseaux</td></tr><tr><td style=\"white-space:nowrap\">09<a name=\"TRE-R214-SpecialiteUnite-09\"> </a></td><td>Chirurgie générale</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">10<a name=\"TRE-R214-SpecialiteUnite-10\"> </a></td><td>Chirurgie maxillo-faciale et Stomatologie</td><td>2015-05-04T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td>Chir maxillo-faciale, Stomato</td></tr><tr><td style=\"white-space:nowrap\">11<a name=\"TRE-R214-SpecialiteUnite-11\"> </a></td><td>Chirurgie orthopédique et Traumatologie</td><td>2015-05-04T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td>Chir ortho, Traumato</td></tr><tr><td style=\"white-space:nowrap\">12<a name=\"TRE-R214-SpecialiteUnite-12\"> </a></td><td>Chirurgie plastique, reconstructrice et esthétique</td><td>2015-05-04T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td>Chir plast, reconstr, esthétiq</td></tr><tr><td style=\"white-space:nowrap\">13<a name=\"TRE-R214-SpecialiteUnite-13\"> </a></td><td>Chirurgie thoracique et pulmonaire</td><td>2015-05-04T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td>Chir thoracique et pulmonaire</td></tr><tr><td style=\"white-space:nowrap\">14<a name=\"TRE-R214-SpecialiteUnite-14\"> </a></td><td>Chirurgie urologique (Urologie)</td><td>2015-05-04T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td>Chir urologique</td></tr><tr><td style=\"white-space:nowrap\">15<a name=\"TRE-R214-SpecialiteUnite-15\"> </a></td><td>Chirurgie vasculaire</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">16<a name=\"TRE-R214-SpecialiteUnite-16\"> </a></td><td>Chirurgie viscérale et digestive</td><td>2015-05-04T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td>Chirurgie viscérale, digestive</td></tr><tr><td style=\"white-space:nowrap\">17<a name=\"TRE-R214-SpecialiteUnite-17\"> </a></td><td>Dermatologie</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">18<a name=\"TRE-R214-SpecialiteUnite-18\"> </a></td><td>Endocrinologie, Diabétologie, Métabolisme et Nutrition</td><td>2015-05-04T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td>Endocrino Diabéto Métab Nutrit</td></tr><tr><td style=\"white-space:nowrap\">19<a name=\"TRE-R214-SpecialiteUnite-19\"> </a></td><td>Gastro-entérologie et Hépatologie</td><td>2015-05-04T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td>Gastro-entérologie, Hépato</td></tr><tr><td style=\"white-space:nowrap\">20<a name=\"TRE-R214-SpecialiteUnite-20\"> </a></td><td>Génétique médicale</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">21<a name=\"TRE-R214-SpecialiteUnite-21\"> </a></td><td>Gériatrie</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">22<a name=\"TRE-R214-SpecialiteUnite-22\"> </a></td><td>Gestion de crise, plan blanc</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">23<a name=\"TRE-R214-SpecialiteUnite-23\"> </a></td><td>Gynécologie-obstétrique</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">24<a name=\"TRE-R214-SpecialiteUnite-24\"> </a></td><td>Hématologie</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">25<a name=\"TRE-R214-SpecialiteUnite-25\"> </a></td><td>Hygiène</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">26<a name=\"TRE-R214-SpecialiteUnite-26\"> </a></td><td>Imagerie médicale (radiologie)</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">27<a name=\"TRE-R214-SpecialiteUnite-27\"> </a></td><td>Maladies infectieuses, parasitaires et tropicales</td><td>2015-05-04T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td>Maladies infect, parasit, trop</td></tr><tr><td style=\"white-space:nowrap\">28<a name=\"TRE-R214-SpecialiteUnite-28\"> </a></td><td>Médecine aérospatiale-aéronautique</td><td>2015-05-04T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td>Médecine aérospat-aéronautique</td></tr><tr><td style=\"white-space:nowrap\">29<a name=\"TRE-R214-SpecialiteUnite-29\"> </a></td><td>Médecine du sport</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">30<a name=\"TRE-R214-SpecialiteUnite-30\"> </a></td><td>Médecine du travail (pathologie professionnelle)</td><td>2015-05-04T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td>Médecine du travail</td></tr><tr><td style=\"white-space:nowrap\">31<a name=\"TRE-R214-SpecialiteUnite-31\"> </a></td><td>Médecine d'urgence</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">32<a name=\"TRE-R214-SpecialiteUnite-32\"> </a></td><td>Médecine générale (polyvalente)</td><td>2015-05-04T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td>Médecine générale, polyvalente</td></tr><tr><td style=\"white-space:nowrap\">33<a name=\"TRE-R214-SpecialiteUnite-33\"> </a></td><td>Médecine hyperbare</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">34<a name=\"TRE-R214-SpecialiteUnite-34\"> </a></td><td>Médecine interne</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">35<a name=\"TRE-R214-SpecialiteUnite-35\"> </a></td><td>Médecine légale et Expertise médicale</td><td>2015-05-04T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td>Médecine légale, Expertise méd</td></tr><tr><td style=\"white-space:nowrap\">36<a name=\"TRE-R214-SpecialiteUnite-36\"> </a></td><td>Médecine nucléaire</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">37<a name=\"TRE-R214-SpecialiteUnite-37\"> </a></td><td>Médecine pénitentiaire</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">38<a name=\"TRE-R214-SpecialiteUnite-38\"> </a></td><td>Médecine physique et réadaptation (SSR)</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td>Médecine physique, réadapt</td></tr><tr><td style=\"white-space:nowrap\">39<a name=\"TRE-R214-SpecialiteUnite-39\"> </a></td><td>Médecine vasculaire (Angéiologie)</td><td>2015-05-04T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td>Médecine vascul (Angéiologie)</td></tr><tr><td style=\"white-space:nowrap\">40<a name=\"TRE-R214-SpecialiteUnite-40\"> </a></td><td>Néonatologie</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">41<a name=\"TRE-R214-SpecialiteUnite-41\"> </a></td><td>Néphrologie</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">42<a name=\"TRE-R214-SpecialiteUnite-42\"> </a></td><td>Neurochirurgie</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">43<a name=\"TRE-R214-SpecialiteUnite-43\"> </a></td><td>Neurologie</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">44<a name=\"TRE-R214-SpecialiteUnite-44\"> </a></td><td>Odontologie (Dentisterie)</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">45<a name=\"TRE-R214-SpecialiteUnite-45\"> </a></td><td>Oncologie-cancérologie</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">46<a name=\"TRE-R214-SpecialiteUnite-46\"> </a></td><td>Ophtalmologie</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">47<a name=\"TRE-R214-SpecialiteUnite-47\"> </a></td><td>Oto-rhino-laryngologie (ORL) et Chirurgie cervico-faciale</td><td>2015-05-04T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td>ORL, Chirurgie cervico-faciale</td></tr><tr><td style=\"white-space:nowrap\">48<a name=\"TRE-R214-SpecialiteUnite-48\"> </a></td><td>Pédiatrie générale</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">49<a name=\"TRE-R214-SpecialiteUnite-49\"> </a></td><td>Pharmacie</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">50<a name=\"TRE-R214-SpecialiteUnite-50\"> </a></td><td>Pneumologie</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">51<a name=\"TRE-R214-SpecialiteUnite-51\"> </a></td><td>Psychiatrie (PSY)</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">52<a name=\"TRE-R214-SpecialiteUnite-52\"> </a></td><td>Psychiatrie de l'enfant et de l'adolescent (pédopsychiatrie)</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td>Pédopsychiatrie</td></tr><tr><td style=\"white-space:nowrap\">53<a name=\"TRE-R214-SpecialiteUnite-53\"> </a></td><td>Réanimation</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">54<a name=\"TRE-R214-SpecialiteUnite-54\"> </a></td><td>Rhumatologie</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">55<a name=\"TRE-R214-SpecialiteUnite-55\"> </a></td><td>Santé publique</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">56<a name=\"TRE-R214-SpecialiteUnite-56\"> </a></td><td>Soins de suite et de réadaptation (SSR)</td><td>2015-05-04T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td>SSR</td></tr><tr><td style=\"white-space:nowrap\">57<a name=\"TRE-R214-SpecialiteUnite-57\"> </a></td><td>Soins palliatifs et Médecine de la douleur</td><td>2015-05-04T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td>Soins palliatifs, Méd douleur</td></tr><tr><td style=\"white-space:nowrap\">58<a name=\"TRE-R214-SpecialiteUnite-58\"> </a></td><td>Système information</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">59<a name=\"TRE-R214-SpecialiteUnite-59\"> </a></td><td>Toxicologie</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">60<a name=\"TRE-R214-SpecialiteUnite-60\"> </a></td><td>Transfusion</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr></table></div>"^^rdf:XMLLiteral
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem TRE-R214-SpecialiteUnite</b></p><a name=\"TRE-R214-SpecialiteUnite\"> </a><a name=\"hcTRE-R214-SpecialiteUnite\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 7; Dernière mise à jour : 2024-10-31 19:11:27+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>dateValid</td><td>dateValid</td><td>dateTime</td><td>date de validité d'un code concept</td></tr><tr><td>dateMaj</td><td>dateMaj</td><td>dateTime</td><td>Date de mise à jour d'un code concept</td></tr><tr><td>dateFin</td><td>dateFin</td><td>dateTime</td><td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://mos.esante.gouv.fr/NOS/TRE_R214-SpecialiteUnite/FHIR/TRE-R214-SpecialiteUnite</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>dateFin</b></td><td><b>French (France) (fr)</b></td></tr><tr><td style=\"white-space:nowrap\">01<a name=\"TRE-R214-SpecialiteUnite-01\"> </a></td><td>Addictologie</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">02<a name=\"TRE-R214-SpecialiteUnite-02\"> </a></td><td>Allergologie et Immunologie clinique</td><td>2015-05-04T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td>Allergologie, Immunolog cliniq</td></tr><tr><td style=\"white-space:nowrap\">03<a name=\"TRE-R214-SpecialiteUnite-03\"> </a></td><td>Anatomie et Cytologie pathologiques</td><td>2015-05-04T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td>Anatomie, Cytologie pathologiq</td></tr><tr><td style=\"white-space:nowrap\">04<a name=\"TRE-R214-SpecialiteUnite-04\"> </a></td><td>Anesthésie</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">05<a name=\"TRE-R214-SpecialiteUnite-05\"> </a></td><td>Biologie médicale</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">06<a name=\"TRE-R214-SpecialiteUnite-06\"> </a></td><td>Brûlologie (brûlés)</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">07<a name=\"TRE-R214-SpecialiteUnite-07\"> </a></td><td>Cardiologie</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">08<a name=\"TRE-R214-SpecialiteUnite-08\"> </a></td><td>Chirurgie cardiaque et gros vaisseaux</td><td>2015-05-04T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td>Chir cardiaque, gros vaisseaux</td></tr><tr><td style=\"white-space:nowrap\">09<a name=\"TRE-R214-SpecialiteUnite-09\"> </a></td><td>Chirurgie générale</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">10<a name=\"TRE-R214-SpecialiteUnite-10\"> </a></td><td>Chirurgie maxillo-faciale et Stomatologie</td><td>2015-05-04T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td>Chir maxillo-faciale, Stomato</td></tr><tr><td style=\"white-space:nowrap\">11<a name=\"TRE-R214-SpecialiteUnite-11\"> </a></td><td>Chirurgie orthopédique et Traumatologie</td><td>2015-05-04T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td>Chir ortho, Traumato</td></tr><tr><td style=\"white-space:nowrap\">12<a name=\"TRE-R214-SpecialiteUnite-12\"> </a></td><td>Chirurgie plastique, reconstructrice et esthétique</td><td>2015-05-04T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td>Chir plast, reconstr, esthétiq</td></tr><tr><td style=\"white-space:nowrap\">13<a name=\"TRE-R214-SpecialiteUnite-13\"> </a></td><td>Chirurgie thoracique et pulmonaire</td><td>2015-05-04T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td>Chir thoracique et pulmonaire</td></tr><tr><td style=\"white-space:nowrap\">14<a name=\"TRE-R214-SpecialiteUnite-14\"> </a></td><td>Chirurgie urologique (Urologie)</td><td>2015-05-04T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td>Chir urologique</td></tr><tr><td style=\"white-space:nowrap\">15<a name=\"TRE-R214-SpecialiteUnite-15\"> </a></td><td>Chirurgie vasculaire</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">16<a name=\"TRE-R214-SpecialiteUnite-16\"> </a></td><td>Chirurgie viscérale et digestive</td><td>2015-05-04T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td>Chirurgie viscérale, digestive</td></tr><tr><td style=\"white-space:nowrap\">17<a name=\"TRE-R214-SpecialiteUnite-17\"> </a></td><td>Dermatologie</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">18<a name=\"TRE-R214-SpecialiteUnite-18\"> </a></td><td>Endocrinologie, Diabétologie, Métabolisme et Nutrition</td><td>2015-05-04T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td>Endocrino Diabéto Métab Nutrit</td></tr><tr><td style=\"white-space:nowrap\">19<a name=\"TRE-R214-SpecialiteUnite-19\"> </a></td><td>Gastro-entérologie et Hépatologie</td><td>2015-05-04T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td>Gastro-entérologie, Hépato</td></tr><tr><td style=\"white-space:nowrap\">20<a name=\"TRE-R214-SpecialiteUnite-20\"> </a></td><td>Génétique médicale</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">21<a name=\"TRE-R214-SpecialiteUnite-21\"> </a></td><td>Gériatrie</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">22<a name=\"TRE-R214-SpecialiteUnite-22\"> </a></td><td>Gestion de crise, plan blanc</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">23<a name=\"TRE-R214-SpecialiteUnite-23\"> </a></td><td>Gynécologie-obstétrique</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">24<a name=\"TRE-R214-SpecialiteUnite-24\"> </a></td><td>Hématologie</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">25<a name=\"TRE-R214-SpecialiteUnite-25\"> </a></td><td>Hygiène</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">26<a name=\"TRE-R214-SpecialiteUnite-26\"> </a></td><td>Imagerie médicale (radiologie)</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">27<a name=\"TRE-R214-SpecialiteUnite-27\"> </a></td><td>Maladies infectieuses, parasitaires et tropicales</td><td>2015-05-04T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td>Maladies infect, parasit, trop</td></tr><tr><td style=\"white-space:nowrap\">28<a name=\"TRE-R214-SpecialiteUnite-28\"> </a></td><td>Médecine aérospatiale-aéronautique</td><td>2015-05-04T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td>Médecine aérospat-aéronautique</td></tr><tr><td style=\"white-space:nowrap\">29<a name=\"TRE-R214-SpecialiteUnite-29\"> </a></td><td>Médecine du sport</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">30<a name=\"TRE-R214-SpecialiteUnite-30\"> </a></td><td>Médecine du travail (pathologie professionnelle)</td><td>2015-05-04T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td>Médecine du travail</td></tr><tr><td style=\"white-space:nowrap\">31<a name=\"TRE-R214-SpecialiteUnite-31\"> </a></td><td>Médecine d'urgence</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">32<a name=\"TRE-R214-SpecialiteUnite-32\"> </a></td><td>Médecine générale (polyvalente)</td><td>2015-05-04T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td>Médecine générale, polyvalente</td></tr><tr><td style=\"white-space:nowrap\">33<a name=\"TRE-R214-SpecialiteUnite-33\"> </a></td><td>Médecine hyperbare</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">34<a name=\"TRE-R214-SpecialiteUnite-34\"> </a></td><td>Médecine interne</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">35<a name=\"TRE-R214-SpecialiteUnite-35\"> </a></td><td>Médecine légale et Expertise médicale</td><td>2015-05-04T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td>Médecine légale, Expertise méd</td></tr><tr><td style=\"white-space:nowrap\">36<a name=\"TRE-R214-SpecialiteUnite-36\"> </a></td><td>Médecine nucléaire</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">37<a name=\"TRE-R214-SpecialiteUnite-37\"> </a></td><td>Médecine pénitentiaire</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">38<a name=\"TRE-R214-SpecialiteUnite-38\"> </a></td><td>Médecine physique et réadaptation (SSR)</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td>Médecine physique, réadapt</td></tr><tr><td style=\"white-space:nowrap\">39<a name=\"TRE-R214-SpecialiteUnite-39\"> </a></td><td>Médecine vasculaire (Angéiologie)</td><td>2015-05-04T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td>Médecine vascul (Angéiologie)</td></tr><tr><td style=\"white-space:nowrap\">40<a name=\"TRE-R214-SpecialiteUnite-40\"> </a></td><td>Néonatologie</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">41<a name=\"TRE-R214-SpecialiteUnite-41\"> </a></td><td>Néphrologie</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">42<a name=\"TRE-R214-SpecialiteUnite-42\"> </a></td><td>Neurochirurgie</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">43<a name=\"TRE-R214-SpecialiteUnite-43\"> </a></td><td>Neurologie</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">44<a name=\"TRE-R214-SpecialiteUnite-44\"> </a></td><td>Odontologie (Dentisterie)</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">45<a name=\"TRE-R214-SpecialiteUnite-45\"> </a></td><td>Oncologie-cancérologie</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">46<a name=\"TRE-R214-SpecialiteUnite-46\"> </a></td><td>Ophtalmologie</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">47<a name=\"TRE-R214-SpecialiteUnite-47\"> </a></td><td>Oto-rhino-laryngologie (ORL) et Chirurgie cervico-faciale</td><td>2015-05-04T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td>ORL, Chirurgie cervico-faciale</td></tr><tr><td style=\"white-space:nowrap\">48<a name=\"TRE-R214-SpecialiteUnite-48\"> </a></td><td>Pédiatrie générale</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">49<a name=\"TRE-R214-SpecialiteUnite-49\"> </a></td><td>Pharmacie</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">50<a name=\"TRE-R214-SpecialiteUnite-50\"> </a></td><td>Pneumologie</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">51<a name=\"TRE-R214-SpecialiteUnite-51\"> </a></td><td>Psychiatrie (PSY)</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">52<a name=\"TRE-R214-SpecialiteUnite-52\"> </a></td><td>Psychiatrie de l'enfant et de l'adolescent (pédopsychiatrie)</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td>Pédopsychiatrie</td></tr><tr><td style=\"white-space:nowrap\">53<a name=\"TRE-R214-SpecialiteUnite-53\"> </a></td><td>Réanimation</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">54<a name=\"TRE-R214-SpecialiteUnite-54\"> </a></td><td>Rhumatologie</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">55<a name=\"TRE-R214-SpecialiteUnite-55\"> </a></td><td>Santé publique</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">56<a name=\"TRE-R214-SpecialiteUnite-56\"> </a></td><td>Soins de suite et de réadaptation (SSR)</td><td>2015-05-04T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td>SSR</td></tr><tr><td style=\"white-space:nowrap\">57<a name=\"TRE-R214-SpecialiteUnite-57\"> </a></td><td>Soins palliatifs et Médecine de la douleur</td><td>2015-05-04T00:00:00+01:00</td><td>2016-09-01T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td>Soins palliatifs, Méd douleur</td></tr><tr><td style=\"white-space:nowrap\">58<a name=\"TRE-R214-SpecialiteUnite-58\"> </a></td><td>Système information</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">59<a name=\"TRE-R214-SpecialiteUnite-59\"> </a></td><td>Toxicologie</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr><tr><td style=\"white-space:nowrap\">60<a name=\"TRE-R214-SpecialiteUnite-60\"> </a></td><td>Transfusion</td><td>2015-05-04T00:00:00+01:00</td><td>2015-05-04T00:00:00+01:00</td><td>2024-10-25T12:00:00+01:00</td><td/></tr></table></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:extension ( [
-     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod>
+     ] ;
      fhir:value [
        a fhir:Period ;
        fhir:start [ fhir:v "2015-04-08T00:00:00+01:00"^^xsd:dateTime ] ;
        fhir:end [ fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime ]
      ]
   ] ) ; # 
-  fhir:url [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R214-SpecialiteUnite/FHIR/TRE-R214-SpecialiteUnite"^^xsd:anyURI] ; # 
+  fhir:url [
+     fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R214-SpecialiteUnite/FHIR/TRE-R214-SpecialiteUnite"^^xsd:anyURI ;
+     fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R214-SpecialiteUnite/FHIR/TRE-R214-SpecialiteUnite>
+  ] ; # 
   fhir:identifier ( [
-     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:system [
+       fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
+       fhir:l <urn:ietf:rfc:3986>
+     ] ;
      fhir:value [ fhir:v "urn:oid:1.2.250.1.213.3.3.14" ]
   ] ) ; # 
   fhir:version [ fhir:v "20241025120000"] ; # 
@@ -44,7 +53,10 @@
   fhir:description [ fhir:v "Spécialité d'unité"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
-       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
        fhir:code [ fhir:v "FR" ]
      ] )
   ] ) ; # 
@@ -64,17 +76,26 @@
      fhir:type [ fhir:v "dateTime" ]
   ] [
      fhir:code [ fhir:v "deprecationDate" ] ;
-     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#deprecationDate"^^xsd:anyURI ] ;
+     fhir:uri [
+       fhir:v "http://hl7.org/fhir/concept-properties#deprecationDate"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/concept-properties#deprecationDate>
+     ] ;
      fhir:description [ fhir:v "Date Concept was deprecated" ] ;
      fhir:type [ fhir:v "dateTime" ]
   ] [
      fhir:code [ fhir:v "status" ] ;
-     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#status"^^xsd:anyURI ] ;
+     fhir:uri [
+       fhir:v "http://hl7.org/fhir/concept-properties#status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/concept-properties#status>
+     ] ;
      fhir:description [ fhir:v "A property that indicates the status of the concept." ] ;
      fhir:type [ fhir:v "code" ]
   ] [
      fhir:code [ fhir:v "retirementDate" ] ;
-     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#retirementDate"^^xsd:anyURI ] ;
+     fhir:uri [
+       fhir:v "http://hl7.org/fhir/concept-properties#retirementDate"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/concept-properties#retirementDate>
+     ] ;
      fhir:description [ fhir:v "Date Concept was retired" ] ;
      fhir:type [ fhir:v "dateTime" ]
   ] ) ; # 
@@ -84,31 +105,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -119,7 +140,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Allergologie, Immunolog cliniq" ]
@@ -127,31 +151,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -162,7 +186,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Anatomie, Cytologie pathologiq" ]
@@ -170,31 +197,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -204,31 +231,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -238,31 +265,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -272,31 +299,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -306,31 +333,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -341,7 +368,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Chir cardiaque, gros vaisseaux" ]
@@ -349,31 +379,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -383,31 +413,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -418,7 +448,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Chir maxillo-faciale, Stomato" ]
@@ -426,31 +459,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -461,7 +494,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Chir ortho, Traumato" ]
@@ -469,31 +505,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -504,7 +540,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Chir plast, reconstr, esthétiq" ]
@@ -512,31 +551,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -547,7 +586,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Chir thoracique et pulmonaire" ]
@@ -555,31 +597,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -590,7 +632,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Chir urologique" ]
@@ -598,31 +643,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -632,31 +677,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -667,7 +712,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Chirurgie viscérale, digestive" ]
@@ -675,31 +723,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -709,31 +757,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -744,7 +792,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Endocrino Diabéto Métab Nutrit" ]
@@ -752,31 +803,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -787,7 +838,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Gastro-entérologie, Hépato" ]
@@ -795,31 +849,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -829,31 +883,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -863,31 +917,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -897,31 +951,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -931,31 +985,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -965,31 +1019,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -999,31 +1053,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -1033,31 +1087,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -1068,7 +1122,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Maladies infect, parasit, trop" ]
@@ -1076,31 +1133,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -1111,7 +1168,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Médecine aérospat-aéronautique" ]
@@ -1119,31 +1179,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -1153,31 +1213,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -1188,7 +1248,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Médecine du travail" ]
@@ -1196,31 +1259,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -1230,31 +1293,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -1265,7 +1328,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Médecine générale, polyvalente" ]
@@ -1273,31 +1339,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -1307,31 +1373,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -1341,31 +1407,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -1376,7 +1442,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Médecine légale, Expertise méd" ]
@@ -1384,31 +1453,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -1418,31 +1487,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -1452,31 +1521,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -1487,7 +1556,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Médecine physique, réadapt" ]
@@ -1495,31 +1567,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -1530,7 +1602,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Médecine vascul (Angéiologie)" ]
@@ -1538,31 +1613,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -1572,31 +1647,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -1606,31 +1681,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -1640,31 +1715,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -1674,31 +1749,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -1708,31 +1783,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -1742,31 +1817,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -1776,31 +1851,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -1811,7 +1886,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "ORL, Chirurgie cervico-faciale" ]
@@ -1819,31 +1897,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -1853,31 +1931,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -1887,31 +1965,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -1921,31 +1999,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -1955,31 +2033,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -1990,7 +2068,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Pédopsychiatrie" ]
@@ -1998,31 +2079,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -2032,31 +2113,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -2066,31 +2147,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -2100,31 +2181,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -2135,7 +2216,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "SSR" ]
@@ -2143,31 +2227,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -2178,7 +2262,10 @@
        fhir:language [ fhir:v "fr-FR" ] ;
        fhir:use [
          a sct:900000000000013009 ;
-         fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+         fhir:system [
+           fhir:v "http://snomed.info/sct"^^xsd:anyURI ;
+           fhir:l <http://snomed.info/sct>
+         ] ;
          fhir:code [ fhir:v "900000000000013009" ]
        ] ;
        fhir:value [ fhir:v "Soins palliatifs, Méd douleur" ]
@@ -2186,31 +2273,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2016-09-01T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -2220,31 +2307,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -2254,31 +2341,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )
@@ -2288,31 +2375,31 @@
      fhir:property ( [
        fhir:code [ fhir:v "dateValid" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateFin" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "dateMaj" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2015-05-04T00:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "deprecationDate" ] ;
        fhir:value [
-         a fhir:dateTime ;
+         a fhir:DateTime ;
          fhir:v "2024-10-25T12:00:00+01:00"^^xsd:dateTime
        ]
      ] [
        fhir:code [ fhir:v "status" ] ;
        fhir:value [
-         a fhir:code ;
+         a fhir:Code ;
          fhir:v "deprecated"
        ]
      ] )

@@ -2,13 +2,13 @@
   "resourceType" : "ValueSet",
   "id" : "jdv-complication-neuropsychiatrique-cisis",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2025-06-25T09:13:29.904+00:00",
+    "versionId" : "5",
+    "lastUpdated" : "2025-12-17T15:43:30.077+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "text" : {
-    "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-complication-neuropsychiatrique-cisis</b></p><a name=\"jdv-complication-neuropsychiatrique-cisis\"> </a><a name=\"hcjdv-complication-neuropsychiatrique-cisis\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 4; Dernière mise à jour : 2025-06-25 09:13:29+0000</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><p>Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :</p><ul><li>Inclut les codes sont définis dans <a href=\"CodeSystem-terminologie-cim-10.html\"><code>https://smt.esante.gouv.fr/terminologie-cim-10</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>F32.9</td><td>Épisode dépressif, sans précision</td></tr></table></li><li>Inclut les codes sont définis dans <a href=\"CodeSystem-terminologie-cisis.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-523\">MED-523</a></td><td>Syndrome anxieux</td></tr><tr><td><a href=\"CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-524\">MED-524</a></td><td>Troubles du comportement (agitation, hallucinations)</td></tr><tr><td><a href=\"CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-525\">MED-525</a></td><td>Troubles du sommeil</td></tr><tr><td><a href=\"CodeSystem-terminologie-cisis.html#terminologie-cisis-GEN-092.4601.4615\">GEN-092.01.15</a></td><td>Autres syndromes psycho-comportementaux</td></tr></table></li></ul></div>"
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-complication-neuropsychiatrique-cisis</b></p><a name=\"jdv-complication-neuropsychiatrique-cisis\"> </a><a name=\"hcjdv-complication-neuropsychiatrique-cisis\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 5; Dernière mise à jour : 2025-12-17 15:43:30+0100</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><p>Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :</p><ul><li>Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans <a href=\"http://tx.fhir.org/r4\"><code>http://hl7.org/fhir/sid/icd-10</code></a><span style=\"opacity: 0.5\" title=\"La version nest pas explicitement indiquée. Lors de la génération de cette spécification, la version la plus récente {0} a été utilisée\"> version ⏿2019-covid-expanded</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td></tr><tr><td><a href=\"http://tx.fhir.org/r4/ValueSet/icd10-2019#icd10-2019-F32.469\">F32.9</a></td><td>Épisode dépressif, sans précision</td><td>Depressive episode, unspecified</td></tr><tr><td><a href=\"http://tx.fhir.org/r4/ValueSet/icd10-2019#icd10-2019-G47.469\">G47.9</a></td><td>Trouble du sommeil, sans précision</td><td>Sleep disorder, unspecified</td></tr></table></li><li>Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans <a href=\"CodeSystem-terminologie-cisis.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis</code></a><span title=\"La version nest pas explicitement indiquée, ce qui signifie quelle est fixée à la version fournie dans cette spécification\"> version &#x1F4E6;202512170000</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td></tr><tr><td><a href=\"CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-523\">MED-523</a></td><td>Syndrome anxieux</td></tr><tr><td><a href=\"CodeSystem-terminologie-cisis.html#terminologie-cisis-MED-524\">MED-524</a></td><td>Troubles du comportement (agitation, hallucinations)</td></tr><tr><td><a href=\"CodeSystem-terminologie-cisis.html#terminologie-cisis-GEN-092.4601.4615\">GEN-092.01.15</a></td><td>Autres syndromes psycho-comportementaux</td></tr></table></li></ul></div>"
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -21,20 +21,24 @@
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.223"
   }],
-  "version" : "20250624152101",
+  "version" : "20251216141840",
   "name" : "JdvComplicationNeuropsychiatriqueCisis",
   "title" : "JDV Complication Neuropsychiatrique CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-06-24T15:21:01+01:00",
+  "date" : "2025-12-16T14:18:40+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Complication Neuropsychiatrique CISIS",
   "compose" : {
     "include" : [{
-      "system" : "https://smt.esante.gouv.fr/terminologie-cim-10",
+      "system" : "http://hl7.org/fhir/sid/icd-10",
       "concept" : [{
         "code" : "F32.9",
         "display" : "Épisode dépressif, sans précision"
+      },
+      {
+        "code" : "G47.9",
+        "display" : "Trouble du sommeil, sans précision"
       }]
     },
     {
@@ -46,10 +50,6 @@
       {
         "code" : "MED-524",
         "display" : "Troubles du comportement (agitation, hallucinations)"
-      },
-      {
-        "code" : "MED-525",
-        "display" : "Troubles du sommeil"
       },
       {
         "code" : "GEN-092.01.15",

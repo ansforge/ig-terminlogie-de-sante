@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250624152101"
+             dateMaj="20251216141840"
              dateValid="20210419000000"
              description="JDV RCP Organe CISIS"
              displayName="JdvRcpOrganeCisis"
@@ -11,7 +11,7 @@
              urlFichier="">
       <ConceptList>
          <concept code="C88"
-                  codeSystem="2.16.840.1.113883.6.3"
+                  codeSystem=""
                   displayName="Maladies immunoprolifératives malignes"/>
          <concept code="C3211" codeSystem="" displayName="lymphome non hodgkinien"/>
          <concept code="C9357" codeSystem="" displayName="Lymphome de Hodgkin"/>
@@ -35,7 +35,7 @@
          <concept code="C3242"
                   codeSystem=""
                   displayName="myélome à cellules plasmatiques"/>
-         <concept code="C94529" codeSystem="" displayName="Vulve et vagin"/>
+         <concept code="C94529" codeSystem="" displayName="région vulvo-vaginale"/>
          <concept code="C12664" codeSystem="" displayName="Péritoine-rétropéritoine"/>
          <concept code="MED-237"
                   codeSystem="1.2.250.1.213.1.1.4.322"
@@ -48,10 +48,10 @@
                   displayName="Trachée, Bronches, Poumon"/>
          <concept code="57171008"
                   codeSystem="2.16.840.1.113883.6.96"
-                  displayName="structure du système hématopoïétique"/>
+                  displayName="système hématopoïétique"/>
          <concept code="119253004"
                   codeSystem="2.16.840.1.113883.6.96"
-                  displayName="voie aérodigestive supérieure"/>
+                  displayName="voies aérodigestives supérieures"/>
          <concept code="303270005"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="foie et/ou voies biliaires"/>
@@ -84,7 +84,7 @@
                   displayName="cavité orale"/>
          <concept code="48477009"
                   codeSystem="2.16.840.1.113883.6.96"
-                  displayName="lèvre de la bouche"/>
+                  displayName="lèvre"/>
          <concept code="21974007"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="langue"/>
@@ -148,18 +148,18 @@
          <concept code="84782009"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="nerf périphérique"/>
-         <concept code="1290040004"
+         <concept code="81745001"
                   codeSystem="2.16.840.1.113883.6.96"
-                  displayName="œil entier"/>
+                  displayName="œil"/>
          <concept code="387910009"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="glande endocrine"/>
          <concept code="23451007"
                   codeSystem="2.16.840.1.113883.6.96"
-                  displayName="glande surrénale"/>
+                  displayName="glande suprarénale"/>
          <concept code="69748006"
                   codeSystem="2.16.840.1.113883.6.96"
-                  displayName="glande thyroïde"/>
+                  displayName="thyroïde"/>
          <concept code="72410000"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="médiastin"/>
