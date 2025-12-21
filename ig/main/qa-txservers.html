@@ -12,7 +12,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Terminology Server Report for Terminologies</h1>
- <p>Generated Sat Dec 20 04:49:46 UTC 2025, FHIR version 4.0.1 for ans.fr.terminologies#1.5.0 (canonical = <a href="https://interop.esante.gouv.fr/terminologies">https://interop.esante.gouv.fr/terminologies</a> (<a href="https://interop.esante.gouv.fr/terminologies/history.html">history</a>))</p>
+ <p>Generated Sun Dec 21 05:14:37 UTC 2025, FHIR version 4.0.1 for ans.fr.terminologies#1.5.0 (canonical = <a href="https://interop.esante.gouv.fr/terminologies">https://interop.esante.gouv.fr/terminologies</a> (<a href="https://interop.esante.gouv.fr/terminologies/history.html">history</a>))</p>
 <p>This page provides a report on which terminology servers were used while publishing this IG. Note that terminology caching reduces the server hit count - this page only reports content that wasn't cached</p>
 <h2>Terminology Parameters</h2>
 <ul>
@@ -18971,9 +18971,23 @@
   <tr>
     <td>Found authoritative server http://tx.fhir.org/r4</td>
     <td>http://tx.fhir.org/r4</td>
+    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-complication-thromboembolique-cisis|20251216141840</td>
+    <td>http://hl7.org/fhir/sid/icd-10</td>
+    <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
+  </tr>
+  <tr>
+    <td>Found authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
     <td></td>
     <td>http://hl7.org/fhir/sid/icd-10</td>
     <td>auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
+  </tr>
+  <tr>
+    <td>Found most authoritative server http://tx.fhir.org/r4</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-complication-urinaire-cisis|20251216141840</td>
+    <td>[https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis, http://hl7.org/fhir/sid/icd-10]</td>
+    <td>[auth = https://smt.esante.gouv.fr/fhir, candidates=, auth = http://tx.fhir.org/r4, candidates=http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4]</td>
   </tr>
   <tr>
     <td>Found authoritative server https://smt.esante.gouv.fr/fhir</td>
@@ -21062,11 +21076,11 @@
     <td>auth = https://smt.esante.gouv.fr/fhir, candidates=</td>
   </tr>
   <tr>
-    <td>Found candidate server http://tx.fhir.org/r4</td>
-    <td>http://tx.fhir.org/r4</td>
+    <td>Use primary server for http://unstats.un.org/unsd/methods/m49/m49.htm</td>
+    <td>https://tx.fhir.org/r4</td>
     <td>http://hl7.org/fhir/ValueSet/jurisdiction|4.0.1</td>
     <td>[http://unstats.un.org/unsd/methods/m49/m49.htm, urn:iso:std:iso:3166, urn:iso:std:iso:3166:-2]</td>
-    <td>[auth = , candidates=http://tx.fhir.org/r4|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4, auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4, auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4]</td>
+    <td>[auth = , candidates=https://tx.fhir.org/r4, auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4|https://tx.hl7chile.cl/r4, auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4]</td>
   </tr>
   <tr>
     <td>Found candidate server http://tx.fhir.org/r4</td>
@@ -21097,9 +21111,28 @@
     <td>auth = , candidates=http://tx.fhir.org/r4|https://tx.hl7.org.au/fhir|http://tx.hl7europe.eu/r4|https://tx.hl7chile.cl/r4</td>
   </tr>
 </table>
+<p>
+  <b>Errors</b>
+</p>
+<table class="grid">
+  <tr>
+    <td>
+      <b>URL</b>
+    </td>
+    <td>
+      <b>Message</b>
+    </td>
+  </tr>
+  <tr>
+    <td>http://unstats.un.org/unsd/methods/m49/m49.htm</td>
+    <td style="background-color: #ffe3e3">
+      <span title="https://tx.fhir.org/tx-reg/resolve?fhirVersion=4.0&amp;url=http%3A%2F%2Funstats.un.org%2Funsd%2Fmethods%2Fm49%2Fm49.htm&amp;usage=publication">Error resolving system http://unstats.un.org/unsd/methods/m49/m49.htm: Connect timed out</span>
+    </td>
+  </tr>
+</table>
 <h2>Primary Server: https://tx.fhir.org/r4</h2>
 <a href="https://tx.fhir.org/r4"></a>
-<p>Use Count: 458. Code Systems used: </p>
+<p>Use Count: 460. Code Systems used: </p>
 <table class="grid">
   <tr>
     <th>
@@ -21123,7 +21156,7 @@
   </tr>
   <tr>
     <td>http://hl7.org/fhir/sid/icd-10</td>
-    <td>74</td>
+    <td>76</td>
     <td>13</td>
     <td>
       <a href="http://terminology.hl7.org/5.0.0/CodeSystem-icd10.html">ICD-10</a>
@@ -21234,7 +21267,7 @@
   <tr>
     <td>http://unstats.un.org/unsd/methods/m49/m49.htm</td>
     <td>0</td>
-    <td>2</td>
+    <td>1</td>
     <td></td>
   </tr>
   <tr>
@@ -21266,6 +21299,14 @@
     <td></td>
   </tr>
   <tr>
+    <td>https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis</td>
+    <td>1</td>
+    <td>0</td>
+    <td>
+      <a href="CodeSystem-terminologie-cisis.html">TerminologieCISIS - Terminologie des concepts non trouvés dans les autres terminologies</a>
+    </td>
+  </tr>
+  <tr>
     <td>https://wiki.ihe.net/index.php/IHERoleCode_Vocabulary</td>
     <td>4</td>
     <td>1</td>
@@ -21288,7 +21329,7 @@
   <tr>
     <td>urn:iso:std:iso:3166</td>
     <td>3</td>
-    <td>3</td>
+    <td>2</td>
     <td>
       <a href="http://terminology.hl7.org/5.0.0/CodeSystem-ISO3166Part1.html">ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code</a>
     </td>
@@ -21296,7 +21337,7 @@
   <tr>
     <td>urn:iso:std:iso:3166:-2</td>
     <td>1</td>
-    <td>2</td>
+    <td>1</td>
     <td>
       <a href="http://terminology.hl7.org/5.0.0/CodeSystem-ISO3166Part2.html">ISO 3166-2 Codes for the representation of names of countries and their subdivisions — Part 2: Country subdivision code</a>
     </td>
