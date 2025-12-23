@@ -29,8 +29,8 @@ Surspécialité (compétence) acquise par l’interne à l’issue d’une Forma
   "resourceType" : "CodeSystem",
   "id" : "TRE-R359-SurspecialiteTransversale",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2025-12-18T16:42:49.895+01:00",
+    "versionId" : "8",
+    "lastUpdated" : "2025-12-22T10:46:45.929+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]

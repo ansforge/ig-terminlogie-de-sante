@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J129-CategorieEtablissement-RASS",
   "meta" : {
-    "versionId" : "14",
-    "lastUpdated" : "2025-12-18T16:47:37.743+01:00",
+    "versionId" : "15",
+    "lastUpdated" : "2025-12-22T10:46:27.829+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]

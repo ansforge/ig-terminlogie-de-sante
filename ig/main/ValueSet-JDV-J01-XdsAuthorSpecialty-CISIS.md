@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J01-XdsAuthorSpecialty-CISIS",
   "meta" : {
-    "versionId" : "13",
-    "lastUpdated" : "2025-12-18T16:47:32.777+01:00",
+    "versionId" : "14",
+    "lastUpdated" : "2025-12-22T10:46:22.044+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]

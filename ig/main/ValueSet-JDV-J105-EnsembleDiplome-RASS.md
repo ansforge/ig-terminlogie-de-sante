@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J105-EnsembleDiplome-RASS",
   "meta" : {
-    "versionId" : "16",
-    "lastUpdated" : "2025-12-18T16:47:35.320+01:00",
+    "versionId" : "17",
+    "lastUpdated" : "2025-12-22T10:46:25.158+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]

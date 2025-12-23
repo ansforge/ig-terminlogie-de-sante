@@ -29,8 +29,8 @@ Catégorie d’organisation
   "resourceType" : "CodeSystem",
   "id" : "TRE-R244-CategorieOrganisation",
   "meta" : {
-    "versionId" : "25",
-    "lastUpdated" : "2025-12-18T16:42:47.905+01:00",
+    "versionId" : "26",
+    "lastUpdated" : "2025-12-22T10:46:43.166+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]

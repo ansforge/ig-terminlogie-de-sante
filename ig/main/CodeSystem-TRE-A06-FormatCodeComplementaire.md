@@ -29,8 +29,8 @@ formatCode en complément des nomenclatures internationales
   "resourceType" : "CodeSystem",
   "id" : "TRE-A06-FormatCodeComplementaire",
   "meta" : {
-    "versionId" : "9",
-    "lastUpdated" : "2025-12-18T16:42:34.110+01:00",
+    "versionId" : "10",
+    "lastUpdated" : "2025-12-22T10:46:29.488+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]

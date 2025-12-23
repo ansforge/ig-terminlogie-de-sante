@@ -29,8 +29,8 @@ Equipement
   "resourceType" : "CodeSystem",
   "id" : "TRE-R212-Equipement",
   "meta" : {
-    "versionId" : "22",
-    "lastUpdated" : "2025-12-18T16:42:45.341+01:00",
+    "versionId" : "23",
+    "lastUpdated" : "2025-12-22T10:46:41.590+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]

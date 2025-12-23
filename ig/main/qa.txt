@@ -1,9 +1,9 @@
 Terminologies : Validation Results
 =========================================
 
-err = 121, warn = 2128, info = 5568
+err = 146, warn = 2128, info = 5543
 IG Publisher Version: 2.0.29
-Generated Mon Dec 22 05:04:36 UTC 2025. FHIR version 4.0.1 for ans.fr.terminologies#1.5.0 (canonical = https://interop.esante.gouv.fr/terminologies)
+Generated Tue Dec 23 05:10:25 UTC 2025. FHIR version 4.0.1 for ans.fr.terminologies#1.5.0 (canonical = https://interop.esante.gouv.fr/terminologies)
  Build Errors : 15 / 20 / 0
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-ActMood-supplement-fr : 0 / 0 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/DM/fsh-generated/resources/CodeSystem-ActPriority-supplement-fr : 0 / 0 / 2
@@ -87,11 +87,11 @@ Generated Mon Dec 22 05:04:36 UTC 2025. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/EmploymentStatusODH_jdv-hl7-v3-employmentStatusODH-cisis : 0 / 1 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/Hl7VSEmploymentStatus_jdv-hl7-v2-0066-cisis : 0 / 1 / 14
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/Hl7VSSpecimenCollectionMethod_jdv-hl7-v2-0488-cisis : 0 / 1 / 3
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J01_XdsAuthorSpecialty_CISIS_JDV-J01-XdsAuthorSpecialty-CISIS : 0 / 1 / 26
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J01_XdsAuthorSpecialty_CISIS_JDV-J01-XdsAuthorSpecialty-CISIS : 1 / 1 / 25
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J02_XdsHealthcareFacilityTypeCode_CISIS_JDV-J02-XdsHealthcareFacilityTypeCode-CISIS : 0 / 1 / 10
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J03_XdsContentTypeCode_CISIS_JDV-J03-XdsContentTypeCode-CISIS : 0 / 1 / 14
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J04_XdsPracticeSettingCode_CISIS_JDV-J04-XdsPracticeSettingCode-CISIS : 0 / 1 / 3
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J05_SubjectRole_CISIS_JDV-J05-SubjectRole-CISIS : 0 / 1 / 31
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J05_SubjectRole_CISIS_JDV-J05-SubjectRole-CISIS : 1 / 1 / 30
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J06_XdsClassCode_CISIS_JDV-J06-XdsClassCode-CISIS : 0 / 1 / 3
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J07_XdsTypeCode_CISIS_JDV-J07-XdsTypeCode-CISIS : 1 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J08_XdsConfidentialityCode_CISIS_JDV-J08-XdsConfidentialityCode-CISIS : 0 / 1 / 4
@@ -99,10 +99,10 @@ Generated Mon Dec 22 05:04:36 UTC 2025. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J101_SecteurActivite_RASS_JDV-J101-SecteurActivite-RASS : 1 / 3 / 10
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J103_TypeVoie_RASS_JDV-J103-TypeVoie-RASS : 0 / 185 / 187
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J104_TypeIdentifiantStructure_RASS_JDV-J104-TypeIdentifiantStructure-RASS : 0 / 1 / 3
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J105_EnsembleDiplome_RASS_JDV-J105-EnsembleDiplome-RASS : 0 / 2 / 33
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J105_EnsembleDiplome_RASS_JDV-J105-EnsembleDiplome-RASS : 1 / 2 / 32
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J106_EnsembleProfession_RASS_JDV-J106-EnsembleProfession-RASS : 0 / 1 / 3
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J107_EnsembleSavoirFaire_RASS_JDV-J107-EnsembleSavoirFaire-RASS : 0 / 1 / 19
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J108_EnsembleFonction_RASS_JDV-J108-EnsembleFonction-RASS : 0 / 3 / 5
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J107_EnsembleSavoirFaire_RASS_JDV-J107-EnsembleSavoirFaire-RASS : 1 / 1 / 18
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J108_EnsembleFonction_RASS_JDV-J108-EnsembleFonction-RASS : 1 / 3 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J10_XdsFormatCode_CISIS_JDV-J10-XdsFormatCode-CISIS : 1 / 1 / 8
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J110_StatutVisibiliteDocument_CISIS_JDV-J110-StatutVisibiliteDocument-CISIS : 0 / 1 / 5
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J111_StatutEtatCivil_ENREG_JDV-J111-StatutEtatCivil-ENREG : 0 / 1 / 3
@@ -115,14 +115,14 @@ Generated Mon Dec 22 05:04:36 UTC 2025. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J118_CategorieProfessionnelle_ENREG_JDV-J118-CategorieProfessionnelle-ENREG : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J119_TypeActiviteLiberale_ENREG_JDV-J119-TypeActiviteLiberale-ENREG : 0 / 1 / 3
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J11_RelationPatient_CISIS_JDV-J11-RelationPatient-CISIS : 0 / 1 / 3
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J121_RolePriseCharge_ENREG_JDV-J121-RolePriseCharge-ENREG : 0 / 1 / 5
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J121_RolePriseCharge_ENREG_JDV-J121-RolePriseCharge-ENREG : 1 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J122_Profession_ENREG_JDV-J122-Profession-ENREG : 0 / 1 / 3
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J123_Pays_MDPH_JDV-J123-Pays-MDPH : 0 / 1 / 180
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J125_MotifRejet_ENREG_JDV-J125-MotifRejet-ENREG : 0 / 1 / 4
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J126_SecteurActivite_ENREG_JDV-J126-SecteurActivite-ENREG : 0 / 2 / 8
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J127_StatutJuridique_ENREG_JDV-J127-StatutJuridique-ENREG : 0 / 1 / 52
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J128_TypeCarte_RASS_JDV-J128-TypeCarte-RASS : 0 / 1 / 3
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J129_CategorieEtablissement_RASS_JDV-J129-CategorieEtablissement-RASS : 0 / 139 / 7
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J129_CategorieEtablissement_RASS_JDV-J129-CategorieEtablissement-RASS : 1 / 139 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J12_CiviliteTitre_CISIS_JDV-J12-CiviliteTitre-CISIS : 0 / 1 / 3
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J130_CNAMAmeliSecteurConventionnement_RASS_JDV-J130-CNAMAmeliSecteurConventionnement-RASS : 0 / 1 / 3
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/JDV_J131_CategorieActiviteSanitaireRegulee_RASS_JDV-J131-CategorieActiviteSanitaireRegulee-RASS : 0 / 1 / 3
@@ -834,7 +834,7 @@ Generated Mon Dec 22 05:04:36 UTC 2025. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_A02_ProfessionSavFaire_CISIS_TRE-A02-ProfessionSavFaire-CISIS : 0 / 1 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_A03_ClasseDocument_TRE-A03-ClasseDocument : 0 / 1 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_A05_TypeDocComplementaire_TRE-A05-TypeDocComplementaire : 0 / 1 / 6
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_A06_FormatCodeComplementaire_TRE-A06-FormatCodeComplementaire : 0 / 7 / 3
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_A06_FormatCodeComplementaire_TRE-A06-FormatCodeComplementaire : 1 / 7 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_A07_StatutVisibiliteDocument_TRE-A07-StatutVisibiliteDocument : 0 / 1 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_A08_HL7Confidentiality_TRE-A08-HL7Confidentiality : 0 / 1 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_A09_DICOMuidRegistry_TRE-A09-DICOMuidRegistry : 0 / 1 / 6
@@ -871,7 +871,7 @@ Generated Mon Dec 22 05:04:36 UTC 2025. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R11_CiviliteExercice_TRE-R11-CiviliteExercice : 0 / 1 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R13_CommuneOM_TRE-R13-CommuneOM : 3 / 2 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R14_TypeDiplome_TRE-R14-TypeDiplome : 0 / 1 / 6
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R16_LieuFormation_TRE-R16-LieuFormation : 0 / 7 / 3
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R16_LieuFormation_TRE-R16-LieuFormation : 1 / 7 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R17_TypeAutorisation_TRE-R17-TypeAutorisation : 0 / 1 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R18_DisciplineAutorisation_TRE-R18-DisciplineAutorisation : 0 / 1 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R200_CanalCommunication_TRE-R200-CanalCommunication : 0 / 1 / 6
@@ -885,10 +885,10 @@ Generated Mon Dec 22 05:04:36 UTC 2025. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R208_ClasseAge_TRE-R208-ClasseAge : 0 / 1 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R209_TypeActivite_TRE-R209-TypeActivite : 0 / 1 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R20_Pays_TRE-R20-Pays : 0 / 1 / 6
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R210_ActeSpecifique_TRE-R210-ActeSpecifique : 0 / 7 / 3
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R211_ActiviteOperationnelle_TRE-R211-ActiviteOperationnelle : 0 / 7 / 3
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R212_Equipement_TRE-R212-Equipement : 0 / 9 / 3
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R213_ModePriseEnCharge_TRE-R213-ModePriseEnCharge : 0 / 7 / 3
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R210_ActeSpecifique_TRE-R210-ActeSpecifique : 1 / 7 / 2
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R211_ActiviteOperationnelle_TRE-R211-ActiviteOperationnelle : 1 / 7 / 2
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R212_Equipement_TRE-R212-Equipement : 1 / 9 / 2
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R213_ModePriseEnCharge_TRE-R213-ModePriseEnCharge : 1 / 7 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R214_SpecialiteUnite_TRE-R214-SpecialiteUnite : 0 / 1 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R215_UniteTemps_TRE-R215-UniteTemps : 0 / 1 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R216_HL7RoleCode_TRE-R216-HL7RoleCode : 0 / 1 / 6
@@ -920,7 +920,7 @@ Generated Mon Dec 22 05:04:36 UTC 2025. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R241_AideFinanciere_TRE-R241-AideFinanciere : 0 / 1 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R242_TypeHabitation_TRE-R242-TypeHabitation : 0 / 1 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R243_CompetenceSpecifique_TRE-R243-CompetenceSpecifique : 0 / 1 / 6
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R244_CategorieOrganisation_TRE-R244-CategorieOrganisation : 0 / 7 / 3
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R244_CategorieOrganisation_TRE-R244-CategorieOrganisation : 1 / 7 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R245_SpecialisationDePriseEnCharge_TRE-R245-SpecialisationDePriseEnCharge : 0 / 1 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R246_TypeTarif_TRE-R246-TypeTarif : 0 / 1 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R248_ModeAcces_TRE-R248-ModeAcces : 0 / 1 / 6
@@ -936,7 +936,7 @@ Generated Mon Dec 22 05:04:36 UTC 2025. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R257_TypeBAL_TRE-R257-TypeBAL : 0 / 1 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R258_RelationPriseCharge_TRE-R258-RelationPriseCharge : 0 / 1 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R259_HL7ParticipationFunction_TRE-R259-HL7ParticipationFunction : 0 / 1 / 6
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R25_MotifFinActivite_TRE-R25-MotifFinActivite : 0 / 9 / 3
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R25_MotifFinActivite_TRE-R25-MotifFinActivite : 1 / 9 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R260_HL7RoleClass_TRE-R260-HL7RoleClass : 0 / 1 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R261_AutreSalarieStructureSante_TRE-R261-AutreSalarieStructureSante : 0 / 1 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R262_CategorieSocioProfessionnelle_TRE-R262-CategorieSocioProfessionnelle : 0 / 1 / 6
@@ -1007,15 +1007,15 @@ Generated Mon Dec 22 05:04:36 UTC 2025. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R335_TypeSourceCapacite_TRE-R335-TypeSourceCapacite : 0 / 1 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R336_TypeCrise_TRE-R336-TypeCrise : 0 / 1 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R337_AffectationTemporaire_TRE-R337-AffectationTemporaire : 0 / 1 / 6
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R338_ModaliteAccueil_TRE-R338-ModaliteAccueil : 0 / 7 / 3
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R338_ModaliteAccueil_TRE-R338-ModaliteAccueil : 1 / 7 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R33_StatutInscription_TRE-R33-StatutInscription : 0 / 1 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R340_TypeCaracteristiqueEquipement_TRE-R340-TypeCaracteristiqueEquipement : 0 / 1 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R341_StatutCommunication_TRE-R341-StatutCommunication : 0 / 1 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R342_XdsTypesIdentifiantsReferenceId_TRE-R342-XdsTypesIdentifiantsReferenceId : 0 / 1 / 6
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R343_FonctionLieu_TRE-R343-FonctionLieu : 0 / 7 / 3
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R344_NiveauExpertise_TRE-R344-NiveauExpertise : 0 / 7 / 3
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R343_FonctionLieu_TRE-R343-FonctionLieu : 1 / 7 / 2
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R344_NiveauExpertise_TRE-R344-NiveauExpertise : 1 / 7 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R345_TypeIdentifiantAutre_TRE-R345-TypeIdentifiantAutre : 0 / 1 / 6
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R348_FormationSpecialiseeTransversale_TRE-R348-FormationSpecialiseeTransversale : 0 / 7 / 3
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R348_FormationSpecialiseeTransversale_TRE-R348-FormationSpecialiseeTransversale : 1 / 7 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R349_ActionAnomalie_TRE-R349-ActionAnomalie : 0 / 1 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R34_StatutProfessionnelSSA_TRE-R34-StatutProfessionnelSSA : 0 / 1 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R350_ThematiqueAnomalie_TRE-R350-ThematiqueAnomalie : 0 / 1 / 6
@@ -1025,9 +1025,9 @@ Generated Mon Dec 22 05:04:36 UTC 2025. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R356_ProfessionRessource_TRE-R356-ProfessionRessource : 1 / 1 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R357_StatutPersonnePriseCharge_TRE-R357-StatutPersonnePriseCharge : 0 / 1 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R358_MotifStatutPersonnePriseCharge_TRE-R358-MotifStatutPersonnePriseCharge : 0 / 1 / 6
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R359_SurspecialiteTransversale_TRE-R359-SurspecialiteTransversale : 0 / 7 / 3
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R359_SurspecialiteTransversale_TRE-R359-SurspecialiteTransversale : 1 / 7 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R35_TypeVoie_TRE-R35-TypeVoie : 0 / 1 / 6
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R368_StatutRessource_TRE-R368-StatutRessource : 0 / 7 / 3
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R368_StatutRessource_TRE-R368-StatutRessource : 1 / 7 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R369_ProfilUtilisateurReferentielNational_TRE-R369-ProfilUtilisateurReferentielNational : 0 / 1 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R36_AutreDiplomeObtenu_TRE-R36-AutreDiplomeObtenu : 0 / 1 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R37_TypeProfessionFonction_TRE-R37-TypeProfessionFonction : 0 / 1 / 6
@@ -1050,26 +1050,26 @@ Generated Mon Dec 22 05:04:36 UTC 2025. FHIR version 4.0.1 for ans.fr.terminolog
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R55_CertificatEtudeSpeciale_TRE-R55-CertificatEtudeSpeciale : 0 / 1 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R56_Attestation_TRE-R56-Attestation : 0 / 1 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R57_DiplomeEuropeenEtudeSpecialisee_TRE-R57-DiplomeEuropeenEtudeSpecialisee : 0 / 1 / 6
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R58_AutreTypeDiplome_TRE-R58-AutreTypeDiplome : 0 / 7 / 3
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R58_AutreTypeDiplome_TRE-R58-AutreTypeDiplome : 1 / 7 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R60_AutoriteEnregistrement_TRE-R60-AutoriteEnregistrement : 0 / 1 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R62_Domaine_TRE-R62-Domaine : 0 / 1 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R63_AgregatCategorieEtablissementNiv1_TRE-R63-AgregatCategorieEtablissementNiv1 : 0 / 1 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R64_AgregatCategorieEtablissementNiv2_TRE-R64-AgregatCategorieEtablissementNiv2 : 0 / 1 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R65_AgregatCategorieEtablissement_TRE-R65-AgregatCategorieEtablissement : 0 / 1 / 6
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R66_CategorieEtablissement_TRE-R66-CategorieEtablissement : 0 / 7 / 3
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R66_CategorieEtablissement_TRE-R66-CategorieEtablissement : 1 / 7 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R67_TypeStructure_EJ_EG_TRE-R67-TypeStructure-EJ-EG : 0 / 1 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R68_FinessAgregatStatutJuridiqueNiv1_TRE-R68-FinessAgregatStatutJuridiqueNiv1 : 0 / 1 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R69_FinessAgregatStatutJuridiqueNiv2_TRE-R69-FinessAgregatStatutJuridiqueNiv2 : 0 / 1 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R70_FinessAgregatStatutJuridique_TRE-R70-FinessAgregatStatutJuridique : 0 / 1 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R72_FinessStatutJuridique_TRE-R72-FinessStatutJuridique : 0 / 1 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R73_ESPIC_TRE-R73-ESPIC : 0 / 1 / 6
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R74_ModeFixationTarifaire_TRE-R74-ModeFixationTarifaire : 0 / 7 / 3
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R74_ModeFixationTarifaire_TRE-R74-ModeFixationTarifaire : 1 / 7 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R75_InseeNAFrev2Niveau5_TRE-R75-InseeNAFrev2Niveau5 : 0 / 1 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R78_ProfilAccesReferentiel_TRE-R78-ProfilAccesReferentiel : 0 / 1 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R81_Civilite_TRE-R81-Civilite : 0 / 1 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R82_Ordre_TRE-R82-Ordre : 0 / 1 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R84_ProfilAccesAnnuaire_MSSante_TRE-R84-ProfilAccesAnnuaire-MSSante : 0 / 1 / 6
- /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R85_RolePriseCharge_TRE-R85-RolePriseCharge : 0 / 7 / 3
+ /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R85_RolePriseCharge_TRE-R85-RolePriseCharge : 1 / 7 / 2
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R86_ProfilVIHF_TRE-R86-ProfilVIHF : 0 / 1 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R87_TypeCarte_TRE-R87-TypeCarte : 0 / 1 / 6
  /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/TRE/TRE_R88_TerritoireSante_TRE-R88-TerritoireSante : 0 / 1 / 6
@@ -1776,7 +1776,7 @@ INFORMATION: ValueSet/jdv-hl7-v2-0066-cisis: ValueSet.compose.include[0].concept
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 WARNING: ValueSet/jdv-hl7-v2-0488-cisis: ValueSet.compose.include[0]: There are multiple different potential matches for the url 'http://terminology.hl7.org/CodeSystem/v2-0488'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '3.0.0', found versions: 2.1.0 (from hl7.terminology.r4#5.0.0), 3.0.0 (from hl7.terminology.r4#7.0.1). Suggested fix: change the canonical reference from 'http://terminology.hl7.org/CodeSystem/v2-0488' to 'http://terminology.hl7.org/CodeSystem/v2-0488|3.0.0'
 == input/ontoserver/JDV/JDV_J01_XdsAuthorSpecialty_CISIS_JDV-J01-XdsAuthorSpecialty-CISIS.json ==
-INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
+ERROR: ValueSet.text.div: Resource has provided narrative, but the narrative indicates that it is generated - remove the narrative or fix it up
 INFORMATION: ValueSet/JDV-J01-XdsAuthorSpecialty-CISIS: ValueSet.compose.include[0].concept[0]: Wrong Display Name 'Alimentation automatique à partir du Système d'Information de l'Assurance Maladie' for https://mos.esante.gouv.fr/NOS/TRE_A00-ProducteurDocNonPS/FHIR/TRE-A00-ProducteurDocNonPS#ALIM_AM. Valid display is 'Alimentation auto à partir du SI de l'Ass Maladie' (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
 INFORMATION: ValueSet/JDV-J01-XdsAuthorSpecialty-CISIS: ValueSet.compose.include[1].concept[65]: Wrong Display Name 'Médecin - Biologie médicale option médecine moléculaire, génétique et pharmacologie (SM)' for https://mos.esante.gouv.fr/NOS/TRE_A02-ProfessionSavFaire-CISIS/FHIR/TRE-A02-ProfessionSavFaire-CISIS#G15_10/SM64. Valid display is 'Médecin - Biologie médicale option moléculaire, génétique et pharmacologie (SM)' (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
 INFORMATION: ValueSet/JDV-J01-XdsAuthorSpecialty-CISIS: ValueSet.compose.include[1].concept[75]: Wrong Display Name 'Médecin - Radiologie et imagerie médicale (SM)' for https://mos.esante.gouv.fr/NOS/TRE_A02-ProfessionSavFaire-CISIS/FHIR/TRE-A02-ProfessionSavFaire-CISIS#G15_10/SM74. Valid display is 'Médecin - Radiologie imagerie médicale (SM)' (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
@@ -1829,7 +1829,7 @@ WARNING: ValueSet/JDV-J03-XdsContentTypeCode-CISIS: ValueSet: Published value se
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 WARNING: ValueSet/JDV-J04-XdsPracticeSettingCode-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J05_SubjectRole_CISIS_JDV-J05-SubjectRole-CISIS.json ==
-INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
+ERROR: ValueSet.text.div: Resource has provided narrative, but the narrative indicates that it is generated - remove the narrative or fix it up
 INFORMATION: ValueSet/JDV-J05-SubjectRole-CISIS: ValueSet.compose.include[0].concept[0]: Wrong Display Name 'Alimentation automatique à partir du Système d'Information de l'Assurance Maladie' for https://mos.esante.gouv.fr/NOS/TRE_A00-ProducteurDocNonPS/FHIR/TRE-A00-ProducteurDocNonPS#ALIM_AM. Valid display is 'Alimentation auto à partir du SI de l'Ass Maladie' (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
 INFORMATION: ValueSet/JDV-J05-SubjectRole-CISIS: ValueSet.compose.include[6].concept[77]: Wrong Display Name 'Radiologie et imagerie médicale (SM)' for https://mos.esante.gouv.fr/NOS/TRE_R01-EnsembleSavoirFaire-CISIS/FHIR/TRE-R01-EnsembleSavoirFaire-CISIS#SM74. Valid display is 'Radiologie imagerie médicale (SM)' (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
 INFORMATION: ValueSet/JDV-J05-SubjectRole-CISIS: ValueSet.compose.include[6].concept[79]: Wrong Display Name 'Anesthésie-réanimation option anesthésie-pédiatrique (SM)' for https://mos.esante.gouv.fr/NOS/TRE_R01-EnsembleSavoirFaire-CISIS/FHIR/TRE-R01-EnsembleSavoirFaire-CISIS#SM76. Valid display is 'Anesthésie-réanimation opt anesthésie-pédiatrique (SM)' (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
@@ -2262,7 +2262,7 @@ WARNING: ValueSet/JDV-J103-TypeVoie-RASS: ValueSet: Published value sets SHOULD 
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 WARNING: ValueSet/JDV-J104-TypeIdentifiantStructure-RASS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J105_EnsembleDiplome_RASS_JDV-J105-EnsembleDiplome-RASS.json ==
-INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
+ERROR: ValueSet.text.div: Resource has provided narrative, but the narrative indicates that it is generated - remove the narrative or fix it up
 INFORMATION: ValueSet/JDV-J105-EnsembleDiplome-RASS: ValueSet.compose.include[0].concept[159]: Wrong Display Name 'DU ou DIU Ostéopathe d'une université de médecine reconnu par le CNOM' for https://mos.esante.gouv.fr/NOS/TRE_R54-DiplomeUniversiteInterUniversitaire/FHIR/TRE-R54-DiplomeUniversiteInterUniversitaire#DIP320. Valid display is 'DU ou DIU Ostéopathe université médecine reconnu CNOM' (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
 INFORMATION: ValueSet/JDV-J105-EnsembleDiplome-RASS: ValueSet.compose.include[0].concept[160]: Wrong Display Name 'DU de Chiropraxie' for https://mos.esante.gouv.fr/NOS/TRE_R54-DiplomeUniversiteInterUniversitaire/FHIR/TRE-R54-DiplomeUniversiteInterUniversitaire#DIP330. Valid display is 'DU Chiropraxie' (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
 INFORMATION: ValueSet/JDV-J105-EnsembleDiplome-RASS: ValueSet.compose.include[0].concept[161]: Wrong Display Name 'DU ou DIU d'Orthopédie' for https://mos.esante.gouv.fr/NOS/TRE_R54-DiplomeUniversiteInterUniversitaire/FHIR/TRE-R54-DiplomeUniversiteInterUniversitaire#DIP344. Valid display is 'DU ou DIU Orthopédie' (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
@@ -2299,7 +2299,7 @@ WARNING: ValueSet/JDV-J105-EnsembleDiplome-RASS: ValueSet: Published value sets 
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 WARNING: ValueSet/JDV-J106-EnsembleProfession-RASS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J107_EnsembleSavoirFaire_RASS_JDV-J107-EnsembleSavoirFaire-RASS.json ==
-INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
+ERROR: ValueSet.text.div: Resource has provided narrative, but the narrative indicates that it is generated - remove the narrative or fix it up
 INFORMATION: ValueSet/JDV-J107-EnsembleSavoirFaire-RASS: ValueSet.compose.include[0].concept[81]: Wrong Display Name 'Radiologie et imagerie médicale (SM)' for https://mos.esante.gouv.fr/NOS/TRE_R38-SpecialiteOrdinale/FHIR/TRE-R38-SpecialiteOrdinale#SM74. Valid display is 'Radiologie imagerie médicale (SM)' (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
 INFORMATION: ValueSet/JDV-J107-EnsembleSavoirFaire-RASS: ValueSet.compose.include[0].concept[83]: Wrong Display Name 'Anesthésie-réanimation option anesthésie-pédiatrique (SM)' for https://mos.esante.gouv.fr/NOS/TRE_R38-SpecialiteOrdinale/FHIR/TRE-R38-SpecialiteOrdinale#SM76. Valid display is 'Anesthésie-réanimation opt anesthésie-pédiatrique (SM)' (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
 INFORMATION: ValueSet/JDV-J107-EnsembleSavoirFaire-RASS: ValueSet.compose.include[0].concept[84]: Wrong Display Name 'Chirurgie maxillo-faciale option orthodontie des dysmorphies maxillo-faciales (SM)' for https://mos.esante.gouv.fr/NOS/TRE_R38-SpecialiteOrdinale/FHIR/TRE-R38-SpecialiteOrdinale#SM77. Valid display is 'Chirurgie maxillo-faciale opt orthod dysmo max-fac (SM)' (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
@@ -2318,7 +2318,7 @@ INFORMATION: ValueSet/JDV-J107-EnsembleSavoirFaire-RASS: ValueSet.compose.includ
 INFORMATION: ValueSet/JDV-J107-EnsembleSavoirFaire-RASS: ValueSet.compose.include[9].concept[24]: Wrong Display Name 'Thérapie cellulaire/ transfusion' for https://mos.esante.gouv.fr/NOS/TRE_R359-SurspecialiteTransversale/FHIR/TRE-R359-SurspecialiteTransversale#SST25. Valid display is 'Thérapie cellulaire/transfusion' (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
 WARNING: ValueSet/JDV-J107-EnsembleSavoirFaire-RASS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J108_EnsembleFonction_RASS_JDV-J108-EnsembleFonction-RASS.json ==
-INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
+ERROR: ValueSet.text.div: Resource has provided narrative, but the narrative indicates that it is generated - remove the narrative or fix it up
 WARNING: ValueSet/JDV-J108-EnsembleFonction-RASS: ValueSet.compose.include[0].concept[7]: The concept 'FON-15' is deprecated and its use should be reviewed
 WARNING: ValueSet/JDV-J108-EnsembleFonction-RASS: ValueSet.compose.include[0].concept[8]: The concept 'FON-16' is deprecated and its use should be reviewed
 INFORMATION: ValueSet/JDV-J108-EnsembleFonction-RASS: ValueSet.compose.include[2].concept[37]: Wrong Display Name 'Autre professionnel intervenant dans la direction de la qualité, hygiène, sécurité et environnement' for https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge#339. Valid display is 'Autre professionnel de la qualité, hygiène, sécurité et environnement' (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
@@ -2552,7 +2552,7 @@ WARNING: ValueSet/JDV-J119-TypeActiviteLiberale-ENREG: ValueSet: Published value
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 WARNING: ValueSet/JDV-J11-RelationPatient-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J121_RolePriseCharge_ENREG_JDV-J121-RolePriseCharge-ENREG.json ==
-INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
+ERROR: ValueSet.text.div: Resource has provided narrative, but the narrative indicates that it is generated - remove the narrative or fix it up
 INFORMATION: ValueSet/JDV-J121-RolePriseCharge-ENREG: ValueSet.compose.include[0].concept[26]: Wrong Display Name 'Autre professionnel intervenant dans la direction de la qualité, hygiène, sécurité et environnement' for https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge#339. Valid display is 'Autre professionnel de la qualité, hygiène, sécurité et environnement' (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
 INFORMATION: ValueSet/JDV-J121-RolePriseCharge-ENREG: ValueSet.compose.include[0].concept[51]: Wrong Display Name 'Opérateur de Soins Non Programmés' for https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge#370. Valid display is 'Opérateur de Soins Non Programmés (OSNP)' (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
 WARNING: ValueSet/JDV-J121-RolePriseCharge-ENREG: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
@@ -2808,7 +2808,7 @@ WARNING: ValueSet/JDV-J127-StatutJuridique-ENREG: ValueSet: Published value sets
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 WARNING: ValueSet/JDV-J128-TypeCarte-RASS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 == input/ontoserver/JDV/JDV_J129_CategorieEtablissement_RASS_JDV-J129-CategorieEtablissement-RASS.json ==
-INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
+ERROR: ValueSet.text.div: Resource has provided narrative, but the narrative indicates that it is generated - remove the narrative or fix it up
 WARNING: ValueSet/JDV-J129-CategorieEtablissement-RASS: ValueSet.compose.include[0].concept[0]: The concept '001' is deprecated and its use should be reviewed
 WARNING: ValueSet/JDV-J129-CategorieEtablissement-RASS: ValueSet.compose.include[0].concept[1]: The concept '002' is deprecated and its use should be reviewed
 WARNING: ValueSet/JDV-J129-CategorieEtablissement-RASS: ValueSet.compose.include[0].concept[2]: The concept '003' is deprecated and its use should be reviewed
@@ -3019,8 +3019,8 @@ WARNING: ValueSet/JDV-J146-MethodBodyHeight-ENS: ValueSet.compose.include[0].sys
 INFORMATION: ValueSet/JDV-J146-MethodBodyHeight-ENS: ValueSet.compose.include[0].concept[0]: A definition for CodeSystem 'https://smt.esante.gouv.fr/terminologie-ncit' could not be found, so the code cannot be validated
 INFORMATION: ValueSet/JDV-J146-MethodBodyHeight-ENS: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
 WARNING: ValueSet/JDV-J146-MethodBodyHeight-ENS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-ERROR: ValueSet.where(id = 'JDV-J146-MethodBodyHeight-ENS'): Error from https://smt.esante.gouv.fr/fhir: Error: [605f8ea8-2a41-4f34-82e0-41957a4771e7]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
-Information: X-Request-Id: d3af457f-d07d-4a87-a9f4-dff24f6d8183
+ERROR: ValueSet.where(id = 'JDV-J146-MethodBodyHeight-ENS'): Error from https://smt.esante.gouv.fr/fhir: Error: [ed3e4eee-c1b6-463d-9ce2-26a1bd930563]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
+Information: X-Request-Id: c8bb09b5-59de-4830-adac-43322e8f2bf2
 == input/ontoserver/JDV/JDV_J147_MethodHeartrate_ENS_JDV-J147-MethodHeartrate-ENS.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 INFORMATION: ValueSet/JDV-J147-MethodHeartrate-ENS: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
@@ -3079,8 +3079,8 @@ INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir
 WARNING: ValueSet/JDV-J159-MethodPainSeverity-ENS: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-ncit'
 INFORMATION: ValueSet/JDV-J159-MethodPainSeverity-ENS: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
 WARNING: ValueSet/JDV-J159-MethodPainSeverity-ENS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-ERROR: ValueSet.where(id = 'JDV-J159-MethodPainSeverity-ENS'): Error from https://smt.esante.gouv.fr/fhir: Error: [f7562db7-846d-454f-b97e-c0b2523c9a5c]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
-Information: X-Request-Id: 4aa6f23b-d8d2-4c54-b764-4072352933ea
+ERROR: ValueSet.where(id = 'JDV-J159-MethodPainSeverity-ENS'): Error from https://smt.esante.gouv.fr/fhir: Error: [8b20422f-be2d-429e-a629-405f7920ac6b]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
+Information: X-Request-Id: e3d2e982-39c4-4041-ae34-fa3cc590dd48
 == input/ontoserver/JDV/JDV_J15_ClasseAge_ROR_JDV-J15-ClasseAge-ROR.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 WARNING: ValueSet/JDV-J15-ClasseAge-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
@@ -4676,8 +4676,8 @@ INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir
 WARNING: ValueSet/JDV-J277-NCIT-CISIS: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-ncit'
 INFORMATION: ValueSet/JDV-J277-NCIT-CISIS: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
 WARNING: ValueSet/JDV-J277-NCIT-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-ERROR: ValueSet.where(id = 'JDV-J277-NCIT-CISIS'): Error from https://smt.esante.gouv.fr/fhir: Error: [e7a3646a-b9d9-4cb1-a821-8a52cf8f42d9]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
-Information: X-Request-Id: 22b95e50-7344-45e5-a222-96b32bfb7b7a
+ERROR: ValueSet.where(id = 'JDV-J277-NCIT-CISIS'): Error from https://smt.esante.gouv.fr/fhir: Error: [7b070d6e-b17f-44e9-ac36-3ffe1fd94ac2]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
+Information: X-Request-Id: 6727d6c4-7f9d-491c-b67d-f6c9788bf385
 == input/ontoserver/JDV/JDV_J278_UcumUniteMesure_UPNOS_JDV-J278-UcumUniteMesure-UPNOS.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 INFORMATION: ValueSet/JDV-J278-UcumUniteMesure-UPNOS: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
@@ -4849,8 +4849,8 @@ INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir
 WARNING: ValueSet/JDV-J51-FamilleActiviteOperationnelle-ROR: ValueSet.compose.include[1].system: No definition could be found for URL value 'https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin'
 INFORMATION: ValueSet/JDV-J51-FamilleActiviteOperationnelle-ROR: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
 WARNING: ValueSet/JDV-J51-FamilleActiviteOperationnelle-ROR: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
-ERROR: ValueSet.where(id = 'JDV-J51-FamilleActiviteOperationnelle-ROR'): Error from https://smt.esante.gouv.fr/fhir: Error: [f56f6853-526c-475d-bedf-db83df55cb8f]: A usable code system with URL https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin could not be resolved.
-Information: X-Request-Id: b886f649-2c7a-40a9-96ae-008b5177e7f1
+ERROR: ValueSet.where(id = 'JDV-J51-FamilleActiviteOperationnelle-ROR'): Error from https://smt.esante.gouv.fr/fhir: Error: [e333d2a8-c1e5-499e-9376-414522d6d51b]: A usable code system with URL https://mos.esante.gouv.fr/NOS/TRE_R265-PrestationPilotageSerafin/FHIR/TRE-R265-PrestationPilotageSerafin could not be resolved.
+Information: X-Request-Id: c5159322-3095-4604-b045-583b52cfca7e
 == input/ontoserver/JDV/JDV_J52_AvailabilityStatus_CISIS_JDV-J52-AvailabilityStatus-CISIS.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 WARNING: ValueSet/JDV-J52-AvailabilityStatus-CISIS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
@@ -5659,8 +5659,8 @@ INFORMATION: ValueSet/jdv-cas-sporadique-familial-cisis: ValueSet.compose.includ
 == input/ontoserver/JDV/JdvCauseAccidentDomestiqueCisis_jdv-cause-accident-domestique-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 INFORMATION: ValueSet/jdv-cause-accident-domestique-cisis: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
-ERROR: ValueSet.where(id = 'jdv-cause-accident-domestique-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [8576f015-a4dc-4862-bd42-9458cbbb0def]: A usable code system with URL http://id.who.int/icd/release/11/mms could not be resolved.
-Information: X-Request-Id: 0ed1f397-1fa7-4538-a65d-3cba52f15c11
+ERROR: ValueSet.where(id = 'jdv-cause-accident-domestique-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [8eb165e3-6096-42c3-8931-e201a2995270]: A usable code system with URL http://id.who.int/icd/release/11/mms could not be resolved.
+Information: X-Request-Id: 68e8d8b3-ddb0-4a36-ac77-060c12cbe889
 == input/ontoserver/JDV/JdvCauseCesarienneCisis_jdv-cause-cesarienne-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 == input/ontoserver/JDV/JdvCddFaCisis_jdv-cdd-fa-cisis.json ==
@@ -5735,8 +5735,8 @@ INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 WARNING: ValueSet/jdv-conditionnement-cisis: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-adicap'
 INFORMATION: ValueSet/jdv-conditionnement-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
-ERROR: ValueSet.where(id = 'jdv-conditionnement-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [adf5dffc-776d-44ad-aa36-e6d402e85682]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-adicap could not be resolved.
-Information: X-Request-Id: 59e04d79-418a-4e21-b086-605b27aea9b8
+ERROR: ValueSet.where(id = 'jdv-conditionnement-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [3ba7dba0-a5bd-4704-89cc-e52a2214525d]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-adicap could not be resolved.
+Information: X-Request-Id: 084ae9ff-a687-4ddb-8552-be47178ee442
 == input/ontoserver/JDV/JdvConduiteATenir1Cisis_jdv-conduite-a-tenir-1-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 WARNING: ValueSet/jdv-conduite-a-tenir-1-cisis: ValueSet.compose.include[1]: There are multiple different potential matches for the url 'http://dicom.nema.org/resources/ontology/DCM'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '2022.4.20221006', found versions: 01 (from hl7.fhir.r4.core#4.0.1), 2022.4.20221006 (from fhir.dicom#2022.4.20221006). Suggested fix: change the canonical reference from 'http://dicom.nema.org/resources/ontology/DCM' to 'http://dicom.nema.org/resources/ontology/DCM|2022.4.20221006'
@@ -5772,8 +5772,8 @@ INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir
 WARNING: ValueSet/jdv-defaillance-materielle-cisis: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://www.imdrf.org'
 INFORMATION: ValueSet/jdv-defaillance-materielle-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
 INFORMATION: ValueSet/jdv-defaillance-materielle-cisis: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
-ERROR: ValueSet.where(id = 'jdv-defaillance-materielle-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [41d9ad57-01ae-4e88-969e-b83e192a67e9]: A usable code system with URL https://www.imdrf.org could not be resolved.
-Information: X-Request-Id: 60f81dca-de3b-4f4b-bbff-a1911e28c42b
+ERROR: ValueSet.where(id = 'jdv-defaillance-materielle-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [fef4cb10-79f0-4f3b-9d45-ee02c90c917a]: A usable code system with URL https://www.imdrf.org could not be resolved.
+Information: X-Request-Id: 240e9937-5c7b-4979-b748-fd95c59ac8db
 == input/ontoserver/JDV/JdvDeficiencePhysiqueCisis_jdv-deficience-physique-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 ERROR: ValueSet/jdv-deficience-physique-cisis: ValueSet.compose.include[0].concept[0]: The code 'R47.02' is not valid in the system http://hl7.org/fhir/sid/icd-10 (Unknown code 'R47.02' in the CodeSystem 'http://hl7.org/fhir/sid/icd-10' version '2019-covid-expanded')
@@ -5933,15 +5933,15 @@ INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir
 == input/ontoserver/JDV/JdvGeneCisis_jdv-gene-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 INFORMATION: ValueSet/jdv-gene-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
-ERROR: ValueSet.where(id = 'jdv-gene-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [f8a10aea-76f6-4abe-b616-a5e8244e90ff]: A usable code system with URL http://www.genenames.org/geneId could not be resolved.
-Information: X-Request-Id: 4fcc5c66-d66c-4d56-b48d-c799b56032d4
+ERROR: ValueSet.where(id = 'jdv-gene-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [069b6a72-de2a-475b-b334-c4f720dd0aa3]: A usable code system with URL http://www.genenames.org/geneId could not be resolved.
+Information: X-Request-Id: 1d97ff5f-c106-41d5-b894-1e4a35745fa8
 == input/ontoserver/JDV/JdvGesteReanimationNouveauNeCisis_jdv-geste-reanimation-nouveau-ne-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 INFORMATION: ValueSet/jdv-geste-reanimation-nouveau-ne-cisis: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
 == input/ontoserver/JDV/JdvGestionEffetSecondaireCisis_jdv-gestion-effet-secondaire-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
-ERROR: ValueSet.where(id = 'jdv-gestion-effet-secondaire-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [390fba67-be76-48eb-8076-b322f794f1df]: A usable code system with URL http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl could not be resolved.
-Information: X-Request-Id: 0499b683-63e8-4d13-b76c-6714efc2473c
+ERROR: ValueSet.where(id = 'jdv-gestion-effet-secondaire-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [47b9b755-3875-4e66-aba6-af6c5cf8d9cb]: A usable code system with URL http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl could not be resolved.
+Information: X-Request-Id: 89b346cd-7e50-495a-9f69-4c04d260d92b
 == input/ontoserver/JDV/JdvGirCisis_jdv-gir-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 == input/ontoserver/JDV/JdvGraviteCisis_jdv-gravite-cisis.json ==
@@ -6052,8 +6052,8 @@ INFORMATION: ValueSet/jdv-lateralite-manuelle-cisis: ValueSet.compose.include[0]
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 WARNING: ValueSet/jdv-lateralite-ncit-cisis: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-ncit'
 INFORMATION: ValueSet/jdv-lateralite-ncit-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
-ERROR: ValueSet.where(id = 'jdv-lateralite-ncit-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [136b35ae-87d2-4890-82ae-116216143d16]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
-Information: X-Request-Id: 445fee9d-eb9e-4e8f-90f3-9488c4f8bb43
+ERROR: ValueSet.where(id = 'jdv-lateralite-ncit-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [825a89cd-3a91-41ce-90a5-0a36c3e0640c]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-ncit could not be resolved.
+Information: X-Request-Id: b5b20595-6293-4eb7-949f-2d520ba9a65a
 == input/ontoserver/JDV/JdvLateraliteTechniqueImagerieCisis_jdv-lateralite-technique-imagerie-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 INFORMATION: ValueSet/jdv-lateralite-technique-imagerie-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
@@ -6192,8 +6192,8 @@ INFORMATION: ValueSet/jdv-modalite-demande-acte-imagerie-cisis: ValueSet.compose
 INFORMATION: ValueSet/jdv-modalite-demande-acte-imagerie-cisis: ValueSet.compose.include[2].concept[3]: Wrong Display Name 'Autre technique d'imagerie' for http://dicom.nema.org/resources/ontology/DCM#OT. Valid display is 'Other Modality' (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
 INFORMATION: ValueSet/jdv-modalite-demande-acte-imagerie-cisis: ValueSet.compose.include[2].concept[4]: Wrong Display Name 'Scintigraphie' for http://dicom.nema.org/resources/ontology/DCM#NM. Valid display is 'Nuclear Medicine' (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
 INFORMATION: ValueSet/jdv-modalite-demande-acte-imagerie-cisis: ValueSet.compose.include[2].concept[5]: Wrong Display Name 'TEP : Tomographie par émission de positons' for http://dicom.nema.org/resources/ontology/DCM#PT. Valid display is 'Positron emission tomography' (for the language(s) 'en, en-US'). Note that the display in the ValueSet does not have to match; this check exists to help check that it's not accidentally the wrong code
-ERROR: ValueSet.where(id = 'jdv-modalite-demande-acte-imagerie-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [58507ff7-7e95-454d-8acf-56a898066702]: A usable code system with URL http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl could not be resolved.
-Information: X-Request-Id: 6773644d-a272-44a4-a18b-5dcf29a5befe
+ERROR: ValueSet.where(id = 'jdv-modalite-demande-acte-imagerie-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [2ff262d4-2b62-40dc-8c3c-3bfc1b33b8bf]: A usable code system with URL http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl could not be resolved.
+Information: X-Request-Id: fc440b41-cfc8-4e0c-8e9c-b4ada0986d5e
 == input/ontoserver/JDV/JdvModaliteEntreeCisis_jdv-modalite-entree-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 INFORMATION: ValueSet/jdv-modalite-entree-cisis: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
@@ -6342,8 +6342,8 @@ INFORMATION: ValueSet/jdv-oeil-examine-cisis: ValueSet.compose.include[0]: The c
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 WARNING: ValueSet/jdv-organe-cisis: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-adicap'
 INFORMATION: ValueSet/jdv-organe-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
-ERROR: ValueSet.where(id = 'jdv-organe-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [6966acf7-acf6-4158-bc27-66d698b57369]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-adicap could not be resolved.
-Information: X-Request-Id: b14a25bf-3d13-424b-be8f-af8c87cc2c90
+ERROR: ValueSet.where(id = 'jdv-organe-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [a01ca749-a138-4a82-ba72-760f4c59d101]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-adicap could not be resolved.
+Information: X-Request-Id: b5496ee7-dc85-4cb4-9801-e061ed6c9b8a
 == input/ontoserver/JDV/JdvOrientationBaseDuPrismeCisis_jdv-orientation-base-du-prisme-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 INFORMATION: ValueSet/jdv-orientation-base-du-prisme-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
@@ -6384,8 +6384,8 @@ INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 WARNING: ValueSet/jdv-profession-cisis: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-PCS/'
 INFORMATION: ValueSet/jdv-profession-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
-ERROR: ValueSet.where(id = 'jdv-profession-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [f7ae3b75-9dca-41fa-a3ec-bb0cc97a2dc7]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-PCS/ could not be resolved.
-Information: X-Request-Id: e9e7258e-c31d-4039-b7f5-c3149cd85bd6
+ERROR: ValueSet.where(id = 'jdv-profession-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [a595abdd-3099-4e34-91fb-684dc8ecc7c6]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-PCS/ could not be resolved.
+Information: X-Request-Id: eecd676c-124a-4664-8d43-b1b6512caa35
 == input/ontoserver/JDV/JdvProfessionExposeeCisis_jdv-profession-exposee-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 == input/ontoserver/JDV/JdvProfessionPersonnelActiviteCisis_jdv-profession-personnel-activite-cisis.json ==
@@ -6984,8 +6984,8 @@ INFORMATION: ValueSet/jdv-taille-cisis: ValueSet.compose.include[0]: The concept
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 WARNING: ValueSet/jdv-technique-biologie-cisis: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-tccr'
 INFORMATION: ValueSet/jdv-technique-biologie-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
-ERROR: ValueSet.where(id = 'jdv-technique-biologie-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [f78d2719-5092-4e55-8c13-cbbd7b145602]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-tccr could not be resolved.
-Information: X-Request-Id: f9a25f67-234f-4a26-a788-53e6948fc5c1
+ERROR: ValueSet.where(id = 'jdv-technique-biologie-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [d0879338-9791-4eb6-824f-ad234102e40e]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-tccr could not be resolved.
+Information: X-Request-Id: e71a9203-e498-4713-a145-c3d571b17513
 == input/ontoserver/JDV/JdvTechniqueDiagnosticCisis_jdv-technique-diagnostic-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 ERROR: ValueSet/jdv-technique-diagnostic-cisis: ValueSet.compose.include[1].concept[0]: The code '73735000' is not valid in the system http://snomed.info/sct (Wrong Display Name 'technique cytogénétique' for http://snomed.info/sct#73735000. There are no valid display names found for language(s) 'fr'. Default display is 'Cytogenetic procedure')
@@ -7023,8 +7023,8 @@ INFORMATION: ValueSet/jdv-traitement-preventif-cisis: ValueSet.compose.include[0
 == input/ontoserver/JDV/JdvTraitementSoinsFrcpCisis_jdv-traitement-soins-frcp-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 INFORMATION: ValueSet/jdv-traitement-soins-frcp-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
-ERROR: ValueSet.where(id = 'jdv-traitement-soins-frcp-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [bb45a6cd-f1d6-4873-b521-a825acfcce88]: A usable code system with URL http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl could not be resolved.
-Information: X-Request-Id: e410f3b7-4fc2-46ed-b726-c71f89b3c3e8
+ERROR: ValueSet.where(id = 'jdv-traitement-soins-frcp-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [037bbe21-c0f7-42dd-890e-888db06cf02d]: A usable code system with URL http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl could not be resolved.
+Information: X-Request-Id: 654d6d7f-4cdf-422e-b04b-b81ab4f96422
 == input/ontoserver/JDV/JdvTraitementSuiviCisis_jdv-traitement-suivi-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 == input/ontoserver/JDV/JdvTransfertMutationCisis_jdv-transfert-mutation-cisis.json ==
@@ -7042,8 +7042,8 @@ INFORMATION: ValueSet/jdv-trouble-visuel-cisis: ValueSet.compose.include[0]: The
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 WARNING: ValueSet/jdv-trousse-ccu-cisis: ValueSet.compose.include[1].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-tccr'
 INFORMATION: ValueSet/jdv-trousse-ccu-cisis: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
-ERROR: ValueSet.where(id = 'jdv-trousse-ccu-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [3174641a-537c-4d3f-9320-6b67a7778870]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-tccr could not be resolved.
-Information: X-Request-Id: 9b496872-984f-40fd-9384-4367cb5b4e28
+ERROR: ValueSet.where(id = 'jdv-trousse-ccu-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [8a538cc0-dc53-43a6-9ef1-05bb60e11ba2]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-tccr could not be resolved.
+Information: X-Request-Id: 7705c2f8-0f1f-47ea-88a4-8ded4ecd45f1
 == input/ontoserver/JDV/JdvTumeurCisis_jdv-tumeur-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 INFORMATION: ValueSet/jdv-tumeur-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
@@ -7120,8 +7120,8 @@ INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 WARNING: ValueSet/jdv-type-histo-etat-tumoral-cisis: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-adicap'
 INFORMATION: ValueSet/jdv-type-histo-etat-tumoral-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
-ERROR: ValueSet.where(id = 'jdv-type-histo-etat-tumoral-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [fa73b863-a4f5-470c-ad6f-2f93e6c1bbc4]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-adicap could not be resolved.
-Information: X-Request-Id: c9c6ab1d-ab09-46a2-8bb9-2f7c942752e7
+ERROR: ValueSet.where(id = 'jdv-type-histo-etat-tumoral-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [186404ea-1999-4d27-90c0-dad8c7087d0e]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-adicap could not be resolved.
+Information: X-Request-Id: e1d3fcaa-6447-4c54-8598-4040da70a684
 == input/ontoserver/JDV/JdvTypeInterventionCisis_jdv-type-intervention-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 INFORMATION: ValueSet/jdv-type-intervention-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
@@ -7147,8 +7147,8 @@ INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 WARNING: ValueSet/jdv-type-pelevement-origine-cisis: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-adicap'
 INFORMATION: ValueSet/jdv-type-pelevement-origine-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
-ERROR: ValueSet.where(id = 'jdv-type-pelevement-origine-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [f987545b-d5c0-4274-8eb6-de5158d1d0ed]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-adicap could not be resolved.
-Information: X-Request-Id: fcfddbfa-c37d-4afc-9168-3d8f32a577fd
+ERROR: ValueSet.where(id = 'jdv-type-pelevement-origine-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [6ad8f486-a325-4e98-b732-9d9389010200]: A usable code system with URL https://smt.esante.gouv.fr/terminologie-adicap could not be resolved.
+Information: X-Request-Id: f72c9faf-1875-457c-b398-916abb597bc1
 == input/ontoserver/JDV/JdvTypePresentationCisis_jdv-type-presentation-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 INFORMATION: ValueSet/jdv-type-presentation-cisis: ValueSet.compose.include[1]: The concepts in the value set include have not been validated because the terminology server https://smt.esante.gouv.fr/fhir does not support batch validation (tests version < 1.7.8)
@@ -7157,8 +7157,8 @@ INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir
 == input/ontoserver/JDV/JdvTypeProduitSanguinLabileCisis_jdv-type-produit-sanguin-labile-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 INFORMATION: ValueSet/jdv-type-produit-sanguin-labile-cisis: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the terminology server https://tx.fhir.org/r4 does not support batch validation (tests version < 1.7.8)
-ERROR: ValueSet.where(id = 'jdv-type-produit-sanguin-labile-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [a05e6b30-36bc-40e8-b696-bc81ac0203d6]: A usable code system with URL http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl could not be resolved.
-Information: X-Request-Id: 8cf0a4d2-2add-4305-8c2d-971750f979e1
+ERROR: ValueSet.where(id = 'jdv-type-produit-sanguin-labile-cisis'): Error from https://smt.esante.gouv.fr/fhir: Error: [001d66fa-3a86-4e25-b6cf-d66f85d5f1bd]: A usable code system with URL http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl could not be resolved.
+Information: X-Request-Id: 58360b34-a8a3-4286-a17f-4003d2a665c2
 == input/ontoserver/JDV/JdvTypeRencontreCisis_jdv-type-rencontre-cisis.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 == input/ontoserver/JDV/JdvTypeRencontreObpCisis_jdv-type-rencontre-obp-cisis.json ==
@@ -7785,8 +7785,8 @@ ERROR: ValueSet.where(url = 'https://smt.esante.gouv.fr/fhir/ValueSet/VS-test'):
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 WARNING: ValueSet/VS-test: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322'
 INFORMATION: ValueSet/VS-test: ValueSet.compose.include[0]: The concepts in the value set include have not been validated because the code system is not known, and no terminology service supports it
-ERROR: ValueSet.where(id = 'VS-test'): Error from https://smt.esante.gouv.fr/fhir: Error: [c47be566-828e-463d-bc65-d1b41206d33f]: A usable code system with URL https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322 could not be resolved.
-Information: X-Request-Id: 5a61267d-e41d-4b9f-a90b-aace7a7924a2
+ERROR: ValueSet.where(id = 'VS-test'): Error from https://smt.esante.gouv.fr/fhir: Error: [ba3d9377-9f76-4402-bf54-e31c97d5790f]: A usable code system with URL https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322 could not be resolved.
+Information: X-Request-Id: 4eaf3993-f570-4d29-8eb5-9ed865cb3aa1
 ERROR: /home/runner/work/IG-terminologie-de-sante/IG-terminologie-de-sante/igSource/input/ontoserver/JDV/VS_test_VS-test: URL Mismatch https://interop.esante.gouv.fr/terminologies/ValueSet/VS-test vs https://smt.esante.gouv.fr/fhir/ValueSet/VS-test
 == input/ontoserver/JDV/ValueSet_ATC_All_vs-atc-all.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
@@ -7803,8 +7803,8 @@ INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir
 WARNING: ValueSet/vs-cipucd-all: ValueSet.compose.include[0].system: No definition could be found for URL value 'https://smt.esante.gouv.fr/terminologie-cip_ucd'
 WARNING: ValueSet/vs-cipucd-all: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
 WARNING: ValueSet/vs-cipucd-all: ValueSet: Resource has a language, but the XHTML does not have an lang or an xml:lang tag (needs both - see https://www.w3.org/TR/i18n-html-tech-lang/#langvalues)
-ERROR: ValueSet.where(id = 'vs-cipucd-all'): Error from https://smt.esante.gouv.fr/fhir: Error: [e7d9f8cd-9979-4226-8fac-3a372467f6f0]: Could not find the code system https://smt.esante.gouv.fr/terminologie-cip_ucd|2025-12
-Information: X-Request-Id: 33441edf-0aa3-4458-970c-e7d5a2d9c34f
+ERROR: ValueSet.where(id = 'vs-cipucd-all'): Error from https://smt.esante.gouv.fr/fhir: Error: [7db4a2e7-8284-476c-bcf1-f35a04a41486]: Could not find the code system https://smt.esante.gouv.fr/terminologie-cip_ucd|2025-12
+Information: X-Request-Id: 23abde4d-a08c-432b-9ec7-4a0ec566f2ef
 == input/ontoserver/JDV/ValueSet_EDQM_All_vs-edqm-all.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.1
 WARNING: ValueSet/vs-edqm-all: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.title is mandatory, but it is not present
@@ -8450,7 +8450,7 @@ INFORMATION: CodeSystem/TRE-A05-TypeDocComplementaire: CodeSystem.property[0]: T
 INFORMATION: CodeSystem/TRE-A05-TypeDocComplementaire: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-A05-TypeDocComplementaire: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/TRE_A06_FormatCodeComplementaire_TRE-A06-FormatCodeComplementaire.json ==
-INFORMATION: CodeSystem.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablecodesystem to 4.0.1
+ERROR: CodeSystem.text.div: Resource has provided narrative, but the narrative indicates that it is generated - remove the narrative or fix it up
 WARNING: CodeSystem/TRE-A06-FormatCodeComplementaire: CodeSystem.property[0].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#dateValid'
 WARNING: CodeSystem/TRE-A06-FormatCodeComplementaire: CodeSystem.property[1].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj'
 WARNING: CodeSystem/TRE-A06-FormatCodeComplementaire: CodeSystem.property[2].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#dateFin'
@@ -8679,7 +8679,7 @@ INFORMATION: CodeSystem/TRE-R14-TypeDiplome: CodeSystem.property[0]: This proper
 INFORMATION: CodeSystem/TRE-R14-TypeDiplome: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R14-TypeDiplome: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/TRE_R16_LieuFormation_TRE-R16-LieuFormation.json ==
-INFORMATION: CodeSystem.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablecodesystem to 4.0.1
+ERROR: CodeSystem.text.div: Resource has provided narrative, but the narrative indicates that it is generated - remove the narrative or fix it up
 WARNING: CodeSystem/TRE-R16-LieuFormation: CodeSystem.property[0].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#dateValid'
 WARNING: CodeSystem/TRE-R16-LieuFormation: CodeSystem.property[1].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj'
 WARNING: CodeSystem/TRE-R16-LieuFormation: CodeSystem.property[2].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#dateFin'
@@ -8766,7 +8766,7 @@ INFORMATION: CodeSystem/TRE-R20-Pays: CodeSystem.property[0]: This property has 
 INFORMATION: CodeSystem/TRE-R20-Pays: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R20-Pays: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/TRE_R210_ActeSpecifique_TRE-R210-ActeSpecifique.json ==
-INFORMATION: CodeSystem.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablecodesystem to 4.0.1
+ERROR: CodeSystem.text.div: Resource has provided narrative, but the narrative indicates that it is generated - remove the narrative or fix it up
 WARNING: CodeSystem/TRE-R210-ActeSpecifique: CodeSystem.property[0].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#dateValid'
 WARNING: CodeSystem/TRE-R210-ActeSpecifique: CodeSystem.property[1].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj'
 WARNING: CodeSystem/TRE-R210-ActeSpecifique: CodeSystem.property[2].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#dateFin'
@@ -8775,7 +8775,7 @@ WARNING: CodeSystem/TRE-R210-ActeSpecifique: CodeSystem.property[0]: The base pr
 WARNING: CodeSystem/TRE-R210-ActeSpecifique: CodeSystem.property[1]: The base property uri 'https://smt.esante.gouv.fr/fhir/concept-properties' is not known for the property 'dateMaj', so the property values can not be validated fully
 WARNING: CodeSystem/TRE-R210-ActeSpecifique: CodeSystem.property[2]: The base property uri 'https://smt.esante.gouv.fr/fhir/concept-properties' is not known for the property 'dateFin', so the property values can not be validated fully
 == input/ontoserver/TRE/TRE_R211_ActiviteOperationnelle_TRE-R211-ActiviteOperationnelle.json ==
-INFORMATION: CodeSystem.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablecodesystem to 4.0.1
+ERROR: CodeSystem.text.div: Resource has provided narrative, but the narrative indicates that it is generated - remove the narrative or fix it up
 WARNING: CodeSystem/TRE-R211-ActiviteOperationnelle: CodeSystem.property[0].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#dateValid'
 WARNING: CodeSystem/TRE-R211-ActiviteOperationnelle: CodeSystem.property[1].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj'
 WARNING: CodeSystem/TRE-R211-ActiviteOperationnelle: CodeSystem.property[2].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#dateFin'
@@ -8784,7 +8784,7 @@ WARNING: CodeSystem/TRE-R211-ActiviteOperationnelle: CodeSystem.property[0]: The
 WARNING: CodeSystem/TRE-R211-ActiviteOperationnelle: CodeSystem.property[1]: The base property uri 'https://smt.esante.gouv.fr/fhir/concept-properties' is not known for the property 'dateMaj', so the property values can not be validated fully
 WARNING: CodeSystem/TRE-R211-ActiviteOperationnelle: CodeSystem.property[2]: The base property uri 'https://smt.esante.gouv.fr/fhir/concept-properties' is not known for the property 'dateFin', so the property values can not be validated fully
 == input/ontoserver/TRE/TRE_R212_Equipement_TRE-R212-Equipement.json ==
-INFORMATION: CodeSystem.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablecodesystem to 4.0.1
+ERROR: CodeSystem.text.div: Resource has provided narrative, but the narrative indicates that it is generated - remove the narrative or fix it up
 WARNING: CodeSystem/TRE-R212-Equipement: CodeSystem.property[0].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#dateValid'
 WARNING: CodeSystem/TRE-R212-Equipement: CodeSystem.property[1].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj'
 WARNING: CodeSystem/TRE-R212-Equipement: CodeSystem.property[2].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#dateFin'
@@ -8795,7 +8795,7 @@ WARNING: CodeSystem/TRE-R212-Equipement: CodeSystem.property[1]: The base proper
 WARNING: CodeSystem/TRE-R212-Equipement: CodeSystem.property[2]: The base property uri 'https://smt.esante.gouv.fr/fhir/concept-properties' is not known for the property 'dateFin', so the property values can not be validated fully
 WARNING: CodeSystem/TRE-R212-Equipement: CodeSystem.property[6]: The base property uri 'https://smt.esante.gouv.fr/fhir/concept-properties' is not known for the property 'finess', so the property values can not be validated fully
 == input/ontoserver/TRE/TRE_R213_ModePriseEnCharge_TRE-R213-ModePriseEnCharge.json ==
-INFORMATION: CodeSystem.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablecodesystem to 4.0.1
+ERROR: CodeSystem.text.div: Resource has provided narrative, but the narrative indicates that it is generated - remove the narrative or fix it up
 WARNING: CodeSystem/TRE-R213-ModePriseEnCharge: CodeSystem.property[0].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#dateValid'
 WARNING: CodeSystem/TRE-R213-ModePriseEnCharge: CodeSystem.property[1].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj'
 WARNING: CodeSystem/TRE-R213-ModePriseEnCharge: CodeSystem.property[2].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#dateFin'
@@ -8996,7 +8996,7 @@ INFORMATION: CodeSystem/TRE-R243-CompetenceSpecifique: CodeSystem.property[0]: T
 INFORMATION: CodeSystem/TRE-R243-CompetenceSpecifique: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R243-CompetenceSpecifique: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/TRE_R244_CategorieOrganisation_TRE-R244-CategorieOrganisation.json ==
-INFORMATION: CodeSystem.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablecodesystem to 4.0.1
+ERROR: CodeSystem.text.div: Resource has provided narrative, but the narrative indicates that it is generated - remove the narrative or fix it up
 WARNING: CodeSystem/TRE-R244-CategorieOrganisation: CodeSystem.property[0].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#dateValid'
 WARNING: CodeSystem/TRE-R244-CategorieOrganisation: CodeSystem.property[1].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj'
 WARNING: CodeSystem/TRE-R244-CategorieOrganisation: CodeSystem.property[2].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#dateFin'
@@ -9095,7 +9095,7 @@ INFORMATION: CodeSystem/TRE-R259-HL7ParticipationFunction: CodeSystem.property[0
 INFORMATION: CodeSystem/TRE-R259-HL7ParticipationFunction: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R259-HL7ParticipationFunction: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/TRE_R25_MotifFinActivite_TRE-R25-MotifFinActivite.json ==
-INFORMATION: CodeSystem.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablecodesystem to 4.0.1
+ERROR: CodeSystem.text.div: Resource has provided narrative, but the narrative indicates that it is generated - remove the narrative or fix it up
 WARNING: CodeSystem/TRE-R25-MotifFinActivite: CodeSystem.property[0].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#dateValid'
 WARNING: CodeSystem/TRE-R25-MotifFinActivite: CodeSystem.property[1].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj'
 WARNING: CodeSystem/TRE-R25-MotifFinActivite: CodeSystem.property[2].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#dateFin'
@@ -9527,7 +9527,7 @@ INFORMATION: CodeSystem/TRE-R337-AffectationTemporaire: CodeSystem.property[0]: 
 INFORMATION: CodeSystem/TRE-R337-AffectationTemporaire: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R337-AffectationTemporaire: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/TRE_R338_ModaliteAccueil_TRE-R338-ModaliteAccueil.json ==
-INFORMATION: CodeSystem.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablecodesystem to 4.0.1
+ERROR: CodeSystem.text.div: Resource has provided narrative, but the narrative indicates that it is generated - remove the narrative or fix it up
 WARNING: CodeSystem/TRE-R338-ModaliteAccueil: CodeSystem.property[0].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#dateValid'
 WARNING: CodeSystem/TRE-R338-ModaliteAccueil: CodeSystem.property[1].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj'
 WARNING: CodeSystem/TRE-R338-ModaliteAccueil: CodeSystem.property[2].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#dateFin'
@@ -9560,7 +9560,7 @@ INFORMATION: CodeSystem/TRE-R342-XdsTypesIdentifiantsReferenceId: CodeSystem.pro
 INFORMATION: CodeSystem/TRE-R342-XdsTypesIdentifiantsReferenceId: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R342-XdsTypesIdentifiantsReferenceId: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/TRE_R343_FonctionLieu_TRE-R343-FonctionLieu.json ==
-INFORMATION: CodeSystem.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablecodesystem to 4.0.1
+ERROR: CodeSystem.text.div: Resource has provided narrative, but the narrative indicates that it is generated - remove the narrative or fix it up
 WARNING: CodeSystem/TRE-R343-FonctionLieu: CodeSystem.property[0].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#dateValid'
 WARNING: CodeSystem/TRE-R343-FonctionLieu: CodeSystem.property[1].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj'
 WARNING: CodeSystem/TRE-R343-FonctionLieu: CodeSystem.property[2].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#dateFin'
@@ -9569,7 +9569,7 @@ WARNING: CodeSystem/TRE-R343-FonctionLieu: CodeSystem.property[0]: The base prop
 WARNING: CodeSystem/TRE-R343-FonctionLieu: CodeSystem.property[1]: The base property uri 'https://smt.esante.gouv.fr/fhir/concept-properties' is not known for the property 'dateMaj', so the property values can not be validated fully
 WARNING: CodeSystem/TRE-R343-FonctionLieu: CodeSystem.property[2]: The base property uri 'https://smt.esante.gouv.fr/fhir/concept-properties' is not known for the property 'dateFin', so the property values can not be validated fully
 == input/ontoserver/TRE/TRE_R344_NiveauExpertise_TRE-R344-NiveauExpertise.json ==
-INFORMATION: CodeSystem.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablecodesystem to 4.0.1
+ERROR: CodeSystem.text.div: Resource has provided narrative, but the narrative indicates that it is generated - remove the narrative or fix it up
 WARNING: CodeSystem/TRE-R344-NiveauExpertise: CodeSystem.property[0].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#dateValid'
 WARNING: CodeSystem/TRE-R344-NiveauExpertise: CodeSystem.property[1].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj'
 WARNING: CodeSystem/TRE-R344-NiveauExpertise: CodeSystem.property[2].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#dateFin'
@@ -9584,7 +9584,7 @@ INFORMATION: CodeSystem/TRE-R345-TypeIdentifiantAutre: CodeSystem.property[0]: T
 INFORMATION: CodeSystem/TRE-R345-TypeIdentifiantAutre: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R345-TypeIdentifiantAutre: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/TRE_R348_FormationSpecialiseeTransversale_TRE-R348-FormationSpecialiseeTransversale.json ==
-INFORMATION: CodeSystem.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablecodesystem to 4.0.1
+ERROR: CodeSystem.text.div: Resource has provided narrative, but the narrative indicates that it is generated - remove the narrative or fix it up
 WARNING: CodeSystem/TRE-R348-FormationSpecialiseeTransversale: CodeSystem.property[0].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#dateValid'
 WARNING: CodeSystem/TRE-R348-FormationSpecialiseeTransversale: CodeSystem.property[1].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj'
 WARNING: CodeSystem/TRE-R348-FormationSpecialiseeTransversale: CodeSystem.property[2].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#dateFin'
@@ -9648,7 +9648,7 @@ INFORMATION: CodeSystem/TRE-R358-MotifStatutPersonnePriseCharge: CodeSystem.prop
 INFORMATION: CodeSystem/TRE-R358-MotifStatutPersonnePriseCharge: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R358-MotifStatutPersonnePriseCharge: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/TRE_R359_SurspecialiteTransversale_TRE-R359-SurspecialiteTransversale.json ==
-INFORMATION: CodeSystem.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablecodesystem to 4.0.1
+ERROR: CodeSystem.text.div: Resource has provided narrative, but the narrative indicates that it is generated - remove the narrative or fix it up
 WARNING: CodeSystem/TRE-R359-SurspecialiteTransversale: CodeSystem.property[0].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#dateValid'
 WARNING: CodeSystem/TRE-R359-SurspecialiteTransversale: CodeSystem.property[1].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj'
 WARNING: CodeSystem/TRE-R359-SurspecialiteTransversale: CodeSystem.property[2].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#dateFin'
@@ -9663,7 +9663,7 @@ INFORMATION: CodeSystem/TRE-R35-TypeVoie: CodeSystem.property[0]: This property 
 INFORMATION: CodeSystem/TRE-R35-TypeVoie: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R35-TypeVoie: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/TRE_R368_StatutRessource_TRE-R368-StatutRessource.json ==
-INFORMATION: CodeSystem.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablecodesystem to 4.0.1
+ERROR: CodeSystem.text.div: Resource has provided narrative, but the narrative indicates that it is generated - remove the narrative or fix it up
 WARNING: CodeSystem/TRE-R368-StatutRessource: CodeSystem.property[0].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#dateValid'
 WARNING: CodeSystem/TRE-R368-StatutRessource: CodeSystem.property[1].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj'
 WARNING: CodeSystem/TRE-R368-StatutRessource: CodeSystem.property[2].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#dateFin'
@@ -9804,7 +9804,7 @@ INFORMATION: CodeSystem/TRE-R57-DiplomeEuropeenEtudeSpecialisee: CodeSystem.prop
 INFORMATION: CodeSystem/TRE-R57-DiplomeEuropeenEtudeSpecialisee: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R57-DiplomeEuropeenEtudeSpecialisee: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/TRE_R58_AutreTypeDiplome_TRE-R58-AutreTypeDiplome.json ==
-INFORMATION: CodeSystem.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablecodesystem to 4.0.1
+ERROR: CodeSystem.text.div: Resource has provided narrative, but the narrative indicates that it is generated - remove the narrative or fix it up
 WARNING: CodeSystem/TRE-R58-AutreTypeDiplome: CodeSystem.property[0].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#dateValid'
 WARNING: CodeSystem/TRE-R58-AutreTypeDiplome: CodeSystem.property[1].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj'
 WARNING: CodeSystem/TRE-R58-AutreTypeDiplome: CodeSystem.property[2].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#dateFin'
@@ -9843,7 +9843,7 @@ INFORMATION: CodeSystem/TRE-R65-AgregatCategorieEtablissement: CodeSystem.proper
 INFORMATION: CodeSystem/TRE-R65-AgregatCategorieEtablissement: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R65-AgregatCategorieEtablissement: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/TRE_R66_CategorieEtablissement_TRE-R66-CategorieEtablissement.json ==
-INFORMATION: CodeSystem.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablecodesystem to 4.0.1
+ERROR: CodeSystem.text.div: Resource has provided narrative, but the narrative indicates that it is generated - remove the narrative or fix it up
 WARNING: CodeSystem/TRE-R66-CategorieEtablissement: CodeSystem.property[0].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#dateValid'
 WARNING: CodeSystem/TRE-R66-CategorieEtablissement: CodeSystem.property[1].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj'
 WARNING: CodeSystem/TRE-R66-CategorieEtablissement: CodeSystem.property[2].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#dateFin'
@@ -9888,7 +9888,7 @@ INFORMATION: CodeSystem/TRE-R73-ESPIC: CodeSystem.property[0]: This property has
 INFORMATION: CodeSystem/TRE-R73-ESPIC: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R73-ESPIC: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/TRE_R74_ModeFixationTarifaire_TRE-R74-ModeFixationTarifaire.json ==
-INFORMATION: CodeSystem.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablecodesystem to 4.0.1
+ERROR: CodeSystem.text.div: Resource has provided narrative, but the narrative indicates that it is generated - remove the narrative or fix it up
 WARNING: CodeSystem/TRE-R74-ModeFixationTarifaire: CodeSystem.property[0].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#dateValid'
 WARNING: CodeSystem/TRE-R74-ModeFixationTarifaire: CodeSystem.property[1].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj'
 WARNING: CodeSystem/TRE-R74-ModeFixationTarifaire: CodeSystem.property[2].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#dateFin'
@@ -9927,7 +9927,7 @@ INFORMATION: CodeSystem/TRE-R84-ProfilAccesAnnuaire-MSSante: CodeSystem.property
 INFORMATION: CodeSystem/TRE-R84-ProfilAccesAnnuaire-MSSante: CodeSystem.property[1]: This property has only a code ('dateMaj') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 INFORMATION: CodeSystem/TRE-R84-ProfilAccesAnnuaire-MSSante: CodeSystem.property[2]: This property has only a code ('dateFin') and not a URI, so it has no clearly defined meaning in the terminology ecosystem
 == input/ontoserver/TRE/TRE_R85_RolePriseCharge_TRE-R85-RolePriseCharge.json ==
-INFORMATION: CodeSystem.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablecodesystem to 4.0.1
+ERROR: CodeSystem.text.div: Resource has provided narrative, but the narrative indicates that it is generated - remove the narrative or fix it up
 WARNING: CodeSystem/TRE-R85-RolePriseCharge: CodeSystem.property[0].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#dateValid'
 WARNING: CodeSystem/TRE-R85-RolePriseCharge: CodeSystem.property[1].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj'
 WARNING: CodeSystem/TRE-R85-RolePriseCharge: CodeSystem.property[2].uri: No definition could be found for URL value 'https://smt.esante.gouv.fr/fhir/concept-properties#dateFin'

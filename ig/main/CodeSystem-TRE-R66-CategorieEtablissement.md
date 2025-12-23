@@ -40,8 +40,8 @@ Catégorie d’établissements
   "resourceType" : "CodeSystem",
   "id" : "TRE-R66-CategorieEtablissement",
   "meta" : {
-    "versionId" : "18",
-    "lastUpdated" : "2025-12-18T16:42:52.293+01:00",
+    "versionId" : "19",
+    "lastUpdated" : "2025-12-22T10:46:48.203+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]

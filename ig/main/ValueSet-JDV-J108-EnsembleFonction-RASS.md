@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J108-EnsembleFonction-RASS",
   "meta" : {
-    "versionId" : "16",
-    "lastUpdated" : "2025-12-18T16:47:36.559+01:00",
+    "versionId" : "17",
+    "lastUpdated" : "2025-12-22T10:46:26.556+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]

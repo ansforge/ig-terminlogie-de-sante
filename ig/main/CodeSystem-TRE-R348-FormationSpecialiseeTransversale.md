@@ -28,8 +28,8 @@ Formation Spécialisée Transversale (FST)
   "resourceType" : "CodeSystem",
   "id" : "TRE-R348-FormationSpecialiseeTransversale",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-12-18T16:42:49.392+01:00",
+    "versionId" : "7",
+    "lastUpdated" : "2025-12-22T10:46:45.488+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]

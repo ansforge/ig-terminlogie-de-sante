@@ -29,8 +29,8 @@ Autre type de diplôme
   "resourceType" : "CodeSystem",
   "id" : "TRE-R58-AutreTypeDiplome",
   "meta" : {
-    "versionId" : "12",
-    "lastUpdated" : "2025-12-18T16:42:50.893+01:00",
+    "versionId" : "13",
+    "lastUpdated" : "2025-12-22T10:46:46.902+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
