@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://mos.esante.gouv.fr/NOS/ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS | *Version*:5.0.0 |
-| Active as of 2025-12-24 | *Computable Name*:ASS_A11_CorresModeleCDA_XdsFormatCode_CISIS |
+| Active as of 2025-12-25 | *Computable Name*:ASS_A11_CorresModeleCDA_XdsFormatCode_CISIS |
 | **Usage:**Workflow Task:  | |
 
  
@@ -29,7 +29,7 @@ Pour le document CDA, la métadonnée XDS ‘formatCode’ est calculé à parti
   "title" : "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-24T04:35:56+00:00",
+  "date" : "2025-12-25T04:38:25+00:00",
   "publisher" : "ANS",
   "contact" : [
     {
