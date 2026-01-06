@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/terminologie-ccam | *Version*:v80.00 | |
-| Active as of 2025-11-05 | *Responsible:*Agence du numérique en santé | *Computable Name*:CCAM |
+| *Official URL*:https://smt.esante.gouv.fr/terminologie-ccam | *Version*:v81.00 | |
+| Active as of 2026-01-01 | *Responsible:*Agence du numérique en santé | *Computable Name*:CCAM |
 | *Other Identifiers:*OID:1.2.250.1.215.300.1 (use: usual, ), https://smt.esante.gouv.fr/#terminologie-ccam (use: secondary, ) | | |
 | **Copyright/Legal**:[LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md) | | |
 
@@ -32,8 +32,8 @@ La Classification Commune des Actes Médicaux est la terminologie de facturation
   "resourceType" : "CodeSystem",
   "id" : "terminologie-ccam",
   "meta" : {
-    "versionId" : "7.1763107593766",
-    "lastUpdated" : "2025-11-14T09:06:33.766+01:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-01-05T11:41:56.589+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
@@ -51,12 +51,12 @@ La Classification Commune des Actes Médicaux est la terminologie de facturation
       "value" : "terminologie-ccam"
     }
   ],
-  "version" : "v80.00",
+  "version" : "v81.00",
   "name" : "CCAM",
   "title" : "Classification Commune des Actes Médicaux",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-11-05T00:00:00+00:00",
+  "date" : "2026-01-01T00:00:00+00:00",
   "publisher" : "Agence du numérique en santé",
   "description" : "La Classification Commune des Actes Médicaux est la terminologie de facturation créée et maintenue par la CNAM.",
   "jurisdiction" : [
@@ -72,7 +72,7 @@ La Classification Commune des Actes Médicaux est la terminologie de facturation
   "copyright" : "[LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md)",
   "valueSet" : "https://smt.esante.gouv.fr/terminologie-ccam?vs",
   "content" : "not-present",
-  "count" : 38191,
+  "count" : 38223,
   "filter" : [
     {
       "code" : "root",
