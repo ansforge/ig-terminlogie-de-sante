@@ -4,6 +4,7 @@ Description: "Catégorie d'établissements"
 * ^meta.versionId = "17"
 * ^meta.lastUpdated = "2025-12-22T18:18:40.120+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "1979-01-01T00:00:00+01:00"
 * ^extension.valuePeriod.end = "2025-12-22T00:00:00+01:00"

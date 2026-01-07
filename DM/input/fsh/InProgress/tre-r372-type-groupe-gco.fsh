@@ -7,6 +7,7 @@ Description: "Nomenclature des types de Groupement de Coopération Organique (GC
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2025-07-11T12:00:00+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "1900-01-01T00:00:00+01:00"
 * ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r372-type-groupe-gco"

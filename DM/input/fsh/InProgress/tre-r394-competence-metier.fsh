@@ -7,6 +7,7 @@ Description: "Type de savoir-faire opérationnel, transversal ou spécifique, ac
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2025-07-01T10:02:21+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2025-06-25T12:00:00+01:00"
 * ^identifier.system = "urn:ietf:rfc:3986"

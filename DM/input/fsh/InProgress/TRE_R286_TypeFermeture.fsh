@@ -6,6 +6,7 @@ Description: "Type de fermeture, codes provenant du FINESS pour les EJ et EG"
 * ^meta.versionId = "4"
 * ^meta.lastUpdated = "2024-08-28T05:13:08.820+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2019-01-25T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture"

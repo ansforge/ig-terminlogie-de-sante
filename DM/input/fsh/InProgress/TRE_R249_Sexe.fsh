@@ -4,6 +4,7 @@ Description: "Sexe"
 * ^meta.versionId = "4"
 * ^meta.lastUpdated = "2024-08-28T05:12:46.469+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2018-01-26T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R249-Sexe/FHIR/TRE-R249-Sexe"

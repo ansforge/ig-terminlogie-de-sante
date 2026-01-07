@@ -6,6 +6,7 @@ Description: "Equipement"
 * ^meta.versionId = "17"
 * ^meta.lastUpdated = "2025-07-17T18:16:04.097+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2015-03-25T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement"

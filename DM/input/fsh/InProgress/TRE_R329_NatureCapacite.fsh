@@ -4,6 +4,7 @@ Description: "Permet d'indiquer si la capacité est exprimée en lits ou en plac
 * ^meta.versionId = "5"
 * ^meta.lastUpdated = "2025-03-31T18:11:28.898+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2022-05-27T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R329-NatureCapacite/FHIR/TRE-R329-NatureCapacite"

@@ -7,6 +7,7 @@ Description: "liste des autorités structurée en plusieurs types d'autorités :
 * ^meta.versionId = "8"
 * ^meta.lastUpdated = "2025-08-25T18:18:27.409+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2016-02-02T00:00:00+01:00"
 * ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"

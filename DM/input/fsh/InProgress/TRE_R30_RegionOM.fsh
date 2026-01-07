@@ -6,6 +6,7 @@ Description: "Référentiel des codes régions et collectivités d'outre-mer pro
 * ^meta.versionId = "7"
 * ^meta.lastUpdated = "2025-07-02T18:17:22.353+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2016-01-01T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"

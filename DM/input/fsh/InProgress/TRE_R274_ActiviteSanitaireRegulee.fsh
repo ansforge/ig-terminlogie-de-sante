@@ -4,6 +4,7 @@ Description: "Activités sanitaires soumises à une régulation de la part de l'
 * ^meta.versionId = "4"
 * ^meta.lastUpdated = "2024-08-28T05:13:00.844+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2018-07-27T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee"

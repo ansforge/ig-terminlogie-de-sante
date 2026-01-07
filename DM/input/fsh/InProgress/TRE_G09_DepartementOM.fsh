@@ -6,6 +6,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * ^meta.versionId = "7"
 * ^meta.lastUpdated = "2025-07-02T18:11:41.601+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2015-12-30T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_G09-DepartementOM/FHIR/TRE-G09-DepartementOM"

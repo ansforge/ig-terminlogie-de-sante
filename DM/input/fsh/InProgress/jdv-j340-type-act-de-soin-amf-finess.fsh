@@ -7,6 +7,7 @@ Description: "Jeu de valeurs FINESS reprenant les types d'activité de soin AMF"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2025-06-03T18:02:28.249+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2025-06-03T18:02:28.249+00:00"
 * ^url = "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j340-type-act-de-soin-amf-finess"

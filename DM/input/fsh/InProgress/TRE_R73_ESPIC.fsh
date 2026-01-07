@@ -4,6 +4,7 @@ Description: "Etablissement de santé privé d'intérêt collectif"
 * ^meta.versionId = "5"
 * ^meta.lastUpdated = "2025-07-02T18:18:44.839+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2013-06-28T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R73-ESPIC/FHIR/TRE-R73-ESPIC"

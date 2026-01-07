@@ -7,6 +7,7 @@ Description: "Jeu de valeurs RASS contenant les codes actifs des publics des act
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2025-11-07T18:02:28.249+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2025-11-07T18:02:28.249+00:00"
 * ^url = "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j376-public-activite-smsse-regulee-rass"

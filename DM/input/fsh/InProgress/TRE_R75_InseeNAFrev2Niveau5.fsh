@@ -4,6 +4,7 @@ Description: "Sous-classes de la Nomenclature d'Activités Française - INSEE"
 * ^meta.versionId = "5"
 * ^meta.lastUpdated = "2025-12-22T18:19:13.165+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2015-12-21T00:00:00+01:00"
 * ^extension.valuePeriod.end = "2025-12-22T00:00:00+01:00"

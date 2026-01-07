@@ -7,6 +7,7 @@ Description: "Nomenclature des engagements associés dans FINESS+ aux Personnes 
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2025-07-16T16:01:18.884+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2025-07-16T12:00:00+01:00"
 * ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r395-engagement"

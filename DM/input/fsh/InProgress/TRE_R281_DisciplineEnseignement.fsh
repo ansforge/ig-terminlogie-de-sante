@@ -4,6 +4,7 @@ Description: "Disciplines pour l'enseignement"
 * ^meta.versionId = "5"
 * ^meta.lastUpdated = "2025-12-22T05:13:06.072+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2018-10-26T12:00:00+01:00"
 * ^extension.valuePeriod.end = "2025-12-22T12:00:00+01:00"

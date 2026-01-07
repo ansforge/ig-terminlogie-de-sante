@@ -7,6 +7,7 @@ Description: "Jeu de valeurs FINESS contenant les activités régulées pour le 
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2025-11-04T18:02:28.249+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2025-11-04T18:02:28.249+00:00"
 * ^url = "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j324-activite-sociale-regulee-niv1-finess"

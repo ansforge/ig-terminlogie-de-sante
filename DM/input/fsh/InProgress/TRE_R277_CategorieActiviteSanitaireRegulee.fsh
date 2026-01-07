@@ -4,6 +4,7 @@ Description: "Types d'activités autorisées"
 * ^meta.versionId = "5"
 * ^meta.lastUpdated = "2025-12-22T18:17:02.957+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2018-07-27T12:00:00+01:00"
 * ^extension.valuePeriod.end = "2025-12-22T12:00:00+01:00"

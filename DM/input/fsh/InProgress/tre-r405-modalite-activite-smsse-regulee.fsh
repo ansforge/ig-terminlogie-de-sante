@@ -7,6 +7,7 @@ Description: "Modalités des activités SSMSE régulées"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2025-11-05T18:17:01.194+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2018-07-27T12:00:00+01:00"
 * ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee"

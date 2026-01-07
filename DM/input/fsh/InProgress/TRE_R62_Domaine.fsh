@@ -4,6 +4,7 @@ Description: "Domaine"
 * ^meta.versionId = "4"
 * ^meta.lastUpdated = "2024-08-28T05:14:02.852+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2015-05-19T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine"

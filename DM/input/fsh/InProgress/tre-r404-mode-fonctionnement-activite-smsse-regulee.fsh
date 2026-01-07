@@ -7,6 +7,7 @@ Description: "Mode de fonctinonemment des activités ssmsse régulées"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2025-11-05T05:12:17.936+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2015-04-08T00:00:00+01:00"
 * ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"

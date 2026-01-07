@@ -5,6 +5,7 @@ Description: "Type de contrat conclu entre l’établissement/service et la pers
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2025-07-01T10:02:20.585+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2025-04-22T12:00:00+01:00"
 * ^identifier.system = "urn:ietf:rfc:3986"

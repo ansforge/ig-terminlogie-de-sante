@@ -7,6 +7,7 @@ Description: "Liste des activités sociales régulées organisée en 3 niveaux d
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2025-11-04T05:14:07.558+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "1979-01-01T00:00:00+01:00"
 * ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"

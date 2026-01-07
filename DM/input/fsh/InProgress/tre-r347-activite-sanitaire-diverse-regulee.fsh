@@ -7,6 +7,7 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2025-02-22T14:11:19.571+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "1979-01-01T00:00:00+01:00"
 * ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"

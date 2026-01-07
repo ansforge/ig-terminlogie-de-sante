@@ -6,6 +6,7 @@ Description: "Convention du domaine social FINESS"
 * ^meta.versionId = "3"
 * ^meta.lastUpdated = "2025-08-22T18:17:03.932+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2018-10-26T12:00:00+01:00"
 * ^extension.valuePeriod.end = "2025-08-22T12:00:00+01:00"

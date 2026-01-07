@@ -7,6 +7,7 @@ Description: "Liste des activités d'enseignement régulées organisée en 3 niv
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2025-11-04T05:14:07.558+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2025-11-04T12:00:00+01:00"
 * ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee"

@@ -4,6 +4,7 @@ Description: "Producteur de document non PS"
 * ^meta.versionId = "6"
 * ^meta.lastUpdated = "2025-07-02T18:11:13.126+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2010-11-04T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_A00-ProducteurDocNonPS/FHIR/TRE-A00-ProducteurDocNonPS"

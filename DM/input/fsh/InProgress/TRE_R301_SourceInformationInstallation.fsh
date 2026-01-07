@@ -4,6 +4,7 @@ Description: "Sources d'information possible concernant l'installation de l'acti
 * ^meta.versionId = "5"
 * ^meta.lastUpdated = "2025-12-22T18:17:23.676+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2020-07-31T12:00:00+01:00"
 * ^extension.valuePeriod.end = "2025-12-22T12:00:00+01:00"

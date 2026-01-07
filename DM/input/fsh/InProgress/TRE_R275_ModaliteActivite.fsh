@@ -4,6 +4,7 @@ Description: "Mode d'application ou type de soins encadrant une activité"
 * ^meta.versionId = "5"
 * ^meta.lastUpdated = "2025-07-02T18:17:01.194+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2018-07-27T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R275-ModaliteActivite/FHIR/TRE-R275-ModaliteActivite"

@@ -7,6 +7,7 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2025-12-22T18:12:58.721+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "1979-01-01T00:00:00+01:00"
 * ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice"

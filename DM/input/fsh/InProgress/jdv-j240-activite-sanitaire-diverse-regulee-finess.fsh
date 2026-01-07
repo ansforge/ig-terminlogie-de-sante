@@ -7,6 +7,7 @@ Description: "Jeu de valeurs FINESS contenant les activit√©s sanitaires, utilis√
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2025-07-10T18:02:28.249+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2025-07-10T18:02:28.249+00:00"
 * ^url = "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j240-activite-sanitaire-diverse-regulee-finess"
