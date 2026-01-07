@@ -34,6 +34,7 @@ Mode de fonctinonemment des activités ssmsse régulées
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
     ]
   },
+  "language" : "fr-FR",
   "extension" : [
     {
       "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",

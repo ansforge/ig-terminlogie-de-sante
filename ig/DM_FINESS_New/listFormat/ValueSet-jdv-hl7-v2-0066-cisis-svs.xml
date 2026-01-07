@@ -10,19 +10,37 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="1" codeSystem="" displayName="Employé à temps plein"/>
-         <concept code="2" codeSystem="" displayName="Employé à temps partiel"/>
-         <concept code="3" codeSystem="" displayName="Sans emploi"/>
-         <concept code="4" codeSystem="" displayName="Auto-entrepreuneur"/>
-         <concept code="5" codeSystem="" displayName="Retraité"/>
-         <concept code="6" codeSystem="" displayName="En service militaire actif"/>
-         <concept code="9" codeSystem="" displayName="Statut d'emploi inconnu"/>
-         <concept code="C" codeSystem="" displayName="Contrat journalier"/>
+         <concept code="1"
+                  codeSystem="2.16.840.1.113883.18.26"
+                  displayName="Employé à temps plein"/>
+         <concept code="2"
+                  codeSystem="2.16.840.1.113883.18.26"
+                  displayName="Employé à temps partiel"/>
+         <concept code="3"
+                  codeSystem="2.16.840.1.113883.18.26"
+                  displayName="Sans emploi"/>
+         <concept code="4"
+                  codeSystem="2.16.840.1.113883.18.26"
+                  displayName="Auto-entrepreuneur"/>
+         <concept code="5"
+                  codeSystem="2.16.840.1.113883.18.26"
+                  displayName="Retraité"/>
+         <concept code="6"
+                  codeSystem="2.16.840.1.113883.18.26"
+                  displayName="En service militaire actif"/>
+         <concept code="9"
+                  codeSystem="2.16.840.1.113883.18.26"
+                  displayName="Statut d'emploi inconnu"/>
+         <concept code="C"
+                  codeSystem="2.16.840.1.113883.18.26"
+                  displayName="Contrat journalier"/>
          <concept code="L"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.18.26"
                   displayName="Congé (par exemple, congé familial, congé sabbatique, etc.)"/>
-         <concept code="T" codeSystem="" displayName="Temporairement sans emploi"/>
-         <concept code="O" codeSystem="" displayName="Autre"/>
+         <concept code="T"
+                  codeSystem="2.16.840.1.113883.18.26"
+                  displayName="Temporairement sans emploi"/>
+         <concept code="O" codeSystem="2.16.840.1.113883.18.26" displayName="Autre"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

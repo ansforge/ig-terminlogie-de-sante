@@ -35,6 +35,7 @@ Activités sanitaires soumises à une régulation de la part de l’ARS
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
     ]
   },
+  "language" : "fr-FR",
   "extension" : [
     {
       "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",

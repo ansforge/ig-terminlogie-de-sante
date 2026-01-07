@@ -10,9 +10,15 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="unconfirmed" codeSystem="" displayName="Non confirmé"/>
-         <concept code="confirmed" codeSystem="" displayName="Confirmé"/>
-         <concept code="refuted" codeSystem="" displayName="Réfuté"/>
+         <concept code="unconfirmed"
+                  codeSystem="2.16.840.1.113883.4.642.1.1075"
+                  displayName="Non confirmé"/>
+         <concept code="confirmed"
+                  codeSystem="2.16.840.1.113883.4.642.1.1075"
+                  displayName="Confirmé"/>
+         <concept code="refuted"
+                  codeSystem="2.16.840.1.113883.4.642.1.1075"
+                  displayName="Réfuté"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

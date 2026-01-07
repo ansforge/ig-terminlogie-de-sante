@@ -34,6 +34,7 @@ Nomenclature des macro-etat des structures FINESS qui dérivent de l’état de 
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
     ]
   },
+  "language" : "fr-FR",
   "extension" : [
     {
       "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",

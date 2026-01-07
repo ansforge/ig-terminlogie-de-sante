@@ -39,10 +39,10 @@ Rôle dans la prise en charge des patients ou des usagers
   "resourceType" : "CodeSystem",
   "id" : "TRE-R85-RolePriseCharge",
   "meta" : {
-    "versionId" : "20",
-    "lastUpdated" : "2025-12-18T16:42:53.616+01:00",
+    "versionId" : "21",
+    "lastUpdated" : "2025-12-22T10:46:49.421+01:00",
     "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
   "extension" : [
@@ -72,7 +72,7 @@ Rôle dans la prise en charge des patients ou des usagers
       "coding" : [
         {
           "system" : "urn:iso:std:iso:3166",
-          "code" : "FR"
+          "code" : "FRA"
         }
       ]
     }

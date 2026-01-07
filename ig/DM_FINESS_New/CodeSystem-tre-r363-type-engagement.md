@@ -34,6 +34,7 @@ Nomenclature des grands types d’engagement pouvant être associés dans FINESS
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
     ]
   },
+  "language" : "fr-FR",
   "extension" : [
     {
       "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",

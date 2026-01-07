@@ -10,9 +10,15 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="ARQ" codeSystem="" displayName="Prévu mais non confirmé"/>
-         <concept code="EVN" codeSystem="" displayName="Réalisé"/>
-         <concept code="PRMS" codeSystem="" displayName="Planifié et confirmé"/>
+         <concept code="ARQ"
+                  codeSystem="2.16.840.1.113883.5.1001"
+                  displayName="Prévu mais non confirmé"/>
+         <concept code="EVN"
+                  codeSystem="2.16.840.1.113883.5.1001"
+                  displayName="Réalisé"/>
+         <concept code="PRMS"
+                  codeSystem="2.16.840.1.113883.5.1001"
+                  displayName="Planifié et confirmé"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

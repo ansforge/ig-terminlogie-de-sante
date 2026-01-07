@@ -34,6 +34,7 @@ Nomenclature des systemes d’information généralement déclarés pour défini
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
     ]
   },
+  "language" : "fr-FR",
   "extension" : [
     {
       "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",

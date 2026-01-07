@@ -28,10 +28,10 @@ Destination d’usage du lieu
   "resourceType" : "CodeSystem",
   "id" : "TRE-R343-FonctionLieu",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2025-12-18T16:42:48.871+01:00",
+    "versionId" : "9",
+    "lastUpdated" : "2025-12-22T10:46:44.572+01:00",
     "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
   "extension" : [
@@ -61,7 +61,7 @@ Destination d’usage du lieu
       "coding" : [
         {
           "system" : "urn:iso:std:iso:3166",
-          "code" : "FR"
+          "code" : "FRA"
         }
       ]
     }

@@ -25,10 +25,10 @@
   "resourceType" : "CodeSystem",
   "id" : "TRE-R16-LieuFormation",
   "meta" : {
-    "versionId" : "13",
-    "lastUpdated" : "2025-12-18T16:42:39.557+01:00",
+    "versionId" : "14",
+    "lastUpdated" : "2025-12-22T10:46:33.897+01:00",
     "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ],
     "tag" : [
       {

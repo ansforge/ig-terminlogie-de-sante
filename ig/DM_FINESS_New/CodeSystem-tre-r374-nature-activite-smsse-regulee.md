@@ -34,6 +34,7 @@ Nomenclature des grandes natures d’activité SMSSE exercées par les entités 
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
     ]
   },
+  "language" : "fr-FR",
   "extension" : [
     {
       "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",

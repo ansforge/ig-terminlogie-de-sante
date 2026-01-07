@@ -30,10 +30,10 @@ Motif de fin d’activité
   "resourceType" : "CodeSystem",
   "id" : "TRE-R25-MotifFinActivite",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-12-18T16:42:48.416+01:00",
+    "versionId" : "7",
+    "lastUpdated" : "2025-12-22T10:46:43.702+01:00",
     "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
   "extension" : [
@@ -63,7 +63,7 @@ Motif de fin d’activité
       "coding" : [
         {
           "system" : "urn:iso:std:iso:3166",
-          "code" : "FR"
+          "code" : "FRA"
         }
       ]
     }

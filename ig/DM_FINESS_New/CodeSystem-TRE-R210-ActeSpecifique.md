@@ -26,10 +26,10 @@
   "resourceType" : "CodeSystem",
   "id" : "TRE-R210-ActeSpecifique",
   "meta" : {
-    "versionId" : "28",
-    "lastUpdated" : "2025-12-18T18:12:37.082+01:00",
+    "versionId" : "29",
+    "lastUpdated" : "2025-12-22T10:46:38.800+01:00",
     "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ],
     "tag" : [
       {

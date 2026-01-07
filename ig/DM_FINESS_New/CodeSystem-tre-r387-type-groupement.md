@@ -34,6 +34,7 @@ Nomenclature des types de groupement utilisables dans FINESS. Groupement de coop
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
     ]
   },
+  "language" : "fr-FR",
   "extension" : [
     {
       "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",

@@ -10,16 +10,34 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="APT" codeSystem="" displayName="Date et lieu confirmé"/>
-         <concept code="ARQ" codeSystem="" displayName="Prévu mais non confirmé"/>
-         <concept code="DEF" codeSystem="" displayName="Définition"/>
-         <concept code="EVN" codeSystem="" displayName="Réalisé"/>
-         <concept code="GOL" codeSystem="" displayName="But"/>
-         <concept code="INT" codeSystem="" displayName="Prévu"/>
-         <concept code="PRMS" codeSystem="" displayName="Planifié et confirmé"/>
-         <concept code="PRP" codeSystem="" displayName="Proposition"/>
-         <concept code="RQO" codeSystem="" displayName="Demande"/>
-         <concept code="RSK" codeSystem="" displayName="Risque"/>
+         <concept code="APT"
+                  codeSystem="2.16.840.1.113883.5.1001"
+                  displayName="Date et lieu confirmé"/>
+         <concept code="ARQ"
+                  codeSystem="2.16.840.1.113883.5.1001"
+                  displayName="Prévu mais non confirmé"/>
+         <concept code="DEF"
+                  codeSystem="2.16.840.1.113883.5.1001"
+                  displayName="Définition"/>
+         <concept code="EVN"
+                  codeSystem="2.16.840.1.113883.5.1001"
+                  displayName="Réalisé"/>
+         <concept code="GOL" codeSystem="2.16.840.1.113883.5.1001" displayName="But"/>
+         <concept code="INT"
+                  codeSystem="2.16.840.1.113883.5.1001"
+                  displayName="Prévu"/>
+         <concept code="PRMS"
+                  codeSystem="2.16.840.1.113883.5.1001"
+                  displayName="Planifié et confirmé"/>
+         <concept code="PRP"
+                  codeSystem="2.16.840.1.113883.5.1001"
+                  displayName="Proposition"/>
+         <concept code="RQO"
+                  codeSystem="2.16.840.1.113883.5.1001"
+                  displayName="Demande"/>
+         <concept code="RSK"
+                  codeSystem="2.16.840.1.113883.5.1001"
+                  displayName="Risque"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

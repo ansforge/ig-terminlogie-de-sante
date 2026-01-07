@@ -34,6 +34,7 @@ Nomenclature des types d’objets du MOS. Remarque : Cette nomenclature est init
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
     ]
   },
+  "language" : "fr-FR",
   "extension" : [
     {
       "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",

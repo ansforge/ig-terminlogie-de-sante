@@ -59,6 +59,7 @@ Requête sur le SMT
     "lastUpdated" : "2025-06-11T18:02:28.249+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
+  "language" : "fr-FR",
   "extension" : [
     {
       "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",

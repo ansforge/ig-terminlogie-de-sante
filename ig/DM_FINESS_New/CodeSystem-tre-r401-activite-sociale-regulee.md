@@ -38,6 +38,7 @@ Liste des activités sociales régulées organisée en 3 niveaux d’agrégation
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
     ]
   },
+  "language" : "fr-FR",
   "extension" : [
     {
       "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",

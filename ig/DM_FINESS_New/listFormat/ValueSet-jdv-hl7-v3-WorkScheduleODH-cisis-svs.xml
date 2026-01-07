@@ -11,27 +11,31 @@
              urlFichier="">
       <ConceptList>
          <concept code="DS"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.5.1063"
                   displayName="Journée (par exemple : entre 6h et 18h)"/>
-         <concept code="EMS" codeSystem="" displayName="Matin (entre 2h et 14h)"/>
+         <concept code="EMS"
+                  codeSystem="2.16.840.1.113883.5.1063"
+                  displayName="Matin (entre 2h et 14h)"/>
          <concept code="ES"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.5.1063"
                   displayName="Après-midi (entre 14h et minuit)"/>
-         <concept code="NS" codeSystem="" displayName="Nuit (entre 21h et 8h)"/>
+         <concept code="NS"
+                  codeSystem="2.16.840.1.113883.5.1063"
+                  displayName="Nuit (entre 21h et 8h)"/>
          <concept code="RSWN"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.5.1063"
                   displayName="Variable (journées, soirées, avec parfois des nuits)"/>
          <concept code="RSWON"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.5.1063"
                   displayName="Variable (journées, soirées, sans nuits ni soirées)"/>
          <concept code="SS"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.5.1063"
                   displayName="Journée avec coupure de 2 à 4 heures."/>
          <concept code="VLS"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.5.1063"
                   displayName="Horaires de longue durée (17h ou plus)"/>
          <concept code="VS"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.5.1063"
                   displayName="Irrégulier avec information à court terme"/>
       </ConceptList>
    </ValueSet>

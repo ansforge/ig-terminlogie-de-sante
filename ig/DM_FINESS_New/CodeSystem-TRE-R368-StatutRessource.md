@@ -28,10 +28,10 @@ Caractérise le statut d’une ressource du médico-social au cours de son cycle
   "resourceType" : "CodeSystem",
   "id" : "TRE-R368-StatutRessource",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2025-12-18T16:42:50.291+01:00",
+    "versionId" : "8",
+    "lastUpdated" : "2025-12-22T10:46:46.316+01:00",
     "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
   "extension" : [
@@ -61,7 +61,7 @@ Caractérise le statut d’une ressource du médico-social au cours de son cycle
       "coding" : [
         {
           "system" : "urn:iso:std:iso:3166",
-          "code" : "FR"
+          "code" : "FRA"
         }
       ]
     }

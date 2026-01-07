@@ -53,15 +53,15 @@ Vous trouverez ici la liste des terminologies au format FHIR publiée par le SMT
 | [TreR405ModaliteActiviteSmsseRegulee](CodeSystem-tre-r405-modalite-activite-smsse-regulee.md) | Modalités des activités SSMSE régulées | 05/11/2025 |
 | [TreR406FormeActiviteSmsseRegulee](CodeSystem-tre-r406-forme-activite-smsse-regulee.md) | Formes des activites smsse régulées | 05/11/2025 |
 | [ATC](CodeSystem-terminologie-atc.md) |  | 10/03/2025 |
-| [BDPM](CodeSystem-terminologie-bdpm.md) |  | 03/12/2025 |
-| [CCAM](CodeSystem-terminologie-ccam.md) |  | 05/11/2025 |
-| [CIM11_MMS](CodeSystem-terminologie-cim11-mms.md) |  | 20/12/2025 |
+| [BDPM](CodeSystem-terminologie-bdpm.md) |  | 06/01/2026 |
+| [CCAM](CodeSystem-terminologie-ccam.md) |  | 01/01/2026 |
+| [CIM11_MMS](CodeSystem-terminologie-cim11-mms.md) |  | 07/01/2026 |
 | [CIM_10_FR_PMSI](CodeSystem-terminologie-cim-10.md) |  | 20/12/2024 |
 | [CISP_2](CodeSystem-terminologie-cisp.md) |  | 26/06/2019 |
 | [Dictionnaire_SMS_Substance_Management_Services_](CodeSystem-terminologie-sms.md) |  | 03/12/2025 |
 | [EMDN](CodeSystem-terminologie-emdn.md) |  | 28/04/2022 |
-| [LAHN](CodeSystem-terminologie-lahn.md) | La liste des actes innovants hors nomenclature (LAHN) a été mise en place par la direction générale de l’offre de soins (DGOS) en 2024, dans le cadre du développement de l’innovation en santé. Elle est la fusion du RIHN et de la Liste Complémentaire (LC). L’objectif est de soutenir l’innovation et de la dynamiser par une prise en charge et une évaluation rapide des actes innovants. La LAHN contient une liste d’actes innovants (biologie et anatomocytopathologie) pris en charge à titre transitoire moyennant un recueil de données pour leur évaluation. | 20/12/2025 |
-| [NABM](CodeSystem-terminologie-nabm.md) |  | 08/09/2025 |
+| [LAHN](CodeSystem-terminologie-lahn.md) | La liste des actes innovants hors nomenclature (LAHN) a été mise en place par la direction générale de l’offre de soins (DGOS) en 2024, dans le cadre du développement de l’innovation en santé. Elle est la fusion du RIHN et de la Liste Complémentaire (LC). L’objectif est de soutenir l’innovation et de la dynamiser par une prise en charge et une évaluation rapide des actes innovants. La LAHN contient une liste d’actes innovants (biologie et anatomocytopathologie) pris en charge à titre transitoire moyennant un recueil de données pour leur évaluation. | 07/01/2026 |
+| [NABM](CodeSystem-terminologie-nabm.md) |  | 18/12/2025 |
 | [NUVA](CodeSystem-terminologie-nuva.md) |  | 26/11/2025 |
 | [SERAFIN_PH](CodeSystem-terminologie-SERAFINPH.md) | Les nomenclatures des besoins et des prestations ont été élaborées par un groupe de travail issu du projet SERAFIN-PH porté par la Caisse nationale de Solidarité pour l’Autonomie (CNSA) et la Direction Générale de la Cohésion Sociale (DGCS). Elles permettent de décrire, sur la base d’un langage commun, les besoins identifiés des personnes, et les prestations réalisées en réponse à ces besoins. Les usages locaux de ces nomenclatures montrent leur pertinence pour nouer autour des projets personnalisés d’accompagnement et de leurs déclinaisons opérationnelles un dialogue soutenu et permanent entre tous les acteurs concernés, de la personne accompagnée aux structures médico-sociales, acteurs de droit commun et jusqu’aux institutions de régulation (ARS, services déconcentrés et collectivités locales). | 31/12/2022 |
 | [SNOMED_CT](CodeSystem-11000315107-20250621.md) | SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO). | 21/06/2025 |

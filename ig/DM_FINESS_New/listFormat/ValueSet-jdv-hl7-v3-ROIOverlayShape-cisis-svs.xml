@@ -10,10 +10,14 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="CIRCLE" codeSystem="" displayName="Cercle"/>
-         <concept code="ELLIPSE" codeSystem="" displayName="Elipse"/>
-         <concept code="POINT" codeSystem="" displayName="Point"/>
-         <concept code="POLY" codeSystem="" displayName="Multi"/>
+         <concept code="CIRCLE"
+                  codeSystem="2.16.840.1.113883.5.4"
+                  displayName="Cercle"/>
+         <concept code="ELLIPSE"
+                  codeSystem="2.16.840.1.113883.5.4"
+                  displayName="Elipse"/>
+         <concept code="POINT" codeSystem="2.16.840.1.113883.5.4" displayName="Point"/>
+         <concept code="POLY" codeSystem="2.16.840.1.113883.5.4" displayName="Multi"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

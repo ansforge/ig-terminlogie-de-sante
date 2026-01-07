@@ -11,13 +11,17 @@
              urlFichier="">
       <ConceptList>
          <concept code="ADMPHYS"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.5.88"
                   displayName="Responsable de l'admission"/>
          <concept code="ATTPHYS"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.5.88"
                   displayName="Référent - Responsable du patient dans la structure de soins"/>
-         <concept code="DISPHYS" codeSystem="" displayName="Responsable de la sortie"/>
-         <concept code="PCP" codeSystem="" displayName="Médecin traitant"/>
+         <concept code="DISPHYS"
+                  codeSystem="2.16.840.1.113883.5.88"
+                  displayName="Responsable de la sortie"/>
+         <concept code="PCP"
+                  codeSystem="2.16.840.1.113883.5.88"
+                  displayName="Médecin traitant"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

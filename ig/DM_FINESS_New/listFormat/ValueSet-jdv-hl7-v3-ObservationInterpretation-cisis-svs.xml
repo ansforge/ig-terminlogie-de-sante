@@ -11,56 +11,114 @@
              urlFichier="">
       <ConceptList>
          <concept code="&lt;"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.5.83"
                   displayName="Inférieur à la limite de détection"/>
          <concept code="&gt;"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.5.83"
                   displayName="Supérieur à la limite maximale de mesure"/>
-         <concept code="A" codeSystem="" displayName="Anormal"/>
-         <concept code="AA" codeSystem="" displayName="Très anormal, alerte"/>
-         <concept code="B" codeSystem="" displayName="Amélioration"/>
+         <concept code="A" codeSystem="2.16.840.1.113883.5.83" displayName="Anormal"/>
+         <concept code="AA"
+                  codeSystem="2.16.840.1.113883.5.83"
+                  displayName="Très anormal, alerte"/>
+         <concept code="B"
+                  codeSystem="2.16.840.1.113883.5.83"
+                  displayName="Amélioration"/>
          <concept code="CAR"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.5.83"
                   displayName="Porteur d'une forme altérée d'un gène"/>
          <concept code="D"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.5.83"
                   displayName="Diminution significative par rapport au résultat antérieur"/>
-         <concept code="DET" codeSystem="" displayName="Détecté"/>
-         <concept code="E" codeSystem="" displayName="Équivoque"/>
-         <concept code="EX" codeSystem="" displayName="Hors seuils"/>
-         <concept code="EXP" codeSystem="" displayName="Attendu"/>
-         <concept code="H" codeSystem="" displayName="Anormalement haut"/>
+         <concept code="DET"
+                  codeSystem="2.16.840.1.113883.5.83"
+                  displayName="Détecté"/>
+         <concept code="E"
+                  codeSystem="2.16.840.1.113883.5.83"
+                  displayName="Équivoque"/>
+         <concept code="EX"
+                  codeSystem="2.16.840.1.113883.5.83"
+                  displayName="Hors seuils"/>
+         <concept code="EXP"
+                  codeSystem="2.16.840.1.113883.5.83"
+                  displayName="Attendu"/>
+         <concept code="H"
+                  codeSystem="2.16.840.1.113883.5.83"
+                  displayName="Anormalement haut"/>
          <concept code="HH"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.5.83"
                   displayName="Très anormalement haut, alerte"/>
-         <concept code="HU" codeSystem="" displayName="Significativement haut"/>
-         <concept code="HX" codeSystem="" displayName="Hors seuil supérieur"/>
-         <concept code="I" codeSystem="" displayName="Intermédiaire"/>
-         <concept code="IE" codeSystem="" displayName="Preuves insuffisantes"/>
-         <concept code="IND" codeSystem="" displayName="Indéterminé"/>
-         <concept code="L" codeSystem="" displayName="Anormalement bas"/>
-         <concept code="LL" codeSystem="" displayName="Très anormalement bas, alerte"/>
-         <concept code="LU" codeSystem="" displayName="Significativement bas"/>
-         <concept code="LX" codeSystem="" displayName="Hors seuil inférieur"/>
-         <concept code="N" codeSystem="" displayName="Normal"/>
-         <concept code="NCL" codeSystem="" displayName="Pas de standard défini"/>
-         <concept code="ND" codeSystem="" displayName="Non détecté"/>
-         <concept code="NEG" codeSystem="" displayName="Négatif"/>
-         <concept code="NR" codeSystem="" displayName="Non réactif"/>
-         <concept code="NS" codeSystem="" displayName="Non sensible"/>
-         <concept code="POS" codeSystem="" displayName="Positif"/>
-         <concept code="R" codeSystem="" displayName="Résistant"/>
-         <concept code="RR" codeSystem="" displayName="Réactif"/>
-         <concept code="S" codeSystem="" displayName="Sensible"/>
-         <concept code="SDD" codeSystem="" displayName="Sensible à forte dose"/>
-         <concept code="SYN-R" codeSystem="" displayName="Synergie - résistant"/>
-         <concept code="SYN-S" codeSystem="" displayName="Synergie - sensible"/>
+         <concept code="HU"
+                  codeSystem="2.16.840.1.113883.5.83"
+                  displayName="Significativement haut"/>
+         <concept code="HX"
+                  codeSystem="2.16.840.1.113883.5.83"
+                  displayName="Hors seuil supérieur"/>
+         <concept code="I"
+                  codeSystem="2.16.840.1.113883.5.83"
+                  displayName="Intermédiaire"/>
+         <concept code="IE"
+                  codeSystem="2.16.840.1.113883.5.83"
+                  displayName="Preuves insuffisantes"/>
+         <concept code="IND"
+                  codeSystem="2.16.840.1.113883.5.83"
+                  displayName="Indéterminé"/>
+         <concept code="L"
+                  codeSystem="2.16.840.1.113883.5.83"
+                  displayName="Anormalement bas"/>
+         <concept code="LL"
+                  codeSystem="2.16.840.1.113883.5.83"
+                  displayName="Très anormalement bas, alerte"/>
+         <concept code="LU"
+                  codeSystem="2.16.840.1.113883.5.83"
+                  displayName="Significativement bas"/>
+         <concept code="LX"
+                  codeSystem="2.16.840.1.113883.5.83"
+                  displayName="Hors seuil inférieur"/>
+         <concept code="N" codeSystem="2.16.840.1.113883.5.83" displayName="Normal"/>
+         <concept code="NCL"
+                  codeSystem="2.16.840.1.113883.5.83"
+                  displayName="Pas de standard défini"/>
+         <concept code="ND"
+                  codeSystem="2.16.840.1.113883.5.83"
+                  displayName="Non détecté"/>
+         <concept code="NEG"
+                  codeSystem="2.16.840.1.113883.5.83"
+                  displayName="Négatif"/>
+         <concept code="NR"
+                  codeSystem="2.16.840.1.113883.5.83"
+                  displayName="Non réactif"/>
+         <concept code="NS"
+                  codeSystem="2.16.840.1.113883.5.83"
+                  displayName="Non sensible"/>
+         <concept code="POS"
+                  codeSystem="2.16.840.1.113883.5.83"
+                  displayName="Positif"/>
+         <concept code="R"
+                  codeSystem="2.16.840.1.113883.5.83"
+                  displayName="Résistant"/>
+         <concept code="RR" codeSystem="2.16.840.1.113883.5.83" displayName="Réactif"/>
+         <concept code="S" codeSystem="2.16.840.1.113883.5.83" displayName="Sensible"/>
+         <concept code="SDD"
+                  codeSystem="2.16.840.1.113883.5.83"
+                  displayName="Sensible à forte dose"/>
+         <concept code="SYN-R"
+                  codeSystem="2.16.840.1.113883.5.83"
+                  displayName="Synergie - résistant"/>
+         <concept code="SYN-S"
+                  codeSystem="2.16.840.1.113883.5.83"
+                  displayName="Synergie - sensible"/>
          <concept code="U"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.5.83"
                   displayName="Augmentation significative par rapport au résultat antérieur"/>
-         <concept code="UNE" codeSystem="" displayName="Inattendu"/>
-         <concept code="W" codeSystem="" displayName="Dégradation"/>
-         <concept code="WR" codeSystem="" displayName="Faiblement réactif"/>
+         <concept code="UNE"
+                  codeSystem="2.16.840.1.113883.5.83"
+                  displayName="Inattendu"/>
+         <concept code="W"
+                  codeSystem="2.16.840.1.113883.5.83"
+                  displayName="Dégradation"/>
+         <concept code="WR"
+                  codeSystem="2.16.840.1.113883.5.83"
+                  displayName="Faiblement réactif"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

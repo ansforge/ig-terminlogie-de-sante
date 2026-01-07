@@ -37,6 +37,7 @@ Nomenclature des engagements associés dans FINESS+ aux Personnes morales, aux e
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
     ]
   },
+  "language" : "fr-FR",
   "extension" : [
     {
       "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",

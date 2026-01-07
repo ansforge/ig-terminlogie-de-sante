@@ -37,6 +37,7 @@ Liste des activités d’enseignement régulées organisée en 3 niveaux d’agr
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
     ]
   },
+  "language" : "fr-FR",
   "extension" : [
     {
       "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",

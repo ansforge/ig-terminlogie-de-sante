@@ -10,11 +10,21 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="application/pdf" codeSystem="" displayName="PDF"/>
-         <concept code="text/plain" codeSystem="" displayName="Plain Text"/>
-         <concept code="text/rtf" codeSystem="" displayName="RTF Text"/>
-         <concept code="image/jpeg" codeSystem="" displayName="JPEG Image"/>
-         <concept code="image/tiff" codeSystem="" displayName="TIFF Image"/>
+         <concept code="application/pdf"
+                  codeSystem="2.16.840.1.113883.5.79"
+                  displayName="PDF"/>
+         <concept code="text/plain"
+                  codeSystem="2.16.840.1.113883.5.79"
+                  displayName="Plain Text"/>
+         <concept code="text/rtf"
+                  codeSystem="2.16.840.1.113883.5.79"
+                  displayName="RTF Text"/>
+         <concept code="image/jpeg"
+                  codeSystem="2.16.840.1.113883.5.79"
+                  displayName="JPEG Image"/>
+         <concept code="image/tiff"
+                  codeSystem="2.16.840.1.113883.5.79"
+                  displayName="TIFF Image"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

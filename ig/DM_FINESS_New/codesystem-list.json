@@ -2665,7 +2665,7 @@
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-bdpm",
-      "version" : "2025-12-03",
+      "version" : "2026-01-06",
       "status" : "active",
       "name" : "BDPM",
       "title" : "Base de données publique du médicament",
@@ -2673,7 +2673,7 @@
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-ccam",
-      "version" : "v80.00",
+      "version" : "v81.00",
       "status" : "active",
       "name" : "CCAM",
       "title" : "Classification Commune des Actes Médicaux",
@@ -2727,7 +2727,7 @@
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-nabm",
-      "version" : "V99",
+      "version" : "V100",
       "status" : "active",
       "name" : "NABM",
       "title" : "Nomenclature des actes de biologie médicale",

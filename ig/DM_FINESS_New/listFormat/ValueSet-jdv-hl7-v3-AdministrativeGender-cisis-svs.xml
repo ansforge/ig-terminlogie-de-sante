@@ -10,9 +10,9 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="F" codeSystem="" displayName="Féminin"/>
-         <concept code="M" codeSystem="" displayName="Masculin"/>
-         <concept code="UN" codeSystem="" displayName="Inconnu"/>
+         <concept code="F" codeSystem="2.16.840.1.113883.5.1" displayName="Féminin"/>
+         <concept code="M" codeSystem="2.16.840.1.113883.5.1" displayName="Masculin"/>
+         <concept code="UN" codeSystem="2.16.840.1.113883.5.1" displayName="Inconnu"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

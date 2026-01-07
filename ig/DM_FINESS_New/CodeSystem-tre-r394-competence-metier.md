@@ -34,6 +34,7 @@ Type de savoir-faire opérationnel, transversal ou spécifique, acquis et exerc�
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
     ]
   },
+  "language" : "fr-FR",
   "extension" : [
     {
       "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",

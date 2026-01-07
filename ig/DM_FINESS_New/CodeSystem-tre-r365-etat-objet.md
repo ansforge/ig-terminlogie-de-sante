@@ -34,6 +34,7 @@ Nomenclature des états élémentaires d’un objet du MOS organisés en etat ac
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
     ]
   },
+  "language" : "fr-FR",
   "extension" : [
     {
       "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",

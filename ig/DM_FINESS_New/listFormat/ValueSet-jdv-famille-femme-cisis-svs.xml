@@ -10,9 +10,11 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="DAU" codeSystem="" displayName="Fille biologique"/>
-         <concept code="MTH" codeSystem="" displayName="Mère"/>
-         <concept code="SIS" codeSystem="" displayName="Sœur"/>
+         <concept code="DAU"
+                  codeSystem="2.16.840.1.113883.5.111"
+                  displayName="Fille biologique"/>
+         <concept code="MTH" codeSystem="2.16.840.1.113883.5.111" displayName="Mère"/>
+         <concept code="SIS" codeSystem="2.16.840.1.113883.5.111" displayName="Sœur"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -37,6 +37,7 @@ Liste des publics des activités régulées organisée en 2 niveaux d’agrégat
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
     ]
   },
+  "language" : "fr-FR",
   "extension" : [
     {
       "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",

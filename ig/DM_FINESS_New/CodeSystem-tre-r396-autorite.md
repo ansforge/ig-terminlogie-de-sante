@@ -41,6 +41,7 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
     ]
   },
+  "language" : "fr-FR",
   "extension" : [
     {
       "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",

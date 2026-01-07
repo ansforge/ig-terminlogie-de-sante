@@ -9,7 +9,7 @@
 | | | |
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/terminologie-cip_ucd?vs | *Version*:20241114120000 | |
-| Active as of 2025-12-20 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ValueSet_CIPUCD_All |
+| Active as of 2026-01-07 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ValueSet_CIPUCD_All |
 
  
 Ce jeu de valeurs inclut tous les codes concepts de la terminologie CIP-UCD 
@@ -65,7 +65,7 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "name" : "ValueSet_CIPUCD_All",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-20T13:25:39+00:00",
+  "date" : "2026-01-07T09:16:12+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Ce jeu de valeurs inclut tous les codes concepts de la terminologie CIP-UCD",
   "compose" : {

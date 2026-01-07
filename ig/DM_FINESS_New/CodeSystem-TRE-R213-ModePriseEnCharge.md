@@ -32,10 +32,10 @@ Mode de la prise en charge
   "resourceType" : "CodeSystem",
   "id" : "TRE-R213-ModePriseEnCharge",
   "meta" : {
-    "versionId" : "10",
-    "lastUpdated" : "2025-12-18T16:42:45.870+01:00",
+    "versionId" : "11",
+    "lastUpdated" : "2025-12-22T10:46:42.186+01:00",
     "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
   "extension" : [
@@ -65,7 +65,7 @@ Mode de la prise en charge
       "coding" : [
         {
           "system" : "urn:iso:std:iso:3166",
-          "code" : "FR"
+          "code" : "FRA"
         }
       ]
     }

@@ -11,25 +11,31 @@
              urlFichier="">
       <ConceptList>
          <concept code="AMB"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.5.4"
                   displayName="Ambulatoire (hors établissement)"/>
          <concept code="EMER"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.5.4"
                   displayName="Passage aux urgences (établissement)"/>
          <concept code="FLD"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.5.4"
                   displayName="Terrain (voie publique, hélicoptère, ambulance, etc.)"/>
          <concept code="HH"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.5.4"
                   displayName="Soins à domicile (hors établissement)"/>
          <concept code="IMP"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.5.4"
                   displayName="Hospitalisation (établissement, y compris HAD)"/>
-         <concept code="OBSENC" codeSystem="" displayName="Observation"/>
-         <concept code="PRENC" codeSystem="" displayName="Pré-admission"/>
-         <concept code="SS" codeSystem="" displayName="Hospitalisation de jour"/>
+         <concept code="OBSENC"
+                  codeSystem="2.16.840.1.113883.5.4"
+                  displayName="Observation"/>
+         <concept code="PRENC"
+                  codeSystem="2.16.840.1.113883.5.4"
+                  displayName="Pré-admission"/>
+         <concept code="SS"
+                  codeSystem="2.16.840.1.113883.5.4"
+                  displayName="Hospitalisation de jour"/>
          <concept code="VR"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.5.4"
                   displayName="Virtuelle (exemple : RCP en l'absence du patient)"/>
       </ConceptList>
    </ValueSet>

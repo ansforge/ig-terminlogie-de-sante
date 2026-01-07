@@ -38,6 +38,7 @@ Référentiel des codes régions et collectivités d’outre-mer provenant du CO
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
     ]
   },
+  "language" : "fr-FR",
   "extension" : [
     {
       "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
