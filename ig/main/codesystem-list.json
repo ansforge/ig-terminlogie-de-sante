@@ -11,15 +11,6 @@
     },
     {
       "url" : "http://snomed.info/sct",
-      "version" : "http://snomed.info/sct/900000000000207008/version/20251201",
-      "status" : "active",
-      "name" : "SNOMED_CT",
-      "title" : "SNOMED CT core",
-      "description" : "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
-      "oids" : ["2.16.840.1.113883.6.96"]
-    },
-    {
-      "url" : "http://snomed.info/sct",
       "version" : "http://snomed.info/sct/900000000000207008/version/20260101",
       "status" : "active",
       "name" : "SNOMED_CT",
@@ -2542,7 +2533,7 @@
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-bdpm",
-      "version" : "2025-12-03",
+      "version" : "2026-01-06",
       "status" : "active",
       "name" : "BDPM",
       "title" : "Base de données publique du médicament",
@@ -2604,7 +2595,7 @@
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-nabm",
-      "version" : "V99",
+      "version" : "V100",
       "status" : "active",
       "name" : "NABM",
       "title" : "Nomenclature des actes de biologie médicale",

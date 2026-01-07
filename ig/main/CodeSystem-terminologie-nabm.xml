@@ -3,8 +3,8 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="terminologie-nabm"/>
   <meta>
-    <versionId value="11"/>
-    <lastUpdated value="2025-09-08T12:56:27.297+02:00"/>
+    <versionId value="12"/>
+    <lastUpdated value="2026-01-06T16:31:33.167+01:00"/>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"/>
   </meta>
   <text>
@@ -21,12 +21,12 @@
     <system value="https://smt.esante.gouv.fr/"/>
     <value value="terminologie-nabm"/>
   </identifier>
-  <version value="V99"/>
+  <version value="V100"/>
   <name value="NABM"/>
   <title value="Nomenclature des actes de biologie médicale"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2025-09-08T00:00:00+00:00"/>
+  <date value="2025-12-18T00:00:00+00:00"/>
   <publisher value="Agence du numérique en santé"/>
   <description value="La NABM est la terminologie de facturation des actes de biologie médicale. Elle décrit la liste des actes de biologie dans une arborescence en chapitres et sous-chapitres ainsi que des règles de facturation."/>
   <jurisdiction>
@@ -38,7 +38,7 @@
   <copyright value="[LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md)"/>
   <valueSet value="https://smt.esante.gouv.fr/terminologie-nabm?vs"/>
   <content value="complete"/>
-  <count value="1050"/>
+  <count value="1047"/>
   <filter>
     <code value="root"/>
     <operator value="="/>
@@ -5082,7 +5082,7 @@
   </concept>
   <concept>
     <code value="0024"/>
-    <display value="HPV:DETECTION DU GENOME DES PAPILLOMAVIRUS ONCOGENES-DEPISTAGE INDIVIDUEL"/>
+    <display value="DETECTION DES ACIDES NUCLEIQUES DES HPV ONCOGENES DI"/>
     <property>
       <code value="parent"/>
       <valueCode value="01"/>
@@ -5093,7 +5093,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="01/04/2020"/>
+      <valueString value="30/12/2025"/>
     </property>
     <property>
       <code value="type"/>
@@ -5126,6 +5126,14 @@
     <property>
       <code value="coeffB"/>
       <valueString value="100"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="0031"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="4509"/>
     </property>
     <property>
       <code value="codeIncompatible"/>
@@ -9854,10 +9862,6 @@
     <property>
       <code value="child"/>
       <valueCode value="8000"/>
-    </property>
-    <property>
-      <code value="child"/>
-      <valueCode value="9006"/>
     </property>
     <property>
       <code value="child"/>
@@ -27869,7 +27873,7 @@
   </concept>
   <concept>
     <code value="4509"/>
-    <display value="PAPILLOMAVIRUS HUMAINS A HAUTS RISQUES (HPV) GENOME VIRAL - DEPISTAGE ORGANISE"/>
+    <display value="DETECTION DES ACIDES NUCLEIQUES DES HPV ONCOGENES DO"/>
     <property>
       <code value="parent"/>
       <valueCode value="19"/>
@@ -27880,7 +27884,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="01/04/2020"/>
+      <valueString value="30/12/2025"/>
     </property>
     <property>
       <code value="type"/>
@@ -27913,6 +27917,18 @@
     <property>
       <code value="coeffB"/>
       <valueString value="100"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="0031"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="0024"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="4127"/>
     </property>
     <property>
       <code value="acteReserve"/>
@@ -28101,7 +28117,7 @@
   </concept>
   <concept>
     <code value="4720"/>
-    <display value="RECHERCHE D'IGG PAR TESTS AUTOMATISABLES DE TYPE ELISA"/>
+    <display value="RECHERCHE D'IGG PAR TESTS AUTOMATISABLES DE TYPE ELISA (SARS-COV2)"/>
     <property>
       <code value="parent"/>
       <valueCode value="07-06"/>
@@ -28112,7 +28128,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="01/03/2023"/>
+      <valueString value="30/12/2025"/>
     </property>
     <property>
       <code value="type"/>
@@ -28473,62 +28489,6 @@
     <property>
       <code value="acteReserve"/>
       <valueBoolean value="false"/>
-    </property>
-    <property>
-      <code value="rmo"/>
-      <valueBoolean value="false"/>
-    </property>
-    <property>
-      <code value="examenSanguin"/>
-      <valueBoolean value="false"/>
-    </property>
-  </concept>
-  <concept>
-    <code value="9007"/>
-    <display value="FORFAIT SEQUENCAGE"/>
-    <property>
-      <code value="parent"/>
-      <valueCode value="19"/>
-    </property>
-    <property>
-      <code value="created"/>
-      <valueString value="08/02/2021"/>
-    </property>
-    <property>
-      <code value="modified"/>
-      <valueString value="23/06/2022"/>
-    </property>
-    <property>
-      <code value="type"/>
-      <valueString value="code"/>
-    </property>
-    <property>
-      <code value="initativeBiologistePossible"/>
-      <valueBoolean value="false"/>
-    </property>
-    <property>
-      <code value="indicationMédicale"/>
-      <valueBoolean value="true"/>
-    </property>
-    <property>
-      <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
-    </property>
-    <property>
-      <code value="ententePréalable"/>
-      <valueBoolean value="false"/>
-    </property>
-    <property>
-      <code value="aPourContingenceTechnique"/>
-      <valueCode value="CONTINGENCE_4"/>
-    </property>
-    <property>
-      <code value="coeffB"/>
-      <valueString value="500"/>
-    </property>
-    <property>
-      <code value="acteReserve"/>
-      <valueBoolean value="true"/>
     </property>
     <property>
       <code value="rmo"/>
@@ -29228,7 +29188,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="30/05/2025"/>
+      <valueString value="30/12/2025"/>
     </property>
     <property>
       <code value="type"/>
@@ -29545,58 +29505,6 @@
     <property>
       <code value="codeIncompatible"/>
       <valueCode value="0672"/>
-    </property>
-    <property>
-      <code value="acteReserve"/>
-      <valueBoolean value="false"/>
-    </property>
-    <property>
-      <code value="rmo"/>
-      <valueBoolean value="false"/>
-    </property>
-    <property>
-      <code value="examenSanguin"/>
-      <valueBoolean value="false"/>
-    </property>
-  </concept>
-  <concept>
-    <code value="9008"/>
-    <display value="FORFAIT ENVOI D'ECHANTILLONS"/>
-    <property>
-      <code value="parent"/>
-      <valueCode value="19"/>
-    </property>
-    <property>
-      <code value="created"/>
-      <valueString value="21/06/2021"/>
-    </property>
-    <property>
-      <code value="modified"/>
-      <valueString value="21/06/2021"/>
-    </property>
-    <property>
-      <code value="type"/>
-      <valueString value="code"/>
-    </property>
-    <property>
-      <code value="initativeBiologistePossible"/>
-      <valueBoolean value="false"/>
-    </property>
-    <property>
-      <code value="indicationMédicale"/>
-      <valueBoolean value="true"/>
-    </property>
-    <property>
-      <code value="remboursementTotal"/>
-      <valueBoolean value="true"/>
-    </property>
-    <property>
-      <code value="ententePréalable"/>
-      <valueBoolean value="false"/>
-    </property>
-    <property>
-      <code value="coeffB"/>
-      <valueString value="18"/>
     </property>
     <property>
       <code value="acteReserve"/>
@@ -30273,7 +30181,7 @@
   </concept>
   <concept>
     <code value="4722"/>
-    <display value="RECHERCHE D'IGG PAR TESTS SEROLOGIQUES PAR IMMUNOCHROMATOGRAPHIE"/>
+    <display value="RECHERCHE D'IGG PAR TESTS SEROLOGIQUES PAR IMMUNOCHROMATOGRAPHIE (SARS-COV2)"/>
     <property>
       <code value="parent"/>
       <valueCode value="07-06"/>
@@ -30284,7 +30192,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="01/03/2023"/>
+      <valueString value="30/12/2025"/>
     </property>
     <property>
       <code value="type"/>
@@ -31281,62 +31189,6 @@
     <property>
       <code value="examenSanguin"/>
       <valueBoolean value="true"/>
-    </property>
-  </concept>
-  <concept>
-    <code value="9006"/>
-    <display value="FORFAIT DU TRAITEMENT DES DONNEES ADMINISTRATIVES DU COVID-19"/>
-    <property>
-      <code value="parent"/>
-      <valueCode value="0"/>
-    </property>
-    <property>
-      <code value="created"/>
-      <valueString value="10/05/2020"/>
-    </property>
-    <property>
-      <code value="modified"/>
-      <valueString value="01/03/2023"/>
-    </property>
-    <property>
-      <code value="type"/>
-      <valueString value="code"/>
-    </property>
-    <property>
-      <code value="initativeBiologistePossible"/>
-      <valueBoolean value="false"/>
-    </property>
-    <property>
-      <code value="indicationMédicale"/>
-      <valueBoolean value="false"/>
-    </property>
-    <property>
-      <code value="remboursementTotal"/>
-      <valueBoolean value="false"/>
-    </property>
-    <property>
-      <code value="ententePréalable"/>
-      <valueBoolean value="false"/>
-    </property>
-    <property>
-      <code value="nombreMaximumParFacturation"/>
-      <valueInteger value="1"/>
-    </property>
-    <property>
-      <code value="coeffB"/>
-      <valueString value="2"/>
-    </property>
-    <property>
-      <code value="acteReserve"/>
-      <valueBoolean value="false"/>
-    </property>
-    <property>
-      <code value="rmo"/>
-      <valueBoolean value="false"/>
-    </property>
-    <property>
-      <code value="examenSanguin"/>
-      <valueBoolean value="false"/>
     </property>
   </concept>
   <concept>
@@ -32829,7 +32681,7 @@
   </concept>
   <concept>
     <code value="0031"/>
-    <display value="HPV:DETECTION DU GENOME DES PAPILLOMAVIRUS HUMAINS ONCOGENES DEPISTAGE ORGANISE"/>
+    <display value="DETECTION DES ACIDES NUCLEIQUES DES HPV ONCOGENES DO"/>
     <property>
       <code value="parent"/>
       <valueCode value="01"/>
@@ -32840,7 +32692,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="01/04/2020"/>
+      <valueString value="30/12/2025"/>
     </property>
     <property>
       <code value="type"/>
@@ -32873,6 +32725,18 @@
     <property>
       <code value="coeffB"/>
       <valueString value="100"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="4509"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="0024"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="4127"/>
     </property>
     <property>
       <code value="acteReserve"/>
@@ -37392,7 +37256,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="19/06/2025"/>
+      <valueString value="30/12/2025"/>
     </property>
     <property>
       <code value="type"/>
@@ -41237,7 +41101,7 @@
   </concept>
   <concept>
     <code value="4127"/>
-    <display value="PAPILLOMAVIRUS HUMAINS A HAUTS RISQUES (HPV) GENOME VIRAL - DEPISTAGE INDIVIDUEL"/>
+    <display value="DETECTION DES ACIDES NUCLEIQUES DES HPV ONCOGENES DI"/>
     <property>
       <code value="parent"/>
       <valueCode value="19"/>
@@ -41248,7 +41112,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="01/04/2020"/>
+      <valueString value="30/12/2025"/>
     </property>
     <property>
       <code value="type"/>
@@ -41281,6 +41145,14 @@
     <property>
       <code value="coeffB"/>
       <valueString value="100"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="0031"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="4509"/>
     </property>
     <property>
       <code value="codeIncompatible"/>
@@ -55572,10 +55444,6 @@
     </property>
     <property>
       <code value="child"/>
-      <valueCode value="9008"/>
-    </property>
-    <property>
-      <code value="child"/>
       <valueCode value="4355"/>
     </property>
     <property>
@@ -55713,10 +55581,6 @@
     <property>
       <code value="child"/>
       <valueCode value="4120"/>
-    </property>
-    <property>
-      <code value="child"/>
-      <valueCode value="9007"/>
     </property>
     <property>
       <code value="child"/>
@@ -56512,7 +56376,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="30/05/2025"/>
+      <valueString value="30/12/2025"/>
     </property>
     <property>
       <code value="type"/>
@@ -59089,7 +58953,7 @@
   </concept>
   <concept>
     <code value="5271"/>
-    <display value="SARS-COV-2 : DETECTION GENOME PAR LES TECHNIQUES D'AMPLIFICATION GENIQUE"/>
+    <display value="SARS-COV-2:DETECTION GENOME PAR LES TECHNIQUES D'AMPLIFICATION GENIQUE"/>
     <property>
       <code value="parent"/>
       <valueCode value="19"/>
@@ -59100,7 +58964,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="01/03/2023"/>
+      <valueString value="30/12/2025"/>
     </property>
     <property>
       <code value="type"/>

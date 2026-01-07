@@ -2,8 +2,8 @@
   "resourceType" : "CodeSystem",
   "id" : "terminologie-bdpm",
   "meta" : {
-    "versionId" : "24",
-    "lastUpdated" : "2025-12-03T17:12:59.233+01:00",
+    "versionId" : "25",
+    "lastUpdated" : "2026-01-06T13:17:45.661+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
   },
   "text" : {
@@ -16,12 +16,12 @@
     "system" : "https://smt.esante.gouv.fr/",
     "value" : "terminologie-bdpm"
   }],
-  "version" : "2025-12-03",
+  "version" : "2026-01-06",
   "name" : "BDPM",
   "title" : "Base de données publique du médicament",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-03T00:00:00+00:00",
+  "date" : "2026-01-06T00:00:00+00:00",
   "publisher" : "Agence du numérique en santé",
   "description" : "LA BDPM est un des référentiels du médicament gérée et distribuée par l’ANSM. Elle recense l’ensemble des spécialités et des présentations effectivement commercialisées durant les 5 dernières années. De ce fait, elle ne propose pas un historique exhaustif des codes de présentation et spécialités, celui-ci peut être obtenu grâce à la base RCP disponible sur le site de l’ANSM",
   "jurisdiction" : [{
@@ -33,7 +33,7 @@
   "copyright" : "[LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md)",
   "valueSet" : "https://smt.esante.gouv.fr/terminologie-bdpm?vs",
   "content" : "not-present",
-  "count" : 41229,
+  "count" : 41107,
   "filter" : [{
     "code" : "root",
     "operator" : ["="],

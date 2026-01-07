@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/terminologie-nabm | *Version*:V99 | |
-| Active as of 2025-09-08 | *Responsible:*Agence du numérique en santé | *Computable Name*:NABM |
+| *Official URL*:https://smt.esante.gouv.fr/terminologie-nabm | *Version*:V100 | |
+| Active as of 2025-12-18 | *Responsible:*Agence du numérique en santé | *Computable Name*:NABM |
 | *Other Identifiers:*OID:1.2.250.1.215.300.2 (use: usual, ), https://smt.esante.gouv.fr/#terminologie-nabm (use: secondary, ) | | |
 | **Copyright/Legal**:[LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md) | | |
 
@@ -29,8 +29,8 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
   "resourceType" : "CodeSystem",
   "id" : "terminologie-nabm",
   "meta" : {
-    "versionId" : "11",
-    "lastUpdated" : "2025-09-08T12:56:27.297+02:00",
+    "versionId" : "12",
+    "lastUpdated" : "2026-01-06T16:31:33.167+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
@@ -48,12 +48,12 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
       "value" : "terminologie-nabm"
     }
   ],
-  "version" : "V99",
+  "version" : "V100",
   "name" : "NABM",
   "title" : "Nomenclature des actes de biologie médicale",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-09-08T00:00:00+00:00",
+  "date" : "2025-12-18T00:00:00+00:00",
   "publisher" : "Agence du numérique en santé",
   "description" : "La NABM est la terminologie de facturation des actes de biologie médicale. Elle décrit la liste des actes de biologie dans une arborescence en chapitres et sous-chapitres ainsi que des règles de facturation.",
   "jurisdiction" : [
@@ -69,7 +69,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
   "copyright" : "[LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md)",
   "valueSet" : "https://smt.esante.gouv.fr/terminologie-nabm?vs",
   "content" : "complete",
-  "count" : 1050,
+  "count" : 1047,
   "filter" : [
     {
       "code" : "root",
@@ -5280,7 +5280,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "0024",
-      "display" : "HPV:DETECTION DU GENOME DES PAPILLOMAVIRUS ONCOGENES-DEPISTAGE INDIVIDUEL",
+      "display" : "DETECTION DES ACIDES NUCLEIQUES DES HPV ONCOGENES DI",
       "property" : [
         {
           "code" : "parent",
@@ -5292,7 +5292,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
         },
         {
           "code" : "modified",
-          "valueString" : "01/04/2020"
+          "valueString" : "30/12/2025"
         },
         {
           "code" : "type",
@@ -5325,6 +5325,14 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
         {
           "code" : "coeffB",
           "valueString" : "100"
+        },
+        {
+          "code" : "codeIncompatible",
+          "valueCode" : "0031"
+        },
+        {
+          "code" : "codeIncompatible",
+          "valueCode" : "4509"
         },
         {
           "code" : "codeIncompatible",
@@ -10201,10 +10209,6 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
         {
           "code" : "child",
           "valueCode" : "8000"
-        },
-        {
-          "code" : "child",
-          "valueCode" : "9006"
         },
         {
           "code" : "child",
@@ -28799,7 +28803,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "4509",
-      "display" : "PAPILLOMAVIRUS HUMAINS A HAUTS RISQUES (HPV) GENOME VIRAL - DEPISTAGE ORGANISE",
+      "display" : "DETECTION DES ACIDES NUCLEIQUES DES HPV ONCOGENES DO",
       "property" : [
         {
           "code" : "parent",
@@ -28811,7 +28815,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
         },
         {
           "code" : "modified",
-          "valueString" : "01/04/2020"
+          "valueString" : "30/12/2025"
         },
         {
           "code" : "type",
@@ -28844,6 +28848,18 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
         {
           "code" : "coeffB",
           "valueString" : "100"
+        },
+        {
+          "code" : "codeIncompatible",
+          "valueCode" : "0031"
+        },
+        {
+          "code" : "codeIncompatible",
+          "valueCode" : "0024"
+        },
+        {
+          "code" : "codeIncompatible",
+          "valueCode" : "4127"
         },
         {
           "code" : "acteReserve",
@@ -29037,7 +29053,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "4720",
-      "display" : "RECHERCHE D'IGG PAR TESTS AUTOMATISABLES DE TYPE ELISA",
+      "display" : "RECHERCHE D'IGG PAR TESTS AUTOMATISABLES DE TYPE ELISA (SARS-COV2)",
       "property" : [
         {
           "code" : "parent",
@@ -29049,7 +29065,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
         },
         {
           "code" : "modified",
-          "valueString" : "01/03/2023"
+          "valueString" : "30/12/2025"
         },
         {
           "code" : "type",
@@ -29422,64 +29438,6 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
         {
           "code" : "acteReserve",
           "valueBoolean" : false
-        },
-        {
-          "code" : "rmo",
-          "valueBoolean" : false
-        },
-        {
-          "code" : "examenSanguin",
-          "valueBoolean" : false
-        }
-      ]
-    },
-    {
-      "code" : "9007",
-      "display" : "FORFAIT SEQUENCAGE",
-      "property" : [
-        {
-          "code" : "parent",
-          "valueCode" : "19"
-        },
-        {
-          "code" : "created",
-          "valueString" : "08/02/2021"
-        },
-        {
-          "code" : "modified",
-          "valueString" : "23/06/2022"
-        },
-        {
-          "code" : "type",
-          "valueString" : "code"
-        },
-        {
-          "code" : "initativeBiologistePossible",
-          "valueBoolean" : false
-        },
-        {
-          "code" : "indicationMédicale",
-          "valueBoolean" : true
-        },
-        {
-          "code" : "remboursementTotal",
-          "valueBoolean" : true
-        },
-        {
-          "code" : "ententePréalable",
-          "valueBoolean" : false
-        },
-        {
-          "code" : "aPourContingenceTechnique",
-          "valueCode" : "CONTINGENCE_4"
-        },
-        {
-          "code" : "coeffB",
-          "valueString" : "500"
-        },
-        {
-          "code" : "acteReserve",
-          "valueBoolean" : true
         },
         {
           "code" : "rmo",
@@ -30201,7 +30159,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
         },
         {
           "code" : "modified",
-          "valueString" : "30/05/2025"
+          "valueString" : "30/12/2025"
         },
         {
           "code" : "type",
@@ -30528,60 +30486,6 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
         {
           "code" : "codeIncompatible",
           "valueCode" : "0672"
-        },
-        {
-          "code" : "acteReserve",
-          "valueBoolean" : false
-        },
-        {
-          "code" : "rmo",
-          "valueBoolean" : false
-        },
-        {
-          "code" : "examenSanguin",
-          "valueBoolean" : false
-        }
-      ]
-    },
-    {
-      "code" : "9008",
-      "display" : "FORFAIT ENVOI D'ECHANTILLONS",
-      "property" : [
-        {
-          "code" : "parent",
-          "valueCode" : "19"
-        },
-        {
-          "code" : "created",
-          "valueString" : "21/06/2021"
-        },
-        {
-          "code" : "modified",
-          "valueString" : "21/06/2021"
-        },
-        {
-          "code" : "type",
-          "valueString" : "code"
-        },
-        {
-          "code" : "initativeBiologistePossible",
-          "valueBoolean" : false
-        },
-        {
-          "code" : "indicationMédicale",
-          "valueBoolean" : true
-        },
-        {
-          "code" : "remboursementTotal",
-          "valueBoolean" : true
-        },
-        {
-          "code" : "ententePréalable",
-          "valueBoolean" : false
-        },
-        {
-          "code" : "coeffB",
-          "valueString" : "18"
         },
         {
           "code" : "acteReserve",
@@ -31279,7 +31183,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "4722",
-      "display" : "RECHERCHE D'IGG PAR TESTS SEROLOGIQUES PAR IMMUNOCHROMATOGRAPHIE",
+      "display" : "RECHERCHE D'IGG PAR TESTS SEROLOGIQUES PAR IMMUNOCHROMATOGRAPHIE (SARS-COV2)",
       "property" : [
         {
           "code" : "parent",
@@ -31291,7 +31195,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
         },
         {
           "code" : "modified",
-          "valueString" : "01/03/2023"
+          "valueString" : "30/12/2025"
         },
         {
           "code" : "type",
@@ -32320,64 +32224,6 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
         {
           "code" : "examenSanguin",
           "valueBoolean" : true
-        }
-      ]
-    },
-    {
-      "code" : "9006",
-      "display" : "FORFAIT DU TRAITEMENT DES DONNEES ADMINISTRATIVES DU COVID-19",
-      "property" : [
-        {
-          "code" : "parent",
-          "valueCode" : "0"
-        },
-        {
-          "code" : "created",
-          "valueString" : "10/05/2020"
-        },
-        {
-          "code" : "modified",
-          "valueString" : "01/03/2023"
-        },
-        {
-          "code" : "type",
-          "valueString" : "code"
-        },
-        {
-          "code" : "initativeBiologistePossible",
-          "valueBoolean" : false
-        },
-        {
-          "code" : "indicationMédicale",
-          "valueBoolean" : false
-        },
-        {
-          "code" : "remboursementTotal",
-          "valueBoolean" : false
-        },
-        {
-          "code" : "ententePréalable",
-          "valueBoolean" : false
-        },
-        {
-          "code" : "nombreMaximumParFacturation",
-          "valueInteger" : 1
-        },
-        {
-          "code" : "coeffB",
-          "valueString" : "2"
-        },
-        {
-          "code" : "acteReserve",
-          "valueBoolean" : false
-        },
-        {
-          "code" : "rmo",
-          "valueBoolean" : false
-        },
-        {
-          "code" : "examenSanguin",
-          "valueBoolean" : false
         }
       ]
     },
@@ -33919,7 +33765,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "0031",
-      "display" : "HPV:DETECTION DU GENOME DES PAPILLOMAVIRUS HUMAINS ONCOGENES DEPISTAGE ORGANISE",
+      "display" : "DETECTION DES ACIDES NUCLEIQUES DES HPV ONCOGENES DO",
       "property" : [
         {
           "code" : "parent",
@@ -33931,7 +33777,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
         },
         {
           "code" : "modified",
-          "valueString" : "01/04/2020"
+          "valueString" : "30/12/2025"
         },
         {
           "code" : "type",
@@ -33964,6 +33810,18 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
         {
           "code" : "coeffB",
           "valueString" : "100"
+        },
+        {
+          "code" : "codeIncompatible",
+          "valueCode" : "4509"
+        },
+        {
+          "code" : "codeIncompatible",
+          "valueCode" : "0024"
+        },
+        {
+          "code" : "codeIncompatible",
+          "valueCode" : "4127"
         },
         {
           "code" : "acteReserve",
@@ -38629,7 +38487,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
         },
         {
           "code" : "modified",
-          "valueString" : "19/06/2025"
+          "valueString" : "30/12/2025"
         },
         {
           "code" : "type",
@@ -42597,7 +42455,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "4127",
-      "display" : "PAPILLOMAVIRUS HUMAINS A HAUTS RISQUES (HPV) GENOME VIRAL - DEPISTAGE INDIVIDUEL",
+      "display" : "DETECTION DES ACIDES NUCLEIQUES DES HPV ONCOGENES DI",
       "property" : [
         {
           "code" : "parent",
@@ -42609,7 +42467,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
         },
         {
           "code" : "modified",
-          "valueString" : "01/04/2020"
+          "valueString" : "30/12/2025"
         },
         {
           "code" : "type",
@@ -42642,6 +42500,14 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
         {
           "code" : "coeffB",
           "valueString" : "100"
+        },
+        {
+          "code" : "codeIncompatible",
+          "valueCode" : "0031"
+        },
+        {
+          "code" : "codeIncompatible",
+          "valueCode" : "4509"
         },
         {
           "code" : "codeIncompatible",
@@ -57387,10 +57253,6 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
         },
         {
           "code" : "child",
-          "valueCode" : "9008"
-        },
-        {
-          "code" : "child",
           "valueCode" : "4355"
         },
         {
@@ -57528,10 +57390,6 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
         {
           "code" : "child",
           "valueCode" : "4120"
-        },
-        {
-          "code" : "child",
-          "valueCode" : "9007"
         },
         {
           "code" : "child",
@@ -58351,7 +58209,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
         },
         {
           "code" : "modified",
-          "valueString" : "30/05/2025"
+          "valueString" : "30/12/2025"
         },
         {
           "code" : "type",
@@ -61001,7 +60859,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
     },
     {
       "code" : "5271",
-      "display" : "SARS-COV-2 : DETECTION GENOME PAR LES TECHNIQUES D'AMPLIFICATION GENIQUE",
+      "display" : "SARS-COV-2:DETECTION GENOME PAR LES TECHNIQUES D'AMPLIFICATION GENIQUE",
       "property" : [
         {
           "code" : "parent",
@@ -61013,7 +60871,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
         },
         {
           "code" : "modified",
-          "valueString" : "01/03/2023"
+          "valueString" : "30/12/2025"
         },
         {
           "code" : "type",

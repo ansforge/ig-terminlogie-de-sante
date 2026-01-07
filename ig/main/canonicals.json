@@ -8,14 +8,6 @@
     "oids" : ["2.16.840.1.113883.6.96"]
   },
   {
-    "id" : "900000000000207008-20251201",
-    "type" : "CodeSystem",
-    "url" : "http://snomed.info/sct",
-    "version" : "http://snomed.info/sct/900000000000207008/version/20251201",
-    "name" : "SNOMED_CT",
-    "oids" : ["2.16.840.1.113883.6.96"]
-  },
-  {
     "id" : "900000000000207008-20260101",
     "type" : "CodeSystem",
     "url" : "http://snomed.info/sct",
@@ -4601,7 +4593,7 @@
     "id" : "alignement-bdpm-cipucd",
     "type" : "ConceptMap",
     "url" : "https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-bdpm-cipucd",
-    "version" : "2025-12",
+    "version" : "2026-01",
     "name" : "Alignement_Codes_Presentation_BDPM_CIPUCD"
   },
   {
@@ -8436,7 +8428,7 @@
     "id" : "terminologie-bdpm",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-bdpm",
-    "version" : "2025-12-03",
+    "version" : "2026-01-06",
     "name" : "BDPM"
   },
   {
@@ -8505,7 +8497,7 @@
     "id" : "terminologie-nabm",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-nabm",
-    "version" : "V99",
+    "version" : "V100",
     "name" : "NABM",
     "oids" : ["1.2.250.1.215.300.2"]
   },
