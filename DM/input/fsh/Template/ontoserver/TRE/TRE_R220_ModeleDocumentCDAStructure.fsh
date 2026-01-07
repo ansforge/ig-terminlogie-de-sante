@@ -1,22 +1,23 @@
 CodeSystem: TRE_R220_ModeleDocumentCDAStructure
 Id: TRE-R220-ModeleDocumentCDAStructure
 Description: "Identifiant des modèles de CDA structurés"
-* ^meta.versionId = "8"
-* ^meta.lastUpdated = "2025-07-02T18:16:13.789+00:00"
+* ^meta.versionId = "9"
+* ^meta.lastUpdated = "2025-10-31T15:01:31.499+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2016-09-01T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R220-ModeleDocumentCDAStructure/FHIR/TRE-R220-ModeleDocumentCDAStructure"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.1.4.328"
-* ^version = "20240726120000"
+* ^version = "20251029120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2024-07-26T12:00:00+01:00"
+* ^date = "2025-10-29T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
+* ^count = 83
 * ^property[0].code = #dateValid
 * ^property[=].description = "date de validité d'un code concept"
 * ^property[=].type = #dateTime
@@ -697,9 +698,13 @@ Description: "Identifiant des modèles de CDA structurés"
 * #1.2.250.1.213.1.1.1.60 ^property[0].code = #dateValid
 * #1.2.250.1.213.1.1.1.60 ^property[=].valueDateTime = "2024-04-26T12:00:00+01:00"
 * #1.2.250.1.213.1.1.1.60 ^property[+].code = #dateMaj
-* #1.2.250.1.213.1.1.1.60 ^property[=].valueDateTime = "2024-04-26T12:00:00+01:00"
+* #1.2.250.1.213.1.1.1.60 ^property[=].valueDateTime = "2025-10-29T12:00:00+01:00"
+* #1.2.250.1.213.1.1.1.60 ^property[+].code = #dateFin
+* #1.2.250.1.213.1.1.1.60 ^property[=].valueDateTime = "2025-10-29T12:00:00+01:00"
 * #1.2.250.1.213.1.1.1.60 ^property[+].code = #status
-* #1.2.250.1.213.1.1.1.60 ^property[=].valueCode = #active
+* #1.2.250.1.213.1.1.1.60 ^property[=].valueCode = #deprecated
+* #1.2.250.1.213.1.1.1.60 ^property[+].code = #deprecationDate
+* #1.2.250.1.213.1.1.1.60 ^property[=].valueDateTime = "2025-10-29T12:00:00+01:00"
 * #1.2.250.1.213.1.1.1.61 "Fiche de transfert vers le service des urgences"
 * #1.2.250.1.213.1.1.1.61 ^designation[0].language = #fr-FR
 * #1.2.250.1.213.1.1.1.61 ^designation[=].use.system = "http://snomed.info/sct"

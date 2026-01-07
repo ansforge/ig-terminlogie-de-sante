@@ -1,8 +1,8 @@
 ValueSet: JDV_J147_MethodHeartrate_ENS
 Id: JDV-J147-MethodHeartrate-ENS
 Description: "JDV pour la méthode de mesure de fréquence cardiaque"
-* ^meta.versionId = "5"
-* ^meta.lastUpdated = "2025-07-02T17:05:09.126+00:00"
+* ^meta.versionId = "6"
+* ^meta.lastUpdated = "2025-12-18T16:47:38.528+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -20,4 +20,4 @@ Description: "JDV pour la méthode de mesure de fréquence cardiaque"
 * $terminologie-emdn#Y210905 "INTERFACES DE CAPTEURS EXTERNES"
 * $terminologie-emdn#Z12030205 "TENSIOMÈTRES NON INVASIFS"
 * $terminologie-emdn#Z1203020408 "OXYMÈTRES DE POULS"
-* SNOMED_CT#8499008 "pouls"
+* SNOMED_CT#8499008

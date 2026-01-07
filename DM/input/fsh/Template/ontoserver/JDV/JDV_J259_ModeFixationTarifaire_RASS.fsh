@@ -1,8 +1,8 @@
 ValueSet: JDV_J259_ModeFixationTarifaire_RASS
 Id: JDV-J259-ModeFixationTarifaire-RASS
 Description: "Mode de fixation tarifaire du RASS"
-* ^meta.versionId = "2"
-* ^meta.lastUpdated = "2025-07-02T17:06:15.788+00:00"
+* ^meta.versionId = "3"
+* ^meta.lastUpdated = "2025-12-18T16:47:49.579+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,10 +10,10 @@ Description: "Mode de fixation tarifaire du RASS"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J259-ModeFixationTarifaire-RASS/FHIR/JDV-J259-ModeFixationTarifaire-RASS"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.283"
-* ^version = "20240927120000"
+* ^version = "20251222120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2024-09-27T12:00:00+01:00"
+* ^date = "2025-12-22T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R74-ModeFixationTarifaire#01 "Etablissement Tarif Libre"
@@ -59,6 +59,6 @@ Description: "Mode de fixation tarifaire du RASS"
 * $TRE-R74-ModeFixationTarifaire#54 "Tarif AM - Services de Soins Infirmiers A Domicile"
 * $TRE-R74-ModeFixationTarifaire#55 "ARS-PCD, PUV, convention SSIAD, non habilité à l'aide social"
 * $TRE-R74-ModeFixationTarifaire#56 "ARS-PCD, PUV, convention SSIAD, habilité à l'aide sociale"
-* $TRE-R74-ModeFixationTarifaire#57 "ARS /ARS PCD Dotation forfait ou prix de journée globalisés (CPOM)"
+* $TRE-R74-ModeFixationTarifaire#57 "Dotation globale de soins ARS et hébergement prix de journée PCD – sous CPOM"
 * $TRE-R74-ModeFixationTarifaire#58 "ARS dotation forfait ou prix de journée globalisé hors CPOM"
 * $TRE-R74-ModeFixationTarifaire#99 "Indéterminé"

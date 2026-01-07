@@ -1,22 +1,23 @@
 CodeSystem: TRE_R225_AnneeUniversitaire
 Id: TRE-R225-AnneeUniversitaire
 Description: "Année universitaire"
-* ^meta.versionId = "5"
-* ^meta.lastUpdated = "2025-07-02T18:16:16.894+00:00"
+* ^meta.versionId = "6"
+* ^meta.lastUpdated = "2025-10-31T15:01:32.300+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2017-03-22T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R225-AnneeUniversitaire/FHIR/TRE-R225-AnneeUniversitaire"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.117"
-* ^version = "20231215120000"
+* ^version = "20251009120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2023-12-15T12:00:00+01:00"
+* ^date = "2025-10-09T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
+* ^count = 21
 * ^property[0].code = #dateValid
 * ^property[=].description = "date de validité d'un code concept"
 * ^property[=].type = #dateTime
@@ -38,6 +39,28 @@ Description: "Année universitaire"
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
 * ^property[=].description = "Date Concept was retired"
 * ^property[=].type = #dateTime
+* #AU0809 "2008-2009"
+* #AU0809 ^designation.language = #fr-FR
+* #AU0809 ^designation.use.system = "http://snomed.info/sct"
+* #AU0809 ^designation.use = $sct#900000000000013009
+* #AU0809 ^designation.value = "Année universitaire 2008-2009"
+* #AU0809 ^property[0].code = #dateValid
+* #AU0809 ^property[=].valueDateTime = "2025-10-09T00:00:00+01:00"
+* #AU0809 ^property[+].code = #dateMaj
+* #AU0809 ^property[=].valueDateTime = "2025-10-09T00:00:00+01:00"
+* #AU0809 ^property[+].code = #status
+* #AU0809 ^property[=].valueCode = #active
+* #AU0910 "2009-2010"
+* #AU0910 ^designation.language = #fr-FR
+* #AU0910 ^designation.use.system = "http://snomed.info/sct"
+* #AU0910 ^designation.use = $sct#900000000000013009
+* #AU0910 ^designation.value = "Année universitaire 2009-2010"
+* #AU0910 ^property[0].code = #dateValid
+* #AU0910 ^property[=].valueDateTime = "2025-10-09T00:00:00+01:00"
+* #AU0910 ^property[+].code = #dateMaj
+* #AU0910 ^property[=].valueDateTime = "2025-10-09T00:00:00+01:00"
+* #AU0910 ^property[+].code = #status
+* #AU0910 ^property[=].valueCode = #active
 * #AU1011 "2010-2011"
 * #AU1011 ^designation.language = #fr-FR
 * #AU1011 ^designation.use.system = "http://snomed.info/sct"

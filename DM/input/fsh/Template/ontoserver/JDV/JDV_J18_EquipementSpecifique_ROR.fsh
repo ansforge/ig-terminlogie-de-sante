@@ -1,8 +1,8 @@
 ValueSet: JDV_J18_EquipementSpecifique_ROR
 Id: JDV-J18-EquipementSpecifique-ROR
 Description: "Equipement spécifique - ROR"
-* ^meta.versionId = "17"
-* ^meta.lastUpdated = "2025-07-02T17:05:38.372+00:00"
+* ^meta.versionId = "18"
+* ^meta.lastUpdated = "2025-12-18T16:47:44.274+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,10 +10,10 @@ Description: "Equipement spécifique - ROR"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J18-EquipementSpecifique-ROR/FHIR/JDV-J18-EquipementSpecifique-ROR"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.4.6"
-* ^version = "20250623120000"
+* ^version = "20251222120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-06-23T12:00:00+01:00"
+* ^date = "2025-12-22T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R212-Equipement#003 "Angioscope"
@@ -169,3 +169,5 @@ Description: "Equipement spécifique - ROR"
 * $TRE-R212-Equipement#227 "Table de bloc opératoire obésité - bariatrique"
 * $TRE-R212-Equipement#228 "Plateau de rééducation intensive des membres inférieurs"
 * $TRE-R212-Equipement#229 "Douche accessible aux personnes en fauteuil roulant"
+* $TRE-R212-Equipement#234 "Espace de consommation de drogues injectables"
+* $TRE-R212-Equipement#235 "Espace de consommation de drogues à fumer"

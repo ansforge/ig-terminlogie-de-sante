@@ -1,30 +1,33 @@
 CodeSystem: TRE_R211_ActiviteOperationnelle
 Id: TRE-R211-ActiviteOperationnelle
 Description: "Activite Operationnelle"
-* ^meta.versionId = "17"
-* ^meta.lastUpdated = "2025-07-02T18:15:58.944+00:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^meta.versionId = "25"
+* ^meta.lastUpdated = "2025-12-22T10:46:40.548+01:00"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2015-04-08T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.12"
-* ^version = "20250623120000"
+* ^version = "20251222120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-06-23T12:00:00+01:00"
+* ^date = "2025-12-22T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
-* ^count = 592
+* ^count = 602
 * ^property[0].code = #dateValid
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateMaj
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj"
 * ^property[=].description = "Date de mise à jour d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateFin
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin"
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #deprecationDate
@@ -153,11 +156,11 @@ Description: "Activite Operationnelle"
 * #014 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
 * #014 ^property[+].code = #status
 * #014 ^property[=].valueCode = #active
-* #015 "Centre antipoison et de toxicovigilance (CAPTV)"
+* #015 "Conseil antipoison et toxicovigilance"
 * #015 ^property[0].code = #dateValid
 * #015 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #015 ^property[+].code = #dateMaj
-* #015 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
+* #015 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
 * #015 ^property[+].code = #status
 * #015 ^property[=].valueCode = #active
 * #016 "Chirurgie cervico-faciale et Oto-rhino-laryngologie (ORL)"
@@ -297,11 +300,11 @@ Description: "Activite Operationnelle"
 * #030 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #030 ^property[+].code = #status
 * #030 ^property[=].valueCode = #active
-* #031 "Urologie"
+* #031 "Urologie (chirurgie urologique)"
 * #031 ^property[0].code = #dateValid
 * #031 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #031 ^property[+].code = #dateMaj
-* #031 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
+* #031 ^property[=].valueDateTime = "2025-08-28T12:00:00+01:00"
 * #031 ^property[+].code = #status
 * #031 ^property[=].valueCode = #active
 * #032 "Chirurgie vasculaire et endovasculaire" "Spécialité chirurgicale qui s'applique aux vaisseaux (artères ou veines) prenant en charge les maladies artérielles : dilatations pathologiques graves (anévrismes de l'aorte), rétrécissements artériels par artériosclérose (par exemple, pontage au niveau de la cuisse pour artérite de jambes), maladies veineuses (varices) et la mise en place de dispositifs reliés à de gros vaisseaux (par exemple, les chambres implantables)."
@@ -329,11 +332,11 @@ Description: "Activite Operationnelle"
 * #034 ^property[=].valueDateTime = "2019-10-25T12:00:00+01:00"
 * #034 ^property[+].code = #status
 * #034 ^property[=].valueCode = #deprecated
-* #035 "Coordination hospitalière de prélèvement d'organes et de tissus" "Equipe pluriprofessionnelle de professionnels de santé, ayant pour mission d'organiser et de coordonner les dons d'organes et de tissus, d'assurer le lien entre les différents acteurs de la chaîne de don, de garantir le respect des procédures et des bonnes pratiques légales éthiques et techniques, d'organiser la prise en charge du donneur et d'accompagner les proches tout au long du processus de don."
+* #035 "Coordination hospitalière de prélèvement d'organe" "Equipe pluriprofessionnelle de professionnels de santé, ayant pour mission d'organiser et de coordonner les dons d'organes et de tissus, d'assurer le lien entre les différents acteurs de la chaîne de don, de garantir le respect des procédures et des bonnes pratiques légales éthiques et techniques, d'organiser la prise en charge du donneur et d'accompagner les proches tout au long du processus de don."
 * #035 ^property[0].code = #dateValid
 * #035 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #035 ^property[+].code = #dateMaj
-* #035 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
+* #035 ^property[=].valueDateTime = "2025-10-17T12:00:00+01:00"
 * #035 ^property[+].code = #status
 * #035 ^property[=].valueCode = #active
 * #036 "Coronarographie interventionnelle"
@@ -368,11 +371,11 @@ Description: "Activite Operationnelle"
 * #039 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #039 ^property[+].code = #status
 * #039 ^property[=].valueCode = #active
-* #040 "Nutrition" "La nutrition est axée sur l'assimilation et la transformation par le corps des nutriments."
+* #040 "Médecine nutritionnelle" "La nutrition est axée sur l'assimilation et la transformation par le corps des nutriments."
 * #040 ^property[0].code = #dateValid
 * #040 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #040 ^property[+].code = #dateMaj
-* #040 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
+* #040 ^property[=].valueDateTime = "2025-08-28T12:00:00+01:00"
 * #040 ^property[+].code = #status
 * #040 ^property[=].valueCode = #active
 * #041 "Endocrinologie"
@@ -725,7 +728,7 @@ Description: "Activite Operationnelle"
 * #083 ^property[0].code = #dateValid
 * #083 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #083 ^property[+].code = #dateMaj
-* #083 ^property[=].valueDateTime = "2021-06-25T12:00:00+01:00"
+* #083 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #083 ^property[+].code = #status
 * #083 ^property[=].valueCode = #active
 * #084 "Médecine hyperbare" "Branche de la médecine qui utilise l'oxygénothérapie hyperbare, qui est une méthode d'administration d'oxygène (O2) inhalé à des fins thérapeutiques sous une pression supérieure à la pression atmosphérique. Elle est appliquée par l'intermédiaire d'une chambre hyperbare, communément appelée « caisson »."
@@ -1061,11 +1064,11 @@ Description: "Activite Operationnelle"
 * #126 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #126 ^property[+].code = #status
 * #126 ^property[=].valueCode = #active
-* #127 "Réanimation polyvalente"
+* #127 "Réanimation polyvalente" "Activité hospitalière qui assure la prise en charge continue, la surveillance et le traitement de patients présentant ou susceptibles de présenter une ou plusieurs défaillances vitales aiguës, nécessitant des techniques de suppléance et une présence médicale et paramédicale permanente."
 * #127 ^property[0].code = #dateValid
 * #127 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
 * #127 ^property[+].code = #dateMaj
-* #127 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
+* #127 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #127 ^property[+].code = #status
 * #127 ^property[=].valueCode = #active
 * #128 "Réanimation spécialisée néonatale"
@@ -1639,11 +1642,11 @@ Description: "Activite Operationnelle"
 * #196 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #196 ^property[+].code = #status
 * #196 ^property[=].valueCode = #active
-* #197 "Ostéopathie"
+* #197 "Ostéopathie (hors actes réservés aux médecins)"
 * #197 ^property[0].code = #dateValid
 * #197 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
 * #197 ^property[+].code = #dateMaj
-* #197 ^property[=].valueDateTime = "2017-07-07T10:00:00+01:00"
+* #197 ^property[=].valueDateTime = "2025-08-28T10:00:00+01:00"
 * #197 ^property[+].code = #status
 * #197 ^property[=].valueCode = #active
 * #198 "Parodontologie" "Discipline de prévention et traitement des affections des gencives et de l'os qui entoure les dents."
@@ -2503,11 +2506,11 @@ Description: "Activite Operationnelle"
 * #304 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
 * #304 ^property[+].code = #status
 * #304 ^property[=].valueCode = #active
-* #305 "Accompagnements pour mener sa vie professionnelle"
+* #305 "Accompagnements pour mener sa vie professionnelle" "Cette prestation rassemble tous les accompagnements effectués auprès d’une personne pour : - la soutenir dans l’exercice de son activité professionnelle ; - susciter, préparer, accompagner son évolution professionnelle. Ces accompagnements répondent aux besoins qu’elle rencontre dans le cadre de son travail/emploi. Ces prestations s’inscrivent dans une logique de compensation qui inclut toutes les nuances d’un accompagnement : « apprendre à faire », « faire avec », « faire pour (ou à la place de) ». Elles ont pour objectif le développement, l’acquisition et le maintien du maximum d’autonomie de la personne dans son exercice professionnel."
 * #305 ^property[0].code = #dateValid
 * #305 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
 * #305 ^property[+].code = #dateMaj
-* #305 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
+* #305 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #305 ^property[+].code = #status
 * #305 ^property[=].valueCode = #active
 * #306 "Activités visant la stimulation cognitivo-comportementale"
@@ -2524,11 +2527,11 @@ Description: "Activite Operationnelle"
 * #307 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
 * #307 ^property[+].code = #status
 * #307 ^property[=].valueCode = #active
-* #308 "Accompagnements à la parentalité"
+* #308 "Soutien à la parentalité et accompagnement familial" "Ensemble d’actions visant à accompagner les parents dans leur rôle éducatif, affectif et social, en tenant compte des besoins spécifiques de l’enfant et du contexte familial en renforcant les compétences parentales, favorisant les relations parents-enfants, prévenant les difficultés éducatives ou relationnelles, soutenant les familles confrontées à des problématiques spécifiques (handicap, maladie, précarité, troubles du développement, etc.). Cette orientation est étayée par la réalisation de formations continues spécifiques auprès de cette population (appuyées de données probantes) et d’une expérience professionnelle."
 * #308 ^property[0].code = #dateValid
 * #308 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
 * #308 ^property[+].code = #dateMaj
-* #308 ^property[=].valueDateTime = "2018-01-26T12:00:00+01:00"
+* #308 ^property[=].valueDateTime = "2025-07-23T12:00:00+01:00"
 * #308 ^property[+].code = #status
 * #308 ^property[=].valueCode = #active
 * #309 "Accompagnements à la vie affective et sexuelle" "Information et accompagnements à la vie affective et sexuelle (inclut l'entretien contraception / pré-IVG etc.)"
@@ -2865,11 +2868,11 @@ Description: "Activite Operationnelle"
 * #350 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
 * #350 ^property[+].code = #status
 * #350 ^property[=].valueCode = #active
-* #351 "Soins intensifs polyvalents"
+* #351 "Soins intensifs polyvalents" "Activité hospitalière destinée à la prise en charge de patients présentant une ou plusieurs défaillances aiguës d’organes, mais dont l’état ne justifie pas les moyens lourds de la réanimation; elle nécessite toutefois une surveillance clinique et biologique rapprochée et continue."
 * #351 ^property[0].code = #dateValid
 * #351 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
 * #351 ^property[+].code = #dateMaj
-* #351 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
+* #351 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #351 ^property[+].code = #status
 * #351 ^property[=].valueCode = #active
 * #352 "Soins intensifs chirurgicaux"
@@ -2893,11 +2896,11 @@ Description: "Activite Operationnelle"
 * #354 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
 * #354 ^property[+].code = #status
 * #354 ^property[=].valueCode = #active
-* #355 "Soins intensifs spécialisés en psychiatrie"
+* #355 "Soins intensifs spécialisés en psychiatrie" "Activité hospitalière psychiatrique qui assure la prise en charge continue de patients présentant des troubles psychiatriques aigus sévères nécessitant une surveillance renforcée, des soins intensifs psychiatriques et une présence soignante continue dans un environnement sécurisé."
 * #355 ^property[0].code = #dateValid
 * #355 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
 * #355 ^property[+].code = #dateMaj
-* #355 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
+* #355 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #355 ^property[+].code = #status
 * #355 ^property[=].valueCode = #active
 * #356 "Soins intensifs spécialisés neurologie vasculaire (USINV)"
@@ -3023,11 +3026,11 @@ Description: "Activite Operationnelle"
 * #372 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
 * #372 ^property[+].code = #status
 * #372 ^property[=].valueCode = #active
-* #373 "Surveillance continue polyvalente"
+* #373 "Surveillance continue polyvalente" "Activité hospitalière qui assure la surveillance rapprochée de patients présentant un risque de défaillance aiguë d’une ou plusieurs fonctions vitales, sans nécessiter les techniques de suppléance de la réanimation. Elle garantit une présence médicale et infirmière continue, adaptée à l’état clinique du patient."
 * #373 ^property[0].code = #dateValid
 * #373 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
 * #373 ^property[+].code = #dateMaj
-* #373 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
+* #373 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #373 ^property[+].code = #status
 * #373 ^property[=].valueCode = #active
 * #374 "Surveillance continue chirurgicale"
@@ -3219,11 +3222,11 @@ Description: "Activite Operationnelle"
 * #400 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
 * #400 ^property[+].code = #status
 * #400 ^property[=].valueCode = #active
-* #401 "Evaluation du logement et préconisation d'adaptation pour le maintien à domicile"
+* #401 "Evaluation du logement et préconisation d'adaptation pour le maintien à domicile" "Analyse de l’environnement domestique d’une personne en situation de perte d’autonomie, de handicap ou présentant des limitations fonctionnelles, afin d’identifier les obstacles à son maintien à domicile dans des conditions optimales de sécurité, d’autonomie et de qualité de vie. Elle vise à préconiser des aménagements et des aides techniques adaptés, permettant à la personne de réaliser ses activités quotidiennes dans un cadre sécurisé. Cette orientation est étayée par la réalisation de formations continues spécifiques auprès de cette population (appuyées de données probantes) et d’une expérience professionnelle"
 * #401 ^property[0].code = #dateValid
 * #401 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
 * #401 ^property[+].code = #dateMaj
-* #401 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
+* #401 ^property[=].valueDateTime = "2025-07-23T12:00:00+01:00"
 * #401 ^property[+].code = #status
 * #401 ^property[=].valueCode = #active
 * #402 "Accompagnement à l'autonomie pour la mobilité et les déplacements" "Services visant à aider les personnes âgées, handicapées ou atteintes de pathologies chroniques à se déplacer en dehors de leur domicile, favorisant ainsi leur autonomie et leur inclusion sociale. Ces services englobent l'accompagnement dans les transports et l'aide à la mobilité pour les activités quotidiennes, à condition que la prestation soit réalisée à partir ou à destination du domicile, les transports de groupe étant exclus."
@@ -4418,11 +4421,11 @@ Description: "Activite Operationnelle"
 * #557 ^property[=].valueDateTime = "2025-01-31T12:00:00+01:00"
 * #557 ^property[+].code = #status
 * #557 ^property[=].valueCode = #active
-* #558 "Ergothérapie"
+* #558 "Ergothérapie" "Activité professionelle qui contribue, par la rééducation, la réadaptation et la réinsertion, au traitement des déficiences, des incapacités et des situations de handicap"
 * #558 ^property[0].code = #dateValid
 * #558 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
 * #558 ^property[+].code = #dateMaj
-* #558 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
+* #558 ^property[=].valueDateTime = "2025-07-23T12:00:00+01:00"
 * #558 ^property[+].code = #status
 * #558 ^property[=].valueCode = #active
 * #559 "Kinésithérapie orientation Fonctions sexuelles et de la reproduction"
@@ -4530,60 +4533,60 @@ Description: "Activite Operationnelle"
 * #573 ^property[=].valueDateTime = "2024-09-27T12:00:00+01:00"
 * #573 ^property[+].code = #status
 * #573 ^property[=].valueCode = #active
-* #574 "Ergothérapie orientation accompagnement dans le cadre des maladies chroniques"
+* #574 "Ergothérapie orientation accompagnement dans le cadre des maladies chroniques" "Accompagnement en ergothérapie centré sur l’impact de maladies chroniques (affection de longue durée qui évolue dans le temps, souvent lentement, et qui a un impact durable sur la vie quotidienne de la personne) dans le quotidien de la personne : gestion de la fatigue et/ou la gestion de la douleur et/ou la gestion du sommeil en lien avec les activités de vie la personne dans son environnement. Il vise à favoriser la qualité de vie, l’équilibre de vie."
 * #574 ^property[0].code = #dateValid
 * #574 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
 * #574 ^property[+].code = #dateMaj
-* #574 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
+* #574 ^property[=].valueDateTime = "2025-07-23T12:00:00+01:00"
 * #574 ^property[+].code = #status
 * #574 ^property[=].valueCode = #active
-* #575 "Ergothérapie orientation compensation matérielle dans l’environnement de la personne"
+* #575 "Ergothérapie orientation compensation matérielle dans l’environnement de la personne" "Accompagnement en ergothérapie de personnes dans l’accès à l'ensemble des aides techniques, équipements et aménagements destinés à compenser une perte de fonction, une limitation d’activité ou une situation de handicap. Cela inclus l’apprentissage d’utilisation des compensations matérielles et la prise en compte de l’environnement de la personne jusqu’à intervenir dans celui-ci."
 * #575 ^property[0].code = #dateValid
 * #575 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
 * #575 ^property[+].code = #dateMaj
-* #575 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
+* #575 ^property[=].valueDateTime = "2025-07-23T12:00:00+01:00"
 * #575 ^property[+].code = #status
 * #575 ^property[=].valueCode = #active
-* #576 "Ergothérapie orientation Gériatrie"
+* #576 "Ergothérapie orientation Gériatrie" "Accompagnement en ergothérapie concerne la prise en charge des personnes âgées, notamment celles confrontées à des pertes d’autonomie, des pathologies chroniques ou neurodégénératives (comme la maladie d'Alzheimer, Parkinson, ou des troubles cognitifs), ainsi qu'à la prévention du vieillissement pathologique. Cette orientation est étayée par la réalisation de formations continues spécifiques auprès de cette population (appuyées de données probantes) et d’une expérience professionnelle"
 * #576 ^property[0].code = #dateValid
 * #576 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
 * #576 ^property[+].code = #dateMaj
-* #576 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
+* #576 ^property[=].valueDateTime = "2025-07-23T12:00:00+01:00"
 * #576 ^property[+].code = #status
 * #576 ^property[=].valueCode = #active
-* #577 "Ergothérapie orientation Neurologie"
+* #577 "Ergothérapie orientation Neurologie" "Accompagnement en ergothérapie auprès de personnes avec des pathologies neurologiques innées ou acquises (dépistage ; repérage ; évaluation permettant le diagnostic ergothérapique ; réévaluation). Cette orientation est étayée par la réalisation de formations continues spécifiques auprès de cette population (appuyées de données probantes) et d’une expérience professionnelle."
 * #577 ^property[0].code = #dateValid
 * #577 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
 * #577 ^property[+].code = #dateMaj
-* #577 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
+* #577 ^property[=].valueDateTime = "2025-07-23T12:00:00+01:00"
 * #577 ^property[+].code = #status
 * #577 ^property[=].valueCode = #active
-* #578 "Ergothérapie orientation Pédiatrie"
+* #578 "Ergothérapie orientation Pédiatrie" "Accompagnement en ergothérapie des enfants, de la naissance à l’adolescence, présentant des troubles du développement, des déficiences physiques, sensorielles, cognitives ou psychiques, ainsi que des situations de handicap, afin de favoriser leur autonomie et leur participation dans les activités de la vie quotidienne, scolaire et sociale. Cette orientation est étayée par la réalisation de formations continues spécifiques auprès de cette population (appuyées de données probantes) et d’une expérience professionnelle."
 * #578 ^property[0].code = #dateValid
 * #578 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
 * #578 ^property[+].code = #dateMaj
-* #578 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
+* #578 ^property[=].valueDateTime = "2025-07-23T12:00:00+01:00"
 * #578 ^property[+].code = #status
 * #578 ^property[=].valueCode = #active
-* #579 "Ergothérapie orientation Psychiatrie et Santé mentale"
+* #579 "Ergothérapie orientation Psychiatrie et Santé mentale" "Accompagnement en ergothérapie  concerne l’accompagnement des personnes présentant des troubles psychiques ou psychiatriques afin de favoriser leur autonomie, leur bien-être et leur inclusion sociale. L’ergothérapeute intervient en évaluant et en renforçant les capacités fonctionnelles, cognitives, émotionnelles et sociales des patients dans le cadre d’un projet thérapeutique global. Cette orientation est étayée par la réalisation de formations continues spécifiques auprès de cette population (appuyées de données probantes) et d’une expérience professionnelle"
 * #579 ^property[0].code = #dateValid
 * #579 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
 * #579 ^property[+].code = #dateMaj
-* #579 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
+* #579 ^property[=].valueDateTime = "2025-07-23T12:00:00+01:00"
 * #579 ^property[+].code = #status
 * #579 ^property[=].valueCode = #active
-* #580 "Evaluation en ergothérapie par l’analyse d’activité et accompagnement dans l’environnement de la personne"
+* #580 "Evaluation en ergothérapie par l’analyse d’activité et accompagnement dans l’environnement de la personne" "Evaluation fonctionnelle et accompagnement en ergothérapie au travers de mises en situation d’activité réelles (via l’analyse d’activité) en milieu écologique (sur l’ensemble des lieux de vie ((domicile, établissements médico-sociaux, etc.) et d’activité de la personne (établissements scolaires, lieux de formation, milieu professionnel, milieu sportif, de loisirs, etc.)"
 * #580 ^property[0].code = #dateValid
 * #580 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
 * #580 ^property[+].code = #dateMaj
-* #580 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
+* #580 ^property[=].valueDateTime = "2025-07-23T12:00:00+01:00"
 * #580 ^property[+].code = #status
 * #580 ^property[=].valueCode = #active
-* #581 "Interventions éducatives pour renforcer l’autorégulation"
+* #581 "Interventions éducatives pour renforcer l’autorégulation" "Consiste à mettre en place des stratégies et des activités visant à aider les personnes, notamment les enfants et les adolescents, à mieux gérer leurs émotions, leurs comportements et leurs pensées. Ces interventions sont particulièrement utiles pour les élèves présentant des troubles du spectre de l'autisme (TSA) et d'autres troubles du neurodéveloppement. Elles sont encadrées par des professionnels, et s'appuient sur des principes de métacognition et d'autodétermination. Cette orientation est étayée par la réalisation de formations continues spécifiques auprès de cette population (appuyées de données probantes) et d’une expérience professionnelle"
 * #581 ^property[0].code = #dateValid
 * #581 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
 * #581 ^property[+].code = #dateMaj
-* #581 ^property[=].valueDateTime = "2025-03-28T12:00:00+01:00"
+* #581 ^property[=].valueDateTime = "2025-07-23T12:00:00+01:00"
 * #581 ^property[+].code = #status
 * #581 ^property[=].valueCode = #active
 * #582 "Orientation vers professionnel pour diagnostic"
@@ -4593,11 +4596,11 @@ Description: "Activite Operationnelle"
 * #582 ^property[=].valueDateTime = "2025-04-25T12:00:00+01:00"
 * #582 ^property[+].code = #status
 * #582 ^property[=].valueCode = #active
-* #583 "Dialyse péritonéale"
+* #583 "Dialyse péritonéale" "Technique d’épuration extrarénale réalisée au domicile ou en établissement, qui utilise le péritoine comme membrane de dialyse après injection d’une solution de dialyse dans la cavité abdominale, elle constitue une alternative à l’hémodialyse, permettant une autonomie accrue du patient et une efficacité comparable en termes de survie et de qualité de vie."
 * #583 ^property[0].code = #dateValid
 * #583 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
 * #583 ^property[+].code = #dateMaj
-* #583 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
+* #583 ^property[=].valueDateTime = "2025-09-18T12:00:00+01:00"
 * #583 ^property[+].code = #status
 * #583 ^property[=].valueCode = #active
 * #584 "Diététique des Troubles des Conduites Alimentaires (TCA)" "Prise en soin diététique  des troubles du comportement alimentaire (anorexie, boulimie, hyperphagie) comprenant  la régulation alimentaire, l’image corporelle et les émotions."
@@ -4652,11 +4655,11 @@ Description: "Activite Operationnelle"
 * #590 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
 * #590 ^property[+].code = #status
 * #590 ^property[=].valueCode = #active
-* #591 "Ostéopathie médicale"
+* #591 "Ostéopathie médicale" "Pratique médicale (réservée aux médecins), utilisant des techniques manuelles de manipulations musculo-squelettiques à visée diagnostique et thérapeutique. L’ostéopathie médicale est reconnue comme acte médical par le Conseil national de l’Ordre des médecins"
 * #591 ^property[0].code = #dateValid
 * #591 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
 * #591 ^property[+].code = #dateMaj
-* #591 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
+* #591 ^property[=].valueDateTime = "2025-09-18T12:00:00+01:00"
 * #591 ^property[+].code = #status
 * #591 ^property[=].valueCode = #active
 * #592 "Prévention et lutte contre la tuberculose"
@@ -4666,3 +4669,73 @@ Description: "Activite Operationnelle"
 * #592 ^property[=].valueDateTime = "2025-06-20T12:00:00+01:00"
 * #592 ^property[+].code = #status
 * #592 ^property[=].valueCode = #active
+* #593 "Prise en charge coordonnée des patients atteints de maladies rares" "Organisation de soins qui dispense  pour les personnes atteintes de maladies rares, un accompagnement pluridisciplinaire, depuis le diagnostic jusqu’au suivi, impliquant professionnels spécialisés, de proximité, médico-social, social et associations."
+* #593 ^property[0].code = #dateValid
+* #593 ^property[=].valueDateTime = "2025-08-28T12:00:00+01:00"
+* #593 ^property[+].code = #dateMaj
+* #593 ^property[=].valueDateTime = "2025-10-17T12:00:00+01:00"
+* #593 ^property[+].code = #status
+* #593 ^property[=].valueCode = #active
+* #594 "Coordination hospitalière de prélèvement de tissu" "Activité hospitalière spécialisée qui coordonne l’ensemble des prélèvements de tissu (et d’organe), assure le recueil de la non-opposition, l’accompagnement des proches, la traçabilité, la sécurité sanitaire et le respect des règles légales et éthiques."
+* #594 ^property[0].code = #dateValid
+* #594 ^property[=].valueDateTime = "2025-08-28T12:00:00+01:00"
+* #594 ^property[+].code = #dateMaj
+* #594 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #594 ^property[+].code = #status
+* #594 ^property[=].valueCode = #active
+* #595 "Coordination hospitalière de prélèvement de tissu pédiatrique" "Activité hospitalière spécialisée qui organise le prélèvement de tissu chez des enfants (vivants ou décédés), la recherche du consentement éclairé des représentants légaux, la traçabilité, et les règles juridiques et éthiques propres au don de tissus."
+* #595 ^property[0].code = #dateValid
+* #595 ^property[=].valueDateTime = "2025-08-28T12:00:00+01:00"
+* #595 ^property[+].code = #dateMaj
+* #595 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #595 ^property[+].code = #status
+* #595 ^property[=].valueCode = #active
+* #596 "Coordination hospitalière de prélèvement d’organe pédiatrique" "Activité hospitalière spécialisée qui identifie, mobilise et coordonne les prélèvements d’organes chez les enfants, en assurant le recueil du consentement légal, la conformité aux règles éthiques, la traçabilité et la liaison entre les équipes de greffe et les proches."
+* #596 ^property[0].code = #dateValid
+* #596 ^property[=].valueDateTime = "2025-08-28T12:00:00+01:00"
+* #596 ^property[+].code = #dateMaj
+* #596 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #596 ^property[+].code = #status
+* #596 ^property[=].valueCode = #active
+* #597 "Evaluation de la mémoire (bilan mémoire)" "Evaluation clinique spécialisée qui mesure de façon formelle les capacités mnésiques  (encodage, stockage, restitution ) et recherche leur retentissement sur la vie quotidienne, à l’aide de tests validés, d’un entretien, et d’examens complémentaires afin de poser un diagnostic ou d’orienter vers une prise en charge adaptée."
+* #597 ^property[0].code = #dateValid
+* #597 ^property[=].valueDateTime = "2025-08-28T12:00:00+01:00"
+* #597 ^property[+].code = #dateMaj
+* #597 ^property[=].valueDateTime = "2025-10-17T12:00:00+01:00"
+* #597 ^property[+].code = #status
+* #597 ^property[=].valueCode = #active
+* #598 "Toxicologie clinique"
+* #598 ^property[0].code = #dateValid
+* #598 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #598 ^property[+].code = #dateMaj
+* #598 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #598 ^property[+].code = #status
+* #598 ^property[=].valueCode = #active
+* #599 "Analyse toxicologique"
+* #599 ^property[0].code = #dateValid
+* #599 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #599 ^property[+].code = #dateMaj
+* #599 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #599 ^property[+].code = #status
+* #599 ^property[=].valueCode = #active
+* #600 "Prise en charge des malaises et surdoses liés à la prise de drogues"
+* #600 ^property[0].code = #dateValid
+* #600 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #600 ^property[+].code = #dateMaj
+* #600 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #600 ^property[+].code = #status
+* #600 ^property[=].valueCode = #active
+* #601 "Médiation pour le maintien en hospitalisation"
+* #601 ^property[0].code = #dateValid
+* #601 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #601 ^property[+].code = #dateMaj
+* #601 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #601 ^property[+].code = #status
+* #601 ^property[=].valueCode = #active
+* #603 "Prise en charge coordonnée des patients atteints de maladies neurodégénératives"
+* #603 ^property[0].code = #dateValid
+* #603 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #603 ^property[+].code = #dateMaj
+* #603 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #603 ^property[+].code = #status
+* #603 ^property[=].valueCode = #active

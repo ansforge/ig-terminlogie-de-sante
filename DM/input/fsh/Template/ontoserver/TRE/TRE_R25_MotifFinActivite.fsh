@@ -1,9 +1,9 @@
 CodeSystem: TRE_R25_MotifFinActivite
 Id: TRE-R25-MotifFinActivite
 Description: "Motif de fin d'activité"
-* ^meta.versionId = "5"
-* ^meta.lastUpdated = "2025-07-02T18:16:37.389+00:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^meta.versionId = "7"
+* ^meta.lastUpdated = "2025-12-22T10:46:43.702+01:00"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2007-07-25T15:04:43+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R25-MotifFinActivite/FHIR/TRE-R25-MotifFinActivite"
@@ -14,18 +14,26 @@ Description: "Motif de fin d'activité"
 * ^experimental = false
 * ^date = "2023-12-15T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
+* ^count = 9
 * ^property[0].code = #dateValid
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateMaj
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj"
 * ^property[=].description = "Date de mise à jour d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateFin
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin"
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
+* ^property[+].code = #epars
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#epars"
+* ^property[=].description = "Permet de définir les codes concepts uilisés par EPARS"
+* ^property[=].type = #boolean
 * ^property[+].code = #deprecationDate
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
 * ^property[=].description = "Date Concept was deprecated"
@@ -45,6 +53,8 @@ Description: "Motif de fin d'activité"
 * #AUT ^property[=].valueDateTime = "2007-07-25T15:04:43+01:00"
 * #AUT ^property[+].code = #status
 * #AUT ^property[=].valueCode = #active
+* #AUT ^property[+].code = #epars
+* #AUT ^property[=].valueBoolean = true
 * #CHA "Changement d'activité"
 * #CHA ^property[0].code = #dateValid
 * #CHA ^property[=].valueDateTime = "2007-07-25T15:04:43+01:00"
@@ -66,6 +76,8 @@ Description: "Motif de fin d'activité"
 * #CHP ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #CHP ^property[+].code = #status
 * #CHP ^property[=].valueCode = #active
+* #CHP ^property[+].code = #epars
+* #CHP ^property[=].valueBoolean = true
 * #DCD "Décès"
 * #DCD ^property[0].code = #dateValid
 * #DCD ^property[=].valueDateTime = "2007-07-25T15:04:43+01:00"
@@ -73,6 +85,8 @@ Description: "Motif de fin d'activité"
 * #DCD ^property[=].valueDateTime = "2007-07-25T15:04:43+01:00"
 * #DCD ^property[+].code = #status
 * #DCD ^property[=].valueCode = #active
+* #DCD ^property[+].code = #epars
+* #DCD ^property[=].valueBoolean = true
 * #ETR "Départ à l'étranger"
 * #ETR ^property[0].code = #dateValid
 * #ETR ^property[=].valueDateTime = "2007-07-25T15:04:43+01:00"
@@ -80,6 +94,8 @@ Description: "Motif de fin d'activité"
 * #ETR ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #ETR ^property[+].code = #status
 * #ETR ^property[=].valueCode = #active
+* #ETR ^property[+].code = #epars
+* #ETR ^property[=].valueBoolean = true
 * #RH "Retraite hospitalière"
 * #RH ^property[0].code = #dateValid
 * #RH ^property[=].valueDateTime = "2007-07-25T15:04:43+01:00"
@@ -94,6 +110,8 @@ Description: "Motif de fin d'activité"
 * #RL ^property[=].valueDateTime = "2007-07-25T15:04:43+01:00"
 * #RL ^property[+].code = #status
 * #RL ^property[=].valueCode = #active
+* #RL ^property[+].code = #epars
+* #RL ^property[=].valueBoolean = true
 * #RS "Retraite salariée"
 * #RS ^property[0].code = #dateValid
 * #RS ^property[=].valueDateTime = "2007-07-25T15:04:43+01:00"
@@ -101,3 +119,5 @@ Description: "Motif de fin d'activité"
 * #RS ^property[=].valueDateTime = "2007-07-25T15:04:43+01:00"
 * #RS ^property[+].code = #status
 * #RS ^property[=].valueCode = #active
+* #RS ^property[+].code = #epars
+* #RS ^property[=].valueBoolean = true
