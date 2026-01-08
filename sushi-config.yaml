@@ -1220,3 +1220,4 @@ menu:
         "Spécifications FHIR ": new-tab {{site.data.fhir.path}}index.html
         "Site de l'ANS ": new-tab https://esante.gouv.fr/
     Documentation: new-tab https://interop.esante.gouv.fr/ig/documentation/
+    SMT: new-tab https://smt.esante.gouv.fr/
