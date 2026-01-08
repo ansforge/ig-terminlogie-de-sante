@@ -200,6 +200,46 @@
     "status" : "active"
   },
   {
+    "id" : "v3-ActCode",
+    "name" : "ActCode",
+    "title" : "ActCode",
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+    "identifier" : "urn:oid:2.16.840.1.113883.5.4",
+    "status" : "active"
+  },
+  {
+    "id" : "v3-ActMood",
+    "name" : "ActMood",
+    "title" : "ActMood",
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-ActMood",
+    "identifier" : "urn:oid:2.16.840.1.113883.5.1001",
+    "status" : "active"
+  },
+  {
+    "id" : "v3-ActPriority",
+    "name" : "ActPriority",
+    "title" : "ActPriority",
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-ActPriority",
+    "identifier" : "urn:oid:2.16.840.1.113883.5.7",
+    "status" : "active"
+  },
+  {
+    "id" : "v3-ActStatus",
+    "name" : "ActStatus",
+    "title" : "ActStatus",
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-ActStatus",
+    "identifier" : "urn:oid:2.16.840.1.113883.5.14",
+    "status" : "active"
+  },
+  {
+    "id" : "v3-AdministrativeGender",
+    "name" : "AdministrativeGender",
+    "title" : "AdministrativeGender",
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-AdministrativeGender",
+    "identifier" : "urn:oid:2.16.840.1.113883.5.1",
+    "status" : "active"
+  },
+  {
     "id" : "terminologie-bdpm",
     "name" : "BDPM",
     "title" : "Base de données publique du médicament",
@@ -240,6 +280,30 @@
     "status" : "active"
   },
   {
+    "id" : "condition-clinical",
+    "name" : "ConditionClinicalStatusCodes",
+    "title" : "Condition Clinical Status Codes",
+    "url" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
+    "identifier" : "urn:oid:2.16.840.1.113883.4.642.1.1074",
+    "status" : "active"
+  },
+  {
+    "id" : "condition-ver-status",
+    "name" : "ConditionVerificationStatus",
+    "title" : "ConditionVerificationStatus",
+    "url" : "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+    "identifier" : "urn:oid:2.16.840.1.113883.4.642.1.1075",
+    "status" : "active"
+  },
+  {
+    "id" : "v3-Confidentiality",
+    "name" : "Confidentiality",
+    "title" : "Confidentiality",
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-Confidentiality",
+    "identifier" : "urn:oid:2.16.840.1.113883.5.25",
+    "status" : "active"
+  },
+  {
     "id" : "terminologie-sms",
     "name" : "Dictionnaire_SMS_Substance_Management_Services_",
     "title" : "Dictionnaire européen multilingue des substances entrant dans la composition de médicaments",
@@ -256,11 +320,43 @@
     "status" : "active"
   },
   {
+    "id" : "v2-0066",
+    "name" : "EmploymentStatus",
+    "title" : "employmentStatus",
+    "url" : "http://terminology.hl7.org/CodeSystem/v2-0066",
+    "identifier" : "urn:oid:2.16.840.1.113883.18.26",
+    "status" : "active"
+  },
+  {
+    "id" : "v3-EntityCode",
+    "name" : "EntityCode",
+    "title" : "EntityCode",
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-EntityCode",
+    "identifier" : "urn:oid:2.16.840.1.113883.5.1060",
+    "status" : "active"
+  },
+  {
+    "id" : "icd-o-3",
+    "name" : "IcdO3",
+    "title" : "International Classification of Diseases for Oncology, version 3.",
+    "url" : "http://terminology.hl7.org/CodeSystem/icd-o-3",
+    "identifier" : "urn:oid:2.16.840.1.113883.6.43.1",
+    "status" : "active"
+  },
+  {
     "id" : "terminologie-lahn",
     "name" : "LAHN",
     "title" : "Liste des Actes Inovants Hors Nomenclature",
     "url" : "https://smt.esante.gouv.fr/terminologie-lahn",
     "identifier" : "urn:oid:1.2.250.1.213.2.79",
+    "status" : "active"
+  },
+  {
+    "id" : "v3-mediaType",
+    "name" : "MediaType",
+    "title" : "Media Type",
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-mediaType",
+    "identifier" : "urn:oid:2.16.840.1.113883.5.79",
     "status" : "active"
   },
   {
@@ -277,6 +373,62 @@
     "title" : "Nomenclature Unifiée des Vaccins",
     "url" : "https://smt.esante.gouv.fr/terminologie-nuva",
     "identifier" : "urn:oid:1.3.6.1.4.1.48601.1",
+    "status" : "active"
+  },
+  {
+    "id" : "v3-ObservationInterpretation",
+    "name" : "ObservationInterpretation",
+    "title" : "ObservationInterpretation",
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+    "identifier" : "urn:oid:2.16.840.1.113883.5.83",
+    "status" : "active"
+  },
+  {
+    "id" : "v3-ObservationMethod",
+    "name" : "ObservationMethod",
+    "title" : "ObservationMethod",
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-ObservationMethod",
+    "identifier" : "urn:oid:2.16.840.1.113883.5.84",
+    "status" : "active"
+  },
+  {
+    "id" : "v3-ObservationValue",
+    "name" : "ObservationValue",
+    "title" : "ObservationValue",
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
+    "identifier" : "urn:oid:2.16.840.1.113883.5.1063",
+    "status" : "active"
+  },
+  {
+    "id" : "v3-orderableDrugForm",
+    "name" : "OrderableDrugForm",
+    "title" : "Orderable Drug Form",
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm",
+    "identifier" : "urn:oid:2.16.840.1.113883.5.85",
+    "status" : "active"
+  },
+  {
+    "id" : "v3-ParticipationFunction",
+    "name" : "ParticipationFunction",
+    "title" : "ParticipationFunction",
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-ParticipationFunction",
+    "identifier" : "urn:oid:2.16.840.1.113883.5.88",
+    "status" : "active"
+  },
+  {
+    "id" : "v3-ParticipationType",
+    "name" : "ParticipationType",
+    "title" : "ParticipationType",
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
+    "identifier" : "urn:oid:2.16.840.1.113883.5.90",
+    "status" : "active"
+  },
+  {
+    "id" : "v3-RoleCode",
+    "name" : "RoleCode",
+    "title" : "RoleCode",
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+    "identifier" : "urn:oid:2.16.840.1.113883.5.111",
     "status" : "active"
   },
   {
@@ -312,11 +464,43 @@
     "status" : "draft"
   },
   {
+    "id" : "v2-0488",
+    "name" : "SpecimenCollectionMethod",
+    "title" : "specimenCollectionMethod",
+    "url" : "http://terminology.hl7.org/CodeSystem/v2-0488",
+    "identifier" : "urn:oid:2.16.840.1.113883.18.312",
+    "status" : "active"
+  },
+  {
+    "id" : "v2-0487",
+    "name" : "SpecimenType",
+    "title" : "specimenType",
+    "url" : "http://terminology.hl7.org/CodeSystem/v2-0487",
+    "identifier" : "urn:oid:2.16.840.1.113883.18.311",
+    "status" : "active"
+  },
+  {
+    "id" : "v3-SpecimenType",
+    "name" : "SpecimenType",
+    "title" : "SpecimenType",
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-SpecimenType",
+    "identifier" : "urn:oid:2.16.840.1.113883.5.129",
+    "status" : "active"
+  },
+  {
     "id" : "terminologie-standardterms",
     "name" : "Standard_terms_EDQM",
     "title" : "Standard Terms Data Base Dictionnaire européen multilingue de termes normalisés descripteurs de médicaments",
     "url" : "https://smt.esante.gouv.fr/terminologie-standardterms",
     "identifier" : "urn:oid:0.4.0.127.0.16.1.1.2.1",
+    "status" : "active"
+  },
+  {
+    "id" : "v3-substanceAdminSubstitution",
+    "name" : "SubstanceAdminSubstitution",
+    "title" : "Substance Admin Substitution",
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-substanceAdminSubstitution",
+    "identifier" : "urn:oid:2.16.840.1.113883.5.1070",
     "status" : "active"
   },
   {
@@ -2325,6 +2509,14 @@
     "title" : "TerminologieCISIS - Terminologie des concepts non trouvés dans les autres terminologies",
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
     "identifier" : "urn:oid:1.2.250.1.213.1.1.4.322",
+    "status" : "active"
+  },
+  {
+    "id" : "v3-TimingEvent",
+    "name" : "TimingEvent",
+    "title" : "TimingEvent",
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-TimingEvent",
+    "identifier" : "urn:oid:2.16.840.1.113883.5.139",
     "status" : "active"
   },
   {
