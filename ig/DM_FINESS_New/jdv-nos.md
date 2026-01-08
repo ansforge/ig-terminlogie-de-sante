@@ -246,9 +246,9 @@ Vous touverez ici la liste des JDV du NOS.
 | [JDV_J285_Besoins_SERAFIN](ValueSet-JDV-J285-Besoins-SERAFIN.md) | Liste des besoins provenant de la terminologie SERAFIN | 25/10/2024 |
 | [JDV_J286_ProfilUtilisateurReferentielNational_ROR](ValueSet-JDV-J286-ProfilUtilisateurReferentielNational-ROR.md) | Profils utilisateurs du ROR National | 28/03/2025 |
 | [JDV_J369_MotifRestrictionDiffusion_ROR](ValueSet-JDV-J369-MotifRestrictionDiffusion-ROR.md) | Nomenclature contenant les motifs de restriction de diffusion | 25/04/2025 |
-| [JDV_ModeleDocumentCDA](ValueSet-JDV-ModeleDocumentCDA.md) | JDV avec l'ensemble des codes de la TRE_R220_ModeleDocumentCDAStructure et TRE_R221_ModeleDocumentCDANonStructure | 07/01/2026 |
-| [JDV_TRE_R221_ModeleDocumentCDANonStructure](ValueSet-JDV-TRE-R221-ModeleDocumentCDANonStructure-all.md) | JDV avec l'ensemble des codes actifs de la TRE_R221_ModeleDocumentCDANonStructure | 07/01/2026 |
-| [JDV_TRE_R222_MediaTypeCorpsCDANonStructure](ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all.md) | JDV avec l'ensemble des codes actifs de la TRE_R222_MediaTypeCorpsCDANonStructure | 07/01/2026 |
+| [JDV_ModeleDocumentCDA](ValueSet-JDV-ModeleDocumentCDA.md) | JDV avec l'ensemble des codes de la TRE_R220_ModeleDocumentCDAStructure et TRE_R221_ModeleDocumentCDANonStructure | 08/01/2026 |
+| [JDV_TRE_R221_ModeleDocumentCDANonStructure](ValueSet-JDV-TRE-R221-ModeleDocumentCDANonStructure-all.md) | JDV avec l'ensemble des codes actifs de la TRE_R221_ModeleDocumentCDANonStructure | 08/01/2026 |
+| [JDV_TRE_R222_MediaTypeCorpsCDANonStructure](ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all.md) | JDV avec l'ensemble des codes actifs de la TRE_R222_MediaTypeCorpsCDANonStructure | 08/01/2026 |
 | [VsTreG09DepartementOmAll](ValueSet-vs-tre-g09-departement-om-all.md) | Jeu de valeurs ALL contenant le référentiel des codes départements et collectivités d’outre-mer provenant du COG INSEE + Monaco | 22/02/2025 |
 | [VsTreR272EquipementMaterielLourdAll](ValueSet-vs-tre-r272-equipement-materiel-lourd-all.md) | Jeu de valeurs ALL contenant les équipements matériels lourds | 22/02/2025 |
 | [VsTreR274ActiviteSanitaireReguleeAll](ValueSet-vs-tre-r274-activite-sanitaire-regulee-all.md) | Jeu de valeurs FINESS contenant les activités sanitaires soumises à une régulation de la part de l'ARS. | 22/02/2025 |

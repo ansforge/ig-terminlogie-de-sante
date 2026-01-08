@@ -9,7 +9,7 @@
 | | | |
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/terminologie-cim11-mms | *Version*:2025-01 | |
-| Active as of 2026-01-07 | *Responsible:*Agence du numérique en santé | *Computable Name*:CIM11_MMS |
+| Active as of 2026-01-08 | *Responsible:*Agence du numérique en santé | *Computable Name*:CIM11_MMS |
 | *Other Identifiers:*OID:2.16.840.1.113883.6.347 (use: usual, ), https://smt.esante.gouv.fr/#terminologie-cim11-mms (use: secondary, ) | | |
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
@@ -56,7 +56,7 @@
   "title" : "Classification internationale des maladies et des problèmes de santé connexes - 11ème révision",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-01-07T09:16:12+00:00",
+  "date" : "2026-01-08T09:55:22+00:00",
   "publisher" : "Agence du numérique en santé",
   "valueSet" : "https://smt.esante.gouv.fr/terminologie-cim11-mms?vs",
   "content" : "not-present",

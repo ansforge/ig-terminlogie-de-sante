@@ -58,11 +58,6 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
 * [Nomenclature des besoins et des prestations](CodeSystem-terminologie-SERAFINPH.md): [JDV_J282_TransportsLiesAuProjetIndividuel_SERAFIN](ValueSet-JDV-J282-TransportsLiesAuProjetIndividuel-SERAFIN.md), [JDV_J283_PrestationsIndirects_SERAFIN](ValueSet-JDV-J283-PrestationsIndirects-SERAFIN.md), [JDV_J284_PrestationsDirects_SERAFIN](ValueSet-JDV-J284-PrestationsDirects-SERAFIN.md) and [JDV_J285_Besoins_SERAFIN](ValueSet-JDV-J285-Besoins-SERAFIN.md)
 
 
-* The information in the various pages of the WHO web site is issued by the World Health Organization for general distribution. The information presented is protected under the Berne Convention for the Protection of Literature and Artistic works, under other international conventions and under national laws on copyright and neighbouring rights. Extracts of the information in the web site may be reviewed, reproduced or translated for research or private study but not for sale or for use in conjunction with commercial purposes. Any use of information in the web site should be accompanied by an acknowledgment of WHO as the source, citing the uniform resource locator (URL) of the article. Reproduction or translation of substantial portions of the web site, or any use other than for educational or other non-commercial purposes, require explicit, prior authorization in writing. Applications and enquiries should be addressed to the programme responsible for the page used. The designations employed and the presentation of the material in this publication do not imply the expression of any opinion whatsoever on the part of the World Health Organization concerning the legal status of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or boundaries. Dotted and dashed lines on maps represent approximate border lines for which there may not yet be full agreement. The mention of specific companies or of certain manufacturers' products does not imply that they are endorsed or recommended by the World Health Organization in preference to others of a similar nature that are not mentioned. Errors and omissions excepted, the names of proprietary products are distinguished by initial capital letters. The World Health Organization does not warrant that the information contained in the web site is complete and correct and shall not be liable whatsoever for any damages incurred as a result of its use.
-
-* [ICD-O-3](http://tx.fhir.org/r4/ValueSet/icd-o-3): [JdvMorphologieCisis](ValueSet-jdv-morphologie-cisis.md)
-
-
 * These codes are excerpted from Digital Imaging and Communications in Medicine (DICOM) Standard, Part 16: Content Mapping Resource, Copyright © 2011 by the National Electrical Manufacturers Association.
 
 * [DICOM Controlled Terminology Definitions](http://hl7.org/fhir/R4/codesystem-dicom-dcim.html): [JdvAxamenComplementaireCisis](ValueSet-jdv-examen-complementaire-cisis.md), [JdvBilanTechniqueCisis](ValueSet-jdv-bilan-technique-cisis.md)...Show 7 more,[JdvConduiteATenir1Cisis](ValueSet-jdv-conduite-a-tenir-1-cisis.md),[JdvConduiteATenir3Cisis](ValueSet-jdv-conduite-a-tenir-3-cisis.md),[JdvImagerieObjectifReferenceCisis](ValueSet-jdv-imagerie-objectif-reference-cisis.md),[JdvModaliteAcquisitionCisis](ValueSet-jdv-modalite-acquisition-cisis.md),[JdvModaliteDemandeActeImagerieCisis](ValueSet-jdv-modalite-demande-acte-imagerie-cisis.md),[JdvQuantiteExpositionRayonnementsCisis](ValueSet-jdv-quantite-exposition-rayonnements-cisis.md)and[JdvTechniqueImagerieD2lmCisis](ValueSet-jdv-technique-imagerie-d2lm-cisis.md)
@@ -75,38 +70,41 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
 
 * This material contains content that is copyright of SNOMED International. Implementers of these specifications must have the appropriate SNOMED CT Affiliate license - for more information contact [https://www.snomed.org/get-snomed](https://www.snomed.org/get-snomed) or [info@snomed.org](mailto:info@snomed.org).
 
-* [SNOMED Clinical Terms&reg; (SNOMED CT&reg;)](CodeSystem-11000315107-20250621.md): [DesignationUse](ValueSet-designation-use.md), [JDV_J147_MethodHeartrate_ENS](ValueSet-JDV-J147-MethodHeartrate-ENS.md)...Show 388 more,[JDV_J148_ReferenceRangeAppliesTo_CISIS](ValueSet-JDV-J148-ReferenceRangeAppliesTo-CISIS.md),[JDV_J149_BodySiteBP_ENS](ValueSet-JDV-J149-BodySiteBP-ENS.md),[JDV_J151_BodySiteBodyTemperature_ENS](ValueSet-JDV-J151-BodySiteBodyTemperature-ENS.md),[JDV_J155_MethodGlucoseSanguin_ENS](ValueSet-JDV-J155-MethodGlucoseSanguin-ENS.md),[JDV_J161_Lateralite_CISIS](ValueSet-JDV-J161-Lateralite-CISIS.md),[JdvAbordVeineuxCentralCisis](ValueSet-jdv-abord-veineux-central-cisis.md),[JdvAbordVeineuxPeripheriqueCisis](ValueSet-jdv-abord-veineux-peripherique-cisis.md),[JdvAccesArtereCisis](ValueSet-jdv-acces-artere-cisis.md),[JdvActeObpCisis](ValueSet-jdv-acte-obp-cisis.md),[JdvAdditionGrandeurCisis](ValueSet-jdv-addition-grandeur-cisis.md),[JdvAgeCisis](ValueSet-jdv-age-cisis.md),[JdvAideAuDeplacementCisis](ValueSet-jdv-aide-au-deplacement-cisis.md),[JdvAllergieVaccinCisis](ValueSet-jdv-allergie-vaccin-cisis.md),[JdvAntecedentPersonnelCisis](ValueSet-jdv-antecedent-personnel-cisis.md),[JdvAppreciationDiagnosticCentreCisis](ValueSet-jdv-appreciation-diagnostic-centre-cisis.md),[JdvArtereAnterieureCisis](ValueSet-jdv-artere-anterieure-cisis.md),[JdvArtereCerveletCisis](ValueSet-jdv-artere-cervelet-cisis.md),[JdvArterePosterieureCisis](ValueSet-jdv-artere-posterieure-cisis.md),[JdvArtereTroncCisis](ValueSet-jdv-artere-tronc-cisis.md),[JdvAspectLiquideAmniotiqueCisis](ValueSet-jdv-aspect-liquide-amniotique-cisis.md),[JdvAutreRisqueCisis](ValueSet-jdv-autre-risque-cisis.md),[JdvAutreSymptomeAvcCisis](ValueSet-jdv-autre-symptome-avc-cisis.md),[JdvAutreSymptomeExNeuroCisis](ValueSet-jdv-autre-symptome-ex-neuro-cisis.md),[JdvCasSporadiqueFamilialCisis](ValueSet-jdv-cas-sporadique-familial-cisis.md),[JdvCddFaCisis](ValueSet-jdv-cdd-fa-cisis.md),[JdvCerveletLocalisationCisis](ValueSet-jdv-cervelet-localisation-cisis.md),[JdvCirconstanceDecesCisis](ValueSet-jdv-circonstance-deces-cisis.md),[JdvCodeProblemeCisis](ValueSet-jdv-code-probleme-cisis.md),[JdvConduiteATenir1Cisis](ValueSet-jdv-conduite-a-tenir-1-cisis.md),[JdvConduiteATenir2Cisis](ValueSet-jdv-conduite-a-tenir-2-cisis.md),[JdvConduiteATenir3Cisis](ValueSet-jdv-conduite-a-tenir-3-cisis.md),[JdvContexteActiviteCisis](ValueSet-jdv-contexte-activite-cisis.md),[JdvContrindicationCisis](ValueSet-jdv-contre-indication-cisis.md),[JdvDateConsultationCisis](ValueSet-jdv-date-consultation-cisis.md),[JdvDeficiencePhysiqueCisis](ValueSet-jdv-deficience-physique-cisis.md),[JdvDepistageNeonatalCisis](ValueSet-jdv-depistage-neonatal-cisis.md),[JdvDeplacementCisis](ValueSet-jdv-deplacement-cisis.md),[JdvDestinationObpSneCisis](ValueSet-jdv-destination-obp-sne-cisis.md),[JdvDestinationTransfertCisis](ValueSet-jdv-destination-transfert-cisis.md),[JdvDifficulteCisis](ValueSet-jdv-difficulte-cisis.md),[JdvDispositionPretherapeutiqueCisis](ValueSet-jdv-disposition-pretherapeutique-cisis.md),[JdvEtatNaissanceCisis](ValueSet-jdv-etat-naissance-cisis.md),[JdvEtatPerineeCisis](ValueSet-jdv-etat-perinee-cisis.md),[JdvEtatPsychiqueCisis](ValueSet-jdv-etat-psychique-cisis.md),[JdvEtiologieAvcCisis](ValueSet-jdv-etiologie-avc-cisis.md),[JdvEvaluationDepressionGeriatriqueResultatCisis](ValueSet-jdv-evaluation-depression-geriatrique-resultat-cisis.md),[JdvEvaluationDouleurCisis](ValueSet-jdv-evaluation-douleur-cisis.md),[JdvEvolutionCisis](ValueSet-jdv-evolution-cisis.md),[JdvExamenRealiseCisis](ValueSet-jdv-examen-realise-cisis.md),[JdvFacteurDeRisqueProfessionnelCisis](ValueSet-jdv-facteur-de-risque-professionnel-cisis.md),[JdvFacteurDeRisqueSocialCisis](ValueSet-jdv-facteur-de-risque-social-cisis.md),[JdvGesteReanimationNouveauNeCisis](ValueSet-jdv-geste-reanimation-nouveau-ne-cisis.md),[JdvGraviteCisis](ValueSet-jdv-gravite-cisis.md),[JdvGroupeRhesusCisis](ValueSet-jdv-groupe-rhesus-cisis.md),[JdvHandicapDeficitDluDomCisis](ValueSet-jdv-handicap-deficit-dlu-dom-cisis.md),[JdvHandicapDeficitDluEhpadCisis](ValueSet-jdv-handicap-deficit-dlu-ehpad-cisis.md),[JdvHealthStatusCodeCisis](ValueSet-jdv-health-status-code-cisis.md),[JdvHemisphereLobaireCisis](ValueSet-jdv-hemisphere-lobaire-cisis.md),[JdvHemisphereProfondCisis](ValueSet-jdv-hemisphere-profond-cisis.md),[JdvHumanSubstanceAdministrationSiteCisis](ValueSet-jdv-human-substance-administration-site-cisis.md),[JdvImmunizationApproachSiteCodeCisis](ValueSet-jdv-immunization-approach-site-code-cisis.md),[JdvImpactMutationCisis](ValueSet-jdv-impact-mutation-cisis.md),[JdvImportancCliniqueCisis](ValueSet-jdv-importance-clinique-cisis.md),[JdvImputabiliteCisis](ValueSet-jdv-imputabilite-cisis.md),[JdvInterpretationEcgCisis](ValueSet-jdv-interpretation-ecg-cisis.md),[JdvInvestigationRealiseeCisis](ValueSet-jdv-investigation-realisee-cisis.md),[JdvIssueGrossesseCisis](ValueSet-jdv-issue-grossesse-cisis.md),[JdvJourSemaineCisis](ValueSet-jdv-jour-semaine-cisis.md),[JdvLateraliteCisis](ValueSet-jdv-lateralite-cisis.md),[JdvLateraliteManuelleCisis](ValueSet-jdv-lateralite-manuelle-cisis.md),[JdvLateraliteTechniqueImagerieCisis](ValueSet-jdv-lateralite-technique-imagerie-cisis.md),[JdvLieuAccouchementCisis](ValueSet-jdv-lieu-accouchement-cisis.md),[JdvLieuDeVieCisis](ValueSet-jdv-lieu-de-vie-cisis.md),[JdvLocalisationAnatomiqueCisis](ValueSet-jdv-localisation-anatomique-cisis.md),[JdvLocalisationAnesthesieCisis](ValueSet-jdv-localisation-anesthesie-cisis.md),[JdvLocalisationHemorragieCerebraleCisis](ValueSet-jdv-localisation-hemorragie-cerebrale-cisis.md),[JdvLocalisationInfarctusCerebralCisis](ValueSet-jdv-localisation-infarctus-cerebral-cisis.md),[JdvLocalisationPrelevementCcuCisis](ValueSet-jdv-localisation-prelevement-ccu-cisis.md),[JdvLocalisationThromboseVeineuseCisis](ValueSet-jdv-localisation-thrombose-veineuse-cisis.md),[JdvMalformationAntenataleCisis](ValueSet-jdv-malformation-antenatale-cisis.md),[JdvMesureAssocieeCisis](ValueSet-jdv-mesure-associee-cisis.md),[JdvMethodeAccouchementCisis](ValueSet-jdv-methode-accouchement-cisis.md),[JdvMethodeDeMesureAcuiteVisuelleCisis](ValueSet-jdv-methode-de-mesure-acuite-visuelle-cisis.md),[JdvModaliteEntreeCisis](ValueSet-jdv-modalite-entree-cisis.md),[JdvModaliteSortieCisis](ValueSet-jdv-modalite-sortie-cisis.md),[JdvModeAccouchementCisis](ValueSet-jdv-mode-accouchement-cisis.md),[JdvModeDeVieCisis](ValueSet-jdv-mode-de-vie-cisis.md),[JdvModeDebutTravailCisis](ValueSet-jdv-mode-debut-travail-cisis.md),[JdvModeNaissanceCisis](ValueSet-jdv-mode-naissance-cisis.md),[JdvModeSortieCisis](ValueSet-jdv-mode-sortie-cisis.md),[JdvModeSortieObpScmCisis](ValueSet-jdv-mode-sortie-obp-scm-cisis.md),[JdvModeSortieObpSemCisis](ValueSet-jdv-mode-sortie-obp-sem-cisis.md),[JdvModeSortieObpSneCisis](ValueSet-jdv-mode-sortie-obp-sne-cisis.md),[JdvModeSortieObpSnmCisis](ValueSet-jdv-mode-sortie-obp-snm-cisis.md),[JdvModificateurTopographiqueCisis](ValueSet-jdv-modificateur-topographique-cisis.md),[JdvMotifEchographieCisis](ValueSet-jdv-motif-echographie-cisis.md),[JdvMotifMiseAJourCisis](ValueSet-jdv-motif-mise-a-jour-cisis.md),[JdvObjectifActiviteCisis](ValueSet-jdv-objectif-activite-cisis.md),[JdvObpTestAuditionCisis](ValueSet-jdv-obp-test-audition-cisis.md),[JdvObservationEnfantCisis](ValueSet-jdv-observation-enfant-cisis.md),[JdvObservationEtatPatientCisis](ValueSet-jdv-observation-etat-patient-cisis.md),[JdvOeilExamineCisis](ValueSet-jdv-oeil-examine-cisis.md),[JdvOrientationBaseDuPrismeCisis](ValueSet-jdv-orientation-base-du-prisme-cisis.md),[JdvOrigineEffetIndesirableCisis](ValueSet-jdv-origine-effet-indesirable-cisis.md),[JdvPatho1ereSemaineCs8Cisis](ValueSet-jdv-patho-1ere-semaine-cs8-cisis.md),[JdvPresentationFoetaleCisis](ValueSet-jdv-presentation-foetale-cisis.md),[JdvPriseEnChargeReguliereCisis](ValueSet-jdv-prise-en-charge-reguliere-cisis.md),[JdvQuantiteLiquideAmniotiqueCisis](ValueSet-jdv-quantite-liquide-amniotique-cisis.md),[JdvRcpAppareilCisis](ValueSet-jdv-rcp-appareil-cisis.md),[JdvRcpOrganeCisis](ValueSet-jdv-rcp-organe-cisis.md),[JdvRealisationActiviteCisis](ValueSet-jdv-realisation-activite-cisis.md),[JdvRechercheAghbsCisis](ValueSet-jdv-recherche-aghbs-cisis.md),[JdvReferenceRangeAppliesToCisis](ValueSet-jdv-reference-range-applies-to-cisis.md),[JdvRegionAnatomiqueCisis](ValueSet-jdv-region-anatomique-cisis.md),[JdvReperageTroubleNeurodeveloppementCisis](ValueSet-jdv-reperage-trouble-neurodeveloppement-cisis.md),[JdvRessourceUtiliseeCisis](ValueSet-jdv-ressource-utilisee-cisis.md),[JdvResultatDepistageAcideAscorbiqueCisis](ValueSet-jdv-resultat-depistage-acide-ascorbique-cisis.md),[JdvResultatDepistageBilirubinemieCisis](ValueSet-jdv-resultat-depistage-bilirubinemie-cisis.md),[JdvResultatDepistageBilirubinurieCisis](ValueSet-jdv-resultat-depistage-bilirubinurie-cisis.md),[JdvResultatDepistageCetonemieCisis](ValueSet-jdv-resultat-depistage-cetonemie-cisis.md),[JdvResultatDepistageCholesterolCisis](ValueSet-jdv-resultat-depistage-cholesterol-cisis.md),[JdvResultatDepistageCisis](ValueSet-jdv-resultat-depistage-cisis.md),[JdvResultatDepistageCorpsCetoniquesCisis](ValueSet-jdv-resultat-depistage-corps-cetoniques-cisis.md),[JdvResultatDepistageCrpCisis](ValueSet-jdv-resultat-depistage-crp-cisis.md),[JdvResultatDepistageGlucoseCisis](ValueSet-jdv-resultat-depistage-glucose-cisis.md),[JdvResultatDepistageGlycemieCisis](ValueSet-jdv-resultat-depistage-glycemie-cisis.md),[JdvResultatDepistageHematurieCisis](ValueSet-jdv-resultat-depistage-hematurie-cisis.md),[JdvResultatDepistageLeucocyturieCisis](ValueSet-jdv-resultat-depistage-leucocyturie-cisis.md),[JdvResultatDepistageNitriturieCisis](ValueSet-jdv-resultat-depistage-nitriturie-cisis.md),[JdvResultatDepistageProteinurieCisis](ValueSet-jdv-resultat-depistage-proteinurie-cisis.md),[JdvResultatDepistageRuptureMembranePhCisis](ValueSet-jdv-resultat-depistage-rupture-membrane-ph-cisis.md),[JdvResultatDepistageUrobilinogenurieCisis](ValueSet-jdv-resultat-depistage-urobilinogenurie-cisis.md),[JdvResultatRechercheHpvCcuCisis](ValueSet-jdv-resultat-recherche-hpv-ccu-cisis.md),[JdvScoreAsaCisis](ValueSet-jdv-score-asa-cisis.md),[JdvScoreCormackCisis](ValueSet-jdv-score-cormack-cisis.md),[JdvScoreMallampatiCisis](ValueSet-jdv-score-mallampati-cisis.md),[JdvSedentariteCisis](ValueSet-jdv-sedentarite-cisis.md),[JdvSeveriteObservationCisis](ValueSet-jdv-severite-observation-cisis.md),[JdvSiteInterventionCisis](ValueSet-jdv-site-intervention-cisis.md),[JdvStaticSemProcedureCisis](ValueSet-jdv-static-sem-procedure-cisis.md),[JdvStatutActuelDiagnosticCisis](ValueSet-jdv-statut-actuel-diagnostic-cisis.md),[JdvStatutDocumentCisis](ValueSet-jdv-statut-document-cisis.md),[JdvStatutEvtCisis](ValueSet-jdv-statut-evt-cisis.md),[JdvStatutGrossesseCisis](ValueSet-jdv-statut-grossesse-cisis.md),[JdvStatutResultatCisis](ValueSet-jdv-statut-resultat-cisis.md),[JdvStatutTabagiqueCisis](ValueSet-jdv-statut-tabagique-cisis.md),[JdvSymptomeAvcCisis](ValueSet-jdv-symptome-avc-cisis.md),[JdvTailleCisis](ValueSet-jdv-taille-cisis.md),[JdvTechniqueDiagnosticCisis](ValueSet-jdv-technique-diagnostic-cisis.md),[JdvTopoTroubleCisis](ValueSet-jdv-topo-trouble-cisis.md),[JdvTraitementPreventifCisis](ValueSet-jdv-traitement-preventif-cisis.md),[JdvTransfertMutationCisis](ValueSet-jdv-transfert-mutation-cisis.md),[JdvTypeActeEunvCisis](ValueSet-jdv-type-acte-eunv-cisis.md),[JdvTypeActePostPartumCisis](ValueSet-jdv-type-acte-post-partum-cisis.md),[JdvTypeAnalgesieCisis](ValueSet-jdv-type-analgesie-cisis.md),[JdvTypeAnesthesieApresNaissanceCisis](ValueSet-jdv-type-anesthesie-apres-naissance-cisis.md),[JdvTypeAnesthesieAvantNaissanceCisis](ValueSet-jdv-type-anesthesie-avant-naissance-cisis.md),[JdvTypeAnesthesieCisis](ValueSet-jdv-type-anesthesie-cisis.md),[JdvTypeDeDistanceDeVisualisationCisis](ValueSet-jdv-type-de-distance-de-visualisation-cisis.md),[JdvTypeDeSuiviCisis](ValueSet-jdv-type-de-suivi-cisis.md),[JdvTypeDirectiveAnticipeeCisis](ValueSet-jdv-type-directive-anticipee-cisis.md),[JdvTypeDispositifOculaireCisis](ValueSet-jdv-type-dispositif-oculaire-cisis.md),[JdvTypeEvenementIndesirablePrevisibleCisis](ValueSet-jdv-type-evenement-indesirable-previsible-cisis.md),[JdvTypeGardeCisis](ValueSet-jdv-type-garde-cisis.md),[JdvTypeInterventionCisis](ValueSet-jdv-type-intervention-cisis.md),[JdvTypeInterventionVoieBasseCisis](ValueSet-jdv-type-intervention-voie-basse-cisis.md),[JdvTypeIntubationCisis](ValueSet-jdv-type-intubation-cisis.md),[JdvTypePresentationCisis](ValueSet-jdv-type-presentation-cisis.md),[JdvTypeServiceCisis](ValueSet-jdv-type-service-cisis.md),[JdvTypeTraitementFrcpCisis](ValueSet-jdv-type-traitement-frcp-cisis.md),[JdvTypeTraitementIvCisis](ValueSet-jdv-type-traitement-iv-cisis.md),[JdvTypeTraitementPpsCisis](ValueSet-jdv-type-traitement-pps-cisis.md),[JdvUfcvComposantProtheseValvulaireCisis](ValueSet-jdv-ufcv-composant-prothese-valvulaire-cisis.md),[JdvUfcvLateraliteCisis](ValueSet-jdv-ufcv-lateralite-cisis.md),[JdvUfcvLocalisationDefibrillateurCisis](ValueSet-jdv-ufcv-localisation-defibrillateur-cisis.md),[JdvUfcvLocalisationSondeCisis](ValueSet-jdv-ufcv-localisation-sonde-cisis.md),[JdvUfcvStadeNyhaCisis](ValueSet-jdv-ufcv-stade-nyha-cisis.md),[JdvUfcvVoieAbordCisis](ValueSet-jdv-ufcv-voie-abord-cisis.md),[LAHN](CodeSystem-terminologie-lahn.md),[TRE_A00_ProducteurDocNonPS](CodeSystem-TRE-A00-ProducteurDocNonPS.md),[TRE_A01_CadreExercice](CodeSystem-TRE-A01-CadreExercice.md),[TRE_A02_ProfessionSavFaire_CISIS](CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.md),[TRE_A03_ClasseDocument](CodeSystem-TRE-A03-ClasseDocument.md),[TRE_A05_TypeDocComplementaire](CodeSystem-TRE-A05-TypeDocComplementaire.md),[TRE_A06_FormatCodeComplementaire](CodeSystem-TRE-A06-FormatCodeComplementaire.md),[TRE_A07_StatutVisibiliteDocument](CodeSystem-TRE-A07-StatutVisibiliteDocument.md),[TRE_A08_HL7Confidentiality](CodeSystem-TRE-A08-HL7Confidentiality.md),[TRE_A09_DICOMuidRegistry](CodeSystem-TRE-A09-DICOMuidRegistry.md),[TRE_A11_IheFormatCode](CodeSystem-TRE-A11-IheFormatCode.md),[TRE_A13_HL7ParticipationType](CodeSystem-TRE-A13-HL7ParticipationType.md),[TRE_G00_Langue](CodeSystem-TRE-G00-Langue.md),[TRE_G01_CategorieProduit](CodeSystem-TRE-G01-CategorieProduit.md),[TRE_G02_TypeProduit](CodeSystem-TRE-G02-TypeProduit.md),[TRE_G03_CiviliteCPx](CodeSystem-TRE-G03-CiviliteCPx.md),[TRE_G04_NiveauResponsabiliteCPx](CodeSystem-TRE-G04-NiveauResponsabiliteCPx.md),[TRE_G05_SousSectionTableauCNOP](CodeSystem-TRE-G05-SousSectionTableauCNOP.md),[TRE_G07_TypeIdentifiantStructure](CodeSystem-TRE-G07-TypeIdentifiantStructure.md),[TRE_G08_TypeIdentifiantPersonne](CodeSystem-TRE-G08-TypeIdentifiantPersonne.md),[TRE_G09_DepartementOM](CodeSystem-TRE-G09-DepartementOM.md),[TRE_G100_Specialite_AM](CodeSystem-TRE-G100-Specialite-AM.md),[TRE_G11_NatureQualificationADELI](CodeSystem-TRE-G11-NatureQualificationADELI.md),[TRE_G12_SpecialiteADELI](CodeSystem-TRE-G12-SpecialiteADELI.md),[TRE_G16_ProfessionFormation](CodeSystem-TRE-G16-ProfessionFormation.md),[TRE_G17_ModeExerciceCPx](CodeSystem-TRE-G17-ModeExerciceCPx.md),[TRE_G18_AttributionParticuliereADELI](CodeSystem-TRE-G18-AttributionParticuliereADELI.md),[TRE_G19_SecteurActiviteADELI](CodeSystem-TRE-G19-SecteurActiviteADELI.md),[TRE_G20_Specialisation](CodeSystem-TRE-G20-Specialisation.md),[TRE_R01_EnsembleSavoirFaire_CISIS](CodeSystem-TRE-R01-EnsembleSavoirFaire-CISIS.md),[TRE_R02_SecteurActivite](CodeSystem-TRE-R02-SecteurActivite.md),[TRE_R03_AttributionParticuliere](CodeSystem-TRE-R03-AttributionParticuliere.md),[TRE_R04_TypeSavoirFaire](CodeSystem-TRE-R04-TypeSavoirFaire.md),[TRE_R06_SectionTableauCNOP](CodeSystem-TRE-R06-SectionTableauCNOP.md),[TRE_R09_CategorieProfessionnelle](CodeSystem-TRE-R09-CategorieProfessionnelle.md),[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md),[TRE_R17_TypeAutorisation](CodeSystem-TRE-R17-TypeAutorisation.md),[TRE_R18_DisciplineAutorisation](CodeSystem-TRE-R18-DisciplineAutorisation.md),[TRE_R200_CanalCommunication](CodeSystem-TRE-R200-CanalCommunication.md),[TRE_R202_AccessibiliteLieu](CodeSystem-TRE-R202-AccessibiliteLieu.md),[TRE_R203_StatutLieu](CodeSystem-TRE-R203-StatutLieu.md),[TRE_R204_DirectionLongitude](CodeSystem-TRE-R204-DirectionLongitude.md),[TRE_R205_DirectionLatitude](CodeSystem-TRE-R205-DirectionLatitude.md),[TRE_R206_TypeContact](CodeSystem-TRE-R206-TypeContact.md),[TRE_R207_TypeOrganisationInterne](CodeSystem-TRE-R207-TypeOrganisationInterne.md),[TRE_R208_ClasseAge](CodeSystem-TRE-R208-ClasseAge.md),[TRE_R209_TypeActivite](CodeSystem-TRE-R209-TypeActivite.md),[TRE_R20_Pays](CodeSystem-TRE-R20-Pays.md),[TRE_R211_ActiviteOperationnelle](CodeSystem-TRE-R211-ActiviteOperationnelle.md),[TRE_R212_Equipement](CodeSystem-TRE-R212-Equipement.md),[TRE_R213_ModePriseEnCharge](CodeSystem-TRE-R213-ModePriseEnCharge.md),[TRE_R214_SpecialiteUnite](CodeSystem-TRE-R214-SpecialiteUnite.md),[TRE_R216_HL7RoleCode](CodeSystem-TRE-R216-HL7RoleCode.md),[TRE_R21_Fonction](CodeSystem-TRE-R21-Fonction.md),[TRE_R220_ModeleDocumentCDAStructure](CodeSystem-TRE-R220-ModeleDocumentCDAStructure.md),[TRE_R221_ModeleDocumentCDANonStructure](CodeSystem-TRE-R221-ModeleDocumentCDANonStructure.md),[TRE_R222_MediaTypeCorpsCDANonStructure](CodeSystem-TRE-R222-MediaTypeCorpsCDANonStructure.md),[TRE_R224_NiveauFormAcquis](CodeSystem-TRE-R224-NiveauFormAcquis.md),[TRE_R225_AnneeUniversitaire](CodeSystem-TRE-R225-AnneeUniversitaire.md),[TRE_R226_Dip2iemeCycleNQ](CodeSystem-TRE-R226-Dip2iemeCycleNQ.md),[TRE_R227_ChampActivite](CodeSystem-TRE-R227-ChampActivite.md),[TRE_R22_GenreActivite](CodeSystem-TRE-R22-GenreActivite.md),[TRE_R231_PalierAuthentification](CodeSystem-TRE-R231-PalierAuthentification.md),[TRE_R233_TypeFermetureEG](CodeSystem-TRE-R233-TypeFermetureEG.md),[TRE_R238_OuvertureAnnuelle](CodeSystem-TRE-R238-OuvertureAnnuelle.md),[TRE_R239_PublicPrisEnCharge](CodeSystem-TRE-R239-PublicPrisEnCharge.md),[TRE_R23_ModeExercice](CodeSystem-TRE-R23-ModeExercice.md),[TRE_R241_AideFinanciere](CodeSystem-TRE-R241-AideFinanciere.md),[TRE_R243_CompetenceSpecifique](CodeSystem-TRE-R243-CompetenceSpecifique.md),[TRE_R244_CategorieOrganisation](CodeSystem-TRE-R244-CategorieOrganisation.md),[TRE_R245_SpecialisationDePriseEnCharge](CodeSystem-TRE-R245-SpecialisationDePriseEnCharge.md),[TRE_R246_TypeTarif](CodeSystem-TRE-R246-TypeTarif.md),[TRE_R248_ModeAcces](CodeSystem-TRE-R248-ModeAcces.md),[TRE_R249_Sexe](CodeSystem-TRE-R249-Sexe.md),[TRE_R24_TypeActiviteLiberale](CodeSystem-TRE-R24-TypeActiviteLiberale.md),[TRE_R251_FonctionContact](CodeSystem-TRE-R251-FonctionContact.md),[TRE_R252_TypeHoraire](CodeSystem-TRE-R252-TypeHoraire.md),[TRE_R253_TypeMaternite](CodeSystem-TRE-R253-TypeMaternite.md),[TRE_R254_TypeEvenement](CodeSystem-TRE-R254-TypeEvenement.md),[TRE_R256_TypeMessagerie](CodeSystem-TRE-R256-TypeMessagerie.md),[TRE_R257_TypeBAL](CodeSystem-TRE-R257-TypeBAL.md),[TRE_R258_RelationPriseCharge](CodeSystem-TRE-R258-RelationPriseCharge.md),[TRE_R259_HL7ParticipationFunction](CodeSystem-TRE-R259-HL7ParticipationFunction.md),[TRE_R261_AutreSalarieStructureSante](CodeSystem-TRE-R261-AutreSalarieStructureSante.md),[TRE_R262_CategorieSocioProfessionnelle](CodeSystem-TRE-R262-CategorieSocioProfessionnelle.md),[TRE_R263_TypeNumeroIdentification](CodeSystem-TRE-R263-TypeNumeroIdentification.md),[TRE_R264_PrestationNonObligatoireIncluse](CodeSystem-TRE-R264-PrestationNonObligatoireIncluse.md),[TRE_R266_FamilleActiviteOperationnelleHorsSerafin](CodeSystem-TRE-R266-FamilleActiviteOperationnelleHorsSerafin.md),[TRE_R267_SexeProvenanceISO](CodeSystem-TRE-R267-SexeProvenanceISO.md),[TRE_R268_PaysProvenanceISO](CodeSystem-TRE-R268-PaysProvenanceISO.md),[TRE_R269_AvailabilityStatusProvenanceOasis](CodeSystem-TRE-R269-AvailabilityStatusProvenanceOasis.md),[TRE_R270_AvailabilityStatus](CodeSystem-TRE-R270-AvailabilityStatus.md),[TRE_R272_EquipementMaterielLourd](CodeSystem-TRE-R272-EquipementMaterielLourd.md),[TRE_R274_ActiviteSanitaireRegulee](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md),[TRE_R275_ModaliteActivite](CodeSystem-TRE-R275-ModaliteActivite.md),[TRE_R276_FormeActivite](CodeSystem-TRE-R276-FormeActivite.md),[TRE_R277_CategorieActiviteSanitaireRegulee](CodeSystem-TRE-R277-CategorieActiviteSanitaireRegulee.md),[TRE_R278_FinessConvention](CodeSystem-TRE-R278-FinessConvention.md),[TRE_R279_Clientele](CodeSystem-TRE-R279-Clientele.md),[TRE_R280_DisciplineEquipementSocial](CodeSystem-TRE-R280-DisciplineEquipementSocial.md),[TRE_R281_DisciplineEnseignement](CodeSystem-TRE-R281-DisciplineEnseignement.md),[TRE_R282_CNAMAmeliSecteurConventionnement](CodeSystem-TRE-R282-CNAMAmeliSecteurConventionnement.md),[TRE_R285_TraitementDocument](CodeSystem-TRE-R285-TraitementDocument.md),[TRE_R286_TypeFermeture](CodeSystem-TRE-R286-TypeFermeture.md),[TRE_R287_NatureContact](CodeSystem-TRE-R287-NatureContact.md),[TRE_R288_TypeProfession](CodeSystem-TRE-R288-TypeProfession.md),[TRE_R289_TypeFonction](CodeSystem-TRE-R289-TypeFonction.md),[TRE_R290_RoleAdmTechSanitaireSocial](CodeSystem-TRE-R290-RoleAdmTechSanitaireSocial.md),[TRE_R291_AutreProfession](CodeSystem-TRE-R291-AutreProfession.md),[TRE_R292_INSEECategorieSocioProfessionnelleAgrNiv1](CodeSystem-TRE-R292-INSEECategorieSocioProfessionnelleAgrNiv1.md),[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md),[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md),[TRE_R296_AgregatDisciplineEnseignNiv2](CodeSystem-TRE-R296-AgregatDisciplineEnseignNiv2.md),[TRE_R297_AgregatDisciplineEnseignNiv3](CodeSystem-TRE-R297-AgregatDisciplineEnseignNiv3.md),[TRE_R298_AgregatDisciplineEquipSocNiv1](CodeSystem-TRE-R298-AgregatDisciplineEquipSocNiv1.md),[TRE_R299_AgregatDisciplineEquipSocNiv2](CodeSystem-TRE-R299-AgregatDisciplineEquipSocNiv2.md),[TRE_R300_AgregatDisciplineEquipSocNiv3](CodeSystem-TRE-R300-AgregatDisciplineEquipSocNiv3.md),[TRE_R302_ContexteCodeComplementaire](CodeSystem-TRE-R302-ContexteCodeComplementaire.md),[TRE_R30_RegionOM](CodeSystem-TRE-R30-RegionOM.md),[TRE_R314_TypeCreneau](CodeSystem-TRE-R314-TypeCreneau.md),[TRE_R316_AutreCategorieEtablissement](CodeSystem-TRE-R316-AutreCategorieEtablissement.md),[TRE_R318_BesoinAideMobilite](CodeSystem-TRE-R318-BesoinAideMobilite.md),[TRE_R319_BesoinAideVieSociale](CodeSystem-TRE-R319-BesoinAideVieSociale.md),[TRE_R31_StatutEtatCivil](CodeSystem-TRE-R31-StatutEtatCivil.md),[TRE_R320_BesoinCommunication](CodeSystem-TRE-R320-BesoinCommunication.md),[TRE_R322_BesoinMobilite](CodeSystem-TRE-R322-BesoinMobilite.md),[TRE_R323_BesoinScolarite](CodeSystem-TRE-R323-BesoinScolarite.md),[TRE_R324_BesoinSoutienProjetProfessionnel](CodeSystem-TRE-R324-BesoinSoutienProjetProfessionnel.md),[TRE_R32_StatutHospitalier](CodeSystem-TRE-R32-StatutHospitalier.md),[TRE_R334_TypeLitSupplementaire](CodeSystem-TRE-R334-TypeLitSupplementaire.md),[TRE_R335_TypeSourceCapacite](CodeSystem-TRE-R335-TypeSourceCapacite.md),[TRE_R336_TypeCrise](CodeSystem-TRE-R336-TypeCrise.md),[TRE_R338_ModaliteAccueil](CodeSystem-TRE-R338-ModaliteAccueil.md),[TRE_R33_StatutInscription](CodeSystem-TRE-R33-StatutInscription.md),[TRE_R340_TypeCaracteristiqueEquipement](CodeSystem-TRE-R340-TypeCaracteristiqueEquipement.md),[TRE_R342_XdsTypesIdentifiantsReferenceId](CodeSystem-TRE-R342-XdsTypesIdentifiantsReferenceId.md),[TRE_R343_FonctionLieu](CodeSystem-TRE-R343-FonctionLieu.md),[TRE_R344_NiveauExpertise](CodeSystem-TRE-R344-NiveauExpertise.md),[TRE_R345_TypeIdentifiantAutre](CodeSystem-TRE-R345-TypeIdentifiantAutre.md),[TRE_R348_FormationSpecialiseeTransversale](CodeSystem-TRE-R348-FormationSpecialiseeTransversale.md),[TRE_R354_TypeIdentifiantRessourceOperationnelle](CodeSystem-TRE-R354-TypeIdentifiantRessourceOperationnelle.md),[TRE_R355_TypeIdentifiantOffre](CodeSystem-TRE-R355-TypeIdentifiantOffre.md),[TRE_R356_ProfessionRessource](CodeSystem-TRE-R356-ProfessionRessource.md),[TRE_R357_StatutPersonnePriseCharge](CodeSystem-TRE-R357-StatutPersonnePriseCharge.md),[TRE_R358_MotifStatutPersonnePriseCharge](CodeSystem-TRE-R358-MotifStatutPersonnePriseCharge.md),[TRE_R359_SurspecialiteTransversale](CodeSystem-TRE-R359-SurspecialiteTransversale.md),[TRE_R369_ProfilUtilisateurReferentielNational](CodeSystem-TRE-R369-ProfilUtilisateurReferentielNational.md),[TRE_R36_AutreDiplomeObtenu](CodeSystem-TRE-R36-AutreDiplomeObtenu.md),[TRE_R37_TypeProfessionFonction](CodeSystem-TRE-R37-TypeProfessionFonction.md),[TRE_R38_SpecialiteOrdinale](CodeSystem-TRE-R38-SpecialiteOrdinale.md),[TRE_R39_Competence](CodeSystem-TRE-R39-Competence.md),[TRE_R40_CompetenceExclusive](CodeSystem-TRE-R40-CompetenceExclusive.md),[TRE_R42_DESCnonQualifiant](CodeSystem-TRE-R42-DESCnonQualifiant.md),[TRE_R43_CapaciteSavoirFaire](CodeSystem-TRE-R43-CapaciteSavoirFaire.md),[TRE_R44_QualificationPAC](CodeSystem-TRE-R44-QualificationPAC.md),[TRE_R45_FonctionQualifiee](CodeSystem-TRE-R45-FonctionQualifiee.md),[TRE_R46_SpecialiteConcoursHospitalier](CodeSystem-TRE-R46-SpecialiteConcoursHospitalier.md),[TRE_R48_DiplomeEtatFrancais](CodeSystem-TRE-R48-DiplomeEtatFrancais.md),[TRE_R49_DiplomeEtudeSpecialisee](CodeSystem-TRE-R49-DiplomeEtudeSpecialisee.md),[TRE_R50_DESCGroupe1Diplome](CodeSystem-TRE-R50-DESCGroupe1Diplome.md),[TRE_R51_DESCGroupe2Diplome](CodeSystem-TRE-R51-DESCGroupe2Diplome.md),[TRE_R52_CapaciteDiplome](CodeSystem-TRE-R52-CapaciteDiplome.md),[TRE_R53_DiplomePaysEEE](CodeSystem-TRE-R53-DiplomePaysEEE.md),[TRE_R54_DiplomeUniversiteInterUniversitaire](CodeSystem-TRE-R54-DiplomeUniversiteInterUniversitaire.md),[TRE_R55_CertificatEtudeSpeciale](CodeSystem-TRE-R55-CertificatEtudeSpeciale.md),[TRE_R56_Attestation](CodeSystem-TRE-R56-Attestation.md),[TRE_R57_DiplomeEuropeenEtudeSpecialisee](CodeSystem-TRE-R57-DiplomeEuropeenEtudeSpecialisee.md),[TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md),[TRE_R60_AutoriteEnregistrement](CodeSystem-TRE-R60-AutoriteEnregistrement.md),[TRE_R62_Domaine](CodeSystem-TRE-R62-Domaine.md),[TRE_R63_AgregatCategorieEtablissementNiv1](CodeSystem-TRE-R63-AgregatCategorieEtablissementNiv1.md),[TRE_R64_AgregatCategorieEtablissementNiv2](CodeSystem-TRE-R64-AgregatCategorieEtablissementNiv2.md),[TRE_R65_AgregatCategorieEtablissement](CodeSystem-TRE-R65-AgregatCategorieEtablissement.md),[TRE_R66_CategorieEtablissement](CodeSystem-TRE-R66-CategorieEtablissement.md),[TRE_R68_FinessAgregatStatutJuridiqueNiv1](CodeSystem-TRE-R68-FinessAgregatStatutJuridiqueNiv1.md),[TRE_R69_FinessAgregatStatutJuridiqueNiv2](CodeSystem-TRE-R69-FinessAgregatStatutJuridiqueNiv2.md),[TRE_R70_FinessAgregatStatutJuridique](CodeSystem-TRE-R70-FinessAgregatStatutJuridique.md),[TRE_R72_FinessStatutJuridique](CodeSystem-TRE-R72-FinessStatutJuridique.md),[TRE_R73_ESPIC](CodeSystem-TRE-R73-ESPIC.md),[TRE_R74_ModeFixationTarifaire](CodeSystem-TRE-R74-ModeFixationTarifaire.md),[TRE_R75_InseeNAFrev2Niveau5](CodeSystem-TRE-R75-InseeNAFrev2Niveau5.md),[TRE_R78_ProfilAccesReferentiel](CodeSystem-TRE-R78-ProfilAccesReferentiel.md),[TRE_R85_RolePriseCharge](CodeSystem-TRE-R85-RolePriseCharge.md),[TRE_R94_ProfessionSocial](CodeSystem-TRE-R94-ProfessionSocial.md),[TRE_R96_AutreFonctionSanitaire](CodeSystem-TRE-R96-AutreFonctionSanitaire.md),[TRE_R97_DroitExerciceCompl](CodeSystem-TRE-R97-DroitExerciceCompl.md),[TreR347ActiviteSanitaireDiverseRegulee](CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.md),[TreR360TypeRoleEntiteGroupe](CodeSystem-tre-r360-type-role-entite-groupe.md),[TreR362TypeBudget](CodeSystem-tre-r362-type-budget.md),[TreR364TypeDocumentAdministratif](CodeSystem-tre-r364-type-document-administratif.md),[TreR365EtatObjet](CodeSystem-tre-r365-etat-objet.md),[TreR366TypeObjet](CodeSystem-tre-r366-type-objet.md),[TreR371TypeGroupeGcc](CodeSystem-tre-r371-type-groupe-gcc.md),[TreR372TypeGroupeGco](CodeSystem-tre-r372-type-groupe-gco.md),[TreR373TypePersonneMorale](CodeSystem-tre-r373-type-personne-morale.md),[TreR374NatureActiviteSmsseRegulee](CodeSystem-tre-r374-nature-activite-smsse-regulee.md),[TreR375ModeFinancement](CodeSystem-tre-r375-mode-financement.md),[TreR377UsageAdresse](CodeSystem-tre-r377-usage-adresse.md),[TreR387TypeGroupement](CodeSystem-tre-r387-type-groupement.md),[TreR394CompetenceMetier](CodeSystem-tre-r394-competence-metier.md),[TreR395Engagement](CodeSystem-tre-r395-engagement.md),[TreR396Autorite](CodeSystem-tre-r396-autorite.md),[TreR397CategorieEntiteGeographiqueExercice](CodeSystem-tre-r397-categorie-entite-geographique-exercice.md),[TreR400FinessStatutJuridique](CodeSystem-tre-r400-finess-statut-juridique.md),[TreR401ActiviteEnseignementRegulee](CodeSystem-tre-r402-activite-enseignement-regulee.md),[TreR401ActiviteSocialeRegulee](CodeSystem-tre-r401-activite-sociale-regulee.md),[TreR403PublicActiviteSmsseRegulee](CodeSystem-tre-r403-public-activite-smsse-regulee.md),[TreR404ModeFonctionnemetActiviteSmsseRegulee](CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.md),[TreR405ModaliteActiviteSmsseRegulee](CodeSystem-tre-r405-modalite-activite-smsse-regulee.md)and[TreR406FormeActiviteSmsseRegulee](CodeSystem-tre-r406-forme-activite-smsse-regulee.md)
+* [SNOMED Clinical Terms&reg; (SNOMED CT&reg;)](CodeSystem-11000315107-20250621.md): [ActCode](CodeSystem-v3-ActCode.md), [DesignationUse](ValueSet-designation-use.md)...Show 391 more,[JDV_J147_MethodHeartrate_ENS](ValueSet-JDV-J147-MethodHeartrate-ENS.md),[JDV_J148_ReferenceRangeAppliesTo_CISIS](ValueSet-JDV-J148-ReferenceRangeAppliesTo-CISIS.md),[JDV_J149_BodySiteBP_ENS](ValueSet-JDV-J149-BodySiteBP-ENS.md),[JDV_J151_BodySiteBodyTemperature_ENS](ValueSet-JDV-J151-BodySiteBodyTemperature-ENS.md),[JDV_J155_MethodGlucoseSanguin_ENS](ValueSet-JDV-J155-MethodGlucoseSanguin-ENS.md),[JDV_J161_Lateralite_CISIS](ValueSet-JDV-J161-Lateralite-CISIS.md),[JdvAbordVeineuxCentralCisis](ValueSet-jdv-abord-veineux-central-cisis.md),[JdvAbordVeineuxPeripheriqueCisis](ValueSet-jdv-abord-veineux-peripherique-cisis.md),[JdvAccesArtereCisis](ValueSet-jdv-acces-artere-cisis.md),[JdvActeObpCisis](ValueSet-jdv-acte-obp-cisis.md),[JdvAdditionGrandeurCisis](ValueSet-jdv-addition-grandeur-cisis.md),[JdvAgeCisis](ValueSet-jdv-age-cisis.md),[JdvAideAuDeplacementCisis](ValueSet-jdv-aide-au-deplacement-cisis.md),[JdvAllergieVaccinCisis](ValueSet-jdv-allergie-vaccin-cisis.md),[JdvAntecedentPersonnelCisis](ValueSet-jdv-antecedent-personnel-cisis.md),[JdvAppreciationDiagnosticCentreCisis](ValueSet-jdv-appreciation-diagnostic-centre-cisis.md),[JdvArtereAnterieureCisis](ValueSet-jdv-artere-anterieure-cisis.md),[JdvArtereCerveletCisis](ValueSet-jdv-artere-cervelet-cisis.md),[JdvArterePosterieureCisis](ValueSet-jdv-artere-posterieure-cisis.md),[JdvArtereTroncCisis](ValueSet-jdv-artere-tronc-cisis.md),[JdvAspectLiquideAmniotiqueCisis](ValueSet-jdv-aspect-liquide-amniotique-cisis.md),[JdvAutreRisqueCisis](ValueSet-jdv-autre-risque-cisis.md),[JdvAutreSymptomeAvcCisis](ValueSet-jdv-autre-symptome-avc-cisis.md),[JdvAutreSymptomeExNeuroCisis](ValueSet-jdv-autre-symptome-ex-neuro-cisis.md),[JdvCasSporadiqueFamilialCisis](ValueSet-jdv-cas-sporadique-familial-cisis.md),[JdvCddFaCisis](ValueSet-jdv-cdd-fa-cisis.md),[JdvCerveletLocalisationCisis](ValueSet-jdv-cervelet-localisation-cisis.md),[JdvCirconstanceDecesCisis](ValueSet-jdv-circonstance-deces-cisis.md),[JdvCodeProblemeCisis](ValueSet-jdv-code-probleme-cisis.md),[JdvConduiteATenir1Cisis](ValueSet-jdv-conduite-a-tenir-1-cisis.md),[JdvConduiteATenir2Cisis](ValueSet-jdv-conduite-a-tenir-2-cisis.md),[JdvConduiteATenir3Cisis](ValueSet-jdv-conduite-a-tenir-3-cisis.md),[JdvContexteActiviteCisis](ValueSet-jdv-contexte-activite-cisis.md),[JdvContrindicationCisis](ValueSet-jdv-contre-indication-cisis.md),[JdvDateConsultationCisis](ValueSet-jdv-date-consultation-cisis.md),[JdvDeficiencePhysiqueCisis](ValueSet-jdv-deficience-physique-cisis.md),[JdvDepistageNeonatalCisis](ValueSet-jdv-depistage-neonatal-cisis.md),[JdvDeplacementCisis](ValueSet-jdv-deplacement-cisis.md),[JdvDestinationObpSneCisis](ValueSet-jdv-destination-obp-sne-cisis.md),[JdvDestinationTransfertCisis](ValueSet-jdv-destination-transfert-cisis.md),[JdvDifficulteCisis](ValueSet-jdv-difficulte-cisis.md),[JdvDispositionPretherapeutiqueCisis](ValueSet-jdv-disposition-pretherapeutique-cisis.md),[JdvEtatNaissanceCisis](ValueSet-jdv-etat-naissance-cisis.md),[JdvEtatPerineeCisis](ValueSet-jdv-etat-perinee-cisis.md),[JdvEtatPsychiqueCisis](ValueSet-jdv-etat-psychique-cisis.md),[JdvEtiologieAvcCisis](ValueSet-jdv-etiologie-avc-cisis.md),[JdvEvaluationDepressionGeriatriqueResultatCisis](ValueSet-jdv-evaluation-depression-geriatrique-resultat-cisis.md),[JdvEvaluationDouleurCisis](ValueSet-jdv-evaluation-douleur-cisis.md),[JdvEvolutionCisis](ValueSet-jdv-evolution-cisis.md),[JdvExamenRealiseCisis](ValueSet-jdv-examen-realise-cisis.md),[JdvFacteurDeRisqueProfessionnelCisis](ValueSet-jdv-facteur-de-risque-professionnel-cisis.md),[JdvFacteurDeRisqueSocialCisis](ValueSet-jdv-facteur-de-risque-social-cisis.md),[JdvGesteReanimationNouveauNeCisis](ValueSet-jdv-geste-reanimation-nouveau-ne-cisis.md),[JdvGraviteCisis](ValueSet-jdv-gravite-cisis.md),[JdvGroupeRhesusCisis](ValueSet-jdv-groupe-rhesus-cisis.md),[JdvHandicapDeficitDluDomCisis](ValueSet-jdv-handicap-deficit-dlu-dom-cisis.md),[JdvHandicapDeficitDluEhpadCisis](ValueSet-jdv-handicap-deficit-dlu-ehpad-cisis.md),[JdvHealthStatusCodeCisis](ValueSet-jdv-health-status-code-cisis.md),[JdvHemisphereLobaireCisis](ValueSet-jdv-hemisphere-lobaire-cisis.md),[JdvHemisphereProfondCisis](ValueSet-jdv-hemisphere-profond-cisis.md),[JdvHumanSubstanceAdministrationSiteCisis](ValueSet-jdv-human-substance-administration-site-cisis.md),[JdvImmunizationApproachSiteCodeCisis](ValueSet-jdv-immunization-approach-site-code-cisis.md),[JdvImpactMutationCisis](ValueSet-jdv-impact-mutation-cisis.md),[JdvImportancCliniqueCisis](ValueSet-jdv-importance-clinique-cisis.md),[JdvImputabiliteCisis](ValueSet-jdv-imputabilite-cisis.md),[JdvInterpretationEcgCisis](ValueSet-jdv-interpretation-ecg-cisis.md),[JdvInvestigationRealiseeCisis](ValueSet-jdv-investigation-realisee-cisis.md),[JdvIssueGrossesseCisis](ValueSet-jdv-issue-grossesse-cisis.md),[JdvJourSemaineCisis](ValueSet-jdv-jour-semaine-cisis.md),[JdvLateraliteCisis](ValueSet-jdv-lateralite-cisis.md),[JdvLateraliteManuelleCisis](ValueSet-jdv-lateralite-manuelle-cisis.md),[JdvLateraliteTechniqueImagerieCisis](ValueSet-jdv-lateralite-technique-imagerie-cisis.md),[JdvLieuAccouchementCisis](ValueSet-jdv-lieu-accouchement-cisis.md),[JdvLieuDeVieCisis](ValueSet-jdv-lieu-de-vie-cisis.md),[JdvLocalisationAnatomiqueCisis](ValueSet-jdv-localisation-anatomique-cisis.md),[JdvLocalisationAnesthesieCisis](ValueSet-jdv-localisation-anesthesie-cisis.md),[JdvLocalisationHemorragieCerebraleCisis](ValueSet-jdv-localisation-hemorragie-cerebrale-cisis.md),[JdvLocalisationInfarctusCerebralCisis](ValueSet-jdv-localisation-infarctus-cerebral-cisis.md),[JdvLocalisationPrelevementCcuCisis](ValueSet-jdv-localisation-prelevement-ccu-cisis.md),[JdvLocalisationThromboseVeineuseCisis](ValueSet-jdv-localisation-thrombose-veineuse-cisis.md),[JdvMalformationAntenataleCisis](ValueSet-jdv-malformation-antenatale-cisis.md),[JdvMesureAssocieeCisis](ValueSet-jdv-mesure-associee-cisis.md),[JdvMethodeAccouchementCisis](ValueSet-jdv-methode-accouchement-cisis.md),[JdvMethodeDeMesureAcuiteVisuelleCisis](ValueSet-jdv-methode-de-mesure-acuite-visuelle-cisis.md),[JdvModaliteEntreeCisis](ValueSet-jdv-modalite-entree-cisis.md),[JdvModaliteSortieCisis](ValueSet-jdv-modalite-sortie-cisis.md),[JdvModeAccouchementCisis](ValueSet-jdv-mode-accouchement-cisis.md),[JdvModeDeVieCisis](ValueSet-jdv-mode-de-vie-cisis.md),[JdvModeDebutTravailCisis](ValueSet-jdv-mode-debut-travail-cisis.md),[JdvModeNaissanceCisis](ValueSet-jdv-mode-naissance-cisis.md),[JdvModeSortieCisis](ValueSet-jdv-mode-sortie-cisis.md),[JdvModeSortieObpScmCisis](ValueSet-jdv-mode-sortie-obp-scm-cisis.md),[JdvModeSortieObpSemCisis](ValueSet-jdv-mode-sortie-obp-sem-cisis.md),[JdvModeSortieObpSneCisis](ValueSet-jdv-mode-sortie-obp-sne-cisis.md),[JdvModeSortieObpSnmCisis](ValueSet-jdv-mode-sortie-obp-snm-cisis.md),[JdvModificateurTopographiqueCisis](ValueSet-jdv-modificateur-topographique-cisis.md),[JdvMotifEchographieCisis](ValueSet-jdv-motif-echographie-cisis.md),[JdvMotifMiseAJourCisis](ValueSet-jdv-motif-mise-a-jour-cisis.md),[JdvObjectifActiviteCisis](ValueSet-jdv-objectif-activite-cisis.md),[JdvObpTestAuditionCisis](ValueSet-jdv-obp-test-audition-cisis.md),[JdvObservationEnfantCisis](ValueSet-jdv-observation-enfant-cisis.md),[JdvObservationEtatPatientCisis](ValueSet-jdv-observation-etat-patient-cisis.md),[JdvOeilExamineCisis](ValueSet-jdv-oeil-examine-cisis.md),[JdvOrientationBaseDuPrismeCisis](ValueSet-jdv-orientation-base-du-prisme-cisis.md),[JdvOrigineEffetIndesirableCisis](ValueSet-jdv-origine-effet-indesirable-cisis.md),[JdvPatho1ereSemaineCs8Cisis](ValueSet-jdv-patho-1ere-semaine-cs8-cisis.md),[JdvPresentationFoetaleCisis](ValueSet-jdv-presentation-foetale-cisis.md),[JdvPriseEnChargeReguliereCisis](ValueSet-jdv-prise-en-charge-reguliere-cisis.md),[JdvQuantiteLiquideAmniotiqueCisis](ValueSet-jdv-quantite-liquide-amniotique-cisis.md),[JdvRcpAppareilCisis](ValueSet-jdv-rcp-appareil-cisis.md),[JdvRcpOrganeCisis](ValueSet-jdv-rcp-organe-cisis.md),[JdvRealisationActiviteCisis](ValueSet-jdv-realisation-activite-cisis.md),[JdvRechercheAghbsCisis](ValueSet-jdv-recherche-aghbs-cisis.md),[JdvReferenceRangeAppliesToCisis](ValueSet-jdv-reference-range-applies-to-cisis.md),[JdvRegionAnatomiqueCisis](ValueSet-jdv-region-anatomique-cisis.md),[JdvReperageTroubleNeurodeveloppementCisis](ValueSet-jdv-reperage-trouble-neurodeveloppement-cisis.md),[JdvRessourceUtiliseeCisis](ValueSet-jdv-ressource-utilisee-cisis.md),[JdvResultatDepistageAcideAscorbiqueCisis](ValueSet-jdv-resultat-depistage-acide-ascorbique-cisis.md),[JdvResultatDepistageBilirubinemieCisis](ValueSet-jdv-resultat-depistage-bilirubinemie-cisis.md),[JdvResultatDepistageBilirubinurieCisis](ValueSet-jdv-resultat-depistage-bilirubinurie-cisis.md),[JdvResultatDepistageCetonemieCisis](ValueSet-jdv-resultat-depistage-cetonemie-cisis.md),[JdvResultatDepistageCholesterolCisis](ValueSet-jdv-resultat-depistage-cholesterol-cisis.md),[JdvResultatDepistageCisis](ValueSet-jdv-resultat-depistage-cisis.md),[JdvResultatDepistageCorpsCetoniquesCisis](ValueSet-jdv-resultat-depistage-corps-cetoniques-cisis.md),[JdvResultatDepistageCrpCisis](ValueSet-jdv-resultat-depistage-crp-cisis.md),[JdvResultatDepistageGlucoseCisis](ValueSet-jdv-resultat-depistage-glucose-cisis.md),[JdvResultatDepistageGlycemieCisis](ValueSet-jdv-resultat-depistage-glycemie-cisis.md),[JdvResultatDepistageHematurieCisis](ValueSet-jdv-resultat-depistage-hematurie-cisis.md),[JdvResultatDepistageLeucocyturieCisis](ValueSet-jdv-resultat-depistage-leucocyturie-cisis.md),[JdvResultatDepistageNitriturieCisis](ValueSet-jdv-resultat-depistage-nitriturie-cisis.md),[JdvResultatDepistageProteinurieCisis](ValueSet-jdv-resultat-depistage-proteinurie-cisis.md),[JdvResultatDepistageRuptureMembranePhCisis](ValueSet-jdv-resultat-depistage-rupture-membrane-ph-cisis.md),[JdvResultatDepistageUrobilinogenurieCisis](ValueSet-jdv-resultat-depistage-urobilinogenurie-cisis.md),[JdvResultatRechercheHpvCcuCisis](ValueSet-jdv-resultat-recherche-hpv-ccu-cisis.md),[JdvScoreAsaCisis](ValueSet-jdv-score-asa-cisis.md),[JdvScoreCormackCisis](ValueSet-jdv-score-cormack-cisis.md),[JdvScoreMallampatiCisis](ValueSet-jdv-score-mallampati-cisis.md),[JdvSedentariteCisis](ValueSet-jdv-sedentarite-cisis.md),[JdvSeveriteObservationCisis](ValueSet-jdv-severite-observation-cisis.md),[JdvSiteInterventionCisis](ValueSet-jdv-site-intervention-cisis.md),[JdvStaticSemProcedureCisis](ValueSet-jdv-static-sem-procedure-cisis.md),[JdvStatutActuelDiagnosticCisis](ValueSet-jdv-statut-actuel-diagnostic-cisis.md),[JdvStatutDocumentCisis](ValueSet-jdv-statut-document-cisis.md),[JdvStatutEvtCisis](ValueSet-jdv-statut-evt-cisis.md),[JdvStatutGrossesseCisis](ValueSet-jdv-statut-grossesse-cisis.md),[JdvStatutResultatCisis](ValueSet-jdv-statut-resultat-cisis.md),[JdvStatutTabagiqueCisis](ValueSet-jdv-statut-tabagique-cisis.md),[JdvSymptomeAvcCisis](ValueSet-jdv-symptome-avc-cisis.md),[JdvTailleCisis](ValueSet-jdv-taille-cisis.md),[JdvTechniqueDiagnosticCisis](ValueSet-jdv-technique-diagnostic-cisis.md),[JdvTopoTroubleCisis](ValueSet-jdv-topo-trouble-cisis.md),[JdvTraitementPreventifCisis](ValueSet-jdv-traitement-preventif-cisis.md),[JdvTransfertMutationCisis](ValueSet-jdv-transfert-mutation-cisis.md),[JdvTypeActeEunvCisis](ValueSet-jdv-type-acte-eunv-cisis.md),[JdvTypeActePostPartumCisis](ValueSet-jdv-type-acte-post-partum-cisis.md),[JdvTypeAnalgesieCisis](ValueSet-jdv-type-analgesie-cisis.md),[JdvTypeAnesthesieApresNaissanceCisis](ValueSet-jdv-type-anesthesie-apres-naissance-cisis.md),[JdvTypeAnesthesieAvantNaissanceCisis](ValueSet-jdv-type-anesthesie-avant-naissance-cisis.md),[JdvTypeAnesthesieCisis](ValueSet-jdv-type-anesthesie-cisis.md),[JdvTypeDeDistanceDeVisualisationCisis](ValueSet-jdv-type-de-distance-de-visualisation-cisis.md),[JdvTypeDeSuiviCisis](ValueSet-jdv-type-de-suivi-cisis.md),[JdvTypeDirectiveAnticipeeCisis](ValueSet-jdv-type-directive-anticipee-cisis.md),[JdvTypeDispositifOculaireCisis](ValueSet-jdv-type-dispositif-oculaire-cisis.md),[JdvTypeEvenementIndesirablePrevisibleCisis](ValueSet-jdv-type-evenement-indesirable-previsible-cisis.md),[JdvTypeGardeCisis](ValueSet-jdv-type-garde-cisis.md),[JdvTypeInterventionCisis](ValueSet-jdv-type-intervention-cisis.md),[JdvTypeInterventionVoieBasseCisis](ValueSet-jdv-type-intervention-voie-basse-cisis.md),[JdvTypeIntubationCisis](ValueSet-jdv-type-intubation-cisis.md),[JdvTypePresentationCisis](ValueSet-jdv-type-presentation-cisis.md),[JdvTypeServiceCisis](ValueSet-jdv-type-service-cisis.md),[JdvTypeTraitementFrcpCisis](ValueSet-jdv-type-traitement-frcp-cisis.md),[JdvTypeTraitementIvCisis](ValueSet-jdv-type-traitement-iv-cisis.md),[JdvTypeTraitementPpsCisis](ValueSet-jdv-type-traitement-pps-cisis.md),[JdvUfcvComposantProtheseValvulaireCisis](ValueSet-jdv-ufcv-composant-prothese-valvulaire-cisis.md),[JdvUfcvLateraliteCisis](ValueSet-jdv-ufcv-lateralite-cisis.md),[JdvUfcvLocalisationDefibrillateurCisis](ValueSet-jdv-ufcv-localisation-defibrillateur-cisis.md),[JdvUfcvLocalisationSondeCisis](ValueSet-jdv-ufcv-localisation-sonde-cisis.md),[JdvUfcvStadeNyhaCisis](ValueSet-jdv-ufcv-stade-nyha-cisis.md),[JdvUfcvVoieAbordCisis](ValueSet-jdv-ufcv-voie-abord-cisis.md),[LAHN](CodeSystem-terminologie-lahn.md),[MediaType](CodeSystem-v3-mediaType.md),[RoleCode](CodeSystem-v3-RoleCode.md),[TRE_A00_ProducteurDocNonPS](CodeSystem-TRE-A00-ProducteurDocNonPS.md),[TRE_A01_CadreExercice](CodeSystem-TRE-A01-CadreExercice.md),[TRE_A02_ProfessionSavFaire_CISIS](CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.md),[TRE_A03_ClasseDocument](CodeSystem-TRE-A03-ClasseDocument.md),[TRE_A05_TypeDocComplementaire](CodeSystem-TRE-A05-TypeDocComplementaire.md),[TRE_A06_FormatCodeComplementaire](CodeSystem-TRE-A06-FormatCodeComplementaire.md),[TRE_A07_StatutVisibiliteDocument](CodeSystem-TRE-A07-StatutVisibiliteDocument.md),[TRE_A08_HL7Confidentiality](CodeSystem-TRE-A08-HL7Confidentiality.md),[TRE_A09_DICOMuidRegistry](CodeSystem-TRE-A09-DICOMuidRegistry.md),[TRE_A11_IheFormatCode](CodeSystem-TRE-A11-IheFormatCode.md),[TRE_A13_HL7ParticipationType](CodeSystem-TRE-A13-HL7ParticipationType.md),[TRE_G00_Langue](CodeSystem-TRE-G00-Langue.md),[TRE_G01_CategorieProduit](CodeSystem-TRE-G01-CategorieProduit.md),[TRE_G02_TypeProduit](CodeSystem-TRE-G02-TypeProduit.md),[TRE_G03_CiviliteCPx](CodeSystem-TRE-G03-CiviliteCPx.md),[TRE_G04_NiveauResponsabiliteCPx](CodeSystem-TRE-G04-NiveauResponsabiliteCPx.md),[TRE_G05_SousSectionTableauCNOP](CodeSystem-TRE-G05-SousSectionTableauCNOP.md),[TRE_G07_TypeIdentifiantStructure](CodeSystem-TRE-G07-TypeIdentifiantStructure.md),[TRE_G08_TypeIdentifiantPersonne](CodeSystem-TRE-G08-TypeIdentifiantPersonne.md),[TRE_G09_DepartementOM](CodeSystem-TRE-G09-DepartementOM.md),[TRE_G100_Specialite_AM](CodeSystem-TRE-G100-Specialite-AM.md),[TRE_G11_NatureQualificationADELI](CodeSystem-TRE-G11-NatureQualificationADELI.md),[TRE_G12_SpecialiteADELI](CodeSystem-TRE-G12-SpecialiteADELI.md),[TRE_G16_ProfessionFormation](CodeSystem-TRE-G16-ProfessionFormation.md),[TRE_G17_ModeExerciceCPx](CodeSystem-TRE-G17-ModeExerciceCPx.md),[TRE_G18_AttributionParticuliereADELI](CodeSystem-TRE-G18-AttributionParticuliereADELI.md),[TRE_G19_SecteurActiviteADELI](CodeSystem-TRE-G19-SecteurActiviteADELI.md),[TRE_G20_Specialisation](CodeSystem-TRE-G20-Specialisation.md),[TRE_R01_EnsembleSavoirFaire_CISIS](CodeSystem-TRE-R01-EnsembleSavoirFaire-CISIS.md),[TRE_R02_SecteurActivite](CodeSystem-TRE-R02-SecteurActivite.md),[TRE_R03_AttributionParticuliere](CodeSystem-TRE-R03-AttributionParticuliere.md),[TRE_R04_TypeSavoirFaire](CodeSystem-TRE-R04-TypeSavoirFaire.md),[TRE_R06_SectionTableauCNOP](CodeSystem-TRE-R06-SectionTableauCNOP.md),[TRE_R09_CategorieProfessionnelle](CodeSystem-TRE-R09-CategorieProfessionnelle.md),[TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md),[TRE_R17_TypeAutorisation](CodeSystem-TRE-R17-TypeAutorisation.md),[TRE_R18_DisciplineAutorisation](CodeSystem-TRE-R18-DisciplineAutorisation.md),[TRE_R200_CanalCommunication](CodeSystem-TRE-R200-CanalCommunication.md),[TRE_R202_AccessibiliteLieu](CodeSystem-TRE-R202-AccessibiliteLieu.md),[TRE_R203_StatutLieu](CodeSystem-TRE-R203-StatutLieu.md),[TRE_R204_DirectionLongitude](CodeSystem-TRE-R204-DirectionLongitude.md),[TRE_R205_DirectionLatitude](CodeSystem-TRE-R205-DirectionLatitude.md),[TRE_R206_TypeContact](CodeSystem-TRE-R206-TypeContact.md),[TRE_R207_TypeOrganisationInterne](CodeSystem-TRE-R207-TypeOrganisationInterne.md),[TRE_R208_ClasseAge](CodeSystem-TRE-R208-ClasseAge.md),[TRE_R209_TypeActivite](CodeSystem-TRE-R209-TypeActivite.md),[TRE_R20_Pays](CodeSystem-TRE-R20-Pays.md),[TRE_R211_ActiviteOperationnelle](CodeSystem-TRE-R211-ActiviteOperationnelle.md),[TRE_R212_Equipement](CodeSystem-TRE-R212-Equipement.md),[TRE_R213_ModePriseEnCharge](CodeSystem-TRE-R213-ModePriseEnCharge.md),[TRE_R214_SpecialiteUnite](CodeSystem-TRE-R214-SpecialiteUnite.md),[TRE_R216_HL7RoleCode](CodeSystem-TRE-R216-HL7RoleCode.md),[TRE_R21_Fonction](CodeSystem-TRE-R21-Fonction.md),[TRE_R220_ModeleDocumentCDAStructure](CodeSystem-TRE-R220-ModeleDocumentCDAStructure.md),[TRE_R221_ModeleDocumentCDANonStructure](CodeSystem-TRE-R221-ModeleDocumentCDANonStructure.md),[TRE_R222_MediaTypeCorpsCDANonStructure](CodeSystem-TRE-R222-MediaTypeCorpsCDANonStructure.md),[TRE_R224_NiveauFormAcquis](CodeSystem-TRE-R224-NiveauFormAcquis.md),[TRE_R225_AnneeUniversitaire](CodeSystem-TRE-R225-AnneeUniversitaire.md),[TRE_R226_Dip2iemeCycleNQ](CodeSystem-TRE-R226-Dip2iemeCycleNQ.md),[TRE_R227_ChampActivite](CodeSystem-TRE-R227-ChampActivite.md),[TRE_R22_GenreActivite](CodeSystem-TRE-R22-GenreActivite.md),[TRE_R231_PalierAuthentification](CodeSystem-TRE-R231-PalierAuthentification.md),[TRE_R233_TypeFermetureEG](CodeSystem-TRE-R233-TypeFermetureEG.md),[TRE_R238_OuvertureAnnuelle](CodeSystem-TRE-R238-OuvertureAnnuelle.md),[TRE_R239_PublicPrisEnCharge](CodeSystem-TRE-R239-PublicPrisEnCharge.md),[TRE_R23_ModeExercice](CodeSystem-TRE-R23-ModeExercice.md),[TRE_R241_AideFinanciere](CodeSystem-TRE-R241-AideFinanciere.md),[TRE_R243_CompetenceSpecifique](CodeSystem-TRE-R243-CompetenceSpecifique.md),[TRE_R244_CategorieOrganisation](CodeSystem-TRE-R244-CategorieOrganisation.md),[TRE_R245_SpecialisationDePriseEnCharge](CodeSystem-TRE-R245-SpecialisationDePriseEnCharge.md),[TRE_R246_TypeTarif](CodeSystem-TRE-R246-TypeTarif.md),[TRE_R248_ModeAcces](CodeSystem-TRE-R248-ModeAcces.md),[TRE_R249_Sexe](CodeSystem-TRE-R249-Sexe.md),[TRE_R24_TypeActiviteLiberale](CodeSystem-TRE-R24-TypeActiviteLiberale.md),[TRE_R251_FonctionContact](CodeSystem-TRE-R251-FonctionContact.md),[TRE_R252_TypeHoraire](CodeSystem-TRE-R252-TypeHoraire.md),[TRE_R253_TypeMaternite](CodeSystem-TRE-R253-TypeMaternite.md),[TRE_R254_TypeEvenement](CodeSystem-TRE-R254-TypeEvenement.md),[TRE_R256_TypeMessagerie](CodeSystem-TRE-R256-TypeMessagerie.md),[TRE_R257_TypeBAL](CodeSystem-TRE-R257-TypeBAL.md),[TRE_R258_RelationPriseCharge](CodeSystem-TRE-R258-RelationPriseCharge.md),[TRE_R259_HL7ParticipationFunction](CodeSystem-TRE-R259-HL7ParticipationFunction.md),[TRE_R261_AutreSalarieStructureSante](CodeSystem-TRE-R261-AutreSalarieStructureSante.md),[TRE_R262_CategorieSocioProfessionnelle](CodeSystem-TRE-R262-CategorieSocioProfessionnelle.md),[TRE_R263_TypeNumeroIdentification](CodeSystem-TRE-R263-TypeNumeroIdentification.md),[TRE_R264_PrestationNonObligatoireIncluse](CodeSystem-TRE-R264-PrestationNonObligatoireIncluse.md),[TRE_R266_FamilleActiviteOperationnelleHorsSerafin](CodeSystem-TRE-R266-FamilleActiviteOperationnelleHorsSerafin.md),[TRE_R267_SexeProvenanceISO](CodeSystem-TRE-R267-SexeProvenanceISO.md),[TRE_R268_PaysProvenanceISO](CodeSystem-TRE-R268-PaysProvenanceISO.md),[TRE_R269_AvailabilityStatusProvenanceOasis](CodeSystem-TRE-R269-AvailabilityStatusProvenanceOasis.md),[TRE_R270_AvailabilityStatus](CodeSystem-TRE-R270-AvailabilityStatus.md),[TRE_R272_EquipementMaterielLourd](CodeSystem-TRE-R272-EquipementMaterielLourd.md),[TRE_R274_ActiviteSanitaireRegulee](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md),[TRE_R275_ModaliteActivite](CodeSystem-TRE-R275-ModaliteActivite.md),[TRE_R276_FormeActivite](CodeSystem-TRE-R276-FormeActivite.md),[TRE_R277_CategorieActiviteSanitaireRegulee](CodeSystem-TRE-R277-CategorieActiviteSanitaireRegulee.md),[TRE_R278_FinessConvention](CodeSystem-TRE-R278-FinessConvention.md),[TRE_R279_Clientele](CodeSystem-TRE-R279-Clientele.md),[TRE_R280_DisciplineEquipementSocial](CodeSystem-TRE-R280-DisciplineEquipementSocial.md),[TRE_R281_DisciplineEnseignement](CodeSystem-TRE-R281-DisciplineEnseignement.md),[TRE_R282_CNAMAmeliSecteurConventionnement](CodeSystem-TRE-R282-CNAMAmeliSecteurConventionnement.md),[TRE_R285_TraitementDocument](CodeSystem-TRE-R285-TraitementDocument.md),[TRE_R286_TypeFermeture](CodeSystem-TRE-R286-TypeFermeture.md),[TRE_R287_NatureContact](CodeSystem-TRE-R287-NatureContact.md),[TRE_R288_TypeProfession](CodeSystem-TRE-R288-TypeProfession.md),[TRE_R289_TypeFonction](CodeSystem-TRE-R289-TypeFonction.md),[TRE_R290_RoleAdmTechSanitaireSocial](CodeSystem-TRE-R290-RoleAdmTechSanitaireSocial.md),[TRE_R291_AutreProfession](CodeSystem-TRE-R291-AutreProfession.md),[TRE_R292_INSEECategorieSocioProfessionnelleAgrNiv1](CodeSystem-TRE-R292-INSEECategorieSocioProfessionnelleAgrNiv1.md),[TRE_R293_AgregatClienteleNiv2](CodeSystem-TRE-R293-AgregatClienteleNiv2.md),[TRE_R294_AgregatClienteleNiv3](CodeSystem-TRE-R294-AgregatClienteleNiv3.md),[TRE_R296_AgregatDisciplineEnseignNiv2](CodeSystem-TRE-R296-AgregatDisciplineEnseignNiv2.md),[TRE_R297_AgregatDisciplineEnseignNiv3](CodeSystem-TRE-R297-AgregatDisciplineEnseignNiv3.md),[TRE_R298_AgregatDisciplineEquipSocNiv1](CodeSystem-TRE-R298-AgregatDisciplineEquipSocNiv1.md),[TRE_R299_AgregatDisciplineEquipSocNiv2](CodeSystem-TRE-R299-AgregatDisciplineEquipSocNiv2.md),[TRE_R300_AgregatDisciplineEquipSocNiv3](CodeSystem-TRE-R300-AgregatDisciplineEquipSocNiv3.md),[TRE_R302_ContexteCodeComplementaire](CodeSystem-TRE-R302-ContexteCodeComplementaire.md),[TRE_R30_RegionOM](CodeSystem-TRE-R30-RegionOM.md),[TRE_R314_TypeCreneau](CodeSystem-TRE-R314-TypeCreneau.md),[TRE_R316_AutreCategorieEtablissement](CodeSystem-TRE-R316-AutreCategorieEtablissement.md),[TRE_R318_BesoinAideMobilite](CodeSystem-TRE-R318-BesoinAideMobilite.md),[TRE_R319_BesoinAideVieSociale](CodeSystem-TRE-R319-BesoinAideVieSociale.md),[TRE_R31_StatutEtatCivil](CodeSystem-TRE-R31-StatutEtatCivil.md),[TRE_R320_BesoinCommunication](CodeSystem-TRE-R320-BesoinCommunication.md),[TRE_R322_BesoinMobilite](CodeSystem-TRE-R322-BesoinMobilite.md),[TRE_R323_BesoinScolarite](CodeSystem-TRE-R323-BesoinScolarite.md),[TRE_R324_BesoinSoutienProjetProfessionnel](CodeSystem-TRE-R324-BesoinSoutienProjetProfessionnel.md),[TRE_R32_StatutHospitalier](CodeSystem-TRE-R32-StatutHospitalier.md),[TRE_R334_TypeLitSupplementaire](CodeSystem-TRE-R334-TypeLitSupplementaire.md),[TRE_R335_TypeSourceCapacite](CodeSystem-TRE-R335-TypeSourceCapacite.md),[TRE_R336_TypeCrise](CodeSystem-TRE-R336-TypeCrise.md),[TRE_R338_ModaliteAccueil](CodeSystem-TRE-R338-ModaliteAccueil.md),[TRE_R33_StatutInscription](CodeSystem-TRE-R33-StatutInscription.md),[TRE_R340_TypeCaracteristiqueEquipement](CodeSystem-TRE-R340-TypeCaracteristiqueEquipement.md),[TRE_R342_XdsTypesIdentifiantsReferenceId](CodeSystem-TRE-R342-XdsTypesIdentifiantsReferenceId.md),[TRE_R343_FonctionLieu](CodeSystem-TRE-R343-FonctionLieu.md),[TRE_R344_NiveauExpertise](CodeSystem-TRE-R344-NiveauExpertise.md),[TRE_R345_TypeIdentifiantAutre](CodeSystem-TRE-R345-TypeIdentifiantAutre.md),[TRE_R348_FormationSpecialiseeTransversale](CodeSystem-TRE-R348-FormationSpecialiseeTransversale.md),[TRE_R354_TypeIdentifiantRessourceOperationnelle](CodeSystem-TRE-R354-TypeIdentifiantRessourceOperationnelle.md),[TRE_R355_TypeIdentifiantOffre](CodeSystem-TRE-R355-TypeIdentifiantOffre.md),[TRE_R356_ProfessionRessource](CodeSystem-TRE-R356-ProfessionRessource.md),[TRE_R357_StatutPersonnePriseCharge](CodeSystem-TRE-R357-StatutPersonnePriseCharge.md),[TRE_R358_MotifStatutPersonnePriseCharge](CodeSystem-TRE-R358-MotifStatutPersonnePriseCharge.md),[TRE_R359_SurspecialiteTransversale](CodeSystem-TRE-R359-SurspecialiteTransversale.md),[TRE_R369_ProfilUtilisateurReferentielNational](CodeSystem-TRE-R369-ProfilUtilisateurReferentielNational.md),[TRE_R36_AutreDiplomeObtenu](CodeSystem-TRE-R36-AutreDiplomeObtenu.md),[TRE_R37_TypeProfessionFonction](CodeSystem-TRE-R37-TypeProfessionFonction.md),[TRE_R38_SpecialiteOrdinale](CodeSystem-TRE-R38-SpecialiteOrdinale.md),[TRE_R39_Competence](CodeSystem-TRE-R39-Competence.md),[TRE_R40_CompetenceExclusive](CodeSystem-TRE-R40-CompetenceExclusive.md),[TRE_R42_DESCnonQualifiant](CodeSystem-TRE-R42-DESCnonQualifiant.md),[TRE_R43_CapaciteSavoirFaire](CodeSystem-TRE-R43-CapaciteSavoirFaire.md),[TRE_R44_QualificationPAC](CodeSystem-TRE-R44-QualificationPAC.md),[TRE_R45_FonctionQualifiee](CodeSystem-TRE-R45-FonctionQualifiee.md),[TRE_R46_SpecialiteConcoursHospitalier](CodeSystem-TRE-R46-SpecialiteConcoursHospitalier.md),[TRE_R48_DiplomeEtatFrancais](CodeSystem-TRE-R48-DiplomeEtatFrancais.md),[TRE_R49_DiplomeEtudeSpecialisee](CodeSystem-TRE-R49-DiplomeEtudeSpecialisee.md),[TRE_R50_DESCGroupe1Diplome](CodeSystem-TRE-R50-DESCGroupe1Diplome.md),[TRE_R51_DESCGroupe2Diplome](CodeSystem-TRE-R51-DESCGroupe2Diplome.md),[TRE_R52_CapaciteDiplome](CodeSystem-TRE-R52-CapaciteDiplome.md),[TRE_R53_DiplomePaysEEE](CodeSystem-TRE-R53-DiplomePaysEEE.md),[TRE_R54_DiplomeUniversiteInterUniversitaire](CodeSystem-TRE-R54-DiplomeUniversiteInterUniversitaire.md),[TRE_R55_CertificatEtudeSpeciale](CodeSystem-TRE-R55-CertificatEtudeSpeciale.md),[TRE_R56_Attestation](CodeSystem-TRE-R56-Attestation.md),[TRE_R57_DiplomeEuropeenEtudeSpecialisee](CodeSystem-TRE-R57-DiplomeEuropeenEtudeSpecialisee.md),[TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md),[TRE_R60_AutoriteEnregistrement](CodeSystem-TRE-R60-AutoriteEnregistrement.md),[TRE_R62_Domaine](CodeSystem-TRE-R62-Domaine.md),[TRE_R63_AgregatCategorieEtablissementNiv1](CodeSystem-TRE-R63-AgregatCategorieEtablissementNiv1.md),[TRE_R64_AgregatCategorieEtablissementNiv2](CodeSystem-TRE-R64-AgregatCategorieEtablissementNiv2.md),[TRE_R65_AgregatCategorieEtablissement](CodeSystem-TRE-R65-AgregatCategorieEtablissement.md),[TRE_R66_CategorieEtablissement](CodeSystem-TRE-R66-CategorieEtablissement.md),[TRE_R68_FinessAgregatStatutJuridiqueNiv1](CodeSystem-TRE-R68-FinessAgregatStatutJuridiqueNiv1.md),[TRE_R69_FinessAgregatStatutJuridiqueNiv2](CodeSystem-TRE-R69-FinessAgregatStatutJuridiqueNiv2.md),[TRE_R70_FinessAgregatStatutJuridique](CodeSystem-TRE-R70-FinessAgregatStatutJuridique.md),[TRE_R72_FinessStatutJuridique](CodeSystem-TRE-R72-FinessStatutJuridique.md),[TRE_R73_ESPIC](CodeSystem-TRE-R73-ESPIC.md),[TRE_R74_ModeFixationTarifaire](CodeSystem-TRE-R74-ModeFixationTarifaire.md),[TRE_R75_InseeNAFrev2Niveau5](CodeSystem-TRE-R75-InseeNAFrev2Niveau5.md),[TRE_R78_ProfilAccesReferentiel](CodeSystem-TRE-R78-ProfilAccesReferentiel.md),[TRE_R85_RolePriseCharge](CodeSystem-TRE-R85-RolePriseCharge.md),[TRE_R94_ProfessionSocial](CodeSystem-TRE-R94-ProfessionSocial.md),[TRE_R96_AutreFonctionSanitaire](CodeSystem-TRE-R96-AutreFonctionSanitaire.md),[TRE_R97_DroitExerciceCompl](CodeSystem-TRE-R97-DroitExerciceCompl.md),[TreR347ActiviteSanitaireDiverseRegulee](CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.md),[TreR360TypeRoleEntiteGroupe](CodeSystem-tre-r360-type-role-entite-groupe.md),[TreR362TypeBudget](CodeSystem-tre-r362-type-budget.md),[TreR364TypeDocumentAdministratif](CodeSystem-tre-r364-type-document-administratif.md),[TreR365EtatObjet](CodeSystem-tre-r365-etat-objet.md),[TreR366TypeObjet](CodeSystem-tre-r366-type-objet.md),[TreR371TypeGroupeGcc](CodeSystem-tre-r371-type-groupe-gcc.md),[TreR372TypeGroupeGco](CodeSystem-tre-r372-type-groupe-gco.md),[TreR373TypePersonneMorale](CodeSystem-tre-r373-type-personne-morale.md),[TreR374NatureActiviteSmsseRegulee](CodeSystem-tre-r374-nature-activite-smsse-regulee.md),[TreR375ModeFinancement](CodeSystem-tre-r375-mode-financement.md),[TreR377UsageAdresse](CodeSystem-tre-r377-usage-adresse.md),[TreR387TypeGroupement](CodeSystem-tre-r387-type-groupement.md),[TreR394CompetenceMetier](CodeSystem-tre-r394-competence-metier.md),[TreR395Engagement](CodeSystem-tre-r395-engagement.md),[TreR396Autorite](CodeSystem-tre-r396-autorite.md),[TreR397CategorieEntiteGeographiqueExercice](CodeSystem-tre-r397-categorie-entite-geographique-exercice.md),[TreR400FinessStatutJuridique](CodeSystem-tre-r400-finess-statut-juridique.md),[TreR401ActiviteEnseignementRegulee](CodeSystem-tre-r402-activite-enseignement-regulee.md),[TreR401ActiviteSocialeRegulee](CodeSystem-tre-r401-activite-sociale-regulee.md),[TreR403PublicActiviteSmsseRegulee](CodeSystem-tre-r403-public-activite-smsse-regulee.md),[TreR404ModeFonctionnemetActiviteSmsseRegulee](CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.md),[TreR405ModaliteActiviteSmsseRegulee](CodeSystem-tre-r405-modalite-activite-smsse-regulee.md)and[TreR406FormeActiviteSmsseRegulee](CodeSystem-tre-r406-forme-activite-smsse-regulee.md)
 
 
 * This material derives from the HL7 Terminology (THO). THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: [https://terminology.hl7.org/license.html](https://terminology.hl7.org/license.html)
 
 * [AllergyIntolerance Clinical Status Codes](http://terminology.hl7.org/7.0.1/CodeSystem-allergyintolerance-clinical.html): [AllergyIntoleranceClinicalStatusCodes](ValueSet-jdv-hl7-allergyintolerance-clinical-cisis.md)
-* [Condition Clinical Status Codes](http://terminology.hl7.org/7.0.1/CodeSystem-condition-clinical.html): [ConditionClinicalStatusCodes](ValueSet-jdv-hl7-condition-clinical-cisis.md)
-* [ConditionVerificationStatus](http://terminology.hl7.org/7.0.1/CodeSystem-condition-ver-status.html): [ConditionVerificationStatus](ValueSet-jdv-hl7-condition-ver-status-cisis.md)
+* [Condition Clinical Status Codes](CodeSystem-condition-clinical.md): [ConditionClinicalStatusCodes](ValueSet-jdv-hl7-condition-clinical-cisis.md)
+* [ConditionVerificationStatus](CodeSystem-condition-ver-status.md): [ConditionVerificationStatus](ValueSet-jdv-hl7-condition-ver-status-cisis.md)
 * [Security Role Type](http://terminology.hl7.org/7.0.1/CodeSystem-extra-security-role-type.html): [SNOMED_CT](CodeSystem-11000315107-20250621.md)
+* [HL7 Terminology Maintenance Infrastructure Vocabulary](http://terminology.hl7.org/7.0.1/CodeSystem-hl7TermMaintInfra.html): [EmploymentStatus](CodeSystem-v2-0066.md) and [SpecimenType](CodeSystem-v2-0487.md)
 * [UsageContextType](http://terminology.hl7.org/7.0.1/CodeSystem-usage-context-type.html): [ASS_12_CorresMediaTypeCDANonStructure_XdsFormatCode_CISIS](ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.md), [ASS_A11_CorresModeleCDA_XdsFormatCode_CISIS](ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.md), [Alignement_Codes_NUVA_CIP_CIPUCD](ConceptMap-alignement-nuva-cipucd.md), [Alignement_Codes_NUVA_CIS_CIP_BDMP](ConceptMap-alignement-nuva-bdpm.md) and [Alignement_Codes_Presentation_BDPM_CIPUCD](ConceptMap-alignement-bdpm-cipucd.md)
-* [employmentStatus](http://terminology.hl7.org/7.0.1/CodeSystem-v2-0066.html): [Hl7VSEmploymentStatus](ValueSet-jdv-hl7-v2-0066-cisis.md)
-* [specimenType](http://terminology.hl7.org/7.0.1/CodeSystem-v2-0487.html): [JdvSpecimenTypeCisis](ValueSet-jdv-specimen-type-cisis.md)
-* [specimenCollectionMethod](http://terminology.hl7.org/7.0.1/CodeSystem-v2-0488.html): [Hl7VSSpecimenCollectionMethod](ValueSet-jdv-hl7-v2-0488-cisis.md)
-* [ActCode](http://terminology.hl7.org/7.0.1/CodeSystem-v3-ActCode.html): [ActEncounterCode](ValueSet-jdv-hl7-v3-ActEncounterCode-cisis.md), [ActPharmacySupplyType](ValueSet-jdv-hl7-v3-ActPharmacySupplyType-cisis.md)...Show 6 more,[ActSubstanceAdministrationCode](ValueSet-jdv-hl7-v3-ActSubstanceAdministrationCode-cisis.md),[ActSubstanceAdministrationImmunizationCode](ValueSet-jdv-hl7-v3-ActSubstanceAdministrationImmunizationCode-cisis.md),[JdvCompletudeDispensationCisis](ValueSet-jdv-completude-dispensation-cisis.md),[JdvEncompassingEncounterCodeCisis](ValueSet-jdv-encompassing-encounter-code-cisis.md),[ROIOverlayShape](ValueSet-jdv-hl7-v3-ROIOverlayShape-cisis.md)and[SeverityObservationCode](ValueSet-jdv-hl7-v3-SeverityObservationCode-cisis.md)
-* [ActMood](http://terminology.hl7.org/7.0.1/CodeSystem-v3-ActMood.html): [ActMood](ValueSet-jdv-hl7-v3-ActMood-cisis.md), [ActMoodIntent](ValueSet-jdv-hl7-v3-ActMoodIntent-cisis.md) and [XActMoodDocumentObservation](ValueSet-jdv-hl7-v3-xActMoodDocumentObservation.md)
-* [ActPriority](http://terminology.hl7.org/7.0.1/CodeSystem-v3-ActPriority.html): [ActPriority](ValueSet-jdv-hl7-v3-ActPriority-cisis.md)
-* [ActStatus](http://terminology.hl7.org/7.0.1/CodeSystem-v3-ActStatus.html): [ActStatus](ValueSet-jdv-hl7-v3-ActStatus-cisis.md)
-* [AdministrativeGender](http://terminology.hl7.org/7.0.1/CodeSystem-v3-AdministrativeGender.html): [AdministrativeGender](ValueSet-jdv-hl7-v3-AdministrativeGender-cisis.md) and [JdvReferenceRangeAppliesToCisis](ValueSet-jdv-reference-range-applies-to-cisis.md)
-* [Confidentiality](http://terminology.hl7.org/7.0.1/CodeSystem-v3-Confidentiality.html): [Confidentiality](ValueSet-jdv-hl7-v2-0952-cisis.md) and [XBasicConfidentialityKind](ValueSet-jdv-hl7-v3-xBasicConfidentialityKind-cisis.md)
-* [EntityCode](http://terminology.hl7.org/7.0.1/CodeSystem-v3-EntityCode.html): [SpecimenAdditiveEntity](ValueSet-jdv-hl7-v3-SpecimenAdditiveEntity-cisis.md)
-* [ObservationInterpretation](http://terminology.hl7.org/7.0.1/CodeSystem-v3-ObservationInterpretation.html): [JdvIndicateurAnormaliteCisis](ValueSet-jdv-indicateur-anormalite-cisis.md) and [ObservationInterpretation](ValueSet-jdv-hl7-v3-ObservationInterpretation-cisis.md)
-* [ObservationMethod](http://terminology.hl7.org/7.0.1/CodeSystem-v3-ObservationMethod.html): [ObservationMethod](ValueSet-jdv-hl7-v3-ObservationMethod-cisis.md)
-* [ObservationValue](http://terminology.hl7.org/7.0.1/CodeSystem-v3-ObservationValue.html): [ADICAP](NamingSystem-ADICAP.md), [ATC](CodeSystem-terminologie-atc.md)...Show 26 more,[Alignement_Codes_NUVA_CIP_CIPUCD](ConceptMap-alignement-nuva-cipucd.md),[Alignement_Codes_NUVA_CIS_CIP_BDMP](ConceptMap-alignement-nuva-bdpm.md),[Alignement_Codes_Presentation_BDPM_CIPUCD](ConceptMap-alignement-bdpm-cipucd.md),[BDPM](CodeSystem-terminologie-bdpm.md),[CCAM](CodeSystem-terminologie-ccam.md),[CIM11_MMS](CodeSystem-terminologie-cim11-mms.md),[CIM_10_FR_PMSI](CodeSystem-terminologie-cim-10.md),[CISP_2](CodeSystem-terminologie-cisp.md),[Dictionnaire_SMS_Substance_Management_Services_](CodeSystem-terminologie-sms.md),[EMDN](CodeSystem-terminologie-emdn.md),[EmploymentStatusODH](ValueSet-jdv-hl7-v3-employmentStatusODH-cisis.md),[IHERoleCode_Vocabulary](NamingSystem-IHERoleCodeVocabulary.md),[LOINC](NamingSystem-v3-loinc.md),[MEDDRA](NamingSystem-MEDDRA.md),[NABM](CodeSystem-terminologie-nabm.md),[NCIT](NamingSystem-NCIT.md),[NUVA](CodeSystem-terminologie-nuva.md),[PCS](NamingSystem-PCS.md),[SERAFIN](NamingSystem-SERAFIN.md),[Snomed_CT_core_900000000000207008](NamingSystem-Snomed-CT-core.md),[Standard_terms_EDQM](CodeSystem-terminologie-standardterms.md),[TRE_R13_CommuneOM](CodeSystem-TRE-R13-CommuneOM.md),[TRE_R16_LieuFormation](CodeSystem-TRE-R16-LieuFormation.md),[TRE_R210_ActeSpecifique](CodeSystem-TRE-R210-ActeSpecifique.md),[UCUM](NamingSystem-UCUM.md)and[WorkScheduleODH](ValueSet-jdv-hl7-v3-WorkScheduleODH-cisis.md)
-* [ParticipationFunction](http://terminology.hl7.org/7.0.1/CodeSystem-v3-ParticipationFunction.html): [ParticipationFunction](ValueSet-jdv-hl7-v3-ParticipationFunction-cisis.md)
-* [ParticipationType](http://terminology.hl7.org/7.0.1/CodeSystem-v3-ParticipationType.html): [JdvParticipantAdditionnelResultatCisis](ValueSet-jdv-participant-additionnel-resultat-cisis.md), [JdvParticipantResultatCisis](ValueSet-jdv-participant-resultat-cisis.md) and [ParticipationType](ValueSet-jdv-hl7-v3-ParticipationType-cisis.md)
-* [RoleClass](http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleClass.html): [JdvRoleInformateurCisis](ValueSet-jdv-role-informateur-cisis.md) and [RoleClassIngredientEntity](ValueSet-jdv-hl7-v3-RoleClassIngredientEntity-cisis.md)
-* [RoleCode](http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleCode.html): [CoverageRoleType](ValueSet-jdv-hl7-v3-CoverageRoleType-cisis.md), [JdvFamilleFemmeCisis](ValueSet-jdv-famille-femme-cisis.md)...Show 4 more,[JdvFamilleIdCisis](ValueSet-jdv-famille-id-cisis.md),[JdvLienAssureBeneficiaireCisis](ValueSet-jdv-lien-assure-beneficiaire-cisis.md),[PersonalRelationshipRoleType](ValueSet-jdv-hl7-v3-PersonalRelationshipRoleType-cisis.md)and[SpecimenRoleType](ValueSet-jdv-hl7-v3-SpecimenRoleType-cisis.md)
+* [employmentStatus](CodeSystem-v2-0066.md): [Hl7VSEmploymentStatus](ValueSet-jdv-hl7-v2-0066-cisis.md)
+* [specimenType](CodeSystem-v2-0487.md): [JdvSpecimenTypeCisis](ValueSet-jdv-specimen-type-cisis.md)
+* [specimenCollectionMethod](CodeSystem-v2-0488.md): [Hl7VSSpecimenCollectionMethod](ValueSet-jdv-hl7-v2-0488-cisis.md)
+* [ActClass](http://terminology.hl7.org/7.0.1/CodeSystem-v3-ActClass.html): [ActCode](CodeSystem-v3-ActCode.md)
+* [ActCode](CodeSystem-v3-ActCode.md): [ActEncounterCode](ValueSet-jdv-hl7-v3-ActEncounterCode-cisis.md), [ActPharmacySupplyType](ValueSet-jdv-hl7-v3-ActPharmacySupplyType-cisis.md)...Show 6 more,[ActSubstanceAdministrationCode](ValueSet-jdv-hl7-v3-ActSubstanceAdministrationCode-cisis.md),[ActSubstanceAdministrationImmunizationCode](ValueSet-jdv-hl7-v3-ActSubstanceAdministrationImmunizationCode-cisis.md),[JdvCompletudeDispensationCisis](ValueSet-jdv-completude-dispensation-cisis.md),[JdvEncompassingEncounterCodeCisis](ValueSet-jdv-encompassing-encounter-code-cisis.md),[ROIOverlayShape](ValueSet-jdv-hl7-v3-ROIOverlayShape-cisis.md)and[SeverityObservationCode](ValueSet-jdv-hl7-v3-SeverityObservationCode-cisis.md)
+* [ActMood](CodeSystem-v3-ActMood.md): [ActMood](ValueSet-jdv-hl7-v3-ActMood-cisis.md), [ActMoodIntent](ValueSet-jdv-hl7-v3-ActMoodIntent-cisis.md) and [XActMoodDocumentObservation](ValueSet-jdv-hl7-v3-xActMoodDocumentObservation.md)
+* [ActPriority](CodeSystem-v3-ActPriority.md): [ActPriority](ValueSet-jdv-hl7-v3-ActPriority-cisis.md)
+* [ActStatus](CodeSystem-v3-ActStatus.md): [ActStatus](ValueSet-jdv-hl7-v3-ActStatus-cisis.md)
+* [AdministrativeGender](CodeSystem-v3-AdministrativeGender.md): [AdministrativeGender](ValueSet-jdv-hl7-v3-AdministrativeGender-cisis.md) and [JdvReferenceRangeAppliesToCisis](ValueSet-jdv-reference-range-applies-to-cisis.md)
+* [Confidentiality](CodeSystem-v3-Confidentiality.md): [Confidentiality](ValueSet-jdv-hl7-v2-0952-cisis.md) and [XBasicConfidentialityKind](ValueSet-jdv-hl7-v3-xBasicConfidentialityKind-cisis.md)
+* [EntityClass](http://terminology.hl7.org/7.0.1/CodeSystem-v3-EntityClass.html): [EntityCode](CodeSystem-v3-EntityCode.md)
+* [EntityCode](CodeSystem-v3-EntityCode.md): [SpecimenAdditiveEntity](ValueSet-jdv-hl7-v3-SpecimenAdditiveEntity-cisis.md)
+* [ObservationInterpretation](CodeSystem-v3-ObservationInterpretation.md): [JdvIndicateurAnormaliteCisis](ValueSet-jdv-indicateur-anormalite-cisis.md) and [ObservationInterpretation](ValueSet-jdv-hl7-v3-ObservationInterpretation-cisis.md)
+* [ObservationMethod](CodeSystem-v3-ObservationMethod.md): [ObservationMethod](ValueSet-jdv-hl7-v3-ObservationMethod-cisis.md)
+* [ObservationValue](CodeSystem-v3-ObservationValue.md): [ADICAP](NamingSystem-ADICAP.md), [ATC](CodeSystem-terminologie-atc.md)...Show 26 more,[Alignement_Codes_NUVA_CIP_CIPUCD](ConceptMap-alignement-nuva-cipucd.md),[Alignement_Codes_NUVA_CIS_CIP_BDMP](ConceptMap-alignement-nuva-bdpm.md),[Alignement_Codes_Presentation_BDPM_CIPUCD](ConceptMap-alignement-bdpm-cipucd.md),[BDPM](CodeSystem-terminologie-bdpm.md),[CCAM](CodeSystem-terminologie-ccam.md),[CIM11_MMS](CodeSystem-terminologie-cim11-mms.md),[CIM_10_FR_PMSI](CodeSystem-terminologie-cim-10.md),[CISP_2](CodeSystem-terminologie-cisp.md),[Dictionnaire_SMS_Substance_Management_Services_](CodeSystem-terminologie-sms.md),[EMDN](CodeSystem-terminologie-emdn.md),[EmploymentStatusODH](ValueSet-jdv-hl7-v3-employmentStatusODH-cisis.md),[IHERoleCode_Vocabulary](NamingSystem-IHERoleCodeVocabulary.md),[LOINC](NamingSystem-v3-loinc.md),[MEDDRA](NamingSystem-MEDDRA.md),[NABM](CodeSystem-terminologie-nabm.md),[NCIT](NamingSystem-NCIT.md),[NUVA](CodeSystem-terminologie-nuva.md),[PCS](NamingSystem-PCS.md),[SERAFIN](NamingSystem-SERAFIN.md),[Snomed_CT_core_900000000000207008](NamingSystem-Snomed-CT-core.md),[Standard_terms_EDQM](CodeSystem-terminologie-standardterms.md),[TRE_R13_CommuneOM](CodeSystem-TRE-R13-CommuneOM.md),[TRE_R16_LieuFormation](CodeSystem-TRE-R16-LieuFormation.md),[TRE_R210_ActeSpecifique](CodeSystem-TRE-R210-ActeSpecifique.md),[UCUM](NamingSystem-UCUM.md)and[WorkScheduleODH](ValueSet-jdv-hl7-v3-WorkScheduleODH-cisis.md)
+* [ParticipationFunction](CodeSystem-v3-ParticipationFunction.md): [ParticipationFunction](ValueSet-jdv-hl7-v3-ParticipationFunction-cisis.md)
+* [ParticipationType](CodeSystem-v3-ParticipationType.md): [JdvParticipantAdditionnelResultatCisis](ValueSet-jdv-participant-additionnel-resultat-cisis.md), [JdvParticipantResultatCisis](ValueSet-jdv-participant-resultat-cisis.md) and [ParticipationType](ValueSet-jdv-hl7-v3-ParticipationType-cisis.md)
+* [RoleClass](http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleClass.html): [JdvRoleInformateurCisis](ValueSet-jdv-role-informateur-cisis.md), [RoleClassIngredientEntity](ValueSet-jdv-hl7-v3-RoleClassIngredientEntity-cisis.md) and [RoleCode](CodeSystem-v3-RoleCode.md)
+* [RoleCode](CodeSystem-v3-RoleCode.md): [CoverageRoleType](ValueSet-jdv-hl7-v3-CoverageRoleType-cisis.md), [JdvFamilleFemmeCisis](ValueSet-jdv-famille-femme-cisis.md)...Show 4 more,[JdvFamilleIdCisis](ValueSet-jdv-famille-id-cisis.md),[JdvLienAssureBeneficiaireCisis](ValueSet-jdv-lien-assure-beneficiaire-cisis.md),[PersonalRelationshipRoleType](ValueSet-jdv-hl7-v3-PersonalRelationshipRoleType-cisis.md)and[SpecimenRoleType](ValueSet-jdv-hl7-v3-SpecimenRoleType-cisis.md)
 * [SpecimenType](http://terminology.hl7.org/7.0.1/CodeSystem-v3-SpecimenType.html): [JdvSpecimenTypeCisis](ValueSet-jdv-specimen-type-cisis.md)
-* [TimingEvent](http://terminology.hl7.org/7.0.1/CodeSystem-v3-TimingEvent.html): [TimingEvent](ValueSet-jdv-hl7-v3-TimingEvent-cisis.md)
-* [Media Type](http://terminology.hl7.org/7.0.1/CodeSystem-v3-mediaType.html): [JdvMediatypeCorpsCdaNonStructureCisis](ValueSet-jdv-mediatype-corps-cda-non-structure-cisis.md) and [MediaType](ValueSet-jdv-hl7-v3-MediaType-cisis.md)
-* [Orderable Drug Form](http://terminology.hl7.org/7.0.1/CodeSystem-v3-orderableDrugForm.html): [AdministrableDrugForm](ValueSet-jdv-hl7-v3-AdministrableDrugForm-cisis.md)
-* [Substance Admin Substitution](http://terminology.hl7.org/7.0.1/CodeSystem-v3-substanceAdminSubstitution.html): [ActSubstanceAdminSubstitutionCode](ValueSet-jdv-hl7-v3-ActSubstanceAdminSubstitutionCode-cisis.md)
+* [TimingEvent](CodeSystem-v3-TimingEvent.md): [TimingEvent](ValueSet-jdv-hl7-v3-TimingEvent-cisis.md)
+* [Media Type](CodeSystem-v3-mediaType.md): [JdvMediatypeCorpsCdaNonStructureCisis](ValueSet-jdv-mediatype-corps-cda-non-structure-cisis.md) and [MediaType](ValueSet-jdv-hl7-v3-MediaType-cisis.md)
+* [Orderable Drug Form](CodeSystem-v3-orderableDrugForm.md): [AdministrableDrugForm](ValueSet-jdv-hl7-v3-AdministrableDrugForm-cisis.md)
+* [Substance Admin Substitution](CodeSystem-v3-substanceAdminSubstitution.md): [ActSubstanceAdminSubstitutionCode](ValueSet-jdv-hl7-v3-ActSubstanceAdminSubstitutionCode-cisis.md)
 
 
 * US government funded - content free to use by all
@@ -38748,6 +38746,20 @@ Ceci est un IG R4. Aucune des fonctionnalités quil utilise nest modifiée dans 
         "extension" : [
           {
             "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "CodeSystem"
+          }
+        ],
+        "reference" : {
+          "reference" : "CodeSystem/v3-ActCode"
+        },
+        "name" : "ActCode",
+        "description" : "A code specifying the particular kind of Act that the Act-instance represents within its class.\r\n\r\n*Constraints:* The kind of Act (e.g. physical examination, serum potassium, inpatient encounter, charge financial transaction, etc.) is specified with a code from one of several, typically external, coding systems. The coding system will depend on the class of Act, such as LOINC for observations, etc.\r\n\r\nConceptually, the Act.code must be a specialization of the Act.classCode. This is why the structure of ActClass domain should be reflected in the superstructure of the ActCode domain and then individual codes or externally referenced vocabularies subordinated under these domains that reflect the ActClass structure.\r\n\r\nAct.classCode and Act.code are not modifiers of each other but the Act.code concept should really imply the Act.classCode concept. For a negative example, it is not appropriate to use an Act.code \"potassium\" together with and Act.classCode for \"laboratory observation\" to somehow mean \"potassium laboratory observation\" and then use the same Act.code for \"potassium\" together with Act.classCode for \"medication\" to mean \"substitution of potassium\". This mutually modifying use of Act.code and Act.classCode is not permitted.",
+        "exampleBoolean" : false
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString" : "ValueSet"
           }
         ],
@@ -38770,6 +38782,20 @@ Ceci est un IG R4. Aucune des fonctionnalités quil utilise nest modifiée dans 
         },
         "name" : "ActMood",
         "description" : "ActMood",
+        "exampleBoolean" : false
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "CodeSystem"
+          }
+        ],
+        "reference" : {
+          "reference" : "CodeSystem/v3-ActMood"
+        },
+        "name" : "ActMood",
+        "description" : "OpenIssue: In Ballot 2009May, a strong Negative vote was lodged against several of the concept definitions in the vocabulary used for Act.moodCode. The vote was found \"Persuasive With Mod\", with the understanding that M and M would undertake a detailed review of these concept definitions for a future release of the RIM.",
         "exampleBoolean" : false
       },
       {
@@ -38818,6 +38844,20 @@ Ceci est un IG R4. Aucune des fonctionnalités quil utilise nest modifiée dans 
         "extension" : [
           {
             "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "CodeSystem"
+          }
+        ],
+        "reference" : {
+          "reference" : "CodeSystem/v3-ActPriority"
+        },
+        "name" : "ActPriority",
+        "description" : "A set of codes (e.g., for routine, emergency), specifying the urgency under which the Act happened, can happen, is happening, is intended to happen, or is requested/demanded to happen.",
+        "exampleBoolean" : false
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString" : "ValueSet"
           }
         ],
@@ -38826,6 +38866,20 @@ Ceci est un IG R4. Aucune des fonctionnalités quil utilise nest modifiée dans 
         },
         "name" : "ActStatus",
         "description" : "ActStatus",
+        "exampleBoolean" : false
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "CodeSystem"
+          }
+        ],
+        "reference" : {
+          "reference" : "CodeSystem/v3-ActStatus"
+        },
+        "name" : "ActStatus",
+        "description" : "Codes representing the defined possible states of an Act, as defined by the Act class state machine.",
         "exampleBoolean" : false
       },
       {
@@ -38909,6 +38963,20 @@ Ceci est un IG R4. Aucune des fonctionnalités quil utilise nest modifiée dans 
         },
         "name" : "AdministrativeGender",
         "description" : "AdministrativeGender",
+        "exampleBoolean" : false
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "CodeSystem"
+          }
+        ],
+        "reference" : {
+          "reference" : "CodeSystem/v3-AdministrativeGender"
+        },
+        "name" : "AdministrativeGender",
+        "description" : "The gender of a person used for adminstrative purposes (as opposed to clinical gender)",
         "exampleBoolean" : false
       },
       {
@@ -39466,6 +39534,20 @@ Ceci est un IG R4. Aucune des fonctionnalités quil utilise nest modifiée dans 
         "extension" : [
           {
             "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "CodeSystem"
+          }
+        ],
+        "reference" : {
+          "reference" : "CodeSystem/condition-clinical"
+        },
+        "name" : "Condition Clinical Status Codes",
+        "description" : "Preferred value set for Condition Clinical Status.",
+        "exampleBoolean" : false
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString" : "ValueSet"
           }
         ],
@@ -39480,6 +39562,20 @@ Ceci est un IG R4. Aucune des fonctionnalités quil utilise nest modifiée dans 
         "extension" : [
           {
             "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "CodeSystem"
+          }
+        ],
+        "reference" : {
+          "reference" : "CodeSystem/condition-ver-status"
+        },
+        "name" : "ConditionVerificationStatus",
+        "description" : "The verification status to support or decline the clinical status of the condition or diagnosis.",
+        "exampleBoolean" : false
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString" : "ValueSet"
           }
         ],
@@ -39488,6 +39584,20 @@ Ceci est un IG R4. Aucune des fonctionnalités quil utilise nest modifiée dans 
         },
         "name" : "Confidentiality",
         "description" : "Confidentiality",
+        "exampleBoolean" : false
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "CodeSystem"
+          }
+        ],
+        "reference" : {
+          "reference" : "CodeSystem/v3-Confidentiality"
+        },
+        "name" : "Confidentiality",
+        "description" : "A set of codes specifying the security classification of acts and roles in accordance with the definition for concept domain \"Confidentiality\".",
         "exampleBoolean" : false
       },
       {
@@ -39549,6 +39659,20 @@ Ceci est un IG R4. Aucune des fonctionnalités quil utilise nest modifiée dans 
         "extension" : [
           {
             "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "CodeSystem"
+          }
+        ],
+        "reference" : {
+          "reference" : "CodeSystem/v2-0066"
+        },
+        "name" : "employmentStatus",
+        "description" : "HL7-defined code system of concepts which specify an employment status of a person. Used in HL7 Version 2 messaging in the GT1 segment.",
+        "exampleBoolean" : false
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString" : "ValueSet"
           }
         ],
@@ -39557,6 +39681,20 @@ Ceci est un IG R4. Aucune des fonctionnalités quil utilise nest modifiée dans 
         },
         "name" : "EmploymentStatusODH",
         "description" : "EmploymentStatusODH",
+        "exampleBoolean" : false
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "CodeSystem"
+          }
+        ],
+        "reference" : {
+          "reference" : "CodeSystem/v3-EntityCode"
+        },
+        "name" : "EntityCode",
+        "description" : "*OpenIssue:* Missing description.",
         "exampleBoolean" : false
       },
       {
@@ -39625,6 +39763,20 @@ Ceci est un IG R4. Aucune des fonctionnalités quil utilise nest modifiée dans 
           "reference" : "NamingSystem/IHERoleCodeVocabulary"
         },
         "name" : "IHERoleCode_Vocabulary",
+        "exampleBoolean" : false
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "CodeSystem"
+          }
+        ],
+        "reference" : {
+          "reference" : "CodeSystem/icd-o-3"
+        },
+        "name" : "International Classification of Diseases for Oncology, version 3.",
+        "description" : "International Classification of Diseases for Oncology, version 3. For more information see http://www.who.int/classifications/icd/adaptations/oncology/en/.",
         "exampleBoolean" : false
       },
       {
@@ -50395,6 +50547,20 @@ Ceci est un IG R4. Aucune des fonctionnalités quil utilise nest modifiée dans 
         "extension" : [
           {
             "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "CodeSystem"
+          }
+        ],
+        "reference" : {
+          "reference" : "CodeSystem/v3-mediaType"
+        },
+        "name" : "Media Type",
+        "description" : "Internet Assigned Numbers Authority (IANA) Mime Media Types. Identifies the type of the encapsulated data and identifies a method to interpret or render the data. The IANA defined domain of media types is established by the Internet standard RFC 2045 \\[http://www.ietf.org/rfc/rfc2045.txt\\] and 2046 \\[http://www.ietf.org/rfc/rfc2046.txt\\]. RFC 2046 defines the media type to consist of two parts:\r\n\r\n1.  top level media type, and\r\n2.  media subtype\r\n\r\nHowever, this HL7 datatypes specification treats the entire media type as one atomic code symbol in the form defined by IANA, i.e., top level type followed by a slash \"/\" followed by media subtype. Currently defined media types are registered in a database \\[http://www.iana.org/assignments/media-types/index.html\\] maintained by IANA. Currently several hundred different MIME media types are defined, with the list growing rapidly. In general, all those types defined by the IANA MAY be used.",
+        "exampleBoolean" : false
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString" : "ValueSet"
           }
         ],
@@ -50476,6 +50642,20 @@ Ceci est un IG R4. Aucune des fonctionnalités quil utilise nest modifiée dans 
         "extension" : [
           {
             "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "CodeSystem"
+          }
+        ],
+        "reference" : {
+          "reference" : "CodeSystem/v3-ObservationInterpretation"
+        },
+        "name" : "ObservationInterpretation",
+        "description" : "One or more codes providing a rough qualitative interpretation of the observation, such as \"normal\" / \"abnormal\", \"low\" / \"high\", \"better\" / \"worse\", \"resistant\" / \"susceptible\", \"expected\" / \"not expected\". The value set is intended to be for ANY use where coded representation of an interpretation is needed.",
+        "exampleBoolean" : false
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString" : "ValueSet"
           }
         ],
@@ -50484,6 +50664,48 @@ Ceci est un IG R4. Aucune des fonctionnalités quil utilise nest modifiée dans 
         },
         "name" : "ObservationMethod",
         "description" : "ObservationMethod",
+        "exampleBoolean" : false
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "CodeSystem"
+          }
+        ],
+        "reference" : {
+          "reference" : "CodeSystem/v3-ObservationMethod"
+        },
+        "name" : "ObservationMethod",
+        "description" : "A code that provides additional detail about the means or technique used to ascertain the observation.\r\n\r\n*Examples:* Blood pressure measurement method: arterial puncture vs. sphygmomanometer (Riva-Rocci), sitting vs. supine position, etc.\r\n\r\n*OpenIssue:* Description copied from Concept Domain of same name. Must be verified. Note that the Domain has a full discussion about use of the attribute and constraining that is not appropriate for the code system description. Needs to be improved.",
+        "exampleBoolean" : false
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "CodeSystem"
+          }
+        ],
+        "reference" : {
+          "reference" : "CodeSystem/v3-ObservationValue"
+        },
+        "name" : "ObservationValue",
+        "description" : "This code system covers all concepts of HL7-defined values for the Observation value element, when it has a coded datatype.",
+        "exampleBoolean" : false
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "CodeSystem"
+          }
+        ],
+        "reference" : {
+          "reference" : "CodeSystem/v3-orderableDrugForm"
+        },
+        "name" : "Orderable Drug Form",
+        "description" : "*OpenIssue:* Missing description.",
         "exampleBoolean" : false
       },
       {
@@ -50504,6 +50726,20 @@ Ceci est un IG R4. Aucune des fonctionnalités quil utilise nest modifiée dans 
         "extension" : [
           {
             "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "CodeSystem"
+          }
+        ],
+        "reference" : {
+          "reference" : "CodeSystem/v3-ParticipationFunction"
+        },
+        "name" : "ParticipationFunction",
+        "description" : "This code is used to specify the exact function an actor had in a service in all necessary detail. This domain may include local extensions (CWE).",
+        "exampleBoolean" : false
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString" : "ValueSet"
           }
         ],
@@ -50512,6 +50748,20 @@ Ceci est un IG R4. Aucune des fonctionnalités quil utilise nest modifiée dans 
         },
         "name" : "ParticipationType",
         "description" : "ParticipationType",
+        "exampleBoolean" : false
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "CodeSystem"
+          }
+        ],
+        "reference" : {
+          "reference" : "CodeSystem/v3-ParticipationType"
+        },
+        "name" : "ParticipationType",
+        "description" : "A code specifying the meaning and purpose of every Participation instance. Each of its values implies specific constraints on the Roles undertaking the participation.",
         "exampleBoolean" : false
       },
       {
@@ -50567,6 +50817,20 @@ Ceci est un IG R4. Aucune des fonctionnalités quil utilise nest modifiée dans 
         },
         "name" : "RoleClassIngredientEntity",
         "description" : "RoleClassIngredientEntity",
+        "exampleBoolean" : false
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "CodeSystem"
+          }
+        ],
+        "reference" : {
+          "reference" : "CodeSystem/v3-RoleCode"
+        },
+        "name" : "RoleCode",
+        "description" : "A set of codes further specifying the kind of Role; specific classification codes for further qualifying RoleClass codes.",
         "exampleBoolean" : false
       },
       {
@@ -50641,6 +50905,20 @@ Ceci est un IG R4. Aucune des fonctionnalités quil utilise nest modifiée dans 
         "extension" : [
           {
             "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "CodeSystem"
+          }
+        ],
+        "reference" : {
+          "reference" : "CodeSystem/v2-0488"
+        },
+        "name" : "specimenCollectionMethod",
+        "description" : "HL7-defined code system of concepts specifying the specimen collection method.  Used in HL7 Version 2.x messaging in the SPM segment.",
+        "exampleBoolean" : false
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString" : "ValueSet"
           }
         ],
@@ -50659,9 +50937,37 @@ Ceci est un IG R4. Aucune des fonctionnalités quil utilise nest modifiée dans 
           }
         ],
         "reference" : {
+          "reference" : "CodeSystem/v2-0487"
+        },
+        "name" : "specimenType",
+        "description" : "HL7-defined code system of concepts that describe the precise nature of an entity that may be used as the source material for an observation.  This is one of two code systems that are used instead of table 0070 (code system 2.16.840.1.113883.18.28) which conflated specimen types and specimen collection methods.   Used in HL7 Version 2.x messaging in the SPM segment.",
+        "exampleBoolean" : false
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "CodeSystem"
+          }
+        ],
+        "reference" : {
           "reference" : "CodeSystem/terminologie-standardterms"
         },
         "name" : "Standard Terms Data Base Dictionnaire européen multilingue de termes normalisés descripteurs de médicaments",
+        "exampleBoolean" : false
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "CodeSystem"
+          }
+        ],
+        "reference" : {
+          "reference" : "CodeSystem/v3-substanceAdminSubstitution"
+        },
+        "name" : "Substance Admin Substitution",
+        "description" : "Identifies what sort of change is permitted or has occurred between the therapy that was ordered and the therapy that was/will be provided.",
         "exampleBoolean" : false
       },
       {
@@ -50690,6 +50996,20 @@ Ceci est un IG R4. Aucune des fonctionnalités quil utilise nest modifiée dans 
         },
         "name" : "TimingEvent",
         "description" : "TimingEvent",
+        "exampleBoolean" : false
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "CodeSystem"
+          }
+        ],
+        "reference" : {
+          "reference" : "CodeSystem/v3-TimingEvent"
+        },
+        "name" : "TimingEvent",
+        "description" : "**** MISSING DESCRIPTION ****",
         "exampleBoolean" : false
       },
       {
