@@ -1,8 +1,8 @@
 ValueSet: JDV_J227_NiveauExpertise_ROR
 Id: JDV-J227-NiveauExpertise-ROR
 Description: "Niveau de ressources humaines et matérielles utiles pour la réalisation de l'offre"
-* ^meta.versionId = "12"
-* ^meta.lastUpdated = "2025-07-02T17:05:58.518+00:00"
+* ^meta.versionId = "13"
+* ^meta.lastUpdated = "2025-12-18T16:47:47.299+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,10 +10,10 @@ Description: "Niveau de ressources humaines et matérielles utiles pour la réal
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J227-NiveauExpertise-ROR/FHIR/JDV-J227-NiveauExpertise-ROR"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.4.59"
-* ^version = "20250425120000"
+* ^version = "20251222120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-04-25T12:00:00+01:00"
+* ^date = "2025-12-22T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R253-TypeMaternite#01 "Maternité de type 1"
@@ -53,3 +53,9 @@ Description: "Niveau de ressources humaines et matérielles utiles pour la réal
 * $TRE-R344-NiveauExpertise#40 "Filière Obésité - Niveau 2 Conventionné Centres Spécialisés Obésité (CSO)"
 * $TRE-R344-NiveauExpertise#41 "Filière Obésité - Niveau 3 Conventionné Centres Spécialisés Obésité (CSO)"
 * $TRE-R344-NiveauExpertise#42 "Filière Obésité - Niveau 3 (Centre Spécialisé Obésité)"
+* $TRE-R344-NiveauExpertise#43 "Centre Ressources Autisme (CRA)"
+* $TRE-R344-NiveauExpertise#44 "Centre de référence des Troubles du Langage et de l’Apprentissage (CRTLA)"
+* $TRE-R344-NiveauExpertise#45 "Centre de référence du Trouble Déficit de l’Attention avec ou sans Hyperactivité (CRTDAH)"
+* $TRE-R344-NiveauExpertise#46 "Centre de compétence centre mémoire ressources et recherche (CMRR)"
+* $TRE-R344-NiveauExpertise#47 "Centre expert Parkinson"
+* $TRE-R344-NiveauExpertise#48 "Centre de ressources et de compétences sclérose en plaques (SEP)"

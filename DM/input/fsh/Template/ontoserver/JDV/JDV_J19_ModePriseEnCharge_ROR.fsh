@@ -1,8 +1,8 @@
 ValueSet: JDV_J19_ModePriseEnCharge_ROR
 Id: JDV-J19-ModePriseEnCharge-ROR
 Description: "Mode de la prise en charge - ROR"
-* ^meta.versionId = "7"
-* ^meta.lastUpdated = "2025-10-02T19:02:00.951+02:00"
+* ^meta.versionId = "8"
+* ^meta.lastUpdated = "2025-12-18T16:47:45.368+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,10 +10,10 @@ Description: "Mode de la prise en charge - ROR"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J19-ModePriseEnCharge-ROR/FHIR/JDV-J19-ModePriseEnCharge-ROR"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.4.1"
-* ^version = "20250828120000"
+* ^version = "20251222120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-08-28T12:00:00+01:00"
+* ^date = "2025-12-22T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R213-ModePriseEnCharge#01 "Accueil Permanence des soins en établissement de santé"
@@ -21,10 +21,9 @@ Description: "Mode de la prise en charge - ROR"
 * $TRE-R213-ModePriseEnCharge#09 "Chirurgie ambulatoire"
 * $TRE-R213-ModePriseEnCharge#11 "Equipe mobile extra-hospitalière"
 * $TRE-R213-ModePriseEnCharge#13 "Hospitalisation courte durée (UHCD)"
-* $TRE-R213-ModePriseEnCharge#14 "Hospitalisation kangourou"
 * $TRE-R213-ModePriseEnCharge#17 "Précarité, permanence d'accès aux soins de santé (PASS)"
 * $TRE-R213-ModePriseEnCharge#20 "Soins externes et traitements ambulatoires"
-* $TRE-R213-ModePriseEnCharge#27 "Télémédecine"
+* $TRE-R213-ModePriseEnCharge#27 "Régulation médicale téléphonique"
 * $TRE-R213-ModePriseEnCharge#28 "Hospitalisation complète (HC)"
 * $TRE-R213-ModePriseEnCharge#29 "Hospitalisation de jour (HJ)"
 * $TRE-R213-ModePriseEnCharge#30 "Hospitalisation de nuit (HN)"

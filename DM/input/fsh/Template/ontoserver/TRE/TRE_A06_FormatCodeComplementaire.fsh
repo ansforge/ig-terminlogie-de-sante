@@ -1,29 +1,33 @@
 CodeSystem: TRE_A06_FormatCodeComplementaire
 Id: TRE-A06-FormatCodeComplementaire
 Description: "formatCode en complément des nomenclatures internationales"
-* ^meta.versionId = "6"
-* ^meta.lastUpdated = "2025-07-02T18:11:26.409+00:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^meta.versionId = "10"
+* ^meta.lastUpdated = "2025-12-22T10:46:29.488+01:00"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2016-05-19T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_A06-FormatCodeComplementaire/FHIR/TRE-A06-FormatCodeComplementaire"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.1.4.2.282"
-* ^version = "20240726120000"
+* ^version = "20251029120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2024-07-26T12:00:00+01:00"
+* ^date = "2025-10-29T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
+* ^count = 63
 * ^property[0].code = #dateValid
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateMaj
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj"
 * ^property[=].description = "Date de mise à jour d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateFin
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin"
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #deprecationDate
@@ -754,9 +758,13 @@ Description: "formatCode en complément des nomenclatures internationales"
 * #urn:asip:ci-sis:dlu:2024 ^property[0].code = #dateValid
 * #urn:asip:ci-sis:dlu:2024 ^property[=].valueDateTime = "2024-04-26T12:00:00+01:00"
 * #urn:asip:ci-sis:dlu:2024 ^property[+].code = #dateMaj
-* #urn:asip:ci-sis:dlu:2024 ^property[=].valueDateTime = "2024-04-26T12:00:00+01:00"
+* #urn:asip:ci-sis:dlu:2024 ^property[=].valueDateTime = "2025-10-29T12:00:00+01:00"
+* #urn:asip:ci-sis:dlu:2024 ^property[+].code = #dateFin
+* #urn:asip:ci-sis:dlu:2024 ^property[=].valueDateTime = "2025-10-29T12:00:00+01:00"
 * #urn:asip:ci-sis:dlu:2024 ^property[+].code = #status
-* #urn:asip:ci-sis:dlu:2024 ^property[=].valueCode = #active
+* #urn:asip:ci-sis:dlu:2024 ^property[=].valueCode = #deprecated
+* #urn:asip:ci-sis:dlu:2024 ^property[+].code = #deprecationDate
+* #urn:asip:ci-sis:dlu:2024 ^property[=].valueDateTime = "2025-10-29T12:00:00+01:00"
 * #urn:asip:ci-sis:ft-su:2024 "Fiche de transfert vers le service des urgences"
 * #urn:asip:ci-sis:ft-su:2024 ^designation[0].language = #fr-FR
 * #urn:asip:ci-sis:ft-su:2024 ^designation[=].use.system = "http://snomed.info/sct"

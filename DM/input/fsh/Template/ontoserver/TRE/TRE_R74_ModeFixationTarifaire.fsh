@@ -1,29 +1,33 @@
 CodeSystem: TRE_R74_ModeFixationTarifaire
 Id: TRE-R74-ModeFixationTarifaire
 Description: "Mode de fixation tarifaire"
-* ^meta.versionId = "7"
-* ^meta.lastUpdated = "2025-07-02T18:18:46.131+00:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^meta.versionId = "9"
+* ^meta.lastUpdated = "2025-12-22T10:46:48.844+01:00"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "1999-11-02T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.46"
-* ^version = "20240223120000"
+* ^version = "20251222120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2024-02-23T12:00:00+01:00"
+* ^date = "2025-12-22T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
+* ^count = 52
 * ^property[0].code = #dateValid
-* ^property[=].description = "date de validité d'un code concept"
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
+* ^property[=].description = "Date de validité d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateMaj
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj"
 * ^property[=].description = "Date de mise à jour d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateFin
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin"
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #deprecationDate
@@ -644,15 +648,15 @@ Description: "Mode de fixation tarifaire"
 * #56 ^property[=].valueDateTime = "2018-09-28T12:00:00+01:00"
 * #56 ^property[+].code = #status
 * #56 ^property[=].valueCode = #active
-* #57 "ARS /ARS PCD Dotation forfait ou prix de journée globalisés (CPOM)"
+* #57 "Dotation globale de soins ARS et hébergement prix de journée PCD – sous CPOM"
 * #57 ^designation[0].language = #fr-FR
 * #57 ^designation[=].use.system = "http://snomed.info/sct"
 * #57 ^designation[=].use = $sct#900000000000013009
-* #57 ^designation[=].value = "ARS/ARS PCD Dot.Glob"
+* #57 ^designation[=].value = "DGS ARS & hébergement PCD – sous CPOM"
 * #57 ^property[0].code = #dateValid
 * #57 ^property[=].valueDateTime = "2018-09-28T12:00:00+01:00"
 * #57 ^property[+].code = #dateMaj
-* #57 ^property[=].valueDateTime = "2020-01-31T12:00:00+01:00"
+* #57 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #57 ^property[+].code = #status
 * #57 ^property[=].valueCode = #active
 * #58 "ARS dotation forfait ou prix de journée globalisé hors CPOM"

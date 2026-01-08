@@ -1,30 +1,33 @@
 CodeSystem: TRE_R85_RolePriseCharge
 Id: TRE-R85-RolePriseCharge
 Description: "Rôle dans la prise en charge des patients ou des usagers"
-* ^meta.versionId = "19"
-* ^meta.lastUpdated = "2025-10-02T20:13:56.737+02:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^meta.versionId = "21"
+* ^meta.lastUpdated = "2025-12-22T10:46:49.421+01:00"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2015-01-01T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.107"
-* ^version = "20250919120000"
+* ^version = "20251222120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-09-19T12:00:00+01:00"
+* ^date = "2025-12-22T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
 * ^count = 74
 * ^property[0].code = #dateValid
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateMaj
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj"
 * ^property[=].description = "Date de mise à jour d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateFin
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin"
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #deprecationDate
@@ -213,9 +216,13 @@ Description: "Rôle dans la prise en charge des patients ou des usagers"
 * #318 ^property[0].code = #dateValid
 * #318 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
 * #318 ^property[+].code = #dateMaj
-* #318 ^property[=].valueDateTime = "2025-09-19T12:00:00+01:00"
+* #318 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #318 ^property[+].code = #dateFin
+* #318 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #318 ^property[+].code = #status
-* #318 ^property[=].valueCode = #active
+* #318 ^property[=].valueCode = #deprecated
+* #318 ^property[+].code = #deprecationDate
+* #318 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #319 "Technicien de l'intervention sociale et familiale" "Ref juridique : CASF Articles D451-81 à D451-87 Source : https://solidarites.gouv.fr/technicien-de-lintervention-sociale-et-familiale Le technicien ou la technicienne de l’intervention sociale et familiale (TISF) exerce son activité dans le champ de l’action sociale ou médico-sociale. Il ou elle intervient auprès de personnes qui ont besoin d’aide dans des circonstances particulières : décès, hospitalisation, grossesse pathologique, naissance, longue maladie, handicap, difficultés sociales, etc. Le ou la TISF accompagne les familles, les parents, les personnes âgées, les personnes en situation de handicap ou en situation d’exclusion. Son objectif est de préserver leur autonomie et de les soutenir, en les aidant dans leur quotidien et leurs démarches administratives. Son intervention vise à permettre l’intégration sociale, le développement et l’autonomie des personnes aidées. Son rôle est donc à la fois préventif, éducatif, d’accompagnement et de soutien. Ces interventions s’effectuent au domicile, habituel ou de substitution de la famille ou de la personne aidée, dans son environnement proche ou en établissements sociaux et médico-sociaux. Le ou la TISF est employé en grande majorité par les associations d'aide à domicile ou les établissements sociaux et médico-sociaux comme les structures d'accueil pour personnes en situation de handicap, résidences pour personnes âgées, centres maternels foyers de l'enfance, etc. Le TISF doit disposer d’un diplôme reconnu comme le Diplôme d’Etat de Technicien d’Intervention Social et Familiale (DETISF) ou bien le BTS Economie Sociale Familiale (BTS ESF) afin de pouvoir exercer cette profession."
 * #319 ^designation[0].language = #fr-FR
 * #319 ^designation[=].use.system = "http://snomed.info/sct"
@@ -264,9 +271,13 @@ Description: "Rôle dans la prise en charge des patients ou des usagers"
 * #323 ^property[0].code = #dateValid
 * #323 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"
 * #323 ^property[+].code = #dateMaj
-* #323 ^property[=].valueDateTime = "2025-09-19T12:00:00+01:00"
+* #323 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #323 ^property[+].code = #dateFin
+* #323 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #323 ^property[+].code = #status
-* #323 ^property[=].valueCode = #active
+* #323 ^property[=].valueCode = #deprecated
+* #323 ^property[+].code = #deprecationDate
+* #323 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #324 "Moniteur éducateur" "Ref juridique : - CASF Articles D451-73 à D451-78 - Arrêté du 5 juillet 2024 relatif au diplôme d'Etat de moniteur éducateur Source : https://solidarites.gouv.fr/moniteur-educateur Le moniteur éducateur ou la monitrice éducatrice (ME) exerce sa fonction auprès d’enfants, d’adolescents ou d’adultes en difficulté, handicapés ou en situation de dépendance. A travers un accompagnement particulier, il ou elle aide quotidiennement à instaurer, restaurer ou préserver l'adaptation sociale et l'autonomie de ces personnes. Il ou elle veille à l’épanouissement, au développent des capacités d’adaptation et aide à accomplir les gestes de la vie quotidienne des personnes qu’il ou elle accompagne. Il ou elle participe également à l’action éducative, en liaison avec les autres professionnels de l’éducation spécialisée. Le moniteur éducateur ou la monitrice éducatrice exerce  au sein de divers domaines d’accompagnement notamment dans le champ de l’action sociale et médico-sociale. Ainsi, il ou elle peut travailler dans des établissements et services sociaux et médico-sociaux, tels que les maisons d’enfants à caractère social, internats, foyers, maisons d'accueil spécialisées, instituts médico-éducatifs, etc., mais également dans des établissements qui relèvent du secteur privé non lucratif ou du secteur public (protection de l’enfance, de la lutte contre les exclusions, du handicap ou du grand âge, etc.), que dans des structures innovantes. Le diplôme pour l’exercice de cette profession est le Diplôme d’Etat Moniteur éducateur (DEME)."
 * #324 ^property[0].code = #dateValid
 * #324 ^property[=].valueDateTime = "2020-06-26T12:00:00+01:00"

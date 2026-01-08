@@ -1,30 +1,33 @@
 CodeSystem: TRE_R58_AutreTypeDiplome
 Id: TRE-R58-AutreTypeDiplome
 Description: "Autre type de diplôme"
-* ^meta.versionId = "11"
-* ^meta.lastUpdated = "2025-10-02T20:13:55.363+02:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^meta.versionId = "13"
+* ^meta.lastUpdated = "2025-12-22T10:46:46.902+01:00"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2013-06-28T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R58-AutreTypeDiplome/FHIR/TRE-R58-AutreTypeDiplome"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.53"
-* ^version = "20250828120000"
+* ^version = "20251222120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-08-28T12:00:00+01:00"
+* ^date = "2025-12-22T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
 * ^count = 92
 * ^property[0].code = #dateValid
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateMaj
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj"
 * ^property[=].description = "Date de mise à jour d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateFin
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin"
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #deprecationDate
@@ -608,7 +611,7 @@ Description: "Autre type de diplôme"
 * #DIP323 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
 * #DIP323 ^property[+].code = #status
 * #DIP323 ^property[=].valueCode = #active
-* #DIP324 "Licence + Master mention clinique, psychopatho et psycho santé + Attest stage" "Article 52 de la loi n° 2004-806 du 9 août 2004 relative à la politique de santé publique ; article 1 du décret n° 2010-534 du 20 mai 2010 relatif à l'usage du titre de psychothérapeute ; article 1er, 2° et 3° du décret n°90-255 du 22 mars 1990"
+* #DIP324 "Licence + Master mention psychologie clinique, psychopatho et psycho santé + Attest stage" "Article 52 de la loi n° 2004-806 du 9 août 2004 relative à la politique de santé publique ; article 1 du décret n° 2010-534 du 20 mai 2010 relatif à l'usage du titre de psychothérapeute ; article 1er, 2° et 3° du décret n°90-255 du 22 mars 1990"
 * #DIP324 ^designation[0].language = #fr-FR
 * #DIP324 ^designation[=].use.system = "http://snomed.info/sct"
 * #DIP324 ^designation[=].use = $sct#900000000000013009
@@ -620,10 +623,10 @@ Description: "Autre type de diplôme"
 * #DIP324 ^property[0].code = #dateValid
 * #DIP324 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
 * #DIP324 ^property[+].code = #dateMaj
-* #DIP324 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
+* #DIP324 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #DIP324 ^property[+].code = #status
 * #DIP324 ^property[=].valueCode = #active
-* #DIP325 "Licence + Master mention sociale, du travail et des organisations + Attest stage" "Article 52 de la loi n° 2004-806 du 9 août 2004 relative à la politique de santé publique ; article 1 du décret n° 2010-534 du 20 mai 2010 relatif à l'usage du titre de psychothérapeute ; article 1er, 2° et 3° du décret n°90-255 du 22 mars 1990"
+* #DIP325 "Licence + Master mention psychologie sociale, du travail et des organisations + Attest stage" "Article 52 de la loi n° 2004-806 du 9 août 2004 relative à la politique de santé publique ; article 1 du décret n° 2010-534 du 20 mai 2010 relatif à l'usage du titre de psychothérapeute ; article 1er, 2° et 3° du décret n°90-255 du 22 mars 1990"
 * #DIP325 ^designation[0].language = #fr-FR
 * #DIP325 ^designation[=].use.system = "http://snomed.info/sct"
 * #DIP325 ^designation[=].use = $sct#900000000000013009
@@ -635,10 +638,10 @@ Description: "Autre type de diplôme"
 * #DIP325 ^property[0].code = #dateValid
 * #DIP325 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
 * #DIP325 ^property[+].code = #dateMaj
-* #DIP325 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
+* #DIP325 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #DIP325 ^property[+].code = #status
 * #DIP325 ^property[=].valueCode = #active
-* #DIP326 "Licence + Master mention éducation et de la formation + Attest stage" "Article 52 de la loi n° 2004-806 du 9 août 2004 relative à la politique de santé publique ; article 1 du décret n° 2010-534 du 20 mai 2010 relatif à l'usage du titre de psychothérapeute ; article 1er, 2° et 3° du décret n°90-255 du 22 mars 1990"
+* #DIP326 "Licence + Master mention psychologie de l'éducation et de la formation + Attest stage" "Article 52 de la loi n° 2004-806 du 9 août 2004 relative à la politique de santé publique ; article 1 du décret n° 2010-534 du 20 mai 2010 relatif à l'usage du titre de psychothérapeute ; article 1er, 2° et 3° du décret n°90-255 du 22 mars 1990"
 * #DIP326 ^designation[0].language = #fr-FR
 * #DIP326 ^designation[=].use.system = "http://snomed.info/sct"
 * #DIP326 ^designation[=].use = $sct#900000000000013009
@@ -650,10 +653,10 @@ Description: "Autre type de diplôme"
 * #DIP326 ^property[0].code = #dateValid
 * #DIP326 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
 * #DIP326 ^property[+].code = #dateMaj
-* #DIP326 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
+* #DIP326 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #DIP326 ^property[+].code = #status
 * #DIP326 ^property[=].valueCode = #active
-* #DIP327 "Licence + Master mention psychopatho clinique psychanalytique + Attest stage" "Article 52 de la loi n° 2004-806 du 9 août 2004 relative à la politique de santé publique ; article 1 du décret n° 2010-534 du 20 mai 2010 relatif à l'usage du titre de psychothérapeute ; article 1er, 2° et 3° du décret n°90-255 du 22 mars 1990"
+* #DIP327 "Licence + Master mention psychologie: psychopatho clinique psychanalytique + Attest stage" "Article 52 de la loi n° 2004-806 du 9 août 2004 relative à la politique de santé publique ; article 1 du décret n° 2010-534 du 20 mai 2010 relatif à l'usage du titre de psychothérapeute ; article 1er, 2° et 3° du décret n°90-255 du 22 mars 1990"
 * #DIP327 ^designation[0].language = #fr-FR
 * #DIP327 ^designation[=].use.system = "http://snomed.info/sct"
 * #DIP327 ^designation[=].use = $sct#900000000000013009
@@ -665,10 +668,10 @@ Description: "Autre type de diplôme"
 * #DIP327 ^property[0].code = #dateValid
 * #DIP327 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
 * #DIP327 ^property[+].code = #dateMaj
-* #DIP327 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
+* #DIP327 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #DIP327 ^property[+].code = #status
 * #DIP327 ^property[=].valueCode = #active
-* #DIP328 "Master de Psychanalyse" "Article 52 de la Loi n° 2004-806 du 9 août 2004 relative à la politique de santé publique ; article 1 du Décret n° 2010-534 du 20 mai 2010 relatif à l'usage du titre de psychothérapeute"
+* #DIP328 "Diplôme de niveau Master en psychanalyse" "Article 52 de la Loi n° 2004-806 du 9 août 2004 relative à la politique de santé publique ; article 1 du Décret n° 2010-534 du 20 mai 2010 relatif à l'usage du titre de psychothérapeute"
 * #DIP328 ^designation[0].language = #fr-FR
 * #DIP328 ^designation[=].use.system = "http://snomed.info/sct"
 * #DIP328 ^designation[=].use = $sct#900000000000013009
@@ -676,7 +679,7 @@ Description: "Autre type de diplôme"
 * #DIP328 ^property[0].code = #dateValid
 * #DIP328 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
 * #DIP328 ^property[+].code = #dateMaj
-* #DIP328 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
+* #DIP328 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #DIP328 ^property[+].code = #status
 * #DIP328 ^property[=].valueCode = #active
 * #DIP329 "Diplôme de Chiropraxie" "1° de l'article 4 du Décret n° 2011-32 du 7 janvier 2011 relatif aux actes et aux conditions d'exercice de la chiropraxie"

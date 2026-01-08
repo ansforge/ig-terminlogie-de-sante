@@ -1,30 +1,33 @@
 CodeSystem: TRE_R213_ModePriseEnCharge
 Id: TRE-R213-ModePriseEnCharge
 Description: "Mode de la prise en charge"
-* ^meta.versionId = "9"
-* ^meta.lastUpdated = "2025-10-02T20:13:44.024+02:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^meta.versionId = "11"
+* ^meta.lastUpdated = "2025-12-22T10:46:42.186+01:00"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2015-04-08T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R213-ModePriseEnCharge/FHIR/TRE-R213-ModePriseEnCharge"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.13"
-* ^version = "20250828120000"
+* ^version = "20251222120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-08-28T12:00:00+01:00"
+* ^date = "2025-12-22T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
 * ^count = 59
 * ^property[0].code = #dateValid
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateMaj
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj"
 * ^property[=].description = "Date de mise à jour d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateFin
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin"
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #deprecationDate
@@ -194,9 +197,13 @@ Description: "Mode de la prise en charge"
 * #14 ^property[0].code = #dateValid
 * #14 ^property[=].valueDateTime = "2015-05-04T00:00:00+01:00"
 * #14 ^property[+].code = #dateMaj
-* #14 ^property[=].valueDateTime = "2015-05-04T00:00:00+01:00"
+* #14 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
+* #14 ^property[+].code = #dateFin
+* #14 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
+* #14 ^property[+].code = #deprecationDate
+* #14 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #14 ^property[+].code = #status
-* #14 ^property[=].valueCode = #active
+* #14 ^property[=].valueCode = #deprecated
 * #15 "Hospitalisation très courte durée (ZHTCD et UHTCD)"
 * #15 ^designation.language = #fr-FR
 * #15 ^designation.use.system = "http://snomed.info/sct"
@@ -357,11 +364,15 @@ Description: "Mode de la prise en charge"
 * #26 ^property[=].valueDateTime = "2021-03-26T12:00:00+01:00"
 * #26 ^property[+].code = #status
 * #26 ^property[=].valueCode = #deprecated
-* #27 "Télémédecine"
+* #27 "Régulation médicale téléphonique"
+* #27 ^designation.language = #fr-FR
+* #27 ^designation.use.system = "http://snomed.info/sct"
+* #27 ^designation.use = $sct#900000000000013009
+* #27 ^designation.value = "Régulation méd tél"
 * #27 ^property[0].code = #dateValid
 * #27 ^property[=].valueDateTime = "2015-05-04T00:00:00+01:00"
 * #27 ^property[+].code = #dateMaj
-* #27 ^property[=].valueDateTime = "2015-05-04T00:00:00+01:00"
+* #27 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
 * #27 ^property[+].code = #status
 * #27 ^property[=].valueCode = #active
 * #28 "Hospitalisation complète (HC)"

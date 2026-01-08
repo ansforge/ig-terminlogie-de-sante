@@ -1,30 +1,33 @@
 CodeSystem: TRE_R212_Equipement
 Id: TRE-R212-Equipement
 Description: "Equipement"
-* ^meta.versionId = "21"
-* ^meta.lastUpdated = "2025-10-02T20:13:42.712+02:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^meta.versionId = "23"
+* ^meta.lastUpdated = "2025-12-22T10:46:41.590+01:00"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2015-03-25T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.10"
-* ^version = "20250918120000"
+* ^version = "20251222120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-09-18T12:00:00+01:00"
+* ^date = "2025-12-22T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
-* ^count = 233
+* ^count = 235
 * ^property[0].code = #dateValid
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateMaj
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj"
 * ^property[=].description = "Date de mise à jour d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateFin
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin"
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #deprecationDate
@@ -2049,3 +2052,17 @@ Description: "Equipement"
 * #233 ^property[=].valueCode = #active
 * #233 ^property[+].code = #finess
 * #233 ^property[=].valueBoolean = true
+* #234 "Espace de consommation de drogues injectables"
+* #234 ^property[0].code = #dateValid
+* #234 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
+* #234 ^property[+].code = #dateMaj
+* #234 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
+* #234 ^property[+].code = #status
+* #234 ^property[=].valueCode = #active
+* #235 "Espace de consommation de drogues à fumer"
+* #235 ^property[0].code = #dateValid
+* #235 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
+* #235 ^property[+].code = #dateMaj
+* #235 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
+* #235 ^property[+].code = #status
+* #235 ^property[=].valueCode = #active
