@@ -30,7 +30,7 @@
   fhir:name [ fhir:v "ValueSet_BDPM_All"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-01-11T04:47:43+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-01-12T04:49:39+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
   fhir:description [ fhir:v "Ce jeu de valeurs inclut tous les codes de la terminologie BDPM"] ; # 
   fhir:jurisdiction ( [

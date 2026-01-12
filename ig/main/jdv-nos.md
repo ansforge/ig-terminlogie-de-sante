@@ -265,7 +265,7 @@ Vous touverez ici la liste des JDV du NOS.
 | [Hl7VSEmploymentStatus](ValueSet-jdv-hl7-v2-0066-cisis.md) | hl7VS-employmentStatus | 16/12/2025 |
 | [Hl7VSSpecimenCollectionMethod](ValueSet-jdv-hl7-v2-0488-cisis.md) | hl7VS-specimenCollectionMethod | 16/12/2025 |
 | [WorkScheduleODH](ValueSet-jdv-hl7-v3-WorkScheduleODH-cisis.md) | WorkScheduleODH | 16/12/2025 |
-| [JDV_TRE_R222_MediaTypeCorpsCDANonStructure](ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all.md) | JDV avec l'ensemble des codes actifs de la TRE_R222_MediaTypeCorpsCDANonStructure | 11/01/2026 |
+| [JDV_TRE_R222_MediaTypeCorpsCDANonStructure](ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all.md) | JDV avec l'ensemble des codes actifs de la TRE_R222_MediaTypeCorpsCDANonStructure | 12/01/2026 |
 | [JdvBatterieExamenCisis](ValueSet-jdv-batterie-examen-cisis.md) | JDV Batterie Examen CISIS | 16/12/2025 |
 | [JdvCasSporadiqueFamilialCisis](ValueSet-jdv-cas-sporadique-familial-cisis.md) | JDV Cas Sporadique Familial CISIS | 16/12/2025 |
 | [JdvCauseAccidentDomestiqueCisis](ValueSet-jdv-cause-accident-domestique-cisis.md) | JDV Cause Accident Domestique CISIS | 16/12/2025 |
@@ -518,7 +518,7 @@ Vous touverez ici la liste des JDV du NOS.
 | [JdvTnmPtnmPt2Cisis](ValueSet-jdv-tnm-ptnm-pt-2-cisis.md) | JDV Tnm Ptnm Pt 2 CISIS | 16/12/2025 |
 | [JdvTnmPtnmPt3Cisis](ValueSet-jdv-tnm-ptnm-pt-3-cisis.md) | JDV Tnm Ptnm Pt 3 CISIS | 16/12/2025 |
 | [TimingEvent](ValueSet-jdv-hl7-v3-TimingEvent-cisis.md) | TimingEvent | 16/12/2025 |
-| [JdvModeleDocumentCda](ValueSet-jdv-modele-document-cda.md) | JDV avec l'ensemble des codes de la TRE_R220_ModeleDocumentCDAStructure et TRE_R221_ModeleDocumentCDANonStructure | 11/01/2026 |
+| [JdvModeleDocumentCda](ValueSet-jdv-modele-document-cda.md) | JDV avec l'ensemble des codes de la TRE_R220_ModeleDocumentCDAStructure et TRE_R221_ModeleDocumentCDANonStructure | 12/01/2026 |
 | [ActMoodIntent](ValueSet-jdv-hl7-v3-ActMoodIntent-cisis.md) | ActMoodIntent | 16/12/2025 |
 | [ActMood](ValueSet-jdv-hl7-v3-ActMood-cisis.md) | ActMood | 16/12/2025 |
 | [EmploymentStatusODH](ValueSet-jdv-hl7-v3-employmentStatusODH-cisis.md) | EmploymentStatusODH | 16/12/2025 |
@@ -589,7 +589,7 @@ Vous touverez ici la liste des JDV du NOS.
 | [PersonalRelationshipRoleType](ValueSet-jdv-hl7-v3-PersonalRelationshipRoleType-cisis.md) | PersonalRelationshipRoleType | 16/12/2025 |
 | [JdvAppreciationDiagnosticCentreCisis](ValueSet-jdv-appreciation-diagnostic-centre-cisis.md) | JDV Appreciation Diagnostic Centre CISIS | 16/12/2025 |
 | [JdvSpecimenTypeCisis](ValueSet-jdv-specimen-type-cisis.md) | JDV Specimen Type CISIS | 16/12/2025 |
-| [JdvTreR221ModeleDocumentCdaNonStructureAll](ValueSet-jdv-tre-r221-modele-document-cda-non-structure-all.md) | JDV avec l'ensemble des codes actifs de la TRE_R221_ModeleDocumentCDANonStructure | 11/01/2026 |
+| [JdvTreR221ModeleDocumentCdaNonStructureAll](ValueSet-jdv-tre-r221-modele-document-cda-non-structure-all.md) | JDV avec l'ensemble des codes actifs de la TRE_R221_ModeleDocumentCDANonStructure | 12/01/2026 |
 | [ActPriority](ValueSet-jdv-hl7-v3-ActPriority-cisis.md) | ActPriority | 16/12/2025 |
 | [AllergyIntoleranceClinicalStatusCodes](ValueSet-jdv-hl7-allergyintolerance-clinical-cisis.md) | AllergyIntolerance Clinical Status Codes | 16/12/2025 |
 | [AllergyIntoleranceCriticality](ValueSet-jdv-hl7-allergy-intolerance-criticality-cisis.md) | Allergy Intolerance Criticality | 16/12/2025 |
