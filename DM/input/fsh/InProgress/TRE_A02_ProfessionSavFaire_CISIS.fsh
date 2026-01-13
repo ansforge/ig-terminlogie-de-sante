@@ -9,10 +9,10 @@ Description: "Profession et savoir-faire CI-SIS"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_A02-ProfessionSavFaire-CISIS/FHIR/TRE-A02-ProfessionSavFaire-CISIS"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.1.4.5"
-* ^version = "20241213120000"
+* ^version = "20260202120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2024-12-13T12:00:00+01:00"
+* ^date = "2026-02-02T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
@@ -2525,6 +2525,13 @@ Description: "Profession et savoir-faire CI-SIS"
 * #G15_10/SST26 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
 * #G15_10/SST26 ^property[+].code = #status
 * #G15_10/SST26 ^property[=].valueCode = #active
+* #G15_10/SST27 "Médecin - Innovation et recherche en sciences biologiques et pharmaceutiques (SST)"
+* #G15_10/SST27 ^property[0].code = #dateValid
+* #G15_10/SST27 ^property[=].valueDateTime = "2026-02-02T12:00:00+01:00"
+* #G15_10/SST27 ^property[+].code = #dateMaj
+* #G15_10/SST27 ^property[=].valueDateTime = "2026-02-02T12:00:00+01:00"
+* #G15_10/SST27 ^property[+].code = #status
+* #G15_10/SST27 ^property[=].valueCode = #active
 * #G15_21/FQ01 "Pharmacien - Expérience prat. art. R.5124-16 du CSP Fabricant (FQ)"
 * #G15_21/FQ01 ^property[0].code = #dateValid
 * #G15_21/FQ01 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"

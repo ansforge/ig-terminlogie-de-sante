@@ -9,10 +9,10 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R01-EnsembleSavoirFaire-CISIS/FHIR/TRE-R01-EnsembleSavoirFaire-CISIS"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.71.4.2.5"
-* ^version = "20241213120000"
+* ^version = "20260202120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2024-12-13T12:00:00+01:00"
+* ^date = "2026-02-02T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
@@ -3907,3 +3907,13 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SST26 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
 * #SST26 ^property[+].code = #status
 * #SST26 ^property[=].valueCode = #active
+* #SST27 "Innovation et recherche en sciences biologiques et pharmaceutiques (SST)"
+* #SST27 ^designation[0].language = #fr-FR
+* #SST27 ^designation[=].use = $sct#900000000000013009
+* #SST27 ^designation[=].value = "Innovation et recherche en sciences biologiques et pharmaceutiques"
+* #SST27 ^property[0].code = #dateValid
+* #SST27 ^property[=].valueDateTime = "2026-02-02T12:00:00+01:00"
+* #SST27 ^property[+].code = #dateMaj
+* #SST27 ^property[=].valueDateTime = "2026-02-02T12:00:00+01:00"
+* #SST27 ^property[+].code = #status
+* #SST27 ^property[=].valueCode = #active
