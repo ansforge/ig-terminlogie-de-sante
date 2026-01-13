@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R01-EnsembleSavoirFaire-CISIS/FHIR/TRE-R01-EnsembleSavoirFaire-CISIS | *Version*:20241213120000 | |
-| Active as of 2024-12-13 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R01_EnsembleSavoirFaire_CISIS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R01-EnsembleSavoirFaire-CISIS/FHIR/TRE-R01-EnsembleSavoirFaire-CISIS | *Version*:20260202120000 | |
+| Active as of 2026-02-02 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R01_EnsembleSavoirFaire_CISIS |
 | *Other Identifiers:*OID:1.2.250.1.71.4.2.5 | | |
 
  
@@ -50,11 +50,11 @@ Ensemble Savoir-faire CI-SIS (TRE provisoire)
       "value" : "urn:oid:1.2.250.1.71.4.2.5"
     }
   ],
-  "version" : "20241213120000",
+  "version" : "20260202120000",
   "name" : "TRE_R01_EnsembleSavoirFaire_CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2024-12-13T12:00:00+01:00",
+  "date" : "2026-02-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Ensemble Savoir-faire CI-SIS (TRE provisoire)",
   "jurisdiction" : [
@@ -69,7 +69,7 @@ Ensemble Savoir-faire CI-SIS (TRE provisoire)
   ],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 325,
+  "count" : 326,
   "property" : [
     {
       "code" : "dateValid",
@@ -9793,6 +9793,34 @@ Ensemble Savoir-faire CI-SIS (TRE provisoire)
         {
           "code" : "dateMaj",
           "valueDateTime" : "2024-12-13T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "SST27",
+      "display" : "Innovation et recherche en sciences biologiques et pharmaceutiques (SST)",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "Innovation et recherche en sciences biologiques et pharmaceutiques"
+        }
+      ],
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2026-02-02T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2026-02-02T12:00:00+01:00"
         },
         {
           "code" : "status",

@@ -59,7 +59,7 @@ Transco des Savoir-faire de la TRE_R01 vers les TRE des NOS
   "group" : [
     {
       "source" : "https://mos.esante.gouv.fr/NOS/TRE_R01-EnsembleSavoirFaire-CISIS/FHIR/TRE-R01-EnsembleSavoirFaire-CISIS",
-      "sourceVersion" : "20241213120000",
+      "sourceVersion" : "20260202120000",
       "target" : "https://mos.esante.gouv.fr/NOS/TRE_R38-SpecialiteOrdinale/FHIR/TRE-R38-SpecialiteOrdinale",
       "targetVersion" : "20240531120000",
       "element" : [
@@ -994,7 +994,7 @@ Transco des Savoir-faire de la TRE_R01 vers les TRE des NOS
     },
     {
       "source" : "https://mos.esante.gouv.fr/NOS/TRE_R01-EnsembleSavoirFaire-CISIS/FHIR/TRE-R01-EnsembleSavoirFaire-CISIS",
-      "sourceVersion" : "20241213120000",
+      "sourceVersion" : "20260202120000",
       "target" : "https://mos.esante.gouv.fr/NOS/TRE_R39-Competence/FHIR/TRE-R39-Competence",
       "targetVersion" : "20240628120000",
       "element" : [
@@ -1389,7 +1389,7 @@ Transco des Savoir-faire de la TRE_R01 vers les TRE des NOS
     },
     {
       "source" : "https://mos.esante.gouv.fr/NOS/TRE_R01-EnsembleSavoirFaire-CISIS/FHIR/TRE-R01-EnsembleSavoirFaire-CISIS",
-      "sourceVersion" : "20241213120000",
+      "sourceVersion" : "20260202120000",
       "target" : "https://mos.esante.gouv.fr/NOS/TRE_R40-CompetenceExclusive/FHIR/TRE-R40-CompetenceExclusive",
       "targetVersion" : "20231215120000",
       "element" : [
@@ -1433,7 +1433,7 @@ Transco des Savoir-faire de la TRE_R01 vers les TRE des NOS
     },
     {
       "source" : "https://mos.esante.gouv.fr/NOS/TRE_R01-EnsembleSavoirFaire-CISIS/FHIR/TRE-R01-EnsembleSavoirFaire-CISIS",
-      "sourceVersion" : "20241213120000",
+      "sourceVersion" : "20260202120000",
       "target" : "https://mos.esante.gouv.fr/NOS/TRE_R42-DESCnonQualifiant/FHIR/TRE-R42-DESCnonQualifiant",
       "targetVersion" : "20240628120000",
       "element" : [
@@ -1810,7 +1810,7 @@ Transco des Savoir-faire de la TRE_R01 vers les TRE des NOS
     },
     {
       "source" : "https://mos.esante.gouv.fr/NOS/TRE_R01-EnsembleSavoirFaire-CISIS/FHIR/TRE-R01-EnsembleSavoirFaire-CISIS",
-      "sourceVersion" : "20241213120000",
+      "sourceVersion" : "20260202120000",
       "target" : "https://mos.esante.gouv.fr/NOS/TRE_R43-CapaciteSavoirFaire/FHIR/TRE-R43-CapaciteSavoirFaire",
       "targetVersion" : "20231215120000",
       "element" : [
@@ -1962,7 +1962,7 @@ Transco des Savoir-faire de la TRE_R01 vers les TRE des NOS
     },
     {
       "source" : "https://mos.esante.gouv.fr/NOS/TRE_R01-EnsembleSavoirFaire-CISIS/FHIR/TRE-R01-EnsembleSavoirFaire-CISIS",
-      "sourceVersion" : "20241213120000",
+      "sourceVersion" : "20260202120000",
       "target" : "https://mos.esante.gouv.fr/NOS/TRE_R44-QualificationPAC/FHIR/TRE-R44-QualificationPAC",
       "targetVersion" : "20231215120000",
       "element" : [
@@ -1979,7 +1979,7 @@ Transco des Savoir-faire de la TRE_R01 vers les TRE des NOS
     },
     {
       "source" : "https://mos.esante.gouv.fr/NOS/TRE_R01-EnsembleSavoirFaire-CISIS/FHIR/TRE-R01-EnsembleSavoirFaire-CISIS",
-      "sourceVersion" : "20241213120000",
+      "sourceVersion" : "20260202120000",
       "target" : "https://mos.esante.gouv.fr/NOS/TRE_R46-SpecialiteConcoursHospitalier/FHIR/TRE-R46-SpecialiteConcoursHospitalier",
       "targetVersion" : "20231215120000",
       "element" : [

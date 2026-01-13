@@ -31,13 +31,13 @@ Les jeux de valeurs (JDV) sont des nomenclatures constituées de codes extraits 
 | [EmploymentStatusODH](ValueSet-jdv-hl7-v3-employmentStatusODH-cisis.md) | EmploymentStatusODH | 16/12/2025 |
 | [Hl7VSEmploymentStatus](ValueSet-jdv-hl7-v2-0066-cisis.md) | hl7VS-employmentStatus | 16/12/2025 |
 | [Hl7VSSpecimenCollectionMethod](ValueSet-jdv-hl7-v2-0488-cisis.md) | hl7VS-specimenCollectionMethod | 16/12/2025 |
-| [JDV_J01_XdsAuthorSpecialty_CISIS](ValueSet-JDV-J01-XdsAuthorSpecialty-CISIS.md) | XDS authorSpecialty CI-SIS | 22/12/2025 |
+| [JDV_J01_XdsAuthorSpecialty_CISIS](ValueSet-JDV-J01-XdsAuthorSpecialty-CISIS.md) | XDS authorSpecialty CI-SIS | 02/02/2026 |
 | [JDV_J02_XdsHealthcareFacilityTypeCode_CISIS](ValueSet-JDV-J02-XdsHealthcareFacilityTypeCode-CISIS.md) | XDS healthcareFacilityTypeCode CI-SIS | 23/05/2025 |
 | [JDV_J03_XdsContentTypeCode_CISIS](ValueSet-JDV-J03-XdsContentTypeCode-CISIS.md) | XDS contentTypeCode CI-SIS | 23/05/2025 |
 | [JDV_J04_XdsPracticeSettingCode_CISIS](ValueSet-JDV-J04-XdsPracticeSettingCode-CISIS.md) | XDS practiceSettingCode CI-SIS | 27/09/2024 |
-| [JDV_J05_SubjectRole_CISIS](ValueSet-JDV-J05-SubjectRole-CISIS.md) | subjectRole CI-SIS | 22/12/2025 |
+| [JDV_J05_SubjectRole_CISIS](ValueSet-JDV-J05-SubjectRole-CISIS.md) | subjectRole CI-SIS | 02/02/2026 |
 | [JDV_J06_XdsClassCode_CISIS](ValueSet-JDV-J06-XdsClassCode-CISIS.md) | XDS classCode CI-SIS | 22/09/2023 |
-| [JDV_J07_XdsTypeCode_CISIS](ValueSet-JDV-J07-XdsTypeCode-CISIS.md) | XDS typeCode CI-SIS | 29/10/2025 |
+| [JDV_J07_XdsTypeCode_CISIS](ValueSet-JDV-J07-XdsTypeCode-CISIS.md) | XDS typeCode CI-SIS | 02/02/2026 |
 | [JDV_J08_XdsConfidentialityCode_CISIS](ValueSet-JDV-J08-XdsConfidentialityCode-CISIS.md) | XDS confidentialityCode - CI-SIS | 24/04/2020 |
 | [JDV_J100_FinessStatutJuridique_RASS](ValueSet-JDV-J100-FinessStatutJuridique-RASS.md) | Statut juridique FINESS dans le RASS | 24/04/2020 |
 | [JDV_J101_SecteurActivite_RASS](ValueSet-JDV-J101-SecteurActivite-RASS.md) | Secteurs d'activité des établissements avec la même activité dans le RASS | 28/08/2025 |
@@ -274,7 +274,7 @@ Les jeux de valeurs (JDV) sont des nomenclatures constituées de codes extraits 
 | [JDV_J97_StatutProfessionnelSSA_RASS](ValueSet-JDV-J97-StatutProfessionnelSSA-RASS.md) | Statuts des professionnels du Service de Santé des Armées dans le RASS | 24/04/2020 |
 | [JDV_J98_StatutHospitalier_RASS](ValueSet-JDV-J98-StatutHospitalier-RASS.md) | Statut des professionnels intervenant dans un hôpital dans le RASS | 24/04/2020 |
 | [JDV_J99_InseeNAFrav2Niveau5_RASS](ValueSet-JDV-J99-InseeNAFrav2Niveau5-RASS.md) | Sous-classes de la Nomenclature Activités Française (INSEE) des prof du RASS | 24/04/2020 |
-| [JDV_TRE_R222_MediaTypeCorpsCDANonStructure](ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all.md) | JDV avec l'ensemble des codes actifs de la TRE_R222_MediaTypeCorpsCDANonStructure | 12/01/2026 |
+| [JDV_TRE_R222_MediaTypeCorpsCDANonStructure](ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all.md) | JDV avec l'ensemble des codes actifs de la TRE_R222_MediaTypeCorpsCDANonStructure | 13/01/2026 |
 | [JdvAbordVeineuxCentralCisis](ValueSet-jdv-abord-veineux-central-cisis.md) | JDV Abord Veineux Central CISIS | 16/12/2025 |
 | [JdvAbordVeineuxPeripheriqueCisis](ValueSet-jdv-abord-veineux-peripherique-cisis.md) | JDV Abord Veineux Peripherique CISIS | 16/12/2025 |
 | [JdvAbsentOrUnknownAllergyCisis](ValueSet-jdv-absent-or-unknown-allergy-cisis.md) | JDV Absent Or Unknown Allergy CISIS | 16/12/2025 |
@@ -477,7 +477,7 @@ Les jeux de valeurs (JDV) sont des nomenclatures constituées de codes extraits 
 | [JdvModeSortieObpSemCisis](ValueSet-jdv-mode-sortie-obp-sem-cisis.md) | JDV Mode Sortie Obp Sem CISIS | 16/12/2025 |
 | [JdvModeSortieObpSneCisis](ValueSet-jdv-mode-sortie-obp-sne-cisis.md) | JDV Mode Sortie Obp Sne CISIS | 16/12/2025 |
 | [JdvModeSortieObpSnmCisis](ValueSet-jdv-mode-sortie-obp-snm-cisis.md) | JDV Mode Sortie Obp Snm CISIS | 16/12/2025 |
-| [JdvModeleDocumentCda](ValueSet-jdv-modele-document-cda.md) | JDV avec l'ensemble des codes de la TRE_R220_ModeleDocumentCDAStructure et TRE_R221_ModeleDocumentCDANonStructure | 12/01/2026 |
+| [JdvModeleDocumentCda](ValueSet-jdv-modele-document-cda.md) | JDV avec l'ensemble des codes de la TRE_R220_ModeleDocumentCDAStructure et TRE_R221_ModeleDocumentCDANonStructure | 13/01/2026 |
 | [JdvModeleDocumentCdaCisis](ValueSet-jdv-modele-document-cda-cisis.md) | Jdv Modele Document CDA CISIS | 16/12/2025 |
 | [JdvModeleDocumentCdaNonStructureCisis](ValueSet-jdv-modele-document-cda-non-structure-cisis.md) | Jdv Modele Document CDA Non Structure CISIS | 16/12/2025 |
 | [JdvModificateurTopographiqueCisis](ValueSet-jdv-modificateur-topographique-cisis.md) | JDV Modificateur Topographique CISIS | 16/12/2025 |
@@ -635,7 +635,7 @@ Les jeux de valeurs (JDV) sont des nomenclatures constituées de codes extraits 
 | [JdvTraitementSoinsFrcpCisis](ValueSet-jdv-traitement-soins-frcp-cisis.md) | JDV Traitement Soins Frcp CISIS | 16/12/2025 |
 | [JdvTraitementSuiviCisis](ValueSet-jdv-traitement-suivi-cisis.md) | JDV Traitement Suivi CISIS | 16/12/2025 |
 | [JdvTransfertMutationCisis](ValueSet-jdv-transfert-mutation-cisis.md) | JDV Transfert Mutation CISIS | 16/12/2025 |
-| [JdvTreR221ModeleDocumentCdaNonStructureAll](ValueSet-jdv-tre-r221-modele-document-cda-non-structure-all.md) | JDV avec l'ensemble des codes actifs de la TRE_R221_ModeleDocumentCDANonStructure | 12/01/2026 |
+| [JdvTreR221ModeleDocumentCdaNonStructureAll](ValueSet-jdv-tre-r221-modele-document-cda-non-structure-all.md) | JDV avec l'ensemble des codes actifs de la TRE_R221_ModeleDocumentCDANonStructure | 13/01/2026 |
 | [JdvTrodExamenCisis](ValueSet-jdv-trod-examen-cisis.md) | Jdv Trod Examen CISIS | 16/12/2025 |
 | [JdvTroubleVisuelCisis](ValueSet-jdv-trouble-visuel-cisis.md) | JDV Trouble Visuel CISIS | 16/12/2025 |
 | [JdvTrousseCcuCisis](ValueSet-jdv-trousse-ccu-cisis.md) | JDV Trousse Ccu CISIS | 16/12/2025 |
@@ -724,12 +724,12 @@ Les jeux de valeurs (JDV) sont des nomenclatures constituées de codes extraits 
 | [SpecimenRoleType](ValueSet-jdv-hl7-v3-SpecimenRoleType-cisis.md) | SpecimenRoleType | 16/12/2025 |
 | [TimingEvent](ValueSet-jdv-hl7-v3-TimingEvent-cisis.md) | TimingEvent | 16/12/2025 |
 | [VS_test](ValueSet-VS-test.md) | VS-test | 31/12/2020 |
-| [ValueSet_ATC_All](ValueSet-vs-atc-all.md) | Ce jeu de valeurs inclut tous les codes concepts de la terminologie ATC | 12/01/2026 |
-| [ValueSet_BDPM_All](ValueSet-vs-bdpm-all.md) | Ce jeu de valeurs inclut tous les codes de la terminologie BDPM | 12/01/2026 |
-| [ValueSet_CIPUCD_All](ValueSet-vs-cipucd-all.md) | Ce jeu de valeurs inclut tous les codes concepts de la terminologie CIP-UCD | 12/01/2026 |
-| [ValueSet_EDQM_All](ValueSet-vs-edqm-all.md) | Ce jeu de valeurs inclut tous les codes de la terminologie EDQM | 12/01/2026 |
-| [ValueSet_NUVA_All](ValueSet-vs-nuva-all.md) | Ce jeu de valeurs inclut tous les codes concepts de la terminologie NUVA | 12/01/2026 |
-| [ValueSet_SMS_All](ValueSet-vs-sms-all.md) | Ce jeu de valeurs inclut tous les codes de la terminologie SMS, Dictionnaire des substances médicamenteuses | 12/01/2026 |
+| [ValueSet_ATC_All](ValueSet-vs-atc-all.md) | Ce jeu de valeurs inclut tous les codes concepts de la terminologie ATC | 13/01/2026 |
+| [ValueSet_BDPM_All](ValueSet-vs-bdpm-all.md) | Ce jeu de valeurs inclut tous les codes de la terminologie BDPM | 13/01/2026 |
+| [ValueSet_CIPUCD_All](ValueSet-vs-cipucd-all.md) | Ce jeu de valeurs inclut tous les codes concepts de la terminologie CIP-UCD | 13/01/2026 |
+| [ValueSet_EDQM_All](ValueSet-vs-edqm-all.md) | Ce jeu de valeurs inclut tous les codes de la terminologie EDQM | 13/01/2026 |
+| [ValueSet_NUVA_All](ValueSet-vs-nuva-all.md) | Ce jeu de valeurs inclut tous les codes concepts de la terminologie NUVA | 13/01/2026 |
+| [ValueSet_SMS_All](ValueSet-vs-sms-all.md) | Ce jeu de valeurs inclut tous les codes de la terminologie SMS, Dictionnaire des substances médicamenteuses | 13/01/2026 |
 | [WorkScheduleODH](ValueSet-jdv-hl7-v3-WorkScheduleODH-cisis.md) | WorkScheduleODH | 16/12/2025 |
 | [XActMoodDocumentObservation](ValueSet-jdv-hl7-v3-xActMoodDocumentObservation.md) | x_ActMoodDocumentObservation | 16/12/2025 |
 | [XBasicConfidentialityKind](ValueSet-jdv-hl7-v3-xBasicConfidentialityKind-cisis.md) | x_BasicConfidentialityKind | 16/12/2025 |

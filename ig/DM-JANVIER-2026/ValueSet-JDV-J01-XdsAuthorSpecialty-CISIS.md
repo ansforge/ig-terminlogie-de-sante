@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS | *Version*:20251222120000 | |
-| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J01_XdsAuthorSpecialty_CISIS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS | *Version*:20260202120000 | |
+| Active as of 2026-02-02 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J01_XdsAuthorSpecialty_CISIS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.461 | | |
 
  
@@ -77,11 +77,11 @@ Requête sur le SMT
       "value" : "urn:oid:1.2.250.1.213.1.1.5.461"
     }
   ],
-  "version" : "20251222120000",
+  "version" : "20260202120000",
   "name" : "JDV_J01_XdsAuthorSpecialty_CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-22T12:00:00+01:00",
+  "date" : "2026-02-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "XDS authorSpecialty CI-SIS",
   "jurisdiction" : [
@@ -1347,6 +1347,10 @@ Requête sur le SMT
           {
             "code" : "G15_10/SST26",
             "display" : "Médecin - Urgences pédiatriques (SST)"
+          },
+          {
+            "code" : "G15_10/SST27",
+            "display" : "Médecin - Innovation et recherche en sciences biologiques et pharmaceutiques (SST)"
           },
           {
             "code" : "G15_21/FQ01",

@@ -17,7 +17,7 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TreR394CompetenceMetier](CodeSystem-tre-r394-competence-metier.md) | Type de savoir-faire opérationnel, transversal ou spécifique, acquis et exercé à titre non exclusif dans le cadre d’une activité professionnelle reconnue. | 25/06/2025 |
 | [TRE_A00_ProducteurDocNonPS](CodeSystem-TRE-A00-ProducteurDocNonPS.md) | Producteur de document non PS | 29/03/2024 |
 | [TRE_A01_CadreExercice](CodeSystem-TRE-A01-CadreExercice.md) | Cadre d'exercice | 27/09/2024 |
-| [TRE_A02_ProfessionSavFaire_CISIS](CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.md) | Profession et savoir-faire CI-SIS | 13/12/2024 |
+| [TRE_A02_ProfessionSavFaire_CISIS](CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.md) | Profession et savoir-faire CI-SIS | 02/02/2026 |
 | [TRE_A03_ClasseDocument](CodeSystem-TRE-A03-ClasseDocument.md) | Classe de document | 15/12/2023 |
 | [TRE_A05_TypeDocComplementaire](CodeSystem-TRE-A05-TypeDocComplementaire.md) | Type de document en complément des nomenclatures internationales | 29/03/2024 |
 | [TRE_A06_FormatCodeComplementaire](CodeSystem-TRE-A06-FormatCodeComplementaire.md) | formatCode en complément des nomenclatures internationales | 29/10/2025 |
@@ -47,7 +47,7 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_G19_SecteurActiviteADELI](CodeSystem-TRE-G19-SecteurActiviteADELI.md) | Secteur d'activité ADELI | 23/05/2025 |
 | [TRE_G20_Specialisation](CodeSystem-TRE-G20-Specialisation.md) | Spécialisation | 15/12/2023 |
 | [TRE_G100_Specialite_AM](CodeSystem-TRE-G100-Specialite-AM.md) | Spécialité Assurance Maladie | 25/10/2024 |
-| [TRE_R01_EnsembleSavoirFaire_CISIS](CodeSystem-TRE-R01-EnsembleSavoirFaire-CISIS.md) | Ensemble Savoir-faire CI-SIS (TRE provisoire) | 13/12/2024 |
+| [TRE_R01_EnsembleSavoirFaire_CISIS](CodeSystem-TRE-R01-EnsembleSavoirFaire-CISIS.md) | Ensemble Savoir-faire CI-SIS (TRE provisoire) | 02/02/2026 |
 | [TRE_R02_SecteurActivite](CodeSystem-TRE-R02-SecteurActivite.md) | Le secteur d'activité de santé est une donnée RPPS et correspond au type de service fourni par une structure. Il sert principalement à déterminer les propriétés de facturation des professionnels de ces structures vis-à-vis de l'assurance maladie | 23/05/2025 |
 | [TRE_R03_AttributionParticuliere](CodeSystem-TRE-R03-AttributionParticuliere.md) | Attribution particulière | 15/12/2023 |
 | [TRE_R04_TypeSavoirFaire](CodeSystem-TRE-R04-TypeSavoirFaire.md) | Type de savoir-faire | 16/10/2025 |
