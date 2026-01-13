@@ -29,7 +29,7 @@ Pour le document CDA, la métadonnée XDS ‘formatCode’ est calculé à parti
   "title" : "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-01-13T10:28:42+00:00",
+  "date" : "2026-01-13T15:49:24+00:00",
   "publisher" : "ANS",
   "contact" : [
     {
