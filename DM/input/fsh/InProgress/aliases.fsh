@@ -1,4 +1,5 @@
 Alias: $sct = http://snomed.info/sct
+Alias: $tre-r407-composition-foyer = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r407-composition-foyer
 Alias: $TRE-A00-ProducteurDocNonPS = https://mos.esante.gouv.fr/NOS/TRE_A00-ProducteurDocNonPS/FHIR/TRE-A00-ProducteurDocNonPS
 Alias: $TRE-A02-ProfessionSavFaire-CISIS = https://mos.esante.gouv.fr/NOS/TRE_A02-ProfessionSavFaire-CISIS/FHIR/TRE-A02-ProfessionSavFaire-CISIS
 Alias: $TRE-R95-UsagerTitre = https://mos.esante.gouv.fr/NOS/TRE_R95-UsagerTitre/FHIR/TRE-R95-UsagerTitre
