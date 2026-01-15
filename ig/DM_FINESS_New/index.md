@@ -58,6 +58,11 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
 * [Nomenclature des besoins et des prestations](CodeSystem-terminologie-SERAFINPH.md): [JDV_J282_TransportsLiesAuProjetIndividuel_SERAFIN](ValueSet-JDV-J282-TransportsLiesAuProjetIndividuel-SERAFIN.md), [JDV_J283_PrestationsIndirects_SERAFIN](ValueSet-JDV-J283-PrestationsIndirects-SERAFIN.md), [JDV_J284_PrestationsDirects_SERAFIN](ValueSet-JDV-J284-PrestationsDirects-SERAFIN.md) and [JDV_J285_Besoins_SERAFIN](ValueSet-JDV-J285-Besoins-SERAFIN.md)
 
 
+* The WHO grants a license for "commercial and non-commercial use" of ICD-11CC BY-ND 3.0 IGODetailed information can be found here: [[https://icd.who.int/en/docs/icd11-license.pdf](https://icd.who.int/en/docs/icd11-license.pdf)](https://icd.who.int/en/docs/icd11-license.pdf) Contact licensing@who.int to obtain further information.
+
+* [International Classification of Diseases, 11th Revision Mortality and Morbidity Statistics (MMS)](https://tx-nordics.fhir.org/fhir/r4/ValueSet/398b8f74-822b-4822-8a7a-1b3c40dd0f7b): [JdvCauseAccidentDomestiqueCisis](ValueSet-jdv-cause-accident-domestique-cisis.md)
+
+
 * These codes are excerpted from Digital Imaging and Communications in Medicine (DICOM) Standard, Part 16: Content Mapping Resource, Copyright © 2011 by the National Electrical Manufacturers Association.
 
 * [DICOM Controlled Terminology Definitions](http://hl7.org/fhir/R4/codesystem-dicom-dcim.html): [JdvAxamenComplementaireCisis](ValueSet-jdv-examen-complementaire-cisis.md), [JdvBilanTechniqueCisis](ValueSet-jdv-bilan-technique-cisis.md)...Show 7 more,[JdvConduiteATenir1Cisis](ValueSet-jdv-conduite-a-tenir-1-cisis.md),[JdvConduiteATenir3Cisis](ValueSet-jdv-conduite-a-tenir-3-cisis.md),[JdvImagerieObjectifReferenceCisis](ValueSet-jdv-imagerie-objectif-reference-cisis.md),[JdvModaliteAcquisitionCisis](ValueSet-jdv-modalite-acquisition-cisis.md),[JdvModaliteDemandeActeImagerieCisis](ValueSet-jdv-modalite-demande-acte-imagerie-cisis.md),[JdvQuantiteExpositionRayonnementsCisis](ValueSet-jdv-quantite-exposition-rayonnements-cisis.md)and[JdvTechniqueImagerieD2lmCisis](ValueSet-jdv-technique-imagerie-d2lm-cisis.md)

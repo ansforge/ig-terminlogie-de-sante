@@ -8,7 +8,7 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:http://hl7.org/fhir/us/example/CodeSystem/tre-r393-type-contrat-sejour | *Version*:20250521120000 | |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour | *Version*:20250521120000 | |
 | Active as of 2025-05-21 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR393TypeContratSejour |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.260 | | |
 
@@ -17,7 +17,7 @@ Type de contrat conclu entre l’établissement/service et la personne/son repr�
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* Cette terminologie de référence (CodeSystem) nest pas utilisée ici; elle peut être utilisée ailleurs (par exemple spécifications et/ou implémentations qui utilisent ce contenu)
+* [JdvJ370TypeContratSejourMs](ValueSet-jdv-j370-type-contrat-sejour-ms.md)
 
 
 
@@ -43,7 +43,7 @@ Type de contrat conclu entre l’établissement/service et la personne/son repr�
       }
     }
   ],
-  "url" : "http://hl7.org/fhir/us/example/CodeSystem/tre-r393-type-contrat-sejour",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour",
   "identifier" : [
     {
       "system" : "urn:ietf:rfc:3986",

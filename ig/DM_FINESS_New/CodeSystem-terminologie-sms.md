@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/terminologie-sms | *Version*:2025-12 | |
-| Active as of 2025-12-03 | *Responsible:*Agence du numérique en santé | *Computable Name*:Dictionnaire_SMS_Substance_Management_Services_ |
+| *Official URL*:https://smt.esante.gouv.fr/terminologie-sms | *Version*:2026-01 | |
+| Active as of 2026-01-08 | *Responsible:*Agence du numérique en santé | *Computable Name*:Dictionnaire_SMS_Substance_Management_Services_ |
 | *Other Identifiers:*OID:2.16.840.1.113883.3.6905.2 (use: usual, ), https://smt.esante.gouv.fr/#terminologie-sms (use: secondary, ) | | |
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
@@ -25,8 +25,8 @@
   "resourceType" : "CodeSystem",
   "id" : "terminologie-sms",
   "meta" : {
-    "versionId" : "24",
-    "lastUpdated" : "2025-12-03T13:59:14.385+01:00",
+    "versionId" : "25",
+    "lastUpdated" : "2026-01-08T12:01:37.388+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
     ],
@@ -51,16 +51,16 @@
       "value" : "terminologie-sms"
     }
   ],
-  "version" : "2025-12",
+  "version" : "2026-01",
   "name" : "Dictionnaire_SMS_Substance_Management_Services_",
   "title" : "Dictionnaire européen multilingue des substances entrant dans la composition de médicaments",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-03T10:00:00+00:00",
+  "date" : "2026-01-08T10:00:00+00:00",
   "publisher" : "Agence du numérique en santé",
   "valueSet" : "https://smt.esante.gouv.fr/terminologie-sms?vs",
   "content" : "not-present",
-  "count" : 71032,
+  "count" : 71149,
   "filter" : [
     {
       "code" : "root",

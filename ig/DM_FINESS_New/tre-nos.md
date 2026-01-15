@@ -11,38 +11,47 @@ Vous touverez ici la liste des terminologies du NOS.
 | | | |
 | :--- | :--- | :--- |
 | Name | Description | date_maj |
-| [TRE_A00_ProducteurDocNonPS](CodeSystem-TRE-A00-ProducteurDocNonPS.md) | Producteur de document non PS | 29/03/2024 |
-| [TRE_A01_CadreExercice](CodeSystem-TRE-A01-CadreExercice.md) | Cadre d'exercice | 27/09/2024 |
-| [TRE_A02_ProfessionSavFaire_CISIS](CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.md) | Profession et savoir-faire CI-SIS | 13/12/2024 |
-| [TRE_A03_ClasseDocument](CodeSystem-TRE-A03-ClasseDocument.md) | Classe de document | 15/12/2023 |
-| [TRE_A05_TypeDocComplementaire](CodeSystem-TRE-A05-TypeDocComplementaire.md) | Type de document en complément des nomenclatures internationales | 29/03/2024 |
-| [TRE_A06_FormatCodeComplementaire](CodeSystem-TRE-A06-FormatCodeComplementaire.md) | formatCode en complément des nomenclatures internationales | 29/10/2025 |
-| [TRE_A07_StatutVisibiliteDocument](CodeSystem-TRE-A07-StatutVisibiliteDocument.md) | Restriction d'audience applicable aux objets référencés | 15/12/2023 |
-| [TRE_A08_HL7Confidentiality](CodeSystem-TRE-A08-HL7Confidentiality.md) | HL7 confidentiality | 15/12/2023 |
-| [TRE_A09_DICOMuidRegistry](CodeSystem-TRE-A09-DICOMuidRegistry.md) | DICOM UID Registry | 15/12/2023 |
-| [TRE_A10_NomenclatureURN](CodeSystem-TRE-A10-NomenclatureURN.md) | Nomenclature identifiée par URN | 15/12/2023 |
-| [TRE_A11_IheFormatCode](CodeSystem-TRE-A11-IheFormatCode.md) | IHE formatCode | 26/04/2024 |
-| [TRE_A12_NomenclatureASTM](CodeSystem-TRE-A12-NomenclatureASTM.md) | Nomenclature identifiée par ASTM | 15/12/2023 |
-| [TRE_A13_HL7ParticipationType](CodeSystem-TRE-A13-HL7ParticipationType.md) | HL7 Type de participation | 15/12/2023 |
-| [TRE_G00_Langue](CodeSystem-TRE-G00-Langue.md) | Langue | 27/09/2024 |
-| [TRE_G01_CategorieProduit](CodeSystem-TRE-G01-CategorieProduit.md) | Catégorie de produit | 15/12/2023 |
-| [TRE_G02_TypeProduit](CodeSystem-TRE-G02-TypeProduit.md) | Type de produit | 15/12/2023 |
-| [TRE_G03_CiviliteCPx](CodeSystem-TRE-G03-CiviliteCPx.md) | Civilité (CPx) | 15/12/2023 |
-| [TRE_G04_NiveauResponsabiliteCPx](CodeSystem-TRE-G04-NiveauResponsabiliteCPx.md) | Niveau de responsabilité (CPx) | 15/12/2023 |
-| [TRE_G05_SousSectionTableauCNOP](CodeSystem-TRE-G05-SousSectionTableauCNOP.md) | Sous-Section du tableau de l'Ordre des Pharmaciens | 15/12/2023 |
-| [TRE_G07_TypeIdentifiantStructure](CodeSystem-TRE-G07-TypeIdentifiantStructure.md) | Type d'identifiant de structure | 29/03/2024 |
-| [TRE_G08_TypeIdentifiantPersonne](CodeSystem-TRE-G08-TypeIdentifiantPersonne.md) | Type d'identifiant de personne | 29/03/2024 |
-| [TRE_G09_DepartementOM](CodeSystem-TRE-G09-DepartementOM.md) | Référentiel des codes départements et collectivités d’outre-mer provenant du COG INSEE + Monaco | 28/06/2024 |
-| [TRE_G11_NatureQualificationADELI](CodeSystem-TRE-G11-NatureQualificationADELI.md) | Nature de qualification ADELI | 16/10/2025 |
-| [TRE_G12_SpecialiteADELI](CodeSystem-TRE-G12-SpecialiteADELI.md) | Spécialité ADELI | 31/05/2024 |
-| [TRE_G13_OrientationParticuliere](CodeSystem-TRE-G13-OrientationParticuliere.md) | Orientation particulière | 15/12/2023 |
-| [TRE_G15_ProfessionSante](CodeSystem-TRE-G15-ProfessionSante.md) | Professions de santé définies par le code de la santé publique : professions médicales (art. L4111-1 à L4163-10), de la pharmacie et de la physique médicale (art. 4211-1 à 4252-3) et d’auxiliaires médicaux (art. 4311-1 à 4394-3) | 28/03/2025 |
-| [TRE_G16_ProfessionFormation](CodeSystem-TRE-G16-ProfessionFormation.md) | Professions en formation (carte CPF) | 15/12/2023 |
-| [TRE_G17_ModeExerciceCPx](CodeSystem-TRE-G17-ModeExerciceCPx.md) | Mode d'exercice (CPx) | 15/12/2023 |
-| [TRE_G18_AttributionParticuliereADELI](CodeSystem-TRE-G18-AttributionParticuliereADELI.md) | Attribution particulière ADELI | 15/12/2023 |
-| [TRE_G19_SecteurActiviteADELI](CodeSystem-TRE-G19-SecteurActiviteADELI.md) | Secteur d'activité ADELI | 23/05/2025 |
-| [TRE_G20_Specialisation](CodeSystem-TRE-G20-Specialisation.md) | Spécialisation | 15/12/2023 |
-| [TRE_G100_Specialite_AM](CodeSystem-TRE-G100-Specialite-AM.md) | Spécialité Assurance Maladie | 25/10/2024 |
+| [TreR347ActiviteSanitaireDiverseRegulee](CodeSystem-tre-r347-activite-sanitaire-diverse-regulee.md) | Nomenclature des activités sanitaires utilisée pour décrire les Activités Sanitaires Diverses Régulées (ASDR) | 20/02/2025 |
+| [TreR360TypeRoleEntiteGroupe](CodeSystem-tre-r360-type-role-entite-groupe.md) | Nomenclature des types de rôles que peuvent exercer des entités participants à des groupements | 19/06/2025 |
+| [TreR361FonctionPublique](CodeSystem-tre-r361-fonction-publique.md) | Nomenclature des versants de la fonction publique | 30/12/2024 |
+| [TreR362TypeBudget](CodeSystem-tre-r362-type-budget.md) | Nomenclature des types de budget associés aux Entités Géographiques d'Exercice (EGE) dans FINESS+ | 30/12/2024 |
+| [TreR363TypeEngagement](CodeSystem-tre-r363-type-engagement.md) | Nomenclature des grands types d'engagement pouvant être associés dans FINESS+ à des structures ou des activités | 30/12/2024 |
+| [TreR364TypeDocumentAdministratif](CodeSystem-tre-r364-type-document-administratif.md) | Nomenclature des types de documents administratif ( exemple : agrément, convention...) Remarque : Cette nomenclature est initialisée avec les types de documents informatifs et justificatifs pouvant être associés à une entité FINESS | 30/12/2024 |
+| [TreR365EtatObjet](CodeSystem-tre-r365-etat-objet.md) | Nomenclature des états élémentaires d'un objet du MOS organisés en etat actifs et en etats inactifs. Remarque : Cette nomenclature est initialisée avec les états que peuvent porter les entités et activités FINESS+ | 30/12/2024 |
+| [TreR366TypeObjet](CodeSystem-tre-r366-type-objet.md) | Nomenclature des types d’objets du MOS. Remarque : Cette nomenclature est initialisée avec les types d’objet enregistrés et manipulés dans FINESS+ | 30/12/2024 |
+| [TreR370RoleRelationEge](CodeSystem-tre-r370-role-relation-ege.md) | Nomenclature des types de rôle existant entre les Entités Géographiques d'Exercice (EGE) au sein d'une PM-SMSSE | 30/12/2024 |
+| [TreR371TypeGroupeGcc](CodeSystem-tre-r371-type-groupe-gcc.md) | Nomenclature des types de groupement Concernant les groupement de structure on a 2 catégories de regroupement : les Groupement de Coopération Conventionnelle, les Groupement de Coopération Organique | 11/07/2025 |
+| [TreR372TypeGroupeGco](CodeSystem-tre-r372-type-groupe-gco.md) | Nomenclature des types de Groupement de Coopération Organique (GCO) | 11/07/2025 |
+| [TreR373TypePersonneMorale](CodeSystem-tre-r373-type-personne-morale.md) | Nomenclature des types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-social, Social et Enseignement sur les professions de ces champs) | 30/12/2024 |
+| [TreR374NatureActiviteSmsseRegulee](CodeSystem-tre-r374-nature-activite-smsse-regulee.md) | Nomenclature des grandes natures d'activité SMSSE exercées par les entités FINESS+ | 30/12/2024 |
+| [TreR375ModeFinancement](CodeSystem-tre-r375-mode-financement.md) | Nomenclature des modes de financement associés aux capacités de certaines activitées SMSSE | 30/12/2024 |
+| [TreR376TypeEvenementAdministratif](CodeSystem-tre-r376-type-evenement-administratif.md) | Nomenclature des événements administratifs pertinents pour un cycle de vie d'un Objet de Santé (du MOS) Remarque : Cette nomenclature est initialisée avec les évenements affectant le cycle de vie des entités et activités enregistrées dans FINESS+ | 30/12/2024 |
+| [TreR377UsageAdresse](CodeSystem-tre-r377-usage-adresse.md) | Nomenclature des types des adresses | 30/12/2024 |
+| [TreR378MotifArrete](CodeSystem-tre-r378-motif-arrete.md) | Nomenclature des motifs des arrêtés Remarque : initialisé avec les motifs des arrêtés enregistrés dans FINESS+ | 30/12/2024 |
+| [TreR379SystemeInformation](CodeSystem-tre-r379-systeme-information.md) | Nomenclature des systemes d’information généralement déclarés pour définir les caractéristiques des identifiants ou des événements | 11/06/2025 |
+| [TreR381ActiviteAmm](CodeSystem-tre-r381-activite-amm.md) | Nomenclature des activités de soin AMM | 30/12/2024 |
+| [TreR382ModaliteActDeSoinAmm](CodeSystem-tre-r382-modalite-act-de-soin-amm.md) | Nomenclature des modalités pour les activités de soin AMM | 30/12/2024 |
+| [TreR383MentionActDeSoinAmm](CodeSystem-tre-r383-mention-act-de-soin-amm.md) | Nomenclature des mentions pour les activités de soin AMM | 30/12/2024 |
+| [TreR384PratiqueTherapeutiqueSpecifiqueActDeSoinAmm](CodeSystem-tre-r384-pratique-therapeutique-specifique-act-de-soin-amm.md) | Nomenclature des pratiques thérapeutiques spécifiques pour les activités de soin AMM | 30/12/2024 |
+| [TreR385DeclarationActDeSoinAmm](CodeSystem-tre-r385-declaration-act-de-soin-amm.md) | Nomenclature des déclarations pour les activités de soin AMM | 30/12/2024 |
+| [TreR386MacroEtatObjetAdministratif](CodeSystem-tre-r386-macro-etat-objet-administratif.md) | Nomenclature des macro-etat des structures FINESS qui dérivent de l'état de l'objet. Permet de distinguer les structures actives de celles inactives. | 30/12/2024 |
+| [TreR387TypeGroupement](CodeSystem-tre-r387-type-groupement.md) | Nomenclature des types de groupement utilisables dans FINESS. Groupement de coopération conventionnelle ou Groupement de coopération organique | 19/06/2025 |
+| [TreR388TypeLogement](CodeSystem-tre-r388-type-logement.md) | Nomenclature des types de logement associées aux capacités Remarque : cette nomenclature est initialisée avec les besoins FINESS+ | 30/12/2024 |
+| [TreR389StatutBilanProjetPersonnalise](CodeSystem-tre-r389-statut-bilan-projet-personnalise.md) | Statut du bilan du projet personnalisé. | 18/04/2025 |
+| [TreR390TypeProjetPersonnalise](CodeSystem-tre-r390-type-projet-personnalise.md) | Cette nomenclature donne le type de projet personnalisé qui est un document co-construit par l'usager, son entourage familial et professionnel du médico-social. | 22/04/2025 |
+| [TreR392TypeActSmsseRegulee](CodeSystem-tre-r392-type-act-smsse-regulee.md) | Type activité SMSSE régulée | 07/11/2025 |
+| [TreR393TypeContratSejour](CodeSystem-tre-r393-type-contrat-sejour.md) | Type de contrat conclu entre l’établissement/service et la personne/son représentant légal lors de son entrée en établissement | 21/05/2025 |
+| [TreR394CompetenceMetier](CodeSystem-tre-r394-competence-metier.md) | Type de savoir-faire opérationnel, transversal ou spécifique, acquis et exercé à titre non exclusif dans le cadre d’une activité professionnelle reconnue. | 25/06/2025 |
+| [TreR395Engagement](CodeSystem-tre-r395-engagement.md) | Nomenclature des engagements associés dans FINESS+ aux Personnes morales, aux entités géographique, aux groupements ou à leurs activités | 16/07/2025 |
+| [TreR396Autorite](CodeSystem-tre-r396-autorite.md) | liste des autorités structurée en plusieurs types d'autorités : Ordres, ARS, ... | 25/08/2025 |
+| [TreR397CategorieEntiteGeographiqueExercice](CodeSystem-tre-r397-categorie-entite-geographique-exercice.md) | Catégorie d'établissements - TRE Hierarchique qui remplace la TRE R66 | 22/12/2025 |
+| [TreR400FinessStatutJuridique](CodeSystem-tre-r400-finess-statut-juridique.md) | Statuts juridiques de FINESS | 25/09/2025 |
+| [TreR401ActiviteSocialeRegulee](CodeSystem-tre-r401-activite-sociale-regulee.md) | Liste des activités sociales régulées organisée en 3 niveaux d'agrégation. Annule et remplace les anciennes TRE xxxEquipementSocial | 04/11/2025 |
+| [TreR401ActiviteEnseignementRegulee](CodeSystem-tre-r402-activite-enseignement-regulee.md) | Liste des activités d'enseignement régulées organisée en 3 niveaux d'agrégation. Annule et remplace les anciennes TRE xxxEnseignement | 04/11/2025 |
+| [TreR403PublicActiviteSmsseRegulee](CodeSystem-tre-r403-public-activite-smsse-regulee.md) | Liste des publics des activités régulées organisée en 2 niveaux d'agrégation. Annule et remplace les 3 anciennes TRE xxxClientele | 04/11/2025 |
+| [TreR404ModeFonctionnemetActiviteSmsseRegulee](CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.md) | Mode de fonctinonemment des activités ssmsse régulées | 05/11/2025 |
+| [TreR405ModaliteActiviteSmsseRegulee](CodeSystem-tre-r405-modalite-activite-smsse-regulee.md) | Modalités des activités SSMSE régulées | 05/11/2025 |
+| [TreR406FormeActiviteSmsseRegulee](CodeSystem-tre-r406-forme-activite-smsse-regulee.md) | Formes des activites smsse régulées | 05/11/2025 |
 | [TRE_R01_EnsembleSavoirFaire_CISIS](CodeSystem-TRE-R01-EnsembleSavoirFaire-CISIS.md) | Ensemble Savoir-faire CI-SIS (TRE provisoire) | 13/12/2024 |
 | [TRE_R02_SecteurActivite](CodeSystem-TRE-R02-SecteurActivite.md) | Le secteur d'activité de santé est une donnée RPPS et correspond au type de service fourni par une structure. Il sert principalement à déterminer les propriétés de facturation des professionnels de ces structures vis-à-vis de l'assurance maladie | 23/05/2025 |
 | [TRE_R03_AttributionParticuliere](CodeSystem-TRE-R03-AttributionParticuliere.md) | Attribution particulière | 15/12/2023 |
@@ -67,7 +76,6 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R32_StatutHospitalier](CodeSystem-TRE-R32-StatutHospitalier.md) | Statut hospitalier | 15/12/2023 |
 | [TRE_R33_StatutInscription](CodeSystem-TRE-R33-StatutInscription.md) | Statut de l'inscription | 15/12/2023 |
 | [TRE_R34_StatutProfessionnelSSA](CodeSystem-TRE-R34-StatutProfessionnelSSA.md) | Statut du professionnel au SSA | 15/12/2023 |
-| [TRE_R35_TypeVoie](CodeSystem-TRE-R35-TypeVoie.md) | Type de voie | 15/12/2023 |
 | [TRE_R36_AutreDiplomeObtenu](CodeSystem-TRE-R36-AutreDiplomeObtenu.md) | Autre diplôme obtenu | 15/12/2023 |
 | [TRE_R37_TypeProfessionFonction](CodeSystem-TRE-R37-TypeProfessionFonction.md) | Type des professions et des fonctions | 15/12/2023 |
 | [TRE_R38_SpecialiteOrdinale](CodeSystem-TRE-R38-SpecialiteOrdinale.md) | Spécialité ordinale | 31/05/2024 |
@@ -77,7 +85,6 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R43_CapaciteSavoirFaire](CodeSystem-TRE-R43-CapaciteSavoirFaire.md) | Capacité (savoir-faire) | 15/12/2023 |
 | [TRE_R44_QualificationPAC](CodeSystem-TRE-R44-QualificationPAC.md) | Qualification de praticien adjoint contractuel | 15/12/2023 |
 | [TRE_R45_FonctionQualifiee](CodeSystem-TRE-R45-FonctionQualifiee.md) | Fonction qualifiée | 15/12/2023 |
-| [TRE_R46_SpecialiteConcoursHospitalier](CodeSystem-TRE-R46-SpecialiteConcoursHospitalier.md) | Spécialité de concours hospitalier | 15/12/2023 |
 | [TRE_R48_DiplomeEtatFrancais](CodeSystem-TRE-R48-DiplomeEtatFrancais.md) | Diplôme de l'Etat français | 25/04/2025 |
 | [TRE_R49_DiplomeEtudeSpecialisee](CodeSystem-TRE-R49-DiplomeEtudeSpecialisee.md) | Diplôme d'Etudes Spécialisées | 31/05/2024 |
 | [TRE_R50_DESCGroupe1Diplome](CodeSystem-TRE-R50-DESCGroupe1Diplome.md) | DESC Groupe 1 (diplôme) | 15/12/2023 |
@@ -94,7 +101,6 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R63_AgregatCategorieEtablissementNiv1](CodeSystem-TRE-R63-AgregatCategorieEtablissementNiv1.md) | Agrégats de catégories d'établissements niveau 1 | 15/12/2023 |
 | [TRE_R64_AgregatCategorieEtablissementNiv2](CodeSystem-TRE-R64-AgregatCategorieEtablissementNiv2.md) | Agrégats de catégories d'établissements niveau 2 | 15/12/2023 |
 | [TRE_R65_AgregatCategorieEtablissement](CodeSystem-TRE-R65-AgregatCategorieEtablissement.md) | Agrégat de catégories d'établissements | 28/02/2025 |
-| [TRE_R66_CategorieEtablissement](CodeSystem-TRE-R66-CategorieEtablissement.md) | Catégorie d'établissements | 22/12/2025 |
 | [TRE_R67_TypeStructure_EJ_EG](CodeSystem-TRE-R67-TypeStructure-EJ-EG.md) | Type de structure | 15/12/2023 |
 | [TRE_R68_FinessAgregatStatutJuridiqueNiv1](CodeSystem-TRE-R68-FinessAgregatStatutJuridiqueNiv1.md) | Agrégats de statuts juridiques FINESS niveau 1 | 15/12/2023 |
 | [TRE_R69_FinessAgregatStatutJuridiqueNiv2](CodeSystem-TRE-R69-FinessAgregatStatutJuridiqueNiv2.md) | Agrégats de statuts juridiques FINESS niveau 2 | 15/12/2023 |
@@ -102,7 +108,6 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R72_FinessStatutJuridique](CodeSystem-TRE-R72-FinessStatutJuridique.md) | Statuts juridiques provenant de FINESS, excepté pour les codes 000 et 100 à 110 qui ont été ajoutés pour les besoins du RPPS en 2017. | 29/03/2024 |
 | [TRE_R73_ESPIC](CodeSystem-TRE-R73-ESPIC.md) | Etablissement de santé privé d'intérêt collectif | 15/12/2023 |
 | [TRE_R74_ModeFixationTarifaire](CodeSystem-TRE-R74-ModeFixationTarifaire.md) | Mode de fixation tarifaire | 23/02/2024 |
-| [TRE_R75_InseeNAFrev2Niveau5](CodeSystem-TRE-R75-InseeNAFrev2Niveau5.md) | Sous-classes de la Nomenclature d'Activités Française - INSEE | 22/12/2025 |
 | [TRE_R78_ProfilAccesReferentiel](CodeSystem-TRE-R78-ProfilAccesReferentiel.md) | Profil d'accès aux référentiels | 23/05/2025 |
 | [TRE_R81_Civilite](CodeSystem-TRE-R81-Civilite.md) | Civilité | 15/12/2023 |
 | [TRE_R82_Ordre](CodeSystem-TRE-R82-Ordre.md) | Ordre | 15/12/2023 |
@@ -131,15 +136,11 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R211_ActiviteOperationnelle](CodeSystem-TRE-R211-ActiviteOperationnelle.md) | Activite Operationnelle | 22/12/2025 |
 | [TRE_R212_Equipement](CodeSystem-TRE-R212-Equipement.md) | Equipement | 17/07/2025 |
 | [TRE_R213_ModePriseEnCharge](CodeSystem-TRE-R213-ModePriseEnCharge.md) | Mode de la prise en charge | 22/12/2025 |
-| [TRE_R214_SpecialiteUnite](CodeSystem-TRE-R214-SpecialiteUnite.md) | Spécialité d'unité | 25/10/2024 |
-| [TRE_R215_UniteTemps](CodeSystem-TRE-R215-UniteTemps.md) | Unité de temps | 15/12/2023 |
 | [TRE_R216_HL7RoleCode](CodeSystem-TRE-R216-HL7RoleCode.md) | HL7 roleCode | 13/12/2024 |
 | [TRE_R217_ProtectionJuridique](CodeSystem-TRE-R217-ProtectionJuridique.md) | Protection juridique | 15/12/2023 |
 | [TRE_R218_ModeAuthentification](CodeSystem-TRE-R218-ModeAuthentification.md) | Mode d'authentification | 15/12/2023 |
 | [TRE_R219_AutreResponsableConsent](CodeSystem-TRE-R219-AutreResponsableConsent.md) | Autre responsable consentement | 15/12/2023 |
 | [TRE_R220_ModeleDocumentCDAStructure](CodeSystem-TRE-R220-ModeleDocumentCDAStructure.md) | Identifiant des modèles de CDA structurés | 29/10/2025 |
-| [TRE_R221_ModeleDocumentCDANonStructure](CodeSystem-TRE-R221-ModeleDocumentCDANonStructure.md) | Identifiant des modèles de CDA non structurés | 22/12/2025 |
-| [TRE_R222_MediaTypeCorpsCDANonStructure](CodeSystem-TRE-R222-MediaTypeCorpsCDANonStructure.md) | Identifiant des modèles de CDA non structurés | 22/12/2025 |
 | [TRE_R223_NatCycleForm](CodeSystem-TRE-R223-NatCycleForm.md) | Nature du cycle de formation des étudiants | 15/12/2023 |
 | [TRE_R224_NiveauFormAcquis](CodeSystem-TRE-R224-NiveauFormAcquis.md) | Niveaux de formation acquis dans le cycle de formation des étudiants | 15/12/2023 |
 | [TRE_R225_AnneeUniversitaire](CodeSystem-TRE-R225-AnneeUniversitaire.md) | Année universitaire | 09/10/2025 |
@@ -148,8 +149,6 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R228_UnitePrix](CodeSystem-TRE-R228-UnitePrix.md) | Unité de prix | 15/12/2023 |
 | [TRE_R230_Devise](CodeSystem-TRE-R230-Devise.md) | Devise | 15/12/2023 |
 | [TRE_R231_PalierAuthentification](CodeSystem-TRE-R231-PalierAuthentification.md) | Paliers des référentiels d'authentification de la PGSSI-S | 15/12/2023 |
-| [TRE_R232_TypeFermetureEJ](CodeSystem-TRE-R232-TypeFermetureEJ.md) | Type de fermeture de l'entité juridique FINESS | 15/12/2023 |
-| [TRE_R233_TypeFermetureEG](CodeSystem-TRE-R233-TypeFermetureEG.md) | Type de fermeture de l'entité géographique FINESS | 15/12/2023 |
 | [TRE_R234_TypeNote](CodeSystem-TRE-R234-TypeNote.md) | Type de note | 15/12/2023 |
 | [TRE_R236_ModeGestion](CodeSystem-TRE-R236-ModeGestion.md) | Mode gestion | 15/12/2023 |
 | [TRE_R237_GroupeTarifaireDependance](CodeSystem-TRE-R237-GroupeTarifaireDependance.md) | Niveau de dépendance associé à un tarif | 15/12/2023 |
@@ -189,11 +188,8 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R274_ActiviteSanitaireRegulee](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md) | Activités sanitaires soumises à une régulation de la part de l'ARS | 15/12/2023 |
 | [TRE_R275_ModaliteActivite](CodeSystem-TRE-R275-ModaliteActivite.md) | Mode d'application ou type de soins encadrant une activité | 15/12/2023 |
 | [TRE_R276_FormeActivite](CodeSystem-TRE-R276-FormeActivite.md) | Type d'organisation de prise en charge | 22/12/2025 |
-| [TRE_R277_CategorieActiviteSanitaireRegulee](CodeSystem-TRE-R277-CategorieActiviteSanitaireRegulee.md) | Types d'activités autorisées | 22/12/2025 |
-| [TRE_R278_FinessConvention](CodeSystem-TRE-R278-FinessConvention.md) | Convention du domaine social FINESS | 22/08/2025 |
 | [TRE_R279_Clientele](CodeSystem-TRE-R279-Clientele.md) | Clientèles | 27/09/2024 |
 | [TRE_R280_DisciplineEquipementSocial](CodeSystem-TRE-R280-DisciplineEquipementSocial.md) | Disciplines d'équipement pour le social | 15/12/2023 |
-| [TRE_R281_DisciplineEnseignement](CodeSystem-TRE-R281-DisciplineEnseignement.md) | Disciplines pour l'enseignement | 22/12/2025 |
 | [TRE_R282_CNAMAmeliSecteurConventionnement](CodeSystem-TRE-R282-CNAMAmeliSecteurConventionnement.md) | Secteur de conventionnement du professionnel libéral par la CNAM extracts ameli | 15/12/2023 |
 | [TRE_R283_NiveauConfidentialite](CodeSystem-TRE-R283-NiveauConfidentialite.md) | Niveau de restriction d'accès | 15/12/2023 |
 | [TRE_R284_NiveauRecoursORSAN](CodeSystem-TRE-R284-NiveauRecoursORSAN.md) | Hiérarchisation fonctionnelle des Éts pour accueil patients après le SAMU | 15/12/2023 |
@@ -213,7 +209,6 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R298_AgregatDisciplineEquipSocNiv1](CodeSystem-TRE-R298-AgregatDisciplineEquipSocNiv1.md) | Agrégats de disciplines d'équipement pour le social niveau 1 | 15/12/2023 |
 | [TRE_R299_AgregatDisciplineEquipSocNiv2](CodeSystem-TRE-R299-AgregatDisciplineEquipSocNiv2.md) | Agrégats de disciplines d'équipement pour le social niveau 2 | 15/12/2023 |
 | [TRE_R300_AgregatDisciplineEquipSocNiv3](CodeSystem-TRE-R300-AgregatDisciplineEquipSocNiv3.md) | Agrégats de disciplines d'équipement pour le social niveau 3 | 15/12/2023 |
-| [TRE_R301_SourceInformationInstallation](CodeSystem-TRE-R301-SourceInformationInstallation.md) | Sources d'information possible concernant l'installation de l'activité sociale | 22/12/2025 |
 | [TRE_R302_ContexteCodeComplementaire](CodeSystem-TRE-R302-ContexteCodeComplementaire.md) | Liste des codes complémentaires utilisables dans un contexte particulier | 26/04/2024 |
 | [TRE_R303_HL7v3AdministrativeGender](CodeSystem-TRE-R303-HL7v3AdministrativeGender.md) | Sexe d'une personne utilisée à des fins administratives (par opposition au sexe clinique) repris de la terminologie HL7 v3 AdministrativeGender (https://www.hl7.org/fhir/v3/AdministrativeGender/cs.html) | 15/12/2023 |
 | [TRE_R304_HL7v3ActCode](CodeSystem-TRE-R304-HL7v3ActCode.md) | Type de prise en charge repris de la terminologie HL7 v3 ActCode (https://www.hl7.org/fhir/v3/ActCode/cs.html) | 15/12/2023 |

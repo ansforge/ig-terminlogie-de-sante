@@ -11,6 +11,77 @@ Vous touverez ici la liste des JDV du NOS.
 | | | |
 | :--- | :--- | :--- |
 | Name | Description | date_maj |
+| [JdvJ240ActiviteSanitaireDiverseReguleeFiness](ValueSet-jdv-j240-activite-sanitaire-diverse-regulee-finess.md) | Jeu de valeurs FINESS contenant les activités sanitaires, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR) | 10/07/2025 |
+| [JdvJ287TypeAutoriteRegulationFiness](ValueSet-jdv-j287-type-autorite-regulation-finess.md) | Jeu de valeurs FINESS contenant les types d'autorité de régulation pour Finess | 26/08/2025 |
+| [JdvJ289TypeGroupeGcoFiness](ValueSet-jdv-j289-type-groupe-gco-finess.md) | Jeu de valeurs Finess contenant les types de Groupement de Coopération Organique (GCO). | 11/07/2025 |
+| [JdvJ293TypeEngagementFiness](ValueSet-jdv-j293-type-engagement-finess.md) | Jeu de valeurs FINESS contenant les grands types d'engagement pouvant être associés dans FINESS+ à des structures ou des activités. | 19/06/2025 |
+| [JdvJ294DocumentJustificatifFiness](ValueSet-jdv-j294-document-justificatif-finess.md) | Jeu de valeurs FINESS contenant les types de documents justificatifs pouvant être associés à une entité FINESS | 22/02/2025 |
+| [JdvJ295DocumentInformatifFiness](ValueSet-jdv-j295-document-informatif-finess.md) | Jeu de valeurs FINESS contenant les types de documents informatifs pouvant être associés à une entité FINESS | 22/02/2025 |
+| [JdvJ296TypeRoleEntiteGroupeFiness](ValueSet-jdv-j296-type-role-entite-groupe-finess.md) | Jeu de valeurs FINESS contenant les types de rôles que peuvent exercer des entités participants à des groupements | 11/06/2025 |
+| [JdvJ297TypeEvenementAdministratifFiness](ValueSet-jdv-j297-type-evenement-administratif-finess.md) | Jeu de valeurs FINESS contenant les événements affectant le cycle de vie des entités et activités enrgeistrées dans FINESS+ | 11/06/2025 |
+| [JdvJ298MacroEtatObjetAdministratifFiness](ValueSet-jdv-j298-macro-etat-objet-administratif-finess.md) | Jeu de valeurs FINESS contenant les macro-etat des structures FINESS qui dérivent de l'état de l'objet. Permet de distinguer les structures actives de celles inactives. | 22/02/2025 |
+| [JdvJ299SystemeInformationFiness](ValueSet-jdv-j299-systeme-information-finess.md) | Jeu de valeurs FINESS contenant les systemes d'information en relation avec FINESS | 11/06/2025 |
+| [JdvJ300TypeObjetFiness](ValueSet-jdv-j300-type-objet-finess.md) | Jeu de valeurs FINESS contenant les types d'objet enregistrés et manipulés dans FINESS+. | 22/02/2025 |
+| [JdvJ301FinessStatutJuridiqueNiv1Finess](ValueSet-jdv-j301-finess-statut-juridique-niv1-finess.md) | Jeu de valeurs FINESS contenant les statuts juridiques de niveau 1 | 04/11/2025 |
+| [JdvJ302FinessStatutJuridiqueNiv2Finess](ValueSet-jdv-j302-finess-statut-juridique-niv2-finess.md) | Jeu de valeurs FINESS contenant les statuts juridiques de niveau 2 | 04/11/2025 |
+| [JdvJ303FinessStatutJuridiqueNiv3Finess](ValueSet-jdv-j303-finess-statut-juridique-niv3-finess.md) | Jeu de valeurs FINESS contenant les statuts juridiques de niveau 3 | 04/11/2025 |
+| [JdvJ304FinessStatutJuridiqueFiness](ValueSet-jdv-j304-finess-statut-juridique-finess.md) | Jeu de valeurs FINESS contenant les statuts juridiques de niveau 4 | 04/11/2025 |
+| [JdvJ305TypeGroupementFiness](ValueSet-jdv-j305-type-groupement-finess.md) | Jeu de valeurs FINESS contenant les types de groupement utilisables dans FINESS. Groupement de coopération conventionnelle ou Groupement de coopération organique | 11/06/2025 |
+| [JdvJ306TypeGroupeGccFiness](ValueSet-jdv-j306-type-groupe-gcc-finess.md) | Jeu de valeurs FINESS contenant les types de Groupement de Coopération conventionnelle (GCC). | 11/07/2025 |
+| [JdvJ307CategorieEntiteGeographiqueExerciceNiv1Finess](ValueSet-jdv-j307-categorie-entite-geographique-exercice-niv1-finess.md) | Jeu de valeurs FINESS contenant les catégories des entités géographiques d'exercice de niveau 1 | 04/11/2025 |
+| [JdvJ308CategorieEntiteGeographiqueExerciceNiv2Finess](ValueSet-jdv-j308-categorie-entite-geographique-exercice-niv2-finess.md) | Jeu de valeurs FINESS contenant les catégories des entités géographiques d'exercice de niveau 2 | 04/11/2025 |
+| [JdvJ309CategorieEntiteGeographiqueExerciceNiv3Finess](ValueSet-jdv-j309-categorie-entite-geographique-exercice-niv3-finess.md) | Jeu de valeurs FINESS contenant les catégories des entités géographiques d'exercice de niveau 3 | 04/11/2025 |
+| [JdvJ310CategorieEntiteGeographiqueExerciceFiness](ValueSet-jdv-j310-categorie-entite-geographique-exercice-finess.md) | Jeu de valeurs FINESS contenant les catégories d'entité géographique d'exercice spécifiques à FINESS et de niveau 4 | 11/06/2025 |
+| [JdvJ313UsageAdresseFiness](ValueSet-jdv-j313-usage-adresse-finess.md) | Jeu de valeurs FINESS contenant les usages des adresses associées aux entités enregistrés dans FINESS+ | 11/06/2025 |
+| [JdvJ314EngagementFiness](ValueSet-jdv-j314-engagement-finess.md) | Jeu de valeurs FINESS contenant les engagements, de tous les types d'engagement confondus, pouvant être associés dans FINESS+ à des structures ou des activités. | 19/06/2025 |
+| [JdvJ318ActiviteEnseignementReguleeFiness](ValueSet-jdv-j318-activite-enseignement-regulee-finess.md) | Jeu de valeurs FINESS contenant les activités d'enseignement régulées de niveau 4 | 04/11/2025 |
+| [JdvJ319ActiviteEnseignementReguleeNiv1Finess](ValueSet-jdv-j319-activite-enseignement-regulee-niv1-finess.md) | Jeu de valeurs FINESS contenant les activités d'enseignement régulées de niveau 1 | 04/11/2025 |
+| [JdvJ320ActiviteEnseignementReguleeNiv2Finess](ValueSet-jdv-j320-activite-enseignement-regulee-niv2-finess.md) | Jeu de valeurs FINESS contenant les activités d'enseignement régulées de niveau 2 | 04/11/2025 |
+| [JdvJ321ActiviteEnseignementReguleeNiv3Finess](ValueSet-jdv-j321-activite-enseignement-regulee-niv3-finess.md) | Jeu de valeurs FINESS contenant les activités d'enseignement régulées de niveau 3 | 04/11/2025 |
+| [JdvJ322TypeActEnseignementReguleeFiness](ValueSet-jdv-j322-type-act-enseignement-regulee-finess.md) | Jeu de valeurs FINESS reprenant les types d'activité d'enseignement régulée | 03/06/2025 |
+| [JdvJ323ActiviteSocialeRegulee](ValueSet-jdv-j323-activite-sociale-regulee-finess.md) | Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 4 | 04/11/2025 |
+| [JdvJ324ActiviteSocialeReguleeNiv1Finess](ValueSet-jdv-j324-activite-sociale-regulee-niv1-finess.md) | Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 1 | 04/11/2025 |
+| [JdvJ325ActiviteSocialeReguleeNiv2Finess](ValueSet-jdv-j325-activite-sociale-regulee-niv2-finess.md) | Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 2 | 04/11/2025 |
+| [JdvJ326ActiviteSocialeReguleeNiv3Finess](ValueSet-jdv-j326-activite-sociale-regulee-niv3-finess.md) | Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 3 | 04/11/2025 |
+| [JdvJ328PublicActiviteSmsseReguleeFiness](ValueSet-jdv-j328-public-activite-smsse-regulee-finess.md) | Jeu de valeurs FINESS contenant les codes des publics des activités régulées de niveau 3 | 04/11/2025 |
+| [JdvJ329PublicActiviteSmsseReguleeNiv1Finess](ValueSet-jdv-j329-public-activite-smsse-regulee-niv1-finess.md) | Jeu de valeurs FINESS contenant les codes des publics des activités régulées de niveau 1 | 04/11/2025 |
+| [JdvJ330PublicActiviteSmsseReguleeNiv2Finess](ValueSet-jdv-j330-public-activite-smsse-regulee-niv2-finess.md) | Jeu de valeurs FINESS contenant les codes des publics des activités régulées de niveau 2 | 04/11/2025 |
+| [JdvJ331TypeActSocialeReguleeFiness](ValueSet-jdv-j331-type-act-sociale-regulee-finess.md) | Jeu de valeurs FINESS reprenant les types d'activité sociale régulée | 03/06/2025 |
+| [JdvJ332TypeActMedicoSocialeReguleeFiness](ValueSet-jdv-j332-type-act-medico-sociale-regulee-finess.md) | Jeu de valeurs FINESS reprenant les types d'activité médico sociale régulée | 03/06/2025 |
+| [JdvJ333ActiviteSanitaireDiverseReguleeNiv1Finess](ValueSet-jdv-j333-activite-sanitaire-diverse-regulee-niv1-finess.md) | Jeu de valeurs FINESS contenant les Activités Sanitaires Diverses Régulées (ASDR) de niveau 1 | 10/07/2025 |
+| [JdvJ334ActiviteSanitaireDiverseReguleeNiv2Finess](ValueSet-jdv-j334-activite-sanitaire-diverse-regulee-niv2-finess.md) | Jeu de valeurs FINESS contenant les Activités Sanitaires Diverses Régulées (ASDR) de niveau 2 | 10/07/2025 |
+| [JdvJ335ActiviteSanitaireDiverseReguleeNiv3Finess](ValueSet-jdv-j335-activite-sanitaire-diverse-regulee-niv3-finess.md) | Jeu de valeurs FINESS contenant les Activités Sanitaires Diverses Régulées (ASDR) de niveau 3 | 10/07/2025 |
+| [JdvJ336TypeActSanitaireDiverseReguleeFiness](ValueSet-jdv-j336-type-act-sanitaire-diverse-regulee-finess.md) | Jeu de valeurs FINESS reprenant les types d'activité sanitaire régulée | 03/06/2025 |
+| [JdvJ340TypeActDeSoinAmfFiness](ValueSet-jdv-j340-type-act-de-soin-amf-finess.md) | Jeu de valeurs FINESS reprenant les types d'activité de soin AMF | 03/06/2025 |
+| [JdvJ341TypeActAutreActeSoinFiness](ValueSet-jdv-j341-type-act-autre-acte-soin-finess.md) | Jeu de valeurs FINESS reprenant les types d'activité pour les autres actes de soin | 03/06/2025 |
+| [JdvJ342TypeActSoumiseAReconnaissanceFiness](ValueSet-jdv-j342-type-act-soumise-a-reconnaissance-finess.md) | Jeu de valeurs FINESS reprenant les types d'activité soumise à reconnaissance | 03/06/2025 |
+| [JdvJ344TypeActEquipementMaterielLourdFiness](ValueSet-jdv-j344-type-act-equipement-materiel-lourd-finess.md) | Jeu de valeurs FINESS reprenant les types d'activité associés aux équipements matériel lourds | 03/06/2025 |
+| [JdvJ350TypeActDeSoinAmmFiness](ValueSet-jdv-j350-type-act-de-soin-amm-finess.md) | Jeu de valeurs FINESS reprenant les types d'activité de soin AMM | 03/06/2025 |
+| [JdvJ351AppareilAmmFiness](ValueSet-jdv-j351-appareil-amm-finess.md) | Liste des appareils AMM vus de FINESS | 17/07/2025 |
+| [JdvJ352NatureCapaciteFiness](ValueSet-jdv-j352-nature-capacite-finess.md) | Jeu de valeurs FINESS contenant les capacités utilisées par FINESS | 16/05/2025 |
+| [JdvJ353TypeStatutCapaciteFiness](ValueSet-jdv-j353-type-statut-capacite-finess.md) | Jeu de valeurs FINESS permettant de préciser le statut des capacités concernées par FINESS | 16/05/2025 |
+| [JdvJ354HabilitationFiness](ValueSet-jdv-j354-habilitation-finess.md) | Jeu de valeurs FINESS contenant les habilitations associées aux capacités des structures FINESS | 22/02/2025 |
+| [JdvJ357GenreCapaciteFiness](ValueSet-jdv-j357-genre-capacite-finess.md) | Jeu de valeurs FINESS contenant les genres de capacités utilisés par FINESS | 16/05/2025 |
+| [JdvJ358TypeAutoriteEnregistrementFiness](ValueSet-jdv-j358-type-autorite-enregistrement-finess.md) | Jeu de valeurs FINESS contenant les types d'autorité d'enregistrement pour Finess | 26/08/2025 |
+| [JdvJ359AutoriteEnregistrementFiness](ValueSet-jdv-j359-autorite-enregistrement-finess.md) | Jeu de valeurs FINESS contenant les autorité d'enregistrement pour Finess | 26/08/2025 |
+| [JdvJ360AutoriteRegulationFiness](ValueSet-jdv-j360-autorite-regulation-finess.md) | Jeu de valeurs FINESS contenant les autorités de régulation pour Finess | 26/08/2025 |
+| [JdvJ364TypeFermeturePmFiness](ValueSet-jdv-j364-type-fermeture-pm-finess.md) | Jeu de valeurs FINESS contenant les types de fermeture dédiées aux personnes morales FINESS | 22/02/2025 |
+| [JdvJ365TypeFermetureEgeFiness](ValueSet-jdv-j365-type-fermeture-ege-finess.md) | Jeu de valeurs FINESS contenant les types de fermeture dédiées aux entités géographiques FINESS | 22/02/2025 |
+| [JdvJ368CategorieEtablissementCisis](ValueSet-jdv-j368-categorie-etablissement-cisis.md) | JDV CISIS à l'image de la terminologie TreR397CategorieEntiteGeographiqueExercice | 22/12/2025 |
+| [JdvJ371EtatObjetAdministratifFiness](ValueSet-jdv-j371-etat-objet-administratif-finess.md) | Jeu de valeurs FINESS contenant les états élémentaires que peuvent porter les entités et activités FINESS+ | 22/02/2025 |
+| [JdvJ372ConventionRass](ValueSet-jdv-j372-convention-rass.md) | Liste des engagements de type Convention pour le RASS | 22/08/2025 |
+| [JdvJ373TypeAutorite](ValueSet-jdv-j373-type-autorite.md) | Jeu de valeurs contenant les différents types d'autorité (actifs ou inactifs) | 26/08/2025 |
+| [JdvJ374Autorite](ValueSet-jdv-j374-autorite.md) | Jeu de valeurs contenant la liste des autorités quelque soit la catégorie d'autorité et quelque soir l'état de l'autorité active ou inactive) | 26/08/2025 |
+| [JdvJ375Ordre](ValueSet-jdv-j375-ordre.md) | Jeu de valeurs comportant uniquement les autorités de type Ordre. | 26/08/2025 |
+| [JdvJ376PublicActiviteSmsseReguleeRass](ValueSet-jdv-j376-public-activite-smsse-regulee-rass.md) | Jeu de valeurs RASS contenant les codes actifs des publics des activités régulées de niveau 3 | 07/11/2025 |
+| [JdvJ377CategorieEntiteGeographiqueExerciceRor](ValueSet-jdv-j377-categorie-entite-geographique-exercice-ror.md) | Catégories d'établissements FINESS ou hors FINESS et secteurs d'activité des cabinets | 22/12/2025 |
+| [JdvJ378RegionOmFiness](ValueSet-jdv-j378-region-om-finess.md) | Liste des régions administratives couvertes par le périmètre géographique de FINESS | 22/12/2025 |
+| [JdvJ379ActiviteSocialeReguleeRass](ValueSet-jdv-j379-activite-sociale-regulee-rass.md) | Activités sociales régulées pour le RASS | 22/12/2025 |
+| [JdvJ380CategorieEntiteGeographiqueExerciceRass](ValueSet-jdv-j380-categorie-entite-geographique-exercice-rass.md) | Catégories d'établissements FINESS | 22/12/2025 |
+| [JdvJ366StatutBilanProjetPersonnaliseMs](ValueSet-jdv-j366-statut-bilan-projet-personnalise-ms.md) | Statut du bilan du projet personnalisé. | 15/04/2025 |
+| [JdvJ367TypeProjetPersonnaliseMs](ValueSet-jdv-j367-type-projet-personnalise-ms.md) | Cette nomenclature donne le type de projet personnalisé qui est un document co-construit par l'usager, son entourage familial et professionnel du médico-social. | 15/04/2025 |
+| [JdvJ370TypeContratSejourMs](ValueSet-jdv-j370-type-contrat-sejour-ms.md) | Type de contrat conclu entre l’établissement/service et la personne/son représentant légal. | 21/05/2025 |
+| [JdvJ383MotifClotureExerciceProfessionnelEpars](ValueSet-jdv-j383-motif-cloture-exercice-professionnel-epars.md) | Ce jeu de valeur liste les différents motifs qui peuvent justifier la clôture d'un exercice professionnel. | 22/12/2025 |
 | [JDV_J01_XdsAuthorSpecialty_CISIS](ValueSet-JDV-J01-XdsAuthorSpecialty-CISIS.md) | XDS authorSpecialty CI-SIS | 22/12/2025 |
 | [JDV_J02_XdsHealthcareFacilityTypeCode_CISIS](ValueSet-JDV-J02-XdsHealthcareFacilityTypeCode-CISIS.md) | XDS healthcareFacilityTypeCode CI-SIS | 23/05/2025 |
 | [JDV_J03_XdsContentTypeCode_CISIS](ValueSet-JDV-J03-XdsContentTypeCode-CISIS.md) | XDS contentTypeCode CI-SIS | 22/12/2025 |
@@ -246,17 +317,4 @@ Vous touverez ici la liste des JDV du NOS.
 | [JDV_J285_Besoins_SERAFIN](ValueSet-JDV-J285-Besoins-SERAFIN.md) | Liste des besoins provenant de la terminologie SERAFIN | 25/10/2024 |
 | [JDV_J286_ProfilUtilisateurReferentielNational_ROR](ValueSet-JDV-J286-ProfilUtilisateurReferentielNational-ROR.md) | Profils utilisateurs du ROR National | 28/03/2025 |
 | [JDV_J369_MotifRestrictionDiffusion_ROR](ValueSet-JDV-J369-MotifRestrictionDiffusion-ROR.md) | Nomenclature contenant les motifs de restriction de diffusion | 25/04/2025 |
-| [JDV_ModeleDocumentCDA](ValueSet-JDV-ModeleDocumentCDA.md) | JDV avec l'ensemble des codes de la TRE_R220_ModeleDocumentCDAStructure et TRE_R221_ModeleDocumentCDANonStructure | 08/01/2026 |
-| [JDV_TRE_R221_ModeleDocumentCDANonStructure](ValueSet-JDV-TRE-R221-ModeleDocumentCDANonStructure-all.md) | JDV avec l'ensemble des codes actifs de la TRE_R221_ModeleDocumentCDANonStructure | 08/01/2026 |
-| [JDV_TRE_R222_MediaTypeCorpsCDANonStructure](ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all.md) | JDV avec l'ensemble des codes actifs de la TRE_R222_MediaTypeCorpsCDANonStructure | 08/01/2026 |
-| [VsTreG09DepartementOmAll](ValueSet-vs-tre-g09-departement-om-all.md) | Jeu de valeurs ALL contenant le référentiel des codes départements et collectivités d’outre-mer provenant du COG INSEE + Monaco | 22/02/2025 |
-| [VsTreR272EquipementMaterielLourdAll](ValueSet-vs-tre-r272-equipement-materiel-lourd-all.md) | Jeu de valeurs ALL contenant les équipements matériels lourds | 22/02/2025 |
-| [VsTreR274ActiviteSanitaireReguleeAll](ValueSet-vs-tre-r274-activite-sanitaire-regulee-all.md) | Jeu de valeurs FINESS contenant les activités sanitaires soumises à une régulation de la part de l'ARS. | 22/02/2025 |
-| [VsTreR30RegionOmAll](ValueSet-vs-tre-r30-region-om-all.md) | Jeu de valeurs ALL contenant le référentiel des codes régions et collectivités d'outre-mer provenant du COG INSEE + Monaco | 22/02/2025 |
-| [VsTreR62DomaineAll](ValueSet-vs-tre-r62-domaine-all.md) | Jeu de valeurs ALL contenant les domaines | 22/02/2025 |
-| [VsTreR74ModeFixationTarifaireAll](ValueSet-vs-tre-r74-mode-fixation-tarifaire-all.md) | Jeu de valeurs ALL contenant les modes de fixation tarifaire | 22/02/2025 |
-| [JdvTechniqueDiagnosticCisis](ValueSet-jdv-technique-diagnostic-cisis.md) | JDV Technique Diagnostic CISIS | 16/12/2025 |
-| [JdvMotifDiagnosticCisis](ValueSet-jdv-motif-diagnostic-cisis.md) | JDV Motif Diagnostic CISIS | 16/12/2025 |
-| [JdvAppreciationDiagnosticCentreCisis](ValueSet-jdv-appreciation-diagnostic-centre-cisis.md) | JDV Appreciation Diagnostic Centre CISIS | 16/12/2025 |
-| [JdvStatutActuelDiagnosticCisis](ValueSet-jdv-statut-actuel-diagnostic-cisis.md) | JDV Statut Actuel Diagnostic CISIS | 16/12/2025 |
 

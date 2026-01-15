@@ -60,18 +60,18 @@ Vous trouverez ici la liste des terminologies au format FHIR publiée par le SMT
 | [AdministrativeGender](CodeSystem-v3-AdministrativeGender.md) | The gender of a person used for adminstrative purposes (as opposed to clinical gender) | 20/03/2019 |
 | [BDPM](CodeSystem-terminologie-bdpm.md) |  | 06/01/2026 |
 | [CCAM](CodeSystem-terminologie-ccam.md) |  | 01/01/2026 |
-| [CIM11_MMS](CodeSystem-terminologie-cim11-mms.md) |  | 08/01/2026 |
+| [CIM11_MMS](CodeSystem-terminologie-cim11-mms.md) |  | 15/01/2026 |
 | [CIM_10_FR_PMSI](CodeSystem-terminologie-cim-10.md) |  | 20/12/2024 |
 | [CISP_2](CodeSystem-terminologie-cisp.md) |  | 26/06/2019 |
 | [ConditionClinicalStatusCodes](CodeSystem-condition-clinical.md) | Preferred value set for Condition Clinical Status. | 12/12/2025 |
 | [ConditionVerificationStatus](CodeSystem-condition-ver-status.md) | The verification status to support or decline the clinical status of the condition or diagnosis. | 24/04/2024 |
 | [Confidentiality](CodeSystem-v3-Confidentiality.md) | A set of codes specifying the security classification of acts and roles in accordance with the definition for concept domain "Confidentiality". | 30/05/2023 |
-| [Dictionnaire_SMS_Substance_Management_Services_](CodeSystem-terminologie-sms.md) |  | 03/12/2025 |
+| [Dictionnaire_SMS_Substance_Management_Services_](CodeSystem-terminologie-sms.md) |  | 08/01/2026 |
 | [EMDN](CodeSystem-terminologie-emdn.md) |  | 28/04/2022 |
 | [EmploymentStatus](CodeSystem-v2-0066.md) | HL7-defined code system of concepts which specify an employment status of a person. Used in HL7 Version 2 messaging in the GT1 segment. | 01/12/2019 |
 | [EntityCode](CodeSystem-v3-EntityCode.md) | **OpenIssue:** Missing description. | 20/03/2019 |
 | [IcdO3](CodeSystem-icd-o-3.md) | International Classification of Diseases for Oncology, version 3. For more information see http://www.who.int/classifications/icd/adaptations/oncology/en/. | 20/03/2019 |
-| [LAHN](CodeSystem-terminologie-lahn.md) | La liste des actes innovants hors nomenclature (LAHN) a été mise en place par la direction générale de l’offre de soins (DGOS) en 2024, dans le cadre du développement de l’innovation en santé. Elle est la fusion du RIHN et de la Liste Complémentaire (LC). L’objectif est de soutenir l’innovation et de la dynamiser par une prise en charge et une évaluation rapide des actes innovants. La LAHN contient une liste d’actes innovants (biologie et anatomocytopathologie) pris en charge à titre transitoire moyennant un recueil de données pour leur évaluation. | 08/01/2026 |
+| [LAHN](CodeSystem-terminologie-lahn.md) | La liste des actes innovants hors nomenclature (LAHN) a été mise en place par la direction générale de l’offre de soins (DGOS) en 2024, dans le cadre du développement de l’innovation en santé. Elle est la fusion du RIHN et de la Liste Complémentaire (LC). L’objectif est de soutenir l’innovation et de la dynamiser par une prise en charge et une évaluation rapide des actes innovants. La LAHN contient une liste d’actes innovants (biologie et anatomocytopathologie) pris en charge à titre transitoire moyennant un recueil de données pour leur évaluation. | 15/01/2026 |
 | [MediaType](CodeSystem-v3-mediaType.md) | Internet Assigned Numbers Authority (IANA) Mime Media Types. Identifies the type of the encapsulated data and identifies a method to interpret or render the data. The IANA defined domain of media types is established by the Internet standard RFC 2045 [http://www.ietf.org/rfc/rfc2045.txt] and 2046 [http://www.ietf.org/rfc/rfc2046.txt]. RFC 2046 defines the media type to consist of two parts:1. top level media type, and
 1. media subtype
 However, this HL7 datatypes specification treats the entire media type as one atomic code symbol in the form defined by IANA, i.e., top level type followed by a slash "/" followed by media subtype. Currently defined media types are registered in a database [http://www.iana.org/assignments/media-types/index.html] maintained by IANA. Currently several hundred different MIME media types are defined, with the list growing rapidly. In general, all those types defined by the IANA MAY be used. | 20/03/2019 |

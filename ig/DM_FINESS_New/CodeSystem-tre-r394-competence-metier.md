@@ -8,7 +8,7 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:http://hl7.org/fhir/us/example/CodeSystem/tre-r394-competence-metier | *Version*:20250625120000 | |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r394-competence-metier | *Version*:20250625120000 | |
 | Active as of 2025-06-25 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR394CompetenceMetier |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.375 | | |
 
@@ -17,7 +17,7 @@ Type de savoir-faire opérationnel, transversal ou spécifique, acquis et exerc�
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* Cette terminologie de référence (CodeSystem) nest pas utilisée ici; elle peut être utilisée ailleurs (par exemple spécifications et/ou implémentations qui utilisent ce contenu)
+* [JDV_J107_EnsembleSavoirFaire_RASS](ValueSet-JDV-J107-EnsembleSavoirFaire-RASS.md)
 
 
 
@@ -43,7 +43,7 @@ Type de savoir-faire opérationnel, transversal ou spécifique, acquis et exerc�
       }
     }
   ],
-  "url" : "http://hl7.org/fhir/us/example/CodeSystem/tre-r394-competence-metier",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r394-competence-metier",
   "identifier" : [
     {
       "system" : "urn:ietf:rfc:3986",

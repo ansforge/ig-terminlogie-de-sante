@@ -8,7 +8,7 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:http://hl7.org/fhir/us/example/CodeSystem/tre-r390-type-projet-personnalise | *Version*:20250422120000 | |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r390-type-projet-personnalise | *Version*:20250422120000 | |
 | Active as of 2025-04-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR390TypeProjetPersonnalise |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.258 | | |
 
@@ -17,7 +17,7 @@ Cette nomenclature donne le type de projet personnalisé qui est un document co-
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* Cette terminologie de référence (CodeSystem) nest pas utilisée ici; elle peut être utilisée ailleurs (par exemple spécifications et/ou implémentations qui utilisent ce contenu)
+* [JdvJ367TypeProjetPersonnaliseMs](ValueSet-jdv-j367-type-projet-personnalise-ms.md)
 
 
 
@@ -43,7 +43,7 @@ Cette nomenclature donne le type de projet personnalisé qui est un document co-
       }
     }
   ],
-  "url" : "http://hl7.org/fhir/us/example/CodeSystem/tre-r390-type-projet-personnalise",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r390-type-projet-personnalise",
   "identifier" : [
     {
       "system" : "urn:ietf:rfc:3986",

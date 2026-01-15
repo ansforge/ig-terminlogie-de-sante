@@ -8,38 +8,6 @@
     "oids" : ["2.16.840.1.113883.4.642.3.264"]
   },
   {
-    "id" : "tre-r389-statut-bilan-projet-personnalise",
-    "type" : "CodeSystem",
-    "url" : "http://hl7.org/fhir/us/example/CodeSystem/tre-r389-statut-bilan-projet-personnalise",
-    "version" : "20250418120000",
-    "name" : "TreR389StatutBilanProjetPersonnalise",
-    "oids" : ["1.2.250.1.213.3.3.257"]
-  },
-  {
-    "id" : "tre-r390-type-projet-personnalise",
-    "type" : "CodeSystem",
-    "url" : "http://hl7.org/fhir/us/example/CodeSystem/tre-r390-type-projet-personnalise",
-    "version" : "20250422120000",
-    "name" : "TreR390TypeProjetPersonnalise",
-    "oids" : ["1.2.250.1.213.3.3.258"]
-  },
-  {
-    "id" : "tre-r393-type-contrat-sejour",
-    "type" : "CodeSystem",
-    "url" : "http://hl7.org/fhir/us/example/CodeSystem/tre-r393-type-contrat-sejour",
-    "version" : "20250521120000",
-    "name" : "TreR393TypeContratSejour",
-    "oids" : ["1.2.250.1.213.3.3.260"]
-  },
-  {
-    "id" : "tre-r394-competence-metier",
-    "type" : "CodeSystem",
-    "url" : "http://hl7.org/fhir/us/example/CodeSystem/tre-r394-competence-metier",
-    "version" : "20250625120000",
-    "name" : "TreR394CompetenceMetier",
-    "oids" : ["1.2.250.1.213.1.6.1.375"]
-  },
-  {
     "id" : "11000315107-20250621",
     "type" : "CodeSystem",
     "url" : "http://snomed.info/sct",
@@ -4966,6 +4934,22 @@
     "oids" : ["1.2.250.1.213.1.6.1.364"]
   },
   {
+    "id" : "tre-r389-statut-bilan-projet-personnalise",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statut-bilan-projet-personnalise",
+    "version" : "20250418120000",
+    "name" : "TreR389StatutBilanProjetPersonnalise",
+    "oids" : ["1.2.250.1.213.3.3.257"]
+  },
+  {
+    "id" : "tre-r390-type-projet-personnalise",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r390-type-projet-personnalise",
+    "version" : "20250422120000",
+    "name" : "TreR390TypeProjetPersonnalise",
+    "oids" : ["1.2.250.1.213.3.3.258"]
+  },
+  {
     "id" : "tre-r392-type-act-smsse-regulee",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee",
@@ -4980,6 +4964,22 @@
     "version" : "20250513120000",
     "name" : "VsTreR392TypeActSmsseReguleeAll",
     "oids" : ["1.2.250.1.213.1.6.1.325"]
+  },
+  {
+    "id" : "tre-r393-type-contrat-sejour",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour",
+    "version" : "20250521120000",
+    "name" : "TreR393TypeContratSejour",
+    "oids" : ["1.2.250.1.213.3.3.260"]
+  },
+  {
+    "id" : "tre-r394-competence-metier",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r394-competence-metier",
+    "version" : "20250625120000",
+    "name" : "TreR394CompetenceMetier",
+    "oids" : ["1.2.250.1.213.1.6.1.375"]
   },
   {
     "id" : "tre-r395-engagement",
@@ -9528,7 +9528,7 @@
     "id" : "terminologie-sms",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-sms",
-    "version" : "2025-12",
+    "version" : "2026-01",
     "name" : "Dictionnaire_SMS_Substance_Management_Services_",
     "oids" : ["2.16.840.1.113883.3.6905.2"]
   },
