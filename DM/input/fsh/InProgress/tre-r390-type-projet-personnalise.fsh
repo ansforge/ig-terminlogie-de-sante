@@ -8,6 +8,7 @@ Description: "Cette nomenclature donne le type de projet personnalisé qui est u
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2025-04-22T12:00:00+01:00"
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r390-type-projet-personnalise"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.258"
 * ^version = "20250422120000"

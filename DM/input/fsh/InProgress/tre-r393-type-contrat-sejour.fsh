@@ -8,6 +8,7 @@ Description: "Type de contrat conclu entre l’établissement/service et la pers
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2025-04-22T12:00:00+01:00"
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.260"
 * ^version = "20250521120000"
