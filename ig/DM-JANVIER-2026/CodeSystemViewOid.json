@@ -112,6 +112,14 @@
     "status" : "active"
   },
   {
+    "id" : "TRE-R260-HL7RoleClass",
+    "name" : "TRE_R260_HL7RoleClass",
+    "title" : null,
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass",
+    "identifier" : "urn:oid:2.16.840.1.113883.5.110",
+    "status" : "active"
+  },
+  {
     "id" : "TimingEvent-supplement-fr",
     "name" : "TimingEventSupplementFr",
     "title" : "TimingEventSupplementFr",
@@ -198,6 +206,14 @@
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/substanceAdminSubstitution-supplement-fr",
     "identifier" : null,
     "status" : "draft"
+  },
+  {
+    "id" : "tre-r407-composition-foyer",
+    "name" : "TreR407CompositionFoyer",
+    "title" : "Tre R407 Composition Foyer",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r407-composition-foyer",
+    "identifier" : "urn:oid:1.2.250.1.213.3.3.261",
+    "status" : "active"
   },
   {
     "id" : "v3-SpecimenType-supplement-fr",
@@ -1365,14 +1381,6 @@
     "title" : null,
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R25-MotifFinActivite/FHIR/TRE-R25-MotifFinActivite",
     "identifier" : "urn:oid:1.2.250.1.213.1.6.1.20",
-    "status" : "active"
-  },
-  {
-    "id" : "TRE-R260-HL7RoleClass",
-    "name" : "TRE_R260_HL7RoleClass",
-    "title" : null,
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass",
-    "identifier" : "urn:oid:2.16.840.1.113883.5.110",
     "status" : "active"
   },
   {

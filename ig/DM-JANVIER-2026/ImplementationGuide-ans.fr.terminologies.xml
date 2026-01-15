@@ -11,7 +11,7 @@
   <name value="Terminologies"/>
   <title value="Terminologies  de Santé"/>
   <status value="active"/>
-  <date value="2026-01-13T15:49:24+00:00"/>
+  <date value="2026-01-15T10:13:01+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -20656,6 +20656,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-j384-role-membre-famille-ms"/>
+      </reference>
+      <name value="Jdv J384 Role Membre Famille Ms"/>
+      <description value="Rôle d'un membre de la famille ou d'un proche de l'usager."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/JDV-J69-ActiviteOperationnelle-Santefr"/>
       </reference>
       <name value="JDV J69 ActiviteOperationnelle Santefr"/>
@@ -27188,6 +27199,17 @@
       </reference>
       <name value="Tre R394 Competence Metier"/>
       <description value="Type de savoir-faire opérationnel, transversal ou spécifique, acquis et exercé à titre non exclusif dans le cadre d’une activité professionnelle reconnue."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r407-composition-foyer"/>
+      </reference>
+      <name value="Tre R407 Composition Foyer"/>
+      <description value="Désigne avec qui vit l’usager dans son logement."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

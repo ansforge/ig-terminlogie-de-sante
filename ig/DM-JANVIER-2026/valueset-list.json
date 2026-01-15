@@ -5955,6 +5955,19 @@
       "sources" : ["1.2.250.1.213.1.6.1.394"]
     },
     {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j384-role-membre-famille-ms",
+      "version" : "20260202120000",
+      "status" : "active",
+      "name" : "JdvJ384RoleMembreFamilleMs",
+      "title" : "Jdv J384 Role Membre Famille Ms",
+      "description" : "Rôle d'un membre de la famille ou d'un proche de l'usager.",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass"
+      ],
+      "oids" : ["1.2.250.1.213.3.4.227"],
+      "sources" : ["1.2.250.1.213.3.4.227"]
+    },
+    {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-jour-semaine-cisis",
       "version" : "20250624152100",
       "status" : "active",

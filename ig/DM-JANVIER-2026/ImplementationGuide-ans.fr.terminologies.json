@@ -10,7 +10,7 @@
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2026-01-13T15:49:24+00:00",
+  "date" : "2026-01-15T10:13:01+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -27621,6 +27621,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-j384-role-membre-famille-ms"
+      },
+      "name" : "Jdv J384 Role Membre Famille Ms",
+      "description" : "Rôle d'un membre de la famille ou d'un proche de l'usager.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/JDV-J69-ActiviteOperationnelle-Santefr"
       },
       "name" : "JDV J69 ActiviteOperationnelle Santefr",
@@ -34747,6 +34759,18 @@
       },
       "name" : "Tre R394 Competence Metier",
       "description" : "Type de savoir-faire opérationnel, transversal ou spécifique, acquis et exercé à titre non exclusif dans le cadre d’une activité professionnelle reconnue.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r407-composition-foyer"
+      },
+      "name" : "Tre R407 Composition Foyer",
+      "description" : "Désigne avec qui vit l’usager dans son logement.",
       "exampleBoolean" : false
     },
     {

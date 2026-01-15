@@ -19,6 +19,7 @@ Rôle de la personne point de contact auprès d’une autre personne repris de l
 
 * [JDV_J141_RoleClass_CISIS](ValueSet-JDV-J141-RoleClass-CISIS.md)
 * [JDV_J265_RoleMembreCercleDeSoins_CISIS](ValueSet-JDV-J265-RoleMembreCercleDeSoins-CISIS.md)
+* [JdvJ384RoleMembreFamilleMs](ValueSet-jdv-j384-role-membre-famille-ms.md)
 
 
 
@@ -35,6 +36,7 @@ Rôle de la personne point de contact auprès d’une autre personne repris de l
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
+  "language" : "fr-FR",
   "extension" : [
     {
       "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -69,19 +71,23 @@ Rôle de la personne point de contact auprès d’une autre personne repris de l
   ],
   "caseSensitive" : false,
   "content" : "complete",
+  "count" : 10,
   "property" : [
     {
       "code" : "dateValid",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
       "description" : "date de validité d'un code concept",
       "type" : "dateTime"
     },
     {
       "code" : "dateMaj",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
       "description" : "Date de mise à jour d'un code concept",
       "type" : "dateTime"
     },
     {
       "code" : "dateFin",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
       "description" : "Date de fin d'exploitation d'un code concept",
       "type" : "dateTime"
     },
@@ -102,6 +108,12 @@ Rôle de la personne point de contact auprès d’une autre personne repris de l
       "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
       "description" : "Date Concept was retired",
       "type" : "dateTime"
+    },
+    {
+      "code" : "ms",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#ms",
+      "description" : "Permet de définir les codes concepts utilisés par le médico-social",
+      "type" : "boolean"
     }
   ],
   "concept" : [
@@ -120,6 +132,10 @@ Rôle de la personne point de contact auprès d’une autre personne repris de l
         {
           "code" : "status",
           "valueCode" : "active"
+        },
+        {
+          "code" : "ms",
+          "valueBoolean" : true
         }
       ]
     },
@@ -138,6 +154,10 @@ Rôle de la personne point de contact auprès d’une autre personne repris de l
         {
           "code" : "status",
           "valueCode" : "active"
+        },
+        {
+          "code" : "ms",
+          "valueBoolean" : true
         }
       ]
     },
@@ -200,6 +220,10 @@ Rôle de la personne point de contact auprès d’une autre personne repris de l
         {
           "code" : "status",
           "valueCode" : "active"
+        },
+        {
+          "code" : "ms",
+          "valueBoolean" : true
         }
       ]
     },
@@ -218,6 +242,10 @@ Rôle de la personne point de contact auprès d’une autre personne repris de l
         {
           "code" : "status",
           "valueCode" : "active"
+        },
+        {
+          "code" : "ms",
+          "valueBoolean" : true
         }
       ]
     },
@@ -290,6 +318,10 @@ Rôle de la personne point de contact auprès d’une autre personne repris de l
         {
           "code" : "status",
           "valueCode" : "active"
+        },
+        {
+          "code" : "ms",
+          "valueBoolean" : true
         }
       ]
     }

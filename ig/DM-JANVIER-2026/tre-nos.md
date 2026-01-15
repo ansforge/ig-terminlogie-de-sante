@@ -15,38 +15,7 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TreR390TypeProjetPersonnalise](CodeSystem-tre-r390-type-projet-personnalise.md) | Cette nomenclature donne le type de projet personnalisé qui est un document co-construit par l'usager, son entourage familial et professionnel du médico-social. | 22/04/2025 |
 | [TreR393TypeContratSejour](CodeSystem-tre-r393-type-contrat-sejour.md) | Type de contrat conclu entre l’établissement/service et la personne/son représentant légal lors de son entrée en établissement | 21/05/2025 |
 | [TreR394CompetenceMetier](CodeSystem-tre-r394-competence-metier.md) | Type de savoir-faire opérationnel, transversal ou spécifique, acquis et exercé à titre non exclusif dans le cadre d’une activité professionnelle reconnue. | 25/06/2025 |
-| [TRE_A00_ProducteurDocNonPS](CodeSystem-TRE-A00-ProducteurDocNonPS.md) | Producteur de document non PS | 29/03/2024 |
-| [TRE_A01_CadreExercice](CodeSystem-TRE-A01-CadreExercice.md) | Cadre d'exercice | 27/09/2024 |
-| [TRE_A02_ProfessionSavFaire_CISIS](CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.md) | Profession et savoir-faire CI-SIS | 02/02/2026 |
-| [TRE_A03_ClasseDocument](CodeSystem-TRE-A03-ClasseDocument.md) | Classe de document | 15/12/2023 |
-| [TRE_A05_TypeDocComplementaire](CodeSystem-TRE-A05-TypeDocComplementaire.md) | Type de document en complément des nomenclatures internationales | 29/03/2024 |
-| [TRE_A06_FormatCodeComplementaire](CodeSystem-TRE-A06-FormatCodeComplementaire.md) | formatCode en complément des nomenclatures internationales | 29/10/2025 |
-| [TRE_A07_StatutVisibiliteDocument](CodeSystem-TRE-A07-StatutVisibiliteDocument.md) | Restriction d'audience applicable aux objets référencés | 15/12/2023 |
-| [TRE_A08_HL7Confidentiality](CodeSystem-TRE-A08-HL7Confidentiality.md) | HL7 confidentiality | 15/12/2023 |
-| [TRE_A09_DICOMuidRegistry](CodeSystem-TRE-A09-DICOMuidRegistry.md) | DICOM UID Registry | 15/12/2023 |
-| [TRE_A10_NomenclatureURN](CodeSystem-TRE-A10-NomenclatureURN.md) | Nomenclature identifiée par URN | 15/12/2023 |
-| [TRE_A11_IheFormatCode](CodeSystem-TRE-A11-IheFormatCode.md) | IHE formatCode | 26/04/2024 |
-| [TRE_A12_NomenclatureASTM](CodeSystem-TRE-A12-NomenclatureASTM.md) | Nomenclature identifiée par ASTM | 15/12/2023 |
-| [TRE_A13_HL7ParticipationType](CodeSystem-TRE-A13-HL7ParticipationType.md) | HL7 Type de participation | 15/12/2023 |
-| [TRE_G00_Langue](CodeSystem-TRE-G00-Langue.md) | Langue | 27/09/2024 |
-| [TRE_G01_CategorieProduit](CodeSystem-TRE-G01-CategorieProduit.md) | Catégorie de produit | 15/12/2023 |
-| [TRE_G02_TypeProduit](CodeSystem-TRE-G02-TypeProduit.md) | Type de produit | 15/12/2023 |
-| [TRE_G03_CiviliteCPx](CodeSystem-TRE-G03-CiviliteCPx.md) | Civilité (CPx) | 15/12/2023 |
-| [TRE_G04_NiveauResponsabiliteCPx](CodeSystem-TRE-G04-NiveauResponsabiliteCPx.md) | Niveau de responsabilité (CPx) | 15/12/2023 |
-| [TRE_G05_SousSectionTableauCNOP](CodeSystem-TRE-G05-SousSectionTableauCNOP.md) | Sous-Section du tableau de l'Ordre des Pharmaciens | 15/12/2023 |
-| [TRE_G07_TypeIdentifiantStructure](CodeSystem-TRE-G07-TypeIdentifiantStructure.md) | Type d'identifiant de structure | 29/03/2024 |
-| [TRE_G08_TypeIdentifiantPersonne](CodeSystem-TRE-G08-TypeIdentifiantPersonne.md) | Type d'identifiant de personne | 29/03/2024 |
-| [TRE_G09_DepartementOM](CodeSystem-TRE-G09-DepartementOM.md) | Référentiel des codes départements et collectivités d’outre-mer provenant du COG INSEE + Monaco | 28/06/2024 |
-| [TRE_G11_NatureQualificationADELI](CodeSystem-TRE-G11-NatureQualificationADELI.md) | Nature de qualification ADELI | 16/10/2025 |
-| [TRE_G12_SpecialiteADELI](CodeSystem-TRE-G12-SpecialiteADELI.md) | Spécialité ADELI | 31/05/2024 |
-| [TRE_G13_OrientationParticuliere](CodeSystem-TRE-G13-OrientationParticuliere.md) | Orientation particulière | 15/12/2023 |
-| [TRE_G15_ProfessionSante](CodeSystem-TRE-G15-ProfessionSante.md) | Professions de santé définies par le code de la santé publique : professions médicales (art. L4111-1 à L4163-10), de la pharmacie et de la physique médicale (art. 4211-1 à 4252-3) et d’auxiliaires médicaux (art. 4311-1 à 4394-3) | 28/03/2025 |
-| [TRE_G16_ProfessionFormation](CodeSystem-TRE-G16-ProfessionFormation.md) | Professions en formation (carte CPF) | 15/12/2023 |
-| [TRE_G17_ModeExerciceCPx](CodeSystem-TRE-G17-ModeExerciceCPx.md) | Mode d'exercice (CPx) | 15/12/2023 |
-| [TRE_G18_AttributionParticuliereADELI](CodeSystem-TRE-G18-AttributionParticuliereADELI.md) | Attribution particulière ADELI | 15/12/2023 |
-| [TRE_G19_SecteurActiviteADELI](CodeSystem-TRE-G19-SecteurActiviteADELI.md) | Secteur d'activité ADELI | 23/05/2025 |
-| [TRE_G20_Specialisation](CodeSystem-TRE-G20-Specialisation.md) | Spécialisation | 15/12/2023 |
-| [TRE_G100_Specialite_AM](CodeSystem-TRE-G100-Specialite-AM.md) | Spécialité Assurance Maladie | 25/10/2024 |
+| [TreR407CompositionFoyer](CodeSystem-tre-r407-composition-foyer.md) | Désigne avec qui vit l’usager dans son logement. | 02/02/2026 |
 | [TRE_R01_EnsembleSavoirFaire_CISIS](CodeSystem-TRE-R01-EnsembleSavoirFaire-CISIS.md) | Ensemble Savoir-faire CI-SIS (TRE provisoire) | 02/02/2026 |
 | [TRE_R02_SecteurActivite](CodeSystem-TRE-R02-SecteurActivite.md) | Le secteur d'activité de santé est une donnée RPPS et correspond au type de service fourni par une structure. Il sert principalement à déterminer les propriétés de facturation des professionnels de ces structures vis-à-vis de l'assurance maladie | 23/05/2025 |
 | [TRE_R03_AttributionParticuliere](CodeSystem-TRE-R03-AttributionParticuliere.md) | Attribution particulière | 15/12/2023 |

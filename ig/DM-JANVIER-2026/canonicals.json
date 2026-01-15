@@ -4768,6 +4768,14 @@
     "oids" : ["1.2.250.1.213.1.6.1.375"]
   },
   {
+    "id" : "tre-r407-composition-foyer",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r407-composition-foyer",
+    "version" : "20260202120000",
+    "name" : "TreR407CompositionFoyer",
+    "oids" : ["1.2.250.1.213.3.3.261"]
+  },
+  {
     "id" : "specimenType-supplement-fr",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/v2-0487-supplement-fr",
@@ -6369,6 +6377,14 @@
     "version" : "20251222120000",
     "name" : "JdvJ383MotifClotureExerciceProfessionnelEpars",
     "oids" : ["1.2.250.1.213.1.6.1.394"]
+  },
+  {
+    "id" : "jdv-j384-role-membre-famille-ms",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j384-role-membre-famille-ms",
+    "version" : "20260202120000",
+    "name" : "JdvJ384RoleMembreFamilleMs",
+    "oids" : ["1.2.250.1.213.3.4.227"]
   },
   {
     "id" : "jdv-jour-semaine-cisis",

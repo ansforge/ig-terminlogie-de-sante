@@ -2715,6 +2715,15 @@
       "oids" : ["1.2.250.1.213.1.6.1.375"]
     },
     {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r407-composition-foyer",
+      "version" : "20260202120000",
+      "status" : "active",
+      "name" : "TreR407CompositionFoyer",
+      "title" : "Tre R407 Composition Foyer",
+      "description" : "Désigne avec qui vit l’usager dans son logement.",
+      "oids" : ["1.2.250.1.213.3.3.261"]
+    },
+    {
       "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/v2-0487-supplement-fr",
       "version" : "1.0",
       "status" : "draft",
