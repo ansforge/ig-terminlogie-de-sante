@@ -6387,6 +6387,14 @@
     "oids" : ["1.2.250.1.213.3.4.227"]
   },
   {
+    "id" : "jdv-j385-composition-foyer-ms",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j385-composition-foyer-ms",
+    "version" : "20260202120000",
+    "name" : "JdvJ385CompositionFoyerMs",
+    "oids" : ["1.2.250.1.213.3.4.228"]
+  },
+  {
     "id" : "jdv-jour-semaine-cisis",
     "type" : "ValueSet",
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-jour-semaine-cisis",

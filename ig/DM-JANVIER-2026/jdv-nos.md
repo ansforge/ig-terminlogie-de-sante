@@ -12,6 +12,7 @@ Vous touverez ici la liste des JDV du NOS.
 | :--- | :--- | :--- |
 | Name | Description | date_maj |
 | [JdvJ384RoleMembreFamilleMs](ValueSet-jdv-j384-role-membre-famille-ms.md) | Rôle d'un membre de la famille ou d'un proche de l'usager. | 02/02/2026 |
+| [JdvJ385CompositionFoyerMs](ValueSet-jdv-j385-composition-foyer-ms.md) | Désigne avec qui vit l’usager dans son logement. | 02/02/2026 |
 | [JdvJ366StatutBilanProjetPersonnaliseMs](ValueSet-jdv-j366-statut-bilan-projet-personnalise-ms.md) | Statut du bilan du projet personnalisé. | 15/04/2025 |
 | [JdvJ367TypeProjetPersonnaliseMs](ValueSet-jdv-j367-type-projet-personnalise-ms.md) | Cette nomenclature donne le type de projet personnalisé qui est un document co-construit par l'usager, son entourage familial et professionnel du médico-social. | 15/04/2025 |
 | [JdvJ368CategorieEtablissementCisis](ValueSet-jdv-j368-categorie-etablissement-cisis.md) | JDV à l'image de l'ensemble des valeurs actives de la terminologie TRE_R66-CategorieEtablissement | 22/04/2025 |

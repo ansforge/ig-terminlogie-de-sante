@@ -725,6 +725,7 @@ These define sets of codes used by systems conforming to this implementation gui
 | [Jdv J370 Type Contrat Sejour Ms](ValueSet-jdv-j370-type-contrat-sejour-ms.md) | Type de contrat conclu entre l’établissement/service et la personne/son représentant légal. |
 | [Jdv J383 Motif Cloture Exercice Professionnel Epars](ValueSet-jdv-j383-motif-cloture-exercice-professionnel-epars.md) | Ce jeu de valeur liste les différents motifs qui peuvent justifier la clôture d’un exercice professionnel. |
 | [Jdv J384 Role Membre Famille Ms](ValueSet-jdv-j384-role-membre-famille-ms.md) | Rôle d’un membre de la famille ou d’un proche de l’usager. |
+| [Jdv J385 Composition Foyer Ms](ValueSet-jdv-j385-composition-foyer-ms.md) | Désigne avec qui vit l’usager dans son logement. |
 | [Jdv Mediatype Corps Cda Non Structure CISIS](ValueSet-jdv-mediatype-corps-cda-non-structure-cisis.md) | Jdv Mediatype Corps Cda Non Structure CISIS |
 | [Jdv Modele Document CDA CISIS](ValueSet-jdv-modele-document-cda-cisis.md) | Jdv Modele Document CDA CISIS |
 | [Jdv Modele Document CDA Non Structure CISIS](ValueSet-jdv-modele-document-cda-non-structure-cisis.md) | Jdv Modele Document CDA Non Structure CISIS |

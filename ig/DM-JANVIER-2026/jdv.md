@@ -433,6 +433,7 @@ Les jeux de valeurs (JDV) sont des nomenclatures constituées de codes extraits 
 | [JdvJ370TypeContratSejourMs](ValueSet-jdv-j370-type-contrat-sejour-ms.md) | Type de contrat conclu entre l’établissement/service et la personne/son représentant légal. | 21/05/2025 |
 | [JdvJ383MotifClotureExerciceProfessionnelEpars](ValueSet-jdv-j383-motif-cloture-exercice-professionnel-epars.md) | Ce jeu de valeur liste les différents motifs qui peuvent justifier la clôture d'un exercice professionnel. | 22/12/2025 |
 | [JdvJ384RoleMembreFamilleMs](ValueSet-jdv-j384-role-membre-famille-ms.md) | Rôle d'un membre de la famille ou d'un proche de l'usager. | 02/02/2026 |
+| [JdvJ385CompositionFoyerMs](ValueSet-jdv-j385-composition-foyer-ms.md) | Désigne avec qui vit l’usager dans son logement. | 02/02/2026 |
 | [JdvJourSemaineCisis](ValueSet-jdv-jour-semaine-cisis.md) | JDV Jour Semaine CISIS | 24/06/2025 |
 | [JdvJuridiqueCisis](ValueSet-jdv-juridique-cisis.md) | JDV Juridique CISIS | 16/12/2025 |
 | [JdvLateraliteCisis](ValueSet-jdv-lateralite-cisis.md) | JDV Lateralite CISIS | 16/12/2025 |

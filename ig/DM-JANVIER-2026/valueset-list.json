@@ -5968,6 +5968,19 @@
       "sources" : ["1.2.250.1.213.3.4.227"]
     },
     {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j385-composition-foyer-ms",
+      "version" : "20260202120000",
+      "status" : "active",
+      "name" : "JdvJ385CompositionFoyerMs",
+      "title" : "Jdv J385 Composition Foyer Ms",
+      "description" : "Désigne avec qui vit l’usager dans son logement.",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r407-composition-foyer"
+      ],
+      "oids" : ["1.2.250.1.213.3.4.228"],
+      "sources" : ["1.2.250.1.213.3.4.228"]
+    },
+    {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-jour-semaine-cisis",
       "version" : "20250624152100",
       "status" : "active",
