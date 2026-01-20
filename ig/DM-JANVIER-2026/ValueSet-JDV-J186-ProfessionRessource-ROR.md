@@ -9,7 +9,7 @@
 | | | |
 | :--- | :--- | :--- |
 | *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J186-ProfessionRessource-ROR/FHIR/JDV-J186-ProfessionRessource-ROR | *Version*:20260202120000 | |
-| Active as of 2025-07-10 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J186_ProfessionRessource_ROR |
+| Active as of 2026-02-02 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J186_ProfessionRessource_ROR |
 | *Other Identifiers:*OID:1.2.250.1.213.3.4.19 | | |
 
  
@@ -81,7 +81,7 @@ Requête sur le SMT
   "name" : "JDV_J186_ProfessionRessource_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-07-10T12:00:00+01:00",
+  "date" : "2026-02-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Profession Ressource des offres dans le ROR",
   "jurisdiction" : [

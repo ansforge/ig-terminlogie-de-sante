@@ -238,7 +238,7 @@ Ceci est un IG R4. Aucune des fonctionnalités quil utilise nest modifiée dans 
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2026-01-20T10:22:59+00:00",
+  "date" : "2026-01-20T11:47:28+00:00",
   "publisher" : "ANS",
   "contact" : [
     {
