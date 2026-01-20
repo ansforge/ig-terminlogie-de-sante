@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge | *Version*:20251222120000 | |
-| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R85_RolePriseCharge |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge | *Version*:20260202120000 | |
+| Active as of 2026-02-02 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R85_RolePriseCharge |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.107 | | |
 
  
@@ -60,11 +60,11 @@ Rôle dans la prise en charge des patients ou des usagers
       "value" : "urn:oid:1.2.250.1.213.1.6.1.107"
     }
   ],
-  "version" : "20251222120000",
+  "version" : "20260202120000",
   "name" : "TRE_R85_RolePriseCharge",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-22T12:00:00+01:00",
+  "date" : "2026-02-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Rôle dans la prise en charge des patients ou des usagers",
   "jurisdiction" : [
@@ -79,7 +79,7 @@ Rôle dans la prise en charge des patients ou des usagers
   ],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 74,
+  "count" : 75,
   "property" : [
     {
       "code" : "dateValid",
@@ -1888,6 +1888,25 @@ Rôle dans la prise en charge des patients ou des usagers
         {
           "code" : "dateMaj",
           "valueDateTime" : "2025-07-21T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "374",
+      "display" : "Agent d'autorité d'enregistrement",
+      "definition" : "Les agents des autorités d’enregistrement sont des personnes habilitées à collecter, vérifier et transmettre les données d’identification des professionnels de santé vers les systèmes officiels, notamment le RPPS et le tableau si l’autorité d’enregistrement est un Ordre médical. Ils jouent un rôle crucial dans la gestion administrative et réglementaire de la profession. L’agent d’enregistrement vérifie les diplômes, les pièces justificatives et les conditions d’exercice du professionnel. Pour une profession ordinale, il ou elle enregistre le professionnel dans le tableau officiel de l’Ordre et lui attribue un numéro ordinal. Les données validées (identité, spécialité, lieu d’exercice, etc.) sont quotidiennement transmises au RPPS. Elles sont considérées comme fiables et opposables, car elles proviennent d’autorités officielles que sont les Ordres professionnels, les ARS ou le Service de santé des armées.",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2026-02-02T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2026-02-02T12:00:00+01:00"
         },
         {
           "code" : "status",

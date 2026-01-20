@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J95-ModeExercice-RASS/FHIR/JDV-J95-ModeExercice-RASS | *Version*:20210827120000 | |
-| Active as of 2021-08-27 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J95_ModeExercice_RASS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J95-ModeExercice-RASS/FHIR/JDV-J95-ModeExercice-RASS | *Version*:20260202120000 | |
+| Active as of 2026-02-02 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J95_ModeExercice_RASS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.163 | | |
 
  
@@ -77,11 +77,11 @@ Requête sur le SMT
       "value" : "urn:oid:1.2.250.1.213.1.6.1.163"
     }
   ],
-  "version" : "20210827120000",
+  "version" : "20260202120000",
   "name" : "JDV_J95_ModeExercice_RASS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2021-08-27T12:00:00+01:00",
+  "date" : "2026-02-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Modes d'exercice du professionnel du RASS",
   "jurisdiction" : [
@@ -110,6 +110,10 @@ Requête sur le SMT
           {
             "code" : "B",
             "display" : "Bénévole"
+          },
+          {
+            "code" : "I",
+            "display" : "Indirect"
           }
         ]
       }

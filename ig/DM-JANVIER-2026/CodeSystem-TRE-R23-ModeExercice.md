@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R23-ModeExercice/FHIR/TRE-R23-ModeExercice | *Version*:20231215120000 | |
-| Active as of 2023-12-15 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R23_ModeExercice |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R23-ModeExercice/FHIR/TRE-R23-ModeExercice | *Version*:20260202120000 | |
+| Active as of 2026-02-02 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R23_ModeExercice |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.18 | | |
 
  
@@ -51,11 +51,11 @@ Mode d’exercice
       "value" : "urn:oid:1.2.250.1.213.1.6.1.18"
     }
   ],
-  "version" : "20231215120000",
+  "version" : "20260202120000",
   "name" : "TRE_R23_ModeExercice",
   "status" : "active",
   "experimental" : false,
-  "date" : "2023-12-15T12:00:00+01:00",
+  "date" : "2026-02-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Mode d'exercice",
   "jurisdiction" : [
@@ -70,6 +70,7 @@ Mode d’exercice
   ],
   "caseSensitive" : false,
   "content" : "complete",
+  "count" : 4,
   "property" : [
     {
       "code" : "dateValid",
@@ -163,6 +164,25 @@ Mode d’exercice
         {
           "code" : "dateMaj",
           "valueDateTime" : "2007-07-25T15:04:43+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "I",
+      "display" : "Indirect",
+      "definition" : "Le mode d’exercice indirect s’applique lorsqu’un professionnel réalise son activité au sein d’une structure d’exercice par l’intermédiaire d’une société, via un contrat conclu entre cette société et la structure d'exercice réelle, sans qu’aucun lien contractuel direct n’existe entre le professionnel et cette dernière. Ce cas se présente notamment lorsque le professionnel intervient au moyen de sa propre société – dont il est représentant légal, gérant ou associé – ou lorsqu’il est salarié d’une société qui contracte elle-même avec la structure d’exercice. À l’inverse, ce mode ne concerne pas les professionnels qui exercent en leur nom propre dans une structure tierce, lesquels relèvent du mode d’exercice libéral, ni ceux directement salariés par la structure d’exercice, qui relèvent du mode d’exercice salarié.",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2026-02-02T15:04:43+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2026-02-02T15:04:43+01:00"
         },
         {
           "code" : "status",

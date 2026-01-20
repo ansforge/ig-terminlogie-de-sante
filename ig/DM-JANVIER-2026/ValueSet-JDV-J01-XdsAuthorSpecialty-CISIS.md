@@ -1682,6 +1682,10 @@ Requête sur le SMT
           {
             "code" : "373",
             "display" : "Technicien d’études cliniques"
+          },
+          {
+            "code" : "374",
+            "display" : "Agent d'autorité d'enregistrement"
           }
         ]
       }

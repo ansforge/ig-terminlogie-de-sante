@@ -749,7 +749,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R21-Fonction/FHIR/TRE-R21-Fonction",
-      "version" : "20251023120000",
+      "version" : "20260202120000",
       "status" : "active",
       "name" : "TRE_R21_Fonction",
       "title" : null,
@@ -938,7 +938,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R23-ModeExercice/FHIR/TRE-R23-ModeExercice",
-      "version" : "20231215120000",
+      "version" : "20260202120000",
       "status" : "active",
       "name" : "TRE_R23_ModeExercice",
       "title" : null,
@@ -2405,7 +2405,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge",
-      "version" : "20251222120000",
+      "version" : "20260202120000",
       "status" : "active",
       "name" : "TRE_R85_RolePriseCharge",
       "title" : null,
@@ -2820,7 +2820,7 @@
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-nabm",
-      "version" : "V100",
+      "version" : "V101",
       "status" : "active",
       "name" : "NABM",
       "title" : "Nomenclature des actes de biologie médicale",

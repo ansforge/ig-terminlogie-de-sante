@@ -1110,9 +1110,15 @@
          <Concept code="FON-60"
                   codeSystem="1.2.250.1.213.1.6.1.17"
                   displayName="Pharmacien remplaçant Bonnes Pratiques de Dispensation d'Oxygène"/>
+         <Concept code="FON-61"
+                  codeSystem="1.2.250.1.213.1.6.1.17"
+                  displayName="Prestataire de Services"/>
          <Concept code="FON-62"
                   codeSystem="1.2.250.1.213.1.6.1.17"
                   displayName="Consultations de solidarité territoriale"/>
+         <Concept code="FON-63"
+                  codeSystem="1.2.250.1.213.1.6.1.17"
+                  displayName="Coordination de soins"/>
          <Concept code="FON-AU"
                   codeSystem="1.2.250.1.213.1.6.1.17"
                   displayName="Fonction non définie"/>
@@ -1323,6 +1329,9 @@
          <Concept code="373"
                   codeSystem="1.2.250.1.213.1.6.1.107"
                   displayName="Technicien d’études cliniques"/>
+         <Concept code="374"
+                  codeSystem="1.2.250.1.213.1.6.1.107"
+                  displayName="Agent d'autorité d'enregistrement"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

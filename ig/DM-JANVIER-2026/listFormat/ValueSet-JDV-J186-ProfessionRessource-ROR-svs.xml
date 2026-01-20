@@ -127,6 +127,9 @@
          <Concept code="351"
                   codeSystem="1.2.250.1.213.1.6.1.107"
                   displayName="Assistant(e) maternel(le)"/>
+         <Concept code="374"
+                  codeSystem="1.2.250.1.213.1.6.1.107"
+                  displayName="Agent d'autorité d'enregistrement"/>
          <Concept code="408"
                   codeSystem="1.2.250.1.213.1.6.1.110"
                   displayName="Perceur corporel"/>

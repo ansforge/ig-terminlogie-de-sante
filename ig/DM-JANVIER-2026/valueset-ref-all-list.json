@@ -184,8 +184,8 @@
       "sources" : ["1.2.250.1.213.1.1.5.465"],
       "uses" : {
       },
-      "ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.html" : "ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS",
-      "ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.html" : "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS"
+      "ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.html" : "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS",
+      "ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.html" : "ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J100-FinessStatutJuridique-RASS/FHIR/JDV-J100-FinessStatutJuridique-RASS",
@@ -306,7 +306,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J108-EnsembleFonction-RASS/FHIR/JDV-J108-EnsembleFonction-RASS",
-      "version" : "20251222120000",
+      "version" : "20260202120000",
       "status" : "active",
       "name" : "JDV_J108_EnsembleFonction_RASS",
       "title" : null,
@@ -426,7 +426,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J117-ModeExercice-ENREG/FHIR/JDV-J117-ModeExercice-ENREG",
-      "version" : "20210827120000",
+      "version" : "20260202120000",
       "status" : "active",
       "name" : "JDV_J117_ModeExercice_ENREG",
       "title" : null,
@@ -498,7 +498,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J121-RolePriseCharge-ENREG/FHIR/JDV-J121-RolePriseCharge-ENREG",
-      "version" : "20251222120000",
+      "version" : "20260202120000",
       "status" : "active",
       "name" : "JDV_J121_RolePriseCharge_ENREG",
       "title" : null,
@@ -1384,7 +1384,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J186-ProfessionRessource-ROR/FHIR/JDV-J186-ProfessionRessource-ROR",
-      "version" : "20250710120000",
+      "version" : "20260202120000",
       "status" : "active",
       "name" : "JDV_J186_ProfessionRessource_ROR",
       "title" : null,
@@ -1832,7 +1832,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J217-ModeExercice-ROR/FHIR/JDV-J217-ModeExercice-ROR",
-      "version" : "20220826120000",
+      "version" : "20260202120000",
       "status" : "active",
       "name" : "JDV_J217_ModeExercice_ROR",
       "title" : null,
@@ -3492,7 +3492,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J95-ModeExercice-RASS/FHIR/JDV-J95-ModeExercice-RASS",
-      "version" : "20210827120000",
+      "version" : "20260202120000",
       "status" : "active",
       "name" : "JDV_J95_ModeExercice_RASS",
       "title" : null,
@@ -9522,8 +9522,8 @@
       "systems" : ["https://smt.esante.gouv.fr/terminologie-bdpm"],
       "uses" : {
       },
-      "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD",
-      "ConceptMap-alignement-nuva-bdpm.html" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM"
+      "ConceptMap-alignement-nuva-bdpm.html" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM",
+      "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD"
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-cip_ucd?vs",

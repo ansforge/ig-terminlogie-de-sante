@@ -1183,6 +1183,9 @@
          <Concept code="373"
                   codeSystem="1.2.250.1.213.1.6.1.107"
                   displayName="Technicien d’études cliniques"/>
+         <Concept code="374"
+                  codeSystem="1.2.250.1.213.1.6.1.107"
+                  displayName="Agent d'autorité d'enregistrement"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

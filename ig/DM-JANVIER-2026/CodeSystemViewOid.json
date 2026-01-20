@@ -112,11 +112,35 @@
     "status" : "active"
   },
   {
+    "id" : "TRE-R21-Fonction",
+    "name" : "TRE_R21_Fonction",
+    "title" : null,
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R21-Fonction/FHIR/TRE-R21-Fonction",
+    "identifier" : "urn:oid:1.2.250.1.213.1.6.1.17",
+    "status" : "active"
+  },
+  {
+    "id" : "TRE-R23-ModeExercice",
+    "name" : "TRE_R23_ModeExercice",
+    "title" : null,
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R23-ModeExercice/FHIR/TRE-R23-ModeExercice",
+    "identifier" : "urn:oid:1.2.250.1.213.1.6.1.18",
+    "status" : "active"
+  },
+  {
     "id" : "TRE-R260-HL7RoleClass",
     "name" : "TRE_R260_HL7RoleClass",
     "title" : null,
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass",
     "identifier" : "urn:oid:2.16.840.1.113883.5.110",
+    "status" : "active"
+  },
+  {
+    "id" : "TRE-R85-RolePriseCharge",
+    "name" : "TRE_R85_RolePriseCharge",
+    "title" : null,
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge",
+    "identifier" : "urn:oid:1.2.250.1.213.1.6.1.107",
     "status" : "active"
   },
   {
@@ -1048,14 +1072,6 @@
     "status" : "active"
   },
   {
-    "id" : "TRE-R21-Fonction",
-    "name" : "TRE_R21_Fonction",
-    "title" : null,
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R21-Fonction/FHIR/TRE-R21-Fonction",
-    "identifier" : "urn:oid:1.2.250.1.213.1.6.1.17",
-    "status" : "active"
-  },
-  {
     "id" : "TRE-R220-ModeleDocumentCDAStructure",
     "name" : "TRE_R220_ModeleDocumentCDAStructure",
     "title" : null,
@@ -1205,14 +1221,6 @@
     "title" : null,
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R239-PublicPrisEnCharge/FHIR/TRE-R239-PublicPrisEnCharge",
     "identifier" : "urn:oid:1.2.250.1.213.3.3.29",
-    "status" : "active"
-  },
-  {
-    "id" : "TRE-R23-ModeExercice",
-    "name" : "TRE_R23_ModeExercice",
-    "title" : null,
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R23-ModeExercice/FHIR/TRE-R23-ModeExercice",
-    "identifier" : "urn:oid:1.2.250.1.213.1.6.1.18",
     "status" : "active"
   },
   {
@@ -2429,14 +2437,6 @@
     "title" : null,
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R84-ProfilAccesAnnuaire-MSSante/FHIR/TRE-R84-ProfilAccesAnnuaire-MSSante",
     "identifier" : "urn:oid:1.2.250.1.213.1.9.1.1",
-    "status" : "active"
-  },
-  {
-    "id" : "TRE-R85-RolePriseCharge",
-    "name" : "TRE_R85_RolePriseCharge",
-    "title" : null,
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge",
-    "identifier" : "urn:oid:1.2.250.1.213.1.6.1.107",
     "status" : "active"
   },
   {

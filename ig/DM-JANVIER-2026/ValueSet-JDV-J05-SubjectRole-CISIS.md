@@ -1633,8 +1633,16 @@ Requête sur le SMT
             "display" : "Pharmacien remplaçant Bonnes Pratiques de Dispensation d'Oxygène"
           },
           {
+            "code" : "FON-61",
+            "display" : "Prestataire de Services"
+          },
+          {
             "code" : "FON-62",
             "display" : "Consultations de solidarité territoriale"
+          },
+          {
+            "code" : "FON-63",
+            "display" : "Coordination de soins"
           },
           {
             "code" : "FON-AU",
@@ -1920,6 +1928,10 @@ Requête sur le SMT
           {
             "code" : "373",
             "display" : "Technicien d’études cliniques"
+          },
+          {
+            "code" : "374",
+            "display" : "Agent d'autorité d'enregistrement"
           }
         ]
       }
