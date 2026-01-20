@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/terminologie-nabm | *Version*:V100 | |
-| Active as of 2025-12-18 | *Responsible:*Agence du numérique en santé | *Computable Name*:NABM |
+| *Official URL*:https://smt.esante.gouv.fr/terminologie-nabm | *Version*:V101 | |
+| Active as of 2026-01-13 | *Responsible:*Agence du numérique en santé | *Computable Name*:NABM |
 | *Other Identifiers:*OID:1.2.250.1.215.300.2 (use: usual, ), https://smt.esante.gouv.fr/#terminologie-nabm (use: secondary, ) | | |
 | **Copyright/Legal**:[LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md) | | |
 
@@ -29,8 +29,8 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
   "resourceType" : "CodeSystem",
   "id" : "terminologie-nabm",
   "meta" : {
-    "versionId" : "12",
-    "lastUpdated" : "2026-01-06T16:31:33.167+01:00",
+    "versionId" : "13",
+    "lastUpdated" : "2026-01-19T11:12:31.509+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
@@ -48,12 +48,12 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
       "value" : "terminologie-nabm"
     }
   ],
-  "version" : "V100",
+  "version" : "V101",
   "name" : "NABM",
   "title" : "Nomenclature des actes de biologie médicale",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-18T00:00:00+00:00",
+  "date" : "2026-01-13T00:00:00+00:00",
   "publisher" : "Agence du numérique en santé",
   "description" : "La NABM est la terminologie de facturation des actes de biologie médicale. Elle décrit la liste des actes de biologie dans une arborescence en chapitres et sous-chapitres ainsi que des règles de facturation.",
   "jurisdiction" : [
@@ -69,7 +69,7 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
   "copyright" : "[LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md)",
   "valueSet" : "https://smt.esante.gouv.fr/terminologie-nabm?vs",
   "content" : "complete",
-  "count" : 1047,
+  "count" : 1049,
   "filter" : [
     {
       "code" : "root",
@@ -4561,6 +4561,72 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
         {
           "code" : "rmo",
           "valueBoolean" : true
+        },
+        {
+          "code" : "examenSanguin",
+          "valueBoolean" : true
+        }
+      ]
+    },
+    {
+      "code" : "1004",
+      "display" : "HYBRIDATION SUR PUCE A ADN EN CONTEXTE POST NATAL",
+      "property" : [
+        {
+          "code" : "parent",
+          "valueCode" : "0"
+        },
+        {
+          "code" : "created",
+          "valueString" : "20/10/2025"
+        },
+        {
+          "code" : "modified",
+          "valueString" : "25/01/2026"
+        },
+        {
+          "code" : "type",
+          "valueString" : "code"
+        },
+        {
+          "code" : "initativeBiologistePossible",
+          "valueBoolean" : false
+        },
+        {
+          "code" : "indicationMédicale",
+          "valueBoolean" : false
+        },
+        {
+          "code" : "remboursementTotal",
+          "valueBoolean" : false
+        },
+        {
+          "code" : "ententePréalable",
+          "valueBoolean" : false
+        },
+        {
+          "code" : "aPourContingenceTechnique",
+          "valueCode" : "CONTINGENCE_4"
+        },
+        {
+          "code" : "nombreMaximumParFacturation",
+          "valueInteger" : 1
+        },
+        {
+          "code" : "coeffB",
+          "valueString" : "1900"
+        },
+        {
+          "code" : "codeIncompatible",
+          "valueCode" : "1005"
+        },
+        {
+          "code" : "acteReserve",
+          "valueBoolean" : false
+        },
+        {
+          "code" : "rmo",
+          "valueBoolean" : false
         },
         {
           "code" : "examenSanguin",
@@ -10281,6 +10347,14 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
         {
           "code" : "child",
           "valueCode" : "9011"
+        },
+        {
+          "code" : "child",
+          "valueCode" : "1005"
+        },
+        {
+          "code" : "child",
+          "valueCode" : "1004"
         }
       ]
     },
@@ -63616,6 +63690,72 @@ La NABM est la terminologie de facturation des actes de biologie médicale. Elle
         {
           "code" : "coeffB",
           "valueString" : "85"
+        },
+        {
+          "code" : "acteReserve",
+          "valueBoolean" : false
+        },
+        {
+          "code" : "rmo",
+          "valueBoolean" : false
+        },
+        {
+          "code" : "examenSanguin",
+          "valueBoolean" : true
+        }
+      ]
+    },
+    {
+      "code" : "1005",
+      "display" : "REINTERPRETATION - HYBRIDATION SUR PUCE A ADN EN CONTEXTE POST NATAL",
+      "property" : [
+        {
+          "code" : "parent",
+          "valueCode" : "0"
+        },
+        {
+          "code" : "created",
+          "valueString" : "20/10/2025"
+        },
+        {
+          "code" : "modified",
+          "valueString" : "25/01/2026"
+        },
+        {
+          "code" : "type",
+          "valueString" : "code"
+        },
+        {
+          "code" : "initativeBiologistePossible",
+          "valueBoolean" : false
+        },
+        {
+          "code" : "indicationMédicale",
+          "valueBoolean" : false
+        },
+        {
+          "code" : "remboursementTotal",
+          "valueBoolean" : false
+        },
+        {
+          "code" : "ententePréalable",
+          "valueBoolean" : false
+        },
+        {
+          "code" : "aPourContingenceTechnique",
+          "valueCode" : "CONTINGENCE_4"
+        },
+        {
+          "code" : "nombreMaximumParFacturation",
+          "valueInteger" : 1
+        },
+        {
+          "code" : "coeffB",
+          "valueString" : "750"
+        },
+        {
+          "code" : "codeIncompatible",
+          "valueCode" : "1004"
         },
         {
           "code" : "acteReserve",

@@ -10,8 +10,8 @@
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "terminologie-nabm"] ; # 
   fhir:meta [
-     fhir:versionId [ fhir:v "12" ] ;
-     fhir:lastUpdated [ fhir:v "2026-01-06T16:31:33.167+01:00"^^xsd:dateTime ] ;
+     fhir:versionId [ fhir:v "13" ] ;
+     fhir:lastUpdated [ fhir:v "2026-01-19T11:12:31.509+01:00"^^xsd:dateTime ] ;
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"^^xsd:anyURI ;
        fhir:l <http://hl7.org/fhir/StructureDefinition/shareablecodesystem?version=4.0.1>
@@ -40,12 +40,12 @@
      ] ;
      fhir:value [ fhir:v "terminologie-nabm" ]
   ] ) ; # 
-  fhir:version [ fhir:v "V100"] ; # 
+  fhir:version [ fhir:v "V101"] ; # 
   fhir:name [ fhir:v "NABM"] ; # 
   fhir:title [ fhir:v "Nomenclature des actes de biologie médicale"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-12-18T00:00:00+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-01-13T00:00:00+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du numérique en santé"] ; # 
   fhir:description [ fhir:v "La NABM est la terminologie de facturation des actes de biologie médicale. Elle décrit la liste des actes de biologie dans une arborescence en chapitres et sous-chapitres ainsi que des règles de facturation."] ; # 
   fhir:jurisdiction ( [
@@ -63,7 +63,7 @@
      fhir:l <https://smt.esante.gouv.fr/terminologie-nabm?vs>
   ] ; # 
   fhir:content [ fhir:v "complete"] ; # 
-  fhir:count [ fhir:v "1047"^^xsd:nonNegativeInteger] ; # 
+  fhir:count [ fhir:v "1049"^^xsd:nonNegativeInteger] ; # 
   fhir:filter ( [
      fhir:code [ fhir:v "root" ] ;
      fhir:operator ( [ fhir:v "=" ] ) ;
@@ -6420,6 +6420,100 @@
        fhir:value [
          a fhir:Boolean ;
          fhir:v true
+       ]
+     ] [
+       fhir:code [ fhir:v "examenSanguin" ] ;
+       fhir:value [
+         a fhir:Boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1004" ] ;
+     fhir:display [ fhir:v "HYBRIDATION SUR PUCE A ADN EN CONTEXTE POST NATAL" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "0"
+       ]
+     ] [
+       fhir:code [ fhir:v "created" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "20/10/2025"
+       ]
+     ] [
+       fhir:code [ fhir:v "modified" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "25/01/2026"
+       ]
+     ] [
+       fhir:code [ fhir:v "type" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "code"
+       ]
+     ] [
+       fhir:code [ fhir:v "initativeBiologistePossible" ] ;
+       fhir:value [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:code [ fhir:v "indicationMédicale" ] ;
+       fhir:value [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:code [ fhir:v "remboursementTotal" ] ;
+       fhir:value [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:code [ fhir:v "ententePréalable" ] ;
+       fhir:value [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:code [ fhir:v "aPourContingenceTechnique" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "CONTINGENCE_4"
+       ]
+     ] [
+       fhir:code [ fhir:v "nombreMaximumParFacturation" ] ;
+       fhir:value [
+         a fhir:Integer ;
+         fhir:v 1
+       ]
+     ] [
+       fhir:code [ fhir:v "coeffB" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "1900"
+       ]
+     ] [
+       fhir:code [ fhir:v "codeIncompatible" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "1005"
+       ]
+     ] [
+       fhir:code [ fhir:v "acteReserve" ] ;
+       fhir:value [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:code [ fhir:v "rmo" ] ;
+       fhir:value [
+         a fhir:Boolean ;
+         fhir:v false
        ]
      ] [
        fhir:code [ fhir:v "examenSanguin" ] ;
@@ -14570,6 +14664,18 @@
        fhir:value [
          a fhir:Code ;
          fhir:v "9011"
+       ]
+     ] [
+       fhir:code [ fhir:v "child" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "1005"
+       ]
+     ] [
+       fhir:code [ fhir:v "child" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "1004"
        ]
      ] )
   ] [
@@ -90459,6 +90565,100 @@
        fhir:value [
          a fhir:String ;
          fhir:v "85"
+       ]
+     ] [
+       fhir:code [ fhir:v "acteReserve" ] ;
+       fhir:value [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:code [ fhir:v "rmo" ] ;
+       fhir:value [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:code [ fhir:v "examenSanguin" ] ;
+       fhir:value [
+         a fhir:Boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "1005" ] ;
+     fhir:display [ fhir:v "REINTERPRETATION - HYBRIDATION SUR PUCE A ADN EN CONTEXTE POST NATAL" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "0"
+       ]
+     ] [
+       fhir:code [ fhir:v "created" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "20/10/2025"
+       ]
+     ] [
+       fhir:code [ fhir:v "modified" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "25/01/2026"
+       ]
+     ] [
+       fhir:code [ fhir:v "type" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "code"
+       ]
+     ] [
+       fhir:code [ fhir:v "initativeBiologistePossible" ] ;
+       fhir:value [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:code [ fhir:v "indicationMédicale" ] ;
+       fhir:value [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:code [ fhir:v "remboursementTotal" ] ;
+       fhir:value [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:code [ fhir:v "ententePréalable" ] ;
+       fhir:value [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:code [ fhir:v "aPourContingenceTechnique" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "CONTINGENCE_4"
+       ]
+     ] [
+       fhir:code [ fhir:v "nombreMaximumParFacturation" ] ;
+       fhir:value [
+         a fhir:Integer ;
+         fhir:v 1
+       ]
+     ] [
+       fhir:code [ fhir:v "coeffB" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "750"
+       ]
+     ] [
+       fhir:code [ fhir:v "codeIncompatible" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "1004"
        ]
      ] [
        fhir:code [ fhir:v "acteReserve" ] ;

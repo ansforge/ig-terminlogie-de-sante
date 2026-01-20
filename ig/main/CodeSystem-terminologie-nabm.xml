@@ -3,8 +3,8 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="terminologie-nabm"/>
   <meta>
-    <versionId value="12"/>
-    <lastUpdated value="2026-01-06T16:31:33.167+01:00"/>
+    <versionId value="13"/>
+    <lastUpdated value="2026-01-19T11:12:31.509+01:00"/>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"/>
   </meta>
   <text>
@@ -21,12 +21,12 @@
     <system value="https://smt.esante.gouv.fr/"/>
     <value value="terminologie-nabm"/>
   </identifier>
-  <version value="V100"/>
+  <version value="V101"/>
   <name value="NABM"/>
   <title value="Nomenclature des actes de biologie médicale"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2025-12-18T00:00:00+00:00"/>
+  <date value="2026-01-13T00:00:00+00:00"/>
   <publisher value="Agence du numérique en santé"/>
   <description value="La NABM est la terminologie de facturation des actes de biologie médicale. Elle décrit la liste des actes de biologie dans une arborescence en chapitres et sous-chapitres ainsi que des règles de facturation."/>
   <jurisdiction>
@@ -38,7 +38,7 @@
   <copyright value="[LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md)"/>
   <valueSet value="https://smt.esante.gouv.fr/terminologie-nabm?vs"/>
   <content value="complete"/>
-  <count value="1047"/>
+  <count value="1049"/>
   <filter>
     <code value="root"/>
     <operator value="="/>
@@ -4386,6 +4386,70 @@
     <property>
       <code value="rmo"/>
       <valueBoolean value="true"/>
+    </property>
+    <property>
+      <code value="examenSanguin"/>
+      <valueBoolean value="true"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="1004"/>
+    <display value="HYBRIDATION SUR PUCE A ADN EN CONTEXTE POST NATAL"/>
+    <property>
+      <code value="parent"/>
+      <valueCode value="0"/>
+    </property>
+    <property>
+      <code value="created"/>
+      <valueString value="20/10/2025"/>
+    </property>
+    <property>
+      <code value="modified"/>
+      <valueString value="25/01/2026"/>
+    </property>
+    <property>
+      <code value="type"/>
+      <valueString value="code"/>
+    </property>
+    <property>
+      <code value="initativeBiologistePossible"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="indicationMédicale"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="remboursementTotal"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="ententePréalable"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="aPourContingenceTechnique"/>
+      <valueCode value="CONTINGENCE_4"/>
+    </property>
+    <property>
+      <code value="nombreMaximumParFacturation"/>
+      <valueInteger value="1"/>
+    </property>
+    <property>
+      <code value="coeffB"/>
+      <valueString value="1900"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="1005"/>
+    </property>
+    <property>
+      <code value="acteReserve"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="rmo"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="examenSanguin"/>
@@ -9934,6 +9998,14 @@
     <property>
       <code value="child"/>
       <valueCode value="9011"/>
+    </property>
+    <property>
+      <code value="child"/>
+      <valueCode value="1005"/>
+    </property>
+    <property>
+      <code value="child"/>
+      <valueCode value="1004"/>
     </property>
   </concept>
   <concept>
@@ -61625,6 +61697,70 @@
     <property>
       <code value="coeffB"/>
       <valueString value="85"/>
+    </property>
+    <property>
+      <code value="acteReserve"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="rmo"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="examenSanguin"/>
+      <valueBoolean value="true"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="1005"/>
+    <display value="REINTERPRETATION - HYBRIDATION SUR PUCE A ADN EN CONTEXTE POST NATAL"/>
+    <property>
+      <code value="parent"/>
+      <valueCode value="0"/>
+    </property>
+    <property>
+      <code value="created"/>
+      <valueString value="20/10/2025"/>
+    </property>
+    <property>
+      <code value="modified"/>
+      <valueString value="25/01/2026"/>
+    </property>
+    <property>
+      <code value="type"/>
+      <valueString value="code"/>
+    </property>
+    <property>
+      <code value="initativeBiologistePossible"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="indicationMédicale"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="remboursementTotal"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="ententePréalable"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="aPourContingenceTechnique"/>
+      <valueCode value="CONTINGENCE_4"/>
+    </property>
+    <property>
+      <code value="nombreMaximumParFacturation"/>
+      <valueInteger value="1"/>
+    </property>
+    <property>
+      <code value="coeffB"/>
+      <valueString value="750"/>
+    </property>
+    <property>
+      <code value="codeIncompatible"/>
+      <valueCode value="1004"/>
     </property>
     <property>
       <code value="acteReserve"/>
