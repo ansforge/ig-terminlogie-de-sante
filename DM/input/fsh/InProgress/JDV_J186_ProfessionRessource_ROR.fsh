@@ -13,7 +13,7 @@ Description: "Profession Ressource des offres dans le ROR"
 * ^version = "20260202120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-07-10T12:00:00+01:00"
+* ^date = "2026-02-02T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-G15-ProfessionSante#10 "Médecin"
