@@ -557,6 +557,13 @@ Description: "Fonction"
 * #FON-62 ^property[=].valueDateTime = "2025-10-23T12:00:00+01:00"
 * #FON-62 ^property[+].code = #status
 * #FON-62 ^property[=].valueCode = #active
+* #FON-63 "Coordination de soins" "Le code fonction FON‑63 « Coordination de soins » désigne l’exercice d’un professionnel de santé chargé d’assurer la coordination médicale au sein d’un EHPAD, en garantissant la cohérence, la continuité et l’organisation des prises en charge des résidents. Cette fonction regroupe l’ensemble des missions de coordination clinique, de suivi des parcours, d’élaboration et de mise en œuvre du projet de soins, ainsi que l’appui aux équipes soignantes dans l’application des bonnes pratiques gériatriques et l’amélioration de la qualité des soins. Le titulaire du code FON‑63 n’exerce pas d’activité de soins directs, mais intervient comme pivot du dispositif médical interne de l’établissement, en veillant à la cohérence des interventions des professionnels impliqués et à l’adaptation du projet de soins aux besoins des résidents. Cette fonction peut être exercée selon différents statuts, notamment salarié ou via un contrat spécifique, et constitue une activité clairement distincte de la prescription et du rôle de médecin traitant. L’enregistrement sous FON‑63 permet d’identifier précisément les professionnels qui assument cette responsabilité structurante dans l’organisation médicale des EHPAD."
+* #FON-63 ^property[0].code = #dateValid
+* #FON-63 ^property[=].valueDateTime = "2026-02-02T12:00:00+01:00"
+* #FON-63 ^property[+].code = #dateMaj
+* #FON-63 ^property[=].valueDateTime = "2026-02-02T12:00:00+01:00"
+* #FON-63 ^property[+].code = #status
+* #FON-63 ^property[=].valueCode = #active
 * #FON-AU "Fonction non définie"
 * #FON-AU ^property[0].code = #dateValid
 * #FON-AU ^property[=].valueDateTime = "2007-07-25T15:04:42+01:00"
