@@ -11,7 +11,7 @@
 | *Official URL*:https://smt.esante.gouv.fr/terminologie-nabm | *Version*:V101 | |
 | Active as of 2026-01-13 | *Responsible:*Agence du numérique en santé | *Computable Name*:NABM |
 | *Other Identifiers:*OID:1.2.250.1.215.300.2 (use: usual, ), https://smt.esante.gouv.fr/#terminologie-nabm (use: secondary, ) | | |
-| **Copyright/Legal**:[LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md) | | |
+| **Copyright/Legal**: [LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md) | | |
 
  
 La NABM est la terminologie de facturation des actes de biologie médicale. Elle décrit la liste des actes de biologie dans une arborescence en chapitres et sous-chapitres ainsi que des règles de facturation. 

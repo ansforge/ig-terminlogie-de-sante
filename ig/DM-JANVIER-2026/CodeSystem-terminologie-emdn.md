@@ -11,7 +11,7 @@
 | *Official URL*:https://smt.esante.gouv.fr/terminologie-emdn | *Version*:v1.2 | |
 | Active as of 2022-04-28 | *Responsible:*Agence du numérique en santé | *Computable Name*:EMDN |
 | *Other Identifiers:*OID:1.2.250.1.213.2.68 (use: usual, ), https://smt.esante.gouv.fr/#terminologie-emdn (use: secondary, ) | | |
-| **Copyright/Legal**:[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode) | | |
+| **Copyright/Legal**: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode) | | |
 
  
 La nomenclature européenne des dispositifs médicaux (EMDN) est la nomenclature que doivent utiliser les fabricants pour enregistrer leurs dispositifs médicaux dans EUDAMED, base de données européenne sur les dispositifs médicaux. Il s’agit d’alimenter le système européen d’identification des dispositifs fondé sur un identifiant unique du dispositif (IUD) pour en faciliter la traçabilité. 

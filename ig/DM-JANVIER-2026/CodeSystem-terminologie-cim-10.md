@@ -11,7 +11,7 @@
 | *Official URL*:https://smt.esante.gouv.fr/terminologie-cim-10 | *Version*:2025-01-01 | |
 | Active as of 2024-12-20 | *Responsible:*Agence du numérique en santé | *Computable Name*:CIM_10_FR_PMSI |
 | *Other Identifiers:*OID:2.16.840.1.113883.6.3 (use: usual, ), https://smt.esante.gouv.fr/#terminologie-cim-10 (use: secondary, ) | | |
-| **Copyright/Legal**:[CC BY-NC-ND 3.0 IGO](https://creativecommons.org/licenses/by-nc-nd/3.0/igo/legalcode) | | |
+| **Copyright/Legal**: [CC BY-NC-ND 3.0 IGO](https://creativecommons.org/licenses/by-nc-nd/3.0/igo/legalcode) | | |
 
  
 La Classification Internationale des Maladies (CIM) permet d’établir les statistiques sanitaires (morbi-mortalité) partout dans le monde. Elle est gérée par l’Organisation Mondiale de la Santé qui publie une mise à jour annuelle. En France l’ATIH édite et publie une version complète du volume 1 de la CIM–10 à usage PMSI. La CIM–10 est aussi utilisée pour alimenter les dossier médicaux électronique des patients.Elle est destinée à être progressivement remplacée par la CIM 11 

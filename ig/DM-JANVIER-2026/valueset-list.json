@@ -1345,7 +1345,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J186-ProfessionRessource-ROR/FHIR/JDV-J186-ProfessionRessource-ROR",
-      "version" : "20260202120000",
+      "version" : "20250710120000",
       "status" : "active",
       "name" : "JDV_J186_ProfessionRessource_ROR",
       "title" : null,

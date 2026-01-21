@@ -11,7 +11,7 @@
 | *Official URL*:https://smt.esante.gouv.fr/terminologie-cisp | *Version*:2019-05 | |
 | Active as of 2019-06-26 | *Responsible:*Agence du numérique en santé | *Computable Name*:CISP_2 |
 | *Other Identifiers:*OID:2.16.840.1.113883.6.139 (use: usual, ), https://smt.esante.gouv.fr/#terminologie-cisp (use: secondary, ) | | |
-| **Copyright/Legal**:[LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md) | | |
+| **Copyright/Legal**: [LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md) | | |
 
  
 La Classification internationale des soins primaires (CISP) est la version française de l’International Classification of Primary Care (ICPC). Elle permet de coder trois éléments de consultation de médecine générale : motifs de rencontre (du point de vue du patient), problèmes de santé diagnostiqués et procédures de soins.Elle trouve sa place au sein de la famille des classifications de l’OMS comme classification associée à la CIM (classification internationale des maladies), l’ICF (classification internationale du fonctionnement, du handicap et de la santé) et l’ICHI (classification internationale des interventions de santé). 

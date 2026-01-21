@@ -11,7 +11,7 @@
 | *Official URL*:https://smt.esante.gouv.fr/terminologie-sms | *Version*:2026-01 | |
 | Active as of 2026-01-08 | *Responsible:*Agence du numérique en santé | *Computable Name*:Dictionnaire_SMS_Substance_Management_Services_ |
 | *Other Identifiers:*OID:2.16.840.1.113883.3.6905.2 (use: usual, ), https://smt.esante.gouv.fr/#terminologie-sms (use: secondary, ) | | |
-| **Copyright/Legal**:[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode) | | |
+| **Copyright/Legal**: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode) | | |
 
  
 Le dictionnaire des substances ou SMS a été conçu par l’European Medicines Agency (EMA) dans le cadre d’une démarche qualité. Ce dictionnaire contient les substances entrant dans la composition de médicaments destinés à un humain et/ou vétérinaire. 

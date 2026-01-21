@@ -11,7 +11,7 @@
 | *Official URL*:https://smt.esante.gouv.fr/terminologie-SERAFINPH | *Version*:2023.1.0 | |
 | Active as of 2023-01-01 | *Responsible:*Agence du numérique en santé | *Computable Name*:SERAFIN_PH |
 | *Other Identifiers:*https://smt.esante.gouv.fr/#terminologie-SERAFINPH | | |
-| **Copyright/Legal**:[LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md) | | |
+| **Copyright/Legal**: [LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md) | | |
 
  
 Les nomenclatures des besoins et des prestations ont été élaborées par un groupe de travail issu du projet SERAFIN-PH porté par la Caisse nationale de Solidarité pour l’Autonomie (CNSA) et la Direction Générale de la Cohésion Sociale (DGCS). Elles permettent de décrire, sur la base d’un langage commun, les besoins identifiés des personnes, et les prestations réalisées en réponse à ces besoins. Les usages locaux de ces nomenclatures montrent leur pertinence pour nouer autour des projets personnalisés d’accompagnement et de leurs déclinaisons opérationnelles un dialogue soutenu et permanent entre tous les acteurs concernés, de la personne accompagnée aux structures médico-sociales, acteurs de droit commun et jusqu’aux institutions de régulation (ARS, services déconcentrés et collectivités locales). 

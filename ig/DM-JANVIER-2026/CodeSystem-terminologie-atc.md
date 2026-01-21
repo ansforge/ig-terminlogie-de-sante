@@ -11,7 +11,7 @@
 | *Official URL*:https://smt.esante.gouv.fr/terminologie-atc | *Version*:2025-02 | |
 | Active as of 2025-03-10 | *Responsible:*Agence du numérique en santé | *Computable Name*:ATC |
 | *Other Identifiers:*OID:2.16.840.1.113883.6.73 (use: usual, ), https://smt.esante.gouv.fr/#terminologie-atc (use: secondary, ) | | |
-| **Copyright/Legal**:[CC BY-ND 3.0 IGO](https://creativecommons.org/licenses/by-nd/3.0/igo/legalcode) | | |
+| **Copyright/Legal**: [CC BY-ND 3.0 IGO](https://creativecommons.org/licenses/by-nd/3.0/igo/legalcode) | | |
 
  
 La classification ATC (anatomique, thérapeutique et chimique) classe les substances actives dans différents groupes selon l’organe ou le système sur lequel ils agissent et selon leurs propriétés thérapeutiques, pharmacologiques et chimiques. 

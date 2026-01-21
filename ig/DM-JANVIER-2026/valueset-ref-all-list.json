@@ -1384,7 +1384,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J186-ProfessionRessource-ROR/FHIR/JDV-J186-ProfessionRessource-ROR",
-      "version" : "20260202120000",
+      "version" : "20250710120000",
       "status" : "active",
       "name" : "JDV_J186_ProfessionRessource_ROR",
       "title" : null,
@@ -9522,8 +9522,8 @@
       "systems" : ["https://smt.esante.gouv.fr/terminologie-bdpm"],
       "uses" : {
       },
-      "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD",
-      "ConceptMap-alignement-nuva-bdpm.html" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM"
+      "ConceptMap-alignement-nuva-bdpm.html" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM",
+      "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD"
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-cip_ucd?vs",
@@ -9548,8 +9548,8 @@
       "systems" : ["https://smt.esante.gouv.fr/terminologie-nuva"],
       "uses" : {
       },
-      "ConceptMap-alignement-nuva-cipucd.html" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD",
-      "ConceptMap-alignement-nuva-bdpm.html" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM"
+      "ConceptMap-alignement-nuva-bdpm.html" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM",
+      "ConceptMap-alignement-nuva-cipucd.html" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD"
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-sms?vs",
