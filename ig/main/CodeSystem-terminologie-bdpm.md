@@ -11,7 +11,7 @@
 | *Official URL*:https://smt.esante.gouv.fr/terminologie-bdpm | *Version*:2026-01-06 | |
 | Active as of 2026-01-06 | *Responsible:*Agence du numérique en santé | *Computable Name*:BDPM |
 | *Other Identifiers:*https://smt.esante.gouv.fr/#terminologie-bdpm (use: secondary, ) | | |
-| **Copyright/Legal**:[LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md) | | |
+| **Copyright/Legal**: [LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md) | | |
 
  
 LA BDPM est un des référentiels du médicament gérée et distribuée par l’ANSM. Elle recense l’ensemble des spécialités et des présentations effectivement commercialisées durant les 5 dernières années. De ce fait, elle ne propose pas un historique exhaustif des codes de présentation et spécialités, celui-ci peut être obtenu grâce à la base RCP disponible sur le site de l’ANSM 

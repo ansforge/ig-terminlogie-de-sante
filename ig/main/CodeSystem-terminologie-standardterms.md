@@ -11,7 +11,7 @@
 | *Official URL*:https://smt.esante.gouv.fr/terminologie-standardterms | *Version*:2025-03-19 | |
 | Active as of 2025-07-11 | *Responsible:*Agence du numérique en santé | *Computable Name*:Standard_terms_EDQM |
 | *Other Identifiers:*OID:0.4.0.127.0.16.1.1.2.1 (use: usual, ), https://smt.esante.gouv.fr/#terminologie-standardterms (use: secondary, ) | | |
-| **Copyright/Legal**:[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode) | | |
+| **Copyright/Legal**: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode) | | |
 
  
 Les standard terms (ou listes de termes normalisés) ont été établis en réponse à une demande de la Commission européenne. Ils contiennent les formes pharmaceutiques, les voies et/ou les méthodes d’administration, les unités de présentation, ainsi que les conditionnements, les systèmes de fermeture et les dispositifs d’administration des médicaments à usage humain et/ou vétérinaire. 

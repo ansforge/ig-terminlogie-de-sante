@@ -19,7 +19,7 @@ Vous trouverez ci-dessous la liste des sources :
 | | | |
 | :--- | :--- | :--- |
 | id (*) | Kebab Case | Exemple : jdv-xds-author-specialty |
-| identifier | Permet d'identiquer l'OID | Exemple :`{ "system" : "urn:ietf:rfc:3986", "value" : "urn:oid:1.2.250.1.213.1.1.5.461" }` |
+| identifier | Permet d'identiquer l'OID | Exemple :` { "system" : "urn:ietf:rfc:3986", "value" : "urn:oid:1.2.250.1.213.1.1.5.461" } ` |
 | meta.profile (*) |  | http://hl7.org/fhir/StructureDefinition/shareablevalueset |
 | language |  | fr-FR |
 | url (*) |  | https://smt.esante.gouv.fr/fhir/ValueSet/{id} |
@@ -39,7 +39,7 @@ Vous trouverez ci-dessous la liste des sources :
 | | | |
 | :--- | :--- | :--- |
 | id (*) | Kebab Case | Exemple : terminologie-cisis |
-| identifier | Permet d'identiquer l'OID | Exemple :`{ "system" : "urn:ietf:rfc:3986", "value" : "urn:oid:1.2.250.1.213.1.1.4.322" }` |
+| identifier | Permet d'identiquer l'OID | Exemple :` { "system" : "urn:ietf:rfc:3986", "value" : "urn:oid:1.2.250.1.213.1.1.4.322" } ` |
 | url (*) |  | https://smt.esante.gouv.fr/fhir/CodeSystem/{id} |
 | version (*) | Version au format date si non imposé par l'UP | YYYYMMDDhhmmss |
 | description (*) | description |  |
