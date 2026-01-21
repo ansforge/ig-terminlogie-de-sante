@@ -17,7 +17,7 @@ Association du motif au statut de la personne prise en charge
 
 ### Accés
 
-Pour cette association, seuls les fichiers sont disponibles :
+Pour cette association, les fichiers suivants sont également disponibles :
 
 * [ASS_A32-StatutMotifPersonnePriseCharge.pdf](ASS_A32-StatutMotifPersonnePriseCharge.pdf)
 * [ASS_A32-StatutMotifPersonnePriseCharge.tabs](ASS_A32-StatutMotifPersonnePriseCharge.tabs)
