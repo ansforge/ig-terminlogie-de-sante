@@ -91,7 +91,7 @@ Description: "Désigne avec qui vit l’usager dans son logement."
 * #7 ^property[=].valueDateTime = "2026-02-02T12:00:00+01:00"
 * #7 ^property[+].code = #status
 * #7 ^property[=].valueCode = #active
-* #8 "Avec d'autres types de personnes "
+* #8 "Avec d'autres types de personnes"
 * #8 ^property[0].code = #dateValid
 * #8 ^property[=].valueDateTime = "2026-02-02T12:00:00+01:00"
 * #8 ^property[+].code = #dateMaj
