@@ -516,6 +516,78 @@
     "descriptionProperty" : "Date de retrait du code"
   },
   {
+    "id" : "tre-r408-situation-scolaire",
+    "name" : "TreR408SituationScolaire",
+    "title" : "Tre R408 Situation Scolaire",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-situation-scolaire",
+    "identifier" : "urn:oid:1.2.250.1.213.3.3.262",
+    "status" : "active",
+    "codeProperty" : "dateValid",
+    "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
+    "typeProperty" : "dateTime",
+    "descriptionProperty" : "date de validité d'un code concept"
+  },
+  {
+    "id" : "tre-r408-situation-scolaire",
+    "name" : "TreR408SituationScolaire",
+    "title" : "Tre R408 Situation Scolaire",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-situation-scolaire",
+    "identifier" : "urn:oid:1.2.250.1.213.3.3.262",
+    "status" : "active",
+    "codeProperty" : "dateMaj",
+    "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
+    "typeProperty" : "dateTime",
+    "descriptionProperty" : "Date de mise à jour d'un code concept"
+  },
+  {
+    "id" : "tre-r408-situation-scolaire",
+    "name" : "TreR408SituationScolaire",
+    "title" : "Tre R408 Situation Scolaire",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-situation-scolaire",
+    "identifier" : "urn:oid:1.2.250.1.213.3.3.262",
+    "status" : "active",
+    "codeProperty" : "dateFin",
+    "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
+    "typeProperty" : "dateTime",
+    "descriptionProperty" : "Date de fin d'exploitation d'un code concept"
+  },
+  {
+    "id" : "tre-r408-situation-scolaire",
+    "name" : "TreR408SituationScolaire",
+    "title" : "Tre R408 Situation Scolaire",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-situation-scolaire",
+    "identifier" : "urn:oid:1.2.250.1.213.3.3.262",
+    "status" : "active",
+    "codeProperty" : "status",
+    "uriProperty" : "http://hl7.org/fhir/concept-properties#status",
+    "typeProperty" : "code",
+    "descriptionProperty" : "Statut d'un code concept"
+  },
+  {
+    "id" : "tre-r408-situation-scolaire",
+    "name" : "TreR408SituationScolaire",
+    "title" : "Tre R408 Situation Scolaire",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-situation-scolaire",
+    "identifier" : "urn:oid:1.2.250.1.213.3.3.262",
+    "status" : "active",
+    "codeProperty" : "deprecationDate",
+    "uriProperty" : "http://hl7.org/fhir/concept-properties#deprecationDate",
+    "typeProperty" : "dateTime",
+    "descriptionProperty" : "Date de dépréciation du code"
+  },
+  {
+    "id" : "tre-r408-situation-scolaire",
+    "name" : "TreR408SituationScolaire",
+    "title" : "Tre R408 Situation Scolaire",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-situation-scolaire",
+    "identifier" : "urn:oid:1.2.250.1.213.3.3.262",
+    "status" : "active",
+    "codeProperty" : "retirementDate",
+    "uriProperty" : "http://hl7.org/fhir/concept-properties#retirementDate",
+    "typeProperty" : "dateTime",
+    "descriptionProperty" : "Date de retrait du code"
+  },
+  {
     "id" : "terminologie-atc",
     "name" : "ATC",
     "title" : "Classification anatomique, thérapeutique et chimique",
@@ -6967,7 +7039,7 @@
     "identifier" : "urn:oid:1.2.250.1.213.2.23",
     "status" : "active",
     "codeProperty" : "dateValid",
-    "uriProperty" : null,
+    "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
     "typeProperty" : "dateTime",
     "descriptionProperty" : "date de validité d'un code concept"
   },
@@ -6979,7 +7051,7 @@
     "identifier" : "urn:oid:1.2.250.1.213.2.23",
     "status" : "active",
     "codeProperty" : "dateMaj",
-    "uriProperty" : null,
+    "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
     "typeProperty" : "dateTime",
     "descriptionProperty" : "Date de mise à jour d'un code concept"
   },
@@ -6991,9 +7063,45 @@
     "identifier" : "urn:oid:1.2.250.1.213.2.23",
     "status" : "active",
     "codeProperty" : "dateFin",
-    "uriProperty" : null,
+    "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
     "typeProperty" : "dateTime",
     "descriptionProperty" : "Date de fin d'exploitation d'un code concept"
+  },
+  {
+    "id" : "TRE-R13-CommuneOM",
+    "name" : "TRE_R13_CommuneOM",
+    "title" : null,
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R13-CommuneOM/FHIR/TRE-R13-CommuneOM",
+    "identifier" : "urn:oid:1.2.250.1.213.2.23",
+    "status" : "active",
+    "codeProperty" : "deprecationDate",
+    "uriProperty" : "http://hl7.org/fhir/concept-properties#deprecationDate",
+    "typeProperty" : "dateTime",
+    "descriptionProperty" : "Date Concept was deprecated"
+  },
+  {
+    "id" : "TRE-R13-CommuneOM",
+    "name" : "TRE_R13_CommuneOM",
+    "title" : null,
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R13-CommuneOM/FHIR/TRE-R13-CommuneOM",
+    "identifier" : "urn:oid:1.2.250.1.213.2.23",
+    "status" : "active",
+    "codeProperty" : "status",
+    "uriProperty" : "http://hl7.org/fhir/concept-properties#status",
+    "typeProperty" : "code",
+    "descriptionProperty" : "A property that indicates the status of the concept."
+  },
+  {
+    "id" : "TRE-R13-CommuneOM",
+    "name" : "TRE_R13_CommuneOM",
+    "title" : null,
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R13-CommuneOM/FHIR/TRE-R13-CommuneOM",
+    "identifier" : "urn:oid:1.2.250.1.213.2.23",
+    "status" : "active",
+    "codeProperty" : "retirementDate",
+    "uriProperty" : "http://hl7.org/fhir/concept-properties#retirementDate",
+    "typeProperty" : "dateTime",
+    "descriptionProperty" : "Date Concept was retired"
   },
   {
     "id" : "TRE-R14-TypeDiplome",

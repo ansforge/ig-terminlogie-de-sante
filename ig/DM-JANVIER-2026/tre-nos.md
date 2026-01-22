@@ -16,6 +16,7 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TreR393TypeContratSejour](CodeSystem-tre-r393-type-contrat-sejour.md) | Type de contrat conclu entre l’établissement/service et la personne/son représentant légal lors de son entrée en établissement | 21/05/2025 |
 | [TreR394CompetenceMetier](CodeSystem-tre-r394-competence-metier.md) | Type de savoir-faire opérationnel, transversal ou spécifique, acquis et exercé à titre non exclusif dans le cadre d’une activité professionnelle reconnue. | 25/06/2025 |
 | [TreR407CompositionFoyer](CodeSystem-tre-r407-composition-foyer.md) | Désigne avec qui vit l’usager dans son logement. | 02/02/2026 |
+| [TreR408SituationScolaire](CodeSystem-tre-r408-situation-scolaire.md) | Niveau ou situation scolaire de l'usager. | 02/02/2026 |
 | [TRE_A00_ProducteurDocNonPS](CodeSystem-TRE-A00-ProducteurDocNonPS.md) | Producteur de document non PS | 29/03/2024 |
 | [TRE_A01_CadreExercice](CodeSystem-TRE-A01-CadreExercice.md) | Cadre d'exercice | 27/09/2024 |
 | [TRE_A02_ProfessionSavFaire_CISIS](CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.md) | Profession et savoir-faire CI-SIS | 02/02/2026 |
@@ -56,7 +57,7 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R09_CategorieProfessionnelle](CodeSystem-TRE-R09-CategorieProfessionnelle.md) | Catégorie professionnelle | 26/04/2024 |
 | [TRE_R10_SexeAdministratif](CodeSystem-TRE-R10-SexeAdministratif.md) | Sexe administratif | 15/12/2023 |
 | [TRE_R11_CiviliteExercice](CodeSystem-TRE-R11-CiviliteExercice.md) | Civilité d'exercice | 15/12/2023 |
-| [TRE_R13_CommuneOM](CodeSystem-TRE-R13-CommuneOM.md) |  | 28/06/2024 |
+| [TRE_R13_CommuneOM](CodeSystem-TRE-R13-CommuneOM.md) |  | 28/03/2025 |
 | [TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md) | Type de diplôme | 29/03/2024 |
 | [TRE_R16_LieuFormation](CodeSystem-TRE-R16-LieuFormation.md) | Lieu de formation | 22/12/2025 |
 | [TRE_R17_TypeAutorisation](CodeSystem-TRE-R17-TypeAutorisation.md) | Type d'autorisation | 23/05/2025 |

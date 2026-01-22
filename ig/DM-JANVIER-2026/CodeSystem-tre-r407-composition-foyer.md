@@ -238,7 +238,7 @@ Désigne avec qui vit l’usager dans son logement.
     },
     {
       "code" : "8",
-      "display" : "Avec d'autres types de personnes ",
+      "display" : "Avec d'autres types de personnes",
       "property" : [
         {
           "code" : "dateValid",

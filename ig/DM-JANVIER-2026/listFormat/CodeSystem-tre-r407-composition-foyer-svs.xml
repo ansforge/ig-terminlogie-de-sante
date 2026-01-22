@@ -78,9 +78,9 @@
                   dateFin=""
                   dateMaj="20260202120000"
                   dateValid="20260202120000"
-                  displayName="Avec d'autres types de personnes "
-                  longDesignation="Avec d'autres types de personnes "
-                  shortDesignation="Avec d'autres types de personnes "
+                  displayName="Avec d'autres types de personnes"
+                  longDesignation="Avec d'autres types de personnes"
+                  shortDesignation="Avec d'autres types de personnes"
                   descriptionMetier=""/>
       </ConceptList>
    </ValueSet>

@@ -240,6 +240,14 @@
     "status" : "active"
   },
   {
+    "id" : "tre-r408-situation-scolaire",
+    "name" : "TreR408SituationScolaire",
+    "title" : "Tre R408 Situation Scolaire",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-situation-scolaire",
+    "identifier" : "urn:oid:1.2.250.1.213.3.3.262",
+    "status" : "active"
+  },
+  {
     "id" : "v3-SpecimenType-supplement-fr",
     "name" : "V3SpecimenTypeSupplementFr",
     "title" : "V3SpecimenTypeSupplementFr",

@@ -5981,6 +5981,19 @@
       "sources" : ["1.2.250.1.213.3.4.228"]
     },
     {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j386-situation-scolaire-ms",
+      "version" : "20260202120000",
+      "status" : "active",
+      "name" : "JdvJ386SituationScolaireMs",
+      "title" : "Jdv J386 Situation Scolaire Ms",
+      "description" : "Niveau ou situation scolaire de l'usager.",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-situation-scolaire"
+      ],
+      "oids" : ["1.2.250.1.213.3.4.229"],
+      "sources" : ["1.2.250.1.213.3.4.229"]
+    },
+    {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-jour-semaine-cisis",
       "version" : "20250624152100",
       "status" : "active",

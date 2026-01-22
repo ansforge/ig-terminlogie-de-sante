@@ -2890,7 +2890,7 @@
     "id" : "TRE-R13-CommuneOM",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R13-CommuneOM/FHIR/TRE-R13-CommuneOM",
-    "version" : "20240628120000",
+    "version" : "20250328120000",
     "name" : "TRE_R13_CommuneOM",
     "oids" : ["1.2.250.1.213.2.23"]
   },
@@ -4776,6 +4776,14 @@
     "oids" : ["1.2.250.1.213.3.3.261"]
   },
   {
+    "id" : "tre-r408-situation-scolaire",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-situation-scolaire",
+    "version" : "20260202120000",
+    "name" : "TreR408SituationScolaire",
+    "oids" : ["1.2.250.1.213.3.3.262"]
+  },
+  {
     "id" : "specimenType-supplement-fr",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/v2-0487-supplement-fr",
@@ -6393,6 +6401,14 @@
     "version" : "20260202120000",
     "name" : "JdvJ385CompositionFoyerMs",
     "oids" : ["1.2.250.1.213.3.4.228"]
+  },
+  {
+    "id" : "jdv-j386-situation-scolaire-ms",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j386-situation-scolaire-ms",
+    "version" : "20260202120000",
+    "name" : "JdvJ386SituationScolaireMs",
+    "oids" : ["1.2.250.1.213.3.4.229"]
   },
   {
     "id" : "jdv-jour-semaine-cisis",

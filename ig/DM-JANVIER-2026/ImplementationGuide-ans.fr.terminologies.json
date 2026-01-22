@@ -10,7 +10,7 @@
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2026-01-21T07:53:06+00:00",
+  "date" : "2026-01-22T15:26:15+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -27645,6 +27645,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-j386-situation-scolaire-ms"
+      },
+      "name" : "Jdv J386 Situation Scolaire Ms",
+      "description" : "Niveau ou situation scolaire de l'usager.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/JDV-J69-ActiviteOperationnelle-Santefr"
       },
       "name" : "JDV J69 ActiviteOperationnelle Santefr",
@@ -34783,6 +34795,18 @@
       },
       "name" : "Tre R407 Composition Foyer",
       "description" : "Désigne avec qui vit l’usager dans son logement.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r408-situation-scolaire"
+      },
+      "name" : "Tre R408 Situation Scolaire",
+      "description" : "Niveau ou situation scolaire de l'usager.",
       "exampleBoolean" : false
     },
     {
