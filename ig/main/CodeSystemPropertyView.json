@@ -6595,7 +6595,7 @@
     "identifier" : "urn:oid:1.2.250.1.213.2.23",
     "status" : "active",
     "codeProperty" : "dateValid",
-    "uriProperty" : null,
+    "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
     "typeProperty" : "dateTime",
     "descriptionProperty" : "date de validité d'un code concept"
   },
@@ -6607,7 +6607,7 @@
     "identifier" : "urn:oid:1.2.250.1.213.2.23",
     "status" : "active",
     "codeProperty" : "dateMaj",
-    "uriProperty" : null,
+    "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
     "typeProperty" : "dateTime",
     "descriptionProperty" : "Date de mise à jour d'un code concept"
   },
@@ -6619,9 +6619,45 @@
     "identifier" : "urn:oid:1.2.250.1.213.2.23",
     "status" : "active",
     "codeProperty" : "dateFin",
-    "uriProperty" : null,
+    "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
     "typeProperty" : "dateTime",
     "descriptionProperty" : "Date de fin d'exploitation d'un code concept"
+  },
+  {
+    "id" : "TRE-R13-CommuneOM",
+    "name" : "TRE_R13_CommuneOM",
+    "title" : null,
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R13-CommuneOM/FHIR/TRE-R13-CommuneOM",
+    "identifier" : "urn:oid:1.2.250.1.213.2.23",
+    "status" : "active",
+    "codeProperty" : "deprecationDate",
+    "uriProperty" : "http://hl7.org/fhir/concept-properties#deprecationDate",
+    "typeProperty" : "dateTime",
+    "descriptionProperty" : "Date Concept was deprecated"
+  },
+  {
+    "id" : "TRE-R13-CommuneOM",
+    "name" : "TRE_R13_CommuneOM",
+    "title" : null,
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R13-CommuneOM/FHIR/TRE-R13-CommuneOM",
+    "identifier" : "urn:oid:1.2.250.1.213.2.23",
+    "status" : "active",
+    "codeProperty" : "status",
+    "uriProperty" : "http://hl7.org/fhir/concept-properties#status",
+    "typeProperty" : "code",
+    "descriptionProperty" : "A property that indicates the status of the concept."
+  },
+  {
+    "id" : "TRE-R13-CommuneOM",
+    "name" : "TRE_R13_CommuneOM",
+    "title" : null,
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R13-CommuneOM/FHIR/TRE-R13-CommuneOM",
+    "identifier" : "urn:oid:1.2.250.1.213.2.23",
+    "status" : "active",
+    "codeProperty" : "retirementDate",
+    "uriProperty" : "http://hl7.org/fhir/concept-properties#retirementDate",
+    "typeProperty" : "dateTime",
+    "descriptionProperty" : "Date Concept was retired"
   },
   {
     "id" : "TRE-R14-TypeDiplome",

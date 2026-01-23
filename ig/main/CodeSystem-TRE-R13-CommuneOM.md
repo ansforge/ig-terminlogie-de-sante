@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R13-CommuneOM/FHIR/TRE-R13-CommuneOM | *Version*:20240628120000 | |
-| Active as of 2024-06-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R13_CommuneOM |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R13-CommuneOM/FHIR/TRE-R13-CommuneOM | *Version*:20250328120000 | |
+| Active as of 2025-03-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R13_CommuneOM |
 | *Other Identifiers:*OID:1.2.250.1.213.2.23 | | |
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
@@ -26,8 +26,8 @@
   "resourceType" : "CodeSystem",
   "id" : "TRE-R13-CommuneOM",
   "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2025-01-10T13:09:36.586+00:00",
+    "versionId" : "2",
+    "lastUpdated" : "2026-01-22T14:21:38.912+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ],
@@ -46,11 +46,11 @@
       "value" : "urn:oid:1.2.250.1.213.2.23"
     }
   ],
-  "version" : "20240628120000",
+  "version" : "20250328120000",
   "name" : "TRE_R13_CommuneOM",
   "status" : "active",
   "experimental" : false,
-  "date" : "2024-06-28T12:00:00+01:00",
+  "date" : "2025-03-28T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "jurisdiction" : [
     {
@@ -67,17 +67,38 @@
   "property" : [
     {
       "code" : "dateValid",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
       "description" : "date de validité d'un code concept",
       "type" : "dateTime"
     },
     {
       "code" : "dateMaj",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
       "description" : "Date de mise à jour d'un code concept",
       "type" : "dateTime"
     },
     {
       "code" : "dateFin",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
       "description" : "Date de fin d'exploitation d'un code concept",
+      "type" : "dateTime"
+    },
+    {
+      "code" : "deprecationDate",
+      "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
+      "description" : "Date Concept was deprecated",
+      "type" : "dateTime"
+    },
+    {
+      "code" : "status",
+      "uri" : "http://hl7.org/fhir/concept-properties#status",
+      "description" : "A property that indicates the status of the concept.",
+      "type" : "code"
+    },
+    {
+      "code" : "retirementDate",
+      "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
+      "description" : "Date Concept was retired",
       "type" : "dateTime"
     }
   ]

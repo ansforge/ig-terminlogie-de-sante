@@ -10,8 +10,8 @@
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "alignement-nuva-cipucd"] ; # 
   fhir:meta [
-     fhir:versionId [ fhir:v "18" ] ;
-     fhir:lastUpdated [ fhir:v "2026-01-07T14:28:09.013+01:00"^^xsd:dateTime ] ;
+     fhir:versionId [ fhir:v "19" ] ;
+     fhir:lastUpdated [ fhir:v "2026-01-22T10:17:22.116+01:00"^^xsd:dateTime ] ;
      fhir:tag ( [
        fhir:system [
          fhir:v "http://terminology.hl7.org/CodeSystem/v3-ObservationValue"^^xsd:anyURI ;
@@ -23,7 +23,7 @@
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CarteDeConcepts alignement-nuva-cipucd</b></p><a name=\"alignement-nuva-cipucd\"> </a><a name=\"hcalignement-nuva-cipucd\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 18; Dernière mise à jour : 2026-01-07 14:28:09+0100</p><p style=\"margin-bottom: 0px\">Balise: Resource encoded in summary mode (Détails : code ObservationValue SUBSETTED = 'Resource encoded in summary mode')</p></div><p>Mapping de <a href=\"ValueSet-vs-nuva-all.html\">ValueSet_NUVA_All</a> vers <a href=\"ValueSet-vs-cipucd-all.html\">ValueSet_CIPUCD_All</a></p><br/></div>"^^rdf:XMLLiteral ]
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CarteDeConcepts alignement-nuva-cipucd</b></p><a name=\"alignement-nuva-cipucd\"> </a><a name=\"hcalignement-nuva-cipucd\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 19; Dernière mise à jour : 2026-01-22 10:17:22+0100</p><p style=\"margin-bottom: 0px\">Balise: Resource encoded in summary mode (Détails : code ObservationValue SUBSETTED = 'Resource encoded in summary mode')</p></div><p>Mapping de <a href=\"ValueSet-vs-nuva-all.html\">ValueSet_NUVA_All</a> vers <a href=\"ValueSet-vs-cipucd-all.html\">ValueSet_CIPUCD_All</a></p><br/></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:url [
      fhir:v "https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-cipucd"^^xsd:anyURI ;
