@@ -1,7 +1,7 @@
 ValueSet: JdvJ387RoleParticipantMs
 Id: jdv-j387-role-participant-ms
 Title: "Jdv J387 Role Participant Ms"
-Description: "Niveau ou situation scolaire de l'usager."
+Description: "Rôle du participant vis à vis de l'événement (mandataire judiciaire, structure en charge de l'événement)."
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2026-02-02T12:00:00.000+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
