@@ -36,6 +36,7 @@ Cadre d’exercice
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
+  "language" : "fr-FR",
   "extension" : [
     {
       "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -70,19 +71,23 @@ Cadre d’exercice
   ],
   "caseSensitive" : false,
   "content" : "complete",
+  "count" : 10,
   "property" : [
     {
       "code" : "dateValid",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
       "description" : "date de validité d'un code concept",
       "type" : "dateTime"
     },
     {
       "code" : "dateMaj",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
       "description" : "Date de mise à jour d'un code concept",
       "type" : "dateTime"
     },
     {
       "code" : "dateFin",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
       "description" : "Date de fin d'exploitation d'un code concept",
       "type" : "dateTime"
     },

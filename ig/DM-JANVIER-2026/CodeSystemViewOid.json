@@ -96,6 +96,14 @@
     "status" : "draft"
   },
   {
+    "id" : "TRE-A01-CadreExercice",
+    "name" : "TRE_A01_CadreExercice",
+    "title" : null,
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_A01-CadreExercice/FHIR/TRE-A01-CadreExercice",
+    "identifier" : "urn:oid:1.2.250.1.213.1.1.4.9",
+    "status" : "active"
+  },
+  {
     "id" : "TRE-A02-ProfessionSavFaire-CISIS",
     "name" : "TRE_A02_ProfessionSavFaire_CISIS",
     "title" : null,
@@ -573,14 +581,6 @@
     "title" : null,
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_A00-ProducteurDocNonPS/FHIR/TRE-A00-ProducteurDocNonPS",
     "identifier" : "urn:oid:1.2.250.1.213.1.1.4.6",
-    "status" : "active"
-  },
-  {
-    "id" : "TRE-A01-CadreExercice",
-    "name" : "TRE_A01_CadreExercice",
-    "title" : null,
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_A01-CadreExercice/FHIR/TRE-A01-CadreExercice",
-    "identifier" : "urn:oid:1.2.250.1.213.1.1.4.9",
     "status" : "active"
   },
   {
