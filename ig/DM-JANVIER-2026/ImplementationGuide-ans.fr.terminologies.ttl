@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "Terminologies"] ; # 
   fhir:title [ fhir:v "Terminologies  de Santé"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2026-01-22T15:26:15+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-01-23T09:45:25+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -59005,10 +59005,31 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j386-situation-scolaire-ms> ;
-         fhir:reference [ fhir:v "ValueSet/jdv-j386-situation-scolaire-ms" ]
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j386-type-enseignement-specialise-ms> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j386-type-enseignement-specialise-ms" ]
        ] ;
-       fhir:name [ fhir:v "Jdv J386 Situation Scolaire Ms" ] ;
+       fhir:name [ fhir:v "Jdv J386 Type Enseignement Specialise Ms" ] ;
+       fhir:description [ fhir:v "Niveau ou situation scolaire de l'usager." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j387-role-participant-ms> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j387-role-participant-ms" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J387 Role Participant Ms" ] ;
        fhir:description [ fhir:v "Niveau ou situation scolaire de l'usager." ] ;
        fhir:example [
          a fhir:Boolean ;
@@ -71536,10 +71557,10 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r408-situation-scolaire> ;
-         fhir:reference [ fhir:v "CodeSystem/tre-r408-situation-scolaire" ]
+         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r408-type-enseignement-specialise> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r408-type-enseignement-specialise" ]
        ] ;
-       fhir:name [ fhir:v "Tre R408 Situation Scolaire" ] ;
+       fhir:name [ fhir:v "Tre R408 Type Enseignement Specialise" ] ;
        fhir:description [ fhir:v "Niveau ou situation scolaire de l'usager." ] ;
        fhir:example [
          a fhir:Boolean ;

@@ -726,7 +726,8 @@ These define sets of codes used by systems conforming to this implementation gui
 | [Jdv J383 Motif Cloture Exercice Professionnel Epars](ValueSet-jdv-j383-motif-cloture-exercice-professionnel-epars.md) | Ce jeu de valeur liste les différents motifs qui peuvent justifier la clôture d’un exercice professionnel. |
 | [Jdv J384 Role Membre Famille Ms](ValueSet-jdv-j384-role-membre-famille-ms.md) | Rôle d’un membre de la famille ou d’un proche de l’usager. |
 | [Jdv J385 Composition Foyer Ms](ValueSet-jdv-j385-composition-foyer-ms.md) | Désigne avec qui vit l’usager dans son logement. |
-| [Jdv J386 Situation Scolaire Ms](ValueSet-jdv-j386-situation-scolaire-ms.md) | Niveau ou situation scolaire de l’usager. |
+| [Jdv J386 Type Enseignement Specialise Ms](ValueSet-jdv-j386-type-enseignement-specialise-ms.md) | Niveau ou situation scolaire de l’usager. |
+| [Jdv J387 Role Participant Ms](ValueSet-jdv-j387-role-participant-ms.md) | Niveau ou situation scolaire de l’usager. |
 | [Jdv Mediatype Corps Cda Non Structure CISIS](ValueSet-jdv-mediatype-corps-cda-non-structure-cisis.md) | Jdv Mediatype Corps Cda Non Structure CISIS |
 | [Jdv Modele Document CDA CISIS](ValueSet-jdv-modele-document-cda-cisis.md) | Jdv Modele Document CDA CISIS |
 | [Jdv Modele Document CDA Non Structure CISIS](ValueSet-jdv-modele-document-cda-non-structure-cisis.md) | Jdv Modele Document CDA Non Structure CISIS |
@@ -1084,7 +1085,7 @@ These define new code systems used by systems conforming to this implementation 
 | [Tre R393 Type Contrat Sejour](CodeSystem-tre-r393-type-contrat-sejour.md) | Type de contrat conclu entre l’établissement/service et la personne/son représentant légal lors de son entrée en établissement |
 | [Tre R394 Competence Metier](CodeSystem-tre-r394-competence-metier.md) | Type de savoir-faire opérationnel, transversal ou spécifique, acquis et exercé à titre non exclusif dans le cadre d’une activité professionnelle reconnue. |
 | [Tre R407 Composition Foyer](CodeSystem-tre-r407-composition-foyer.md) | Désigne avec qui vit l’usager dans son logement. |
-| [Tre R408 Situation Scolaire](CodeSystem-tre-r408-situation-scolaire.md) | Niveau ou situation scolaire de l’usager. |
+| [Tre R408 Type Enseignement Specialise](CodeSystem-tre-r408-type-enseignement-specialise.md) | Niveau ou situation scolaire de l’usager. |
 | [V3SpecimenTypeSupplementFr](CodeSystem-v3-SpecimenType-supplement-fr.md) | Traduction Française |
 | [employmentStatus](CodeSystem-v2-0066.md) | HL7-defined code system of concepts which specify an employment status of a person. Used in HL7 Version 2 messaging in the GT1 segment. |
 | [specimenCollectionMethod](CodeSystem-v2-0488.md) | HL7-defined code system of concepts specifying the specimen collection method. Used in HL7 Version 2.x messaging in the SPM segment. |

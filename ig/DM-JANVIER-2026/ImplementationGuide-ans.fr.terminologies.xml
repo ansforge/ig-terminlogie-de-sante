@@ -11,7 +11,7 @@
   <name value="Terminologies"/>
   <title value="Terminologies  de Santé"/>
   <status value="active"/>
-  <date value="2026-01-22T15:26:15+00:00"/>
+  <date value="2026-01-23T09:45:25+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -20678,9 +20678,20 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/jdv-j386-situation-scolaire-ms"/>
+        <reference value="ValueSet/jdv-j386-type-enseignement-specialise-ms"/>
       </reference>
-      <name value="Jdv J386 Situation Scolaire Ms"/>
+      <name value="Jdv J386 Type Enseignement Specialise Ms"/>
+      <description value="Niveau ou situation scolaire de l'usager."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j387-role-participant-ms"/>
+      </reference>
+      <name value="Jdv J387 Role Participant Ms"/>
       <description value="Niveau ou situation scolaire de l'usager."/>
       <exampleBoolean value="false"/>
     </resource>
@@ -27239,9 +27250,9 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/tre-r408-situation-scolaire"/>
+        <reference value="CodeSystem/tre-r408-type-enseignement-specialise"/>
       </reference>
-      <name value="Tre R408 Situation Scolaire"/>
+      <name value="Tre R408 Type Enseignement Specialise"/>
       <description value="Niveau ou situation scolaire de l'usager."/>
       <exampleBoolean value="false"/>
     </resource>

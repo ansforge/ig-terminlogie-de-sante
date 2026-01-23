@@ -240,10 +240,10 @@
     "status" : "active"
   },
   {
-    "id" : "tre-r408-situation-scolaire",
-    "name" : "TreR408SituationScolaire",
-    "title" : "Tre R408 Situation Scolaire",
-    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-situation-scolaire",
+    "id" : "tre-r408-type-enseignement-specialise",
+    "name" : "TreR408TypeEnseignementSpecialise",
+    "title" : "Tre R408 Type Enseignement Specialise",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise",
     "identifier" : "urn:oid:1.2.250.1.213.3.3.262",
     "status" : "active"
   },

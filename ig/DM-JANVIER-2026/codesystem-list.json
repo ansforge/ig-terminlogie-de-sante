@@ -2724,11 +2724,11 @@
       "oids" : ["1.2.250.1.213.3.3.261"]
     },
     {
-      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-situation-scolaire",
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise",
       "version" : "20260202120000",
       "status" : "active",
-      "name" : "TreR408SituationScolaire",
-      "title" : "Tre R408 Situation Scolaire",
+      "name" : "TreR408TypeEnseignementSpecialise",
+      "title" : "Tre R408 Type Enseignement Specialise",
       "description" : "Niveau ou situation scolaire de l'usager.",
       "oids" : ["1.2.250.1.213.3.3.262"]
     },

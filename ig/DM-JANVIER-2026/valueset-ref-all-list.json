@@ -6041,17 +6041,31 @@
       "sources" : ["1.2.250.1.213.3.4.228"]
     },
     {
-      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j386-situation-scolaire-ms",
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j386-type-enseignement-specialise-ms",
       "version" : "20260202120000",
       "status" : "active",
-      "name" : "JdvJ386SituationScolaireMs",
-      "title" : "Jdv J386 Situation Scolaire Ms",
+      "name" : "JdvJ386TypeEnseignementSpecialiseMs",
+      "title" : "Jdv J386 Type Enseignement Specialise Ms",
       "description" : "Niveau ou situation scolaire de l'usager.",
       "systems" : [
-        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-situation-scolaire"
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/r408-type-enseignement-specialise"
       ],
       "oids" : ["1.2.250.1.213.3.4.229"],
       "sources" : ["1.2.250.1.213.3.4.229"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j387-role-participant-ms",
+      "version" : "20260202120000",
+      "status" : "active",
+      "name" : "JdvJ387RoleParticipantMs",
+      "title" : "Jdv J387 Role Participant Ms",
+      "description" : "Niveau ou situation scolaire de l'usager.",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge",
+        "https://mos.esante.gouv.fr/NOS/TRE_A01-CadreExercice/FHIR/TRE-A01-CadreExercice"
+      ],
+      "oids" : ["1.2.250.1.213.3.4.230"],
+      "sources" : ["1.2.250.1.213.3.4.230"]
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-jour-semaine-cisis",
@@ -9548,8 +9562,8 @@
       "systems" : ["https://smt.esante.gouv.fr/terminologie-cip_ucd"],
       "uses" : {
       },
-      "ConceptMap-alignement-nuva-cipucd.html" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD",
-      "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD"
+      "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD",
+      "ConceptMap-alignement-nuva-cipucd.html" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD"
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-nuva?vs",
@@ -9561,8 +9575,8 @@
       "systems" : ["https://smt.esante.gouv.fr/terminologie-nuva"],
       "uses" : {
       },
-      "ConceptMap-alignement-nuva-cipucd.html" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD",
-      "ConceptMap-alignement-nuva-bdpm.html" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM"
+      "ConceptMap-alignement-nuva-bdpm.html" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM",
+      "ConceptMap-alignement-nuva-cipucd.html" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD"
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-sms?vs",

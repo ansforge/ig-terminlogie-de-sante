@@ -16,7 +16,7 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TreR393TypeContratSejour](CodeSystem-tre-r393-type-contrat-sejour.md) | Type de contrat conclu entre l’établissement/service et la personne/son représentant légal lors de son entrée en établissement | 21/05/2025 |
 | [TreR394CompetenceMetier](CodeSystem-tre-r394-competence-metier.md) | Type de savoir-faire opérationnel, transversal ou spécifique, acquis et exercé à titre non exclusif dans le cadre d’une activité professionnelle reconnue. | 25/06/2025 |
 | [TreR407CompositionFoyer](CodeSystem-tre-r407-composition-foyer.md) | Désigne avec qui vit l’usager dans son logement. | 02/02/2026 |
-| [TreR408SituationScolaire](CodeSystem-tre-r408-situation-scolaire.md) | Niveau ou situation scolaire de l'usager. | 02/02/2026 |
+| [TreR408TypeEnseignementSpecialise](CodeSystem-tre-r408-type-enseignement-specialise.md) | Niveau ou situation scolaire de l'usager. | 02/02/2026 |
 | [TRE_A00_ProducteurDocNonPS](CodeSystem-TRE-A00-ProducteurDocNonPS.md) | Producteur de document non PS | 29/03/2024 |
 | [TRE_A01_CadreExercice](CodeSystem-TRE-A01-CadreExercice.md) | Cadre d'exercice | 27/09/2024 |
 | [TRE_A02_ProfessionSavFaire_CISIS](CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.md) | Profession et savoir-faire CI-SIS | 02/02/2026 |

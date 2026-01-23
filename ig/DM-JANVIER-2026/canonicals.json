@@ -4776,11 +4776,11 @@
     "oids" : ["1.2.250.1.213.3.3.261"]
   },
   {
-    "id" : "tre-r408-situation-scolaire",
+    "id" : "tre-r408-type-enseignement-specialise",
     "type" : "CodeSystem",
-    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-situation-scolaire",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise",
     "version" : "20260202120000",
-    "name" : "TreR408SituationScolaire",
+    "name" : "TreR408TypeEnseignementSpecialise",
     "oids" : ["1.2.250.1.213.3.3.262"]
   },
   {
@@ -6403,12 +6403,20 @@
     "oids" : ["1.2.250.1.213.3.4.228"]
   },
   {
-    "id" : "jdv-j386-situation-scolaire-ms",
+    "id" : "jdv-j386-type-enseignement-specialise-ms",
     "type" : "ValueSet",
-    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j386-situation-scolaire-ms",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j386-type-enseignement-specialise-ms",
     "version" : "20260202120000",
-    "name" : "JdvJ386SituationScolaireMs",
+    "name" : "JdvJ386TypeEnseignementSpecialiseMs",
     "oids" : ["1.2.250.1.213.3.4.229"]
+  },
+  {
+    "id" : "jdv-j387-role-participant-ms",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j387-role-participant-ms",
+    "version" : "20260202120000",
+    "name" : "JdvJ387RoleParticipantMs",
+    "oids" : ["1.2.250.1.213.3.4.230"]
   },
   {
     "id" : "jdv-jour-semaine-cisis",
