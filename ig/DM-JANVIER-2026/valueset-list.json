@@ -5988,7 +5988,7 @@
       "title" : "Jdv J386 Type Enseignement Specialise Ms",
       "description" : "Niveau ou situation scolaire de l'usager.",
       "systems" : [
-        "https://smt.esante.gouv.fr/fhir/CodeSystem/r408-type-enseignement-specialise"
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise"
       ],
       "oids" : ["1.2.250.1.213.3.4.229"],
       "sources" : ["1.2.250.1.213.3.4.229"]
