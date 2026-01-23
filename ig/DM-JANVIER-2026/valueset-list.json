@@ -5999,7 +5999,7 @@
       "status" : "active",
       "name" : "JdvJ387RoleParticipantMs",
       "title" : "Jdv J387 Role Participant Ms",
-      "description" : "Niveau ou situation scolaire de l'usager.",
+      "description" : "Rôle du participant vis à vis de l'événement (mandataire judiciaire, structure en charge de l'événement).",
       "systems" : [
         "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge",
         "https://mos.esante.gouv.fr/NOS/TRE_A01-CadreExercice/FHIR/TRE-A01-CadreExercice"

@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "Terminologies"] ; # 
   fhir:title [ fhir:v "Terminologies  de Santé"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2026-01-23T11:21:14+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-01-23T13:36:24+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -59030,7 +59030,7 @@
          fhir:reference [ fhir:v "ValueSet/jdv-j387-role-participant-ms" ]
        ] ;
        fhir:name [ fhir:v "Jdv J387 Role Participant Ms" ] ;
-       fhir:description [ fhir:v "Niveau ou situation scolaire de l'usager." ] ;
+       fhir:description [ fhir:v "Rôle du participant vis à vis de l'événement (mandataire judiciaire, structure en charge de l'événement)." ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false

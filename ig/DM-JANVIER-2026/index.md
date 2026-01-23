@@ -238,7 +238,7 @@ Ceci est un IG R4. Aucune des fonctionnalités quil utilise nest modifiée dans 
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2026-01-23T11:21:14+00:00",
+  "date" : "2026-01-23T13:36:24+00:00",
   "publisher" : "ANS",
   "contact" : [
     {
@@ -32877,7 +32877,7 @@ Ceci est un IG R4. Aucune des fonctionnalités quil utilise nest modifiée dans 
           "reference" : "ValueSet/jdv-j387-role-participant-ms"
         },
         "name" : "Jdv J387 Role Participant Ms",
-        "description" : "Niveau ou situation scolaire de l'usager.",
+        "description" : "Rôle du participant vis à vis de l'événement (mandataire judiciaire, structure en charge de l'événement).",
         "exampleBoolean" : false
       },
       {

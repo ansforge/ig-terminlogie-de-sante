@@ -727,7 +727,7 @@ These define sets of codes used by systems conforming to this implementation gui
 | [Jdv J384 Role Membre Famille Ms](ValueSet-jdv-j384-role-membre-famille-ms.md) | Rôle d’un membre de la famille ou d’un proche de l’usager. |
 | [Jdv J385 Composition Foyer Ms](ValueSet-jdv-j385-composition-foyer-ms.md) | Désigne avec qui vit l’usager dans son logement. |
 | [Jdv J386 Type Enseignement Specialise Ms](ValueSet-jdv-j386-type-enseignement-specialise-ms.md) | Niveau ou situation scolaire de l’usager. |
-| [Jdv J387 Role Participant Ms](ValueSet-jdv-j387-role-participant-ms.md) | Niveau ou situation scolaire de l’usager. |
+| [Jdv J387 Role Participant Ms](ValueSet-jdv-j387-role-participant-ms.md) | Rôle du participant vis à vis de l’événement (mandataire judiciaire, structure en charge de l’événement). |
 | [Jdv Mediatype Corps Cda Non Structure CISIS](ValueSet-jdv-mediatype-corps-cda-non-structure-cisis.md) | Jdv Mediatype Corps Cda Non Structure CISIS |
 | [Jdv Modele Document CDA CISIS](ValueSet-jdv-modele-document-cda-cisis.md) | Jdv Modele Document CDA CISIS |
 | [Jdv Modele Document CDA Non Structure CISIS](ValueSet-jdv-modele-document-cda-non-structure-cisis.md) | Jdv Modele Document CDA Non Structure CISIS |
