@@ -1,6 +1,6 @@
-CodeSystem: TreR408SituationScolaire
-Id: tre-r408-situation-scolaire
-Title: "Tre R408 Situation Scolaire"
+CodeSystem: TreR408TypeEnseignementSpecialise
+Id: tre-r408-type-enseignement-specialise
+Title: "Tre R408 Type Enseignement Specialise"
 Description: "Niveau ou situation scolaire de l'usager."
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2026-02-02T10:02:20.124+00:00"
@@ -8,7 +8,7 @@ Description: "Niveau ou situation scolaire de l'usager."
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2026-02-02T12:00:00+01:00"
-* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-situation-scolaire"
+* ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.262"
 * ^version = "20260202120000"
