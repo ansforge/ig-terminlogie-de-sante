@@ -10,7 +10,7 @@
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2026-01-23T15:09:47+00:00",
+  "date" : "2026-01-26T14:09:15+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -27648,7 +27648,7 @@
         "reference" : "ValueSet/jdv-j386-type-enseignement-specialise-ms"
       },
       "name" : "Jdv J386 Type Enseignement Specialise Ms",
-      "description" : "Niveau ou situation scolaire de l'usager.",
+      "description" : "Type d'enseignement spécialisé.",
       "exampleBoolean" : false
     },
     {
@@ -34818,7 +34818,7 @@
         "reference" : "CodeSystem/tre-r408-type-enseignement-specialise"
       },
       "name" : "Tre R408 Type Enseignement Specialise",
-      "description" : "Niveau ou situation scolaire de l'usager.",
+      "description" : "Type d'enseignement spécialisé.",
       "exampleBoolean" : false
     },
     {

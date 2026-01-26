@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "Terminologies"] ; # 
   fhir:title [ fhir:v "Terminologies  de Santé"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2026-01-23T15:09:47+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-01-26T14:09:15+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -59009,7 +59009,7 @@
          fhir:reference [ fhir:v "ValueSet/jdv-j386-type-enseignement-specialise-ms" ]
        ] ;
        fhir:name [ fhir:v "Jdv J386 Type Enseignement Specialise Ms" ] ;
-       fhir:description [ fhir:v "Niveau ou situation scolaire de l'usager." ] ;
+       fhir:description [ fhir:v "Type d'enseignement spécialisé." ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -71561,7 +71561,7 @@
          fhir:reference [ fhir:v "CodeSystem/tre-r408-type-enseignement-specialise" ]
        ] ;
        fhir:name [ fhir:v "Tre R408 Type Enseignement Specialise" ] ;
-       fhir:description [ fhir:v "Niveau ou situation scolaire de l'usager." ] ;
+       fhir:description [ fhir:v "Type d'enseignement spécialisé." ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false

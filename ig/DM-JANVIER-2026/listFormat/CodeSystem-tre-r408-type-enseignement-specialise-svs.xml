@@ -4,7 +4,7 @@
    <ValueSet dateFin=""
              dateMaj="20260202120000"
              dateValid="20260202120000"
-             description="Niveau ou situation scolaire de l'usager."
+             description="Type d'enseignement spécialisé."
              displayName="TreR408TypeEnseignementSpecialise"
              id="1.2.250.1.213.3.3.262"
              typeFichier="TRE"

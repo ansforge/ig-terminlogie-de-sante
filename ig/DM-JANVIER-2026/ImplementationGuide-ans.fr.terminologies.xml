@@ -11,7 +11,7 @@
   <name value="Terminologies"/>
   <title value="Terminologies  de Santé"/>
   <status value="active"/>
-  <date value="2026-01-23T15:09:47+00:00"/>
+  <date value="2026-01-26T14:09:15+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -20681,7 +20681,7 @@
         <reference value="ValueSet/jdv-j386-type-enseignement-specialise-ms"/>
       </reference>
       <name value="Jdv J386 Type Enseignement Specialise Ms"/>
-      <description value="Niveau ou situation scolaire de l'usager."/>
+      <description value="Type d'enseignement spécialisé."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -27253,7 +27253,7 @@
         <reference value="CodeSystem/tre-r408-type-enseignement-specialise"/>
       </reference>
       <name value="Tre R408 Type Enseignement Specialise"/>
-      <description value="Niveau ou situation scolaire de l'usager."/>
+      <description value="Type d'enseignement spécialisé."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

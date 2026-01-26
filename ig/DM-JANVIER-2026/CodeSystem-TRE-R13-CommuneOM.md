@@ -26,8 +26,8 @@
   "resourceType" : "CodeSystem",
   "id" : "TRE-R13-CommuneOM",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2026-01-22T14:21:38.912+01:00",
+    "versionId" : "3",
+    "lastUpdated" : "2026-01-26T11:52:29.771+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ],
@@ -100,6 +100,12 @@
       "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
       "description" : "Date Concept was retired",
       "type" : "dateTime"
+    },
+    {
+      "code" : "departement",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#departement",
+      "description" : "Département  de la commune",
+      "type" : "Coding"
     }
   ]
 }

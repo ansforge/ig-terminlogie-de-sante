@@ -7104,6 +7104,18 @@
     "descriptionProperty" : "Date Concept was retired"
   },
   {
+    "id" : "TRE-R13-CommuneOM",
+    "name" : "TRE_R13_CommuneOM",
+    "title" : null,
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R13-CommuneOM/FHIR/TRE-R13-CommuneOM",
+    "identifier" : "urn:oid:1.2.250.1.213.2.23",
+    "status" : "active",
+    "codeProperty" : "departement",
+    "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#departement",
+    "typeProperty" : "Coding",
+    "descriptionProperty" : "Département  de la commune"
+  },
+  {
     "id" : "TRE-R14-TypeDiplome",
     "name" : "TRE_R14_TypeDiplome",
     "title" : null,

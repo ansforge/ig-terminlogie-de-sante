@@ -13,7 +13,7 @@
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.262 | | |
 
  
-Niveau ou situation scolaire de l’usager. 
+Type d’enseignement spécialisé. 
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
@@ -57,7 +57,7 @@ Niveau ou situation scolaire de l’usager.
   "experimental" : false,
   "date" : "2026-02-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description" : "Niveau ou situation scolaire de l'usager.",
+  "description" : "Type d'enseignement spécialisé.",
   "jurisdiction" : [
     {
       "coding" : [

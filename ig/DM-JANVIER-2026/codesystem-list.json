@@ -2729,7 +2729,7 @@
       "status" : "active",
       "name" : "TreR408TypeEnseignementSpecialise",
       "title" : "Tre R408 Type Enseignement Specialise",
-      "description" : "Niveau ou situation scolaire de l'usager.",
+      "description" : "Type d'enseignement spécialisé.",
       "oids" : ["1.2.250.1.213.3.3.262"]
     },
     {
