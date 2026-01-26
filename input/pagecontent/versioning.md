@@ -1,19 +1,73 @@
-### Source 
+# Gestion des versions des ValueSets
 
-Versions des systèmes de codage
+## Pourquoi versionner ?
 
-Les systèmes de codage évoluent au fil du temps. Les modifications sont dues à des corrections et des clarifications, à l'évolution de la compréhension des entités modélisées (par exemple, la découverte de nouveaux gènes et protéines), à la modification des entités modélisées (par exemple, l'émergence de nouveaux pays ou l'absorption d'anciens pays), ou à une évolution de l'évaluation de la pertinence de certaines entités au sein de la ressource de connaissances (par exemple, l'ajout de nouvelles relations parent-enfant aux codes existants dans SNOMED-CT). Selon le degré de conformité du système de codage aux bonnes pratiques lexicales, les changements de signification peuvent être importants. Il est donc essentiel de connaître la version d'un système de codage donné qui a été utilisée lors de la création des instances du modèle HL7, de l'enregistrement des données codées ou, dans certains cas, de la création des modèles HL7.
-
-Le modèle HL7 repose sur la constance de la signification d'un identifiant de concept spécifique au fil du temps, indépendamment de la version de la ressource de connaissances. Dans le cas général où la signification des codes reste inchangée au fil du temps (ou lorsque le changement de signification est suffisamment subtil pour être jugé négligeable par l'utilisateur quant à l'usage auquel le code est destiné), il n'est pas nécessaire d'indiquer la version du système de codage avec le code et le système lui-même. Lorsque la ressource de connaissances elle-même n'impose pas cette condition (par exemple, les anciennes versions de la CIM-9-CM, où des codes ont été retirés puis réutilisés pour représenter une autre entité), la version du système de codage à laquelle le code est associé doit être incluse dans le type de données HL7 contenant l'instance du code. Certains systèmes de codage subissent des modifications importantes au fil du temps ; pour ceux-ci, un nouveau système de codage a été désigné plutôt qu'une nouvelle version du même système. C'est le cas, par exemple, des codes de classification diagnostique allemands : la CIM-10-GM2009 n'est PAS une nouvelle version de la CIM-10-GM2008, mais un système de codage entièrement nouveau, avec sa propre numérotation de versions.
-
-Les systèmes de codage utilisent divers mécanismes pour indiquer une version particulière. Ces identifiants sont définis par l'auteur et/ou le distributeur du système de codage. La plupart utilisent un nombre ou un ensemble de nombres, tandis que d'autres peuvent utiliser des chaînes alphanumériques ou des dates. Il n'existe pas de représentation standard des identifiants de version adoptée par les auteurs de systèmes de codage. Tout identifiant de version pouvant être représenté dans un type de données chaîne HL7 peut être utilisé dans HL7. Lorsqu'un système de codage est enregistré auprès de THO ou du registre OID HL7 afin que sa conformité puisse être testée et/ou mesurée, l'enregistrement doit inclure des informations précises et détaillées sur la manière dont les versions du système de codage sont définies et identifiées. Ces informations doivent être suffisamment explicites pour garantir que les applications indépendantes enregistrant la version du système de codage utilisée pour capturer un élément de données particulier soient reconnues par les autres applications avec lesquelles elles échangent des informations. Les facteurs à prendre en compte incluent l'utilisation de majuscules et de minuscules, la présence et le type de séparateurs, l'utilisation de caractères de début, l'ordre des composants et, potentiellement, le jeu de caractères. Par exemple, « 02.5 » ne correspond pas à « 2-5 ». « 2001/03/05 » ne correspond pas à « 05-03-2001 », etc. L’enregistrement doit fournir suffisamment d’informations sur le versionnage et la syntaxe de la chaîne de version pour que le traitement automatique de cette chaîne soit réaliste.
-
-
-### Les codages doivent-ils exiger la version du système de codage ?
+Les jeux de valeurs évoluent pour plusieurs raisons :
+- Corrections et clarifications
+- Évolution des connaissances (ex: nouveaux gènes, nouvelles protéines)
+- Ajout/suppression de codes
 
 
-Le type de données Coding permet de déclarer la version du système de codage représenté, mais cette déclaration est rarement effectuée dans les instances. Il existe deux cas particuliers où la déclaration de la version est nécessaire (ou du moins utile) :
 
-Si le système de codage autorise la modification de la signification des codes entre les versions sans modification de l’URI du système (ce qui est contraire aux bonnes pratiques terminologiques, mais peut être autorisé dans certains systèmes), la propriété Coding.version est nécessaire pour garantir la connaissance de la signification du code.
 
-Pour les systèmes de codage tels que SNOMED CT, la version peut identifier l’édition spécifique, ce qui peut être utile pour les validateurs n’ayant accès qu’à certaines éditions. Ceci est particulièrement utile lorsque le contexte de l’échange ne rend pas l’édition implicite. (Par exemple, il est généralement inutile de déclarer l’édition américaine de SNOMED dans les interfaces destinées uniquement à un usage aux États-Unis, mais cela peut être utile lors de la saisie d’un document de synthèse patient international susceptible d’être partagé à l’étranger.)
+
+
+## Faisabilité technique
+
+### Principe de base FHIR
+
+Dans FHIR, chaque ValueSet possède deux attributs clés pour le versioning :
+- **`url`** : identifiant canonique unique et stable (ne change jamais)
+- **`version`** : numéro de version de la ressource
+
+```json
+{
+  "resourceType": "ValueSet",
+  "url": "http://exemple.fr/fhir/ValueSet/mon-jeu-de-valeurs",
+  "version": "1.0.0",
+  "name": "MonJeuDeValeurs",
+  "status": "active"
+}
+```
+
+### Comportement par défaut du FTS
+
+Le serveur de terminologie (FTS) gère automatiquement l'historique des versions :
+
+- **Historique accessible** : Le FTS conserve l'historique de toutes les versions via `_history`
+- **Dernière version par défaut** : Sans précision, c'est toujours la version la plus récente qui est retournée
+- **Cas standard** : Une seule version active à la fois, les anciennes sont archivées dans l'historique
+
+### Cas exceptionnels : plusieurs versions actives
+
+Dans certains cas, il peut être nécessaire de **mettre à disposition plusieurs versions simultanément** d'un même JDV (ex: période de transition, rétrocompatibilité).
+
+Voici l'approche retenue pour ce faire :
+
+#### Approche retenue
+
+Créer des ressources avec la **même URL** et des **identifiants (`id`) différents** pour chaque version.
+
+| Version | URL (canonique) | id (technique) |
+|---------|-----------------|----------------|
+| 1.0.0 | `http://exemple.fr/fhir/ValueSet/statut-patient` | `statut-patient-v1` |
+| 2.0.0 | `http://exemple.fr/fhir/ValueSet/statut-patient` | `statut-patient-v2` |
+
+#### Exemples d'appels API
+
+**Récupérer la dernière version :**
+```
+GET [base]/ValueSet?url=http://exemple.fr/fhir/ValueSet/statut-patient
+```
+
+**Récupérer une version spécifique :**
+```
+GET [base]/ValueSet?url=http://exemple.fr/fhir/ValueSet/statut-patient&version=1.0.0
+```
+
+
+**Expand d'une version spécifique :**
+```
+GET [base]/ValueSet/$expand?url=http://exemple.fr/fhir/ValueSet/statut-patient&version=1.0.0
+```
+
