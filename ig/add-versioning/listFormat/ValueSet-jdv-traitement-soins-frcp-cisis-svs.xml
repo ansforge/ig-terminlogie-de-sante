@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ValueSet dateFin=""
+             dateMaj="20251216141840"
+             dateValid="20210414000000"
+             description="JDV Traitement Soins Frcp CISIS"
+             displayName="JdvTraitementSoinsFrcpCisis"
+             id="1.2.250.1.213.1.1.5.596"
+             typeFichier="JDV"
+             urlFichier="">
+      <ConceptList>
+         <Concept code="C3580"
+                  codeSystem="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl"
+                  displayName="métastases osseuses"/>
+         <Concept code="C3303"
+                  codeSystem="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl"
+                  displayName="douleur"/>
+         <Concept code="C15252"
+                  codeSystem="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl"
+                  displayName="soins palliatifs"/>
+         <Concept code="C63334"
+                  codeSystem="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl"
+                  displayName="imagerie interventionnelle"/>
+         <Concept code="C15747"
+                  codeSystem="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl"
+                  displayName="soins de support"/>
+         <Concept code="C16832"
+                  codeSystem="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl"
+                  displayName="oncologie médicale"/>
+         <Concept code="C71326"
+                  codeSystem="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl"
+                  displayName="préservation de la fertilité"/>
+         <Concept code="C7201"
+                  codeSystem="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl"
+                  displayName="tumeur rare"/>
+         <Concept code="ORG-129"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="Oncogénétique"/>
+         <Concept code="ORG-130"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="Oncogériatrie"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>
