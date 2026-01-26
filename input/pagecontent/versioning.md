@@ -1,6 +1,6 @@
-# Gestion des versions des ValueSets
+## Gestion des versions des ValueSets
 
-## Pourquoi versionner ?
+### Pourquoi versionner ?
 
 Les jeux de valeurs évoluent pour plusieurs raisons :
 - Corrections et clarifications
@@ -12,9 +12,9 @@ Les jeux de valeurs évoluent pour plusieurs raisons :
 
 
 
-## Faisabilité technique
+### Faisabilité technique
 
-### Principe de base FHIR
+#### Principe de base FHIR
 
 Dans FHIR, chaque ValueSet possède deux attributs clés pour le versioning :
 - **`url`** : identifiant canonique unique et stable (ne change jamais)
@@ -30,7 +30,7 @@ Dans FHIR, chaque ValueSet possède deux attributs clés pour le versioning :
 }
 ```
 
-### Comportement par défaut du FTS
+#### Comportement par défaut du FTS
 
 Le serveur de terminologie (FTS) gère automatiquement l'historique des versions :
 
@@ -38,13 +38,13 @@ Le serveur de terminologie (FTS) gère automatiquement l'historique des versions
 - **Dernière version par défaut** : Sans précision, c'est toujours la version la plus récente qui est retournée
 - **Cas standard** : Une seule version active à la fois, les anciennes sont archivées dans l'historique
 
-### Cas exceptionnels : plusieurs versions actives
+#### Cas exceptionnels : plusieurs versions actives
 
 Dans certains cas, il peut être nécessaire de **mettre à disposition plusieurs versions simultanément** d'un même JDV (ex: période de transition, rétrocompatibilité).
 
 Voici l'approche retenue pour ce faire :
 
-#### Approche retenue
+##### Approche retenue
 
 Créer des ressources avec la **même URL** et des **identifiants (`id`) différents** pour chaque version.
 
