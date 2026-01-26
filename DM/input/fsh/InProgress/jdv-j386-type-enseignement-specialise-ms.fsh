@@ -1,7 +1,7 @@
 ValueSet: JdvJ386TypeEnseignementSpecialiseMs
 Id: jdv-j386-type-enseignement-specialise-ms
 Title: "Jdv J386 Type Enseignement Specialise Ms"
-Description: "Niveau ou situation scolaire de l'usager."
+Description: "Type d'enseignement spécialisé."
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2026-02-02T12:00:00.000+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"

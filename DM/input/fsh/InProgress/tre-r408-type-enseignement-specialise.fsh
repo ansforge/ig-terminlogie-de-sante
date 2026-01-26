@@ -1,7 +1,7 @@
 CodeSystem: TreR408TypeEnseignementSpecialise
 Id: tre-r408-type-enseignement-specialise
 Title: "Tre R408 Type Enseignement Specialise"
-Description: "Niveau ou situation scolaire de l'usager."
+Description: "Type d'enseignement spécialisé."
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2026-02-02T10:02:20.124+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
