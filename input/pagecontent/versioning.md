@@ -24,6 +24,7 @@ Dans FHIR, chaque ValueSet possède deux attributs clés pour le versioning :
 {
   "resourceType": "ValueSet",
   "url": "http://exemple.fr/fhir/ValueSet/mon-jeu-de-valeurs",
+  "id" : "mon-jeu-de-valeur",
   "version": "1.0.0",
   "name": "MonJeuDeValeurs",
   "status": "active"
@@ -46,7 +47,7 @@ Voici l'approche retenue pour ce faire :
 
 ##### Approche retenue
 
-Créer des ressources avec la **même URL** et des **identifiants (`id`) différents** pour chaque version.
+Créer des ressources avec la **même URL** et des **identifiants (`logical id`) différents** pour chaque version.
 
 | Version | URL (canonique) | id (technique) |
 |---------|-----------------|----------------|
