@@ -263,7 +263,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_A02-ProfessionSavFaire-CISIS/FHIR/TRE-A02-ProfessionSavFaire-CISIS",
-      "version" : "20241213120000",
+      "version" : "20260202120000",
       "status" : "active",
       "name" : "TRE_A02_ProfessionSavFaire_CISIS",
       "title" : null,
@@ -533,7 +533,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R01-EnsembleSavoirFaire-CISIS/FHIR/TRE-R01-EnsembleSavoirFaire-CISIS",
-      "version" : "20241213120000",
+      "version" : "20260202120000",
       "status" : "active",
       "name" : "TRE_R01_EnsembleSavoirFaire_CISIS",
       "title" : null,
@@ -749,7 +749,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R21-Fonction/FHIR/TRE-R21-Fonction",
-      "version" : "20251023120000",
+      "version" : "20260202120000",
       "status" : "active",
       "name" : "TRE_R21_Fonction",
       "title" : null,
@@ -938,7 +938,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R23-ModeExercice/FHIR/TRE-R23-ModeExercice",
-      "version" : "20231215120000",
+      "version" : "20260202120000",
       "status" : "active",
       "name" : "TRE_R23_ModeExercice",
       "title" : null,
@@ -2405,7 +2405,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge",
-      "version" : "20251222120000",
+      "version" : "20260202120000",
       "status" : "active",
       "name" : "TRE_R85_RolePriseCharge",
       "title" : null,
@@ -2715,6 +2715,24 @@
       "oids" : ["1.2.250.1.213.1.6.1.375"]
     },
     {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r407-composition-foyer",
+      "version" : "20260202120000",
+      "status" : "active",
+      "name" : "TreR407CompositionFoyer",
+      "title" : "Tre R407 Composition Foyer",
+      "description" : "Désigne avec qui vit l’usager dans son logement.",
+      "oids" : ["1.2.250.1.213.3.3.261"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise",
+      "version" : "20260202120000",
+      "status" : "active",
+      "name" : "TreR408TypeEnseignementSpecialise",
+      "title" : "Tre R408 Type Enseignement Specialise",
+      "description" : "Type d'enseignement spécialisé.",
+      "oids" : ["1.2.250.1.213.3.3.262"]
+    },
+    {
       "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/v2-0487-supplement-fr",
       "version" : "1.0",
       "status" : "draft",
@@ -2749,7 +2767,7 @@
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-bdpm",
-      "version" : "2026-01-06",
+      "version" : "2026-02-03",
       "status" : "active",
       "name" : "BDPM",
       "title" : "Base de données publique du médicament",

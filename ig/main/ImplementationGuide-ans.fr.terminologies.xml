@@ -7,11 +7,11 @@
 </div></div>
   </text>
   <url value="https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies"/>
-  <version value="1.5.0"/>
+  <version value="1.6.0"/>
   <name value="Terminologies"/>
   <title value="Terminologies  de Santé"/>
   <status value="active"/>
-  <date value="2026-02-03T05:17:54+00:00"/>
+  <date value="2026-02-03T09:51:06+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -20656,6 +20656,50 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-j384-role-membre-famille-ms"/>
+      </reference>
+      <name value="Jdv J384 Role Membre Famille Ms"/>
+      <description value="Rôle d'un membre de la famille ou d'un proche de l'usager."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j385-composition-foyer-ms"/>
+      </reference>
+      <name value="Jdv J385 Composition Foyer Ms"/>
+      <description value="Désigne avec qui vit l’usager dans son logement."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j386-type-enseignement-specialise-ms"/>
+      </reference>
+      <name value="Jdv J386 Type Enseignement Specialise Ms"/>
+      <description value="Type d'enseignement spécialisé."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j387-role-participant-ms"/>
+      </reference>
+      <name value="Jdv J387 Role Participant Ms"/>
+      <description value="Rôle du participant vis à vis de l'événement (mandataire judiciaire, structure en charge de l'événement)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/JDV-J69-ActiviteOperationnelle-Santefr"/>
       </reference>
       <name value="JDV J69 ActiviteOperationnelle Santefr"/>
@@ -27188,6 +27232,28 @@
       </reference>
       <name value="Tre R394 Competence Metier"/>
       <description value="Type de savoir-faire opérationnel, transversal ou spécifique, acquis et exercé à titre non exclusif dans le cadre d’une activité professionnelle reconnue."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r407-composition-foyer"/>
+      </reference>
+      <name value="Tre R407 Composition Foyer"/>
+      <description value="Désigne avec qui vit l’usager dans son logement."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r408-type-enseignement-specialise"/>
+      </reference>
+      <name value="Tre R408 Type Enseignement Specialise"/>
+      <description value="Type d'enseignement spécialisé."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

@@ -1,4 +1,4 @@
-# Terminologies - Terminologies de Santé v1.5.0
+# Terminologies - Terminologies de Santé v1.6.0
 
 * [**Table of Contents**](toc.md)
 * **Terminologies**
@@ -18,7 +18,7 @@ Les terminologies sont des nomenclatures officielles créées et maintenues :
 | [ActPriority](CodeSystem-v3-ActPriority.md) | A set of codes (e.g., for routine, emergency), specifying the urgency under which the Act happened, can happen, is happening, is intended to happen, or is requested/demanded to happen. | 20/03/2019 |
 | [ActStatus](CodeSystem-v3-ActStatus.md) | Codes representing the defined possible states of an Act, as defined by the Act class state machine. | 20/03/2019 |
 | [AdministrativeGender](CodeSystem-v3-AdministrativeGender.md) | The gender of a person used for adminstrative purposes (as opposed to clinical gender) | 20/03/2019 |
-| [BDPM](CodeSystem-terminologie-bdpm.md) | LA BDPM est un des référentiels du médicament gérée et distribuée par l’ANSM. Elle recense l’ensemble des spécialités et des présentations effectivement commercialisées durant les 5 dernières années. De ce fait, elle ne propose pas un historique exhaustif des codes de présentation et spécialités, celui-ci peut être obtenu grâce à la base RCP disponible sur le site de l’ANSM | 06/01/2026 |
+| [BDPM](CodeSystem-terminologie-bdpm.md) | LA BDPM est un des référentiels du médicament gérée et distribuée par l’ANSM. Elle recense l’ensemble des spécialités et des présentations effectivement commercialisées durant les 5 dernières années. De ce fait, elle ne propose pas un historique exhaustif des codes de présentation et spécialités, celui-ci peut être obtenu grâce à la base RCP disponible sur le site de l’ANSM | 03/02/2026 |
 | [CCAM](CodeSystem-terminologie-ccam.md) | La Classification Commune des Actes Médicaux est la terminologie de facturation créée et maintenue par la CNAM. | 01/01/2026 |
 | [CIM11_MMS](CodeSystem-terminologie-cim11-mms.md) | La Classification Internationale des Maladies (CIM) dans sa 11ème révision permet d’établir, partout dans le monde, les statistiques sanitaires. Fournissant un langage commun pour alimenter les dossiers patients électroniques, la CIM11 permet d’échanger des données médicales de manière cohérente et normalisée pour de nombreux cas d’usage (production de soins, coordination professionnelle, pilotage, et exploitation de données) | 03/02/2026 |
 | [CIM_10_FR_PMSI](CodeSystem-terminologie-cim-10.md) | La Classification Internationale des Maladies (CIM) permet d’établir les statistiques sanitaires (morbi-mortalité) partout dans le monde. Elle est gérée par l’Organisation Mondiale de la Santé qui publie une mise à jour annuelle. En France l’ATIH édite et publie une version complète du volume 1 de la CIM–10 à usage PMSI. La CIM–10 est aussi utilisée pour alimenter les dossier médicaux électronique des patients.Elle est destinée à être progressivement remplacée par la CIM 11 | 20/12/2024 |
@@ -55,7 +55,7 @@ However, this HL7 datatypes specification treats the entire media type as one at
 | [SubstanceAdminSubstitution](CodeSystem-v3-substanceAdminSubstitution.md) | Identifies what sort of change is permitted or has occurred between the therapy that was ordered and the therapy that was/will be provided. | 20/03/2019 |
 | [TRE_A00_ProducteurDocNonPS](CodeSystem-TRE-A00-ProducteurDocNonPS.md) | Producteur de document non PS | 29/03/2024 |
 | [TRE_A01_CadreExercice](CodeSystem-TRE-A01-CadreExercice.md) | Cadre d'exercice | 27/09/2024 |
-| [TRE_A02_ProfessionSavFaire_CISIS](CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.md) | Profession et savoir-faire CI-SIS | 13/12/2024 |
+| [TRE_A02_ProfessionSavFaire_CISIS](CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.md) | Profession et savoir-faire CI-SIS | 02/02/2026 |
 | [TRE_A03_ClasseDocument](CodeSystem-TRE-A03-ClasseDocument.md) | Classe de document | 15/12/2023 |
 | [TRE_A05_TypeDocComplementaire](CodeSystem-TRE-A05-TypeDocComplementaire.md) | Type de document en complément des nomenclatures internationales | 29/03/2024 |
 | [TRE_A06_FormatCodeComplementaire](CodeSystem-TRE-A06-FormatCodeComplementaire.md) | formatCode en complément des nomenclatures internationales | 29/10/2025 |
@@ -85,7 +85,7 @@ However, this HL7 datatypes specification treats the entire media type as one at
 | [TRE_G18_AttributionParticuliereADELI](CodeSystem-TRE-G18-AttributionParticuliereADELI.md) | Attribution particulière ADELI | 15/12/2023 |
 | [TRE_G19_SecteurActiviteADELI](CodeSystem-TRE-G19-SecteurActiviteADELI.md) | Secteur d'activité ADELI | 23/05/2025 |
 | [TRE_G20_Specialisation](CodeSystem-TRE-G20-Specialisation.md) | Spécialisation | 15/12/2023 |
-| [TRE_R01_EnsembleSavoirFaire_CISIS](CodeSystem-TRE-R01-EnsembleSavoirFaire-CISIS.md) | Ensemble Savoir-faire CI-SIS (TRE provisoire) | 13/12/2024 |
+| [TRE_R01_EnsembleSavoirFaire_CISIS](CodeSystem-TRE-R01-EnsembleSavoirFaire-CISIS.md) | Ensemble Savoir-faire CI-SIS (TRE provisoire) | 02/02/2026 |
 | [TRE_R02_SecteurActivite](CodeSystem-TRE-R02-SecteurActivite.md) | Le secteur d'activité de santé est une donnée RPPS et correspond au type de service fourni par une structure. Il sert principalement à déterminer les propriétés de facturation des professionnels de ces structures vis-à-vis de l'assurance maladie | 23/05/2025 |
 | [TRE_R03_AttributionParticuliere](CodeSystem-TRE-R03-AttributionParticuliere.md) | Attribution particulière | 15/12/2023 |
 | [TRE_R04_TypeSavoirFaire](CodeSystem-TRE-R04-TypeSavoirFaire.md) | Type de savoir-faire | 16/10/2025 |
@@ -117,7 +117,7 @@ However, this HL7 datatypes specification treats the entire media type as one at
 | [TRE_R217_ProtectionJuridique](CodeSystem-TRE-R217-ProtectionJuridique.md) | Protection juridique | 15/12/2023 |
 | [TRE_R218_ModeAuthentification](CodeSystem-TRE-R218-ModeAuthentification.md) | Mode d'authentification | 15/12/2023 |
 | [TRE_R219_AutreResponsableConsent](CodeSystem-TRE-R219-AutreResponsableConsent.md) | Autre responsable consentement | 15/12/2023 |
-| [TRE_R21_Fonction](CodeSystem-TRE-R21-Fonction.md) | Fonction | 23/10/2025 |
+| [TRE_R21_Fonction](CodeSystem-TRE-R21-Fonction.md) | Fonction | 02/02/2026 |
 | [TRE_R220_ModeleDocumentCDAStructure](CodeSystem-TRE-R220-ModeleDocumentCDAStructure.md) | Identifiant des modèles de CDA structurés | 29/10/2025 |
 | [TRE_R223_NatCycleForm](CodeSystem-TRE-R223-NatCycleForm.md) | Nature du cycle de formation des étudiants | 15/12/2023 |
 | [TRE_R224_NiveauFormAcquis](CodeSystem-TRE-R224-NiveauFormAcquis.md) | Niveaux de formation acquis dans le cycle de formation des étudiants | 15/12/2023 |
@@ -133,7 +133,7 @@ However, this HL7 datatypes specification treats the entire media type as one at
 | [TRE_R237_GroupeTarifaireDependance](CodeSystem-TRE-R237-GroupeTarifaireDependance.md) | Niveau de dépendance associé à un tarif | 15/12/2023 |
 | [TRE_R238_OuvertureAnnuelle](CodeSystem-TRE-R238-OuvertureAnnuelle.md) | Ouverture annuelle | 15/12/2023 |
 | [TRE_R239_PublicPrisEnCharge](CodeSystem-TRE-R239-PublicPrisEnCharge.md) | Public pris en charge | 28/03/2025 |
-| [TRE_R23_ModeExercice](CodeSystem-TRE-R23-ModeExercice.md) | Mode d'exercice | 15/12/2023 |
+| [TRE_R23_ModeExercice](CodeSystem-TRE-R23-ModeExercice.md) | Mode d'exercice | 02/02/2026 |
 | [TRE_R240_TemporaliteAccueil](CodeSystem-TRE-R240-TemporaliteAccueil.md) | Temporalité accueil | 15/12/2023 |
 | [TRE_R241_AideFinanciere](CodeSystem-TRE-R241-AideFinanciere.md) | Habilit. de l'EG permettant aux pers. accueillies d'avoir des aides financières | 15/12/2023 |
 | [TRE_R242_TypeHabitation](CodeSystem-TRE-R242-TypeHabitation.md) | Type habitation | 15/12/2023 |
@@ -285,7 +285,7 @@ However, this HL7 datatypes specification treats the entire media type as one at
 | [TRE_R81_Civilite](CodeSystem-TRE-R81-Civilite.md) | Civilité | 15/12/2023 |
 | [TRE_R82_Ordre](CodeSystem-TRE-R82-Ordre.md) | Ordre | 15/12/2023 |
 | [TRE_R84_ProfilAccesAnnuaire_MSSante](CodeSystem-TRE-R84-ProfilAccesAnnuaire-MSSante.md) | Profil d'accès à l'annuaire MSSante | 15/12/2023 |
-| [TRE_R85_RolePriseCharge](CodeSystem-TRE-R85-RolePriseCharge.md) | Rôle dans la prise en charge des patients ou des usagers | 22/12/2025 |
+| [TRE_R85_RolePriseCharge](CodeSystem-TRE-R85-RolePriseCharge.md) | Rôle dans la prise en charge des patients ou des usagers | 02/02/2026 |
 | [TRE_R86_ProfilVIHF](CodeSystem-TRE-R86-ProfilVIHF.md) | Profil VIHF d'accès | 15/12/2023 |
 | [TRE_R87_TypeCarte](CodeSystem-TRE-R87-TypeCarte.md) | Type de carte | 15/12/2023 |
 | [TRE_R88_TerritoireSante](CodeSystem-TRE-R88-TerritoireSante.md) | Territoire de Santé (au sens ARS) en France | 15/12/2023 |
@@ -301,4 +301,6 @@ However, this HL7 datatypes specification treats the entire media type as one at
 | [TreR390TypeProjetPersonnalise](CodeSystem-tre-r390-type-projet-personnalise.md) | Cette nomenclature donne le type de projet personnalisé qui est un document co-construit par l'usager, son entourage familial et professionnel du médico-social. | 22/04/2025 |
 | [TreR393TypeContratSejour](CodeSystem-tre-r393-type-contrat-sejour.md) | Type de contrat conclu entre l’établissement/service et la personne/son représentant légal lors de son entrée en établissement | 21/05/2025 |
 | [TreR394CompetenceMetier](CodeSystem-tre-r394-competence-metier.md) | Type de savoir-faire opérationnel, transversal ou spécifique, acquis et exercé à titre non exclusif dans le cadre d’une activité professionnelle reconnue. | 25/06/2025 |
+| [TreR407CompositionFoyer](CodeSystem-tre-r407-composition-foyer.md) | Désigne avec qui vit l’usager dans son logement. | 02/02/2026 |
+| [TreR408TypeEnseignementSpecialise](CodeSystem-tre-r408-type-enseignement-specialise.md) | Type d'enseignement spécialisé. | 02/02/2026 |
 

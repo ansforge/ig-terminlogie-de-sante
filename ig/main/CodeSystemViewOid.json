@@ -2550,5 +2550,21 @@
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r394-competence-metier",
     "identifier" : "urn:oid:1.2.250.1.213.1.6.1.375",
     "status" : "active"
+  },
+  {
+    "id" : "tre-r407-composition-foyer",
+    "name" : "TreR407CompositionFoyer",
+    "title" : "Tre R407 Composition Foyer",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r407-composition-foyer",
+    "identifier" : "urn:oid:1.2.250.1.213.3.3.261",
+    "status" : "active"
+  },
+  {
+    "id" : "tre-r408-type-enseignement-specialise",
+    "name" : "TreR408TypeEnseignementSpecialise",
+    "title" : "Tre R408 Type Enseignement Specialise",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise",
+    "identifier" : "urn:oid:1.2.250.1.213.3.3.262",
+    "status" : "active"
   }
 ]

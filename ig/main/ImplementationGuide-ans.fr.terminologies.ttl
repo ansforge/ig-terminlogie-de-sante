@@ -17,11 +17,11 @@
      fhir:v "https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies"^^xsd:anyURI ;
      fhir:l <https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies>
   ] ; # 
-  fhir:version [ fhir:v "1.5.0"] ; # 
+  fhir:version [ fhir:v "1.6.0"] ; # 
   fhir:name [ fhir:v "Terminologies"] ; # 
   fhir:title [ fhir:v "Terminologies  de Santé"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2026-02-03T05:17:54+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-03T09:51:06+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -58963,6 +58963,90 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j384-role-membre-famille-ms> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j384-role-membre-famille-ms" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J384 Role Membre Famille Ms" ] ;
+       fhir:description [ fhir:v "Rôle d'un membre de la famille ou d'un proche de l'usager." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j385-composition-foyer-ms> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j385-composition-foyer-ms" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J385 Composition Foyer Ms" ] ;
+       fhir:description [ fhir:v "Désigne avec qui vit l’usager dans son logement." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j386-type-enseignement-specialise-ms> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j386-type-enseignement-specialise-ms" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J386 Type Enseignement Specialise Ms" ] ;
+       fhir:description [ fhir:v "Type d'enseignement spécialisé." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j387-role-participant-ms> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j387-role-participant-ms" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J387 Role Participant Ms" ] ;
+       fhir:description [ fhir:v "Rôle du participant vis à vis de l'événement (mandataire judiciaire, structure en charge de l'événement)." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/JDV-J69-ActiviteOperationnelle-Santefr> ;
          fhir:reference [ fhir:v "ValueSet/JDV-J69-ActiviteOperationnelle-Santefr" ]
        ] ;
@@ -71436,6 +71520,48 @@
        ] ;
        fhir:name [ fhir:v "Tre R394 Competence Metier" ] ;
        fhir:description [ fhir:v "Type de savoir-faire opérationnel, transversal ou spécifique, acquis et exercé à titre non exclusif dans le cadre d’une activité professionnelle reconnue." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r407-composition-foyer> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r407-composition-foyer" ]
+       ] ;
+       fhir:name [ fhir:v "Tre R407 Composition Foyer" ] ;
+       fhir:description [ fhir:v "Désigne avec qui vit l’usager dans son logement." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r408-type-enseignement-specialise> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r408-type-enseignement-specialise" ]
+       ] ;
+       fhir:name [ fhir:v "Tre R408 Type Enseignement Specialise" ] ;
+       fhir:description [ fhir:v "Type d'enseignement spécialisé." ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false

@@ -1,4 +1,4 @@
-# Base de données publique du médicament - Terminologies de Santé v1.5.0
+# Base de données publique du médicament - Terminologies de Santé v1.6.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/terminologie-bdpm | *Version*:2026-01-06 | |
-| Active as of 2026-01-06 | *Responsible:*Agence du numérique en santé | *Computable Name*:BDPM |
+| *Official URL*:https://smt.esante.gouv.fr/terminologie-bdpm | *Version*:2026-02-03 | |
+| Active as of 2026-02-03 | *Responsible:*Agence du numérique en santé | *Computable Name*:BDPM |
 | *Other Identifiers:*https://smt.esante.gouv.fr/#terminologie-bdpm (use: secondary, ) | | |
 | **Copyright/Legal**: [LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md) | | |
 
@@ -29,8 +29,8 @@ LA BDPM est un des référentiels du médicament gérée et distribuée par l’
   "resourceType" : "CodeSystem",
   "id" : "terminologie-bdpm",
   "meta" : {
-    "versionId" : "25",
-    "lastUpdated" : "2026-01-06T13:17:45.661+01:00",
+    "versionId" : "26",
+    "lastUpdated" : "2026-02-03T10:45:38.335+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
@@ -43,12 +43,12 @@ LA BDPM est un des référentiels du médicament gérée et distribuée par l’
       "value" : "terminologie-bdpm"
     }
   ],
-  "version" : "2026-01-06",
+  "version" : "2026-02-03",
   "name" : "BDPM",
   "title" : "Base de données publique du médicament",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-01-06T00:00:00+00:00",
+  "date" : "2026-02-03T00:00:00+00:00",
   "publisher" : "Agence du numérique en santé",
   "description" : "LA BDPM est un des référentiels du médicament gérée et distribuée par l’ANSM. Elle recense l’ensemble des spécialités et des présentations effectivement commercialisées durant les 5 dernières années. De ce fait, elle ne propose pas un historique exhaustif des codes de présentation et spécialités, celui-ci peut être obtenu grâce à la base RCP disponible sur le site de l’ANSM",
   "jurisdiction" : [
@@ -64,7 +64,7 @@ LA BDPM est un des référentiels du médicament gérée et distribuée par l’
   "copyright" : "[LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md)",
   "valueSet" : "https://smt.esante.gouv.fr/terminologie-bdpm?vs",
   "content" : "not-present",
-  "count" : 41107,
+  "count" : 41142,
   "filter" : [
     {
       "code" : "root",

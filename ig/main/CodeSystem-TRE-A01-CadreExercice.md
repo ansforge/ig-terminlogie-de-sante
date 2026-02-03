@@ -1,4 +1,4 @@
-# TRE_A01_CadreExercice - Terminologies de Santé v1.5.0
+# TRE_A01_CadreExercice - Terminologies de Santé v1.6.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -19,6 +19,7 @@ Cadre d’exercice
 
 * [JDV_J04_XdsPracticeSettingCode_CISIS](ValueSet-JDV-J04-XdsPracticeSettingCode-CISIS.md)
 * [JDV_J62_PracticeSettingCode_DMP](ValueSet-JDV-J62-PracticeSettingCode-DMP.md)
+* [JdvJ387RoleParticipantMs](ValueSet-jdv-j387-role-participant-ms.md)
 
 
 
@@ -29,12 +30,13 @@ Cadre d’exercice
   "resourceType" : "CodeSystem",
   "id" : "TRE-A01-CadreExercice",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-07-02T18:11:13.769+00:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-02-03T09:57:49.803+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
+  "language" : "fr-FR",
   "extension" : [
     {
       "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -69,19 +71,23 @@ Cadre d’exercice
   ],
   "caseSensitive" : false,
   "content" : "complete",
+  "count" : 10,
   "property" : [
     {
       "code" : "dateValid",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
       "description" : "date de validité d'un code concept",
       "type" : "dateTime"
     },
     {
       "code" : "dateMaj",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
       "description" : "Date de mise à jour d'un code concept",
       "type" : "dateTime"
     },
     {
       "code" : "dateFin",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
       "description" : "Date de fin d'exploitation d'un code concept",
       "type" : "dateTime"
     },

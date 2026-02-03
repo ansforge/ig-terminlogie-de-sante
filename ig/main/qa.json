@@ -5,15 +5,15 @@
   "description" : "Les nomenclatures des objets de Santé sont mises à disposition du secteur santé-social par l’agence du numérique en santé",
   "status" : "active",
   "package-id" : "ans.fr.terminologies",
-  "ig-ver" : "1.5.0",
-  "date" : "Tue, 03 Feb, 2026 05:17:54 +0000",
-  "dateISO8601" : "2026-02-03T05:17:54+00:00",
-  "errs" : 217,
-  "warnings" : 5330,
-  "hints" : 5573,
+  "ig-ver" : "1.6.0",
+  "date" : "Tue, 03 Feb, 2026 09:51:06 +0000",
+  "dateISO8601" : "2026-02-03T09:51:06+00:00",
+  "errs" : 253,
+  "warnings" : 5380,
+  "hints" : 6701,
   "suppressed-hints" : 0,
   "suppressed-warnings" : 0,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 8190596608
+  "maxMemory" : 8205172416
 }

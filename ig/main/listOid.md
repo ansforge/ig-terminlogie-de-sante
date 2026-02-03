@@ -1,4 +1,4 @@
-# Listes des OID - Terminologies de Santé v1.5.0
+# Listes des OID - Terminologies de Santé v1.6.0
 
 * [**Table of Contents**](toc.md)
 * [**Identifiants**](identifiants.md)
@@ -336,6 +336,8 @@ Les systèmes d'identification définis ici sont destinés à la commodité des 
 | TreR390TypeProjetPersonnalise | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r390-type-projet-personnalise | 1.2.250.1.213.3.3.258 |
 | TreR393TypeContratSejour | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour | 1.2.250.1.213.3.3.260 |
 | TreR394CompetenceMetier | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r394-competence-metier | 1.2.250.1.213.1.6.1.375 |
+| TreR407CompositionFoyer | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r407-composition-foyer | 1.2.250.1.213.3.3.261 |
+| TreR408TypeEnseignementSpecialise | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise | 1.2.250.1.213.3.3.262 |
 | UCUM | http://unitsofmeasure.org | 2.16.840.1.113883.6.8 |
 | V3SpecimenTypeSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/v3-SpecimenType-supplement-fr |  |
 

@@ -1,4 +1,4 @@
-# TRE_R21_Fonction - Terminologies de Santé v1.5.0
+# TRE_R21_Fonction - Terminologies de Santé v1.6.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R21-Fonction/FHIR/TRE-R21-Fonction | *Version*:20251023120000 | |
-| Active as of 2025-10-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R21_Fonction |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R21-Fonction/FHIR/TRE-R21-Fonction | *Version*:20260202120000 | |
+| Active as of 2026-02-02 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R21_Fonction |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.17 | | |
 
  
@@ -30,8 +30,8 @@ Fonction
   "resourceType" : "CodeSystem",
   "id" : "TRE-R21-Fonction",
   "meta" : {
-    "versionId" : "9",
-    "lastUpdated" : "2025-10-31T14:59:22.247+01:00",
+    "versionId" : "10",
+    "lastUpdated" : "2026-02-03T09:57:54.732+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
@@ -51,11 +51,11 @@ Fonction
       "value" : "urn:oid:1.2.250.1.213.1.6.1.17"
     }
   ],
-  "version" : "20251023120000",
+  "version" : "20260202120000",
   "name" : "TRE_R21_Fonction",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-10-23T12:00:00+01:00",
+  "date" : "2026-02-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Fonction",
   "jurisdiction" : [
@@ -70,20 +70,23 @@ Fonction
   ],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 55,
+  "count" : 57,
   "property" : [
     {
       "code" : "dateValid",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
       "description" : "date de validité d'un code concept",
       "type" : "dateTime"
     },
     {
       "code" : "dateMaj",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
       "description" : "Date de mise à jour d'un code concept",
       "type" : "dateTime"
     },
     {
       "code" : "dateFin",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
       "description" : "Date de fin d'exploitation d'un code concept",
       "type" : "dateTime"
     },
@@ -1364,6 +1367,25 @@ Fonction
       ]
     },
     {
+      "code" : "FON-61",
+      "display" : "Prestataire de Services",
+      "definition" : "Un professionnel intervenant en prestation de services exerce au sein d’une structure, de façon ponctuelle ou continue, en mettant à disposition ses compétences, ses moyens ou son expertise pour le compte d’un tiers, qu’il s’agisse d’un établissement, d’un organisme, d’une structure ou d’un autre professionnel. Cette intervention s’effectue sans aucun lien de subordination avec la structure bénéficiaire et repose sur un contrat de prestation qui définit précisément la nature des actes réalisés, les modalités d’intervention ainsi que la rémunération associée. Selon son statut, le professionnel peut exercer en son nom propre lorsqu’il agit en tant qu’entrepreneur individuel indépendant, assumant directement la responsabilité de la prestation, ou intervenir en tant que salarié d’une société, cette dernière étant alors la signataire du contrat conclu avec la structure bénéficiaire. Ce cadre permet d’encadrer des activités réalisées pour un tiers en dehors du salariat ou de l’exercice libéral direct, tout en garantissant des conditions d’intervention claires, formalisées et adaptées aux besoins de la structure sollicitante.",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2026-02-02T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2026-02-02T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
       "code" : "FON-62",
       "display" : "Consultations de solidarité territoriale",
       "designation" : [
@@ -1384,6 +1406,25 @@ Fonction
         {
           "code" : "dateMaj",
           "valueDateTime" : "2025-10-23T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "FON-63",
+      "display" : "Coordonnateur en EPHAD",
+      "definition" : "Le code fonction FON‑63 « Coordonnateur en EPHAD » désigne l’exercice d’un professionnel de santé chargé d’assurer la coordination médicale au sein d’un EHPAD, en garantissant la cohérence, la continuité et l’organisation des prises en charge des résidents. Cette fonction regroupe l’ensemble des missions de coordination clinique, de suivi des parcours, d’élaboration et de mise en œuvre du projet de soins, ainsi que l’appui aux équipes soignantes dans l’application des bonnes pratiques gériatriques et l’amélioration de la qualité des soins. Le titulaire du code FON‑63 n’exerce pas d’activité de soins directs, mais intervient comme pivot du dispositif médical interne de l’établissement, en veillant à la cohérence des interventions des professionnels impliqués et à l’adaptation du projet de soins aux besoins des résidents. Cette fonction peut être exercée selon différents statuts, notamment salarié ou via un contrat spécifique, et constitue une activité clairement distincte de la prescription et du rôle de médecin traitant. L’enregistrement sous FON‑63 permet d’identifier précisément les professionnels qui assument cette responsabilité structurante dans l’organisation médicale des EHPAD.",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2026-02-02T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2026-02-02T12:00:00+01:00"
         },
         {
           "code" : "status",

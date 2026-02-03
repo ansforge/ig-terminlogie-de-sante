@@ -1,4 +1,4 @@
-# Terminologies du SMT - Terminologies de Santé v1.5.0
+# Terminologies du SMT - Terminologies de Santé v1.6.0
 
 * [**Table of Contents**](toc.md)
 * [**Terminologies**](tre.md)
@@ -17,7 +17,7 @@ Vous trouverez ici la liste des terminologies au format FHIR publiée par le SMT
 | [ActPriority](CodeSystem-v3-ActPriority.md) | A set of codes (e.g., for routine, emergency), specifying the urgency under which the Act happened, can happen, is happening, is intended to happen, or is requested/demanded to happen. | 20/03/2019 |
 | [ActStatus](CodeSystem-v3-ActStatus.md) | Codes representing the defined possible states of an Act, as defined by the Act class state machine. | 20/03/2019 |
 | [AdministrativeGender](CodeSystem-v3-AdministrativeGender.md) | The gender of a person used for adminstrative purposes (as opposed to clinical gender) | 20/03/2019 |
-| [BDPM](CodeSystem-terminologie-bdpm.md) | LA BDPM est un des référentiels du médicament gérée et distribuée par l’ANSM. Elle recense l’ensemble des spécialités et des présentations effectivement commercialisées durant les 5 dernières années. De ce fait, elle ne propose pas un historique exhaustif des codes de présentation et spécialités, celui-ci peut être obtenu grâce à la base RCP disponible sur le site de l’ANSM | 06/01/2026 |
+| [BDPM](CodeSystem-terminologie-bdpm.md) | LA BDPM est un des référentiels du médicament gérée et distribuée par l’ANSM. Elle recense l’ensemble des spécialités et des présentations effectivement commercialisées durant les 5 dernières années. De ce fait, elle ne propose pas un historique exhaustif des codes de présentation et spécialités, celui-ci peut être obtenu grâce à la base RCP disponible sur le site de l’ANSM | 03/02/2026 |
 | [CCAM](CodeSystem-terminologie-ccam.md) | La Classification Commune des Actes Médicaux est la terminologie de facturation créée et maintenue par la CNAM. | 01/01/2026 |
 | [CIM11_MMS](CodeSystem-terminologie-cim11-mms.md) | La Classification Internationale des Maladies (CIM) dans sa 11ème révision permet d’établir, partout dans le monde, les statistiques sanitaires. Fournissant un langage commun pour alimenter les dossiers patients électroniques, la CIM11 permet d’échanger des données médicales de manière cohérente et normalisée pour de nombreux cas d’usage (production de soins, coordination professionnelle, pilotage, et exploitation de données) | 03/02/2026 |
 | [CIM_10_FR_PMSI](CodeSystem-terminologie-cim-10.md) | La Classification Internationale des Maladies (CIM) permet d’établir les statistiques sanitaires (morbi-mortalité) partout dans le monde. Elle est gérée par l’Organisation Mondiale de la Santé qui publie une mise à jour annuelle. En France l’ATIH édite et publie une version complète du volume 1 de la CIM–10 à usage PMSI. La CIM–10 est aussi utilisée pour alimenter les dossier médicaux électronique des patients.Elle est destinée à être progressivement remplacée par la CIM 11 | 20/12/2024 |

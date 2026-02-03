@@ -1,4 +1,4 @@
-# Terminologies du NOS - Terminologies de Santé v1.5.0
+# Terminologies du NOS - Terminologies de Santé v1.6.0
 
 * [**Table of Contents**](toc.md)
 * [**Terminologies**](tre.md)
@@ -15,9 +15,11 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TreR390TypeProjetPersonnalise](CodeSystem-tre-r390-type-projet-personnalise.md) | Cette nomenclature donne le type de projet personnalisé qui est un document co-construit par l'usager, son entourage familial et professionnel du médico-social. | 22/04/2025 |
 | [TreR393TypeContratSejour](CodeSystem-tre-r393-type-contrat-sejour.md) | Type de contrat conclu entre l’établissement/service et la personne/son représentant légal lors de son entrée en établissement | 21/05/2025 |
 | [TreR394CompetenceMetier](CodeSystem-tre-r394-competence-metier.md) | Type de savoir-faire opérationnel, transversal ou spécifique, acquis et exercé à titre non exclusif dans le cadre d’une activité professionnelle reconnue. | 25/06/2025 |
+| [TreR407CompositionFoyer](CodeSystem-tre-r407-composition-foyer.md) | Désigne avec qui vit l’usager dans son logement. | 02/02/2026 |
+| [TreR408TypeEnseignementSpecialise](CodeSystem-tre-r408-type-enseignement-specialise.md) | Type d'enseignement spécialisé. | 02/02/2026 |
 | [TRE_A00_ProducteurDocNonPS](CodeSystem-TRE-A00-ProducteurDocNonPS.md) | Producteur de document non PS | 29/03/2024 |
 | [TRE_A01_CadreExercice](CodeSystem-TRE-A01-CadreExercice.md) | Cadre d'exercice | 27/09/2024 |
-| [TRE_A02_ProfessionSavFaire_CISIS](CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.md) | Profession et savoir-faire CI-SIS | 13/12/2024 |
+| [TRE_A02_ProfessionSavFaire_CISIS](CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.md) | Profession et savoir-faire CI-SIS | 02/02/2026 |
 | [TRE_A03_ClasseDocument](CodeSystem-TRE-A03-ClasseDocument.md) | Classe de document | 15/12/2023 |
 | [TRE_A05_TypeDocComplementaire](CodeSystem-TRE-A05-TypeDocComplementaire.md) | Type de document en complément des nomenclatures internationales | 29/03/2024 |
 | [TRE_A06_FormatCodeComplementaire](CodeSystem-TRE-A06-FormatCodeComplementaire.md) | formatCode en complément des nomenclatures internationales | 29/10/2025 |
@@ -47,7 +49,7 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_G19_SecteurActiviteADELI](CodeSystem-TRE-G19-SecteurActiviteADELI.md) | Secteur d'activité ADELI | 23/05/2025 |
 | [TRE_G20_Specialisation](CodeSystem-TRE-G20-Specialisation.md) | Spécialisation | 15/12/2023 |
 | [TRE_G100_Specialite_AM](CodeSystem-TRE-G100-Specialite-AM.md) | Spécialité Assurance Maladie | 25/10/2024 |
-| [TRE_R01_EnsembleSavoirFaire_CISIS](CodeSystem-TRE-R01-EnsembleSavoirFaire-CISIS.md) | Ensemble Savoir-faire CI-SIS (TRE provisoire) | 13/12/2024 |
+| [TRE_R01_EnsembleSavoirFaire_CISIS](CodeSystem-TRE-R01-EnsembleSavoirFaire-CISIS.md) | Ensemble Savoir-faire CI-SIS (TRE provisoire) | 02/02/2026 |
 | [TRE_R02_SecteurActivite](CodeSystem-TRE-R02-SecteurActivite.md) | Le secteur d'activité de santé est une donnée RPPS et correspond au type de service fourni par une structure. Il sert principalement à déterminer les propriétés de facturation des professionnels de ces structures vis-à-vis de l'assurance maladie | 23/05/2025 |
 | [TRE_R03_AttributionParticuliere](CodeSystem-TRE-R03-AttributionParticuliere.md) | Attribution particulière | 15/12/2023 |
 | [TRE_R04_TypeSavoirFaire](CodeSystem-TRE-R04-TypeSavoirFaire.md) | Type de savoir-faire | 16/10/2025 |
@@ -61,9 +63,9 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R17_TypeAutorisation](CodeSystem-TRE-R17-TypeAutorisation.md) | Type d'autorisation | 23/05/2025 |
 | [TRE_R18_DisciplineAutorisation](CodeSystem-TRE-R18-DisciplineAutorisation.md) | Discipline d'autorisation | 15/12/2023 |
 | [TRE_R20_Pays](CodeSystem-TRE-R20-Pays.md) | Référentiel des codes pays provenant du COG INSEE | 28/03/2025 |
-| [TRE_R21_Fonction](CodeSystem-TRE-R21-Fonction.md) | Fonction | 23/10/2025 |
+| [TRE_R21_Fonction](CodeSystem-TRE-R21-Fonction.md) | Fonction | 02/02/2026 |
 | [TRE_R22_GenreActivite](CodeSystem-TRE-R22-GenreActivite.md) | Genre d'activité | 29/03/2024 |
-| [TRE_R23_ModeExercice](CodeSystem-TRE-R23-ModeExercice.md) | Mode d'exercice | 15/12/2023 |
+| [TRE_R23_ModeExercice](CodeSystem-TRE-R23-ModeExercice.md) | Mode d'exercice | 02/02/2026 |
 | [TRE_R24_TypeActiviteLiberale](CodeSystem-TRE-R24-TypeActiviteLiberale.md) | Type d'activité libérale | 15/12/2023 |
 | [TRE_R25_MotifFinActivite](CodeSystem-TRE-R25-MotifFinActivite.md) | Motif de fin d'activité | 15/12/2023 |
 | [TRE_R30_RegionOM](CodeSystem-TRE-R30-RegionOM.md) | Référentiel des codes régions et collectivités d'outre-mer provenant du COG INSEE + Monaco | 28/06/2024 |
@@ -109,7 +111,7 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R81_Civilite](CodeSystem-TRE-R81-Civilite.md) | Civilité | 15/12/2023 |
 | [TRE_R82_Ordre](CodeSystem-TRE-R82-Ordre.md) | Ordre | 15/12/2023 |
 | [TRE_R84_ProfilAccesAnnuaire_MSSante](CodeSystem-TRE-R84-ProfilAccesAnnuaire-MSSante.md) | Profil d'accès à l'annuaire MSSante | 15/12/2023 |
-| [TRE_R85_RolePriseCharge](CodeSystem-TRE-R85-RolePriseCharge.md) | Rôle dans la prise en charge des patients ou des usagers | 22/12/2025 |
+| [TRE_R85_RolePriseCharge](CodeSystem-TRE-R85-RolePriseCharge.md) | Rôle dans la prise en charge des patients ou des usagers | 02/02/2026 |
 | [TRE_R86_ProfilVIHF](CodeSystem-TRE-R86-ProfilVIHF.md) | Profil VIHF d'accès | 15/12/2023 |
 | [TRE_R87_TypeCarte](CodeSystem-TRE-R87-TypeCarte.md) | Type de carte | 15/12/2023 |
 | [TRE_R88_TerritoireSante](CodeSystem-TRE-R88-TerritoireSante.md) | Territoire de Santé (au sens ARS) en France | 15/12/2023 |

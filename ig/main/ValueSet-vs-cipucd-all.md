@@ -1,4 +1,4 @@
-# ValueSet_CIPUCD_All - Terminologies de Santé v1.5.0
+# ValueSet_CIPUCD_All - Terminologies de Santé v1.6.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -68,7 +68,7 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "name" : "ValueSet_CIPUCD_All",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-03T05:17:54+00:00",
+  "date" : "2026-02-03T09:51:06+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Ce jeu de valeurs inclut tous les codes concepts de la terminologie CIP-UCD",
   "jurisdiction" : [

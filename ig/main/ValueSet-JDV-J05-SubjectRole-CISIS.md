@@ -1,4 +1,4 @@
-# JDV_J05_SubjectRole_CISIS - Terminologies de Santé v1.5.0
+# JDV_J05_SubjectRole_CISIS - Terminologies de Santé v1.6.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J05-SubjectRole-CISIS/FHIR/JDV-J05-SubjectRole-CISIS | *Version*:20251222120000 | |
-| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J05_SubjectRole_CISIS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J05-SubjectRole-CISIS/FHIR/JDV-J05-SubjectRole-CISIS | *Version*:20260202120000 | |
+| Active as of 2026-02-02 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J05_SubjectRole_CISIS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.470 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J05-SubjectRole-CISIS",
   "meta" : {
-    "versionId" : "22",
-    "lastUpdated" : "2025-12-22T10:46:23.443+01:00",
+    "versionId" : "23",
+    "lastUpdated" : "2026-02-03T10:17:50.133+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
@@ -77,11 +77,11 @@ Requête sur le SMT
       "value" : "urn:oid:1.2.250.1.213.1.1.5.470"
     }
   ],
-  "version" : "20251222120000",
+  "version" : "20260202120000",
   "name" : "JDV_J05_SubjectRole_CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-22T12:00:00+01:00",
+  "date" : "2026-02-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "subjectRole CI-SIS",
   "jurisdiction" : [
@@ -1344,6 +1344,10 @@ Requête sur le SMT
           {
             "code" : "SST26",
             "display" : "Urgences pédiatriques (SST)"
+          },
+          {
+            "code" : "SST27",
+            "display" : "Innovation et recherche en sciences biologiques et pharmaceutiques (SST)"
           }
         ]
       },
@@ -1629,8 +1633,16 @@ Requête sur le SMT
             "display" : "Pharmacien remplaçant Bonnes Pratiques de Dispensation d'Oxygène"
           },
           {
+            "code" : "FON-61",
+            "display" : "Prestataire de Services"
+          },
+          {
             "code" : "FON-62",
             "display" : "Consultations de solidarité territoriale"
+          },
+          {
+            "code" : "FON-63",
+            "display" : "Coordonnateur en EPHAD"
           },
           {
             "code" : "FON-AU",
@@ -1916,6 +1928,10 @@ Requête sur le SMT
           {
             "code" : "373",
             "display" : "Technicien d’études cliniques"
+          },
+          {
+            "code" : "374",
+            "display" : "Agent d'autorité d'enregistrement"
           }
         ]
       }

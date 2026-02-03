@@ -1,4 +1,4 @@
-# TRE_A02_ProfessionSavFaire_CISIS - Terminologies de Santé v1.5.0
+# TRE_A02_ProfessionSavFaire_CISIS - Terminologies de Santé v1.6.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_A02-ProfessionSavFaire-CISIS/FHIR/TRE-A02-ProfessionSavFaire-CISIS | *Version*:20241213120000 | |
-| Active as of 2024-12-13 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_A02_ProfessionSavFaire_CISIS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_A02-ProfessionSavFaire-CISIS/FHIR/TRE-A02-ProfessionSavFaire-CISIS | *Version*:20260202120000 | |
+| Active as of 2026-02-02 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_A02_ProfessionSavFaire_CISIS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.4.5 | | |
 
  
@@ -33,12 +33,13 @@ Profession et savoir-faire CI-SIS
   "resourceType" : "CodeSystem",
   "id" : "TRE-A02-ProfessionSavFaire-CISIS",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2025-07-02T18:11:23.073+00:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-02-03T09:57:51.663+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
+  "language" : "fr-FR",
   "extension" : [
     {
       "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -54,11 +55,11 @@ Profession et savoir-faire CI-SIS
       "value" : "urn:oid:1.2.250.1.213.1.1.4.5"
     }
   ],
-  "version" : "20241213120000",
+  "version" : "20260202120000",
   "name" : "TRE_A02_ProfessionSavFaire_CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2024-12-13T12:00:00+01:00",
+  "date" : "2026-02-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Profession et savoir-faire CI-SIS",
   "jurisdiction" : [
@@ -73,19 +74,23 @@ Profession et savoir-faire CI-SIS
   ],
   "caseSensitive" : false,
   "content" : "complete",
+  "count" : 376,
   "property" : [
     {
       "code" : "dateValid",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
       "description" : "date de validité d'un code concept",
       "type" : "dateTime"
     },
     {
       "code" : "dateMaj",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
       "description" : "Date de mise à jour d'un code concept",
       "type" : "dateTime"
     },
     {
       "code" : "dateFin",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
       "description" : "Date de fin d'exploitation d'un code concept",
       "type" : "dateTime"
     },
@@ -6356,6 +6361,24 @@ Profession et savoir-faire CI-SIS
         {
           "code" : "dateMaj",
           "valueDateTime" : "2024-12-13T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "G15_10/SST27",
+      "display" : "Médecin - Innovation et recherche en sciences biologiques et pharmaceutiques (SST)",
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2026-02-02T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2026-02-02T12:00:00+01:00"
         },
         {
           "code" : "status",

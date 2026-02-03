@@ -1,4 +1,4 @@
-# JDV_J108_EnsembleFonction_RASS - Terminologies de Santé v1.5.0
+# JDV_J108_EnsembleFonction_RASS - Terminologies de Santé v1.6.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J108-EnsembleFonction-RASS/FHIR/JDV-J108-EnsembleFonction-RASS | *Version*:20251222120000 | |
-| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J108_EnsembleFonction_RASS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J108-EnsembleFonction-RASS/FHIR/JDV-J108-EnsembleFonction-RASS | *Version*:20260202120000 | |
+| Active as of 2026-02-02 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J108_EnsembleFonction_RASS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.176 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J108-EnsembleFonction-RASS",
   "meta" : {
-    "versionId" : "17",
-    "lastUpdated" : "2025-12-22T10:46:26.556+01:00",
+    "versionId" : "18",
+    "lastUpdated" : "2026-02-03T10:17:51.428+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
@@ -77,11 +77,11 @@ Requête sur le SMT
       "value" : "urn:oid:1.2.250.1.213.1.6.1.176"
     }
   ],
-  "version" : "20251222120000",
+  "version" : "20260202120000",
   "name" : "JDV_J108_EnsembleFonction_RASS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-22T12:00:00+01:00",
+  "date" : "2026-02-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Ensemble des fonctions et rôles du RASS",
   "jurisdiction" : [
@@ -264,8 +264,16 @@ Requête sur le SMT
             "display" : "Pharmacien remplaçant BPDO"
           },
           {
+            "code" : "FON-61",
+            "display" : "Prestataire de Services"
+          },
+          {
             "code" : "FON-62",
             "display" : "Consultations de solidarité territoriale"
+          },
+          {
+            "code" : "FON-63",
+            "display" : "Coordonnateur en EPHAD"
           },
           {
             "code" : "FON-AU",
@@ -564,6 +572,10 @@ Requête sur le SMT
           {
             "code" : "372",
             "display" : "Aide à domicile"
+          },
+          {
+            "code" : "374",
+            "display" : "Agent d'autorité d'enregistrement"
           }
         ]
       }

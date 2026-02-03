@@ -1,4 +1,4 @@
-# ASS_A23_ASR_ActiviteModaliteForme - Terminologies de Santé v1.5.0
+# ASS_A23_ASR_ActiviteModaliteForme - Terminologies de Santé v1.6.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -14,6 +14,14 @@
 
  
 Triplet activité modalité forme pour Activités Soumises à Reconnaissance (ASR) 
+
+### Accés
+
+Pour cette association, les fichiers suivants sont également disponibles :
+
+* [ASS_A23-ASR-ActiviteModaliteForme.pdf](ASS_A23-ASR-ActiviteModaliteForme.pdf)
+* [ASS_A23-ASR-ActiviteModaliteForme.tabs](ASS_A23-ASR-ActiviteModaliteForme.tabs)
+* [ASS_A23-ASR-ActiviteModaliteForme.xml](ASS_A23-ASR-ActiviteModaliteForme.xml)
 
 
 

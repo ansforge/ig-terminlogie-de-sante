@@ -1,4 +1,4 @@
-# ASS_A22_AASA_ActiviteModaliteForme - Terminologies de Santé v1.5.0
+# ASS_A22_AASA_ActiviteModaliteForme - Terminologies de Santé v1.6.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -14,6 +14,14 @@
 
  
 Triplet activité modalité forme pour les Activités Soumises à Autorisation (ASA) 
+
+### Accés
+
+Pour cette association, les fichiers suivants sont également disponibles :
+
+* [ASS_A22-AASA-ActiviteModaliteForme.pdf](ASS_A22-AASA-ActiviteModaliteForme.pdf)
+* [ASS_A22-AASA-ActiviteModaliteForme.tabs](ASS_A22-AASA-ActiviteModaliteForme.tabs)
+* [ASS_A22-AASA-ActiviteModaliteForme.xml](ASS_A22-AASA-ActiviteModaliteForme.xml)
 
 
 

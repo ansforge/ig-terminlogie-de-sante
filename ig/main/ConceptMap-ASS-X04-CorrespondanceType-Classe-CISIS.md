@@ -1,4 +1,4 @@
-# ASS_X04_CorrespondanceType_Classe_CISIS - Terminologies de Santé v1.5.0
+# ASS_X04_CorrespondanceType_Classe_CISIS - Terminologies de Santé v1.6.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/ASS_X04-CorrespondanceType-Classe-CISIS/FHIR/ASS-X04-CorrespondanceType-Classe-CISIS | *Version*:20251028120000 |
-| Active as of 2025-10-28 | *Computable Name*:ASS_X04_CorrespondanceType_Classe_CISIS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/ASS_X04-CorrespondanceType-Classe-CISIS/FHIR/ASS-X04-CorrespondanceType-Classe-CISIS | *Version*:20260202120000 |
+| Active as of 2026-02-02 | *Computable Name*:ASS_X04_CorrespondanceType_Classe_CISIS |
 | *Other Identifiers:*urn:oid:1.2.250.1.213.1.1.4.249 | |
 
  
@@ -39,12 +39,12 @@ Correspondance entre types et classes de documents CI-SIS
   "identifier" : {
     "value" : "urn:oid:1.2.250.1.213.1.1.4.249"
   },
-  "version" : "20251028120000",
+  "version" : "20260202120000",
   "name" : "ASS_X04_CorrespondanceType_Classe_CISIS",
   "title" : "ASS_X04_CorrespondanceType_Classe_CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-10-28T12:00:00+01:00",
+  "date" : "2026-02-02T12:00:00+01:00",
   "description" : "Correspondance entre types et classes de documents CI-SIS",
   "jurisdiction" : [
     {
@@ -347,6 +347,15 @@ Correspondance entre types et classes de documents CI-SIS
           "target" : [
             {
               "code" : "10",
+              "equivalence" : "equivalent"
+            }
+          ]
+        },
+        {
+          "code" : "34895-3",
+          "target" : [
+            {
+              "code" : "44",
               "equivalence" : "equivalent"
             }
           ]

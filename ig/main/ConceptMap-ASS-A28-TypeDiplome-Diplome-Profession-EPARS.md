@@ -1,4 +1,4 @@
-# ASS_A28_TypeDiplome_Diplome_Profession_EPARS - Terminologies de Santé v1.5.0
+# ASS_A28_TypeDiplome_Diplome_Profession_EPARS - Terminologies de Santé v1.6.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -14,6 +14,14 @@
 
  
 Table d’association entre les types de diplômes, les diplômes et les professions de santé, médico-sociales ou sociales 
+
+### Accés
+
+Pour cette association, les fichiers suivants sont également disponibles :
+
+* [ASS_A28-TypeDiplome-Diplome-Profession-EPARS.pdf](ASS_A28-TypeDiplome-Diplome-Profession-EPARS.pdf)
+* [ASS_A28-TypeDiplome-Diplome-Profession-EPARS.tabs](ASS_A28-TypeDiplome-Diplome-Profession-EPARS.tabs)
+* [ASS_A28-TypeDiplome-Diplome-Profession-EPARS.xml](ASS_A28-TypeDiplome-Diplome-Profession-EPARS.xml)
 
 
 

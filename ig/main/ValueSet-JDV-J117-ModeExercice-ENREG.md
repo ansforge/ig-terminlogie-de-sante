@@ -1,4 +1,4 @@
-# JDV_J117_ModeExercice_ENREG - Terminologies de Santé v1.5.0
+# JDV_J117_ModeExercice_ENREG - Terminologies de Santé v1.6.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J117-ModeExercice-ENREG/FHIR/JDV-J117-ModeExercice-ENREG | *Version*:20210827120000 | |
-| Active as of 2021-08-27 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J117_ModeExercice_ENREG |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J117-ModeExercice-ENREG/FHIR/JDV-J117-ModeExercice-ENREG | *Version*:20260202120000 | |
+| Active as of 2026-02-02 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J117_ModeExercice_ENREG |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.188 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J117-ModeExercice-ENREG",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2025-07-02T17:04:50.842+00:00",
+    "versionId" : "5",
+    "lastUpdated" : "2026-02-03T10:17:51.845+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
@@ -77,11 +77,11 @@ Requête sur le SMT
       "value" : "urn:oid:1.2.250.1.213.1.6.1.188"
     }
   ],
-  "version" : "20210827120000",
+  "version" : "20260202120000",
   "name" : "JDV_J117_ModeExercice_ENREG",
   "status" : "active",
   "experimental" : false,
-  "date" : "2021-08-27T12:00:00+01:00",
+  "date" : "2026-02-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Mode d'exercice pour ENREG",
   "jurisdiction" : [
@@ -110,6 +110,10 @@ Requête sur le SMT
           {
             "code" : "B",
             "display" : "Bénévole"
+          },
+          {
+            "code" : "I",
+            "display" : "Indirect"
           }
         ]
       }
