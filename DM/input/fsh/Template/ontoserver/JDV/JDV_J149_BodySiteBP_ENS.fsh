@@ -1,8 +1,8 @@
 ValueSet: JDV_J149_BodySiteBP_ENS
 Id: JDV-J149-BodySiteBP-ENS
 Description: "JDV pour la localisation de la mesure de la pression artérielle"
-* ^meta.versionId = "5"
-* ^meta.lastUpdated = "2025-07-02T17:05:10.084+00:00"
+* ^meta.versionId = "6"
+* ^meta.lastUpdated = "2025-12-18T16:47:39.232+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -16,5 +16,5 @@ Description: "JDV pour la localisation de la mesure de la pression artérielle"
 * ^date = "2024-09-27T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
-* SNOMED_CT#8205005 "poignet"
-* SNOMED_CT#53120007 "membre supérieur"
+* SNOMED_CT#8205005
+* SNOMED_CT#53120007

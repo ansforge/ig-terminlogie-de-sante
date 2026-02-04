@@ -1,8 +1,8 @@
 ValueSet: JDV_J117_ModeExercice_ENREG
 Id: JDV-J117-ModeExercice-ENREG
 Description: "Mode d'exercice pour ENREG"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2025-07-02T17:04:50.842+00:00"
+* ^meta.versionId = "5"
+* ^meta.lastUpdated = "2026-02-03T10:17:51.845+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,12 +10,13 @@ Description: "Mode d'exercice pour ENREG"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J117-ModeExercice-ENREG/FHIR/JDV-J117-ModeExercice-ENREG"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.188"
-* ^version = "20210827120000"
+* ^version = "20260202120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2021-08-27T12:00:00+01:00"
+* ^date = "2026-02-02T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R23-ModeExercice#S "Salarié"
 * $TRE-R23-ModeExercice#L "Libéral, indépendant, artisan, commerçant"
 * $TRE-R23-ModeExercice#B "Bénévole"
+* $TRE-R23-ModeExercice#I "Indirect"

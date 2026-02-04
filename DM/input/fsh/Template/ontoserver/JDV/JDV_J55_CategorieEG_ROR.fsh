@@ -1,8 +1,8 @@
 ValueSet: JDV_J55_CategorieEG_ROR
 Id: JDV-J55-CategorieEG-ROR
 Description: "Catégories d'établissements FINESS ou hors FINESS et secteurs d'activité des cabinets"
-* ^meta.versionId = "15"
-* ^meta.lastUpdated = "2025-07-02T17:06:37.014+00:00"
+* ^meta.versionId = "16"
+* ^meta.lastUpdated = "2025-12-18T16:47:52.362+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,10 +10,10 @@ Description: "Catégories d'établissements FINESS ou hors FINESS et secteurs d'
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J55-CategorieEG-ROR/FHIR/JDV-J55-CategorieEG-ROR"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.65"
-* ^version = "20250425120000"
+* ^version = "20251222120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-04-25T12:00:00+01:00"
+* ^date = "2025-12-22T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R66-CategorieEtablissement#101 "Centre hospitalier régional (CHR)"
@@ -71,7 +71,7 @@ Description: "Catégories d'établissements FINESS ou hors FINESS et secteurs d'
 * $TRE-R66-CategorieEtablissement#224 "Etablissement de consultation pré et post-natale"
 * $TRE-R66-CategorieEtablissement#228 "Centre de santé sexuelle"
 * $TRE-R66-CategorieEtablissement#230 "Etablissement consultation protection infantile"
-* $TRE-R66-CategorieEtablissement#231 "Etablissement d'information, de consultation et de conseil familial"
+* $TRE-R66-CategorieEtablissement#231 "Espaces de vie affective, relationnelle et sexuelle (EVARS)"
 * $TRE-R66-CategorieEtablissement#236 "Centre de placement familial socio-éducatif (CPFSE)"
 * $TRE-R66-CategorieEtablissement#238 "Centre d'accueil familial spécialisé"
 * $TRE-R66-CategorieEtablissement#241 "Établissement de Placement"
@@ -165,7 +165,7 @@ Description: "Catégories d'établissements FINESS ou hors FINESS et secteurs d'
 * $TRE-R66-CategorieEtablissement#612 "Autre laboratoire de biologie médicale sans FSE"
 * $TRE-R66-CategorieEtablissement#614 "Dispositif Spécifique Régional du Cancer (DSRC)"
 * $TRE-R66-CategorieEtablissement#616 "Services de Prévention et de Santé au Travail (SPST)"
-* $TRE-R66-CategorieEtablissement#617 "Maison médicale de garde (MMG)"
+* $TRE-R66-CategorieEtablissement#617 "Lieu de soins non programmés"
 * $TRE-R66-CategorieEtablissement#618 "Autre structure de soins non programmés (SNP)"
 * $TRE-R66-CategorieEtablissement#620 "Pharmacie d'officine"
 * $TRE-R66-CategorieEtablissement#624 "Laboratoire pharmaceutique préparant et délivrant des allergènes"
@@ -189,6 +189,7 @@ Description: "Catégories d'établissements FINESS ou hors FINESS et secteurs d'
 * $TRE-R66-CategorieEtablissement#646 "Centre de Vaccination Internationale"
 * $TRE-R66-CategorieEtablissement#647 "Equipe de Soins Spécialisés"
 * $TRE-R66-CategorieEtablissement#648 "Structure qui contribue au Service d'Accès aux Soins"
+* $TRE-R66-CategorieEtablissement#649 "Centre de santé et de médiation en santé sexuelle"
 * $TRE-R66-CategorieEtablissement#695 "Groupement de coopération sanitaire de moyens - Exploitant"
 * $TRE-R66-CategorieEtablissement#696 "Groupement de coopération sanitaire de moyens"
 * $TRE-R66-CategorieEtablissement#697 "Groupement de coopération sanitaire, Etablissement de santé"
@@ -198,6 +199,7 @@ Description: "Catégories d'établissements FINESS ou hors FINESS et secteurs d'
 * $TRE-R66-CategorieEtablissement#701 "Maison des adolescents (MDA)"
 * $TRE-R66-CategorieEtablissement#702 "Point Accueil Ecoute Jeunes (PAEJ)"
 * $TRE-R66-CategorieEtablissement#703 "Espace Santé Jeunes (ESJ)"
+* $TRE-R66-CategorieEtablissement#704 "Autre service territorial"
 * $TRE-R02-SecteurActivite#SA05 "Centre de santé"
 * $TRE-R02-SecteurActivite#SA07 "Cabinet individuel"
 * $TRE-R02-SecteurActivite#SA08 "Cabinet de groupe"

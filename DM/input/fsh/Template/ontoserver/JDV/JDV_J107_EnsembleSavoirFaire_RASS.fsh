@@ -1,21 +1,21 @@
 ValueSet: JDV_J107_EnsembleSavoirFaire_RASS
 Id: JDV-J107-EnsembleSavoirFaire-RASS
 Description: "Ensemble des savoir-faire et compétences du RASS"
-* ^meta.versionId = "9"
-* ^meta.lastUpdated = "2025-07-02T17:04:44.812+00:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^meta.versionId = "11"
+* ^meta.lastUpdated = "2025-12-22T10:46:26.045+01:00"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2019-08-30T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J107-EnsembleSavoirFaire-RASS/FHIR/JDV-J107-EnsembleSavoirFaire-RASS"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.175"
-* ^version = "20241025120000"
+* ^version = "20251222120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2024-10-25T12:00:00+01:00"
+* ^date = "2025-12-22T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-R38-SpecialiteOrdinale#SI01 "Exercice infirmier en pratique avancée pathologies chroniques stabilisées (SI)"
 * $TRE-R38-SpecialiteOrdinale#SI02 "Exercice infirmier en pratique avancée oncologie et hémato-oncologie (SI)"
 * $TRE-R38-SpecialiteOrdinale#SI03 "Exercice infirmier en pratique avancée maladie rénale chronique (SI)"
@@ -281,4 +281,5 @@ Description: "Ensemble des savoir-faire et compétences du RASS"
 * $TRE-R359-SurspecialiteTransversale#SST24 "Sommeil"
 * $TRE-R359-SurspecialiteTransversale#SST25 "Thérapie cellulaire/ transfusion"
 * $TRE-R359-SurspecialiteTransversale#SST26 "Urgences pédiatriques"
+* $TRE-R359-SurspecialiteTransversale#SST27 "Innovation et recherche en sciences biologiques et pharmaceutiques"
 * $tre-r394-competence-metier#CM0001 "Certificat de décès"

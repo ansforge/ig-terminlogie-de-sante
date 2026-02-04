@@ -1,30 +1,33 @@
 CodeSystem: TRE_R21_Fonction
 Id: TRE-R21-Fonction
 Description: "Fonction"
-* ^meta.versionId = "8"
-* ^meta.lastUpdated = "2025-07-02T18:13:49.053+00:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^meta.versionId = "11"
+* ^meta.lastUpdated = "2026-02-03T15:41:54.783+01:00"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2007-07-25T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R21-Fonction/FHIR/TRE-R21-Fonction"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.17"
-* ^version = "20250623120000"
+* ^version = "20260202120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-06-23T12:00:00+01:00"
+* ^date = "2026-02-02T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
-* ^count = 54
+* ^count = 57
 * ^property[0].code = #dateValid
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateMaj
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj"
 * ^property[=].description = "Date de mise à jour d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateFin
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin"
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #deprecationDate
@@ -532,6 +535,7 @@ Description: "Fonction"
 * #FON-59 ^property[=].valueCode = #active
 * #FON-60 "Pharmacien remplaçant BPDO"
 * #FON-60 ^designation[0].language = #fr-FR
+* #FON-60 ^designation[=].use.system = "http://snomed.info/sct"
 * #FON-60 ^designation[=].use = $sct#900000000000013009
 * #FON-60 ^designation[=].value = "Pharmacien remplaçant Bonnes Pratiques de Dispensation d'Oxygène"
 * #FON-60 ^property[0].code = #dateValid
@@ -540,6 +544,30 @@ Description: "Fonction"
 * #FON-60 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
 * #FON-60 ^property[+].code = #status
 * #FON-60 ^property[=].valueCode = #active
+* #FON-61 "Prestataire de Services" "Un professionnel intervenant en prestation de services exerce au sein d’une structure, de façon ponctuelle ou continue, en mettant à disposition ses compétences, ses moyens ou son expertise pour le compte d’un tiers, qu’il s’agisse d’un établissement, d’un organisme, d’une structure ou d’un autre professionnel. Cette intervention s’effectue sans aucun lien de subordination avec la structure bénéficiaire et repose sur un contrat de prestation qui définit précisément la nature des actes réalisés, les modalités d’intervention ainsi que la rémunération associée. Selon son statut, le professionnel peut exercer en son nom propre lorsqu’il agit en tant qu’entrepreneur individuel indépendant, assumant directement la responsabilité de la prestation, ou intervenir en tant que salarié d’une société, cette dernière étant alors la signataire du contrat conclu avec la structure bénéficiaire. Ce cadre permet d’encadrer des activités réalisées pour un tiers en dehors du salariat ou de l’exercice libéral direct, tout en garantissant des conditions d’intervention claires, formalisées et adaptées aux besoins de la structure sollicitante."
+* #FON-61 ^property[0].code = #dateValid
+* #FON-61 ^property[=].valueDateTime = "2026-02-02T12:00:00+01:00"
+* #FON-61 ^property[+].code = #dateMaj
+* #FON-61 ^property[=].valueDateTime = "2026-02-02T12:00:00+01:00"
+* #FON-61 ^property[+].code = #status
+* #FON-61 ^property[=].valueCode = #active
+* #FON-62 "Consultations de solidarité territoriale"
+* #FON-62 ^designation[0].language = #fr-FR
+* #FON-62 ^designation[=].use = $sct#900000000000013009
+* #FON-62 ^designation[=].value = "Fonction d'un médecin volontaire exerçant dans une zone rouge identifiée dans le cadre du pacte de solidarité (zone en manque de médecins traitants)"
+* #FON-62 ^property[0].code = #dateValid
+* #FON-62 ^property[=].valueDateTime = "2025-10-23T12:00:00+01:00"
+* #FON-62 ^property[+].code = #dateMaj
+* #FON-62 ^property[=].valueDateTime = "2025-10-23T12:00:00+01:00"
+* #FON-62 ^property[+].code = #status
+* #FON-62 ^property[=].valueCode = #active
+* #FON-63 "Coordonnateur en EPHAD" "Le code fonction FON‑63 « Coordonnateur en EPHAD » désigne l’exercice d’un professionnel de santé chargé d’assurer la coordination médicale au sein d’un EHPAD, en garantissant la cohérence, la continuité et l’organisation des prises en charge des résidents. Cette fonction regroupe l’ensemble des missions de coordination clinique, de suivi des parcours, d’élaboration et de mise en œuvre du projet de soins, ainsi que l’appui aux équipes soignantes dans l’application des bonnes pratiques gériatriques et l’amélioration de la qualité des soins. Le titulaire du code FON‑63 n’exerce pas d’activité de soins directs, mais intervient comme pivot du dispositif médical interne de l’établissement, en veillant à la cohérence des interventions des professionnels impliqués et à l’adaptation du projet de soins aux besoins des résidents. Cette fonction peut être exercée selon différents statuts, notamment salarié ou via un contrat spécifique, et constitue une activité clairement distincte de la prescription et du rôle de médecin traitant. L’enregistrement sous FON‑63 permet d’identifier précisément les professionnels qui assument cette responsabilité structurante dans l’organisation médicale des EHPAD."
+* #FON-63 ^property[0].code = #dateValid
+* #FON-63 ^property[=].valueDateTime = "2026-02-02T12:00:00+01:00"
+* #FON-63 ^property[+].code = #dateMaj
+* #FON-63 ^property[=].valueDateTime = "2026-02-02T12:00:00+01:00"
+* #FON-63 ^property[+].code = #status
+* #FON-63 ^property[=].valueCode = #active
 * #FON-AU "Fonction non définie"
 * #FON-AU ^property[0].code = #dateValid
 * #FON-AU ^property[=].valueDateTime = "2007-07-25T15:04:42+01:00"

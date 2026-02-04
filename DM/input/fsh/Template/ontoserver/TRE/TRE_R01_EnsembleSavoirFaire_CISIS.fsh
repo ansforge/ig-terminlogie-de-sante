@@ -1,29 +1,34 @@
 CodeSystem: TRE_R01_EnsembleSavoirFaire_CISIS
 Id: TRE-R01-EnsembleSavoirFaire-CISIS
 Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
-* ^meta.versionId = "10"
-* ^meta.lastUpdated = "2025-07-02T18:12:01.336+00:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^meta.versionId = "12"
+* ^meta.lastUpdated = "2026-02-03T15:41:54.070+01:00"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2012-04-12T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R01-EnsembleSavoirFaire-CISIS/FHIR/TRE-R01-EnsembleSavoirFaire-CISIS"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.71.4.2.5"
-* ^version = "20241213120000"
+* ^version = "20260202120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2024-12-13T12:00:00+01:00"
+* ^date = "2026-02-02T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
+* ^count = 326
 * ^property[0].code = #dateValid
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateMaj
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj"
 * ^property[=].description = "Date de mise à jour d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateFin
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin"
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #deprecationDate
@@ -3899,6 +3904,7 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SST25 ^property[=].valueCode = #active
 * #SST26 "Urgences pédiatriques (SST)"
 * #SST26 ^designation[0].language = #fr-FR
+* #SST26 ^designation[=].use.system = "http://snomed.info/sct"
 * #SST26 ^designation[=].use = $sct#900000000000013009
 * #SST26 ^designation[=].value = "Urgences pédiatriques"
 * #SST26 ^property[0].code = #dateValid
@@ -3907,3 +3913,13 @@ Description: "Ensemble Savoir-faire CI-SIS (TRE provisoire)"
 * #SST26 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
 * #SST26 ^property[+].code = #status
 * #SST26 ^property[=].valueCode = #active
+* #SST27 "Innovation et recherche en sciences biologiques et pharmaceutiques (SST)"
+* #SST27 ^designation[0].language = #fr-FR
+* #SST27 ^designation[=].use = $sct#900000000000013009
+* #SST27 ^designation[=].value = "Innovation et recherche en sciences biologiques et pharmaceutiques"
+* #SST27 ^property[0].code = #dateValid
+* #SST27 ^property[=].valueDateTime = "2026-02-02T12:00:00+01:00"
+* #SST27 ^property[+].code = #dateMaj
+* #SST27 ^property[=].valueDateTime = "2026-02-02T12:00:00+01:00"
+* #SST27 ^property[+].code = #status
+* #SST27 ^property[=].valueCode = #active

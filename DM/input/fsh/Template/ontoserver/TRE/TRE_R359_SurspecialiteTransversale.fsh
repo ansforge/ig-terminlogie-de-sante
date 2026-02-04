@@ -1,29 +1,33 @@
 CodeSystem: TRE_R359_SurspecialiteTransversale
 Id: TRE-R359-SurspecialiteTransversale
 Description: "Surspécialité (compétence) acquise par l'interne à l'issue d'une Formation Spécialisée Transversale (FST)"
-* ^meta.versionId = "6"
-* ^meta.lastUpdated = "2025-07-02T18:17:56.514+00:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^meta.versionId = "8"
+* ^meta.lastUpdated = "2025-12-22T10:46:45.929+01:00"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2023-10-30T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R359-SurspecialiteTransversale/FHIR/TRE-R359-SurspecialiteTransversale"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.2.76"
-* ^version = "20240531120000"
+* ^version = "20251222120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2024-05-31T12:00:00+01:00"
+* ^date = "2025-12-22T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
+* ^count = 27
 * ^property[0].code = #dateValid
-* ^property[=].description = "date de validité d'un code concept"
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
+* ^property[=].description = "Date de validité d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateMaj
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj"
 * ^property[=].description = "Date de mise à jour d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateFin
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin"
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #deprecationDate
@@ -282,3 +286,10 @@ Description: "Surspécialité (compétence) acquise par l'interne à l'issue d'u
 * #SST26 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
 * #SST26 ^property[+].code = #status
 * #SST26 ^property[=].valueCode = #active
+* #SST27 "Innovation et recherche en sciences biologiques et pharmaceutiques"
+* #SST27 ^property[0].code = #dateValid
+* #SST27 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #SST27 ^property[+].code = #dateMaj
+* #SST27 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #SST27 ^property[+].code = #status
+* #SST27 ^property[=].valueCode = #active
