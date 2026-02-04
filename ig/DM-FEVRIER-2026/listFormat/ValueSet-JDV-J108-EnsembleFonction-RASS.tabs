@@ -1,0 +1,120 @@
+<OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>  
+1.2.250.1.213.1.6.1.176;JDV;JDV_J108_EnsembleFonction_RASS.tabs;Ensemble des fonctions et rôles du RASS;https://mos.esante.gouv.fr/NOS/JDV_J108-EnsembleFonction-RASS;20190830120000;;20260202120000
+<OID>;<Code>;<Libellé>
+1.2.250.1.213.1.6.1.17;FON-01;Titulaire de cabinet
+1.2.250.1.213.1.6.1.17;FON-02;Associé dans une société d'exercice (SEL ou SCP)
+1.2.250.1.213.1.6.1.17;FON-03;Titulaire d'officine
+1.2.250.1.213.1.6.1.17;FON-04;Remplaçant du titulaire d'officine
+1.2.250.1.213.1.6.1.17;FON-05;Adjoint
+1.2.250.1.213.1.6.1.17;FON-07;Gérant après incapacité ou décès
+1.2.250.1.213.1.6.1.17;FON-09;Responsable d'établissement
+1.2.250.1.213.1.6.1.17;FON-15;Directeur de laboratoire
+1.2.250.1.213.1.6.1.17;FON-16;Directeur-adjoint de laboratoire
+1.2.250.1.213.1.6.1.17;FON-17;Collaborateur
+1.2.250.1.213.1.6.1.17;FON-18;Assistant
+1.2.250.1.213.1.6.1.17;FON-19;Praticien Conseil
+1.2.250.1.213.1.6.1.17;FON-21;Médecin scolaire
+1.2.250.1.213.1.6.1.17;FON-22;Remplaçant, intérimaire, intermittent
+1.2.250.1.213.1.6.1.17;FON-23;Gérant
+1.2.250.1.213.1.6.1.17;FON-24;Médecin de santé publique
+1.2.250.1.213.1.6.1.17;FON-29;Médecin du travail
+1.2.250.1.213.1.6.1.17;FON-32;Régulateur libéral
+1.2.250.1.213.1.6.1.17;FON-33;Salarié en poste fixe
+1.2.250.1.213.1.6.1.17;FON-36;Délégué
+1.2.250.1.213.1.6.1.17;FON-37;Gérant de PUI
+1.2.250.1.213.1.6.1.17;FON-39;Exercice en PMI
+1.2.250.1.213.1.6.1.17;FON-40;Biologiste responsable
+1.2.250.1.213.1.6.1.17;FON-41;Biologiste médical
+1.2.250.1.213.1.6.1.17;FON-42;Assistant collaborateur
+1.2.250.1.213.1.6.1.17;FON-43;Cadre de santé
+1.2.250.1.213.1.6.1.17;FON-45;Directeur des soins
+1.2.250.1.213.1.6.1.17;FON-46;Enseignant salarié
+1.2.250.1.213.1.6.1.17;FON-47;Etudiant remplaçant, adjoint
+1.2.250.1.213.1.6.1.17;FON-48;Interne
+1.2.250.1.213.1.6.1.17;FON-49;Pharmacien responsable BPDO
+1.2.250.1.213.1.6.1.17;FON-50;Pharmacien adjoint BPDO
+1.2.250.1.213.1.6.1.17;FON-51;Remplacement partiel
+1.2.250.1.213.1.6.1.17;FON-52;Etudiant militaire
+1.2.250.1.213.1.6.1.17;FON-54;Permanence des soins ambulatoires hors cabinet
+1.2.250.1.213.1.6.1.17;FON-55;Participation libérale aux missions de service public d'un ES
+1.2.250.1.213.1.6.1.17;FON-56;Intervention libérale dans le cadre d'un GCS
+1.2.250.1.213.1.6.1.17;FON-57;Docteur junior
+1.2.250.1.213.1.6.1.17;FON-58;Activité en piscine ou bassin
+1.2.250.1.213.1.6.1.17;FON-59;Gérant d'antenne
+1.2.250.1.213.1.6.1.17;FON-60;Pharmacien remplaçant BPDO
+1.2.250.1.213.1.6.1.17;FON-61;Prestataire de Services
+1.2.250.1.213.1.6.1.17;FON-62;Consultations de solidarité territoriale
+1.2.250.1.213.1.6.1.17;FON-63;Coordonnateur en EPHAD
+1.2.250.1.213.1.6.1.17;FON-AU;Fonction non définie
+1.2.250.1.213.1.6.1.110;407;Tatoueur
+1.2.250.1.213.1.6.1.110;408;Perceur corporel
+1.2.250.1.213.1.6.1.110;409;Maquilleur permanent
+1.2.250.1.213.1.6.1.107;300;Assistant de service social (PAERPA)
+1.2.250.1.213.1.6.1.107;301;Coordination territoriale d'appui (PAERPA)
+1.2.250.1.213.1.6.1.107;302;Aide et accompagnement à domicile (PAERPA)
+1.2.250.1.213.1.6.1.107;303;Avocat participant aux processus de soins sans consentement (eSSS)
+1.2.250.1.213.1.6.1.107;304;Assistant de service social (Expérimentation MAIA)
+1.2.250.1.213.1.6.1.107;305;Psychologue (Expérimentation MAIA)
+1.2.250.1.213.1.6.1.107;306;Psychothérapeute (Expérimentation MAIA)
+1.2.250.1.213.1.6.1.107;307;Mandataire judiciaire à la protection des majeurs (MJPM)
+1.2.250.1.213.1.6.1.107;308;Pilote MAIA
+1.2.250.1.213.1.6.1.107;309;Gestionnaire de cas MAIA
+1.2.250.1.213.1.6.1.107;310;Equipe médico-sociale APA
+1.2.250.1.213.1.6.1.107;311;Autre acteur mettant en oeuvre la méthode MAIA
+1.2.250.1.213.1.6.1.107;312;Autre professionnel
+1.2.250.1.213.1.6.1.107;313;Aide-soignant
+1.2.250.1.213.1.6.1.107;314;Ambulancier
+1.2.250.1.213.1.6.1.107;315;Auxiliaire de puériculture
+1.2.250.1.213.1.6.1.107;316;Préparateur en pharmacie hospitalière
+1.2.250.1.213.1.6.1.107;317;Préparateur en pharmacie (officine)
+1.2.250.1.213.1.6.1.107;319;Technicien de l'intervention sociale et familiale
+1.2.250.1.213.1.6.1.107;320;Conseiller en économie sociale et familiale
+1.2.250.1.213.1.6.1.107;321;Médiateur familial
+1.2.250.1.213.1.6.1.107;322;Assistant familial
+1.2.250.1.213.1.6.1.107;324;Moniteur éducateur
+1.2.250.1.213.1.6.1.107;325;Educateur de jeunes enfants
+1.2.250.1.213.1.6.1.107;326;Educateur spécialisé
+1.2.250.1.213.1.6.1.107;327;Educateur technique spécialisé
+1.2.250.1.213.1.6.1.107;328;Accompagnant éducatif et social
+1.2.250.1.213.1.6.1.107;329;Conseiller en génétique
+1.2.250.1.213.1.6.1.107;330;Coordonnateur de parcours
+1.2.250.1.213.1.6.1.107;331;Secrétaire assistante médico-administrative
+1.2.250.1.213.1.6.1.107;332;Assistant médical
+1.2.250.1.213.1.6.1.107;333;Responsable de secteur
+1.2.250.1.213.1.6.1.107;334;Biologiste médical ni médecin ni pharmacien
+1.2.250.1.213.1.6.1.107;335;Gestionnaire alertes et urgences sanitaires
+1.2.250.1.213.1.6.1.107;336;Autre professionnel intervenant dans l'accueil et l'orientation des personnes
+1.2.250.1.213.1.6.1.107;337;Autre professionnel intervenant dans la logistique
+1.2.250.1.213.1.6.1.107;338;Autre professionnel intervenant dans l'hôtellerie et la restauration
+1.2.250.1.213.1.6.1.107;339;Autre professionnel intervenant dans la direction de la qualité, hygiène, sécurité et environnement
+1.2.250.1.213.1.6.1.107;340;Autre professionnel intervenant dans la direction des systèmes d'information
+1.2.250.1.213.1.6.1.107;341;Autre professionnel intervenant dans la direction des finances et comptabilité
+1.2.250.1.213.1.6.1.107;342;Autre professionnel intervenant dans la direction de la communication
+1.2.250.1.213.1.6.1.107;343;Autre professionnel intervenant dans la direction des ressources humaines
+1.2.250.1.213.1.6.1.107;344;Autre professionnel intervenant dans la direction des affaires médicales
+1.2.250.1.213.1.6.1.107;345;Autre professionnel intervenant dans le social, éducatif, psychologie et culturel
+1.2.250.1.213.1.6.1.107;346;Etudiant - infirmier
+1.2.250.1.213.1.6.1.107;347;Etudiant - aide-soignant
+1.2.250.1.213.1.6.1.107;348;Etudiant - auxiliaire de puériculture
+1.2.250.1.213.1.6.1.107;349;Etudiant - masseur-kinésithérapeute
+1.2.250.1.213.1.6.1.107;351;Assistant(e) maternel(le)
+1.2.250.1.213.1.6.1.107;353;Membre de l'équipe de soins
+1.2.250.1.213.1.6.1.107;354;Externe en médecine
+1.2.250.1.213.1.6.1.107;355;Externe en odontologie
+1.2.250.1.213.1.6.1.107;356;Externe en maïeutique
+1.2.250.1.213.1.6.1.107;357;Externe en pharmacie
+1.2.250.1.213.1.6.1.107;358;Autre étudiant
+1.2.250.1.213.1.6.1.107;359;Directeur d'établissement
+1.2.250.1.213.1.6.1.107;360;Brancardier
+1.2.250.1.213.1.6.1.107;361;Educateur en activité physique adaptée
+1.2.250.1.213.1.6.1.107;362;Technicien d'informations médicales
+1.2.250.1.213.1.6.1.107;363;Attaché de recherche clinique
+1.2.250.1.213.1.6.1.107;364;Praticien A Diplôme Hors Union Européenne (PADHUE)
+1.2.250.1.213.1.6.1.107;365;Gestionnaire admissions / frais de séjour / traitement externe
+1.2.250.1.213.1.6.1.107;366;Archiviste
+1.2.250.1.213.1.6.1.107;367;Surveillant de nuit
+1.2.250.1.213.1.6.1.107;368;Animateur
+1.2.250.1.213.1.6.1.107;370;Opérateur de Soins Non Programmés
+1.2.250.1.213.1.6.1.107;371;Aide à domicile qualifié(e)
+1.2.250.1.213.1.6.1.107;372;Aide à domicile
+1.2.250.1.213.1.6.1.107;374;Agent d'autorité d'enregistrement
