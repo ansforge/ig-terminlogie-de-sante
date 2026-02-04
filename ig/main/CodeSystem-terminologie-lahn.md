@@ -9,7 +9,7 @@
 | | | |
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/terminologie-lahn | *Version*:2025 v1.0 | |
-| Active as of 2026-02-03 | *Responsible:*Agence du numérique en santé | *Computable Name*:LAHN |
+| Active as of 2026-02-04 | *Responsible:*Agence du numérique en santé | *Computable Name*:LAHN |
 | *Other Identifiers:*OID:1.2.250.1.213.2.79 (use: usual, ), https://smt.esante.gouv.fr/#terminologie-lahn (use: secondary, ) | | |
 | **Copyright/Legal**: [LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md) | | |
 
@@ -18,7 +18,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* Cette terminologie de référence (CodeSystem) nest pas utilisée ici; elle peut être utilisée ailleurs (par exemple spécifications et/ou implémentations qui utilisent ce contenu)
+* Cette terminologie de référence (CodeSystem) n'est pas utilisée ici; elle peut être utilisée ailleurs (par exemple spécifications et/ou implémentations qui utilisent ce contenu)
 
 
 
@@ -53,7 +53,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
   "title" : "Liste des Actes Inovants Hors Nomenclature",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-03T09:51:06+00:00",
+  "date" : "2026-02-04T05:12:01+00:00",
   "publisher" : "Agence du numérique en santé",
   "description" : "La liste des actes innovants hors nomenclature (LAHN) a été mise en place par la direction générale de l’offre de soins (DGOS) en 2024, dans le cadre du développement de l’innovation en santé. Elle est la fusion du RIHN et de la Liste Complémentaire (LC). L’objectif est de soutenir l’innovation et de la dynamiser par une prise en charge et une évaluation rapide des actes innovants. La LAHN contient une liste d’actes innovants (biologie et anatomocytopathologie) pris en charge à titre transitoire moyennant un recueil de données pour leur évaluation.",
   "jurisdiction" : [

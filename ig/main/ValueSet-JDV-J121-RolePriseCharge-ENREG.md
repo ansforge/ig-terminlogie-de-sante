@@ -17,7 +17,7 @@ Code des rôles et fonctions pour l’application ENREG
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J121-RolePriseCharge-ENREG",
   "meta" : {
-    "versionId" : "12",
-    "lastUpdated" : "2026-02-03T10:17:52.447+01:00",
+    "versionId" : "13",
+    "lastUpdated" : "2026-02-03T15:46:07.721+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]

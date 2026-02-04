@@ -29,8 +29,8 @@ Ensemble Savoir-faire CI-SIS (TRE provisoire)
   "resourceType" : "CodeSystem",
   "id" : "TRE-R01-EnsembleSavoirFaire-CISIS",
   "meta" : {
-    "versionId" : "11",
-    "lastUpdated" : "2026-02-03T09:57:53.906+01:00",
+    "versionId" : "12",
+    "lastUpdated" : "2026-02-03T15:41:54.070+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]

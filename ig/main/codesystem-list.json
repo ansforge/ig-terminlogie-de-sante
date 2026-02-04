@@ -2838,7 +2838,7 @@
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-nuva",
-      "version" : "1.0.1052",
+      "version" : "1.0.1063",
       "status" : "active",
       "name" : "NUVA",
       "title" : "Nomenclature Unifiée des Vaccins",
@@ -2847,7 +2847,7 @@
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-sms",
-      "version" : "2026-01",
+      "version" : "2026-02",
       "status" : "active",
       "name" : "Dictionnaire_SMS_Substance_Management_Services_",
       "title" : "Dictionnaire européen multilingue des substances entrant dans la composition de médicaments",

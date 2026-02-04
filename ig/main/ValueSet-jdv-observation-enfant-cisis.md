@@ -17,7 +17,7 @@ JDV Observation Enfant CISIS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -32,6 +32,8 @@ Requête sur le SMT
  
 
 ### Expansion
+
+No Expansion for this valueset (not supported by Publication Tooling)
 
 -------
 

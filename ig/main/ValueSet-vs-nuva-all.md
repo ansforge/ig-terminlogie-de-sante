@@ -9,14 +9,14 @@
 | | | |
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/terminologie-nuva?vs | *Version*:20241106120000 | |
-| Active as of 2026-02-03 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ValueSet_NUVA_All |
+| Active as of 2026-02-04 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ValueSet_NUVA_All |
 
  
 Ce jeu de valeurs inclut tous les codes concepts de la terminologie NUVA 
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -66,7 +66,7 @@ Requête sur le SMT
   "name" : "ValueSet_NUVA_All",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-03T09:51:06+00:00",
+  "date" : "2026-02-04T05:12:01+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Ce jeu de valeurs inclut tous les codes concepts de la terminologie NUVA",
   "jurisdiction" : [

@@ -9,7 +9,7 @@
 | | | |
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/terminologie-cim11-mms | *Version*:2025-01 | |
-| Active as of 2026-02-03 | *Responsible:*Agence du numérique en santé | *Computable Name*:CIM11_MMS |
+| Active as of 2026-02-04 | *Responsible:*Agence du numérique en santé | *Computable Name*:CIM11_MMS |
 | *Other Identifiers:*OID:2.16.840.1.113883.6.347 (use: usual, ), https://smt.esante.gouv.fr/#terminologie-cim11-mms (use: secondary, ) | | |
 | **Copyright/Legal**: [CC BY-ND 3.0 IGO](https://creativecommons.org/licenses/by-nd/3.0/igo/legalcode) | | |
 
@@ -18,7 +18,7 @@ La Classification Internationale des Maladies (CIM) dans sa 11ème révision per
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* Cette terminologie de référence (CodeSystem) nest pas utilisée ici; elle peut être utilisée ailleurs (par exemple spécifications et/ou implémentations qui utilisent ce contenu)
+* Cette terminologie de référence (CodeSystem) n'est pas utilisée ici; elle peut être utilisée ailleurs (par exemple spécifications et/ou implémentations qui utilisent ce contenu)
 
 
 
@@ -53,7 +53,7 @@ La Classification Internationale des Maladies (CIM) dans sa 11ème révision per
   "title" : "Classification internationale des maladies et des problèmes de santé connexes - 11ème révision",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-03T09:51:06+00:00",
+  "date" : "2026-02-04T05:12:01+00:00",
   "publisher" : "Agence du numérique en santé",
   "description" : "La Classification Internationale des Maladies (CIM) dans sa 11ème révision permet d’établir, partout dans le monde, les statistiques sanitaires. Fournissant un langage commun pour alimenter les dossiers patients électroniques, la CIM11 permet d’échanger des données médicales de manière cohérente et normalisée pour de nombreux cas d’usage (production de soins, coordination professionnelle, pilotage, et exploitation de données)",
   "jurisdiction" : [

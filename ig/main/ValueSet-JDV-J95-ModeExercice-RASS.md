@@ -17,7 +17,7 @@ Modes d’exercice du professionnel du RASS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J95-ModeExercice-RASS",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2026-02-03T10:17:55.579+01:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-02-03T15:46:08.578+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]

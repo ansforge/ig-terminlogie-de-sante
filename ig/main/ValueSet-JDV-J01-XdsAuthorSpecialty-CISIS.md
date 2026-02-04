@@ -17,7 +17,7 @@ XDS authorSpecialty CI-SIS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J01-XdsAuthorSpecialty-CISIS",
   "meta" : {
-    "versionId" : "15",
-    "lastUpdated" : "2026-02-03T10:17:48.769+01:00",
+    "versionId" : "16",
+    "lastUpdated" : "2026-02-03T15:46:04.640+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]

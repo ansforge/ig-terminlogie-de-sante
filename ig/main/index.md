@@ -8,7 +8,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies | *Version*:1.6.0 |
-| Active as of 2026-02-03 | *Computable Name*:Terminologies |
+| Active as of 2026-02-04 | *Computable Name*:Terminologies |
 
 Dans ce guide, nous retrouvons l’ensemble des terminologies de santé et jeux de valeurs plubliés par l’ANS :
 
@@ -214,7 +214,7 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
 
 ### Cross Version Analysis
 
-Ceci est un IG R4. Aucune des fonctionnalités quil utilise nest modifiée dans R4B, il peut donc être utilisé tel quel avec les systèmes R4B. Les packages pour [R4 (ans.fr.terminologies.r4)](package.r4.tgz) et [R4B (ans.fr.terminologies.r4b)](package.r4b.tgz) sont disponibles.
+Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dans R4B, il peut donc être utilisé tel quel avec les systèmes R4B. Les packages pour [R4 (ans.fr.terminologies.r4)](package.r4.tgz) et [R4B (ans.fr.terminologies.r4b)](package.r4b.tgz) sont disponibles.
 
 ### Dépendances
 
@@ -238,7 +238,7 @@ Ceci est un IG R4. Aucune des fonctionnalités quil utilise nest modifiée dans 
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2026-02-03T09:51:06+00:00",
+  "date" : "2026-02-04T05:12:01+00:00",
   "publisher" : "ANS",
   "contact" : [
     {

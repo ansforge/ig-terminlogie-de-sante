@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/terminologie-sms | *Version*:2026-01 | |
-| Active as of 2026-01-08 | *Responsible:*Agence du numérique en santé | *Computable Name*:Dictionnaire_SMS_Substance_Management_Services_ |
+| *Official URL*:https://smt.esante.gouv.fr/terminologie-sms | *Version*:2026-02 | |
+| Active as of 2026-02-03 | *Responsible:*Agence du numérique en santé | *Computable Name*:Dictionnaire_SMS_Substance_Management_Services_ |
 | *Other Identifiers:*OID:2.16.840.1.113883.3.6905.2 (use: usual, ), https://smt.esante.gouv.fr/#terminologie-sms (use: secondary, ) | | |
 | **Copyright/Legal**: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode) | | |
 
@@ -29,8 +29,8 @@ Le dictionnaire des substances ou SMS a été conçu par l’European Medicines 
   "resourceType" : "CodeSystem",
   "id" : "terminologie-sms",
   "meta" : {
-    "versionId" : "25",
-    "lastUpdated" : "2026-01-08T12:01:37.388+01:00",
+    "versionId" : "26",
+    "lastUpdated" : "2026-02-03T12:46:37.207+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
@@ -48,12 +48,12 @@ Le dictionnaire des substances ou SMS a été conçu par l’European Medicines 
       "value" : "terminologie-sms"
     }
   ],
-  "version" : "2026-01",
+  "version" : "2026-02",
   "name" : "Dictionnaire_SMS_Substance_Management_Services_",
   "title" : "Dictionnaire européen multilingue des substances entrant dans la composition de médicaments",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-01-08T10:00:00+00:00",
+  "date" : "2026-02-03T10:00:00+00:00",
   "publisher" : "Agence du numérique en santé",
   "description" : "Le dictionnaire des substances ou SMS a été conçu par l’European Medicines Agency (EMA) dans le cadre d’une démarche qualité. Ce dictionnaire contient les substances entrant dans la composition de médicaments destinés à un humain et/ou vétérinaire.",
   "jurisdiction" : [
@@ -69,7 +69,7 @@ Le dictionnaire des substances ou SMS a été conçu par l’European Medicines 
   "copyright" : "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode)",
   "valueSet" : "https://smt.esante.gouv.fr/terminologie-sms?vs",
   "content" : "not-present",
-  "count" : 71149,
+  "count" : 71257,
   "filter" : [
     {
       "code" : "root",

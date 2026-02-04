@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-bdpm | *Version*:1.0.1052 | |
-| Active as of 2026-01-07 | *Responsible:*[Agence du numérique en santé](https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-bdpm) | *Computable Name*:Alignement_Codes_NUVA_CIS_CIP_BDMP |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-bdpm | *Version*:1.0.1063 | |
+| Active as of 2026-02-03 | *Responsible:*[Agence du numérique en santé](https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-bdpm) | *Computable Name*:Alignement_Codes_NUVA_CIS_CIP_BDMP |
 | **Usage:**Workflow Task: alignement des données | | |
 
 
@@ -21,8 +21,8 @@
   "resourceType" : "ConceptMap",
   "id" : "alignement-nuva-bdpm",
   "meta" : {
-    "versionId" : "17",
-    "lastUpdated" : "2026-01-07T14:23:06.944+01:00",
+    "versionId" : "18",
+    "lastUpdated" : "2026-02-03T16:01:10.985+01:00",
     "tag" : [
       {
         "system" : "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
@@ -32,11 +32,11 @@
     ]
   },
   "url" : "https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-bdpm",
-  "version" : "1.0.1052",
+  "version" : "1.0.1063",
   "name" : "Alignement_Codes_NUVA_CIS_CIP_BDMP",
   "title" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM",
   "status" : "active",
-  "date" : "2026-01-07",
+  "date" : "2026-02-03",
   "publisher" : "Agence du numérique en santé",
   "contact" : [
     {
