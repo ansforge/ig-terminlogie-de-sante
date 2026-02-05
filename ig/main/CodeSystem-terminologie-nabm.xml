@@ -3,8 +3,8 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="terminologie-nabm"/>
   <meta>
-    <versionId value="13"/>
-    <lastUpdated value="2026-01-19T11:12:31.509+01:00"/>
+    <versionId value="13.1770200109788"/>
+    <lastUpdated value="2026-02-04T11:15:09.788+01:00"/>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"/>
   </meta>
   <text>

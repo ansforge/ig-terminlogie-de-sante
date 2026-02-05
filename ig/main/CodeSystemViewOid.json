@@ -280,6 +280,14 @@
     "status" : "active"
   },
   {
+    "id" : "terminologie-cladimed",
+    "name" : "ClaDiMed",
+    "title" : "Classification des dispositifs médicaux",
+    "url" : "https://smt.esante.gouv.fr/terminologie-cladimed",
+    "identifier" : "urn:oid:1.2.250.1.213.2.65",
+    "status" : "active"
+  },
+  {
     "id" : "condition-clinical",
     "name" : "ConditionClinicalStatusCodes",
     "title" : "Condition Clinical Status Codes",

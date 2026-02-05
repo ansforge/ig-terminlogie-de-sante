@@ -32,8 +32,8 @@ La Classification Commune des Actes Médicaux est la terminologie de facturation
   "resourceType" : "CodeSystem",
   "id" : "terminologie-ccam",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2026-01-05T11:41:56.589+01:00",
+    "versionId" : "8.1770200078157",
+    "lastUpdated" : "2026-02-04T11:14:38.157+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]

@@ -29,8 +29,8 @@ La Classification Internationale des Maladies (CIM) permet d’établir les stat
   "resourceType" : "CodeSystem",
   "id" : "terminologie-cim-10",
   "meta" : {
-    "versionId" : "8.1760088527280",
-    "lastUpdated" : "2025-10-10T11:28:47.280+02:00",
+    "versionId" : "8.1770199823535",
+    "lastUpdated" : "2026-02-04T11:10:23.535+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]

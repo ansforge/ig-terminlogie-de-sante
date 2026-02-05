@@ -8718,6 +8718,14 @@
     "oids" : ["2.16.840.1.113883.6.139"]
   },
   {
+    "id" : "terminologie-cladimed",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/terminologie-cladimed",
+    "version" : "v15",
+    "name" : "ClaDiMed",
+    "oids" : ["1.2.250.1.213.2.65"]
+  },
+  {
     "id" : "terminologie-emdn",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-emdn",
@@ -8729,7 +8737,7 @@
     "id" : "terminologie-lahn",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/terminologie-lahn",
-    "version" : "2025 v1.0",
+    "version" : "2026 v1.0",
     "name" : "LAHN",
     "oids" : ["1.2.250.1.213.2.79"]
   },

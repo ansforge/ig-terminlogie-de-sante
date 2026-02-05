@@ -10,8 +10,8 @@
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "terminologie-nabm"] ; # 
   fhir:meta [
-     fhir:versionId [ fhir:v "13" ] ;
-     fhir:lastUpdated [ fhir:v "2026-01-19T11:12:31.509+01:00"^^xsd:dateTime ] ;
+     fhir:versionId [ fhir:v "13.1770200109788" ] ;
+     fhir:lastUpdated [ fhir:v "2026-02-04T11:15:09.788+01:00"^^xsd:dateTime ] ;
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"^^xsd:anyURI ;
        fhir:l <http://hl7.org/fhir/StructureDefinition/shareablecodesystem?version=4.0.1>

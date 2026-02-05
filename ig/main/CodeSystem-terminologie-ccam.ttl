@@ -10,8 +10,8 @@
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "terminologie-ccam"] ; # 
   fhir:meta [
-     fhir:versionId [ fhir:v "8" ] ;
-     fhir:lastUpdated [ fhir:v "2026-01-05T11:41:56.589+01:00"^^xsd:dateTime ] ;
+     fhir:versionId [ fhir:v "8.1770200078157" ] ;
+     fhir:lastUpdated [ fhir:v "2026-02-04T11:14:38.157+01:00"^^xsd:dateTime ] ;
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"^^xsd:anyURI ;
        fhir:l <http://hl7.org/fhir/StructureDefinition/shareablecodesystem?version=4.0.1>

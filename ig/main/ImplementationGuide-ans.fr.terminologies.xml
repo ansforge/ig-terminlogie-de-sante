@@ -11,7 +11,7 @@
   <name value="Terminologies"/>
   <title value="Terminologies  de Santé"/>
   <status value="active"/>
-  <date value="2026-02-04T05:12:01+00:00"/>
+  <date value="2026-02-05T05:19:06+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -18615,6 +18615,17 @@
       </reference>
       <name value="Classification Commune des Actes Médicaux"/>
       <description value="La Classification Commune des Actes Médicaux est la terminologie de facturation créée et maintenue par la CNAM."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/terminologie-cladimed"/>
+      </reference>
+      <name value="Classification des dispositifs médicaux"/>
+      <description value="La classification CLADIMED décrit le domaine des produits de santé (dispositifs médicaux (DM) et autres produits de santé (hors médicaments)). C’est une classification mono axiale inspirée de la classification internationale ATC des médicaments (Anatomique, Thérapeutique, Chimique)."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

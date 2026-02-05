@@ -1608,6 +1608,78 @@
     "descriptionProperty" : "Indicates if this concept is a root concept (i.e. Thing is equivalent or a direct parent)."
   },
   {
+    "id" : "terminologie-cladimed",
+    "name" : "ClaDiMed",
+    "title" : "Classification des dispositifs médicaux",
+    "url" : "https://smt.esante.gouv.fr/terminologie-cladimed",
+    "identifier" : "urn:oid:1.2.250.1.213.2.65",
+    "status" : "active",
+    "codeProperty" : "type",
+    "uriProperty" : "http://purl.org/dc/elements/1.1/type",
+    "typeProperty" : "string",
+    "descriptionProperty" : "Type fonctionnel d'un concept"
+  },
+  {
+    "id" : "terminologie-cladimed",
+    "name" : "ClaDiMed",
+    "title" : "Classification des dispositifs médicaux",
+    "url" : "https://smt.esante.gouv.fr/terminologie-cladimed",
+    "identifier" : "urn:oid:1.2.250.1.213.2.65",
+    "status" : "active",
+    "codeProperty" : "comment",
+    "uriProperty" : "http://www.w3.org/2000/01/rdf-schema#comment",
+    "typeProperty" : "string",
+    "descriptionProperty" : null
+  },
+  {
+    "id" : "terminologie-cladimed",
+    "name" : "ClaDiMed",
+    "title" : "Classification des dispositifs médicaux",
+    "url" : "https://smt.esante.gouv.fr/terminologie-cladimed",
+    "identifier" : "urn:oid:1.2.250.1.213.2.65",
+    "status" : "active",
+    "codeProperty" : "parent",
+    "uriProperty" : "http://hl7.org/fhir/concept-properties#parent",
+    "typeProperty" : "code",
+    "descriptionProperty" : "Codes des parents du concept courant"
+  },
+  {
+    "id" : "terminologie-cladimed",
+    "name" : "ClaDiMed",
+    "title" : "Classification des dispositifs médicaux",
+    "url" : "https://smt.esante.gouv.fr/terminologie-cladimed",
+    "identifier" : "urn:oid:1.2.250.1.213.2.65",
+    "status" : "active",
+    "codeProperty" : "child",
+    "uriProperty" : "http://hl7.org/fhir/concept-properties#child",
+    "typeProperty" : "code",
+    "descriptionProperty" : "Codes des enfants du concept courant"
+  },
+  {
+    "id" : "terminologie-cladimed",
+    "name" : "ClaDiMed",
+    "title" : "Classification des dispositifs médicaux",
+    "url" : "https://smt.esante.gouv.fr/terminologie-cladimed",
+    "identifier" : "urn:oid:1.2.250.1.213.2.65",
+    "status" : "active",
+    "codeProperty" : "imported",
+    "uriProperty" : null,
+    "typeProperty" : "boolean",
+    "descriptionProperty" : "Indicates if the concept is imported from another code system."
+  },
+  {
+    "id" : "terminologie-cladimed",
+    "name" : "ClaDiMed",
+    "title" : "Classification des dispositifs médicaux",
+    "url" : "https://smt.esante.gouv.fr/terminologie-cladimed",
+    "identifier" : "urn:oid:1.2.250.1.213.2.65",
+    "status" : "active",
+    "codeProperty" : "root",
+    "uriProperty" : null,
+    "typeProperty" : "boolean",
+    "descriptionProperty" : "Indicates if this concept is a root concept (i.e. Thing is equivalent or a direct parent)."
+  },
+  {
     "id" : "v3-Confidentiality",
     "name" : "Confidentiality",
     "title" : "Confidentiality",
@@ -2037,6 +2109,18 @@
     "codeProperty" : "note",
     "uriProperty" : "http://www.w3.org/2004/02/skos/core#note",
     "typeProperty" : "string",
+    "descriptionProperty" : null
+  },
+  {
+    "id" : "terminologie-lahn",
+    "name" : "LAHN",
+    "title" : "Liste des Actes Inovants Hors Nomenclature",
+    "url" : "https://smt.esante.gouv.fr/terminologie-lahn",
+    "identifier" : "urn:oid:1.2.250.1.213.2.79",
+    "status" : "active",
+    "codeProperty" : "prixMaximal",
+    "uriProperty" : "http://www.data.esante.gouv.fr/DGOS/LAHN/prixMaximal",
+    "typeProperty" : "decimal",
     "descriptionProperty" : null
   },
   {

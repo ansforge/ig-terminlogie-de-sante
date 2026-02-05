@@ -329,6 +329,7 @@
 * [Classification internationale des maladies et des problèmes de santé connexes - 11ème révision](CodeSystem-terminologie-cim11-mms.md)
 * [TerminologieCISIS - Terminologie des concepts non trouvés dans les autres terminologies](CodeSystem-terminologie-cisis.md)
 * [Classification internationale des soins primaires - 2ème version](CodeSystem-terminologie-cisp.md)
+* [Classification des dispositifs médicaux](CodeSystem-terminologie-cladimed.md)
 * [European Medical device nomenclature](CodeSystem-terminologie-emdn.md)
 * [Liste des Actes Inovants Hors Nomenclature](CodeSystem-terminologie-lahn.md)
 * [Nomenclature des actes de biologie médicale](CodeSystem-terminologie-nabm.md)

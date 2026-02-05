@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/terminologie-lahn | *Version*:2025 v1.0 | |
-| Active as of 2026-02-04 | *Responsible:*Agence du numérique en santé | *Computable Name*:LAHN |
+| *Official URL*:https://smt.esante.gouv.fr/terminologie-lahn | *Version*:2026 v1.0 | |
+| Active as of 2026-02-05 | *Responsible:*Agence du numérique en santé | *Computable Name*:LAHN |
 | *Other Identifiers:*OID:1.2.250.1.213.2.79 (use: usual, ), https://smt.esante.gouv.fr/#terminologie-lahn (use: secondary, ) | | |
 | **Copyright/Legal**: [LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md) | | |
 
@@ -29,8 +29,8 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
   "resourceType" : "CodeSystem",
   "id" : "terminologie-lahn",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2025-11-18T17:19:42.810+01:00",
+    "versionId" : "5",
+    "lastUpdated" : "2026-02-04T16:07:18.237+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
@@ -48,12 +48,12 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
       "value" : "terminologie-lahn"
     }
   ],
-  "version" : "2025 v1.0",
+  "version" : "2026 v1.0",
   "name" : "LAHN",
   "title" : "Liste des Actes Inovants Hors Nomenclature",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-04T05:12:01+00:00",
+  "date" : "2026-02-05T05:19:06+00:00",
   "publisher" : "Agence du numérique en santé",
   "description" : "La liste des actes innovants hors nomenclature (LAHN) a été mise en place par la direction générale de l’offre de soins (DGOS) en 2024, dans le cadre du développement de l’innovation en santé. Elle est la fusion du RIHN et de la Liste Complémentaire (LC). L’objectif est de soutenir l’innovation et de la dynamiser par une prise en charge et une évaluation rapide des actes innovants. La LAHN contient une liste d’actes innovants (biologie et anatomocytopathologie) pris en charge à titre transitoire moyennant un recueil de données pour leur évaluation.",
   "jurisdiction" : [
@@ -69,7 +69,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
   "copyright" : "[LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md)",
   "valueSet" : "https://smt.esante.gouv.fr/terminologie-lahn?vs",
   "content" : "complete",
-  "count" : 766,
+  "count" : 767,
   "filter" : [
     {
       "code" : "root",
@@ -108,6 +108,11 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
       "code" : "note",
       "uri" : "http://www.w3.org/2004/02/skos/core#note",
       "type" : "string"
+    },
+    {
+      "code" : "prixMaximal",
+      "uri" : "http://www.data.esante.gouv.fr/DGOS/LAHN/prixMaximal",
+      "type" : "decimal"
     },
     {
       "code" : "deprecated",
@@ -152,7 +157,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -161,6 +166,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "En attente d'une modification potentielle du libellé de l'acte NABM [1805] prenant en compte les autres liquides biologiques que le sang."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 10.8
         }
       ]
     },
@@ -178,7 +187,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -187,6 +196,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Par dilution d'un d'allergène testé. Examen utile dans le cas ou la recherche d'IgE spécifiques n'est pas contributive. Standardisation nationale des modalités opératoires en cours. Acte à encadrer pour le contrôle de la prescription et des étapes analytiques et post-analytique"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -204,11 +217,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 18.9
         }
       ]
     },
@@ -235,6 +252,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 32.4
         }
       ]
     },
@@ -252,7 +273,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -261,6 +282,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Indication: protéine(s) déjà connue(s) pour être en lien avec la pathologie héréditaire recherchée."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 162.0
         }
       ]
     },
@@ -291,6 +316,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 67.5
         }
       ]
     },
@@ -308,7 +337,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -317,6 +346,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Spécialisé"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 35.1
         }
       ]
     },
@@ -334,7 +367,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -343,6 +376,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "En attente d'une modification potentielle du libellé de l'acte NABM [0514] prenant en compte les autres liquides biologiques que le sang."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 5.4
         }
       ]
     },
@@ -360,7 +397,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -369,6 +406,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Identification d'anomalies spécifiques dans les sarcomes"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 162.0
         }
       ]
     },
@@ -399,6 +440,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 124.2
         }
       ]
     },
@@ -425,6 +470,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 40.5
         }
       ]
     },
@@ -451,6 +500,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 40.5
         }
       ]
     },
@@ -468,7 +521,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -477,6 +530,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Mesure de l'apoptose par annexine v (par couple annexine v + Ac ou IP) sur culture de lymphocytes T activés"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 540.0
         }
       ]
     },
@@ -494,7 +551,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -503,6 +560,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Inclut la quantification des glycosaminoglycanes totaux et analyse qualitative des 4 espèces majoritaires des mucopolysaccharides"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 135.0
         }
       ]
     },
@@ -520,11 +581,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 29.7
         }
       ]
     },
@@ -542,7 +607,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -551,6 +616,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "En attente d'une modification potentielle du libellé de l'acte NABM [0334] prenant en compte les autres liquides biologiques que le sang."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 16.2
         }
       ]
     },
@@ -568,7 +637,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -577,6 +646,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Spécialisé"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 37.8
         }
       ]
     },
@@ -594,11 +667,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 81.0
         }
       ]
     },
@@ -616,7 +693,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -625,6 +702,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Identification d'anomalies spécifiques dans les sarcomes"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 162.0
         }
       ]
     },
@@ -642,11 +723,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 18.9
         }
       ]
     },
@@ -664,11 +749,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 243.0
         }
       ]
     },
@@ -686,11 +775,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 13.5
         }
       ]
     },
@@ -717,6 +810,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 18.9
         }
       ]
     },
@@ -734,7 +831,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -743,6 +840,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Par technique séparative"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 135.0
         }
       ]
     },
@@ -760,7 +861,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -769,6 +870,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "En attente d'une modification potentielle du libellé de l'acte NABM [1135] prenant en compte les autres liquides biologiques que le sang."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 24.3
         }
       ]
     },
@@ -786,7 +891,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -795,6 +900,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "En attente d'une modification potentielle du libellé de l'acte NABM [0473] prenant en compte les autres liquides biologiques que le sang."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 37.8
         }
       ]
     },
@@ -825,6 +934,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 35.1
         }
       ]
     },
@@ -842,7 +955,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -851,6 +964,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Identification d'anomalies spécifiques dans les sarcomes"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 162.0
         }
       ]
     },
@@ -877,6 +994,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 110.7
         }
       ]
     },
@@ -903,6 +1024,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -920,7 +1045,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -929,6 +1054,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Fusion des actes [A030], [A031], [A032], [A033]."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 89.6
         }
       ]
     },
@@ -946,11 +1075,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 37.8
         }
       ]
     },
@@ -968,11 +1101,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 135.0
         }
       ]
     },
@@ -990,7 +1127,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -999,6 +1136,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "En attente d'une modification potentielle du libellé de l'acte NABM [0472] prenant en compte les autres liquides biologiques que le sang."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 37.8
         }
       ]
     },
@@ -1016,7 +1157,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -1025,6 +1166,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Hors BCR-ABL [1035 de la NABM]. Par exemple :  CCND1, EVI1, TLX1/3, CRLF, DEK-CAN, STAT3, FLT3…"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 113.4
         }
       ]
     },
@@ -1051,6 +1196,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 108.0
         }
       ]
     },
@@ -1068,7 +1217,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -1077,6 +1226,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Identification d'anomalies spécifiques dans les sarcomes"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 162.0
         }
       ]
     },
@@ -1107,6 +1260,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 5.4
         }
       ]
     },
@@ -1124,11 +1281,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -1146,7 +1307,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -1155,6 +1316,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation. Examen simple de dépistage d'une anomalie des phospholipides plaquettaires (syndrome de Scott)"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 6.75
         }
       ]
     },
@@ -1185,6 +1350,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 37.8
         }
       ]
     },
@@ -1202,7 +1371,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -1211,6 +1380,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Inclus : contrôle pré-analyse, extraction, quelle que soit la méthode, amplification du gène (partiel ou complet) par PCR simple ou nichée, contrôle rapide de PCR sur gel d'agarose, réaction de séquence, analyse des données, interprétation et rendu des résultats. Une cotation par séquence"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 270.0
         }
       ]
     },
@@ -1228,7 +1401,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -1237,6 +1410,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Observation longue car cette technique est indiquée en cas de spermatozoïdes présentant un très fort pourcentage d'anomalies morphologiques. Permet la sélection à fort grossissement (X 6000) des spermatozoïdes sans anomalies morphologiques à injecter dans l'ovocyte. Une seule cotation qui s'ajoute à l'acte NABM ICSI [0061]."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 256.5
         }
       ]
     },
@@ -1254,7 +1431,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -1263,6 +1440,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Par molécule. Acte devant être encadré pour sa prescription et les étapes pré et post analytiques"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -1280,11 +1461,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -1302,7 +1487,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -1311,6 +1496,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Intérêt de dépister en cas de pathologie acquise un risque thrombotique"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 16.2
         }
       ]
     },
@@ -1328,7 +1517,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -1337,6 +1526,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Inclus : contrôle pré-analyse, extraction, quelle que soit la méthode, amplification du gène (partiel ou complet) par PCR simple ou nichée, contrôle rapide de PCR sur gel d'agarose, réaction de séquence, analyse des données, interprétation et rendu des résultats. Une cotation par séquence"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 405.0
         }
       ]
     },
@@ -1354,11 +1547,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 783.0
         }
       ]
     },
@@ -1376,7 +1573,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -1385,6 +1582,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "En attente d'une modification potentielle du libellé de l'acte NABM [0517] prenant en compte les autres liquides biologiques que le sang."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 5.4
         }
       ]
     },
@@ -1402,7 +1603,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -1411,6 +1612,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 121.5
         }
       ]
     },
@@ -1428,7 +1633,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -1437,6 +1642,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Réserve hépatique ou évaluation post-opératoire"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 40.5
         }
       ]
     },
@@ -1454,11 +1663,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 550.0
         }
       ]
     },
@@ -1476,11 +1689,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 270.0
         }
       ]
     },
@@ -1498,7 +1715,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -1507,6 +1724,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Spécialisé"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -1524,7 +1745,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -1533,6 +1754,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation. Utilité diagnostique démontrée en biologie médicale. Impact sur la prise en charge thérapeutique"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 37.8
         }
       ]
     },
@@ -1550,7 +1775,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -1559,6 +1784,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Ce test correspond à évaluer la possibilité de trouver des spermatozoïdes\" utilisables\" pour une IMSI ultérieure"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 108.0
         }
       ]
     },
@@ -1618,7 +1847,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -1627,6 +1856,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 37.8
         }
       ]
     },
@@ -1644,7 +1877,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -1653,6 +1886,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "[K157] et [K158] : même mesure mais méthodes différentes. Dosage également en turbidimétrie ; interprétation biologique nécessitant une expertise, à associer avec exploration de la mévalonate kinase"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 10.8
         }
       ]
     },
@@ -1670,7 +1907,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -1679,6 +1916,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une cotation par métal ou autre élément dosé"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 32.4
         }
       ]
     },
@@ -1696,7 +1937,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -1705,6 +1946,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "En attente d'une modification potentielle du libellé de l'acte NABM [1818] prenant en compte les autres liquides biologiques que le sang."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 16.2
         }
       ]
     },
@@ -1722,11 +1967,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 78.3
         }
       ]
     },
@@ -1744,7 +1993,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -1753,6 +2002,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation. Détection des infections ostéo-articulaires"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 62.1
         }
       ]
     },
@@ -1800,11 +2053,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 54.0
         }
       ]
     },
@@ -1822,11 +2079,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 18.9
         }
       ]
     },
@@ -1844,11 +2105,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 18.9
         }
       ]
     },
@@ -1866,7 +2131,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -1875,6 +2140,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "A réaliser au sein de laboratoires accrédités par l'European Federation for Imunogenetics (EFI)"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 135.0
         }
       ]
     },
@@ -1892,7 +2161,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -1901,6 +2170,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Fusion des actes [L137], [L142] et [L183]. En attente d'une modification potentielle du libellé de l'acte NABM [0530] prenant en compte les autres liquides biologiques que le sang."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 8.1
         }
       ]
     },
@@ -1918,7 +2191,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -1927,6 +2200,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "La culture des prélèvements augmente la sensibilité du diagnostic"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 40.5
         }
       ]
     },
@@ -1944,7 +2221,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -1953,6 +2230,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Prise en charge des gliomes"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 116.1
         }
       ]
     },
@@ -1970,11 +2251,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 5.4
         }
       ]
     },
@@ -1992,7 +2277,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -2001,6 +2286,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Identification d'anomalies spécifiques dans les sarcomes"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 297.0
         }
       ]
     },
@@ -2068,7 +2357,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -2077,6 +2366,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Fusion des actes [L113] et [L181]. En attente d'une modification potentielle du libellé de l'acte NABM [0591] prenant en compte les autres liquides biologiques que le sang."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 2.7
         }
       ]
     },
@@ -2094,11 +2387,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -2116,7 +2413,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -2125,6 +2422,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Au moins les 22 acides aminés nutritionnels"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 135.0
         }
       ]
     },
@@ -2142,7 +2443,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -2151,6 +2452,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 37.8
         }
       ]
     },
@@ -2168,7 +2473,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -2177,6 +2482,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "En attente d'une modification potentielle du libellé de l'acte NABM [1816] prenant en compte les autres liquides biologiques que le sang."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 10.8
         }
       ]
     },
@@ -2203,6 +2512,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 40.5
         }
       ]
     },
@@ -2220,11 +2533,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 54.0
         }
       ]
     },
@@ -2255,6 +2572,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -2272,7 +2593,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -2281,6 +2602,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "(comprend le design des oligonucléotides, la commande et l'analyse en PCRq des parents et du propositus)"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 378.0
         }
       ]
     },
@@ -2298,7 +2623,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -2307,6 +2632,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "De C22 à C26 minimum"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 135.0
         }
       ]
     },
@@ -2324,7 +2653,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -2333,6 +2662,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation. Marqueur d'activation de la coagulation (activation de la prothrombine)"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 37.8
         }
       ]
     },
@@ -2350,11 +2683,19 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "note",
+          "valueString" : "Dans la prise en charge du CBNPC, l'acte n'est pas à coder au RIHN, car il doit être intégré dans le panel."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 116.1
         }
       ]
     },
@@ -2372,7 +2713,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -2381,6 +2722,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Identification d'anomalies spécifiques dans les sarcomes"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 229.5
         }
       ]
     },
@@ -2398,7 +2743,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -2407,6 +2752,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Fusion des actes [L003] et [L130] en attente d'une modification potentielle du libellé de l'acte NABM [0547] prenant en compte les autres liquides biologiques que le sang."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -2424,11 +2773,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 13.5
         }
       ]
     },
@@ -2480,11 +2833,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -2515,6 +2872,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 12.15
         }
       ]
     },
@@ -2542,7 +2903,18 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
     },
     {
       "code" : "K026",
-      "display" : "C3 nephritic factor (Ac anti C3 convertase alterne) par technique hémolytique",
+      "display" : "C3 nephritic factor (Ac anti C3 convertase alterne) par technique néphélométrique",
+      "designation" : [
+        {
+          "language" : "fr",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "C3 nephritic factor (Ac anti C3 convertase alterne) par technique hémolytique"
+        }
+      ],
       "property" : [
         {
           "code" : "parent",
@@ -2554,7 +2926,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -2562,7 +2934,11 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "note",
-          "valueString" : "Examens de première intention ;  réalisation technique et interprétation biologique nécessitant une expertise"
+          "valueString" : "En attente d'inscription à la NABM."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 81.0
         }
       ]
     },
@@ -2593,6 +2969,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 135.0
         }
       ]
     },
@@ -2610,7 +2990,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -2619,6 +2999,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Spécialisé"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 54.0
         }
       ]
     },
@@ -2636,7 +3020,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -2645,6 +3029,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Avec plafonnement à 5 éléments par prélèvement"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 32.4
         }
       ]
     },
@@ -2662,7 +3050,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -2671,6 +3059,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Non cumulable avec acte [M117]"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 81.0
         }
       ]
     },
@@ -2688,11 +3080,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 108.0
         }
       ]
     },
@@ -2710,11 +3106,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 81.0
         }
       ]
     },
@@ -2732,11 +3132,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 54.0
         }
       ]
     },
@@ -2754,11 +3158,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 81.0
         }
       ]
     },
@@ -2776,7 +3184,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -2785,6 +3193,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 37.8
         }
       ]
     },
@@ -2802,7 +3214,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -2811,6 +3223,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "En attente de l'intégration potentielle au sein de l'acte NABM [5292] de l'identification de Légionella par agglutination"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 16.2
         }
       ]
     },
@@ -2828,7 +3244,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -2837,6 +3253,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Quelle que soit la technique (ELISA, spectrométrie de masse…) par dosage d'un isoforme"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 54.0
         }
       ]
     },
@@ -2854,7 +3274,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -2863,6 +3283,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Ce forfait concerne la confirmation du caractère délétère d'une mutation identifiée par l'analyse de l'ADN génomique lorsque le gène s'exprime dans un tissu non accessible."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 810.0
         }
       ]
     },
@@ -2880,7 +3304,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -2889,6 +3313,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Marqueur prédictif dans les glioblastomes"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 137.7
         }
       ]
     },
@@ -2915,6 +3343,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -2932,7 +3364,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -2941,6 +3373,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "En attente d'une modification potentielle du libellé de l'acte NABM [1819] prenant en compte les autres liquides biologiques que le sang."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 10.8
         }
       ]
     },
@@ -3216,11 +3652,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 54.0
         }
       ]
     },
@@ -3238,7 +3678,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -3246,7 +3686,11 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "note",
-          "valueString" : "Une cotation par dosage. Examen de première intention"
+          "valueString" : "En attente d'inscription à la NABM"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 10.8
         }
       ]
     },
@@ -3264,7 +3708,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -3273,6 +3717,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "[K157] et [K158] : même mesure mais méthodes différentes. Dosage également en turbidimétrie ; interprétation biologique nécessitant une expertise, à associer avec exploration de la mévalonate kinase"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 18.9
         }
       ]
     },
@@ -3290,7 +3738,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -3299,6 +3747,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Non cumulable avec acte [M116]"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 135.0
         }
       ]
     },
@@ -3316,11 +3768,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 81.0
         }
       ]
     },
@@ -3338,11 +3794,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 81.0
         }
       ]
     },
@@ -3360,7 +3820,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -3369,6 +3829,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Acte devant être encadré pour sa prescription et les étapes pré et post analytiques"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 256.5
         }
       ]
     },
@@ -3386,11 +3850,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 18.9
         }
       ]
     },
@@ -3408,7 +3876,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -3417,6 +3885,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Fusion des actes [G176] et [G177]. A réaliser selon standards EFI"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 189.0
         }
       ]
     },
@@ -3434,11 +3906,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 81.0
         }
       ]
     },
@@ -3465,6 +3941,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -3482,7 +3962,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -3491,6 +3971,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "En attente d'une modification potentielle du libellé de l'acte NABM [2258] prenant en compte les autres liquides biologiques que le sang."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 2.7
         }
       ]
     },
@@ -3508,7 +3992,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -3517,6 +4001,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Ce forfait concerne la confirmation du caractère délétère d'une mutation identifiée par analyse de l'ADN génomique en étudiant les ARN ou les protéines du patient."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 135.0
         }
       ]
     },
@@ -3534,11 +4022,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -3565,6 +4057,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 18.9
         }
       ]
     },
@@ -3582,7 +4078,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -3591,6 +4087,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation. A réaliser seulement si acte [0173]] diminué. A réserver à centre de référence ou centre expert."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 37.8
         }
       ]
     },
@@ -3608,7 +4108,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -3617,6 +4117,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Fusion des actes [N400], [N401], [N402] et [N403]"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 207.9
         }
       ]
     },
@@ -3634,7 +4138,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -3643,6 +4147,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Indique le caractère sporadique de cancers avec instabilité des microsatellites"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 137.7
         }
       ]
     },
@@ -3673,6 +4181,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 54.0
         }
       ]
     },
@@ -3690,11 +4202,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 40.5
         }
       ]
     },
@@ -3712,11 +4228,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 18.9
         }
       ]
     },
@@ -3734,11 +4254,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 81.0
         }
       ]
     },
@@ -3770,11 +4294,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 18.9
         }
       ]
     },
@@ -3792,7 +4320,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -3801,6 +4329,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Pas d'EEQ. Technique actuelle ICPMS .Intérêt dans interventions thyroïde."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 24.3
         }
       ]
     },
@@ -3818,7 +4350,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -3827,6 +4359,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Identification d'anomalies spécifiques dans les sarcomes"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 229.5
         }
       ]
     },
@@ -3844,7 +4380,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -3853,6 +4389,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une cotation par lame"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 56.0
         }
       ]
     },
@@ -3870,7 +4410,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -3879,6 +4419,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Comprenant les acides lactiques, pyruvique, 3-hydroxy-butirique et acéto-acétique"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 32.4
         }
       ]
     },
@@ -3896,7 +4440,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -3905,6 +4449,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation. Recommandations du CRMH, en cours de rédaction, préconiseront le dosage antigènique en complément de la caractérisation phénotypique basée sur les mesures d’activité, afin de reconnaître les hémophiles CRM."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 37.8
         }
       ]
     },
@@ -3948,11 +4496,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -3970,11 +4522,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 18.9
         }
       ]
     },
@@ -3992,7 +4548,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -4001,6 +4557,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Fusion des actes [G174] et [G175]. A réaliser selon standards EFI"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 67.5
         }
       ]
     },
@@ -4018,7 +4578,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -4027,6 +4587,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Indications : hors indications des actes 4084, 4085, 4086, 4087 et 4088 de la NABM et selon les recommandations de la HAS"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 362.88
         }
       ]
     },
@@ -4044,7 +4608,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -4053,6 +4617,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Typage des amyloses"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 200.0
         }
       ]
     },
@@ -4070,11 +4638,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 81.0
         }
       ]
     },
@@ -4092,7 +4664,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -4101,6 +4673,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Pour une stimulation. 10 stimulations maximum. Acte devant être encadré pour sa prescription et les étapes pré et post analytiques"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 64.8
         }
       ]
     },
@@ -4118,7 +4694,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -4127,6 +4703,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Cotation totale maximale limitée à 24 Ac, y compris CD3, CD4, CD8 et CD45. Ne pas comptabiliser les contrôles isotypiques et les Ac de fenêtrage inclus dans le code NABM [1122]. Acte devant être encadré pour sa prescription et les étapes pré et post analytiques"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -4144,7 +4724,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -4153,6 +4733,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Par isotype"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 18.9
         }
       ]
     },
@@ -4170,7 +4754,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -4179,6 +4763,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Identification d'anomalies spécifiques dans les sarcomes"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 229.5
         }
       ]
     },
@@ -4196,7 +4784,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -4205,6 +4793,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -4222,7 +4814,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -4231,6 +4823,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Examen macroscopique et histologique après bloc paraffine de la moelle épinière"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 33.6
         }
       ]
     },
@@ -4248,7 +4844,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -4257,6 +4853,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Hors exome et génome entier, pour séquence < 500 kb"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 270.0
         }
       ]
     },
@@ -4274,7 +4874,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -4283,6 +4883,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation. Permet une caractérisation complète du diagnostic de déficit en facteur XI"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 37.8
         }
       ]
     },
@@ -4300,7 +4904,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -4309,6 +4913,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Profil de 6 porphyrines minimum"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 135.0
         }
       ]
     },
@@ -4326,11 +4934,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 40.5
         }
       ]
     },
@@ -4362,7 +4974,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -4371,6 +4983,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Analyse ultra spécialisée"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 135.0
         }
       ]
     },
@@ -4388,11 +5004,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 81.0
         }
       ]
     },
@@ -4410,7 +5030,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -4419,6 +5039,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Par cible. Acte devant être encadré pour sa prescription et les étapes pré et post analytiques"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 270.0
         }
       ]
     },
@@ -4436,7 +5060,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -4445,6 +5069,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Concerne un nombre limité de maladies héréditaires pour lesquelles la recherche de réarragements récurrents reste nécessaire au diagnostic (ex: Amyotrophie spinale). Permet également l'évaluation des gains ou pertes alleliques dans les leucémies ou lymphomes."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 234.9
         }
       ]
     },
@@ -4462,7 +5090,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -4470,7 +5098,11 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "note",
-          "valueString" : "L'acte n'est pas à coder au RAHN lorsqu'il s'agit d'un acte dans des indications de cancers bronchiques"
+          "valueString" : "Dans la prise en charge du CBNPC, l'acte n'est pas à coder au RIHN, car il doit être intégré dans le panel, sauf en cas d'urgence, où une approche monogénique est à privilégier (source HAS)"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 110.7
         }
       ]
     },
@@ -4488,7 +5120,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -4497,6 +5129,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Identification d'anomalies spécifiques dans les sarcomes"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 297.0
         }
       ]
     },
@@ -4514,7 +5150,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -4523,6 +5159,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "De C2 à C18 minimum"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 135.0
         }
       ]
     },
@@ -4540,7 +5180,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -4549,6 +5189,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 37.8
         }
       ]
     },
@@ -4566,7 +5210,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -4575,6 +5219,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Analyse ultra spécialisée. Dosage sur cinétique longue, substrat FRET Fluorescence (ou Förster Resonance Energy Transfert) permet d'étudier des interactions entre deux molécules, les évènements de proximité dans les système biologique."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 135.0
         }
       ]
     },
@@ -4592,11 +5240,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 40.5
         }
       ]
     },
@@ -4614,11 +5266,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 54.0
         }
       ]
     },
@@ -4658,7 +5314,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -4667,6 +5323,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 40.5
         }
       ]
     },
@@ -4684,7 +5344,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -4693,6 +5353,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Spécialisé"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 54.0
         }
       ]
     },
@@ -4710,7 +5374,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -4719,6 +5383,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Fusion des actes [L009] et [L078]. Intérêt dans certaines neuropathies."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -4736,11 +5404,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 40.5
         }
       ]
     },
@@ -4758,7 +5430,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -4767,6 +5439,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Fusion des actes [N404], [N405] et [N406]"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 207.9
         }
       ]
     },
@@ -4784,7 +5460,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -4792,7 +5468,11 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "note",
-          "valueString" : "Indications : selon les indications de la HAS"
+          "valueString" : "Indications : selon les indications de la HAS\nEn attente de réévaluation."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 1849.5
         }
       ]
     },
@@ -4810,7 +5490,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -4819,6 +5499,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Identification d'anomalies spécifiques dans les sarcomes"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 229.5
         }
       ]
     },
@@ -4836,11 +5520,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 135.0
         }
       ]
     },
@@ -4900,11 +5588,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 18.9
         }
       ]
     },
@@ -4922,11 +5614,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 35.1
         }
       ]
     },
@@ -4944,7 +5640,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -4953,6 +5649,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une cotation par médicament ou toxique dosé"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 32.4
         }
       ]
     },
@@ -4970,7 +5670,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -4979,6 +5679,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "En attente d'une modification potentielle du libellé de l'acte NABM [1484] prenant en compte les autres liquides biologiques que le sang."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 40.5
         }
       ]
     },
@@ -5009,6 +5713,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 8.1
         }
       ]
     },
@@ -5026,7 +5734,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -5035,6 +5743,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Selon standards EFI"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 378.0
         }
       ]
     },
@@ -5051,12 +5763,20 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
           "valueDateTime" : "2025-01-01T00:00:00+00:00"
         },
         {
+          "code" : "modified",
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
+        },
+        {
           "code" : "type",
           "valueString" : "code"
         },
         {
           "code" : "note",
-          "valueString" : "Les indications suivantes ont été évaluées par la HAS permettant une exemption à la décote :\n\nhttps://www.has-sante.fr/upload/docs/application/pdf/2024-11/rapport_taan_igi_vd.pdf\nhttps://www.has-sante.fr/upload/docs/application/pdf/2024-12/rapport_taan_irb_vd.pdf\nhttps://www.has-sante.fr/upload/docs/application/pdf/2025-01/rapport_taan_inm_vd.pdf"
+          "valueString" : "Indications évaluées par la HAS permettant une exemption à la décote."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 170.1
         }
       ]
     },
@@ -5074,7 +5794,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -5083,6 +5803,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une cotation par nouveau antithrombotique. Dosage + courbe pour nouveaux antithrombotiques. test indispensable permettant d'évaluer la concentration du médicament afin d'évaluer le risque hémorragique pour les AOD et la zone thérapeutique pour les anti-thrombines administrés par voie IV"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 16.2
         }
       ]
     },
@@ -5100,7 +5824,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -5109,6 +5833,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation. Voir recommandations du Centre de référence Maladie de Willebrand : examen de 2nde intention pour la caractérisation d'une VWD"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 37.8
         }
       ]
     },
@@ -5126,7 +5854,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -5135,6 +5863,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Spécialisé. En attente d'une modification potentielle du libellé de l'acte NABM [7423] prenant en compte les autres liquides biologiques que le sang."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 48.6
         }
       ]
     },
@@ -5161,6 +5893,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 21.6
         }
       ]
     },
@@ -5178,7 +5914,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -5187,6 +5923,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Selon indications fixées par l'INCa et la DGOS\nLorsqu'il s'agit d'un acte qui concerne un test de détection des mutations génétiques [Test compagnon], l'acte n'est pas à coder au RAHN car il est inscrit à la CCAM et à la NABM :\nhttps://www.legifrance.gouv.fr/download/pdf?id=e1zu17CprDOqj9lE78rLBxw7vDZFNnoUYrgSjWmeUG4="
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 1503.9
         }
       ]
     },
@@ -5204,7 +5944,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -5213,6 +5953,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -5268,7 +6012,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -5277,6 +6021,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Marqueur de fibrose hépatique"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 35.1
         }
       ]
     },
@@ -5294,11 +6042,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 37.8
         }
       ]
     },
@@ -5316,7 +6068,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -5325,6 +6077,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Fusion des ancien code [K051] et [K052]. Examen de 1ere intention dans certaines indications pour le dosage sérique. Réalisation technique et interprétation biologique nécessitant une expertise"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 40.5
         }
       ]
     },
@@ -5342,11 +6098,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 54.0
         }
       ]
     },
@@ -5377,6 +6137,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 8.1
         }
       ]
     },
@@ -5393,12 +6157,20 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
           "valueDateTime" : "2025-01-01T00:00:00+00:00"
         },
         {
+          "code" : "modified",
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
+        },
+        {
           "code" : "type",
           "valueString" : "code"
         },
         {
           "code" : "note",
-          "valueString" : "Les indications suivantes ont été évaluées par la HAS permettant une exemption à la décote :\n\nhttps://www.has-sante.fr/upload/docs/application/pdf/2024-11/rapport_taan_igi_vd.pdf\nhttps://www.has-sante.fr/upload/docs/application/pdf/2024-12/rapport_taan_irb_vd.pdf\nhttps://www.has-sante.fr/upload/docs/application/pdf/2025-01/rapport_taan_inm_vd.pdf"
+          "valueString" : "Indications évaluées par la HAS permettant une exemption à la décote."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 135.0
         }
       ]
     },
@@ -5416,11 +6188,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 40.5
         }
       ]
     },
@@ -5438,7 +6214,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -5447,6 +6223,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation. Voir recommandations du Centre de référence Maladie de Willebrand : examen de 2nde intention pour la caractérisation d'une VWD"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 67.5
         }
       ]
     },
@@ -5464,7 +6244,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -5473,6 +6253,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation. Combinaison de 7 techniques alternatives : électrophorèse sur acétate de cellulose pH9, urée pH9, urée pH6, urée/triton, HPLC sur birad® Variant I, HPLC sur gel de silice en phase normale et phase inverse, électrophorèse capillaire de chaine dénaturante et  électrophorèse capillaire non dénaturante."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 97.2
         }
       ]
     },
@@ -5490,7 +6274,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -5499,6 +6283,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation. Voir recommandations du Centre de référence Maladie de Willebrand : examen de 2nde intention pour la caractérisation d'une VWD"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 48.6
         }
       ]
     },
@@ -5516,11 +6304,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -5538,7 +6330,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -5547,6 +6339,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Fusion des actes [L188] et [L193]. En attente d'une modification potentielle du libellé de l'acte NABM [0532] prenant en compte les autres liquides biologiques que le sang."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 2.7
         }
       ]
     },
@@ -5564,7 +6360,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -5573,6 +6369,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Selon indications fixées par l'INCa et la DGOS\nLorsqu'il s'agit d'un acte qui concerne un test de détection des mutations génétiques [Test compagnon], l'acte n'est pas à coder au RAHN car il est inscrit à la CCAM et à la NABM :\nhttps://www.legifrance.gouv.fr/download/pdf?id=e1zu17CprDOqj9lE78rLBxw7vDZFNnoUYrgSjWmeUG4="
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 2205.9
         }
       ]
     },
@@ -5590,7 +6390,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -5599,6 +6399,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Quelle que soit la technique (ELISA, spectrométrie de masse…) par dosage d'un isoforme"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 54.0
         }
       ]
     },
@@ -5698,7 +6502,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -5707,6 +6511,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 48.6
         }
       ]
     },
@@ -5895,6 +6703,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 16.2
         }
       ]
     },
@@ -5912,11 +6724,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 81.0
         }
       ]
     },
@@ -5934,11 +6750,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 32.4
         }
       ]
     },
@@ -5956,7 +6776,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -5965,6 +6785,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Même mesure , méthode analytique différente dont le choix dépend de la nature de l'échantilon, le nombre de tests d'un série. Un grand nombre de cytokines peuvent être dosées dans des situations cliniques très variées. Les données analytiques et l'efficacité et l'utilité cliniques sont très variables selon les cytokines et le contexte clinique. Quelques indications précises sont identifiées (IL-10 dans le LCR ou l'humeur vitrée pour le diagnostic de lymphome, IL-6 dans le LCR et SEP. D'autres doivent être évaluées."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 37.8
         }
       ]
     },
@@ -5982,7 +6806,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -5991,6 +6815,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Spécialisé"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 40.5
         }
       ]
     },
@@ -6008,7 +6836,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -6017,6 +6845,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Fait partie du diagnostic de déficit en antithrombine."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 10.8
         }
       ]
     },
@@ -6034,7 +6866,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -6043,6 +6875,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation. Ce test a son intérêt dans le syndrome de VWD acquis et la recherche d'alloAc chez les VWD type 3 mais les performances analytiques sont à valider."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 40.5
         }
       ]
     },
@@ -6060,7 +6896,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -6069,6 +6905,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation. Technique automatisée dans le cadre de l'accréditation"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 8.1
         }
       ]
     },
@@ -6086,11 +6926,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 54.0
         }
       ]
     },
@@ -6108,7 +6952,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -6117,6 +6961,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Sont définies pour chaque hémopathie maligne l'identification des cibles moléculaires et leur nombre"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 135.0
         }
       ]
     },
@@ -6143,6 +6991,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 13.5
         }
       ]
     },
@@ -6160,7 +7012,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -6169,6 +7021,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Fusion des actes [L010] et [L079]. Intérêt dans déficits immunitaires, hémodialysés, sujets fragilisés, maladies infectieuses, cardiopathies, intoxications alimentaires,….."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -6368,11 +7224,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 54.0
         }
       ]
     },
@@ -6390,7 +7250,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -6399,6 +7259,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Etape enzymatique préalable incluse"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 135.0
         }
       ]
     },
@@ -6416,11 +7280,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 18.9
         }
       ]
     },
@@ -6460,7 +7328,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -6469,6 +7337,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Validation d'un examen fondé sur une double PCR spécifique qualitative en temps réel"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 54.0
         }
       ]
     },
@@ -6486,7 +7358,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -6495,6 +7367,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une cotation par médicament ou toxique dosé"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 18.9
         }
       ]
     },
@@ -6512,11 +7388,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 81.0
         }
       ]
     },
@@ -6534,11 +7414,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 37.8
         }
       ]
     },
@@ -6556,7 +7440,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -6565,6 +7449,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Cet acte est à coupler avec une troponine haute sensibilité (diagnostic d'exclusion) et un ECG ne montrant pas un infarctus du myocarde."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 40.5
         }
       ]
     },
@@ -6582,11 +7470,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 37.8
         }
       ]
     },
@@ -6604,11 +7496,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 48.6
         }
       ]
     },
@@ -6625,12 +7521,20 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
           "valueDateTime" : "2025-01-01T00:00:00+00:00"
         },
         {
+          "code" : "modified",
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
+        },
+        {
           "code" : "type",
           "valueString" : "code"
         },
         {
           "code" : "note",
-          "valueString" : "Les indications suivantes ont été évaluées par la HAS permettant une exemption à la décote :\n\nhttps://www.has-sante.fr/upload/docs/application/pdf/2024-11/rapport_taan_igi_vd.pdf\nhttps://www.has-sante.fr/upload/docs/application/pdf/2024-12/rapport_taan_irb_vd.pdf\nhttps://www.has-sante.fr/upload/docs/application/pdf/2025-01/rapport_taan_inm_vd.pdf"
+          "valueString" : "Indications évaluées par la HAS permettant une exemption à la décote."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 270.0
         }
       ]
     },
@@ -6648,7 +7552,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -6657,6 +7561,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Analyse des multimères (méthode complexe). Une seule cotation. Voir recommandations du Centre de référence Maladie de Willebrand : examen de 2nde intention pour la caractérisation d'une VWD"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 135.0
         }
       ]
     },
@@ -6674,7 +7582,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -6683,6 +7591,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Par antiviral testé vis-à-vis d'un virus de la famille des Herpesviridae"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 94.5
         }
       ]
     },
@@ -6700,7 +7612,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -6709,6 +7621,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Selon indications fixées par l'INCa et la DGOS\nLorsqu'il s'agit d'un acte qui concerne un test de détection des mutations génétiques [Test compagnon], l'acte n'est pas à coder au RAHN car il est inscrit à la CCAM et à la NABM :\nhttps://www.legifrance.gouv.fr/download/pdf?id=e1zu17CprDOqj9lE78rLBxw7vDZFNnoUYrgSjWmeUG4="
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 882.9
         }
       ]
     },
@@ -6809,6 +7725,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 48.6
         }
       ]
     },
@@ -6835,6 +7755,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 110.7
         }
       ]
     },
@@ -6852,11 +7776,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 18.9
         }
       ]
     },
@@ -6874,7 +7802,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -6883,6 +7811,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Analyse ultra spécialisée"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 67.5
         }
       ]
     },
@@ -6900,11 +7832,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 18.9
         }
       ]
     },
@@ -6921,12 +7857,20 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
           "valueDateTime" : "2025-01-01T00:00:00+00:00"
         },
         {
+          "code" : "modified",
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
+        },
+        {
           "code" : "type",
           "valueString" : "code"
         },
         {
           "code" : "note",
-          "valueString" : "Les indications suivantes ont été évaluées par la HAS permettant une exemption à la décote :\nhttps://www.has-sante.fr/upload/docs/application/pdf/2025-02/rapport_shd_cardiomyopathies.pdf"
+          "valueString" : "Indications évaluées par la HAS permettant une exemption à la décote."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 882.9
         }
       ]
     },
@@ -6944,7 +7888,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -6952,7 +7896,11 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "note",
-          "valueString" : "Examens de première intention ;  réalisation technique et interprétation biologique nécessitant une expertise"
+          "valueString" : "En attente d'inscription à la NABM."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 18.9
         }
       ]
     },
@@ -6970,7 +7918,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -6979,6 +7927,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Mutations à impact diagnostique et/ou théranostique des syndromes lymphoprolifératifs et lymphomes non hodgkiniens (forfait 2 à 5) : MYD88 L265P, BRAF V600E, STAT3 exons 20 et 21, TP53 exons 4 à 9, NOTCH1 exon 34. Par cible"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 124.2
         }
       ]
     },
@@ -6996,7 +7948,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -7005,6 +7957,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "En attente d'une modification potentielle du libellé de l'acte NABM [0563] prenant en compte les autres liquides biologiques que le sang."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 4.05
         }
       ]
     },
@@ -7061,6 +8017,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 324.0
         }
       ]
     },
@@ -7112,7 +8072,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -7121,6 +8081,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Analyse ultra spécialisée. Dosage sur cinétique longue, substrat FRET"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 135.0
         }
       ]
     },
@@ -7138,11 +8102,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 110.7
         }
       ]
     },
@@ -7160,7 +8128,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -7169,6 +8137,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "A faire si frottis et goutte épaisse négatifs.  Cf. conférence de consensus sur la prise en charge du paludisme de la société de pathologie. La recherche des Ag plasmodiaux dans le sang circulant est un outil indispensable au diagnostic de paludismeen France de part sa sensibilité, sa spécificité et sa rapidité/facilité de réalisation au regard d'une pathologie potentiellement léthale:"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -7199,6 +8171,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 20.25
         }
       ]
     },
@@ -7216,11 +8192,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 40.5
         }
       ]
     },
@@ -7237,12 +8217,20 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
           "valueDateTime" : "2025-01-01T00:00:00+00:00"
         },
         {
+          "code" : "modified",
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
+        },
+        {
           "code" : "type",
           "valueString" : "code"
         },
         {
           "code" : "note",
-          "valueString" : "Les indications suivantes ont été évaluées par la HAS permettant une exemption à la décote : \n\nhttps://www.has-sante.fr/jcms/p_3535383/fr/sequencage-haut-debit-cible-d-un-panel-de-genes-dans-la-prise-en-charge-medicale-du-cancer-du-poumon-recherche-des-alterations-moleculaires-somatiques-rapport-d-evaluation-technologique\nhttps://www.has-sante.fr/upload/docs/application/pdf/2024-07/rapport_panel_ngs_gist.pdf\nhttps://www.has-sante.fr/upload/docs/application/pdf/2024-07/rapport_shd_llc.pdf"
+          "valueString" : "Indications évaluées par la HAS permettant une exemption à la décote.\nEn attente d'inscription aux nomenclatures"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 2205.9
         }
       ]
     },
@@ -7260,11 +8248,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 18.9
         }
       ]
     },
@@ -7282,11 +8274,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 81.0
         }
       ]
     },
@@ -7304,11 +8300,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 18.9
         }
       ]
     },
@@ -7326,7 +8326,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -7335,6 +8335,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "cf. commentaire acte [K054]"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 37.8
         }
       ]
     },
@@ -7352,7 +8356,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -7361,6 +8365,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "En attente d'une modification potentielle du libellé de l'acte NABM [0631] prenant en compte les autres liquides biologiques que le sang."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 5.4
         }
       ]
     },
@@ -7378,11 +8386,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 32.4
         }
       ]
     },
@@ -7400,7 +8412,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -7409,6 +8421,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "En attente de l'intégration potentielle au sein de l'acte NABM [1149] du titrage des agglutinines froides (pour suivi thérapeutique)"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 5.4
         }
       ]
     },
@@ -7426,7 +8442,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -7435,6 +8451,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Mutations à impact diagnostique et/ou théranostique des leucémies aiguës lymphoblastiques (forfait 2 à 5) : NOTCH1 exons 26, 27, 28 et 34, FBXW7 exons 9 et 10, RAS et PTEN. Par cible"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 124.2
         }
       ]
     },
@@ -7452,7 +8472,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -7461,6 +8481,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Fusion des actes [L011] et [L080]. Intérêt dans certaines arthropathies et implants siliconés."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 81.0
         }
       ]
     },
@@ -7491,6 +8515,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 81.0
         }
       ]
     },
@@ -7499,6 +8527,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
       "display" : "Détection antigénique de la PLP2a  pour recherche résistance à la méthicilline des staphylocoques",
       "designation" : [
         {
+          "language" : "fr",
           "use" : {
             "system" : "http://snomed.info/sct",
             "code" : "900000000000013009",
@@ -7518,11 +8547,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -7540,11 +8573,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 18.9
         }
       ]
     },
@@ -7562,7 +8599,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -7571,6 +8608,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 16.2
         }
       ]
     },
@@ -7588,7 +8629,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -7597,6 +8638,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une cotation par métal ou autre élément dosé"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 32.4
         }
       ]
     },
@@ -7614,7 +8659,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -7623,6 +8668,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Concerne un nombre limité de maladies héréditaires pour lesquelles l'étude de la méthylation reste nécessaire au diagnostic (ex: syndromes de Prader-Willy et Angelman)."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 180.9
         }
       ]
     },
@@ -7640,7 +8689,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -7649,6 +8698,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "En attente d'une modification potentielle du libellé et de la fusion des actes NABM [1652] [1653] prenant en compte les autres liquides biologiques que le sang."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 40.5
         }
       ]
     },
@@ -7666,11 +8719,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 10.8
         }
       ]
     },
@@ -7701,6 +8758,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 32.4
         }
       ]
     },
@@ -7718,11 +8779,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 81.0
         }
       ]
     },
@@ -7739,12 +8804,20 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
           "valueDateTime" : "2025-01-01T00:00:00+00:00"
         },
         {
+          "code" : "modified",
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
+        },
+        {
           "code" : "type",
           "valueString" : "code"
         },
         {
           "code" : "note",
-          "valueString" : "Les indications suivantes ont été évaluées par la HAS permettant une exemption à la décote :\nhttps://www.has-sante.fr/upload/docs/application/pdf/2025-02/rapport_shd_cardiomyopathies.pdf"
+          "valueString" : "Indications évaluées par la HAS permettant une exemption à la décote."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 2205.9
         }
       ]
     },
@@ -7762,11 +8835,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -7784,7 +8861,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -7793,6 +8870,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une cotation par anticorps recherché. A réserver à centre de référence ou centre expert."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 21.6
         }
       ]
     },
@@ -7810,7 +8891,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -7819,6 +8900,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Autres mutations à impact diagnostique et/ou théranostique des syndromes myéloprolifératifs (forfait 2 à 5): CALR exon 9, MPL W515 , JAK2 exon 12, CSFR3 exons 14 à 17, SETBP1 exon 4. Par cible"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 124.2
         }
       ]
     },
@@ -7992,7 +9077,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -8001,6 +9086,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Spécialisé"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 22.95
         }
       ]
     },
@@ -8018,11 +9107,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 18.9
         }
       ]
     },
@@ -8040,11 +9133,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 81.0
         }
       ]
     },
@@ -8062,11 +9159,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 78.3
         }
       ]
     },
@@ -8084,7 +9185,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -8093,6 +9194,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 16.2
         }
       ]
     },
@@ -8123,6 +9228,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 32.4
         }
       ]
     },
@@ -8140,7 +9249,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -8149,6 +9258,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Analyse ultra spécialisée"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 67.5
         }
       ]
     },
@@ -8166,11 +9279,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 18.9
         }
       ]
     },
@@ -8187,12 +9304,20 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
           "valueDateTime" : "2025-01-01T00:00:00+00:00"
         },
         {
+          "code" : "modified",
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
+        },
+        {
           "code" : "type",
           "valueString" : "code"
         },
         {
           "code" : "note",
-          "valueString" : "Les indications suivantes ont été évaluées par la HAS permettant une exemption à la décote :\nhttps://www.has-sante.fr/upload/docs/application/pdf/2025-02/rapport_shd_cardiomyopathies.pdf"
+          "valueString" : "Indications évaluées par la HAS permettant une exemption à la décote."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 1503.9
         }
       ]
     },
@@ -8210,7 +9335,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -8219,6 +9344,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une cotation par anticorps titré. A réserver à centre de référence ou centre expert."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 21.6
         }
       ]
     },
@@ -8310,11 +9439,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 37.8
         }
       ]
     },
@@ -8386,7 +9519,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -8395,6 +9528,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Mutations à impact diagnostique et/ou théranostique des syndromes myélodysplasiques (forfait 2 à 5) : SF3B1 exons 14, 15 et 16. Par cible"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 124.2
         }
       ]
     },
@@ -8421,6 +9558,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 13.5
         }
       ]
     },
@@ -8451,6 +9592,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 6.75
         }
       ]
     },
@@ -8554,7 +9699,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -8563,6 +9708,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Inclus: analyse des données"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 162.0
         }
       ]
     },
@@ -8580,7 +9729,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -8589,6 +9738,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Pour une stimulation. 10 stimulations maximum. Acte devant être encadré pour sa prescription et les étapes pré et post analytiques"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 70.2
         }
       ]
     },
@@ -8606,7 +9759,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -8615,6 +9768,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Validé OMS. Marqueur du statut nutritionnel en iode. Technique actuelle ICPMS"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 24.3
         }
       ]
     },
@@ -8632,7 +9789,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -8641,6 +9798,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation. Conférence de consensus \"standardisation de l'exploration des pathologies plaquettaires\" (février 2009) du Centre de référence des pathologies plaquettaires : examen de niveau 2 (confirmation d'une orientation diagnostique)"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 32.4
         }
       ]
     },
@@ -8658,11 +9819,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -8680,7 +9845,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -8689,6 +9854,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation. Dépistage d'une anomalie rare de la coagulation dans un contexte thrombotique"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 37.8
         }
       ]
     },
@@ -8706,7 +9875,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -8715,6 +9884,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation. Dépistage d'une anomalie rare de la coagulation dans un contexte thrombotique"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 37.8
         }
       ]
     },
@@ -8741,6 +9914,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 29.7
         }
       ]
     },
@@ -8771,6 +9948,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 135.0
         }
       ]
     },
@@ -8874,7 +10055,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -8883,6 +10064,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Inclus: analyse des données"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 278.1
         }
       ]
     },
@@ -8900,7 +10085,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -8909,6 +10094,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation. Marqueur d'activation endothéliale d'une grande spécificité"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 37.8
         }
       ]
     },
@@ -8926,11 +10115,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 81.0
         }
       ]
     },
@@ -8948,7 +10141,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -8957,6 +10150,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Acte issu de la fusion des actes [B039], [E123] et [E146]. Concerne tous les prélèvements biologiques en cytospin (Examen cytologique : Après centrifugation d'un prélèvement dans une chambre d'échantillon jetable + lame. Obtention d'une monocouche cellulaire sur la lame + coloration MGG) ou étalement ou apposition susceptibles de comporter des cellules hématopoïétiques (examen cytologique sous microscope des cellules récupérées par empreintes au niveau de la conjonctive, transparisées et colorées. Il permet d'objectiver l'intensité de la souffrance cellulaire conjonctivale, de quantifier précisément les processus pathologiques : lymphocytes, polynucléaires, inflammation...)."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -8987,6 +10184,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 216.0
         }
       ]
     },
@@ -9004,11 +10205,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 37.8
         }
       ]
     },
@@ -9026,7 +10231,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -9035,6 +10240,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Reco. HAS (mucoviscidose - maladie coeliaque)"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 108.0
         }
       ]
     },
@@ -9051,12 +10260,20 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
           "valueDateTime" : "2025-01-01T00:00:00+00:00"
         },
         {
+          "code" : "modified",
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
+        },
+        {
           "code" : "type",
           "valueString" : "code"
         },
         {
           "code" : "note",
-          "valueString" : "Les indications suivantes ont été évaluées par la HAS permettant une exemption à la décote : \n\nhttps://www.has-sante.fr/jcms/p_3535383/fr/sequencage-haut-debit-cible-d-un-panel-de-genes-dans-la-prise-en-charge-medicale-du-cancer-du-poumon-recherche-des-alterations-moleculaires-somatiques-rapport-d-evaluation-technologique\nhttps://www.has-sante.fr/upload/docs/application/pdf/2024-07/rapport_panel_ngs_gist.pdf\nhttps://www.has-sante.fr/upload/docs/application/pdf/2024-07/rapport_shd_llc.pdf"
+          "valueString" : "Indications évaluées par la HAS permettant une exemption à la décote.\nEn attente d'inscription aux nomenclatures"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 1503.9
         }
       ]
     },
@@ -9074,7 +10291,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -9083,6 +10300,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation. Test global permettant d'évaluer le potentiel de génération de thrombine d'un plasma en mesurant en temps réel sa capacité à générer de la thrombine et sa capacité d'inhiber la coagulation."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 48.6
         }
       ]
     },
@@ -9100,7 +10321,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -9109,6 +10330,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation. A réaliser si acte [1015] diminué pour caractérisation du déficit en facteur V"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 37.8
         }
       ]
     },
@@ -9126,7 +10351,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -9135,6 +10360,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Importance dans le diagnostic des toxocaroses oculaires  et des endophtalmies fongiques"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -9152,11 +10381,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 81.0
         }
       ]
     },
@@ -9174,7 +10407,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -9183,6 +10416,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une cotation par cartouche. Seul test existant pour l'exploration globale de l'hémostase primaire depuis le retrait du TS de la NABM, mais pour une pertinence d'orientation diagnostique de maladie de Willebrand, il doit être associé à d'autres examens"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 13.5
         }
       ]
     },
@@ -9213,6 +10450,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 40.5
         }
       ]
     },
@@ -9230,7 +10471,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -9239,6 +10480,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Inclus: analyse des données. Hors séquençage NGS"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 164.7
         }
       ]
     },
@@ -9256,7 +10501,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -9265,6 +10510,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Inclus: analyse des données"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 186.3
         }
       ]
     },
@@ -9281,12 +10530,20 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
           "valueDateTime" : "2025-01-01T00:00:00+00:00"
         },
         {
+          "code" : "modified",
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
+        },
+        {
           "code" : "type",
           "valueString" : "code"
         },
         {
           "code" : "note",
-          "valueString" : "Les indications suivantes ont été évaluées par la HAS permettant une exemption à la décote : \n\nhttps://www.has-sante.fr/jcms/p_3535383/fr/sequencage-haut-debit-cible-d-un-panel-de-genes-dans-la-prise-en-charge-medicale-du-cancer-du-poumon-recherche-des-alterations-moleculaires-somatiques-rapport-d-evaluation-technologique\nhttps://www.has-sante.fr/upload/docs/application/pdf/2024-07/rapport_panel_ngs_gist.pdf\nhttps://www.has-sante.fr/upload/docs/application/pdf/2024-07/rapport_shd_llc.pdf"
+          "valueString" : "Indications évaluées par la HAS permettant une exemption à la décote.\nEn attente d'inscription aux nomenclatures"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 882.9
         }
       ]
     },
@@ -9304,7 +10561,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -9313,6 +10570,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Intérêt pour le diagnostic de la thrombasthénie de Glanzmann. Test recommandé dans le document du Centre de Référence des Pathologies Plaquettaires (standardisation de l'exploration des pathologies plaquettaires)"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 1.35
         }
       ]
     },
@@ -9343,6 +10604,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 37.8
         }
       ]
     },
@@ -9373,6 +10638,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 135.0
         }
       ]
     },
@@ -9390,7 +10659,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -9399,6 +10668,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Examen externe, prélèvement et dissection du bloc viscéral, examen macroscopique et histologique après bloc paraffine des organes individualisés"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 1337.0
         }
       ]
     },
@@ -9425,6 +10698,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 113.4
         }
       ]
     },
@@ -9442,11 +10719,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 224.1
         }
       ]
     },
@@ -9464,11 +10745,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 13.5
         }
       ]
     },
@@ -9486,7 +10771,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -9495,6 +10780,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "En attente d'une modification potentielle du libellé de l'acte NABM [1575] prenant en compte les autres liquides biologiques que le sang."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 10.8
         }
       ]
     },
@@ -9512,7 +10801,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -9521,6 +10810,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Utile dans le diagnostic des hépatopathies"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -9538,11 +10831,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 54.0
         }
       ]
     },
@@ -9560,7 +10857,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -9569,6 +10866,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation. Marqueur de risque associé aux pathologies hypertensive, à l'obésité, au diabète de type 2"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 18.9
         }
       ]
     },
@@ -9586,11 +10887,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 10.8
         }
       ]
     },
@@ -9608,7 +10913,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -9617,6 +10922,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "En attente de l'intégration potentielle au sein de l'acte NABM [2109] de la détection hémoglobine fœtale (Test d'APT)"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 5.4
         }
       ]
     },
@@ -9634,7 +10943,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -9643,6 +10952,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Dépistage du syndrome de Scott"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 5.4
         }
       ]
     },
@@ -9669,6 +10982,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 29.7
         }
       ]
     },
@@ -9704,7 +11021,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -9713,6 +11030,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "En attente d'une modification potentielle du libellé de l'acte NABM [0584] prenant en compte les autres liquides biologiques que le sang."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 4.05
         }
       ]
     },
@@ -9730,11 +11051,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 81.0
         }
       ]
     },
@@ -9765,6 +11090,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -9782,7 +11111,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -9791,6 +11120,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation. Marqueur de risque de thrombose et de dissémination cancéreuse."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -9808,11 +11141,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -9830,11 +11167,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 54.0
         }
       ]
     },
@@ -9861,6 +11202,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 13.5
         }
       ]
     },
@@ -9887,6 +11232,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -9904,7 +11253,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -9913,6 +11262,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Suivi d'une leucémie aigue lymphoblastique ou de certains lymphomes"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 315.9
         }
       ]
     },
@@ -9930,7 +11283,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -9939,6 +11292,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Importance de l'identification de l'espèce pour la mise en place d'une thérapeutique adaptée. Non cumulable avec le [0252]. L'acte [0280] n'est applicable que pour les C. non albicans mais n'est pas applicable pour l'identification de C. albicans. L'acte [0255] n'est prévue que pour les champignons exotiques. Nouvelle cotation introduite pour coter les identifications des C.albicans transmis par les Services de Bactériologie."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 13.5
         }
       ]
     },
@@ -9956,7 +11313,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -9965,6 +11322,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Inclus: extraction choc thermique + 3 oligo biotinylés + taq Sybr Green + PCR TR + hybridation nitrocellulose"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 129.6
         }
       ]
     },
@@ -9982,11 +11343,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 94.5
         }
       ]
     },
@@ -10004,7 +11369,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -10013,6 +11378,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Dosage de routine sur indications précises ; interprétation biologique nécessitant une expertise"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 45.9
         }
       ]
     },
@@ -10030,7 +11399,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -10039,6 +11408,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Spécialisé"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 29.7
         }
       ]
     },
@@ -10056,7 +11429,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -10065,6 +11438,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "En attente d'une modification potentielle du libellé de l'acte NABM [7308] prenant en compte les autres liquides biologiques que le sang."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 40.5
         }
       ]
     },
@@ -10082,11 +11459,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 18.9
         }
       ]
     },
@@ -10117,6 +11498,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 216.0
         }
       ]
     },
@@ -10134,7 +11519,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -10143,6 +11528,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation. Seul examen permettant le diagnostic du variant 2N de la VWD"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 81.0
         }
       ]
     },
@@ -10160,7 +11549,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -10169,6 +11558,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation. P50 et toutes les anomalies d'affinité de l'hémoglobine qui ont peu d'impact sur la P50, mais qui peuvent avoir un impact sur la captation ou le relarguage de l'oxygène par l'hémoglobine"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 54.0
         }
       ]
     },
@@ -10429,6 +11822,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 86.4
         }
       ]
     },
@@ -10446,7 +11843,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -10455,6 +11852,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "En attente de l'intégration potentielle au sein de l'acte NABM [1011] du test RIPA"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 16.2
         }
       ]
     },
@@ -10472,7 +11873,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -10481,6 +11882,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Fusion des actes [L187], [L223] et [L224]"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 81.0
         }
       ]
     },
@@ -10498,11 +11903,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 48.6
         }
       ]
     },
@@ -10533,6 +11942,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 8.1
         }
       ]
     },
@@ -10550,11 +11963,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 94.5
         }
       ]
     },
@@ -10572,11 +11989,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -10607,6 +12028,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 40.5
         }
       ]
     },
@@ -10624,7 +12049,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -10633,6 +12058,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "A réaliser au sein de laboratoires accrédités par l'European Federation for Imunogenetics (EFI)"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 459.0
         }
       ]
     },
@@ -10663,6 +12092,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 8.1
         }
       ]
     },
@@ -10680,7 +12113,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -10689,6 +12122,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Par spécificité, cotation maximum 4 spécificités"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 18.9
         }
       ]
     },
@@ -10719,6 +12156,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 67.5
         }
       ]
     },
@@ -10785,6 +12226,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "child",
           "valueCode" : "V004"
+        },
+        {
+          "code" : "child",
+          "valueCode" : "V015"
         }
       ]
     },
@@ -10815,6 +12260,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 67.5
         }
       ]
     },
@@ -10832,7 +12281,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -10841,6 +12290,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 270.0
         }
       ]
     },
@@ -10858,7 +12311,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -10867,6 +12320,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "A partir d'un frottis : technique d'immunomarquage sur lame par Ac. Une cotation par Ac. Exemple : mise en évidence de la localisation cytoplasmique ou nucléaire d'un antigène (e.g. NPM1), non accessible aux techniques classiques de cytométrie"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 40.5
         }
       ]
     },
@@ -10897,6 +12354,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 32.4
         }
       ]
     },
@@ -10914,11 +12375,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 9.45
         }
       ]
     },
@@ -10936,7 +12401,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -10945,6 +12410,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Indiqué dans le REMIC"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 8.1
         }
       ]
     },
@@ -10962,7 +12431,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -10971,6 +12440,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "En attente d'une modification potentielle du libellé de l'acte NABM [7327] prenant en compte les autres liquides biologiques que le sang."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 20.25
         }
       ]
     },
@@ -10988,7 +12461,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -10997,6 +12470,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Par inducteur. Acte devant être encadré pour sa prescription et les étapes pré et post analytiques"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 108.0
         }
       ]
     },
@@ -11014,11 +12491,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 40.5
         }
       ]
     },
@@ -11036,7 +12517,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -11045,6 +12526,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "En attente d'une modification potentielle du libellé de l'acte NABM [0812] prenant en compte les autres liquides biologiques que le sang."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 29.7
         }
       ]
     },
@@ -11304,11 +12789,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 16.2
         }
       ]
     },
@@ -11326,7 +12815,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -11335,6 +12824,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "En attente d'une modification potentielle du libellé de l'acte NABM [0590] prenant en compte les autres liquides biologiques que le sang."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 1.35
         }
       ]
     },
@@ -11352,11 +12845,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 162.0
         }
       ]
     },
@@ -11374,7 +12871,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -11383,6 +12880,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "En attente d'une modification potentielle du libellé de l'acte NABM [0524] prenant en compte les autres liquides biologiques que le sang."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 18.9
         }
       ]
     },
@@ -11400,7 +12901,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -11409,6 +12910,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Selon indications des sociétés savantes. Hors pris en charge par le forfait séquencage de la NABM  [9007]"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 2205.9
         }
       ]
     },
@@ -11426,11 +12931,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 297.0
         }
       ]
     },
@@ -11482,7 +12991,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -11491,6 +13000,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Acte devant être encadré pour sa prescription et les étapes pré et post analytiques"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 216.0
         }
       ]
     },
@@ -11508,11 +13021,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 270.0
         }
       ]
     },
@@ -11530,7 +13047,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -11539,6 +13056,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Mise en culture d'ovocytes en vue de leur maturation in vitro avant ICSI"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 378.0
         }
       ]
     },
@@ -11650,11 +13171,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 16.2
         }
       ]
     },
@@ -11685,6 +13210,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 113.4
         }
       ]
     },
@@ -11702,7 +13231,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -11711,6 +13240,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Comprend les 2 mesures d'activité de la LipoProtéine Lipase (LPL) et de la Lipase Hépatique (HL). Spécialisé"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 162.0
         }
       ]
     },
@@ -11834,7 +13367,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -11843,6 +13376,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "En cas de génome infectieux, hors actes inscrits à la NABM"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 81.0
         }
       ]
     },
@@ -11860,7 +13397,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -11869,6 +13406,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Le potentiel du PlGF dans le dépistage de la prééclampsie (PE) est connu depuis 2004 mais les dernières études en confirment l'efficacité en l'associant aux données maternelles cliniques et échograhiques. L'efficacité clinique du PlGF seul est soit modeste, soit avérée, par contre son association à d'autres critères s'avère plus efficace. Aucun essai randomisé comparant la prise en charge classique versus le dépistage de la PE n'a été publié. Une étude récente a validé l'intérêt médico-économique du dépistage de la PE en incluant le PlGF"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 37.8
         }
       ]
     },
@@ -11886,7 +13427,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -11895,6 +13436,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Cotation limitée à un maximum de 8 enzymes. Indication: enzyme(s) connue(s) pour être en lien avec la pathologie héréditaire recherchée."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -11912,7 +13457,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -11921,6 +13466,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Fusion des actes [K107], [J035] et [J084] en attente d'une modification potentielle du libellé de l'acte NABM [0814] prenant en compte les autres liquides biologiques que le sang."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 29.7
         }
       ]
     },
@@ -11938,11 +13487,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 216.0
         }
       ]
     },
@@ -11960,7 +13513,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -11968,7 +13521,11 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "note",
-          "valueString" : "Lorsqu'il s'agit d'un acte qui concerne un test de détection des mutations génétiques [Test compagnon] dans la prise en charge des cancers bronchiques, l'acte n'est pas à coder au RAHN car il doit être intégré dans le panel"
+          "valueString" : "Dans la prise en charge du CBNPC, l'acte n'est pas à coder au RIHN, car il doit être intégré dans le panel, sauf en cas d'urgence, où une approche monogénique est à privilégier (source HAS)"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 315.9
         }
       ]
     },
@@ -11986,7 +13543,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -11995,6 +13552,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Regroupe les anciens codes [Q023], [Q024] et Q025]"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 81.0
         }
       ]
     },
@@ -12012,7 +13573,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -12021,6 +13582,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Selon indications des sociétés savantes. Hors pris en charge par le forfait séquencage de la NABM  [9007]"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 882.9
         }
       ]
     },
@@ -12038,7 +13603,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -12047,6 +13612,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "A réaliser au sein de laboratoires accrédités par l'European Federation for Imunogenetics (EFI)"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 189.0
         }
       ]
     },
@@ -12064,7 +13633,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -12073,6 +13642,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Fusion des actes [K177] et [K178]"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 54.0
         }
       ]
     },
@@ -12090,7 +13663,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -12099,6 +13672,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Examen macroscopique et histologique après bloc paraffine du cerveau"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 33.6
         }
       ]
     },
@@ -12116,7 +13693,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -12125,6 +13702,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Cotation limitée à un maximum de 8 enzymes. Indication: enzyme(s) connue(s) pour être en lien avec la pathologie héréditaire recherchée."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 324.0
         }
       ]
     },
@@ -12142,7 +13723,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -12151,6 +13732,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "En attente d'une modification potentielle du libellé de l'acte NABM [1132] prenant en compte les autres liquides biologiques que le sang."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 37.8
         }
       ]
     },
@@ -12194,7 +13779,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -12203,6 +13788,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Prélèvement EDTA, 4°C, traitement immédiat. Une seule cotation. Comprend: culot globulaire -80°C, dilution 1/2 NaCl 0,9%,  numération GR, réaction enzymatique 1H à 37°C, CLHP gamme étalonnage 5 points incluse."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 67.5
         }
       ]
     },
@@ -12220,7 +13809,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -12229,6 +13818,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Selon indications des sociétés savantes. Hors pris en charge par le forfait séquencage de la NABM  [9007]"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 1503.9
         }
       ]
     },
@@ -12260,7 +13853,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -12269,6 +13862,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Spécialisé"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 32.4
         }
       ]
     },
@@ -12286,11 +13883,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -12308,11 +13909,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 40.5
         }
       ]
     },
@@ -12330,11 +13935,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 40.5
         }
       ]
     },
@@ -12352,7 +13961,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -12361,6 +13970,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Spécialisé"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 37.8
         }
       ]
     },
@@ -12378,7 +13991,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -12387,6 +14000,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Dosage chromogénique. Une seule cotation. Dépistage d’une anomalie de la fibrinolyse dans un contexte thrombotique\nDépistage d’une hyperfibrinolyse dans un contexte de pathologie hémorragique constitutionnelle"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -12404,7 +14021,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -12413,6 +14030,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 37.8
         }
       ]
     },
@@ -12430,7 +14051,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -12439,6 +14060,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Indications: (i) diagnostic étiologique d’une aplasie médullaire d’allure constitutionnelle, (ii) élimination du diagnostic de Dyskératose Congénitale chez tout patient atteint d’aplasie médullaire avant une greffe de moelle osseuse, (iii) cas frontières d’insuffisances médullaires qui n’ont pas fait la preuve de leur diagnostic, (iv) diagnostic des fibroses pulmonaires familiales ou fibrose pulmonaire du sujet jeune, (v) survenue d’un syndrome myélodysplasique (MDS) chez un sujet jeune (<50 ans) ou antécédents de leucémie aiguë (LA) dans la famille, (vi) hypersensibilité à la chimiothérapie ou absence de réponse au traitement conventionnel de première ligne : sérum antilymphocytaire/cyclosporine."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 414.45
         }
       ]
     },
@@ -12469,6 +14094,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 81.0
         }
       ]
     },
@@ -12486,7 +14115,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -12495,6 +14124,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation en vue d'une analyse tissulaire. Une à cinq cotations pour une décongélation en vue d'utilisation pour la patiente"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 121.5
         }
       ]
     },
@@ -12534,11 +14167,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 40.5
         }
       ]
     },
@@ -12556,7 +14193,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -12565,6 +14202,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "En attente d'une modification potentielle du libellé de l'acte NABM [0821] prenant en compte les autres liquides biologiques que le sang."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 18.9
         }
       ]
     },
@@ -12582,7 +14223,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -12591,6 +14232,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une cotation par échantillon (globule polaire ou blastomère)"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -12608,7 +14253,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -12617,6 +14262,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 37.8
         }
       ]
     },
@@ -12634,7 +14283,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -12643,6 +14292,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "La détection par biologie moléculaire, le génotypage des parasites et champignons sont des outils indispensables de diagnostic (grandes sensibilité et spécificité), de suivi thérapeutique (génotypage parfois associé à  une chimiorésistance, et/ou au caractère nosocomial de l'infection). Le caractère eucaryote des ces pathogènes rend souvent plus complex ces approches moléculaires."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 129.6
         }
       ]
     },
@@ -12660,7 +14313,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -12669,6 +14322,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "En cas de génome infectieux, hors actes inscrits à la NABM"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 135.0
         }
       ]
     },
@@ -12699,6 +14356,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 54.0
         }
       ]
     },
@@ -12716,7 +14377,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -12725,6 +14386,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Spécialisé"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 37.8
         }
       ]
     },
@@ -12742,7 +14407,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -12751,6 +14416,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 32.4
         }
       ]
     },
@@ -12768,7 +14437,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -12777,6 +14446,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation. Marqueur d'efficacité du traitement par aspirine"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 37.8
         }
       ]
     },
@@ -12794,7 +14467,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -12803,6 +14476,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Identification d'anomalies spécifiques dans les sarcomes"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 162.0
         }
       ]
     },
@@ -12858,7 +14535,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -12867,6 +14544,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Permet la détection du traitement par dabigatran en 1ère intention pour les laboratoires ne disposant pas de dosage spécifique de la molécule. Pour éliminer la présence de dabigatran dans le cas d'un acte invasif urgent, de chirurgie urgente ou d'hémorragie."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 13.5
         }
       ]
     },
@@ -12897,6 +14578,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 315.9
         }
       ]
     },
@@ -12927,6 +14612,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 8.1
         }
       ]
     },
@@ -12944,7 +14633,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -12953,6 +14642,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Utilisation empirique afin de déterminer l'origine d'un foyer tumoral suspect. Rôle en pédiatrie"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 40.5
         }
       ]
     },
@@ -12970,7 +14663,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -12979,6 +14672,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une cotation par lame"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 42.0
         }
       ]
     },
@@ -12996,11 +14693,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 54.0
         }
       ]
     },
@@ -13018,7 +14719,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -13027,6 +14728,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation. Marqueur d'efficacité du traitement par aspirine"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 37.8
         }
       ]
     },
@@ -13044,7 +14749,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -13053,6 +14758,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Indication: femmes enceintes alloimmunisées pour Rhc, RHC, RHE ou KEL"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 102.6
         }
       ]
     },
@@ -13070,7 +14779,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -13079,6 +14788,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Par système de groupe sanguin"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 97.2
         }
       ]
     },
@@ -13135,6 +14848,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 81.0
         }
       ]
     },
@@ -13152,7 +14869,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -13161,6 +14878,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Si suspicion d'intoxication"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 40.5
         }
       ]
     },
@@ -13178,7 +14899,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -13187,6 +14908,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "En attente d'une modification potentielle du libellé de l'acte NABM [0983] prenant en compte les autres liquides biologiques que le sang."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 18.9
         }
       ]
     },
@@ -13204,7 +14929,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -13213,6 +14938,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Indication : Post-greffe, selon recommandations de l'ABM. Prescriptions principalement en CHU, consultations externes ou hospitalisation. Technique sensible (ELISA, Multiplex, micropuces)"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 54.0
         }
       ]
     },
@@ -13230,7 +14959,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -13239,6 +14968,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Fusion des actes [K012] et [L209]. Intérêt dans bilan de thrombophilie du sujet jeune."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 54.0
         }
       ]
     },
@@ -13256,11 +14989,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 18.9
         }
       ]
     },
@@ -13278,7 +15015,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -13287,6 +15024,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "En attente d'une modification potentielle du libellé de l'acte NABM [1520] prenant en compte les autres liquides biologiques que le sang."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 5.4
         }
       ]
     },
@@ -13304,7 +15045,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -13313,6 +15054,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Fusion des actes [L125], [L157] et [L179]"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 5.4
         }
       ]
     },
@@ -13330,7 +15075,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -13339,6 +15084,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation. Etude de la fibrinolyse."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 37.8
         }
       ]
     },
@@ -13356,7 +15105,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -13365,6 +15114,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Cotation limitée à un maximum de 8 enzymes. Indication: enzyme(s) connue(s) pour être en lien avec la pathologie héréditaire recherchée."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -13382,7 +15135,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -13391,6 +15144,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation. Marqueur d'activation de la coagulation (génération de thrombine et son inhibition par l'antithrombine)"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 37.8
         }
       ]
     },
@@ -13408,7 +15165,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -13417,6 +15174,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "En attente d'une modification potentielle du libellé de l'acte NABM [7422] prenant en compte les autres liquides biologiques que le sang."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 18.9
         }
       ]
     },
@@ -13434,7 +15195,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -13443,6 +15204,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Indication: hors greffe. Prescriptions principalement pour évènements post-transfusionnels (en hospitalisation ou HPDD, par CHU, hôpitaux généraux, voire établissements privés)"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 108.0
         }
       ]
     },
@@ -13460,7 +15225,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -13469,6 +15234,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Si suspicion d'intoxication"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 40.5
         }
       ]
     },
@@ -13486,11 +15255,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 18.9
         }
       ]
     },
@@ -13508,7 +15281,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -13516,7 +15289,11 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "note",
-          "valueString" : "Examen de 2nde ou 3ième intention ; réalisation technique et interprétation biologique nécessitant une expertise"
+          "valueString" : "En attente d'inscription à la NABM"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 81.0
         }
       ]
     },
@@ -13534,7 +15311,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -13543,6 +15320,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation. Marqueur d'efficacité du traitement anti-agrégant par inhibiteurs de P2Y12,  associé aux autres tests : VASP [E140] et  agrégation à ADP [E054]"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 135.0
         }
       ]
     },
@@ -13573,6 +15354,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 440.1
         }
       ]
     },
@@ -13590,11 +15375,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 35.1
         }
       ]
     },
@@ -13612,7 +15401,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -13621,6 +15410,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "En attente d'une modification potentielle du libellé de l'acte NABM [2012] prenant en compte les autres liquides biologiques que l'urine ou du libellé de l'acte NABM [0584] prenant en compte les autres liquides biologiques que le sang."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 4.05
         }
       ]
     },
@@ -13638,11 +15431,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 135.0
         }
       ]
     },
@@ -13722,7 +15519,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -13730,7 +15527,11 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "note",
-          "valueString" : "Examen de première intention"
+          "valueString" : "En attente d'inscription à la NABM."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 10.8
         }
       ]
     },
@@ -13748,7 +15549,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -13757,6 +15558,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Acte  codé par [K147 ou K148] selon l'approche méthodologique utilisée. Ces 2 actes concernent un  panel grandissant de molécules thérapeitiques (biomédicaments) ; il existe aujourd'hui une grande variabilité des performances analytiques et cliniques, spécifiques à chaque anticorps monoclonal thérapeutique ; données avancées pour infliximab et adalimumab. Doit se faire avec l'acte [M053] ou [M054]."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 40.5
         }
       ]
     },
@@ -13774,11 +15579,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 78.3
         }
       ]
     },
@@ -13796,11 +15605,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 48.6
         }
       ]
     },
@@ -13818,11 +15631,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -13840,7 +15657,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -13849,6 +15666,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Mutations à impact diagnostique et/ou théranostique des leucémies aiguës myéloblastiques (forfait 2 à 5) : Flt3, NPM, CEBPA. Par cible"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 124.2
         }
       ]
     },
@@ -13866,7 +15687,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -13875,6 +15696,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Fusion des actes [L145], [L148], [L149], [L230]."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 35.1
         }
       ]
     },
@@ -13892,7 +15717,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -13901,6 +15726,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation. Facteur de risque associé aux pathologies cardio-vasculaires et à l'évolutivité de certaines tumeurs cancéreuses"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -13918,7 +15747,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -13927,6 +15756,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation. Marqueur de la fibrinolyse ayant un intérêt dans les études physiopathologiques évaluant les relation coagulation-fibrinolyse (coagulopathies de consommation dans contextes obstétricaux, traumatiques, septiques…)"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 37.8
         }
       ]
     },
@@ -13944,7 +15777,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -13953,6 +15786,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Recueilli dans le premier jet urinaire après toucher rectal."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 297.0
         }
       ]
     },
@@ -13970,11 +15807,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 18.9
         }
       ]
     },
@@ -13992,7 +15833,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -14001,6 +15842,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Cotation limitée à un maximum de 4 métabolites. Par méthode spectrophotométrique, spectrofluorométrique, séparative ou immunologique. Indication: métabolite(s) connu(s)  pour être en lien avec la pathologie héréditaire recherchée"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 32.4
         }
       ]
     },
@@ -14018,7 +15863,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -14027,6 +15872,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Spécialisé"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 37.8
         }
       ]
     },
@@ -14044,7 +15893,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -14053,6 +15902,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Par sous-classe"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -14070,11 +15923,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 40.5
         }
       ]
     },
@@ -14092,7 +15949,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -14101,6 +15958,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Au moins 20 molécules recherchées et dosées"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 54.0
         }
       ]
     },
@@ -14127,6 +15988,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 108.0
         }
       ]
     },
@@ -14144,7 +16009,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -14153,6 +16018,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Fusion des actes [L035], [L167], [L168], [L169], [L174]."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 54.0
         }
       ]
     },
@@ -14170,7 +16039,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -14179,6 +16048,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Fusion des actes [L017] et [L061]."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -14196,7 +16069,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -14205,6 +16078,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation. Etude de la fibrinolyse."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -14222,7 +16099,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -14231,6 +16108,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "En attente d'une modification potentielle du libellé de l'acte NABM [0519] prenant en compte les autres liquides biologiques que le sang."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 5.4
         }
       ]
     },
@@ -14257,6 +16138,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -14348,7 +16233,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -14357,6 +16242,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Cotation limitée à un maximum de 8 enzymes. Indication: enzyme(s) connue(s) pour être en lien avec la pathologie héréditaire recherchée."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 135.0
         }
       ]
     },
@@ -14374,11 +16263,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 256.5
         }
       ]
     },
@@ -14410,11 +16303,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 18.9
         }
       ]
     },
@@ -14432,7 +16329,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -14441,6 +16338,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 189.0
         }
       ]
     },
@@ -14458,7 +16359,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -14467,6 +16368,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Dosage par colonne filtration"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 37.8
         }
       ]
     },
@@ -14475,6 +16380,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
       "display" : "Recherche directe par EIA: tous virus\nà l'exception de ceux notés à la NABM:\nadenovirus (4206), arenavirus (4213), astrovirus (4218), calcivirus, herpès simplex (4506), varicelle & zona (4507), grippe A & B (4241), parainfluenzae (4244), respiratoire syncitial (4247), oreillons (4251), rage (4260), rougeole (4263), rotavirus (4267)",
       "designation" : [
         {
+          "language" : "fr",
           "use" : {
             "system" : "http://snomed.info/sct",
             "code" : "900000000000013009",
@@ -14494,11 +16400,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 18.9
         }
       ]
     },
@@ -14516,11 +16426,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 116.1
         }
       ]
     },
@@ -14538,7 +16452,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -14547,6 +16461,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Prise en charge des gliomes"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 183.6
         }
       ]
     },
@@ -14564,7 +16482,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -14573,6 +16491,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation. Conférence de consensus \"standardisation de l'exploration des pathologies plaquettaires\" (février 2009) du Centre de référence des pathologies plaquettaires : examen de niveau 2 (confirmation d'une orientation diagnostique)"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -14590,7 +16512,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -14599,6 +16521,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Fusion des actes [J001],[J005],[J007] et [J089]"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -14616,11 +16542,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 16.2
         }
       ]
     },
@@ -14638,7 +16568,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -14647,6 +16577,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "cf. commentaires acte [K147]"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 81.0
         }
       ]
     },
@@ -14698,7 +16632,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -14707,6 +16641,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Spécialisé"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 54.0
         }
       ]
     },
@@ -14724,11 +16662,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 18.9
         }
       ]
     },
@@ -14852,7 +16794,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -14861,6 +16803,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Fusion des actes [K100] et [K101] en attente d'une modification potentielle du libellé de l'acte NABM [0320] prenant en compte les autres liquides biologiques que le sang."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 18.9
         }
       ]
     },
@@ -14878,7 +16824,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -14887,6 +16833,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Spécialisé"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 32.4
         }
       ]
     },
@@ -14904,7 +16854,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -14913,6 +16863,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Fusion des actes [J036] et [J037] en attente d'une modification potentielle du libellé de l'acte NABM [0523] prenant en compte les autres liquides biologiques que le sang et les ponctions."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 40.5
         }
       ]
     },
@@ -14943,6 +16897,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 180.9
         }
       ]
     },
@@ -14960,11 +16918,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 162.0
         }
       ]
     },
@@ -14982,7 +16944,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -14991,6 +16953,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation. Nouveau biomarqueur de fibrinolyse, remodelage vasculaire, angiogénese, thrombose et métastase tumorale"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -15008,7 +16974,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -15017,6 +16983,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Cotation limitée à un maximum de 8 enzymes. Indication: enzyme(s) connue(s) pour être en lien avec la pathologie héréditaire recherchée. (Exemple  enzymes de la voie de biosynthèse de l'hème)"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 405.0
         }
       ]
     },
@@ -15034,7 +17004,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -15043,6 +17013,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une cotation par anticorps. Marqueur de risque cardio-vasculaire"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -15060,7 +17034,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -15069,6 +17043,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Fusion des actes [J012] et [J077] en attente de fusion potentielle des actes NABM [0521]et [1521] et d'une modification potentielle du libellé de l'acte résultant prenant en compte les origines érythrocytaire et musculaire."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 13.5
         }
       ]
     },
@@ -15086,7 +17064,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -15095,6 +17073,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Fusion des actes [J013],[J014] et [J080]"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 16.2
         }
       ]
     },
@@ -15112,7 +17094,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -15121,6 +17103,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "En attente d'une modification potentielle du libellé de l'acte NABM [0822] prenant en compte les autres liquides biologiques que le sang."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 29.7
         }
       ]
     },
@@ -15138,11 +17124,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 67.5
         }
       ]
     },
@@ -15160,7 +17150,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -15169,6 +17159,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "En attente d'une modification potentielle du libellé de l'acte NABM [7323] prenant en compte les autres liquides biologiques que le sang."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 21.6
         }
       ]
     },
@@ -15212,11 +17206,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 18.9
         }
       ]
     },
@@ -15234,7 +17232,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -15243,6 +17241,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Réservé à un problème clinique sévère et non productivité des dosages classiques d'IgE monospécifiques. Encadrement pour le contrôle de la prescription et des étapes analytiques et post-analytiques"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 216.0
         }
       ]
     },
@@ -15260,7 +17262,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -15269,6 +17271,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Hors préparation de médicaments de thérapie innovante (dont produit de thérapie cellulaire)"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 94.5
         }
       ]
     },
@@ -15286,7 +17292,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -15295,6 +17301,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Acte devant être encadré pour sa prescription et les étapes pré et post analytiques. Par condition"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 81.0
         }
       ]
     },
@@ -15312,7 +17322,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -15321,6 +17331,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation. Sur prélèvement trachéal chez les prématurés. Détermination rapide du surfactant pulmonaire par polarisation de fluorescence."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 91.8
         }
       ]
     },
@@ -15351,6 +17365,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 459.0
         }
       ]
     },
@@ -15368,11 +17386,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 162.0
         }
       ]
     },
@@ -15390,7 +17412,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -15399,6 +17421,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Cotation limitée à un maximum de 8 enzymes. Indication: enzyme(s) connue(s) pour être en lien avec la pathologie héréditaire recherchée. Substrat couteux à préciser"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 135.0
         }
       ]
     },
@@ -15416,7 +17442,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -15425,6 +17451,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation. A réserver à centre de référence ou centre expert."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 13.5
         }
       ]
     },
@@ -15442,7 +17472,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -15451,6 +17481,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Fusion des actes [K017] et [K018] en attente d'une modification potentielle du libellé de l'acte NABM [1806] prenant en compte les autres liquides biologiques que le sang."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 2.7
         }
       ]
     },
@@ -15468,7 +17502,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -15477,6 +17511,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Spécialisé"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 37.8
         }
       ]
     },
@@ -15494,7 +17532,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -15503,6 +17541,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "En attente d'une modification potentielle du libellé de l'acte NABM [7321] prenant en compte les autres liquides biologiques que le sang."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 20.25
         }
       ]
     },
@@ -15520,7 +17562,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -15529,6 +17571,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Recherche obligatoires de toutes les benzodiazépines commercialisées et leurs principaux métabolites, les apparentés aux benzodiazépines tels zolpidem et zopiclone, les barbituriques, l'acool, l'acide"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 270.0
         }
       ]
     },
@@ -15564,7 +17610,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -15573,6 +17619,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Acte devant être encadré pour sa prescription et les étapes pré et post analytiques"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 102.6
         }
       ]
     },
@@ -15590,7 +17640,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -15599,6 +17649,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Ceci permet de diagnostiquer une allergie dans certains tableaux de conjonctivite ou kérato-conjonctivite, en particulier : - lorsque le dosage des IgE spécifiques sériques et les tests cutanés de type prick-tests sont pris en défaut pour confirmer la nature allergique de la conjonctivite, ce qui est souvent le cas, particulièrement dans les kérato-conjonctivites vernales et atopiques qui sont responsables d'une altération importante de la qualité de vie et peuvent mettre en jeu le pronostic visuel. Prélèvement des larmes par aspiration à la pipette de transfert et dosage quantitatif des IgE totales puis calcul du rapport IgE totales lacrymales dosées/filtrées. Encadrement  pour le contrôle de la prescription et des étapes analytiques et post-analytiques"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 13.5
         }
       ]
     },
@@ -15616,7 +17670,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -15625,6 +17679,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Spécialisé"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 32.4
         }
       ]
     },
@@ -15642,7 +17700,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -15651,6 +17709,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 54.0
         }
       ]
     },
@@ -15681,6 +17743,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 329.4
         }
       ]
     },
@@ -15698,7 +17764,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -15706,7 +17772,11 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "note",
-          "valueString" : "Non cumulable avec [N525]"
+          "valueString" : "Dans le mélanome non résécable ou métastatique, le CBNPC et le cancer colorectal, le test pour thérapie ciblé (test compagnon) n'est pas à coder au RIHN, car il est inscrit à la NABM et à la CCAM"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 116.1
         }
       ]
     },
@@ -15724,7 +17794,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -15733,6 +17803,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Cotation limitée à un maximum de 8 enzymes. Indication: enzyme(s) connue(s) pour être en lien avec la pathologie héréditaire recherchée."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 54.0
         }
       ]
     },
@@ -15750,7 +17824,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -15759,6 +17833,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Différents inducteurs inclus (HNF,HBPM…). Une seule cotation. Gold standard de diagnostic de confirmation de thrombopénie induite par l'héparine de type 2"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 67.5
         }
       ]
     },
@@ -15789,6 +17867,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 56.0
         }
       ]
     },
@@ -15806,11 +17888,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 40.5
         }
       ]
     },
@@ -15828,7 +17914,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -15837,6 +17923,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Inclus tous types d’extraction, contrôle interne, contrôle cellulaire, analyse des données. Selon indications des sociétés savantes. Hors actes inscrits à la NABM [4101], [4102], [5256], [4120], [4122], [4128], [0805], [0806], [4123], [4124], [4125], [4126], [4118], [4119], [4127], [4121], [5258], [5257], [1307], [5262], [4718], [5259], [1254], [3254], [5260], [4273], [1255], [3255], [5261], [5263], [5264], [5265], [5271], [5272], [5237], [5273]"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 108.0
         }
       ]
     },
@@ -15854,7 +17944,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -15863,6 +17953,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Limité à 1 métabolite"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 32.4
         }
       ]
     },
@@ -15880,7 +17974,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -15889,6 +17983,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "En attente d'une modification potentielle du libellé de l'acte NABM [1650] prenant en compte les autres antibactériens et liquides biologiques que le sang. Hors méthode bactériologique."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 40.5
         }
       ]
     },
@@ -15906,11 +18004,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 16.2
         }
       ]
     },
@@ -15928,11 +18030,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 13.5
         }
       ]
     },
@@ -15941,6 +18047,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
       "display" : "Dosage du composant sC5b9",
       "designation" : [
         {
+          "language" : "fr",
           "use" : {
             "system" : "http://snomed.info/sct",
             "code" : "900000000000013009",
@@ -15960,7 +18067,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -15968,7 +18075,11 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "note",
-          "valueString" : "Une cotation par protéine. Exploration du complément et marqueurs associés : dosages antigéniques. Actes récents, introduits dans le cadre du nouveau traitement par anti-C5 (Soliris) et certaines pathologies (Glomérulopathies à C3)"
+          "valueString" : "En attente d'incription à la NABM"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 18.9
         }
       ]
     },
@@ -15999,6 +18110,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 29.7
         }
       ]
     },
@@ -16016,7 +18131,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -16025,6 +18140,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation. A réaliser seulement si [E056] est diminué. A réserver à centre de référence ou centre expert."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 37.8
         }
       ]
     },
@@ -16042,11 +18161,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 32.4
         }
       ]
     },
@@ -16090,7 +18213,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -16099,6 +18222,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -16116,11 +18243,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 10.8
         }
       ]
     },
@@ -16138,11 +18269,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 67.5
         }
       ]
     },
@@ -16160,11 +18295,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 118.8
         }
       ]
     },
@@ -16191,6 +18330,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 40.5
         }
       ]
     },
@@ -16208,11 +18351,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 54.0
         }
       ]
     },
@@ -16230,7 +18377,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -16239,6 +18386,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Inclus: extraction choc thermique + PCR + RT + purification colonne + séquençage 2 brins + analyse données"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 137.7
         }
       ]
     },
@@ -16269,6 +18420,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 84.0
         }
       ]
     },
@@ -16286,7 +18441,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -16295,6 +18450,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Inclus tous types d’extraction, contrôle interne, contrôle cellulaire, analyse des données. Selon indications des sociétés savantes. Hors actes inscrits à la NABM [4101], [4102], [5256], [4120], [4122], [4128], [0805], [0806], [4123], [4124], [4125], [4126], [4118], [4119], [4127], [4121], [5258], [5257], [1307], [5262], [4718], [5259], [1254], [3254], [5260], [4273], [1255], [3255], [5261], [5263], [5264], [5265], [4506]  [5269], [5301], [5302], [5303], [5271], [5272], [5237], [5273]"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 116.1
         }
       ]
     },
@@ -16303,6 +18462,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
       "display" : "C1r, C1s, C2, antigénémie",
       "designation" : [
         {
+          "language" : "fr",
           "use" : {
             "system" : "http://snomed.info/sct",
             "code" : "900000000000013009",
@@ -16322,7 +18482,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -16330,7 +18490,11 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "note",
-          "valueString" : "Une cotation par protéine. Examens de seconde intention. interprétation biologique nécessitant une expertise"
+          "valueString" : "Une cotation par protéine.\nEn attente d'inscription à la NABM."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -16348,11 +18512,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 13.5
         }
       ]
     },
@@ -16370,11 +18538,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 40.5
         }
       ]
     },
@@ -16392,7 +18564,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -16401,6 +18573,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Différentes parasitoses rares peuvent être diagnostiquées par sérologie : par exemple la gnathostomose, l'angyostrongilose, …"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 32.4
         }
       ]
     },
@@ -16418,11 +18594,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 18.9
         }
       ]
     },
@@ -16496,7 +18676,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -16505,6 +18685,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Par spécificité. cotation maximum 2 spécificités. Par marqueur isotopique ou non."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 18.9
         }
       ]
     },
@@ -16535,6 +18719,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 16.2
         }
       ]
     },
@@ -16552,11 +18740,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 81.0
         }
       ]
     },
@@ -16574,7 +18766,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -16583,6 +18775,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Isolement sur milieu axénique. Technique indispensable pour l'isolement de la souche de Leishmanie."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 54.0
         }
       ]
     },
@@ -16600,11 +18796,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 8.1
         }
       ]
     },
@@ -16622,7 +18822,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -16631,6 +18831,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Même acte et même remarque que pour les actes [K054] et [K055], mais il s'agit ici de l'étude fonctionnelle sur lignées cellulaires (méthode de référence)"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 81.0
         }
       ]
     },
@@ -16648,7 +18852,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -16657,6 +18861,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Pour une stimulation. 10 stimulations maximum. Acte devant être encadré pour sa prescription et les étapes pré et post analytiques"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 54.0
         }
       ]
     },
@@ -16674,7 +18882,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -16682,7 +18890,11 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "note",
-          "valueString" : "Une cotation par protéine cible et par isotype. Examens de première intention pour les anti-FH, de seconde intention pour les anti-C1q et les anti-C1 Inhibiteur ; interprétation biologique nécessitant une expertise"
+          "valueString" : "Une cotation par protéine cible et par isotype. \nEn attente d'inscription à la NABM."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 18.9
         }
       ]
     },
@@ -16700,7 +18912,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -16709,6 +18921,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Indication : Post-greffe, selon recommandations de l'ABM. Prescriptions principalement en CHU, consultations externes ou hospitalisation. Technique sensible (ELISA, Multiplex, micropuces)"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 324.0
         }
       ]
     },
@@ -16726,11 +18942,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 13.5
         }
       ]
     },
@@ -16761,6 +18981,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 24.3
         }
       ]
     },
@@ -16778,7 +19002,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -16787,6 +19011,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Importance des approches de Western blot dans le serodiagnostic parasitaire"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 48.6
         }
       ]
     },
@@ -16838,7 +19066,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -16847,6 +19075,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation. Marqueur d'hypercoagulabilité, associé aux pathologies thrombotiques et cancéreuses."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 37.8
         }
       ]
     },
@@ -16864,7 +19096,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -16873,6 +19105,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation. Marqueur d'efficacité du traitement anti-agrégant par inhibiteurs de P2Y12,  associé aux autres tests : agregation à ADP [E054] et agrégation induite par les taux de cisaillement [E098]"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 54.0
         }
       ]
     },
@@ -16890,7 +19126,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -16899,6 +19135,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Fusion des actes [L022] et [L192]"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 8.1
         }
       ]
     },
@@ -16916,11 +19156,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 13.5
         }
       ]
     },
@@ -16938,7 +19182,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -16947,6 +19191,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Méthode de Nagasaki et Ajanuma. Spécialisé."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -16964,15 +19212,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
         },
         {
-          "code" : "note",
-          "valueString" : "Evaluation favorable de la HAS - En attente d'inscription aux nomenclatures\nhttps://www.has-sante.fr/jcms/p_3491330/fr/detection-de-mutations-par-expansion-de-nucleotides-rapports-d-evaluation"
+          "code" : "prixMaximal",
+          "valueDecimal" : 137.7
         }
       ]
     },
@@ -16999,6 +19247,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 10.8
         }
       ]
     },
@@ -17029,6 +19281,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 91.8
         }
       ]
     },
@@ -17046,11 +19302,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 81.0
         }
       ]
     },
@@ -17068,7 +19328,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -17077,6 +19337,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Cas particulier des nouveaux traitements immunomodulateurs pouvant induire la synthèse de ce type d'anticorps. Intérêt = montrer que IgM peu de valeur. Non cumulable avec l'acte NABM [1454]"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 18.9
         }
       ]
     },
@@ -17107,6 +19371,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 86.4
         }
       ]
     },
@@ -17124,7 +19392,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -17133,6 +19401,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Indication : Post-greffe, selon recommandations de l'ABM. Prescriptions principalement en CHU, consultations externes ou hospitalisation. Technique sensible (ELISA, Multiplex, micropuces)"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 324.0
         }
       ]
     },
@@ -17141,6 +19413,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
       "display" : "Dosage du complément total, voie classique, et voie alterne par technique non hémolytique",
       "designation" : [
         {
+          "language" : "fr",
           "use" : {
             "system" : "http://snomed.info/sct",
             "code" : "900000000000013009",
@@ -17160,7 +19433,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -17168,7 +19441,11 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "note",
-          "valueString" : "Les dosages non hémolytiques se sont développés pour satisfaire à l'automatisation et l'accréditation ; ces techniques sont plus oénreuses que les dosages hémolytiques CH50 et AP50"
+          "valueString" : "Une cotation par protéine. \nEn attente d'inscription à la NABM."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 10.8
         }
       ]
     },
@@ -17186,7 +19463,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -17195,6 +19472,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation. A réserver à centre de référence ou centre expert."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 18.9
         }
       ]
     },
@@ -17212,7 +19493,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -17221,6 +19502,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -17238,11 +19523,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 81.0
         }
       ]
     },
@@ -17260,7 +19549,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -17269,6 +19558,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Dépistage néonatal des Déficits Immunitaires Combinés Sévères (DICS)"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 7.35
         }
       ]
     },
@@ -17286,11 +19579,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 29.7
         }
       ]
     },
@@ -17317,6 +19614,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -17343,6 +19644,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -17360,11 +19665,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 8.1
         }
       ]
     },
@@ -17382,7 +19691,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -17391,6 +19700,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 37.8
         }
       ]
     },
@@ -17421,6 +19734,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 16.2
         }
       ]
     },
@@ -17451,6 +19768,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 10.8
         }
       ]
     },
@@ -17468,11 +19789,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 67.5
         }
       ]
     },
@@ -17499,6 +19824,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -17516,7 +19845,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -17525,6 +19854,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Inclus:Contrôle préanalytique +  extraction ADN + dosage ADN + digestion + gel agarose +  blot + hybridation membrane + analyse données"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 159.3
         }
       ]
     },
@@ -17542,7 +19875,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -17551,6 +19884,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Indication : Post-greffe, selon recommandations de l'ABM. Prescriptions principalement en CHU, consultations externes ou hospitalisation. Technique sensible (ELISA, Multiplex, micropuces)"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 148.5
         }
       ]
     },
@@ -17581,6 +19918,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 48.6
         }
       ]
     },
@@ -17672,7 +20013,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -17681,6 +20022,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Cas particulier des nouveaux traitements immunomodulateurs pouvant induire la synthèse de ce type d'anticorps. Intérêt = montrer que IgM peu de valeur. Non cumulable avec l'acte NABM [1455]"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 10.8
         }
       ]
     },
@@ -17698,11 +20043,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -17720,7 +20069,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -17729,6 +20078,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation. Recommandations du CRMH, en cours de rédaction, préconiseront le dosage antigènique en complément de la caractérisation phénotypique basée sur les mesures d’activité, afin de reconnaître les hémophiles CRM."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 37.8
         }
       ]
     },
@@ -17755,6 +20108,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 54.0
         }
       ]
     },
@@ -17772,7 +20129,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -17780,7 +20137,11 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "note",
-          "valueString" : "L'acte n'est pas à coder au RAHN lorsqu'il s'agit d'un acte dans des indications de cancer bronchique"
+          "valueString" : "Dans la prise en charge du CBNPC, l'acte n'est pas à coder au RIHN, car il doit être intégré dans le panel, sauf en cas d'urgence, où une approche monogénique est à privilégier (source HAS)"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 110.7
         }
       ]
     },
@@ -17798,7 +20159,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -17807,6 +20168,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "par RT-PCR (Comprenant le séquençage de 2 amplicons et l'expertise informatique,  cotation ne comprenant pas les étapes pré-analytiques : extraction, RT et qualification ainsi que la QPCR)"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 272.7
         }
       ]
     },
@@ -17824,7 +20189,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -17833,6 +20198,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Les microscporidies sont des parasites dont le rôle en pathologie humaine a été démontré depuis 15 ans, son diagnostic repose sur des techniques de coloration élective ou par IFI :"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 16.2
         }
       ]
     },
@@ -17850,11 +20219,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 324.0
         }
       ]
     },
@@ -17872,7 +20245,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -17881,6 +20254,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation. L'ELISA n'est pas une méthode qui répond aux besoins analytiques, en conséquence la spectrométrie de masse de dernière génération avec préfractionnement est la méthode analytique à utiliser et ceci pour tous les fluides biologiques."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 54.0
         }
       ]
     },
@@ -17898,11 +20275,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 108.0
         }
       ]
     },
@@ -17920,7 +20301,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -17929,6 +20310,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Spécialisé"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 405.0
         }
       ]
     },
@@ -17955,6 +20340,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 16.2
         }
       ]
     },
@@ -17972,7 +20361,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -17981,6 +20370,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Indication : Post-greffe, selon recommandations de l'ABM. Prescriptions principalement en CHU, consultations externes ou hospitalisation. Technique sensible (ELISA, Multiplex, micropuces)"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 148.5
         }
       ]
     },
@@ -18011,6 +20404,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 9.45
         }
       ]
     },
@@ -18028,7 +20425,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -18037,6 +20434,36 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Inclus: contrôle préanalytique + extraction par kit sur automate + 2 couples amorces  supplémentaires + 3 sondes marquées + PCR TR"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 97.2
+        }
+      ]
+    },
+    {
+      "code" : "V015",
+      "display" : "Détection de mutations par expansion de microsatellites",
+      "property" : [
+        {
+          "code" : "parent",
+          "valueCode" : "14-3-1"
+        },
+        {
+          "code" : "created",
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
+        },
+        {
+          "code" : "type",
+          "valueString" : "code"
+        },
+        {
+          "code" : "note",
+          "valueString" : "Indications évaluées par la HAS permettant une exemption à la décote.\nEn attente d'inscription aux nomenclatures"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 137.7
         }
       ]
     },
@@ -18054,11 +20481,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 32.4
         }
       ]
     },
@@ -18076,7 +20507,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -18085,6 +20516,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation. Isolement des microparticules, dosage chromogénique ou colorimétrique avec protéines purifiées. Marqueur d'hypercoagulabilité, associé aux pathologies thrombotiques et cancéreuses."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 135.0
         }
       ]
     },
@@ -18102,7 +20537,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -18111,6 +20546,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Agrégation plaquettaire en PRP . Une cotation par agent inducteur, (hors analyses du code [1011]). Utilité pour la poursuite du diagnostic de certaines  thrombopathies en accord avec les recommandations du centre de référence des pathologies plaquettaires. Egalement utilisé pour la surveillance des traitements anti-agrégants plaquettaires par inhibiteurs de P2Y12"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 13.5
         }
       ]
     },
@@ -18128,7 +20567,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -18137,6 +20576,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -18154,7 +20597,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -18163,6 +20606,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "La culture permet l'identification au niveau de l'espèce pour les ankylostomoses, et augmente la senibilité de la recherche de ces parasites digestifs."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 40.5
         }
       ]
     },
@@ -18180,7 +20627,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -18189,6 +20636,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Indication à préciser par l'INCa"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 116.1
         }
       ]
     },
@@ -18215,6 +20666,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 13.5
         }
       ]
     },
@@ -18232,11 +20687,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 32.4
         }
       ]
     },
@@ -18254,11 +20713,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -18276,7 +20739,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -18285,6 +20748,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 24.3
         }
       ]
     },
@@ -18302,7 +20769,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -18311,6 +20778,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "A réaliser au sein de laboratoires accrédités par l'European Federation for Imunogenetics (EFI)"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 74.25
         }
       ]
     },
@@ -18328,11 +20799,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 40.5
         }
       ]
     },
@@ -18350,7 +20825,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -18359,6 +20834,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Diagnostic de certaines formes de polyarthrite rhumatoïde"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 18.9
         }
       ]
     },
@@ -18376,11 +20855,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 18.9
         }
       ]
     },
@@ -18398,11 +20881,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 16.2
         }
       ]
     },
@@ -18420,7 +20907,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -18429,6 +20916,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "En attente d'une modification potentielle du libellé de l'acte NABM [1815] prenant en compte les autres liquides biologiques que le sang."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 10.8
         }
       ]
     },
@@ -18446,11 +20937,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 18.9
         }
       ]
     },
@@ -18468,7 +20963,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -18477,6 +20972,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une cotation par Ac. Conférence de consensus \"standardisation de l'exploration des pathologies plaquettaires\" (février 2009) du Centre de référence des pathologies plaquettaires : examen de niveau 2 (confirmation d'une orientation diagnostique)"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -18494,7 +20993,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -18503,6 +21002,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation. Marqueur d'activation endothéliale et d'hypercoaguabilité"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 37.8
         }
       ]
     },
@@ -18520,7 +21023,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -18529,6 +21032,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une cotation par agent inducteur/dilution. Si [E054] anormal permet la confirmation du diagnostic  de thrombopathie ."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 40.5
         }
       ]
     },
@@ -18546,7 +21053,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -18555,6 +21062,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Meilleure sensibilité pour la détection des parasites digestifs responsables de diarrhées que l'examen microscopique"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -18572,7 +21083,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -18581,6 +21092,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "En attente d'une modification potentielle du libellé de l'acte NABM [0552] prenant en compte les autres liquides biologiques que le sang."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 2.7
         }
       ]
     },
@@ -18611,6 +21126,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 16.2
         }
       ]
     },
@@ -18628,7 +21147,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -18637,6 +21156,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Fusion des actes [L002 et L060]"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 16.2
         }
       ]
     },
@@ -18654,7 +21177,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -18663,6 +21186,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "En attente d'une modification potentielle du libellé de l'acte NABM [1601] prenant en compte les autres liquides biologiques que le sang."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 4.05
         }
       ]
     },
@@ -18689,6 +21216,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 64.8
         }
       ]
     },
@@ -18706,7 +21237,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -18715,6 +21246,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Identification par technique utilisant un marqueur autre que fluorochrome. Méthode de référence."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 18.9
         }
       ]
     },
@@ -18732,11 +21267,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 32.4
         }
       ]
     },
@@ -18754,11 +21293,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 32.4
         }
       ]
     },
@@ -18776,7 +21319,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -18785,6 +21328,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Inclus: Contrôle préanalytique +  préparation plug + lyse-extraction en plug + digestion en plug + électrophorèse gel champ pulsé + analyse des données"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 135.0
         }
       ]
     },
@@ -18802,7 +21349,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -18811,6 +21358,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "En attente d'une modification potentielle du libellé de l'acte NABM [4117] prenant en compte les autres liquides biologiques que le sang."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 37.8
         }
       ]
     },
@@ -18841,12 +21392,27 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 32.4
         }
       ]
     },
     {
       "code" : "K045",
-      "display" : "IgA (liquides biologiques autres que le sang, ponctions)",
+      "display" : "Recherche et quantification d'anticorps anti-protéine du complément : anti-C1q, anti-C1inh ou anti-Facteur H",
+      "designation" : [
+        {
+          "language" : "fr",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009",
+            "display" : "Synonym"
+          },
+          "value" : "IgA (liquides biologiques autres que le sang, ponctions)"
+        }
+      ],
       "property" : [
         {
           "code" : "parent",
@@ -18858,7 +21424,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -18867,6 +21433,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "En attente d'une modification potentielle du libellé de l'acte NABM [1814] prenant en compte les autres liquides biologiques que le sang."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 10.8
         }
       ]
     },
@@ -18884,11 +21454,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 18.9
         }
       ]
     },
@@ -18906,7 +21480,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -18915,6 +21489,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Fusion des actes [K021] et [K155] en attente d'une modification potentielle du libellé de l'acte NABM [1808] prenant en compte les autres liquides biologiques que le sang."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 9.45
         }
       ]
     },
@@ -18932,7 +21510,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -18941,6 +21519,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "En attente d'une modification potentielle du libellé de l'acte NABM [1804] prenant en compte les autres liquides biologiques que le sang."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 5.67
         }
       ]
     },
@@ -18958,11 +21540,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 54.0
         }
       ]
     },
@@ -18980,7 +21566,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -18989,6 +21575,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "La détection de Giardia intestinalis par IFI est utilisée dans certains laboratoires"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 16.2
         }
       ]
     },
@@ -19006,7 +21596,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -19015,6 +21605,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "En attente d'une modification potentielle du libellé de l'acte NABM [0580] prenant en compte les autres liquides biologiques que le sang."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 1.35
         }
       ]
     },
@@ -19032,11 +21626,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 8.1
         }
       ]
     },
@@ -19054,7 +21652,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -19063,6 +21661,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Par cible"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 167.4
         }
       ]
     },
@@ -19080,7 +21682,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -19089,6 +21691,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Même commentaire que pour l'acte [N151]"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 81.0
         }
       ]
     },
@@ -19211,12 +21817,20 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
           "valueDateTime" : "2025-01-01T00:00:00+00:00"
         },
         {
+          "code" : "modified",
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
+        },
+        {
           "code" : "type",
           "valueString" : "code"
         },
         {
           "code" : "note",
-          "valueString" : "Les indications suivantes ont été évaluées par la HAS permettant une exemption à la décote :\nhttps://www.has-sante.fr/upload/docs/application/pdf/2025-01/rapport_taan_inm_vd.pdf"
+          "valueString" : "Indications évaluées par la HAS permettant une exemption à la décote."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 75.6
         }
       ]
     },
@@ -19234,7 +21848,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -19243,6 +21857,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation. Examen comportant des anticorps anti-CD34 et anti- CD45, un colorant vital et des billes de comptage."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 54.0
         }
       ]
     },
@@ -19260,7 +21878,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -19269,6 +21887,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation.  A réserver à un centre de référence ou centre expert"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 13.5
         }
       ]
     },
@@ -19336,11 +21958,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 2.7
         }
       ]
     },
@@ -19358,11 +21984,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 56.0
         }
       ]
     },
@@ -19380,7 +22010,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -19389,6 +22019,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Cotation : par réaction PCR. Inclus tous types d’extraction, contrôle interne, contrôle cellulaire, analyse des données. <10 couples d'amorces. Selon indications des sociétés savantes."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 135.0
         }
       ]
     },
@@ -19406,7 +22040,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -19415,6 +22049,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Cotation : par réaction PCR. Inclus tous types d’extraction, contrôle interne, contrôle cellulaire, analyse des données. <10 couples d'amorces. Selon indications des sociétés savantes."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 170.1
         }
       ]
     },
@@ -19432,11 +22070,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 21.6
         }
       ]
     },
@@ -19454,7 +22096,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -19463,6 +22105,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Indications : assistance cardio-respiratoire par circulation extra-corporelle"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 8.5
         }
       ]
     },
@@ -19479,12 +22125,20 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
           "valueDateTime" : "2025-01-01T00:00:00+00:00"
         },
         {
+          "code" : "modified",
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
+        },
+        {
           "code" : "type",
           "valueString" : "code"
         },
         {
           "code" : "note",
-          "valueString" : "Les indications suivantes ont été évaluées par la HAS permettant une exemption à la décote :\nhttps://www.has-sante.fr/upload/docs/application/pdf/2025-01/rapport_taan_inm_vd.pdf"
+          "valueString" : "Indications évaluées par la HAS permettant une exemption à la décote."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 67.5
         }
       ]
     },
@@ -19502,7 +22156,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -19511,6 +22165,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation. Examen non systématique, à faire si [0191] anormal. Fait partie du diagnostic de déficit en protéine C consitutionnel."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 13.5
         }
       ]
     },
@@ -19528,7 +22186,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -19537,6 +22195,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation. Inclus: PCR + migration capillaire + analyse"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 37.8
         }
       ]
     },
@@ -19554,7 +22216,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -19563,6 +22225,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "A réaliser au sein de laboratoires accrédités par l'European Federation for Imunogenetics (EFI)"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 270.0
         }
       ]
     },
@@ -19602,7 +22268,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -19611,6 +22277,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Même commentaire que pour l'acte [N151]"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 148.5
         }
       ]
     },
@@ -19654,7 +22324,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -19663,6 +22333,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "A réaliser au sein de laboratoires accrédités par l'European Federation for Imunogenetics (EFI)"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 351.0
         }
       ]
     },
@@ -19679,12 +22353,20 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
           "valueDateTime" : "2025-01-01T00:00:00+00:00"
         },
         {
+          "code" : "modified",
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
+        },
+        {
           "code" : "type",
           "valueString" : "code"
         },
         {
           "code" : "note",
-          "valueString" : "Les indications suivantes ont été évaluées par la HAS permettant une exemption à la décote :\nhttps://www.has-sante.fr/upload/docs/application/pdf/2025-01/rapport_taan_inm_vd.pdf"
+          "valueString" : "Indications évaluées par la HAS permettant une exemption à la décote."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 116.1
         }
       ]
     },
@@ -19702,7 +22384,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -19711,6 +22393,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 10.8
         }
       ]
     },
@@ -19728,7 +22414,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -19737,6 +22423,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 2.7
         }
       ]
     },
@@ -19754,7 +22444,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -19763,6 +22453,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "A réaliser au sein de laboratoires accrédités par l'European Federation for Imunogenetics (EFI)"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 351.0
         }
       ]
     },
@@ -19780,7 +22474,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -19789,6 +22483,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation. Examen à réserver à un centre de référence ou centre expert pour le diagnostic de déficit en plasminogène associé aux conjonctivites ligneuses"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -19806,7 +22504,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -19815,6 +22513,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Intérêt diagnostique et pratique hospitalière"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 10.8
         }
       ]
     },
@@ -20101,12 +22803,20 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
           "valueDateTime" : "2025-01-01T00:00:00+00:00"
         },
         {
+          "code" : "modified",
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
+        },
+        {
           "code" : "type",
           "valueString" : "code"
         },
         {
           "code" : "note",
-          "valueString" : "Les indications suivantes ont été évaluées par la HAS permettant une exemption à la décote :\nhttps://www.has-sante.fr/upload/docs/application/pdf/2025-01/rapport_taan_inm_vd.pdf"
+          "valueString" : "Indications évaluées par la HAS permettant une exemption à la décote."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 108.0
         }
       ]
     },
@@ -20124,11 +22834,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 162.0
         }
       ]
     },
@@ -20155,6 +22869,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 18.9
         }
       ]
     },
@@ -20172,7 +22890,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -20181,6 +22899,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation. A réserver à un centre de référence ou centre expert si l'acte [E100] est diminué"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 37.8
         }
       ]
     },
@@ -20198,11 +22920,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 10.8
         }
       ]
     },
@@ -20220,7 +22946,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -20229,6 +22955,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "En attente d'une modification potentielle du libellé de l'acte NABM [1824] prenant en compte les autres liquides biologiques que le sang."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 28.35
         }
       ]
     },
@@ -20246,11 +22976,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 21.6
         }
       ]
     },
@@ -20364,7 +23098,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -20373,6 +23107,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Inclus tous types d’extraction, contrôle interne, contrôle cellulaire, analyse des données. Selon indications des sociétés savantes. Hors actes inscrits à la NABM [4101], [4102], [5256], [4120], [4122], [4128], [0805], [0806], [4123], [4124], [4125], [4126], [4118], [4119], [4127], [4121], [5258], [5257], [1307], [5262], [4718], [5259], [1254], [3254], [5260], [4273],,[1255], [3255], [5261], [5263], [5264], [5265], [4506]  [5269], [5301], [5302], [5303], [5271], [5272], [5237], [5273]"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 67.5
         }
       ]
     },
@@ -20404,7 +23142,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -20413,6 +23151,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Intérêt dans les démences fronto-temporales. Par méthode ELISA"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 67.5
         }
       ]
     },
@@ -20430,7 +23172,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -20439,6 +23181,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Acte permettant de recentrer les actes NABM [1180] et [1181]"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 47.25
         }
       ]
     },
@@ -20482,7 +23228,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -20491,6 +23237,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Examen externe, prélèvement et dissection du bloc viscéral, examen macroscopique et histologique après bloc paraffine des organes individualisés"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 1337.0
         }
       ]
     },
@@ -20508,7 +23258,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -20517,6 +23267,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation. Marqueur d'activation de la coagulation car clivage de la GPV par la thrombine"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -20534,7 +23288,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -20543,6 +23297,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Comprend le forfait \"accueil  cas index\" (BHN 370), le forfait analytique NGS > 100 kb et < 500 kb (BHN 6000) et le forfait \"interprétation\" (BHN 1800). Le détail de ces forfaits est précisé dans le document  de l'ANPGM en Annexe du RIHN. Concerne un nombre limité de maladie héréditaires pour lesquelles cet examen est nécessaire au diagnostic (cf. arbres décisionnels de l'ANPGM)"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 2205.9
         }
       ]
     },
@@ -20560,7 +23318,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -20569,6 +23327,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Pratique hospitalière"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 10.8
         }
       ]
     },
@@ -20595,6 +23357,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 13.5
         }
       ]
     },
@@ -20678,7 +23444,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -20687,6 +23453,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Inclus tous types d’extraction, contrôle interne, contrôle cellulaire, analyse des données. Selon indications des sociétés savantes. Hors actes inscrits à la NABM [4101], [4102], [5256], [4120], [4122], [4128], [0805], [0806], [4123], [4124], [4125], [4126], [4118], [4119], [4127], [4121], [5258], [5257], [1307], [5262], [4718], [5259], [1254], [3254], [5260], [4273], [1255], [3255], [5261], [5263], [5264], [5265],  [4506], [5269], [5301], [5302], [5303], [5271], [5272], [5237], [5273]"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 75.6
         }
       ]
     },
@@ -20718,7 +23488,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -20727,6 +23497,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Fusion des actes [K083] et [K145]"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 70.2
         }
       ]
     },
@@ -20744,7 +23518,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -20753,6 +23527,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "La détection des glucanes augmente le sensibilité au diagnostic des infections fongiques; c'est un outil  de diagnostic \"panfongique\" très efficient pour les cliniciens dans le diagnostic des PcP, des candidémies et  d'infections fongiques rares."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -20770,7 +23548,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -20779,6 +23557,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Selon standards EFI"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 270.0
         }
       ]
     },
@@ -20796,7 +23578,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -20805,6 +23587,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Thromboélastographie/Thromboélastométrie rotative. Une seule cotation."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 18.9
         }
       ]
     },
@@ -20822,7 +23608,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -20831,6 +23617,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 10.8
         }
       ]
     },
@@ -20848,11 +23638,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 18.9
         }
       ]
     },
@@ -20883,6 +23677,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 35.1
         }
       ]
     },
@@ -20900,7 +23698,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -20909,6 +23707,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Comprend le forfait \"accueil  apprenté\" (BHN 220)et le forfait \"Recherche chez un apparenté  d'une mutation identifiée par NGS\"  (BHN 500). Le détail de ces forfaits est précisé dans le document  de l'ANPGM en Annexe du RIHN. Concerne un nombre limité de maladie héréditaires pour lesquelles cet examen est nécessaire au diagnostic (cf. arbres décisionnels de l'ANPGM)"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 194.4
         }
       ]
     },
@@ -20926,7 +23728,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -20935,6 +23737,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Intérêt diagnostique et pratique hospitalière"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 10.8
         }
       ]
     },
@@ -20952,7 +23758,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -20961,6 +23767,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Examen macroscopique et histologique après bloc paraffine du cerveau"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 33.6
         }
       ]
     },
@@ -20991,6 +23801,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "deprecated",
           "valueBoolean" : true
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 43.2
         }
       ]
     },
@@ -21110,7 +23924,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -21119,6 +23933,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Comprend la réanalyse des données d'une CGH déjà réalisée et la rédaction d'un nouveau compte rendu / d'un courrier si l'interprétation ne change pas. BHN 800 pour cet acte en raison du temps médical requis estimé à environ 2h en moyenne."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 216.0
         }
       ]
     },
@@ -21136,7 +23954,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -21145,6 +23963,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Cotation : par réaction PCR. Inclus tous types d’extraction, contrôle interne, contrôle cellulaire, analyse des données. ≥10 couples d'amorces. Selon indications des sociétés savantes."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 270.0
         }
       ]
     },
@@ -21162,7 +23984,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -21171,6 +23993,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Acte de seconde intention permettant d'affirmer le diagnostic de maladie des chaines lourdes ; réalisation technique et interprétation biologique nécessitant une expertise"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 48.6
         }
       ]
     },
@@ -21187,12 +24013,20 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
           "valueDateTime" : "2025-01-01T00:00:00+00:00"
         },
         {
+          "code" : "modified",
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
+        },
+        {
           "code" : "type",
           "valueString" : "code"
         },
         {
           "code" : "note",
-          "valueString" : "Les indications suivantes ont été évaluées par la HAS permettant une exemption à la décote :\n\nhttps://www.has-sante.fr/upload/docs/application/pdf/2024-11/rapport_taan_igi_vd.pdf\nhttps://www.has-sante.fr/upload/docs/application/pdf/2024-12/rapport_taan_irb_vd.pdf\nhttps://www.has-sante.fr/upload/docs/application/pdf/2025-01/rapport_taan_inm_vd.pdf"
+          "valueString" : "Indications évaluées par la HAS permettant une exemption à la décote."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 340.2
         }
       ]
     },
@@ -21210,11 +24044,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 16.2
         }
       ]
     },
@@ -21232,7 +24070,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -21241,6 +24079,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 27.0
         }
       ]
     },
@@ -21258,7 +24100,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -21267,6 +24109,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Non cumulable avec l'acte [G237]"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 24.3
         }
       ]
     },
@@ -21284,7 +24130,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -21293,6 +24139,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation. PCR et hybridation biopuce de haute densité. Inclus: N901 + révélation microplaque + analyse des résultats"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 54.0
         }
       ]
     },
@@ -21310,7 +24160,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -21319,6 +24169,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation. Dépistage d’une anomalie de la fibrinolyse dans un contexte thrombotique\nDépistage d’une hyperfibrinolyse dans un contexte de pathologie hémorragique constitutionnelle"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 37.8
         }
       ]
     },
@@ -21358,7 +24212,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -21367,6 +24221,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Examen macroscopique et histologique après bloc paraffine de la moelle épinière"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 33.6
         }
       ]
     },
@@ -21384,11 +24242,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 54.0
         }
       ]
     },
@@ -21406,7 +24268,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -21415,6 +24277,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Comprend le forfait \"accueil  cas index\" (BHN 370), le forfait analytique NGS < 20 kb (BHN 2000) et le forfait \"interprétation\" (BHN 400). Le détail de ces forfaits est précisé dans le document  de l'ANPGM en Annexe du RIHN. Concerne un nombre limité de maladie héréditaires pour lesquelles cet examen est nécessaire au diagnostic (cf. arbres décisionnels de l'ANPGM)"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 882.9
         }
       ]
     },
@@ -21478,7 +24344,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -21487,6 +24353,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Inclus: analyse des données"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 99.9
         }
       ]
     },
@@ -21504,7 +24374,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -21513,6 +24383,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Cotation : par réaction PCR. Inclus tous types d’extraction, contrôle interne, contrôle cellulaire, analyse des données.  ≥10 couples d'amorces. Selon indications des sociétés savantes."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 340.2
         }
       ]
     },
@@ -21530,11 +24404,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 5.4
         }
       ]
     },
@@ -21552,7 +24430,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -21560,7 +24438,11 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "note",
-          "valueString" : "Une cotation par protéine. Dosages réalisés en première ou seconde intention selon l'indication ; interprétation biologique nécessitant une expertise"
+          "valueString" : "Une cotation par protéine.\nEn attente d'inscription à la NABM"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 18.9
         }
       ]
     },
@@ -21578,7 +24460,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -21587,6 +24469,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Pour analyse à faible débit. Réaction de séquençage double brin d'un produit PCR  (< 800 nt) (Inclus: PCR + purification de la PCR + quantification sur gel + réaction de séquençage et l'analyse)"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 153.9
         }
       ]
     },
@@ -21604,7 +24490,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -21613,6 +24499,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Non cumulable avec l'acte [G239]"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 16.2
         }
       ]
     },
@@ -21630,7 +24520,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -21639,6 +24529,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Indication: dans le cadre du diagnostic d’un Déficit Immunitaire Primitif (DIP). Acte devant être encadré pour sa prescription et les étapes pré et post analytiques"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 14.85
         }
       ]
     },
@@ -21656,11 +24550,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 108.0
         }
       ]
     },
@@ -21696,11 +24594,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 10.8
         }
       ]
     },
@@ -21718,7 +24620,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -21727,6 +24629,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une seule cotation. Numération formule, ektacytométrie, commentaire cytologique, EMA non systématique"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 81.0
         }
       ]
     },
@@ -21744,11 +24650,15 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
           "valueString" : "code"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 209.25
         }
       ]
     },
@@ -21766,7 +24676,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -21775,6 +24685,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "La surveillance de la chimiosensiblité parasitaire est un outil indispensable pour l'identification et la prise en charge de nouvelles résistances"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 108.0
         }
       ]
     },
@@ -21792,7 +24706,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -21801,6 +24715,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Fusion des actes[L041], [L076], [L131] et [L134]"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 13.5
         }
       ]
     },
@@ -21818,7 +24736,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -21827,6 +24745,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Comprend le forfait \"accueil  cas index\" (BHN 370), le forfait analytique > 20 kb et < 100 kb (BHN 4000) et le forfait \"interprétation\" (BHN 1200). Le détail de ces forfaits est précisé dans le document  de l'ANPGM en Annexe du RIHN. Concerne un nombre limité de maladie héréditaires pour lesquelles cet examen est nécessaire au diagnostic (cf. arbres décisionnels de l'ANPGM)"
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 1503.9
         }
       ]
     },
@@ -21844,7 +24766,7 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         },
         {
           "code" : "modified",
-          "valueDateTime" : "2025-01-01T00:00:00+00:00"
+          "valueDateTime" : "2026-01-01T00:00:00+00:00"
         },
         {
           "code" : "type",
@@ -21853,6 +24775,10 @@ La liste des actes innovants hors nomenclature (LAHN) a été mise en place par 
         {
           "code" : "note",
           "valueString" : "Une cotation par sonde. Avec quantification. Selon Indications définies par CNPath. Pour mémoire, les indications prises en charge au titre de la CCAM sont : HER2 dans le cadre du cancer du sein, EBER (Virus EBV) dans le cadre des carcinomes de site primitif inconnu et oncogène N+ myc dans le neuroblastome de l’enfant."
+        },
+        {
+          "code" : "prixMaximal",
+          "valueDecimal" : 95.2
         }
       ]
     }
