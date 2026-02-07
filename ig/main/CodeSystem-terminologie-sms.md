@@ -29,8 +29,8 @@ Le dictionnaire des substances ou SMS a été conçu par l’European Medicines 
   "resourceType" : "CodeSystem",
   "id" : "terminologie-sms",
   "meta" : {
-    "versionId" : "26",
-    "lastUpdated" : "2026-02-03T12:46:37.207+01:00",
+    "versionId" : "26.1770299404022",
+    "lastUpdated" : "2026-02-05T14:50:04.022+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
