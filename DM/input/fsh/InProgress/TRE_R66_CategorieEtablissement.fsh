@@ -4321,6 +4321,17 @@ Description: "Catégorie d'établissements"
 * #649 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #649 ^property[+].code = #status
 * #649 ^property[=].valueCode = #active
+* #650 "Dispositifs Spécifiques Régionaux en périnatalité" "Les DSRP ont pour mission principale l’animation régionale des professionnels de la périnatalité et l’accompagnement des évolutions de l’offre et des pratiques, dans un contexte marqué par des enjeux forts en matière de qualité des soins, de prévention, de démographie médicale et d’organisation des parcours. Ils contribuent à la lisibilité et à la cohérence de l’offre de soins périnatals sur les territoires, en favorisant la coordination entre la ville, l’hôpital et les services de protection maternelle et infantile (PMI)."
+* #650 ^designation[0].language = #fr-FR
+* #650 ^designation[=].use.system = "http://snomed.info/sct"
+* #650 ^designation[=].use = $sct#900000000000013009
+* #650 ^designation[=].value = "D.S.R.P."
+* #650 ^property[0].code = #dateValid
+* #650 ^property[=].valueDateTime = "2026-02-23T12:00:00+01:00"
+* #650 ^property[+].code = #dateMaj
+* #650 ^property[=].valueDateTime = "2026-02-23T12:00:00+01:00"
+* #650 ^property[+].code = #status
+* #650 ^property[=].valueCode = #active
 * #690 "Etablissement de Fabrication Annexe à une Officine"
 * #690 ^designation[0].language = #fr-FR
 * #690 ^designation[=].use.system = "http://snomed.info/sct"

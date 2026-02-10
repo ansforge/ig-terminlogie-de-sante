@@ -182,6 +182,7 @@ Description: "Catégories d'établissements FINESS ou hors FINESS et secteurs d'
 * $TRE-R66-CategorieEtablissement#647 "Equipe de Soins Spécialisés"
 * $TRE-R66-CategorieEtablissement#648 "Structure qui contribue au Service d'Accès aux Soins"
 * $TRE-R66-CategorieEtablissement#649 "Centre de santé et de médiation en santé sexuelle"
+* $TRE-R66-CategorieEtablissement#650 "Dispositifs Spécifiques Régionaux en périnatalité"
 * $TRE-R66-CategorieEtablissement#695 "Groupement de coopération sanitaire de moyens - Exploitant"
 * $TRE-R66-CategorieEtablissement#696 "Groupement de coopération sanitaire de moyens"
 * $TRE-R66-CategorieEtablissement#697 "Groupement de coopération sanitaire, Etablissement de santé"
