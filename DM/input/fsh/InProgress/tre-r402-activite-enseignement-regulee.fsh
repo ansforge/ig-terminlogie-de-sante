@@ -1,4 +1,4 @@
-CodeSystem: TreR401ActiviteEnseignementRegulee
+CodeSystem: TreR402ActiviteEnseignementRegulee
 Id: tre-r402-activite-enseignement-regulee
 Title: "Tre R402 Activite Enseignement Regulee"
 Description: "Liste des activités d'enseignement régulées organisée en 3 niveaux d'agrégation. Annule et remplace les anciennes TRE xxxEnseignement"
