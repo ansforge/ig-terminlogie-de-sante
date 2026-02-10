@@ -2715,6 +2715,87 @@
       "oids" : ["1.2.250.1.213.1.6.1.375"]
     },
     {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r395-engagement",
+      "version" : "20260223120000",
+      "status" : "active",
+      "name" : "TreR395Engagement",
+      "title" : "Tre R395 Engagement",
+      "description" : "Nomenclature des engagements associés dans FINESS+ aux Personnes morales, aux entités géographique, aux groupements ou à leurs activités",
+      "oids" : ["1.2.250.1.213.1.6.1.376"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
+      "version" : "20260223120000",
+      "status" : "active",
+      "name" : "TreR397CategorieEntiteGeographiqueExercice",
+      "title" : "Tre R397 Categorie Entite Geographique Exercice",
+      "description" : "Catégorie d'établissements - TRE Hierarchique qui remplace la TRE R66",
+      "oids" : ["1.2.250.1.213.1.6.1.378"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique",
+      "version" : "20260223120000",
+      "status" : "active",
+      "name" : "TreR400FinessStatutJuridique",
+      "title" : "Tre R400 Finess Statut Juridique",
+      "description" : "Statuts juridiques de FINESS",
+      "oids" : ["1.2.250.1.213.1.6.1.379"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
+      "version" : "20260223120000",
+      "status" : "active",
+      "name" : "TreR401ActiviteSocialeRegulee",
+      "title" : "Tre R401 Activite Sociale Regulee",
+      "description" : "Liste des activités sociales régulées organisée en 3 niveaux d'agrégation. Annule et remplace les anciennes TRE xxxEquipementSocial",
+      "oids" : ["1.2.250.1.213.1.6.1.380"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+      "version" : "20260223120000",
+      "status" : "active",
+      "name" : "TreR401ActiviteEnseignementRegulee",
+      "title" : "Tre R402 Activite Enseignement Regulee",
+      "description" : "Liste des activités d'enseignement régulées organisée en 3 niveaux d'agrégation. Annule et remplace les anciennes TRE xxxEnseignement",
+      "oids" : ["1.2.250.1.213.1.6.1.381"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
+      "version" : "20260223120000",
+      "status" : "active",
+      "name" : "TreR403PublicActiviteSmsseRegulee",
+      "title" : "Tre R403 Public Activite Smsse Regulee",
+      "description" : "Liste des publics des activités régulées organisée en 2 niveaux d'agrégation. Annule et remplace les 3 anciennes TRE xxxClientele",
+      "oids" : ["1.2.250.1.213.1.6.1.382"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee",
+      "version" : "20260223120000",
+      "status" : "active",
+      "name" : "TreR404ModeFonctionnemetActiviteSmsseRegulee",
+      "title" : "Tre R404 Mode Fonctionnemet Activite Smsse Regulee",
+      "description" : "Mode de fonctinonemment des activités ssmsse régulées",
+      "oids" : ["1.2.250.1.213.1.6.1.383"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee",
+      "version" : "20260223120000",
+      "status" : "active",
+      "name" : "TreR405ModaliteActiviteSmsseRegulee",
+      "title" : "Tre R405 Modalite Activite Smsse Regulee",
+      "description" : "Modalités des activités SSMSE régulées",
+      "oids" : ["1.2.250.1.213.1.6.1.384"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee",
+      "version" : "20260223120000",
+      "status" : "active",
+      "name" : "TreR406FormeActiviteSmsseRegulee",
+      "title" : "Tre R406 Forme Activite Smsse Regulee",
+      "description" : "Formes des activites smsse régulées",
+      "oids" : ["1.2.250.1.213.1.6.1.385"]
+    },
+    {
       "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r407-composition-foyer",
       "version" : "20260202120000",
       "status" : "active",

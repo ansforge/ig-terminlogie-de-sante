@@ -4768,6 +4768,78 @@
     "oids" : ["1.2.250.1.213.1.6.1.375"]
   },
   {
+    "id" : "tre-r395-engagement",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r395-engagement",
+    "version" : "20260223120000",
+    "name" : "TreR395Engagement",
+    "oids" : ["1.2.250.1.213.1.6.1.376"]
+  },
+  {
+    "id" : "tre-r397-categorie-entite-geographique-exercice",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
+    "version" : "20260223120000",
+    "name" : "TreR397CategorieEntiteGeographiqueExercice",
+    "oids" : ["1.2.250.1.213.1.6.1.378"]
+  },
+  {
+    "id" : "tre-r400-finess-statut-juridique",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique",
+    "version" : "20260223120000",
+    "name" : "TreR400FinessStatutJuridique",
+    "oids" : ["1.2.250.1.213.1.6.1.379"]
+  },
+  {
+    "id" : "tre-r401-activite-sociale-regulee",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
+    "version" : "20260223120000",
+    "name" : "TreR401ActiviteSocialeRegulee",
+    "oids" : ["1.2.250.1.213.1.6.1.380"]
+  },
+  {
+    "id" : "tre-r402-activite-enseignement-regulee",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+    "version" : "20260223120000",
+    "name" : "TreR401ActiviteEnseignementRegulee",
+    "oids" : ["1.2.250.1.213.1.6.1.381"]
+  },
+  {
+    "id" : "tre-r403-public-activite-smsse-regulee",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
+    "version" : "20260223120000",
+    "name" : "TreR403PublicActiviteSmsseRegulee",
+    "oids" : ["1.2.250.1.213.1.6.1.382"]
+  },
+  {
+    "id" : "tre-r404-mode-fonctionnement-activite-smsse-regulee",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee",
+    "version" : "20260223120000",
+    "name" : "TreR404ModeFonctionnemetActiviteSmsseRegulee",
+    "oids" : ["1.2.250.1.213.1.6.1.383"]
+  },
+  {
+    "id" : "tre-r405-modalite-activite-smsse-regulee",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee",
+    "version" : "20260223120000",
+    "name" : "TreR405ModaliteActiviteSmsseRegulee",
+    "oids" : ["1.2.250.1.213.1.6.1.384"]
+  },
+  {
+    "id" : "tre-r406-forme-activite-smsse-regulee",
+    "type" : "CodeSystem",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee",
+    "version" : "20260223120000",
+    "name" : "TreR406FormeActiviteSmsseRegulee",
+    "oids" : ["1.2.250.1.213.1.6.1.385"]
+  },
+  {
     "id" : "tre-r407-composition-foyer",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r407-composition-foyer",
@@ -6345,6 +6417,174 @@
     "version" : "20251216141839",
     "name" : "JdvIssueGrossesseCisis",
     "oids" : ["1.2.250.1.213.1.1.5.731"]
+  },
+  {
+    "id" : "jdv-j273-espic-finess",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j273-espic-finess",
+    "version" : "20260223120000",
+    "name" : "JdvJ273EspicFiness",
+    "oids" : ["1.2.250.1.213.1.6.1.280"]
+  },
+  {
+    "id" : "jdv-j293-type-engagement-finess",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j293-type-engagement-finess",
+    "version" : "20260223120000",
+    "name" : "JdvJ293TypeEngagementFiness",
+    "oids" : ["1.2.250.1.213.1.6.1.267"]
+  },
+  {
+    "id" : "jdv-j301-finess-statut-juridique-niv1-finess",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j301-finess-statut-juridique-niv1-finess",
+    "version" : "20260223120000",
+    "name" : "JdvJ301FinessStatutJuridiqueNiv1Finess",
+    "oids" : ["1.2.250.1.213.1.6.1.309"]
+  },
+  {
+    "id" : "jdv-j302-finess-statut-juridique-niv2-finess",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j302-finess-statut-juridique-niv2-finess",
+    "version" : "20260223120000",
+    "name" : "JdvJ302FinessStatutJuridiqueNiv2Finess",
+    "oids" : ["1.2.250.1.213.1.6.1.310"]
+  },
+  {
+    "id" : "jdv-j303-finess-statut-juridique-niv3-finess",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j303-finess-statut-juridique-niv3-finess",
+    "version" : "20260223120000",
+    "name" : "JdvJ303FinessStatutJuridiqueNiv3Finess",
+    "oids" : ["1.2.250.1.213.1.6.1.311"]
+  },
+  {
+    "id" : "jdv-j304-finess-statut-juridique-finess",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j304-finess-statut-juridique-finess",
+    "version" : "20260223120000",
+    "name" : "JdvJ304FinessStatutJuridiqueFiness",
+    "oids" : ["1.2.250.1.213.1.6.1.312"]
+  },
+  {
+    "id" : "jdv-j307-categorie-entite-geographique-exercice-niv1-finess",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j307-categorie-entite-geographique-exercice-niv1-finess",
+    "version" : "20260223120000",
+    "name" : "JdvJ307CategorieEntiteGeographiqueExerciceNiv1Finess",
+    "oids" : ["1.2.250.1.213.1.6.1.315"]
+  },
+  {
+    "id" : "jdv-j308-categorie-entite-geographique-exercice-niv2-finess",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j308-categorie-entite-geographique-exercice-niv2-finess",
+    "version" : "20260223120000",
+    "name" : "JdvJ308CategorieEntiteGeographiqueExerciceNiv2Finess",
+    "oids" : ["1.2.250.1.213.1.6.1.316"]
+  },
+  {
+    "id" : "jdv-j309-categorie-entite-geographique-exercice-niv3-finess",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j309-categorie-entite-geographique-exercice-niv3-finess",
+    "version" : "20260223120000",
+    "name" : "JdvJ309CategorieEntiteGeographiqueExerciceNiv3Finess",
+    "oids" : ["1.2.250.1.213.1.6.1.317"]
+  },
+  {
+    "id" : "jdv-j310-categorie-entite-geographique-exercice-finess",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j310-categorie-entite-geographique-exercice-finess",
+    "version" : "20260223120000",
+    "name" : "JdvJ310CategorieEntiteGeographiqueExerciceFiness",
+    "oids" : ["1.2.250.1.213.1.6.1.318"]
+  },
+  {
+    "id" : "jdv-j318-activite-enseignement-regulee-finess",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j318-activite-enseignement-regulee-finess",
+    "version" : "20260223120000",
+    "name" : "JdvJ318ActiviteEnseignementReguleeFiness",
+    "oids" : ["1.2.250.1.213.1.6.1.326"]
+  },
+  {
+    "id" : "jdv-j319-activite-enseignement-regulee-niv1-finess",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j319-activite-enseignement-regulee-niv1-finess",
+    "version" : "20260223120000",
+    "name" : "JdvJ319ActiviteEnseignementReguleeNiv1Finess",
+    "oids" : ["1.2.250.1.213.1.6.1.327"]
+  },
+  {
+    "id" : "jdv-j320-activite-enseignement-regulee-niv2-finess",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j320-activite-enseignement-regulee-niv2-finess",
+    "version" : "20260223120000",
+    "name" : "JdvJ320ActiviteEnseignementReguleeNiv2Finess",
+    "oids" : ["1.2.250.1.213.1.6.1.328"]
+  },
+  {
+    "id" : "jdv-j321-activite-enseignement-regulee-niv3-finess",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j321-activite-enseignement-regulee-niv3-finess",
+    "version" : "20260223120000",
+    "name" : "JdvJ321ActiviteEnseignementReguleeNiv3Finess",
+    "oids" : ["1.2.250.1.213.1.6.1.329"]
+  },
+  {
+    "id" : "jdv-j323-activite-sociale-regulee-finess",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j323-activite-sociale-regulee-finess",
+    "version" : "20260223120000",
+    "name" : "JdvJ323ActiviteSocialeRegulee",
+    "oids" : ["1.2.250.1.213.1.6.1.331"]
+  },
+  {
+    "id" : "jdv-j324-activite-sociale-regulee-niv1-finess",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j324-activite-sociale-regulee-niv1-finess",
+    "version" : "20260223120000",
+    "name" : "JdvJ324ActiviteSocialeReguleeNiv1Finess",
+    "oids" : ["1.2.250.1.213.1.6.1.332"]
+  },
+  {
+    "id" : "jdv-j325-activite-sociale-regulee-niv2-finess",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j325-activite-sociale-regulee-niv2-finess",
+    "version" : "20260223120000",
+    "name" : "JdvJ325ActiviteSocialeReguleeNiv2Finess",
+    "oids" : ["1.2.250.1.213.1.6.1.333"]
+  },
+  {
+    "id" : "jdv-j326-activite-sociale-regulee-niv3-finess",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j326-activite-sociale-regulee-niv3-finess",
+    "version" : "20260223120000",
+    "name" : "JdvJ326ActiviteSocialeReguleeNiv3Finess",
+    "oids" : ["1.2.250.1.213.1.6.1.334"]
+  },
+  {
+    "id" : "jdv-j328-public-activite-smsse-regulee-finess",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j328-public-activite-smsse-regulee-finess",
+    "version" : "20260223120000",
+    "name" : "JdvJ328PublicActiviteSmsseReguleeFiness",
+    "oids" : ["1.2.250.1.213.1.6.1.336"]
+  },
+  {
+    "id" : "jdv-j329-public-activite-smsse-regulee-niv1-finess",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j329-public-activite-smsse-regulee-niv1-finess",
+    "version" : "20260223120000",
+    "name" : "JdvJ329PublicActiviteSmsseReguleeNiv1Finess",
+    "oids" : ["1.2.250.1.213.1.6.1.337"]
+  },
+  {
+    "id" : "jdv-j330-public-activite-smsse-regulee-niv2-finess",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j330-public-activite-smsse-regulee-niv2-finess",
+    "version" : "20260223120000",
+    "name" : "JdvJ330PublicActiviteSmsseReguleeNiv2Finess",
+    "oids" : ["1.2.250.1.213.1.6.1.338"]
   },
   {
     "id" : "jdv-j366-statut-bilan-projet-personnalise-ms",

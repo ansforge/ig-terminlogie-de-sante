@@ -302,6 +302,15 @@ However, this HL7 datatypes specification treats the entire media type as one at
 | [TreR390TypeProjetPersonnalise](CodeSystem-tre-r390-type-projet-personnalise.md) | Cette nomenclature donne le type de projet personnalisé qui est un document co-construit par l'usager, son entourage familial et professionnel du médico-social. | 22/04/2025 |
 | [TreR393TypeContratSejour](CodeSystem-tre-r393-type-contrat-sejour.md) | Type de contrat conclu entre l’établissement/service et la personne/son représentant légal lors de son entrée en établissement | 21/05/2025 |
 | [TreR394CompetenceMetier](CodeSystem-tre-r394-competence-metier.md) | Type de savoir-faire opérationnel, transversal ou spécifique, acquis et exercé à titre non exclusif dans le cadre d’une activité professionnelle reconnue. | 25/06/2025 |
+| [TreR395Engagement](CodeSystem-tre-r395-engagement.md) | Nomenclature des engagements associés dans FINESS+ aux Personnes morales, aux entités géographique, aux groupements ou à leurs activités | 23/02/2026 |
+| [TreR397CategorieEntiteGeographiqueExercice](CodeSystem-tre-r397-categorie-entite-geographique-exercice.md) | Catégorie d'établissements - TRE Hierarchique qui remplace la TRE R66 | 23/02/2026 |
+| [TreR400FinessStatutJuridique](CodeSystem-tre-r400-finess-statut-juridique.md) | Statuts juridiques de FINESS | 23/02/2026 |
+| [TreR401ActiviteEnseignementRegulee](CodeSystem-tre-r402-activite-enseignement-regulee.md) | Liste des activités d'enseignement régulées organisée en 3 niveaux d'agrégation. Annule et remplace les anciennes TRE xxxEnseignement | 23/02/2026 |
+| [TreR401ActiviteSocialeRegulee](CodeSystem-tre-r401-activite-sociale-regulee.md) | Liste des activités sociales régulées organisée en 3 niveaux d'agrégation. Annule et remplace les anciennes TRE xxxEquipementSocial | 23/02/2026 |
+| [TreR403PublicActiviteSmsseRegulee](CodeSystem-tre-r403-public-activite-smsse-regulee.md) | Liste des publics des activités régulées organisée en 2 niveaux d'agrégation. Annule et remplace les 3 anciennes TRE xxxClientele | 23/02/2026 |
+| [TreR404ModeFonctionnemetActiviteSmsseRegulee](CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.md) | Mode de fonctinonemment des activités ssmsse régulées | 23/02/2026 |
+| [TreR405ModaliteActiviteSmsseRegulee](CodeSystem-tre-r405-modalite-activite-smsse-regulee.md) | Modalités des activités SSMSE régulées | 23/02/2026 |
+| [TreR406FormeActiviteSmsseRegulee](CodeSystem-tre-r406-forme-activite-smsse-regulee.md) | Formes des activites smsse régulées | 23/02/2026 |
 | [TreR407CompositionFoyer](CodeSystem-tre-r407-composition-foyer.md) | Désigne avec qui vit l’usager dans son logement. | 02/02/2026 |
 | [TreR408TypeEnseignementSpecialise](CodeSystem-tre-r408-type-enseignement-specialise.md) | Type d'enseignement spécialisé. | 02/02/2026 |
 

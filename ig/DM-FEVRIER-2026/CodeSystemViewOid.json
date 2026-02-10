@@ -128,6 +128,14 @@
     "status" : "active"
   },
   {
+    "id" : "TRE-R73-ESPIC",
+    "name" : "TRE_R73_ESPIC",
+    "title" : null,
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R73-ESPIC/FHIR/TRE-R73-ESPIC",
+    "identifier" : "urn:oid:1.2.250.1.213.1.6.1.45",
+    "status" : "active"
+  },
+  {
     "id" : "TimingEvent-supplement-fr",
     "name" : "TimingEventSupplementFr",
     "title" : "TimingEventSupplementFr",
@@ -214,6 +222,78 @@
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/substanceAdminSubstitution-supplement-fr",
     "identifier" : null,
     "status" : "draft"
+  },
+  {
+    "id" : "tre-r395-engagement",
+    "name" : "TreR395Engagement",
+    "title" : "Tre R395 Engagement",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r395-engagement",
+    "identifier" : "urn:oid:1.2.250.1.213.1.6.1.376",
+    "status" : "active"
+  },
+  {
+    "id" : "tre-r397-categorie-entite-geographique-exercice",
+    "name" : "TreR397CategorieEntiteGeographiqueExercice",
+    "title" : "Tre R397 Categorie Entite Geographique Exercice",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
+    "identifier" : "urn:oid:1.2.250.1.213.1.6.1.378",
+    "status" : "active"
+  },
+  {
+    "id" : "tre-r400-finess-statut-juridique",
+    "name" : "TreR400FinessStatutJuridique",
+    "title" : "Tre R400 Finess Statut Juridique",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique",
+    "identifier" : "urn:oid:1.2.250.1.213.1.6.1.379",
+    "status" : "active"
+  },
+  {
+    "id" : "tre-r401-activite-sociale-regulee",
+    "name" : "TreR401ActiviteSocialeRegulee",
+    "title" : "Tre R401 Activite Sociale Regulee",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
+    "identifier" : "urn:oid:1.2.250.1.213.1.6.1.380",
+    "status" : "active"
+  },
+  {
+    "id" : "tre-r402-activite-enseignement-regulee",
+    "name" : "TreR401ActiviteEnseignementRegulee",
+    "title" : "Tre R402 Activite Enseignement Regulee",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+    "identifier" : "urn:oid:1.2.250.1.213.1.6.1.381",
+    "status" : "active"
+  },
+  {
+    "id" : "tre-r403-public-activite-smsse-regulee",
+    "name" : "TreR403PublicActiviteSmsseRegulee",
+    "title" : "Tre R403 Public Activite Smsse Regulee",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
+    "identifier" : "urn:oid:1.2.250.1.213.1.6.1.382",
+    "status" : "active"
+  },
+  {
+    "id" : "tre-r404-mode-fonctionnement-activite-smsse-regulee",
+    "name" : "TreR404ModeFonctionnemetActiviteSmsseRegulee",
+    "title" : "Tre R404 Mode Fonctionnemet Activite Smsse Regulee",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee",
+    "identifier" : "urn:oid:1.2.250.1.213.1.6.1.383",
+    "status" : "active"
+  },
+  {
+    "id" : "tre-r405-modalite-activite-smsse-regulee",
+    "name" : "TreR405ModaliteActiviteSmsseRegulee",
+    "title" : "Tre R405 Modalite Activite Smsse Regulee",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee",
+    "identifier" : "urn:oid:1.2.250.1.213.1.6.1.384",
+    "status" : "active"
+  },
+  {
+    "id" : "tre-r406-forme-activite-smsse-regulee",
+    "name" : "TreR406FormeActiviteSmsseRegulee",
+    "title" : "Tre R406 Forme Activite Smsse Regulee",
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee",
+    "identifier" : "urn:oid:1.2.250.1.213.1.6.1.385",
+    "status" : "active"
   },
   {
     "id" : "v3-SpecimenType-supplement-fr",
@@ -2373,14 +2453,6 @@
     "title" : null,
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R72-FinessStatutJuridique/FHIR/TRE-R72-FinessStatutJuridique",
     "identifier" : "urn:oid:1.2.250.1.213.1.6.1.44",
-    "status" : "active"
-  },
-  {
-    "id" : "TRE-R73-ESPIC",
-    "name" : "TRE_R73_ESPIC",
-    "title" : null,
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R73-ESPIC/FHIR/TRE-R73-ESPIC",
-    "identifier" : "urn:oid:1.2.250.1.213.1.6.1.45",
     "status" : "active"
   },
   {

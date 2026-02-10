@@ -11,6 +11,27 @@ Vous touverez ici la liste des JDV du NOS.
 | | | |
 | :--- | :--- | :--- |
 | Name | Description | date_maj |
+| [JdvJ273EspicFiness](ValueSet-jdv-j273-espic-finess.md) | Jeu de valeurs contenant les établissements de santé privés d'intérêt collectif pour FINESS | 23/02/2026 |
+| [JdvJ293TypeEngagementFiness](ValueSet-jdv-j293-type-engagement-finess.md) | Jeu de valeurs FINESS contenant les grands types d'engagement pouvant être associés dans FINESS+ à des structures ou des activités. | 23/02/2026 |
+| [JdvJ301FinessStatutJuridiqueNiv1Finess](ValueSet-jdv-j301-finess-statut-juridique-niv1-finess.md) | Jeu de valeurs FINESS contenant les statuts juridiques de niveau 1 | 23/02/2026 |
+| [JdvJ302FinessStatutJuridiqueNiv2Finess](ValueSet-jdv-j302-finess-statut-juridique-niv2-finess.md) | Jeu de valeurs FINESS contenant les statuts juridiques de niveau 2 | 23/02/2026 |
+| [JdvJ303FinessStatutJuridiqueNiv3Finess](ValueSet-jdv-j303-finess-statut-juridique-niv3-finess.md) | Jeu de valeurs FINESS contenant les statuts juridiques de niveau 3 | 23/02/2026 |
+| [JdvJ304FinessStatutJuridiqueFiness](ValueSet-jdv-j304-finess-statut-juridique-finess.md) | Jeu de valeurs FINESS contenant les statuts juridiques de niveau 4 | 23/02/2026 |
+| [JdvJ307CategorieEntiteGeographiqueExerciceNiv1Finess](ValueSet-jdv-j307-categorie-entite-geographique-exercice-niv1-finess.md) | Jeu de valeurs FINESS contenant les catégories des entités géographiques d'exercice de niveau 1 | 23/02/2026 |
+| [JdvJ308CategorieEntiteGeographiqueExerciceNiv2Finess](ValueSet-jdv-j308-categorie-entite-geographique-exercice-niv2-finess.md) | Jeu de valeurs FINESS contenant les catégories des entités géographiques d'exercice de niveau 2 | 23/02/2026 |
+| [JdvJ309CategorieEntiteGeographiqueExerciceNiv3Finess](ValueSet-jdv-j309-categorie-entite-geographique-exercice-niv3-finess.md) | Jeu de valeurs FINESS contenant les catégories des entités géographiques d'exercice de niveau 3 | 23/02/2026 |
+| [JdvJ310CategorieEntiteGeographiqueExerciceFiness](ValueSet-jdv-j310-categorie-entite-geographique-exercice-finess.md) | Jeu de valeurs FINESS contenant les catégories d'entité géographique d'exercice spécifiques à FINESS et de niveau 4 | 23/02/2026 |
+| [JdvJ318ActiviteEnseignementReguleeFiness](ValueSet-jdv-j318-activite-enseignement-regulee-finess.md) | Jeu de valeurs FINESS contenant les activités d'enseignement régulées de niveau 4 | 23/02/2026 |
+| [JdvJ319ActiviteEnseignementReguleeNiv1Finess](ValueSet-jdv-j319-activite-enseignement-regulee-niv1-finess.md) | Jeu de valeurs FINESS contenant les activités d'enseignement régulées de niveau 1 | 23/02/2026 |
+| [JdvJ320ActiviteEnseignementReguleeNiv2Finess](ValueSet-jdv-j320-activite-enseignement-regulee-niv2-finess.md) | Jeu de valeurs FINESS contenant les activités d'enseignement régulées de niveau 2 | 23/02/2026 |
+| [JdvJ321ActiviteEnseignementReguleeNiv3Finess](ValueSet-jdv-j321-activite-enseignement-regulee-niv3-finess.md) | Jeu de valeurs FINESS contenant les activités d'enseignement régulées de niveau 3 | 23/02/2026 |
+| [JdvJ323ActiviteSocialeRegulee](ValueSet-jdv-j323-activite-sociale-regulee-finess.md) | Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 4 | 23/02/2026 |
+| [JdvJ324ActiviteSocialeReguleeNiv1Finess](ValueSet-jdv-j324-activite-sociale-regulee-niv1-finess.md) | Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 1 | 23/02/2026 |
+| [JdvJ325ActiviteSocialeReguleeNiv2Finess](ValueSet-jdv-j325-activite-sociale-regulee-niv2-finess.md) | Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 2 | 23/02/2026 |
+| [JdvJ326ActiviteSocialeReguleeNiv3Finess](ValueSet-jdv-j326-activite-sociale-regulee-niv3-finess.md) | Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 3 | 23/02/2026 |
+| [JdvJ328PublicActiviteSmsseReguleeFiness](ValueSet-jdv-j328-public-activite-smsse-regulee-finess.md) | Jeu de valeurs FINESS contenant les codes des publics des activités régulées de niveau 3 | 23/02/2026 |
+| [JdvJ329PublicActiviteSmsseReguleeNiv1Finess](ValueSet-jdv-j329-public-activite-smsse-regulee-niv1-finess.md) | Jeu de valeurs FINESS contenant les codes des publics des activités régulées de niveau 1 | 23/02/2026 |
+| [JdvJ330PublicActiviteSmsseReguleeNiv2Finess](ValueSet-jdv-j330-public-activite-smsse-regulee-niv2-finess.md) | Jeu de valeurs FINESS contenant les codes des publics des activités régulées de niveau 2 | 23/02/2026 |
 | [JdvJ366StatutBilanProjetPersonnaliseMs](ValueSet-jdv-j366-statut-bilan-projet-personnalise-ms.md) | Statut du bilan du projet personnalisé. | 15/04/2025 |
 | [JdvJ367TypeProjetPersonnaliseMs](ValueSet-jdv-j367-type-projet-personnalise-ms.md) | Cette nomenclature donne le type de projet personnalisé qui est un document co-construit par l'usager, son entourage familial et professionnel du médico-social. | 15/04/2025 |
 | [JdvJ368CategorieEtablissementCisis](ValueSet-jdv-j368-categorie-etablissement-cisis.md) | JDV à l'image de l'ensemble des valeurs actives de la terminologie TRE_R66-CategorieEtablissement | 22/04/2025 |

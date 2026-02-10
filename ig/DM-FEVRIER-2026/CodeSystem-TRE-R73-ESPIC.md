@@ -19,6 +19,7 @@ Etablissement de santé privé d’intérêt collectif
 
 * [JDV_J162_ESPIC_RASS](ValueSet-JDV-J162-ESPIC-RASS.md)
 * [JDV_J202_ESPIC_ROR](ValueSet-JDV-J202-ESPIC-ROR.md)
+* [JdvJ273EspicFiness](ValueSet-jdv-j273-espic-finess.md)
 
 
 
@@ -35,6 +36,7 @@ Etablissement de santé privé d’intérêt collectif
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
+  "language" : "fr-FR",
   "extension" : [
     {
       "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -69,19 +71,23 @@ Etablissement de santé privé d’intérêt collectif
   ],
   "caseSensitive" : false,
   "content" : "complete",
+  "count" : 9,
   "property" : [
     {
       "code" : "dateValid",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
       "description" : "date de validité d'un code concept",
       "type" : "dateTime"
     },
     {
       "code" : "dateMaj",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
       "description" : "Date de mise à jour d'un code concept",
       "type" : "dateTime"
     },
     {
       "code" : "dateFin",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
       "description" : "Date de fin d'exploitation d'un code concept",
       "type" : "dateTime"
     },
@@ -102,6 +108,12 @@ Etablissement de santé privé d’intérêt collectif
       "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
       "description" : "Date Concept was retired",
       "type" : "dateTime"
+    },
+    {
+      "code" : "finess",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#finess",
+      "description" : "Permet de définir les codes concepts utilisés par FINESS+",
+      "type" : "boolean"
     }
   ],
   "concept" : [
@@ -120,6 +132,10 @@ Etablissement de santé privé d’intérêt collectif
         {
           "code" : "status",
           "valueCode" : "active"
+        },
+        {
+          "code" : "finess",
+          "valueBoolean" : true
         }
       ]
     },
@@ -148,6 +164,10 @@ Etablissement de santé privé d’intérêt collectif
         {
           "code" : "status",
           "valueCode" : "active"
+        },
+        {
+          "code" : "finess",
+          "valueBoolean" : true
         }
       ]
     },
@@ -166,6 +186,10 @@ Etablissement de santé privé d’intérêt collectif
         {
           "code" : "status",
           "valueCode" : "active"
+        },
+        {
+          "code" : "finess",
+          "valueBoolean" : true
         }
       ]
     },
@@ -184,6 +208,10 @@ Etablissement de santé privé d’intérêt collectif
         {
           "code" : "status",
           "valueCode" : "active"
+        },
+        {
+          "code" : "finess",
+          "valueBoolean" : true
         }
       ]
     },
@@ -202,6 +230,10 @@ Etablissement de santé privé d’intérêt collectif
         {
           "code" : "status",
           "valueCode" : "active"
+        },
+        {
+          "code" : "finess",
+          "valueBoolean" : true
         }
       ]
     },
@@ -220,6 +252,10 @@ Etablissement de santé privé d’intérêt collectif
         {
           "code" : "status",
           "valueCode" : "active"
+        },
+        {
+          "code" : "finess",
+          "valueBoolean" : true
         }
       ]
     },
@@ -248,6 +284,10 @@ Etablissement de santé privé d’intérêt collectif
         {
           "code" : "status",
           "valueCode" : "active"
+        },
+        {
+          "code" : "finess",
+          "valueBoolean" : true
         }
       ]
     },
@@ -284,6 +324,10 @@ Etablissement de santé privé d’intérêt collectif
         {
           "code" : "status",
           "valueCode" : "active"
+        },
+        {
+          "code" : "finess",
+          "valueBoolean" : true
         }
       ]
     },
@@ -302,6 +346,10 @@ Etablissement de santé privé d’intérêt collectif
         {
           "code" : "status",
           "valueCode" : "active"
+        },
+        {
+          "code" : "finess",
+          "valueBoolean" : true
         }
       ]
     }

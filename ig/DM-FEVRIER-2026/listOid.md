@@ -337,6 +337,15 @@ Les systèmes d'identification définis ici sont destinés à la commodité des 
 | TreR390TypeProjetPersonnalise | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r390-type-projet-personnalise | 1.2.250.1.213.3.3.258 |
 | TreR393TypeContratSejour | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour | 1.2.250.1.213.3.3.260 |
 | TreR394CompetenceMetier | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r394-competence-metier | 1.2.250.1.213.1.6.1.375 |
+| TreR395Engagement | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r395-engagement | 1.2.250.1.213.1.6.1.376 |
+| TreR397CategorieEntiteGeographiqueExercice | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice | 1.2.250.1.213.1.6.1.378 |
+| TreR400FinessStatutJuridique | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique | 1.2.250.1.213.1.6.1.379 |
+| TreR401ActiviteEnseignementRegulee | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee | 1.2.250.1.213.1.6.1.381 |
+| TreR401ActiviteSocialeRegulee | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee | 1.2.250.1.213.1.6.1.380 |
+| TreR403PublicActiviteSmsseRegulee | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee | 1.2.250.1.213.1.6.1.382 |
+| TreR404ModeFonctionnemetActiviteSmsseRegulee | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee | 1.2.250.1.213.1.6.1.383 |
+| TreR405ModaliteActiviteSmsseRegulee | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee | 1.2.250.1.213.1.6.1.384 |
+| TreR406FormeActiviteSmsseRegulee | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee | 1.2.250.1.213.1.6.1.385 |
 | TreR407CompositionFoyer | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r407-composition-foyer | 1.2.250.1.213.3.3.261 |
 | TreR408TypeEnseignementSpecialise | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise | 1.2.250.1.213.3.3.262 |
 | UCUM | http://unitsofmeasure.org | 2.16.840.1.113883.6.8 |

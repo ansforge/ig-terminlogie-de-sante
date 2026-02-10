@@ -719,6 +719,27 @@ These define sets of codes used by systems conforming to this implementation gui
 | [JDV_J99_InseeNAFrav2Niveau5_RASS](ValueSet-JDV-J99-InseeNAFrav2Niveau5-RASS.md) | Sous-classes de la Nomenclature Activités Française (INSEE) des prof du RASS |
 | [Jdv Depistage Neonatal CISIS](ValueSet-jdv-depistage-neonatal-cisis.md) | Jdv Depistage Neonatal CISIS |
 | [Jdv Etat De Conscience CISIS](ValueSet-jdv-etat-de-conscience-cisis.md) | Jdv Etat De Conscience CISIS |
+| [Jdv J273 Espic Finess](ValueSet-jdv-j273-espic-finess.md) | Jeu de valeurs contenant les établissements de santé privés d’intérêt collectif pour FINESS |
+| [Jdv J293 Type Engagement Finess](ValueSet-jdv-j293-type-engagement-finess.md) | Jeu de valeurs FINESS contenant les grands types d’engagement pouvant être associés dans FINESS+ à des structures ou des activités. |
+| [Jdv J301 Finess Statut Juridique Niv1 Finess](ValueSet-jdv-j301-finess-statut-juridique-niv1-finess.md) | Jeu de valeurs FINESS contenant les statuts juridiques de niveau 1 |
+| [Jdv J302 Finess Statut Juridique Niv2 Finess](ValueSet-jdv-j302-finess-statut-juridique-niv2-finess.md) | Jeu de valeurs FINESS contenant les statuts juridiques de niveau 2 |
+| [Jdv J303 Finess Statut Juridique Niv3 Finess](ValueSet-jdv-j303-finess-statut-juridique-niv3-finess.md) | Jeu de valeurs FINESS contenant les statuts juridiques de niveau 3 |
+| [Jdv J304 Finess Statut Juridique Finess](ValueSet-jdv-j304-finess-statut-juridique-finess.md) | Jeu de valeurs FINESS contenant les statuts juridiques de niveau 4 |
+| [Jdv J307 Categorie Entite Geographique Exercice Niv1 Finess](ValueSet-jdv-j307-categorie-entite-geographique-exercice-niv1-finess.md) | Jeu de valeurs FINESS contenant les catégories des entités géographiques d’exercice de niveau 1 |
+| [Jdv J308 Categorie Entite Geographique Exercice Niv2 Finess](ValueSet-jdv-j308-categorie-entite-geographique-exercice-niv2-finess.md) | Jeu de valeurs FINESS contenant les catégories des entités géographiques d’exercice de niveau 2 |
+| [Jdv J309 Categorie Entite Geographique Exercice Niv3 Finess](ValueSet-jdv-j309-categorie-entite-geographique-exercice-niv3-finess.md) | Jeu de valeurs FINESS contenant les catégories des entités géographiques d’exercice de niveau 3 |
+| [Jdv J310 Categorie Entite Geographique Exercice Finess](ValueSet-jdv-j310-categorie-entite-geographique-exercice-finess.md) | Jeu de valeurs FINESS contenant les catégories d’entité géographique d’exercice spécifiques à FINESS et de niveau 4 |
+| [Jdv J318 Activite Enseignement Regulee Finess](ValueSet-jdv-j318-activite-enseignement-regulee-finess.md) | Jeu de valeurs FINESS contenant les activités d’enseignement régulées de niveau 4 |
+| [Jdv J319 Activite Enseignement Regulee Niv1 Finess](ValueSet-jdv-j319-activite-enseignement-regulee-niv1-finess.md) | Jeu de valeurs FINESS contenant les activités d’enseignement régulées de niveau 1 |
+| [Jdv J320 Activite Enseignement Regulee Niv2 Finess](ValueSet-jdv-j320-activite-enseignement-regulee-niv2-finess.md) | Jeu de valeurs FINESS contenant les activités d’enseignement régulées de niveau 2 |
+| [Jdv J321 Activite Enseignement Regulee Niv3 Finess](ValueSet-jdv-j321-activite-enseignement-regulee-niv3-finess.md) | Jeu de valeurs FINESS contenant les activités d’enseignement régulées de niveau 3 |
+| [Jdv J323 Activite Sociale Regulee](ValueSet-jdv-j323-activite-sociale-regulee-finess.md) | Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 4 |
+| [Jdv J324 Activite Sociale Regulee Niv1 Finess](ValueSet-jdv-j324-activite-sociale-regulee-niv1-finess.md) | Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 1 |
+| [Jdv J325 Activite Sociale Regulee Niv2 Finess](ValueSet-jdv-j325-activite-sociale-regulee-niv2-finess.md) | Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 2 |
+| [Jdv J326 Activite Sociale Regulee Niv3 Finess](ValueSet-jdv-j326-activite-sociale-regulee-niv3-finess.md) | Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 3 |
+| [Jdv J328 Public Activite Smsse Regulee Finess](ValueSet-jdv-j328-public-activite-smsse-regulee-finess.md) | Jeu de valeurs FINESS contenant les codes des publics des activités régulées de niveau 3 |
+| [Jdv J329 Public Activite Smsse Regulee Niv1 Finess](ValueSet-jdv-j329-public-activite-smsse-regulee-niv1-finess.md) | Jeu de valeurs FINESS contenant les codes des publics des activités régulées de niveau 1 |
+| [Jdv J330 Public Activite Smsse Regulee Niv2 Finess](ValueSet-jdv-j330-public-activite-smsse-regulee-niv2-finess.md) | Jeu de valeurs FINESS contenant les codes des publics des activités régulées de niveau 2 |
 | [Jdv J366 Statut Bilan Projet Personnalise Ms](ValueSet-jdv-j366-statut-bilan-projet-personnalise-ms.md) | Statut du bilan du projet personnalisé. |
 | [Jdv J367 Type Projet Personnalise Ms](ValueSet-jdv-j367-type-projet-personnalise-ms.md) | Cette nomenclature donne le type de projet personnalisé qui est un document co-construit par l’usager, son entourage familial et professionnel du médico-social. |
 | [Jdv J368 Categorie Etablissement Cisis](ValueSet-jdv-j368-categorie-etablissement-cisis.md) | JDV à l’image de l’ensemble des valeurs actives de la terminologie TRE_R66-CategorieEtablissement |
@@ -1085,6 +1106,15 @@ These define new code systems used by systems conforming to this implementation 
 | [Tre R390 Type Projet Personnalise](CodeSystem-tre-r390-type-projet-personnalise.md) | Cette nomenclature donne le type de projet personnalisé qui est un document co-construit par l’usager, son entourage familial et professionnel du médico-social. |
 | [Tre R393 Type Contrat Sejour](CodeSystem-tre-r393-type-contrat-sejour.md) | Type de contrat conclu entre l’établissement/service et la personne/son représentant légal lors de son entrée en établissement |
 | [Tre R394 Competence Metier](CodeSystem-tre-r394-competence-metier.md) | Type de savoir-faire opérationnel, transversal ou spécifique, acquis et exercé à titre non exclusif dans le cadre d’une activité professionnelle reconnue. |
+| [Tre R395 Engagement](CodeSystem-tre-r395-engagement.md) | Nomenclature des engagements associés dans FINESS+ aux Personnes morales, aux entités géographique, aux groupements ou à leurs activités |
+| [Tre R397 Categorie Entite Geographique Exercice](CodeSystem-tre-r397-categorie-entite-geographique-exercice.md) | Catégorie d’établissements - TRE Hierarchique qui remplace la TRE R66 |
+| [Tre R400 Finess Statut Juridique](CodeSystem-tre-r400-finess-statut-juridique.md) | Statuts juridiques de FINESS |
+| [Tre R401 Activite Sociale Regulee](CodeSystem-tre-r401-activite-sociale-regulee.md) | Liste des activités sociales régulées organisée en 3 niveaux d’agrégation. Annule et remplace les anciennes TRE xxxEquipementSocial |
+| [Tre R402 Activite Enseignement Regulee](CodeSystem-tre-r402-activite-enseignement-regulee.md) | Liste des activités d’enseignement régulées organisée en 3 niveaux d’agrégation. Annule et remplace les anciennes TRE xxxEnseignement |
+| [Tre R403 Public Activite Smsse Regulee](CodeSystem-tre-r403-public-activite-smsse-regulee.md) | Liste des publics des activités régulées organisée en 2 niveaux d’agrégation. Annule et remplace les 3 anciennes TRE xxxClientele |
+| [Tre R404 Mode Fonctionnemet Activite Smsse Regulee](CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.md) | Mode de fonctinonemment des activités ssmsse régulées |
+| [Tre R405 Modalite Activite Smsse Regulee](CodeSystem-tre-r405-modalite-activite-smsse-regulee.md) | Modalités des activités SSMSE régulées |
+| [Tre R406 Forme Activite Smsse Regulee](CodeSystem-tre-r406-forme-activite-smsse-regulee.md) | Formes des activites smsse régulées |
 | [Tre R407 Composition Foyer](CodeSystem-tre-r407-composition-foyer.md) | Désigne avec qui vit l’usager dans son logement. |
 | [Tre R408 Type Enseignement Specialise](CodeSystem-tre-r408-type-enseignement-specialise.md) | Type d’enseignement spécialisé. |
 | [V3SpecimenTypeSupplementFr](CodeSystem-v3-SpecimenType-supplement-fr.md) | Traduction Française |
