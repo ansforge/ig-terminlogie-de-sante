@@ -189,7 +189,7 @@ Requête sur le SMT
           },
           {
             "code" : "166",
-            "display" : "Etablissement d'accueil mère-enfant"
+            "display" : "Centre Parents-Enfants de moins de 3 ans"
           },
           {
             "code" : "172",
@@ -397,7 +397,7 @@ Requête sur le SMT
           },
           {
             "code" : "286",
-            "display" : "Club, Equipe de prévention"
+            "display" : "Service de prévention spécialisée"
           },
           {
             "code" : "292",
@@ -762,6 +762,10 @@ Requête sur le SMT
           {
             "code" : "649",
             "display" : "Centre de santé et de médiation en santé sexuelle"
+          },
+          {
+            "code" : "650",
+            "display" : "Dispositifs Spécifiques Régionaux en périnatalité"
           },
           {
             "code" : "695",

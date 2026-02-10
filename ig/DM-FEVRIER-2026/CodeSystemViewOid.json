@@ -136,6 +136,14 @@
     "status" : "active"
   },
   {
+    "id" : "TRE-R32-StatutHospitalier",
+    "name" : "TRE_R32_StatutHospitalier",
+    "title" : null,
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R32-StatutHospitalier/FHIR/TRE-R32-StatutHospitalier",
+    "identifier" : "urn:oid:1.2.250.1.213.1.6.1.21",
+    "status" : "active"
+  },
+  {
     "id" : "TRE-R66-CategorieEtablissement",
     "name" : "TRE_R66_CategorieEtablissement",
     "title" : null,
@@ -1949,14 +1957,6 @@
     "title" : null,
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R329-NatureCapacite/FHIR/TRE-R329-NatureCapacite",
     "identifier" : "urn:oid:1.2.250.1.213.3.3.212",
-    "status" : "active"
-  },
-  {
-    "id" : "TRE-R32-StatutHospitalier",
-    "name" : "TRE_R32_StatutHospitalier",
-    "title" : null,
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R32-StatutHospitalier/FHIR/TRE-R32-StatutHospitalier",
-    "identifier" : "urn:oid:1.2.250.1.213.1.6.1.21",
     "status" : "active"
   },
   {

@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20231215120000"
+             dateMaj="20260223120000"
              dateValid="20070725150444"
              description="Statut hospitalier"
              displayName="TRE_R32_StatutHospitalier"
@@ -172,6 +172,15 @@
                   longDesignation="Clinicien hospitalier (R6152-701 et suivants du CSP)"
                   shortDesignation="Clinicien hospitalier"
                   descriptionMetier=""/>
+         <Concept code="SH19"
+                  codeSystem="1.2.250.1.213.1.6.1.21"
+                  dateFin=""
+                  dateMaj="20260223000000"
+                  dateValid="20260223000000"
+                  displayName="Praticien hospitalier"
+                  longDesignation="Praticien hospitalier"
+                  shortDesignation="PH"
+                  descriptionMetier="Depuis la réforme entrée en vigueur avec le décret n°2022-134 du 5 février 2022, les statuts de PH à temps plein (SH08) et à temps partiel (SH09) ont été fusionnés en un statut unique de praticien hospitalier(SH19)."/>
          <Concept code="SH99"
                   codeSystem="1.2.250.1.213.1.6.1.21"
                   dateFin=""

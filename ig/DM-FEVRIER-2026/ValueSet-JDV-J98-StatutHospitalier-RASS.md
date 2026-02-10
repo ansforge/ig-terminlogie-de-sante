@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J98-StatutHospitalier-RASS/FHIR/JDV-J98-StatutHospitalier-RASS | *Version*:20200424120000 | |
-| Active as of 2020-04-24 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J98_StatutHospitalier_RASS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J98-StatutHospitalier-RASS/FHIR/JDV-J98-StatutHospitalier-RASS | *Version*:20260223120000 | |
+| Active as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J98_StatutHospitalier_RASS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.166 | | |
 
  
@@ -77,11 +77,11 @@ Requête sur le SMT
       "value" : "urn:oid:1.2.250.1.213.1.6.1.166"
     }
   ],
-  "version" : "20200424120000",
+  "version" : "20260223120000",
   "name" : "JDV_J98_StatutHospitalier_RASS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2020-04-24T12:00:00+01:00",
+  "date" : "2026-02-23T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Statut des professionnels intervenant dans un hôpital dans le RASS",
   "jurisdiction" : [
@@ -170,6 +170,10 @@ Requête sur le SMT
           {
             "code" : "SH18",
             "display" : "Clinicien hospitalier (R6152-701 et suivants du CSP)"
+          },
+          {
+            "code" : "SH19",
+            "display" : "Praticien hospitalier"
           },
           {
             "code" : "SH99",

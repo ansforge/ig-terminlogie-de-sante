@@ -217,7 +217,7 @@ However, this HL7 datatypes specification treats the entire media type as one at
 | [TRE_R327_TypeDecision](CodeSystem-TRE-R327-TypeDecision.md) | Caractérise le type de décision prise par la CDAPH en réponse à une demande de compensation d'un usager (individu ou représentant légal), à une demande de révision par un tiers ou à un recours administratif préalable obligatoire (RAPO) d'un usager | 29/03/2024 |
 | [TRE_R328_TypeScolarisation](CodeSystem-TRE-R328-TypeScolarisation.md) | Caractérise la situation scolaire de la personne | 29/03/2024 |
 | [TRE_R329_NatureCapacite](CodeSystem-TRE-R329-NatureCapacite.md) | Permet d'indiquer si la capacité est exprimée en lits ou en places | 28/03/2025 |
-| [TRE_R32_StatutHospitalier](CodeSystem-TRE-R32-StatutHospitalier.md) | Statut hospitalier | 15/12/2023 |
+| [TRE_R32_StatutHospitalier](CodeSystem-TRE-R32-StatutHospitalier.md) | Statut hospitalier | 23/02/2026 |
 | [TRE_R330_TypeStatutCapacite](CodeSystem-TRE-R330-TypeStatutCapacite.md) | Permet de préciser le statut des capacités concernées | 28/03/2025 |
 | [TRE_R331_TemporaliteCapacite](CodeSystem-TRE-R331-TemporaliteCapacite.md) | Sert à indiquer le moment où une capacité sera effective. Il est ainsi possible de décrire la situation immédiate ou de fournir une information prospective de capacités, prenant notamment en compte les entrées et sorties déjà identifiés de patients | 15/12/2023 |
 | [TRE_R332_GenreCapacite](CodeSystem-TRE-R332-GenreCapacite.md) | Permet d'indiquer le genre des patients qui peuvent être installés dans des lits disponibles | 28/08/2025 |

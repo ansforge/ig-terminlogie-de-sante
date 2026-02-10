@@ -23,7 +23,7 @@
 1.2.250.1.213.1.6.1.8;159;Centre Parental
 1.2.250.1.213.1.6.1.8;161;Maison de santé pour maladies mentales
 1.2.250.1.213.1.6.1.8;165;Appartement de coordination thérapeutique (ACT)
-1.2.250.1.213.1.6.1.8;166;Etablissement d'accueil mère-enfant
+1.2.250.1.213.1.6.1.8;166;Centre Parents-Enfants de moins de 3 ans
 1.2.250.1.213.1.6.1.8;172;Pouponnière à caractère social
 1.2.250.1.213.1.6.1.8;175;Foyer de l'enfance
 1.2.250.1.213.1.6.1.8;176;Village d'enfants
@@ -75,7 +75,7 @@
 1.2.250.1.213.1.6.1.8;269;Centre de médecine universitaire
 1.2.250.1.213.1.6.1.8;270;Centre de médecine sportive
 1.2.250.1.213.1.6.1.8;271;Maison d'accueil Hospitalière
-1.2.250.1.213.1.6.1.8;286;Club, Equipe de prévention
+1.2.250.1.213.1.6.1.8;286;Service de prévention spécialisée
 1.2.250.1.213.1.6.1.8;292;Centre hospitalier spécialisé de lutte contre les maladies mentales
 1.2.250.1.213.1.6.1.8;294;Centre de consultations cancer
 1.2.250.1.213.1.6.1.8;295;Service AEMO et AED
@@ -167,6 +167,7 @@
 1.2.250.1.213.1.6.1.8;647;Equipe de Soins Spécialisés
 1.2.250.1.213.1.6.1.8;648;Structure qui contribue au Service d'Accès aux Soins
 1.2.250.1.213.1.6.1.8;649;Centre de santé et de médiation en santé sexuelle
+1.2.250.1.213.1.6.1.8;650;Dispositifs Spécifiques Régionaux en périnatalité
 1.2.250.1.213.1.6.1.8;695;Groupement de coopération sanitaire de moyens - Exploitant
 1.2.250.1.213.1.6.1.8;696;Groupement de coopération sanitaire de moyens
 1.2.250.1.213.1.6.1.8;697;Groupement de coopération sanitaire, Etablissement de santé

@@ -1474,7 +1474,7 @@ Catégorie d’établissements
     },
     {
       "code" : "166",
-      "display" : "Etablissement d'Accueil Mère-Enfant",
+      "display" : "Centre Parents-Enfants de moins de 3 ans",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -1492,7 +1492,7 @@ Catégorie d’établissements
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2005-07-06T00:00:00+01:00"
+          "valueDateTime" : "2026-02-23T00:00:00+01:00"
         },
         {
           "code" : "status",
@@ -4696,25 +4696,7 @@ Catégorie d’établissements
     },
     {
       "code" : "286",
-      "display" : "Club Equipe de Prévention",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Club Equipe de Prév."
-        },
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Club, Equipe de prévention"
-        }
-      ],
+      "display" : "Service de prévention spécialisée",
       "property" : [
         {
           "code" : "dateValid",
@@ -4722,7 +4704,7 @@ Catégorie d’établissements
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2005-07-06T00:00:00+01:00"
+          "valueDateTime" : "2026-02-23T00:00:00+01:00"
         },
         {
           "code" : "status",
@@ -10456,6 +10438,35 @@ Catégorie d’établissements
         {
           "code" : "dateMaj",
           "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "650",
+      "display" : "Dispositifs Spécifiques Régionaux en périnatalité",
+      "definition" : "Les DSRP ont pour mission principale l’animation régionale des professionnels de la périnatalité et l’accompagnement des évolutions de l’offre et des pratiques, dans un contexte marqué par des enjeux forts en matière de qualité des soins, de prévention, de démographie médicale et d’organisation des parcours. Ils contribuent à la lisibilité et à la cohérence de l’offre de soins périnatals sur les territoires, en favorisant la coordination entre la ville, l’hôpital et les services de protection maternelle et infantile (PMI).",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "D.S.R.P."
+        }
+      ],
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2026-02-23T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2026-02-23T12:00:00+01:00"
         },
         {
           "code" : "status",

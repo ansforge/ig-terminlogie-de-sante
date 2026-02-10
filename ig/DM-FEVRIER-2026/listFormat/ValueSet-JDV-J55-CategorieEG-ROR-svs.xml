@@ -78,7 +78,7 @@
                   displayName="Appartement de coordination thérapeutique (ACT)"/>
          <Concept code="166"
                   codeSystem="1.2.250.1.213.1.6.1.8"
-                  displayName="Etablissement d'accueil mère-enfant"/>
+                  displayName="Centre Parents-Enfants de moins de 3 ans"/>
          <Concept code="172"
                   codeSystem="1.2.250.1.213.1.6.1.8"
                   displayName="Pouponnière à caractère social"/>
@@ -234,7 +234,7 @@
                   displayName="Maison d'accueil Hospitalière"/>
          <Concept code="286"
                   codeSystem="1.2.250.1.213.1.6.1.8"
-                  displayName="Club, Equipe de prévention"/>
+                  displayName="Service de prévention spécialisée"/>
          <Concept code="292"
                   codeSystem="1.2.250.1.213.1.6.1.8"
                   displayName="Centre hospitalier spécialisé de lutte contre les maladies mentales"/>
@@ -508,6 +508,9 @@
          <Concept code="649"
                   codeSystem="1.2.250.1.213.1.6.1.8"
                   displayName="Centre de santé et de médiation en santé sexuelle"/>
+         <Concept code="650"
+                  codeSystem="1.2.250.1.213.1.6.1.8"
+                  displayName="Dispositifs Spécifiques Régionaux en périnatalité"/>
          <Concept code="695"
                   codeSystem="1.2.250.1.213.1.6.1.8"
                   displayName="Groupement de coopération sanitaire de moyens - Exploitant"/>

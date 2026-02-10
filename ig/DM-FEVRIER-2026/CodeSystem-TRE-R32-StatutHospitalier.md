@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R32-StatutHospitalier/FHIR/TRE-R32-StatutHospitalier | *Version*:20231215120000 | |
-| Active as of 2023-12-15 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R32_StatutHospitalier |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R32-StatutHospitalier/FHIR/TRE-R32-StatutHospitalier | *Version*:20260223120000 | |
+| Active as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R32_StatutHospitalier |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.21 | | |
 
  
@@ -49,11 +49,11 @@ Statut hospitalier
       "value" : "urn:oid:1.2.250.1.213.1.6.1.21"
     }
   ],
-  "version" : "20231215120000",
+  "version" : "20260223120000",
   "name" : "TRE_R32_StatutHospitalier",
   "status" : "active",
   "experimental" : false,
-  "date" : "2023-12-15T12:00:00+01:00",
+  "date" : "2026-02-23T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Statut hospitalier",
   "jurisdiction" : [
@@ -68,6 +68,7 @@ Statut hospitalier
   ],
   "caseSensitive" : false,
   "content" : "complete",
+  "count" : 20,
   "property" : [
     {
       "code" : "dateValid",
@@ -721,6 +722,35 @@ Statut hospitalier
         {
           "code" : "dateMaj",
           "valueDateTime" : "2016-09-01T00:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "SH19",
+      "display" : "Praticien hospitalier",
+      "definition" : "Depuis la réforme entrée en vigueur avec le décret n°2022-134 du 5 février 2022, les statuts de PH à temps plein (SH08) et à temps partiel (SH09) ont été fusionnés en un statut unique de praticien hospitalier(SH19).",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "PH"
+        }
+      ],
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2026-02-23T00:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2026-02-23T00:00:00+01:00"
         },
         {
           "code" : "status",
