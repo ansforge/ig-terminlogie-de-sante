@@ -7443,12 +7443,12 @@ Catégorie d’établissements
           "valueDateTime" : "1979-01-01T00:00:00+01:00"
         },
         {
-          "code" : "dateMaj",
-          "valueDateTime" : "2026-02-23T00:00:00+01:00"
-        },
-        {
           "code" : "dateFin",
           "valueDateTime" : "2026-02-23T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2026-02-23T00:00:00+01:00"
         },
         {
           "code" : "deprecationDate",
@@ -7556,7 +7556,7 @@ Catégorie d’établissements
         },
         {
           "code" : "status",
-          "valueCode" : "deprecatede"
+          "valueCode" : "deprecated"
         }
       ]
     },
