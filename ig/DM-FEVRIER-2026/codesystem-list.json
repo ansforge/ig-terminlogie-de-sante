@@ -2288,7 +2288,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement",
-      "version" : "20251222120000",
+      "version" : "20260223120000",
       "status" : "active",
       "name" : "TRE_R66_CategorieEtablissement",
       "title" : null,
@@ -2754,7 +2754,7 @@
       "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
       "version" : "20260223120000",
       "status" : "active",
-      "name" : "TreR401ActiviteEnseignementRegulee",
+      "name" : "TreR402ActiviteEnseignementRegulee",
       "title" : "Tre R402 Activite Enseignement Regulee",
       "description" : "Liste des activités d'enseignement régulées organisée en 3 niveaux d'agrégation. Annule et remplace les anciennes TRE xxxEnseignement",
       "oids" : ["1.2.250.1.213.1.6.1.381"]

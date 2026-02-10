@@ -273,7 +273,7 @@ However, this HL7 datatypes specification treats the entire media type as one at
 | [TRE_R63_AgregatCategorieEtablissementNiv1](CodeSystem-TRE-R63-AgregatCategorieEtablissementNiv1.md) | Agrégats de catégories d'établissements niveau 1 | 15/12/2023 |
 | [TRE_R64_AgregatCategorieEtablissementNiv2](CodeSystem-TRE-R64-AgregatCategorieEtablissementNiv2.md) | Agrégats de catégories d'établissements niveau 2 | 15/12/2023 |
 | [TRE_R65_AgregatCategorieEtablissement](CodeSystem-TRE-R65-AgregatCategorieEtablissement.md) | Agrégat de catégories d'établissements | 28/02/2025 |
-| [TRE_R66_CategorieEtablissement](CodeSystem-TRE-R66-CategorieEtablissement.md) | Catégorie d'établissements | 22/12/2025 |
+| [TRE_R66_CategorieEtablissement](CodeSystem-TRE-R66-CategorieEtablissement.md) | Catégorie d'établissements | 23/02/2026 |
 | [TRE_R67_TypeStructure_EJ_EG](CodeSystem-TRE-R67-TypeStructure-EJ-EG.md) | Type de structure | 15/12/2023 |
 | [TRE_R68_FinessAgregatStatutJuridiqueNiv1](CodeSystem-TRE-R68-FinessAgregatStatutJuridiqueNiv1.md) | Agrégats de statuts juridiques FINESS niveau 1 | 15/12/2023 |
 | [TRE_R69_FinessAgregatStatutJuridiqueNiv2](CodeSystem-TRE-R69-FinessAgregatStatutJuridiqueNiv2.md) | Agrégats de statuts juridiques FINESS niveau 2 | 15/12/2023 |
@@ -305,8 +305,8 @@ However, this HL7 datatypes specification treats the entire media type as one at
 | [TreR395Engagement](CodeSystem-tre-r395-engagement.md) | Nomenclature des engagements associés dans FINESS+ aux Personnes morales, aux entités géographique, aux groupements ou à leurs activités | 23/02/2026 |
 | [TreR397CategorieEntiteGeographiqueExercice](CodeSystem-tre-r397-categorie-entite-geographique-exercice.md) | Catégorie d'établissements - TRE Hierarchique qui remplace la TRE R66 | 23/02/2026 |
 | [TreR400FinessStatutJuridique](CodeSystem-tre-r400-finess-statut-juridique.md) | Statuts juridiques de FINESS | 23/02/2026 |
-| [TreR401ActiviteEnseignementRegulee](CodeSystem-tre-r402-activite-enseignement-regulee.md) | Liste des activités d'enseignement régulées organisée en 3 niveaux d'agrégation. Annule et remplace les anciennes TRE xxxEnseignement | 23/02/2026 |
 | [TreR401ActiviteSocialeRegulee](CodeSystem-tre-r401-activite-sociale-regulee.md) | Liste des activités sociales régulées organisée en 3 niveaux d'agrégation. Annule et remplace les anciennes TRE xxxEquipementSocial | 23/02/2026 |
+| [TreR402ActiviteEnseignementRegulee](CodeSystem-tre-r402-activite-enseignement-regulee.md) | Liste des activités d'enseignement régulées organisée en 3 niveaux d'agrégation. Annule et remplace les anciennes TRE xxxEnseignement | 23/02/2026 |
 | [TreR403PublicActiviteSmsseRegulee](CodeSystem-tre-r403-public-activite-smsse-regulee.md) | Liste des publics des activités régulées organisée en 2 niveaux d'agrégation. Annule et remplace les 3 anciennes TRE xxxClientele | 23/02/2026 |
 | [TreR404ModeFonctionnemetActiviteSmsseRegulee](CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.md) | Mode de fonctinonemment des activités ssmsse régulées | 23/02/2026 |
 | [TreR405ModaliteActiviteSmsseRegulee](CodeSystem-tre-r405-modalite-activite-smsse-regulee.md) | Modalités des activités SSMSE régulées | 23/02/2026 |

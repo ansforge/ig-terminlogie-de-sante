@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/ASS_A32-StatutMotifPersonnePriseCharge/FHIR/ASS-A32-StatutMotifPersonnePriseCharge | *Version*:20250411120000 |
-| Active as of 2025-04-11 | *Computable Name*:ASS_A32_StatutMotifPersonnePriseCharge |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/ASS_A32-StatutMotifPersonnePriseCharge/FHIR/ASS-A32-StatutMotifPersonnePriseCharge | *Version*:20260223120000 |
+| Active as of 2026-02-23 | *Computable Name*:ASS_A32_StatutMotifPersonnePriseCharge |
 | *Other Identifiers:*urn:oid:1.2.250.1.213.3.4.217 | |
 
  
@@ -47,12 +47,12 @@ Pour cette association, les fichiers suivants sont également disponibles :
   "identifier" : {
     "value" : "urn:oid:1.2.250.1.213.3.4.217"
   },
-  "version" : "20250411120000",
+  "version" : "20260223120000",
   "name" : "ASS_A32_StatutMotifPersonnePriseCharge",
   "title" : "ASS_A32_StatutMotifPersonnePriseCharge",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-04-11T12:00:00+01:00",
+  "date" : "2026-02-23T12:00:00+01:00",
   "description" : "Association du motif au statut de la personne prise en charge",
   "jurisdiction" : [
     {
@@ -193,6 +193,15 @@ Pour cette association, les fichiers suivants sont également disponibles :
           "target" : [
             {
               "code" : "112",
+              "equivalence" : "relatedto"
+            }
+          ]
+        },
+        {
+          "code" : "180",
+          "target" : [
+            {
+              "code" : "136",
               "equivalence" : "relatedto"
             }
           ]

@@ -23,7 +23,7 @@
     "value" : "urn:oid:1.2.250.1.213.1.6.1.381"
   }],
   "version" : "20260223120000",
-  "name" : "TreR401ActiviteEnseignementRegulee",
+  "name" : "TreR402ActiviteEnseignementRegulee",
   "title" : "Tre R402 Activite Enseignement Regulee",
   "status" : "active",
   "experimental" : false,

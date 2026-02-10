@@ -22,7 +22,7 @@
     <value value="urn:oid:1.2.250.1.213.1.6.1.381"/>
   </identifier>
   <version value="20260223120000"/>
-  <name value="TreR401ActiviteEnseignementRegulee"/>
+  <name value="TreR402ActiviteEnseignementRegulee"/>
   <title value="Tre R402 Activite Enseignement Regulee"/>
   <status value="active"/>
   <experimental value="false"/>

@@ -9,7 +9,7 @@
 | | | |
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee | *Version*:20260223120000 | |
-| Active as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR401ActiviteEnseignementRegulee |
+| Active as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR402ActiviteEnseignementRegulee |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.381 | | |
 
  
@@ -54,7 +54,7 @@ Liste des activités d’enseignement régulées organisée en 3 niveaux d’agr
     }
   ],
   "version" : "20260223120000",
-  "name" : "TreR401ActiviteEnseignementRegulee",
+  "name" : "TreR402ActiviteEnseignementRegulee",
   "title" : "Tre R402 Activite Enseignement Regulee",
   "status" : "active",
   "experimental" : false,

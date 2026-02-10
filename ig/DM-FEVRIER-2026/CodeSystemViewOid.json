@@ -96,6 +96,14 @@
     "status" : "draft"
   },
   {
+    "id" : "TRE-G09-DepartementOM",
+    "name" : "TRE_G09_DepartementOM",
+    "title" : null,
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_G09-DepartementOM/FHIR/TRE-G09-DepartementOM",
+    "identifier" : "urn:oid:1.2.250.1.71.1.2.16",
+    "status" : "active"
+  },
+  {
     "id" : "TRE-R02-SecteurActivite",
     "name" : "TRE_R02_SecteurActivite",
     "title" : null,
@@ -125,6 +133,14 @@
     "title" : null,
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique",
     "identifier" : "urn:oid:1.2.250.1.213.3.3.11",
+    "status" : "active"
+  },
+  {
+    "id" : "TRE-R66-CategorieEtablissement",
+    "name" : "TRE_R66_CategorieEtablissement",
+    "title" : null,
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement",
+    "identifier" : "urn:oid:1.2.250.1.213.1.6.1.8",
     "status" : "active"
   },
   {
@@ -257,7 +273,7 @@
   },
   {
     "id" : "tre-r402-activite-enseignement-regulee",
-    "name" : "TreR401ActiviteEnseignementRegulee",
+    "name" : "TreR402ActiviteEnseignementRegulee",
     "title" : "Tre R402 Activite Enseignement Regulee",
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
     "identifier" : "urn:oid:1.2.250.1.213.1.6.1.381",
@@ -789,14 +805,6 @@
     "title" : null,
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_G08-TypeIdentifiantPersonne/FHIR/TRE-G08-TypeIdentifiantPersonne",
     "identifier" : "urn:oid:1.2.250.1.71.1.2.15",
-    "status" : "active"
-  },
-  {
-    "id" : "TRE-G09-DepartementOM",
-    "name" : "TRE_G09_DepartementOM",
-    "title" : null,
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_G09-DepartementOM/FHIR/TRE-G09-DepartementOM",
-    "identifier" : "urn:oid:1.2.250.1.71.1.2.16",
     "status" : "active"
   },
   {
@@ -2405,14 +2413,6 @@
     "title" : null,
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R65-AgregatCategorieEtablissement/FHIR/TRE-R65-AgregatCategorieEtablissement",
     "identifier" : "urn:oid:1.2.250.1.213.1.6.1.7",
-    "status" : "active"
-  },
-  {
-    "id" : "TRE-R66-CategorieEtablissement",
-    "name" : "TRE_R66_CategorieEtablissement",
-    "title" : null,
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement",
-    "identifier" : "urn:oid:1.2.250.1.213.1.6.1.8",
     "status" : "active"
   },
   {

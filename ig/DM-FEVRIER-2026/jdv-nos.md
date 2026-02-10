@@ -87,7 +87,7 @@ Vous touverez ici la liste des JDV du NOS.
 | [JDV_J52_AvailabilityStatus_CISIS](ValueSet-JDV-J52-AvailabilityStatus-CISIS.md) | Statut du document CI-SIS | 24/04/2020 |
 | [JDV_J53_TypeRequeteGestionDossier_CISIS](ValueSet-JDV-J53-TypeRequeteGestionDossier-CISIS.md) | Code de requêtes de gestion de dossier CI-SIS | 24/04/2020 |
 | [JDV_J54_Profession_ROR](ValueSet-JDV-J54-Profession-ROR.md) | Profession de santé - ROR | 23/05/2025 |
-| [JDV_J55_CategorieEG_ROR](ValueSet-JDV-J55-CategorieEG-ROR.md) | Catégories d'établissements FINESS ou hors FINESS et secteurs d'activité des cabinets | 22/12/2025 |
+| [JDV_J55_CategorieEG_ROR](ValueSet-JDV-J55-CategorieEG-ROR.md) | Catégories d'établissements FINESS ou hors FINESS et secteurs d'activité des cabinets | 23/02/2026 |
 | [JDV_J56_AuthorSpecialty_DMP](ValueSet-JDV-J56-AuthorSpecialty-DMP.md) | Jeu de valeurs pour authorSpecialty | 27/09/2024 |
 | [JDV_J57_ClassCode_DMP](ValueSet-JDV-J57-ClassCode-DMP.md) | Jeu de valeurs pour métadonnée classCode | 22/09/2023 |
 | [JDV_J58_ConfidentialityCode_DMP](ValueSet-JDV-J58-ConfidentialityCode-DMP.md) | Jeu de valeurs pour métadonnée confidentialityCode | 24/04/2020 |

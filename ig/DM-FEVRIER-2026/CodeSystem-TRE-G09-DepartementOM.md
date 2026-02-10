@@ -37,6 +37,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
+  "language" : "fr-FR",
   "extension" : [
     {
       "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -70,22 +71,39 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
     }
   ],
   "caseSensitive" : false,
+  "valueSet" : "https://mos.esante.gouv.fr/NOS/TRE_G09-DepartementOM/FHIR/TRE-G09-DepartementOM?vs",
   "content" : "complete",
+  "count" : 113,
   "property" : [
     {
       "code" : "dateValid",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
       "description" : "date de validité d'un code concept",
       "type" : "dateTime"
     },
     {
       "code" : "dateMaj",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
       "description" : "Date de mise à jour d'un code concept",
       "type" : "dateTime"
     },
     {
       "code" : "dateFin",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
       "description" : "Date de fin d'exploitation d'un code concept",
       "type" : "dateTime"
+    },
+    {
+      "code" : "autoriteEpars",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#autoriteEpars",
+      "description" : "Autorités rattachées au département vues d EPARS",
+      "type" : "Coding"
+    },
+    {
+      "code" : "region",
+      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#region",
+      "description" : "Région dans laquelle se trouve le département",
+      "type" : "Coding"
     },
     {
       "code" : "deprecationDate",
@@ -130,6 +148,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-84"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "84"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -158,6 +190,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-32"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "32"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -184,6 +230,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
         {
           "code" : "dateMaj",
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
+        },
+        {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-84"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "84"
+          }
         },
         {
           "code" : "status",
@@ -222,6 +282,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-93"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "93"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -256,6 +330,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
         {
           "code" : "dateMaj",
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
+        },
+        {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-93"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "93"
+          }
         },
         {
           "code" : "status",
@@ -294,6 +382,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-93"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "93"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -330,6 +432,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-84"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "84"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -356,6 +472,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
         {
           "code" : "dateMaj",
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
+        },
+        {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-41"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "44"
+          }
         },
         {
           "code" : "status",
@@ -394,6 +524,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-76"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "76"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -420,6 +564,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
         {
           "code" : "dateMaj",
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
+        },
+        {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-41"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "44"
+          }
         },
         {
           "code" : "status",
@@ -450,6 +608,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-76"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "76"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -476,6 +648,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
         {
           "code" : "dateMaj",
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
+        },
+        {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-76"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "76"
+          }
         },
         {
           "code" : "status",
@@ -514,6 +700,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-93"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "93"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -540,6 +740,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
         {
           "code" : "dateMaj",
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
+        },
+        {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-28"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "28"
+          }
         },
         {
           "code" : "status",
@@ -570,6 +784,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-84"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "84"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -596,6 +824,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
         {
           "code" : "dateMaj",
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
+        },
+        {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-75"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "75"
+          }
         },
         {
           "code" : "status",
@@ -634,6 +876,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-75"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "75"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -660,6 +916,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
         {
           "code" : "dateMaj",
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
+        },
+        {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-24"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "24"
+          }
         },
         {
           "code" : "status",
@@ -698,6 +968,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-75"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "75"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -730,84 +1014,19 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2017-07-07T10:00:00+01:00"
         },
         {
-          "code" : "deprecationDate",
-          "valueDateTime" : "2017-07-07T10:00:00+01:00"
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "94"
+          }
         },
         {
           "code" : "status",
           "valueCode" : "deprecated"
-        }
-      ]
-    },
-    {
-      "code" : "2A",
-      "display" : "Corse-du-Sud",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "CORSE DU SUD"
         },
         {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Corse-du-Sud (2A)"
-        }
-      ],
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2007-07-25T15:04:36+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2024-01-26T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
-    },
-    {
-      "code" : "2B",
-      "display" : "Haute-Corse",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "HAUTE CORSE"
-        },
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Haute-Corse (2B)"
-        }
-      ],
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2007-07-25T15:04:36+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2024-01-26T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
+          "code" : "deprecationDate",
+          "valueDateTime" : "2017-07-07T10:00:00+01:00"
         }
       ]
     },
@@ -840,6 +1059,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
         {
           "code" : "dateMaj",
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
+        },
+        {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-27"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "27"
+          }
         },
         {
           "code" : "status",
@@ -878,6 +1111,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-53"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "53"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -904,6 +1151,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
         {
           "code" : "dateMaj",
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
+        },
+        {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-75"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "75"
+          }
         },
         {
           "code" : "status",
@@ -934,6 +1195,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-75"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "75"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -960,6 +1235,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
         {
           "code" : "dateMaj",
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
+        },
+        {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-27"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "27"
+          }
         },
         {
           "code" : "status",
@@ -998,6 +1287,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-84"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "84"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -1024,6 +1327,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
         {
           "code" : "dateMaj",
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
+        },
+        {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-28"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "28"
+          }
         },
         {
           "code" : "status",
@@ -1062,6 +1379,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-24"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "24"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -1098,6 +1429,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-53"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "53"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -1124,6 +1469,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
         {
           "code" : "dateMaj",
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
+        },
+        {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-57"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "76"
+          }
         },
         {
           "code" : "status",
@@ -1162,6 +1521,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-76"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "76"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -1190,6 +1563,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-76"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "76"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -1216,6 +1603,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
         {
           "code" : "dateMaj",
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
+        },
+        {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-75"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "75"
+          }
         },
         {
           "code" : "status",
@@ -1254,6 +1655,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-76"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "76"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -1290,6 +1705,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-53"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "53"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -1316,6 +1745,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
         {
           "code" : "dateMaj",
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
+        },
+        {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-24"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "24"
+          }
         },
         {
           "code" : "status",
@@ -1354,6 +1797,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-24"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "24"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -1390,6 +1847,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-84"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "84"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -1418,6 +1889,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-27"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "27"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -1444,6 +1929,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
         {
           "code" : "dateMaj",
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
+        },
+        {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-75"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "75"
+          }
         },
         {
           "code" : "status",
@@ -1482,6 +1981,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-24"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "24"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -1508,6 +2021,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
         {
           "code" : "dateMaj",
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
+        },
+        {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-84"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "84"
+          }
         },
         {
           "code" : "status",
@@ -1546,6 +2073,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-84"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "84"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -1582,6 +2123,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-52"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "52"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -1610,6 +2165,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-24"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "24"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -1636,6 +2205,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
         {
           "code" : "dateMaj",
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
+        },
+        {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-76"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "76"
+          }
         },
         {
           "code" : "status",
@@ -1674,6 +2257,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-75"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "75"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -1708,6 +2305,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
         {
           "code" : "dateMaj",
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
+        },
+        {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-76"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "76"
+          }
         },
         {
           "code" : "status",
@@ -1746,6 +2357,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-52"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "52"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -1774,6 +2399,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-28"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "28"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -1800,6 +2439,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
         {
           "code" : "dateMaj",
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
+        },
+        {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-41"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "44"
+          }
         },
         {
           "code" : "status",
@@ -1838,6 +2491,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-41"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "44"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -1864,6 +2531,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
         {
           "code" : "dateMaj",
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
+        },
+        {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-52"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "52"
+          }
         },
         {
           "code" : "status",
@@ -1902,6 +2583,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-41"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "44"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -1928,6 +2623,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
         {
           "code" : "dateMaj",
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
+        },
+        {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-41"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "44"
+          }
         },
         {
           "code" : "status",
@@ -1958,6 +2667,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-53"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "53"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -1984,6 +2707,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
         {
           "code" : "dateMaj",
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
+        },
+        {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-41"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "44"
+          }
         },
         {
           "code" : "status",
@@ -2022,6 +2759,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-27"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "27"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -2048,6 +2799,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
         {
           "code" : "dateMaj",
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
+        },
+        {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-32"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "32"
+          }
         },
         {
           "code" : "status",
@@ -2078,6 +2843,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-32"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "32"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -2104,6 +2883,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
         {
           "code" : "dateMaj",
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
+        },
+        {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-28"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "28"
+          }
         },
         {
           "code" : "status",
@@ -2142,6 +2935,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-32"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "32"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -2176,6 +2983,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
         {
           "code" : "dateMaj",
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
+        },
+        {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-84"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "84"
+          }
         },
         {
           "code" : "status",
@@ -2214,6 +3035,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-75"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "75"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -2248,6 +3083,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
         {
           "code" : "dateMaj",
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
+        },
+        {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-76"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "76"
+          }
         },
         {
           "code" : "status",
@@ -2286,6 +3135,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-76"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "76"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -2320,6 +3183,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
         {
           "code" : "dateMaj",
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
+        },
+        {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-41"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "44"
+          }
         },
         {
           "code" : "status",
@@ -2358,6 +3235,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-41"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "44"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -2392,6 +3283,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
         {
           "code" : "dateMaj",
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
+        },
+        {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-84"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "84"
+          }
         },
         {
           "code" : "status",
@@ -2430,6 +3335,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-27"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "27"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -2466,6 +3385,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-27"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "27"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -2494,6 +3427,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-52"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "52"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -2520,6 +3467,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
         {
           "code" : "dateMaj",
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
+        },
+        {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-84"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "84"
+          }
         },
         {
           "code" : "status",
@@ -2558,6 +3519,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-84"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "84"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -2584,6 +3559,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
         {
           "code" : "dateMaj",
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
+        },
+        {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-11"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "11"
+          }
         },
         {
           "code" : "status",
@@ -2622,6 +3611,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-28"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "28"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -2658,6 +3661,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-11"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "11"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -2684,6 +3701,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
         {
           "code" : "dateMaj",
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
+        },
+        {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-11"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "11"
+          }
         },
         {
           "code" : "status",
@@ -2722,6 +3753,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-75"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "75"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -2750,6 +3795,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-32"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "32"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -2776,6 +3835,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
         {
           "code" : "dateMaj",
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
+        },
+        {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-76"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "76"
+          }
         },
         {
           "code" : "status",
@@ -2814,6 +3887,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-76"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "76"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -2842,6 +3929,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-93"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "93"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -2868,6 +3969,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
         {
           "code" : "dateMaj",
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
+        },
+        {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-93"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "93"
+          }
         },
         {
           "code" : "status",
@@ -2906,6 +4021,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-52"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "52"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -2932,6 +4061,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
         {
           "code" : "dateMaj",
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
+        },
+        {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-75"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "75"
+          }
         },
         {
           "code" : "status",
@@ -2970,6 +4113,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-75"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "75"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -2996,6 +4153,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
         {
           "code" : "dateMaj",
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
+        },
+        {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-41"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "44"
+          }
         },
         {
           "code" : "status",
@@ -3026,6 +4197,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-27"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "27"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -3054,6 +4239,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-27"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "27"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -3080,6 +4279,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
         {
           "code" : "dateMaj",
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
+        },
+        {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-11"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "11"
+          }
         },
         {
           "code" : "status",
@@ -3118,6 +4331,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-11"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "11"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -3152,6 +4379,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
         {
           "code" : "dateMaj",
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
+        },
+        {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-11"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "11"
+          }
         },
         {
           "code" : "status",
@@ -3190,6 +4431,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-11"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "11"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -3226,6 +4481,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-06-28T12:00:00+01:00"
         },
         {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-11"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "11"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -3252,6 +4521,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
         {
           "code" : "dateMaj",
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
+        },
+        {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-01"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "1"
+          }
         },
         {
           "code" : "status",
@@ -3282,6 +4565,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-02"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "2"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -3308,6 +4605,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
         {
           "code" : "dateMaj",
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
+        },
+        {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-03"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "3"
+          }
         },
         {
           "code" : "status",
@@ -3346,6 +4657,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-06-28T12:00:00+01:00"
         },
         {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-05"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "4"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -3374,6 +4699,13 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-06-28T12:00:00+01:00"
         },
         {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "975"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -3400,6 +4732,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
         {
           "code" : "dateMaj",
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
+        },
+        {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-86"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "6"
+          }
         },
         {
           "code" : "status",
@@ -3438,6 +4784,20 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-01"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "977"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -3474,76 +4834,18 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
-    },
-    {
-      "code" : "98000",
-      "display" : "Monaco",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Monaco (98000)"
-        }
-      ],
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2007-07-25T15:04:36+01:00"
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-01"
+          }
         },
         {
-          "code" : "dateFin",
-          "valueDateTime" : "2016-02-05T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2016-02-05T00:00:00+01:00"
-        },
-        {
-          "code" : "deprecationDate",
-          "valueDateTime" : "2016-02-05T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "deprecated"
-        }
-      ]
-    },
-    {
-      "code" : "99138",
-      "display" : "Principauté de Monaco",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "MONACO"
-        },
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Monaco (99138)"
-        }
-      ],
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2007-07-25T15:04:36+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2024-06-28T12:00:00+01:00"
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "978"
+          }
         },
         {
           "code" : "status",
@@ -3582,6 +4884,13 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "984"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -3614,12 +4923,19 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2009-10-23T00:00:00+01:00"
         },
         {
-          "code" : "deprecationDate",
-          "valueDateTime" : "2009-10-23T00:00:00+01:00"
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "985"
+          }
         },
         {
           "code" : "status",
           "valueCode" : "deprecated"
+        },
+        {
+          "code" : "deprecationDate",
+          "valueDateTime" : "2009-10-23T00:00:00+01:00"
         }
       ]
     },
@@ -3652,6 +4968,13 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
         {
           "code" : "dateMaj",
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "986"
+          }
         },
         {
           "code" : "status",
@@ -3690,6 +5013,13 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "987"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -3726,6 +5056,13 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
         },
         {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "988"
+          }
+        },
+        {
           "code" : "status",
           "valueCode" : "active"
         }
@@ -3760,6 +5097,199 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
         {
           "code" : "dateMaj",
           "valueDateTime" : "2024-01-26T12:00:00+01:00"
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "989"
+          }
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "98000",
+      "display" : "Monaco",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "Monaco (98000)"
+        }
+      ],
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2007-07-25T15:04:36+01:00"
+        },
+        {
+          "code" : "dateFin",
+          "valueDateTime" : "2016-02-05T00:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2016-02-05T00:00:00+01:00"
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "98000"
+          }
+        },
+        {
+          "code" : "status",
+          "valueCode" : "deprecated"
+        },
+        {
+          "code" : "deprecationDate",
+          "valueDateTime" : "2016-02-05T00:00:00+01:00"
+        }
+      ]
+    },
+    {
+      "code" : "99138",
+      "display" : "Principauté de Monaco",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "MONACO"
+        },
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "Monaco (99138)"
+        }
+      ],
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2007-07-25T15:04:36+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2024-06-28T12:00:00+01:00"
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "99138"
+          }
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "2A",
+      "display" : "Corse-du-Sud",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "CORSE DU SUD"
+        },
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "Corse-du-Sud (2A)"
+        }
+      ],
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2007-07-25T15:04:36+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2024-01-26T12:00:00+01:00"
+        },
+        {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-94"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "94"
+          }
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        }
+      ]
+    },
+    {
+      "code" : "2B",
+      "display" : "Haute-Corse",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "HAUTE CORSE"
+        },
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "Haute-Corse (2B)"
+        }
+      ],
+      "property" : [
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2007-07-25T15:04:36+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2024-01-26T12:00:00+01:00"
+        },
+        {
+          "code" : "autoriteEpars",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+            "code" : "ARS-94"
+          }
+        },
+        {
+          "code" : "region",
+          "valueCoding" : {
+            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
+            "code" : "94"
+          }
         },
         {
           "code" : "status",
