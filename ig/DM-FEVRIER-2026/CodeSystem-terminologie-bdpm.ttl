@@ -10,8 +10,8 @@
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "terminologie-bdpm"] ; # 
   fhir:meta [
-     fhir:versionId [ fhir:v "26" ] ;
-     fhir:lastUpdated [ fhir:v "2026-02-03T10:45:38.335+01:00"^^xsd:dateTime ] ;
+     fhir:versionId [ fhir:v "26.1770296468572" ] ;
+     fhir:lastUpdated [ fhir:v "2026-02-05T14:01:08.572+01:00"^^xsd:dateTime ] ;
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"^^xsd:anyURI ;
        fhir:l <http://hl7.org/fhir/StructureDefinition/shareablecodesystem?version=4.0.1>

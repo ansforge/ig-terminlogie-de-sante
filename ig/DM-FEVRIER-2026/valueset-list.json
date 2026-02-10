@@ -42,7 +42,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J02-XdsHealthcareFacilityTypeCode-CISIS/FHIR/JDV-J02-XdsHealthcareFacilityTypeCode-CISIS",
-      "version" : "20250523120000",
+      "version" : "20260223120000",
       "status" : "active",
       "name" : "JDV_J02_XdsHealthcareFacilityTypeCode_CISIS",
       "title" : null,
@@ -56,7 +56,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J03-XdsContentTypeCode-CISIS/FHIR/JDV-J03-XdsContentTypeCode-CISIS",
-      "version" : "20250523120000",
+      "version" : "20260223120000",
       "status" : "active",
       "name" : "JDV_J03_XdsContentTypeCode_CISIS",
       "title" : null,
@@ -86,7 +86,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J05-SubjectRole-CISIS/FHIR/JDV-J05-SubjectRole-CISIS",
-      "version" : "20260202120000",
+      "version" : "20260223120000",
       "status" : "active",
       "name" : "JDV_J05_SubjectRole_CISIS",
       "title" : null,
@@ -181,7 +181,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J101-SecteurActivite-RASS/FHIR/JDV-J101-SecteurActivite-RASS",
-      "version" : "20250828120000",
+      "version" : "20260223120000",
       "status" : "active",
       "name" : "JDV_J101_SecteurActivite_RASS",
       "title" : null,
@@ -1179,7 +1179,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J172-SecteurActivite-EPARS/FHIR/JDV-J172-SecteurActivite-EPARS",
-      "version" : "20250523120000",
+      "version" : "20260223120000",
       "status" : "active",
       "name" : "JDV_J172_SecteurActivite_EPARS",
       "title" : null,
@@ -3357,7 +3357,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J89-CategorieProfessionnelle-RASS/FHIR/JDV-J89-CategorieProfessionnelle-RASS",
-      "version" : "20240329120000",
+      "version" : "20260223120000",
       "status" : "active",
       "name" : "JDV_J89_CategorieProfessionnelle_RASS",
       "title" : null,

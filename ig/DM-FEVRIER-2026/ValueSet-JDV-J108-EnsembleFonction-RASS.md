@@ -273,7 +273,7 @@ Requête sur le SMT
           },
           {
             "code" : "FON-63",
-            "display" : "Coordonnateur en EPHAD"
+            "display" : "Coordonnateur en EHPAD"
           },
           {
             "code" : "FON-AU",

@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R09-CategorieProfessionnelle/FHIR/TRE-R09-CategorieProfessionnelle | *Version*:20240426120000 | |
-| Active as of 2024-04-26 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R09_CategorieProfessionnelle |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R09-CategorieProfessionnelle/FHIR/TRE-R09-CategorieProfessionnelle | *Version*:20260223120000 | |
+| Active as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R09_CategorieProfessionnelle |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.10 | | |
 
  
@@ -50,11 +50,11 @@ Catégorie professionnelle
       "value" : "urn:oid:1.2.250.1.213.1.6.1.10"
     }
   ],
-  "version" : "20240426120000",
+  "version" : "20260223120000",
   "name" : "TRE_R09_CategorieProfessionnelle",
   "status" : "active",
   "experimental" : false,
-  "date" : "2024-04-26T12:00:00+01:00",
+  "date" : "2026-02-23T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Catégorie professionnelle",
   "jurisdiction" : [
@@ -69,6 +69,7 @@ Catégorie professionnelle
   ],
   "caseSensitive" : false,
   "content" : "complete",
+  "count" : 4,
   "property" : [
     {
       "code" : "dateValid",
@@ -161,11 +162,19 @@ Catégorie professionnelle
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2016-09-01T00:00:00+01:00"
+          "valueDateTime" : "2026-02-23T00:00:00+01:00"
+        },
+        {
+          "code" : "dateFin",
+          "valueDateTime" : "2026-02-23T00:00:00+01:00"
+        },
+        {
+          "code" : "deprecationDate",
+          "valueDateTime" : "2026-02-23T00:00:00+01:00"
         },
         {
           "code" : "status",
-          "valueCode" : "active"
+          "valueCode" : "deprecated"
         }
       ]
     },

@@ -542,7 +542,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite",
-      "version" : "20250523120000",
+      "version" : "20260223120000",
       "status" : "active",
       "name" : "TRE_R02_SecteurActivite",
       "title" : null,
@@ -578,7 +578,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R09-CategorieProfessionnelle/FHIR/TRE-R09-CategorieProfessionnelle",
-      "version" : "20240426120000",
+      "version" : "20260223120000",
       "status" : "active",
       "name" : "TRE_R09_CategorieProfessionnelle",
       "title" : null,
@@ -749,7 +749,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R21-Fonction/FHIR/TRE-R21-Fonction",
-      "version" : "20260202120000",
+      "version" : "20260223120000",
       "status" : "active",
       "name" : "TRE_R21_Fonction",
       "title" : null,
@@ -2829,7 +2829,7 @@
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-lahn",
-      "version" : "2025 v1.0",
+      "version" : "2026 v1.0",
       "status" : "active",
       "name" : "LAHN",
       "title" : "Liste des Actes Inovants Hors Nomenclature",

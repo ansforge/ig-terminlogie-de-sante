@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J03-XdsContentTypeCode-CISIS/FHIR/JDV-J03-XdsContentTypeCode-CISIS | *Version*:20250523120000 | |
-| Active as of 2025-05-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J03_XdsContentTypeCode_CISIS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J03-XdsContentTypeCode-CISIS/FHIR/JDV-J03-XdsContentTypeCode-CISIS | *Version*:20260223120000 | |
+| Active as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J03_XdsContentTypeCode_CISIS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.464 | | |
 
  
@@ -77,11 +77,11 @@ Requête sur le SMT
       "value" : "urn:oid:1.2.250.1.213.1.1.5.464"
     }
   ],
-  "version" : "20250523120000",
+  "version" : "20260223120000",
   "name" : "JDV_J03_XdsContentTypeCode_CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-05-23T12:00:00+01:00",
+  "date" : "2026-02-23T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "XDS contentTypeCode CI-SIS",
   "jurisdiction" : [
@@ -383,7 +383,7 @@ Requête sur le SMT
           },
           {
             "code" : "SA40",
-            "display" : "Secteur privé, praticien hospitalier temps plein"
+            "display" : "Secteur privé, praticien hospitalier"
           },
           {
             "code" : "SA41",

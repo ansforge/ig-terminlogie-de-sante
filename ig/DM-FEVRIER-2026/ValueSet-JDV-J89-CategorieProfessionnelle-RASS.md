@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J89-CategorieProfessionnelle-RASS/FHIR/JDV-J89-CategorieProfessionnelle-RASS | *Version*:20240329120000 | |
-| Active as of 2024-03-29 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J89_CategorieProfessionnelle_RASS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J89-CategorieProfessionnelle-RASS/FHIR/JDV-J89-CategorieProfessionnelle-RASS | *Version*:20260223120000 | |
+| Active as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J89_CategorieProfessionnelle_RASS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.157 | | |
 
  
@@ -77,11 +77,11 @@ Requête sur le SMT
       "value" : "urn:oid:1.2.250.1.213.1.6.1.157"
     }
   ],
-  "version" : "20240329120000",
+  "version" : "20260223120000",
   "name" : "JDV_J89_CategorieProfessionnelle_RASS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2024-03-29T12:00:00+01:00",
+  "date" : "2026-02-23T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Catégories professionnelles dans le RASS",
   "jurisdiction" : [
@@ -106,10 +106,6 @@ Requête sur le SMT
           {
             "code" : "E",
             "display" : "Etudiant"
-          },
-          {
-            "code" : "F",
-            "display" : "Fonctionnaire d'Etat ou de collectivité locale"
           },
           {
             "code" : "M",

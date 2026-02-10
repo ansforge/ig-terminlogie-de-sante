@@ -3,8 +3,8 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="terminologie-sms"/>
   <meta>
-    <versionId value="26"/>
-    <lastUpdated value="2026-02-03T12:46:37.207+01:00"/>
+    <versionId value="26.1770299404022"/>
+    <lastUpdated value="2026-02-05T14:50:04.022+01:00"/>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"/>
   </meta>
   <text>

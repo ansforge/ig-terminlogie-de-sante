@@ -10,8 +10,8 @@
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "terminologie-sms"] ; # 
   fhir:meta [
-     fhir:versionId [ fhir:v "26" ] ;
-     fhir:lastUpdated [ fhir:v "2026-02-03T12:46:37.207+01:00"^^xsd:dateTime ] ;
+     fhir:versionId [ fhir:v "26.1770299404022" ] ;
+     fhir:lastUpdated [ fhir:v "2026-02-05T14:50:04.022+01:00"^^xsd:dateTime ] ;
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"^^xsd:anyURI ;
        fhir:l <http://hl7.org/fhir/StructureDefinition/shareablecodesystem?version=4.0.1>
