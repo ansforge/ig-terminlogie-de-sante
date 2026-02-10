@@ -1,0 +1,38 @@
+ValueSet: JDV_J98_StatutHospitalier_RASS
+Id: JDV-J98-StatutHospitalier-RASS
+Description: "Statut des professionnels intervenant dans un hôpital dans le RASS"
+* ^meta.versionId = "4"
+* ^meta.lastUpdated = "2025-07-02T17:06:58.991+00:00"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^language = #fr-FR
+* ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
+* ^extension.valuePeriod.start = "2019-08-30T12:00:00+01:00"
+* ^url = "https://mos.esante.gouv.fr/NOS/JDV_J98-StatutHospitalier-RASS/FHIR/JDV-J98-StatutHospitalier-RASS"
+* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.166"
+* ^version = "20260223120000"
+* ^status = #active
+* ^experimental = false
+* ^date = "2026-02-23T12:00:00+01:00"
+* ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
+* ^jurisdiction = urn:iso:std:iso:3166#FR
+* $TRE-R32-StatutHospitalier#SH01 "Professeur des universités - Praticien hospitalier (PU-PH) (décret n° 84-135)"
+* $TRE-R32-StatutHospitalier#SH02 "Maître de conférences des universités - Praticien hospitalier (décret n° 84-135)"
+* $TRE-R32-StatutHospitalier#SH03 "Chef de clinique des universités - Assistant des hôpitaux (décret n° 84-135)"
+* $TRE-R32-StatutHospitalier#SH04 "Assistant hospitalier universitaire (AHU) (décret n° 84-135)"
+* $TRE-R32-StatutHospitalier#SH05 "Professeur des universités - Praticien hospitalier des CSERD (décret n° 90-92)"
+* $TRE-R32-StatutHospitalier#SH06 "Maître de conf des universités - Praticien hospit des CSERD (décret n° 90-92)"
+* $TRE-R32-StatutHospitalier#SH07 "Assistant hospitalier universitaire (AHU) des CSERD (décret n° 90-92)"
+* $TRE-R32-StatutHospitalier#SH08 "Praticien hospitalier temps plein (R6152-1 et suivants du CSP)"
+* $TRE-R32-StatutHospitalier#SH09 "Praticien hospitalier temps partiel (R6152-201 et suivants du CSP)"
+* $TRE-R32-StatutHospitalier#SH10 "Assistant des hôpitaux et Assistant associé (R6152-501 et suivants du CSP)"
+* $TRE-R32-StatutHospitalier#SH11 "Praticien attaché et Praticien attaché associé (R6152-601 et suivants du CSP)"
+* $TRE-R32-StatutHospitalier#SH12 "Praticien contractuel (R 6152-401 et suivants du CSP)"
+* $TRE-R32-StatutHospitalier#SH13 "Praticien adjoint contractuel (décret n° 95-569)"
+* $TRE-R32-StatutHospitalier#SH14 "Interne (R6153-1 et suivants du CSP)"
+* $TRE-R32-StatutHospitalier#SH15 "Praticien Hospitalier-Universitaire (PHU) (décret n° 84-135)"
+* $TRE-R32-StatutHospitalier#SH16 "Praticien hospitalier associé (R6152-1 et suivants du CSP)"
+* $TRE-R32-StatutHospitalier#SH17 "Praticien hospitalier provisoire (abrogé depuis le 06/10/2006)"
+* $TRE-R32-StatutHospitalier#SH18 "Clinicien hospitalier (R6152-701 et suivants du CSP)"
+* $TRE-R32-StatutHospitalier#SH19 "Praticien hospitalier"
+* $TRE-R32-StatutHospitalier#SH99 "Salarié hospitalier"
