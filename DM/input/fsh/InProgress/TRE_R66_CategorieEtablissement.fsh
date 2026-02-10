@@ -601,7 +601,7 @@ Description: "Catégorie d'établissements"
 * #165 ^property[=].valueDateTime = "2005-07-06T00:00:00+01:00"
 * #165 ^property[+].code = #status
 * #165 ^property[=].valueCode = #active
-* #166 "Etablissement d'Accueil Mère-Enfant"
+* #166 "Centre Parents-Enfants de moins de 3 ans"
 * #166 ^designation[0].language = #fr-FR
 * #166 ^designation[=].use.system = "http://snomed.info/sct"
 * #166 ^designation[=].use = $sct#900000000000013009
@@ -609,7 +609,7 @@ Description: "Catégorie d'établissements"
 * #166 ^property[0].code = #dateValid
 * #166 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #166 ^property[+].code = #dateMaj
-* #166 ^property[=].valueDateTime = "2005-07-06T00:00:00+01:00"
+* #166 ^property[=].valueDateTime = "2026-02-23T00:00:00+01:00"
 * #166 ^property[+].code = #status
 * #166 ^property[=].valueCode = #active
 * #167 "Crèche Collective"
@@ -1936,19 +1936,11 @@ Description: "Catégorie d'établissements"
 * #285 ^property[=].valueDateTime = "2016-01-06T00:00:00+01:00"
 * #285 ^property[+].code = #status
 * #285 ^property[=].valueCode = #deprecated
-* #286 "Club Equipe de Prévention"
-* #286 ^designation[0].language = #fr-FR
-* #286 ^designation[=].use.system = "http://snomed.info/sct"
-* #286 ^designation[=].use = $sct#900000000000013009
-* #286 ^designation[=].value = "Club Equipe de Prév."
-* #286 ^designation[+].language = #fr-FR
-* #286 ^designation[=].use.system = "http://snomed.info/sct"
-* #286 ^designation[=].use = $sct#900000000000013009
-* #286 ^designation[=].value = "Club, Equipe de prévention"
+* #286 "Service de prévention spécialisée"
 * #286 ^property[0].code = #dateValid
 * #286 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #286 ^property[+].code = #dateMaj
-* #286 ^property[=].valueDateTime = "2005-07-06T00:00:00+01:00"
+* #286 ^property[=].valueDateTime = "2026-02-23T00:00:00+01:00"
 * #286 ^property[+].code = #status
 * #286 ^property[=].valueCode = #active
 * #289 "Centre de Soins Infirmiers"
