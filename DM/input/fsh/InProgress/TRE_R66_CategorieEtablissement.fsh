@@ -3082,10 +3082,10 @@ Description: "Catégorie d'établissements"
 * #400 ^designation[=].value = "Ctre.Services Assoc."
 * #400 ^property[0].code = #dateValid
 * #400 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
-* #400 ^property[+].code = #dateMaj
-* #400 ^property[=].valueDateTime = "2026-02-23T00:00:00+01:00"
 * #400 ^property[+].code = #dateFin
 * #400 ^property[=].valueDateTime = "2026-02-23T12:00:00+01:00"
+* #400 ^property[+].code = #dateMaj
+* #400 ^property[=].valueDateTime = "2026-02-23T00:00:00+01:00"
 * #400 ^property[+].code = #deprecationDate
 * #400 ^property[=].valueDateTime = "2026-02-23T12:00:00+01:00"
 * #400 ^property[+].code = #status
@@ -3130,7 +3130,7 @@ Description: "Catégorie d'établissements"
 * #403 ^property[+].code = #deprecationDate
 * #403 ^property[=].valueDateTime = "2026-02-23T12:00:00+01:00"
 * #403 ^property[+].code = #status
-* #403 ^property[=].valueCode = #deprecatede
+* #403 ^property[=].valueCode = #deprecated
 * #404 "Etablissement Acc.Collect.Parental Régulier & Occasionnel"
 * #404 ^designation[0].language = #fr-FR
 * #404 ^designation[=].use.system = "http://snomed.info/sct"
