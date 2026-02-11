@@ -4,6 +4,7 @@ Description: "Statut hospitalier"
 * ^meta.versionId = "5"
 * ^meta.lastUpdated = "2025-07-02T18:17:29.880+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2007-07-25T15:04:44+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R32-StatutHospitalier/FHIR/TRE-R32-StatutHospitalier"

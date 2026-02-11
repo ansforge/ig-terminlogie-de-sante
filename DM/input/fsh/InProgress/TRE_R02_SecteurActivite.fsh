@@ -5,6 +5,7 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * ^meta.lastUpdated = "2025-07-02T18:12:02.978+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
+* ^language = #fr-FR
 * ^extension.valuePeriod.start = "2007-07-25T15:04:44+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite"
 * ^identifier.system = "urn:ietf:rfc:3986"

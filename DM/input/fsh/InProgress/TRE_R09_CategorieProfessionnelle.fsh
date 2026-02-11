@@ -5,6 +5,7 @@ Description: "Catégorie professionnelle"
 * ^meta.lastUpdated = "2025-07-02T18:12:05.935+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
+* ^language = #fr-FR
 * ^extension.valuePeriod.start = "2008-03-20T09:24:55+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R09-CategorieProfessionnelle/FHIR/TRE-R09-CategorieProfessionnelle"
 * ^identifier.system = "urn:ietf:rfc:3986"
