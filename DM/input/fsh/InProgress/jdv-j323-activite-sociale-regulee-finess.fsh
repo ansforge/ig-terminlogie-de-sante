@@ -1,6 +1,6 @@
-ValueSet: JdvJ323ActiviteSocialeRegulee
+ValueSet: JdvJ323ActiviteSocialeReguleeFiness
 Id: jdv-j323-activite-sociale-regulee-finess
-Title: "Jdv J323 Activite Sociale Regulee"
+Title: "Jdv J323 Activite Sociale Regulee Finess"
 Description: "Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 4"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2026-02-23T12:00:00.000+00:00"
