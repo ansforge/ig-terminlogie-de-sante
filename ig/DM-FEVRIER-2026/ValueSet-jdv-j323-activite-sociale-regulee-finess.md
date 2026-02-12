@@ -1,15 +1,15 @@
-# Jdv J323 Activite Sociale Regulee - Terminologies de Santé v1.6.0
+# Jdv J323 Activite Sociale Regulee Finess - Terminologies de Santé v1.6.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
-* **Jdv J323 Activite Sociale Regulee**
+* **Jdv J323 Activite Sociale Regulee Finess**
 
-## ValueSet: Jdv J323 Activite Sociale Regulee 
+## ValueSet: Jdv J323 Activite Sociale Regulee Finess 
 
 | | | |
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j323-activite-sociale-regulee-finess | *Version*:20260223120000 | |
-| Active as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ323ActiviteSocialeRegulee |
+| Active as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ323ActiviteSocialeReguleeFiness |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.331 | | |
 
  
@@ -78,8 +78,8 @@ Requête sur le SMT
     }
   ],
   "version" : "20260223120000",
-  "name" : "JdvJ323ActiviteSocialeRegulee",
-  "title" : "Jdv J323 Activite Sociale Regulee",
+  "name" : "JdvJ323ActiviteSocialeReguleeFiness",
+  "title" : "Jdv J323 Activite Sociale Regulee Finess",
   "status" : "active",
   "experimental" : false,
   "date" : "2026-02-23T12:00:00.000+00:00",

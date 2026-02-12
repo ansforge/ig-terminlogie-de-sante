@@ -41,6 +41,7 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
   },
+  "language" : "fr-FR",
   "extension" : [
     {
       "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",

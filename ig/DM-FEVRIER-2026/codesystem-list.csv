@@ -247,7 +247,7 @@ https://mos.esante.gouv.fr/NOS/TRE_R54-DiplomeUniversiteInterUniversitaire/FHIR/
 https://mos.esante.gouv.fr/NOS/TRE_R55-CertificatEtudeSpeciale/FHIR/TRE-R55-CertificatEtudeSpeciale,20231215120000,active,"1.2.250.1.213.1.6.1.52",TRE_R55_CertificatEtudeSpeciale,,"Certificat d'Etude Spéciale",
 https://mos.esante.gouv.fr/NOS/TRE_R56-Attestation/FHIR/TRE-R56-Attestation,20240329120000,active,"1.2.250.1.213.1.6.1.27",TRE_R56_Attestation,,"Attestation",
 https://mos.esante.gouv.fr/NOS/TRE_R57-DiplomeEuropeenEtudeSpecialisee/FHIR/TRE-R57-DiplomeEuropeenEtudeSpecialisee,20231215120000,active,"1.2.250.1.213.1.6.1.33",TRE_R57_DiplomeEuropeenEtudeSpecialisee,,"Diplôme Européen d'Etudes Spécialisées",
-https://mos.esante.gouv.fr/NOS/TRE_R58-AutreTypeDiplome/FHIR/TRE-R58-AutreTypeDiplome,20251222120000,active,"1.2.250.1.213.1.6.1.53",TRE_R58_AutreTypeDiplome,,"Autre type de diplôme",
+https://mos.esante.gouv.fr/NOS/TRE_R58-AutreTypeDiplome/FHIR/TRE-R58-AutreTypeDiplome,20260223120000,active,"1.2.250.1.213.1.6.1.53",TRE_R58_AutreTypeDiplome,,"Autre type de diplôme",
 https://mos.esante.gouv.fr/NOS/TRE_R60-AutoriteEnregistrement/FHIR/TRE-R60-AutoriteEnregistrement,20240628120000,active,"1.2.250.1.213.1.6.1.57",TRE_R60_AutoriteEnregistrement,,"Autorité d'enregistrement",
 https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine,20231215120000,active,"1.2.250.1.213.1.6.1.59",TRE_R62_Domaine,,"Domaine",
 https://mos.esante.gouv.fr/NOS/TRE_R63-AgregatCategorieEtablissementNiv1/FHIR/TRE-R63-AgregatCategorieEtablissementNiv1,20231215120000,active,"1.2.250.1.213.1.6.1.5",TRE_R63_AgregatCategorieEtablissementNiv1,,"Agrégats de catégories d'établissements niveau 1",

@@ -101,7 +101,7 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R55_CertificatEtudeSpeciale](CodeSystem-TRE-R55-CertificatEtudeSpeciale.md) | Certificat d'Etude Spéciale | 15/12/2023 |
 | [TRE_R56_Attestation](CodeSystem-TRE-R56-Attestation.md) | Attestation | 29/03/2024 |
 | [TRE_R57_DiplomeEuropeenEtudeSpecialisee](CodeSystem-TRE-R57-DiplomeEuropeenEtudeSpecialisee.md) | Diplôme Européen d'Etudes Spécialisées | 15/12/2023 |
-| [TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md) | Autre type de diplôme | 22/12/2025 |
+| [TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md) | Autre type de diplôme | 23/02/2026 |
 | [TRE_R60_AutoriteEnregistrement](CodeSystem-TRE-R60-AutoriteEnregistrement.md) | Autorité d'enregistrement | 28/06/2024 |
 | [TRE_R62_Domaine](CodeSystem-TRE-R62-Domaine.md) | Domaine | 15/12/2023 |
 | [TRE_R63_AgregatCategorieEtablissementNiv1](CodeSystem-TRE-R63-AgregatCategorieEtablissementNiv1.md) | Agrégats de catégories d'établissements niveau 1 | 15/12/2023 |

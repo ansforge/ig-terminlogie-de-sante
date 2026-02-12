@@ -128,19 +128,19 @@
     "status" : "active"
   },
   {
-    "id" : "TRE-R210-ActeSpecifique",
-    "name" : "TRE_R210_ActeSpecifique",
-    "title" : null,
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique",
-    "identifier" : "urn:oid:1.2.250.1.213.3.3.11",
-    "status" : "active"
-  },
-  {
     "id" : "TRE-R32-StatutHospitalier",
     "name" : "TRE_R32_StatutHospitalier",
     "title" : null,
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R32-StatutHospitalier/FHIR/TRE-R32-StatutHospitalier",
     "identifier" : "urn:oid:1.2.250.1.213.1.6.1.21",
+    "status" : "active"
+  },
+  {
+    "id" : "TRE-R58-AutreTypeDiplome",
+    "name" : "TRE_R58_AutreTypeDiplome",
+    "title" : null,
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R58-AutreTypeDiplome/FHIR/TRE-R58-AutreTypeDiplome",
+    "identifier" : "urn:oid:1.2.250.1.213.1.6.1.53",
     "status" : "active"
   },
   {
@@ -1069,6 +1069,14 @@
     "title" : null,
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R20-Pays/FHIR/TRE-R20-Pays",
     "identifier" : "urn:oid:1.2.250.1.213.2.24",
+    "status" : "active"
+  },
+  {
+    "id" : "TRE-R210-ActeSpecifique",
+    "name" : "TRE_R210_ActeSpecifique",
+    "title" : null,
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique",
+    "identifier" : "urn:oid:1.2.250.1.213.3.3.11",
     "status" : "active"
   },
   {
@@ -2365,14 +2373,6 @@
     "title" : null,
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R57-DiplomeEuropeenEtudeSpecialisee/FHIR/TRE-R57-DiplomeEuropeenEtudeSpecialisee",
     "identifier" : "urn:oid:1.2.250.1.213.1.6.1.33",
-    "status" : "active"
-  },
-  {
-    "id" : "TRE-R58-AutreTypeDiplome",
-    "name" : "TRE_R58_AutreTypeDiplome",
-    "title" : null,
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R58-AutreTypeDiplome/FHIR/TRE-R58-AutreTypeDiplome",
-    "identifier" : "urn:oid:1.2.250.1.213.1.6.1.53",
     "status" : "active"
   },
   {

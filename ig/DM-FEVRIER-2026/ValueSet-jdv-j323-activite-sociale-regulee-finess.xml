@@ -22,8 +22,8 @@
     <value value="urn:oid:1.2.250.1.213.1.6.1.331"/>
   </identifier>
   <version value="20260223120000"/>
-  <name value="JdvJ323ActiviteSocialeRegulee"/>
-  <title value="Jdv J323 Activite Sociale Regulee"/>
+  <name value="JdvJ323ActiviteSocialeReguleeFiness"/>
+  <title value="Jdv J323 Activite Sociale Regulee Finess"/>
   <status value="active"/>
   <experimental value="false"/>
   <date value="2026-02-23T12:00:00.000+00:00"/>

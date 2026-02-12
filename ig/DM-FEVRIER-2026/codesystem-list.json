@@ -2234,7 +2234,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R58-AutreTypeDiplome/FHIR/TRE-R58-AutreTypeDiplome",
-      "version" : "20251222120000",
+      "version" : "20260223120000",
       "status" : "active",
       "name" : "TRE_R58_AutreTypeDiplome",
       "title" : null,

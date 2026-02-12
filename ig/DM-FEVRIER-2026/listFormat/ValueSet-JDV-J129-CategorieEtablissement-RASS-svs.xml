@@ -923,6 +923,9 @@
          <Concept code="649"
                   codeSystem="1.2.250.1.213.1.6.1.8"
                   displayName="Centre de santé et de médiation en santé sexuelle"/>
+         <Concept code="650"
+                  codeSystem="1.2.250.1.213.1.6.1.8"
+                  displayName="Dispositifs Spécifiques Régionaux en périnatalité"/>
          <Concept code="695"
                   codeSystem="1.2.250.1.213.1.6.1.8"
                   displayName="Groupement de coopération sanitaire de moyens - Exploitant"/>

@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "Terminologies"] ; # 
   fhir:title [ fhir:v "Terminologies  de Santé"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2026-02-10T15:59:15+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-12T14:06:59+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -59176,7 +59176,7 @@
          fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j323-activite-sociale-regulee-finess> ;
          fhir:reference [ fhir:v "ValueSet/jdv-j323-activite-sociale-regulee-finess" ]
        ] ;
-       fhir:name [ fhir:v "Jdv J323 Activite Sociale Regulee" ] ;
+       fhir:name [ fhir:v "Jdv J323 Activite Sociale Regulee Finess" ] ;
        fhir:description [ fhir:v "Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 4" ] ;
        fhir:example [
          a fhir:Boolean ;

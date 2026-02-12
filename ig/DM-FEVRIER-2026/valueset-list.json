@@ -220,7 +220,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J105-EnsembleDiplome-RASS/FHIR/JDV-J105-EnsembleDiplome-RASS",
-      "version" : "20251222120000",
+      "version" : "20260223120000",
       "status" : "active",
       "name" : "JDV_J105_EnsembleDiplome_RASS",
       "title" : null,
@@ -418,7 +418,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J118-CategorieProfessionnelle-ENREG/FHIR/JDV-J118-CategorieProfessionnelle-ENREG",
-      "version" : "20240329120000",
+      "version" : "20260223120000",
       "status" : "active",
       "name" : "JDV_J118_CategorieProfessionnelle_ENREG",
       "title" : null,
@@ -1316,7 +1316,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J183-Diplome-EPARS/FHIR/JDV-J183-Diplome-EPARS",
-      "version" : "20251222120000",
+      "version" : "20260223120000",
       "status" : "active",
       "name" : "JDV_J183_Diplome_EPARS",
       "title" : null,
@@ -6075,8 +6075,8 @@
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j323-activite-sociale-regulee-finess",
       "version" : "20260223120000",
       "status" : "active",
-      "name" : "JdvJ323ActiviteSocialeRegulee",
-      "title" : "Jdv J323 Activite Sociale Regulee",
+      "name" : "JdvJ323ActiviteSocialeReguleeFiness",
+      "title" : "Jdv J323 Activite Sociale Regulee Finess",
       "description" : "Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 4",
       "systems" : [
         "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"

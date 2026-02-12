@@ -1320,6 +1320,10 @@ Requête sur le SMT
             "display" : "Centre de santé et de médiation en santé sexuelle"
           },
           {
+            "code" : "650",
+            "display" : "Dispositifs Spécifiques Régionaux en périnatalité"
+          },
+          {
             "code" : "695",
             "display" : "Groupement de coopération sanitaire de moyens - Exploitant"
           },

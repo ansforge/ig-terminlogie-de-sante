@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J183-Diplome-EPARS/FHIR/JDV-J183-Diplome-EPARS | *Version*:20251222120000 | |
-| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J183_Diplome_EPARS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J183-Diplome-EPARS/FHIR/JDV-J183-Diplome-EPARS | *Version*:20260223120000 | |
+| Active as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J183_Diplome_EPARS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.240 | | |
 
  
@@ -77,11 +77,11 @@ Requête sur le SMT
       "value" : "urn:oid:1.2.250.1.213.1.6.1.240"
     }
   ],
-  "version" : "20251222120000",
+  "version" : "20260223120000",
   "name" : "JDV_J183_Diplome_EPARS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-22T12:00:00+01:00",
+  "date" : "2026-02-23T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Diplômes pour l'application EPARS",
   "jurisdiction" : [
@@ -246,11 +246,11 @@ Requête sur le SMT
           },
           {
             "code" : "DIP356",
-            "display" : "Licence + Maîtrise + DESS en psychologie"
+            "display" : "Licence psychologie + Maîtrise psychologie + DESS en psychologie"
           },
           {
             "code" : "DIP357",
-            "display" : "Licence + Maîtrise + diplôme annexe Décret 90-255"
+            "display" : "Licence psychologie + Maîtrise psychologie + diplôme annexe Décret 90-255"
           },
           {
             "code" : "DIP358",

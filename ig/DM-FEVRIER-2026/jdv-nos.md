@@ -25,7 +25,7 @@ Vous touverez ici la liste des JDV du NOS.
 | [JdvJ319ActiviteEnseignementReguleeNiv1Finess](ValueSet-jdv-j319-activite-enseignement-regulee-niv1-finess.md) | Jeu de valeurs FINESS contenant les activités d'enseignement régulées de niveau 1 | 23/02/2026 |
 | [JdvJ320ActiviteEnseignementReguleeNiv2Finess](ValueSet-jdv-j320-activite-enseignement-regulee-niv2-finess.md) | Jeu de valeurs FINESS contenant les activités d'enseignement régulées de niveau 2 | 23/02/2026 |
 | [JdvJ321ActiviteEnseignementReguleeNiv3Finess](ValueSet-jdv-j321-activite-enseignement-regulee-niv3-finess.md) | Jeu de valeurs FINESS contenant les activités d'enseignement régulées de niveau 3 | 23/02/2026 |
-| [JdvJ323ActiviteSocialeRegulee](ValueSet-jdv-j323-activite-sociale-regulee-finess.md) | Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 4 | 23/02/2026 |
+| [JdvJ323ActiviteSocialeReguleeFiness](ValueSet-jdv-j323-activite-sociale-regulee-finess.md) | Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 4 | 23/02/2026 |
 | [JdvJ324ActiviteSocialeReguleeNiv1Finess](ValueSet-jdv-j324-activite-sociale-regulee-niv1-finess.md) | Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 1 | 23/02/2026 |
 | [JdvJ325ActiviteSocialeReguleeNiv2Finess](ValueSet-jdv-j325-activite-sociale-regulee-niv2-finess.md) | Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 2 | 23/02/2026 |
 | [JdvJ326ActiviteSocialeReguleeNiv3Finess](ValueSet-jdv-j326-activite-sociale-regulee-niv3-finess.md) | Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 3 | 23/02/2026 |
@@ -130,7 +130,7 @@ Vous touverez ici la liste des JDV du NOS.
 | [JDV_J101_SecteurActivite_RASS](ValueSet-JDV-J101-SecteurActivite-RASS.md) | Secteurs d'activité des établissements avec la même activité dans le RASS | 23/02/2026 |
 | [JDV_J103_TypeVoie_RASS](ValueSet-JDV-J103-TypeVoie-RASS.md) | Type de voie du professionnel du RASS | 24/04/2020 |
 | [JDV_J104_TypeIdentifiantStructure_RASS](ValueSet-JDV-J104-TypeIdentifiantStructure-RASS.md) | Type d'identifiant national de structure dans le RASS | 24/04/2020 |
-| [JDV_J105_EnsembleDiplome_RASS](ValueSet-JDV-J105-EnsembleDiplome-RASS.md) | Ensemble des diplômes et qualifications du RASS | 22/12/2025 |
+| [JDV_J105_EnsembleDiplome_RASS](ValueSet-JDV-J105-EnsembleDiplome-RASS.md) | Ensemble des diplômes et qualifications du RASS | 23/02/2026 |
 | [JDV_J106_EnsembleProfession_RASS](ValueSet-JDV-J106-EnsembleProfession-RASS.md) | Ensemble des professions du RASS | 28/03/2025 |
 | [JDV_J107_EnsembleSavoirFaire_RASS](ValueSet-JDV-J107-EnsembleSavoirFaire-RASS.md) | Ensemble des savoir-faire et compétences du RASS | 22/12/2025 |
 | [JDV_J108_EnsembleFonction_RASS](ValueSet-JDV-J108-EnsembleFonction-RASS.md) | Ensemble des fonctions et rôles du RASS | 02/02/2026 |
@@ -141,7 +141,7 @@ Vous touverez ici la liste des JDV du NOS.
 | [JDV_J115_Langue_ENREG](ValueSet-JDV-J115-Langue-ENREG.md) | Langue pour ENREG | 27/09/2024 |
 | [JDV_J116_GenreActivite_ENREG](ValueSet-JDV-J116-GenreActivite-ENREG.md) | Genre d'activité pour ENREG | 24/11/2023 |
 | [JDV_J117_ModeExercice_ENREG](ValueSet-JDV-J117-ModeExercice-ENREG.md) | Mode d'exercice pour ENREG | 02/02/2026 |
-| [JDV_J118_CategorieProfessionnelle_ENREG](ValueSet-JDV-J118-CategorieProfessionnelle-ENREG.md) | Catégorie professionnelle pour ENREG | 29/03/2024 |
+| [JDV_J118_CategorieProfessionnelle_ENREG](ValueSet-JDV-J118-CategorieProfessionnelle-ENREG.md) | Catégorie professionnelle pour ENREG | 23/02/2026 |
 | [JDV_J119_TypeActiviteLiberale_ENREG](ValueSet-JDV-J119-TypeActiviteLiberale-ENREG.md) | Type d'activité libérale pour ENREG | 29/05/2020 |
 | [JDV_J120_CommuneHistorisee](ValueSet-JDV-J120-CommuneHistorisee.md) | Toute la nomenclature des codes communes auquel on ajoute le code applicatif "Non renseigné" | 28/06/2024 |
 | [JDV_J121_RolePriseCharge_ENREG](ValueSet-JDV-J121-RolePriseCharge-ENREG.md) | Code des rôles et fonctions pour l'application ENREG | 02/02/2026 |
@@ -198,7 +198,7 @@ Vous touverez ici la liste des JDV du NOS.
 | [JDV_J180_BesoinEntretienPersonnel_MDPH](ValueSet-JDV-J180-BesoinEntretienPersonnel-MDPH.md) | Caractérise les besoins d'aide de la personne en matière de scolarité, en lien avec l'entretien personnel | 24/09/2021 |
 | [JDV_J181_BesoinMobilite_MDPH](ValueSet-JDV-J181-BesoinMobilite-MDPH.md) | Caractérise les besoins d'aide de la personne en matière de scolarité, en lien avec la mobilité | 24/09/2021 |
 | [JDV_J182_BesoinScolarite_MDPH](ValueSet-JDV-J182-BesoinScolarite-MDPH.md) | Caractérise les besoins d'aide de la personne en matière de scolarité, en lien avec les apprentissages | 24/09/2021 |
-| [JDV_J183_Diplome_EPARS](ValueSet-JDV-J183-Diplome-EPARS.md) | Diplômes pour l'application EPARS | 22/12/2025 |
+| [JDV_J183_Diplome_EPARS](ValueSet-JDV-J183-Diplome-EPARS.md) | Diplômes pour l'application EPARS | 23/02/2026 |
 | [JDV_J185_TypeFermeture_ROR](ValueSet-JDV-J185-TypeFermeture-ROR.md) | Les seules valeurs acceptées par le ROR pour les Organisations internes et les offres | 23/09/2025 |
 | [JDV_J186_ProfessionRessource_ROR](ValueSet-JDV-J186-ProfessionRessource-ROR.md) | Profession Ressource des offres dans le ROR | 10/07/2025 |
 | [JDV_J187_NatureCapacite_ROR](ValueSet-JDV-J187-NatureCapacite-ROR.md) | Permet d'indiquer dans le ROR si la capacité est exprimée en lits ou en places | 27/05/2022 |

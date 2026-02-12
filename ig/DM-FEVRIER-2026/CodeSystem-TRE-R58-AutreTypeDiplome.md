@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R58-AutreTypeDiplome/FHIR/TRE-R58-AutreTypeDiplome | *Version*:20251222120000 | |
-| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R58_AutreTypeDiplome |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R58-AutreTypeDiplome/FHIR/TRE-R58-AutreTypeDiplome | *Version*:20260223120000 | |
+| Active as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R58_AutreTypeDiplome |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.53 | | |
 
  
@@ -50,11 +50,11 @@ Autre type de diplôme
       "value" : "urn:oid:1.2.250.1.213.1.6.1.53"
     }
   ],
-  "version" : "20251222120000",
+  "version" : "20260223120000",
   "name" : "TRE_R58_AutreTypeDiplome",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-22T12:00:00+01:00",
+  "date" : "2026-02-23T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Autre type de diplôme",
   "jurisdiction" : [
@@ -2418,7 +2418,7 @@ Autre type de diplôme
     },
     {
       "code" : "DIP356",
-      "display" : "Licence + Maîtrise + DESS en psychologie",
+      "display" : "Licence psychologie + Maîtrise psychologie + DESS en psychologie",
       "definition" : "Article 44 de la Loi n° 85-772 du 25 juillet 1985 et article 1er du décret n°90-255 du 22 mars 1990",
       "designation" : [
         {
@@ -2437,7 +2437,7 @@ Autre type de diplôme
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2023-03-31T12:00:00+01:00"
+          "valueDateTime" : "2026-02-23T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -2447,8 +2447,8 @@ Autre type de diplôme
     },
     {
       "code" : "DIP357",
-      "display" : "Licence + Maîtrise + diplôme annexe Décret 90-255",
-      "definition" : "Article 44 de la loi n° 85-772 du 25 juillet 1985 et article 1er du décret n°90-255 du 22 mars 1990",
+      "display" : "Licence psychologie + Maîtrise psychologie + diplôme annexe Décret 90-255",
+      "definition" : "Article 44 de la Loi n° 85-772 du 25 juillet 1985 et article 1er du décret n°90-255 du 22 mars 1990",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2474,7 +2474,7 @@ Autre type de diplôme
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2023-03-31T12:00:00+01:00"
+          "valueDateTime" : "2026-02-23T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -2485,7 +2485,7 @@ Autre type de diplôme
     {
       "code" : "DIP358",
       "display" : "Licence psychologie + Maîtrise psychologie + DEA psychologie + Attestation Stage",
-      "definition" : "Article 44 de la loi n° 85-772 du 25 juillet 1985 et article 1er du décret n°90-255 du 22 mars 1990",
+      "definition" : "Article 44 de la Loi n° 85-772 du 25 juillet 1985 et article 1er du décret n°90-255 du 22 mars 1990",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -2503,7 +2503,7 @@ Autre type de diplôme
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2023-03-31T12:00:00+01:00"
+          "valueDateTime" : "2026-02-26T12:00:00+01:00"
         },
         {
           "code" : "status",

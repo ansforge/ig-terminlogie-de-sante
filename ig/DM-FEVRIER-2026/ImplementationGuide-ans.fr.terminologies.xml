@@ -11,7 +11,7 @@
   <name value="Terminologies"/>
   <title value="Terminologies  de Santé"/>
   <status value="active"/>
-  <date value="2026-02-10T15:59:15+00:00"/>
+  <date value="2026-02-12T14:06:59+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -20768,7 +20768,7 @@
       <reference>
         <reference value="ValueSet/jdv-j323-activite-sociale-regulee-finess"/>
       </reference>
-      <name value="Jdv J323 Activite Sociale Regulee"/>
+      <name value="Jdv J323 Activite Sociale Regulee Finess"/>
       <description value="Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 4"/>
       <exampleBoolean value="false"/>
     </resource>

@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J105-EnsembleDiplome-RASS/FHIR/JDV-J105-EnsembleDiplome-RASS | *Version*:20251222120000 | |
-| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J105_EnsembleDiplome_RASS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J105-EnsembleDiplome-RASS/FHIR/JDV-J105-EnsembleDiplome-RASS | *Version*:20260223120000 | |
+| Active as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J105_EnsembleDiplome_RASS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.173 | | |
 
  
@@ -77,11 +77,11 @@ Requête sur le SMT
       "value" : "urn:oid:1.2.250.1.213.1.6.1.173"
     }
   ],
-  "version" : "20251222120000",
+  "version" : "20260223120000",
   "name" : "JDV_J105_EnsembleDiplome_RASS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-22T12:00:00+01:00",
+  "date" : "2026-02-23T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Ensemble des diplômes et qualifications du RASS",
   "jurisdiction" : [
@@ -1154,11 +1154,11 @@ Requête sur le SMT
           },
           {
             "code" : "DIP356",
-            "display" : "Licence + Maîtrise + DESS en psychologie"
+            "display" : "Licence psychologie + Maîtrise psychologie + DESS en psychologie"
           },
           {
             "code" : "DIP357",
-            "display" : "Licence + Maîtrise + un des diplômes cités en annexe du décret 90-255"
+            "display" : "Licence psychologie + Maîtrise psychologie + diplôme annexe Décret 90-255"
           },
           {
             "code" : "DIP358",

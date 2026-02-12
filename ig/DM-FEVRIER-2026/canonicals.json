@@ -594,7 +594,7 @@
     "id" : "JDV-J105-EnsembleDiplome-RASS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J105-EnsembleDiplome-RASS/FHIR/JDV-J105-EnsembleDiplome-RASS",
-    "version" : "20251222120000",
+    "version" : "20260223120000",
     "name" : "JDV_J105_EnsembleDiplome_RASS",
     "oids" : ["1.2.250.1.213.1.6.1.173"]
   },
@@ -698,7 +698,7 @@
     "id" : "JDV-J118-CategorieProfessionnelle-ENREG",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J118-CategorieProfessionnelle-ENREG/FHIR/JDV-J118-CategorieProfessionnelle-ENREG",
-    "version" : "20240329120000",
+    "version" : "20260223120000",
     "name" : "JDV_J118_CategorieProfessionnelle_ENREG",
     "oids" : ["1.2.250.1.213.1.6.1.189"]
   },
@@ -1250,7 +1250,7 @@
     "id" : "JDV-J183-Diplome-EPARS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J183-Diplome-EPARS/FHIR/JDV-J183-Diplome-EPARS",
-    "version" : "20251222120000",
+    "version" : "20260223120000",
     "name" : "JDV_J183_Diplome_EPARS",
     "oids" : ["1.2.250.1.213.1.6.1.240"]
   },
@@ -4345,7 +4345,7 @@
     "id" : "TRE-R58-AutreTypeDiplome",
     "type" : "CodeSystem",
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R58-AutreTypeDiplome/FHIR/TRE-R58-AutreTypeDiplome",
-    "version" : "20251222120000",
+    "version" : "20260223120000",
     "name" : "TRE_R58_AutreTypeDiplome",
     "oids" : ["1.2.250.1.213.1.6.1.53"]
   },
@@ -6535,7 +6535,7 @@
     "type" : "ValueSet",
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j323-activite-sociale-regulee-finess",
     "version" : "20260223120000",
-    "name" : "JdvJ323ActiviteSocialeRegulee",
+    "name" : "JdvJ323ActiviteSocialeReguleeFiness",
     "oids" : ["1.2.250.1.213.1.6.1.331"]
   },
   {

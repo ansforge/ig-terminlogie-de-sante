@@ -733,7 +733,7 @@ These define sets of codes used by systems conforming to this implementation gui
 | [Jdv J319 Activite Enseignement Regulee Niv1 Finess](ValueSet-jdv-j319-activite-enseignement-regulee-niv1-finess.md) | Jeu de valeurs FINESS contenant les activités d’enseignement régulées de niveau 1 |
 | [Jdv J320 Activite Enseignement Regulee Niv2 Finess](ValueSet-jdv-j320-activite-enseignement-regulee-niv2-finess.md) | Jeu de valeurs FINESS contenant les activités d’enseignement régulées de niveau 2 |
 | [Jdv J321 Activite Enseignement Regulee Niv3 Finess](ValueSet-jdv-j321-activite-enseignement-regulee-niv3-finess.md) | Jeu de valeurs FINESS contenant les activités d’enseignement régulées de niveau 3 |
-| [Jdv J323 Activite Sociale Regulee](ValueSet-jdv-j323-activite-sociale-regulee-finess.md) | Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 4 |
+| [Jdv J323 Activite Sociale Regulee Finess](ValueSet-jdv-j323-activite-sociale-regulee-finess.md) | Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 4 |
 | [Jdv J324 Activite Sociale Regulee Niv1 Finess](ValueSet-jdv-j324-activite-sociale-regulee-niv1-finess.md) | Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 1 |
 | [Jdv J325 Activite Sociale Regulee Niv2 Finess](ValueSet-jdv-j325-activite-sociale-regulee-niv2-finess.md) | Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 2 |
 | [Jdv J326 Activite Sociale Regulee Niv3 Finess](ValueSet-jdv-j326-activite-sociale-regulee-niv3-finess.md) | Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 3 |
