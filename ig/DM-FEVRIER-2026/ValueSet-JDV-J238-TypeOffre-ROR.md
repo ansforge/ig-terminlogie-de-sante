@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J238-TypeOffre-ROR/FHIR/JDV-J238-TypeOffre-ROR | *Version*:20251222120000 | |
-| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J238_TypeOffre_ROR |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J238-TypeOffre-ROR/FHIR/JDV-J238-TypeOffre-ROR | *Version*:20260223120000 | |
+| Active as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J238_TypeOffre_ROR |
 | *Other Identifiers:*OID:1.2.250.1.213.3.4.65 | | |
 
  
@@ -77,11 +77,11 @@ Requête sur le SMT
       "value" : "urn:oid:1.2.250.1.213.3.4.65"
     }
   ],
-  "version" : "20251222120000",
+  "version" : "20260223120000",
   "name" : "JDV_J238_TypeOffre_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-22T12:00:00+01:00",
+  "date" : "2026-02-23T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Prestations que peut réaliser une structure et qui permettent de répondre au besoin de santé d'une personne",
   "jurisdiction" : [
@@ -1250,6 +1250,38 @@ Requête sur le SMT
           {
             "code" : "295",
             "display" : "Permanence d'Accès aux Soins de Santé (PASS)"
+          },
+          {
+            "code" : "296",
+            "display" : "Groupe d’Entraide Mutuelle (GEM)"
+          },
+          {
+            "code" : "297",
+            "display" : "Centre ressource IntimAgir"
+          },
+          {
+            "code" : "298",
+            "display" : "Dispositif sanitaire dédié à la prise en charge des femmes victimes de violences (Maison des Femmes Santé)"
+          },
+          {
+            "code" : "299",
+            "display" : "Equipe de Diagnostic de Proximité – Autisme (PDAP, EDAP)"
+          },
+          {
+            "code" : "300",
+            "display" : "Equipe Mobile de Psychiatrie Périnatale"
+          },
+          {
+            "code" : "301",
+            "display" : "Equipe Mobile de Psychiatrie de l’Enfant et de l’Adolescent (EMPEA)"
+          },
+          {
+            "code" : "302",
+            "display" : "Unité d'urgences psychiatriques"
+          },
+          {
+            "code" : "303",
+            "display" : "Centre d’Accueil et de Crise (CAC)"
           }
         ]
       }

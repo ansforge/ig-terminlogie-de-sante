@@ -128,6 +128,14 @@
     "status" : "active"
   },
   {
+    "id" : "TRE-R244-CategorieOrganisation",
+    "name" : "TRE_R244_CategorieOrganisation",
+    "title" : null,
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R244-CategorieOrganisation/FHIR/TRE-R244-CategorieOrganisation",
+    "identifier" : "urn:oid:1.2.250.1.213.3.3.39",
+    "status" : "active"
+  },
+  {
     "id" : "TRE-R32-StatutHospitalier",
     "name" : "TRE_R32_StatutHospitalier",
     "title" : null,
@@ -1341,14 +1349,6 @@
     "title" : null,
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R243-CompetenceSpecifique/FHIR/TRE-R243-CompetenceSpecifique",
     "identifier" : "urn:oid:1.2.250.1.213.3.3.37",
-    "status" : "active"
-  },
-  {
-    "id" : "TRE-R244-CategorieOrganisation",
-    "name" : "TRE_R244_CategorieOrganisation",
-    "title" : null,
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R244-CategorieOrganisation/FHIR/TRE-R244-CategorieOrganisation",
-    "identifier" : "urn:oid:1.2.250.1.213.3.3.39",
     "status" : "active"
   },
   {

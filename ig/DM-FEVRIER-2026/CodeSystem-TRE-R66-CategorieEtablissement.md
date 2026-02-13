@@ -81,7 +81,7 @@ Catégorie d’établissements
   ],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 320,
+  "count" : 321,
   "property" : [
     {
       "code" : "dateValid",

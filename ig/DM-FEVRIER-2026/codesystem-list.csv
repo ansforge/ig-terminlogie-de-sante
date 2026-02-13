@@ -118,7 +118,7 @@ https://mos.esante.gouv.fr/NOS/TRE_R240-TemporaliteAccueil/FHIR/TRE-R240-Tempora
 https://mos.esante.gouv.fr/NOS/TRE_R241-AideFinanciere/FHIR/TRE-R241-AideFinanciere,20231215120000,active,"1.2.250.1.213.3.3.33",TRE_R241_AideFinanciere,,"Habilit. de l'EG permettant aux pers. accueillies d'avoir des aides financières",
 https://mos.esante.gouv.fr/NOS/TRE_R242-TypeHabitation/FHIR/TRE-R242-TypeHabitation,20231215120000,active,"1.2.250.1.213.3.3.35",TRE_R242_TypeHabitation,,"Type habitation",
 https://mos.esante.gouv.fr/NOS/TRE_R243-CompetenceSpecifique/FHIR/TRE-R243-CompetenceSpecifique,20240426120000,active,"1.2.250.1.213.3.3.37",TRE_R243_CompetenceSpecifique,,"Compétence spécifique",
-https://mos.esante.gouv.fr/NOS/TRE_R244-CategorieOrganisation/FHIR/TRE-R244-CategorieOrganisation,20251222120000,active,"1.2.250.1.213.3.3.39",TRE_R244_CategorieOrganisation,,"Catégorie d'organisation",
+https://mos.esante.gouv.fr/NOS/TRE_R244-CategorieOrganisation/FHIR/TRE-R244-CategorieOrganisation,20260223120000,active,"1.2.250.1.213.3.3.39",TRE_R244_CategorieOrganisation,,"Catégorie d'organisation",
 https://mos.esante.gouv.fr/NOS/TRE_R245-SpecialisationDePriseEnCharge/FHIR/TRE-R245-SpecialisationDePriseEnCharge,20250425120000,active,"1.2.250.1.213.3.3.41",TRE_R245_SpecialisationDePriseEnCharge,,"Spécialisation de prise en charge",
 https://mos.esante.gouv.fr/NOS/TRE_R246-TypeTarif/FHIR/TRE-R246-TypeTarif,20231215120000,active,"1.2.250.1.213.3.3.43",TRE_R246_TypeTarif,,"Type tarif",
 https://mos.esante.gouv.fr/NOS/TRE_R248-ModeAcces/FHIR/TRE-R248-ModeAcces,20250131120000,active,"1.2.250.1.213.1.1.4.336",TRE_R248_ModeAcces,,"Mode d'accès pour accéder à un SI santé avec données patients",
