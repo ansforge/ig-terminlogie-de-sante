@@ -3262,14 +3262,14 @@ Description: "Catégorie d'organisation"
 * #302 "Unité d'urgences psychiatriques"
 * #302 ^designation[0].language = #fr-FR
 * #302 ^designation[=].use = $sct#900000000000013009
-* #302 ^designation[=].value = "Urgences psychiatriques" "Le centre d'accueil et de crise (CAC) est un dispositif d'accueil en continu répondant au besoin non programmé d'évaluation et d'orientation du patient relevant d'une situation clinique de crise. Le centre peut disposer de lits d'hospitalisation de très courte durée permettant d'initier la prise en charge thérapeutique du patient dans une perspective de relai vers un autre mode de prise en charge."
+* #302 ^designation[=].value = "Urgences psychiatriques" 
 * #302 ^property[0].code = #dateValid
 * #302 ^property[=].valueDateTime = "2026-02-23T12:00:00+01:00"
 * #302 ^property[+].code = #dateMaj
 * #302 ^property[=].valueDateTime = "2026-02-23T12:00:00+01:00"
 * #302 ^property[+].code = #status
 * #302 ^property[=].valueCode = #active
-* #303 "Centre d’Accueil et de Crise (CAC)"
+* #303 "Centre d’Accueil et de Crise (CAC)" "Le centre d'accueil et de crise (CAC) est un dispositif d'accueil en continu répondant au besoin non programmé d'évaluation et d'orientation du patient relevant d'une situation clinique de crise. Le centre peut disposer de lits d'hospitalisation de très courte durée permettant d'initier la prise en charge thérapeutique du patient dans une perspective de relai vers un autre mode de prise en charge."
 * #303 ^designation[0].language = #fr-FR
 * #303 ^designation[=].use = $sct#900000000000013009
 * #303 ^designation[=].value = "CAC"
