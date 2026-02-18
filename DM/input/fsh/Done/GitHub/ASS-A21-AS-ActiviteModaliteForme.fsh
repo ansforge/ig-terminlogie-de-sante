@@ -3,16 +3,17 @@ InstanceOf: ConceptMap
 Usage: #definition
 * extension[0].url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * extension[=].valuePeriod.start = "2020-07-31T12:00:00+01:00"
+* extension[=].valuePeriod.end = "2026-02-23T12:00:00+01:00"
 * extension[+].url = "http://hl7.org/fhir/StructureDefinition/concept-bidirectional"
 * extension[=].valueBoolean = true
 * url = "https://mos.esante.gouv.fr/NOS/ASS_A21-AS-ActiviteModaliteForme/FHIR/ASS-A21-AS-ActiviteModaliteForme"
 * identifier.value = "urn:oid:1.2.250.1.213.1.6.1.205"
-* version = "20240329120000"
+* version = "20260223120000"
 * name = "ASS_A21_AS_ActiviteModaliteForme"
 * title = "ASS_A21_AS_ActiviteModaliteForme"
-* status = #active
+* status = #retired
 * experimental = false
-* date = "2024-03-29T12:00:00+01:00"
+* date = "2026-02-23T12:00:00+01:00"
 * group.source = "https://mos.esante.gouv.fr/NOS/JDV_J133-ActiviteSanitaireRegulee-RASS/FHIR/JDV-J133-ActiviteSanitaireRegulee-RASS"
 * group.target = "https://mos.esante.gouv.fr/NOS/JDV_J132-ModaliteActivite-RASS/FHIR/JDV-J132-ModaliteActivite-RASS"
 * description = "Triplet activité modalité forme pour les Activités de Soins (AS)"
