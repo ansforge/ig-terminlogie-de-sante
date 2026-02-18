@@ -3016,15 +3016,15 @@ Description: "Catégorie d'organisation"
 * #278 ^property[=].valueDateTime = "2025-10-17T12:00:00+01:00"
 * #278 ^property[+].code = #status
 * #278 ^property[=].valueCode = #active
-* #279 "Equipe mobile de psychiatrie de l'Enfant et de l'Adolescent"
+* #279 "Equipe Mobile de Psychiatrie de l’Enfant et de l’Adolescent (EMPEA)" "Le centre d'accueil et de crise (CAC) est un dispositif d'accueil en continu répondant au besoin non programmé d'évaluation et d'orientation du patient relevant d'une situation clinique de crise. Le centre peut disposer de lits d'hospitalisation de très courte durée permettant d'initier la prise en charge thérapeutique du patient dans une perspective de relai vers un autre mode de prise en charge."
 * #279 ^designation[0].language = #fr-FR
 * #279 ^designation[=].use.system = "http://snomed.info/sct"
 * #279 ^designation[=].use = $sct#900000000000013009
-* #279 ^designation[=].value = "Equipe mobile pédopsychiatrie"
+* #279 ^designation[=].value = "EMPEA"
 * #279 ^property[0].code = #dateValid
 * #279 ^property[=].valueDateTime = "2025-10-17T12:00:00+01:00"
 * #279 ^property[+].code = #dateMaj
-* #279 ^property[=].valueDateTime = "2025-10-17T12:00:00+01:00"
+* #279 ^property[=].valueDateTime = "2026-02-23T12:00:00+01:00"
 * #279 ^property[+].code = #status
 * #279 ^property[=].valueCode = #active
 * #280 "Equipe mobile de psychiatrie adulte"
@@ -3249,33 +3249,23 @@ Description: "Catégorie d'organisation"
 * #300 ^property[=].valueDateTime = "2026-02-23T12:00:00+01:00"
 * #300 ^property[+].code = #status
 * #300 ^property[=].valueCode = #active
-* #301 "Equipe Mobile de Psychiatrie de l’Enfant et de l’Adolescent (EMPEA)" "Le centre d'accueil et de crise (CAC) est un dispositif d'accueil en continu répondant au besoin non programmé d'évaluation et d'orientation du patient relevant d'une situation clinique de crise. Le centre peut disposer de lits d'hospitalisation de très courte durée permettant d'initier la prise en charge thérapeutique du patient dans une perspective de relai vers un autre mode de prise en charge."
+* #301 "Unité d'urgences psychiatriques"
 * #301 ^designation[0].language = #fr-FR
 * #301 ^designation[=].use = $sct#900000000000013009
-* #301 ^designation[=].value = "EMPEA"
+* #301 ^designation[=].value = "Urgences psychiatriques" 
 * #301 ^property[0].code = #dateValid
 * #301 ^property[=].valueDateTime = "2026-02-23T12:00:00+01:00"
 * #301 ^property[+].code = #dateMaj
 * #301 ^property[=].valueDateTime = "2026-02-23T12:00:00+01:00"
 * #301 ^property[+].code = #status
 * #301 ^property[=].valueCode = #active
-* #302 "Unité d'urgences psychiatriques"
+* #302 "Centre d’Accueil et de Crise (CAC)" "Le centre d'accueil et de crise (CAC) est un dispositif d'accueil en continu répondant au besoin non programmé d'évaluation et d'orientation du patient relevant d'une situation clinique de crise. Le centre peut disposer de lits d'hospitalisation de très courte durée permettant d'initier la prise en charge thérapeutique du patient dans une perspective de relai vers un autre mode de prise en charge."
 * #302 ^designation[0].language = #fr-FR
 * #302 ^designation[=].use = $sct#900000000000013009
-* #302 ^designation[=].value = "Urgences psychiatriques" 
+* #302 ^designation[=].value = "CAC"
 * #302 ^property[0].code = #dateValid
 * #302 ^property[=].valueDateTime = "2026-02-23T12:00:00+01:00"
 * #302 ^property[+].code = #dateMaj
 * #302 ^property[=].valueDateTime = "2026-02-23T12:00:00+01:00"
 * #302 ^property[+].code = #status
 * #302 ^property[=].valueCode = #active
-* #303 "Centre d’Accueil et de Crise (CAC)" "Le centre d'accueil et de crise (CAC) est un dispositif d'accueil en continu répondant au besoin non programmé d'évaluation et d'orientation du patient relevant d'une situation clinique de crise. Le centre peut disposer de lits d'hospitalisation de très courte durée permettant d'initier la prise en charge thérapeutique du patient dans une perspective de relai vers un autre mode de prise en charge."
-* #303 ^designation[0].language = #fr-FR
-* #303 ^designation[=].use = $sct#900000000000013009
-* #303 ^designation[=].value = "CAC"
-* #303 ^property[0].code = #dateValid
-* #303 ^property[=].valueDateTime = "2026-02-23T12:00:00+01:00"
-* #303 ^property[+].code = #dateMaj
-* #303 ^property[=].valueDateTime = "2026-02-23T12:00:00+01:00"
-* #303 ^property[+].code = #status
-* #303 ^property[=].valueCode = #active
