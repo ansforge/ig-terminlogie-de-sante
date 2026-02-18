@@ -11,6 +11,9 @@ Vous touverez ici la liste des terminologies à l'etat "retired".
 | | |
 | :--- | :--- |
 | Name | Description |
+| [TRE_R277_CategorieActiviteSanitaireRegulee](CodeSystem-TRE-R277-CategorieActiviteSanitaireRegulee.md) | Types d'activités autorisées |
+| [TRE_R301_SourceInformationInstallation](CodeSystem-TRE-R301-SourceInformationInstallation.md) | Sources d'information possible concernant l'installation de l'activité sociale |
+| [TRE_R75_InseeNAFrev2Niveau5](CodeSystem-TRE-R75-InseeNAFrev2Niveau5.md) | Sous-classes de la Nomenclature d'Activités Française - INSEE |
 | [TRE_R214_SpecialiteUnite](CodeSystem-TRE-R214-SpecialiteUnite.md) | Spécialité d'unité |
 | [TRE_R215_UniteTemps](CodeSystem-TRE-R215-UniteTemps.md) | Unité de temps |
 | [TRE_R221_ModeleDocumentCDANonStructure](CodeSystem-TRE-R221-ModeleDocumentCDANonStructure.md) | Identifiant des modèles de CDA non structurés |

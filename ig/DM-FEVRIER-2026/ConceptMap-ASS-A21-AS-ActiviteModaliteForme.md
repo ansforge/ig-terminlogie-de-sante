@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/ASS_A21-AS-ActiviteModaliteForme/FHIR/ASS-A21-AS-ActiviteModaliteForme | *Version*:20240329120000 |
-| Active as of 2024-03-29 | *Computable Name*:ASS_A21_AS_ActiviteModaliteForme |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/ASS_A21-AS-ActiviteModaliteForme/FHIR/ASS-A21-AS-ActiviteModaliteForme | *Version*:20260223120000 |
+| Retired as of 2026-02-23 | *Computable Name*:ASS_A21_AS_ActiviteModaliteForme |
 | *Other Identifiers:*urn:oid:1.2.250.1.213.1.6.1.205 | |
 
  
@@ -35,7 +35,8 @@ Pour cette association, les fichiers suivants sont également disponibles :
     {
       "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
       "valuePeriod" : {
-        "start" : "2020-07-31T12:00:00+01:00"
+        "start" : "2020-07-31T12:00:00+01:00",
+        "end" : "2026-02-23T12:00:00+01:00"
       }
     },
     {
@@ -47,12 +48,12 @@ Pour cette association, les fichiers suivants sont également disponibles :
   "identifier" : {
     "value" : "urn:oid:1.2.250.1.213.1.6.1.205"
   },
-  "version" : "20240329120000",
+  "version" : "20260223120000",
   "name" : "ASS_A21_AS_ActiviteModaliteForme",
   "title" : "ASS_A21_AS_ActiviteModaliteForme",
-  "status" : "active",
+  "status" : "retired",
   "experimental" : false,
-  "date" : "2024-03-29T12:00:00+01:00",
+  "date" : "2026-02-23T12:00:00+01:00",
   "description" : "Triplet activité modalité forme pour les Activités de Soins (AS)",
   "jurisdiction" : [
     {

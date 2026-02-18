@@ -69,7 +69,7 @@ Catégorie d’organisation
   ],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 303,
+  "count" : 302,
   "property" : [
     {
       "code" : "dateValid",
@@ -7652,7 +7652,8 @@ Catégorie d’organisation
     },
     {
       "code" : "279",
-      "display" : "Equipe mobile de psychiatrie de l'Enfant et de l'Adolescent",
+      "display" : "Equipe Mobile de Psychiatrie de l’Enfant et de l’Adolescent (EMPEA)",
+      "definition" : "Le centre d'accueil et de crise (CAC) est un dispositif d'accueil en continu répondant au besoin non programmé d'évaluation et d'orientation du patient relevant d'une situation clinique de crise. Le centre peut disposer de lits d'hospitalisation de très courte durée permettant d'initier la prise en charge thérapeutique du patient dans une perspective de relai vers un autre mode de prise en charge.",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -7660,7 +7661,7 @@ Catégorie d’organisation
             "system" : "http://snomed.info/sct",
             "code" : "900000000000013009"
           },
-          "value" : "Equipe mobile pédopsychiatrie"
+          "value" : "EMPEA"
         }
       ],
       "property" : [
@@ -7670,7 +7671,7 @@ Catégorie d’organisation
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-10-17T12:00:00+01:00"
+          "valueDateTime" : "2026-02-23T12:00:00+01:00"
         },
         {
           "code" : "status",
@@ -8264,35 +8265,6 @@ Catégorie d’organisation
     },
     {
       "code" : "301",
-      "display" : "Equipe Mobile de Psychiatrie de l’Enfant et de l’Adolescent (EMPEA)",
-      "definition" : "Le centre d'accueil et de crise (CAC) est un dispositif d'accueil en continu répondant au besoin non programmé d'évaluation et d'orientation du patient relevant d'une situation clinique de crise. Le centre peut disposer de lits d'hospitalisation de très courte durée permettant d'initier la prise en charge thérapeutique du patient dans une perspective de relai vers un autre mode de prise en charge.",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "EMPEA"
-        }
-      ],
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2026-02-23T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2026-02-23T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
-    },
-    {
-      "code" : "302",
       "display" : "Unité d'urgences psychiatriques",
       "designation" : [
         {
@@ -8320,7 +8292,7 @@ Catégorie d’organisation
       ]
     },
     {
-      "code" : "303",
+      "code" : "302",
       "display" : "Centre d’Accueil et de Crise (CAC)",
       "definition" : "Le centre d'accueil et de crise (CAC) est un dispositif d'accueil en continu répondant au besoin non programmé d'évaluation et d'orientation du patient relevant d'une situation clinique de crise. Le centre peut disposer de lits d'hospitalisation de très courte durée permettant d'initier la prise en charge thérapeutique du patient dans une perspective de relai vers un autre mode de prise en charge.",
       "designation" : [

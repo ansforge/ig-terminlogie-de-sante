@@ -171,7 +171,6 @@ However, this HL7 datatypes specification treats the entire media type as one at
 | [TRE_R274_ActiviteSanitaireRegulee](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md) | Activités sanitaires soumises à une régulation de la part de l'ARS | 15/12/2023 |
 | [TRE_R275_ModaliteActivite](CodeSystem-TRE-R275-ModaliteActivite.md) | Mode d'application ou type de soins encadrant une activité | 15/12/2023 |
 | [TRE_R276_FormeActivite](CodeSystem-TRE-R276-FormeActivite.md) | Type d'organisation de prise en charge | 29/03/2024 |
-| [TRE_R277_CategorieActiviteSanitaireRegulee](CodeSystem-TRE-R277-CategorieActiviteSanitaireRegulee.md) | Types d'activités autorisées | 15/12/2023 |
 | [TRE_R278_FinessConvention](CodeSystem-TRE-R278-FinessConvention.md) | Convention du domaine social FINESS | 31/01/2025 |
 | [TRE_R279_Clientele](CodeSystem-TRE-R279-Clientele.md) | Clientèles | 27/09/2024 |
 | [TRE_R280_DisciplineEquipementSocial](CodeSystem-TRE-R280-DisciplineEquipementSocial.md) | Disciplines d'équipement pour le social | 15/12/2023 |
@@ -195,7 +194,6 @@ However, this HL7 datatypes specification treats the entire media type as one at
 | [TRE_R298_AgregatDisciplineEquipSocNiv1](CodeSystem-TRE-R298-AgregatDisciplineEquipSocNiv1.md) | Agrégats de disciplines d'équipement pour le social niveau 1 | 15/12/2023 |
 | [TRE_R299_AgregatDisciplineEquipSocNiv2](CodeSystem-TRE-R299-AgregatDisciplineEquipSocNiv2.md) | Agrégats de disciplines d'équipement pour le social niveau 2 | 15/12/2023 |
 | [TRE_R300_AgregatDisciplineEquipSocNiv3](CodeSystem-TRE-R300-AgregatDisciplineEquipSocNiv3.md) | Agrégats de disciplines d'équipement pour le social niveau 3 | 15/12/2023 |
-| [TRE_R301_SourceInformationInstallation](CodeSystem-TRE-R301-SourceInformationInstallation.md) | Sources d'information possible concernant l'installation de l'activité sociale | 15/12/2023 |
 | [TRE_R302_ContexteCodeComplementaire](CodeSystem-TRE-R302-ContexteCodeComplementaire.md) | Liste des codes complémentaires utilisables dans un contexte particulier | 26/04/2024 |
 | [TRE_R303_HL7v3AdministrativeGender](CodeSystem-TRE-R303-HL7v3AdministrativeGender.md) | Sexe d'une personne utilisée à des fins administratives (par opposition au sexe clinique) repris de la terminologie HL7 v3 AdministrativeGender (https://www.hl7.org/fhir/v3/AdministrativeGender/cs.html) | 15/12/2023 |
 | [TRE_R304_HL7v3ActCode](CodeSystem-TRE-R304-HL7v3ActCode.md) | Type de prise en charge repris de la terminologie HL7 v3 ActCode (https://www.hl7.org/fhir/v3/ActCode/cs.html) | 15/12/2023 |
@@ -281,7 +279,6 @@ However, this HL7 datatypes specification treats the entire media type as one at
 | [TRE_R72_FinessStatutJuridique](CodeSystem-TRE-R72-FinessStatutJuridique.md) | Statuts juridiques provenant de FINESS, excepté pour les codes 000 et 100 à 110 qui ont été ajoutés pour les besoins du RPPS en 2017. | 29/03/2024 |
 | [TRE_R73_ESPIC](CodeSystem-TRE-R73-ESPIC.md) | Etablissement de santé privé d'intérêt collectif | 15/12/2023 |
 | [TRE_R74_ModeFixationTarifaire](CodeSystem-TRE-R74-ModeFixationTarifaire.md) | Mode de fixation tarifaire | 22/12/2025 |
-| [TRE_R75_InseeNAFrev2Niveau5](CodeSystem-TRE-R75-InseeNAFrev2Niveau5.md) | Sous-classes de la Nomenclature d'Activités Française - INSEE | 15/12/2023 |
 | [TRE_R78_ProfilAccesReferentiel](CodeSystem-TRE-R78-ProfilAccesReferentiel.md) | Profil d'accès aux référentiels | 23/05/2025 |
 | [TRE_R81_Civilite](CodeSystem-TRE-R81-Civilite.md) | Civilité | 15/12/2023 |
 | [TRE_R82_Ordre](CodeSystem-TRE-R82-Ordre.md) | Ordre | 15/12/2023 |

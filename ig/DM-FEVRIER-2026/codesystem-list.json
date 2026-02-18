@@ -1352,8 +1352,8 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R277-CategorieActiviteSanitaireRegulee/FHIR/TRE-R277-CategorieActiviteSanitaireRegulee",
-      "version" : "20231215120000",
-      "status" : "active",
+      "version" : "20260223120000",
+      "status" : "retired",
       "name" : "TRE_R277_CategorieActiviteSanitaireRegulee",
       "title" : null,
       "description" : "Types d'activités autorisées",
@@ -1577,8 +1577,8 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation",
-      "version" : "20231215120000",
-      "status" : "active",
+      "version" : "20260223120000",
+      "status" : "retired",
       "name" : "TRE_R301_SourceInformationInstallation",
       "title" : null,
       "description" : "Sources d'information possible concernant l'installation de l'activité sociale",
@@ -2360,8 +2360,8 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/TRE_R75-InseeNAFrev2Niveau5/FHIR/TRE-R75-InseeNAFrev2Niveau5",
-      "version" : "20231215120000",
-      "status" : "active",
+      "version" : "20260223120000",
+      "status" : "retired",
       "name" : "TRE_R75_InseeNAFrev2Niveau5",
       "title" : null,
       "description" : "Sous-classes de la Nomenclature d'Activités Française - INSEE",

@@ -136,6 +136,22 @@
     "status" : "active"
   },
   {
+    "id" : "TRE-R277-CategorieActiviteSanitaireRegulee",
+    "name" : "TRE_R277_CategorieActiviteSanitaireRegulee",
+    "title" : null,
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R277-CategorieActiviteSanitaireRegulee/FHIR/TRE-R277-CategorieActiviteSanitaireRegulee",
+    "identifier" : "urn:oid:1.2.250.1.213.1.6.1.129",
+    "status" : "retired"
+  },
+  {
+    "id" : "TRE-R301-SourceInformationInstallation",
+    "name" : "TRE_R301_SourceInformationInstallation",
+    "title" : null,
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation",
+    "identifier" : "urn:oid:1.2.250.1.213.1.6.1.208",
+    "status" : "retired"
+  },
+  {
     "id" : "TRE-R32-StatutHospitalier",
     "name" : "TRE_R32_StatutHospitalier",
     "title" : null,
@@ -166,6 +182,14 @@
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R73-ESPIC/FHIR/TRE-R73-ESPIC",
     "identifier" : "urn:oid:1.2.250.1.213.1.6.1.45",
     "status" : "active"
+  },
+  {
+    "id" : "TRE-R75-InseeNAFrev2Niveau5",
+    "name" : "TRE_R75_InseeNAFrev2Niveau5",
+    "title" : null,
+    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R75-InseeNAFrev2Niveau5/FHIR/TRE-R75-InseeNAFrev2Niveau5",
+    "identifier" : "urn:oid:1.2.250.1.213.1.6.1.47",
+    "status" : "retired"
   },
   {
     "id" : "TimingEvent-supplement-fr",
@@ -1600,14 +1624,6 @@
     "status" : "active"
   },
   {
-    "id" : "TRE-R277-CategorieActiviteSanitaireRegulee",
-    "name" : "TRE_R277_CategorieActiviteSanitaireRegulee",
-    "title" : null,
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R277-CategorieActiviteSanitaireRegulee/FHIR/TRE-R277-CategorieActiviteSanitaireRegulee",
-    "identifier" : "urn:oid:1.2.250.1.213.1.6.1.129",
-    "status" : "active"
-  },
-  {
     "id" : "TRE-R278-FinessConvention",
     "name" : "TRE_R278_FinessConvention",
     "title" : null,
@@ -1789,14 +1805,6 @@
     "title" : null,
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R300-AgregatDisciplineEquipSocNiv3/FHIR/TRE-R300-AgregatDisciplineEquipSocNiv3",
     "identifier" : "urn:oid:1.2.250.1.213.1.6.1.204",
-    "status" : "active"
-  },
-  {
-    "id" : "TRE-R301-SourceInformationInstallation",
-    "name" : "TRE_R301_SourceInformationInstallation",
-    "title" : null,
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation",
-    "identifier" : "urn:oid:1.2.250.1.213.1.6.1.208",
     "status" : "active"
   },
   {
@@ -2461,14 +2469,6 @@
     "title" : null,
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
     "identifier" : "urn:oid:1.2.250.1.213.1.6.1.46",
-    "status" : "active"
-  },
-  {
-    "id" : "TRE-R75-InseeNAFrev2Niveau5",
-    "name" : "TRE_R75_InseeNAFrev2Niveau5",
-    "title" : null,
-    "url" : "https://mos.esante.gouv.fr/NOS/TRE_R75-InseeNAFrev2Niveau5/FHIR/TRE-R75-InseeNAFrev2Niveau5",
-    "identifier" : "urn:oid:1.2.250.1.213.1.6.1.47",
     "status" : "active"
   },
   {

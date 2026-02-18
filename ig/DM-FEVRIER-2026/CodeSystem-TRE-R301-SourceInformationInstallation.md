@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation | *Version*:20231215120000 | |
-| Active as of 2023-12-15 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R301_SourceInformationInstallation |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation | *Version*:20260223120000 | |
+| Retired as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R301_SourceInformationInstallation |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.208 | | |
 
  
@@ -29,7 +29,7 @@ Sources d’information possible concernant l’installation de l’activité so
   "id" : "TRE-R301-SourceInformationInstallation",
   "meta" : {
     "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:17:23.676+00:00",
+    "lastUpdated" : "2026-02-23T18:17:23.676+00:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
@@ -38,7 +38,8 @@ Sources d’information possible concernant l’installation de l’activité so
     {
       "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
       "valuePeriod" : {
-        "start" : "2020-07-31T12:00:00+01:00"
+        "start" : "2020-07-31T12:00:00+01:00",
+        "end" : "2026-02-23T12:00:00+01:00"
       }
     }
   ],
@@ -49,11 +50,11 @@ Sources d’information possible concernant l’installation de l’activité so
       "value" : "urn:oid:1.2.250.1.213.1.6.1.208"
     }
   ],
-  "version" : "20231215120000",
+  "version" : "20260223120000",
   "name" : "TRE_R301_SourceInformationInstallation",
-  "status" : "active",
+  "status" : "retired",
   "experimental" : false,
-  "date" : "2023-12-15T12:00:00+01:00",
+  "date" : "2026-02-23T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Sources d'information possible concernant l'installation de l'activité sociale",
   "jurisdiction" : [
@@ -68,6 +69,7 @@ Sources d’information possible concernant l’installation de l’activité so
   ],
   "caseSensitive" : false,
   "content" : "complete",
+  "count" : 10,
   "property" : [
     {
       "code" : "dateValid",

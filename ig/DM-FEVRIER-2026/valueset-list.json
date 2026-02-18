@@ -616,8 +616,8 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J131-CategorieActiviteSanitaireRegulee-RASS/FHIR/JDV-J131-CategorieActiviteSanitaireRegulee-RASS",
-      "version" : "20201127120000",
-      "status" : "active",
+      "version" : "20260223120000",
+      "status" : "retired",
       "name" : "JDV_J131_CategorieActiviteSanitaireRegulee_RASS",
       "title" : null,
       "description" : "Catégorie des activités sanitaires régulées dans le RASS",
@@ -2387,8 +2387,8 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J261-SourceInformationInstallation-RASS/FHIR/JDV-J261-SourceInformationInstallation-RASS",
-      "version" : "20240927120000",
-      "status" : "active",
+      "version" : "20260223120000",
+      "status" : "retired",
       "name" : "JDV_J261_SourceInformationInstallation_RASS",
       "title" : null,
       "description" : "Sources d'information possible concernant l'installation de l'activité sociale du RASS",

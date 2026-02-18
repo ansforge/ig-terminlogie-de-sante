@@ -1185,7 +1185,7 @@ Requête sur le SMT
           },
           {
             "code" : "279",
-            "display" : "Equipe mobile de psychiatrie de l'Enfant et de l'Adolescent"
+            "display" : "Equipe Mobile de Psychiatrie de l’Enfant et de l’Adolescent (EMPEA)"
           },
           {
             "code" : "280",
@@ -1273,14 +1273,10 @@ Requête sur le SMT
           },
           {
             "code" : "301",
-            "display" : "Equipe Mobile de Psychiatrie de l’Enfant et de l’Adolescent (EMPEA)"
-          },
-          {
-            "code" : "302",
             "display" : "Unité d'urgences psychiatriques"
           },
           {
-            "code" : "303",
+            "code" : "302",
             "display" : "Centre d’Accueil et de Crise (CAC)"
           }
         ]

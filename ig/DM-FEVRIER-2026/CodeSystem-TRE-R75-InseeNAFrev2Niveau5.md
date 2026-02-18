@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R75-InseeNAFrev2Niveau5/FHIR/TRE-R75-InseeNAFrev2Niveau5 | *Version*:20231215120000 | |
-| Active as of 2023-12-15 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R75_InseeNAFrev2Niveau5 |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R75-InseeNAFrev2Niveau5/FHIR/TRE-R75-InseeNAFrev2Niveau5 | *Version*:20260223120000 | |
+| Retired as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R75_InseeNAFrev2Niveau5 |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.47 | | |
 
  
@@ -29,7 +29,7 @@ Sous-classes de la Nomenclature d’Activités Française - INSEE
   "id" : "TRE-R75-InseeNAFrev2Niveau5",
   "meta" : {
     "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:19:13.165+00:00",
+    "lastUpdated" : "2026-02-23T18:19:13.165+00:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
@@ -38,7 +38,8 @@ Sous-classes de la Nomenclature d’Activités Française - INSEE
     {
       "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
       "valuePeriod" : {
-        "start" : "2015-12-21T00:00:00+01:00"
+        "start" : "2015-12-21T00:00:00+01:00",
+        "end" : "2026-02-23T00:00:00+01:00"
       }
     }
   ],
@@ -49,11 +50,11 @@ Sous-classes de la Nomenclature d’Activités Française - INSEE
       "value" : "urn:oid:1.2.250.1.213.1.6.1.47"
     }
   ],
-  "version" : "20231215120000",
+  "version" : "20260223120000",
   "name" : "TRE_R75_InseeNAFrev2Niveau5",
-  "status" : "active",
+  "status" : "retired",
   "experimental" : false,
-  "date" : "2023-12-15T12:00:00+01:00",
+  "date" : "2026-02-23T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Sous-classes de la Nomenclature d'Activités Française - INSEE",
   "jurisdiction" : [
@@ -68,6 +69,7 @@ Sous-classes de la Nomenclature d’Activités Française - INSEE
   ],
   "caseSensitive" : false,
   "content" : "complete",
+  "count" : 732,
   "property" : [
     {
       "code" : "dateValid",
