@@ -3202,7 +3202,7 @@ Description: "Catégorie d'organisation"
 * #295 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #295 ^property[+].code = #status
 * #295 ^property[=].valueCode = #active
-* #296 "Groupe d’Entraide Mutuelle (GEM)" 
+* #296 "Groupe d’Entraide Mutuelle (GEM)" "Les groupes d'entraide mutuelle (GEM) sont des structures de prévention et de compensation de la restriction de participation à la vie en société. Ils s'apparentent à des dispositifs d'entraide mutuelle entre pairs, en constituant avant tout un collectif de personnes concernées par des problématiques de santé ou des situations de handicap similaires et souhaitant se soutenir mutuellement dans les difficultés éventuellement rencontrées, notamment en termes d'insertion sociale, professionnelle et citoyenne. Ce collectif de personnes animées d'un même projet d'entraide, doit s'efforcer d'être une passerelle permettant aux personnes qui le fréquentent de développer une vie sociale satisfaisante, en travaillant par exemple sur le retour ou le maintien dans l'emploi ou le cas échéant, le recours à des soins et à un accompagnement adapté, en visant prioritairement l'autonomisation des adhérents." 
 * #296 ^designation[0].language = #fr-FR
 * #296 ^designation[=].use = $sct#900000000000013009
 * #296 ^designation[=].value = "GEM"
@@ -3249,7 +3249,7 @@ Description: "Catégorie d'organisation"
 * #300 ^property[=].valueDateTime = "2026-02-23T12:00:00+01:00"
 * #300 ^property[+].code = #status
 * #300 ^property[=].valueCode = #active
-* #301 "Equipe Mobile de Psychiatrie de l’Enfant et de l’Adolescent (EMPEA)"
+* #301 "Equipe Mobile de Psychiatrie de l’Enfant et de l’Adolescent (EMPEA)" "Le centre d'accueil et de crise (CAC) est un dispositif d'accueil en continu répondant au besoin non programmé d'évaluation et d'orientation du patient relevant d'une situation clinique de crise. Le centre peut disposer de lits d'hospitalisation de très courte durée permettant d'initier la prise en charge thérapeutique du patient dans une perspective de relai vers un autre mode de prise en charge."
 * #301 ^designation[0].language = #fr-FR
 * #301 ^designation[=].use = $sct#900000000000013009
 * #301 ^designation[=].value = "EMPEA"
