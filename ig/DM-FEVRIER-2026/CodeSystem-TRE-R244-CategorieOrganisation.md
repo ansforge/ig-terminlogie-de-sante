@@ -8130,6 +8130,7 @@ Catégorie d’organisation
     {
       "code" : "296",
       "display" : "Groupe d’Entraide Mutuelle (GEM)",
+      "definition" : "Les groupes d'entraide mutuelle (GEM) sont des structures de prévention et de compensation de la restriction de participation à la vie en société. Ils s'apparentent à des dispositifs d'entraide mutuelle entre pairs, en constituant avant tout un collectif de personnes concernées par des problématiques de santé ou des situations de handicap similaires et souhaitant se soutenir mutuellement dans les difficultés éventuellement rencontrées, notamment en termes d'insertion sociale, professionnelle et citoyenne. Ce collectif de personnes animées d'un même projet d'entraide, doit s'efforcer d'être une passerelle permettant aux personnes qui le fréquentent de développer une vie sociale satisfaisante, en travaillant par exemple sur le retour ou le maintien dans l'emploi ou le cas échéant, le recours à des soins et à un accompagnement adapté, en visant prioritairement l'autonomisation des adhérents.",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -8264,6 +8265,7 @@ Catégorie d’organisation
     {
       "code" : "301",
       "display" : "Equipe Mobile de Psychiatrie de l’Enfant et de l’Adolescent (EMPEA)",
+      "definition" : "Le centre d'accueil et de crise (CAC) est un dispositif d'accueil en continu répondant au besoin non programmé d'évaluation et d'orientation du patient relevant d'une situation clinique de crise. Le centre peut disposer de lits d'hospitalisation de très courte durée permettant d'initier la prise en charge thérapeutique du patient dans une perspective de relai vers un autre mode de prise en charge.",
       "designation" : [
         {
           "language" : "fr-FR",
