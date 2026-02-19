@@ -10,7 +10,7 @@
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2026-02-18T16:58:33+00:00",
+  "date" : "2026-02-19T09:33:08+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -27585,18 +27585,6 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/jdv-j293-type-engagement-finess"
-      },
-      "name" : "Jdv J293 Type Engagement Finess",
-      "description" : "Jeu de valeurs FINESS contenant les grands types d'engagement pouvant être associés dans FINESS+ à des structures ou des activités.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
         "reference" : "ValueSet/jdv-j301-finess-statut-juridique-niv1-finess"
       },
       "name" : "Jdv J301 Finess Statut Juridique Niv1 Finess",
@@ -27865,6 +27853,42 @@
       },
       "name" : "Jdv J370 Type Contrat Sejour Ms",
       "description" : "Type de contrat conclu entre l’établissement/service et la personne/son représentant légal.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j376-public-activite-smsse-regulee-rass"
+      },
+      "name" : "Jdv J376 Public Activite Smsse Regulee Rass",
+      "description" : "Jeu de valeurs RASS contenant les codes actifs des publics des activités régulées de niveau 3",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j379-activite-sociale-regulee-rass"
+      },
+      "name" : "Jdv J379 Activite Sociale Regulee Rass",
+      "description" : "Activités sociales régulées pour le RASS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j380-categorie-entite-geographique-exercice-rass"
+      },
+      "name" : "Jdv J380 Categorie Entite Geographique Exercice Rass",
+      "description" : "Catégories d'établissements FINESS",
       "exampleBoolean" : false
     },
     {
@@ -35059,18 +35083,6 @@
       },
       "name" : "Tre R394 Competence Metier",
       "description" : "Type de savoir-faire opérationnel, transversal ou spécifique, acquis et exercé à titre non exclusif dans le cadre d’une activité professionnelle reconnue.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/tre-r395-engagement"
-      },
-      "name" : "Tre R395 Engagement",
-      "description" : "Nomenclature des engagements associés dans FINESS+ aux Personnes morales, aux entités géographique, aux groupements ou à leurs activités",
       "exampleBoolean" : false
     },
     {

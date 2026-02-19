@@ -20,6 +20,7 @@ Liste des publics des activités régulées organisée en 2 niveaux d’agrégat
 * [JdvJ328PublicActiviteSmsseReguleeFiness](ValueSet-jdv-j328-public-activite-smsse-regulee-finess.md)
 * [JdvJ329PublicActiviteSmsseReguleeNiv1Finess](ValueSet-jdv-j329-public-activite-smsse-regulee-niv1-finess.md)
 * [JdvJ330PublicActiviteSmsseReguleeNiv2Finess](ValueSet-jdv-j330-public-activite-smsse-regulee-niv2-finess.md)
+* [JdvJ376PublicActiviteSmsseReguleeRass](ValueSet-jdv-j376-public-activite-smsse-regulee-rass.md)
 
 
 

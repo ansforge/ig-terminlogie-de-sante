@@ -720,7 +720,6 @@ These define sets of codes used by systems conforming to this implementation gui
 | [Jdv Depistage Neonatal CISIS](ValueSet-jdv-depistage-neonatal-cisis.md) | Jdv Depistage Neonatal CISIS |
 | [Jdv Etat De Conscience CISIS](ValueSet-jdv-etat-de-conscience-cisis.md) | Jdv Etat De Conscience CISIS |
 | [Jdv J273 Espic Finess](ValueSet-jdv-j273-espic-finess.md) | Jeu de valeurs contenant les établissements de santé privés d’intérêt collectif pour FINESS |
-| [Jdv J293 Type Engagement Finess](ValueSet-jdv-j293-type-engagement-finess.md) | Jeu de valeurs FINESS contenant les grands types d’engagement pouvant être associés dans FINESS+ à des structures ou des activités. |
 | [Jdv J301 Finess Statut Juridique Niv1 Finess](ValueSet-jdv-j301-finess-statut-juridique-niv1-finess.md) | Jeu de valeurs FINESS contenant les statuts juridiques de niveau 1 |
 | [Jdv J302 Finess Statut Juridique Niv2 Finess](ValueSet-jdv-j302-finess-statut-juridique-niv2-finess.md) | Jeu de valeurs FINESS contenant les statuts juridiques de niveau 2 |
 | [Jdv J303 Finess Statut Juridique Niv3 Finess](ValueSet-jdv-j303-finess-statut-juridique-niv3-finess.md) | Jeu de valeurs FINESS contenant les statuts juridiques de niveau 3 |
@@ -744,6 +743,9 @@ These define sets of codes used by systems conforming to this implementation gui
 | [Jdv J367 Type Projet Personnalise Ms](ValueSet-jdv-j367-type-projet-personnalise-ms.md) | Cette nomenclature donne le type de projet personnalisé qui est un document co-construit par l’usager, son entourage familial et professionnel du médico-social. |
 | [Jdv J368 Categorie Etablissement Cisis](ValueSet-jdv-j368-categorie-etablissement-cisis.md) | JDV à l’image de l’ensemble des valeurs actives de la terminologie TRE_R66-CategorieEtablissement |
 | [Jdv J370 Type Contrat Sejour Ms](ValueSet-jdv-j370-type-contrat-sejour-ms.md) | Type de contrat conclu entre l’établissement/service et la personne/son représentant légal. |
+| [Jdv J376 Public Activite Smsse Regulee Rass](ValueSet-jdv-j376-public-activite-smsse-regulee-rass.md) | Jeu de valeurs RASS contenant les codes actifs des publics des activités régulées de niveau 3 |
+| [Jdv J379 Activite Sociale Regulee Rass](ValueSet-jdv-j379-activite-sociale-regulee-rass.md) | Activités sociales régulées pour le RASS |
+| [Jdv J380 Categorie Entite Geographique Exercice Rass](ValueSet-jdv-j380-categorie-entite-geographique-exercice-rass.md) | Catégories d’établissements FINESS |
 | [Jdv J383 Motif Cloture Exercice Professionnel Epars](ValueSet-jdv-j383-motif-cloture-exercice-professionnel-epars.md) | Ce jeu de valeur liste les différents motifs qui peuvent justifier la clôture d’un exercice professionnel. |
 | [Jdv J384 Role Membre Famille Ms](ValueSet-jdv-j384-role-membre-famille-ms.md) | Rôle d’un membre de la famille ou d’un proche de l’usager. |
 | [Jdv J385 Composition Foyer Ms](ValueSet-jdv-j385-composition-foyer-ms.md) | Désigne avec qui vit l’usager dans son logement. |
@@ -1106,7 +1108,6 @@ These define new code systems used by systems conforming to this implementation 
 | [Tre R390 Type Projet Personnalise](CodeSystem-tre-r390-type-projet-personnalise.md) | Cette nomenclature donne le type de projet personnalisé qui est un document co-construit par l’usager, son entourage familial et professionnel du médico-social. |
 | [Tre R393 Type Contrat Sejour](CodeSystem-tre-r393-type-contrat-sejour.md) | Type de contrat conclu entre l’établissement/service et la personne/son représentant légal lors de son entrée en établissement |
 | [Tre R394 Competence Metier](CodeSystem-tre-r394-competence-metier.md) | Type de savoir-faire opérationnel, transversal ou spécifique, acquis et exercé à titre non exclusif dans le cadre d’une activité professionnelle reconnue. |
-| [Tre R395 Engagement](CodeSystem-tre-r395-engagement.md) | Nomenclature des engagements associés dans FINESS+ aux Personnes morales, aux entités géographique, aux groupements ou à leurs activités |
 | [Tre R397 Categorie Entite Geographique Exercice](CodeSystem-tre-r397-categorie-entite-geographique-exercice.md) | Catégorie d’établissements - TRE Hierarchique qui remplace la TRE R66 |
 | [Tre R400 Finess Statut Juridique](CodeSystem-tre-r400-finess-statut-juridique.md) | Statuts juridiques de FINESS |
 | [Tre R401 Activite Sociale Regulee](CodeSystem-tre-r401-activite-sociale-regulee.md) | Liste des activités sociales régulées organisée en 3 niveaux d’agrégation. Annule et remplace les anciennes TRE xxxEquipementSocial |

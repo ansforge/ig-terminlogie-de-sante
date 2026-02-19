@@ -280,14 +280,6 @@
     "status" : "draft"
   },
   {
-    "id" : "tre-r395-engagement",
-    "name" : "TreR395Engagement",
-    "title" : "Tre R395 Engagement",
-    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r395-engagement",
-    "identifier" : "urn:oid:1.2.250.1.213.1.6.1.376",
-    "status" : "active"
-  },
-  {
     "id" : "tre-r397-categorie-entite-geographique-exercice",
     "name" : "TreR397CategorieEntiteGeographiqueExercice",
     "title" : "Tre R397 Categorie Entite Geographique Exercice",

@@ -41,7 +41,7 @@ Catégorie d’établissements
   "id" : "TRE-R66-CategorieEtablissement",
   "meta" : {
     "versionId" : "19",
-    "lastUpdated" : "2025-12-22T10:46:48.203+01:00",
+    "lastUpdated" : "2026-02-23T10:46:48.203+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
     ]
@@ -2977,19 +2977,11 @@ Catégorie d’établissements
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2026-02-23T00:00:00+01:00"
-        },
-        {
-          "code" : "dateFin",
-          "valueDateTime" : "2026-02-23T12:00:00+01:00"
-        },
-        {
-          "code" : "deprecationDate",
-          "valueDateTime" : "2026-02-23T12:00:00+01:00"
+          "valueDateTime" : "2005-07-06T00:00:00+01:00"
         },
         {
           "code" : "status",
-          "valueCode" : "deprecated"
+          "valueCode" : "active"
         }
       ]
     },
@@ -3041,15 +3033,7 @@ Catégorie d’établissements
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2026-02-23T00:00:00+01:00"
-        },
-        {
-          "code" : "dateFin",
-          "valueDateTime" : "2026-02-23T12:00:00+01:00"
-        },
-        {
-          "code" : "deprecationDate",
-          "valueDateTime" : "2026-02-23T12:00:00+01:00"
+          "valueDateTime" : "1990-01-05T00:00:00+01:00"
         },
         {
           "code" : "status",
@@ -5647,19 +5631,11 @@ Catégorie d’établissements
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2026-02-23T00:00:00+01:00"
-        },
-        {
-          "code" : "dateFin",
-          "valueDateTime" : "2026-02-23T12:00:00+01:00"
-        },
-        {
-          "code" : "deprecationDate",
-          "valueDateTime" : "2026-02-23T12:00:00+01:00"
+          "valueDateTime" : "2005-07-06T00:00:00+01:00"
         },
         {
           "code" : "status",
-          "valueCode" : "deprecated"
+          "valueCode" : "active"
         }
       ]
     },
@@ -6033,19 +6009,11 @@ Catégorie d’établissements
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2026-02-23T00:00:00+01:00"
-        },
-        {
-          "code" : "dateFin",
-          "valueDateTime" : "2026-02-23T12:00:00+01:00"
-        },
-        {
-          "code" : "deprecationDate",
-          "valueDateTime" : "2026-02-23T12:00:00+01:00"
+          "valueDateTime" : "1979-01-23T00:00:00+01:00"
         },
         {
           "code" : "status",
-          "valueCode" : "deprecated"
+          "valueCode" : "active"
         }
       ]
     },
@@ -6393,19 +6361,11 @@ Catégorie d’établissements
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2026-02-23T00:00:00+01:00"
-        },
-        {
-          "code" : "dateFin",
-          "valueDateTime" : "2026-02-23T12:00:00+01:00"
-        },
-        {
-          "code" : "deprecationDate",
-          "valueDateTime" : "2026-02-23T12:00:00+01:00"
+          "valueDateTime" : "1979-01-23T00:00:00+01:00"
         },
         {
           "code" : "status",
-          "valueCode" : "deprecated"
+          "valueCode" : "active"
         }
       ]
     },
@@ -7444,20 +7404,12 @@ Catégorie d’établissements
           "valueDateTime" : "1979-01-01T00:00:00+01:00"
         },
         {
-          "code" : "dateFin",
-          "valueDateTime" : "2026-02-23T12:00:00+01:00"
-        },
-        {
           "code" : "dateMaj",
-          "valueDateTime" : "2026-02-23T00:00:00+01:00"
-        },
-        {
-          "code" : "deprecationDate",
-          "valueDateTime" : "2026-02-23T12:00:00+01:00"
+          "valueDateTime" : "1982-11-19T00:00:00+01:00"
         },
         {
           "code" : "status",
-          "valueCode" : "deprecated"
+          "valueCode" : "active"
         }
       ]
     },
@@ -7545,19 +7497,11 @@ Catégorie d’établissements
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2026-02-23T00:00:00+01:00"
-        },
-        {
-          "code" : "dateFin",
-          "valueDateTime" : "2026-02-23T12:00:00+01:00"
-        },
-        {
-          "code" : "deprecationDate",
-          "valueDateTime" : "2026-02-23T12:00:00+01:00"
+          "valueDateTime" : "1994-07-05T00:00:00+01:00"
         },
         {
           "code" : "status",
-          "valueCode" : "deprecated"
+          "valueCode" : "active"
         }
       ]
     },
@@ -7625,19 +7569,11 @@ Catégorie d’établissements
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2026-02-23T00:00:00+01:00"
-        },
-        {
-          "code" : "dateFin",
-          "valueDateTime" : "2026-02-23T12:00:00+01:00"
-        },
-        {
-          "code" : "deprecationDate",
-          "valueDateTime" : "2026-02-23T12:00:00+01:00"
+          "valueDateTime" : "1982-12-08T00:00:00+01:00"
         },
         {
           "code" : "status",
-          "valueCode" : "deprecated"
+          "valueCode" : "active"
         }
       ]
     },

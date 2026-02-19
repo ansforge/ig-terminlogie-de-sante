@@ -11,8 +11,11 @@ Vous touverez ici la liste des JDV à l'etat "retired".
 | | |
 | :--- | :--- |
 | Name | Description |
+| [JDV_J129_CategorieEtablissement_RASS](ValueSet-JDV-J129-CategorieEtablissement-RASS.md) | Catégorie d'établissement du RASS |
 | [JDV_J131_CategorieActiviteSanitaireRegulee_RASS](ValueSet-JDV-J131-CategorieActiviteSanitaireRegulee-RASS.md) | Catégorie des activités sanitaires régulées dans le RASS |
+| [JDV_J136_DisciplineEquipementSocial_RASS](ValueSet-JDV-J136-DisciplineEquipementSocial-RASS.md) | Disciplines d'équipement pour le social dans le RASS |
 | [JDV_J261_SourceInformationInstallation_RASS](ValueSet-JDV-J261-SourceInformationInstallation-RASS.md) | Sources d'information possible concernant l'installation de l'activité sociale du RASS |
+| [JDV_J99_InseeNAFrav2Niveau5_RASS](ValueSet-JDV-J99-InseeNAFrav2Niveau5-RASS.md) | Sous-classes de la Nomenclature Activités Française (INSEE) des prof du RASS |
 | [JDV_J114_Pays_ENREG](ValueSet-JDV-J114-Pays-ENREG.md) | Référentiel dérivé des pays provenant de la norme INSEE pour ENREG |
 | [JDV_J123_Pays_MDPH](ValueSet-JDV-J123-Pays-MDPH.md) | Toute la nomenclature des codes pays auquel on ajoute le code applicatif r "non renseigné" |
 | [JDV_J12_CiviliteTitre_CISIS](ValueSet-JDV-J12-CiviliteTitre-CISIS.md) | Titre civilité - CI-SIS |

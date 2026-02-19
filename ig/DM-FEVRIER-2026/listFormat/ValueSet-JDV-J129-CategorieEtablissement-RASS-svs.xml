@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-   <ValueSet dateFin=""
+   <ValueSet dateFin="20260223120000"
              dateMaj="20260223120000"
              dateValid="20201127120000"
              description="Catégorie d'établissement du RASS"

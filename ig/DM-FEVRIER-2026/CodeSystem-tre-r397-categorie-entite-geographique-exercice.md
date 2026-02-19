@@ -21,6 +21,7 @@ Catégorie d’établissements - TRE Hierarchique qui remplace la TRE R66
 * [JdvJ308CategorieEntiteGeographiqueExerciceNiv2Finess](ValueSet-jdv-j308-categorie-entite-geographique-exercice-niv2-finess.md)
 * [JdvJ309CategorieEntiteGeographiqueExerciceNiv3Finess](ValueSet-jdv-j309-categorie-entite-geographique-exercice-niv3-finess.md)
 * [JdvJ310CategorieEntiteGeographiqueExerciceFiness](ValueSet-jdv-j310-categorie-entite-geographique-exercice-finess.md)
+* [JdvJ380CategorieEntiteGeographiqueExerciceRass](ValueSet-jdv-j380-categorie-entite-geographique-exercice-rass.md)
 
 
 
@@ -74,7 +75,7 @@ Catégorie d’établissements - TRE Hierarchique qui remplace la TRE R66
   "caseSensitive" : false,
   "hierarchyMeaning" : "is-a",
   "content" : "complete",
-  "count" : 427,
+  "count" : 428,
   "property" : [
     {
       "code" : "niveau",
@@ -7425,7 +7426,7 @@ Catégorie d’établissements - TRE Hierarchique qui remplace la TRE R66
     },
     {
       "code" : "166",
-      "display" : "Etablissement d'Accueil Mère-Enfant",
+      "display" : "Centre Parents-Enfants de moins de 3 ans",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -7458,7 +7459,7 @@ Catégorie d’établissements - TRE Hierarchique qui remplace la TRE R66
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2005-07-06T00:00:00+01:00"
+          "valueDateTime" : "2026-02-23T00:00:00+01:00"
         },
         {
           "code" : "status",
@@ -10000,20 +10001,20 @@ Catégorie d’établissements - TRE Hierarchique qui remplace la TRE R66
           "valueDateTime" : "1979-01-01T00:00:00+01:00"
         },
         {
-          "code" : "dateFin",
-          "valueDateTime" : "2025-12-22T00:00:00+01:00"
-        },
-        {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-12-22T00:00:00+01:00"
-        },
-        {
-          "code" : "deprecationDate",
-          "valueDateTime" : "2025-12-22T00:00:00+01:00"
+          "valueDateTime" : "2005-07-06T00:00:00+01:00"
         },
         {
           "code" : "status",
-          "valueCode" : "deprecated"
+          "valueCode" : "active"
+        },
+        {
+          "code" : "rass",
+          "valueBoolean" : true
+        },
+        {
+          "code" : "ror",
+          "valueBoolean" : true
         },
         {
           "code" : "cisis",
@@ -10110,20 +10111,20 @@ Catégorie d’établissements - TRE Hierarchique qui remplace la TRE R66
           "valueDateTime" : "1979-01-01T00:00:00+01:00"
         },
         {
-          "code" : "dateFin",
-          "valueDateTime" : "2025-12-22T00:00:00+01:00"
-        },
-        {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-12-22T00:00:00+01:00"
-        },
-        {
-          "code" : "deprecationDate",
-          "valueDateTime" : "2025-12-22T00:00:00+01:00"
+          "valueDateTime" : "1990-01-05T00:00:00+01:00"
         },
         {
           "code" : "status",
-          "valueCode" : "deprecated"
+          "valueCode" : "active"
+        },
+        {
+          "code" : "rass",
+          "valueBoolean" : true
+        },
+        {
+          "code" : "ror",
+          "valueBoolean" : true
         },
         {
           "code" : "cisis",
@@ -12902,7 +12903,7 @@ Catégorie d’établissements - TRE Hierarchique qui remplace la TRE R66
     },
     {
       "code" : "286",
-      "display" : "Club Equipe de Prévention",
+      "display" : "Service de prévention spécialisée",
       "designation" : [
         {
           "language" : "fr-FR",
@@ -12943,7 +12944,7 @@ Catégorie d’établissements - TRE Hierarchique qui remplace la TRE R66
         },
         {
           "code" : "dateMaj",
-          "valueDateTime" : "2005-07-06T00:00:00+01:00"
+          "valueDateTime" : "2026-02-23T00:00:00+01:00"
         },
         {
           "code" : "status",
@@ -14418,20 +14419,20 @@ Catégorie d’établissements - TRE Hierarchique qui remplace la TRE R66
           "valueDateTime" : "1979-01-01T00:00:00+01:00"
         },
         {
-          "code" : "dateFin",
-          "valueDateTime" : "2025-12-22T00:00:00+01:00"
-        },
-        {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-12-22T00:00:00+01:00"
-        },
-        {
-          "code" : "deprecationDate",
-          "valueDateTime" : "2025-12-22T00:00:00+01:00"
+          "valueDateTime" : "2005-07-06T00:00:00+01:00"
         },
         {
           "code" : "status",
-          "valueCode" : "deprecated"
+          "valueCode" : "active"
+        },
+        {
+          "code" : "rass",
+          "valueBoolean" : true
+        },
+        {
+          "code" : "ror",
+          "valueBoolean" : true
         },
         {
           "code" : "cisis",
@@ -15053,20 +15054,20 @@ Catégorie d’établissements - TRE Hierarchique qui remplace la TRE R66
           "valueDateTime" : "1979-01-01T00:00:00+01:00"
         },
         {
-          "code" : "dateFin",
-          "valueDateTime" : "2025-12-22T00:00:00+01:00"
-        },
-        {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-12-22T00:00:00+01:00"
-        },
-        {
-          "code" : "deprecationDate",
-          "valueDateTime" : "2025-12-22T00:00:00+01:00"
+          "valueDateTime" : "1979-01-23T00:00:00+01:00"
         },
         {
           "code" : "status",
-          "valueCode" : "deprecated"
+          "valueCode" : "active"
+        },
+        {
+          "code" : "rass",
+          "valueBoolean" : true
+        },
+        {
+          "code" : "ror",
+          "valueBoolean" : true
         },
         {
           "code" : "cisis",
@@ -15627,20 +15628,20 @@ Catégorie d’établissements - TRE Hierarchique qui remplace la TRE R66
           "valueDateTime" : "1979-01-01T00:00:00+01:00"
         },
         {
-          "code" : "dateFin",
-          "valueDateTime" : "2025-12-22T00:00:00+01:00"
-        },
-        {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-12-22T00:00:00+01:00"
-        },
-        {
-          "code" : "deprecationDate",
-          "valueDateTime" : "2025-12-22T00:00:00+01:00"
+          "valueDateTime" : "1979-01-23T00:00:00+01:00"
         },
         {
           "code" : "status",
-          "valueCode" : "deprecated"
+          "valueCode" : "active"
+        },
+        {
+          "code" : "rass",
+          "valueBoolean" : true
+        },
+        {
+          "code" : "ror",
+          "valueBoolean" : true
         },
         {
           "code" : "cisis",
@@ -17349,20 +17350,20 @@ Catégorie d’établissements - TRE Hierarchique qui remplace la TRE R66
           "valueDateTime" : "1979-01-01T00:00:00+01:00"
         },
         {
-          "code" : "dateFin",
-          "valueDateTime" : "2025-12-22T00:00:00+01:00"
-        },
-        {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-12-22T00:00:00+01:00"
-        },
-        {
-          "code" : "deprecationDate",
-          "valueDateTime" : "2025-12-22T00:00:00+01:00"
+          "valueDateTime" : "1982-11-19T00:00:00+01:00"
         },
         {
           "code" : "status",
-          "valueCode" : "deprecated"
+          "valueCode" : "active"
+        },
+        {
+          "code" : "rass",
+          "valueBoolean" : true
+        },
+        {
+          "code" : "ror",
+          "valueBoolean" : true
         },
         {
           "code" : "cisis",
@@ -17514,20 +17515,20 @@ Catégorie d’établissements - TRE Hierarchique qui remplace la TRE R66
           "valueDateTime" : "1979-01-01T00:00:00+01:00"
         },
         {
-          "code" : "dateFin",
-          "valueDateTime" : "2025-12-22T00:00:00+01:00"
-        },
-        {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-12-22T00:00:00+01:00"
-        },
-        {
-          "code" : "deprecationDate",
-          "valueDateTime" : "2025-12-22T00:00:00+01:00"
+          "valueDateTime" : "1994-07-05T00:00:00+01:00"
         },
         {
           "code" : "status",
-          "valueCode" : "deprecated"
+          "valueCode" : "active"
+        },
+        {
+          "code" : "rass",
+          "valueBoolean" : true
+        },
+        {
+          "code" : "ror",
+          "valueBoolean" : true
         },
         {
           "code" : "cisis",
@@ -17632,20 +17633,20 @@ Catégorie d’établissements - TRE Hierarchique qui remplace la TRE R66
           "valueDateTime" : "1979-01-01T00:00:00+01:00"
         },
         {
-          "code" : "dateFin",
-          "valueDateTime" : "2025-12-22T00:00:00+01:00"
-        },
-        {
           "code" : "dateMaj",
-          "valueDateTime" : "2025-12-22T00:00:00+01:00"
-        },
-        {
-          "code" : "deprecationDate",
-          "valueDateTime" : "2025-12-22T00:00:00+01:00"
+          "valueDateTime" : "1982-12-08T00:00:00+01:00"
         },
         {
           "code" : "status",
-          "valueCode" : "deprecated"
+          "valueCode" : "active"
+        },
+        {
+          "code" : "rass",
+          "valueBoolean" : true
+        },
+        {
+          "code" : "ror",
+          "valueBoolean" : true
         },
         {
           "code" : "cisis",
@@ -22619,6 +22620,62 @@ Catégorie d’établissements - TRE Hierarchique qui remplace la TRE R66
         {
           "code" : "dateMaj",
           "valueDateTime" : "2025-12-22T12:00:00+01:00"
+        },
+        {
+          "code" : "status",
+          "valueCode" : "active"
+        },
+        {
+          "code" : "rass",
+          "valueBoolean" : true
+        },
+        {
+          "code" : "ror",
+          "valueBoolean" : true
+        },
+        {
+          "code" : "cisis",
+          "valueBoolean" : true
+        }
+      ]
+    },
+    {
+      "code" : "650",
+      "display" : "Dispositifs Spécifiques Régionaux en périnatalité",
+      "definition" : "Les DSRP ont pour mission principale l’animation régionale des professionnels de la périnatalité et l’accompagnement des évolutions de l’offre et des pratiques, dans un contexte marqué par des enjeux forts en matière de qualité des soins, de prévention, de démographie médicale et d’organisation des parcours. Ils contribuent à la lisibilité et à la cohérence de l’offre de soins périnatals sur les territoires, en favorisant la coordination entre la ville, l’hôpital et les services de protection maternelle et infantile (PMI).",
+      "designation" : [
+        {
+          "language" : "fr-FR",
+          "use" : {
+            "system" : "http://snomed.info/sct",
+            "code" : "900000000000013009"
+          },
+          "value" : "D.S.R.P."
+        }
+      ],
+      "property" : [
+        {
+          "code" : "niveau",
+          "valueInteger" : 4
+        },
+        {
+          "code" : "domaine",
+          "valueCoding" : {
+            "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
+            "code" : "SAN"
+          }
+        },
+        {
+          "code" : "parent",
+          "valueCode" : "3408"
+        },
+        {
+          "code" : "dateValid",
+          "valueDateTime" : "2026-02-23T12:00:00+01:00"
+        },
+        {
+          "code" : "dateMaj",
+          "valueDateTime" : "2026-02-23T12:00:00+01:00"
         },
         {
           "code" : "status",

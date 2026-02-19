@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J99-InseeNAFrav2Niveau5-RASS/FHIR/JDV-J99-InseeNAFrav2Niveau5-RASS | *Version*:20200424120000 | |
-| Active as of 2020-04-24 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J99_InseeNAFrav2Niveau5_RASS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J99-InseeNAFrav2Niveau5-RASS/FHIR/JDV-J99-InseeNAFrav2Niveau5-RASS | *Version*:20260223120000 | |
+| Retired as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J99_InseeNAFrav2Niveau5_RASS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.167 | | |
 
  
@@ -32,6 +32,8 @@ Requête sur le SMT
  
 
 ### Expansion
+
+Expansions are not generated for retired value sets
 
 -------
 
@@ -56,7 +58,7 @@ Requête sur le SMT
   "id" : "JDV-J99-InseeNAFrav2Niveau5-RASS",
   "meta" : {
     "versionId" : "4",
-    "lastUpdated" : "2025-07-02T17:07:01.111+00:00",
+    "lastUpdated" : "2026-02-23T17:07:01.111+00:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
@@ -66,7 +68,8 @@ Requête sur le SMT
     {
       "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
       "valuePeriod" : {
-        "start" : "2019-08-30T12:00:00+01:00"
+        "start" : "2019-08-30T12:00:00+01:00",
+        "end" : "2026-02-23T12:00:00+01:00"
       }
     }
   ],
@@ -77,11 +80,11 @@ Requête sur le SMT
       "value" : "urn:oid:1.2.250.1.213.1.6.1.167"
     }
   ],
-  "version" : "20200424120000",
+  "version" : "20260223120000",
   "name" : "JDV_J99_InseeNAFrav2Niveau5_RASS",
-  "status" : "active",
+  "status" : "retired",
   "experimental" : false,
-  "date" : "2020-04-24T12:00:00+01:00",
+  "date" : "2026-02-23T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Sous-classes de la Nomenclature Activités Française (INSEE) des prof du RASS",
   "jurisdiction" : [

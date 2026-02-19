@@ -12,7 +12,6 @@ Vous touverez ici la liste des JDV du NOS.
 | :--- | :--- | :--- |
 | Name | Description | date_maj |
 | [JdvJ273EspicFiness](ValueSet-jdv-j273-espic-finess.md) | Jeu de valeurs contenant les établissements de santé privés d'intérêt collectif pour FINESS | 23/02/2026 |
-| [JdvJ293TypeEngagementFiness](ValueSet-jdv-j293-type-engagement-finess.md) | Jeu de valeurs FINESS contenant les grands types d'engagement pouvant être associés dans FINESS+ à des structures ou des activités. | 23/02/2026 |
 | [JdvJ301FinessStatutJuridiqueNiv1Finess](ValueSet-jdv-j301-finess-statut-juridique-niv1-finess.md) | Jeu de valeurs FINESS contenant les statuts juridiques de niveau 1 | 23/02/2026 |
 | [JdvJ302FinessStatutJuridiqueNiv2Finess](ValueSet-jdv-j302-finess-statut-juridique-niv2-finess.md) | Jeu de valeurs FINESS contenant les statuts juridiques de niveau 2 | 23/02/2026 |
 | [JdvJ303FinessStatutJuridiqueNiv3Finess](ValueSet-jdv-j303-finess-statut-juridique-niv3-finess.md) | Jeu de valeurs FINESS contenant les statuts juridiques de niveau 3 | 23/02/2026 |
@@ -32,6 +31,9 @@ Vous touverez ici la liste des JDV du NOS.
 | [JdvJ328PublicActiviteSmsseReguleeFiness](ValueSet-jdv-j328-public-activite-smsse-regulee-finess.md) | Jeu de valeurs FINESS contenant les codes des publics des activités régulées de niveau 3 | 23/02/2026 |
 | [JdvJ329PublicActiviteSmsseReguleeNiv1Finess](ValueSet-jdv-j329-public-activite-smsse-regulee-niv1-finess.md) | Jeu de valeurs FINESS contenant les codes des publics des activités régulées de niveau 1 | 23/02/2026 |
 | [JdvJ330PublicActiviteSmsseReguleeNiv2Finess](ValueSet-jdv-j330-public-activite-smsse-regulee-niv2-finess.md) | Jeu de valeurs FINESS contenant les codes des publics des activités régulées de niveau 2 | 23/02/2026 |
+| [JdvJ376PublicActiviteSmsseReguleeRass](ValueSet-jdv-j376-public-activite-smsse-regulee-rass.md) | Jeu de valeurs RASS contenant les codes actifs des publics des activités régulées de niveau 3 | 23/02/2026 |
+| [JdvJ379ActiviteSocialeReguleeRass](ValueSet-jdv-j379-activite-sociale-regulee-rass.md) | Activités sociales régulées pour le RASS | 23/02/2026 |
+| [JdvJ380CategorieEntiteGeographiqueExerciceRass](ValueSet-jdv-j380-categorie-entite-geographique-exercice-rass.md) | Catégories d'établissements FINESS | 23/02/2026 |
 | [JdvJ366StatutBilanProjetPersonnaliseMs](ValueSet-jdv-j366-statut-bilan-projet-personnalise-ms.md) | Statut du bilan du projet personnalisé. | 15/04/2025 |
 | [JdvJ367TypeProjetPersonnaliseMs](ValueSet-jdv-j367-type-projet-personnalise-ms.md) | Cette nomenclature donne le type de projet personnalisé qui est un document co-construit par l'usager, son entourage familial et professionnel du médico-social. | 15/04/2025 |
 | [JdvJ368CategorieEtablissementCisis](ValueSet-jdv-j368-categorie-etablissement-cisis.md) | JDV à l'image de l'ensemble des valeurs actives de la terminologie TRE_R66-CategorieEtablissement | 22/04/2025 |
@@ -125,7 +127,6 @@ Vous touverez ici la liste des JDV du NOS.
 | [JDV_J96_TypeActiviteLiberale_RASS](ValueSet-JDV-J96-TypeActiviteLiberale-RASS.md) | Types d'activité libérale des professionnels du RASS | 24/04/2020 |
 | [JDV_J97_StatutProfessionnelSSA_RASS](ValueSet-JDV-J97-StatutProfessionnelSSA-RASS.md) | Statuts des professionnels du Service de Santé des Armées dans le RASS | 24/04/2020 |
 | [JDV_J98_StatutHospitalier_RASS](ValueSet-JDV-J98-StatutHospitalier-RASS.md) | Statut des professionnels intervenant dans un hôpital dans le RASS | 23/02/2026 |
-| [JDV_J99_InseeNAFrav2Niveau5_RASS](ValueSet-JDV-J99-InseeNAFrav2Niveau5-RASS.md) | Sous-classes de la Nomenclature Activités Française (INSEE) des prof du RASS | 24/04/2020 |
 | [JDV_J100_FinessStatutJuridique_RASS](ValueSet-JDV-J100-FinessStatutJuridique-RASS.md) | Statut juridique FINESS dans le RASS | 24/04/2020 |
 | [JDV_J101_SecteurActivite_RASS](ValueSet-JDV-J101-SecteurActivite-RASS.md) | Secteurs d'activité des établissements avec la même activité dans le RASS | 23/02/2026 |
 | [JDV_J103_TypeVoie_RASS](ValueSet-JDV-J103-TypeVoie-RASS.md) | Type de voie du professionnel du RASS | 24/04/2020 |
@@ -151,14 +152,12 @@ Vous touverez ici la liste des JDV du NOS.
 | [JDV_J126_SecteurActivite_ENREG](ValueSet-JDV-J126-SecteurActivite-ENREG.md) | Table des Secteur d'activité des structures Siret uniquement utilisé par ENREG pour enregistrer les structures absentes des référentiels de l'ANS. | 23/05/2025 |
 | [JDV_J127_StatutJuridique_ENREG](ValueSet-JDV-J127-StatutJuridique-ENREG.md) | Jeu de valeur sur les statuts juridiques pour ENREG | 15/12/2023 |
 | [JDV_J128_TypeCarte_RASS](ValueSet-JDV-J128-TypeCarte-RASS.md) | Type de carte dans le RASS | 27/11/2020 |
-| [JDV_J129_CategorieEtablissement_RASS](ValueSet-JDV-J129-CategorieEtablissement-RASS.md) | Catégorie d'établissement du RASS | 23/02/2026 |
 | [JDV_J130_CNAMAmeliSecteurConventionnement_RASS](ValueSet-JDV-J130-CNAMAmeliSecteurConventionnement-RASS.md) | Secteur de conventionnement du professionnel libéral | 27/11/2020 |
 | [JDV_J132_ModaliteActivite_RASS](ValueSet-JDV-J132-ModaliteActivite-RASS.md) | Mode d'application ou type de soins encadrant une activité dans le RASS | 25/03/2022 |
 | [JDV_J133_ActiviteSanitaireRegulee_RASS](ValueSet-JDV-J133-ActiviteSanitaireRegulee-RASS.md) | Activités sanitaires soumises à une régulation de la part de l'ARS dans le RASS | 27/11/2020 |
 | [JDV_J134_FormeActivite_RASS](ValueSet-JDV-J134-FormeActivite-RASS.md) | Type d'organisation de prise en charge du RASS | 28/06/2024 |
 | [JDV_J135_EquipementMaterielLourd_RASS](ValueSet-JDV-J135-EquipementMaterielLourd-RASS.md) | Equipements Matériels Lourds dans le RASS | 27/11/2020 |
-| [JDV_J136_DisciplineEquipementSocial_RASS](ValueSet-JDV-J136-DisciplineEquipementSocial-RASS.md) | Disciplines d'équipement pour le social dans le RASS | 30/09/2022 |
-| [JDV_J137_Clientele_RASS](ValueSet-JDV-J137-Clientele-RASS.md) | Population prise en charge par l'établissement dans le cadre | 27/09/2024 |
+| [JDV_J137_Clientele_RASS](ValueSet-JDV-J137-Clientele-RASS.md) | Population prise en charge par l'établissement dans le cadre | 23/02/2026 |
 | [JDV_J138_TypeActivite_RASS](ValueSet-JDV-J138-TypeActivite-RASS.md) | Type d'activité dans le RASS | 23/02/2024 |
 | [JDV_J139_TypeBAL_RASS](ValueSet-JDV-J139-TypeBAL-RASS.md) | Type de boîte aux lettres dans le RASS | 24/11/2023 |
 | [JDV_J140_EncounterParticipationType_CISIS](ValueSet-JDV-J140-EncounterParticipationType-CISIS.md) | JDV_J140-EncounterParticipationType-CISIS | 26/03/2021 |

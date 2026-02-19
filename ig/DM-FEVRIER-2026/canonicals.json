@@ -858,7 +858,7 @@
     "id" : "JDV-J136-DisciplineEquipementSocial-RASS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J136-DisciplineEquipementSocial-RASS/FHIR/JDV-J136-DisciplineEquipementSocial-RASS",
-    "version" : "20220930120000",
+    "version" : "20260223120000",
     "name" : "JDV_J136_DisciplineEquipementSocial_RASS",
     "oids" : ["1.2.250.1.213.1.6.1.222"]
   },
@@ -866,7 +866,7 @@
     "id" : "JDV-J137-Clientele-RASS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J137-Clientele-RASS/FHIR/JDV-J137-Clientele-RASS",
-    "version" : "20240927120000",
+    "version" : "20260223120000",
     "name" : "JDV_J137_Clientele_RASS",
     "oids" : ["1.2.250.1.213.1.6.1.223"]
   },
@@ -2562,7 +2562,7 @@
     "id" : "JDV-J99-InseeNAFrav2Niveau5-RASS",
     "type" : "ValueSet",
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J99-InseeNAFrav2Niveau5-RASS/FHIR/JDV-J99-InseeNAFrav2Niveau5-RASS",
-    "version" : "20200424120000",
+    "version" : "20260223120000",
     "name" : "JDV_J99_InseeNAFrav2Niveau5_RASS",
     "oids" : ["1.2.250.1.213.1.6.1.167"]
   },
@@ -4768,14 +4768,6 @@
     "oids" : ["1.2.250.1.213.1.6.1.375"]
   },
   {
-    "id" : "tre-r395-engagement",
-    "type" : "CodeSystem",
-    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r395-engagement",
-    "version" : "20260223120000",
-    "name" : "TreR395Engagement",
-    "oids" : ["1.2.250.1.213.1.6.1.376"]
-  },
-  {
     "id" : "tre-r397-categorie-entite-geographique-exercice",
     "type" : "CodeSystem",
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
@@ -6427,14 +6419,6 @@
     "oids" : ["1.2.250.1.213.1.6.1.280"]
   },
   {
-    "id" : "jdv-j293-type-engagement-finess",
-    "type" : "ValueSet",
-    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j293-type-engagement-finess",
-    "version" : "20260223120000",
-    "name" : "JdvJ293TypeEngagementFiness",
-    "oids" : ["1.2.250.1.213.1.6.1.267"]
-  },
-  {
     "id" : "jdv-j301-finess-statut-juridique-niv1-finess",
     "type" : "ValueSet",
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j301-finess-statut-juridique-niv1-finess",
@@ -6617,6 +6601,30 @@
     "version" : "20250521120000",
     "name" : "JdvJ370TypeContratSejourMs",
     "oids" : ["1.2.250.1.213.3.4.223"]
+  },
+  {
+    "id" : "jdv-j376-public-activite-smsse-regulee-rass",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j376-public-activite-smsse-regulee-rass",
+    "version" : "20260223120000",
+    "name" : "JdvJ376PublicActiviteSmsseReguleeRass",
+    "oids" : ["1.2.250.1.213.1.6.1.390"]
+  },
+  {
+    "id" : "jdv-j379-activite-sociale-regulee-rass",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j379-activite-sociale-regulee-rass",
+    "version" : "20260223120000",
+    "name" : "JdvJ379ActiviteSocialeReguleeRass",
+    "oids" : ["1.2.250.1.213.1.6.1.392"]
+  },
+  {
+    "id" : "jdv-j380-categorie-entite-geographique-exercice-rass",
+    "type" : "ValueSet",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j380-categorie-entite-geographique-exercice-rass",
+    "version" : "20260223120000",
+    "name" : "JdvJ380CategorieEntiteGeographiqueExerciceRass",
+    "oids" : ["1.2.250.1.213.1.6.1.393"]
   },
   {
     "id" : "jdv-j383-motif-cloture-exercice-professionnel-epars",

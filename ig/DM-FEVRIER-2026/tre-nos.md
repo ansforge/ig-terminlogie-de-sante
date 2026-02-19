@@ -11,7 +11,6 @@ Vous touverez ici la liste des terminologies du NOS.
 | | | |
 | :--- | :--- | :--- |
 | Name | Description | date_maj |
-| [TreR395Engagement](CodeSystem-tre-r395-engagement.md) | Nomenclature des engagements associés dans FINESS+ aux Personnes morales, aux entités géographique, aux groupements ou à leurs activités | 23/02/2026 |
 | [TreR397CategorieEntiteGeographiqueExercice](CodeSystem-tre-r397-categorie-entite-geographique-exercice.md) | Catégorie d'établissements - TRE Hierarchique qui remplace la TRE R66 | 23/02/2026 |
 | [TreR389StatutBilanProjetPersonnalise](CodeSystem-tre-r389-statut-bilan-projet-personnalise.md) | Statut du bilan du projet personnalisé. | 18/04/2025 |
 | [TreR390TypeProjetPersonnalise](CodeSystem-tre-r390-type-projet-personnalise.md) | Cette nomenclature donne le type de projet personnalisé qui est un document co-construit par l'usager, son entourage familial et professionnel du médico-social. | 22/04/2025 |

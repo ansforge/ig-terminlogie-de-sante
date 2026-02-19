@@ -2520,7 +2520,7 @@
                   displayName="Equipe Mobile de Psychiatrie de l’Enfant et de l’Adolescent (EMPEA)"
                   longDesignation="Equipe Mobile de Psychiatrie de l’Enfant et de l’Adolescent (EMPEA)"
                   shortDesignation="EMPEA"
-                  descriptionMetier="Le centre d'accueil et de crise (CAC) est un dispositif d'accueil en continu répondant au besoin non programmé d'évaluation et d'orientation du patient relevant d'une situation clinique de crise. Le centre peut disposer de lits d'hospitalisation de très courte durée permettant d'initier la prise en charge thérapeutique du patient dans une perspective de relai vers un autre mode de prise en charge."/>
+                  descriptionMetier="Les équipes mobiles en psychiatrie de l’enfant et de l’adolescent (EMPEA) sont diversifiées mais partagent des principes communs. Cette équipe pluridisciplinaire spécialisée intervient de façon mobile auprès d’enfants et d’adolescents présentant des troubles psychiques, afin d’évaluer la situation, soutenir les professionnels et faciliter l’accès à des soins adaptés sans se substituer aux dispositifs existants. Elle vise la prévention des ruptures de parcours, la coordination des acteurs et l’orientation vers les structures de soins appropriées. L’équipe mobile peut également intervenir en prévention d’hospitalisation et/ou en consolidation après une hospitalisation. Sur certains territoires les équipes mobiles n’interviennent qu’auprès des enfants de l’ASE."/>
          <Concept code="280"
                   codeSystem="1.2.250.1.213.3.3.39"
                   dateFin=""

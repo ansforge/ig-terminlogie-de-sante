@@ -21,6 +21,7 @@ Liste des activités sociales régulées organisée en 3 niveaux d’agrégation
 * [JdvJ324ActiviteSocialeReguleeNiv1Finess](ValueSet-jdv-j324-activite-sociale-regulee-niv1-finess.md)
 * [JdvJ325ActiviteSocialeReguleeNiv2Finess](ValueSet-jdv-j325-activite-sociale-regulee-niv2-finess.md)
 * [JdvJ326ActiviteSocialeReguleeNiv3Finess](ValueSet-jdv-j326-activite-sociale-regulee-niv3-finess.md)
+* [JdvJ379ActiviteSocialeReguleeRass](ValueSet-jdv-j379-activite-sociale-regulee-rass.md)
 
 
 

@@ -184,8 +184,8 @@
       "sources" : ["1.2.250.1.213.1.1.5.465"],
       "uses" : {
       },
-      "ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.html" : "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS",
-      "ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.html" : "ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS"
+      "ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.html" : "ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS",
+      "ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.html" : "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS"
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J100-FinessStatutJuridique-RASS/FHIR/JDV-J100-FinessStatutJuridique-RASS",
@@ -604,7 +604,7 @@
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J129-CategorieEtablissement-RASS/FHIR/JDV-J129-CategorieEtablissement-RASS",
       "version" : "20260223120000",
-      "status" : "active",
+      "status" : "retired",
       "name" : "JDV_J129_CategorieEtablissement_RASS",
       "title" : null,
       "description" : "Catégorie d'établissement du RASS",
@@ -714,8 +714,8 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J136-DisciplineEquipementSocial-RASS/FHIR/JDV-J136-DisciplineEquipementSocial-RASS",
-      "version" : "20220930120000",
-      "status" : "active",
+      "version" : "20260223120000",
+      "status" : "retired",
       "name" : "JDV_J136_DisciplineEquipementSocial_RASS",
       "title" : null,
       "description" : "Disciplines d'équipement pour le social dans le RASS",
@@ -727,7 +727,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J137-Clientele-RASS/FHIR/JDV-J137-Clientele-RASS",
-      "version" : "20240927120000",
+      "version" : "20260223120000",
       "status" : "active",
       "name" : "JDV_J137_Clientele_RASS",
       "title" : null,
@@ -3544,8 +3544,8 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J99-InseeNAFrav2Niveau5-RASS/FHIR/JDV-J99-InseeNAFrav2Niveau5-RASS",
-      "version" : "20200424120000",
-      "status" : "active",
+      "version" : "20260223120000",
+      "status" : "retired",
       "name" : "JDV_J99_InseeNAFrav2Niveau5_RASS",
       "title" : null,
       "description" : "Sous-classes de la Nomenclature Activités Française (INSEE) des prof du RASS",
@@ -5963,19 +5963,6 @@
       "sources" : ["1.2.250.1.213.1.6.1.280"]
     },
     {
-      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j293-type-engagement-finess",
-      "version" : "20260223120000",
-      "status" : "active",
-      "name" : "JdvJ293TypeEngagementFiness",
-      "title" : "Jdv J293 Type Engagement Finess",
-      "description" : "Jeu de valeurs FINESS contenant les grands types d'engagement pouvant être associés dans FINESS+ à des structures ou des activités.",
-      "systems" : [
-        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r395-engagement"
-      ],
-      "oids" : ["1.2.250.1.213.1.6.1.267"],
-      "sources" : ["1.2.250.1.213.1.6.1.267"]
-    },
-    {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j301-finess-statut-juridique-niv1-finess",
       "version" : "20260223120000",
       "status" : "active",
@@ -6273,6 +6260,45 @@
       ],
       "oids" : ["1.2.250.1.213.3.4.223"],
       "sources" : ["1.2.250.1.213.3.4.223"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j376-public-activite-smsse-regulee-rass",
+      "version" : "20260223120000",
+      "status" : "active",
+      "name" : "JdvJ376PublicActiviteSmsseReguleeRass",
+      "title" : "Jdv J376 Public Activite Smsse Regulee Rass",
+      "description" : "Jeu de valeurs RASS contenant les codes actifs des publics des activités régulées de niveau 3",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.390"],
+      "sources" : ["1.2.250.1.213.1.6.1.390"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j379-activite-sociale-regulee-rass",
+      "version" : "20260223120000",
+      "status" : "active",
+      "name" : "JdvJ379ActiviteSocialeReguleeRass",
+      "title" : "Jdv J379 Activite Sociale Regulee Rass",
+      "description" : "Activités sociales régulées pour le RASS",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.392"],
+      "sources" : ["1.2.250.1.213.1.6.1.392"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j380-categorie-entite-geographique-exercice-rass",
+      "version" : "20260223120000",
+      "status" : "active",
+      "name" : "JdvJ380CategorieEntiteGeographiqueExerciceRass",
+      "title" : "Jdv J380 Categorie Entite Geographique Exercice Rass",
+      "description" : "Catégories d'établissements FINESS",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice"
+      ],
+      "oids" : ["1.2.250.1.213.1.6.1.393"],
+      "sources" : ["1.2.250.1.213.1.6.1.393"]
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j383-motif-cloture-exercice-professionnel-epars",
@@ -9835,8 +9861,8 @@
       "systems" : ["https://smt.esante.gouv.fr/terminologie-cip_ucd"],
       "uses" : {
       },
-      "ConceptMap-alignement-nuva-cipucd.html" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD",
-      "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD"
+      "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD",
+      "ConceptMap-alignement-nuva-cipucd.html" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD"
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-nuva?vs",
@@ -9848,8 +9874,8 @@
       "systems" : ["https://smt.esante.gouv.fr/terminologie-nuva"],
       "uses" : {
       },
-      "ConceptMap-alignement-nuva-cipucd.html" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD",
-      "ConceptMap-alignement-nuva-bdpm.html" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM"
+      "ConceptMap-alignement-nuva-bdpm.html" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM",
+      "ConceptMap-alignement-nuva-cipucd.html" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD"
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-sms?vs",

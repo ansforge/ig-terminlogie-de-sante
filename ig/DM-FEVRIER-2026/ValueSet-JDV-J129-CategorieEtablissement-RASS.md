@@ -9,7 +9,7 @@
 | | | |
 | :--- | :--- | :--- |
 | *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J129-CategorieEtablissement-RASS/FHIR/JDV-J129-CategorieEtablissement-RASS | *Version*:20260223120000 | |
-| Active as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J129_CategorieEtablissement_RASS |
+| Retired as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J129_CategorieEtablissement_RASS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.215 | | |
 
  
@@ -32,6 +32,8 @@ Requête sur le SMT
  
 
 ### Expansion
+
+Expansions are not generated for retired value sets
 
 -------
 
@@ -56,7 +58,7 @@ Requête sur le SMT
   "id" : "JDV-J129-CategorieEtablissement-RASS",
   "meta" : {
     "versionId" : "15",
-    "lastUpdated" : "2025-12-22T10:46:27.829+01:00",
+    "lastUpdated" : "2026-02-23T10:46:27.829+01:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
@@ -66,7 +68,8 @@ Requête sur le SMT
     {
       "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
       "valuePeriod" : {
-        "start" : "2020-11-27T12:00:00+01:00"
+        "start" : "2020-11-27T12:00:00+01:00",
+        "end" : "2026-02-23T12:00:00+01:00"
       }
     }
   ],
@@ -79,7 +82,7 @@ Requête sur le SMT
   ],
   "version" : "20260223120000",
   "name" : "JDV_J129_CategorieEtablissement_RASS",
-  "status" : "active",
+  "status" : "retired",
   "experimental" : false,
   "date" : "2026-02-23T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",

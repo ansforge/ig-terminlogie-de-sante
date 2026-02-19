@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J136-DisciplineEquipementSocial-RASS/FHIR/JDV-J136-DisciplineEquipementSocial-RASS | *Version*:20220930120000 | |
-| Active as of 2022-09-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J136_DisciplineEquipementSocial_RASS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J136-DisciplineEquipementSocial-RASS/FHIR/JDV-J136-DisciplineEquipementSocial-RASS | *Version*:20260223120000 | |
+| Retired as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J136_DisciplineEquipementSocial_RASS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.222 | | |
 
  
@@ -32,6 +32,8 @@ Requête sur le SMT
  
 
 ### Expansion
+
+Expansions are not generated for retired value sets
 
 -------
 
@@ -56,7 +58,7 @@ Requête sur le SMT
   "id" : "JDV-J136-DisciplineEquipementSocial-RASS",
   "meta" : {
     "versionId" : "4",
-    "lastUpdated" : "2025-07-02T17:05:02.279+00:00",
+    "lastUpdated" : "2026-02-23T17:05:02.279+00:00",
     "profile" : [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
     ]
@@ -66,7 +68,8 @@ Requête sur le SMT
     {
       "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
       "valuePeriod" : {
-        "start" : "2020-11-27T12:00:00+01:00"
+        "start" : "2020-11-27T12:00:00+01:00",
+        "end" : "2026-02-23T12:00:00+01:00"
       }
     }
   ],
@@ -77,11 +80,11 @@ Requête sur le SMT
       "value" : "urn:oid:1.2.250.1.213.1.6.1.222"
     }
   ],
-  "version" : "20220930120000",
+  "version" : "20260223120000",
   "name" : "JDV_J136_DisciplineEquipementSocial_RASS",
-  "status" : "active",
+  "status" : "retired",
   "experimental" : false,
-  "date" : "2022-09-30T12:00:00+01:00",
+  "date" : "2026-02-23T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Disciplines d'équipement pour le social dans le RASS",
   "jurisdiction" : [
