@@ -9958,7 +9958,7 @@ Description: "Catégorie d'établissements - TRE Hierarchique qui remplace la TR
 * #650 ^designation[=].use.system = "http://snomed.info/sct"
 * #650 ^designation[=].use = $sct#900000000000013009
 * #650 ^designation[=].value = "D.S.R.P."
-* #650 ^property[0].code = #dateValid
+* #650 ^property[+].code = #dateValid
 * #650 ^property[=].valueDateTime = "2026-02-23T12:00:00+01:00"
 * #650 ^property[+].code = #dateMaj
 * #650 ^property[=].valueDateTime = "2026-02-23T12:00:00+01:00"
