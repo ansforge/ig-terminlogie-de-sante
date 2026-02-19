@@ -3016,7 +3016,7 @@ Description: "Catégorie d'organisation"
 * #278 ^property[=].valueDateTime = "2025-10-17T12:00:00+01:00"
 * #278 ^property[+].code = #status
 * #278 ^property[=].valueCode = #active
-* #279 "Equipe Mobile de Psychiatrie de l’Enfant et de l’Adolescent (EMPEA)" "Le centre d'accueil et de crise (CAC) est un dispositif d'accueil en continu répondant au besoin non programmé d'évaluation et d'orientation du patient relevant d'une situation clinique de crise. Le centre peut disposer de lits d'hospitalisation de très courte durée permettant d'initier la prise en charge thérapeutique du patient dans une perspective de relai vers un autre mode de prise en charge."
+* #279 "Equipe Mobile de Psychiatrie de l’Enfant et de l’Adolescent (EMPEA)" "Les équipes mobiles en psychiatrie de l’enfant et de l’adolescent (EMPEA) sont diversifiées mais partagent des principes communs. Cette équipe pluridisciplinaire spécialisée intervient de façon mobile auprès d’enfants et d’adolescents présentant des troubles psychiques, afin d’évaluer la situation, soutenir les professionnels et faciliter l’accès à des soins adaptés sans se substituer aux dispositifs existants. Elle vise la prévention des ruptures de parcours, la coordination des acteurs et l’orientation vers les structures de soins appropriées. L’équipe mobile peut également intervenir en prévention d’hospitalisation et/ou en consolidation après une hospitalisation. Sur certains territoires les équipes mobiles n’interviennent qu’auprès des enfants de l’ASE."
 * #279 ^designation[0].language = #fr-FR
 * #279 ^designation[=].use.system = "http://snomed.info/sct"
 * #279 ^designation[=].use = $sct#900000000000013009
