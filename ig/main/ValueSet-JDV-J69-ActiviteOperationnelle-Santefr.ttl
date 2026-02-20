@@ -66,6 +66,7 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle>
        ] ;
+       fhir:version [ fhir:v "20251222120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "001" ] ;
          fhir:display [ fhir:v "Addictologie comportementale (sans substance)" ]
@@ -1422,6 +1423,7 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique>
        ] ;
+       fhir:version [ fhir:v "20251222120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "0897" ] ;
          fhir:display [ fhir:v "Vaccination contre la grippe" ]

@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "5",
     "lastUpdated" : "2025-07-02T17:05:55.061+00:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2022-08-26T12:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2022-08-26T12:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J220-FonctionContact-ROR/FHIR/JDV-J220-FonctionContact-ROR",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.3.4.52"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.3.4.52"
+  }],
   "version" : "20250131120000",
   "name" : "JDV_J220_FonctionContact_ROR",
   "status" : "active",
@@ -84,128 +78,121 @@ Requête sur le SMT
   "date" : "2025-01-31T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Un titre, une position, une fonction de la personne contact dans l'organisation",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R251-FonctionContact/FHIR/TRE-R251-FonctionContact",
+      "version" : "20250131120000",
+      "concept" : [{
+        "code" : "01",
+        "display" : "Directeur"
+      },
       {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R251-FonctionContact/FHIR/TRE-R251-FonctionContact",
-        "concept" : [
-          {
-            "code" : "01",
-            "display" : "Directeur"
-          },
-          {
-            "code" : "02",
-            "display" : "Assistant social"
-          },
-          {
-            "code" : "03",
-            "display" : "Cadre de santé"
-          },
-          {
-            "code" : "04",
-            "display" : "Médecin coordonnateur"
-          },
-          {
-            "code" : "05",
-            "display" : "Secrétaire"
-          },
-          {
-            "code" : "06",
-            "display" : "Président de CME"
-          },
-          {
-            "code" : "07",
-            "display" : "Référent PDSES"
-          },
-          {
-            "code" : "08",
-            "display" : "Infirmier coordonnateur"
-          },
-          {
-            "code" : "09",
-            "display" : "Infirmier de liaison"
-          },
-          {
-            "code" : "10",
-            "display" : "Chef de service"
-          },
-          {
-            "code" : "11",
-            "display" : "Chef de pôle"
-          },
-          {
-            "code" : "12",
-            "display" : "Référent ROR"
-          },
-          {
-            "code" : "13",
-            "display" : "Référent outil d'orientation SMR"
-          },
-          {
-            "code" : "15",
-            "display" : "Référent direction des services informatiques"
-          },
-          {
-            "code" : "16",
-            "display" : "Médecin DIM"
-          },
-          {
-            "code" : "18",
-            "display" : "Contact gestion de cas MAIA"
-          },
-          {
-            "code" : "19",
-            "display" : "Contact PTA"
-          },
-          {
-            "code" : "20",
-            "display" : "Chef de service éducatif"
-          },
-          {
-            "code" : "21",
-            "display" : "Coordonnateur CLIC"
-          },
-          {
-            "code" : "22",
-            "display" : "Responsable d'unité"
-          },
-          {
-            "code" : "23",
-            "display" : "Spécialiste en hygiène prévention contrôle des Infections Associées aux Soins (IAS)"
-          },
-          {
-            "code" : "24",
-            "display" : "Responsable du signalement des Infections Associées aux Soins (IAS)"
-          },
-          {
-            "code" : "25",
-            "display" : "Référent en antibiothérapie"
-          },
-          {
-            "code" : "26",
-            "display" : "Coordonnateur de la gestion des risques associés aux soins"
-          },
-          {
-            "code" : "27",
-            "display" : "Responsable du Bed Management"
-          },
-          {
-            "code" : "28",
-            "display" : "Référent Handicap"
-          }
-        ]
-      }
-    ]
+        "code" : "02",
+        "display" : "Assistant social"
+      },
+      {
+        "code" : "03",
+        "display" : "Cadre de santé"
+      },
+      {
+        "code" : "04",
+        "display" : "Médecin coordonnateur"
+      },
+      {
+        "code" : "05",
+        "display" : "Secrétaire"
+      },
+      {
+        "code" : "06",
+        "display" : "Président de CME"
+      },
+      {
+        "code" : "07",
+        "display" : "Référent PDSES"
+      },
+      {
+        "code" : "08",
+        "display" : "Infirmier coordonnateur"
+      },
+      {
+        "code" : "09",
+        "display" : "Infirmier de liaison"
+      },
+      {
+        "code" : "10",
+        "display" : "Chef de service"
+      },
+      {
+        "code" : "11",
+        "display" : "Chef de pôle"
+      },
+      {
+        "code" : "12",
+        "display" : "Référent ROR"
+      },
+      {
+        "code" : "13",
+        "display" : "Référent outil d'orientation SMR"
+      },
+      {
+        "code" : "15",
+        "display" : "Référent direction des services informatiques"
+      },
+      {
+        "code" : "16",
+        "display" : "Médecin DIM"
+      },
+      {
+        "code" : "18",
+        "display" : "Contact gestion de cas MAIA"
+      },
+      {
+        "code" : "19",
+        "display" : "Contact PTA"
+      },
+      {
+        "code" : "20",
+        "display" : "Chef de service éducatif"
+      },
+      {
+        "code" : "21",
+        "display" : "Coordonnateur CLIC"
+      },
+      {
+        "code" : "22",
+        "display" : "Responsable d'unité"
+      },
+      {
+        "code" : "23",
+        "display" : "Spécialiste en hygiène prévention contrôle des Infections Associées aux Soins (IAS)"
+      },
+      {
+        "code" : "24",
+        "display" : "Responsable du signalement des Infections Associées aux Soins (IAS)"
+      },
+      {
+        "code" : "25",
+        "display" : "Référent en antibiothérapie"
+      },
+      {
+        "code" : "26",
+        "display" : "Coordonnateur de la gestion des risques associés aux soins"
+      },
+      {
+        "code" : "27",
+        "display" : "Responsable du Bed Management"
+      },
+      {
+        "code" : "28",
+        "display" : "Référent Handicap"
+      }]
+    }]
   }
 }
 

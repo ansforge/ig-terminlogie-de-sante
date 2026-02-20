@@ -16,7 +16,7 @@
   "name" : "ValueSet_BDPM_All",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-19T05:24:52+00:00",
+  "date" : "2026-02-20T05:21:29+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Ce jeu de valeurs inclut tous les codes de la terminologie BDPM",
   "jurisdiction" : [{
@@ -27,7 +27,8 @@
   }],
   "compose" : {
     "include" : [{
-      "system" : "https://smt.esante.gouv.fr/terminologie-bdpm"
+      "system" : "https://smt.esante.gouv.fr/terminologie-bdpm",
+      "version" : "2026-02-03"
     }]
   }
 }

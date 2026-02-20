@@ -59,18 +59,14 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "meta" : {
     "versionId" : "1",
     "lastUpdated" : "2025-10-09T16:26:28.575+02:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/VS-test",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.522.777.777"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.522.777.777"
+  }],
   "version" : "20210101000000",
   "name" : "VS_test",
   "title" : "VS-test",
@@ -79,36 +75,28 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "date" : "2021-01-01T00:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "VS-test",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322",
+      "concept" : [{
+        "code" : "MED-816",
+        "display" : "Métastase(s) hépatique(s) seule(s)"
+      },
       {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322",
-        "concept" : [
-          {
-            "code" : "MED-816",
-            "display" : "Métastase(s) hépatique(s) seule(s)"
-          },
-          {
-            "code" : "MED-817",
-            "display" : "Métastase(s) extrahépatique(s) seule(s)"
-          },
-          {
-            "code" : "MED-818",
-            "display" : "Métastase(s) hépatique(s) et métastase(s) extrahépatique(s)"
-          }
-        ]
-      }
-    ]
+        "code" : "MED-817",
+        "display" : "Métastase(s) extrahépatique(s) seule(s)"
+      },
+      {
+        "code" : "MED-818",
+        "display" : "Métastase(s) hépatique(s) et métastase(s) extrahépatique(s)"
+      }]
+    }]
   }
 }
 

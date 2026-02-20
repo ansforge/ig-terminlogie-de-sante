@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R242-TypeHabitation/FHIR/TRE-R242-TypeHabitation",
+      "version" : "20231215120000",
       "concept" : [{
         "code" : "01",
         "display" : "Chambre double"

@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "6",
     "lastUpdated" : "2025-12-17T15:48:32.394+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2010-01-01T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2010-01-01T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-MediaType-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:2.16.840.1.113883.1.11.14824"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:2.16.840.1.113883.1.11.14824"
+  }],
   "version" : "20251216141839",
   "name" : "MediaType",
   "title" : "MediaType",
@@ -85,80 +79,73 @@ Requête sur le SMT
   "date" : "2025-12-16T14:18:39+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "MediaType",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-mediaType",
+      "version" : "3.0.0",
+      "concept" : [{
+        "code" : "application/dicom",
+        "display" : "DICOM"
+      },
       {
-        "system" : "http://terminology.hl7.org/CodeSystem/v3-mediaType",
-        "concept" : [
-          {
-            "code" : "application/dicom",
-            "display" : "DICOM"
-          },
-          {
-            "code" : "application/msword",
-            "display" : "MSWORD"
-          },
-          {
-            "code" : "application/pdf",
-            "display" : "PDF"
-          },
-          {
-            "code" : "audio/basic",
-            "display" : "Basic Audio"
-          },
-          {
-            "code" : "audio/k32adpcm",
-            "display" : "K32ADPCM Audio"
-          },
-          {
-            "code" : "audio/mpeg",
-            "display" : "MPEG audio layer 3 MP3 Audio"
-          },
-          {
-            "code" : "image/gif",
-            "display" : "GIF Image"
-          },
-          {
-            "code" : "image/jpeg",
-            "display" : "JPEG Image"
-          },
-          {
-            "code" : "image/png",
-            "display" : "PNG Image"
-          },
-          {
-            "code" : "image/tiff",
-            "display" : "TIFF Image"
-          },
-          {
-            "code" : "text/html",
-            "display" : "HTML Text"
-          },
-          {
-            "code" : "text/plain",
-            "display" : "Plain Text"
-          },
-          {
-            "code" : "text/rtf",
-            "display" : "RTF Text"
-          },
-          {
-            "code" : "text/xml",
-            "display" : "XML Text"
-          }
-        ]
-      }
-    ]
+        "code" : "application/msword",
+        "display" : "MSWORD"
+      },
+      {
+        "code" : "application/pdf",
+        "display" : "PDF"
+      },
+      {
+        "code" : "audio/basic",
+        "display" : "Basic Audio"
+      },
+      {
+        "code" : "audio/k32adpcm",
+        "display" : "K32ADPCM Audio"
+      },
+      {
+        "code" : "audio/mpeg",
+        "display" : "MPEG audio layer 3 MP3 Audio"
+      },
+      {
+        "code" : "image/gif",
+        "display" : "GIF Image"
+      },
+      {
+        "code" : "image/jpeg",
+        "display" : "JPEG Image"
+      },
+      {
+        "code" : "image/png",
+        "display" : "PNG Image"
+      },
+      {
+        "code" : "image/tiff",
+        "display" : "TIFF Image"
+      },
+      {
+        "code" : "text/html",
+        "display" : "HTML Text"
+      },
+      {
+        "code" : "text/plain",
+        "display" : "Plain Text"
+      },
+      {
+        "code" : "text/rtf",
+        "display" : "RTF Text"
+      },
+      {
+        "code" : "text/xml",
+        "display" : "XML Text"
+      }]
+    }]
   }
 }
 

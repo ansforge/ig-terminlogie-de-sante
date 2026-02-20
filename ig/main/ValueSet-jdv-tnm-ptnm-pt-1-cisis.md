@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "5",
     "lastUpdated" : "2025-12-17T15:47:17.936+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2021-01-01T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2021-01-01T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-tnm-ptnm-pt-1-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.519"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.519"
+  }],
   "version" : "20251216141838",
   "name" : "JdvTnmPtnmPt1Cisis",
   "title" : "JDV Tnm Ptnm Pt 1 CISIS",
@@ -85,48 +79,41 @@ Requête sur le SMT
   "date" : "2025-12-16T14:18:38+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Tnm Ptnm Pt 1 CISIS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "version" : "202512170000",
+      "concept" : [{
+        "code" : "MED-787",
+        "display" : "Évaluation impossible"
+      },
       {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "MED-787",
-            "display" : "Évaluation impossible"
-          },
-          {
-            "code" : "MED-788",
-            "display" : "Pas de tumeur retrouvée"
-          },
-          {
-            "code" : "MED-805",
-            "display" : "Tumeur <= 2 cm"
-          },
-          {
-            "code" : "MED-806",
-            "display" : "Tumeur > 2 cm et <= 5 cm"
-          },
-          {
-            "code" : "MED-807",
-            "display" : "Tumeur > 5 cm et <= 10 cm"
-          },
-          {
-            "code" : "MED-808",
-            "display" : "Tumeur > 10 cm"
-          }
-        ]
-      }
-    ]
+        "code" : "MED-788",
+        "display" : "Pas de tumeur retrouvée"
+      },
+      {
+        "code" : "MED-805",
+        "display" : "Tumeur <= 2 cm"
+      },
+      {
+        "code" : "MED-806",
+        "display" : "Tumeur > 2 cm et <= 5 cm"
+      },
+      {
+        "code" : "MED-807",
+        "display" : "Tumeur > 5 cm et <= 10 cm"
+      },
+      {
+        "code" : "MED-808",
+        "display" : "Tumeur > 10 cm"
+      }]
+    }]
   }
 }
 

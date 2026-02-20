@@ -34,12 +34,10 @@ Codes representing the defined possible states of an Act, as defined by the Act 
   },
   "language" : "en",
   "url" : "http://terminology.hl7.org/CodeSystem/v3-ActStatus",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:2.16.840.1.113883.5.14"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:2.16.840.1.113883.5.14"
+  }],
   "version" : "3.0.0",
   "name" : "ActStatus",
   "title" : "ActStatus",
@@ -47,203 +45,169 @@ Codes representing the defined possible states of an Act, as defined by the Act 
   "experimental" : false,
   "date" : "2019-03-20",
   "publisher" : "Health Level Seven International",
-  "contact" : [
+  "contact" : [{
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://hl7.org"
+    },
     {
-      "telecom" : [
-        {
-          "system" : "url",
-          "value" : "http://hl7.org"
-        },
-        {
-          "system" : "email",
-          "value" : "hq@HL7.org"
-        }
-      ]
-    }
-  ],
+      "system" : "email",
+      "value" : "hq@HL7.org"
+    }]
+  }],
   "description" : "Codes representing the defined possible states of an Act, as defined by the Act class state machine.",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "copyright" : "This material derives from the HL7 Terminology THO. THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: https://terminology.hl7.org/license.html",
   "caseSensitive" : true,
   "hierarchyMeaning" : "is-a",
   "content" : "complete",
-  "property" : [
+  "property" : [{
+    "code" : "internalId",
+    "uri" : "http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-internal-id",
+    "description" : "The internal identifier for the concept in the HL7 Access database repository.",
+    "type" : "code"
+  },
+  {
+    "code" : "status",
+    "uri" : "http://hl7.org/fhir/concept-properties#status",
+    "description" : "Designation of a concept's state. Normally is not populated unless the state is retired.",
+    "type" : "code"
+  }],
+  "concept" : [{
+    "code" : "normal",
+    "display" : "normal",
+    "definition" : "Encompasses the expected states of an Act, but excludes \"nullified\" and \"obsolete\" which represent unusual terminal states for the life-cycle.",
+    "property" : [{
+      "code" : "status",
+      "valueCode" : "active"
+    },
     {
       "code" : "internalId",
-      "uri" : "http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-internal-id",
-      "description" : "The internal identifier for the concept in the HL7 Access database repository.",
-      "type" : "code"
+      "valueCode" : "15936"
+    }],
+    "concept" : [{
+      "code" : "aborted",
+      "display" : "aborted",
+      "definition" : "The Act has been terminated prior to the originally intended completion.",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "active"
+      },
+      {
+        "code" : "internalId",
+        "valueCode" : "15941"
+      }]
     },
     {
+      "code" : "active",
+      "display" : "active",
+      "definition" : "The Act can be performed or is being performed",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "active"
+      },
+      {
+        "code" : "internalId",
+        "valueCode" : "15942"
+      }]
+    },
+    {
+      "code" : "cancelled",
+      "display" : "cancelled",
+      "definition" : "The Act has been abandoned before activation.",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "active"
+      },
+      {
+        "code" : "internalId",
+        "valueCode" : "15938"
+      }]
+    },
+    {
+      "code" : "completed",
+      "display" : "completed",
+      "definition" : "An Act that has terminated normally after all of its constituents have been performed.",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "active"
+      },
+      {
+        "code" : "internalId",
+        "valueCode" : "15940"
+      }]
+    },
+    {
+      "code" : "held",
+      "display" : "held",
+      "definition" : "An Act that is still in the preparatory stages has been put aside. No action can occur until the Act is released.",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "active"
+      },
+      {
+        "code" : "internalId",
+        "valueCode" : "15937"
+      }]
+    },
+    {
+      "code" : "new",
+      "display" : "new",
+      "definition" : "An Act that is in the preparatory stages and may not yet be acted upon",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "active"
+      },
+      {
+        "code" : "internalId",
+        "valueCode" : "15943"
+      }]
+    },
+    {
+      "code" : "suspended",
+      "display" : "suspended",
+      "definition" : "An Act that has been activated (actions could or have been performed against it), but has been temporarily disabled. No further action should be taken against it until it is released",
+      "property" : [{
+        "code" : "status",
+        "valueCode" : "active"
+      },
+      {
+        "code" : "internalId",
+        "valueCode" : "15939"
+      }]
+    }]
+  },
+  {
+    "code" : "nullified",
+    "display" : "nullified",
+    "definition" : "This Act instance was created in error and has been 'removed' and is treated as though it never existed. A record is retained for audit purposes only.",
+    "property" : [{
       "code" : "status",
-      "uri" : "http://hl7.org/fhir/concept-properties#status",
-      "description" : "Designation of a concept's state. Normally is not populated unless the state is retired.",
-      "type" : "code"
-    }
-  ],
-  "concept" : [
-    {
-      "code" : "normal",
-      "display" : "normal",
-      "definition" : "Encompasses the expected states of an Act, but excludes \"nullified\" and \"obsolete\" which represent unusual terminal states for the life-cycle.",
-      "property" : [
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "internalId",
-          "valueCode" : "15936"
-        }
-      ],
-      "concept" : [
-        {
-          "code" : "aborted",
-          "display" : "aborted",
-          "definition" : "The Act has been terminated prior to the originally intended completion.",
-          "property" : [
-            {
-              "code" : "status",
-              "valueCode" : "active"
-            },
-            {
-              "code" : "internalId",
-              "valueCode" : "15941"
-            }
-          ]
-        },
-        {
-          "code" : "active",
-          "display" : "active",
-          "definition" : "The Act can be performed or is being performed",
-          "property" : [
-            {
-              "code" : "status",
-              "valueCode" : "active"
-            },
-            {
-              "code" : "internalId",
-              "valueCode" : "15942"
-            }
-          ]
-        },
-        {
-          "code" : "cancelled",
-          "display" : "cancelled",
-          "definition" : "The Act has been abandoned before activation.",
-          "property" : [
-            {
-              "code" : "status",
-              "valueCode" : "active"
-            },
-            {
-              "code" : "internalId",
-              "valueCode" : "15938"
-            }
-          ]
-        },
-        {
-          "code" : "completed",
-          "display" : "completed",
-          "definition" : "An Act that has terminated normally after all of its constituents have been performed.",
-          "property" : [
-            {
-              "code" : "status",
-              "valueCode" : "active"
-            },
-            {
-              "code" : "internalId",
-              "valueCode" : "15940"
-            }
-          ]
-        },
-        {
-          "code" : "held",
-          "display" : "held",
-          "definition" : "An Act that is still in the preparatory stages has been put aside. No action can occur until the Act is released.",
-          "property" : [
-            {
-              "code" : "status",
-              "valueCode" : "active"
-            },
-            {
-              "code" : "internalId",
-              "valueCode" : "15937"
-            }
-          ]
-        },
-        {
-          "code" : "new",
-          "display" : "new",
-          "definition" : "An Act that is in the preparatory stages and may not yet be acted upon",
-          "property" : [
-            {
-              "code" : "status",
-              "valueCode" : "active"
-            },
-            {
-              "code" : "internalId",
-              "valueCode" : "15943"
-            }
-          ]
-        },
-        {
-          "code" : "suspended",
-          "display" : "suspended",
-          "definition" : "An Act that has been activated (actions could or have been performed against it), but has been temporarily disabled. No further action should be taken against it until it is released",
-          "property" : [
-            {
-              "code" : "status",
-              "valueCode" : "active"
-            },
-            {
-              "code" : "internalId",
-              "valueCode" : "15939"
-            }
-          ]
-        }
-      ]
+      "valueCode" : "active"
     },
     {
-      "code" : "nullified",
-      "display" : "nullified",
-      "definition" : "This Act instance was created in error and has been 'removed' and is treated as though it never existed. A record is retained for audit purposes only.",
-      "property" : [
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "internalId",
-          "valueCode" : "15934"
-        }
-      ]
+      "code" : "internalId",
+      "valueCode" : "15934"
+    }]
+  },
+  {
+    "code" : "obsolete",
+    "display" : "obsolete",
+    "definition" : "This Act instance has been replaced by a new instance.",
+    "property" : [{
+      "code" : "status",
+      "valueCode" : "active"
     },
     {
-      "code" : "obsolete",
-      "display" : "obsolete",
-      "definition" : "This Act instance has been replaced by a new instance.",
-      "property" : [
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "internalId",
-          "valueCode" : "15935"
-        }
-      ]
-    }
-  ]
+      "code" : "internalId",
+      "valueCode" : "15935"
+    }]
+  }]
 }
 
 ```

@@ -65,6 +65,7 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R72-FinessStatutJuridique/FHIR/TRE-R72-FinessStatutJuridique"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R72-FinessStatutJuridique/FHIR/TRE-R72-FinessStatutJuridique>
        ] ;
+       fhir:version [ fhir:v "20240329120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "000" ] ;
          fhir:display [ fhir:v "En cours de vérification" ]

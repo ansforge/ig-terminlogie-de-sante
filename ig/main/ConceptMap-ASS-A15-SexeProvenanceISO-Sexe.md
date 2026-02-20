@@ -23,18 +23,16 @@ Correspondance codes TRE_R267-SexeProvenanceISO / codes TRE_R249-Sexe
 {
   "resourceType" : "ConceptMap",
   "id" : "ASS-A15-SexeProvenanceISO-Sexe",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2018-06-29T12:00:00+01:00"
-      }
-    },
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/concept-bidirectional",
-      "valueBoolean" : true
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2018-06-29T12:00:00+01:00"
     }
-  ],
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/concept-bidirectional",
+    "valueBoolean" : true
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/ASS_A15-SexeProvenanceISO-Sexe/FHIR/ASS-A15-SexeProvenanceISO-Sexe",
   "identifier" : {
     "value" : "urn:oid:1.2.250.1.213.2.56"
@@ -46,62 +44,46 @@ Correspondance codes TRE_R267-SexeProvenanceISO / codes TRE_R249-Sexe
   "experimental" : false,
   "date" : "2023-12-15T12:00:00+01:00",
   "description" : "Correspondance codes TRE_R267-SexeProvenanceISO / codes TRE_R249-Sexe",
-  "jurisdiction" : [
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
+  "group" : [{
+    "source" : "https://mos.esante.gouv.fr/NOS/TRE_R267-SexeProvenanceISO/FHIR/TRE-R267-SexeProvenanceISO",
+    "sourceVersion" : "20231215120000",
+    "target" : "https://mos.esante.gouv.fr/NOS/TRE_R249-Sexe/FHIR/TRE-R249-Sexe",
+    "targetVersion" : "20231215120000",
+    "element" : [{
+      "code" : "0",
+      "target" : [{
+        "code" : "UN",
+        "equivalence" : "equivalent"
+      }]
+    },
     {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
-  "group" : [
+      "code" : "1",
+      "target" : [{
+        "code" : "M",
+        "equivalence" : "equivalent"
+      }]
+    },
     {
-      "source" : "https://mos.esante.gouv.fr/NOS/TRE_R267-SexeProvenanceISO/FHIR/TRE-R267-SexeProvenanceISO",
-      "sourceVersion" : "20231215120000",
-      "target" : "https://mos.esante.gouv.fr/NOS/TRE_R249-Sexe/FHIR/TRE-R249-Sexe",
-      "targetVersion" : "20231215120000",
-      "element" : [
-        {
-          "code" : "0",
-          "target" : [
-            {
-              "code" : "UN",
-              "equivalence" : "equivalent"
-            }
-          ]
-        },
-        {
-          "code" : "1",
-          "target" : [
-            {
-              "code" : "M",
-              "equivalence" : "equivalent"
-            }
-          ]
-        },
-        {
-          "code" : "2",
-          "target" : [
-            {
-              "code" : "F",
-              "equivalence" : "equivalent"
-            }
-          ]
-        },
-        {
-          "code" : "9",
-          "target" : [
-            {
-              "code" : "O",
-              "equivalence" : "equivalent"
-            }
-          ]
-        }
-      ]
-    }
-  ]
+      "code" : "2",
+      "target" : [{
+        "code" : "F",
+        "equivalence" : "equivalent"
+      }]
+    },
+    {
+      "code" : "9",
+      "target" : [{
+        "code" : "O",
+        "equivalence" : "equivalent"
+      }]
+    }]
+  }]
 }
 
 ```

@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R216-HL7RoleCode/FHIR/TRE-R216-HL7RoleCode"/>
+      <version value="20241213120000"/>
       <concept>
         <code value="MTH"/>
         <display value="Mère"/>
@@ -128,6 +129,7 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R219-AutreResponsableConsent/FHIR/TRE-R219-AutreResponsableConsent"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="PATIENT"/>
         <display value="Patient"/>

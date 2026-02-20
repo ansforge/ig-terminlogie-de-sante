@@ -65,6 +65,7 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R216-HL7RoleCode/FHIR/TRE-R216-HL7RoleCode"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R216-HL7RoleCode/FHIR/TRE-R216-HL7RoleCode>
        ] ;
+       fhir:version [ fhir:v "20241213120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "MTH" ] ;
          fhir:display [ fhir:v "Mère" ]
@@ -173,6 +174,7 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R217-ProtectionJuridique/FHIR/TRE-R217-ProtectionJuridique"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R217-ProtectionJuridique/FHIR/TRE-R217-ProtectionJuridique>
        ] ;
+       fhir:version [ fhir:v "20231215120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "TUTEUR" ] ;
          fhir:display [ fhir:v "Tuteur" ]

@@ -21,7 +21,7 @@
                   displayName="Médecin - Neurologie (SM)"/>
          <Concept code="G15_10/SM18"
                   codeSystem="1.2.250.1.213.1.1.4.5"
-                  displayName="Médecin - Gériatrie (SM)&amp;quot;"/>
+                  displayName="Médecin - Gériatrie (SM)"/>
          <Concept code="GEN-092.04.04"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Autre avis médical"/>

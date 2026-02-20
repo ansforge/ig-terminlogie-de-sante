@@ -59,26 +59,20 @@ Expansions are not generated for retired value sets
   "meta" : {
     "versionId" : "5",
     "lastUpdated" : "2025-10-22T17:12:12.302+02:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2010-01-01T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2010-01-01T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-addiction-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.80"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.80"
+  }],
   "version" : "20250624152100",
   "name" : "JdvAddictionCisis",
   "title" : "JDV Addiction CISIS",
@@ -87,45 +81,36 @@ Expansions are not generated for retired value sets
   "date" : "2025-06-24T15:21:00+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Addiction CISIS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
-      {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "GEN-092.01.04",
-            "display" : "Autre addiction"
-          }
-        ]
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "version" : "202512170000",
+      "concept" : [{
+        "code" : "GEN-092.01.04",
+        "display" : "Autre addiction"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "11343-1",
+        "display" : "Consommation de drogue non médicales"
       },
       {
-        "system" : "http://loinc.org",
-        "concept" : [
-          {
-            "code" : "11343-1",
-            "display" : "Consommation de drogue non médicales"
-          },
-          {
-            "code" : "74011-8",
-            "display" : "Consommation tabagique"
-          },
-          {
-            "code" : "74013-4",
-            "display" : "Consommation d'alcool"
-          }
-        ]
-      }
-    ]
+        "code" : "74011-8",
+        "display" : "Consommation tabagique"
+      },
+      {
+        "code" : "74013-4",
+        "display" : "Consommation d'alcool"
+      }]
+    }]
   }
 }
 

@@ -65,6 +65,7 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R21-Fonction/FHIR/TRE-R21-Fonction"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R21-Fonction/FHIR/TRE-R21-Fonction>
        ] ;
+       fhir:version [ fhir:v "20260202120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "FON-01" ] ;
          fhir:display [ fhir:v "Titulaire de cabinet" ]
@@ -206,6 +207,7 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R96-AutreFonctionSanitaire/FHIR/TRE-R96-AutreFonctionSanitaire"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R96-AutreFonctionSanitaire/FHIR/TRE-R96-AutreFonctionSanitaire>
        ] ;
+       fhir:version [ fhir:v "20231215120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "407" ] ;
          fhir:display [ fhir:v "Tatoueur" ]
@@ -221,6 +223,7 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge>
        ] ;
+       fhir:version [ fhir:v "20260202120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "300" ] ;
          fhir:display [ fhir:v "Assistant de service social (PAERPA)" ]

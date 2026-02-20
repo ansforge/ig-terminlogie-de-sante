@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R287-NatureContact/FHIR/TRE-R287-NatureContact"/>
+      <version value="20241213120000"/>
       <concept>
         <code value="01"/>
         <display value="Accueil"/>

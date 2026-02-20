@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R317-SituationVieQuotidienne/FHIR/TRE-R317-SituationVieQuotidienne"/>
+      <version value="20240329120000"/>
       <concept>
         <code value="01"/>
         <display value="Seul"/>
@@ -56,6 +57,7 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R302-ContexteCodeComplementaire/FHIR/TRE-R302-ContexteCodeComplementaire"/>
+      <version value="20240426120000"/>
       <concept>
         <code value="02"/>
         <display value="Autre"/>

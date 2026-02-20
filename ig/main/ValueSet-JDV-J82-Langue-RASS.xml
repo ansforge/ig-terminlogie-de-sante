@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_G00-Langue/FHIR/TRE-G00-Langue"/>
+      <version value="20240927120000"/>
       <concept>
         <code value="aa"/>
         <display value="afar"/>

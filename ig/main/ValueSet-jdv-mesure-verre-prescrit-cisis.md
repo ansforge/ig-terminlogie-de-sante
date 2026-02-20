@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "5",
     "lastUpdated" : "2025-12-17T15:45:08.462+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2021-09-24T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2021-09-24T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mesure-verre-prescrit-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.651"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.651"
+  }],
   "version" : "20251216141838",
   "name" : "JdvMesureVerrePrescritCisis",
   "title" : "JDV Mesure Verre Prescrit CISIS",
@@ -85,73 +79,64 @@ Requête sur le SMT
   "date" : "2025-12-16T14:18:38+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Mesure Verre Prescrit CISIS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
-      {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "MED-1070",
-            "display" : "Pathologie listée dans arrété du 3 décembre 2018 publié le 13 décembre 2018"
-          },
-          {
-            "code" : "MED-1182",
-            "display" : "Date de fin d'adapation de la prescription"
-          },
-          {
-            "code" : "MED-1071",
-            "display" : "Puissance de la sphère - verre prescrit"
-          },
-          {
-            "code" : "MED-1072",
-            "display" : "Puissance du cylindre - verre prescrit"
-          },
-          {
-            "code" : "MED-1076",
-            "display" : "Axe en degrés - verre prescrit"
-          },
-          {
-            "code" : "MED-886",
-            "display" : "Addition"
-          },
-          {
-            "code" : "MED-1073",
-            "display" : "Prisme - puissance - verre prescrit"
-          },
-          {
-            "code" : "MED-1074",
-            "display" : "Prisme - orientation base - verre prescrit"
-          },
-          {
-            "code" : "MED-1075",
-            "display" : "Prisme - axe en degrés - verre prescrit"
-          }
-        ]
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "version" : "202512170000",
+      "concept" : [{
+        "code" : "MED-1070",
+        "display" : "Pathologie listée dans arrété du 3 décembre 2018 publié le 13 décembre 2018"
       },
       {
-        "system" : "http://loinc.org",
-        "concept" : [
-          {
-            "code" : "74712-1",
-            "display" : "Date de fin de validité"
-          },
-          {
-            "code" : "95324-0",
-            "display" : "Type de prisme"
-          }
-        ]
-      }
-    ]
+        "code" : "MED-1182",
+        "display" : "Date de fin d'adapation de la prescription"
+      },
+      {
+        "code" : "MED-1071",
+        "display" : "Puissance de la sphère - verre prescrit"
+      },
+      {
+        "code" : "MED-1072",
+        "display" : "Puissance du cylindre - verre prescrit"
+      },
+      {
+        "code" : "MED-1076",
+        "display" : "Axe en degrés - verre prescrit"
+      },
+      {
+        "code" : "MED-886",
+        "display" : "Addition"
+      },
+      {
+        "code" : "MED-1073",
+        "display" : "Prisme - puissance - verre prescrit"
+      },
+      {
+        "code" : "MED-1074",
+        "display" : "Prisme - orientation base - verre prescrit"
+      },
+      {
+        "code" : "MED-1075",
+        "display" : "Prisme - axe en degrés - verre prescrit"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "74712-1",
+        "display" : "Date de fin de validité"
+      },
+      {
+        "code" : "95324-0",
+        "display" : "Type de prisme"
+      }]
+    }]
   }
 }
 

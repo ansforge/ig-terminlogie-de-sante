@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R60-AutoriteEnregistrement/FHIR/TRE-R60-AutoriteEnregistrement"/>
+      <version value="20240628120000"/>
       <concept>
         <code value="ARS-01"/>
         <display value="ARS-01 : Guadeloupe"/>

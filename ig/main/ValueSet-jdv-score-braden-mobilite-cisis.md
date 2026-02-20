@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "6",
     "lastUpdated" : "2025-12-17T15:46:40.552+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2020-07-09T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2020-07-09T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-score-braden-mobilite-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.508"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.508"
+  }],
   "version" : "20251216141838",
   "name" : "JdvScoreBradenMobiliteCisis",
   "title" : "JDV Score Braden Mobilite CISIS",
@@ -85,40 +79,32 @@ Requête sur le SMT
   "date" : "2025-12-16T14:18:38+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Score Braden Mobilite CISIS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "LA9614-4",
+        "display" : "Complètement immobile"
+      },
       {
-        "system" : "http://loinc.org",
-        "concept" : [
-          {
-            "code" : "LA9614-4",
-            "display" : "Complètement immobile"
-          },
-          {
-            "code" : "LA9604-5",
-            "display" : "Très limitée"
-          },
-          {
-            "code" : "LA9605-2",
-            "display" : "Légèrement limitée"
-          },
-          {
-            "code" : "LA120-8",
-            "display" : "Aucune limitation"
-          }
-        ]
-      }
-    ]
+        "code" : "LA9604-5",
+        "display" : "Très limitée"
+      },
+      {
+        "code" : "LA9605-2",
+        "display" : "Légèrement limitée"
+      },
+      {
+        "code" : "LA120-8",
+        "display" : "Aucune limitation"
+      }]
+    }]
   }
 }
 

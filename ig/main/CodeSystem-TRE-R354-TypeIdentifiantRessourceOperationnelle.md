@@ -30,25 +30,19 @@ Type d’identifiant des ressources opérationnelles
   "meta" : {
     "versionId" : "6",
     "lastUpdated" : "2025-07-02T18:17:51.362+00:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2023-03-31T12:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2023-03-31T12:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R354-TypeIdentifiantRessourceOperationnelle/FHIR/TRE-R354-TypeIdentifiantRessourceOperationnelle",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.3.3.244"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.3.3.244"
+  }],
   "version" : "20240329120000",
   "name" : "TRE_R354_TypeIdentifiantRessourceOperationnelle",
   "status" : "active",
@@ -56,113 +50,97 @@ Type d’identifiant des ressources opérationnelles
   "date" : "2024-03-29T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Type d'identifiant des ressources opérationnelles",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "caseSensitive" : false,
   "content" : "complete",
-  "property" : [
-    {
+  "property" : [{
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "deprecationDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
+    "description" : "Date Concept was deprecated",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "status",
+    "uri" : "http://hl7.org/fhir/concept-properties#status",
+    "description" : "A property that indicates the status of the concept.",
+    "type" : "code"
+  },
+  {
+    "code" : "retirementDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
+    "description" : "Date Concept was retired",
+    "type" : "dateTime"
+  }],
+  "concept" : [{
+    "code" : "25",
+    "display" : "Identifiant du lieu de réalisation de l'offre connu par l'instance ROR",
+    "definition" : "Correspond à l'identifiant du lieu, appelé identifiant du point de saisie dans le service de synchronisation du capacitaire",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "RORR_PTSAI _LOCID"
+    }],
+    "property" : [{
       "code" : "dateValid",
-      "description" : "date de validité d'un code concept",
-      "type" : "dateTime"
+      "valueDateTime" : "2023-03-31T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "description" : "Date de mise à jour d'un code concept",
-      "type" : "dateTime"
-    },
-    {
-      "code" : "dateFin",
-      "description" : "Date de fin d'exploitation d'un code concept",
-      "type" : "dateTime"
-    },
-    {
-      "code" : "deprecationDate",
-      "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
-      "description" : "Date Concept was deprecated",
-      "type" : "dateTime"
+      "valueDateTime" : "2023-03-31T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "uri" : "http://hl7.org/fhir/concept-properties#status",
-      "description" : "A property that indicates the status of the concept.",
-      "type" : "code"
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "26",
+    "display" : "Identifiant de la zone d'hébergement connu par l'établissement",
+    "definition" : "Identifiant connu par l'établissement dans son SI (Bed management, …) et correspondant à l'Id Externe de Synchro dans le service de synchronisation du capacitaire",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "RORR_ETAB_ LOCID"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2023-03-31T12:00:00+01:00"
     },
     {
-      "code" : "retirementDate",
-      "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
-      "description" : "Date Concept was retired",
-      "type" : "dateTime"
-    }
-  ],
-  "concept" : [
-    {
-      "code" : "25",
-      "display" : "Identifiant du lieu de réalisation de l'offre connu par l'instance ROR",
-      "definition" : "Correspond à l'identifiant du lieu, appelé identifiant du point de saisie dans le service de synchronisation du capacitaire",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "RORR_PTSAI _LOCID"
-        }
-      ],
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2023-03-31T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2023-03-31T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "code" : "dateMaj",
+      "valueDateTime" : "2023-03-31T12:00:00+01:00"
     },
     {
-      "code" : "26",
-      "display" : "Identifiant de la zone d'hébergement connu par l'établissement",
-      "definition" : "Identifiant connu par l'établissement dans son SI (Bed management, …) et correspondant à l'Id Externe de Synchro dans le service de synchronisation du capacitaire",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "RORR_ETAB_ LOCID"
-        }
-      ],
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2023-03-31T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2023-03-31T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
-    }
-  ]
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  }]
 }
 
 ```

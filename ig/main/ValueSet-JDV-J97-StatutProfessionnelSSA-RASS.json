@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R34-StatutProfessionnelSSA/FHIR/TRE-R34-StatutProfessionnelSSA",
+      "version" : "20231215120000",
       "concept" : [{
         "code" : "STA-SSA-01",
         "display" : "Praticien"

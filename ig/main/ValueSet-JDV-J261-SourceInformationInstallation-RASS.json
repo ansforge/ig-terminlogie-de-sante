@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation",
+      "version" : "20231215120000",
       "concept" : [{
         "code" : "V",
         "display" : "Visite de conformité"

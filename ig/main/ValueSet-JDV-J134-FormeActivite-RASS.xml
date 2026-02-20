@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite"/>
+      <version value="20240329120000"/>
       <concept>
         <code value="00"/>
         <display value="Pas de forme"/>

@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R258-RelationPriseCharge/FHIR/TRE-R258-RelationPriseCharge"/>
+      <version value="20250523120000"/>
       <concept>
         <code value="CORRE"/>
         <display value="Correspondant"/>
@@ -76,6 +77,7 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R259-HL7ParticipationFunction/FHIR/TRE-R259-HL7ParticipationFunction"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="ADMPHYS"/>
         <display value="Responsable de l'admission"/>
@@ -95,6 +97,7 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge"/>
+      <version value="20260202120000"/>
       <concept>
         <code value="330"/>
         <display value="Coordonnateur de parcours"/>

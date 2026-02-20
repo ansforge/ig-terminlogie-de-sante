@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R16-LieuFormation/FHIR/TRE-R16-LieuFormation",
+      "version" : "20251222120000",
       "concept" : [{
         "code" : "DP01",
         "display" : "Ain"

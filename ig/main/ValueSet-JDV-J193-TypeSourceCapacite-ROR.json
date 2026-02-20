@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R335-TypeSourceCapacite/FHIR/TRE-R335-TypeSourceCapacite",
+      "version" : "20231215120000",
       "concept" : [{
         "code" : "01",
         "display" : "Saisie manuelle"

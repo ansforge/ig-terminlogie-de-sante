@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R200-CanalCommunication/FHIR/TRE-R200-CanalCommunication"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="1"/>
         <display value="Téléphone mobile"/>

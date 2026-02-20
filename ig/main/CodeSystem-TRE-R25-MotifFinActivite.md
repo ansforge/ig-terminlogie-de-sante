@@ -32,25 +32,19 @@ Motif de fin d’activité
   "meta" : {
     "versionId" : "7",
     "lastUpdated" : "2025-12-22T10:46:43.702+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2007-07-25T15:04:43+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2007-07-25T15:04:43+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R25-MotifFinActivite/FHIR/TRE-R25-MotifFinActivite",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.6.1.20"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.6.1.20"
+  }],
   "version" : "20231215120000",
   "name" : "TRE_R25_MotifFinActivite",
   "status" : "active",
@@ -58,251 +52,225 @@ Motif de fin d’activité
   "date" : "2023-12-15T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Motif de fin d'activité",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "caseSensitive" : false,
   "content" : "complete",
   "count" : 9,
-  "property" : [
-    {
+  "property" : [{
+    "code" : "dateValid",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "epars",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#epars",
+    "description" : "Permet de définir les codes concepts uilisés par EPARS",
+    "type" : "boolean"
+  },
+  {
+    "code" : "deprecationDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
+    "description" : "Date Concept was deprecated",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "status",
+    "uri" : "http://hl7.org/fhir/concept-properties#status",
+    "description" : "A property that indicates the status of the concept.",
+    "type" : "code"
+  },
+  {
+    "code" : "retirementDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
+    "description" : "Date Concept was retired",
+    "type" : "dateTime"
+  }],
+  "concept" : [{
+    "code" : "AUT",
+    "display" : "Autre motif",
+    "property" : [{
       "code" : "dateValid",
-      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
-      "description" : "date de validité d'un code concept",
-      "type" : "dateTime"
+      "valueDateTime" : "2007-07-25T15:04:43+01:00"
     },
     {
       "code" : "dateMaj",
-      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
-      "description" : "Date de mise à jour d'un code concept",
-      "type" : "dateTime"
-    },
-    {
-      "code" : "dateFin",
-      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
-      "description" : "Date de fin d'exploitation d'un code concept",
-      "type" : "dateTime"
-    },
-    {
-      "code" : "epars",
-      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#epars",
-      "description" : "Permet de définir les codes concepts uilisés par EPARS",
-      "type" : "boolean"
-    },
-    {
-      "code" : "deprecationDate",
-      "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
-      "description" : "Date Concept was deprecated",
-      "type" : "dateTime"
+      "valueDateTime" : "2007-07-25T15:04:43+01:00"
     },
     {
       "code" : "status",
-      "uri" : "http://hl7.org/fhir/concept-properties#status",
-      "description" : "A property that indicates the status of the concept.",
-      "type" : "code"
+      "valueCode" : "active"
     },
     {
-      "code" : "retirementDate",
-      "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
-      "description" : "Date Concept was retired",
-      "type" : "dateTime"
-    }
-  ],
-  "concept" : [
-    {
-      "code" : "AUT",
-      "display" : "Autre motif",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2007-07-25T15:04:43+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2007-07-25T15:04:43+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "epars",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "epars",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "CHA",
+    "display" : "Changement d'activité",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:43+01:00"
     },
     {
-      "code" : "CHA",
-      "display" : "Changement d'activité",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2007-07-25T15:04:43+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2016-09-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
     },
     {
-      "code" : "CHL",
-      "display" : "Changement de lieu d'exercice",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2007-07-25T15:04:43+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2016-09-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "CHL",
+    "display" : "Changement de lieu d'exercice",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:43+01:00"
     },
     {
-      "code" : "CHP",
-      "display" : "Changement de profession",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2007-07-25T15:04:43+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2016-09-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "epars",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
     },
     {
-      "code" : "DCD",
-      "display" : "Décès",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2007-07-25T15:04:43+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2007-07-25T15:04:43+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "epars",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "CHP",
+    "display" : "Changement de profession",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:43+01:00"
     },
     {
-      "code" : "ETR",
-      "display" : "Départ à l'étranger",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2007-07-25T15:04:43+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2016-09-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "epars",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
     },
     {
-      "code" : "RH",
-      "display" : "Retraite hospitalière",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2007-07-25T15:04:43+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2016-09-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "code" : "status",
+      "valueCode" : "active"
     },
     {
-      "code" : "RL",
-      "display" : "Retraite libérale",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2007-07-25T15:04:43+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2007-07-25T15:04:43+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "epars",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "epars",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "DCD",
+    "display" : "Décès",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:43+01:00"
     },
     {
-      "code" : "RS",
-      "display" : "Retraite salariée",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2007-07-25T15:04:43+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2007-07-25T15:04:43+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "epars",
-          "valueBoolean" : true
-        }
-      ]
-    }
-  ]
+      "code" : "dateMaj",
+      "valueDateTime" : "2007-07-25T15:04:43+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "epars",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "ETR",
+    "display" : "Départ à l'étranger",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:43+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "epars",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "RH",
+    "display" : "Retraite hospitalière",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:43+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "RL",
+    "display" : "Retraite libérale",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:43+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2007-07-25T15:04:43+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "epars",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "RS",
+    "display" : "Retraite salariée",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:43+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2007-07-25T15:04:43+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "epars",
+      "valueBoolean" : true
+    }]
+  }]
 }
 
 ```

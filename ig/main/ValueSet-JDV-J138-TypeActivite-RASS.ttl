@@ -65,6 +65,7 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R209-TypeActivite/FHIR/TRE-R209-TypeActivite"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R209-TypeActivite/FHIR/TRE-R209-TypeActivite>
        ] ;
+       fhir:version [ fhir:v "20240223120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "01" ] ;
          fhir:display [ fhir:v "Administration" ]

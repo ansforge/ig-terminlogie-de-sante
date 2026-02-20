@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R06-SectionTableauCNOP/FHIR/TRE-R06-SectionTableauCNOP"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="A"/>
         <display value="Pharmacien titulaire d'officine"/>
@@ -60,6 +61,7 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_G05-SousSectionTableauCNOP/FHIR/TRE-G05-SousSectionTableauCNOP"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="DA"/>
         <display value="Pharmacien adjoint"/>
@@ -95,6 +97,7 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R06-SectionTableauCNOP/FHIR/TRE-R06-SectionTableauCNOP"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="G"/>
         <display value="Pharmacien biologiste"/>

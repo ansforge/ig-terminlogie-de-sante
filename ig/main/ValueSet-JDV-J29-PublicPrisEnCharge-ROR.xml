@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R239-PublicPrisEnCharge/FHIR/TRE-R239-PublicPrisEnCharge"/>
+      <version value="20250328120000"/>
       <concept>
         <code value="01"/>
         <display value="Personnes âgées en perte d'autonomie (PA) et aidants"/>

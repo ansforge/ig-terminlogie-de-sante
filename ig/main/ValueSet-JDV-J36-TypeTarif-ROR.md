@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "4",
     "lastUpdated" : "2025-07-02T17:06:29.926+00:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2017-10-13T12:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2017-10-13T12:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J36-TypeTarif-ROR/FHIR/JDV-J36-TypeTarif-ROR",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.3.3.44"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.3.3.44"
+  }],
   "version" : "20230630120000",
   "name" : "JDV_J36_TypeTarif_ROR",
   "status" : "active",
@@ -84,52 +78,45 @@ Requête sur le SMT
   "date" : "2023-06-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Type tarif - ROR",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R246-TypeTarif/FHIR/TRE-R246-TypeTarif",
+      "version" : "20231215120000",
+      "concept" : [{
+        "code" : "01",
+        "display" : "Supplément tarif Hébergement SMR"
+      },
       {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R246-TypeTarif/FHIR/TRE-R246-TypeTarif",
-        "concept" : [
-          {
-            "code" : "01",
-            "display" : "Supplément tarif Hébergement SMR"
-          },
-          {
-            "code" : "02",
-            "display" : "Forfait socle hébergement"
-          },
-          {
-            "code" : "03",
-            "display" : "Dépendance"
-          },
-          {
-            "code" : "04",
-            "display" : "Prestation supplémentaire tarifée"
-          },
-          {
-            "code" : "05",
-            "display" : "Accueil de jour"
-          },
-          {
-            "code" : "06",
-            "display" : "Aide humaine à domicile"
-          },
-          {
-            "code" : "07",
-            "display" : "Portage de repas à domicile"
-          }
-        ]
-      }
-    ]
+        "code" : "02",
+        "display" : "Forfait socle hébergement"
+      },
+      {
+        "code" : "03",
+        "display" : "Dépendance"
+      },
+      {
+        "code" : "04",
+        "display" : "Prestation supplémentaire tarifée"
+      },
+      {
+        "code" : "05",
+        "display" : "Accueil de jour"
+      },
+      {
+        "code" : "06",
+        "display" : "Aide humaine à domicile"
+      },
+      {
+        "code" : "07",
+        "display" : "Portage de repas à domicile"
+      }]
+    }]
   }
 }
 

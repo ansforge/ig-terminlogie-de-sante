@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R224-NiveauFormAcquis/FHIR/TRE-R224-NiveauFormAcquis"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="A06"/>
         <display value="6ième année validée"/>

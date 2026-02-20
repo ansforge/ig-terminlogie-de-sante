@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R75-InseeNAFrev2Niveau5/FHIR/TRE-R75-InseeNAFrev2Niveau5",
+      "version" : "20231215120000",
       "concept" : [{
         "code" : "01.11Z",
         "display" : "Culture de céréales (sf riz) légumineuses, graines oléagineuses"

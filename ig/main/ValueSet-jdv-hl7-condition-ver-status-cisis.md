@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "6",
     "lastUpdated" : "2025-12-17T15:42:41.087+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2024-06-06T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2024-06-06T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-condition-ver-status-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:2.16.840.1.113883.4.642.3.166"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:2.16.840.1.113883.4.642.3.166"
+  }],
   "version" : "20251216141839",
   "name" : "ConditionVerificationStatus",
   "title" : "Condition Verification Status",
@@ -85,36 +79,29 @@ Requête sur le SMT
   "date" : "2025-12-16T14:18:39+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Condition Verification Status",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+      "version" : "2.0.1",
+      "concept" : [{
+        "code" : "unconfirmed",
+        "display" : "Non confirmé"
+      },
       {
-        "system" : "http://terminology.hl7.org/CodeSystem/condition-ver-status",
-        "concept" : [
-          {
-            "code" : "unconfirmed",
-            "display" : "Non confirmé"
-          },
-          {
-            "code" : "confirmed",
-            "display" : "Confirmé"
-          },
-          {
-            "code" : "refuted",
-            "display" : "Réfuté"
-          }
-        ]
-      }
-    ]
+        "code" : "confirmed",
+        "display" : "Confirmé"
+      },
+      {
+        "code" : "refuted",
+        "display" : "Réfuté"
+      }]
+    }]
   }
 }
 

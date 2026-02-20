@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R09-CategorieProfessionnelle/FHIR/TRE-R09-CategorieProfessionnelle"/>
+      <version value="20240426120000"/>
       <concept>
         <code value="C"/>
         <display value="Civil"/>

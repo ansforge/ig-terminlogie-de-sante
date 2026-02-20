@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "5",
     "lastUpdated" : "2025-12-17T15:46:43.491+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2020-03-31T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2020-03-31T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-score-duke-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.493"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.493"
+  }],
   "version" : "20251216141840",
   "name" : "JdvScoreDukeCisis",
   "title" : "JDV Score Duke CISIS",
@@ -85,40 +79,33 @@ Requête sur le SMT
   "date" : "2025-12-16T14:18:40+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Score Duke CISIS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "version" : "202512170000",
+      "concept" : [{
+        "code" : "MED-589",
+        "display" : "Aptitude physique excellente (Score de Duke > 10 MET)"
+      },
       {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "MED-589",
-            "display" : "Aptitude physique excellente (Score de Duke > 10 MET)"
-          },
-          {
-            "code" : "MED-590",
-            "display" : "Aptitude physique bonne (Score de Duke 7-10 MET)"
-          },
-          {
-            "code" : "MED-591",
-            "display" : "Aptitude physique modérée (Score de Duke 4-7 MET)"
-          },
-          {
-            "code" : "MED-592",
-            "display" : "Aptitude physique faible (Score de Duke < 4 MET)"
-          }
-        ]
-      }
-    ]
+        "code" : "MED-590",
+        "display" : "Aptitude physique bonne (Score de Duke 7-10 MET)"
+      },
+      {
+        "code" : "MED-591",
+        "display" : "Aptitude physique modérée (Score de Duke 4-7 MET)"
+      },
+      {
+        "code" : "MED-592",
+        "display" : "Aptitude physique faible (Score de Duke < 4 MET)"
+      }]
+    }]
   }
 }
 

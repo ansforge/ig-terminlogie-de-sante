@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R277-CategorieActiviteSanitaireRegulee/FHIR/TRE-R277-CategorieActiviteSanitaireRegulee"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="01"/>
         <display value="Activité de soins"/>

@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "7",
     "lastUpdated" : "2025-10-02T19:02:00.435+02:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2022-05-27T12:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2022-05-27T12:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J190-GenreCapacite-ROR/FHIR/JDV-J190-GenreCapacite-ROR",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.3.4.23"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.3.4.23"
+  }],
   "version" : "20250828120000",
   "name" : "JDV_J190_GenreCapacite_ROR",
   "status" : "active",
@@ -84,36 +78,29 @@ Requête sur le SMT
   "date" : "2025-08-28T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Permet d'indiquer dans le ROR le genre des patients qui peuvent être installés dans des lits disponibles",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R332-GenreCapacite/FHIR/TRE-R332-GenreCapacite",
+      "version" : "20250828120000",
+      "concept" : [{
+        "code" : "01",
+        "display" : "Femme"
+      },
       {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R332-GenreCapacite/FHIR/TRE-R332-GenreCapacite",
-        "concept" : [
-          {
-            "code" : "01",
-            "display" : "Femme"
-          },
-          {
-            "code" : "02",
-            "display" : "Homme"
-          },
-          {
-            "code" : "04",
-            "display" : "Indéterminé"
-          }
-        ]
-      }
-    ]
+        "code" : "02",
+        "display" : "Homme"
+      },
+      {
+        "code" : "04",
+        "display" : "Indéterminé"
+      }]
+    }]
   }
 }
 

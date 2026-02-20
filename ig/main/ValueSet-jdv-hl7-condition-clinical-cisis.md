@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "6",
     "lastUpdated" : "2025-12-17T15:42:40.657+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2022-01-01T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2022-01-01T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-condition-clinical-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:2.16.840.1.113883.4.642.3.164"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:2.16.840.1.113883.4.642.3.164"
+  }],
   "version" : "20251216141839",
   "name" : "ConditionClinicalStatusCodes",
   "title" : "Condition Clinical Status Codes",
@@ -85,48 +79,41 @@ Requête sur le SMT
   "date" : "2025-12-16T14:18:39+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Condition Clinical Status Codes",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
+      "version" : "3.0.0",
+      "concept" : [{
+        "code" : "active",
+        "display" : "Actif"
+      },
       {
-        "system" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
-        "concept" : [
-          {
-            "code" : "active",
-            "display" : "Actif"
-          },
-          {
-            "code" : "recurrence",
-            "display" : "Récurrent"
-          },
-          {
-            "code" : "relapse",
-            "display" : "Rechute"
-          },
-          {
-            "code" : "inactive",
-            "display" : "Inactif"
-          },
-          {
-            "code" : "remission",
-            "display" : "En rémission"
-          },
-          {
-            "code" : "resolved",
-            "display" : "Résolu"
-          }
-        ]
-      }
-    ]
+        "code" : "recurrence",
+        "display" : "Récurrent"
+      },
+      {
+        "code" : "relapse",
+        "display" : "Rechute"
+      },
+      {
+        "code" : "inactive",
+        "display" : "Inactif"
+      },
+      {
+        "code" : "remission",
+        "display" : "En rémission"
+      },
+      {
+        "code" : "resolved",
+        "display" : "Résolu"
+      }]
+    }]
   }
 }
 

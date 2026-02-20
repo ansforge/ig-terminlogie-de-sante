@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R238-OuvertureAnnuelle/FHIR/TRE-R238-OuvertureAnnuelle"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="01"/>
         <display value="Semaine hors week-end jusqu'à 210 jours par an"/>

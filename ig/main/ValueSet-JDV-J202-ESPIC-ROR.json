@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R73-ESPIC/FHIR/TRE-R73-ESPIC",
+      "version" : "20231215120000",
       "concept" : [{
         "code" : "0",
         "display" : "Non concerné"

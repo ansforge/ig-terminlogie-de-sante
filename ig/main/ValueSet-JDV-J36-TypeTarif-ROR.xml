@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R246-TypeTarif/FHIR/TRE-R246-TypeTarif"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="01"/>
         <display value="Supplément tarif Hébergement SMR"/>

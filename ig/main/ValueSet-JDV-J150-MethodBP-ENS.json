@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/terminologie-emdn",
+      "version" : "v1.2",
       "concept" : [{
         "code" : "Y210905",
         "display" : "INTERFACES DE CAPTEURS EXTERNES"

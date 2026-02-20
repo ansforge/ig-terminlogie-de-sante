@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/terminologie-SERAFINPH",
+      "version" : "2023.1.0",
       "concept" : [{
         "code" : "3",
         "display" : "Prestations indirectes - Pilotage et fonctions supports"

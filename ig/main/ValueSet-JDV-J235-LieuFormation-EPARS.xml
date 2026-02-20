@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R16-LieuFormation/FHIR/TRE-R16-LieuFormation"/>
+      <version value="20251222120000"/>
       <concept>
         <code value="DP01"/>
         <display value="Ain"/>

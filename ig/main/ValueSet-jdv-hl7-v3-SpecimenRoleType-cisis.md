@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "6",
     "lastUpdated" : "2025-12-17T15:48:40.011+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2020-01-18T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2020-01-18T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-SpecimenRoleType-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:2.16.840.1.113883.1.11.16515"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:2.16.840.1.113883.1.11.16515"
+  }],
   "version" : "20251216141839",
   "name" : "SpecimenRoleType",
   "title" : "SpecimenRoleType",
@@ -85,40 +79,33 @@ Requête sur le SMT
   "date" : "2025-12-16T14:18:39+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "SpecimenRoleType",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
+      "version" : "3.0.0",
+      "concept" : [{
+        "code" : "C",
+        "display" : "Spécimen utilisé pour les paramètres d'étalonnage initiaux d'un instrument"
+      },
       {
-        "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
-        "concept" : [
-          {
-            "code" : "C",
-            "display" : "Spécimen utilisé pour les paramètres d'étalonnage initiaux d'un instrument"
-          },
-          {
-            "code" : "G",
-            "display" : "Ensemble d'échantillons de patients dans lequel les individus du groupe peuvent ou non être identifiés."
-          },
-          {
-            "code" : "L",
-            "display" : "Aliquot d'échantillons individuels combinés pour former un seul spécimen représentant tous les individus inclus."
-          },
-          {
-            "code" : "P",
-            "display" : "Spécimen prélevé sur un patient"
-          }
-        ]
-      }
-    ]
+        "code" : "G",
+        "display" : "Ensemble d'échantillons de patients dans lequel les individus du groupe peuvent ou non être identifiés."
+      },
+      {
+        "code" : "L",
+        "display" : "Aliquot d'échantillons individuels combinés pour former un seul spécimen représentant tous les individus inclus."
+      },
+      {
+        "code" : "P",
+        "display" : "Spécimen prélevé sur un patient"
+      }]
+    }]
   }
 }
 

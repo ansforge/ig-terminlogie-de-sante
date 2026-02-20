@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R337-AffectationTemporaire/FHIR/TRE-R337-AffectationTemporaire",
+      "version" : "20231215120000",
       "concept" : [{
         "code" : "01",
         "display" : "Aucune"

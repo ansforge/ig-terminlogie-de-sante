@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "5",
     "lastUpdated" : "2025-12-17T15:45:23.540+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2023-08-03T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2023-08-03T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mode-naissance-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.744"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.744"
+  }],
   "version" : "20251216141838",
   "name" : "JdvModeNaissanceCisis",
   "title" : "JDV Mode Naissance CISIS",
@@ -85,45 +79,37 @@ Requête sur le SMT
   "date" : "2025-12-16T14:18:38+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Mode Naissance CISIS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
-      {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "MED-1253",
-            "display" : "Césarienne pendant travail"
-          },
-          {
-            "code" : "MED-1254",
-            "display" : "Césarienne avant travail"
-          }
-        ]
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "version" : "202512170000",
+      "concept" : [{
+        "code" : "MED-1253",
+        "display" : "Césarienne pendant travail"
       },
       {
-        "system" : "http://snomed.info/sct",
-        "concept" : [
-          {
-            "code" : "48782003",
-            "display" : "accouchement normal"
-          },
-          {
-            "code" : "700000006",
-            "display" : "accouchement par voie basse"
-          }
-        ]
-      }
-    ]
+        "code" : "MED-1254",
+        "display" : "Césarienne avant travail"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/900000000000207008/version/20260201",
+      "concept" : [{
+        "code" : "48782003",
+        "display" : "accouchement normal"
+      },
+      {
+        "code" : "700000006",
+        "display" : "accouchement par voie basse"
+      }]
+    }]
   }
 }
 

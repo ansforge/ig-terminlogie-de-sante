@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "5",
     "lastUpdated" : "2025-12-17T15:43:21.918+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2020-09-09T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2020-09-09T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-classification-ring-messmer-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.497"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.497"
+  }],
   "version" : "20251216141840",
   "name" : "JdvClassificationRingMessmerCisis",
   "title" : "JDV Classification Ring Messmer CISIS",
@@ -85,40 +79,33 @@ Requête sur le SMT
   "date" : "2025-12-16T14:18:40+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Classification Ring Messmer CISIS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "version" : "202512170000",
+      "concept" : [{
+        "code" : "MED-623",
+        "display" : "Grade I : Signes cutanés, érythème généralisé, urticaire, angiœdème"
+      },
       {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "MED-623",
-            "display" : "Grade I : Signes cutanés, érythème généralisé, urticaire, angiœdème"
-          },
-          {
-            "code" : "MED-624",
-            "display" : "Grade II : Symptômes quantifiables mais ne menaçant pas la vie : signes cutanés, hypotension, tachycardie, difficultés ventilatoires, toux, difficultés à gonfler les poumons"
-          },
-          {
-            "code" : "MED-625",
-            "display" : "Grade III : Symptômes menaçant la vie : collapsus, tachycardie ou bradycardie, arythmies, bronchospasme"
-          },
-          {
-            "code" : "MED-626",
-            "display" : "Grade IV : Arrêt circulatoire et/ou respiratoire"
-          }
-        ]
-      }
-    ]
+        "code" : "MED-624",
+        "display" : "Grade II : Symptômes quantifiables mais ne menaçant pas la vie : signes cutanés, hypotension, tachycardie, difficultés ventilatoires, toux, difficultés à gonfler les poumons"
+      },
+      {
+        "code" : "MED-625",
+        "display" : "Grade III : Symptômes menaçant la vie : collapsus, tachycardie ou bradycardie, arythmies, bronchospasme"
+      },
+      {
+        "code" : "MED-626",
+        "display" : "Grade IV : Arrêt circulatoire et/ou respiratoire"
+      }]
+    }]
   }
 }
 

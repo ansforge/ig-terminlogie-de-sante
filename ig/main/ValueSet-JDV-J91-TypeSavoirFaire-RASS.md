@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "9",
     "lastUpdated" : "2025-11-04T19:02:09.071+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2019-08-30T12:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2019-08-30T12:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J91-TypeSavoirFaire-RASS/FHIR/JDV-J91-TypeSavoirFaire-RASS",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.6.1.159"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.6.1.159"
+  }],
   "version" : "20251016120000",
   "name" : "JDV_J91_TypeSavoirFaire_RASS",
   "status" : "active",
@@ -84,72 +78,65 @@ Requête sur le SMT
   "date" : "2025-10-16T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Types de savoir-faire des professionnels du RASS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R04-TypeSavoirFaire/FHIR/TRE-R04-TypeSavoirFaire",
+      "version" : "20251016120000",
+      "concept" : [{
+        "code" : "C",
+        "display" : "Compétence de médecine"
+      },
       {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R04-TypeSavoirFaire/FHIR/TRE-R04-TypeSavoirFaire",
-        "concept" : [
-          {
-            "code" : "C",
-            "display" : "Compétence de médecine"
-          },
-          {
-            "code" : "CAPA",
-            "display" : "Capacité"
-          },
-          {
-            "code" : "CEX",
-            "display" : "Compétence exclusive"
-          },
-          {
-            "code" : "CM",
-            "display" : "Compétence métier"
-          },
-          {
-            "code" : "DEC",
-            "display" : "Droit d'exercice complémentaire"
-          },
-          {
-            "code" : "DNQ",
-            "display" : "DESC non qualifiant"
-          },
-          {
-            "code" : "FQ",
-            "display" : "Fonction qualifiée"
-          },
-          {
-            "code" : "OP",
-            "display" : "Orientation particulière"
-          },
-          {
-            "code" : "PAC",
-            "display" : "Qualification Praticien adjoint contractuel (PAC)"
-          },
-          {
-            "code" : "S",
-            "display" : "Spécialité ordinale"
-          },
-          {
-            "code" : "SH",
-            "display" : "Spécialité de concours hospitalier"
-          },
-          {
-            "code" : "SST",
-            "display" : "Surspécialité acquise à l'issue d'une Formation Spécialisée Transversale (FST)"
-          }
-        ]
-      }
-    ]
+        "code" : "CAPA",
+        "display" : "Capacité"
+      },
+      {
+        "code" : "CEX",
+        "display" : "Compétence exclusive"
+      },
+      {
+        "code" : "CM",
+        "display" : "Compétence métier"
+      },
+      {
+        "code" : "DEC",
+        "display" : "Droit d'exercice complémentaire"
+      },
+      {
+        "code" : "DNQ",
+        "display" : "DESC non qualifiant"
+      },
+      {
+        "code" : "FQ",
+        "display" : "Fonction qualifiée"
+      },
+      {
+        "code" : "OP",
+        "display" : "Orientation particulière"
+      },
+      {
+        "code" : "PAC",
+        "display" : "Qualification Praticien adjoint contractuel (PAC)"
+      },
+      {
+        "code" : "S",
+        "display" : "Spécialité ordinale"
+      },
+      {
+        "code" : "SH",
+        "display" : "Spécialité de concours hospitalier"
+      },
+      {
+        "code" : "SST",
+        "display" : "Surspécialité acquise à l'issue d'une Formation Spécialisée Transversale (FST)"
+      }]
+    }]
   }
 }
 

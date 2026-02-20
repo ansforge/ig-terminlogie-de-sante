@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R228-UnitePrix/FHIR/TRE-R228-UnitePrix",
+      "version" : "20231215120000",
       "concept" : [{
         "code" : "1",
         "display" : "Tarif horaire"

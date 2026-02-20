@@ -34,228 +34,190 @@ Traduction Française
   "experimental" : true,
   "date" : "2025-10-24T16:40:38+11:00",
   "description" : "Traduction Française",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "content" : "supplement",
   "supplements" : "http://terminology.hl7.org/CodeSystem/v3-ActMood|3.0.0",
-  "concept" : [
-    {
-      "code" : "DEF",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Définition"
-        }
-      ]
-    },
-    {
-      "code" : "PERM",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Permission"
-        }
-      ]
-    },
-    {
-      "code" : "SLOT",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Possible sur la période spécifiée"
-        }
-      ]
-    },
-    {
-      "code" : "EVN",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Réalisé"
-        }
-      ]
-    },
-    {
-      "code" : "INT",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Prévu"
-        }
-      ]
-    },
-    {
-      "code" : "ARQ",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Prévu mais non confirmé"
-        }
-      ]
-    },
-    {
-      "code" : "PERMRQ",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Demande d'autorisation"
-        }
-      ]
-    },
-    {
-      "code" : "RQO",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Demande"
-        }
-      ]
-    },
-    {
-      "code" : "PRP",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Proposition"
-        }
-      ]
-    },
-    {
-      "code" : "RMD",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Recommandation"
-        }
-      ]
-    },
-    {
-      "code" : "PRMS",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Planifié et confirmé"
-        }
-      ]
-    },
-    {
-      "code" : "APT",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Date et lieu confirmé"
-        }
-      ]
-    },
-    {
-      "code" : "EXPEC",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Attendu"
-        }
-      ]
-    },
-    {
-      "code" : "GOL",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "But"
-        }
-      ]
-    },
-    {
-      "code" : "RSK",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Risque"
-        }
-      ]
-    },
-    {
-      "code" : "OPT",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Option"
-        }
-      ]
-    }
-  ]
+  "concept" : [{
+    "code" : "DEF",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Définition"
+    }]
+  },
+  {
+    "code" : "PERM",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Permission"
+    }]
+  },
+  {
+    "code" : "SLOT",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Possible sur la période spécifiée"
+    }]
+  },
+  {
+    "code" : "EVN",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Réalisé"
+    }]
+  },
+  {
+    "code" : "INT",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Prévu"
+    }]
+  },
+  {
+    "code" : "ARQ",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Prévu mais non confirmé"
+    }]
+  },
+  {
+    "code" : "PERMRQ",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Demande d'autorisation"
+    }]
+  },
+  {
+    "code" : "RQO",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Demande"
+    }]
+  },
+  {
+    "code" : "PRP",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Proposition"
+    }]
+  },
+  {
+    "code" : "RMD",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Recommandation"
+    }]
+  },
+  {
+    "code" : "PRMS",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Planifié et confirmé"
+    }]
+  },
+  {
+    "code" : "APT",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Date et lieu confirmé"
+    }]
+  },
+  {
+    "code" : "EXPEC",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Attendu"
+    }]
+  },
+  {
+    "code" : "GOL",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "But"
+    }]
+  },
+  {
+    "code" : "RSK",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Risque"
+    }]
+  },
+  {
+    "code" : "OPT",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Option"
+    }]
+  }]
 }
 
 ```

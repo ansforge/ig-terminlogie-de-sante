@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R350-ThematiqueAnomalie/FHIR/TRE-R350-ThematiqueAnomalie",
+      "version" : "20231215120000",
       "concept" : [{
         "code" : "01",
         "display" : "Complétude"

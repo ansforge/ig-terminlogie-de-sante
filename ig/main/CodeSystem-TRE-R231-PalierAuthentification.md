@@ -30,25 +30,19 @@ Paliers des référentiels d’authentification de la PGSSI-S
   "meta" : {
     "versionId" : "5",
     "lastUpdated" : "2025-07-02T18:16:19.952+00:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2017-07-07T10:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2017-07-07T10:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R231-PalierAuthentification/FHIR/TRE-R231-PalierAuthentification",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.5.1.1.1"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.5.1.1.1"
+  }],
   "version" : "20231215120000",
   "name" : "TRE_R231_PalierAuthentification",
   "status" : "active",
@@ -56,307 +50,271 @@ Paliers des référentiels d’authentification de la PGSSI-S
   "date" : "2023-12-15T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Paliers des référentiels d'authentification de la PGSSI-S",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "caseSensitive" : false,
   "content" : "complete",
-  "property" : [
+  "property" : [{
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "deprecationDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
+    "description" : "Date Concept was deprecated",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "status",
+    "uri" : "http://hl7.org/fhir/concept-properties#status",
+    "description" : "A property that indicates the status of the concept.",
+    "type" : "code"
+  },
+  {
+    "code" : "retirementDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
+    "description" : "Date Concept was retired",
+    "type" : "dateTime"
+  }],
+  "concept" : [{
+    "code" : "APMPUBP2",
+    "display" : "Palier 2 authent. pub acteurs sanitaires, médico-sociaux et sociaux PM",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "P2 auth pub act smss PM"
+    },
     {
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Palier 2 de l'authentification publique des acteurs sanitaires, médico-sociaux et sociaux personnes morales"
+    }],
+    "property" : [{
       "code" : "dateValid",
-      "description" : "date de validité d'un code concept",
-      "type" : "dateTime"
+      "valueDateTime" : "2017-07-07T10:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "description" : "Date de mise à jour d'un code concept",
-      "type" : "dateTime"
-    },
-    {
-      "code" : "dateFin",
-      "description" : "Date de fin d'exploitation d'un code concept",
-      "type" : "dateTime"
-    },
-    {
-      "code" : "deprecationDate",
-      "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
-      "description" : "Date Concept was deprecated",
-      "type" : "dateTime"
+      "valueDateTime" : "2017-07-07T10:00:00+01:00"
     },
     {
       "code" : "status",
-      "uri" : "http://hl7.org/fhir/concept-properties#status",
-      "description" : "A property that indicates the status of the concept.",
-      "type" : "code"
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "APMPUBP3",
+    "display" : "Palier 3 authent. pub acteurs sanitaires, médico-sociaux et sociaux PM",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "P3 auth pub act smss PM"
     },
     {
-      "code" : "retirementDate",
-      "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
-      "description" : "Date Concept was retired",
-      "type" : "dateTime"
-    }
-  ],
-  "concept" : [
-    {
-      "code" : "APMPUBP2",
-      "display" : "Palier 2 authent. pub acteurs sanitaires, médico-sociaux et sociaux PM",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "P2 auth pub act smss PM"
-        },
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Palier 2 de l'authentification publique des acteurs sanitaires, médico-sociaux et sociaux personnes morales"
-        }
-      ],
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2017-07-07T10:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2017-07-07T10:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Palier 3 de l'authentification publique des acteurs sanitaires, médico-sociaux et sociaux personnes morales"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2017-07-07T10:00:00+01:00"
     },
     {
-      "code" : "APMPUBP3",
-      "display" : "Palier 3 authent. pub acteurs sanitaires, médico-sociaux et sociaux PM",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "P3 auth pub act smss PM"
-        },
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Palier 3 de l'authentification publique des acteurs sanitaires, médico-sociaux et sociaux personnes morales"
-        }
-      ],
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2017-07-07T10:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2017-07-07T10:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "code" : "dateMaj",
+      "valueDateTime" : "2017-07-07T10:00:00+01:00"
     },
     {
-      "code" : "APPPRIP1",
-      "display" : "Palier 1 authent. privée acteurs sanitaires, médico-sociaux et sociaux PP",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "P1 auth pri act smss PP"
-        },
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Palier 1 de l'authentification privée des acteurs sanitaires, médico-sociaux et sociaux personnes physiques"
-        }
-      ],
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2017-07-07T10:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2017-07-07T10:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "APPPRIP1",
+    "display" : "Palier 1 authent. privée acteurs sanitaires, médico-sociaux et sociaux PP",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "P1 auth pri act smss PP"
     },
     {
-      "code" : "APPPRIP2",
-      "display" : "Palier 2 authent. privée acteurs sanitaires, médico-sociaux et sociaux PP",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "P2 auth pri act smss PP"
-        },
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Palier 2 de l'authentification privée des acteurs sanitaires, médico-sociaux et sociaux personnes physiques"
-        }
-      ],
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2017-07-07T10:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2017-07-07T10:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Palier 1 de l'authentification privée des acteurs sanitaires, médico-sociaux et sociaux personnes physiques"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2017-07-07T10:00:00+01:00"
     },
     {
-      "code" : "APPPRIP3",
-      "display" : "Palier 3 authent. privée acteurs sanitaires, médico-sociaux et sociaux PP",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "P3 auth pri act smss PP"
-        },
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Palier 3 de l'authentification privée des acteurs sanitaires, médico-sociaux et sociaux personnes physiques"
-        }
-      ],
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2017-07-07T10:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2017-07-07T10:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "code" : "dateMaj",
+      "valueDateTime" : "2017-07-07T10:00:00+01:00"
     },
     {
-      "code" : "APPPUBP2",
-      "display" : "Palier 2 authent. pub acteurs sanitaires, médico-sociaux et sociaux PP",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "P2 auth pub act smss PP"
-        },
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Palier 2 de l'authentification publique des acteurs sanitaires, médico-sociaux et sociaux personnes physiques"
-        }
-      ],
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2017-07-07T10:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2017-07-07T10:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "APPPRIP2",
+    "display" : "Palier 2 authent. privée acteurs sanitaires, médico-sociaux et sociaux PP",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "P2 auth pri act smss PP"
     },
     {
-      "code" : "APPPUBP3",
-      "display" : "Palier 3 authent. pub acteurs sanitaires, médico-sociaux et sociaux PP",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "P3 auth pub act smss PP"
-        },
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Palier 3 de l'authentification publique des acteurs sanitaires, médico-sociaux et sociaux personnes physiques"
-        }
-      ],
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2017-07-07T10:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2017-07-07T10:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
-    }
-  ]
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Palier 2 de l'authentification privée des acteurs sanitaires, médico-sociaux et sociaux personnes physiques"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2017-07-07T10:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2017-07-07T10:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "APPPRIP3",
+    "display" : "Palier 3 authent. privée acteurs sanitaires, médico-sociaux et sociaux PP",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "P3 auth pri act smss PP"
+    },
+    {
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Palier 3 de l'authentification privée des acteurs sanitaires, médico-sociaux et sociaux personnes physiques"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2017-07-07T10:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2017-07-07T10:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "APPPUBP2",
+    "display" : "Palier 2 authent. pub acteurs sanitaires, médico-sociaux et sociaux PP",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "P2 auth pub act smss PP"
+    },
+    {
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Palier 2 de l'authentification publique des acteurs sanitaires, médico-sociaux et sociaux personnes physiques"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2017-07-07T10:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2017-07-07T10:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "APPPUBP3",
+    "display" : "Palier 3 authent. pub acteurs sanitaires, médico-sociaux et sociaux PP",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "P3 auth pub act smss PP"
+    },
+    {
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Palier 3 de l'authentification publique des acteurs sanitaires, médico-sociaux et sociaux personnes physiques"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2017-07-07T10:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2017-07-07T10:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  }]
 }
 
 ```

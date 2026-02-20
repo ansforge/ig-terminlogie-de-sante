@@ -34,202 +34,168 @@ Traduction Française
   "experimental" : true,
   "date" : "2025-10-24T16:40:38+11:00",
   "description" : "Traduction Française",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "content" : "supplement",
   "supplements" : "http://terminology.hl7.org/CodeSystem/v3-mediaType|3.0.0",
-  "concept" : [
-    {
-      "code" : "application/dicom",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "DICOM"
-        }
-      ]
-    },
-    {
-      "code" : "application/msword",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "MSWORD"
-        }
-      ]
-    },
-    {
-      "code" : "application/pdf",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "PDF"
-        }
-      ]
-    },
-    {
-      "code" : "audio/basic",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Basic Audio"
-        }
-      ]
-    },
-    {
-      "code" : "audio/k32adpcm",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "K32ADPCM Audio"
-        }
-      ]
-    },
-    {
-      "code" : "audio/mpeg",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "MPEG audio layer 3 MP3 Audio"
-        }
-      ]
-    },
-    {
-      "code" : "image/gif",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "GIF Image"
-        }
-      ]
-    },
-    {
-      "code" : "image/jpeg",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "JPEG Image"
-        }
-      ]
-    },
-    {
-      "code" : "image/png",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "PNG Image"
-        }
-      ]
-    },
-    {
-      "code" : "image/tiff",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "TIFF Image"
-        }
-      ]
-    },
-    {
-      "code" : "text/html",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "HTML Text"
-        }
-      ]
-    },
-    {
-      "code" : "text/plain",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Plain Text"
-        }
-      ]
-    },
-    {
-      "code" : "text/rtf",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "RTF Text"
-        }
-      ]
-    },
-    {
-      "code" : "text/xml",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "XML Text"
-        }
-      ]
-    }
-  ]
+  "concept" : [{
+    "code" : "application/dicom",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DICOM"
+    }]
+  },
+  {
+    "code" : "application/msword",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "MSWORD"
+    }]
+  },
+  {
+    "code" : "application/pdf",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "PDF"
+    }]
+  },
+  {
+    "code" : "audio/basic",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Basic Audio"
+    }]
+  },
+  {
+    "code" : "audio/k32adpcm",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "K32ADPCM Audio"
+    }]
+  },
+  {
+    "code" : "audio/mpeg",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "MPEG audio layer 3 MP3 Audio"
+    }]
+  },
+  {
+    "code" : "image/gif",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "GIF Image"
+    }]
+  },
+  {
+    "code" : "image/jpeg",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "JPEG Image"
+    }]
+  },
+  {
+    "code" : "image/png",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "PNG Image"
+    }]
+  },
+  {
+    "code" : "image/tiff",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "TIFF Image"
+    }]
+  },
+  {
+    "code" : "text/html",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "HTML Text"
+    }]
+  },
+  {
+    "code" : "text/plain",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Plain Text"
+    }]
+  },
+  {
+    "code" : "text/rtf",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "RTF Text"
+    }]
+  },
+  {
+    "code" : "text/xml",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "XML Text"
+    }]
+  }]
 }
 
 ```

@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R253-TypeMaternite/FHIR/TRE-R253-TypeMaternite"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="01"/>
         <display value="Maternité de type 1"/>

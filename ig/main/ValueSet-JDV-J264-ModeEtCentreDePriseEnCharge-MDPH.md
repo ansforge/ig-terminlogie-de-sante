@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "2",
     "lastUpdated" : "2025-07-02T17:06:17.550+00:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2024-06-28T12:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2024-06-28T12:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J264-ModeEtCentreDePriseEnCharge-MDPH/FHIR/JDV-J264-ModeEtCentreDePriseEnCharge-MDPH",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.3.4.105"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.3.4.105"
+  }],
   "version" : "20240628120000",
   "name" : "JDV_J264_ModeEtCentreDePriseEnCharge_MDPH",
   "status" : "active",
@@ -84,45 +78,37 @@ Requête sur le SMT
   "date" : "2024-06-28T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Les modes de prise en charge en établissements ESMS qui sont possibles pour l'usager est validées en commission par la CDAPH",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
-      {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R213-ModePriseEnCharge/FHIR/TRE-R213-ModePriseEnCharge",
-        "concept" : [
-          {
-            "code" : "46",
-            "display" : "Hébergement (accueil jour et nuit)"
-          },
-          {
-            "code" : "47",
-            "display" : "Accueil de jour"
-          },
-          {
-            "code" : "48",
-            "display" : "Accueil de nuit"
-          }
-        ]
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R213-ModePriseEnCharge/FHIR/TRE-R213-ModePriseEnCharge",
+      "version" : "20251222120000",
+      "concept" : [{
+        "code" : "46",
+        "display" : "Hébergement (accueil jour et nuit)"
       },
       {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement",
-        "concept" : [
-          {
-            "code" : "238",
-            "display" : "Centre d'Accueil Familial Spécialisé"
-          }
-        ]
-      }
-    ]
+        "code" : "47",
+        "display" : "Accueil de jour"
+      },
+      {
+        "code" : "48",
+        "display" : "Accueil de nuit"
+      }]
+    },
+    {
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement",
+      "version" : "20251222120000",
+      "concept" : [{
+        "code" : "238",
+        "display" : "Centre d'Accueil Familial Spécialisé"
+      }]
+    }]
   }
 }
 

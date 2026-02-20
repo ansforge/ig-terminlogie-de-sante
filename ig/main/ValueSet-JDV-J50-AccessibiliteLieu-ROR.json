@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R202-AccessibiliteLieu/FHIR/TRE-R202-AccessibiliteLieu",
+      "version" : "20231215120000",
       "concept" : [{
         "code" : "1",
         "display" : "Accessible"

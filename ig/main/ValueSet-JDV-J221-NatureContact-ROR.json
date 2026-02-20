@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R287-NatureContact/FHIR/TRE-R287-NatureContact",
+      "version" : "20241213120000",
       "concept" : [{
         "code" : "01",
         "display" : "Accueil"

@@ -30,25 +30,19 @@ Prestations non obligatoire incluses
   "meta" : {
     "versionId" : "5",
     "lastUpdated" : "2025-07-02T18:16:46.136+00:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2018-05-31T12:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2018-05-31T12:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R264-PrestationNonObligatoireIncluse/FHIR/TRE-R264-PrestationNonObligatoireIncluse",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.3.3.59"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.3.3.59"
+  }],
   "version" : "20231215120000",
   "name" : "TRE_R264_PrestationNonObligatoireIncluse",
   "status" : "active",
@@ -56,263 +50,231 @@ Prestations non obligatoire incluses
   "date" : "2023-12-15T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Prestations non obligatoire incluses",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "caseSensitive" : false,
   "content" : "complete",
-  "property" : [
-    {
+  "property" : [{
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "deprecationDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
+    "description" : "Date Concept was deprecated",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "status",
+    "uri" : "http://hl7.org/fhir/concept-properties#status",
+    "description" : "A property that indicates the status of the concept.",
+    "type" : "code"
+  },
+  {
+    "code" : "retirementDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
+    "description" : "Date Concept was retired",
+    "type" : "dateTime"
+  }],
+  "concept" : [{
+    "code" : "01",
+    "display" : "Entretien du linge du résident non délicat",
+    "property" : [{
       "code" : "dateValid",
-      "description" : "date de validité d'un code concept",
-      "type" : "dateTime"
+      "valueDateTime" : "2018-05-31T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "description" : "Date de mise à jour d'un code concept",
-      "type" : "dateTime"
-    },
-    {
-      "code" : "dateFin",
-      "description" : "Date de fin d'exploitation d'un code concept",
-      "type" : "dateTime"
-    },
-    {
-      "code" : "deprecationDate",
-      "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
-      "description" : "Date Concept was deprecated",
-      "type" : "dateTime"
+      "valueDateTime" : "2018-05-31T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "uri" : "http://hl7.org/fhir/concept-properties#status",
-      "description" : "A property that indicates the status of the concept.",
-      "type" : "code"
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "02",
+    "display" : "Marquage du linge",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2018-05-31T12:00:00+01:00"
     },
     {
-      "code" : "retirementDate",
-      "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
-      "description" : "Date Concept was retired",
-      "type" : "dateTime"
-    }
-  ],
-  "concept" : [
-    {
-      "code" : "01",
-      "display" : "Entretien du linge du résident non délicat",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2018-05-31T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2018-05-31T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "code" : "dateMaj",
+      "valueDateTime" : "2018-05-31T12:00:00+01:00"
     },
     {
-      "code" : "02",
-      "display" : "Marquage du linge",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2018-05-31T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2018-05-31T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "03",
+    "display" : "Fourniture de produits d'hygiène corporelle",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Fourniture de produits d'hygiène corporelle (savon, gel douche, shampoing, dentifrice...)"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2018-05-31T12:00:00+01:00"
     },
     {
-      "code" : "03",
-      "display" : "Fourniture de produits d'hygiène corporelle",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Fourniture de produits d'hygiène corporelle (savon, gel douche, shampoing, dentifrice...)"
-        }
-      ],
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2018-05-31T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2018-05-31T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "code" : "dateMaj",
+      "valueDateTime" : "2018-05-31T12:00:00+01:00"
     },
     {
-      "code" : "04",
-      "display" : "Mise à disposition d'un poste de téléphonie dans la chambre",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2018-05-31T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2018-05-31T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "04",
+    "display" : "Mise à disposition d'un poste de téléphonie dans la chambre",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2018-05-31T12:00:00+01:00"
     },
     {
-      "code" : "05",
-      "display" : "Appels téléphoniques entrants non facturés en sus",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2018-05-31T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2018-05-31T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "code" : "dateMaj",
+      "valueDateTime" : "2018-05-31T12:00:00+01:00"
     },
     {
-      "code" : "06",
-      "display" : "Appels téléphoniques sortants non facturés en sus",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2018-05-31T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2018-05-31T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "05",
+    "display" : "Appels téléphoniques entrants non facturés en sus",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2018-05-31T12:00:00+01:00"
     },
     {
-      "code" : "07",
-      "display" : "Mise à disposition d'un poste de télévision dans la chambre",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2018-05-31T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2018-05-31T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "code" : "dateMaj",
+      "valueDateTime" : "2018-05-31T12:00:00+01:00"
     },
     {
-      "code" : "08",
-      "display" : "Internet dans la chambre (abonnement/accès au réseau Wifi)",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2018-05-31T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2018-05-31T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "06",
+    "display" : "Appels téléphoniques sortants non facturés en sus",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2018-05-31T12:00:00+01:00"
     },
     {
-      "code" : "09",
-      "display" : "Prestation de coiffure (shampoing, coupe)",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2018-05-31T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2018-05-31T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "code" : "dateMaj",
+      "valueDateTime" : "2018-05-31T12:00:00+01:00"
     },
     {
-      "code" : "10",
-      "display" : "Prestation esthétique de base",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2018-05-31T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2018-05-31T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "07",
+    "display" : "Mise à disposition d'un poste de télévision dans la chambre",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2018-05-31T12:00:00+01:00"
     },
     {
-      "code" : "11",
-      "display" : "Prestation de pédicurie-podologie (hors prescription médicale)",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2018-05-31T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2018-05-31T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
-    }
-  ]
+      "code" : "dateMaj",
+      "valueDateTime" : "2018-05-31T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "08",
+    "display" : "Internet dans la chambre (abonnement/accès au réseau Wifi)",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2018-05-31T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2018-05-31T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "09",
+    "display" : "Prestation de coiffure (shampoing, coupe)",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2018-05-31T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2018-05-31T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "10",
+    "display" : "Prestation esthétique de base",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2018-05-31T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2018-05-31T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "11",
+    "display" : "Prestation de pédicurie-podologie (hors prescription médicale)",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2018-05-31T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2018-05-31T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  }]
 }
 
 ```

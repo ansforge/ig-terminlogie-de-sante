@@ -65,6 +65,7 @@
          fhir:v "https://smt.esante.gouv.fr/terminologie-emdn"^^xsd:anyURI ;
          fhir:l <https://smt.esante.gouv.fr/terminologie-emdn>
        ] ;
+       fhir:version [ fhir:v "v1.2" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "Y210905" ] ;
          fhir:display [ fhir:v "INTERFACES DE CAPTEURS EXTERNES" ]

@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R291-AutreProfession/FHIR/TRE-R291-AutreProfession",
+      "version" : "20231215120000",
       "concept" : [{
         "code" : "99",
         "display" : "Acteur participant au système de santé caractérisé par rôle"

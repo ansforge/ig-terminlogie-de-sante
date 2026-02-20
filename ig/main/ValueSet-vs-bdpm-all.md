@@ -9,7 +9,7 @@
 | | | |
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/terminologie-bdpm?vs | *Version*:20241106120000 | |
-| Active as of 2026-02-19 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ValueSet_BDPM_All |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ValueSet_BDPM_All |
 
  
 Ce jeu de valeurs inclut tous les codes de la terminologie BDPM 
@@ -56,9 +56,7 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "1",
     "lastUpdated" : "2024-11-06T12:51:55.760+00:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
   "url" : "https://smt.esante.gouv.fr/terminologie-bdpm?vs",
@@ -66,25 +64,20 @@ Requête sur le SMT
   "name" : "ValueSet_BDPM_All",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-19T05:24:52+00:00",
+  "date" : "2026-02-20T05:21:29+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Ce jeu de valeurs inclut tous les codes de la terminologie BDPM",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
-      {
-        "system" : "https://smt.esante.gouv.fr/terminologie-bdpm"
-      }
-    ]
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/terminologie-bdpm",
+      "version" : "2026-02-03"
+    }]
   }
 }
 

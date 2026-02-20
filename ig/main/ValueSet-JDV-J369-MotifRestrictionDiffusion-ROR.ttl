@@ -65,6 +65,7 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R391-MotifRestrictionDiffusion/FHIR/TRE-R391-MotifRestrictionDiffusion"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R391-MotifRestrictionDiffusion/FHIR/TRE-R391-MotifRestrictionDiffusion>
        ] ;
+       fhir:version [ fhir:v "20250425120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "OPP_DIF_PUB" ] ;
          fhir:display [ fhir:v "Opposition à diffusion publique" ]

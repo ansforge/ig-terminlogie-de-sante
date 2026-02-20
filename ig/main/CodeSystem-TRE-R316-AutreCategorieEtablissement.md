@@ -30,25 +30,19 @@ Cette table de référence permet d’identifier des catégories d’établissem
   "meta" : {
     "versionId" : "6",
     "lastUpdated" : "2025-07-02T18:17:27.279+00:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2021-07-30T12:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2021-07-30T12:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R316-AutreCategorieEtablissement/FHIR/TRE-R316-AutreCategorieEtablissement",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.6.1.239"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.6.1.239"
+  }],
   "version" : "20240329120000",
   "name" : "TRE_R316_AutreCategorieEtablissement",
   "status" : "active",
@@ -56,92 +50,80 @@ Cette table de référence permet d’identifier des catégories d’établissem
   "date" : "2024-03-29T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Cette table de référence permet d'identifier des catégories d'établissements qui ne sont pas présentes dans la TRE R66 qui est une table de référence ne listant que les catégories d'établissements présentes dans le FINESS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "caseSensitive" : false,
   "content" : "complete",
-  "property" : [
-    {
+  "property" : [{
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "deprecationDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
+    "description" : "Date Concept was deprecated",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "status",
+    "uri" : "http://hl7.org/fhir/concept-properties#status",
+    "description" : "A property that indicates the status of the concept.",
+    "type" : "code"
+  },
+  {
+    "code" : "retirementDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
+    "description" : "Date Concept was retired",
+    "type" : "dateTime"
+  }],
+  "concept" : [{
+    "code" : "801",
+    "display" : "Dispositif d'appui à la coordination (DAC)",
+    "definition" : "Ce code créé en l'absence de code FINESS est devenu obsolète suite à la création du code « 606 » dans la TRE_R66-CategorieEtablissement qui le remplace",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "DAC"
+    }],
+    "property" : [{
       "code" : "dateValid",
-      "description" : "date de validité d'un code concept",
-      "type" : "dateTime"
-    },
-    {
-      "code" : "dateMaj",
-      "description" : "Date de mise à jour d'un code concept",
-      "type" : "dateTime"
+      "valueDateTime" : "2021-07-30T12:00:00+01:00"
     },
     {
       "code" : "dateFin",
-      "description" : "Date de fin d'exploitation d'un code concept",
-      "type" : "dateTime"
+      "valueDateTime" : "2022-01-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2022-01-28T12:00:00+01:00"
     },
     {
       "code" : "deprecationDate",
-      "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
-      "description" : "Date Concept was deprecated",
-      "type" : "dateTime"
+      "valueDateTime" : "2022-01-28T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "uri" : "http://hl7.org/fhir/concept-properties#status",
-      "description" : "A property that indicates the status of the concept.",
-      "type" : "code"
-    },
-    {
-      "code" : "retirementDate",
-      "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
-      "description" : "Date Concept was retired",
-      "type" : "dateTime"
-    }
-  ],
-  "concept" : [
-    {
-      "code" : "801",
-      "display" : "Dispositif d'appui à la coordination (DAC)",
-      "definition" : "Ce code créé en l'absence de code FINESS est devenu obsolète suite à la création du code « 606 » dans la TRE_R66-CategorieEtablissement qui le remplace",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "DAC"
-        }
-      ],
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2021-07-30T12:00:00+01:00"
-        },
-        {
-          "code" : "dateFin",
-          "valueDateTime" : "2022-01-28T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2022-01-28T12:00:00+01:00"
-        },
-        {
-          "code" : "deprecationDate",
-          "valueDateTime" : "2022-01-28T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "deprecated"
-        }
-      ]
-    }
-  ]
+      "valueCode" : "deprecated"
+    }]
+  }]
 }
 
 ```

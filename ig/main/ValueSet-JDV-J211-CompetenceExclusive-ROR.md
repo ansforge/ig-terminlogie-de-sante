@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "4",
     "lastUpdated" : "2025-07-02T17:05:49.815+00:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2022-08-26T12:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2022-08-26T12:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J211-CompetenceExclusive-ROR/FHIR/JDV-J211-CompetenceExclusive-ROR",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.3.4.43"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.3.4.43"
+  }],
   "version" : "20220826120000",
   "name" : "JDV_J211_CompetenceExclusive_ROR",
   "status" : "active",
@@ -84,40 +78,33 @@ Requête sur le SMT
   "date" : "2022-08-26T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Compétence exclusive",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R40-CompetenceExclusive/FHIR/TRE-R40-CompetenceExclusive",
+      "version" : "20231215120000",
+      "concept" : [{
+        "code" : "CEX22",
+        "display" : "Gynécologie médicale et Obstétrique (CEX)"
+      },
       {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R40-CompetenceExclusive/FHIR/TRE-R40-CompetenceExclusive",
-        "concept" : [
-          {
-            "code" : "CEX22",
-            "display" : "Gynécologie médicale et Obstétrique (CEX)"
-          },
-          {
-            "code" : "CEX24",
-            "display" : "Gynécologie médicale (CEX)"
-          },
-          {
-            "code" : "CEX26",
-            "display" : "Obstétrique (CEX)"
-          },
-          {
-            "code" : "CEX64",
-            "display" : "Urologie (CEX)"
-          }
-        ]
-      }
-    ]
+        "code" : "CEX24",
+        "display" : "Gynécologie médicale (CEX)"
+      },
+      {
+        "code" : "CEX26",
+        "display" : "Obstétrique (CEX)"
+      },
+      {
+        "code" : "CEX64",
+        "display" : "Urologie (CEX)"
+      }]
+    }]
   }
 }
 

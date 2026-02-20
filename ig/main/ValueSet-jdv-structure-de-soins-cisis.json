@@ -39,6 +39,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "version" : "202512170000",
       "concept" : [{
         "code" : "ORG-109",
         "display" : "Caisse d'assurance de retraite et santé au travail (CARSAT)"
@@ -86,6 +87,7 @@
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement",
+      "version" : "20251222120000",
       "concept" : [{
         "code" : "616",
         "display" : "Services de Prévention et de Santé au Travail (SPST)"

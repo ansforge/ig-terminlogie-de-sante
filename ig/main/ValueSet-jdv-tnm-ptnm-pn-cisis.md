@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "5",
     "lastUpdated" : "2025-12-17T15:47:17.245+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2021-01-01T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2021-01-01T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-tnm-ptnm-pn-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.525"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.525"
+  }],
   "version" : "20251216141838",
   "name" : "JdvTnmPtnmPnCisis",
   "title" : "JDV Tnm Ptnm Pn CISIS",
@@ -85,52 +79,45 @@ Requête sur le SMT
   "date" : "2025-12-16T14:18:38+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Tnm Ptnm Pn CISIS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "version" : "202512170000",
+      "concept" : [{
+        "code" : "MED-795",
+        "display" : "Ganglions  lymphatiques régionaux non évaluables"
+      },
       {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "MED-795",
-            "display" : "Ganglions  lymphatiques régionaux non évaluables"
-          },
-          {
-            "code" : "MED-796",
-            "display" : "Pas de métastase ganglionnaire lymphatique régionale"
-          },
-          {
-            "code" : "MED-797",
-            "display" : "Métastase dans 1 ganglion lymphatique régional"
-          },
-          {
-            "code" : "MED-798",
-            "display" : "Métastases dans 2 ou 3 ganglions lymphatiques régionaux"
-          },
-          {
-            "code" : "MED-799",
-            "display" : "Présence de dépôt(s) tumoral(aux) sans métastase ganglionnaire lymphatique régionale"
-          },
-          {
-            "code" : "MED-800",
-            "display" : "Métastases dans 4 à 6 ganglions lymphatiques régionaux"
-          },
-          {
-            "code" : "MED-801",
-            "display" : "Métastases dans plus de 6 ganglions lymphatiques régionaux"
-          }
-        ]
-      }
-    ]
+        "code" : "MED-796",
+        "display" : "Pas de métastase ganglionnaire lymphatique régionale"
+      },
+      {
+        "code" : "MED-797",
+        "display" : "Métastase dans 1 ganglion lymphatique régional"
+      },
+      {
+        "code" : "MED-798",
+        "display" : "Métastases dans 2 ou 3 ganglions lymphatiques régionaux"
+      },
+      {
+        "code" : "MED-799",
+        "display" : "Présence de dépôt(s) tumoral(aux) sans métastase ganglionnaire lymphatique régionale"
+      },
+      {
+        "code" : "MED-800",
+        "display" : "Métastases dans 4 à 6 ganglions lymphatiques régionaux"
+      },
+      {
+        "code" : "MED-801",
+        "display" : "Métastases dans plus de 6 ganglions lymphatiques régionaux"
+      }]
+    }]
   }
 }
 

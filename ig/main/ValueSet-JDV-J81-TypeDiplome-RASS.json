@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R14-TypeDiplome/FHIR/TRE-R14-TypeDiplome",
+      "version" : "20240329120000",
       "concept" : [{
         "code" : "ATT",
         "display" : "Attestation"

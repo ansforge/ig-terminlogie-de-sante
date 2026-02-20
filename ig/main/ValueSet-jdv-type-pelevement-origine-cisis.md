@@ -59,26 +59,20 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "meta" : {
     "versionId" : "6",
     "lastUpdated" : "2025-12-17T15:47:59.072+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2010-01-01T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2010-01-01T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-pelevement-origine-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.148"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.148"
+  }],
   "version" : "20251216141840",
   "name" : "JdvTypePelevementOrigineCisis",
   "title" : "JDV Type Pelevement Origine CISIS",
@@ -87,52 +81,44 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "date" : "2025-12-16T14:18:40+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Type Pelevement Origine CISIS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/terminologie-adicap",
+      "concept" : [{
+        "code" : "A",
+        "display" : "Aspiration"
+      },
       {
-        "system" : "https://smt.esante.gouv.fr/terminologie-adicap",
-        "concept" : [
-          {
-            "code" : "A",
-            "display" : "Aspiration"
-          },
-          {
-            "code" : "B",
-            "display" : "Biopsie chirurgicale"
-          },
-          {
-            "code" : "C",
-            "display" : "Cytoponction non guidée par imagerie"
-          },
-          {
-            "code" : "F",
-            "display" : "Frottis par raclage, brossage ou écouvillonnage"
-          },
-          {
-            "code" : "L",
-            "display" : "Liquide spontanément émis ou de ponction (épanchement, urine, LCR,  kyste, bulle)"
-          },
-          {
-            "code" : "O",
-            "display" : "Pièce opératoire avec exérèse complète de l’organe"
-          },
-          {
-            "code" : "P",
-            "display" : "Ponction, biopsie et biopsie instrumentale non guidée par imagerie"
-          }
-        ]
-      }
-    ]
+        "code" : "B",
+        "display" : "Biopsie chirurgicale"
+      },
+      {
+        "code" : "C",
+        "display" : "Cytoponction non guidée par imagerie"
+      },
+      {
+        "code" : "F",
+        "display" : "Frottis par raclage, brossage ou écouvillonnage"
+      },
+      {
+        "code" : "L",
+        "display" : "Liquide spontanément émis ou de ponction (épanchement, urine, LCR,  kyste, bulle)"
+      },
+      {
+        "code" : "O",
+        "display" : "Pièce opératoire avec exérèse complète de l’organe"
+      },
+      {
+        "code" : "P",
+        "display" : "Ponction, biopsie et biopsie instrumentale non guidée par imagerie"
+      }]
+    }]
   }
 }
 

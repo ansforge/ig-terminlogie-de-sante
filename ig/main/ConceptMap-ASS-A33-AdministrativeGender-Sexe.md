@@ -23,18 +23,16 @@ Correspondance entre le JDV sexe du NOS et le JDV administrative gender de FHIR 
 {
   "resourceType" : "ConceptMap",
   "id" : "ASS-A33-AdministrativeGender-Sexe",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2024-03-29T12:00:00+01:00"
-      }
-    },
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/concept-bidirectional",
-      "valueBoolean" : true
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2024-03-29T12:00:00+01:00"
     }
-  ],
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/concept-bidirectional",
+    "valueBoolean" : true
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/ASS_A33-AdministrativeGender-Sexe/FHIR/ASS-A33-AdministrativeGender-Sexe",
   "identifier" : {
     "value" : "urn:oid:1.2.250.1.213.2.77"
@@ -46,64 +44,48 @@ Correspondance entre le JDV sexe du NOS et le JDV administrative gender de FHIR 
   "experimental" : false,
   "date" : "2024-03-29T12:00:00+01:00",
   "description" : "Correspondance entre le JDV sexe du NOS et le JDV administrative gender de FHIR pour simplifier l'adaptation du MOS à FHIR.",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "sourceUri" : "https://mos.esante.gouv.fr/NOS/JDV_J262-Sexe/FHIR/JDV-J262-Sexe",
   "targetUri" : "http://hl7.org/fhir/ValueSet/administrative-gender",
-  "group" : [
+  "group" : [{
+    "source" : "https://mos.esante.gouv.fr/NOS/TRE_R249-Sexe/FHIR/TRE-R249-Sexe",
+    "sourceVersion" : "20231215120000",
+    "target" : "http://hl7.org/fhir/administrative-gender",
+    "targetVersion" : "4.0.1",
+    "element" : [{
+      "code" : "M",
+      "target" : [{
+        "code" : "male",
+        "equivalence" : "equivalent"
+      }]
+    },
     {
-      "source" : "https://mos.esante.gouv.fr/NOS/TRE_R249-Sexe/FHIR/TRE-R249-Sexe",
-      "sourceVersion" : "20231215120000",
-      "target" : "http://hl7.org/fhir/administrative-gender",
-      "targetVersion" : "4.0.1",
-      "element" : [
-        {
-          "code" : "M",
-          "target" : [
-            {
-              "code" : "male",
-              "equivalence" : "equivalent"
-            }
-          ]
-        },
-        {
-          "code" : "F",
-          "target" : [
-            {
-              "code" : "female",
-              "equivalence" : "equivalent"
-            }
-          ]
-        },
-        {
-          "code" : "O",
-          "target" : [
-            {
-              "code" : "other",
-              "equivalence" : "equivalent"
-            }
-          ]
-        },
-        {
-          "code" : "UN",
-          "target" : [
-            {
-              "code" : "unknown",
-              "equivalence" : "equivalent"
-            }
-          ]
-        }
-      ]
-    }
-  ]
+      "code" : "F",
+      "target" : [{
+        "code" : "female",
+        "equivalence" : "equivalent"
+      }]
+    },
+    {
+      "code" : "O",
+      "target" : [{
+        "code" : "other",
+        "equivalence" : "equivalent"
+      }]
+    },
+    {
+      "code" : "UN",
+      "target" : [{
+        "code" : "unknown",
+        "equivalence" : "equivalent"
+      }]
+    }]
+  }]
 }
 
 ```

@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R224-NiveauFormAcquis/FHIR/TRE-R224-NiveauFormAcquis",
+      "version" : "20231215120000",
       "concept" : [{
         "code" : "A06",
         "display" : "6ième année validée"

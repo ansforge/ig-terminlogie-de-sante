@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "4",
     "lastUpdated" : "2025-07-02T17:06:24.466+00:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2017-10-13T12:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2017-10-13T12:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J28-OuvertureAnnuelle-ROR/FHIR/JDV-J28-OuvertureAnnuelle-ROR",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.3.3.28"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.3.3.28"
+  }],
   "version" : "20200424120000",
   "name" : "JDV_J28_OuvertureAnnuelle_ROR",
   "status" : "active",
@@ -84,44 +78,37 @@ Requête sur le SMT
   "date" : "2020-04-24T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Ouverture annuelle - ROR",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R238-OuvertureAnnuelle/FHIR/TRE-R238-OuvertureAnnuelle",
+      "version" : "20231215120000",
+      "concept" : [{
+        "code" : "01",
+        "display" : "Semaine hors week-end jusqu'à 210 jours par an"
+      },
       {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R238-OuvertureAnnuelle/FHIR/TRE-R238-OuvertureAnnuelle",
-        "concept" : [
-          {
-            "code" : "01",
-            "display" : "Semaine hors week-end jusqu'à 210 jours par an"
-          },
-          {
-            "code" : "02",
-            "display" : "Semaine et week-end (de 211 à 364 jours par an)"
-          },
-          {
-            "code" : "03",
-            "display" : "Année complète (365 jours par an)"
-          },
-          {
-            "code" : "04",
-            "display" : "Semaine hors week-end à partir de 210 jours"
-          },
-          {
-            "code" : "05",
-            "display" : "Week-end et vacances scolaires uniquement"
-          }
-        ]
-      }
-    ]
+        "code" : "02",
+        "display" : "Semaine et week-end (de 211 à 364 jours par an)"
+      },
+      {
+        "code" : "03",
+        "display" : "Année complète (365 jours par an)"
+      },
+      {
+        "code" : "04",
+        "display" : "Semaine hors week-end à partir de 210 jours"
+      },
+      {
+        "code" : "05",
+        "display" : "Week-end et vacances scolaires uniquement"
+      }]
+    }]
   }
 }
 

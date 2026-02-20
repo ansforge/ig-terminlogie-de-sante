@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R43-CapaciteSavoirFaire/FHIR/TRE-R43-CapaciteSavoirFaire",
+      "version" : "20231215120000",
       "concept" : [{
         "code" : "CAPA01",
         "display" : "Addictologie clinique (CAPA)"

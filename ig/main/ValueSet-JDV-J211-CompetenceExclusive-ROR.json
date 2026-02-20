@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R40-CompetenceExclusive/FHIR/TRE-R40-CompetenceExclusive",
+      "version" : "20231215120000",
       "concept" : [{
         "code" : "CEX22",
         "display" : "Gynécologie médicale et Obstétrique (CEX)"

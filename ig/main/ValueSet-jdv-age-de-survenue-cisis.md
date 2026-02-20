@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "5",
     "lastUpdated" : "2025-12-17T15:42:54.063+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2021-09-07T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2021-09-07T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-age-de-survenue-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.646"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.646"
+  }],
   "version" : "20251216141838",
   "name" : "JdvAgeDeSurvenueCisis",
   "title" : "JDV Age De Survenue CISIS",
@@ -85,44 +79,37 @@ Requête sur le SMT
   "date" : "2025-12-16T14:18:38+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Age De Survenue CISIS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "version" : "202512170000",
+      "concept" : [{
+        "code" : "GEN-287",
+        "display" : "avant 30 ans"
+      },
       {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "GEN-287",
-            "display" : "avant 30 ans"
-          },
-          {
-            "code" : "GEN-288",
-            "display" : "entre 30 et 39 ans"
-          },
-          {
-            "code" : "GEN-289",
-            "display" : "entre 40 et 49 ans"
-          },
-          {
-            "code" : "GEN-290",
-            "display" : "entre 50 et 59 ans"
-          },
-          {
-            "code" : "GEN-291",
-            "display" : "avant 70 ans"
-          }
-        ]
-      }
-    ]
+        "code" : "GEN-288",
+        "display" : "entre 30 et 39 ans"
+      },
+      {
+        "code" : "GEN-289",
+        "display" : "entre 40 et 49 ans"
+      },
+      {
+        "code" : "GEN-290",
+        "display" : "entre 50 et 59 ans"
+      },
+      {
+        "code" : "GEN-291",
+        "display" : "avant 70 ans"
+      }]
+    }]
   }
 }
 

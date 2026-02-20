@@ -33,6 +33,8 @@ Requête sur le SMT
 
 ### Expansion
 
+No Expansion for this valueset (not supported by Publication Tooling)
+
 -------
 
  Explanation of the columns that may appear on this page: 
@@ -57,26 +59,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "4",
     "lastUpdated" : "2025-12-17T15:43:50.070+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2010-01-01T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2010-01-01T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-disposition-pretherapeutique-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.216"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.216"
+  }],
   "version" : "20251216141838",
   "name" : "JdvDispositionPretherapeutiqueCisis",
   "title" : "JDV Disposition Pretherapeutique CISIS",
@@ -85,79 +81,67 @@ Requête sur le SMT
   "date" : "2025-12-16T14:18:38+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Disposition Pretherapeutique CISIS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
-      {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "MED-495",
-            "display" : "Aspirine dans les 24h d'hospitalisation"
-          },
-          {
-            "code" : "MED-496",
-            "display" : "Posologie aspirine entre 160 et 300 mg"
-          },
-          {
-            "code" : "MED-497",
-            "display" : "Contre-indication aspirine"
-          },
-          {
-            "code" : "MED-500",
-            "display" : "Inclusion dans protocole"
-          },
-          {
-            "code" : "MED-501",
-            "display" : "Date de consentement au protocole"
-          }
-        ]
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "version" : "202512170000",
+      "concept" : [{
+        "code" : "MED-495",
+        "display" : "Aspirine dans les 24h d'hospitalisation"
       },
       {
-        "system" : "http://loinc.org",
-        "concept" : [
-          {
-            "code" : "42796-3",
-            "display" : "Nom du protocole d'essai clinique"
-          }
-        ]
+        "code" : "MED-496",
+        "display" : "Posologie aspirine entre 160 et 300 mg"
       },
       {
-        "system" : "http://snomed.info/sct",
-        "concept" : [
-          {
-            "code" : "233428003",
-            "display" : "thrombolyse veineuse"
-          },
-          {
-            "code" : "43810009",
-            "display" : "thrombectomie"
-          }
-        ]
+        "code" : "MED-497",
+        "display" : "Contre-indication aspirine"
       },
       {
-        "system" : "http://www.whocc.no/atc",
-        "concept" : [
-          {
-            "code" : "B01AC04",
-            "display" : "clopidogrel"
-          },
-          {
-            "code" : "B01AB01",
-            "display" : "héparine"
-          }
-        ]
-      }
-    ]
+        "code" : "MED-500",
+        "display" : "Inclusion dans protocole"
+      },
+      {
+        "code" : "MED-501",
+        "display" : "Date de consentement au protocole"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "42796-3",
+        "display" : "Nom du protocole d'essai clinique"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/900000000000207008/version/20260201",
+      "concept" : [{
+        "code" : "233428003",
+        "display" : "thrombolyse veineuse"
+      },
+      {
+        "code" : "43810009",
+        "display" : "thrombectomie"
+      }]
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "concept" : [{
+        "code" : "B01AC04",
+        "display" : "clopidogrel"
+      },
+      {
+        "code" : "B01AB01",
+        "display" : "héparine"
+      }]
+    }]
   }
 }
 

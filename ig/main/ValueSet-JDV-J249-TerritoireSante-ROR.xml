@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R88-TerritoireSante/FHIR/TRE-R88-TerritoireSante"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="001"/>
         <display value="Sud Yonne Haut-Nivernais"/>

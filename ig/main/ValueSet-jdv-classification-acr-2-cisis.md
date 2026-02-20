@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "5",
     "lastUpdated" : "2025-12-17T15:43:20.081+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2021-09-07T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2021-09-07T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-classification-acr-2-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.650"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.650"
+  }],
   "version" : "20251216141838",
   "name" : "JdvClassificationAcr2Cisis",
   "title" : "JDV Classification Acr 2 CISIS",
@@ -85,48 +79,41 @@ Requête sur le SMT
   "date" : "2025-12-16T14:18:38+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Classification Acr 2 CISIS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "version" : "202512170000",
+      "concept" : [{
+        "code" : "MED-1064",
+        "display" : "En attente BI-RADS ACR 0"
+      },
       {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "MED-1064",
-            "display" : "En attente BI-RADS ACR 0"
-          },
-          {
-            "code" : "MED-129",
-            "display" : "Normal BI-RADS ACR 1"
-          },
-          {
-            "code" : "MED-130",
-            "display" : "Bénin BI-RADS ACR 2"
-          },
-          {
-            "code" : "MED-131",
-            "display" : "Anormal BI-RADS ACR 3"
-          },
-          {
-            "code" : "MED-132",
-            "display" : "Anormal BI-RADS ACR 4"
-          },
-          {
-            "code" : "MED-133",
-            "display" : "Anormal BI-RADS ACR 5"
-          }
-        ]
-      }
-    ]
+        "code" : "MED-129",
+        "display" : "Normal BI-RADS ACR 1"
+      },
+      {
+        "code" : "MED-130",
+        "display" : "Bénin BI-RADS ACR 2"
+      },
+      {
+        "code" : "MED-131",
+        "display" : "Anormal BI-RADS ACR 3"
+      },
+      {
+        "code" : "MED-132",
+        "display" : "Anormal BI-RADS ACR 4"
+      },
+      {
+        "code" : "MED-133",
+        "display" : "Anormal BI-RADS ACR 5"
+      }]
+    }]
   }
 }
 

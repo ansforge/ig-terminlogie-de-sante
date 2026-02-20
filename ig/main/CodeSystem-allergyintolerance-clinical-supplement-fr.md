@@ -34,59 +34,47 @@ Traduction Française
   "experimental" : true,
   "date" : "2025-10-24T16:40:38+11:00",
   "description" : "Traduction Française",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "content" : "supplement",
   "supplements" : "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical|1.0.1",
-  "concept" : [
-    {
-      "code" : "active",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Actif"
-        }
-      ]
-    },
-    {
-      "code" : "inactive",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Inactif"
-        }
-      ]
-    },
-    {
-      "code" : "resolved",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Résolu"
-        }
-      ]
-    }
-  ]
+  "concept" : [{
+    "code" : "active",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Actif"
+    }]
+  },
+  {
+    "code" : "inactive",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Inactif"
+    }]
+  },
+  {
+    "code" : "resolved",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Résolu"
+    }]
+  }]
 }
 
 ```

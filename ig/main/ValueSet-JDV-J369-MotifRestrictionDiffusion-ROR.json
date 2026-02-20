@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R391-MotifRestrictionDiffusion/FHIR/TRE-R391-MotifRestrictionDiffusion",
+      "version" : "20250425120000",
       "concept" : [{
         "code" : "OPP_DIF_PUB",
         "display" : "Opposition à diffusion publique"

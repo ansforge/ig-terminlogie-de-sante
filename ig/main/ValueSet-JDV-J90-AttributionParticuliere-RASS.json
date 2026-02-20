@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R03-AttributionParticuliere/FHIR/TRE-R03-AttributionParticuliere",
+      "version" : "20231215120000",
       "concept" : [{
         "code" : "ATTR-01",
         "display" : "Expert auprès des tribunaux (expertise judiciaire)"

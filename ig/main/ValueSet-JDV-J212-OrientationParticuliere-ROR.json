@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_G13-OrientationParticuliere/FHIR/TRE-G13-OrientationParticuliere",
+      "version" : "20231215120000",
       "concept" : [{
         "code" : "80",
         "display" : "Homéopathie"

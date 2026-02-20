@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_G13-OrientationParticuliere/FHIR/TRE-G13-OrientationParticuliere"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="80"/>
         <display value="Homéopathie"/>

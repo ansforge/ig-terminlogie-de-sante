@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "6",
     "lastUpdated" : "2025-12-17T15:44:11.238+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2010-01-01T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2010-01-01T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-examen-hemostase-eunv-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.226"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.226"
+  }],
   "version" : "20251216141840",
   "name" : "JdvExamenHemostaseEunvCisis",
   "title" : "JDV Examen Hemostase Eunv CISIS",
@@ -85,40 +79,32 @@ Requête sur le SMT
   "date" : "2025-12-16T14:18:40+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Examen Hemostase Eunv CISIS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "14979-9",
+        "display" : "Temps de céphaline activée [Temps] Plasma pauvre en plaquettes ; Numérique ; Coagulation"
+      },
       {
-        "system" : "http://loinc.org",
-        "concept" : [
-          {
-            "code" : "14979-9",
-            "display" : "Temps de céphaline activée [Temps] Plasma pauvre en plaquettes ; Numérique ; Coagulation"
-          },
-          {
-            "code" : "6301-6",
-            "display" : "Temps de quick INR [Temps relatif] Plasma pauvre en plaquettes ; Numérique ; Coagulation"
-          },
-          {
-            "code" : "3255-7",
-            "display" : "Fibrinogène [Masse/Volume] Plasma pauvre en plaquettes ; Numérique ; Coagulation"
-          },
-          {
-            "code" : "718-7",
-            "display" : "Hémoglobine [Masse/Volume] Sang ; Numérique"
-          }
-        ]
-      }
-    ]
+        "code" : "6301-6",
+        "display" : "Temps de quick INR [Temps relatif] Plasma pauvre en plaquettes ; Numérique ; Coagulation"
+      },
+      {
+        "code" : "3255-7",
+        "display" : "Fibrinogène [Masse/Volume] Plasma pauvre en plaquettes ; Numérique ; Coagulation"
+      },
+      {
+        "code" : "718-7",
+        "display" : "Hémoglobine [Masse/Volume] Sang ; Numérique"
+      }]
+    }]
   }
 }
 

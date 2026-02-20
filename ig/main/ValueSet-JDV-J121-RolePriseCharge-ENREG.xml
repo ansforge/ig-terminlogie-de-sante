@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge"/>
+      <version value="20260202120000"/>
       <concept>
         <code value="307"/>
         <display value="Mandataire judiciaire à la protection des majeurs (MJPM)"/>

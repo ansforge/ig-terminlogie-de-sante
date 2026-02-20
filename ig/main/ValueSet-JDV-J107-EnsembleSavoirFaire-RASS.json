@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R38-SpecialiteOrdinale/FHIR/TRE-R38-SpecialiteOrdinale",
+      "version" : "20240531120000",
       "concept" : [{
         "code" : "SI01",
         "display" : "Exercice infirmier en pratique avancée pathologies chroniques stabilisées (SI)"
@@ -453,6 +454,7 @@
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R39-Competence/FHIR/TRE-R39-Competence",
+      "version" : "20240628120000",
       "concept" : [{
         "code" : "C01",
         "display" : "Anatomie et Cytologie pathologiques humaines (C)"
@@ -628,6 +630,7 @@
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R40-CompetenceExclusive/FHIR/TRE-R40-CompetenceExclusive",
+      "version" : "20231215120000",
       "concept" : [{
         "code" : "CEX22",
         "display" : "Gynécologie médicale et Obstétrique (CEX)"
@@ -647,6 +650,7 @@
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R42-DESCnonQualifiant/FHIR/TRE-R42-DESCnonQualifiant",
+      "version" : "20240628120000",
       "concept" : [{
         "code" : "DSM200",
         "display" : "Addictologie (DNQ)"
@@ -814,6 +818,7 @@
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R43-CapaciteSavoirFaire/FHIR/TRE-R43-CapaciteSavoirFaire",
+      "version" : "20231215120000",
       "concept" : [{
         "code" : "CAPA01",
         "display" : "Addictologie clinique (CAPA)"
@@ -881,6 +886,7 @@
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R44-QualificationPAC/FHIR/TRE-R44-QualificationPAC",
+      "version" : "20231215120000",
       "concept" : [{
         "code" : "PAC00",
         "display" : "Qualification Praticien adjoint contractuel (PAC)"
@@ -888,6 +894,7 @@
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R45-FonctionQualifiee/FHIR/TRE-R45-FonctionQualifiee",
+      "version" : "20231215120000",
       "concept" : [{
         "code" : "FQ01",
         "display" : "Expérience pratique art R.5124-16 du CSP Fabricant (FQ)"
@@ -911,6 +918,7 @@
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R97-DroitExerciceCompl/FHIR/TRE-R97-DroitExerciceCompl",
+      "version" : "20231215120000",
       "concept" : [{
         "code" : "DEC01",
         "display" : "Addictologie (DEC)"
@@ -1010,6 +1018,7 @@
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_G13-OrientationParticuliere/FHIR/TRE-G13-OrientationParticuliere",
+      "version" : "20231215120000",
       "concept" : [{
         "code" : "80",
         "display" : "Homéopathie"
@@ -1021,6 +1030,7 @@
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R359-SurspecialiteTransversale/FHIR/TRE-R359-SurspecialiteTransversale",
+      "version" : "20251222120000",
       "concept" : [{
         "code" : "SST01",
         "display" : "Addictologie"
@@ -1132,6 +1142,7 @@
     },
     {
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r394-competence-metier",
+      "version" : "20250625120000",
       "concept" : [{
         "code" : "CM0001",
         "display" : "Certificat de décès"

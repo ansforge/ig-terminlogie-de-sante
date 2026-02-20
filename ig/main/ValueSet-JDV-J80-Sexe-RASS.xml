@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R249-Sexe/FHIR/TRE-R249-Sexe"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="UN"/>
         <display value="Inconnu"/>

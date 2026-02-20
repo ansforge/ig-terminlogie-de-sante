@@ -65,6 +65,7 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante>
        ] ;
+       fhir:version [ fhir:v "20250328120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "10" ] ;
          fhir:display [ fhir:v "Médecin" ]
@@ -134,6 +135,7 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge>
        ] ;
+       fhir:version [ fhir:v "20260202120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "300" ] ;
          fhir:display [ fhir:v "Assistant de service social (PAERPA)" ]

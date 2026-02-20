@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R257-TypeBAL/FHIR/TRE-R257-TypeBAL",
+      "version" : "20231215120000",
       "concept" : [{
         "code" : "PER",
         "display" : "Boîte aux lettres personnelle"

@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "5",
     "lastUpdated" : "2025-12-17T15:47:39.054+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2020-03-31T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2020-03-31T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-anesthesie-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.492"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.492"
+  }],
   "version" : "20251216141840",
   "name" : "JdvTypeAnesthesieCisis",
   "title" : "JDV Type Anesthesie CISIS",
@@ -85,61 +79,53 @@ Requête sur le SMT
   "date" : "2025-12-16T14:18:40+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Type Anesthesie CISIS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
-      {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "MED-582",
-            "display" : "Anesthésie locorégionale péridurale ou épidurale"
-          },
-          {
-            "code" : "MED-583",
-            "display" : "Anesthésie locorégionale subarachnoïdienne (rachianesthésie)"
-          },
-          {
-            "code" : "MED-584",
-            "display" : "Anesthésie locorégionale plexique ou tronculaire"
-          },
-          {
-            "code" : "MED-585",
-            "display" : "Anesthésie locorégionale intraveineuse"
-          },
-          {
-            "code" : "MED-587",
-            "display" : "Hypnose"
-          },
-          {
-            "code" : "MED-588",
-            "display" : "Surveillance simple"
-          }
-        ]
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "version" : "202512170000",
+      "concept" : [{
+        "code" : "MED-582",
+        "display" : "Anesthésie locorégionale péridurale ou épidurale"
       },
       {
-        "system" : "http://snomed.info/sct",
-        "concept" : [
-          {
-            "code" : "50697003",
-            "display" : "administration d'un anesthésique général"
-          },
-          {
-            "code" : "72641008",
-            "display" : "sédation"
-          }
-        ]
-      }
-    ]
+        "code" : "MED-583",
+        "display" : "Anesthésie locorégionale subarachnoïdienne (rachianesthésie)"
+      },
+      {
+        "code" : "MED-584",
+        "display" : "Anesthésie locorégionale plexique ou tronculaire"
+      },
+      {
+        "code" : "MED-585",
+        "display" : "Anesthésie locorégionale intraveineuse"
+      },
+      {
+        "code" : "MED-587",
+        "display" : "Hypnose"
+      },
+      {
+        "code" : "MED-588",
+        "display" : "Surveillance simple"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/900000000000207008/version/20260201",
+      "concept" : [{
+        "code" : "50697003",
+        "display" : "administration d'un anesthésique général"
+      },
+      {
+        "code" : "72641008",
+        "display" : "sédation"
+      }]
+    }]
   }
 }
 

@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R283-NiveauConfidentialite/FHIR/TRE-R283-NiveauConfidentialite"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="1"/>
         <display value="Accès libre"/>

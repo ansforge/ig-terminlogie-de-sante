@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "6",
     "lastUpdated" : "2025-12-17T15:44:28.095+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2022-02-17T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2022-02-17T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-imagerie-objectif-reference-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.672"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.672"
+  }],
   "version" : "20251216141838",
   "name" : "JdvImagerieObjectifReferenceCisis",
   "title" : "JDV Imagerie Objectif Reference CISIS",
@@ -85,40 +79,33 @@ Requête sur le SMT
   "date" : "2025-12-16T14:18:38+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Imagerie Objectif Reference CISIS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "http://dicom.nema.org/resources/ontology/DCM",
+      "version" : "2022.4.20221006",
+      "concept" : [{
+        "code" : "121079",
+        "display" : "préliminaire"
+      },
       {
-        "system" : "http://dicom.nema.org/resources/ontology/DCM",
-        "concept" : [
-          {
-            "code" : "121079",
-            "display" : "préliminaire"
-          },
-          {
-            "code" : "121080",
-            "display" : "Meilleure illustration de résultat"
-          },
-          {
-            "code" : "121112",
-            "display" : "Source de mesure"
-          },
-          {
-            "code" : "121200",
-            "display" : "Illustration de la ROI"
-          }
-        ]
-      }
-    ]
+        "code" : "121080",
+        "display" : "Meilleure illustration de résultat"
+      },
+      {
+        "code" : "121112",
+        "display" : "Source de mesure"
+      },
+      {
+        "code" : "121200",
+        "display" : "Illustration de la ROI"
+      }]
+    }]
   }
 }
 

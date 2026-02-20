@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "6",
     "lastUpdated" : "2025-12-17T15:42:43.950+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2025-03-19T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2025-03-19T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v2-0488-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:2.16.840.1.113883.21.328"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:2.16.840.1.113883.21.328"
+  }],
   "version" : "20251216141840",
   "name" : "Hl7VSSpecimenCollectionMethod",
   "title" : "hl7VS-specimenCollectionMethod",
@@ -85,192 +79,185 @@ Requête sur le SMT
   "date" : "2025-12-16T14:18:40+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "hl7VS-specimenCollectionMethod",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/v2-0488",
+      "version" : "3.0.0",
+      "concept" : [{
+        "code" : "FNA",
+        "display" : "Aspiration, Fine Needle"
+      },
       {
-        "system" : "http://terminology.hl7.org/CodeSystem/v2-0488",
-        "concept" : [
-          {
-            "code" : "FNA",
-            "display" : "Aspiration, Fine Needle"
-          },
-          {
-            "code" : "PNA",
-            "display" : "Arterial puncture"
-          },
-          {
-            "code" : "BIO",
-            "display" : "Biopsy"
-          },
-          {
-            "code" : "BCAE",
-            "display" : "Blood Culture, Aerobic Bottle"
-          },
-          {
-            "code" : "BCAN",
-            "display" : "Blood Culture, Anaerobic Bottle"
-          },
-          {
-            "code" : "BCPD",
-            "display" : "Blood Culture, Pediatric Bottle"
-          },
-          {
-            "code" : "CAP",
-            "display" : "Capillary Specimen"
-          },
-          {
-            "code" : "CATH",
-            "display" : "Catheterized"
-          },
-          {
-            "code" : "EPLA",
-            "display" : "Environmental, Plate"
-          },
-          {
-            "code" : "ESWA",
-            "display" : "Environmental, Swab"
-          },
-          {
-            "code" : "LNA",
-            "display" : "Line, Arterial"
-          },
-          {
-            "code" : "CVP",
-            "display" : "Line, CVP"
-          },
-          {
-            "code" : "LNV",
-            "display" : "Line, Venous"
-          },
-          {
-            "code" : "MARTL",
-            "display" : "Martin-Lewis Agar"
-          },
-          {
-            "code" : "ML11",
-            "display" : "Mod. Martin-Lewis Agar"
-          },
-          {
-            "code" : "PACE",
-            "display" : "Pace, Gen-Probe"
-          },
-          {
-            "code" : "PIN",
-            "display" : "Pinworm Prep"
-          },
-          {
-            "code" : "KOFFP",
-            "display" : "Plate, Cough"
-          },
-          {
-            "code" : "MLP",
-            "display" : "Plate, Martin-Lewis"
-          },
-          {
-            "code" : "NYP",
-            "display" : "Plate, New York City"
-          },
-          {
-            "code" : "TMP",
-            "display" : "Plate, Thayer-Martin"
-          },
-          {
-            "code" : "ANP",
-            "display" : "Plates, Anaerobic"
-          },
-          {
-            "code" : "BAP",
-            "display" : "Plates, Blood Agar"
-          },
-          {
-            "code" : "PRIME",
-            "display" : "Pump Prime"
-          },
-          {
-            "code" : "PUMP",
-            "display" : "Pump Specimen"
-          },
-          {
-            "code" : "QC5",
-            "display" : "Quality Control For Micro"
-          },
-          {
-            "code" : "SCLP",
-            "display" : "Scalp, Fetal Vein"
-          },
-          {
-            "code" : "SCRAPS",
-            "display" : "Scrapings"
-          },
-          {
-            "code" : "SHA",
-            "display" : "Shaving"
-          },
-          {
-            "code" : "SWA",
-            "display" : "Swab"
-          },
-          {
-            "code" : "SWD",
-            "display" : "Swab, Dacron tipped"
-          },
-          {
-            "code" : "WOOD",
-            "display" : "Swab, Wooden Shaft"
-          },
-          {
-            "code" : "TMOT",
-            "display" : "Transport Media,"
-          },
-          {
-            "code" : "TMAN",
-            "display" : "Transport Media, Anaerobic"
-          },
-          {
-            "code" : "TMCH",
-            "display" : "Transport Media, Chalamydia"
-          },
-          {
-            "code" : "TMM4",
-            "display" : "Transport Media, M4"
-          },
-          {
-            "code" : "TMMY",
-            "display" : "Transport Media, Mycoplasma"
-          },
-          {
-            "code" : "TMPV",
-            "display" : "Transport Media, PVA"
-          },
-          {
-            "code" : "TMSC",
-            "display" : "Transport Media, Stool Culture"
-          },
-          {
-            "code" : "TMUP",
-            "display" : "Transport Media, Ureaplasma"
-          },
-          {
-            "code" : "TMVI",
-            "display" : "Transport Media, Viral"
-          },
-          {
-            "code" : "VENIP",
-            "display" : "Venipuncture"
-          }
-        ]
-      }
-    ]
+        "code" : "PNA",
+        "display" : "Arterial puncture"
+      },
+      {
+        "code" : "BIO",
+        "display" : "Biopsy"
+      },
+      {
+        "code" : "BCAE",
+        "display" : "Blood Culture, Aerobic Bottle"
+      },
+      {
+        "code" : "BCAN",
+        "display" : "Blood Culture, Anaerobic Bottle"
+      },
+      {
+        "code" : "BCPD",
+        "display" : "Blood Culture, Pediatric Bottle"
+      },
+      {
+        "code" : "CAP",
+        "display" : "Capillary Specimen"
+      },
+      {
+        "code" : "CATH",
+        "display" : "Catheterized"
+      },
+      {
+        "code" : "EPLA",
+        "display" : "Environmental, Plate"
+      },
+      {
+        "code" : "ESWA",
+        "display" : "Environmental, Swab"
+      },
+      {
+        "code" : "LNA",
+        "display" : "Line, Arterial"
+      },
+      {
+        "code" : "CVP",
+        "display" : "Line, CVP"
+      },
+      {
+        "code" : "LNV",
+        "display" : "Line, Venous"
+      },
+      {
+        "code" : "MARTL",
+        "display" : "Martin-Lewis Agar"
+      },
+      {
+        "code" : "ML11",
+        "display" : "Mod. Martin-Lewis Agar"
+      },
+      {
+        "code" : "PACE",
+        "display" : "Pace, Gen-Probe"
+      },
+      {
+        "code" : "PIN",
+        "display" : "Pinworm Prep"
+      },
+      {
+        "code" : "KOFFP",
+        "display" : "Plate, Cough"
+      },
+      {
+        "code" : "MLP",
+        "display" : "Plate, Martin-Lewis"
+      },
+      {
+        "code" : "NYP",
+        "display" : "Plate, New York City"
+      },
+      {
+        "code" : "TMP",
+        "display" : "Plate, Thayer-Martin"
+      },
+      {
+        "code" : "ANP",
+        "display" : "Plates, Anaerobic"
+      },
+      {
+        "code" : "BAP",
+        "display" : "Plates, Blood Agar"
+      },
+      {
+        "code" : "PRIME",
+        "display" : "Pump Prime"
+      },
+      {
+        "code" : "PUMP",
+        "display" : "Pump Specimen"
+      },
+      {
+        "code" : "QC5",
+        "display" : "Quality Control For Micro"
+      },
+      {
+        "code" : "SCLP",
+        "display" : "Scalp, Fetal Vein"
+      },
+      {
+        "code" : "SCRAPS",
+        "display" : "Scrapings"
+      },
+      {
+        "code" : "SHA",
+        "display" : "Shaving"
+      },
+      {
+        "code" : "SWA",
+        "display" : "Swab"
+      },
+      {
+        "code" : "SWD",
+        "display" : "Swab, Dacron tipped"
+      },
+      {
+        "code" : "WOOD",
+        "display" : "Swab, Wooden Shaft"
+      },
+      {
+        "code" : "TMOT",
+        "display" : "Transport Media,"
+      },
+      {
+        "code" : "TMAN",
+        "display" : "Transport Media, Anaerobic"
+      },
+      {
+        "code" : "TMCH",
+        "display" : "Transport Media, Chalamydia"
+      },
+      {
+        "code" : "TMM4",
+        "display" : "Transport Media, M4"
+      },
+      {
+        "code" : "TMMY",
+        "display" : "Transport Media, Mycoplasma"
+      },
+      {
+        "code" : "TMPV",
+        "display" : "Transport Media, PVA"
+      },
+      {
+        "code" : "TMSC",
+        "display" : "Transport Media, Stool Culture"
+      },
+      {
+        "code" : "TMUP",
+        "display" : "Transport Media, Ureaplasma"
+      },
+      {
+        "code" : "TMVI",
+        "display" : "Transport Media, Viral"
+      },
+      {
+        "code" : "VENIP",
+        "display" : "Venipuncture"
+      }]
+    }]
   }
 }
 

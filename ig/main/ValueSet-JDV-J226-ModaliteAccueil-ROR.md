@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "15",
     "lastUpdated" : "2025-12-18T16:47:46.551+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2022-08-26T12:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2022-08-26T12:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J226-ModaliteAccueil-ROR/FHIR/JDV-J226-ModaliteAccueil-ROR",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.3.4.58"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.3.4.58"
+  }],
   "version" : "20251222120000",
   "name" : "JDV_J226_ModaliteAccueil_ROR",
   "status" : "active",
@@ -84,128 +78,121 @@ Requête sur le SMT
   "date" : "2025-12-22T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Modalité d'accueil",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R338-ModaliteAccueil/FHIR/TRE-R338-ModaliteAccueil",
+      "version" : "20251222120000",
+      "concept" : [{
+        "code" : "01",
+        "display" : "Accueil séquentiel accepté"
+      },
       {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R338-ModaliteAccueil/FHIR/TRE-R338-ModaliteAccueil",
-        "concept" : [
-          {
-            "code" : "01",
-            "display" : "Accueil séquentiel accepté"
-          },
-          {
-            "code" : "02",
-            "display" : "Prise en charge directe SMUR"
-          },
-          {
-            "code" : "03",
-            "display" : "En présentiel"
-          },
-          {
-            "code" : "04",
-            "display" : "Téléconsultation"
-          },
-          {
-            "code" : "05",
-            "display" : "Visite à domicile"
-          },
-          {
-            "code" : "06",
-            "display" : "Prise en charge sans rendez-vous"
-          },
-          {
-            "code" : "07",
-            "display" : "Accueil anonyme"
-          },
-          {
-            "code" : "08",
-            "display" : "Accueil réservé aux femmes"
-          },
-          {
-            "code" : "09",
-            "display" : "Participation aux gardes/astreintes"
-          },
-          {
-            "code" : "10",
-            "display" : "Téléexpertise en moins de 24h"
-          },
-          {
-            "code" : "11",
-            "display" : "Téléexpertise en moins de 7 jours"
-          },
-          {
-            "code" : "12",
-            "display" : "Téléexpertise en plus de 7 jours"
-          },
-          {
-            "code" : "13",
-            "display" : "Admission directe non programmée - personne âgée (PA)"
-          },
-          {
-            "code" : "14",
-            "display" : "Télésoin"
-          },
-          {
-            "code" : "15",
-            "display" : "Consultation dans des locaux dédiés - personnes en situation de handicap (PH)"
-          },
-          {
-            "code" : "16",
-            "display" : "Consultation sans locaux dédiés - personnes en situation de handicap (PH)"
-          },
-          {
-            "code" : "17",
-            "display" : "HandiBloc"
-          },
-          {
-            "code" : "18",
-            "display" : "Intra-hospitalier"
-          },
-          {
-            "code" : "19",
-            "display" : "Extra-hospitalier"
-          },
-          {
-            "code" : "20",
-            "display" : "Accueil en unité protégée"
-          },
-          {
-            "code" : "21",
-            "display" : "Accueil saisonnier possible"
-          },
-          {
-            "code" : "22",
-            "display" : "Accueil saisonnier uniquement"
-          },
-          {
-            "code" : "23",
-            "display" : "Autodialyse simple"
-          },
-          {
-            "code" : "24",
-            "display" : "Autodialyse assistée"
-          },
-          {
-            "code" : "25",
-            "display" : "Relayage courte durée (quelques heures par jour)"
-          },
-          {
-            "code" : "26",
-            "display" : "Relayage longue durée (sur plusieurs jours)"
-          }
-        ]
-      }
-    ]
+        "code" : "02",
+        "display" : "Prise en charge directe SMUR"
+      },
+      {
+        "code" : "03",
+        "display" : "En présentiel"
+      },
+      {
+        "code" : "04",
+        "display" : "Téléconsultation"
+      },
+      {
+        "code" : "05",
+        "display" : "Visite à domicile"
+      },
+      {
+        "code" : "06",
+        "display" : "Prise en charge sans rendez-vous"
+      },
+      {
+        "code" : "07",
+        "display" : "Accueil anonyme"
+      },
+      {
+        "code" : "08",
+        "display" : "Accueil réservé aux femmes"
+      },
+      {
+        "code" : "09",
+        "display" : "Participation aux gardes/astreintes"
+      },
+      {
+        "code" : "10",
+        "display" : "Téléexpertise en moins de 24h"
+      },
+      {
+        "code" : "11",
+        "display" : "Téléexpertise en moins de 7 jours"
+      },
+      {
+        "code" : "12",
+        "display" : "Téléexpertise en plus de 7 jours"
+      },
+      {
+        "code" : "13",
+        "display" : "Admission directe non programmée - personne âgée (PA)"
+      },
+      {
+        "code" : "14",
+        "display" : "Télésoin"
+      },
+      {
+        "code" : "15",
+        "display" : "Consultation dans des locaux dédiés - personnes en situation de handicap (PH)"
+      },
+      {
+        "code" : "16",
+        "display" : "Consultation sans locaux dédiés - personnes en situation de handicap (PH)"
+      },
+      {
+        "code" : "17",
+        "display" : "HandiBloc"
+      },
+      {
+        "code" : "18",
+        "display" : "Intra-hospitalier"
+      },
+      {
+        "code" : "19",
+        "display" : "Extra-hospitalier"
+      },
+      {
+        "code" : "20",
+        "display" : "Accueil en unité protégée"
+      },
+      {
+        "code" : "21",
+        "display" : "Accueil saisonnier possible"
+      },
+      {
+        "code" : "22",
+        "display" : "Accueil saisonnier uniquement"
+      },
+      {
+        "code" : "23",
+        "display" : "Autodialyse simple"
+      },
+      {
+        "code" : "24",
+        "display" : "Autodialyse assistée"
+      },
+      {
+        "code" : "25",
+        "display" : "Relayage courte durée (quelques heures par jour)"
+      },
+      {
+        "code" : "26",
+        "display" : "Relayage longue durée (sur plusieurs jours)"
+      }]
+    }]
   }
 }
 

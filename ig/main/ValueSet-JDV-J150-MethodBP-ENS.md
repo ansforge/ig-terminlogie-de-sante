@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "4",
     "lastUpdated" : "2025-07-02T17:05:11.336+00:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2021-04-30T12:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2021-04-30T12:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J150-MethodBP-ENS/FHIR/JDV-J150-MethodBP-ENS",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.605"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.605"
+  }],
   "version" : "20240726120000",
   "name" : "JDV_J150_MethodBP_ENS",
   "status" : "active",
@@ -84,40 +78,33 @@ Requête sur le SMT
   "date" : "2024-07-26T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV pour la méthode de mesure de la pression artérielle",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/terminologie-emdn",
+      "version" : "v1.2",
+      "concept" : [{
+        "code" : "Y210905",
+        "display" : "INTERFACES DE CAPTEURS EXTERNES"
+      },
       {
-        "system" : "https://smt.esante.gouv.fr/terminologie-emdn",
-        "concept" : [
-          {
-            "code" : "Y210905",
-            "display" : "INTERFACES DE CAPTEURS EXTERNES"
-          },
-          {
-            "code" : "Z12050404",
-            "display" : "ENREGISTREURS HOLTER DE LA PRESSION ARTÉRIELLE"
-          },
-          {
-            "code" : "Z1203020501",
-            "display" : "TENSIOMÈTRES OSCILLOMÉTRIQUES NON INVASIFS"
-          },
-          {
-            "code" : "Z1203020599",
-            "display" : "TENSIOMÈTRES NON INVASIFS - AUTRES"
-          }
-        ]
-      }
-    ]
+        "code" : "Z12050404",
+        "display" : "ENREGISTREURS HOLTER DE LA PRESSION ARTÉRIELLE"
+      },
+      {
+        "code" : "Z1203020501",
+        "display" : "TENSIOMÈTRES OSCILLOMÉTRIQUES NON INVASIFS"
+      },
+      {
+        "code" : "Z1203020599",
+        "display" : "TENSIOMÈTRES NON INVASIFS - AUTRES"
+      }]
+    }]
   }
 }
 

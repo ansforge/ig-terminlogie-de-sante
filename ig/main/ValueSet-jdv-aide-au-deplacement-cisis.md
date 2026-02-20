@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "4",
     "lastUpdated" : "2025-12-17T15:42:54.788+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2020-03-31T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2020-03-31T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-aide-au-deplacement-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.489"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.489"
+  }],
   "version" : "20251216141839",
   "name" : "JdvAideAuDeplacementCisis",
   "title" : "JDV Aide Au Deplacement CISIS",
@@ -85,53 +79,45 @@ Requête sur le SMT
   "date" : "2025-12-16T14:18:39+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Aide Au Deplacement CISIS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
-      {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "GEN-192",
-            "display" : "Marche normale"
-          },
-          {
-            "code" : "GEN-092.08.01",
-            "display" : "Autre aide au déplacement"
-          }
-        ]
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "version" : "202512170000",
+      "concept" : [{
+        "code" : "GEN-192",
+        "display" : "Marche normale"
       },
       {
-        "system" : "http://snomed.info/sct",
-        "concept" : [
-          {
-            "code" : "895457008",
-            "display" : "se déplace avec une canne"
-          },
-          {
-            "code" : "895488007",
-            "display" : "se déplace avec un déambulateur"
-          },
-          {
-            "code" : "301578005",
-            "display" : "se déplace en fauteuil roulant"
-          },
-          {
-            "code" : "160685001",
-            "display" : "état grabataire"
-          }
-        ]
-      }
-    ]
+        "code" : "GEN-092.08.01",
+        "display" : "Autre aide au déplacement"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/900000000000207008/version/20260201",
+      "concept" : [{
+        "code" : "895457008",
+        "display" : "se déplace avec une canne"
+      },
+      {
+        "code" : "895488007",
+        "display" : "se déplace avec un déambulateur"
+      },
+      {
+        "code" : "301578005",
+        "display" : "se déplace en fauteuil roulant"
+      },
+      {
+        "code" : "160685001",
+        "display" : "état grabataire"
+      }]
+    }]
   }
 }
 

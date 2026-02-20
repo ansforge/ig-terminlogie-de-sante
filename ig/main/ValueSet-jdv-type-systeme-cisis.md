@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "6",
     "lastUpdated" : "2025-12-17T15:48:07.550+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2025-04-25T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2025-04-25T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-systeme-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.825"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.825"
+  }],
   "version" : "20251216141839",
   "name" : "JdvTypeSystemeCisis",
   "title" : "Jdv Type Systeme CISIS",
@@ -85,44 +79,37 @@ Requête sur le SMT
   "date" : "2025-12-16T14:18:39+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Jdv Type Systeme CISIS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_A00-ProducteurDocNonPS/FHIR/TRE-A00-ProducteurDocNonPS",
+      "version" : "20240329120000",
+      "concept" : [{
+        "code" : "ALIM_AM",
+        "display" : "Alimentation auto à partir du SI de l'Ass Maladie"
+      },
       {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_A00-ProducteurDocNonPS/FHIR/TRE-A00-ProducteurDocNonPS",
-        "concept" : [
-          {
-            "code" : "ALIM_AM",
-            "display" : "Alimentation auto à partir du SI de l'Ass Maladie"
-          },
-          {
-            "code" : "DISPOSITIF",
-            "display" : "Dispositif médical"
-          },
-          {
-            "code" : "AUTOMATE",
-            "display" : "Automate"
-          },
-          {
-            "code" : "SNR",
-            "display" : "Service numérique référencé"
-          },
-          {
-            "code" : "LOGICIEL_DUI",
-            "display" : "Logiciel de Dossier Usager Informatisé"
-          }
-        ]
-      }
-    ]
+        "code" : "DISPOSITIF",
+        "display" : "Dispositif médical"
+      },
+      {
+        "code" : "AUTOMATE",
+        "display" : "Automate"
+      },
+      {
+        "code" : "SNR",
+        "display" : "Service numérique référencé"
+      },
+      {
+        "code" : "LOGICIEL_DUI",
+        "display" : "Logiciel de Dossier Usager Informatisé"
+      }]
+    }]
   }
 }
 

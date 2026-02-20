@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_A13-HL7ParticipationType/FHIR/TRE-A13-HL7ParticipationType",
+      "version" : "20231215120000",
       "concept" : [{
         "code" : "ADM",
         "display" : "Responsable de l'admission"

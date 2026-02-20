@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://smt.esante.gouv.fr/terminologie-SERAFINPH"/>
+      <version value="2023.1.0"/>
       <concept>
         <code value="1"/>
         <display value="Besoins"/>

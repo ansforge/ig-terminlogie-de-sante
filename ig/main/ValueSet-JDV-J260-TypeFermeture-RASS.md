@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "2",
     "lastUpdated" : "2025-07-02T17:06:16.201+00:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2024-09-27T12:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2024-09-27T12:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J260-TypeFermeture-RASS/FHIR/JDV-J260-TypeFermeture-RASS",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.6.1.284"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.6.1.284"
+  }],
   "version" : "20240927120000",
   "name" : "JDV_J260_TypeFermeture_RASS",
   "status" : "active",
@@ -84,48 +78,41 @@ Requête sur le SMT
   "date" : "2024-09-27T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Type de fermeture, codes provenant du FINESS pour les EJ et EG pour le RASS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture",
+      "version" : "20251016120000",
+      "concept" : [{
+        "code" : "DEF",
+        "display" : "Définitive"
+      },
       {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture",
-        "concept" : [
-          {
-            "code" : "DEF",
-            "display" : "Définitive"
-          },
-          {
-            "code" : "ERR",
-            "display" : "Erreur"
-          },
-          {
-            "code" : "NDI",
-            "display" : "Non défini"
-          },
-          {
-            "code" : "CHP",
-            "display" : "Sortie du champ FINESS"
-          },
-          {
-            "code" : "EML",
-            "display" : "Ancienne autorisation fonctionnement EML"
-          },
-          {
-            "code" : "PRO",
-            "display" : "Provisoire"
-          }
-        ]
-      }
-    ]
+        "code" : "ERR",
+        "display" : "Erreur"
+      },
+      {
+        "code" : "NDI",
+        "display" : "Non défini"
+      },
+      {
+        "code" : "CHP",
+        "display" : "Sortie du champ FINESS"
+      },
+      {
+        "code" : "EML",
+        "display" : "Ancienne autorisation fonctionnement EML"
+      },
+      {
+        "code" : "PRO",
+        "display" : "Provisoire"
+      }]
+    }]
   }
 }
 

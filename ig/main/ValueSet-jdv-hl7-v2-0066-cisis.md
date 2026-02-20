@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "6",
     "lastUpdated" : "2025-12-17T15:42:43.317+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2024-12-09T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2024-12-09T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v2-0066-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:2.16.840.1.113883.21.29"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:2.16.840.1.113883.21.29"
+  }],
   "version" : "20251216141839",
   "name" : "Hl7VSEmploymentStatus",
   "title" : "hl7VS-employmentStatus",
@@ -85,68 +79,61 @@ Requête sur le SMT
   "date" : "2025-12-16T14:18:39+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "hl7VS-employmentStatus",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/v2-0066",
+      "version" : "3.0.0",
+      "concept" : [{
+        "code" : "1",
+        "display" : "Employé à temps plein"
+      },
       {
-        "system" : "http://terminology.hl7.org/CodeSystem/v2-0066",
-        "concept" : [
-          {
-            "code" : "1",
-            "display" : "Employé à temps plein"
-          },
-          {
-            "code" : "2",
-            "display" : "Employé à temps partiel"
-          },
-          {
-            "code" : "3",
-            "display" : "Sans emploi"
-          },
-          {
-            "code" : "4",
-            "display" : "Auto-entrepreuneur"
-          },
-          {
-            "code" : "5",
-            "display" : "Retraité"
-          },
-          {
-            "code" : "6",
-            "display" : "En service militaire actif"
-          },
-          {
-            "code" : "9",
-            "display" : "Statut d'emploi inconnu"
-          },
-          {
-            "code" : "C",
-            "display" : "Contrat journalier"
-          },
-          {
-            "code" : "L",
-            "display" : "Congé (par exemple, congé familial, congé sabbatique, etc.)"
-          },
-          {
-            "code" : "T",
-            "display" : "Temporairement sans emploi"
-          },
-          {
-            "code" : "O",
-            "display" : "Autre"
-          }
-        ]
-      }
-    ]
+        "code" : "2",
+        "display" : "Employé à temps partiel"
+      },
+      {
+        "code" : "3",
+        "display" : "Sans emploi"
+      },
+      {
+        "code" : "4",
+        "display" : "Auto-entrepreuneur"
+      },
+      {
+        "code" : "5",
+        "display" : "Retraité"
+      },
+      {
+        "code" : "6",
+        "display" : "En service militaire actif"
+      },
+      {
+        "code" : "9",
+        "display" : "Statut d'emploi inconnu"
+      },
+      {
+        "code" : "C",
+        "display" : "Contrat journalier"
+      },
+      {
+        "code" : "L",
+        "display" : "Congé (par exemple, congé familial, congé sabbatique, etc.)"
+      },
+      {
+        "code" : "T",
+        "display" : "Temporairement sans emploi"
+      },
+      {
+        "code" : "O",
+        "display" : "Autre"
+      }]
+    }]
   }
 }
 

@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R271-TypeRequete/FHIR/TRE-R271-TypeRequete",
+      "version" : "20231215120000",
       "concept" : [{
         "code" : "TEST_EXST",
         "display" : "Test d'existence de dossier"

@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "4",
     "lastUpdated" : "2025-12-17T15:42:53.242+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2010-01-01T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2010-01-01T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-age-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.43"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.43"
+  }],
   "version" : "20251216141840",
   "name" : "JdvAgeCisis",
   "title" : "JDV Age CISIS",
@@ -85,53 +79,45 @@ Requête sur le SMT
   "date" : "2025-12-16T14:18:40+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Age CISIS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
-      {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "MED-1288",
-            "display" : "Aucun signe à ce jour ou porteur sain"
-          }
-        ]
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "version" : "202512170000",
+      "concept" : [{
+        "code" : "MED-1288",
+        "display" : "Aucun signe à ce jour ou porteur sain"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/900000000000207008/version/20260201",
+      "concept" : [{
+        "code" : "255407002",
+        "display" : "néonatal"
       },
       {
-        "system" : "http://snomed.info/sct",
-        "concept" : [
-          {
-            "code" : "255407002",
-            "display" : "néonatal"
-          },
-          {
-            "code" : "767023003",
-            "display" : "période de la vie entre la naissance et la mort"
-          },
-          {
-            "code" : "373068000",
-            "display" : "non déterminé(e)"
-          },
-          {
-            "code" : "303112003",
-            "display" : "période fœtale"
-          },
-          {
-            "code" : "303113008",
-            "display" : "période postmortem"
-          }
-        ]
-      }
-    ]
+        "code" : "767023003",
+        "display" : "période de la vie entre la naissance et la mort"
+      },
+      {
+        "code" : "373068000",
+        "display" : "non déterminé(e)"
+      },
+      {
+        "code" : "303112003",
+        "display" : "période fœtale"
+      },
+      {
+        "code" : "303113008",
+        "display" : "période postmortem"
+      }]
+    }]
   }
 }
 

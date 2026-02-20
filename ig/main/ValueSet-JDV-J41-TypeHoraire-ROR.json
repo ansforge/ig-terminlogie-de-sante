@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R252-TypeHoraire/FHIR/TRE-R252-TypeHoraire",
+      "version" : "20241025120000",
       "concept" : [{
         "code" : "01",
         "display" : "Horaire d'ouverture"

@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "4",
     "lastUpdated" : "2025-07-02T17:04:52.384+00:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2016-09-01T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2016-09-01T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J11-RelationPatient-CISIS/FHIR/JDV-J11-RelationPatient-CISIS",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.3.3.16"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.3.3.16"
+  }],
   "version" : "20200424120000",
   "name" : "JDV_J11_RelationPatient_CISIS",
   "status" : "active",
@@ -84,177 +78,169 @@ Requête sur le SMT
   "date" : "2020-04-24T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Relation par rapport au patient - CI-SIS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
-      {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R216-HL7RoleCode/FHIR/TRE-R216-HL7RoleCode",
-        "concept" : [
-          {
-            "code" : "MTH",
-            "display" : "Mère"
-          },
-          {
-            "code" : "FTH",
-            "display" : "Père"
-          },
-          {
-            "code" : "NMTH",
-            "display" : "Mère biologique"
-          },
-          {
-            "code" : "NFTH",
-            "display" : "Père biologique"
-          },
-          {
-            "code" : "STPMTH",
-            "display" : "Belle-mère - épouse du père ou de la mère"
-          },
-          {
-            "code" : "STPFTH",
-            "display" : "Beau-père - époux du père ou de la mère"
-          },
-          {
-            "code" : "GRMTH",
-            "display" : "Grand-mère"
-          },
-          {
-            "code" : "GRFTH",
-            "display" : "Grand-père"
-          },
-          {
-            "code" : "GGRMTH",
-            "display" : "Arrière-grand-mère"
-          },
-          {
-            "code" : "GGRFTH",
-            "display" : "Arrière-grand-père"
-          },
-          {
-            "code" : "DAU",
-            "display" : "Fille biologique"
-          },
-          {
-            "code" : "SON",
-            "display" : "Fils biologique"
-          },
-          {
-            "code" : "BRO",
-            "display" : "Frère"
-          },
-          {
-            "code" : "SIS",
-            "display" : "Soeur"
-          },
-          {
-            "code" : "HBRO",
-            "display" : "Demi-frère"
-          },
-          {
-            "code" : "HSIS",
-            "display" : "Demi-soeur"
-          },
-          {
-            "code" : "GRNDDAU",
-            "display" : "Petite-fille"
-          },
-          {
-            "code" : "GRNDSO",
-            "display" : "Petit-fils"
-          },
-          {
-            "code" : "UNCLE",
-            "display" : "Oncle"
-          },
-          {
-            "code" : "AUNT",
-            "display" : "Tante"
-          },
-          {
-            "code" : "NEPHEW",
-            "display" : "Neveu"
-          },
-          {
-            "code" : "NIECE",
-            "display" : "Nièce"
-          },
-          {
-            "code" : "HUSB",
-            "display" : "Epoux"
-          },
-          {
-            "code" : "WIFE",
-            "display" : "Epouse"
-          },
-          {
-            "code" : "DOMPART",
-            "display" : "Concubin(e) ou partenaire PACS"
-          },
-          {
-            "code" : "ROOM",
-            "display" : "Personne vivant sous le même toit"
-          },
-          {
-            "code" : "FRND",
-            "display" : "Autre proche"
-          },
-          {
-            "code" : "NBOR",
-            "display" : "Voisin(e)"
-          },
-          {
-            "code" : "FAMMEMB",
-            "display" : "Autre membre de la famille"
-          },
-          {
-            "code" : "CHILD",
-            "display" : "Enfant"
-          },
-          {
-            "code" : "COUSN",
-            "display" : "Cousin(e)"
-          },
-          {
-            "code" : "SIGOTHR",
-            "display" : "Conjoint"
-          },
-          {
-            "code" : "DAUC",
-            "display" : "Fille"
-          },
-          {
-            "code" : "SONC",
-            "display" : "Fils"
-          }
-        ]
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R216-HL7RoleCode/FHIR/TRE-R216-HL7RoleCode",
+      "version" : "20241213120000",
+      "concept" : [{
+        "code" : "MTH",
+        "display" : "Mère"
       },
       {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R217-ProtectionJuridique/FHIR/TRE-R217-ProtectionJuridique",
-        "concept" : [
-          {
-            "code" : "TUTEUR",
-            "display" : "Tuteur"
-          },
-          {
-            "code" : "CURATEUR",
-            "display" : "Curateur"
-          },
-          {
-            "code" : "MSVG",
-            "display" : "Mandataire de sauvegarde"
-          }
-        ]
-      }
-    ]
+        "code" : "FTH",
+        "display" : "Père"
+      },
+      {
+        "code" : "NMTH",
+        "display" : "Mère biologique"
+      },
+      {
+        "code" : "NFTH",
+        "display" : "Père biologique"
+      },
+      {
+        "code" : "STPMTH",
+        "display" : "Belle-mère - épouse du père ou de la mère"
+      },
+      {
+        "code" : "STPFTH",
+        "display" : "Beau-père - époux du père ou de la mère"
+      },
+      {
+        "code" : "GRMTH",
+        "display" : "Grand-mère"
+      },
+      {
+        "code" : "GRFTH",
+        "display" : "Grand-père"
+      },
+      {
+        "code" : "GGRMTH",
+        "display" : "Arrière-grand-mère"
+      },
+      {
+        "code" : "GGRFTH",
+        "display" : "Arrière-grand-père"
+      },
+      {
+        "code" : "DAU",
+        "display" : "Fille biologique"
+      },
+      {
+        "code" : "SON",
+        "display" : "Fils biologique"
+      },
+      {
+        "code" : "BRO",
+        "display" : "Frère"
+      },
+      {
+        "code" : "SIS",
+        "display" : "Soeur"
+      },
+      {
+        "code" : "HBRO",
+        "display" : "Demi-frère"
+      },
+      {
+        "code" : "HSIS",
+        "display" : "Demi-soeur"
+      },
+      {
+        "code" : "GRNDDAU",
+        "display" : "Petite-fille"
+      },
+      {
+        "code" : "GRNDSO",
+        "display" : "Petit-fils"
+      },
+      {
+        "code" : "UNCLE",
+        "display" : "Oncle"
+      },
+      {
+        "code" : "AUNT",
+        "display" : "Tante"
+      },
+      {
+        "code" : "NEPHEW",
+        "display" : "Neveu"
+      },
+      {
+        "code" : "NIECE",
+        "display" : "Nièce"
+      },
+      {
+        "code" : "HUSB",
+        "display" : "Epoux"
+      },
+      {
+        "code" : "WIFE",
+        "display" : "Epouse"
+      },
+      {
+        "code" : "DOMPART",
+        "display" : "Concubin(e) ou partenaire PACS"
+      },
+      {
+        "code" : "ROOM",
+        "display" : "Personne vivant sous le même toit"
+      },
+      {
+        "code" : "FRND",
+        "display" : "Autre proche"
+      },
+      {
+        "code" : "NBOR",
+        "display" : "Voisin(e)"
+      },
+      {
+        "code" : "FAMMEMB",
+        "display" : "Autre membre de la famille"
+      },
+      {
+        "code" : "CHILD",
+        "display" : "Enfant"
+      },
+      {
+        "code" : "COUSN",
+        "display" : "Cousin(e)"
+      },
+      {
+        "code" : "SIGOTHR",
+        "display" : "Conjoint"
+      },
+      {
+        "code" : "DAUC",
+        "display" : "Fille"
+      },
+      {
+        "code" : "SONC",
+        "display" : "Fils"
+      }]
+    },
+    {
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R217-ProtectionJuridique/FHIR/TRE-R217-ProtectionJuridique",
+      "version" : "20231215120000",
+      "concept" : [{
+        "code" : "TUTEUR",
+        "display" : "Tuteur"
+      },
+      {
+        "code" : "CURATEUR",
+        "display" : "Curateur"
+      },
+      {
+        "code" : "MSVG",
+        "display" : "Mandataire de sauvegarde"
+      }]
+    }]
   }
 }
 

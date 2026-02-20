@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R248-ModeAcces/FHIR/TRE-R248-ModeAcces"/>
+      <version value="20250131120000"/>
       <concept>
         <code value="normal"/>
         <display value="Accès normal"/>

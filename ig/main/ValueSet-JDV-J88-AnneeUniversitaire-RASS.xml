@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R225-AnneeUniversitaire/FHIR/TRE-R225-AnneeUniversitaire"/>
+      <version value="20251009120000"/>
       <concept>
         <code value="AU0809"/>
         <display value="2008-2009"/>

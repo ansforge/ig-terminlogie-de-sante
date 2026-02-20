@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "5",
     "lastUpdated" : "2025-12-17T15:44:12.873+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2022-04-01T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2022-04-01T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-facteur-de-risque-avc-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.678"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.678"
+  }],
   "version" : "20251216141838",
   "name" : "JdvFacteurDeRisqueAvcCisis",
   "title" : "JDV Facteur De Risque Avc CISIS",
@@ -85,53 +79,44 @@ Requête sur le SMT
   "date" : "2025-12-16T14:18:38+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Facteur De Risque Avc CISIS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
-      {
-        "system" : "http://hl7.org/fhir/sid/icd-10",
-        "concept" : [
-          {
-            "code" : "I10",
-            "display" : "Hypertension essentielle (primitive)"
-          },
-          {
-            "code" : "E14",
-            "display" : "Diabète sucré, sans précision"
-          },
-          {
-            "code" : "E66.9",
-            "display" : "Obésité, sans précision"
-          },
-          {
-            "code" : "F17",
-            "display" : "Troubles mentaux et du comportement liés à l'utilisation de tabac"
-          },
-          {
-            "code" : "E78",
-            "display" : "Anomalies du métabolisme des lipoprotéines et autres lipidémies"
-          }
-        ]
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "concept" : [{
+        "code" : "I10",
+        "display" : "Hypertension essentielle (primitive)"
       },
       {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "MED-325",
-            "display" : "Risque de récidive"
-          }
-        ]
-      }
-    ]
+        "code" : "E14",
+        "display" : "Diabète sucré, sans précision"
+      },
+      {
+        "code" : "E66.9",
+        "display" : "Obésité, sans précision"
+      },
+      {
+        "code" : "F17",
+        "display" : "Troubles mentaux et du comportement liés à l'utilisation de tabac"
+      },
+      {
+        "code" : "E78",
+        "display" : "Anomalies du métabolisme des lipoprotéines et autres lipidémies"
+      }]
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "version" : "202512170000",
+      "concept" : [{
+        "code" : "MED-325",
+        "display" : "Risque de récidive"
+      }]
+    }]
   }
 }
 

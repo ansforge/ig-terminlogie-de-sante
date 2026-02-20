@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R329-NatureCapacite/FHIR/TRE-R329-NatureCapacite"/>
+      <version value="20250328120000"/>
       <concept>
         <code value="01"/>
         <display value="Lit"/>

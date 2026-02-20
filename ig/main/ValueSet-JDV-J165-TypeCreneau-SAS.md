@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "5",
     "lastUpdated" : "2025-07-02T17:05:22.688+00:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2021-05-28T12:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2021-05-28T12:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J165-TypeCreneau-SAS/FHIR/JDV-J165-TypeCreneau-SAS",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.3.4.10"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.3.4.10"
+  }],
   "version" : "20240726120000",
   "name" : "JDV_J165_TypeCreneau_SAS",
   "status" : "active",
@@ -84,40 +78,33 @@ Requête sur le SMT
   "date" : "2024-07-26T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Type de créneaux de soins définis par un professionnel de santé ou son délégataire dans son logiciel de prise de RDV selon la visibilité associée",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R314-TypeCreneau/FHIR/TRE-R314-TypeCreneau",
+      "version" : "20240726120000",
+      "concept" : [{
+        "code" : "PUBLIC",
+        "display" : "Créneau accessible par le grand public"
+      },
       {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R314-TypeCreneau/FHIR/TRE-R314-TypeCreneau",
-        "concept" : [
-          {
-            "code" : "PUBLIC",
-            "display" : "Créneau accessible par le grand public"
-          },
-          {
-            "code" : "PRO",
-            "display" : "Créneau accessible par l'ensemble des professionnels de santé"
-          },
-          {
-            "code" : "SNP",
-            "display" : "Créneau accessible par les Régulateurs et Organisateurs de Soins Non Programmés"
-          },
-          {
-            "code" : "CPTS",
-            "display" : "Créneau accessible par les communautés professionnelles territoriales de santé"
-          }
-        ]
-      }
-    ]
+        "code" : "PRO",
+        "display" : "Créneau accessible par l'ensemble des professionnels de santé"
+      },
+      {
+        "code" : "SNP",
+        "display" : "Créneau accessible par les Régulateurs et Organisateurs de Soins Non Programmés"
+      },
+      {
+        "code" : "CPTS",
+        "display" : "Créneau accessible par les communautés professionnelles territoriales de santé"
+      }]
+    }]
   }
 }
 

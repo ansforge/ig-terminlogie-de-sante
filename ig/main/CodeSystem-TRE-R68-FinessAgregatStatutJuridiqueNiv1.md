@@ -30,25 +30,19 @@ Agrégats de statuts juridiques FINESS niveau 1
   "meta" : {
     "versionId" : "2",
     "lastUpdated" : "2025-07-02T18:18:41.253+00:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "1979-01-01T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "1979-01-01T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R68-FinessAgregatStatutJuridiqueNiv1/FHIR/TRE-R68-FinessAgregatStatutJuridiqueNiv1",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.6.1.63"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.6.1.63"
+  }],
   "version" : "20231215120000",
   "name" : "TRE_R68_FinessAgregatStatutJuridiqueNiv1",
   "status" : "active",
@@ -56,137 +50,119 @@ Agrégats de statuts juridiques FINESS niveau 1
   "date" : "2023-12-15T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Agrégats de statuts juridiques FINESS niveau 1",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "caseSensitive" : false,
   "content" : "complete",
-  "property" : [
-    {
+  "property" : [{
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "deprecationDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
+    "description" : "Date Concept was deprecated",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "status",
+    "uri" : "http://hl7.org/fhir/concept-properties#status",
+    "description" : "A property that indicates the status of the concept.",
+    "type" : "code"
+  },
+  {
+    "code" : "retirementDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
+    "description" : "Date Concept was retired",
+    "type" : "dateTime"
+  }],
+  "concept" : [{
+    "code" : "1000",
+    "display" : "Organismes et Etablissements Publics",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Orga Etab. Publics"
+    }],
+    "property" : [{
       "code" : "dateValid",
-      "description" : "date de validité d'un code concept",
-      "type" : "dateTime"
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "description" : "Date de mise à jour d'un code concept",
-      "type" : "dateTime"
-    },
-    {
-      "code" : "dateFin",
-      "description" : "Date de fin d'exploitation d'un code concept",
-      "type" : "dateTime"
-    },
-    {
-      "code" : "deprecationDate",
-      "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
-      "description" : "Date Concept was deprecated",
-      "type" : "dateTime"
+      "valueDateTime" : "1994-10-18T00:00:00+01:00"
     },
     {
       "code" : "status",
-      "uri" : "http://hl7.org/fhir/concept-properties#status",
-      "description" : "A property that indicates the status of the concept.",
-      "type" : "code"
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "2000",
+    "display" : "Organismes Privés",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
     },
     {
-      "code" : "retirementDate",
-      "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
-      "description" : "Date Concept was retired",
-      "type" : "dateTime"
-    }
-  ],
-  "concept" : [
-    {
-      "code" : "1000",
-      "display" : "Organismes et Etablissements Publics",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Orga Etab. Publics"
-        }
-      ],
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1979-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1994-10-18T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "code" : "dateMaj",
+      "valueDateTime" : "1994-10-18T00:00:00+01:00"
     },
     {
-      "code" : "2000",
-      "display" : "Organismes Privés",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1979-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1994-10-18T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "3000",
+    "display" : "Personne Morale de Droit Etranger",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Pers.Moral.Etranger"
     },
     {
-      "code" : "3000",
-      "display" : "Personne Morale de Droit Etranger",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Pers.Moral.Etranger"
-        },
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Personne morale de droit étranger"
-        }
-      ],
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1979-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1994-10-18T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
-    }
-  ]
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Personne morale de droit étranger"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1994-10-18T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  }]
 }
 
 ```

@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R251-FonctionContact/FHIR/TRE-R251-FonctionContact",
+      "version" : "20250131120000",
       "concept" : [{
         "code" : "01",
         "display" : "Directeur"

@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R342-XdsTypesIdentifiantsReferenceId/FHIR/TRE-R342-XdsTypesIdentifiantsReferenceId",
+      "version" : "20231215120000",
       "concept" : [{
         "code" : "urn:ihe:iti:xds:2013:uniqueId",
         "display" : "uniqueId"

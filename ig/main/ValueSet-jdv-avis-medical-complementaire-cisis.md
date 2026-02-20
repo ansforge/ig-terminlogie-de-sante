@@ -55,28 +55,22 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-avis-medical-complementaire-cisis",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-12-17T15:43:08.145+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "versionId" : "6",
+    "lastUpdated" : "2026-02-19T16:12:23.544+01:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2010-01-01T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2010-01-01T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-avis-medical-complementaire-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.63"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.63"
+  }],
   "version" : "20251216141839",
   "name" : "JdvAvisMedicalComplementaireCisis",
   "title" : "JDV Avis Medical Complementaire CISIS",
@@ -85,49 +79,41 @@ Requête sur le SMT
   "date" : "2025-12-16T14:18:39+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Avis Medical Complementaire CISIS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
-      {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_A02-ProfessionSavFaire-CISIS/FHIR/TRE-A02-ProfessionSavFaire-CISIS",
-        "concept" : [
-          {
-            "code" : "G15_10/SM29",
-            "display" : "Médecin - Médecine physique et réadaptation (SM)"
-          },
-          {
-            "code" : "G15_10/SM04",
-            "display" : "Médecin - Cardiologie et maladies vasculaires (SM)"
-          },
-          {
-            "code" : "G15_10/SM32",
-            "display" : "Médecin - Neurologie (SM)"
-          },
-          {
-            "code" : "G15_10/SM18",
-            "display" : "Médecin - Gériatrie (SM)&quot;"
-          }
-        ]
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_A02-ProfessionSavFaire-CISIS/FHIR/TRE-A02-ProfessionSavFaire-CISIS",
+      "version" : "20260202120000",
+      "concept" : [{
+        "code" : "G15_10/SM29",
+        "display" : "Médecin - Médecine physique et réadaptation (SM)"
       },
       {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "GEN-092.04.04",
-            "display" : "Autre avis médical"
-          }
-        ]
-      }
-    ]
+        "code" : "G15_10/SM04",
+        "display" : "Médecin - Cardiologie et maladies vasculaires (SM)"
+      },
+      {
+        "code" : "G15_10/SM32",
+        "display" : "Médecin - Neurologie (SM)"
+      },
+      {
+        "code" : "G15_10/SM18",
+        "display" : "Médecin - Gériatrie (SM)"
+      }]
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "version" : "202512170000",
+      "concept" : [{
+        "code" : "GEN-092.04.04",
+        "display" : "Autre avis médical"
+      }]
+    }]
   }
 }
 

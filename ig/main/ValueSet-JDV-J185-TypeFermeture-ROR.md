@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "7",
     "lastUpdated" : "2025-10-02T19:02:00.002+02:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2022-09-30T12:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2022-09-30T12:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J185-TypeFermeture-ROR/FHIR/JDV-J185-TypeFermeture-ROR",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.3.4.18"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.3.4.18"
+  }],
   "version" : "20250923120000",
   "name" : "JDV_J185_TypeFermeture_ROR",
   "status" : "active",
@@ -84,36 +78,29 @@ Requête sur le SMT
   "date" : "2025-09-23T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Les seules valeurs acceptées par le ROR pour les Organisations internes et les offres",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture",
+      "version" : "20251016120000",
+      "concept" : [{
+        "code" : "DEF",
+        "display" : "Définitive"
+      },
       {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture",
-        "concept" : [
-          {
-            "code" : "DEF",
-            "display" : "Définitive"
-          },
-          {
-            "code" : "PRO",
-            "display" : "Provisoire"
-          },
-          {
-            "code" : "PRE",
-            "display" : "Prévisionnelle"
-          }
-        ]
-      }
-    ]
+        "code" : "PRO",
+        "display" : "Provisoire"
+      },
+      {
+        "code" : "PRE",
+        "display" : "Prévisionnelle"
+      }]
+    }]
   }
 }
 

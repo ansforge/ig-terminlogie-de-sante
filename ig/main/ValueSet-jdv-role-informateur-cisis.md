@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "6",
     "lastUpdated" : "2025-12-17T15:46:35.318+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2025-04-24T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2025-04-24T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-role-informateur-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.824"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.824"
+  }],
   "version" : "20251216141839",
   "name" : "JdvRoleInformateurCisis",
   "title" : "Jdv Role Informateur CISIS",
@@ -85,44 +79,37 @@ Requête sur le SMT
   "date" : "2025-12-16T14:18:39+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Jdv Role Informateur CISIS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
+      "version" : "4.0.0",
+      "concept" : [{
+        "code" : "CAREGIVER",
+        "display" : "aidant"
+      },
       {
-        "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
-        "concept" : [
-          {
-            "code" : "CAREGIVER",
-            "display" : "aidant"
-          },
-          {
-            "code" : "CON",
-            "display" : "informateur"
-          },
-          {
-            "code" : "ECON",
-            "display" : "personne à prévenir en cas d’urgence"
-          },
-          {
-            "code" : "NOK",
-            "display" : "personne de confiance"
-          },
-          {
-            "code" : "PAT",
-            "display" : "aidé"
-          }
-        ]
-      }
-    ]
+        "code" : "CON",
+        "display" : "informateur"
+      },
+      {
+        "code" : "ECON",
+        "display" : "personne à prévenir en cas d’urgence"
+      },
+      {
+        "code" : "NOK",
+        "display" : "personne de confiance"
+      },
+      {
+        "code" : "PAT",
+        "display" : "aidé"
+      }]
+    }]
   }
 }
 

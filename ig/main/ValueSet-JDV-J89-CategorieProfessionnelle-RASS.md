@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "5",
     "lastUpdated" : "2025-07-02T17:06:55.062+00:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2019-08-30T12:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2019-08-30T12:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J89-CategorieProfessionnelle-RASS/FHIR/JDV-J89-CategorieProfessionnelle-RASS",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.6.1.157"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.6.1.157"
+  }],
   "version" : "20240329120000",
   "name" : "JDV_J89_CategorieProfessionnelle_RASS",
   "status" : "active",
@@ -84,40 +78,33 @@ Requête sur le SMT
   "date" : "2024-03-29T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Catégories professionnelles dans le RASS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R09-CategorieProfessionnelle/FHIR/TRE-R09-CategorieProfessionnelle",
+      "version" : "20240426120000",
+      "concept" : [{
+        "code" : "C",
+        "display" : "Civil"
+      },
       {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R09-CategorieProfessionnelle/FHIR/TRE-R09-CategorieProfessionnelle",
-        "concept" : [
-          {
-            "code" : "C",
-            "display" : "Civil"
-          },
-          {
-            "code" : "E",
-            "display" : "Etudiant"
-          },
-          {
-            "code" : "F",
-            "display" : "Fonctionnaire d'Etat ou de collectivité locale"
-          },
-          {
-            "code" : "M",
-            "display" : "Agent public"
-          }
-        ]
-      }
-    ]
+        "code" : "E",
+        "display" : "Etudiant"
+      },
+      {
+        "code" : "F",
+        "display" : "Fonctionnaire d'Etat ou de collectivité locale"
+      },
+      {
+        "code" : "M",
+        "display" : "Agent public"
+      }]
+    }]
   }
 }
 

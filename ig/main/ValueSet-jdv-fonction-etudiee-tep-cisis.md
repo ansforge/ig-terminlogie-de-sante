@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "5",
     "lastUpdated" : "2025-12-17T15:44:18.339+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2022-01-26T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2022-01-26T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-fonction-etudiee-tep-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.668"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.668"
+  }],
   "version" : "20251216141838",
   "name" : "JdvFonctionEtudieeTepCisis",
   "title" : "JDV Fonction Etudiee Tep CISIS",
@@ -85,56 +79,49 @@ Requête sur le SMT
   "date" : "2025-12-16T14:18:38+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Fonction Etudiee Tep CISIS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "version" : "202512170000",
+      "concept" : [{
+        "code" : "MED-1133",
+        "display" : "FDG Oncologie /Infectieux/inflammatoire"
+      },
       {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "MED-1133",
-            "display" : "FDG Oncologie /Infectieux/inflammatoire"
-          },
-          {
-            "code" : "MED-1134",
-            "display" : "FDG cérébrale"
-          },
-          {
-            "code" : "MED-1135",
-            "display" : "F-Choline"
-          },
-          {
-            "code" : "MED-1136",
-            "display" : "F-DOPA cérébrale"
-          },
-          {
-            "code" : "MED-1137",
-            "display" : "F-DOPA oncologie"
-          },
-          {
-            "code" : "MED-1138",
-            "display" : "FNA"
-          },
-          {
-            "code" : "MED-1139",
-            "display" : "F-Fluciclovine"
-          },
-          {
-            "code" : "GEN-092.04.18",
-            "display" : "Autre (autres traceurs, TEP-IRM)"
-          }
-        ]
-      }
-    ]
+        "code" : "MED-1134",
+        "display" : "FDG cérébrale"
+      },
+      {
+        "code" : "MED-1135",
+        "display" : "F-Choline"
+      },
+      {
+        "code" : "MED-1136",
+        "display" : "F-DOPA cérébrale"
+      },
+      {
+        "code" : "MED-1137",
+        "display" : "F-DOPA oncologie"
+      },
+      {
+        "code" : "MED-1138",
+        "display" : "FNA"
+      },
+      {
+        "code" : "MED-1139",
+        "display" : "F-Fluciclovine"
+      },
+      {
+        "code" : "GEN-092.04.18",
+        "display" : "Autre (autres traceurs, TEP-IRM)"
+      }]
+    }]
   }
 }
 

@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "5",
     "lastUpdated" : "2025-12-17T15:44:04.932+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2010-01-01T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2010-01-01T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evenement-accouchement-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.527"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.527"
+  }],
   "version" : "20251216141838",
   "name" : "JdvEvenementAccouchementCisis",
   "title" : "JDV Evenement Accouchement CISIS",
@@ -85,65 +79,56 @@ Requête sur le SMT
   "date" : "2025-12-16T14:18:38+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Evenement Accouchement CISIS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
-      {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "MED-1248",
-            "display" : "Présentation fœtale"
-          },
-          {
-            "code" : "MED-166",
-            "display" : "Rupture membranaire plus de 12 h avant l'accouchement"
-          },
-          {
-            "code" : "MED-168",
-            "display" : "Analgésie au cours du travail"
-          },
-          {
-            "code" : "MED-600",
-            "display" : "Cause de la césarienne"
-          }
-        ]
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "version" : "202512170000",
+      "concept" : [{
+        "code" : "MED-1248",
+        "display" : "Présentation fœtale"
       },
       {
-        "system" : "http://loinc.org",
-        "concept" : [
-          {
-            "code" : "55281-0",
-            "display" : "Nombre de fœtus"
-          },
-          {
-            "code" : "11885-1",
-            "display" : "Age gestationnel (semaines d'amenorrhées révolues)"
-          },
-          {
-            "code" : "73771-8",
-            "display" : "Rang de naissance"
-          },
-          {
-            "code" : "73813-8",
-            "display" : "Caractéristiques du travail"
-          },
-          {
-            "code" : "57071-3",
-            "display" : "Méthode d'accouchement"
-          }
-        ]
-      }
-    ]
+        "code" : "MED-166",
+        "display" : "Rupture membranaire plus de 12 h avant l'accouchement"
+      },
+      {
+        "code" : "MED-168",
+        "display" : "Analgésie au cours du travail"
+      },
+      {
+        "code" : "MED-600",
+        "display" : "Cause de la césarienne"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "55281-0",
+        "display" : "Nombre de fœtus"
+      },
+      {
+        "code" : "11885-1",
+        "display" : "Age gestationnel (semaines d'amenorrhées révolues)"
+      },
+      {
+        "code" : "73771-8",
+        "display" : "Rang de naissance"
+      },
+      {
+        "code" : "73813-8",
+        "display" : "Caractéristiques du travail"
+      },
+      {
+        "code" : "57071-3",
+        "display" : "Méthode d'accouchement"
+      }]
+    }]
   }
 }
 

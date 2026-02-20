@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R349-ActionAnomalie/FHIR/TRE-R349-ActionAnomalie"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="AJO"/>
         <display value="Ajout"/>

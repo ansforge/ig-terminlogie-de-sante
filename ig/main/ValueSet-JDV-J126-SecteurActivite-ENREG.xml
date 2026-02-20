@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite"/>
+      <version value="20250523120000"/>
       <concept>
         <code value="SA09"/>
         <display value="Exercice en société"/>

@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R240-TemporaliteAccueil/FHIR/TRE-R240-TemporaliteAccueil"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="01"/>
         <display value="Temporaire"/>

@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "5",
     "lastUpdated" : "2025-12-17T15:43:13.232+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2010-01-01T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2010-01-01T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-cause-accident-domestique-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.121"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.121"
+  }],
   "version" : "20251216141839",
   "name" : "JdvCauseAccidentDomestiqueCisis",
   "title" : "JDV Cause Accident Domestique CISIS",
@@ -85,45 +79,36 @@ Requête sur le SMT
   "date" : "2025-12-16T14:18:39+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Cause Accident Domestique CISIS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
-      {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "GEN-092.01.13",
-            "display" : "Autre(s) accident(s) domestique(s)"
-          }
-        ]
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "version" : "202512170000",
+      "concept" : [{
+        "code" : "GEN-092.01.13",
+        "display" : "Autre(s) accident(s) domestique(s)"
+      }]
+    },
+    {
+      "system" : "http://id.who.int/icd/release/11/mms",
+      "concept" : [{
+        "code" : "NF0A.4",
+        "display" : "Choc traumatique, non classé ailleurs"
       },
       {
-        "system" : "http://id.who.int/icd/release/11/mms",
-        "concept" : [
-          {
-            "code" : "NF0A.4",
-            "display" : "Choc traumatique, non classé ailleurs"
-          },
-          {
-            "code" : "NE2Z",
-            "display" : "Brulures, sans précision"
-          },
-          {
-            "code" : "NE61",
-            "display" : "Effets nocifs ou exposition à des substances nocives, principalement d'origine nonmédicinale, non classés ailleurs"
-          }
-        ]
-      }
-    ]
+        "code" : "NE2Z",
+        "display" : "Brulures, sans précision"
+      },
+      {
+        "code" : "NE61",
+        "display" : "Effets nocifs ou exposition à des substances nocives, principalement d'origine nonmédicinale, non classés ailleurs"
+      }]
+    }]
   }
 }
 

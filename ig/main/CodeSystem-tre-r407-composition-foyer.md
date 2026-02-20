@@ -30,26 +30,20 @@ Désigne avec qui vit l’usager dans son logement.
   "meta" : {
     "versionId" : "1",
     "lastUpdated" : "2026-02-03T09:57:56.438+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2026-02-02T12:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2026-02-02T12:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r407-composition-foyer",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.3.3.261"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.3.3.261"
+  }],
   "version" : "20260202120000",
   "name" : "TreR407CompositionFoyer",
   "title" : "Tre R407 Composition Foyer",
@@ -58,203 +52,179 @@ Désigne avec qui vit l’usager dans son logement.
   "date" : "2026-02-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Désigne avec qui vit l’usager dans son logement.",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "caseSensitive" : false,
   "content" : "complete",
   "count" : 8,
-  "property" : [
-    {
+  "property" : [{
+    "code" : "dateValid",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "status",
+    "uri" : "http://hl7.org/fhir/concept-properties#status",
+    "description" : "Statut d'un code concept",
+    "type" : "code"
+  },
+  {
+    "code" : "deprecationDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
+    "description" : "Date de dépréciation du code",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "retirementDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
+    "description" : "Date de retrait du code",
+    "type" : "dateTime"
+  }],
+  "concept" : [{
+    "code" : "1",
+    "display" : "Seul(e)",
+    "property" : [{
       "code" : "dateValid",
-      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
-      "description" : "date de validité d'un code concept",
-      "type" : "dateTime"
+      "valueDateTime" : "2026-02-02T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
-      "description" : "Date de mise à jour d'un code concept",
-      "type" : "dateTime"
-    },
-    {
-      "code" : "dateFin",
-      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
-      "description" : "Date de fin d'exploitation d'un code concept",
-      "type" : "dateTime"
+      "valueDateTime" : "2026-02-02T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "uri" : "http://hl7.org/fhir/concept-properties#status",
-      "description" : "Statut d'un code concept",
-      "type" : "code"
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "2",
+    "display" : "Avec conjoint(e)",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-02-02T12:00:00+01:00"
     },
     {
-      "code" : "deprecationDate",
-      "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
-      "description" : "Date de dépréciation du code",
-      "type" : "dateTime"
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-02-02T12:00:00+01:00"
     },
     {
-      "code" : "retirementDate",
-      "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
-      "description" : "Date de retrait du code",
-      "type" : "dateTime"
-    }
-  ],
-  "concept" : [
-    {
-      "code" : "1",
-      "display" : "Seul(e)",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2026-02-02T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2026-02-02T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "3",
+    "display" : "Avec son ou ses enfants",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-02-02T12:00:00+01:00"
     },
     {
-      "code" : "2",
-      "display" : "Avec conjoint(e)",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2026-02-02T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2026-02-02T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-02-02T12:00:00+01:00"
     },
     {
-      "code" : "3",
-      "display" : "Avec son ou ses enfants",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2026-02-02T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2026-02-02T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "4",
+    "display" : "Avec ses parents",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-02-02T12:00:00+01:00"
     },
     {
-      "code" : "4",
-      "display" : "Avec ses parents",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2026-02-02T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2026-02-02T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-02-02T12:00:00+01:00"
     },
     {
-      "code" : "5",
-      "display" : "Avec un autre membre de sa famille",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2026-02-02T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2026-02-02T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "5",
+    "display" : "Avec un autre membre de sa famille",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-02-02T12:00:00+01:00"
     },
     {
-      "code" : "6",
-      "display" : "Avec un(e) ou des ami(e)s",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2026-02-02T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2026-02-02T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-02-02T12:00:00+01:00"
     },
     {
-      "code" : "7",
-      "display" : "Avec un(e) ou des colocataires",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2026-02-02T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2026-02-02T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "6",
+    "display" : "Avec un(e) ou des ami(e)s",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-02-02T12:00:00+01:00"
     },
     {
-      "code" : "8",
-      "display" : "Avec d'autres types de personnes",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2026-02-02T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2026-02-02T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
-    }
-  ]
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-02-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "7",
+    "display" : "Avec un(e) ou des colocataires",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-02-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-02-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "8",
+    "display" : "Avec d'autres types de personnes",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-02-02T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-02-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  }]
 }
 
 ```

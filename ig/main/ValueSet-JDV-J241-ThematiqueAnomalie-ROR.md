@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "5",
     "lastUpdated" : "2025-07-02T17:06:05.809+00:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2023-03-31T12:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2023-03-31T12:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J241-ThematiqueAnomalie-ROR/FHIR/JDV-J241-ThematiqueAnomalie-ROR",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.3.4.106"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.3.4.106"
+  }],
   "version" : "20240126120000",
   "name" : "JDV_J241_ThematiqueAnomalie_ROR",
   "status" : "active",
@@ -84,48 +78,41 @@ Requête sur le SMT
   "date" : "2024-01-26T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Thématique caractérisant une anomalie de donnée ROR",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R350-ThematiqueAnomalie/FHIR/TRE-R350-ThematiqueAnomalie",
+      "version" : "20231215120000",
+      "concept" : [{
+        "code" : "01",
+        "display" : "Complétude"
+      },
       {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R350-ThematiqueAnomalie/FHIR/TRE-R350-ThematiqueAnomalie",
-        "concept" : [
-          {
-            "code" : "01",
-            "display" : "Complétude"
-          },
-          {
-            "code" : "02",
-            "display" : "Exhaustivité"
-          },
-          {
-            "code" : "03",
-            "display" : "Cohérence"
-          },
-          {
-            "code" : "04",
-            "display" : "Récence"
-          },
-          {
-            "code" : "05",
-            "display" : "Structuration"
-          },
-          {
-            "code" : "06",
-            "display" : "Exactitude"
-          }
-        ]
-      }
-    ]
+        "code" : "02",
+        "display" : "Exhaustivité"
+      },
+      {
+        "code" : "03",
+        "display" : "Cohérence"
+      },
+      {
+        "code" : "04",
+        "display" : "Récence"
+      },
+      {
+        "code" : "05",
+        "display" : "Structuration"
+      },
+      {
+        "code" : "06",
+        "display" : "Exactitude"
+      }]
+    }]
   }
 }
 

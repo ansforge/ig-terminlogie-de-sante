@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R304-HL7v3ActCode/FHIR/TRE-R304-HL7v3ActCode"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="IMP"/>
         <display value="Hospitalisation (établissement, y compris HAD)"/>
@@ -64,6 +65,7 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R305-TypeRencontre/FHIR/TRE-R305-TypeRencontre"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="EXTERNE"/>
         <display value="Acte et consultation externe (établissement)"/>

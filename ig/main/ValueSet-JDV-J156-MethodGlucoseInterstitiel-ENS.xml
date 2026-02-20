@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://smt.esante.gouv.fr/terminologie-emdn"/>
+      <version value="v1.2"/>
       <concept>
         <code value="J0601"/>
         <display value="CAPTEURS IMPLANTABLES DE SURVEILLANCE CONTINUE DU GLUCOSE"/>

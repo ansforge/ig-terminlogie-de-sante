@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R357-StatutPersonnePriseCharge/FHIR/TRE-R357-StatutPersonnePriseCharge"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="37"/>
         <display value="Décision d'orientation annulée"/>

@@ -38,6 +38,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R20-Pays/FHIR/TRE-R20-Pays"/>
+      <version value="20250328120000"/>
       <concept>
         <code value="99100"/>
         <display value="République française"/>

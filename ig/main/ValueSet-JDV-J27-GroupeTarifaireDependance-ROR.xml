@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R237-GroupeTarifaireDependance/FHIR/TRE-R237-GroupeTarifaireDependance"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="01"/>
         <display value="GIR 1-2"/>

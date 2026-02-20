@@ -59,26 +59,20 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "meta" : {
     "versionId" : "4",
     "lastUpdated" : "2025-12-17T15:46:10.277+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2021-04-19T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2021-04-19T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-rcp-organe-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.598"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.598"
+  }],
   "version" : "20251216141840",
   "name" : "JdvRcpOrganeCisis",
   "title" : "JDV RCP Organe CISIS",
@@ -87,267 +81,255 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "date" : "2025-12-16T14:18:40+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV RCP Organe CISIS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
-      {
-        "system" : "http://hl7.org/fhir/sid/icd-10",
-        "concept" : [
-          {
-            "code" : "C88",
-            "display" : "Maladies immunoprolifératives malignes"
-          }
-        ]
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "concept" : [{
+        "code" : "C88",
+        "display" : "Maladies immunoprolifératives malignes"
+      }]
+    },
+    {
+      "system" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+      "concept" : [{
+        "code" : "C3211",
+        "display" : "lymphome non hodgkinien"
       },
       {
-        "system" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
-        "concept" : [
-          {
-            "code" : "C3211",
-            "display" : "lymphome non hodgkinien"
-          },
-          {
-            "code" : "C9357",
-            "display" : "Lymphome de Hodgkin"
-          },
-          {
-            "code" : "C3483",
-            "display" : "leucémie chronique"
-          },
-          {
-            "code" : "C3163",
-            "display" : "Leucémie lymphocytique chronique"
-          },
-          {
-            "code" : "C3167",
-            "display" : "Leucémie lymphoblastique aiguë"
-          },
-          {
-            "code" : "C3172",
-            "display" : "Leucémie myéloïde"
-          },
-          {
-            "code" : "C3171",
-            "display" : "leucémie myéloïde aiguë"
-          },
-          {
-            "code" : "C3174",
-            "display" : "leucémie myéloïde chronique BCR-ABL positive"
-          },
-          {
-            "code" : "C4861",
-            "display" : "leucémie monocytaire aiguë"
-          },
-          {
-            "code" : "C9300",
-            "display" : "leucémie aiguë"
-          },
-          {
-            "code" : "C27262",
-            "display" : "maladies myélodysplasiques-myéloprolifératives"
-          },
-          {
-            "code" : "C3242",
-            "display" : "myélome à cellules plasmatiques"
-          },
-          {
-            "code" : "C94529",
-            "display" : "région vulvo-vaginale"
-          },
-          {
-            "code" : "C12664",
-            "display" : "Péritoine-rétropéritoine"
-          }
-        ]
+        "code" : "C9357",
+        "display" : "Lymphome de Hodgkin"
       },
       {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "MED-237",
-            "display" : "Fosses nasales, sinus, oreille moy/int"
-          },
-          {
-            "code" : "MED-251",
-            "display" : "Colon-Rectum-Anus"
-          },
-          {
-            "code" : "MED-255",
-            "display" : "Trachée, Bronches, Poumon"
-          }
-        ]
+        "code" : "C3483",
+        "display" : "leucémie chronique"
       },
       {
-        "system" : "http://snomed.info/sct",
-        "concept" : [
-          {
-            "code" : "57171008",
-            "display" : "système hématopoïétique"
-          },
-          {
-            "code" : "119253004",
-            "display" : "voies aérodigestives supérieures"
-          },
-          {
-            "code" : "303270005",
-            "display" : "foie et/ou voies biliaires"
-          },
-          {
-            "code" : "39937001",
-            "display" : "peau"
-          },
-          {
-            "code" : "76752008",
-            "display" : "sein"
-          },
-          {
-            "code" : "306721000",
-            "display" : "os et/ou articulation"
-          },
-          {
-            "code" : "87784001",
-            "display" : "tissus mous"
-          },
-          {
-            "code" : "312419003",
-            "display" : "appareil respiratoire et/ou cavité thoracique"
-          },
-          {
-            "code" : "4596009",
-            "display" : "larynx"
-          },
-          {
-            "code" : "3120008",
-            "display" : "plèvre"
-          },
-          {
-            "code" : "86762007",
-            "display" : "système digestif"
-          },
-          {
-            "code" : "74262004",
-            "display" : "cavité orale"
-          },
-          {
-            "code" : "48477009",
-            "display" : "lèvre"
-          },
-          {
-            "code" : "21974007",
-            "display" : "langue"
-          },
-          {
-            "code" : "54066008",
-            "display" : "pharynx"
-          },
-          {
-            "code" : "32849002",
-            "display" : "œsophage"
-          },
-          {
-            "code" : "69695003",
-            "display" : "estomac"
-          },
-          {
-            "code" : "30315005",
-            "display" : "intestin grêle"
-          },
-          {
-            "code" : "385294005",
-            "display" : "glande salivaire"
-          },
-          {
-            "code" : "15776009",
-            "display" : "pancréas"
-          },
-          {
-            "code" : "122489005",
-            "display" : "système urinaire"
-          },
-          {
-            "code" : "431491007",
-            "display" : "voies urinaires supérieures proprement dites"
-          },
-          {
-            "code" : "64033007",
-            "display" : "rein"
-          },
-          {
-            "code" : "89837001",
-            "display" : "vessie"
-          },
-          {
-            "code" : "53065001",
-            "display" : "appareil génital féminin"
-          },
-          {
-            "code" : "23952005",
-            "display" : "corps de l'utérus"
-          },
-          {
-            "code" : "71252005",
-            "display" : "col utérin"
-          },
-          {
-            "code" : "15497006",
-            "display" : "ovaire"
-          },
-          {
-            "code" : "90264002",
-            "display" : "appareil génital masculin"
-          },
-          {
-            "code" : "18911002",
-            "display" : "pénis"
-          },
-          {
-            "code" : "41216001",
-            "display" : "prostate"
-          },
-          {
-            "code" : "40689003",
-            "display" : "testicule"
-          },
-          {
-            "code" : "21483005",
-            "display" : "système nerveux central"
-          },
-          {
-            "code" : "84782009",
-            "display" : "nerf périphérique"
-          },
-          {
-            "code" : "81745001",
-            "display" : "œil"
-          },
-          {
-            "code" : "387910009",
-            "display" : "glande endocrine"
-          },
-          {
-            "code" : "23451007",
-            "display" : "glande suprarénale"
-          },
-          {
-            "code" : "69748006",
-            "display" : "thyroïde"
-          },
-          {
-            "code" : "72410000",
-            "display" : "médiastin"
-          }
-        ]
-      }
-    ]
+        "code" : "C3163",
+        "display" : "Leucémie lymphocytique chronique"
+      },
+      {
+        "code" : "C3167",
+        "display" : "Leucémie lymphoblastique aiguë"
+      },
+      {
+        "code" : "C3172",
+        "display" : "Leucémie myéloïde"
+      },
+      {
+        "code" : "C3171",
+        "display" : "leucémie myéloïde aiguë"
+      },
+      {
+        "code" : "C3174",
+        "display" : "leucémie myéloïde chronique BCR-ABL positive"
+      },
+      {
+        "code" : "C4861",
+        "display" : "leucémie monocytaire aiguë"
+      },
+      {
+        "code" : "C9300",
+        "display" : "leucémie aiguë"
+      },
+      {
+        "code" : "C27262",
+        "display" : "maladies myélodysplasiques-myéloprolifératives"
+      },
+      {
+        "code" : "C3242",
+        "display" : "myélome à cellules plasmatiques"
+      },
+      {
+        "code" : "C94529",
+        "display" : "région vulvo-vaginale"
+      },
+      {
+        "code" : "C12664",
+        "display" : "Péritoine-rétropéritoine"
+      }]
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "version" : "202512170000",
+      "concept" : [{
+        "code" : "MED-237",
+        "display" : "Fosses nasales, sinus, oreille moy/int"
+      },
+      {
+        "code" : "MED-251",
+        "display" : "Colon-Rectum-Anus"
+      },
+      {
+        "code" : "MED-255",
+        "display" : "Trachée, Bronches, Poumon"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/900000000000207008/version/20260201",
+      "concept" : [{
+        "code" : "57171008",
+        "display" : "système hématopoïétique"
+      },
+      {
+        "code" : "119253004",
+        "display" : "voies aérodigestives supérieures"
+      },
+      {
+        "code" : "303270005",
+        "display" : "foie et/ou voies biliaires"
+      },
+      {
+        "code" : "39937001",
+        "display" : "peau"
+      },
+      {
+        "code" : "76752008",
+        "display" : "sein"
+      },
+      {
+        "code" : "306721000",
+        "display" : "os et/ou articulation"
+      },
+      {
+        "code" : "87784001",
+        "display" : "tissus mous"
+      },
+      {
+        "code" : "312419003",
+        "display" : "appareil respiratoire et/ou cavité thoracique"
+      },
+      {
+        "code" : "4596009",
+        "display" : "larynx"
+      },
+      {
+        "code" : "3120008",
+        "display" : "plèvre"
+      },
+      {
+        "code" : "86762007",
+        "display" : "système digestif"
+      },
+      {
+        "code" : "74262004",
+        "display" : "cavité orale"
+      },
+      {
+        "code" : "48477009",
+        "display" : "lèvre"
+      },
+      {
+        "code" : "21974007",
+        "display" : "langue"
+      },
+      {
+        "code" : "54066008",
+        "display" : "pharynx"
+      },
+      {
+        "code" : "32849002",
+        "display" : "œsophage"
+      },
+      {
+        "code" : "69695003",
+        "display" : "estomac"
+      },
+      {
+        "code" : "30315005",
+        "display" : "intestin grêle"
+      },
+      {
+        "code" : "385294005",
+        "display" : "glande salivaire"
+      },
+      {
+        "code" : "15776009",
+        "display" : "pancréas"
+      },
+      {
+        "code" : "122489005",
+        "display" : "système urinaire"
+      },
+      {
+        "code" : "431491007",
+        "display" : "voies urinaires supérieures proprement dites"
+      },
+      {
+        "code" : "64033007",
+        "display" : "rein"
+      },
+      {
+        "code" : "89837001",
+        "display" : "vessie"
+      },
+      {
+        "code" : "53065001",
+        "display" : "appareil génital féminin"
+      },
+      {
+        "code" : "23952005",
+        "display" : "corps de l'utérus"
+      },
+      {
+        "code" : "71252005",
+        "display" : "col utérin"
+      },
+      {
+        "code" : "15497006",
+        "display" : "ovaire"
+      },
+      {
+        "code" : "90264002",
+        "display" : "appareil génital masculin"
+      },
+      {
+        "code" : "18911002",
+        "display" : "pénis"
+      },
+      {
+        "code" : "41216001",
+        "display" : "prostate"
+      },
+      {
+        "code" : "40689003",
+        "display" : "testicule"
+      },
+      {
+        "code" : "21483005",
+        "display" : "système nerveux central"
+      },
+      {
+        "code" : "84782009",
+        "display" : "nerf périphérique"
+      },
+      {
+        "code" : "81745001",
+        "display" : "œil"
+      },
+      {
+        "code" : "387910009",
+        "display" : "glande endocrine"
+      },
+      {
+        "code" : "23451007",
+        "display" : "glande suprarénale"
+      },
+      {
+        "code" : "69748006",
+        "display" : "thyroïde"
+      },
+      {
+        "code" : "72410000",
+        "display" : "médiastin"
+      }]
+    }]
   }
 }
 

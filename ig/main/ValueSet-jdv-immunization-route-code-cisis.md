@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "6",
     "lastUpdated" : "2025-12-17T15:44:30.104+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2022-03-25T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2022-03-25T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-immunization-route-code-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.676"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.676"
+  }],
   "version" : "20251216141838",
   "name" : "JdvImmunizationRouteCodeCisis",
   "title" : "JDV Immunization Route Code CISIS",
@@ -85,44 +79,37 @@ Requête sur le SMT
   "date" : "2025-12-16T14:18:38+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Immunization Route Code CISIS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/terminologie-standardterms",
+      "version" : "2025-03-19",
+      "concept" : [{
+        "code" : "20035000",
+        "display" : "Voie intramusculaire"
+      },
       {
-        "system" : "https://smt.esante.gouv.fr/terminologie-standardterms",
-        "concept" : [
-          {
-            "code" : "20035000",
-            "display" : "Voie intramusculaire"
-          },
-          {
-            "code" : "20030000",
-            "display" : "Voie intradermique"
-          },
-          {
-            "code" : "20020000",
-            "display" : "Voie inhalée"
-          },
-          {
-            "code" : "20053000",
-            "display" : "Voie orale"
-          },
-          {
-            "code" : "20066000",
-            "display" : "Voie sous-cutanée"
-          }
-        ]
-      }
-    ]
+        "code" : "20030000",
+        "display" : "Voie intradermique"
+      },
+      {
+        "code" : "20020000",
+        "display" : "Voie inhalée"
+      },
+      {
+        "code" : "20053000",
+        "display" : "Voie orale"
+      },
+      {
+        "code" : "20066000",
+        "display" : "Voie sous-cutanée"
+      }]
+    }]
   }
 }
 

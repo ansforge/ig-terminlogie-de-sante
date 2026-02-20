@@ -65,6 +65,7 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R38-SpecialiteOrdinale/FHIR/TRE-R38-SpecialiteOrdinale"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R38-SpecialiteOrdinale/FHIR/TRE-R38-SpecialiteOrdinale>
        ] ;
+       fhir:version [ fhir:v "20240531120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "SM03" ] ;
          fhir:display [ fhir:v "Biologie médicale" ]
@@ -122,6 +123,7 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante>
        ] ;
+       fhir:version [ fhir:v "20250328120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "40" ] ;
          fhir:display [ fhir:v "Chirurgien-Dentiste" ]

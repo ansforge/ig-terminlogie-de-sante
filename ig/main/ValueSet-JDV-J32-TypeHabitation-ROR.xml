@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R242-TypeHabitation/FHIR/TRE-R242-TypeHabitation"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="01"/>
         <display value="Chambre double"/>

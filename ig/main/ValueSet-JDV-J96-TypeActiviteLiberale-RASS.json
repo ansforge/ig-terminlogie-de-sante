@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R24-TypeActiviteLiberale/FHIR/TRE-R24-TypeActiviteLiberale",
+      "version" : "20231215120000",
       "concept" : [{
         "code" : "ACT-LIB-01",
         "display" : "Cabinet primaire"

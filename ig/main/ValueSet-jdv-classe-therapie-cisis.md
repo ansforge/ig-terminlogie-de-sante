@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "6",
     "lastUpdated" : "2025-12-17T15:43:18.481+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2010-01-01T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2010-01-01T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-classe-therapie-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.143"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.143"
+  }],
   "version" : "20251216141840",
   "name" : "JdvClasseTherapieCisis",
   "title" : "JDV Classe Therapie CISIS",
@@ -85,48 +79,40 @@ Requête sur le SMT
   "date" : "2025-12-16T14:18:40+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Classe Therapie CISIS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "http://www.whocc.no/atc",
+      "concept" : [{
+        "code" : "L01XX",
+        "display" : "autres antinéoplasiques"
+      },
       {
-        "system" : "http://www.whocc.no/atc",
-        "concept" : [
-          {
-            "code" : "L01XX",
-            "display" : "autres antinéoplasiques"
-          },
-          {
-            "code" : "L01E",
-            "display" : "inhibiteurs de protéines kinases"
-          },
-          {
-            "code" : "L01EE",
-            "display" : "inhibiteurs de protéine kinase activée par un mitogène (MEK)"
-          },
-          {
-            "code" : "L01EX",
-            "display" : "autres inhibiteurs de protéines kinases"
-          },
-          {
-            "code" : "L01F",
-            "display" : "anticorps monoclonaux et conjugués anticorps-médicaments"
-          },
-          {
-            "code" : "L01FX",
-            "display" : "autres anticorps monoclonaux et conjugués anticorps-médicaments"
-          }
-        ]
-      }
-    ]
+        "code" : "L01E",
+        "display" : "inhibiteurs de protéines kinases"
+      },
+      {
+        "code" : "L01EE",
+        "display" : "inhibiteurs de protéine kinase activée par un mitogène (MEK)"
+      },
+      {
+        "code" : "L01EX",
+        "display" : "autres inhibiteurs de protéines kinases"
+      },
+      {
+        "code" : "L01F",
+        "display" : "anticorps monoclonaux et conjugués anticorps-médicaments"
+      },
+      {
+        "code" : "L01FX",
+        "display" : "autres anticorps monoclonaux et conjugués anticorps-médicaments"
+      }]
+    }]
   }
 }
 

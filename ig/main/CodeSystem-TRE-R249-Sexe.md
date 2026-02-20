@@ -31,25 +31,19 @@ Sexe
   "meta" : {
     "versionId" : "5",
     "lastUpdated" : "2025-07-02T18:16:36.845+00:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2018-01-26T12:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2018-01-26T12:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R249-Sexe/FHIR/TRE-R249-Sexe",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.2.53"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.2.53"
+  }],
   "version" : "20231215120000",
   "name" : "TRE_R249_Sexe",
   "status" : "active",
@@ -57,163 +51,143 @@ Sexe
   "date" : "2023-12-15T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Sexe",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "caseSensitive" : false,
   "content" : "complete",
-  "property" : [
-    {
+  "property" : [{
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "deprecationDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
+    "description" : "Date Concept was deprecated",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "status",
+    "uri" : "http://hl7.org/fhir/concept-properties#status",
+    "description" : "A property that indicates the status of the concept.",
+    "type" : "code"
+  },
+  {
+    "code" : "retirementDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
+    "description" : "Date Concept was retired",
+    "type" : "dateTime"
+  }],
+  "concept" : [{
+    "code" : "U",
+    "display" : "Inconnu",
+    "property" : [{
       "code" : "dateValid",
-      "description" : "date de validité d'un code concept",
-      "type" : "dateTime"
-    },
-    {
-      "code" : "dateMaj",
-      "description" : "Date de mise à jour d'un code concept",
-      "type" : "dateTime"
+      "valueDateTime" : "2018-01-26T12:00:00+01:00"
     },
     {
       "code" : "dateFin",
-      "description" : "Date de fin d'exploitation d'un code concept",
-      "type" : "dateTime"
+      "valueDateTime" : "2023-12-15T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2023-12-15T12:00:00+01:00"
     },
     {
       "code" : "deprecationDate",
-      "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
-      "description" : "Date Concept was deprecated",
-      "type" : "dateTime"
+      "valueDateTime" : "2023-12-15T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "uri" : "http://hl7.org/fhir/concept-properties#status",
-      "description" : "A property that indicates the status of the concept.",
-      "type" : "code"
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "UN",
+    "display" : "Inconnu",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2023-12-15T12:00:00+01:00"
     },
     {
-      "code" : "retirementDate",
-      "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
-      "description" : "Date Concept was retired",
-      "type" : "dateTime"
-    }
-  ],
-  "concept" : [
-    {
-      "code" : "U",
-      "display" : "Inconnu",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2018-01-26T12:00:00+01:00"
-        },
-        {
-          "code" : "dateFin",
-          "valueDateTime" : "2023-12-15T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2023-12-15T12:00:00+01:00"
-        },
-        {
-          "code" : "deprecationDate",
-          "valueDateTime" : "2023-12-15T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "deprecated"
-        }
-      ]
+      "code" : "dateMaj",
+      "valueDateTime" : "2023-12-15T12:00:00+01:00"
     },
     {
-      "code" : "UN",
-      "display" : "Inconnu",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2023-12-15T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2023-12-15T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "F",
+    "display" : "Féminin",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2018-01-26T12:00:00+01:00"
     },
     {
-      "code" : "F",
-      "display" : "Féminin",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2018-01-26T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2018-01-26T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "code" : "dateMaj",
+      "valueDateTime" : "2018-01-26T12:00:00+01:00"
     },
     {
-      "code" : "M",
-      "display" : "Masculin",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2018-01-26T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2018-01-26T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "M",
+    "display" : "Masculin",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2018-01-26T12:00:00+01:00"
     },
     {
-      "code" : "O",
-      "display" : "Autre sexe (ni masculin, ni féminin)",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Autre sexe ni M, ni F"
-        }
-      ],
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2018-02-28T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2018-12-14T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
-    }
-  ]
+      "code" : "dateMaj",
+      "valueDateTime" : "2018-01-26T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "O",
+    "display" : "Autre sexe (ni masculin, ni féminin)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Autre sexe ni M, ni F"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2018-02-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2018-12-14T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  }]
 }
 
 ```

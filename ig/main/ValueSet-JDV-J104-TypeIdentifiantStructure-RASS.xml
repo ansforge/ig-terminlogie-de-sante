@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_G07-TypeIdentifiantStructure/FHIR/TRE-G07-TypeIdentifiantStructure"/>
+      <version value="20240329120000"/>
       <concept>
         <code value="0"/>
         <display value="Id Cabinet ADELI"/>

@@ -264,7 +264,7 @@
                   displayName="Spectrophotométrie-dosage de substrat-bleu magon/bleu de xylidyle"/>
          <Concept code="DKF"
                   codeSystem="https://smt.esante.gouv.fr/terminologie-tccr"
-                  displayName="Spectrophotométrie-dosage de substrat-caféine benzoate &amp;quot;rose&amp;quot;"/>
+                  displayName="Spectrophotométrie-dosage de substrat-caféine benzoate &#34;rose&#34;"/>
          <Concept code="DKG"
                   codeSystem="https://smt.esante.gouv.fr/terminologie-tccr"
                   displayName="Spectrophotométrie-dosage de substrat-calmagite"/>

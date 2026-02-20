@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R24-TypeActiviteLiberale/FHIR/TRE-R24-TypeActiviteLiberale"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="ACT-LIB-01"/>
         <display value="Cabinet primaire"/>

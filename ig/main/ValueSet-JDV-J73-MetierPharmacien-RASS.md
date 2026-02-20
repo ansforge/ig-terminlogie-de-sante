@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "4",
     "lastUpdated" : "2025-07-02T17:06:46.260+00:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2019-07-05T12:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2019-07-05T12:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J73-MetierPharmacien-RASS/FHIR/JDV-J73-MetierPharmacien-RASS",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.6.1.141"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.6.1.141"
+  }],
   "version" : "20210528120000",
   "name" : "JDV_J73_MetierPharmacien_RASS",
   "status" : "active",
@@ -84,98 +78,89 @@ Requête sur le SMT
   "date" : "2021-05-28T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Ensemble des sections et sous-sections du tableau du CNOP dans le RASS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
-      {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R06-SectionTableauCNOP/FHIR/TRE-R06-SectionTableauCNOP",
-        "concept" : [
-          {
-            "code" : "A",
-            "display" : "Pharmacien titulaire d'officine"
-          },
-          {
-            "code" : "B",
-            "display" : "Pharmacien d'entreprise - industrie"
-          },
-          {
-            "code" : "C",
-            "display" : "Pharmacien d'entreprise - distribution"
-          },
-          {
-            "code" : "D",
-            "display" : "Pharmacien adjoint, remplaçant ou gérant"
-          },
-          {
-            "code" : "E",
-            "display" : "Pharmacien d'Outre-Mer"
-          }
-        ]
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R06-SectionTableauCNOP/FHIR/TRE-R06-SectionTableauCNOP",
+      "version" : "20231215120000",
+      "concept" : [{
+        "code" : "A",
+        "display" : "Pharmacien titulaire d'officine"
       },
       {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_G05-SousSectionTableauCNOP/FHIR/TRE-G05-SousSectionTableauCNOP",
-        "concept" : [
-          {
-            "code" : "DA",
-            "display" : "Pharmacien adjoint"
-          },
-          {
-            "code" : "DM",
-            "display" : "Pharmacien mutualiste ou minier"
-          },
-          {
-            "code" : "EA",
-            "display" : "Pharmacien titulaire d'officine - OM"
-          },
-          {
-            "code" : "EB",
-            "display" : "Pharmacien d'entreprise - industrie - OM"
-          },
-          {
-            "code" : "EC",
-            "display" : "Pharmacien d'entreprise - distribution - OM"
-          },
-          {
-            "code" : "ED",
-            "display" : "Pharmacien adjoint - OM"
-          },
-          {
-            "code" : "EG",
-            "display" : "Pharmacien biologiste - OM"
-          },
-          {
-            "code" : "EH",
-            "display" : "Pharmacien d'établissement de santé - OM"
-          }
-        ]
+        "code" : "B",
+        "display" : "Pharmacien d'entreprise - industrie"
       },
       {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R06-SectionTableauCNOP/FHIR/TRE-R06-SectionTableauCNOP",
-        "concept" : [
-          {
-            "code" : "G",
-            "display" : "Pharmacien biologiste"
-          },
-          {
-            "code" : "H",
-            "display" : "Pharmacien d'établissement de santé"
-          },
-          {
-            "code" : "M",
-            "display" : "Pharmacien militaire"
-          }
-        ]
-      }
-    ]
+        "code" : "C",
+        "display" : "Pharmacien d'entreprise - distribution"
+      },
+      {
+        "code" : "D",
+        "display" : "Pharmacien adjoint, remplaçant ou gérant"
+      },
+      {
+        "code" : "E",
+        "display" : "Pharmacien d'Outre-Mer"
+      }]
+    },
+    {
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_G05-SousSectionTableauCNOP/FHIR/TRE-G05-SousSectionTableauCNOP",
+      "version" : "20231215120000",
+      "concept" : [{
+        "code" : "DA",
+        "display" : "Pharmacien adjoint"
+      },
+      {
+        "code" : "DM",
+        "display" : "Pharmacien mutualiste ou minier"
+      },
+      {
+        "code" : "EA",
+        "display" : "Pharmacien titulaire d'officine - OM"
+      },
+      {
+        "code" : "EB",
+        "display" : "Pharmacien d'entreprise - industrie - OM"
+      },
+      {
+        "code" : "EC",
+        "display" : "Pharmacien d'entreprise - distribution - OM"
+      },
+      {
+        "code" : "ED",
+        "display" : "Pharmacien adjoint - OM"
+      },
+      {
+        "code" : "EG",
+        "display" : "Pharmacien biologiste - OM"
+      },
+      {
+        "code" : "EH",
+        "display" : "Pharmacien d'établissement de santé - OM"
+      }]
+    },
+    {
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R06-SectionTableauCNOP/FHIR/TRE-R06-SectionTableauCNOP",
+      "version" : "20231215120000",
+      "concept" : [{
+        "code" : "G",
+        "display" : "Pharmacien biologiste"
+      },
+      {
+        "code" : "H",
+        "display" : "Pharmacien d'établissement de santé"
+      },
+      {
+        "code" : "M",
+        "display" : "Pharmacien militaire"
+      }]
+    }]
   }
 }
 

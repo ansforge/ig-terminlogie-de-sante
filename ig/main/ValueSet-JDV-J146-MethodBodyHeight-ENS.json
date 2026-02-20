@@ -45,6 +45,7 @@
     },
     {
       "system" : "https://smt.esante.gouv.fr/terminologie-emdn",
+      "version" : "v1.2",
       "concept" : [{
         "code" : "V030201",
         "display" : "TOISES"

@@ -65,6 +65,7 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_A06-FormatCodeComplementaire/FHIR/TRE-A06-FormatCodeComplementaire"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_A06-FormatCodeComplementaire/FHIR/TRE-A06-FormatCodeComplementaire>
        ] ;
+       fhir:version [ fhir:v "20251029120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "urn:ans:ci-sis:bio-ep-bio:2022" ] ;
          fhir:display [ fhir:v "Prescription d'actes de biologie médicale" ]
@@ -212,6 +213,7 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_A11-IheFormatCode/FHIR/TRE-A11-IheFormatCode"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_A11-IheFormatCode/FHIR/TRE-A11-IheFormatCode>
        ] ;
+       fhir:version [ fhir:v "20240426120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "urn:ihe:iti:dsg:detached:2014" ] ;
          fhir:display [ fhir:v "Signature détachée" ]
@@ -257,6 +259,7 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_A09-DICOMuidRegistry/FHIR/TRE-A09-DICOMuidRegistry"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_A09-DICOMuidRegistry/FHIR/TRE-A09-DICOMuidRegistry>
        ] ;
+       fhir:version [ fhir:v "20231215120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "1.2.840.10008.5.1.4.1.1.88.59" ] ;
          fhir:display [ fhir:v "Document Références d'objets d'un examen d'imagerie selon profil IHE RAD XDS-I" ]
@@ -266,6 +269,7 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_A10-NomenclatureURN/FHIR/TRE-A10-NomenclatureURN"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_A10-NomenclatureURN/FHIR/TRE-A10-NomenclatureURN>
        ] ;
+       fhir:version [ fhir:v "20231215120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "http://www.w3.org/2000/09/xmldsig#" ] ;
          fhir:display [ fhir:v "Default signature style" ]

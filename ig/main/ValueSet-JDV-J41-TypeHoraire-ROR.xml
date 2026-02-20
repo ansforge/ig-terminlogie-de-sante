@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R252-TypeHoraire/FHIR/TRE-R252-TypeHoraire"/>
+      <version value="20241025120000"/>
       <concept>
         <code value="01"/>
         <display value="Horaire d'ouverture"/>

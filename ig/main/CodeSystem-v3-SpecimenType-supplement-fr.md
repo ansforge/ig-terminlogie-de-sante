@@ -34,411 +34,345 @@ Traduction Française
   "experimental" : true,
   "date" : "2025-10-24T16:40:38+11:00",
   "description" : "Traduction Française",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "content" : "supplement",
   "supplements" : "http://terminology.hl7.org/CodeSystem/v3-SpecimenType|3.0.0",
-  "concept" : [
-    {
-      "code" : "BLDC",
-      "display" : "Sang capillaire",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Sang capillaire"
-        }
-      ]
-    },
-    {
-      "code" : "BRO",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Prélèvement bronchique"
-        }
-      ]
-    },
-    {
-      "code" : "CRN",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Cornée"
-        }
-      ]
-    },
-    {
-      "code" : "CVX",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Col de l’utérus"
-        }
-      ]
-    },
-    {
-      "code" : "DOSE",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Posologie (médicament ou substance)"
-        }
-      ]
-    },
-    {
-      "code" : "EAR",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Oreille"
-        }
-      ]
-    },
-    {
-      "code" : "ENDC",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Endocarde"
-        }
-      ]
-    },
-    {
-      "code" : "ENDM",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Endomètre"
-        }
-      ]
-    },
-    {
-      "code" : "EYE",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Oeil"
-        }
-      ]
-    },
-    {
-      "code" : "FOOD",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Aliment"
-        }
-      ]
-    },
-    {
-      "code" : "GEN",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Prélèvement génitaux"
-        }
-      ]
-    },
-    {
-      "code" : "GENC",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Prélèvement cervico-vaginal"
-        }
-      ]
-    },
-    {
-      "code" : "GENF",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Sécrétions des organes génitaux"
-        }
-      ]
-    },
-    {
-      "code" : "LAM",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Lame"
-        }
-      ]
-    },
-    {
-      "code" : "LN",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Ponction"
-        }
-      ]
-    },
-    {
-      "code" : "NOS",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Prélèvement nasopharyngée"
-        }
-      ]
-    },
-    {
-      "code" : "PAT",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Patient"
-        }
-      ]
-    },
-    {
-      "code" : "PRT",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Liquide péritonéal"
-        }
-      ]
-    },
-    {
-      "code" : "SKM",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Muscle squelettique"
-        }
-      ]
-    },
-    {
-      "code" : "SMPLS",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Plasma séminal"
-        }
-      ]
-    },
-    {
-      "code" : "THRT",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Gorge"
-        }
-      ]
-    },
-    {
-      "code" : "TISG",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Vésicule biliaire"
-        }
-      ]
-    },
-    {
-      "code" : "TISPL",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Trophoblastes"
-        }
-      ]
-    },
-    {
-      "code" : "TLGI",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Gros intestin"
-        }
-      ]
-    },
-    {
-      "code" : "TLNG",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Tissu pulmonaire"
-        }
-      ]
-    },
-    {
-      "code" : "TSMI",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Intestin grêle"
-        }
-      ]
-    },
-    {
-      "code" : "TUB",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Tube"
-        }
-      ]
-    },
-    {
-      "code" : "ULC",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Ulcère"
-        }
-      ]
-    },
-    {
-      "code" : "UMB",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Sang de cordon ombilical"
-        }
-      ]
-    },
-    {
-      "code" : "URTH",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Urètre"
-        }
-      ]
-    }
-  ]
+  "concept" : [{
+    "code" : "BLDC",
+    "display" : "Sang capillaire",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Sang capillaire"
+    }]
+  },
+  {
+    "code" : "BRO",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Prélèvement bronchique"
+    }]
+  },
+  {
+    "code" : "CRN",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Cornée"
+    }]
+  },
+  {
+    "code" : "CVX",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Col de l’utérus"
+    }]
+  },
+  {
+    "code" : "DOSE",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Posologie (médicament ou substance)"
+    }]
+  },
+  {
+    "code" : "EAR",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Oreille"
+    }]
+  },
+  {
+    "code" : "ENDC",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Endocarde"
+    }]
+  },
+  {
+    "code" : "ENDM",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Endomètre"
+    }]
+  },
+  {
+    "code" : "EYE",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Oeil"
+    }]
+  },
+  {
+    "code" : "FOOD",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Aliment"
+    }]
+  },
+  {
+    "code" : "GEN",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Prélèvement génitaux"
+    }]
+  },
+  {
+    "code" : "GENC",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Prélèvement cervico-vaginal"
+    }]
+  },
+  {
+    "code" : "GENF",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Sécrétions des organes génitaux"
+    }]
+  },
+  {
+    "code" : "LAM",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Lame"
+    }]
+  },
+  {
+    "code" : "LN",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Ponction"
+    }]
+  },
+  {
+    "code" : "NOS",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Prélèvement nasopharyngée"
+    }]
+  },
+  {
+    "code" : "PAT",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Patient"
+    }]
+  },
+  {
+    "code" : "PRT",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Liquide péritonéal"
+    }]
+  },
+  {
+    "code" : "SKM",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Muscle squelettique"
+    }]
+  },
+  {
+    "code" : "SMPLS",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Plasma séminal"
+    }]
+  },
+  {
+    "code" : "THRT",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Gorge"
+    }]
+  },
+  {
+    "code" : "TISG",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Vésicule biliaire"
+    }]
+  },
+  {
+    "code" : "TISPL",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Trophoblastes"
+    }]
+  },
+  {
+    "code" : "TLGI",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Gros intestin"
+    }]
+  },
+  {
+    "code" : "TLNG",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Tissu pulmonaire"
+    }]
+  },
+  {
+    "code" : "TSMI",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Intestin grêle"
+    }]
+  },
+  {
+    "code" : "TUB",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Tube"
+    }]
+  },
+  {
+    "code" : "ULC",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Ulcère"
+    }]
+  },
+  {
+    "code" : "UMB",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Sang de cordon ombilical"
+    }]
+  },
+  {
+    "code" : "URTH",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Urètre"
+    }]
+  }]
 }
 
 ```

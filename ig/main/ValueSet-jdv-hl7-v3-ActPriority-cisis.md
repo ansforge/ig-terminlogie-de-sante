@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "6",
     "lastUpdated" : "2025-12-17T15:42:36.624+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2010-01-01T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2010-01-01T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActPriority-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:2.16.840.1.113883.1.11.16866"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:2.16.840.1.113883.1.11.16866"
+  }],
   "version" : "20251216141839",
   "name" : "ActPriority",
   "title" : "ActPriority",
@@ -85,72 +79,65 @@ Requête sur le SMT
   "date" : "2025-12-16T14:18:39+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "ActPriority",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-ActPriority",
+      "version" : "3.0.0",
+      "concept" : [{
+        "code" : "A",
+        "display" : "Aussi vite que possible"
+      },
       {
-        "system" : "http://terminology.hl7.org/CodeSystem/v3-ActPriority",
-        "concept" : [
-          {
-            "code" : "A",
-            "display" : "Aussi vite que possible"
-          },
-          {
-            "code" : "CR",
-            "display" : "A contacter dès que les résultats sont disponibles"
-          },
-          {
-            "code" : "EL",
-            "display" : "Bénéfique pour le patient mais pas essentiel pour sa survie"
-          },
-          {
-            "code" : "EM",
-            "display" : "Très urgent"
-          },
-          {
-            "code" : "P",
-            "display" : "A réaliser avant l'intervention"
-          },
-          {
-            "code" : "PRN",
-            "display" : "Si nécessaire"
-          },
-          {
-            "code" : "R",
-            "display" : "A réaliser aux heures ouvrées"
-          },
-          {
-            "code" : "RR",
-            "display" : "Compte-rendu urgent"
-          },
-          {
-            "code" : "S",
-            "display" : "Immédiatement"
-          },
-          {
-            "code" : "T",
-            "display" : "Plannification à respecter"
-          },
-          {
-            "code" : "UD",
-            "display" : "Médicament à utiliser selon les directives du prescripteur"
-          },
-          {
-            "code" : "UR",
-            "display" : "Urgent"
-          }
-        ]
-      }
-    ]
+        "code" : "CR",
+        "display" : "A contacter dès que les résultats sont disponibles"
+      },
+      {
+        "code" : "EL",
+        "display" : "Bénéfique pour le patient mais pas essentiel pour sa survie"
+      },
+      {
+        "code" : "EM",
+        "display" : "Très urgent"
+      },
+      {
+        "code" : "P",
+        "display" : "A réaliser avant l'intervention"
+      },
+      {
+        "code" : "PRN",
+        "display" : "Si nécessaire"
+      },
+      {
+        "code" : "R",
+        "display" : "A réaliser aux heures ouvrées"
+      },
+      {
+        "code" : "RR",
+        "display" : "Compte-rendu urgent"
+      },
+      {
+        "code" : "S",
+        "display" : "Immédiatement"
+      },
+      {
+        "code" : "T",
+        "display" : "Plannification à respecter"
+      },
+      {
+        "code" : "UD",
+        "display" : "Médicament à utiliser selon les directives du prescripteur"
+      },
+      {
+        "code" : "UR",
+        "display" : "Urgent"
+      }]
+    }]
   }
 }
 

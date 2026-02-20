@@ -33,6 +33,8 @@ Requête sur le SMT
 
 ### Expansion
 
+No Expansion for this valueset (not supported by Publication Tooling)
+
 -------
 
  Explanation of the columns that may appear on this page: 
@@ -57,26 +59,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "6",
     "lastUpdated" : "2025-12-17T15:47:10.359+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2010-01-01T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2010-01-01T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-symptome-avc-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.157"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.157"
+  }],
   "version" : "20251216141840",
   "name" : "JdvSymptomeAvcCisis",
   "title" : "JDV Symptome Avc CISIS",
@@ -85,45 +81,36 @@ Requête sur le SMT
   "date" : "2025-12-16T14:18:40+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Symptome Avc CISIS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
-      {
-        "system" : "http://hl7.org/fhir/sid/icd-10",
-        "concept" : [
-          {
-            "code" : "G25.9",
-            "display" : "Syndrome extrapyramidal et trouble de la motricité, sans précision"
-          },
-          {
-            "code" : "R27.0",
-            "display" : "Ataxie, sans précision"
-          },
-          {
-            "code" : "H53.9",
-            "display" : "Trouble de la vision, sans précision"
-          }
-        ]
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "concept" : [{
+        "code" : "G25.9",
+        "display" : "Syndrome extrapyramidal et trouble de la motricité, sans précision"
       },
       {
-        "system" : "http://snomed.info/sct",
-        "concept" : [
-          {
-            "code" : "85972008",
-            "display" : "trouble sensoriel"
-          }
-        ]
-      }
-    ]
+        "code" : "R27.0",
+        "display" : "Ataxie, sans précision"
+      },
+      {
+        "code" : "H53.9",
+        "display" : "Trouble de la vision, sans précision"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/900000000000207008/version/20260201",
+      "concept" : [{
+        "code" : "85972008",
+        "display" : "trouble sensoriel"
+      }]
+    }]
   }
 }
 

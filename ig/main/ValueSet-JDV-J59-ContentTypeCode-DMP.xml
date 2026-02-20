@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_A00-ProducteurDocNonPS/FHIR/TRE-A00-ProducteurDocNonPS"/>
+      <version value="20240329120000"/>
       <concept>
         <code value="EXP_PATIENT"/>
         <display value="Expression personnelle du patient"/>
@@ -44,6 +45,7 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite"/>
+      <version value="20240329120000"/>
       <concept>
         <code value="05"/>
         <display value="Hospitalisation à domicile (au domicile du patient)"/>
@@ -59,6 +61,7 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R209-TypeActivite/FHIR/TRE-R209-TypeActivite"/>
+      <version value="20240223120000"/>
       <concept>
         <code value="03"/>
         <display value="Hospitalisation complète (non compris hospitalisation de semaine)"/>
@@ -198,6 +201,7 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite"/>
+      <version value="20250523120000"/>
       <concept>
         <code value="SA05"/>
         <display value="Centre de santé"/>

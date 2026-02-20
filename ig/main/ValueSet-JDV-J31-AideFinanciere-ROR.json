@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R241-AideFinanciere/FHIR/TRE-R241-AideFinanciere",
+      "version" : "20231215120000",
       "concept" : [{
         "code" : "01",
         "display" : "Conventionné aides au logement"

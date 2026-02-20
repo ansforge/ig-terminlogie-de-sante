@@ -65,6 +65,7 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R22-GenreActivite/FHIR/TRE-R22-GenreActivite"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R22-GenreActivite/FHIR/TRE-R22-GenreActivite>
        ] ;
+       fhir:version [ fhir:v "20240329120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "GENR01" ] ;
          fhir:display [ fhir:v "Activité de soin et de pharmacie" ]

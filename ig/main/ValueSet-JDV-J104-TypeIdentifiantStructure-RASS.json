@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_G07-TypeIdentifiantStructure/FHIR/TRE-G07-TypeIdentifiantStructure",
+      "version" : "20240329120000",
       "concept" : [{
         "code" : "0",
         "display" : "Id Cabinet ADELI"

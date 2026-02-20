@@ -34,111 +34,91 @@ Traduction Française
   "experimental" : true,
   "date" : "2025-10-24T16:40:38+11:00",
   "description" : "Traduction Française",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "content" : "supplement",
   "supplements" : "http://terminology.hl7.org/CodeSystem/v3-ActStatus|3.0.0",
-  "concept" : [
-    {
-      "code" : "aborted",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Arrêté (après son lancement)"
-        }
-      ]
-    },
-    {
-      "code" : "active",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Actif (en cours ou à venir)"
-        }
-      ]
-    },
-    {
-      "code" : "cancelled",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Annulé (avant son lancement)"
-        }
-      ]
-    },
-    {
-      "code" : "completed",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Terminé"
-        }
-      ]
-    },
-    {
-      "code" : "held",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "En attente (avant son lancement)"
-        }
-      ]
-    },
-    {
-      "code" : "new",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "En préparation"
-        }
-      ]
-    },
-    {
-      "code" : "suspended",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Suspendu (au cours de sa réalisation)"
-        }
-      ]
-    }
-  ]
+  "concept" : [{
+    "code" : "aborted",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Arrêté (après son lancement)"
+    }]
+  },
+  {
+    "code" : "active",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Actif (en cours ou à venir)"
+    }]
+  },
+  {
+    "code" : "cancelled",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Annulé (avant son lancement)"
+    }]
+  },
+  {
+    "code" : "completed",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Terminé"
+    }]
+  },
+  {
+    "code" : "held",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "En attente (avant son lancement)"
+    }]
+  },
+  {
+    "code" : "new",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "En préparation"
+    }]
+  },
+  {
+    "code" : "suspended",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Suspendu (au cours de sa réalisation)"
+    }]
+  }]
 }
 
 ```

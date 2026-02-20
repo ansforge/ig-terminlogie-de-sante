@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R54-DiplomeUniversiteInterUniversitaire/FHIR/TRE-R54-DiplomeUniversiteInterUniversitaire"/>
+      <version value="20240726120000"/>
       <concept>
         <code value="DIP02"/>
         <display value="Doctorat de 3ème cycle sciences Odontologiques"/>
@@ -792,6 +793,7 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R58-AutreTypeDiplome/FHIR/TRE-R58-AutreTypeDiplome"/>
+      <version value="20251222120000"/>
       <concept>
         <code value="DIP03"/>
         <display value="Diplôme d'habilitation à diriger des recherches"/>
@@ -1159,6 +1161,7 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R55-CertificatEtudeSpeciale/FHIR/TRE-R55-CertificatEtudeSpeciale"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="CESC01"/>
         <display value="CES Biologie de la bouche, option Histo-embryologique"/>
@@ -1366,6 +1369,7 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R56-Attestation/FHIR/TRE-R56-Attestation"/>
+      <version value="20240329120000"/>
       <concept>
         <code value="DIP24"/>
         <display value="Attestation études Léprologie"/>
@@ -1433,6 +1437,7 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R57-DiplomeEuropeenEtudeSpecialisee/FHIR/TRE-R57-DiplomeEuropeenEtudeSpecialisee"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="DIP94"/>
         <display value="DEES Allergologie"/>
@@ -1756,6 +1761,7 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R226-Dip2iemeCycleNQ/FHIR/TRE-R226-Dip2iemeCycleNQ"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="DFASO"/>
         <display value="Dip de Formation approfondie Sc odontologiques"/>
@@ -1767,6 +1773,7 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R36-AutreDiplomeObtenu/FHIR/TRE-R36-AutreDiplomeObtenu"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="AUT001"/>
         <display value="Diplôme Université Kabul (Afghanistan)"/>
@@ -2138,6 +2145,7 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R48-DiplomeEtatFrancais/FHIR/TRE-R48-DiplomeEtatFrancais"/>
+      <version value="20250425120000"/>
       <concept>
         <code value="DE01"/>
         <display value="DE Pharmacien"/>
@@ -2265,6 +2273,7 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R49-DiplomeEtudeSpecialisee/FHIR/TRE-R49-DiplomeEtudeSpecialisee"/>
+      <version value="20240531120000"/>
       <concept>
         <code value="DSD01"/>
         <display value="DES Orthopédie Dento-Faciale"/>
@@ -2724,6 +2733,7 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R50-DESCGroupe1Diplome/FHIR/TRE-R50-DESCGroupe1Diplome"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="DSM200"/>
         <display value="Addictologie"/>
@@ -2903,6 +2913,7 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R51-DESCGroupe2Diplome/FHIR/TRE-R51-DESCGroupe2Diplome"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="DSM400"/>
         <display value="DESC2 Chirurgie infantile"/>
@@ -2954,6 +2965,7 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R52-CapaciteDiplome/FHIR/TRE-R52-CapaciteDiplome"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="CAPA01"/>
         <display value="Addictologie clinique"/>
@@ -3025,6 +3037,7 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R53-DiplomePaysEEE/FHIR/TRE-R53-DiplomePaysEEE"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="DE80"/>
         <display value="Diplôme éq d'un pays de l'EEE profession Médecin"/>
@@ -3060,6 +3073,7 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R348-FormationSpecialiseeTransversale/FHIR/TRE-R348-FormationSpecialiseeTransversale"/>
+      <version value="20251222120000"/>
       <concept>
         <code value="FST01"/>
         <display value="FST Addictologie"/>

@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "6",
     "lastUpdated" : "2025-12-17T15:42:45.284+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2021-12-22T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2021-12-22T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-absent-or-unknown-allergy-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.661"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.661"
+  }],
   "version" : "20251216141838",
   "name" : "JdvAbsentOrUnknownAllergyCisis",
   "title" : "JDV Absent Or Unknown Allergy CISIS",
@@ -85,44 +79,37 @@ Requête sur le SMT
   "date" : "2025-12-16T14:18:38+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Absent Or Unknown Allergy CISIS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips",
+      "version" : "1.1.0",
+      "concept" : [{
+        "code" : "no-allergy-info",
+        "display" : "Pas d’information sur les allergies/hypersensibilités"
+      },
       {
-        "system" : "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips",
-        "concept" : [
-          {
-            "code" : "no-allergy-info",
-            "display" : "Pas d’information sur les allergies/hypersensibilités"
-          },
-          {
-            "code" : "no-known-allergies",
-            "display" : "Pas d'allergie/hypersensibilité connue"
-          },
-          {
-            "code" : "no-known-medication-allergies",
-            "display" : "Pas d'allergie médicamenteuse connue"
-          },
-          {
-            "code" : "no-known-environmental-allergies",
-            "display" : "Pas d'allergie environnementale connue"
-          },
-          {
-            "code" : "no-known-food-allergies",
-            "display" : "Pas d'allergie alimentaire connue"
-          }
-        ]
-      }
-    ]
+        "code" : "no-known-allergies",
+        "display" : "Pas d'allergie/hypersensibilité connue"
+      },
+      {
+        "code" : "no-known-medication-allergies",
+        "display" : "Pas d'allergie médicamenteuse connue"
+      },
+      {
+        "code" : "no-known-environmental-allergies",
+        "display" : "Pas d'allergie environnementale connue"
+      },
+      {
+        "code" : "no-known-food-allergies",
+        "display" : "Pas d'allergie alimentaire connue"
+      }]
+    }]
   }
 }
 

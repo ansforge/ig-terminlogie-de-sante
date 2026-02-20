@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R04-TypeSavoirFaire/FHIR/TRE-R04-TypeSavoirFaire",
+      "version" : "20251016120000",
       "concept" : [{
         "code" : "C",
         "display" : "Compétence de médecine"

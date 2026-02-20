@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture"/>
+      <version value="20251016120000"/>
       <concept>
         <code value="DEF"/>
         <display value="Définitive"/>

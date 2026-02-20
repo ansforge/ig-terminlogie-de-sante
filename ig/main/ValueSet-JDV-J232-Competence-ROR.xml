@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R39-Competence/FHIR/TRE-R39-Competence"/>
+      <version value="20240628120000"/>
       <concept>
         <code value="C01"/>
         <display value="Anatomie et Cytologie pathologiques humaines (C)"/>

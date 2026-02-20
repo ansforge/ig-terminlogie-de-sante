@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "5",
     "lastUpdated" : "2025-12-17T15:48:04.428+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2010-01-01T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2010-01-01T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-resultat-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.147"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.147"
+  }],
   "version" : "20251216141840",
   "name" : "JdvTypeResultatCisis",
   "title" : "JDV Type Resultat CISIS",
@@ -85,44 +79,37 @@ Requête sur le SMT
   "date" : "2025-12-16T14:18:40+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Type Resultat CISIS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "version" : "202512170000",
+      "concept" : [{
+        "code" : "MED-536",
+        "display" : "Variants dont l’impact clinique est connu."
+      },
       {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "MED-536",
-            "display" : "Variants dont l’impact clinique est connu."
-          },
-          {
-            "code" : "MED-537",
-            "display" : "Variants à discuter en RCP moléculaire."
-          },
-          {
-            "code" : "MED-538",
-            "display" : "Variants dont la valeur prédictive est inconnue."
-          },
-          {
-            "code" : "MED-539",
-            "display" : "Gène(s) pour le(s)quel(s) aucune anomalie n’a été trouvée."
-          },
-          {
-            "code" : "MED-540",
-            "display" : "Résultat non interprétable."
-          }
-        ]
-      }
-    ]
+        "code" : "MED-537",
+        "display" : "Variants à discuter en RCP moléculaire."
+      },
+      {
+        "code" : "MED-538",
+        "display" : "Variants dont la valeur prédictive est inconnue."
+      },
+      {
+        "code" : "MED-539",
+        "display" : "Gène(s) pour le(s)quel(s) aucune anomalie n’a été trouvée."
+      },
+      {
+        "code" : "MED-540",
+        "display" : "Résultat non interprétable."
+      }]
+    }]
   }
 }
 

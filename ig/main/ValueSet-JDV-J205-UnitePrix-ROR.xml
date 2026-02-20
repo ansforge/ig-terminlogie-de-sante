@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R228-UnitePrix/FHIR/TRE-R228-UnitePrix"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="1"/>
         <display value="Tarif horaire"/>

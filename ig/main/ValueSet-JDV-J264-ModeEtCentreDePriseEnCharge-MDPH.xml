@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R213-ModePriseEnCharge/FHIR/TRE-R213-ModePriseEnCharge"/>
+      <version value="20251222120000"/>
       <concept>
         <code value="46"/>
         <display value="Hébergement (accueil jour et nuit)"/>
@@ -52,6 +53,7 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement"/>
+      <version value="20251222120000"/>
       <concept>
         <code value="238"/>
         <display value="Centre d'Accueil Familial Spécialisé"/>

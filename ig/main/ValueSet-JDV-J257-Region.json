@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM",
+      "version" : "20240628120000",
       "concept" : [{
         "code" : "01",
         "display" : "Guadeloupe"

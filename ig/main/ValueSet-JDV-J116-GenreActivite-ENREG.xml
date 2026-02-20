@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R22-GenreActivite/FHIR/TRE-R22-GenreActivite"/>
+      <version value="20240329120000"/>
       <concept>
         <code value="GENR01"/>
         <display value="Activité de soin et de pharmacie"/>

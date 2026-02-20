@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R201-TypeDivisionTerritoriale/FHIR/TRE-R201-TypeDivisionTerritoriale"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="1"/>
         <display value="Région"/>

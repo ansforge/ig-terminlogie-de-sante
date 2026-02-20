@@ -59,27 +59,21 @@ Expansions are not generated for retired value sets
   "meta" : {
     "versionId" : "8",
     "lastUpdated" : "2025-12-18T16:47:38.914+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2021-04-30T12:00:00+01:00",
-        "end" : "2025-01-31T12:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2021-04-30T12:00:00+01:00",
+      "end" : "2025-01-31T12:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J148-ReferenceRangeAppliesTo-CISIS/FHIR/JDV-J148-ReferenceRangeAppliesTo-CISIS",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.603"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.603"
+  }],
   "version" : "20250131120000",
   "name" : "JDV_J148_ReferenceRangeAppliesTo_CISIS",
   "status" : "retired",
@@ -87,40 +81,32 @@ Expansions are not generated for retired value sets
   "date" : "2025-01-31T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV pour le champ d'application de l'intervalle de référence",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
-      {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R303-HL7v3AdministrativeGender/FHIR/TRE-R303-HL7v3AdministrativeGender",
-        "concept" : [
-          {
-            "code" : "F",
-            "display" : "Féminin"
-          },
-          {
-            "code" : "M",
-            "display" : "Masculin"
-          }
-        ]
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R303-HL7v3AdministrativeGender/FHIR/TRE-R303-HL7v3AdministrativeGender",
+      "version" : "20231215120000",
+      "concept" : [{
+        "code" : "F",
+        "display" : "Féminin"
       },
       {
-        "system" : "http://snomed.info/sct",
-        "concept" : [
-          {
-            "code" : "77386006"
-          }
-        ]
-      }
-    ]
+        "code" : "M",
+        "display" : "Masculin"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/900000000000207008/version/20260201",
+      "concept" : [{
+        "code" : "77386006"
+      }]
+    }]
   }
 }
 

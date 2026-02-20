@@ -33,6 +33,8 @@ Requête sur le SMT
 
 ### Expansion
 
+No Expansion for this valueset (not supported by Publication Tooling)
+
 -------
 
  Explanation of the columns that may appear on this page: 
@@ -57,26 +59,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "6",
     "lastUpdated" : "2025-12-17T15:43:55.655+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2023-08-03T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2023-08-03T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-etat-perinee-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.734"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.734"
+  }],
   "version" : "20251216141839",
   "name" : "JdvEtatPerineeCisis",
   "title" : "JDV Etat Perinee CISIS",
@@ -85,53 +81,44 @@ Requête sur le SMT
   "date" : "2025-12-16T14:18:39+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Etat Perinee CISIS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
-      {
-        "system" : "http://hl7.org/fhir/sid/icd-10",
-        "concept" : [
-          {
-            "code" : "O70.0",
-            "display" : "Déchirure obstétricale du périnée, du premier degré"
-          },
-          {
-            "code" : "O70.1",
-            "display" : "Déchirure obstétricale du périnée, du deuxième degré"
-          },
-          {
-            "code" : "O70.2",
-            "display" : "Déchirure obstétricale du périnée, du troisième degré"
-          },
-          {
-            "code" : "O70.3",
-            "display" : "Déchirure obstétricale du périnée, du quatrième degré"
-          }
-        ]
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "concept" : [{
+        "code" : "O70.0",
+        "display" : "Déchirure obstétricale du périnée, du premier degré"
       },
       {
-        "system" : "http://snomed.info/sct",
-        "concept" : [
-          {
-            "code" : "289854007",
-            "display" : "périnée intact"
-          },
-          {
-            "code" : "860603002",
-            "display" : "plaie d'épisiotomie"
-          }
-        ]
-      }
-    ]
+        "code" : "O70.1",
+        "display" : "Déchirure obstétricale du périnée, du deuxième degré"
+      },
+      {
+        "code" : "O70.2",
+        "display" : "Déchirure obstétricale du périnée, du troisième degré"
+      },
+      {
+        "code" : "O70.3",
+        "display" : "Déchirure obstétricale du périnée, du quatrième degré"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/900000000000207008/version/20260201",
+      "concept" : [{
+        "code" : "289854007",
+        "display" : "périnée intact"
+      },
+      {
+        "code" : "860603002",
+        "display" : "plaie d'épisiotomie"
+      }]
+    }]
   }
 }
 

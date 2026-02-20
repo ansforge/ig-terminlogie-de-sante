@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R44-QualificationPAC/FHIR/TRE-R44-QualificationPAC",
+      "version" : "20231215120000",
       "concept" : [{
         "code" : "PAC00",
         "display" : "Qualification Praticien adjoint contractuel (PAC)"

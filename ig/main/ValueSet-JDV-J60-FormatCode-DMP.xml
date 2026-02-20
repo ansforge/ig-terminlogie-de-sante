@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_A06-FormatCodeComplementaire/FHIR/TRE-A06-FormatCodeComplementaire"/>
+      <version value="20251029120000"/>
       <concept>
         <code value="urn:ans:ci-sis:bio-ep-bio:2022"/>
         <display value="Prescription d'actes de biologie médicale"/>
@@ -228,6 +229,7 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_A11-IheFormatCode/FHIR/TRE-A11-IheFormatCode"/>
+      <version value="20240426120000"/>
       <concept>
         <code value="urn:ihe:iti:dsg:detached:2014"/>
         <display value="Signature détachée"/>
@@ -283,6 +285,7 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_A09-DICOMuidRegistry/FHIR/TRE-A09-DICOMuidRegistry"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="1.2.840.10008.5.1.4.1.1.88.59"/>
         <display value="Document Références d'objets d'un examen d'imagerie selon profil IHE RAD XDS-I"/>
@@ -290,6 +293,7 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_A10-NomenclatureURN/FHIR/TRE-A10-NomenclatureURN"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="http://www.w3.org/2000/09/xmldsig#"/>
         <display value="Default signature style"/>

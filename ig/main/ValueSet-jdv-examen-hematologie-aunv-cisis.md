@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "6",
     "lastUpdated" : "2025-12-17T15:44:09.489+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2010-01-01T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2010-01-01T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-examen-hematologie-aunv-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.193"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.193"
+  }],
   "version" : "20251216141839",
   "name" : "JdvExamenHematologieAunvCisis",
   "title" : "JDV Examen Hematologie Aunv CISIS",
@@ -85,76 +79,68 @@ Requête sur le SMT
   "date" : "2025-12-16T14:18:39+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Examen Hematologie Aunv CISIS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "789-8",
+        "display" : "Érythrocytes [Nombre/Volume] Sang ; Numérique ; Comptage automate"
+      },
       {
-        "system" : "http://loinc.org",
-        "concept" : [
-          {
-            "code" : "789-8",
-            "display" : "Érythrocytes [Nombre/Volume] Sang ; Numérique ; Comptage automate"
-          },
-          {
-            "code" : "718-7",
-            "display" : "Hémoglobine [Masse/Volume] Sang ; Numérique"
-          },
-          {
-            "code" : "4544-3",
-            "display" : "Hématocrite [Fraction volumique] Sang ; Numérique ; Comptage automate"
-          },
-          {
-            "code" : "30428-7",
-            "display" : "Volume globulaire moyen [Volume d'entité] Érythrocytes ; Numérique"
-          },
-          {
-            "code" : "28540-3",
-            "display" : "Concentration corpusculaire moyenne en hémoglobine [Masse/Volume] Érythrocytes ; Numérique"
-          },
-          {
-            "code" : "28539-5",
-            "display" : "Teneur corpusculaire moyenne en hémoglobine [Masse d'entité] Érythrocytes ; Numérique"
-          },
-          {
-            "code" : "777-3",
-            "display" : "Plaquettes [Nombre/Volume] Sang ; Numérique ; Comptage automate"
-          },
-          {
-            "code" : "6690-2",
-            "display" : "Leucocytes [Nombre/Volume] Sang ; Numérique ; Comptage automate"
-          },
-          {
-            "code" : "26511-6",
-            "display" : "Polynucléaires neutrophiles/100 leucocytes [Fraction de nombres] Sang ; Numérique"
-          },
-          {
-            "code" : "26450-7",
-            "display" : "Polynucléaires éosinophiles/100 leucocytes [Fraction de nombres] Sang ; Numérique"
-          },
-          {
-            "code" : "30180-4",
-            "display" : "Polynucléaires basophiles/100 leucocytes [Fraction de nombres] Sang ; Numérique"
-          },
-          {
-            "code" : "26478-8",
-            "display" : "Lymphocytes totaux/100 leucocytes [Fraction de nombres] Sang ; Numérique"
-          },
-          {
-            "code" : "26485-3",
-            "display" : "Monocytes/100 leucocytes [Fraction de nombres] Sang ; Numérique"
-          }
-        ]
-      }
-    ]
+        "code" : "718-7",
+        "display" : "Hémoglobine [Masse/Volume] Sang ; Numérique"
+      },
+      {
+        "code" : "4544-3",
+        "display" : "Hématocrite [Fraction volumique] Sang ; Numérique ; Comptage automate"
+      },
+      {
+        "code" : "30428-7",
+        "display" : "Volume globulaire moyen [Volume d'entité] Érythrocytes ; Numérique"
+      },
+      {
+        "code" : "28540-3",
+        "display" : "Concentration corpusculaire moyenne en hémoglobine [Masse/Volume] Érythrocytes ; Numérique"
+      },
+      {
+        "code" : "28539-5",
+        "display" : "Teneur corpusculaire moyenne en hémoglobine [Masse d'entité] Érythrocytes ; Numérique"
+      },
+      {
+        "code" : "777-3",
+        "display" : "Plaquettes [Nombre/Volume] Sang ; Numérique ; Comptage automate"
+      },
+      {
+        "code" : "6690-2",
+        "display" : "Leucocytes [Nombre/Volume] Sang ; Numérique ; Comptage automate"
+      },
+      {
+        "code" : "26511-6",
+        "display" : "Polynucléaires neutrophiles/100 leucocytes [Fraction de nombres] Sang ; Numérique"
+      },
+      {
+        "code" : "26450-7",
+        "display" : "Polynucléaires éosinophiles/100 leucocytes [Fraction de nombres] Sang ; Numérique"
+      },
+      {
+        "code" : "30180-4",
+        "display" : "Polynucléaires basophiles/100 leucocytes [Fraction de nombres] Sang ; Numérique"
+      },
+      {
+        "code" : "26478-8",
+        "display" : "Lymphocytes totaux/100 leucocytes [Fraction de nombres] Sang ; Numérique"
+      },
+      {
+        "code" : "26485-3",
+        "display" : "Monocytes/100 leucocytes [Fraction de nombres] Sang ; Numérique"
+      }]
+    }]
   }
 }
 

@@ -33,6 +33,8 @@ Requête sur le SMT
 
 ### Expansion
 
+No Expansion for this valueset (not supported by Publication Tooling)
+
 -------
 
  Explanation of the columns that may appear on this page: 
@@ -57,26 +59,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "5",
     "lastUpdated" : "2025-12-17T15:45:48.061+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2010-01-01T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2010-01-01T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-objectif-activite-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.41"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.41"
+  }],
   "version" : "20251216141840",
   "name" : "JdvObjectifActiviteCisis",
   "title" : "JDV Objectif Activite CISIS",
@@ -85,72 +81,65 @@ Requête sur le SMT
   "date" : "2025-12-16T14:18:40+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Objectif Activite CISIS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/900000000000207008/version/20260201",
+      "concept" : [{
+        "code" : "409073007",
+        "display" : "éducation"
+      },
       {
-        "system" : "http://snomed.info/sct",
-        "concept" : [
-          {
-            "code" : "409073007",
-            "display" : "éducation"
-          },
-          {
-            "code" : "165197003",
-            "display" : "évaluation diagnostique"
-          },
-          {
-            "code" : "79841006",
-            "display" : "conseil en génétique"
-          },
-          {
-            "code" : "243787009",
-            "display" : "diagnostic prénatal"
-          },
-          {
-            "code" : "426417003",
-            "display" : "FIV avec diagnostic génétique préimplantatoire"
-          },
-          {
-            "code" : "225297008",
-            "display" : "actions de planification des soins et de résolution de problème"
-          },
-          {
-            "code" : "390906007",
-            "display" : "rendez-vous de suivi"
-          },
-          {
-            "code" : "373110003",
-            "display" : "procédure d'urgence"
-          },
-          {
-            "code" : "308364004",
-            "display" : "procédure en lien avec la recherche"
-          },
-          {
-            "code" : "71388002",
-            "display" : "procédure"
-          },
-          {
-            "code" : "1365979000",
-            "display" : "consultation pour préparer la transition enfant/adulte"
-          },
-          {
-            "code" : "310867007",
-            "display" : "informer un(e) patient(e) du diagnostic"
-          }
-        ]
-      }
-    ]
+        "code" : "165197003",
+        "display" : "évaluation diagnostique"
+      },
+      {
+        "code" : "79841006",
+        "display" : "conseil en génétique"
+      },
+      {
+        "code" : "243787009",
+        "display" : "diagnostic prénatal"
+      },
+      {
+        "code" : "426417003",
+        "display" : "FIV avec diagnostic génétique préimplantatoire"
+      },
+      {
+        "code" : "225297008",
+        "display" : "actions de planification des soins et de résolution de problème"
+      },
+      {
+        "code" : "390906007",
+        "display" : "rendez-vous de suivi"
+      },
+      {
+        "code" : "373110003",
+        "display" : "procédure d'urgence"
+      },
+      {
+        "code" : "308364004",
+        "display" : "procédure en lien avec la recherche"
+      },
+      {
+        "code" : "71388002",
+        "display" : "procédure"
+      },
+      {
+        "code" : "1365979000",
+        "display" : "consultation pour préparer la transition enfant/adulte"
+      },
+      {
+        "code" : "310867007",
+        "display" : "informer un(e) patient(e) du diagnostic"
+      }]
+    }]
   }
 }
 

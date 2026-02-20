@@ -65,6 +65,7 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R09-CategorieProfessionnelle/FHIR/TRE-R09-CategorieProfessionnelle"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R09-CategorieProfessionnelle/FHIR/TRE-R09-CategorieProfessionnelle>
        ] ;
+       fhir:version [ fhir:v "20240426120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "C" ] ;
          fhir:display [ fhir:v "Civil" ]

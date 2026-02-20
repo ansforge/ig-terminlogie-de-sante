@@ -31,23 +31,19 @@ La Classification internationale des soins primaires (CISP) est la version fran�
   "meta" : {
     "versionId" : "3",
     "lastUpdated" : "2025-03-24T13:28:48.192+00:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
   },
   "url" : "https://smt.esante.gouv.fr/terminologie-cisp",
-  "identifier" : [
-    {
-      "use" : "usual",
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:2.16.840.1.113883.6.139"
-    },
-    {
-      "use" : "secondary",
-      "system" : "https://smt.esante.gouv.fr/",
-      "value" : "terminologie-cisp"
-    }
-  ],
+  "identifier" : [{
+    "use" : "usual",
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:2.16.840.1.113883.6.139"
+  },
+  {
+    "use" : "secondary",
+    "system" : "https://smt.esante.gouv.fr/",
+    "value" : "terminologie-cisp"
+  }],
   "version" : "2019-05",
   "name" : "CISP_2",
   "title" : "Classification internationale des soins primaires - 2ème version",
@@ -56,101 +52,93 @@ La Classification internationale des soins primaires (CISP) est la version fran�
   "date" : "2019-06-26T00:00:00+00:00",
   "publisher" : "Agence du numérique en santé",
   "description" : "La Classification internationale des soins primaires (CISP) est la version française de l’International Classification of Primary Care (ICPC). Elle permet de coder trois éléments de consultation de médecine générale : motifs de rencontre (du point de vue du patient), problèmes de santé diagnostiqués et procédures de soins.Elle trouve sa place au sein de la famille des classifications de l’OMS comme classification associée à la CIM (classification internationale des maladies), l’ICF (classification internationale du fonctionnement, du handicap et de la santé) et l'ICHI (classification internationale des interventions de santé).",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "copyright" : "[LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md)",
   "valueSet" : "https://smt.esante.gouv.fr/terminologie-cisp?vs",
   "content" : "not-present",
   "count" : 1434,
-  "filter" : [
-    {
-      "code" : "root",
-      "operator" : ["="],
-      "value" : "True or false."
-    },
-    {
-      "code" : "deprecated",
-      "operator" : ["="],
-      "value" : "True or false."
-    },
-    {
-      "code" : "imported",
-      "operator" : ["="],
-      "value" : "True or false"
-    }
-  ],
-  "property" : [
-    {
-      "code" : "comment",
-      "uri" : "http://www.w3.org/2000/01/rdf-schema#comment",
-      "type" : "string"
-    },
-    {
-      "code" : "title",
-      "uri" : "http://purl.org/dc/terms/title",
-      "type" : "string"
-    },
-    {
-      "code" : "inclusion",
-      "uri" : "http://id.who.int/icd/schema/inclusion",
-      "type" : "string"
-    },
-    {
-      "code" : "consider",
-      "uri" : "https://data.esante.gouv.fr/terminologies/cisp#consider",
-      "type" : "code"
-    },
-    {
-      "code" : "icd10Code",
-      "uri" : "http://id.who.int/icd/schema/icd10Code",
-      "type" : "code"
-    },
-    {
-      "code" : "exclusion",
-      "uri" : "http://id.who.int/icd/schema/exclusion",
-      "type" : "code"
-    },
-    {
-      "code" : "note",
-      "uri" : "http://www.w3.org/2004/02/skos/core#note",
-      "type" : "string"
-    },
-    {
-      "code" : "criteria",
-      "uri" : "https://data.esante.gouv.fr/terminologies/cisp#criteria",
-      "type" : "string"
-    },
-    {
-      "code" : "parent",
-      "uri" : "http://hl7.org/fhir/concept-properties#parent",
-      "description" : "Codes des parents du concept courant",
-      "type" : "code"
-    },
-    {
-      "code" : "child",
-      "uri" : "http://hl7.org/fhir/concept-properties#child",
-      "description" : "Codes des enfants du concept courant",
-      "type" : "code"
-    },
-    {
-      "code" : "imported",
-      "description" : "Indicates if the concept is imported from another code system.",
-      "type" : "boolean"
-    },
-    {
-      "code" : "root",
-      "description" : "Indicates if this concept is a root concept (i.e. Thing is equivalent or a direct parent).",
-      "type" : "boolean"
-    }
-  ]
+  "filter" : [{
+    "code" : "root",
+    "operator" : ["="],
+    "value" : "True or false."
+  },
+  {
+    "code" : "deprecated",
+    "operator" : ["="],
+    "value" : "True or false."
+  },
+  {
+    "code" : "imported",
+    "operator" : ["="],
+    "value" : "True or false"
+  }],
+  "property" : [{
+    "code" : "comment",
+    "uri" : "http://www.w3.org/2000/01/rdf-schema#comment",
+    "type" : "string"
+  },
+  {
+    "code" : "title",
+    "uri" : "http://purl.org/dc/terms/title",
+    "type" : "string"
+  },
+  {
+    "code" : "inclusion",
+    "uri" : "http://id.who.int/icd/schema/inclusion",
+    "type" : "string"
+  },
+  {
+    "code" : "consider",
+    "uri" : "https://data.esante.gouv.fr/terminologies/cisp#consider",
+    "type" : "code"
+  },
+  {
+    "code" : "icd10Code",
+    "uri" : "http://id.who.int/icd/schema/icd10Code",
+    "type" : "code"
+  },
+  {
+    "code" : "exclusion",
+    "uri" : "http://id.who.int/icd/schema/exclusion",
+    "type" : "code"
+  },
+  {
+    "code" : "note",
+    "uri" : "http://www.w3.org/2004/02/skos/core#note",
+    "type" : "string"
+  },
+  {
+    "code" : "criteria",
+    "uri" : "https://data.esante.gouv.fr/terminologies/cisp#criteria",
+    "type" : "string"
+  },
+  {
+    "code" : "parent",
+    "uri" : "http://hl7.org/fhir/concept-properties#parent",
+    "description" : "Codes des parents du concept courant",
+    "type" : "code"
+  },
+  {
+    "code" : "child",
+    "uri" : "http://hl7.org/fhir/concept-properties#child",
+    "description" : "Codes des enfants du concept courant",
+    "type" : "code"
+  },
+  {
+    "code" : "imported",
+    "description" : "Indicates if the concept is imported from another code system.",
+    "type" : "boolean"
+  },
+  {
+    "code" : "root",
+    "description" : "Indicates if this concept is a root concept (i.e. Thing is equivalent or a direct parent).",
+    "type" : "boolean"
+  }]
 }
 
 ```

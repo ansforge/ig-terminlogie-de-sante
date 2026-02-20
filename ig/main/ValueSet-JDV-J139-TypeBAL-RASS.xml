@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R257-TypeBAL/FHIR/TRE-R257-TypeBAL"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="PER"/>
         <display value="Boîte aux lettres personnelle"/>

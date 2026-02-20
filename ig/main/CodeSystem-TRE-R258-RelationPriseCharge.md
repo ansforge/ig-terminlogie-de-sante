@@ -30,25 +30,19 @@ Relation dans la prise en charge du patient
   "meta" : {
     "versionId" : "7",
     "lastUpdated" : "2025-07-02T18:16:42.739+00:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2018-03-30T12:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2018-03-30T12:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R258-RelationPriseCharge/FHIR/TRE-R258-RelationPriseCharge",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.4.2.280"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.4.2.280"
+  }],
   "version" : "20250523120000",
   "name" : "TRE_R258_RelationPriseCharge",
   "status" : "active",
@@ -56,299 +50,263 @@ Relation dans la prise en charge du patient
   "date" : "2025-05-23T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Relation dans la prise en charge du patient",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "caseSensitive" : false,
   "content" : "complete",
-  "property" : [
-    {
+  "property" : [{
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "deprecationDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
+    "description" : "Date Concept was deprecated",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "status",
+    "uri" : "http://hl7.org/fhir/concept-properties#status",
+    "description" : "A property that indicates the status of the concept.",
+    "type" : "code"
+  },
+  {
+    "code" : "retirementDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
+    "description" : "Date Concept was retired",
+    "type" : "dateTime"
+  }],
+  "concept" : [{
+    "code" : "CORRE",
+    "display" : "Correspondant",
+    "property" : [{
       "code" : "dateValid",
-      "description" : "date de validité d'un code concept",
-      "type" : "dateTime"
+      "valueDateTime" : "2018-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "description" : "Date de mise à jour d'un code concept",
-      "type" : "dateTime"
-    },
-    {
-      "code" : "dateFin",
-      "description" : "Date de fin d'exploitation d'un code concept",
-      "type" : "dateTime"
-    },
-    {
-      "code" : "deprecationDate",
-      "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
-      "description" : "Date Concept was deprecated",
-      "type" : "dateTime"
+      "valueDateTime" : "2018-03-30T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "uri" : "http://hl7.org/fhir/concept-properties#status",
-      "description" : "A property that indicates the status of the concept.",
-      "type" : "code"
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MES",
+    "display" : "Membre de l'équipe de soins",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2018-03-30T12:00:00+01:00"
     },
     {
-      "code" : "retirementDate",
-      "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
-      "description" : "Date Concept was retired",
-      "type" : "dateTime"
-    }
-  ],
-  "concept" : [
-    {
-      "code" : "CORRE",
-      "display" : "Correspondant",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2018-03-30T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2018-03-30T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "code" : "dateFin",
+      "valueDateTime" : "2019-04-26T12:00:00+01:00"
     },
     {
-      "code" : "MES",
-      "display" : "Membre de l'équipe de soins",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2018-03-30T12:00:00+01:00"
-        },
-        {
-          "code" : "dateFin",
-          "valueDateTime" : "2019-04-26T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2019-04-26T12:00:00+01:00"
-        },
-        {
-          "code" : "deprecationDate",
-          "valueDateTime" : "2019-04-26T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "deprecated"
-        }
-      ]
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-04-26T12:00:00+01:00"
     },
     {
-      "code" : "NUM",
-      "display" : "Numérisateur du document de santé",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Numérisateur document santé"
-        }
-      ],
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2019-01-25T12:00:00+01:00"
-        },
-        {
-          "code" : "dateFin",
-          "valueDateTime" : "2019-04-26T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2019-04-26T12:00:00+01:00"
-        },
-        {
-          "code" : "deprecationDate",
-          "valueDateTime" : "2019-04-26T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "deprecated"
-        }
-      ]
+      "code" : "deprecationDate",
+      "valueDateTime" : "2019-04-26T12:00:00+01:00"
     },
     {
-      "code" : "PRELV",
-      "display" : "Préleveur",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2020-12-17T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2020-12-17T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "code" : "status",
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "NUM",
+    "display" : "Numérisateur du document de santé",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Numérisateur document santé"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
     },
     {
-      "code" : "ES-REF",
-      "display" : "Etablissement de santé de référence",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "ES de référence"
-        }
-      ],
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2024-01-26T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2024-01-26T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "code" : "dateFin",
+      "valueDateTime" : "2019-04-26T12:00:00+01:00"
     },
     {
-      "code" : "ES-PREF",
-      "display" : "Etablissement de santé de préférence",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "ES de préférence"
-        }
-      ],
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2024-01-26T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2024-01-26T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-04-26T12:00:00+01:00"
     },
     {
-      "code" : "HEBERG",
-      "display" : "Centre d'hébergement",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2025-05-23T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2025-05-23T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "code" : "deprecationDate",
+      "valueDateTime" : "2019-04-26T12:00:00+01:00"
     },
     {
-      "code" : "ST-PS-PEC",
-      "display" : "Structures et professionnels de proximité impliqués dans les soins",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2025-05-23T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2025-05-23T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "code" : "status",
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "PRELV",
+    "display" : "Préleveur",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2020-12-17T12:00:00+01:00"
     },
     {
-      "code" : "ST-COORD",
-      "display" : "Structure de coordination ou d'interface ville-hôpital",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2025-05-23T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2025-05-23T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "code" : "dateMaj",
+      "valueDateTime" : "2020-12-17T12:00:00+01:00"
     },
     {
-      "code" : "ORG-SOC",
-      "display" : "Organismes sociaux et de maintien dans l'emploi",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2025-05-23T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2025-05-23T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "ES-REF",
+    "display" : "Etablissement de santé de référence",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "ES de référence"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2024-01-26T12:00:00+01:00"
     },
     {
-      "code" : "ST-INF",
-      "display" : "Structure de soutien et d'information",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2025-05-23T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2025-05-23T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
-    }
-  ]
+      "code" : "dateMaj",
+      "valueDateTime" : "2024-01-26T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "ES-PREF",
+    "display" : "Etablissement de santé de préférence",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "ES de préférence"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2024-01-26T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2024-01-26T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "HEBERG",
+    "display" : "Centre d'hébergement",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2025-05-23T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-05-23T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "ST-PS-PEC",
+    "display" : "Structures et professionnels de proximité impliqués dans les soins",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2025-05-23T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-05-23T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "ST-COORD",
+    "display" : "Structure de coordination ou d'interface ville-hôpital",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2025-05-23T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-05-23T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "ORG-SOC",
+    "display" : "Organismes sociaux et de maintien dans l'emploi",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2025-05-23T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-05-23T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "ST-INF",
+    "display" : "Structure de soutien et d'information",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2025-05-23T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-05-23T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  }]
 }
 
 ```

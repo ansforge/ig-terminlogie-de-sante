@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "2",
     "lastUpdated" : "2025-12-17T15:42:42.548+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2025-07-11T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2025-07-11T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-days-of-week",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:2.16.840.1.113883.4.642.3.512"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:2.16.840.1.113883.4.642.3.512"
+  }],
   "version" : "20251216141840",
   "name" : "DaysOfWeek",
   "title" : "DaysOfWeek",
@@ -85,52 +79,45 @@ Requête sur le SMT
   "date" : "2025-12-16T14:18:40+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "DaysOfWeek",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "http://hl7.org/fhir/days-of-week",
+      "version" : "4.0.1",
+      "concept" : [{
+        "code" : "mon",
+        "display" : "lundi"
+      },
       {
-        "system" : "http://hl7.org/fhir/days-of-week",
-        "concept" : [
-          {
-            "code" : "mon",
-            "display" : "lundi"
-          },
-          {
-            "code" : "tue",
-            "display" : "mardi"
-          },
-          {
-            "code" : "wed",
-            "display" : "mercredi"
-          },
-          {
-            "code" : "thu",
-            "display" : "jeudi"
-          },
-          {
-            "code" : "fri",
-            "display" : "vendredi"
-          },
-          {
-            "code" : "sat",
-            "display" : "samedi"
-          },
-          {
-            "code" : "sun",
-            "display" : "dimanche"
-          }
-        ]
-      }
-    ]
+        "code" : "tue",
+        "display" : "mardi"
+      },
+      {
+        "code" : "wed",
+        "display" : "mercredi"
+      },
+      {
+        "code" : "thu",
+        "display" : "jeudi"
+      },
+      {
+        "code" : "fri",
+        "display" : "vendredi"
+      },
+      {
+        "code" : "sat",
+        "display" : "samedi"
+      },
+      {
+        "code" : "sun",
+        "display" : "dimanche"
+      }]
+    }]
   }
 }
 

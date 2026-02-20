@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele"/>
+      <version value="20240927120000"/>
       <concept>
         <code value="010"/>
         <display value="Tous Types de Déficiences Pers.Handicap.(sans autre indic.)"/>

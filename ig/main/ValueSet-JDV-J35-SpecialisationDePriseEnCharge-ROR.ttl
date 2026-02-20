@@ -65,6 +65,7 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R245-SpecialisationDePriseEnCharge/FHIR/TRE-R245-SpecialisationDePriseEnCharge"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R245-SpecialisationDePriseEnCharge/FHIR/TRE-R245-SpecialisationDePriseEnCharge>
        ] ;
+       fhir:version [ fhir:v "20250425120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "01" ] ;
          fhir:display [ fhir:v "Troubles des conduites alimentaires (TCA)" ]
@@ -266,6 +267,7 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle>
        ] ;
+       fhir:version [ fhir:v "20251222120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "068" ] ;
          fhir:display [ fhir:v "Troubles cognitifs ou du comportement et de la relation affective dus à une lésion cérébrale acquise" ]

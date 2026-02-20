@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R21-Fonction/FHIR/TRE-R21-Fonction"/>
+      <version value="20260202120000"/>
       <concept>
         <code value="FON-01"/>
         <display value="Titulaire de cabinet"/>
@@ -220,6 +221,7 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R96-AutreFonctionSanitaire/FHIR/TRE-R96-AutreFonctionSanitaire"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="407"/>
         <display value="Tatoueur"/>
@@ -235,6 +237,7 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge"/>
+      <version value="20260202120000"/>
       <concept>
         <code value="300"/>
         <display value="Assistant de service social (PAERPA)"/>

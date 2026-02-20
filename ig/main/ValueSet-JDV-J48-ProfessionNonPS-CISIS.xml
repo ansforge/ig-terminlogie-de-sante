@@ -38,6 +38,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R95-UsagerTitre/FHIR/TRE-R95-UsagerTitre"/>
+      <version value="20241213120000"/>
       <concept>
         <code value="71"/>
         <display value="Ostéopathe"/>
@@ -61,6 +62,7 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R94-ProfessionSocial/FHIR/TRE-R94-ProfessionSocial"/>
+      <version value="20241213120000"/>
       <concept>
         <code value="41"/>
         <display value="Assistant de service social"/>
@@ -112,6 +114,7 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge"/>
+      <version value="20260202120000"/>
       <concept>
         <code value="300"/>
         <display value="Assistant de service social (PAERPA)"/>

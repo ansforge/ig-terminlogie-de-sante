@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "5",
     "lastUpdated" : "2025-07-02T17:06:44.854+00:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2019-02-22T12:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2019-02-22T12:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J68-ProfilAccesReferentiel-ROR/FHIR/JDV-J68-ProfilAccesReferentiel-ROR",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.3.3.66"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.3.3.66"
+  }],
   "version" : "20250523120000",
   "name" : "JDV_J68_ProfilAccesReferentiel_ROR",
   "status" : "active",
@@ -84,80 +78,73 @@ Requête sur le SMT
   "date" : "2025-05-23T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Liste des rôles métiers définis dans la politique d'accès au ROR",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R78-ProfilAccesReferentiel/FHIR/TRE-R78-ProfilAccesReferentiel",
+      "version" : "20250523120000",
+      "concept" : [{
+        "code" : "CU17",
+        "display" : "Professionnel de santé"
+      },
       {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R78-ProfilAccesReferentiel/FHIR/TRE-R78-ProfilAccesReferentiel",
-        "concept" : [
-          {
-            "code" : "CU17",
-            "display" : "Professionnel de santé"
-          },
-          {
-            "code" : "CU18",
-            "display" : "Orientation sanitaire et médico-sociale"
-          },
-          {
-            "code" : "CU19",
-            "display" : "Orientation médico-sociale"
-          },
-          {
-            "code" : "CU20",
-            "display" : "Coordination sanitaire et médico-sociale"
-          },
-          {
-            "code" : "CU21",
-            "display" : "Coordination médico-sociale"
-          },
-          {
-            "code" : "CU22",
-            "display" : "Régulation de soins non programmés"
-          },
-          {
-            "code" : "CU23",
-            "display" : "Accès public"
-          },
-          {
-            "code" : "CU24",
-            "display" : "Gestionnaire de DAC (MAIA, …)"
-          },
-          {
-            "code" : "CU25",
-            "display" : "Gestion de crise"
-          },
-          {
-            "code" : "CU26",
-            "display" : "Gestion de l'offre sanitaire et médico-sociale"
-          },
-          {
-            "code" : "CU27",
-            "display" : "Gestion de l'offre médico-sociale"
-          },
-          {
-            "code" : "CU28",
-            "display" : "Pilotage de l'offre sanitaire"
-          },
-          {
-            "code" : "CU29",
-            "display" : "Pilotage de l'offre médico-sociale"
-          },
-          {
-            "code" : "CU30",
-            "display" : "Orientation sanitaire et médico-sociale sans disponibilité en lit"
-          }
-        ]
-      }
-    ]
+        "code" : "CU18",
+        "display" : "Orientation sanitaire et médico-sociale"
+      },
+      {
+        "code" : "CU19",
+        "display" : "Orientation médico-sociale"
+      },
+      {
+        "code" : "CU20",
+        "display" : "Coordination sanitaire et médico-sociale"
+      },
+      {
+        "code" : "CU21",
+        "display" : "Coordination médico-sociale"
+      },
+      {
+        "code" : "CU22",
+        "display" : "Régulation de soins non programmés"
+      },
+      {
+        "code" : "CU23",
+        "display" : "Accès public"
+      },
+      {
+        "code" : "CU24",
+        "display" : "Gestionnaire de DAC (MAIA, …)"
+      },
+      {
+        "code" : "CU25",
+        "display" : "Gestion de crise"
+      },
+      {
+        "code" : "CU26",
+        "display" : "Gestion de l'offre sanitaire et médico-sociale"
+      },
+      {
+        "code" : "CU27",
+        "display" : "Gestion de l'offre médico-sociale"
+      },
+      {
+        "code" : "CU28",
+        "display" : "Pilotage de l'offre sanitaire"
+      },
+      {
+        "code" : "CU29",
+        "display" : "Pilotage de l'offre médico-sociale"
+      },
+      {
+        "code" : "CU30",
+        "display" : "Orientation sanitaire et médico-sociale sans disponibilité en lit"
+      }]
+    }]
   }
 }
 

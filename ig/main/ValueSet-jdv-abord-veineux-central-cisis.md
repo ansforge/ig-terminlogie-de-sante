@@ -33,6 +33,8 @@ Requête sur le SMT
 
 ### Expansion
 
+No Expansion for this valueset (not supported by Publication Tooling)
+
 -------
 
  Explanation of the columns that may appear on this page: 
@@ -57,26 +59,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "5",
     "lastUpdated" : "2025-12-17T15:42:44.323+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2020-12-16T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2020-12-16T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-abord-veineux-central-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.496"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.496"
+  }],
   "version" : "20251216141840",
   "name" : "JdvAbordVeineuxCentralCisis",
   "title" : "JDV Abord Veineux Central CISIS",
@@ -85,44 +81,37 @@ Requête sur le SMT
   "date" : "2025-12-16T14:18:40+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Abord Veineux Central CISIS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/900000000000207008/version/20260201",
+      "concept" : [{
+        "code" : "181372005",
+        "display" : "veine jugulaire interne entière"
+      },
       {
-        "system" : "http://snomed.info/sct",
-        "concept" : [
-          {
-            "code" : "181372005",
-            "display" : "veine jugulaire interne entière"
-          },
-          {
-            "code" : "181371003",
-            "display" : "veine brachiocéphalique entière"
-          },
-          {
-            "code" : "181388005",
-            "display" : "veine subclavière entière"
-          },
-          {
-            "code" : "362071002",
-            "display" : "veine fémorale entière"
-          },
-          {
-            "code" : "181387000",
-            "display" : "veine entière du membre supérieur"
-          }
-        ]
-      }
-    ]
+        "code" : "181371003",
+        "display" : "veine brachiocéphalique entière"
+      },
+      {
+        "code" : "181388005",
+        "display" : "veine subclavière entière"
+      },
+      {
+        "code" : "362071002",
+        "display" : "veine fémorale entière"
+      },
+      {
+        "code" : "181387000",
+        "display" : "veine entière du membre supérieur"
+      }]
+    }]
   }
 }
 

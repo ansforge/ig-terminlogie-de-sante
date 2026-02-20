@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement"/>
+      <version value="20251222120000"/>
       <concept>
         <code value="001"/>
         <display value="Autres lits de m.R."/>

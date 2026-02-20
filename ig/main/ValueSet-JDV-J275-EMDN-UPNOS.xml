@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://smt.esante.gouv.fr/terminologie-emdn"/>
+      <version value="v1.2"/>
       <concept>
         <code value="V030201"/>
         <display value="TOISES"/>

@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "6",
     "lastUpdated" : "2025-12-17T15:46:50.200+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2022-10-03T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2022-10-03T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-signe-vital-cs24-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.710"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.710"
+  }],
   "version" : "20251216141839",
   "name" : "JdvSigneVitalCs24Cisis",
   "title" : "JDV Signe Vital Cs24 CISIS",
@@ -85,40 +79,32 @@ Requête sur le SMT
   "date" : "2025-12-16T14:18:39+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Signe Vital Cs24 CISIS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "29463-7",
+        "display" : "Poids"
+      },
       {
-        "system" : "http://loinc.org",
-        "concept" : [
-          {
-            "code" : "29463-7",
-            "display" : "Poids"
-          },
-          {
-            "code" : "8302-2",
-            "display" : "Taille"
-          },
-          {
-            "code" : "8287-5",
-            "display" : "Périmètre crânien"
-          },
-          {
-            "code" : "39156-5",
-            "display" : "Indice de masse corporelle (IMC)"
-          }
-        ]
-      }
-    ]
+        "code" : "8302-2",
+        "display" : "Taille"
+      },
+      {
+        "code" : "8287-5",
+        "display" : "Périmètre crânien"
+      },
+      {
+        "code" : "39156-5",
+        "display" : "Indice de masse corporelle (IMC)"
+      }]
+    }]
   }
 }
 

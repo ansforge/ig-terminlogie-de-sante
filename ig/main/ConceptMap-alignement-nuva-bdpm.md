@@ -23,13 +23,11 @@
   "meta" : {
     "versionId" : "18",
     "lastUpdated" : "2026-02-03T16:01:10.985+01:00",
-    "tag" : [
-      {
-        "system" : "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
-        "code" : "SUBSETTED",
-        "display" : "Resource encoded in summary mode"
-      }
-    ]
+    "tag" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
+      "code" : "SUBSETTED",
+      "display" : "Resource encoded in summary mode"
+    }]
   },
   "url" : "https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-bdpm",
   "version" : "1.0.1063",
@@ -38,44 +36,32 @@
   "status" : "active",
   "date" : "2026-02-03",
   "publisher" : "Agence du numérique en santé",
-  "contact" : [
-    {
-      "telecom" : [
-        {
-          "system" : "url",
-          "value" : "https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-bdpm"
-        }
-      ]
+  "contact" : [{
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-bdpm"
+    }]
+  }],
+  "useContext" : [{
+    "code" : {
+      "system" : "http://terminology.hl7.org/CodeSystem/usage-context-type",
+      "code" : "task"
+    },
+    "valueCodeableConcept" : {
+      "coding" : [{
+        "system" : "https://smt.esante.gouv.fr/terminologie-ncit",
+        "code" : "C142485",
+        "display" : "alignement des données"
+      }],
+      "text" : "Aligner les codes CIS et CIP de NUVA avec les codes CIS et CIP du BDPM"
     }
-  ],
-  "useContext" : [
-    {
-      "code" : {
-        "system" : "http://terminology.hl7.org/CodeSystem/usage-context-type",
-        "code" : "task"
-      },
-      "valueCodeableConcept" : {
-        "coding" : [
-          {
-            "system" : "https://smt.esante.gouv.fr/terminologie-ncit",
-            "code" : "C142485",
-            "display" : "alignement des données"
-          }
-        ],
-        "text" : "Aligner les codes CIS et CIP de NUVA avec les codes CIS et CIP du BDPM"
-      }
-    }
-  ],
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  }],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "sourceCanonical" : "https://smt.esante.gouv.fr/terminologie-nuva?vs|20241106120000",
   "targetCanonical" : "https://smt.esante.gouv.fr/terminologie-bdpm?vs|20241106120000"
 }

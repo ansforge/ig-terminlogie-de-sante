@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R358-MotifStatutPersonnePriseCharge/FHIR/TRE-R358-MotifStatutPersonnePriseCharge",
+      "version" : "20231215120000",
       "concept" : [{
         "code" : "84",
         "display" : "Le demandeur ne remplit pas les exigences d'admission"

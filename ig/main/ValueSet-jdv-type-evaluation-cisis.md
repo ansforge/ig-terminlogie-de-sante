@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "5",
     "lastUpdated" : "2025-12-17T15:47:48.895+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2024-09-06T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2024-09-06T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-evaluation-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.802"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.802"
+  }],
   "version" : "20251216141838",
   "name" : "JdvTypeEvaluationCisis",
   "title" : "JDV Type Evaluation CISIS",
@@ -85,60 +79,53 @@ Requête sur le SMT
   "date" : "2025-12-16T14:18:38+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Type Evaluation CISIS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "version" : "202512170000",
+      "concept" : [{
+        "code" : "MED-1292",
+        "display" : "Evaluation AGGIR PH SSIAD"
+      },
       {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "MED-1292",
-            "display" : "Evaluation AGGIR PH SSIAD"
-          },
-          {
-            "code" : "MED-1293",
-            "display" : "Evaluation AGGIR PA SSIAD"
-          },
-          {
-            "code" : "MED-1290",
-            "display" : "Evaluation de la situation SSIAD"
-          },
-          {
-            "code" : "MED-1291",
-            "display" : "Evaluation SERAFIN"
-          },
-          {
-            "code" : "MED-1325",
-            "display" : "Evaluation de la déficience selon le tableau de la performance ANAP"
-          },
-          {
-            "code" : "MED-1326",
-            "display" : "Evaluation de la déficience selon FINESS"
-          },
-          {
-            "code" : "MED-1327",
-            "display" : "Evaluation PATHOS"
-          },
-          {
-            "code" : "MED-1328",
-            "display" : "Evaluation CIM10"
-          },
-          {
-            "code" : "MED-1329",
-            "display" : "Evaluation CIM11"
-          }
-        ]
-      }
-    ]
+        "code" : "MED-1293",
+        "display" : "Evaluation AGGIR PA SSIAD"
+      },
+      {
+        "code" : "MED-1290",
+        "display" : "Evaluation de la situation SSIAD"
+      },
+      {
+        "code" : "MED-1291",
+        "display" : "Evaluation SERAFIN"
+      },
+      {
+        "code" : "MED-1325",
+        "display" : "Evaluation de la déficience selon le tableau de la performance ANAP"
+      },
+      {
+        "code" : "MED-1326",
+        "display" : "Evaluation de la déficience selon FINESS"
+      },
+      {
+        "code" : "MED-1327",
+        "display" : "Evaluation PATHOS"
+      },
+      {
+        "code" : "MED-1328",
+        "display" : "Evaluation CIM10"
+      },
+      {
+        "code" : "MED-1329",
+        "display" : "Evaluation CIM11"
+      }]
+    }]
   }
 }
 

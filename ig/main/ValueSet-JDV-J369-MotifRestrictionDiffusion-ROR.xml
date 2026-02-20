@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R391-MotifRestrictionDiffusion/FHIR/TRE-R391-MotifRestrictionDiffusion"/>
+      <version value="20250425120000"/>
       <concept>
         <code value="OPP_DIF_PUB"/>
         <display value="Opposition à diffusion publique"/>

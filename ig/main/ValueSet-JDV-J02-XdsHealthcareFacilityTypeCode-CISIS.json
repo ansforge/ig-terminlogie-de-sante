@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_A00-ProducteurDocNonPS/FHIR/TRE-A00-ProducteurDocNonPS",
+      "version" : "20240329120000",
       "concept" : [{
         "code" : "EXP_PATIENT",
         "display" : "Expression personnelle du patient"
@@ -49,6 +50,7 @@
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite",
+      "version" : "20250523120000",
       "concept" : [{
         "code" : "SA01",
         "display" : "Etablissement public de santé"

@@ -59,26 +59,20 @@ Expansions are not generated for retired value sets
   "meta" : {
     "versionId" : "2",
     "lastUpdated" : "2025-01-06T12:44:43.391+00:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2016-05-18T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2016-05-18T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J12-CiviliteTitre-CISIS/FHIR/JDV-J12-CiviliteTitre-CISIS",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.24"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.24"
+  }],
   "version" : "20200424120000",
   "name" : "JDV_J12_CiviliteTitre_CISIS",
   "title" : "JDV J12 CiviliteTitre CISIS",
@@ -87,45 +81,37 @@ Expansions are not generated for retired value sets
   "date" : "2020-04-24T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Titre civilité - CI-SIS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
-      {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R81-Civilite/FHIR/TRE-R81-Civilite",
-        "concept" : [
-          {
-            "code" : "M",
-            "display" : "Monsieur"
-          },
-          {
-            "code" : "MME",
-            "display" : "Madame"
-          }
-        ]
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R81-Civilite/FHIR/TRE-R81-Civilite",
+      "version" : "20231215120000",
+      "concept" : [{
+        "code" : "M",
+        "display" : "Monsieur"
       },
       {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R11-CiviliteExercice/FHIR/TRE-R11-CiviliteExercice",
-        "concept" : [
-          {
-            "code" : "DR",
-            "display" : "Docteur"
-          },
-          {
-            "code" : "PR",
-            "display" : "Professeur"
-          }
-        ]
-      }
-    ]
+        "code" : "MME",
+        "display" : "Madame"
+      }]
+    },
+    {
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R11-CiviliteExercice/FHIR/TRE-R11-CiviliteExercice",
+      "version" : "20231215120000",
+      "concept" : [{
+        "code" : "DR",
+        "display" : "Docteur"
+      },
+      {
+        "code" : "PR",
+        "display" : "Professeur"
+      }]
+    }]
   }
 }
 

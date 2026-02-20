@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_A08-HL7Confidentiality/FHIR/TRE-A08-HL7Confidentiality"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="N"/>
         <display value="Normal"/>
@@ -52,6 +53,7 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_A07-StatutVisibiliteDocument/FHIR/TRE-A07-StatutVisibiliteDocument"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="INVISIBLE_PATIENT"/>
         <display value="Non visible par le patient"/>

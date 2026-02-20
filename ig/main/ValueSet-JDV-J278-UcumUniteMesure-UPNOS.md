@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "2",
     "lastUpdated" : "2025-07-02T17:06:20.129+00:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2024-09-27T12:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2024-09-27T12:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J278-UcumUniteMesure-UPNOS/FHIR/JDV-J278-UcumUniteMesure-UPNOS",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.3.3.248"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.3.3.248"
+  }],
   "version" : "20240927120000",
   "name" : "JDV_J278_UcumUniteMesure_UPNOS",
   "status" : "active",
@@ -84,80 +78,72 @@ Requête sur le SMT
   "date" : "2024-09-27T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Termes UCUM utilisés",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "http://unitsofmeasure.org",
+      "concept" : [{
+        "code" : "a",
+        "display" : "année"
+      },
       {
-        "system" : "http://unitsofmeasure.org",
-        "concept" : [
-          {
-            "code" : "a",
-            "display" : "année"
-          },
-          {
-            "code" : "mo",
-            "display" : "mois"
-          },
-          {
-            "code" : "wk",
-            "display" : "semaine"
-          },
-          {
-            "code" : "d",
-            "display" : "jour"
-          },
-          {
-            "code" : "h",
-            "display" : "heure"
-          },
-          {
-            "code" : "min",
-            "display" : "minute"
-          },
-          {
-            "code" : "s",
-            "display" : "seconde"
-          },
-          {
-            "code" : "ms",
-            "display" : "milliseconde"
-          },
-          {
-            "code" : "m",
-            "display" : "mètre"
-          },
-          {
-            "code" : "mg/dL",
-            "display" : "milligramme par décilitre"
-          },
-          {
-            "code" : "%",
-            "display" : "pourcentage"
-          },
-          {
-            "code" : "g/L",
-            "display" : "gramme par litre"
-          },
-          {
-            "code" : "cm",
-            "display" : "centimètre"
-          },
-          {
-            "code" : "kg",
-            "display" : "kilogramme"
-          }
-        ]
-      }
-    ]
+        "code" : "mo",
+        "display" : "mois"
+      },
+      {
+        "code" : "wk",
+        "display" : "semaine"
+      },
+      {
+        "code" : "d",
+        "display" : "jour"
+      },
+      {
+        "code" : "h",
+        "display" : "heure"
+      },
+      {
+        "code" : "min",
+        "display" : "minute"
+      },
+      {
+        "code" : "s",
+        "display" : "seconde"
+      },
+      {
+        "code" : "ms",
+        "display" : "milliseconde"
+      },
+      {
+        "code" : "m",
+        "display" : "mètre"
+      },
+      {
+        "code" : "mg/dL",
+        "display" : "milligramme par décilitre"
+      },
+      {
+        "code" : "%",
+        "display" : "pourcentage"
+      },
+      {
+        "code" : "g/L",
+        "display" : "gramme par litre"
+      },
+      {
+        "code" : "cm",
+        "display" : "centimètre"
+      },
+      {
+        "code" : "kg",
+        "display" : "kilogramme"
+      }]
+    }]
   }
 }
 

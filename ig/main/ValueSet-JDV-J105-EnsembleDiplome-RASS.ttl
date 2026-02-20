@@ -65,6 +65,7 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R54-DiplomeUniversiteInterUniversitaire/FHIR/TRE-R54-DiplomeUniversiteInterUniversitaire"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R54-DiplomeUniversiteInterUniversitaire/FHIR/TRE-R54-DiplomeUniversiteInterUniversitaire>
        ] ;
+       fhir:version [ fhir:v "20240726120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "DIP02" ] ;
          fhir:display [ fhir:v "Doctorat de 3ème cycle sciences Odontologiques" ]
@@ -635,6 +636,7 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R58-AutreTypeDiplome/FHIR/TRE-R58-AutreTypeDiplome"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R58-AutreTypeDiplome/FHIR/TRE-R58-AutreTypeDiplome>
        ] ;
+       fhir:version [ fhir:v "20251222120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "DIP03" ] ;
          fhir:display [ fhir:v "Diplôme d'habilitation à diriger des recherches" ]
@@ -914,6 +916,7 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R55-CertificatEtudeSpeciale/FHIR/TRE-R55-CertificatEtudeSpeciale"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R55-CertificatEtudeSpeciale/FHIR/TRE-R55-CertificatEtudeSpeciale>
        ] ;
+       fhir:version [ fhir:v "20231215120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "CESC01" ] ;
          fhir:display [ fhir:v "CES Biologie de la bouche, option Histo-embryologique" ]
@@ -1073,6 +1076,7 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R56-Attestation/FHIR/TRE-R56-Attestation"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R56-Attestation/FHIR/TRE-R56-Attestation>
        ] ;
+       fhir:version [ fhir:v "20240329120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "DIP24" ] ;
          fhir:display [ fhir:v "Attestation études Léprologie" ]
@@ -1127,6 +1131,7 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R57-DiplomeEuropeenEtudeSpecialisee/FHIR/TRE-R57-DiplomeEuropeenEtudeSpecialisee"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R57-DiplomeEuropeenEtudeSpecialisee/FHIR/TRE-R57-DiplomeEuropeenEtudeSpecialisee>
        ] ;
+       fhir:version [ fhir:v "20231215120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "DIP94" ] ;
          fhir:display [ fhir:v "DEES Allergologie" ]
@@ -1373,6 +1378,7 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R226-Dip2iemeCycleNQ/FHIR/TRE-R226-Dip2iemeCycleNQ"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R226-Dip2iemeCycleNQ/FHIR/TRE-R226-Dip2iemeCycleNQ>
        ] ;
+       fhir:version [ fhir:v "20231215120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "DFASO" ] ;
          fhir:display [ fhir:v "Dip de Formation approfondie Sc odontologiques" ]
@@ -1385,6 +1391,7 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R36-AutreDiplomeObtenu/FHIR/TRE-R36-AutreDiplomeObtenu"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R36-AutreDiplomeObtenu/FHIR/TRE-R36-AutreDiplomeObtenu>
        ] ;
+       fhir:version [ fhir:v "20231215120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "AUT001" ] ;
          fhir:display [ fhir:v "Diplôme Université Kabul (Afghanistan)" ]
@@ -1667,6 +1674,7 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R48-DiplomeEtatFrancais/FHIR/TRE-R48-DiplomeEtatFrancais"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R48-DiplomeEtatFrancais/FHIR/TRE-R48-DiplomeEtatFrancais>
        ] ;
+       fhir:version [ fhir:v "20250425120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "DE01" ] ;
          fhir:display [ fhir:v "DE Pharmacien" ]
@@ -1766,6 +1774,7 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R49-DiplomeEtudeSpecialisee/FHIR/TRE-R49-DiplomeEtudeSpecialisee"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R49-DiplomeEtudeSpecialisee/FHIR/TRE-R49-DiplomeEtudeSpecialisee>
        ] ;
+       fhir:version [ fhir:v "20240531120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "DSD01" ] ;
          fhir:display [ fhir:v "DES Orthopédie Dento-Faciale" ]
@@ -2114,6 +2123,7 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R50-DESCGroupe1Diplome/FHIR/TRE-R50-DESCGroupe1Diplome"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R50-DESCGroupe1Diplome/FHIR/TRE-R50-DESCGroupe1Diplome>
        ] ;
+       fhir:version [ fhir:v "20231215120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "DSM200" ] ;
          fhir:display [ fhir:v "Addictologie" ]
@@ -2252,6 +2262,7 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R51-DESCGroupe2Diplome/FHIR/TRE-R51-DESCGroupe2Diplome"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R51-DESCGroupe2Diplome/FHIR/TRE-R51-DESCGroupe2Diplome>
        ] ;
+       fhir:version [ fhir:v "20231215120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "DSM400" ] ;
          fhir:display [ fhir:v "DESC2 Chirurgie infantile" ]
@@ -2294,6 +2305,7 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R52-CapaciteDiplome/FHIR/TRE-R52-CapaciteDiplome"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R52-CapaciteDiplome/FHIR/TRE-R52-CapaciteDiplome>
        ] ;
+       fhir:version [ fhir:v "20231215120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "CAPA01" ] ;
          fhir:display [ fhir:v "Addictologie clinique" ]
@@ -2351,6 +2363,7 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R53-DiplomePaysEEE/FHIR/TRE-R53-DiplomePaysEEE"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R53-DiplomePaysEEE/FHIR/TRE-R53-DiplomePaysEEE>
        ] ;
+       fhir:version [ fhir:v "20231215120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "DE80" ] ;
          fhir:display [ fhir:v "Diplôme éq d'un pays de l'EEE profession Médecin" ]
@@ -2381,6 +2394,7 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R348-FormationSpecialiseeTransversale/FHIR/TRE-R348-FormationSpecialiseeTransversale"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R348-FormationSpecialiseeTransversale/FHIR/TRE-R348-FormationSpecialiseeTransversale>
        ] ;
+       fhir:version [ fhir:v "20251222120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "FST01" ] ;
          fhir:display [ fhir:v "FST Addictologie" ]

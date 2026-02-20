@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante",
+      "version" : "20250328120000",
       "concept" : [{
         "code" : "26",
         "display" : "Audioprothésiste"
@@ -57,6 +58,7 @@
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R94-ProfessionSocial/FHIR/TRE-R94-ProfessionSocial",
+      "version" : "20241213120000",
       "concept" : [{
         "code" : "41",
         "display" : "Assistant de service social"
@@ -64,6 +66,7 @@
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R95-UsagerTitre/FHIR/TRE-R95-UsagerTitre",
+      "version" : "20241213120000",
       "concept" : [{
         "code" : "71",
         "display" : "Ostéopathe"
@@ -79,6 +82,7 @@
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante",
+      "version" : "20250328120000",
       "concept" : [{
         "code" : "81",
         "display" : "Orthoprothésiste"
@@ -114,6 +118,7 @@
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R95-UsagerTitre/FHIR/TRE-R95-UsagerTitre",
+      "version" : "20241213120000",
       "concept" : [{
         "code" : "93",
         "display" : "Psychologue"
@@ -121,6 +126,7 @@
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante",
+      "version" : "20250328120000",
       "concept" : [{
         "code" : "94",
         "display" : "Ergothérapeute"

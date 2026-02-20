@@ -33,6 +33,8 @@ Requête sur le SMT
 
 ### Expansion
 
+No Expansion for this valueset (not supported by Publication Tooling)
+
 -------
 
  Explanation of the columns that may appear on this page: 
@@ -57,26 +59,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "6",
     "lastUpdated" : "2025-12-17T15:44:23.174+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2023-01-31T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2023-01-31T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-groupe-rhesus-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.755"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.755"
+  }],
   "version" : "20251216141838",
   "name" : "JdvGroupeRhesusCisis",
   "title" : "JDV Groupe Rhesus CISIS",
@@ -85,56 +81,49 @@ Requête sur le SMT
   "date" : "2025-12-16T14:18:38+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Groupe Rhesus CISIS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/900000000000207008/version/20260201",
+      "concept" : [{
+        "code" : "278147001",
+        "display" : "groupe sanguin O Rh(D) positif"
+      },
       {
-        "system" : "http://snomed.info/sct",
-        "concept" : [
-          {
-            "code" : "278147001",
-            "display" : "groupe sanguin O Rh(D) positif"
-          },
-          {
-            "code" : "278148006",
-            "display" : "groupe sanguin O Rh(D) négatif"
-          },
-          {
-            "code" : "278149003",
-            "display" : "groupe sanguin A Rh(D) positif"
-          },
-          {
-            "code" : "278152006",
-            "display" : "groupe sanguin A Rh(D) négatif"
-          },
-          {
-            "code" : "278150003",
-            "display" : "groupe sanguin B Rh(D) positif"
-          },
-          {
-            "code" : "278153001",
-            "display" : "groupe sanguin B Rh(D) négatif"
-          },
-          {
-            "code" : "278151004",
-            "display" : "groupe sanguin AB Rh(D) positif"
-          },
-          {
-            "code" : "278154007",
-            "display" : "groupe sanguin AB Rh(D) négatif"
-          }
-        ]
-      }
-    ]
+        "code" : "278148006",
+        "display" : "groupe sanguin O Rh(D) négatif"
+      },
+      {
+        "code" : "278149003",
+        "display" : "groupe sanguin A Rh(D) positif"
+      },
+      {
+        "code" : "278152006",
+        "display" : "groupe sanguin A Rh(D) négatif"
+      },
+      {
+        "code" : "278150003",
+        "display" : "groupe sanguin B Rh(D) positif"
+      },
+      {
+        "code" : "278153001",
+        "display" : "groupe sanguin B Rh(D) négatif"
+      },
+      {
+        "code" : "278151004",
+        "display" : "groupe sanguin AB Rh(D) positif"
+      },
+      {
+        "code" : "278154007",
+        "display" : "groupe sanguin AB Rh(D) négatif"
+      }]
+    }]
   }
 }
 

@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R282-CNAMAmeliSecteurConventionnement/FHIR/TRE-R282-CNAMAmeliSecteurConventionnement"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="nc"/>
         <display value="Non conventionné"/>

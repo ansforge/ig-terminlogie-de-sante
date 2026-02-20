@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R345-TypeIdentifiantAutre/FHIR/TRE-R345-TypeIdentifiantAutre"/>
+      <version value="20240329120000"/>
       <concept>
         <code value="42"/>
         <display value="Identifiant fonctionnel de l'OI connu par l'instance ROR"/>
@@ -48,6 +49,7 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R355-TypeIdentifiantOffre/FHIR/TRE-R355-TypeIdentifiantOffre"/>
+      <version value="20240329120000"/>
       <concept>
         <code value="35"/>
         <display value="Identifiant fonctionnel de l'offre connu par l'instance ROR"/>
@@ -59,6 +61,7 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R354-TypeIdentifiantRessourceOperationnelle/FHIR/TRE-R354-TypeIdentifiantRessourceOperationnelle"/>
+      <version value="20240329120000"/>
       <concept>
         <code value="25"/>
         <display value="Identifiant du lieu de réalisation de l'offre connu par l'instance ROR"/>
@@ -70,6 +73,7 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_G08-TypeIdentifiantPersonne/FHIR/TRE-G08-TypeIdentifiantPersonne"/>
+      <version value="20240329120000"/>
       <concept>
         <code value="30"/>
         <display value="Identifiant de la situation opérationnelle connu par l'instance ROR"/>
@@ -77,6 +81,7 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_G07-TypeIdentifiantStructure/FHIR/TRE-G07-TypeIdentifiantStructure"/>
+      <version value="20240329120000"/>
       <concept>
         <code value="40"/>
         <display value="Identifiant national de structure"/>

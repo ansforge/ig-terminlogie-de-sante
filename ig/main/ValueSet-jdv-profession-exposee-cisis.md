@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "5",
     "lastUpdated" : "2025-12-17T15:46:02.658+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2010-01-01T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2010-01-01T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-profession-exposee-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.91"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.91"
+  }],
   "version" : "20251216141839",
   "name" : "JdvProfessionExposeeCisis",
   "title" : "JDV Profession Exposee CISIS",
@@ -85,64 +79,57 @@ Requête sur le SMT
   "date" : "2025-12-16T14:18:39+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Profession Exposee CISIS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "version" : "202512170000",
+      "concept" : [{
+        "code" : "GEN-054",
+        "display" : "Santé"
+      },
       {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "GEN-054",
-            "display" : "Santé"
-          },
-          {
-            "code" : "GEN-055",
-            "display" : "Social, médico-social"
-          },
-          {
-            "code" : "GEN-056",
-            "display" : "Armée, Police, Secours"
-          },
-          {
-            "code" : "GEN-057",
-            "display" : "Education nationale"
-          },
-          {
-            "code" : "GEN-058",
-            "display" : "Justice"
-          },
-          {
-            "code" : "GEN-059",
-            "display" : "Au contact des animaux, agriculture, eaux, forêts et pêche"
-          },
-          {
-            "code" : "GEN-060",
-            "display" : "Assainissement – Environnement"
-          },
-          {
-            "code" : "GEN-061",
-            "display" : "Restauration - Blanchisserie – Tatouage"
-          },
-          {
-            "code" : "GEN-062",
-            "display" : "Services funéraires"
-          },
-          {
-            "code" : "GEN-063",
-            "display" : "Tourisme et transports"
-          }
-        ]
-      }
-    ]
+        "code" : "GEN-055",
+        "display" : "Social, médico-social"
+      },
+      {
+        "code" : "GEN-056",
+        "display" : "Armée, Police, Secours"
+      },
+      {
+        "code" : "GEN-057",
+        "display" : "Education nationale"
+      },
+      {
+        "code" : "GEN-058",
+        "display" : "Justice"
+      },
+      {
+        "code" : "GEN-059",
+        "display" : "Au contact des animaux, agriculture, eaux, forêts et pêche"
+      },
+      {
+        "code" : "GEN-060",
+        "display" : "Assainissement – Environnement"
+      },
+      {
+        "code" : "GEN-061",
+        "display" : "Restauration - Blanchisserie – Tatouage"
+      },
+      {
+        "code" : "GEN-062",
+        "display" : "Services funéraires"
+      },
+      {
+        "code" : "GEN-063",
+        "display" : "Tourisme et transports"
+      }]
+    }]
   }
 }
 

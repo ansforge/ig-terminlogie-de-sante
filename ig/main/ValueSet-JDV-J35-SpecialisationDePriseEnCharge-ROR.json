@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R245-SpecialisationDePriseEnCharge/FHIR/TRE-R245-SpecialisationDePriseEnCharge",
+      "version" : "20250425120000",
       "concept" : [{
         "code" : "01",
         "display" : "Troubles des conduites alimentaires (TCA)"
@@ -301,6 +302,7 @@
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle",
+      "version" : "20251222120000",
       "concept" : [{
         "code" : "068",
         "display" : "Troubles cognitifs ou du comportement et de la relation affective dus à une lésion cérébrale acquise"

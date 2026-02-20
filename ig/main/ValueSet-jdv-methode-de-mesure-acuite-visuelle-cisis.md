@@ -59,26 +59,20 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "meta" : {
     "versionId" : "4",
     "lastUpdated" : "2025-12-17T15:45:10.062+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2022-12-19T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2022-12-19T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-methode-de-mesure-acuite-visuelle-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.715"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.715"
+  }],
   "version" : "20251216141839",
   "name" : "JdvMethodeDeMesureAcuiteVisuelleCisis",
   "title" : "JDV Methode De Mesure Acuite Visuelle CISIS",
@@ -87,58 +81,48 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "date" : "2025-12-16T14:18:39+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Methode De Mesure Acuite Visuelle CISIS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
-      {
-        "system" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
-        "concept" : [
-          {
-            "code" : "C117877",
-            "display" : "Tableau de l'Oeil ETDRS"
-          },
-          {
-            "code" : "C130175",
-            "display" : "Tableau optométrique de Jaeger"
-          },
-          {
-            "code" : "C158246",
-            "display" : "Tableau des yeux de Sloan"
-          }
-        ]
+    "include" : [{
+      "system" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+      "concept" : [{
+        "code" : "C117877",
+        "display" : "Tableau de l'Oeil ETDRS"
       },
       {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "MED-1177",
-            "display" : "Réfracteur"
-          }
-        ]
+        "code" : "C130175",
+        "display" : "Tableau optométrique de Jaeger"
       },
       {
-        "system" : "http://snomed.info/sct",
-        "concept" : [
-          {
-            "code" : "252973004",
-            "display" : "évaluation par échelle de Snellen"
-          },
-          {
-            "code" : "252872008",
-            "display" : "test du double prisme Maddox"
-          }
-        ]
-      }
-    ]
+        "code" : "C158246",
+        "display" : "Tableau des yeux de Sloan"
+      }]
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "version" : "202512170000",
+      "concept" : [{
+        "code" : "MED-1177",
+        "display" : "Réfracteur"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/900000000000207008/version/20260201",
+      "concept" : [{
+        "code" : "252973004",
+        "display" : "évaluation par échelle de Snellen"
+      },
+      {
+        "code" : "252872008",
+        "display" : "test du double prisme Maddox"
+      }]
+    }]
   }
 }
 

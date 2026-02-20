@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R17-TypeAutorisation/FHIR/TRE-R17-TypeAutorisation"/>
+      <version value="20250523120000"/>
       <concept>
         <code value="AM00"/>
         <display value="Autre type d'autorisation"/>

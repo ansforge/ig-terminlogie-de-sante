@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "5",
     "lastUpdated" : "2025-12-17T15:45:51.766+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2020-03-27T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2020-03-27T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-observation-grossesse-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.500"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.500"
+  }],
   "version" : "20251216141838",
   "name" : "JdvObservationGrossesseCisis",
   "title" : "JDV Observation Grossesse CISIS",
@@ -85,157 +79,148 @@ Requête sur le SMT
   "date" : "2025-12-16T14:18:38+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Observation Grossesse CISIS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
-      {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "MED-1184",
-            "display" : "Nombre d'enfants nés vivants et décédés avant 28 jours"
-          },
-          {
-            "code" : "MED-1185",
-            "display" : "Grossesse extra-utérine"
-          },
-          {
-            "code" : "ORG-173",
-            "display" : "Projet de grossesse"
-          },
-          {
-            "code" : "MED-280",
-            "display" : "Accouchement récent"
-          }
-        ]
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "version" : "202512170000",
+      "concept" : [{
+        "code" : "MED-1184",
+        "display" : "Nombre d'enfants nés vivants et décédés avant 28 jours"
       },
       {
-        "system" : "http://loinc.org",
-        "concept" : [
-          {
-            "code" : "8339-4",
-            "display" : "Poids à la naissance"
-          },
-          {
-            "code" : "8665-2",
-            "display" : "Date des dernières règles"
-          },
-          {
-            "code" : "8678-5",
-            "display" : "Statut de l'état menstruel"
-          },
-          {
-            "code" : "11449-6",
-            "display" : "Statut de grossesse"
-          },
-          {
-            "code" : "11612-9",
-            "display" : "Nombre d'interruptions de grossesse"
-          },
-          {
-            "code" : "11613-7",
-            "display" : "Nombre d'interruptions volontaires de grossesse"
-          },
-          {
-            "code" : "11614-5",
-            "display" : "Nombre d'interruptions involontaires de grossesse"
-          },
-          {
-            "code" : "11636-8",
-            "display" : "Nombre d'enfants nés vivants"
-          },
-          {
-            "code" : "11637-6",
-            "display" : "Nombre d'enfants prématurés (nés avant 37 semaines)"
-          },
-          {
-            "code" : "11638-4",
-            "display" : "Nombre d'enfants vivants"
-          },
-          {
-            "code" : "11639-2",
-            "display" : "Nombre d'enfants nés à terme (premier jour (259e jour) de la 38e semaine suivant le début des dernières règles)"
-          },
-          {
-            "code" : "11640-0",
-            "display" : "Nombre total de naissances, y compris les avortements, les mortinaissances et les naissances vivantes."
-          },
-          {
-            "code" : "11778-8",
-            "display" : "Date estimée de l'accouchement"
-          },
-          {
-            "code" : "11779-6",
-            "display" : "Date estimée de l'accouchement à partir de la dernière période menstruelle"
-          },
-          {
-            "code" : "11780-4",
-            "display" : "Date estimée de l'accouchement à partir de la date d'ovulation"
-          },
-          {
-            "code" : "11884-4",
-            "display" : "Age gestationnel du fœtus (estimation clinique)"
-          },
-          {
-            "code" : "11885-1",
-            "display" : "Age gestationnel (semaines d'amenorrhées révolues)"
-          },
-          {
-            "code" : "11886-9",
-            "display" : "Age gestationnel du fœtus à partir de la date d'ovulation"
-          },
-          {
-            "code" : "11977-6",
-            "display" : "Parité (nombre total d'accouchements y compris actuel)"
-          },
-          {
-            "code" : "11996-6",
-            "display" : "Gestité (nombre total de grossesses y compris actuelle)"
-          },
-          {
-            "code" : "32396-4",
-            "display" : "Durée de l'accouchement"
-          },
-          {
-            "code" : "33065-4",
-            "display" : "Nombre de grossesses extra-utérines"
-          },
-          {
-            "code" : "45371-2",
-            "display" : "Grossesse multiple"
-          },
-          {
-            "code" : "49051-6",
-            "display" : "Age gestationnel en semaines"
-          },
-          {
-            "code" : "57062-2",
-            "display" : "Nombre d'enfants mort-nés"
-          },
-          {
-            "code" : "63895-7",
-            "display" : "Allaitement"
-          },
-          {
-            "code" : "42797-1",
-            "display" : "Age à la première grossesse"
-          },
-          {
-            "code" : "55281-0",
-            "display" : "Nombre de fœtus"
-          }
-        ]
-      }
-    ]
+        "code" : "MED-1185",
+        "display" : "Grossesse extra-utérine"
+      },
+      {
+        "code" : "ORG-173",
+        "display" : "Projet de grossesse"
+      },
+      {
+        "code" : "MED-280",
+        "display" : "Accouchement récent"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "8339-4",
+        "display" : "Poids à la naissance"
+      },
+      {
+        "code" : "8665-2",
+        "display" : "Date des dernières règles"
+      },
+      {
+        "code" : "8678-5",
+        "display" : "Statut de l'état menstruel"
+      },
+      {
+        "code" : "11449-6",
+        "display" : "Statut de grossesse"
+      },
+      {
+        "code" : "11612-9",
+        "display" : "Nombre d'interruptions de grossesse"
+      },
+      {
+        "code" : "11613-7",
+        "display" : "Nombre d'interruptions volontaires de grossesse"
+      },
+      {
+        "code" : "11614-5",
+        "display" : "Nombre d'interruptions involontaires de grossesse"
+      },
+      {
+        "code" : "11636-8",
+        "display" : "Nombre d'enfants nés vivants"
+      },
+      {
+        "code" : "11637-6",
+        "display" : "Nombre d'enfants prématurés (nés avant 37 semaines)"
+      },
+      {
+        "code" : "11638-4",
+        "display" : "Nombre d'enfants vivants"
+      },
+      {
+        "code" : "11639-2",
+        "display" : "Nombre d'enfants nés à terme (premier jour (259e jour) de la 38e semaine suivant le début des dernières règles)"
+      },
+      {
+        "code" : "11640-0",
+        "display" : "Nombre total de naissances, y compris les avortements, les mortinaissances et les naissances vivantes."
+      },
+      {
+        "code" : "11778-8",
+        "display" : "Date estimée de l'accouchement"
+      },
+      {
+        "code" : "11779-6",
+        "display" : "Date estimée de l'accouchement à partir de la dernière période menstruelle"
+      },
+      {
+        "code" : "11780-4",
+        "display" : "Date estimée de l'accouchement à partir de la date d'ovulation"
+      },
+      {
+        "code" : "11884-4",
+        "display" : "Age gestationnel du fœtus (estimation clinique)"
+      },
+      {
+        "code" : "11885-1",
+        "display" : "Age gestationnel (semaines d'amenorrhées révolues)"
+      },
+      {
+        "code" : "11886-9",
+        "display" : "Age gestationnel du fœtus à partir de la date d'ovulation"
+      },
+      {
+        "code" : "11977-6",
+        "display" : "Parité (nombre total d'accouchements y compris actuel)"
+      },
+      {
+        "code" : "11996-6",
+        "display" : "Gestité (nombre total de grossesses y compris actuelle)"
+      },
+      {
+        "code" : "32396-4",
+        "display" : "Durée de l'accouchement"
+      },
+      {
+        "code" : "33065-4",
+        "display" : "Nombre de grossesses extra-utérines"
+      },
+      {
+        "code" : "45371-2",
+        "display" : "Grossesse multiple"
+      },
+      {
+        "code" : "49051-6",
+        "display" : "Age gestationnel en semaines"
+      },
+      {
+        "code" : "57062-2",
+        "display" : "Nombre d'enfants mort-nés"
+      },
+      {
+        "code" : "63895-7",
+        "display" : "Allaitement"
+      },
+      {
+        "code" : "42797-1",
+        "display" : "Age à la première grossesse"
+      },
+      {
+        "code" : "55281-0",
+        "display" : "Nombre de fœtus"
+      }]
+    }]
   }
 }
 

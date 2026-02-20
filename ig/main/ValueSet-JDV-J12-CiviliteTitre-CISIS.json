@@ -39,6 +39,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R81-Civilite/FHIR/TRE-R81-Civilite",
+      "version" : "20231215120000",
       "concept" : [{
         "code" : "M",
         "display" : "Monsieur"
@@ -50,6 +51,7 @@
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R11-CiviliteExercice/FHIR/TRE-R11-CiviliteExercice",
+      "version" : "20231215120000",
       "concept" : [{
         "code" : "DR",
         "display" : "Docteur"

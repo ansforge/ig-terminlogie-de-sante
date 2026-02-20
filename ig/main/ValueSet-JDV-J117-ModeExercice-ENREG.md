@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "5",
     "lastUpdated" : "2026-02-03T10:17:51.845+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2020-05-29T12:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2020-05-29T12:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J117-ModeExercice-ENREG/FHIR/JDV-J117-ModeExercice-ENREG",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.6.1.188"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.6.1.188"
+  }],
   "version" : "20260202120000",
   "name" : "JDV_J117_ModeExercice_ENREG",
   "status" : "active",
@@ -84,40 +78,33 @@ Requête sur le SMT
   "date" : "2026-02-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Mode d'exercice pour ENREG",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R23-ModeExercice/FHIR/TRE-R23-ModeExercice",
+      "version" : "20260202120000",
+      "concept" : [{
+        "code" : "S",
+        "display" : "Salarié"
+      },
       {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R23-ModeExercice/FHIR/TRE-R23-ModeExercice",
-        "concept" : [
-          {
-            "code" : "S",
-            "display" : "Salarié"
-          },
-          {
-            "code" : "L",
-            "display" : "Libéral, indépendant, artisan, commerçant"
-          },
-          {
-            "code" : "B",
-            "display" : "Bénévole"
-          },
-          {
-            "code" : "I",
-            "display" : "Indirect"
-          }
-        ]
-      }
-    ]
+        "code" : "L",
+        "display" : "Libéral, indépendant, artisan, commerçant"
+      },
+      {
+        "code" : "B",
+        "display" : "Bénévole"
+      },
+      {
+        "code" : "I",
+        "display" : "Indirect"
+      }]
+    }]
   }
 }
 

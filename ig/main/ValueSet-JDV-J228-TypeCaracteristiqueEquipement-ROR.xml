@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R340-TypeCaracteristiqueEquipement/FHIR/TRE-R340-TypeCaracteristiqueEquipement"/>
+      <version value="20240329120000"/>
       <concept>
         <code value="001"/>
         <display value="Poids maximum"/>

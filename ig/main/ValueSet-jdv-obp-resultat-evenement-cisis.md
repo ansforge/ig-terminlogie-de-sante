@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "5",
     "lastUpdated" : "2025-12-17T15:45:48.669+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2023-06-21T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2023-06-21T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-obp-resultat-evenement-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.724"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.724"
+  }],
   "version" : "20251216141839",
   "name" : "JdvObpResultatEvenementCisis",
   "title" : "JDV Obp Resultat Evenement CISIS",
@@ -85,61 +79,52 @@ Requête sur le SMT
   "date" : "2025-12-16T14:18:39+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Obp Resultat Evenement CISIS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
-      {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "MED-1223",
-            "display" : "Présentation fœtale"
-          }
-        ]
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "version" : "202512170000",
+      "concept" : [{
+        "code" : "MED-1223",
+        "display" : "Présentation fœtale"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "73771-8",
+        "display" : "Rang de naissance"
       },
       {
-        "system" : "http://loinc.org",
-        "concept" : [
-          {
-            "code" : "73771-8",
-            "display" : "Rang de naissance"
-          },
-          {
-            "code" : "11884-4",
-            "display" : "Age gestationnel du fœtus (estimation clinique)"
-          },
-          {
-            "code" : "3156-7",
-            "display" : "Volume de liquique amniotique"
-          },
-          {
-            "code" : "38386-9",
-            "display" : "Couleur du liquide amniotique"
-          },
-          {
-            "code" : "56829-5",
-            "display" : "Durée d’ouverture de l’œuf"
-          },
-          {
-            "code" : "73757-7",
-            "display" : "Enfant vivant"
-          },
-          {
-            "code" : "92022-3",
-            "display" : "Cause initiale du décès fœtus"
-          }
-        ]
-      }
-    ]
+        "code" : "11884-4",
+        "display" : "Age gestationnel du fœtus (estimation clinique)"
+      },
+      {
+        "code" : "3156-7",
+        "display" : "Volume de liquique amniotique"
+      },
+      {
+        "code" : "38386-9",
+        "display" : "Couleur du liquide amniotique"
+      },
+      {
+        "code" : "56829-5",
+        "display" : "Durée d’ouverture de l’œuf"
+      },
+      {
+        "code" : "73757-7",
+        "display" : "Enfant vivant"
+      },
+      {
+        "code" : "92022-3",
+        "display" : "Cause initiale du décès fœtus"
+      }]
+    }]
   }
 }
 

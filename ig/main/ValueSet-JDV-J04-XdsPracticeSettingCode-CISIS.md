@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "5",
     "lastUpdated" : "2025-07-02T17:04:33.932+00:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2010-11-04T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2010-11-04T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J04-XdsPracticeSettingCode-CISIS/FHIR/JDV-J04-XdsPracticeSettingCode-CISIS",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.467"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.467"
+  }],
   "version" : "20240927120000",
   "name" : "JDV_J04_XdsPracticeSettingCode_CISIS",
   "status" : "active",
@@ -84,77 +78,69 @@ Requête sur le SMT
   "date" : "2024-09-27T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "XDS practiceSettingCode CI-SIS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
-      {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_A00-ProducteurDocNonPS/FHIR/TRE-A00-ProducteurDocNonPS",
-        "concept" : [
-          {
-            "code" : "EXP_PATIENT",
-            "display" : "Expression personnelle du patient"
-          },
-          {
-            "code" : "SNR",
-            "display" : "Service numérique référencé"
-          }
-        ]
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_A00-ProducteurDocNonPS/FHIR/TRE-A00-ProducteurDocNonPS",
+      "version" : "20240329120000",
+      "concept" : [{
+        "code" : "EXP_PATIENT",
+        "display" : "Expression personnelle du patient"
       },
       {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_A01-CadreExercice/FHIR/TRE-A01-CadreExercice",
-        "concept" : [
-          {
-            "code" : "AMBULATOIRE",
-            "display" : "Ambulatoire"
-          },
-          {
-            "code" : "AMO",
-            "display" : "Organisme d'assurance maladie obligatoire"
-          },
-          {
-            "code" : "DEPISTAGE",
-            "display" : "Dépistage"
-          },
-          {
-            "code" : "ESSMS",
-            "display" : "Etablissement ou Service Social ou Médico-Social"
-          },
-          {
-            "code" : "ETABLISSEMENT",
-            "display" : "Etablissement de santé"
-          },
-          {
-            "code" : "HAD",
-            "display" : "Hospitalisation à domicile"
-          },
-          {
-            "code" : "MAD",
-            "display" : "Maintien à domicile"
-          },
-          {
-            "code" : "PALLIATIF",
-            "display" : "Soins palliatifs"
-          },
-          {
-            "code" : "SAD",
-            "display" : "Soins à domicile"
-          },
-          {
-            "code" : "SAMU_SMUR",
-            "display" : "SAMU/SMUR"
-          }
-        ]
-      }
-    ]
+        "code" : "SNR",
+        "display" : "Service numérique référencé"
+      }]
+    },
+    {
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_A01-CadreExercice/FHIR/TRE-A01-CadreExercice",
+      "version" : "20240927120000",
+      "concept" : [{
+        "code" : "AMBULATOIRE",
+        "display" : "Ambulatoire"
+      },
+      {
+        "code" : "AMO",
+        "display" : "Organisme d'assurance maladie obligatoire"
+      },
+      {
+        "code" : "DEPISTAGE",
+        "display" : "Dépistage"
+      },
+      {
+        "code" : "ESSMS",
+        "display" : "Etablissement ou Service Social ou Médico-Social"
+      },
+      {
+        "code" : "ETABLISSEMENT",
+        "display" : "Etablissement de santé"
+      },
+      {
+        "code" : "HAD",
+        "display" : "Hospitalisation à domicile"
+      },
+      {
+        "code" : "MAD",
+        "display" : "Maintien à domicile"
+      },
+      {
+        "code" : "PALLIATIF",
+        "display" : "Soins palliatifs"
+      },
+      {
+        "code" : "SAD",
+        "display" : "Soins à domicile"
+      },
+      {
+        "code" : "SAMU_SMUR",
+        "display" : "SAMU/SMUR"
+      }]
+    }]
   }
 }
 

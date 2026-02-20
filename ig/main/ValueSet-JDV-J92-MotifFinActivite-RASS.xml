@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R25-MotifFinActivite/FHIR/TRE-R25-MotifFinActivite"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="AUT"/>
         <display value="Autre motif"/>

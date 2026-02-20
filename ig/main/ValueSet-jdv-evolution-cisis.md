@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "3",
     "lastUpdated" : "2025-12-17T15:44:05.960+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2024-05-22T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2024-05-22T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evolution-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.788"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.788"
+  }],
   "version" : "20251216141838",
   "name" : "JdvEvolutionCisis",
   "title" : "JDV Evolution CISIS",
@@ -85,61 +79,53 @@ Requête sur le SMT
   "date" : "2025-12-16T14:18:38+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Evolution CISIS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
-      {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "MED-1281",
-            "display" : "décès auquel l’effet a pu contribuer"
-          },
-          {
-            "code" : "MED-1282",
-            "display" : "décès sans rapport avec l’effet"
-          }
-        ]
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "version" : "202512170000",
+      "concept" : [{
+        "code" : "MED-1281",
+        "display" : "décès auquel l’effet a pu contribuer"
       },
       {
-        "system" : "http://snomed.info/sct",
-        "concept" : [
-          {
-            "code" : "1352007006",
-            "display" : "guérison sans séquelle"
-          },
-          {
-            "code" : "1335890004",
-            "display" : "guéri(e) de l’évènement indésirable avec séquelle"
-          },
-          {
-            "code" : "1336140009",
-            "display" : "en cours de guérison de l'évènement indésirable"
-          },
-          {
-            "code" : "1339036001",
-            "display" : "évènement indésirable persistant sans guérison"
-          },
-          {
-            "code" : "405535005",
-            "display" : "évènement indésirable causant la mort"
-          },
-          {
-            "code" : "261665006",
-            "display" : "inconnu(e)"
-          }
-        ]
-      }
-    ]
+        "code" : "MED-1282",
+        "display" : "décès sans rapport avec l’effet"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/900000000000207008/version/20260201",
+      "concept" : [{
+        "code" : "1352007006",
+        "display" : "guérison sans séquelle"
+      },
+      {
+        "code" : "1335890004",
+        "display" : "guéri(e) de l’évènement indésirable avec séquelle"
+      },
+      {
+        "code" : "1336140009",
+        "display" : "en cours de guérison de l'évènement indésirable"
+      },
+      {
+        "code" : "1339036001",
+        "display" : "évènement indésirable persistant sans guérison"
+      },
+      {
+        "code" : "405535005",
+        "display" : "évènement indésirable causant la mort"
+      },
+      {
+        "code" : "261665006",
+        "display" : "inconnu(e)"
+      }]
+    }]
   }
 }
 

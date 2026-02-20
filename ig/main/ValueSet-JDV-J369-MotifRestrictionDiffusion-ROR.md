@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "2",
     "lastUpdated" : "2025-07-02T17:06:29.503+00:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2025-04-25T12:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2025-04-25T12:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J369-MotifRestrictionDiffusion-ROR/FHIR/JDV-J369-MotifRestrictionDiffusion-ROR",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.3.4.222"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.3.4.222"
+  }],
   "version" : "20250425120000",
   "name" : "JDV_J369_MotifRestrictionDiffusion_ROR",
   "status" : "active",
@@ -84,32 +78,25 @@ Requête sur le SMT
   "date" : "2025-04-25T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Nomenclature contenant les motifs de restriction de diffusion",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R391-MotifRestrictionDiffusion/FHIR/TRE-R391-MotifRestrictionDiffusion",
+      "version" : "20250425120000",
+      "concept" : [{
+        "code" : "OPP_DIF_PUB",
+        "display" : "Opposition à diffusion publique"
+      },
       {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R391-MotifRestrictionDiffusion/FHIR/TRE-R391-MotifRestrictionDiffusion",
-        "concept" : [
-          {
-            "code" : "OPP_DIF_PUB",
-            "display" : "Opposition à diffusion publique"
-          },
-          {
-            "code" : "PS_DANGER",
-            "display" : "Professionnel en danger"
-          }
-        ]
-      }
-    ]
+        "code" : "PS_DANGER",
+        "display" : "Professionnel en danger"
+      }]
+    }]
   }
 }
 

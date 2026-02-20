@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R03-AttributionParticuliere/FHIR/TRE-R03-AttributionParticuliere"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="ATTR-01"/>
         <display value="Expert auprès des tribunaux (expertise judiciaire)"/>

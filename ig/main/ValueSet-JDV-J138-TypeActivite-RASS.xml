@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R209-TypeActivite/FHIR/TRE-R209-TypeActivite"/>
+      <version value="20240223120000"/>
       <concept>
         <code value="01"/>
         <display value="Administration"/>

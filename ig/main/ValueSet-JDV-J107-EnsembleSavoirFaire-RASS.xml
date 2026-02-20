@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R38-SpecialiteOrdinale/FHIR/TRE-R38-SpecialiteOrdinale"/>
+      <version value="20240531120000"/>
       <concept>
         <code value="SI01"/>
         <display value="Exercice infirmier en pratique avancée pathologies chroniques stabilisées (SI)"/>
@@ -452,6 +453,7 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R39-Competence/FHIR/TRE-R39-Competence"/>
+      <version value="20240628120000"/>
       <concept>
         <code value="C01"/>
         <display value="Anatomie et Cytologie pathologiques humaines (C)"/>
@@ -627,6 +629,7 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R40-CompetenceExclusive/FHIR/TRE-R40-CompetenceExclusive"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="CEX22"/>
         <display value="Gynécologie médicale et Obstétrique (CEX)"/>
@@ -646,6 +649,7 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R42-DESCnonQualifiant/FHIR/TRE-R42-DESCnonQualifiant"/>
+      <version value="20240628120000"/>
       <concept>
         <code value="DSM200"/>
         <display value="Addictologie (DNQ)"/>
@@ -813,6 +817,7 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R43-CapaciteSavoirFaire/FHIR/TRE-R43-CapaciteSavoirFaire"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="CAPA01"/>
         <display value="Addictologie clinique (CAPA)"/>
@@ -880,6 +885,7 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R44-QualificationPAC/FHIR/TRE-R44-QualificationPAC"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="PAC00"/>
         <display value="Qualification Praticien adjoint contractuel (PAC)"/>
@@ -887,6 +893,7 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R45-FonctionQualifiee/FHIR/TRE-R45-FonctionQualifiee"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="FQ01"/>
         <display value="Expérience pratique art R.5124-16 du CSP Fabricant (FQ)"/>
@@ -910,6 +917,7 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R97-DroitExerciceCompl/FHIR/TRE-R97-DroitExerciceCompl"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="DEC01"/>
         <display value="Addictologie (DEC)"/>
@@ -1009,6 +1017,7 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_G13-OrientationParticuliere/FHIR/TRE-G13-OrientationParticuliere"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="80"/>
         <display value="Homéopathie"/>
@@ -1020,6 +1029,7 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R359-SurspecialiteTransversale/FHIR/TRE-R359-SurspecialiteTransversale"/>
+      <version value="20251222120000"/>
       <concept>
         <code value="SST01"/>
         <display value="Addictologie"/>
@@ -1131,6 +1141,7 @@
     </include>
     <include>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r394-competence-metier"/>
+      <version value="20250625120000"/>
       <concept>
         <code value="CM0001"/>
         <display value="Certificat de décès"/>

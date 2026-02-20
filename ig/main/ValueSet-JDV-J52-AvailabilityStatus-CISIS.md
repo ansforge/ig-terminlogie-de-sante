@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "4",
     "lastUpdated" : "2025-07-02T17:06:34.904+00:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2018-06-29T12:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2018-06-29T12:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J52-AvailabilityStatus-CISIS/FHIR/JDV-J52-AvailabilityStatus-CISIS",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.131"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.131"
+  }],
   "version" : "20200424120000",
   "name" : "JDV_J52_AvailabilityStatus_CISIS",
   "status" : "active",
@@ -84,45 +78,37 @@ Requête sur le SMT
   "date" : "2020-04-24T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Statut du document CI-SIS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
-      {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R269-AvailabilityStatusProvenanceOasis/FHIR/TRE-R269-AvailabilityStatusProvenanceOasis",
-        "concept" : [
-          {
-            "code" : "urn:oasis:names:tc:ebxml-regrep:StatusType:Approved",
-            "display" : "Version à jour"
-          },
-          {
-            "code" : "urn:oasis:names:tc:ebxml-regrep:StatusType:Deprecated",
-            "display" : "Version obsolète"
-          }
-        ]
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R269-AvailabilityStatusProvenanceOasis/FHIR/TRE-R269-AvailabilityStatusProvenanceOasis",
+      "version" : "20231215120000",
+      "concept" : [{
+        "code" : "urn:oasis:names:tc:ebxml-regrep:StatusType:Approved",
+        "display" : "Version à jour"
       },
       {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R270-AvailabilityStatus/FHIR/TRE-R270-AvailabilityStatus",
-        "concept" : [
-          {
-            "code" : "urn:asip:ci-sis:2010:StatusType:Archived",
-            "display" : "Version archivée et à jour"
-          },
-          {
-            "code" : "urn:asip:ci-sis:2010:StatusType:Deleted",
-            "display" : "Version dépubliée"
-          }
-        ]
-      }
-    ]
+        "code" : "urn:oasis:names:tc:ebxml-regrep:StatusType:Deprecated",
+        "display" : "Version obsolète"
+      }]
+    },
+    {
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R270-AvailabilityStatus/FHIR/TRE-R270-AvailabilityStatus",
+      "version" : "20231215120000",
+      "concept" : [{
+        "code" : "urn:asip:ci-sis:2010:StatusType:Archived",
+        "display" : "Version archivée et à jour"
+      },
+      {
+        "code" : "urn:asip:ci-sis:2010:StatusType:Deleted",
+        "display" : "Version dépubliée"
+      }]
+    }]
   }
 }
 

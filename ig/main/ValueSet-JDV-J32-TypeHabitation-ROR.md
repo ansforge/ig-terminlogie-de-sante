@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "4",
     "lastUpdated" : "2025-07-02T17:06:26.345+00:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2017-10-13T12:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2017-10-13T12:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J32-TypeHabitation-ROR/FHIR/JDV-J32-TypeHabitation-ROR",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.3.3.36"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.3.3.36"
+  }],
   "version" : "20200424120000",
   "name" : "JDV_J32_TypeHabitation_ROR",
   "status" : "active",
@@ -84,52 +78,45 @@ Requête sur le SMT
   "date" : "2020-04-24T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Type habitation - ROR",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R242-TypeHabitation/FHIR/TRE-R242-TypeHabitation",
+      "version" : "20231215120000",
+      "concept" : [{
+        "code" : "01",
+        "display" : "Chambre double"
+      },
       {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R242-TypeHabitation/FHIR/TRE-R242-TypeHabitation",
-        "concept" : [
-          {
-            "code" : "01",
-            "display" : "Chambre double"
-          },
-          {
-            "code" : "02",
-            "display" : "Chambre simple"
-          },
-          {
-            "code" : "03",
-            "display" : "F1"
-          },
-          {
-            "code" : "04",
-            "display" : "F2"
-          },
-          {
-            "code" : "05",
-            "display" : "F1bis"
-          },
-          {
-            "code" : "06",
-            "display" : "F3"
-          },
-          {
-            "code" : "07",
-            "display" : "F4"
-          }
-        ]
-      }
-    ]
+        "code" : "02",
+        "display" : "Chambre simple"
+      },
+      {
+        "code" : "03",
+        "display" : "F1"
+      },
+      {
+        "code" : "04",
+        "display" : "F2"
+      },
+      {
+        "code" : "05",
+        "display" : "F1bis"
+      },
+      {
+        "code" : "06",
+        "display" : "F3"
+      },
+      {
+        "code" : "07",
+        "display" : "F4"
+      }]
+    }]
   }
 }
 

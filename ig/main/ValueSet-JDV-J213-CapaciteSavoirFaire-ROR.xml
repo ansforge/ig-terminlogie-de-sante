@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R43-CapaciteSavoirFaire/FHIR/TRE-R43-CapaciteSavoirFaire"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="CAPA01"/>
         <display value="Addictologie clinique (CAPA)"/>

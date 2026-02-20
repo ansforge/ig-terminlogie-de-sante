@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "4",
     "lastUpdated" : "2025-07-02T17:05:57.437+00:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2022-08-26T12:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2022-08-26T12:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J225-CanalCommunication-ROR/FHIR/JDV-J225-CanalCommunication-ROR",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.3.4.57"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.3.4.57"
+  }],
   "version" : "20220826120000",
   "name" : "JDV_J225_CanalCommunication_ROR",
   "status" : "active",
@@ -84,60 +78,53 @@ Requête sur le SMT
   "date" : "2022-08-26T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Canal de communication",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R200-CanalCommunication/FHIR/TRE-R200-CanalCommunication",
+      "version" : "20231215120000",
+      "concept" : [{
+        "code" : "1",
+        "display" : "Téléphone mobile"
+      },
       {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R200-CanalCommunication/FHIR/TRE-R200-CanalCommunication",
-        "concept" : [
-          {
-            "code" : "1",
-            "display" : "Téléphone mobile"
-          },
-          {
-            "code" : "2",
-            "display" : "Téléphone fixe"
-          },
-          {
-            "code" : "3",
-            "display" : "Courrier électronique"
-          },
-          {
-            "code" : "4",
-            "display" : "Adresse web"
-          },
-          {
-            "code" : "5",
-            "display" : "Transfert de fichiers"
-          },
-          {
-            "code" : "6",
-            "display" : "Télécopie"
-          },
-          {
-            "code" : "7",
-            "display" : "Réseau radio numérique ANTARES"
-          },
-          {
-            "code" : "8",
-            "display" : "Téléphone d'alerte"
-          },
-          {
-            "code" : "9",
-            "display" : "Mail d'alerte"
-          }
-        ]
-      }
-    ]
+        "code" : "2",
+        "display" : "Téléphone fixe"
+      },
+      {
+        "code" : "3",
+        "display" : "Courrier électronique"
+      },
+      {
+        "code" : "4",
+        "display" : "Adresse web"
+      },
+      {
+        "code" : "5",
+        "display" : "Transfert de fichiers"
+      },
+      {
+        "code" : "6",
+        "display" : "Télécopie"
+      },
+      {
+        "code" : "7",
+        "display" : "Réseau radio numérique ANTARES"
+      },
+      {
+        "code" : "8",
+        "display" : "Téléphone d'alerte"
+      },
+      {
+        "code" : "9",
+        "display" : "Mail d'alerte"
+      }]
+    }]
   }
 }
 

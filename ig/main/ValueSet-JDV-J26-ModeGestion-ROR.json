@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R236-ModeGestion/FHIR/TRE-R236-ModeGestion",
+      "version" : "20231215120000",
       "concept" : [{
         "code" : "01",
         "display" : "Prestataire"

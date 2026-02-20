@@ -33,6 +33,8 @@ Requête sur le SMT
 
 ### Expansion
 
+No Expansion for this valueset (not supported by Publication Tooling)
+
 -------
 
  Explanation of the columns that may appear on this page: 
@@ -57,26 +59,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "6",
     "lastUpdated" : "2025-12-17T15:43:26.078+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2010-01-01T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2010-01-01T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-code-probleme-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.172"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.172"
+  }],
   "version" : "20251216141840",
   "name" : "JdvCodeProblemeCisis",
   "title" : "JDV Code Probleme CISIS",
@@ -85,44 +81,37 @@ Requête sur le SMT
   "date" : "2025-12-16T14:18:40+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Code Probleme CISIS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/900000000000207008/version/20260201",
+      "concept" : [{
+        "code" : "404684003",
+        "display" : "constatation clinique"
+      },
       {
-        "system" : "http://snomed.info/sct",
-        "concept" : [
-          {
-            "code" : "404684003",
-            "display" : "constatation clinique"
-          },
-          {
-            "code" : "55607006",
-            "display" : "problème"
-          },
-          {
-            "code" : "64572001",
-            "display" : "maladie"
-          },
-          {
-            "code" : "418799008",
-            "display" : "symptôme rapporté par le patient ou le répondant"
-          },
-          {
-            "code" : "282291009",
-            "display" : "interprétation diagnostique"
-          }
-        ]
-      }
-    ]
+        "code" : "55607006",
+        "display" : "problème"
+      },
+      {
+        "code" : "64572001",
+        "display" : "maladie"
+      },
+      {
+        "code" : "418799008",
+        "display" : "symptôme rapporté par le patient ou le répondant"
+      },
+      {
+        "code" : "282291009",
+        "display" : "interprétation diagnostique"
+      }]
+    }]
   }
 }
 

@@ -59,26 +59,20 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "meta" : {
     "versionId" : "5",
     "lastUpdated" : "2025-12-17T15:48:10.128+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2021-04-19T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2021-04-19T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-traitement-pps-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.478"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.478"
+  }],
   "version" : "20251216141840",
   "name" : "JdvTypeTraitementPpsCisis",
   "title" : "JDV Type Traitement Pps CISIS",
@@ -87,94 +81,84 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "date" : "2025-12-16T14:18:40+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Type Traitement Pps CISIS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
-      {
-        "system" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
-        "concept" : [
-          {
-            "code" : "C15313",
-            "display" : "radiothérapie"
-          },
-          {
-            "code" : "C15195",
-            "display" : "curiethérapie"
-          },
-          {
-            "code" : "C15632",
-            "display" : "chimiothérapie"
-          },
-          {
-            "code" : "C93352",
-            "display" : "thérapie ciblée"
-          },
-          {
-            "code" : "C15445",
-            "display" : "hormonothérapie"
-          },
-          {
-            "code" : "C15262",
-            "display" : "immunothérapie"
-          },
-          {
-            "code" : "C63334",
-            "display" : "imagerie interventionnelle"
-          },
-          {
-            "code" : "C157891",
-            "display" : "endoscopie peropératoire"
-          }
-        ]
+    "include" : [{
+      "system" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
+      "concept" : [{
+        "code" : "C15313",
+        "display" : "radiothérapie"
       },
       {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "MED-556",
-            "display" : "Fenêtre thérapeutique"
-          },
-          {
-            "code" : "MED-226",
-            "display" : "Surveillance seule"
-          },
-          {
-            "code" : "MED-232",
-            "display" : "Irathérapie"
-          },
-          {
-            "code" : "MED-126",
-            "display" : "Allogreffe / Autogreffe"
-          },
-          {
-            "code" : "GEN-092.03.01",
-            "display" : "Autre(s) traitement(s)"
-          }
-        ]
+        "code" : "C15195",
+        "display" : "curiethérapie"
       },
       {
-        "system" : "http://snomed.info/sct",
-        "concept" : [
-          {
-            "code" : "387713003",
-            "display" : "intervention chirurgicale"
-          },
-          {
-            "code" : "424313000",
-            "display" : "surveillance active"
-          }
-        ]
-      }
-    ]
+        "code" : "C15632",
+        "display" : "chimiothérapie"
+      },
+      {
+        "code" : "C93352",
+        "display" : "thérapie ciblée"
+      },
+      {
+        "code" : "C15445",
+        "display" : "hormonothérapie"
+      },
+      {
+        "code" : "C15262",
+        "display" : "immunothérapie"
+      },
+      {
+        "code" : "C63334",
+        "display" : "imagerie interventionnelle"
+      },
+      {
+        "code" : "C157891",
+        "display" : "endoscopie peropératoire"
+      }]
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "version" : "202512170000",
+      "concept" : [{
+        "code" : "MED-556",
+        "display" : "Fenêtre thérapeutique"
+      },
+      {
+        "code" : "MED-226",
+        "display" : "Surveillance seule"
+      },
+      {
+        "code" : "MED-232",
+        "display" : "Irathérapie"
+      },
+      {
+        "code" : "MED-126",
+        "display" : "Allogreffe / Autogreffe"
+      },
+      {
+        "code" : "GEN-092.03.01",
+        "display" : "Autre(s) traitement(s)"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/900000000000207008/version/20260201",
+      "concept" : [{
+        "code" : "387713003",
+        "display" : "intervention chirurgicale"
+      },
+      {
+        "code" : "424313000",
+        "display" : "surveillance active"
+      }]
+    }]
   }
 }
 

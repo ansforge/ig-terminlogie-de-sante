@@ -18,7 +18,7 @@
                   displayName="STENTS VASCULAIRES PÉRIPHÉRIQUES NUS"/>
          <Concept code="P07040202"
                   codeSystem="1.2.250.1.213.2.68"
-                  displayName="ENDOPROTHÈSES VASCULAIRES PÉRIPHÉRIQUES DITES &amp;quot;STENTS PÉRIPHÉRIQUES&amp;quot;"/>
+                  displayName="ENDOPROTHÈSES VASCULAIRES PÉRIPHÉRIQUES DITES &#34;STENTS PÉRIPHÉRIQUES&#34;"/>
          <Concept code="P07040199"
                   codeSystem="1.2.250.1.213.2.68"
                   displayName="ENDOPROTHÈSES VASCULAIRES - AUTRES"/>

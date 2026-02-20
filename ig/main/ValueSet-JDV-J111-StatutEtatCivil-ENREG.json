@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R31-StatutEtatCivil/FHIR/TRE-R31-StatutEtatCivil",
+      "version" : "20250131120000",
       "concept" : [{
         "code" : "AC",
         "display" : "Demande de certification forcée par le guichet"

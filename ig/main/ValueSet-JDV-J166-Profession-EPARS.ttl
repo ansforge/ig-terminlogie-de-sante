@@ -65,6 +65,7 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante>
        ] ;
+       fhir:version [ fhir:v "20250328120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "26" ] ;
          fhir:display [ fhir:v "Audioprothésiste" ]
@@ -83,6 +84,7 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R94-ProfessionSocial/FHIR/TRE-R94-ProfessionSocial"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R94-ProfessionSocial/FHIR/TRE-R94-ProfessionSocial>
        ] ;
+       fhir:version [ fhir:v "20241213120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "41" ] ;
          fhir:display [ fhir:v "Assistant de service social" ]
@@ -92,6 +94,7 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R95-UsagerTitre/FHIR/TRE-R95-UsagerTitre"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R95-UsagerTitre/FHIR/TRE-R95-UsagerTitre>
        ] ;
+       fhir:version [ fhir:v "20241213120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "71" ] ;
          fhir:display [ fhir:v "Ostéopathe" ]
@@ -107,6 +110,7 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante>
        ] ;
+       fhir:version [ fhir:v "20250328120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "81" ] ;
          fhir:display [ fhir:v "Orthoprothésiste" ]
@@ -137,6 +141,7 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R95-UsagerTitre/FHIR/TRE-R95-UsagerTitre"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R95-UsagerTitre/FHIR/TRE-R95-UsagerTitre>
        ] ;
+       fhir:version [ fhir:v "20241213120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "93" ] ;
          fhir:display [ fhir:v "Psychologue" ]
@@ -146,6 +151,7 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante>
        ] ;
+       fhir:version [ fhir:v "20250328120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "94" ] ;
          fhir:display [ fhir:v "Ergothérapeute" ]

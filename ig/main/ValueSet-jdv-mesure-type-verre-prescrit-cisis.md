@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "5",
     "lastUpdated" : "2025-12-17T15:45:06.902+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2021-09-24T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2021-09-24T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mesure-type-verre-prescrit-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.652"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.652"
+  }],
   "version" : "20251216141838",
   "name" : "JdvMesureTypeVerrePrescritCisis",
   "title" : "JDV Mesure Type Verre Prescrit CISIS",
@@ -85,54 +79,44 @@ Requête sur le SMT
   "date" : "2025-12-16T14:18:38+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Mesure Type Verre Prescrit CISIS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
-      {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "GEN-292",
-            "display" : "Commentaire"
-          },
-          {
-            "code" : "MED-888",
-            "display" : "Intolérance aux verres progressifs"
-          }
-        ]
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "version" : "202512170000",
+      "concept" : [{
+        "code" : "GEN-292",
+        "display" : "Commentaire"
       },
       {
-        "system" : "http://loinc.org",
-        "concept" : [
-          {
-            "code" : "28792-0",
-            "display" : "Ecart interpupillaire"
-          },
-          {
-            "code" : "64885-7",
-            "display" : "Types de verres"
-          }
-        ]
+        "code" : "MED-888",
+        "display" : "Intolérance aux verres progressifs"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "28792-0",
+        "display" : "Ecart interpupillaire"
       },
       {
-        "system" : "https://smt.esante.gouv.fr/terminologie-emdn",
-        "concept" : [
-          {
-            "code" : "Q021002",
-            "display" : "MONTURES DE LUNETTES"
-          }
-        ]
-      }
-    ]
+        "code" : "64885-7",
+        "display" : "Types de verres"
+      }]
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/terminologie-emdn",
+      "version" : "v1.2",
+      "concept" : [{
+        "code" : "Q021002",
+        "display" : "MONTURES DE LUNETTES"
+      }]
+    }]
   }
 }
 

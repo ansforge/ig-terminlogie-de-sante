@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_A05-TypeDocComplementaire/FHIR/TRE-A05-TypeDocComplementaire"/>
+      <version value="20240329120000"/>
       <concept>
         <code value="AUTORIS-SOINS"/>
         <display value="Autorisation de soins et actes non usuels sanitaires"/>
@@ -471,6 +472,7 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_A12-NomenclatureASTM/FHIR/TRE-A12-NomenclatureASTM"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="E1762"/>
         <display value="Full Document"/>

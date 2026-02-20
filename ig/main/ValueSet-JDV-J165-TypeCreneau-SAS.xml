@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R314-TypeCreneau/FHIR/TRE-R314-TypeCreneau"/>
+      <version value="20240726120000"/>
       <concept>
         <code value="PUBLIC"/>
         <display value="Créneau accessible par le grand public"/>

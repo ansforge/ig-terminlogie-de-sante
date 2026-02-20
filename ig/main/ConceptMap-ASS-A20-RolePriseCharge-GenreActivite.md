@@ -23,12 +23,10 @@ Table d’association rôle / genre d’activité pour la saisie automatique
 {
   "resourceType" : "ConceptMap",
   "id" : "ASS-A20-RolePriseCharge-GenreActivite",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/concept-bidirectional",
-      "valueBoolean" : false
-    }
-  ],
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/concept-bidirectional",
+    "valueBoolean" : false
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/ASS_A20-RolePriseCharge-GenreActivite/FHIR/ASS-A20-RolePriseCharge-GenreActivite",
   "identifier" : {
     "value" : "urn:oid:1.2.250.1.213.1.6.1.201"
@@ -40,206 +38,158 @@ Table d’association rôle / genre d’activité pour la saisie automatique
   "experimental" : false,
   "date" : "2022-02-25T12:00:00+01:00",
   "description" : "Table d'association rôle / genre d'activité pour la saisie automatique",
-  "jurisdiction" : [
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
+  "group" : [{
+    "source" : "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge",
+    "sourceVersion" : "20260202120000",
+    "target" : "https://mos.esante.gouv.fr/NOS/TRE_R22-GenreActivite/FHIR/TRE-R22-GenreActivite",
+    "targetVersion" : "20240329120000",
+    "element" : [{
+      "code" : "312",
+      "target" : [{
+        "code" : "GENR01",
+        "equivalence" : "wider"
+      }]
+    },
     {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
-  "group" : [
+      "code" : "313",
+      "target" : [{
+        "code" : "GENR01",
+        "equivalence" : "wider"
+      }]
+    },
     {
-      "source" : "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge",
-      "sourceVersion" : "20260202120000",
-      "target" : "https://mos.esante.gouv.fr/NOS/TRE_R22-GenreActivite/FHIR/TRE-R22-GenreActivite",
-      "targetVersion" : "20240329120000",
-      "element" : [
-        {
-          "code" : "312",
-          "target" : [
-            {
-              "code" : "GENR01",
-              "equivalence" : "wider"
-            }
-          ]
-        },
-        {
-          "code" : "313",
-          "target" : [
-            {
-              "code" : "GENR01",
-              "equivalence" : "wider"
-            }
-          ]
-        },
-        {
-          "code" : "314",
-          "target" : [
-            {
-              "code" : "GENR01",
-              "equivalence" : "wider"
-            }
-          ]
-        },
-        {
-          "code" : "315",
-          "target" : [
-            {
-              "code" : "GENR01",
-              "equivalence" : "wider"
-            }
-          ]
-        },
-        {
-          "code" : "316",
-          "target" : [
-            {
-              "code" : "GENR01",
-              "equivalence" : "wider"
-            }
-          ]
-        },
-        {
-          "code" : "317",
-          "target" : [
-            {
-              "code" : "GENR01",
-              "equivalence" : "wider"
-            }
-          ]
-        },
-        {
-          "code" : "318",
-          "target" : [
-            {
-              "code" : "GENR01",
-              "equivalence" : "wider"
-            }
-          ]
-        },
-        {
-          "code" : "319",
-          "target" : [
-            {
-              "code" : "GENR01",
-              "equivalence" : "wider"
-            }
-          ]
-        },
-        {
-          "code" : "320",
-          "target" : [
-            {
-              "code" : "GENR01",
-              "equivalence" : "wider"
-            }
-          ]
-        },
-        {
-          "code" : "321",
-          "target" : [
-            {
-              "code" : "GENR01",
-              "equivalence" : "wider"
-            }
-          ]
-        },
-        {
-          "code" : "322",
-          "target" : [
-            {
-              "code" : "GENR01",
-              "equivalence" : "wider"
-            }
-          ]
-        },
-        {
-          "code" : "323",
-          "target" : [
-            {
-              "code" : "GENR01",
-              "equivalence" : "wider"
-            }
-          ]
-        },
-        {
-          "code" : "324",
-          "target" : [
-            {
-              "code" : "GENR01",
-              "equivalence" : "wider"
-            }
-          ]
-        },
-        {
-          "code" : "325",
-          "target" : [
-            {
-              "code" : "GENR01",
-              "equivalence" : "wider"
-            }
-          ]
-        },
-        {
-          "code" : "326",
-          "target" : [
-            {
-              "code" : "GENR01",
-              "equivalence" : "wider"
-            }
-          ]
-        },
-        {
-          "code" : "327",
-          "target" : [
-            {
-              "code" : "GENR01",
-              "equivalence" : "wider"
-            }
-          ]
-        },
-        {
-          "code" : "328",
-          "target" : [
-            {
-              "code" : "GENR01",
-              "equivalence" : "wider"
-            }
-          ]
-        },
-        {
-          "code" : "329",
-          "target" : [
-            {
-              "code" : "GENR01",
-              "equivalence" : "wider"
-            }
-          ]
-        },
-        {
-          "code" : "330",
-          "target" : [
-            {
-              "code" : "GENR01",
-              "equivalence" : "wider"
-            }
-          ]
-        },
-        {
-          "code" : "353",
-          "target" : [
-            {
-              "code" : "GENR01",
-              "equivalence" : "wider"
-            }
-          ]
-        }
-      ]
-    }
-  ]
+      "code" : "314",
+      "target" : [{
+        "code" : "GENR01",
+        "equivalence" : "wider"
+      }]
+    },
+    {
+      "code" : "315",
+      "target" : [{
+        "code" : "GENR01",
+        "equivalence" : "wider"
+      }]
+    },
+    {
+      "code" : "316",
+      "target" : [{
+        "code" : "GENR01",
+        "equivalence" : "wider"
+      }]
+    },
+    {
+      "code" : "317",
+      "target" : [{
+        "code" : "GENR01",
+        "equivalence" : "wider"
+      }]
+    },
+    {
+      "code" : "318",
+      "target" : [{
+        "code" : "GENR01",
+        "equivalence" : "wider"
+      }]
+    },
+    {
+      "code" : "319",
+      "target" : [{
+        "code" : "GENR01",
+        "equivalence" : "wider"
+      }]
+    },
+    {
+      "code" : "320",
+      "target" : [{
+        "code" : "GENR01",
+        "equivalence" : "wider"
+      }]
+    },
+    {
+      "code" : "321",
+      "target" : [{
+        "code" : "GENR01",
+        "equivalence" : "wider"
+      }]
+    },
+    {
+      "code" : "322",
+      "target" : [{
+        "code" : "GENR01",
+        "equivalence" : "wider"
+      }]
+    },
+    {
+      "code" : "323",
+      "target" : [{
+        "code" : "GENR01",
+        "equivalence" : "wider"
+      }]
+    },
+    {
+      "code" : "324",
+      "target" : [{
+        "code" : "GENR01",
+        "equivalence" : "wider"
+      }]
+    },
+    {
+      "code" : "325",
+      "target" : [{
+        "code" : "GENR01",
+        "equivalence" : "wider"
+      }]
+    },
+    {
+      "code" : "326",
+      "target" : [{
+        "code" : "GENR01",
+        "equivalence" : "wider"
+      }]
+    },
+    {
+      "code" : "327",
+      "target" : [{
+        "code" : "GENR01",
+        "equivalence" : "wider"
+      }]
+    },
+    {
+      "code" : "328",
+      "target" : [{
+        "code" : "GENR01",
+        "equivalence" : "wider"
+      }]
+    },
+    {
+      "code" : "329",
+      "target" : [{
+        "code" : "GENR01",
+        "equivalence" : "wider"
+      }]
+    },
+    {
+      "code" : "330",
+      "target" : [{
+        "code" : "GENR01",
+        "equivalence" : "wider"
+      }]
+    },
+    {
+      "code" : "353",
+      "target" : [{
+        "code" : "GENR01",
+        "equivalence" : "wider"
+      }]
+    }]
+  }]
 }
 
 ```

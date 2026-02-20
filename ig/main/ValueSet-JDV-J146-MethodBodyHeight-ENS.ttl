@@ -74,6 +74,7 @@
          fhir:v "https://smt.esante.gouv.fr/terminologie-emdn"^^xsd:anyURI ;
          fhir:l <https://smt.esante.gouv.fr/terminologie-emdn>
        ] ;
+       fhir:version [ fhir:v "v1.2" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "V030201" ] ;
          fhir:display [ fhir:v "TOISES" ]

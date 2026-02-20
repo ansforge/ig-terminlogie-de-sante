@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R341-StatutCommunication/FHIR/TRE-R341-StatutCommunication",
+      "version" : "20231215120000",
       "concept" : [{
         "code" : "01",
         "display" : "A synchroniser"

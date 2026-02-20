@@ -39,6 +39,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "version" : "202512170000",
       "concept" : [{
         "code" : "GEN-092.01.04",
         "display" : "Autre addiction"

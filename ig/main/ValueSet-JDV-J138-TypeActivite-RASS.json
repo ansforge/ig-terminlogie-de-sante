@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R209-TypeActivite/FHIR/TRE-R209-TypeActivite",
+      "version" : "20240223120000",
       "concept" : [{
         "code" : "01",
         "display" : "Administration"

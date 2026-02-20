@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R337-AffectationTemporaire/FHIR/TRE-R337-AffectationTemporaire"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="01"/>
         <display value="Aucune"/>

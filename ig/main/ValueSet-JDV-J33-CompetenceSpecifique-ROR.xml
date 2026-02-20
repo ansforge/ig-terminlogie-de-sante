@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R243-CompetenceSpecifique/FHIR/TRE-R243-CompetenceSpecifique"/>
+      <version value="20240426120000"/>
       <concept>
         <code value="01"/>
         <display value="Maîtrise de la Langue des Signes Française (LSF)"/>

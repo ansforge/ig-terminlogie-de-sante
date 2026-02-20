@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "4",
     "lastUpdated" : "2025-07-02T17:06:03.010+00:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2023-03-31T12:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2023-03-31T12:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J236-TypeIdentifiant-ROR/FHIR/JDV-J236-TypeIdentifiant-ROR",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.3.4.110"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.3.4.110"
+  }],
   "version" : "20231030120000",
   "name" : "JDV_J236_TypeIdentifiant_ROR",
   "status" : "active",
@@ -84,100 +78,89 @@ Requête sur le SMT
   "date" : "2023-10-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Types d'identifiants utilisés dans le ROR",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
-      {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R345-TypeIdentifiantAutre/FHIR/TRE-R345-TypeIdentifiantAutre",
-        "concept" : [
-          {
-            "code" : "42",
-            "display" : "Identifiant fonctionnel de l'OI connu par l'instance ROR"
-          },
-          {
-            "code" : "43",
-            "display" : "Identifiant interne de l'OI connu par l'instance ROR"
-          }
-        ]
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R345-TypeIdentifiantAutre/FHIR/TRE-R345-TypeIdentifiantAutre",
+      "version" : "20240329120000",
+      "concept" : [{
+        "code" : "42",
+        "display" : "Identifiant fonctionnel de l'OI connu par l'instance ROR"
       },
       {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R355-TypeIdentifiantOffre/FHIR/TRE-R355-TypeIdentifiantOffre",
-        "concept" : [
-          {
-            "code" : "35",
-            "display" : "Identifiant fonctionnel de l'offre connu par l'instance ROR"
-          },
-          {
-            "code" : "36",
-            "display" : "Identifiant interne de l'offre connu par l'instance ROR"
-          }
-        ]
+        "code" : "43",
+        "display" : "Identifiant interne de l'OI connu par l'instance ROR"
+      }]
+    },
+    {
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R355-TypeIdentifiantOffre/FHIR/TRE-R355-TypeIdentifiantOffre",
+      "version" : "20240329120000",
+      "concept" : [{
+        "code" : "35",
+        "display" : "Identifiant fonctionnel de l'offre connu par l'instance ROR"
       },
       {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R354-TypeIdentifiantRessourceOperationnelle/FHIR/TRE-R354-TypeIdentifiantRessourceOperationnelle",
-        "concept" : [
-          {
-            "code" : "25",
-            "display" : "Identifiant du lieu de réalisation de l'offre connu par l'instance ROR"
-          },
-          {
-            "code" : "26",
-            "display" : "Identifiant de la zone d'hébergement connu par l'établissement"
-          }
-        ]
+        "code" : "36",
+        "display" : "Identifiant interne de l'offre connu par l'instance ROR"
+      }]
+    },
+    {
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R354-TypeIdentifiantRessourceOperationnelle/FHIR/TRE-R354-TypeIdentifiantRessourceOperationnelle",
+      "version" : "20240329120000",
+      "concept" : [{
+        "code" : "25",
+        "display" : "Identifiant du lieu de réalisation de l'offre connu par l'instance ROR"
       },
       {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_G08-TypeIdentifiantPersonne/FHIR/TRE-G08-TypeIdentifiantPersonne",
-        "concept" : [
-          {
-            "code" : "30",
-            "display" : "Identifiant de la situation opérationnelle connu par l'instance ROR"
-          }
-        ]
+        "code" : "26",
+        "display" : "Identifiant de la zone d'hébergement connu par l'établissement"
+      }]
+    },
+    {
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_G08-TypeIdentifiantPersonne/FHIR/TRE-G08-TypeIdentifiantPersonne",
+      "version" : "20240329120000",
+      "concept" : [{
+        "code" : "30",
+        "display" : "Identifiant de la situation opérationnelle connu par l'instance ROR"
+      }]
+    },
+    {
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_G07-TypeIdentifiantStructure/FHIR/TRE-G07-TypeIdentifiantStructure",
+      "version" : "20240329120000",
+      "concept" : [{
+        "code" : "40",
+        "display" : "Identifiant national de structure"
       },
       {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_G07-TypeIdentifiantStructure/FHIR/TRE-G07-TypeIdentifiantStructure",
-        "concept" : [
-          {
-            "code" : "40",
-            "display" : "Identifiant national de structure"
-          },
-          {
-            "code" : "41",
-            "display" : "Identifiant interne de l'établissement connu par l'instance ROR"
-          },
-          {
-            "code" : "0",
-            "display" : "Id Cabinet ADELI"
-          },
-          {
-            "code" : "1",
-            "display" : "FINESS"
-          },
-          {
-            "code" : "2",
-            "display" : "SIREN"
-          },
-          {
-            "code" : "3",
-            "display" : "SIRET"
-          },
-          {
-            "code" : "4",
-            "display" : "Id Cabinet RPPS"
-          }
-        ]
-      }
-    ]
+        "code" : "41",
+        "display" : "Identifiant interne de l'établissement connu par l'instance ROR"
+      },
+      {
+        "code" : "0",
+        "display" : "Id Cabinet ADELI"
+      },
+      {
+        "code" : "1",
+        "display" : "FINESS"
+      },
+      {
+        "code" : "2",
+        "display" : "SIREN"
+      },
+      {
+        "code" : "3",
+        "display" : "SIRET"
+      },
+      {
+        "code" : "4",
+        "display" : "Id Cabinet RPPS"
+      }]
+    }]
   }
 }
 

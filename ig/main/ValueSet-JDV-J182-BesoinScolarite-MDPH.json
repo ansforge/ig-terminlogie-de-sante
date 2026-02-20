@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R323-BesoinScolarite/FHIR/TRE-R323-BesoinScolarite",
+      "version" : "20240329120000",
       "concept" : [{
         "code" : "01",
         "display" : "Pour lire"
@@ -65,6 +66,7 @@
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R302-ContexteCodeComplementaire/FHIR/TRE-R302-ContexteCodeComplementaire",
+      "version" : "20240426120000",
       "concept" : [{
         "code" : "02",
         "display" : "Autre"

@@ -30,25 +30,19 @@ Caractérise les besoins d’aide de la personne en matière de scolarité, en l
   "meta" : {
     "versionId" : "6",
     "lastUpdated" : "2025-07-02T18:17:30.967+00:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2021-09-24T12:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2021-09-24T12:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R321-BesoinEntretienPersonnel/FHIR/TRE-R321-BesoinEntretienPersonnel",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.3.3.76"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.3.3.76"
+  }],
   "version" : "20240329120000",
   "name" : "TRE_R321_BesoinEntretienPersonnel",
   "status" : "active",
@@ -56,131 +50,115 @@ Caractérise les besoins d’aide de la personne en matière de scolarité, en l
   "date" : "2024-03-29T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Caractérise les besoins d'aide de la personne en matière de scolarité, en lien avec l'entretien personnel",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "caseSensitive" : false,
   "content" : "complete",
-  "property" : [
-    {
+  "property" : [{
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "deprecationDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
+    "description" : "Date Concept was deprecated",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "status",
+    "uri" : "http://hl7.org/fhir/concept-properties#status",
+    "description" : "A property that indicates the status of the concept.",
+    "type" : "code"
+  },
+  {
+    "code" : "retirementDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
+    "description" : "Date Concept was retired",
+    "type" : "dateTime"
+  }],
+  "concept" : [{
+    "code" : "01",
+    "display" : "Pour l'hygiène corporelle",
+    "definition" : "La personne a besoin d'aide pour l'hygiène corporelle",
+    "property" : [{
       "code" : "dateValid",
-      "description" : "date de validité d'un code concept",
-      "type" : "dateTime"
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "description" : "Date de mise à jour d'un code concept",
-      "type" : "dateTime"
-    },
-    {
-      "code" : "dateFin",
-      "description" : "Date de fin d'exploitation d'un code concept",
-      "type" : "dateTime"
-    },
-    {
-      "code" : "deprecationDate",
-      "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
-      "description" : "Date Concept was deprecated",
-      "type" : "dateTime"
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "uri" : "http://hl7.org/fhir/concept-properties#status",
-      "description" : "A property that indicates the status of the concept.",
-      "type" : "code"
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "02",
+    "display" : "Pour s'habiller",
+    "definition" : "La personne a besoin d'aide pour s'habiller",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
     },
     {
-      "code" : "retirementDate",
-      "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
-      "description" : "Date Concept was retired",
-      "type" : "dateTime"
-    }
-  ],
-  "concept" : [
-    {
-      "code" : "01",
-      "display" : "Pour l'hygiène corporelle",
-      "definition" : "La personne a besoin d'aide pour l'hygiène corporelle",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2021-09-24T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2021-09-24T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "code" : "dateMaj",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
     },
     {
-      "code" : "02",
-      "display" : "Pour s'habiller",
-      "definition" : "La personne a besoin d'aide pour s'habiller",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2021-09-24T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2021-09-24T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "03",
+    "display" : "Pour les repas",
+    "definition" : "La personne a besoin d'aide pour les repas",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
     },
     {
-      "code" : "03",
-      "display" : "Pour les repas",
-      "definition" : "La personne a besoin d'aide pour les repas",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2021-09-24T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2021-09-24T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "code" : "dateMaj",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
     },
     {
-      "code" : "04",
-      "display" : "Pour prendre soin de sa santé",
-      "definition" : "La personne a besoin d'aide pour prendre soin de sa santé",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2021-09-24T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2021-09-24T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
-    }
-  ]
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "04",
+    "display" : "Pour prendre soin de sa santé",
+    "definition" : "La personne a besoin d'aide pour prendre soin de sa santé",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  }]
 }
 
 ```

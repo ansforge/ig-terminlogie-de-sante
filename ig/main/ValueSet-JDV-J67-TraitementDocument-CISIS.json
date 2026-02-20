@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R285-TraitementDocument/FHIR/TRE-R285-TraitementDocument",
+      "version" : "20231215120000",
       "concept" : [{
         "code" : "Num",
         "display" : "Numérisation du document de santé"

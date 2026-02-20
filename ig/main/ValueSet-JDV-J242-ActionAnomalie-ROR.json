@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R349-ActionAnomalie/FHIR/TRE-R349-ActionAnomalie",
+      "version" : "20231215120000",
       "concept" : [{
         "code" : "AJO",
         "display" : "Ajout"

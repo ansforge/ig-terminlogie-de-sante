@@ -38,6 +38,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R81-Civilite/FHIR/TRE-R81-Civilite"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="M"/>
         <display value="Monsieur"/>
@@ -49,6 +50,7 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R11-CiviliteExercice/FHIR/TRE-R11-CiviliteExercice"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="DR"/>
         <display value="Docteur"/>

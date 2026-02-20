@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R223-NatCycleForm/FHIR/TRE-R223-NatCycleForm"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="C2"/>
         <display value="2ième cycle"/>

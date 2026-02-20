@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "5",
     "lastUpdated" : "2025-12-17T15:43:58.307+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2010-01-01T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2010-01-01T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-etiologie-infarctus-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.200"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.200"
+  }],
   "version" : "20251216141838",
   "name" : "JdvEtiologieInfarctusCisis",
   "title" : "JDV Etiologie Infarctus CISIS",
@@ -85,52 +79,45 @@ Requête sur le SMT
   "date" : "2025-12-16T14:18:38+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Etiologie Infarctus CISIS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "version" : "202512170000",
+      "concept" : [{
+        "code" : "MED-479",
+        "display" : "Athérome extracrânien"
+      },
       {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "MED-479",
-            "display" : "Athérome extracrânien"
-          },
-          {
-            "code" : "MED-480",
-            "display" : "Athérome intracrânien"
-          },
-          {
-            "code" : "MED-481",
-            "display" : "Embolie cardiaque"
-          },
-          {
-            "code" : "MED-473",
-            "display" : "Maladie petites artères"
-          },
-          {
-            "code" : "MED-482",
-            "display" : "Dissection des TSA"
-          },
-          {
-            "code" : "MED-476",
-            "display" : "Etiologie multiple"
-          },
-          {
-            "code" : "GEN-092.01.09",
-            "display" : "Autre étiologie de l'infarctus"
-          }
-        ]
-      }
-    ]
+        "code" : "MED-480",
+        "display" : "Athérome intracrânien"
+      },
+      {
+        "code" : "MED-481",
+        "display" : "Embolie cardiaque"
+      },
+      {
+        "code" : "MED-473",
+        "display" : "Maladie petites artères"
+      },
+      {
+        "code" : "MED-482",
+        "display" : "Dissection des TSA"
+      },
+      {
+        "code" : "MED-476",
+        "display" : "Etiologie multiple"
+      },
+      {
+        "code" : "GEN-092.01.09",
+        "display" : "Autre étiologie de l'infarctus"
+      }]
+    }]
   }
 }
 

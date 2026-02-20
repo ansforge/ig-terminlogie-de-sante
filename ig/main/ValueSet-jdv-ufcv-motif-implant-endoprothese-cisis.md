@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "4",
     "lastUpdated" : "2025-12-17T15:48:20.238+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2010-01-01T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2010-01-01T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-ufcv-motif-implant-endoprothese-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.4.2.12"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.4.2.12"
+  }],
   "version" : "20251216141840",
   "name" : "JdvUfcvMotifImplantEndoprotheseCisis",
   "title" : "JDV UFCV Motif Implant Endoprothese CISIS",
@@ -85,40 +79,33 @@ Requête sur le SMT
   "date" : "2025-12-16T14:18:40+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV UFCV Motif Implant Endoprothese CISIS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "version" : "202512170000",
+      "concept" : [{
+        "code" : "MED-1318",
+        "display" : "S+T+ (Segment ST sus-décalé avec augmentation des troponines)"
+      },
       {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "MED-1318",
-            "display" : "S+T+ (Segment ST sus-décalé avec augmentation des troponines)"
-          },
-          {
-            "code" : "MED-1319",
-            "display" : "S+T- (Segment ST sus-décalé sans augmentation des troponines)"
-          },
-          {
-            "code" : "MED-1320",
-            "display" : "S-T- (Segment ST non sus-décalé sans augmentation des troponines)"
-          },
-          {
-            "code" : "MED-1321",
-            "display" : "IMS (Ischémie Myocardique Silencieuse)"
-          }
-        ]
-      }
-    ]
+        "code" : "MED-1319",
+        "display" : "S+T- (Segment ST sus-décalé sans augmentation des troponines)"
+      },
+      {
+        "code" : "MED-1320",
+        "display" : "S-T- (Segment ST non sus-décalé sans augmentation des troponines)"
+      },
+      {
+        "code" : "MED-1321",
+        "display" : "IMS (Ischémie Myocardique Silencieuse)"
+      }]
+    }]
   }
 }
 

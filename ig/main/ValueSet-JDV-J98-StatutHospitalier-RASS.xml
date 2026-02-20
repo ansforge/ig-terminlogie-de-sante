@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R32-StatutHospitalier/FHIR/TRE-R32-StatutHospitalier"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="SH01"/>
         <display value="Professeur des universités - Praticien hospitalier (PU-PH) (décret n° 84-135)"/>

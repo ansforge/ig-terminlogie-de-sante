@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "6",
     "lastUpdated" : "2025-12-17T15:46:38.770+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2020-07-06T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2020-07-06T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-score-braden-component-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.504"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.504"
+  }],
   "version" : "20251216141838",
   "name" : "JdvScoreBradenComponentCisis",
   "title" : "JDV Score Braden Component CISIS",
@@ -85,48 +79,40 @@ Requête sur le SMT
   "date" : "2025-12-16T14:18:38+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Score Braden Component CISIS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "38222-6",
+        "display" : "Perception sensorielle"
+      },
       {
-        "system" : "http://loinc.org",
-        "concept" : [
-          {
-            "code" : "38222-6",
-            "display" : "Perception sensorielle"
-          },
-          {
-            "code" : "38229-1",
-            "display" : "Exposition à l'humidité"
-          },
-          {
-            "code" : "38224-2",
-            "display" : "Mobilité"
-          },
-          {
-            "code" : "38223-4",
-            "display" : "Activité"
-          },
-          {
-            "code" : "38225-9",
-            "display" : "Nutrition"
-          },
-          {
-            "code" : "38226-7",
-            "display" : "Friction et cisaillement"
-          }
-        ]
-      }
-    ]
+        "code" : "38229-1",
+        "display" : "Exposition à l'humidité"
+      },
+      {
+        "code" : "38224-2",
+        "display" : "Mobilité"
+      },
+      {
+        "code" : "38223-4",
+        "display" : "Activité"
+      },
+      {
+        "code" : "38225-9",
+        "display" : "Nutrition"
+      },
+      {
+        "code" : "38226-7",
+        "display" : "Friction et cisaillement"
+      }]
+    }]
   }
 }
 

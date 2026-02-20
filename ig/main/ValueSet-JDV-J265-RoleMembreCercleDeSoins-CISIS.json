@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass",
+      "version" : "20240426120000",
       "concept" : [{
         "code" : "GUARD",
         "display" : "Responsable légal"
@@ -61,6 +62,7 @@
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R259-HL7ParticipationFunction/FHIR/TRE-R259-HL7ParticipationFunction",
+      "version" : "20231215120000",
       "concept" : [{
         "code" : "PCP",
         "display" : "Médecin traitant"

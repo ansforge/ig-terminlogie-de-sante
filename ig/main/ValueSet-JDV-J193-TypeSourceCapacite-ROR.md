@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "4",
     "lastUpdated" : "2025-07-02T17:05:40.024+00:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2022-05-27T12:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2022-05-27T12:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J193-TypeSourceCapacite-ROR/FHIR/JDV-J193-TypeSourceCapacite-ROR",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.3.4.26"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.3.4.26"
+  }],
   "version" : "20220527120000",
   "name" : "JDV_J193_TypeSourceCapacite_ROR",
   "status" : "active",
@@ -84,40 +78,33 @@ Requête sur le SMT
   "date" : "2022-05-27T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Permet d'indiquer dans le ROR quel type de source est à l'origine de l'information de capacité",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R335-TypeSourceCapacite/FHIR/TRE-R335-TypeSourceCapacite",
+      "version" : "20231215120000",
+      "concept" : [{
+        "code" : "01",
+        "display" : "Saisie manuelle"
+      },
       {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R335-TypeSourceCapacite/FHIR/TRE-R335-TypeSourceCapacite",
-        "concept" : [
-          {
-            "code" : "01",
-            "display" : "Saisie manuelle"
-          },
-          {
-            "code" : "02",
-            "display" : "Bed management"
-          },
-          {
-            "code" : "03",
-            "display" : "Gestion administrative du malade (GAM)"
-          },
-          {
-            "code" : "04",
-            "display" : "Dossier patient informatisé (DPI)"
-          }
-        ]
-      }
-    ]
+        "code" : "02",
+        "display" : "Bed management"
+      },
+      {
+        "code" : "03",
+        "display" : "Gestion administrative du malade (GAM)"
+      },
+      {
+        "code" : "04",
+        "display" : "Dossier patient informatisé (DPI)"
+      }]
+    }]
   }
 }
 

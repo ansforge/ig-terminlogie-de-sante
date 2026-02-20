@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R254-TypeEvenement/FHIR/TRE-R254-TypeEvenement",
+      "version" : "20240329120000",
       "concept" : [{
         "code" : "ADM",
         "display" : "Admission d'un patient dans un établissement de santé"

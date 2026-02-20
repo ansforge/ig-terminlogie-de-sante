@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R73-ESPIC/FHIR/TRE-R73-ESPIC"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="0"/>
         <display value="Non concerné"/>

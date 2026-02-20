@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "7",
     "lastUpdated" : "2025-07-02T17:05:37.275+00:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2022-05-27T12:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2022-05-27T12:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J188-TypeStatutCapacite-ROR/FHIR/JDV-J188-TypeStatutCapacite-ROR",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.3.4.21"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.3.4.21"
+  }],
   "version" : "20250131120000",
   "name" : "JDV_J188_TypeStatutCapacite_ROR",
   "status" : "active",
@@ -84,48 +78,41 @@ Requête sur le SMT
   "date" : "2025-01-31T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Permet de préciser dans le ROR le statut des lits décrits",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R330-TypeStatutCapacite/FHIR/TRE-R330-TypeStatutCapacite",
+      "version" : "20250328120000",
+      "concept" : [{
+        "code" : "01",
+        "display" : "Installé"
+      },
       {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R330-TypeStatutCapacite/FHIR/TRE-R330-TypeStatutCapacite",
-        "concept" : [
-          {
-            "code" : "01",
-            "display" : "Installé"
-          },
-          {
-            "code" : "02",
-            "display" : "Disponible"
-          },
-          {
-            "code" : "03",
-            "display" : "Occupé"
-          },
-          {
-            "code" : "04",
-            "display" : "Réservé"
-          },
-          {
-            "code" : "05",
-            "display" : "Fermé"
-          },
-          {
-            "code" : "06",
-            "display" : "Supplémentaire"
-          }
-        ]
-      }
-    ]
+        "code" : "02",
+        "display" : "Disponible"
+      },
+      {
+        "code" : "03",
+        "display" : "Occupé"
+      },
+      {
+        "code" : "04",
+        "display" : "Réservé"
+      },
+      {
+        "code" : "05",
+        "display" : "Fermé"
+      },
+      {
+        "code" : "06",
+        "display" : "Supplémentaire"
+      }]
+    }]
   }
 }
 

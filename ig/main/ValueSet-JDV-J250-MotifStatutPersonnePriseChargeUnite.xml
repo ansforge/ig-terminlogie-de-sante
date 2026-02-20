@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R358-MotifStatutPersonnePriseCharge/FHIR/TRE-R358-MotifStatutPersonnePriseCharge"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="84"/>
         <display value="Le demandeur ne remplit pas les exigences d'admission"/>

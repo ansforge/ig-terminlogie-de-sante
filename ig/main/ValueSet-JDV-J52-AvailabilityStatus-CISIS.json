@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R269-AvailabilityStatusProvenanceOasis/FHIR/TRE-R269-AvailabilityStatusProvenanceOasis",
+      "version" : "20231215120000",
       "concept" : [{
         "code" : "urn:oasis:names:tc:ebxml-regrep:StatusType:Approved",
         "display" : "Version à jour"
@@ -49,6 +50,7 @@
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R270-AvailabilityStatus/FHIR/TRE-R270-AvailabilityStatus",
+      "version" : "20231215120000",
       "concept" : [{
         "code" : "urn:asip:ci-sis:2010:StatusType:Archived",
         "display" : "Version archivée et à jour"

@@ -32,26 +32,20 @@ Cadre d’exercice
   "meta" : {
     "versionId" : "8",
     "lastUpdated" : "2026-02-03T15:41:50.914+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2016-05-19T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2016-05-19T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_A01-CadreExercice/FHIR/TRE-A01-CadreExercice",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.4.9"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.4.9"
+  }],
   "version" : "20240927120000",
   "name" : "TRE_A01_CadreExercice",
   "status" : "active",
@@ -59,269 +53,235 @@ Cadre d’exercice
   "date" : "2024-09-27T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Cadre d'exercice",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "caseSensitive" : false,
   "content" : "complete",
   "count" : 10,
-  "property" : [
-    {
+  "property" : [{
+    "code" : "dateValid",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "deprecationDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
+    "description" : "Date Concept was deprecated",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "status",
+    "uri" : "http://hl7.org/fhir/concept-properties#status",
+    "description" : "A property that indicates the status of the concept.",
+    "type" : "code"
+  },
+  {
+    "code" : "retirementDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
+    "description" : "Date Concept was retired",
+    "type" : "dateTime"
+  }],
+  "concept" : [{
+    "code" : "AMBULATOIRE",
+    "display" : "Ambulatoire",
+    "property" : [{
       "code" : "dateValid",
-      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
-      "description" : "date de validité d'un code concept",
-      "type" : "dateTime"
+      "valueDateTime" : "2016-05-19T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
-      "description" : "Date de mise à jour d'un code concept",
-      "type" : "dateTime"
-    },
-    {
-      "code" : "dateFin",
-      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
-      "description" : "Date de fin d'exploitation d'un code concept",
-      "type" : "dateTime"
-    },
-    {
-      "code" : "deprecationDate",
-      "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
-      "description" : "Date Concept was deprecated",
-      "type" : "dateTime"
+      "valueDateTime" : "2016-05-19T00:00:00+01:00"
     },
     {
       "code" : "status",
-      "uri" : "http://hl7.org/fhir/concept-properties#status",
-      "description" : "A property that indicates the status of the concept.",
-      "type" : "code"
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "AMO",
+    "display" : "Organisme d'assurance maladie obligatoire",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Organisme AMO"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2016-05-19T00:00:00+01:00"
     },
     {
-      "code" : "retirementDate",
-      "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
-      "description" : "Date Concept was retired",
-      "type" : "dateTime"
-    }
-  ],
-  "concept" : [
-    {
-      "code" : "AMBULATOIRE",
-      "display" : "Ambulatoire",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2016-05-19T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2016-05-19T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-05-19T00:00:00+01:00"
     },
     {
-      "code" : "AMO",
-      "display" : "Organisme d'assurance maladie obligatoire",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Organisme AMO"
-        }
-      ],
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2016-05-19T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2016-05-19T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "DEPISTAGE",
+    "display" : "Dépistage",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2016-05-19T00:00:00+01:00"
     },
     {
-      "code" : "DEPISTAGE",
-      "display" : "Dépistage",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2016-05-19T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2016-05-19T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-05-19T00:00:00+01:00"
     },
     {
-      "code" : "ESSMS",
-      "display" : "Etablissement ou Service Social ou Médico-Social",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2024-09-27T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2024-09-27T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "ESSMS",
+    "display" : "Etablissement ou Service Social ou Médico-Social",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2024-09-27T12:00:00+01:00"
     },
     {
-      "code" : "ETABLISSEMENT",
-      "display" : "Etablissement de santé",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Etab de santé"
-        }
-      ],
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2016-05-19T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2016-05-19T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "code" : "dateMaj",
+      "valueDateTime" : "2024-09-27T12:00:00+01:00"
     },
     {
-      "code" : "HAD",
-      "display" : "Hospitalisation à domicile",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Hosp à domicile"
-        }
-      ],
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2016-05-19T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2016-05-19T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "ETABLISSEMENT",
+    "display" : "Etablissement de santé",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Etab de santé"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2016-05-19T00:00:00+01:00"
     },
     {
-      "code" : "MAD",
-      "display" : "Maintien à domicile",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2016-05-19T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2016-05-19T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-05-19T00:00:00+01:00"
     },
     {
-      "code" : "PALLIATIF",
-      "display" : "Soins palliatifs",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2016-05-19T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2016-05-19T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "HAD",
+    "display" : "Hospitalisation à domicile",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Hosp à domicile"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2016-05-19T00:00:00+01:00"
     },
     {
-      "code" : "SAD",
-      "display" : "Soins à domicile",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2016-05-19T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2016-05-19T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-05-19T00:00:00+01:00"
     },
     {
-      "code" : "SAMU_SMUR",
-      "display" : "SAMU/SMUR",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2016-05-19T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2016-05-19T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
-    }
-  ]
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MAD",
+    "display" : "Maintien à domicile",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2016-05-19T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-05-19T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "PALLIATIF",
+    "display" : "Soins palliatifs",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2016-05-19T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-05-19T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "SAD",
+    "display" : "Soins à domicile",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2016-05-19T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-05-19T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "SAMU_SMUR",
+    "display" : "SAMU/SMUR",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2016-05-19T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-05-19T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  }]
 }
 
 ```

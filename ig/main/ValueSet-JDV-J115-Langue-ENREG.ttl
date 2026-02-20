@@ -65,6 +65,7 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_G00-Langue/FHIR/TRE-G00-Langue"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_G00-Langue/FHIR/TRE-G00-Langue>
        ] ;
+       fhir:version [ fhir:v "20240927120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "aa" ] ;
          fhir:display [ fhir:v "afar" ]

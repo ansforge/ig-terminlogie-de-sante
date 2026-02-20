@@ -65,6 +65,7 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R17-TypeAutorisation/FHIR/TRE-R17-TypeAutorisation"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R17-TypeAutorisation/FHIR/TRE-R17-TypeAutorisation>
        ] ;
+       fhir:version [ fhir:v "20250523120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "AM01" ] ;
          fhir:display [ fhir:v "Autorisation de plein exercice" ]

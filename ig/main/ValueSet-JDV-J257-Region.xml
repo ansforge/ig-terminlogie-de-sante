@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"/>
+      <version value="20240628120000"/>
       <concept>
         <code value="01"/>
         <display value="Guadeloupe"/>

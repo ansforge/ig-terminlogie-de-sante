@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "5",
     "lastUpdated" : "2025-12-17T15:47:49.673+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2024-06-04T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2024-06-04T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-evenement-indesirable-previsible-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.794"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.794"
+  }],
   "version" : "20251216141838",
   "name" : "JdvTypeEvenementIndesirablePrevisibleCisis",
   "title" : "JDV Type Evenement Indesirable Previsible CISIS",
@@ -85,85 +79,77 @@ Requête sur le SMT
   "date" : "2025-12-16T14:18:38+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Type Evenement Indesirable Previsible CISIS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
-      {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "MED-1331",
-            "display" : "allergie à une substance"
-          },
-          {
-            "code" : "MED-1332",
-            "display" : "hypersensibilité non allergique à une substance"
-          },
-          {
-            "code" : "MED-1333",
-            "display" : "intolérance à un agent environnemental"
-          }
-        ]
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "version" : "202512170000",
+      "concept" : [{
+        "code" : "MED-1331",
+        "display" : "allergie à une substance"
       },
       {
-        "system" : "http://snomed.info/sct",
-        "concept" : [
-          {
-            "code" : "420134006",
-            "display" : "propension aux effets indésirables"
-          },
-          {
-            "code" : "609328004",
-            "display" : "allergie"
-          },
-          {
-            "code" : "416098002",
-            "display" : "allergie médicamenteuse"
-          },
-          {
-            "code" : "414285001",
-            "display" : "allergie alimentaire"
-          },
-          {
-            "code" : "609396006",
-            "display" : "hypersensibilité non allergique"
-          },
-          {
-            "code" : "609398007",
-            "display" : "hypersensibilité non allergique médicamenteuse"
-          },
-          {
-            "code" : "735449006",
-            "display" : "hypersensibilité non allergique alimentaire"
-          },
-          {
-            "code" : "782197009",
-            "display" : "intolérance à une substance"
-          },
-          {
-            "code" : "59037007",
-            "display" : "intolérance médicamenteuse"
-          },
-          {
-            "code" : "235719002",
-            "display" : "intolérance alimentaire"
-          },
-          {
-            "code" : "56840009",
-            "display" : "idiosyncrasie"
-          }
-        ]
-      }
-    ]
+        "code" : "MED-1332",
+        "display" : "hypersensibilité non allergique à une substance"
+      },
+      {
+        "code" : "MED-1333",
+        "display" : "intolérance à un agent environnemental"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/900000000000207008/version/20260201",
+      "concept" : [{
+        "code" : "420134006",
+        "display" : "propension aux effets indésirables"
+      },
+      {
+        "code" : "609328004",
+        "display" : "allergie"
+      },
+      {
+        "code" : "416098002",
+        "display" : "allergie médicamenteuse"
+      },
+      {
+        "code" : "414285001",
+        "display" : "allergie alimentaire"
+      },
+      {
+        "code" : "609396006",
+        "display" : "hypersensibilité non allergique"
+      },
+      {
+        "code" : "609398007",
+        "display" : "hypersensibilité non allergique médicamenteuse"
+      },
+      {
+        "code" : "735449006",
+        "display" : "hypersensibilité non allergique alimentaire"
+      },
+      {
+        "code" : "782197009",
+        "display" : "intolérance à une substance"
+      },
+      {
+        "code" : "59037007",
+        "display" : "intolérance médicamenteuse"
+      },
+      {
+        "code" : "235719002",
+        "display" : "intolérance alimentaire"
+      },
+      {
+        "code" : "56840009",
+        "display" : "idiosyncrasie"
+      }]
+    }]
   }
 }
 

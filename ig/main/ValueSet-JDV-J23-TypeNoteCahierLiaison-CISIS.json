@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R234-TypeNote/FHIR/TRE-R234-TypeNote",
+      "version" : "20231215120000",
       "concept" : [{
         "code" : "DEM-AVIS",
         "display" : "Demande d'avis"

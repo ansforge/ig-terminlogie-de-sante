@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R331-TemporaliteCapacite/FHIR/TRE-R331-TemporaliteCapacite",
+      "version" : "20231215120000",
       "concept" : [{
         "code" : "01",
         "display" : "Courant"

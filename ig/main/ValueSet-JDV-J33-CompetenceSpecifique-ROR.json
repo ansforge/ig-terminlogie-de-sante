@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R243-CompetenceSpecifique/FHIR/TRE-R243-CompetenceSpecifique",
+      "version" : "20240426120000",
       "concept" : [{
         "code" : "01",
         "display" : "Maîtrise de la Langue des Signes Française (LSF)"

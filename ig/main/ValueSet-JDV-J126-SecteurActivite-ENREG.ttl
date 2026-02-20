@@ -65,6 +65,7 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite>
        ] ;
+       fhir:version [ fhir:v "20250523120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "SA09" ] ;
          fhir:display [ fhir:v "Exercice en société" ]

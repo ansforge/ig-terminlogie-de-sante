@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "5",
     "lastUpdated" : "2025-12-17T15:43:11.694+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2022-06-27T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2022-06-27T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-bio-instruction-patient-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.691"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.691"
+  }],
   "version" : "20251216141838",
   "name" : "JdvBioInstructionPatientCisis",
   "title" : "JDV Bio Instruction Patient CISIS",
@@ -85,48 +79,41 @@ Requête sur le SMT
   "date" : "2025-12-16T14:18:38+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Bio Instruction Patient CISIS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "version" : "202512170000",
+      "concept" : [{
+        "code" : "MED-1160",
+        "display" : "A jeûn"
+      },
       {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "MED-1160",
-            "display" : "A jeûn"
-          },
-          {
-            "code" : "MED-1161",
-            "display" : "Prendre RDV au laboratoire"
-          },
-          {
-            "code" : "MED-1162",
-            "display" : "Il est préférable de faire cet examen dans le même laboratoire."
-          },
-          {
-            "code" : "MED-1163",
-            "display" : "De préférence à jeûn ou à distance d'un repas"
-          },
-          {
-            "code" : "MED-1164",
-            "display" : "Totalité des urines recueillies sur 24 heures. La collecte doit être complète."
-          },
-          {
-            "code" : "MED-1165",
-            "display" : "Prélèvement à réaliser au laboratoire. Le prélèvement chez la femme doit être effectué en début de phase folliculaire."
-          }
-        ]
-      }
-    ]
+        "code" : "MED-1161",
+        "display" : "Prendre RDV au laboratoire"
+      },
+      {
+        "code" : "MED-1162",
+        "display" : "Il est préférable de faire cet examen dans le même laboratoire."
+      },
+      {
+        "code" : "MED-1163",
+        "display" : "De préférence à jeûn ou à distance d'un repas"
+      },
+      {
+        "code" : "MED-1164",
+        "display" : "Totalité des urines recueillies sur 24 heures. La collecte doit être complète."
+      },
+      {
+        "code" : "MED-1165",
+        "display" : "Prélèvement à réaliser au laboratoire. Le prélèvement chez la femme doit être effectué en début de phase folliculaire."
+      }]
+    }]
   }
 }
 

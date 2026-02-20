@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R14-TypeDiplome/FHIR/TRE-R14-TypeDiplome"/>
+      <version value="20240329120000"/>
       <concept>
         <code value="ATT"/>
         <display value="Attestation"/>

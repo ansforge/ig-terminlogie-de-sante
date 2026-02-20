@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R272-EquipementMaterielLourd/FHIR/TRE-R272-EquipementMaterielLourd"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="05602"/>
         <display value="Scanographe à utilisation médicale"/>

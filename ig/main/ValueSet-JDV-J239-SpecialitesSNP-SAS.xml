@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R38-SpecialiteOrdinale/FHIR/TRE-R38-SpecialiteOrdinale"/>
+      <version value="20240531120000"/>
       <concept>
         <code value="SM03"/>
         <display value="Biologie médicale"/>
@@ -108,6 +109,7 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante"/>
+      <version value="20250328120000"/>
       <concept>
         <code value="40"/>
         <display value="Chirurgien-Dentiste"/>

@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R269-AvailabilityStatusProvenanceOasis/FHIR/TRE-R269-AvailabilityStatusProvenanceOasis"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved"/>
         <display value="Version à jour"/>
@@ -48,6 +49,7 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R270-AvailabilityStatus/FHIR/TRE-R270-AvailabilityStatus"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="urn:asip:ci-sis:2010:StatusType:Archived"/>
         <display value="Version archivée et à jour"/>

@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_A08-HL7Confidentiality/FHIR/TRE-A08-HL7Confidentiality",
+      "version" : "20231215120000",
       "concept" : [{
         "code" : "N",
         "display" : "Normal"
@@ -53,6 +54,7 @@
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_A07-StatutVisibiliteDocument/FHIR/TRE-A07-StatutVisibiliteDocument",
+      "version" : "20231215120000",
       "concept" : [{
         "code" : "INVISIBLE_PATIENT",
         "display" : "Non visible par le patient"

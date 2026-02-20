@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R33-StatutInscription/FHIR/TRE-R33-StatutInscription",
+      "version" : "20231215120000",
       "concept" : [{
         "code" : "D",
         "display" : "Définitif"

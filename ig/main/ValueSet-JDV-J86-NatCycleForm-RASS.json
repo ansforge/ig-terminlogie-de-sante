@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R223-NatCycleForm/FHIR/TRE-R223-NatCycleForm",
+      "version" : "20231215120000",
       "concept" : [{
         "code" : "C2",
         "display" : "2ième cycle"

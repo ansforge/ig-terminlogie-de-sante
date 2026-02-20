@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R87-TypeCarte/FHIR/TRE-R87-TypeCarte",
+      "version" : "20231215120000",
       "concept" : [{
         "code" : "CPA",
         "display" : "Carte de Personnel Autorisé (CDA/CPA)"

@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "6",
     "lastUpdated" : "2025-12-17T15:43:52.296+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2010-01-01T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2010-01-01T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-encompassing-encounter-code-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.18"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.18"
+  }],
   "version" : "20251216141840",
   "name" : "JdvEncompassingEncounterCodeCisis",
   "title" : "JDV Encompassing Encounter Code CISIS",
@@ -85,65 +79,57 @@ Requête sur le SMT
   "date" : "2025-12-16T14:18:40+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Encompassing Encounter Code CISIS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
-      {
-        "system" : "http://terminology.hl7.org/CodeSystem/v3-ActCode",
-        "concept" : [
-          {
-            "code" : "AMB",
-            "display" : "Ambulatoire (hors établissement)"
-          },
-          {
-            "code" : "EMER",
-            "display" : "Passage aux urgences (établissement)"
-          },
-          {
-            "code" : "FLD",
-            "display" : "Terrain (voie publique, hélicoptère, ambulance, etc.)"
-          },
-          {
-            "code" : "HH",
-            "display" : "Soins à domicile (hors établissement)"
-          },
-          {
-            "code" : "IMP",
-            "display" : "Hospitalisation (établissement, y compris HAD)"
-          },
-          {
-            "code" : "SS",
-            "display" : "Consultation en hôpital de jour ou court séjour"
-          },
-          {
-            "code" : "VR",
-            "display" : "Virtuelle (exemple : RCP en l'absence du patient)"
-          }
-        ]
+    "include" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-ActCode",
+      "version" : "9.0.0",
+      "concept" : [{
+        "code" : "AMB",
+        "display" : "Ambulatoire (hors établissement)"
       },
       {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R305-TypeRencontre/FHIR/TRE-R305-TypeRencontre",
-        "concept" : [
-          {
-            "code" : "EXTERNE",
-            "display" : "Acte et consultation externe (établissement)"
-          },
-          {
-            "code" : "SEANCE",
-            "display" : "Séance (établissement ou libéral)"
-          }
-        ]
-      }
-    ]
+        "code" : "EMER",
+        "display" : "Passage aux urgences (établissement)"
+      },
+      {
+        "code" : "FLD",
+        "display" : "Terrain (voie publique, hélicoptère, ambulance, etc.)"
+      },
+      {
+        "code" : "HH",
+        "display" : "Soins à domicile (hors établissement)"
+      },
+      {
+        "code" : "IMP",
+        "display" : "Hospitalisation (établissement, y compris HAD)"
+      },
+      {
+        "code" : "SS",
+        "display" : "Consultation en hôpital de jour ou court séjour"
+      },
+      {
+        "code" : "VR",
+        "display" : "Virtuelle (exemple : RCP en l'absence du patient)"
+      }]
+    },
+    {
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R305-TypeRencontre/FHIR/TRE-R305-TypeRencontre",
+      "version" : "20231215120000",
+      "concept" : [{
+        "code" : "EXTERNE",
+        "display" : "Acte et consultation externe (établissement)"
+      },
+      {
+        "code" : "SEANCE",
+        "display" : "Séance (établissement ou libéral)"
+      }]
+    }]
   }
 }
 

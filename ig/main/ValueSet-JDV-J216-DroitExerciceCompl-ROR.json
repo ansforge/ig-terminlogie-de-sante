@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R97-DroitExerciceCompl/FHIR/TRE-R97-DroitExerciceCompl",
+      "version" : "20231215120000",
       "concept" : [{
         "code" : "DEC01",
         "display" : "Addictologie (DEC)"

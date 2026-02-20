@@ -37,6 +37,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_A03-ClasseDocument/FHIR/TRE-A03-ClasseDocument"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="10"/>
         <display value="Compte rendu"/>
@@ -88,6 +89,7 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_A10-NomenclatureURN/FHIR/TRE-A10-NomenclatureURN"/>
+      <version value="20231215120000"/>
       <concept>
         <code value="urn:oid:1.3.6.1.4.1.19376.1.2.1.1.1"/>
         <display value="Digital Signature"/>

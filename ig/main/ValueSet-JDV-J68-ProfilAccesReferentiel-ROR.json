@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R78-ProfilAccesReferentiel/FHIR/TRE-R78-ProfilAccesReferentiel",
+      "version" : "20250523120000",
       "concept" : [{
         "code" : "CU17",
         "display" : "Professionnel de santé"

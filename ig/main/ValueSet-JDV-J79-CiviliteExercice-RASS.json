@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R11-CiviliteExercice/FHIR/TRE-R11-CiviliteExercice",
+      "version" : "20231215120000",
       "concept" : [{
         "code" : "DR",
         "display" : "Docteur"

@@ -33,6 +33,8 @@ Requête sur le SMT
 
 ### Expansion
 
+No Expansion for this valueset (not supported by Publication Tooling)
+
 -------
 
  Explanation of the columns that may appear on this page: 
@@ -57,26 +59,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "5",
     "lastUpdated" : "2025-12-17T15:47:46.538+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2010-01-01T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2010-01-01T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-directive-anticipee-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.136"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.136"
+  }],
   "version" : "20251216141839",
   "name" : "JdvTypeDirectiveAnticipeeCisis",
   "title" : "JDV Type Directive Anticipee CISIS",
@@ -85,70 +81,60 @@ Requête sur le SMT
   "date" : "2025-12-16T14:18:39+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Type Directive Anticipee CISIS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
-      {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "MED-298",
-            "display" : "Sédation profonde et continue associée à un traitement de la douleur"
-          }
-        ]
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "version" : "202512170000",
+      "concept" : [{
+        "code" : "MED-298",
+        "display" : "Sédation profonde et continue associée à un traitement de la douleur"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "42348-3",
+        "display" : "Directives anticipées"
       },
       {
-        "system" : "http://loinc.org",
-        "concept" : [
-          {
-            "code" : "42348-3",
-            "display" : "Directives anticipées"
-          },
-          {
-            "code" : "75789-8",
-            "display" : "Maintient artificiel en vie"
-          },
-          {
-            "code" : "75779-9",
-            "display" : "Réanimation cardiaque et respiratoire"
-          },
-          {
-            "code" : "75787-2",
-            "display" : "Assistance respiratoire"
-          },
-          {
-            "code" : "77352-3",
-            "display" : "Alimentation et hydratation artificielles"
-          },
-          {
-            "code" : "75793-0",
-            "display" : "Autre directive"
-          }
-        ]
+        "code" : "75789-8",
+        "display" : "Maintient artificiel en vie"
       },
       {
-        "system" : "http://snomed.info/sct",
-        "concept" : [
-          {
-            "code" : "387713003",
-            "display" : "intervention chirurgicale"
-          },
-          {
-            "code" : "265764009",
-            "display" : "dialyse rénale"
-          }
-        ]
-      }
-    ]
+        "code" : "75779-9",
+        "display" : "Réanimation cardiaque et respiratoire"
+      },
+      {
+        "code" : "75787-2",
+        "display" : "Assistance respiratoire"
+      },
+      {
+        "code" : "77352-3",
+        "display" : "Alimentation et hydratation artificielles"
+      },
+      {
+        "code" : "75793-0",
+        "display" : "Autre directive"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/900000000000207008/version/20260201",
+      "concept" : [{
+        "code" : "387713003",
+        "display" : "intervention chirurgicale"
+      },
+      {
+        "code" : "265764009",
+        "display" : "dialyse rénale"
+      }]
+    }]
   }
 }
 

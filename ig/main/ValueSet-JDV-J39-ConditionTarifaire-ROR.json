@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R250-ConditionTarifaire/FHIR/TRE-R250-ConditionTarifaire",
+      "version" : "20231215120000",
       "concept" : [{
         "code" : "01",
         "display" : "Tarif public"

@@ -57,26 +57,20 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "5",
     "lastUpdated" : "2025-12-17T15:47:42.527+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2021-06-22T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2021-06-22T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-de-mesure-dispositif-oculaire-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.643"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.643"
+  }],
   "version" : "20251216141838",
   "name" : "JdvTypeDeMesureDispositifOculaireCisis",
   "title" : "JDV Type De Mesure Dispositif Oculaire CISIS",
@@ -85,53 +79,44 @@ Requête sur le SMT
   "date" : "2025-12-16T14:18:38+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Type De Mesure Dispositif Oculaire CISIS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FRA"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
-      {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "MED-1179",
-            "display" : "Verres prescrits"
-          },
-          {
-            "code" : "MED-1067",
-            "display" : "Verres délivrés"
-          },
-          {
-            "code" : "MED-1068",
-            "display" : "Types de verres délivrés"
-          }
-        ]
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "version" : "202512170000",
+      "concept" : [{
+        "code" : "MED-1179",
+        "display" : "Verres prescrits"
       },
       {
-        "system" : "http://loinc.org",
-        "concept" : [
-          {
-            "code" : "28818-3",
-            "display" : "Types de verres prescrits"
-          },
-          {
-            "code" : "28866-2",
-            "display" : "Lentilles prescrites"
-          },
-          {
-            "code" : "28868-8",
-            "display" : "Lentilles délivrées"
-          }
-        ]
-      }
-    ]
+        "code" : "MED-1067",
+        "display" : "Verres délivrés"
+      },
+      {
+        "code" : "MED-1068",
+        "display" : "Types de verres délivrés"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "28818-3",
+        "display" : "Types de verres prescrits"
+      },
+      {
+        "code" : "28866-2",
+        "display" : "Lentilles prescrites"
+      },
+      {
+        "code" : "28868-8",
+        "display" : "Lentilles délivrées"
+      }]
+    }]
   }
 }
 

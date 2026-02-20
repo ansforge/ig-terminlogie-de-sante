@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R208-ClasseAge/FHIR/TRE-R208-ClasseAge",
+      "version" : "20231215120000",
       "concept" : [{
         "code" : "01",
         "display" : "Nouveau né, jusqu'à 28 jours"

@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass",
+      "version" : "20240426120000",
       "concept" : [{
         "code" : "PROV",
         "display" : "Professionnel de santé"

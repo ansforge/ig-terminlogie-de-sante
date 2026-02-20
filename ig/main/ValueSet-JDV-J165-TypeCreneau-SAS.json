@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R314-TypeCreneau/FHIR/TRE-R314-TypeCreneau",
+      "version" : "20240726120000",
       "concept" : [{
         "code" : "PUBLIC",
         "display" : "Créneau accessible par le grand public"

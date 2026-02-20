@@ -38,6 +38,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R203-StatutLieu/FHIR/TRE-R203-StatutLieu",
+      "version" : "20231215120000",
       "concept" : [{
         "code" : "1",
         "display" : "Fermé définitivement"
