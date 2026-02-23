@@ -1,7 +1,7 @@
 ValueSet: JdvJ308CategorieEntiteGeographiqueExerciceNiv2Finess
 Id: jdv-j308-categorie-entite-geographique-exercice-niv2-finess
 Title: "Jdv J308 Categorie Entite Geographique Exercice Niv2 Finess"
-Description: "Jeu de valeurs FINESS contenant les catégories des entités géographiques d'exercice de niveau 2"
+Description: "Ce JDV contient tous les agrégats Niv 2 d'EGE (JDV crée à l'image de l'ancienneTRE_R63-AgregatCategorieEtablissementNiv1)"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2026-02-23T12:00:00.000+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"

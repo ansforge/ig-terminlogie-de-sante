@@ -1,7 +1,7 @@
 ValueSet: JdvJ304FinessStatutJuridiqueFiness
 Id: jdv-j304-finess-statut-juridique-finess
 Title: "Jdv J304 Finess Statut Juridique Finess"
-Description: "Jeu de valeurs FINESS contenant les statuts juridiques de niveau 4"
+Description: "Ce JDV comporte tous les status juridiques hors agrégat (JDV créé à l'image de l'ancienne TRE_R72-FinessStatutJuridique)"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2026-02-23T12:00:00.000+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"

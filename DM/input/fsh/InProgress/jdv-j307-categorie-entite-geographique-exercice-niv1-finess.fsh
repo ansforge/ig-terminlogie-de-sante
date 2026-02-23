@@ -1,7 +1,7 @@
 ValueSet: JdvJ307CategorieEntiteGeographiqueExerciceNiv1Finess
 Id: jdv-j307-categorie-entite-geographique-exercice-niv1-finess
 Title: "Jdv J307 Categorie Entite Geographique Exercice Niv1 Finess"
-Description: "Jeu de valeurs FINESS contenant les catégories des entités géographiques d'exercice de niveau 1"
+Description: "Ce JDV contient tous les agrégats Niv1 d'EGE (JDV créé à l'image de l'ancienne TRE_R65-AgregatCategorieEtablissement)"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2026-02-23T12:00:00.000+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"

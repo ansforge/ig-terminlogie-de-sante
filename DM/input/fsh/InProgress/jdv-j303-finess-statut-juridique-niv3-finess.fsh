@@ -1,7 +1,7 @@
 ValueSet: JdvJ303FinessStatutJuridiqueNiv3Finess
 Id: jdv-j303-finess-statut-juridique-niv3-finess
 Title: "Jdv J303 Finess Statut Juridique Niv3 Finess"
-Description: "Jeu de valeurs FINESS contenant les statuts juridiques de niveau 3"
+Description: "Ce JDV contient les agrégats Niv3 des statuts juridiques (JDV créé à l'image de l'ancienne TRE_R69-FinessAgregatStatutJuridiqueNiv2)"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2026-02-23T12:00:00.000+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"

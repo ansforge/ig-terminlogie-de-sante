@@ -1,7 +1,7 @@
 ValueSet: JdvJ328PublicActiviteSmsseReguleeFiness
 Id: jdv-j328-public-activite-smsse-regulee-finess
 Title: "Jdv J328 Public Activite Smsse Regulee Finess"
-Description: "Jeu de valeurs FINESS contenant les codes des publics des activités régulées de niveau 3"
+Description: "Ce JDV contient tous les publics hors agrégat (JDV créé à l'image de l'ancienne TRE_R279-Clientele)"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2026-02-23T12:00:00.000+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"

@@ -1,7 +1,7 @@
 ValueSet: JdvJ318ActiviteEnseignementReguleeFiness
 Id: jdv-j318-activite-enseignement-regulee-finess
 Title: "Jdv J318 Activite Enseignement Regulee Finess"
-Description: "Jeu de valeurs FINESS contenant les activités d'enseignement régulées de niveau 4"
+Description: "Ce JDV contient toutes les AER hors agrégat (JDV créé à l'image de l'ancienne TRE_R281-DisciplineEnseignement)"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2026-02-23T12:00:00.000+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"

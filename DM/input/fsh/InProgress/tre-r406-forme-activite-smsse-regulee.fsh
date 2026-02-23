@@ -1,7 +1,7 @@
 CodeSystem: TreR406FormeActiviteSmsseRegulee
 Id: tre-r406-forme-activite-smsse-regulee
 Title: "Tre R406 Forme Activite Smsse Regulee"
-Description: "Formes des activites smsse régulées"
+Description: "Formes des activites smsse régulées, remplace la TRE_R276-FormeActivite"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2026-02-23T12:00:00.000+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"

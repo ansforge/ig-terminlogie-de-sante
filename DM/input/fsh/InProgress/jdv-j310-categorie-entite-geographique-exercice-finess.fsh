@@ -1,7 +1,7 @@
 ValueSet: JdvJ310CategorieEntiteGeographiqueExerciceFiness
 Id: jdv-j310-categorie-entite-geographique-exercice-finess
 Title: "Jdv J310 Categorie Entite Geographique Exercice Finess"
-Description: "Jeu de valeurs FINESS contenant les catégories d'entité géographique d'exercice spécifiques à FINESS et de niveau 4"
+Description: "Ce JDV contient toutes les catégories d'EGE hors agrégat (JDV crée à l'image de l'ancienne TRE R66)"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2026-02-23T12:00:00.000+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"

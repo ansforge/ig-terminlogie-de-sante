@@ -12,7 +12,7 @@ Description: "Population prise en charge par l'établissement dans le cadre"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.223"
 * ^version = "20260223120000"
-* ^status = #active
+* ^status = #retired
 * ^experimental = false
 * ^date = "2026-02-23T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"

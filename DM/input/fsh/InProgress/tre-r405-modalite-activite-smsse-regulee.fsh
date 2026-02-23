@@ -1,7 +1,7 @@
 CodeSystem: TreR405ModaliteActiviteSmsseRegulee
 Id: tre-r405-modalite-activite-smsse-regulee
 Title: "Tre R405 Modalite Activite Smsse Regulee"
-Description: "Modalités des activités SSMSE régulées"
+Description: "Modalités des activités SSMSE régulées, remplace la TRE_R275-ModaliteActivite"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2026-02-23T12:00:00.000+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"

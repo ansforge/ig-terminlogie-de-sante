@@ -1,7 +1,7 @@
 ValueSet: JdvJ329PublicActiviteSmsseReguleeNiv1Finess
 Id: jdv-j329-public-activite-smsse-regulee-niv1-finess
 Title: "Jdv J329 Public Activite Smsse Regulee Niv1 Finess"
-Description: "Jeu de valeurs FINESS contenant les codes des publics des activités régulées de niveau 1"
+Description: "Ce JDV contient tous les agregats Niv 1 des publics (JDV créé à l'image de l'ancienne TRE_R293-AgregatClienteleNiv2)"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2026-02-23T12:00:00.000+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"

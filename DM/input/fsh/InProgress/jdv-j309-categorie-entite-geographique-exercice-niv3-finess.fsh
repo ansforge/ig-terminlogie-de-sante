@@ -1,7 +1,7 @@
 ValueSet: JdvJ309CategorieEntiteGeographiqueExerciceNiv3Finess
 Id: jdv-j309-categorie-entite-geographique-exercice-niv3-finess
 Title: "Jdv J309 Categorie Entite Geographique Exercice Niv3 Finess"
-Description: "Jeu de valeurs FINESS contenant les catégories des entités géographiques d'exercice de niveau 3"
+Description: "Ce JDV contient tous les agrégats Niv3 d'EGE (JDV créé à l'image de l'ancienneTRE_R64-AgregatCategorieEtablissementNiv2)"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2026-02-23T12:00:00.000+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"

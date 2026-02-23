@@ -1,7 +1,7 @@
 ValueSet: JdvJ376PublicActiviteSmsseReguleeRass
 Id: jdv-j376-public-activite-smsse-regulee-rass
 Title: "Jdv J376 Public Activite Smsse Regulee Rass"
-Description: "Jeu de valeurs RASS contenant les codes actifs des publics des activités régulées de niveau 3"
+Description: "Ce JDV remplace le JDV_J137_Clientele_RASS"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2026-02-23T18:02:28.249+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"

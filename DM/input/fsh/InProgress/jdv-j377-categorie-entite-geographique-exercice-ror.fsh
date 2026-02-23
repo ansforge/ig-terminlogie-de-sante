@@ -1,7 +1,7 @@
 ValueSet: JdvJ377CategorieEntiteGeographiqueExerciceRor
 Id: jdv-j377-categorie-entite-geographique-exercice-ror
 Title: "Jdv J377 Categorie Entite Geographique Exercice Ror"
-Description: "Catégories d'établissements FINESS ou hors FINESS et secteurs d'activité des cabinets"
+Description: "Ce JDV remplace le JDV_J55_CategorieEG_ROR"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2026-02-23T18:02:28.249+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"

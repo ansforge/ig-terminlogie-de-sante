@@ -1,7 +1,7 @@
 ValueSet: JdvJ379ActiviteSocialeReguleeRass
 Id: jdv-j379-activite-sociale-regulee-rass
 Title: "Jdv J379 Activite Sociale Regulee Rass"
-Description: "Activités sociales régulées pour le RASS"
+Description: "Ce JDV remplace le JDV_J136_DisciplineEquipementSocial_RASS"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2026-02-23T18:02:28.249+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
