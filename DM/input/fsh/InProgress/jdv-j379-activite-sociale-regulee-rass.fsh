@@ -17,4 +17,4 @@ Description: "Activités sociales régulées pour le RASS"
 * ^date = "2026-02-23T18:02:28.249+00:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
-* include codes from system $tre-r401-activite-sociale-regulee where status = "active"
+* include codes from system $tre-r401-activite-sociale-regulee where niveau = "4" and status = "active"
