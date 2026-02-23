@@ -1,4 +1,4 @@
-# JDV_J101_SecteurActivite_RASS - Terminologies de Santé v1.6.0
+# JDV_J101_SecteurActivite_RASS - Terminologies de Santé v1.7.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J101-SecteurActivite-RASS/FHIR/JDV-J101-SecteurActivite-RASS | *Version*:20250828120000 | |
-| Active as of 2025-08-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J101_SecteurActivite_RASS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J101-SecteurActivite-RASS/FHIR/JDV-J101-SecteurActivite-RASS | *Version*:20260223120000 | |
+| Active as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J101_SecteurActivite_RASS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.169 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J101-SecteurActivite-RASS",
   "meta" : {
-    "versionId" : "13",
-    "lastUpdated" : "2025-10-02T19:01:53.430+02:00",
+    "versionId" : "15",
+    "lastUpdated" : "2026-02-23T18:17:21.574+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
@@ -71,11 +71,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.169"
   }],
-  "version" : "20250828120000",
+  "version" : "20260223120000",
   "name" : "JDV_J101_SecteurActivite_RASS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-08-28T12:00:00+01:00",
+  "date" : "2026-02-23T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Secteurs d'activité des établissements avec la même activité dans le RASS",
   "jurisdiction" : [{
@@ -246,7 +246,7 @@ Requête sur le SMT
       },
       {
         "code" : "SA40",
-        "display" : "Secteur privé, praticien hospitalier temps plein"
+        "display" : "Secteur privé, praticien hospitalier"
       },
       {
         "code" : "SA41",

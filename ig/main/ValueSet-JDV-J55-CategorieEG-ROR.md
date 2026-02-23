@@ -1,4 +1,4 @@
-# JDV_J55_CategorieEG_ROR - Terminologies de Santé v1.6.0
+# JDV_J55_CategorieEG_ROR - Terminologies de Santé v1.7.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J55-CategorieEG-ROR/FHIR/JDV-J55-CategorieEG-ROR | *Version*:20251222120000 | |
-| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J55_CategorieEG_ROR |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J55-CategorieEG-ROR/FHIR/JDV-J55-CategorieEG-ROR | *Version*:20260223120000 | |
+| Active as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J55_CategorieEG_ROR |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.65 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J55-CategorieEG-ROR",
   "meta" : {
-    "versionId" : "16",
-    "lastUpdated" : "2025-12-18T16:47:52.362+01:00",
+    "versionId" : "18",
+    "lastUpdated" : "2026-02-23T18:17:35.563+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
@@ -71,11 +71,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.65"
   }],
-  "version" : "20251222120000",
+  "version" : "20260223120000",
   "name" : "JDV_J55_CategorieEG_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-22T12:00:00+01:00",
+  "date" : "2026-02-23T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Catégories d'établissements FINESS ou hors FINESS et secteurs d'activité des cabinets",
   "jurisdiction" : [{
@@ -87,7 +87,7 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement",
-      "version" : "20251222120000",
+      "version" : "20260223120000",
       "concept" : [{
         "code" : "101",
         "display" : "Centre hospitalier régional (CHR)"
@@ -178,7 +178,7 @@ Requête sur le SMT
       },
       {
         "code" : "166",
-        "display" : "Etablissement d'accueil mère-enfant"
+        "display" : "Centre Parents-Enfants de moins de 3 ans"
       },
       {
         "code" : "172",
@@ -277,16 +277,8 @@ Requête sur le SMT
         "display" : "Résidence Hôtelière à Vocation Sociale (R.H.V.S)"
       },
       {
-        "code" : "218",
-        "display" : "Aire station nomades"
-      },
-      {
         "code" : "219",
         "display" : "Autre centre d'accueil"
-      },
-      {
-        "code" : "220",
-        "display" : "Centre social"
       },
       {
         "code" : "221",
@@ -394,7 +386,7 @@ Requête sur le SMT
       },
       {
         "code" : "286",
-        "display" : "Club, Equipe de prévention"
+        "display" : "Service de prévention spécialisée"
       },
       {
         "code" : "292",
@@ -411,10 +403,6 @@ Requête sur le SMT
       {
         "code" : "300",
         "display" : "Ecole formant aux professions sanitaires"
-      },
-      {
-        "code" : "324",
-        "display" : "Logement foyer non spécialisé"
       },
       {
         "code" : "330",
@@ -437,10 +425,6 @@ Requête sur le SMT
         "display" : "Service délégué aux prestations familiales"
       },
       {
-        "code" : "345",
-        "display" : "Service de tutelle aux prestations sociales adultes"
-      },
-      {
         "code" : "347",
         "display" : "Centre d'examens de santé"
       },
@@ -451,10 +435,6 @@ Requête sur le SMT
       {
         "code" : "355",
         "display" : "Centre hospitalier (CH)"
-      },
-      {
-        "code" : "359",
-        "display" : "Centre circonscription sanitaire et sociale"
       },
       {
         "code" : "362",
@@ -513,20 +493,8 @@ Requête sur le SMT
         "display" : "Foyer d'hébergement pour enfants et adolescents handicapés"
       },
       {
-        "code" : "400",
-        "display" : "Centre de services pour associations"
-      },
-      {
         "code" : "402",
         "display" : "Jardin d'enfants spécialisé"
-      },
-      {
-        "code" : "403",
-        "display" : "Service social spécialisé ou polyvalent de catégorie"
-      },
-      {
-        "code" : "405",
-        "display" : "Service social polyvalent de secteur"
       },
       {
         "code" : "411",
@@ -783,6 +751,10 @@ Requête sur le SMT
       {
         "code" : "649",
         "display" : "Centre de santé et de médiation en santé sexuelle"
+      },
+      {
+        "code" : "650",
+        "display" : "Dispositifs Spécifiques Régionaux en périnatalité"
       },
       {
         "code" : "695",

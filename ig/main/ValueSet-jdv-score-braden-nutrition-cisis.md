@@ -1,4 +1,4 @@
-# JDV Score Braden Nutrition CISIS - Terminologies de Santé v1.6.0
+# JDV Score Braden Nutrition CISIS - Terminologies de Santé v1.7.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-score-braden-nutrition-cisis | *Version*:20251216141838 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvScoreBradenNutritionCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-score-braden-nutrition-cisis | *Version*:20260220142103 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvScoreBradenNutritionCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.509 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-score-braden-nutrition-cisis",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-12-17T15:46:41.127+01:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-02-23T14:59:43.400+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
@@ -71,12 +71,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.509"
   }],
-  "version" : "20251216141838",
+  "version" : "20260220142103",
   "name" : "JdvScoreBradenNutritionCisis",
   "title" : "JDV Score Braden Nutrition CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:38+01:00",
+  "date" : "2026-02-20T14:21:03+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Score Braden Nutrition CISIS",
   "jurisdiction" : [{

@@ -1,4 +1,4 @@
-# ROIOverlayShape - Terminologies de Santé v1.6.0
+# ROIOverlayShape - Terminologies de Santé v1.7.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ROIOverlayShape-cisis | *Version*:20251216141840 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ROIOverlayShape |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ROIOverlayShape-cisis | *Version*:20260220142105 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ROIOverlayShape |
 | *Other Identifiers:*OID:2.16.840.1.113883.1.11.16117 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-hl7-v3-ROIOverlayShape-cisis",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-12-17T15:48:37.055+01:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-02-23T15:00:52.577+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
@@ -71,12 +71,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:2.16.840.1.113883.1.11.16117"
   }],
-  "version" : "20251216141840",
+  "version" : "20260220142105",
   "name" : "ROIOverlayShape",
   "title" : "ROIOverlayShape",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:40+01:00",
+  "date" : "2026-02-20T14:21:05+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "ROIOverlayShape",
   "jurisdiction" : [{

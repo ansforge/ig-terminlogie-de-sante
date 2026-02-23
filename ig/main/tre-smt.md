@@ -1,4 +1,4 @@
-# Terminologies du SMT - Terminologies de Santé v1.6.0
+# Terminologies du SMT - Terminologies de Santé v1.7.0
 
 * [**Table of Contents**](toc.md)
 * [**Terminologies**](tre.md)

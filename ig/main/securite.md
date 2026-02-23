@@ -1,4 +1,4 @@
-# Sécurité - Terminologies de Santé v1.6.0
+# Sécurité - Terminologies de Santé v1.7.0
 
 * [**Table of Contents**](toc.md)
 * [**Autres Ressources**](autres_ressources.md)

@@ -1,4 +1,4 @@
-# JDV Sop Class CISIS - Terminologies de Santé v1.6.0
+# JDV Sop Class CISIS - Terminologies de Santé v1.7.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-sop-class-cisis | *Version*:20251216141838 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvSopClassCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-sop-class-cisis | *Version*:20260220142103 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvSopClassCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.689 | | |
 
  
@@ -57,8 +57,8 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "resourceType" : "ValueSet",
   "id" : "jdv-sop-class-cisis",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-12-17T15:46:55.729+01:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-02-23T14:59:51.394+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
@@ -73,12 +73,12 @@ No Expansion for this valueset (not supported by Publication Tooling)
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.689"
   }],
-  "version" : "20251216141838",
+  "version" : "20260220142103",
   "name" : "JdvSopClassCisis",
   "title" : "JDV Sop Class CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:38+01:00",
+  "date" : "2026-02-20T14:21:03+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Sop Class CISIS",
   "jurisdiction" : [{
@@ -89,7 +89,7 @@ No Expansion for this valueset (not supported by Publication Tooling)
   }],
   "compose" : {
     "include" : [{
-      "system" : "http://​dicom.​nema.​org/​medical/​dicom/​current/​output/​chtml/​part06/​chapter_A.html",
+      "system" : "https://dicom.nema.org/medical/dicom/current/output/chtml/part06/chapter_a.html",
       "concept" : [{
         "code" : "1.2.840.10008.5.1.4.1.1.1",
         "display" : "Computed Radiography Image Storage"

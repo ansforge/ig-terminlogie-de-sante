@@ -1,4 +1,4 @@
-# TRE_R73_ESPIC - Terminologies de Santé v1.6.0
+# TRE_R73_ESPIC - Terminologies de Santé v1.7.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -19,6 +19,7 @@ Etablissement de santé privé d’intérêt collectif
 
 * [JDV_J162_ESPIC_RASS](ValueSet-JDV-J162-ESPIC-RASS.md)
 * [JDV_J202_ESPIC_ROR](ValueSet-JDV-J202-ESPIC-ROR.md)
+* [VsTreR73EspicAll](ValueSet-vs-tre-r73-espic-all.md)
 
 
 
@@ -29,10 +30,11 @@ Etablissement de santé privé d’intérêt collectif
   "resourceType" : "CodeSystem",
   "id" : "TRE-R73-ESPIC",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:18:44.839+00:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-02-23T17:57:35.005+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
   },
+  "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {
@@ -58,19 +60,24 @@ Etablissement de santé privé d’intérêt collectif
     }]
   }],
   "caseSensitive" : false,
+  "valueSet" : "https://mos.esante.gouv.fr/NOS/TRE_R73-ESPIC/FHIR/TRE-R73-ESPIC?vs",
   "content" : "complete",
+  "count" : 9,
   "property" : [{
     "code" : "dateValid",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
     "description" : "date de validité d'un code concept",
     "type" : "dateTime"
   },
   {
     "code" : "dateMaj",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
     "description" : "Date de mise à jour d'un code concept",
     "type" : "dateTime"
   },
   {
     "code" : "dateFin",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
     "description" : "Date de fin d'exploitation d'un code concept",
     "type" : "dateTime"
   },
@@ -91,6 +98,12 @@ Etablissement de santé privé d’intérêt collectif
     "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
     "description" : "Date Concept was retired",
     "type" : "dateTime"
+  },
+  {
+    "code" : "finess",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#finess",
+    "description" : "Permet de définir les codes concepts utilisés par FINESS+",
+    "type" : "boolean"
   }],
   "concept" : [{
     "code" : "0",
@@ -106,6 +119,10 @@ Etablissement de santé privé d’intérêt collectif
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
     }]
   },
   {
@@ -130,6 +147,10 @@ Etablissement de santé privé d’intérêt collectif
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
     }]
   },
   {
@@ -146,6 +167,10 @@ Etablissement de santé privé d’intérêt collectif
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
     }]
   },
   {
@@ -162,6 +187,10 @@ Etablissement de santé privé d’intérêt collectif
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
     }]
   },
   {
@@ -178,6 +207,10 @@ Etablissement de santé privé d’intérêt collectif
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
     }]
   },
   {
@@ -194,6 +227,10 @@ Etablissement de santé privé d’intérêt collectif
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
     }]
   },
   {
@@ -218,6 +255,10 @@ Etablissement de santé privé d’intérêt collectif
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
     }]
   },
   {
@@ -250,6 +291,10 @@ Etablissement de santé privé d’intérêt collectif
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
     }]
   },
   {
@@ -266,6 +311,10 @@ Etablissement de santé privé d’intérêt collectif
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
     }]
   }]
 }

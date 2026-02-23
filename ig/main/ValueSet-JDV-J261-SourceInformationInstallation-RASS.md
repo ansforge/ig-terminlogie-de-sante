@@ -1,4 +1,4 @@
-# JDV_J261_SourceInformationInstallation_RASS - Terminologies de Santé v1.6.0
+# JDV_J261_SourceInformationInstallation_RASS - Terminologies de Santé v1.7.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J261-SourceInformationInstallation-RASS/FHIR/JDV-J261-SourceInformationInstallation-RASS | *Version*:20240927120000 | |
-| Active as of 2024-09-27 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J261_SourceInformationInstallation_RASS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J261-SourceInformationInstallation-RASS/FHIR/JDV-J261-SourceInformationInstallation-RASS | *Version*:20260223120000 | |
+| Retired as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J261_SourceInformationInstallation_RASS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.285 | | |
 
  
@@ -33,6 +33,8 @@ Requête sur le SMT
 
 ### Expansion
 
+Expansions are not generated for retired value sets
+
 -------
 
  Explanation of the columns that may appear on this page: 
@@ -55,15 +57,16 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J261-SourceInformationInstallation-RASS",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2025-07-02T17:06:16.721+00:00",
+    "versionId" : "4",
+    "lastUpdated" : "2026-02-23T18:17:27.752+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {
-      "start" : "2024-09-27T12:00:00+01:00"
+      "start" : "2024-09-27T12:00:00+01:00",
+      "end" : "2026-02-23T12:00:00+01:00"
     }
   }],
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J261-SourceInformationInstallation-RASS/FHIR/JDV-J261-SourceInformationInstallation-RASS",
@@ -71,11 +74,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.285"
   }],
-  "version" : "20240927120000",
+  "version" : "20260223120000",
   "name" : "JDV_J261_SourceInformationInstallation_RASS",
-  "status" : "active",
+  "status" : "retired",
   "experimental" : false,
-  "date" : "2024-09-27T12:00:00+01:00",
+  "date" : "2026-02-23T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Sources d'information possible concernant l'installation de l'activité sociale du RASS",
   "jurisdiction" : [{
@@ -87,7 +90,7 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation",
-      "version" : "20231215120000",
+      "version" : "20260223120000",
       "concept" : [{
         "code" : "V",
         "display" : "Visite de conformité"

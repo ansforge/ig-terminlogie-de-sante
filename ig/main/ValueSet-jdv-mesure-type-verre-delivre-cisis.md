@@ -1,4 +1,4 @@
-# JDV Mesure Type Verre Delivre CISIS - Terminologies de Santé v1.6.0
+# JDV Mesure Type Verre Delivre CISIS - Terminologies de Santé v1.7.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mesure-type-verre-delivre-cisis | *Version*:20251216141838 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvMesureTypeVerreDelivreCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mesure-type-verre-delivre-cisis | *Version*:20260220142103 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvMesureTypeVerreDelivreCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.654 | | |
 
  
@@ -33,8 +33,6 @@ Requête sur le SMT
 
 ### Expansion
 
-No Expansion for this valueset (not supported by Publication Tooling)
-
 -------
 
  Explanation of the columns that may appear on this page: 
@@ -57,8 +55,8 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "resourceType" : "ValueSet",
   "id" : "jdv-mesure-type-verre-delivre-cisis",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-12-17T15:45:05.756+01:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-02-23T14:58:49.931+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
@@ -73,12 +71,12 @@ No Expansion for this valueset (not supported by Publication Tooling)
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.654"
   }],
-  "version" : "20251216141838",
+  "version" : "20260220142103",
   "name" : "JdvMesureTypeVerreDelivreCisis",
   "title" : "JDV Mesure Type Verre Delivre CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:38+01:00",
+  "date" : "2026-02-20T14:21:03+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Mesure Type Verre Delivre CISIS",
   "jurisdiction" : [{
@@ -89,13 +87,6 @@ No Expansion for this valueset (not supported by Publication Tooling)
   }],
   "compose" : {
     "include" : [{
-      "system" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
-      "concept" : [{
-        "code" : "C71898",
-        "display" : "nom commercial"
-      }]
-    },
-    {
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
       "version" : "202512170000",
       "concept" : [{
@@ -130,8 +121,12 @@ No Expansion for this valueset (not supported by Publication Tooling)
         "display" : "Types de verres"
       },
       {
+        "code" : "74720-4",
+        "display" : "Nom du dispositif"
+      },
+      {
         "code" : "67716-1",
-        "display" : "modèle du dispositif"
+        "display" : "Modèle du dispositif"
       }]
     },
     {

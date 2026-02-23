@@ -1,4 +1,4 @@
-# JDV Mode Sortie CISIS - Terminologies de Santé v1.6.0
+# JDV Mode Sortie CISIS - Terminologies de Santé v1.7.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mode-sortie-cisis | *Version*:20251216141838 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvModeSortieCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mode-sortie-cisis | *Version*:20260220142103 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvModeSortieCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.204 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-mode-sortie-cisis",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-12-17T15:45:24.208+01:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-02-23T14:58:58.947+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
@@ -71,12 +71,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.204"
   }],
-  "version" : "20251216141838",
+  "version" : "20260220142103",
   "name" : "JdvModeSortieCisis",
   "title" : "JDV Mode Sortie CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:38+01:00",
+  "date" : "2026-02-20T14:21:03+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Mode Sortie CISIS",
   "jurisdiction" : [{
@@ -116,7 +116,7 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement",
-      "version" : "20251222120000",
+      "version" : "20260223120000",
       "concept" : [{
         "code" : "127",
         "display" : "Hospitalisation à Domicile"

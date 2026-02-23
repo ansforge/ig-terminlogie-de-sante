@@ -1,4 +1,4 @@
-# JDV Lieu De Vie CISIS - Terminologies de Santé v1.6.0
+# JDV Lieu De Vie CISIS - Terminologies de Santé v1.7.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-lieu-de-vie-cisis | *Version*:20251216141839 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvLieuDeVieCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-lieu-de-vie-cisis | *Version*:20260220142104 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvLieuDeVieCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.64 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-lieu-de-vie-cisis",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-12-17T15:44:55.336+01:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-02-23T14:58:45.084+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
@@ -71,12 +71,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.64"
   }],
-  "version" : "20251216141839",
+  "version" : "20260220142104",
   "name" : "JdvLieuDeVieCisis",
   "title" : "JDV Lieu De Vie CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:39+01:00",
+  "date" : "2026-02-20T14:21:04+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Lieu De Vie CISIS",
   "jurisdiction" : [{
@@ -88,7 +88,7 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement",
-      "version" : "20251222120000",
+      "version" : "20260223120000",
       "concept" : [{
         "code" : "500",
         "display" : "Etablissement d'hébergement pour personnes âgées dépendantes"

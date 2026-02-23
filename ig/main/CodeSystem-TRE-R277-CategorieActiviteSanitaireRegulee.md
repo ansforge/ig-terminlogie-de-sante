@@ -1,4 +1,4 @@
-# TRE_R277_CategorieActiviteSanitaireRegulee - Terminologies de Santé v1.6.0
+# TRE_R277_CategorieActiviteSanitaireRegulee - Terminologies de Santé v1.7.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R277-CategorieActiviteSanitaireRegulee/FHIR/TRE-R277-CategorieActiviteSanitaireRegulee | *Version*:20231215120000 | |
-| Active as of 2023-12-15 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R277_CategorieActiviteSanitaireRegulee |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R277-CategorieActiviteSanitaireRegulee/FHIR/TRE-R277-CategorieActiviteSanitaireRegulee | *Version*:20260223120000 | |
+| Retired as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R277_CategorieActiviteSanitaireRegulee |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.129 | | |
 
  
@@ -28,14 +28,15 @@ Types d’activités autorisées
   "resourceType" : "CodeSystem",
   "id" : "TRE-R277-CategorieActiviteSanitaireRegulee",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T18:17:02.957+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-02-23T17:57:22.789+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {
-      "start" : "2018-07-27T12:00:00+01:00"
+      "start" : "2018-07-27T12:00:00+01:00",
+      "end" : "2026-02-23T12:00:00+01:00"
     }
   }],
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R277-CategorieActiviteSanitaireRegulee/FHIR/TRE-R277-CategorieActiviteSanitaireRegulee",
@@ -43,11 +44,11 @@ Types d’activités autorisées
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.129"
   }],
-  "version" : "20231215120000",
+  "version" : "20260223120000",
   "name" : "TRE_R277_CategorieActiviteSanitaireRegulee",
-  "status" : "active",
+  "status" : "retired",
   "experimental" : false,
-  "date" : "2023-12-15T12:00:00+01:00",
+  "date" : "2026-02-23T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Types d'activités autorisées",
   "jurisdiction" : [{
@@ -58,18 +59,22 @@ Types d’activités autorisées
   }],
   "caseSensitive" : false,
   "content" : "complete",
+  "count" : 3,
   "property" : [{
     "code" : "dateValid",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
     "description" : "date de validité d'un code concept",
     "type" : "dateTime"
   },
   {
     "code" : "dateMaj",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
     "description" : "Date de mise à jour d'un code concept",
     "type" : "dateTime"
   },
   {
     "code" : "dateFin",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
     "description" : "Date de fin d'exploitation d'un code concept",
     "type" : "dateTime"
   },

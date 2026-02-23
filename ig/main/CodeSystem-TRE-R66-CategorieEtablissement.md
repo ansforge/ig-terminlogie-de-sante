@@ -1,4 +1,4 @@
-# TRE_R66_CategorieEtablissement - Terminologies de Santé v1.6.0
+# TRE_R66_CategorieEtablissement - Terminologies de Santé v1.7.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement | *Version*:20251222120000 | |
-| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R66_CategorieEtablissement |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement | *Version*:20260223120000 | |
+| Active as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R66_CategorieEtablissement |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.8 | | |
 
  
@@ -40,10 +40,11 @@ Catégorie d’établissements
   "resourceType" : "CodeSystem",
   "id" : "TRE-R66-CategorieEtablissement",
   "meta" : {
-    "versionId" : "19",
-    "lastUpdated" : "2025-12-22T10:46:48.203+01:00",
+    "versionId" : "21",
+    "lastUpdated" : "2026-02-23T17:57:34.340+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
   },
+  "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {
@@ -55,11 +56,11 @@ Catégorie d’établissements
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.8"
   }],
-  "version" : "20251222120000",
+  "version" : "20260223120000",
   "name" : "TRE_R66_CategorieEtablissement",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-22T12:00:00+01:00",
+  "date" : "2026-02-23T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Catégorie d'établissements",
   "jurisdiction" : [{
@@ -70,7 +71,7 @@ Catégorie d’établissements
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 320,
+  "count" : 321,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -1309,7 +1310,7 @@ Catégorie d’établissements
   },
   {
     "code" : "166",
-    "display" : "Etablissement d'Accueil Mère-Enfant",
+    "display" : "Centre Parents-Enfants de moins de 3 ans",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -1324,7 +1325,7 @@ Catégorie d’établissements
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2005-07-06T00:00:00+01:00"
+      "valueDateTime" : "2026-02-23T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -2696,7 +2697,7 @@ Catégorie d’établissements
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "deprecated"
     }]
   },
   {
@@ -4157,30 +4158,14 @@ Catégorie d’établissements
   },
   {
     "code" : "286",
-    "display" : "Club Equipe de Prévention",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "Club Equipe de Prév."
-    },
-    {
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "Club, Equipe de prévention"
-    }],
+    "display" : "Service de prévention spécialisée",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2005-07-06T00:00:00+01:00"
+      "valueDateTime" : "2026-02-23T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -9216,6 +9201,31 @@ Catégorie d’établissements
     {
       "code" : "dateMaj",
       "valueDateTime" : "2025-12-22T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "650",
+    "display" : "Dispositifs Spécifiques Régionaux en périnatalité",
+    "definition" : "Les DSRP ont pour mission principale l’animation régionale des professionnels de la périnatalité et l’accompagnement des évolutions de l’offre et des pratiques, dans un contexte marqué par des enjeux forts en matière de qualité des soins, de prévention, de démographie médicale et d’organisation des parcours. Ils contribuent à la lisibilité et à la cohérence de l’offre de soins périnatals sur les territoires, en favorisant la coordination entre la ville, l’hôpital et les services de protection maternelle et infantile (PMI).",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "D.S.R.P."
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-02-23T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-02-23T12:00:00+01:00"
     },
     {
       "code" : "status",

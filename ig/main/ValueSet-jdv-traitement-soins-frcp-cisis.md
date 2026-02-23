@@ -1,4 +1,4 @@
-# JDV Traitement Soins Frcp CISIS - Terminologies de Santé v1.6.0
+# JDV Traitement Soins Frcp CISIS - Terminologies de Santé v1.7.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-traitement-soins-frcp-cisis | *Version*:20251216141840 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvTraitementSoinsFrcpCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-traitement-soins-frcp-cisis | *Version*:20260220142105 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvTraitementSoinsFrcpCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.596 | | |
 
  
@@ -57,8 +57,8 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "resourceType" : "ValueSet",
   "id" : "jdv-traitement-soins-frcp-cisis",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-12-17T15:47:21.227+01:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-02-23T15:00:05.823+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
@@ -73,12 +73,12 @@ No Expansion for this valueset (not supported by Publication Tooling)
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.596"
   }],
-  "version" : "20251216141840",
+  "version" : "20260220142105",
   "name" : "JdvTraitementSoinsFrcpCisis",
   "title" : "JDV Traitement Soins Frcp CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:40+01:00",
+  "date" : "2026-02-20T14:21:05+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Traitement Soins Frcp CISIS",
   "jurisdiction" : [{
@@ -89,34 +89,17 @@ No Expansion for this valueset (not supported by Publication Tooling)
   }],
   "compose" : {
     "include" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "concept" : [{
+        "code" : "C79.5",
+        "display" : "Tumeur maligne secondaire des os et de la moelle osseuse"
+      }]
+    },
+    {
       "system" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
       "concept" : [{
-        "code" : "C3580",
-        "display" : "métastases osseuses"
-      },
-      {
-        "code" : "C3303",
-        "display" : "douleur"
-      },
-      {
-        "code" : "C15252",
-        "display" : "soins palliatifs"
-      },
-      {
-        "code" : "C63334",
-        "display" : "imagerie interventionnelle"
-      },
-      {
-        "code" : "C15747",
-        "display" : "soins de support"
-      },
-      {
         "code" : "C16832",
         "display" : "oncologie médicale"
-      },
-      {
-        "code" : "C71326",
-        "display" : "préservation de la fertilité"
       },
       {
         "code" : "C7201",
@@ -133,6 +116,30 @@ No Expansion for this valueset (not supported by Publication Tooling)
       {
         "code" : "ORG-130",
         "display" : "Oncogériatrie"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/900000000000207008/version/20260201",
+      "concept" : [{
+        "code" : "410240006",
+        "display" : "prise en charge du traitement de la douleur"
+      },
+      {
+        "code" : "103735009",
+        "display" : "soin palliatif"
+      },
+      {
+        "code" : "258174001",
+        "display" : "imagerie interventionnelle"
+      },
+      {
+        "code" : "243114000",
+        "display" : "soin de support"
+      },
+      {
+        "code" : "702596005",
+        "display" : "procédure de préservation de la fertilité"
       }]
     }]
   }

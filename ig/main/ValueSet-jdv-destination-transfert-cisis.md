@@ -1,4 +1,4 @@
-# JDV Destination Transfert CISIS - Terminologies de Santé v1.6.0
+# JDV Destination Transfert CISIS - Terminologies de Santé v1.7.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-destination-transfert-cisis | *Version*:20250624152100 | |
-| Active as of 2025-06-24 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvDestinationTransfertCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-destination-transfert-cisis | *Version*:20260220142104 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvDestinationTransfertCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.70 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-destination-transfert-cisis",
   "meta" : {
-    "versionId" : "3",
-    "lastUpdated" : "2025-06-25T09:13:46.335+00:00",
+    "versionId" : "4",
+    "lastUpdated" : "2026-02-23T14:58:07.465+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
@@ -71,12 +71,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.70"
   }],
-  "version" : "20250624152100",
+  "version" : "20260220142104",
   "name" : "JdvDestinationTransfertCisis",
   "title" : "JDV Destination Transfert CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-06-24T15:21:00+01:00",
+  "date" : "2026-02-20T14:21:04+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Destination Transfert CISIS",
   "jurisdiction" : [{
@@ -96,7 +96,7 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement",
-      "version" : "20251222120000",
+      "version" : "20260223120000",
       "concept" : [{
         "code" : "500",
         "display" : "Etablissement d'hébergement pour personnes âgées dépendantes"

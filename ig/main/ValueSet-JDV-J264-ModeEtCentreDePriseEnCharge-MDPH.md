@@ -1,4 +1,4 @@
-# JDV_J264_ModeEtCentreDePriseEnCharge_MDPH - Terminologies de Santé v1.6.0
+# JDV_J264_ModeEtCentreDePriseEnCharge_MDPH - Terminologies de Santé v1.7.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -103,7 +103,7 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement",
-      "version" : "20251222120000",
+      "version" : "20260223120000",
       "concept" : [{
         "code" : "238",
         "display" : "Centre d'Accueil Familial Spécialisé"

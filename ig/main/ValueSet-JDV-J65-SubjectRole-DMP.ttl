@@ -1184,7 +1184,7 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R21-Fonction/FHIR/TRE-R21-Fonction"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R21-Fonction/FHIR/TRE-R21-Fonction>
        ] ;
-       fhir:version [ fhir:v "20260202120000" ] ;
+       fhir:version [ fhir:v "20260223120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "FON-01" ] ;
          fhir:display [ fhir:v "Titulaire de cabinet" ]

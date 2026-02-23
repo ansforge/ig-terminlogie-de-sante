@@ -1,4 +1,4 @@
-# JDV Orientation Base Du Prisme CISIS - Terminologies de Santé v1.6.0
+# JDV Orientation Base Du Prisme CISIS - Terminologies de Santé v1.7.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-orientation-base-du-prisme-cisis | *Version*:20251216141838 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvOrientationBaseDuPrismeCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-orientation-base-du-prisme-cisis | *Version*:20260220142103 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvOrientationBaseDuPrismeCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.623 | | |
 
  
@@ -57,8 +57,8 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "resourceType" : "ValueSet",
   "id" : "jdv-orientation-base-du-prisme-cisis",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-12-17T15:45:53.616+01:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-02-23T14:59:16.809+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
@@ -73,12 +73,12 @@ No Expansion for this valueset (not supported by Publication Tooling)
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.623"
   }],
-  "version" : "20251216141838",
+  "version" : "20260220142103",
   "name" : "JdvOrientationBaseDuPrismeCisis",
   "title" : "JDV Orientation Base Du Prisme CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:38+01:00",
+  "date" : "2026-02-20T14:21:03+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Orientation Base Du Prisme CISIS",
   "jurisdiction" : [{

@@ -1,4 +1,4 @@
-# ASS_A28_TypeDiplome_Diplome_Profession_EPARS - Terminologies de Santé v1.6.0
+# ASS_A28_TypeDiplome_Diplome_Profession_EPARS - Terminologies de Santé v1.7.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -193,7 +193,7 @@ Pour cette association, les fichiers suivants sont également disponibles :
     "source" : "https://mos.esante.gouv.fr/NOS/TRE_R14-TypeDiplome/FHIR/TRE-R14-TypeDiplome",
     "sourceVersion" : "20240329120000",
     "target" : "https://mos.esante.gouv.fr/NOS/TRE_R58-AutreTypeDiplome/FHIR/TRE-R58-AutreTypeDiplome",
-    "targetVersion" : "20251222120000",
+    "targetVersion" : "20260223120000",
     "element" : [{
       "code" : "AU",
       "target" : [{

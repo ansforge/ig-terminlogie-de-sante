@@ -1,4 +1,4 @@
-# JDV_J118_CategorieProfessionnelle_ENREG - Terminologies de Santé v1.6.0
+# JDV_J118_CategorieProfessionnelle_ENREG - Terminologies de Santé v1.7.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J118-CategorieProfessionnelle-ENREG/FHIR/JDV-J118-CategorieProfessionnelle-ENREG | *Version*:20240329120000 | |
-| Active as of 2024-03-29 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J118_CategorieProfessionnelle_ENREG |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J118-CategorieProfessionnelle-ENREG/FHIR/JDV-J118-CategorieProfessionnelle-ENREG | *Version*:20260223120000 | |
+| Active as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J118_CategorieProfessionnelle_ENREG |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.189 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J118-CategorieProfessionnelle-ENREG",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-07-02T17:04:51.278+00:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-02-23T18:17:23.865+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
@@ -71,11 +71,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.189"
   }],
-  "version" : "20240329120000",
+  "version" : "20260223120000",
   "name" : "JDV_J118_CategorieProfessionnelle_ENREG",
   "status" : "active",
   "experimental" : false,
-  "date" : "2024-03-29T12:00:00+01:00",
+  "date" : "2026-02-23T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Catégorie professionnelle pour ENREG",
   "jurisdiction" : [{
@@ -87,7 +87,7 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R09-CategorieProfessionnelle/FHIR/TRE-R09-CategorieProfessionnelle",
-      "version" : "20240426120000",
+      "version" : "20260223120000",
       "concept" : [{
         "code" : "C",
         "display" : "Civil"
@@ -95,10 +95,6 @@ Requête sur le SMT
       {
         "code" : "E",
         "display" : "Etudiant"
-      },
-      {
-        "code" : "F",
-        "display" : "Fonctionnaire"
       },
       {
         "code" : "M",

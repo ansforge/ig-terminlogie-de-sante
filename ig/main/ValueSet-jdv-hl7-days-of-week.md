@@ -1,4 +1,4 @@
-# DaysOfWeek - Terminologies de Santé v1.6.0
+# DaysOfWeek - Terminologies de Santé v1.7.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-days-of-week | *Version*:20251216141840 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:DaysOfWeek |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-days-of-week | *Version*:20260220142105 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:DaysOfWeek |
 | *Other Identifiers:*OID:2.16.840.1.113883.4.642.3.512 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-hl7-days-of-week",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2025-12-17T15:42:42.548+01:00",
+    "versionId" : "3",
+    "lastUpdated" : "2026-02-23T14:57:30.567+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
@@ -71,12 +71,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:2.16.840.1.113883.4.642.3.512"
   }],
-  "version" : "20251216141840",
+  "version" : "20260220142105",
   "name" : "DaysOfWeek",
   "title" : "DaysOfWeek",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:40+01:00",
+  "date" : "2026-02-20T14:21:05+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "DaysOfWeek",
   "jurisdiction" : [{

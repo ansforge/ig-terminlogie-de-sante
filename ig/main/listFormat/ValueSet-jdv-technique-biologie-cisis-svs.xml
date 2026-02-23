@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20251216141838"
+             dateMaj="20260220142104"
              dateValid="20220112000000"
              description="JDV Technique Biologie CISIS"
              displayName="JdvTechniqueBiologieCisis"
@@ -264,7 +264,7 @@
                   displayName="Spectrophotométrie-dosage de substrat-bleu magon/bleu de xylidyle"/>
          <Concept code="DKF"
                   codeSystem="https://smt.esante.gouv.fr/terminologie-tccr"
-                  displayName="Spectrophotométrie-dosage de substrat-caféine benzoate &#34;rose&#34;"/>
+                  displayName="Spectrophotométrie-dosage de substrat-caféine benzoate &amp;quot;rose&amp;quot;"/>
          <Concept code="DKG"
                   codeSystem="https://smt.esante.gouv.fr/terminologie-tccr"
                   displayName="Spectrophotométrie-dosage de substrat-calmagite"/>

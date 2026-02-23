@@ -1,4 +1,4 @@
-# JDV_J131_CategorieActiviteSanitaireRegulee_RASS - Terminologies de Santé v1.6.0
+# JDV_J131_CategorieActiviteSanitaireRegulee_RASS - Terminologies de Santé v1.7.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J131-CategorieActiviteSanitaireRegulee-RASS/FHIR/JDV-J131-CategorieActiviteSanitaireRegulee-RASS | *Version*:20201127120000 | |
-| Active as of 2020-11-27 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J131_CategorieActiviteSanitaireRegulee_RASS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J131-CategorieActiviteSanitaireRegulee-RASS/FHIR/JDV-J131-CategorieActiviteSanitaireRegulee-RASS | *Version*:20260223120000 | |
+| Retired as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J131_CategorieActiviteSanitaireRegulee_RASS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.217 | | |
 
  
@@ -33,6 +33,8 @@ Requête sur le SMT
 
 ### Expansion
 
+Expansions are not generated for retired value sets
+
 -------
 
  Explanation of the columns that may appear on this page: 
@@ -55,15 +57,16 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J131-CategorieActiviteSanitaireRegulee-RASS",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2025-07-02T17:04:58.859+00:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-02-23T18:17:24.932+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {
-      "start" : "2020-11-27T12:00:00+01:00"
+      "start" : "2020-11-27T12:00:00+01:00",
+      "end" : "2026-02-23T12:00:00+01:00"
     }
   }],
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J131-CategorieActiviteSanitaireRegulee-RASS/FHIR/JDV-J131-CategorieActiviteSanitaireRegulee-RASS",
@@ -71,11 +74,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.217"
   }],
-  "version" : "20201127120000",
+  "version" : "20260223120000",
   "name" : "JDV_J131_CategorieActiviteSanitaireRegulee_RASS",
-  "status" : "active",
+  "status" : "retired",
   "experimental" : false,
-  "date" : "2020-11-27T12:00:00+01:00",
+  "date" : "2026-02-23T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Catégorie des activités sanitaires régulées dans le RASS",
   "jurisdiction" : [{
@@ -87,7 +90,7 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R277-CategorieActiviteSanitaireRegulee/FHIR/TRE-R277-CategorieActiviteSanitaireRegulee",
-      "version" : "20231215120000",
+      "version" : "20260223120000",
       "concept" : [{
         "code" : "01",
         "display" : "Activité de soins"

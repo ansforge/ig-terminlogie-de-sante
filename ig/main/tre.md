@@ -1,4 +1,4 @@
-# Terminologies - Terminologies de Santé v1.6.0
+# Terminologies - Terminologies de Santé v1.7.0
 
 * [**Table of Contents**](toc.md)
 * **Terminologies**
@@ -75,7 +75,7 @@ However, this HL7 datatypes specification treats the entire media type as one at
 | [TRE_G05_SousSectionTableauCNOP](CodeSystem-TRE-G05-SousSectionTableauCNOP.md) | Sous-Section du tableau de l'Ordre des Pharmaciens | 15/12/2023 |
 | [TRE_G07_TypeIdentifiantStructure](CodeSystem-TRE-G07-TypeIdentifiantStructure.md) | Type d'identifiant de structure | 29/03/2024 |
 | [TRE_G08_TypeIdentifiantPersonne](CodeSystem-TRE-G08-TypeIdentifiantPersonne.md) | Type d'identifiant de personne | 29/03/2024 |
-| [TRE_G09_DepartementOM](CodeSystem-TRE-G09-DepartementOM.md) | Référentiel des codes départements et collectivités d’outre-mer provenant du COG INSEE + Monaco | 28/06/2024 |
+| [TRE_G09_DepartementOM](CodeSystem-TRE-G09-DepartementOM.md) | Référentiel des codes départements et collectivités d’outre-mer provenant du COG INSEE + Monaco. Cette TRE possède des propriétés spécifiques : Autorite Epars, pour indiquer le/ les ARS du département (tre-r396-autorite) et region pour indiquer le code de la région du département (TRE-R30-RegionOM) | 28/06/2024 |
 | [TRE_G100_Specialite_AM](CodeSystem-TRE-G100-Specialite-AM.md) | Spécialité Assurance Maladie | 25/10/2024 |
 | [TRE_G11_NatureQualificationADELI](CodeSystem-TRE-G11-NatureQualificationADELI.md) | Nature de qualification ADELI | 16/10/2025 |
 | [TRE_G12_SpecialiteADELI](CodeSystem-TRE-G12-SpecialiteADELI.md) | Spécialité ADELI | 31/05/2024 |
@@ -91,7 +91,7 @@ However, this HL7 datatypes specification treats the entire media type as one at
 | [TRE_R03_AttributionParticuliere](CodeSystem-TRE-R03-AttributionParticuliere.md) | Attribution particulière | 15/12/2023 |
 | [TRE_R04_TypeSavoirFaire](CodeSystem-TRE-R04-TypeSavoirFaire.md) | Type de savoir-faire | 16/10/2025 |
 | [TRE_R06_SectionTableauCNOP](CodeSystem-TRE-R06-SectionTableauCNOP.md) | Section du tableau de l'Ordre des Pharmaciens | 15/12/2023 |
-| [TRE_R09_CategorieProfessionnelle](CodeSystem-TRE-R09-CategorieProfessionnelle.md) | Catégorie professionnelle | 26/04/2024 |
+| [TRE_R09_CategorieProfessionnelle](CodeSystem-TRE-R09-CategorieProfessionnelle.md) | Catégorie professionnelle | 23/02/2026 |
 | [TRE_R10_SexeAdministratif](CodeSystem-TRE-R10-SexeAdministratif.md) | Sexe administratif | 15/12/2023 |
 | [TRE_R11_CiviliteExercice](CodeSystem-TRE-R11-CiviliteExercice.md) | Civilité d'exercice | 15/12/2023 |
 | [TRE_R13_CommuneOM](CodeSystem-TRE-R13-CommuneOM.md) |  | 28/03/2025 |
@@ -118,7 +118,7 @@ However, this HL7 datatypes specification treats the entire media type as one at
 | [TRE_R217_ProtectionJuridique](CodeSystem-TRE-R217-ProtectionJuridique.md) | Protection juridique | 15/12/2023 |
 | [TRE_R218_ModeAuthentification](CodeSystem-TRE-R218-ModeAuthentification.md) | Mode d'authentification | 15/12/2023 |
 | [TRE_R219_AutreResponsableConsent](CodeSystem-TRE-R219-AutreResponsableConsent.md) | Autre responsable consentement | 15/12/2023 |
-| [TRE_R21_Fonction](CodeSystem-TRE-R21-Fonction.md) | Fonction | 02/02/2026 |
+| [TRE_R21_Fonction](CodeSystem-TRE-R21-Fonction.md) | Fonction | 23/02/2026 |
 | [TRE_R220_ModeleDocumentCDAStructure](CodeSystem-TRE-R220-ModeleDocumentCDAStructure.md) | Identifiant des modèles de CDA structurés | 29/10/2025 |
 | [TRE_R223_NatCycleForm](CodeSystem-TRE-R223-NatCycleForm.md) | Nature du cycle de formation des étudiants | 15/12/2023 |
 | [TRE_R224_NiveauFormAcquis](CodeSystem-TRE-R224-NiveauFormAcquis.md) | Niveaux de formation acquis dans le cycle de formation des étudiants | 15/12/2023 |
@@ -139,7 +139,7 @@ However, this HL7 datatypes specification treats the entire media type as one at
 | [TRE_R241_AideFinanciere](CodeSystem-TRE-R241-AideFinanciere.md) | Habilit. de l'EG permettant aux pers. accueillies d'avoir des aides financières | 15/12/2023 |
 | [TRE_R242_TypeHabitation](CodeSystem-TRE-R242-TypeHabitation.md) | Type habitation | 15/12/2023 |
 | [TRE_R243_CompetenceSpecifique](CodeSystem-TRE-R243-CompetenceSpecifique.md) | Compétence spécifique | 26/04/2024 |
-| [TRE_R244_CategorieOrganisation](CodeSystem-TRE-R244-CategorieOrganisation.md) | Catégorie d'organisation | 22/12/2025 |
+| [TRE_R244_CategorieOrganisation](CodeSystem-TRE-R244-CategorieOrganisation.md) | Catégorie d'organisation | 23/02/2026 |
 | [TRE_R245_SpecialisationDePriseEnCharge](CodeSystem-TRE-R245-SpecialisationDePriseEnCharge.md) | Spécialisation de prise en charge | 25/04/2025 |
 | [TRE_R246_TypeTarif](CodeSystem-TRE-R246-TypeTarif.md) | Type tarif | 15/12/2023 |
 | [TRE_R248_ModeAcces](CodeSystem-TRE-R248-ModeAcces.md) | Mode d'accès pour accéder à un SI santé avec données patients | 31/01/2025 |
@@ -171,7 +171,6 @@ However, this HL7 datatypes specification treats the entire media type as one at
 | [TRE_R274_ActiviteSanitaireRegulee](CodeSystem-TRE-R274-ActiviteSanitaireRegulee.md) | Activités sanitaires soumises à une régulation de la part de l'ARS | 15/12/2023 |
 | [TRE_R275_ModaliteActivite](CodeSystem-TRE-R275-ModaliteActivite.md) | Mode d'application ou type de soins encadrant une activité | 15/12/2023 |
 | [TRE_R276_FormeActivite](CodeSystem-TRE-R276-FormeActivite.md) | Type d'organisation de prise en charge | 29/03/2024 |
-| [TRE_R277_CategorieActiviteSanitaireRegulee](CodeSystem-TRE-R277-CategorieActiviteSanitaireRegulee.md) | Types d'activités autorisées | 15/12/2023 |
 | [TRE_R278_FinessConvention](CodeSystem-TRE-R278-FinessConvention.md) | Convention du domaine social FINESS | 31/01/2025 |
 | [TRE_R279_Clientele](CodeSystem-TRE-R279-Clientele.md) | Clientèles | 27/09/2024 |
 | [TRE_R280_DisciplineEquipementSocial](CodeSystem-TRE-R280-DisciplineEquipementSocial.md) | Disciplines d'équipement pour le social | 15/12/2023 |
@@ -195,7 +194,6 @@ However, this HL7 datatypes specification treats the entire media type as one at
 | [TRE_R298_AgregatDisciplineEquipSocNiv1](CodeSystem-TRE-R298-AgregatDisciplineEquipSocNiv1.md) | Agrégats de disciplines d'équipement pour le social niveau 1 | 15/12/2023 |
 | [TRE_R299_AgregatDisciplineEquipSocNiv2](CodeSystem-TRE-R299-AgregatDisciplineEquipSocNiv2.md) | Agrégats de disciplines d'équipement pour le social niveau 2 | 15/12/2023 |
 | [TRE_R300_AgregatDisciplineEquipSocNiv3](CodeSystem-TRE-R300-AgregatDisciplineEquipSocNiv3.md) | Agrégats de disciplines d'équipement pour le social niveau 3 | 15/12/2023 |
-| [TRE_R301_SourceInformationInstallation](CodeSystem-TRE-R301-SourceInformationInstallation.md) | Sources d'information possible concernant l'installation de l'activité sociale | 15/12/2023 |
 | [TRE_R302_ContexteCodeComplementaire](CodeSystem-TRE-R302-ContexteCodeComplementaire.md) | Liste des codes complémentaires utilisables dans un contexte particulier | 26/04/2024 |
 | [TRE_R303_HL7v3AdministrativeGender](CodeSystem-TRE-R303-HL7v3AdministrativeGender.md) | Sexe d'une personne utilisée à des fins administratives (par opposition au sexe clinique) repris de la terminologie HL7 v3 AdministrativeGender (https://www.hl7.org/fhir/v3/AdministrativeGender/cs.html) | 15/12/2023 |
 | [TRE_R304_HL7v3ActCode](CodeSystem-TRE-R304-HL7v3ActCode.md) | Type de prise en charge repris de la terminologie HL7 v3 ActCode (https://www.hl7.org/fhir/v3/ActCode/cs.html) | 15/12/2023 |
@@ -267,13 +265,13 @@ However, this HL7 datatypes specification treats the entire media type as one at
 | [TRE_R55_CertificatEtudeSpeciale](CodeSystem-TRE-R55-CertificatEtudeSpeciale.md) | Certificat d'Etude Spéciale | 15/12/2023 |
 | [TRE_R56_Attestation](CodeSystem-TRE-R56-Attestation.md) | Attestation | 29/03/2024 |
 | [TRE_R57_DiplomeEuropeenEtudeSpecialisee](CodeSystem-TRE-R57-DiplomeEuropeenEtudeSpecialisee.md) | Diplôme Européen d'Etudes Spécialisées | 15/12/2023 |
-| [TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md) | Autre type de diplôme | 22/12/2025 |
+| [TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md) | Autre type de diplôme | 23/02/2026 |
 | [TRE_R60_AutoriteEnregistrement](CodeSystem-TRE-R60-AutoriteEnregistrement.md) | Autorité d'enregistrement | 28/06/2024 |
 | [TRE_R62_Domaine](CodeSystem-TRE-R62-Domaine.md) | Domaine | 15/12/2023 |
 | [TRE_R63_AgregatCategorieEtablissementNiv1](CodeSystem-TRE-R63-AgregatCategorieEtablissementNiv1.md) | Agrégats de catégories d'établissements niveau 1 | 15/12/2023 |
 | [TRE_R64_AgregatCategorieEtablissementNiv2](CodeSystem-TRE-R64-AgregatCategorieEtablissementNiv2.md) | Agrégats de catégories d'établissements niveau 2 | 15/12/2023 |
 | [TRE_R65_AgregatCategorieEtablissement](CodeSystem-TRE-R65-AgregatCategorieEtablissement.md) | Agrégat de catégories d'établissements | 28/02/2025 |
-| [TRE_R66_CategorieEtablissement](CodeSystem-TRE-R66-CategorieEtablissement.md) | Catégorie d'établissements | 22/12/2025 |
+| [TRE_R66_CategorieEtablissement](CodeSystem-TRE-R66-CategorieEtablissement.md) | Catégorie d'établissements | 23/02/2026 |
 | [TRE_R67_TypeStructure_EJ_EG](CodeSystem-TRE-R67-TypeStructure-EJ-EG.md) | Type de structure | 15/12/2023 |
 | [TRE_R68_FinessAgregatStatutJuridiqueNiv1](CodeSystem-TRE-R68-FinessAgregatStatutJuridiqueNiv1.md) | Agrégats de statuts juridiques FINESS niveau 1 | 15/12/2023 |
 | [TRE_R69_FinessAgregatStatutJuridiqueNiv2](CodeSystem-TRE-R69-FinessAgregatStatutJuridiqueNiv2.md) | Agrégats de statuts juridiques FINESS niveau 2 | 15/12/2023 |
@@ -281,7 +279,6 @@ However, this HL7 datatypes specification treats the entire media type as one at
 | [TRE_R72_FinessStatutJuridique](CodeSystem-TRE-R72-FinessStatutJuridique.md) | Statuts juridiques provenant de FINESS, excepté pour les codes 000 et 100 à 110 qui ont été ajoutés pour les besoins du RPPS en 2017. | 29/03/2024 |
 | [TRE_R73_ESPIC](CodeSystem-TRE-R73-ESPIC.md) | Etablissement de santé privé d'intérêt collectif | 15/12/2023 |
 | [TRE_R74_ModeFixationTarifaire](CodeSystem-TRE-R74-ModeFixationTarifaire.md) | Mode de fixation tarifaire | 22/12/2025 |
-| [TRE_R75_InseeNAFrev2Niveau5](CodeSystem-TRE-R75-InseeNAFrev2Niveau5.md) | Sous-classes de la Nomenclature d'Activités Française - INSEE | 15/12/2023 |
 | [TRE_R78_ProfilAccesReferentiel](CodeSystem-TRE-R78-ProfilAccesReferentiel.md) | Profil d'accès aux référentiels | 23/05/2025 |
 | [TRE_R81_Civilite](CodeSystem-TRE-R81-Civilite.md) | Civilité | 15/12/2023 |
 | [TRE_R82_Ordre](CodeSystem-TRE-R82-Ordre.md) | Ordre | 15/12/2023 |
@@ -302,6 +299,14 @@ However, this HL7 datatypes specification treats the entire media type as one at
 | [TreR390TypeProjetPersonnalise](CodeSystem-tre-r390-type-projet-personnalise.md) | Cette nomenclature donne le type de projet personnalisé qui est un document co-construit par l'usager, son entourage familial et professionnel du médico-social. | 22/04/2025 |
 | [TreR393TypeContratSejour](CodeSystem-tre-r393-type-contrat-sejour.md) | Type de contrat conclu entre l’établissement/service et la personne/son représentant légal lors de son entrée en établissement | 21/05/2025 |
 | [TreR394CompetenceMetier](CodeSystem-tre-r394-competence-metier.md) | Type de savoir-faire opérationnel, transversal ou spécifique, acquis et exercé à titre non exclusif dans le cadre d’une activité professionnelle reconnue. | 25/06/2025 |
+| [TreR397CategorieEntiteGeographiqueExercice](CodeSystem-tre-r397-categorie-entite-geographique-exercice.md) | Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement, TRE-R63-AgregatCategorieEtablissementNiv1, TRE-R64-AgregatCategorieEtablissementNiv2, TRE-R65-AgregatCategorieEtablissement et ASS-X10-AgregatCategorieEtablissement. Cette TRE possède des propriétésspécifiques : le niveau d'agrégat des EGE de 1 à 4 (du plus large au plus fin), le parent d'un agrégat d'EGE ou d'un EGE, la relation entre un code et le domaine ( TRE R62), un indicateur pour les EGE spécifiques au ROR ( non finess) et les relations nécessaires à la construction des JDV dynamiques associés | 23/02/2026 |
+| [TreR400FinessStatutJuridique](CodeSystem-tre-r400-finess-statut-juridique.md) | Cette TRE hiérarchique remplace les TRE_R68-FinessAgregatStatutJuridiqueNiv1, TRE_R69-FinessAgregatStatutJuridiqueNiv2, TRE_R70-FinessAgregatStatutJuridique, TRE_R72-FinessStatutJuridique, et l'association ASS_X11_FinessAgregatStatutJuridique. Cette TRE possède des propriétés spécifiques : le niveau d'agrégat des statuts juridiques de 1 à 4 ( du plus large au plus fin), le parent d'un agrégat de statuts juridiques ou d'un statut juridique, un indicateur pour les statuts juridiques spécifiques à RPPS ( non finess) et les relations nécessaires à la construction des JDV dynamiques associés | 23/02/2026 |
+| [TreR401ActiviteSocialeRegulee](CodeSystem-tre-r401-activite-sociale-regulee.md) | Cette TRE hiérarchique remplace les TRE_R280-DisciplineEquipementSocial, TRE_R298-AgregatDisciplineEquipSocNiv1, TRE_R299-AgregatDisciplineEquipSocNiv2, TRE_R300-AgregatDisciplineEquipSocNiv3 et l'ASS_X14_AgregatDisciplineEquipementSocial. Cette TRE possède des propriétés spécifiques : le niveau d'agrégat desASOCR de 1 à 4 (du plus large au plus fin), le parent d'un agrégat d'ASOCR ou d'une ASOCR ainsi que les relations nécessaires à la construction des JDV dynamiques associés | 23/02/2026 |
+| [TreR402ActiviteEnseignementRegulee](CodeSystem-tre-r402-activite-enseignement-regulee.md) | Liste des activités d'enseignement régulées organisée en 3 niveaux d'agrégation. Annule et remplace les anciennes TRE xxxEnseignement | 23/02/2026 |
+| [TreR403PublicActiviteSmsseRegulee](CodeSystem-tre-r403-public-activite-smsse-regulee.md) | Cette TRE hiérarchique remplace les TRE actuelles TRE_R279-Clientele, TRE_R293-AgregatClienteleNiv2, TRE_R294-AgregatClienteleNiv3 et l'association ASS_X13-AgregatClientele. Cette TRE possède de nouvelles propriétés : le niveau d'agrégat des publics de 1 à 3 (du plus large au plus fin), le parent d'un agrégat de publics ou d'un public ainsi que les relations nécessaires à la construction des JDV dynamiques associés | 23/02/2026 |
+| [TreR404ModeFonctionnemetActiviteSmsseRegulee](CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.md) | Mode de fonctinonemment des activités ssmsse régulées, remplace la TRE_R209-TypeActivite | 23/02/2026 |
+| [TreR405ModaliteActiviteSmsseRegulee](CodeSystem-tre-r405-modalite-activite-smsse-regulee.md) | Modalités des activités SSMSE régulées, remplace la TRE_R275-ModaliteActivite | 23/02/2026 |
+| [TreR406FormeActiviteSmsseRegulee](CodeSystem-tre-r406-forme-activite-smsse-regulee.md) | Formes des activites smsse régulées, remplace la TRE_R276-FormeActivite | 23/02/2026 |
 | [TreR407CompositionFoyer](CodeSystem-tre-r407-composition-foyer.md) | Désigne avec qui vit l’usager dans son logement. | 02/02/2026 |
 | [TreR408TypeEnseignementSpecialise](CodeSystem-tre-r408-type-enseignement-specialise.md) | Type d'enseignement spécialisé. | 02/02/2026 |
 

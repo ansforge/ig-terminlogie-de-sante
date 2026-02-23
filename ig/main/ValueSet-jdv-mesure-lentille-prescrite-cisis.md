@@ -1,4 +1,4 @@
-# JDV Mesure Lentille Prescrite CISIS - Terminologies de Santé v1.6.0
+# JDV Mesure Lentille Prescrite CISIS - Terminologies de Santé v1.7.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mesure-lentille-prescrite-cisis | *Version*:20251216141838 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvMesureLentillePrescriteCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mesure-lentille-prescrite-cisis | *Version*:20260220142103 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvMesureLentillePrescriteCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.655 | | |
 
  
@@ -57,8 +57,8 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "resourceType" : "ValueSet",
   "id" : "jdv-mesure-lentille-prescrite-cisis",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-12-17T15:45:03.459+01:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-02-23T14:58:48.721+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
@@ -73,12 +73,12 @@ No Expansion for this valueset (not supported by Publication Tooling)
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.655"
   }],
-  "version" : "20251216141838",
+  "version" : "20260220142103",
   "name" : "JdvMesureLentillePrescriteCisis",
   "title" : "JDV Mesure Lentille Prescrite CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:38+01:00",
+  "date" : "2026-02-20T14:21:03+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Mesure Lentille Prescrite CISIS",
   "jurisdiction" : [{
@@ -89,13 +89,6 @@ No Expansion for this valueset (not supported by Publication Tooling)
   }],
   "compose" : {
     "include" : [{
-      "system" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
-      "concept" : [{
-        "code" : "C53610",
-        "display" : "Renouvellement"
-      }]
-    },
-    {
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
       "version" : "202512170000",
       "concept" : [{
@@ -171,7 +164,7 @@ No Expansion for this valueset (not supported by Publication Tooling)
       },
       {
         "code" : "67716-1",
-        "display" : "modèle du dispositif"
+        "display" : "Modèle du dispositif"
       },
       {
         "code" : "95300-0",
@@ -188,6 +181,14 @@ No Expansion for this valueset (not supported by Publication Tooling)
       {
         "code" : "28815-9",
         "display" : "Addition – valeur"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/900000000000207008/version/20260201",
+      "concept" : [{
+        "code" : "103742009",
+        "display" : "renouvellement d'ordonnance"
       }]
     }]
   }

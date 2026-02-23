@@ -1,4 +1,4 @@
-# ASS_A20_RolePriseCharge_GenreActivite - Terminologies de Santé v1.6.0
+# ASS_A20_RolePriseCharge_GenreActivite - Terminologies de Santé v1.7.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

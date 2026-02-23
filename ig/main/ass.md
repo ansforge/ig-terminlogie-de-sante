@@ -1,4 +1,4 @@
-# Association - Terminologies de Santé v1.6.0
+# Association - Terminologies de Santé v1.7.0
 
 * [**Table of Contents**](toc.md)
 * **Association**
@@ -13,9 +13,6 @@ Les associations assurent la correspondance entre les codes issus d'au moins deu
 * [ASS_A14_FamilleActivite_ActiviteOperationnelle](ConceptMap-ASS-A14-FamilleActivite-ActiviteOperationnelle.md)
 * [ASS_A15_SexeProvenanceISO_Sexe](ConceptMap-ASS-A15-SexeProvenanceISO-Sexe.md)
 * [ASS_A20_RolePriseCharge_GenreActivite](ConceptMap-ASS-A20-RolePriseCharge-GenreActivite.md)
-* [ASS_A21_AS_ActiviteModaliteForme](ConceptMap-ASS-A21-AS-ActiviteModaliteForme.md)
-* [ASS_A22_AASA_ActiviteModaliteForme](ConceptMap-ASS-A22-AASA-ActiviteModaliteForme.md)
-* [ASS_A23_ASR_ActiviteModaliteForme](ConceptMap-ASS-A23-ASR-ActiviteModaliteForme.md)
 * [ASS_A24_ModeExercice_TypeActivite_ENREG](ConceptMap-ASS-A24-ModeExercice-TypeActivite-ENREG.md)
 * [ASS_A25_PaysProvenanceISO_PaysProvenanceCOG](ConceptMap-ASS-A25-PaysProvenanceISO-PaysProvenanceCOG.md)
 * [ASS_A28_TypeDiplome_Diplome_Profession_EPARS](ConceptMap-ASS-A28-TypeDiplome-Diplome-Profession-EPARS.md)

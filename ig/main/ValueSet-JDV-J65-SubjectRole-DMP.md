@@ -1,4 +1,4 @@
-# JDV_J65_SubjectRole_DMP - Terminologies de Santé v1.6.0
+# JDV_J65_SubjectRole_DMP - Terminologies de Santé v1.7.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -1531,7 +1531,7 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R21-Fonction/FHIR/TRE-R21-Fonction",
-      "version" : "20260202120000",
+      "version" : "20260223120000",
       "concept" : [{
         "code" : "FON-01",
         "display" : "Titulaire de cabinet"

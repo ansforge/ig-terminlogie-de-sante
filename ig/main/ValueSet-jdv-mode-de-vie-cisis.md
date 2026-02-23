@@ -1,4 +1,4 @@
-# JDV Mode De Vie CISIS - Terminologies de Santé v1.6.0
+# JDV Mode De Vie CISIS - Terminologies de Santé v1.7.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mode-de-vie-cisis | *Version*:20251216141840 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvModeDeVieCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mode-de-vie-cisis | *Version*:20260220142105 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvModeDeVieCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.156 | | |
 
  
@@ -57,8 +57,8 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "resourceType" : "ValueSet",
   "id" : "jdv-mode-de-vie-cisis",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-12-17T15:45:20.426+01:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-02-23T14:58:57.291+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
@@ -73,12 +73,12 @@ No Expansion for this valueset (not supported by Publication Tooling)
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.156"
   }],
-  "version" : "20251216141840",
+  "version" : "20260220142105",
   "name" : "JdvModeDeVieCisis",
   "title" : "JDV Mode De Vie CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:40+01:00",
+  "date" : "2026-02-20T14:21:05+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Mode De Vie CISIS",
   "jurisdiction" : [{

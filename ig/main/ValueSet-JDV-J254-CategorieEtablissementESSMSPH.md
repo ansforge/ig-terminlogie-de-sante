@@ -1,4 +1,4 @@
-# JDV_J254_CategorieEtablissementESSMSPH - Terminologies de Santé v1.6.0
+# JDV_J254_CategorieEtablissementESSMSPH - Terminologies de Santé v1.7.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -87,7 +87,7 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement",
-      "version" : "20251222120000",
+      "version" : "20260223120000",
       "concept" : [{
         "code" : "182",
         "display" : "Service d'Éducation Spéciale et de Soins à Domicile"

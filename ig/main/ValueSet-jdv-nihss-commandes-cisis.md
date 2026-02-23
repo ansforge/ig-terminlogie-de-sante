@@ -1,4 +1,4 @@
-# JDV Nihss Commandes CISIS - Terminologies de Santé v1.6.0
+# JDV Nihss Commandes CISIS - Terminologies de Santé v1.7.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nihss-commandes-cisis | *Version*:20251216141839 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvNihssCommandesCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nihss-commandes-cisis | *Version*:20260220142104 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvNihssCommandesCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.181 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-nihss-commandes-cisis",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2025-12-17T15:45:38.142+01:00",
+    "versionId" : "5",
+    "lastUpdated" : "2026-02-23T14:59:07.402+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
@@ -71,12 +71,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.181"
   }],
-  "version" : "20251216141839",
+  "version" : "20260220142104",
   "name" : "JdvNihssCommandesCisis",
   "title" : "JDV Nihss Commandes CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:39+01:00",
+  "date" : "2026-02-20T14:21:04+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Nihss Commandes CISIS",
   "jurisdiction" : [{

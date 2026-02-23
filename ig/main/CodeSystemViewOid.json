@@ -1500,7 +1500,7 @@
   "title" : null,
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R277-CategorieActiviteSanitaireRegulee/FHIR/TRE-R277-CategorieActiviteSanitaireRegulee",
   "identifier" : "urn:oid:1.2.250.1.213.1.6.1.129",
-  "status" : "active"
+  "status" : "retired"
 },
 {
   "id" : "TRE-R278-FinessConvention",
@@ -1692,7 +1692,7 @@
   "title" : null,
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation",
   "identifier" : "urn:oid:1.2.250.1.213.1.6.1.208",
-  "status" : "active"
+  "status" : "retired"
 },
 {
   "id" : "TRE-R302-ContexteCodeComplementaire",
@@ -2396,7 +2396,7 @@
   "title" : null,
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R75-InseeNAFrev2Niveau5/FHIR/TRE-R75-InseeNAFrev2Niveau5",
   "identifier" : "urn:oid:1.2.250.1.213.1.6.1.47",
-  "status" : "active"
+  "status" : "retired"
 },
 {
   "id" : "TRE-R78-ProfilAccesReferentiel",
@@ -2556,6 +2556,70 @@
   "title" : "Tre R394 Competence Metier",
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r394-competence-metier",
   "identifier" : "urn:oid:1.2.250.1.213.1.6.1.375",
+  "status" : "active"
+},
+{
+  "id" : "tre-r397-categorie-entite-geographique-exercice",
+  "name" : "TreR397CategorieEntiteGeographiqueExercice",
+  "title" : "Tre R397 Categorie Entite Geographique Exercice",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.378",
+  "status" : "active"
+},
+{
+  "id" : "tre-r400-finess-statut-juridique",
+  "name" : "TreR400FinessStatutJuridique",
+  "title" : "Tre R400 Finess Statut Juridique",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.379",
+  "status" : "active"
+},
+{
+  "id" : "tre-r401-activite-sociale-regulee",
+  "name" : "TreR401ActiviteSocialeRegulee",
+  "title" : "Tre R401 Activite Sociale Regulee",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.380",
+  "status" : "active"
+},
+{
+  "id" : "tre-r402-activite-enseignement-regulee",
+  "name" : "TreR402ActiviteEnseignementRegulee",
+  "title" : "Tre R402 Activite Enseignement Regulee",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.381",
+  "status" : "active"
+},
+{
+  "id" : "tre-r403-public-activite-smsse-regulee",
+  "name" : "TreR403PublicActiviteSmsseRegulee",
+  "title" : "Tre R403 Public Activite Smsse Regulee",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.382",
+  "status" : "active"
+},
+{
+  "id" : "tre-r404-mode-fonctionnement-activite-smsse-regulee",
+  "name" : "TreR404ModeFonctionnemetActiviteSmsseRegulee",
+  "title" : "Tre R404 Mode Fonctionnemet Activite Smsse Regulee",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.383",
+  "status" : "active"
+},
+{
+  "id" : "tre-r405-modalite-activite-smsse-regulee",
+  "name" : "TreR405ModaliteActiviteSmsseRegulee",
+  "title" : "Tre R405 Modalite Activite Smsse Regulee",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.384",
+  "status" : "active"
+},
+{
+  "id" : "tre-r406-forme-activite-smsse-regulee",
+  "name" : "TreR406FormeActiviteSmsseRegulee",
+  "title" : "Tre R406 Forme Activite Smsse Regulee",
+  "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee",
+  "identifier" : "urn:oid:1.2.250.1.213.1.6.1.385",
   "status" : "active"
 },
 {

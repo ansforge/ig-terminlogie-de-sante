@@ -1,4 +1,4 @@
-# JDV Localisation Infarctus Cerebral CISIS - Terminologies de Santé v1.6.0
+# JDV Localisation Infarctus Cerebral CISIS - Terminologies de Santé v1.7.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-localisation-infarctus-cerebral-cisis | *Version*:20251216141838 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvLocalisationInfarctusCerebralCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-localisation-infarctus-cerebral-cisis | *Version*:20260220142103 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvLocalisationInfarctusCerebralCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.205 | | |
 
  
@@ -57,8 +57,8 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "resourceType" : "ValueSet",
   "id" : "jdv-localisation-infarctus-cerebral-cisis",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-12-17T15:44:57.480+01:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-02-23T14:58:46.235+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
@@ -73,12 +73,12 @@ No Expansion for this valueset (not supported by Publication Tooling)
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.205"
   }],
-  "version" : "20251216141838",
+  "version" : "20260220142103",
   "name" : "JdvLocalisationInfarctusCerebralCisis",
   "title" : "JDV Localisation Infarctus Cerebral CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:38+01:00",
+  "date" : "2026-02-20T14:21:03+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Localisation Infarctus Cerebral CISIS",
   "jurisdiction" : [{

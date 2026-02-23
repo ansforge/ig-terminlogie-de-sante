@@ -1,4 +1,4 @@
-# RoleClassIngredientEntity - Terminologies de Santé v1.6.0
+# RoleClassIngredientEntity - Terminologies de Santé v1.7.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-RoleClassIngredientEntity-cisis | *Version*:20251216141839 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:RoleClassIngredientEntity |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-RoleClassIngredientEntity-cisis | *Version*:20260220142104 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:RoleClassIngredientEntity |
 | *Other Identifiers:*OID:2.16.840.1.113883.1.11.10430 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-hl7-v3-RoleClassIngredientEntity-cisis",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-12-17T15:48:37.946+01:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-02-23T15:00:52.917+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
@@ -71,12 +71,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:2.16.840.1.113883.1.11.10430"
   }],
-  "version" : "20251216141839",
+  "version" : "20260220142104",
   "name" : "RoleClassIngredientEntity",
   "title" : "RoleClassIngredientEntity",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:39+01:00",
+  "date" : "2026-02-20T14:21:04+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "RoleClassIngredientEntity",
   "jurisdiction" : [{

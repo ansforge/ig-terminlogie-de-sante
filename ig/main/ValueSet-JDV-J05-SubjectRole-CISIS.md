@@ -1,4 +1,4 @@
-# JDV_J05_SubjectRole_CISIS - Terminologies de Santé v1.6.0
+# JDV_J05_SubjectRole_CISIS - Terminologies de Santé v1.7.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J05-SubjectRole-CISIS/FHIR/JDV-J05-SubjectRole-CISIS | *Version*:20260202120000 | |
-| Active as of 2026-02-02 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J05_SubjectRole_CISIS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J05-SubjectRole-CISIS/FHIR/JDV-J05-SubjectRole-CISIS | *Version*:20260223120000 | |
+| Active as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J05_SubjectRole_CISIS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.470 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J05-SubjectRole-CISIS",
   "meta" : {
-    "versionId" : "24",
-    "lastUpdated" : "2026-02-03T15:46:05.841+01:00",
+    "versionId" : "26",
+    "lastUpdated" : "2026-02-23T18:17:21.130+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
@@ -71,11 +71,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.470"
   }],
-  "version" : "20260202120000",
+  "version" : "20260223120000",
   "name" : "JDV_J05_SubjectRole_CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-02T12:00:00+01:00",
+  "date" : "2026-02-23T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "subjectRole CI-SIS",
   "jurisdiction" : [{
@@ -1455,7 +1455,7 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R21-Fonction/FHIR/TRE-R21-Fonction",
-      "version" : "20260202120000",
+      "version" : "20260223120000",
       "concept" : [{
         "code" : "FON-01",
         "display" : "Titulaire de cabinet"
@@ -1622,7 +1622,7 @@ Requête sur le SMT
       },
       {
         "code" : "FON-63",
-        "display" : "Coordonnateur en EPHAD"
+        "display" : "Coordonnateur en EHPAD"
       },
       {
         "code" : "FON-AU",

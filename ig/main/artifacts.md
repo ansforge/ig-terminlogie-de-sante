@@ -1,4 +1,4 @@
-# Artifacts Summary - Terminologies de Santé v1.6.0
+# Artifacts Summary - Terminologies de Santé v1.7.0
 
 * [**Table of Contents**](toc.md)
 * **Artifacts Summary**
@@ -26,6 +26,7 @@ These define sets of codes used by systems conforming to this implementation gui
 | [AdministrativeGender](ValueSet-jdv-hl7-v3-AdministrativeGender-cisis.md) | AdministrativeGender |
 | [Allergy Intolerance Criticality](ValueSet-jdv-hl7-allergy-intolerance-criticality-cisis.md) | Allergy Intolerance Criticality |
 | [AllergyIntolerance Clinical Status Codes](ValueSet-jdv-hl7-allergyintolerance-clinical-cisis.md) | AllergyIntolerance Clinical Status Codes |
+| [Ce JDV remplace le JDV-J129-CategorieEtablissement-RASS](ValueSet-jdv-j380-categorie-entite-geographique-exercice-rass.md) | Catégories d’établissements FINESS |
 | [Condition Clinical Status Codes](ValueSet-jdv-hl7-condition-clinical-cisis.md) | Condition Clinical Status Codes |
 | [Condition Verification Status](ValueSet-jdv-hl7-condition-ver-status-cisis.md) | Condition Verification Status |
 | [Confidentiality](ValueSet-jdv-hl7-v2-0952-cisis.md) | Confidentiality |
@@ -217,7 +218,7 @@ These define sets of codes used by systems conforming to this implementation gui
 | [JDV Methode Preparation Echantillon CISIS](ValueSet-jdv-methode-preparation-echantillon-cisis.md) | JDV Methode Preparation Echantillon CISIS |
 | [JDV Milieu Cytologie Ccu CISIS](ValueSet-jdv-milieu-cytologie-ccu-cisis.md) | JDV Milieu Cytologie Ccu CISIS |
 | [JDV Modalite Acquisition CISIS](ValueSet-jdv-modalite-acquisition-cisis.md) | JDV Modalite Acquisition CISIS |
-| [JDV Modalite Demande Acte Iimagerie CISIS](ValueSet-jdv-modalite-demande-acte-imagerie-cisis.md) | JDV Modalite Demande Acte Iimagerie CISIS |
+| [JDV Modalite Demande Acte Imagerie CISIS](ValueSet-jdv-modalite-demande-acte-imagerie-cisis.md) | JDV Modalite Demande Acte Imagerie CISIS |
 | [JDV Modalite Entree CISIS](ValueSet-jdv-modalite-entree-cisis.md) | JDV Modalite Entree CISIS |
 | [JDV Modalite Sortie CISIS](ValueSet-jdv-modalite-sortie-cisis.md) | JDV Modalite Sortie CISIS |
 | [JDV Mode Accouchement CISIS](ValueSet-jdv-mode-accouchement-cisis.md) | JDV Mode Accouchement CISIS |
@@ -719,10 +720,26 @@ These define sets of codes used by systems conforming to this implementation gui
 | [JDV_J99_InseeNAFrav2Niveau5_RASS](ValueSet-JDV-J99-InseeNAFrav2Niveau5-RASS.md) | Sous-classes de la Nomenclature Activités Française (INSEE) des prof du RASS |
 | [Jdv Depistage Neonatal CISIS](ValueSet-jdv-depistage-neonatal-cisis.md) | Jdv Depistage Neonatal CISIS |
 | [Jdv Etat De Conscience CISIS](ValueSet-jdv-etat-de-conscience-cisis.md) | Jdv Etat De Conscience CISIS |
+| [Jdv J301 Finess Statut Juridique Niv1 Finess](ValueSet-jdv-j301-finess-statut-juridique-niv1-finess.md) | Ce JDV contient les agrégats Niv1 des statust juridiques (JDV créé à l’image de l’ancienne TRE_R70-FinessAgregatStatutJuridique) |
+| [Jdv J302 Finess Statut Juridique Niv2 Finess](ValueSet-jdv-j302-finess-statut-juridique-niv2-finess.md) | Ce JDV contient les agrégats Niv2 des statuts juridiques (JDV créé à l’image de l’ancienne TRE_R68-FinessAgregatStatutJuridiqueNiv1) |
+| [Jdv J303 Finess Statut Juridique Niv3 Finess](ValueSet-jdv-j303-finess-statut-juridique-niv3-finess.md) | Ce JDV contient les agrégats Niv3 des statuts juridiques (JDV créé à l’image de l’ancienne TRE_R69-FinessAgregatStatutJuridiqueNiv2) |
+| [Jdv J304 Finess Statut Juridique Finess](ValueSet-jdv-j304-finess-statut-juridique-finess.md) | Ce JDV comporte tous les status juridiques hors agrégat (JDV créé à l’image de l’ancienne TRE_R72-FinessStatutJuridique) |
+| [Jdv J307 Categorie Entite Geographique Exercice Niv1 Finess](ValueSet-jdv-j307-categorie-entite-geographique-exercice-niv1-finess.md) | Ce JDV contient tous les agrégats Niv1 d’EGE (JDV créé à l’image de l’ancienne TRE_R65-AgregatCategorieEtablissement) |
+| [Jdv J308 Categorie Entite Geographique Exercice Niv2 Finess](ValueSet-jdv-j308-categorie-entite-geographique-exercice-niv2-finess.md) | Ce JDV contient tous les agrégats Niv 2 d’EGE (JDV crée à l’image de l’ancienneTRE_R63-AgregatCategorieEtablissementNiv1) |
+| [Jdv J309 Categorie Entite Geographique Exercice Niv3 Finess](ValueSet-jdv-j309-categorie-entite-geographique-exercice-niv3-finess.md) | Ce JDV contient tous les agrégats Niv3 d’EGE (JDV créé à l’image de l’ancienneTRE_R64-AgregatCategorieEtablissementNiv2) |
+| [Jdv J310 Categorie Entite Geographique Exercice Finess](ValueSet-jdv-j310-categorie-entite-geographique-exercice-finess.md) | Ce JDV contient toutes les catégories d’EGE hors agrégat (JDV crée à l’image de l’ancienne TRE R66) |
+| [Jdv J318 Activite Enseignement Regulee Finess](ValueSet-jdv-j318-activite-enseignement-regulee-finess.md) | Ce JDV contient toutes les AER hors agrégat (JDV créé à l’image de l’ancienne TRE_R281-DisciplineEnseignement) |
+| [Jdv J325 Activite Sociale Regulee Niv2 Finess](ValueSet-jdv-j325-activite-sociale-regulee-niv2-finess.md) | Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 2 |
+| [Jdv J326 Activite Sociale Regulee Niv3 Finess](ValueSet-jdv-j326-activite-sociale-regulee-niv3-finess.md) | Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 3 |
+| [Jdv J328 Public Activite Smsse Regulee Finess](ValueSet-jdv-j328-public-activite-smsse-regulee-finess.md) | Ce JDV contient tous les publics hors agrégat (JDV créé à l’image de l’ancienne TRE_R279-Clientele) |
+| [Jdv J329 Public Activite Smsse Regulee Niv1 Finess](ValueSet-jdv-j329-public-activite-smsse-regulee-niv1-finess.md) | Ce JDV contient tous les agregats Niv 1 des publics (JDV créé à l’image de l’ancienne TRE_R293-AgregatClienteleNiv2) |
+| [Jdv J330 Public Activite Smsse Regulee Niv2 Finess](ValueSet-jdv-j330-public-activite-smsse-regulee-niv2-finess.md) | Ce JDV contient tous les agregats de publics de niveau 2 (JDV créé à l’image de l’ancienne TRE_R294-AgregatClienteleNiv3) |
 | [Jdv J366 Statut Bilan Projet Personnalise Ms](ValueSet-jdv-j366-statut-bilan-projet-personnalise-ms.md) | Statut du bilan du projet personnalisé. |
 | [Jdv J367 Type Projet Personnalise Ms](ValueSet-jdv-j367-type-projet-personnalise-ms.md) | Cette nomenclature donne le type de projet personnalisé qui est un document co-construit par l’usager, son entourage familial et professionnel du médico-social. |
 | [Jdv J368 Categorie Etablissement Cisis](ValueSet-jdv-j368-categorie-etablissement-cisis.md) | JDV à l’image de l’ensemble des valeurs actives de la terminologie TRE_R66-CategorieEtablissement |
 | [Jdv J370 Type Contrat Sejour Ms](ValueSet-jdv-j370-type-contrat-sejour-ms.md) | Type de contrat conclu entre l’établissement/service et la personne/son représentant légal. |
+| [Jdv J376 Public Activite Smsse Regulee Rass](ValueSet-jdv-j376-public-activite-smsse-regulee-rass.md) | Ce JDV remplace le JDV_J137_Clientele_RASS |
+| [Jdv J379 Activite Sociale Regulee Rass](ValueSet-jdv-j379-activite-sociale-regulee-rass.md) | Ce JDV remplace le JDV_J136_DisciplineEquipementSocial_RASS |
 | [Jdv J383 Motif Cloture Exercice Professionnel Epars](ValueSet-jdv-j383-motif-cloture-exercice-professionnel-epars.md) | Ce jeu de valeur liste les différents motifs qui peuvent justifier la clôture d’un exercice professionnel. |
 | [Jdv J384 Role Membre Famille Ms](ValueSet-jdv-j384-role-membre-famille-ms.md) | Rôle d’un membre de la famille ou d’un proche de l’usager. |
 | [Jdv J385 Composition Foyer Ms](ValueSet-jdv-j385-composition-foyer-ms.md) | Désigne avec qui vit l’usager dans son logement. |
@@ -755,6 +772,7 @@ These define sets of codes used by systems conforming to this implementation gui
 | [ValueSet_EDQM_All](ValueSet-vs-edqm-all.md) | Ce jeu de valeurs inclut tous les codes de la terminologie EDQM |
 | [ValueSet_NUVA_All](ValueSet-vs-nuva-all.md) | Ce jeu de valeurs inclut tous les codes concepts de la terminologie NUVA |
 | [ValueSet_SMS_All](ValueSet-vs-sms-all.md) | Ce jeu de valeurs inclut tous les codes de la terminologie SMS, Dictionnaire des substances médicamenteuses |
+| [Vs Tre R73 Espic All](ValueSet-vs-tre-r73-espic-all.md) | Jeu de valeurs ALL contenant tous les établissements de santé privés d’intérêt collectif |
 | [WorkScheduleODH](ValueSet-jdv-hl7-v3-WorkScheduleODH-cisis.md) | WorkScheduleODH |
 | [hl7VS-employmentStatus](ValueSet-jdv-hl7-v2-0066-cisis.md) | hl7VS-employmentStatus |
 | [hl7VS-specimenCollectionMethod](ValueSet-jdv-hl7-v2-0488-cisis.md) | hl7VS-specimenCollectionMethod |
@@ -849,7 +867,7 @@ These define new code systems used by systems conforming to this implementation 
 | [TRE_G05_SousSectionTableauCNOP](CodeSystem-TRE-G05-SousSectionTableauCNOP.md) | Sous-Section du tableau de l’Ordre des Pharmaciens |
 | [TRE_G07_TypeIdentifiantStructure](CodeSystem-TRE-G07-TypeIdentifiantStructure.md) | Type d’identifiant de structure |
 | [TRE_G08_TypeIdentifiantPersonne](CodeSystem-TRE-G08-TypeIdentifiantPersonne.md) | Type d’identifiant de personne |
-| [TRE_G09_DepartementOM](CodeSystem-TRE-G09-DepartementOM.md) | Référentiel des codes départements et collectivités d’outre-mer provenant du COG INSEE + Monaco |
+| [TRE_G09_DepartementOM](CodeSystem-TRE-G09-DepartementOM.md) | Référentiel des codes départements et collectivités d’outre-mer provenant du COG INSEE + Monaco. Cette TRE possède des propriétés spécifiques : Autorite Epars, pour indiquer le/ les ARS du département (tre-r396-autorite) et region pour indiquer le code de la région du département (TRE-R30-RegionOM) |
 | [TRE_G100_Specialite_AM](CodeSystem-TRE-G100-Specialite-AM.md) | Spécialité Assurance Maladie |
 | [TRE_G11_NatureQualificationADELI](CodeSystem-TRE-G11-NatureQualificationADELI.md) | Nature de qualification ADELI |
 | [TRE_G12_SpecialiteADELI](CodeSystem-TRE-G12-SpecialiteADELI.md) | Spécialité ADELI |
@@ -1085,6 +1103,14 @@ These define new code systems used by systems conforming to this implementation 
 | [Tre R390 Type Projet Personnalise](CodeSystem-tre-r390-type-projet-personnalise.md) | Cette nomenclature donne le type de projet personnalisé qui est un document co-construit par l’usager, son entourage familial et professionnel du médico-social. |
 | [Tre R393 Type Contrat Sejour](CodeSystem-tre-r393-type-contrat-sejour.md) | Type de contrat conclu entre l’établissement/service et la personne/son représentant légal lors de son entrée en établissement |
 | [Tre R394 Competence Metier](CodeSystem-tre-r394-competence-metier.md) | Type de savoir-faire opérationnel, transversal ou spécifique, acquis et exercé à titre non exclusif dans le cadre d’une activité professionnelle reconnue. |
+| [Tre R397 Categorie Entite Geographique Exercice](CodeSystem-tre-r397-categorie-entite-geographique-exercice.md) | Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement, TRE-R63-AgregatCategorieEtablissementNiv1, TRE-R64-AgregatCategorieEtablissementNiv2, TRE-R65-AgregatCategorieEtablissement et ASS-X10-AgregatCategorieEtablissement. Cette TRE possède des propriétésspécifiques : le niveau d’agrégat des EGE de 1 à 4 (du plus large au plus fin), le parent d’un agrégat d’EGE ou d’un EGE, la relation entre un code et le domaine ( TRE R62), un indicateur pour les EGE spécifiques au ROR ( non finess) et les relations nécessaires à la construction des JDV dynamiques associés |
+| [Tre R400 Finess Statut Juridique](CodeSystem-tre-r400-finess-statut-juridique.md) | Cette TRE hiérarchique remplace les TRE_R68-FinessAgregatStatutJuridiqueNiv1, TRE_R69-FinessAgregatStatutJuridiqueNiv2, TRE_R70-FinessAgregatStatutJuridique, TRE_R72-FinessStatutJuridique, et l’association ASS_X11_FinessAgregatStatutJuridique. Cette TRE possède des propriétés spécifiques : le niveau d’agrégat des statuts juridiques de 1 à 4 ( du plus large au plus fin), le parent d’un agrégat de statuts juridiques ou d’un statut juridique, un indicateur pour les statuts juridiques spécifiques à RPPS ( non finess) et les relations nécessaires à la construction des JDV dynamiques associés |
+| [Tre R401 Activite Sociale Regulee](CodeSystem-tre-r401-activite-sociale-regulee.md) | Cette TRE hiérarchique remplace les TRE_R280-DisciplineEquipementSocial, TRE_R298-AgregatDisciplineEquipSocNiv1, TRE_R299-AgregatDisciplineEquipSocNiv2, TRE_R300-AgregatDisciplineEquipSocNiv3 et l’ASS_X14_AgregatDisciplineEquipementSocial. Cette TRE possède des propriétés spécifiques : le niveau d’agrégat desASOCR de 1 à 4 (du plus large au plus fin), le parent d’un agrégat d’ASOCR ou d’une ASOCR ainsi que les relations nécessaires à la construction des JDV dynamiques associés |
+| [Tre R402 Activite Enseignement Regulee](CodeSystem-tre-r402-activite-enseignement-regulee.md) | Liste des activités d’enseignement régulées organisée en 3 niveaux d’agrégation. Annule et remplace les anciennes TRE xxxEnseignement |
+| [Tre R403 Public Activite Smsse Regulee](CodeSystem-tre-r403-public-activite-smsse-regulee.md) | Cette TRE hiérarchique remplace les TRE actuelles TRE_R279-Clientele, TRE_R293-AgregatClienteleNiv2, TRE_R294-AgregatClienteleNiv3 et l’association ASS_X13-AgregatClientele. Cette TRE possède de nouvelles propriétés : le niveau d’agrégat des publics de 1 à 3 (du plus large au plus fin), le parent d’un agrégat de publics ou d’un public ainsi que les relations nécessaires à la construction des JDV dynamiques associés |
+| [Tre R404 Mode Fonctionnemet Activite Smsse Regulee](CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.md) | Mode de fonctinonemment des activités ssmsse régulées, remplace la TRE_R209-TypeActivite |
+| [Tre R405 Modalite Activite Smsse Regulee](CodeSystem-tre-r405-modalite-activite-smsse-regulee.md) | Modalités des activités SSMSE régulées, remplace la TRE_R275-ModaliteActivite |
+| [Tre R406 Forme Activite Smsse Regulee](CodeSystem-tre-r406-forme-activite-smsse-regulee.md) | Formes des activites smsse régulées, remplace la TRE_R276-FormeActivite |
 | [Tre R407 Composition Foyer](CodeSystem-tre-r407-composition-foyer.md) | Désigne avec qui vit l’usager dans son logement. |
 | [Tre R408 Type Enseignement Specialise](CodeSystem-tre-r408-type-enseignement-specialise.md) | Type d’enseignement spécialisé. |
 | [V3SpecimenTypeSupplementFr](CodeSystem-v3-SpecimenType-supplement-fr.md) | Traduction Française |
@@ -1120,9 +1146,6 @@ These define transformations to convert between codes by systems conforming with
 | [ASS_A14_FamilleActivite_ActiviteOperationnelle](ConceptMap-ASS-A14-FamilleActivite-ActiviteOperationnelle.md) | Association Famille activité - Activité opérationnelle |
 | [ASS_A15_SexeProvenanceISO_Sexe](ConceptMap-ASS-A15-SexeProvenanceISO-Sexe.md) | Correspondance codes TRE_R267-SexeProvenanceISO / codes TRE_R249-Sexe |
 | [ASS_A20_RolePriseCharge_GenreActivite](ConceptMap-ASS-A20-RolePriseCharge-GenreActivite.md) | Table d’association rôle / genre d’activité pour la saisie automatique |
-| [ASS_A21_AS_ActiviteModaliteForme](ConceptMap-ASS-A21-AS-ActiviteModaliteForme.md) | Triplet activité modalité forme pour les Activités de Soins (AS) |
-| [ASS_A22_AASA_ActiviteModaliteForme](ConceptMap-ASS-A22-AASA-ActiviteModaliteForme.md) | Triplet activité modalité forme pour les Activités Soumises à Autorisation (ASA) |
-| [ASS_A23_ASR_ActiviteModaliteForme](ConceptMap-ASS-A23-ASR-ActiviteModaliteForme.md) | Triplet activité modalité forme pour Activités Soumises à Reconnaissance (ASR) |
 | [ASS_A24_ModeExercice_TypeActivite_ENREG](ConceptMap-ASS-A24-ModeExercice-TypeActivite-ENREG.md) | Table d’association Mode d’exercice / Type d’activité pour permettre la saisie automatique du type d’activité |
 | [ASS_A25_PaysProvenanceISO_PaysProvenanceCOG](ConceptMap-ASS-A25-PaysProvenanceISO-PaysProvenanceCOG.md) | Correspondance codes TRE_R268-PaysProvenanceISO / codes TRE_R20-Pays |
 | [ASS_A28_TypeDiplome_Diplome_Profession_EPARS](ConceptMap-ASS-A28-TypeDiplome-Diplome-Profession-EPARS.md) | Table d’association entre les types de diplômes, les diplômes et les professions de santé, médico-sociales ou sociales |

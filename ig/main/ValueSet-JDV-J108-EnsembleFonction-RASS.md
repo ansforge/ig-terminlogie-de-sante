@@ -1,4 +1,4 @@
-# JDV_J108_EnsembleFonction_RASS - Terminologies de Santé v1.6.0
+# JDV_J108_EnsembleFonction_RASS - Terminologies de Santé v1.7.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J108-EnsembleFonction-RASS",
   "meta" : {
-    "versionId" : "19",
-    "lastUpdated" : "2026-02-03T15:46:07.155+01:00",
+    "versionId" : "21",
+    "lastUpdated" : "2026-02-23T18:17:23.504+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
@@ -87,7 +87,7 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R21-Fonction/FHIR/TRE-R21-Fonction",
-      "version" : "20260202120000",
+      "version" : "20260223120000",
       "concept" : [{
         "code" : "FON-01",
         "display" : "Titulaire de cabinet"
@@ -262,7 +262,7 @@ Requête sur le SMT
       },
       {
         "code" : "FON-63",
-        "display" : "Coordonnateur en EPHAD"
+        "display" : "Coordonnateur en EHPAD"
       },
       {
         "code" : "FON-AU",

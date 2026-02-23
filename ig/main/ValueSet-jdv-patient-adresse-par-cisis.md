@@ -1,4 +1,4 @@
-# JDV Patient adresse par CISIS - Terminologies de Santé v1.6.0
+# JDV Patient adresse par CISIS - Terminologies de Santé v1.7.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-patient-adresse-par-cisis | *Version*:20251216141839 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvPatientAdresseParCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-patient-adresse-par-cisis | *Version*:20260220142105 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvPatientAdresseParCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.38 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-patient-adresse-par-cisis",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-12-17T15:45:56.903+01:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-02-23T14:59:19.223+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
@@ -71,12 +71,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.38"
   }],
-  "version" : "20251216141839",
+  "version" : "20260220142105",
   "name" : "JdvPatientAdresseParCisis",
   "title" : "JDV Patient adresse par CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:39+01:00",
+  "date" : "2026-02-20T14:21:05+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Patient adresse par CISIS",
   "jurisdiction" : [{
@@ -148,7 +148,7 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement",
-      "version" : "20251222120000",
+      "version" : "20260223120000",
       "concept" : [{
         "code" : "223",
         "display" : "Protection Maternelle et Infantile (P.M.I.)"

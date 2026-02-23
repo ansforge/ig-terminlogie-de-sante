@@ -1,4 +1,4 @@
-# JDV Batterie Examen CISIS - Terminologies de Santé v1.6.0
+# JDV Batterie Examen CISIS - Terminologies de Santé v1.7.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-batterie-examen-cisis | *Version*:20251216141840 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvBatterieExamenCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-batterie-examen-cisis | *Version*:20260220142105 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvBatterieExamenCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.102 | | |
 
  
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-batterie-examen-cisis",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-12-17T15:43:09.995+01:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-02-23T14:57:47.131+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
@@ -71,12 +71,12 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.102"
   }],
-  "version" : "20251216141840",
+  "version" : "20260220142105",
   "name" : "JdvBatterieExamenCisis",
   "title" : "JDV Batterie Examen CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:40+01:00",
+  "date" : "2026-02-20T14:21:05+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Batterie Examen CISIS",
   "jurisdiction" : [{

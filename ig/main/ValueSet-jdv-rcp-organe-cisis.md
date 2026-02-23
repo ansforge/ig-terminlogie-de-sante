@@ -1,4 +1,4 @@
-# JDV RCP Organe CISIS - Terminologies de Santé v1.6.0
+# JDV RCP Organe CISIS - Terminologies de Santé v1.7.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-rcp-organe-cisis | *Version*:20251216141840 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvRcpOrganeCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-rcp-organe-cisis | *Version*:20260220142105 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvRcpOrganeCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.598 | | |
 
  
@@ -57,8 +57,8 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "resourceType" : "ValueSet",
   "id" : "jdv-rcp-organe-cisis",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2025-12-17T15:46:10.277+01:00",
+    "versionId" : "5",
+    "lastUpdated" : "2026-02-23T14:59:26.646+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
@@ -73,12 +73,12 @@ No Expansion for this valueset (not supported by Publication Tooling)
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.598"
   }],
-  "version" : "20251216141840",
+  "version" : "20260220142105",
   "name" : "JdvRcpOrganeCisis",
   "title" : "JDV RCP Organe CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:40+01:00",
+  "date" : "2026-02-20T14:21:05+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV RCP Organe CISIS",
   "jurisdiction" : [{
@@ -91,61 +91,61 @@ No Expansion for this valueset (not supported by Publication Tooling)
     "include" : [{
       "system" : "http://hl7.org/fhir/sid/icd-10",
       "concept" : [{
+        "code" : "C85",
+        "display" : "Lymphome non hodgkinien, de types autres et non précisés"
+      },
+      {
         "code" : "C88",
         "display" : "Maladies immunoprolifératives malignes"
+      },
+      {
+        "code" : "C81",
+        "display" : "Lymphome de Hodgkin"
+      },
+      {
+        "code" : "C95.1",
+        "display" : "Leucémie chronique à cellules non précisées"
+      },
+      {
+        "code" : "C91.1",
+        "display" : "Leucémie lymphoïde chronique à cellules B"
+      },
+      {
+        "code" : "C91.0",
+        "display" : "Leucémie lymphoblastique aigüe [LLA]"
+      },
+      {
+        "code" : "C92",
+        "display" : "Leucémie myéloïde"
+      },
+      {
+        "code" : "C92.0",
+        "display" : "Leucémie myéloblastique aigüe [LAM]"
+      },
+      {
+        "code" : "C92.1",
+        "display" : "Leucémie myéloïde chronique [LMC] ABL-BCR positif"
+      },
+      {
+        "code" : "C93.0",
+        "display" : "Leucémie monoblastique/monocytaire aigüe"
+      },
+      {
+        "code" : "C95.0",
+        "display" : "Leucémie aiguë à cellules non précisées"
+      },
+      {
+        "code" : "C94.6",
+        "display" : "Maladie myélodysplasique et myéloproliférative, non classée ailleurs"
+      },
+      {
+        "code" : "C90.0",
+        "display" : "Myélome multiple"
       }]
     },
     {
       "system" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
       "concept" : [{
-        "code" : "C3211",
-        "display" : "lymphome non hodgkinien"
-      },
-      {
-        "code" : "C9357",
-        "display" : "Lymphome de Hodgkin"
-      },
-      {
-        "code" : "C3483",
-        "display" : "leucémie chronique"
-      },
-      {
-        "code" : "C3163",
-        "display" : "Leucémie lymphocytique chronique"
-      },
-      {
-        "code" : "C3167",
-        "display" : "Leucémie lymphoblastique aiguë"
-      },
-      {
-        "code" : "C3172",
-        "display" : "Leucémie myéloïde"
-      },
-      {
-        "code" : "C3171",
-        "display" : "leucémie myéloïde aiguë"
-      },
-      {
-        "code" : "C3174",
-        "display" : "leucémie myéloïde chronique BCR-ABL positive"
-      },
-      {
-        "code" : "C4861",
-        "display" : "leucémie monocytaire aiguë"
-      },
-      {
-        "code" : "C9300",
-        "display" : "leucémie aiguë"
-      },
-      {
-        "code" : "C27262",
-        "display" : "maladies myélodysplasiques-myéloprolifératives"
-      },
-      {
-        "code" : "C3242",
-        "display" : "myélome à cellules plasmatiques"
-      },
-      {
         "code" : "C94529",
         "display" : "région vulvo-vaginale"
       },

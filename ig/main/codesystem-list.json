@@ -437,7 +437,7 @@
     "status" : "active",
     "name" : "TRE_G09_DepartementOM",
     "title" : null,
-    "description" : "Référentiel des codes départements et collectivités d’outre-mer provenant du COG INSEE + Monaco",
+    "description" : "Référentiel des codes départements et collectivités d’outre-mer provenant du COG INSEE + Monaco. Cette TRE possède des propriétés spécifiques : Autorite Epars, pour indiquer le/ les ARS du département (tre-r396-autorite) et region pour indiquer le code de la région du département (TRE-R30-RegionOM)",
     "oids" : ["1.2.250.1.71.1.2.16"]
   },
   {
@@ -577,7 +577,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R09-CategorieProfessionnelle/FHIR/TRE-R09-CategorieProfessionnelle",
-    "version" : "20240426120000",
+    "version" : "20260223120000",
     "status" : "active",
     "name" : "TRE_R09_CategorieProfessionnelle",
     "title" : null,
@@ -748,7 +748,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R21-Fonction/FHIR/TRE-R21-Fonction",
-    "version" : "20260202120000",
+    "version" : "20260223120000",
     "status" : "active",
     "name" : "TRE_R21_Fonction",
     "title" : null,
@@ -1072,7 +1072,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R244-CategorieOrganisation/FHIR/TRE-R244-CategorieOrganisation",
-    "version" : "20251222120000",
+    "version" : "20260223120000",
     "status" : "active",
     "name" : "TRE_R244_CategorieOrganisation",
     "title" : null,
@@ -1351,8 +1351,8 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R277-CategorieActiviteSanitaireRegulee/FHIR/TRE-R277-CategorieActiviteSanitaireRegulee",
-    "version" : "20231215120000",
-    "status" : "active",
+    "version" : "20260223120000",
+    "status" : "retired",
     "name" : "TRE_R277_CategorieActiviteSanitaireRegulee",
     "title" : null,
     "description" : "Types d'activités autorisées",
@@ -1576,8 +1576,8 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R301-SourceInformationInstallation/FHIR/TRE-R301-SourceInformationInstallation",
-    "version" : "20231215120000",
-    "status" : "active",
+    "version" : "20260223120000",
+    "status" : "retired",
     "name" : "TRE_R301_SourceInformationInstallation",
     "title" : null,
     "description" : "Sources d'information possible concernant l'installation de l'activité sociale",
@@ -2233,7 +2233,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R58-AutreTypeDiplome/FHIR/TRE-R58-AutreTypeDiplome",
-    "version" : "20251222120000",
+    "version" : "20260223120000",
     "status" : "active",
     "name" : "TRE_R58_AutreTypeDiplome",
     "title" : null,
@@ -2287,7 +2287,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement",
-    "version" : "20251222120000",
+    "version" : "20260223120000",
     "status" : "active",
     "name" : "TRE_R66_CategorieEtablissement",
     "title" : null,
@@ -2359,8 +2359,8 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R75-InseeNAFrev2Niveau5/FHIR/TRE-R75-InseeNAFrev2Niveau5",
-    "version" : "20231215120000",
-    "status" : "active",
+    "version" : "20260223120000",
+    "status" : "retired",
     "name" : "TRE_R75_InseeNAFrev2Niveau5",
     "title" : null,
     "description" : "Sous-classes de la Nomenclature d'Activités Française - INSEE",
@@ -2712,6 +2712,78 @@
     "title" : "Tre R394 Competence Metier",
     "description" : "Type de savoir-faire opérationnel, transversal ou spécifique, acquis et exercé à titre non exclusif dans le cadre d’une activité professionnelle reconnue.",
     "oids" : ["1.2.250.1.213.1.6.1.375"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
+    "version" : "20260223120000",
+    "status" : "active",
+    "name" : "TreR397CategorieEntiteGeographiqueExercice",
+    "title" : "Tre R397 Categorie Entite Geographique Exercice",
+    "description" : "Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement, TRE-R63-AgregatCategorieEtablissementNiv1, TRE-R64-AgregatCategorieEtablissementNiv2, TRE-R65-AgregatCategorieEtablissement et ASS-X10-AgregatCategorieEtablissement. Cette TRE possède des propriétésspécifiques : le niveau d'agrégat des EGE de 1 à 4 (du plus large au plus fin), le parent d'un agrégat d'EGE ou d'un EGE, la relation entre un code et le domaine ( TRE R62), un indicateur pour les EGE spécifiques au ROR ( non finess) et les relations nécessaires à la construction des JDV dynamiques associés",
+    "oids" : ["1.2.250.1.213.1.6.1.378"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique",
+    "version" : "20260223120000",
+    "status" : "active",
+    "name" : "TreR400FinessStatutJuridique",
+    "title" : "Tre R400 Finess Statut Juridique",
+    "description" : "Cette TRE hiérarchique remplace les TRE_R68-FinessAgregatStatutJuridiqueNiv1, TRE_R69-FinessAgregatStatutJuridiqueNiv2, TRE_R70-FinessAgregatStatutJuridique, TRE_R72-FinessStatutJuridique, et l'association ASS_X11_FinessAgregatStatutJuridique. Cette TRE possède des propriétés spécifiques : le niveau d'agrégat des statuts juridiques  de 1 à 4 ( du plus large au plus fin), le parent d'un agrégat de statuts juridiques ou d'un statut juridique, un indicateur pour les statuts juridiques  spécifiques à RPPS ( non finess) et les relations nécessaires à la construction des JDV dynamiques associés",
+    "oids" : ["1.2.250.1.213.1.6.1.379"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
+    "version" : "20260223120000",
+    "status" : "active",
+    "name" : "TreR401ActiviteSocialeRegulee",
+    "title" : "Tre R401 Activite Sociale Regulee",
+    "description" : "Cette TRE hiérarchique remplace les TRE_R280-DisciplineEquipementSocial, TRE_R298-AgregatDisciplineEquipSocNiv1, TRE_R299-AgregatDisciplineEquipSocNiv2, TRE_R300-AgregatDisciplineEquipSocNiv3 et l'ASS_X14_AgregatDisciplineEquipementSocial. Cette TRE possède des propriétés spécifiques : le niveau d'agrégat desASOCR de 1 à 4 (du plus large au plus fin), le parent d'un agrégat d'ASOCR ou d'une ASOCR ainsi que les relations nécessaires à la construction des JDV dynamiques associés",
+    "oids" : ["1.2.250.1.213.1.6.1.380"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
+    "version" : "20260223120000",
+    "status" : "active",
+    "name" : "TreR402ActiviteEnseignementRegulee",
+    "title" : "Tre R402 Activite Enseignement Regulee",
+    "description" : "Liste des activités d'enseignement régulées organisée en 3 niveaux d'agrégation. Annule et remplace les anciennes TRE xxxEnseignement",
+    "oids" : ["1.2.250.1.213.1.6.1.381"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
+    "version" : "20260223120000",
+    "status" : "active",
+    "name" : "TreR403PublicActiviteSmsseRegulee",
+    "title" : "Tre R403 Public Activite Smsse Regulee",
+    "description" : "Cette TRE hiérarchique remplace les TRE actuelles TRE_R279-Clientele, TRE_R293-AgregatClienteleNiv2, TRE_R294-AgregatClienteleNiv3 et l'association ASS_X13-AgregatClientele. Cette TRE possède de nouvelles propriétés : le niveau d'agrégat des publics de 1 à 3 (du plus large au plus fin), le parent d'un agrégat de publics ou d'un public ainsi que les relations nécessaires à la construction des JDV dynamiques associés",
+    "oids" : ["1.2.250.1.213.1.6.1.382"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee",
+    "version" : "20260223120000",
+    "status" : "active",
+    "name" : "TreR404ModeFonctionnemetActiviteSmsseRegulee",
+    "title" : "Tre R404 Mode Fonctionnemet Activite Smsse Regulee",
+    "description" : "Mode de fonctinonemment des activités ssmsse régulées, remplace la TRE_R209-TypeActivite",
+    "oids" : ["1.2.250.1.213.1.6.1.383"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r405-modalite-activite-smsse-regulee",
+    "version" : "20260223120000",
+    "status" : "active",
+    "name" : "TreR405ModaliteActiviteSmsseRegulee",
+    "title" : "Tre R405 Modalite Activite Smsse Regulee",
+    "description" : "Modalités des activités SSMSE régulées, remplace la TRE_R275-ModaliteActivite",
+    "oids" : ["1.2.250.1.213.1.6.1.384"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee",
+    "version" : "20260223120000",
+    "status" : "active",
+    "name" : "TreR406FormeActiviteSmsseRegulee",
+    "title" : "Tre R406 Forme Activite Smsse Regulee",
+    "description" : "Formes des activites smsse régulées, remplace la TRE_R276-FormeActivite",
+    "oids" : ["1.2.250.1.213.1.6.1.385"]
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r407-composition-foyer",

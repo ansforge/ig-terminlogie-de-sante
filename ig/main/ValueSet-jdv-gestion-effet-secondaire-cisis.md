@@ -1,4 +1,4 @@
-# JDV Gestion Effet Secondaire CISIS - Terminologies de Santé v1.6.0
+# JDV Gestion Effet Secondaire CISIS - Terminologies de Santé v1.7.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gestion-effet-secondaire-cisis | *Version*:20251216141840 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvGestionEffetSecondaireCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gestion-effet-secondaire-cisis | *Version*:20260220142105 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvGestionEffetSecondaireCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.477 | | |
 
  
@@ -33,8 +33,6 @@ Requête sur le SMT
 
 ### Expansion
 
-No Expansion for this valueset (not supported by Publication Tooling)
-
 -------
 
  Explanation of the columns that may appear on this page: 
@@ -57,8 +55,8 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "resourceType" : "ValueSet",
   "id" : "jdv-gestion-effet-secondaire-cisis",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-12-17T15:44:20.556+01:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-02-23T14:58:25.758+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
@@ -73,12 +71,12 @@ No Expansion for this valueset (not supported by Publication Tooling)
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.477"
   }],
-  "version" : "20251216141840",
+  "version" : "20260220142105",
   "name" : "JdvGestionEffetSecondaireCisis",
   "title" : "JDV Gestion Effet Secondaire CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:40+01:00",
+  "date" : "2026-02-20T14:21:05+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Gestion Effet Secondaire CISIS",
   "jurisdiction" : [{
@@ -89,18 +87,19 @@ No Expansion for this valueset (not supported by Publication Tooling)
   }],
   "compose" : {
     "include" : [{
-      "system" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
-      "concept" : [{
-        "code" : "C20427",
-        "display" : "facteur de croissance hématopoïétique"
-      }]
-    },
-    {
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
       "version" : "202512170000",
       "concept" : [{
         "code" : "GEN-092.04.12",
         "display" : "Autre gestion des effets secondaires"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/900000000000207008/version/20260201",
+      "concept" : [{
+        "code" : "372559001",
+        "display" : "facteur de croissance hématopoïétique"
       }]
     }]
   }

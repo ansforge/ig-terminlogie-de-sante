@@ -1,4 +1,4 @@
-# JDV_J137_Clientele_RASS - Terminologies de Santé v1.6.0
+# JDV_J137_Clientele_RASS - Terminologies de Santé v1.7.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J137-Clientele-RASS/FHIR/JDV-J137-Clientele-RASS | *Version*:20240927120000 | |
-| Active as of 2024-09-27 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J137_Clientele_RASS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J137-Clientele-RASS/FHIR/JDV-J137-Clientele-RASS | *Version*:20260223120000 | |
+| Retired as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J137_Clientele_RASS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.223 | | |
 
  
@@ -33,6 +33,8 @@ Requête sur le SMT
 
 ### Expansion
 
+Expansions are not generated for retired value sets
+
 -------
 
  Explanation of the columns that may appear on this page: 
@@ -55,15 +57,16 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J137-Clientele-RASS",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-07-02T17:05:02.899+00:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-02-23T18:17:25.858+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {
-      "start" : "2020-11-27T12:00:00+01:00"
+      "start" : "2020-11-27T12:00:00+01:00",
+      "end" : "2026-02-23T12:00:00+01:00"
     }
   }],
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J137-Clientele-RASS/FHIR/JDV-J137-Clientele-RASS",
@@ -71,11 +74,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.223"
   }],
-  "version" : "20240927120000",
+  "version" : "20260223120000",
   "name" : "JDV_J137_Clientele_RASS",
-  "status" : "active",
+  "status" : "retired",
   "experimental" : false,
-  "date" : "2024-09-27T12:00:00+01:00",
+  "date" : "2026-02-23T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Population prise en charge par l'établissement dans le cadre",
   "jurisdiction" : [{
