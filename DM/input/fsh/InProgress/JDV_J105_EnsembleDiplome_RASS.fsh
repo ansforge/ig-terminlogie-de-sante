@@ -3,7 +3,7 @@ Id: JDV-J105-EnsembleDiplome-RASS
 Description: "Ensemble des diplômes et qualifications du RASS"
 * ^meta.versionId = "17"
 * ^meta.lastUpdated = "2025-12-22T10:46:25.158+01:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2019-08-30T12:00:00+01:00"

@@ -3,7 +3,7 @@ Id: JDV-J05-SubjectRole-CISIS
 Description: "subjectRole CI-SIS"
 * ^meta.versionId = "24"
 * ^meta.lastUpdated = "2026-02-03T15:46:05.841+01:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2012-10-06T00:00:00+01:00"

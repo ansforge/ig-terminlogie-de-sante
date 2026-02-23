@@ -3,7 +3,7 @@ Id: TRE-R244-CategorieOrganisation
 Description: "Catégorie d'organisation"
 * ^meta.versionId = "26"
 * ^meta.lastUpdated = "2025-12-22T10:46:43.166+01:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2017-10-13T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R244-CategorieOrganisation/FHIR/TRE-R244-CategorieOrganisation"
