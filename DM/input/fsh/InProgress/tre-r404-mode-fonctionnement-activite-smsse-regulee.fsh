@@ -1,8 +1,8 @@
 Alias: $sct = http://snomed.info/sct
 
-CodeSystem: TreR404ModeFonctionnemetActiviteSmsseRegulee
+CodeSystem: TreR404ModeFonctionnementActiviteSmsseRegulee
 Id: tre-r404-mode-fonctionnement-activite-smsse-regulee
-Title: "Tre R404 Mode Fonctionnemet Activite Smsse Regulee"
+Title: "Tre R404 Mode Fonctionnement Activite Smsse Regulee"
 Description: "Mode de fonctinonemment des activités ssmsse régulées"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2025-11-05T05:12:17.936+00:00"
