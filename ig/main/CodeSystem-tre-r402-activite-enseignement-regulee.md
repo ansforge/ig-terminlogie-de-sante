@@ -18,6 +18,9 @@ Liste des activités d’enseignement régulées organisée en 3 niveaux d’agr
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JdvJ318ActiviteEnseignementReguleeFiness](ValueSet-jdv-j318-activite-enseignement-regulee-finess.md)
+* [JdvJ319ActiviteEnseignementReguleeNiv1Finess](ValueSet-jdv-j319-activite-enseignement-regulee-niv1-finess.md)
+* [JdvJ320ActiviteEnseignementReguleeNiv2Finess](ValueSet-jdv-j320-activite-enseignement-regulee-niv2-finess.md)
+* [JdvJ321ActiviteEnseignementReguleeNiv3Finess](ValueSet-jdv-j321-activite-enseignement-regulee-niv3-finess.md)
 
 
 

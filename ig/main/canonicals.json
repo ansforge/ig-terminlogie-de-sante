@@ -6469,6 +6469,46 @@
   "oids" : ["1.2.250.1.213.1.6.1.326"]
 },
 {
+  "id" : "jdv-j319-activite-enseignement-regulee-niv1-finess",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j319-activite-enseignement-regulee-niv1-finess",
+  "version" : "20260223120000",
+  "name" : "JdvJ319ActiviteEnseignementReguleeNiv1Finess",
+  "oids" : ["1.2.250.1.213.1.6.1.327"]
+},
+{
+  "id" : "jdv-j320-activite-enseignement-regulee-niv2-finess",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j320-activite-enseignement-regulee-niv2-finess",
+  "version" : "20260223120000",
+  "name" : "JdvJ320ActiviteEnseignementReguleeNiv2Finess",
+  "oids" : ["1.2.250.1.213.1.6.1.328"]
+},
+{
+  "id" : "jdv-j321-activite-enseignement-regulee-niv3-finess",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j321-activite-enseignement-regulee-niv3-finess",
+  "version" : "20260223120000",
+  "name" : "JdvJ321ActiviteEnseignementReguleeNiv3Finess",
+  "oids" : ["1.2.250.1.213.1.6.1.329"]
+},
+{
+  "id" : "jdv-j323-activite-sociale-regulee-finess",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j323-activite-sociale-regulee-finess",
+  "version" : "20260223120000",
+  "name" : "JdvJ323ActiviteSocialeReguleeFiness",
+  "oids" : ["1.2.250.1.213.1.6.1.331"]
+},
+{
+  "id" : "jdv-j324-activite-sociale-regulee-niv1-finess",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j324-activite-sociale-regulee-niv1-finess",
+  "version" : "20260223120000",
+  "name" : "JdvJ324ActiviteSocialeReguleeNiv1Finess",
+  "oids" : ["1.2.250.1.213.1.6.1.332"]
+},
+{
   "id" : "jdv-j325-activite-sociale-regulee-niv2-finess",
   "type" : "ValueSet",
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j325-activite-sociale-regulee-niv2-finess",
@@ -6547,6 +6587,14 @@
   "version" : "20260223120000",
   "name" : "JdvJ376PublicActiviteSmsseReguleeRass",
   "oids" : ["1.2.250.1.213.1.6.1.390"]
+},
+{
+  "id" : "jdv-j377-categorie-entite-geographique-exercice-ror",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j377-categorie-entite-geographique-exercice-ror",
+  "version" : "20260223120000",
+  "name" : "JdvJ377CategorieEntiteGeographiqueExerciceRor",
+  "oids" : ["1.2.250.1.213.3.4.224"]
 },
 {
   "id" : "jdv-j379-activite-sociale-regulee-rass",

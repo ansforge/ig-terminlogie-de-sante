@@ -25,6 +25,7 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
 * [JDV_J55_CategorieEG_ROR](ValueSet-JDV-J55-CategorieEG-ROR.md)
 * [JDV_J59_ContentTypeCode_DMP](ValueSet-JDV-J59-ContentTypeCode-DMP.md)
 * [JDV_J61_HealthcareFacilityTypeCode_DMP](ValueSet-JDV-J61-HealthcareFacilityTypeCode-DMP.md)
+* [JdvJ377CategorieEntiteGeographiqueExerciceRor](ValueSet-jdv-j377-categorie-entite-geographique-exercice-ror.md)
 
 
 
@@ -35,10 +36,11 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
   "resourceType" : "CodeSystem",
   "id" : "TRE-R02-SecteurActivite",
   "meta" : {
-    "versionId" : "13",
-    "lastUpdated" : "2025-07-02T18:12:02.978+00:00",
+    "versionId" : "14",
+    "lastUpdated" : "2026-02-24T10:27:21.489+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
   },
+  "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {
@@ -65,20 +67,30 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
   }],
   "caseSensitive" : false,
   "content" : "complete",
+  "count" : 69,
   "property" : [{
     "code" : "dateValid",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
     "description" : "date de validité d'un code concept",
     "type" : "dateTime"
   },
   {
     "code" : "dateMaj",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
     "description" : "Date de mise à jour d'un code concept",
     "type" : "dateTime"
   },
   {
     "code" : "dateFin",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
     "description" : "Date de fin d'exploitation d'un code concept",
     "type" : "dateTime"
+  },
+  {
+    "code" : "ror",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#ror",
+    "description" : "Permet de définir les codes concepts uilisés par le ROR",
+    "type" : "boolean"
   },
   {
     "code" : "deprecationDate",
@@ -184,6 +196,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "ror",
+      "valueBoolean" : true
     }]
   },
   {
@@ -224,6 +240,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "ror",
+      "valueBoolean" : true
     }]
   },
   {
@@ -240,6 +260,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "ror",
+      "valueBoolean" : true
     }]
   },
   {
@@ -256,6 +280,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "ror",
+      "valueBoolean" : true
     }]
   },
   {

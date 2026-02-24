@@ -11,7 +11,7 @@
   <name value="Terminologies"/>
   <title value="Terminologies  de Santé"/>
   <status value="active"/>
-  <date value="2026-02-24T08:42:20+00:00"/>
+  <date value="2026-02-24T09:38:57+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -20689,6 +20689,61 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-j319-activite-enseignement-regulee-niv1-finess"/>
+      </reference>
+      <name value="Jdv J319 Activite Enseignement Regulee Niv1 Finess"/>
+      <description value="Jeu de valeurs FINESS contenant les activités d'enseignement régulées de niveau 1"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j320-activite-enseignement-regulee-niv2-finess"/>
+      </reference>
+      <name value="Jdv J320 Activite Enseignement Regulee Niv2 Finess"/>
+      <description value="Jeu de valeurs FINESS contenant les activités d'enseignement régulées de niveau 2"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j321-activite-enseignement-regulee-niv3-finess"/>
+      </reference>
+      <name value="Jdv J321 Activite Enseignement Regulee Niv3 Finess"/>
+      <description value="Jeu de valeurs FINESS contenant les activités d'enseignement régulées de niveau 3"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j323-activite-sociale-regulee-finess"/>
+      </reference>
+      <name value="Jdv J323 Activite Sociale Regulee Finess"/>
+      <description value="Ce JDV  contient toute les ASOCR  hors agrégat (JDV créé à l'image de l'ancienne  TRE_R280-DisciplineEquipementSocial)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j324-activite-sociale-regulee-niv1-finess"/>
+      </reference>
+      <name value="Jdv J324 Activite Sociale Regulee Niv1 Finess"/>
+      <description value="Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 1"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-j325-activite-sociale-regulee-niv2-finess"/>
       </reference>
       <name value="Jdv J325 Activite Sociale Regulee Niv2 Finess"/>
@@ -20792,6 +20847,17 @@
       </reference>
       <name value="Jdv J376 Public Activite Smsse Regulee Rass"/>
       <description value="Ce JDV remplace le JDV_J137_Clientele_RASS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j377-categorie-entite-geographique-exercice-ror"/>
+      </reference>
+      <name value="Jdv J377 Categorie Entite Geographique Exercice Ror"/>
+      <description value="Ce JDV remplace le JDV_J55_CategorieEG_ROR"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

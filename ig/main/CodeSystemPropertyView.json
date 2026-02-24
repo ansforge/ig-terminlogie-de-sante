@@ -6198,7 +6198,7 @@
   "identifier" : "urn:oid:1.2.250.1.71.4.2.4",
   "status" : "active",
   "codeProperty" : "dateValid",
-  "uriProperty" : null,
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
   "typeProperty" : "dateTime",
   "descriptionProperty" : "date de validité d'un code concept"
 },
@@ -6210,7 +6210,7 @@
   "identifier" : "urn:oid:1.2.250.1.71.4.2.4",
   "status" : "active",
   "codeProperty" : "dateMaj",
-  "uriProperty" : null,
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
   "typeProperty" : "dateTime",
   "descriptionProperty" : "Date de mise à jour d'un code concept"
 },
@@ -6222,9 +6222,21 @@
   "identifier" : "urn:oid:1.2.250.1.71.4.2.4",
   "status" : "active",
   "codeProperty" : "dateFin",
-  "uriProperty" : null,
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
   "typeProperty" : "dateTime",
   "descriptionProperty" : "Date de fin d'exploitation d'un code concept"
+},
+{
+  "id" : "TRE-R02-SecteurActivite",
+  "name" : "TRE_R02_SecteurActivite",
+  "title" : null,
+  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite",
+  "identifier" : "urn:oid:1.2.250.1.71.4.2.4",
+  "status" : "active",
+  "codeProperty" : "ror",
+  "uriProperty" : "https://smt.esante.gouv.fr/fhir/concept-properties#ror",
+  "typeProperty" : "boolean",
+  "descriptionProperty" : "Permet de définir les codes concepts uilisés par le ROR"
 },
 {
   "id" : "TRE-R02-SecteurActivite",

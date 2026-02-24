@@ -5359,6 +5359,61 @@
     "sources" : ["1.2.250.1.213.1.6.1.326"]
   },
   {
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j319-activite-enseignement-regulee-niv1-finess",
+    "version" : "20260223120000",
+    "status" : "active",
+    "name" : "JdvJ319ActiviteEnseignementReguleeNiv1Finess",
+    "title" : "Jdv J319 Activite Enseignement Regulee Niv1 Finess",
+    "description" : "Jeu de valeurs FINESS contenant les activités d'enseignement régulées de niveau 1",
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee"],
+    "oids" : ["1.2.250.1.213.1.6.1.327"],
+    "sources" : ["1.2.250.1.213.1.6.1.327"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j320-activite-enseignement-regulee-niv2-finess",
+    "version" : "20260223120000",
+    "status" : "active",
+    "name" : "JdvJ320ActiviteEnseignementReguleeNiv2Finess",
+    "title" : "Jdv J320 Activite Enseignement Regulee Niv2 Finess",
+    "description" : "Jeu de valeurs FINESS contenant les activités d'enseignement régulées de niveau 2",
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee"],
+    "oids" : ["1.2.250.1.213.1.6.1.328"],
+    "sources" : ["1.2.250.1.213.1.6.1.328"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j321-activite-enseignement-regulee-niv3-finess",
+    "version" : "20260223120000",
+    "status" : "active",
+    "name" : "JdvJ321ActiviteEnseignementReguleeNiv3Finess",
+    "title" : "Jdv J321 Activite Enseignement Regulee Niv3 Finess",
+    "description" : "Jeu de valeurs FINESS contenant les activités d'enseignement régulées de niveau 3",
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee"],
+    "oids" : ["1.2.250.1.213.1.6.1.329"],
+    "sources" : ["1.2.250.1.213.1.6.1.329"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j323-activite-sociale-regulee-finess",
+    "version" : "20260223120000",
+    "status" : "active",
+    "name" : "JdvJ323ActiviteSocialeReguleeFiness",
+    "title" : "Jdv J323 Activite Sociale Regulee Finess",
+    "description" : "Ce JDV  contient toute les ASOCR  hors agrégat (JDV créé à l'image de l'ancienne  TRE_R280-DisciplineEquipementSocial)",
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"],
+    "oids" : ["1.2.250.1.213.1.6.1.331"],
+    "sources" : ["1.2.250.1.213.1.6.1.331"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j324-activite-sociale-regulee-niv1-finess",
+    "version" : "20260223120000",
+    "status" : "active",
+    "name" : "JdvJ324ActiviteSocialeReguleeNiv1Finess",
+    "title" : "Jdv J324 Activite Sociale Regulee Niv1 Finess",
+    "description" : "Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 1",
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee"],
+    "oids" : ["1.2.250.1.213.1.6.1.332"],
+    "sources" : ["1.2.250.1.213.1.6.1.332"]
+  },
+  {
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j325-activite-sociale-regulee-niv2-finess",
     "version" : "20260223120000",
     "status" : "active",
@@ -5467,6 +5522,18 @@
     "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee"],
     "oids" : ["1.2.250.1.213.1.6.1.390"],
     "sources" : ["1.2.250.1.213.1.6.1.390"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j377-categorie-entite-geographique-exercice-ror",
+    "version" : "20260223120000",
+    "status" : "active",
+    "name" : "JdvJ377CategorieEntiteGeographiqueExerciceRor",
+    "title" : "Jdv J377 Categorie Entite Geographique Exercice Ror",
+    "description" : "Ce JDV remplace le JDV_J55_CategorieEG_ROR",
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
+    "https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite"],
+    "oids" : ["1.2.250.1.213.3.4.224"],
+    "sources" : ["1.2.250.1.213.3.4.224"]
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j379-activite-sociale-regulee-rass",
@@ -8725,8 +8792,8 @@
     "systems" : ["https://smt.esante.gouv.fr/terminologie-bdpm"],
     "uses" : {
     },
-    "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD",
-    "ConceptMap-alignement-nuva-bdpm.html" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM"
+    "ConceptMap-alignement-nuva-bdpm.html" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM",
+    "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD"
   },
   {
     "url" : "https://smt.esante.gouv.fr/terminologie-cip_ucd?vs",

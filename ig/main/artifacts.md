@@ -729,6 +729,11 @@ These define sets of codes used by systems conforming to this implementation gui
 | [Jdv J309 Categorie Entite Geographique Exercice Niv3 Finess](ValueSet-jdv-j309-categorie-entite-geographique-exercice-niv3-finess.md) | Ce JDV contient tous les agrégats Niv3 d’EGE (JDV créé à l’image de l’ancienneTRE_R64-AgregatCategorieEtablissementNiv2) |
 | [Jdv J310 Categorie Entite Geographique Exercice Finess](ValueSet-jdv-j310-categorie-entite-geographique-exercice-finess.md) | Ce JDV contient toutes les catégories d’EGE hors agrégat (JDV crée à l’image de l’ancienne TRE R66) |
 | [Jdv J318 Activite Enseignement Regulee Finess](ValueSet-jdv-j318-activite-enseignement-regulee-finess.md) | Ce JDV contient toutes les AER hors agrégat (JDV créé à l’image de l’ancienne TRE_R281-DisciplineEnseignement) |
+| [Jdv J319 Activite Enseignement Regulee Niv1 Finess](ValueSet-jdv-j319-activite-enseignement-regulee-niv1-finess.md) | Jeu de valeurs FINESS contenant les activités d’enseignement régulées de niveau 1 |
+| [Jdv J320 Activite Enseignement Regulee Niv2 Finess](ValueSet-jdv-j320-activite-enseignement-regulee-niv2-finess.md) | Jeu de valeurs FINESS contenant les activités d’enseignement régulées de niveau 2 |
+| [Jdv J321 Activite Enseignement Regulee Niv3 Finess](ValueSet-jdv-j321-activite-enseignement-regulee-niv3-finess.md) | Jeu de valeurs FINESS contenant les activités d’enseignement régulées de niveau 3 |
+| [Jdv J323 Activite Sociale Regulee Finess](ValueSet-jdv-j323-activite-sociale-regulee-finess.md) | Ce JDV contient toute les ASOCR hors agrégat (JDV créé à l’image de l’ancienne TRE_R280-DisciplineEquipementSocial) |
+| [Jdv J324 Activite Sociale Regulee Niv1 Finess](ValueSet-jdv-j324-activite-sociale-regulee-niv1-finess.md) | Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 1 |
 | [Jdv J325 Activite Sociale Regulee Niv2 Finess](ValueSet-jdv-j325-activite-sociale-regulee-niv2-finess.md) | Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 2 |
 | [Jdv J326 Activite Sociale Regulee Niv3 Finess](ValueSet-jdv-j326-activite-sociale-regulee-niv3-finess.md) | Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 3 |
 | [Jdv J328 Public Activite Smsse Regulee Finess](ValueSet-jdv-j328-public-activite-smsse-regulee-finess.md) | Ce JDV contient tous les publics hors agrégat (JDV créé à l’image de l’ancienne TRE_R279-Clientele) |
@@ -739,6 +744,7 @@ These define sets of codes used by systems conforming to this implementation gui
 | [Jdv J368 Categorie Etablissement Cisis](ValueSet-jdv-j368-categorie-etablissement-cisis.md) | JDV à l’image de l’ensemble des valeurs actives de la terminologie TRE_R66-CategorieEtablissement |
 | [Jdv J370 Type Contrat Sejour Ms](ValueSet-jdv-j370-type-contrat-sejour-ms.md) | Type de contrat conclu entre l’établissement/service et la personne/son représentant légal. |
 | [Jdv J376 Public Activite Smsse Regulee Rass](ValueSet-jdv-j376-public-activite-smsse-regulee-rass.md) | Ce JDV remplace le JDV_J137_Clientele_RASS |
+| [Jdv J377 Categorie Entite Geographique Exercice Ror](ValueSet-jdv-j377-categorie-entite-geographique-exercice-ror.md) | Ce JDV remplace le JDV_J55_CategorieEG_ROR |
 | [Jdv J379 Activite Sociale Regulee Rass](ValueSet-jdv-j379-activite-sociale-regulee-rass.md) | Ce JDV remplace le JDV_J136_DisciplineEquipementSocial_RASS |
 | [Jdv J383 Motif Cloture Exercice Professionnel Epars](ValueSet-jdv-j383-motif-cloture-exercice-professionnel-epars.md) | Ce jeu de valeur liste les différents motifs qui peuvent justifier la clôture d’un exercice professionnel. |
 | [Jdv J384 Role Membre Famille Ms](ValueSet-jdv-j384-role-membre-famille-ms.md) | Rôle d’un membre de la famille ou d’un proche de l’usager. |

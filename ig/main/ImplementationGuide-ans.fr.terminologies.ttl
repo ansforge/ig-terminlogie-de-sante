@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "Terminologies"] ; # 
   fhir:title [ fhir:v "Terminologies  de Santé"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2026-02-24T08:42:20+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-24T09:38:57+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -59026,6 +59026,111 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j319-activite-enseignement-regulee-niv1-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j319-activite-enseignement-regulee-niv1-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J319 Activite Enseignement Regulee Niv1 Finess" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs FINESS contenant les activités d'enseignement régulées de niveau 1" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j320-activite-enseignement-regulee-niv2-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j320-activite-enseignement-regulee-niv2-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J320 Activite Enseignement Regulee Niv2 Finess" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs FINESS contenant les activités d'enseignement régulées de niveau 2" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j321-activite-enseignement-regulee-niv3-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j321-activite-enseignement-regulee-niv3-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J321 Activite Enseignement Regulee Niv3 Finess" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs FINESS contenant les activités d'enseignement régulées de niveau 3" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j323-activite-sociale-regulee-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j323-activite-sociale-regulee-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J323 Activite Sociale Regulee Finess" ] ;
+       fhir:description [ fhir:v "Ce JDV  contient toute les ASOCR  hors agrégat (JDV créé à l'image de l'ancienne  TRE_R280-DisciplineEquipementSocial)" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j324-activite-sociale-regulee-niv1-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j324-activite-sociale-regulee-niv1-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J324 Activite Sociale Regulee Niv1 Finess" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 1" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j325-activite-sociale-regulee-niv2-finess> ;
          fhir:reference [ fhir:v "ValueSet/jdv-j325-activite-sociale-regulee-niv2-finess" ]
        ] ;
@@ -59220,6 +59325,27 @@
        ] ;
        fhir:name [ fhir:v "Jdv J376 Public Activite Smsse Regulee Rass" ] ;
        fhir:description [ fhir:v "Ce JDV remplace le JDV_J137_Clientele_RASS" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j377-categorie-entite-geographique-exercice-ror> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j377-categorie-entite-geographique-exercice-ror" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J377 Categorie Entite Geographique Exercice Ror" ] ;
+       fhir:description [ fhir:v "Ce JDV remplace le JDV_J55_CategorieEG_ROR" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
