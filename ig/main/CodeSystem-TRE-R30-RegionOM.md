@@ -30,10 +30,11 @@ Référentiel des codes régions et collectivités d’outre-mer provenant du CO
   "resourceType" : "CodeSystem",
   "id" : "TRE-R30-RegionOM",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2025-07-02T18:17:22.353+00:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-02-24T09:12:25.930+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
   },
+  "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {
@@ -59,21 +60,32 @@ Référentiel des codes régions et collectivités d’outre-mer provenant du CO
     }]
   }],
   "caseSensitive" : false,
+  "valueSet" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM?vs",
   "content" : "complete",
+  "count" : 46,
   "property" : [{
     "code" : "dateValid",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
     "description" : "date de validité d'un code concept",
     "type" : "dateTime"
   },
   {
     "code" : "dateMaj",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
     "description" : "Date de mise à jour d'un code concept",
     "type" : "dateTime"
   },
   {
     "code" : "dateFin",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
     "description" : "Date de fin d'exploitation d'un code concept",
     "type" : "dateTime"
+  },
+  {
+    "code" : "finess",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#finess",
+    "description" : "Permet de définir les codes concepts uilisés par FINESS",
+    "type" : "boolean"
   },
   {
     "code" : "deprecationDate",
@@ -107,6 +119,10 @@ Référentiel des codes régions et collectivités d’outre-mer provenant du CO
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
     }]
   },
   {
@@ -123,6 +139,10 @@ Référentiel des codes régions et collectivités d’outre-mer provenant du CO
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
     }]
   },
   {
@@ -139,6 +159,10 @@ Référentiel des codes régions et collectivités d’outre-mer provenant du CO
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
     }]
   },
   {
@@ -163,6 +187,10 @@ Référentiel des codes régions et collectivités d’outre-mer provenant du CO
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
     }]
   },
   {
@@ -179,6 +207,10 @@ Référentiel des codes régions et collectivités d’outre-mer provenant du CO
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
     }]
   },
   {
@@ -203,6 +235,10 @@ Référentiel des codes régions et collectivités d’outre-mer provenant du CO
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
     }]
   },
   {
@@ -299,6 +335,10 @@ Référentiel des codes régions et collectivités d’outre-mer provenant du CO
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
     }]
   },
   {
@@ -371,6 +411,10 @@ Référentiel des codes régions et collectivités d’outre-mer provenant du CO
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
     }]
   },
   {
@@ -387,6 +431,10 @@ Référentiel des codes régions et collectivités d’outre-mer provenant du CO
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
     }]
   },
   {
@@ -435,6 +483,10 @@ Référentiel des codes régions et collectivités d’outre-mer provenant du CO
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
     }]
   },
   {
@@ -523,6 +575,10 @@ Référentiel des codes régions et collectivités d’outre-mer provenant du CO
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
     }]
   },
   {
@@ -539,6 +595,10 @@ Référentiel des codes régions et collectivités d’outre-mer provenant du CO
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
     }]
   },
   {
@@ -555,6 +615,10 @@ Référentiel des codes régions et collectivités d’outre-mer provenant du CO
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
     }]
   },
   {
@@ -675,6 +739,10 @@ Référentiel des codes régions et collectivités d’outre-mer provenant du CO
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
     }]
   },
   {
@@ -691,6 +759,10 @@ Référentiel des codes régions et collectivités d’outre-mer provenant du CO
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
     }]
   },
   {
@@ -763,6 +835,10 @@ Référentiel des codes régions et collectivités d’outre-mer provenant du CO
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
     }]
   },
   {
@@ -811,6 +887,10 @@ Référentiel des codes régions et collectivités d’outre-mer provenant du CO
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
     }]
   },
   {
@@ -827,6 +907,10 @@ Référentiel des codes régions et collectivités d’outre-mer provenant du CO
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
     }]
   },
   {
@@ -851,6 +935,10 @@ Référentiel des codes régions et collectivités d’outre-mer provenant du CO
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
     }]
   },
   {
@@ -899,6 +987,10 @@ Référentiel des codes régions et collectivités d’outre-mer provenant du CO
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
     }]
   },
   {
@@ -923,6 +1015,10 @@ Référentiel des codes régions et collectivités d’outre-mer provenant du CO
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
     }]
   },
   {
@@ -1019,6 +1115,10 @@ Référentiel des codes régions et collectivités d’outre-mer provenant du CO
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
     }]
   },
   {
