@@ -1873,7 +1873,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #971 ^property[=].valueCoding.code = #ARS-01
 * #971 ^property[+].code = #region
 * #971 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #971 ^property[=].valueCoding.code = #1
+* #971 ^property[=].valueCoding.code = #01
 * #971 ^property[+].code = #status
 * #971 ^property[=].valueCode = #active
 * #972 "Martinique"
@@ -1890,7 +1890,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #972 ^property[=].valueCoding.code = #ARS-02
 * #972 ^property[+].code = #region
 * #972 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #972 ^property[=].valueCoding.code = #2
+* #972 ^property[=].valueCoding.code = #02
 * #972 ^property[+].code = #status
 * #972 ^property[=].valueCode = #active
 * #973 "Guyane"
@@ -1907,7 +1907,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #973 ^property[=].valueCoding.code = #ARS-03
 * #973 ^property[+].code = #region
 * #973 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #973 ^property[=].valueCoding.code = #3
+* #973 ^property[=].valueCoding.code = #03
 * #973 ^property[+].code = #status
 * #973 ^property[=].valueCode = #active
 * #974 "La Réunion"
@@ -1928,7 +1928,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #974 ^property[=].valueCoding.code = #ARS-05
 * #974 ^property[+].code = #region
 * #974 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #974 ^property[=].valueCoding.code = #4
+* #974 ^property[=].valueCoding.code = #04
 * #974 ^property[+].code = #status
 * #974 ^property[=].valueCode = #active
 * #975 "Saint-Pierre-et-Miquelon"
@@ -1959,7 +1959,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #976 ^property[=].valueCoding.code = #ARS-86
 * #976 ^property[+].code = #region
 * #976 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #976 ^property[=].valueCoding.code = #6
+* #976 ^property[=].valueCoding.code = #06
 * #976 ^property[+].code = #status
 * #976 ^property[=].valueCode = #active
 * #977 "Saint-Barthélemy"
