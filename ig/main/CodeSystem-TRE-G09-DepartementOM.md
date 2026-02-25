@@ -31,8 +31,8 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
   "resourceType" : "CodeSystem",
   "id" : "TRE-G09-DepartementOM",
   "meta" : {
-    "versionId" : "9",
-    "lastUpdated" : "2026-02-23T17:57:19.707+01:00",
+    "versionId" : "10",
+    "lastUpdated" : "2026-02-25T15:27:34.491+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
   },
   "language" : "fr-FR",
@@ -4137,7 +4137,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
       "code" : "region",
       "valueCoding" : {
         "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
-        "code" : "1"
+        "code" : "01"
       }
     },
     {
@@ -4175,7 +4175,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
       "code" : "region",
       "valueCoding" : {
         "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
-        "code" : "2"
+        "code" : "02"
       }
     },
     {
@@ -4213,7 +4213,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
       "code" : "region",
       "valueCoding" : {
         "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
-        "code" : "3"
+        "code" : "03"
       }
     },
     {
@@ -4259,7 +4259,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
       "code" : "region",
       "valueCoding" : {
         "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
-        "code" : "4"
+        "code" : "04"
       }
     },
     {
@@ -4328,7 +4328,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
       "code" : "region",
       "valueCoding" : {
         "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
-        "code" : "6"
+        "code" : "06"
       }
     },
     {
@@ -4689,7 +4689,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
       "code" : "region",
       "valueCoding" : {
         "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM",
-        "code" : "98000"
+        "code" : "980"
       }
     },
     {

@@ -36,7 +36,7 @@ Pour cette association, seuls les fichiers sont disponibles :
   "title" : "ASS_X10_AgregatCategorieEtablissement",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-25T05:24:44+00:00",
+  "date" : "2026-02-25T14:39:24+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
