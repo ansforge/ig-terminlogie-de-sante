@@ -4710,7 +4710,7 @@
   "id" : "terminologie-cisis",
   "type" : "CodeSystem",
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-  "version" : "202512170000",
+  "version" : "202602240000",
   "name" : "TerminologieCISIS",
   "oids" : ["1.2.250.1.213.1.1.4.322"]
 },
@@ -8911,14 +8911,6 @@
   "url" : "https://smt.esante.gouv.fr/terminologie-bdpm?vs",
   "version" : "20241106120000",
   "name" : "ValueSet_BDPM_All"
-},
-{
-  "id" : "terminologie-ccam",
-  "type" : "CodeSystem",
-  "url" : "https://smt.esante.gouv.fr/terminologie-ccam",
-  "version" : "v81.00",
-  "name" : "CCAM",
-  "oids" : ["1.2.250.1.215.300.1"]
 },
 {
   "id" : "terminologie-cim-10",

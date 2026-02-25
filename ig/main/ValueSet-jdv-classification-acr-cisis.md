@@ -88,7 +88,7 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-      "version" : "202512170000",
+      "version" : "202602240000",
       "concept" : [{
         "code" : "MED-129",
         "display" : "Normal BI-RADS ACR 1"

@@ -33,6 +33,8 @@ Requête sur le SMT
 
 ### Expansion
 
+No Expansion for this valueset (not supported by Publication Tooling)
+
 -------
 
  Explanation of the columns that may appear on this page: 
@@ -88,7 +90,6 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/terminologie-ccam",
-      "version" : "v81.00",
       "concept" : [{
         "code" : "DEQP003",
         "display" : "Électrocardiographie sur au moins 12 dérivations"

@@ -101,7 +101,7 @@ No Expansion for this valueset (not supported by Publication Tooling)
     },
     {
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-      "version" : "202512170000",
+      "version" : "202602240000",
       "concept" : [{
         "code" : "MED-276",
         "display" : "Antibiothérapie (de plus de 48 heures)"

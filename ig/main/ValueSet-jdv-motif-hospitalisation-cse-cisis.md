@@ -103,7 +103,7 @@ Requête sur le SMT
     },
     {
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-      "version" : "202512170000",
+      "version" : "202602240000",
       "concept" : [{
         "code" : "GEN-092.01.08",
         "display" : "Autre motif d'hospitalisation"

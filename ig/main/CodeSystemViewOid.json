@@ -247,14 +247,6 @@
   "status" : "active"
 },
 {
-  "id" : "terminologie-ccam",
-  "name" : "CCAM",
-  "title" : "Classification Commune des Actes Médicaux",
-  "url" : "https://smt.esante.gouv.fr/terminologie-ccam",
-  "identifier" : "urn:oid:1.2.250.1.215.300.1",
-  "status" : "active"
-},
-{
   "id" : "terminologie-cim11-mms",
   "name" : "CIM11_MMS",
   "title" : "Classification internationale des maladies et des problèmes de santé connexes - 11ème révision",

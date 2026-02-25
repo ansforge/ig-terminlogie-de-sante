@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis | *Version*:202512170000 | |
-| Active as of 2025-12-17 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TerminologieCISIS |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis | *Version*:202602240000 | |
+| Active as of 2026-02-24 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TerminologieCISIS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.4.322 | | |
 
  
@@ -261,8 +261,8 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
   "resourceType" : "CodeSystem",
   "id" : "terminologie-cisis",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2025-12-17T14:55:38.023+01:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-02-24T15:55:18.104+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
   },
   "extension" : [{
@@ -276,12 +276,12 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.4.322"
   }],
-  "version" : "202512170000",
+  "version" : "202602240000",
   "name" : "TerminologieCISIS",
   "title" : "TerminologieCISIS - Terminologie des concepts non trouvés dans les autres terminologies",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-17T14:37:59-00:00",
+  "date" : "2026-02-24T15:40:47-00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Terminologie multi-domaines créée et maintenue par l'ANS contenant les termes non trouvés dans les autres terminologies internationales ou nationales.",
   "jurisdiction" : [{
@@ -1903,6 +1903,22 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "GEN-092.01.27",
+    "display" : "Autre facteur de risque",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-01-13T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-01-13T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
     "code" : "GEN-092.02.01",
     "display" : "Autre dispositif ou objet personnel",
     "property" : [{
@@ -2664,6 +2680,22 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "dateValid",
       "valueDateTime" : "2010-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-092.06.11",
+    "display" : "Autre collectivité",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-01-14T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-01-14T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -5499,22 +5531,6 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
-    "code" : "GEN-335",
-    "display" : "Le patient a signé son consentement à la transmission des données au registre ERN Heart-Core",
-    "property" : [{
-      "code" : "creationDate",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateValid",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
     "code" : "GEN-336",
     "display" : "Le patient a signé son consentement à la transmission des données au registre ERN ILIAD",
     "property" : [{
@@ -6795,6 +6811,102 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     }]
   },
   {
+    "code" : "GEN-416",
+    "display" : "Le patient a signé un consentement à la transmission de ses données au registre EuRREB",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-01-08T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-01-08T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-417",
+    "display" : "Pacsé(e)",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-01-14T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-01-14T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-418",
+    "display" : "Union libre/Concubinage",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-01-14T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-01-14T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-419",
+    "display" : "Contact avec un cas de rougeole",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-01-14T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-01-14T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-420",
+    "display" : "Existence d'autres cas dans l'entourage",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-01-14T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-01-14T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "GEN-421",
+    "display" : "Fréquentation d'une collectivité accueillant des sujets à risque de rougeole grave",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-01-14T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-01-14T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
     "code" : "MED-001",
     "display" : "Précision échographie",
     "property" : [{
@@ -8001,22 +8113,6 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
   {
     "code" : "MED-105",
     "display" : "Décision de prise en soins palliatifs",
-    "property" : [{
-      "code" : "creationDate",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "dateValid",
-      "valueDateTime" : "2010-01-01T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "MED-107",
-    "display" : "Implant",
     "property" : [{
       "code" : "creationDate",
       "valueDateTime" : "2010-01-01T00:00:00+01:00"
@@ -10868,7 +10964,7 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
   },
   {
     "code" : "MED-363",
-    "display" : "Hémorragie sévère (manifeste ou récente) ; maladie connue favorisant les hémorragies ; rétinopathie hémorragique (diabétique par ex)",
+    "display" : "Hémorragie sévère (manifeste ou récente), maladie connue favorisant les hémorragies, rétinopathie hémorragique (diabétique par ex)",
     "property" : [{
       "code" : "creationDate",
       "valueDateTime" : "2010-01-01T00:00:00+01:00"
@@ -10884,7 +10980,7 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
   },
   {
     "code" : "MED-364",
-    "display" : "Hépatopathie sévère ; pancréatite aiguë",
+    "display" : "Hépatopathie sévère, pancréatite aiguë",
     "property" : [{
       "code" : "creationDate",
       "valueDateTime" : "2010-01-01T00:00:00+01:00"
@@ -22492,6 +22588,54 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "dateValid",
       "valueDateTime" : "2025-12-15T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-1337",
+    "display" : "Le patient (ou le tiers) est-il informé du diagnostic ?",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-01-14T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-01-14T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-1338",
+    "display" : "L'état clinique du patient lui permet-il de répondre à l'investigation ?",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-01-14T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-01-14T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "MED-1339",
+    "display" : "Complication",
+    "property" : [{
+      "code" : "creationDate",
+      "valueDateTime" : "2026-01-14T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-01-14T00:00:00+01:00"
     },
     {
       "code" : "status",

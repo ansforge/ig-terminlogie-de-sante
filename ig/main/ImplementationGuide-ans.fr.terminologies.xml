@@ -11,7 +11,7 @@
   <name value="Terminologies"/>
   <title value="Terminologies  de Santé"/>
   <status value="active"/>
-  <date value="2026-02-24T09:38:57+00:00"/>
+  <date value="2026-02-25T05:24:44+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -18582,17 +18582,6 @@
       </reference>
       <name value="Classification anatomique, thérapeutique et chimique"/>
       <description value="La classification ATC (anatomique, thérapeutique et chimique) classe les substances actives dans différents groupes selon l’organe ou le système sur lequel ils agissent et selon leurs propriétés thérapeutiques, pharmacologiques et chimiques."/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/terminologie-ccam"/>
-      </reference>
-      <name value="Classification Commune des Actes Médicaux"/>
-      <description value="La Classification Commune des Actes Médicaux est la terminologie de facturation créée et maintenue par la CNAM."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

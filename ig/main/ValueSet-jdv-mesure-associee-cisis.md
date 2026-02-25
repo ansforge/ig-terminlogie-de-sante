@@ -88,7 +88,7 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-      "version" : "202512170000",
+      "version" : "202602240000",
       "concept" : [{
         "code" : "ORG-007",
         "display" : "Prise en charge des conséquences neurocognitives et endocriniennes"

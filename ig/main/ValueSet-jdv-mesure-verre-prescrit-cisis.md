@@ -88,7 +88,7 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-      "version" : "202512170000",
+      "version" : "202602240000",
       "concept" : [{
         "code" : "MED-1070",
         "display" : "Pathologie listée dans arrété du 3 décembre 2018 publié le 13 décembre 2018"

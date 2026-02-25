@@ -26,7 +26,6 @@ Les systèmes d'identification définis ici sont destinés à la commodité des 
 | AllergyIntoleranceClinicalSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/allergyintolerance-clinical-supplement-fr |  |
 | AllergyIntoleranceCriticalitySupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/allergy-intolerance-criticality-supplement-fr |  |
 | BDPM | https://smt.esante.gouv.fr/terminologie-bdpm |  |
-| CCAM | https://smt.esante.gouv.fr/terminologie-ccam | 1.2.250.1.215.300.1 |
 | CIM11_MMS | https://smt.esante.gouv.fr/terminologie-cim11-mms | 2.16.840.1.113883.6.347 |
 | CIM_10_FR_PMSI | https://smt.esante.gouv.fr/terminologie-cim-10 | 2.16.840.1.113883.6.3 |
 | CISP_2 | https://smt.esante.gouv.fr/terminologie-cisp | 2.16.840.1.113883.6.139 |

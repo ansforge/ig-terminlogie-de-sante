@@ -11,31 +11,31 @@
              urlFichier="">
       <ConceptList>
          <Concept code="DEQP003"
-                  codeSystem="1.2.250.1.215.300.1"
+                  codeSystem="https://smt.esante.gouv.fr/terminologie-ccam"
                   displayName="Électrocardiographie sur au moins 12 dérivations"/>
          <Concept code="DEQP004"
-                  codeSystem="1.2.250.1.215.300.1"
+                  codeSystem="https://smt.esante.gouv.fr/terminologie-ccam"
                   displayName="Surveillance continue de l'électrocardiogramme par oscilloscopie et/ou télésurveillance, par 24 heures"/>
          <Concept code="DEQP005"
-                  codeSystem="1.2.250.1.215.300.1"
+                  codeSystem="https://smt.esante.gouv.fr/terminologie-ccam"
                   displayName="Électrocardiographie sur au moins 2 dérivations, avec enregistrement continu pendant au moins 24 heures"/>
          <Concept code="DZQM006"
-                  codeSystem="1.2.250.1.215.300.1"
+                  codeSystem="https://smt.esante.gouv.fr/terminologie-ccam"
                   displayName="Échographie-doppler transthoracique du coeur et des vaisseaux intrathoraciques"/>
          <Concept code="DZQJ001"
-                  codeSystem="1.2.250.1.215.300.1"
+                  codeSystem="https://smt.esante.gouv.fr/terminologie-ccam"
                   displayName="Échographie-doppler du coeur et des vaisseaux intrathoraciques, par voie oesophagienne [Échocardiographie-doppler transoesophagienne]"/>
          <Concept code="ACQN001"
-                  codeSystem="1.2.250.1.215.300.1"
+                  codeSystem="https://smt.esante.gouv.fr/terminologie-ccam"
                   displayName="Remnographie [IRM] du crâne et de son contenu, sans injection intraveineuse de produit de contraste"/>
          <Concept code="EBQH006"
-                  codeSystem="1.2.250.1.215.300.1"
+                  codeSystem="https://smt.esante.gouv.fr/terminologie-ccam"
                   displayName="Scanographie des vaisseaux cervicaux [Angioscanner cervical]"/>
          <Concept code="EAQM004"
-                  codeSystem="1.2.250.1.215.300.1"
+                  codeSystem="https://smt.esante.gouv.fr/terminologie-ccam"
                   displayName="Échographie-doppler transcrânienne des vaisseaux intracrâniens, sans épreuve pharmacodynamique"/>
          <Concept code="EAQM002"
-                  codeSystem="1.2.250.1.215.300.1"
+                  codeSystem="https://smt.esante.gouv.fr/terminologie-ccam"
                   displayName="Monitorage de la circulation artérielle intracrânienne par doppler pulsé transcrânien"/>
       </ConceptList>
    </ValueSet>

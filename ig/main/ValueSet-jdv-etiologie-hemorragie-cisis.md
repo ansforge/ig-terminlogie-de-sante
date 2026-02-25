@@ -95,7 +95,7 @@ Requête sur le SMT
     },
     {
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-      "version" : "202512170000",
+      "version" : "202602240000",
       "concept" : [{
         "code" : "MED-473",
         "display" : "Maladie petites artères"
