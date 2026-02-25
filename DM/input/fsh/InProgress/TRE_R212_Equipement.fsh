@@ -2017,7 +2017,7 @@ Description: "Equipement"
 * #230 ^property[=].valueDateTime = "2025-07-17T00:00:00+01:00"
 * #230 ^property[+].code = #status
 * #230 ^property[=].valueCode = #active
-* #230 ^property[+].code = #appareilAMM
+* #230 ^property[+].code = #appareilAmm
 * #230 ^property[=].valueBoolean = true
 * #231 "Scanner"
 * #231 ^designation.language = #fr-FR

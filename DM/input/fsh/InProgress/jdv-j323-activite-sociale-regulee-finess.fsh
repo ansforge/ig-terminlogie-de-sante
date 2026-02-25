@@ -3,7 +3,7 @@ Alias: $tre-r401-activite-sociale-regulee = https://smt.esante.gouv.fr/fhir/Code
 ValueSet: JdvJ323ActiviteSocialeRegulee
 Id: jdv-j323-activite-sociale-regulee-finess
 Title: "Jdv J323 Activite Sociale Regulee"
-Description: "Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 4"
+Description: "Ce JDV  contient toute les ASOCR  hors agrégat (JDV créé à l'image de l'ancienne  TRE_R280-DisciplineEquipementSocial)"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2025-11-04T18:02:28.249+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
