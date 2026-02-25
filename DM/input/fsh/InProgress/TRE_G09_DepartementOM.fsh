@@ -2125,7 +2125,7 @@ Description: "Référentiel des codes départements et collectivités d’outre-
 * #98000 ^property[=].valueDateTime = "2016-02-05T00:00:00+01:00"
 * #98000 ^property[+].code = #region
 * #98000 ^property[=].valueCoding.system = "https://smt.esante.gouv.fr/fhir/CodeSystem/TRE-R30-RegionOM"
-* #98000 ^property[=].valueCoding.code = #98000
+* #98000 ^property[=].valueCoding.code = #980
 * #98000 ^property[+].code = #status
 * #98000 ^property[=].valueCode = #deprecated
 * #98000 ^property[+].code = #deprecationDate
