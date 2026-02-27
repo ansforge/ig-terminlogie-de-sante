@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "Terminologies"] ; # 
   fhir:title [ fhir:v "Terminologies  de Santé"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2026-02-27T05:17:16+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-27T13:38:01+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -63042,6 +63042,27 @@
        ] ;
        fhir:name [ fhir:v "JDV Site Intervention CISIS" ] ;
        fhir:description [ fhir:v "JDV Site Intervention CISIS" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-situation-matrimoniale-cisis> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-situation-matrimoniale-cisis" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv Situation Matrimoniale CISIS" ] ;
+       fhir:description [ fhir:v "Jdv Situation Matrimoniale CISIS" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false

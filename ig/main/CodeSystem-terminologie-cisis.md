@@ -183,6 +183,7 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
 * [JdvScoreDukeCisis](ValueSet-jdv-score-duke-cisis.md)
 * [JdvScoreFisherCisis](ValueSet-jdv-score-fisher-cisis.md)
 * [JdvScoreGlasgowCisis](ValueSet-jdv-score-glasgow-cisis.md)
+* [JdvSituationMatrimonialeCisis](ValueSet-jdv-situation-matrimoniale-cisis.md)
 * [JdvSituationMedicaleCisis](ValueSet-jdv-situation-medicale-cisis.md)
 * [JdvSoinOncoDeSupportCisis](ValueSet-jdv-soin-onco-de-support-cisis.md)
 * [JdvStaticSemProcedureCisis](ValueSet-jdv-static-sem-procedure-cisis.md)

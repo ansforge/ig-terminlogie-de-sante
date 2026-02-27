@@ -756,6 +756,7 @@ These define sets of codes used by systems conforming to this implementation gui
 | [Jdv Modele Document CDA Non Structure CISIS](ValueSet-jdv-modele-document-cda-non-structure-cisis.md) | Jdv Modele Document CDA Non Structure CISIS |
 | [Jdv Modele Document Cda](ValueSet-jdv-modele-document-cda.md) | JDV avec l’ensemble des codes de la TRE_R220_ModeleDocumentCDAStructure et TRE_R221_ModeleDocumentCDANonStructure |
 | [Jdv Role Informateur CISIS](ValueSet-jdv-role-informateur-cisis.md) | Jdv Role Informateur CISIS |
+| [Jdv Situation Matrimoniale CISIS](ValueSet-jdv-situation-matrimoniale-cisis.md) | Jdv Situation Matrimoniale CISIS |
 | [Jdv Tre R221 Modele Document Cda Non Structure All](ValueSet-jdv-tre-r221-modele-document-cda-non-structure-all.md) | JDV avec l’ensemble des codes actifs de la TRE_R221_ModeleDocumentCDANonStructure |
 | [Jdv Trod Examen CISIS](ValueSet-jdv-trod-examen-cisis.md) | Jdv Trod Examen CISIS |
 | [Jdv Type Systeme CISIS](ValueSet-jdv-type-systeme-cisis.md) | Jdv Type Systeme CISIS |

@@ -7997,6 +7997,14 @@
   "oids" : ["1.2.250.1.213.1.1.5.169"]
 },
 {
+  "id" : "jdv-situation-matrimoniale-cisis",
+  "type" : "ValueSet",
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-situation-matrimoniale-cisis",
+  "version" : "20260220142104",
+  "name" : "JdvSituationMatrimonialeCisis",
+  "oids" : ["1.2.250.1.213.1.1.5.831"]
+},
+{
   "id" : "jdv-situation-medicale-cisis",
   "type" : "ValueSet",
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-situation-medicale-cisis",

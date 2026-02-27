@@ -365,6 +365,7 @@ Vous touverez ici la liste des JDV du CI-SIS.
 | [JdvSigneVitalCs8Cisis](ValueSet-jdv-signe-vital-cs8-cisis.md) | JDV Signe Vital Cs8 CISIS | 20/02/2026 |
 | [JdvSigneVitalCs9Cisis](ValueSet-jdv-signe-vital-cs9-cisis.md) | JDV Signe Vital Cs9 CISIS | 20/02/2026 |
 | [JdvSiteInterventionCisis](ValueSet-jdv-site-intervention-cisis.md) | JDV Site Intervention CISIS | 20/02/2026 |
+| [JdvSituationMatrimonialeCisis](ValueSet-jdv-situation-matrimoniale-cisis.md) | Jdv Situation Matrimoniale CISIS | 20/02/2026 |
 | [JdvSituationMedicaleCisis](ValueSet-jdv-situation-medicale-cisis.md) | JDV Situation Medicale CISIS | 20/02/2026 |
 | [JdvSocialHistoryCodeCisis](ValueSet-jdv-social-history-code-cisis.md) | JDV Social History Code CISIS | 20/02/2026 |
 | [JdvSoinOncoDeSupportCisis](ValueSet-jdv-soin-onco-de-support-cisis.md) | JDV Soin Onco De Support CISIS | 20/02/2026 |

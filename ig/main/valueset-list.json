@@ -7464,6 +7464,18 @@
     "sources" : ["1.2.250.1.213.1.1.5.169"]
   },
   {
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-situation-matrimoniale-cisis",
+    "version" : "20260220142104",
+    "status" : "active",
+    "name" : "JdvSituationMatrimonialeCisis",
+    "title" : "Jdv Situation Matrimoniale CISIS",
+    "description" : "Jdv Situation Matrimoniale CISIS",
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+    "http://snomed.info/sct"],
+    "oids" : ["1.2.250.1.213.1.1.5.831"],
+    "sources" : ["1.2.250.1.213.1.1.5.831"]
+  },
+  {
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-situation-medicale-cisis",
     "version" : "20260220142105",
     "status" : "active",

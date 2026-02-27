@@ -10,7 +10,7 @@
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2026-02-27T05:17:16+00:00",
+  "date" : "2026-02-27T13:38:01+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -29953,6 +29953,18 @@
       },
       "name" : "JDV Site Intervention CISIS",
       "description" : "JDV Site Intervention CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-situation-matrimoniale-cisis"
+      },
+      "name" : "Jdv Situation Matrimoniale CISIS",
+      "description" : "Jdv Situation Matrimoniale CISIS",
       "exampleBoolean" : false
     },
     {

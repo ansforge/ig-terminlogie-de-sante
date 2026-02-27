@@ -11,7 +11,7 @@
   <name value="Terminologies"/>
   <title value="Terminologies  de Santé"/>
   <status value="active"/>
-  <date value="2026-02-27T05:17:16+00:00"/>
+  <date value="2026-02-27T13:38:01+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -22794,6 +22794,17 @@
       </reference>
       <name value="JDV Site Intervention CISIS"/>
       <description value="JDV Site Intervention CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-situation-matrimoniale-cisis"/>
+      </reference>
+      <name value="Jdv Situation Matrimoniale CISIS"/>
+      <description value="Jdv Situation Matrimoniale CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
