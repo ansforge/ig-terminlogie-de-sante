@@ -1,8 +1,8 @@
 ValueSet: JDV_J172_SecteurActivite_EPARS
 Id: JDV-J172-SecteurActivite-EPARS
 Description: "Secteur d'activité pour EPARS"
-* ^meta.versionId = "8"
-* ^meta.lastUpdated = "2025-07-02T17:05:28.383+00:00"
+* ^meta.versionId = "10"
+* ^meta.lastUpdated = "2026-02-23T18:17:26.272+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,10 +10,10 @@ Description: "Secteur d'activité pour EPARS"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J172-SecteurActivite-EPARS/FHIR/JDV-J172-SecteurActivite-EPARS"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.233"
-* ^version = "20250523120000"
+* ^version = "20260223120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-05-23T12:00:00+01:00"
+* ^date = "2026-02-23T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R02-SecteurActivite#SA01 "Etablissement public de santé"
@@ -54,7 +54,7 @@ Description: "Secteur d'activité pour EPARS"
 * $TRE-R02-SecteurActivite#SA37 "Centre de transfusion sanguine"
 * $TRE-R02-SecteurActivite#SA38 "Pharmacie minière"
 * $TRE-R02-SecteurActivite#SA39 "Pharmacie mutualiste"
-* $TRE-R02-SecteurActivite#SA40 "Secteur privé, praticien hospitalier temps plein"
+* $TRE-R02-SecteurActivite#SA40 "Secteur privé, praticien hospitalier"
 * $TRE-R02-SecteurActivite#SA41 "Autre établissement du domaine social ou médico-social"
 * $TRE-R02-SecteurActivite#SA42 "Appareillage médical"
 * $TRE-R02-SecteurActivite#SA43 "Secteur non défini"

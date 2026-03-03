@@ -1,29 +1,34 @@
 CodeSystem: TRE_R66_CategorieEtablissement
 Id: TRE-R66-CategorieEtablissement
 Description: "Catégorie d'établissements"
-* ^meta.versionId = "17"
-* ^meta.lastUpdated = "2025-07-02T18:18:40.120+00:00"
+* ^meta.versionId = "21"
+* ^meta.lastUpdated = "2026-02-23T17:57:34.340+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "1979-01-01T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.8"
-* ^version = "20250425120000"
+* ^version = "20260223120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-04-25T12:00:00+01:00"
+* ^date = "2026-02-23T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
+* ^count = 321
 * ^property[0].code = #dateValid
-* ^property[=].description = "date de validité d'un code concept"
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
+* ^property[=].description = "Date de validité d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateMaj
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj"
 * ^property[=].description = "Date de mise à jour d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateFin
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin"
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #deprecationDate
@@ -597,7 +602,7 @@ Description: "Catégorie d'établissements"
 * #165 ^property[=].valueDateTime = "2005-07-06T00:00:00+01:00"
 * #165 ^property[+].code = #status
 * #165 ^property[=].valueCode = #active
-* #166 "Etablissement d'Accueil Mère-Enfant"
+* #166 "Centre Parents-Enfants de moins de 3 ans"
 * #166 ^designation[0].language = #fr-FR
 * #166 ^designation[=].use.system = "http://snomed.info/sct"
 * #166 ^designation[=].use = $sct#900000000000013009
@@ -605,7 +610,7 @@ Description: "Catégorie d'établissements"
 * #166 ^property[0].code = #dateValid
 * #166 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #166 ^property[+].code = #dateMaj
-* #166 ^property[=].valueDateTime = "2005-07-06T00:00:00+01:00"
+* #166 ^property[=].valueDateTime = "2026-02-23T00:00:00+01:00"
 * #166 ^property[+].code = #status
 * #166 ^property[=].valueCode = #active
 * #167 "Crèche Collective"
@@ -1244,7 +1249,7 @@ Description: "Catégorie d'établissements"
 * #220 ^property[+].code = #dateMaj
 * #220 ^property[=].valueDateTime = "1990-01-05T00:00:00+01:00"
 * #220 ^property[+].code = #status
-* #220 ^property[=].valueCode = #active
+* #220 ^property[=].valueCode = #deprecated
 * #221 "Bureau d'Aide Psychologique Universitaire (B.A.P.U.)"
 * #221 ^designation[0].language = #fr-FR
 * #221 ^designation[=].use.system = "http://snomed.info/sct"
@@ -1338,19 +1343,15 @@ Description: "Catégorie d'établissements"
 * #230 ^property[=].valueDateTime = "1994-07-05T00:00:00+01:00"
 * #230 ^property[+].code = #status
 * #230 ^property[=].valueCode = #active
-* #231 "Etablissement Information Consultation Conseil Familial"
+* #231 "Espaces de vie affective, relationnelle et sexuelle (EVARS)"
 * #231 ^designation[0].language = #fr-FR
 * #231 ^designation[=].use.system = "http://snomed.info/sct"
 * #231 ^designation[=].use = $sct#900000000000013009
-* #231 ^designation[=].value = "Etab.Inf.Consult.Fam"
-* #231 ^designation[+].language = #fr-FR
-* #231 ^designation[=].use.system = "http://snomed.info/sct"
-* #231 ^designation[=].use = $sct#900000000000013009
-* #231 ^designation[=].value = "Etablissement d'information, de consultation et de conseil familial"
+* #231 ^designation[=].value = "E.V.A.R.S."
 * #231 ^property[0].code = #dateValid
 * #231 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #231 ^property[+].code = #dateMaj
-* #231 ^property[=].valueDateTime = "1979-01-23T00:00:00+01:00"
+* #231 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
 * #231 ^property[+].code = #status
 * #231 ^property[=].valueCode = #active
 * #233 "Lactarium"
@@ -1928,19 +1929,11 @@ Description: "Catégorie d'établissements"
 * #285 ^property[=].valueDateTime = "2016-01-06T00:00:00+01:00"
 * #285 ^property[+].code = #status
 * #285 ^property[=].valueCode = #deprecated
-* #286 "Club Equipe de Prévention"
-* #286 ^designation[0].language = #fr-FR
-* #286 ^designation[=].use.system = "http://snomed.info/sct"
-* #286 ^designation[=].use = $sct#900000000000013009
-* #286 ^designation[=].value = "Club Equipe de Prév."
-* #286 ^designation[+].language = #fr-FR
-* #286 ^designation[=].use.system = "http://snomed.info/sct"
-* #286 ^designation[=].use = $sct#900000000000013009
-* #286 ^designation[=].value = "Club, Equipe de prévention"
+* #286 "Service de prévention spécialisée"
 * #286 ^property[0].code = #dateValid
 * #286 ^property[=].valueDateTime = "1979-01-01T00:00:00+01:00"
 * #286 ^property[+].code = #dateMaj
-* #286 ^property[=].valueDateTime = "2005-07-06T00:00:00+01:00"
+* #286 ^property[=].valueDateTime = "2026-02-23T00:00:00+01:00"
 * #286 ^property[+].code = #status
 * #286 ^property[=].valueCode = #active
 * #289 "Centre de Soins Infirmiers"
@@ -3965,15 +3958,15 @@ Description: "Catégorie d'établissements"
 * #616 ^property[=].valueDateTime = "2023-05-26T12:00:00+01:00"
 * #616 ^property[+].code = #status
 * #616 ^property[=].valueCode = #active
-* #617 "Maison médicale de garde (MMG)"
+* #617 "Lieu de soins non programmés" "Un lieu de soins non programmés est un lieu fixe dédié à la médecine générale, ouvert uniquement pendant les périodes de permanence des soins : soirées, nuits, week-ends et jours fériés."
 * #617 ^designation[0].language = #fr-FR
 * #617 ^designation[=].use.system = "http://snomed.info/sct"
 * #617 ^designation[=].use = $sct#900000000000013009
-* #617 ^designation[=].value = "MMG"
+* #617 ^designation[=].value = "S.N.P"
 * #617 ^property[0].code = #dateValid
 * #617 ^property[=].valueDateTime = "2023-06-30T12:00:00+01:00"
 * #617 ^property[+].code = #dateMaj
-* #617 ^property[=].valueDateTime = "2023-06-30T12:00:00+01:00"
+* #617 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #617 ^property[+].code = #status
 * #617 ^property[=].valueCode = #active
 * #618 "Autre structure de soins non programmés (SNP)"
@@ -4278,6 +4271,28 @@ Description: "Catégorie d'établissements"
 * #648 ^property[=].valueDateTime = "2024-10-25T12:00:00+01:00"
 * #648 ^property[+].code = #status
 * #648 ^property[=].valueCode = #active
+* #649 "Centre de santé et de médiation en santé sexuelle" "Les centres de santé et de médiation en santé sexuelle (CSMSS) sont des établissements de santé dérogatoires relevant de l’article L. 6323-1 du code de la santé publique (CSP). Ils ont initialement fait l’objet d’une expérimentation dans le cadre du dispositif prévu à l’article 51 de la loi de financement de la sécurité sociale, au cours de laquelle ils étaient rattachés au numéro FINESS des centres de santé de droit commun. L’activité des centres de santé et de médiation en santé sexuelle (CSMSS) consiste à assurer l’accueil, l’information, la prévention, le dépistage et l’accompagnement des publics dans le domaine de la santé sexuelle dans une approche globale intégrant notamment la prévention et la prise en charge des infections sexuellement transmissibles (IST) et du VIH, la prescription de la contraception et la mise en place de parcours en santé sexuelle."
+* #649 ^designation[0].language = #fr-FR
+* #649 ^designation[=].use.system = "http://snomed.info/sct"
+* #649 ^designation[=].use = $sct#900000000000013009
+* #649 ^designation[=].value = "C.S.M.S.S."
+* #649 ^property[0].code = #dateValid
+* #649 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #649 ^property[+].code = #dateMaj
+* #649 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #649 ^property[+].code = #status
+* #649 ^property[=].valueCode = #active
+* #650 "Dispositifs Spécifiques Régionaux en périnatalité" "Les DSRP ont pour mission principale l’animation régionale des professionnels de la périnatalité et l’accompagnement des évolutions de l’offre et des pratiques, dans un contexte marqué par des enjeux forts en matière de qualité des soins, de prévention, de démographie médicale et d’organisation des parcours. Ils contribuent à la lisibilité et à la cohérence de l’offre de soins périnatals sur les territoires, en favorisant la coordination entre la ville, l’hôpital et les services de protection maternelle et infantile (PMI)."
+* #650 ^designation[0].language = #fr-FR
+* #650 ^designation[=].use.system = "http://snomed.info/sct"
+* #650 ^designation[=].use = $sct#900000000000013009
+* #650 ^designation[=].value = "D.S.R.P."
+* #650 ^property[0].code = #dateValid
+* #650 ^property[=].valueDateTime = "2026-02-23T12:00:00+01:00"
+* #650 ^property[+].code = #dateMaj
+* #650 ^property[=].valueDateTime = "2026-02-23T12:00:00+01:00"
+* #650 ^property[+].code = #status
+* #650 ^property[=].valueCode = #active
 * #690 "Etablissement de Fabrication Annexe à une Officine"
 * #690 ^designation[0].language = #fr-FR
 * #690 ^designation[=].use.system = "http://snomed.info/sct"
@@ -4394,3 +4409,10 @@ Description: "Catégorie d'établissements"
 * #703 ^property[=].valueDateTime = "2025-04-25T12:00:00+01:00"
 * #703 ^property[+].code = #status
 * #703 ^property[=].valueCode = #active
+* #704 "Autre service territorial" "Points locaux d'information dédiés aux personnes âgées. Ces services peuvent être rattachés à des CCAS ( Centre Communaux d'Action Sociale)"
+* #704 ^property[0].code = #dateValid
+* #704 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #704 ^property[+].code = #dateMaj
+* #704 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #704 ^property[+].code = #status
+* #704 ^property[=].valueCode = #active

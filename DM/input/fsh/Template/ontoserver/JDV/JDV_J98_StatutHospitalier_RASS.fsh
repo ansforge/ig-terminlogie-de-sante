@@ -1,8 +1,8 @@
 ValueSet: JDV_J98_StatutHospitalier_RASS
 Id: JDV-J98-StatutHospitalier-RASS
 Description: "Statut des professionnels intervenant dans un hôpital dans le RASS"
-* ^meta.versionId = "4"
-* ^meta.lastUpdated = "2025-07-02T17:06:58.991+00:00"
+* ^meta.versionId = "6"
+* ^meta.lastUpdated = "2026-02-23T18:17:36.269+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,10 +10,10 @@ Description: "Statut des professionnels intervenant dans un hôpital dans le RAS
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J98-StatutHospitalier-RASS/FHIR/JDV-J98-StatutHospitalier-RASS"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.166"
-* ^version = "20200424120000"
+* ^version = "20260223120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2020-04-24T12:00:00+01:00"
+* ^date = "2026-02-23T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R32-StatutHospitalier#SH01 "Professeur des universités - Praticien hospitalier (PU-PH) (décret n° 84-135)"
@@ -34,4 +34,5 @@ Description: "Statut des professionnels intervenant dans un hôpital dans le RAS
 * $TRE-R32-StatutHospitalier#SH16 "Praticien hospitalier associé (R6152-1 et suivants du CSP)"
 * $TRE-R32-StatutHospitalier#SH17 "Praticien hospitalier provisoire (abrogé depuis le 06/10/2006)"
 * $TRE-R32-StatutHospitalier#SH18 "Clinicien hospitalier (R6152-701 et suivants du CSP)"
+* $TRE-R32-StatutHospitalier#SH19 "Praticien hospitalier"
 * $TRE-R32-StatutHospitalier#SH99 "Salarié hospitalier"

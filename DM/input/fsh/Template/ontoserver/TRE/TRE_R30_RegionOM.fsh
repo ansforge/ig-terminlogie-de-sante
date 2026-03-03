@@ -1,9 +1,10 @@
 CodeSystem: TRE_R30_RegionOM
 Id: TRE-R30-RegionOM
 Description: "Référentiel des codes régions et collectivités d'outre-mer provenant du COG INSEE + Monaco"
-* ^meta.versionId = "7"
-* ^meta.lastUpdated = "2025-07-02T18:17:22.353+00:00"
+* ^meta.versionId = "8"
+* ^meta.lastUpdated = "2026-02-24T09:12:25.930+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2016-01-01T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"
@@ -16,16 +17,25 @@ Description: "Référentiel des codes régions et collectivités d'outre-mer pro
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
+* ^valueSet = "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM?vs"
 * ^content = #complete
+* ^count = 46
 * ^property[0].code = #dateValid
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateMaj
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj"
 * ^property[=].description = "Date de mise à jour d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateFin
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin"
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
+* ^property[+].code = #finess
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#finess"
+* ^property[=].description = "Permet de définir les codes concepts uilisés par FINESS"
+* ^property[=].type = #boolean
 * ^property[+].code = #deprecationDate
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
 * ^property[=].description = "Date Concept was deprecated"
@@ -45,6 +55,8 @@ Description: "Référentiel des codes régions et collectivités d'outre-mer pro
 * #01 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #01 ^property[+].code = #status
 * #01 ^property[=].valueCode = #active
+* #01 ^property[+].code = #finess
+* #01 ^property[=].valueBoolean = true
 * #02 "Martinique"
 * #02 ^property[0].code = #dateValid
 * #02 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
@@ -52,6 +64,8 @@ Description: "Référentiel des codes régions et collectivités d'outre-mer pro
 * #02 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #02 ^property[+].code = #status
 * #02 ^property[=].valueCode = #active
+* #02 ^property[+].code = #finess
+* #02 ^property[=].valueBoolean = true
 * #03 "Guyane"
 * #03 ^property[0].code = #dateValid
 * #03 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
@@ -59,6 +73,8 @@ Description: "Référentiel des codes régions et collectivités d'outre-mer pro
 * #03 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #03 ^property[+].code = #status
 * #03 ^property[=].valueCode = #active
+* #03 ^property[+].code = #finess
+* #03 ^property[=].valueBoolean = true
 * #04 "La Réunion"
 * #04 ^designation.language = #fr-FR
 * #04 ^designation.use.system = "http://snomed.info/sct"
@@ -70,6 +86,8 @@ Description: "Référentiel des codes régions et collectivités d'outre-mer pro
 * #04 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #04 ^property[+].code = #status
 * #04 ^property[=].valueCode = #active
+* #04 ^property[+].code = #finess
+* #04 ^property[=].valueBoolean = true
 * #06 "Mayotte"
 * #06 ^property[0].code = #dateValid
 * #06 ^property[=].valueDateTime = "2007-07-25T00:00:00+01:00"
@@ -77,6 +95,8 @@ Description: "Référentiel des codes régions et collectivités d'outre-mer pro
 * #06 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #06 ^property[+].code = #status
 * #06 ^property[=].valueCode = #active
+* #06 ^property[+].code = #finess
+* #06 ^property[=].valueBoolean = true
 * #11 "Île-de-France"
 * #11 ^designation.language = #fr-FR
 * #11 ^designation.use.system = "http://snomed.info/sct"
@@ -88,6 +108,8 @@ Description: "Référentiel des codes régions et collectivités d'outre-mer pro
 * #11 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #11 ^property[+].code = #status
 * #11 ^property[=].valueCode = #active
+* #11 ^property[+].code = #finess
+* #11 ^property[=].valueBoolean = true
 * #21 "Champagne-Ardenne"
 * #21 ^property[0].code = #dateValid
 * #21 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
@@ -132,6 +154,8 @@ Description: "Référentiel des codes régions et collectivités d'outre-mer pro
 * #24 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
 * #24 ^property[+].code = #status
 * #24 ^property[=].valueCode = #active
+* #24 ^property[+].code = #finess
+* #24 ^property[=].valueBoolean = true
 * #25 "Basse-Normandie"
 * #25 ^property[0].code = #dateValid
 * #25 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
@@ -165,6 +189,8 @@ Description: "Référentiel des codes régions et collectivités d'outre-mer pro
 * #27 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #27 ^property[+].code = #status
 * #27 ^property[=].valueCode = #active
+* #27 ^property[+].code = #finess
+* #27 ^property[=].valueBoolean = true
 * #28 "Normandie"
 * #28 ^property[0].code = #dateValid
 * #28 ^property[=].valueDateTime = "2016-01-01T00:00:00+01:00"
@@ -172,6 +198,8 @@ Description: "Référentiel des codes régions et collectivités d'outre-mer pro
 * #28 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #28 ^property[+].code = #status
 * #28 ^property[=].valueCode = #active
+* #28 ^property[+].code = #finess
+* #28 ^property[=].valueBoolean = true
 * #31 "Nord-Pas-de-Calais"
 * #31 ^property[0].code = #dateValid
 * #31 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
@@ -194,6 +222,8 @@ Description: "Référentiel des codes régions et collectivités d'outre-mer pro
 * #32 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
 * #32 ^property[+].code = #status
 * #32 ^property[=].valueCode = #active
+* #32 ^property[+].code = #finess
+* #32 ^property[=].valueBoolean = true
 * #41 "Lorraine"
 * #41 ^property[0].code = #dateValid
 * #41 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
@@ -234,6 +264,8 @@ Description: "Référentiel des codes régions et collectivités d'outre-mer pro
 * #44 ^property[=].valueDateTime = "2024-06-28T12:00:00+01:00"
 * #44 ^property[+].code = #status
 * #44 ^property[=].valueCode = #active
+* #44 ^property[+].code = #finess
+* #44 ^property[=].valueBoolean = true
 * #52 "Pays de la Loire"
 * #52 ^property[0].code = #dateValid
 * #52 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
@@ -241,6 +273,8 @@ Description: "Référentiel des codes régions et collectivités d'outre-mer pro
 * #52 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #52 ^property[+].code = #status
 * #52 ^property[=].valueCode = #active
+* #52 ^property[+].code = #finess
+* #52 ^property[=].valueBoolean = true
 * #53 "Bretagne"
 * #53 ^property[0].code = #dateValid
 * #53 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
@@ -248,6 +282,8 @@ Description: "Référentiel des codes régions et collectivités d'outre-mer pro
 * #53 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #53 ^property[+].code = #status
 * #53 ^property[=].valueCode = #active
+* #53 ^property[+].code = #finess
+* #53 ^property[=].valueBoolean = true
 * #54 "Poitou-Charentes"
 * #54 ^property[0].code = #dateValid
 * #54 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
@@ -303,6 +339,8 @@ Description: "Référentiel des codes régions et collectivités d'outre-mer pro
 * #75 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #75 ^property[+].code = #status
 * #75 ^property[=].valueCode = #active
+* #75 ^property[+].code = #finess
+* #75 ^property[=].valueBoolean = true
 * #76 "Occitanie"
 * #76 ^property[0].code = #dateValid
 * #76 ^property[=].valueDateTime = "2016-01-01T00:00:00+01:00"
@@ -310,6 +348,8 @@ Description: "Référentiel des codes régions et collectivités d'outre-mer pro
 * #76 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #76 ^property[+].code = #status
 * #76 ^property[=].valueCode = #active
+* #76 ^property[+].code = #finess
+* #76 ^property[=].valueBoolean = true
 * #82 "Rhône-Alpes"
 * #82 ^property[0].code = #dateValid
 * #82 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
@@ -343,6 +383,8 @@ Description: "Référentiel des codes régions et collectivités d'outre-mer pro
 * #84 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #84 ^property[+].code = #status
 * #84 ^property[=].valueCode = #active
+* #84 ^property[+].code = #finess
+* #84 ^property[=].valueBoolean = true
 * #91 "Languedoc-Roussillon"
 * #91 ^property[0].code = #dateValid
 * #91 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
@@ -365,6 +407,8 @@ Description: "Référentiel des codes régions et collectivités d'outre-mer pro
 * #93 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #93 ^property[+].code = #status
 * #93 ^property[=].valueCode = #active
+* #93 ^property[+].code = #finess
+* #93 ^property[=].valueBoolean = true
 * #94 "Corse"
 * #94 ^property[0].code = #dateValid
 * #94 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
@@ -372,6 +416,8 @@ Description: "Référentiel des codes régions et collectivités d'outre-mer pro
 * #94 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #94 ^property[+].code = #status
 * #94 ^property[=].valueCode = #active
+* #94 ^property[+].code = #finess
+* #94 ^property[=].valueBoolean = true
 * #975 "Saint-Pierre-et-Miquelon"
 * #975 ^designation.language = #fr-FR
 * #975 ^designation.use.system = "http://snomed.info/sct"
@@ -383,6 +429,8 @@ Description: "Référentiel des codes régions et collectivités d'outre-mer pro
 * #975 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #975 ^property[+].code = #status
 * #975 ^property[=].valueCode = #active
+* #975 ^property[+].code = #finess
+* #975 ^property[=].valueBoolean = true
 * #976 "Mayotte (ancien code)"
 * #976 ^property[0].code = #dateValid
 * #976 ^property[=].valueDateTime = "2008-01-01T00:00:00+01:00"
@@ -405,6 +453,8 @@ Description: "Référentiel des codes régions et collectivités d'outre-mer pro
 * #977 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #977 ^property[+].code = #status
 * #977 ^property[=].valueCode = #active
+* #977 ^property[+].code = #finess
+* #977 ^property[=].valueBoolean = true
 * #978 "Saint-Martin"
 * #978 ^designation.language = #fr-FR
 * #978 ^designation.use.system = "http://snomed.info/sct"
@@ -416,6 +466,8 @@ Description: "Référentiel des codes régions et collectivités d'outre-mer pro
 * #978 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #978 ^property[+].code = #status
 * #978 ^property[=].valueCode = #active
+* #978 ^property[+].code = #finess
+* #978 ^property[=].valueBoolean = true
 * #980 "Monaco"
 * #980 ^property[0].code = #dateValid
 * #980 ^property[=].valueDateTime = "2007-07-25T15:04:36+01:00"
@@ -460,6 +512,8 @@ Description: "Référentiel des codes régions et collectivités d'outre-mer pro
 * #986 ^property[=].valueDateTime = "2024-01-26T12:00:00+01:00"
 * #986 ^property[+].code = #status
 * #986 ^property[=].valueCode = #active
+* #986 ^property[+].code = #finess
+* #986 ^property[=].valueBoolean = true
 * #987 "Polynésie française"
 * #987 ^designation.language = #fr-FR
 * #987 ^designation.use.system = "http://snomed.info/sct"

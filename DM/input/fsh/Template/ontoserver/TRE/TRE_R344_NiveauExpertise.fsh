@@ -1,30 +1,33 @@
 CodeSystem: TRE_R344_NiveauExpertise
 Id: TRE-R344-NiveauExpertise
 Description: "Le niveau d'expertise atteste du niveau de ressources humaines et matérielles engagées dans la réalisation de l'offre et défini dans un cahier des charges officiel."
-* ^meta.versionId = "14"
-* ^meta.lastUpdated = "2025-07-02T18:17:43.832+00:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^meta.versionId = "16"
+* ^meta.lastUpdated = "2025-12-22T10:46:45.059+01:00"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2023-03-31T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R344-NiveauExpertise/FHIR/TRE-R344-NiveauExpertise"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.228"
-* ^version = "20250623120000"
+* ^version = "20251222120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-06-23T12:00:00+01:00"
+* ^date = "2025-12-22T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
-* ^count = 33
+* ^count = 39
 * ^property[0].code = #dateValid
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateMaj
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj"
 * ^property[=].description = "Date de mise à jour d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateFin
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin"
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #deprecationDate
@@ -396,6 +399,7 @@ Description: "Le niveau d'expertise atteste du niveau de ressources humaines et 
 * #41 ^property[=].valueCode = #active
 * #42 "Filière Obésité - Niveau 3 (Centre Spécialisé Obésité)"
 * #42 ^designation[0].language = #fr-FR
+* #42 ^designation[=].use.system = "http://snomed.info/sct"
 * #42 ^designation[=].use = $sct#900000000000013009
 * #42 ^designation[=].value = "Obésité niveau 3 (CSO)"
 * #42 ^property[0].code = #dateValid
@@ -404,3 +408,64 @@ Description: "Le niveau d'expertise atteste du niveau de ressources humaines et 
 * #42 ^property[=].valueDateTime = "2024-12-13T12:00:00+01:00"
 * #42 ^property[+].code = #status
 * #42 ^property[=].valueCode = #active
+* #43 "Centre Ressources Autisme (CRA)"
+* #43 ^designation[0].language = #fr-FR
+* #43 ^designation[=].use.system = "http://snomed.info/sct"
+* #43 ^designation[=].use = $sct#900000000000013009
+* #43 ^designation[=].value = "CRA"
+* #43 ^property[0].code = #dateValid
+* #43 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #43 ^property[+].code = #dateMaj
+* #43 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #43 ^property[+].code = #status
+* #43 ^property[=].valueCode = #active
+* #44 "Centre de référence des Troubles du Langage et de l’Apprentissage (CRTLA)"
+* #44 ^designation[0].language = #fr-FR
+* #44 ^designation[=].use.system = "http://snomed.info/sct"
+* #44 ^designation[=].use = $sct#900000000000013009
+* #44 ^designation[=].value = "CRTLA"
+* #44 ^property[0].code = #dateValid
+* #44 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #44 ^property[+].code = #dateMaj
+* #44 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #44 ^property[+].code = #status
+* #44 ^property[=].valueCode = #active
+* #45 "Centre de référence du Trouble Déficit de l’Attention avec ou sans Hyperactivité (CRTDAH)"
+* #45 ^designation[0].language = #fr-FR
+* #45 ^designation[=].use.system = "http://snomed.info/sct"
+* #45 ^designation[=].use = $sct#900000000000013009
+* #45 ^designation[=].value = "Centre de réf. Trouble Déficit de l’Attention (CRTDAH)"
+* #45 ^property[0].code = #dateValid
+* #45 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #45 ^property[+].code = #dateMaj
+* #45 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #45 ^property[+].code = #status
+* #45 ^property[=].valueCode = #active
+* #46 "Centre de compétence centre mémoire ressources et recherche (CMRR)"
+* #46 ^designation[0].language = #fr-FR
+* #46 ^designation[=].use.system = "http://snomed.info/sct"
+* #46 ^designation[=].use = $sct#900000000000013009
+* #46 ^designation[=].value = "CMRR"
+* #46 ^property[0].code = #dateValid
+* #46 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #46 ^property[+].code = #dateMaj
+* #46 ^property[=].valueDateTime = "2025-12-31T12:00:00+01:00"
+* #46 ^property[+].code = #status
+* #46 ^property[=].valueCode = #active
+* #47 "Centre expert Parkinson"
+* #47 ^property[0].code = #dateValid
+* #47 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #47 ^property[+].code = #dateMaj
+* #47 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #47 ^property[+].code = #status
+* #47 ^property[=].valueCode = #active
+* #48 "Centre de ressources et de compétences sclérose en plaques (SEP)"
+* #48 ^designation[0].language = #fr-FR
+* #48 ^designation[=].use = $sct#900000000000013009
+* #48 ^designation[=].value = "Centre de ressources SEP"
+* #48 ^property[0].code = #dateValid
+* #48 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #48 ^property[+].code = #dateMaj
+* #48 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
+* #48 ^property[+].code = #status
+* #48 ^property[=].valueCode = #active

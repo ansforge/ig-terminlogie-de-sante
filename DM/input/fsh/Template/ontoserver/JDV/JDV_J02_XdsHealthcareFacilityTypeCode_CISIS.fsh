@@ -1,8 +1,8 @@
 ValueSet: JDV_J02_XdsHealthcareFacilityTypeCode_CISIS
 Id: JDV-J02-XdsHealthcareFacilityTypeCode-CISIS
 Description: "XDS healthcareFacilityTypeCode CI-SIS"
-* ^meta.versionId = "13"
-* ^meta.lastUpdated = "2025-07-02T17:04:32.554+00:00"
+* ^meta.versionId = "15"
+* ^meta.lastUpdated = "2026-02-23T18:17:19.661+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,10 +10,10 @@ Description: "XDS healthcareFacilityTypeCode CI-SIS"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J02-XdsHealthcareFacilityTypeCode-CISIS/FHIR/JDV-J02-XdsHealthcareFacilityTypeCode-CISIS"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.1.5.466"
-* ^version = "20250523120000"
+* ^version = "20260223120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-05-23T12:00:00+01:00"
+* ^date = "2026-02-23T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-A00-ProducteurDocNonPS#EXP_PATIENT "Expression personnelle du patient"
@@ -56,7 +56,7 @@ Description: "XDS healthcareFacilityTypeCode CI-SIS"
 * $TRE-R02-SecteurActivite#SA37 "Centre de transfusion sanguine"
 * $TRE-R02-SecteurActivite#SA38 "Pharmacie minière"
 * $TRE-R02-SecteurActivite#SA39 "Pharmacie mutualiste"
-* $TRE-R02-SecteurActivite#SA40 "Secteur privé, praticien hospitalier temps plein"
+* $TRE-R02-SecteurActivite#SA40 "Secteur privé, praticien hospitalier"
 * $TRE-R02-SecteurActivite#SA41 "Autre établissement du domaine social ou médico-social"
 * $TRE-R02-SecteurActivite#SA42 "Appareillage médical"
 * $TRE-R02-SecteurActivite#SA43 "Secteur non défini"

@@ -1,30 +1,33 @@
 CodeSystem: TRE_R212_Equipement
 Id: TRE-R212-Equipement
 Description: "Equipement"
-* ^meta.versionId = "17"
-* ^meta.lastUpdated = "2025-07-02T18:16:04.097+00:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^meta.versionId = "23"
+* ^meta.lastUpdated = "2025-12-22T10:46:41.590+01:00"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2015-03-25T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.10"
-* ^version = "20250623120000"
+* ^version = "20251222120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-06-23T12:00:00+01:00"
+* ^date = "2025-12-22T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* ^jurisdiction = urn:iso:std:iso:3166#FR
+* ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
-* ^count = 229
+* ^count = 235
 * ^property[0].code = #dateValid
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateMaj
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj"
 * ^property[=].description = "Date de mise à jour d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateFin
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin"
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #deprecationDate
@@ -39,6 +42,10 @@ Description: "Equipement"
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
 * ^property[=].description = "Date Concept was retired"
 * ^property[=].type = #dateTime
+* ^property[+].code = #finess
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#finess"
+* ^property[=].description = "Permet de définir les codes concepts utilisés par FINESS+"
+* ^property[=].type = #boolean
 * #001 "Angiographie biplan rotationnelle (reconstruction scanner integrée)"
 * #001 ^property[0].code = #dateValid
 * #001 ^property[=].valueDateTime = "2015-04-08T00:00:00+01:00"
@@ -1595,18 +1602,18 @@ Description: "Equipement"
 * #172 ^property[=].valueDateTime = "2019-07-05T12:00:00+01:00"
 * #172 ^property[+].code = #status
 * #172 ^property[=].valueCode = #deprecated
-* #173 "Polymorphisme mononucléotidique"
+* #173 "Polymorphisme mononucléotidique" "Equipement qui permet d'identifier une différence génétique entre individus d’une même population qui se traduit par la variation d’une seule base (nucléotide) dans une séquence d’ADN, l’allèle minoritaire ayant une fréquence d’au moins 1 %. Ce type de variation, appelé aussi SNP (single nucleotide polymorphism), est très courant dans le génome humain et constitue une des principales sources de diversité individuelle. (Description scientifique de la nature et de la fréquence des SNP)"
 * #173 ^property[0].code = #dateValid
 * #173 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
 * #173 ^property[+].code = #dateMaj
-* #173 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #173 ^property[=].valueDateTime = "2025-09-18T12:00:00+01:00"
 * #173 ^property[+].code = #status
 * #173 ^property[=].valueCode = #active
-* #174 "Hybridation génomique comparative (HGC)"
+* #174 "Hybridation génomique comparative (HGC)" "Technique de cytogénétique moléculaire qui permet de repérer les variations du nombre de copies d’ADN (comme les duplications ou délétions) en comparant l’ADN d’un échantillon à un ADN de référence par marquage fluorescent. Cette méthode, utilisée en diagnostic notamment oncologique ou pour des anomalies constitutionnelles, offre une résolution plus fine qu’un caryotype classique."
 * #174 ^property[0].code = #dateValid
 * #174 ^property[=].valueDateTime = "2019-03-29T12:00:00+01:00"
 * #174 ^property[+].code = #dateMaj
-* #174 ^property[=].valueDateTime = "2025-06-23T12:00:00+01:00"
+* #174 ^property[=].valueDateTime = "2025-09-18T12:00:00+01:00"
 * #174 ^property[+].code = #status
 * #174 ^property[=].valueCode = #active
 * #175 "Spectromètre de masse haute résolution"
@@ -1674,6 +1681,7 @@ Description: "Equipement"
 * #183 ^property[=].valueCode = #active
 * #184 "Dispositif de réadaptation à la marche par allègement du poids du corps"
 * #184 ^designation.language = #fr-FR
+* #184 ^designation.use.system = "http://snomed.info/sct"
 * #184 ^designation.use = $sct#900000000000013009
 * #184 ^designation.value = "Dispositif de réadaptation à la marche par allègement du poids du corps (anti-gravité)"
 * #184 ^property[0].code = #dateValid
@@ -1997,3 +2005,64 @@ Description: "Equipement"
 * #229 ^property[=].valueDateTime = "2025-04-25T12:00:00+01:00"
 * #229 ^property[+].code = #status
 * #229 ^property[=].valueCode = #active
+* #230 "Imagerie par Résonance Magnétique"
+* #230 ^designation.language = #fr-FR
+* #230 ^designation.use.system = "http://snomed.info/sct"
+* #230 ^designation.use = $sct#900000000000013009
+* #230 ^designation.value = "IRM"
+* #230 ^property[0].code = #dateValid
+* #230 ^property[=].valueDateTime = "2025-07-17T00:00:00+01:00"
+* #230 ^property[+].code = #dateMaj
+* #230 ^property[=].valueDateTime = "2025-07-17T00:00:00+01:00"
+* #230 ^property[+].code = #status
+* #230 ^property[=].valueCode = #active
+* #230 ^property[+].code = #finess
+* #230 ^property[=].valueBoolean = true
+* #231 "Scanner"
+* #231 ^property[0].code = #dateValid
+* #231 ^property[=].valueDateTime = "2025-07-17T00:00:00+01:00"
+* #231 ^property[+].code = #dateMaj
+* #231 ^property[=].valueDateTime = "2025-07-17T00:00:00+01:00"
+* #231 ^property[+].code = #status
+* #231 ^property[=].valueCode = #active
+* #231 ^property[+].code = #finess
+* #231 ^property[=].valueBoolean = true
+* #232 "Tomographie par Émission Monophotonique"
+* #232 ^designation.language = #fr-FR
+* #232 ^designation.use.system = "http://snomed.info/sct"
+* #232 ^designation.use = $sct#900000000000013009
+* #232 ^designation.value = "TEMP"
+* #232 ^property[0].code = #dateValid
+* #232 ^property[=].valueDateTime = "2025-07-17T00:00:00+01:00"
+* #232 ^property[+].code = #dateMaj
+* #232 ^property[=].valueDateTime = "2025-07-17T00:00:00+01:00"
+* #232 ^property[+].code = #status
+* #232 ^property[=].valueCode = #active
+* #232 ^property[+].code = #finess
+* #232 ^property[=].valueBoolean = true
+* #233 "Tomographie par Émission de Positons"
+* #233 ^designation.language = #fr-FR
+* #233 ^designation.use = $sct#900000000000013009
+* #233 ^designation.value = "TEP"
+* #233 ^property[0].code = #dateValid
+* #233 ^property[=].valueDateTime = "2025-07-17T00:00:00+01:00"
+* #233 ^property[+].code = #dateMaj
+* #233 ^property[=].valueDateTime = "2025-07-17T00:00:00+01:00"
+* #233 ^property[+].code = #status
+* #233 ^property[=].valueCode = #active
+* #233 ^property[+].code = #finess
+* #233 ^property[=].valueBoolean = true
+* #234 "Espace de consommation de drogues injectables"
+* #234 ^property[0].code = #dateValid
+* #234 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
+* #234 ^property[+].code = #dateMaj
+* #234 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
+* #234 ^property[+].code = #status
+* #234 ^property[=].valueCode = #active
+* #235 "Espace de consommation de drogues à fumer"
+* #235 ^property[0].code = #dateValid
+* #235 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
+* #235 ^property[+].code = #dateMaj
+* #235 ^property[=].valueDateTime = "2025-12-22T00:00:00+01:00"
+* #235 ^property[+].code = #status
+* #235 ^property[=].valueCode = #active

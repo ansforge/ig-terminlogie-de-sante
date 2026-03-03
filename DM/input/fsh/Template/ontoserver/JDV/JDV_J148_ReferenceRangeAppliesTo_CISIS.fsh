@@ -1,8 +1,8 @@
 ValueSet: JDV_J148_ReferenceRangeAppliesTo_CISIS
 Id: JDV-J148-ReferenceRangeAppliesTo-CISIS
 Description: "JDV pour le champ d'application de l'intervalle de référence"
-* ^meta.versionId = "7"
-* ^meta.lastUpdated = "2025-07-02T17:05:09.667+00:00"
+* ^meta.versionId = "8"
+* ^meta.lastUpdated = "2025-12-18T16:47:38.914+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -19,4 +19,4 @@ Description: "JDV pour le champ d'application de l'intervalle de référence"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R303-HL7v3AdministrativeGender#F "Féminin"
 * $TRE-R303-HL7v3AdministrativeGender#M "Masculin"
-* SNOMED_CT#77386006 "enceinte"
+* SNOMED_CT#77386006

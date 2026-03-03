@@ -1,9 +1,10 @@
 CodeSystem: TRE_R02_SecteurActivite
 Id: TRE-R02-SecteurActivite
 Description: "Le secteur d'activité de santé est une donnée RPPS et correspond au type de service fourni par une structure. Il sert principalement à déterminer les propriétés de facturation des professionnels de ces structures vis-à-vis de l'assurance maladie"
-* ^meta.versionId = "13"
-* ^meta.lastUpdated = "2025-07-02T18:12:02.978+00:00"
+* ^meta.versionId = "14"
+* ^meta.lastUpdated = "2026-02-24T10:27:21.489+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
+* ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2007-07-25T15:04:44+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite"
@@ -17,15 +18,23 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
 * ^content = #complete
+* ^count = 69
 * ^property[0].code = #dateValid
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateMaj
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj"
 * ^property[=].description = "Date de mise à jour d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateFin
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin"
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
+* ^property[+].code = #ror
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#ror"
+* ^property[=].description = "Permet de définir les codes concepts uilisés par le ROR"
+* ^property[=].type = #boolean
 * ^property[+].code = #deprecationDate
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
 * ^property[=].description = "Date Concept was deprecated"
@@ -77,6 +86,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA05 ^property[=].valueDateTime = "2016-04-28T00:00:00+01:00"
 * #SA05 ^property[+].code = #status
 * #SA05 ^property[=].valueCode = #active
+* #SA05 ^property[+].code = #ror
+* #SA05 ^property[=].valueBoolean = true
 * #SA06 "Autre structure du Service de santé des armées"
 * #SA06 ^designation[0].language = #fr-FR
 * #SA06 ^designation[=].use.system = "http://snomed.info/sct"
@@ -95,6 +106,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA07 ^property[=].valueDateTime = "2016-04-28T00:00:00+01:00"
 * #SA07 ^property[+].code = #status
 * #SA07 ^property[=].valueCode = #active
+* #SA07 ^property[+].code = #ror
+* #SA07 ^property[=].valueBoolean = true
 * #SA08 "Cabinet de groupe"
 * #SA08 ^property[0].code = #dateValid
 * #SA08 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
@@ -102,6 +115,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA08 ^property[=].valueDateTime = "2016-04-28T00:00:00+01:00"
 * #SA08 ^property[+].code = #status
 * #SA08 ^property[=].valueCode = #active
+* #SA08 ^property[+].code = #ror
+* #SA08 ^property[=].valueBoolean = true
 * #SA09 "Exercice en société"
 * #SA09 ^property[0].code = #dateValid
 * #SA09 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
@@ -109,6 +124,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA09 ^property[=].valueDateTime = "2016-04-28T00:00:00+01:00"
 * #SA09 ^property[+].code = #status
 * #SA09 ^property[=].valueCode = #active
+* #SA09 ^property[+].code = #ror
+* #SA09 ^property[=].valueBoolean = true
 * #SA10 "Transporteur sanitaire"
 * #SA10 ^designation[0].language = #fr-FR
 * #SA10 ^designation[=].use.system = "http://snomed.info/sct"
