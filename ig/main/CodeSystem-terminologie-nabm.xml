@@ -3,8 +3,8 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="terminologie-nabm"/>
   <meta>
-    <versionId value="13.1770200109788"/>
-    <lastUpdated value="2026-02-04T11:15:09.788+01:00"/>
+    <versionId value="14"/>
+    <lastUpdated value="2026-03-02T11:17:22.852+01:00"/>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"/>
   </meta>
   <text>
@@ -21,12 +21,12 @@
     <system value="https://smt.esante.gouv.fr/"/>
     <value value="terminologie-nabm"/>
   </identifier>
-  <version value="V101"/>
+  <version value="V102"/>
   <name value="NABM"/>
   <title value="Nomenclature des actes de biologie médicale"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-01-13T00:00:00+00:00"/>
+  <date value="2026-02-23T00:00:00+00:00"/>
   <publisher value="Agence du numérique en santé"/>
   <description value="La NABM est la terminologie de facturation des actes de biologie médicale. Elle décrit la liste des actes de biologie dans une arborescence en chapitres et sous-chapitres ainsi que des règles de facturation."/>
   <jurisdiction>
@@ -38,7 +38,7 @@
   <copyright value="[LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md)"/>
   <valueSet value="https://smt.esante.gouv.fr/terminologie-nabm?vs"/>
   <content value="complete"/>
-  <count value="1049"/>
+  <count value="1047"/>
   <filter>
     <code value="root"/>
     <operator value="="/>
@@ -13265,66 +13265,6 @@
     </property>
   </concept>
   <concept>
-    <code value="4353"/>
-    <display value="PALUDISME : SD PAR ELS"/>
-    <property>
-      <code value="parent"/>
-      <valueCode value="07-05"/>
-    </property>
-    <property>
-      <code value="created"/>
-      <valueString value="01/01/1996"/>
-    </property>
-    <property>
-      <code value="modified"/>
-      <valueString value="01/01/1996"/>
-    </property>
-    <property>
-      <code value="type"/>
-      <valueString value="code"/>
-    </property>
-    <property>
-      <code value="initativeBiologistePossible"/>
-      <valueBoolean value="false"/>
-    </property>
-    <property>
-      <code value="indicationMédicale"/>
-      <valueBoolean value="true"/>
-    </property>
-    <property>
-      <code value="remboursementTotal"/>
-      <valueBoolean value="false"/>
-    </property>
-    <property>
-      <code value="ententePréalable"/>
-      <valueBoolean value="false"/>
-    </property>
-    <property>
-      <code value="aPourContingenceTechnique"/>
-      <valueCode value="CONTINGENCE_7"/>
-    </property>
-    <property>
-      <code value="nombreMaximumParFacturation"/>
-      <valueInteger value="1"/>
-    </property>
-    <property>
-      <code value="coeffB"/>
-      <valueString value="50"/>
-    </property>
-    <property>
-      <code value="acteReserve"/>
-      <valueBoolean value="false"/>
-    </property>
-    <property>
-      <code value="rmo"/>
-      <valueBoolean value="false"/>
-    </property>
-    <property>
-      <code value="examenSanguin"/>
-      <valueBoolean value="true"/>
-    </property>
-  </concept>
-  <concept>
     <code value="4220"/>
     <display value="CALICIVIRUS : RECHERCHE DIRECTE PAR MIE"/>
     <property>
@@ -14058,7 +13998,7 @@
   </concept>
   <concept>
     <code value="4354"/>
-    <display value="PALUDISME : SD PAR IFI"/>
+    <display value="PALUDISME"/>
     <property>
       <code value="parent"/>
       <valueCode value="07-05"/>
@@ -14069,7 +14009,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="01/01/1996"/>
+      <valueString value="03/03/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -14081,7 +14021,7 @@
     </property>
     <property>
       <code value="indicationMédicale"/>
-      <valueBoolean value="true"/>
+      <valueBoolean value="false"/>
     </property>
     <property>
       <code value="remboursementTotal"/>
@@ -37632,7 +37572,7 @@
     </property>
     <property>
       <code value="modified"/>
-      <valueString value="09/05/2019"/>
+      <valueString value="03/03/2026"/>
     </property>
     <property>
       <code value="type"/>
@@ -37656,7 +37596,11 @@
     </property>
     <property>
       <code value="aPourContingenceTechnique"/>
-      <valueCode value="CONTINGENCE_2"/>
+      <valueCode value="CONTINGENCE_4"/>
+    </property>
+    <property>
+      <code value="nombreMaximumParFacturation"/>
+      <valueInteger value="1"/>
     </property>
     <property>
       <code value="coeffB"/>
@@ -44641,6 +44585,66 @@
     <property>
       <code value="coeffB"/>
       <valueString value="175"/>
+    </property>
+    <property>
+      <code value="acteReserve"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="rmo"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="examenSanguin"/>
+      <valueBoolean value="true"/>
+    </property>
+  </concept>
+  <concept>
+    <code value="4364"/>
+    <display value="RECHERCHE DE PROTEINES PLASMODIALES DANS LE SANG PAR ICG"/>
+    <property>
+      <code value="parent"/>
+      <valueCode value="07-05"/>
+    </property>
+    <property>
+      <code value="created"/>
+      <valueString value="10/02/2026"/>
+    </property>
+    <property>
+      <code value="modified"/>
+      <valueString value="03/03/2026"/>
+    </property>
+    <property>
+      <code value="type"/>
+      <valueString value="code"/>
+    </property>
+    <property>
+      <code value="initativeBiologistePossible"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="indicationMédicale"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="remboursementTotal"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="ententePréalable"/>
+      <valueBoolean value="false"/>
+    </property>
+    <property>
+      <code value="aPourContingenceTechnique"/>
+      <valueCode value="CONTINGENCE_4"/>
+    </property>
+    <property>
+      <code value="nombreMaximumParFacturation"/>
+      <valueInteger value="1"/>
+    </property>
+    <property>
+      <code value="coeffB"/>
+      <valueString value="42"/>
     </property>
     <property>
       <code value="acteReserve"/>
@@ -53684,66 +53688,6 @@
     </property>
   </concept>
   <concept>
-    <code value="1649"/>
-    <display value="THEOPHYLLINE DANS UN AUTRE LIQUIDE BIOLOGIQUE QUE LE SANG"/>
-    <property>
-      <code value="parent"/>
-      <valueCode value="14"/>
-    </property>
-    <property>
-      <code value="created"/>
-      <valueString value="14/02/1997"/>
-    </property>
-    <property>
-      <code value="modified"/>
-      <valueString value="27/03/1997"/>
-    </property>
-    <property>
-      <code value="type"/>
-      <valueString value="code"/>
-    </property>
-    <property>
-      <code value="initativeBiologistePossible"/>
-      <valueBoolean value="false"/>
-    </property>
-    <property>
-      <code value="indicationMédicale"/>
-      <valueBoolean value="false"/>
-    </property>
-    <property>
-      <code value="remboursementTotal"/>
-      <valueBoolean value="false"/>
-    </property>
-    <property>
-      <code value="ententePréalable"/>
-      <valueBoolean value="false"/>
-    </property>
-    <property>
-      <code value="aPourContingenceTechnique"/>
-      <valueCode value="CONTINGENCE_6"/>
-    </property>
-    <property>
-      <code value="nombreMaximumParFacturation"/>
-      <valueInteger value="1"/>
-    </property>
-    <property>
-      <code value="coeffB"/>
-      <valueString value="70"/>
-    </property>
-    <property>
-      <code value="acteReserve"/>
-      <valueBoolean value="false"/>
-    </property>
-    <property>
-      <code value="rmo"/>
-      <valueBoolean value="false"/>
-    </property>
-    <property>
-      <code value="examenSanguin"/>
-      <valueBoolean value="false"/>
-    </property>
-  </concept>
-  <concept>
     <code value="1734"/>
     <display value="GRIPPE B : SD PAR IHA"/>
     <property>
@@ -58256,10 +58200,6 @@
     </property>
     <property>
       <code value="child"/>
-      <valueCode value="1649"/>
-    </property>
-    <property>
-      <code value="child"/>
       <valueCode value="1663"/>
     </property>
     <property>
@@ -58373,10 +58313,6 @@
     <property>
       <code value="child"/>
       <valueCode value="1651"/>
-    </property>
-    <property>
-      <code value="child"/>
-      <valueCode value="0335"/>
     </property>
     <property>
       <code value="child"/>
@@ -63133,66 +63069,6 @@
     </property>
   </concept>
   <concept>
-    <code value="0335"/>
-    <display value="THEOPHYLLINE (SANG)"/>
-    <property>
-      <code value="parent"/>
-      <valueCode value="14"/>
-    </property>
-    <property>
-      <code value="created"/>
-      <valueString value="01/01/1996"/>
-    </property>
-    <property>
-      <code value="modified"/>
-      <valueString value="11/02/2011"/>
-    </property>
-    <property>
-      <code value="type"/>
-      <valueString value="code"/>
-    </property>
-    <property>
-      <code value="initativeBiologistePossible"/>
-      <valueBoolean value="false"/>
-    </property>
-    <property>
-      <code value="indicationMédicale"/>
-      <valueBoolean value="false"/>
-    </property>
-    <property>
-      <code value="remboursementTotal"/>
-      <valueBoolean value="false"/>
-    </property>
-    <property>
-      <code value="ententePréalable"/>
-      <valueBoolean value="false"/>
-    </property>
-    <property>
-      <code value="aPourContingenceTechnique"/>
-      <valueCode value="CONTINGENCE_6"/>
-    </property>
-    <property>
-      <code value="nombreMaximumParFacturation"/>
-      <valueInteger value="1"/>
-    </property>
-    <property>
-      <code value="coeffB"/>
-      <valueString value="50"/>
-    </property>
-    <property>
-      <code value="acteReserve"/>
-      <valueBoolean value="false"/>
-    </property>
-    <property>
-      <code value="rmo"/>
-      <valueBoolean value="false"/>
-    </property>
-    <property>
-      <code value="examenSanguin"/>
-      <valueBoolean value="true"/>
-    </property>
-  </concept>
-  <concept>
     <code value="REGLE_SPECIFIQUE"/>
     <display value="REGLE_SPECIFIQUE"/>
     <property>
@@ -66786,10 +66662,6 @@
     </property>
     <property>
       <code value="child"/>
-      <valueCode value="4353"/>
-    </property>
-    <property>
-      <code value="child"/>
       <valueCode value="4302"/>
     </property>
     <property>
@@ -66883,6 +66755,10 @@
     <property>
       <code value="child"/>
       <valueCode value="4311"/>
+    </property>
+    <property>
+      <code value="child"/>
+      <valueCode value="4364"/>
     </property>
   </concept>
 </CodeSystem>

@@ -10,8 +10,8 @@
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "terminologie-nabm"] ; # 
   fhir:meta [
-     fhir:versionId [ fhir:v "13.1770200109788" ] ;
-     fhir:lastUpdated [ fhir:v "2026-02-04T11:15:09.788+01:00"^^xsd:dateTime ] ;
+     fhir:versionId [ fhir:v "14" ] ;
+     fhir:lastUpdated [ fhir:v "2026-03-02T11:17:22.852+01:00"^^xsd:dateTime ] ;
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"^^xsd:anyURI ;
        fhir:l <http://hl7.org/fhir/StructureDefinition/shareablecodesystem?version=4.0.1>
@@ -40,12 +40,12 @@
      ] ;
      fhir:value [ fhir:v "terminologie-nabm" ]
   ] ) ; # 
-  fhir:version [ fhir:v "V101"] ; # 
+  fhir:version [ fhir:v "V102"] ; # 
   fhir:name [ fhir:v "NABM"] ; # 
   fhir:title [ fhir:v "Nomenclature des actes de biologie médicale"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-01-13T00:00:00+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-23T00:00:00+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du numérique en santé"] ; # 
   fhir:description [ fhir:v "La NABM est la terminologie de facturation des actes de biologie médicale. Elle décrit la liste des actes de biologie dans une arborescence en chapitres et sous-chapitres ainsi que des règles de facturation."] ; # 
   fhir:jurisdiction ( [
@@ -63,7 +63,7 @@
      fhir:l <https://smt.esante.gouv.fr/terminologie-nabm?vs>
   ] ; # 
   fhir:content [ fhir:v "complete"] ; # 
-  fhir:count [ fhir:v "1049"^^xsd:nonNegativeInteger] ; # 
+  fhir:count [ fhir:v "1047"^^xsd:nonNegativeInteger] ; # 
   fhir:filter ( [
      fhir:code [ fhir:v "root" ] ;
      fhir:operator ( [ fhir:v "=" ] ) ;
@@ -19459,94 +19459,6 @@
        ]
      ] )
   ] [
-     fhir:code [ fhir:v "4353" ] ;
-     fhir:display [ fhir:v "PALUDISME : SD PAR ELS" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "parent" ] ;
-       fhir:value [
-         a fhir:Code ;
-         fhir:v "07-05"
-       ]
-     ] [
-       fhir:code [ fhir:v "created" ] ;
-       fhir:value [
-         a fhir:String ;
-         fhir:v "01/01/1996"
-       ]
-     ] [
-       fhir:code [ fhir:v "modified" ] ;
-       fhir:value [
-         a fhir:String ;
-         fhir:v "01/01/1996"
-       ]
-     ] [
-       fhir:code [ fhir:v "type" ] ;
-       fhir:value [
-         a fhir:String ;
-         fhir:v "code"
-       ]
-     ] [
-       fhir:code [ fhir:v "initativeBiologistePossible" ] ;
-       fhir:value [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:code [ fhir:v "indicationMédicale" ] ;
-       fhir:value [
-         a fhir:Boolean ;
-         fhir:v true
-       ]
-     ] [
-       fhir:code [ fhir:v "remboursementTotal" ] ;
-       fhir:value [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:code [ fhir:v "ententePréalable" ] ;
-       fhir:value [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:code [ fhir:v "aPourContingenceTechnique" ] ;
-       fhir:value [
-         a fhir:Code ;
-         fhir:v "CONTINGENCE_7"
-       ]
-     ] [
-       fhir:code [ fhir:v "nombreMaximumParFacturation" ] ;
-       fhir:value [
-         a fhir:Integer ;
-         fhir:v 1
-       ]
-     ] [
-       fhir:code [ fhir:v "coeffB" ] ;
-       fhir:value [
-         a fhir:String ;
-         fhir:v "50"
-       ]
-     ] [
-       fhir:code [ fhir:v "acteReserve" ] ;
-       fhir:value [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:code [ fhir:v "rmo" ] ;
-       fhir:value [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:code [ fhir:v "examenSanguin" ] ;
-       fhir:value [
-         a fhir:Boolean ;
-         fhir:v true
-       ]
-     ] )
-  ] [
      fhir:code [ fhir:v "4220" ] ;
      fhir:display [ fhir:v "CALICIVIRUS : RECHERCHE DIRECTE PAR MIE" ] ;
      fhir:property ( [
@@ -20622,7 +20534,7 @@
      ] )
   ] [
      fhir:code [ fhir:v "4354" ] ;
-     fhir:display [ fhir:v "PALUDISME : SD PAR IFI" ] ;
+     fhir:display [ fhir:v "PALUDISME" ] ;
      fhir:property ( [
        fhir:code [ fhir:v "parent" ] ;
        fhir:value [
@@ -20639,7 +20551,7 @@
        fhir:code [ fhir:v "modified" ] ;
        fhir:value [
          a fhir:String ;
-         fhir:v "01/01/1996"
+         fhir:v "03/03/2026"
        ]
      ] [
        fhir:code [ fhir:v "type" ] ;
@@ -20657,7 +20569,7 @@
        fhir:code [ fhir:v "indicationMédicale" ] ;
        fhir:value [
          a fhir:Boolean ;
-         fhir:v true
+         fhir:v false
        ]
      ] [
        fhir:code [ fhir:v "remboursementTotal" ] ;
@@ -55218,7 +55130,7 @@
        fhir:code [ fhir:v "modified" ] ;
        fhir:value [
          a fhir:String ;
-         fhir:v "09/05/2019"
+         fhir:v "03/03/2026"
        ]
      ] [
        fhir:code [ fhir:v "type" ] ;
@@ -55254,7 +55166,13 @@
        fhir:code [ fhir:v "aPourContingenceTechnique" ] ;
        fhir:value [
          a fhir:Code ;
-         fhir:v "CONTINGENCE_2"
+         fhir:v "CONTINGENCE_4"
+       ]
+     ] [
+       fhir:code [ fhir:v "nombreMaximumParFacturation" ] ;
+       fhir:value [
+         a fhir:Integer ;
+         fhir:v 1
        ]
      ] [
        fhir:code [ fhir:v "coeffB" ] ;
@@ -65507,6 +65425,94 @@
        fhir:value [
          a fhir:String ;
          fhir:v "175"
+       ]
+     ] [
+       fhir:code [ fhir:v "acteReserve" ] ;
+       fhir:value [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:code [ fhir:v "rmo" ] ;
+       fhir:value [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:code [ fhir:v "examenSanguin" ] ;
+       fhir:value [
+         a fhir:Boolean ;
+         fhir:v true
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "4364" ] ;
+     fhir:display [ fhir:v "RECHERCHE DE PROTEINES PLASMODIALES DANS LE SANG PAR ICG" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "parent" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "07-05"
+       ]
+     ] [
+       fhir:code [ fhir:v "created" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "10/02/2026"
+       ]
+     ] [
+       fhir:code [ fhir:v "modified" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "03/03/2026"
+       ]
+     ] [
+       fhir:code [ fhir:v "type" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "code"
+       ]
+     ] [
+       fhir:code [ fhir:v "initativeBiologistePossible" ] ;
+       fhir:value [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:code [ fhir:v "indicationMédicale" ] ;
+       fhir:value [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:code [ fhir:v "remboursementTotal" ] ;
+       fhir:value [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:code [ fhir:v "ententePréalable" ] ;
+       fhir:value [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:code [ fhir:v "aPourContingenceTechnique" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "CONTINGENCE_4"
+       ]
+     ] [
+       fhir:code [ fhir:v "nombreMaximumParFacturation" ] ;
+       fhir:value [
+         a fhir:Integer ;
+         fhir:v 1
+       ]
+     ] [
+       fhir:code [ fhir:v "coeffB" ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "42"
        ]
      ] [
        fhir:code [ fhir:v "acteReserve" ] ;
@@ -78780,94 +78786,6 @@
        ]
      ] )
   ] [
-     fhir:code [ fhir:v "1649" ] ;
-     fhir:display [ fhir:v "THEOPHYLLINE DANS UN AUTRE LIQUIDE BIOLOGIQUE QUE LE SANG" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "parent" ] ;
-       fhir:value [
-         a fhir:Code ;
-         fhir:v "14"
-       ]
-     ] [
-       fhir:code [ fhir:v "created" ] ;
-       fhir:value [
-         a fhir:String ;
-         fhir:v "14/02/1997"
-       ]
-     ] [
-       fhir:code [ fhir:v "modified" ] ;
-       fhir:value [
-         a fhir:String ;
-         fhir:v "27/03/1997"
-       ]
-     ] [
-       fhir:code [ fhir:v "type" ] ;
-       fhir:value [
-         a fhir:String ;
-         fhir:v "code"
-       ]
-     ] [
-       fhir:code [ fhir:v "initativeBiologistePossible" ] ;
-       fhir:value [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:code [ fhir:v "indicationMédicale" ] ;
-       fhir:value [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:code [ fhir:v "remboursementTotal" ] ;
-       fhir:value [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:code [ fhir:v "ententePréalable" ] ;
-       fhir:value [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:code [ fhir:v "aPourContingenceTechnique" ] ;
-       fhir:value [
-         a fhir:Code ;
-         fhir:v "CONTINGENCE_6"
-       ]
-     ] [
-       fhir:code [ fhir:v "nombreMaximumParFacturation" ] ;
-       fhir:value [
-         a fhir:Integer ;
-         fhir:v 1
-       ]
-     ] [
-       fhir:code [ fhir:v "coeffB" ] ;
-       fhir:value [
-         a fhir:String ;
-         fhir:v "70"
-       ]
-     ] [
-       fhir:code [ fhir:v "acteReserve" ] ;
-       fhir:value [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:code [ fhir:v "rmo" ] ;
-       fhir:value [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:code [ fhir:v "examenSanguin" ] ;
-       fhir:value [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] )
-  ] [
      fhir:code [ fhir:v "1734" ] ;
      fhir:display [ fhir:v "GRIPPE B : SD PAR IHA" ] ;
      fhir:property ( [
@@ -85508,12 +85426,6 @@
        fhir:code [ fhir:v "child" ] ;
        fhir:value [
          a fhir:Code ;
-         fhir:v "1649"
-       ]
-     ] [
-       fhir:code [ fhir:v "child" ] ;
-       fhir:value [
-         a fhir:Code ;
          fhir:v "1663"
        ]
      ] [
@@ -85683,12 +85595,6 @@
        fhir:value [
          a fhir:Code ;
          fhir:v "1651"
-       ]
-     ] [
-       fhir:code [ fhir:v "child" ] ;
-       fhir:value [
-         a fhir:Code ;
-         fhir:v "0335"
        ]
      ] [
        fhir:code [ fhir:v "child" ] ;
@@ -92673,94 +92579,6 @@
        ]
      ] )
   ] [
-     fhir:code [ fhir:v "0335" ] ;
-     fhir:display [ fhir:v "THEOPHYLLINE (SANG)" ] ;
-     fhir:property ( [
-       fhir:code [ fhir:v "parent" ] ;
-       fhir:value [
-         a fhir:Code ;
-         fhir:v "14"
-       ]
-     ] [
-       fhir:code [ fhir:v "created" ] ;
-       fhir:value [
-         a fhir:String ;
-         fhir:v "01/01/1996"
-       ]
-     ] [
-       fhir:code [ fhir:v "modified" ] ;
-       fhir:value [
-         a fhir:String ;
-         fhir:v "11/02/2011"
-       ]
-     ] [
-       fhir:code [ fhir:v "type" ] ;
-       fhir:value [
-         a fhir:String ;
-         fhir:v "code"
-       ]
-     ] [
-       fhir:code [ fhir:v "initativeBiologistePossible" ] ;
-       fhir:value [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:code [ fhir:v "indicationMédicale" ] ;
-       fhir:value [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:code [ fhir:v "remboursementTotal" ] ;
-       fhir:value [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:code [ fhir:v "ententePréalable" ] ;
-       fhir:value [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:code [ fhir:v "aPourContingenceTechnique" ] ;
-       fhir:value [
-         a fhir:Code ;
-         fhir:v "CONTINGENCE_6"
-       ]
-     ] [
-       fhir:code [ fhir:v "nombreMaximumParFacturation" ] ;
-       fhir:value [
-         a fhir:Integer ;
-         fhir:v 1
-       ]
-     ] [
-       fhir:code [ fhir:v "coeffB" ] ;
-       fhir:value [
-         a fhir:String ;
-         fhir:v "50"
-       ]
-     ] [
-       fhir:code [ fhir:v "acteReserve" ] ;
-       fhir:value [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:code [ fhir:v "rmo" ] ;
-       fhir:value [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:code [ fhir:v "examenSanguin" ] ;
-       fhir:value [
-         a fhir:Boolean ;
-         fhir:v true
-       ]
-     ] )
-  ] [
      fhir:code [ fhir:v "REGLE_SPECIFIQUE" ] ;
      fhir:display [ fhir:v "REGLE_SPECIFIQUE" ] ;
      fhir:property ( [
@@ -98058,12 +97876,6 @@
        fhir:code [ fhir:v "child" ] ;
        fhir:value [
          a fhir:Code ;
-         fhir:v "4353"
-       ]
-     ] [
-       fhir:code [ fhir:v "child" ] ;
-       fhir:value [
-         a fhir:Code ;
          fhir:v "4302"
        ]
      ] [
@@ -98203,6 +98015,12 @@
        fhir:value [
          a fhir:Code ;
          fhir:v "4311"
+       ]
+     ] [
+       fhir:code [ fhir:v "child" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "4364"
        ]
      ] )
   ] ) . # 
