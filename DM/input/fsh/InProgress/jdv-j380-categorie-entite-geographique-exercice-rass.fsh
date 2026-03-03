@@ -1,7 +1,7 @@
 ValueSet: JdvJ380CategorieEntiteGeographiqueExerciceRass
 Id: jdv-j380-categorie-entite-geographique-exercice-rass
-Title: "Ce JDV remplace le JDV-J129-CategorieEtablissement-RASS"
-Description: "Catégories d'établissements FINESS"
+Title: "Jdv J380 Categorie Entite Geographique Exercice Rass"
+Description: "Ce JDV remplace le JDV-J129-CategorieEtablissement-RASS"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2026-02-23T18:02:28.249+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
