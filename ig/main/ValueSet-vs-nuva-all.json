@@ -16,7 +16,7 @@
   "name" : "ValueSet_NUVA_All",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-04T05:09:50+00:00",
+  "date" : "2026-03-04T12:52:34+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Ce jeu de valeurs inclut tous les codes concepts de la terminologie NUVA",
   "jurisdiction" : [{
@@ -28,7 +28,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/terminologie-nuva",
-      "version" : "1.0.1063"
+      "version" : "1.0.1072"
     }]
   }
 }

@@ -2855,7 +2855,7 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/terminologie-cim11-mms",
-    "version" : "2025-01",
+    "version" : "2026-02",
     "status" : "active",
     "name" : "CIM11_MMS",
     "title" : "Classification internationale des maladies et des problèmes de santé connexes - 11ème révision",
@@ -2909,7 +2909,7 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/terminologie-nuva",
-    "version" : "1.0.1063",
+    "version" : "1.0.1072",
     "status" : "active",
     "name" : "NUVA",
     "title" : "Nomenclature Unifiée des Vaccins",
