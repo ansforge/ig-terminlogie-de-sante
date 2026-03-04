@@ -10,7 +10,7 @@
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2026-03-03T05:16:59+00:00",
+  "date" : "2026-03-04T05:09:50+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -25339,18 +25339,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/jdv-j380-categorie-entite-geographique-exercice-rass"
-      },
-      "name" : "Ce JDV remplace le JDV-J129-CategorieEtablissement-RASS",
-      "description" : "Catégories d'établissements FINESS",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
       }],
       "reference" : {
@@ -27841,6 +27829,18 @@
       },
       "name" : "Jdv J379 Activite Sociale Regulee Rass",
       "description" : "Ce JDV remplace le JDV_J136_DisciplineEquipementSocial_RASS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j380-categorie-entite-geographique-exercice-rass"
+      },
+      "name" : "Jdv J380 Categorie Entite Geographique Exercice Rass",
+      "description" : "Ce JDV remplace le JDV-J129-CategorieEtablissement-RASS",
       "exampleBoolean" : false
     },
     {
@@ -34828,7 +34828,7 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
-        "reference" : "CodeSystem/900000000000207008-20260201"
+        "reference" : "CodeSystem/900000000000207008-20260301"
       },
       "name" : "SNOMED CT core",
       "description" : "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",

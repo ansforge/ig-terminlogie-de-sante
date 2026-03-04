@@ -3,8 +3,8 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="terminologie-bdpm"/>
   <meta>
-    <versionId value="26.1770296468572"/>
-    <lastUpdated value="2026-02-05T14:01:08.572+01:00"/>
+    <versionId value="27"/>
+    <lastUpdated value="2026-03-03T16:04:41.255+01:00"/>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"/>
   </meta>
   <text>
@@ -16,12 +16,12 @@
     <system value="https://smt.esante.gouv.fr/"/>
     <value value="terminologie-bdpm"/>
   </identifier>
-  <version value="2026-02-03"/>
+  <version value="2026-03-03"/>
   <name value="BDPM"/>
   <title value="Base de données publique du médicament"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-02-03T00:00:00+00:00"/>
+  <date value="2026-03-03T00:00:00+00:00"/>
   <publisher value="Agence du numérique en santé"/>
   <description value="LA BDPM est un des référentiels du médicament gérée et distribuée par l’ANSM. Elle recense l’ensemble des spécialités et des présentations effectivement commercialisées durant les 5 dernières années. De ce fait, elle ne propose pas un historique exhaustif des codes de présentation et spécialités, celui-ci peut être obtenu grâce à la base RCP disponible sur le site de l’ANSM"/>
   <jurisdiction>
@@ -33,7 +33,7 @@
   <copyright value="[LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md)"/>
   <valueSet value="https://smt.esante.gouv.fr/terminologie-bdpm?vs"/>
   <content value="not-present"/>
-  <count value="41142"/>
+  <count value="41219"/>
   <filter>
     <code value="root"/>
     <operator value="="/>

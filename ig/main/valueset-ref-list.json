@@ -5551,8 +5551,8 @@
     "version" : "20260223120000",
     "status" : "active",
     "name" : "JdvJ380CategorieEntiteGeographiqueExerciceRass",
-    "title" : "Ce JDV remplace le JDV-J129-CategorieEtablissement-RASS",
-    "description" : "Catégories d'établissements FINESS",
+    "title" : "Jdv J380 Categorie Entite Geographique Exercice Rass",
+    "description" : "Ce JDV remplace le JDV-J129-CategorieEtablissement-RASS",
     "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice"],
     "oids" : ["1.2.250.1.213.1.6.1.393"],
     "sources" : ["1.2.250.1.213.1.6.1.393"]
@@ -8817,8 +8817,8 @@
     "systems" : ["https://smt.esante.gouv.fr/terminologie-cip_ucd"],
     "uses" : {
     },
-    "ConceptMap-alignement-nuva-cipucd.html" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD",
-    "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD"
+    "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD",
+    "ConceptMap-alignement-nuva-cipucd.html" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD"
   },
   {
     "url" : "https://smt.esante.gouv.fr/terminologie-nuva?vs",

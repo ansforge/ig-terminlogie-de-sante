@@ -21,7 +21,7 @@
   fhir:name [ fhir:v "Terminologies"] ; # 
   fhir:title [ fhir:v "Terminologies  de Santé"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2026-03-03T05:16:59+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-03-04T05:09:50+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -54970,27 +54970,6 @@
          ] ;
          fhir:value [
            a fhir:String ;
-           fhir:v "ValueSet"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j380-categorie-entite-geographique-exercice-rass> ;
-         fhir:reference [ fhir:v "ValueSet/jdv-j380-categorie-entite-geographique-exercice-rass" ]
-       ] ;
-       fhir:name [ fhir:v "Ce JDV remplace le JDV-J129-CategorieEtablissement-RASS" ] ;
-       fhir:description [ fhir:v "Catégories d'établissements FINESS" ] ;
-       fhir:example [
-         a fhir:Boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [
-           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
-           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
-         ] ;
-         fhir:value [
-           a fhir:String ;
            fhir:v "CodeSystem"
          ]
        ] ) ;
@@ -59346,6 +59325,27 @@
        ] ;
        fhir:name [ fhir:v "Jdv J379 Activite Sociale Regulee Rass" ] ;
        fhir:description [ fhir:v "Ce JDV remplace le JDV_J136_DisciplineEquipementSocial_RASS" ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j380-categorie-entite-geographique-exercice-rass> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j380-categorie-entite-geographique-exercice-rass" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J380 Categorie Entite Geographique Exercice Rass" ] ;
+       fhir:description [ fhir:v "Ce JDV remplace le JDV-J129-CategorieEtablissement-RASS" ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -71579,8 +71579,8 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/900000000000207008-20260201> ;
-         fhir:reference [ fhir:v "CodeSystem/900000000000207008-20260201" ]
+         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/900000000000207008-20260301> ;
+         fhir:reference [ fhir:v "CodeSystem/900000000000207008-20260301" ]
        ] ;
        fhir:name [ fhir:v "SNOMED CT core" ] ;
        fhir:description [ fhir:v "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO)." ] ;

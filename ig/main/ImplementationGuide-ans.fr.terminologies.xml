@@ -11,7 +11,7 @@
   <name value="Terminologies"/>
   <title value="Terminologies  de Santé"/>
   <status value="active"/>
-  <date value="2026-03-03T05:16:59+00:00"/>
+  <date value="2026-03-04T05:09:50+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -18564,17 +18564,6 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/jdv-j380-categorie-entite-geographique-exercice-rass"/>
-      </reference>
-      <name value="Ce JDV remplace le JDV-J129-CategorieEtablissement-RASS"/>
-      <description value="Catégories d'établissements FINESS"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
@@ -20858,6 +20847,17 @@
       </reference>
       <name value="Jdv J379 Activite Sociale Regulee Rass"/>
       <description value="Ce JDV remplace le JDV_J136_DisciplineEquipementSocial_RASS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j380-categorie-entite-geographique-exercice-rass"/>
+      </reference>
+      <name value="Jdv J380 Categorie Entite Geographique Exercice Rass"/>
+      <description value="Ce JDV remplace le JDV-J129-CategorieEtablissement-RASS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -27262,7 +27262,7 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/900000000000207008-20260201"/>
+        <reference value="CodeSystem/900000000000207008-20260301"/>
       </reference>
       <name value="SNOMED CT core"/>
       <description value="SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO)."/>

@@ -26,7 +26,6 @@ These define sets of codes used by systems conforming to this implementation gui
 | [AdministrativeGender](ValueSet-jdv-hl7-v3-AdministrativeGender-cisis.md) | AdministrativeGender |
 | [Allergy Intolerance Criticality](ValueSet-jdv-hl7-allergy-intolerance-criticality-cisis.md) | Allergy Intolerance Criticality |
 | [AllergyIntolerance Clinical Status Codes](ValueSet-jdv-hl7-allergyintolerance-clinical-cisis.md) | AllergyIntolerance Clinical Status Codes |
-| [Ce JDV remplace le JDV-J129-CategorieEtablissement-RASS](ValueSet-jdv-j380-categorie-entite-geographique-exercice-rass.md) | Catégories d’établissements FINESS |
 | [Condition Clinical Status Codes](ValueSet-jdv-hl7-condition-clinical-cisis.md) | Condition Clinical Status Codes |
 | [Condition Verification Status](ValueSet-jdv-hl7-condition-ver-status-cisis.md) | Condition Verification Status |
 | [Confidentiality](ValueSet-jdv-hl7-v2-0952-cisis.md) | Confidentiality |
@@ -746,6 +745,7 @@ These define sets of codes used by systems conforming to this implementation gui
 | [Jdv J376 Public Activite Smsse Regulee Rass](ValueSet-jdv-j376-public-activite-smsse-regulee-rass.md) | Ce JDV remplace le JDV_J137_Clientele_RASS |
 | [Jdv J377 Categorie Entite Geographique Exercice Ror](ValueSet-jdv-j377-categorie-entite-geographique-exercice-ror.md) | Ce JDV remplace le JDV_J55_CategorieEG_ROR |
 | [Jdv J379 Activite Sociale Regulee Rass](ValueSet-jdv-j379-activite-sociale-regulee-rass.md) | Ce JDV remplace le JDV_J136_DisciplineEquipementSocial_RASS |
+| [Jdv J380 Categorie Entite Geographique Exercice Rass](ValueSet-jdv-j380-categorie-entite-geographique-exercice-rass.md) | Ce JDV remplace le JDV-J129-CategorieEtablissement-RASS |
 | [Jdv J383 Motif Cloture Exercice Professionnel Epars](ValueSet-jdv-j383-motif-cloture-exercice-professionnel-epars.md) | Ce jeu de valeur liste les différents motifs qui peuvent justifier la clôture d’un exercice professionnel. |
 | [Jdv J384 Role Membre Famille Ms](ValueSet-jdv-j384-role-membre-famille-ms.md) | Rôle d’un membre de la famille ou d’un proche de l’usager. |
 | [Jdv J385 Composition Foyer Ms](ValueSet-jdv-j385-composition-foyer-ms.md) | Désigne avec qui vit l’usager dans son logement. |
@@ -845,7 +845,7 @@ These define new code systems used by systems conforming to this implementation 
 | [RoleClassSupplementFr](CodeSystem-RoleClass-supplement-fr.md) | Traduction Française |
 | [RoleCode](CodeSystem-v3-RoleCode.md) | A set of codes further specifying the kind of Role; specific classification codes for further qualifying RoleClass codes. |
 | [RoleCodeSupplementFr](CodeSystem-RoleCode-supplement-fr.md) | Traduction Française |
-| [SNOMED CT core](CodeSystem-900000000000207008-20260201.md) | SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO). |
+| [SNOMED CT core](CodeSystem-900000000000207008-20260301.md) | SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO). |
 | [Service type](CodeSystem-service-type.md) | This value set defines an example set of codes of service-types. |
 | [SpecimenType](CodeSystem-v3-SpecimenType.md) | **** MISSING DESCRIPTION **** |
 | [SpecimenTypeSupplementFr](CodeSystem-specimenType-supplement-fr.md) | Traduction Française |

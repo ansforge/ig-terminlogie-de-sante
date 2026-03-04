@@ -1,10 +1,10 @@
-# Ce JDV remplace le JDV-J129-CategorieEtablissement-RASS - Terminologies de Santé v1.7.0
+# Jdv J380 Categorie Entite Geographique Exercice Rass - Terminologies de Santé v1.7.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
-* **Ce JDV remplace le JDV-J129-CategorieEtablissement-RASS**
+* **Jdv J380 Categorie Entite Geographique Exercice Rass**
 
-## ValueSet: Ce JDV remplace le JDV-J129-CategorieEtablissement-RASS 
+## ValueSet: Jdv J380 Categorie Entite Geographique Exercice Rass 
 
 | | | |
 | :--- | :--- | :--- |
@@ -13,7 +13,7 @@
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.393 | | |
 
  
-Catégories d’établissements FINESS 
+Ce JDV remplace le JDV-J129-CategorieEtablissement-RASS 
 
  **References** 
 
@@ -55,8 +55,8 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-j380-categorie-entite-geographique-exercice-rass",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2026-02-23T18:17:34.946+01:00",
+    "versionId" : "3",
+    "lastUpdated" : "2026-03-03T16:17:59.144+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
@@ -73,12 +73,12 @@ Requête sur le SMT
   }],
   "version" : "20260223120000",
   "name" : "JdvJ380CategorieEntiteGeographiqueExerciceRass",
-  "title" : "Ce JDV remplace le JDV-J129-CategorieEtablissement-RASS",
+  "title" : "Jdv J380 Categorie Entite Geographique Exercice Rass",
   "status" : "active",
   "experimental" : false,
   "date" : "2026-02-23T18:02:28.249+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description" : "Catégories d'établissements FINESS",
+  "description" : "Ce JDV remplace le JDV-J129-CategorieEtablissement-RASS",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

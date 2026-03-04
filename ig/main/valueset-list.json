@@ -5497,8 +5497,8 @@
     "version" : "20260223120000",
     "status" : "active",
     "name" : "JdvJ380CategorieEntiteGeographiqueExerciceRass",
-    "title" : "Ce JDV remplace le JDV-J129-CategorieEtablissement-RASS",
-    "description" : "Catégories d'établissements FINESS",
+    "title" : "Jdv J380 Categorie Entite Geographique Exercice Rass",
+    "description" : "Ce JDV remplace le JDV-J129-CategorieEtablissement-RASS",
     "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice"],
     "oids" : ["1.2.250.1.213.1.6.1.393"],
     "sources" : ["1.2.250.1.213.1.6.1.393"]

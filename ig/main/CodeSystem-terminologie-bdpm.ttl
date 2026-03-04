@@ -10,8 +10,8 @@
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "terminologie-bdpm"] ; # 
   fhir:meta [
-     fhir:versionId [ fhir:v "26.1770296468572" ] ;
-     fhir:lastUpdated [ fhir:v "2026-02-05T14:01:08.572+01:00"^^xsd:dateTime ] ;
+     fhir:versionId [ fhir:v "27" ] ;
+     fhir:lastUpdated [ fhir:v "2026-03-03T16:04:41.255+01:00"^^xsd:dateTime ] ;
      fhir:profile ( [
        fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"^^xsd:anyURI ;
        fhir:l <http://hl7.org/fhir/StructureDefinition/shareablecodesystem?version=4.0.1>
@@ -33,12 +33,12 @@
      ] ;
      fhir:value [ fhir:v "terminologie-bdpm" ]
   ] ) ; # 
-  fhir:version [ fhir:v "2026-02-03"] ; # 
+  fhir:version [ fhir:v "2026-03-03"] ; # 
   fhir:name [ fhir:v "BDPM"] ; # 
   fhir:title [ fhir:v "Base de données publique du médicament"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-02-03T00:00:00+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-03-03T00:00:00+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du numérique en santé"] ; # 
   fhir:description [ fhir:v "LA BDPM est un des référentiels du médicament gérée et distribuée par l’ANSM. Elle recense l’ensemble des spécialités et des présentations effectivement commercialisées durant les 5 dernières années. De ce fait, elle ne propose pas un historique exhaustif des codes de présentation et spécialités, celui-ci peut être obtenu grâce à la base RCP disponible sur le site de l’ANSM"] ; # 
   fhir:jurisdiction ( [
@@ -56,7 +56,7 @@
      fhir:l <https://smt.esante.gouv.fr/terminologie-bdpm?vs>
   ] ; # 
   fhir:content [ fhir:v "not-present"] ; # 
-  fhir:count [ fhir:v "41142"^^xsd:nonNegativeInteger] ; # 
+  fhir:count [ fhir:v "41219"^^xsd:nonNegativeInteger] ; # 
   fhir:filter ( [
      fhir:code [ fhir:v "root" ] ;
      fhir:operator ( [ fhir:v "=" ] ) ;

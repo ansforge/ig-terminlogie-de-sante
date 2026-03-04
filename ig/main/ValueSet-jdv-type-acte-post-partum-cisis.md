@@ -117,7 +117,7 @@ No Expansion for this valueset (Unknown Code System)
     },
     {
       "system" : "http://snomed.info/sct",
-      "version" : "http://snomed.info/sct/900000000000207008/version/20260201",
+      "version" : "http://snomed.info/sct/900000000000207008/version/20260301",
       "concept" : [{
         "code" : "49149002",
         "display" : "exploration manuelle post-partum de l'utérus"

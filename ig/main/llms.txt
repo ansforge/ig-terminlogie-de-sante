@@ -42,8 +42,8 @@
 
 ### CodeSystems
 
-* [French module](CodeSystem-900000000000207008-20260201.md)
-* [SNOMED CT core](CodeSystem-900000000000207008-20260201.md)
+* [French module](CodeSystem-900000000000207008-20260301.md)
+* [SNOMED CT core](CodeSystem-900000000000207008-20260301.md)
 * [ActMoodSupplementFr](CodeSystem-ActMood-supplement-fr.md)
 * [ActPrioritySupplementFr](CodeSystem-ActPriority-supplement-fr.md)
 * [ActStatusSupplementFr](CodeSystem-ActStatus-supplement-fr.md)
@@ -852,7 +852,7 @@
 * [Jdv J376 Public Activite Smsse Regulee Rass](ValueSet-jdv-j376-public-activite-smsse-regulee-rass.md)
 * [Jdv J377 Categorie Entite Geographique Exercice Ror](ValueSet-jdv-j377-categorie-entite-geographique-exercice-ror.md)
 * [Jdv J379 Activite Sociale Regulee Rass](ValueSet-jdv-j379-activite-sociale-regulee-rass.md)
-* [Ce JDV remplace le JDV-J129-CategorieEtablissement-RASS](ValueSet-jdv-j380-categorie-entite-geographique-exercice-rass.md)
+* [Jdv J380 Categorie Entite Geographique Exercice Rass](ValueSet-jdv-j380-categorie-entite-geographique-exercice-rass.md)
 * [Jdv J383 Motif Cloture Exercice Professionnel Epars](ValueSet-jdv-j383-motif-cloture-exercice-professionnel-epars.md)
 * [Jdv J384 Role Membre Famille Ms](ValueSet-jdv-j384-role-membre-famille-ms.md)
 * [Jdv J385 Composition Foyer Ms](ValueSet-jdv-j385-composition-foyer-ms.md)
