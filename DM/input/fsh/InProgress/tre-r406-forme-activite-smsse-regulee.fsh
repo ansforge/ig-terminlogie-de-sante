@@ -39,6 +39,10 @@ Description: "Formes des activites smsse régulées, remplace la TRE_R276-FormeA
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#rass"
 * ^property[=].description = "Permet de définir les codes concepts uilisés par le RASS"
 * ^property[=].type = #boolean
+* ^property[+].code = #dmp
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dmp"
+* ^property[=].description = "Permet de définir les codes concepts uilisés par le DMP"
+* ^property[=].type = #boolean
 * ^property[+].code = #deprecationDate
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
 * ^property[=].description = "Date Concept was deprecated"
@@ -107,6 +111,8 @@ Description: "Formes des activites smsse régulées, remplace la TRE_R276-FormeA
 * #05 ^property[=].valueBoolean = true
 * #05 ^property[+].code = #rass
 * #05 ^property[=].valueBoolean = true
+* #05 ^property[+].code = #dmp
+* #05 ^property[=].valueBoolean = true
 * #06 "Anesthésie ambulatoire"
 * #06 ^property[0].code = #dateValid
 * #06 ^property[=].valueDateTime = "2018-07-27T12:00:00+01:00"
@@ -163,6 +169,8 @@ Description: "Formes des activites smsse régulées, remplace la TRE_R276-FormeA
 * #11 ^property[=].valueBoolean = true
 * #11 ^property[+].code = #rass
 * #11 ^property[=].valueBoolean = true
+* #11 ^property[+].code = #dmp
+* #11 ^property[=].valueBoolean = true
 * #12 "Centre de crise"
 * #12 ^property[0].code = #dateValid
 * #12 ^property[=].valueDateTime = "2024-03-29T12:00:00+01:00"
@@ -173,6 +181,8 @@ Description: "Formes des activites smsse régulées, remplace la TRE_R276-FormeA
 * #12 ^property[+].code = #cisis
 * #12 ^property[=].valueBoolean = true
 * #12 ^property[+].code = #rass
+* #12 ^property[=].valueBoolean = true
+* #12 ^property[+].code = #dmp
 * #12 ^property[=].valueBoolean = true
 * #13 "Saisonnier"
 * #13 ^property[0].code = #dateValid
