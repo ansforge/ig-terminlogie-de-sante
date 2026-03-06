@@ -31,14 +31,6 @@ Description: "Formes des activites smsse régulées, remplace la TRE_R276-FormeA
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin"
 * ^property[=].description = "Date de fin d'exploitation d'un code concept"
 * ^property[=].type = #dateTime
-* ^property[+].code = #cisis
-* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#cisis"
-* ^property[=].description = "Permet de définir les codes concepts uilisés par le CISIS"
-* ^property[=].type = #boolean
-* ^property[+].code = #rass
-* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#rass"
-* ^property[=].description = "Permet de définir les codes concepts uilisés par le RASS"
-* ^property[=].type = #boolean
 * ^property[+].code = #deprecationDate
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
 * ^property[=].description = "Date Concept was deprecated"
@@ -58,8 +50,6 @@ Description: "Formes des activites smsse régulées, remplace la TRE_R276-FormeA
 * #00 ^property[=].valueDateTime = "2018-07-27T12:00:00+01:00"
 * #00 ^property[+].code = #status
 * #00 ^property[=].valueCode = #active
-* #00 ^property[+].code = #rass
-* #00 ^property[=].valueBoolean = true
 * #01 "Hospitalisation complète (24 heures consécutives ou plus)"
 * #01 ^property[0].code = #dateValid
 * #01 ^property[=].valueDateTime = "2018-07-27T12:00:00+01:00"
