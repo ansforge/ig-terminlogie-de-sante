@@ -2,6 +2,11 @@
   "resourceType" : "Parameters",
   "id" : "exp-params",
   "parameter" : [
+
+    {
+      "name": "displayLanguage",
+      "valueCode": "fr"
+    },      
     {
     "name" : "system-version",
     "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/11000315107"
