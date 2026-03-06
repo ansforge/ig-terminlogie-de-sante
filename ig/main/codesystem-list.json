@@ -2829,7 +2829,7 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/terminologie-atc",
-    "version" : "2025-02",
+    "version" : "2026-02",
     "status" : "active",
     "name" : "ATC",
     "title" : "Classification anatomique, thérapeutique et chimique",
@@ -2918,7 +2918,7 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/terminologie-sms",
-    "version" : "2026-02",
+    "version" : "2026-03",
     "status" : "active",
     "name" : "Dictionnaire_SMS_Substance_Management_Services_",
     "title" : "Dictionnaire européen multilingue des substances entrant dans la composition de médicaments",

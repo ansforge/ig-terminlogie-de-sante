@@ -8895,7 +8895,7 @@
   "id" : "terminologie-atc",
   "type" : "CodeSystem",
   "url" : "https://smt.esante.gouv.fr/terminologie-atc",
-  "version" : "2025-02",
+  "version" : "2026-02",
   "name" : "ATC",
   "oids" : ["2.16.840.1.113883.6.73"]
 },
@@ -9002,7 +9002,7 @@
   "id" : "terminologie-sms",
   "type" : "CodeSystem",
   "url" : "https://smt.esante.gouv.fr/terminologie-sms",
-  "version" : "2026-02",
+  "version" : "2026-03",
   "name" : "Dictionnaire_SMS_Substance_Management_Services_",
   "oids" : ["2.16.840.1.113883.3.6905.2"]
 },
