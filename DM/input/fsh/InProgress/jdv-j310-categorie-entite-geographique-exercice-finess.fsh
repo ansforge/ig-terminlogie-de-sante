@@ -1,22 +1,20 @@
-Alias: $tre-r397-categorie-entite-geographique-exercice = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice
-
 ValueSet: JdvJ310CategorieEntiteGeographiqueExerciceFiness
 Id: jdv-j310-categorie-entite-geographique-exercice-finess
 Title: "Jdv J310 Categorie Entite Geographique Exercice Finess"
-Description: "Jeu de valeurs FINESS contenant les catégories d'entité géographique d'exercice spécifiques à FINESS et de niveau 4"
+Description: "Ce JDV contient toutes les catégories d'EGE hors agrégat (JDV crée à l'image de l'ancienne TRE R66)"
 * ^meta.versionId = "1"
-* ^meta.lastUpdated = "2025-06-11T18:02:28.249+00:00"
+* ^meta.lastUpdated = "2026-02-23T12:00:00.000+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
-* ^extension.valuePeriod.start = "2025-06-11T18:02:28.249+00:00"
+* ^extension.valuePeriod.start = "2026-02-23T12:00:00.000+00:00"
 * ^url = "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j310-categorie-entite-geographique-exercice-finess"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.318"
-* ^version = "20250611120000"
+* ^version = "20260223120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-06-11T18:02:28.249+00:00"
+* ^date = "2026-02-23T12:00:00.000+00:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * include codes from system $tre-r397-categorie-entite-geographique-exercice where niveau = "4"
 * exclude codes from system $tre-r397-categorie-entite-geographique-exercice where specialisationRor = "true"

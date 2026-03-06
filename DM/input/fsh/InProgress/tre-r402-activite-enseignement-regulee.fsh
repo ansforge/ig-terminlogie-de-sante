@@ -1,22 +1,20 @@
-Alias: $sct = http://snomed.info/sct
-
 CodeSystem: TreR402ActiviteEnseignementRegulee
 Id: tre-r402-activite-enseignement-regulee
 Title: "Tre R402 Activite Enseignement Regulee"
 Description: "Liste des activités d'enseignement régulées organisée en 3 niveaux d'agrégation. Annule et remplace les anciennes TRE xxxEnseignement"
 * ^meta.versionId = "1"
-* ^meta.lastUpdated = "2025-11-04T05:14:07.558+00:00"
+* ^meta.lastUpdated = "2026-02-23T12:00:00.000+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
-* ^extension.valuePeriod.start = "2025-11-04T12:00:00+01:00"
+* ^extension.valuePeriod.start = "2026-02-23T12:00:00.000+00:00"
 * ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.381"
-* ^version = "20251104120000"
+* ^version = "20260223120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-11-04T12:00:00+01:00"
+* ^date = "2026-02-23T12:00:00.000+00:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * ^caseSensitive = false
