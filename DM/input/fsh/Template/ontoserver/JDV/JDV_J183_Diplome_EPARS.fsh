@@ -1,8 +1,8 @@
 ValueSet: JDV_J183_Diplome_EPARS
 Id: JDV-J183-Diplome-EPARS
 Description: "Diplômes pour l'application EPARS"
-* ^meta.versionId = "13"
-* ^meta.lastUpdated = "2025-12-18T16:47:44.814+01:00"
+* ^meta.versionId = "15"
+* ^meta.lastUpdated = "2026-02-23T18:17:26.700+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,10 +10,10 @@ Description: "Diplômes pour l'application EPARS"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J183-Diplome-EPARS/FHIR/JDV-J183-Diplome-EPARS"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.240"
-* ^version = "20251222120000"
+* ^version = "20260223120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-12-22T12:00:00+01:00"
+* ^date = "2026-02-23T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R48-DiplomeEtatFrancais#DE28 "DE Assistant de Service Social"
@@ -51,8 +51,8 @@ Description: "Diplômes pour l'application EPARS"
 * $TRE-R58-AutreTypeDiplome#DIP353 "Certificat de Capacité d'Orthophoniste"
 * $TRE-R58-AutreTypeDiplome#DIP354 "Diplôme ou attestation MEN"
 * $TRE-R58-AutreTypeDiplome#DIP355 "Certificat de Capacité d'Orthoptiste"
-* $TRE-R58-AutreTypeDiplome#DIP356 "Licence + Maîtrise + DESS en psychologie"
-* $TRE-R58-AutreTypeDiplome#DIP357 "Licence + Maîtrise + diplôme annexe Décret 90-255"
+* $TRE-R58-AutreTypeDiplome#DIP356 "Licence psychologie + Maîtrise psychologie + DESS en psychologie"
+* $TRE-R58-AutreTypeDiplome#DIP357 "Licence psychologie + Maîtrise psychologie + diplôme annexe Décret 90-255"
 * $TRE-R58-AutreTypeDiplome#DIP358 "Licence psychologie + Maîtrise psychologie + DEA psychologie + Attestation Stage"
 * $TRE-R58-AutreTypeDiplome#DIP359 "Diplôme pour usage du titre de psychologue (alinéa 6 à 9 art 1 décret 90-255)"
 * $TRE-R58-AutreTypeDiplome#DIP360 "Usage restreint du titre de Psychologue (arrêté du 14/01/1993)"

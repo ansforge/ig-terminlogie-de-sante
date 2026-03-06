@@ -1,23 +1,23 @@
 CodeSystem: TRE_R85_RolePriseCharge
 Id: TRE-R85-RolePriseCharge
 Description: "Rôle dans la prise en charge des patients ou des usagers"
-* ^meta.versionId = "21"
-* ^meta.lastUpdated = "2025-12-22T10:46:49.421+01:00"
+* ^meta.versionId = "23"
+* ^meta.lastUpdated = "2026-02-03T15:41:56.470+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2015-01-01T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.107"
-* ^version = "20251222120000"
+* ^version = "20260202120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-12-22T12:00:00+01:00"
+* ^date = "2026-02-02T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
-* ^count = 74
+* ^count = 75
 * ^property[0].code = #dateValid
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"
@@ -730,3 +730,10 @@ Description: "Rôle dans la prise en charge des patients ou des usagers"
 * #373 ^property[=].valueDateTime = "2025-07-21T12:00:00+01:00"
 * #373 ^property[+].code = #status
 * #373 ^property[=].valueCode = #active
+* #374 "Agent d'autorité d'enregistrement" "Les agents des autorités d’enregistrement sont des personnes habilitées à collecter, vérifier et transmettre les données d’identification des professionnels de santé vers les systèmes officiels, notamment le RPPS et le tableau si l’autorité d’enregistrement est un Ordre médical. Ils jouent un rôle crucial dans la gestion administrative et réglementaire de la profession. L’agent d’enregistrement vérifie les diplômes, les pièces justificatives et les conditions d’exercice du professionnel. Pour une profession ordinale, il ou elle enregistre le professionnel dans le tableau officiel de l’Ordre et lui attribue un numéro ordinal. Les données validées (identité, spécialité, lieu d’exercice, etc.) sont quotidiennement transmises au RPPS. Elles sont considérées comme fiables et opposables, car elles proviennent d’autorités officielles que sont les Ordres professionnels, les ARS ou le Service de santé des armées."
+* #374 ^property[0].code = #dateValid
+* #374 ^property[=].valueDateTime = "2026-02-02T12:00:00+01:00"
+* #374 ^property[+].code = #dateMaj
+* #374 ^property[=].valueDateTime = "2026-02-02T12:00:00+01:00"
+* #374 ^property[+].code = #status
+* #374 ^property[=].valueCode = #active

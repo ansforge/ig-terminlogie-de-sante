@@ -1,23 +1,23 @@
 CodeSystem: TRE_R244_CategorieOrganisation
 Id: TRE-R244-CategorieOrganisation
 Description: "Catégorie d'organisation"
-* ^meta.versionId = "26"
-* ^meta.lastUpdated = "2025-12-22T10:46:43.166+01:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
+* ^meta.versionId = "27"
+* ^meta.lastUpdated = "2026-02-23T17:57:22.131+01:00"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2017-10-13T12:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R244-CategorieOrganisation/FHIR/TRE-R244-CategorieOrganisation"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.3.3.39"
-* ^version = "20251222120000"
+* ^version = "20260223120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-12-22T12:00:00+01:00"
+* ^date = "2026-02-23T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
 * ^content = #complete
-* ^count = 295
+* ^count = 302
 * ^property[0].code = #dateValid
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
 * ^property[=].description = "date de validité d'un code concept"
@@ -3017,15 +3017,15 @@ Description: "Catégorie d'organisation"
 * #278 ^property[=].valueDateTime = "2025-10-17T12:00:00+01:00"
 * #278 ^property[+].code = #status
 * #278 ^property[=].valueCode = #active
-* #279 "Equipe mobile de psychiatrie de l'Enfant et de l'Adolescent"
+* #279 "Equipe Mobile de Psychiatrie de l’Enfant et de l’Adolescent (EMPEA)" "Les équipes mobiles en psychiatrie de l’enfant et de l’adolescent (EMPEA) sont diversifiées mais partagent des principes communs. Cette équipe pluridisciplinaire spécialisée intervient de façon mobile auprès d’enfants et d’adolescents présentant des troubles psychiques, afin d’évaluer la situation, soutenir les professionnels et faciliter l’accès à des soins adaptés sans se substituer aux dispositifs existants. Elle vise la prévention des ruptures de parcours, la coordination des acteurs et l’orientation vers les structures de soins appropriées. L’équipe mobile peut également intervenir en prévention d’hospitalisation et/ou en consolidation après une hospitalisation. Sur certains territoires les équipes mobiles n’interviennent qu’auprès des enfants de l’ASE."
 * #279 ^designation[0].language = #fr-FR
 * #279 ^designation[=].use.system = "http://snomed.info/sct"
 * #279 ^designation[=].use = $sct#900000000000013009
-* #279 ^designation[=].value = "Equipe mobile pédopsychiatrie"
+* #279 ^designation[=].value = "EMPEA"
 * #279 ^property[0].code = #dateValid
 * #279 ^property[=].valueDateTime = "2025-10-17T12:00:00+01:00"
 * #279 ^property[+].code = #dateMaj
-* #279 ^property[=].valueDateTime = "2025-10-17T12:00:00+01:00"
+* #279 ^property[=].valueDateTime = "2026-02-23T12:00:00+01:00"
 * #279 ^property[+].code = #status
 * #279 ^property[=].valueCode = #active
 * #280 "Equipe mobile de psychiatrie adulte"
@@ -3195,6 +3195,7 @@ Description: "Catégorie d'organisation"
 * #294 ^property[=].valueCode = #active
 * #295 "Permanence d'Accès aux Soins de Santé (PASS)"
 * #295 ^designation[0].language = #fr-FR
+* #295 ^designation[=].use.system = "http://snomed.info/sct"
 * #295 ^designation[=].use = $sct#900000000000013009
 * #295 ^designation[=].value = "PASS"
 * #295 ^property[0].code = #dateValid
@@ -3203,3 +3204,75 @@ Description: "Catégorie d'organisation"
 * #295 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #295 ^property[+].code = #status
 * #295 ^property[=].valueCode = #active
+* #296 "Groupe d’Entraide Mutuelle (GEM)" "Les groupes d'entraide mutuelle (GEM) sont des structures de prévention et de compensation de la restriction de participation à la vie en société. Ils s'apparentent à des dispositifs d'entraide mutuelle entre pairs, en constituant avant tout un collectif de personnes concernées par des problématiques de santé ou des situations de handicap similaires et souhaitant se soutenir mutuellement dans les difficultés éventuellement rencontrées, notamment en termes d'insertion sociale, professionnelle et citoyenne. Ce collectif de personnes animées d'un même projet d'entraide, doit s'efforcer d'être une passerelle permettant aux personnes qui le fréquentent de développer une vie sociale satisfaisante, en travaillant par exemple sur le retour ou le maintien dans l'emploi ou le cas échéant, le recours à des soins et à un accompagnement adapté, en visant prioritairement l'autonomisation des adhérents."
+* #296 ^designation[0].language = #fr-FR
+* #296 ^designation[=].use.system = "http://snomed.info/sct"
+* #296 ^designation[=].use = $sct#900000000000013009
+* #296 ^designation[=].value = "GEM"
+* #296 ^property[0].code = #dateValid
+* #296 ^property[=].valueDateTime = "2026-02-23T12:00:00+01:00"
+* #296 ^property[+].code = #dateMaj
+* #296 ^property[=].valueDateTime = "2026-02-23T12:00:00+01:00"
+* #296 ^property[+].code = #status
+* #296 ^property[=].valueCode = #active
+* #297 "Centre ressource IntimAgir" "Les centres ressources IntimAgir sont des espaces (accueil téléphonique, lieu d’accueil et/ou sites internet, etc.) où chaque personne en situation de handicap, ou toute personne qui l’accompagne, peut s’informer et être conseillée pour toutes les questions en lien avec : la vie intime, affective, sexuelle ; les violences sexistes et sexuelles ; le soutien à la parentalité. Selon les régions, les centres ressources IntimAgir peuvent prendre différentes formes. Ils complètent le rôle assuré par les pairs, associations, centres de santé sexuelle, Établissements vie affective relationnelle et sexuelle (EVARS), professionnels au sein des établissements et services ou professionnels de santé (médecin, gynécologue, sage-femme, etc.)."
+* #297 ^property[0].code = #dateValid
+* #297 ^property[=].valueDateTime = "2026-02-23T12:00:00+01:00"
+* #297 ^property[+].code = #dateMaj
+* #297 ^property[=].valueDateTime = "2026-02-23T12:00:00+01:00"
+* #297 ^property[+].code = #status
+* #297 ^property[=].valueCode = #active
+* #298 "Dispositif sanitaire dédié à la prise en charge des femmes victimes de violences (Maison des Femmes Santé)" "Les dispositifs dédiés à la prise en charge des victimes de violences (ou « Maisons des Femmes / Santé ») réunissent un ensemble de compétences sanitaires, dans le champ clinique et de l’accompagnement psycho-social des victimes de violences, et sont adossés à une structure hospitalo-universitaire ou hospitalière. La Maison des femmes est une structure médico-sociale où des soignants et des acteurs du monde de la police, de la justice et du droit, des thérapeutes permettent de garantir la fluidité des parcours de prise en charge des personnes concernées. Les Maisons des Femmes Santé sont à distinguer des associations féministes « Maison des Femmes » qui peuvent exister par ailleurs, portent un nom d’usage similaire mais ne proposent pas d’accompagnement médico-social."
+* #298 ^designation[0].language = #fr-FR
+* #298 ^designation[=].use.system = "http://snomed.info/sct"
+* #298 ^designation[=].use = $sct#900000000000013009
+* #298 ^designation[=].value = "Maison des Femmes Santé"
+* #298 ^property[0].code = #dateValid
+* #298 ^property[=].valueDateTime = "2026-02-23T12:00:00+01:00"
+* #298 ^property[+].code = #dateMaj
+* #298 ^property[=].valueDateTime = "2026-02-23T12:00:00+01:00"
+* #298 ^property[+].code = #status
+* #298 ^property[=].valueCode = #active
+* #299 "Equipe de Diagnostic de Proximité – Autisme (PDAP, EDAP)" "La Plateforme de Diagnostic Autisme de Proximité (PDAP) ou Equipe de Diagnostic Autisme de Proximité (EDAP) – le nom est variable selon les régions – est un dispositif visant à effectuer un bilan-diagnostic de Trouble du Spectre de l'Autisme et à réaliser une évaluation du fonctionnement de l'enfant afin d'aider à l'élaboration d'un Projet Personnalisé d'Intervention et ainsi d’engager au plus tôt les interventions comportementales et développementales recommandées. Elle a également pour mission d'aider les familles à la mise en place des prises en charge nécessaires, en lien avec le médecin référent de l'enfant. A la différence des PCO-TND, ces offres assurent les diagnostics « simples » de troubles du spectre de l’autisme pour réduire les délais d’attente et éviter le recours inadéquat aux Centres de Ressources Autisme (CRA) ou Centres de Diagnostic et d’Evaluation expert (CDE)."
+* #299 ^designation[0].language = #fr-FR
+* #299 ^designation[=].use.system = "http://snomed.info/sct"
+* #299 ^designation[=].use = $sct#900000000000013009
+* #299 ^designation[=].value = "PDAP, EDAP"
+* #299 ^property[0].code = #dateValid
+* #299 ^property[=].valueDateTime = "2026-02-23T12:00:00+01:00"
+* #299 ^property[+].code = #dateMaj
+* #299 ^property[=].valueDateTime = "2026-02-23T12:00:00+01:00"
+* #299 ^property[+].code = #status
+* #299 ^property[=].valueCode = #active
+* #300 "Equipe Mobile de Psychiatrie Périnatale" "L’équipe mobile s’adresse aux familles difficilement mobilisables (géographiquement, socialement, financièrement). Il ne s’agit pas d’un dispositif de prise en charge au long court mais de transition limitée à une intervention ponctuelle ou à quelques interventions avant réorientation. L’intervention peut perdurer dans le temps pour l’accompagnement de certaines familles particulièrement difficiles à mobiliser. Les missions de l’équipe mobile sont : Repérer précocement les futures mères, les bébés et/ou les parents en souffrance psychique et/ou psychiatrique, Evaluer les signes de profond mal-être, Accompagner les familles vers les prises en soins adaptées en les soutenant dans les situations de vulnérabilité psychique, Orienter ces familles vers les structures partenaires adéquates et de proximité au regard des problématiques identifiées (CMP, unité « mère-bébé », hôpital de jour), Intervention rapide (sous quelques jours généralement) après qualification de la demande, que ce soit au domicile et/ou dans les structures d’accueil, d’hébergement ou de consultation"
+* #300 ^designation[0].language = #fr-FR
+* #300 ^designation[=].use.system = "http://snomed.info/sct"
+* #300 ^designation[=].use = $sct#900000000000013009
+* #300 ^designation[=].value = "Equipe de Psy. Périnatale"
+* #300 ^property[0].code = #dateValid
+* #300 ^property[=].valueDateTime = "2026-02-23T12:00:00+01:00"
+* #300 ^property[+].code = #dateMaj
+* #300 ^property[=].valueDateTime = "2026-02-23T12:00:00+01:00"
+* #300 ^property[+].code = #status
+* #300 ^property[=].valueCode = #active
+* #301 "Unité d'urgences psychiatriques"
+* #301 ^designation[0].language = #fr-FR
+* #301 ^designation[=].use.system = "http://snomed.info/sct"
+* #301 ^designation[=].use = $sct#900000000000013009
+* #301 ^designation[=].value = "Urgences psychiatriques"
+* #301 ^property[0].code = #dateValid
+* #301 ^property[=].valueDateTime = "2026-02-23T12:00:00+01:00"
+* #301 ^property[+].code = #dateMaj
+* #301 ^property[=].valueDateTime = "2026-02-23T12:00:00+01:00"
+* #301 ^property[+].code = #status
+* #301 ^property[=].valueCode = #active
+* #302 "Centre d’Accueil et de Crise (CAC)" "Le centre d'accueil et de crise (CAC) est un dispositif d'accueil en continu répondant au besoin non programmé d'évaluation et d'orientation du patient relevant d'une situation clinique de crise. Le centre peut disposer de lits d'hospitalisation de très courte durée permettant d'initier la prise en charge thérapeutique du patient dans une perspective de relai vers un autre mode de prise en charge."
+* #302 ^designation[0].language = #fr-FR
+* #302 ^designation[=].use = $sct#900000000000013009
+* #302 ^designation[=].value = "CAC"
+* #302 ^property[0].code = #dateValid
+* #302 ^property[=].valueDateTime = "2026-02-23T12:00:00+01:00"
+* #302 ^property[+].code = #dateMaj
+* #302 ^property[=].valueDateTime = "2026-02-23T12:00:00+01:00"
+* #302 ^property[+].code = #status
+* #302 ^property[=].valueCode = #active

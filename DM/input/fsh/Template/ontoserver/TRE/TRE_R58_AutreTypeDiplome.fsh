@@ -1,18 +1,18 @@
 CodeSystem: TRE_R58_AutreTypeDiplome
 Id: TRE-R58-AutreTypeDiplome
 Description: "Autre type de diplôme"
-* ^meta.versionId = "13"
-* ^meta.lastUpdated = "2025-12-22T10:46:46.902+01:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"
+* ^meta.versionId = "14"
+* ^meta.lastUpdated = "2026-02-23T17:57:32.825+01:00"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2013-06-28T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/TRE_R58-AutreTypeDiplome/FHIR/TRE-R58-AutreTypeDiplome"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.53"
-* ^version = "20251222120000"
+* ^version = "20260223120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-12-22T12:00:00+01:00"
+* ^date = "2026-02-23T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * ^caseSensitive = false
@@ -952,7 +952,7 @@ Description: "Autre type de diplôme"
 * #DIP355 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
 * #DIP355 ^property[+].code = #status
 * #DIP355 ^property[=].valueCode = #active
-* #DIP356 "Licence + Maîtrise + DESS en psychologie" "Article 44 de la Loi n° 85-772 du 25 juillet 1985 et article 1er du décret n°90-255 du 22 mars 1990"
+* #DIP356 "Licence psychologie + Maîtrise psychologie + DESS en psychologie" "Article 44 de la Loi n° 85-772 du 25 juillet 1985 et article 1er du décret n°90-255 du 22 mars 1990"
 * #DIP356 ^designation[0].language = #fr-FR
 * #DIP356 ^designation[=].use.system = "http://snomed.info/sct"
 * #DIP356 ^designation[=].use = $sct#900000000000013009
@@ -960,10 +960,10 @@ Description: "Autre type de diplôme"
 * #DIP356 ^property[0].code = #dateValid
 * #DIP356 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
 * #DIP356 ^property[+].code = #dateMaj
-* #DIP356 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
+* #DIP356 ^property[=].valueDateTime = "2026-02-23T12:00:00+01:00"
 * #DIP356 ^property[+].code = #status
 * #DIP356 ^property[=].valueCode = #active
-* #DIP357 "Licence + Maîtrise + diplôme annexe Décret 90-255" "Article 44 de la loi n° 85-772 du 25 juillet 1985 et article 1er du décret n°90-255 du 22 mars 1990"
+* #DIP357 "Licence psychologie + Maîtrise psychologie + diplôme annexe Décret 90-255" "Article 44 de la Loi n° 85-772 du 25 juillet 1985 et article 1er du décret n°90-255 du 22 mars 1990"
 * #DIP357 ^designation[0].language = #fr-FR
 * #DIP357 ^designation[=].use.system = "http://snomed.info/sct"
 * #DIP357 ^designation[=].use = $sct#900000000000013009
@@ -975,10 +975,10 @@ Description: "Autre type de diplôme"
 * #DIP357 ^property[0].code = #dateValid
 * #DIP357 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
 * #DIP357 ^property[+].code = #dateMaj
-* #DIP357 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
+* #DIP357 ^property[=].valueDateTime = "2026-02-23T12:00:00+01:00"
 * #DIP357 ^property[+].code = #status
 * #DIP357 ^property[=].valueCode = #active
-* #DIP358 "Licence psychologie + Maîtrise psychologie + DEA psychologie + Attestation Stage" "Article 44 de la loi n° 85-772 du 25 juillet 1985 et article 1er du décret n°90-255 du 22 mars 1990"
+* #DIP358 "Licence psychologie + Maîtrise psychologie + DEA psychologie + Attestation Stage" "Article 44 de la Loi n° 85-772 du 25 juillet 1985 et article 1er du décret n°90-255 du 22 mars 1990"
 * #DIP358 ^designation[0].language = #fr-FR
 * #DIP358 ^designation[=].use.system = "http://snomed.info/sct"
 * #DIP358 ^designation[=].use = $sct#900000000000013009
@@ -986,7 +986,7 @@ Description: "Autre type de diplôme"
 * #DIP358 ^property[0].code = #dateValid
 * #DIP358 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
 * #DIP358 ^property[+].code = #dateMaj
-* #DIP358 ^property[=].valueDateTime = "2023-03-31T12:00:00+01:00"
+* #DIP358 ^property[=].valueDateTime = "2026-02-26T12:00:00+01:00"
 * #DIP358 ^property[+].code = #status
 * #DIP358 ^property[=].valueCode = #active
 * #DIP359 "Diplôme pour usage du titre de psychologue (alinéa 6 à 9 art 1 décret 90-255)" "Article 44 de la loi n° 85-772 du 25 juillet 1985 et article 1er du décret n°90-255 du 22 mars 1990"

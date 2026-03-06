@@ -1,8 +1,8 @@
 ValueSet: JDV_J101_SecteurActivite_RASS
 Id: JDV-J101-SecteurActivite-RASS
 Description: "Secteurs d'activité des établissements avec la même activité dans le RASS"
-* ^meta.versionId = "13"
-* ^meta.lastUpdated = "2025-10-02T19:01:53.430+02:00"
+* ^meta.versionId = "15"
+* ^meta.lastUpdated = "2026-02-23T18:17:21.574+01:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
@@ -10,10 +10,10 @@ Description: "Secteurs d'activité des établissements avec la même activité d
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J101-SecteurActivite-RASS/FHIR/JDV-J101-SecteurActivite-RASS"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.169"
-* ^version = "20250828120000"
+* ^version = "20260223120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-08-28T12:00:00+01:00"
+* ^date = "2026-02-23T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R02-SecteurActivite#SA01 "Etablissement public de santé"
@@ -55,7 +55,7 @@ Description: "Secteurs d'activité des établissements avec la même activité d
 * $TRE-R02-SecteurActivite#SA37 "Centre de transfusion sanguine"
 * $TRE-R02-SecteurActivite#SA38 "Pharmacie minière"
 * $TRE-R02-SecteurActivite#SA39 "Pharmacie mutualiste"
-* $TRE-R02-SecteurActivite#SA40 "Secteur privé, praticien hospitalier temps plein"
+* $TRE-R02-SecteurActivite#SA40 "Secteur privé, praticien hospitalier"
 * $TRE-R02-SecteurActivite#SA41 "Autre établissement du domaine social ou médico-social"
 * $TRE-R02-SecteurActivite#SA42 "Appareillage médical"
 * $TRE-R02-SecteurActivite#SA43 "Secteur non défini"

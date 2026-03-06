@@ -1,19 +1,19 @@
 ValueSet: JDV_J07_XdsTypeCode_CISIS
 Id: JDV-J07-XdsTypeCode-CISIS
 Description: "XDS typeCode CI-SIS"
-* ^meta.versionId = "14"
-* ^meta.lastUpdated = "2025-11-04T19:01:56.988+01:00"
-* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^meta.versionId = "16"
+* ^meta.lastUpdated = "2026-02-03T15:46:06.422+01:00"
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"
 * ^language = #fr-FR
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2013-01-23T00:00:00+01:00"
 * ^url = "https://mos.esante.gouv.fr/NOS/JDV_J07-XdsTypeCode-CISIS/FHIR/JDV-J07-XdsTypeCode-CISIS"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.1.5.471"
-* ^version = "20251029120000"
+* ^version = "20260202120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-10-29T12:00:00+01:00"
+* ^date = "2026-02-02T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FRA
 * $TRE-A05-TypeDocComplementaire#ATTEST-ASS-COMPL "Attestation assurance complémentaire"
@@ -74,6 +74,7 @@ Description: "XDS typeCode CI-SIS"
 * $loinc#34874-8 "CR opératoire"
 * $loinc#34875-5 "Évaluation postopératoire et note de suivi"
 * $loinc#34876-3 "Évaluation préopératoire et note de suivi"
+* $loinc#34895-3 "Fiche d'information au patient"
 * $loinc#47420-5 "CR de bilan fonctionnel"
 * $loinc#51851-4 "Document administratif"
 * $loinc#51969-4 "CR de génétique moléculaire"
