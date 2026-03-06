@@ -1,0 +1,8 @@
+<OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>  
+1.2.250.1.213.1.1.5.195;JDV;JdvInvestigationRealiseeAunvCisis.tabs;JDV Investigation Realisee Aunv CISIS;;20100101000000;;20260220142104
+<OID>;<Code>;<Libellé>
+https://smt.esante.gouv.fr/terminologie-ccam;DEQP003;Électrocardiographie sur au moins 12 dérivations
+https://smt.esante.gouv.fr/terminologie-ccam;ACQK001;Scannographie du crâne et de son contenu
+https://smt.esante.gouv.fr/terminologie-ccam;ACQN001;Remnographie [IRM] du crâne et de son contenu, sans injection intraveineuse de produit de contraste
+https://smt.esante.gouv.fr/terminologie-ccam;EAQH002;Scanographie des vaisseaux encéphaliques
+https://smt.esante.gouv.fr/terminologie-ccam;EAQJ001;Remnographie des vaisseaux encéphaliques

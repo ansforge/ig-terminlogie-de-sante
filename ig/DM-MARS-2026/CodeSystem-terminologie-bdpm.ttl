@@ -1,0 +1,240 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/terminologie-bdpm> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "terminologie-bdpm"] ; # 
+  fhir:meta [
+     fhir:versionId [ fhir:v "27" ] ;
+     fhir:lastUpdated [ fhir:v "2026-03-03T16:04:41.255+01:00"^^xsd:dateTime ] ;
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablecodesystem?version=4.0.1>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\">LA BDPM est un des référentiels du médicament gérée et distribuée par l’ANSM. Elle recense l’ensemble des spécialités et des présentations effectivement commercialisées durant les 5 dernières années. De ce fait, elle ne propose pas un historique exhaustif des codes de présentation et spécialités, celui-ci peut être obtenu grâce à la base RCP disponible sur le site de l’ANSM</div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "https://smt.esante.gouv.fr/terminologie-bdpm"^^xsd:anyURI ;
+     fhir:l <https://smt.esante.gouv.fr/terminologie-bdpm>
+  ] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "secondary" ] ;
+     fhir:system [
+       fhir:v "https://smt.esante.gouv.fr/"^^xsd:anyURI ;
+       fhir:l <https://smt.esante.gouv.fr/>
+     ] ;
+     fhir:value [ fhir:v "terminologie-bdpm" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "2026-03-03"] ; # 
+  fhir:name [ fhir:v "BDPM"] ; # 
+  fhir:title [ fhir:v "Base de données publique du médicament"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-03-03T00:00:00+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Agence du numérique en santé"] ; # 
+  fhir:description [ fhir:v "LA BDPM est un des référentiels du médicament gérée et distribuée par l’ANSM. Elle recense l’ensemble des spécialités et des présentations effectivement commercialisées durant les 5 dernières années. De ce fait, elle ne propose pas un historique exhaustif des codes de présentation et spécialités, celui-ci peut être obtenu grâce à la base RCP disponible sur le site de l’ANSM"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
+       fhir:code [ fhir:v "FRA" ]
+     ] )
+  ] ) ; # 
+  fhir:copyright [ fhir:v "[LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md)"] ; # 
+  fhir:valueSet [
+     fhir:v "https://smt.esante.gouv.fr/terminologie-bdpm?vs"^^xsd:anyURI ;
+     fhir:l <https://smt.esante.gouv.fr/terminologie-bdpm?vs>
+  ] ; # 
+  fhir:content [ fhir:v "not-present"] ; # 
+  fhir:count [ fhir:v "41219"^^xsd:nonNegativeInteger] ; # 
+  fhir:filter ( [
+     fhir:code [ fhir:v "root" ] ;
+     fhir:operator ( [ fhir:v "=" ] ) ;
+     fhir:value [ fhir:v "True or false." ]
+  ] [
+     fhir:code [ fhir:v "deprecated" ] ;
+     fhir:operator ( [ fhir:v "=" ] ) ;
+     fhir:value [ fhir:v "True or false." ]
+  ] [
+     fhir:code [ fhir:v "imported" ] ;
+     fhir:operator ( [ fhir:v "=" ] ) ;
+     fhir:value [ fhir:v "True or false" ]
+  ] ) ; # 
+  fhir:property ( [
+     fhir:code [ fhir:v "broader" ] ;
+     fhir:uri [
+       fhir:v "http://www.w3.org/2004/02/skos/core#broader"^^xsd:anyURI ;
+       fhir:l <http://www.w3.org/2004/02/skos/core#broader>
+     ] ;
+     fhir:type [ fhir:v "code" ]
+  ] [
+     fhir:code [ fhir:v "date_commercialisation" ] ;
+     fhir:uri [
+       fhir:v "http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/date_commercialisation"^^xsd:anyURI ;
+       fhir:l <http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/date_commercialisation>
+     ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "taux_remboursement" ] ;
+     fhir:uri [
+       fhir:v "http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/taux_remboursement"^^xsd:anyURI ;
+       fhir:l <http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/taux_remboursement>
+     ] ;
+     fhir:type [ fhir:v "decimal" ]
+  ] [
+     fhir:code [ fhir:v "prix_total" ] ;
+     fhir:uri [
+       fhir:v "http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/prix_total"^^xsd:anyURI ;
+       fhir:l <http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/prix_total>
+     ] ;
+     fhir:type [ fhir:v "decimal" ]
+  ] [
+     fhir:code [ fhir:v "tarif_dispensation" ] ;
+     fhir:uri [
+       fhir:v "http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/tarif_dispensation"^^xsd:anyURI ;
+       fhir:l <http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/tarif_dispensation>
+     ] ;
+     fhir:type [ fhir:v "decimal" ]
+  ] [
+     fhir:code [ fhir:v "prix_CIP" ] ;
+     fhir:uri [
+       fhir:v "http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/prix_CIP"^^xsd:anyURI ;
+       fhir:l <http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/prix_CIP>
+     ] ;
+     fhir:type [ fhir:v "decimal" ]
+  ] [
+     fhir:code [ fhir:v "agrément_collectivité" ] ;
+     fhir:uri [
+       fhir:v "http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/agrément_collectivité"^^xsd:anyURI ;
+       fhir:l <http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/agrément_collectivité>
+     ] ;
+     fhir:type [ fhir:v "string" ]
+  ] [
+     fhir:code [ fhir:v "narrower" ] ;
+     fhir:uri [
+       fhir:v "http://www.w3.org/2004/02/skos/core#narrower"^^xsd:anyURI ;
+       fhir:l <http://www.w3.org/2004/02/skos/core#narrower>
+     ] ;
+     fhir:type [ fhir:v "code" ]
+  ] [
+     fhir:code [ fhir:v "substanceActive" ] ;
+     fhir:uri [
+       fhir:v "http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/substanceActive"^^xsd:anyURI ;
+       fhir:l <http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/substanceActive>
+     ] ;
+     fhir:type [ fhir:v "code" ]
+  ] [
+     fhir:code [ fhir:v "composition_pharmaceutique" ] ;
+     fhir:uri [
+       fhir:v "http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/composition_pharmaceutique"^^xsd:anyURI ;
+       fhir:l <http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/composition_pharmaceutique>
+     ] ;
+     fhir:type [ fhir:v "string" ]
+  ] [
+     fhir:code [ fhir:v "voieAdministration" ] ;
+     fhir:uri [
+       fhir:v "http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/voieAdministration"^^xsd:anyURI ;
+       fhir:l <http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/voieAdministration>
+     ] ;
+     fhir:type [ fhir:v "code" ]
+  ] [
+     fhir:code [ fhir:v "date_AMM" ] ;
+     fhir:uri [
+       fhir:v "http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/date_AMM"^^xsd:anyURI ;
+       fhir:l <http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/date_AMM>
+     ] ;
+     fhir:type [ fhir:v "dateTime" ]
+  ] [
+     fhir:code [ fhir:v "titulaire" ] ;
+     fhir:uri [
+       fhir:v "http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/titulaire"^^xsd:anyURI ;
+       fhir:l <http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/titulaire>
+     ] ;
+     fhir:type [ fhir:v "string" ]
+  ] [
+     fhir:code [ fhir:v "estCommercialisée" ] ;
+     fhir:uri [
+       fhir:v "http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/estCommercialisée"^^xsd:anyURI ;
+       fhir:l <http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/estCommercialisée>
+     ] ;
+     fhir:type [ fhir:v "string" ]
+  ] [
+     fhir:code [ fhir:v "formePharmaceutique" ] ;
+     fhir:uri [
+       fhir:v "http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/formePharmaceutique"^^xsd:anyURI ;
+       fhir:l <http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/formePharmaceutique>
+     ] ;
+     fhir:type [ fhir:v "code" ]
+  ] [
+     fhir:code [ fhir:v "suveillanceRenforcée" ] ;
+     fhir:uri [
+       fhir:v "http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/suveillanceRenforcée"^^xsd:anyURI ;
+       fhir:l <http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/suveillanceRenforcée>
+     ] ;
+     fhir:type [ fhir:v "string" ]
+  ] [
+     fhir:code [ fhir:v "AMM_TypedeProcédure" ] ;
+     fhir:uri [
+       fhir:v "http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/AMM_TypedeProcédure"^^xsd:anyURI ;
+       fhir:l <http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/AMM_TypedeProcédure>
+     ] ;
+     fhir:type [ fhir:v "code" ]
+  ] [
+     fhir:code [ fhir:v "AMM_Status" ] ;
+     fhir:uri [
+       fhir:v "http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/AMM_Status"^^xsd:anyURI ;
+       fhir:l <http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/AMM_Status>
+     ] ;
+     fhir:type [ fhir:v "code" ]
+  ] [
+     fhir:code [ fhir:v "indication_Remboursement" ] ;
+     fhir:uri [
+       fhir:v "http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/indication_Remboursement"^^xsd:anyURI ;
+       fhir:l <http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/indication_Remboursement>
+     ] ;
+     fhir:type [ fhir:v "string" ]
+  ] [
+     fhir:code [ fhir:v "numero_AutorisationEuropéenne" ] ;
+     fhir:uri [
+       fhir:v "http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/numero_AutorisationEuropéenne"^^xsd:anyURI ;
+       fhir:l <http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/numero_AutorisationEuropéenne>
+     ] ;
+     fhir:type [ fhir:v "string" ]
+  ] [
+     fhir:code [ fhir:v "parent" ] ;
+     fhir:uri [
+       fhir:v "http://hl7.org/fhir/concept-properties#parent"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/concept-properties#parent>
+     ] ;
+     fhir:description [ fhir:v "Codes des parents du concept courant" ] ;
+     fhir:type [ fhir:v "code" ]
+  ] [
+     fhir:code [ fhir:v "child" ] ;
+     fhir:uri [
+       fhir:v "http://hl7.org/fhir/concept-properties#child"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/concept-properties#child>
+     ] ;
+     fhir:description [ fhir:v "Codes des enfants du concept courant" ] ;
+     fhir:type [ fhir:v "code" ]
+  ] [
+     fhir:code [ fhir:v "imported" ] ;
+     fhir:description [ fhir:v "Indicates if the concept is imported from another code system." ] ;
+     fhir:type [ fhir:v "boolean" ]
+  ] [
+     fhir:code [ fhir:v "root" ] ;
+     fhir:description [ fhir:v "Indicates if this concept is a root concept (i.e. Thing is equivalent or a direct parent)." ] ;
+     fhir:type [ fhir:v "boolean" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+
