@@ -8,7 +8,7 @@
   },
   "language" : "fr-FR",
   "text" : {
-    "status" : "generated",
+    "status" : "extensions",
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Ce jeu de valeurs inclut tous les codes concepts issus de la terminologie ATC, url: https://smt.esante.gouv.fr/terminologie-atc, oid: urn:oid:2.16.840.1.113883.6.73</div>"
   },
   "url" : "https://smt.esante.gouv.fr/terminologie-atc?vs",
@@ -16,7 +16,7 @@
   "name" : "ValueSet_ATC_All",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-06T14:51:45+00:00",
+  "date" : "2026-03-06T19:38:26+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Ce jeu de valeurs inclut tous les codes concepts de la terminologie ATC",
   "jurisdiction" : [{

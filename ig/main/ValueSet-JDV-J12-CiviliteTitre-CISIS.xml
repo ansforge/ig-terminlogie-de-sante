@@ -9,7 +9,7 @@
   </meta>
   <language value="fr-FR"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>JDV_J12_CiviliteTitre_CISIS</h2><tt>https://mos.esante.gouv.fr/NOS/JDV_J12-CiviliteTitre-CISIS/FHIR/JDV-J12-CiviliteTitre-CISIS</tt><p>Titre civilité - CI-SIS</p></div>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>JDV_J12_CiviliteTitre_CISIS</h2><tt>https://mos.esante.gouv.fr/NOS/JDV_J12-CiviliteTitre-CISIS/FHIR/JDV-J12-CiviliteTitre-CISIS</tt><p>Titre civilité - CI-SIS</p></div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
     <valuePeriod>

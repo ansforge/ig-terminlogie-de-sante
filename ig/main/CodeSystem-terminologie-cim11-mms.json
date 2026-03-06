@@ -7,7 +7,7 @@
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "text" : {
-    "status" : "generated",
+    "status" : "extensions",
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">La Classification Internationale des Maladies (CIM) dans sa 11ème révision permet d’établir, partout dans le monde, les statistiques sanitaires. Fournissant un langage commun pour alimenter les dossiers patients électroniques, la CIM11 permet d’échanger des données médicales de manière cohérente et normalisée pour de nombreux cas d’usage (production de soins, coordination professionnelle, pilotage, et exploitation de données)</div>"
   },
   "url" : "https://smt.esante.gouv.fr/terminologie-cim11-mms",
@@ -26,7 +26,7 @@
   "title" : "Classification internationale des maladies et des problèmes de santé connexes - 11ème révision",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-06T14:51:45+00:00",
+  "date" : "2026-03-06T19:38:26+00:00",
   "publisher" : "Agence du numérique en santé",
   "description" : "La Classification Internationale des Maladies (CIM) dans sa 11ème révision permet d’établir, partout dans le monde, les statistiques sanitaires. Fournissant un langage commun pour alimenter les dossiers patients électroniques, la CIM11 permet d’échanger des données médicales de manière cohérente et normalisée pour de nombreux cas d’usage (production de soins, coordination professionnelle, pilotage, et exploitation de données)",
   "jurisdiction" : [{

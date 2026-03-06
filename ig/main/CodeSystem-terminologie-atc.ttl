@@ -18,7 +18,7 @@
      ] )
   ] ; # 
   fhir:text [
-     fhir:status [ fhir:v "generated" ] ;
+     fhir:status [ fhir:v "extensions" ] ;
      fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\">La classification ATC (anatomique, thérapeutique et chimique) classe les substances actives dans différents groupes selon l’organe ou le système sur lequel ils agissent et selon leurs propriétés thérapeutiques, pharmacologiques et chimiques.  </div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:url [

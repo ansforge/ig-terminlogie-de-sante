@@ -8,7 +8,7 @@
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">La classification ATC (anatomique, thérapeutique et chimique) classe les substances actives dans différents groupes selon l’organe ou le système sur lequel ils agissent et selon leurs propriétés thérapeutiques, pharmacologiques et chimiques.  </div>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml">La classification ATC (anatomique, thérapeutique et chimique) classe les substances actives dans différents groupes selon l’organe ou le système sur lequel ils agissent et selon leurs propriétés thérapeutiques, pharmacologiques et chimiques.  </div>
   </text>
   <url value="https://smt.esante.gouv.fr/terminologie-atc"/>
   <identifier>

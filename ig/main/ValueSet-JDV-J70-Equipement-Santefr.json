@@ -8,7 +8,7 @@
   },
   "language" : "fr-FR",
   "text" : {
-    "status" : "generated",
+    "status" : "extensions",
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>JDV_J70_Equipement_Santefr</h2><tt>https://mos.esante.gouv.fr/NOS/JDV_J70-Equipement-Santefr/FHIR/JDV-J70-Equipement-Santefr</tt><p>Equipements Santé.fr</p></div>"
   },
   "extension" : [{

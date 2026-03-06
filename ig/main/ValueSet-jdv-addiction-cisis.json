@@ -8,7 +8,7 @@
   },
   "language" : "fr-FR",
   "text" : {
-    "status" : "generated",
+    "status" : "extensions",
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>JDV Addiction CISIS</h2><tt>https://smt.esante.gouv.fr/fhir/ValueSet/jdv-addiction-cisis</tt><p>JDV Addiction CISIS</p></div>"
   },
   "extension" : [{

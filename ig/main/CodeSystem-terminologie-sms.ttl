@@ -18,7 +18,7 @@
      ] )
   ] ; # 
   fhir:text [
-     fhir:status [ fhir:v "generated" ] ;
+     fhir:status [ fhir:v "extensions" ] ;
      fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\">Le dictionnaire des substances ou SMS a été conçu par l’European Medicines Agency (EMA) dans le cadre d’une démarche qualité. Ce dictionnaire contient les substances entrant dans la composition de médicaments destinés à un humain et/ou vétérinaire.</div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:url [

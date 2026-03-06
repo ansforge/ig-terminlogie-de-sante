@@ -14,7 +14,7 @@
      fhir:lastUpdated [ fhir:v "2026-01-07T10:12:48.197+01:00"^^xsd:dateTime ]
   ] ; # 
   fhir:text [
-     fhir:status [ fhir:v "generated" ] ;
+     fhir:status [ fhir:v "extensions" ] ;
      fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem icd-o-3</b></p><a name=\"icd-o-3\"> </a><a name=\"hcicd-o-3\"> </a><p>This case-sensitive code system <code>http://terminology.hl7.org/CodeSystem/icd-o-3</code> defines codes, but no codes are represented here</p></div>"^^rdf:XMLLiteral ]
   ] ; # 
   fhir:url [
