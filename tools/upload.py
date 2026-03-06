@@ -12,6 +12,13 @@ import sys
 import urllib.request
 
 
+def fix_narrative(resource):
+    """Change text.status de 'generated' à 'extensions' pour éviter l'erreur de validation du Publisher."""
+    if "text" in resource and resource["text"].get("status") == "generated":
+        resource["text"]["status"] = "extensions"
+    return resource
+
+
 async def main():
     if len(sys.argv) >= 3:
         userName =  sys.argv[1] 
@@ -47,22 +54,22 @@ async def main():
             f = open('../input/ontoserver/TRE/'+ e_codeSystem["name"]   + "_" +  e_codeSystem["id"] + ".json", "w", encoding="utf-8") 
             try:
                 if(( CodeSystem["count"] > 3000) or (e_codeSystem["name"] == "TRE_R13_CommuneOM") or (e_codeSystem["name"] == "NUVA") or (e_codeSystem["name"] == "CISP_2") or (e_codeSystem["name"] == "Standard_terms_EDQM")  )   :
-                   
+
                     #e_codeSystemName = urllib.request.urlopen( "https://smt.esante.gouv.fr/fhir/CodeSystem/" + e_codeSystem["id"]+ "?_summary=true" ).read()
                     print ("https://smt.esante.gouv.fr/fhir/CodeSystem/" + e_codeSystem["id"]+ "?_summary=true")
                     CodeSystem["content"] = "not-present"
-                    del CodeSystem["concept"] 
-                    f.write(json.dumps(CodeSystem))  
+                    del CodeSystem["concept"]
+                    f.write(json.dumps(fix_narrative(CodeSystem)))
                 else :
-                    f.write(json.dumps(CodeSystem))                   
+                    f.write(json.dumps(fix_narrative(CodeSystem)))
             except :
                     print ("Exception " + e_codeSystem["name"])
                     if((e_codeSystem["name"] == "TRE_R13_CommuneOM"))   :
                         e_codeSystem["content"] = "not-present"
-                        f.write(json.dumps(e_codeSystem))  
+                        f.write(json.dumps(fix_narrative(e_codeSystem)))
                         print (json.dumps(e_codeSystem))
                     else :
-                        f.write(json.dumps(CodeSystem))         
+                        f.write(json.dumps(fix_narrative(CodeSystem)))         
    
 
      # Search for NamingSystem
@@ -85,7 +92,7 @@ async def main():
             ValueSet["language"] = "fr-FR"
             if(e_valueSet["id"] !="designation-use") :
                 with open('../input/ontoserver/JDV/'+ e_valueSet["name"]    + "_" +  e_valueSet["id"] + ".json", "w", encoding="utf-8") as f:
-                    f.write(json.dumps(ValueSet))       
+                    f.write(json.dumps(fix_narrative(ValueSet)))
 
  
     # Search for ConceptMap
@@ -101,10 +108,10 @@ async def main():
             
             if(e_conceptMaps["name"].startswith("Alignement"))   :
                 e_conceptMaps["content"] = "not-present"
-                if(  e_conceptMaps["id"] != "alignement-nuva-atc") : 
-                    f.write(json.dumps(e_conceptMaps))  
+                if(  e_conceptMaps["id"] != "alignement-nuva-atc") :
+                    f.write(json.dumps(fix_narrative(e_conceptMaps)))
             else :
-                f.write(json.dumps(ConceptMap))                    
+                f.write(json.dumps(fix_narrative(ConceptMap)))                    
  
 
 
