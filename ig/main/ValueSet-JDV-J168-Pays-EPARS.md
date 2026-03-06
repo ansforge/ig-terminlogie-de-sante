@@ -59,7 +59,7 @@ Expansions are not generated for retired value sets
   "meta" : {
     "versionId" : "5",
     "lastUpdated" : "2025-07-02T17:05:24.697+00:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -90,7 +90,6 @@ Expansions are not generated for retired value sets
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R20-Pays/FHIR/TRE-R20-Pays",
-      "version" : "20250328120000",
       "concept" : [{
         "code" : "99100",
         "display" : "République française"

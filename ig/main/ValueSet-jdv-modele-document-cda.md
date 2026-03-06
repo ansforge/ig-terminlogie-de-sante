@@ -54,7 +54,7 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-modele-document-cda",
   "meta" : {
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -68,7 +68,7 @@ Requête sur le SMT
   "title" : "Jdv Modele Document Cda",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-06T05:12:51+00:00",
+  "date" : "2026-03-06T14:51:45+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -86,12 +86,10 @@ Requête sur le SMT
   }],
   "compose" : {
     "include" : [{
-      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R220-ModeleDocumentCDAStructure/FHIR/TRE-R220-ModeleDocumentCDAStructure",
-      "version" : "20251029120000"
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R220-ModeleDocumentCDAStructure/FHIR/TRE-R220-ModeleDocumentCDAStructure"
     },
     {
-      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R221-ModeleDocumentCDANonStructure/FHIR/TRE-R221-ModeleDocumentCDANonStructure",
-      "version" : "20251222120000"
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R221-ModeleDocumentCDANonStructure/FHIR/TRE-R221-ModeleDocumentCDANonStructure"
     }]
   }
 }

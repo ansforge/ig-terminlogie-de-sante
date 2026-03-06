@@ -31,7 +31,7 @@ La classification ATC (anatomique, thérapeutique et chimique) classe les substa
   "meta" : {
     "versionId" : "5",
     "lastUpdated" : "2026-03-05T14:21:34.853+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "url" : "https://smt.esante.gouv.fr/terminologie-atc",
   "identifier" : [{

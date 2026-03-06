@@ -30,7 +30,7 @@ Type de prise en charge repris de la terminologie HL7 v3 ActCode (https://www.hl
   "meta" : {
     "versionId" : "5",
     "lastUpdated" : "2025-07-02T18:17:25.179+00:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",

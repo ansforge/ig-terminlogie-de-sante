@@ -57,7 +57,7 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "13",
     "lastUpdated" : "2025-12-18T16:47:47.299+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -87,7 +87,6 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R253-TypeMaternite/FHIR/TRE-R253-TypeMaternite",
-      "version" : "20231215120000",
       "concept" : [{
         "code" : "01",
         "display" : "Maternité de type 1"
@@ -107,7 +106,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R344-NiveauExpertise/FHIR/TRE-R344-NiveauExpertise",
-      "version" : "20251222120000",
       "concept" : [{
         "code" : "10",
         "display" : "Centre de référence labellisé"

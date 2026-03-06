@@ -57,7 +57,7 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "2",
     "lastUpdated" : "2026-02-23T18:17:37.998+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -87,8 +87,7 @@ Requête sur le SMT
   }],
   "compose" : {
     "include" : [{
-      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R73-ESPIC/FHIR/TRE-R73-ESPIC",
-      "version" : "20231215120000"
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R73-ESPIC/FHIR/TRE-R73-ESPIC"
     }]
   }
 }

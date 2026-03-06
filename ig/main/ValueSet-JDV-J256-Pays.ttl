@@ -13,8 +13,8 @@
      fhir:versionId [ fhir:v "8" ] ;
      fhir:lastUpdated [ fhir:v "2025-07-02T17:06:14.026+00:00"^^xsd:dateTime ] ;
      fhir:profile ( [
-       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablevalueset?version=4.0.1>
+       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
      ] )
   ] ; # 
   fhir:language [ fhir:v "fr-FR"] ; # 
@@ -65,7 +65,6 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R20-Pays/FHIR/TRE-R20-Pays"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R20-Pays/FHIR/TRE-R20-Pays>
        ] ;
-       fhir:version [ fhir:v "20250328120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "99100" ] ;
          fhir:display [ fhir:v "France" ]
@@ -720,7 +719,6 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R302-ContexteCodeComplementaire/FHIR/TRE-R302-ContexteCodeComplementaire"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R302-ContexteCodeComplementaire/FHIR/TRE-R302-ContexteCodeComplementaire>
        ] ;
-       fhir:version [ fhir:v "20240426120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "01" ] ;
          fhir:display [ fhir:v "Non renseigné" ]

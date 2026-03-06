@@ -41,7 +41,7 @@ Traduction Française
     }]
   }],
   "content" : "supplement",
-  "supplements" : "http://terminology.hl7.org/CodeSystem/v2-0066|3.0.0",
+  "supplements" : "http://terminology.hl7.org/CodeSystem/v2-0066",
   "concept" : [{
     "code" : "1",
     "designation" : [{

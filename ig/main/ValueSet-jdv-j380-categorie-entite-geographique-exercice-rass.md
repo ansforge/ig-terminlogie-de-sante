@@ -57,7 +57,7 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "3",
     "lastUpdated" : "2026-03-03T16:17:59.144+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -88,7 +88,6 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
-      "version" : "20260223120000",
       "filter" : [{
         "property" : "rass",
         "op" : "=",

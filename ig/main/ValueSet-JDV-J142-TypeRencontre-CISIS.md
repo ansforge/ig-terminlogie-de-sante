@@ -57,7 +57,7 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "4",
     "lastUpdated" : "2025-07-02T17:05:05.819+00:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -87,7 +87,6 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R304-HL7v3ActCode/FHIR/TRE-R304-HL7v3ActCode",
-      "version" : "20231215120000",
       "concept" : [{
         "code" : "IMP",
         "display" : "Hospitalisation (établissement, y compris HAD)"
@@ -115,7 +114,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R305-TypeRencontre/FHIR/TRE-R305-TypeRencontre",
-      "version" : "20231215120000",
       "concept" : [{
         "code" : "EXTERNE",
         "display" : "Acte et consultation externe (établissement)"

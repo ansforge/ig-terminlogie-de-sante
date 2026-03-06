@@ -50,7 +50,7 @@ La nomenclature européenne des dispositifs médicaux (EMDN) est la nomenclature
   "meta" : {
     "versionId" : "3",
     "lastUpdated" : "2025-03-20T13:52:13.373+00:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "url" : "https://smt.esante.gouv.fr/terminologie-emdn",
   "identifier" : [{

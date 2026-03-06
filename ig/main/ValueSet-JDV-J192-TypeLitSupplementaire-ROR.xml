@@ -5,7 +5,7 @@
   <meta>
     <versionId value="4"/>
     <lastUpdated value="2025-07-02T17:05:39.614+00:00"/>
-    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"/>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
   </meta>
   <language value="fr-FR"/>
   <text>
@@ -37,7 +37,6 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R334-TypeLitSupplementaire/FHIR/TRE-R334-TypeLitSupplementaire"/>
-      <version value="20231215120000"/>
       <concept>
         <code value="01"/>
         <display value="Mobilisé"/>

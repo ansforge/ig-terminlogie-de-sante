@@ -30,7 +30,7 @@ Sources d’information possible concernant l’installation de l’activité so
   "meta" : {
     "versionId" : "6",
     "lastUpdated" : "2026-02-23T17:57:23.228+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",

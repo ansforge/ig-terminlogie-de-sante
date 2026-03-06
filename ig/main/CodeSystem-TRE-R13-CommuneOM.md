@@ -28,7 +28,7 @@
   "meta" : {
     "versionId" : "3",
     "lastUpdated" : "2026-01-26T11:52:29.771+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"],
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"],
     "tag" : [{
       "system" : "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
       "code" : "SUBSETTED",

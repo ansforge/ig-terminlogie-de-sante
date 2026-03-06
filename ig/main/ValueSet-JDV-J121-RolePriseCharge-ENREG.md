@@ -87,7 +87,6 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge",
-      "version" : "20260202120000",
       "concept" : [{
         "code" : "307",
         "display" : "Mandataire judiciaire à la protection des majeurs (MJPM)"

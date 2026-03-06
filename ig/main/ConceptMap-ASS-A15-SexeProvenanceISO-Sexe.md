@@ -52,9 +52,7 @@ Correspondance codes TRE_R267-SexeProvenanceISO / codes TRE_R249-Sexe
   }],
   "group" : [{
     "source" : "https://mos.esante.gouv.fr/NOS/TRE_R267-SexeProvenanceISO/FHIR/TRE-R267-SexeProvenanceISO",
-    "sourceVersion" : "20231215120000",
     "target" : "https://mos.esante.gouv.fr/NOS/TRE_R249-Sexe/FHIR/TRE-R249-Sexe",
-    "targetVersion" : "20231215120000",
     "element" : [{
       "code" : "0",
       "target" : [{

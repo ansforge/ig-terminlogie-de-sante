@@ -5,7 +5,7 @@
   <meta>
     <versionId value="8.1770199823535"/>
     <lastUpdated value="2026-02-04T11:10:23.535+01:00"/>
-    <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"/>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
   </meta>
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">La Classification Internationale des Maladies (CIM) permet d’établir les statistiques sanitaires (morbi-mortalité) partout dans le monde. Elle est gérée par l’Organisation Mondiale de la Santé qui publie une mise à jour annuelle. En France l’ATIH édite et publie une version complète du volume 1 de la CIM–10 à usage PMSI. La CIM–10 est aussi utilisée pour alimenter les dossier médicaux électronique des patients.Elle est destinée à être progressivement remplacée par la CIM 11</div>

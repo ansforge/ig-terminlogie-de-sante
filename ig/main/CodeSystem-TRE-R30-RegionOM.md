@@ -32,7 +32,7 @@ Référentiel des codes régions et collectivités d’outre-mer provenant du CO
   "meta" : {
     "versionId" : "8",
     "lastUpdated" : "2026-02-24T09:12:25.930+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
   "extension" : [{

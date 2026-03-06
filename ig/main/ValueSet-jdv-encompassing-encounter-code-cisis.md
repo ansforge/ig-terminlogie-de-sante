@@ -57,7 +57,7 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "7",
     "lastUpdated" : "2026-02-23T14:58:10.957+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -88,7 +88,6 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "http://terminology.hl7.org/CodeSystem/v3-ActCode",
-      "version" : "9.0.0",
       "concept" : [{
         "code" : "AMB",
         "display" : "Ambulatoire (hors établissement)"
@@ -120,7 +119,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R305-TypeRencontre/FHIR/TRE-R305-TypeRencontre",
-      "version" : "20231215120000",
       "concept" : [{
         "code" : "EXTERNE",
         "display" : "Acte et consultation externe (établissement)"

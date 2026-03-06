@@ -13,8 +13,8 @@
      fhir:versionId [ fhir:v "5" ] ;
      fhir:lastUpdated [ fhir:v "2025-10-22T17:22:41.234+02:00"^^xsd:dateTime ] ;
      fhir:profile ( [
-       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablevalueset?version=4.0.1>
+       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
      ] )
   ] ; # 
   fhir:language [ fhir:v "fr-FR"] ; # 
@@ -66,7 +66,6 @@
          fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"^^xsd:anyURI ;
          fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis>
        ] ;
-       fhir:version [ fhir:v "202602240000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "ORG-109" ] ;
          fhir:display [ fhir:v "Caisse d'assurance de retraite et santé au travail (CARSAT)" ]
@@ -106,7 +105,6 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement>
        ] ;
-       fhir:version [ fhir:v "20260223120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "616" ] ;
          fhir:display [ fhir:v "Services de Prévention et de Santé au Travail (SPST)" ]

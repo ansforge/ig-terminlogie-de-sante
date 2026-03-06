@@ -59,7 +59,7 @@ Expansions are not generated for retired value sets
   "meta" : {
     "versionId" : "5",
     "lastUpdated" : "2025-01-06T12:43:15.591+00:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -90,7 +90,6 @@ Expansions are not generated for retired value sets
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement",
-      "version" : "20251222120000",
       "concept" : [{
         "code" : "003",
         "display" : "Angioscope"

@@ -59,7 +59,7 @@ Expansions are not generated for retired value sets
   "meta" : {
     "versionId" : "5",
     "lastUpdated" : "2025-07-08T08:43:02.203+00:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -90,7 +90,6 @@ Expansions are not generated for retired value sets
   "compose" : {
     "include" : [{
       "system" : "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
-      "version" : "3.0.0",
       "concept" : [{
         "code" : "N",
         "display" : "Normal"

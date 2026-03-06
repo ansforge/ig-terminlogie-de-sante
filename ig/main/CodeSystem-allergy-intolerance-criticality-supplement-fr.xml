@@ -20,7 +20,7 @@
     </coding>
   </jurisdiction>
   <content value="supplement"/>
-  <supplements value="http://hl7.org/fhir/allergy-intolerance-criticality|4.0.1"/>
+  <supplements value="http://hl7.org/fhir/allergy-intolerance-criticality"/>
   <concept>
     <code value="low"/>
     <designation>

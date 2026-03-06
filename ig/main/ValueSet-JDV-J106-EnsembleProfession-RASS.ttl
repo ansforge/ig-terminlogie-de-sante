@@ -13,8 +13,8 @@
      fhir:versionId [ fhir:v "5" ] ;
      fhir:lastUpdated [ fhir:v "2025-07-02T17:04:43.453+00:00"^^xsd:dateTime ] ;
      fhir:profile ( [
-       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablevalueset?version=4.0.1>
+       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
      ] )
   ] ; # 
   fhir:language [ fhir:v "fr-FR"] ; # 
@@ -65,7 +65,6 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante>
        ] ;
-       fhir:version [ fhir:v "20250328120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "10" ] ;
          fhir:display [ fhir:v "Médecin" ]
@@ -144,7 +143,6 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R95-UsagerTitre/FHIR/TRE-R95-UsagerTitre"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R95-UsagerTitre/FHIR/TRE-R95-UsagerTitre>
        ] ;
-       fhir:version [ fhir:v "20241213120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "71" ] ;
          fhir:display [ fhir:v "Ostéopathe" ]
@@ -163,7 +161,6 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R94-ProfessionSocial/FHIR/TRE-R94-ProfessionSocial"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R94-ProfessionSocial/FHIR/TRE-R94-ProfessionSocial>
        ] ;
-       fhir:version [ fhir:v "20241213120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "41" ] ;
          fhir:display [ fhir:v "Assistant de service social" ]
@@ -173,7 +170,6 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R291-AutreProfession/FHIR/TRE-R291-AutreProfession"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R291-AutreProfession/FHIR/TRE-R291-AutreProfession>
        ] ;
-       fhir:version [ fhir:v "20231215120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "99" ] ;
          fhir:display [ fhir:v "Acteur participant au système de santé caractérisé par rôle" ]

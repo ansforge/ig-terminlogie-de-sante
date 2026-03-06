@@ -13,8 +13,8 @@
      fhir:versionId [ fhir:v "8" ] ;
      fhir:lastUpdated [ fhir:v "2025-11-04T19:02:03.930+01:00"^^xsd:dateTime ] ;
      fhir:profile ( [
-       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablevalueset?version=4.0.1>
+       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
      ] )
   ] ; # 
   fhir:language [ fhir:v "fr-FR"] ; # 
@@ -65,7 +65,6 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R04-TypeSavoirFaire/FHIR/TRE-R04-TypeSavoirFaire"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R04-TypeSavoirFaire/FHIR/TRE-R04-TypeSavoirFaire>
        ] ;
-       fhir:version [ fhir:v "20251016120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "C" ] ;
          fhir:display [ fhir:v "Compétence de médecine" ]

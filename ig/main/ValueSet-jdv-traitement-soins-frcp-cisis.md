@@ -33,8 +33,6 @@ Requête sur le SMT
 
 ### Expansion
 
-No Expansion for this valueset (Unsupported Code System Version)
-
 -------
 
  Explanation of the columns that may appear on this page: 
@@ -59,7 +57,7 @@ No Expansion for this valueset (Unsupported Code System Version)
   "meta" : {
     "versionId" : "6",
     "lastUpdated" : "2026-02-23T15:00:05.823+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -108,7 +106,6 @@ No Expansion for this valueset (Unsupported Code System Version)
     },
     {
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-      "version" : "202602240000",
       "concept" : [{
         "code" : "ORG-129",
         "display" : "Oncogénétique"
@@ -120,7 +117,6 @@ No Expansion for this valueset (Unsupported Code System Version)
     },
     {
       "system" : "http://snomed.info/sct",
-      "version" : "http://snomed.info/sct/900000000000207008/version/20260301",
       "concept" : [{
         "code" : "410240006",
         "display" : "prise en charge du traitement de la douleur"

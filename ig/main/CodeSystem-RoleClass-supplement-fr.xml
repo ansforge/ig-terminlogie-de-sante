@@ -20,7 +20,7 @@
     </coding>
   </jurisdiction>
   <content value="supplement"/>
-  <supplements value="http://terminology.hl7.org/CodeSystem/v3-RoleClass|4.0.0"/>
+  <supplements value="http://terminology.hl7.org/CodeSystem/v3-RoleClass"/>
   <concept>
     <code value="INGR"/>
     <designation>

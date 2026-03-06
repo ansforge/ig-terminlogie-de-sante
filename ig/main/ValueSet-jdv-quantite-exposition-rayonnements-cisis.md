@@ -57,7 +57,7 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "7",
     "lastUpdated" : "2026-02-23T14:59:24.565+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -88,7 +88,6 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "http://dicom.nema.org/resources/ontology/DCM",
-      "version" : "2022.4.20221006",
       "concept" : [{
         "code" : "111636",
         "display" : "Dose dans l'air à l'entrée du patient (Kerma dans l'air)"

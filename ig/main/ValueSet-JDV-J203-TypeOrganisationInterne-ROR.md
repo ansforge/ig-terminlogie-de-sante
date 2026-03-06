@@ -57,7 +57,7 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "4",
     "lastUpdated" : "2025-07-02T17:05:45.315+00:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -87,7 +87,6 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R207-TypeOrganisationInterne/FHIR/TRE-R207-TypeOrganisationInterne",
-      "version" : "20231215120000",
       "concept" : [{
         "code" : "1",
         "display" : "Pôle"
@@ -107,7 +106,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R67-TypeStructure-EJ-EG/FHIR/TRE-R67-TypeStructure-EJ-EG",
-      "version" : "20231215120000",
       "concept" : [{
         "code" : "EJ",
         "display" : "Entité juridique"

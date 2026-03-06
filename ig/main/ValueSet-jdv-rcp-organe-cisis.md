@@ -33,8 +33,6 @@ Requête sur le SMT
 
 ### Expansion
 
-No Expansion for this valueset (Unsupported Code System Version)
-
 -------
 
  Explanation of the columns that may appear on this page: 
@@ -59,7 +57,7 @@ No Expansion for this valueset (Unsupported Code System Version)
   "meta" : {
     "versionId" : "5",
     "lastUpdated" : "2026-02-23T14:59:26.646+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -156,7 +154,6 @@ No Expansion for this valueset (Unsupported Code System Version)
     },
     {
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-      "version" : "202602240000",
       "concept" : [{
         "code" : "MED-237",
         "display" : "Fosses nasales, sinus, oreille moy/int"
@@ -172,7 +169,6 @@ No Expansion for this valueset (Unsupported Code System Version)
     },
     {
       "system" : "http://snomed.info/sct",
-      "version" : "http://snomed.info/sct/900000000000207008/version/20260301",
       "concept" : [{
         "code" : "57171008",
         "display" : "système hématopoïétique"

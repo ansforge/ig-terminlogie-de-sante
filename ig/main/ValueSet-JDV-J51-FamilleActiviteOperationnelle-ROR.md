@@ -59,7 +59,7 @@ No Expansion for this valueset (Unknown Code System)
   "meta" : {
     "versionId" : "2",
     "lastUpdated" : "2024-04-27T05:07:50.820+00:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -89,7 +89,6 @@ No Expansion for this valueset (Unknown Code System)
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R266-FamilleActiviteOperationnelleHorsSerafin/FHIR/TRE-R266-FamilleActiviteOperationnelleHorsSerafin",
-      "version" : "20231215120000",
       "concept" : [{
         "code" : "01",
         "display" : "Accompagnement des aidants"

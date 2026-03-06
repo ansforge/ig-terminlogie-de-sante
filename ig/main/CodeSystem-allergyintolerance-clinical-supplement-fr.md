@@ -41,7 +41,7 @@ Traduction Française
     }]
   }],
   "content" : "supplement",
-  "supplements" : "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical|1.0.1",
+  "supplements" : "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical",
   "concept" : [{
     "code" : "active",
     "designation" : [{

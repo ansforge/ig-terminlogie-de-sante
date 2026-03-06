@@ -57,7 +57,7 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "4",
     "lastUpdated" : "2025-07-02T17:05:05.374+00:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -87,7 +87,6 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass",
-      "version" : "20240426120000",
       "concept" : [{
         "code" : "PROV",
         "display" : "Professionnel de santé"

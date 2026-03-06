@@ -57,7 +57,7 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "6",
     "lastUpdated" : "2025-07-29T14:32:07.086+00:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -87,7 +87,6 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-      "version" : "202602240000",
       "concept" : [{
         "code" : "GEN-275",
         "display" : "7j"

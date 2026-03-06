@@ -57,7 +57,7 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "5",
     "lastUpdated" : "2025-07-02T17:06:07.544+00:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -87,7 +87,6 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R11-CiviliteExercice/FHIR/TRE-R11-CiviliteExercice",
-      "version" : "20231215120000",
       "concept" : [{
         "code" : "DR",
         "display" : "Docteur"

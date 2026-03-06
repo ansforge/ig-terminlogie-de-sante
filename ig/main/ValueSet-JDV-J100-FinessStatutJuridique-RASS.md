@@ -57,7 +57,7 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "3",
     "lastUpdated" : "2025-07-02T17:04:37.970+00:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -87,7 +87,6 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R72-FinessStatutJuridique/FHIR/TRE-R72-FinessStatutJuridique",
-      "version" : "20240329120000",
       "concept" : [{
         "code" : "000",
         "display" : "En cours de vérification"

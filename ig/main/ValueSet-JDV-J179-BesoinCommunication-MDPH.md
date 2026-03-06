@@ -57,7 +57,7 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "4",
     "lastUpdated" : "2025-07-02T17:05:30.880+00:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -87,7 +87,6 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R320-BesoinCommunication/FHIR/TRE-R320-BesoinCommunication",
-      "version" : "20240329120000",
       "concept" : [{
         "code" : "01",
         "display" : "Pour communiquer"
@@ -103,7 +102,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R302-ContexteCodeComplementaire/FHIR/TRE-R302-ContexteCodeComplementaire",
-      "version" : "20240426120000",
       "concept" : [{
         "code" : "02",
         "display" : "Autre"

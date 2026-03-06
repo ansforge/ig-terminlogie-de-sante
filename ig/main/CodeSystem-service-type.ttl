@@ -13,8 +13,8 @@
      fhir:versionId [ fhir:v "1" ] ;
      fhir:lastUpdated [ fhir:v "2024-05-14T14:11:18.747+00:00"^^xsd:dateTime ] ;
      fhir:profile ( [
-       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablecodesystem?version=4.0.1>
+       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
      ] )
   ] ; # 
   fhir:text [
@@ -80,8 +80,8 @@
   fhir:copyright [ fhir:v "This material derives from the HL7 Terminology (THO). THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: https://terminology.hl7.org/license"] ; # 
   fhir:caseSensitive [ fhir:v true] ; # 
   fhir:valueSet [
-     fhir:v "http://terminology.hl7.org/ValueSet/service-type|1.0.1"^^xsd:anyURI ;
-     fhir:l <http://terminology.hl7.org/ValueSet/service-type?version=1.0.1>
+     fhir:v "http://terminology.hl7.org/ValueSet/service-type"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/ValueSet/service-type>
   ] ; # 
   fhir:content [ fhir:v "complete"] ; # 
   fhir:concept ( [

@@ -20,7 +20,7 @@
     </coding>
   </jurisdiction>
   <content value="supplement"/>
-  <supplements value="http://terminology.hl7.org/CodeSystem/v3-ObservationMethod|3.0.0"/>
+  <supplements value="http://terminology.hl7.org/CodeSystem/v3-ObservationMethod"/>
   <concept>
     <code value="0001"/>
     <designation>

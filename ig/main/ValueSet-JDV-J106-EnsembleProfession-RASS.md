@@ -57,7 +57,7 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "5",
     "lastUpdated" : "2025-07-02T17:04:43.453+00:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -87,7 +87,6 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante",
-      "version" : "20250328120000",
       "concept" : [{
         "code" : "10",
         "display" : "Médecin"
@@ -187,7 +186,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R95-UsagerTitre/FHIR/TRE-R95-UsagerTitre",
-      "version" : "20241213120000",
       "concept" : [{
         "code" : "71",
         "display" : "Ostéopathe"
@@ -207,7 +205,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R94-ProfessionSocial/FHIR/TRE-R94-ProfessionSocial",
-      "version" : "20241213120000",
       "concept" : [{
         "code" : "41",
         "display" : "Assistant de service social"
@@ -215,7 +212,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R291-AutreProfession/FHIR/TRE-R291-AutreProfession",
-      "version" : "20231215120000",
       "concept" : [{
         "code" : "99",
         "display" : "Acteur participant au système de santé caractérisé par rôle"

@@ -5,7 +5,7 @@
   <meta>
     <versionId value="2"/>
     <lastUpdated value="2025-01-06T12:44:43.391+00:00"/>
-    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"/>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
   </meta>
   <language value="fr-FR"/>
   <text>
@@ -38,7 +38,6 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R81-Civilite/FHIR/TRE-R81-Civilite"/>
-      <version value="20231215120000"/>
       <concept>
         <code value="M"/>
         <display value="Monsieur"/>
@@ -50,7 +49,6 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R11-CiviliteExercice/FHIR/TRE-R11-CiviliteExercice"/>
-      <version value="20231215120000"/>
       <concept>
         <code value="DR"/>
         <display value="Docteur"/>

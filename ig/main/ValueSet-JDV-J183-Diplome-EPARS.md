@@ -57,7 +57,7 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "15",
     "lastUpdated" : "2026-02-23T18:17:26.700+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -87,7 +87,6 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R48-DiplomeEtatFrancais/FHIR/TRE-R48-DiplomeEtatFrancais",
-      "version" : "20250425120000",
       "concept" : [{
         "code" : "DE28",
         "display" : "DE Assistant de Service Social"
@@ -115,7 +114,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R58-AutreTypeDiplome/FHIR/TRE-R58-AutreTypeDiplome",
-      "version" : "20260223120000",
       "concept" : [{
         "code" : "DIP319",
         "display" : "Titre d'assistant dentaire"
@@ -291,7 +289,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R54-DiplomeUniversiteInterUniversitaire/FHIR/TRE-R54-DiplomeUniversiteInterUniversitaire",
-      "version" : "20240726120000",
       "concept" : [{
         "code" : "DIP320",
         "display" : "DU ou DIU Ostéopathe université médecine reconnu CNOM"
@@ -343,7 +340,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R56-Attestation/FHIR/TRE-R56-Attestation",
-      "version" : "20240329120000",
       "concept" : [{
         "code" : "DIP363",
         "display" : "Attestation de connaissances d'Ergothérapeute"

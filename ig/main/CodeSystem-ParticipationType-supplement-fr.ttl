@@ -36,8 +36,8 @@
   ] ) ; # 
   fhir:content [ fhir:v "supplement"] ; # 
   fhir:supplements [
-     fhir:v "http://terminology.hl7.org/CodeSystem/v3-ParticipationType|5.0.0"^^xsd:anyURI ;
-     fhir:l <http://terminology.hl7.org/CodeSystem/v3-ParticipationType?version=5.0.0>
+     fhir:v "http://terminology.hl7.org/CodeSystem/v3-ParticipationType"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/CodeSystem/v3-ParticipationType>
   ] ; # 
   fhir:concept ( [
      fhir:code [ fhir:v "ADM" ] ;

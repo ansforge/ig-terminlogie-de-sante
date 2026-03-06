@@ -33,7 +33,7 @@ Référentiel des codes départements et collectivités d’outre-mer provenant 
   "meta" : {
     "versionId" : "10",
     "lastUpdated" : "2026-02-25T15:27:34.491+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
   "extension" : [{

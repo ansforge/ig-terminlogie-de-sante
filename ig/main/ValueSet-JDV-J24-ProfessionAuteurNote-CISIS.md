@@ -57,7 +57,7 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "4",
     "lastUpdated" : "2025-07-02T17:06:10.310+00:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -87,7 +87,6 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante",
-      "version" : "20250328120000",
       "concept" : [{
         "code" : "10",
         "display" : "Médecin"
@@ -179,7 +178,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R37-TypeProfessionFonction/FHIR/TRE-R37-TypeProfessionFonction",
-      "version" : "20231215120000",
       "concept" : [{
         "code" : "08",
         "display" : "Professionnel du domaine social"

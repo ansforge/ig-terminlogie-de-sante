@@ -61,9 +61,7 @@ Pour cette association, les fichiers suivants sont également disponibles :
   "targetUri" : "https://mos.esante.gouv.fr/NOS/JDV_J183-Diplome-EPARS/FHIR/JDV-J183-Diplome-EPARS",
   "group" : [{
     "source" : "https://mos.esante.gouv.fr/NOS/TRE_R14-TypeDiplome/FHIR/TRE-R14-TypeDiplome",
-    "sourceVersion" : "20240329120000",
     "target" : "https://mos.esante.gouv.fr/NOS/TRE_R48-DiplomeEtatFrancais/FHIR/TRE-R48-DiplomeEtatFrancais",
-    "targetVersion" : "20250425120000",
     "element" : [{
       "code" : "DE",
       "target" : [{
@@ -191,9 +189,7 @@ Pour cette association, les fichiers suivants sont également disponibles :
   },
   {
     "source" : "https://mos.esante.gouv.fr/NOS/TRE_R14-TypeDiplome/FHIR/TRE-R14-TypeDiplome",
-    "sourceVersion" : "20240329120000",
     "target" : "https://mos.esante.gouv.fr/NOS/TRE_R58-AutreTypeDiplome/FHIR/TRE-R58-AutreTypeDiplome",
-    "targetVersion" : "20260223120000",
     "element" : [{
       "code" : "AU",
       "target" : [{
@@ -747,9 +743,7 @@ Pour cette association, les fichiers suivants sont également disponibles :
   },
   {
     "source" : "https://mos.esante.gouv.fr/NOS/TRE_R14-TypeDiplome/FHIR/TRE-R14-TypeDiplome",
-    "sourceVersion" : "20240329120000",
     "target" : "https://mos.esante.gouv.fr/NOS/TRE_R56-Attestation/FHIR/TRE-R56-Attestation",
-    "targetVersion" : "20240329120000",
     "element" : [{
       "code" : "ATT",
       "target" : [{
@@ -775,9 +769,7 @@ Pour cette association, les fichiers suivants sont également disponibles :
   },
   {
     "source" : "https://mos.esante.gouv.fr/NOS/TRE_R14-TypeDiplome/FHIR/TRE-R14-TypeDiplome",
-    "sourceVersion" : "20240329120000",
     "target" : "https://mos.esante.gouv.fr/NOS/TRE_R54-DiplomeUniversiteInterUniversitaire/FHIR/TRE-R54-DiplomeUniversiteInterUniversitaire",
-    "targetVersion" : "20240726120000",
     "element" : [{
       "code" : "DU",
       "target" : [{

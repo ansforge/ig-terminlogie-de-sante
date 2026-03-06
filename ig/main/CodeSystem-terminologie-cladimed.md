@@ -31,7 +31,7 @@ La classification CLADIMED décrit le domaine des produits de santé (dispositif
   "meta" : {
     "versionId" : "4.1770199709495",
     "lastUpdated" : "2026-02-04T11:08:29.495+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "url" : "https://smt.esante.gouv.fr/terminologie-cladimed",
   "identifier" : [{

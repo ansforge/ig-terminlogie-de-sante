@@ -5,7 +5,7 @@
   <meta>
     <versionId value="4"/>
     <lastUpdated value="2025-07-02T17:06:34.904+00:00"/>
-    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"/>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
   </meta>
   <language value="fr-FR"/>
   <text>
@@ -37,7 +37,6 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R269-AvailabilityStatusProvenanceOasis/FHIR/TRE-R269-AvailabilityStatusProvenanceOasis"/>
-      <version value="20231215120000"/>
       <concept>
         <code value="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved"/>
         <display value="Version à jour"/>
@@ -49,7 +48,6 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R270-AvailabilityStatus/FHIR/TRE-R270-AvailabilityStatus"/>
-      <version value="20231215120000"/>
       <concept>
         <code value="urn:asip:ci-sis:2010:StatusType:Archived"/>
         <display value="Version archivée et à jour"/>

@@ -59,7 +59,7 @@ Expansions are not generated for retired value sets
   "meta" : {
     "versionId" : "2",
     "lastUpdated" : "2025-04-01T12:14:08.132+00:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -89,7 +89,6 @@ Expansions are not generated for retired value sets
   "compose" : {
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/terminologie-cim-10",
-      "version" : "2025-01-01",
       "concept" : [{
         "code" : "E10",
         "display" : "Diabète sucré de type 1"

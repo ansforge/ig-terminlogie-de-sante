@@ -33,7 +33,7 @@ Liste des activités d’enseignement régulées organisée en 3 niveaux d’agr
   "meta" : {
     "versionId" : "2",
     "lastUpdated" : "2026-02-23T17:57:28.651+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
   "extension" : [{

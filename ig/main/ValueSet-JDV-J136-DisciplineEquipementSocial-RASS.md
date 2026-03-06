@@ -59,7 +59,7 @@ Expansions are not generated for retired value sets
   "meta" : {
     "versionId" : "6",
     "lastUpdated" : "2026-02-23T18:17:25.401+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -90,7 +90,6 @@ Expansions are not generated for retired value sets
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R280-DisciplineEquipementSocial/FHIR/TRE-R280-DisciplineEquipementSocial",
-      "version" : "20231215120000",
       "concept" : [{
         "code" : "177",
         "display" : "Section Cure Médicale (dont)"

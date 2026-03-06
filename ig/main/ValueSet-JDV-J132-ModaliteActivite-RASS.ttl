@@ -13,8 +13,8 @@
      fhir:versionId [ fhir:v "4" ] ;
      fhir:lastUpdated [ fhir:v "2025-07-02T17:04:59.909+00:00"^^xsd:dateTime ] ;
      fhir:profile ( [
-       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablevalueset?version=4.0.1>
+       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
      ] )
   ] ; # 
   fhir:language [ fhir:v "fr-FR"] ; # 
@@ -65,7 +65,6 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R275-ModaliteActivite/FHIR/TRE-R275-ModaliteActivite"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R275-ModaliteActivite/FHIR/TRE-R275-ModaliteActivite>
        ] ;
-       fhir:version [ fhir:v "20231215120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "00" ] ;
          fhir:display [ fhir:v "Pas de modalité" ]

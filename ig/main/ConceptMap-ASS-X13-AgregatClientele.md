@@ -52,9 +52,7 @@ Association d’agrégats de clientèle
   }],
   "group" : [{
     "source" : "https://mos.esante.gouv.fr/NOS/TRE_R293-AgregatClienteleNiv2/FHIR/TRE-R293-AgregatClienteleNiv2",
-    "sourceVersion" : "20231215120000",
     "target" : "https://mos.esante.gouv.fr/NOS/TRE_R294-AgregatClienteleNiv3/FHIR/TRE-R294-AgregatClienteleNiv3",
-    "targetVersion" : "20231215120000",
     "element" : [{
       "code" : "1000",
       "target" : [{

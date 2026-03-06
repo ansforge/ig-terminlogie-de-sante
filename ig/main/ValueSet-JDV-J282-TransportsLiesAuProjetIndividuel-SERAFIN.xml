@@ -5,7 +5,7 @@
   <meta>
     <versionId value="6"/>
     <lastUpdated value="2025-07-02T17:06:21.907+00:00"/>
-    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"/>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
   </meta>
   <language value="fr-FR"/>
   <text>
@@ -37,7 +37,6 @@
   <compose>
     <include>
       <system value="https://smt.esante.gouv.fr/terminologie-SERAFINPH"/>
-      <version value="2023.1.0"/>
       <concept>
         <code value="3.2.4"/>
         <display value="Transports liés au projet individuel"/>

@@ -57,7 +57,7 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "2",
     "lastUpdated" : "2025-07-01T13:32:20.162+00:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -88,7 +88,6 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour",
-      "version" : "20250521120000",
       "filter" : [{
         "property" : "status",
         "op" : "=",

@@ -57,7 +57,7 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "8",
     "lastUpdated" : "2025-12-18T16:47:50.163+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -87,7 +87,6 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R368-StatutRessource/FHIR/TRE-R368-StatutRessource",
-      "version" : "20251222120000",
       "concept" : [{
         "code" : "TERMINE",
         "display" : "Terminé"

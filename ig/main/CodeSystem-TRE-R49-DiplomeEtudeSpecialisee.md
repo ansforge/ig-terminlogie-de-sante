@@ -30,7 +30,7 @@ Diplôme d’Etudes Spécialisées
   "meta" : {
     "versionId" : "5",
     "lastUpdated" : "2025-07-02T18:18:13.236+00:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",

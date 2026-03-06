@@ -31,7 +31,7 @@ This value set defines an example set of codes of service-types.
   "meta" : {
     "versionId" : "1",
     "lastUpdated" : "2024-05-14T14:11:18.747+00:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
@@ -72,7 +72,7 @@ This value set defines an example set of codes of service-types.
   }],
   "copyright" : "This material derives from the HL7 Terminology (THO). THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: https://terminology.hl7.org/license",
   "caseSensitive" : true,
-  "valueSet" : "http://terminology.hl7.org/ValueSet/service-type|1.0.1",
+  "valueSet" : "http://terminology.hl7.org/ValueSet/service-type",
   "content" : "complete",
   "concept" : [{
     "code" : "1",

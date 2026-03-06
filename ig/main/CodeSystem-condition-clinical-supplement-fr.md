@@ -41,7 +41,7 @@ Traduction Française
     }]
   }],
   "content" : "supplement",
-  "supplements" : "http://terminology.hl7.org/CodeSystem/condition-clinical|3.0.0",
+  "supplements" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
   "concept" : [{
     "code" : "active",
     "designation" : [{

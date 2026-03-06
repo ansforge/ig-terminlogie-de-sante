@@ -57,7 +57,7 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "4",
     "lastUpdated" : "2025-07-02T17:06:34.904+00:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -87,7 +87,6 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R269-AvailabilityStatusProvenanceOasis/FHIR/TRE-R269-AvailabilityStatusProvenanceOasis",
-      "version" : "20231215120000",
       "concept" : [{
         "code" : "urn:oasis:names:tc:ebxml-regrep:StatusType:Approved",
         "display" : "Version à jour"
@@ -99,7 +98,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R270-AvailabilityStatus/FHIR/TRE-R270-AvailabilityStatus",
-      "version" : "20231215120000",
       "concept" : [{
         "code" : "urn:asip:ci-sis:2010:StatusType:Archived",
         "display" : "Version archivée et à jour"

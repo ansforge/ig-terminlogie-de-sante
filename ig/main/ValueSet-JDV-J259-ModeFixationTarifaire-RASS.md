@@ -57,7 +57,7 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "3",
     "lastUpdated" : "2025-12-18T16:47:49.579+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -87,7 +87,6 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire",
-      "version" : "20251222120000",
       "concept" : [{
         "code" : "01",
         "display" : "Etablissement Tarif Libre"

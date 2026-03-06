@@ -57,7 +57,7 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "6",
     "lastUpdated" : "2026-02-23T14:57:59.467+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -88,7 +88,6 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-      "version" : "202602240000",
       "concept" : [{
         "code" : "MED-1188",
         "display" : "Vous avez effectué un test de dépistage dans le cadre du programme de dépistage du cancer du col de l’utérus. Celui-ci est non interprétable. Cela signifie que l’analyse de votre prélèvement est non concluante ou n’a pas pu être effectuée. Nous vous recommandons vivement de consulter votre médecin ou votre sage-femme afin qu’un nouveau prélèvement puisse être refait dans un délai de 3 mois. Pour une bonne coordination, vos résultats sont envoyés aux professionnels de santé concernés par votre dépistage. Ils sont également transmis au médecin coordonnateur du centre de coordination des dépistages des cancers de votre région."

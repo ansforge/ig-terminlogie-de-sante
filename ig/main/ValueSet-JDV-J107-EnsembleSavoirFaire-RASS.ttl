@@ -65,7 +65,6 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R38-SpecialiteOrdinale/FHIR/TRE-R38-SpecialiteOrdinale"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R38-SpecialiteOrdinale/FHIR/TRE-R38-SpecialiteOrdinale>
        ] ;
-       fhir:version [ fhir:v "20240531120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "SI01" ] ;
          fhir:display [ fhir:v "Exercice infirmier en pratique avancée pathologies chroniques stabilisées (SI)" ]
@@ -381,7 +380,6 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R39-Competence/FHIR/TRE-R39-Competence"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R39-Competence/FHIR/TRE-R39-Competence>
        ] ;
-       fhir:version [ fhir:v "20240628120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "C01" ] ;
          fhir:display [ fhir:v "Anatomie et Cytologie pathologiques humaines (C)" ]
@@ -517,7 +515,6 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R40-CompetenceExclusive/FHIR/TRE-R40-CompetenceExclusive"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R40-CompetenceExclusive/FHIR/TRE-R40-CompetenceExclusive>
        ] ;
-       fhir:version [ fhir:v "20231215120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "CEX22" ] ;
          fhir:display [ fhir:v "Gynécologie médicale et Obstétrique (CEX)" ]
@@ -536,7 +533,6 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R42-DESCnonQualifiant/FHIR/TRE-R42-DESCnonQualifiant"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R42-DESCnonQualifiant/FHIR/TRE-R42-DESCnonQualifiant>
        ] ;
-       fhir:version [ fhir:v "20240628120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "DSM200" ] ;
          fhir:display [ fhir:v "Addictologie (DNQ)" ]
@@ -666,7 +662,6 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R43-CapaciteSavoirFaire/FHIR/TRE-R43-CapaciteSavoirFaire"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R43-CapaciteSavoirFaire/FHIR/TRE-R43-CapaciteSavoirFaire>
        ] ;
-       fhir:version [ fhir:v "20231215120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "CAPA01" ] ;
          fhir:display [ fhir:v "Addictologie clinique (CAPA)" ]
@@ -721,7 +716,6 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R44-QualificationPAC/FHIR/TRE-R44-QualificationPAC"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R44-QualificationPAC/FHIR/TRE-R44-QualificationPAC>
        ] ;
-       fhir:version [ fhir:v "20231215120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "PAC00" ] ;
          fhir:display [ fhir:v "Qualification Praticien adjoint contractuel (PAC)" ]
@@ -731,7 +725,6 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R45-FonctionQualifiee/FHIR/TRE-R45-FonctionQualifiee"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R45-FonctionQualifiee/FHIR/TRE-R45-FonctionQualifiee>
        ] ;
-       fhir:version [ fhir:v "20231215120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "FQ01" ] ;
          fhir:display [ fhir:v "Expérience pratique art R.5124-16 du CSP Fabricant (FQ)" ]
@@ -753,7 +746,6 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R97-DroitExerciceCompl/FHIR/TRE-R97-DroitExerciceCompl"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R97-DroitExerciceCompl/FHIR/TRE-R97-DroitExerciceCompl>
        ] ;
-       fhir:version [ fhir:v "20231215120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "DEC01" ] ;
          fhir:display [ fhir:v "Addictologie (DEC)" ]
@@ -832,7 +824,6 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_G13-OrientationParticuliere/FHIR/TRE-G13-OrientationParticuliere"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_G13-OrientationParticuliere/FHIR/TRE-G13-OrientationParticuliere>
        ] ;
-       fhir:version [ fhir:v "20231215120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "80" ] ;
          fhir:display [ fhir:v "Homéopathie" ]
@@ -845,7 +836,6 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R359-SurspecialiteTransversale/FHIR/TRE-R359-SurspecialiteTransversale"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R359-SurspecialiteTransversale/FHIR/TRE-R359-SurspecialiteTransversale>
        ] ;
-       fhir:version [ fhir:v "20251222120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "SST01" ] ;
          fhir:display [ fhir:v "Addictologie" ]
@@ -933,7 +923,6 @@
          fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r394-competence-metier"^^xsd:anyURI ;
          fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r394-competence-metier>
        ] ;
-       fhir:version [ fhir:v "20250625120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "CM0001" ] ;
          fhir:display [ fhir:v "Certificat de décès" ]

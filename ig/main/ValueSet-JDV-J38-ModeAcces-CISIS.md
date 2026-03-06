@@ -57,7 +57,7 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "6",
     "lastUpdated" : "2025-07-02T17:06:30.749+00:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -87,7 +87,6 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R248-ModeAcces/FHIR/TRE-R248-ModeAcces",
-      "version" : "20250131120000",
       "concept" : [{
         "code" : "normal",
         "display" : "Accès normal"

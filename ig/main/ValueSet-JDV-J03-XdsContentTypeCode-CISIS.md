@@ -57,7 +57,7 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "15",
     "lastUpdated" : "2026-02-23T18:17:20.165+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -87,7 +87,6 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_A00-ProducteurDocNonPS/FHIR/TRE-A00-ProducteurDocNonPS",
-      "version" : "20240329120000",
       "concept" : [{
         "code" : "EXP_PATIENT",
         "display" : "Expression personnelle du patient"
@@ -95,7 +94,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R209-TypeActivite/FHIR/TRE-R209-TypeActivite",
-      "version" : "20240223120000",
       "concept" : [{
         "code" : "03",
         "display" : "Hospitalisation complète (non compris hospitalisation de semaine)"
@@ -231,7 +229,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite",
-      "version" : "20250523120000",
       "concept" : [{
         "code" : "SA05",
         "display" : "Centre de santé"
@@ -487,7 +484,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite",
-      "version" : "20240329120000",
       "concept" : [{
         "code" : "05",
         "display" : "Hospitalisation à domicile (au domicile du patient)"

@@ -20,7 +20,7 @@
     </coding>
   </jurisdiction>
   <content value="supplement"/>
-  <supplements value="http://terminology.hl7.org/CodeSystem/condition-ver-status|2.0.1"/>
+  <supplements value="http://terminology.hl7.org/CodeSystem/condition-ver-status"/>
   <concept>
     <code value="unconfirmed"/>
     <designation>

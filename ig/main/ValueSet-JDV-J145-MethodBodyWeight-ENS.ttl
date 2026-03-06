@@ -13,8 +13,8 @@
      fhir:versionId [ fhir:v "4" ] ;
      fhir:lastUpdated [ fhir:v "2025-07-02T17:05:07.572+00:00"^^xsd:dateTime ] ;
      fhir:profile ( [
-       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablevalueset?version=4.0.1>
+       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
      ] )
   ] ; # 
   fhir:language [ fhir:v "fr-FR"] ; # 
@@ -65,7 +65,6 @@
          fhir:v "https://smt.esante.gouv.fr/terminologie-emdn"^^xsd:anyURI ;
          fhir:l <https://smt.esante.gouv.fr/terminologie-emdn>
        ] ;
-       fhir:version [ fhir:v "v1.2" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "V030210" ] ;
          fhir:display [ fhir:v "PÈSE-PERSONNES (SAUF CEUX DE NÉONATALOGIE)" ]

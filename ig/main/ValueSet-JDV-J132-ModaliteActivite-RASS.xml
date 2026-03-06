@@ -5,7 +5,7 @@
   <meta>
     <versionId value="4"/>
     <lastUpdated value="2025-07-02T17:04:59.909+00:00"/>
-    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"/>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
   </meta>
   <language value="fr-FR"/>
   <text>
@@ -37,7 +37,6 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R275-ModaliteActivite/FHIR/TRE-R275-ModaliteActivite"/>
-      <version value="20231215120000"/>
       <concept>
         <code value="00"/>
         <display value="Pas de modalité"/>

@@ -5,7 +5,7 @@
   <meta>
     <versionId value="8"/>
     <lastUpdated value="2025-11-04T19:02:07.998+01:00"/>
-    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"/>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
   </meta>
   <language value="fr-FR"/>
   <text>
@@ -37,7 +37,6 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_A00-ProducteurDocNonPS/FHIR/TRE-A00-ProducteurDocNonPS"/>
-      <version value="20240329120000"/>
       <concept>
         <code value="ALIM_AM"/>
         <display value="Alimentation automatique à partir du Système d'Information de l'Assurance Maladie"/>
@@ -61,7 +60,6 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante"/>
-      <version value="20250328120000"/>
       <concept>
         <code value="10"/>
         <display value="Médecin"/>
@@ -181,7 +179,6 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R95-UsagerTitre/FHIR/TRE-R95-UsagerTitre"/>
-      <version value="20241213120000"/>
       <concept>
         <code value="71"/>
         <display value="Ostéopathe"/>
@@ -205,7 +202,6 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R94-ProfessionSocial/FHIR/TRE-R94-ProfessionSocial"/>
-      <version value="20241213120000"/>
       <concept>
         <code value="41"/>
         <display value="Assistant de service social"/>
@@ -257,7 +253,6 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R291-AutreProfession/FHIR/TRE-R291-AutreProfession"/>
-      <version value="20231215120000"/>
       <concept>
         <code value="99"/>
         <display value="Acteur participant au système de santé caractérisé par rôle"/>
@@ -265,7 +260,6 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_G16-ProfessionFormation/FHIR/TRE-G16-ProfessionFormation"/>
-      <version value="20231215120000"/>
       <concept>
         <code value="10"/>
         <display value="Médecin en formation"/>
@@ -285,7 +279,6 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R01-EnsembleSavoirFaire-CISIS/FHIR/TRE-R01-EnsembleSavoirFaire-CISIS"/>
-      <version value="20260202120000"/>
       <concept>
         <code value="SCD01"/>
         <display value="Orthopédie dento-faciale (SCD)"/>
@@ -1361,7 +1354,6 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_G05-SousSectionTableauCNOP/FHIR/TRE-G05-SousSectionTableauCNOP"/>
-      <version value="20231215120000"/>
       <concept>
         <code value="A"/>
         <display value="Pharmacien titulaire d'officine"/>
@@ -1429,7 +1421,6 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R22-GenreActivite/FHIR/TRE-R22-GenreActivite"/>
-      <version value="20240329120000"/>
       <concept>
         <code value="GENR01"/>
         <display value="Activité de soin et de pharmacie"/>
@@ -1481,7 +1472,6 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R21-Fonction/FHIR/TRE-R21-Fonction"/>
-      <version value="20260223120000"/>
       <concept>
         <code value="FON-01"/>
         <display value="Titulaire de cabinet"/>
@@ -1649,7 +1639,6 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge"/>
-      <version value="20260202120000"/>
       <concept>
         <code value="300"/>
         <display value="Assistant de service social (PAERPA)"/>

@@ -59,7 +59,7 @@ Expansions are not generated for retired value sets
   "meta" : {
     "versionId" : "8",
     "lastUpdated" : "2025-12-18T16:47:38.914+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -90,7 +90,6 @@ Expansions are not generated for retired value sets
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R303-HL7v3AdministrativeGender/FHIR/TRE-R303-HL7v3AdministrativeGender",
-      "version" : "20231215120000",
       "concept" : [{
         "code" : "F",
         "display" : "Féminin"
@@ -102,7 +101,6 @@ Expansions are not generated for retired value sets
     },
     {
       "system" : "http://snomed.info/sct",
-      "version" : "http://snomed.info/sct/900000000000207008/version/20260301",
       "concept" : [{
         "code" : "77386006"
       }]

@@ -55,7 +55,6 @@ Correspondance entre types et classes de documents, restreinte aux codes des JDV
   "group" : [{
     "source" : "http://loinc.org",
     "target" : "https://mos.esante.gouv.fr/NOS/TRE_A03-ClasseDocument/FHIR/TRE-A03-ClasseDocument",
-    "targetVersion" : "20231215120000",
     "element" : [{
       "code" : "11369-6",
       "target" : [{
@@ -598,9 +597,7 @@ Correspondance entre types et classes de documents, restreinte aux codes des JDV
   },
   {
     "source" : "https://mos.esante.gouv.fr/NOS/TRE_A05-TypeDocComplementaire/FHIR/TRE-A05-TypeDocComplementaire",
-    "sourceVersion" : "20240329120000",
     "target" : "https://mos.esante.gouv.fr/NOS/TRE_A03-ClasseDocument/FHIR/TRE-A03-ClasseDocument",
-    "targetVersion" : "20231215120000",
     "element" : [{
       "code" : "AUTORIS-SOINS",
       "target" : [{
@@ -821,9 +818,7 @@ Correspondance entre types et classes de documents, restreinte aux codes des JDV
   },
   {
     "source" : "https://mos.esante.gouv.fr/NOS/TRE_A12-NomenclatureASTM/FHIR/TRE-A12-NomenclatureASTM",
-    "sourceVersion" : "20231215120000",
     "target" : "https://mos.esante.gouv.fr/NOS/TRE_A10-NomenclatureURN/FHIR/TRE-A10-NomenclatureURN",
-    "targetVersion" : "20231215120000",
     "element" : [{
       "code" : "E1762",
       "target" : [{

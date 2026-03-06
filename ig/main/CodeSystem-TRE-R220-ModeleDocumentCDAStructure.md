@@ -31,7 +31,7 @@ Identifiant des modèles de CDA structurés
   "meta" : {
     "versionId" : "9",
     "lastUpdated" : "2025-10-31T15:01:31.499+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",

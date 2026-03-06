@@ -30,7 +30,7 @@ Cette nomenclature donne le type de projet personnalisé qui est un document co-
   "meta" : {
     "versionId" : "1",
     "lastUpdated" : "2025-07-01T10:02:20.124+00:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",

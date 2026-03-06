@@ -59,7 +59,7 @@ No Expansion for this valueset (Unknown Code System)
   "meta" : {
     "versionId" : "6",
     "lastUpdated" : "2026-02-23T14:57:48.786+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -90,7 +90,6 @@ No Expansion for this valueset (Unknown Code System)
   "compose" : {
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-      "version" : "202602240000",
       "concept" : [{
         "code" : "GEN-092.01.13",
         "display" : "Autre(s) accident(s) domestique(s)"

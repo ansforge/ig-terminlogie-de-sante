@@ -5,7 +5,7 @@
   <meta>
     <versionId value="8"/>
     <lastUpdated value="2025-11-04T19:02:03.930+01:00"/>
-    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"/>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
   </meta>
   <language value="fr-FR"/>
   <text>
@@ -37,7 +37,6 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R04-TypeSavoirFaire/FHIR/TRE-R04-TypeSavoirFaire"/>
-      <version value="20251016120000"/>
       <concept>
         <code value="C"/>
         <display value="Compétence de médecine"/>

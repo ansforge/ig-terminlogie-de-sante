@@ -29,7 +29,7 @@ Pour le document CDA, la métadonnée XDS ‘formatCode’ est calculé à parti
   "title" : "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-06T05:12:51+00:00",
+  "date" : "2026-03-06T14:51:45+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -58,9 +58,7 @@ Pour le document CDA, la métadonnée XDS ‘formatCode’ est calculé à parti
   "targetUri" : "https://mos.esante.gouv.fr/NOS/JDV_J10-XdsFormatCode-CISIS/FHIR/JDV-J10-XdsFormatCode-CISIS",
   "group" : [{
     "source" : "https://mos.esante.gouv.fr/NOS/TRE_R220-ModeleDocumentCDAStructure/FHIR/TRE-R220-ModeleDocumentCDAStructure",
-    "sourceVersion" : "20251029120000",
     "target" : "https://mos.esante.gouv.fr/NOS/TRE_A06-FormatCodeComplementaire/FHIR/TRE-A06-FormatCodeComplementaire",
-    "targetVersion" : "20251029120000",
     "element" : [{
       "code" : "1.2.250.1.213.1.1.1.5.1",
       "target" : [{
@@ -379,9 +377,7 @@ Pour le document CDA, la métadonnée XDS ‘formatCode’ est calculé à parti
   },
   {
     "source" : "https://mos.esante.gouv.fr/NOS/TRE_R220-ModeleDocumentCDAStructure/FHIR/TRE-R220-ModeleDocumentCDAStructure",
-    "sourceVersion" : "20251029120000",
     "target" : "https://mos.esante.gouv.fr/NOS/TRE_A11-IheFormatCode/FHIR/TRE-A11-IheFormatCode",
-    "targetVersion" : "20240426120000",
     "element" : [{
       "code" : "1.2.250.1.213.1.1.1.39",
       "target" : [{
@@ -602,9 +598,7 @@ Pour le document CDA, la métadonnée XDS ‘formatCode’ est calculé à parti
   },
   {
     "source" : "https://mos.esante.gouv.fr/NOS/TRE_R221-ModeleDocumentCDANonStructure/FHIR/TRE-R221-ModeleDocumentCDANonStructure",
-    "sourceVersion" : "20251222120000",
     "target" : "https://mos.esante.gouv.fr/NOS/TRE_A11-IheFormatCode/FHIR/TRE-A11-IheFormatCode",
-    "targetVersion" : "20240426120000",
     "element" : [{
       "code" : "1.3.6.1.4.1.19376.1.2.20",
       "target" : [{

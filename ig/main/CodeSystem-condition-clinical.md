@@ -31,7 +31,7 @@ Preferred value set for Condition Clinical Status.
   "meta" : {
     "versionId" : "1",
     "lastUpdated" : "2026-01-07T10:12:48.016+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
@@ -72,7 +72,7 @@ Preferred value set for Condition Clinical Status.
   }],
   "copyright" : "This material derives from the HL7 Terminology (THO). THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: https://terminology.hl7.org/license.html",
   "caseSensitive" : true,
-  "valueSet" : "http://terminology.hl7.org/ValueSet/condition-clinical|1.0.1",
+  "valueSet" : "http://terminology.hl7.org/ValueSet/condition-clinical",
   "content" : "complete",
   "concept" : [{
     "code" : "active",

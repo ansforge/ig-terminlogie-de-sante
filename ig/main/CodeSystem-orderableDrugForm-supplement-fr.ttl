@@ -36,8 +36,8 @@
   ] ) ; # 
   fhir:content [ fhir:v "supplement"] ; # 
   fhir:supplements [
-     fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm|3.0.0"^^xsd:anyURI ;
-     fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm?version=3.0.0>
+     fhir:v "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm>
   ] ; # 
   fhir:concept ( [
      fhir:code [ fhir:v "APPFUL" ] ;

@@ -57,7 +57,7 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "7",
     "lastUpdated" : "2026-02-23T14:58:57.690+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -88,7 +88,6 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R220-ModeleDocumentCDAStructure/FHIR/TRE-R220-ModeleDocumentCDAStructure",
-      "version" : "20251029120000",
       "concept" : [{
         "code" : "1.2.250.1.213.1.1.1.2.1.1",
         "display" : "Fiche patient à risque en cardiologie - Traitement AVK"
@@ -312,7 +311,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R221-ModeleDocumentCDANonStructure/FHIR/TRE-R221-ModeleDocumentCDANonStructure",
-      "version" : "20251222120000",
       "concept" : [{
         "code" : "1.3.6.1.4.1.19376.1.2.20",
         "display" : "Modèle de document CDA non structuré"

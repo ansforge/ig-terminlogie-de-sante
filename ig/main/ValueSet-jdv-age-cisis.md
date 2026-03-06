@@ -57,7 +57,7 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "5",
     "lastUpdated" : "2026-02-23T14:57:37.941+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -88,7 +88,6 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-      "version" : "202602240000",
       "concept" : [{
         "code" : "MED-1288",
         "display" : "Aucun signe à ce jour ou porteur sain"
@@ -96,7 +95,6 @@ Requête sur le SMT
     },
     {
       "system" : "http://snomed.info/sct",
-      "version" : "http://snomed.info/sct/900000000000207008/version/20260301",
       "concept" : [{
         "code" : "255407002",
         "display" : "néonatal"

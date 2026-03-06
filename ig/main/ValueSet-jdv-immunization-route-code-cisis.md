@@ -57,7 +57,7 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "7",
     "lastUpdated" : "2026-02-23T14:58:30.740+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -88,7 +88,6 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/terminologie-standardterms",
-      "version" : "2025-03-19",
       "concept" : [{
         "code" : "20035000",
         "display" : "Voie intramusculaire"

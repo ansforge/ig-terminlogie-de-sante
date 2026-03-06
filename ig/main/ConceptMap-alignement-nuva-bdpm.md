@@ -62,8 +62,8 @@
       "code" : "FRA"
     }]
   }],
-  "sourceCanonical" : "https://smt.esante.gouv.fr/terminologie-nuva?vs|20241106120000",
-  "targetCanonical" : "https://smt.esante.gouv.fr/terminologie-bdpm?vs|20241106120000"
+  "sourceCanonical" : "https://smt.esante.gouv.fr/terminologie-nuva?vs",
+  "targetCanonical" : "https://smt.esante.gouv.fr/terminologie-bdpm?vs"
 }
 
 ```

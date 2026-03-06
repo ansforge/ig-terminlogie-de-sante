@@ -264,7 +264,7 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
   "meta" : {
     "versionId" : "8",
     "lastUpdated" : "2026-02-24T15:55:18.104+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",

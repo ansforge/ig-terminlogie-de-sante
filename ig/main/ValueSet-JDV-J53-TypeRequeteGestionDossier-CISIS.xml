@@ -5,7 +5,7 @@
   <meta>
     <versionId value="4"/>
     <lastUpdated value="2025-07-02T17:06:35.391+00:00"/>
-    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"/>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
   </meta>
   <language value="fr-FR"/>
   <text>
@@ -37,7 +37,6 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R271-TypeRequete/FHIR/TRE-R271-TypeRequete"/>
-      <version value="20231215120000"/>
       <concept>
         <code value="TEST_EXST"/>
         <display value="Test d'existence de dossier"/>

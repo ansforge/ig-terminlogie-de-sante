@@ -41,7 +41,7 @@ Traduction Française
     }]
   }],
   "content" : "supplement",
-  "supplements" : "http://hl7.org/fhir/allergy-intolerance-criticality|4.0.1",
+  "supplements" : "http://hl7.org/fhir/allergy-intolerance-criticality",
   "concept" : [{
     "code" : "low",
     "designation" : [{

@@ -57,7 +57,7 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "6",
     "lastUpdated" : "2025-12-18T16:47:40.228+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -87,7 +87,6 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/terminologie-emdn",
-      "version" : "v1.2",
       "concept" : [{
         "code" : "Z1204011501",
         "display" : "SYSTÈMES DE SURVEILLANCE NON INVASIVE DE LA GLYCÉMIE"
@@ -95,7 +94,6 @@ Requête sur le SMT
     },
     {
       "system" : "http://snomed.info/sct",
-      "version" : "http://snomed.info/sct/900000000000207008/version/20260301",
       "concept" : [{
         "code" : "82078001"
       }]

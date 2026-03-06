@@ -56,7 +56,7 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "2",
     "lastUpdated" : "2025-02-27T13:42:15.419+00:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "url" : "https://smt.esante.gouv.fr/terminologie-nuva?vs",
@@ -64,7 +64,7 @@ Requête sur le SMT
   "name" : "ValueSet_NUVA_All",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-06T05:12:51+00:00",
+  "date" : "2026-03-06T14:51:45+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Ce jeu de valeurs inclut tous les codes concepts de la terminologie NUVA",
   "jurisdiction" : [{
@@ -75,8 +75,7 @@ Requête sur le SMT
   }],
   "compose" : {
     "include" : [{
-      "system" : "https://smt.esante.gouv.fr/terminologie-nuva",
-      "version" : "1.0.1072"
+      "system" : "https://smt.esante.gouv.fr/terminologie-nuva"
     }]
   }
 }

@@ -57,7 +57,7 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "2",
     "lastUpdated" : "2026-02-23T18:17:29.207+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -88,7 +88,6 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique",
-      "version" : "20260223120000",
       "filter" : [{
         "property" : "niveau",
         "op" : "=",
@@ -97,7 +96,6 @@ Requête sur le SMT
     }],
     "exclude" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique",
-      "version" : "20260223120000",
       "filter" : [{
         "property" : "specialisationRpps",
         "op" : "=",

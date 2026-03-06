@@ -13,8 +13,8 @@
      fhir:versionId [ fhir:v "8" ] ;
      fhir:lastUpdated [ fhir:v "2025-11-04T19:02:07.998+01:00"^^xsd:dateTime ] ;
      fhir:profile ( [
-       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablevalueset?version=4.0.1>
+       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
      ] )
   ] ; # 
   fhir:language [ fhir:v "fr-FR"] ; # 
@@ -65,7 +65,6 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_A00-ProducteurDocNonPS/FHIR/TRE-A00-ProducteurDocNonPS"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_A00-ProducteurDocNonPS/FHIR/TRE-A00-ProducteurDocNonPS>
        ] ;
-       fhir:version [ fhir:v "20240329120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "ALIM_AM" ] ;
          fhir:display [ fhir:v "Alimentation automatique à partir du Système d'Information de l'Assurance Maladie" ]
@@ -87,7 +86,6 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante>
        ] ;
-       fhir:version [ fhir:v "20250328120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "10" ] ;
          fhir:display [ fhir:v "Médecin" ]
@@ -181,7 +179,6 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R95-UsagerTitre/FHIR/TRE-R95-UsagerTitre"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R95-UsagerTitre/FHIR/TRE-R95-UsagerTitre>
        ] ;
-       fhir:version [ fhir:v "20241213120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "71" ] ;
          fhir:display [ fhir:v "Ostéopathe" ]
@@ -203,7 +200,6 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R94-ProfessionSocial/FHIR/TRE-R94-ProfessionSocial"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R94-ProfessionSocial/FHIR/TRE-R94-ProfessionSocial>
        ] ;
-       fhir:version [ fhir:v "20241213120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "41" ] ;
          fhir:display [ fhir:v "Assistant de service social" ]
@@ -246,7 +242,6 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R291-AutreProfession/FHIR/TRE-R291-AutreProfession"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R291-AutreProfession/FHIR/TRE-R291-AutreProfession>
        ] ;
-       fhir:version [ fhir:v "20231215120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "99" ] ;
          fhir:display [ fhir:v "Acteur participant au système de santé caractérisé par rôle" ]
@@ -256,7 +251,6 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_G16-ProfessionFormation/FHIR/TRE-G16-ProfessionFormation"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_G16-ProfessionFormation/FHIR/TRE-G16-ProfessionFormation>
        ] ;
-       fhir:version [ fhir:v "20231215120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "10" ] ;
          fhir:display [ fhir:v "Médecin en formation" ]
@@ -275,7 +269,6 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R01-EnsembleSavoirFaire-CISIS/FHIR/TRE-R01-EnsembleSavoirFaire-CISIS"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R01-EnsembleSavoirFaire-CISIS/FHIR/TRE-R01-EnsembleSavoirFaire-CISIS>
        ] ;
-       fhir:version [ fhir:v "20260202120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "SCD01" ] ;
          fhir:display [ fhir:v "Orthopédie dento-faciale (SCD)" ]
@@ -1086,7 +1079,6 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_G05-SousSectionTableauCNOP/FHIR/TRE-G05-SousSectionTableauCNOP"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_G05-SousSectionTableauCNOP/FHIR/TRE-G05-SousSectionTableauCNOP>
        ] ;
-       fhir:version [ fhir:v "20231215120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "A" ] ;
          fhir:display [ fhir:v "Pharmacien titulaire d'officine" ]
@@ -1141,7 +1133,6 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R22-GenreActivite/FHIR/TRE-R22-GenreActivite"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R22-GenreActivite/FHIR/TRE-R22-GenreActivite>
        ] ;
-       fhir:version [ fhir:v "20240329120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "GENR01" ] ;
          fhir:display [ fhir:v "Activité de soin et de pharmacie" ]
@@ -1184,7 +1175,6 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R21-Fonction/FHIR/TRE-R21-Fonction"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R21-Fonction/FHIR/TRE-R21-Fonction>
        ] ;
-       fhir:version [ fhir:v "20260223120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "FON-01" ] ;
          fhir:display [ fhir:v "Titulaire de cabinet" ]
@@ -1314,7 +1304,6 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge>
        ] ;
-       fhir:version [ fhir:v "20260202120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "300" ] ;
          fhir:display [ fhir:v "Assistant de service social (PAERPA)" ]

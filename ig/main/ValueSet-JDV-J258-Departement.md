@@ -57,7 +57,7 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "5",
     "lastUpdated" : "2025-07-02T17:06:15.261+00:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -87,7 +87,6 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_G09-DepartementOM/FHIR/TRE-G09-DepartementOM",
-      "version" : "20240628120000",
       "concept" : [{
         "code" : "01",
         "display" : "Ain (01)"

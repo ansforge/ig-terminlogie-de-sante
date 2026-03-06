@@ -5,7 +5,7 @@
   <meta>
     <versionId value="2"/>
     <lastUpdated value="2025-07-02T17:06:17.936+00:00"/>
-    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"/>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
   </meta>
   <language value="fr-FR"/>
   <text>
@@ -37,7 +37,6 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass"/>
-      <version value="20240426120000"/>
       <concept>
         <code value="GUARD"/>
         <display value="Responsable légal"/>
@@ -61,7 +60,6 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R259-HL7ParticipationFunction/FHIR/TRE-R259-HL7ParticipationFunction"/>
-      <version value="20231215120000"/>
       <concept>
         <code value="PCP"/>
         <display value="Médecin traitant"/>

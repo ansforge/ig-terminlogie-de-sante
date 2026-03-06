@@ -57,7 +57,7 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "1",
     "lastUpdated" : "2026-02-03T10:17:55.154+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -88,14 +88,12 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge",
-      "version" : "20260202120000",
       "concept" : [{
         "code" : "307"
       }]
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_A01-CadreExercice/FHIR/TRE-A01-CadreExercice",
-      "version" : "20240927120000",
       "concept" : [{
         "code" : "ESSMS"
       }]

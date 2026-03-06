@@ -59,7 +59,7 @@ Expansions are not generated for retired value sets
   "meta" : {
     "versionId" : "7",
     "lastUpdated" : "2025-07-02T17:06:33.556+00:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -90,7 +90,6 @@ Expansions are not generated for retired value sets
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R95-UsagerTitre/FHIR/TRE-R95-UsagerTitre",
-      "version" : "20241213120000",
       "concept" : [{
         "code" : "71",
         "display" : "Ostéopathe"
@@ -114,7 +113,6 @@ Expansions are not generated for retired value sets
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R94-ProfessionSocial/FHIR/TRE-R94-ProfessionSocial",
-      "version" : "20241213120000",
       "concept" : [{
         "code" : "41",
         "display" : "Assistant de service social"
@@ -166,7 +164,6 @@ Expansions are not generated for retired value sets
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge",
-      "version" : "20260202120000",
       "concept" : [{
         "code" : "300",
         "display" : "Assistant de service social (PAERPA)"

@@ -5,7 +5,7 @@
   <meta>
     <versionId value="4"/>
     <lastUpdated value="2025-07-02T17:06:01.750+00:00"/>
-    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"/>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
   </meta>
   <language value="fr-FR"/>
   <text>
@@ -37,7 +37,6 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R22-GenreActivite/FHIR/TRE-R22-GenreActivite"/>
-      <version value="20240329120000"/>
       <concept>
         <code value="GENR01"/>
         <display value="Activité de soin et de pharmacie"/>

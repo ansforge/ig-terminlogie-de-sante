@@ -57,7 +57,7 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "8",
     "lastUpdated" : "2025-07-02T17:06:14.026+00:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -87,7 +87,6 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R20-Pays/FHIR/TRE-R20-Pays",
-      "version" : "20250328120000",
       "concept" : [{
         "code" : "99100",
         "display" : "France"
@@ -955,7 +954,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R302-ContexteCodeComplementaire/FHIR/TRE-R302-ContexteCodeComplementaire",
-      "version" : "20240426120000",
       "concept" : [{
         "code" : "01",
         "display" : "Non renseigné"

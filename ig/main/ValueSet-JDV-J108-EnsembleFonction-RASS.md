@@ -57,7 +57,7 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "21",
     "lastUpdated" : "2026-02-23T18:17:23.504+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -87,7 +87,6 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R21-Fonction/FHIR/TRE-R21-Fonction",
-      "version" : "20260223120000",
       "concept" : [{
         "code" : "FON-01",
         "display" : "Titulaire de cabinet"
@@ -271,7 +270,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R96-AutreFonctionSanitaire/FHIR/TRE-R96-AutreFonctionSanitaire",
-      "version" : "20231215120000",
       "concept" : [{
         "code" : "407",
         "display" : "Tatoueur"
@@ -287,7 +285,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge",
-      "version" : "20260202120000",
       "concept" : [{
         "code" : "300",
         "display" : "Assistant de service social (PAERPA)"

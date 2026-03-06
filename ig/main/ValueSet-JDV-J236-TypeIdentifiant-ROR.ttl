@@ -13,8 +13,8 @@
      fhir:versionId [ fhir:v "4" ] ;
      fhir:lastUpdated [ fhir:v "2025-07-02T17:06:03.010+00:00"^^xsd:dateTime ] ;
      fhir:profile ( [
-       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablevalueset?version=4.0.1>
+       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
      ] )
   ] ; # 
   fhir:language [ fhir:v "fr-FR"] ; # 
@@ -65,7 +65,6 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R345-TypeIdentifiantAutre/FHIR/TRE-R345-TypeIdentifiantAutre"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R345-TypeIdentifiantAutre/FHIR/TRE-R345-TypeIdentifiantAutre>
        ] ;
-       fhir:version [ fhir:v "20240329120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "42" ] ;
          fhir:display [ fhir:v "Identifiant fonctionnel de l'OI connu par l'instance ROR" ]
@@ -78,7 +77,6 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R355-TypeIdentifiantOffre/FHIR/TRE-R355-TypeIdentifiantOffre"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R355-TypeIdentifiantOffre/FHIR/TRE-R355-TypeIdentifiantOffre>
        ] ;
-       fhir:version [ fhir:v "20240329120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "35" ] ;
          fhir:display [ fhir:v "Identifiant fonctionnel de l'offre connu par l'instance ROR" ]
@@ -91,7 +89,6 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R354-TypeIdentifiantRessourceOperationnelle/FHIR/TRE-R354-TypeIdentifiantRessourceOperationnelle"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R354-TypeIdentifiantRessourceOperationnelle/FHIR/TRE-R354-TypeIdentifiantRessourceOperationnelle>
        ] ;
-       fhir:version [ fhir:v "20240329120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "25" ] ;
          fhir:display [ fhir:v "Identifiant du lieu de réalisation de l'offre connu par l'instance ROR" ]
@@ -104,7 +101,6 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_G08-TypeIdentifiantPersonne/FHIR/TRE-G08-TypeIdentifiantPersonne"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_G08-TypeIdentifiantPersonne/FHIR/TRE-G08-TypeIdentifiantPersonne>
        ] ;
-       fhir:version [ fhir:v "20240329120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "30" ] ;
          fhir:display [ fhir:v "Identifiant de la situation opérationnelle connu par l'instance ROR" ]
@@ -114,7 +110,6 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_G07-TypeIdentifiantStructure/FHIR/TRE-G07-TypeIdentifiantStructure"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_G07-TypeIdentifiantStructure/FHIR/TRE-G07-TypeIdentifiantStructure>
        ] ;
-       fhir:version [ fhir:v "20240329120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "40" ] ;
          fhir:display [ fhir:v "Identifiant national de structure" ]

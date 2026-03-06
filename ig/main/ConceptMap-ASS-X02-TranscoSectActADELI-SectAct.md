@@ -52,9 +52,7 @@ Transco Secteur d’activité ADELI vers Secteur d’activité
   }],
   "group" : [{
     "source" : "https://mos.esante.gouv.fr/NOS/TRE_G19-SecteurActiviteADELI/FHIR/TRE-G19-SecteurActiviteADELI",
-    "sourceVersion" : "20250523120000",
     "target" : "https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite",
-    "targetVersion" : "20250523120000",
     "element" : [{
       "code" : "10",
       "target" : [{

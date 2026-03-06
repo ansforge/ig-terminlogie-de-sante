@@ -60,9 +60,7 @@ Pour cette association, les fichiers suivants sont également disponibles :
   }],
   "group" : [{
     "source" : "https://mos.esante.gouv.fr/NOS/TRE_R357-StatutPersonnePriseCharge/FHIR/TRE-R357-StatutPersonnePriseCharge",
-    "sourceVersion" : "20231215120000",
     "target" : "https://mos.esante.gouv.fr/NOS/TRE_R358-MotifStatutPersonnePriseCharge/FHIR/TRE-R358-MotifStatutPersonnePriseCharge",
-    "targetVersion" : "20231215120000",
     "element" : [{
       "code" : "181",
       "target" : [{

@@ -5,7 +5,7 @@
   <meta>
     <versionId value="10"/>
     <lastUpdated value="2025-07-02T17:06:28.929+00:00"/>
-    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"/>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
   </meta>
   <language value="fr-FR"/>
   <text>
@@ -37,7 +37,6 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R245-SpecialisationDePriseEnCharge/FHIR/TRE-R245-SpecialisationDePriseEnCharge"/>
-      <version value="20250425120000"/>
       <concept>
         <code value="01"/>
         <display value="Troubles des conduites alimentaires (TCA)"/>
@@ -301,7 +300,6 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle"/>
-      <version value="20251222120000"/>
       <concept>
         <code value="068"/>
         <display value="Troubles cognitifs ou du comportement et de la relation affective dus à une lésion cérébrale acquise"/>

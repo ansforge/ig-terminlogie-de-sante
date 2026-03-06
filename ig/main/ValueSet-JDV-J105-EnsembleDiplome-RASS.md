@@ -57,7 +57,7 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "19",
     "lastUpdated" : "2026-02-23T18:17:22.984+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -87,7 +87,6 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R54-DiplomeUniversiteInterUniversitaire/FHIR/TRE-R54-DiplomeUniversiteInterUniversitaire",
-      "version" : "20240726120000",
       "concept" : [{
         "code" : "DIP02",
         "display" : "Doctorat de 3ème cycle sciences Odontologiques"
@@ -843,7 +842,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R58-AutreTypeDiplome/FHIR/TRE-R58-AutreTypeDiplome",
-      "version" : "20260223120000",
       "concept" : [{
         "code" : "DIP03",
         "display" : "Diplôme d'habilitation à diriger des recherches"
@@ -1211,7 +1209,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R55-CertificatEtudeSpeciale/FHIR/TRE-R55-CertificatEtudeSpeciale",
-      "version" : "20231215120000",
       "concept" : [{
         "code" : "CESC01",
         "display" : "CES Biologie de la bouche, option Histo-embryologique"
@@ -1419,7 +1416,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R56-Attestation/FHIR/TRE-R56-Attestation",
-      "version" : "20240329120000",
       "concept" : [{
         "code" : "DIP24",
         "display" : "Attestation études Léprologie"
@@ -1487,7 +1483,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R57-DiplomeEuropeenEtudeSpecialisee/FHIR/TRE-R57-DiplomeEuropeenEtudeSpecialisee",
-      "version" : "20231215120000",
       "concept" : [{
         "code" : "DIP94",
         "display" : "DEES Allergologie"
@@ -1811,7 +1806,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R226-Dip2iemeCycleNQ/FHIR/TRE-R226-Dip2iemeCycleNQ",
-      "version" : "20231215120000",
       "concept" : [{
         "code" : "DFASO",
         "display" : "Dip de Formation approfondie Sc odontologiques"
@@ -1823,7 +1817,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R36-AutreDiplomeObtenu/FHIR/TRE-R36-AutreDiplomeObtenu",
-      "version" : "20231215120000",
       "concept" : [{
         "code" : "AUT001",
         "display" : "Diplôme Université Kabul (Afghanistan)"
@@ -2195,7 +2188,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R48-DiplomeEtatFrancais/FHIR/TRE-R48-DiplomeEtatFrancais",
-      "version" : "20250425120000",
       "concept" : [{
         "code" : "DE01",
         "display" : "DE Pharmacien"
@@ -2323,7 +2315,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R49-DiplomeEtudeSpecialisee/FHIR/TRE-R49-DiplomeEtudeSpecialisee",
-      "version" : "20240531120000",
       "concept" : [{
         "code" : "DSD01",
         "display" : "DES Orthopédie Dento-Faciale"
@@ -2783,7 +2774,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R50-DESCGroupe1Diplome/FHIR/TRE-R50-DESCGroupe1Diplome",
-      "version" : "20231215120000",
       "concept" : [{
         "code" : "DSM200",
         "display" : "Addictologie"
@@ -2963,7 +2953,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R51-DESCGroupe2Diplome/FHIR/TRE-R51-DESCGroupe2Diplome",
-      "version" : "20231215120000",
       "concept" : [{
         "code" : "DSM400",
         "display" : "DESC2 Chirurgie infantile"
@@ -3015,7 +3004,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R52-CapaciteDiplome/FHIR/TRE-R52-CapaciteDiplome",
-      "version" : "20231215120000",
       "concept" : [{
         "code" : "CAPA01",
         "display" : "Addictologie clinique"
@@ -3087,7 +3075,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R53-DiplomePaysEEE/FHIR/TRE-R53-DiplomePaysEEE",
-      "version" : "20231215120000",
       "concept" : [{
         "code" : "DE80",
         "display" : "Diplôme éq d'un pays de l'EEE profession Médecin"
@@ -3123,7 +3110,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R348-FormationSpecialiseeTransversale/FHIR/TRE-R348-FormationSpecialiseeTransversale",
-      "version" : "20251222120000",
       "concept" : [{
         "code" : "FST01",
         "display" : "FST Addictologie"

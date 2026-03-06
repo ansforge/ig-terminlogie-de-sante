@@ -57,7 +57,7 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "7",
     "lastUpdated" : "2026-02-23T15:00:34.631+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -88,7 +88,6 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_A00-ProducteurDocNonPS/FHIR/TRE-A00-ProducteurDocNonPS",
-      "version" : "20240329120000",
       "concept" : [{
         "code" : "ALIM_AM",
         "display" : "Alimentation auto à partir du SI de l'Ass Maladie"

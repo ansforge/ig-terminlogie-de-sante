@@ -31,7 +31,7 @@ Catégorie d’organisation
   "meta" : {
     "versionId" : "27",
     "lastUpdated" : "2026-02-23T17:57:22.131+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",

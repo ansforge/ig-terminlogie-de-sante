@@ -57,7 +57,7 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "3",
     "lastUpdated" : "2025-07-02T17:06:53.567+00:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -87,7 +87,6 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R223-NatCycleForm/FHIR/TRE-R223-NatCycleForm",
-      "version" : "20231215120000",
       "concept" : [{
         "code" : "C2",
         "display" : "2ième cycle"

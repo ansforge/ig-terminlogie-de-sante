@@ -57,7 +57,7 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "1",
     "lastUpdated" : "2026-02-03T10:17:54.692+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -88,7 +88,6 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise",
-      "version" : "20260202120000",
       "filter" : [{
         "property" : "status",
         "op" : "=",

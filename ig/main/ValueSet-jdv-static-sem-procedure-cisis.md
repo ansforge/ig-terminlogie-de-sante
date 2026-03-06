@@ -59,7 +59,7 @@ No Expansion for this valueset (Unknown Code System)
   "meta" : {
     "versionId" : "5",
     "lastUpdated" : "2026-02-23T14:59:55.717+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -97,7 +97,6 @@ No Expansion for this valueset (Unknown Code System)
     },
     {
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-      "version" : "202602240000",
       "concept" : [{
         "code" : "GEN-092.04.13",
         "display" : "Autre acte"
@@ -105,7 +104,6 @@ No Expansion for this valueset (Unknown Code System)
     },
     {
       "system" : "http://snomed.info/sct",
-      "version" : "http://snomed.info/sct/900000000000207008/version/20260301",
       "concept" : [{
         "code" : "275977009",
         "display" : "test néonatal de 14 maladies congénitales"

@@ -54,9 +54,7 @@ Correspondance entre un type d’évènement et le flux standardisé corresponda
   "targetUri" : "https://mos.esante.gouv.fr/NOS/TRE_R255-FluxStandardise/FHIR/TRE-R255-FluxStandardise?vs",
   "group" : [{
     "source" : "https://mos.esante.gouv.fr/NOS/TRE_R254-TypeEvenement/FHIR/TRE-R254-TypeEvenement",
-    "sourceVersion" : "20240329120000",
     "target" : "https://mos.esante.gouv.fr/NOS/TRE_R255-FluxStandardise/FHIR/TRE-R255-FluxStandardise",
-    "targetVersion" : "20231215120000",
     "element" : [{
       "code" : "DOC",
       "target" : [{

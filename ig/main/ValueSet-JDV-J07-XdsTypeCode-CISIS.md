@@ -87,7 +87,6 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_A05-TypeDocComplementaire/FHIR/TRE-A05-TypeDocComplementaire",
-      "version" : "20240329120000",
       "concept" : [{
         "code" : "ATTEST-ASS-COMPL",
         "display" : "Attestation assurance complémentaire"
@@ -570,7 +569,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_A12-NomenclatureASTM/FHIR/TRE-A12-NomenclatureASTM",
-      "version" : "20231215120000",
       "concept" : [{
         "code" : "E1762",
         "display" : "Full Document"

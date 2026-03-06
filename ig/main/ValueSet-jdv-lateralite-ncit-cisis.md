@@ -59,7 +59,7 @@ No Expansion for this valueset (Unknown Code System)
   "meta" : {
     "versionId" : "5",
     "lastUpdated" : "2025-10-29T10:44:06.158+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{

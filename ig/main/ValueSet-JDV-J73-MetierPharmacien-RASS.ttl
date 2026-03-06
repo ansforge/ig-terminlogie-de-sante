@@ -13,8 +13,8 @@
      fhir:versionId [ fhir:v "4" ] ;
      fhir:lastUpdated [ fhir:v "2025-07-02T17:06:46.260+00:00"^^xsd:dateTime ] ;
      fhir:profile ( [
-       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablevalueset?version=4.0.1>
+       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
      ] )
   ] ; # 
   fhir:language [ fhir:v "fr-FR"] ; # 
@@ -65,7 +65,6 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R06-SectionTableauCNOP/FHIR/TRE-R06-SectionTableauCNOP"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R06-SectionTableauCNOP/FHIR/TRE-R06-SectionTableauCNOP>
        ] ;
-       fhir:version [ fhir:v "20231215120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "A" ] ;
          fhir:display [ fhir:v "Pharmacien titulaire d'officine" ]
@@ -87,7 +86,6 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_G05-SousSectionTableauCNOP/FHIR/TRE-G05-SousSectionTableauCNOP"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_G05-SousSectionTableauCNOP/FHIR/TRE-G05-SousSectionTableauCNOP>
        ] ;
-       fhir:version [ fhir:v "20231215120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "DA" ] ;
          fhir:display [ fhir:v "Pharmacien adjoint" ]
@@ -118,7 +116,6 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R06-SectionTableauCNOP/FHIR/TRE-R06-SectionTableauCNOP"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R06-SectionTableauCNOP/FHIR/TRE-R06-SectionTableauCNOP>
        ] ;
-       fhir:version [ fhir:v "20231215120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "G" ] ;
          fhir:display [ fhir:v "Pharmacien biologiste" ]

@@ -13,8 +13,8 @@
      fhir:versionId [ fhir:v "4" ] ;
      fhir:lastUpdated [ fhir:v "2025-07-02T17:06:34.904+00:00"^^xsd:dateTime ] ;
      fhir:profile ( [
-       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablevalueset?version=4.0.1>
+       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
      ] )
   ] ; # 
   fhir:language [ fhir:v "fr-FR"] ; # 
@@ -65,7 +65,6 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R269-AvailabilityStatusProvenanceOasis/FHIR/TRE-R269-AvailabilityStatusProvenanceOasis"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R269-AvailabilityStatusProvenanceOasis/FHIR/TRE-R269-AvailabilityStatusProvenanceOasis>
        ] ;
-       fhir:version [ fhir:v "20231215120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "urn:oasis:names:tc:ebxml-regrep:StatusType:Approved" ] ;
          fhir:display [ fhir:v "Version à jour" ]
@@ -78,7 +77,6 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R270-AvailabilityStatus/FHIR/TRE-R270-AvailabilityStatus"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R270-AvailabilityStatus/FHIR/TRE-R270-AvailabilityStatus>
        ] ;
-       fhir:version [ fhir:v "20231215120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "urn:asip:ci-sis:2010:StatusType:Archived" ] ;
          fhir:display [ fhir:v "Version archivée et à jour" ]

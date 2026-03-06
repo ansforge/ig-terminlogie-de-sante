@@ -54,9 +54,7 @@ Table d’association Mode d’exercice / Type d’activité pour permettre la s
   "targetUri" : "https://mos.esante.gouv.fr/NOS/JDV_J119-TypeActiviteLiberale-ENREG/FHIR/JDV-J119-TypeActiviteLiberale-ENREG",
   "group" : [{
     "source" : "https://mos.esante.gouv.fr/NOS/TRE_R23-ModeExercice/FHIR/TRE-R23-ModeExercice",
-    "sourceVersion" : "20260202120000",
     "target" : "https://mos.esante.gouv.fr/NOS/TRE_R24-TypeActiviteLiberale/FHIR/TRE-R24-TypeActiviteLiberale",
-    "targetVersion" : "20231215120000",
     "element" : [{
       "code" : "L",
       "target" : [{

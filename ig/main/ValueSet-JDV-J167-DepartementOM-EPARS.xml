@@ -5,7 +5,7 @@
   <meta>
     <versionId value="5"/>
     <lastUpdated value="2025-07-02T17:05:23.869+00:00"/>
-    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"/>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
   </meta>
   <language value="fr-FR"/>
   <text>
@@ -38,7 +38,6 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_G09-DepartementOM/FHIR/TRE-G09-DepartementOM"/>
-      <version value="20240628120000"/>
       <concept>
         <code value="01"/>
         <display value="Ain"/>

@@ -57,7 +57,7 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "8",
     "lastUpdated" : "2025-07-02T17:06:33.043+00:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -87,7 +87,6 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R258-RelationPriseCharge/FHIR/TRE-R258-RelationPriseCharge",
-      "version" : "20250523120000",
       "concept" : [{
         "code" : "CORRE",
         "display" : "Correspondant"
@@ -127,7 +126,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R259-HL7ParticipationFunction/FHIR/TRE-R259-HL7ParticipationFunction",
-      "version" : "20231215120000",
       "concept" : [{
         "code" : "ADMPHYS",
         "display" : "Responsable de l'admission"
@@ -147,7 +145,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge",
-      "version" : "20260202120000",
       "concept" : [{
         "code" : "330",
         "display" : "Coordonnateur de parcours"

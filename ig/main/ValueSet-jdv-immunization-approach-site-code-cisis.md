@@ -33,8 +33,6 @@ Requête sur le SMT
 
 ### Expansion
 
-No Expansion for this valueset (Unsupported Code System Version)
-
 -------
 
  Explanation of the columns that may appear on this page: 
@@ -59,7 +57,7 @@ No Expansion for this valueset (Unsupported Code System Version)
   "meta" : {
     "versionId" : "7",
     "lastUpdated" : "2026-02-23T14:58:30.178+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -90,7 +88,6 @@ No Expansion for this valueset (Unsupported Code System Version)
   "compose" : {
     "include" : [{
       "system" : "http://snomed.info/sct",
-      "version" : "http://snomed.info/sct/900000000000207008/version/20260301",
       "concept" : [{
         "code" : "64262003",
         "display" : "avant-bras droit"

@@ -57,7 +57,7 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "3",
     "lastUpdated" : "2024-06-28T16:09:45.842+00:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -86,7 +86,6 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R13-CommuneOM/FHIR/TRE-R13-CommuneOM",
-      "version" : "20250328120000",
       "filter" : [{
         "property" : "dateFin",
         "op" : "exists",

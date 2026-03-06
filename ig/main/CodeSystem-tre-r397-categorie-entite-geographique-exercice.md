@@ -35,7 +35,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
   "meta" : {
     "versionId" : "2",
     "lastUpdated" : "2026-02-23T17:57:25.587+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
   "extension" : [{

@@ -57,7 +57,7 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "6",
     "lastUpdated" : "2025-07-02T17:05:23.134+00:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -87,7 +87,6 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante",
-      "version" : "20250328120000",
       "concept" : [{
         "code" : "26",
         "display" : "Audioprothésiste"
@@ -107,7 +106,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R94-ProfessionSocial/FHIR/TRE-R94-ProfessionSocial",
-      "version" : "20241213120000",
       "concept" : [{
         "code" : "41",
         "display" : "Assistant de service social"
@@ -115,7 +113,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R95-UsagerTitre/FHIR/TRE-R95-UsagerTitre",
-      "version" : "20241213120000",
       "concept" : [{
         "code" : "71",
         "display" : "Ostéopathe"
@@ -131,7 +128,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante",
-      "version" : "20250328120000",
       "concept" : [{
         "code" : "81",
         "display" : "Orthoprothésiste"
@@ -167,7 +163,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R95-UsagerTitre/FHIR/TRE-R95-UsagerTitre",
-      "version" : "20241213120000",
       "concept" : [{
         "code" : "93",
         "display" : "Psychologue"
@@ -175,7 +170,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante",
-      "version" : "20250328120000",
       "concept" : [{
         "code" : "94",
         "display" : "Ergothérapeute"

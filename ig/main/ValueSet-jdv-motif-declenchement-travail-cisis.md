@@ -57,7 +57,7 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "5",
     "lastUpdated" : "2026-02-23T14:59:02.418+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -107,7 +107,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-      "version" : "202602240000",
       "concept" : [{
         "code" : "MED-1283",
         "display" : "Sans indication médicale"

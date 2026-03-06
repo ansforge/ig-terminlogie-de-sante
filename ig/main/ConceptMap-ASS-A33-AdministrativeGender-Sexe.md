@@ -54,9 +54,7 @@ Correspondance entre le JDV sexe du NOS et le JDV administrative gender de FHIR 
   "targetUri" : "http://hl7.org/fhir/ValueSet/administrative-gender",
   "group" : [{
     "source" : "https://mos.esante.gouv.fr/NOS/TRE_R249-Sexe/FHIR/TRE-R249-Sexe",
-    "sourceVersion" : "20231215120000",
     "target" : "http://hl7.org/fhir/administrative-gender",
-    "targetVersion" : "4.0.1",
     "element" : [{
       "code" : "M",
       "target" : [{

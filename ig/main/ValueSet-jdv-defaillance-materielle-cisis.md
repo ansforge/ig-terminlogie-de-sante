@@ -59,7 +59,7 @@ No Expansion for this valueset (Unknown Code System)
   "meta" : {
     "versionId" : "7",
     "lastUpdated" : "2026-02-23T14:58:04.511+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -129,7 +129,6 @@ No Expansion for this valueset (Unknown Code System)
     },
     {
       "system" : "https://smt.esante.gouv.fr/terminologie-emdn",
-      "version" : "v1.2",
       "concept" : [{
         "code" : "Z1203010101",
         "display" : "APPAREILS D’ANESTHÉSIE"

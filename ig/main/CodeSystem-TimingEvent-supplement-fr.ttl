@@ -36,8 +36,8 @@
   ] ) ; # 
   fhir:content [ fhir:v "supplement"] ; # 
   fhir:supplements [
-     fhir:v "http://terminology.hl7.org/CodeSystem/v3-TimingEvent|3.0.0"^^xsd:anyURI ;
-     fhir:l <http://terminology.hl7.org/CodeSystem/v3-TimingEvent?version=3.0.0>
+     fhir:v "http://terminology.hl7.org/CodeSystem/v3-TimingEvent"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/CodeSystem/v3-TimingEvent>
   ] ; # 
   fhir:concept ( [
      fhir:code [ fhir:v "AC" ] ;

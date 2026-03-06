@@ -20,7 +20,7 @@
     </coding>
   </jurisdiction>
   <content value="supplement"/>
-  <supplements value="http://terminology.hl7.org/CodeSystem/v2-0066|3.0.0"/>
+  <supplements value="http://terminology.hl7.org/CodeSystem/v2-0066"/>
   <concept>
     <code value="1"/>
     <designation>

@@ -57,7 +57,7 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "26",
     "lastUpdated" : "2026-02-23T18:17:21.130+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -87,7 +87,6 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_A00-ProducteurDocNonPS/FHIR/TRE-A00-ProducteurDocNonPS",
-      "version" : "20240329120000",
       "concept" : [{
         "code" : "ALIM_AM",
         "display" : "Alimentation automatique à partir du Système d'Information de l'Assurance Maladie"
@@ -111,7 +110,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante",
-      "version" : "20250328120000",
       "concept" : [{
         "code" : "10",
         "display" : "Médecin"
@@ -211,7 +209,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R95-UsagerTitre/FHIR/TRE-R95-UsagerTitre",
-      "version" : "20241213120000",
       "concept" : [{
         "code" : "71",
         "display" : "Ostéopathe"
@@ -231,7 +228,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R94-ProfessionSocial/FHIR/TRE-R94-ProfessionSocial",
-      "version" : "20241213120000",
       "concept" : [{
         "code" : "41",
         "display" : "Assistant de service social"
@@ -239,7 +235,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R291-AutreProfession/FHIR/TRE-R291-AutreProfession",
-      "version" : "20231215120000",
       "concept" : [{
         "code" : "99",
         "display" : "Acteur participant au système de santé caractérisé par rôle"
@@ -247,7 +242,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_G16-ProfessionFormation/FHIR/TRE-G16-ProfessionFormation",
-      "version" : "20231215120000",
       "concept" : [{
         "code" : "10",
         "display" : "Médecin en formation"
@@ -267,7 +261,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R01-EnsembleSavoirFaire-CISIS/FHIR/TRE-R01-EnsembleSavoirFaire-CISIS",
-      "version" : "20260202120000",
       "concept" : [{
         "code" : "SCD01",
         "display" : "Orthopédie dento-faciale (SCD)"
@@ -1335,7 +1328,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_G05-SousSectionTableauCNOP/FHIR/TRE-G05-SousSectionTableauCNOP",
-      "version" : "20231215120000",
       "concept" : [{
         "code" : "A",
         "display" : "Pharmacien titulaire d'officine"
@@ -1403,7 +1395,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R22-GenreActivite/FHIR/TRE-R22-GenreActivite",
-      "version" : "20240329120000",
       "concept" : [{
         "code" : "GENR01",
         "display" : "Activité de soin et de pharmacie"
@@ -1455,7 +1446,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R21-Fonction/FHIR/TRE-R21-Fonction",
-      "version" : "20260223120000",
       "concept" : [{
         "code" : "FON-01",
         "display" : "Titulaire de cabinet"
@@ -1631,7 +1621,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge",
-      "version" : "20260202120000",
       "concept" : [{
         "code" : "300",
         "display" : "Assistant de service social (PAERPA)"

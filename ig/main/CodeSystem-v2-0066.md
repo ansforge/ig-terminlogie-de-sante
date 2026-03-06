@@ -71,7 +71,7 @@ Underlying Master Code System for V2 table 0066 (Employment Status)
   "purpose" : "Underlying Master Code System for V2 table 0066 (Employment Status)",
   "copyright" : "This material derives from the HL7 Terminology (THO). THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: https://terminology.hl7.org/license.html",
   "caseSensitive" : true,
-  "valueSet" : "http://terminology.hl7.org/ValueSet/v2-0066|2.0.0",
+  "valueSet" : "http://terminology.hl7.org/ValueSet/v2-0066",
   "hierarchyMeaning" : "is-a",
   "compositional" : false,
   "versionNeeded" : false,

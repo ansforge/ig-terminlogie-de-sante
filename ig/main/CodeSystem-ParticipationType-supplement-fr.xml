@@ -20,7 +20,7 @@
     </coding>
   </jurisdiction>
   <content value="supplement"/>
-  <supplements value="http://terminology.hl7.org/CodeSystem/v3-ParticipationType|5.0.0"/>
+  <supplements value="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"/>
   <concept>
     <code value="ADM"/>
     <designation>

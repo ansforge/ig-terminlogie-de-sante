@@ -57,7 +57,7 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "6",
     "lastUpdated" : "2026-02-23T14:59:23.643+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -88,7 +88,6 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-      "version" : "202602240000",
       "concept" : [{
         "code" : "GEN-092.02.01",
         "display" : "Autre dispositif ou objet personnel"
@@ -100,7 +99,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://smt.esante.gouv.fr/terminologie-emdn",
-      "version" : "v1.2",
       "concept" : [{
         "code" : "Q021003",
         "display" : "LUNETTES PRÊTES À PORTER (OU LUNETTES MONTÉES)"

@@ -31,7 +31,7 @@ Type d’autorisation
   "meta" : {
     "versionId" : "8",
     "lastUpdated" : "2025-07-02T18:13:34.590+00:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",

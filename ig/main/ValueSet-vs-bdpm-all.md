@@ -56,7 +56,7 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "1",
     "lastUpdated" : "2024-11-06T12:51:55.760+00:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "url" : "https://smt.esante.gouv.fr/terminologie-bdpm?vs",
@@ -64,7 +64,7 @@ Requête sur le SMT
   "name" : "ValueSet_BDPM_All",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-06T05:12:51+00:00",
+  "date" : "2026-03-06T14:51:45+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Ce jeu de valeurs inclut tous les codes de la terminologie BDPM",
   "jurisdiction" : [{
@@ -75,8 +75,7 @@ Requête sur le SMT
   }],
   "compose" : {
     "include" : [{
-      "system" : "https://smt.esante.gouv.fr/terminologie-bdpm",
-      "version" : "2026-03-03"
+      "system" : "https://smt.esante.gouv.fr/terminologie-bdpm"
     }]
   }
 }

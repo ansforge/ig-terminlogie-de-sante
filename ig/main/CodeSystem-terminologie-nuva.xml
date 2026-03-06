@@ -5,7 +5,7 @@
   <meta>
     <versionId value="26"/>
     <lastUpdated value="2026-03-04T11:59:33.958+01:00"/>
-    <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"/>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
   </meta>
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">La nomenclature unifiée des vaccins (NUVA) liste les spécialités vaccinales commercialisées ou ayant été commercialisées en France ou à l’étranger. Ces spécialités sont associées à une dénomination générique et à une description structurée notamment au niveau des valences et des pathologies cibles.Elle permet de constituer un historique vaccinal complet, aussi précis que le permettent les sources des données, interprétable par des systèmes d’information.</div>

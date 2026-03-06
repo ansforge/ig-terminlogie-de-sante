@@ -57,7 +57,7 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "6",
     "lastUpdated" : "2026-02-23T14:58:49.931+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -88,7 +88,6 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-      "version" : "202602240000",
       "concept" : [{
         "code" : "MED-1181",
         "display" : "Date de délivrance"
@@ -131,7 +130,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://smt.esante.gouv.fr/terminologie-emdn",
-      "version" : "v1.2",
       "concept" : [{
         "code" : "Q021002",
         "display" : "MONTURES DE LUNETTES"

@@ -76,8 +76,8 @@
   fhir:copyright [ fhir:v "This material derives from the HL7 Terminology (THO). THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: https://terminology.hl7.org/license"] ; # 
   fhir:caseSensitive [ fhir:v true] ; # 
   fhir:valueSet [
-     fhir:v "http://terminology.hl7.org/ValueSet/condition-ver-status|1.0.1"^^xsd:anyURI ;
-     fhir:l <http://terminology.hl7.org/ValueSet/condition-ver-status?version=1.0.1>
+     fhir:v "http://terminology.hl7.org/ValueSet/condition-ver-status"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/ValueSet/condition-ver-status>
   ] ; # 
   fhir:content [ fhir:v "complete"] ; # 
   fhir:concept ( [

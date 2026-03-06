@@ -57,7 +57,7 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "1",
     "lastUpdated" : "2026-02-24T10:17:18.673+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -88,7 +88,6 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r402-activite-enseignement-regulee",
-      "version" : "20260223120000",
       "filter" : [{
         "property" : "niveau",
         "op" : "=",

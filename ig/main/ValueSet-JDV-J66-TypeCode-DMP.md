@@ -57,7 +57,7 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "8",
     "lastUpdated" : "2025-07-02T17:06:44.012+00:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -87,7 +87,6 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_A05-TypeDocComplementaire/FHIR/TRE-A05-TypeDocComplementaire",
-      "version" : "20240329120000",
       "concept" : [{
         "code" : "AUTORIS-SOINS",
         "display" : "Autorisation de soins et actes non usuels sanitaires"
@@ -522,7 +521,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_A12-NomenclatureASTM/FHIR/TRE-A12-NomenclatureASTM",
-      "version" : "20231215120000",
       "concept" : [{
         "code" : "E1762",
         "display" : "Full Document"

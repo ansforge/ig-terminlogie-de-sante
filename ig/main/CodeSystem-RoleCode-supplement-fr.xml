@@ -20,7 +20,7 @@
     </coding>
   </jurisdiction>
   <content value="supplement"/>
-  <supplements value="http://terminology.hl7.org/CodeSystem/v3-RoleCode|3.0.0"/>
+  <supplements value="http://terminology.hl7.org/CodeSystem/v3-RoleCode"/>
   <concept>
     <code value="C"/>
     <designation>

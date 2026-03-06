@@ -73,13 +73,13 @@
   ] ) ; # 
   fhir:source [
      a fhir:Canonical ;
-     fhir:v "https://smt.esante.gouv.fr/terminologie-nuva?vs|20241106120000"^^xsd:anyURI ;
-     fhir:l <https://smt.esante.gouv.fr/terminologie-nuva?vs&version=20241106120000>
+     fhir:v "https://smt.esante.gouv.fr/terminologie-nuva?vs"^^xsd:anyURI ;
+     fhir:l <https://smt.esante.gouv.fr/terminologie-nuva?vs>
   ] ; # 
   fhir:target [
      a fhir:Canonical ;
-     fhir:v "https://smt.esante.gouv.fr/terminologie-cip_ucd?vs|20241114120000"^^xsd:anyURI ;
-     fhir:l <https://smt.esante.gouv.fr/terminologie-cip_ucd?vs&version=20241114120000>
+     fhir:v "https://smt.esante.gouv.fr/terminologie-cip_ucd?vs"^^xsd:anyURI ;
+     fhir:l <https://smt.esante.gouv.fr/terminologie-cip_ucd?vs>
   ] . # 
 
 # -------------------------------------------------------------------------------------

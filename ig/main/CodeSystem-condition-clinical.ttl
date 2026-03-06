@@ -13,8 +13,8 @@
      fhir:versionId [ fhir:v "1" ] ;
      fhir:lastUpdated [ fhir:v "2026-01-07T10:12:48.016+01:00"^^xsd:dateTime ] ;
      fhir:profile ( [
-       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablecodesystem?version=4.0.1>
+       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
      ] )
   ] ; # 
   fhir:text [
@@ -80,8 +80,8 @@
   fhir:copyright [ fhir:v "This material derives from the HL7 Terminology (THO). THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: https://terminology.hl7.org/license.html"] ; # 
   fhir:caseSensitive [ fhir:v true] ; # 
   fhir:valueSet [
-     fhir:v "http://terminology.hl7.org/ValueSet/condition-clinical|1.0.1"^^xsd:anyURI ;
-     fhir:l <http://terminology.hl7.org/ValueSet/condition-clinical?version=1.0.1>
+     fhir:v "http://terminology.hl7.org/ValueSet/condition-clinical"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/ValueSet/condition-clinical>
   ] ; # 
   fhir:content [ fhir:v "complete"] ; # 
   fhir:concept ( [

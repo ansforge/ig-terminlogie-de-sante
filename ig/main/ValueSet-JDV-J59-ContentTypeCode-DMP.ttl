@@ -13,8 +13,8 @@
      fhir:versionId [ fhir:v "7" ] ;
      fhir:lastUpdated [ fhir:v "2025-07-02T17:06:39.953+00:00"^^xsd:dateTime ] ;
      fhir:profile ( [
-       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablevalueset?version=4.0.1>
+       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
      ] )
   ] ; # 
   fhir:language [ fhir:v "fr-FR"] ; # 
@@ -65,7 +65,6 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_A00-ProducteurDocNonPS/FHIR/TRE-A00-ProducteurDocNonPS"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_A00-ProducteurDocNonPS/FHIR/TRE-A00-ProducteurDocNonPS>
        ] ;
-       fhir:version [ fhir:v "20240329120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "EXP_PATIENT" ] ;
          fhir:display [ fhir:v "Expression personnelle du patient" ]
@@ -75,7 +74,6 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R276-FormeActivite/FHIR/TRE-R276-FormeActivite>
        ] ;
-       fhir:version [ fhir:v "20240329120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "05" ] ;
          fhir:display [ fhir:v "Hospitalisation à domicile (au domicile du patient)" ]
@@ -91,7 +89,6 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R209-TypeActivite/FHIR/TRE-R209-TypeActivite"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R209-TypeActivite/FHIR/TRE-R209-TypeActivite>
        ] ;
-       fhir:version [ fhir:v "20240223120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "03" ] ;
          fhir:display [ fhir:v "Hospitalisation complète (non compris hospitalisation de semaine)" ]
@@ -200,7 +197,6 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite>
        ] ;
-       fhir:version [ fhir:v "20250523120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "SA05" ] ;
          fhir:display [ fhir:v "Centre de santé" ]

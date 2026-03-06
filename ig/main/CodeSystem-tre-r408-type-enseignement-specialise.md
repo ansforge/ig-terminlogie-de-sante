@@ -30,7 +30,7 @@ Type d’enseignement spécialisé.
   "meta" : {
     "versionId" : "1",
     "lastUpdated" : "2026-02-03T09:57:56.974+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
   "extension" : [{

@@ -59,7 +59,7 @@ Expansions are not generated for retired value sets
   "meta" : {
     "versionId" : "2",
     "lastUpdated" : "2025-01-06T12:44:43.391+00:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -90,7 +90,6 @@ Expansions are not generated for retired value sets
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R81-Civilite/FHIR/TRE-R81-Civilite",
-      "version" : "20231215120000",
       "concept" : [{
         "code" : "M",
         "display" : "Monsieur"
@@ -102,7 +101,6 @@ Expansions are not generated for retired value sets
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R11-CiviliteExercice/FHIR/TRE-R11-CiviliteExercice",
-      "version" : "20231215120000",
       "concept" : [{
         "code" : "DR",
         "display" : "Docteur"

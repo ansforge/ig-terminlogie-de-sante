@@ -60,9 +60,7 @@ Table d’association entre les types d’autorisations et les professions de sa
   }],
   "group" : [{
     "source" : "https://mos.esante.gouv.fr/NOS/TRE_R17-TypeAutorisation/FHIR/TRE-R17-TypeAutorisation",
-    "sourceVersion" : "20250523120000",
     "target" : "https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante",
-    "targetVersion" : "20250328120000",
     "element" : [{
       "code" : "AM01",
       "target" : [{
@@ -423,9 +421,7 @@ Table d’association entre les types d’autorisations et les professions de sa
   },
   {
     "source" : "https://mos.esante.gouv.fr/NOS/TRE_R17-TypeAutorisation/FHIR/TRE-R17-TypeAutorisation",
-    "sourceVersion" : "20250523120000",
     "target" : "https://mos.esante.gouv.fr/NOS/TRE_R94-ProfessionSocial/FHIR/TRE-R94-ProfessionSocial",
-    "targetVersion" : "20241213120000",
     "element" : [{
       "code" : "AM14",
       "target" : [{
@@ -443,9 +439,7 @@ Table d’association entre les types d’autorisations et les professions de sa
   },
   {
     "source" : "https://mos.esante.gouv.fr/NOS/TRE_R17-TypeAutorisation/FHIR/TRE-R17-TypeAutorisation",
-    "sourceVersion" : "20250523120000",
     "target" : "https://mos.esante.gouv.fr/NOS/TRE_R95-UsagerTitre/FHIR/TRE-R95-UsagerTitre",
-    "targetVersion" : "20241213120000",
     "element" : [{
       "code" : "AM27",
       "target" : [{

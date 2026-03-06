@@ -13,8 +13,8 @@
      fhir:versionId [ fhir:v "8.1770199823535" ] ;
      fhir:lastUpdated [ fhir:v "2026-02-04T11:10:23.535+01:00"^^xsd:dateTime ] ;
      fhir:profile ( [
-       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"^^xsd:anyURI ;
-       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablecodesystem?version=4.0.1>
+       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
      ] )
   ] ; # 
   fhir:text [

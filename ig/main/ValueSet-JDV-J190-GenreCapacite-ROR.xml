@@ -5,7 +5,7 @@
   <meta>
     <versionId value="7"/>
     <lastUpdated value="2025-10-02T19:02:00.435+02:00"/>
-    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"/>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
   </meta>
   <language value="fr-FR"/>
   <text>
@@ -37,7 +37,6 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R332-GenreCapacite/FHIR/TRE-R332-GenreCapacite"/>
-      <version value="20250828120000"/>
       <concept>
         <code value="01"/>
         <display value="Femme"/>

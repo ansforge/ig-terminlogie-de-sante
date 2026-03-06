@@ -30,7 +30,7 @@ Statut du bilan du projet personnalisé.
   "meta" : {
     "versionId" : "1",
     "lastUpdated" : "2025-07-01T10:02:19.438+00:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
   "extension" : [{

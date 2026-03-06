@@ -61,9 +61,7 @@ Correspondance codes TRE_R268-PaysProvenanceISO / codes TRE_R20-Pays
   "targetUri" : "https://mos.esante.gouv.fr/NOS/JDV_J256-Pays/FHIR/JDV-J256-Pays",
   "group" : [{
     "source" : "https://mos.esante.gouv.fr/NOS/TRE_R268-PaysProvenanceISO/FHIR/TRE-R268-PaysProvenanceISO",
-    "sourceVersion" : "20240126120000",
     "target" : "https://mos.esante.gouv.fr/NOS/TRE_R20-Pays/FHIR/TRE-R20-Pays",
-    "targetVersion" : "20250328120000",
     "element" : [{
       "code" : "AD",
       "target" : [{

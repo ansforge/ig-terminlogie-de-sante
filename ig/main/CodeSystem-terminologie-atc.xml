@@ -5,7 +5,7 @@
   <meta>
     <versionId value="5"/>
     <lastUpdated value="2026-03-05T14:21:34.853+01:00"/>
-    <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"/>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
   </meta>
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">La classification ATC (anatomique, thérapeutique et chimique) classe les substances actives dans différents groupes selon l’organe ou le système sur lequel ils agissent et selon leurs propriétés thérapeutiques, pharmacologiques et chimiques.  </div>

@@ -31,7 +31,7 @@ La Classification internationale des soins primaires (CISP) est la version fran√
   "meta" : {
     "versionId" : "3",
     "lastUpdated" : "2025-03-24T13:28:48.192+00:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "url" : "https://smt.esante.gouv.fr/terminologie-cisp",
   "identifier" : [{

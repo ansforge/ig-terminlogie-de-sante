@@ -30,7 +30,7 @@ Mode de fonctinonemment des activités ssmsse régulées, remplace la TRE_R209-T
   "meta" : {
     "versionId" : "2",
     "lastUpdated" : "2026-02-23T17:57:30.564+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
   "extension" : [{

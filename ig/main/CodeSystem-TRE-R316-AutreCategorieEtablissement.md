@@ -30,7 +30,7 @@ Cette table de référence permet d’identifier des catégories d’établissem
   "meta" : {
     "versionId" : "6",
     "lastUpdated" : "2025-07-02T18:17:27.279+00:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",

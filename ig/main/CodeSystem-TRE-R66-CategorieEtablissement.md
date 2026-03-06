@@ -42,7 +42,7 @@ Catégorie d’établissements
   "meta" : {
     "versionId" : "21",
     "lastUpdated" : "2026-02-23T17:57:34.340+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
   "extension" : [{

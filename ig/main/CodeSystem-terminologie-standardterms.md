@@ -36,7 +36,7 @@ Les standard terms (ou listes de termes normalisés) ont été établis en répo
   "meta" : {
     "versionId" : "8",
     "lastUpdated" : "2025-07-11T12:01:41.851+00:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "url" : "https://smt.esante.gouv.fr/terminologie-standardterms",
   "identifier" : [{

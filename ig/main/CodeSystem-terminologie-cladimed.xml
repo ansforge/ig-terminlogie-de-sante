@@ -5,7 +5,7 @@
   <meta>
     <versionId value="4.1770199709495"/>
     <lastUpdated value="2026-02-04T11:08:29.495+01:00"/>
-    <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"/>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablecodesystem"/>
   </meta>
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">La classification CLADIMED décrit le domaine des produits de santé (dispositifs médicaux (DM) et autres produits de santé (hors médicaments)). C’est une classification mono axiale inspirée de la classification internationale ATC des médicaments (Anatomique, Thérapeutique, Chimique).</div>

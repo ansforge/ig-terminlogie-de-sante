@@ -29,7 +29,7 @@ Association qui permet de deduire l’attribut XDS ‘formatCode’ à partir de
   "title" : "ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-06T05:12:51+00:00",
+  "date" : "2026-03-06T14:51:45+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -58,9 +58,7 @@ Association qui permet de deduire l’attribut XDS ‘formatCode’ à partir de
   "targetUri" : "https://mos.esante.gouv.fr/NOS/JDV_J10-XdsFormatCode-CISIS/FHIR/JDV-J10-XdsFormatCode-CISIS",
   "group" : [{
     "source" : "https://mos.esante.gouv.fr/NOS/TRE_R222-MediaTypeCorpsCDANonStructure/FHIR/TRE-R222-MediaTypeCorpsCDANonStructure",
-    "sourceVersion" : "20251222120000",
     "target" : "https://mos.esante.gouv.fr/NOS/TRE_A11-IheFormatCode/FHIR/TRE-A11-IheFormatCode",
-    "targetVersion" : "20240426120000",
     "element" : [{
       "code" : "application/pdf",
       "target" : [{

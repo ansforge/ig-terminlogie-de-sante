@@ -71,7 +71,7 @@ The verification status to support or decline the clinical status of the conditi
   }],
   "copyright" : "This material derives from the HL7 Terminology (THO). THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: https://terminology.hl7.org/license",
   "caseSensitive" : true,
-  "valueSet" : "http://terminology.hl7.org/ValueSet/condition-ver-status|1.0.1",
+  "valueSet" : "http://terminology.hl7.org/ValueSet/condition-ver-status",
   "content" : "complete",
   "concept" : [{
     "code" : "unconfirmed",

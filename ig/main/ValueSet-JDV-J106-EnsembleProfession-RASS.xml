@@ -5,7 +5,7 @@
   <meta>
     <versionId value="5"/>
     <lastUpdated value="2025-07-02T17:04:43.453+00:00"/>
-    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"/>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
   </meta>
   <language value="fr-FR"/>
   <text>
@@ -37,7 +37,6 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante"/>
-      <version value="20250328120000"/>
       <concept>
         <code value="10"/>
         <display value="Médecin"/>
@@ -137,7 +136,6 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R95-UsagerTitre/FHIR/TRE-R95-UsagerTitre"/>
-      <version value="20241213120000"/>
       <concept>
         <code value="71"/>
         <display value="Ostéopathe"/>
@@ -157,7 +155,6 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R94-ProfessionSocial/FHIR/TRE-R94-ProfessionSocial"/>
-      <version value="20241213120000"/>
       <concept>
         <code value="41"/>
         <display value="Assistant de service social"/>
@@ -165,7 +162,6 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R291-AutreProfession/FHIR/TRE-R291-AutreProfession"/>
-      <version value="20231215120000"/>
       <concept>
         <code value="99"/>
         <display value="Acteur participant au système de santé caractérisé par rôle"/>

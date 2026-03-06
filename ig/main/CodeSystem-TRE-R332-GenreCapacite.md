@@ -30,7 +30,7 @@ Permet d’indiquer le genre des patients qui peuvent être installés dans des 
   "meta" : {
     "versionId" : "8",
     "lastUpdated" : "2025-10-02T20:13:50.824+02:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",

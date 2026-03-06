@@ -56,7 +56,7 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "1",
     "lastUpdated" : "2024-11-14T08:35:39.917+00:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "url" : "https://smt.esante.gouv.fr/terminologie-atc?vs",
@@ -64,7 +64,7 @@ Requête sur le SMT
   "name" : "ValueSet_ATC_All",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-06T05:12:51+00:00",
+  "date" : "2026-03-06T14:51:45+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Ce jeu de valeurs inclut tous les codes concepts de la terminologie ATC",
   "jurisdiction" : [{
@@ -75,8 +75,7 @@ Requête sur le SMT
   }],
   "compose" : {
     "include" : [{
-      "system" : "https://smt.esante.gouv.fr/terminologie-atc",
-      "version" : "2026-02"
+      "system" : "https://smt.esante.gouv.fr/terminologie-atc"
     }]
   }
 }

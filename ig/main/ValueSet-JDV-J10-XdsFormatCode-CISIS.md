@@ -57,7 +57,7 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "6",
     "lastUpdated" : "2025-11-04T19:01:58.541+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -87,7 +87,6 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_A06-FormatCodeComplementaire/FHIR/TRE-A06-FormatCodeComplementaire",
-      "version" : "20251029120000",
       "concept" : [{
         "code" : "urn:ans:ci-sis:bio-ep-bio:2022",
         "display" : "Prescription d'actes de biologie médicale"
@@ -279,7 +278,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_A11-IheFormatCode/FHIR/TRE-A11-IheFormatCode",
-      "version" : "20240426120000",
       "concept" : [{
         "code" : "urn:ihe:iti:dsg:detached:2014",
         "display" : "Signature détachée"
@@ -339,7 +337,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_A09-DICOMuidRegistry/FHIR/TRE-A09-DICOMuidRegistry",
-      "version" : "20231215120000",
       "concept" : [{
         "code" : "1.2.840.10008.5.1.4.1.1.88.59",
         "display" : "Document Références d'objets d'un examen d'imagerie selon profil IHE RAD XDS-I"
@@ -347,7 +344,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_A10-NomenclatureURN/FHIR/TRE-A10-NomenclatureURN",
-      "version" : "20231215120000",
       "concept" : [{
         "code" : "urn:oid:1.3.6.1.4.1.19376.1.2.1.1.1",
         "display" : "Digital Signature"

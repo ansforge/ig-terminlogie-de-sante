@@ -57,7 +57,7 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "4",
     "lastUpdated" : "2025-07-02T17:06:03.010+00:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -87,7 +87,6 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R345-TypeIdentifiantAutre/FHIR/TRE-R345-TypeIdentifiantAutre",
-      "version" : "20240329120000",
       "concept" : [{
         "code" : "42",
         "display" : "Identifiant fonctionnel de l'OI connu par l'instance ROR"
@@ -99,7 +98,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R355-TypeIdentifiantOffre/FHIR/TRE-R355-TypeIdentifiantOffre",
-      "version" : "20240329120000",
       "concept" : [{
         "code" : "35",
         "display" : "Identifiant fonctionnel de l'offre connu par l'instance ROR"
@@ -111,7 +109,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R354-TypeIdentifiantRessourceOperationnelle/FHIR/TRE-R354-TypeIdentifiantRessourceOperationnelle",
-      "version" : "20240329120000",
       "concept" : [{
         "code" : "25",
         "display" : "Identifiant du lieu de réalisation de l'offre connu par l'instance ROR"
@@ -123,7 +120,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_G08-TypeIdentifiantPersonne/FHIR/TRE-G08-TypeIdentifiantPersonne",
-      "version" : "20240329120000",
       "concept" : [{
         "code" : "30",
         "display" : "Identifiant de la situation opérationnelle connu par l'instance ROR"
@@ -131,7 +127,6 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_G07-TypeIdentifiantStructure/FHIR/TRE-G07-TypeIdentifiantStructure",
-      "version" : "20240329120000",
       "concept" : [{
         "code" : "40",
         "display" : "Identifiant national de structure"

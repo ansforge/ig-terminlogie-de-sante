@@ -36,8 +36,8 @@
   ] ) ; # 
   fhir:content [ fhir:v "supplement"] ; # 
   fhir:supplements [
-     fhir:v "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical|1.0.1"^^xsd:anyURI ;
-     fhir:l <http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical?version=1.0.1>
+     fhir:v "http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical>
   ] ; # 
   fhir:concept ( [
      fhir:code [ fhir:v "active" ] ;

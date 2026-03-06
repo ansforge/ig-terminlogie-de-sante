@@ -30,7 +30,7 @@ Type de savoir-faire opérationnel, transversal ou spécifique, acquis et exerc�
   "meta" : {
     "versionId" : "1",
     "lastUpdated" : "2025-07-01T10:02:21+00:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",

@@ -32,7 +32,7 @@ Etablissement de santé privé d’intérêt collectif
   "meta" : {
     "versionId" : "7",
     "lastUpdated" : "2026-02-23T17:57:35.005+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
   "extension" : [{

@@ -57,7 +57,7 @@ Requête sur le SMT
   "meta" : {
     "versionId" : "28",
     "lastUpdated" : "2026-02-23T18:17:27.397+01:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -87,7 +87,6 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R244-CategorieOrganisation/FHIR/TRE-R244-CategorieOrganisation",
-      "version" : "20260223120000",
       "concept" : [{
         "code" : "01",
         "display" : "Appartement thérapeutique"

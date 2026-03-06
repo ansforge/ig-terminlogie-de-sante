@@ -54,7 +54,7 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "TRE-R222-MediaTypeCorpsCDANonStructure-all",
   "meta" : {
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -68,7 +68,7 @@ Requête sur le SMT
   "title" : "JDV-MediaTypeCorpsCDANonStructure",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-03-06T05:12:51+00:00",
+  "date" : "2026-03-06T14:51:45+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -86,8 +86,7 @@ Requête sur le SMT
   }],
   "compose" : {
     "include" : [{
-      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R222-MediaTypeCorpsCDANonStructure/FHIR/TRE-R222-MediaTypeCorpsCDANonStructure",
-      "version" : "20251222120000"
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R222-MediaTypeCorpsCDANonStructure/FHIR/TRE-R222-MediaTypeCorpsCDANonStructure"
     }]
   }
 }

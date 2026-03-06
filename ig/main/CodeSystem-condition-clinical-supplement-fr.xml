@@ -20,7 +20,7 @@
     </coding>
   </jurisdiction>
   <content value="supplement"/>
-  <supplements value="http://terminology.hl7.org/CodeSystem/condition-clinical|3.0.0"/>
+  <supplements value="http://terminology.hl7.org/CodeSystem/condition-clinical"/>
   <concept>
     <code value="active"/>
     <designation>
