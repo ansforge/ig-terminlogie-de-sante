@@ -57,7 +57,7 @@ jobs:
           mkdir ./igSource/input/ontoserver/ASS
           mkdir ./igSource/input/ontoserver/NamingSystem
           cd ./igSource/tools
-          python ./upload.py
+          python ./upload_nos_expand.py
 
       - name: List des repertoires
         run: ls -R ./igSource/input
@@ -107,7 +107,7 @@ jobs:
       - name: Run Create ZIP NOS Expand
         run: |
               cd  ./igSource/
-              python ./tools/create_zip_nosbis.py './output' '../zip_nos_expand'
+              python ./tools/create_zip_nos.py './output' '../zip_nos_expand'
               zip -r ./output/zip_nos_expand.zip ../zip_nos_expand/*
 
       - name: Upload ZIP
