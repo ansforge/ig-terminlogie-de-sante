@@ -26,7 +26,7 @@ parameters:
     version-comparison: n/a
     excludettl : true
     
-    pin-canonicals : pin-all
+    pin-canonicals : pin-none
     apply-version: false
     apply-contact : false
     apply-publisher : false
