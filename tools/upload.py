@@ -13,9 +13,8 @@ import urllib.request
 
 
 def fix_narrative(resource):
-    """Change text.status de 'generated' à 'extensions' pour éviter l'erreur de validation du Publisher."""
-    if "text" in resource and resource["text"].get("status") == "generated":
-        resource["text"]["status"] = "extensions"
+    """Supprime la narrative générée par le serveur distant pour laisser le Publisher local la régénérer."""
+    resource.pop("text", None)
     return resource
 
 
