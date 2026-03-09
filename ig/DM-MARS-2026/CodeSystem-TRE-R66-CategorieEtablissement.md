@@ -5028,6 +5028,10 @@ Catégorie d’établissements
       "valueDateTime" : "2026-03-30T00:00:00+01:00"
     },
     {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
+    },
+    {
       "code" : "status",
       "valueCode" : "deprecated"
     }]
