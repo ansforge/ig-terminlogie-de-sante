@@ -11,8 +11,6 @@ Description: "Jeu de valeurs ALL contenant l'ensemble des codes pour les types d
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2025-05-13T18:02:28.249+00:00"
 * ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee?vs"
-* ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.325"
 * ^version = "20250513120000"
 * ^status = #active
 * ^experimental = false

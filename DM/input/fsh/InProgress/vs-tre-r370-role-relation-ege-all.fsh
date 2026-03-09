@@ -11,8 +11,6 @@ Description: "Jeu de valeurs ALL contenant les types de rôle existant entre les
 * ^extension.url = "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"
 * ^extension.valuePeriod.start = "2025-02-22T18:02:28.249+00:00"
 * ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r370-role-relation-ege?vs"
-* ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.320"
 * ^version = "20250222120000"
 * ^status = #active
 * ^experimental = false
