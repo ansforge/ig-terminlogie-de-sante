@@ -1,8 +1,8 @@
 Alias: $tre-r396-autorite = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite
 
-ValueSet: JdvJ375Ordre
-Id: jdv-j375-ordre
-Title: "Jdv J375 ordre"
+ValueSet: JdvJ375AutoriteOrdre
+Id: jdv-j375-autorite-ordre
+Title: "Jdv J375 Autorite Ordre"
 Description: "Jeu de valeurs comportant uniquement les autorités de type Ordre."
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2025-08-26T18:02:28.249+00:00"
