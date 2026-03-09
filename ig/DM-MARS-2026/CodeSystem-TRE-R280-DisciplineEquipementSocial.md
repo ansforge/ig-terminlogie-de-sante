@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R280-DisciplineEquipementSocial/FHIR/TRE-R280-DisciplineEquipementSocial | *Version*:20231215120000 | |
-| Active as of 2023-12-15 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R280_DisciplineEquipementSocial |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R280-DisciplineEquipementSocial/FHIR/TRE-R280-DisciplineEquipementSocial | *Version*:20260330120000 | |
+| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R280_DisciplineEquipementSocial |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.133 | | |
 
  
@@ -43,11 +43,11 @@ Disciplines d’équipement pour le social
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.133"
   }],
-  "version" : "20231215120000",
+  "version" : "20260330120000",
   "name" : "TRE_R280_DisciplineEquipementSocial",
   "status" : "active",
   "experimental" : false,
-  "date" : "2023-12-15T12:00:00+01:00",
+  "date" : "2026-03-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Disciplines d'équipement pour le social",
   "jurisdiction" : [{
@@ -58,6 +58,7 @@ Disciplines d’équipement pour le social
   }],
   "caseSensitive" : false,
   "content" : "complete",
+  "count" : 133,
   "property" : [{
     "code" : "dateValid",
     "description" : "date de validité d'un code concept",
@@ -245,22 +246,14 @@ Disciplines d’équipement pour le social
   },
   {
     "code" : "259",
-    "display" : "Activ.Club et Équipe de Prévention",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "Act.Club Equip.Prév."
-    }],
+    "display" : "Prévention spécialisée",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-10-26T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2018-10-26T12:00:00+01:00"
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "status",

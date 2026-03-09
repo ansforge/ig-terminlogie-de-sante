@@ -9,7 +9,7 @@
   "language" : "fr-FR",
   "text" : {
     "status" : "generated",
-    "div" : "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-j309-categorie-entite-geographique-exercice-niv3-finess</b></p><a name=\"jdv-j309-categorie-entite-geographique-exercice-niv3-finess\"> </a><a name=\"hcjdv-j309-categorie-entite-geographique-exercice-niv3-finess\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 2; Dernière mise à jour : 2026-02-23 18:17:30+0100; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSetversion : null4.0.1)</a></p></div><ul><li>Include codes provenant de<a href=\"CodeSystem-tre-r397-categorie-entite-geographique-exercice.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice</code></a><span title=\"La version est explicitement indiquée comme étant 20260223120000\"> version &#x1F4CD;20260223120000</span> où niveau  = 3</li></ul></div>"
+    "div" : "<div xml:lang=\"fr-FR\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Narratif généré : EnsembleValeurs jdv-j309-categorie-entite-geographique-exercice-niv3-finess</b></p><a name=\"jdv-j309-categorie-entite-geographique-exercice-niv3-finess\"> </a><a name=\"hcjdv-j309-categorie-entite-geographique-exercice-niv3-finess\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 2; Dernière mise à jour : 2026-02-23 18:17:30+0100; Langue : fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSetversion : null4.0.1)</a></p></div><ul><li>Include codes provenant de<a href=\"CodeSystem-tre-r397-categorie-entite-geographique-exercice.html\"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice</code></a><span title=\"La version est explicitement indiquée comme étant 20260330120000\"> version &#x1F4CD;20260330120000</span> où niveau  = 3</li></ul></div>"
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -39,7 +39,7 @@
   "compose" : {
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
-      "version" : "20260223120000",
+      "version" : "20260330120000",
       "filter" : [{
         "property" : "niveau",
         "op" : "=",

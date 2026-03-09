@@ -90,7 +90,7 @@ Expansions are not generated for retired value sets
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R280-DisciplineEquipementSocial/FHIR/TRE-R280-DisciplineEquipementSocial",
-      "version" : "20231215120000",
+      "version" : "20260330120000",
       "concept" : [{
         "code" : "177",
         "display" : "Section Cure Médicale (dont)"

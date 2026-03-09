@@ -249,7 +249,7 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge"/>
-      <version value="20260202120000"/>
+      <version value="20260330120000"/>
       <concept>
         <code value="330"/>
         <display value="Coordonnateur de parcours"/>

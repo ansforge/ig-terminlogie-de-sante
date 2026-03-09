@@ -34,7 +34,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS",
-    "version" : "20260202120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "JDV_J01_XdsAuthorSpecialty_CISIS",
     "title" : null,
@@ -87,7 +87,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J05-SubjectRole-CISIS/FHIR/JDV-J05-SubjectRole-CISIS",
-    "version" : "20260223120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "JDV_J05_SubjectRole_CISIS",
     "title" : null,
@@ -161,8 +161,8 @@
     "sources" : ["1.2.250.1.213.1.1.5.465"],
     "uses" : {
     },
-    "ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.html" : "ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS",
-    "ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.html" : "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS"
+    "ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.html" : "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS",
+    "ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.html" : "ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS"
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J100-FinessStatutJuridique-RASS/FHIR/JDV-J100-FinessStatutJuridique-RASS",
@@ -269,7 +269,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J108-EnsembleFonction-RASS/FHIR/JDV-J108-EnsembleFonction-RASS",
-    "version" : "20260202120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "JDV_J108_EnsembleFonction_RASS",
     "title" : null,
@@ -433,7 +433,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J121-RolePriseCharge-ENREG/FHIR/JDV-J121-RolePriseCharge-ENREG",
-    "version" : "20260202120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "JDV_J121_RolePriseCharge_ENREG",
     "title" : null,
@@ -8804,8 +8804,8 @@
     "systems" : ["https://smt.esante.gouv.fr/terminologie-bdpm"],
     "uses" : {
     },
-    "ConceptMap-alignement-nuva-bdpm.html" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM",
-    "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD"
+    "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD",
+    "ConceptMap-alignement-nuva-bdpm.html" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM"
   },
   {
     "url" : "https://smt.esante.gouv.fr/terminologie-cip_ucd?vs",
@@ -8817,8 +8817,8 @@
     "systems" : ["https://smt.esante.gouv.fr/terminologie-cip_ucd"],
     "uses" : {
     },
-    "ConceptMap-alignement-nuva-cipucd.html" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD",
-    "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD"
+    "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD",
+    "ConceptMap-alignement-nuva-cipucd.html" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD"
   },
   {
     "url" : "https://smt.esante.gouv.fr/terminologie-nuva?vs",
@@ -8830,8 +8830,8 @@
     "systems" : ["https://smt.esante.gouv.fr/terminologie-nuva"],
     "uses" : {
     },
-    "ConceptMap-alignement-nuva-bdpm.html" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM",
-    "ConceptMap-alignement-nuva-cipucd.html" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD"
+    "ConceptMap-alignement-nuva-cipucd.html" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD",
+    "ConceptMap-alignement-nuva-bdpm.html" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM"
   },
   {
     "url" : "https://smt.esante.gouv.fr/terminologie-sms?vs",

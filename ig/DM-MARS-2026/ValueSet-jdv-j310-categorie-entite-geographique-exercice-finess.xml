@@ -9,7 +9,7 @@
   </meta>
   <language value="fr-FR"/>
   <text>
-    <status value="generated"/><div xml:lang="fr-FR" xmlns="http://www.w3.org/1999/xhtml" lang="fr-FR"><p class="res-header-id"><b>Narratif généré : EnsembleValeurs jdv-j310-categorie-entite-geographique-exercice-finess</b></p><a name="jdv-j310-categorie-entite-geographique-exercice-finess"> </a><a name="hcjdv-j310-categorie-entite-geographique-exercice-finess"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version : 2; Dernière mise à jour : 2026-02-23 18:17:30+0100; Langue : fr-FR</p><p style="margin-bottom: 0px">Profil: <a href="http://hl7.org/fhir/R4/shareablevalueset.html">Shareable ValueSetversion : null4.0.1)</a></p></div><p>Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :</p><ul><li>Inclut codes provenant de<a href="CodeSystem-tre-r397-categorie-entite-geographique-exercice.html"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice</code></a><span title="La version est explicitement indiquée comme étant 20260223120000"> version &#x1F4CD;20260223120000</span> où niveau  = 4</li></ul><p>Ce jeu de valeur (ValueSet) exclut les codes selon les règles suivantes :</p><ul><li>Exclut codes provenant de<a href="CodeSystem-tre-r397-categorie-entite-geographique-exercice.html"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice</code></a><span title="La version est explicitement indiquée comme étant 20260223120000"> version &#x1F4CD;20260223120000</span> où specialisationRor  = true</li></ul></div>
+    <status value="generated"/><div xml:lang="fr-FR" xmlns="http://www.w3.org/1999/xhtml" lang="fr-FR"><p class="res-header-id"><b>Narratif généré : EnsembleValeurs jdv-j310-categorie-entite-geographique-exercice-finess</b></p><a name="jdv-j310-categorie-entite-geographique-exercice-finess"> </a><a name="hcjdv-j310-categorie-entite-geographique-exercice-finess"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version : 2; Dernière mise à jour : 2026-02-23 18:17:30+0100; Langue : fr-FR</p><p style="margin-bottom: 0px">Profil: <a href="http://hl7.org/fhir/R4/shareablevalueset.html">Shareable ValueSetversion : null4.0.1)</a></p></div><p>Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :</p><ul><li>Inclut codes provenant de<a href="CodeSystem-tre-r397-categorie-entite-geographique-exercice.html"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice</code></a><span title="La version est explicitement indiquée comme étant 20260330120000"> version &#x1F4CD;20260330120000</span> où niveau  = 4</li></ul><p>Ce jeu de valeur (ValueSet) exclut les codes selon les règles suivantes :</p><ul><li>Exclut codes provenant de<a href="CodeSystem-tre-r397-categorie-entite-geographique-exercice.html"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice</code></a><span title="La version est explicitement indiquée comme étant 20260330120000"> version &#x1F4CD;20260330120000</span> où specialisationRor  = true</li></ul></div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
     <valuePeriod>
@@ -38,7 +38,7 @@
   <compose>
     <include>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice"/>
-      <version value="20260223120000"/>
+      <version value="20260330120000"/>
       <filter>
         <property value="niveau"/>
         <op value="="/>
@@ -47,7 +47,7 @@
     </include>
     <exclude>
       <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice"/>
-      <version value="20260223120000"/>
+      <version value="20260330120000"/>
       <filter>
         <property value="specialisationRor"/>
         <op value="="/>

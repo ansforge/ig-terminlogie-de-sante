@@ -112,7 +112,7 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement",
-      "version" : "20260223120000",
+      "version" : "20260330120000",
       "concept" : [{
         "code" : "255",
         "display" : "Maison d'Accueil Spécialisée (M.A.S.)"

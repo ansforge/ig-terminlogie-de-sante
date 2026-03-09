@@ -1113,7 +1113,7 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge>
        ] ;
-       fhir:version [ fhir:v "20260202120000" ] ;
+       fhir:version [ fhir:v "20260330120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "300" ] ;
          fhir:display [ fhir:v "Assistant de service social (PAERPA)" ]

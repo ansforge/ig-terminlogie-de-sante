@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee | *Version*:20260223120000 | |
-| Active as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR401ActiviteSocialeRegulee |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee | *Version*:20260330120000 | |
+| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR401ActiviteSocialeRegulee |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.380 | | |
 
  
@@ -32,8 +32,8 @@ Cette TRE hiérarchique remplace les TRE_R280-DisciplineEquipementSocial, TRE_R2
   "resourceType" : "CodeSystem",
   "id" : "tre-r401-activite-sociale-regulee",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2026-02-23T17:57:27.791+01:00",
+    "versionId" : "1",
+    "lastUpdated" : "2026-02-23T12:00:00.000+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
   },
   "language" : "fr-FR",
@@ -48,12 +48,12 @@ Cette TRE hiérarchique remplace les TRE_R280-DisciplineEquipementSocial, TRE_R2
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.380"
   }],
-  "version" : "20260223120000",
+  "version" : "20260330120000",
   "name" : "TreR401ActiviteSocialeRegulee",
   "title" : "Tre R401 Activite Sociale Regulee",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-23T12:00:00.000+00:00",
+  "date" : "2026-03-30T12:00:00.000+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Cette TRE hiérarchique remplace les TRE_R280-DisciplineEquipementSocial, TRE_R298-AgregatDisciplineEquipSocNiv1, TRE_R299-AgregatDisciplineEquipSocNiv2, TRE_R300-AgregatDisciplineEquipSocNiv3 et l'ASS_X14_AgregatDisciplineEquipementSocial. Cette TRE possède des propriétés spécifiques : le niveau d'agrégat desASOCR de 1 à 4 (du plus large au plus fin), le parent d'un agrégat d'ASOCR ou d'une ASOCR ainsi que les relations nécessaires à la construction des JDV dynamiques associés",
   "jurisdiction" : [{
@@ -1394,22 +1394,14 @@ Cette TRE hiérarchique remplace les TRE_R280-DisciplineEquipementSocial, TRE_R2
   },
   {
     "code" : "259",
-    "display" : "Activ.Club et Équipe de Prévention",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "Act.Club Equip.Prév."
-    }],
+    "display" : "Prévention spécialisée",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-10-26T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2018-10-26T12:00:00+01:00"
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "status",

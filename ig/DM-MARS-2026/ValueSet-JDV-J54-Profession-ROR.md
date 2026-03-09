@@ -299,7 +299,7 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge",
-      "version" : "20260202120000",
+      "version" : "20260330120000",
       "concept" : [{
         "code" : "330",
         "display" : "Coordonnateur de parcours"

@@ -88,7 +88,7 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
-      "version" : "20260223120000",
+      "version" : "20260330120000",
       "filter" : [{
         "property" : "ror",
         "op" : "=",

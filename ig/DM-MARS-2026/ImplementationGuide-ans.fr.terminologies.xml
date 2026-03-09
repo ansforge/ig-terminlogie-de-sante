@@ -11,7 +11,7 @@
   <name value="Terminologies"/>
   <title value="Terminologies  de Santé"/>
   <status value="active"/>
-  <date value="2026-03-06T08:45:28+00:00"/>
+  <date value="2026-03-09T10:02:41+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -27573,6 +27573,28 @@
       </reference>
       <name value="Tre R408 Type Enseignement Specialise"/>
       <description value="Type d'enseignement spécialisé."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r409-type-duree-interruption-exercice"/>
+      </reference>
+      <name value="Tre R409 Type Duree Interruption Exercice"/>
+      <description value="Le type de l’interruption indique la nature temporelle de la mesure d’interruption d’exercer assignée au professionnel de santé. Il permet de distinguer une interruption appliquée pour une période limitée d’une interruption définitive. Lorsqu’il s’agit d’une interruption temporaire, la suspension ou l’interdiction s’applique sur une période bornée, avec une date de début et une date de fin définies par l’autorité compétente, qu’il s’agisse d’un ordre, d’une ARS, d’une chambre disciplinaire ou d’un tribunal. Le type permanent correspond à une interruption d’exercice sans limite de durée. Il s’agit d’une mesure qui prive définitivement le professionnel de la possibilité d’exercer la profession concernée... Le type de l’interruption est l’un des critères structurant pour déterminer les impacts sur la publication des données, l’opposition des moyens d’identification électroniques, et les règles de traitement dans les systèmes d’information."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r410-perimetre-interruption-exercice"/>
+      </reference>
+      <name value="Tre R410 Perimetre Interruption Exercice"/>
+      <description value="Le périmètre décrit l’étendue réelle de l’interruption d’exercer. Une interruption totale signifie que le professionnel ne peut accomplir aucune des activités relevant de la profession concernée. Dans ce cas, la profession doit être considérée comme non autorisée à exercer, ce qui entraîne notamment sa dépublication des données publiques de l’annuaire. Une interruption partielle correspond à une interdiction limitée à certains segments de l’exercice professionnel (une partie des activités du professionnel de santé). Le professionnel conserve alors le droit d'exercer les autres activités de sa profession... Le périmètre joue un rôle central dans les règles de publication et des accès aux services numériques en santé."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

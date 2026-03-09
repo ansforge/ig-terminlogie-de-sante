@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge | *Version*:20260202120000 | |
-| Active as of 2026-02-02 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R85_RolePriseCharge |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge | *Version*:20260330120000 | |
+| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R85_RolePriseCharge |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.107 | | |
 
  
@@ -55,11 +55,11 @@ Rôle dans la prise en charge des patients ou des usagers
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.107"
   }],
-  "version" : "20260202120000",
+  "version" : "20260330120000",
   "name" : "TRE_R85_RolePriseCharge",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-02T12:00:00+01:00",
+  "date" : "2026-03-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Rôle dans la prise en charge des patients ou des usagers",
   "jurisdiction" : [{
@@ -70,7 +70,7 @@ Rôle dans la prise en charge des patients ou des usagers
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 75,
+  "count" : 76,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -1676,6 +1676,23 @@ Rôle dans la prise en charge des patients ou des usagers
     {
       "code" : "dateMaj",
       "valueDateTime" : "2026-02-02T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "375",
+    "display" : "Conseiller conjugal et familial",
+    "definition" : "Ref juridique : arrêté du 3 décembre 2010 relatif à la formation des personnels intervenant dans les centres de planification ou d’éducation familiale et dans les établissements d’information, de consultation ou de conseil familial.​ Le Conseiller conjugal et familial exerce – auprès des jeunes, des femmes, des couples et des familles – des activités d’information, d’orientation et d’accompagnement dans tous les domaines liés à la vie affective et sexuelle, aux conduites à risques, aux discriminations, aux violences (sexuelles, sexistes, de couple...), aux problèmes relationnels dans le couple et dans la famille. ​ Il s’inscrit dans le cadre de la promotion de la santé et de l’approche globale des personnes en matière d’éducation à la sexualité. Il s’appuie sur l’analyse de pratique, la formation continue, le travail en réseau et le cadre déontologique de l'écoute active pour répondre au plus juste aux besoins des personnes.",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "status",

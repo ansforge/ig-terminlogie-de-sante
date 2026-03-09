@@ -46,7 +46,7 @@ Table d’association rôle / genre d’activité pour la saisie automatique
   }],
   "group" : [{
     "source" : "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge",
-    "sourceVersion" : "20260202120000",
+    "sourceVersion" : "20260330120000",
     "target" : "https://mos.esante.gouv.fr/NOS/TRE_R22-GenreActivite/FHIR/TRE-R22-GenreActivite",
     "targetVersion" : "20240329120000",
     "element" : [{

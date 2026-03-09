@@ -20,7 +20,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS",
-    "version" : "20260202120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "JDV_J01_XdsAuthorSpecialty_CISIS",
     "title" : null,
@@ -73,7 +73,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J05-SubjectRole-CISIS/FHIR/JDV-J05-SubjectRole-CISIS",
-    "version" : "20260223120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "JDV_J05_SubjectRole_CISIS",
     "title" : null,
@@ -248,7 +248,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J108-EnsembleFonction-RASS/FHIR/JDV-J108-EnsembleFonction-RASS",
-    "version" : "20260202120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "JDV_J108_EnsembleFonction_RASS",
     "title" : null,
@@ -406,7 +406,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J121-RolePriseCharge-ENREG/FHIR/JDV-J121-RolePriseCharge-ENREG",
-    "version" : "20260202120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "JDV_J121_RolePriseCharge_ENREG",
     "title" : null,

@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement | *Version*:20260223120000 | |
-| Active as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R66_CategorieEtablissement |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement | *Version*:20260330120000 | |
+| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R66_CategorieEtablissement |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.8 | | |
 
  
@@ -56,11 +56,11 @@ Catégorie d’établissements
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.8"
   }],
-  "version" : "20260223120000",
+  "version" : "20260330120000",
   "name" : "TRE_R66_CategorieEtablissement",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-23T12:00:00+01:00",
+  "date" : "2026-03-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Catégorie d'établissements",
   "jurisdiction" : [{
@@ -2644,12 +2644,20 @@ Catégorie d’établissements
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
     },
     {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
+    },
+    {
       "code" : "dateMaj",
-      "valueDateTime" : "2005-07-06T00:00:00+01:00"
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "deprecated"
     }]
   },
   {
@@ -2692,8 +2700,16 @@ Catégorie d’établissements
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
     },
     {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
+    },
+    {
       "code" : "dateMaj",
-      "valueDateTime" : "1990-01-05T00:00:00+01:00"
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -5004,12 +5020,16 @@ Catégorie d’établissements
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
     },
     {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
+    },
+    {
       "code" : "dateMaj",
-      "valueDateTime" : "2005-07-06T00:00:00+01:00"
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "deprecated"
     }]
   },
   {
@@ -5340,12 +5360,20 @@ Catégorie d’établissements
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
     },
     {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
+    },
+    {
       "code" : "dateMaj",
-      "valueDateTime" : "1979-01-23T00:00:00+01:00"
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "deprecated"
     }]
   },
   {
@@ -5652,12 +5680,20 @@ Catégorie d’établissements
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
     },
     {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
+    },
+    {
       "code" : "dateMaj",
-      "valueDateTime" : "1979-01-23T00:00:00+01:00"
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "deprecated"
     }]
   },
   {
@@ -6580,12 +6616,20 @@ Catégorie d’établissements
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
     },
     {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
+    },
+    {
       "code" : "dateMaj",
-      "valueDateTime" : "1982-11-19T00:00:00+01:00"
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "deprecated"
     }]
   },
   {
@@ -6660,12 +6704,20 @@ Catégorie d’établissements
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
     },
     {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
+    },
+    {
       "code" : "dateMaj",
-      "valueDateTime" : "1994-07-05T00:00:00+01:00"
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "deprecated"
     }]
   },
   {
@@ -6724,12 +6776,20 @@ Catégorie d’établissements
       "valueDateTime" : "1979-01-01T00:00:00+01:00"
     },
     {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
+    },
+    {
       "code" : "dateMaj",
-      "valueDateTime" : "1982-12-08T00:00:00+01:00"
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "deprecated"
     }]
   },
   {

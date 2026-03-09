@@ -43,11 +43,11 @@ Vous touverez ici la liste des JDV du NOS.
 | [JdvJ385CompositionFoyerMs](ValueSet-jdv-j385-composition-foyer-ms.md) | Désigne avec qui vit l’usager dans son logement. | 02/02/2026 |
 | [JdvJ386TypeEnseignementSpecialiseMs](ValueSet-jdv-j386-type-enseignement-specialise-ms.md) | Type d'enseignement spécialisé. | 02/02/2026 |
 | [JdvJ387RoleParticipantMs](ValueSet-jdv-j387-role-participant-ms.md) | Rôle du participant vis à vis de l'événement (mandataire judiciaire, structure en charge de l'événement). | 02/02/2026 |
-| [JDV_J01_XdsAuthorSpecialty_CISIS](ValueSet-JDV-J01-XdsAuthorSpecialty-CISIS.md) | XDS authorSpecialty CI-SIS | 02/02/2026 |
+| [JDV_J01_XdsAuthorSpecialty_CISIS](ValueSet-JDV-J01-XdsAuthorSpecialty-CISIS.md) | XDS authorSpecialty CI-SIS | 30/03/2026 |
 | [JDV_J02_XdsHealthcareFacilityTypeCode_CISIS](ValueSet-JDV-J02-XdsHealthcareFacilityTypeCode-CISIS.md) | XDS healthcareFacilityTypeCode CI-SIS | 23/02/2026 |
 | [JDV_J03_XdsContentTypeCode_CISIS](ValueSet-JDV-J03-XdsContentTypeCode-CISIS.md) | XDS contentTypeCode CI-SIS | 23/02/2026 |
 | [JDV_J04_XdsPracticeSettingCode_CISIS](ValueSet-JDV-J04-XdsPracticeSettingCode-CISIS.md) | XDS practiceSettingCode CI-SIS | 27/09/2024 |
-| [JDV_J05_SubjectRole_CISIS](ValueSet-JDV-J05-SubjectRole-CISIS.md) | subjectRole CI-SIS | 23/02/2026 |
+| [JDV_J05_SubjectRole_CISIS](ValueSet-JDV-J05-SubjectRole-CISIS.md) | subjectRole CI-SIS | 30/03/2026 |
 | [JDV_J06_XdsClassCode_CISIS](ValueSet-JDV-J06-XdsClassCode-CISIS.md) | XDS classCode CI-SIS | 22/09/2023 |
 | [JDV_J07_XdsTypeCode_CISIS](ValueSet-JDV-J07-XdsTypeCode-CISIS.md) | XDS typeCode CI-SIS | 02/02/2026 |
 | [JDV_J08_XdsConfidentialityCode_CISIS](ValueSet-JDV-J08-XdsConfidentialityCode-CISIS.md) | XDS confidentialityCode - CI-SIS | 24/04/2020 |
@@ -134,7 +134,7 @@ Vous touverez ici la liste des JDV du NOS.
 | [JDV_J105_EnsembleDiplome_RASS](ValueSet-JDV-J105-EnsembleDiplome-RASS.md) | Ensemble des diplômes et qualifications du RASS | 23/02/2026 |
 | [JDV_J106_EnsembleProfession_RASS](ValueSet-JDV-J106-EnsembleProfession-RASS.md) | Ensemble des professions du RASS | 28/03/2025 |
 | [JDV_J107_EnsembleSavoirFaire_RASS](ValueSet-JDV-J107-EnsembleSavoirFaire-RASS.md) | Ensemble des savoir-faire et compétences du RASS | 22/12/2025 |
-| [JDV_J108_EnsembleFonction_RASS](ValueSet-JDV-J108-EnsembleFonction-RASS.md) | Ensemble des fonctions et rôles du RASS | 02/02/2026 |
+| [JDV_J108_EnsembleFonction_RASS](ValueSet-JDV-J108-EnsembleFonction-RASS.md) | Ensemble des fonctions et rôles du RASS | 30/03/2026 |
 | [JDV_J110_StatutVisibiliteDocument_CISIS](ValueSet-JDV-J110-StatutVisibiliteDocument-CISIS.md) | Restriction d'audience applicable aux objets référencés liste - CISIS | 24/04/2020 |
 | [JDV_J111_StatutEtatCivil_ENREG](ValueSet-JDV-J111-StatutEtatCivil-ENREG.md) | Statut de l'état civil pour ENREG | 31/01/2025 |
 | [JDV_J112_SexeAdministratif_ENREG](ValueSet-JDV-J112-SexeAdministratif-ENREG.md) | Sexe administratif pour ENREG | 29/05/2020 |
@@ -145,7 +145,7 @@ Vous touverez ici la liste des JDV du NOS.
 | [JDV_J118_CategorieProfessionnelle_ENREG](ValueSet-JDV-J118-CategorieProfessionnelle-ENREG.md) | Catégorie professionnelle pour ENREG | 23/02/2026 |
 | [JDV_J119_TypeActiviteLiberale_ENREG](ValueSet-JDV-J119-TypeActiviteLiberale-ENREG.md) | Type d'activité libérale pour ENREG | 29/05/2020 |
 | [JDV_J120_CommuneHistorisee](ValueSet-JDV-J120-CommuneHistorisee.md) | Toute la nomenclature des codes communes auquel on ajoute le code applicatif "Non renseigné" | 28/06/2024 |
-| [JDV_J121_RolePriseCharge_ENREG](ValueSet-JDV-J121-RolePriseCharge-ENREG.md) | Code des rôles et fonctions pour l'application ENREG | 02/02/2026 |
+| [JDV_J121_RolePriseCharge_ENREG](ValueSet-JDV-J121-RolePriseCharge-ENREG.md) | Code des rôles et fonctions pour l'application ENREG | 30/03/2026 |
 | [JDV_J122_Profession_ENREG](ValueSet-JDV-J122-Profession-ENREG.md) | Liste des professions autorisées dans ENREG Cette liste ne doit contenir qu'une professions définie comme profession par défaut pour les professionnels caractérisés par leur rôle. | 24/11/2023 |
 | [JDV_J124_Commune](ValueSet-JDV-J124-Commune.md) | Toute la nomenclature des codes actuels communes auquel on ajoute le code applicatif "Non renseigné" | 28/06/2024 |
 | [JDV_J125_MotifRejet_ENREG](ValueSet-JDV-J125-MotifRejet-ENREG.md) | Code des motifs de refus d'une demande d'enregistrement pour l'application ENREG | 27/11/2020 |

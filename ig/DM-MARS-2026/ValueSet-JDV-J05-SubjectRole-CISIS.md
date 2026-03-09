@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J05-SubjectRole-CISIS/FHIR/JDV-J05-SubjectRole-CISIS | *Version*:20260223120000 | |
-| Active as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J05_SubjectRole_CISIS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J05-SubjectRole-CISIS/FHIR/JDV-J05-SubjectRole-CISIS | *Version*:20260330120000 | |
+| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J05_SubjectRole_CISIS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.470 | | |
 
  
@@ -71,11 +71,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.470"
   }],
-  "version" : "20260223120000",
+  "version" : "20260330120000",
   "name" : "JDV_J05_SubjectRole_CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-23T12:00:00+01:00",
+  "date" : "2026-03-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "subjectRole CI-SIS",
   "jurisdiction" : [{
@@ -1631,7 +1631,7 @@ Requête sur le SMT
     },
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge",
-      "version" : "20260202120000",
+      "version" : "20260330120000",
       "concept" : [{
         "code" : "300",
         "display" : "Assistant de service social (PAERPA)"
@@ -1911,6 +1911,10 @@ Requête sur le SMT
       {
         "code" : "374",
         "display" : "Agent d'autorité d'enregistrement"
+      },
+      {
+        "code" : "375",
+        "display" : "Conseiller conjugal et familial"
       }]
     }]
   }

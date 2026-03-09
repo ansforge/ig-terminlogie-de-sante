@@ -346,6 +346,8 @@ Les systèmes d'identification définis ici sont destinés à la commodité des 
 | TreR406FormeActiviteSmsseRegulee | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee | 1.2.250.1.213.1.6.1.385 |
 | TreR407CompositionFoyer | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r407-composition-foyer | 1.2.250.1.213.3.3.261 |
 | TreR408TypeEnseignementSpecialise | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise | 1.2.250.1.213.3.3.262 |
+| TreR409TypeDureeInterruptionExercice | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee | 1.2.250.1.213.1.6.1.396 |
+| TreR410PerimetreInterruptionExercice | https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee | 1.2.250.1.213.1.6.1.397 |
 | UCUM | http://unitsofmeasure.org | 2.16.840.1.113883.6.8 |
 | V3SpecimenTypeSupplementFr | https://smt.esante.gouv.fr/fhir/CodeSystem/v3-SpecimenType-supplement-fr |  |
 
