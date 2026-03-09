@@ -18,4 +18,4 @@ Description: "Jeu de valeurs FINESS contenant les types de documents justificati
 * ^experimental = false
 * ^date = "2025-02-22T18:02:28.249+00:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* include codes from system $tre-r364-type-document-administratif where DocumentJustificatifFiness = "true"
+* include codes from system $tre-r364-type-document-administratif where documentJustificatifFiness = "true"

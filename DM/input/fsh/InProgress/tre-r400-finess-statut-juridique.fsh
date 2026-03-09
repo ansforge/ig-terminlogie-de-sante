@@ -61,7 +61,7 @@ Description: "Cette TRE hiérarchique remplace les TRE_R68-FinessAgregatStatutJu
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateValid
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid"
-* ^property[=].description = "date de validité d'un code concept"
+* ^property[=].description = "Date de validité d'un code concept"
 * ^property[=].type = #dateTime
 * ^property[+].code = #dateMaj
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj"

@@ -18,4 +18,4 @@ Description: "Liste des autorités d'enregistrement pour EPARS"
 * ^experimental = false
 * ^date = "2025-01-31T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
-* include codes from system $tre-r396-autorite  where AutoriteEnregistrementEpars = "true" and niveau = "2"
+* include codes from system $tre-r396-autorite  where autoriteEnregistrementEpars = "true" and niveau = "2"

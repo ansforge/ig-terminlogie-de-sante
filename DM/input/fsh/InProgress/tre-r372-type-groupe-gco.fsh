@@ -13,7 +13,7 @@ Description: "Nomenclature des types de Groupement de Coopération Organique (GC
 * ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r372-type-groupe-gco"
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.288"
-* ^version = "202507110000"
+* ^version = "20250711120000"
 * ^status = #active
 * ^experimental = false
 * ^date = "2025-07-11T12:00:00+01:00"

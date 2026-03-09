@@ -44,12 +44,12 @@ Description: "Nomenclature des types de documents administratif ( exemple : agr√
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
 * ^property[=].description = "The date at which a concept was retired"
 * ^property[=].type = #dateTime
-* ^property[+].code = #DocumentInformatifFiness
-* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#DocumentInformatifFiness"
+* ^property[+].code = #documentInformatifFiness
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#documentInformatifFiness"
 * ^property[=].description = "Permet de d√©finir les codes √† inclure dans le JdvJ295DocumentInformatifFiness"
 * ^property[=].type = #boolean
-* ^property[+].code = #DocumentJustificatifFiness
-* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#DocumentJustificatifFiness"
+* ^property[+].code = #documentJustificatifFiness
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#documentJustificatifFiness"
 * ^property[=].description = "Permet de d√©finir les codes √† inclure dans le JdvJ294DocumentJustificatifFiness"
 * ^property[=].type = #boolean
 * #001 "Arr√™t√© d'autorisation"
@@ -59,7 +59,7 @@ Description: "Nomenclature des types de documents administratif ( exemple : agr√
 * #001 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #001 ^property[+].code = #status
 * #001 ^property[=].valueCode = #active
-* #001 ^property[+].code = #DocumentJustificatifFiness
+* #001 ^property[+].code = #documentJustificatifFiness
 * #001 ^property[=].valueBoolean = true
 * #002 "Projet de sant√©"
 * #002 ^property[0].code = #dateValid
@@ -68,7 +68,7 @@ Description: "Nomenclature des types de documents administratif ( exemple : agr√
 * #002 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #002 ^property[+].code = #status
 * #002 ^property[=].valueCode = #active
-* #002 ^property[+].code = #DocumentJustificatifFiness
+* #002 ^property[+].code = #documentJustificatifFiness
 * #002 ^property[=].valueBoolean = true
 * #003 "Arr√™t√© d'agr√©ment"
 * #003 ^designation.language = #fr-FR
@@ -81,7 +81,7 @@ Description: "Nomenclature des types de documents administratif ( exemple : agr√
 * #003 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #003 ^property[+].code = #status
 * #003 ^property[=].valueCode = #active
-* #003 ^property[+].code = #DocumentJustificatifFiness
+* #003 ^property[+].code = #documentJustificatifFiness
 * #003 ^property[=].valueBoolean = true
 * #004 "Convention"
 * #004 ^property[0].code = #dateValid
@@ -90,7 +90,7 @@ Description: "Nomenclature des types de documents administratif ( exemple : agr√
 * #004 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #004 ^property[+].code = #status
 * #004 ^property[=].valueCode = #active
-* #004 ^property[+].code = #DocumentJustificatifFiness
+* #004 ^property[+].code = #documentJustificatifFiness
 * #004 ^property[=].valueBoolean = true
 * #005 "Extrait KBIS"
 * #005 ^designation.language = #fr-FR
@@ -103,7 +103,7 @@ Description: "Nomenclature des types de documents administratif ( exemple : agr√
 * #005 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #005 ^property[+].code = #status
 * #005 ^property[=].valueCode = #active
-* #005 ^property[+].code = #DocumentJustificatifFiness
+* #005 ^property[+].code = #documentJustificatifFiness
 * #005 ^property[=].valueBoolean = true
 * #006 "Lettre de renouvellement"
 * #006 ^designation.language = #fr-FR
@@ -116,7 +116,7 @@ Description: "Nomenclature des types de documents administratif ( exemple : agr√
 * #006 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #006 ^property[+].code = #status
 * #006 ^property[=].valueCode = #active
-* #006 ^property[+].code = #DocumentJustificatifFiness
+* #006 ^property[+].code = #documentJustificatifFiness
 * #006 ^property[=].valueBoolean = true
 * #007 "Publication au registre des actes administratifs"
 * #007 ^designation.language = #fr-FR
@@ -129,7 +129,7 @@ Description: "Nomenclature des types de documents administratif ( exemple : agr√
 * #007 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #007 ^property[+].code = #status
 * #007 ^property[=].valueCode = #active
-* #007 ^property[+].code = #DocumentJustificatifFiness
+* #007 ^property[+].code = #documentJustificatifFiness
 * #007 ^property[=].valueBoolean = true
 * #008 "Proc√®s verbal de conformit√©"
 * #008 ^designation.language = #fr-FR
@@ -142,7 +142,7 @@ Description: "Nomenclature des types de documents administratif ( exemple : agr√
 * #008 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #008 ^property[+].code = #status
 * #008 ^property[=].valueCode = #active
-* #008 ^property[+].code = #DocumentJustificatifFiness
+* #008 ^property[+].code = #documentJustificatifFiness
 * #008 ^property[=].valueBoolean = true
 * #009 "Contrat pluriannuel d'objectifs et de moyens"
 * #009 ^designation.language = #fr-FR
@@ -155,7 +155,7 @@ Description: "Nomenclature des types de documents administratif ( exemple : agr√
 * #009 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #009 ^property[+].code = #status
 * #009 ^property[=].valueCode = #active
-* #009 ^property[+].code = #DocumentJustificatifFiness
+* #009 ^property[+].code = #documentJustificatifFiness
 * #009 ^property[=].valueBoolean = true
 * #010 "Lab√©lisation"
 * #010 ^property[0].code = #dateValid
@@ -164,7 +164,7 @@ Description: "Nomenclature des types de documents administratif ( exemple : agr√
 * #010 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #010 ^property[+].code = #status
 * #010 ^property[=].valueCode = #active
-* #010 ^property[+].code = #DocumentJustificatifFiness
+* #010 ^property[+].code = #documentJustificatifFiness
 * #010 ^property[=].valueBoolean = true
 * #011 "Habilitation √† l'aide sociale"
 * #011 ^property[0].code = #dateValid
@@ -173,7 +173,7 @@ Description: "Nomenclature des types de documents administratif ( exemple : agr√
 * #011 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #011 ^property[+].code = #status
 * #011 ^property[=].valueCode = #active
-* #011 ^property[+].code = #DocumentJustificatifFiness
+* #011 ^property[+].code = #documentJustificatifFiness
 * #011 ^property[=].valueBoolean = true
 * #012 "Proc√®s verbal du tribunal de commerce"
 * #012 ^designation.language = #fr-FR
@@ -186,7 +186,7 @@ Description: "Nomenclature des types de documents administratif ( exemple : agr√
 * #012 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #012 ^property[+].code = #status
 * #012 ^property[=].valueCode = #active
-* #012 ^property[+].code = #DocumentJustificatifFiness
+* #012 ^property[+].code = #documentJustificatifFiness
 * #012 ^property[=].valueBoolean = true
 * #013 "Arr√™t√© de tarification"
 * #013 ^designation.language = #fr-FR
@@ -199,7 +199,7 @@ Description: "Nomenclature des types de documents administratif ( exemple : agr√
 * #013 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #013 ^property[+].code = #status
 * #013 ^property[=].valueCode = #active
-* #013 ^property[+].code = #DocumentJustificatifFiness
+* #013 ^property[+].code = #documentJustificatifFiness
 * #013 ^property[=].valueBoolean = true
 * #014 "Autre document justificatif"
 * #014 ^designation.language = #fr-FR
@@ -212,7 +212,7 @@ Description: "Nomenclature des types de documents administratif ( exemple : agr√
 * #014 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #014 ^property[+].code = #status
 * #014 ^property[=].valueCode = #active
-* #014 ^property[+].code = #DocumentJustificatifFiness
+* #014 ^property[+].code = #documentJustificatifFiness
 * #014 ^property[=].valueBoolean = true
 * #101 "Courrier et mail des autorit√©s"
 * #101 ^designation.language = #fr-FR
@@ -225,7 +225,7 @@ Description: "Nomenclature des types de documents administratif ( exemple : agr√
 * #101 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #101 ^property[+].code = #status
 * #101 ^property[=].valueCode = #active
-* #101 ^property[+].code = #DocumentInformatifFiness
+* #101 ^property[+].code = #documentInformatifFiness
 * #101 ^property[=].valueBoolean = true
 * #102 "Courrier et mail de l'√©tablissement"
 * #102 ^designation.language = #fr-FR
@@ -238,7 +238,7 @@ Description: "Nomenclature des types de documents administratif ( exemple : agr√
 * #102 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #102 ^property[+].code = #status
 * #102 ^property[=].valueCode = #active
-* #102 ^property[+].code = #DocumentInformatifFiness
+* #102 ^property[+].code = #documentInformatifFiness
 * #102 ^property[=].valueBoolean = true
 * #103 "Remont√©es r√©alis√©es apr√®s l‚Äôexploitation de questionnaires d‚Äôenqu√™tes"
 * #103 ^designation.language = #fr-FR
@@ -251,7 +251,7 @@ Description: "Nomenclature des types de documents administratif ( exemple : agr√
 * #103 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #103 ^property[+].code = #status
 * #103 ^property[=].valueCode = #active
-* #103 ^property[+].code = #DocumentInformatifFiness
+* #103 ^property[+].code = #documentInformatifFiness
 * #103 ^property[=].valueBoolean = true
 * #104 "Fichiers de donn√©es en provenance d‚Äôautres syst√®mes d‚Äôinformation"
 * #104 ^designation.language = #fr-FR
@@ -264,7 +264,7 @@ Description: "Nomenclature des types de documents administratif ( exemple : agr√
 * #104 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #104 ^property[+].code = #status
 * #104 ^property[=].valueCode = #active
-* #104 ^property[+].code = #DocumentInformatifFiness
+* #104 ^property[+].code = #documentInformatifFiness
 * #104 ^property[=].valueBoolean = true
 * #105 "Signalement des internautes ou des partenaires utilisateurs des donn√©es"
 * #105 ^designation.language = #fr-FR
@@ -277,7 +277,7 @@ Description: "Nomenclature des types de documents administratif ( exemple : agr√
 * #105 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #105 ^property[+].code = #status
 * #105 ^property[=].valueCode = #active
-* #105 ^property[+].code = #DocumentInformatifFiness
+* #105 ^property[+].code = #documentInformatifFiness
 * #105 ^property[=].valueBoolean = true
 * #106 "Autre document informatif"
 * #106 ^property[0].code = #dateValid
@@ -286,5 +286,5 @@ Description: "Nomenclature des types de documents administratif ( exemple : agr√
 * #106 ^property[=].valueDateTime = "1900-01-01T00:00:00+01:00"
 * #106 ^property[+].code = #status
 * #106 ^property[=].valueCode = #active
-* #106 ^property[+].code = #DocumentInformatifFiness
+* #106 ^property[+].code = #documentInformatifFiness
 * #106 ^property[=].valueBoolean = true

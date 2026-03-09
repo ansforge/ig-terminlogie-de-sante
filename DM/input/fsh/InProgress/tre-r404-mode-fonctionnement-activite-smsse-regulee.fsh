@@ -1,6 +1,6 @@
-CodeSystem: TreR404ModeFonctionnemetActiviteSmsseRegulee
+CodeSystem: TreR404ModeFonctionnementActiviteSmsseRegulee
 Id: tre-r404-mode-fonctionnement-activite-smsse-regulee
-Title: "Tre R404 Mode Fonctionnemet Activite Smsse Regulee"
+Title: "Tre R404 Mode Fonctionnement Activite Smsse Regulee"
 Description: "Mode de fonctinonemment des activités ssmsse régulées, remplace la TRE_R209-TypeActivite"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2026-02-23T12:00:00.000+00:00"

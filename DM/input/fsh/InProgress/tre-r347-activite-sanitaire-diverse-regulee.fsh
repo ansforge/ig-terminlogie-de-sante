@@ -16,7 +16,7 @@ Description: "Nomenclature des activités sanitaires utilisée pour décrire les
 * ^version = "20250220120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-02-20"
+* ^date = "2025-02-20T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^caseSensitive = false
 * ^content = #complete
