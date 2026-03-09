@@ -1,7 +1,7 @@
-CodeSystem: TreR409TypeDureeInterruptionExercice
-Id: tre-r409-type-duree-interruption-exercice
-Title: "Tre R409 Type Duree Interruption Exercice"
-Description: "Le type de l’interruption indique la nature temporelle de la mesure d’interruption d’exercer assignée au professionnel de santé. Il permet de distinguer une interruption appliquée pour une période limitée d’une interruption définitive. Lorsqu’il s’agit d’une interruption temporaire, la suspension ou l’interdiction s’applique sur une période bornée, avec une date de début et une date de fin définies par l’autorité compétente, qu’il s’agisse d’un ordre, d’une ARS, d’une chambre disciplinaire ou d’un tribunal. Le type permanent correspond à une interruption d’exercice sans limite de durée. Il s’agit d’une mesure qui prive définitivement le professionnel de la possibilité d’exercer la profession concernée... Le type de l’interruption est l’un des critères structurant pour déterminer les impacts sur la publication des données, l’opposition des moyens d’identification électroniques, et les règles de traitement dans les systèmes d’information."
+CodeSystem: TreR410PerimetreInterruptionExercice
+Id: tre-r410-perimetre-interruption-exercice
+Title: "Tre R410 Perimetre Interruption Exercice"
+Description: "Le périmètre décrit l’étendue réelle de l’interruption d’exercer. Une interruption totale signifie que le professionnel ne peut accomplir aucune des activités relevant de la profession concernée. Dans ce cas, la profession doit être considérée comme non autorisée à exercer, ce qui entraîne notamment sa dépublication des données publiques de l’annuaire. Une interruption partielle correspond à une interdiction limitée à certains segments de l’exercice professionnel (une partie des activités du professionnel de santé). Le professionnel conserve alors le droit d'exercer les autres activités de sa profession... Le périmètre joue un rôle central dans les règles de publication et des accès aux services numériques en santé."
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2026-02-23T12:00:00.000+00:00"
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
@@ -10,7 +10,7 @@ Description: "Le type de l’interruption indique la nature temporelle de la mes
 * ^extension.valuePeriod.start = "2026-03-30T12:00:00+01:00"
 * ^url = "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee"
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.396"
+* ^identifier.value = "urn:oid:1.2.250.1.213.1.6.1.397"
 * ^version = "20260330120000"
 * ^status = #active
 * ^experimental = false
@@ -43,18 +43,18 @@ Description: "Le type de l’interruption indique la nature temporelle de la mes
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#retirementDate"
 * ^property[=].description = "Date Concept was retired"
 * ^property[=].type = #dateTime
-* #D "Permanente" "Interruption d’exercice définitive"
-* #D ^property[0].code = #dateValid
-* #D ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
-* #D ^property[+].code = #dateMaj
-* #D ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
-* #D ^property[+].code = #status
-* #D ^property[=].valueCode = #active
-* #T "Temporaire" "Interruption d’exercice provisoire sur une période donnée"
+* #T "Totale" "Interruption d’exercice portant sur l’ensemble de l’exercice professionnel"
 * #T ^property[0].code = #dateValid
 * #T ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #T ^property[+].code = #dateMaj
 * #T ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #T ^property[+].code = #status
 * #T ^property[=].valueCode = #active
+* #P "Permanente" "Interruption d’exercice portant sur une partie de l’exercice professionnel"
+* #P ^property[0].code = #dateValid
+* #P ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #P ^property[+].code = #dateMaj
+* #P ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #P ^property[+].code = #status
+* #P ^property[=].valueCode = #active
 
