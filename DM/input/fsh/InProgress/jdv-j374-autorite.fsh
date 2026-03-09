@@ -2,7 +2,7 @@ Alias: $tre-r396-autorite = https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-
 
 ValueSet: JdvJ374Autorite
 Id: jdv-j374-autorite
-Title: "Jdv J374 Autorité"
+Title: "Jdv J374 Autorite"
 Description: "Jeu de valeurs contenant la liste des autorités quelque soit la catégorie d'autorité et quelque soir l'état de l'autorité active ou inactive)"
 * ^meta.versionId = "1"
 * ^meta.lastUpdated = "2025-08-26T18:02:28.249+00:00"
