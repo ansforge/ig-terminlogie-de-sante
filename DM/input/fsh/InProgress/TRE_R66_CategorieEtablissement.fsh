@@ -2337,6 +2337,8 @@ Description: "Catégorie d'établissements"
 * #324 ^property[=].valueDateTime = "2026-03-30T00:00:00+01:00"
 * #324 ^property[+].code = #dateMaj
 * #324 ^property[=].valueDateTime = "2026-03-30T00:00:00+01:00"
+* #324 ^property[+].code = #deprecationDate
+* #324 ^property[=].valueDateTime = "2026-03-30T00:00:00+01:00"
 * #324 ^property[+].code = #status
 * #324 ^property[=].valueCode = #deprecated
 * #326 "Ecole de cadres"
