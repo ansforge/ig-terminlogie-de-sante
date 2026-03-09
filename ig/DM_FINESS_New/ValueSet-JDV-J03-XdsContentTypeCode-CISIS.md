@@ -17,7 +17,7 @@ XDS contentTypeCode CI-SIS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -60,21 +60,17 @@ Requête sur le SMT
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2014-10-08T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2014-10-08T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J03-XdsContentTypeCode-CISIS/FHIR/JDV-J03-XdsContentTypeCode-CISIS",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.464"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.464"
+  }],
   "version" : "20251222120000",
   "name" : "JDV_J03_XdsContentTypeCode_CISIS",
   "status" : "active",
@@ -82,78 +78,60 @@ Requête sur le SMT
   "date" : "2025-12-22T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "XDS contentTypeCode CI-SIS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FR"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
   "compose" : {
-    "include" : [
-      {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_A00-ProducteurDocNonPS/FHIR/TRE-A00-ProducteurDocNonPS",
-        "filter" : [
-          {
-            "property" : "cisis",
-            "op" : "=",
-            "value" : "true"
-          }
-        ]
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_A00-ProducteurDocNonPS/FHIR/TRE-A00-ProducteurDocNonPS",
+      "filter" : [{
+        "property" : "cisis",
+        "op" : "=",
+        "value" : "true"
+      }]
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee",
+      "filter" : [{
+        "property" : "cisis",
+        "op" : "=",
+        "value" : "true"
+      }]
+    },
+    {
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite",
+      "filter" : [{
+        "property" : "status",
+        "op" : "=",
+        "value" : "active"
+      }]
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee",
+      "filter" : [{
+        "property" : "cisis",
+        "op" : "=",
+        "value" : "true"
+      }]
+    }],
+    "exclude" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite",
+      "concept" : [{
+        "code" : "SA01"
       },
       {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee",
-        "filter" : [
-          {
-            "property" : "cisis",
-            "op" : "=",
-            "value" : "true"
-          }
-        ]
+        "code" : "SA02"
       },
       {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite",
-        "filter" : [
-          {
-            "property" : "status",
-            "op" : "=",
-            "value" : "active"
-          }
-        ]
+        "code" : "SA03"
       },
       {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee",
-        "filter" : [
-          {
-            "property" : "cisis",
-            "op" : "=",
-            "value" : "true"
-          }
-        ]
-      }
-    ],
-    "exclude" : [
-      {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite",
-        "concept" : [
-          {
-            "code" : "SA01"
-          },
-          {
-            "code" : "SA02"
-          },
-          {
-            "code" : "SA03"
-          },
-          {
-            "code" : "SA04"
-          }
-        ]
-      }
-    ]
+        "code" : "SA04"
+      }]
+    }]
   }
 }
 

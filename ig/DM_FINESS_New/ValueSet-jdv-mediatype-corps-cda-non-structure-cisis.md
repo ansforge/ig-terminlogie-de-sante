@@ -17,7 +17,7 @@ Jdv Mediatype Corps Cda Non Structure CISIS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -59,21 +59,17 @@ Requête sur le SMT
     "lastUpdated" : "2025-12-17T15:45:00.406+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2016-09-01T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2016-09-01T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mediatype-corps-cda-non-structure-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.822"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.822"
+  }],
   "version" : "20251216141839",
   "name" : "JdvMediatypeCorpsCdaNonStructureCisis",
   "title" : "Jdv Mediatype Corps Cda Non Structure CISIS",
@@ -83,33 +79,29 @@ Requête sur le SMT
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Jdv Mediatype Corps Cda Non Structure CISIS",
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-mediaType",
+      "concept" : [{
+        "code" : "application/pdf",
+        "display" : "PDF"
+      },
       {
-        "system" : "http://terminology.hl7.org/CodeSystem/v3-mediaType",
-        "concept" : [
-          {
-            "code" : "application/pdf",
-            "display" : "PDF"
-          },
-          {
-            "code" : "text/plain",
-            "display" : "Plain Text"
-          },
-          {
-            "code" : "text/rtf",
-            "display" : "RTF Text"
-          },
-          {
-            "code" : "image/jpeg",
-            "display" : "JPEG Image"
-          },
-          {
-            "code" : "image/tiff",
-            "display" : "TIFF Image"
-          }
-        ]
-      }
-    ]
+        "code" : "text/plain",
+        "display" : "Plain Text"
+      },
+      {
+        "code" : "text/rtf",
+        "display" : "RTF Text"
+      },
+      {
+        "code" : "image/jpeg",
+        "display" : "JPEG Image"
+      },
+      {
+        "code" : "image/tiff",
+        "display" : "TIFF Image"
+      }]
+    }]
   }
 }
 

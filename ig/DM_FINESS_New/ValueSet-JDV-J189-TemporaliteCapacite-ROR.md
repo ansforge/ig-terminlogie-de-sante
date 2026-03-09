@@ -17,7 +17,7 @@ Sert à indiquer le moment où une capacité sera effective. Il est ainsi possib
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -60,21 +60,17 @@ Requête sur le SMT
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2022-05-27T12:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2022-05-27T12:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J189-TemporaliteCapacite-ROR/FHIR/JDV-J189-TemporaliteCapacite-ROR",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.3.4.22"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.3.4.22"
+  }],
   "version" : "20230922120000",
   "name" : "JDV_J189_TemporaliteCapacite_ROR",
   "status" : "active",
@@ -82,44 +78,36 @@ Requête sur le SMT
   "date" : "2023-09-22T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Sert à indiquer le moment où une capacité sera effective. Il est ainsi possible de décrire la situation immédiate ou de fournir une information prospective de capacités, prenant notamment en compte les entrées et sorties déjà identifiés de patients",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FR"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R331-TemporaliteCapacite/FHIR/TRE-R331-TemporaliteCapacite",
+      "concept" : [{
+        "code" : "01",
+        "display" : "Courant"
+      },
       {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R331-TemporaliteCapacite/FHIR/TRE-R331-TemporaliteCapacite",
-        "concept" : [
-          {
-            "code" : "01",
-            "display" : "Courant"
-          },
-          {
-            "code" : "02",
-            "display" : "Prévisionnel 1 heure"
-          },
-          {
-            "code" : "03",
-            "display" : "Prévisionnel 24 heures"
-          },
-          {
-            "code" : "04",
-            "display" : "Prévisionnel 48 heures"
-          },
-          {
-            "code" : "05",
-            "display" : "Prévisionnel 7 jours"
-          }
-        ]
-      }
-    ]
+        "code" : "02",
+        "display" : "Prévisionnel 1 heure"
+      },
+      {
+        "code" : "03",
+        "display" : "Prévisionnel 24 heures"
+      },
+      {
+        "code" : "04",
+        "display" : "Prévisionnel 48 heures"
+      },
+      {
+        "code" : "05",
+        "display" : "Prévisionnel 7 jours"
+      }]
+    }]
   }
 }
 

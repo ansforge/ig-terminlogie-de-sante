@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J95-ModeExercice-RASS/FHIR/JDV-J95-ModeExercice-RASS | *Version*:20210827120000 | |
-| Active as of 2021-08-27 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J95_ModeExercice_RASS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J95-ModeExercice-RASS/FHIR/JDV-J95-ModeExercice-RASS | *Version*:20260202120000 | |
+| Active as of 2026-02-02 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J95_ModeExercice_RASS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.163 | | |
 
  
@@ -17,7 +17,7 @@ Modes d’exercice du professionnel du RASS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -55,63 +55,55 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "JDV-J95-ModeExercice-RASS",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2025-07-02T17:06:57.639+00:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+    "versionId" : "6",
+    "lastUpdated" : "2026-02-03T15:46:08.578+01:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2019-08-30T12:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2019-08-30T12:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J95-ModeExercice-RASS/FHIR/JDV-J95-ModeExercice-RASS",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.6.1.163"
-    }
-  ],
-  "version" : "20210827120000",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.6.1.163"
+  }],
+  "version" : "20260202120000",
   "name" : "JDV_J95_ModeExercice_RASS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2021-08-27T12:00:00+01:00",
+  "date" : "2026-02-02T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Modes d'exercice du professionnel du RASS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FR"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FRA"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R23-ModeExercice/FHIR/TRE-R23-ModeExercice",
+      "concept" : [{
+        "code" : "S",
+        "display" : "Salarié"
+      },
       {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R23-ModeExercice/FHIR/TRE-R23-ModeExercice",
-        "concept" : [
-          {
-            "code" : "S",
-            "display" : "Salarié"
-          },
-          {
-            "code" : "L",
-            "display" : "Libéral, indépendant, artisan, commerçant"
-          },
-          {
-            "code" : "B",
-            "display" : "Bénévole"
-          }
-        ]
-      }
-    ]
+        "code" : "L",
+        "display" : "Libéral, indépendant, artisan, commerçant"
+      },
+      {
+        "code" : "B",
+        "display" : "Bénévole"
+      },
+      {
+        "code" : "I",
+        "display" : "Indirect"
+      }]
+    }]
   }
 }
 

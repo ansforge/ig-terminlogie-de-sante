@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-age-cisis | *Version*:20251216141840 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvAgeCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-age-cisis | *Version*:20260220142105 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvAgeCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.43 | | |
 
  
@@ -17,7 +17,7 @@ JDV Age CISIS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -55,70 +55,60 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-age-cisis",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2025-12-17T15:42:53.242+01:00",
+    "versionId" : "5",
+    "lastUpdated" : "2026-02-23T14:57:37.941+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2010-01-01T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2010-01-01T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-age-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.43"
-    }
-  ],
-  "version" : "20251216141840",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.43"
+  }],
+  "version" : "20260220142105",
   "name" : "JdvAgeCisis",
   "title" : "JDV Age CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:40+01:00",
+  "date" : "2026-02-20T14:21:05+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Age CISIS",
   "compose" : {
-    "include" : [
-      {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "MED-1288",
-            "display" : "Aucun signe à ce jour ou porteur sain"
-          }
-        ]
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "concept" : [{
+        "code" : "MED-1288",
+        "display" : "Aucun signe à ce jour ou porteur sain"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "255407002",
+        "display" : "néonatal"
       },
       {
-        "system" : "http://snomed.info/sct",
-        "concept" : [
-          {
-            "code" : "255407002",
-            "display" : "néonatal"
-          },
-          {
-            "code" : "767023003",
-            "display" : "période de la vie entre la naissance et la mort"
-          },
-          {
-            "code" : "373068000",
-            "display" : "non déterminé(e)"
-          },
-          {
-            "code" : "303112003",
-            "display" : "période fœtale"
-          },
-          {
-            "code" : "303113008",
-            "display" : "période postmortem"
-          }
-        ]
-      }
-    ]
+        "code" : "767023003",
+        "display" : "période de la vie entre la naissance et la mort"
+      },
+      {
+        "code" : "373068000",
+        "display" : "non déterminé(e)"
+      },
+      {
+        "code" : "303112003",
+        "display" : "période fœtale"
+      },
+      {
+        "code" : "303113008",
+        "display" : "période postmortem"
+      }]
+    }]
   }
 }
 

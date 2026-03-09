@@ -17,7 +17,7 @@ JDV Indicateur Anormalite CISIS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -61,21 +61,17 @@ Expansions are not generated for retired value sets
     "lastUpdated" : "2025-07-08T08:43:02.203+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2010-01-01T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2010-01-01T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-indicateur-anormalite-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.95"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.95"
+  }],
   "version" : "20250708100000",
   "name" : "JdvIndicateurAnormaliteCisis",
   "title" : "JDV Indicateur Anormalite CISIS",
@@ -85,33 +81,29 @@ Expansions are not generated for retired value sets
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Indicateur Anormalite CISIS",
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+      "concept" : [{
+        "code" : "N",
+        "display" : "Normal"
+      },
       {
-        "system" : "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
-        "concept" : [
-          {
-            "code" : "N",
-            "display" : "Normal"
-          },
-          {
-            "code" : "L",
-            "display" : "Anormalement bas"
-          },
-          {
-            "code" : "H",
-            "display" : "Anormalement haut"
-          },
-          {
-            "code" : "LL",
-            "display" : "Très anormalement bas, alerte"
-          },
-          {
-            "code" : "HH",
-            "display" : "Très anormalement haut, alerte"
-          }
-        ]
-      }
-    ]
+        "code" : "L",
+        "display" : "Anormalement bas"
+      },
+      {
+        "code" : "H",
+        "display" : "Anormalement haut"
+      },
+      {
+        "code" : "LL",
+        "display" : "Très anormalement bas, alerte"
+      },
+      {
+        "code" : "HH",
+        "display" : "Très anormalement haut, alerte"
+      }]
+    }]
   }
 }
 

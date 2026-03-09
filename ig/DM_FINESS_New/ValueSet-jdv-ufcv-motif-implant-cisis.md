@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-ufcv-motif-implant-cisis | *Version*:20251216141840 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvUfcvMotifImplantCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-ufcv-motif-implant-cisis | *Version*:20260220142105 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvUfcvMotifImplantCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.4.2.13 | | |
 
  
@@ -17,7 +17,7 @@ JDV UFCV Motif Implant CISIS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -55,82 +55,72 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-ufcv-motif-implant-cisis",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-12-17T15:48:19.422+01:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-02-23T15:00:41.368+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2010-01-01T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2010-01-01T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-ufcv-motif-implant-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.4.2.13"
-    }
-  ],
-  "version" : "20251216141840",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.4.2.13"
+  }],
+  "version" : "20260220142105",
   "name" : "JdvUfcvMotifImplantCisis",
   "title" : "JDV UFCV Motif Implant CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:40+01:00",
+  "date" : "2026-02-20T14:21:05+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV UFCV Motif Implant CISIS",
   "compose" : {
-    "include" : [
-      {
-        "system" : "http://hl7.org/fhir/sid/icd-10",
-        "concept" : [
-          {
-            "code" : "G45.9",
-            "display" : "Accident ischémique cérébral transitoire, sans précision"
-          },
-          {
-            "code" : "I20.9",
-            "display" : "Angine de poitrine, sans précision"
-          },
-          {
-            "code" : "I64",
-            "display" : "Accident vasculaire cérébral, non précisé comme étant hémorragique ou par infarctus"
-          },
-          {
-            "code" : "I65.2",
-            "display" : "Occlusion et sténose de l'artère carotide"
-          },
-          {
-            "code" : "I74.3",
-            "display" : "Embolie et thrombose des artères des membres inférieurs"
-          },
-          {
-            "code" : "I74.4",
-            "display" : "Embolie et thrombose des artères distales, sans précision"
-          },
-          {
-            "code" : "K55",
-            "display" : "Troubles vasculaires de l'intestin"
-          },
-          {
-            "code" : "N28.0",
-            "display" : "Ischémie et infarctus du rein"
-          }
-        ]
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "concept" : [{
+        "code" : "G45.9",
+        "display" : "Accident ischémique cérébral transitoire, sans précision"
       },
       {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "MED-1317",
-            "display" : "Prévention primaire d'un sujet à haut risque"
-          }
-        ]
-      }
-    ]
+        "code" : "I20.9",
+        "display" : "Angine de poitrine, sans précision"
+      },
+      {
+        "code" : "I64",
+        "display" : "Accident vasculaire cérébral, non précisé comme étant hémorragique ou par infarctus"
+      },
+      {
+        "code" : "I65.2",
+        "display" : "Occlusion et sténose de l'artère carotide"
+      },
+      {
+        "code" : "I74.3",
+        "display" : "Embolie et thrombose des artères des membres inférieurs"
+      },
+      {
+        "code" : "I74.4",
+        "display" : "Embolie et thrombose des artères distales, sans précision"
+      },
+      {
+        "code" : "K55",
+        "display" : "Troubles vasculaires de l'intestin"
+      },
+      {
+        "code" : "N28.0",
+        "display" : "Ischémie et infarctus du rein"
+      }]
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "concept" : [{
+        "code" : "MED-1317",
+        "display" : "Prévention primaire d'un sujet à haut risque"
+      }]
+    }]
   }
 }
 

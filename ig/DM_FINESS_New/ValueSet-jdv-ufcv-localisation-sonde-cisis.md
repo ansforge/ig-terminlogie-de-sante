@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-ufcv-localisation-sonde-cisis | *Version*:20251216141840 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvUfcvLocalisationSondeCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-ufcv-localisation-sonde-cisis | *Version*:20260220142105 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvUfcvLocalisationSondeCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.4.2.15 | | |
 
  
@@ -17,7 +17,7 @@ JDV UFCV Localisation Sonde CISIS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -55,90 +55,80 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-ufcv-localisation-sonde-cisis",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-12-17T15:48:15.609+01:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-02-23T15:00:39.217+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2010-01-01T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2010-01-01T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-ufcv-localisation-sonde-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.4.2.15"
-    }
-  ],
-  "version" : "20251216141840",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.4.2.15"
+  }],
+  "version" : "20260220142105",
   "name" : "JdvUfcvLocalisationSondeCisis",
   "title" : "JDV UFCV Localisation Sonde CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:40+01:00",
+  "date" : "2026-02-20T14:21:05+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV UFCV Localisation Sonde CISIS",
   "compose" : {
-    "include" : [
-      {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "MED-1314",
-            "display" : "Paroi Libre de l’OD"
-          },
-          {
-            "code" : "MED-1315",
-            "display" : "Plancher VD"
-          },
-          {
-            "code" : "MED-1316",
-            "display" : "Veine cardiaque latérale gauche"
-          }
-        ]
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "concept" : [{
+        "code" : "MED-1314",
+        "display" : "Paroi Libre de l’OD"
       },
       {
-        "system" : "http://snomed.info/sct",
-        "concept" : [
-          {
-            "code" : "13383001",
-            "display" : "apex du cœur"
-          },
-          {
-            "code" : "49082002",
-            "display" : "petite veine cardiaque"
-          },
-          {
-            "code" : "5928000",
-            "display" : "grande veine cardiaque"
-          },
-          {
-            "code" : "589001",
-            "display" : "septum interventriculaire"
-          },
-          {
-            "code" : "44627009",
-            "display" : "voie efférente du ventricule droit"
-          },
-          {
-            "code" : "6871001",
-            "display" : "péricarde viscéral"
-          },
-          {
-            "code" : "68300000",
-            "display" : "appendice atrial droite"
-          },
-          {
-            "code" : "195416006",
-            "display" : "veine postérieure du ventricule gauche"
-          }
-        ]
-      }
-    ]
+        "code" : "MED-1315",
+        "display" : "Plancher VD"
+      },
+      {
+        "code" : "MED-1316",
+        "display" : "Veine cardiaque latérale gauche"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "13383001",
+        "display" : "apex du cœur"
+      },
+      {
+        "code" : "49082002",
+        "display" : "petite veine cardiaque"
+      },
+      {
+        "code" : "5928000",
+        "display" : "grande veine cardiaque"
+      },
+      {
+        "code" : "589001",
+        "display" : "septum interventriculaire"
+      },
+      {
+        "code" : "44627009",
+        "display" : "voie efférente du ventricule droit"
+      },
+      {
+        "code" : "6871001",
+        "display" : "péricarde viscéral"
+      },
+      {
+        "code" : "68300000",
+        "display" : "appendice atrial droite"
+      },
+      {
+        "code" : "195416006",
+        "display" : "veine postérieure du ventricule gauche"
+      }]
+    }]
   }
 }
 

@@ -17,7 +17,7 @@ Liste des autorités d’enregistrement pour EPARS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -60,21 +60,17 @@ Requête sur le SMT
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2021-06-25T12:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2021-06-25T12:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J170-AutoriteEnregistrement-EPARS/FHIR/JDV-J170-AutoriteEnregistrement-EPARS",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.6.1.231"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.6.1.231"
+  }],
   "version" : "20250131120000",
   "name" : "JDV_J170_AutoriteEnregistrement_EPARS",
   "status" : "active",
@@ -83,23 +79,19 @@ Requête sur le SMT
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Liste des autorités d'enregistrement pour EPARS",
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
+      "filter" : [{
+        "property" : "autoriteEnregistrementEpars",
+        "op" : "=",
+        "value" : "true"
+      },
       {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-        "filter" : [
-          {
-            "property" : "AutoriteEnregistrementEpars",
-            "op" : "=",
-            "value" : "true"
-          },
-          {
-            "property" : "niveau",
-            "op" : "=",
-            "value" : "2"
-          }
-        ]
-      }
-    ]
+        "property" : "niveau",
+        "op" : "=",
+        "value" : "2"
+      }]
+    }]
   }
 }
 

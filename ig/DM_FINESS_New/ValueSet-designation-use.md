@@ -9,7 +9,7 @@
 | | | | |
 | :--- | :--- | :--- | :--- |
 | *Official URL*:http://hl7.org/fhir/ValueSet/designation-use | *Version*:4.0.1 | | |
-| *Standards status:*[Normative](http://hl7.org/fhir/R4/versions.html#std-process) | [Maturity Level](http://hl7.org/fhir/versions.html#maturity): 5 | *Responsible:*[FHIR Project](http://hl7.org/fhir) | *Computable Name*:DesignationUse |
+| * Standards status: *[Normative](http://hl7.org/fhir/R4/versions.html#std-process) | [Maturity Level](http://hl7.org/fhir/versions.html#maturity): 5 | *Responsible:*[FHIR Project](http://hl7.org/fhir) | *Computable Name*:DesignationUse |
 | *Other Identifiers:*OID:2.16.840.1.113883.4.642.3.264 | | | |
 | **Copyright/Legal**: This resource includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these specifications must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomed-ct or info@snomed.org | | | |
 
@@ -61,35 +61,31 @@ Requête sur le SMT
     "lastUpdated" : "2024-04-16T13:13:53.514+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/valueset-warning",
-      "valueMarkdown" : "Licensing note: this value set has an extensible binding, and includes concepts from SNOMED CT. The SNOMED CT concepts included in this value set - description types for SCT terms - are for use with SNOMED-CT, and not expected to be used with other code systems."
-    },
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
-      "valueCode" : "vocab"
-    },
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
-      "valueCode" : "normative"
-    },
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
-      "valueCode" : "4.0.0"
-    },
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
-      "valueInteger" : 5
-    }
-  ],
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/valueset-warning",
+    "valueMarkdown" : "Licensing note: this value set has an extensible binding, and includes concepts from SNOMED CT. The SNOMED CT concepts included in this value set - description types for SCT terms - are for use with SNOMED-CT, and not expected to be used with other code systems."
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+    "valueCode" : "vocab"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "normative"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
+    "valueCode" : "4.0.0"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 5
+  }],
   "url" : "http://hl7.org/fhir/ValueSet/designation-use",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:2.16.840.1.113883.4.642.3.264"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:2.16.840.1.113883.4.642.3.264"
+  }],
   "version" : "4.0.1",
   "name" : "DesignationUse",
   "title" : "Designation Use",
@@ -97,36 +93,28 @@ Requête sur le SMT
   "experimental" : false,
   "date" : "2019-11-01T09:29:23+11:00",
   "publisher" : "FHIR Project",
-  "contact" : [
+  "contact" : [{
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://hl7.org/fhir"
+    },
     {
-      "telecom" : [
-        {
-          "system" : "url",
-          "value" : "http://hl7.org/fhir"
-        },
-        {
-          "system" : "email",
-          "value" : "fhir@lists.hl7.org"
-        }
-      ]
-    }
-  ],
+      "system" : "email",
+      "value" : "fhir@lists.hl7.org"
+    }]
+  }],
   "description" : "Details of how a designation would be used",
   "copyright" : "This resource includes content from SNOMED Clinical Terms® (SNOMED CT®) which is copyright of the International Health Terminology Standards Development Organisation (IHTSDO). Implementers of these specifications must have the appropriate SNOMED CT Affiliate license - for more information contact http://www.snomed.org/snomed-ct/get-snomed-ct or info@snomed.org",
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "900000000000003001"
+      },
       {
-        "system" : "http://snomed.info/sct",
-        "concept" : [
-          {
-            "code" : "900000000000003001"
-          },
-          {
-            "code" : "900000000000013009"
-          }
-        ]
-      }
-    ]
+        "code" : "900000000000013009"
+      }]
+    }]
   }
 }
 

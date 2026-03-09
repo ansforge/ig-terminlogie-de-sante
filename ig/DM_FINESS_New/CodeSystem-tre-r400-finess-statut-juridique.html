@@ -41,8 +41,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"8.905"}
-    h3,h4,h5,h6{--heading-prefix:"8.905"}</style>
+    <style type="text/css">h2{--heading-prefix:"8.916"}
+    h3,h4,h5,h6{--heading-prefix:"8.916"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -161,7 +161,7 @@
         <div class="row">
           <div class="inner-wrapper">
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">Terminologies  de Santé (Publiées par l'ANS) - version de développement local (v0.1.0) construite par les outils de publication FHIR (HL7® FHIR® Standard). Voir le <a href='https://interop.esante.gouv.fr/terminologies/history.html'>répertoire des versions publiées</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">Terminologies  de Santé (Publiées par l'ANS) - version de développement local (intégration continue v0.1.0) construite par les outils de publication FHIR (HL7® FHIR® Standard). Voir le <a href='https://interop.esante.gouv.fr/terminologies/history.html'>répertoire des versions publiées</a></p><!--EndReleaseHeader-->
   
 
 
@@ -248,7 +248,7 @@
       <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique<button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique"/></span>
       </td>
       <td><i>Version</i>:
-      <span class="copy-text">20250923120000<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique|20250923120000"/></span>
+      <span class="copy-text">20260223120000<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique|20260223120000"/></span>
       </td>
     </tr>
  
@@ -264,7 +264,7 @@
         
           Active
           
-            as of 2025-09-25
+            as of 2026-02-23
           
         
       </td>
@@ -287,7 +287,7 @@
         <i>As active of:</i> 
       </td>
       <td colspan="2">
-        <i>RevisionDate:</i> 2025-09-25T12:00:00+01:00
+        <i>RevisionDate:</i> 2026-02-23T12:00:00.000+00:00
       </td>      
     </tr>
 
@@ -316,7 +316,7 @@
 
 
 <p>
-<p>Statuts juridiques de FINESS</p>
+<p>Cette TRE hiérarchique remplace les TRE_R68-FinessAgregatStatutJuridiqueNiv1, TRE_R69-FinessAgregatStatutJuridiqueNiv2, TRE_R70-FinessAgregatStatutJuridique, TRE_R72-FinessStatutJuridique, et l’association ASS_X11_FinessAgregatStatutJuridique. Cette TRE possède des propriétés spécifiques : le niveau d’agrégat des statuts juridiques  de 1 à 4 ( du plus large au plus fin), le parent d’un agrégat de statuts juridiques ou d’un statut juridique, un indicateur pour les statuts juridiques  spécifiques à RPPS ( non finess) et les relations nécessaires à la construction des JDV dynamiques associés</p>
 
 </p>
 
@@ -345,9 +345,9 @@
 
   <div id="orig">  
     <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr-FR" lang="fr-FR" data-fhir="generated"><p class="res-header-id"></p><a name="tre-r400-finess-statut-juridique"> </a><a name="hctre-r400-finess-statut-juridique"> </a>
-<div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version : 1; Dernière mise à jour : 2025-09-28 05:14:07+0000; Langue : fr-FR</p><p style="margin-bottom: 0px">Profil: <a href="http://hl7.org/fhir/R4/shareablecodesystem.html">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p>
+<div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version : 1; Dernière mise à jour : 2026-02-23 12:00:00+0000; Langue : fr-FR</p><p style="margin-bottom: 0px">Profil: <a href="http://hl7.org/fhir/R4/shareablecodesystem.html">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p>
 <table class="grid" data-fhir="generated"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr>
-<tr><td>niveau</td>
+<tr><td>Niveau</td>
 <td>niveau</td>
 <td>https://smt.esante.gouv.fr/fhir/concept-properties#niveau</td>
 <td>integer</td>
@@ -357,27 +357,27 @@
 <td>http://hl7.org/fhir/concept-properties#parent</td>
 <td>code</td>
 <td>An immediate parent of the concept in the hierarchy</td></tr>
-<tr><td>ror</td>
+<tr><td>ROR</td>
 <td>ror</td>
 <td>https://smt.esante.gouv.fr/fhir/concept-properties#ror</td>
 <td>boolean</td>
 <td>Permet de définir les codes concepts utilisés par le ROR</td></tr>
-<tr><td>specialisationRpps</td>
+<tr><td>Specialisation RPPS</td>
 <td>specialisationRpps</td>
 <td>https://smt.esante.gouv.fr/fhir/concept-properties#specialisationRpps</td>
 <td>boolean</td>
 <td>Permet de définir les codes concepts définis par le RPPS</td></tr>
-<tr><td>enreg</td>
+<tr><td>ENREG</td>
 <td>enreg</td>
 <td>https://smt.esante.gouv.fr/fhir/concept-properties#enreg</td>
 <td>boolean</td>
 <td>Permet de définir les codes concepts utilisés par ENREG</td></tr>
-<tr><td>rass</td>
+<tr><td>RASS</td>
 <td>rass</td>
 <td>https://smt.esante.gouv.fr/fhir/concept-properties#rass</td>
 <td>boolean</td>
 <td>Permet de définir les codes concepts uilisés par le RASS</td></tr>
-<tr><td>epars</td>
+<tr><td>ENREG</td>
 <td>epars</td>
 <td>https://smt.esante.gouv.fr/fhir/concept-properties#epars</td>
 <td>boolean</td>
@@ -397,22 +397,22 @@
 <td>http://hl7.org/fhir/concept-properties#retirementDate</td>
 <td>dateTime</td>
 <td>Date Concept was retired</td></tr>
-<tr><td>dateValid</td>
+<tr><td>Date de Validité</td>
 <td>dateValid</td>
 <td>https://smt.esante.gouv.fr/fhir/concept-properties#dateValid</td>
 <td>dateTime</td>
-<td>date de validité d'un code concept</td></tr>
-<tr><td>dateMaj</td>
+<td>Date de validité d'un code concept</td></tr>
+<tr><td>Date de mise à jour</td>
 <td>dateMaj</td>
 <td>https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj</td>
 <td>dateTime</td>
 <td>Date de mise à jour d'un code concept</td></tr>
-<tr><td>dateFin</td>
+<tr><td>Date de fin</td>
 <td>dateFin</td>
 <td>https://smt.esante.gouv.fr/fhir/concept-properties#dateFin</td>
 <td>dateTime</td>
 <td>Date de fin d'exploitation d'un code concept</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique</code> defines the following codes dans une hiérarchie Is-A:</p>
-<table class="codes" data-fhir="generated"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td><td><b>niveau</b></td><td><b>Parent</b></td><td><b>ror</b></td><td><b>specialisationRpps</b></td><td><b>enreg</b></td><td><b>rass</b></td><td><b>epars</b></td><td><b>status</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td></tr>
+<table class="codes" data-fhir="generated"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td><td><b>Niveau</b></td><td><b>Parent</b></td><td><b>ROR</b></td><td><b>Specialisation RPPS</b></td><td><b>ENREG</b></td><td><b>RASS</b></td><td><b>ENREG</b></td><td><b>status</b></td><td><b>Date de Validité</b></td><td><b>Date de mise à jour</b></td></tr>
 <tr><td style="white-space:nowrap">1000<a name="tre-r400-finess-statut-juridique-1000"> </a></td>
 <td>Organismes et Etablissements Publics</td>
 <td></td>
@@ -1878,7 +1878,7 @@
 
 <div class="inner-wrapper">
   <p>
-    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Jan 15, 2026 10:06+0000">2026-01-15</span>
+    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Mar 9, 2026 11:39+0000">2026-03-09</span>
     <br/>
     <span style="color: var(--footer-highlight-text-color)"></span>
       Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

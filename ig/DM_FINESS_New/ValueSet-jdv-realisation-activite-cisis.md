@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-realisation-activite-cisis | *Version*:20251216141839 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvRealisationActiviteCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-realisation-activite-cisis | *Version*:20260220142104 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvRealisationActiviteCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.54 | | |
 
  
@@ -17,7 +17,7 @@ JDV Realisation Activite CISIS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -55,57 +55,49 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-realisation-activite-cisis",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2025-12-17T15:46:11.877+01:00",
+    "versionId" : "5",
+    "lastUpdated" : "2026-02-23T14:59:27.403+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2010-01-01T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2010-01-01T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-realisation-activite-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.54"
-    }
-  ],
-  "version" : "20251216141839",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.54"
+  }],
+  "version" : "20260220142104",
   "name" : "JdvRealisationActiviteCisis",
   "title" : "JDV Realisation Activite CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:39+01:00",
+  "date" : "2026-02-20T14:21:04+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Realisation Activite CISIS",
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "385670004",
+        "display" : "partiellement réussi"
+      },
       {
-        "system" : "http://snomed.info/sct",
-        "concept" : [
-          {
-            "code" : "385670004",
-            "display" : "partiellement réussi"
-          },
-          {
-            "code" : "371152001",
-            "display" : "assisté"
-          },
-          {
-            "code" : "373067005",
-            "display" : "non"
-          },
-          {
-            "code" : "371153006",
-            "display" : "indépendant(e)"
-          }
-        ]
-      }
-    ]
+        "code" : "371152001",
+        "display" : "assisté"
+      },
+      {
+        "code" : "373067005",
+        "display" : "non"
+      },
+      {
+        "code" : "371153006",
+        "display" : "indépendant(e)"
+      }]
+    }]
   }
 }
 

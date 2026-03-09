@@ -17,7 +17,7 @@ Profession de santé - ROR
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -60,21 +60,17 @@ Requête sur le SMT
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2018-10-26T12:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2018-10-26T12:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J54-Profession-ROR/FHIR/JDV-J54-Profession-ROR",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.3.3.64"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.3.3.64"
+  }],
   "version" : "20250523120000",
   "name" : "JDV_J54_Profession_ROR",
   "status" : "active",
@@ -82,256 +78,240 @@ Requête sur le SMT
   "date" : "2025-05-23T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Profession de santé - ROR",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FR"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
   "compose" : {
-    "include" : [
-      {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante",
-        "concept" : [
-          {
-            "code" : "10",
-            "display" : "Médecin"
-          },
-          {
-            "code" : "21",
-            "display" : "Pharmacien"
-          },
-          {
-            "code" : "26",
-            "display" : "Audioprothésiste"
-          },
-          {
-            "code" : "28",
-            "display" : "Opticien-Lunetier"
-          },
-          {
-            "code" : "31",
-            "display" : "Assistant dentaire"
-          },
-          {
-            "code" : "32",
-            "display" : "Physicien médical"
-          },
-          {
-            "code" : "35",
-            "display" : "Aide-soignant"
-          },
-          {
-            "code" : "36",
-            "display" : "Ambulancier"
-          },
-          {
-            "code" : "37",
-            "display" : "Auxiliaire de puériculture"
-          },
-          {
-            "code" : "38",
-            "display" : "Préparateur en pharmacie hospitalière"
-          },
-          {
-            "code" : "39",
-            "display" : "Préparateur en pharmacie (officine)"
-          },
-          {
-            "code" : "40",
-            "display" : "Chirurgien-Dentiste"
-          },
-          {
-            "code" : "50",
-            "display" : "Sage-Femme"
-          },
-          {
-            "code" : "60",
-            "display" : "Infirmier"
-          },
-          {
-            "code" : "69",
-            "display" : "Infirmier psychiatrique"
-          },
-          {
-            "code" : "70",
-            "display" : "Masseur-Kinésithérapeute"
-          },
-          {
-            "code" : "80",
-            "display" : "Pédicure-Podologue"
-          },
-          {
-            "code" : "81",
-            "display" : "Orthoprothésiste"
-          },
-          {
-            "code" : "82",
-            "display" : "Podo-Orthésiste"
-          },
-          {
-            "code" : "83",
-            "display" : "Orthopédiste-Orthésiste"
-          },
-          {
-            "code" : "84",
-            "display" : "Oculariste"
-          },
-          {
-            "code" : "85",
-            "display" : "Epithésiste"
-          },
-          {
-            "code" : "86",
-            "display" : "Technicien de laboratoire médical"
-          },
-          {
-            "code" : "91",
-            "display" : "Orthophoniste"
-          },
-          {
-            "code" : "92",
-            "display" : "Orthoptiste"
-          },
-          {
-            "code" : "93",
-            "display" : "Psychologue"
-          },
-          {
-            "code" : "94",
-            "display" : "Ergothérapeute"
-          },
-          {
-            "code" : "95",
-            "display" : "Diététicien"
-          },
-          {
-            "code" : "96",
-            "display" : "Psychomotricien"
-          },
-          {
-            "code" : "98",
-            "display" : "Manipulateur ERM"
-          }
-        ]
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_G15-ProfessionSante/FHIR/TRE-G15-ProfessionSante",
+      "concept" : [{
+        "code" : "10",
+        "display" : "Médecin"
       },
       {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R94-ProfessionSocial/FHIR/TRE-R94-ProfessionSocial",
-        "concept" : [
-          {
-            "code" : "41",
-            "display" : "Assistant de service social"
-          },
-          {
-            "code" : "42",
-            "display" : "Auxiliaire de vie sociale"
-          },
-          {
-            "code" : "43",
-            "display" : "Technicien de l'intervention sociale et familiale"
-          },
-          {
-            "code" : "44",
-            "display" : "Conseiller en économie sociale et familiale"
-          },
-          {
-            "code" : "45",
-            "display" : "Médiateur familial"
-          },
-          {
-            "code" : "46",
-            "display" : "Assistant familial"
-          },
-          {
-            "code" : "47",
-            "display" : "Aide médico-psychologique"
-          },
-          {
-            "code" : "48",
-            "display" : "Moniteur éducateur"
-          },
-          {
-            "code" : "49",
-            "display" : "Educateur de jeunes enfants"
-          },
-          {
-            "code" : "51",
-            "display" : "Educateur spécialisé"
-          },
-          {
-            "code" : "52",
-            "display" : "Educateur technique spécialisé"
-          },
-          {
-            "code" : "53",
-            "display" : "Accompagnant éducatif et social"
-          }
-        ]
+        "code" : "21",
+        "display" : "Pharmacien"
       },
       {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R95-UsagerTitre/FHIR/TRE-R95-UsagerTitre",
-        "concept" : [
-          {
-            "code" : "71",
-            "display" : "Ostéopathe"
-          },
-          {
-            "code" : "72",
-            "display" : "Psychothérapeute"
-          },
-          {
-            "code" : "73",
-            "display" : "Chiropracteur"
-          },
-          {
-            "code" : "97",
-            "display" : "Conseiller en génétique"
-          }
-        ]
+        "code" : "26",
+        "display" : "Audioprothésiste"
       },
       {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R96-AutreFonctionSanitaire/FHIR/TRE-R96-AutreFonctionSanitaire",
-        "concept" : [
-          {
-            "code" : "407",
-            "display" : "Tatoueur"
-          },
-          {
-            "code" : "408",
-            "display" : "Perceur corporel"
-          },
-          {
-            "code" : "409",
-            "display" : "Maquilleur permanent"
-          }
-        ]
+        "code" : "28",
+        "display" : "Opticien-Lunetier"
       },
       {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge",
-        "concept" : [
-          {
-            "code" : "330",
-            "display" : "Coordonnateur de parcours"
-          },
-          {
-            "code" : "335",
-            "display" : "Gestionnaire alertes et urgences sanitaires"
-          },
-          {
-            "code" : "350",
-            "display" : "Aide à domicile"
-          },
-          {
-            "code" : "351",
-            "display" : "Assistant(e) maternel(le)"
-          }
-        ]
-      }
-    ]
+        "code" : "31",
+        "display" : "Assistant dentaire"
+      },
+      {
+        "code" : "32",
+        "display" : "Physicien médical"
+      },
+      {
+        "code" : "35",
+        "display" : "Aide-soignant"
+      },
+      {
+        "code" : "36",
+        "display" : "Ambulancier"
+      },
+      {
+        "code" : "37",
+        "display" : "Auxiliaire de puériculture"
+      },
+      {
+        "code" : "38",
+        "display" : "Préparateur en pharmacie hospitalière"
+      },
+      {
+        "code" : "39",
+        "display" : "Préparateur en pharmacie (officine)"
+      },
+      {
+        "code" : "40",
+        "display" : "Chirurgien-Dentiste"
+      },
+      {
+        "code" : "50",
+        "display" : "Sage-Femme"
+      },
+      {
+        "code" : "60",
+        "display" : "Infirmier"
+      },
+      {
+        "code" : "69",
+        "display" : "Infirmier psychiatrique"
+      },
+      {
+        "code" : "70",
+        "display" : "Masseur-Kinésithérapeute"
+      },
+      {
+        "code" : "80",
+        "display" : "Pédicure-Podologue"
+      },
+      {
+        "code" : "81",
+        "display" : "Orthoprothésiste"
+      },
+      {
+        "code" : "82",
+        "display" : "Podo-Orthésiste"
+      },
+      {
+        "code" : "83",
+        "display" : "Orthopédiste-Orthésiste"
+      },
+      {
+        "code" : "84",
+        "display" : "Oculariste"
+      },
+      {
+        "code" : "85",
+        "display" : "Epithésiste"
+      },
+      {
+        "code" : "86",
+        "display" : "Technicien de laboratoire médical"
+      },
+      {
+        "code" : "91",
+        "display" : "Orthophoniste"
+      },
+      {
+        "code" : "92",
+        "display" : "Orthoptiste"
+      },
+      {
+        "code" : "93",
+        "display" : "Psychologue"
+      },
+      {
+        "code" : "94",
+        "display" : "Ergothérapeute"
+      },
+      {
+        "code" : "95",
+        "display" : "Diététicien"
+      },
+      {
+        "code" : "96",
+        "display" : "Psychomotricien"
+      },
+      {
+        "code" : "98",
+        "display" : "Manipulateur ERM"
+      }]
+    },
+    {
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R94-ProfessionSocial/FHIR/TRE-R94-ProfessionSocial",
+      "concept" : [{
+        "code" : "41",
+        "display" : "Assistant de service social"
+      },
+      {
+        "code" : "42",
+        "display" : "Auxiliaire de vie sociale"
+      },
+      {
+        "code" : "43",
+        "display" : "Technicien de l'intervention sociale et familiale"
+      },
+      {
+        "code" : "44",
+        "display" : "Conseiller en économie sociale et familiale"
+      },
+      {
+        "code" : "45",
+        "display" : "Médiateur familial"
+      },
+      {
+        "code" : "46",
+        "display" : "Assistant familial"
+      },
+      {
+        "code" : "47",
+        "display" : "Aide médico-psychologique"
+      },
+      {
+        "code" : "48",
+        "display" : "Moniteur éducateur"
+      },
+      {
+        "code" : "49",
+        "display" : "Educateur de jeunes enfants"
+      },
+      {
+        "code" : "51",
+        "display" : "Educateur spécialisé"
+      },
+      {
+        "code" : "52",
+        "display" : "Educateur technique spécialisé"
+      },
+      {
+        "code" : "53",
+        "display" : "Accompagnant éducatif et social"
+      }]
+    },
+    {
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R95-UsagerTitre/FHIR/TRE-R95-UsagerTitre",
+      "concept" : [{
+        "code" : "71",
+        "display" : "Ostéopathe"
+      },
+      {
+        "code" : "72",
+        "display" : "Psychothérapeute"
+      },
+      {
+        "code" : "73",
+        "display" : "Chiropracteur"
+      },
+      {
+        "code" : "97",
+        "display" : "Conseiller en génétique"
+      }]
+    },
+    {
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R96-AutreFonctionSanitaire/FHIR/TRE-R96-AutreFonctionSanitaire",
+      "concept" : [{
+        "code" : "407",
+        "display" : "Tatoueur"
+      },
+      {
+        "code" : "408",
+        "display" : "Perceur corporel"
+      },
+      {
+        "code" : "409",
+        "display" : "Maquilleur permanent"
+      }]
+    },
+    {
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge",
+      "concept" : [{
+        "code" : "330",
+        "display" : "Coordonnateur de parcours"
+      },
+      {
+        "code" : "335",
+        "display" : "Gestionnaire alertes et urgences sanitaires"
+      },
+      {
+        "code" : "350",
+        "display" : "Aide à domicile"
+      },
+      {
+        "code" : "351",
+        "display" : "Assistant(e) maternel(le)"
+      }]
+    }]
   }
 }
 

@@ -17,7 +17,7 @@ Genre d’activité pour ENREG
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -60,21 +60,17 @@ Requête sur le SMT
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2020-05-29T12:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2020-05-29T12:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J116-GenreActivite-ENREG/FHIR/JDV-J116-GenreActivite-ENREG",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.6.1.187"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.6.1.187"
+  }],
   "version" : "20231124120000",
   "name" : "JDV_J116_GenreActivite_ENREG",
   "status" : "active",
@@ -82,56 +78,48 @@ Requête sur le SMT
   "date" : "2023-11-24T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Genre d'activité pour ENREG",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FR"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R22-GenreActivite/FHIR/TRE-R22-GenreActivite",
+      "concept" : [{
+        "code" : "GENR01",
+        "display" : "Activité de soin et de pharmacie"
+      },
       {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R22-GenreActivite/FHIR/TRE-R22-GenreActivite",
-        "concept" : [
-          {
-            "code" : "GENR01",
-            "display" : "Activité de soin et de pharmacie"
-          },
-          {
-            "code" : "GENR08",
-            "display" : "Coordination et orientation"
-          },
-          {
-            "code" : "GENR09",
-            "display" : "Administratif ou appui à l'organisation de l'accompagnement social/médico-social"
-          },
-          {
-            "code" : "GENR10",
-            "display" : "Accompagnement social/médico-social à la vie sociale, professionnelle, éducative"
-          },
-          {
-            "code" : "GENR11",
-            "display" : "Accompagnement social/médico-social au soin"
-          },
-          {
-            "code" : "GENR12",
-            "display" : "Encadrement et organisation de l'accompagnement social/médico-social"
-          },
-          {
-            "code" : "GENR13",
-            "display" : "Médico-administratif"
-          },
-          {
-            "code" : "GENR99",
-            "display" : "Autre activité"
-          }
-        ]
-      }
-    ]
+        "code" : "GENR08",
+        "display" : "Coordination et orientation"
+      },
+      {
+        "code" : "GENR09",
+        "display" : "Administratif ou appui à l'organisation de l'accompagnement social/médico-social"
+      },
+      {
+        "code" : "GENR10",
+        "display" : "Accompagnement social/médico-social à la vie sociale, professionnelle, éducative"
+      },
+      {
+        "code" : "GENR11",
+        "display" : "Accompagnement social/médico-social au soin"
+      },
+      {
+        "code" : "GENR12",
+        "display" : "Encadrement et organisation de l'accompagnement social/médico-social"
+      },
+      {
+        "code" : "GENR13",
+        "display" : "Médico-administratif"
+      },
+      {
+        "code" : "GENR99",
+        "display" : "Autre activité"
+      }]
+    }]
   }
 }
 

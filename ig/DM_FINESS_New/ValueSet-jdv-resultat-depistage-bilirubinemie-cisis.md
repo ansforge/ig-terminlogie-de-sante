@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-bilirubinemie-cisis | *Version*:20251216141838 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvResultatDepistageBilirubinemieCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-bilirubinemie-cisis | *Version*:20260220142103 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvResultatDepistageBilirubinemieCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.773 | | |
 
  
@@ -17,7 +17,7 @@ JDV Resultat Depistage Bilirubinemie CISIS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -55,53 +55,45 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-resultat-depistage-bilirubinemie-cisis",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-12-17T15:46:21.005+01:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-02-23T14:59:32.296+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2024-03-07T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2024-03-07T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-bilirubinemie-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.773"
-    }
-  ],
-  "version" : "20251216141838",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.773"
+  }],
+  "version" : "20260220142103",
   "name" : "JdvResultatDepistageBilirubinemieCisis",
   "title" : "JDV Resultat Depistage Bilirubinemie CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:38+01:00",
+  "date" : "2026-02-20T14:21:03+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Resultat Depistage Bilirubinemie CISIS",
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "75976002",
+        "display" : "risque faible de"
+      },
       {
-        "system" : "http://snomed.info/sct",
-        "concept" : [
-          {
-            "code" : "75976002",
-            "display" : "risque faible de"
-          },
-          {
-            "code" : "25594002",
-            "display" : "risque modéré de"
-          },
-          {
-            "code" : "15508007",
-            "display" : "risque élevé de"
-          }
-        ]
-      }
-    ]
+        "code" : "25594002",
+        "display" : "risque modéré de"
+      },
+      {
+        "code" : "15508007",
+        "display" : "risque élevé de"
+      }]
+    }]
   }
 }
 

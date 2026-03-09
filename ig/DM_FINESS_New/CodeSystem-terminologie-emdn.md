@@ -46,30 +46,24 @@
   "meta" : {
     "versionId" : "3",
     "lastUpdated" : "2025-03-20T13:52:13.373+00:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
-    ],
-    "tag" : [
-      {
-        "system" : "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
-        "code" : "SUBSETTED",
-        "display" : "Resource encoded in summary mode"
-      }
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"],
+    "tag" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
+      "code" : "SUBSETTED",
+      "display" : "Resource encoded in summary mode"
+    }]
   },
   "url" : "https://smt.esante.gouv.fr/terminologie-emdn",
-  "identifier" : [
-    {
-      "use" : "usual",
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.2.68"
-    },
-    {
-      "use" : "secondary",
-      "system" : "https://smt.esante.gouv.fr/",
-      "value" : "terminologie-emdn"
-    }
-  ],
+  "identifier" : [{
+    "use" : "usual",
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.2.68"
+  },
+  {
+    "use" : "secondary",
+    "system" : "https://smt.esante.gouv.fr/",
+    "value" : "terminologie-emdn"
+  }],
   "version" : "v1.2",
   "name" : "EMDN",
   "title" : "European Medical device nomenclature",
@@ -80,53 +74,49 @@
   "valueSet" : "https://smt.esante.gouv.fr/terminologie-emdn?vs",
   "content" : "not-present",
   "count" : 8344,
-  "filter" : [
-    {
-      "code" : "root",
-      "operator" : ["="],
-      "value" : "True or false."
-    },
-    {
-      "code" : "deprecated",
-      "operator" : ["="],
-      "value" : "True or false."
-    },
-    {
-      "code" : "imported",
-      "operator" : ["="],
-      "value" : "True or false"
-    }
-  ],
-  "property" : [
-    {
-      "code" : "type",
-      "uri" : "http://purl.org/dc/elements/1.1/type",
-      "description" : "Type fonctionnel d'un concept",
-      "type" : "string"
-    },
-    {
-      "code" : "parent",
-      "uri" : "http://hl7.org/fhir/concept-properties#parent",
-      "description" : "Codes des parents du concept courant",
-      "type" : "code"
-    },
-    {
-      "code" : "child",
-      "uri" : "http://hl7.org/fhir/concept-properties#child",
-      "description" : "Codes des enfants du concept courant",
-      "type" : "code"
-    },
-    {
-      "code" : "imported",
-      "description" : "Indicates if the concept is imported from another code system.",
-      "type" : "boolean"
-    },
-    {
-      "code" : "root",
-      "description" : "Indicates if this concept is a root concept (i.e. Thing is equivalent or a direct parent).",
-      "type" : "boolean"
-    }
-  ]
+  "filter" : [{
+    "code" : "root",
+    "operator" : ["="],
+    "value" : "True or false."
+  },
+  {
+    "code" : "deprecated",
+    "operator" : ["="],
+    "value" : "True or false."
+  },
+  {
+    "code" : "imported",
+    "operator" : ["="],
+    "value" : "True or false"
+  }],
+  "property" : [{
+    "code" : "type",
+    "uri" : "http://purl.org/dc/elements/1.1/type",
+    "description" : "Type fonctionnel d'un concept",
+    "type" : "string"
+  },
+  {
+    "code" : "parent",
+    "uri" : "http://hl7.org/fhir/concept-properties#parent",
+    "description" : "Codes des parents du concept courant",
+    "type" : "code"
+  },
+  {
+    "code" : "child",
+    "uri" : "http://hl7.org/fhir/concept-properties#child",
+    "description" : "Codes des enfants du concept courant",
+    "type" : "code"
+  },
+  {
+    "code" : "imported",
+    "description" : "Indicates if the concept is imported from another code system.",
+    "type" : "boolean"
+  },
+  {
+    "code" : "root",
+    "description" : "Indicates if this concept is a root concept (i.e. Thing is equivalent or a direct parent).",
+    "type" : "boolean"
+  }]
 }
 
 ```

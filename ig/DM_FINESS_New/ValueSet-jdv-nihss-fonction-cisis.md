@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nihss-fonction-cisis | *Version*:20251216141840 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvNihssFonctionCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nihss-fonction-cisis | *Version*:20260220142105 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvNihssFonctionCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.178 | | |
 
  
@@ -17,7 +17,7 @@ JDV Nihss Fonction CISIS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -55,101 +55,93 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-nihss-fonction-cisis",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-12-17T15:45:40.114+01:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-02-23T14:59:08.721+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2010-01-01T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2010-01-01T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nihss-fonction-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.178"
-    }
-  ],
-  "version" : "20251216141840",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.178"
+  }],
+  "version" : "20260220142105",
   "name" : "JdvNihssFonctionCisis",
   "title" : "JDV Nihss Fonction CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:40+01:00",
+  "date" : "2026-02-20T14:21:05+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Nihss Fonction CISIS",
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "70184-7",
+        "display" : "Niveau conscience [NIHSS]"
+      },
       {
-        "system" : "http://loinc.org",
-        "concept" : [
-          {
-            "code" : "70184-7",
-            "display" : "Niveau conscience [NIHSS]"
-          },
-          {
-            "code" : "70185-4",
-            "display" : "LOC Questions [NIHSS]"
-          },
-          {
-            "code" : "70186-2",
-            "display" : "LOC Commandes [NIHSS]"
-          },
-          {
-            "code" : "70187-0",
-            "display" : "Occulomotricité [NIHSS]"
-          },
-          {
-            "code" : "70188-8",
-            "display" : "Champ visuel [NIHSS]"
-          },
-          {
-            "code" : "70189-6",
-            "display" : "Paralysie faciale [NIHSS]"
-          },
-          {
-            "code" : "70967-5",
-            "display" : "motricité MSD [NIHSS]"
-          },
-          {
-            "code" : "70190-4",
-            "display" : "motricité MSG [NIHSS]"
-          },
-          {
-            "code" : "70968-3",
-            "display" : "motricité MID [NIHSS]"
-          },
-          {
-            "code" : "70191-2",
-            "display" : "motricité MIG [NIHSS]"
-          },
-          {
-            "code" : "70192-0",
-            "display" : "Ataxie des membres [NIHSS]"
-          },
-          {
-            "code" : "70193-8",
-            "display" : "Sensibilité [NIHSS]"
-          },
-          {
-            "code" : "70194-6",
-            "display" : "Meilleur langage [NIHSS]"
-          },
-          {
-            "code" : "70195-3",
-            "display" : "Dysarthrie [NIHSS]"
-          },
-          {
-            "code" : "70196-1",
-            "display" : "Extinction ou négligence [NIHSS]"
-          }
-        ]
-      }
-    ]
+        "code" : "70185-4",
+        "display" : "LOC Questions [NIHSS]"
+      },
+      {
+        "code" : "70186-2",
+        "display" : "LOC Commandes [NIHSS]"
+      },
+      {
+        "code" : "70187-0",
+        "display" : "Occulomotricité [NIHSS]"
+      },
+      {
+        "code" : "70188-8",
+        "display" : "Champ visuel [NIHSS]"
+      },
+      {
+        "code" : "70189-6",
+        "display" : "Paralysie faciale [NIHSS]"
+      },
+      {
+        "code" : "70967-5",
+        "display" : "motricité MSD [NIHSS]"
+      },
+      {
+        "code" : "70190-4",
+        "display" : "motricité MSG [NIHSS]"
+      },
+      {
+        "code" : "70968-3",
+        "display" : "motricité MID [NIHSS]"
+      },
+      {
+        "code" : "70191-2",
+        "display" : "motricité MIG [NIHSS]"
+      },
+      {
+        "code" : "70192-0",
+        "display" : "Ataxie des membres [NIHSS]"
+      },
+      {
+        "code" : "70193-8",
+        "display" : "Sensibilité [NIHSS]"
+      },
+      {
+        "code" : "70194-6",
+        "display" : "Meilleur langage [NIHSS]"
+      },
+      {
+        "code" : "70195-3",
+        "display" : "Dysarthrie [NIHSS]"
+      },
+      {
+        "code" : "70196-1",
+        "display" : "Extinction ou négligence [NIHSS]"
+      }]
+    }]
   }
 }
 

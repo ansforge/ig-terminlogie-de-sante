@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-region-anatomique-cisis | *Version*:20251216141838 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvRegionAnatomiqueCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-region-anatomique-cisis | *Version*:20260220142104 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvRegionAnatomiqueCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.695 | | |
 
  
@@ -17,7 +17,7 @@ JDV Region Anatomique CISIS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -55,81 +55,73 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-region-anatomique-cisis",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-12-17T15:46:13.685+01:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-02-23T14:59:28.514+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2022-11-14T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2022-11-14T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-region-anatomique-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.695"
-    }
-  ],
-  "version" : "20251216141838",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.695"
+  }],
+  "version" : "20260220142104",
   "name" : "JdvRegionAnatomiqueCisis",
   "title" : "JDV Region Anatomique CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:38+01:00",
+  "date" : "2026-02-20T14:21:04+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Region Anatomique CISIS",
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "63337009",
+        "display" : "segment abdominopelvien du tronc"
+      },
       {
-        "system" : "http://snomed.info/sct",
-        "concept" : [
-          {
-            "code" : "63337009",
-            "display" : "segment abdominopelvien du tronc"
-          },
-          {
-            "code" : "38266002",
-            "display" : "corps entier"
-          },
-          {
-            "code" : "53120007",
-            "display" : "membre supérieur"
-          },
-          {
-            "code" : "61685007",
-            "display" : "membre inférieur"
-          },
-          {
-            "code" : "67734004",
-            "display" : "segment thoracique du tronc"
-          },
-          {
-            "code" : "774007",
-            "display" : "tête et/ou cou"
-          },
-          {
-            "code" : "113257007",
-            "display" : "système cardiovasculaire"
-          },
-          {
-            "code" : "80891009",
-            "display" : "cœur"
-          },
-          {
-            "code" : "76752008",
-            "display" : "sein"
-          },
-          {
-            "code" : "737561001",
-            "display" : "colonne vertébrale et/ou moelle épinière"
-          }
-        ]
-      }
-    ]
+        "code" : "38266002",
+        "display" : "corps entier"
+      },
+      {
+        "code" : "53120007",
+        "display" : "membre supérieur"
+      },
+      {
+        "code" : "61685007",
+        "display" : "membre inférieur"
+      },
+      {
+        "code" : "67734004",
+        "display" : "segment thoracique du tronc"
+      },
+      {
+        "code" : "774007",
+        "display" : "tête et/ou cou"
+      },
+      {
+        "code" : "113257007",
+        "display" : "système cardiovasculaire"
+      },
+      {
+        "code" : "80891009",
+        "display" : "cœur"
+      },
+      {
+        "code" : "76752008",
+        "display" : "sein"
+      },
+      {
+        "code" : "737561001",
+        "display" : "colonne vertébrale et/ou moelle épinière"
+      }]
+    }]
   }
 }
 

@@ -17,7 +17,7 @@ Titre civilité - CI-SIS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -61,21 +61,17 @@ Expansions are not generated for retired value sets
     "lastUpdated" : "2025-01-06T12:44:43.391+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2016-05-18T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2016-05-18T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J12-CiviliteTitre-CISIS/FHIR/JDV-J12-CiviliteTitre-CISIS",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.24"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.24"
+  }],
   "version" : "20200424120000",
   "name" : "JDV_J12_CiviliteTitre_CISIS",
   "title" : "JDV J12 CiviliteTitre CISIS",
@@ -85,34 +81,28 @@ Expansions are not generated for retired value sets
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Titre civilité - CI-SIS",
   "compose" : {
-    "include" : [
-      {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R81-Civilite/FHIR/TRE-R81-Civilite",
-        "concept" : [
-          {
-            "code" : "M",
-            "display" : "Monsieur"
-          },
-          {
-            "code" : "MME",
-            "display" : "Madame"
-          }
-        ]
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R81-Civilite/FHIR/TRE-R81-Civilite",
+      "concept" : [{
+        "code" : "M",
+        "display" : "Monsieur"
       },
       {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R11-CiviliteExercice/FHIR/TRE-R11-CiviliteExercice",
-        "concept" : [
-          {
-            "code" : "DR",
-            "display" : "Docteur"
-          },
-          {
-            "code" : "PR",
-            "display" : "Professeur"
-          }
-        ]
-      }
-    ]
+        "code" : "MME",
+        "display" : "Madame"
+      }]
+    },
+    {
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R11-CiviliteExercice/FHIR/TRE-R11-CiviliteExercice",
+      "concept" : [{
+        "code" : "DR",
+        "display" : "Docteur"
+      },
+      {
+        "code" : "PR",
+        "display" : "Professeur"
+      }]
+    }]
   }
 }
 

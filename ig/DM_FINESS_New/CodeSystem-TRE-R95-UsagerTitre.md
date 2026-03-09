@@ -39,25 +39,19 @@ Usager de titre professionnel
   "meta" : {
     "versionId" : "7",
     "lastUpdated" : "2025-07-02T18:19:22.873+00:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2017-10-13T12:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2017-10-13T12:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R95-UsagerTitre/FHIR/TRE-R95-UsagerTitre",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.6.1.109"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.6.1.109"
+  }],
   "version" : "20241213120000",
   "name" : "TRE_R95_UsagerTitre",
   "status" : "active",
@@ -65,283 +59,255 @@ Usager de titre professionnel
   "date" : "2024-12-13T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Usager de titre professionnel",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FR"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
   "caseSensitive" : false,
   "content" : "complete",
-  "property" : [
-    {
+  "property" : [{
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "deprecationDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
+    "description" : "Date Concept was deprecated",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "status",
+    "uri" : "http://hl7.org/fhir/concept-properties#status",
+    "description" : "A property that indicates the status of the concept.",
+    "type" : "code"
+  },
+  {
+    "code" : "retirementDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
+    "description" : "Date Concept was retired",
+    "type" : "dateTime"
+  }],
+  "concept" : [{
+    "code" : "171",
+    "display" : "Ostéopathe",
+    "property" : [{
       "code" : "dateValid",
-      "description" : "date de validité d'un code concept",
-      "type" : "dateTime"
-    },
-    {
-      "code" : "dateMaj",
-      "description" : "Date de mise à jour d'un code concept",
-      "type" : "dateTime"
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
     },
     {
       "code" : "dateFin",
-      "description" : "Date de fin d'exploitation d'un code concept",
-      "type" : "dateTime"
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
     },
     {
       "code" : "deprecationDate",
-      "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
-      "description" : "Date Concept was deprecated",
-      "type" : "dateTime"
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "uri" : "http://hl7.org/fhir/concept-properties#status",
-      "description" : "A property that indicates the status of the concept.",
-      "type" : "code"
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "172",
+    "display" : "Psychothérapeute",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
     },
     {
-      "code" : "retirementDate",
-      "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
-      "description" : "Date Concept was retired",
-      "type" : "dateTime"
-    }
-  ],
-  "concept" : [
-    {
-      "code" : "171",
-      "display" : "Ostéopathe",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2017-10-13T12:00:00+01:00"
-        },
-        {
-          "code" : "dateFin",
-          "valueDateTime" : "2020-05-29T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2020-05-29T12:00:00+01:00"
-        },
-        {
-          "code" : "deprecationDate",
-          "valueDateTime" : "2020-05-29T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "deprecated"
-        }
-      ]
+      "code" : "dateFin",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
     },
     {
-      "code" : "172",
-      "display" : "Psychothérapeute",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2017-10-13T12:00:00+01:00"
-        },
-        {
-          "code" : "dateFin",
-          "valueDateTime" : "2020-05-29T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2020-05-29T12:00:00+01:00"
-        },
-        {
-          "code" : "deprecationDate",
-          "valueDateTime" : "2020-05-29T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "deprecated"
-        }
-      ]
+      "code" : "dateMaj",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
     },
     {
-      "code" : "173",
-      "display" : "Chiropracteur",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2017-10-13T12:00:00+01:00"
-        },
-        {
-          "code" : "dateFin",
-          "valueDateTime" : "2020-05-29T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2020-05-29T12:00:00+01:00"
-        },
-        {
-          "code" : "deprecationDate",
-          "valueDateTime" : "2020-05-29T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "deprecated"
-        }
-      ]
+      "code" : "deprecationDate",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
     },
     {
-      "code" : "193",
-      "display" : "Psychologue",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2017-10-13T12:00:00+01:00"
-        },
-        {
-          "code" : "dateFin",
-          "valueDateTime" : "2020-05-29T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2020-05-29T12:00:00+01:00"
-        },
-        {
-          "code" : "deprecationDate",
-          "valueDateTime" : "2020-05-29T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "deprecated"
-        }
-      ]
+      "code" : "status",
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "173",
+    "display" : "Chiropracteur",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
     },
     {
-      "code" : "194",
-      "display" : "Conseiller en génétique",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2019-03-29T12:00:00+01:00"
-        },
-        {
-          "code" : "dateFin",
-          "valueDateTime" : "2020-05-29T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2020-05-29T12:00:00+01:00"
-        },
-        {
-          "code" : "deprecationDate",
-          "valueDateTime" : "2020-05-29T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "deprecated"
-        }
-      ]
+      "code" : "dateFin",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
     },
     {
-      "code" : "71",
-      "display" : "Ostéopathe",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2020-05-29T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2020-05-29T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "code" : "dateMaj",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
     },
     {
-      "code" : "72",
-      "display" : "Psychothérapeute",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2020-05-29T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2020-05-29T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "code" : "deprecationDate",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
     },
     {
-      "code" : "73",
-      "display" : "Chiropracteur",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2020-05-29T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2020-05-29T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "code" : "status",
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "193",
+    "display" : "Psychologue",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
     },
     {
-      "code" : "93",
-      "display" : "Psychologue",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2020-05-29T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2020-05-29T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "code" : "dateFin",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
     },
     {
-      "code" : "97",
-      "display" : "Conseiller en génétique",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2020-05-29T12:00:00+01:00"
-        },
-        {
-          "code" : "dateFin",
-          "valueDateTime" : "2024-12-13T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2024-12-13T12:00:00+01:00"
-        },
-        {
-          "code" : "deprecationDate",
-          "valueDateTime" : "2024-12-13T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "deprecated"
-        }
-      ]
-    }
-  ]
+      "code" : "dateMaj",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "194",
+    "display" : "Conseiller en génétique",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2019-03-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "71",
+    "display" : "Ostéopathe",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "72",
+    "display" : "Psychothérapeute",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "73",
+    "display" : "Chiropracteur",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "93",
+    "display" : "Psychologue",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "97",
+    "display" : "Conseiller en génétique",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2024-12-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2024-12-13T12:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2024-12-13T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
+    }]
+  }]
 }
 
 ```

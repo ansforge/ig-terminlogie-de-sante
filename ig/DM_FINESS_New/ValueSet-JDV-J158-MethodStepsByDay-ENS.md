@@ -17,7 +17,7 @@ JDV pour la méthode de la mesure de nombre de pas par jour
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -60,21 +60,17 @@ Requête sur le SMT
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2021-04-30T12:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2021-04-30T12:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J158-MethodStepsByDay-ENS/FHIR/JDV-J158-MethodStepsByDay-ENS",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.613"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.613"
+  }],
   "version" : "20240726120000",
   "name" : "JDV_J158_MethodStepsByDay_ENS",
   "status" : "active",
@@ -82,36 +78,28 @@ Requête sur le SMT
   "date" : "2024-07-26T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV pour la méthode de la mesure de nombre de pas par jour",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FR"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/terminologie-emdn",
+      "concept" : [{
+        "code" : "Y210905",
+        "display" : "INTERFACES DE CAPTEURS EXTERNES"
+      },
       {
-        "system" : "https://smt.esante.gouv.fr/terminologie-emdn",
-        "concept" : [
-          {
-            "code" : "Y210905",
-            "display" : "INTERFACES DE CAPTEURS EXTERNES"
-          },
-          {
-            "code" : "Z120626",
-            "display" : "SYSTÈMES D'ANALYSE DE LA DYNAMIQUE DU MOUVEMENT"
-          },
-          {
-            "code" : "Z12062692",
-            "display" : "SYSTÈMES D'ANALYSE DE LA DYNAMIQUE DU MOUVEMENT - LOGICIELS QUALIFIÉS DM"
-          }
-        ]
-      }
-    ]
+        "code" : "Z120626",
+        "display" : "SYSTÈMES D'ANALYSE DE LA DYNAMIQUE DU MOUVEMENT"
+      },
+      {
+        "code" : "Z12062692",
+        "display" : "SYSTÈMES D'ANALYSE DE LA DYNAMIQUE DU MOUVEMENT - LOGICIELS QUALIFIÉS DM"
+      }]
+    }]
   }
 }
 

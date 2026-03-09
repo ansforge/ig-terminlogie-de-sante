@@ -31,26 +31,20 @@ Permet d’indiquer si la capacité est exprimée en lits ou en places
   "meta" : {
     "versionId" : "5",
     "lastUpdated" : "2025-03-31T18:11:28.898+00:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2022-05-27T12:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2022-05-27T12:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R329-NatureCapacite/FHIR/TRE-R329-NatureCapacite",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.3.3.212"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.3.3.212"
+  }],
   "version" : "20250328120000",
   "name" : "TRE_R329_NatureCapacite",
   "status" : "active",
@@ -61,114 +55,104 @@ Permet d’indiquer si la capacité est exprimée en lits ou en places
   "caseSensitive" : false,
   "content" : "complete",
   "count" : 3,
-  "property" : [
-    {
+  "property" : [{
+    "code" : "dateValid",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "deprecationDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
+    "description" : "Date Concept was deprecated",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "status",
+    "uri" : "http://hl7.org/fhir/concept-properties#status",
+    "description" : "A property that indicates the status of the concept.",
+    "type" : "code"
+  },
+  {
+    "code" : "retirementDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
+    "description" : "Date Concept was retired",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "NatureCapaciteFiness",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#NatureCapaciteFiness",
+    "description" : "Permet de définir les codes à inclure dans le JdvJ352NatureCapaciteFiness",
+    "type" : "boolean"
+  }],
+  "concept" : [{
+    "code" : "01",
+    "display" : "Lit",
+    "property" : [{
       "code" : "dateValid",
-      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
-      "description" : "date de validité d'un code concept",
-      "type" : "dateTime"
+      "valueDateTime" : "2022-05-27T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
-      "description" : "Date de mise à jour d'un code concept",
-      "type" : "dateTime"
-    },
-    {
-      "code" : "dateFin",
-      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
-      "description" : "Date de fin d'exploitation d'un code concept",
-      "type" : "dateTime"
-    },
-    {
-      "code" : "deprecationDate",
-      "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
-      "description" : "Date Concept was deprecated",
-      "type" : "dateTime"
+      "valueDateTime" : "2022-05-27T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "uri" : "http://hl7.org/fhir/concept-properties#status",
-      "description" : "A property that indicates the status of the concept.",
-      "type" : "code"
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "02",
+    "display" : "Place",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2022-05-27T12:00:00+01:00"
     },
     {
-      "code" : "retirementDate",
-      "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
-      "description" : "Date Concept was retired",
-      "type" : "dateTime"
+      "code" : "dateMaj",
+      "valueDateTime" : "2022-05-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     },
     {
       "code" : "NatureCapaciteFiness",
-      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#NatureCapaciteFiness",
-      "description" : "Permet de définir les codes à inclure dans le JdvJ352NatureCapaciteFiness",
-      "type" : "boolean"
-    }
-  ],
-  "concept" : [
-    {
-      "code" : "01",
-      "display" : "Lit",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2022-05-27T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2022-05-27T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "03",
+    "display" : "Logement",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2025-03-28T12:00:00+01:00"
     },
     {
-      "code" : "02",
-      "display" : "Place",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2022-05-27T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2022-05-27T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "NatureCapaciteFiness",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-03-28T12:00:00+01:00"
     },
     {
-      "code" : "03",
-      "display" : "Logement",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2025-03-28T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2025-03-28T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "NatureCapaciteFiness",
-          "valueBoolean" : true
-        }
-      ]
-    }
-  ]
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "NatureCapaciteFiness",
+      "valueBoolean" : true
+    }]
+  }]
 }
 
 ```

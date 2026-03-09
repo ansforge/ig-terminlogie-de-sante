@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-RoleClassIngredientEntity-cisis | *Version*:20251216141839 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:RoleClassIngredientEntity |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-RoleClassIngredientEntity-cisis | *Version*:20260220142104 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:RoleClassIngredientEntity |
 | *Other Identifiers:*OID:2.16.840.1.113883.1.11.10430 | | |
 
  
@@ -17,7 +17,7 @@ RoleClassIngredientEntity
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -55,73 +55,65 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-hl7-v3-RoleClassIngredientEntity-cisis",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-12-17T15:48:37.946+01:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-02-23T15:00:52.917+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2021-10-29T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2021-10-29T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-RoleClassIngredientEntity-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:2.16.840.1.113883.1.11.10430"
-    }
-  ],
-  "version" : "20251216141839",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:2.16.840.1.113883.1.11.10430"
+  }],
+  "version" : "20260220142104",
   "name" : "RoleClassIngredientEntity",
   "title" : "RoleClassIngredientEntity",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:39+01:00",
+  "date" : "2026-02-20T14:21:04+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "RoleClassIngredientEntity",
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
+      "concept" : [{
+        "code" : "INGR",
+        "display" : "Ingrédient"
+      },
       {
-        "system" : "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
-        "concept" : [
-          {
-            "code" : "INGR",
-            "display" : "Ingrédient"
-          },
-          {
-            "code" : "ACTI",
-            "display" : "Ingredient actif"
-          },
-          {
-            "code" : "ADJV",
-            "display" : "Adjuvant"
-          },
-          {
-            "code" : "ADTV",
-            "display" : "Additif"
-          },
-          {
-            "code" : "BASE",
-            "display" : "Base"
-          },
-          {
-            "code" : "CNTM",
-            "display" : "Ingredient contaminant"
-          },
-          {
-            "code" : "IACT",
-            "display" : "Ingredient inactif"
-          },
-          {
-            "code" : "MECH",
-            "display" : "Ingrédient mécanique"
-          }
-        ]
-      }
-    ]
+        "code" : "ACTI",
+        "display" : "Ingredient actif"
+      },
+      {
+        "code" : "ADJV",
+        "display" : "Adjuvant"
+      },
+      {
+        "code" : "ADTV",
+        "display" : "Additif"
+      },
+      {
+        "code" : "BASE",
+        "display" : "Base"
+      },
+      {
+        "code" : "CNTM",
+        "display" : "Ingredient contaminant"
+      },
+      {
+        "code" : "IACT",
+        "display" : "Ingredient inactif"
+      },
+      {
+        "code" : "MECH",
+        "display" : "Ingrédient mécanique"
+      }]
+    }]
   }
 }
 

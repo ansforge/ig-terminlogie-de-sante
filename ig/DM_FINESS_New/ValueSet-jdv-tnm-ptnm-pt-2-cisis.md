@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-tnm-ptnm-pt-2-cisis | *Version*:20251216141838 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvTnmPtnmPt2Cisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-tnm-ptnm-pt-2-cisis | *Version*:20260220142103 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvTnmPtnmPt2Cisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.521 | | |
 
  
@@ -17,7 +17,7 @@ JDV Tnm Ptnm Pt 2 CISIS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -55,69 +55,61 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-tnm-ptnm-pt-2-cisis",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-12-17T15:47:18.535+01:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-02-23T15:00:04.185+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2021-01-01T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2021-01-01T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-tnm-ptnm-pt-2-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.521"
-    }
-  ],
-  "version" : "20251216141838",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.521"
+  }],
+  "version" : "20260220142103",
   "name" : "JdvTnmPtnmPt2Cisis",
   "title" : "JDV Tnm Ptnm Pt 2 CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:38+01:00",
+  "date" : "2026-02-20T14:21:03+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Tnm Ptnm Pt 2 CISIS",
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "concept" : [{
+        "code" : "MED-787",
+        "display" : "Évaluation impossible"
+      },
       {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "MED-787",
-            "display" : "Évaluation impossible"
-          },
-          {
-            "code" : "MED-788",
-            "display" : "Pas de tumeur retrouvée"
-          },
-          {
-            "code" : "MED-811",
-            "display" : "Tumeur envahissant la muqueuse ou la sous-muqueuse, < 1 cm"
-          },
-          {
-            "code" : "MED-812",
-            "display" : "Tumeur envahissant la muqueuse ou la sous-muqueuse,  >= 1 cm et <= 2 cm"
-          },
-          {
-            "code" : "MED-813",
-            "display" : "Tumeur envahissant la musculeuse ou > 2 cm"
-          },
-          {
-            "code" : "MED-814",
-            "display" : "Tumeur envahissant la sous-séreuse  ou  la graisse périrectale"
-          },
-          {
-            "code" : "MED-815",
-            "display" : "Tumeur perforant le péritoine viscéral ou envahissant d'autres organes"
-          }
-        ]
-      }
-    ]
+        "code" : "MED-788",
+        "display" : "Pas de tumeur retrouvée"
+      },
+      {
+        "code" : "MED-811",
+        "display" : "Tumeur envahissant la muqueuse ou la sous-muqueuse, < 1 cm"
+      },
+      {
+        "code" : "MED-812",
+        "display" : "Tumeur envahissant la muqueuse ou la sous-muqueuse,  >= 1 cm et <= 2 cm"
+      },
+      {
+        "code" : "MED-813",
+        "display" : "Tumeur envahissant la musculeuse ou > 2 cm"
+      },
+      {
+        "code" : "MED-814",
+        "display" : "Tumeur envahissant la sous-séreuse  ou  la graisse périrectale"
+      },
+      {
+        "code" : "MED-815",
+        "display" : "Tumeur perforant le péritoine viscéral ou envahissant d'autres organes"
+      }]
+    }]
   }
 }
 

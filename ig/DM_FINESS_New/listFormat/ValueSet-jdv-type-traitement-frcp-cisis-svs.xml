@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20251216141840"
+             dateMaj="20260220142105"
              dateValid="20210414000000"
              description="JDV Type Traitement Frcp CISIS"
              displayName="JdvTypeTraitementFrcpCisis"
@@ -10,18 +10,6 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="C15313" codeSystem="" displayName="radiothérapie"/>
-         <concept code="C15195" codeSystem="" displayName="curiethérapie"/>
-         <concept code="C15632" codeSystem="" displayName="chimiothérapie"/>
-         <concept code="C93352" codeSystem="" displayName="thérapie ciblée"/>
-         <concept code="C547" codeSystem="" displayName="hormonothérapie"/>
-         <concept code="C15262" codeSystem="" displayName="immunothérapie"/>
-         <concept code="C63334"
-                  codeSystem=""
-                  displayName="imagerie interventionnelle"/>
-         <concept code="C157891" codeSystem="" displayName="endoscopie peropératoire"/>
-         <concept code="C15747" codeSystem="" displayName="soins de support"/>
-         <concept code="C15252" codeSystem="" displayName="soins palliatifs"/>
          <concept code="MED-556"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Fenêtre thérapeutique"/>
@@ -43,9 +31,39 @@
          <concept code="387713003"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="intervention chirurgicale"/>
+         <concept code="1287742003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="radiothérapie"/>
+         <concept code="152198000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="curiethérapie"/>
+         <concept code="367336001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="chimiothérapie"/>
+         <concept code="1255831008"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="thérapie ciblée"/>
+         <concept code="169413002"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="hormonothérapie"/>
+         <concept code="76334006"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="immunothérapie"/>
+         <concept code="258174001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="imagerie interventionnelle"/>
          <concept code="424313000"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="surveillance active"/>
+         <concept code="363687006"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="endoscopie interventionnelle"/>
+         <concept code="243114000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="soin de support"/>
+         <concept code="103735009"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="soin palliatif"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

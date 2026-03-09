@@ -2,9 +2,9 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20251104120000"
+             dateMaj="20260223120000"
              dateValid="19790101000000"
-             description="Liste des activités sociales régulées organisée en 3 niveaux d'agrégation. Annule et remplace les anciennes TRE xxxEquipementSocial"
+             description="Cette TRE hiérarchique remplace les TRE_R280-DisciplineEquipementSocial, TRE_R298-AgregatDisciplineEquipSocNiv1, TRE_R299-AgregatDisciplineEquipSocNiv2, TRE_R300-AgregatDisciplineEquipSocNiv3 et l'ASS_X14_AgregatDisciplineEquipementSocial. Cette TRE possède des propriétés spécifiques : le niveau d'agrégat desASOCR de 1 à 4 (du plus large au plus fin), le parent d'un agrégat d'ASOCR ou d'une ASOCR ainsi que les relations nécessaires à la construction des JDV dynamiques associés"
              displayName="TreR401ActiviteSocialeRegulee"
              id="1.2.250.1.213.1.6.1.380"
              typeFichier="TRE"

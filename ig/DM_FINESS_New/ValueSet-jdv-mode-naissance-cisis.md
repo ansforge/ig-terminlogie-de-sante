@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mode-naissance-cisis | *Version*:20251216141838 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvModeNaissanceCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mode-naissance-cisis | *Version*:20260220142103 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvModeNaissanceCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.744 | | |
 
  
@@ -17,7 +17,7 @@ JDV Mode Naissance CISIS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -55,62 +55,52 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-mode-naissance-cisis",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-12-17T15:45:23.540+01:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-02-23T14:58:58.475+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2023-08-03T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2023-08-03T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mode-naissance-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.744"
-    }
-  ],
-  "version" : "20251216141838",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.744"
+  }],
+  "version" : "20260220142103",
   "name" : "JdvModeNaissanceCisis",
   "title" : "JDV Mode Naissance CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:38+01:00",
+  "date" : "2026-02-20T14:21:03+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Mode Naissance CISIS",
   "compose" : {
-    "include" : [
-      {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "MED-1253",
-            "display" : "Césarienne pendant travail"
-          },
-          {
-            "code" : "MED-1254",
-            "display" : "Césarienne avant travail"
-          }
-        ]
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "concept" : [{
+        "code" : "MED-1253",
+        "display" : "Césarienne pendant travail"
       },
       {
-        "system" : "http://snomed.info/sct",
-        "concept" : [
-          {
-            "code" : "48782003",
-            "display" : "accouchement normal"
-          },
-          {
-            "code" : "700000006",
-            "display" : "accouchement par voie basse"
-          }
-        ]
-      }
-    ]
+        "code" : "MED-1254",
+        "display" : "Césarienne avant travail"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "48782003",
+        "display" : "accouchement normal"
+      },
+      {
+        "code" : "700000006",
+        "display" : "accouchement par voie basse"
+      }]
+    }]
   }
 }
 

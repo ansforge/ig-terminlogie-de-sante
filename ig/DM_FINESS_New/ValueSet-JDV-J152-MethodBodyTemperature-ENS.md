@@ -17,7 +17,7 @@ JDV pour la méthode de la mesure de la température
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -60,21 +60,17 @@ Requête sur le SMT
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2021-04-30T12:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2021-04-30T12:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J152-MethodBodyTemperature-ENS/FHIR/JDV-J152-MethodBodyTemperature-ENS",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.607"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.607"
+  }],
   "version" : "20240726120000",
   "name" : "JDV_J152_MethodBodyTemperature_ENS",
   "status" : "active",
@@ -82,32 +78,24 @@ Requête sur le SMT
   "date" : "2024-07-26T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV pour la méthode de la mesure de la température",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FR"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/terminologie-emdn",
+      "concept" : [{
+        "code" : "V03010102",
+        "display" : "THERMOMÈTRES NUMÉRIQUES"
+      },
       {
-        "system" : "https://smt.esante.gouv.fr/terminologie-emdn",
-        "concept" : [
-          {
-            "code" : "V03010102",
-            "display" : "THERMOMÈTRES NUMÉRIQUES"
-          },
-          {
-            "code" : "V0301010202",
-            "display" : "THERMOMÈTRES NUMÉRIQUES - MESURE SANS CONTACT"
-          }
-        ]
-      }
-    ]
+        "code" : "V0301010202",
+        "display" : "THERMOMÈTRES NUMÉRIQUES - MESURE SANS CONTACT"
+      }]
+    }]
   }
 }
 

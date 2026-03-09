@@ -2,9 +2,9 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20251104120000"
-             dateValid="20251104120000"
-             description="Liste des publics des activités régulées organisée en 2 niveaux d'agrégation. Annule et remplace les 3 anciennes TRE xxxClientele"
+             dateMaj="20260223120000"
+             dateValid="20260223120000"
+             description="Cette TRE hiérarchique remplace les TRE actuelles TRE_R279-Clientele, TRE_R293-AgregatClienteleNiv2, TRE_R294-AgregatClienteleNiv3 et l'association ASS_X13-AgregatClientele. Cette TRE possède de nouvelles propriétés : le niveau d'agrégat des publics de 1 à 3 (du plus large au plus fin), le parent d'un agrégat de publics ou d'un public ainsi que les relations nécessaires à la construction des JDV dynamiques associés"
              displayName="TreR403PublicActiviteSmsseRegulee"
              id="1.2.250.1.213.1.6.1.382"
              typeFichier="TRE"

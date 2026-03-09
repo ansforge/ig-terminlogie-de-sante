@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-conduite-a-tenir-3-cisis | *Version*:20251216141839 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvConduiteATenir3Cisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-conduite-a-tenir-3-cisis | *Version*:20260220142104 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvConduiteATenir3Cisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.87 | | |
 
  
@@ -17,7 +17,7 @@ JDV Conduite A Tenir 3 CISIS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -55,63 +55,51 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-conduite-a-tenir-3-cisis",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-12-17T15:43:35.463+01:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-02-23T14:58:01.131+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2010-01-01T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2010-01-01T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-conduite-a-tenir-3-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.87"
-    }
-  ],
-  "version" : "20251216141839",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.87"
+  }],
+  "version" : "20260220142104",
   "name" : "JdvConduiteATenir3Cisis",
   "title" : "JDV Conduite A Tenir 3 CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:39+01:00",
+  "date" : "2026-02-20T14:21:04+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Conduite A Tenir 3 CISIS",
   "compose" : {
-    "include" : [
-      {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "MED-012",
-            "display" : "Avis spécialisé"
-          }
-        ]
-      },
-      {
-        "system" : "http://dicom.nema.org/resources/ontology/DCM",
-        "concept" : [
-          {
-            "code" : "MR",
-            "display" : "IRM"
-          }
-        ]
-      },
-      {
-        "system" : "http://snomed.info/sct",
-        "concept" : [
-          {
-            "code" : "17636008",
-            "display" : "prélèvement d'échantillon"
-          }
-        ]
-      }
-    ]
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "concept" : [{
+        "code" : "MED-012",
+        "display" : "Avis spécialisé"
+      }]
+    },
+    {
+      "system" : "http://dicom.nema.org/resources/ontology/DCM",
+      "concept" : [{
+        "code" : "MR",
+        "display" : "IRM"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "17636008",
+        "display" : "prélèvement d'échantillon"
+      }]
+    }]
   }
 }
 

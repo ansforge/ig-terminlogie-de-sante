@@ -17,7 +17,7 @@ Table des Secteur d’activité des structures Siret uniquement utilisé par ENR
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -60,21 +60,17 @@ Requête sur le SMT
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2020-11-27T12:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2020-11-27T12:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J126-SecteurActivite-ENREG/FHIR/JDV-J126-SecteurActivite-ENREG",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.6.1.212"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.6.1.212"
+  }],
   "version" : "20250523120000",
   "name" : "JDV_J126_SecteurActivite_ENREG",
   "status" : "active",
@@ -82,152 +78,144 @@ Requête sur le SMT
   "date" : "2025-05-23T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Table des Secteur d'activité des structures Siret uniquement utilisé par ENREG pour enregistrer les structures absentes des référentiels de l'ANS.",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FR"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite",
+      "concept" : [{
+        "code" : "SA09",
+        "display" : "Exercice en société"
+      },
       {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite",
-        "concept" : [
-          {
-            "code" : "SA09",
-            "display" : "Exercice en société"
-          },
-          {
-            "code" : "SA10",
-            "display" : "Transporteur sanitaire"
-          },
-          {
-            "code" : "SA13",
-            "display" : "Prévention et soins en entreprise"
-          },
-          {
-            "code" : "SA14",
-            "display" : "Etablissements scolaires, universitaires et de formation hors champ FINESS"
-          },
-          {
-            "code" : "SA19",
-            "display" : "Etablissements FINESS de formation aux professions sanitaires et sociales"
-          },
-          {
-            "code" : "SA22",
-            "display" : "Recherche"
-          },
-          {
-            "code" : "SA23",
-            "display" : "Assurance privée"
-          },
-          {
-            "code" : "SA24",
-            "display" : "Organisme de sécurité sociale"
-          },
-          {
-            "code" : "SA26",
-            "display" : "Ministère ou Service déconcentré"
-          },
-          {
-            "code" : "SA27",
-            "display" : "Collectivité territoriale"
-          },
-          {
-            "code" : "SA28",
-            "display" : "Association ou organisme humanitaire"
-          },
-          {
-            "code" : "SA31",
-            "display" : "Répartition et Distribution de médicaments et dispositifs médicaux"
-          },
-          {
-            "code" : "SA32",
-            "display" : "Fabrication, Exploitation et Importation de médicaments et dispositifs médicaux"
-          },
-          {
-            "code" : "SA35",
-            "display" : "Para-pharmacie"
-          },
-          {
-            "code" : "SA42",
-            "display" : "Appareillage médical"
-          },
-          {
-            "code" : "SA43",
-            "display" : "Secteur non défini"
-          },
-          {
-            "code" : "SA44",
-            "display" : "Recrutement ou Gestion RH"
-          },
-          {
-            "code" : "SA45",
-            "display" : "Communication, Marketing, Consulting, Média"
-          },
-          {
-            "code" : "SA46",
-            "display" : "Fabrication, Exploitation, Importation, Répartition, Distribution médicaments et dispositifs médicaux"
-          },
-          {
-            "code" : "SA47",
-            "display" : "Incendie et secours"
-          },
-          {
-            "code" : "SA48",
-            "display" : "Entreprise industrielle et tertiaire hors industrie pharmaceutique"
-          },
-          {
-            "code" : "SA49",
-            "display" : "Entité Outre-Mer"
-          },
-          {
-            "code" : "SA50",
-            "display" : "Permanence des soins ambulatoires hors cabinet"
-          },
-          {
-            "code" : "SA51",
-            "display" : "Structure de coopération avec autorisation de soins"
-          },
-          {
-            "code" : "SA52",
-            "display" : "Maison de santé ou Pôle de santé"
-          },
-          {
-            "code" : "SA53",
-            "display" : "Siège administratif d'un établissement de santé"
-          },
-          {
-            "code" : "SA54",
-            "display" : "Centre de dépistage et de prévention"
-          },
-          {
-            "code" : "SA57",
-            "display" : "Structure de coopération avec mission de coordination de soins"
-          },
-          {
-            "code" : "SA58",
-            "display" : "Entreprise de taxis"
-          },
-          {
-            "code" : "SA62",
-            "display" : "Ordre professionnel de santé"
-          },
-          {
-            "code" : "SA63",
-            "display" : "Structures de coordination et d'orientation"
-          },
-          {
-            "code" : "SA68",
-            "display" : "Services départementaux d'incendie et de secours"
-          }
-        ]
-      }
-    ]
+        "code" : "SA10",
+        "display" : "Transporteur sanitaire"
+      },
+      {
+        "code" : "SA13",
+        "display" : "Prévention et soins en entreprise"
+      },
+      {
+        "code" : "SA14",
+        "display" : "Etablissements scolaires, universitaires et de formation hors champ FINESS"
+      },
+      {
+        "code" : "SA19",
+        "display" : "Etablissements FINESS de formation aux professions sanitaires et sociales"
+      },
+      {
+        "code" : "SA22",
+        "display" : "Recherche"
+      },
+      {
+        "code" : "SA23",
+        "display" : "Assurance privée"
+      },
+      {
+        "code" : "SA24",
+        "display" : "Organisme de sécurité sociale"
+      },
+      {
+        "code" : "SA26",
+        "display" : "Ministère ou Service déconcentré"
+      },
+      {
+        "code" : "SA27",
+        "display" : "Collectivité territoriale"
+      },
+      {
+        "code" : "SA28",
+        "display" : "Association ou organisme humanitaire"
+      },
+      {
+        "code" : "SA31",
+        "display" : "Répartition et Distribution de médicaments et dispositifs médicaux"
+      },
+      {
+        "code" : "SA32",
+        "display" : "Fabrication, Exploitation et Importation de médicaments et dispositifs médicaux"
+      },
+      {
+        "code" : "SA35",
+        "display" : "Para-pharmacie"
+      },
+      {
+        "code" : "SA42",
+        "display" : "Appareillage médical"
+      },
+      {
+        "code" : "SA43",
+        "display" : "Secteur non défini"
+      },
+      {
+        "code" : "SA44",
+        "display" : "Recrutement ou Gestion RH"
+      },
+      {
+        "code" : "SA45",
+        "display" : "Communication, Marketing, Consulting, Média"
+      },
+      {
+        "code" : "SA46",
+        "display" : "Fabrication, Exploitation, Importation, Répartition, Distribution médicaments et dispositifs médicaux"
+      },
+      {
+        "code" : "SA47",
+        "display" : "Incendie et secours"
+      },
+      {
+        "code" : "SA48",
+        "display" : "Entreprise industrielle et tertiaire hors industrie pharmaceutique"
+      },
+      {
+        "code" : "SA49",
+        "display" : "Entité Outre-Mer"
+      },
+      {
+        "code" : "SA50",
+        "display" : "Permanence des soins ambulatoires hors cabinet"
+      },
+      {
+        "code" : "SA51",
+        "display" : "Structure de coopération avec autorisation de soins"
+      },
+      {
+        "code" : "SA52",
+        "display" : "Maison de santé ou Pôle de santé"
+      },
+      {
+        "code" : "SA53",
+        "display" : "Siège administratif d'un établissement de santé"
+      },
+      {
+        "code" : "SA54",
+        "display" : "Centre de dépistage et de prévention"
+      },
+      {
+        "code" : "SA57",
+        "display" : "Structure de coopération avec mission de coordination de soins"
+      },
+      {
+        "code" : "SA58",
+        "display" : "Entreprise de taxis"
+      },
+      {
+        "code" : "SA62",
+        "display" : "Ordre professionnel de santé"
+      },
+      {
+        "code" : "SA63",
+        "display" : "Structures de coordination et d'orientation"
+      },
+      {
+        "code" : "SA68",
+        "display" : "Services départementaux d'incendie et de secours"
+      }]
+    }]
   }
 }
 

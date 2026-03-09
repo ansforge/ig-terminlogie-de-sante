@@ -17,7 +17,7 @@ Type de carte dans le RASS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -60,21 +60,17 @@ Requête sur le SMT
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2020-11-27T12:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2020-11-27T12:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J128-TypeCarte-RASS/FHIR/JDV-J128-TypeCarte-RASS",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.6.1.214"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.6.1.214"
+  }],
   "version" : "20201127120000",
   "name" : "JDV_J128_TypeCarte_RASS",
   "status" : "active",
@@ -82,40 +78,32 @@ Requête sur le SMT
   "date" : "2020-11-27T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Type de carte dans le RASS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FR"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R87-TypeCarte/FHIR/TRE-R87-TypeCarte",
+      "concept" : [{
+        "code" : "CPA",
+        "display" : "Carte de Personnel Autorisé (CDA/CPA)"
+      },
       {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R87-TypeCarte/FHIR/TRE-R87-TypeCarte",
-        "concept" : [
-          {
-            "code" : "CPA",
-            "display" : "Carte de Personnel Autorisé (CDA/CPA)"
-          },
-          {
-            "code" : "CPE",
-            "display" : "Carte de Personnel d'Etablissement de santé (CDE/CPE)"
-          },
-          {
-            "code" : "CPF",
-            "display" : "Carte de Professionnel de Santé en Formation (CPF)"
-          },
-          {
-            "code" : "CPS",
-            "display" : "Carte de Professionnel de Santé (CPS)"
-          }
-        ]
-      }
-    ]
+        "code" : "CPE",
+        "display" : "Carte de Personnel d'Etablissement de santé (CDE/CPE)"
+      },
+      {
+        "code" : "CPF",
+        "display" : "Carte de Professionnel de Santé en Formation (CPF)"
+      },
+      {
+        "code" : "CPS",
+        "display" : "Carte de Professionnel de Santé (CPS)"
+      }]
+    }]
   }
 }
 

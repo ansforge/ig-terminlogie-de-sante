@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-topo-trouble-cisis | *Version*:20251216141840 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvTopoTroubleCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-topo-trouble-cisis | *Version*:20260220142105 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvTopoTroubleCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.162 | | |
 
  
@@ -17,7 +17,7 @@ JDV Topo Trouble CISIS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -55,57 +55,49 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-topo-trouble-cisis",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-12-17T15:47:20.052+01:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-02-23T15:00:05.024+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2010-01-01T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2010-01-01T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-topo-trouble-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.162"
-    }
-  ],
-  "version" : "20251216141840",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.162"
+  }],
+  "version" : "20260220142105",
   "name" : "JdvTopoTroubleCisis",
   "title" : "JDV Topo Trouble CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:40+01:00",
+  "date" : "2026-02-20T14:21:05+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Topo Trouble CISIS",
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "774007",
+        "display" : "tête et/ou cou"
+      },
       {
-        "system" : "http://snomed.info/sct",
-        "concept" : [
-          {
-            "code" : "774007",
-            "display" : "tête et/ou cou"
-          },
-          {
-            "code" : "53120007",
-            "display" : "membre supérieur"
-          },
-          {
-            "code" : "85562004",
-            "display" : "main"
-          },
-          {
-            "code" : "61685007",
-            "display" : "membre inférieur"
-          }
-        ]
-      }
-    ]
+        "code" : "53120007",
+        "display" : "membre supérieur"
+      },
+      {
+        "code" : "85562004",
+        "display" : "main"
+      },
+      {
+        "code" : "61685007",
+        "display" : "membre inférieur"
+      }]
+    }]
   }
 }
 

@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20251216141838"
+             dateMaj="20260220142103"
              dateValid="20100101000000"
              description="JDV Static Sem Procedure CISIS"
              displayName="JdvStaticSemProcedureCisis"
@@ -11,7 +11,7 @@
              urlFichier="">
       <ConceptList>
          <concept code="JQQP003"
-                  codeSystem="1.2.250.1.215.300.1"
+                  codeSystem=""
                   displayName="Autopsie médicale d'un fœtus ou d'un nouveau-né de moins de 4 jours de vie, avec examen de l'encéphale"/>
          <concept code="GEN-092.04.13"
                   codeSystem="1.2.250.1.213.1.1.4.322"

@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nvpo-cisis | *Version*:20251216141840 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvNvpoCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nvpo-cisis | *Version*:20260220142105 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvNvpoCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.498 | | |
 
  
@@ -17,7 +17,7 @@ JDV Nvpo CISIS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -55,65 +55,57 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-nvpo-cisis",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-12-17T15:45:47.288+01:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-02-23T14:59:13.464+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2020-05-11T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2020-05-11T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nvpo-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.498"
-    }
-  ],
-  "version" : "20251216141840",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.498"
+  }],
+  "version" : "20260220142105",
   "name" : "JdvNvpoCisis",
   "title" : "JDV Nvpo CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:40+01:00",
+  "date" : "2026-02-20T14:21:05+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Nvpo CISIS",
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "concept" : [{
+        "code" : "MED-627",
+        "display" : "1 - Rien"
+      },
       {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "MED-627",
-            "display" : "1 - Rien"
-          },
-          {
-            "code" : "MED-628",
-            "display" : "2 - Nausées modéréés"
-          },
-          {
-            "code" : "MED-629",
-            "display" : "3 - Nausées intenses"
-          },
-          {
-            "code" : "MED-630",
-            "display" : "4 - Vomissements"
-          },
-          {
-            "code" : "MED-631",
-            "display" : "5 - Vomissement répétés ou incoercibles"
-          },
-          {
-            "code" : "MED-659",
-            "display" : "Non évaluable"
-          }
-        ]
-      }
-    ]
+        "code" : "MED-628",
+        "display" : "2 - Nausées modéréés"
+      },
+      {
+        "code" : "MED-629",
+        "display" : "3 - Nausées intenses"
+      },
+      {
+        "code" : "MED-630",
+        "display" : "4 - Vomissements"
+      },
+      {
+        "code" : "MED-631",
+        "display" : "5 - Vomissement répétés ou incoercibles"
+      },
+      {
+        "code" : "MED-659",
+        "display" : "Non évaluable"
+      }]
+    }]
   }
 }
 

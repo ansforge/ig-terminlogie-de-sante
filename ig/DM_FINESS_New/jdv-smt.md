@@ -22,30 +22,11 @@ Vous touverez ici la liste des JDV du smt .
 | [JdvJ298MacroEtatObjetAdministratifFiness](ValueSet-jdv-j298-macro-etat-objet-administratif-finess.md) | Jeu de valeurs FINESS contenant les macro-etat des structures FINESS qui dérivent de l'état de l'objet. Permet de distinguer les structures actives de celles inactives. | 22/02/2025 |
 | [JdvJ299SystemeInformationFiness](ValueSet-jdv-j299-systeme-information-finess.md) | Jeu de valeurs FINESS contenant les systemes d'information en relation avec FINESS | 11/06/2025 |
 | [JdvJ300TypeObjetFiness](ValueSet-jdv-j300-type-objet-finess.md) | Jeu de valeurs FINESS contenant les types d'objet enregistrés et manipulés dans FINESS+. | 22/02/2025 |
-| [JdvJ301FinessStatutJuridiqueNiv1Finess](ValueSet-jdv-j301-finess-statut-juridique-niv1-finess.md) | Jeu de valeurs FINESS contenant les statuts juridiques de niveau 1 | 04/11/2025 |
-| [JdvJ302FinessStatutJuridiqueNiv2Finess](ValueSet-jdv-j302-finess-statut-juridique-niv2-finess.md) | Jeu de valeurs FINESS contenant les statuts juridiques de niveau 2 | 04/11/2025 |
-| [JdvJ303FinessStatutJuridiqueNiv3Finess](ValueSet-jdv-j303-finess-statut-juridique-niv3-finess.md) | Jeu de valeurs FINESS contenant les statuts juridiques de niveau 3 | 04/11/2025 |
-| [JdvJ304FinessStatutJuridiqueFiness](ValueSet-jdv-j304-finess-statut-juridique-finess.md) | Jeu de valeurs FINESS contenant les statuts juridiques de niveau 4 | 04/11/2025 |
 | [JdvJ305TypeGroupementFiness](ValueSet-jdv-j305-type-groupement-finess.md) | Jeu de valeurs FINESS contenant les types de groupement utilisables dans FINESS. Groupement de coopération conventionnelle ou Groupement de coopération organique | 11/06/2025 |
 | [JdvJ306TypeGroupeGccFiness](ValueSet-jdv-j306-type-groupe-gcc-finess.md) | Jeu de valeurs FINESS contenant les types de Groupement de Coopération conventionnelle (GCC). | 11/07/2025 |
-| [JdvJ307CategorieEntiteGeographiqueExerciceNiv1Finess](ValueSet-jdv-j307-categorie-entite-geographique-exercice-niv1-finess.md) | Jeu de valeurs FINESS contenant les catégories des entités géographiques d'exercice de niveau 1 | 04/11/2025 |
-| [JdvJ308CategorieEntiteGeographiqueExerciceNiv2Finess](ValueSet-jdv-j308-categorie-entite-geographique-exercice-niv2-finess.md) | Jeu de valeurs FINESS contenant les catégories des entités géographiques d'exercice de niveau 2 | 04/11/2025 |
-| [JdvJ309CategorieEntiteGeographiqueExerciceNiv3Finess](ValueSet-jdv-j309-categorie-entite-geographique-exercice-niv3-finess.md) | Jeu de valeurs FINESS contenant les catégories des entités géographiques d'exercice de niveau 3 | 04/11/2025 |
-| [JdvJ310CategorieEntiteGeographiqueExerciceFiness](ValueSet-jdv-j310-categorie-entite-geographique-exercice-finess.md) | Jeu de valeurs FINESS contenant les catégories d'entité géographique d'exercice spécifiques à FINESS et de niveau 4 | 11/06/2025 |
 | [JdvJ313UsageAdresseFiness](ValueSet-jdv-j313-usage-adresse-finess.md) | Jeu de valeurs FINESS contenant les usages des adresses associées aux entités enregistrés dans FINESS+ | 11/06/2025 |
 | [JdvJ314EngagementFiness](ValueSet-jdv-j314-engagement-finess.md) | Jeu de valeurs FINESS contenant les engagements, de tous les types d'engagement confondus, pouvant être associés dans FINESS+ à des structures ou des activités. | 19/06/2025 |
-| [JdvJ318ActiviteEnseignementReguleeFiness](ValueSet-jdv-j318-activite-enseignement-regulee-finess.md) | Jeu de valeurs FINESS contenant les activités d'enseignement régulées de niveau 4 | 04/11/2025 |
-| [JdvJ319ActiviteEnseignementReguleeNiv1Finess](ValueSet-jdv-j319-activite-enseignement-regulee-niv1-finess.md) | Jeu de valeurs FINESS contenant les activités d'enseignement régulées de niveau 1 | 04/11/2025 |
-| [JdvJ320ActiviteEnseignementReguleeNiv2Finess](ValueSet-jdv-j320-activite-enseignement-regulee-niv2-finess.md) | Jeu de valeurs FINESS contenant les activités d'enseignement régulées de niveau 2 | 04/11/2025 |
-| [JdvJ321ActiviteEnseignementReguleeNiv3Finess](ValueSet-jdv-j321-activite-enseignement-regulee-niv3-finess.md) | Jeu de valeurs FINESS contenant les activités d'enseignement régulées de niveau 3 | 04/11/2025 |
 | [JdvJ322TypeActEnseignementReguleeFiness](ValueSet-jdv-j322-type-act-enseignement-regulee-finess.md) | Jeu de valeurs FINESS reprenant les types d'activité d'enseignement régulée | 03/06/2025 |
-| [JdvJ323ActiviteSocialeRegulee](ValueSet-jdv-j323-activite-sociale-regulee-finess.md) | Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 4 | 04/11/2025 |
-| [JdvJ324ActiviteSocialeReguleeNiv1Finess](ValueSet-jdv-j324-activite-sociale-regulee-niv1-finess.md) | Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 1 | 04/11/2025 |
-| [JdvJ325ActiviteSocialeReguleeNiv2Finess](ValueSet-jdv-j325-activite-sociale-regulee-niv2-finess.md) | Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 2 | 04/11/2025 |
-| [JdvJ326ActiviteSocialeReguleeNiv3Finess](ValueSet-jdv-j326-activite-sociale-regulee-niv3-finess.md) | Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 3 | 04/11/2025 |
-| [JdvJ328PublicActiviteSmsseReguleeFiness](ValueSet-jdv-j328-public-activite-smsse-regulee-finess.md) | Jeu de valeurs FINESS contenant les codes des publics des activités régulées de niveau 3 | 04/11/2025 |
-| [JdvJ329PublicActiviteSmsseReguleeNiv1Finess](ValueSet-jdv-j329-public-activite-smsse-regulee-niv1-finess.md) | Jeu de valeurs FINESS contenant les codes des publics des activités régulées de niveau 1 | 04/11/2025 |
-| [JdvJ330PublicActiviteSmsseReguleeNiv2Finess](ValueSet-jdv-j330-public-activite-smsse-regulee-niv2-finess.md) | Jeu de valeurs FINESS contenant les codes des publics des activités régulées de niveau 2 | 04/11/2025 |
 | [JdvJ331TypeActSocialeReguleeFiness](ValueSet-jdv-j331-type-act-sociale-regulee-finess.md) | Jeu de valeurs FINESS reprenant les types d'activité sociale régulée | 03/06/2025 |
 | [JdvJ332TypeActMedicoSocialeReguleeFiness](ValueSet-jdv-j332-type-act-medico-sociale-regulee-finess.md) | Jeu de valeurs FINESS reprenant les types d'activité médico sociale régulée | 03/06/2025 |
 | [JdvJ333ActiviteSanitaireDiverseReguleeNiv1Finess](ValueSet-jdv-j333-activite-sanitaire-diverse-regulee-niv1-finess.md) | Jeu de valeurs FINESS contenant les Activités Sanitaires Diverses Régulées (ASDR) de niveau 1 | 10/07/2025 |
@@ -72,11 +53,8 @@ Vous touverez ici la liste des JDV du smt .
 | [JdvJ373TypeAutorite](ValueSet-jdv-j373-type-autorite.md) | Jeu de valeurs contenant les différents types d'autorité (actifs ou inactifs) | 26/08/2025 |
 | [JdvJ374Autorite](ValueSet-jdv-j374-autorite.md) | Jeu de valeurs contenant la liste des autorités quelque soit la catégorie d'autorité et quelque soir l'état de l'autorité active ou inactive) | 26/08/2025 |
 | [JdvJ375Ordre](ValueSet-jdv-j375-ordre.md) | Jeu de valeurs comportant uniquement les autorités de type Ordre. | 26/08/2025 |
-| [JdvJ376PublicActiviteSmsseReguleeRass](ValueSet-jdv-j376-public-activite-smsse-regulee-rass.md) | Jeu de valeurs RASS contenant les codes actifs des publics des activités régulées de niveau 3 | 07/11/2025 |
-| [JdvJ377CategorieEntiteGeographiqueExerciceRor](ValueSet-jdv-j377-categorie-entite-geographique-exercice-ror.md) | Catégories d'établissements FINESS ou hors FINESS et secteurs d'activité des cabinets | 22/12/2025 |
 | [JdvJ378RegionOmFiness](ValueSet-jdv-j378-region-om-finess.md) | Liste des régions administratives couvertes par le périmètre géographique de FINESS | 22/12/2025 |
-| [JdvJ379ActiviteSocialeReguleeRass](ValueSet-jdv-j379-activite-sociale-regulee-rass.md) | Activités sociales régulées pour le RASS | 22/12/2025 |
-| [JdvJ380CategorieEntiteGeographiqueExerciceRass](ValueSet-jdv-j380-categorie-entite-geographique-exercice-rass.md) | Catégories d'établissements FINESS | 22/12/2025 |
+| [JdvJ388ModeFonctionnementActiviteSmsseReguleeRass](ValueSet-jdv-j388-mode-fonctionnement-activite-smsse-regulee-rass.md) | Ce JDV remplace le JDV_J138_TypeActivite_RASS | 23/02/2026 |
 | [VsTreR361FonctionPubliqueAll](ValueSet-vs-tre-r361-fonction-publique-all.md) | Jeu de valeurs ALL contenant les versants de la fonction publique. | 22/02/2025 |
 | [VsTreR362TypeBudgetAll](ValueSet-vs-tre-r362-type-budget-all.md) | Jeu de valeurs ALL contenant les types de budget associés aux Entités Géographiques d'Exercice (EGE) dans FINESS+. | 22/02/2025 |
 | [VsTreR370RoleRelationEgeAll](ValueSet-vs-tre-r370-role-relation-ege-all.md) | Jeu de valeurs ALL contenant les types de rôle existant entre les Entités Géographiques d'Exercice (EGE) au sein d'une PM-SMSSE. | 22/02/2025 |
@@ -92,52 +70,82 @@ Vous touverez ici la liste des JDV du smt .
 | [VsTreR388TypeLogementAll](ValueSet-vs-tre-r388-type-logement-all.md) | Jeu de valeurs ALL contenant les types de logement associés aux capacités des structures FINESS | 22/02/2025 |
 | [VsTreR392TypeActSmsseReguleeAll](ValueSet-vs-tre-r392-type-act-smsse-regulee-all.md) | Jeu de valeurs ALL contenant l'ensemble des codes pour les types d'activitées SMSSE régulées | 13/05/2025 |
 | [VsTreR395EngagementAll](ValueSet-vs-tre-r395-engagement-all.md) | Jeu de valeurs ALL contenant les engagements FINESS | 16/07/2025 |
-| [ActEncounterCode](ValueSet-jdv-hl7-v3-ActEncounterCode-cisis.md) | ActEncounterCode | 16/12/2025 |
-| [ActMoodIntent](ValueSet-jdv-hl7-v3-ActMoodIntent-cisis.md) | ActMoodIntent | 16/12/2025 |
-| [ActMood](ValueSet-jdv-hl7-v3-ActMood-cisis.md) | ActMood | 16/12/2025 |
-| [ActPharmacySupplyType](ValueSet-jdv-hl7-v3-ActPharmacySupplyType-cisis.md) | ActPharmacySupplyType | 16/12/2025 |
-| [ActPriority](ValueSet-jdv-hl7-v3-ActPriority-cisis.md) | ActPriority | 16/12/2025 |
-| [ActStatus](ValueSet-jdv-hl7-v3-ActStatus-cisis.md) | ActStatus | 16/12/2025 |
-| [ActSubstanceAdminSubstitutionCode](ValueSet-jdv-hl7-v3-ActSubstanceAdminSubstitutionCode-cisis.md) | ActSubstanceAdminSubstitutionCode | 16/12/2025 |
-| [ActSubstanceAdministrationCode](ValueSet-jdv-hl7-v3-ActSubstanceAdministrationCode-cisis.md) | ActSubstanceAdministrationCode | 16/12/2025 |
-| [ActSubstanceAdministrationImmunizationCode](ValueSet-jdv-hl7-v3-ActSubstanceAdministrationImmunizationCode-cisis.md) | ActSubstanceAdministrationImmunizationCode | 16/12/2025 |
-| [AdministrableDrugForm](ValueSet-jdv-hl7-v3-AdministrableDrugForm-cisis.md) | AdministrableDrugForm | 16/12/2025 |
-| [AdministrativeGender](ValueSet-jdv-hl7-v3-AdministrativeGender-cisis.md) | AdministrativeGender | 16/12/2025 |
-| [AllergyIntoleranceClinicalStatusCodes](ValueSet-jdv-hl7-allergyintolerance-clinical-cisis.md) | AllergyIntolerance Clinical Status Codes | 16/12/2025 |
-| [AllergyIntoleranceCriticality](ValueSet-jdv-hl7-allergy-intolerance-criticality-cisis.md) | Allergy Intolerance Criticality | 16/12/2025 |
-| [ConditionClinicalStatusCodes](ValueSet-jdv-hl7-condition-clinical-cisis.md) | Condition Clinical Status Codes | 16/12/2025 |
-| [ConditionVerificationStatus](ValueSet-jdv-hl7-condition-ver-status-cisis.md) | Condition Verification Status | 16/12/2025 |
-| [Confidentiality](ValueSet-jdv-hl7-v2-0952-cisis.md) | Confidentiality | 16/12/2025 |
-| [CoverageRoleType](ValueSet-jdv-hl7-v3-CoverageRoleType-cisis.md) | CoverageRoleType | 16/12/2025 |
-| [DaysOfWeek](ValueSet-jdv-hl7-days-of-week.md) | DaysOfWeek | 16/12/2025 |
+| [VsTreR404ModeFonctionnementActiviteSmsseReguleeAll](ValueSet-vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all.md) | Jeu de valeurs ALL contenant les modes de fonctinonemment des activités ssmsse régulées | 23/02/2026 |
+| [VsTreR405ModaliteActiviteSmsseReguleeAll](ValueSet-vs-tre-r405-modalite-activite-smsse-regulee-all.md) | Jeu de valeurs ALL contenant les modalités des activités SSMSE régulées | 23/02/2026 |
+| [VsTreR406FormeActiviteSmsseReguleeAll](ValueSet-vs-tre-r406-forme-activite-smsse-regulee-all.md) | Jeu de valeurs ALL contenant les formes des activites smsse régulées | 23/02/2026 |
+| [ActEncounterCode](ValueSet-jdv-hl7-v3-ActEncounterCode-cisis.md) | ActEncounterCode | 20/02/2026 |
+| [ActMoodIntent](ValueSet-jdv-hl7-v3-ActMoodIntent-cisis.md) | ActMoodIntent | 20/02/2026 |
+| [ActMood](ValueSet-jdv-hl7-v3-ActMood-cisis.md) | ActMood | 20/02/2026 |
+| [ActPharmacySupplyType](ValueSet-jdv-hl7-v3-ActPharmacySupplyType-cisis.md) | ActPharmacySupplyType | 20/02/2026 |
+| [ActPriority](ValueSet-jdv-hl7-v3-ActPriority-cisis.md) | ActPriority | 20/02/2026 |
+| [ActStatus](ValueSet-jdv-hl7-v3-ActStatus-cisis.md) | ActStatus | 20/02/2026 |
+| [ActSubstanceAdminSubstitutionCode](ValueSet-jdv-hl7-v3-ActSubstanceAdminSubstitutionCode-cisis.md) | ActSubstanceAdminSubstitutionCode | 20/02/2026 |
+| [ActSubstanceAdministrationCode](ValueSet-jdv-hl7-v3-ActSubstanceAdministrationCode-cisis.md) | ActSubstanceAdministrationCode | 20/02/2026 |
+| [ActSubstanceAdministrationImmunizationCode](ValueSet-jdv-hl7-v3-ActSubstanceAdministrationImmunizationCode-cisis.md) | ActSubstanceAdministrationImmunizationCode | 20/02/2026 |
+| [AdministrableDrugForm](ValueSet-jdv-hl7-v3-AdministrableDrugForm-cisis.md) | AdministrableDrugForm | 20/02/2026 |
+| [AdministrativeGender](ValueSet-jdv-hl7-v3-AdministrativeGender-cisis.md) | AdministrativeGender | 20/02/2026 |
+| [AllergyIntoleranceClinicalStatusCodes](ValueSet-jdv-hl7-allergyintolerance-clinical-cisis.md) | AllergyIntolerance Clinical Status Codes | 20/02/2026 |
+| [AllergyIntoleranceCriticality](ValueSet-jdv-hl7-allergy-intolerance-criticality-cisis.md) | Allergy Intolerance Criticality | 20/02/2026 |
+| [ConditionClinicalStatusCodes](ValueSet-jdv-hl7-condition-clinical-cisis.md) | Condition Clinical Status Codes | 20/02/2026 |
+| [ConditionVerificationStatus](ValueSet-jdv-hl7-condition-ver-status-cisis.md) | Condition Verification Status | 20/02/2026 |
+| [Confidentiality](ValueSet-jdv-hl7-v2-0952-cisis.md) | Confidentiality | 20/02/2026 |
+| [CoverageRoleType](ValueSet-jdv-hl7-v3-CoverageRoleType-cisis.md) | CoverageRoleType | 20/02/2026 |
+| [DaysOfWeek](ValueSet-jdv-hl7-days-of-week.md) | DaysOfWeek | 20/02/2026 |
 | [DesignationUse](ValueSet-designation-use.md) | Details of how a designation would be used | 31/10/2019 |
-| [EmploymentStatusODH](ValueSet-jdv-hl7-v3-employmentStatusODH-cisis.md) | EmploymentStatusODH | 16/12/2025 |
-| [Hl7VSEmploymentStatus](ValueSet-jdv-hl7-v2-0066-cisis.md) | hl7VS-employmentStatus | 16/12/2025 |
-| [Hl7VSSpecimenCollectionMethod](ValueSet-jdv-hl7-v2-0488-cisis.md) | hl7VS-specimenCollectionMethod | 16/12/2025 |
+| [EmploymentStatusODH](ValueSet-jdv-hl7-v3-employmentStatusODH-cisis.md) | EmploymentStatusODH | 20/02/2026 |
+| [Hl7VSEmploymentStatus](ValueSet-jdv-hl7-v2-0066-cisis.md) | hl7VS-employmentStatus | 20/02/2026 |
+| [Hl7VSSpecimenCollectionMethod](ValueSet-jdv-hl7-v2-0488-cisis.md) | hl7VS-specimenCollectionMethod | 20/02/2026 |
+| [JdvJ301FinessStatutJuridiqueNiv1Finess](ValueSet-jdv-j301-finess-statut-juridique-niv1-finess.md) | Ce JDV contient les agrégats Niv1 des statust juridiques (JDV créé à l'image de l'ancienne TRE_R70-FinessAgregatStatutJuridique) | 23/02/2026 |
+| [JdvJ302FinessStatutJuridiqueNiv2Finess](ValueSet-jdv-j302-finess-statut-juridique-niv2-finess.md) | Ce JDV contient les agrégats Niv2 des statuts juridiques (JDV créé à l'image de l'ancienne TRE_R68-FinessAgregatStatutJuridiqueNiv1) | 23/02/2026 |
+| [JdvJ303FinessStatutJuridiqueNiv3Finess](ValueSet-jdv-j303-finess-statut-juridique-niv3-finess.md) | Ce JDV contient les agrégats Niv3 des statuts juridiques (JDV créé à l'image de l'ancienne TRE_R69-FinessAgregatStatutJuridiqueNiv2) | 23/02/2026 |
+| [JdvJ304FinessStatutJuridiqueFiness](ValueSet-jdv-j304-finess-statut-juridique-finess.md) | Ce JDV comporte tous les status juridiques hors agrégat (JDV créé à l'image de l'ancienne TRE_R72-FinessStatutJuridique) | 23/02/2026 |
+| [JdvJ307CategorieEntiteGeographiqueExerciceNiv1Finess](ValueSet-jdv-j307-categorie-entite-geographique-exercice-niv1-finess.md) | Ce JDV contient tous les agrégats Niv1 d'EGE (JDV créé à l'image de l'ancienne TRE_R65-AgregatCategorieEtablissement) | 23/02/2026 |
+| [JdvJ308CategorieEntiteGeographiqueExerciceNiv2Finess](ValueSet-jdv-j308-categorie-entite-geographique-exercice-niv2-finess.md) | Ce JDV contient tous les agrégats Niv 2 d'EGE (JDV crée à l'image de l'ancienneTRE_R63-AgregatCategorieEtablissementNiv1) | 23/02/2026 |
+| [JdvJ309CategorieEntiteGeographiqueExerciceNiv3Finess](ValueSet-jdv-j309-categorie-entite-geographique-exercice-niv3-finess.md) | Ce JDV contient tous les agrégats Niv3 d'EGE (JDV créé à l'image de l'ancienneTRE_R64-AgregatCategorieEtablissementNiv2) | 23/02/2026 |
+| [JdvJ310CategorieEntiteGeographiqueExerciceFiness](ValueSet-jdv-j310-categorie-entite-geographique-exercice-finess.md) | Ce JDV contient toutes les catégories d'EGE hors agrégat (JDV crée à l'image de l'ancienne TRE R66) | 23/02/2026 |
+| [JdvJ318ActiviteEnseignementReguleeFiness](ValueSet-jdv-j318-activite-enseignement-regulee-finess.md) | Ce JDV contient toutes les AER hors agrégat (JDV créé à l'image de l'ancienne TRE_R281-DisciplineEnseignement) | 23/02/2026 |
+| [JdvJ319ActiviteEnseignementReguleeNiv1Finess](ValueSet-jdv-j319-activite-enseignement-regulee-niv1-finess.md) | Jeu de valeurs FINESS contenant les activités d'enseignement régulées de niveau 1 | 23/02/2026 |
+| [JdvJ320ActiviteEnseignementReguleeNiv2Finess](ValueSet-jdv-j320-activite-enseignement-regulee-niv2-finess.md) | Jeu de valeurs FINESS contenant les activités d'enseignement régulées de niveau 2 | 23/02/2026 |
+| [JdvJ321ActiviteEnseignementReguleeNiv3Finess](ValueSet-jdv-j321-activite-enseignement-regulee-niv3-finess.md) | Jeu de valeurs FINESS contenant les activités d'enseignement régulées de niveau 3 | 23/02/2026 |
+| [JdvJ323ActiviteSocialeReguleeFiness](ValueSet-jdv-j323-activite-sociale-regulee-finess.md) | Ce JDV contient toute les ASOCR hors agrégat (JDV créé à l'image de l'ancienne TRE_R280-DisciplineEquipementSocial) | 23/02/2026 |
+| [JdvJ324ActiviteSocialeReguleeNiv1Finess](ValueSet-jdv-j324-activite-sociale-regulee-niv1-finess.md) | Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 1 | 23/02/2026 |
+| [JdvJ325ActiviteSocialeReguleeNiv2Finess](ValueSet-jdv-j325-activite-sociale-regulee-niv2-finess.md) | Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 2 | 23/02/2026 |
+| [JdvJ326ActiviteSocialeReguleeNiv3Finess](ValueSet-jdv-j326-activite-sociale-regulee-niv3-finess.md) | Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 3 | 23/02/2026 |
+| [JdvJ328PublicActiviteSmsseReguleeFiness](ValueSet-jdv-j328-public-activite-smsse-regulee-finess.md) | Ce JDV contient tous les publics hors agrégat (JDV créé à l'image de l'ancienne TRE_R279-Clientele) | 23/02/2026 |
+| [JdvJ329PublicActiviteSmsseReguleeNiv1Finess](ValueSet-jdv-j329-public-activite-smsse-regulee-niv1-finess.md) | Ce JDV contient tous les agregats Niv 1 des publics (JDV créé à l'image de l'ancienne TRE_R293-AgregatClienteleNiv2) | 23/02/2026 |
+| [JdvJ330PublicActiviteSmsseReguleeNiv2Finess](ValueSet-jdv-j330-public-activite-smsse-regulee-niv2-finess.md) | Ce JDV contient tous les agregats de publics de niveau 2 (JDV créé à l'image de l'ancienne TRE_R294-AgregatClienteleNiv3) | 23/02/2026 |
 | [JdvJ366StatutBilanProjetPersonnaliseMs](ValueSet-jdv-j366-statut-bilan-projet-personnalise-ms.md) | Statut du bilan du projet personnalisé. | 15/04/2025 |
 | [JdvJ367TypeProjetPersonnaliseMs](ValueSet-jdv-j367-type-projet-personnalise-ms.md) | Cette nomenclature donne le type de projet personnalisé qui est un document co-construit par l'usager, son entourage familial et professionnel du médico-social. | 15/04/2025 |
 | [JdvJ370TypeContratSejourMs](ValueSet-jdv-j370-type-contrat-sejour-ms.md) | Type de contrat conclu entre l’établissement/service et la personne/son représentant légal. | 21/05/2025 |
+| [JdvJ376PublicActiviteSmsseReguleeRass](ValueSet-jdv-j376-public-activite-smsse-regulee-rass.md) | Ce JDV remplace le JDV_J137_Clientele_RASS | 23/02/2026 |
+| [JdvJ377CategorieEntiteGeographiqueExerciceRor](ValueSet-jdv-j377-categorie-entite-geographique-exercice-ror.md) | Ce JDV remplace le JDV_J55_CategorieEG_ROR | 23/02/2026 |
+| [JdvJ379ActiviteSocialeReguleeRass](ValueSet-jdv-j379-activite-sociale-regulee-rass.md) | Ce JDV remplace le JDV_J136_DisciplineEquipementSocial_RASS | 23/02/2026 |
+| [JdvJ380CategorieEntiteGeographiqueExerciceRass](ValueSet-jdv-j380-categorie-entite-geographique-exercice-rass.md) | Ce JDV remplace le JDV-J129-CategorieEtablissement-RASS | 23/02/2026 |
 | [JdvJ383MotifClotureExerciceProfessionnelEpars](ValueSet-jdv-j383-motif-cloture-exercice-professionnel-epars.md) | Ce jeu de valeur liste les différents motifs qui peuvent justifier la clôture d'un exercice professionnel. | 22/12/2025 |
+| [JdvJ384RoleMembreFamilleMs](ValueSet-jdv-j384-role-membre-famille-ms.md) | Rôle d'un membre de la famille ou d'un proche de l'usager. | 02/02/2026 |
+| [JdvJ385CompositionFoyerMs](ValueSet-jdv-j385-composition-foyer-ms.md) | Désigne avec qui vit l’usager dans son logement. | 02/02/2026 |
+| [JdvJ386TypeEnseignementSpecialiseMs](ValueSet-jdv-j386-type-enseignement-specialise-ms.md) | Type d'enseignement spécialisé. | 02/02/2026 |
+| [JdvJ387RoleParticipantMs](ValueSet-jdv-j387-role-participant-ms.md) | Rôle du participant vis à vis de l'événement (mandataire judiciaire, structure en charge de l'événement). | 02/02/2026 |
 | [MediaType](ValueSet-jdv-hl7-v3-MediaType-cisis.md) | MediaType | 16/12/2025 |
-| [ObservationInterpretation](ValueSet-jdv-hl7-v3-ObservationInterpretation-cisis.md) | ObservationInterpretation | 16/12/2025 |
-| [ObservationMethod](ValueSet-jdv-hl7-v3-ObservationMethod-cisis.md) | ObservationMethod | 16/12/2025 |
-| [ParticipationFunction](ValueSet-jdv-hl7-v3-ParticipationFunction-cisis.md) | ParticipationFunction | 16/12/2025 |
-| [ParticipationType](ValueSet-jdv-hl7-v3-ParticipationType-cisis.md) | ParticipationType | 16/12/2025 |
-| [PersonalRelationshipRoleType](ValueSet-jdv-hl7-v3-PersonalRelationshipRoleType-cisis.md) | PersonalRelationshipRoleType | 16/12/2025 |
-| [ROIOverlayShape](ValueSet-jdv-hl7-v3-ROIOverlayShape-cisis.md) | ROIOverlayShape | 16/12/2025 |
-| [RoleClassIngredientEntity](ValueSet-jdv-hl7-v3-RoleClassIngredientEntity-cisis.md) | RoleClassIngredientEntity | 16/12/2025 |
-| [SeverityObservationCode](ValueSet-jdv-hl7-v3-SeverityObservationCode-cisis.md) | SeverityObservationCode | 16/12/2025 |
-| [SpecimenAdditiveEntity](ValueSet-jdv-hl7-v3-SpecimenAdditiveEntity-cisis.md) | SpecimenAdditiveEntity | 16/12/2025 |
-| [SpecimenRoleType](ValueSet-jdv-hl7-v3-SpecimenRoleType-cisis.md) | SpecimenRoleType | 16/12/2025 |
-| [TimingEvent](ValueSet-jdv-hl7-v3-TimingEvent-cisis.md) | TimingEvent | 16/12/2025 |
+| [ObservationInterpretation](ValueSet-jdv-hl7-v3-ObservationInterpretation-cisis.md) | ObservationInterpretation | 20/02/2026 |
+| [ObservationMethod](ValueSet-jdv-hl7-v3-ObservationMethod-cisis.md) | ObservationMethod | 20/02/2026 |
+| [ParticipationFunction](ValueSet-jdv-hl7-v3-ParticipationFunction-cisis.md) | ParticipationFunction | 20/02/2026 |
+| [ParticipationType](ValueSet-jdv-hl7-v3-ParticipationType-cisis.md) | ParticipationType | 20/02/2026 |
+| [PersonalRelationshipRoleType](ValueSet-jdv-hl7-v3-PersonalRelationshipRoleType-cisis.md) | PersonalRelationshipRoleType | 20/02/2026 |
+| [ROIOverlayShape](ValueSet-jdv-hl7-v3-ROIOverlayShape-cisis.md) | ROIOverlayShape | 20/02/2026 |
+| [RoleClassIngredientEntity](ValueSet-jdv-hl7-v3-RoleClassIngredientEntity-cisis.md) | RoleClassIngredientEntity | 20/02/2026 |
+| [SeverityObservationCode](ValueSet-jdv-hl7-v3-SeverityObservationCode-cisis.md) | SeverityObservationCode | 20/02/2026 |
+| [SpecimenAdditiveEntity](ValueSet-jdv-hl7-v3-SpecimenAdditiveEntity-cisis.md) | SpecimenAdditiveEntity | 20/02/2026 |
+| [SpecimenRoleType](ValueSet-jdv-hl7-v3-SpecimenRoleType-cisis.md) | SpecimenRoleType | 20/02/2026 |
+| [TimingEvent](ValueSet-jdv-hl7-v3-TimingEvent-cisis.md) | TimingEvent | 20/02/2026 |
 | [VS_test](ValueSet-VS-test.md) | VS-test | 31/12/2020 |
-| [ValueSet_ATC_All](ValueSet-vs-atc-all.md) | Ce jeu de valeurs inclut tous les codes concepts de la terminologie ATC | 15/01/2026 |
-| [ValueSet_BDPM_All](ValueSet-vs-bdpm-all.md) | Ce jeu de valeurs inclut tous les codes de la terminologie BDPM | 15/01/2026 |
-| [ValueSet_CIPUCD_All](ValueSet-vs-cipucd-all.md) | Ce jeu de valeurs inclut tous les codes concepts de la terminologie CIP-UCD | 15/01/2026 |
-| [ValueSet_EDQM_All](ValueSet-vs-edqm-all.md) | Ce jeu de valeurs inclut tous les codes de la terminologie EDQM | 15/01/2026 |
-| [ValueSet_NUVA_All](ValueSet-vs-nuva-all.md) | Ce jeu de valeurs inclut tous les codes concepts de la terminologie NUVA | 15/01/2026 |
-| [ValueSet_SMS_All](ValueSet-vs-sms-all.md) | Ce jeu de valeurs inclut tous les codes de la terminologie SMS, Dictionnaire des substances médicamenteuses | 15/01/2026 |
-| [WorkScheduleODH](ValueSet-jdv-hl7-v3-WorkScheduleODH-cisis.md) | WorkScheduleODH | 16/12/2025 |
-| [XActMoodDocumentObservation](ValueSet-jdv-hl7-v3-xActMoodDocumentObservation.md) | x_ActMoodDocumentObservation | 16/12/2025 |
-| [XBasicConfidentialityKind](ValueSet-jdv-hl7-v3-xBasicConfidentialityKind-cisis.md) | x_BasicConfidentialityKind | 16/12/2025 |
+| [ValueSet_ATC_All](ValueSet-vs-atc-all.md) | Ce jeu de valeurs inclut tous les codes concepts de la terminologie ATC | 09/03/2026 |
+| [ValueSet_BDPM_All](ValueSet-vs-bdpm-all.md) | Ce jeu de valeurs inclut tous les codes de la terminologie BDPM | 09/03/2026 |
+| [ValueSet_CIPUCD_All](ValueSet-vs-cipucd-all.md) | Ce jeu de valeurs inclut tous les codes concepts de la terminologie CIP-UCD | 09/03/2026 |
+| [ValueSet_EDQM_All](ValueSet-vs-edqm-all.md) | Ce jeu de valeurs inclut tous les codes de la terminologie EDQM | 09/03/2026 |
+| [ValueSet_NUVA_All](ValueSet-vs-nuva-all.md) | Ce jeu de valeurs inclut tous les codes concepts de la terminologie NUVA | 09/03/2026 |
+| [ValueSet_SMS_All](ValueSet-vs-sms-all.md) | Ce jeu de valeurs inclut tous les codes de la terminologie SMS, Dictionnaire des substances médicamenteuses | 09/03/2026 |
+| [WorkScheduleODH](ValueSet-jdv-hl7-v3-WorkScheduleODH-cisis.md) | WorkScheduleODH | 20/02/2026 |
+| [XActMoodDocumentObservation](ValueSet-jdv-hl7-v3-xActMoodDocumentObservation.md) | x_ActMoodDocumentObservation | 20/02/2026 |
+| [XBasicConfidentialityKind](ValueSet-jdv-hl7-v3-xBasicConfidentialityKind-cisis.md) | x_BasicConfidentialityKind | 20/02/2026 |
 

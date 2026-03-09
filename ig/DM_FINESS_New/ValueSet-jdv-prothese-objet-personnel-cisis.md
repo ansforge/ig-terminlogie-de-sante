@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-prothese-objet-personnel-cisis | *Version*:20251216141838 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvProtheseObjetPersonnelCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-prothese-objet-personnel-cisis | *Version*:20260220142103 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvProtheseObjetPersonnelCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.515 | | |
 
  
@@ -17,7 +17,7 @@ JDV Prothese Objet Personnel CISIS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -55,66 +55,56 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-prothese-objet-personnel-cisis",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-12-17T15:46:05.179+01:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-02-23T14:59:23.643+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2021-01-06T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2021-01-06T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-prothese-objet-personnel-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.515"
-    }
-  ],
-  "version" : "20251216141838",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.515"
+  }],
+  "version" : "20260220142103",
   "name" : "JdvProtheseObjetPersonnelCisis",
   "title" : "JDV Prothese Objet Personnel CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:38+01:00",
+  "date" : "2026-02-20T14:21:03+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Prothese Objet Personnel CISIS",
   "compose" : {
-    "include" : [
-      {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "GEN-092.02.01",
-            "display" : "Autre dispositif ou objet personnel"
-          },
-          {
-            "code" : "GEN-413",
-            "display" : "Aucun objet"
-          }
-        ]
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "concept" : [{
+        "code" : "GEN-092.02.01",
+        "display" : "Autre dispositif ou objet personnel"
       },
       {
-        "system" : "https://smt.esante.gouv.fr/terminologie-emdn",
-        "concept" : [
-          {
-            "code" : "Q021003",
-            "display" : "LUNETTES PRÊTES À PORTER (OU LUNETTES MONTÉES)"
-          },
-          {
-            "code" : "P0102",
-            "display" : "PROTHÈSES DENTAIRES"
-          },
-          {
-            "code" : "Y2145",
-            "display" : "DISPOSITIFS ACCOUSTIQUES D'AIDE À L'AUDITION"
-          }
-        ]
-      }
-    ]
+        "code" : "GEN-413",
+        "display" : "Aucun objet"
+      }]
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/terminologie-emdn",
+      "concept" : [{
+        "code" : "Q021003",
+        "display" : "LUNETTES PRÊTES À PORTER (OU LUNETTES MONTÉES)"
+      },
+      {
+        "code" : "P0102",
+        "display" : "PROTHÈSES DENTAIRES"
+      },
+      {
+        "code" : "Y2145",
+        "display" : "DISPOSITIFS ACCOUSTIQUES D'AIDE À L'AUDITION"
+      }]
+    }]
   }
 }
 

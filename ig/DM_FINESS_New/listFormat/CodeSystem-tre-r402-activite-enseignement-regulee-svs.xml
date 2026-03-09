@@ -2,10 +2,10 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20251104120000"
-             dateValid="20251104120000"
+             dateMaj="20260223120000"
+             dateValid="20260223120000"
              description="Liste des activités d'enseignement régulées organisée en 3 niveaux d'agrégation. Annule et remplace les anciennes TRE xxxEnseignement"
-             displayName="TreR401ActiviteEnseignementRegulee"
+             displayName="TreR402ActiviteEnseignementRegulee"
              id="1.2.250.1.213.1.6.1.381"
              typeFichier="TRE"
              urlFichier="">

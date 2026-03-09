@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-patient-adresse-par-cisis | *Version*:20251216141839 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvPatientAdresseParCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-patient-adresse-par-cisis | *Version*:20260220142105 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvPatientAdresseParCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.38 | | |
 
  
@@ -17,7 +17,7 @@ JDV Patient adresse par CISIS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -55,107 +55,95 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-patient-adresse-par-cisis",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-12-17T15:45:56.903+01:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-02-23T14:59:19.223+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2010-01-01T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2010-01-01T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-patient-adresse-par-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.38"
-    }
-  ],
-  "version" : "20251216141839",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.38"
+  }],
+  "version" : "20260220142105",
   "name" : "JdvPatientAdresseParCisis",
   "title" : "JDV Patient adresse par CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:39+01:00",
+  "date" : "2026-02-20T14:21:05+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Patient adresse par CISIS",
   "compose" : {
-    "include" : [
-      {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_A02-ProfessionSavFaire-CISIS/FHIR/TRE-A02-ProfessionSavFaire-CISIS",
-        "concept" : [
-          {
-            "code" : "G15_10/C23",
-            "display" : "Médecin - Gynécologie médicale et Obstétrique (C)"
-          },
-          {
-            "code" : "G15_10/C72",
-            "display" : "Médecin - Génétique médicale (C)"
-          },
-          {
-            "code" : "G15_10/SM54",
-            "display" : "Médecin - Médecine Générale (SM)"
-          }
-        ]
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_A02-ProfessionSavFaire-CISIS/FHIR/TRE-A02-ProfessionSavFaire-CISIS",
+      "concept" : [{
+        "code" : "G15_10/C23",
+        "display" : "Médecin - Gynécologie médicale et Obstétrique (C)"
       },
       {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "ORG-019",
-            "display" : "Venu de lui-même"
-          },
-          {
-            "code" : "ORG-020",
-            "display" : "Association de patients"
-          },
-          {
-            "code" : "ORG-021",
-            "display" : "Pédiatre ville"
-          },
-          {
-            "code" : "ORG-022",
-            "display" : "Pédiatre hôpital"
-          },
-          {
-            "code" : "GEN-092.05.02",
-            "display" : "Autre spécialiste"
-          },
-          {
-            "code" : "ORG-025",
-            "display" : "Site de prise en charge"
-          },
-          {
-            "code" : "ORG-026",
-            "display" : "Centre pluridisciplinaire de diagnostic prénatal"
-          },
-          {
-            "code" : "ORG-182",
-            "display" : "Centre de référence maladies rares (CRM)"
-          },
-          {
-            "code" : "ORG-183",
-            "display" : "Centre de compétences maladies rares (CCM)"
-          },
-          {
-            "code" : "GEN-092.05.01",
-            "display" : "Autre personne"
-          }
-        ]
+        "code" : "G15_10/C72",
+        "display" : "Médecin - Génétique médicale (C)"
       },
       {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement",
-        "concept" : [
-          {
-            "code" : "223",
-            "display" : "Protection Maternelle et Infantile (P.M.I.)"
-          }
-        ]
-      }
-    ]
+        "code" : "G15_10/SM54",
+        "display" : "Médecin - Médecine Générale (SM)"
+      }]
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "concept" : [{
+        "code" : "ORG-019",
+        "display" : "Venu de lui-même"
+      },
+      {
+        "code" : "ORG-020",
+        "display" : "Association de patients"
+      },
+      {
+        "code" : "ORG-021",
+        "display" : "Pédiatre ville"
+      },
+      {
+        "code" : "ORG-022",
+        "display" : "Pédiatre hôpital"
+      },
+      {
+        "code" : "GEN-092.05.02",
+        "display" : "Autre spécialiste"
+      },
+      {
+        "code" : "ORG-025",
+        "display" : "Site de prise en charge"
+      },
+      {
+        "code" : "ORG-026",
+        "display" : "Centre pluridisciplinaire de diagnostic prénatal"
+      },
+      {
+        "code" : "ORG-182",
+        "display" : "Centre de référence maladies rares (CRM)"
+      },
+      {
+        "code" : "ORG-183",
+        "display" : "Centre de compétences maladies rares (CCM)"
+      },
+      {
+        "code" : "GEN-092.05.01",
+        "display" : "Autre personne"
+      }]
+    },
+    {
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R66-CategorieEtablissement/FHIR/TRE-R66-CategorieEtablissement",
+      "concept" : [{
+        "code" : "223",
+        "display" : "Protection Maternelle et Infantile (P.M.I.)"
+      }]
+    }]
   }
 }
 

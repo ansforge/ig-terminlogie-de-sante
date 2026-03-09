@@ -30,26 +30,20 @@ Nomenclature des événements administratifs pertinents pour un cycle de vie d�
   "meta" : {
     "versionId" : "1",
     "lastUpdated" : "2024-12-30T12:00:00+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "1900-01-01T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "1900-01-01T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r376-type-evenement-administratif",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.6.1.291"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.6.1.291"
+  }],
   "version" : "20241230120000",
   "name" : "TreR376TypeEvenementAdministratif",
   "title" : "Tre R376 Type Evenement Administratif",
@@ -61,844 +55,768 @@ Nomenclature des événements administratifs pertinents pour un cycle de vie d�
   "caseSensitive" : false,
   "content" : "complete",
   "count" : 36,
-  "property" : [
-    {
+  "property" : [{
+    "code" : "dateValid",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "status",
+    "uri" : "http://hl7.org/fhir/concept-properties#status",
+    "description" : "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+    "type" : "code"
+  },
+  {
+    "code" : "deprecationDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
+    "description" : "The date at which a concept was deprecated. Concepts that are deprecated but not inactive can still be used, but their use is discouraged, and they should be expected to be made inactive in a future release. Property type is dateTime. Note that the status property may also be used to indicate that a concept is deprecated",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "retirementDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
+    "description" : "The date at which a concept was retired",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "finess",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#finess",
+    "description" : "Permet de définir les codes concepts utilisés par FINESS+",
+    "type" : "boolean"
+  }],
+  "concept" : [{
+    "code" : "001",
+    "display" : "Entrée PM-EJ dans le champ FINESS",
+    "property" : [{
       "code" : "dateValid",
-      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
-      "description" : "date de validité d'un code concept",
-      "type" : "dateTime"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
-      "description" : "Date de mise à jour d'un code concept",
-      "type" : "dateTime"
-    },
-    {
-      "code" : "dateFin",
-      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
-      "description" : "Date de fin d'exploitation d'un code concept",
-      "type" : "dateTime"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
-      "uri" : "http://hl7.org/fhir/concept-properties#status",
-      "description" : "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
-      "type" : "code"
-    },
-    {
-      "code" : "deprecationDate",
-      "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
-      "description" : "The date at which a concept was deprecated. Concepts that are deprecated but not inactive can still be used, but their use is discouraged, and they should be expected to be made inactive in a future release. Property type is dateTime. Note that the status property may also be used to indicate that a concept is deprecated",
-      "type" : "dateTime"
-    },
-    {
-      "code" : "retirementDate",
-      "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
-      "description" : "The date at which a concept was retired",
-      "type" : "dateTime"
+      "valueCode" : "active"
     },
     {
       "code" : "finess",
-      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#finess",
-      "description" : "Permet de définir les codes concepts utilisés par FINESS+",
-      "type" : "boolean"
-    }
-  ],
-  "concept" : [
-    {
-      "code" : "001",
-      "display" : "Entrée PM-EJ dans le champ FINESS",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "002",
+    "display" : "Sortie PM-EJ du champ FINESS",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
-      "code" : "002",
-      "display" : "Sortie PM-EJ du champ FINESS",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
-      "code" : "003",
-      "display" : "Création",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "status",
+      "valueCode" : "active"
     },
     {
-      "code" : "004",
-      "display" : "Cessation de l'Entreprise INSEE",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "003",
+    "display" : "Création",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
-      "code" : "005",
-      "display" : "Fermeture",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
-      "code" : "007",
-      "display" : "1ère Autorisation d’activité - lieu d’exercice EGE",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "status",
+      "valueCode" : "active"
     },
     {
-      "code" : "010",
-      "display" : "Décision d'Autorisation/ Autorisation de l’activité – lien PM titulaire",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "004",
+    "display" : "Cessation de l'Entreprise INSEE",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
-      "code" : "012",
-      "display" : "Mise en œuvre / Installation",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
-      "code" : "013",
-      "display" : "Décision de retrait d’une autorisation",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "status",
+      "valueCode" : "active"
     },
     {
-      "code" : "015",
-      "display" : "Fin d’installation d’activité",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "005",
+    "display" : "Fermeture",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
-      "code" : "016",
-      "display" : "Devient membre du groupe",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
-      "code" : "017",
-      "display" : "Sortie du groupe",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "status",
+      "valueCode" : "active"
     },
     {
-      "code" : "018",
-      "display" : "Transfert / reprise d'une EGE",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "007",
+    "display" : "1ère Autorisation d’activité - lieu d’exercice EGE",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
-      "code" : "019",
-      "display" : "Transfert / cession d'une EGE",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
-      "code" : "020",
-      "display" : "Fermeture PM  suite à cession",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "status",
+      "valueCode" : "active"
     },
     {
-      "code" : "021",
-      "display" : "Regroupement d'activité - Cession de l'activité exercée",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "010",
+    "display" : "Décision d'Autorisation/ Autorisation de l’activité – lien PM titulaire",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
-      "code" : "022",
-      "display" : "Regroupement d'activité - Reprise de l'activité exercée",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
-      "code" : "023",
-      "display" : "Regroupement d'activité -Fermeture de l'activité exercée",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "status",
+      "valueCode" : "active"
     },
     {
-      "code" : "024",
-      "display" : "Regroupement d'activité - regroupement d'activité exercée",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "012",
+    "display" : "Mise en œuvre / Installation",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
-      "code" : "025",
-      "display" : "Injonction activité exercée (donc suspendue)",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
-      "code" : "026",
-      "display" : "Suspension activité exercée",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "status",
+      "valueCode" : "active"
     },
     {
-      "code" : "027",
-      "display" : "Fin de suspension activité exercé",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "013",
+    "display" : "Décision de retrait d’une autorisation",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
-      "code" : "028",
-      "display" : "Retrait activité exercé",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
-      "code" : "029",
-      "display" : "Activité autorisée caduque",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "status",
+      "valueCode" : "active"
     },
     {
-      "code" : "030",
-      "display" : "Cession de l'activité autorisée",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "015",
+    "display" : "Fin d’installation d’activité",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
-      "code" : "031",
-      "display" : "Reprise de l'activité autorisée",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
-      "code" : "032",
-      "display" : "Regroupement d'activité -Fermeture de l'activité autorisée",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "status",
+      "valueCode" : "active"
     },
     {
-      "code" : "033",
-      "display" : "Regroupement d'activité - Regroupement d'activité autorisée",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "016",
+    "display" : "Devient membre du groupe",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
-      "code" : "034",
-      "display" : "P-Création de la PM PHARMACIE",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
-      "code" : "035",
-      "display" : "P-Création de l'EGE PHARMACIE",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "status",
+      "valueCode" : "active"
     },
     {
-      "code" : "036",
-      "display" : "P-Ouverture EGE Pharmacie",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "017",
+    "display" : "Sortie du groupe",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
-      "code" : "037",
-      "display" : "P-Changement de titulaire d'une pharmacie",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
-      "code" : "038",
-      "display" : "Fermeture provisoire de l'EGE",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "status",
+      "valueCode" : "active"
     },
     {
-      "code" : "039",
-      "display" : "Réouverture de l'EGE après Fermeture provisoire de l'EGE",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "018",
+    "display" : "Transfert / reprise d'une EGE",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
-      "code" : "040",
-      "display" : "Fermeture provisoire de l'activité",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
-      "code" : "041",
-      "display" : "Réouverture de l'activité après fermeture provisoire",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
-    }
-  ]
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "019",
+    "display" : "Transfert / cession d'une EGE",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "020",
+    "display" : "Fermeture PM  suite à cession",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "021",
+    "display" : "Regroupement d'activité - Cession de l'activité exercée",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "022",
+    "display" : "Regroupement d'activité - Reprise de l'activité exercée",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "023",
+    "display" : "Regroupement d'activité -Fermeture de l'activité exercée",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "024",
+    "display" : "Regroupement d'activité - regroupement d'activité exercée",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "025",
+    "display" : "Injonction activité exercée (donc suspendue)",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "026",
+    "display" : "Suspension activité exercée",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "027",
+    "display" : "Fin de suspension activité exercé",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "028",
+    "display" : "Retrait activité exercé",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "029",
+    "display" : "Activité autorisée caduque",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "030",
+    "display" : "Cession de l'activité autorisée",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "031",
+    "display" : "Reprise de l'activité autorisée",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "032",
+    "display" : "Regroupement d'activité -Fermeture de l'activité autorisée",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "033",
+    "display" : "Regroupement d'activité - Regroupement d'activité autorisée",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "034",
+    "display" : "P-Création de la PM PHARMACIE",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "035",
+    "display" : "P-Création de l'EGE PHARMACIE",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "036",
+    "display" : "P-Ouverture EGE Pharmacie",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "037",
+    "display" : "P-Changement de titulaire d'une pharmacie",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "038",
+    "display" : "Fermeture provisoire de l'EGE",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "039",
+    "display" : "Réouverture de l'EGE après Fermeture provisoire de l'EGE",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "040",
+    "display" : "Fermeture provisoire de l'activité",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "041",
+    "display" : "Réouverture de l'activité après fermeture provisoire",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  }]
 }
 
 ```

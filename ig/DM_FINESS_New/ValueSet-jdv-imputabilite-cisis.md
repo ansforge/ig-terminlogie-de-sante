@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-imputabilite-cisis | *Version*:20251216141838 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvImputabiliteCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-imputabilite-cisis | *Version*:20260220142104 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvImputabiliteCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.786 | | |
 
  
@@ -17,7 +17,7 @@ JDV Imputabilite CISIS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -55,57 +55,49 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-imputabilite-cisis",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2025-12-17T15:44:32.123+01:00",
+    "versionId" : "5",
+    "lastUpdated" : "2026-02-23T14:58:31.874+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2024-05-22T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2024-05-22T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-imputabilite-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.786"
-    }
-  ],
-  "version" : "20251216141838",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.786"
+  }],
+  "version" : "20260220142104",
   "name" : "JdvImputabiliteCisis",
   "title" : "JDV Imputabilite CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:38+01:00",
+  "date" : "2026-02-20T14:21:04+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Imputabilite CISIS",
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "17162000",
+        "display" : "certain(e)"
+      },
       {
-        "system" : "http://snomed.info/sct",
-        "concept" : [
-          {
-            "code" : "17162000",
-            "display" : "certain(e)"
-          },
-          {
-            "code" : "371930009",
-            "display" : "possible"
-          },
-          {
-            "code" : "64957009",
-            "display" : "incertain(e)"
-          },
-          {
-            "code" : "373068000",
-            "display" : "non déterminé(e)"
-          }
-        ]
-      }
-    ]
+        "code" : "371930009",
+        "display" : "possible"
+      },
+      {
+        "code" : "64957009",
+        "display" : "incertain(e)"
+      },
+      {
+        "code" : "373068000",
+        "display" : "non déterminé(e)"
+      }]
+    }]
   }
 }
 

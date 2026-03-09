@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mesure-lentille-delivree-cisis | *Version*:20251216141838 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvMesureLentilleDelivreeCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mesure-lentille-delivree-cisis | *Version*:20260220142103 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvMesureLentilleDelivreeCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.656 | | |
 
  
@@ -17,7 +17,7 @@ JDV Mesure Lentille Delivree CISIS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -55,111 +55,99 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-mesure-lentille-delivree-cisis",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-12-17T15:45:02.385+01:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-02-23T14:58:48.211+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2021-09-24T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2021-09-24T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mesure-lentille-delivree-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.656"
-    }
-  ],
-  "version" : "20251216141838",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.656"
+  }],
+  "version" : "20260220142103",
   "name" : "JdvMesureLentilleDelivreeCisis",
   "title" : "JDV Mesure Lentille Delivree CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:38+01:00",
+  "date" : "2026-02-20T14:21:03+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Mesure Lentille Delivree CISIS",
   "compose" : {
-    "include" : [
-      {
-        "system" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
-        "concept" : [
-          {
-            "code" : "C53610",
-            "display" : "Renouvellement"
-          }
-        ]
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "concept" : [{
+        "code" : "MED-1181",
+        "display" : "Date de délivrance"
       },
       {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "MED-1181",
-            "display" : "Date de délivrance"
-          },
-          {
-            "code" : "MED-1183",
-            "display" : "Produit d'entretien"
-          },
-          {
-            "code" : "MED-1180",
-            "display" : "Type de lentille"
-          },
-          {
-            "code" : "GEN-292",
-            "display" : "Commentaire"
-          },
-          {
-            "code" : "MED-1089",
-            "display" : "Diamètre lentille – lentille délivrée"
-          },
-          {
-            "code" : "MED-1090",
-            "display" : "Rayon 1 lentille – lentille délivrée"
-          },
-          {
-            "code" : "MED-1091",
-            "display" : "Rayon 2 lentille – lentille délivrée"
-          },
-          {
-            "code" : "GEN-092.08.04",
-            "display" : "Autre(s) paramètre(s)"
-          },
-          {
-            "code" : "MED-1092",
-            "display" : "Puissance de la sphère – lentille délivrée"
-          },
-          {
-            "code" : "MED-1093",
-            "display" : "Puissance du cylindre – lentille délivrée"
-          }
-        ]
+        "code" : "MED-1183",
+        "display" : "Produit d'entretien"
       },
       {
-        "system" : "http://loinc.org",
-        "concept" : [
-          {
-            "code" : "67716-1",
-            "display" : "modèle du dispositif"
-          },
-          {
-            "code" : "95325-7",
-            "display" : "Axe en degrés des lentilles"
-          },
-          {
-            "code" : "28814-2",
-            "display" : "Addition – grandeur"
-          },
-          {
-            "code" : "28815-9",
-            "display" : "Addition – valeur"
-          }
-        ]
-      }
-    ]
+        "code" : "MED-1180",
+        "display" : "Type de lentille"
+      },
+      {
+        "code" : "GEN-292",
+        "display" : "Commentaire"
+      },
+      {
+        "code" : "MED-1089",
+        "display" : "Diamètre lentille – lentille délivrée"
+      },
+      {
+        "code" : "MED-1090",
+        "display" : "Rayon 1 lentille – lentille délivrée"
+      },
+      {
+        "code" : "MED-1091",
+        "display" : "Rayon 2 lentille – lentille délivrée"
+      },
+      {
+        "code" : "GEN-092.08.04",
+        "display" : "Autre(s) paramètre(s)"
+      },
+      {
+        "code" : "MED-1092",
+        "display" : "Puissance de la sphère – lentille délivrée"
+      },
+      {
+        "code" : "MED-1093",
+        "display" : "Puissance du cylindre – lentille délivrée"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "67716-1",
+        "display" : "Modèle du dispositif"
+      },
+      {
+        "code" : "95325-7",
+        "display" : "Axe en degrés des lentilles"
+      },
+      {
+        "code" : "28814-2",
+        "display" : "Addition – grandeur"
+      },
+      {
+        "code" : "28815-9",
+        "display" : "Addition – valeur"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "103742009",
+        "display" : "renouvellement d'ordonnance"
+      }]
+    }]
   }
 }
 

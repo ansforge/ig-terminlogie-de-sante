@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-localisation-prelevement-ccu-cisis | *Version*:20251216141839 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvLocalisationPrelevementCcuCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-localisation-prelevement-ccu-cisis | *Version*:20260220142104 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvLocalisationPrelevementCcuCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.717 | | |
 
  
@@ -17,7 +17,7 @@ JDV Localisation Prelevement Ccu CISIS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -55,53 +55,45 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-localisation-prelevement-ccu-cisis",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-12-17T15:44:58.270+01:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-02-23T14:58:46.610+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2023-05-25T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2023-05-25T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-localisation-prelevement-ccu-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.717"
-    }
-  ],
-  "version" : "20251216141839",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.717"
+  }],
+  "version" : "20260220142104",
   "name" : "JdvLocalisationPrelevementCcuCisis",
   "title" : "JDV Localisation Prelevement Ccu CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:39+01:00",
+  "date" : "2026-02-20T14:21:04+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Localisation Prelevement Ccu CISIS",
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "76784001",
+        "display" : "vagin"
+      },
       {
-        "system" : "http://snomed.info/sct",
-        "concept" : [
-          {
-            "code" : "76784001",
-            "display" : "vagin"
-          },
-          {
-            "code" : "36973007",
-            "display" : "endocol utérin"
-          },
-          {
-            "code" : "28349006",
-            "display" : "exocol utérin"
-          }
-        ]
-      }
-    ]
+        "code" : "36973007",
+        "display" : "endocol utérin"
+      },
+      {
+        "code" : "28349006",
+        "display" : "exocol utérin"
+      }]
+    }]
   }
 }
 

@@ -30,26 +30,20 @@ Nomenclature des états élémentaires d’un objet du MOS organisés en etat ac
   "meta" : {
     "versionId" : "1",
     "lastUpdated" : "2024-12-30T12:00:00+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "1900-01-01T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "1900-01-01T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r365-etat-objet",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.6.1.259"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.6.1.259"
+  }],
   "version" : "20241230120000",
   "name" : "TreR365EtatObjet",
   "title" : "Tre R365 Etat Objet",
@@ -61,1210 +55,1120 @@ Nomenclature des états élémentaires d’un objet du MOS organisés en etat ac
   "caseSensitive" : false,
   "content" : "complete",
   "count" : 38,
-  "property" : [
-    {
+  "property" : [{
+    "code" : "dateValid",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "status",
+    "uri" : "http://hl7.org/fhir/concept-properties#status",
+    "description" : "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
+    "type" : "code"
+  },
+  {
+    "code" : "deprecationDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
+    "description" : "The date at which a concept was deprecated. Concepts that are deprecated but not inactive can still be used, but their use is discouraged, and they should be expected to be made inactive in a future release. Property type is dateTime. Note that the status property may also be used to indicate that a concept is deprecated",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "retirementDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
+    "description" : "The date at which a concept was retired",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "macroEtatAdministratif",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#macroEtatAdministratif",
+    "description" : "Macro-état administratif (actif ou inactif) du code concept",
+    "type" : "Coding"
+  },
+  {
+    "code" : "finess",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#finess",
+    "description" : "Permet de définir les codes concepts utilisés par FINESS+",
+    "type" : "boolean"
+  }],
+  "concept" : [{
+    "code" : "001",
+    "display" : "Entrée dans le champ FINESS",
+    "property" : [{
       "code" : "dateValid",
-      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
-      "description" : "date de validité d'un code concept",
-      "type" : "dateTime"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
-      "description" : "Date de mise à jour d'un code concept",
-      "type" : "dateTime"
-    },
-    {
-      "code" : "dateFin",
-      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
-      "description" : "Date de fin d'exploitation d'un code concept",
-      "type" : "dateTime"
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
       "code" : "status",
-      "uri" : "http://hl7.org/fhir/concept-properties#status",
-      "description" : "A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired",
-      "type" : "code"
-    },
-    {
-      "code" : "deprecationDate",
-      "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
-      "description" : "The date at which a concept was deprecated. Concepts that are deprecated but not inactive can still be used, but their use is discouraged, and they should be expected to be made inactive in a future release. Property type is dateTime. Note that the status property may also be used to indicate that a concept is deprecated",
-      "type" : "dateTime"
-    },
-    {
-      "code" : "retirementDate",
-      "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
-      "description" : "The date at which a concept was retired",
-      "type" : "dateTime"
+      "valueCode" : "active"
     },
     {
       "code" : "macroEtatAdministratif",
-      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#macroEtatAdministratif",
-      "description" : "Macro-état administratif (actif ou inactif) du code concept",
-      "type" : "Coding"
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "code" : "A"
+      }
     },
     {
       "code" : "finess",
-      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#finess",
-      "description" : "Permet de définir les codes concepts utilisés par FINESS+",
-      "type" : "boolean"
-    }
-  ],
-  "concept" : [
-    {
-      "code" : "001",
-      "display" : "Entrée dans le champ FINESS",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "macroEtatAdministratif",
-          "valueCoding" : {
-            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
-            "code" : "A"
-          }
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "002",
+    "display" : "Sortie du champ FINESS",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
-      "code" : "002",
-      "display" : "Sortie du champ FINESS",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "macroEtatAdministratif",
-          "valueCoding" : {
-            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
-            "code" : "I"
-          }
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
-      "code" : "003",
-      "display" : "Créée / immatriculée",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Créée"
-        }
-      ],
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "macroEtatAdministratif",
-          "valueCoding" : {
-            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
-            "code" : "A"
-          }
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "status",
+      "valueCode" : "active"
     },
     {
-      "code" : "004",
-      "display" : "Cessée",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "macroEtatAdministratif",
-          "valueCoding" : {
-            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
-            "code" : "I"
-          }
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "macroEtatAdministratif",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "code" : "I"
+      }
     },
     {
-      "code" : "005",
-      "display" : "Fermée",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "macroEtatAdministratif",
-          "valueCoding" : {
-            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
-            "code" : "I"
-          }
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "003",
+    "display" : "Créée / immatriculée",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Créée"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
-      "code" : "007",
-      "display" : "Première autorisation de l'EGE",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "macroEtatAdministratif",
-          "valueCoding" : {
-            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
-            "code" : "A"
-          }
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
-      "code" : "010",
-      "display" : "Activité autorisée",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "macroEtatAdministratif",
-          "valueCoding" : {
-            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
-            "code" : "A"
-          }
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "status",
+      "valueCode" : "active"
     },
     {
-      "code" : "012",
-      "display" : "Activité installée/meo",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "macroEtatAdministratif",
-          "valueCoding" : {
-            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
-            "code" : "A"
-          }
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "macroEtatAdministratif",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "code" : "A"
+      }
     },
     {
-      "code" : "013",
-      "display" : "Activité fermée",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "macroEtatAdministratif",
-          "valueCoding" : {
-            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
-            "code" : "I"
-          }
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "004",
+    "display" : "Cessée",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
-      "code" : "015",
-      "display" : "Activité désinstallée",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "macroEtatAdministratif",
-          "valueCoding" : {
-            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
-            "code" : "I"
-          }
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
-      "code" : "016",
-      "display" : "Devient membre du groupe",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "macroEtatAdministratif",
-          "valueCoding" : {
-            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
-            "code" : "A"
-          }
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "status",
+      "valueCode" : "active"
     },
     {
-      "code" : "017",
-      "display" : "Sortie du groupe",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "macroEtatAdministratif",
-          "valueCoding" : {
-            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
-            "code" : "A"
-          }
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "macroEtatAdministratif",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "code" : "I"
+      }
     },
     {
-      "code" : "018",
-      "display" : "EGE fermée suite à cession",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "macroEtatAdministratif",
-          "valueCoding" : {
-            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
-            "code" : "I"
-          }
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "005",
+    "display" : "Fermée",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
-      "code" : "019",
-      "display" : "EGE reprise",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "macroEtatAdministratif",
-          "valueCoding" : {
-            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
-            "code" : "A"
-          }
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
-      "code" : "020",
-      "display" : "PM-EJ fermée suite à cession",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "macroEtatAdministratif",
-          "valueCoding" : {
-            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
-            "code" : "I"
-          }
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "status",
+      "valueCode" : "active"
     },
     {
-      "code" : "021",
-      "display" : "Activité exercée cédée",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "macroEtatAdministratif",
-          "valueCoding" : {
-            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
-            "code" : "A"
-          }
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "macroEtatAdministratif",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "code" : "I"
+      }
     },
     {
-      "code" : "022",
-      "display" : "Activité exercée reprise",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "macroEtatAdministratif",
-          "valueCoding" : {
-            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
-            "code" : "A"
-          }
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "007",
+    "display" : "Première autorisation de l'EGE",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
-      "code" : "023",
-      "display" : "Activité exercée fermée suite à regroupement",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "macroEtatAdministratif",
-          "valueCoding" : {
-            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
-            "code" : "I"
-          }
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
-      "code" : "024",
-      "display" : "Activité exercée regroupée",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "macroEtatAdministratif",
-          "valueCoding" : {
-            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
-            "code" : "A"
-          }
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "status",
+      "valueCode" : "active"
     },
     {
-      "code" : "025",
-      "display" : "Activité en injonction (suspendue)",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "macroEtatAdministratif",
-          "valueCoding" : {
-            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
-            "code" : "I"
-          }
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "macroEtatAdministratif",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "code" : "A"
+      }
     },
     {
-      "code" : "027",
-      "display" : "Fin de suspension, activité active",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "macroEtatAdministratif",
-          "valueCoding" : {
-            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
-            "code" : "A"
-          }
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "010",
+    "display" : "Activité autorisée",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
-      "code" : "029",
-      "display" : "Activité autorisée caduque (fermée)",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "macroEtatAdministratif",
-          "valueCoding" : {
-            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
-            "code" : "I"
-          }
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
-      "code" : "030",
-      "display" : "Titularité activité cédée",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "macroEtatAdministratif",
-          "valueCoding" : {
-            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
-            "code" : "I"
-          }
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "status",
+      "valueCode" : "active"
     },
     {
-      "code" : "031",
-      "display" : "Titularité activité reprise",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "macroEtatAdministratif",
-          "valueCoding" : {
-            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
-            "code" : "A"
-          }
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "macroEtatAdministratif",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "code" : "A"
+      }
     },
     {
-      "code" : "032",
-      "display" : "Activité fermée suite à regroupement (autorisée)",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "macroEtatAdministratif",
-          "valueCoding" : {
-            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
-            "code" : "I"
-          }
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "012",
+    "display" : "Activité installée/meo",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
-      "code" : "033",
-      "display" : "Activité autorisée regroupée",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "macroEtatAdministratif",
-          "valueCoding" : {
-            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
-            "code" : "A"
-          }
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
-      "code" : "034",
-      "display" : "PM Pharmacie créée",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "macroEtatAdministratif",
-          "valueCoding" : {
-            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
-            "code" : "A"
-          }
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "status",
+      "valueCode" : "active"
     },
     {
-      "code" : "035",
-      "display" : "EGE Pharmacie créée",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "macroEtatAdministratif",
-          "valueCoding" : {
-            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
-            "code" : "A"
-          }
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "macroEtatAdministratif",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "code" : "A"
+      }
     },
     {
-      "code" : "036",
-      "display" : "EGE Pharmacie ouverte",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "macroEtatAdministratif",
-          "valueCoding" : {
-            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
-            "code" : "A"
-          }
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "013",
+    "display" : "Activité fermée",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
-      "code" : "037",
-      "display" : "Nouveau titulaire",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "macroEtatAdministratif",
-          "valueCoding" : {
-            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
-            "code" : "A"
-          }
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
-      "code" : "038",
-      "display" : "EGE fermée provisoirement",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "macroEtatAdministratif",
-          "valueCoding" : {
-            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
-            "code" : "I"
-          }
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "status",
+      "valueCode" : "active"
     },
     {
-      "code" : "039",
-      "display" : "EGE réouverte",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "macroEtatAdministratif",
-          "valueCoding" : {
-            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
-            "code" : "A"
-          }
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "macroEtatAdministratif",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "code" : "I"
+      }
     },
     {
-      "code" : "040",
-      "display" : "Activitée fermée provisoirement",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "macroEtatAdministratif",
-          "valueCoding" : {
-            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
-            "code" : "I"
-          }
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "015",
+    "display" : "Activité désinstallée",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
-      "code" : "041",
-      "display" : "Activitée réouverte",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "macroEtatAdministratif",
-          "valueCoding" : {
-            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
-            "code" : "A"
-          }
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
-      "code" : "100",
-      "display" : "Sortie définitivement champ FINESS",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Sortie définitivement"
-        }
-      ],
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "macroEtatAdministratif",
-          "valueCoding" : {
-            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
-            "code" : "I"
-          }
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "status",
+      "valueCode" : "active"
     },
     {
-      "code" : "101",
-      "display" : "Erreur d'enregistrement",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Erreur"
-        }
-      ],
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "macroEtatAdministratif",
-          "valueCoding" : {
-            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
-            "code" : "I"
-          }
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "macroEtatAdministratif",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "code" : "I"
+      }
     },
     {
-      "code" : "102",
-      "display" : "Sortie champ FINESS",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Sortie champ"
-        }
-      ],
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "macroEtatAdministratif",
-          "valueCoding" : {
-            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
-            "code" : "I"
-          }
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "016",
+    "display" : "Devient membre du groupe",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
     },
     {
-      "code" : "103",
-      "display" : "Sortie provisoirement champ FINESS",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Sortie provisoirement"
-        }
-      ],
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "1900-01-01T00:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "macroEtatAdministratif",
-          "valueCoding" : {
-            "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
-            "code" : "I"
-          }
-        },
-        {
-          "code" : "finess",
-          "valueBoolean" : true
-        }
-      ]
-    }
-  ]
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "macroEtatAdministratif",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "code" : "A"
+      }
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "017",
+    "display" : "Sortie du groupe",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "macroEtatAdministratif",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "code" : "A"
+      }
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "018",
+    "display" : "EGE fermée suite à cession",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "macroEtatAdministratif",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "code" : "I"
+      }
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "019",
+    "display" : "EGE reprise",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "macroEtatAdministratif",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "code" : "A"
+      }
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "020",
+    "display" : "PM-EJ fermée suite à cession",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "macroEtatAdministratif",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "code" : "I"
+      }
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "021",
+    "display" : "Activité exercée cédée",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "macroEtatAdministratif",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "code" : "A"
+      }
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "022",
+    "display" : "Activité exercée reprise",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "macroEtatAdministratif",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "code" : "A"
+      }
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "023",
+    "display" : "Activité exercée fermée suite à regroupement",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "macroEtatAdministratif",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "code" : "I"
+      }
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "024",
+    "display" : "Activité exercée regroupée",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "macroEtatAdministratif",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "code" : "A"
+      }
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "025",
+    "display" : "Activité en injonction (suspendue)",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "macroEtatAdministratif",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "code" : "I"
+      }
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "027",
+    "display" : "Fin de suspension, activité active",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "macroEtatAdministratif",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "code" : "A"
+      }
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "029",
+    "display" : "Activité autorisée caduque (fermée)",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "macroEtatAdministratif",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "code" : "I"
+      }
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "030",
+    "display" : "Titularité activité cédée",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "macroEtatAdministratif",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "code" : "I"
+      }
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "031",
+    "display" : "Titularité activité reprise",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "macroEtatAdministratif",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "code" : "A"
+      }
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "032",
+    "display" : "Activité fermée suite à regroupement (autorisée)",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "macroEtatAdministratif",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "code" : "I"
+      }
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "033",
+    "display" : "Activité autorisée regroupée",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "macroEtatAdministratif",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "code" : "A"
+      }
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "034",
+    "display" : "PM Pharmacie créée",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "macroEtatAdministratif",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "code" : "A"
+      }
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "035",
+    "display" : "EGE Pharmacie créée",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "macroEtatAdministratif",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "code" : "A"
+      }
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "036",
+    "display" : "EGE Pharmacie ouverte",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "macroEtatAdministratif",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "code" : "A"
+      }
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "037",
+    "display" : "Nouveau titulaire",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "macroEtatAdministratif",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "code" : "A"
+      }
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "038",
+    "display" : "EGE fermée provisoirement",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "macroEtatAdministratif",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "code" : "I"
+      }
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "039",
+    "display" : "EGE réouverte",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "macroEtatAdministratif",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "code" : "A"
+      }
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "040",
+    "display" : "Activitée fermée provisoirement",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "macroEtatAdministratif",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "code" : "I"
+      }
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "041",
+    "display" : "Activitée réouverte",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "macroEtatAdministratif",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "code" : "A"
+      }
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "100",
+    "display" : "Sortie définitivement champ FINESS",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Sortie définitivement"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "macroEtatAdministratif",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "code" : "I"
+      }
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "101",
+    "display" : "Erreur d'enregistrement",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Erreur"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "macroEtatAdministratif",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "code" : "I"
+      }
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "102",
+    "display" : "Sortie champ FINESS",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Sortie champ"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "macroEtatAdministratif",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "code" : "I"
+      }
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "103",
+    "display" : "Sortie provisoirement champ FINESS",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Sortie provisoirement"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1900-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "macroEtatAdministratif",
+      "valueCoding" : {
+        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
+        "code" : "I"
+      }
+    },
+    {
+      "code" : "finess",
+      "valueBoolean" : true
+    }]
+  }]
 }
 
 ```

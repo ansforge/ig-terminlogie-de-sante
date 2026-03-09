@@ -2,9 +2,9 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20251222180228"
-             dateValid="20251222180228"
-             description="Activités sociales régulées pour le RASS"
+             dateMaj="20260223180228"
+             dateValid="20260223180228"
+             description="Ce JDV remplace le JDV_J136_DisciplineEquipementSocial_RASS"
              displayName="JdvJ379ActiviteSocialeReguleeRass"
              id="1.2.250.1.213.1.6.1.392"
              typeFichier="JDV"

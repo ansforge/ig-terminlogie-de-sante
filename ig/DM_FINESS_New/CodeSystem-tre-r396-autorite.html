@@ -41,8 +41,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"8.903"}
-    h3,h4,h5,h6{--heading-prefix:"8.903"}</style>
+    <style type="text/css">h2{--heading-prefix:"8.914"}
+    h3,h4,h5,h6{--heading-prefix:"8.914"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -161,7 +161,7 @@
         <div class="row">
           <div class="inner-wrapper">
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">Terminologies  de Santé (Publiées par l'ANS) - version de développement local (v0.1.0) construite par les outils de publication FHIR (HL7® FHIR® Standard). Voir le <a href='https://interop.esante.gouv.fr/terminologies/history.html'>répertoire des versions publiées</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">Terminologies  de Santé (Publiées par l'ANS) - version de développement local (intégration continue v0.1.0) construite par les outils de publication FHIR (HL7® FHIR® Standard). Voir le <a href='https://interop.esante.gouv.fr/terminologies/history.html'>répertoire des versions publiées</a></p><!--EndReleaseHeader-->
   
 
 
@@ -351,17 +351,17 @@
 <td>http://hl7.org/fhir/concept-properties#parent</td>
 <td>code</td>
 <td>An immediate parent of the concept in the hierarchy</td></tr>
-<tr><td>dateValid</td>
+<tr><td>Date de Validité</td>
 <td>dateValid</td>
 <td>https://smt.esante.gouv.fr/fhir/concept-properties#dateValid</td>
 <td>dateTime</td>
 <td>date de validité d'un code concept</td></tr>
-<tr><td>dateMaj</td>
+<tr><td>Date de mise à jour</td>
 <td>dateMaj</td>
 <td>https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj</td>
 <td>dateTime</td>
 <td>Date de mise à jour d'un code concept</td></tr>
-<tr><td>dateFin</td>
+<tr><td>Date de fin</td>
 <td>dateFin</td>
 <td>https://smt.esante.gouv.fr/fhir/concept-properties#dateFin</td>
 <td>dateTime</td>
@@ -381,32 +381,32 @@
 <td>http://hl7.org/fhir/concept-properties#retirementDate</td>
 <td>dateTime</td>
 <td>Date Concept was retired</td></tr>
-<tr><td>niveau</td>
+<tr><td>Niveau</td>
 <td>niveau</td>
 <td>https://smt.esante.gouv.fr/fhir/concept-properties#niveau</td>
 <td>integer</td>
 <td>Permet d'indiquer le niveau hiérarchique du code</td></tr>
-<tr><td>AutoriteRegulationFiness</td>
-<td>AutoriteRegulationFiness</td>
-<td>https://smt.esante.gouv.fr/fhir/concept-properties#AutoriteRegulationFiness</td>
+<tr><td>Autorite Regulation Finess</td>
+<td>autoriteRegulationFiness</td>
+<td>https://smt.esante.gouv.fr/fhir/concept-properties#autoriteRegulationFiness</td>
 <td>boolean</td>
-<td>Permet de définir les codes à inclure dans les Jdv358TypeAutoriteRegulationFiness  Jdv359AutoriteRegulationFiness</td></tr>
-<tr><td>AutoriteEnregistrementFiness</td>
-<td>AutoriteEnregistrementFiness</td>
-<td>https://smt.esante.gouv.fr/fhir/concept-properties#AutoriteEnregistrementFiness</td>
+<td>Permet de définir les codes à inclure dans les Jdv358TypeautoriteRegulationFiness  Jdv359autoriteRegulationFiness</td></tr>
+<tr><td>Autorite Enregistrement Finess</td>
+<td>autoriteEnregistrementFiness</td>
+<td>https://smt.esante.gouv.fr/fhir/concept-properties#autoriteEnregistrementFiness</td>
 <td>boolean</td>
-<td>Permet de définir les codes à inclure dans les Jdv287TypeAutoriteEnregistrementFiness  Jdv360AutoriteEnregistrementFiness</td></tr>
-<tr><td>AutoriteEnregistrementEpars</td>
-<td>AutoriteEnregistrementEpars</td>
-<td>https://smt.esante.gouv.fr/fhir/concept-properties#AutoriteEnregistrementEpars</td>
+<td>Permet de définir les codes à inclure dans les Jdv287TypeautoriteEnregistrementFiness  Jdv360autoriteEnregistrementFiness</td></tr>
+<tr><td>Autorite Enregistrement Epars</td>
+<td>autoriteEnregistrementEpars</td>
+<td>https://smt.esante.gouv.fr/fhir/concept-properties#autoriteEnregistrementEpars</td>
 <td>boolean</td>
 <td>Permet de définir les codes à inclure dans le JDV_J170-AutoriteEnregistrement-EPARS</td></tr>
-<tr><td>AutoriteEnregistrementRass</td>
-<td>AutoriteEnregistrementRass</td>
-<td>https://smt.esante.gouv.fr/fhir/concept-properties#AutoriteEnregistrementRass</td>
+<tr><td>Autorite Enregistrement Rass</td>
+<td>autoriteEnregistrementRass</td>
+<td>https://smt.esante.gouv.fr/fhir/concept-properties#autoriteEnregistrementRass</td>
 <td>boolean</td>
 <td>Permet de définir les codes à inclure dans le JDV_J83-AutoriteEnregistrement-RASS</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite</code> defines the following codes dans une hiérarchie Is-A:</p>
-<table class="codes" data-fhir="generated"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td><td><b>Déprécié</b></td><td><b>Parent</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>dateFin</b></td><td><b>deprecationDate</b></td><td><b>status</b></td><td><b>niveau</b></td><td><b>AutoriteRegulationFiness</b></td><td><b>AutoriteEnregistrementFiness</b></td><td><b>AutoriteEnregistrementEpars</b></td><td><b>AutoriteEnregistrementRass</b></td></tr>
+<table class="codes" data-fhir="generated"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td><td><b>Déprécié</b></td><td><b>Parent</b></td><td><b>Date de Validité</b></td><td><b>Date de mise à jour</b></td><td><b>Date de fin</b></td><td><b>deprecationDate</b></td><td><b>status</b></td><td><b>Niveau</b></td><td><b>Autorite Regulation Finess</b></td><td><b>Autorite Enregistrement Finess</b></td><td><b>Autorite Enregistrement Epars</b></td><td><b>Autorite Enregistrement Rass</b></td></tr>
 <tr><td style="white-space:nowrap">01<a name="tre-r396-autorite-01"> </a></td>
 <td>Conseil de l'Ordre</td>
 <td></td>
@@ -1715,7 +1715,7 @@
 
 <div class="inner-wrapper">
   <p>
-    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Jan 15, 2026 10:06+0000">2026-01-15</span>
+    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Mar 9, 2026 11:39+0000">2026-03-09</span>
     <br/>
     <span style="color: var(--footer-highlight-text-color)"></span>
       Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

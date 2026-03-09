@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20251029120000"
+             dateMaj="20260202120000"
              dateValid="20130123000000"
              description="XDS typeCode CI-SIS"
              displayName="JDV_J07_XdsTypeCode_CISIS"
@@ -170,6 +170,9 @@
          <concept code="34876-3"
                   codeSystem=""
                   displayName="Évaluation préopératoire et note de suivi"/>
+         <concept code="34895-3"
+                  codeSystem=""
+                  displayName="Fiche d'information au patient"/>
          <concept code="47420-5" codeSystem="" displayName="CR de bilan fonctionnel"/>
          <concept code="51851-4" codeSystem="" displayName="Document administratif"/>
          <concept code="51969-4"

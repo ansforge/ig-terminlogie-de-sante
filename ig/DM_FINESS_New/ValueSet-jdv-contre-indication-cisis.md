@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-contre-indication-cisis | *Version*:20251216141838 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvContrindicationCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-contre-indication-cisis | *Version*:20260220142103 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvContrindicationCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.659 | | |
 
  
@@ -17,7 +17,7 @@ JDV Contrindication CISIS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -55,139 +55,127 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-contre-indication-cisis",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2025-12-17T15:43:37.699+01:00",
+    "versionId" : "5",
+    "lastUpdated" : "2026-02-23T14:58:02.460+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2021-12-16T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2021-12-16T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-contre-indication-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.659"
-    }
-  ],
-  "version" : "20251216141838",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.659"
+  }],
+  "version" : "20260220142103",
   "name" : "JdvContrindicationCisis",
   "title" : "JDV Contrindication CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:38+01:00",
+  "date" : "2026-02-20T14:21:03+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Contrindication CISIS",
   "compose" : {
-    "include" : [
-      {
-        "system" : "http://hl7.org/fhir/sid/icd-10",
-        "concept" : [
-          {
-            "code" : "N18.9",
-            "display" : "Maladie rénale chronique, sans précision"
-          },
-          {
-            "code" : "I50.9",
-            "display" : "Insuffisance cardiaque, sans précision"
-          }
-        ]
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "concept" : [{
+        "code" : "N18.9",
+        "display" : "Maladie rénale chronique, sans précision"
       },
       {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "MED-1105",
-            "display" : "Hypersensibilité au PDC iodé"
-          },
-          {
-            "code" : "MED-1106",
-            "display" : "Hyperthyroidie non traitée"
-          },
-          {
-            "code" : "MED-1107",
-            "display" : "Antécédents chirurgicaux digestifs récents contre-indiquant l’usage de produit baryté et nécessitant l’usage d’un produit hydrosoluble"
-          },
-          {
-            "code" : "MED-1108",
-            "display" : "Hypersensibilité au PDC ultrasonore"
-          },
-          {
-            "code" : "MED-1109",
-            "display" : "Patient claustrophobe"
-          },
-          {
-            "code" : "MED-1110",
-            "display" : "Patient porteur de corps étranger ferromagnétique (œil ou autre)"
-          },
-          {
-            "code" : "MED-1111",
-            "display" : "Patient porteur de clips métalliques ou coils intracrâniens"
-          },
-          {
-            "code" : "MED-1112",
-            "display" : "Patient porteur d’un implant cochléaire"
-          },
-          {
-            "code" : "MED-1113",
-            "display" : "Patient porteur d’un neurostimulateur"
-          },
-          {
-            "code" : "MED-1114",
-            "display" : "Patient porteur d’une sonde de dérivation du LCS"
-          },
-          {
-            "code" : "MED-1115",
-            "display" : "Patient porteur d’un capteur implanté"
-          },
-          {
-            "code" : "MED-1116",
-            "display" : "Patient porteur d’une pompe implantée"
-          },
-          {
-            "code" : "MED-1117",
-            "display" : "Patient porteur de Pacemaker"
-          },
-          {
-            "code" : "MED-1118",
-            "display" : "Patient porteur d’une valve cardiaque mécanique"
-          },
-          {
-            "code" : "MED-1119",
-            "display" : "Patient porteur d’un matériel d'orthodontie"
-          },
-          {
-            "code" : "MED-1120",
-            "display" : "Patient porteur d’un stent ou un filtre cave"
-          },
-          {
-            "code" : "MED-1122",
-            "display" : "Hypersensibilité au produit de contraste gadoliné"
-          },
-          {
-            "code" : "GEN-092.01.20",
-            "display" : "Autre contre-indication connue"
-          }
-        ]
+        "code" : "I50.9",
+        "display" : "Insuffisance cardiaque, sans précision"
+      }]
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "concept" : [{
+        "code" : "MED-1105",
+        "display" : "Hypersensibilité au PDC iodé"
       },
       {
-        "system" : "http://snomed.info/sct",
-        "concept" : [
-          {
-            "code" : "77386006",
-            "display" : "enceinte"
-          },
-          {
-            "code" : "1260078007",
-            "display" : "allaitement maternel"
-          }
-        ]
-      }
-    ]
+        "code" : "MED-1106",
+        "display" : "Hyperthyroidie non traitée"
+      },
+      {
+        "code" : "MED-1107",
+        "display" : "Antécédents chirurgicaux digestifs récents contre-indiquant l’usage de produit baryté et nécessitant l’usage d’un produit hydrosoluble"
+      },
+      {
+        "code" : "MED-1108",
+        "display" : "Hypersensibilité au PDC ultrasonore"
+      },
+      {
+        "code" : "MED-1109",
+        "display" : "Patient claustrophobe"
+      },
+      {
+        "code" : "MED-1110",
+        "display" : "Patient porteur de corps étranger ferromagnétique (œil ou autre)"
+      },
+      {
+        "code" : "MED-1111",
+        "display" : "Patient porteur de clips métalliques ou coils intracrâniens"
+      },
+      {
+        "code" : "MED-1112",
+        "display" : "Patient porteur d’un implant cochléaire"
+      },
+      {
+        "code" : "MED-1113",
+        "display" : "Patient porteur d’un neurostimulateur"
+      },
+      {
+        "code" : "MED-1114",
+        "display" : "Patient porteur d’une sonde de dérivation du LCS"
+      },
+      {
+        "code" : "MED-1115",
+        "display" : "Patient porteur d’un capteur implanté"
+      },
+      {
+        "code" : "MED-1116",
+        "display" : "Patient porteur d’une pompe implantée"
+      },
+      {
+        "code" : "MED-1117",
+        "display" : "Patient porteur de Pacemaker"
+      },
+      {
+        "code" : "MED-1118",
+        "display" : "Patient porteur d’une valve cardiaque mécanique"
+      },
+      {
+        "code" : "MED-1119",
+        "display" : "Patient porteur d’un matériel d'orthodontie"
+      },
+      {
+        "code" : "MED-1120",
+        "display" : "Patient porteur d’un stent ou un filtre cave"
+      },
+      {
+        "code" : "MED-1122",
+        "display" : "Hypersensibilité au produit de contraste gadoliné"
+      },
+      {
+        "code" : "GEN-092.01.20",
+        "display" : "Autre contre-indication connue"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "77386006",
+        "display" : "enceinte"
+      },
+      {
+        "code" : "1260078007",
+        "display" : "allaitement maternel"
+      }]
+    }]
   }
 }
 

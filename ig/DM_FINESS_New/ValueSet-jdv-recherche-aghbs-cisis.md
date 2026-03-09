@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-recherche-aghbs-cisis | *Version*:20251216141840 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvRechercheAghbsCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-recherche-aghbs-cisis | *Version*:20260220142105 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvRechercheAghbsCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.112 | | |
 
  
@@ -17,7 +17,7 @@ JDV Recherche Aghbs CISIS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -55,53 +55,45 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-recherche-aghbs-cisis",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-12-17T15:46:12.367+01:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-02-23T14:59:27.752+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2010-01-01T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2010-01-01T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-recherche-aghbs-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.112"
-    }
-  ],
-  "version" : "20251216141840",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.112"
+  }],
+  "version" : "20260220142105",
   "name" : "JdvRechercheAghbsCisis",
   "title" : "JDV Recherche Aghbs CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:40+01:00",
+  "date" : "2026-02-20T14:21:05+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Recherche Aghbs CISIS",
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "406117000",
+        "display" : "dosage immuno-enzymatique de l'antigène de surface de l'hépatite B positif"
+      },
       {
-        "system" : "http://snomed.info/sct",
-        "concept" : [
-          {
-            "code" : "406117000",
-            "display" : "dosage immuno-enzymatique de l'antigène de surface de l'hépatite B positif"
-          },
-          {
-            "code" : "406118005",
-            "display" : "dosage immuno-enzymatique de l'antigène de surface de l'hépatite B négatif"
-          },
-          {
-            "code" : "261665006",
-            "display" : "inconnu(e)"
-          }
-        ]
-      }
-    ]
+        "code" : "406118005",
+        "display" : "dosage immuno-enzymatique de l'antigène de surface de l'hépatite B négatif"
+      },
+      {
+        "code" : "261665006",
+        "display" : "inconnu(e)"
+      }]
+    }]
   }
 }
 

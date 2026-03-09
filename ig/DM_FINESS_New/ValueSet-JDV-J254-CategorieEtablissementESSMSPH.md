@@ -17,7 +17,7 @@ Liste les catégories d’établissements ESSMS (Etablissement ou Service Social
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -60,21 +60,17 @@ Requête sur le SMT
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2023-12-15T12:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2023-12-15T12:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J254-CategorieEtablissementESSMSPH/FHIR/JDV-J254-CategorieEtablissementESSMSPH",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.3.4.218"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.3.4.218"
+  }],
   "version" : "20241025120000",
   "name" : "JDV_J254_CategorieEtablissementESSMSPH",
   "status" : "active",
@@ -82,96 +78,88 @@ Requête sur le SMT
   "date" : "2024-10-25T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Liste les catégories d'établissements ESSMS (Etablissement ou Service Social ou Médico-Social) pour les personnes porteurs d'handicap",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FR"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
+      "concept" : [{
+        "code" : "182"
+      },
       {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
-        "concept" : [
-          {
-            "code" : "182"
-          },
-          {
-            "code" : "183"
-          },
-          {
-            "code" : "186"
-          },
-          {
-            "code" : "188"
-          },
-          {
-            "code" : "189"
-          },
-          {
-            "code" : "192"
-          },
-          {
-            "code" : "194"
-          },
-          {
-            "code" : "195"
-          },
-          {
-            "code" : "196"
-          },
-          {
-            "code" : "209"
-          },
-          {
-            "code" : "221"
-          },
-          {
-            "code" : "238"
-          },
-          {
-            "code" : "242"
-          },
-          {
-            "code" : "255"
-          },
-          {
-            "code" : "354"
-          },
-          {
-            "code" : "390"
-          },
-          {
-            "code" : "395"
-          },
-          {
-            "code" : "396"
-          },
-          {
-            "code" : "445"
-          },
-          {
-            "code" : "446"
-          },
-          {
-            "code" : "448"
-          },
-          {
-            "code" : "449"
-          },
-          {
-            "code" : "460"
-          },
-          {
-            "code" : "640"
-          }
-        ]
-      }
-    ]
+        "code" : "183"
+      },
+      {
+        "code" : "186"
+      },
+      {
+        "code" : "188"
+      },
+      {
+        "code" : "189"
+      },
+      {
+        "code" : "192"
+      },
+      {
+        "code" : "194"
+      },
+      {
+        "code" : "195"
+      },
+      {
+        "code" : "196"
+      },
+      {
+        "code" : "209"
+      },
+      {
+        "code" : "221"
+      },
+      {
+        "code" : "238"
+      },
+      {
+        "code" : "242"
+      },
+      {
+        "code" : "255"
+      },
+      {
+        "code" : "354"
+      },
+      {
+        "code" : "390"
+      },
+      {
+        "code" : "395"
+      },
+      {
+        "code" : "396"
+      },
+      {
+        "code" : "445"
+      },
+      {
+        "code" : "446"
+      },
+      {
+        "code" : "448"
+      },
+      {
+        "code" : "449"
+      },
+      {
+        "code" : "460"
+      },
+      {
+        "code" : "640"
+      }]
+    }]
   }
 }
 

@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-investigation-realisee-aunv-cisis | *Version*:20251216141839 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvInvestigationRealiseeAunvCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-investigation-realisee-aunv-cisis | *Version*:20260220142104 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvInvestigationRealiseeAunvCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.195 | | |
 
  
@@ -17,7 +17,7 @@ JDV Investigation Realisee Aunv CISIS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -32,6 +32,8 @@ Requête sur le SMT
  
 
 ### Expansion
+
+No Expansion for this valueset (Unknown Code System)
 
 -------
 
@@ -55,61 +57,53 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-investigation-realisee-aunv-cisis",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-12-17T15:44:40.768+01:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-02-23T14:58:36.984+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2010-01-01T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2010-01-01T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-investigation-realisee-aunv-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.195"
-    }
-  ],
-  "version" : "20251216141839",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.195"
+  }],
+  "version" : "20260220142104",
   "name" : "JdvInvestigationRealiseeAunvCisis",
   "title" : "JDV Investigation Realisee Aunv CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:39+01:00",
+  "date" : "2026-02-20T14:21:04+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Investigation Realisee Aunv CISIS",
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/terminologie-ccam",
+      "concept" : [{
+        "code" : "DEQP003",
+        "display" : "Électrocardiographie sur au moins 12 dérivations"
+      },
       {
-        "system" : "https://smt.esante.gouv.fr/terminologie-ccam",
-        "concept" : [
-          {
-            "code" : "DEQP003",
-            "display" : "Électrocardiographie sur au moins 12 dérivations"
-          },
-          {
-            "code" : "ACQK001",
-            "display" : "Scannographie du crâne et de son contenu"
-          },
-          {
-            "code" : "ACQN001",
-            "display" : "Remnographie [IRM] du crâne et de son contenu, sans injection intraveineuse de produit de contraste"
-          },
-          {
-            "code" : "EAQH002",
-            "display" : "Scanographie des vaisseaux encéphaliques"
-          },
-          {
-            "code" : "EAQJ001",
-            "display" : "Remnographie des vaisseaux encéphaliques"
-          }
-        ]
-      }
-    ]
+        "code" : "ACQK001",
+        "display" : "Scannographie du crâne et de son contenu"
+      },
+      {
+        "code" : "ACQN001",
+        "display" : "Remnographie [IRM] du crâne et de son contenu, sans injection intraveineuse de produit de contraste"
+      },
+      {
+        "code" : "EAQH002",
+        "display" : "Scanographie des vaisseaux encéphaliques"
+      },
+      {
+        "code" : "EAQJ001",
+        "display" : "Remnographie des vaisseaux encéphaliques"
+      }]
+    }]
   }
 }
 

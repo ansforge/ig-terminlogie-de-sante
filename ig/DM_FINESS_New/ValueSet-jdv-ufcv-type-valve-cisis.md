@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-ufcv-type-valve-cisis | *Version*:20251216141840 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvUfcvTypetValveCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-ufcv-type-valve-cisis | *Version*:20260220142105 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvUfcvTypetValveCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.4.2.9 | | |
 
  
@@ -17,7 +17,7 @@ JDV UFCV Type Valve CISIS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -55,57 +55,49 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-ufcv-type-valve-cisis",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-12-17T15:48:26.874+01:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-02-23T15:00:46.026+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2023-04-27T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2023-04-27T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-ufcv-type-valve-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.4.2.9"
-    }
-  ],
-  "version" : "20251216141840",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.4.2.9"
+  }],
+  "version" : "20260220142105",
   "name" : "JdvUfcvTypetValveCisis",
   "title" : "JDV UFCV Type Valve CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:40+01:00",
+  "date" : "2026-02-20T14:21:05+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV UFCV Type Valve CISIS",
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/terminologie-emdn",
+      "concept" : [{
+        "code" : "P070302",
+        "display" : "VALVES CARDIAQUES MÉCANIQUES"
+      },
       {
-        "system" : "https://smt.esante.gouv.fr/terminologie-emdn",
-        "concept" : [
-          {
-            "code" : "P070302",
-            "display" : "VALVES CARDIAQUES MÉCANIQUES"
-          },
-          {
-            "code" : "P070301",
-            "display" : "VALVES CARDIAQUES BIOLOGIQUES"
-          },
-          {
-            "code" : "P0703020302",
-            "display" : "VALVES MITRALES MÉCANIQUES, À DOUBLE AILETTE"
-          },
-          {
-            "code" : "P070301010204",
-            "display" : "VALVES TRICUSPIDES BIOLOGIQUES CHIRURGICALES MONTÉES SUR ARMATURE - VALVE D'ORIGINE NON ANIMALE"
-          }
-        ]
-      }
-    ]
+        "code" : "P070301",
+        "display" : "VALVES CARDIAQUES BIOLOGIQUES"
+      },
+      {
+        "code" : "P0703020302",
+        "display" : "VALVES MITRALES MÉCANIQUES, À DOUBLE AILETTE"
+      },
+      {
+        "code" : "P070301010204",
+        "display" : "VALVES TRICUSPIDES BIOLOGIQUES CHIRURGICALES MONTÉES SUR ARMATURE - VALVE D'ORIGINE NON ANIMALE"
+      }]
+    }]
   }
 }
 

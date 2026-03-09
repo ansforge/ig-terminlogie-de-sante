@@ -44,31 +44,33 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TreR394CompetenceMetier](CodeSystem-tre-r394-competence-metier.md) | Type de savoir-faire opérationnel, transversal ou spécifique, acquis et exercé à titre non exclusif dans le cadre d’une activité professionnelle reconnue. | 25/06/2025 |
 | [TreR395Engagement](CodeSystem-tre-r395-engagement.md) | Nomenclature des engagements associés dans FINESS+ aux Personnes morales, aux entités géographique, aux groupements ou à leurs activités | 16/07/2025 |
 | [TreR396Autorite](CodeSystem-tre-r396-autorite.md) | liste des autorités structurée en plusieurs types d'autorités : Ordres, ARS, ... | 25/08/2025 |
-| [TreR397CategorieEntiteGeographiqueExercice](CodeSystem-tre-r397-categorie-entite-geographique-exercice.md) | Catégorie d'établissements - TRE Hierarchique qui remplace la TRE R66 | 22/12/2025 |
-| [TreR400FinessStatutJuridique](CodeSystem-tre-r400-finess-statut-juridique.md) | Statuts juridiques de FINESS | 25/09/2025 |
-| [TreR401ActiviteSocialeRegulee](CodeSystem-tre-r401-activite-sociale-regulee.md) | Liste des activités sociales régulées organisée en 3 niveaux d'agrégation. Annule et remplace les anciennes TRE xxxEquipementSocial | 04/11/2025 |
-| [TreR401ActiviteEnseignementRegulee](CodeSystem-tre-r402-activite-enseignement-regulee.md) | Liste des activités d'enseignement régulées organisée en 3 niveaux d'agrégation. Annule et remplace les anciennes TRE xxxEnseignement | 04/11/2025 |
-| [TreR403PublicActiviteSmsseRegulee](CodeSystem-tre-r403-public-activite-smsse-regulee.md) | Liste des publics des activités régulées organisée en 2 niveaux d'agrégation. Annule et remplace les 3 anciennes TRE xxxClientele | 04/11/2025 |
-| [TreR404ModeFonctionnemetActiviteSmsseRegulee](CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.md) | Mode de fonctinonemment des activités ssmsse régulées | 05/11/2025 |
-| [TreR405ModaliteActiviteSmsseRegulee](CodeSystem-tre-r405-modalite-activite-smsse-regulee.md) | Modalités des activités SSMSE régulées | 05/11/2025 |
-| [TreR406FormeActiviteSmsseRegulee](CodeSystem-tre-r406-forme-activite-smsse-regulee.md) | Formes des activites smsse régulées | 05/11/2025 |
-| [TRE_R01_EnsembleSavoirFaire_CISIS](CodeSystem-TRE-R01-EnsembleSavoirFaire-CISIS.md) | Ensemble Savoir-faire CI-SIS (TRE provisoire) | 13/12/2024 |
+| [TreR397CategorieEntiteGeographiqueExercice](CodeSystem-tre-r397-categorie-entite-geographique-exercice.md) | Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement, TRE-R63-AgregatCategorieEtablissementNiv1, TRE-R64-AgregatCategorieEtablissementNiv2, TRE-R65-AgregatCategorieEtablissement et ASS-X10-AgregatCategorieEtablissement. Cette TRE possède des propriétésspécifiques : le niveau d'agrégat des EGE de 1 à 4 (du plus large au plus fin), le parent d'un agrégat d'EGE ou d'un EGE, la relation entre un code et le domaine ( TRE R62), un indicateur pour les EGE spécifiques au ROR ( non finess) et les relations nécessaires à la construction des JDV dynamiques associés | 23/02/2026 |
+| [TreR400FinessStatutJuridique](CodeSystem-tre-r400-finess-statut-juridique.md) | Cette TRE hiérarchique remplace les TRE_R68-FinessAgregatStatutJuridiqueNiv1, TRE_R69-FinessAgregatStatutJuridiqueNiv2, TRE_R70-FinessAgregatStatutJuridique, TRE_R72-FinessStatutJuridique, et l'association ASS_X11_FinessAgregatStatutJuridique. Cette TRE possède des propriétés spécifiques : le niveau d'agrégat des statuts juridiques de 1 à 4 ( du plus large au plus fin), le parent d'un agrégat de statuts juridiques ou d'un statut juridique, un indicateur pour les statuts juridiques spécifiques à RPPS ( non finess) et les relations nécessaires à la construction des JDV dynamiques associés | 23/02/2026 |
+| [TreR404ModeFonctionnementActiviteSmsseRegulee](CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.md) | Mode de fonctinonemment des activités ssmsse régulées, remplace la TRE_R209-TypeActivite | 23/02/2026 |
+| [TreR401ActiviteSocialeRegulee](CodeSystem-tre-r401-activite-sociale-regulee.md) | Cette TRE hiérarchique remplace les TRE_R280-DisciplineEquipementSocial, TRE_R298-AgregatDisciplineEquipSocNiv1, TRE_R299-AgregatDisciplineEquipSocNiv2, TRE_R300-AgregatDisciplineEquipSocNiv3 et l'ASS_X14_AgregatDisciplineEquipementSocial. Cette TRE possède des propriétés spécifiques : le niveau d'agrégat desASOCR de 1 à 4 (du plus large au plus fin), le parent d'un agrégat d'ASOCR ou d'une ASOCR ainsi que les relations nécessaires à la construction des JDV dynamiques associés | 23/02/2026 |
+| [TreR402ActiviteEnseignementRegulee](CodeSystem-tre-r402-activite-enseignement-regulee.md) | Liste des activités d'enseignement régulées organisée en 3 niveaux d'agrégation. Annule et remplace les anciennes TRE xxxEnseignement | 23/02/2026 |
+| [TreR403PublicActiviteSmsseRegulee](CodeSystem-tre-r403-public-activite-smsse-regulee.md) | Cette TRE hiérarchique remplace les TRE actuelles TRE_R279-Clientele, TRE_R293-AgregatClienteleNiv2, TRE_R294-AgregatClienteleNiv3 et l'association ASS_X13-AgregatClientele. Cette TRE possède de nouvelles propriétés : le niveau d'agrégat des publics de 1 à 3 (du plus large au plus fin), le parent d'un agrégat de publics ou d'un public ainsi que les relations nécessaires à la construction des JDV dynamiques associés | 23/02/2026 |
+| [TreR405ModaliteActiviteSmsseRegulee](CodeSystem-tre-r405-modalite-activite-smsse-regulee.md) | Modalités des activités SSMSE régulées, remplace la TRE_R275-ModaliteActivite | 23/02/2026 |
+| [TreR406FormeActiviteSmsseRegulee](CodeSystem-tre-r406-forme-activite-smsse-regulee.md) | Formes des activites smsse régulées, remplace la TRE_R276-FormeActivite | 23/02/2026 |
+| [TreR407CompositionFoyer](CodeSystem-tre-r407-composition-foyer.md) | Désigne avec qui vit l’usager dans son logement. | 02/02/2026 |
+| [TreR408TypeEnseignementSpecialise](CodeSystem-tre-r408-type-enseignement-specialise.md) | Type d'enseignement spécialisé. | 02/02/2026 |
+| [TRE_R01_EnsembleSavoirFaire_CISIS](CodeSystem-TRE-R01-EnsembleSavoirFaire-CISIS.md) | Ensemble Savoir-faire CI-SIS (TRE provisoire) | 02/02/2026 |
 | [TRE_R02_SecteurActivite](CodeSystem-TRE-R02-SecteurActivite.md) | Le secteur d'activité de santé est une donnée RPPS et correspond au type de service fourni par une structure. Il sert principalement à déterminer les propriétés de facturation des professionnels de ces structures vis-à-vis de l'assurance maladie | 23/05/2025 |
 | [TRE_R03_AttributionParticuliere](CodeSystem-TRE-R03-AttributionParticuliere.md) | Attribution particulière | 15/12/2023 |
 | [TRE_R04_TypeSavoirFaire](CodeSystem-TRE-R04-TypeSavoirFaire.md) | Type de savoir-faire | 16/10/2025 |
 | [TRE_R06_SectionTableauCNOP](CodeSystem-TRE-R06-SectionTableauCNOP.md) | Section du tableau de l'Ordre des Pharmaciens | 15/12/2023 |
-| [TRE_R09_CategorieProfessionnelle](CodeSystem-TRE-R09-CategorieProfessionnelle.md) | Catégorie professionnelle | 26/04/2024 |
+| [TRE_R09_CategorieProfessionnelle](CodeSystem-TRE-R09-CategorieProfessionnelle.md) | Catégorie professionnelle | 23/02/2026 |
 | [TRE_R10_SexeAdministratif](CodeSystem-TRE-R10-SexeAdministratif.md) | Sexe administratif | 15/12/2023 |
 | [TRE_R11_CiviliteExercice](CodeSystem-TRE-R11-CiviliteExercice.md) | Civilité d'exercice | 15/12/2023 |
-| [TRE_R13_CommuneOM](CodeSystem-TRE-R13-CommuneOM.md) |  | 28/06/2024 |
+| [TRE_R13_CommuneOM](CodeSystem-TRE-R13-CommuneOM.md) |  | 28/03/2025 |
 | [TRE_R14_TypeDiplome](CodeSystem-TRE-R14-TypeDiplome.md) | Type de diplôme | 29/03/2024 |
 | [TRE_R16_LieuFormation](CodeSystem-TRE-R16-LieuFormation.md) |  | 22/12/2025 |
 | [TRE_R17_TypeAutorisation](CodeSystem-TRE-R17-TypeAutorisation.md) | Type d'autorisation | 23/05/2025 |
 | [TRE_R18_DisciplineAutorisation](CodeSystem-TRE-R18-DisciplineAutorisation.md) | Discipline d'autorisation | 15/12/2023 |
 | [TRE_R20_Pays](CodeSystem-TRE-R20-Pays.md) | Référentiel des codes pays provenant du COG INSEE | 28/03/2025 |
-| [TRE_R21_Fonction](CodeSystem-TRE-R21-Fonction.md) | Fonction | 23/10/2025 |
+| [TRE_R21_Fonction](CodeSystem-TRE-R21-Fonction.md) | Fonction | 23/02/2026 |
 | [TRE_R22_GenreActivite](CodeSystem-TRE-R22-GenreActivite.md) | Genre d'activité | 29/03/2024 |
-| [TRE_R23_ModeExercice](CodeSystem-TRE-R23-ModeExercice.md) | Mode d'exercice | 15/12/2023 |
+| [TRE_R23_ModeExercice](CodeSystem-TRE-R23-ModeExercice.md) | Mode d'exercice | 02/02/2026 |
 | [TRE_R24_TypeActiviteLiberale](CodeSystem-TRE-R24-TypeActiviteLiberale.md) | Type d'activité libérale | 15/12/2023 |
 | [TRE_R25_MotifFinActivite](CodeSystem-TRE-R25-MotifFinActivite.md) | Motif de fin d'activité | 15/12/2023 |
 | [TRE_R30_RegionOM](CodeSystem-TRE-R30-RegionOM.md) | Référentiel des codes régions et collectivités d'outre-mer provenant du COG INSEE + Monaco | 28/06/2024 |
@@ -95,7 +97,7 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R55_CertificatEtudeSpeciale](CodeSystem-TRE-R55-CertificatEtudeSpeciale.md) | Certificat d'Etude Spéciale | 15/12/2023 |
 | [TRE_R56_Attestation](CodeSystem-TRE-R56-Attestation.md) | Attestation | 29/03/2024 |
 | [TRE_R57_DiplomeEuropeenEtudeSpecialisee](CodeSystem-TRE-R57-DiplomeEuropeenEtudeSpecialisee.md) | Diplôme Européen d'Etudes Spécialisées | 15/12/2023 |
-| [TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md) | Autre type de diplôme | 22/12/2025 |
+| [TRE_R58_AutreTypeDiplome](CodeSystem-TRE-R58-AutreTypeDiplome.md) | Autre type de diplôme | 23/02/2026 |
 | [TRE_R60_AutoriteEnregistrement](CodeSystem-TRE-R60-AutoriteEnregistrement.md) | Autorité d'enregistrement | 28/06/2024 |
 | [TRE_R62_Domaine](CodeSystem-TRE-R62-Domaine.md) | Domaine | 15/12/2023 |
 | [TRE_R63_AgregatCategorieEtablissementNiv1](CodeSystem-TRE-R63-AgregatCategorieEtablissementNiv1.md) | Agrégats de catégories d'établissements niveau 1 | 15/12/2023 |
@@ -112,7 +114,7 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R81_Civilite](CodeSystem-TRE-R81-Civilite.md) | Civilité | 15/12/2023 |
 | [TRE_R82_Ordre](CodeSystem-TRE-R82-Ordre.md) | Ordre | 15/12/2023 |
 | [TRE_R84_ProfilAccesAnnuaire_MSSante](CodeSystem-TRE-R84-ProfilAccesAnnuaire-MSSante.md) | Profil d'accès à l'annuaire MSSante | 15/12/2023 |
-| [TRE_R85_RolePriseCharge](CodeSystem-TRE-R85-RolePriseCharge.md) | Rôle dans la prise en charge des patients ou des usagers | 22/12/2025 |
+| [TRE_R85_RolePriseCharge](CodeSystem-TRE-R85-RolePriseCharge.md) | Rôle dans la prise en charge des patients ou des usagers | 02/02/2026 |
 | [TRE_R86_ProfilVIHF](CodeSystem-TRE-R86-ProfilVIHF.md) | Profil VIHF d'accès | 15/12/2023 |
 | [TRE_R87_TypeCarte](CodeSystem-TRE-R87-TypeCarte.md) | Type de carte | 15/12/2023 |
 | [TRE_R88_TerritoireSante](CodeSystem-TRE-R88-TerritoireSante.md) | Territoire de Santé (au sens ARS) en France | 15/12/2023 |
@@ -134,7 +136,7 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R209_TypeActivite](CodeSystem-TRE-R209-TypeActivite.md) | Type d'activité | 23/02/2024 |
 | [TRE_R210_ActeSpecifique](CodeSystem-TRE-R210-ActeSpecifique.md) |  | 22/12/2025 |
 | [TRE_R211_ActiviteOperationnelle](CodeSystem-TRE-R211-ActiviteOperationnelle.md) | Activite Operationnelle | 22/12/2025 |
-| [TRE_R212_Equipement](CodeSystem-TRE-R212-Equipement.md) | Equipement | 17/07/2025 |
+| [TRE_R212_Equipement](CodeSystem-TRE-R212-Equipement.md) | Equipement | 22/12/2025 |
 | [TRE_R213_ModePriseEnCharge](CodeSystem-TRE-R213-ModePriseEnCharge.md) | Mode de la prise en charge | 22/12/2025 |
 | [TRE_R216_HL7RoleCode](CodeSystem-TRE-R216-HL7RoleCode.md) | HL7 roleCode | 13/12/2024 |
 | [TRE_R217_ProtectionJuridique](CodeSystem-TRE-R217-ProtectionJuridique.md) | Protection juridique | 15/12/2023 |
@@ -158,7 +160,7 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R241_AideFinanciere](CodeSystem-TRE-R241-AideFinanciere.md) | Habilit. de l'EG permettant aux pers. accueillies d'avoir des aides financières | 15/12/2023 |
 | [TRE_R242_TypeHabitation](CodeSystem-TRE-R242-TypeHabitation.md) | Type habitation | 15/12/2023 |
 | [TRE_R243_CompetenceSpecifique](CodeSystem-TRE-R243-CompetenceSpecifique.md) | Compétence spécifique | 26/04/2024 |
-| [TRE_R244_CategorieOrganisation](CodeSystem-TRE-R244-CategorieOrganisation.md) | Catégorie d'organisation | 22/12/2025 |
+| [TRE_R244_CategorieOrganisation](CodeSystem-TRE-R244-CategorieOrganisation.md) | Catégorie d'organisation | 23/02/2026 |
 | [TRE_R245_SpecialisationDePriseEnCharge](CodeSystem-TRE-R245-SpecialisationDePriseEnCharge.md) | Spécialisation de prise en charge | 25/04/2025 |
 | [TRE_R246_TypeTarif](CodeSystem-TRE-R246-TypeTarif.md) | Type tarif | 15/12/2023 |
 | [TRE_R248_ModeAcces](CodeSystem-TRE-R248-ModeAcces.md) | Mode d'accès pour accéder à un SI santé avec données patients | 31/01/2025 |

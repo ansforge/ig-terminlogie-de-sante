@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-disposition-pretherapeutique-cisis | *Version*:20251216141838 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvDispositionPretherapeutiqueCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-disposition-pretherapeutique-cisis | *Version*:20260220142104 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvDispositionPretherapeutiqueCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.216 | | |
 
  
@@ -17,7 +17,7 @@ JDV Disposition Pretherapeutique CISIS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -55,96 +55,82 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-disposition-pretherapeutique-cisis",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2025-12-17T15:43:50.070+01:00",
+    "versionId" : "5",
+    "lastUpdated" : "2026-02-23T14:58:09.576+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2010-01-01T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2010-01-01T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-disposition-pretherapeutique-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.216"
-    }
-  ],
-  "version" : "20251216141838",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.216"
+  }],
+  "version" : "20260220142104",
   "name" : "JdvDispositionPretherapeutiqueCisis",
   "title" : "JDV Disposition Pretherapeutique CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:38+01:00",
+  "date" : "2026-02-20T14:21:04+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Disposition Pretherapeutique CISIS",
   "compose" : {
-    "include" : [
-      {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "MED-495",
-            "display" : "Aspirine dans les 24h d'hospitalisation"
-          },
-          {
-            "code" : "MED-496",
-            "display" : "Posologie aspirine entre 160 et 300 mg"
-          },
-          {
-            "code" : "MED-497",
-            "display" : "Contre-indication aspirine"
-          },
-          {
-            "code" : "MED-500",
-            "display" : "Inclusion dans protocole"
-          },
-          {
-            "code" : "MED-501",
-            "display" : "Date de consentement au protocole"
-          }
-        ]
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "concept" : [{
+        "code" : "MED-495",
+        "display" : "Aspirine dans les 24h d'hospitalisation"
       },
       {
-        "system" : "http://loinc.org",
-        "concept" : [
-          {
-            "code" : "42796-3",
-            "display" : "Nom du protocole d'essai clinique"
-          }
-        ]
+        "code" : "MED-496",
+        "display" : "Posologie aspirine entre 160 et 300 mg"
       },
       {
-        "system" : "http://snomed.info/sct",
-        "concept" : [
-          {
-            "code" : "233428003",
-            "display" : "thrombolyse veineuse"
-          },
-          {
-            "code" : "43810009",
-            "display" : "thrombectomie"
-          }
-        ]
+        "code" : "MED-497",
+        "display" : "Contre-indication aspirine"
       },
       {
-        "system" : "http://www.whocc.no/atc",
-        "concept" : [
-          {
-            "code" : "B01AC04",
-            "display" : "clopidogrel"
-          },
-          {
-            "code" : "B01AB01",
-            "display" : "héparine"
-          }
-        ]
-      }
-    ]
+        "code" : "MED-500",
+        "display" : "Inclusion dans protocole"
+      },
+      {
+        "code" : "MED-501",
+        "display" : "Date de consentement au protocole"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "42796-3",
+        "display" : "Nom du protocole d'essai clinique"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "233428003",
+        "display" : "thrombolyse veineuse"
+      },
+      {
+        "code" : "43810009",
+        "display" : "thrombectomie"
+      }]
+    },
+    {
+      "system" : "http://www.whocc.no/atc",
+      "concept" : [{
+        "code" : "B01AC04",
+        "display" : "clopidogrel"
+      },
+      {
+        "code" : "B01AB01",
+        "display" : "héparine"
+      }]
+    }]
   }
 }
 

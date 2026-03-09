@@ -2,43 +2,6 @@
 1.2.250.1.213.1.1.5.2;JDV;JDV_J59_ContentTypeCode_DMP;Jeu de valeurs pour contentTypeCode;https://mos.esante.gouv.fr/NOS/JDV_J59-ContentTypeCode-DMP;20190118120000;;20240927120000
 <system>;<Code>;<Libellé> 
 1.2.250.1.213.1.1.4.6;EXP_PATIENT;Expression personnelle du patient
-1.2.250.1.213.1.6.1.128;05;Hospitalisation à domicile (au domicile du patient)
-1.2.250.1.213.1.6.1.128;11;Centre postcure
-1.2.250.1.213.1.6.1.128;12;Centre de crise
-1.2.250.1.213.2.2;03;Hospitalisation complète (non compris hospitalisation de semaine)
-1.2.250.1.213.2.2;04;Hospitalisation de jour
-1.2.250.1.213.2.2;07;Consultations soins externes
-1.2.250.1.213.2.2;08;Bloc opératoire (y compris obstétrical et gynécologique)
-1.2.250.1.213.2.2;09;Autres unités médico-techniques (anesthésiologie, explor fonct, rééduc et réadapt fonct, pharmacie)
-1.2.250.1.213.2.2;11;Hébergement complet ou internat (non compris internat de semaine)
-1.2.250.1.213.2.2;13;Semi-internat
-1.2.250.1.213.2.2;14;Externat
-1.2.250.1.213.2.2;15;Placement en famille d'accueil (strictement social)
-1.2.250.1.213.2.2;16;Prestations sur le lieu de vie (non compris placement familial)
-1.2.250.1.213.2.2;17;Internat de semaine
-1.2.250.1.213.2.2;18;Hébergement de nuit en structure éclatée
-1.2.250.1.213.2.2;19;Traitement et cure ambulatoire
-1.2.250.1.213.2.2;20;Hospitalisation de semaine
-1.2.250.1.213.2.2;21;Accueil de Jour (sans distinction entre semi-internat et externat)
-1.2.250.1.213.2.2;22;Accueil de nuit
-1.2.250.1.213.2.2;25;Accueil temporaire week-end ou vacances
-1.2.250.1.213.2.2;26;Analyses médicales biologiques
-1.2.250.1.213.2.2;27;Accueil modulable/séquentiel
-1.2.250.1.213.2.2;28;Consultations dentaires et soins dentaires
-1.2.250.1.213.2.2;33;Recherche
-1.2.250.1.213.2.2;37;Accueil et prise en charge en appartement thérapeutique
-1.2.250.1.213.2.2;40;Accueil temporaire avec hébergement
-1.2.250.1.213.2.2;42;Equipe mobile de rue
-1.2.250.1.213.2.2;43;Tous modes d'accueil avec hébergement
-1.2.250.1.213.2.2;44;Accueil temporaire de jour
-1.2.250.1.213.2.2;45;Accueil temporaire (avec et sans hébergement)
-1.2.250.1.213.2.2;46;Tous modes d'accueil (avec et sans hébergement)
-1.2.250.1.213.2.2;47;Accueil de jour et accompagnement en milieu ordinaire
-1.2.250.1.213.2.2;48;Tous modes d'accueil et d'accompagnement
-1.2.250.1.213.2.2;50;Protection juridique
-1.2.250.1.213.2.2;52;Accompagnement social personnalisé
-1.2.250.1.213.2.2;60;Consultations et actes
-1.2.250.1.213.2.2;97;Type d'activité indifférencié
 1.2.250.1.71.4.2.4;SA05;Centre de santé
 1.2.250.1.71.4.2.4;SA06;Autre structure du Service de santé des armées
 1.2.250.1.71.4.2.4;SA07;Cabinet individuel

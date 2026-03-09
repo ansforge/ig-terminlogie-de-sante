@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20251216141840"
+             dateMaj="20260220142105"
              dateValid="20210414000000"
              description="JDV Traitement Soins Frcp CISIS"
              displayName="JdvTraitementSoinsFrcpCisis"
@@ -10,17 +10,10 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="C3580" codeSystem="" displayName="métastases osseuses"/>
-         <concept code="C3303" codeSystem="" displayName="douleur"/>
-         <concept code="C15252" codeSystem="" displayName="soins palliatifs"/>
-         <concept code="C63334"
+         <concept code="C79.5"
                   codeSystem=""
-                  displayName="imagerie interventionnelle"/>
-         <concept code="C15747" codeSystem="" displayName="soins de support"/>
+                  displayName="Tumeur maligne secondaire des os et de la moelle osseuse"/>
          <concept code="C16832" codeSystem="" displayName="oncologie médicale"/>
-         <concept code="C71326"
-                  codeSystem=""
-                  displayName="préservation de la fertilité"/>
          <concept code="C7201" codeSystem="" displayName="tumeur rare"/>
          <concept code="ORG-129"
                   codeSystem="1.2.250.1.213.1.1.4.322"
@@ -28,6 +21,21 @@
          <concept code="ORG-130"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Oncogériatrie"/>
+         <concept code="410240006"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="prise en charge du traitement de la douleur"/>
+         <concept code="103735009"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="soin palliatif"/>
+         <concept code="258174001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="imagerie interventionnelle"/>
+         <concept code="243114000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="soin de support"/>
+         <concept code="702596005"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="procédure de préservation de la fertilité"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

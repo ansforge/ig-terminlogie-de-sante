@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-checklist-dlu-cisis | *Version*:20251216141839 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvChecklistDluCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-checklist-dlu-cisis | *Version*:20260220142104 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvChecklistDluCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.71 | | |
 
  
@@ -17,7 +17,7 @@ JDV Checklist Dlu CISIS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -55,97 +55,89 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-checklist-dlu-cisis",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-12-17T15:43:15.866+01:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-02-23T14:57:50.519+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2010-01-01T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2010-01-01T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-checklist-dlu-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.71"
-    }
-  ],
-  "version" : "20251216141839",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.71"
+  }],
+  "version" : "20260220142104",
   "name" : "JdvChecklistDluCisis",
   "title" : "JDV Checklist Dlu CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:39+01:00",
+  "date" : "2026-02-20T14:21:04+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Checklist Dlu CISIS",
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "concept" : [{
+        "code" : "DLU_006",
+        "display" : "Attestation de la carte vitale"
+      },
       {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "DLU_006",
-            "display" : "Attestation de la carte vitale"
-          },
-          {
-            "code" : "DLU_007",
-            "display" : "Attestation de mutuelle"
-          },
-          {
-            "code" : "DLU_008",
-            "display" : "Photocopie de la carte d’identité"
-          },
-          {
-            "code" : "DLU_009",
-            "display" : "Grille AGGIR (la plus récente)"
-          },
-          {
-            "code" : "DLU_010",
-            "display" : "Photocopie des directives anticipées"
-          },
-          {
-            "code" : "DLU_011",
-            "display" : "Photocopies des ordonnances en cours"
-          },
-          {
-            "code" : "DLU_012",
-            "display" : "Tableau d’administration des médicaments"
-          },
-          {
-            "code" : "DLU_013",
-            "display" : "Résultats récents de biologie (1 à 3 mois) avec clairance de la créatinine et INR (si AVK)"
-          },
-          {
-            "code" : "DLU_014",
-            "display" : "CR de la dernière hospitalisation"
-          },
-          {
-            "code" : "DLU_015",
-            "display" : "Fiche BMR (bactérie multi-résistante)"
-          },
-          {
-            "code" : "DLU_016",
-            "display" : "Fiche ou carnet de suivi des soins (glycémie, pansements, perfusion, ventilation, nutrition, etc.)"
-          },
-          {
-            "code" : "DLU_017",
-            "display" : "Carnet de suivi du pacemaker ou du défibrilateur implentable"
-          },
-          {
-            "code" : "DLU_018",
-            "display" : "Carte de groupe sanguin (si à jour)"
-          },
-          {
-            "code" : "DLU_019",
-            "display" : "Liste des capacités en soins de l’EHPAD"
-          }
-        ]
-      }
-    ]
+        "code" : "DLU_007",
+        "display" : "Attestation de mutuelle"
+      },
+      {
+        "code" : "DLU_008",
+        "display" : "Photocopie de la carte d’identité"
+      },
+      {
+        "code" : "DLU_009",
+        "display" : "Grille AGGIR (la plus récente)"
+      },
+      {
+        "code" : "DLU_010",
+        "display" : "Photocopie des directives anticipées"
+      },
+      {
+        "code" : "DLU_011",
+        "display" : "Photocopies des ordonnances en cours"
+      },
+      {
+        "code" : "DLU_012",
+        "display" : "Tableau d’administration des médicaments"
+      },
+      {
+        "code" : "DLU_013",
+        "display" : "Résultats récents de biologie (1 à 3 mois) avec clairance de la créatinine et INR (si AVK)"
+      },
+      {
+        "code" : "DLU_014",
+        "display" : "CR de la dernière hospitalisation"
+      },
+      {
+        "code" : "DLU_015",
+        "display" : "Fiche BMR (bactérie multi-résistante)"
+      },
+      {
+        "code" : "DLU_016",
+        "display" : "Fiche ou carnet de suivi des soins (glycémie, pansements, perfusion, ventilation, nutrition, etc.)"
+      },
+      {
+        "code" : "DLU_017",
+        "display" : "Carnet de suivi du pacemaker ou du défibrilateur implentable"
+      },
+      {
+        "code" : "DLU_018",
+        "display" : "Carte de groupe sanguin (si à jour)"
+      },
+      {
+        "code" : "DLU_019",
+        "display" : "Liste des capacités en soins de l’EHPAD"
+      }]
+    }]
   }
 }
 

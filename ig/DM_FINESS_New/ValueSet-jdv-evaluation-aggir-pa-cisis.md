@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evaluation-aggir-pa-cisis | *Version*:20251216141838 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvEvaluationAggirPaCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evaluation-aggir-pa-cisis | *Version*:20260220142104 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvEvaluationAggirPaCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.806 | | |
 
  
@@ -17,7 +17,7 @@ JDV Evaluation Aggir Pa CISIS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -55,101 +55,93 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-evaluation-aggir-pa-cisis",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-12-17T15:43:59.137+01:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-02-23T14:58:14.578+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2024-09-18T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2024-09-18T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evaluation-aggir-pa-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.806"
-    }
-  ],
-  "version" : "20251216141838",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.806"
+  }],
+  "version" : "20260220142104",
   "name" : "JdvEvaluationAggirPaCisis",
   "title" : "JDV Evaluation Aggir Pa CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:38+01:00",
+  "date" : "2026-02-20T14:21:04+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Evaluation Aggir Pa CISIS",
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/icf",
+      "concept" : [{
+        "code" : "b160",
+        "display" : "Fonctions de la pensée"
+      },
       {
-        "system" : "http://hl7.org/fhir/sid/icf",
-        "concept" : [
-          {
-            "code" : "b160",
-            "display" : "Fonctions de la pensée"
-          },
-          {
-            "code" : "b114",
-            "display" : "Fonctions d'orientation"
-          },
-          {
-            "code" : "d5100",
-            "display" : "Se laver des parties du corps"
-          },
-          {
-            "code" : "d520",
-            "display" : "Prendre soin des parties de son corps"
-          },
-          {
-            "code" : "d5400",
-            "display" : "Mettre des vêtements"
-          },
-          {
-            "code" : "d440",
-            "display" : "Activités de motricité fine"
-          },
-          {
-            "code" : "d5402",
-            "display" : "Mettre des chaussures"
-          },
-          {
-            "code" : "d550",
-            "display" : "Manger"
-          },
-          {
-            "code" : "b5105",
-            "display" : "Passage des aliments par l'estomac et les intestins"
-          },
-          {
-            "code" : "d5300",
-            "display" : "Assurer la régulation de la miction"
-          },
-          {
-            "code" : "d5301",
-            "display" : "Assurer la régulation de la défécation"
-          },
-          {
-            "code" : "d410",
-            "display" : "Changer la position corporelle de base"
-          },
-          {
-            "code" : "d4600",
-            "display" : "Se déplacer dans la maison"
-          },
-          {
-            "code" : "d4602",
-            "display" : "Se déplacer en dehors de la maison et d'autres bâtiments"
-          },
-          {
-            "code" : "d3608",
-            "display" : "Utiliser d'autres appareils et techniques de communication précisés"
-          }
-        ]
-      }
-    ]
+        "code" : "b114",
+        "display" : "Fonctions d'orientation"
+      },
+      {
+        "code" : "d5100",
+        "display" : "Se laver des parties du corps"
+      },
+      {
+        "code" : "d520",
+        "display" : "Prendre soin des parties de son corps"
+      },
+      {
+        "code" : "d5400",
+        "display" : "Mettre des vêtements"
+      },
+      {
+        "code" : "d440",
+        "display" : "Activités de motricité fine"
+      },
+      {
+        "code" : "d5402",
+        "display" : "Mettre des chaussures"
+      },
+      {
+        "code" : "d550",
+        "display" : "Manger"
+      },
+      {
+        "code" : "b5105",
+        "display" : "Passage des aliments par l'estomac et les intestins"
+      },
+      {
+        "code" : "d5300",
+        "display" : "Assurer la régulation de la miction"
+      },
+      {
+        "code" : "d5301",
+        "display" : "Assurer la régulation de la défécation"
+      },
+      {
+        "code" : "d410",
+        "display" : "Changer la position corporelle de base"
+      },
+      {
+        "code" : "d4600",
+        "display" : "Se déplacer dans la maison"
+      },
+      {
+        "code" : "d4602",
+        "display" : "Se déplacer en dehors de la maison et d'autres bâtiments"
+      },
+      {
+        "code" : "d3608",
+        "display" : "Utiliser d'autres appareils et techniques de communication précisés"
+      }]
+    }]
   }
 }
 

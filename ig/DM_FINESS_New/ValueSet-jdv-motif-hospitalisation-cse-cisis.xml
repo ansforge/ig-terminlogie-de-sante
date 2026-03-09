@@ -3,12 +3,12 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="jdv-motif-hospitalisation-cse-cisis"/>
   <meta>
-    <versionId value="5"/>
-    <lastUpdated value="2025-12-17T15:45:32.702+01:00"/>
+    <versionId value="6"/>
+    <lastUpdated value="2026-02-23T14:59:03.738+01:00"/>
     <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
   </meta>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narratif généré : EnsembleValeurs jdv-motif-hospitalisation-cse-cisis</b></p><a name="jdv-motif-hospitalisation-cse-cisis"> </a><a name="hcjdv-motif-hospitalisation-cse-cisis"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version : 5; Dernière mise à jour : 2025-12-17 15:45:32+0100</p><p style="margin-bottom: 0px">Profil: <a href="http://hl7.org/fhir/R4/shareablevalueset.html">Shareable ValueSet</a></p></div><p>Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :</p><ul><li>Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans <a href="http://tx.fhir.org/r4"><code>http://hl7.org/fhir/sid/icd-10</code></a><span style="opacity: 0.5" title="La version nest pas explicitement indiquée. Lors de la génération de cette spécification, la version la plus récente {0} a été utilisée"> version ⏿2019-covid-expanded</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/icd10-2019#icd10-2019-P05.460">P05.0</a></td><td>Faible poids pour l'âge gestationnel</td><td>Light for gestational age</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/icd10-2019#icd10-2019-O13">O13</a></td><td>Hypertension gestationnelle [liée à la grossesse]</td><td>Gestational [pregnancy-induced] hypertension</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/icd10-2019#icd10-2019-O47.460">O47.0</a></td><td>Faux travail avant 37 semaines révolues de gestation</td><td>False labour before 37 completed weeks of gestation</td></tr></table></li><li>Inclut ce(s) code(s) tel quil(s) est (sont) défini(s) dans <a href="CodeSystem-terminologie-cisis.html"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis</code></a><span title="La version nest pas explicitement indiquée, ce qui signifie quelle est fixée à la version fournie dans cette spécification"> version &#x1F4E6;202512170000</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Affichage</b></td></tr><tr><td><a href="CodeSystem-terminologie-cisis.html#terminologie-cisis-GEN-092.4601.4608">GEN-092.01.08</a></td><td>Autre motif d'hospitalisation</td></tr></table></li></ul></div>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Narratif généré : EnsembleValeurs jdv-motif-hospitalisation-cse-cisis</b></p><a name="jdv-motif-hospitalisation-cse-cisis"> </a><a name="hcjdv-motif-hospitalisation-cse-cisis"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version : 6; Dernière mise à jour : 2026-02-23 14:59:03+0100</p><p style="margin-bottom: 0px">Profil: <a href="http://hl7.org/fhir/R4/shareablevalueset.html">Shareable ValueSet</a></p></div><p>Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :</p><ul><li>Inclut ce(s) code(s) tel qu'il(s) est (sont) défini(s) dans <a href="http://tx.fhir.org/r4"><code>http://hl7.org/fhir/sid/icd-10</code></a><span style="opacity: 0.5" title="La version n'est pas explicitement indiquée. Lors de la génération de cette spécification, la version la plus récente 2019-covid-expanded a été utilisée"> version ⏿2019-covid-expanded</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/1846#1846-P05.460">P05.0</a></td><td>Faible poids pour l'âge gestationnel</td><td>Light for gestational age</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/1846#1846-O13">O13</a></td><td>Hypertension gestationnelle [liée à la grossesse]</td><td>Gestational [pregnancy-induced] hypertension</td></tr><tr><td><a href="http://tx.fhir.org/r4/ValueSet/1846#1846-O47.460">O47.0</a></td><td>Faux travail avant 37 semaines révolues de gestation</td><td>False labour before 37 completed weeks of gestation</td></tr></table></li><li>Inclut ce(s) code(s) tel qu'il(s) est (sont) défini(s) dans <a href="CodeSystem-terminologie-cisis.html"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis</code></a><span title="La version n'est pas explicitement indiquée, ce qui signifie quelle est fixée à la version fournie dans cette spécification"> version &#x1F4E6;202602240000</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Affichage</b></td></tr><tr><td><a href="CodeSystem-terminologie-cisis.html#terminologie-cisis-GEN-092.4601.4608">GEN-092.01.08</a></td><td>Autre motif d'hospitalisation</td></tr></table></li></ul></div>
   </text>
   <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
     <valuePeriod>
@@ -20,12 +20,12 @@
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:1.2.250.1.213.1.1.5.681"/>
   </identifier>
-  <version value="20251216141838"/>
+  <version value="20260220142103"/>
   <name value="JdvMotifHospitalisationCseCisis"/>
   <title value="JDV Motif Hospitalisation Cse CISIS"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2025-12-16T14:18:38+01:00"/>
+  <date value="2026-02-20T14:21:03+01:00"/>
   <publisher value="Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <description value="JDV Motif Hospitalisation Cse CISIS"/>
   <compose>

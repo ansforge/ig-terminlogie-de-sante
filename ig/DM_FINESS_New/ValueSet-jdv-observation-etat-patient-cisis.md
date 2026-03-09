@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-observation-etat-patient-cisis | *Version*:20251216141838 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvObservationEtatPatientCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-observation-etat-patient-cisis | *Version*:20260220142103 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvObservationEtatPatientCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.514 | | |
 
  
@@ -17,7 +17,7 @@ JDV Observation Etat Patient CISIS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -55,101 +55,93 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-observation-etat-patient-cisis",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2025-12-17T15:45:50.745+01:00",
+    "versionId" : "5",
+    "lastUpdated" : "2026-02-23T14:59:15.401+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2010-01-01T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2010-01-01T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-observation-etat-patient-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.514"
-    }
-  ],
-  "version" : "20251216141838",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.514"
+  }],
+  "version" : "20260220142103",
   "name" : "JdvObservationEtatPatientCisis",
   "title" : "JDV Observation Etat Patient CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:38+01:00",
+  "date" : "2026-02-20T14:21:03+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Observation Etat Patient CISIS",
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "288575003",
+        "display" : "capable de communiquer"
+      },
       {
-        "system" : "http://snomed.info/sct",
-        "concept" : [
-          {
-            "code" : "288575003",
-            "display" : "capable de communiquer"
-          },
-          {
-            "code" : "247663003",
-            "display" : "bien orienté"
-          },
-          {
-            "code" : "62476001",
-            "display" : "désorienté(e)"
-          },
-          {
-            "code" : "24199005",
-            "display" : "sensation d'agitation"
-          },
-          {
-            "code" : "248043008",
-            "display" : "comportement non-conciliant"
-          },
-          {
-            "code" : "425104003",
-            "display" : "comportement suicidaire"
-          },
-          {
-            "code" : "397540003",
-            "display" : "malvoyance"
-          },
-          {
-            "code" : "15188001",
-            "display" : "perte auditive"
-          },
-          {
-            "code" : "62305002",
-            "display" : "trouble du langage"
-          },
-          {
-            "code" : "161898004",
-            "display" : "chutes"
-          },
-          {
-            "code" : "50239007",
-            "display" : "errance"
-          },
-          {
-            "code" : "248046000",
-            "display" : "en fugue"
-          },
-          {
-            "code" : "386423001",
-            "display" : "contention physique"
-          },
-          {
-            "code" : "285304000",
-            "display" : "à risque d'escarre"
-          },
-          {
-            "code" : "249492002",
-            "display" : "fausse route alimentaire"
-          }
-        ]
-      }
-    ]
+        "code" : "247663003",
+        "display" : "bien orienté"
+      },
+      {
+        "code" : "62476001",
+        "display" : "désorienté(e)"
+      },
+      {
+        "code" : "24199005",
+        "display" : "sensation d'agitation"
+      },
+      {
+        "code" : "248043008",
+        "display" : "comportement non-conciliant"
+      },
+      {
+        "code" : "425104003",
+        "display" : "comportement suicidaire"
+      },
+      {
+        "code" : "397540003",
+        "display" : "malvoyance"
+      },
+      {
+        "code" : "15188001",
+        "display" : "perte auditive"
+      },
+      {
+        "code" : "62305002",
+        "display" : "trouble du langage"
+      },
+      {
+        "code" : "161898004",
+        "display" : "chutes"
+      },
+      {
+        "code" : "50239007",
+        "display" : "errance"
+      },
+      {
+        "code" : "248046000",
+        "display" : "en fugue"
+      },
+      {
+        "code" : "386423001",
+        "display" : "contention physique"
+      },
+      {
+        "code" : "285304000",
+        "display" : "à risque d'escarre"
+      },
+      {
+        "code" : "249492002",
+        "display" : "fausse route alimentaire"
+      }]
+    }]
   }
 }
 

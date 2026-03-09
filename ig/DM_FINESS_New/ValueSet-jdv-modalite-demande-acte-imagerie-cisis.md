@@ -1,23 +1,23 @@
-# JDV Modalite Demande Acte Iimagerie CISIS - Terminologies de Santé (Publiées par l'ANS) v0.1.0
+# JDV Modalite Demande Acte Imagerie CISIS - Terminologies de Santé (Publiées par l'ANS) v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
-* **JDV Modalite Demande Acte Iimagerie CISIS**
+* **JDV Modalite Demande Acte Imagerie CISIS**
 
-## ValueSet: JDV Modalite Demande Acte Iimagerie CISIS 
+## ValueSet: JDV Modalite Demande Acte Imagerie CISIS 
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modalite-demande-acte-imagerie-cisis | *Version*:20251216141838 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvModaliteDemandeActeImagerieCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modalite-demande-acte-imagerie-cisis | *Version*:20260220142104 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvModaliteDemandeActeImagerieCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.660 | | |
 
  
-JDV Modalite Demande Acte Iimagerie CISIS 
+JDV Modalite Demande Acte Imagerie CISIS 
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -55,95 +55,83 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-modalite-demande-acte-imagerie-cisis",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-12-17T15:45:13.725+01:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-02-23T14:58:54.423+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2021-12-16T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2021-12-16T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modalite-demande-acte-imagerie-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.660"
-    }
-  ],
-  "version" : "20251216141838",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.660"
+  }],
+  "version" : "20260220142104",
   "name" : "JdvModaliteDemandeActeImagerieCisis",
-  "title" : "JDV Modalite Demande Acte Iimagerie CISIS",
+  "title" : "JDV Modalite Demande Acte Imagerie CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:38+01:00",
+  "date" : "2026-02-20T14:21:04+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description" : "JDV Modalite Demande Acte Iimagerie CISIS",
+  "description" : "JDV Modalite Demande Acte Imagerie CISIS",
   "compose" : {
-    "include" : [
-      {
-        "system" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
-        "concept" : [
-          {
-            "code" : "C63334",
-            "display" : "imagerie interventionnelle"
-          }
-        ]
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "concept" : [{
+        "code" : "MED-1126",
+        "display" : "Radiographie sans contraste"
       },
       {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "MED-1126",
-            "display" : "Radiographie sans contraste"
-          },
-          {
-            "code" : "MED-1127",
-            "display" : "Radiographie avec contraste"
-          },
-          {
-            "code" : "MED-1128",
-            "display" : "Échographie sans contraste"
-          },
-          {
-            "code" : "MED-1129",
-            "display" : "Échographie avec contraste"
-          }
-        ]
+        "code" : "MED-1127",
+        "display" : "Radiographie avec contraste"
       },
       {
-        "system" : "http://dicom.nema.org/resources/ontology/DCM",
-        "concept" : [
-          {
-            "code" : "MG",
-            "display" : "Mammographie"
-          },
-          {
-            "code" : "CT",
-            "display" : "Scanner/TDM"
-          },
-          {
-            "code" : "MR",
-            "display" : "IRM"
-          },
-          {
-            "code" : "OT",
-            "display" : "Autre technique d'imagerie"
-          },
-          {
-            "code" : "NM",
-            "display" : "Scintigraphie"
-          },
-          {
-            "code" : "PT",
-            "display" : "TEP : Tomographie par émission de positons"
-          }
-        ]
-      }
-    ]
+        "code" : "MED-1128",
+        "display" : "Échographie sans contraste"
+      },
+      {
+        "code" : "MED-1129",
+        "display" : "Échographie avec contraste"
+      }]
+    },
+    {
+      "system" : "http://dicom.nema.org/resources/ontology/DCM",
+      "concept" : [{
+        "code" : "MG",
+        "display" : "Mammographie"
+      },
+      {
+        "code" : "CT",
+        "display" : "Scanner/TDM"
+      },
+      {
+        "code" : "MR",
+        "display" : "IRM"
+      },
+      {
+        "code" : "OT",
+        "display" : "Autre technique d'imagerie"
+      },
+      {
+        "code" : "NM",
+        "display" : "Scintigraphie"
+      },
+      {
+        "code" : "PT",
+        "display" : "TEP : Tomographie par émission de positons"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "258174001",
+        "display" : "imagerie interventionnelle"
+      }]
+    }]
   }
 }
 

@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-site-intervention-cisis | *Version*:20251216141840 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvSiteInterventionCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-site-intervention-cisis | *Version*:20260220142105 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvSiteInterventionCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.169 | | |
 
  
@@ -17,7 +17,7 @@ JDV Site Intervention CISIS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -55,73 +55,65 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-site-intervention-cisis",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-12-17T15:46:52.696+01:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-02-23T14:59:49.858+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2010-01-01T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2010-01-01T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-site-intervention-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.169"
-    }
-  ],
-  "version" : "20251216141840",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.169"
+  }],
+  "version" : "20260220142105",
   "name" : "JdvSiteInterventionCisis",
   "title" : "JDV Site Intervention CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:40+01:00",
+  "date" : "2026-02-20T14:21:05+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Site Intervention CISIS",
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "15825003",
+        "display" : "aorte"
+      },
       {
-        "system" : "http://snomed.info/sct",
-        "concept" : [
-          {
-            "code" : "15825003",
-            "display" : "aorte"
-          },
-          {
-            "code" : "41801008",
-            "display" : "artère coronaire"
-          },
-          {
-            "code" : "22286001",
-            "display" : "artère carotide externe"
-          },
-          {
-            "code" : "85234005",
-            "display" : "artère vertébrale"
-          },
-          {
-            "code" : "36765005",
-            "display" : "artère subclavière"
-          },
-          {
-            "code" : "10293006",
-            "display" : "artère iliaque"
-          },
-          {
-            "code" : "127955005",
-            "display" : "artère intracrânienne"
-          },
-          {
-            "code" : "61685007",
-            "display" : "membre inférieur"
-          }
-        ]
-      }
-    ]
+        "code" : "41801008",
+        "display" : "artère coronaire"
+      },
+      {
+        "code" : "22286001",
+        "display" : "artère carotide externe"
+      },
+      {
+        "code" : "85234005",
+        "display" : "artère vertébrale"
+      },
+      {
+        "code" : "36765005",
+        "display" : "artère subclavière"
+      },
+      {
+        "code" : "10293006",
+        "display" : "artère iliaque"
+      },
+      {
+        "code" : "127955005",
+        "display" : "artère intracrânienne"
+      },
+      {
+        "code" : "61685007",
+        "display" : "membre inférieur"
+      }]
+    }]
   }
 }
 

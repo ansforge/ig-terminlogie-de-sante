@@ -31,26 +31,20 @@ Sexe
   "meta" : {
     "versionId" : "4",
     "lastUpdated" : "2024-08-28T05:12:46.469+00:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2018-01-26T12:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2018-01-26T12:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R249-Sexe/FHIR/TRE-R249-Sexe",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.2.53"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.2.53"
+  }],
   "version" : "20231215120000",
   "name" : "TRE_R249_Sexe",
   "status" : "active",
@@ -61,176 +55,160 @@ Sexe
   "caseSensitive" : false,
   "content" : "complete",
   "count" : 5,
-  "property" : [
-    {
+  "property" : [{
+    "code" : "dateValid",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "deprecationDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
+    "description" : "Date Concept was deprecated",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "status",
+    "uri" : "http://hl7.org/fhir/concept-properties#status",
+    "description" : "A property that indicates the status of the concept.",
+    "type" : "code"
+  },
+  {
+    "code" : "retirementDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
+    "description" : "Date Concept was retired",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "genreCapaciteFiness",
+    "uri" : "http://hl7.org/fhir/concept-properties#genreCapaciteFiness",
+    "description" : "Permet de définir les genres de capacités utilisés par FINESS+",
+    "type" : "boolean"
+  }],
+  "concept" : [{
+    "code" : "U",
+    "display" : "Inconnu",
+    "property" : [{
       "code" : "dateValid",
-      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
-      "description" : "date de validité d'un code concept",
-      "type" : "dateTime"
-    },
-    {
-      "code" : "dateMaj",
-      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
-      "description" : "Date de mise à jour d'un code concept",
-      "type" : "dateTime"
+      "valueDateTime" : "2018-01-26T12:00:00+01:00"
     },
     {
       "code" : "dateFin",
-      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
-      "description" : "Date de fin d'exploitation d'un code concept",
-      "type" : "dateTime"
+      "valueDateTime" : "2023-12-15T12:00:00+01:00"
     },
     {
-      "code" : "deprecationDate",
-      "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
-      "description" : "Date Concept was deprecated",
-      "type" : "dateTime"
+      "code" : "dateMaj",
+      "valueDateTime" : "2023-12-15T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "uri" : "http://hl7.org/fhir/concept-properties#status",
-      "description" : "A property that indicates the status of the concept.",
-      "type" : "code"
+      "valueCode" : "retired"
     },
     {
       "code" : "retirementDate",
-      "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
-      "description" : "Date Concept was retired",
-      "type" : "dateTime"
+      "valueDateTime" : "2023-12-15T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "UN",
+    "display" : "Inconnu",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2023-12-15T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2023-12-15T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
     },
     {
       "code" : "genreCapaciteFiness",
-      "uri" : "http://hl7.org/fhir/concept-properties#genreCapaciteFiness",
-      "description" : "Permet de définir les genres de capacités utilisés par FINESS+",
-      "type" : "boolean"
-    }
-  ],
-  "concept" : [
-    {
-      "code" : "U",
-      "display" : "Inconnu",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2018-01-26T12:00:00+01:00"
-        },
-        {
-          "code" : "dateFin",
-          "valueDateTime" : "2023-12-15T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2023-12-15T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "retired"
-        },
-        {
-          "code" : "retirementDate",
-          "valueDateTime" : "2023-12-15T12:00:00+01:00"
-        }
-      ]
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "F",
+    "display" : "Féminin",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2018-01-26T12:00:00+01:00"
     },
     {
-      "code" : "UN",
-      "display" : "Inconnu",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2023-12-15T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2023-12-15T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "genreCapaciteFiness",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "dateMaj",
+      "valueDateTime" : "2018-01-26T12:00:00+01:00"
     },
     {
-      "code" : "F",
-      "display" : "Féminin",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2018-01-26T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2018-01-26T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "genreCapaciteFiness",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "status",
+      "valueCode" : "active"
     },
     {
-      "code" : "M",
-      "display" : "Masculin",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2018-01-26T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2018-01-26T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "genreCapaciteFiness",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "genreCapaciteFiness",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "M",
+    "display" : "Masculin",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2018-01-26T12:00:00+01:00"
     },
     {
-      "code" : "O",
-      "display" : "Autre sexe (ni masculin, ni féminin)",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Autre sexe ni M, ni F"
-        }
-      ],
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2018-02-28T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2018-12-14T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "genreCapaciteFiness",
-          "valueBoolean" : true
-        }
-      ]
-    }
-  ]
+      "code" : "dateMaj",
+      "valueDateTime" : "2018-01-26T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "genreCapaciteFiness",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "O",
+    "display" : "Autre sexe (ni masculin, ni féminin)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Autre sexe ni M, ni F"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2018-02-28T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2018-12-14T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "genreCapaciteFiness",
+      "valueBoolean" : true
+    }]
+  }]
 }
 
 ```

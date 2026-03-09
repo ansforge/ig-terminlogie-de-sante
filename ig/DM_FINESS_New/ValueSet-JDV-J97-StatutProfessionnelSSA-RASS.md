@@ -17,7 +17,7 @@ Statuts des professionnels du Service de Santé des Armées dans le RASS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -60,21 +60,17 @@ Requête sur le SMT
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2019-08-30T12:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2019-08-30T12:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J97-StatutProfessionnelSSA-RASS/FHIR/JDV-J97-StatutProfessionnelSSA-RASS",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.6.1.165"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.6.1.165"
+  }],
   "version" : "20200424120000",
   "name" : "JDV_J97_StatutProfessionnelSSA_RASS",
   "status" : "active",
@@ -82,40 +78,32 @@ Requête sur le SMT
   "date" : "2020-04-24T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Statuts des professionnels du Service de Santé des Armées dans le RASS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FR"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R34-StatutProfessionnelSSA/FHIR/TRE-R34-StatutProfessionnelSSA",
+      "concept" : [{
+        "code" : "STA-SSA-01",
+        "display" : "Praticien"
+      },
       {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R34-StatutProfessionnelSSA/FHIR/TRE-R34-StatutProfessionnelSSA",
-        "concept" : [
-          {
-            "code" : "STA-SSA-01",
-            "display" : "Praticien"
-          },
-          {
-            "code" : "STA-SSA-02",
-            "display" : "Praticien confirmé"
-          },
-          {
-            "code" : "STA-SSA-03",
-            "display" : "Praticien certifié"
-          },
-          {
-            "code" : "STA-SSA-04",
-            "display" : "Praticien agrégé"
-          }
-        ]
-      }
-    ]
+        "code" : "STA-SSA-02",
+        "display" : "Praticien confirmé"
+      },
+      {
+        "code" : "STA-SSA-03",
+        "display" : "Praticien certifié"
+      },
+      {
+        "code" : "STA-SSA-04",
+        "display" : "Praticien agrégé"
+      }]
+    }]
   }
 }
 

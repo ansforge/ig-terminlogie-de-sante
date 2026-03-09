@@ -17,7 +17,7 @@ JDV Addiction CISIS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -61,21 +61,17 @@ Expansions are not generated for retired value sets
     "lastUpdated" : "2025-10-22T17:12:12.302+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2010-01-01T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2010-01-01T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-addiction-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.80"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.80"
+  }],
   "version" : "20250624152100",
   "name" : "JdvAddictionCisis",
   "title" : "JDV Addiction CISIS",
@@ -85,34 +81,28 @@ Expansions are not generated for retired value sets
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Addiction CISIS",
   "compose" : {
-    "include" : [
-      {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "GEN-092.01.04",
-            "display" : "Autre addiction"
-          }
-        ]
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "concept" : [{
+        "code" : "GEN-092.01.04",
+        "display" : "Autre addiction"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "11343-1",
+        "display" : "Consommation de drogue non médicales"
       },
       {
-        "system" : "http://loinc.org",
-        "concept" : [
-          {
-            "code" : "11343-1",
-            "display" : "Consommation de drogue non médicales"
-          },
-          {
-            "code" : "74011-8",
-            "display" : "Consommation tabagique"
-          },
-          {
-            "code" : "74013-4",
-            "display" : "Consommation d'alcool"
-          }
-        ]
-      }
-    ]
+        "code" : "74011-8",
+        "display" : "Consommation tabagique"
+      },
+      {
+        "code" : "74013-4",
+        "display" : "Consommation d'alcool"
+      }]
+    }]
   }
 }
 

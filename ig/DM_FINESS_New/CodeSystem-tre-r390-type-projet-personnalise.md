@@ -30,26 +30,20 @@ Cette nomenclature donne le type de projet personnalisé qui est un document co-
   "meta" : {
     "versionId" : "1",
     "lastUpdated" : "2025-07-01T10:02:20.124+00:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2025-04-22T12:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2025-04-22T12:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r390-type-projet-personnalise",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.3.3.258"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.3.3.258"
+  }],
   "version" : "20250422120000",
   "name" : "TreR390TypeProjetPersonnalise",
   "title" : "Tre R390 Type Projet Personnalise",
@@ -62,172 +56,154 @@ Cette nomenclature donne le type de projet personnalisé qui est un document co-
   "valueSet" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r390-type-projet-personnalise?vs",
   "content" : "complete",
   "count" : 7,
-  "property" : [
-    {
+  "property" : [{
+    "code" : "dateValid",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "status",
+    "uri" : "http://hl7.org/fhir/concept-properties#status",
+    "description" : "Statut d'un code concept",
+    "type" : "code"
+  },
+  {
+    "code" : "deprecationDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
+    "description" : "Date de dépréciation du code",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "retirementDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
+    "description" : "Date de retrait du code",
+    "type" : "dateTime"
+  }],
+  "concept" : [{
+    "code" : "PAI",
+    "display" : "Projet d'Accompagnement Individuel",
+    "property" : [{
       "code" : "dateValid",
-      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
-      "description" : "date de validité d'un code concept",
-      "type" : "dateTime"
+      "valueDateTime" : "2025-04-22T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
-      "description" : "Date de mise à jour d'un code concept",
-      "type" : "dateTime"
-    },
-    {
-      "code" : "dateFin",
-      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
-      "description" : "Date de fin d'exploitation d'un code concept",
-      "type" : "dateTime"
+      "valueDateTime" : "2025-04-22T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "uri" : "http://hl7.org/fhir/concept-properties#status",
-      "description" : "Statut d'un code concept",
-      "type" : "code"
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "PPA",
+    "display" : "Projet Personnalisé d'Accompagnement",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2025-04-22T12:00:00+01:00"
     },
     {
-      "code" : "deprecationDate",
-      "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
-      "description" : "Date de dépréciation du code",
-      "type" : "dateTime"
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-04-22T12:00:00+01:00"
     },
     {
-      "code" : "retirementDate",
-      "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
-      "description" : "Date de retrait du code",
-      "type" : "dateTime"
-    }
-  ],
-  "concept" : [
-    {
-      "code" : "PAI",
-      "display" : "Projet d'Accompagnement Individuel",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2025-04-22T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2025-04-22T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "PPIA",
+    "display" : "Projet Personnalisé Individuel d'Accompagnement",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2025-04-22T12:00:00+01:00"
     },
     {
-      "code" : "PPA",
-      "display" : "Projet Personnalisé d'Accompagnement",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2025-04-22T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2025-04-22T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-04-22T12:00:00+01:00"
     },
     {
-      "code" : "PPIA",
-      "display" : "Projet Personnalisé Individuel d'Accompagnement",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2025-04-22T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2025-04-22T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "PP",
+    "display" : "Projet Personnalisé",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2025-04-22T12:00:00+01:00"
     },
     {
-      "code" : "PP",
-      "display" : "Projet Personnalisé",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2025-04-22T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2025-04-22T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-04-22T12:00:00+01:00"
     },
     {
-      "code" : "PPI",
-      "display" : "Projet Personnalisé Individuel",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2025-04-22T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2025-04-22T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "PPI",
+    "display" : "Projet Personnalisé Individuel",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2025-04-22T12:00:00+01:00"
     },
     {
-      "code" : "PA",
-      "display" : "Projet d'Accompagnement",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2025-04-22T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2025-04-22T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-04-22T12:00:00+01:00"
     },
     {
-      "code" : "PI",
-      "display" : "Projet Individuel",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2025-04-22T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2025-04-22T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        }
-      ]
-    }
-  ]
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "PA",
+    "display" : "Projet d'Accompagnement",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2025-04-22T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-04-22T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "PI",
+    "display" : "Projet Individuel",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2025-04-22T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-04-22T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  }]
 }
 
 ```

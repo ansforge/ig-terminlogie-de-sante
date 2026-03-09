@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-days-of-week | *Version*:20251216141840 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:DaysOfWeek |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-days-of-week | *Version*:20260220142105 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:DaysOfWeek |
 | *Other Identifiers:*OID:2.16.840.1.113883.4.642.3.512 | | |
 
  
@@ -17,7 +17,7 @@ DaysOfWeek
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -55,69 +55,61 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-hl7-days-of-week",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2025-12-17T15:42:42.548+01:00",
+    "versionId" : "3",
+    "lastUpdated" : "2026-02-23T14:57:30.567+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2025-07-11T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2025-07-11T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-days-of-week",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:2.16.840.1.113883.4.642.3.512"
-    }
-  ],
-  "version" : "20251216141840",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:2.16.840.1.113883.4.642.3.512"
+  }],
+  "version" : "20260220142105",
   "name" : "DaysOfWeek",
   "title" : "DaysOfWeek",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:40+01:00",
+  "date" : "2026-02-20T14:21:05+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "DaysOfWeek",
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "http://hl7.org/fhir/days-of-week",
+      "concept" : [{
+        "code" : "mon",
+        "display" : "lundi"
+      },
       {
-        "system" : "http://hl7.org/fhir/days-of-week",
-        "concept" : [
-          {
-            "code" : "mon",
-            "display" : "lundi"
-          },
-          {
-            "code" : "tue",
-            "display" : "mardi"
-          },
-          {
-            "code" : "wed",
-            "display" : "mercredi"
-          },
-          {
-            "code" : "thu",
-            "display" : "jeudi"
-          },
-          {
-            "code" : "fri",
-            "display" : "vendredi"
-          },
-          {
-            "code" : "sat",
-            "display" : "samedi"
-          },
-          {
-            "code" : "sun",
-            "display" : "dimanche"
-          }
-        ]
-      }
-    ]
+        "code" : "tue",
+        "display" : "mardi"
+      },
+      {
+        "code" : "wed",
+        "display" : "mercredi"
+      },
+      {
+        "code" : "thu",
+        "display" : "jeudi"
+      },
+      {
+        "code" : "fri",
+        "display" : "vendredi"
+      },
+      {
+        "code" : "sat",
+        "display" : "samedi"
+      },
+      {
+        "code" : "sun",
+        "display" : "dimanche"
+      }]
+    }]
   }
 }
 

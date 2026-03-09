@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evaluation-aggir-ph-cisis | *Version*:20251216141838 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvEvaluationAggirPhCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evaluation-aggir-ph-cisis | *Version*:20260220142104 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvEvaluationAggirPhCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.805 | | |
 
  
@@ -17,7 +17,7 @@ JDV Evaluation Aggir Ph CISIS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -55,81 +55,73 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-evaluation-aggir-ph-cisis",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-12-17T15:43:59.738+01:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-02-23T14:58:14.948+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2024-09-18T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2024-09-18T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evaluation-aggir-ph-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.805"
-    }
-  ],
-  "version" : "20251216141838",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.805"
+  }],
+  "version" : "20260220142104",
   "name" : "JdvEvaluationAggirPhCisis",
   "title" : "JDV Evaluation Aggir Ph CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:38+01:00",
+  "date" : "2026-02-20T14:21:04+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Evaluation Aggir Ph CISIS",
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/icf",
+      "concept" : [{
+        "code" : "b160",
+        "display" : "Fonctions de la pensée"
+      },
       {
-        "system" : "http://hl7.org/fhir/sid/icf",
-        "concept" : [
-          {
-            "code" : "b160",
-            "display" : "Fonctions de la pensée"
-          },
-          {
-            "code" : "b114",
-            "display" : "Fonctions d'orientation"
-          },
-          {
-            "code" : "d510",
-            "display" : "Se laver"
-          },
-          {
-            "code" : "d540",
-            "display" : "S'habiller"
-          },
-          {
-            "code" : "d550",
-            "display" : "Manger"
-          },
-          {
-            "code" : "d530",
-            "display" : "Aller aux toilettes"
-          },
-          {
-            "code" : "d410",
-            "display" : "Changer la position corporelle de base"
-          },
-          {
-            "code" : "d4600",
-            "display" : "Se déplacer dans la maison"
-          },
-          {
-            "code" : "d4602",
-            "display" : "Se déplacer en dehors de la maison et d'autres bâtiments"
-          },
-          {
-            "code" : "d3608",
-            "display" : "Utiliser d'autres appareils et techniques de communication précisés"
-          }
-        ]
-      }
-    ]
+        "code" : "b114",
+        "display" : "Fonctions d'orientation"
+      },
+      {
+        "code" : "d510",
+        "display" : "Se laver"
+      },
+      {
+        "code" : "d540",
+        "display" : "S'habiller"
+      },
+      {
+        "code" : "d550",
+        "display" : "Manger"
+      },
+      {
+        "code" : "d530",
+        "display" : "Aller aux toilettes"
+      },
+      {
+        "code" : "d410",
+        "display" : "Changer la position corporelle de base"
+      },
+      {
+        "code" : "d4600",
+        "display" : "Se déplacer dans la maison"
+      },
+      {
+        "code" : "d4602",
+        "display" : "Se déplacer en dehors de la maison et d'autres bâtiments"
+      },
+      {
+        "code" : "d3608",
+        "display" : "Utiliser d'autres appareils et techniques de communication précisés"
+      }]
+    }]
   }
 }
 

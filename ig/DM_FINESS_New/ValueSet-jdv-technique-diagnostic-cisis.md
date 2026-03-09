@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-technique-diagnostic-cisis | *Version*:20251216141840 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvTechniqueDiagnosticCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-technique-diagnostic-cisis | *Version*:20260220142105 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvTechniqueDiagnosticCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.48 | | |
 
  
@@ -17,7 +17,7 @@ JDV Technique Diagnostic CISIS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -55,66 +55,56 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-technique-diagnostic-cisis",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2025-12-17T15:47:12.701+01:00",
+    "versionId" : "5",
+    "lastUpdated" : "2026-02-23T15:00:00.665+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2010-01-01T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2010-01-01T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-technique-diagnostic-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.48"
-    }
-  ],
-  "version" : "20251216141840",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.48"
+  }],
+  "version" : "20260220142105",
   "name" : "JdvTechniqueDiagnosticCisis",
   "title" : "JDV Technique Diagnostic CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:40+01:00",
+  "date" : "2026-02-20T14:21:05+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Technique Diagnostic CISIS",
   "compose" : {
-    "include" : [
-      {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "MED-082",
-            "display" : "Analyse chromosomique sur puce à ADN"
-          },
-          {
-            "code" : "MED-083",
-            "display" : "Analyse moléculaire ciblée (1 ou plusieurs gènes)"
-          },
-          {
-            "code" : "MED-084",
-            "display" : "Analyse pangénomique"
-          },
-          {
-            "code" : "GEN-092.04.17",
-            "display" : "Autre technique"
-          }
-        ]
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "concept" : [{
+        "code" : "MED-082",
+        "display" : "Analyse chromosomique sur puce à ADN"
       },
       {
-        "system" : "http://snomed.info/sct",
-        "concept" : [
-          {
-            "code" : "73735000",
-            "display" : "technique cytogénétique"
-          }
-        ]
-      }
-    ]
+        "code" : "MED-083",
+        "display" : "Analyse moléculaire ciblée (1 ou plusieurs gènes)"
+      },
+      {
+        "code" : "MED-084",
+        "display" : "Analyse pangénomique"
+      },
+      {
+        "code" : "GEN-092.04.17",
+        "display" : "Autre technique"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "73735000",
+        "display" : "technique cytogénétique"
+      }]
+    }]
   }
 }
 

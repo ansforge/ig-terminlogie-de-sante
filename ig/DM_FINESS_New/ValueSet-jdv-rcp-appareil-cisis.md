@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-rcp-appareil-cisis | *Version*:20251216141840 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvRcpAppareilCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-rcp-appareil-cisis | *Version*:20260220142105 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvRcpAppareilCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.597 | | |
 
  
@@ -17,7 +17,7 @@ JDV RCP Appareil CISIS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -55,97 +55,89 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-rcp-appareil-cisis",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-12-17T15:46:09.343+01:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-02-23T14:59:26.145+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2021-04-19T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2021-04-19T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-rcp-appareil-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.597"
-    }
-  ],
-  "version" : "20251216141840",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.597"
+  }],
+  "version" : "20260220142105",
   "name" : "JdvRcpAppareilCisis",
   "title" : "JDV RCP Appareil CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:40+01:00",
+  "date" : "2026-02-20T14:21:05+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV RCP Appareil CISIS",
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "387910009",
+        "display" : "glande endocrine"
+      },
       {
-        "system" : "http://snomed.info/sct",
-        "concept" : [
-          {
-            "code" : "387910009",
-            "display" : "glande endocrine"
-          },
-          {
-            "code" : "57171008",
-            "display" : "système hématopoïétique"
-          },
-          {
-            "code" : "81745001",
-            "display" : "œil"
-          },
-          {
-            "code" : "272673000",
-            "display" : "os"
-          },
-          {
-            "code" : "39937001",
-            "display" : "peau"
-          },
-          {
-            "code" : "76752008",
-            "display" : "sein"
-          },
-          {
-            "code" : "86762007",
-            "display" : "système digestif"
-          },
-          {
-            "code" : "53065001",
-            "display" : "appareil génital féminin"
-          },
-          {
-            "code" : "90264002",
-            "display" : "appareil génital masculin"
-          },
-          {
-            "code" : "25087005",
-            "display" : "système nerveux"
-          },
-          {
-            "code" : "122489005",
-            "display" : "système urinaire"
-          },
-          {
-            "code" : "312419003",
-            "display" : "appareil respiratoire et/ou cavité thoracique"
-          },
-          {
-            "code" : "87784001",
-            "display" : "tissus mous"
-          },
-          {
-            "code" : "119253004",
-            "display" : "voies aérodigestives supérieures"
-          }
-        ]
-      }
-    ]
+        "code" : "57171008",
+        "display" : "système hématopoïétique"
+      },
+      {
+        "code" : "81745001",
+        "display" : "œil"
+      },
+      {
+        "code" : "272673000",
+        "display" : "os"
+      },
+      {
+        "code" : "39937001",
+        "display" : "peau"
+      },
+      {
+        "code" : "76752008",
+        "display" : "sein"
+      },
+      {
+        "code" : "86762007",
+        "display" : "système digestif"
+      },
+      {
+        "code" : "53065001",
+        "display" : "appareil génital féminin"
+      },
+      {
+        "code" : "90264002",
+        "display" : "appareil génital masculin"
+      },
+      {
+        "code" : "25087005",
+        "display" : "système nerveux"
+      },
+      {
+        "code" : "122489005",
+        "display" : "système urinaire"
+      },
+      {
+        "code" : "312419003",
+        "display" : "appareil respiratoire et/ou cavité thoracique"
+      },
+      {
+        "code" : "87784001",
+        "display" : "tissus mous"
+      },
+      {
+        "code" : "119253004",
+        "display" : "voies aérodigestives supérieures"
+      }]
+    }]
   }
 }
 

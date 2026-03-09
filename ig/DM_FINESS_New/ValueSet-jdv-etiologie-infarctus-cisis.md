@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-etiologie-infarctus-cisis | *Version*:20251216141838 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvEtiologieInfarctusCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-etiologie-infarctus-cisis | *Version*:20260220142103 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvEtiologieInfarctusCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.200 | | |
 
  
@@ -17,7 +17,7 @@ JDV Etiologie Infarctus CISIS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -55,69 +55,61 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-etiologie-infarctus-cisis",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-12-17T15:43:58.307+01:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-02-23T14:58:14.237+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2010-01-01T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2010-01-01T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-etiologie-infarctus-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.200"
-    }
-  ],
-  "version" : "20251216141838",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.200"
+  }],
+  "version" : "20260220142103",
   "name" : "JdvEtiologieInfarctusCisis",
   "title" : "JDV Etiologie Infarctus CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:38+01:00",
+  "date" : "2026-02-20T14:21:03+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Etiologie Infarctus CISIS",
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "concept" : [{
+        "code" : "MED-479",
+        "display" : "Athérome extracrânien"
+      },
       {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "MED-479",
-            "display" : "Athérome extracrânien"
-          },
-          {
-            "code" : "MED-480",
-            "display" : "Athérome intracrânien"
-          },
-          {
-            "code" : "MED-481",
-            "display" : "Embolie cardiaque"
-          },
-          {
-            "code" : "MED-473",
-            "display" : "Maladie petites artères"
-          },
-          {
-            "code" : "MED-482",
-            "display" : "Dissection des TSA"
-          },
-          {
-            "code" : "MED-476",
-            "display" : "Etiologie multiple"
-          },
-          {
-            "code" : "GEN-092.01.09",
-            "display" : "Autre étiologie de l'infarctus"
-          }
-        ]
-      }
-    ]
+        "code" : "MED-480",
+        "display" : "Athérome intracrânien"
+      },
+      {
+        "code" : "MED-481",
+        "display" : "Embolie cardiaque"
+      },
+      {
+        "code" : "MED-473",
+        "display" : "Maladie petites artères"
+      },
+      {
+        "code" : "MED-482",
+        "display" : "Dissection des TSA"
+      },
+      {
+        "code" : "MED-476",
+        "display" : "Etiologie multiple"
+      },
+      {
+        "code" : "GEN-092.01.09",
+        "display" : "Autre étiologie de l'infarctus"
+      }]
+    }]
   }
 }
 

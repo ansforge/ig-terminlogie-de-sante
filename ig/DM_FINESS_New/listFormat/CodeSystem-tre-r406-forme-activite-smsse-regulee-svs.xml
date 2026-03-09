@@ -2,9 +2,9 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20251105120000"
+             dateMaj="20260223120000"
              dateValid="20180727120000"
-             description="Formes des activites smsse régulées"
+             description="Formes des activites smsse régulées, remplace la TRE_R276-FormeActivite"
              displayName="TreR406FormeActiviteSmsseRegulee"
              id="1.2.250.1.213.1.6.1.385"
              typeFichier="TRE"

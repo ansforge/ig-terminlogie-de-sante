@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-intervention-voie-basse-cisis | *Version*:20251216141838 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvTypeInterventionVoieBasseCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-intervention-voie-basse-cisis | *Version*:20260220142103 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvTypeInterventionVoieBasseCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.750 | | |
 
  
@@ -17,7 +17,7 @@ JDV Type Intervention Voie Basse CISIS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -55,82 +55,72 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-type-intervention-voie-basse-cisis",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-12-17T15:47:53.665+01:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-02-23T15:00:27.073+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2023-02-02T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2023-02-02T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-intervention-voie-basse-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.750"
-    }
-  ],
-  "version" : "20251216141838",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.750"
+  }],
+  "version" : "20260220142103",
   "name" : "JdvTypeInterventionVoieBasseCisis",
   "title" : "JDV Type Intervention Voie Basse CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:38+01:00",
+  "date" : "2026-02-20T14:21:03+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Type Intervention Voie Basse CISIS",
   "compose" : {
-    "include" : [
-      {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "MED-1255",
-            "display" : "Spatules"
-          },
-          {
-            "code" : "GEN-092.04.21",
-            "display" : "Autre manœuvre siège"
-          },
-          {
-            "code" : "GEN-092.04.22",
-            "display" : "Autre manœuvre voie basse"
-          }
-        ]
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "concept" : [{
+        "code" : "MED-1255",
+        "display" : "Spatules"
       },
       {
-        "system" : "http://snomed.info/sct",
-        "concept" : [
-          {
-            "code" : "237008007",
-            "display" : "manœuvres pour accoucher une dystocie des épaules"
-          },
-          {
-            "code" : "416055001",
-            "display" : "grande extraction du siège"
-          },
-          {
-            "code" : "359940006",
-            "display" : "petite extraction du siège"
-          },
-          {
-            "code" : "302383004",
-            "display" : "accouchement par forceps"
-          },
-          {
-            "code" : "302382009",
-            "display" : "extraction par le siège avec version podalique interne"
-          },
-          {
-            "code" : "61586001",
-            "display" : "accouchement par extraction par ventouse"
-          }
-        ]
-      }
-    ]
+        "code" : "GEN-092.04.21",
+        "display" : "Autre manœuvre siège"
+      },
+      {
+        "code" : "GEN-092.04.22",
+        "display" : "Autre manœuvre voie basse"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "237008007",
+        "display" : "manœuvres pour accoucher une dystocie des épaules"
+      },
+      {
+        "code" : "416055001",
+        "display" : "grande extraction du siège"
+      },
+      {
+        "code" : "359940006",
+        "display" : "petite extraction du siège"
+      },
+      {
+        "code" : "302383004",
+        "display" : "accouchement par forceps"
+      },
+      {
+        "code" : "302382009",
+        "display" : "extraction par le siège avec version podalique interne"
+      },
+      {
+        "code" : "61586001",
+        "display" : "accouchement par extraction par ventouse"
+      }]
+    }]
   }
 }
 

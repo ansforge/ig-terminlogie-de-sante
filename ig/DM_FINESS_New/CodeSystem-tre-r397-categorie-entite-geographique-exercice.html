@@ -41,8 +41,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"8.904"}
-    h3,h4,h5,h6{--heading-prefix:"8.904"}</style>
+    <style type="text/css">h2{--heading-prefix:"8.915"}
+    h3,h4,h5,h6{--heading-prefix:"8.915"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -161,7 +161,7 @@
         <div class="row">
           <div class="inner-wrapper">
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">Terminologies  de Santé (Publiées par l'ANS) - version de développement local (v0.1.0) construite par les outils de publication FHIR (HL7® FHIR® Standard). Voir le <a href='https://interop.esante.gouv.fr/terminologies/history.html'>répertoire des versions publiées</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">Terminologies  de Santé (Publiées par l'ANS) - version de développement local (intégration continue v0.1.0) construite par les outils de publication FHIR (HL7® FHIR® Standard). Voir le <a href='https://interop.esante.gouv.fr/terminologies/history.html'>répertoire des versions publiées</a></p><!--EndReleaseHeader-->
   
 
 
@@ -248,7 +248,7 @@
       <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice<button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice"/></span>
       </td>
       <td><i>Version</i>:
-      <span class="copy-text">20251222120000<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice|20251222120000"/></span>
+      <span class="copy-text">20260223120000<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice|20260223120000"/></span>
       </td>
     </tr>
  
@@ -264,7 +264,7 @@
         
           Active
           
-            as of 2025-12-22
+            as of 2026-02-23
           
         
       </td>
@@ -287,7 +287,7 @@
         <i>As active of:</i> 
       </td>
       <td colspan="2">
-        <i>RevisionDate:</i> 2025-12-22T12:00:00+01:00
+        <i>RevisionDate:</i> 2026-02-23T12:00:00.000+00:00
       </td>      
     </tr>
 
@@ -316,7 +316,7 @@
 
 
 <p>
-<p>Catégorie d’établissements - TRE Hierarchique qui remplace la TRE R66</p>
+<p>Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement, TRE-R63-AgregatCategorieEtablissementNiv1, TRE-R64-AgregatCategorieEtablissementNiv2, TRE-R65-AgregatCategorieEtablissement et ASS-X10-AgregatCategorieEtablissement. Cette TRE possède des propriétésspécifiques : le niveau d’agrégat des EGE de 1 à 4 (du plus large au plus fin), le parent d’un agrégat d’EGE ou d’un EGE, la relation entre un code et le domaine ( TRE R62), un indicateur pour les EGE spécifiques au ROR ( non finess) et les relations nécessaires à la construction des JDV dynamiques associés</p>
 
 </p>
 
@@ -345,9 +345,9 @@
 
   <div id="orig">  
     <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr-FR" lang="fr-FR" data-fhir="generated"><p class="res-header-id"></p><a name="tre-r397-categorie-entite-geographique-exercice"> </a><a name="hctre-r397-categorie-entite-geographique-exercice"> </a>
-<div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version : 1; Dernière mise à jour : 2025-12-22 18:12:58+0000; Langue : fr-FR</p><p style="margin-bottom: 0px">Profil: <a href="http://hl7.org/fhir/R4/shareablecodesystem.html">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p>
+<div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version : 2; Dernière mise à jour : 2026-02-23 17:57:25+0100; Langue : fr-FR</p><p style="margin-bottom: 0px">Profil: <a href="http://hl7.org/fhir/R4/shareablecodesystem.html">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p>
 <table class="grid" data-fhir="generated"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr>
-<tr><td>niveau</td>
+<tr><td>Niveau</td>
 <td>niveau</td>
 <td>https://smt.esante.gouv.fr/fhir/concept-properties#niveau</td>
 <td>integer</td>
@@ -357,22 +357,22 @@
 <td>http://hl7.org/fhir/concept-properties#parent</td>
 <td>code</td>
 <td>An immediate parent of the concept in the hierarchy</td></tr>
-<tr><td>domaine</td>
+<tr><td>Domaine</td>
 <td>domaine</td>
 <td>https://smt.esante.gouv.fr/fhir/concept-properties#domaine</td>
 <td>Coding</td>
 <td>Domaine de la categorie d etablissement</td></tr>
-<tr><td>dateValid</td>
+<tr><td>Date de Validité</td>
 <td>dateValid</td>
 <td>https://smt.esante.gouv.fr/fhir/concept-properties#dateValid</td>
 <td>dateTime</td>
 <td>date de validité d'un code concept</td></tr>
-<tr><td>dateMaj</td>
+<tr><td>Date de mise à jour</td>
 <td>dateMaj</td>
 <td>https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj</td>
 <td>dateTime</td>
 <td>Date de mise à jour d'un code concept</td></tr>
-<tr><td>dateFin</td>
+<tr><td>Date de fin</td>
 <td>dateFin</td>
 <td>https://smt.esante.gouv.fr/fhir/concept-properties#dateFin</td>
 <td>dateTime</td>
@@ -392,27 +392,27 @@
 <td>http://hl7.org/fhir/concept-properties#retirementDate</td>
 <td>dateTime</td>
 <td>Date Concept was retired</td></tr>
-<tr><td>specialisationRor</td>
+<tr><td>Specialisation ROR</td>
 <td>specialisationRor</td>
 <td>https://smt.esante.gouv.fr/fhir/concept-properties#specialisationRor</td>
 <td>boolean</td>
 <td>Propriété permettant de spécifier les codes exclusifs appartenant au ROR</td></tr>
-<tr><td>ror</td>
+<tr><td>ROR</td>
 <td>ror</td>
 <td>https://smt.esante.gouv.fr/fhir/concept-properties#ror</td>
 <td>boolean</td>
 <td>Permet de définir les codes concepts uilisés par le ROR</td></tr>
-<tr><td>cisis</td>
+<tr><td>CISIS</td>
 <td>cisis</td>
 <td>https://smt.esante.gouv.fr/fhir/concept-properties#cisis</td>
 <td>boolean</td>
 <td>Permet de définir les codes concepts uilisés par le CISIS</td></tr>
-<tr><td>rass</td>
+<tr><td>RASS</td>
 <td>rass</td>
 <td>https://smt.esante.gouv.fr/fhir/concept-properties#rass</td>
 <td>boolean</td>
 <td>Permet de définir les codes concepts uilisés par le RASS</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice</code> defines the following codes dans une hiérarchie Is-A:</p>
-<table class="codes" data-fhir="generated"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td><td><b>Déprécié</b></td><td><b>niveau</b></td><td><b>Parent</b></td><td><b>domaine</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>dateFin</b></td><td><b>status</b></td><td><b>deprecationDate</b></td><td><b>specialisationRor</b></td><td><b>ror</b></td><td><b>cisis</b></td><td><b>rass</b></td></tr>
+<table class="codes" data-fhir="generated"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td><td><b>Déprécié</b></td><td><b>Niveau</b></td><td><b>Parent</b></td><td><b>Domaine</b></td><td><b>Date de Validité</b></td><td><b>Date de mise à jour</b></td><td><b>Date de fin</b></td><td><b>status</b></td><td><b>deprecationDate</b></td><td><b>Specialisation ROR</b></td><td><b>ROR</b></td><td><b>CISIS</b></td><td><b>RASS</b></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">0100<a name="tre-r397-categorie-entite-geographique-exercice-0100"> </a></td>
 <td>Etablissements d'administration</td>
 <td></td>
@@ -2782,14 +2782,14 @@
 <td>true</td>
 <td>true</td></tr>
 <tr><td style="white-space:nowrap">166<a name="tre-r397-categorie-entite-geographique-exercice-166"> </a></td>
-<td>Etablissement d'Accueil Mère-Enfant</td>
+<td>Centre Parents-Enfants de moins de 3 ans</td>
 <td></td>
 <td></td>
 <td>4</td>
 <td>4501</td>
 <td>SOC</td>
 <td>1979-01-01T00:00:00+01:00</td>
-<td>2005-07-06T00:00:00+01:00</td>
+<td>2026-02-23T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -3501,22 +3501,22 @@
 <td></td>
 <td>true</td>
 <td></td></tr>
-<tr style="background-color: #ffeeee"><td style="white-space:nowrap">218<a name="tre-r397-categorie-entite-geographique-exercice-218"> </a></td>
+<tr><td style="white-space:nowrap">218<a name="tre-r397-categorie-entite-geographique-exercice-218"> </a></td>
 <td>Aire Station Nomades</td>
 <td></td>
-<td>Déprécié</td>
+<td></td>
 <td>4</td>
 <td>4602</td>
 <td>SOC</td>
 <td>1979-01-01T00:00:00+01:00</td>
-<td>2025-12-22T00:00:00+01:00</td>
-<td>2025-12-22T00:00:00+01:00</td>
-<td>deprecated</td>
-<td>2025-12-22T00:00:00+01:00</td>
+<td>2005-07-06T00:00:00+01:00</td>
+<td></td>
+<td>active</td>
 <td></td>
 <td></td>
 <td>true</td>
-<td></td></tr>
+<td>true</td>
+<td>true</td></tr>
 <tr><td style="white-space:nowrap">219<a name="tre-r397-categorie-entite-geographique-exercice-219"> </a></td>
 <td>Autre Centre d'Accueil</td>
 <td></td>
@@ -3533,22 +3533,22 @@
 <td>true</td>
 <td>true</td>
 <td>true</td></tr>
-<tr style="background-color: #ffeeee"><td style="white-space:nowrap">220<a name="tre-r397-categorie-entite-geographique-exercice-220"> </a></td>
+<tr><td style="white-space:nowrap">220<a name="tre-r397-categorie-entite-geographique-exercice-220"> </a></td>
 <td>Centre Social</td>
 <td></td>
-<td>Déprécié</td>
+<td></td>
 <td>4</td>
 <td>5104</td>
 <td>SOC</td>
 <td>1979-01-01T00:00:00+01:00</td>
-<td>2025-12-22T00:00:00+01:00</td>
-<td>2025-12-22T00:00:00+01:00</td>
-<td>deprecated</td>
-<td>2025-12-22T00:00:00+01:00</td>
+<td>1990-01-05T00:00:00+01:00</td>
+<td></td>
+<td>active</td>
 <td></td>
 <td></td>
 <td>true</td>
-<td></td></tr>
+<td>true</td>
+<td>true</td></tr>
 <tr><td style="white-space:nowrap">221<a name="tre-r397-categorie-entite-geographique-exercice-221"> </a></td>
 <td>Bureau d'Aide Psychologique Universitaire (B.A.P.U.)</td>
 <td></td>
@@ -4334,14 +4334,14 @@
 <td>true</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">286<a name="tre-r397-categorie-entite-geographique-exercice-286"> </a></td>
-<td>Club Equipe de Prévention</td>
+<td>Service de prévention spécialisée</td>
 <td></td>
 <td></td>
 <td>4</td>
 <td>4504</td>
 <td>SOC</td>
 <td>1979-01-01T00:00:00+01:00</td>
-<td>2005-07-06T00:00:00+01:00</td>
+<td>2026-02-23T00:00:00+01:00</td>
 <td></td>
 <td>active</td>
 <td></td>
@@ -4749,22 +4749,22 @@
 <td></td>
 <td>true</td>
 <td></td></tr>
-<tr style="background-color: #ffeeee"><td style="white-space:nowrap">324<a name="tre-r397-categorie-entite-geographique-exercice-324"> </a></td>
+<tr><td style="white-space:nowrap">324<a name="tre-r397-categorie-entite-geographique-exercice-324"> </a></td>
 <td>Logement Foyer non Spécialisé</td>
 <td></td>
-<td>Déprécié</td>
+<td></td>
 <td>4</td>
 <td>4602</td>
 <td>SOC</td>
 <td>1979-01-01T00:00:00+01:00</td>
-<td>2025-12-22T00:00:00+01:00</td>
-<td>2025-12-22T00:00:00+01:00</td>
-<td>deprecated</td>
-<td>2025-12-22T00:00:00+01:00</td>
+<td>2005-07-06T00:00:00+01:00</td>
+<td></td>
+<td>active</td>
 <td></td>
 <td></td>
 <td>true</td>
-<td></td></tr>
+<td>true</td>
+<td>true</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">326<a name="tre-r397-categorie-entite-geographique-exercice-326"> </a></td>
 <td>Ecole de cadres</td>
 <td></td>
@@ -4925,22 +4925,22 @@
 <td>true</td>
 <td>true</td>
 <td>true</td></tr>
-<tr style="background-color: #ffeeee"><td style="white-space:nowrap">345<a name="tre-r397-categorie-entite-geographique-exercice-345"> </a></td>
+<tr><td style="white-space:nowrap">345<a name="tre-r397-categorie-entite-geographique-exercice-345"> </a></td>
 <td>Service Tutelle Prestation Sociale</td>
 <td></td>
-<td>Déprécié</td>
+<td></td>
 <td>4</td>
 <td>5104</td>
 <td>SOC</td>
 <td>1979-01-01T00:00:00+01:00</td>
-<td>2025-12-22T00:00:00+01:00</td>
-<td>2025-12-22T00:00:00+01:00</td>
-<td>deprecated</td>
-<td>2025-12-22T00:00:00+01:00</td>
+<td>1979-01-23T00:00:00+01:00</td>
+<td></td>
+<td>active</td>
 <td></td>
 <td></td>
 <td>true</td>
-<td></td></tr>
+<td>true</td>
+<td>true</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">346<a name="tre-r397-categorie-entite-geographique-exercice-346"> </a></td>
 <td>Service de Travailleuses Familiales</td>
 <td></td>
@@ -5085,22 +5085,22 @@
 <td></td>
 <td>true</td>
 <td></td></tr>
-<tr style="background-color: #ffeeee"><td style="white-space:nowrap">359<a name="tre-r397-categorie-entite-geographique-exercice-359"> </a></td>
+<tr><td style="white-space:nowrap">359<a name="tre-r397-categorie-entite-geographique-exercice-359"> </a></td>
 <td>Centre Circonscription Sanitaire et Sociale</td>
 <td></td>
-<td>Déprécié</td>
+<td></td>
 <td>4</td>
 <td>5104</td>
 <td>SOC</td>
 <td>1979-01-01T00:00:00+01:00</td>
-<td>2025-12-22T00:00:00+01:00</td>
-<td>2025-12-22T00:00:00+01:00</td>
-<td>deprecated</td>
-<td>2025-12-22T00:00:00+01:00</td>
+<td>1979-01-23T00:00:00+01:00</td>
+<td></td>
+<td>active</td>
 <td></td>
 <td></td>
 <td>true</td>
-<td></td></tr>
+<td>true</td>
+<td>true</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">361<a name="tre-r397-categorie-entite-geographique-exercice-361"> </a></td>
 <td>Centre de Cure Médicale</td>
 <td></td>
@@ -5565,22 +5565,22 @@
 <td></td>
 <td>true</td>
 <td></td></tr>
-<tr style="background-color: #ffeeee"><td style="white-space:nowrap">400<a name="tre-r397-categorie-entite-geographique-exercice-400"> </a></td>
+<tr><td style="white-space:nowrap">400<a name="tre-r397-categorie-entite-geographique-exercice-400"> </a></td>
 <td>Centre de Services pour Associations</td>
 <td></td>
-<td>Déprécié</td>
+<td></td>
 <td>4</td>
 <td>5104</td>
 <td>SOC</td>
 <td>1979-01-01T00:00:00+01:00</td>
-<td>2025-12-22T00:00:00+01:00</td>
-<td>2025-12-22T00:00:00+01:00</td>
-<td>deprecated</td>
-<td>2025-12-22T00:00:00+01:00</td>
+<td>1982-11-19T00:00:00+01:00</td>
+<td></td>
+<td>active</td>
 <td></td>
 <td></td>
 <td>true</td>
-<td></td></tr>
+<td>true</td>
+<td>true</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">401<a name="tre-r397-categorie-entite-geographique-exercice-401"> </a></td>
 <td>D.R.A.S.S.</td>
 <td></td>
@@ -5613,22 +5613,22 @@
 <td>true</td>
 <td>true</td>
 <td>true</td></tr>
-<tr style="background-color: #ffeeee"><td style="white-space:nowrap">403<a name="tre-r397-categorie-entite-geographique-exercice-403"> </a></td>
+<tr><td style="white-space:nowrap">403<a name="tre-r397-categorie-entite-geographique-exercice-403"> </a></td>
 <td>Service Social Spécialisé ou Polyvalent de Catégorie</td>
 <td></td>
-<td>Déprécié</td>
+<td></td>
 <td>4</td>
 <td>5104</td>
 <td>SOC</td>
 <td>1979-01-01T00:00:00+01:00</td>
-<td>2025-12-22T00:00:00+01:00</td>
-<td>2025-12-22T00:00:00+01:00</td>
-<td>deprecated</td>
-<td>2025-12-22T00:00:00+01:00</td>
+<td>1994-07-05T00:00:00+01:00</td>
+<td></td>
+<td>active</td>
 <td></td>
 <td></td>
 <td>true</td>
-<td></td></tr>
+<td>true</td>
+<td>true</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">404<a name="tre-r397-categorie-entite-geographique-exercice-404"> </a></td>
 <td>Etablissement Acc.Collect.Parental Régulier &amp; Occasionnel</td>
 <td></td>
@@ -5645,22 +5645,22 @@
 <td></td>
 <td>true</td>
 <td></td></tr>
-<tr style="background-color: #ffeeee"><td style="white-space:nowrap">405<a name="tre-r397-categorie-entite-geographique-exercice-405"> </a></td>
+<tr><td style="white-space:nowrap">405<a name="tre-r397-categorie-entite-geographique-exercice-405"> </a></td>
 <td>Service Social Polyvalent de Secteur</td>
 <td></td>
-<td>Déprécié</td>
+<td></td>
 <td>4</td>
 <td>5104</td>
 <td>SOC</td>
 <td>1979-01-01T00:00:00+01:00</td>
-<td>2025-12-22T00:00:00+01:00</td>
-<td>2025-12-22T00:00:00+01:00</td>
-<td>deprecated</td>
-<td>2025-12-22T00:00:00+01:00</td>
+<td>1982-12-08T00:00:00+01:00</td>
+<td></td>
+<td>active</td>
 <td></td>
 <td></td>
 <td>true</td>
-<td></td></tr>
+<td>true</td>
+<td>true</td></tr>
 <tr><td style="white-space:nowrap">411<a name="tre-r397-categorie-entite-geographique-exercice-411"> </a></td>
 <td>Intermédiaire de Placement Social</td>
 <td></td>
@@ -7069,6 +7069,22 @@
 <td>true</td>
 <td>true</td>
 <td>true</td></tr>
+<tr><td style="white-space:nowrap">650<a name="tre-r397-categorie-entite-geographique-exercice-650"> </a></td>
+<td>Dispositifs Spécifiques Régionaux en périnatalité</td>
+<td>Les DSRP ont pour mission principale l’animation régionale des professionnels de la périnatalité et l’accompagnement des évolutions de l’offre et des pratiques, dans un contexte marqué par des enjeux forts en matière de qualité des soins, de prévention, de démographie médicale et d’organisation des parcours. Ils contribuent à la lisibilité et à la cohérence de l’offre de soins périnatals sur les territoires, en favorisant la coordination entre la ville, l’hôpital et les services de protection maternelle et infantile (PMI).</td>
+<td></td>
+<td>4</td>
+<td>3408</td>
+<td>SAN</td>
+<td>2026-02-23T12:00:00+01:00</td>
+<td>2026-02-23T12:00:00+01:00</td>
+<td></td>
+<td>active</td>
+<td></td>
+<td></td>
+<td>true</td>
+<td>true</td>
+<td>true</td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">690<a name="tre-r397-categorie-entite-geographique-exercice-690"> </a></td>
 <td>Etablissement de Fabrication Annexe à une Officine</td>
 <td></td>
@@ -7293,7 +7309,7 @@
 
 <div class="inner-wrapper">
   <p>
-    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Jan 15, 2026 10:06+0000">2026-01-15</span>
+    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Mar 9, 2026 11:39+0000">2026-03-09</span>
     <br/>
     <span style="color: var(--footer-highlight-text-color)"></span>
       Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

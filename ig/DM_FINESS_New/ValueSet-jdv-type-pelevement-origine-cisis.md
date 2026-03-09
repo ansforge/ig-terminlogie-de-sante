@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-pelevement-origine-cisis | *Version*:20251216141840 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvTypePelevementOrigineCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-pelevement-origine-cisis | *Version*:20260220142105 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvTypePelevementOrigineCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.148 | | |
 
  
@@ -17,7 +17,7 @@ JDV Type Pelevement Origine CISIS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -33,7 +33,7 @@ Requête sur le SMT
 
 ### Expansion
 
-No Expansion for this valueset (not supported by Publication Tooling)
+No Expansion for this valueset (Unknown Code System)
 
 -------
 
@@ -57,69 +57,61 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "resourceType" : "ValueSet",
   "id" : "jdv-type-pelevement-origine-cisis",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-12-17T15:47:59.072+01:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-02-23T15:00:30.148+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2010-01-01T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2010-01-01T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-pelevement-origine-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.148"
-    }
-  ],
-  "version" : "20251216141840",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.148"
+  }],
+  "version" : "20260220142105",
   "name" : "JdvTypePelevementOrigineCisis",
   "title" : "JDV Type Pelevement Origine CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:40+01:00",
+  "date" : "2026-02-20T14:21:05+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Type Pelevement Origine CISIS",
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/terminologie-adicap",
+      "concept" : [{
+        "code" : "A",
+        "display" : "Aspiration"
+      },
       {
-        "system" : "https://smt.esante.gouv.fr/terminologie-adicap",
-        "concept" : [
-          {
-            "code" : "A",
-            "display" : "Aspiration"
-          },
-          {
-            "code" : "B",
-            "display" : "Biopsie chirurgicale"
-          },
-          {
-            "code" : "C",
-            "display" : "Cytoponction non guidée par imagerie"
-          },
-          {
-            "code" : "F",
-            "display" : "Frottis par raclage, brossage ou écouvillonnage"
-          },
-          {
-            "code" : "L",
-            "display" : "Liquide spontanément émis ou de ponction (épanchement, urine, LCR,  kyste, bulle)"
-          },
-          {
-            "code" : "O",
-            "display" : "Pièce opératoire avec exérèse complète de l’organe"
-          },
-          {
-            "code" : "P",
-            "display" : "Ponction, biopsie et biopsie instrumentale non guidée par imagerie"
-          }
-        ]
-      }
-    ]
+        "code" : "B",
+        "display" : "Biopsie chirurgicale"
+      },
+      {
+        "code" : "C",
+        "display" : "Cytoponction non guidée par imagerie"
+      },
+      {
+        "code" : "F",
+        "display" : "Frottis par raclage, brossage ou écouvillonnage"
+      },
+      {
+        "code" : "L",
+        "display" : "Liquide spontanément émis ou de ponction (épanchement, urine, LCR,  kyste, bulle)"
+      },
+      {
+        "code" : "O",
+        "display" : "Pièce opératoire avec exérèse complète de l’organe"
+      },
+      {
+        "code" : "P",
+        "display" : "Ponction, biopsie et biopsie instrumentale non guidée par imagerie"
+      }]
+    }]
   }
 }
 

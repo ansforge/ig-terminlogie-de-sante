@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-delimitation-activite-cisis | *Version*:20251216141839 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvDelimitationActiviteCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-delimitation-activite-cisis | *Version*:20260220142104 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvDelimitationActiviteCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.68 | | |
 
  
@@ -17,7 +17,7 @@ JDV Delimitation Activite CISIS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -55,106 +55,96 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-delimitation-activite-cisis",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-12-17T15:43:43.353+01:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-02-23T14:58:05.386+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2010-01-01T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2010-01-01T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-delimitation-activite-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.68"
-    }
-  ],
-  "version" : "20251216141839",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.68"
+  }],
+  "version" : "20260220142104",
   "name" : "JdvDelimitationActiviteCisis",
   "title" : "JDV Delimitation Activite CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:39+01:00",
+  "date" : "2026-02-20T14:21:04+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Delimitation Activite CISIS",
   "compose" : {
-    "include" : [
-      {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "GEN-144",
-            "display" : "Risque de chute"
-          },
-          {
-            "code" : "GEN-145",
-            "display" : "Incontinence"
-          },
-          {
-            "code" : "GEN-146",
-            "display" : "Gérer ses comptes et ses affaires personnelles"
-          },
-          {
-            "code" : "GEN-147",
-            "display" : "Gérer seul ses traitements"
-          },
-          {
-            "code" : "GEN-148",
-            "display" : "Marcher seul à l'exterieur (transports)"
-          },
-          {
-            "code" : "GEN-149",
-            "display" : "Communiquer : proches"
-          },
-          {
-            "code" : "GEN-150",
-            "display" : "Extérieur (appel secours, courses…)"
-          },
-          {
-            "code" : "GEN-151",
-            "display" : "Le patient bénéficie-t-il d'une aide humaine ?"
-          }
-        ]
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "concept" : [{
+        "code" : "GEN-144",
+        "display" : "Risque de chute"
       },
       {
-        "system" : "http://loinc.org",
-        "concept" : [
-          {
-            "code" : "45537-8",
-            "display" : "Se déplacer en fauteuil roulant seul"
-          },
-          {
-            "code" : "45588-1",
-            "display" : "Se lever seul"
-          },
-          {
-            "code" : "45590-7",
-            "display" : "Faire ses transferts"
-          },
-          {
-            "code" : "45592-3",
-            "display" : "Marcher seul à l'intérieur"
-          },
-          {
-            "code" : "45602-0",
-            "display" : "Manger un repas préparé seul"
-          },
-          {
-            "code" : "45604-6",
-            "display" : "Utiliser les wc seul"
-          },
-          {
-            "code" : "45606-1",
-            "display" : "Faire sa toilette seul"
-          }
-        ]
-      }
-    ]
+        "code" : "GEN-145",
+        "display" : "Incontinence"
+      },
+      {
+        "code" : "GEN-146",
+        "display" : "Gérer ses comptes et ses affaires personnelles"
+      },
+      {
+        "code" : "GEN-147",
+        "display" : "Gérer seul ses traitements"
+      },
+      {
+        "code" : "GEN-148",
+        "display" : "Marcher seul à l'exterieur (transports)"
+      },
+      {
+        "code" : "GEN-149",
+        "display" : "Communiquer : proches"
+      },
+      {
+        "code" : "GEN-150",
+        "display" : "Extérieur (appel secours, courses…)"
+      },
+      {
+        "code" : "GEN-151",
+        "display" : "Le patient bénéficie-t-il d'une aide humaine ?"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "45537-8",
+        "display" : "Se déplacer en fauteuil roulant seul"
+      },
+      {
+        "code" : "45588-1",
+        "display" : "Se lever seul"
+      },
+      {
+        "code" : "45590-7",
+        "display" : "Faire ses transferts"
+      },
+      {
+        "code" : "45592-3",
+        "display" : "Marcher seul à l'intérieur"
+      },
+      {
+        "code" : "45602-0",
+        "display" : "Manger un repas préparé seul"
+      },
+      {
+        "code" : "45604-6",
+        "display" : "Utiliser les wc seul"
+      },
+      {
+        "code" : "45606-1",
+        "display" : "Faire sa toilette seul"
+      }]
+    }]
   }
 }
 

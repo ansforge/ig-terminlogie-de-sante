@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-risque-pour-entourage-cisis | *Version*:20251216141840 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvRisquePourEntourageCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-risque-pour-entourage-cisis | *Version*:20260220142105 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvRisquePourEntourageCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.135 | | |
 
  
@@ -17,7 +17,7 @@ JDV Risque Pour Entourage CISIS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -55,57 +55,49 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-risque-pour-entourage-cisis",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-12-17T15:46:33.207+01:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-02-23T14:59:39.625+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2010-01-01T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2010-01-01T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-risque-pour-entourage-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.135"
-    }
-  ],
-  "version" : "20251216141840",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.135"
+  }],
+  "version" : "20260220142105",
   "name" : "JdvRisquePourEntourageCisis",
   "title" : "JDV Risque Pour Entourage CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:40+01:00",
+  "date" : "2026-02-20T14:21:05+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Risque Pour Entourage CISIS",
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "concept" : [{
+        "code" : "MED-284",
+        "display" : "Personne immunodéprimée"
+      },
       {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "MED-284",
-            "display" : "Personne immunodéprimée"
-          },
-          {
-            "code" : "MED-285",
-            "display" : "Personne sous traitement immunosuppresseur/corticothérapie/chimiothérapie pour cancer ou leucémie/biothérapie/Soliris"
-          },
-          {
-            "code" : "GEN-052",
-            "display" : "Enfant de moins de 6 mois à risque de grippe grave"
-          },
-          {
-            "code" : "GEN-053",
-            "display" : "Contact étroit et durable avec un enfant de moins de 6 mois (coqueluche)"
-          }
-        ]
-      }
-    ]
+        "code" : "MED-285",
+        "display" : "Personne sous traitement immunosuppresseur/corticothérapie/chimiothérapie pour cancer ou leucémie/biothérapie/Soliris"
+      },
+      {
+        "code" : "GEN-052",
+        "display" : "Enfant de moins de 6 mois à risque de grippe grave"
+      },
+      {
+        "code" : "GEN-053",
+        "display" : "Contact étroit et durable avec un enfant de moins de 6 mois (coqueluche)"
+      }]
+    }]
   }
 }
 

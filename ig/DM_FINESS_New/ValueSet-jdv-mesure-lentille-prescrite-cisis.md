@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mesure-lentille-prescrite-cisis | *Version*:20251216141838 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvMesureLentillePrescriteCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mesure-lentille-prescrite-cisis | *Version*:20260220142103 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvMesureLentillePrescriteCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.655 | | |
 
  
@@ -17,7 +17,7 @@ JDV Mesure Lentille Prescrite CISIS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -55,143 +55,131 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-mesure-lentille-prescrite-cisis",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-12-17T15:45:03.459+01:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-02-23T14:58:48.721+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2021-09-24T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2021-09-24T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mesure-lentille-prescrite-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.655"
-    }
-  ],
-  "version" : "20251216141838",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.655"
+  }],
+  "version" : "20260220142103",
   "name" : "JdvMesureLentillePrescriteCisis",
   "title" : "JDV Mesure Lentille Prescrite CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:38+01:00",
+  "date" : "2026-02-20T14:21:03+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Mesure Lentille Prescrite CISIS",
   "compose" : {
-    "include" : [
-      {
-        "system" : "http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl",
-        "concept" : [
-          {
-            "code" : "C53610",
-            "display" : "Renouvellement"
-          }
-        ]
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "concept" : [{
+        "code" : "MED-897",
+        "display" : "Prise en charge LPP"
       },
       {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "MED-897",
-            "display" : "Prise en charge LPP"
-          },
-          {
-            "code" : "MED-1083",
-            "display" : "Prescription pour primo porteur de lentille de contact"
-          },
-          {
-            "code" : "MED-1182",
-            "display" : "Date de fin d'adapation de la prescription"
-          },
-          {
-            "code" : "MED-1183",
-            "display" : "Produit d'entretien"
-          },
-          {
-            "code" : "MED-1180",
-            "display" : "Type de lentille"
-          },
-          {
-            "code" : "GEN-292",
-            "display" : "Commentaire"
-          },
-          {
-            "code" : "GEN-309",
-            "display" : "matériau"
-          },
-          {
-            "code" : "MED-1084",
-            "display" : "Diamètre lentille – lentille prescrite"
-          },
-          {
-            "code" : "MED-1085",
-            "display" : "Rayon 1 lentille – lentille prescrite"
-          },
-          {
-            "code" : "MED-1086",
-            "display" : "Rayon 2 lentille – lentille prescrite"
-          },
-          {
-            "code" : "GEN-092.08.04",
-            "display" : "Autre(s) paramètre(s)"
-          },
-          {
-            "code" : "MED-1065",
-            "display" : "Valeur de la kératométrie dans l'axe le plus plat"
-          },
-          {
-            "code" : "MED-1066",
-            "display" : "Valeur de la kératométrie dans l'axe le plus cambré"
-          },
-          {
-            "code" : "MED-1087",
-            "display" : "Puissance de la sphère – lentille prescrite"
-          },
-          {
-            "code" : "MED-1088",
-            "display" : "Puissance du cylindre – lentille prescrite"
-          }
-        ]
+        "code" : "MED-1083",
+        "display" : "Prescription pour primo porteur de lentille de contact"
       },
       {
-        "system" : "http://loinc.org",
-        "concept" : [
-          {
-            "code" : "74712-1",
-            "display" : "Date de fin de validité"
-          },
-          {
-            "code" : "69730-0",
-            "display" : "Consignes et conseils"
-          },
-          {
-            "code" : "67716-1",
-            "display" : "modèle du dispositif"
-          },
-          {
-            "code" : "95300-0",
-            "display" : "Axe du K"
-          },
-          {
-            "code" : "95325-7",
-            "display" : "Axe en degrés des lentilles"
-          },
-          {
-            "code" : "28814-2",
-            "display" : "Addition – grandeur"
-          },
-          {
-            "code" : "28815-9",
-            "display" : "Addition – valeur"
-          }
-        ]
-      }
-    ]
+        "code" : "MED-1182",
+        "display" : "Date de fin d'adapation de la prescription"
+      },
+      {
+        "code" : "MED-1183",
+        "display" : "Produit d'entretien"
+      },
+      {
+        "code" : "MED-1180",
+        "display" : "Type de lentille"
+      },
+      {
+        "code" : "GEN-292",
+        "display" : "Commentaire"
+      },
+      {
+        "code" : "GEN-309",
+        "display" : "matériau"
+      },
+      {
+        "code" : "MED-1084",
+        "display" : "Diamètre lentille – lentille prescrite"
+      },
+      {
+        "code" : "MED-1085",
+        "display" : "Rayon 1 lentille – lentille prescrite"
+      },
+      {
+        "code" : "MED-1086",
+        "display" : "Rayon 2 lentille – lentille prescrite"
+      },
+      {
+        "code" : "GEN-092.08.04",
+        "display" : "Autre(s) paramètre(s)"
+      },
+      {
+        "code" : "MED-1065",
+        "display" : "Valeur de la kératométrie dans l'axe le plus plat"
+      },
+      {
+        "code" : "MED-1066",
+        "display" : "Valeur de la kératométrie dans l'axe le plus cambré"
+      },
+      {
+        "code" : "MED-1087",
+        "display" : "Puissance de la sphère – lentille prescrite"
+      },
+      {
+        "code" : "MED-1088",
+        "display" : "Puissance du cylindre – lentille prescrite"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "74712-1",
+        "display" : "Date de fin de validité"
+      },
+      {
+        "code" : "69730-0",
+        "display" : "Consignes et conseils"
+      },
+      {
+        "code" : "67716-1",
+        "display" : "Modèle du dispositif"
+      },
+      {
+        "code" : "95300-0",
+        "display" : "Axe du K"
+      },
+      {
+        "code" : "95325-7",
+        "display" : "Axe en degrés des lentilles"
+      },
+      {
+        "code" : "28814-2",
+        "display" : "Addition – grandeur"
+      },
+      {
+        "code" : "28815-9",
+        "display" : "Addition – valeur"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "103742009",
+        "display" : "renouvellement d'ordonnance"
+      }]
+    }]
   }
 }
 

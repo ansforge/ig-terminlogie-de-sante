@@ -34,26 +34,20 @@ Type de fermeture, codes provenant du FINESS pour les EJ et EG
   "meta" : {
     "versionId" : "4",
     "lastUpdated" : "2024-08-28T05:13:08.820+00:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
-    ]
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2019-01-25T12:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2019-01-25T12:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.6.1.136"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.6.1.136"
+  }],
   "version" : "20231215120000",
   "name" : "TRE_R286_TypeFermeture",
   "status" : "active",
@@ -65,208 +59,190 @@ Type de fermeture, codes provenant du FINESS pour les EJ et EG
   "valueSet" : "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture?vs",
   "content" : "complete",
   "count" : 6,
-  "property" : [
-    {
+  "property" : [{
+    "code" : "dateValid",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "status",
+    "uri" : "http://hl7.org/fhir/concept-properties#status",
+    "description" : "Statut d'un code concept",
+    "type" : "code"
+  },
+  {
+    "code" : "deprecationDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
+    "description" : "Date de dépréciation du code",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "retirementDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
+    "description" : "Date de retrait du code",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "TypeFermeturePmFiness",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#TypeFermeturePmFiness",
+    "description" : "Permet de définir les codes à inclure dans le JdvJ364TypeFermeturePmFiness",
+    "type" : "boolean"
+  },
+  {
+    "code" : "TypeFermetureEgeFiness",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#TypeFermetureEgeFiness",
+    "description" : "Permet de définir les codes à inclure dans le JdvJ365TypeFermetureEgeFiness",
+    "type" : "boolean"
+  }],
+  "concept" : [{
+    "code" : "DEF",
+    "display" : "Définitive",
+    "property" : [{
       "code" : "dateValid",
-      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
-      "description" : "date de validité d'un code concept",
-      "type" : "dateTime"
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj",
-      "description" : "Date de mise à jour d'un code concept",
-      "type" : "dateTime"
-    },
-    {
-      "code" : "dateFin",
-      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateFin",
-      "description" : "Date de fin d'exploitation d'un code concept",
-      "type" : "dateTime"
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "uri" : "http://hl7.org/fhir/concept-properties#status",
-      "description" : "Statut d'un code concept",
-      "type" : "code"
-    },
-    {
-      "code" : "deprecationDate",
-      "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
-      "description" : "Date de dépréciation du code",
-      "type" : "dateTime"
-    },
-    {
-      "code" : "retirementDate",
-      "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
-      "description" : "Date de retrait du code",
-      "type" : "dateTime"
+      "valueCode" : "active"
     },
     {
       "code" : "TypeFermeturePmFiness",
-      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#TypeFermeturePmFiness",
-      "description" : "Permet de définir les codes à inclure dans le JdvJ364TypeFermeturePmFiness",
-      "type" : "boolean"
+      "valueBoolean" : true
     },
     {
       "code" : "TypeFermetureEgeFiness",
-      "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#TypeFermetureEgeFiness",
-      "description" : "Permet de définir les codes à inclure dans le JdvJ365TypeFermetureEgeFiness",
-      "type" : "boolean"
-    }
-  ],
-  "concept" : [
-    {
-      "code" : "DEF",
-      "display" : "Définitive",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2019-01-25T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2019-01-25T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "TypeFermeturePmFiness",
-          "valueBoolean" : true
-        },
-        {
-          "code" : "TypeFermetureEgeFiness",
-          "valueBoolean" : true
-        }
-      ]
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "ERR",
+    "display" : "Erreur",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
     },
     {
-      "code" : "ERR",
-      "display" : "Erreur",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2019-01-25T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2019-01-25T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "TypeFermeturePmFiness",
-          "valueBoolean" : true
-        },
-        {
-          "code" : "TypeFermetureEgeFiness",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
     },
     {
-      "code" : "NDI",
-      "display" : "Non défini",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2019-01-25T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2019-01-25T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "TypeFermeturePmFiness",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "status",
+      "valueCode" : "active"
     },
     {
-      "code" : "CHP",
-      "display" : "Sortie du champ FINESS",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2019-01-25T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2019-01-25T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "TypeFermetureEgeFiness",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "TypeFermeturePmFiness",
+      "valueBoolean" : true
     },
     {
-      "code" : "EML",
-      "display" : "Ancienne autorisation fonctionnement EML",
-      "designation" : [
-        {
-          "language" : "fr-FR",
-          "use" : {
-            "system" : "http://snomed.info/sct",
-            "code" : "900000000000013009"
-          },
-          "value" : "Anc autor fonct EML"
-        }
-      ],
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2019-01-25T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2019-01-25T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "TypeFermetureEgeFiness",
-          "valueBoolean" : true
-        }
-      ]
+      "code" : "TypeFermetureEgeFiness",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "NDI",
+    "display" : "Non défini",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
     },
     {
-      "code" : "PRO",
-      "display" : "Provisoire",
-      "property" : [
-        {
-          "code" : "dateValid",
-          "valueDateTime" : "2019-01-25T12:00:00+01:00"
-        },
-        {
-          "code" : "dateMaj",
-          "valueDateTime" : "2019-01-25T12:00:00+01:00"
-        },
-        {
-          "code" : "status",
-          "valueCode" : "active"
-        },
-        {
-          "code" : "TypeFermetureEgeFiness",
-          "valueBoolean" : true
-        }
-      ]
-    }
-  ]
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "TypeFermeturePmFiness",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "CHP",
+    "display" : "Sortie du champ FINESS",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "TypeFermetureEgeFiness",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "EML",
+    "display" : "Ancienne autorisation fonctionnement EML",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Anc autor fonct EML"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "TypeFermetureEgeFiness",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "PRO",
+    "display" : "Provisoire",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "TypeFermetureEgeFiness",
+      "valueBoolean" : true
+    }]
+  }]
 }
 
 ```

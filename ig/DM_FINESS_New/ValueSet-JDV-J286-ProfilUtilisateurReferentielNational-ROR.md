@@ -17,7 +17,7 @@ Profils utilisateurs du ROR National
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -60,21 +60,17 @@ Requête sur le SMT
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2024-10-25T12:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2024-10-25T12:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J286_ProfilUtilisateurReferentielNational_ROR/FHIR/JDV-J286-ProfilUtilisateurReferentielNational-ROR",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.3.3.256"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.3.3.256"
+  }],
   "version" : "20250328120000",
   "name" : "JDV_J286_ProfilUtilisateurReferentielNational_ROR",
   "status" : "active",
@@ -82,68 +78,60 @@ Requête sur le SMT
   "date" : "2025-03-28T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Profils utilisateurs du ROR National",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FR"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R369_ProfilUtilisateurReferentielNational/FHIR/TRE-R369-ProfilUtilisateurReferentielNational",
+      "concept" : [{
+        "code" : "ADMIN_NAT",
+        "display" : "Administrateur National"
+      },
       {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R369_ProfilUtilisateurReferentielNational/FHIR/TRE-R369-ProfilUtilisateurReferentielNational",
-        "concept" : [
-          {
-            "code" : "ADMIN_NAT",
-            "display" : "Administrateur National"
-          },
-          {
-            "code" : "ADMIN_REG",
-            "display" : "Administrateur Régional"
-          },
-          {
-            "code" : "RESP_QA",
-            "display" : "Responsable Qualité"
-          },
-          {
-            "code" : "RESP_OFFRE_STRUCT",
-            "display" : "Responsable Offre de structure"
-          },
-          {
-            "code" : "RESP_DISPO_PLACE",
-            "display" : "Responsable Disponibilité en lit / place"
-          },
-          {
-            "code" : "PORTEUR_OFFRE",
-            "display" : "Porteur d'offre"
-          },
-          {
-            "code" : "PSL",
-            "display" : "Professionnel de Santé Libéral (PSL)"
-          },
-          {
-            "code" : "ADMIN_METIER",
-            "display" : "Administrateur Métier"
-          },
-          {
-            "code" : "SUPPORT",
-            "display" : "Support"
-          },
-          {
-            "code" : "REF_MSP",
-            "display" : "Référent Maison de Santé Pluriprofessionnelle"
-          },
-          {
-            "code" : "REF_DISPO_PLACE",
-            "display" : "Référent saisie disponibilité en lit / place"
-          }
-        ]
-      }
-    ]
+        "code" : "ADMIN_REG",
+        "display" : "Administrateur Régional"
+      },
+      {
+        "code" : "RESP_QA",
+        "display" : "Responsable Qualité"
+      },
+      {
+        "code" : "RESP_OFFRE_STRUCT",
+        "display" : "Responsable Offre de structure"
+      },
+      {
+        "code" : "RESP_DISPO_PLACE",
+        "display" : "Responsable Disponibilité en lit / place"
+      },
+      {
+        "code" : "PORTEUR_OFFRE",
+        "display" : "Porteur d'offre"
+      },
+      {
+        "code" : "PSL",
+        "display" : "Professionnel de Santé Libéral (PSL)"
+      },
+      {
+        "code" : "ADMIN_METIER",
+        "display" : "Administrateur Métier"
+      },
+      {
+        "code" : "SUPPORT",
+        "display" : "Support"
+      },
+      {
+        "code" : "REF_MSP",
+        "display" : "Référent Maison de Santé Pluriprofessionnelle"
+      },
+      {
+        "code" : "REF_DISPO_PLACE",
+        "display" : "Référent saisie disponibilité en lit / place"
+      }]
+    }]
   }
 }
 

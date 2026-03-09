@@ -17,7 +17,7 @@ Types d’identifiants utilisés dans la métadonnée XDS referenceIdList de la 
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -60,21 +60,17 @@ Requête sur le SMT
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2022-06-24T12:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2022-06-24T12:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J197-XdsTypesIdentifiantsReferenceId-CISIS/FHIR/JDV-J197-XdsTypesIdentifiantsReferenceId-CISIS",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.692"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.692"
+  }],
   "version" : "20220624120000",
   "name" : "JDV_J197_XdsTypesIdentifiantsReferenceId_CISIS",
   "status" : "active",
@@ -82,52 +78,44 @@ Requête sur le SMT
   "date" : "2022-06-24T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Types d'identifiants utilisés dans la métadonnée XDS referenceIdList de la fiche du document dans le cadre du CISIS",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FR"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R342-XdsTypesIdentifiantsReferenceId/FHIR/TRE-R342-XdsTypesIdentifiantsReferenceId",
+      "concept" : [{
+        "code" : "urn:ihe:iti:xds:2013:uniqueId",
+        "display" : "uniqueId"
+      },
       {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R342-XdsTypesIdentifiantsReferenceId/FHIR/TRE-R342-XdsTypesIdentifiantsReferenceId",
-        "concept" : [
-          {
-            "code" : "urn:ihe:iti:xds:2013:uniqueId",
-            "display" : "uniqueId"
-          },
-          {
-            "code" : "urn:ihe:iti:xds:2013:accession",
-            "display" : "accession"
-          },
-          {
-            "code" : "urn:ihe:iti:xds:2013:referral",
-            "display" : "referral"
-          },
-          {
-            "code" : "urn:ihe:iti:xds:2013:order",
-            "display" : "order"
-          },
-          {
-            "code" : "urn:ihe:iti:xdw:2013:workflowInstanceId",
-            "display" : "workflowInstanceId"
-          },
-          {
-            "code" : "urn:ihe:iti:xds:2016:studyInstanceUID",
-            "display" : "studyInstanceUID"
-          },
-          {
-            "code" : "urn:ihe:iti:xds:2015:encounterId",
-            "display" : "encounterId"
-          }
-        ]
-      }
-    ]
+        "code" : "urn:ihe:iti:xds:2013:accession",
+        "display" : "accession"
+      },
+      {
+        "code" : "urn:ihe:iti:xds:2013:referral",
+        "display" : "referral"
+      },
+      {
+        "code" : "urn:ihe:iti:xds:2013:order",
+        "display" : "order"
+      },
+      {
+        "code" : "urn:ihe:iti:xdw:2013:workflowInstanceId",
+        "display" : "workflowInstanceId"
+      },
+      {
+        "code" : "urn:ihe:iti:xds:2016:studyInstanceUID",
+        "display" : "studyInstanceUID"
+      },
+      {
+        "code" : "urn:ihe:iti:xds:2015:encounterId",
+        "display" : "encounterId"
+      }]
+    }]
   }
 }
 

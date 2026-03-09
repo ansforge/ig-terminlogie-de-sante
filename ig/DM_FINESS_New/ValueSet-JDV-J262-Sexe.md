@@ -17,7 +17,7 @@ Tous les codes actifs de la notion sexe
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -60,21 +60,17 @@ Requête sur le SMT
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2024-03-29T12:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2024-03-29T12:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J262-Sexe/FHIR/JDV-J262-Sexe",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.766"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.766"
+  }],
   "version" : "20240329120000",
   "name" : "JDV_J262_Sexe",
   "status" : "active",
@@ -82,40 +78,32 @@ Requête sur le SMT
   "date" : "2024-03-29T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Tous les codes actifs de la notion sexe",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FR"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R249-Sexe/FHIR/TRE-R249-Sexe",
+      "concept" : [{
+        "code" : "UN",
+        "display" : "Inconnu"
+      },
       {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R249-Sexe/FHIR/TRE-R249-Sexe",
-        "concept" : [
-          {
-            "code" : "UN",
-            "display" : "Inconnu"
-          },
-          {
-            "code" : "F",
-            "display" : "Féminin"
-          },
-          {
-            "code" : "M",
-            "display" : "Masculin"
-          },
-          {
-            "code" : "O",
-            "display" : "Autre sexe (ni masculin, ni féminin)"
-          }
-        ]
-      }
-    ]
+        "code" : "F",
+        "display" : "Féminin"
+      },
+      {
+        "code" : "M",
+        "display" : "Masculin"
+      },
+      {
+        "code" : "O",
+        "display" : "Autre sexe (ni masculin, ni féminin)"
+      }]
+    }]
   }
 }
 

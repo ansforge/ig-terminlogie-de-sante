@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-de-test-realise-ccu-cisis | *Version*:20251216141839 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvTypeDetestRealiseCcuCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-de-test-realise-ccu-cisis | *Version*:20260220142104 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvTypeDetestRealiseCcuCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.728 | | |
 
  
@@ -17,7 +17,7 @@ JDV Type De Test Realise Ccu CISIS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -55,49 +55,41 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-type-de-test-realise-ccu-cisis",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-12-17T15:47:44.799+01:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-02-23T15:00:21.614+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2023-06-27T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2023-06-27T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-type-de-test-realise-ccu-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.728"
-    }
-  ],
-  "version" : "20251216141839",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.728"
+  }],
+  "version" : "20260220142104",
   "name" : "JdvTypeDetestRealiseCcuCisis",
   "title" : "JDV Type De Test Realise Ccu CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:39+01:00",
+  "date" : "2026-02-20T14:21:04+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Type De Test Realise Ccu CISIS",
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "10524-7",
+        "display" : "Observation [Identification] Col de l'utérus ; Résultat nominal ; Coloration cellulaire"
+      },
       {
-        "system" : "http://loinc.org",
-        "concept" : [
-          {
-            "code" : "10524-7",
-            "display" : "Observation [Identification] Col de l'utérus ; Résultat nominal ; Coloration cellulaire"
-          },
-          {
-            "code" : "77379-6",
-            "display" : "Papillomavirus humain 16 et 18 et 31+33+35+39+45+51+52+56+58+59+66+68 ADN [Interprétation] Col de l'utérus ; Résultat nominal"
-          }
-        ]
-      }
-    ]
+        "code" : "77379-6",
+        "display" : "Papillomavirus humain 16 et 18 et 31+33+35+39+45+51+52+56+58+59+66+68 ADN [Interprétation] Col de l'utérus ; Résultat nominal"
+      }]
+    }]
   }
 }
 

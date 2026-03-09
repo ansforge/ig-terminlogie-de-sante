@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-score-rankin-cisis | *Version*:20251216141840 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvScoreRankinCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-score-rankin-cisis | *Version*:20260220142105 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvScoreRankinCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.176 | | |
 
  
@@ -17,7 +17,7 @@ JDV Score Rankin CISIS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -55,69 +55,61 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-score-rankin-cisis",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-12-17T15:46:47.143+01:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-02-23T14:59:46.826+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2010-01-01T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2010-01-01T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-score-rankin-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.176"
-    }
-  ],
-  "version" : "20251216141840",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.176"
+  }],
+  "version" : "20260220142105",
   "name" : "JdvScoreRankinCisis",
   "title" : "JDV Score Rankin CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:40+01:00",
+  "date" : "2026-02-20T14:21:05+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Score Rankin CISIS",
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "LA6111-4",
+        "display" : "Aucun symptome"
+      },
       {
-        "system" : "http://loinc.org",
-        "concept" : [
-          {
-            "code" : "LA6111-4",
-            "display" : "Aucun symptome"
-          },
-          {
-            "code" : "LA6112-2",
-            "display" : "Pas d’incapacité en dehors des symptomes : activités et autonomie conservées"
-          },
-          {
-            "code" : "LA6113-0",
-            "display" : "Handicap faible : incapable d’assurer les activités habituelles mais autonomie"
-          },
-          {
-            "code" : "LA6114-8",
-            "display" : "Handicap modéré : besoin d’aide mais marche possible sans assistance"
-          },
-          {
-            "code" : "LA6115-5",
-            "display" : "Handicap modérément sévère : marche et gestes quotidiens impossibles sans aide"
-          },
-          {
-            "code" : "LA10137-0",
-            "display" : "Handicap majeur : alitement permanent, incontinence et soins de nursing permanent"
-          },
-          {
-            "code" : "LA10138-8",
-            "display" : "Décédé"
-          }
-        ]
-      }
-    ]
+        "code" : "LA6112-2",
+        "display" : "Pas d’incapacité en dehors des symptomes : activités et autonomie conservées"
+      },
+      {
+        "code" : "LA6113-0",
+        "display" : "Handicap faible : incapable d’assurer les activités habituelles mais autonomie"
+      },
+      {
+        "code" : "LA6114-8",
+        "display" : "Handicap modéré : besoin d’aide mais marche possible sans assistance"
+      },
+      {
+        "code" : "LA6115-5",
+        "display" : "Handicap modérément sévère : marche et gestes quotidiens impossibles sans aide"
+      },
+      {
+        "code" : "LA10137-0",
+        "display" : "Handicap majeur : alitement permanent, incontinence et soins de nursing permanent"
+      },
+      {
+        "code" : "LA10138-8",
+        "display" : "Décédé"
+      }]
+    }]
   }
 }
 

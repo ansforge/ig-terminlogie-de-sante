@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-age-de-survenue-cisis | *Version*:20251216141838 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvAgeDeSurvenueCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-age-de-survenue-cisis | *Version*:20260220142103 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvAgeDeSurvenueCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.646 | | |
 
  
@@ -17,7 +17,7 @@ JDV Age De Survenue CISIS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -55,61 +55,53 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-age-de-survenue-cisis",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-12-17T15:42:54.063+01:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-02-23T14:57:38.369+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2021-09-07T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2021-09-07T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-age-de-survenue-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.646"
-    }
-  ],
-  "version" : "20251216141838",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.646"
+  }],
+  "version" : "20260220142103",
   "name" : "JdvAgeDeSurvenueCisis",
   "title" : "JDV Age De Survenue CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:38+01:00",
+  "date" : "2026-02-20T14:21:03+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Age De Survenue CISIS",
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "concept" : [{
+        "code" : "GEN-287",
+        "display" : "avant 30 ans"
+      },
       {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "GEN-287",
-            "display" : "avant 30 ans"
-          },
-          {
-            "code" : "GEN-288",
-            "display" : "entre 30 et 39 ans"
-          },
-          {
-            "code" : "GEN-289",
-            "display" : "entre 40 et 49 ans"
-          },
-          {
-            "code" : "GEN-290",
-            "display" : "entre 50 et 59 ans"
-          },
-          {
-            "code" : "GEN-291",
-            "display" : "avant 70 ans"
-          }
-        ]
-      }
-    ]
+        "code" : "GEN-288",
+        "display" : "entre 30 et 39 ans"
+      },
+      {
+        "code" : "GEN-289",
+        "display" : "entre 40 et 49 ans"
+      },
+      {
+        "code" : "GEN-290",
+        "display" : "entre 50 et 59 ans"
+      },
+      {
+        "code" : "GEN-291",
+        "display" : "avant 70 ans"
+      }]
+    }]
   }
 }
 

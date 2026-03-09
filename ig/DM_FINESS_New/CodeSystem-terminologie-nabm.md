@@ -8,13 +8,13 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/terminologie-nabm | *Version*:V100 | |
-| Active as of 2025-12-18 | *Responsible:*Agence du numérique en santé | *Computable Name*:NABM |
+| *Official URL*:https://smt.esante.gouv.fr/terminologie-nabm | *Version*:V102 | |
+| Active as of 2026-02-23 | *Responsible:*Agence du numérique en santé | *Computable Name*:NABM |
 | *Other Identifiers:*OID:1.2.250.1.215.300.2 (use: usual, ), https://smt.esante.gouv.fr/#terminologie-nabm (use: secondary, ) | | |
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
-* Cette terminologie de référence (CodeSystem) nest pas utilisée ici; elle peut être utilisée ailleurs (par exemple spécifications et/ou implémentations qui utilisent ce contenu)
+* Cette terminologie de référence (CodeSystem) n'est pas utilisée ici; elle peut être utilisée ailleurs (par exemple spécifications et/ou implémentations qui utilisent ce contenu)
 
 
 
@@ -25,159 +25,149 @@
   "resourceType" : "CodeSystem",
   "id" : "terminologie-nabm",
   "meta" : {
-    "versionId" : "12",
-    "lastUpdated" : "2026-01-06T16:31:33.167+01:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
-    ],
-    "tag" : [
-      {
-        "system" : "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
-        "code" : "SUBSETTED",
-        "display" : "Resource encoded in summary mode"
-      }
-    ]
+    "versionId" : "14",
+    "lastUpdated" : "2026-03-02T11:17:22.852+01:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"],
+    "tag" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
+      "code" : "SUBSETTED",
+      "display" : "Resource encoded in summary mode"
+    }]
   },
   "url" : "https://smt.esante.gouv.fr/terminologie-nabm",
-  "identifier" : [
-    {
-      "use" : "usual",
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.215.300.2"
-    },
-    {
-      "use" : "secondary",
-      "system" : "https://smt.esante.gouv.fr/",
-      "value" : "terminologie-nabm"
-    }
-  ],
-  "version" : "V100",
+  "identifier" : [{
+    "use" : "usual",
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.215.300.2"
+  },
+  {
+    "use" : "secondary",
+    "system" : "https://smt.esante.gouv.fr/",
+    "value" : "terminologie-nabm"
+  }],
+  "version" : "V102",
   "name" : "NABM",
   "title" : "Nomenclature des actes de biologie médicale",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-18T00:00:00+00:00",
+  "date" : "2026-02-23T00:00:00+00:00",
   "publisher" : "Agence du numérique en santé",
   "valueSet" : "https://smt.esante.gouv.fr/terminologie-nabm?vs",
   "content" : "not-present",
   "count" : 1047,
-  "filter" : [
-    {
-      "code" : "root",
-      "operator" : ["="],
-      "value" : "True or false."
-    },
-    {
-      "code" : "deprecated",
-      "operator" : ["="],
-      "value" : "True or false."
-    },
-    {
-      "code" : "imported",
-      "operator" : ["="],
-      "value" : "True or false"
-    }
-  ],
-  "property" : [
-    {
-      "code" : "created",
-      "uri" : "http://purl.org/dc/terms/created",
-      "type" : "string"
-    },
-    {
-      "code" : "modified",
-      "uri" : "http://purl.org/dc/terms/modified",
-      "type" : "string"
-    },
-    {
-      "code" : "type",
-      "uri" : "http://purl.org/dc/elements/1.1/type",
-      "description" : "Type fonctionnel d'un concept",
-      "type" : "string"
-    },
-    {
-      "code" : "initativeBiologistePossible",
-      "uri" : "https://www.data.esante.gouv.fr/DGOS/NABM/initativeBiologistePossible",
-      "type" : "boolean"
-    },
-    {
-      "code" : "indicationMédicale",
-      "uri" : "https://www.data.esante.gouv.fr/DGOS/NABM/indicationMédicale",
-      "type" : "boolean"
-    },
-    {
-      "code" : "remboursementTotal",
-      "uri" : "https://www.data.esante.gouv.fr/DGOS/NABM/remboursementTotal",
-      "type" : "boolean"
-    },
-    {
-      "code" : "ententePréalable",
-      "uri" : "https://www.data.esante.gouv.fr/DGOS/NABM/ententePréalable",
-      "type" : "boolean"
-    },
-    {
-      "code" : "aPourContingenceTechnique",
-      "uri" : "https://www.data.esante.gouv.fr/DGOS/NABM/aPourContingenceTechnique",
-      "type" : "code"
-    },
-    {
-      "code" : "coeffB",
-      "uri" : "https://www.data.esante.gouv.fr/DGOS/NABM/coeffB",
-      "type" : "string"
-    },
-    {
-      "code" : "acteReserve",
-      "uri" : "https://www.data.esante.gouv.fr/DGOS/NABM/acteReserve",
-      "type" : "boolean"
-    },
-    {
-      "code" : "rmo",
-      "uri" : "https://www.data.esante.gouv.fr/DGOS/NABM/rmo",
-      "type" : "boolean"
-    },
-    {
-      "code" : "examenSanguin",
-      "uri" : "https://www.data.esante.gouv.fr/DGOS/NABM/examenSanguin",
-      "type" : "boolean"
-    },
-    {
-      "code" : "nombreMaximumParFacturation",
-      "uri" : "https://www.data.esante.gouv.fr/DGOS/NABM/nombreMaximumParFacturation",
-      "type" : "integer"
-    },
-    {
-      "code" : "codeIncompatible",
-      "uri" : "https://www.data.esante.gouv.fr/DGOS/NABM/codeIncompatible",
-      "type" : "code"
-    },
-    {
-      "code" : "règleApplicable",
-      "uri" : "https://www.data.esante.gouv.fr/DGOS/NABM/règleApplicable",
-      "type" : "code"
-    },
-    {
-      "code" : "parent",
-      "uri" : "http://hl7.org/fhir/concept-properties#parent",
-      "description" : "Codes des parents du concept courant",
-      "type" : "code"
-    },
-    {
-      "code" : "child",
-      "uri" : "http://hl7.org/fhir/concept-properties#child",
-      "description" : "Codes des enfants du concept courant",
-      "type" : "code"
-    },
-    {
-      "code" : "imported",
-      "description" : "Indicates if the concept is imported from another code system.",
-      "type" : "boolean"
-    },
-    {
-      "code" : "root",
-      "description" : "Indicates if this concept is a root concept (i.e. Thing is equivalent or a direct parent).",
-      "type" : "boolean"
-    }
-  ]
+  "filter" : [{
+    "code" : "root",
+    "operator" : ["="],
+    "value" : "True or false."
+  },
+  {
+    "code" : "deprecated",
+    "operator" : ["="],
+    "value" : "True or false."
+  },
+  {
+    "code" : "imported",
+    "operator" : ["="],
+    "value" : "True or false"
+  }],
+  "property" : [{
+    "code" : "created",
+    "uri" : "http://purl.org/dc/terms/created",
+    "type" : "string"
+  },
+  {
+    "code" : "modified",
+    "uri" : "http://purl.org/dc/terms/modified",
+    "type" : "string"
+  },
+  {
+    "code" : "type",
+    "uri" : "http://purl.org/dc/elements/1.1/type",
+    "description" : "Type fonctionnel d'un concept",
+    "type" : "string"
+  },
+  {
+    "code" : "initativeBiologistePossible",
+    "uri" : "https://www.data.esante.gouv.fr/DGOS/NABM/initativeBiologistePossible",
+    "type" : "boolean"
+  },
+  {
+    "code" : "indicationMédicale",
+    "uri" : "https://www.data.esante.gouv.fr/DGOS/NABM/indicationMédicale",
+    "type" : "boolean"
+  },
+  {
+    "code" : "remboursementTotal",
+    "uri" : "https://www.data.esante.gouv.fr/DGOS/NABM/remboursementTotal",
+    "type" : "boolean"
+  },
+  {
+    "code" : "ententePréalable",
+    "uri" : "https://www.data.esante.gouv.fr/DGOS/NABM/ententePréalable",
+    "type" : "boolean"
+  },
+  {
+    "code" : "aPourContingenceTechnique",
+    "uri" : "https://www.data.esante.gouv.fr/DGOS/NABM/aPourContingenceTechnique",
+    "type" : "code"
+  },
+  {
+    "code" : "coeffB",
+    "uri" : "https://www.data.esante.gouv.fr/DGOS/NABM/coeffB",
+    "type" : "string"
+  },
+  {
+    "code" : "acteReserve",
+    "uri" : "https://www.data.esante.gouv.fr/DGOS/NABM/acteReserve",
+    "type" : "boolean"
+  },
+  {
+    "code" : "rmo",
+    "uri" : "https://www.data.esante.gouv.fr/DGOS/NABM/rmo",
+    "type" : "boolean"
+  },
+  {
+    "code" : "examenSanguin",
+    "uri" : "https://www.data.esante.gouv.fr/DGOS/NABM/examenSanguin",
+    "type" : "boolean"
+  },
+  {
+    "code" : "nombreMaximumParFacturation",
+    "uri" : "https://www.data.esante.gouv.fr/DGOS/NABM/nombreMaximumParFacturation",
+    "type" : "integer"
+  },
+  {
+    "code" : "codeIncompatible",
+    "uri" : "https://www.data.esante.gouv.fr/DGOS/NABM/codeIncompatible",
+    "type" : "code"
+  },
+  {
+    "code" : "règleApplicable",
+    "uri" : "https://www.data.esante.gouv.fr/DGOS/NABM/règleApplicable",
+    "type" : "code"
+  },
+  {
+    "code" : "parent",
+    "uri" : "http://hl7.org/fhir/concept-properties#parent",
+    "description" : "Codes des parents du concept courant",
+    "type" : "code"
+  },
+  {
+    "code" : "child",
+    "uri" : "http://hl7.org/fhir/concept-properties#child",
+    "description" : "Codes des enfants du concept courant",
+    "type" : "code"
+  },
+  {
+    "code" : "imported",
+    "description" : "Indicates if the concept is imported from another code system.",
+    "type" : "boolean"
+  },
+  {
+    "code" : "root",
+    "description" : "Indicates if this concept is a root concept (i.e. Thing is equivalent or a direct parent).",
+    "type" : "boolean"
+  }]
 }
 
 ```

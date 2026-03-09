@@ -17,7 +17,7 @@ Type de division territoriale
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -60,21 +60,17 @@ Requête sur le SMT
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2022-08-26T12:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2022-08-26T12:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J223-TypeDivisionTerritoriale-ROR/FHIR/JDV-J223-TypeDivisionTerritoriale-ROR",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.3.4.55"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.3.4.55"
+  }],
   "version" : "20220826120000",
   "name" : "JDV_J223_TypeDivisionTerritoriale_ROR",
   "status" : "active",
@@ -82,48 +78,40 @@ Requête sur le SMT
   "date" : "2022-08-26T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Type de division territoriale",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FR"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R201-TypeDivisionTerritoriale/FHIR/TRE-R201-TypeDivisionTerritoriale",
+      "concept" : [{
+        "code" : "1",
+        "display" : "Région"
+      },
       {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R201-TypeDivisionTerritoriale/FHIR/TRE-R201-TypeDivisionTerritoriale",
-        "concept" : [
-          {
-            "code" : "1",
-            "display" : "Région"
-          },
-          {
-            "code" : "2",
-            "display" : "Département"
-          },
-          {
-            "code" : "3",
-            "display" : "Commune"
-          },
-          {
-            "code" : "4",
-            "display" : "Territoire de Santé"
-          },
-          {
-            "code" : "5",
-            "display" : "Pays"
-          },
-          {
-            "code" : "6",
-            "display" : "Zone de Défense"
-          }
-        ]
-      }
-    ]
+        "code" : "2",
+        "display" : "Département"
+      },
+      {
+        "code" : "3",
+        "display" : "Commune"
+      },
+      {
+        "code" : "4",
+        "display" : "Territoire de Santé"
+      },
+      {
+        "code" : "5",
+        "display" : "Pays"
+      },
+      {
+        "code" : "6",
+        "display" : "Zone de Défense"
+      }]
+    }]
   }
 }
 

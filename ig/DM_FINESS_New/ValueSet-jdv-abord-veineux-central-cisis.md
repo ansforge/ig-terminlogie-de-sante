@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-abord-veineux-central-cisis | *Version*:20251216141840 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvAbordVeineuxCentralCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-abord-veineux-central-cisis | *Version*:20260220142105 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvAbordVeineuxCentralCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.496 | | |
 
  
@@ -17,7 +17,7 @@ JDV Abord Veineux Central CISIS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -55,61 +55,53 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-abord-veineux-central-cisis",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-12-17T15:42:44.323+01:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-02-23T14:57:32.537+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2020-12-16T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2020-12-16T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-abord-veineux-central-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.496"
-    }
-  ],
-  "version" : "20251216141840",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.496"
+  }],
+  "version" : "20260220142105",
   "name" : "JdvAbordVeineuxCentralCisis",
   "title" : "JDV Abord Veineux Central CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:40+01:00",
+  "date" : "2026-02-20T14:21:05+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Abord Veineux Central CISIS",
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "181372005",
+        "display" : "veine jugulaire interne entière"
+      },
       {
-        "system" : "http://snomed.info/sct",
-        "concept" : [
-          {
-            "code" : "181372005",
-            "display" : "veine jugulaire interne entière"
-          },
-          {
-            "code" : "181371003",
-            "display" : "veine brachiocéphalique entière"
-          },
-          {
-            "code" : "181388005",
-            "display" : "veine subclavière entière"
-          },
-          {
-            "code" : "362071002",
-            "display" : "veine fémorale entière"
-          },
-          {
-            "code" : "181387000",
-            "display" : "veine entière du membre supérieur"
-          }
-        ]
-      }
-    ]
+        "code" : "181371003",
+        "display" : "veine brachiocéphalique entière"
+      },
+      {
+        "code" : "181388005",
+        "display" : "veine subclavière entière"
+      },
+      {
+        "code" : "362071002",
+        "display" : "veine fémorale entière"
+      },
+      {
+        "code" : "181387000",
+        "display" : "veine entière du membre supérieur"
+      }]
+    }]
   }
 }
 

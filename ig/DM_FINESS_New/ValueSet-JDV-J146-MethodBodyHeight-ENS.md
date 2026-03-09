@@ -17,7 +17,7 @@ JDV pour la méthode de mesure de la taille
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -33,7 +33,7 @@ Requête sur le SMT
 
 ### Expansion
 
-No Expansion for this valueset (not supported by Publication Tooling)
+No Expansion for this valueset (Unknown Code System)
 
 -------
 
@@ -62,21 +62,17 @@ No Expansion for this valueset (not supported by Publication Tooling)
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2021-04-30T12:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2021-04-30T12:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/JDV_J146-MethodBodyHeight-ENS/FHIR/JDV-J146-MethodBodyHeight-ENS",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.601"
-    }
-  ],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.601"
+  }],
   "version" : "20240927120000",
   "name" : "JDV_J146_MethodBodyHeight_ENS",
   "status" : "active",
@@ -84,41 +80,31 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "date" : "2024-09-27T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV pour la méthode de mesure de la taille",
-  "jurisdiction" : [
-    {
-      "coding" : [
-        {
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "FR"
-        }
-      ]
-    }
-  ],
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
   "compose" : {
-    "include" : [
-      {
-        "system" : "https://smt.esante.gouv.fr/terminologie-ncit",
-        "concept" : [
-          {
-            "code" : "C81261",
-            "display" : "ruban à mesurer"
-          }
-        ]
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/terminologie-ncit",
+      "concept" : [{
+        "code" : "C81261",
+        "display" : "ruban à mesurer"
+      }]
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/terminologie-emdn",
+      "concept" : [{
+        "code" : "V030201",
+        "display" : "TOISES"
       },
       {
-        "system" : "https://smt.esante.gouv.fr/terminologie-emdn",
-        "concept" : [
-          {
-            "code" : "V030201",
-            "display" : "TOISES"
-          },
-          {
-            "code" : "V030209",
-            "display" : "TOISES À USAGE CLINIQUE"
-          }
-        ]
-      }
-    ]
+        "code" : "V030209",
+        "display" : "TOISES À USAGE CLINIQUE"
+      }]
+    }]
   }
 }
 

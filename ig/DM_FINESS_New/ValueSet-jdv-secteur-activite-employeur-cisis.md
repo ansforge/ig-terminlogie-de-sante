@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-secteur-activite-employeur-cisis | *Version*:20251216141840 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvSecteurActiviteEmployeurCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-secteur-activite-employeur-cisis | *Version*:20260220142105 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvSecteurActiviteEmployeurCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.475 | | |
 
  
@@ -17,7 +17,7 @@ JDV Secteur Activite Employeur CISIS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -33,7 +33,7 @@ Requête sur le SMT
 
 ### Expansion
 
-No Expansion for this valueset (not supported by Publication Tooling)
+No Expansion for this valueset (Unknown Code System)
 
 -------
 
@@ -57,53 +57,45 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "resourceType" : "ValueSet",
   "id" : "jdv-secteur-activite-employeur-cisis",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-12-17T15:46:47.621+01:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-02-23T14:59:47.153+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2019-10-23T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2019-10-23T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-secteur-activite-employeur-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.475"
-    }
-  ],
-  "version" : "20251216141840",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.475"
+  }],
+  "version" : "20260220142105",
   "name" : "JdvSecteurActiviteEmployeurCisis",
   "title" : "JDV Secteur Activite Employeur CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:40+01:00",
+  "date" : "2026-02-20T14:21:05+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Secteur Activite Employeur CISIS",
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://wiki.ihe.net/index.php/IHERoleCode_Vocabulary",
+      "concept" : [{
+        "code" : "EMPLOYER",
+        "display" : "Employeur"
+      },
       {
-        "system" : "https://wiki.ihe.net/index.php/IHERoleCode_Vocabulary",
-        "concept" : [
-          {
-            "code" : "EMPLOYER",
-            "display" : "Employeur"
-          },
-          {
-            "code" : "SCHOOL",
-            "display" : "Ecole"
-          },
-          {
-            "code" : "AFFILIATED",
-            "display" : "Organisation (par ex. ONG)."
-          }
-        ]
-      }
-    ]
+        "code" : "SCHOOL",
+        "display" : "Ecole"
+      },
+      {
+        "code" : "AFFILIATED",
+        "display" : "Organisation (par ex. ONG)."
+      }]
+    }]
   }
 }
 

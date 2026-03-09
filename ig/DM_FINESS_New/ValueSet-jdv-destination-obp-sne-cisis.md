@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-destination-obp-sne-cisis | *Version*:20251216141839 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvDestinationObpSneCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-destination-obp-sne-cisis | *Version*:20260220142104 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvDestinationObpSneCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.702 | | |
 
  
@@ -17,7 +17,7 @@ JDV Destination Obp Sne CISIS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -55,70 +55,60 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-destination-obp-sne-cisis",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-12-17T15:43:46.366+01:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-02-23T14:58:06.968+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2010-01-01T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2010-01-01T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-destination-obp-sne-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.702"
-    }
-  ],
-  "version" : "20251216141839",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.702"
+  }],
+  "version" : "20260220142104",
   "name" : "JdvDestinationObpSneCisis",
   "title" : "JDV Destination Obp Sne CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:39+01:00",
+  "date" : "2026-02-20T14:21:04+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Destination Obp Sne CISIS",
   "compose" : {
-    "include" : [
-      {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "ORG-141",
-            "display" : "Unité Kangourou"
-          },
-          {
-            "code" : "GEN-092.06.03",
-            "display" : "Autre destination"
-          }
-        ]
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "concept" : [{
+        "code" : "ORG-141",
+        "display" : "Unité Kangourou"
       },
       {
-        "system" : "http://snomed.info/sct",
-        "concept" : [
-          {
-            "code" : "309904001",
-            "display" : "unité de soins intensifs"
-          },
-          {
-            "code" : "405269005",
-            "display" : "unité de soins intensifs néonatals"
-          },
-          {
-            "code" : "1279968000",
-            "display" : "service de néonatalogie"
-          },
-          {
-            "code" : "309967005",
-            "display" : "service de chirurgie"
-          }
-        ]
-      }
-    ]
+        "code" : "GEN-092.06.03",
+        "display" : "Autre destination"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "309904001",
+        "display" : "unité de soins intensifs"
+      },
+      {
+        "code" : "405269005",
+        "display" : "unité de soins intensifs néonatals"
+      },
+      {
+        "code" : "1279968000",
+        "display" : "service de néonatalogie"
+      },
+      {
+        "code" : "309967005",
+        "display" : "service de chirurgie"
+      }]
+    }]
   }
 }
 

@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActPriority-cisis | *Version*:20251216141839 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ActPriority |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActPriority-cisis | *Version*:20260220142104 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:ActPriority |
 | *Other Identifiers:*OID:2.16.840.1.113883.1.11.16866 | | |
 
  
@@ -17,7 +17,7 @@ ActPriority
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -55,89 +55,81 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-hl7-v3-ActPriority-cisis",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-12-17T15:42:36.624+01:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-02-23T14:57:25.297+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2010-01-01T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2010-01-01T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ActPriority-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:2.16.840.1.113883.1.11.16866"
-    }
-  ],
-  "version" : "20251216141839",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:2.16.840.1.113883.1.11.16866"
+  }],
+  "version" : "20260220142104",
   "name" : "ActPriority",
   "title" : "ActPriority",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:39+01:00",
+  "date" : "2026-02-20T14:21:04+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "ActPriority",
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-ActPriority",
+      "concept" : [{
+        "code" : "A",
+        "display" : "Aussi vite que possible"
+      },
       {
-        "system" : "http://terminology.hl7.org/CodeSystem/v3-ActPriority",
-        "concept" : [
-          {
-            "code" : "A",
-            "display" : "Aussi vite que possible"
-          },
-          {
-            "code" : "CR",
-            "display" : "A contacter dès que les résultats sont disponibles"
-          },
-          {
-            "code" : "EL",
-            "display" : "Bénéfique pour le patient mais pas essentiel pour sa survie"
-          },
-          {
-            "code" : "EM",
-            "display" : "Très urgent"
-          },
-          {
-            "code" : "P",
-            "display" : "A réaliser avant l'intervention"
-          },
-          {
-            "code" : "PRN",
-            "display" : "Si nécessaire"
-          },
-          {
-            "code" : "R",
-            "display" : "A réaliser aux heures ouvrées"
-          },
-          {
-            "code" : "RR",
-            "display" : "Compte-rendu urgent"
-          },
-          {
-            "code" : "S",
-            "display" : "Immédiatement"
-          },
-          {
-            "code" : "T",
-            "display" : "Plannification à respecter"
-          },
-          {
-            "code" : "UD",
-            "display" : "Médicament à utiliser selon les directives du prescripteur"
-          },
-          {
-            "code" : "UR",
-            "display" : "Urgent"
-          }
-        ]
-      }
-    ]
+        "code" : "CR",
+        "display" : "A contacter dès que les résultats sont disponibles"
+      },
+      {
+        "code" : "EL",
+        "display" : "Bénéfique pour le patient mais pas essentiel pour sa survie"
+      },
+      {
+        "code" : "EM",
+        "display" : "Très urgent"
+      },
+      {
+        "code" : "P",
+        "display" : "A réaliser avant l'intervention"
+      },
+      {
+        "code" : "PRN",
+        "display" : "Si nécessaire"
+      },
+      {
+        "code" : "R",
+        "display" : "A réaliser aux heures ouvrées"
+      },
+      {
+        "code" : "RR",
+        "display" : "Compte-rendu urgent"
+      },
+      {
+        "code" : "S",
+        "display" : "Immédiatement"
+      },
+      {
+        "code" : "T",
+        "display" : "Plannification à respecter"
+      },
+      {
+        "code" : "UD",
+        "display" : "Médicament à utiliser selon les directives du prescripteur"
+      },
+      {
+        "code" : "UR",
+        "display" : "Urgent"
+      }]
+    }]
   }
 }
 

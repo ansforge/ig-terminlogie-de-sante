@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/terminologie-atc | *Version*:2025-02 | |
-| Active as of 2025-03-10 | *Responsible:*Agence du numérique en santé | *Computable Name*:ATC |
+| *Official URL*:https://smt.esante.gouv.fr/terminologie-atc | *Version*:2026-02 | |
+| Active as of 2026-02-10 | *Responsible:*Agence du numérique en santé | *Computable Name*:ATC |
 | *Other Identifiers:*OID:2.16.840.1.113883.6.73 (use: usual, ), https://smt.esante.gouv.fr/#terminologie-atc (use: secondary, ) | | |
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
@@ -25,119 +25,109 @@
   "resourceType" : "CodeSystem",
   "id" : "terminologie-atc",
   "meta" : {
-    "versionId" : "4.1749216615219",
-    "lastUpdated" : "2025-06-06T13:30:15.219+00:00",
-    "profile" : [
-      "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
-    ],
-    "tag" : [
-      {
-        "system" : "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
-        "code" : "SUBSETTED",
-        "display" : "Resource encoded in summary mode"
-      }
-    ]
+    "versionId" : "5",
+    "lastUpdated" : "2026-03-05T14:21:34.853+01:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"],
+    "tag" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
+      "code" : "SUBSETTED",
+      "display" : "Resource encoded in summary mode"
+    }]
   },
   "url" : "https://smt.esante.gouv.fr/terminologie-atc",
-  "identifier" : [
-    {
-      "use" : "usual",
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:2.16.840.1.113883.6.73"
-    },
-    {
-      "use" : "secondary",
-      "system" : "https://smt.esante.gouv.fr/",
-      "value" : "terminologie-atc"
-    }
-  ],
-  "version" : "2025-02",
+  "identifier" : [{
+    "use" : "usual",
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:2.16.840.1.113883.6.73"
+  },
+  {
+    "use" : "secondary",
+    "system" : "https://smt.esante.gouv.fr/",
+    "value" : "terminologie-atc"
+  }],
+  "version" : "2026-02",
   "name" : "ATC",
   "title" : "Classification anatomique, thérapeutique et chimique",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-03-10T00:00:00+00:00",
+  "date" : "2026-02-10T00:00:00+00:00",
   "publisher" : "Agence du numérique en santé",
   "valueSet" : "https://smt.esante.gouv.fr/terminologie-atc?vs",
   "content" : "not-present",
-  "count" : 6950,
-  "filter" : [
-    {
-      "code" : "root",
-      "operator" : ["="],
-      "value" : "True or false."
-    },
-    {
-      "code" : "deprecated",
-      "operator" : ["="],
-      "value" : "True or false."
-    },
-    {
-      "code" : "imported",
-      "operator" : ["="],
-      "value" : "True or false"
-    }
-  ],
-  "property" : [
-    {
-      "code" : "created",
-      "uri" : "http://purl.org/dc/terms/created",
-      "type" : "dateTime"
-    },
-    {
-      "code" : "status",
-      "uri" : "http://www.w3.org/ns/adms#status",
-      "type" : "string"
-    },
-    {
-      "code" : "type",
-      "uri" : "http://purl.org/dc/elements/1.1/type",
-      "description" : "Type fonctionnel d'un concept",
-      "type" : "string"
-    },
-    {
-      "code" : "comment",
-      "uri" : "http://www.w3.org/2000/01/rdf-schema#comment",
-      "type" : "string"
-    },
-    {
-      "code" : "modified",
-      "uri" : "http://purl.org/dc/terms/modified",
-      "type" : "dateTime"
-    },
-    {
-      "code" : "deprecated",
-      "uri" : "http://www.w3.org/2002/07/owl#deprecated",
-      "type" : "boolean"
-    },
-    {
-      "code" : "isReplacedBy",
-      "uri" : "http://purl.org/dc/terms/isReplacedBy",
-      "type" : "code"
-    },
-    {
-      "code" : "parent",
-      "uri" : "http://hl7.org/fhir/concept-properties#parent",
-      "description" : "Codes des parents du concept courant",
-      "type" : "code"
-    },
-    {
-      "code" : "child",
-      "uri" : "http://hl7.org/fhir/concept-properties#child",
-      "description" : "Codes des enfants du concept courant",
-      "type" : "code"
-    },
-    {
-      "code" : "imported",
-      "description" : "Indicates if the concept is imported from another code system.",
-      "type" : "boolean"
-    },
-    {
-      "code" : "root",
-      "description" : "Indicates if this concept is a root concept (i.e. Thing is equivalent or a direct parent).",
-      "type" : "boolean"
-    }
-  ]
+  "count" : 7055,
+  "filter" : [{
+    "code" : "root",
+    "operator" : ["="],
+    "value" : "True or false."
+  },
+  {
+    "code" : "deprecated",
+    "operator" : ["="],
+    "value" : "True or false."
+  },
+  {
+    "code" : "imported",
+    "operator" : ["="],
+    "value" : "True or false"
+  }],
+  "property" : [{
+    "code" : "created",
+    "uri" : "http://purl.org/dc/terms/created",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "status",
+    "uri" : "http://www.w3.org/ns/adms#status",
+    "type" : "string"
+  },
+  {
+    "code" : "type",
+    "uri" : "http://purl.org/dc/elements/1.1/type",
+    "description" : "Type fonctionnel d'un concept",
+    "type" : "string"
+  },
+  {
+    "code" : "comment",
+    "uri" : "http://www.w3.org/2000/01/rdf-schema#comment",
+    "type" : "string"
+  },
+  {
+    "code" : "modified",
+    "uri" : "http://purl.org/dc/terms/modified",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "deprecated",
+    "uri" : "http://www.w3.org/2002/07/owl#deprecated",
+    "type" : "boolean"
+  },
+  {
+    "code" : "isReplacedBy",
+    "uri" : "http://purl.org/dc/terms/isReplacedBy",
+    "type" : "code"
+  },
+  {
+    "code" : "parent",
+    "uri" : "http://hl7.org/fhir/concept-properties#parent",
+    "description" : "Codes des parents du concept courant",
+    "type" : "code"
+  },
+  {
+    "code" : "child",
+    "uri" : "http://hl7.org/fhir/concept-properties#child",
+    "description" : "Codes des enfants du concept courant",
+    "type" : "code"
+  },
+  {
+    "code" : "imported",
+    "description" : "Indicates if the concept is imported from another code system.",
+    "type" : "boolean"
+  },
+  {
+    "code" : "root",
+    "description" : "Indicates if this concept is a root concept (i.e. Thing is equivalent or a direct parent).",
+    "type" : "boolean"
+  }]
 }
 
 ```

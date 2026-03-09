@@ -1,23 +1,23 @@
-# Jdv J323 Activite Sociale Regulee - Terminologies de Santé (Publiées par l'ANS) v0.1.0
+# Jdv J323 Activite Sociale Regulee Finess - Terminologies de Santé (Publiées par l'ANS) v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
-* **Jdv J323 Activite Sociale Regulee**
+* **Jdv J323 Activite Sociale Regulee Finess**
 
-## ValueSet: Jdv J323 Activite Sociale Regulee 
+## ValueSet: Jdv J323 Activite Sociale Regulee Finess 
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j323-activite-sociale-regulee-finess | *Version*:20251104120000 | |
-| Active as of 2025-11-04 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ323ActiviteSocialeRegulee |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j323-activite-sociale-regulee-finess | *Version*:20260223120000 | |
+| Active as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ323ActiviteSocialeReguleeFiness |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.331 | | |
 
  
-Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 4 
+Ce JDV contient toute les ASOCR hors agrégat (JDV créé à l’image de l’ancienne TRE_R280-DisciplineEquipementSocial) 
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -56,51 +56,43 @@ Requête sur le SMT
   "id" : "jdv-j323-activite-sociale-regulee-finess",
   "meta" : {
     "versionId" : "1",
-    "lastUpdated" : "2025-11-04T18:02:28.249+00:00",
+    "lastUpdated" : "2026-02-24T10:32:20.185+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2025-11-04T18:02:28.249+00:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2026-02-23T12:00:00.000+00:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j323-activite-sociale-regulee-finess",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.6.1.331"
-    }
-  ],
-  "version" : "20251104120000",
-  "name" : "JdvJ323ActiviteSocialeRegulee",
-  "title" : "Jdv J323 Activite Sociale Regulee",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.6.1.331"
+  }],
+  "version" : "20260223120000",
+  "name" : "JdvJ323ActiviteSocialeReguleeFiness",
+  "title" : "Jdv J323 Activite Sociale Regulee Finess",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-11-04T18:02:28.249+00:00",
+  "date" : "2026-02-23T12:00:00.000+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description" : "Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 4",
+  "description" : "Ce JDV  contient toute les ASOCR  hors agrégat (JDV créé à l'image de l'ancienne  TRE_R280-DisciplineEquipementSocial)",
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
+      "filter" : [{
+        "property" : "niveau",
+        "op" : "=",
+        "value" : "4"
+      },
       {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
-        "filter" : [
-          {
-            "property" : "niveau",
-            "op" : "=",
-            "value" : "4"
-          },
-          {
-            "property" : "finess",
-            "op" : "=",
-            "value" : "true"
-          }
-        ]
-      }
-    ]
+        "property" : "finess",
+        "op" : "=",
+        "value" : "true"
+      }]
+    }]
   }
 }
 

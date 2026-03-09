@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20251216141840"
+             dateMaj="20260220142105"
              dateValid="20210419000000"
              description="JDV RCP Organe CISIS"
              displayName="JdvRcpOrganeCisis"
@@ -10,31 +10,39 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
+         <concept code="C85"
+                  codeSystem=""
+                  displayName="Lymphome non hodgkinien, de types autres et non précisés"/>
          <concept code="C88"
                   codeSystem=""
                   displayName="Maladies immunoprolifératives malignes"/>
-         <concept code="C3211" codeSystem="" displayName="lymphome non hodgkinien"/>
-         <concept code="C9357" codeSystem="" displayName="Lymphome de Hodgkin"/>
-         <concept code="C3483" codeSystem="" displayName="leucémie chronique"/>
-         <concept code="C3163"
+         <concept code="C81" codeSystem="" displayName="Lymphome de Hodgkin"/>
+         <concept code="C95.1"
                   codeSystem=""
-                  displayName="Leucémie lymphocytique chronique"/>
-         <concept code="C3167"
+                  displayName="Leucémie chronique à cellules non précisées"/>
+         <concept code="C91.1"
                   codeSystem=""
-                  displayName="Leucémie lymphoblastique aiguë"/>
-         <concept code="C3172" codeSystem="" displayName="Leucémie myéloïde"/>
-         <concept code="C3171" codeSystem="" displayName="leucémie myéloïde aiguë"/>
-         <concept code="C3174"
+                  displayName="Leucémie lymphoïde chronique à cellules B"/>
+         <concept code="C91.0"
                   codeSystem=""
-                  displayName="leucémie myéloïde chronique BCR-ABL positive"/>
-         <concept code="C4861" codeSystem="" displayName="leucémie monocytaire aiguë"/>
-         <concept code="C9300" codeSystem="" displayName="leucémie aiguë"/>
-         <concept code="C27262"
+                  displayName="Leucémie lymphoblastique aigüe [LLA]"/>
+         <concept code="C92" codeSystem="" displayName="Leucémie myéloïde"/>
+         <concept code="C92.0"
                   codeSystem=""
-                  displayName="maladies myélodysplasiques-myéloprolifératives"/>
-         <concept code="C3242"
+                  displayName="Leucémie myéloblastique aigüe [LAM]"/>
+         <concept code="C92.1"
                   codeSystem=""
-                  displayName="myélome à cellules plasmatiques"/>
+                  displayName="Leucémie myéloïde chronique [LMC] ABL-BCR positif"/>
+         <concept code="C93.0"
+                  codeSystem=""
+                  displayName="Leucémie monoblastique/monocytaire aigüe"/>
+         <concept code="C95.0"
+                  codeSystem=""
+                  displayName="Leucémie aiguë à cellules non précisées"/>
+         <concept code="C94.6"
+                  codeSystem=""
+                  displayName="Maladie myélodysplasique et myéloproliférative, non classée ailleurs"/>
+         <concept code="C90.0" codeSystem="" displayName="Myélome multiple"/>
          <concept code="C94529" codeSystem="" displayName="région vulvo-vaginale"/>
          <concept code="C12664" codeSystem="" displayName="Péritoine-rétropéritoine"/>
          <concept code="MED-237"

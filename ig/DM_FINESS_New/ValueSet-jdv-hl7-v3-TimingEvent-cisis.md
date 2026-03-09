@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-TimingEvent-cisis | *Version*:20251216141840 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TimingEvent |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-TimingEvent-cisis | *Version*:20260220142105 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TimingEvent |
 | *Other Identifiers:*OID:2.16.840.1.113883.1.11.10706 | | |
 
  
@@ -17,7 +17,7 @@ TimingEvent
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -55,113 +55,105 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-hl7-v3-TimingEvent-cisis",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-12-17T15:48:40.863+01:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-02-23T15:00:54.748+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2010-01-01T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2010-01-01T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-TimingEvent-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:2.16.840.1.113883.1.11.10706"
-    }
-  ],
-  "version" : "20251216141840",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:2.16.840.1.113883.1.11.10706"
+  }],
+  "version" : "20260220142105",
   "name" : "TimingEvent",
   "title" : "TimingEvent",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:40+01:00",
+  "date" : "2026-02-20T14:21:05+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "TimingEvent",
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/v3-TimingEvent",
+      "concept" : [{
+        "code" : "AC",
+        "display" : "Avant le repas"
+      },
       {
-        "system" : "http://terminology.hl7.org/CodeSystem/v3-TimingEvent",
-        "concept" : [
-          {
-            "code" : "AC",
-            "display" : "Avant le repas"
-          },
-          {
-            "code" : "ACD",
-            "display" : "Avant le déjeuner"
-          },
-          {
-            "code" : "ACM",
-            "display" : "Avant le petit-déjeuner"
-          },
-          {
-            "code" : "ACV",
-            "display" : "Avant le dîner"
-          },
-          {
-            "code" : "C",
-            "display" : "Pendant les repas"
-          },
-          {
-            "code" : "CD",
-            "display" : "Pendant le déjeuner"
-          },
-          {
-            "code" : "CM",
-            "display" : "Pendant le petit-déjeuner"
-          },
-          {
-            "code" : "CV",
-            "display" : "Pendant le dîner"
-          },
-          {
-            "code" : "HS",
-            "display" : "Au coucher"
-          },
-          {
-            "code" : "IC",
-            "display" : "Entre les repas"
-          },
-          {
-            "code" : "ICD",
-            "display" : "Entre le déjeuner et le dîner"
-          },
-          {
-            "code" : "ICM",
-            "display" : "Entre le petit-déjeûner et le déjeûner"
-          },
-          {
-            "code" : "ICV",
-            "display" : "Entre le diner et le coucher"
-          },
-          {
-            "code" : "PC",
-            "display" : "Après le repas"
-          },
-          {
-            "code" : "PCD",
-            "display" : "Après le déjeuner"
-          },
-          {
-            "code" : "PCM",
-            "display" : "Après le petit-déjeuner"
-          },
-          {
-            "code" : "PCV",
-            "display" : "Après le dîner"
-          },
-          {
-            "code" : "WAKE",
-            "display" : "Au réveil"
-          }
-        ]
-      }
-    ]
+        "code" : "ACD",
+        "display" : "Avant le déjeuner"
+      },
+      {
+        "code" : "ACM",
+        "display" : "Avant le petit-déjeuner"
+      },
+      {
+        "code" : "ACV",
+        "display" : "Avant le dîner"
+      },
+      {
+        "code" : "C",
+        "display" : "Pendant les repas"
+      },
+      {
+        "code" : "CD",
+        "display" : "Pendant le déjeuner"
+      },
+      {
+        "code" : "CM",
+        "display" : "Pendant le petit-déjeuner"
+      },
+      {
+        "code" : "CV",
+        "display" : "Pendant le dîner"
+      },
+      {
+        "code" : "HS",
+        "display" : "Au coucher"
+      },
+      {
+        "code" : "IC",
+        "display" : "Entre les repas"
+      },
+      {
+        "code" : "ICD",
+        "display" : "Entre le déjeuner et le dîner"
+      },
+      {
+        "code" : "ICM",
+        "display" : "Entre le petit-déjeûner et le déjeûner"
+      },
+      {
+        "code" : "ICV",
+        "display" : "Entre le diner et le coucher"
+      },
+      {
+        "code" : "PC",
+        "display" : "Après le repas"
+      },
+      {
+        "code" : "PCD",
+        "display" : "Après le déjeuner"
+      },
+      {
+        "code" : "PCM",
+        "display" : "Après le petit-déjeuner"
+      },
+      {
+        "code" : "PCV",
+        "display" : "Après le dîner"
+      },
+      {
+        "code" : "WAKE",
+        "display" : "Au réveil"
+      }]
+    }]
   }
 }
 

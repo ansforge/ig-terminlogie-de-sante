@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-antecedent-obstetrical-cisis | *Version*:20251216141839 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvAntecedentObstetricalCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-antecedent-obstetrical-cisis | *Version*:20260220142105 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvAntecedentObstetricalCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.122 | | |
 
  
@@ -17,7 +17,7 @@ JDV Antecedent Obstetrical CISIS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -55,115 +55,103 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-antecedent-obstetrical-cisis",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-12-17T15:42:59.025+01:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-02-23T14:57:41.269+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2010-01-01T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2010-01-01T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-antecedent-obstetrical-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.122"
-    }
-  ],
-  "version" : "20251216141839",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.122"
+  }],
+  "version" : "20260220142105",
   "name" : "JdvAntecedentObstetricalCisis",
   "title" : "JDV Antecedent Obstetrical CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:39+01:00",
+  "date" : "2026-02-20T14:21:05+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Antecedent Obstetrical CISIS",
   "compose" : {
-    "include" : [
-      {
-        "system" : "http://hl7.org/fhir/sid/icd-10",
-        "concept" : [
-          {
-            "code" : "O13",
-            "display" : "Hypertension gestationnelle [liée à la grossesse]"
-          },
-          {
-            "code" : "O14.9",
-            "display" : "Prééclampsie, sans précision"
-          },
-          {
-            "code" : "O82.9",
-            "display" : "Accouchement par césarienne, sans précision"
-          },
-          {
-            "code" : "O24.4",
-            "display" : "Diabète sucré survenant au cours de la grossesse"
-          },
-          {
-            "code" : "O99",
-            "display" : "Autres maladies de la mère classées ailleurs, mais compliquant la grossesse, l'accouchement et la puerpéralité"
-          }
-        ]
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "concept" : [{
+        "code" : "O13",
+        "display" : "Hypertension gestationnelle [liée à la grossesse]"
       },
       {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "MED-1184",
-            "display" : "Nombre d'enfants nés vivants et décédés avant 28 jours"
-          },
-          {
-            "code" : "MED-159",
-            "display" : "Nombre d'enfants pesant moins de 2500 g"
-          },
-          {
-            "code" : "ORG-077",
-            "display" : "Hospitalisation (y compris à domicile)"
-          },
-          {
-            "code" : "ORG-086",
-            "display" : "Motif d'hospitalisation"
-          }
-        ]
+        "code" : "O14.9",
+        "display" : "Prééclampsie, sans précision"
       },
       {
-        "system" : "http://loinc.org",
-        "concept" : [
-          {
-            "code" : "8348-5",
-            "display" : "Poids corporel avant grossesse"
-          },
-          {
-            "code" : "8302-2",
-            "display" : "Taille"
-          },
-          {
-            "code" : "11637-6",
-            "display" : "Nombre d'enfants prématurés (nés avant 37 semaines)"
-          },
-          {
-            "code" : "11977-6",
-            "display" : "Parité (nombre total d'accouchements y compris actuel)"
-          },
-          {
-            "code" : "11996-6",
-            "display" : "Gestité (nombre total de grossesses y compris actuelle)"
-          },
-          {
-            "code" : "57062-2",
-            "display" : "Nombre d'enfants mort-nés"
-          },
-          {
-            "code" : "75200-6",
-            "display" : "Date de la première consultation (déclaration de grossesse)"
-          }
-        ]
-      }
-    ]
+        "code" : "O82.9",
+        "display" : "Accouchement par césarienne, sans précision"
+      },
+      {
+        "code" : "O24.4",
+        "display" : "Diabète sucré survenant au cours de la grossesse"
+      },
+      {
+        "code" : "O99",
+        "display" : "Autres maladies de la mère classées ailleurs, mais compliquant la grossesse, l'accouchement et la puerpéralité"
+      }]
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "concept" : [{
+        "code" : "MED-1184",
+        "display" : "Nombre d'enfants nés vivants et décédés avant 28 jours"
+      },
+      {
+        "code" : "MED-159",
+        "display" : "Nombre d'enfants pesant moins de 2500 g"
+      },
+      {
+        "code" : "ORG-077",
+        "display" : "Hospitalisation (y compris à domicile)"
+      },
+      {
+        "code" : "ORG-086",
+        "display" : "Motif d'hospitalisation"
+      }]
+    },
+    {
+      "system" : "http://loinc.org",
+      "concept" : [{
+        "code" : "8348-5",
+        "display" : "Poids corporel avant grossesse"
+      },
+      {
+        "code" : "8302-2",
+        "display" : "Taille"
+      },
+      {
+        "code" : "11637-6",
+        "display" : "Nombre d'enfants prématurés (nés avant 37 semaines)"
+      },
+      {
+        "code" : "11977-6",
+        "display" : "Parité (nombre total d'accouchements y compris actuel)"
+      },
+      {
+        "code" : "11996-6",
+        "display" : "Gestité (nombre total de grossesses y compris actuelle)"
+      },
+      {
+        "code" : "57062-2",
+        "display" : "Nombre d'enfants mort-nés"
+      },
+      {
+        "code" : "75200-6",
+        "display" : "Date de la première consultation (déclaration de grossesse)"
+      }]
+    }]
   }
 }
 

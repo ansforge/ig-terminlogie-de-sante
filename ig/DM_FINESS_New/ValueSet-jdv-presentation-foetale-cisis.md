@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-presentation-foetale-cisis | *Version*:20251216141838 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvPresentationFoetaleCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-presentation-foetale-cisis | *Version*:20260220142103 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvPresentationFoetaleCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.746 | | |
 
  
@@ -17,7 +17,7 @@ JDV Presentation Foetale CISIS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -55,82 +55,72 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-presentation-foetale-cisis",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-12-17T15:45:59.084+01:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-02-23T14:59:20.453+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2023-08-03T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2023-08-03T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-presentation-foetale-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.746"
-    }
-  ],
-  "version" : "20251216141838",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.746"
+  }],
+  "version" : "20260220142103",
   "name" : "JdvPresentationFoetaleCisis",
   "title" : "JDV Presentation Foetale CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:38+01:00",
+  "date" : "2026-02-20T14:21:03+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Presentation Foetale CISIS",
   "compose" : {
-    "include" : [
-      {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "MED-1245",
-            "display" : "Occipito-pubien"
-          },
-          {
-            "code" : "MED-1246",
-            "display" : "Occipito-sacré"
-          }
-        ]
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "concept" : [{
+        "code" : "MED-1245",
+        "display" : "Occipito-pubien"
       },
       {
-        "system" : "http://snomed.info/sct",
-        "concept" : [
-          {
-            "code" : "70028003",
-            "display" : "présentation du sommet"
-          },
-          {
-            "code" : "289366006",
-            "display" : "malposition du fœtus par présentation de la face"
-          },
-          {
-            "code" : "289367002",
-            "display" : "malposition du fœtus par présentation du front"
-          },
-          {
-            "code" : "49168004",
-            "display" : "présentation en siège complet"
-          },
-          {
-            "code" : "38049006",
-            "display" : "présentation de siège décomplété"
-          },
-          {
-            "code" : "289368007",
-            "display" : "malposition du foetus par présentation de l'épaule"
-          },
-          {
-            "code" : "249082000",
-            "display" : "présentation par la grande fontanelle"
-          }
-        ]
-      }
-    ]
+        "code" : "MED-1246",
+        "display" : "Occipito-sacré"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "70028003",
+        "display" : "présentation du sommet"
+      },
+      {
+        "code" : "289366006",
+        "display" : "malposition du fœtus par présentation de la face"
+      },
+      {
+        "code" : "289367002",
+        "display" : "malposition du fœtus par présentation du front"
+      },
+      {
+        "code" : "49168004",
+        "display" : "présentation en siège complet"
+      },
+      {
+        "code" : "38049006",
+        "display" : "présentation de siège décomplété"
+      },
+      {
+        "code" : "289368007",
+        "display" : "malposition du foetus par présentation de l'épaule"
+      },
+      {
+        "code" : "249082000",
+        "display" : "présentation par la grande fontanelle"
+      }]
+    }]
   }
 }
 

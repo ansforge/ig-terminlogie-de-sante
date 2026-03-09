@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-localisation-infarctus-cerebral-cisis | *Version*:20251216141838 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvLocalisationInfarctusCerebralCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-localisation-infarctus-cerebral-cisis | *Version*:20260220142103 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvLocalisationInfarctusCerebralCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.205 | | |
 
  
@@ -17,7 +17,7 @@ JDV Localisation Infarctus Cerebral CISIS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -55,65 +55,57 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-localisation-infarctus-cerebral-cisis",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-12-17T15:44:57.480+01:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-02-23T14:58:46.235+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2010-01-01T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2010-01-01T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-localisation-infarctus-cerebral-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.205"
-    }
-  ],
-  "version" : "20251216141838",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.205"
+  }],
+  "version" : "20260220142103",
   "name" : "JdvLocalisationInfarctusCerebralCisis",
   "title" : "JDV Localisation Infarctus Cerebral CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:38+01:00",
+  "date" : "2026-02-20T14:21:03+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Localisation Infarctus Cerebral CISIS",
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "60176003",
+        "display" : "ACA - artère cérébrale antérieure"
+      },
       {
-        "system" : "http://snomed.info/sct",
-        "concept" : [
-          {
-            "code" : "60176003",
-            "display" : "ACA - artère cérébrale antérieure"
-          },
-          {
-            "code" : "55438003",
-            "display" : "centre semi-ovale"
-          },
-          {
-            "code" : "70382005",
-            "display" : "artère cérébrale postérieure"
-          },
-          {
-            "code" : "50974003",
-            "display" : "jonctionnel(le)"
-          },
-          {
-            "code" : "15926001",
-            "display" : "tronc de l'encéphale"
-          },
-          {
-            "code" : "113305005",
-            "display" : "cervelet"
-          }
-        ]
-      }
-    ]
+        "code" : "55438003",
+        "display" : "centre semi-ovale"
+      },
+      {
+        "code" : "70382005",
+        "display" : "artère cérébrale postérieure"
+      },
+      {
+        "code" : "50974003",
+        "display" : "jonctionnel(le)"
+      },
+      {
+        "code" : "15926001",
+        "display" : "tronc de l'encéphale"
+      },
+      {
+        "code" : "113305005",
+        "display" : "cervelet"
+      }]
+    }]
   }
 }
 

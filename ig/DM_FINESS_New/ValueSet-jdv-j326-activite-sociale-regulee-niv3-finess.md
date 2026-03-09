@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j326-activite-sociale-regulee-niv3-finess | *Version*:20251104120000 | |
-| Active as of 2025-11-04 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ326ActiviteSocialeReguleeNiv3Finess |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j326-activite-sociale-regulee-niv3-finess | *Version*:20260223120000 | |
+| Active as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ326ActiviteSocialeReguleeNiv3Finess |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.334 | | |
 
  
@@ -17,7 +17,7 @@ Jeu de valeurs FINESS contenant les activités régulées pour le social de nive
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -55,52 +55,44 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-j326-activite-sociale-regulee-niv3-finess",
   "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2025-11-04T18:02:28.249+00:00",
+    "versionId" : "2",
+    "lastUpdated" : "2026-02-23T18:17:31.863+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2025-11-04T18:02:28.249+00:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2026-02-23T12:00:00.000+00:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j326-activite-sociale-regulee-niv3-finess",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.6.1.334"
-    }
-  ],
-  "version" : "20251104120000",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.6.1.334"
+  }],
+  "version" : "20260223120000",
   "name" : "JdvJ326ActiviteSocialeReguleeNiv3Finess",
   "title" : "Jdv J326 Activite Sociale Regulee Niv3 Finess",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-11-04T18:02:28.249+00:00",
+  "date" : "2026-02-23T12:00:00.000+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 3",
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
+      "filter" : [{
+        "property" : "niveau",
+        "op" : "=",
+        "value" : "3"
+      },
       {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
-        "filter" : [
-          {
-            "property" : "niveau",
-            "op" : "=",
-            "value" : "3"
-          },
-          {
-            "property" : "finess",
-            "op" : "=",
-            "value" : "true"
-          }
-        ]
-      }
-    ]
+        "property" : "finess",
+        "op" : "=",
+        "value" : "true"
+      }]
+    }]
   }
 }
 

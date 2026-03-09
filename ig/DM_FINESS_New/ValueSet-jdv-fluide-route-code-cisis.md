@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-fluide-route-code-cisis | *Version*:20251216141838 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvFluideRouteCodeCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-fluide-route-code-cisis | *Version*:20260220142103 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvFluideRouteCodeCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.684 | | |
 
  
@@ -17,7 +17,7 @@ JDV Fluide Route Code CISIS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -55,65 +55,57 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-fluide-route-code-cisis",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-12-17T15:44:16.222+01:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-02-23T14:58:23.627+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2022-04-12T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2022-04-12T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-fluide-route-code-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.684"
-    }
-  ],
-  "version" : "20251216141838",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.684"
+  }],
+  "version" : "20260220142103",
   "name" : "JdvFluideRouteCodeCisis",
   "title" : "JDV Fluide Route Code CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:38+01:00",
+  "date" : "2026-02-20T14:21:03+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Fluide Route Code CISIS",
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/terminologie-standardterms",
+      "concept" : [{
+        "code" : "20045000",
+        "display" : "Voie intraveineuse"
+      },
       {
-        "system" : "https://smt.esante.gouv.fr/terminologie-standardterms",
-        "concept" : [
-          {
-            "code" : "20045000",
-            "display" : "Voie intraveineuse"
-          },
-          {
-            "code" : "20035000",
-            "display" : "Voie intramusculaire"
-          },
-          {
-            "code" : "20030000",
-            "display" : "Voie intradermique"
-          },
-          {
-            "code" : "20020000",
-            "display" : "Voie inhalée"
-          },
-          {
-            "code" : "20053000",
-            "display" : "Voie orale"
-          },
-          {
-            "code" : "20066000",
-            "display" : "Voie sous-cutanée"
-          }
-        ]
-      }
-    ]
+        "code" : "20035000",
+        "display" : "Voie intramusculaire"
+      },
+      {
+        "code" : "20030000",
+        "display" : "Voie intradermique"
+      },
+      {
+        "code" : "20020000",
+        "display" : "Voie inhalée"
+      },
+      {
+        "code" : "20053000",
+        "display" : "Voie orale"
+      },
+      {
+        "code" : "20066000",
+        "display" : "Voie sous-cutanée"
+      }]
+    }]
   }
 }
 

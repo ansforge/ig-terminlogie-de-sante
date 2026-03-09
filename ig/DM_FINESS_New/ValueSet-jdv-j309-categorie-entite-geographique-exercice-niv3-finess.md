@@ -8,16 +8,16 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j309-categorie-entite-geographique-exercice-niv3-finess | *Version*:20251104120000 | |
-| Active as of 2025-11-04 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ309CategorieEntiteGeographiqueExerciceNiv3Finess |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j309-categorie-entite-geographique-exercice-niv3-finess | *Version*:20260223120000 | |
+| Active as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ309CategorieEntiteGeographiqueExerciceNiv3Finess |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.317 | | |
 
  
-Jeu de valeurs FINESS contenant les catégories des entités géographiques d’exercice de niveau 3 
+Ce JDV contient tous les agrégats Niv3 d’EGE (JDV créé à l’image de l’ancienneTRE_R64-AgregatCategorieEtablissementNiv2) 
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -55,47 +55,39 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-j309-categorie-entite-geographique-exercice-niv3-finess",
   "meta" : {
-    "versionId" : "1",
-    "lastUpdated" : "2025-11-04T18:02:28.249+00:00",
+    "versionId" : "2",
+    "lastUpdated" : "2026-02-23T18:17:30.357+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2025-11-04T18:02:28.249+00:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2026-02-23T12:00:00.000+00:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j309-categorie-entite-geographique-exercice-niv3-finess",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.6.1.317"
-    }
-  ],
-  "version" : "20251104120000",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.6.1.317"
+  }],
+  "version" : "20260223120000",
   "name" : "JdvJ309CategorieEntiteGeographiqueExerciceNiv3Finess",
   "title" : "Jdv J309 Categorie Entite Geographique Exercice Niv3 Finess",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-11-04T18:02:28.249+00:00",
+  "date" : "2026-02-23T12:00:00.000+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description" : "Jeu de valeurs FINESS contenant les catégories des entités géographiques d'exercice de niveau 3",
+  "description" : "Ce JDV contient tous les agrégats Niv3 d'EGE (JDV créé à l'image de l'ancienneTRE_R64-AgregatCategorieEtablissementNiv2)",
   "compose" : {
-    "include" : [
-      {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
-        "filter" : [
-          {
-            "property" : "niveau",
-            "op" : "=",
-            "value" : "3"
-          }
-        ]
-      }
-    ]
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
+      "filter" : [{
+        "property" : "niveau",
+        "op" : "=",
+        "value" : "3"
+      }]
+    }]
   }
 }
 

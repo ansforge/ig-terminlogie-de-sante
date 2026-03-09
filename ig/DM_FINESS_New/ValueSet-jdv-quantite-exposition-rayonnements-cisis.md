@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-quantite-exposition-rayonnements-cisis | *Version*:20251216141838 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvQuantiteExpositionRayonnementsCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-quantite-exposition-rayonnements-cisis | *Version*:20260220142103 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvQuantiteExpositionRayonnementsCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.620 | | |
 
  
@@ -17,7 +17,7 @@ JDV Quantite Exposition Rayonnements CISIS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -55,85 +55,77 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-quantite-exposition-rayonnements-cisis",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-12-17T15:46:06.609+01:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-02-23T14:59:24.565+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2021-04-19T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2021-04-19T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-quantite-exposition-rayonnements-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.620"
-    }
-  ],
-  "version" : "20251216141838",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.620"
+  }],
+  "version" : "20260220142103",
   "name" : "JdvQuantiteExpositionRayonnementsCisis",
   "title" : "JDV Quantite Exposition Rayonnements CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:38+01:00",
+  "date" : "2026-02-20T14:21:03+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Quantite Exposition Rayonnements CISIS",
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "http://dicom.nema.org/resources/ontology/DCM",
+      "concept" : [{
+        "code" : "111636",
+        "display" : "Dose dans l'air à l'entrée du patient (Kerma dans l'air)"
+      },
       {
-        "system" : "http://dicom.nema.org/resources/ontology/DCM",
-        "concept" : [
-          {
-            "code" : "111636",
-            "display" : "Dose dans l'air à l'entrée du patient (Kerma dans l'air)"
-          },
-          {
-            "code" : "111637",
-            "display" : "DGM total : Dose Glandulaire Moyenne Total"
-          },
-          {
-            "code" : "113722",
-            "display" : "PDS Total : Produit Dose Surface Total"
-          },
-          {
-            "code" : "113726",
-            "display" : "PDS de Scopie Total : Produit Dose Surface de Scopie Total"
-          },
-          {
-            "code" : "113727",
-            "display" : "PDS de Graphie Total : Produit Dose Surface de Graphie Total"
-          },
-          {
-            "code" : "113730",
-            "display" : "Temps total de scopie"
-          },
-          {
-            "code" : "113731",
-            "display" : "Nombre total d’images radiographiques"
-          },
-          {
-            "code" : "113507",
-            "display" : "Activité administrée"
-          },
-          {
-            "code" : "113813",
-            "display" : "PDL Total : Produit Dose Longueur Total"
-          },
-          {
-            "code" : "113830",
-            "display" : "IDSV Moyen : Indice de Dose Scanographique Volumique"
-          },
-          {
-            "code" : "113839",
-            "display" : "E : Dose efficace"
-          }
-        ]
-      }
-    ]
+        "code" : "111637",
+        "display" : "DGM total : Dose Glandulaire Moyenne Total"
+      },
+      {
+        "code" : "113722",
+        "display" : "PDS Total : Produit Dose Surface Total"
+      },
+      {
+        "code" : "113726",
+        "display" : "PDS de Scopie Total : Produit Dose Surface de Scopie Total"
+      },
+      {
+        "code" : "113727",
+        "display" : "PDS de Graphie Total : Produit Dose Surface de Graphie Total"
+      },
+      {
+        "code" : "113730",
+        "display" : "Temps total de scopie"
+      },
+      {
+        "code" : "113731",
+        "display" : "Nombre total d’images radiographiques"
+      },
+      {
+        "code" : "113507",
+        "display" : "Activité administrée"
+      },
+      {
+        "code" : "113813",
+        "display" : "PDL Total : Produit Dose Longueur Total"
+      },
+      {
+        "code" : "113830",
+        "display" : "IDSV Moyen : Indice de Dose Scanographique Volumique"
+      },
+      {
+        "code" : "113839",
+        "display" : "E : Dose efficace"
+      }]
+    }]
   }
 }
 

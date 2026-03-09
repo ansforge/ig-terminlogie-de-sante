@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-origine-effet-indesirable-cisis | *Version*:20251216141838 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvOrigineEffetIndesirableCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-origine-effet-indesirable-cisis | *Version*:20260220142104 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvOrigineEffetIndesirableCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.785 | | |
 
  
@@ -17,7 +17,7 @@ JDV Origine Effet Indesirable CISIS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -55,86 +55,76 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-origine-effet-indesirable-cisis",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2025-12-17T15:45:54.197+01:00",
+    "versionId" : "5",
+    "lastUpdated" : "2026-02-23T14:59:17.377+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2024-05-22T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2024-05-22T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-origine-effet-indesirable-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.785"
-    }
-  ],
-  "version" : "20251216141838",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.785"
+  }],
+  "version" : "20260220142104",
   "name" : "JdvOrigineEffetIndesirableCisis",
   "title" : "JDV Origine Effet Indesirable CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:38+01:00",
+  "date" : "2026-02-20T14:21:04+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Origine Effet Indesirable CISIS",
   "compose" : {
-    "include" : [
-      {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "MED-1334",
-            "display" : "mésusage ou d’un usage détourné"
-          },
-          {
-            "code" : "MED-1279",
-            "display" : "défaut de qualité d’un médicament ou de médicaments falsifiés"
-          },
-          {
-            "code" : "MED-1280",
-            "display" : "exposition paternelle (altération potentielle des spermatozoïdes)"
-          }
-        ]
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "concept" : [{
+        "code" : "MED-1334",
+        "display" : "mésusage ou d’un usage détourné"
       },
       {
-        "system" : "http://snomed.info/sct",
-        "concept" : [
-          {
-            "code" : "1156699004",
-            "display" : "respecte le traitement médicamenteux"
-          },
-          {
-            "code" : "1149222004",
-            "display" : "surdosage"
-          },
-          {
-            "code" : "398240004",
-            "display" : "erreur médicamenteuse"
-          },
-          {
-            "code" : "16090731000119102",
-            "display" : "exposition professionnelle à un facteur de risque"
-          },
-          {
-            "code" : "79899007",
-            "display" : "interaction médicamenteuse"
-          },
-          {
-            "code" : "95606005",
-            "display" : "exposition maternelle à un médicament"
-          },
-          {
-            "code" : "1260078007",
-            "display" : "allaitement maternel"
-          }
-        ]
-      }
-    ]
+        "code" : "MED-1279",
+        "display" : "défaut de qualité d’un médicament ou de médicaments falsifiés"
+      },
+      {
+        "code" : "MED-1280",
+        "display" : "exposition paternelle (altération potentielle des spermatozoïdes)"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "1156699004",
+        "display" : "respecte le traitement médicamenteux"
+      },
+      {
+        "code" : "1149222004",
+        "display" : "surdosage"
+      },
+      {
+        "code" : "398240004",
+        "display" : "erreur médicamenteuse"
+      },
+      {
+        "code" : "16090731000119102",
+        "display" : "exposition professionnelle à un facteur de risque"
+      },
+      {
+        "code" : "79899007",
+        "display" : "interaction médicamenteuse"
+      },
+      {
+        "code" : "95606005",
+        "display" : "exposition maternelle à un médicament"
+      },
+      {
+        "code" : "1260078007",
+        "display" : "allaitement maternel"
+      }]
+    }]
   }
 }
 

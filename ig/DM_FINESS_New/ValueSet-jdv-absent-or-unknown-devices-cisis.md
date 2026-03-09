@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-absent-or-unknown-devices-cisis | *Version*:20251216141838 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvAbsentOrUnknownDevicesCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-absent-or-unknown-devices-cisis | *Version*:20260220142104 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvAbsentOrUnknownDevicesCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.663 | | |
 
  
@@ -17,7 +17,7 @@ JDV Absent Or Unknown Devices CISIS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -33,7 +33,7 @@ Requête sur le SMT
 
 ### Expansion
 
-No Expansion for this valueset (not supported by Publication Tooling)
+No Expansion for this valueset (Unknown Code System)
 
 -------
 
@@ -57,49 +57,41 @@ No Expansion for this valueset (not supported by Publication Tooling)
   "resourceType" : "ValueSet",
   "id" : "jdv-absent-or-unknown-devices-cisis",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-12-17T15:42:45.923+01:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-02-23T14:57:33.597+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2021-12-22T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2021-12-22T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-absent-or-unknown-devices-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.663"
-    }
-  ],
-  "version" : "20251216141838",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.663"
+  }],
+  "version" : "20260220142104",
   "name" : "JdvAbsentOrUnknownDevicesCisis",
   "title" : "JDV Absent Or Unknown Devices CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:38+01:00",
+  "date" : "2026-02-20T14:21:04+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Absent Or Unknown Devices CISIS",
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips",
+      "concept" : [{
+        "code" : "no-device-info",
+        "display" : "Pas d'information sur les dispositifs médicaux"
+      },
       {
-        "system" : "http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips",
-        "concept" : [
-          {
-            "code" : "no-device-info",
-            "display" : "Pas d'information sur les dispositifs médicaux"
-          },
-          {
-            "code" : "no-known-devices",
-            "display" : "Pas de dispositif médical connu"
-          }
-        ]
-      }
-    ]
+        "code" : "no-known-devices",
+        "display" : "Pas de dispositif médical connu"
+      }]
+    }]
   }
 }
 

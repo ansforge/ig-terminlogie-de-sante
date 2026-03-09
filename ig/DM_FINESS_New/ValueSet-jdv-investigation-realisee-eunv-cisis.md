@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-investigation-realisee-eunv-cisis | *Version*:20251216141840 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvInvestigationRealiseeEunvCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-investigation-realisee-eunv-cisis | *Version*:20260220142105 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvInvestigationRealiseeEunvCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.227 | | |
 
  
@@ -17,7 +17,7 @@ JDV Investigation Realisee Eunv CISIS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -32,6 +32,8 @@ Requête sur le SMT
  
 
 ### Expansion
+
+No Expansion for this valueset (Unknown Code System)
 
 -------
 
@@ -55,77 +57,69 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-investigation-realisee-eunv-cisis",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2025-12-17T15:44:48.663+01:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-02-23T14:58:41.351+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2024-09-17T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2024-09-17T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-investigation-realisee-eunv-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.227"
-    }
-  ],
-  "version" : "20251216141840",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.227"
+  }],
+  "version" : "20260220142105",
   "name" : "JdvInvestigationRealiseeEunvCisis",
   "title" : "JDV Investigation Realisee Eunv CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:40+01:00",
+  "date" : "2026-02-20T14:21:05+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Investigation Realisee Eunv CISIS",
   "compose" : {
-    "include" : [
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/terminologie-ccam",
+      "concept" : [{
+        "code" : "DEQP003",
+        "display" : "Électrocardiographie sur au moins 12 dérivations"
+      },
       {
-        "system" : "https://smt.esante.gouv.fr/terminologie-ccam",
-        "concept" : [
-          {
-            "code" : "DEQP003",
-            "display" : "Électrocardiographie sur au moins 12 dérivations"
-          },
-          {
-            "code" : "DEQP004",
-            "display" : "Surveillance continue de l'électrocardiogramme par oscilloscopie et/ou télésurveillance, par 24 heures"
-          },
-          {
-            "code" : "DEQP005",
-            "display" : "Électrocardiographie sur au moins 2 dérivations, avec enregistrement continu pendant au moins 24 heures"
-          },
-          {
-            "code" : "DZQM006",
-            "display" : "Échographie-doppler transthoracique du coeur et des vaisseaux intrathoraciques"
-          },
-          {
-            "code" : "DZQJ001",
-            "display" : "Échographie-doppler du coeur et des vaisseaux intrathoraciques, par voie oesophagienne [Échocardiographie-doppler transoesophagienne]"
-          },
-          {
-            "code" : "ACQN001",
-            "display" : "Remnographie [IRM] du crâne et de son contenu, sans injection intraveineuse de produit de contraste"
-          },
-          {
-            "code" : "EBQH006",
-            "display" : "Scanographie des vaisseaux cervicaux [Angioscanner cervical]"
-          },
-          {
-            "code" : "EAQM004",
-            "display" : "Échographie-doppler transcrânienne des vaisseaux intracrâniens, sans épreuve pharmacodynamique"
-          },
-          {
-            "code" : "EAQM002",
-            "display" : "Monitorage de la circulation artérielle intracrânienne par doppler pulsé transcrânien"
-          }
-        ]
-      }
-    ]
+        "code" : "DEQP004",
+        "display" : "Surveillance continue de l'électrocardiogramme par oscilloscopie et/ou télésurveillance, par 24 heures"
+      },
+      {
+        "code" : "DEQP005",
+        "display" : "Électrocardiographie sur au moins 2 dérivations, avec enregistrement continu pendant au moins 24 heures"
+      },
+      {
+        "code" : "DZQM006",
+        "display" : "Échographie-doppler transthoracique du coeur et des vaisseaux intrathoraciques"
+      },
+      {
+        "code" : "DZQJ001",
+        "display" : "Échographie-doppler du coeur et des vaisseaux intrathoraciques, par voie oesophagienne [Échocardiographie-doppler transoesophagienne]"
+      },
+      {
+        "code" : "ACQN001",
+        "display" : "Remnographie [IRM] du crâne et de son contenu, sans injection intraveineuse de produit de contraste"
+      },
+      {
+        "code" : "EBQH006",
+        "display" : "Scanographie des vaisseaux cervicaux [Angioscanner cervical]"
+      },
+      {
+        "code" : "EAQM004",
+        "display" : "Échographie-doppler transcrânienne des vaisseaux intracrâniens, sans épreuve pharmacodynamique"
+      },
+      {
+        "code" : "EAQM002",
+        "display" : "Monitorage de la circulation artérielle intracrânienne par doppler pulsé transcrânien"
+      }]
+    }]
   }
 }
 

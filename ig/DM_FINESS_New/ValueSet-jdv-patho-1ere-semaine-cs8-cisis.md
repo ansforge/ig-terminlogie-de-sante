@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-patho-1ere-semaine-cs8-cisis | *Version*:20251216141839 | |
-| Active as of 2025-12-16 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvPatho1ereSemaineCs8Cisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-patho-1ere-semaine-cs8-cisis | *Version*:20260220142104 | |
+| Active as of 2026-02-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvPatho1ereSemaineCs8Cisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.704 | | |
 
  
@@ -17,7 +17,7 @@ JDV Patho 1ere Semaine Cs8 CISIS
 
  **References** 
 
-Ce jeu de valeurs nest pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
+Ce jeu de valeurs n'est pas utilisé ici ; il peut être utilisé autre part (par exemple dans les spécifications et / ou implémentations qui utilisent ce contenu)
 
 ###  Recherche en live sur le SMT 
 
@@ -55,71 +55,59 @@ Requête sur le SMT
   "resourceType" : "ValueSet",
   "id" : "jdv-patho-1ere-semaine-cs8-cisis",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2025-12-17T15:45:56.196+01:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-02-23T14:59:18.716+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
-  "extension" : [
-    {
-      "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-      "valuePeriod" : {
-        "start" : "2022-10-03T00:00:00+01:00"
-      }
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2022-10-03T00:00:00+01:00"
     }
-  ],
+  }],
   "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-patho-1ere-semaine-cs8-cisis",
-  "identifier" : [
-    {
-      "system" : "urn:ietf:rfc:3986",
-      "value" : "urn:oid:1.2.250.1.213.1.1.5.704"
-    }
-  ],
-  "version" : "20251216141839",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.704"
+  }],
+  "version" : "20260220142104",
   "name" : "JdvPatho1ereSemaineCs8Cisis",
   "title" : "JDV Patho 1ere Semaine Cs8 CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-16T14:18:39+01:00",
+  "date" : "2026-02-20T14:21:04+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Patho 1ere Semaine Cs8 CISIS",
   "compose" : {
-    "include" : [
-      {
-        "system" : "http://hl7.org/fhir/sid/icd-10",
-        "concept" : [
-          {
-            "code" : "P22.9",
-            "display" : "Détresse respiratoire du nouveau-né, sans précision"
-          },
-          {
-            "code" : "G96.9",
-            "display" : "Affection du système nerveux central, sans précision"
-          }
-        ]
+    "include" : [{
+      "system" : "http://hl7.org/fhir/sid/icd-10",
+      "concept" : [{
+        "code" : "P22.9",
+        "display" : "Détresse respiratoire du nouveau-né, sans précision"
       },
       {
-        "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-        "concept" : [
-          {
-            "code" : "MED-276",
-            "display" : "Antibiothérapie (de plus de 48 heures)"
-          },
-          {
-            "code" : "GEN-092.01.11",
-            "display" : "Autres pathologies de la 1ère semaine"
-          }
-        ]
+        "code" : "G96.9",
+        "display" : "Affection du système nerveux central, sans précision"
+      }]
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "concept" : [{
+        "code" : "MED-276",
+        "display" : "Antibiothérapie (de plus de 48 heures)"
       },
       {
-        "system" : "http://snomed.info/sct",
-        "concept" : [
-          {
-            "code" : "73994005",
-            "display" : "intervention chirurgicale d'urgence"
-          }
-        ]
-      }
-    ]
+        "code" : "GEN-092.01.11",
+        "display" : "Autres pathologies de la 1ère semaine"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "73994005",
+        "display" : "intervention chirurgicale d'urgence"
+      }]
+    }]
   }
 }
 
