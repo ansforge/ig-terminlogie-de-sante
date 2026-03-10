@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R227-ChampActivite/FHIR/TRE-R227-ChampActivite | *Version*:20231215120000 | |
-| Active as of 2023-12-15 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R227_ChampActivite |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R227-ChampActivite/FHIR/TRE-R227-ChampActivite | *Version*:20260330120000 | |
+| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R227_ChampActivite |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.17 | | |
 
  
@@ -43,11 +43,11 @@ Champ d’activité
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.17"
   }],
-  "version" : "20231215120000",
+  "version" : "20260330120000",
   "name" : "TRE_R227_ChampActivite",
   "status" : "active",
   "experimental" : false,
-  "date" : "2023-12-15T12:00:00+01:00",
+  "date" : "2026-03-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Champ d'activité",
   "jurisdiction" : [{
@@ -58,6 +58,7 @@ Champ d’activité
   }],
   "caseSensitive" : false,
   "content" : "complete",
+  "count" : 6,
   "property" : [{
     "code" : "dateValid",
     "description" : "date de validité d'un code concept",
@@ -198,6 +199,22 @@ Champ d’activité
   {
     "code" : "05",
     "display" : "Ville",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2018-12-14T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2023-06-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "06",
+    "display" : "Social",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2018-12-14T12:00:00+01:00"

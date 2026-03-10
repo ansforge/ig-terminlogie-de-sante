@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R239-PublicPrisEnCharge/FHIR/TRE-R239-PublicPrisEnCharge | *Version*:20250328120000 | |
-| Active as of 2025-03-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R239_PublicPrisEnCharge |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R239-PublicPrisEnCharge/FHIR/TRE-R239-PublicPrisEnCharge | *Version*:20260330120000 | |
+| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R239_PublicPrisEnCharge |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.29 | | |
 
  
@@ -43,11 +43,11 @@ Public pris en charge
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.29"
   }],
-  "version" : "20250328120000",
+  "version" : "20260330120000",
   "name" : "TRE_R239_PublicPrisEnCharge",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-03-28T12:00:00+01:00",
+  "date" : "2026-03-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Public pris en charge",
   "jurisdiction" : [{
@@ -58,6 +58,7 @@ Public pris en charge
   }],
   "caseSensitive" : false,
   "content" : "complete",
+  "count" : 10,
   "property" : [{
     "code" : "dateValid",
     "description" : "date de validité d'un code concept",
@@ -301,6 +302,30 @@ Public pris en charge
     {
       "code" : "dateMaj",
       "valueDateTime" : "2024-04-26T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "10",
+    "display" : "Victime de violence (intrafamiliale, professionnelle, prostitutionnelle, cyber)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Victime de violence"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "status",

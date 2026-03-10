@@ -38,7 +38,7 @@
   <compose>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle"/>
-      <version value="20251222120000"/>
+      <version value="20260330120000"/>
       <concept>
         <code value="001"/>
         <display value="Addictologie comportementale (sans substance)"/>
@@ -1842,7 +1842,7 @@
     </include>
     <include>
       <system value="https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique"/>
-      <version value="20251222120000"/>
+      <version value="20260330120000"/>
       <concept>
         <code value="0897"/>
         <display value="Vaccination contre la grippe"/>

@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J34-CategorieOrganisation-ROR/FHIR/JDV-J34-CategorieOrganisation-ROR | *Version*:20260223120000 | |
-| Active as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J34_CategorieOrganisation_ROR |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J34-CategorieOrganisation-ROR/FHIR/JDV-J34-CategorieOrganisation-ROR | *Version*:20260330120000 | |
+| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J34_CategorieOrganisation_ROR |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.40 | | |
 
  
@@ -71,11 +71,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.40"
   }],
-  "version" : "20260223120000",
+  "version" : "20260330120000",
   "name" : "JDV_J34_CategorieOrganisation_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-23T12:00:00+01:00",
+  "date" : "2026-03-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Catégorie d'organisation - ROR",
   "jurisdiction" : [{
@@ -87,14 +87,14 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R244-CategorieOrganisation/FHIR/TRE-R244-CategorieOrganisation",
-      "version" : "20260223120000",
+      "version" : "20260330120000",
       "concept" : [{
         "code" : "01",
-        "display" : "Appartement thérapeutique"
+        "display" : "Appartement thérapeutique en psychiatrie"
       },
       {
         "code" : "02",
-        "display" : "Atelier thérapeutique"
+        "display" : "Atelier thérapeutique en psychiatrie"
       },
       {
         "code" : "03",
@@ -138,7 +138,7 @@ Requête sur le SMT
       },
       {
         "code" : "13",
-        "display" : "Service d'Accueil Familial Thérapeutique"
+        "display" : "Service d'Accueil Familial Thérapeutique en psychiatrie"
       },
       {
         "code" : "14",
@@ -166,7 +166,7 @@ Requête sur le SMT
       },
       {
         "code" : "20",
-        "display" : "Unité d'urgences"
+        "display" : "Unité d'urgences polyvalentes"
       },
       {
         "code" : "21",
@@ -346,7 +346,7 @@ Requête sur le SMT
       },
       {
         "code" : "66",
-        "display" : "Equipe Relai Handicap rare"
+        "display" : "Equipe Relais Handicaps Rares (ERHR)"
       },
       {
         "code" : "67",
@@ -655,10 +655,6 @@ Requête sur le SMT
       {
         "code" : "146",
         "display" : "Unité de prise en charge des brûlés"
-      },
-      {
-        "code" : "147",
-        "display" : "Unité de sevrage complexe"
       },
       {
         "code" : "148",
@@ -1101,10 +1097,6 @@ Requête sur le SMT
         "display" : "Point d'information local dédié aux personnes âgées"
       },
       {
-        "code" : "261",
-        "display" : "Accueil familial pour personne âgée"
-      },
-      {
         "code" : "262",
         "display" : "Unité de soins intensifs spécialisés cardiologie (USIC)"
       },
@@ -1255,10 +1247,6 @@ Requête sur le SMT
       {
         "code" : "299",
         "display" : "Equipe de Diagnostic de Proximité – Autisme (PDAP, EDAP)"
-      },
-      {
-        "code" : "300",
-        "display" : "Equipe Mobile de Psychiatrie Périnatale"
       },
       {
         "code" : "301",

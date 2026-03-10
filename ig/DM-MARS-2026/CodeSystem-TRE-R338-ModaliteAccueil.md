@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R338-ModaliteAccueil/FHIR/TRE-R338-ModaliteAccueil | *Version*:20251222120000 | |
-| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R338_ModaliteAccueil |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R338-ModaliteAccueil/FHIR/TRE-R338-ModaliteAccueil | *Version*:20260330120000 | |
+| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R338_ModaliteAccueil |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.221 | | |
 
  
@@ -43,11 +43,11 @@ Modalités d’accueil
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.221"
   }],
-  "version" : "20251222120000",
+  "version" : "20260330120000",
   "name" : "TRE_R338_ModaliteAccueil",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-22T12:00:00+01:00",
+  "date" : "2026-03-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Modalités d'accueil",
   "jurisdiction" : [{
@@ -433,14 +433,22 @@ Modalités d’accueil
   },
   {
     "code" : "18",
-    "display" : "Intra-hospitalier",
+    "display" : "Intra-hospitalier (dont équipe de liaison)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Intra-hospitalier"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2025-04-25T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2025-04-25T12:00:00+01:00"
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "status",

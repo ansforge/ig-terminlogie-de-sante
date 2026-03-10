@@ -19,7 +19,7 @@ Les terminologies sont des nomenclatures officielles créées et maintenues :
 | [ActStatus](CodeSystem-v3-ActStatus.md) | Codes representing the defined possible states of an Act, as defined by the Act class state machine. | 20/03/2019 |
 | [AdministrativeGender](CodeSystem-v3-AdministrativeGender.md) | The gender of a person used for adminstrative purposes (as opposed to clinical gender) | 20/03/2019 |
 | [BDPM](CodeSystem-terminologie-bdpm.md) | LA BDPM est un des référentiels du médicament gérée et distribuée par l’ANSM. Elle recense l’ensemble des spécialités et des présentations effectivement commercialisées durant les 5 dernières années. De ce fait, elle ne propose pas un historique exhaustif des codes de présentation et spécialités, celui-ci peut être obtenu grâce à la base RCP disponible sur le site de l’ANSM | 03/03/2026 |
-| [CIM11_MMS](CodeSystem-terminologie-cim11-mms.md) | La Classification Internationale des Maladies (CIM) dans sa 11ème révision permet d’établir, partout dans le monde, les statistiques sanitaires. Fournissant un langage commun pour alimenter les dossiers patients électroniques, la CIM11 permet d’échanger des données médicales de manière cohérente et normalisée pour de nombreux cas d’usage (production de soins, coordination professionnelle, pilotage, et exploitation de données) | 09/03/2026 |
+| [CIM11_MMS](CodeSystem-terminologie-cim11-mms.md) | La Classification Internationale des Maladies (CIM) dans sa 11ème révision permet d’établir, partout dans le monde, les statistiques sanitaires. Fournissant un langage commun pour alimenter les dossiers patients électroniques, la CIM11 permet d’échanger des données médicales de manière cohérente et normalisée pour de nombreux cas d’usage (production de soins, coordination professionnelle, pilotage, et exploitation de données) | 10/03/2026 |
 | [CIM_10_FR_PMSI](CodeSystem-terminologie-cim-10.md) | La Classification Internationale des Maladies (CIM) permet d’établir les statistiques sanitaires (morbi-mortalité) partout dans le monde. Elle est gérée par l’Organisation Mondiale de la Santé qui publie une mise à jour annuelle. En France l’ATIH édite et publie une version complète du volume 1 de la CIM–10 à usage PMSI. La CIM–10 est aussi utilisée pour alimenter les dossier médicaux électronique des patients.Elle est destinée à être progressivement remplacée par la CIM 11 | 20/12/2024 |
 | [CISP_2](CodeSystem-terminologie-cisp.md) | La Classification internationale des soins primaires (CISP) est la version française de l’International Classification of Primary Care (ICPC). Elle permet de coder trois éléments de consultation de médecine générale : motifs de rencontre (du point de vue du patient), problèmes de santé diagnostiqués et procédures de soins.Elle trouve sa place au sein de la famille des classifications de l’OMS comme classification associée à la CIM (classification internationale des maladies), l’ICF (classification internationale du fonctionnement, du handicap et de la santé) et l'ICHI (classification internationale des interventions de santé). | 26/06/2019 |
 | [ClaDiMed](CodeSystem-terminologie-cladimed.md) | La classification CLADIMED décrit le domaine des produits de santé (dispositifs médicaux (DM) et autres produits de santé (hors médicaments)). C’est une classification mono axiale inspirée de la classification internationale ATC des médicaments (Anatomique, Thérapeutique, Chimique). | 01/01/2021 |
@@ -31,7 +31,7 @@ Les terminologies sont des nomenclatures officielles créées et maintenues :
 | [EmploymentStatus](CodeSystem-v2-0066.md) | HL7-defined code system of concepts which specify an employment status of a person. Used in HL7 Version 2 messaging in the GT1 segment. | 01/12/2019 |
 | [EntityCode](CodeSystem-v3-EntityCode.md) | **OpenIssue:** Missing description. | 20/03/2019 |
 | [IcdO3](CodeSystem-icd-o-3.md) | International Classification of Diseases for Oncology, version 3. For more information see http://www.who.int/classifications/icd/adaptations/oncology/en/. | 20/03/2019 |
-| [LAHN](CodeSystem-terminologie-lahn.md) | La liste des actes innovants hors nomenclature (LAHN) a été mise en place par la direction générale de l’offre de soins (DGOS) en 2024, dans le cadre du développement de l’innovation en santé. Elle est la fusion du RIHN et de la Liste Complémentaire (LC). L’objectif est de soutenir l’innovation et de la dynamiser par une prise en charge et une évaluation rapide des actes innovants. La LAHN contient une liste d’actes innovants (biologie et anatomocytopathologie) pris en charge à titre transitoire moyennant un recueil de données pour leur évaluation. | 09/03/2026 |
+| [LAHN](CodeSystem-terminologie-lahn.md) | La liste des actes innovants hors nomenclature (LAHN) a été mise en place par la direction générale de l’offre de soins (DGOS) en 2024, dans le cadre du développement de l’innovation en santé. Elle est la fusion du RIHN et de la Liste Complémentaire (LC). L’objectif est de soutenir l’innovation et de la dynamiser par une prise en charge et une évaluation rapide des actes innovants. La LAHN contient une liste d’actes innovants (biologie et anatomocytopathologie) pris en charge à titre transitoire moyennant un recueil de données pour leur évaluation. | 10/03/2026 |
 | [MediaType](CodeSystem-v3-mediaType.md) | Internet Assigned Numbers Authority (IANA) Mime Media Types. Identifies the type of the encapsulated data and identifies a method to interpret or render the data. The IANA defined domain of media types is established by the Internet standard RFC 2045 [http://www.ietf.org/rfc/rfc2045.txt] and 2046 [http://www.ietf.org/rfc/rfc2046.txt]. RFC 2046 defines the media type to consist of two parts:1. top level media type, and
 1. media subtype
 However, this HL7 datatypes specification treats the entire media type as one atomic code symbol in the form defined by IANA, i.e., top level type followed by a slash "/" followed by media subtype. Currently defined media types are registered in a database [http://www.iana.org/assignments/media-types/index.html] maintained by IANA. Currently several hundred different MIME media types are defined, with the list growing rapidly. In general, all those types defined by the IANA MAY be used. | 20/03/2019 |
@@ -109,10 +109,10 @@ However, this HL7 datatypes specification treats the entire media type as one at
 | [TRE_R208_ClasseAge](CodeSystem-TRE-R208-ClasseAge.md) | Classe d'âge | 15/12/2023 |
 | [TRE_R209_TypeActivite](CodeSystem-TRE-R209-TypeActivite.md) | Type d'activité | 23/02/2024 |
 | [TRE_R20_Pays](CodeSystem-TRE-R20-Pays.md) | Référentiel des codes pays provenant du COG INSEE | 28/03/2025 |
-| [TRE_R210_ActeSpecifique](CodeSystem-TRE-R210-ActeSpecifique.md) | Un acte spécifique est une action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé. Les actes réalisés habituellement par ce type d’organisation ne sont pas des actes spécifiques. Les actes spécifiques décrits sont réalisés avec les ressources propres de l’organisation ou via des ressources mises à disposition dans le cadre d’une convention à la condition que ces ressources interviennent sur site dans la réalisation de la prestation. | 22/12/2025 |
-| [TRE_R211_ActiviteOperationnelle](CodeSystem-TRE-R211-ActiviteOperationnelle.md) | Activite Operationnelle | 22/12/2025 |
+| [TRE_R210_ActeSpecifique](CodeSystem-TRE-R210-ActeSpecifique.md) |  | 30/03/2026 |
+| [TRE_R211_ActiviteOperationnelle](CodeSystem-TRE-R211-ActiviteOperationnelle.md) | Activite Operationnelle | 30/03/2026 |
 | [TRE_R212_Equipement](CodeSystem-TRE-R212-Equipement.md) | Equipement | 22/12/2025 |
-| [TRE_R213_ModePriseEnCharge](CodeSystem-TRE-R213-ModePriseEnCharge.md) | Mode de la prise en charge | 22/12/2025 |
+| [TRE_R213_ModePriseEnCharge](CodeSystem-TRE-R213-ModePriseEnCharge.md) | Mode de la prise en charge | 30/03/2026 |
 | [TRE_R216_HL7RoleCode](CodeSystem-TRE-R216-HL7RoleCode.md) | HL7 roleCode | 13/12/2024 |
 | [TRE_R217_ProtectionJuridique](CodeSystem-TRE-R217-ProtectionJuridique.md) | Protection juridique | 15/12/2023 |
 | [TRE_R218_ModeAuthentification](CodeSystem-TRE-R218-ModeAuthentification.md) | Mode d'authentification | 15/12/2023 |
@@ -123,7 +123,7 @@ However, this HL7 datatypes specification treats the entire media type as one at
 | [TRE_R224_NiveauFormAcquis](CodeSystem-TRE-R224-NiveauFormAcquis.md) | Niveaux de formation acquis dans le cycle de formation des étudiants | 15/12/2023 |
 | [TRE_R225_AnneeUniversitaire](CodeSystem-TRE-R225-AnneeUniversitaire.md) | Année universitaire | 09/10/2025 |
 | [TRE_R226_Dip2iemeCycleNQ](CodeSystem-TRE-R226-Dip2iemeCycleNQ.md) | Diplôme de 2ième cycle non qualifiant | 15/12/2023 |
-| [TRE_R227_ChampActivite](CodeSystem-TRE-R227-ChampActivite.md) | Champ d'activité | 15/12/2023 |
+| [TRE_R227_ChampActivite](CodeSystem-TRE-R227-ChampActivite.md) | Champ d'activité | 30/03/2026 |
 | [TRE_R228_UnitePrix](CodeSystem-TRE-R228-UnitePrix.md) | Unité de prix | 15/12/2023 |
 | [TRE_R22_GenreActivite](CodeSystem-TRE-R22-GenreActivite.md) | Genre d'activité | 29/03/2024 |
 | [TRE_R230_Devise](CodeSystem-TRE-R230-Devise.md) | Devise | 15/12/2023 |
@@ -132,13 +132,13 @@ However, this HL7 datatypes specification treats the entire media type as one at
 | [TRE_R236_ModeGestion](CodeSystem-TRE-R236-ModeGestion.md) | Mode gestion | 15/12/2023 |
 | [TRE_R237_GroupeTarifaireDependance](CodeSystem-TRE-R237-GroupeTarifaireDependance.md) | Niveau de dépendance associé à un tarif | 15/12/2023 |
 | [TRE_R238_OuvertureAnnuelle](CodeSystem-TRE-R238-OuvertureAnnuelle.md) | Ouverture annuelle | 15/12/2023 |
-| [TRE_R239_PublicPrisEnCharge](CodeSystem-TRE-R239-PublicPrisEnCharge.md) | Public pris en charge | 28/03/2025 |
+| [TRE_R239_PublicPrisEnCharge](CodeSystem-TRE-R239-PublicPrisEnCharge.md) | Public pris en charge | 30/03/2026 |
 | [TRE_R23_ModeExercice](CodeSystem-TRE-R23-ModeExercice.md) | Mode d'exercice | 02/02/2026 |
 | [TRE_R240_TemporaliteAccueil](CodeSystem-TRE-R240-TemporaliteAccueil.md) | Temporalité accueil | 15/12/2023 |
 | [TRE_R241_AideFinanciere](CodeSystem-TRE-R241-AideFinanciere.md) | Habilit. de l'EG permettant aux pers. accueillies d'avoir des aides financières | 15/12/2023 |
 | [TRE_R242_TypeHabitation](CodeSystem-TRE-R242-TypeHabitation.md) | Type habitation | 15/12/2023 |
-| [TRE_R243_CompetenceSpecifique](CodeSystem-TRE-R243-CompetenceSpecifique.md) | Compétence spécifique | 26/04/2024 |
-| [TRE_R244_CategorieOrganisation](CodeSystem-TRE-R244-CategorieOrganisation.md) | Catégorie d'organisation | 23/02/2026 |
+| [TRE_R243_CompetenceSpecifique](CodeSystem-TRE-R243-CompetenceSpecifique.md) | Compétence spécifique | 30/03/2026 |
+| [TRE_R244_CategorieOrganisation](CodeSystem-TRE-R244-CategorieOrganisation.md) | Catégorie d'organisation | 30/03/2026 |
 | [TRE_R245_SpecialisationDePriseEnCharge](CodeSystem-TRE-R245-SpecialisationDePriseEnCharge.md) | Spécialisation de prise en charge | 25/04/2025 |
 | [TRE_R246_TypeTarif](CodeSystem-TRE-R246-TypeTarif.md) | Type tarif | 15/12/2023 |
 | [TRE_R248_ModeAcces](CodeSystem-TRE-R248-ModeAcces.md) | Mode d'accès pour accéder à un SI santé avec données patients | 31/01/2025 |
@@ -223,7 +223,7 @@ However, this HL7 datatypes specification treats the entire media type as one at
 | [TRE_R335_TypeSourceCapacite](CodeSystem-TRE-R335-TypeSourceCapacite.md) | Permet d'indiquer quel type de source est à l'origine de l'information de capacité | 15/12/2023 |
 | [TRE_R336_TypeCrise](CodeSystem-TRE-R336-TypeCrise.md) | Permet d'indiquer le type de crise qui permet de mobiliser le nombre de lits supplémentaires décrits | 15/12/2023 |
 | [TRE_R337_AffectationTemporaire](CodeSystem-TRE-R337-AffectationTemporaire.md) | Permet d'indiquer la réservation de tout ou partie des lits d'une zone d'hébergement pour des patients selon qu'ils soient -ou non- concernés par une pathologie (Covid+, Covid-, …) ou un évènement (catastrophe naturelle, attentat, …) | 15/12/2023 |
-| [TRE_R338_ModaliteAccueil](CodeSystem-TRE-R338-ModaliteAccueil.md) | Modalités d'accueil | 22/12/2025 |
+| [TRE_R338_ModaliteAccueil](CodeSystem-TRE-R338-ModaliteAccueil.md) | Modalités d'accueil | 30/03/2026 |
 | [TRE_R33_StatutInscription](CodeSystem-TRE-R33-StatutInscription.md) | Statut de l'inscription | 15/12/2023 |
 | [TRE_R340_TypeCaracteristiqueEquipement](CodeSystem-TRE-R340-TypeCaracteristiqueEquipement.md) | Type de caractéristique de l'équipement | 29/03/2024 |
 | [TRE_R341_StatutCommunication](CodeSystem-TRE-R341-StatutCommunication.md) | Permet de donner une indication pour savoir une action doit être menée ou de son résultat lorsqu'elle a été menée | 15/12/2023 |

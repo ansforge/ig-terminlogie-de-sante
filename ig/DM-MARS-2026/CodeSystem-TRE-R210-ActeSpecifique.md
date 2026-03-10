@@ -8,12 +8,9 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique | *Version*:20251222120000 | |
-| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R210_ActeSpecifique |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique | *Version*:20260330120000 | |
+| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R210_ActeSpecifique |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.11 | | |
-
- 
-Un acte spécifique est une action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé. Les actes réalisés habituellement par ce type d’organisation ne sont pas des actes spécifiques. Les actes spécifiques décrits sont réalisés avec les ressources propres de l’organisation ou via des ressources mises à disposition dans le cadre d’une convention à la condition que ces ressources interviennent sur site dans la réalisation de la prestation. 
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
@@ -33,24 +30,17 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
     "lastUpdated" : "2025-12-22T10:46:38.800+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
   },
-  "extension" : [{
-    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
-    "valuePeriod" : {
-      "start" : "2015-04-08T00:00:00+01:00"
-    }
-  }],
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique",
   "identifier" : [{
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.11"
   }],
-  "version" : "20251222120000",
+  "version" : "20260330120000",
   "name" : "TRE_R210_ActeSpecifique",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-22T12:00:00+01:00",
+  "date" : "2026-03-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description" : "Un acte spécifique est une action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé. Les actes réalisés habituellement par ce type d’organisation ne sont pas des actes spécifiques. Les actes spécifiques décrits sont réalisés avec les ressources propres de l’organisation ou via des ressources mises à disposition dans le cadre d’une convention à la condition que ces ressources interviennent sur site dans la réalisation de la prestation.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -59,7 +49,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 1573,
+  "count" : 1614,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -4134,12 +4124,20 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
     },
     {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
+    },
+    {
       "code" : "dateMaj",
-      "valueDateTime" : "2015-04-08T00:00:00+01:00"
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "deprecated"
     }]
   },
   {
@@ -14729,12 +14727,20 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
       "valueDateTime" : "2015-06-03T00:00:00+01:00"
     },
     {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
+    },
+    {
       "code" : "dateMaj",
-      "valueDateTime" : "2017-07-07T10:00:00+01:00"
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "deprecated"
     }]
   },
   {
@@ -22524,7 +22530,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
   },
   {
     "code" : "0814",
-    "display" : "Soutien et écoute téléphonique",
+    "display" : "Soutien et écoute à distance (par téléphone et/ou par messagerie) ",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -22539,7 +22545,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2018-05-31T12:00:00+01:00"
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -30172,12 +30178,20 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
       "valueDateTime" : "2022-10-28T12:00:00+01:00"
     },
     {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
+    },
+    {
       "code" : "dateMaj",
-      "valueDateTime" : "2022-10-28T12:00:00+01:00"
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "deprecated"
     }]
   },
   {
@@ -32503,12 +32517,20 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
       "valueDateTime" : "2023-01-27T12:00:00+01:00"
     },
     {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
+    },
+    {
       "code" : "dateMaj",
-      "valueDateTime" : "2023-10-30T12:00:00+01:00"
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "deprecated"
     }]
   },
   {
@@ -32520,12 +32542,20 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
       "valueDateTime" : "2023-01-27T12:00:00+01:00"
     },
     {
+      "code" : "dateFin",
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
+    },
+    {
       "code" : "dateMaj",
-      "valueDateTime" : "2023-01-27T12:00:00+01:00"
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "active"
+      "valueCode" : "deprecated"
     }]
   },
   {
@@ -34051,7 +34081,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
   },
   {
     "code" : "1391",
-    "display" : "Maladies vectorielles à tique (Lyme…)",
+    "display" : "Prise en charge de ùaladies vectorielles à tique (Lyme…)",
     "definition" : "Prise en charge des maladies infectieuses transmises par tiques (vecteur) qui assurent une transmission active d'un agent infectieux (par exemple la borréliose, responsable de la maladie de Lyme).",
     "property" : [{
       "code" : "dateValid",
@@ -34059,7 +34089,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-01-26T12:00:00+01:00"
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -35161,7 +35191,8 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
   },
   {
     "code" : "1453",
-    "display" : "Repérage, accompagnement des troubles (neuro)développementaux et comportementaux",
+    "display" : "Suivi, repérage précoce et accompagnement du développement psychomoteur, des troubles de comportement et des Troubles Neuro Développementaux",
+    "definition" : "Prévention, évaluation et accompagnement visant à repérer précocement les troubles du développement psychomoteur, du comportement et les Troubles du Neuro-Développement (TND), afin de favoriser le développement harmonieux de l’enfant et son autonomie.",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {
@@ -35176,7 +35207,7 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-06-28T12:00:00+01:00"
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -37082,6 +37113,86 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
     }]
   },
   {
+    "code" : "1565",
+    "display" : "Groupe « entendeurs de voix » - hallucinations auditives",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1566",
+    "display" : "Groupe directives anticipées en psychiatrie",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1567",
+    "display" : "Autodétermination par la participation des adhérents à la gestion de la structure",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1568",
+    "display" : "Activités sociales, culturelles, sportives et de loisirs",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1569",
+    "display" : "Dépôt de plainte sur site",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
     "code" : "1570",
     "display" : "Rééducation vésico-sphinctérienne",
     "property" : [{
@@ -37235,6 +37346,582 @@ Un acte spécifique est une action menée par un ou plusieurs acteur(s) de sant�
     {
       "code" : "dateMaj",
       "valueDateTime" : "2025-12-22T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1580",
+    "display" : "Relayage courte durée (quelques heures par jour)",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1581",
+    "display" : "Relayage longue durée (sur plusieurs jours)",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1582",
+    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en cardiologie",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1583",
+    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie cardiaque et gros vaisseaux",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1584",
+    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie digestive et viscérale",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1585",
+    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie maxillo-faciale et stomatologie",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1586",
+    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie orthopédique et traumatologie",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1587",
+    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie pédiatrique orthopédique et traumatologie",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1588",
+    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie pédiatrique viscérale et digestive",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1589",
+    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie thoracique et pulmonaire",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1590",
+    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie vasculaire",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1591",
+    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en dermatologie ",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1592",
+    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en endocrinologie",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1593",
+    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en gériatrie (gérontologie)",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1594",
+    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en gynécologie",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1595",
+    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en hématologie",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1596",
+    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en hépato-gastro-entérologie",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1597",
+    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en maladies infectieuses et tropicales ",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1598",
+    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en médecine interne",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1599",
+    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en médecine vasculaire",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1600",
+    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en néphrologie (dont dialyse)",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1601",
+    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en neurochirurgie",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1602",
+    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en neurologie",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1603",
+    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en oncologie",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1604",
+    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en ophtalmologie",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1605",
+    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en oto-rhino-laryngologie (ORL) et chirurgie cervico-faciale",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1606",
+    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en pédiatrie",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1607",
+    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en pneumologie",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1608",
+    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en rhumatologie",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1609",
+    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en urologie",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1610",
+    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en caisson oxygène hyperbare",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1611",
+    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie de la main SOS main",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1612",
+    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en odontologie",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1613",
+    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en psychiatrie (dont équipe de liaison)",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1614",
+    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en radiologie interventionnelle",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "1615",
+    "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) rachis",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "status",

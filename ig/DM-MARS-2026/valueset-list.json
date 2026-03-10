@@ -879,7 +879,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J16-ActeSpecifique-ROR/FHIR/JDV-J16-ActeSpecifique-ROR",
-    "version" : "20251222120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "JDV_J16_ActeSpecifique_ROR",
     "title" : null,
@@ -991,7 +991,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J17-ActiviteOperationnelle-ROR/FHIR/JDV-J17-ActiviteOperationnelle-ROR",
-    "version" : "20251222120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "JDV_J17_ActiviteOperationnelle_ROR",
     "title" : null,
@@ -1215,7 +1215,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J19-ModePriseEnCharge-ROR/FHIR/JDV-J19-ModePriseEnCharge-ROR",
-    "version" : "20251222120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "JDV_J19_ModePriseEnCharge_ROR",
     "title" : null,
@@ -1336,7 +1336,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J20-ChampActivite-ROR/FHIR/JDV-J20-ChampActivite-ROR",
-    "version" : "20231030120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "JDV_J20_ChampActivite_ROR",
     "title" : null,
@@ -1656,7 +1656,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J226-ModaliteAccueil-ROR/FHIR/JDV-J226-ModaliteAccueil-ROR",
-    "version" : "20251222120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "JDV_J226_ModaliteAccueil_ROR",
     "title" : null,
@@ -1793,7 +1793,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J238-TypeOffre-ROR/FHIR/JDV-J238-TypeOffre-ROR",
-    "version" : "20260223120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "JDV_J238_TypeOffre_ROR",
     "title" : null,
@@ -2239,7 +2239,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J29-PublicPrisEnCharge-ROR/FHIR/JDV-J29-PublicPrisEnCharge-ROR",
-    "version" : "20250328120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "JDV_J29_PublicPrisEnCharge_ROR",
     "title" : null,
@@ -2283,7 +2283,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J33-CompetenceSpecifique-ROR/FHIR/JDV-J33-CompetenceSpecifique-ROR",
-    "version" : "20240426120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "JDV_J33_CompetenceSpecifique_ROR",
     "title" : null,
@@ -2294,7 +2294,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J34-CategorieOrganisation-ROR/FHIR/JDV-J34-CategorieOrganisation-ROR",
-    "version" : "20260223120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "JDV_J34_CategorieOrganisation_ROR",
     "title" : null,
@@ -2305,13 +2305,12 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J35-SpecialisationDePriseEnCharge-ROR/FHIR/JDV-J35-SpecialisationDePriseEnCharge-ROR",
-    "version" : "20250425120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "JDV_J35_SpecialisationDePriseEnCharge_ROR",
     "title" : null,
     "description" : "Spécialisation de prise en charge - ROR",
-    "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_R245-SpecialisationDePriseEnCharge/FHIR/TRE-R245-SpecialisationDePriseEnCharge",
-    "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle"],
+    "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_R245-SpecialisationDePriseEnCharge/FHIR/TRE-R245-SpecialisationDePriseEnCharge"],
     "oids" : ["1.2.250.1.213.3.3.42"],
     "sources" : ["1.2.250.1.213.3.3.42"]
   },
@@ -2503,7 +2502,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J55-CategorieEG-ROR/FHIR/JDV-J55-CategorieEG-ROR",
-    "version" : "20260223120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "JDV_J55_CategorieEG_ROR",
     "title" : null,

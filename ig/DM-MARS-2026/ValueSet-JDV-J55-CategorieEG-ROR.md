@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J55-CategorieEG-ROR/FHIR/JDV-J55-CategorieEG-ROR | *Version*:20260223120000 | |
-| Active as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J55_CategorieEG_ROR |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J55-CategorieEG-ROR/FHIR/JDV-J55-CategorieEG-ROR | *Version*:20260330120000 | |
+| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J55_CategorieEG_ROR |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.65 | | |
 
  
@@ -71,11 +71,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.65"
   }],
-  "version" : "20260223120000",
+  "version" : "20260330120000",
   "name" : "JDV_J55_CategorieEG_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-23T12:00:00+01:00",
+  "date" : "2026-03-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Catégories d'établissements FINESS ou hors FINESS et secteurs d'activité des cabinets",
   "jurisdiction" : [{
@@ -795,6 +795,10 @@ Requête sur le SMT
       {
         "code" : "704",
         "display" : "Autre service territorial"
+      },
+      {
+        "code" : "705",
+        "display" : "Groupe d’Entraide Mutuelle (GEM)"
       }]
     },
     {

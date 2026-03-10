@@ -95,11 +95,75 @@
   "status" : "draft"
 },
 {
+  "id" : "TRE-R210-ActeSpecifique",
+  "name" : "TRE_R210_ActeSpecifique",
+  "title" : null,
+  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique",
+  "identifier" : "urn:oid:1.2.250.1.213.3.3.11",
+  "status" : "active"
+},
+{
+  "id" : "TRE-R211-ActiviteOperationnelle",
+  "name" : "TRE_R211_ActiviteOperationnelle",
+  "title" : null,
+  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle",
+  "identifier" : "urn:oid:1.2.250.1.213.3.3.12",
+  "status" : "active"
+},
+{
+  "id" : "TRE-R213-ModePriseEnCharge",
+  "name" : "TRE_R213_ModePriseEnCharge",
+  "title" : null,
+  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R213-ModePriseEnCharge/FHIR/TRE-R213-ModePriseEnCharge",
+  "identifier" : "urn:oid:1.2.250.1.213.3.3.13",
+  "status" : "active"
+},
+{
+  "id" : "TRE-R227-ChampActivite",
+  "name" : "TRE_R227_ChampActivite",
+  "title" : null,
+  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R227-ChampActivite/FHIR/TRE-R227-ChampActivite",
+  "identifier" : "urn:oid:1.2.250.1.213.3.3.17",
+  "status" : "active"
+},
+{
+  "id" : "TRE-R239-PublicPrisEnCharge",
+  "name" : "TRE_R239_PublicPrisEnCharge",
+  "title" : null,
+  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R239-PublicPrisEnCharge/FHIR/TRE-R239-PublicPrisEnCharge",
+  "identifier" : "urn:oid:1.2.250.1.213.3.3.29",
+  "status" : "active"
+},
+{
+  "id" : "TRE-R243-CompetenceSpecifique",
+  "name" : "TRE_R243_CompetenceSpecifique",
+  "title" : null,
+  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R243-CompetenceSpecifique/FHIR/TRE-R243-CompetenceSpecifique",
+  "identifier" : "urn:oid:1.2.250.1.213.3.3.37",
+  "status" : "active"
+},
+{
+  "id" : "TRE-R244-CategorieOrganisation",
+  "name" : "TRE_R244_CategorieOrganisation",
+  "title" : null,
+  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R244-CategorieOrganisation/FHIR/TRE-R244-CategorieOrganisation",
+  "identifier" : "urn:oid:1.2.250.1.213.3.3.39",
+  "status" : "active"
+},
+{
   "id" : "TRE-R280-DisciplineEquipementSocial",
   "name" : "TRE_R280_DisciplineEquipementSocial",
   "title" : null,
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R280-DisciplineEquipementSocial/FHIR/TRE-R280-DisciplineEquipementSocial",
   "identifier" : "urn:oid:1.2.250.1.213.1.6.1.133",
+  "status" : "active"
+},
+{
+  "id" : "TRE-R338-ModaliteAccueil",
+  "name" : "TRE_R338_ModaliteAccueil",
+  "title" : null,
+  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R338-ModaliteAccueil/FHIR/TRE-R338-ModaliteAccueil",
+  "identifier" : "urn:oid:1.2.250.1.213.3.3.221",
   "status" : "active"
 },
 {
@@ -1015,35 +1079,11 @@
   "status" : "active"
 },
 {
-  "id" : "TRE-R210-ActeSpecifique",
-  "name" : "TRE_R210_ActeSpecifique",
-  "title" : null,
-  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique",
-  "identifier" : "urn:oid:1.2.250.1.213.3.3.11",
-  "status" : "active"
-},
-{
-  "id" : "TRE-R211-ActiviteOperationnelle",
-  "name" : "TRE_R211_ActiviteOperationnelle",
-  "title" : null,
-  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle",
-  "identifier" : "urn:oid:1.2.250.1.213.3.3.12",
-  "status" : "active"
-},
-{
   "id" : "TRE-R212-Equipement",
   "name" : "TRE_R212_Equipement",
   "title" : null,
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement",
   "identifier" : "urn:oid:1.2.250.1.213.3.3.10",
-  "status" : "active"
-},
-{
-  "id" : "TRE-R213-ModePriseEnCharge",
-  "name" : "TRE_R213_ModePriseEnCharge",
-  "title" : null,
-  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R213-ModePriseEnCharge/FHIR/TRE-R213-ModePriseEnCharge",
-  "identifier" : "urn:oid:1.2.250.1.213.3.3.13",
   "status" : "active"
 },
 {
@@ -1159,14 +1199,6 @@
   "status" : "active"
 },
 {
-  "id" : "TRE-R227-ChampActivite",
-  "name" : "TRE_R227_ChampActivite",
-  "title" : null,
-  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R227-ChampActivite/FHIR/TRE-R227-ChampActivite",
-  "identifier" : "urn:oid:1.2.250.1.213.3.3.17",
-  "status" : "active"
-},
-{
   "id" : "TRE-R228-UnitePrix",
   "name" : "TRE_R228_UnitePrix",
   "title" : null,
@@ -1247,14 +1279,6 @@
   "status" : "active"
 },
 {
-  "id" : "TRE-R239-PublicPrisEnCharge",
-  "name" : "TRE_R239_PublicPrisEnCharge",
-  "title" : null,
-  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R239-PublicPrisEnCharge/FHIR/TRE-R239-PublicPrisEnCharge",
-  "identifier" : "urn:oid:1.2.250.1.213.3.3.29",
-  "status" : "active"
-},
-{
   "id" : "TRE-R23-ModeExercice",
   "name" : "TRE_R23_ModeExercice",
   "title" : null,
@@ -1284,22 +1308,6 @@
   "title" : null,
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R242-TypeHabitation/FHIR/TRE-R242-TypeHabitation",
   "identifier" : "urn:oid:1.2.250.1.213.3.3.35",
-  "status" : "active"
-},
-{
-  "id" : "TRE-R243-CompetenceSpecifique",
-  "name" : "TRE_R243_CompetenceSpecifique",
-  "title" : null,
-  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R243-CompetenceSpecifique/FHIR/TRE-R243-CompetenceSpecifique",
-  "identifier" : "urn:oid:1.2.250.1.213.3.3.37",
-  "status" : "active"
-},
-{
-  "id" : "TRE-R244-CategorieOrganisation",
-  "name" : "TRE_R244_CategorieOrganisation",
-  "title" : null,
-  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R244-CategorieOrganisation/FHIR/TRE-R244-CategorieOrganisation",
-  "identifier" : "urn:oid:1.2.250.1.213.3.3.39",
   "status" : "active"
 },
 {
@@ -1980,14 +1988,6 @@
   "title" : null,
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R337-AffectationTemporaire/FHIR/TRE-R337-AffectationTemporaire",
   "identifier" : "urn:oid:1.2.250.1.213.3.3.220",
-  "status" : "active"
-},
-{
-  "id" : "TRE-R338-ModaliteAccueil",
-  "name" : "TRE_R338_ModaliteAccueil",
-  "title" : null,
-  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R338-ModaliteAccueil/FHIR/TRE-R338-ModaliteAccueil",
-  "identifier" : "urn:oid:1.2.250.1.213.3.3.221",
   "status" : "active"
 },
 {

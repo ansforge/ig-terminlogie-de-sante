@@ -140,10 +140,10 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R207_TypeOrganisationInterne](CodeSystem-TRE-R207-TypeOrganisationInterne.md) | Type organisation interne | 15/12/2023 |
 | [TRE_R208_ClasseAge](CodeSystem-TRE-R208-ClasseAge.md) | Classe d'âge | 15/12/2023 |
 | [TRE_R209_TypeActivite](CodeSystem-TRE-R209-TypeActivite.md) | Type d'activité | 23/02/2024 |
-| [TRE_R210_ActeSpecifique](CodeSystem-TRE-R210-ActeSpecifique.md) | Un acte spécifique est une action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé. Les actes réalisés habituellement par ce type d’organisation ne sont pas des actes spécifiques. Les actes spécifiques décrits sont réalisés avec les ressources propres de l’organisation ou via des ressources mises à disposition dans le cadre d’une convention à la condition que ces ressources interviennent sur site dans la réalisation de la prestation. | 22/12/2025 |
-| [TRE_R211_ActiviteOperationnelle](CodeSystem-TRE-R211-ActiviteOperationnelle.md) | Activite Operationnelle | 22/12/2025 |
+| [TRE_R210_ActeSpecifique](CodeSystem-TRE-R210-ActeSpecifique.md) |  | 30/03/2026 |
+| [TRE_R211_ActiviteOperationnelle](CodeSystem-TRE-R211-ActiviteOperationnelle.md) | Activite Operationnelle | 30/03/2026 |
 | [TRE_R212_Equipement](CodeSystem-TRE-R212-Equipement.md) | Equipement | 22/12/2025 |
-| [TRE_R213_ModePriseEnCharge](CodeSystem-TRE-R213-ModePriseEnCharge.md) | Mode de la prise en charge | 22/12/2025 |
+| [TRE_R213_ModePriseEnCharge](CodeSystem-TRE-R213-ModePriseEnCharge.md) | Mode de la prise en charge | 30/03/2026 |
 | [TRE_R216_HL7RoleCode](CodeSystem-TRE-R216-HL7RoleCode.md) | HL7 roleCode | 13/12/2024 |
 | [TRE_R217_ProtectionJuridique](CodeSystem-TRE-R217-ProtectionJuridique.md) | Protection juridique | 15/12/2023 |
 | [TRE_R218_ModeAuthentification](CodeSystem-TRE-R218-ModeAuthentification.md) | Mode d'authentification | 15/12/2023 |
@@ -153,7 +153,7 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R224_NiveauFormAcquis](CodeSystem-TRE-R224-NiveauFormAcquis.md) | Niveaux de formation acquis dans le cycle de formation des étudiants | 15/12/2023 |
 | [TRE_R225_AnneeUniversitaire](CodeSystem-TRE-R225-AnneeUniversitaire.md) | Année universitaire | 09/10/2025 |
 | [TRE_R226_Dip2iemeCycleNQ](CodeSystem-TRE-R226-Dip2iemeCycleNQ.md) | Diplôme de 2ième cycle non qualifiant | 15/12/2023 |
-| [TRE_R227_ChampActivite](CodeSystem-TRE-R227-ChampActivite.md) | Champ d'activité | 15/12/2023 |
+| [TRE_R227_ChampActivite](CodeSystem-TRE-R227-ChampActivite.md) | Champ d'activité | 30/03/2026 |
 | [TRE_R228_UnitePrix](CodeSystem-TRE-R228-UnitePrix.md) | Unité de prix | 15/12/2023 |
 | [TRE_R230_Devise](CodeSystem-TRE-R230-Devise.md) | Devise | 15/12/2023 |
 | [TRE_R231_PalierAuthentification](CodeSystem-TRE-R231-PalierAuthentification.md) | Paliers des référentiels d'authentification de la PGSSI-S | 15/12/2023 |
@@ -161,12 +161,12 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R236_ModeGestion](CodeSystem-TRE-R236-ModeGestion.md) | Mode gestion | 15/12/2023 |
 | [TRE_R237_GroupeTarifaireDependance](CodeSystem-TRE-R237-GroupeTarifaireDependance.md) | Niveau de dépendance associé à un tarif | 15/12/2023 |
 | [TRE_R238_OuvertureAnnuelle](CodeSystem-TRE-R238-OuvertureAnnuelle.md) | Ouverture annuelle | 15/12/2023 |
-| [TRE_R239_PublicPrisEnCharge](CodeSystem-TRE-R239-PublicPrisEnCharge.md) | Public pris en charge | 28/03/2025 |
+| [TRE_R239_PublicPrisEnCharge](CodeSystem-TRE-R239-PublicPrisEnCharge.md) | Public pris en charge | 30/03/2026 |
 | [TRE_R240_TemporaliteAccueil](CodeSystem-TRE-R240-TemporaliteAccueil.md) | Temporalité accueil | 15/12/2023 |
 | [TRE_R241_AideFinanciere](CodeSystem-TRE-R241-AideFinanciere.md) | Habilit. de l'EG permettant aux pers. accueillies d'avoir des aides financières | 15/12/2023 |
 | [TRE_R242_TypeHabitation](CodeSystem-TRE-R242-TypeHabitation.md) | Type habitation | 15/12/2023 |
-| [TRE_R243_CompetenceSpecifique](CodeSystem-TRE-R243-CompetenceSpecifique.md) | Compétence spécifique | 26/04/2024 |
-| [TRE_R244_CategorieOrganisation](CodeSystem-TRE-R244-CategorieOrganisation.md) | Catégorie d'organisation | 23/02/2026 |
+| [TRE_R243_CompetenceSpecifique](CodeSystem-TRE-R243-CompetenceSpecifique.md) | Compétence spécifique | 30/03/2026 |
+| [TRE_R244_CategorieOrganisation](CodeSystem-TRE-R244-CategorieOrganisation.md) | Catégorie d'organisation | 30/03/2026 |
 | [TRE_R245_SpecialisationDePriseEnCharge](CodeSystem-TRE-R245-SpecialisationDePriseEnCharge.md) | Spécialisation de prise en charge | 25/04/2025 |
 | [TRE_R246_TypeTarif](CodeSystem-TRE-R246-TypeTarif.md) | Type tarif | 15/12/2023 |
 | [TRE_R248_ModeAcces](CodeSystem-TRE-R248-ModeAcces.md) | Mode d'accès pour accéder à un SI santé avec données patients | 31/01/2025 |
@@ -246,7 +246,7 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R335_TypeSourceCapacite](CodeSystem-TRE-R335-TypeSourceCapacite.md) | Permet d'indiquer quel type de source est à l'origine de l'information de capacité | 15/12/2023 |
 | [TRE_R336_TypeCrise](CodeSystem-TRE-R336-TypeCrise.md) | Permet d'indiquer le type de crise qui permet de mobiliser le nombre de lits supplémentaires décrits | 15/12/2023 |
 | [TRE_R337_AffectationTemporaire](CodeSystem-TRE-R337-AffectationTemporaire.md) | Permet d'indiquer la réservation de tout ou partie des lits d'une zone d'hébergement pour des patients selon qu'ils soient -ou non- concernés par une pathologie (Covid+, Covid-, …) ou un évènement (catastrophe naturelle, attentat, …) | 15/12/2023 |
-| [TRE_R338_ModaliteAccueil](CodeSystem-TRE-R338-ModaliteAccueil.md) | Modalités d'accueil | 22/12/2025 |
+| [TRE_R338_ModaliteAccueil](CodeSystem-TRE-R338-ModaliteAccueil.md) | Modalités d'accueil | 30/03/2026 |
 | [TRE_R340_TypeCaracteristiqueEquipement](CodeSystem-TRE-R340-TypeCaracteristiqueEquipement.md) | Type de caractéristique de l'équipement | 29/03/2024 |
 | [TRE_R341_StatutCommunication](CodeSystem-TRE-R341-StatutCommunication.md) | Permet de donner une indication pour savoir une action doit être menée ou de son résultat lorsqu'elle a été menée | 15/12/2023 |
 | [TRE_R342_XdsTypesIdentifiantsReferenceId](CodeSystem-TRE-R342-XdsTypesIdentifiantsReferenceId.md) | Types d'identifiants utilisés dans la métadonnée XDS referenceIdList de la fiche du document. Ces types d'identifiants sont spécifiés dans une terminologie incluse dans le profil XDS dans le Cadre Technique d'IHE IT Infrastructure. | 15/12/2023 |

@@ -3862,6 +3862,15 @@
                   longDesignation="Autre service territorial"
                   shortDesignation="Autre service territorial"
                   descriptionMetier="Points locaux d'information dédiés aux personnes âgées. Ces services peuvent être rattachés à des CCAS ( Centre Communaux d'Action Sociale)"/>
+         <Concept code="705"
+                  codeSystem="1.2.250.1.213.1.6.1.378"
+                  dateFin=""
+                  dateMaj="20260330120000"
+                  dateValid="20260330120000"
+                  displayName="Groupe d’Entraide Mutuelle (GEM)"
+                  longDesignation="Groupe d’Entraide Mutuelle (GEM)"
+                  shortDesignation="GEM"
+                  descriptionMetier="Catégorie créée à la demande du ROR. A date aucun enregistrement n'est prévu dans FINESS pour cette catégorie"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

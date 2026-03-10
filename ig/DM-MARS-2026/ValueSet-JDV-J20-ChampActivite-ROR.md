@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J20-ChampActivite-ROR/FHIR/JDV-J20-ChampActivite-ROR | *Version*:20231030120000 | |
-| Active as of 2023-10-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J20_ChampActivite_ROR |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J20-ChampActivite-ROR/FHIR/JDV-J20-ChampActivite-ROR | *Version*:20260330120000 | |
+| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J20_ChampActivite_ROR |
 | *Other Identifiers:*OID:1.2.250.1.213.3.4.7 | | |
 
  
@@ -71,11 +71,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.4.7"
   }],
-  "version" : "20231030120000",
+  "version" : "20260330120000",
   "name" : "JDV_J20_ChampActivite_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2023-10-30T12:00:00+01:00",
+  "date" : "2026-03-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Champ d'activité - ROR",
   "jurisdiction" : [{
@@ -87,7 +87,7 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R227-ChampActivite/FHIR/TRE-R227-ChampActivite",
-      "version" : "20231215120000",
+      "version" : "20260330120000",
       "concept" : [{
         "code" : "01",
         "display" : "Médecine, Chirurgie, Obstétrique (MCO)"
@@ -107,6 +107,10 @@ Requête sur le SMT
       {
         "code" : "05",
         "display" : "Ville"
+      },
+      {
+        "code" : "06",
+        "display" : "Social"
       }]
     }]
   }

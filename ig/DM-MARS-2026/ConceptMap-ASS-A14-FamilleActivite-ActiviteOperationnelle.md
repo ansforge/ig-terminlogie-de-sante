@@ -54,7 +54,7 @@ Association Famille activité - Activité opérationnelle
     "source" : "https://smt.esante.gouv.fr/terminologie-SERAFINPH",
     "sourceVersion" : "2023.1.0",
     "target" : "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle",
-    "targetVersion" : "20251222120000",
+    "targetVersion" : "20260330120000",
     "element" : [{
       "code" : "2.1.1.1",
       "target" : [{
@@ -515,7 +515,7 @@ Association Famille activité - Activité opérationnelle
     "source" : "https://mos.esante.gouv.fr/NOS/TRE_R266-FamilleActiviteOperationnelleHorsSerafin/FHIR/TRE-R266-FamilleActiviteOperationnelleHorsSerafin",
     "sourceVersion" : "20231215120000",
     "target" : "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle",
-    "targetVersion" : "20251222120000",
+    "targetVersion" : "20260330120000",
     "element" : [{
       "code" : "01",
       "target" : [{

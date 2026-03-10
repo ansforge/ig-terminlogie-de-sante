@@ -1,12 +1,12 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>
-1.2.250.1.213.3.3.12;TRE;TRE_R211_ActiviteOperationnelle.tabs;Activite Operationnelle;https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle;20150408000000;;20251222120000
+1.2.250.1.213.3.3.12;TRE;TRE_R211_ActiviteOperationnelle.tabs;Activite Operationnelle;https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle;20150408000000;;20260330120000
 <OID>;<Code>;<Libellé adapté>;<Libellé court>;<Libellé long>;<Date valid>;<Date fin>;<Date MàJ> 
 1.2.250.1.213.3.3.12;001;Addictologie comportementale (sans substance);Addictologie comportementale (sans substance);Addictologie comportementale (sans substance);20150408000000;;20230526120000
 1.2.250.1.213.3.3.12;002;Addictologie sans précision;Addictologie sans précision;Addictologie sans précision;20150408000000;20190705120000;20190705120000
 1.2.250.1.213.3.3.12;003;Alcoologie;Alcoologie;Alcoologie;20150408000000;;20230127120000
 1.2.250.1.213.3.3.12;004;Algologie et Médecine de la douleur;Algologie et Médecine de la douleur;Algologie et Médecine de la douleur;20150408000000;;20160901000000
 1.2.250.1.213.3.3.12;005;Allergologie;Allergologie;Allergologie;20150408000000;;20150408000000
-1.2.250.1.213.3.3.12;006;Andrologie;Andrologie;Andrologie;20150408000000;;20150408000000
+1.2.250.1.213.3.3.12;006;Andrologie (urologie médicale);Andrologie (urologie médicale);Andrologie (urologie médicale);20150408000000;;20260330000000
 1.2.250.1.213.3.3.12;007;Anesthésie et Médecine périopératoire;Anesthésie et Médecine périopératoire;Anesthésie et Médecine périopératoire;20150408000000;;20240531120000
 1.2.250.1.213.3.3.12;008;Assistance circulatoire (UMAC);Assistance circulatoire (UMAC);Assistance circulatoire (UMAC);20150408000000;20161222120000;20161222120000
 1.2.250.1.213.3.3.12;009;Biochimie;Biochimie;Biochimie;20150408000000;;20150408000000
@@ -152,13 +152,13 @@
 1.2.250.1.213.3.3.12;149;Urgences Chirurgie;Urgences Chirurgie;Urgences Chirurgie;20150408000000;20180126120000;20180126120000
 1.2.250.1.213.3.3.12;150;Urgences Gynéco-obstétrique;Urgences Gynéco-obstétrique;Urgences Gynéco-obstétrique;20150408000000;20180126120000;20180126120000
 1.2.250.1.213.3.3.12;151;Urgences médecine;Urgences médecine;Urgences médecine;20150408000000;20180126120000;20180126120000
-1.2.250.1.213.3.3.12;152;Urgences spécialisées Médico-Judiciaires (UMJ);Urgences spécialisées Médico-Judiciaires (UMJ);Urgences spécialisées Médico-Judiciaires (UMJ);20150408000000;;20180126120000
+1.2.250.1.213.3.3.12;152;Evaluation Médico-Judiciaires (UMJ);Evaluation Médico-Judiciaires (UMJ);Evaluation Médico-Judiciaires (UMJ);20150408000000;;20260330120000
 1.2.250.1.213.3.3.12;153;Urgences médico-judiciaires (UMJ);Urgences médico-judiciaires (UMJ);Urgences médico-judiciaires (UMJ);20150408000000;20150504000000;20150504000000
 1.2.250.1.213.3.3.12;154;Urgences spécialisées ophtalmologiques;Urgences spécialisées ophtalmologiques;Urgences spécialisées ophtalmologiques;20150408000000;;20180126120000
 1.2.250.1.213.3.3.12;155;Urgences ophtamologique;Urgences ophtamologique;Urgences ophtamologique;20150408000000;20150504000000;20150504000000
 1.2.250.1.213.3.3.12;156;Urgences spécialisées Oto-Rhino-Laryngologiques (ORL);Urgences spécialisées Oto-Rhino-Laryngologiques (ORL);Urgences spécialisées Oto-Rhino-Laryngologiques (ORL);20150408000000;;20180126120000
 1.2.250.1.213.3.3.12;157;Urgences polyvalentes;Urgences polyvalentes;Urgences polyvalentes;20150408000000;;20150408000000
-1.2.250.1.213.3.3.12;158;Urgences spécialisées psychiatriques;Urgences spécialisées psychiatriques;Urgences spécialisées psychiatriques;20150408000000;;20180126120000
+1.2.250.1.213.3.3.12;158;Urgences psychiatriques;Urgences psychiatriques;Urgences psychiatriques;20150408000000;;20260330120000
 1.2.250.1.213.3.3.12;159;Urgences spécialisées traumatologiques;Urgences spécialisées traumatologiques;Urgences spécialisées traumatologiques;20150408000000;;20180126120000
 1.2.250.1.213.3.3.12;160;Urgences vitales (SAUV - déchocage);Urgences vitales (SAUV - déchocage);Urgences vitales (SAUV - déchocage);20150408000000;;20180126120000
 1.2.250.1.213.3.3.12;161;Vaccinations;Vaccinations;Vaccinations;20150408000000;;20150408000000
@@ -230,7 +230,7 @@
 1.2.250.1.213.3.3.12;227;Psychiatrie de l’enfant (pédopsychiatrie);Psychiatrie de l’enfant (pédopsychiatrie);Psychiatrie de l’enfant (pédopsychiatrie);20170707100000;;20250620120000
 1.2.250.1.213.3.3.12;228;Psychiatrie de l’adolescent (pédopsychiatrie);Psychiatrie de l’adolescent (pédopsychiatrie);Psychiatrie de l’adolescent (pédopsychiatrie);20170707100000;;20250620120000
 1.2.250.1.213.3.3.12;229;Psychiatrie adulte;Psychiatrie adulte;Psychiatrie adulte;20170707100000;;20170707100000
-1.2.250.1.213.3.3.12;230;Psychiatrie périnatale;Psychiatrie périnatale;Psychiatrie périnatale;20170707100000;;20170707100000
+1.2.250.1.213.3.3.12;230;Psychiatrie périnatale;Psychiatrie périnatale;Psychiatrie périnatale;20170707100000;;20260330100000
 1.2.250.1.213.3.3.12;231;Evaluation et soins de réhabilitation psychosociale;Evaluation et soins de réhabilitation psychosociale;Evaluation et soins de réhabilitation psychosociale;20170707100000;;20230630120000
 1.2.250.1.213.3.3.12;232;Bilan expert;Bilan expert;Bilan expert;20170707100000;;20170707100000
 1.2.250.1.213.3.3.12;233;Réadaptation des affections de l'appareil locomoteur;Réadaptation des affections de l'appareil locomoteur;Réadaptation des affections de l'appareil locomoteur;20170707100000;;20230127120000
@@ -309,7 +309,7 @@
 1.2.250.1.213.3.3.12;306;Activités visant la stimulation cognitivo-comportementale;Activités visant la stimulation cognitivo-comportementale;Activités visant la stimulation cognitivo-comportementale;20180126120000;;20180126120000
 1.2.250.1.213.3.3.12;307;Organisation d'activités péri-scolaires-péri-professionnelles;Organisation d'activités péri-scolaires-péri-professionnelles;Organisation d'activités péri-scolaires-péri-professionnelles;20180126120000;;20180126120000
 1.2.250.1.213.3.3.12;308;Soutien à la parentalité et accompagnement familial;Soutien à la parentalité et accompagnement familial;Soutien à la parentalité et accompagnement familial;20180126120000;;20250723120000
-1.2.250.1.213.3.3.12;309;Accompagnements à la vie affective et sexuelle;Accompagnements à la vie affective et sexuelle;Accompagnements à la vie affective et sexuelle;20180126120000;;20241025120000
+1.2.250.1.213.3.3.12;309;Accompagnements à la vie intime, affective et sexuelle;Accompagnements à la vie intime, affective et sexuelle;Accompagnements à la vie intime, affective et sexuelle;20180126120000;;20260330120000
 1.2.250.1.213.3.3.12;310;Accompagnements pour l'exercice des mandats électoraux, la représentation des pairs;Accomp pour exercice des mandats électoraux, représentation des pairs;Accomp pour exercice des mandats électoraux, représentation des pairs;20180126120000;;20180126120000
 1.2.250.1.213.3.3.12;311;Accompagnements pour la pair aidance;Accompagnements pour la pair aidance;Accompagnements pour la pair aidance;20180126120000;;20180126120000
 1.2.250.1.213.3.3.12;312;Accompagnements pour créer ou maintenir le lien social et éviter l'isolement;Accompagnements pour créer ou maintenir le lien social et éviter l'isolement;Accompagnements pour créer ou maintenir le lien social et éviter l'isolement;20180126120000;;20180126120000
@@ -448,7 +448,7 @@
 1.2.250.1.213.3.3.12;445;Biologie moléculaire sur prélèvement Anapath;Biologie moléculaire sur prélèvement Anapath;Biologie moléculaire sur prélèvement Anapath;20211029120000;;20211029120000
 1.2.250.1.213.3.3.12;446;Cytopathologie;Cytopathologie;Cytopathologie;20211029120000;;20211029120000
 1.2.250.1.213.3.3.12;447;Histopathologie;Histopathologie;Histopathologie;20211029120000;;20211029120000
-1.2.250.1.213.3.3.12;448;Diagnostic lié à un retard ou trouble du développement;Diagnostic lié à un retard ou trouble du développement;Diagnostic lié à un retard ou trouble du développement;20211029120000;;20231030120000
+1.2.250.1.213.3.3.12;448;Diagnostic lié à un retard ou Trouble du Neuro-Développement (TND);Diagnostic lié à un retard ou Trouble du Neuro-Développement (TND);Diagnostic lié à un retard ou Trouble du Neuro-Développement (TND);20211029120000;;20260330120000
 1.2.250.1.213.3.3.12;449;Appui et coopération auprès des acteurs de l'enseignement;Appui et coopération auprès des acteurs de l'enseignement;Appui et coopération auprès des acteurs de l'enseignement;20211029120000;;20211029120000
 1.2.250.1.213.3.3.12;450;Accompagnement à la réduction des risques en addictologie;Accompagnement à la réduction des risques en addictologie;Accompagnement à la réduction des risques en addictologie;20220429120000;;20220429120000
 1.2.250.1.213.3.3.12;451;Exploration et prise en charge des troubles du sommeil;Exploration et prise en charge des troubles du sommeil;Exploration et prise en charge des troubles du sommeil;20220429120000;;20220429120000
@@ -510,7 +510,7 @@
 1.2.250.1.213.3.3.12;507;Uro-Radiologie;Uro-Radiologie;Uro-Radiologie;20221028120000;;20221028120000
 1.2.250.1.213.3.3.12;508;Exploration fonctionnelle de l'exercice et du sport;Exploration fonctionnelle de l'exercice et du sport;Exploration fonctionnelle de l'exercice et du sport;20230127120000;;20230526120000
 1.2.250.1.213.3.3.12;509;Traumatologie de l'activité physique et du sport;Traumatologie de l'activité physique et du sport;Traumatologie de l'activité physique et du sport;20230127120000;;20230127120000
-1.2.250.1.213.3.3.12;510;Échographie obstétricale;Échographie obstétricale;Échographie obstétricale;20230127120000;;20250620120000
+1.2.250.1.213.3.3.12;510;Échographie obstétricale de dépistage (1er, 2ème, 3ème trimestre);Échographie obstétricale de dépistage (1er, 2ème, 3ème trimestre);Échographie obstétricale de dépistage (1er, 2ème, 3ème trimestre);20230127120000;;20260330120000
 1.2.250.1.213.3.3.12;511;Accueil et hébergement spécialisé;Accueil et hébergement spécialisé;Accueil et hébergement spécialisé;20230127120000;;20230526120000
 1.2.250.1.213.3.3.12;512;Accueil et orientation des victimes de violences sexuelles;Accueil et orientation des victimes de violences sexuelles;Accueil et orientation des victimes de violences sexuelles;20230127120000;;20230526120000
 1.2.250.1.213.3.3.12;513;Réadaptation locomotrice des patients amputés;Réadaptation locomotrice des patients amputés;Réadaptation locomotrice des patients amputés;20230127120000;;20230127120000
@@ -590,7 +590,7 @@
 1.2.250.1.213.3.3.12;587;Diététique orientation maladies inflammatoires et malabsorptives;Diététique orientation maladies inflammatoires et malabsorptives (MICI, SII, NASH);Diététique orientation maladies inflammatoires et malabsorptives (MICI, SII, NASH);20250620120000;;20250623120000
 1.2.250.1.213.3.3.12;588;Diététique orientation Nutrition du sportif;Diététique orientation Nutrition du sportif;Diététique orientation Nutrition du sportif;20250620120000;;20250623120000
 1.2.250.1.213.3.3.12;589;Diététique orientation Périnatalité;Diététique orientation Périnatalité;Diététique orientation Périnatalité;20250620120000;;20250620120000
-1.2.250.1.213.3.3.12;590;Échographie gynécologique;Échographie gynécologique;Échographie gynécologique;20250620120000;;20250620120000
+1.2.250.1.213.3.3.12;590;Échographie gynécologique;Échographie gynécologique;Échographie gynécologique;20250620120000;;20260330120000
 1.2.250.1.213.3.3.12;591;Ostéopathie médicale;Ostéopathie médicale;Ostéopathie médicale;20250620120000;;20250918120000
 1.2.250.1.213.3.3.12;592;Prévention et lutte contre la tuberculose;Prévention et lutte contre la tuberculose;Prévention et lutte contre la tuberculose;20250620120000;;20250620120000
 1.2.250.1.213.3.3.12;593;Prise en charge coordonnée des patients atteints de maladies rares;Prise en charge coordonnée des patients atteints de maladies rares;Prise en charge coordonnée des patients atteints de maladies rares;20250828120000;;20251017120000
@@ -602,4 +602,14 @@
 1.2.250.1.213.3.3.12;599;Analyse toxicologique;Analyse toxicologique;Analyse toxicologique;20251222120000;;20251222120000
 1.2.250.1.213.3.3.12;600;Prise en charge des malaises et surdoses liés à la prise de drogues;Prise en charge des malaises et surdoses liés à la prise de drogues;Prise en charge des malaises et surdoses liés à la prise de drogues;20251222120000;;20251222120000
 1.2.250.1.213.3.3.12;601;Médiation pour le maintien en hospitalisation;Médiation pour le maintien en hospitalisation;Médiation pour le maintien en hospitalisation;20251222120000;;20251222120000
+1.2.250.1.213.3.3.12;602;Pair aidance pour l'autodétermination;Pair aidance pour l'autodétermination;Pair aidance pour l'autodétermination;20260330120000;;20260330120000
 1.2.250.1.213.3.3.12;603;Prise en charge coordonnée des patients atteints de maladies neurodégénératives;Prise en charge coordonnée des patients atteints de maladies neurodégénératives;Prise en charge coordonnée des patients atteints de maladies neurodégénératives;20251222120000;;20251222120000
+1.2.250.1.213.3.3.12;604;Chirurgie pédiatrique spécialisée orthopédique;Chirurgie pédiatrique spécialisée orthopédique;Chirurgie pédiatrique spécialisée orthopédique;20260330120000;;20260330120000
+1.2.250.1.213.3.3.12;605;Chirurgie pédiatrique spécialisée digestif et viscérale;Chirurgie pédiatrique spécialisée digestif et viscérale;Chirurgie pédiatrique spécialisée digestif et viscérale;20260330120000;;20260330120000
+1.2.250.1.213.3.3.12;606;Accompagnement pour l’autodétermination de la personne;Accompagnement pour l’autodétermination de la personne;Accompagnement pour l’autodétermination de la personne;20260330120000;;20260330120000
+1.2.250.1.213.3.3.12;607;Fonction-ressource : expertise-conseils auprès des acteurs du secteur sanitaire;Fonction-ressource : expertise-conseils auprès des acteurs du secteur sanitaire;Fonction-ressource : expertise-conseils auprès des acteurs du secteur sanitaire;20260330120000;;20260330120000
+1.2.250.1.213.3.3.12;608;Fonction-ressource : expertise-conseils auprès des acteurs du milieu ordinaire;Fonction-ressource : expertise-conseils auprès des acteurs du milieu ordinaire;Fonction-ressource : expertise-conseils auprès des acteurs du milieu ordinaire;20260330120000;;20260330120000
+1.2.250.1.213.3.3.12;609;Fonction-ressource : expertise-conseils auprès de acteurs du secteur judiciaire;Fonction-ressource : expertise-conseils auprès de acteurs du secteur judiciaire;Fonction-ressource : expertise-conseils auprès de acteurs du secteur judiciaire;20260330120000;;20260330120000
+1.2.250.1.213.3.3.12;610;Pédiatrie spécialisée pneumologie;Pédiatrie spécialisée pneumologie;Pédiatrie spécialisée pneumologie;20260330120000;;20260330120000
+1.2.250.1.213.3.3.12;611;Psychiatrie de crise;Psychiatrie de crise;Psychiatrie de crise;20260330120000;;20260330120000
+1.2.250.1.213.3.3.12;612;Echographie obstétricale de diagnostic;Echographie obstétricale de diagnostic;Echographie obstétricale de diagnostic;20260330120000;;20260330120000

@@ -88,7 +88,7 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "http://terminology.hl7.org/CodeSystem/v3-TimingEvent",
-      "version" : "3.0.0",
+      "version" : "4.0.0",
       "concept" : [{
         "code" : "AC",
         "display" : "Avant le repas"

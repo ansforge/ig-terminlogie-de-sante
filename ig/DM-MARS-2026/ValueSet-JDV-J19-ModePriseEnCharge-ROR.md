@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J19-ModePriseEnCharge-ROR/FHIR/JDV-J19-ModePriseEnCharge-ROR | *Version*:20251222120000 | |
-| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J19_ModePriseEnCharge_ROR |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J19-ModePriseEnCharge-ROR/FHIR/JDV-J19-ModePriseEnCharge-ROR | *Version*:20260330120000 | |
+| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J19_ModePriseEnCharge_ROR |
 | *Other Identifiers:*OID:1.2.250.1.213.3.4.1 | | |
 
  
@@ -71,11 +71,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.4.1"
   }],
-  "version" : "20251222120000",
+  "version" : "20260330120000",
   "name" : "JDV_J19_ModePriseEnCharge_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-22T12:00:00+01:00",
+  "date" : "2026-03-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Mode de la prise en charge - ROR",
   "jurisdiction" : [{
@@ -87,7 +87,7 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R213-ModePriseEnCharge/FHIR/TRE-R213-ModePriseEnCharge",
-      "version" : "20251222120000",
+      "version" : "20260330120000",
       "concept" : [{
         "code" : "01",
         "display" : "Accueil Permanence des soins en établissement de santé"
@@ -226,7 +226,7 @@ Requête sur le SMT
       },
       {
         "code" : "58",
-        "display" : "Coordination de parcours"
+        "display" : "Suivi ou coordination de parcours"
       },
       {
         "code" : "59",

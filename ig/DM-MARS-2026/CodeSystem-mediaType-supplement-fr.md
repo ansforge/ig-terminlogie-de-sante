@@ -41,7 +41,7 @@ Traduction Française
     }]
   }],
   "content" : "supplement",
-  "supplements" : "http://terminology.hl7.org/CodeSystem/v3-mediaType|3.0.0",
+  "supplements" : "http://terminology.hl7.org/CodeSystem/v3-mediaType|4.0.0",
   "concept" : [{
     "code" : "application/dicom",
     "designation" : [{

@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle | *Version*:20251222120000 | |
-| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R211_ActiviteOperationnelle |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle | *Version*:20260330120000 | |
+| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R211_ActiviteOperationnelle |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.12 | | |
 
  
@@ -18,7 +18,6 @@ Activite Operationnelle
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
 * [JDV_J17_ActiviteOperationnelle_ROR](ValueSet-JDV-J17-ActiviteOperationnelle-ROR.md)
-* [JDV_J35_SpecialisationDePriseEnCharge_ROR](ValueSet-JDV-J35-SpecialisationDePriseEnCharge-ROR.md)
 * [JDV_J69_ActiviteOperationnelle_Santefr](ValueSet-JDV-J69-ActiviteOperationnelle-Santefr.md)
 
 
@@ -45,11 +44,11 @@ Activite Operationnelle
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.12"
   }],
-  "version" : "20251222120000",
+  "version" : "20260330120000",
   "name" : "TRE_R211_ActiviteOperationnelle",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-22T12:00:00+01:00",
+  "date" : "2026-03-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Activite Operationnelle",
   "jurisdiction" : [{
@@ -60,7 +59,7 @@ Activite Operationnelle
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 602,
+  "count" : 612,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -189,14 +188,14 @@ Activite Operationnelle
   },
   {
     "code" : "006",
-    "display" : "Andrologie",
+    "display" : "Andrologie (urologie médicale)",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2015-04-08T00:00:00+01:00"
+      "valueDateTime" : "2026-03-30T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -2889,14 +2888,14 @@ Activite Operationnelle
   },
   {
     "code" : "152",
-    "display" : "Urgences spécialisées Médico-Judiciaires (UMJ)",
+    "display" : "Evaluation Médico-Judiciaires (UMJ)",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2018-01-26T12:00:00+01:00"
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -3001,14 +3000,14 @@ Activite Operationnelle
   },
   {
     "code" : "158",
-    "display" : "Urgences spécialisées psychiatriques",
+    "display" : "Urgences psychiatriques",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2018-01-26T12:00:00+01:00"
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -4457,13 +4456,14 @@ Activite Operationnelle
   {
     "code" : "230",
     "display" : "Psychiatrie périnatale",
+    "definition" : "Activité de soins psychiatriques spécialisée qui assure l’évaluation, le suivi et le traitement des troubles psychiques survenant pendant la grossesse, le post-partum et la première année de vie de l’enfant, en tenant compte du lien parent-enfant  permettant une prise en charge conjointe des parents et de leur enfant afin de soutenir la relation précoce et prévenir les conséquences développementales.",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2017-07-07T10:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2017-07-07T10:00:00+01:00"
+      "valueDateTime" : "2026-03-30T10:00:00+01:00"
     },
     {
       "code" : "status",
@@ -5767,7 +5767,7 @@ Activite Operationnelle
   },
   {
     "code" : "309",
-    "display" : "Accompagnements à la vie affective et sexuelle",
+    "display" : "Accompagnements à la vie intime, affective et sexuelle",
     "definition" : "Information et accompagnements à la vie affective et sexuelle (inclut l'entretien contraception / pré-IVG etc.)",
     "property" : [{
       "code" : "dateValid",
@@ -5775,7 +5775,7 @@ Activite Operationnelle
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2024-10-25T12:00:00+01:00"
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -8173,7 +8173,7 @@ Activite Operationnelle
   },
   {
     "code" : "448",
-    "display" : "Diagnostic lié à un retard ou trouble du développement",
+    "display" : "Diagnostic lié à un retard ou Trouble du Neuro-Développement (TND)",
     "definition" : "Diagnostic pour répondre à des besoins relatifs au confort physique, la santé, le bien-être physique et mental.",
     "property" : [{
       "code" : "dateValid",
@@ -8181,7 +8181,7 @@ Activite Operationnelle
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2023-10-30T12:00:00+01:00"
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -9343,15 +9343,15 @@ Activite Operationnelle
   },
   {
     "code" : "510",
-    "display" : "Échographie obstétricale",
-    "definition" : "Echographie qui s'applique aux organes pelviens de la femme, en particulier l'utérus, les ovaires, les trompes de Fallope, ainsi que la vessie, le cul-de-sac de Douglas. L'échographie de la grossesse permettent de suivre l'évolution et le bon développement du futur bébé tout au long de ces neuf mois.",
+    "display" : "Échographie obstétricale de dépistage (1er, 2ème, 3ème trimestre)",
+    "definition" : "Au premier trimestre : entre 11 semaines et 13 semaines d’aménorrhée et 6 jours (date du début de grossesse, identification et caractérisation des grossesses multiples, évaluation du risque d’anomalie chromosomique, dépistage de certaines pathologies). Au deuxième trimestre : entre 20 et 25 semaines d’aménorrhée (dépistage de certaines pathologies). Au troisième trimestre : entre 30 et 35 semaines d’aménorrhée (dépistage des retards de croissance intra-utérins et de certaines pathologies, localisation du placenta). Il est préférable de programmer ces examens au milieu de ces différentes périodes. Ces examens de dépistage échographique de première intention sont réalisés dans le cadre d’un suivi obstétrical de proximité, par des échographistes expérimentés dont le matériel répond aux normes définies par la nomenclature générale des actes professionnels. Les possibilités réelles et les limites de cet examen doivent être précisées à la femme enceinte ainsi que les informations disponibles dans le compte rendu d’échographie.",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2023-01-27T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -10698,13 +10698,14 @@ Activite Operationnelle
   {
     "code" : "590",
     "display" : "Échographie gynécologique",
+    "definition" : "L’échographie gynécologique est un examen d’imagerie médicale par ultrasons destiné à explorer les organes pelviens féminins (principalement l’utérus, l’endomètre, les ovaires, les trompes et les structures annexielles) en dehors du suivi obstétrical. Elle est réalisée par voie endovaginale et/ou par voie sus-pubienne afin de rechercher, caractériser ou suivre des anomalies anatomiques ou pathologiques gynécologiques (telles que kystes ovariens, fibromes, adénomyose, endométriose, etc.) et contribuer à la prise en charge clinique adaptée de la patiente.",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2025-06-20T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -10894,6 +10895,22 @@ Activite Operationnelle
     }]
   },
   {
+    "code" : "602",
+    "display" : "Pair aidance pour l'autodétermination",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
     "code" : "603",
     "display" : "Prise en charge coordonnée des patients atteints de maladies neurodégénératives",
     "property" : [{
@@ -10903,6 +10920,152 @@ Activite Operationnelle
     {
       "code" : "dateMaj",
       "valueDateTime" : "2025-12-22T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "604",
+    "display" : "Chirurgie pédiatrique spécialisée orthopédique",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "605",
+    "display" : "Chirurgie pédiatrique spécialisée digestif et viscérale",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "606",
+    "display" : "Accompagnement pour l’autodétermination de la personne",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "607",
+    "display" : "Fonction-ressource : expertise-conseils auprès des acteurs du secteur sanitaire",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "608",
+    "display" : "Fonction-ressource : expertise-conseils auprès des acteurs du milieu ordinaire",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "609",
+    "display" : "Fonction-ressource : expertise-conseils auprès de acteurs du secteur judiciaire",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "610",
+    "display" : "Pédiatrie spécialisée pneumologie",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "611",
+    "display" : "Psychiatrie de crise",
+    "definition" : "Activité de soins psychiatriques qui assure une prise en charge immédiate des situations de crise psychique aiguë, caractérisées par une souffrance intense ou un risque pour la personne, afin de prévenir une aggravation ou une hospitalisation non adaptée. Elle s’appuie sur des interventions brèves, coordonnées et pluridisciplinaires, en lien avec les dispositifs d’urgence.",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "612",
+    "display" : "Echographie obstétricale de diagnostic",
+    "definition" : "En cas d’aspect inhabituel (morphologique et/ou biométrique), de doute ou de difficulté persistante à fournir les éléments demandés pour l’examen de dépistage. Cet examen de deuxième rang est réalisé par des praticiens ayant une expérience et une expertise spécifiques et exerçant en relation avec un (ou plusieurs) Centre(s) Pluridisciplinaire(s) de Diagnostic Prénatal.",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "status",

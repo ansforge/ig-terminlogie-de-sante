@@ -65,7 +65,7 @@
          fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R213-ModePriseEnCharge/FHIR/TRE-R213-ModePriseEnCharge"^^xsd:anyURI ;
          fhir:l <https://mos.esante.gouv.fr/NOS/TRE_R213-ModePriseEnCharge/FHIR/TRE-R213-ModePriseEnCharge>
        ] ;
-       fhir:version [ fhir:v "20251222120000" ] ;
+       fhir:version [ fhir:v "20260330120000" ] ;
        fhir:concept ( [
          fhir:code [ fhir:v "46" ] ;
          fhir:display [ fhir:v "Hébergement (accueil jour et nuit)" ]

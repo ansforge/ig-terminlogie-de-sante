@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J16-ActeSpecifique-ROR/FHIR/JDV-J16-ActeSpecifique-ROR | *Version*:20251222120000 | |
-| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J16_ActeSpecifique_ROR |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J16-ActeSpecifique-ROR/FHIR/JDV-J16-ActeSpecifique-ROR | *Version*:20260330120000 | |
+| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J16_ActeSpecifique_ROR |
 | *Other Identifiers:*OID:1.2.250.1.213.3.4.4 | | |
 
  
@@ -71,11 +71,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.4.4"
   }],
-  "version" : "20251222120000",
+  "version" : "20260330120000",
   "name" : "JDV_J16_ActeSpecifique_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-12-22T12:00:00+01:00",
+  "date" : "2026-03-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Acte spécifique - ROR",
   "jurisdiction" : [{
@@ -87,7 +87,7 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique",
-      "version" : "20251222120000",
+      "version" : "20260330120000",
       "concept" : [{
         "code" : "0001",
         "display" : "Ablation par radiofréquence de trouble du rythme et de conduction"
@@ -419,10 +419,6 @@ Requête sur le SMT
       {
         "code" : "0144",
         "display" : "Contrepulsion par ballon intraaortique (CPBIA)"
-      },
-      {
-        "code" : "0145",
-        "display" : "Coronarographie"
       },
       {
         "code" : "0146",
@@ -1203,10 +1199,6 @@ Requête sur le SMT
       {
         "code" : "0519",
         "display" : "Thoracoscopie"
-      },
-      {
-        "code" : "0522",
-        "display" : "Prise en charge de la tuberculose"
       },
       {
         "code" : "0523",
@@ -2150,7 +2142,7 @@ Requête sur le SMT
       },
       {
         "code" : "0814",
-        "display" : "Soutien et écoute téléphonique"
+        "display" : "Soutien et écoute à distance (par téléphone et/ou par messagerie) "
       },
       {
         "code" : "0815",
@@ -3377,10 +3369,6 @@ Requête sur le SMT
         "display" : "Chirurgie percutanée du rein"
       },
       {
-        "code" : "1165",
-        "display" : "Chirurgie proctologique"
-      },
-      {
         "code" : "1167",
         "display" : "Contention souple d'articulation"
       },
@@ -3909,14 +3897,6 @@ Requête sur le SMT
         "display" : "Échographie de datation de grossesse"
       },
       {
-        "code" : "1302",
-        "display" : "Echographie de mesure de la clarté nucale par PS agréé"
-      },
-      {
-        "code" : "1303",
-        "display" : "Échographie morphologique du 2ème trimestre"
-      },
-      {
         "code" : "1304",
         "display" : "Vérification échographique pré IVG (IPE)"
       },
@@ -4250,7 +4230,7 @@ Requête sur le SMT
       },
       {
         "code" : "1391",
-        "display" : "Maladies vectorielles à tique (Lyme…)"
+        "display" : "Prise en charge de maladies vectorielles à tique (Lyme…)"
       },
       {
         "code" : "1392",
@@ -4458,7 +4438,7 @@ Requête sur le SMT
       },
       {
         "code" : "1453",
-        "display" : "Suivi, repérage précoce et accompagnement du développement psychomoteur, des troubles de comportement et des Troubles Neuro Développementaux"
+        "display" : "Suivi, repérage précoce et accompagnement du développement psychomoteur, des troubles de comportement et des Troubles Neuro Développementaux"
       },
       {
         "code" : "1454",
@@ -4897,6 +4877,26 @@ Requête sur le SMT
         "display" : "Evaluation et suivi des addictions liées au chemsex (cathinones de synthèse, poppers, etc)"
       },
       {
+        "code" : "1565",
+        "display" : "Groupe « entendeurs de voix » - hallucinations auditives"
+      },
+      {
+        "code" : "1566",
+        "display" : "Groupe directives anticipées en psychiatrie"
+      },
+      {
+        "code" : "1567",
+        "display" : "Autodétermination par la participation des adhérents à la gestion de la structure"
+      },
+      {
+        "code" : "1568",
+        "display" : "Activités sociales, culturelles, sportives et de loisirs"
+      },
+      {
+        "code" : "1569",
+        "display" : "Dépôt de plainte sur site"
+      },
+      {
         "code" : "1570",
         "display" : "Rééducation vésico-sphinctérienne"
       },
@@ -4935,6 +4935,150 @@ Requête sur le SMT
       {
         "code" : "1579",
         "display" : "Centre de ressources et de compétences sclérose en plaques (SEP)"
+      },
+      {
+        "code" : "1580",
+        "display" : "Relayage courte durée (quelques heures par jour)"
+      },
+      {
+        "code" : "1581",
+        "display" : "Relayage longue durée (sur plusieurs jours)"
+      },
+      {
+        "code" : "1582",
+        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en cardiologie"
+      },
+      {
+        "code" : "1583",
+        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie cardiaque et gros vaisseaux"
+      },
+      {
+        "code" : "1584",
+        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie digestive et viscérale"
+      },
+      {
+        "code" : "1585",
+        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie maxillo-faciale et stomatologie"
+      },
+      {
+        "code" : "1586",
+        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie orthopédique et traumatologie"
+      },
+      {
+        "code" : "1587",
+        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie pédiatrique orthopédique et traumatologie"
+      },
+      {
+        "code" : "1588",
+        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie pédiatrique viscérale et digestive"
+      },
+      {
+        "code" : "1589",
+        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie thoracique et pulmonaire"
+      },
+      {
+        "code" : "1590",
+        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie vasculaire"
+      },
+      {
+        "code" : "1591",
+        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en dermatologie"
+      },
+      {
+        "code" : "1592",
+        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en endocrinologie"
+      },
+      {
+        "code" : "1593",
+        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en gériatrie (gérontologie)"
+      },
+      {
+        "code" : "1594",
+        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en gynécologie"
+      },
+      {
+        "code" : "1595",
+        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en hématologie"
+      },
+      {
+        "code" : "1596",
+        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en hépato-gastro-entérologie"
+      },
+      {
+        "code" : "1597",
+        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en maladies infectieuses et tropicales"
+      },
+      {
+        "code" : "1598",
+        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en médecine interne"
+      },
+      {
+        "code" : "1599",
+        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en médecine vasculaire"
+      },
+      {
+        "code" : "1600",
+        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en néphrologie (dont dialyse)"
+      },
+      {
+        "code" : "1601",
+        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en neurochirurgie"
+      },
+      {
+        "code" : "1602",
+        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en neurologie"
+      },
+      {
+        "code" : "1603",
+        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en oncologie"
+      },
+      {
+        "code" : "1604",
+        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en ophtalmologie"
+      },
+      {
+        "code" : "1605",
+        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en oto-rhino-laryngologie (ORL) et chirurgie cervico-faciale"
+      },
+      {
+        "code" : "1606",
+        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en pédiatrie"
+      },
+      {
+        "code" : "1607",
+        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en pneumologie"
+      },
+      {
+        "code" : "1608",
+        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en rhumatologie"
+      },
+      {
+        "code" : "1609",
+        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en urologie"
+      },
+      {
+        "code" : "1610",
+        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en caisson oxygène hyperbare"
+      },
+      {
+        "code" : "1611",
+        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie de la main SOS main"
+      },
+      {
+        "code" : "1612",
+        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en odontologie"
+      },
+      {
+        "code" : "1613",
+        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en psychiatrie (dont équipe de liaison)"
+      },
+      {
+        "code" : "1614",
+        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en radiologie interventionnelle"
+      },
+      {
+        "code" : "1615",
+        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) rachis"
       }]
     }]
   }

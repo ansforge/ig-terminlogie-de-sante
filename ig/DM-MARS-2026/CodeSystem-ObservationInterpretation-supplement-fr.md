@@ -41,7 +41,7 @@ Traduction Française
     }]
   }],
   "content" : "supplement",
-  "supplements" : "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation|3.0.0",
+  "supplements" : "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation|4.0.0",
   "concept" : [{
     "code" : "<",
     "designation" : [{

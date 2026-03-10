@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J29-PublicPrisEnCharge-ROR/FHIR/JDV-J29-PublicPrisEnCharge-ROR | *Version*:20250328120000 | |
-| Active as of 2025-03-28 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J29_PublicPrisEnCharge_ROR |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J29-PublicPrisEnCharge-ROR/FHIR/JDV-J29-PublicPrisEnCharge-ROR | *Version*:20260330120000 | |
+| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J29_PublicPrisEnCharge_ROR |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.30 | | |
 
  
@@ -71,11 +71,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.30"
   }],
-  "version" : "20250328120000",
+  "version" : "20260330120000",
   "name" : "JDV_J29_PublicPrisEnCharge_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-03-28T12:00:00+01:00",
+  "date" : "2026-03-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Public pris en charge - ROR",
   "jurisdiction" : [{
@@ -87,7 +87,7 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R239-PublicPrisEnCharge/FHIR/TRE-R239-PublicPrisEnCharge",
-      "version" : "20250328120000",
+      "version" : "20260330120000",
       "concept" : [{
         "code" : "01",
         "display" : "Personnes âgées en perte d'autonomie (PA) et aidants"
@@ -123,6 +123,10 @@ Requête sur le SMT
       {
         "code" : "09",
         "display" : "Personnes atteintes de pathologies chroniques ou présentant une affection de longue durée (ALD)"
+      },
+      {
+        "code" : "10",
+        "display" : "Victime de violence (intrafamiliale, professionnelle, prostitutionnelle, cyber)"
       }]
     }]
   }

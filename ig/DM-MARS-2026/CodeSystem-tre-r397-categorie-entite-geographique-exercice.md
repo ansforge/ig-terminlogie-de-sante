@@ -66,7 +66,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
   "caseSensitive" : false,
   "hierarchyMeaning" : "is-a",
   "content" : "complete",
-  "count" : 428,
+  "count" : 429,
   "property" : [{
     "code" : "niveau",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#niveau",
@@ -21659,6 +21659,47 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "dateMaj",
       "valueDateTime" : "2025-12-22T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    },
+    {
+      "code" : "specialisationRor",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "ror",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "705",
+    "display" : "Groupe d’Entraide Mutuelle (GEM)",
+    "definition" : "Catégorie créée à la demande du ROR. A date aucun enregistrement n'est prévu dans FINESS pour cette catégorie",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "GEM"
+    }],
+    "property" : [{
+      "code" : "niveau",
+      "valueInteger" : 4
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "status",

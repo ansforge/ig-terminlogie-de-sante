@@ -41,7 +41,7 @@ Traduction Française
     }]
   }],
   "content" : "supplement",
-  "supplements" : "http://terminology.hl7.org/CodeSystem/v3-ParticipationType|5.0.0",
+  "supplements" : "http://terminology.hl7.org/CodeSystem/v3-ParticipationType|6.0.0",
   "concept" : [{
     "code" : "ADM",
     "designation" : [{

@@ -87,7 +87,7 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R213-ModePriseEnCharge/FHIR/TRE-R213-ModePriseEnCharge",
-      "version" : "20251222120000",
+      "version" : "20260330120000",
       "concept" : [{
         "code" : "46",
         "display" : "Hébergement (accueil jour et nuit)"
