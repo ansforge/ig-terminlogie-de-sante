@@ -137,14 +137,12 @@ Description: "Public pris en charge"
 * #09 ^property[=].valueCode = #active
 * #10 "Victime de violence (intrafamiliale, professionnelle, prostitutionnelle, cyber)"
 * #10 ^designation[0].language = #fr-FR
-* #10 ^designation[=].use = $sct#900000000000013009
-* #10 ^designation[=].value = "Pathologies chroniques ou ALD"
-* #10 ^designation[+].language = #fr-FR
+* #10 ^designation[=].use.system = "http://snomed.info/sct"
 * #10 ^designation[=].use = $sct#900000000000013009
 * #10 ^designation[=].value = "Victime de violence"
 * #10 ^property[0].code = #dateValid
-* #10 ^property[=].valueDateTime = "2024-04-26T12:00:00+01:00"
+* #10 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #10 ^property[+].code = #dateMaj
-* #10 ^property[=].valueDateTime = "2024-04-26T12:00:00+01:00"
+* #10 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #10 ^property[+].code = #status
 * #10 ^property[=].valueCode = #active

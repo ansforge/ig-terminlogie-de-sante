@@ -13,7 +13,7 @@ Description: "Public pris en charge - ROR"
 * ^version = "20260330120000"
 * ^status = #active
 * ^experimental = false
-* ^date = "2025-03-30T12:00:00+01:00"
+* ^date = "2026-03-30T12:00:00+01:00"
 * ^publisher = "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * $TRE-R239-PublicPrisEnCharge#01 "Personnes âgées en perte d'autonomie (PA) et aidants"
