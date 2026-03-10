@@ -38,7 +38,7 @@
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "7.0.1"
+    "version" : "7.1.0"
   },
   {
     "id" : "hl7ext",
@@ -36176,7 +36176,7 @@
       "reference" : {
         "reference" : "ValueSet/jdv-j373-type-autorite"
       },
-      "name" : "Jdv J373 Type Autorité",
+      "name" : "Jdv J373 Type Autorite",
       "description" : "Jeu de valeurs contenant les différents types d'autorité (actifs ou inactifs)",
       "exampleBoolean" : false
     },
@@ -36188,7 +36188,7 @@
       "reference" : {
         "reference" : "ValueSet/jdv-j374-autorite"
       },
-      "name" : "Jdv J374 Autorité",
+      "name" : "Jdv J374 Autorite",
       "description" : "Jeu de valeurs contenant la liste des autorités quelque soit la catégorie d'autorité et quelque soir l'état de l'autorité active ou inactive)",
       "exampleBoolean" : false
     },
@@ -36198,9 +36198,9 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/jdv-j375-ordre"
+        "reference" : "ValueSet/jdv-j375-autorite-ordre"
       },
-      "name" : "Jdv J375 ordre",
+      "name" : "Jdv J375 Autorite Ordre",
       "description" : "Jeu de valeurs comportant uniquement les autorités de type Ordre.",
       "exampleBoolean" : false
     },
@@ -43644,7 +43644,7 @@
         "reference" : "CodeSystem/tre-r395-engagement"
       },
       "name" : "Tre R395 Engagement",
-      "description" : "Nomenclature des engagements associés dans FINESS+ aux Personnes morales, aux entités géographique, aux groupements ou à leurs activités",
+      "description" : "Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes morales, aux entités géographique, aux groupements ou à leurs activités. Cette TRE remplace la TRE-R278-Convention",
       "exampleBoolean" : false
     },
     {

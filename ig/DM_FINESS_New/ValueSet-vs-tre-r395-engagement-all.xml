@@ -17,10 +17,6 @@
     </valuePeriod>
   </extension>
   <url value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r395-engagement?vs"/>
-  <identifier>
-    <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:1.2.250.1.213.1.6.1.322"/>
-  </identifier>
   <version value="20250716120000"/>
   <name value="VsTreR395EngagementAll"/>
   <title value="Vs Tre R395 Engagement All"/>

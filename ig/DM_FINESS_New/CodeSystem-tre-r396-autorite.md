@@ -24,7 +24,7 @@ liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS
 * [JdvJ360AutoriteRegulationFiness](ValueSet-jdv-j360-autorite-regulation-finess.md)
 * [JdvJ373TypeAutorite](ValueSet-jdv-j373-type-autorite.md)
 * [JdvJ374Autorite](ValueSet-jdv-j374-autorite.md)
-* [JdvJ375Ordre](ValueSet-jdv-j375-ordre.md)
+* [JdvJ375AutoriteOrdre](ValueSet-jdv-j375-autorite-ordre.md)
 
 
 

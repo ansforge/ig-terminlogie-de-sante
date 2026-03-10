@@ -17,10 +17,6 @@
     </valuePeriod>
   </extension>
   <url value="https://mos.esante.gouv.fr/NOS/TRE_G09-DepartementOM/FHIR/TRE-G09-DepartementOM?vs"/>
-  <identifier>
-    <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:1.2.250.1.213.1.6.1.370"/>
-  </identifier>
   <version value="20250222120000"/>
   <name value="VsTreG09DepartementOmAll"/>
   <title value="Vs Tre G09 Departement Om All"/>

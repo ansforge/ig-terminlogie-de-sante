@@ -10,7 +10,6 @@
 | :--- | :--- | :--- |
 | *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee?vs | *Version*:20250222120000 | |
 | Active as of 2025-02-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:VsTreR274ActiviteSanitaireReguleeAll |
-| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.345 | | |
 
  
 Jeu de valeurs FINESS contenant les activités sanitaires soumises à une régulation de la part de l’ARS. 
@@ -67,10 +66,6 @@ Requête sur le SMT
     }
   }],
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee?vs",
-  "identifier" : [{
-    "system" : "urn:ietf:rfc:3986",
-    "value" : "urn:oid:1.2.250.1.213.1.6.1.345"
-  }],
   "version" : "20250222120000",
   "name" : "VsTreR274ActiviteSanitaireReguleeAll",
   "title" : "Vs Tre R274 Activite Sanitaire Regulee All",

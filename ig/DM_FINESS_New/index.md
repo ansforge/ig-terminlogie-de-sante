@@ -80,36 +80,36 @@ Certaines ressources sémantiques de ce guide sont protégées par des droits de
 
 * This material derives from the HL7 Terminology (THO). THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: [https://terminology.hl7.org/license.html](https://terminology.hl7.org/license.html)
 
-* [AllergyIntolerance Clinical Status Codes](http://terminology.hl7.org/7.0.1/CodeSystem-allergyintolerance-clinical.html): [AllergyIntoleranceClinicalStatusCodes](ValueSet-jdv-hl7-allergyintolerance-clinical-cisis.md)
+* [AllergyIntolerance Clinical Status Codes](http://terminology.hl7.org/7.1.0/CodeSystem-allergyintolerance-clinical.html): [AllergyIntoleranceClinicalStatusCodes](ValueSet-jdv-hl7-allergyintolerance-clinical-cisis.md)
 * [Condition Clinical Status Codes](CodeSystem-condition-clinical.md): [ConditionClinicalStatusCodes](ValueSet-jdv-hl7-condition-clinical-cisis.md)
 * [ConditionVerificationStatus](CodeSystem-condition-ver-status.md): [ConditionVerificationStatus](ValueSet-jdv-hl7-condition-ver-status-cisis.md)
-* [Security Role Type](http://terminology.hl7.org/7.0.1/CodeSystem-extra-security-role-type.html): [SNOMED_CT](CodeSystem-11000315107-20250621.md)
-* [HL7 Terminology Maintenance Infrastructure Vocabulary](http://terminology.hl7.org/7.0.1/CodeSystem-hl7TermMaintInfra.html): [EmploymentStatus](CodeSystem-v2-0066.md) and [SpecimenType](CodeSystem-v2-0487.md)
-* [UsageContextType](http://terminology.hl7.org/7.0.1/CodeSystem-usage-context-type.html): [ASS_12_CorresMediaTypeCDANonStructure_XdsFormatCode_CISIS](ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.md), [ASS_A11_CorresModeleCDA_XdsFormatCode_CISIS](ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.md), [Alignement_Codes_NUVA_CIP_CIPUCD](ConceptMap-alignement-nuva-cipucd.md), [Alignement_Codes_NUVA_CIS_CIP_BDMP](ConceptMap-alignement-nuva-bdpm.md) and [Alignement_Codes_Presentation_BDPM_CIPUCD](ConceptMap-alignement-bdpm-cipucd.md)
+* [Security Role Type](http://terminology.hl7.org/7.1.0/CodeSystem-extra-security-role-type.html): [SNOMED_CT](CodeSystem-11000315107-20250621.md)
+* [HL7 Terminology Maintenance Infrastructure Vocabulary](http://terminology.hl7.org/7.1.0/CodeSystem-hl7TermMaintInfra.html): [EmploymentStatus](CodeSystem-v2-0066.md) and [SpecimenType](CodeSystem-v2-0487.md)
+* [UsageContextType](http://terminology.hl7.org/7.1.0/CodeSystem-usage-context-type.html): [ASS_12_CorresMediaTypeCDANonStructure_XdsFormatCode_CISIS](ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.md), [ASS_A11_CorresModeleCDA_XdsFormatCode_CISIS](ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.md), [Alignement_Codes_NUVA_CIP_CIPUCD](ConceptMap-alignement-nuva-cipucd.md), [Alignement_Codes_NUVA_CIS_CIP_BDMP](ConceptMap-alignement-nuva-bdpm.md) and [Alignement_Codes_Presentation_BDPM_CIPUCD](ConceptMap-alignement-bdpm-cipucd.md)
 * [employmentStatus](CodeSystem-v2-0066.md): [Hl7VSEmploymentStatus](ValueSet-jdv-hl7-v2-0066-cisis.md)
 * [specimenType](CodeSystem-v2-0487.md): [JdvSpecimenTypeCisis](ValueSet-jdv-specimen-type-cisis.md)
 * [specimenCollectionMethod](CodeSystem-v2-0488.md): [Hl7VSSpecimenCollectionMethod](ValueSet-jdv-hl7-v2-0488-cisis.md)
-* [ActClass](http://terminology.hl7.org/7.0.1/CodeSystem-v3-ActClass.html): [ActCode](CodeSystem-v3-ActCode.md)
-* [ActCode](CodeSystem-v3-ActCode.md): [ActEncounterCode](ValueSet-jdv-hl7-v3-ActEncounterCode-cisis.md), [ActPharmacySupplyType](ValueSet-jdv-hl7-v3-ActPharmacySupplyType-cisis.md)... Show 6 more, [ActSubstanceAdministrationCode](ValueSet-jdv-hl7-v3-ActSubstanceAdministrationCode-cisis.md), [ActSubstanceAdministrationImmunizationCode](ValueSet-jdv-hl7-v3-ActSubstanceAdministrationImmunizationCode-cisis.md), [JdvCompletudeDispensationCisis](ValueSet-jdv-completude-dispensation-cisis.md), [JdvEncompassingEncounterCodeCisis](ValueSet-jdv-encompassing-encounter-code-cisis.md), [ROIOverlayShape](ValueSet-jdv-hl7-v3-ROIOverlayShape-cisis.md) and [SeverityObservationCode](ValueSet-jdv-hl7-v3-SeverityObservationCode-cisis.md)
-* [ActMood](CodeSystem-v3-ActMood.md): [ActMood](ValueSet-jdv-hl7-v3-ActMood-cisis.md), [ActMoodIntent](ValueSet-jdv-hl7-v3-ActMoodIntent-cisis.md) and [XActMoodDocumentObservation](ValueSet-jdv-hl7-v3-xActMoodDocumentObservation.md)
-* [ActPriority](CodeSystem-v3-ActPriority.md): [ActPriority](ValueSet-jdv-hl7-v3-ActPriority-cisis.md)
-* [ActStatus](CodeSystem-v3-ActStatus.md): [ActStatus](ValueSet-jdv-hl7-v3-ActStatus-cisis.md)
-* [AdministrativeGender](CodeSystem-v3-AdministrativeGender.md): [AdministrativeGender](ValueSet-jdv-hl7-v3-AdministrativeGender-cisis.md) and [JdvReferenceRangeAppliesToCisis](ValueSet-jdv-reference-range-applies-to-cisis.md)
-* [Confidentiality](CodeSystem-v3-Confidentiality.md): [Confidentiality](ValueSet-jdv-hl7-v2-0952-cisis.md) and [XBasicConfidentialityKind](ValueSet-jdv-hl7-v3-xBasicConfidentialityKind-cisis.md)
-* [EntityClass](http://terminology.hl7.org/7.0.1/CodeSystem-v3-EntityClass.html): [EntityCode](CodeSystem-v3-EntityCode.md)
-* [EntityCode](CodeSystem-v3-EntityCode.md): [SpecimenAdditiveEntity](ValueSet-jdv-hl7-v3-SpecimenAdditiveEntity-cisis.md)
-* [ObservationInterpretation](CodeSystem-v3-ObservationInterpretation.md): [JdvIndicateurAnormaliteCisis](ValueSet-jdv-indicateur-anormalite-cisis.md) and [ObservationInterpretation](ValueSet-jdv-hl7-v3-ObservationInterpretation-cisis.md)
-* [ObservationMethod](CodeSystem-v3-ObservationMethod.md): [ObservationMethod](ValueSet-jdv-hl7-v3-ObservationMethod-cisis.md)
-* [ObservationValue](CodeSystem-v3-ObservationValue.md): [ADICAP](NamingSystem-ADICAP.md), [ATC](CodeSystem-terminologie-atc.md)... Show 26 more, [Alignement_Codes_NUVA_CIP_CIPUCD](ConceptMap-alignement-nuva-cipucd.md), [Alignement_Codes_NUVA_CIS_CIP_BDMP](ConceptMap-alignement-nuva-bdpm.md), [Alignement_Codes_Presentation_BDPM_CIPUCD](ConceptMap-alignement-bdpm-cipucd.md), [BDPM](CodeSystem-terminologie-bdpm.md), [CIM11_MMS](CodeSystem-terminologie-cim11-mms.md), [CIM_10_FR_PMSI](CodeSystem-terminologie-cim-10.md), [CISP_2](CodeSystem-terminologie-cisp.md), [ClaDiMed](CodeSystem-terminologie-cladimed.md), [Dictionnaire_SMS_Substance_Management_Services_](CodeSystem-terminologie-sms.md), [EMDN](CodeSystem-terminologie-emdn.md), [EmploymentStatusODH](ValueSet-jdv-hl7-v3-employmentStatusODH-cisis.md), [IHERoleCode_Vocabulary](NamingSystem-IHERoleCodeVocabulary.md), [LOINC](NamingSystem-v3-loinc.md), [MEDDRA](NamingSystem-MEDDRA.md), [NABM](CodeSystem-terminologie-nabm.md), [NCIT](NamingSystem-NCIT.md), [NUVA](CodeSystem-terminologie-nuva.md), [PCS](NamingSystem-PCS.md), [SERAFIN](NamingSystem-SERAFIN.md), [Snomed_CT_core_900000000000207008](NamingSystem-Snomed-CT-core.md), [Standard_terms_EDQM](CodeSystem-terminologie-standardterms.md), [TRE_R13_CommuneOM](CodeSystem-TRE-R13-CommuneOM.md), [TRE_R16_LieuFormation](CodeSystem-TRE-R16-LieuFormation.md), [TRE_R210_ActeSpecifique](CodeSystem-TRE-R210-ActeSpecifique.md), [UCUM](NamingSystem-UCUM.md) and [WorkScheduleODH](ValueSet-jdv-hl7-v3-WorkScheduleODH-cisis.md)
-* [ParticipationFunction](CodeSystem-v3-ParticipationFunction.md): [ParticipationFunction](ValueSet-jdv-hl7-v3-ParticipationFunction-cisis.md)
-* [ParticipationType](CodeSystem-v3-ParticipationType.md): [JdvParticipantAdditionnelResultatCisis](ValueSet-jdv-participant-additionnel-resultat-cisis.md), [JdvParticipantResultatCisis](ValueSet-jdv-participant-resultat-cisis.md) and [ParticipationType](ValueSet-jdv-hl7-v3-ParticipationType-cisis.md)
-* [RoleClass](http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleClass.html): [JdvRoleInformateurCisis](ValueSet-jdv-role-informateur-cisis.md), [RoleClassIngredientEntity](ValueSet-jdv-hl7-v3-RoleClassIngredientEntity-cisis.md) and [RoleCode](CodeSystem-v3-RoleCode.md)
-* [RoleCode](CodeSystem-v3-RoleCode.md): [CoverageRoleType](ValueSet-jdv-hl7-v3-CoverageRoleType-cisis.md), [JdvFamilleFemmeCisis](ValueSet-jdv-famille-femme-cisis.md)... Show 4 more, [JdvFamilleIdCisis](ValueSet-jdv-famille-id-cisis.md), [JdvLienAssureBeneficiaireCisis](ValueSet-jdv-lien-assure-beneficiaire-cisis.md), [PersonalRelationshipRoleType](ValueSet-jdv-hl7-v3-PersonalRelationshipRoleType-cisis.md) and [SpecimenRoleType](ValueSet-jdv-hl7-v3-SpecimenRoleType-cisis.md)
-* [SpecimenType](http://terminology.hl7.org/7.0.1/CodeSystem-v3-SpecimenType.html): [JdvSpecimenTypeCisis](ValueSet-jdv-specimen-type-cisis.md)
-* [TimingEvent](CodeSystem-v3-TimingEvent.md): [TimingEvent](ValueSet-jdv-hl7-v3-TimingEvent-cisis.md)
-* [Media Type](CodeSystem-v3-mediaType.md): [JdvMediatypeCorpsCdaNonStructureCisis](ValueSet-jdv-mediatype-corps-cda-non-structure-cisis.md) and [MediaType](ValueSet-jdv-hl7-v3-MediaType-cisis.md)
-* [Orderable Drug Form](CodeSystem-v3-orderableDrugForm.md): [AdministrableDrugForm](ValueSet-jdv-hl7-v3-AdministrableDrugForm-cisis.md)
-* [Substance Admin Substitution](CodeSystem-v3-substanceAdminSubstitution.md): [ActSubstanceAdminSubstitutionCode](ValueSet-jdv-hl7-v3-ActSubstanceAdminSubstitutionCode-cisis.md)
+* [ActClass](http://terminology.hl7.org/7.1.0/CodeSystem-v3-ActClass.html): [ActCode](CodeSystem-v3-ActCode.md)
+* [ActCode](http://terminology.hl7.org/7.1.0/CodeSystem-v3-ActCode.html): [ActEncounterCode](ValueSet-jdv-hl7-v3-ActEncounterCode-cisis.md), [ActPharmacySupplyType](ValueSet-jdv-hl7-v3-ActPharmacySupplyType-cisis.md)... Show 6 more, [ActSubstanceAdministrationCode](ValueSet-jdv-hl7-v3-ActSubstanceAdministrationCode-cisis.md), [ActSubstanceAdministrationImmunizationCode](ValueSet-jdv-hl7-v3-ActSubstanceAdministrationImmunizationCode-cisis.md), [JdvCompletudeDispensationCisis](ValueSet-jdv-completude-dispensation-cisis.md), [JdvEncompassingEncounterCodeCisis](ValueSet-jdv-encompassing-encounter-code-cisis.md), [ROIOverlayShape](ValueSet-jdv-hl7-v3-ROIOverlayShape-cisis.md) and [SeverityObservationCode](ValueSet-jdv-hl7-v3-SeverityObservationCode-cisis.md)
+* [ActMood](http://terminology.hl7.org/7.1.0/CodeSystem-v3-ActMood.html): [ActMood](ValueSet-jdv-hl7-v3-ActMood-cisis.md), [ActMoodIntent](ValueSet-jdv-hl7-v3-ActMoodIntent-cisis.md) and [XActMoodDocumentObservation](ValueSet-jdv-hl7-v3-xActMoodDocumentObservation.md)
+* [ActPriority](http://terminology.hl7.org/7.1.0/CodeSystem-v3-ActPriority.html): [ActPriority](ValueSet-jdv-hl7-v3-ActPriority-cisis.md)
+* [ActStatus](http://terminology.hl7.org/7.1.0/CodeSystem-v3-ActStatus.html): [ActStatus](ValueSet-jdv-hl7-v3-ActStatus-cisis.md)
+* [AdministrativeGender](http://terminology.hl7.org/7.1.0/CodeSystem-v3-AdministrativeGender.html): [AdministrativeGender](ValueSet-jdv-hl7-v3-AdministrativeGender-cisis.md) and [JdvReferenceRangeAppliesToCisis](ValueSet-jdv-reference-range-applies-to-cisis.md)
+* [Confidentiality](http://terminology.hl7.org/7.1.0/CodeSystem-v3-Confidentiality.html): [Confidentiality](ValueSet-jdv-hl7-v2-0952-cisis.md) and [XBasicConfidentialityKind](ValueSet-jdv-hl7-v3-xBasicConfidentialityKind-cisis.md)
+* [EntityClass](http://terminology.hl7.org/7.1.0/CodeSystem-v3-EntityClass.html): [EntityCode](CodeSystem-v3-EntityCode.md)
+* [EntityCode](http://terminology.hl7.org/7.1.0/CodeSystem-v3-EntityCode.html): [SpecimenAdditiveEntity](ValueSet-jdv-hl7-v3-SpecimenAdditiveEntity-cisis.md)
+* [ObservationInterpretation](http://terminology.hl7.org/7.1.0/CodeSystem-v3-ObservationInterpretation.html): [JdvIndicateurAnormaliteCisis](ValueSet-jdv-indicateur-anormalite-cisis.md) and [ObservationInterpretation](ValueSet-jdv-hl7-v3-ObservationInterpretation-cisis.md)
+* [ObservationMethod](http://terminology.hl7.org/7.1.0/CodeSystem-v3-ObservationMethod.html): [ObservationMethod](ValueSet-jdv-hl7-v3-ObservationMethod-cisis.md)
+* [ObservationValue](http://terminology.hl7.org/7.1.0/CodeSystem-v3-ObservationValue.html): [ADICAP](NamingSystem-ADICAP.md), [ATC](CodeSystem-terminologie-atc.md)... Show 26 more, [Alignement_Codes_NUVA_CIP_CIPUCD](ConceptMap-alignement-nuva-cipucd.md), [Alignement_Codes_NUVA_CIS_CIP_BDMP](ConceptMap-alignement-nuva-bdpm.md), [Alignement_Codes_Presentation_BDPM_CIPUCD](ConceptMap-alignement-bdpm-cipucd.md), [BDPM](CodeSystem-terminologie-bdpm.md), [CIM11_MMS](CodeSystem-terminologie-cim11-mms.md), [CIM_10_FR_PMSI](CodeSystem-terminologie-cim-10.md), [CISP_2](CodeSystem-terminologie-cisp.md), [ClaDiMed](CodeSystem-terminologie-cladimed.md), [Dictionnaire_SMS_Substance_Management_Services_](CodeSystem-terminologie-sms.md), [EMDN](CodeSystem-terminologie-emdn.md), [EmploymentStatusODH](ValueSet-jdv-hl7-v3-employmentStatusODH-cisis.md), [IHERoleCode_Vocabulary](NamingSystem-IHERoleCodeVocabulary.md), [LOINC](NamingSystem-v3-loinc.md), [MEDDRA](NamingSystem-MEDDRA.md), [NABM](CodeSystem-terminologie-nabm.md), [NCIT](NamingSystem-NCIT.md), [NUVA](CodeSystem-terminologie-nuva.md), [PCS](NamingSystem-PCS.md), [SERAFIN](NamingSystem-SERAFIN.md), [Snomed_CT_core_900000000000207008](NamingSystem-Snomed-CT-core.md), [Standard_terms_EDQM](CodeSystem-terminologie-standardterms.md), [TRE_R13_CommuneOM](CodeSystem-TRE-R13-CommuneOM.md), [TRE_R16_LieuFormation](CodeSystem-TRE-R16-LieuFormation.md), [TRE_R210_ActeSpecifique](CodeSystem-TRE-R210-ActeSpecifique.md), [UCUM](NamingSystem-UCUM.md) and [WorkScheduleODH](ValueSet-jdv-hl7-v3-WorkScheduleODH-cisis.md)
+* [ParticipationFunction](http://terminology.hl7.org/7.1.0/CodeSystem-v3-ParticipationFunction.html): [ParticipationFunction](ValueSet-jdv-hl7-v3-ParticipationFunction-cisis.md)
+* [ParticipationType](http://terminology.hl7.org/7.1.0/CodeSystem-v3-ParticipationType.html): [JdvParticipantAdditionnelResultatCisis](ValueSet-jdv-participant-additionnel-resultat-cisis.md), [JdvParticipantResultatCisis](ValueSet-jdv-participant-resultat-cisis.md) and [ParticipationType](ValueSet-jdv-hl7-v3-ParticipationType-cisis.md)
+* [RoleClass](http://terminology.hl7.org/7.1.0/CodeSystem-v3-RoleClass.html): [JdvRoleInformateurCisis](ValueSet-jdv-role-informateur-cisis.md), [RoleClassIngredientEntity](ValueSet-jdv-hl7-v3-RoleClassIngredientEntity-cisis.md) and [RoleCode](CodeSystem-v3-RoleCode.md)
+* [RoleCode](http://terminology.hl7.org/7.1.0/CodeSystem-v3-RoleCode.html): [CoverageRoleType](ValueSet-jdv-hl7-v3-CoverageRoleType-cisis.md), [JdvFamilleFemmeCisis](ValueSet-jdv-famille-femme-cisis.md)... Show 4 more, [JdvFamilleIdCisis](ValueSet-jdv-famille-id-cisis.md), [JdvLienAssureBeneficiaireCisis](ValueSet-jdv-lien-assure-beneficiaire-cisis.md), [PersonalRelationshipRoleType](ValueSet-jdv-hl7-v3-PersonalRelationshipRoleType-cisis.md) and [SpecimenRoleType](ValueSet-jdv-hl7-v3-SpecimenRoleType-cisis.md)
+* [SpecimenType](http://terminology.hl7.org/7.1.0/CodeSystem-v3-SpecimenType.html): [JdvSpecimenTypeCisis](ValueSet-jdv-specimen-type-cisis.md)
+* [TimingEvent](http://terminology.hl7.org/7.1.0/CodeSystem-v3-TimingEvent.html): [TimingEvent](ValueSet-jdv-hl7-v3-TimingEvent-cisis.md)
+* [Media Type](http://terminology.hl7.org/7.1.0/CodeSystem-v3-mediaType.html): [JdvMediatypeCorpsCdaNonStructureCisis](ValueSet-jdv-mediatype-corps-cda-non-structure-cisis.md) and [MediaType](ValueSet-jdv-hl7-v3-MediaType-cisis.md)
+* [Orderable Drug Form](http://terminology.hl7.org/7.1.0/CodeSystem-v3-orderableDrugForm.html): [AdministrableDrugForm](ValueSet-jdv-hl7-v3-AdministrableDrugForm-cisis.md)
+* [Substance Admin Substitution](http://terminology.hl7.org/7.1.0/CodeSystem-v3-substanceAdminSubstitution.html): [ActSubstanceAdminSubstitutionCode](ValueSet-jdv-hl7-v3-ActSubstanceAdminSubstitutionCode-cisis.md)
 
 
 * US government funded - content free to use by all
@@ -175,7 +175,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "7.0.1"
+    "version" : "7.1.0"
   },
   {
     "id" : "hl7ext",
@@ -36313,7 +36313,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       "reference" : {
         "reference" : "ValueSet/jdv-j373-type-autorite"
       },
-      "name" : "Jdv J373 Type Autorité",
+      "name" : "Jdv J373 Type Autorite",
       "description" : "Jeu de valeurs contenant les différents types d'autorité (actifs ou inactifs)",
       "exampleBoolean" : false
     },
@@ -36325,7 +36325,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
       "reference" : {
         "reference" : "ValueSet/jdv-j374-autorite"
       },
-      "name" : "Jdv J374 Autorité",
+      "name" : "Jdv J374 Autorite",
       "description" : "Jeu de valeurs contenant la liste des autorités quelque soit la catégorie d'autorité et quelque soir l'état de l'autorité active ou inactive)",
       "exampleBoolean" : false
     },
@@ -36335,9 +36335,9 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
         "valueString" : "ValueSet"
       }],
       "reference" : {
-        "reference" : "ValueSet/jdv-j375-ordre"
+        "reference" : "ValueSet/jdv-j375-autorite-ordre"
       },
-      "name" : "Jdv J375 ordre",
+      "name" : "Jdv J375 Autorite Ordre",
       "description" : "Jeu de valeurs comportant uniquement les autorités de type Ordre.",
       "exampleBoolean" : false
     },
@@ -43781,7 +43781,7 @@ Ceci est un IG R4. Aucune des fonctionnalités qu'il utilise n'est modifiée dan
         "reference" : "CodeSystem/tre-r395-engagement"
       },
       "name" : "Tre R395 Engagement",
-      "description" : "Nomenclature des engagements associés dans FINESS+ aux Personnes morales, aux entités géographique, aux groupements ou à leurs activités",
+      "description" : "Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes morales, aux entités géographique, aux groupements ou à leurs activités. Cette TRE remplace la TRE-R278-Convention",
       "exampleBoolean" : false
     },
     {

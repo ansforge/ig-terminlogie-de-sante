@@ -2768,7 +2768,7 @@
     "status" : "active",
     "name" : "TreR395Engagement",
     "title" : "Tre R395 Engagement",
-    "description" : "Nomenclature des engagements associés dans FINESS+ aux Personnes morales, aux entités géographique, aux groupements ou à leurs activités",
+    "description" : "Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes morales, aux entités géographique, aux groupements ou à leurs activités. Cette TRE remplace la TRE-R278-Convention",
     "oids" : ["1.2.250.1.213.1.6.1.376"]
   },
   {

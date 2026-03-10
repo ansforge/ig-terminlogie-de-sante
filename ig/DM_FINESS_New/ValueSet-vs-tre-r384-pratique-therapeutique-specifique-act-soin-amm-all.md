@@ -10,7 +10,6 @@
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r384-pratique-therapeutique-specifique-act-de-soin-amm?vs | *Version*:20250222120000 | |
 | Active as of 2025-02-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:VsTreR384PratiqueTherapeutiqueSpecifiqueActDeSoinAmmAll |
-| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.356 | | |
 
  
 Jeu de valeurs ALL contenant les pratiques thérapeutiques spécifiques pour les activités de soin AMM 
@@ -67,10 +66,6 @@ Requête sur le SMT
     }
   }],
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r384-pratique-therapeutique-specifique-act-de-soin-amm?vs",
-  "identifier" : [{
-    "system" : "urn:ietf:rfc:3986",
-    "value" : "urn:oid:1.2.250.1.213.1.6.1.356"
-  }],
   "version" : "20250222120000",
   "name" : "VsTreR384PratiqueTherapeutiqueSpecifiqueActDeSoinAmmAll",
   "title" : "Vs Tre R384 Pratique Therapeutique Specifique Act De Soin Amm All",

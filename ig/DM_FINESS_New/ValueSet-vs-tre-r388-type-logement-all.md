@@ -10,7 +10,6 @@
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r388-type-logement?vs | *Version*:20250222120000 | |
 | Active as of 2025-02-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:VsTreR388TypeLogementAll |
-| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.364 | | |
 
  
 Jeu de valeurs ALL contenant les types de logement associés aux capacités des structures FINESS 
@@ -67,10 +66,6 @@ Requête sur le SMT
     }
   }],
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r388-type-logement?vs",
-  "identifier" : [{
-    "system" : "urn:ietf:rfc:3986",
-    "value" : "urn:oid:1.2.250.1.213.1.6.1.364"
-  }],
   "version" : "20250222120000",
   "name" : "VsTreR388TypeLogementAll",
   "title" : "Vs Tre R388 Type Logement All",

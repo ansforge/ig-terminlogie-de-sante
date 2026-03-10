@@ -17,10 +17,6 @@
     </valuePeriod>
   </extension>
   <url value="https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM?vs"/>
-  <identifier>
-    <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:1.2.250.1.213.1.6.1.369"/>
-  </identifier>
   <version value="20250222120000"/>
   <name value="VsTreR30RegionOmAll"/>
   <title value="Vs Tre R30 Region Om All"/>

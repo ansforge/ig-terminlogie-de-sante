@@ -10,7 +10,6 @@
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r370-role-relation-ege?vs | *Version*:20250222120000 | |
 | Active as of 2025-02-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:VsTreR370RoleRelationEgeAll |
-| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.320 | | |
 
  
 Jeu de valeurs ALL contenant les types de rôle existant entre les Entités Géographiques d’Exercice (EGE) au sein d’une PM-SMSSE. 
@@ -67,10 +66,6 @@ Requête sur le SMT
     }
   }],
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r370-role-relation-ege?vs",
-  "identifier" : [{
-    "system" : "urn:ietf:rfc:3986",
-    "value" : "urn:oid:1.2.250.1.213.1.6.1.320"
-  }],
   "version" : "20250222120000",
   "name" : "VsTreR370RoleRelationEgeAll",
   "title" : "Vs Tre R370 Role Relation Ege All",

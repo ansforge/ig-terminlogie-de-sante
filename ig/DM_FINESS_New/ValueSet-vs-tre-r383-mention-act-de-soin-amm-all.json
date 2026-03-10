@@ -18,10 +18,6 @@
     }
   }],
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r383-mention-act-de-soin-amm?vs",
-  "identifier" : [{
-    "system" : "urn:ietf:rfc:3986",
-    "value" : "urn:oid:1.2.250.1.213.1.6.1.355"
-  }],
   "version" : "20250222120000",
   "name" : "VsTreR383MentionActDeSoinAmmAll",
   "title" : "Vs Tre R383 Mention Act De Soin Amm All",

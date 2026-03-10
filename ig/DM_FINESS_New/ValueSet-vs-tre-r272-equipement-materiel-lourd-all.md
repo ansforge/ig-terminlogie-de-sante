@@ -10,7 +10,6 @@
 | :--- | :--- | :--- |
 | *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R272-EquipementMaterielLourd/FHIR/TRE-R272-EquipementMaterielLourd?vs | *Version*:20250222120000 | |
 | Active as of 2025-02-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:VsTreR272EquipementMaterielLourdAll |
-| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.351 | | |
 
  
 Jeu de valeurs ALL contenant les équipements matériels lourds 
@@ -67,10 +66,6 @@ Requête sur le SMT
     }
   }],
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R272-EquipementMaterielLourd/FHIR/TRE-R272-EquipementMaterielLourd?vs",
-  "identifier" : [{
-    "system" : "urn:ietf:rfc:3986",
-    "value" : "urn:oid:1.2.250.1.213.1.6.1.351"
-  }],
   "version" : "20250222120000",
   "name" : "VsTreR272EquipementMaterielLourdAll",
   "title" : "Vs Tre R272 Equipement Materiel Lourd All",

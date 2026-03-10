@@ -36,13 +36,6 @@
      fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r395-engagement?vs"^^xsd:anyURI ;
      fhir:l <https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r395-engagement?vs>
   ] ; # 
-  fhir:identifier ( [
-     fhir:system [
-       fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
-       fhir:l <urn:ietf:rfc:3986>
-     ] ;
-     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.6.1.322" ]
-  ] ) ; # 
   fhir:version [ fhir:v "20250716120000"] ; # 
   fhir:name [ fhir:v "VsTreR395EngagementAll"] ; # 
   fhir:title [ fhir:v "Vs Tre R395 Engagement All"] ; # 

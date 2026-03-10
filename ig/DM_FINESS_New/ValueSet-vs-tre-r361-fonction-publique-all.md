@@ -10,7 +10,6 @@
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r361-fonction-publique?vs | *Version*:20250222120000 | |
 | Active as of 2025-02-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:VsTreR361FonctionPubliqueAll |
-| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.264 | | |
 
  
 Jeu de valeurs ALL contenant les versants de la fonction publique. 
@@ -67,10 +66,6 @@ Requête sur le SMT
     }
   }],
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r361-fonction-publique?vs",
-  "identifier" : [{
-    "system" : "urn:ietf:rfc:3986",
-    "value" : "urn:oid:1.2.250.1.213.1.6.1.264"
-  }],
   "version" : "20250222120000",
   "name" : "VsTreR361FonctionPubliqueAll",
   "title" : "Vs Tre R361 Fonction Publique All",

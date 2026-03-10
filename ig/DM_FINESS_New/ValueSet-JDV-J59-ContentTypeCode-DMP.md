@@ -33,8 +33,6 @@ Requête sur le SMT
 
 ### Expansion
 
-No Expansion for this valueset (Unknown Code System)
-
 -------
 
  Explanation of the columns that may appear on this page: 
@@ -88,26 +86,164 @@ No Expansion for this valueset (Unknown Code System)
   }],
   "compose" : {
     "include" : [{
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee",
-      "filter" : [{
-        "property" : "dmp",
-        "op" : "=",
-        "value" : "true"
-      }]
-    },
-    {
-      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee",
-      "filter" : [{
-        "property" : "dmp",
-        "op" : "=",
-        "value" : "true"
-      }]
-    },
-    {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_A00-ProducteurDocNonPS/FHIR/TRE-A00-ProducteurDocNonPS",
       "concept" : [{
         "code" : "EXP_PATIENT",
         "display" : "Expression personnelle du patient"
+      }]
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r406-forme-activite-smsse-regulee",
+      "concept" : [{
+        "code" : "05",
+        "display" : "Hospitalisation à domicile (au domicile du patient)"
+      },
+      {
+        "code" : "11",
+        "display" : "Centre postcure"
+      },
+      {
+        "code" : "12",
+        "display" : "Centre de crise"
+      }]
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee",
+      "concept" : [{
+        "code" : "03",
+        "display" : "Hospitalisation complète (non compris hospitalisation de semaine)"
+      },
+      {
+        "code" : "04",
+        "display" : "Hospitalisation de jour"
+      },
+      {
+        "code" : "07",
+        "display" : "Consultations soins externes"
+      },
+      {
+        "code" : "08",
+        "display" : "Bloc opératoire (y compris obstétrical et gynécologique)"
+      },
+      {
+        "code" : "09",
+        "display" : "Autres unités médico-techniques (anesthésiologie, explor fonct, rééduc et réadapt fonct, pharmacie)"
+      },
+      {
+        "code" : "11",
+        "display" : "Hébergement complet ou internat (non compris internat de semaine)"
+      },
+      {
+        "code" : "13",
+        "display" : "Semi-internat"
+      },
+      {
+        "code" : "14",
+        "display" : "Externat"
+      },
+      {
+        "code" : "15",
+        "display" : "Placement en famille d'accueil (strictement social)"
+      },
+      {
+        "code" : "16",
+        "display" : "Prestations sur le lieu de vie (non compris placement familial)"
+      },
+      {
+        "code" : "17",
+        "display" : "Internat de semaine"
+      },
+      {
+        "code" : "18",
+        "display" : "Hébergement de nuit en structure éclatée"
+      },
+      {
+        "code" : "19",
+        "display" : "Traitement et cure ambulatoire"
+      },
+      {
+        "code" : "20",
+        "display" : "Hospitalisation de semaine"
+      },
+      {
+        "code" : "21",
+        "display" : "Accueil de Jour (sans distinction entre semi-internat et externat)"
+      },
+      {
+        "code" : "22",
+        "display" : "Accueil de nuit"
+      },
+      {
+        "code" : "25",
+        "display" : "Accueil temporaire week-end ou vacances"
+      },
+      {
+        "code" : "26",
+        "display" : "Analyses médicales biologiques"
+      },
+      {
+        "code" : "27",
+        "display" : "Accueil modulable/séquentiel"
+      },
+      {
+        "code" : "28",
+        "display" : "Consultations dentaires et soins dentaires"
+      },
+      {
+        "code" : "33",
+        "display" : "Recherche"
+      },
+      {
+        "code" : "37",
+        "display" : "Accueil et prise en charge en appartement thérapeutique"
+      },
+      {
+        "code" : "40",
+        "display" : "Accueil temporaire avec hébergement"
+      },
+      {
+        "code" : "42",
+        "display" : "Equipe mobile de rue"
+      },
+      {
+        "code" : "43",
+        "display" : "Tous modes d'accueil avec hébergement"
+      },
+      {
+        "code" : "44",
+        "display" : "Accueil temporaire de jour"
+      },
+      {
+        "code" : "45",
+        "display" : "Accueil temporaire (avec et sans hébergement)"
+      },
+      {
+        "code" : "46",
+        "display" : "Tous modes d'accueil (avec et sans hébergement)"
+      },
+      {
+        "code" : "47",
+        "display" : "Accueil de jour et accompagnement en milieu ordinaire"
+      },
+      {
+        "code" : "48",
+        "display" : "Tous modes d'accueil et d'accompagnement"
+      },
+      {
+        "code" : "50",
+        "display" : "Protection juridique"
+      },
+      {
+        "code" : "52",
+        "display" : "Accompagnement social personnalisé"
+      },
+      {
+        "code" : "60",
+        "display" : "Consultations et actes"
+      },
+      {
+        "code" : "97",
+        "display" : "Type d'activité indifférencié"
       }]
     },
     {

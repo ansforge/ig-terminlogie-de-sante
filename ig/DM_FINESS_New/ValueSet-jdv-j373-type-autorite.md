@@ -1,10 +1,10 @@
-# Jdv J373 Type Autorité - Terminologies de Santé (Publiées par l'ANS) v0.1.0
+# Jdv J373 Type Autorite - Terminologies de Santé (Publiées par l'ANS) v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
-* **Jdv J373 Type Autorité**
+* **Jdv J373 Type Autorite**
 
-## ValueSet: Jdv J373 Type Autorité 
+## ValueSet: Jdv J373 Type Autorite 
 
 | | | |
 | :--- | :--- | :--- |
@@ -73,7 +73,7 @@ Requête sur le SMT
   }],
   "version" : "2025080120000",
   "name" : "JdvJ373TypeAutorite",
-  "title" : "Jdv J373 Type Autorité",
+  "title" : "Jdv J373 Type Autorite",
   "status" : "active",
   "experimental" : false,
   "date" : "2025-08-26T18:02:28.249+00:00",

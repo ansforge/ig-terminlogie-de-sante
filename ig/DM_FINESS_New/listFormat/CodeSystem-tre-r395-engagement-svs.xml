@@ -4,7 +4,7 @@
    <ValueSet dateFin=""
              dateMaj="20250716120000"
              dateValid="20250716120000"
-             description="Nomenclature des engagements associés dans FINESS+ aux Personnes morales, aux entités géographique, aux groupements ou à leurs activités"
+             description="Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes morales, aux entités géographique, aux groupements ou à leurs activités. Cette TRE remplace la TRE-R278-Convention"
              displayName="TreR395Engagement"
              id="1.2.250.1.213.1.6.1.376"
              typeFichier="TRE"

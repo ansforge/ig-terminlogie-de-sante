@@ -1,10 +1,10 @@
-# Jdv J374 Autorité - Terminologies de Santé (Publiées par l'ANS) v0.1.0
+# Jdv J374 Autorite - Terminologies de Santé (Publiées par l'ANS) v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
-* **Jdv J374 Autorité**
+* **Jdv J374 Autorite**
 
-## ValueSet: Jdv J374 Autorité 
+## ValueSet: Jdv J374 Autorite 
 
 | | | |
 | :--- | :--- | :--- |
@@ -73,7 +73,7 @@ Requête sur le SMT
   }],
   "version" : "2025080120000",
   "name" : "JdvJ374Autorite",
-  "title" : "Jdv J374 Autorité",
+  "title" : "Jdv J374 Autorite",
   "status" : "active",
   "experimental" : false,
   "date" : "2025-08-26T18:02:28.249+00:00",

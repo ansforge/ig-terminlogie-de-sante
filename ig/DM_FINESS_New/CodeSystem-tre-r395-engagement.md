@@ -13,7 +13,7 @@
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.376 | | |
 
  
-Nomenclature des engagements associés dans FINESS+ aux Personnes morales, aux entités géographique, aux groupements ou à leurs activités 
+Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes morales, aux entités géographique, aux groupements ou à leurs activités. Cette TRE remplace la TRE-R278-Convention 
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
@@ -54,7 +54,7 @@ Nomenclature des engagements associés dans FINESS+ aux Personnes morales, aux e
   "experimental" : false,
   "date" : "2025-07-16T12:00:00.000+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description" : "Nomenclature des engagements associés dans FINESS+ aux Personnes morales, aux entités géographique, aux groupements ou à leurs activités",
+  "description" : "Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes morales, aux entités géographique, aux groupements ou à leurs activités. Cette TRE remplace la TRE-R278-Convention",
   "caseSensitive" : false,
   "hierarchyMeaning" : "is-a",
   "content" : "complete",

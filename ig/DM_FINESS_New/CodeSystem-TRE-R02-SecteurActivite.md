@@ -93,6 +93,12 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     "type" : "boolean"
   },
   {
+    "code" : "cisis",
+    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#cisis",
+    "description" : "Permet de définir les codes concepts uilisés dans le J03 du CISIS",
+    "type" : "boolean"
+  },
+  {
     "code" : "deprecationDate",
     "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
     "description" : "Date Concept was deprecated",
@@ -200,6 +206,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "ror",
       "valueBoolean" : true
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   },
   {
@@ -224,6 +234,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   },
   {
@@ -243,6 +257,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     },
     {
       "code" : "ror",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "cisis",
       "valueBoolean" : true
     }]
   },
@@ -264,6 +282,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "ror",
       "valueBoolean" : true
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   },
   {
@@ -283,6 +305,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     },
     {
       "code" : "ror",
+      "valueBoolean" : true
+    },
+    {
+      "code" : "cisis",
       "valueBoolean" : true
     }]
   },
@@ -308,6 +334,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   },
   {
@@ -356,6 +386,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   },
   {
@@ -380,6 +414,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   },
   {
@@ -405,6 +443,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   },
   {
@@ -429,6 +471,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   },
   {
@@ -453,6 +499,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   },
   {
@@ -477,6 +527,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   },
   {
@@ -501,6 +555,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   },
   {
@@ -526,6 +584,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   },
   {
@@ -550,6 +612,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   },
   {
@@ -574,6 +640,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   },
   {
@@ -590,6 +660,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   },
   {
@@ -606,6 +680,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   },
   {
@@ -622,6 +700,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   },
   {
@@ -646,6 +728,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   },
   {
@@ -670,6 +756,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   },
   {
@@ -686,6 +776,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   },
   {
@@ -710,6 +804,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   },
   {
@@ -734,6 +832,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   },
   {
@@ -750,6 +852,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   },
   {
@@ -774,6 +880,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   },
   {
@@ -798,6 +908,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   },
   {
@@ -814,6 +928,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   },
   {
@@ -830,6 +948,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   },
   {
@@ -846,6 +968,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   },
   {
@@ -862,6 +988,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   },
   {
@@ -886,6 +1016,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   },
   {
@@ -902,6 +1036,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   },
   {
@@ -918,6 +1056,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   },
   {
@@ -942,6 +1084,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   },
   {
@@ -966,6 +1112,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   },
   {
@@ -982,6 +1132,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   },
   {
@@ -998,6 +1152,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   },
   {
@@ -1022,6 +1180,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   },
   {
@@ -1046,6 +1208,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   },
   {
@@ -1078,6 +1244,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   },
   {
@@ -1094,6 +1264,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   },
   {
@@ -1126,6 +1300,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   },
   {
@@ -1142,6 +1320,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   },
   {
@@ -1167,6 +1349,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   },
   {
@@ -1199,6 +1385,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   },
   {
@@ -1223,6 +1413,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   },
   {
@@ -1247,6 +1441,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   },
   {
@@ -1271,6 +1469,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   },
   {
@@ -1303,6 +1505,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   },
   {
@@ -1319,6 +1525,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   },
   {
@@ -1351,6 +1561,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   },
   {
@@ -1367,6 +1581,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   },
   {
@@ -1399,6 +1617,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   },
   {
@@ -1415,6 +1637,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   },
   {
@@ -1439,6 +1665,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   },
   {
@@ -1488,6 +1718,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   },
   {
@@ -1512,6 +1746,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   },
   {
@@ -1528,6 +1766,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   },
   {
@@ -1560,6 +1802,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   },
   {
@@ -1592,6 +1838,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   },
   {
@@ -1624,6 +1874,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   },
   {
@@ -1640,6 +1894,10 @@ Le secteur d’activité de santé est une donnée RPPS et correspond au type de
     {
       "code" : "status",
       "valueCode" : "active"
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
     }]
   }]
 }

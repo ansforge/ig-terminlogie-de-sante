@@ -51,7 +51,7 @@
   fhir:experimental [ fhir:v false] ; # 
   fhir:date [ fhir:v "2025-07-16T12:00:00.000+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
-  fhir:description [ fhir:v "Nomenclature des engagements associés dans FINESS+ aux Personnes morales, aux entités géographique, aux groupements ou à leurs activités"] ; # 
+  fhir:description [ fhir:v "Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes morales, aux entités géographique, aux groupements ou à leurs activités. Cette TRE remplace la TRE-R278-Convention"] ; # 
   fhir:caseSensitive [ fhir:v false] ; # 
   fhir:hierarchyMeaning [ fhir:v "is-a"] ; # 
   fhir:content [ fhir:v "complete"] ; # 

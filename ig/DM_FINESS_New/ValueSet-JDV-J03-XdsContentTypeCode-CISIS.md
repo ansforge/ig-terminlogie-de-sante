@@ -104,9 +104,9 @@ Requête sur le SMT
     {
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite",
       "filter" : [{
-        "property" : "status",
+        "property" : "cisis",
         "op" : "=",
-        "value" : "active"
+        "value" : "true"
       }]
     },
     {
@@ -115,21 +115,6 @@ Requête sur le SMT
         "property" : "cisis",
         "op" : "=",
         "value" : "true"
-      }]
-    }],
-    "exclude" : [{
-      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R02-SecteurActivite/FHIR/TRE-R02-SecteurActivite",
-      "concept" : [{
-        "code" : "SA01"
-      },
-      {
-        "code" : "SA02"
-      },
-      {
-        "code" : "SA03"
-      },
-      {
-        "code" : "SA04"
       }]
     }]
   }

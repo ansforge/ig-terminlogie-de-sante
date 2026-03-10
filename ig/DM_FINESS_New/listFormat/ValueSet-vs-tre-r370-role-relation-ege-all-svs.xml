@@ -6,7 +6,7 @@
              dateValid="20250222180228"
              description="Jeu de valeurs ALL contenant les types de rôle existant entre les Entités Géographiques d'Exercice (EGE) au sein d'une PM-SMSSE."
              displayName="VsTreR370RoleRelationEgeAll"
-             id="1.2.250.1.213.1.6.1.320"
+             id=""
              typeFichier="JDV"
              urlFichier="">
       <ConceptList/>

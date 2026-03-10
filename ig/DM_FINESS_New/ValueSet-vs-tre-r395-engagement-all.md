@@ -10,7 +10,6 @@
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r395-engagement?vs | *Version*:20250716120000 | |
 | Active as of 2025-07-16 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:VsTreR395EngagementAll |
-| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.322 | | |
 
  
 Jeu de valeurs ALL contenant les engagements FINESS 
@@ -67,10 +66,6 @@ Requête sur le SMT
     }
   }],
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r395-engagement?vs",
-  "identifier" : [{
-    "system" : "urn:ietf:rfc:3986",
-    "value" : "urn:oid:1.2.250.1.213.1.6.1.322"
-  }],
   "version" : "20250716120000",
   "name" : "VsTreR395EngagementAll",
   "title" : "Vs Tre R395 Engagement All",

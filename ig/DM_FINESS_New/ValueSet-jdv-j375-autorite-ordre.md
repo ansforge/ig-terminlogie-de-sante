@@ -1,15 +1,15 @@
-# Jdv J375 ordre - Terminologies de Santé (Publiées par l'ANS) v0.1.0
+# Jdv J375 Autorite Ordre - Terminologies de Santé (Publiées par l'ANS) v0.1.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
-* **Jdv J375 ordre**
+* **Jdv J375 Autorite Ordre**
 
-## ValueSet: Jdv J375 ordre 
+## ValueSet: Jdv J375 Autorite Ordre 
 
 | | | |
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j375-ordre | *Version*:20250826120000 | |
-| Active as of 2025-08-26 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ375Ordre |
+| Active as of 2025-08-26 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvJ375AutoriteOrdre |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.389 | | |
 
  
@@ -53,7 +53,7 @@ Requête sur le SMT
 ```json
 {
   "resourceType" : "ValueSet",
-  "id" : "jdv-j375-ordre",
+  "id" : "jdv-j375-autorite-ordre",
   "meta" : {
     "versionId" : "1",
     "lastUpdated" : "2025-08-26T18:02:28.249+00:00",
@@ -72,8 +72,8 @@ Requête sur le SMT
     "value" : "urn:oid:1.2.250.1.213.1.6.1.389"
   }],
   "version" : "20250826120000",
-  "name" : "JdvJ375Ordre",
-  "title" : "Jdv J375 ordre",
+  "name" : "JdvJ375AutoriteOrdre",
+  "title" : "Jdv J375 Autorite Ordre",
   "status" : "active",
   "experimental" : false,
   "date" : "2025-08-26T18:02:28.249+00:00",

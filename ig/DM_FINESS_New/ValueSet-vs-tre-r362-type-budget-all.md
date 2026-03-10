@@ -10,7 +10,6 @@
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r362-type-budget?vs | *Version*:20250222120000 | |
 | Active as of 2025-02-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:VsTreR362TypeBudgetAll |
-| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.265 | | |
 
  
 Jeu de valeurs ALL contenant les types de budget associés aux Entités Géographiques d’Exercice (EGE) dans FINESS+. 
@@ -67,10 +66,6 @@ Requête sur le SMT
     }
   }],
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r362-type-budget?vs",
-  "identifier" : [{
-    "system" : "urn:ietf:rfc:3986",
-    "value" : "urn:oid:1.2.250.1.213.1.6.1.265"
-  }],
   "version" : "20250222120000",
   "name" : "VsTreR362TypeBudgetAll",
   "title" : "Vs Tre R362 Type Budget All",

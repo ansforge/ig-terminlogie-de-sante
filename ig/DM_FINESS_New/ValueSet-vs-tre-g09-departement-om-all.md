@@ -10,7 +10,6 @@
 | :--- | :--- | :--- |
 | *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_G09-DepartementOM/FHIR/TRE-G09-DepartementOM?vs | *Version*:20250222120000 | |
 | Active as of 2025-02-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:VsTreG09DepartementOmAll |
-| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.370 | | |
 
  
 Jeu de valeurs ALL contenant le référentiel des codes départements et collectivités d’outre-mer provenant du COG INSEE + Monaco 
@@ -67,10 +66,6 @@ Requête sur le SMT
     }
   }],
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_G09-DepartementOM/FHIR/TRE-G09-DepartementOM?vs",
-  "identifier" : [{
-    "system" : "urn:ietf:rfc:3986",
-    "value" : "urn:oid:1.2.250.1.213.1.6.1.370"
-  }],
   "version" : "20250222120000",
   "name" : "VsTreG09DepartementOmAll",
   "title" : "Vs Tre G09 Departement Om All",

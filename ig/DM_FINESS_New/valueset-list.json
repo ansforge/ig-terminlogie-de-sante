@@ -3033,9 +3033,7 @@
     "name" : "VsTreG09DepartementOmAll",
     "title" : "Vs Tre G09 Departement Om All",
     "description" : "Jeu de valeurs ALL contenant le référentiel des codes départements et collectivités d’outre-mer provenant du COG INSEE + Monaco",
-    "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_G09-DepartementOM/FHIR/TRE-G09-DepartementOM"],
-    "oids" : ["1.2.250.1.213.1.6.1.370"],
-    "sources" : ["1.2.250.1.213.1.6.1.370"]
+    "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_G09-DepartementOM/FHIR/TRE-G09-DepartementOM"]
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R221-ModeleDocumentCDANonStructure/FHIR/TRE-R221-ModeleDocumentCDANonStructure?vs",
@@ -3053,9 +3051,7 @@
     "name" : "VsTreR272EquipementMaterielLourdAll",
     "title" : "Vs Tre R272 Equipement Materiel Lourd All",
     "description" : "Jeu de valeurs ALL contenant les équipements matériels lourds",
-    "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_R272-EquipementMaterielLourd/FHIR/TRE-R272-EquipementMaterielLourd"],
-    "oids" : ["1.2.250.1.213.1.6.1.351"],
-    "sources" : ["1.2.250.1.213.1.6.1.351"]
+    "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_R272-EquipementMaterielLourd/FHIR/TRE-R272-EquipementMaterielLourd"]
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee?vs",
@@ -3064,9 +3060,7 @@
     "name" : "VsTreR274ActiviteSanitaireReguleeAll",
     "title" : "Vs Tre R274 Activite Sanitaire Regulee All",
     "description" : "Jeu de valeurs FINESS contenant les activités sanitaires soumises à une régulation de la part de l'ARS.",
-    "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee"],
-    "oids" : ["1.2.250.1.213.1.6.1.345"],
-    "sources" : ["1.2.250.1.213.1.6.1.345"]
+    "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_R274-ActiviteSanitaireRegulee/FHIR/TRE-R274-ActiviteSanitaireRegulee"]
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM?vs",
@@ -3075,9 +3069,7 @@
     "name" : "VsTreR30RegionOmAll",
     "title" : "Vs Tre R30 Region Om All",
     "description" : "Jeu de valeurs ALL contenant le référentiel des codes régions et collectivités d'outre-mer provenant du COG INSEE + Monaco",
-    "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"],
-    "oids" : ["1.2.250.1.213.1.6.1.369"],
-    "sources" : ["1.2.250.1.213.1.6.1.369"]
+    "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_R30-RegionOM/FHIR/TRE-R30-RegionOM"]
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine?vs",
@@ -3086,9 +3078,7 @@
     "name" : "VsTreR62DomaineAll",
     "title" : "Vs Tre R62 Domaine All",
     "description" : "Jeu de valeurs ALL contenant les domaines",
-    "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine"],
-    "oids" : ["1.2.250.1.213.1.6.1.319"],
-    "sources" : ["1.2.250.1.213.1.6.1.319"]
+    "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine"]
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R73-ESPIC/FHIR/TRE-R73-ESPIC?vs",
@@ -3108,9 +3098,7 @@
     "name" : "VsTreR74ModeFixationTarifaireAll",
     "title" : "Vs Tre R74 Mode Fixation Tarifaire All",
     "description" : "Jeu de valeurs ALL contenant les modes de fixation tarifaire",
-    "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire"],
-    "oids" : ["1.2.250.1.213.1.6.1.281"],
-    "sources" : ["1.2.250.1.213.1.6.1.281"]
+    "systems" : ["https://mos.esante.gouv.fr/NOS/TRE_R74-ModeFixationTarifaire/FHIR/TRE-R74-ModeFixationTarifaire"]
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r361-fonction-publique?vs",
@@ -3119,9 +3107,7 @@
     "name" : "VsTreR361FonctionPubliqueAll",
     "title" : "Vs Tre R361 Fonction Publique All",
     "description" : "Jeu de valeurs ALL contenant les versants de la fonction publique.",
-    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r361-fonction-publique"],
-    "oids" : ["1.2.250.1.213.1.6.1.264"],
-    "sources" : ["1.2.250.1.213.1.6.1.264"]
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r361-fonction-publique"]
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r362-type-budget?vs",
@@ -3130,9 +3116,7 @@
     "name" : "VsTreR362TypeBudgetAll",
     "title" : "Vs Tre R362 Type Budget All",
     "description" : "Jeu de valeurs ALL contenant les types de budget associés aux Entités Géographiques d'Exercice (EGE) dans FINESS+.",
-    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r362-type-budget"],
-    "oids" : ["1.2.250.1.213.1.6.1.265"],
-    "sources" : ["1.2.250.1.213.1.6.1.265"]
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r362-type-budget"]
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r370-role-relation-ege?vs",
@@ -3141,9 +3125,7 @@
     "name" : "VsTreR370RoleRelationEgeAll",
     "title" : "Vs Tre R370 Role Relation Ege All",
     "description" : "Jeu de valeurs ALL contenant les types de rôle existant entre les Entités Géographiques d'Exercice (EGE) au sein d'une PM-SMSSE.",
-    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r370-role-relation-ege"],
-    "oids" : ["1.2.250.1.213.1.6.1.320"],
-    "sources" : ["1.2.250.1.213.1.6.1.320"]
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r370-role-relation-ege"]
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r373-type-personne-morale?vs",
@@ -3152,9 +3134,7 @@
     "name" : "VsTreR373TypePersonneMoraleAll",
     "title" : "Vs Tre R373 Type Personne Morale All",
     "description" : "Jeu de valeurs ALL contenant les types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-social, Social et Enseignement sur les professions de ces  champs).",
-    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r373-type-personne-morale"],
-    "oids" : ["1.2.250.1.213.1.6.1.261"],
-    "sources" : ["1.2.250.1.213.1.6.1.261"]
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r373-type-personne-morale"]
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee?vs",
@@ -3163,9 +3143,7 @@
     "name" : "VsTreR374NatureActiviteSmsseReguleeAll",
     "title" : "Vs Tre R374 Nature Activite Smsse Regulee All",
     "description" : "Jeu de valeurs ALL contenant les grandes natures d'activité SMSSE exercées par les entités FINESS+.",
-    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee"],
-    "oids" : ["1.2.250.1.213.1.6.1.324"],
-    "sources" : ["1.2.250.1.213.1.6.1.324"]
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r374-nature-activite-smsse-regulee"]
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r375-mode-financement?vs",
@@ -3174,9 +3152,7 @@
     "name" : "VsTreR375ModeFinancementAll",
     "title" : "Vs Tre R375 Mode Financement All",
     "description" : "Jeu de valeurs ALL contenant les modes de financement associés aux capacités de certaines activitées SMSSE.",
-    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r375-mode-financement"],
-    "oids" : ["1.2.250.1.213.1.6.1.363"],
-    "sources" : ["1.2.250.1.213.1.6.1.363"]
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r375-mode-financement"]
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r378-motif-arrete?vs",
@@ -3185,9 +3161,7 @@
     "name" : "VsTreR378MotifArreteAll",
     "title" : "Vs Tre R378 Motif Arrete All",
     "description" : "Jeu de valeurs ALL contenant les motifs des arrêtés enregsitrées dans FINESS+",
-    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r378-motif-arrete"],
-    "oids" : ["1.2.250.1.213.1.6.1.323"],
-    "sources" : ["1.2.250.1.213.1.6.1.323"]
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r378-motif-arrete"]
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm?vs",
@@ -3196,9 +3170,7 @@
     "name" : "VsTreR381ActiviteAmmAll",
     "title" : "Vs Tre R381 Activite Amm All",
     "description" : "Jeu de valeurs ALL contenant les activités de soin AMM",
-    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm"],
-    "oids" : ["1.2.250.1.213.1.6.1.353"],
-    "sources" : ["1.2.250.1.213.1.6.1.353"]
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm"]
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r382-modalite-act-de-soin-amm?vs",
@@ -3207,9 +3179,7 @@
     "name" : "VsTreR382ModaliteActDeSoinAmmAll",
     "title" : "Vs Tre R382 Modalite Act De Soin Amm All",
     "description" : "Jeu de valeurs ALL contenant les modalités pour les activités de soin AMM",
-    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r382-modalite-act-de-soin-amm"],
-    "oids" : ["1.2.250.1.213.1.6.1.354"],
-    "sources" : ["1.2.250.1.213.1.6.1.354"]
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r382-modalite-act-de-soin-amm"]
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r383-mention-act-de-soin-amm?vs",
@@ -3218,9 +3188,7 @@
     "name" : "VsTreR383MentionActDeSoinAmmAll",
     "title" : "Vs Tre R383 Mention Act De Soin Amm All",
     "description" : "Jeu de valeurs ALL contenant les mentions pour les activités de soin AMM",
-    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r383-mention-act-de-soin-amm"],
-    "oids" : ["1.2.250.1.213.1.6.1.355"],
-    "sources" : ["1.2.250.1.213.1.6.1.355"]
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r383-mention-act-de-soin-amm"]
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r384-pratique-therapeutique-specifique-act-de-soin-amm?vs",
@@ -3229,9 +3197,7 @@
     "name" : "VsTreR384PratiqueTherapeutiqueSpecifiqueActDeSoinAmmAll",
     "title" : "Vs Tre R384 Pratique Therapeutique Specifique Act De Soin Amm All",
     "description" : "Jeu de valeurs ALL contenant les pratiques thérapeutiques spécifiques pour les activités de soin AMM",
-    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r384-pratique-therapeutique-specifique-act-de-soin-amm"],
-    "oids" : ["1.2.250.1.213.1.6.1.356"],
-    "sources" : ["1.2.250.1.213.1.6.1.356"]
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r384-pratique-therapeutique-specifique-act-de-soin-amm"]
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r385-declaration-act-de-soin-amm?vs",
@@ -3240,9 +3206,7 @@
     "name" : "VsTreR385DeclarationActDeSoinAmmAll",
     "title" : "Vs Tre R385 Declaration Act De Soin Amm All",
     "description" : "Jeu de valeurs ALL contenant les déclarations pour les activités de soin AMM",
-    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r385-declaration-act-de-soin-amm"],
-    "oids" : ["1.2.250.1.213.1.6.1.357"],
-    "sources" : ["1.2.250.1.213.1.6.1.357"]
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r385-declaration-act-de-soin-amm"]
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r388-type-logement?vs",
@@ -3251,9 +3215,7 @@
     "name" : "VsTreR388TypeLogementAll",
     "title" : "Vs Tre R388 Type Logement All",
     "description" : "Jeu de valeurs ALL contenant les types de logement associés aux capacités des structures FINESS",
-    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r388-type-logement"],
-    "oids" : ["1.2.250.1.213.1.6.1.364"],
-    "sources" : ["1.2.250.1.213.1.6.1.364"]
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r388-type-logement"]
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee?vs",
@@ -3262,9 +3224,7 @@
     "name" : "VsTreR392TypeActSmsseReguleeAll",
     "title" : "Vs Tre R392 Type Act Smsse Regulee All",
     "description" : "Jeu de valeurs ALL contenant l'ensemble des codes pour les types d'activitées SMSSE régulées",
-    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee"],
-    "oids" : ["1.2.250.1.213.1.6.1.325"],
-    "sources" : ["1.2.250.1.213.1.6.1.325"]
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee"]
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r395-engagement?vs",
@@ -3273,9 +3233,7 @@
     "name" : "VsTreR395EngagementAll",
     "title" : "Vs Tre R395 Engagement All",
     "description" : "Jeu de valeurs ALL contenant les engagements FINESS",
-    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r395-engagement"],
-    "oids" : ["1.2.250.1.213.1.6.1.322"],
-    "sources" : ["1.2.250.1.213.1.6.1.322"]
+    "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r395-engagement"]
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee?vs",
@@ -6161,7 +6119,7 @@
     "version" : "2025080120000",
     "status" : "active",
     "name" : "JdvJ373TypeAutorite",
-    "title" : "Jdv J373 Type Autorité",
+    "title" : "Jdv J373 Type Autorite",
     "description" : "Jeu de valeurs contenant les différents types d'autorité (actifs ou inactifs)",
     "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"],
     "oids" : ["1.2.250.1.213.1.6.1.387"],
@@ -6172,7 +6130,7 @@
     "version" : "2025080120000",
     "status" : "active",
     "name" : "JdvJ374Autorite",
-    "title" : "Jdv J374 Autorité",
+    "title" : "Jdv J374 Autorite",
     "description" : "Jeu de valeurs contenant la liste des autorités quelque soit la catégorie d'autorité et quelque soir l'état de l'autorité active ou inactive)",
     "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"],
     "oids" : ["1.2.250.1.213.1.6.1.388"],
@@ -6182,8 +6140,8 @@
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j375-ordre",
     "version" : "20250826120000",
     "status" : "active",
-    "name" : "JdvJ375Ordre",
-    "title" : "Jdv J375 ordre",
+    "name" : "JdvJ375AutoriteOrdre",
+    "title" : "Jdv J375 Autorite Ordre",
     "description" : "Jeu de valeurs comportant uniquement les autorités de type Ordre.",
     "systems" : ["https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite"],
     "oids" : ["1.2.250.1.213.1.6.1.389"],

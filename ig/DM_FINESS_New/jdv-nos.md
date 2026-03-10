@@ -53,7 +53,7 @@ Vous touverez ici la liste des JDV du NOS.
 | [JdvJ372ConventionRass](ValueSet-jdv-j372-convention-rass.md) | Liste des engagements de type Convention pour le RASS | 22/08/2025 |
 | [JdvJ373TypeAutorite](ValueSet-jdv-j373-type-autorite.md) | Jeu de valeurs contenant les différents types d'autorité (actifs ou inactifs) | 26/08/2025 |
 | [JdvJ374Autorite](ValueSet-jdv-j374-autorite.md) | Jeu de valeurs contenant la liste des autorités quelque soit la catégorie d'autorité et quelque soir l'état de l'autorité active ou inactive) | 26/08/2025 |
-| [JdvJ375Ordre](ValueSet-jdv-j375-ordre.md) | Jeu de valeurs comportant uniquement les autorités de type Ordre. | 26/08/2025 |
+| [JdvJ375AutoriteOrdre](ValueSet-jdv-j375-autorite-ordre.md) | Jeu de valeurs comportant uniquement les autorités de type Ordre. | 26/08/2025 |
 | [JdvJ378RegionOmFiness](ValueSet-jdv-j378-region-om-finess.md) | Liste des régions administratives couvertes par le périmètre géographique de FINESS | 22/12/2025 |
 | [JdvJ388ModeFonctionnementActiviteSmsseReguleeRass](ValueSet-jdv-j388-mode-fonctionnement-activite-smsse-regulee-rass.md) | Ce JDV remplace le JDV_J138_TypeActivite_RASS | 23/02/2026 |
 | [JdvJ301FinessStatutJuridiqueNiv1Finess](ValueSet-jdv-j301-finess-statut-juridique-niv1-finess.md) | Ce JDV contient les agrégats Niv1 des statust juridiques (JDV créé à l'image de l'ancienne TRE_R70-FinessAgregatStatutJuridique) | 23/02/2026 |

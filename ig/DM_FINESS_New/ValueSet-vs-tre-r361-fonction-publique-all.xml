@@ -17,10 +17,6 @@
     </valuePeriod>
   </extension>
   <url value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r361-fonction-publique?vs"/>
-  <identifier>
-    <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:1.2.250.1.213.1.6.1.264"/>
-  </identifier>
   <version value="20250222120000"/>
   <name value="VsTreR361FonctionPubliqueAll"/>
   <title value="Vs Tre R361 Fonction Publique All"/>

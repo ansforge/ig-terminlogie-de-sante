@@ -28,7 +28,7 @@
   <experimental value="false"/>
   <date value="2025-07-16T12:00:00.000+00:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
-  <description value="Nomenclature des engagements associés dans FINESS+ aux Personnes morales, aux entités géographique, aux groupements ou à leurs activités"/>
+  <description value="Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes morales, aux entités géographique, aux groupements ou à leurs activités. Cette TRE remplace la TRE-R278-Convention"/>
   <caseSensitive value="false"/>
   <hierarchyMeaning value="is-a"/>
   <content value="complete"/>

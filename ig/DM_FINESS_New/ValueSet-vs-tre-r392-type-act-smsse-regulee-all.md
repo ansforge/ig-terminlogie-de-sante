@@ -10,7 +10,6 @@
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee?vs | *Version*:20250513120000 | |
 | Active as of 2025-05-13 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:VsTreR392TypeActSmsseReguleeAll |
-| *Other Identifiers:*OID:1.2.250.1.213.1.6.1.325 | | |
 
  
 Jeu de valeurs ALL contenant l’ensemble des codes pour les types d’activitées SMSSE régulées 
@@ -67,10 +66,6 @@ Requête sur le SMT
     }
   }],
   "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee?vs",
-  "identifier" : [{
-    "system" : "urn:ietf:rfc:3986",
-    "value" : "urn:oid:1.2.250.1.213.1.6.1.325"
-  }],
   "version" : "20250513120000",
   "name" : "VsTreR392TypeActSmsseReguleeAll",
   "title" : "Vs Tre R392 Type Act Smsse Regulee All",

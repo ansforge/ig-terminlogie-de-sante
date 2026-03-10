@@ -37,7 +37,7 @@
     </extension>
     <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
     <packageId value="hl7.terminology.r4"/>
-    <version value="7.0.1"/>
+    <version value="7.1.0"/>
   </dependsOn>
   <dependsOn id="hl7ext">
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
@@ -26985,7 +26985,7 @@
       <reference>
         <reference value="ValueSet/jdv-j373-type-autorite"/>
       </reference>
-      <name value="Jdv J373 Type Autorité"/>
+      <name value="Jdv J373 Type Autorite"/>
       <description value="Jeu de valeurs contenant les différents types d'autorité (actifs ou inactifs)"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -26996,7 +26996,7 @@
       <reference>
         <reference value="ValueSet/jdv-j374-autorite"/>
       </reference>
-      <name value="Jdv J374 Autorité"/>
+      <name value="Jdv J374 Autorite"/>
       <description value="Jeu de valeurs contenant la liste des autorités quelque soit la catégorie d'autorité et quelque soir l'état de l'autorité active ou inactive)"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -27005,9 +27005,9 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/jdv-j375-ordre"/>
+        <reference value="ValueSet/jdv-j375-autorite-ordre"/>
       </reference>
-      <name value="Jdv J375 ordre"/>
+      <name value="Jdv J375 Autorite Ordre"/>
       <description value="Jeu de valeurs comportant uniquement les autorités de type Ordre."/>
       <exampleBoolean value="false"/>
     </resource>
@@ -33830,7 +33830,7 @@
         <reference value="CodeSystem/tre-r395-engagement"/>
       </reference>
       <name value="Tre R395 Engagement"/>
-      <description value="Nomenclature des engagements associés dans FINESS+ aux Personnes morales, aux entités géographique, aux groupements ou à leurs activités"/>
+      <description value="Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes morales, aux entités géographique, aux groupements ou à leurs activités. Cette TRE remplace la TRE-R278-Convention"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

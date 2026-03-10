@@ -52,7 +52,7 @@ Vous touverez ici la liste des JDV du smt .
 | [JdvJ372ConventionRass](ValueSet-jdv-j372-convention-rass.md) | Liste des engagements de type Convention pour le RASS | 22/08/2025 |
 | [JdvJ373TypeAutorite](ValueSet-jdv-j373-type-autorite.md) | Jeu de valeurs contenant les différents types d'autorité (actifs ou inactifs) | 26/08/2025 |
 | [JdvJ374Autorite](ValueSet-jdv-j374-autorite.md) | Jeu de valeurs contenant la liste des autorités quelque soit la catégorie d'autorité et quelque soir l'état de l'autorité active ou inactive) | 26/08/2025 |
-| [JdvJ375Ordre](ValueSet-jdv-j375-ordre.md) | Jeu de valeurs comportant uniquement les autorités de type Ordre. | 26/08/2025 |
+| [JdvJ375AutoriteOrdre](ValueSet-jdv-j375-autorite-ordre.md) | Jeu de valeurs comportant uniquement les autorités de type Ordre. | 26/08/2025 |
 | [JdvJ378RegionOmFiness](ValueSet-jdv-j378-region-om-finess.md) | Liste des régions administratives couvertes par le périmètre géographique de FINESS | 22/12/2025 |
 | [JdvJ388ModeFonctionnementActiviteSmsseReguleeRass](ValueSet-jdv-j388-mode-fonctionnement-activite-smsse-regulee-rass.md) | Ce JDV remplace le JDV_J138_TypeActivite_RASS | 23/02/2026 |
 | [VsTreR361FonctionPubliqueAll](ValueSet-vs-tre-r361-fonction-publique-all.md) | Jeu de valeurs ALL contenant les versants de la fonction publique. | 22/02/2025 |
@@ -139,12 +139,12 @@ Vous touverez ici la liste des JDV du smt .
 | [SpecimenRoleType](ValueSet-jdv-hl7-v3-SpecimenRoleType-cisis.md) | SpecimenRoleType | 20/02/2026 |
 | [TimingEvent](ValueSet-jdv-hl7-v3-TimingEvent-cisis.md) | TimingEvent | 20/02/2026 |
 | [VS_test](ValueSet-VS-test.md) | VS-test | 31/12/2020 |
-| [ValueSet_ATC_All](ValueSet-vs-atc-all.md) | Ce jeu de valeurs inclut tous les codes concepts de la terminologie ATC | 09/03/2026 |
-| [ValueSet_BDPM_All](ValueSet-vs-bdpm-all.md) | Ce jeu de valeurs inclut tous les codes de la terminologie BDPM | 09/03/2026 |
-| [ValueSet_CIPUCD_All](ValueSet-vs-cipucd-all.md) | Ce jeu de valeurs inclut tous les codes concepts de la terminologie CIP-UCD | 09/03/2026 |
-| [ValueSet_EDQM_All](ValueSet-vs-edqm-all.md) | Ce jeu de valeurs inclut tous les codes de la terminologie EDQM | 09/03/2026 |
-| [ValueSet_NUVA_All](ValueSet-vs-nuva-all.md) | Ce jeu de valeurs inclut tous les codes concepts de la terminologie NUVA | 09/03/2026 |
-| [ValueSet_SMS_All](ValueSet-vs-sms-all.md) | Ce jeu de valeurs inclut tous les codes de la terminologie SMS, Dictionnaire des substances médicamenteuses | 09/03/2026 |
+| [ValueSet_ATC_All](ValueSet-vs-atc-all.md) | Ce jeu de valeurs inclut tous les codes concepts de la terminologie ATC | 10/03/2026 |
+| [ValueSet_BDPM_All](ValueSet-vs-bdpm-all.md) | Ce jeu de valeurs inclut tous les codes de la terminologie BDPM | 10/03/2026 |
+| [ValueSet_CIPUCD_All](ValueSet-vs-cipucd-all.md) | Ce jeu de valeurs inclut tous les codes concepts de la terminologie CIP-UCD | 10/03/2026 |
+| [ValueSet_EDQM_All](ValueSet-vs-edqm-all.md) | Ce jeu de valeurs inclut tous les codes de la terminologie EDQM | 10/03/2026 |
+| [ValueSet_NUVA_All](ValueSet-vs-nuva-all.md) | Ce jeu de valeurs inclut tous les codes concepts de la terminologie NUVA | 10/03/2026 |
+| [ValueSet_SMS_All](ValueSet-vs-sms-all.md) | Ce jeu de valeurs inclut tous les codes de la terminologie SMS, Dictionnaire des substances médicamenteuses | 10/03/2026 |
 | [WorkScheduleODH](ValueSet-jdv-hl7-v3-WorkScheduleODH-cisis.md) | WorkScheduleODH | 20/02/2026 |
 | [XActMoodDocumentObservation](ValueSet-jdv-hl7-v3-xActMoodDocumentObservation.md) | x_ActMoodDocumentObservation | 20/02/2026 |
 | [XBasicConfidentialityKind](ValueSet-jdv-hl7-v3-xBasicConfidentialityKind-cisis.md) | x_BasicConfidentialityKind | 20/02/2026 |
