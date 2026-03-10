@@ -10239,3 +10239,22 @@ Description: "Cette TRE hierarchique remplace les TRE actuelles TRE_R66_Categori
 * #704 ^property[=].valueBoolean = true
 * #704 ^property[+].code = #cisis
 * #704 ^property[=].valueBoolean = true
+* #705 "Groupe d’Entraide Mutuelle (GEM)" "Catégorie créée à la demande du ROR. A date aucun enregistrement n'est prévu dans FINESS pour cette catégorie"
+* #705 ^property[0].code = #niveau
+* #705 ^property[=].valueInteger =  4
+* #705 ^designation[0].language = #fr-FR
+* #705 ^designation[=].use.system = "http://snomed.info/sct"
+* #705 ^designation[=].use = $sct#900000000000013009
+* #705 ^designation[=].value = "GEM"
+* #705 ^property[+].code = #dateValid
+* #705 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #705 ^property[+].code = #dateMaj
+* #705 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #705 ^property[+].code = #status
+* #705 ^property[=].valueCode = #active
+* #705 ^property[+].code = #specialisationRor
+* #705 ^property[=].valueBoolean = true
+* #705 ^property[+].code = #ror
+* #705 ^property[=].valueBoolean = true
+* #705 ^property[+].code = #cisis
+* #705 ^property[=].valueBoolean = true

@@ -4447,3 +4447,14 @@ Description: "Catégorie d'établissements"
 * #704 ^property[=].valueDateTime = "2025-12-22T12:00:00+01:00"
 * #704 ^property[+].code = #status
 * #704 ^property[=].valueCode = #active
+* #705 "Groupe d’Entraide Mutuelle (GEM)" "Catégorie créée à la demande du ROR. A date aucun enregistrement n'est prévu dans FINESS pour cette catégorie"
+* #705 ^designation[0].language = #fr-FR
+* #705 ^designation[=].use.system = "http://snomed.info/sct"
+* #705 ^designation[=].use = $sct#900000000000013009
+* #705 ^designation[=].value = "GEM"
+* #705 ^property[0].code = #dateValid
+* #705 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #705 ^property[+].code = #dateMaj
+* #705 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #705 ^property[+].code = #status
+* #705 ^property[=].valueCode = #active
