@@ -34,6 +34,10 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#ror"
 * ^property[=].description = "Permet de définir les codes concepts uilisés par le ROR"
 * ^property[=].type = #boolean
+* ^property[+].code = #cisis
+* ^property[=].uri = "https://smt.esante.gouv.fr/fhir/concept-properties#cisis"
+* ^property[=].description = "Permet de définir les codes concepts uilisés dans le J03 du CISIS"
+* ^property[=].type = #boolean
 * ^property[+].code = #deprecationDate
 * ^property[=].uri = "http://hl7.org/fhir/concept-properties#deprecationDate"
 * ^property[=].description = "Date Concept was deprecated"
@@ -87,6 +91,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA05 ^property[=].valueCode = #active
 * #SA05 ^property[+].code = #ror
 * #SA05 ^property[=].valueBoolean = true
+* #SA05 ^property[+].code = #cisis
+* #SA05 ^property[=].valueBoolean = true
 * #SA06 "Autre structure du Service de santé des armées"
 * #SA06 ^designation[0].language = #fr-FR
 * #SA06 ^designation[=].use.system = "http://snomed.info/sct"
@@ -98,6 +104,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA06 ^property[=].valueDateTime = "2016-04-28T00:00:00+01:00"
 * #SA06 ^property[+].code = #status
 * #SA06 ^property[=].valueCode = #active
+* #SA06 ^property[+].code = #cisis
+* #SA06 ^property[=].valueBoolean = true
 * #SA07 "Cabinet individuel"
 * #SA07 ^property[0].code = #dateValid
 * #SA07 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
@@ -106,6 +114,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA07 ^property[+].code = #status
 * #SA07 ^property[=].valueCode = #active
 * #SA07 ^property[+].code = #ror
+* #SA07 ^property[=].valueBoolean = true
+* #SA07 ^property[+].code = #cisis
 * #SA07 ^property[=].valueBoolean = true
 * #SA08 "Cabinet de groupe"
 * #SA08 ^property[0].code = #dateValid
@@ -116,6 +126,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA08 ^property[=].valueCode = #active
 * #SA08 ^property[+].code = #ror
 * #SA08 ^property[=].valueBoolean = true
+* #SA08 ^property[+].code = #cisis
+* #SA08 ^property[=].valueBoolean = true
 * #SA09 "Exercice en société"
 * #SA09 ^property[0].code = #dateValid
 * #SA09 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
@@ -124,6 +136,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA09 ^property[+].code = #status
 * #SA09 ^property[=].valueCode = #active
 * #SA09 ^property[+].code = #ror
+* #SA09 ^property[=].valueBoolean = true
+* #SA09 ^property[+].code = #cisis
 * #SA09 ^property[=].valueBoolean = true
 * #SA10 "Transporteur sanitaire"
 * #SA10 ^designation[0].language = #fr-FR
@@ -136,6 +150,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA10 ^property[=].valueDateTime = "2016-04-28T00:00:00+01:00"
 * #SA10 ^property[+].code = #status
 * #SA10 ^property[=].valueCode = #active
+* #SA10 ^property[+].code = #cisis
+* #SA10 ^property[=].valueBoolean = true
 * #SA11 "Entreprise d'intérim"
 * #SA11 ^property[0].code = #dateValid
 * #SA11 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
@@ -158,6 +174,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA12 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SA12 ^property[+].code = #status
 * #SA12 ^property[=].valueCode = #active
+* #SA12 ^property[+].code = #cisis
+* #SA12 ^property[=].valueBoolean = true
 * #SA13 "Prévention et soins en entreprise"
 * #SA13 ^designation[0].language = #fr-FR
 * #SA13 ^designation[=].use.system = "http://snomed.info/sct"
@@ -169,6 +187,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA13 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SA13 ^property[+].code = #status
 * #SA13 ^property[=].valueCode = #active
+* #SA13 ^property[+].code = #cisis
+* #SA13 ^property[=].valueBoolean = true
 * #SA14 "Etablissements scolaires, universitaires et de formation hors champ FINESS" "Etablissements scolaires, universitaires et de formation hors champ FINESS (venant donc en complément des établissements du secteur SA19)"
 * #SA14 ^designation[0].language = #fr-FR
 * #SA14 ^designation[=].use.system = "http://snomed.info/sct"
@@ -180,6 +200,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA14 ^property[=].valueDateTime = "2022-10-28T12:00:00+01:00"
 * #SA14 ^property[+].code = #status
 * #SA14 ^property[=].valueCode = #active
+* #SA14 ^property[+].code = #cisis
+* #SA14 ^property[=].valueBoolean = true
 * #SA15 "PMI et Planification familiale"
 * #SA15 ^designation[0].language = #fr-FR
 * #SA15 ^designation[=].use.system = "http://snomed.info/sct"
@@ -191,6 +213,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA15 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SA15 ^property[+].code = #status
 * #SA15 ^property[=].valueCode = #active
+* #SA15 ^property[+].code = #cisis
+* #SA15 ^property[=].valueBoolean = true
 * #SA16 "Etablissement pour personnes handicapées"
 * #SA16 ^designation[0].language = #fr-FR
 * #SA16 ^designation[=].use.system = "http://snomed.info/sct"
@@ -202,6 +226,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA16 ^property[=].valueDateTime = "2016-04-28T00:00:00+01:00"
 * #SA16 ^property[+].code = #status
 * #SA16 ^property[=].valueCode = #active
+* #SA16 ^property[+].code = #cisis
+* #SA16 ^property[=].valueBoolean = true
 * #SA17 "Etablissement pour personnes âgées"
 * #SA17 ^designation[0].language = #fr-FR
 * #SA17 ^designation[=].use.system = "http://snomed.info/sct"
@@ -213,6 +239,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA17 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SA17 ^property[+].code = #status
 * #SA17 ^property[=].valueCode = #active
+* #SA17 ^property[+].code = #cisis
+* #SA17 ^property[=].valueBoolean = true
 * #SA18 "Etablissement aide à la famille"
 * #SA18 ^designation[0].language = #fr-FR
 * #SA18 ^designation[=].use.system = "http://snomed.info/sct"
@@ -224,6 +252,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA18 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SA18 ^property[+].code = #status
 * #SA18 ^property[=].valueCode = #active
+* #SA18 ^property[+].code = #cisis
+* #SA18 ^property[=].valueBoolean = true
 * #SA19 "Etablissements FINESS de formation aux professions sanitaires et sociales" "Etablissements de formation préparant aux diplômes délivrés par l'administration sanitaire et sociale, relevant du répertoire FINESS. Hormis les écoles universitaires de sages-femmes, qui sont dans FINESS, ce secteur ne comprend pas les universités formant aux professions médicales qui sont hors champ FINESS"
 * #SA19 ^designation[0].language = #fr-FR
 * #SA19 ^designation[=].use.system = "http://snomed.info/sct"
@@ -235,6 +265,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA19 ^property[=].valueDateTime = "2023-09-22T12:00:00+01:00"
 * #SA19 ^property[+].code = #status
 * #SA19 ^property[=].valueCode = #active
+* #SA19 ^property[+].code = #cisis
+* #SA19 ^property[=].valueBoolean = true
 * #SA20 "Etablissement pour la protection de l'enfance"
 * #SA20 ^designation[0].language = #fr-FR
 * #SA20 ^designation[=].use.system = "http://snomed.info/sct"
@@ -246,6 +278,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA20 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SA20 ^property[+].code = #status
 * #SA20 ^property[=].valueCode = #active
+* #SA20 ^property[+].code = #cisis
+* #SA20 ^property[=].valueBoolean = true
 * #SA21 "Etablissement d'hébergement et de réadaptation"
 * #SA21 ^designation[0].language = #fr-FR
 * #SA21 ^designation[=].use.system = "http://snomed.info/sct"
@@ -257,6 +291,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA21 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SA21 ^property[+].code = #status
 * #SA21 ^property[=].valueCode = #active
+* #SA21 ^property[+].code = #cisis
+* #SA21 ^property[=].valueBoolean = true
 * #SA22 "Recherche"
 * #SA22 ^property[0].code = #dateValid
 * #SA22 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
@@ -264,6 +300,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA22 ^property[=].valueDateTime = "2016-04-28T00:00:00+01:00"
 * #SA22 ^property[+].code = #status
 * #SA22 ^property[=].valueCode = #active
+* #SA22 ^property[+].code = #cisis
+* #SA22 ^property[=].valueBoolean = true
 * #SA23 "Assurance privée"
 * #SA23 ^property[0].code = #dateValid
 * #SA23 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
@@ -271,6 +309,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA23 ^property[=].valueDateTime = "2016-04-28T00:00:00+01:00"
 * #SA23 ^property[+].code = #status
 * #SA23 ^property[=].valueCode = #active
+* #SA23 ^property[+].code = #cisis
+* #SA23 ^property[=].valueBoolean = true
 * #SA24 "Organisme de sécurité sociale"
 * #SA24 ^property[0].code = #dateValid
 * #SA24 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
@@ -278,6 +318,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA24 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SA24 ^property[+].code = #status
 * #SA24 ^property[=].valueCode = #active
+* #SA24 ^property[+].code = #cisis
+* #SA24 ^property[=].valueBoolean = true
 * #SA25 "Laboratoire de biologie médicale"
 * #SA25 ^designation[0].language = #fr-FR
 * #SA25 ^designation[=].use.system = "http://snomed.info/sct"
@@ -289,6 +331,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA25 ^property[=].valueDateTime = "2016-04-28T00:00:00+01:00"
 * #SA25 ^property[+].code = #status
 * #SA25 ^property[=].valueCode = #active
+* #SA25 ^property[+].code = #cisis
+* #SA25 ^property[=].valueBoolean = true
 * #SA26 "Ministère ou Service déconcentré"
 * #SA26 ^designation[0].language = #fr-FR
 * #SA26 ^designation[=].use.system = "http://snomed.info/sct"
@@ -300,6 +344,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA26 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SA26 ^property[+].code = #status
 * #SA26 ^property[=].valueCode = #active
+* #SA26 ^property[+].code = #cisis
+* #SA26 ^property[=].valueBoolean = true
 * #SA27 "Collectivité territoriale"
 * #SA27 ^property[0].code = #dateValid
 * #SA27 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
@@ -307,6 +353,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA27 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SA27 ^property[+].code = #status
 * #SA27 ^property[=].valueCode = #active
+* #SA27 ^property[+].code = #cisis
+* #SA27 ^property[=].valueBoolean = true
 * #SA28 "Association ou organisme humanitaire"
 * #SA28 ^designation[0].language = #fr-FR
 * #SA28 ^designation[=].use.system = "http://snomed.info/sct"
@@ -318,6 +366,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA28 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SA28 ^property[+].code = #status
 * #SA28 ^property[=].valueCode = #active
+* #SA28 ^property[+].code = #cisis
+* #SA28 ^property[=].valueBoolean = true
 * #SA29 "Laboratoire d'analyses et de biologie médicale"
 * #SA29 ^designation[0].language = #fr-FR
 * #SA29 ^designation[=].use.system = "http://snomed.info/sct"
@@ -329,6 +379,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA29 ^property[=].valueDateTime = "2016-04-28T00:00:00+01:00"
 * #SA29 ^property[+].code = #status
 * #SA29 ^property[=].valueCode = #active
+* #SA29 ^property[+].code = #cisis
+* #SA29 ^property[=].valueBoolean = true
 * #SA30 "Autre établissement sanitaire"
 * #SA30 ^property[0].code = #dateValid
 * #SA30 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
@@ -336,6 +388,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA30 ^property[=].valueDateTime = "2016-04-28T00:00:00+01:00"
 * #SA30 ^property[+].code = #status
 * #SA30 ^property[=].valueCode = #active
+* #SA30 ^property[+].code = #cisis
+* #SA30 ^property[=].valueBoolean = true
 * #SA31 "Répartition et Distribution de médicaments et dispositifs médicaux"
 * #SA31 ^designation[0].language = #fr-FR
 * #SA31 ^designation[=].use.system = "http://snomed.info/sct"
@@ -347,6 +401,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA31 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SA31 ^property[+].code = #status
 * #SA31 ^property[=].valueCode = #active
+* #SA31 ^property[+].code = #cisis
+* #SA31 ^property[=].valueBoolean = true
 * #SA32 "Fabrication, Exploitation et Importation de médicaments et dispositifs médicaux"
 * #SA32 ^designation[0].language = #fr-FR
 * #SA32 ^designation[=].use.system = "http://snomed.info/sct"
@@ -358,6 +414,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA32 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SA32 ^property[+].code = #status
 * #SA32 ^property[=].valueCode = #active
+* #SA32 ^property[+].code = #cisis
+* #SA32 ^property[=].valueBoolean = true
 * #SA33 "Pharmacie d'officine"
 * #SA33 ^property[0].code = #dateValid
 * #SA33 ^property[=].valueDateTime = "2007-07-25T00:00:00+01:00"
@@ -365,6 +423,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA33 ^property[=].valueDateTime = "2016-04-28T00:00:00+01:00"
 * #SA33 ^property[+].code = #status
 * #SA33 ^property[=].valueCode = #active
+* #SA33 ^property[+].code = #cisis
+* #SA33 ^property[=].valueBoolean = true
 * #SA34 "Centre de dialyse"
 * #SA34 ^property[0].code = #dateValid
 * #SA34 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
@@ -372,6 +432,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA34 ^property[=].valueDateTime = "2016-04-28T00:00:00+01:00"
 * #SA34 ^property[+].code = #status
 * #SA34 ^property[=].valueCode = #active
+* #SA34 ^property[+].code = #cisis
+* #SA34 ^property[=].valueBoolean = true
 * #SA35 "Para-pharmacie"
 * #SA35 ^property[0].code = #dateValid
 * #SA35 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
@@ -379,6 +441,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA35 ^property[=].valueDateTime = "2016-04-28T00:00:00+01:00"
 * #SA35 ^property[+].code = #status
 * #SA35 ^property[=].valueCode = #active
+* #SA35 ^property[+].code = #cisis
+* #SA35 ^property[=].valueBoolean = true
 * #SA36 "Centre anti-cancer"
 * #SA36 ^property[0].code = #dateValid
 * #SA36 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
@@ -386,6 +450,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA36 ^property[=].valueDateTime = "2016-04-28T00:00:00+01:00"
 * #SA36 ^property[+].code = #status
 * #SA36 ^property[=].valueCode = #active
+* #SA36 ^property[+].code = #cisis
+* #SA36 ^property[=].valueBoolean = true
 * #SA37 "Centre de transfusion sanguine"
 * #SA37 ^designation[0].language = #fr-FR
 * #SA37 ^designation[=].use.system = "http://snomed.info/sct"
@@ -397,6 +463,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA37 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SA37 ^property[+].code = #status
 * #SA37 ^property[=].valueCode = #active
+* #SA37 ^property[+].code = #cisis
+* #SA37 ^property[=].valueBoolean = true
 * #SA38 "Pharmacie minière"
 * #SA38 ^property[0].code = #dateValid
 * #SA38 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
@@ -404,6 +472,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA38 ^property[=].valueDateTime = "2016-04-28T00:00:00+01:00"
 * #SA38 ^property[+].code = #status
 * #SA38 ^property[=].valueCode = #active
+* #SA38 ^property[+].code = #cisis
+* #SA38 ^property[=].valueBoolean = true
 * #SA39 "Pharmacie mutualiste"
 * #SA39 ^property[0].code = #dateValid
 * #SA39 ^property[=].valueDateTime = "2007-07-25T00:00:00+01:00"
@@ -411,6 +481,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA39 ^property[=].valueDateTime = "2016-04-28T00:00:00+01:00"
 * #SA39 ^property[+].code = #status
 * #SA39 ^property[=].valueCode = #active
+* #SA39 ^property[+].code = #cisis
+* #SA39 ^property[=].valueBoolean = true
 * #SA40 "Secteur privé, praticien hospitalier temps plein"
 * #SA40 ^designation[0].language = #fr-FR
 * #SA40 ^designation[=].use.system = "http://snomed.info/sct"
@@ -422,6 +494,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA40 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SA40 ^property[+].code = #status
 * #SA40 ^property[=].valueCode = #active
+* #SA40 ^property[+].code = #cisis
+* #SA40 ^property[=].valueBoolean = true
 * #SA41 "Autre établissement du domaine social ou médico-social"
 * #SA41 ^designation[0].language = #fr-FR
 * #SA41 ^designation[=].use.system = "http://snomed.info/sct"
@@ -433,6 +507,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA41 ^property[=].valueDateTime = "2016-12-22T12:00:00+01:00"
 * #SA41 ^property[+].code = #status
 * #SA41 ^property[=].valueCode = #active
+* #SA41 ^property[+].code = #cisis
+* #SA41 ^property[=].valueBoolean = true
 * #SA42 "Appareillage médical"
 * #SA42 ^property[0].code = #dateValid
 * #SA42 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
@@ -440,6 +516,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA42 ^property[=].valueDateTime = "2016-04-28T00:00:00+01:00"
 * #SA42 ^property[+].code = #status
 * #SA42 ^property[=].valueCode = #active
+* #SA42 ^property[+].code = #cisis
+* #SA42 ^property[=].valueBoolean = true
 * #SA43 "Secteur non défini"
 * #SA43 ^property[0].code = #dateValid
 * #SA43 ^property[=].valueDateTime = "2007-07-25T15:04:44+01:00"
@@ -447,6 +525,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA43 ^property[=].valueDateTime = "2016-04-28T00:00:00+01:00"
 * #SA43 ^property[+].code = #status
 * #SA43 ^property[=].valueCode = #active
+* #SA43 ^property[+].code = #cisis
+* #SA43 ^property[=].valueBoolean = true
 * #SA44 "Recrutement ou Gestion RH"
 * #SA44 ^designation[0].language = #fr-FR
 * #SA44 ^designation[=].use.system = "http://snomed.info/sct"
@@ -458,6 +538,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA44 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SA44 ^property[+].code = #status
 * #SA44 ^property[=].valueCode = #active
+* #SA44 ^property[+].code = #cisis
+* #SA44 ^property[=].valueBoolean = true
 * #SA45 "Communication, Marketing, Consulting, Média"
 * #SA45 ^designation[0].language = #fr-FR
 * #SA45 ^designation[=].use.system = "http://snomed.info/sct"
@@ -469,6 +551,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA45 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SA45 ^property[+].code = #status
 * #SA45 ^property[=].valueCode = #active
+* #SA45 ^property[+].code = #cisis
+* #SA45 ^property[=].valueBoolean = true
 * #SA46 "Fab, Exploit, Import, Répart, Distrib médicaments et dispo médicaux"
 * #SA46 ^designation[0].language = #fr-FR
 * #SA46 ^designation[=].use.system = "http://snomed.info/sct"
@@ -484,6 +568,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA46 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SA46 ^property[+].code = #status
 * #SA46 ^property[=].valueCode = #active
+* #SA46 ^property[+].code = #cisis
+* #SA46 ^property[=].valueBoolean = true
 * #SA47 "Incendie et secours"
 * #SA47 ^property[0].code = #dateValid
 * #SA47 ^property[=].valueDateTime = "2007-07-25T00:00:00+01:00"
@@ -491,6 +577,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA47 ^property[=].valueDateTime = "2016-04-28T00:00:00+01:00"
 * #SA47 ^property[+].code = #status
 * #SA47 ^property[=].valueCode = #active
+* #SA47 ^property[+].code = #cisis
+* #SA47 ^property[=].valueBoolean = true
 * #SA48 "Entreprise indus et tertiaire hors pharmaceutique"
 * #SA48 ^designation[0].language = #fr-FR
 * #SA48 ^designation[=].use.system = "http://snomed.info/sct"
@@ -506,6 +594,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA48 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SA48 ^property[+].code = #status
 * #SA48 ^property[=].valueCode = #active
+* #SA48 ^property[+].code = #cisis
+* #SA48 ^property[=].valueBoolean = true
 * #SA49 "Entité Outre-Mer"
 * #SA49 ^property[0].code = #dateValid
 * #SA49 ^property[=].valueDateTime = "2007-07-25T00:00:00+01:00"
@@ -513,6 +603,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA49 ^property[=].valueDateTime = "2016-04-28T00:00:00+01:00"
 * #SA49 ^property[+].code = #status
 * #SA49 ^property[=].valueCode = #active
+* #SA49 ^property[+].code = #cisis
+* #SA49 ^property[=].valueBoolean = true
 * #SA50 "Permanence des soins ambulatoires hors cabinet" "Ce secteur est utilisé pour un usage spécifique lié à la facturation et n'a pas vocation à recenser exhaustivement les structures de PDSA. Le SA50 contient les SIRET des professionnels ayant une activité de PDSA et qui ne sont pas déjà établis à titre libéral non remplaçant. Ces structures permettent aux professionnels de facturer à l'Assurance Maladie dans le cadre de leur activité de PDSA (feuilles de soins électroniques)."
 * #SA50 ^designation[0].language = #fr-FR
 * #SA50 ^designation[=].use.system = "http://snomed.info/sct"
@@ -524,6 +616,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA50 ^property[=].valueDateTime = "2023-05-26T12:00:00+01:00"
 * #SA50 ^property[+].code = #status
 * #SA50 ^property[=].valueCode = #active
+* #SA50 ^property[+].code = #cisis
+* #SA50 ^property[=].valueBoolean = true
 * #SA51 "Structure de coop avec autorisation de soins"
 * #SA51 ^designation[0].language = #fr-FR
 * #SA51 ^designation[=].use.system = "http://snomed.info/sct"
@@ -539,6 +633,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA51 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SA51 ^property[+].code = #status
 * #SA51 ^property[=].valueCode = #active
+* #SA51 ^property[+].code = #cisis
+* #SA51 ^property[=].valueBoolean = true
 * #SA52 "Maison de santé ou Pôle de santé"
 * #SA52 ^designation[0].language = #fr-FR
 * #SA52 ^designation[=].use.system = "http://snomed.info/sct"
@@ -550,6 +646,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA52 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SA52 ^property[+].code = #status
 * #SA52 ^property[=].valueCode = #active
+* #SA52 ^property[+].code = #cisis
+* #SA52 ^property[=].valueBoolean = true
 * #SA53 "Siège administratif d'un établissement de santé"
 * #SA53 ^designation[0].language = #fr-FR
 * #SA53 ^designation[=].use.system = "http://snomed.info/sct"
@@ -561,6 +659,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA53 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SA53 ^property[+].code = #status
 * #SA53 ^property[=].valueCode = #active
+* #SA53 ^property[+].code = #cisis
+* #SA53 ^property[=].valueBoolean = true
 * #SA54 "Centre de dépistage et de prévention"
 * #SA54 ^designation[0].language = #fr-FR
 * #SA54 ^designation[=].use.system = "http://snomed.info/sct"
@@ -572,6 +672,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA54 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SA54 ^property[+].code = #status
 * #SA54 ^property[=].valueCode = #active
+* #SA54 ^property[+].code = #cisis
+* #SA54 ^property[=].valueBoolean = true
 * #SA55 "Laboratoire pharmaceutique préparant délivrant allergènes"
 * #SA55 ^designation[0].language = #fr-FR
 * #SA55 ^designation[=].use.system = "http://snomed.info/sct"
@@ -587,6 +689,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA55 ^property[=].valueDateTime = "2016-12-22T12:00:00+01:00"
 * #SA55 ^property[+].code = #status
 * #SA55 ^property[=].valueCode = #active
+* #SA55 ^property[+].code = #cisis
+* #SA55 ^property[=].valueBoolean = true
 * #SA56 "Propharmacie"
 * #SA56 ^property[0].code = #dateValid
 * #SA56 ^property[=].valueDateTime = "2014-05-28T00:00:00+01:00"
@@ -594,6 +698,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA56 ^property[=].valueDateTime = "2016-04-28T00:00:00+01:00"
 * #SA56 ^property[+].code = #status
 * #SA56 ^property[=].valueCode = #active
+* #SA56 ^property[+].code = #cisis
+* #SA56 ^property[=].valueBoolean = true
 * #SA57 "Structure de coop avec mission coordination soins"
 * #SA57 ^designation[0].language = #fr-FR
 * #SA57 ^designation[=].use.system = "http://snomed.info/sct"
@@ -609,6 +715,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA57 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SA57 ^property[+].code = #status
 * #SA57 ^property[=].valueCode = #active
+* #SA57 ^property[+].code = #cisis
+* #SA57 ^property[=].valueBoolean = true
 * #SA58 "Entreprise de taxis"
 * #SA58 ^property[0].code = #dateValid
 * #SA58 ^property[=].valueDateTime = "2014-05-28T00:00:00+01:00"
@@ -616,6 +724,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA58 ^property[=].valueDateTime = "2016-04-28T00:00:00+01:00"
 * #SA58 ^property[+].code = #status
 * #SA58 ^property[=].valueCode = #active
+* #SA58 ^property[+].code = #cisis
+* #SA58 ^property[=].valueBoolean = true
 * #SA59 "Labo de biologie médicale hors catégorie standard"
 * #SA59 ^designation[0].language = #fr-FR
 * #SA59 ^designation[=].use.system = "http://snomed.info/sct"
@@ -631,6 +741,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA59 ^property[=].valueDateTime = "2016-09-01T00:00:00+01:00"
 * #SA59 ^property[+].code = #status
 * #SA59 ^property[=].valueCode = #active
+* #SA59 ^property[+].code = #cisis
+* #SA59 ^property[=].valueBoolean = true
 * #SA60 "Centres médicaux SNCF"
 * #SA60 ^property[0].code = #dateValid
 * #SA60 ^property[=].valueDateTime = "2016-12-22T12:00:00+01:00"
@@ -638,6 +750,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA60 ^property[=].valueDateTime = "2016-12-22T12:00:00+01:00"
 * #SA60 ^property[+].code = #status
 * #SA60 ^property[=].valueCode = #active
+* #SA60 ^property[+].code = #cisis
+* #SA60 ^property[=].valueBoolean = true
 * #SA61 "Structure Dispensatrice à domicile d'Oxygène à usage médical"
 * #SA61 ^designation[0].language = #fr-FR
 * #SA61 ^designation[=].use.system = "http://snomed.info/sct"
@@ -649,6 +763,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA61 ^property[=].valueDateTime = "2017-10-13T12:00:00+01:00"
 * #SA61 ^property[+].code = #status
 * #SA61 ^property[=].valueCode = #active
+* #SA61 ^property[+].code = #cisis
+* #SA61 ^property[=].valueBoolean = true
 * #SA62 "Ordre professionnel de santé"
 * #SA62 ^property[0].code = #dateValid
 * #SA62 ^property[=].valueDateTime = "2019-12-13T12:00:00+01:00"
@@ -671,6 +787,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA63 ^property[=].valueDateTime = "2025-05-23T12:00:00+01:00"
 * #SA63 ^property[+].code = #status
 * #SA63 ^property[=].valueCode = #active
+* #SA63 ^property[+].code = #cisis
+* #SA63 ^property[=].valueBoolean = true
 * #SA64 "Société de téléconsultation"
 * #SA64 ^designation[0].language = #fr-FR
 * #SA64 ^designation[=].use.system = "http://snomed.info/sct"
@@ -682,6 +800,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA64 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
 * #SA64 ^property[+].code = #status
 * #SA64 ^property[=].valueCode = #active
+* #SA64 ^property[+].code = #cisis
+* #SA64 ^property[=].valueBoolean = true
 * #SA65 "Antenne de pharmacie"
 * #SA65 ^property[0].code = #dateValid
 * #SA65 ^property[=].valueDateTime = "2024-03-29T12:00:00+01:00"
@@ -689,6 +809,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA65 ^property[=].valueDateTime = "2024-03-29T12:00:00+01:00"
 * #SA65 ^property[+].code = #status
 * #SA65 ^property[=].valueCode = #active
+* #SA65 ^property[+].code = #cisis
+* #SA65 ^property[=].valueBoolean = true
 * #SA66 "Services de Prévention et de Santé au Travail (SPST)"
 * #SA66 ^designation[0].language = #fr-FR
 * #SA66 ^designation[=].use.system = "http://snomed.info/sct"
@@ -704,6 +826,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA66 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
 * #SA66 ^property[+].code = #status
 * #SA66 ^property[=].valueCode = #active
+* #SA66 ^property[+].code = #cisis
+* #SA66 ^property[=].valueBoolean = true
 * #SA67 "Maisons médicales de garde (MMG)"
 * #SA67 ^designation[0].language = #fr-FR
 * #SA67 ^designation[=].use.system = "http://snomed.info/sct"
@@ -719,6 +843,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA67 ^property[=].valueDateTime = "2024-05-31T12:00:00+01:00"
 * #SA67 ^property[+].code = #status
 * #SA67 ^property[=].valueCode = #active
+* #SA67 ^property[+].code = #cisis
+* #SA67 ^property[=].valueBoolean = true
 * #SA68 "Services départementaux d'incendie et de secours (SDIS)"
 * #SA68 ^designation[0].language = #fr-FR
 * #SA68 ^designation[=].use = $sct#900000000000013009
@@ -732,6 +858,8 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA68 ^property[=].valueDateTime = "2024-07-26T12:00:00+01:00"
 * #SA68 ^property[+].code = #status
 * #SA68 ^property[=].valueCode = #active
+* #SA68 ^property[+].code = #cisis
+* #SA68 ^property[=].valueBoolean = true
 * #SA69 "Maisons de naissance"
 * #SA69 ^property[0].code = #dateValid
 * #SA69 ^property[=].valueDateTime = "2024-07-26T12:00:00+01:00"
@@ -739,3 +867,5 @@ Description: "Le secteur d'activité de santé est une donnée RPPS et correspon
 * #SA69 ^property[=].valueDateTime = "2024-07-26T12:00:00+01:00"
 * #SA69 ^property[+].code = #status
 * #SA69 ^property[=].valueCode = #active
+* #SA69 ^property[+].code = #cisis
+* #SA69 ^property[=].valueBoolean = true

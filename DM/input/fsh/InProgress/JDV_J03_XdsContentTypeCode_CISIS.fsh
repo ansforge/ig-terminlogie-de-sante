@@ -23,9 +23,5 @@ Description: "XDS contentTypeCode CI-SIS"
 * ^jurisdiction = urn:iso:std:iso:3166#FR
 * include codes from system $TRE-A00-ProducteurDocNonPS where cisis = "true"
 * include codes from system $tre-r404-mode-fonctionnement-activite-smsse-regulee where cisis = "true"
-* include codes from system $TRE-R02-SecteurActivite where status = "active"
+* include codes from system $TRE-R02-SecteurActivite where cisis = "true"
 * include codes from system $tre-r406-forme-activite-smsse-regulee where cisis = "true"
-* exclude #SA01 from system $TRE-R02-SecteurActivite
-* exclude #SA02 from system $TRE-R02-SecteurActivite
-* exclude #SA03 from system $TRE-R02-SecteurActivite
-* exclude #SA04 from system $TRE-R02-SecteurActivite
