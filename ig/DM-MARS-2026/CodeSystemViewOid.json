@@ -95,6 +95,14 @@
   "status" : "draft"
 },
 {
+  "id" : "TRE-R200-CanalCommunication",
+  "name" : "TRE_R200_CanalCommunication",
+  "title" : null,
+  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R200-CanalCommunication/FHIR/TRE-R200-CanalCommunication",
+  "identifier" : "urn:oid:1.2.250.1.213.3.3.1",
+  "status" : "active"
+},
+{
   "id" : "TRE-R210-ActeSpecifique",
   "name" : "TRE_R210_ActeSpecifique",
   "title" : null,
@@ -988,14 +996,6 @@
   "title" : null,
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R18-DisciplineAutorisation/FHIR/TRE-R18-DisciplineAutorisation",
   "identifier" : "urn:oid:1.2.250.1.213.1.6.1.67",
-  "status" : "active"
-},
-{
-  "id" : "TRE-R200-CanalCommunication",
-  "name" : "TRE_R200_CanalCommunication",
-  "title" : null,
-  "url" : "https://mos.esante.gouv.fr/NOS/TRE_R200-CanalCommunication/FHIR/TRE-R200-CanalCommunication",
-  "identifier" : "urn:oid:1.2.250.1.213.3.3.1",
   "status" : "active"
 },
 {

@@ -2206,14 +2206,18 @@ Requête sur le SMT
       },
       {
         "code" : "610",
-        "display" : "Pédiatrie spécialisée pneumologie"
+        "display" : "Pédiatrie spécialisée neurologie"
       },
       {
         "code" : "611",
-        "display" : "Psychiatrie de crise"
+        "display" : "Pédiatrie spécialisée pneumologie"
       },
       {
         "code" : "612",
+        "display" : "Psychiatrie de crise"
+      },
+      {
+        "code" : "613",
         "display" : "Echographie obstétricale de diagnostic"
       }]
     }]

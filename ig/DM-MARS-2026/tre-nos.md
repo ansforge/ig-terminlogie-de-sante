@@ -130,7 +130,7 @@ Vous touverez ici la liste des terminologies du NOS.
 | [TRE_R95_UsagerTitre](CodeSystem-TRE-R95-UsagerTitre.md) | Usager de titre professionnel | 13/12/2024 |
 | [TRE_R96_AutreFonctionSanitaire](CodeSystem-TRE-R96-AutreFonctionSanitaire.md) | Autres fonctions du domaine sanitaire | 15/12/2023 |
 | [TRE_R97_DroitExerciceCompl](CodeSystem-TRE-R97-DroitExerciceCompl.md) | Droit d'exercice complémentaire | 15/12/2023 |
-| [TRE_R200_CanalCommunication](CodeSystem-TRE-R200-CanalCommunication.md) | Canal de communication | 15/12/2023 |
+| [TRE_R200_CanalCommunication](CodeSystem-TRE-R200-CanalCommunication.md) | Canal de communication | 30/03/2026 |
 | [TRE_R201_TypeDivisionTerritoriale](CodeSystem-TRE-R201-TypeDivisionTerritoriale.md) | Type de division territoriale | 15/12/2023 |
 | [TRE_R202_AccessibiliteLieu](CodeSystem-TRE-R202-AccessibiliteLieu.md) | Niveaux d'accessibilité d'un établissement recevant du public (ERP) | 15/12/2023 |
 | [TRE_R203_StatutLieu](CodeSystem-TRE-R203-StatutLieu.md) | Statut lieu | 15/12/2023 |

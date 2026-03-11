@@ -124,6 +124,7 @@ Catégorie d’organisation
   {
     "code" : "02",
     "display" : "Atelier thérapeutique en psychiatrie",
+    "definition" : "L’atelier thérapeutique a pour objectif de répondre aux projets et aux besoins d’insertion ou de réinsertion sociale et professionnelle des personnes en situation de handicap psychique stabilisées dans leur maladie. L'atelier thérapeutique est une activité encadrée par du personnel soignant dont l'objectif est de permettre une évaluation des capacités d'autonomie globale du bénéficiaire (manuelles, relationnelles, sociales). Cette activité se déroule dans un lieu adapté. L'ensemble des observations faites au cours de séances d'atelier permet une évaluation plus fine du diagnostic et des capacités réelles du patient. L'atelier thérapeutique est une activité transitionnelle non rémunérée. Il s’agit, pour les personnes accueillies, de nouer ou renouer avec une activité quotidienne de travail dans le but d’accéder à un emploi dans un établissement et service d’aide par le travail (ESAT) ou autre alternative.",
     "designation" : [{
       "language" : "fr-FR",
       "use" : {

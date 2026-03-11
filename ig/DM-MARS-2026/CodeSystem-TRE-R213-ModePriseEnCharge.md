@@ -1453,6 +1453,14 @@ Mode de la prise en charge
     "code" : "58",
     "display" : "Suivi ou coordination de parcours",
     "definition" : "La coordination de parcours est un mode de prise en charge correspondant à l'appui à l'organisation des parcours complexes ou des parcours spécifiques à certaines pathologies.  Elle a pour objectif d'améliorer la fluidité des échanges entre les différents acteurs.",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Suivi ou coord. de parcours"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2021-03-26T12:00:00+01:00"

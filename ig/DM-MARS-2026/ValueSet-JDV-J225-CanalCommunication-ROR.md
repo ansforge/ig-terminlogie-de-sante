@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J225-CanalCommunication-ROR/FHIR/JDV-J225-CanalCommunication-ROR | *Version*:20220826120000 | |
-| Active as of 2022-08-26 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J225_CanalCommunication_ROR |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J225-CanalCommunication-ROR/FHIR/JDV-J225-CanalCommunication-ROR | *Version*:20260330120000 | |
+| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J225_CanalCommunication_ROR |
 | *Other Identifiers:*OID:1.2.250.1.213.3.4.57 | | |
 
  
@@ -71,11 +71,11 @@ Requête sur le SMT
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.4.57"
   }],
-  "version" : "20220826120000",
+  "version" : "20260330120000",
   "name" : "JDV_J225_CanalCommunication_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2022-08-26T12:00:00+01:00",
+  "date" : "2026-03-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Canal de communication",
   "jurisdiction" : [{
@@ -87,7 +87,7 @@ Requête sur le SMT
   "compose" : {
     "include" : [{
       "system" : "https://mos.esante.gouv.fr/NOS/TRE_R200-CanalCommunication/FHIR/TRE-R200-CanalCommunication",
-      "version" : "20231215120000",
+      "version" : "20260330120000",
       "concept" : [{
         "code" : "1",
         "display" : "Téléphone mobile"
@@ -102,7 +102,7 @@ Requête sur le SMT
       },
       {
         "code" : "4",
-        "display" : "Adresse web"
+        "display" : "Site internet"
       },
       {
         "code" : "5",

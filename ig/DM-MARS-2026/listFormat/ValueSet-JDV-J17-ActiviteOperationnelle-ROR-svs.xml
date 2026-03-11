@@ -1599,11 +1599,14 @@
                   displayName="Fonction-ressource : expertise-conseils auprès de acteurs du secteur judiciaire"/>
          <Concept code="610"
                   codeSystem="1.2.250.1.213.3.3.12"
-                  displayName="Pédiatrie spécialisée pneumologie"/>
+                  displayName="Pédiatrie spécialisée neurologie"/>
          <Concept code="611"
                   codeSystem="1.2.250.1.213.3.3.12"
-                  displayName="Psychiatrie de crise"/>
+                  displayName="Pédiatrie spécialisée pneumologie"/>
          <Concept code="612"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Psychiatrie de crise"/>
+         <Concept code="613"
                   codeSystem="1.2.250.1.213.3.3.12"
                   displayName="Echographie obstétricale de diagnostic"/>
       </ConceptList>

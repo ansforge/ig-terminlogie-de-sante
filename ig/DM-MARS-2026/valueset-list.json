@@ -1645,7 +1645,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J225-CanalCommunication-ROR/FHIR/JDV-J225-CanalCommunication-ROR",
-    "version" : "20220826120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "JDV_J225_CanalCommunication_ROR",
     "title" : null,

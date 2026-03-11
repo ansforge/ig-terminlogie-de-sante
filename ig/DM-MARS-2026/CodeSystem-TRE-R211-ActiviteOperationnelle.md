@@ -59,7 +59,7 @@ Activite Operationnelle
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 612,
+  "count" : 613,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -11024,7 +11024,7 @@ Activite Operationnelle
   },
   {
     "code" : "610",
-    "display" : "Pédiatrie spécialisée pneumologie",
+    "display" : "Pédiatrie spécialisée neurologie",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
@@ -11040,6 +11040,22 @@ Activite Operationnelle
   },
   {
     "code" : "611",
+    "display" : "Pédiatrie spécialisée pneumologie",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "612",
     "display" : "Psychiatrie de crise",
     "definition" : "Activité de soins psychiatriques qui assure une prise en charge immédiate des situations de crise psychique aiguë, caractérisées par une souffrance intense ou un risque pour la personne, afin de prévenir une aggravation ou une hospitalisation non adaptée. Elle s’appuie sur des interventions brèves, coordonnées et pluridisciplinaires, en lien avec les dispositifs d’urgence.",
     "property" : [{
@@ -11056,7 +11072,7 @@ Activite Operationnelle
     }]
   },
   {
-    "code" : "612",
+    "code" : "613",
     "display" : "Echographie obstétricale de diagnostic",
     "definition" : "En cas d’aspect inhabituel (morphologique et/ou biométrique), de doute ou de difficulté persistante à fournir les éléments demandés pour l’examen de dépistage. Cet examen de deuxième rang est réalisé par des praticiens ayant une expérience et une expertise spécifiques et exerçant en relation avec un (ou plusieurs) Centre(s) Pluridisciplinaire(s) de Diagnostic Prénatal.",
     "property" : [{

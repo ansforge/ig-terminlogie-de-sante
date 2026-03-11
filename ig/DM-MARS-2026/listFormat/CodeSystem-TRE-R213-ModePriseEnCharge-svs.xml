@@ -530,7 +530,7 @@
                   dateValid="20210326120000"
                   displayName="Suivi ou coordination de parcours"
                   longDesignation="Suivi ou coordination de parcours"
-                  shortDesignation="Suivi ou coordination de parcours"
+                  shortDesignation="Suivi ou coord. de parcours"
                   descriptionMetier="La coordination de parcours est un mode de prise en charge correspondant à l'appui à l'organisation des parcours complexes ou des parcours spécifiques à certaines pathologies.  Elle a pour objectif d'améliorer la fluidité des échanges entre les différents acteurs."/>
          <Concept code="59"
                   codeSystem="1.2.250.1.213.3.3.13"
