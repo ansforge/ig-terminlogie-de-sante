@@ -53,7 +53,7 @@ Description: "Catégorie d'organisation"
 * #01 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #01 ^property[+].code = #status
 * #01 ^property[=].valueCode = #active
-* #02 "Atelier thérapeutique en psychiatrie"
+* #02 "Atelier thérapeutique en psychiatrie" "L’atelier thérapeutique a pour objectif de répondre aux projets et aux besoins d’insertion ou de réinsertion sociale et professionnelle des personnes en situation de handicap psychique stabilisées dans leur maladie. L'atelier thérapeutique est une activité encadrée par du personnel soignant dont l'objectif est de permettre une évaluation des capacités d'autonomie globale du bénéficiaire (manuelles, relationnelles, sociales). Cette activité se déroule dans un lieu adapté. L'ensemble des observations faites au cours de séances d'atelier permet une évaluation plus fine du diagnostic et des capacités réelles du patient. L'atelier thérapeutique est une activité transitionnelle non rémunérée. Il s’agit, pour les personnes accueillies, de nouer ou renouer avec une activité quotidienne de travail dans le but d’accéder à un emploi dans un établissement et service d’aide par le travail (ESAT) ou autre alternative."
 * #02 ^designation[0].language = #fr-FR
 * #02 ^designation[=].use.system = "http://snomed.info/sct"
 * #02 ^designation[=].use = $sct#900000000000013009

@@ -4787,24 +4787,31 @@ Description: "Activite Operationnelle"
 * #609 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #609 ^property[+].code = #status
 * #609 ^property[=].valueCode = #active
-* #610 "Pédiatrie spécialisée pneumologie"
+* #610 "Pédiatrie spécialisée neurologie"
 * #610 ^property[0].code = #dateValid
 * #610 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #610 ^property[+].code = #dateMaj
 * #610 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #610 ^property[+].code = #status
 * #610 ^property[=].valueCode = #active
-* #611 "Psychiatrie de crise" "Activité de soins psychiatriques qui assure une prise en charge immédiate des situations de crise psychique aiguë, caractérisées par une souffrance intense ou un risque pour la personne, afin de prévenir une aggravation ou une hospitalisation non adaptée. Elle s’appuie sur des interventions brèves, coordonnées et pluridisciplinaires, en lien avec les dispositifs d’urgence."
+* #611 "Pédiatrie spécialisée pneumologie"
 * #611 ^property[0].code = #dateValid
 * #611 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #611 ^property[+].code = #dateMaj
 * #611 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #611 ^property[+].code = #status
 * #611 ^property[=].valueCode = #active
-* #612 "Echographie obstétricale de diagnostic" "En cas d’aspect inhabituel (morphologique et/ou biométrique), de doute ou de difficulté persistante à fournir les éléments demandés pour l’examen de dépistage. Cet examen de deuxième rang est réalisé par des praticiens ayant une expérience et une expertise spécifiques et exerçant en relation avec un (ou plusieurs) Centre(s) Pluridisciplinaire(s) de Diagnostic Prénatal."
+* #612 "Psychiatrie de crise" "Activité de soins psychiatriques qui assure une prise en charge immédiate des situations de crise psychique aiguë, caractérisées par une souffrance intense ou un risque pour la personne, afin de prévenir une aggravation ou une hospitalisation non adaptée. Elle s’appuie sur des interventions brèves, coordonnées et pluridisciplinaires, en lien avec les dispositifs d’urgence."
 * #612 ^property[0].code = #dateValid
 * #612 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #612 ^property[+].code = #dateMaj
 * #612 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
 * #612 ^property[+].code = #status
 * #612 ^property[=].valueCode = #active
+* #613 "Echographie obstétricale de diagnostic" "En cas d’aspect inhabituel (morphologique et/ou biométrique), de doute ou de difficulté persistante à fournir les éléments demandés pour l’examen de dépistage. Cet examen de deuxième rang est réalisé par des praticiens ayant une expérience et une expertise spécifiques et exerçant en relation avec un (ou plusieurs) Centre(s) Pluridisciplinaire(s) de Diagnostic Prénatal."
+* #613 ^property[0].code = #dateValid
+* #613 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #613 ^property[+].code = #dateMaj
+* #613 ^property[=].valueDateTime = "2026-03-30T12:00:00+01:00"
+* #613 ^property[+].code = #status
+* #613 ^property[=].valueCode = #active
